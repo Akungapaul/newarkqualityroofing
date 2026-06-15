@@ -5,6 +5,8 @@ export const orangeRoofThermalImagingInspections: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing scans Orange\'s flat and low-slope roofs with infrared imaging** — the **Valley Arts converted-loft and Main Street commercial buildings** and the **two-/three-family rental stock** — to map wet insulation, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**A roof thermal imaging inspection** is a non-destructive infrared survey that scans a roof surface for temperature anomalies marking moisture-contaminated insulation beneath an intact membrane. It applies ASTM C1153, the standard practice for locating wet insulation in roofing systems using infrared imaging, then verifies each anomaly by core cut.',
   overview: [
     '**A thermal imaging inspection serves Orange\'s flat-roofed loft, commercial, and rental buildings**, where the wet insulation hiding under a low-slope membrane stays invisible to a surface look yet reads as a heat anomaly an infrared camera catches.',
     '**The Valley Arts converted-industrial and loft buildings near the Highland Avenue station** carry exactly the large flat and low-slope membrane roofs an infrared survey reads best, where parapets and internal drainage conceal standing water and a recovered membrane seals moisture between its layers. The same low-slope assemblies recur down the Main Street commercial corridor on the downtown\'s mixed-use blocks. ASTM C1153, the standard practice for locating wet insulation in roofing systems, governs how those membranes are scanned, per the NRCA and IIBEC.',

@@ -5,6 +5,8 @@ export const newarkRoofWaterproofing: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing waterproofs roofs across Newark**, sealing the roof deck, ice-prone eaves, valleys, and flashing details on the city\'s row houses, brownstones, and Ironbound flat-roof buildings, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof waterproofing** seals the layer beneath the roof covering — the deck, the eaves, the valleys, and the flashing details — so wind-driven rain that gets past the shingles or membrane stops at the deck rather than entering the home.',
   overview: [
     '**Newark Quality Roofing waterproofs the sealed roof deck, the ice-prone eaves, the valleys and penetrations, and the low-slope and flashing details** across Newark. Roof waterproofing seals the layer beneath the covering so wind-driven rain that gets past shingles or membrane stops at the deck rather than entering the home.',
     '**The sealed roof deck** anchors the work, because a sealed deck cuts water entry into the home by as much as 95% compared with an unsealed deck, per the Insurance Institute for Business & Home Safety, and on a 2,000-square-foot unsealed roof stripped of shingles up to 750 gallons of water per inch of rain enter the attic, per IBHS research. Newark Quality Roofing seals the deck during a tear-off or re-roof, the point at which the bare sheathing is exposed across Forest Hill Victorians, Roseville brownstones, and Vailsburg two-families.',

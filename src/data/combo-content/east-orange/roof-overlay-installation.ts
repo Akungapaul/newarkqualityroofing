@@ -5,6 +5,8 @@ export const eastOrangeRoofOverlayInstallation: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs roof overlays across East Orange and Essex County, applying a second layer of asphalt shingles over one existing sound asphalt layer without a tear-off** on qualifying homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [
     '**Newark Quality Roofing installs an asphalt-shingle roof overlay in East Orange: a second shingle layer over one existing sound asphalt layer, with no tear-off** on a qualifying roof, the recover ARMA defines as an additional covering over an existing one.',
     '**A roof overlay** skips the tear-off labor and the disposal, so a roof overlay runs roughly 20–25% less than a full tear-off, a national figure per HomeGuide and Angi. The saving matters across East Orange, where 31.0% of housing is owner-occupied and 87.6% of units sit in multi-unit structures per U.S. Census QuickFacts, so a landlord recovering a pre-war walk-up in Brick Church or Elmwood weighs the lower upfront cost against the trade-offs.',

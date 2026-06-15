@@ -5,6 +5,8 @@ export const orangeRubberRoofingEpdm: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs, reseams, and repairs EPDM rubber membrane across Orange and Essex County** on Valley Arts loft flat roofs, Main Street commercial buildings, and two- and three-family rear extensions, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Rubber roofing EPDM** is a single-ply ethylene propylene diene monomer membrane that waterproofs a flat or low-slope roof, bonded to the deck or insulation and sealed at the laps. EPDM protects roof sections too shallow to shed water with shingles.',
   overview: [
     '**Newark Quality Roofing installs, reseams, patches, and details EPDM rubber membrane** on Orange\'s flat and low-slope roofs — **Valley Arts** loft buildings, **Main Street** commercial blocks, and the **rear extensions** of two- and three-family homes. EPDM is a single-ply rubber membrane.',
     '**Valley Arts** converted-industrial and loft buildings near the Highland Avenue station carry large low-slope decks, parapets, and internal drainage that define a flat membrane roof. A Newark Quality Roofing installation bonds the rubber sheet to the deck or insulation, then details the parapet flashing and the drain sumps.',

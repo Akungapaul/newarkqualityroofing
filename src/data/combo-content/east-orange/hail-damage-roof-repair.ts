@@ -5,6 +5,8 @@ export const eastOrangeHailDamageRoofRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides hail damage roof repair across East Orange and Essex County, documenting impact bruising, granule loss, and dented flashing for the insurance adjuster and resealing the damage** on multi-family, pre-war apartment, and single-family roofs.',
+  definition:
+    '**Hail damage roof repair** restores the roof covering at each hail impact point — bruised and fractured shingles, granule loss, and dented metal flashing — and documents the damage for an insurance claim. It classifies functional damage that exposes the asphalt mat against cosmetic surface marking.',
   overview: [
     '**Newark Quality Roofing inspects, documents, and reseals hail damage** across East Orange\'s pre-war apartments, two- and three-family walk-ups, and older single-family homes. Hail damage roof repair restores the water layer where impact has bruised the shingle mat, knocked granules loose, or dented the flashing, gutters, and vents.',
     '**Hail damage** appears as circular bruises with displaced granules on asphalt shingles and as dented soft metal on flashing, gutters, and downspouts, the field signs of impact, per IBHS hail-assessment guidance. NOAA classifies hail as severe at three-quarters of an inch or larger, and a peer-reviewed American Meteorological Society study found functional shingle damage begins near one inch on aged 3-tab and around 1.25 inches on most common products. A Newark Quality Roofing inspection rates each roof plane against those thresholds.',

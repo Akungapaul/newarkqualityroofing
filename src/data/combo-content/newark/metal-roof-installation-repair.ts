@@ -5,6 +5,8 @@ export const newarkMetalRoofInstallationRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and repairs metal roofs across Newark**, fitting **standing-seam panels and metal shingles** and resealing failed seams, fasteners, and corroded sections on row-houses, brownstones, and Ironbound buildings as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Metal roof installation and repair** fits a concealed-fastener or exposed-fastener metal covering to the roof deck, and restores an existing metal roof by resealing separated seams, backed-out fasteners, and corroded panel sections. The covering uses steel, aluminum, copper, or zinc panels or shingles.',
   overview: [
     '**Newark Quality Roofing installs and repairs metal roofs across Newark in 4 systems: standing-seam panels, metal shingles, copper, and aluminum** — for residential and commercial properties. Metal installation fits a concealed- or exposed-fastener cover to the deck, and metal repair reseals the seams, fasteners, and corroded sections where a cover admits water.',
     '**Standing-seam panels** conceal the fasteners and run continuous from ridge to eave on a clip system that lets each panel expand and contract along its length, so standing-seam metal develops fewer leaks than an exposed-fastener metal-shingle roof, where the washer seals at exposed fasteners fail first. Metal lasts 40 to 80 years and copper 70-plus years, per the InterNACHI life-expectancy chart, against 20 years for 3-tab asphalt and 30 years for architectural asphalt — a span that fits the long ownership horizon of Newark\'s Forest Hill and Roseville housing stock.',

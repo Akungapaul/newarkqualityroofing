@@ -5,6 +5,8 @@ export const eastOrangeCedarShakeRoofing: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides cedar shake roofing across East Orange and Essex County, installing and repairing western red cedar shake roofs over a ventilated deck** on older single-family homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Cedar shake roofing** covers a sloped roof in hand-split western red cedar set over an air-spaced deck, the assembly that sheds water at the surface while the underside dries between rain events. Western red cedar carries natural extractives that resist decay.',
   overview: [
     '**Newark Quality Roofing installs and repairs cedar shake roofing across East Orange**, laying hand-split **western red cedar** over an air-spaced deck that sheds water at the surface while the underside dries.',
     '**Cedar shake roofing** lasts 20 to 40 years, per the Cedar Shake and Shingle Bureau, against the single "Wood" service life of 25 years on the InterNACHI life-expectancy chart, because moisture management, not the cedar itself, sets the lifespan. A Newark Quality Roofing cedar shake roof holds at least 1.5 inches of air space beneath the shakes for drying, per Cedar Shake and Shingle Bureau and NRCA guidance.',

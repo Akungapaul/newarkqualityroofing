@@ -5,6 +5,8 @@ export const newarkRoofFlashingInstallationRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and repairs roof flashing across Newark**, sealing the chimneys, sidewalls, valleys, skylights, and penetrations where most roof leaks originate on the city\'s brownstones, row houses, and Ironbound flat-roof commercial blocks.',
+  definition:
+    '**Roof flashing** is the sheet metal that seals the transitions and penetrations of a roof — chimneys, walls, valleys, skylights, and vent stacks. Flashing sheds water at every joint a continuous shingle field cannot cover, the detail where most roof leaks originate.',
   overview: [
     '**Roof flashing is the sheet metal that seals the transitions and penetrations of a roof** — the chimneys, sidewalls, valleys, skylights, and vent stacks where a continuous shingle field cannot shed water. Across Newark, flashing details join masonry to membrane on party-wall row houses, Forest Hill brownstones, and commercial parapets in the Ironbound.',
     '**Roof flashing** carries the load on Newark\'s dense urban stock, where two attached row houses meet at a shared masonry wall and each pitched roof drains independently. A Newark Quality Roofing crew details the counter flashing set into that party wall to seal both planes, the transition suburban roofs rarely present and where lateral water migration through the mortar bed drives recurring leaks.',

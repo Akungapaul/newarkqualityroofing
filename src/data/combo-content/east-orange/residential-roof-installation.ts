@@ -5,6 +5,8 @@ export const eastOrangeResidentialRoofInstallation: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs residential roofs across East Orange, building the complete deck-to-ridge system on new construction and full replacements** on single-family homes, two- and three-family walk-ups, and pre-war apartments as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Residential roof installation** builds a complete roof system on a house from the deck up — ice barrier, underlayment, flashing, the finish covering, and ventilation. It applies to new construction and full replacements, replacing the entire weatherproof assembly rather than patching a failed detail.',
   overview: [
     '**Newark Quality Roofing installs residential roofs across East Orange**, building the complete system from the deck up — ice barrier, underlayment, flashing, cover, and ventilation — rather than patching a single failed detail.',
     '**Newark Quality Roofing installs 5 residential roof systems** across East Orange: architectural and 3-tab asphalt shingle, standing-seam and metal-shingle, natural slate, cedar shake, and low-slope membrane — on single-family homes, two- and three-family walk-ups, and the pre-war apartment stock that lines the Central Avenue and Dr. Martin Luther King Jr. Boulevard corridors. Material lifespan separates the systems: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, cedar 25 years, metal 40 to 80 years, and natural slate 60 to 150 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance.',

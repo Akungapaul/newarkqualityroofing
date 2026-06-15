@@ -5,6 +5,8 @@ export const orangeGutterInstallationRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs gutters across Orange and Essex County, fitting seamless aluminum, copper, and steel gutters, matched downspouts, and resealing leaks, sagging runs, and clogged systems** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [
     '**Newark Quality Roofing performs seamless gutter installation, sectional repair, downspout extension, sag and re-pitch correction, and leak reseal** across the City of Orange Township’s two- and three-family homes, Seven Oaks houses, and Valley Arts loft buildings. Gutter installation repair restores the drainage path that carries roof runoff away from the fascia, soffit, and foundation.',
     '**Seamless gutter installation** forms one continuous run on site, eliminating the lapped joints where sectional gutters most often leak under debris and thermal cycling, per gutter manufacturer Englert. Gutter material sets the service life: copper gutters last 50-plus years, aluminum runs 20 to 40-plus years, galvanized steel 20 years, and vinyl 25-plus years, per the InterNACHI Estimated Life Expectancy Chart, so a Newark Quality Roofing installation matches the material to the Orange building and budget.',

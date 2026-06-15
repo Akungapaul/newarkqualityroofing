@@ -5,6 +5,8 @@ export const newarkFireDamageRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing replaces fire-damaged roofs across Newark and Essex County**, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a **Class A fire-rated roof** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
     '**Newark Quality Roofing replaces fire-damaged roofs across Newark**, removing the char layer, replacing compromised framing and decking, and rebuilding the roof to current code rather than recovering over fire-weakened material on row houses, brownstones, and Ironbound flat-roof buildings.',
     '**Fire-damaged roofs** span the whole assembly, because a roof is a structural assembly of covering, underlayment, decking, and framing, so fire, heat, smoke, and firefighting water damage reach beyond the surface, per the U.S. Forest Products Laboratory. The American Wood Council uses a nominal char rate of 1.5 inches of wood per hour for structural fire design, and the char layer carries essentially zero residual structural capacity and is removed.',

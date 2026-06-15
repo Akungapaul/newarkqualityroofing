@@ -5,6 +5,8 @@ export const eastOrangeEmergencyRoofRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides emergency roof repair across East Orange and Essex County, stabilizing active interior leaks, wind-stripped covering, fallen-tree punctures, and ice-dam backup** on multi-family walk-ups and older single-family homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Emergency roof repair** stabilizes a sudden roof failure — an active leak, storm-stripped shingles, a fallen-tree puncture, or ice-dam backup — to stop water entry before the loss compounds. It tarps or patches the breach first, then schedules the permanent repair.',
   overview: [
     '**Newark Quality Roofing stabilizes active interior leaks, wind-stripped shingles and membrane, fallen-tree punctures, and ice-dam backup** across East Orange\'s multi-family walk-ups, pre-war apartments, and older single-family homes. Emergency roof repair stops the water entry first, then schedules the permanent repair, because a stabilized roof stops the loss from compounding.',
     '**Active interior leaks** drive the priority on East Orange\'s dense multi-family stock, where water through one roof crosses occupied units below rather than a single attic, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold. A Newark Quality Roofing emergency crew tarps or patches the breach to stop entry within that window.',

@@ -5,6 +5,8 @@ export const newarkRoofReplacementCost: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing prices and replaces residential and commercial roofs across Newark and Essex County**, itemizing roof size, material, tear-off, decking, and the NJ code path in a free written estimate as a **New Jersey Home Improvement Contractor**.',
+  definition:
+    '**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.',
   overview: [
     '**Newark Quality Roofing prices a roof replacement across Newark from roof size, pitch and complexity, material choice, existing layers and tear-off, decking repair, flashing and ventilation, and New Jersey labor and code** — for residential and commercial properties.',
     '**Roof size, pitch, and material choice** set the largest share of a Newark replacement cost, because a roofing square covers 100 square feet and valleys, dormers, and the steep mansard sections common on Forest Hill brownstones add material and labor over a simple gable, per industry cost guidance. Material drives the per-square-foot cost most, from asphalt shingle at $5.50–$9.50, per Josten Roofing NJ pricing, to slate at $10–$30 on the period slate roofs of Roseville and the North Ward, per NJ roofing guides.',

@@ -5,6 +5,8 @@ export const eastOrangeSolarShingleInstallation: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs solar shingles across East Orange and Essex County, replacing the roof covering with building-integrated solar shingles** that generate power while serving as the roof itself on owner-occupied homes, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.',
   overview: [
     '**Newark Quality Roofing installs building-integrated solar shingles** on East Orange homes, where the photovoltaic material is the roof covering itself rather than rack-mounted hardware added on top. A solar shingle is building-integrated photovoltaics, BIPV, distinct from building-applied photovoltaics, BAPV, the panels mounted over an existing roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS.',
     '**Building-integrated solar shingles** replace the roof covering rather than adding hardware to a finished roof, so a solar-shingle project pairs with a new roof or a full reroof. CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed. Newark Quality Roofing installs three named systems across Essex County: GAF Energy Timberline Solar, Tesla Solar Roof, and CertainTeed Solstice, per each manufacturer.',

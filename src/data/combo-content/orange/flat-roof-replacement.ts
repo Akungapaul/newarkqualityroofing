@@ -5,6 +5,8 @@ export const orangeFlatRoofReplacement: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing replaces flat and low-slope roofs across Orange and Essex County, stripping the failed membrane to the deck, repairing the substrate, then installing a new single-ply or modified-bitumen system** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Flat roof replacement** strips a failed membrane from a flat or low-slope roof to the deck, repairs the substrate, and installs a new single-ply or modified-bitumen system. It rebuilds a water-shedding surface engineered for minimal slope.',
   overview: [
     '**Newark Quality Roofing installs EPDM rubber, TPO, PVC, and modified-bitumen membranes** on the flat and low-slope roofs across Orange, from Valley Arts loft buildings to Main Street commercial blocks and Seven Oaks home additions. Flat roof replacement strips the membrane to the deck, repairs the substrate, and installs a new system that ends recurring leaks rather than patching one seam.',
     '**EPDM, TPO, PVC, and modified-bitumen systems** carry different lifespans: EPDM lasts 15 to 25 years, TPO 7 to 20 years on the InterNACHI chart and commonly 15 to 25 years in practice, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, while PVC single-ply lasts 20 to 30 years, per the Single Ply Roofing Industry. Newark Quality Roofing matches the membrane to the building and the Essex County climate before tear-off.',

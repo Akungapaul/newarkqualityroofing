@@ -5,6 +5,8 @@ export const orangeTpoRoofingInstallation: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs TPO roofing across Orange and Essex County, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams** to the low-slope roofs on its Valley Arts lofts, Main Street commercial blocks, and two- and three-family stock.',
+  definition:
+    '**TPO roofing** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface. The welded seams fuse the sheets into one continuous water layer.',
   overview: [
     '**Newark Quality Roofing installs TPO single-ply membrane** on the flat and low-slope roofs across Orange. TPO, thermoplastic polyolefin, is a reflective membrane that heat-welds at the seams into one continuous water layer over a flat or low-slope roof.',
     '**TPO single-ply membrane** suits the flat-roof stock that runs through Orange — the converted-industrial loft and warehouse buildings of the Valley Arts area near the Highland Avenue station, the mixed-use commercial blocks along the Main Street corridor downtown, and the flat-roof extensions and garage roofs behind the city\'s dense two- and three-family stock. The work spans full membrane replacement, recover over a sound roof, insulation and tapered drainage, flashing detailing, and seam welding, and TPO lasts 7 to 20 years per the InterNACHI life-expectancy chart, with 15 to 25 years cited in field practice per Progressive Materials.',

@@ -5,6 +5,8 @@ export const eastOrangeFlatRoofInstallationRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs flat and low-slope roofs across East Orange, servicing EPDM, TPO, and modified-bitumen membranes** on pre-war apartment walk-ups, two- and three-family buildings, and Central Avenue mixed-use blocks, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Flat roof installation and repair** seals a flat or low-slope roof with a continuous waterproof membrane — EPDM rubber, TPO thermoplastic, or modified bitumen — and corrects the slope and drainage the roof depends on. The work ranges from a single seam patch to a full membrane replacement.',
   overview: [
     '**Newark Quality Roofing installs and repairs EPDM rubber, TPO thermoplastic, and modified-bitumen membranes** on East Orange flat and low-slope buildings. Flat roof installation and repair seals the continuous membrane and corrects the drainage that a low-slope roof depends on, from a single seam patch to a full membrane replacement.',
     '**Flat-roof membranes** carry no gravity shed, so the membrane and the slope manage every drop, and a low-slope roof requires at least ¼ inch per foot of slope to drain, with ponding water remaining more than 48 hours counted as a defect, per the NRCA and ARMA. EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart.',

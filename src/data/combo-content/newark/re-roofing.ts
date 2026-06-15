@@ -5,6 +5,8 @@ export const newarkReRoofing: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides re-roofing across Newark**, replacing a worn roof covering with a new underlayment-and-cover system once the existing roof crosses the replacement threshold by age or condition.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
     '**Newark Quality Roofing provides re-roofing across Newark, replacing a worn roof covering with a new underlayment-and-cover system once the existing roof crosses the replacement threshold by age or condition** as a New Jersey Home Improvement Contractor.',
     '**Re-roofing** is the umbrella term for recovering or replacing an existing roof covering, so it spans a full tear-off replacement and a recover over a single sound layer, per the Asphalt Roofing Manufacturers Association and the IRC Section R908 reroofing provisions. On Newark\'s dense urban core — predominantly two- and three-family and renter-occupied — the work most often arrives as a full tear-off on aging row-house and brownstone stock.',

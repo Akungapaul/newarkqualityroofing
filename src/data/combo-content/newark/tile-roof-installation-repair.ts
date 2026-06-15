@@ -5,6 +5,8 @@ export const newarkTileRoofInstallationRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and repairs clay and concrete tile roofs across Newark**, replacing **broken tiles**, restoring **failed underlayment**, and resealing ridge, hip, and flashing details as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof installation and repair** sets a clay or concrete tile covering over a waterproof underlayment, and restores an existing tile roof by replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.',
   overview: [
     '**Tile roof installation and repair** in Newark sets a clay or concrete tile cover over a waterproof **underlayment**, the layer that carries the actual water resistance while the tile sheds rainfall and shields the membrane from UV.',
     '**Tile roofs** in Newark appear on the early-20th-century period homes the North Ward and Forest Hill retain, plus some church and institutional buildings, since about a quarter of Newark homes predate 1940. Clay and concrete tile from that era survives where the framing was built to carry the load, and Newark Quality Roofing installs and repairs both across these properties.',

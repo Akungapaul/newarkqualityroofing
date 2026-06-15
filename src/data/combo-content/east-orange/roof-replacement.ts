@@ -5,6 +5,8 @@ export const eastOrangeRoofReplacement: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing replaces roofs across East Orange**, stripping the roof to the deck, repairing the sheathing, and installing a new underlayment-and-cover system on pre-war apartments, walk-ups, and single-family homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.',
   overview: [
     '**Newark Quality Roofing replaces asphalt, metal, slate, and low-slope membrane roof systems** across East Orange\'s multi-family apartment buildings, two- and three-family walk-ups, and older single-family homes. **Roof replacement** strips the existing roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system, the work that fixes a roof past its service life rather than patching a single failed detail.',
     '**Roof replacement** on East Orange\'s dense rental stock is a portfolio decision as much as a building one, because the U.S. Census records 87.6% of units in multi-unit structures and roughly 31% owner-occupancy, so much of the work serves landlords managing two- and three-family walk-ups and pre-war apartments along the Brick Church, Elmwood, and Doddtown corridors. A Newark Quality Roofing replacement matches the new system to each building and the Essex County climate before tear-off.',

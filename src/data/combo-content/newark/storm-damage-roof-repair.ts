@@ -5,6 +5,8 @@ export const newarkStormDamageRoofRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides storm damage roof repair across Newark**, repairing **wind-lifted shingles**, hail-bruised surfaces, debris punctures, and storm-opened flashing as a New Jersey Home Improvement Contractor, with insurance-claim documentation.',
+  definition:
+    '**Storm damage roof repair** restores the roof covering where a storm opened a detail — wind-lifted shingles, hail-bruised surfaces, debris punctures, or displaced flashing — and documents the damage for an insurance claim. It separates storm-caused damage from pre-existing wear, the distinction that governs coverage.',
   overview: [
     '**Newark Quality Roofing repairs storm damage across Newark**, restoring the water layer a storm opened at **wind-lifted shingles**, hail-bruised surfaces, debris punctures, and lifted flashing on the city\'s row houses, brownstones, and flat-roof commercial buildings.',
     '**Wind-lifted and missing shingles** drive most residential storm calls, because uplift concentrates at roof edges, rakes, and corners where damage starts, per IBHS wind research. Slate on the 1870s–1920s Victorian, Colonial, and Beaux-Arts homes of Forest Hill and the North Ward sheds individual tiles in a nor\'easter, while wind strips tabs from the asphalt roofs across Roseville, Vailsburg, and Weequahic.',

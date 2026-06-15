@@ -5,6 +5,8 @@ export const newarkStormDamageRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing** provides **storm damage roof replacement** across Newark and Essex County, documenting wind, hail, and nor\'easter damage with photographs, then replacing the roof to manufacturer specification as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**Storm damage roof replacement** removes and rebuilds a roof structurally compromised by wind, hail, or a severe storm, restoring the full weatherproof system. It follows documentation of the storm damage pattern across the covering, flashing, and deck.',
   overview: [
     '**Storm damage roof replacement** strips a storm-failed roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system. **Newark Quality Roofing** documents the wind, hail, and nor\'easter damage for the insurance claim and matches the new roof to the Essex County climate before tear-off.',
     '**Storm damage** on a Newark roof concentrates where the building stock is most exposed: bay-facing slopes and flat-roof commercial membranes in the low-lying Ironbound, steep slate and period detail on Forest Hill\'s 1870s–1920s Victorians, and the shared party-wall edges of North Ward and Roseville row-houses. A Newark Quality Roofing storm replacement documents the damage for the insurance claim before tear-off.',

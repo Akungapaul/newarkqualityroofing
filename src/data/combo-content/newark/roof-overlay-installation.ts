@@ -5,6 +5,8 @@ export const newarkRoofOverlayInstallation: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs roof overlays across Newark**, applying a second layer of asphalt shingles over one existing sound asphalt layer without a tear-off, as a **New Jersey Home Improvement Contractor, licensed and insured**.',
+  definition:
+    '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [
     '**Newark Quality Roofing installs an asphalt-shingle roof overlay across Newark: a second shingle layer applied over one existing sound asphalt layer, with no tear-off** — on a qualifying Newark home.',
     '**A roof overlay** is the recover ARMA defines as installing an additional roof covering on an existing roof covering, so it skips the tear-off labor and the disposal and runs roughly 20–25% less than a full tear-off, a national figure per HomeGuide and Angi. On Newark single-family stock — the 1870s–1920s Forest Hill Victorians, the Roseville brownstones, and the Vailsburg and Weequahic detached homes — an overlay puts a new shingle surface on the building without the demolition phase.',

@@ -5,6 +5,8 @@ export const orangeBuiltUpRoofing: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and restores built-up roofing across Orange**, building and resurfacing multi-ply BUR membranes on commercial low-slope and older flat-roof buildings as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Built-up roofing** is a low-slope membrane that alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel, mineral granules, or a reflective coating. The multi-ply assembly shields the membrane from UV and impact.',
   overview: [
     '**Newark Quality Roofing installs and restores built-up roofing across Orange, building multi-ply BUR membranes and resurfacing existing ones** on commercial low-slope and older flat-roof buildings as a New Jersey Home Improvement Contractor. Built-up roofing alternates layers of reinforcing fabric and hot bitumen, then surfaces the plies with gravel or a reflective coating that shields the membrane from UV and impact.',
     '**Built-up roofing** lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15–25 years, TPO at 7–20 years, and modified bitumen at 20 years. BUR appears across Orange\'s older low-slope stock — the converted industrial and loft buildings of the Valley Arts District near the Highland Avenue station, the mixed-use blocks along the Main Street downtown corridor, and the flat-roofed two- and three-family buildings that fill much of the city, where roughly half the stock predates 1939.',

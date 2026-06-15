@@ -5,6 +5,8 @@ export const eastOrangeTileRoofInstallationRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs clay and concrete tile roofs across East Orange and Essex County, replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof installation and repair** sets a clay or concrete tile covering over a waterproof underlayment, and restores an existing tile roof by replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.',
   overview: [
     '**Newark Quality Roofing installs and repairs clay and concrete tile roofs** across East Orange, setting tile over a waterproof underlayment that carries the water resistance while the tile sheds rainfall and shields the underlayment from UV. **Tile work** covers new installation, broken-tile replacement, underlayment renewal, and ridge, hip, and flashing resealing.',
     '**Clay and concrete tile** outlast most roof materials, because clay and concrete tile lasts 100 years or more, per the InterNACHI life-expectancy chart, while the Tile Roofing Industry Alliance rates concrete tile at a typical 40 to 75 years and notes clay tile often reaches 75 years or more. A Newark Quality Roofing repair separates a failed tile from failed fastening or failed underlayment beneath.',

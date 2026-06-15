@@ -5,6 +5,8 @@ export const newarkMetalRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing replaces roofs with new metal across Newark and Essex County** — stripping the old roof to the deck and installing **standing-seam, metal-panel, or metal-shingle** systems — as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Metal roof replacement** removes a worn roof covering down to the deck and installs a new metal system in standing-seam panels, metal panels, or metal shingles. It rebuilds the entire weatherproof surface in steel, aluminum, copper, or zinc.',
   overview: [
     '**Newark Quality Roofing replaces roofs with standing-seam metal, exposed-fastener metal panel, and metal shingle across Newark** — for residential and commercial properties. Metal roof replacement strips the existing roof to the deck, repairs the sheathing, and installs a new underlayment-and-metal system that lasts far longer than the asphalt roof it replaces.',
     '**Standing-seam metal** runs continuous from ridge to eave with concealed fasteners under raised seams and lasts 40 to 70 years, per This Old House, while exposed-fastener metal panel and metal shingle carry the fasteners in the weather plane and last 40 to 80 years, per the InterNACHI life-expectancy chart — against 20 years for 3-tab asphalt and 30 years for architectural asphalt. A Newark Quality Roofing metal roof replacement matches the metal system to the roof slope before tear-off.',

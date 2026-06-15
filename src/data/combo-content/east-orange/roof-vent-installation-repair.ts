@@ -5,6 +5,8 @@ export const eastOrangeRoofVentInstallationRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs roof vents across East Orange and Essex County, building a balanced soffit-intake and ridge-exhaust system** on multi-family walk-ups, pre-war apartments, and older single-family homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [
     '**Newark Quality Roofing installs and repairs ridge, box, turbine, powered, and gable exhaust vents** across East Orange, each paired with continuous **soffit intake**. Roof vent work builds the airflow path that moves attic heat and moisture out, the system the IRC requires on a vented attic.',
     '**Soffit intake** pairs with high ridge exhaust at roughly 50% intake and 50% exhaust, the balance the ARMA and Air Vent Inc. specify, because a balanced system moves air from the eave to the ridge without short-circuiting. On East Orange\'s pre-war apartments and walk-ups along the Brick Church and Central Avenue corridors, insulation packed against the eave or painted-shut soffits starve that intake, per the U.S. DOE Building America Solution Center.',

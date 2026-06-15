@@ -5,6 +5,8 @@ export const eastOrangeRoofReplacementAfterLeak: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing replaces a roof after a chronic leak across East Orange**, stripping the roof to the deck, replacing rotted sheathing, and installing new underlayment-and-cover over pre-war walk-ups and multi-family buildings as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof replacement after a leak** strips a roof whose chronic or widespread leaking has saturated the underlayment and deck, replaces rotted sheathing, and installs a new roof system. It addresses moisture damage that a surface repair cannot reverse.',
   overview: [
     '**Newark Quality Roofing replaces a roof after a chronic leak across East Orange** once the leak crosses a repair-vs-replace threshold: recurring repairs, a moisture-rotted deck, or a repair quote nearing replacement cost. Roof replacement ends a recurring leak by resetting the underlayment-and-cover system rather than patching the detail that admits water.',
     '**Recurring leaks** trace to one detail and travel before showing as an interior stain, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A repair stops a single failed detail, while replacement addresses a roof past service life and strips it to the deck so the rot a chronic leak leaves behind no longer hides under the cover.',

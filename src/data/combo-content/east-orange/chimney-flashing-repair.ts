@@ -5,6 +5,8 @@ export const eastOrangeChimneyFlashingRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing repairs chimney flashing across East Orange and Essex County, rebuilding the two-part base-and-counter flashing system that seals the chimney, the roof\'s largest and most leak-prone penetration** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
     '**Newark Quality Roofing repairs chimney flashing failures across East Orange: corroded step flashing, counter flashing pulled from the mortar joint, cracked surface caulk, and a missing cricket.** Chimney flashing repair rebuilds the metal that seals the chimney, the roof\'s largest penetration, on East Orange\'s pre-war apartments, two- and three-family walk-ups, and older single-family homes.',
     '**Step flashing** failures concentrate on East Orange\'s pre-war apartments and two- and three-family walk-ups along the Central Avenue and Dr. Martin Luther King Jr. Boulevard corridors, where the chimney sidewall transition meets aged masonry. A Newark Quality Roofing repair starts at the transition metal, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA.',

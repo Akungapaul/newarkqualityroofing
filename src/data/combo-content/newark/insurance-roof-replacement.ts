@@ -5,6 +5,8 @@ export const newarkInsuranceRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides insurance roof replacement across Newark**, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site as a roofing contractor, not an adjuster.',
+  definition:
+    '**Insurance roof replacement** is a full roof replacement funded through a property-insurance claim for covered storm, hail, wind, or fire damage. It pairs documentation of the damage and a repair scope with the insurer claim process, separate from the work of adjusting the claim.',
   overview: [
     '**Insurance roof replacement** coordinates the roofing work on a Newark building with a property-insurance claim — the homeowner or a licensed public adjuster files and negotiates, and **Newark Quality Roofing** documents the damage and performs the approved replacement.',
     '**Newark Quality Roofing** supports a Newark insurance claim in four roofing roles: inspecting the roof, documenting the covered damage with timestamped photographs, writing a detailed scope and estimate that matches the insurer line items, and meeting the assigned adjuster on site — across the row houses, brownstones, and flat-roof commercial buildings that define the city.',

@@ -5,6 +5,8 @@ export const newarkGreenRoofInstallation: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs green roof systems across Newark and Essex County, building the waterproofing membrane, root barrier, drainage layer, and growing media that carry a planted roof** as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.',
   overview: [
     '**Newark Quality Roofing installs green roofs across Newark, building the waterproofing membrane, root barrier, drainage layer, growing media, and vegetation that convert a low-slope roof into a planted assembly** on the city\'s flat-roof commercial stock and row-house rear extensions. Green roof installation layers a watertight base beneath living vegetation that cools and retains rainfall.',
     '**The waterproofing membrane** anchors the build, because it sits beneath the growing media and the vegetation and stays inaccessible once the planted layers cover it. PVC single-ply lasts 20 to 30 years, per the Single Ply Roofing Industry and GAF EverGuard warranty data, EPDM 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing installation specifies a green-roof-rated membrane and flood-tests it before any growing media goes down.',

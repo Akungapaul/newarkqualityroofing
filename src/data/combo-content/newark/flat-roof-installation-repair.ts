@@ -5,6 +5,8 @@ export const newarkFlatRoofInstallationRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and repairs flat and low-slope roofs across Newark and Essex County, servicing EPDM rubber, TPO, and modified-bitumen membranes** as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**Flat roof installation and repair** seals a flat or low-slope roof with a continuous waterproof membrane — EPDM rubber, TPO thermoplastic, or modified bitumen — and corrects the slope and drainage the roof depends on. The work ranges from a single seam patch to a full membrane replacement.',
   overview: [
     '**Newark Quality Roofing installs and repairs flat and low-slope roofs across Newark, servicing EPDM rubber, TPO, and modified-bitumen membranes** on the city\'s row-house rear extensions, garages, and the dense flat-roof commercial stock that lines Ferry Street in the Ironbound. Flat roof installation and repair seals the continuous membrane and corrects the drainage a low-slope roof depends on, from a single seam patch to a full membrane replacement.',
     '**EPDM, TPO, and modified bitumen** each carry a different service life: EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing assessment matches the system to the building and the drainage before installation. A flat roof carries no gravity shed, so the membrane and the slope manage every drop.',

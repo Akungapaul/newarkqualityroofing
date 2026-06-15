@@ -5,6 +5,8 @@ export const eastOrangeSlateRoofInstallationRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs natural slate roofs across East Orange and Essex County, setting new slate on copper or stainless-steel fasteners and replacing broken tiles, corroded fasteners, and failed flashing** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Slate roof installation and repair** sets quarried natural-stone tiles on copper or stainless-steel fasteners as a roof covering, and restores an existing slate roof by replacing broken tiles, resecuring corroded fasteners, and renewing failed flashing. Natural slate is among the longest-lived roof coverings.',
   overview: [
     '**Newark Quality Roofing installs and repairs natural slate roofs across East Orange**, setting quarried stone and renewing the **fasteners and flashing** that fail before the slate on the city\'s older single-family homes and pre-war two- and three-family buildings.',
     '**Natural slate** lasts 60 to 150 years, with premium slate commonly 100-plus years when properly installed, per the InterNACHI life-expectancy chart and the National Slate Association, the longest service life of any roofing material — the reason a slate field on a Brick Church or Presidential Estates home survives long after a shorter-lived covering would have been replaced.',

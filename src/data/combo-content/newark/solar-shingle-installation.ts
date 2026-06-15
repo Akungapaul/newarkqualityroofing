@@ -5,6 +5,8 @@ export const newarkSolarShingleInstallation: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs solar shingles across Newark and Essex County, replacing the roof covering with building-integrated solar shingles that generate power while serving as the roof itself** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.',
   overview: [
     '**Newark Quality Roofing installs building-integrated solar shingles across Newark — GAF Energy Timberline Solar, Tesla Solar Roof, and CertainTeed Solstice** — for homeowners re-roofing single-family and two-family houses. A solar shingle is the roof covering itself, distinct from rack-mounted panels added on top of a finished roof, per the DOE and IEA-PVPS.',
     '**Solar shingles** replace the roof covering rather than adding hardware to a finished roof, so a solar-shingle project pairs with a new roof or full reroof, and CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed. The product fits Newark\'s pitched-roof stock — Forest Hill\'s 1870s–1920s Victorian and Colonial homes, Roseville\'s brownstones and row-houses, and Vailsburg\'s Dutch Colonials — where a roof at reroof age opens the entry point.',

@@ -5,6 +5,8 @@ export const orangeCommercialRoofRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides commercial roof repair across Orange and Essex County, repairing seam separations, membrane punctures, flashing failures, and ponding-water damage** on the low-slope EPDM, TPO, and modified-bitumen roofs of Valley Arts lofts and Main Street commercial buildings.',
+  definition:
+    '**Commercial roof repair** restores the weather barrier of a low-slope commercial membrane by sealing localized failures — seam separations, punctures, flashing breaks, and ponding damage — without replacing the entire roof. It traces water entry to the failed detail, then reseals it with manufacturer-approved bonding that keeps the system warranty intact.',
   overview: [
     '**Commercial roof repair** in Orange traces water entry on a low-slope membrane to the failed seam, puncture, or flashing detail, then reseals it with manufacturer-approved bonding that keeps a **system warranty** intact.',
     '**Commercial roof repair** in Orange concentrates on the converted-industrial and loft buildings of the Valley Arts area near the Highland Avenue rail station, where large flat and low-slope membranes meet parapet walls and internal drainage. A Newark Quality Roofing repair diagnoses the membrane type before sealing the failed component, because EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, BUR 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry data.',

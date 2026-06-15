@@ -5,6 +5,8 @@ export const orangeCommercialRoofInstallation: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs commercial roofs across the City of Orange Township, applying TPO, EPDM, PVC, modified-bitumen, built-up, spray-foam, and metal systems** on Valley Arts loft and Main Street flat-roof buildings as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof installation** engineers and builds a new low-slope or steep-slope roof on a commercial building, sizing the insulation, slope, and attachment, then applying a membrane or metal panel system. It constructs the full weatherproof assembly on a new or stripped deck rather than patching an existing roof.',
   overview: [
     '**Newark Quality Roofing installs commercial roof systems across the City of Orange Township** — **TPO, EPDM, PVC, modified bitumen, built-up roofing, spray foam, and metal** — engineering the assembly, then applying the panel or membrane matched to the building.',
     '**Newark Quality Roofing installs the low-slope membranes that cover the Valley Arts District**, where converted industrial and loft buildings near the Highland Avenue station carry large flat roofs with parapets and internal drainage. A commercial low-slope roof needs at least ¼ inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing installation builds tapered polyisocyanurate crickets that route water to the drains before the membrane goes down.',

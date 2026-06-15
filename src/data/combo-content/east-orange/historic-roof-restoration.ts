@@ -5,6 +5,8 @@ export const eastOrangeHistoricRoofRestoration: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides historic roof restoration across East Orange and Essex County, repairing and matching period slate, clay tile, wood shingle, and metal roofs in kind under the Secretary of the Interior\'s Standards** as a New Jersey contractor.',
+  definition:
+    '**Historic roof restoration** repairs deteriorated original roofing on a period building rather than replacing it, and matches any necessary replacement to the old roof in design, color, texture, and, where possible, material. It covers slate, clay tile, wood shingle, and historic metal roofs.',
   overview: [
     '**Newark Quality Roofing restores period slate, clay and terra-cotta tile, wood and cedar shingle, and historic metal roofs across East Orange**, repairing deteriorated original roofing rather than replacing it and matching any necessary replacement in kind.',
     '**Period slate, clay tile, wood shingle, and metal** are matched to the old roof in design, color, texture, and, where possible, material, per the Secretary of the Interior\'s Standards for Rehabilitation, Standard 6. Newark Quality Roofing retains the roof shape and character-defining features — dormers, decorative cresting, finials, and snow guards — because the roof shape and detailing are essential elements of a historic building\'s character, per NPS Preservation Brief 4.',

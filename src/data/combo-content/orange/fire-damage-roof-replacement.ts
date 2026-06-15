@@ -5,6 +5,8 @@ export const orangeFireDamageRoofReplacement: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing replaces fire-damaged roofs across Orange and Essex County, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
     '**Newark Quality Roofing replaces fire-damaged roofs across Orange, addressing the charred covering, the saturated and delaminated decking, the heat-weakened rafters and trusses, and the corroded metal connectors** on dense two- and three-family, detached, and commercial buildings. Fire damage roof replacement removes the char layer, replaces compromised framing and decking, and rebuilds to current code.',
     '**Fire, heat, smoke, and firefighting water** damage span the whole roof assembly rather than the surface alone, because a roof is a structural assembly of covering, underlayment, decking, and framing, per the U.S. Forest Products Laboratory. A Newark Quality Roofing fire replacement rebuilds to a structural assessment and current code on Orange\'s older frame stock, roughly half of it built before 1939.',

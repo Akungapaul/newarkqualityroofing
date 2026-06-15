@@ -5,6 +5,8 @@ export const orangePvcRoofing: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and services PVC single-ply roofing across Orange and Essex County, welding chemical-resistant white membrane on commercial low-slope roofs that carry grease, oil, and rooftop exhaust** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**PVC roofing** is a single-ply polyvinyl-chloride thermoplastic membrane, hot-air-welded at the seams, installed on commercial low-slope roofs. The white membrane resists grease, oils, and chemical exhaust that degrade other single-ply membranes, and reflects solar radiation as a cool roof.',
   overview: [
     '**Newark Quality Roofing welds PVC single-ply membrane on Orange\'s low-slope commercial and converted-industrial roofs**, a hot-air-welded thermoplastic that resists grease, oils, and chemical exhaust where EPDM and TPO degrade, per the NRCA technical library.',
     '**PVC single-ply membrane** suits the large flat roofs on the Valley Arts District\'s converted-industrial and loft buildings near the Highland Avenue rail line, where parapets, internal drainage, and rooftop units define the field. PVC lasts 20 to 30 years, with thicker reinforced membranes reaching the longer end, per the Single Ply Roofing Industry, against EPDM at 15 to 25 years and TPO at 7 to 20 years, per the InterNACHI life-expectancy chart.',

@@ -5,6 +5,8 @@ export const orangeSoffitInstallationRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs soffit across Orange and Essex County, replacing rotted soffit board, clearing blocked intake vents, and setting insulation baffles** to restore attic airflow as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**The soffit** is the eave underside that closes the rafter-tail bays and houses the intake vents of a balanced attic-ventilation system. Soffit installation and repair replaces the rotted panel, clears blocked intake, and installs baffles that hold the soffit-to-ridge air channel open.',
   overview: [
     '**Newark Quality Roofing installs and repairs soffit in vinyl, aluminum, wood, and fiber-cement, in vented and solid profiles** on Orange\'s older detached houses, two- and three-family buildings, and converted Valley Arts lofts. The soffit is the eave underside that houses the intake vents that keep an attic dry.',
     '**Vinyl, aluminum, wood, and fiber-cement** soffit each suit a different eave on Orange\'s older stock, where roughly half the housing predates 1939, so a Newark Quality Roofing crew matches the panel to the building. Soffit vents are the primary intake of a balanced attic-ventilation system, per the U.S. DOE Building America Solution Center and InterNACHI.',

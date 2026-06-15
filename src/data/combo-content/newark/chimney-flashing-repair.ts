@@ -5,6 +5,8 @@ export const newarkChimneyFlashingRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing repairs chimney flashing across Newark and Essex County, rebuilding the two-part base-and-counter system** that seals the chimney, the roof’s largest and most leak-prone penetration, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
     '**Chimney flashing repair** rebuilds the metal that seals the chimney, the roof’s largest penetration, where **the apron, sidewall step, and upslope transitions** each shed water on Newark’s brick chimneys.',
     '**Chimney flashing repair** starts at the transition metal, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. The chimney is the roof’s largest penetration, so a single failed counter flashing or cracked caulk joint at the chase admits water into the building — a recurring source of the party-wall and top-floor stains common in Newark’s attached row-houses and three-family homes.',

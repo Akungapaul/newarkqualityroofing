@@ -5,6 +5,8 @@ export const newarkAsphaltShingleRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides asphalt shingle roof replacement across Newark**, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles to manufacturer specification as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**Asphalt shingle roof replacement** strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering.',
   overview: [
     '**Newark Quality Roofing replaces 2 asphalt shingle types across Newark: 3-tab shingles and architectural (laminated) shingles** — on the city\'s detached homes, row houses, brownstones, and steep-slope commercial roofs. Asphalt shingle replacement strips the existing roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs new shingles, the work that ends an aged asphalt roof rather than patching a single failed detail.',
     '**3-tab and architectural shingles** differ by lifespan and wind rating: a 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual service life varies up to 40% with climate, install, and maintenance. A 3-tab shingle rates near 60 mph and an architectural line warranties up to 130 mph with 6-nail installation, per ASTM D3161 and ARMA and manufacturer guidance.',

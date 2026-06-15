@@ -5,6 +5,8 @@ export const orangeRoofReplacementCost: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing prices and performs roof replacements across Orange and Essex County**, estimating tear-off, decking, material, and NJ labor on two-/three-family, converted-loft, and detached homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.',
   overview: [
     '**Newark Quality Roofing prices a roof replacement** in Orange from the cost drivers a surface quote misses — roof size, pitch, material, existing layers and tear-off, decking repair, flashing and ventilation, and NJ labor and code.',
     '**Roof size, pitch, and material choice** set the largest share of an Orange replacement, because a roofing square covers 100 square feet and valleys, dormers, and hips on the older detached houses of Seven Oaks add material and labor over a simple gable, per industry cost guidance. Material drives the per-square-foot cost from asphalt shingle to slate, per Josten Roofing NJ pricing and NJ roofing guides.',

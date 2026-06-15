@@ -5,6 +5,8 @@ export const eastOrangeAsphaltShingleRoofing: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs asphalt shingle roofing across East Orange and Essex County, fitting 3-tab and architectural shingles** to the deck with ice barrier, synthetic underlayment, flashing, and balanced ventilation as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Asphalt shingle roofing** covers a sloped roof in overlapping fiberglass-mat shingles surfaced with mineral granules, laid over underlayment, an ice barrier, drip edge, and flashing into a water-shedding system. It is the most common residential roof covering and comes in flat 3-tab and dimensional architectural profiles.',
   overview: [
     '**Newark Quality Roofing installs 3-tab and architectural asphalt shingle systems** across East Orange — for the city\'s pre-war apartments, two- and three-family walk-ups, and older single-family homes. Asphalt shingle roofing layers fiberglass-mat shingles, synthetic underlayment, an eave-and-valley ice barrier, metal drip edge, and flashing into a water-shedding system.',
     '**Architectural shingles** carry a higher wind rating and a longer service life than the single-layer 3-tab profile, because architectural shingles last 30 years and 3-tab shingles 20 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. Asphalt is the most common residential roof covering, on roughly 73% of US homes, per 2024 roofing-market data.',

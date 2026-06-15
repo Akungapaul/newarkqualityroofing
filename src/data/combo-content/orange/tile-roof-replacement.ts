@@ -5,6 +5,8 @@ export const orangeTileRoofReplacement: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing replaces clay and concrete tile roofs across Orange and Essex County**, stripping the tile and failed underlayment to the deck and re-laying tile over a load-rated structure as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [
     '**Newark Quality Roofing replaces clay tile and concrete tile roofs** on Orange\'s older detached homes and Mediterranean and Spanish-revival properties. Tile roof replacement strips the tile and the worn underlayment to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system.',
     '**Clay tile** lasts 75 to 100-plus years and **concrete tile** 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment, not the tile, sets the service life, failing well before the tile, per the Tile Roofing Industry Alliance and This Old House.',

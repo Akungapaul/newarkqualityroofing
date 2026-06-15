@@ -5,6 +5,8 @@ export const orangeResidentialRoofInstallation: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs residential roofs across Orange** — deck-to-ridge **new construction and full replacements** on the city\'s two- and three-family rentals, older detached Seven Oaks homes, and converted Valley lofts — as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Residential roof installation** builds a complete roof system on a house from the deck up — ice barrier, underlayment, flashing, the finish covering, and ventilation. It applies to new construction and full replacements, replacing the entire weatherproof assembly rather than patching a failed detail.',
   overview: [
     '**Newark Quality Roofing installs residential roofs across Orange** by a building\'s **use, not its deed** — sizing each new **deck-to-ridge system** to a rental two-family, an owner-occupied Seven Oaks house, or a converted Valley loft.',
     '**By the use, not the deed:** Orange runs about three-quarters renter, with only about 23.8% of units owner-occupied per U.S. Census QuickFacts, so most installs land on dense two- and three-family and investor-owned buildings rather than single-owner homes. A walk-up near Main Street, a larger older detached house in the Seven Oaks section, and a converted loft in the Valley Arts area each read as residential construction, and a Newark Quality Roofing install fits the system to that building stock and to its rental or owner-occupied use before any deck work begins.',

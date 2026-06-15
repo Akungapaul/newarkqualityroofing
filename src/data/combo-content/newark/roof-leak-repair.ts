@@ -5,6 +5,8 @@ export const newarkRoofLeakRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides roof leak repair across Newark and Essex County, tracing leaks to the source detail — flashing, party-wall junctions, pipe boots, and flat-roof membrane seams** — as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**Roof leak repair** traces a roof leak to its source detail — flashing, shingle, pipe boot, valley, or skylight — and reseals or replaces the failed component to stop water entry. It diagnoses the entry point, which sits feet away from the interior drip, before sealing.',
   overview: [
     '**Newark Quality Roofing traces a roof leak to its source detail and reseals the failed component across Newark — flashing, a party-wall junction, a cracked pipe boot, or a flat-roof membrane seam** — for residential and commercial properties. Roof leak repair restores the water layer at the detail that admits water.',
     '**Roof leak repair starts at the flashing**, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark leak repair diagnoses the root-cause detail before sealing, not the visible drip point.',

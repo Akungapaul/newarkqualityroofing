@@ -5,6 +5,8 @@ export const orangeRoofCleaningMossRemoval: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides roof cleaning and moss removal across Orange and Essex County, removing moss, Gloeocapsa magma algae, and lichen with a low-pressure chemical wash that protects roof granules** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof cleaning and moss removal** clears biological growth — moss, Gloeocapsa magma algae, and lichen — from a roof with a low-pressure chemical wash that kills the growth at the root. It relies on chemical action rather than pressure washing, which strips the protective granules.',
   overview: [
     '**Newark Quality Roofing removes moss, Gloeocapsa magma algae, and lichen** from roofs across the City of Orange Township. Roof cleaning kills the growth at the root and rinses the dead material away without stripping the protective granules.',
     '**Moss** along shaded north-facing slopes lifts and curls the leading edges of shingles and raises the risk of wind blow-off, per ARMA, a concern across Orange\'s older detached homes in the Seven Oaks section and its dense two- and three-family stock, where roughly half the housing predates 1939. A Newark Quality Roofing wash removes heavy moss by hand before the chemical step.',

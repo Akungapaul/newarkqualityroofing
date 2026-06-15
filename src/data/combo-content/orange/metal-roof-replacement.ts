@@ -5,6 +5,8 @@ export const orangeMetalRoofReplacement: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing replaces roofs with new metal across Orange and Essex County, installing standing-seam, metal-panel, or metal-shingle systems** on two-/three-family homes, Seven Oaks detached houses, and Valley Arts loft buildings as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Metal roof replacement** removes a worn roof covering down to the deck and installs a new metal system in standing-seam panels, metal panels, or metal shingles. It rebuilds the entire weatherproof surface in steel, aluminum, copper, or zinc.',
   overview: [
     'Newark Quality Roofing installs three metal roof systems across Orange: **standing-seam metal**, **exposed-fastener metal panel**, and **metal shingle**. Metal roof replacement strips the existing roof to the deck, repairs the sheathing, and installs a new underlayment-and-metal system.',
     '**Standing-seam metal** lasts 40 to 70 years and conceals the fasteners under raised seams, per This Old House, while metal panel and metal shingle carry the fasteners in the weather plane and last 40 to 80 years, per the InterNACHI life-expectancy chart, against 20 years for 3-tab asphalt and 30 years for architectural. A Newark Quality Roofing replacement matches the system to the roof slope and the building type before tear-off.',

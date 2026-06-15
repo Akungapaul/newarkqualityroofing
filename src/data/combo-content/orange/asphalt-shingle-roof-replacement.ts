@@ -5,6 +5,8 @@ export const orangeAsphaltShingleRoofReplacement: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides asphalt shingle roof replacement across the City of Orange Township, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Asphalt shingle roof replacement** strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering.',
   overview: [
     '**Newark Quality Roofing replaces 3-tab and architectural asphalt shingles across the City of Orange Township**, the work that ends an aged asphalt roof rather than patching one failed detail. The replacement strips the roof to the deck, repairs the sheathing, and installs an ice barrier, underlayment, and new shingles.',
     '**Architectural shingles** suit much of Orange\'s older detached housing in Seven Oaks and its dense two- and three-family stock, where roughly half the buildings predate 1939. A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes the actual asphalt service life varies up to 40% with climate, install, and maintenance.',

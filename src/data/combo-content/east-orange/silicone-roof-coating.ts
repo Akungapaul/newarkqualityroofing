@@ -5,6 +5,8 @@ export const eastOrangeSiliconeRoofCoating: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides silicone roof coating across East Orange, restoring the flat roofs on its pre-war apartments and commercial blocks with a liquid-applied silicone membrane that resists ponding and reflects sunlight** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Silicone roof coating** is a liquid-applied silicone membrane that restores a low-slope or flat roof in place, sealing seams, splits, and flashings under one monolithic surface. The hydrophobic silicon-oxygen backbone resists ponding water without softening and reflects sunlight to lower roof surface temperature.',
   overview: [
     '**Silicone roof coating restores an aging low-slope or flat roof in place with a liquid-applied silicone membrane that seals seams, splits, and flashings under one monolithic surface** across East Orange\'s multi-family, mixed-use, and commercial building stock. The coating recoats an existing roof rather than tearing it off, extending service life at a fraction of replacement cost, per the RCMA.',
     '**Silicone roof coating** suits East Orange because the city is roughly 69% renter and 87.6% multi-unit, per U.S. Census QuickFacts, so its building stock is dominated by the pre-war apartments, two- and three-family walk-ups, and Central Avenue and Dr. Martin Luther King Jr. Boulevard mixed-use blocks where layered flat-roof membranes have weathered at the surface over a sound deck. Recoating restores the roof at a fraction of tear-off cost and keeps the old roof out of landfill, per the RCMA.',

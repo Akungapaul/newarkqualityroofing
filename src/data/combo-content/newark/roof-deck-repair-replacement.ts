@@ -5,6 +5,8 @@ export const newarkRoofDeckRepairReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing repairs and replaces roof decks across Newark**, removing rotted plywood and swollen OSB sheathing and re-decking the roof so the **deck** grips fasteners and supports the covering, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [
     '**Newark Quality Roofing repairs and replaces roof decks across Newark, the structural sheathing beneath the covering on the city\'s row-houses, Forest Hill and Roseville brownstones, and Ironbound flat-roof buildings.** The **roof deck** is the plywood, OSB, or plank sheathing that spans the rafters and anchors every roofing nail under the underlayment.',
     '**Newark roof decks** carry a century of moisture on the city\'s oldest building stock, and a re-deck restores the substrate a covering fastens to, because roofing nails penetrate at least 3/4 inch into the deck, per ARMA, so rotted sheathing that cannot grip a nail requires replacement.',

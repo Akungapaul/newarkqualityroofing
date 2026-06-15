@@ -5,6 +5,8 @@ export const newarkSkylightInstallationRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and repairs skylights across Newark**, sealing leaks at the failed flashing, replacing fogged units, and curb-mounting skylights on **Ironbound flat roofs**, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
     '**Newark Quality Roofing installs and repairs skylights across Newark**: new skylight installation, replacement, flashing-leak repair, and fogged-glass-seal replacement. Skylight installation repair seals the roof penetration at the **flashing** detail that admits water, the leading cause of a skylight leak rather than the glass, per roofing trade consensus.',
     '**Newark Quality Roofing** matches the work to Newark building stock, where North Ward and Forest Hill brownstones stand party-wall to party-wall and the roof is the only daylight source for top-floor and interior rooms. A skylight serves those Victorian and Beaux-Arts homes that side windows cannot reach, while Ironbound and Downtown warehouse-to-residential conversions call for curb-mounted units in low-slope membrane.',

@@ -5,6 +5,8 @@ export const eastOrangeEnergyEfficientRoofingSolutions: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides energy efficient roofing solutions across East Orange and Essex County, installing cool reflective membranes and coatings, above-deck insulation, radiant barriers, and balanced attic ventilation** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Energy efficient roofing solutions** combine a high-reflectance surface that rejects solar heat with conductive insulation that slows heat flow into the building below. The two levers — reflective membranes and coatings, plus above-deck insulation, radiant barriers, and balanced attic ventilation — lower roof surface temperature and the cooling load beneath the roof.',
   overview: [
     '**Newark Quality Roofing installs white reflective TPO and PVC membrane, reflective elastomeric coatings, above-deck insulation, radiant barriers, and attic ventilation with code-minimum ceiling insulation** across East Orange. Energy efficient roofing combines a high-reflectance surface that rejects solar heat with conductive insulation that slows heat flow, two separate levers on residential and commercial roofs.',
     '**White reflective membrane** suits the layered low-slope roofs on East Orange pre-war walk-ups and apartment buildings along Central Avenue and Dr. Martin Luther King Jr. Boulevard, where a white TPO or PVC single-ply carries roughly 0.70-to-0.85 initial solar reflectance and 0.80-to-0.90 thermal emittance measured per ASTM C1549, CRRC-listed, per the CRRC and ASTM. A reflective elastomeric coating restores an aged flat roof in place rather than tearing it off, per the RCMA.',

@@ -5,6 +5,8 @@ export const eastOrangeGutterGuardInstallation: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs gutter guards across East Orange and Essex County, fitting micro-mesh, screen, reverse-curve, foam, and brush guards over the gutters of multi-family, pre-war walk-up, and single-family buildings** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**A gutter guard** is a cover fitted over or inside a gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while letting water pass into the gutter. A gutter guard reduces clogging and overflow rather than eliminating gutter cleaning.',
   overview: [
     '**Newark Quality Roofing installs gutter guards on East Orange multi-family, walk-up, and single-family buildings, fitting micro-mesh, screen, reverse-curve, foam, and brush guards** over the gutter trough to block the leaf, seed, and needle debris that clogs an open gutter.',
     '**Gutter guards** suit East Orange because the city is a dense inner-ring suburb of mostly multi-unit housing, where roughly 87.6% of units sit in multi-unit structures and about 69% of homes are renter-occupied, per U.S. Census QuickFacts, so recurring gutter cleaning falls on landlords and building superintendents across whole portfolios. A guard reduces that cleaning frequency rather than eliminating it.',

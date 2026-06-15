@@ -5,6 +5,8 @@ export const orangeChimneyFlashingRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing repairs chimney flashing on Orange\'s aging masonry chimneys**, rebuilding the **two-part base-and-counter system** where step flashing meets century-old mortar across the city\'s dense two- and three-family stock, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
     '**Chimney flashing repair on Orange\'s masonry chimneys** restores the **base, step, and counter flashing** where aged brick, softened lime mortar, and the roof line meet across the city\'s older pre-1939 two- and three-family housing.',
     '**Orange\'s building stock** frames the local problem: a township roughly 76% renter-occupied, with owner-occupancy near 23.8% per U.S. Census QuickFacts, dense with investor-owned two- and three-family buildings where one chimney often serves several units behind a single flashing perimeter. On masonry that is roughly half pre-1939, the brick chimney is the roof\'s largest penetration, so a failed counter flashing surfaces as the top-floor and shared-wall stains common across Orange\'s rental rows.',

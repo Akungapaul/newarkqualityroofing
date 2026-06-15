@@ -5,6 +5,8 @@ export const eastOrangeGutterInstallationRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs gutters across East Orange**, fitting seamless aluminum, copper, and steel gutters, matched downspouts, and resealing leaks, sagging runs, and clogged systems as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [
     '**Newark Quality Roofing installs seamless gutters, repairs sectional runs, fits and extends downspouts, corrects sag and pitch, and reseals leaks and seams** across East Orange, restoring the path that drains roof runoff from the fascia and foundation.',
     '**Seamless gutters** run one continuous piece, eliminating the lapped joints where sectional gutters most often leak under debris and thermal cycling, per gutter manufacturer Englert, while a sectional run leaks first at its corners and outlets. A Newark Quality Roofing crew forms the seamless trough on site and sets the hangers, the slope, and the downspout discharge to drain the system.',

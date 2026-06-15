@@ -5,6 +5,8 @@ export const newarkAgingRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing replaces aging roofs across Newark**, stripping a roof at the end of its material lifespan to the deck and installing a new underlayment-and-cover system before age-driven failure, as a **New Jersey Home Improvement Contractor.**',
+  definition:
+    '**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.',
   overview: [
     '**Newark Quality Roofing replaces aging asphalt, slate, metal, and low-slope membrane roofs** across Newark for residential and commercial buildings. Aging roof replacement strips a roof past its service life to the deck, repairs the sheathing, and installs a new underlayment-and-cover system before granule loss, curling, and brittle sealants admit water.',
     '**Aging asphalt, slate, metal, and membrane** each reach end of service after a material-specific lifespan: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and actual asphalt life varies up to 40% with climate, install, and maintenance, per the NRCA.',

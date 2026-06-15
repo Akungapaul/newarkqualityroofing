@@ -5,6 +5,8 @@ export const newarkRubberRoofingEpdm: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs, repairs, and reseams EPDM rubber roofing across Newark**, waterproofing the flat and low-slope roofs common to Ironbound commercial buildings and Newark row-house extensions, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Rubber roofing EPDM** is a single-ply ethylene propylene diene monomer membrane that waterproofs a flat or low-slope roof, bonded to the deck or insulation and sealed at the laps. EPDM protects roof sections too shallow to shed water with shingles.',
   overview: [
     '**EPDM rubber roofing is a single-ply rubber membrane** that waterproofs a flat or low-slope roof, the assembly that protects roof sections too shallow for shingles across Newark apartment buildings, warehouses, and row-home rear extensions.',
     '**EPDM rubber** lasts 15 to 25 years, alongside TPO at 7 to 20 years and modified bitumen at 20 years, per the InterNACHI life-expectancy chart. The black membrane is the long-running workhorse on Ironbound and Central Ward flat roofs, where many sheets reach the upper end of that range with periodic seam and flashing repair.',

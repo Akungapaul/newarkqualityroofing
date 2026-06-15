@@ -5,6 +5,8 @@ export const orangeRoofOverlayInstallation: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs roof overlays across the City of Orange Township, applying a second asphalt-shingle layer over one existing sound asphalt layer with no tear-off** on qualifying Seven Oaks detached and two-/three-family roofs as a New Jersey licensed contractor.',
+  definition:
+    '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [
     '**Newark Quality Roofing installs an asphalt-shingle roof overlay across Orange: a second shingle layer applied over one existing sound asphalt layer, with no tear-off** — on a qualifying residential roof. A roof overlay, the recover ARMA defines as installing an additional roof covering on an existing roof covering, skips the tear-off labor and the disposal.',
     '**Orange roofs that qualify for an overlay** are the detached and two-/three-family homes concentrated in Seven Oaks and across the city\'s dense, largely investor-owned and renter-occupied stock, where roughly half the housing predates 1939, per the U.S. Census. A roof overlay applies only to a single sound asphalt layer over a smooth, dry deck, so an older Orange roof carrying two layers, wood shake, slate, or tile does not qualify.',

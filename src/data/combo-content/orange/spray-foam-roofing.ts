@@ -5,6 +5,8 @@ export const orangeSprayFoamRoofing: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides spray foam roofing across Orange**, spraying seamless **spray polyurethane foam** and a protective coating over the low-slope decks of Valley Arts loft and Main Street commercial buildings, licensed and insured.',
+  definition:
+    '**Spray foam roofing** sprays liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating. The coating shields the UV-sensitive foam from degradation.',
   overview: [
     '**Spray foam roofing recovers an aging Orange low-slope deck** with a seamless, monolithic layer that bonds to the existing surface, suiting the irregular parapets and dense rooftop penetrations of the township\'s older commercial and converted-industrial stock.',
     '**Orange\'s Valley Arts loft roofs and Main Street commercial buildings** carry wide flat sections crowded with curbs, drains, vents, and pipes. The closed-cell foam sprays continuous around each one, so a single poured surface replaces the welded seams that rank as the most common TPO failure mode and the seam separation that ranks as the dominant EPDM failure mode, per NRCA technical guidance — a practical alternative to re-detailing membrane laps one penetration at a time.',

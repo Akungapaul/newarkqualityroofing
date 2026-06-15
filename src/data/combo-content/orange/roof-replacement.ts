@@ -5,6 +5,8 @@ export const orangeRoofReplacement: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing replaces residential and commercial roofs across Orange and Essex County, stripping the roof to the deck, repairing the sheathing, and installing a new underlayment-and-cover system** on two- and three-family homes, Seven Oaks houses, and Valley Arts buildings.',
+  definition:
+    '**Roof replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.',
   overview: [
     '**Newark Quality Roofing replaces asphalt-shingle, standing-seam metal, slate, and low-slope membrane roofs** across Orange\'s dense two- and three-family stock, older Seven Oaks houses, and converted Valley Arts loft buildings. Roof replacement strips the existing roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system, the work that fixes a roof past its service life rather than patching one detail.',
     '**Asphalt-shingle and metal systems** cover most of Orange\'s pitched residential roofs, and lifespan sets the replacement clock: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, with actual asphalt life varying up to 40% with climate, install, and maintenance, per the NRCA. Roughly half of Orange\'s housing predates 1939, so much of this stock carries an aged covering at or past its rated life.',

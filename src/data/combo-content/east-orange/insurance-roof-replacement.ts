@@ -5,6 +5,8 @@ export const eastOrangeInsuranceRoofReplacement: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides insurance roof replacement across East Orange, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Insurance roof replacement** is a full roof replacement funded through a property-insurance claim for covered storm, hail, wind, or fire damage. It pairs documentation of the damage and a repair scope with the insurer claim process, separate from the work of adjusting the claim.',
   overview: [
     '**Newark Quality Roofing inspects the roof, documents the covered damage with timestamped photographs, writes a detailed scope and estimate, and meets the assigned adjuster on site** for residential and commercial properties across East Orange. Insurance roof replacement coordinates the roofing work with a property-insurance claim, while the owner or a licensed public adjuster files and negotiates that claim.',
     '**Newark Quality Roofing stays inside the roofing-contractor role** and does not adjust, negotiate, settle, or guarantee a claim, because in New Jersey only a licensed public adjuster, under the Public Adjusters\' Licensing Act N.J.S.A. 17:22B administered by NJ DOBI, or a licensed attorney negotiates or settles a first-party property claim on behalf of the insured for a fee. The owner or a public adjuster handles the claim; Newark Quality Roofing provides the roofing documentation and performs the approved replacement.',

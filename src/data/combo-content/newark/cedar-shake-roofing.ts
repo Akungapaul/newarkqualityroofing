@@ -5,6 +5,8 @@ export const newarkCedarShakeRoofing: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides cedar shake roofing across Newark**, installing and repairing **western red cedar shake** roofs over a ventilated deck on the city\'s historic single-family stock, as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**Cedar shake roofing** covers a sloped roof in hand-split western red cedar set over an air-spaced deck, the assembly that sheds water at the surface while the underside dries between rain events. Western red cedar carries natural extractives that resist decay.',
   overview: [
     '**Cedar shake roofing** installs hand-split **western red cedar** over an air-spaced deck, the assembly that sheds water at the surface while the underside dries between rain events. **Newark Quality Roofing** delivers new installation, shake replacement, the ventilated deck system, and preservative maintenance across the city.',
     '**Cedar shake** suits Newark\'s period housing best in the North Ward, where **Forest Hill** retains the city\'s densest concentration of 1870s–1920s Victorian, Colonial, and Beaux-Arts single-family homes, and the **Roseville** Victorian brownstones and row-homes nearby. Cedar shake lasts 20 to 40 years, per the Cedar Shake and Shingle Bureau, against the single "Wood" service life of 25 years on the InterNACHI life-expectancy chart.',

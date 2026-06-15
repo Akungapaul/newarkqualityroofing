@@ -5,6 +5,8 @@ export const eastOrangeAsphaltShingleRoofReplacement: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing replaces asphalt shingle roofs across East Orange, stripping the roof to the deck and installing new 3-tab or architectural shingles** on single-family homes, two- and three-family walk-ups, and pre-war apartments as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Asphalt shingle roof replacement** strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering.',
   overview: [
     '**Newark Quality Roofing replaces 2 asphalt shingle types in East Orange: 3-tab shingles and architectural (laminated) shingles** across the city\'s single-family homes, two- and three-family walk-ups, and pre-war apartment stock. **Asphalt shingle roof replacement** strips the existing roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and sets new shingles, the work that ends an aged roof rather than patching a single failed detail.',
     '**Asphalt shingles** cover roughly 73% of US residential roofs per 2024 roofing-market data, the most common covering Newark Quality Roofing installs on East Orange\'s pitched single-family roofs in Presidential Estates, Ampere, and Doddtown. A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes the actual service life varies up to 40% with climate, install, and maintenance.',

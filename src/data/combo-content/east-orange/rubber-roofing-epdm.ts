@@ -5,6 +5,8 @@ export const eastOrangeRubberRoofingEpdm: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides rubber roofing EPDM across East Orange and Essex County, installing, reseaming, and repairing EPDM single-ply membrane on the flat and low-slope roofs** of pre-war apartments, walk-ups, and multi-family homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Rubber roofing EPDM** is a single-ply ethylene propylene diene monomer membrane that waterproofs a flat or low-slope roof, bonded to the deck or insulation and sealed at the laps. EPDM protects roof sections too shallow to shed water with shingles.',
   overview: [
     '**Newark Quality Roofing installs, reseams, and repairs EPDM single-ply rubber membrane** on East Orange flat and low-slope roofs, from Brick Church apartment blocks to converted multi-family homes in Doddtown and Elmwood. EPDM waterproofs the shallow roof sections too flat for shingles, the dominant roof type across this dense inner-ring suburb.',
     '**EPDM membrane** covers the flat and low-slope roofs that span much of East Orange, where 87.6% of housing units sit in multi-unit structures, per U.S. Census QuickFacts. The single-ply rubber sheet bonds to the deck or insulation across the pre-war apartments, two- and three-family walk-ups, and garden-style buildings concentrated along the Central Avenue and Dr. Martin Luther King Jr. Boulevard corridors near the Brick Church and East Orange rail stations.',

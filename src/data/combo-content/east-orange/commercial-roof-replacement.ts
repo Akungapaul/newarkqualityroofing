@@ -5,6 +5,8 @@ export const eastOrangeCommercialRoofReplacement: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing replaces commercial roofs across East Orange and Essex County, stripping the low-slope membrane to the deck, repairing the deck, and installing a new insulation-and-membrane system to manufacturer specification** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [
     '**Newark Quality Roofing replaces commercial and multi-family low-slope roofs across East Orange** on the pre-war apartments, walk-ups, and mixed-use buildings along the transit corridors. **Commercial roof replacement** strips the failed covering to the deck and installs a new insulation-and-membrane system.',
     '**Commercial and multi-family** stock carries most of East Orange, because 87.6% of the city\'s housing units sit in multi-unit structures and 31.0% are owner-occupied, per U.S. Census QuickFacts, so the flat-roof systems over Brick Church and Elmwood Park rentals reach the end of service through membrane age rather than new construction. A Newark Quality Roofing replacement matches the new membrane to the building and the drainage before tear-off.',

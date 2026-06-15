@@ -5,6 +5,8 @@ export const newarkTileRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing replaces clay and concrete tile roofs across Newark**, stripping the tile and failed underlayment to the deck and installing a new underlayment-and-tile system over a load-rated structure as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [
     '**Tile roof replacement** strips the **clay or concrete tile** and the worn **underlayment** to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system over a load-rated deck.',
     '**Tile roof replacement** resets a Newark tile roof when the underlayment fails beneath tile that still has decades of service left, because clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, while the underlayment is the real service-life limiter, per the Tile Roofing Industry Alliance and This Old House. Scattered clay and concrete tile appears on Ironbound homes brought by Portuguese and Spanish immigrant builders and on stucco-clad Vailsburg houses and select civic buildings.',

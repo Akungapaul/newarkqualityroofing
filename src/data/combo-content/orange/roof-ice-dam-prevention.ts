@@ -5,6 +5,8 @@ export const orangeRoofIceDamPrevention: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides roof ice dam prevention across Orange and Essex County, correcting attic heat escape with air-sealing, code-minimum insulation, balanced ventilation, and a code eave ice barrier** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof ice dam prevention** corrects the attic heat escape that melts a snowpack and refreezes meltwater into a dam at the cold eave. It combines air-sealing, attic insulation, balanced soffit-and-ridge ventilation, and a self-adhering eave ice barrier.',
   overview: [
     '**Newark Quality Roofing prevents ice dams by air-sealing attic bypasses, adding attic insulation to the code-minimum level, balancing soffit-intake-to-ridge-exhaust ventilation, and installing the eave ice-and-water membrane** across Orange. Roof ice dam prevention stops the heat escape that melts the snowpack, because the root cause of an ice dam is attic heat escape driven by air leakage, not gutters, per University of Minnesota Extension and building-science consensus.',
     '**Attic heat escape** forms an ice dam from 3 conditions: snow on the roof, an upper roof above 32°F that melts the snowpack, and an eave below 32°F that refreezes the meltwater into a dam at the edge, and the trapped water backs up under the shingles, per University of Minnesota Extension. A Newark Quality Roofing plan keeps the upper roof cold and the eave at the same temperature as the rest of the roof.',

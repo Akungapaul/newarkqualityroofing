@@ -5,6 +5,8 @@ export const eastOrangeSlateRoofReplacement: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing replaces slate roofs across East Orange and Essex County, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Slate roof replacement** strips a failing slate roof to the deck, repairs the sheathing, and reinstalls natural or synthetic slate on corrosion-resistant copper or stainless fasteners. It renews a heavy, long-lived covering that demands a load-rated structure.',
   overview: [
     '**Newark Quality Roofing replaces natural quarried slate and synthetic composite slate roofs across East Orange**, on the older single-family and converted-Victorian homes in the city\'s northern neighborhoods. Slate roof replacement strips the slate to the deck, repairs the sheathing, and reinstalls slate on non-ferrous fasteners.',
     '**Natural slate** lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association, and properly installed slate lasts 60 to 125 years or longer, per NPS Preservation Brief 29. Slate appears on the older, larger single-family stock in East Orange\'s northern neighborhoods, including Presidential Estates, Ampere, and Doddtown.',

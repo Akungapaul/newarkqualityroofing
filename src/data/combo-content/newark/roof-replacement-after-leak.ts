@@ -5,6 +5,8 @@ export const newarkRoofReplacementAfterLeak: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing replaces a roof after a chronic leak across Newark**, stripping the failed roof to the deck, replacing the rotted sheathing a leak leaves behind, and installing a new system, as a **New Jersey Home Improvement Contractor.**',
+  definition:
+    '**Roof replacement after a leak** strips a roof whose chronic or widespread leaking has saturated the underlayment and deck, replaces rotted sheathing, and installs a new roof system. It addresses moisture damage that a surface repair cannot reverse.',
   overview: [
     '**Newark Quality Roofing replaces a roof after a chronic leak** across Newark for residential and commercial buildings. Roof replacement after a leak ends a recurring leak by resetting the underlayment-and-cover system to the deck rather than patching the detail that admits water.',
     '**A chronic leak** signals systemic failure rather than an isolated defect, because a leak enters at one detail and travels before showing as an interior stain, and the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. On Newark\'s attached row houses and brownstones in Forest Hill and Roseville, water frequently tracks along a shared party wall before staining a room stories below the breach.',

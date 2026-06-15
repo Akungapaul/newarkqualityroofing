@@ -5,6 +5,8 @@ export const orangeStormDamageRoofRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides storm damage roof repair across Orange and Essex County, repairing wind-lifted shingles, hail-bruised surfaces, debris punctures, and storm-opened flashing** as a New Jersey Home Improvement Contractor, with insurance-claim documentation.',
+  definition:
+    '**Storm damage roof repair** restores the roof covering where a storm opened a detail — wind-lifted shingles, hail-bruised surfaces, debris punctures, or displaced flashing — and documents the damage for an insurance claim. It separates storm-caused damage from pre-existing wear, the distinction that governs coverage.',
   overview: [
     '**Newark Quality Roofing repairs wind-lifted shingles, hail-bruised surfaces, wind-borne debris punctures, and storm-opened flashing** across Orange\'s flat Valley Arts loft roofs, Main Street commercial blocks, and the older detached homes of Seven Oaks. Storm damage roof repair restores the water layer a storm opened and documents the damage for an insurance claim.',
     '**Valley Arts converted-industrial and loft buildings** carry large low-slope membrane roofs where a storm lifts perimeter edges and opens welded seams at the parapet, the points EPDM and TPO fail first, per the InterNACHI life-expectancy chart. A Newark Quality Roofing crew tarps an exposed section first, then documents every impact point across the membrane and internal-drainage detail.',

@@ -5,6 +5,8 @@ export const newarkHailDamageRoofRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides hail damage roof repair across Newark**, assessing impact bruises, granule loss, and cracked shingles, then documenting the damage for an insurance claim as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Hail damage roof repair** restores the roof covering at each hail impact point — bruised and fractured shingles, granule loss, and dented metal flashing — and documents the damage for an insurance claim. It classifies functional damage that exposes the asphalt mat against cosmetic surface marking.',
   overview: [
     '**Newark Quality Roofing repairs hail-damage roofs across Newark\'s neighborhoods: bruised and fractured shingles, hail-driven granule loss, cracked slate, and dented metal flashing and gutters** — for row houses, brownstones, and Ironbound flat-roof buildings alike.',
     '**Bruised and fractured shingles** lose service life where hail scuffs the protective granules and fractures the mat beneath, even when the surface still looks intact. The National Oceanic and Atmospheric Administration sets the severe-hail warning threshold at 0.75 inch diameter, while roof damage begins at about 1.0 inch on aged 3-tab shingles and 1.25 inch on most common shingles, with 2.0-inch hail damaging all tested roofing, per the American Meteorological Society.',

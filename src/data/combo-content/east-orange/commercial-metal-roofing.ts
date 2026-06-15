@@ -5,6 +5,8 @@ export const eastOrangeCommercialMetalRoofing: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs and services commercial metal roofing across East Orange and Essex County, fitting standing-seam and exposed-fastener panels** on mixed-use buildings, multi-family properties, and institutional roofs as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial metal roofing** is a roof covering of formed metal panels — steel, aluminum, or copper — fitted as concealed-fastener standing-seam or exposed-fastener systems on large-span commercial roofs. The metal panels carry long-span low- and steep-slope roofs across a multi-decade ownership horizon.',
   overview: [
     '**Newark Quality Roofing installs standing-seam metal, exposed-fastener panels, aluminum, and copper** on East Orange\'s mixed-use commercial buildings, multi-family properties, and institutional roofs. Commercial metal roofing covers the long-span low- and steep-slope roofs that membrane systems serve less durably across a multi-decade ownership horizon.',
     '**Standing-seam metal** suits the mixed-use and high-rise buildings along Central Avenue and Dr. Martin Luther King Jr. Boulevard near the Brick Church and East Orange NJ Transit stations, lasting 40 to 70 years because the fasteners stay concealed beneath the seam, per This Old House. Commercial metal as a class lasts 40 to 80 years, with copper at 70-plus years, per the InterNACHI life-expectancy chart.',

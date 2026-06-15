@@ -5,6 +5,8 @@ export const orangeSiliconeElastomericRoofCoating: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing applies silicone elastomeric roof coating on Orange\'s commercial, Valley Arts converted-industrial, and 2-/3-family flat roofs, selecting silicone or acrylic to match the ponding, dirt-pickup, and thermal-movement conditions** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Silicone elastomeric roof coating** is a liquid-applied membrane that stretches and recovers to accommodate the daily thermal movement of a low-slope roof, sealing it under one monolithic surface. The chemistry — silicone, acrylic, or polyurethane — is matched to the roof\'s ponding, dirt-pickup, and movement conditions.',
   overview: [
     '**Newark Quality Roofing applies silicone elastomeric roof coating across Orange and matches the chemistry to the roof, because the RCMA recognizes silicone (ASTM D6694), acrylic (ASTM D6083), and polyurethane (ASTM D6947) elastomeric coatings.** An elastomeric coating is a liquid-applied membrane that stretches and recovers to accommodate a roof\'s daily thermal movement.',
     '**Silicone elastomeric coating** suits the large flat and low-slope membranes on Orange\'s Valley Arts converted-industrial and loft buildings and its Main Street downtown commercial blocks, where a 100% silicone coating resists permanent standing water without softening because the hydrophobic Si-O backbone stays stable in water, UV, and heat, per the RCMA, Gaco, Henry, and GE/Momentive.',

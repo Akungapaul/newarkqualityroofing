@@ -5,6 +5,8 @@ export const eastOrangeMetalRoofInstallationRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs metal roofs across East Orange, fitting standing-seam panels and metal shingles and resealing failed seams, fasteners, and corroded sections** on multi-family, walk-up, and single-family roofs as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Metal roof installation and repair** fits a concealed-fastener or exposed-fastener metal covering to the roof deck, and restores an existing metal roof by resealing separated seams, backed-out fasteners, and corroded panel sections. The covering uses steel, aluminum, copper, or zinc panels or shingles.',
   overview: [
     '**Newark Quality Roofing installs and repairs standing-seam panels, metal shingles, copper, and aluminum** on East Orange\'s multi-family properties, pre-war walk-ups, and older single-family homes. Metal roof installation fits a concealed-fastener or exposed-fastener cover to the deck, and metal roof repair reseals the seams, fasteners, and corroded sections where a metal cover admits water.',
     '**Standing-seam metal** runs continuous concealed-fastener panels from ridge to eave on a clip system and lasts 40 to 80 years, with copper at 70-plus years, against 20 years for 3-tab asphalt and 30 for architectural asphalt, per the InterNACHI life-expectancy chart. The concealed fasteners create no surface penetrations to weather, so standing-seam metal develops fewer leaks than an exposed-fastener metal-shingle roof.',

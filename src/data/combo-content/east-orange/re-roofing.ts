@@ -5,6 +5,8 @@ export const eastOrangeReRoofing: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides re-roofing across East Orange and Essex County, recovering or replacing a worn roof covering with a new underlayment-and-cover system** once the existing roof crosses the replacement threshold, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
     '**Newark Quality Roofing re-roofs the worn covering on East Orange homes, pre-war apartments, and multi-family walk-ups**, the work that recovers or replaces a roof past its service life rather than patching a single detail, per the Asphalt Roofing Manufacturers Association.',
     '**Re-roofing** reaches the replacement decision through age and condition: 3-tab asphalt lasts 20 years, architectural asphalt 30, metal 40 to 80, and slate 60 to 150, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40 percent with climate, install, and maintenance. A Newark Quality Roofing re-roof matches the new system to the East Orange building before tear-off.',

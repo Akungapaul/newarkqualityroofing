@@ -5,6 +5,8 @@ export const newarkRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing replaces residential and commercial roofs across Newark**, stripping the roof to the deck, repairing the sheathing, and installing a new underlayment-and-cover system to manufacturer specification as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.',
   overview: [
     '**Newark Quality Roofing replaces residential and commercial roofs across Newark**, stripping the roof to the deck, repairing the sheathing, and installing a new **underlayment-and-cover system** to manufacturer specification as a New Jersey Home Improvement Contractor.',
     '**Roof replacement** strips the existing covering to the deck and installs a new underlayment-and-cover system, the work that fixes a roof past its service life rather than patching a single failed detail. Replacement accounts for 79.2% of US roofing installations in 2025, per Mordor Intelligence, because most roofs reach replacement through age and storm loss rather than new construction. Newark Quality Roofing matches the new system to the building and the Essex County climate from 5 material classes: 3-tab asphalt, architectural asphalt, standing-seam metal, slate, and low-slope membrane.',

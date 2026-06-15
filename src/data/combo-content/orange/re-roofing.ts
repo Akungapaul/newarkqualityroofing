@@ -5,6 +5,8 @@ export const orangeReRoofing: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing re-roofs homes and buildings across Orange and Essex County, replacing a worn covering with a new underlayment-and-cover system** on two- and three-family rentals, Seven Oaks detached homes, and Valley Arts low-slope roofs as a NJ contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
     '**Newark Quality Roofing re-roofs asphalt, metal, slate, and low-slope membrane systems** across the City of Orange Township, replacing a worn covering once a roof crosses the replacement threshold by age or condition. Re-roofing fixes a roof past its service life rather than patching one failed detail, defined by ARMA as recovering or replacing an existing roof covering.',
     '**Asphalt, metal, and slate systems** reach the replacement decision through age and condition: 3-tab asphalt lasts 20 years, architectural asphalt 30, metal 40 to 80, and slate 60 to 150, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. Much of Orange is older stock, roughly half built before 1939, so many roofs sit at or past the asphalt threshold.',

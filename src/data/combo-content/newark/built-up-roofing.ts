@@ -5,6 +5,8 @@ export const newarkBuiltUpRoofing: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and restores built-up roofing across Newark**, building and resurfacing multi-ply BUR membranes on commercial low-slope and older flat-roof buildings as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Built-up roofing** is a low-slope membrane that alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel, mineral granules, or a reflective coating. The multi-ply assembly shields the membrane from UV and impact.',
   overview: [
     '**Newark Quality Roofing installs and restores built-up roofing across Newark, building multi-ply BUR membranes and resurfacing existing ones** on commercial low-slope and older flat-roof buildings as a New Jersey Home Improvement Contractor. Built-up roofing alternates layers of reinforcing fabric and hot bitumen, then surfaces the plies with gravel or a reflective coating that shields the membrane from UV and impact.',
     '**Built-up roofing** lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15–25 years, TPO at 7–20 years, and modified bitumen at 20 years. BUR appears across the older flat-roof stock in Newark — the Ironbound and East Ward commercial buildings along Ferry Street, mid-century apartment and mixed-use blocks, and the downtown office cores near Military Park — from the era when BUR was the dominant low-slope technology.',

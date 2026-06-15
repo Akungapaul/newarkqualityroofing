@@ -5,6 +5,8 @@ export const eastOrangeRoofDeckRepairReplacement: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing repairs and replaces roof decks across East Orange, removing rotted plywood and OSB sheathing and re-decking the roof so the deck grips fasteners and supports the covering** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [
     '**Newark Quality Roofing repairs rotted sheathing, delaminated plywood and swollen OSB, and water-soaked decking** across East Orange. The roof deck is the plywood or OSB sheathing spanning the rafters, the structural substrate that anchors every roofing nail under the covering.',
     '**Rotted sheathing** loses the ability to hold a fastener, because roofing nails penetrate at least 3/4 inch into the deck, or fully through plus 1/8 inch where the deck measures under 3/4 inch thick, per ARMA nail-application guidance. A Newark Quality Roofing re-deck removes the decayed plywood or OSB and restores a deck that grips the covering, because trapped moisture decays the sheathing until it loses fastener hold and the roof loses wind resistance, per InterNACHI.',

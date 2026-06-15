@@ -5,6 +5,8 @@ export const orangeAgingRoofReplacement: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing replaces aging roofs across Orange and Essex County, stripping a roof at the end of its material lifespan to the deck and installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.',
   overview: [
     '**Newark Quality Roofing replaces aging asphalt, metal, slate, cedar, and low-slope membrane roofs** across Orange\'s two- and three-family homes, Seven Oaks detached houses, and Valley Arts converted-loft buildings. Aging roof replacement strips a roof at the end of its service life to the deck, repairs the sheathing, and installs a new underlayment-and-cover system.',
     '**Aging asphalt** reaches the end of service after a material-specific lifespan: 3-tab lasts 20 years, architectural 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and actual asphalt life varies up to 40% with climate, install, and maintenance, per the NRCA. A Newark Quality Roofing replacement targets a roof past its design life before the leak rate climbs.',

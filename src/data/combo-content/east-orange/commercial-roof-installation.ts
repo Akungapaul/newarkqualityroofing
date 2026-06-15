@@ -5,6 +5,8 @@ export const eastOrangeCommercialRoofInstallation: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs commercial roofs across East Orange** — the **flat-roof storefronts, high-rises, and apartment blocks** along the Central Avenue corridor — as a New Jersey Home Improvement Contractor applying single-ply, foam, and metal systems.',
+  definition:
+    '**Commercial roof installation** engineers and builds a new low-slope or steep-slope roof on a commercial building, sizing the insulation, slope, and attachment, then applying a membrane or metal panel system. It constructs the full weatherproof assembly on a new or stripped deck rather than patching an existing roof.',
   overview: [
     '**Newark Quality Roofing fits the commercial flat roof to East Orange\'s corridor and apartment market**, where the building dictates the assembly Newark Quality Roofing engineers and applies, and the occupancy dictates the membrane or panel.',
     '**The Central Avenue and Main Street corridors carry the bulk of East Orange\'s low-slope commercial work** — the mixed-use storefronts, high-rises, and pre-war walk-up apartments lining the avenue East Orange renamed Dr. Martin Luther King Jr. Boulevard, clustered near the Brick Church and East Orange NJ Transit stations on a NJ Transit Village that runs Midtown Direct to New York. These roofs drain only at ¼ inch per foot of slope, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so Newark Quality Roofing builds tapered polyisocyanurate crickets that move water to the drains before the membrane goes down.',

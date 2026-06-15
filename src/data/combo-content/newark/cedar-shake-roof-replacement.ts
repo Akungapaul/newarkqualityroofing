@@ -5,6 +5,8 @@ export const newarkCedarShakeRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs across Newark**, stripping aging wood to the deck and installing new cedar on a ventilated nailing base as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
     '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs across Newark**, stripping aging cedar to the deck and laying new wood on a ventilated nailing base as a New Jersey Home Improvement Contractor. Cedar shake roof replacement restores a wood roof past its service life rather than patching individual split shakes.',
     '**Cedar shake** lasts 20 to 40 years and **cedar shingle** 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing a single "Wood" row at 25 years. Maintenance sets where in the range a cedar roof lands, because moisture cycling drives most premature cedar failure. Cedar appears on Newark\'s character properties — North Ward and Forest Hill estate homes, Victorian and Colonial single-family stock — far more than on the city\'s renter-occupied two- and three-family blocks.',

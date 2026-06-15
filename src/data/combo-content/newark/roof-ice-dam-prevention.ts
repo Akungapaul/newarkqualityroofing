@@ -5,6 +5,8 @@ export const newarkRoofIceDamPrevention: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides roof ice dam prevention across Newark**, correcting **attic heat escape** with air-sealing, code-minimum insulation, and balanced ventilation, and installing the **code eave ice barrier**, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof ice dam prevention** corrects the attic heat escape that melts a snowpack and refreezes meltwater into a dam at the cold eave. It combines air-sealing, attic insulation, balanced soffit-and-ridge ventilation, and a self-adhering eave ice barrier.',
   overview: [
     '**Roof ice dam prevention** corrects **attic heat escape** and adds **the code eave ice barrier** so a Newark roof\'s snowpack stays frozen and meltwater cannot refreeze into a dam at the eave. The root cause is heat leaking through the ceiling, not gutters, per University of Minnesota Extension.',
     '**Roof ice dam prevention** at Newark Quality Roofing uses three root-cause measures: air-seal the attic ceiling bypasses that leak heated air, add attic insulation to the code-minimum level, and balance soffit-intake-to-ridge-exhaust ventilation. The U.S. Department of Energy directs air-sealing, insulating, and ventilating together, because adding insulation without air-sealing leaves the heat bypasses open.',

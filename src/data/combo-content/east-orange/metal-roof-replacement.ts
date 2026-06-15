@@ -5,6 +5,8 @@ export const eastOrangeMetalRoofReplacement: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing replaces roofs with new metal across East Orange, stripping the old roof to the deck and installing standing-seam, metal-panel, or metal-shingle systems that last 40 to 80 years** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Metal roof replacement** removes a worn roof covering down to the deck and installs a new metal system in standing-seam panels, metal panels, or metal shingles. It rebuilds the entire weatherproof surface in steel, aluminum, copper, or zinc.',
   overview: [
     '**Newark Quality Roofing installs standing-seam metal, exposed-fastener metal panel, and metal shingle across East Orange** for residential and multi-family buildings. Metal roof replacement strips the existing roof to the deck, repairs the sheathing, and installs a new underlayment-and-metal system that outlasts the asphalt roof it replaces.',
     '**Standing-seam metal** conceals the fasteners under raised seams and lasts 40 to 70 years, per This Old House, while metal panel and metal shingle carry the fasteners in the weather plane and last 40 to 80 years, per the InterNACHI life-expectancy chart, against 20 years for 3-tab asphalt and 30 years for architectural asphalt. A Newark Quality Roofing metal roof replacement matches the system to the roof slope before tear-off.',

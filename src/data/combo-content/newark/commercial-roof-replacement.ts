@@ -5,6 +5,8 @@ export const newarkCommercialRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing replaces commercial roofs across Newark**, tearing the low-slope membrane to the deck and installing a new insulation-and-membrane system on Ironbound and Downtown buildings as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [
     '**Newark Quality Roofing replaces commercial roofs across Newark**, stripping the low-slope membrane to the deck, repairing the deck, and installing a new insulation-and-membrane system as a New Jersey Home Improvement Contractor.',
     '**Commercial roof replacement** strips the existing low-slope covering to the deck, repairs the deck, and installs a new EPDM, TPO, PVC, modified-bitumen, built-up, or standing-seam metal system to manufacturer specification — the work that retires a membrane past its service life rather than patching a failed seam. A new commercial system reaches end of service after a material-specific lifespan: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF.',

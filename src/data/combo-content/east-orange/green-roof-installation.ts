@@ -5,6 +5,8 @@ export const eastOrangeGreenRoofInstallation: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs green roofs across East Orange and Essex County, building the green-roof-rated waterproofing membrane, root barrier, drainage layer, and engineered growing media that carry a planted roof** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.',
   overview: [
     '**Newark Quality Roofing installs green roof systems across East Orange**, layering a **green-roof-rated waterproofing membrane**, a root barrier, a drainage and water-retention layer, engineered lightweight growing media, and drought-tolerant vegetation on a flat or low-slope roof.',
     '**Newark Quality Roofing** builds the assembly from the membrane up, because the membrane sits beneath the growing media and vegetation and stays inaccessible once the planted layers cover it. A green (vegetation) roof lasts 5 to 40 years, per the InterNACHI life-expectancy chart, so the waterproofing layer is flood-tested before any growing media goes down.',

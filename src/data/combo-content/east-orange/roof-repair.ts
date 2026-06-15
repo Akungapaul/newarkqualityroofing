@@ -5,6 +5,8 @@ export const eastOrangeRoofRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides roof repair across East Orange and Essex County, fixing roof leaks, missing and cracked shingles, flashing failures, and storm damage** on pre-war apartments, multi-family walk-ups, and older single-family homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof repair** restores a roof\'s weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.',
   overview: [
     '**Newark Quality Roofing repairs roof leaks, missing and cracked shingles, flashing failures, and storm damage** across East Orange\'s dense multi-family stock, layered flat-roof walk-ups, and older single-family homes. Roof repair restores the water layer at the detail that admits water, from a single failed pipe boot to full storm-damage restoration.',
     '**Roof leaks** in East Orange trace to one detail and travel before showing as an interior stain, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing repair diagnoses the root cause before sealing the failed component, following the moisture path from ridge to eave, per Integrity Home Exteriors repair-process guidance.',

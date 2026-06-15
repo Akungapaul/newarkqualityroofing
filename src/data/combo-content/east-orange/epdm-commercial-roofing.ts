@@ -5,6 +5,8 @@ export const eastOrangeEpdmCommercialRoofing: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides EPDM commercial roofing across East Orange and Essex County, installing and servicing EPDM rubber membrane on the flat and low-slope roofs of mixed-use, multi-family, and commercial buildings** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**EPDM commercial roofing** is a single-ply synthetic-rubber membrane installed on flat and low-slope commercial roofs to seal the building against water entry. EPDM attaches mechanically, fully adheres, or holds under ballast, with the splice seams joining the sheets.',
   overview: [
     '**Newark Quality Roofing installs and services EPDM commercial roofing across East Orange: mechanically attached, fully adhered, and ballasted EPDM rubber membrane** on the mixed-use, office, and multi-family buildings of a dense inner-ring suburb. EPDM roofing covers the flat and low-slope roof in a single-ply rubber membrane that seals the building against water entry.',
     '**EPDM rubber membrane** suits East Orange because roughly 87.6% of the city\'s housing units sit in multi-unit structures, per U.S. Census QuickFacts, where layered flat-roof systems cap pre-war walk-ups and apartment blocks along the Central Avenue and Dr. Martin Luther King Jr. Boulevard corridors. EPDM lasts 15 to 25 years, per the InterNACHI life-expectancy chart, and a service-life study attributed via Progressive Materials places it at 25 to 30 years.',

@@ -5,6 +5,8 @@ export const newarkGutterGuardInstallation: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs gutter guards across Newark and Essex County, fitting micro-mesh, screen, reverse-curve, foam, and brush guards** over Forest Hill, Roseville, and Ironbound gutters as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**A gutter guard** is a cover fitted over or inside a gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while letting water pass into the gutter. A gutter guard reduces clogging and overflow rather than eliminating gutter cleaning.',
   overview: [
     '**Newark Quality Roofing installs 5 gutter-guard types on Newark homes: micro-mesh, screen and perforated metal, reverse-curve, foam, and brush.** A gutter guard fits over or inside the gutter trough to block leaves, seed pods, and shingle grit, the urban debris that clogs an open gutter and forces overflow against the fascia and party walls of Newark row homes.',
     '**Micro-mesh** ranks as the finest-filtration type, an ultra-fine stainless screen on a rigid frame that blocks the smallest debris including the catkins, seeds, and shingle grit that Forest Hill and Roseville canopies shed, per This Old House; LeafFilter specifies a 316L surgical-grade stainless mesh on a uPVC frame with an opening sweet spot near 100 to 300 microns. A screen, perforated, or reverse-curve guard passes fine debris, while foam and brush guards block large debris only and rank least durable, per This Old House and EcoWatch.',

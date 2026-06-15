@@ -5,6 +5,8 @@ export const newarkSoffitInstallationRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and repairs soffit across Newark**, replacing rotted soffit board, clearing blocked intake vents, and setting insulation baffles to restore attic airflow, as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**The soffit** is the eave underside that closes the rafter-tail bays and houses the intake vents of a balanced attic-ventilation system. Soffit installation and repair replaces the rotted panel, clears blocked intake, and installs baffles that hold the soffit-to-ridge air channel open.',
   overview: [
     '**Newark Quality Roofing installs and repairs soffit on Newark homes**, replacing rotted board, clearing blocked intake vents, and setting insulation baffles in vinyl, aluminum, wood, or fiber-cement, per InterNACHI inspection guidance.',
     '**The soffit** is the eave underside that houses the intake vents, and soffit vents are the primary intake of a balanced attic-ventilation system, per the U.S. DOE Building America Solution Center and InterNACHI. On Newark\'s Forest Hill and Roseville Victorian brownstones and row homes, original beadboard soffit often carries hand-cut vent slots, so a repair restores both the intake and the period detail.',

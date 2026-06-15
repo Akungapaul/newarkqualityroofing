@@ -5,6 +5,8 @@ export const orangeRoofFlashingInstallationRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs roof flashing across Orange and Essex County, sealing the chimneys, walls, valleys, skylights, and penetrations where most roof leaks originate** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof flashing** is the sheet metal that seals the transitions and penetrations of a roof — chimneys, walls, valleys, skylights, and vent stacks. Flashing sheds water at every joint a continuous shingle field cannot cover, the detail where most roof leaks originate.',
   overview: [
     '**Newark Quality Roofing installs and repairs roof flashing on Orange\'s two- and three-family homes, older Seven Oaks houses, Valley Arts loft buildings, and Main Street commercial roofs.** Roof flashing is the sheet metal that seals the transitions and penetrations a continuous shingle field cannot cover.',
     '**Roof flashing** carries the water layer at every joint a roof field cannot, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing flashing job starts at the failed transition — chimney, sidewall, valley, skylight, or penetration — not the interior drip point.',

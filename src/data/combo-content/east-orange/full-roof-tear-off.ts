@@ -5,6 +5,8 @@ export const eastOrangeFullRoofTearOff: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides full roof tear off across East Orange and Essex County, stripping every existing roof layer to the deck, repairing the sheathing, then installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
     '**Newark Quality Roofing performs full roof tear off across East Orange in three phases: complete removal of every existing roof covering to the bare deck, deck inspection and repair, then a new underlayment-and-cover installation.** Full roof tear off strips the asphalt, underlayment, and any overlay layers a roof carries, exposing the deck for the inspection a roof-over cannot provide.',
     '**Full roof tear off** lets a roofer inspect the deck, repair any damage, and improve deck attachment to the structure, while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI. The exposed deck reveals the true condition of an older East Orange building that accumulated layers cannot show.',

@@ -5,6 +5,8 @@ export const orangeCommercialMetalRoofing: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and services commercial metal roofing across the City of Orange Township**, fitting **standing-seam and exposed-fastener panels** on Main Street downtown commercial blocks and Valley Arts converted-industrial buildings as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial metal roofing** is a roof covering of formed metal panels — steel, aluminum, or copper — fitted as concealed-fastener standing-seam or exposed-fastener systems on large-span commercial roofs. The metal panels carry long-span low- and steep-slope roofs across a multi-decade ownership horizon.',
   overview: [
     '**Newark Quality Roofing installs and re-covers commercial metal roofing on Orange\'s Main Street corridor and its Valley Arts buildings** — the downtown storefront blocks, the mixed-use stock above them, and the former-industrial lofts near the Highland Avenue station. The panel system is matched to each building, not carried as one default across an investor\'s portfolio.',
     '**Main Street commercial buildings** anchor much of Orange\'s metal-roof demand, where the principal downtown corridor carries attached storefront-and-upper-floor blocks whose street-facing slopes and parapet caps suit a finished standing-seam or aluminum profile. On these attached buildings the panel choice answers to the streetscape as much as to the structure, and an aluminum or copper finish in a weathered or zinc tone reads with the corridor\'s older fabric while delivering a multi-decade service life.',

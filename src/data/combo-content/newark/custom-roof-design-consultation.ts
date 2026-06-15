@@ -5,6 +5,8 @@ export const newarkCustomRoofDesignConsultation: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides custom roof design and consultation across Newark**, evaluating roof geometry, material options, and code requirements to produce a **written roofing specification** as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**Custom roof design and consultation** is an advisory service that evaluates a building\'s roof geometry, structure, material options, and code requirements, then produces a written roofing specification before installation. It guides a new build, addition, complex roof, or material-selection decision.',
   overview: [
     '**Newark Quality Roofing custom roof design and consultation delivers a roof and structural assessment, a material evaluation against measured lifespans, and a written roofing specification** for Newark residential and commercial properties. The consultation guides a new build, an addition, a complex roof geometry, or a material-selection decision before installation.',
     '**A Newark Quality Roofing consultation matches the roof system to the building** and the local climate, because material lifespan differs sharply: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, natural slate 60 to 150 years, copper 70-plus years, and clay or concrete tile 100-plus years, per the InterNACHI life-expectancy chart. Newark spans dense urban blocks where row houses, brownstones, flat-roof commercial buildings, and single-family Victorians share tight rooflines.',

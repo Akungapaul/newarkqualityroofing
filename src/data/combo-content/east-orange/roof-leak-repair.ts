@@ -5,6 +5,8 @@ export const eastOrangeRoofLeakRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides roof leak repair across East Orange, tracing the moisture path to the root-cause flashing, shingle, pipe-boot, or membrane detail** on multi-family walk-ups and older single-family homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof leak repair** traces a roof leak to its source detail — flashing, shingle, pipe boot, valley, or skylight — and reseals or replaces the failed component to stop water entry. It diagnoses the entry point, which sits feet away from the interior drip, before sealing.',
   overview: [
     '**Newark Quality Roofing traces and repairs roof leaks** across East Orange\'s pre-war apartments, two- and three-family walk-ups, and single-family homes. Roof leak repair restores the water layer at the detail admitting water, finding the root cause, not the drip.',
     '**Roof leaks** in East Orange enter at one detail and travel before showing as an interior stain, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing repair follows the moisture path from ridge to eave, per Integrity Home Exteriors repair-process guidance, before sealing the failed component.',

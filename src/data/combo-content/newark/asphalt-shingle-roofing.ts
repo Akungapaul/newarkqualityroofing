@@ -5,6 +5,8 @@ export const newarkAsphaltShingleRoofing: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and replaces asphalt shingle roofing across Newark**, fitting architectural and 3-tab shingles with an ice barrier, synthetic underlayment, and balanced ventilation on the city\'s pitched row houses and single-family homes.',
+  definition:
+    '**Asphalt shingle roofing** covers a sloped roof in overlapping fiberglass-mat shingles surfaced with mineral granules, laid over underlayment, an ice barrier, drip edge, and flashing into a water-shedding system. It is the most common residential roof covering and comes in flat 3-tab and dimensional architectural profiles.',
   overview: [
     '**Newark Quality Roofing installs asphalt shingle roofing across Newark**, fitting standard and architectural shingles to the deck with an ice barrier, synthetic underlayment, flashing, and balanced ventilation as a New Jersey Home Improvement Contractor.',
     '**Asphalt shingle roofing** layers fiberglass-mat shingles, synthetic underlayment, an eave-and-valley ice barrier, metal drip edge, and flashing into a water-shedding system, the most common residential roof covering on roughly 73% of US residential roofs, per 2024 roofing-market data. The covering fits the steep gable and hip roofs across Newark, from Vailsburg and Weequahic detached homes to the Forest Hill and Roseville Victorians of the North Ward.',

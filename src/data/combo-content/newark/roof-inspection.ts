@@ -5,6 +5,8 @@ export const newarkRoofInspection: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides roof inspection across Newark and Essex County, assessing the roof-covering, flashing, drainage, ventilation, and the deck** to document findings before a leak appears, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**A roof inspection** is a systematic evaluation of a roof\'s covering, flashing, drainage, ventilation, sealants, and deck that rates each component by condition and documents damage, wear, and active-leak indications before water reaches the interior.',
   overview: [
     '**Newark Quality Roofing inspects the roof-covering, flashing, penetrations, drainage, ventilation, sealants, the deck, and the attic underside** across Newark and Essex County, rating each component by condition and documenting the findings before water reaches the interior.',
     '**Flashing** drives a Newark inspection, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. On Roseville and Forest Hill brownstones and on attached row houses, the inspection starts at the party-wall and chimney transitions where two properties meet over a shared masonry line.',

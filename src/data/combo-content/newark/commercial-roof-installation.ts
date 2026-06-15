@@ -5,6 +5,8 @@ export const newarkCommercialRoofInstallation: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs commercial roofs across Newark and Essex County, engineering and applying TPO, EPDM, PVC, modified-bitumen, built-up, spray-foam, and metal systems** on the city\'s flat-roof commercial blocks as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof installation** engineers and builds a new low-slope or steep-slope roof on a commercial building, sizing the insulation, slope, and attachment, then applying a membrane or metal panel system. It constructs the full weatherproof assembly on a new or stripped deck rather than patching an existing roof.',
   overview: [
     '**Newark Quality Roofing installs commercial roof systems across Newark** — **TPO, EPDM, PVC, modified bitumen, built-up roofing, spray foam, and metal** — engineering the assembly, then applying the membrane or panel matched to the building and the occupancy.',
     '**Newark Quality Roofing installs the low-slope membranes that cover the Ironbound and East Ward**, where flat-roof commercial buildings and active factories line Ferry Street and the warehouse blocks toward Port Newark. A commercial low-slope roof needs at least ¼ inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing installation builds tapered polyisocyanurate crickets that direct water to the drains before the membrane goes down.',

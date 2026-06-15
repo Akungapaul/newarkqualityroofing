@@ -5,6 +5,8 @@ export const orangeTileRoofInstallationRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs clay and concrete tile roofs across Orange, replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details** on older detached and historic-district homes as a New Jersey contractor.',
+  definition:
+    '**Tile roof installation and repair** sets a clay or concrete tile covering over a waterproof underlayment, and restores an existing tile roof by replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.',
   overview: [
     '**Newark Quality Roofing provides clay and concrete tile installation, broken-tile replacement, underlayment renewal, and ridge, hip, and flashing resealing** across Orange\'s older detached and historic-district homes. Tile roof installation and repair sets a clay or concrete cover over a waterproof underlayment, the layer that carries the actual water resistance while the tile sheds rainfall and shields the membrane from UV.',
     '**Clay and concrete tile** lasts 100 years or more, per the InterNACHI life-expectancy chart, while the Tile Roofing Industry Alliance notes clay tile often reaches 75 years or more and concrete tile a typical 40 to 75 years. The underlayment, not the tile, sets the true repair-versus-replace trigger on a tile roof, so a Newark Quality Roofing diagnosis separates a sound tile field from the membrane that fails first, per the Tile Roofing Industry Alliance.',

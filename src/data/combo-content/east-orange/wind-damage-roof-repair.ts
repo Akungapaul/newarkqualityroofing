@@ -5,6 +5,8 @@ export const eastOrangeWindDamageRoofRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides wind damage roof repair across East Orange and Essex County, replacing blown-off and seal-broken shingles, resealing lifted flashing, and refastening loosened low-slope membrane** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Wind damage roof repair** restores the roof where wind separated the covering — blown-off and creased shingles, lifted ridge and hip caps, broken shingle seals, displaced flashing, and loosened membrane. It concentrates on the corners, rakes, and edges, where wind uplift peaks.',
   overview: [
     '**Newark Quality Roofing repairs wind damage across East Orange: blown-off and creased shingles, lifted ridge and hip caps, broken-seal shingles, displaced flashing, and loosened low-slope membrane** on residential and commercial properties.',
     '**Blown-off and seal-broken shingles** drive most East Orange wind claims on the city\'s pre-war apartments, two- and three-family walk-ups, and older single-family homes in Brick Church, Ampere, Doddtown, and Presidential Estates, because wind damages a roof at the severe-thunderstorm threshold of 58 mph gusts, per NOAA, while 3-tab asphalt shingles carry a wind rating near 60 mph and architectural shingles reach a 130 mph warranty at 6-nail installation, per ARMA and ASTM D3161 and D7158.',

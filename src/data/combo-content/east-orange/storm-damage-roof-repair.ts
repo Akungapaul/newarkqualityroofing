@@ -5,6 +5,8 @@ export const eastOrangeStormDamageRoofRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides storm damage roof repair across East Orange**, working the **landlord-owned walk-ups and apartment blocks** one storm exposes at once, with portfolio-wide insurance-claim documentation as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Storm damage roof repair** restores the roof covering where a storm opened a detail — wind-lifted shingles, hail-bruised surfaces, debris punctures, or displaced flashing — and documents the damage for an insurance claim. It separates storm-caused damage from pre-existing wear, the distinction that governs coverage.',
   overview: [
     '**Newark Quality Roofing repairs storm damage across East Orange**, restoring the water layer a storm opens at **wind-lifted shingles**, hail-bruised surfaces, branch-impact punctures, and storm-loosened flat-roof membrane on the city\'s pre-war apartments, walk-ups, and northern single-family homes.',
     '**Landlord-owned walk-ups and apartment blocks** define the East Orange storm call, where 87.6% of units sit in multi-unit structures and roughly 69% are renter-occupied, per U.S. Census QuickFacts. One front of weather lifts edges across several adjacent pre-war buildings at once, so the job is rarely a single roof — it is a portfolio of apartment roofs that share an age, a slope, and a failure point.',

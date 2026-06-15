@@ -5,6 +5,8 @@ export const eastOrangeSkylightInstallationRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs skylights across East Orange and Essex County, sealing leaks at the failed flashing, replacing fogged units, and curb-mounting skylights on flat and low-slope roofs** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
     '**Newark Quality Roofing installs, replaces, and repairs skylights** on East Orange homes and multi-family buildings, **sealing the roof penetration at the flashing detail that admits water**, the leading cause of a skylight leak, per roofing trade consensus.',
     '**Skylight installation** sets a VELUX or Fakro unit with the manufacturer flashing kit matched to both the mounting type and the roof covering, because an engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America. East Orange owner-occupied homes in the northern Presidential Estates, Ampere, and Doddtown neighborhoods carry skylights that bring natural light into upper-floor living space beneath the older single-family roofs.',

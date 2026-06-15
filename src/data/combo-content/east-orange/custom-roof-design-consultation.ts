@@ -5,6 +5,8 @@ export const eastOrangeCustomRoofDesignConsultation: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides custom roof design and consultation across East Orange and Essex County, evaluating roof geometry, material options, and code requirements to produce a written roofing specification** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Custom roof design and consultation** is an advisory service that evaluates a building\'s roof geometry, structure, material options, and code requirements, then produces a written roofing specification before installation. It guides a new build, addition, complex roof, or material-selection decision.',
   overview: [
     '**Newark Quality Roofing custom roof design and consultation delivers a roof and structural assessment, a material evaluation against measured lifespans, and a written roofing specification** for East Orange homes and income properties. Custom roof design and consultation guides a multi-family rehabilitation, a layered flat-roof rebuild, a complex roof geometry, or a material-selection decision before installation.',
     '**A roof and structural assessment** matches the roof system to the building and the Essex County climate, sizing attic ventilation to the minimum net free ventilating area of 1 square foot per 150 square feet of attic floor, per IRC R806.2 and ARMA, before a material recommendation. This serves East Orange\'s pre-war walk-ups around Brick Church and the older single-family homes of Presidential Estates and Greenwood alike.',

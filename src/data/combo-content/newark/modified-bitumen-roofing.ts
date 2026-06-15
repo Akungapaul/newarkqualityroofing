@@ -5,6 +5,8 @@ export const newarkModifiedBitumenRoofing: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs modified bitumen roofing across Newark and Essex County, building a multi-ply SBS or APP membrane over the deck** on the low-slope roofs of the Ironbound and downtown, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Modified bitumen roofing** is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet over base plies on the deck. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant, built-up asphalt assembly.',
   overview: [
     '**Modified bitumen roofing** layers a polymer-modified asphalt cap sheet over base plies, the **multi-ply assembly** that carries the redundancy of built-up roofing with added membrane flexibility on a flat or low-slope roof. Newark Quality Roofing builds this system across the city\'s dense low-slope building stock.',
     '**Modified bitumen** suits the flat-roof commercial membranes lining Ferry Street in the Ironbound and the three- to six-story mixed-use buildings of Newark\'s downtown core, where retail at grade sits below offices and apartments. Modified bitumen lasts 20 years, per the InterNACHI life-expectancy chart, against EPDM at 15 to 25 years and TPO at 7 to 20 years.',

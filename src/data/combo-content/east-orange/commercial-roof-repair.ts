@@ -5,6 +5,8 @@ export const eastOrangeCommercialRoofRepair: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides commercial roof repair in East Orange**, resealing seam separations, membrane punctures, flashing failures, and ponding-water damage on low-slope EPDM, TPO, PVC, and modified-bitumen roofs as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof repair** restores the weather barrier of a low-slope commercial membrane by sealing localized failures — seam separations, punctures, flashing breaks, and ponding damage — without replacing the entire roof. It traces water entry to the failed detail, then reseals it with manufacturer-approved bonding that keeps the system warranty intact.',
   overview: [
     '**Newark Quality Roofing repairs commercial low-slope roofs** across East Orange\'s mixed-use corridors, pre-war apartment buildings, and multi-family walk-ups. **Commercial roof repair** traces water entry on a flat membrane to the failed detail, then reseals it with manufacturer-approved bonding that keeps a system warranty intact.',
     '**Newark Quality Roofing** repairs 6 commercial roof problems on East Orange flat roofs: membrane seam separations, punctures and tears, flashing failures at curbs and penetrations, ponding-water damage, blistering and delamination, and storm-opened laps. The dense Central Avenue and Dr. Martin Luther King Jr. Boulevard corridors carry mixed-use and multi-family buildings layered with EPDM, TPO, PVC, modified-bitumen, and built-up systems.',

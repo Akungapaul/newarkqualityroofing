@@ -5,6 +5,8 @@ export const eastOrangeSprayFoamRoofing: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides spray foam roofing across East Orange and Essex County, applying seamless spray polyurethane foam and a protective coating** over the flat and low-slope roofs of multi-family walk-ups and commercial buildings.',
+  definition:
+    '**Spray foam roofing** sprays liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating. The coating shields the UV-sensitive foam from degradation.',
   overview: [
     '**Newark Quality Roofing applies spray polyurethane foam and a protective coating** to East Orange flat and low-slope roofs, on pre-war apartment buildings, two- and three-family walk-ups, and commercial blocks along Central Avenue and Dr. Martin Luther King Jr. Boulevard. **Spray foam roofing** sprays liquid polyurethane that expands into closed-cell foam, bonds to the substrate, and cures into a monolithic insulation-and-waterproofing layer beneath the coating.',
     '**Spray polyurethane foam** carries an aged R-value of R-6.0 to R-6.5 per inch, the insulation figure attributed to ICC-ES reports, ASTM C1289 LTTR testing, and the SPFA, so a foam layer adds thermal resistance no single-ply membrane provides. On East Orange\'s aging multi-unit stock, where 87.6% of units sit in multi-unit structures per U.S. Census QuickFacts, the foam restores insulation that older flat-roof assemblies lack.',

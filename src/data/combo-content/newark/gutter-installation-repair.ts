@@ -5,6 +5,8 @@ export const newarkGutterInstallationRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and repairs gutters across Newark**, fitting **seamless aluminum, copper, and steel gutters** and downspouts and resealing leaks, sagging runs, and clogs on row houses, brownstones, and flat-roof buildings, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [
     '**Newark Quality Roofing installs and repairs gutters across the city**, restoring the **drainage path** that carries roof runoff away from the fascia, soffit, and foundation on Newark\'s row houses, brownstones, triple-deckers, and flat-roof commercial blocks.',
     '**The drainage path** matters more on Newark\'s zero-lot-line building stock than on open suburban lots, because a clogged gutter overflows and saturates the fascia and soffit and sheds water against the foundation, per Angi — and on a shared party wall the overflow reaches a neighbor\'s foundation rather than open lawn. North Ward and Forest Hill brownstone rows channel steep-pitch runoff into narrow side yards with few discharge points.',

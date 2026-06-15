@@ -5,6 +5,8 @@ export const orangeSkylightInstallationRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs skylights across Orange, sealing leaks at the failed flashing, replacing fogged units, and curb-mounting skylights on Valley Arts low-slope roofs** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
     '**Newark Quality Roofing performs four skylight services in Orange: new installation, replacement, flashing-leak repair, and fogged-glass-seal replacement** — on the city\'s two- and three-family homes, older detached houses, and converted-loft buildings.',
     '**New installation** sets a deck-mounted or curb-mounted unit with the matching VELUX or Fakro flashing kit, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8 — the curb-mounted path that suits the flat and low-slope roofs on converted-industrial buildings in Orange\'s Valley Arts area.',

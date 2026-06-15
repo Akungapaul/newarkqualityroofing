@@ -5,6 +5,8 @@ export const newarkSiliconeElastomericRoofCoating: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing applies silicone elastomeric roof coating on commercial and flat residential roofs across Essex County, matching the chemistry — silicone or acrylic — to the ponding and dirt-pickup condition** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Silicone elastomeric roof coating** is a liquid-applied membrane that stretches and recovers to accommodate the daily thermal movement of a low-slope roof, sealing it under one monolithic surface. The chemistry — silicone, acrylic, or polyurethane — is matched to the roof\'s ponding, dirt-pickup, and movement conditions.',
   overview: [
     '**Silicone elastomeric roof coating is a liquid-applied membrane that stretches and recovers with the daily thermal movement of a low-slope roof**, the property that separates an elastomeric coating from a rigid film. Newark Quality Roofing applies it on commercial and flat residential roofs across Essex County, restoring a weathered but sound membrane in place rather than tearing it off.',
     '**Silicone elastomeric coating** cures by reacting with atmospheric moisture, a single-component moisture-cure that allows colder and higher-humidity application than a water-evaporation acrylic, per Henry and the RCMA. The RCMA recognizes three liquid-applied elastomeric chemistries — silicone under ASTM D6694, acrylic under ASTM D6083, and polyurethane under ASTM D6947 — so a Newark Quality Roofing coating selection starts with the roof condition rather than the product.',

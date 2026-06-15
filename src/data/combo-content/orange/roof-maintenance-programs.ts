@@ -5,6 +5,8 @@ export const orangeRoofMaintenancePrograms: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides roof maintenance programs across Orange**, scheduling biannual inspections, drainage clearing, sealant maintenance, and a written condition report on two-/three-family, converted-loft, and flat-roof buildings as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**A roof maintenance program** is a recurring schedule of roof inspection, drainage clearing, sealant maintenance, and documentation that keeps a roof tracking toward its full service life. It catches deterioration early rather than reacting after a leak appears.',
   overview: [
     '**A roof maintenance program schedules recurring inspection, drainage clearing, sealant maintenance, and documentation** that keeps a roof tracking toward its full service life, structured for Orange\'s dense two-/three-family, older detached, and converted-industrial building stock.',
     '**Recurring inspection** follows the cadence the NRCA recommends — twice per year, spring and fall, plus an inspection after any severe weather event. Proper maintenance extends asphalt-shingle service life by roughly 25 to 30%, per ARMA, by intercepting the drainage, flashing, and sealant problems that otherwise progress to the roof deck on Orange\'s mostly pre-1939 housing.',

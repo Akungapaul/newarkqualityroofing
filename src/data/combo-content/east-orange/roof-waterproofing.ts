@@ -5,6 +5,8 @@ export const eastOrangeRoofWaterproofing: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing waterproofs roofs across East Orange and Essex County, sealing the roof deck, the eaves, the valleys and penetrations, and the low-slope and flashing details** on multi-family walk-ups and older homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof waterproofing** seals the layer beneath the roof covering — the deck, the eaves, the valleys, and the flashing details — so wind-driven rain that gets past the shingles or membrane stops at the deck rather than entering the home.',
   overview: [
     '**Newark Quality Roofing waterproofs four roof zones across East Orange: the sealed roof deck, the ice-prone eaves, the valleys and penetrations, and the low-slope and flashing details** on pre-war apartments, two- and three-family walk-ups, and older single-family homes. Roof waterproofing seals the layer beneath the covering so water that gets past shingles or membrane stops at the deck rather than entering the building.',
     '**The sealed roof deck** is the core of waterproofing, because a sealed deck cuts water entry into the home by as much as 95% compared with an unsealed deck, per the Insurance Institute for Business & Home Safety. On a 2,000-square-foot unsealed roof stripped of shingles, up to 750 gallons of water per inch of rain enter the attic, roughly nine bathtubs, per IBHS research, so a Newark Quality Roofing crew seals the deck during a tear-off or re-roof when the sheathing sits exposed.',

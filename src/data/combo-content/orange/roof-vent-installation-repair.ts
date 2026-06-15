@@ -5,6 +5,8 @@ export const orangeRoofVentInstallationRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs roof vents across Orange, building a balanced soffit-intake and ridge-exhaust system** on the city\'s two- and three-family homes, Valley Arts lofts, and older Seven Oaks houses as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [
     '**Newark Quality Roofing installs and repairs roof venting that pairs low soffit intake with high ridge exhaust** across Orange\'s dense two- and three-family homes, converted Valley Arts loft buildings, Main Street commercial blocks, and older detached Seven Oaks houses. Roof vent work builds the airflow path that moves attic heat and moisture out.',
     '**Soffit intake and ridge exhaust** balance at roughly 50% intake and 50% exhaust, the ratio the ARMA and Air Vent Inc. specify, because a balanced system moves air from the eave to the ridge without short-circuiting. A Newark Quality Roofing layout pairs continuous soffit intake at the eave with continuous ridge exhaust at the top.',

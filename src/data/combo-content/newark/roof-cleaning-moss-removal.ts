@@ -5,6 +5,8 @@ export const newarkRoofCleaningMossRemoval: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides roof cleaning and moss removal across Newark**, clearing moss, Gloeocapsa magma algae, and lichen with a low-pressure chemical wash that kills growth at the root without stripping the protective granules.',
+  definition:
+    '**Roof cleaning and moss removal** clears biological growth — moss, Gloeocapsa magma algae, and lichen — from a roof with a low-pressure chemical wash that kills the growth at the root. It relies on chemical action rather than pressure washing, which strips the protective granules.',
   overview: [
     '**Roof cleaning** removes **moss**, **Gloeocapsa magma algae**, and lichen from Newark roofs with a low-pressure chemical wash that kills the growth at the root and rinses the dead material away without stripping the protective granules.',
     '**Moss, algae, and lichen** colonize the shaded, moisture-holding slopes that Newark\'s dense tree canopy and tight lot spacing concentrate. North-facing slopes on Forest Hill\'s 1870s–1920s Victorians, Roseville\'s brownstone rows, and Vailsburg\'s two-family homes hold moisture for days after rain, and shaded north-facing slopes grow moss faster, per CSSB and NRCA guidance.',

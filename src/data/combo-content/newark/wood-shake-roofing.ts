@@ -5,6 +5,8 @@ export const newarkWoodShakeRoofing: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides wood shake roofing across Newark**, installing, repairing, and maintaining **western red cedar shake and shingle** roofs on a ventilated deck, as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**Wood shake roofing** covers a sloped roof in hand-split or tapersawn western red cedar laid over a ventilated assembly that lets each course dry from the underside after rainfall. The air space beneath the shakes manages the moisture that drives most cedar wear.',
   overview: [
     '**Wood shake roofing** covers a roof in hand-split or tapersawn **western red cedar** laid over a ventilated deck that dries each course after rainfall. **Newark Quality Roofing** installs, repairs, and maintains cedar shake and shingle roofs across the city.',
     '**Wood shake roofing** divides into two products: cedar shakes are thicker and split for a rough, textured surface, while cedar shingles are machine-sawn on both sides for a smooth, uniform surface. The Cedar Shake and Shingle Bureau rates cedar shake at 20 to 40 years and cedar shingle at 30 to 50 years, against the single "Wood" service life of 25 years on the InterNACHI life-expectancy chart.',

@@ -5,6 +5,8 @@ export const newarkSlateRoofInstallationRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and repairs natural slate roofs across Newark**, setting new slate on copper or stainless-steel fasteners and replacing broken tiles, corroded fasteners, and failed flashing, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Slate roof installation and repair** sets quarried natural-stone tiles on copper or stainless-steel fasteners as a roof covering, and restores an existing slate roof by replacing broken tiles, resecuring corroded fasteners, and renewing failed flashing. Natural slate is among the longest-lived roof coverings.',
   overview: [
     '**Newark Quality Roofing installs and repairs natural slate roofs across Newark**: natural-slate installation, broken-tile replacement, corroded-fastener repair, copper flashing replacement, and slate restoration on the Victorian and brownstone housing stock of Forest Hill, Roseville, and the historic core.',
     '**Slate installation and repair** sets quarried natural stone that lasts 60 to 150 years, per the InterNACHI life-expectancy chart, on a deck and fastening system engineered to match that service life. Forest Hill retains the most single-family, period housing character in Newark, with stately 1870s-to-1920s Victorian, Colonial, and Beaux-Arts homes, and Roseville\'s Victorian-era brownstones and row-homes carry the city\'s older West Ward fabric.',

@@ -5,6 +5,8 @@ export const orangeInsuranceRoofReplacement: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides insurance roof replacement across Orange and Essex County, inspecting the roof, photographing storm, wind, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site** as a roofing contractor.',
+  definition:
+    '**Insurance roof replacement** is a full roof replacement funded through a property-insurance claim for covered storm, hail, wind, or fire damage. It pairs documentation of the damage and a repair scope with the insurer claim process, separate from the work of adjusting the claim.',
   overview: [
     '**Insurance roof replacement** coordinates the roofing work with a property-insurance claim, where **Newark Quality Roofing** inspects the roof, photographs the covered damage, writes a detailed scope and estimate, and meets the assigned adjuster on site. On Orange\'s dense two-/three-family rental blocks, Valley Arts loft buildings, and older detached Seven Oaks homes, the owner or a licensed public adjuster files the claim while Newark Quality Roofing provides the roofing documentation.',
     '**Insurance roof replacement** on Orange\'s many investor- and landlord-owned two-/three-family buildings turns on documentation, because the owner or a licensed public adjuster files the claim and the building is usually tenant-occupied. A Newark Quality Roofing scope photographs the storm, wind, hail, or fire damage for the owner and the insurer, and a roof replacement on a multi-family building requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.',

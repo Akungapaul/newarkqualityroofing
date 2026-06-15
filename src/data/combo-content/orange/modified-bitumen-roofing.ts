@@ -5,6 +5,8 @@ export const orangeModifiedBitumenRoofing: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs modified bitumen roofing across Orange and Essex County, building a multi-ply SBS or APP membrane over the deck** on Valley Arts converted-industrial lofts and Main Street commercial roofs as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Modified bitumen roofing** is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet over base plies on the deck. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant, built-up asphalt assembly.',
   overview: [
     '**Newark Quality Roofing builds modified bitumen roofs as a multi-ply assembly — a base sheet, one or two interply membranes, and a polymer-modified cap sheet** — across Orange\'s converted-industrial Valley Arts buildings and Main Street commercial blocks. Modified bitumen layers polymer-modified asphalt over base plies, carrying the redundancy of built-up roofing with added membrane flexibility.',
     '**Multi-ply redundancy** is why modified bitumen suits Orange\'s flat and low-slope stock, because a breach in the cap sheet stops short of the deck rather than reaching the interior, per ARMA modified-bitumen guidance. Modified bitumen lasts 20 years, per the InterNACHI life-expectancy chart, against EPDM at 15 to 25 years, TPO at 7 to 20 years, and BUR at 30 years.',

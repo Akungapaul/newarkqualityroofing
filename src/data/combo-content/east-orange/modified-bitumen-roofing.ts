@@ -5,6 +5,8 @@ export const eastOrangeModifiedBitumenRoofing: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs modified bitumen roofing across East Orange and Essex County**, building a multi-ply SBS or APP membrane on the flat roofs of pre-war apartments, walk-ups, and Central Avenue commercial buildings, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Modified bitumen roofing** is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet over base plies on the deck. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant, built-up asphalt assembly.',
   overview: [
     '**Modified bitumen roofing** layers a polymer-modified asphalt cap sheet over base plies, the multi-ply assembly that carries the redundancy of built-up roofing with added membrane flexibility on **East Orange** flat and low-slope roofs. **Newark Quality Roofing** applies it by torch, self-adhered, or cold adhesive across the city.',
     '**Modified bitumen** suits East Orange because the city is roughly 69% renter with 87.6% of its housing in multi-unit structures, per U.S. Census QuickFacts, and those pre-war apartment buildings and Central Avenue commercial blocks carry flat roofs over the original built-up roofing many were built with. The multi-ply assembly gives a landlord redundant waterproofing over occupied units.',

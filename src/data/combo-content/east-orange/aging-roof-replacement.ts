@@ -5,6 +5,8 @@ export const eastOrangeAgingRoofReplacement: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing replaces aging roofs across East Orange, stripping a roof past its material lifespan to the deck and installing a new underlayment-and-cover system** on pre-war apartments, walk-ups, and older homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.',
   overview: [
     '**Newark Quality Roofing replaces aging asphalt, metal, slate, and low-slope membrane roofs across East Orange** for residential and commercial buildings. Aging roof replacement strips a roof past its service life to the deck, repairs the sheathing, and installs a new underlayment-and-cover system before granule loss, curling, and brittle sealants admit water.',
     '**Aging asphalt and slate** roofs reach the end of service after a material-specific lifespan: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and actual asphalt life varies up to 40% with climate, install, and maintenance, per the NRCA. The older single-family homes and converted Victorians in Presidential Estates, Ampere, and the northern neighborhoods carry the slate and architectural-asphalt roofs that an East Orange replacement targets before the leak rate climbs.',

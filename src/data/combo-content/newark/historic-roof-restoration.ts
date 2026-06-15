@@ -5,6 +5,8 @@ export const newarkHistoricRoofRestoration: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides historic roof restoration across Newark**, repairing and matching period slate, clay tile, wood shingle, and metal roofs in kind under the Secretary of the Interior\'s Standards as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Historic roof restoration** repairs deteriorated original roofing on a period building rather than replacing it, and matches any necessary replacement to the old roof in design, color, texture, and, where possible, material. It covers slate, clay tile, wood shingle, and historic metal roofs.',
   overview: [
     '**Historic roof restoration repairs deteriorated original roofing across Newark rather than replacing it, and matches any necessary replacement to the old roof in design, color, texture, and material where possible**, per the Secretary of the Interior\'s Standards, Standard 6.',
     '**Newark Quality Roofing restores 4 historic roof materials across the city: natural slate, clay and terra-cotta tile, wood and cedar shingle, and historic metal — standing-seam and flat-seam terne and copper** — on Forest Hill Victorians, Roseville brownstone row-homes, and downtown landmark buildings near James Street Commons. The restoration retains the roof shape and the character-defining features — dormers, decorative cresting, finials, and snow guards — because the roof shape and detailing are essential elements of a historic building\'s character, per NPS Preservation Brief 4.',

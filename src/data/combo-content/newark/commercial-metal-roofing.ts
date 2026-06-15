@@ -5,6 +5,8 @@ export const newarkCommercialMetalRoofing: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and services commercial metal roofing across Newark**, fitting **standing-seam and exposed-fastener panels** on Ironbound warehouses, Ferry Street flat-roof commercial buildings, and adaptive-reuse conversions as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial metal roofing** is a roof covering of formed metal panels — steel, aluminum, or copper — fitted as concealed-fastener standing-seam or exposed-fastener systems on large-span commercial roofs. The metal panels carry long-span low- and steep-slope roofs across a multi-decade ownership horizon.',
   overview: [
     '**Newark Quality Roofing installs and services commercial metal roofing across Newark in 4 panel systems: standing-seam steel, exposed-fastener panels, aluminum, and copper** — on warehouses, distribution buildings, and mixed-use conversions. Commercial metal roofing covers the long-span low- and steep-slope roofs that membrane systems serve less durably over a multi-decade ownership horizon.',
     '**Standing-seam metal** conceals the fasteners beneath the raised seam and lasts 40 to 70 years, per This Old House, while exposed-fastener metal runs about 30 to 50 years because surface screws and gaskets weather faster, per metal-roofing industry consensus. Commercial metal lasts 40 to 80 years overall, with copper at 70-plus, per the InterNACHI life-expectancy chart, far outlasting the TPO at 7 to 20 years, EPDM at 15 to 25 years, and modified bitumen at 20 years that a Newark flat roof otherwise replaces several times over the same period.',

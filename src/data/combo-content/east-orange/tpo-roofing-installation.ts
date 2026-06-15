@@ -5,6 +5,8 @@ export const eastOrangeTpoRoofingInstallation: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs TPO roofing across East Orange and Essex County, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams** to the low-slope roofs on its apartment blocks, pre-war walk-ups, and Central Avenue buildings as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**TPO roofing** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface. The welded seams fuse the sheets into one continuous water layer.',
   overview: [
     '**Newark Quality Roofing installs TPO single-ply membrane** on the flat and low-slope roofs across East Orange — full membrane replacement, recover over a sound roof, insulation and tapered drainage, flashing detailing, and seam welding. TPO, thermoplastic polyolefin, is a reflective membrane that heat-welds at the seams into one continuous water layer.',
     '**TPO single-ply membrane** suits the East Orange building stock, where 87.6% of housing units sit in multi-unit structures, per U.S. Census QuickFacts — the pre-war apartments and three- and four-story walk-ups along the transit corridors carry the flat and low-slope roofs a welded membrane covers. TPO lasts 7 to 20 years per the InterNACHI life-expectancy chart, with 15 to 25 years cited in field practice per Progressive Materials.',

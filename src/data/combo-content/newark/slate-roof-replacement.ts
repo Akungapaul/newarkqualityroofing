@@ -5,6 +5,8 @@ export const newarkSlateRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing replaces slate roofs across Newark and Essex County, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Slate roof replacement** strips a failing slate roof to the deck, repairs the sheathing, and reinstalls natural or synthetic slate on corrosion-resistant copper or stainless fasteners. It renews a heavy, long-lived covering that demands a load-rated structure.',
   overview: [
     '**Newark Quality Roofing replaces slate roofs on Newark\'s historic housing stock: natural quarried slate and synthetic composite slate** — across the Victorian homes of Forest Hill, the brownstones of Roseville, and the institutional buildings of the North Ward. Slate replacement strips the slate to the deck, repairs the sheathing, and reinstalls slate on non-ferrous fasteners.',
     '**Slate roof replacement** renews a Newark slate roof when corroded fasteners and degraded flashing, not the slate itself, end its service life, because plain steel and galvanized nails rust out long before the stone, per NPS Preservation Brief 29. A slate replacement is always a full tear-off, since slate is listed among the coverings that cannot be roofed over, per N.J.A.C. 5:23-6.4.',

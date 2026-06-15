@@ -5,6 +5,8 @@ export const orangeCommercialRoofReplacement: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing replaces commercial and low-slope roofs across Orange and Essex County, stripping the membrane to the deck, repairing the deck, and installing a new insulation-and-membrane system to manufacturer specification** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [
     '**Newark Quality Roofing replaces commercial low-slope roofs across Orange in EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal.** Commercial roof replacement strips the existing covering to the deck and installs a new insulation-and-membrane system.',
     '**Valley Arts converted-industrial and loft buildings** near the Highland Avenue rail line carry large flat roofs with parapets and internal drainage, the assemblies a replacement re-roofs when the membrane reaches end of service. A new system reaches end of service after a material-specific lifespan: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance.',

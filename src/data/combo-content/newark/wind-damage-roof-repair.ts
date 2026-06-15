@@ -5,6 +5,8 @@ export const newarkWindDamageRoofRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides wind damage roof repair across Newark**, replacing **wind-lifted and blown-off shingles**, resealing displaced flashing, and refastening loosened low-slope membrane as a New Jersey Home Improvement Contractor, with insurance-claim documentation.',
+  definition:
+    '**Wind damage roof repair** restores the roof where wind separated the covering — blown-off and creased shingles, lifted ridge and hip caps, broken shingle seals, displaced flashing, and loosened membrane. It concentrates on the corners, rakes, and edges, where wind uplift peaks.',
   overview: [
     '**Newark Quality Roofing repairs wind damage across Newark**, restoring the water layer where wind tears **blown-off shingles**, peels ridge and hip caps, displaces flashing, and balloons low-slope membrane on the city\'s row houses, brownstones, and flat-roof buildings.',
     '**Blown-off and creased shingles** drive most residential wind calls, because wind uplift concentrates at the roof corners, rakes, and edges, where damage starts, per IIBEC. Wind strips tabs from the asphalt roofs across Vailsburg, Weequahic, and the South Ward, while a nor\'easter sheds individual slate tiles from the 1870s–1920s Victorian, Colonial, and Beaux-Arts homes of Forest Hill and the North Ward.',

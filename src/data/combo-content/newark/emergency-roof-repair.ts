@@ -5,6 +5,8 @@ export const newarkEmergencyRoofRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides emergency roof repair across Newark**, stabilizing active interior leaks, wind-stripped shingles or membrane, debris punctures, and ice-dam backup on the city\'s row houses, brownstones, and flat-roof commercial buildings.',
+  definition:
+    '**Emergency roof repair** stabilizes a sudden roof failure — an active leak, storm-stripped shingles, a fallen-tree puncture, or ice-dam backup — to stop water entry before the loss compounds. It tarps or patches the breach first, then schedules the permanent repair.',
   overview: [
     '**Newark Quality Roofing provides emergency roof repair across Newark**, stabilizing **active interior leaks**, **wind-stripped shingles or membrane**, fallen-tree and debris punctures, and ice-dam water backup on the city\'s row houses, brownstones, and flat-roof commercial buildings.',
     '**Active interior leaks** drive the urgent calls, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, so every hour of exposure raises the secondary-damage cost. Emergency roof repair stabilizes the water entry first, then schedules the permanent repair, and a party-wall leak in a North Ward or Roseville row house tracks the same mold-growth window as a leak on a detached Forest Hill home.',

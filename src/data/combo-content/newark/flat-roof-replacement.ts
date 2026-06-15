@@ -5,6 +5,8 @@ export const newarkFlatRoofReplacement: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing replaces flat and low-slope roofs across Newark**, stripping the failed membrane to the deck, repairing the substrate, then installing a new **single-ply or modified-bitumen system** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Flat roof replacement** strips a failed membrane from a flat or low-slope roof to the deck, repairs the substrate, and installs a new single-ply or modified-bitumen system. It rebuilds a water-shedding surface engineered for minimal slope.',
   overview: [
     '**Flat roof replacement** strips the existing membrane to the deck, repairs the substrate, and installs a new **single-ply or modified-bitumen system** — the work that ends recurring membrane leaks across Newark rather than patching a single seam.',
     '**Flat roof replacement** in Newark covers the dense flat-roofed stock the city carries: the three-story mixed-use buildings along Broad and Market Streets, the row-house and warehouse roofs of the Ironbound, the apartment and commercial buildings of the Central and South Wards, and the industrial roofs along the Passaic River corridor. Newark Quality Roofing installs 4 flat-roof membrane systems — EPDM rubber, TPO, PVC, and modified bitumen — for residential and commercial low-slope roofs.',

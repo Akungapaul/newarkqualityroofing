@@ -5,6 +5,8 @@ export const newarkSolarPanelRoofingInstallation: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing handles the roofing side of solar panel installation across Newark** — flashing each rack-mount foot watertight, verifying the structure, and coordinating with the solar installer, as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**Solar panel roofing installation** is the roofing work that supports a rack-mounted photovoltaic array — flashing each mount foot watertight, verifying the roof structure carries the added load, and matching the attachment detail to the roof-covering warranty. It prepares and seals the roof so the panels mount without creating a leak path.',
   overview: [
     '**Solar panel roofing installation in Newark secures a rack-mounted photovoltaic array to the roof without compromising the water layer, the warranty, or the structure**, the roofing scope a New Jersey Home Improvement Contractor coordinates with the solar installer.',
     '**Newark Quality Roofing flashes each mount watertight**, tucking the flashing flange under the upslope shingle course so water sheds onto intact shingles, because a flashing sitting on top of the course is a leak path, per the NRCA Rooftop PV Guidelines and IronRidge. The mount flashing follows the roof-covering manufacturer instructions with a compatible sealant, because deviation voids the roofing warranty.',

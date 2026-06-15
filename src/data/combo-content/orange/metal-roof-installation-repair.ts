@@ -5,6 +5,8 @@ export const orangeMetalRoofInstallationRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs metal roofs across Orange**, fitting **standing-seam panels and metal shingles** to Seven Oaks homes, Valley Arts lofts, and Main Street storefronts and resealing failed seams, fasteners, and corroded sections.',
+  definition:
+    '**Metal roof installation and repair** fits a concealed-fastener or exposed-fastener metal covering to the roof deck, and restores an existing metal roof by resealing separated seams, backed-out fasteners, and corroded panel sections. The covering uses steel, aluminum, copper, or zinc panels or shingles.',
   overview: [
     '**Newark Quality Roofing installs and repairs metal roofs on Orange\'s older detached houses, two- and three-family stock, converted lofts, and Main Street storefronts** in standing-seam panels, metal shingles, copper, and aluminum. Installation fits a concealed- or exposed-fastener cover to the deck; repair reseals the seams, fasteners, and corroded sections where a cover admits water.',
     '**Seven Oaks** holds Orange\'s leafy concentration of larger older detached homes, and a **metal shingle** stamped into slate, shake, or tile profile carries that period character forward in steel or aluminum at a lighter weight than natural slate. The exposed-fastener metal-shingle system fails first at the washer seals, so a Newark Quality Roofing installation sets the gauge and the fastener pattern to the individual house before fabrication, and a home inside one of the four locally designated districts takes the separate historic review described in the FAQs below.',

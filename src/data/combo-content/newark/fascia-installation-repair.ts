@@ -5,6 +5,8 @@ export const newarkFasciaInstallationRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and repairs fascia across Newark**, replacing the rotted edge board that closes the rafter-tail ends and mounts the gutter system, as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.',
   overview: [
     '**Newark Quality Roofing installs and repairs fascia on Newark homes**, replacing rotted board, restoring the paint surface, rebuilding the gutter line, and setting new fascia in painted wood, PVC, aluminum cladding, or fiber-cement, per InterNACHI inspection guidance.',
     '**Fascia** is the board along the lower roof edge that closes the rafter-tail ends and carries the gutter system; without solid fascia the gutters cannot stay attached, per InterNACHI and Ledegar Roofing inspection guidance. On Newark\'s Forest Hill and Roseville Victorian brownstones and row homes, that board often carries a milled profile that reads as cornice trim, so a fascia repair restores both the gutter anchor and the period detail.',

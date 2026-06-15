@@ -5,6 +5,8 @@ export const orangeHistoricRoofRestoration: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides historic roof restoration across Orange**, repairing and matching period **slate, clay tile, wood shingle, and metal** roofs in kind under the Secretary of the Interior\'s Standards as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Historic roof restoration** repairs deteriorated original roofing on a period building rather than replacing it, and matches any necessary replacement to the old roof in design, color, texture, and, where possible, material. It covers slate, clay tile, wood shingle, and historic metal roofs.',
   overview: [
     '**Historic roof restoration in Orange repairs the original roofing on a period building rather than stripping it, and matches any unavoidable replacement to the old roof** in design, color, texture, and material, per the Secretary of the Interior\'s Standards.',
     '**The Orange restoration market sits in two settings: the leafy Montrose/Seven Oaks Park section of older detached single-family homes, and the Main Street downtown corridor of commercial and mixed-use landmark buildings.** On a Seven Oaks period home a failing slate field, ridge cresting, and copper flashing are restored in kind; on a Main Street building the visible historic surface is matched while a hidden flat roof can take a substitute membrane. The roof shape and its character-defining details — dormers, decorative cresting, finials, and snow guards — are retained because that detailing is essential to a historic building\'s character, per NPS Preservation Brief 4.',

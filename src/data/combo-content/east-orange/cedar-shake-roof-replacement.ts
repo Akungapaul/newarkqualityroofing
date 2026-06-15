@@ -5,6 +5,8 @@ export const eastOrangeCedarShakeRoofReplacement: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs across East Orange and Essex County, stripping aging cedar to the deck and installing new cedar on a ventilated nailing base** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
     '**Newark Quality Roofing replaces hand-split cedar shake and sawn cedar shingle roofs across East Orange**, the cedar-clad older single-family and converted-Victorian homes in the city\'s northern neighborhoods. Cedar shake roof replacement strips an aging wood roof to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar.',
     '**Cedar shake** lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing a single "Wood" row at 25 years, and maintenance sets where in the range a roof lands because moisture cycling drives most premature cedar failure. Cedar appears on the older single-family stock in East Orange\'s northern neighborhoods, including Presidential Estates, Ampere, and Doddtown.',

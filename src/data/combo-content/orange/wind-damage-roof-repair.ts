@@ -5,6 +5,8 @@ export const orangeWindDamageRoofRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides wind damage roof repair across Orange and Essex County, replacing wind-lifted and blown-off shingles, resealing displaced flashing, and refastening loosened low-slope membrane** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Wind damage roof repair** restores the roof where wind separated the covering — blown-off and creased shingles, lifted ridge and hip caps, broken shingle seals, displaced flashing, and loosened membrane. It concentrates on the corners, rakes, and edges, where wind uplift peaks.',
   overview: [
     '**Newark Quality Roofing repairs wind-damage failures across Orange: blown-off and creased shingles, lifted ridge and hip caps, broken-seal shingles, displaced flashing, and loosened low-slope membrane** on two- and three-family homes, Valley Arts lofts, and Main Street commercial roofs.',
     '**Blown-off and creased shingles** appear first at the corners, rakes, and edges, because wind uplift concentrates at the roof corners, rakes, and edges, where damage starts, per IIBEC. A Newark Quality Roofing repair inspects those zones first across Orange\'s dense detached and attached stock, much of it built before 1939.',

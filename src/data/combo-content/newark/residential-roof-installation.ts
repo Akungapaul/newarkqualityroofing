@@ -5,6 +5,8 @@ export const newarkResidentialRoofInstallation: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs residential roofs across Newark, building the complete deck-to-ridge system on the city\'s row houses, brownstones, two- and three-family homes, and new construction** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Residential roof installation** builds a complete roof system on a house from the deck up — ice barrier, underlayment, flashing, the finish covering, and ventilation. It applies to new construction and full replacements, replacing the entire weatherproof assembly rather than patching a failed detail.',
   overview: [
     '**Newark Quality Roofing installs residential roof systems in asphalt shingle, metal, natural slate, cedar shake, and low-slope membrane**, matched to **Newark\'s building stock** of detached homes, attached row houses, brownstones, two- and three-family dwellings, and new construction. Residential roof installation builds the full system from the deck up — ice barrier, underlayment, flashing, cover, and ventilation.',
     '**Residential roof systems carry distinct lifespans**: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, cedar 25 years, metal 40 to 80 years, and natural slate 60 to 150 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. Slate suits the period detail on Forest Hill and Roseville rooflines, while a low-slope membrane covers the flat-roof commercial and rowhouse stock along the Ironbound\'s Ferry Street corridor.',

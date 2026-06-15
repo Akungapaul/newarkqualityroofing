@@ -5,6 +5,8 @@ export const eastOrangePvcRoofing: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing installs and services PVC single-ply roofing across East Orange and Essex County, welding chemical-resistant white membrane on flat and low-slope commercial, mixed-use, and multi-family roofs** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**PVC roofing** is a single-ply polyvinyl-chloride thermoplastic membrane, hot-air-welded at the seams, installed on commercial low-slope roofs. The white membrane resists grease, oils, and chemical exhaust that degrade other single-ply membranes, and reflects solar radiation as a cool roof.',
   overview: [
     '**Newark Quality Roofing welds PVC single-ply membrane on East Orange flat and low-slope roofs**, fusing a hot-air-welded thermoplastic that resists the grease, oil, and chemical exhaust where EPDM and TPO degrade, per the NRCA technical library.',
     '**Grease and chemical exhaust** from the ground-floor kitchens and food-service tenants along Central Avenue and Main Street, renamed Dr. Martin Luther King Jr. Boulevard, attacks petroleum-based membrane from above. A Newark Quality Roofing PVC roof resists the animal fats, oils, and rooftop chemical exposure that soften and degrade EPDM and TPO, per the NRCA technical library.',

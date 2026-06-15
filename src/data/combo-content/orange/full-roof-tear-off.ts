@@ -5,6 +5,8 @@ export const orangeFullRoofTearOff: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides full roof tear-off across Orange**, stripping every existing roof layer to the deck, repairing the sheathing, and installing a new underlayment-and-cover system as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
     '**Newark Quality Roofing provides full roof tear off across Orange, stripping every existing roof layer to the deck, repairing the sheathing, then installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
     '**Full roof tear off** strips the asphalt, underlayment, and any overlay layers a roof carries, exposing the roof deck for the inspection a roof-over cannot provide. On Orange\'s two- and three-family and investor-owned buildings — roughly half the housing stock dates before 1939 — the strip frequently peels back several generations of covering down to the original deck.',

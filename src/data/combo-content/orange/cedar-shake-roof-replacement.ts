@@ -5,6 +5,8 @@ export const orangeCedarShakeRoofReplacement: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs on Orange\'s older detached homes**, working as a New Jersey Home Improvement Contractor and coordinating the **Certificate of Appropriateness** where a designated historic district applies.',
+  definition:
+    '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
     '**Cedar in Orange concentrates on the period detached houses** of the leafy Seven Oaks section near the East Orange and South Orange edges, not on the city\'s dense two-, three-family, and investor-owned blocks. Cedar shake roof replacement renews a wood roof past its service life on these character homes rather than patching individual split shakes.',
     '**Seven Oaks houses belong to Orange\'s pre-1939 era**, when roughly half the city\'s housing was built, so a wood roof here often crowns framing and detailing original to the period. Newark Quality Roofing matches a cedar replacement to that older detached stock, working as a New Jersey Home Improvement Contractor.',

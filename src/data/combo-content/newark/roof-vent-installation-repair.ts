@@ -5,6 +5,8 @@ export const newarkRoofVentInstallationRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and repairs roof vents across Newark**, building a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [
     '**Newark Quality Roofing installs and repairs roof vents across Newark, building a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents** as a New Jersey Home Improvement Contractor, licensed and insured.',
     '**Roof vent work** builds the airflow path that moves attic heat and moisture out of a Newark roof, the system the IRC requires on a vented attic. A Newark Quality Roofing vent layout pairs low soffit intake at the eave with high ridge exhaust at the top, so air moves from eave to ridge without short-circuiting.',

@@ -5,6 +5,8 @@ export const newarkInfraredRoofLeakDetection: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides infrared roof leak detection across Newark**, scanning Ironbound and Downtown low-slope commercial roofs and flat residential sections to **ASTM C1153** to locate wet insulation, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Infrared roof leak detection** is a thermal imaging survey that scans a low-slope or flat roof to ASTM C1153 and maps the subsurface wet insulation a failed roof admits. It locates the moisture-contaminated area that traces back to a breach, directing a targeted repair rather than exploratory tear-out.',
   overview: [
     '**Newark Quality Roofing performs infrared roof leak detection across Newark to ASTM C1153, the standard practice for locating wet insulation in roofing systems with infrared imaging**, on low-slope commercial roofs and flat residential roof sections.',
     '**Infrared roof leak detection** scans the roof surface with a calibrated thermal imager and maps the subsurface wet insulation that a failed roof admits, per Fluke and IIBEC infrared application guidance. The thermal map directs a targeted repair rather than exploratory ceiling demolition, the diagnostic that breaks the cycle of leak-repair-repeat on Newark buildings already patched and overlaid multiple times.',

@@ -5,6 +5,8 @@ export const newarkTpoRoofingInstallation: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs TPO roofing across Newark and Essex County, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to commercial and residential low-slope roofs** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**TPO roofing** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface. The welded seams fuse the sheets into one continuous water layer.',
   overview: [
     '**Newark Quality Roofing installs TPO single-ply roofing across Newark, welding thermoplastic-polyolefin membrane into one continuous water layer over the city\'s flat and low-slope roofs.** TPO is a reflective single-ply membrane that heat-welds at the seams across a flat or low-slope roof.',
     '**TPO membrane** suits Newark\'s dense flat-roof stock — the Ironbound\'s commercial and rowhouse blocks along Ferry Street, the flat-roof extensions and garage roofs behind Forest Hill and Roseville brownstones, and the warehouse and retail footprints of the East and central wards. TPO lasts 7 to 20 years per the InterNACHI life-expectancy chart, with 15 to 25 years commonly cited in field practice per Progressive Materials, and fails most often at the welded seams.',

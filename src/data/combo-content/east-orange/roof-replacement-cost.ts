@@ -5,6 +5,8 @@ export const eastOrangeRoofReplacementCost: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing prices and performs roof replacements across East Orange, itemizing cost from roof size, material, tear-off, decking, and NJ code** on multi-family, pre-war walk-up, and older single-family roofs as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.',
   overview: [
     '**Newark Quality Roofing prices a roof replacement across East Orange from named cost drivers: roof size, pitch, material choice, existing layers and tear-off, decking, and NJ labor and code** on the city\'s multi-family, walk-up, and single-family stock.',
     '**Roof size, pitch, and material choice** set the largest share of the cost, because valleys, dormers, and hips on a converted-Victorian or Brick Church two-family raise both material and labor over a simple gable roof, per industry cost guidance. Material choice drives the per-square-foot cost from asphalt shingle at $5.50–$9.50 to architectural at $6.50–$11.00 and metal at $9.00–$16.00+, per Josten Roofing NJ pricing, and slate at $10–$30, per NJ roofing guides.',

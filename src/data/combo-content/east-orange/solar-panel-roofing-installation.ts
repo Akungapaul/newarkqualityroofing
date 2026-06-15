@@ -5,6 +5,8 @@ export const eastOrangeSolarPanelRoofingInstallation: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing handles the roofing side of solar panel installation across East Orange and Essex County, flashing each rack-mount foot watertight, verifying the structure, and coordinating with the solar installer** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Solar panel roofing installation** is the roofing work that supports a rack-mounted photovoltaic array — flashing each mount foot watertight, verifying the roof structure carries the added load, and matching the attachment detail to the roof-covering warranty. It prepares and seals the roof so the panels mount without creating a leak path.',
   overview: [
     '**Newark Quality Roofing covers the roofing tasks a rack-mounted solar array depends on across East Orange: watertight mount flashing, roof-structure load verification, fire and electrical code coordination, and roof-age assessment** before the panels go on. Solar panel roofing installation secures the photovoltaic array to the roof without compromising the water layer, the warranty, or the structure.',
     '**Watertight mount flashing** sheds water onto intact shingles, because the flashing flange tucks under the upslope shingle course while a flashing sitting on top of the course is a leak path, per the NRCA Rooftop PV Guidelines and IronRidge. The flashing follows the roof-covering manufacturer instructions with a compatible sealant, because deviation voids the roofing warranty, so the solar installer coordinates with the roofer before the array goes on, per the NRCA and Solar Power World.',

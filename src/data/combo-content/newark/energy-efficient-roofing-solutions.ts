@@ -5,6 +5,8 @@ export const newarkEnergyEfficientRoofingSolutions: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides energy efficient roofing solutions across Newark and Essex County, installing cool reflective membranes and coatings, above-deck insulation, radiant barriers, and balanced attic ventilation** as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Energy efficient roofing solutions** combine a high-reflectance surface that rejects solar heat with conductive insulation that slows heat flow into the building below. The two levers — reflective membranes and coatings, plus above-deck insulation, radiant barriers, and balanced attic ventilation — lower roof surface temperature and the cooling load beneath the roof.',
   overview: [
     '**Energy efficient roofing pairs a high-reflectance surface, above-deck insulation, and balanced attic ventilation** to reject solar heat and slow heat flow into the rooms below, two levers Newark Quality Roofing specifies for residential and commercial properties across Essex County. The reflective surface and the insulation lower roof surface temperature and the cooling load.',
     '**Cool reflective membranes and coatings** lower roof surface temperature on Newark\'s flat and low-slope commercial roofs, the kind that line Ferry Street and the Ironbound. A cool roof works on two measured radiative properties — solar reflectance, the fraction of solar energy reflected on a 0-to-1 scale, and thermal emittance, how efficiently the surface re-radiates absorbed heat — and the EPA calls solar reflectance the most important characteristic of a cool roof, per the EPA and the CRRC.',

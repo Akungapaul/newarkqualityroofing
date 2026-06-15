@@ -5,6 +5,8 @@ export const newarkEpdmCommercialRoofing: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides EPDM commercial roofing in Newark**, installing and servicing **EPDM rubber membrane** on flat and low-slope commercial and Ironbound industrial roofs, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**EPDM commercial roofing** is a single-ply synthetic-rubber membrane installed on flat and low-slope commercial roofs to seal the building against water entry. EPDM attaches mechanically, fully adheres, or holds under ballast, with the splice seams joining the sheets.',
   overview: [
     '**Newark Quality Roofing installs and services EPDM commercial roofing across Newark** — mechanically attached, fully adhered, and ballasted rubber membrane on warehouses, offices, and Ironbound flat-roof buildings, as a New Jersey Home Improvement Contractor.',
     '**EPDM commercial roofing** seals the flat and low-slope roof in a single-ply rubber membrane, and EPDM lasts 15 to 25 years, per the InterNACHI life-expectancy chart, with a service-life study attributed via Progressive Materials placing it at 25 to 30 years. EPDM outlasts TPO at 7 to 20 years and modified bitumen at 20 years on the same chart.',

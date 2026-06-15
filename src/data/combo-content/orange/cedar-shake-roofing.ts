@@ -5,6 +5,8 @@ export const orangeCedarShakeRoofing: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs cedar shake roofing across Orange and Essex County**, laying hand-split western red cedar over a ventilated deck on Seven Oaks detached homes and designated-district properties as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Cedar shake roofing** covers a sloped roof in hand-split western red cedar set over an air-spaced deck, the assembly that sheds water at the surface while the underside dries between rain events. Western red cedar carries natural extractives that resist decay.',
   overview: [
     '**Newark Quality Roofing installs and repairs cedar shake roofing across Orange**, covering **new cedar shake installation**, **cedar shake repair and replacement**, the **ventilated interlayment deck**, and **preservative and cleaning maintenance**. Cedar shake roofing lays hand-split western red cedar over an air-spaced deck that sheds water at the surface while the underside dries between rain events.',
     '**Cedar shake roofing** lasts 20 to 40 years, per the Cedar Shake and Shingle Bureau, against the single "Wood" service life of 25 years on the InterNACHI life-expectancy chart, because moisture management sets the lifespan. A Newark Quality Roofing installation suits the larger older detached homes concentrated in Seven Oaks, the locally designated Montrose/Seven Oaks Park district, where wood roofing matches the period architecture.',

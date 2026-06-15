@@ -5,6 +5,8 @@ export const newarkSiliconeRoofCoating: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides silicone roof coating across Newark**, restoring the low-slope and flat roofs on **Ironbound commercial buildings, Broad Street properties, and row-home rear sections** with a liquid-applied silicone membrane, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Silicone roof coating** is a liquid-applied silicone membrane that restores a low-slope or flat roof in place, sealing seams, splits, and flashings under one monolithic surface. The hydrophobic silicon-oxygen backbone resists ponding water without softening and reflects sunlight to lower roof surface temperature.',
   overview: [
     '**Newark Quality Roofing restores Newark\'s low-slope and flat roofs with silicone roof coating, a liquid-applied silicone membrane governed by ASTM D6694 that seals seams, splits, and flashings under one monolithic surface.** Silicone roof coating recoats an existing roof in place rather than tearing it off, extending service life at a fraction of replacement cost and keeping the old roof out of landfill, per the RCMA.',
     '**Silicone roof coating** suits the flat commercial membranes that line the Ironbound and Ferry Street and the rear flat sections of Newark\'s row homes and Roseville brownstones, where aging seams and lifted flashings admit water. It cures by reacting with atmospheric moisture as a single-component moisture-cure system, which allows application in colder and higher-humidity conditions than water-evaporation acrylics, per Henry and the RCMA.',

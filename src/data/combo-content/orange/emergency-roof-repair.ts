@@ -5,6 +5,8 @@ export const orangeEmergencyRoofRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides emergency roof repair across Orange and Essex County, stabilizing active leaks, wind-stripped shingles and membrane, fallen-branch punctures, and ice-dam backup** on two- and three-family rentals, Valley Arts loft roofs, and Main Street commercial buildings.',
+  definition:
+    '**Emergency roof repair** stabilizes a sudden roof failure — an active leak, storm-stripped shingles, a fallen-tree puncture, or ice-dam backup — to stop water entry before the loss compounds. It tarps or patches the breach first, then schedules the permanent repair.',
   overview: [
     '**Newark Quality Roofing performs emergency roof repair across Orange for four sudden failures: active interior leaks, wind-stripped covering, fallen-branch punctures, and ice-dam backup.** Emergency roof repair stabilizes the water entry first, then schedules the permanent repair, because a stabilized roof stops the loss from compounding.',
     '**Active interior leaks** in Orange\'s dense two- and three-family rentals reach occupied units fast, so a Newark Quality Roofing crew dries and protects the building within the mold-growth window, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold. Every hour of exposure raises the secondary-damage cost on a tenant-occupied floor.',

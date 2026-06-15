@@ -5,6 +5,8 @@ export const orangeFlatRoofInstallationRepair: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs and repairs flat and low-slope roofs across Orange and Essex County, servicing EPDM rubber, TPO, and modified-bitumen membranes** on Valley Arts loft buildings, Main Street commercial roofs, and two- and three-family homes.',
+  definition:
+    '**Flat roof installation and repair** seals a flat or low-slope roof with a continuous waterproof membrane — EPDM rubber, TPO thermoplastic, or modified bitumen — and corrects the slope and drainage the roof depends on. The work ranges from a single seam patch to a full membrane replacement.',
   overview: [
     '**Newark Quality Roofing installs and repairs EPDM rubber, TPO thermoplastic, and modified-bitumen membranes** on Orange\'s converted-industrial loft buildings in the Valley Arts area, its Main Street commercial roofs, and its two- and three-family homes. Flat roof installation and repair seals the continuous membrane and corrects the drainage a low-slope roof depends on, from a single seam patch to a full membrane replacement.',
     '**EPDM, TPO, and modified-bitumen** membranes carry distinct service lives: EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing assessment matches the system to the building and the drainage before installation. Orange\'s large Valley Arts loft roofs and Main Street commercial decks carry the membrane systems most exposed to seam and drainage failure.',

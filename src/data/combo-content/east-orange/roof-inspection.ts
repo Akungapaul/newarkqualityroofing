@@ -5,6 +5,8 @@ export const eastOrangeRoofInspection: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides roof inspection across East Orange and Essex County, documenting roof-covering condition, flashing, drainage, ventilation, and the deck** on pre-war apartments, two- and three-family walk-ups, and older single-family homes as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**A roof inspection** is a systematic evaluation of a roof\'s covering, flashing, drainage, ventilation, sealants, and deck that rates each component by condition and documents damage, wear, and active-leak indications before water reaches the interior.',
   overview: [
     '**Newark Quality Roofing inspects roof-covering materials, flashing, penetrations, gutters, ventilation, sealants, the deck, and the attic underside** across East Orange. A roof inspection rates each component by condition and documents the findings before water reaches the interior.',
     '**Flashing** sets where a Newark Quality Roofing inspection begins, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. The InterNACHI roof inspection standard of practice directs an inspector to describe the roof-covering type and report observed indications of active roof leaks.',

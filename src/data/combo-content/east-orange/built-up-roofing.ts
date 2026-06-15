@@ -5,6 +5,8 @@ export const eastOrangeBuiltUpRoofing: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing provides built-up roofing across East Orange and Essex County, installing and restoring multi-ply BUR membranes** on the commercial, mixed-use, and multi-family low-slope roofs along Central Avenue, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Built-up roofing** is a low-slope membrane that alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel, mineral granules, or a reflective coating. The multi-ply assembly shields the membrane from UV and impact.',
   overview: [
     '**Newark Quality Roofing installs and restores built-up roofing across East Orange** on commercial, mixed-use, and multi-family low-slope roofs. **Built-up roofing** alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies against UV and impact.',
     '**Newark Quality Roofing** delivers built-up roofing in 4 scopes: multi-ply (3-, 4-, and 5-ply) BUR systems, gravel-surfaced membranes, reflective-coated membranes, and restoration or recover. Built-up roofing lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15 to 25 years, TPO at 7 to 20 years, and modified bitumen at 20 years.',

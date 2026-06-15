@@ -5,6 +5,8 @@ export const eastOrangeStormDamageRoofReplacement: ComboContent = {
   cityId: 'east-orange',
   directAnswer:
     '**Newark Quality Roofing replaces storm-damaged roofs across East Orange**, documenting wind, hail, and nor\'easter damage with photographs and a detailed scope, then installing a new roof on multi-family and single-family buildings as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Storm damage roof replacement** removes and rebuilds a roof structurally compromised by wind, hail, or a severe storm, restoring the full weatherproof system. It follows documentation of the storm damage pattern across the covering, flashing, and deck.',
   overview: [
     '**Newark Quality Roofing replaces storm-damaged roofs across East Orange after high wind, hail impact, and nor\'easter storms** on multi-family, pre-war apartment, and single-family buildings. Storm damage roof replacement strips the failed roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system after a covered storm loss.',
     '**High wind and hail** rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). A Newark Quality Roofing replacement documents the damage with timestamped photographs for the adjuster before tear-off.',

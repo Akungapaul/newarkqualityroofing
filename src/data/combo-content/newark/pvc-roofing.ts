@@ -5,6 +5,8 @@ export const newarkPvcRoofing: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing installs and services PVC single-ply roofing across Newark**, welding chemical-resistant **white membrane** on the city\'s commercial and flat-roof low-slope buildings as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**PVC roofing** is a single-ply polyvinyl-chloride thermoplastic membrane, hot-air-welded at the seams, installed on commercial low-slope roofs. The white membrane resists grease, oils, and chemical exhaust that degrade other single-ply membranes, and reflects solar radiation as a cool roof.',
   overview: [
     '**Newark Quality Roofing installs PVC single-ply roofing across Newark** — a hot-air-welded **white thermoplastic membrane** that resists grease, oils, and chemical exhaust where EPDM and TPO degrade, per the NRCA technical library — on commercial and flat-roof low-slope buildings.',
     '**PVC membrane** suits the Ironbound and East Ward, where restaurants, Portuguese bakeries, and food-processing buildings along Ferry Street vent rooftop grease and animal fats that soften EPDM and TPO. PVC resists those greases and oils, per the NRCA technical library, the property that keeps the membrane intact in the exhaust zone.',

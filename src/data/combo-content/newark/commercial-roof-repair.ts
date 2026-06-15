@@ -5,6 +5,8 @@ export const newarkCommercialRoofRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides commercial roof repair across Newark**, repairing seam separations, membrane punctures, flashing failures, and ponding-water damage on low-slope EPDM, TPO, PVC, and modified-bitumen roofs as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof repair** restores the weather barrier of a low-slope commercial membrane by sealing localized failures — seam separations, punctures, flashing breaks, and ponding damage — without replacing the entire roof. It traces water entry to the failed detail, then reseals it with manufacturer-approved bonding that keeps the system warranty intact.',
   overview: [
     '**Commercial roof repair** in Newark reseals the failed detail on a flat or low-slope roof — a membrane seam, puncture, flashing, or ponding-water breach — with manufacturer-approved bonding that keeps the system warranty intact, rather than replacing the whole roof.',
     '**Commercial roof repair** in Newark covers the flat and low-slope membranes that dominate the Ironbound and East Ward, where storefronts, factories, and mixed-use buildings along Ferry Street carry EPDM, TPO, PVC, modified-bitumen, and built-up roofs over occupied space. A commercial low-slope membrane fails most often at the seams — EPDM at the splice seams and TPO at the welded seams, per NRCA technical guidance — while modified bitumen fails at blistering and alligator cracking.',

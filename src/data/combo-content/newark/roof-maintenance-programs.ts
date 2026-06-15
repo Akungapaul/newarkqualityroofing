@@ -5,6 +5,8 @@ export const newarkRoofMaintenancePrograms: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides roof maintenance programs across Newark**, scheduling biannual inspections, drainage clearing, sealant maintenance, and a written condition report for residential and commercial properties as a New Jersey Home Improvement Contractor, licensed and insured.',
+  definition:
+    '**A roof maintenance program** is a recurring schedule of roof inspection, drainage clearing, sealant maintenance, and documentation that keeps a roof tracking toward its full service life. It catches deterioration early rather than reacting after a leak appears.',
   overview: [
     '**A roof maintenance program schedules recurring inspection, drainage clearing, sealant maintenance, and documentation** that keeps a Newark roof tracking toward its full service life across the city\'s row-house, brownstone, and flat-roof building stock.',
     '**A maintenance program** is built around the inspection cadence the NRCA recommends — twice per year, spring and fall, plus an inspection after any severe weather event. Proper maintenance extends asphalt-shingle service life by roughly 25 to 30%, per ARMA, by intercepting the drainage, flashing, and sealant problems that otherwise progress to the roof deck.',

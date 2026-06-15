@@ -5,6 +5,8 @@ export const orangeEpdmCommercialRoofing: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing provides EPDM commercial roofing in Orange**, installing and servicing **EPDM rubber membrane** on the flat roofs of Valley Arts converted-industrial lofts, Main Street commercial blocks, and multi-family buildings, as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**EPDM commercial roofing** is a single-ply synthetic-rubber membrane installed on flat and low-slope commercial roofs to seal the building against water entry. EPDM attaches mechanically, fully adheres, or holds under ballast, with the splice seams joining the sheets.',
   overview: [
     '**Newark Quality Roofing installs and services EPDM commercial roofing across Orange** — mechanically attached, fully adhered, and ballasted rubber membrane on the converted-industrial, mixed-use, and multi-family buildings of a dense township, as a New Jersey Home Improvement Contractor.',
     '**EPDM commercial roofing** seals the flat and low-slope roof in a single-ply rubber membrane, and EPDM lasts 15 to 25 years, per the InterNACHI life-expectancy chart, with a service-life study attributed via Progressive Materials placing it at 25 to 30 years. EPDM outlasts TPO at 7 to 20 years and modified bitumen at 20 years on the same chart.',

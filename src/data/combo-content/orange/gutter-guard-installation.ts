@@ -5,6 +5,8 @@ export const orangeGutterGuardInstallation: ComboContent = {
   cityId: 'orange',
   directAnswer:
     '**Newark Quality Roofing installs gutter guards across the City of Orange Township and Essex County, fitting micro-mesh, screen, reverse-curve, foam, and brush guards** over Seven Oaks, Valley Arts, and Main Street gutters as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**A gutter guard** is a cover fitted over or inside a gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while letting water pass into the gutter. A gutter guard reduces clogging and overflow rather than eliminating gutter cleaning.',
   overview: [
     '**Newark Quality Roofing installs micro-mesh, screen and perforated-metal, reverse-curve, foam, and brush gutter guards in Orange.** A gutter guard fits over or inside the gutter trough to block leaves, seed pods, and shingle grit, the debris that clogs an open gutter and forces overflow against the fascia and party walls of Orange\'s dense two- and three-family stock.',
     '**Micro-mesh** ranks as the finest-filtration type, an ultra-fine stainless screen on a rigid frame that blocks the smallest debris including the seeds and shingle grit that Orange\'s dense street trees and the wooded first-Watchung ridge to the west shed, per This Old House; LeafFilter specifies a 316L surgical-grade stainless mesh on a uPVC frame with an opening sweet spot near 100 to 300 microns. A screen, perforated, or reverse-curve guard passes fine debris, while foam and brush guards block large debris only and rank least durable, per This Old House and EcoWatch.',
