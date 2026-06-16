@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across Irvington, New Jersey, and Essex County, tearing off charred coverings and decking and rebuilding Class A fire-rated roofs on dense two- and three-family rentals** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in Irvington — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Irvington addresses the structural and waterproofing restoration that buildings require after fire events compromise the roof system. Our [fire damage replacement](/fire-damage-roof-replacement) services manage the specialized requirements of post-fire roofing work -- from structural assessment of heat-weakened framing through complete roof system installation on restored structure -- coordinating with insurance adjusters, fire investigators, and general contractors throughout the reconstruction process.',
-    'Irvington\'s densely built residential neighborhoods create fire exposure risk where adjacent buildings share narrow separations. A fire in one home can cause heat and radiant damage to roofing on neighboring properties even when the fire does not spread directly. Our post-fire assessments for Irvington properties evaluate not only the directly burned structure but adjacent buildings that may have sustained heat damage to shingles, flashings, and soffit materials -- damage that may not be visually obvious but that has compromised material integrity.',
-    'Multi-family fire damage replacement in Irvington carries additional urgency because displaced tenants need housing restoration as quickly as the reconstruction process allows. Our coordination with general contractors managing fire restoration projects prioritizes roof system completion as an early-phase milestone that allows interior restoration to proceed under weather protection. Insurance coordination for multi-family fire claims in neighboring [Newark](/fire-damage-roof-replacement-newark-nj) follows similar urgency patterns, though Irvington\'s detached multi-family structures generally experience less fire-spread complexity than Newark\'s attached row houses.',
+    '**Newark Quality Roofing replaces fire-damaged roofs across Irvington, tearing off the charred covering and decking, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof** on the township\'s dense rentals and commercial buildings. Fire damage roof replacement serves Irvington\'s two- and three-family rentals, older detached homes, and Springfield Avenue commercial roofs, rebuilding both the weatherproof surface and the structural members a fire compromises.',
+    '**The charred covering and decking** strip to the framing, because a roof is a structural assembly of covering, underlayment, decking, and framing and fire, heat, smoke, and firefighting water span the whole assembly rather than the surface alone, per the U.S. Forest Products Laboratory. The char layer carries essentially zero residual structural capacity and is removed, per the American Wood Council. A Newark Quality Roofing tear-off removes the burned material to sound wood across Irvington\'s aging early-20th-century stock.',
+    '**Heat-weakened framing** receives a post-fire structural assessment before rebuild, because the heat-affected zone beneath the char retains only roughly 85 to 90 percent of original strength and the American Wood Council uses a nominal char rate of 1.5 inches of wood per hour, per the U.S. Forest Products Laboratory and the American Wood Council. A licensed structural engineer sets the framing scope, and Newark Quality Roofing performs the roofing to that assessment.',
+    '**A Class A fire-rated roof** rebuilds from a covering classified under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant of the Class A, B, and C system ratings, per UL 790 and ASTM E108. A Newark Quality Roofing rebuild matches the covering and assembly to the Class A rating on Irvington\'s detached homes, multi-family rentals, and downtown commercial roofs.',
   ],
   challenges: [
-    'Structural assessment of fire-damaged roof framing requires engineering analysis that goes beyond visual inspection. Heat weakens wood framing even without charring -- sustained temperatures above 300 degrees can reduce lumber strength by 20 to 40 percent. Rafters and trusses that appear intact may have lost structural capacity from heat exposure that is not visually evident. Our fire damage specifications require structural engineering evaluation of all framing within the fire exposure zone before determining whether existing members can be retained or must be replaced.',
-    'Smoke and soot contamination of attic insulation and roof cavity surfaces presents air quality concerns during and after reconstruction. Fiberglass insulation absorbs smoke chemicals that continue to off-gas after the fire is extinguished, and these contaminants must be completely removed before the roof cavity is enclosed with new materials. Our fire damage protocol includes complete removal of contaminated insulation and cleaning of exposed framing surfaces before any new materials are installed.',
-    'Insurance coordination on fire damage claims involves multiple carriers and coverage types. The building owner\'s property insurance covers structural restoration, tenant displacement costs may fall under separate provisions, and adjacent property damage may involve the responsible party\'s liability coverage. Coordinating documentation across these coverage streams requires organized project records that clearly assign each work item to the appropriate coverage.',
+    '**Tenant-occupied access** defines a fire rebuild on Irvington\'s majority-renter, rental- and multi-family-heavy stock, because the township carries many two- and three-family and investor-owned buildings, so a rebuild coordinates entry around displaced occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing job sets a staging and access plan and documents the work for the owner and insurer.',
+    '**Saturated decking and corroded connectors** show up after firefighting, because extinguishing water saturates decking, insulation, and framing and accelerates corrosion of metal truss plates and fasteners, per the U.S. Forest Products Laboratory and ANSI/IICRC S700. A Newark Quality Roofing rebuild replaces the firefighting-water-saturated plywood or OSB sheathing and the corroded connectors rather than recovering over them.',
+    '**Aging plank decking** turns up at tear-off on Irvington\'s older detached and 2-3-family homes, where a water-soaked, charred, or deteriorated deck is not an adequate base and requires full removal, per N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1. A Newark Quality Roofing tear-off documents the discovered deck condition with photographs for the adjuster and the owner.',
+    '**Tight, built-out lots** limit staging room on Irvington\'s dense, small parcels, so a Newark Quality Roofing crew plans material drop, dumpster placement, and debris control before the tear-off, runs a magnet sweep for nails at cleanup, and clears the small lot before leaving the property.',
   ],
   process: [
-    'Fire damage assessment begins after the fire department clears the building for entry. We document the extent of roof system damage -- charred or heat-weakened framing, destroyed decking and shingles, melted flashings, and damaged soffits and fascia. The assessment establishes the boundary between damaged materials requiring replacement and undamaged materials that can remain in service, with structural engineering confirmation for all framing decisions.',
-    'Roof structure restoration proceeds with removal of all damaged materials and replacement with new framing members meeting current code requirements. Fire-damaged rafters are cut back to sound wood and sistered or replaced with dimensional lumber matching the original size or larger. New decking, underlayment, and ice-and-water shield are installed over the restored framing. All work meets current building code requirements, which may exceed the original construction standards.',
-    'The new roof system is installed once structural restoration is complete, following standard installation methods for the specified materials. The completed work is documented with comprehensive photographs showing the progression from fire damage through structural restoration to finished roof installation. This documentation supports the insurance claim, satisfies the Irvington building department inspection requirements, and provides the property owner with a permanent record of the reconstruction.',
+    '**Newark Quality Roofing assesses the fire-damaged roof, documents the fire, heat, and water damage with timestamped photographs, and tears off the charred covering and decking to the framing once the structural assessment sets the scope.** A licensed structural engineer assesses the assembly before reconstruction, because charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over and the rebuild meets current code, per the U.S. Forest Products Laboratory and EDT Engineers.',
+    '**Newark Quality Roofing replaces the heat-weakened rafters, trusses, and sheathing to the structural engineer\'s assessment and current code, then installs underlayment and a Class A fire-rated covering to manufacturer specification.** Charred members cut back to sound wood and saturated decking are replaced, because the char layer carries essentially zero residual structural capacity and firefighting water deteriorates the deck, per the American Wood Council and the U.S. Forest Products Laboratory.',
+    '**Newark Quality Roofing verifies the rebuild against the structural assessment and manufacturer specification, runs a magnet sweep for nails at cleanup, and documents the completed work with timestamped photographs.** The documentation supports the insurance claim, satisfies the Township of Irvington\'s construction-code inspection where a permit applies, and gives the owner a permanent record, per Integrity Home Exteriors documentation guidance.',
   ],
   faqs: [
     {
-      question: 'How quickly can you start fire damage roof replacement in Irvington?',
-      answer: 'We can begin assessment and emergency weather protection within 24 to 48 hours of fire department clearance. Full replacement scheduling depends on structural engineering evaluation, insurance approval, and coordination with the general contractor managing the overall restoration. Typical timeline from fire to completed roof is 4 to 8 weeks.',
+      question: 'Do I need a permit from Irvington for a fire damage roof replacement?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit for the covering, per the NJ Uniform Construction Code, while replacing charred rafters or trusses is a structural change that triggers a permit. On a commercial, multi-family, or attached building, a fire rebuild requires a permit filed with the Township of Irvington\'s construction-code office, and the township\'s rental- and multi-family-heavy stock puts much of its fire-damaged buildings on the permit-required path.',
     },
     {
-      question: 'Does fire damage always require full roof replacement in Irvington?',
-      answer: 'Not always. Fires confined to building interiors may damage only localized roof sections from below while leaving the majority of the roof surface undamaged. When damage is clearly bounded, partial replacement of the affected section may be appropriate. We assess the full roof to determine whether the fire compromised materials beyond the visually damaged area.',
+      question: 'Does a fire damage roof replacement in Irvington need historic-district approval?',
+      answer:
+        'A fire damage roof replacement in Irvington faces no Certificate of Appropriateness step, because Irvington has no local historic-preservation ordinance and no locally designated historic districts or landmarks. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private owner, per the National Park Service, so a fire rebuild proceeds without a historic-review gate.',
     },
     {
-      question: 'Will insurance cover fire damage roof replacement in Irvington?',
-      answer: 'Fire damage is a covered peril under virtually all property insurance policies. The claim covers structural restoration, roofing materials, and labor at replacement cost value. We coordinate with the insurance adjuster to document the scope and cost, ensuring the claim covers all necessary work including code upgrades triggered by the reconstruction.',
+      question: 'Does a fire-damaged roof always require a full tear-off in Irvington?',
+      answer:
+        'A fire-damaged roof requires a full tear-off rather than a recover, because a water-soaked, charred, or deteriorated deck is not an adequate base for a new covering. N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1 require removal of the existing covering when the deck is water-soaked or deteriorated, the condition firefighting water and char create. Newark Quality Roofing assesses the full roof to set the boundary between fire-damaged material and sound members.',
     },
     {
-      question: 'Can you coordinate with my general contractor on Irvington fire restoration?',
-      answer: 'Yes. We routinely work as the roofing subcontractor on fire restoration projects managed by general contractors. We integrate our schedule with the overall reconstruction timeline, completing roof work at the phase that allows interior restoration to proceed under weather protection. Direct coordination with the GC ensures efficient project flow.',
+      question: 'Does Newark Quality Roofing handle the fire insurance claim for an Irvington property?',
+      answer:
+        'Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so Newark Quality Roofing inspects and photographs the fire damage, writes a detailed scope and estimate, meets the adjuster on site, and performs the approved roofing. In New Jersey, only a licensed public adjuster or an attorney negotiates or settles the claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B, so the owner or a public adjuster files and negotiates the claim, and the deductible stays the owner\'s responsibility under the policy.',
+    },
+    {
+      question: 'How do you coordinate a fire rebuild on a tenant-occupied two- or three-family in Irvington?',
+      answer:
+        'A Newark Quality Roofing fire rebuild coordinates entry around displaced occupants under New Jersey landlord-tenant notice, sets a staging and access plan before work begins on the small lot, and documents the rebuild with photographs for the owner. Irvington runs majority-renter with many investor-owned two- and three-family buildings, so the documentation package supports a property manager, lender, or insurer record.',
     },
     {
       question: 'How much does fire damage roof replacement cost in Irvington, NJ?',
-      answer: 'Most fire damage roof replacement projects in Irvington range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage roof replacement adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Josten Roofing and Integrity Home Exteriors. Final cost depends on roof size, framing scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement in Irvington NJ with structural assessment, insurance coordination, and complete roof system restoration after fire events.',
+  metaDescription:
+    'Fire damage roof replacement in Irvington NJ — charred tear-off, structural rebuild to assessment, Class A fire-rated roof. NJ-registered, free estimate.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; fire damage adds structural framing and decking replacement on top of the covering. Final cost depends on roof size, framing scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in Irvington.',
+    urgencyNote: 'Addressing fire-damaged roofing early limits further water intrusion and structural damage.',
   },
 };

@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing asphalt shingle roof replacement across Irvington, New Jersey, and Essex County, stripping aging 2-/3-family and older detached roofs to the deck and installing new 3-tab or architectural shingles** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Asphalt shingle roof replacement** strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering.',
   overview: [
-    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Irvington — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement dominates Irvington\'s residential re-roofing market because the material matches both the township\'s architectural character and its economic reality. Our [asphalt shingle replacement](/asphalt-shingle-roof-replacement) installations upgrade Irvington homes from aging three-tab surfaces to modern architectural shingles that deliver improved wind resistance, better aesthetics, and longer manufacturer warranties at a price point that works for the township\'s homeowners and investment property operators.',
-    'The transition from three-tab to architectural shingles is particularly impactful on Irvington\'s colonials and Cape Cods, where the dimensional profile of architectural shingles adds visual depth and shadow lines that flat three-tab products cannot provide. This aesthetic upgrade enhances curb appeal without the cost of premium materials like slate or cedar, making architectural shingles the clear value choice for Irvington homes where appearance improvement supports property value without overinvesting relative to neighborhood comparables.',
-    'GAF and CertainTeed architectural shingles are our primary products for Irvington installations, selected for their 130 mph wind ratings, comprehensive warranty programs, and color options that complement the township\'s pre-war housing styles. Both manufacturers offer lifetime limited warranties on their premium architectural lines, with enhanced warranty tiers available for installations using complete accessory systems. Homeowners in [Bloomfield](/asphalt-shingle-roof-replacement-bloomfield-nj) install the same manufacturer products, and the consistent material quality across both communities ensures uniform performance regardless of which Essex County township the home is located in.',
+    '**Newark Quality Roofing replaces 2 asphalt shingle types across Irvington — 3-tab and architectural (laminated) shingles** — on the township\'s dense detached one- and two-family homes, two- and three-family rentals, and steep-slope mixed-use buildings. Asphalt shingle roof replacement strips the existing roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs new shingles, the work that ends an aged asphalt roof rather than patching a single failed detail.',
+    '**3-tab and architectural shingles** match Irvington\'s cost-conscious owners and landlords, because a 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes the actual asphalt service life varies up to 40% with climate, install, and maintenance. Asphalt shingles cover roughly 73% of US residential roofs per 2024 roofing-market data, the value-priced covering that suits a rental- and multi-family-heavy township.',
+    '**Stripping the roof to the deck** exposes the aging plank decking common under Irvington\'s 1920s–1940s homes, where a tear-off catches deck rot, undersized ventilation, and structural conditions a surface inspection misses. A Newark Quality Roofing replacement replaces deteriorated sheathing and installs an ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision, the detail that resists ice-dam backup on the township\'s under-insulated older stock.',
+    '**Matching the shingle line and wind rating** to the building precedes tear-off, because ASTM D3161 sets the asphalt wind classes — Class A near 60 mph and Class F near 110 mph — while many architectural lines warranty up to 130 mph with 6-nail installation, per ARMA and manufacturer guidance. A Newark Quality Roofing replacement installs GAF, Owens Corning, and CertainTeed asphalt shingle systems across Irvington as a registered New Jersey Home Improvement Contractor.',
   ],
   challenges: [
-    'Shingle color selection for Irvington homes must account for both the individual home\'s architectural style and the neighborhood context. A color that looks excellent on a display board may clash with the home\'s siding, brick, or trim colors, or may appear out of place among the neutral tones that dominate Irvington\'s established neighborhoods. We provide large-format color samples and digital visualization tools that show how each color option will look on the specific home before the homeowner commits.',
-    'Ventilation adequacy must be verified and upgraded during asphalt shingle replacement on Irvington homes to prevent voiding the manufacturer warranty. Most shingle manufacturers require balanced attic ventilation -- one square foot of net free area for every 150 square feet of attic floor -- as a warranty condition. Irvington\'s pre-war homes frequently fall short of this requirement with their original gable vent or no-vent configurations. We include ventilation assessment and upgrade as a standard part of every Irvington shingle replacement project.',
-    'Nail gun pressure calibration for Irvington\'s mix of plank and plywood decking is a quality variable that affects shingle wind performance. Over-driven nails cut through the shingle reinforcement mat, reducing wind resistance. Under-driven nails leave the shingle unsealed, allowing wind uplift. Our crews calibrate nail depth for the specific decking type encountered on each Irvington project, with regular test-nail inspection during installation to maintain proper depth throughout the project.',
+    '**Tenant-occupied access** defines an Irvington asphalt replacement, because the township runs majority-renter with many two- and three-family and investor-owned buildings, so a re-roof coordinates entry and staging around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing job sets an access and staging plan and documents the completed work for the owner and any insurer.',
+    '**Aging plank decking** turns up at tear-off on Irvington\'s 1920s–1940s detached and two- and three-family homes, where the NJ Rehabilitation Subcode requires full removal of a water-soaked or multi-layer covering before new shingles, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing replacement strips the covering, inspects the sheathing, and replaces deteriorated plank or plywood deck before underlayment.',
+    '**Limited staging room** on Irvington\'s small, densely built lots constrains material drop and debris containment, because the township ranks among the most heavily settled municipalities in New Jersey with little setback between buildings. A Newark Quality Roofing crew stages tight, contains debris with ground tarps, and runs a magnet sweep for nails before leaving the property.',
+    '**Undersized attic ventilation** on the older Irvington stock shortens shingle life and can fall outside a manufacturer warranty, because the NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA. A Newark Quality Roofing replacement corrects undersized ventilation as part of the asphalt re-roof.',
   ],
   process: [
-    'Asphalt shingle replacement begins with full tear-off of existing materials and comprehensive deck inspection. All deteriorated decking is replaced with CDX plywood, and the complete deck surface receives synthetic underlayment with ice-and-water shield at eaves extending 36 inches past the exterior wall, in all valleys, and around all penetrations. New aluminum drip edge is installed at all roof edges before shingle installation begins.',
-    'Shingle installation starts with manufacturer-specified starter strip at eaves and rakes, followed by field shingles applied from eave to ridge with the specific offset pattern and fastener count required by the product\'s wind warranty. We use 6-nail attachment patterns on all Irvington installations regardless of manufacturer minimum requirements, providing enhanced wind resistance that exceeds the standard 4-nail pattern. Hip and ridge cap shingles are installed with matching material, and continuous ridge vent provides attic exhaust ventilation.',
-    'Quality verification includes a complete roof walkthrough checking shingle alignment, nail depth, seal strip engagement, and flashing integration at every penetration and transition. We verify that the ridge vent is cutting properly and that soffit intake is unobstructed. Warranty documentation is prepared with the manufacturer registration information, product lot numbers, and installation date. The homeowner receives the warranty registration, our workmanship guarantee, and before-and-after project photographs.',
+    '**Newark Quality Roofing assesses the roof deck, the attic ventilation, and the NJ code triggers, then sets a written estimate naming the shingle options before tear-off.** A technician sizes ventilation against the NRCA and ARMA standard of 1 square foot of net-free vent area per 150 square feet of attic floor and coordinates tenant access in advance on Irvington\'s occupied two- and three-family buildings, and the estimate presents 2 shingle types — 3-tab at a 20-year life and architectural at a 30-year life — with the wind rating of each named, per Integrity Home Exteriors documentation guidance.',
+    '**Newark Quality Roofing strips the asphalt roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs the shingles to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** The NJ Rehabilitation Subcode requires full removal of a water-soaked or multi-layer covering, per N.J.A.C. 5:23-6.4, and the IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code. Installing to manufacturer specification preserves the material warranty covering factory defects, separate from the written workmanship warranty backing the labor, per Owens Corning warranty guidance.',
+    '**Newark Quality Roofing verifies the install against manufacturer specification, runs a magnet sweep for nails, and documents the completed re-roof with timestamped photographs.** A crew lead checks the nail pattern that keeps the wind warranty intact and the ice-barrier and underlayment coverage, and the documentation package supports a homeowner insurance claim, satisfies an investor-owner or property manager, and gives a lender or underwriter a clear condition record, per Integrity Home Exteriors documentation guidance.',
   ],
   faqs: [
     {
-      question: 'What is the best asphalt shingle brand for Irvington homes?',
-      answer: 'We install GAF Timberline HDZ and CertainTeed Landmark as our primary products. Both carry 130 mph wind ratings, Class A fire resistance, and comprehensive warranty programs. GAF offers the Golden Pledge warranty with 25-year workmanship coverage for certified installers. CertainTeed offers the SureStart Plus warranty with extended coverage. Both products perform excellently in Irvington\'s climate.',
+      question: 'Do you need a permit for an asphalt shingle roof replacement in Irvington, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Irvington counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Irvington\'s construction-code office. Irvington\'s rental- and multi-family-heavy stock puts much of its buildings on the permit-required path, and a structural change to rafters or trusses also triggers a permit.',
     },
     {
-      question: 'How long do architectural shingles last on Irvington homes?',
-      answer: 'Modern architectural shingles from GAF and CertainTeed carry lifetime limited warranties, with expected service life of 25 to 30 years in Irvington\'s climate when installed with proper ventilation and on sound decking. Actual lifespan depends on attic ventilation, roof orientation, and tree shade coverage. South-facing roof planes experience faster UV degradation than north-facing planes.',
+      question: 'How do you replace an asphalt roof on a tenant-occupied two- or three-family in Irvington?',
+      answer:
+        'A Newark Quality Roofing replacement coordinates entry and staging around occupants under New Jersey landlord-tenant notice, sets an access plan before tear-off, and documents the completed re-roof with timestamped photographs for the owner. Irvington runs majority-renter with many investor-owned two- and three-family buildings, so the documentation package supports a property manager, lender, or insurer record.',
     },
     {
-      question: 'Should I choose light or dark shingles for my Irvington home?',
-      answer: 'Light-colored shingles reduce summer heat absorption by 10 to 15 percent and may qualify for ENERGY STAR cool roof ratings. Dark shingles provide a more traditional appearance that matches Irvington\'s existing neighborhood aesthetics. We recommend medium tones like Weathered Wood, Driftwood, or Pewter Gray that balance energy performance with visual compatibility.',
+      question: 'What is the difference between 3-tab and architectural shingles?',
+      answer:
+        'A 3-tab asphalt shingle is a flat single-layer shingle that lasts 20 years and rates near 60 mph; an architectural shingle is a thicker laminated shingle that lasts 30 years and warranties up to 130 mph with 6-nail installation. The 20-year and 30-year lifespans trace to the InterNACHI life-expectancy chart, and ASTM D3161 sets the asphalt wind classes, per ARMA and manufacturer guidance.',
     },
     {
-      question: 'How much does asphalt shingle replacement cost in Irvington?',
-      answer: 'Standard architectural shingle replacement with full tear-off costs $8,000 to $13,000 on a typical Irvington colonial. This includes tear-off, deck repair, underlayment, ice-and-water shield, new flashings, ridge vent, and cleanup. Premium products and enhanced warranty tiers add 10 to 15 percent to the standard price.',
+      question: 'Does an asphalt roof replacement on an Irvington historic home need extra approval?',
+      answer:
+        'An asphalt roof replacement in Irvington requires no Certificate of Appropriateness, because Irvington has no local historic-district ordinance and no locally designated historic districts or landmarks. Irvington carries no National Register listings either, and a National or State Register listing alone places no restriction on a private owner, per the National Park Service, so the re-roof follows the standard NJ Uniform Construction Code path with no historic-approval step.',
     },
     {
-      question: 'How much does asphalt shingle roof replacement cost in Irvington, NJ?',
-      answer: 'Most asphalt shingle roof replacement projects in Irvington range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Why does an asphalt roof on an older Irvington home need a full tear-off?',
+      answer:
+        'A full tear-off is required on an older Irvington roof when the existing covering is water-soaked or deteriorated or already carries two or more layers, per N.J.A.C. 5:23-6.4. A tear-off also exposes the aging plank decking under the township\'s 1920s–1940s homes, letting a Newark Quality Roofing crew replace deteriorated sheathing that a recover would hide. Architectural asphalt lasts 30 years and 3-tab lasts 20 years on the new covering, per the InterNACHI life-expectancy chart.',
+    },
+    {
+      question: 'How much does an asphalt shingle roof replacement cost in Irvington, NJ?',
+      answer:
+        'An asphalt shingle roof replacement in New Jersey runs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Asphalt shingle roof replacement in Irvington NJ with GAF and CertainTeed architectural shingles. Full tear-off, deck repair, and enhanced wind ratings.',
+  metaDescription:
+    'Asphalt shingle roof replacement in Irvington NJ — 2-/3-family and older detached homes, full tear-off, deck repair, ice barrier. NJ-registered, free estimate.',
   pricing: {
-    range: '$8,500–$18,000',
-    note: 'asphalt shingle tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for asphalt shingle roof replacement in Irvington.',
+    urgencyNote: 'Replacing an end-of-life asphalt roof early limits interior and structural water damage.',
   },
 };

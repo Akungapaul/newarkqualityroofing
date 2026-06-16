@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing solar panel roofing installation across Irvington, New Jersey, and Essex County, flashing each mount watertight and verifying the structure on dense two- and three-family homes and Springfield Avenue commercial roofs** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Solar panel roofing installation** is the roofing work that supports a rack-mounted photovoltaic array — flashing each mount foot watertight, verifying the roof structure carries the added load, and matching the attachment detail to the roof-covering warranty. It prepares and seals the roof so the panels mount without creating a leak path.',
   overview: [
-    'Newark Quality Roofing delivers expert solar panel roofing installation in Irvington — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation in Irvington connects the township\'s affordability-focused housing market with New Jersey\'s aggressive solar incentive programs that make panel installation financially attractive even on modest-value properties. Our [solar panel roofing](/solar-panel-roofing-installation) services coordinate roof replacement with panel installation so Irvington homeowners avoid the costly sequence of re-roofing a few years after solar installation -- a scenario that requires panel removal, re-roofing, and panel reinstallation at roughly double the labor cost.',
-    'Irvington\'s roof geometry works in solar\'s favor. The hip-roofed colonials and south-facing Cape Cod slopes that dominate the township\'s housing stock provide adequate solar exposure on one or more roof planes despite the relatively compact lot sizes. While tree canopy shading reduces production on some properties, the majority of Irvington homes have sufficient unshaded roof area to generate meaningful solar output. Our site assessment includes shade analysis using satellite imagery and solar pathfinder measurements to verify that each Irvington installation will produce the electricity volumes that justify the investment.',
-    'New Jersey\'s SREC-II program and federal Investment Tax Credit make solar installation financially viable for Irvington homeowners at income levels where solar would be unaffordable without incentives. Combined with zero-down financing options, Irvington homeowners can install solar with monthly payments lower than their current electric bill -- generating immediate savings from day one. Homeowners in neighboring [East Orange](/solar-panel-roofing-installation-east-orange-nj) access the same incentive programs, and the combined demand from these adjacent urban communities has created an active solar installation market across the northern Essex County urban core.',
+    '**Newark Quality Roofing handles the roofing side of a rack-mounted solar array** across Irvington\'s dense two- and three-family rentals, older detached early-20th-century homes, and Springfield Avenue and Chancellor Avenue commercial flat roofs. Solar panel roofing installation covers watertight mount flashing, roof-structure load verification, fire and electrical code coordination, and roof-age assessment before the panels go on.',
+    '**Mount flashing** keeps the array watertight, because each rail attachment uses a lag bolt into the rafter and an integrated flashed foot whose upper flange tucks under the upslope shingle course so water sheds onto intact shingles, while a flashing sitting on top of the course is a leak path, per the NRCA Rooftop PV Guidelines and IronRidge. The mount flashing follows the roof-covering manufacturer flashing instructions with a compatible sealant, because deviation voids the roofing warranty, so the solar installer coordinates with the roofer before the array goes on, per the NRCA and Solar Power World.',
+    '**Roof-structure load verification** confirms the roof carries the added array dead load before install on Irvington\'s aging framing, because uplift and required ballast follow ASCE 7, with corner and perimeter zones needing more ballast than the field, per ASCE 7. On the township\'s older detached and two- and three-family stock, a tear-off can expose deteriorated plank decking that a Newark Quality Roofing crew replaces before any mount fastens.',
+    '**Roof-age assessment** decides whether the covering outlasts the array, because crystalline-silicon modules operate roughly 25 to 30-plus years and a roof replaced under an array forces removal and reinstallation of the panels, per NREL and the DOE. A Newark Quality Roofing assessment replaces a roof covering with less remaining service life than the array first, a roofing rule of thumb rather than a code requirement, so an Irvington landlord or homeowner avoids re-roofing under a mounted array.',
   ],
   challenges: [
-    'Roof condition assessment before solar installation is critical in Irvington\'s aging housing market. Installing solar panels on a roof with 10 or fewer years of remaining life guarantees the expensive panel removal and reinstallation cycle when re-roofing becomes necessary. Our protocol for Irvington solar projects includes a thorough roof condition evaluation, and we recommend combined roof replacement and solar installation when the existing roof has fewer than 15 years of projected remaining life.',
-    'Structural load capacity for solar panels must be verified on Irvington\'s pre-war framing. Solar panels add 3 to 5 pounds per square foot of dead load plus wind uplift forces that the original roof framing may not have been designed to handle. While most Irvington colonials with standard rafter framing can accommodate residential solar arrays, homes with undersized rafters or deteriorated framing members may require reinforcement before panels can be safely installed.',
-    'Electrical service upgrades on older Irvington homes can add unexpected costs to solar installation projects. Homes with 100-amp electrical panels -- common on pre-war Irvington housing -- typically require panel upgrades to 200-amp service to accommodate the solar inverter interconnection. This electrical upgrade adds $1,500 to $3,000 to the project and requires coordination with PSE&G for the utility interconnection agreement.',
+    '**Tenant-occupied access** shapes a solar-roofing job on Irvington\'s rental and multi-family stock, because the township runs majority-renter with many investor- and landlord-owned two- and three-family buildings, so a mount install coordinates entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing crew sets a staging and access plan on the small lots and documents the watertight detail for the owner.',
+    '**Older framing and plank decking** on Irvington\'s early-20th-century and immediate-postwar homes carry an unconfirmed load capacity, so a Newark Quality Roofing assessment verifies the roof structure carries the added array dead load before any mount fastens, per ASCE 7. A tear-off ahead of the array exposes deteriorated sheathing the crew replaces, because a mount fastens into sound framing and a flashed foot lands on a solid deck.',
+    '**Commercial flat-roof mounting** on Springfield Avenue and Chancellor Avenue storefronts and Route 78 southeastern-edge light-industrial buildings uses one of two methods: non-penetrating ballasted racking weighted on a protection pad over the membrane, or mechanically-attached penetrating anchors that are flashed, per the NRCA and SPRI. A Newark Quality Roofing crew matches the mount flashing to the membrane manufacturer instructions so the array does not break the seam.',
+    '**Fire and electrical code coordination** governs every Irvington rooftop array, because a rooftop photovoltaic system meets NEC 690.12 rapid shutdown by dropping to 30 volts or less outside the array boundary and 80 volts or less inside within 30 seconds, and the array leaves firefighter access pathways of 36 inches or more with a ridge setback of 18 inches at 33 percent or less roof coverage, per NEC 690.12 and IRC R324.6.',
   ],
   process: [
-    'Solar-ready roof installation begins with re-roofing the designated solar zone using materials rated for panel mounting compatibility. We install architectural shingles with enhanced underlayment, strategically placed flashing boots at planned rail attachment points, and reinforced decking where structural assessment indicates the need. The roof warranty covers the panel mounting penetrations when installed by our certified crews, eliminating the warranty void risk that concerns many homeowners.',
-    'Panel mounting uses rail-based systems with lag bolts through the roof surface into rafters, with each penetration sealed by integrated flashing boots that maintain waterproofing integrity. Panel placement follows the engineered layout that maximizes production while respecting structural spacing requirements and setback distances from roof edges and ridges required by fire code. Microinverter or string inverter systems are selected based on the specific shading conditions and roof geometry of each Irvington installation.',
-    'After physical installation, our solar team handles the permitting, utility interconnection, and incentive enrollment that Irvington homeowners find most confusing. We file the Irvington building permit application, submit the PSE&G interconnection request, enroll the system in the SREC-II program, and ensure the federal tax credit documentation is properly prepared. The system is commissioned and producing power within 4 to 8 weeks of physical installation completion, depending on utility and permit processing timelines.',
+    '**Newark Quality Roofing inspects the roof covering, the roof age, and the structure before the array goes on.** A solar array stays on the roof for the 25 to 30-plus-year module life, so a crew confirms the roof carries the added array dead load per ASCE 7 and that the covering outlasts the modules, replacing a roof covering with less remaining service life than the array first on Irvington\'s aging stock, per ASCE 7, NREL, and the DOE.',
+    '**Newark Quality Roofing flashes each mount watertight to the roof-covering manufacturer instructions and coordinates the attachment detail with the solar installer to keep the roofing warranty intact.** On a pitched two- or three-family roof, each attachment uses a lag bolt into the rafter and an integrated flashed foot tucked under the upslope shingle course, and on a Springfield Avenue or Route 78 low-slope membrane the mount uses ballasted racking on a protection pad or flashed mechanical anchors, per the NRCA Rooftop PV Guidelines, IronRidge, and SPRI.',
+    '**Newark Quality Roofing coordinates the roofing scope with the photovoltaic fire and electrical code that governs a rooftop array, sequencing the roof work so the array meets NEC and fire-code requirements.** The array meets NEC 690.12 rapid shutdown within 30 seconds, the module, mounting, and roof-covering assembly carry a UL 790 fire rating together, and the array leaves firefighter access pathways under an AHJ building and electrical permit filed with the Township of Irvington\'s construction-code office, per NEC 690.12, UL 790, and IRC R324.6.',
   ],
   faqs: [
     {
-      question: 'Can I afford solar panels on my Irvington home?',
-      answer: 'New Jersey incentives make solar accessible for Irvington homeowners at most income levels. The federal Investment Tax Credit covers 30 percent of system cost, SREC-II credits provide ongoing revenue for 15 years, and zero-down financing options produce monthly payments often lower than current electric bills. We provide financial modeling for each Irvington installation showing projected savings over the system\'s 25-year life.',
+      question: 'Do solar panel mounts leak the Irvington roof?',
+      answer:
+        'A solar panel mount stays watertight when each attachment uses a flashed foot whose upper flange tucks under the upslope shingle course, so water sheds onto intact shingles. A flashing sitting on top of the course is a leak path, and the mount flashing follows the roof-covering manufacturer instructions with a compatible sealant to keep the roofing warranty intact, per the NRCA Rooftop PV Guidelines and IronRidge.',
     },
     {
-      question: 'Should I replace my roof before installing solar in Irvington?',
-      answer: 'If your existing roof has fewer than 15 years of remaining life, replacing it before or simultaneously with solar installation saves significant money over the long term. Removing and reinstalling panels for a future re-roofing project costs $3,000 to $5,000 in additional labor. We offer combined roof replacement and solar installation packages that coordinate both projects efficiently.',
+      question: 'Should you replace your Irvington roof before installing solar panels?',
+      answer:
+        'Replace or re-roof before solar when the roof covering has less remaining service life than the array, because crystalline-silicon modules operate roughly 25 to 30-plus years and a roof replaced under an array forces panel removal and reinstallation. The roof-age-before-solar rule is a roofing rule of thumb, not a code requirement, and the module life traces to NREL and the DOE. On Irvington\'s aging two- and three-family stock, a Newark Quality Roofing assessment sets the roof scope before the array.',
     },
     {
-      question: 'How much electricity will solar panels produce on my Irvington home?',
-      answer: 'Production depends on roof orientation, pitch, shade exposure, and system size. A typical 8 kW system on a south-facing Irvington colonial produces 9,000 to 10,000 kWh annually -- enough to offset 80 to 100 percent of average household electricity consumption. We provide production estimates based on site-specific shade analysis before recommending system size.',
+      question: 'Do you need a permit to install rooftop solar in Irvington, NJ?',
+      answer:
+        'A rooftop solar array requires an AHJ building and electrical permit and inspection for NEC and fire-code compliance, filed with the Township of Irvington\'s construction-code office. The underlying re-roof on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 with no construction permit, while a commercial, multi-family, or attached building exceeding 25 percent of the roof area in a 12-month period requires a permit, per the NJ Uniform Construction Code.',
     },
     {
-      question: 'Does solar installation affect my Irvington roof warranty?',
-      answer: 'When we install both the roof and solar panels, our roof warranty covers the panel mounting penetrations. When panels are installed on an existing roof by our crew, we provide a separate penetration warranty covering the mounting points. Solar installations by other contractors on our roofs do not void our warranty but may not be covered for the penetration points they create.',
+      question: 'Does an Irvington historic district restrict a rooftop solar install?',
+      answer:
+        'Irvington has no local historic-district ordinance and no locally designated districts or landmarks, so a rooftop solar install faces no Certificate of Appropriateness step. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private owner, per the National Park Service. The array still meets the NEC, fire-code, and UCC permit requirements that govern every NJ rooftop installation.',
+    },
+    {
+      question: 'How does mounting solar work on an Irvington commercial flat roof?',
+      answer:
+        'A low-slope commercial mount uses one of two methods: non-penetrating ballasted racking weighted on a protection pad over the membrane, or mechanically-attached penetrating anchors that are flashed, per the NRCA and SPRI. These mounts serve Springfield Avenue and Chancellor Avenue storefronts and Route 78 light-industrial buildings. Uplift and required ballast follow ASCE 7, with corner and perimeter zones needing more ballast than the field, so a Newark Quality Roofing assessment verifies the roof structure before install.',
     },
     {
       question: 'How much does solar panel roofing installation cost in Irvington, NJ?',
-      answer: 'Most solar panel roofing installation projects in Irvington range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'The roofing scope of a solar install is priced per roof, because the cost depends on the roof age and condition, the mount type, the structural verification, and the code coordination the array requires. A pitched-roof flashed-foot attachment differs in labor from a low-slope ballasted or mechanically-attached and flashed mount, per the NRCA and SPRI. Newark Quality Roofing provides a free written estimate for the roofing scope before any work begins.',
     },
   ],
-  metaDescription: 'Solar panel roofing in Irvington NJ with combined roof replacement and panel installation. NJ incentives make solar affordable for every homeowner.',
+  metaDescription:
+    'Solar panel roofing installation in Irvington NJ — watertight mount flashing, roof-structure verification, NEC and fire-code coordination. Free estimate.',
   pricing: {
-    range: '$18,000–$35,000',
-    note: 'full solar panel roof integration',
+    range: 'Free written estimate — roofing scope priced per roof',
+    note: 'The roofing scope of a solar install is priced per roof, depending on roof age and condition, mount type, structural verification, and code coordination, per the NRCA, SPRI, and ASCE 7. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Watertight mount flashing matched to the roof-covering manufacturer instructions to keep the roofing warranty intact, per the NRCA Rooftop PV Guidelines.',
+    'Free, detailed written estimates with no obligation.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free solar panel roofing installation estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for solar panel roofing installation in Irvington.',
+    urgencyNote: 'Re-roofing under a mounted array forces removal and reinstallation of the panels, so the roof scope is set before the array goes on.',
   },
 };

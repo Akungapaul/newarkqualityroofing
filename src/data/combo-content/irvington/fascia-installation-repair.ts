@@ -3,56 +3,68 @@ import type { ComboContent } from '../schema';
 export const irvingtonFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor installing and repairing fascia across Irvington, New Jersey, and Essex County, replacing the rotted board that closes the rafter-tail ends and mounts the gutter on two- and three-family rentals and detached homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.',
   overview: [
-    'Newark Quality Roofing delivers expert fascia installation repair in Irvington — with prices starting from $1,200–$3,500 and free estimates available today. Fascia board deterioration on Irvington\'s pre-war homes runs far deeper than cosmetic concern -- these boards serve as the structural mounting surface for the entire gutter system and protect exposed rafter tails from weather penetration. When fascia rots on an 80-year-old colonial in Olympic Park, the gutters sag away from the house, water overflows behind the gutter into the soffit cavity, and moisture reaches the rafter ends where it initiates structural decay. Our [fascia installation](/fascia-installation-repair) and repair services across Irvington address this cascade before it progresses from surface deterioration to structural damage.',
-    'Investment property renovations throughout Irvington frequently reveal fascia conditions that previous owners concealed with paint rather than repaired. Two-family and three-family homes on Chancellor Avenue and Stuyvesant Avenue change hands with freshly painted exterior trim that masks advanced wood rot behind the paint film. New owners discover the true condition when gutters pull away from the building or when soffit panels begin dropping. Our fascia assessment for Irvington investment properties includes probing beneath paint surfaces to determine actual wood condition before recommending repair scope.',
-    'Springfield Avenue commercial buildings present fascia challenges at a different scale, where metal fascia covers and composite panels protect roof edges on flat-roofed structures. These commercial fascia systems conceal the roof edge termination detail and provide a finished appearance -- but when they deteriorate or separate from the building, they expose the roof membrane edge to wind uplift and water infiltration. Commercial fascia repair in [Irvington](/roofing-in-irvington-nj) requires access equipment and material handling that differs from residential work but serves the same protective function.',
+    "**Newark Quality Roofing installs and repairs fascia across Irvington's two- and three-family rentals, investor-owned buildings, older detached homes, and Springfield Avenue and Chancellor Avenue storefronts**, replacing the rotted board that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair restores the board along the lower roof edge, per InterNACHI inspection guidance.",
+    "**Fascia** fails most often from water on Irvington's dense, aging stock, because clogged and overflowing gutters back up and soak the board, and loose gutters leave a gap that lets water contact the fascia, per InterNACHI inspection guidance. Water-filled gutters weigh roughly 5 to 7 pounds per linear foot, a load a weakened fascia cannot carry, so the gutters sag and pull away from the roofline, per HB Elements trade guidance.",
+    "**Two- and three-family rentals** and investor-owned buildings across Irvington carry fascia conditions concealed under repainted trim, because the township runs majority-renter with cost-conscious owners and landlords, and a paint film traps moisture against the board while masking the rot beneath. A Newark Quality Roofing fascia assessment probes beneath the paint surface to determine the actual wood condition before setting the repair scope.",
+    "**Springfield Avenue and Chancellor Avenue** storefronts and the Route 78 light-industrial buildings along Irvington's southeastern edge carry metal fascia covers and composite panels at the roof edge, which separate from the building and expose the membrane edge as they deteriorate. A Newark Quality Roofing repair on these mixed-use and commercial buildings replaces the failed edge board and remounts the gutter line on the same water-driven failure pattern.",
   ],
   challenges: [
-    'The layered paint accumulation on Irvington fascia boards masks deterioration that may be advanced before any visible symptoms appear. Multiple generations of homeowners have painted over increasingly softened wood, and the paint film actually accelerates rot by trapping moisture against the wood surface while preventing drying. By the time paint begins peeling or bubbling on an Irvington fascia board, the wood beneath is typically too deteriorated for repair and requires full replacement.',
-    'Rafter tail condition behind deteriorated fascia boards on Irvington homes determines whether fascia replacement is a trim project or a structural project. When fascia rot has progressed to the rafter ends, simply installing new fascia board against rotted rafter tails produces a mounting surface that will fail again within a few years. Our fascia replacement scope on Irvington homes includes rafter tail inspection with sistering or extension of deteriorated rafter ends before new fascia is installed.',
-    'Matching existing trim profiles on Irvington\'s older homes requires custom milling or creative adaptation. Original fascia boards were often cut from old-growth lumber in profiles that are not available from modern lumber suppliers. Standard 1x6 or 1x8 boards may not match the depth, thickness, or profile of the original fascia, creating visible transitions where new material meets existing. We source or mill fascia stock that matches the original profile as closely as possible, and we replace full runs rather than patching short sections to avoid mismatched transitions.',
+    "**Tenant-occupied access** defines fascia work on Irvington's two- and three-family rentals, because the township runs majority-renter with many investor-owned buildings, so a fascia repair coordinates eave and gutter-line entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing job sets a staging plan and documents the work for the owner.",
+    "**Layered paint** on Irvington's older fascia boards masks deterioration that runs advanced before any visible symptom appears, because generations of repainting trap moisture against the wood while the film hides the rot. By the time paint peels or blisters on an Irvington fascia board, the wood beneath is typically too soft to repair and requires full replacement, per Ledegar Roofing inspection guidance.",
+    "**Rafter-tail condition** behind a rotted fascia board on Irvington's aging detached and 2-3-family stock decides whether the work stays a trim job or becomes structural, because fascia that has soaked the rafter-tail ends exposes additional repair once the board comes off, per InterNACHI inspection guidance. A Newark Quality Roofing scope inspects the rafter tails before new fascia is set.",
+    "**Plank decking and limited staging room** turn up on Irvington's dense, built-out lots, because the eaves on early-20th-century homes meet aging board sheathing and small lots leave little working space along the run. A Newark Quality Roofing crew marks the replacement boundaries at sound wood rather than the visible damage edge before tearing off the board.",
   ],
   process: [
-    'Fascia repair in Irvington begins with gutter removal along the affected run. We detach the gutter, hangers, and any associated drip edge to fully expose the fascia board surface. Probing with an awl determines the extent of deterioration along the full length of the run -- rot that appears confined to one section frequently extends behind the adjacent paint surface in both directions. We mark the replacement boundaries at sound wood rather than at the visible damage edge.',
-    'Deteriorated fascia is removed carefully to expose the rafter tails behind. Each rafter end is inspected for rot, and compromised rafter tails are reinforced by sistering new lumber alongside the existing rafter extending at least 24 inches past the wall plate. New fascia board is cut from pressure-treated or composite lumber that resists the moisture exposure that destroyed the original wood fascia. Composite fascia materials -- PVC or fiber-cement -- provide permanent rot resistance on Irvington homes where wood fascia has failed repeatedly.',
-    'After fascia installation, new aluminum drip edge is installed over the fascia-to-roof joint to direct water into the gutter rather than behind the fascia face. The gutter system is reinstalled with new hangers at 24-inch spacing, ensuring proper attachment into the new fascia or backing board. All joints and nail holes are sealed and primed before finish painting. We match the existing exterior paint color as closely as possible, blending the new fascia into the home\'s existing trim scheme.',
+    "**Newark Quality Roofing traces fascia failure to the water source, detaches the gutter run, and replaces the rotted board before remounting the gutter on Irvington's eaves**, because fascia rot starts at the moisture path, not the board, per InterNACHI. A crew probes the full length of the run, because rot confined to one section frequently extends behind the adjacent paint.",
+    "**Newark Quality Roofing** removes the deteriorated board to expose the rafter-tail ends, inspects each rafter for rot, and installs new fascia matched to the eave from painted wood, PVC, aluminum cladding, or fiber-cement. Painted wood in pine or cedar lasts roughly 15 to 25 years on a repaint cycle, while aluminum fascia and soffit are bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart and HB Elements trade guidance.",
+    "**Newark Quality Roofing** sets the drip edge at least one-quarter inch below the deck and fascia per the IRC R905.2.8.5 provision, then refastens the gutters to the sound fascia so the board carries the roughly 5-to-7-pound-per-linear-foot load of a water-filled gutter, per HB Elements trade guidance. A crew runs a magnet sweep for fasteners and sets gutter cleaning twice per year, spring and fall, per Angi and GAF maintenance guidance.",
   ],
   faqs: [
     {
       question: 'How do I know if my Irvington home needs fascia replacement?',
-      answer: 'Warning signs include gutters pulling away from the house, visible paint peeling or bubbling on fascia boards, soft spots when pressed with a finger, and water stains on soffit panels beneath the fascia. If you notice any of these conditions, the fascia likely needs replacement rather than repainting. We provide free assessments that probe beneath the paint surface to determine actual wood condition.',
+      answer:
+        'Peeling or blistering paint, soft and spongy spots, surface cracks and flaking, and gutters sagging or pulling from the roofline indicate fascia that needs replacing rather than repainting. Soft spots and discoloration confirm water-driven rot inside the board, per Ledegar Roofing inspection guidance, and a Newark Quality Roofing assessment probes beneath the paint to determine the actual wood condition.',
     },
     {
-      question: 'Should I use wood or composite fascia on my Irvington home?',
-      answer: 'Composite fascia materials -- PVC or fiber-cement -- provide permanent rot resistance that wood cannot match in Irvington\'s climate. While composite costs approximately 30 to 50 percent more than pressure-treated wood, it never needs painting and does not rot. For Irvington homes where wood fascia has failed multiple times, composite provides a permanent solution that eliminates the replacement cycle.',
+      question: 'Do I need a permit from Irvington for fascia work?',
+      answer:
+        'Fascia and trim work on a detached one- or two-family Irvington home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, work repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Irvington\'s construction-code office, and Irvington\'s majority-renter, multi-family-heavy stock puts much of its buildings on that path.',
     },
     {
-      question: 'Does fascia replacement affect my gutters in Irvington?',
-      answer: 'Yes -- gutters must be removed and reinstalled during fascia replacement. This is actually an advantage because the gutter system can be inspected, realigned, and reinstalled with new hangers on the fresh fascia surface. If the existing gutters are also deteriorated, we can coordinate gutter replacement with fascia work to save on combined labor costs.',
+      question: 'How do you handle fascia work on a tenant-occupied two- or three-family in Irvington?',
+      answer:
+        'A Newark Quality Roofing fascia repair coordinates eave and gutter-line entry around occupants under New Jersey landlord-tenant notice, sets a staging plan before any work, and documents the completed board and gutter remount with photographs for the owner. Irvington runs majority-renter with many investor-owned two- and three-family buildings, so the documentation supports a property manager, lender, or insurer record.',
     },
     {
-      question: 'How much does fascia replacement cost on Irvington homes?',
-      answer: 'Wood fascia replacement costs $8 to $14 per linear foot including gutter removal and reinstallation. Composite PVC or fiber-cement fascia costs $12 to $20 per linear foot. Rafter tail repair adds $150 to $300 per affected rafter. A typical Irvington colonial requires 80 to 120 linear feet of fascia, making total project costs range from $700 to $2,400 depending on material choice and structural repair needs.',
+      question: 'What fascia material lasts longest on an Irvington home?',
+      answer:
+        'Aluminum, PVC, and fiber-cement fascia resist moisture longer than painted wood, which lasts roughly 15 to 25 years and needs a repaint cycle, per HB Elements trade guidance. Aluminum fascia and soffit are bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart, while PVC resists moisture and fiber-cement resists moisture and insects, a durability trade-off against the lower first cost of painted wood.',
     },
     {
       question: 'How much does fascia installation repair cost in Irvington, NJ?',
-      answer: 'Most fascia installation repair projects in Irvington range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Fascia installation and repair in Irvington varies by scope, because the cost depends on the board length, the material, the gutter remount, and any hidden rafter-tail rot, and Newark Quality Roofing provides a free written estimate. A Newark Quality Roofing inspection traces the rot to the water source and prices the board replacement and the gutter remount together, because fascia and gutter work share the same eave.',
     },
   ],
-  metaDescription: 'Fascia installation and repair in Irvington NJ for aging colonials and multi-family homes. Protect rafter tails and restore gutter mounting integrity.',
+  metaDescription:
+    'Fascia installation and repair in Irvington NJ for two- and three-family rentals and older homes. Rotted-board replacement, gutter remount, free estimate.',
   pricing: {
-    range: '$1,200–$3,500',
-    note: 'fascia board replacement',
+    range: 'Varies by scope',
+    note: 'Final cost depends on board length, material, the gutter remount, and any hidden rafter-tail rot. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    "Local Essex County crew familiar with Irvington's dense two-/three-family, rental, and older early-20th-century building stock.",
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fascia installation repair estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fascia installation repair in Irvington.',
+    urgencyNote: 'Replacing a rotted fascia board early keeps the gutter line attached and the rafter tails dry.',
   },
 };

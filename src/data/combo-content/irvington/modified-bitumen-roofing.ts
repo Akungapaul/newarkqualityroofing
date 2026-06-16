@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const irvingtonModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing modified bitumen roofing across Irvington, New Jersey, and Essex County, building multi-ply SBS and APP membrane on Springfield Avenue and Chancellor Avenue flat-roof storefronts and Route 78 light-industrial buildings** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Modified bitumen roofing** is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet over base plies on the deck. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant, built-up asphalt assembly.',
   overview: [
-    'Newark Quality Roofing delivers expert modified bitumen roofing in Irvington — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen remains the workhorse membrane on scores of Irvington commercial buildings that were originally roofed with built-up systems in the 1960s and 1970s. Along Springfield Avenue, the corridor\'s two- and three-story mixed-use buildings frequently carry aging mod-bit surfaces that have been re-coated repeatedly rather than properly replaced. Our [modified bitumen roofing](/modified-bitumen-roofing) installations across Irvington replace these failing multi-layer systems with modern SBS-modified membranes that deliver genuine 20-year waterproofing instead of the 3-to-5-year patch cycles that property owners have been enduring.',
-    'The multi-layer construction of modified bitumen appeals to Irvington\'s commercial property owners who want redundancy in their roofing system. Where single-ply membranes rely on one layer of material for waterproofing, mod-bit systems build two or three layers of reinforced membrane that provide backup protection if the top surface is punctured or damaged. For Springfield Avenue buildings where rooftop foot traffic from HVAC maintenance is frequent, and for Route 78 industrial properties where falling debris or tool drops are occupational realities, this built-in redundancy translates directly to fewer leak events over the roof\'s service life.',
-    'Irvington\'s older commercial buildings often have structural conditions that favor modified bitumen over single-ply alternatives. Buildings with irregular deck surfaces, multiple elevation changes, and complex parapet details benefit from mod-bit\'s ability to conform to substrate irregularities through the torch-application process. Property managers overseeing similar aging commercial buildings in [Newark](/modified-bitumen-roofing-newark-nj) rely on modified bitumen for comparable reasons, though Irvington\'s smaller commercial footprints keep most projects in the 2,000 to 8,000 square foot range where mod-bit\'s material cost premium over EPDM is proportionally manageable.',
+    '**Newark Quality Roofing installs modified bitumen roofing** across Irvington\'s dense building stock — Springfield Avenue and Chancellor Avenue commercial flat roofs, Route 78 southeastern-edge light-industrial buildings, and the low-slope sections of two- and three-family rentals. Modified bitumen layers a polymer-modified asphalt cap sheet over base plies, the multi-ply assembly that carries the redundancy of built-up roofing with added membrane flexibility.',
+    '**The multi-ply assembly** suits Irvington\'s aging commercial and rental stock, because a breach in the cap sheet stops short of the deck and the redundant plies absorb the foot traffic and concentrated loads of HVAC service access that puncture a single-ply membrane, per ARMA modified-bitumen guidance. Modified bitumen lasts 20 years, per the InterNACHI life-expectancy chart, against EPDM at 15 to 25 years, TPO at 7 to 20 years, and BUR at 30 years.',
+    '**SBS-modified bitumen** holds low-temperature flexibility better than APP-modified bitumen, the property that matters across the cold-weather cycling that Irvington shares with Newark, per ARMA modified-bitumen guidance. A Newark Quality Roofing installation matches the polymer modifier and the application method — SBS torch, SBS self-adhered, APP torch, or cold adhesive — to the building, the occupancy, and the NJ fire-code conditions before the first ply.',
   ],
   challenges: [
-    'Torch-applied modified bitumen installation requires fire safety protocols that Irvington\'s dense commercial districts demand. Springfield Avenue buildings share parapet walls with adjacent structures, and open-flame torching near combustible building components requires fire watch personnel, extinguisher staging, and post-work monitoring. Our torch-application crews follow NRCA hot-work protocols with dedicated fire watch extending 90 minutes after the last torch operation -- a precaution that some contractors skip but that Irvington\'s closely-built commercial environment absolutely requires.',
-    'The accumulated weight of modified bitumen systems on Irvington\'s aging commercial structures approaches structural load limits that single-ply systems never threaten. A three-layer mod-bit system with two plies of cap sheet over base weighs 4 to 5 pounds per square foot, versus 1.5 pounds for a comparable EPDM system. On Springfield Avenue buildings with original structural framing from the 1950s and 1960s, adding new mod-bit over existing layers can exceed the deck\'s load capacity. We calculate cumulative roofing weight on every Irvington project and require full tear-off when accumulated weight approaches structural limits.',
-    'Irvington commercial building owners accustomed to coating-based maintenance sometimes expect modified bitumen surfaces to be re-coated indefinitely. While aluminum or reflective coatings can extend mod-bit surface life by 5 to 7 years, they cannot be applied over moisture-damaged or blistered membrane. The accumulated coating layers on many Springfield Avenue roofs have masked underlying membrane failure -- blistering, splitting, and delamination hidden beneath cosmetic coatings. Our assessment protocol strips back coating at test areas to evaluate actual membrane condition before recommending re-coating versus replacement.',
+    '**Tenant-occupied access** shapes a modified bitumen job on Irvington\'s many two- and three-family and investor-owned buildings, because the township is majority-renter and rental- and multi-family-heavy, so the work coordinates entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing job applies self-adhered SBS or cold-adhesive membrane to eliminate open flame on an occupied building and documents the work for the owner.',
+    '**Torch application** near combustible details requires the NRCA hot-work protocol on Irvington\'s densely built commercial corridors, where Springfield Avenue and Chancellor Avenue storefronts share parapet walls with adjacent buildings. A Newark Quality Roofing crew follows NRCA hot-work fire-watch protocol with fire extinguishers and a post-application fire watch, or specifies a flame-free self-adhered or cold-adhesive method where occupancy or NJ fire code restricts hot work.',
+    '**Aging plank decking** turns up at tear-off on Irvington\'s older pre- and immediate-postwar buildings, where decades of re-coating have masked blistering, splitting, and delamination beneath the surface. A Newark Quality Roofing crew strips the existing roof to the deck, replaces deteriorated decking exposed at tear-off, and installs the new multi-ply assembly over rigid polyisocyanurate insulation rather than recovering a failed substrate.',
+    '**Ponding water** held more than 48 hours counts as a defect that breaks down bituminous membrane, and a low-slope roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA. A Newark Quality Roofing installation sets tapered polyisocyanurate insulation that establishes positive drainage where the existing deck on a flat Irvington commercial roof is level or improperly pitched.',
   ],
   process: [
-    'Modified bitumen installation in Irvington begins with complete removal of existing roofing materials to the structural deck. We remove all accumulated layers, coatings, and debris, then inspect the exposed deck for deterioration. Corroded steel sections on commercial buildings are cut out and replaced with matching gauge material. Concrete decks receive patching compound to fill voids and create a smooth substrate. A vapor barrier is installed over the cleaned deck to prevent moisture migration from the building interior into the new roofing assembly.',
-    'Polyiso insulation is installed in two staggered layers over the vapor barrier, with tapered sections establishing drainage slope where the existing deck is flat or improperly pitched. The SBS-modified base sheet is mechanically fastened to the deck through the insulation, providing the first waterproofing layer. The cap sheet -- either smooth or granule-surfaced depending on the application -- is torch-applied to the base sheet, creating a heat-fused bond that produces a monolithic two-ply membrane resistant to puncture, foot traffic, and thermal cycling.',
-    'All flashings and details receive modified bitumen flashing membrane torch-applied to primed masonry or metal surfaces. Pipe boots, equipment curbs, and drain inserts are integrated into the membrane system with full torch-fused overlaps that eliminate the caulk-dependent terminations common on competing installations. We apply reflective coating to the completed surface when building owners want the energy benefits of a cool roof without the cost of a reflective membrane. Final documentation includes material certifications, warranty registration, and photographic records of all concealed conditions discovered and addressed during tear-off.',
+    '**Newark Quality Roofing specifies the assembly and the drainage before tear-off, setting the ply count, the polymer modifier, the application method, and the insulation against the building\'s traffic load and the NJ code.** A crew designs tapered polyisocyanurate insulation to positive drainage, because a low-slope roof needs at least ¼ inch per foot of slope to drain and ponding water remaining more than 48 hours counts as a defect, per NRCA and ARMA, and coordinates tenant access in advance on Irvington\'s occupied two- and three-family buildings.',
+    '**Newark Quality Roofing strips the roof to the deck, repairs the exposed decking, and builds the multi-ply membrane: a base sheet, one or two interply membranes, and a polymer-modified cap sheet, each ply bonded to the layer below.** The crew applies the membrane by the specified method — SBS torch, SBS self-adhered, APP torch, or cold adhesive — and verifies full-surface adhesion at each ply, re-applying any section showing incomplete contact, per ARMA modified-bitumen guidance.',
+    '**Newark Quality Roofing details every penetration, curb, edge, and parapet wall with modified bitumen flashing components and documents the completed roof.** Flashing separation at penetrations and parapets ranks among the most common low-slope leak sources, per NRCA and ARMA. A granulated cap sheet carries built-in UV and foot-traffic protection, while a smooth cap sheet receives a reflective coating rated for solar reflectance by the Cool Roof Rating Council. Timestamped photographs of concealed conditions support the owner\'s record and any insurance claim.',
   ],
   faqs: [
     {
-      question: 'Is modified bitumen still a good choice for Irvington commercial roofs?',
-      answer: 'Modified bitumen remains an excellent choice for Irvington commercial buildings where puncture resistance, foot traffic durability, and multi-layer redundancy are priorities. Its self-healing SBS composition reseals minor surface damage that would become leaks on single-ply membranes. For buildings with regular rooftop equipment maintenance, the durability advantage over thinner single-ply options is significant.',
+      question: 'What is the difference between APP and SBS modified bitumen for an Irvington roof?',
+      answer:
+        'SBS-modified bitumen, modified with styrene-butadiene-styrene rubber, holds low-temperature flexibility better than APP-modified bitumen, modified with atactic polypropylene, which runs heat-resistant and UV-stable but stiffer in cold, per ARMA modified-bitumen guidance. Newark Quality Roofing installs SBS modified bitumen for the cold-weather cycling Irvington shares with Newark.',
     },
     {
-      question: 'How does modified bitumen compare to TPO in cost for Irvington buildings?',
-      answer: 'Modified bitumen material costs run 10 to 15 percent higher than TPO, and torch application requires more labor hours than mechanically attached single-ply. However, mod-bit\'s superior puncture resistance and multi-layer construction reduce long-term maintenance costs on buildings with heavy rooftop traffic. For Irvington buildings where the roof sees regular foot traffic, the higher upfront cost typically pays for itself through fewer repair calls over the membrane\'s 20-year life.',
+      question: 'How do you handle a modified bitumen roof on a tenant-occupied building in Irvington?',
+      answer:
+        'A Newark Quality Roofing job coordinates entry around occupants under New Jersey landlord-tenant notice and applies self-adhered SBS or cold-adhesive modified bitumen to eliminate open flame on an occupied building. Irvington runs majority-renter with many investor-owned two- and three-family buildings, so the documentation package supports a property manager, lender, or insurer record.',
     },
     {
-      question: 'Is torch application safe on Irvington commercial buildings?',
-      answer: 'Yes, when performed by properly trained crews with full fire safety protocols. Our torch application teams carry NRCA fire safety certification, stage fire extinguishers every 25 feet, and maintain dedicated fire watch personnel for 90 minutes after the final torch operation. We also offer self-adhered modified bitumen installation for buildings where torch application is restricted by owner preference or insurance requirements.',
+      question: 'Do I need a permit for a modified bitumen roof in Irvington?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit. The Township of Irvington\'s construction-code office administers the state classification, and the high share of two- and three-family and commercial buildings in Irvington puts much of its stock on the permit-required path.',
     },
     {
-      question: 'How long does a modified bitumen roof last in Irvington?',
-      answer: 'A properly installed two-ply SBS-modified bitumen system on a sound substrate performs for 18 to 22 years in Irvington\'s climate. Reflective coating application can extend this by 5 to 7 years. The key to achieving full life expectancy is proper substrate preparation and full tear-off of existing materials -- installing over accumulated layers shortens life and voids most manufacturer warranties.',
+      question: 'Does a modified bitumen roof on an Irvington building need historic-district approval?',
+      answer:
+        'No. Irvington has no local historic-preservation ordinance and no locally designated historic districts or landmarks, so a roof project faces no Certificate of Appropriateness step. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private owner, per the National Park Service. A modified bitumen job in Irvington proceeds without a COA gate.',
+    },
+    {
+      question: 'Can modified bitumen be installed over an existing flat roof in Irvington?',
+      answer:
+        'A modified bitumen membrane recovers over a sound existing roof without full tear-off, the work the NJ Rehabilitation Subcode permits only when the existing covering is sound and carries fewer than 2 applications. N.J.A.C. 5:23-6.4 requires complete removal when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per the NJ Rehabilitation Subcode, the condition common on Irvington\'s repeatedly re-coated older commercial roofs.',
     },
     {
       question: 'How much does modified bitumen roofing cost in Irvington, NJ?',
-      answer: 'Most modified bitumen roofing projects in Irvington range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'NJ low-slope membrane installs $7–$12 per square foot for comparable EPDM and TPO systems, with flat-roof membrane repair at $2.50–$10.00 per square foot, per Josten Roofing NJ pricing and HomeGuide cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, ply count, application method, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Modified bitumen roofing in Irvington NJ for Springfield Ave commercial and Route 78 industrial buildings. Multi-layer waterproofing with torch-fused seams.',
+  metaDescription:
+    'Modified bitumen roofing in Irvington NJ — Springfield Ave and Chancellor Ave flat roofs, Route 78 industrial, 2-3-family low-slope. NJ-registered roofer.',
   pricing: {
-    range: '$6–$10/sq ft',
-    note: 'modified bitumen membrane system',
+    range: '$7–$12/sq ft',
+    note: 'Typical NJ low-slope membrane install range per Josten Roofing NJ pricing; final cost depends on roof size, ply count, application method, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Torch, self-adhered, and cold-adhesive application, selecting flame-free methods on occupied buildings and where NJ fire code restricts hot work.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free modified bitumen roofing estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for modified bitumen roofing in Irvington.',
+    urgencyNote: 'Addressing a failing low-slope membrane early limits interior and structural water damage.',
   },
 };

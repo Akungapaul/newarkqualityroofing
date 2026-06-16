@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor replacing commercial roofs across Irvington, New Jersey, and Essex County, stripping the low-slope membrane to the deck and installing a new insulation-and-membrane system on Springfield Avenue storefronts and Route 78 light-industrial buildings** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [
-    'Newark Quality Roofing delivers expert commercial roof replacement in Irvington — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Irvington has entered a critical period as the wave of membrane systems installed in the 1990s and early 2000s reaches end-of-life across Springfield Avenue and the Route 78 industrial corridor simultaneously. Our [commercial roof replacement](/commercial-roof-replacement) projects deliver modern, code-compliant roofing systems that address the energy efficiency, wind uplift, and drainage deficiencies that current standards require but that the original installations never provided.',
-    'The replacement cycle on Irvington\'s commercial buildings creates an opportunity to correct decades of accumulated roofing problems in a single project. Buildings that have been patched, coated, and re-layered over 30 years carry substrate damage, inadequate insulation, and drainage deficiencies that individual repairs never addressed comprehensively. Full replacement strips everything back to the structural deck, allows complete substrate repair, and installs a modern system designed to current performance standards. The result is a roof that will perform better in year one than the original installation performed on its best day.',
-    'Springfield Avenue\'s mixed-use commercial buildings and Irvington\'s religious institutions represent the largest segment of our commercial replacement work. These buildings serve essential community functions -- retail, medical, worship, education -- and their roofing systems must be replaced with minimal disruption to the operations beneath. Our phased replacement protocol keeps buildings operational throughout the project by completing tear-off and re-roofing in sections sized to maintain weather protection on unfinished areas. Commercial building owners in [Bloomfield](/commercial-roof-replacement-bloomfield-nj) also face aging commercial roof replacement cycles, though Irvington\'s Route 78 industrial zone adds larger-footprint projects that commercial Bloomfield\'s retail-dominated stock does not typically present.',
+    '**Newark Quality Roofing replaces commercial low-slope roofs across Irvington in EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal** on Springfield Avenue and Chancellor Avenue storefronts and Route 78 light-industrial buildings. Commercial roof replacement strips the existing covering to the deck, repairs the deck, and installs a new insulation-and-membrane system.',
+    '**Springfield Avenue and Chancellor Avenue** carry the township\'s flat-roof commercial stock, the Urban Enterprise Zone storefronts and mixed-use buildings that reach replacement through membrane age and storm loss rather than new construction, the pattern behind replacement accounting for 79.2% of US roofing installations in 2025, per Mordor Intelligence. A Newark Quality Roofing replacement matches the new membrane to the building, the drainage, and the Essex County climate before tear-off.',
+    '**Route 78 light-industrial buildings** along Irvington\'s southeastern edge carry larger membrane roofs where seam fatigue and ponding age the assembly, and each membrane class reaches a defined service life: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years per the InterNACHI life-expectancy chart, and PVC 20 to 30 years per the Single Ply Roofing Industry. A Newark Quality Roofing replacement scopes the deck and drainage before quoting.',
+    '**Two-/three-family and investor-owned buildings** make up much of Irvington\'s dense, majority-renter stock, where a failing flat-roof section over occupied units puts a replacement on a landlord\'s schedule. A Newark Quality Roofing replacement re-roofs the low-slope section to manufacturer specification and documents the work for the owner, the property record, and any insurer.',
   ],
   challenges: [
-    'Structural discoveries during tear-off on Irvington\'s aging commercial buildings frequently expand the project scope beyond the original replacement estimate. Corroded steel decking, deteriorated concrete planks, and rotted wood nailers concealed beneath multiple roofing layers are common findings that add time and cost to the project. Our pricing structure includes contingency provisions for substrate repair, and we provide per-unit costs for deck repair before tear-off begins so building owners can authorize additional work as it is discovered without renegotiating the entire contract.',
-    'Maintaining building operations during replacement on occupied Irvington commercial properties requires disciplined project management. Noise from tear-off equipment, dust and debris control around occupied spaces, and temporary loss of rooftop HVAC function during equipment disconnection all affect tenants. We provide building owners with a day-by-day project plan that identifies which building areas will be affected each day, allowing tenants to plan around temporary disruptions.',
-    'Current energy code requirements for commercial roof insulation R-values significantly exceed the insulation levels found in most existing Irvington commercial buildings. Upgrading insulation to code adds thickness that changes the roof elevation relative to existing parapet walls, door thresholds, and equipment curbs. These transitions require architectural detailing to maintain proper drainage, flashing heights, and code-compliant clearances -- coordination that must be engineered before tear-off begins.',
+    '**Tear-off conditions** drive cost uncertainty on Irvington commercial replacements, because saturated insulation, deteriorated decking, and aging plank decking on the township\'s older stock stay hidden under an intact membrane until removal. A Newark Quality Roofing proposal scopes the assembly with an ASTM C1153 infrared moisture survey, which locates wet insulation as a warm anomaly after sunset and verifies each reading with a core cut, per ASTM and the NRCA.',
+    '**Tenant-occupied access** complicates replacements across Irvington\'s heavy rental and investor-owned stock, because work over occupied units coordinates around the building\'s residents under New Jersey landlord-tenant entry notice. A Newark Quality Roofing crew sequences the work, maintains weather protection over occupied sections, and documents conditions for the owner and any insurer.',
+    '**Dense, built-out lots** limit staging room on Irvington\'s small parcels, because a closely settled township leaves little setback for material drop, debris containment, and equipment on a tight commercial site. A Newark Quality Roofing crew stages the tear-off in managed sections to keep weather protection on unfinished areas and clear access for the building\'s operations.',
+    '**Ponding water** ages the membrane on Springfield Avenue and Chancellor Avenue flat roofs, because a low-slope roof needs at least ¼ inch per foot of slope to drain and ponding remaining more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing replacement builds tapered insulation to positive drainage so the new roof sheds water within the 48-hour threshold.',
   ],
   process: [
-    'Commercial roof replacement in Irvington begins with pre-construction planning that addresses scope, schedule, budget, and building operations coordination. We develop a detailed specification based on building assessment findings, submit permit applications to the Irvington building department, and hold a pre-construction meeting with the building owner and tenant contacts to review the project timeline, daily work hours, and communication protocols for the project duration.',
-    'Tear-off and replacement proceeds in planned phases that maintain weather protection on unfinished sections. Each phase includes removal of existing materials to the structural deck, inspection and repair of the exposed substrate, installation of new insulation with tapered sections establishing proper drainage slope, and application of the specified membrane system. Phased work is sequenced to minimize disruption to the most sensitive building areas, with the noisiest work scheduled during business hours when most commercial tenants are operational and residential tenants are typically away.',
-    'After membrane completion, all rooftop equipment is reconnected, new equipment curbs and penetration flashings are verified for weathertightness, and the complete system receives a final inspection documenting membrane seam integrity, flashing details, and drainage performance. The manufacturer warranty inspection is coordinated before project closeout when the warranty program requires it. We provide the building owner with a complete project file including as-built drawings, material certifications, warranty documentation, and photographic records of all concealed conditions and repairs.',
+    '**Newark Quality Roofing assesses the deck, the insulation, the drainage, and the NJ code triggers before quoting an Irvington commercial replacement.** An ASTM C1153 infrared moisture survey maps the wet insulation under an intact membrane, verified by a core cut, per ASTM and the NRCA. On a commercial, multi-family, or attached building, a roof replacement requires a construction permit because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per N.J.A.C. 5:23-2.7, filed with the Township of Irvington\'s construction-code office.',
+    '**Newark Quality Roofing matches the new commercial system to the building, the drainage, and the Essex County climate** from 6 membrane classes — EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal. Material lifespan differs sharply: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years per the InterNACHI life-expectancy chart, and PVC 20 to 30 years per the Single Ply Roofing Industry, and white PVC and TPO carry high solar reflectance, the cool-roof property that lowers rooftop heat gain on a dense, built-out township with limited tree canopy.',
+    '**Newark Quality Roofing strips the existing covering to the deck, repairs the deck, builds tapered insulation to positive drainage, and installs the new membrane to manufacturer specification.** The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4, and tapered insulation builds at least ¼ inch per foot of slope to clear the ponding water the NRCA and ARMA count as a defect after 48 hours. Installing to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How much does commercial roof replacement cost in Irvington?',
-      answer: 'Installed cost for commercial roof replacement on Irvington buildings ranges from $8 to $14 per square foot depending on system type, insulation requirements, and substrate condition. A typical 5,000 square foot Springfield Avenue commercial building runs $40,000 to $70,000 for complete replacement. Route 78 industrial buildings with larger footprints and simpler geometries fall toward the lower end of the per-square-foot range.',
+      question: 'Do you need a permit for a commercial roof replacement in Irvington, NJ?',
+      answer:
+        'A commercial, multi-family, or attached roof replacement in Irvington requires a construction permit, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period on those buildings, per N.J.A.C. 5:23-2.7. The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering, a wood shake, slate, clay, cement, or asbestos-cement tile roof, or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4. Permits are filed with the Township of Irvington\'s construction-code office.',
     },
     {
-      question: 'Can my Irvington commercial building stay open during roof replacement?',
-      answer: 'Yes. Our phased replacement protocol maintains building operations throughout the project. We complete work in sections that allow weather protection on unfinished areas, schedule the most disruptive activities during hours that minimize tenant impact, and maintain clean access paths for business operations. Most Irvington commercial tenants report minimal disruption during our replacement projects.',
+      question: 'Does a commercial roof replacement in Irvington need historic-district approval?',
+      answer:
+        'Irvington has no local historic-district ordinance and no locally designated districts or landmarks, so a commercial roof replacement faces no Certificate-of-Appropriateness step. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private property owner, per the National Park Service. A replacement on an Irvington building follows the construction-permit path without a separate historic-approval gate.',
     },
     {
-      question: 'How long does commercial roof replacement take in Irvington?',
-      answer: 'Springfield Avenue commercial buildings typically require 2 to 3 weeks. Route 78 industrial buildings with larger footprints require 4 to 8 weeks. Timeline depends on substrate condition, weather delays, and the phasing required to maintain building operations. We provide a detailed project schedule with the contract so building owners can plan accordingly.',
+      question: 'What is the best replacement membrane for an Irvington commercial building?',
+      answer:
+        'The membrane depends on the building, the drainage, and the budget. EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years per the InterNACHI life-expectancy chart, and PVC 20 to 30 years per the Single Ply Roofing Industry. White PVC and TPO carry high solar reflectance for rooftop heat gain, while EPDM and built-up roofing suit the Springfield Avenue storefronts and Route 78 buildings that prioritize service life. A Newark Quality Roofing replacement matches the membrane to the building before tear-off.',
     },
     {
-      question: 'What happens if you find structural damage during tear-off on my Irvington building?',
-      answer: 'Substrate repair is addressed as it is discovered using pre-agreed unit pricing. We photograph the damage, calculate the repair scope, and obtain owner authorization before proceeding. Our contracts include contingency provisions for substrate repair so building owners have budgeted for this possibility. Common discoveries include corroded steel decking, deteriorated wood nailers, and saturated insulation.',
+      question: 'Can my Irvington commercial building stay in use during the roof replacement?',
+      answer:
+        'A Newark Quality Roofing replacement sequences the tear-off in managed sections that keep weather protection on unfinished areas and clear access for the building\'s operations. On Irvington\'s heavy two-/three-family rental and investor-owned stock, the crew coordinates work over occupied units under New Jersey landlord-tenant entry notice and documents conditions for the owner and any insurer. Dense, built-out lots limit staging room, so the crew stages material and debris to maintain access on a tight site.',
+    },
+    {
+      question: 'How does an infrared moisture survey scope an Irvington roof replacement?',
+      answer:
+        'An ASTM C1153 infrared moisture survey locates wet insulation under an intact membrane, because wet insulation retains heat longer than dry insulation and reads as a warm anomaly after sunset, per ASTM and the NRCA. ASTM C1153 requires a core cut to verify each anomaly, because the survey locates wet insulation rather than the leak entry point. On Irvington\'s older commercial stock, the survey scopes the saturated insulation and aging plank decking before tear-off begins.',
     },
     {
       question: 'How much does commercial roof replacement cost in Irvington, NJ?',
-      answer: 'Most commercial roof replacement projects in Irvington range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Single-ply membrane replacement in New Jersey runs $7.00 to $12.00 per square foot installed, with EPDM at $7.00 to $10.00 and TPO at $8.00 to $12.00 per square foot, per Josten Roofing NJ pricing and commercial cost guides. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, membrane type, tear-off layers, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Commercial roof replacement in Irvington NJ for aging Springfield Ave buildings and Route 78 industrial facilities. Phased installation, minimal disruption.',
+  metaDescription:
+    'Commercial roof replacement in Irvington NJ — Springfield Ave storefronts, Route 78 industrial roofs, membrane selection, ASTM C1153 survey. Free estimate.',
   pricing: {
-    range: '$8–$16/sq ft',
-    note: 'full tear-off and replacement',
+    range: '$7.00–$12.00/sq ft installed',
+    note: 'Single-ply membrane replacement range in NJ per Josten Roofing and commercial cost guides; final cost depends on roof size, membrane type, tear-off layers, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s Springfield Avenue and Chancellor Avenue commercial, Route 78 light-industrial, and two-/three-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free commercial roof replacement estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for commercial roof replacement in Irvington.',
+    urgencyNote: 'Addressing a failing commercial membrane early limits interior and structural water damage.',
   },
 };

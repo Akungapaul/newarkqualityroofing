@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing storm damage roof replacement across Irvington, New Jersey, and Essex County, documenting wind and hail damage on two- and three-family rentals and Springfield Avenue commercial roofs, then installing a new roof** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Storm damage roof replacement** removes and rebuilds a roof structurally compromised by wind, hail, or a severe storm, restoring the full weatherproof system. It follows documentation of the storm damage pattern across the covering, flashing, and deck.',
   overview: [
-    'Newark Quality Roofing delivers expert storm damage roof replacement in Irvington — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Irvington addresses the catastrophic roof failures that severe weather inflicts on the township\'s aging housing stock -- failures that go beyond repair into full replacement territory. Our [storm damage replacement](/storm-damage-roof-replacement) services manage the complete process from emergency stabilization through insurance claim coordination to final replacement, providing Irvington homeowners with a single point of accountability during what is often the most stressful home improvement experience they face.',
-    'Irvington\'s aging roofs are disproportionately vulnerable to storm damage compared to newer construction. Shingles that have lost their adhesive bond, nails holding in softened decking, and deteriorated underlayment create conditions where moderate storm events produce severe damage. A nor\'easter that might lift a few shingles on a 10-year-old roof can strip entire sections from Irvington\'s 25 to 30-year-old surfaces, exposing the building to water damage that makes repair impractical and replacement necessary.',
-    'Multi-family storm damage replacement on Irvington investment properties adds complexity around tenant displacement, insurance coordination for both building and contents coverage, and accelerated scheduling to restore habitability. Our storm response protocol for Irvington multi-family buildings prioritizes structural stabilization, tenant-impact documentation, and expedited replacement scheduling that minimizes the period of disrupted occupancy. Storm damage replacement on properties in [Bloomfield](/storm-damage-roof-replacement-bloomfield-nj) follows similar insurance coordination, though Irvington\'s higher proportion of multi-family investment properties adds the tenant-management dimension.',
+    '**Newark Quality Roofing replaces storm-damaged roofs across Irvington after wind, hail, and nor\'easter losses** on the township\'s dense two- and three-family rentals, older detached early-20th-century homes, and Springfield Avenue and Chancellor Avenue commercial buildings. Storm damage roof replacement strips the failed roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system.',
+    '**Wind and hail** rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023), and replacement accounts for 79.2% of US roofing installations in 2025, per Mordor Intelligence. A Newark Quality Roofing storm replacement documents the damage with timestamped photographs for the adjuster before tear-off.',
+    '**Two- and three-family rentals** dominate Irvington\'s majority-renter housing stock, so a storm replacement on an investor-owned building coordinates tenant-occupied access under New Jersey landlord-tenant notice and documents the work for the owner, lender, and insurer. A Newark Quality Roofing crew sets a staging and access plan on these dense small lots before tear-off.',
+    '**Older detached early-20th-century homes** carry aging plank decking that surfaces at tear-off, where a Newark Quality Roofing crew replaces deteriorated sheathing before installing the new system. The NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.',
   ],
   challenges: [
-    'Determining whether storm damage warrants replacement versus repair on Irvington roofs requires honest assessment that balances the immediate damage against the pre-existing condition. When a storm strips shingles from a roof that was already at end-of-life, the storm created the acute failure but the underlying deterioration made full replacement the practical outcome regardless of the storm. Communicating this reality to homeowners -- and documenting it appropriately for insurance purposes -- requires careful distinction between storm-caused and pre-existing conditions.',
-    'Post-storm demand surges in Irvington and surrounding communities can strain contractor capacity and material availability simultaneously. When a major storm damages hundreds of roofs across Essex County, every affected homeowner needs emergency tarping immediately and replacement scheduling within weeks. Our pre-positioned emergency materials and crew capacity allow us to respond to Irvington storm events faster than contractors mobilizing from outside the area.',
-    'Insurance timeline pressure on storm damage replacement can conflict with quality installation requirements. Homeowners eager to complete repairs and recover depreciation holdback push for immediate installation, while weather conditions, material availability, and crew scheduling may require patience. We set realistic timeline expectations with Irvington homeowners at the start of the process, ensuring quality installation rather than rushed work that creates future problems.',
+    '**Tenant-occupied access and post-storm documentation** define a storm replacement on Irvington\'s two- and three-family rentals, because the township runs majority-renter with many investor-owned buildings, so the work coordinates entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing crew records the storm damage with timestamped photographs for the owner and the adjuster.',
+    '**Wind and hail damage** strips shingles on Irvington\'s pitched residential roofs and tears membrane seams on Springfield Avenue and Chancellor Avenue flat roofs. Wind and hail drive 40.7% of homeowners claims, the most common peril, per the Insurance Information Institute (Triple-I), and a Newark Quality Roofing replacement documents the damage pattern across the covering, flashing, and deck.',
+    '**Aging plank decking** surfaces at tear-off on Irvington\'s older detached and 2-3-family stock, where rotted sheathing exceeds the initial estimate and supports a supplement. An insurer\'s initial scope can miss a line item, per Insurance Information Institute claims-process guidance, so a Newark Quality Roofing crew replaces the deteriorated deck before the new cover goes down.',
+    '**Limited staging room** on Irvington\'s dense, built-out small lots constrains a storm replacement, because the township is one of New Jersey\'s most heavily settled municipalities with tight setbacks and narrow side yards. A Newark Quality Roofing crew plans material drop, debris containment, and a magnet sweep for nails to keep an occupied building and a shared lot line clear.',
   ],
   process: [
-    'Storm damage response begins with emergency stabilization -- tarping exposed sections, boarding broken skylights, and containing active water intrusion. Once the building is protected, we perform a comprehensive damage assessment documenting all storm-caused damage with photographs, measurements, and written descriptions formatted for insurance claim submission. The assessment distinguishes storm damage from pre-existing conditions, providing the honest documentation that supports a successful claim.',
-    'Insurance coordination includes preparing Xactimate-format estimates, scheduling and attending the adjuster inspection, and submitting supplemental documentation when the initial claim scope is insufficient. We advocate for the full scope of work needed to properly replace the damaged roof, including deck repair, flashing replacement, and code-required upgrades that the storm event triggers under local building code provisions.',
-    'Replacement execution follows our standard full tear-off protocol with any additional scope identified during the insurance process. The completed project documentation -- photos, material certifications, and paid invoices -- is submitted to the insurer for depreciation recovery. The homeowner receives a new roof with full manufacturer warranty, complete project documentation, and insurance reimbursement for the covered work.',
+    '**Newark Quality Roofing inspects the storm-damaged roof, documents the wind and hail damage with timestamped photographs, and writes a detailed scope and estimate matching the insurer\'s line items.** Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, not a licensed public adjuster, so the crew documents the damage, writes the scope, and meets the assigned adjuster on site, while the homeowner or a licensed public adjuster files and negotiates the claim, per the NJ Public Adjusters\' Licensing Act administered by NJ DOBI.',
+    '**Newark Quality Roofing meets the assigned insurance adjuster on site to walk the storm damage and provide technical input on the damage extent and the repair methods.** Under a replacement-cost policy the insurer commonly pays first on an actual-cash-value basis, replacement cost minus depreciation and the deductible, and releases the held recoverable depreciation as a second payment after the roof is completed and invoiced, per the National Association of Insurance Commissioners and the Insurance Information Institute; the deductible is the homeowner\'s responsibility under the policy.',
+    '**Newark Quality Roofing strips the roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs the cover to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** A complete tear-off exposes the deck for inspection and repair, and the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. A FORTIFIED roof built to the IBHS standard is more than 70% less likely to file a claim, with damage 22% less severe, per the IBHS.',
   ],
   faqs: [
     {
-      question: 'How do I know if my Irvington roof needs replacement after a storm?',
-      answer: 'Indicators of replacement-level damage include large areas of missing shingles exposing bare decking, visible structural damage to rafters or trusses, widespread water intrusion affecting multiple rooms, and decking that has delaminated or broken from impact. We provide free storm damage assessments that determine whether repair or replacement is the appropriate response.',
+      question: 'Do I need a permit for a storm damage roof replacement in Irvington?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Irvington counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area in a 12-month period requires a permit filed with the Township of Irvington\'s construction-code office, and a structural change to rafters or trusses always triggers one.',
     },
     {
-      question: 'How long does storm damage replacement take in Irvington?',
-      answer: 'From storm event to completed replacement, the typical timeline is 4 to 8 weeks. This includes emergency stabilization (day 1-2), damage assessment and claim filing (week 1), adjuster inspection (week 2-3), claim approval and material ordering (week 3-5), and installation (week 5-8). We expedite scheduling for occupied buildings with active water intrusion.',
+      question: 'Does homeowners insurance cover storm damage roof replacement in Irvington?',
+      answer:
+        'Homeowners insurance covers roof replacement when a covered peril causes the damage — wind, hail, or a falling tree — and excludes replacement for normal wear, age, or deferred maintenance. Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). Newark Quality Roofing documents the damage with timestamped photographs for the adjuster; coverage and approval are the insurer\'s decision.',
     },
     {
-      question: 'Will my insurance cover full roof replacement after storm damage in Irvington?',
-      answer: 'If the storm damage is sufficient to require replacement rather than repair, most homeowner policies cover the full replacement cost less your deductible and any applicable depreciation holdback. Depreciation is recoverable after replacement is completed. Policies with actual cash value provisions on older roofs may limit the total payout.',
+      question: 'Do you handle the insurance claim and negotiate with the adjuster?',
+      answer:
+        'Newark Quality Roofing inspects the roof, photographs the damage, writes a detailed scope and estimate, and meets the assigned adjuster on site, because in New Jersey a licensed public adjuster or attorney negotiates or settles the claim. The homeowner or a licensed public adjuster files and negotiates the claim, per the NJ Public Adjusters\' Licensing Act administered by NJ DOBI, and Newark Quality Roofing performs the approved work to the agreed scope and to code.',
     },
     {
-      question: 'Can you start repairs before my Irvington insurance claim is approved?',
-      answer: 'We perform emergency stabilization immediately to prevent additional damage -- this is covered under most policies as loss mitigation. Full replacement work begins after claim approval to ensure the scope and materials are aligned with the approved coverage. Starting replacement before approval risks performing work that the insurer will not cover.',
+      question: 'How do you handle a storm replacement on a tenant-occupied two- or three-family in Irvington?',
+      answer:
+        'A Newark Quality Roofing storm replacement coordinates entry around occupants under New Jersey landlord-tenant notice, sets a staging and access plan before tear-off, and documents the completed work with timestamped photographs for the owner. Irvington runs majority-renter with many investor-owned two- and three-family buildings on dense small lots, so the documentation package supports a property manager, lender, or insurer record.',
+    },
+    {
+      question: 'Does a storm replacement on an Irvington historic home need extra approval?',
+      answer:
+        'Irvington has no local historic-district ordinance, so a storm roof replacement faces no Certificate of Appropriateness step, unlike Newark or Orange. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private property owner, per the National Park Service. A Newark Quality Roofing replacement proceeds without a historic-approval gate.',
     },
     {
       question: 'How much does storm damage roof replacement cost in Irvington, NJ?',
-      answer: 'Most storm damage roof replacement projects in Irvington range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000–$11,000 per industry replacement benchmarks. A homeowners-insurance claim offsets the cost for a covered wind, hail, or tree-impact loss. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate; the deductible remains the homeowner\'s responsibility under the policy.',
     },
   ],
-  metaDescription: 'Storm damage roof replacement in Irvington NJ with emergency tarping and insurance claim coordination. Full replacement for aging roofs after severe weather.',
+  metaDescription:
+    'Storm damage roof replacement in Irvington NJ — two-/three-family rentals, Springfield Avenue flat roofs, insurance docs. NJ-registered, free estimate.',
   pricing: {
-    range: '$9,000–$28,000',
-    note: 'often insurance-covered',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; a covered wind, hail, or tree-impact claim offsets the cost, and the deductible is the homeowner\'s responsibility under the policy. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Storm damage documented with timestamped photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free storm damage roof replacement estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for storm damage roof replacement in Irvington.',
+    urgencyNote: 'Addressing storm damage early limits interior and structural water damage.',
   },
 };

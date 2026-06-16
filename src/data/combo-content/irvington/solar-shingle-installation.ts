@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing solar shingle installation across Irvington, New Jersey, and Essex County, replacing the roof covering with building-integrated photovoltaic shingles during a reroof on Irvington homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.',
   overview: [
-    'Newark Quality Roofing delivers expert solar shingle installation in Irvington — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle technology offers Irvington homeowners an integrated roofing-and-energy solution that eliminates the rack-mounted panel aesthetic some neighborhoods find objectionable. Our [solar shingle installation](/solar-shingle-installation) projects in Irvington deploy building-integrated photovoltaic shingles that generate electricity while functioning as the primary roof surface -- a dual-purpose approach that makes sense on homes where the roof needs replacement anyway and the homeowner wants clean energy without visible hardware on the roofline.',
-    'The value proposition of solar shingles in Irvington\'s cost-conscious market hinges on the combined cost comparison: when a homeowner needs both a new roof and wants solar capability, the incremental cost of solar shingles over conventional shingles plus separate panels can be competitive. On Irvington homes where the full roof surface is south-facing and unshaded, solar shingles cover the entire production zone without the rack-mounted equipment that conventional panels require, delivering a cleaner appearance while generating comparable electricity.',
-    'Irvington\'s housing renovation market creates a natural entry point for solar shingles. Investment property buyers rehabilitating two-family and three-family homes already plan for full re-roofing as part of their renovation scope. Adding solar shingle technology to the new roof generates rental premium and utility cost reduction that improves the property\'s investment return. Homeowners in neighboring [Maplewood](/solar-shingle-installation-maplewood-nj) also specify solar shingles for aesthetic integration, though Irvington\'s investment property applications add a financial return dimension beyond the homeowner market.',
+    '**Newark Quality Roofing installs building-integrated solar shingles** across Irvington\'s dense early-20th-century detached and two-/three-family stock during a full reroof, because a solar shingle is the roof covering itself rather than hardware added on top. The integrated appearance suits Irvington\'s tightly spaced streetscape.',
+    '**Building-integrated solar shingles** replace the roof covering rather than mount on a finished roof, so a solar-shingle project pairs with a new roof or a full reroof, and CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed and the DOE Office of Energy Efficiency and Renewable Energy. On Irvington\'s aging stock, that pairing fits a covering already at reroof age.',
+    '**The integrated appearance** carries a higher per-watt cost and lower per-square-foot output than rack-mounted panels, so a solar shingle is an integration and appearance choice rather than an efficiency choice, per SolarReviews, EnergySage, and NREL. On Irvington\'s small lots and dense rooflines, the uniform surface appeals to owners who prefer no visible rack-mounted hardware.',
+    '**The named solar-shingle systems** include GAF Energy Timberline Solar at 57 watts per energy shingle, Tesla Solar Roof at 72 watts per active tile, and CertainTeed Solstice at 70 watts per shingle, each rated to a minimum 2:12 pitch, per each manufacturer. Newark Quality Roofing matches the system to the Irvington home\'s pitch and unshaded south-facing area.',
   ],
   challenges: [
-    'Solar shingle system costs remain 20 to 40 percent higher than conventional shingle roof plus separate panel installations of equivalent capacity. For Irvington\'s budget-conscious homeowners, this premium creates resistance unless the aesthetic benefit is specifically valued or the roof geometry uniquely favors shingles over panels. We present both options with transparent cost and production comparisons so Irvington homeowners can make informed decisions based on their priorities.',
-    'Production efficiency of current solar shingles runs approximately 15 to 20 percent lower per square foot than premium panel installations, meaning more roof area must be covered with solar shingles to match the output of a smaller conventional panel array. On Irvington homes with limited south-facing roof area or significant tree shading, this efficiency gap may make solar shingles unable to produce sufficient electricity to justify the investment.',
-    'Repair and replacement of individual solar shingles within an installed system requires manufacturer-trained technicians with proprietary equipment. Unlike conventional panels that can be swapped by any qualified installer, solar shingle systems use integrated wiring and interlocking connections that demand system-specific expertise. Irvington homeowners considering solar shingles should factor in long-term serviceability and verify that qualified service providers will be accessible throughout the system\'s 25-year life.',
+    '**Reroof pairing** is the defining condition for a solar shingle in Irvington, because a solar shingle replaces the roof covering and pairs with a new roof or full reroof rather than mounting on a finished roof. On Irvington\'s aging early-20th-century stock, a covering already at reroof age fits this pairing, per the DOE Office of Energy Efficiency and Renewable Energy.',
+    '**Roof area** drives the decision on Irvington\'s small, densely built lots, because a 6-kilowatt solar-shingle system needs about 360 square feet of shingles against about 250 square feet of panels, roughly 44% more roof area, per SolarReviews from the GAF Energy datasheet. A home with limited unshaded south-facing exposure suits panels rather than shingles.',
+    '**Tenant-occupied access** shapes the work on Irvington\'s two-/three-family rental and investor-owned stock, because a reroof on an occupied building coordinates entry around tenants under New Jersey landlord-tenant notice. A Newark Quality Roofing job sets a staging and access plan and documents the install for the owner and the insurer.',
+    '**Aging plank decking** surfaces at tear-off on Irvington\'s early-20th-century homes, because a solar shingle strips the roof to the deck and a deteriorated board is replaced before the building-integrated shingle goes on. Limited staging room on small Irvington lots is planned before the tear-off begins.',
   ],
   process: [
-    'Solar shingle installation begins with full tear-off of the existing roof and deck evaluation identical to our conventional re-roofing process. Deteriorated decking is replaced, ice-and-water shield is installed at eaves and valleys, and synthetic underlayment covers the full deck surface. The electrical rough-in -- conduit runs from the roof to the inverter location and main electrical panel -- is completed before shingle installation begins.',
-    'Solar shingles are installed starting at the eave edge and working up toward the ridge, with each course electrically connected to the adjacent course through integrated wiring connectors. Non-solar shingles that visually match the solar units are used on roof planes that do not receive solar treatment -- north-facing slopes, shaded areas, and architectural features where solar production would be minimal. The integrated installation produces a uniform roof appearance without the visual distinction between solar and non-solar surfaces.',
-    'After physical installation, the electrical system is connected to the inverter and metering equipment, tested for proper string voltages and production output, and submitted for utility interconnection. We handle all Irvington building permits, PSE&G interconnection applications, and NJ incentive program enrollments. The system is commissioned with a full production test demonstrating actual output versus projected capacity, providing the homeowner with verified performance data from day one.',
+    '**Newark Quality Roofing assesses the roof pitch, the roof area, and the reroof scope, then presents the per-watt cost and efficiency honestly against rack-mounted panels.** A crew confirms a minimum 2:12 pitch for the named solar-shingle products and sizes the array against the roughly 44% larger area a solar shingle needs versus panels, per GAF Energy and SolarReviews, before any tear-off on an Irvington home.',
+    '**Newark Quality Roofing strips the existing roof to the deck and replaces deteriorated plank sheathing exposed at tear-off, because a solar shingle replaces the roof covering rather than mounting on a finished roof.** On Irvington\'s aging stock the crew prepares the underlayment and the deck before installing the building-integrated shingle, per the DOE Office of Energy Efficiency and Renewable Energy.',
+    '**Newark Quality Roofing installs the building-integrated solar shingle to manufacturer specification and coordinates the wiring to code.** GAF Energy Timberline Solar nails into the field with the same crew and tools as Timberline asphalt shingles, keeping the manufacturer system warranty intact, and the array meets NEC 690.12 rapid shutdown, which drops conductors to 30 volts or less outside and 80 volts or less inside the array boundary within 30 seconds, per GAF Energy and the NEC.',
   ],
   faqs: [
     {
-      question: 'Are solar shingles worth the extra cost for Irvington homes?',
-      answer: 'Solar shingles make the most financial sense when the roof needs replacement anyway and the homeowner values the integrated aesthetic. The incremental cost over conventional shingles plus panels is offset by the combined installation efficiency and the elimination of rack-mounted hardware. For homeowners who simply want maximum solar production at minimum cost, conventional panels remain the better value.',
+      question: 'What is a solar shingle and how does it differ from solar panels?',
+      answer:
+        'A solar shingle is building-integrated photovoltaics where the photovoltaic material is the roof covering itself, while solar panels are rack-mounted hardware added on top of an existing roof. A solar shingle replaces the roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS, which makes it a reroof project on Irvington\'s aging stock.',
     },
     {
-      question: 'How long do solar shingles last on Irvington homes?',
-      answer: 'Current solar shingle systems carry 25-year power production warranties and 30-year weatherproofing warranties, matching or exceeding the lifespan of premium architectural shingles. The dual-function design means the roof surface and energy system age together, avoiding the mismatched lifecycle problem where panels outlast the roof beneath them.',
+      question: 'Are solar shingles worth the extra cost on an Irvington home?',
+      answer:
+        'A solar shingle costs more per watt and produces less per square foot than rack-mounted panels, so it is an integration and appearance choice rather than an efficiency choice, per SolarReviews, EnergySage, and NREL. On Irvington\'s dense rooflines the uniform surface suits owners who prefer no visible rack-mounted hardware; owners prioritizing lowest per-watt cost choose panels.',
     },
     {
-      question: 'Can solar shingles be installed on any Irvington roof?',
-      answer: 'Solar shingles require specific roof pitch ranges -- typically 3:12 to 12:12 slope -- and sufficient unshaded south-facing exposure to generate meaningful electricity. Most Irvington colonials and Cape Cods meet these requirements on at least one roof plane. Flat-roofed properties and heavily shaded homes are not good candidates for solar shingles.',
+      question: 'Do you need a permit for a solar shingle installation in Irvington?',
+      answer:
+        'A reroof of the roof covering on a detached one- or two-family Irvington home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit. The photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, per the NJ Uniform Construction Code and the NEC. The Township of Irvington\'s construction-code office administers the state classification.',
     },
     {
-      question: 'Do solar shingles qualify for NJ solar incentives in Irvington?',
-      answer: 'Yes. Solar shingles qualify for the same incentive programs as conventional panels: the federal 30 percent Investment Tax Credit, New Jersey SREC-II credits, and net metering through PSE&G. We handle all incentive enrollment as part of our installation service.',
+      question: 'Does a solar shingle installation on an Irvington historic home need extra approval?',
+      answer:
+        'Irvington has no local historic-district ordinance, so a homeowner reroof or solar-shingle installation faces no Certificate of Appropriateness step. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private owner, per the National Park Service. The work follows the standard NJ Uniform Construction Code path.',
     },
     {
-      question: 'How much does solar shingle installation cost in Irvington, NJ?',
-      answer: 'Most solar shingle installation projects in Irvington range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What incentives apply to a solar shingle installation in Irvington, NJ?',
+      answer:
+        'New Jersey applies the Successor Solar Incentive program paying a fixed per-megawatt-hour SREC-II incentive over a 15-year term, plus net metering, a sales-tax exemption through Form ST-4, and a property-tax exemption through Form CRES. The Successor Solar Incentive program is administered by the NJ Board of Public Utilities, and the federal residential solar credit was 30 percent for systems completed through 2025 and is repealed for systems completed after December 31, 2025, per the IRS, so Newark Quality Roofing refers an Irvington owner to a tax professional.',
+    },
+    {
+      question: 'How much does a solar shingle installation cost in Irvington, NJ?',
+      answer:
+        'Solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for rack-mounted panels, roughly 1.5 to 2 times the per-watt cost, per EnergySage, SolarReviews, and WattBuild. Roof size, pitch, product, and reroof scope set the total. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Solar shingle installation in Irvington NJ combining roof replacement with integrated solar. Clean energy without visible panels on your roofline.',
+  metaDescription:
+    'Solar shingle installation in Irvington NJ — building-integrated photovoltaic shingles paired with a reroof, no visible panels. NJ-registered, free estimate.',
   pricing: {
-    range: '$25,000–$50,000',
-    note: 'integrated solar shingle system',
+    range: '$3.50–$8.00 per watt installed',
+    note: 'Solar shingles run about $3.50–$8.00 per watt installed vs about $2.50–$4.00 per watt for rack-mounted panels per EnergySage, SolarReviews, and WattBuild; roof size, pitch, product, and reroof scope set the total. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Honest comparison of solar-shingle per-watt cost and efficiency against rack-mounted panels before any tear-off.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free solar shingle installation estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for solar shingle installation in Irvington.',
+    urgencyNote: 'Pairing a solar shingle with a reroof at end of roof life avoids removing and reinstalling hardware later.',
   },
 };

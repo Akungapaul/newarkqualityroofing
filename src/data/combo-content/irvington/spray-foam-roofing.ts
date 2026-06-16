@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing spray foam roofing across Irvington, New Jersey, and Essex County, spraying seamless polyurethane foam and a protective coating over Springfield Avenue and Chancellor Avenue commercial roofs and Route 78 light-industrial buildings** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Spray foam roofing** sprays liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating. The coating shields the UV-sensitive foam from degradation.',
   overview: [
-    'Newark Quality Roofing delivers expert spray foam roofing in Irvington — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing occupies a unique position in Irvington\'s commercial roofing market as the only system that simultaneously waterproofs, insulates, and corrects drainage in a single application. For Springfield Avenue commercial buildings struggling with chronic ponding, deteriorated insulation, and escalating heating costs, SPF offers a solution pathway that conventional membrane systems cannot replicate. Our [spray foam roofing](/spray-foam-roofing) installations across Irvington transform failing flat roofs into seamless, fully-insulated surfaces with built-in drainage slope -- addressing three problems with one system.',
-    'The Route 78 industrial corridor presents SPF\'s strongest value proposition in Irvington: large-footprint buildings with minimal rooftop penetrations and high energy costs. Warehouses and distribution facilities with under-insulated steel-deck roofs lose enormous thermal energy through their roof surface -- a surface that SPF can upgrade from R-5 to R-30 or higher without interior disruption. The foam\'s ability to be sprayed directly over existing metal decking, concrete, or membrane surfaces in many cases eliminates the cost of tear-off and disposal that conventional re-roofing requires.',
-    'Irvington property owners managing aging commercial buildings with complex drainage problems find SPF particularly appealing because the foam is self-contouring -- it fills low spots and builds up at drain locations to create positive drainage slope that the original building may never have achieved. Properties in neighboring [Newark](/spray-foam-roofing-newark-nj) use SPF for similar drainage correction on aging commercial buildings, though Irvington\'s concentrated commercial corridors along Springfield Avenue present many candidates with the accumulated ponding problems that make SPF\'s drainage correction capability most valuable.',
+    '**Newark Quality Roofing applies seamless spray polyurethane foam and a protective coating** to Irvington\'s low-slope commercial roofs along Springfield Avenue and Chancellor Avenue, the Route 78 light-industrial buildings, and flat sections on the township\'s two- and three-family stock.',
+    '**Seamless spray polyurethane foam** sprays as a liquid that expands into a closed-cell layer, bonds to the substrate, and cures into a monolithic insulation-and-waterproofing surface, eliminating the welded-seam failure that ranks as the most common TPO failure mode and the seam separation that ranks as the dominant EPDM failure mode, per NRCA technical guidance. The foam sprays continuous around every curb, drain, and rooftop penetration on Irvington\'s parapeted Springfield Avenue and Irvington Center storefronts.',
+    '**The protective coating** shields the UV-sensitive foam, because exposed polyurethane degrades, and an elastomeric recoat every 10 to 20 years restores the surface, an acrylic coating at 10 to 15 years and a silicone coating at 15 to 20 years, per the SPFA and SPF manufacturers. A white reflective coating adds a cool-roof surface, the reflective property the CRRC rates, on the built-out, limited-canopy Irvington blocks where, per the U.S. EPA, the heat-island effect makes daytime air temperatures in U.S. urban areas about 1 to 7 degrees Fahrenheit higher than outlying areas.',
+    '**A foam recover** adds an aged R-value of R-6.0 to R-6.5 per inch over a sound existing roof, the insulation figure attributed to ICC-ES reports and ASTM C1289 LTTR testing and the SPFA, on the under-insulated Route 78 light-industrial and Springfield Avenue commercial buildings that lose heat through the roof. The coated foam layer lasts 30 or more years when the coating is maintained, per the SPFA and SPF manufacturers.',
   ],
   challenges: [
-    'SPF application requires precise environmental conditions that narrow the available installation window in Irvington\'s climate. Ambient temperature must be above 50 degrees Fahrenheit, wind speed below 15 mph, and no rain in the forecast for the application period plus curing time. These requirements restrict primary installation to April through October, with the most reliable conditions in May through September. Rush applications outside this window risk incomplete foam rise, adhesion failure, and surface defects that compromise waterproofing performance.',
-    'The specialized equipment and material expertise required for quality SPF installation limits the contractor field in the Irvington market. Spray foam equipment costs $150,000 or more, proportioning equipment must be calibrated daily, and applicators need manufacturer certification in chemical handling and application technique. Building owners who solicit multiple bids may encounter price variation of 40 to 60 percent between qualified SPF contractors and operators with inadequate equipment or training. Our Irvington SPF installations use plural-component proportioning equipment calibrated to manufacturer specifications with certified applicators on every project.',
-    'Long-term maintenance of SPF roofing requires periodic protective coating renewal that building owners must budget for over the system\'s life. The foam substrate beneath the coating is vulnerable to UV degradation and physical damage if the protective surface is neglected. Silicone or acrylic elastomeric coating must be reapplied every 10 to 15 years to maintain the system\'s waterproofing integrity. SPF building owners who fail to maintain the coating schedule risk foam erosion that compromises the entire system -- a maintenance commitment that must be understood before selecting SPF over conventional membrane alternatives.',
+    '**Substrate moisture and trapped layers** govern spray foam on Irvington\'s aging commercial and Route 78 light-industrial roofs, because foam bonds directly to the substrate and trapped moisture causes the blistering and adhesion loss the SPFA names as failure modes. A core sample and moisture scan confirm a dry, contaminant-free surface before any foam sprays.',
+    '**Existing covering layers** limit a recover on Irvington\'s built-out, decades-old roof stock, because the NJ Rehabilitation Subcode requires full removal once an existing roof is water-soaked or already carries two or more covering layers, per N.J.A.C. 5:23-6.4. A foam recover applies only over a structurally sound roof carrying fewer than two layers, and a tear-off on the older buildings can expose deteriorated plank decking that the crew replaces before foam application.',
+    '**Tenant-occupied and tight-lot access** shapes spray foam scheduling on Irvington\'s rental- and multi-family-heavy stock, because many buildings are investor- and landlord-owned with occupants below, so the work coordinates entry under New Jersey landlord-tenant notice. The dense, built-out lots leave limited staging room for spray equipment and hoses, and the crew documents the completed system with photographs for the owner and any insurer.',
+    '**Ponding water** signals a slope correction on Irvington\'s originally flat or settled commercial roofs, because the NRCA requires positive drainage and ponding held more than 48 hours counts as a defect on a roof that needs at least one-quarter inch per foot of slope, per the NRCA and ARMA. Varying the foam thickness builds corrective drainage slope into the surface without structural modification.',
   ],
   process: [
-    'SPF installation on Irvington commercial buildings begins with surface preparation of the existing roof. On clean, dry substrates in good condition, SPF can be applied directly over existing membrane, metal, or concrete surfaces after cleaning and priming -- eliminating tear-off. Substrates with trapped moisture, deteriorated insulation, or structural damage require selective removal and repair before foam application. We moisture-scan every Irvington roof surface before SPF application to identify and address wet areas that would prevent proper foam adhesion.',
-    'The spray application builds closed-cell polyurethane foam in lifts of approximately 1 inch per pass, with each pass chemically bonding to the previous layer. Total foam thickness varies across the roof surface to simultaneously achieve the specified R-value and establish positive drainage slope toward designated drain locations. Low spots receive additional foam to eliminate ponding areas, while perimeter and penetration details receive hand-sprayed foam applications with supplemental reinforcement. The completed foam surface is monolithic -- no seams, no joints, no mechanical fasteners -- creating a waterproofing envelope with zero conventional leak points.',
-    'Protective coating is applied over the cured foam surface within 72 hours of foam application to prevent UV exposure damage. We apply silicone elastomeric coating in two passes at manufacturer-specified thickness, creating a reflective, UV-stable surface that protects the foam substrate and provides the energy-saving reflective properties that Irvington commercial building owners value. The completed system receives a detailed inspection documenting foam thickness, coating coverage, and drainage performance. We provide a maintenance schedule outlining the coating renewal timeline that ensures the SPF system achieves its full 25 to 30-year service life.',
+    '**Newark Quality Roofing inspects the roof, core-samples an existing assembly, and tests substrate moisture before any foam sprays, because foam bonds directly to the substrate and trapped moisture causes blistering and adhesion loss.** A dry, contaminant-free surface prevents disbonding, and a foam recover applies only over a roof carrying fewer than two covering layers, because the NJ Rehabilitation Subcode requires full removal once the existing roof is water-soaked or already carries two or more layers, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing sprays the closed-cell foam in controlled passes, builds positive drainage into the foam thickness, and finishes with a protective elastomeric coating to manufacturer specification.** The foam cures into a seamless layer carrying an aged R-value of R-6.0 to R-6.5 per inch, the insulation figure attributed to ICC-ES reports and ASTM C1289 LTTR testing and the SPFA, and varying the foam thickness builds the positive drainage the NRCA requires on a roof that needs at least one-quarter inch per foot of slope, per the NRCA and ARMA. The crew applies foam within the manufacturer-specified temperature and humidity window on Irvington\'s commercial corridors.',
+    '**Newark Quality Roofing recoats the foam on a maintenance cycle that extends service life past 30 years, because the protective coating shields the UV-sensitive foam from degradation.** The foam layer lasts 30 or more years when the coating is maintained, per the SPFA and SPF manufacturers, and a recoat every 10 to 20 years restores the surface, an acrylic coating at 10 to 15 years and a silicone coating at 15 to 20 years. A written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'Can spray foam be applied over my existing Irvington commercial roof?',
-      answer: 'In many cases, yes. SPF can be applied directly over existing membrane, metal, or concrete surfaces that are structurally sound and dry. This eliminates tear-off costs and disposal fees that conventional re-roofing requires. However, substrates with trapped moisture or structural deterioration must be repaired before foam application. We moisture-scan every surface to verify suitability before committing to the overlay approach.',
+      question: 'Can spray foam roofing be applied over my existing Irvington commercial roof?',
+      answer:
+        'Spray foam roofing applies over a structurally sound, dry existing EPDM, TPO, modified-bitumen, or BUR roof that carries fewer than two covering layers, after core sampling and moisture testing confirm the substrate. The NJ Rehabilitation Subcode requires full removal once a roof is water-soaked or already carries two or more layers, per N.J.A.C. 5:23-6.4. A recover over a sound roof avoids tear-off and disposal cost on Irvington\'s Springfield Avenue and Route 78 commercial buildings.',
     },
     {
-      question: 'How much insulation does spray foam roofing provide in Irvington?',
-      answer: 'Closed-cell SPF provides approximately R-6.5 per inch of thickness. A typical 3-inch application delivers R-19.5, while 4 inches achieves R-26. For Route 78 industrial buildings with minimal existing insulation, SPF can upgrade the roof thermal performance from near-zero to code-compliant R-values in a single application -- dramatically reducing heating and cooling costs from the first winter after installation.',
+      question: 'How much insulation does spray foam roofing add on a Route 78 Irvington building?',
+      answer:
+        'Spray polyurethane foam carries an aged R-value of R-6.0 to R-6.5 per inch, the insulation figure attributed to ICC-ES reports and ASTM C1289 LTTR testing and the SPFA, and the closed-cell foam adds thermal resistance no single-ply membrane provides. A thicker foam layer raises the total R-value across the under-insulated steel-deck roofs common on Irvington\'s Route 78 light-industrial buildings.',
     },
     {
-      question: 'What maintenance does a spray foam roof need in Irvington?',
-      answer: 'SPF roofing requires semi-annual visual inspection to identify any coating damage from foot traffic, hail, or debris. Damaged areas are repaired with matching coating material. The full protective coating must be renewed every 10 to 15 years at a cost of approximately $2 to $3 per square foot -- significantly less than full re-roofing. This coating renewal extends the foam\'s service life indefinitely if performed on schedule.',
+      question: 'Why does a spray foam roof need a protective coating?',
+      answer:
+        'A spray foam roof needs a protective coating because the polyurethane foam is UV-sensitive and degrades when exposed, while the coating shields the foam and carries the surface against weather and foot traffic. Coating erosion under ponding and adhesion loss rank as SPF failure modes the maintained coating prevents, per the SPFA and NRCA, and an acrylic coating recoats at 10 to 15 years and a silicone coating at 15 to 20 years.',
     },
     {
-      question: 'How does spray foam fix drainage problems on Irvington flat roofs?',
-      answer: 'SPF is applied in variable thickness across the roof surface, building up thicker at low spots and tapering toward drain locations. This creates positive drainage slope on roofs that were originally built flat or have settled over decades. The foam conforms to the existing surface geometry and builds corrective slope without the structural modifications that tapered insulation systems require -- a unique capability that no other roofing system offers.',
+      question: 'How does spray foam fix ponding on an Irvington flat roof?',
+      answer:
+        'Spray foam corrects ponding by building variable thickness across the roof, thicker at low spots and tapering toward drains, to create the positive drainage slope a flat roof lacks. The NRCA requires positive drainage, and ponding held more than 48 hours counts as a defect on a roof that needs at least one-quarter inch per foot of slope, per the NRCA and ARMA. The foam builds corrective slope on Irvington\'s originally flat or settled commercial roofs without structural modification.',
+    },
+    {
+      question: 'Does a commercial spray foam roof require a permit in Irvington, NJ?',
+      answer:
+        'A commercial spray foam roof requires a permit when the work recovers or replaces more than 25% of the total roof area in a 12-month period, the threshold the ordinary-maintenance exemption covers under N.J.A.C. 5:23-2.7, filed with the Township of Irvington\'s construction-code office. The NJ Rehabilitation Subcode requires full removal of an existing roof that carries two or more layers, per N.J.A.C. 5:23-6.4. Irvington has no local historic-district ordinance, so no Certificate of Appropriateness applies.',
     },
     {
       question: 'How much does spray foam roofing cost in Irvington, NJ?',
-      answer: 'Most spray foam roofing projects in Irvington range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Spray foam roofing costs $4–$8 per square foot installed, per commercial roofing cost guides, and a foam recover over a sound existing roof avoids tear-off cost. NJ ranges sit roughly 10–40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, foam thickness, coating, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Spray foam roofing in Irvington NJ for commercial and industrial buildings. Seamless SPF with built-in insulation and drainage correction.',
+  metaDescription:
+    'Spray foam roofing in Irvington NJ — seamless SPF and coating on Springfield Avenue commercial and Route 78 industrial roofs. NJ-registered. Free estimate.',
   pricing: {
-    range: '$4–$8/sq ft',
-    note: 'spray polyurethane foam application',
+    range: '$4–$8/sq ft installed',
+    note: 'Spray polyurethane foam costs $4–$8 per square foot installed per commercial roofing cost guides; a recover over a sound roof avoids tear-off cost. Final cost depends on foam thickness, coating, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s Springfield Avenue and Chancellor Avenue commercial corridors, Route 78 light-industrial buildings, and dense two-/three-family stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free spray foam roofing estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for spray foam roofing in Irvington.',
+    urgencyNote: 'Maintaining the protective coating on schedule prevents foam erosion and extends the roof past 30 years.',
   },
 };

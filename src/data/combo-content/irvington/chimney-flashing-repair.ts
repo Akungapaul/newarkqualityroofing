@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing chimney flashing repair across Irvington, New Jersey, and Essex County, rebuilding the two-part base-and-counter flashing system on masonry chimneys on dense two- and three-family rentals, older detached homes, and mixed-use buildings** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
-    'Newark Quality Roofing delivers expert chimney flashing repair in Irvington — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing failures are among the most frequent leak sources on Irvington\'s pre-war housing stock, where 80 to 90-year-old masonry chimneys paired with deteriorated flashings create persistent water entry points that previous repair attempts have typically failed to resolve permanently. Our [chimney flashing repair](/chimney-flashing-repair) approach for Irvington homes addresses both the metal flashing components and the masonry substrate they attach to -- because one cannot function without the other on these aging structures.',
-    'Olympic Park colonials and the Tudor-style homes scattered throughout Irvington\'s residential neighborhoods feature prominent chimneys that penetrate the roof at locations where two or more roof planes converge. These complex intersections create cricket details, saddle flashings, and multi-plane step flashing runs that demand precise metalwork fitted to each chimney\'s unique geometry. The hand-fitted nature of chimney flashing work means that prefabricated flashing kits -- the type sold at home centers and used by handyman services -- rarely produce watertight results on Irvington\'s irregularly shaped older chimneys.',
-    'Landlords managing multi-family properties throughout Irvington encounter chimney flashing problems amplified by deferred maintenance. Two-family and three-family homes on Chancellor Avenue and Stuyvesant Avenue often have chimneys that serve multiple flues -- furnace, water heater, and sometimes a fireplace -- creating wide chimney profiles with extensive flashing perimeters. When these flashings fail, water enters between units and creates tenant habitability issues that trigger [Irvington](/roofing-in-irvington-nj) housing code enforcement. Our chimney flashing repairs on investment properties prioritize permanent resolution over temporary patching.',
+    '**Newark Quality Roofing rebuilds chimney flashing** across Irvington\'s dense two- and three-family rentals, older detached early-20th-century homes, and the mixed-use buildings along the Springfield Avenue and Chancellor Avenue corridors. Chimney flashing repair restores the metal that seals the chimney, the roof\'s largest penetration, where the apron, sidewall step, and upslope transitions each shed water.',
+    '**Chimney flashing repair** starts at the transition metal, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. The NRCA specifies a two-part chimney flashing system: base and step flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint, so a Newark Quality Roofing repair restores both layers rather than smearing sealant over the symptom.',
+    '**Older detached early-20th-century homes** and the two- and three-family rentals that fill Irvington\'s dense, built-out lots carry masonry chimneys whose mortar joints have weathered decades of freeze-thaw, so counter flashing pulls loose where surface caulk once masked the gap. A Newark Quality Roofing repair cuts a clean reglet into the mortar and locks the cap into the masonry, the mechanical seal the NRCA two-part standard specifies over adhesive.',
+    '**Springfield Avenue and Chancellor Avenue mixed-use buildings** carry chimney and chase transitions where the flashing admits water into shared walls, so a Newark Quality Roofing repair documents the failed transition with photographs for the owner and reseals the apron, sidewall step, and upslope head where the chimney admits water into the chase.',
   ],
   challenges: [
-    'The masonry condition on Irvington\'s aging chimneys frequently prevents standard flashing installation. Counterflashing is designed to embed into mortar joints -- a technique that requires sound, intact mortar to hold the metal securely. On chimneys built in the 1920s and 1930s, decades of freeze-thaw cycling have deteriorated the mortar to the point where it crumbles when a sawcut is attempted. Effective chimney flashing repair on these structures requires repointing the relevant masonry courses before flashing installation, adding time and cost that surprises homeowners expecting a straightforward metal replacement.',
-    'Previous repair attempts on Irvington chimney flashings often leave behind layers of sealant, roofing cement, and mismatched metal that must be completely removed before proper flashings can be installed. Roof cement troweled over failing flashings masks the underlying condition and creates an adhesion barrier that prevents new materials from bonding properly. Cleaning these chimney bases back to bare masonry and sound substrate is a labor-intensive prerequisite for lasting repair.',
-    'Cricket and saddle details behind wide chimneys on Irvington homes are frequently the actual leak source when homeowners report chimney leaks. The cricket -- a peaked diverter behind the upslope side of the chimney -- sheds water around the chimney rather than allowing it to pool. Many Irvington homes were built without crickets or had them removed during previous re-roofing, and water pooling behind the chimney eventually penetrates through aging shingles and deteriorated underlayment. Proper chimney flashing repair on these homes includes cricket installation or restoration.',
+    '**Weathered mortar joints** on Irvington\'s older masonry chimneys break the counter-flashing seal, because the cap relies on a clean reglet cut into sound mortar, and decades of freeze-thaw crumble aging joints. A Newark Quality Roofing repair cuts a fresh reglet and locks the cap into the masonry rather than relying on surface caulk.',
+    '**Surface caulk and roofing cement** smeared over a failed chimney flashing mask the underlying condition and crack within a few years from masonry-versus-roof differential movement and freeze-thaw, per IIBEC. A Newark Quality Roofing repair strips the failed sealant and the old metal back to a clean substrate before rebuilding the two-part system.',
+    '**A missing cricket** behind a wide chimney dams water, ice, and snow against the upslope masonry on Irvington\'s aging detached and two- and three-family roofs. A cricket is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20, so a Newark Quality Roofing repair builds the saddle where the chimney exceeds that width.',
+    '**Tenant-occupied access** shapes chimney flashing repair on Irvington\'s rental- and multi-family-heavy stock, because the township runs majority-renter with many investor- and landlord-owned two- and three-family buildings, so a repair coordinates entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing job sets a staging and access plan and documents the work for the owner.',
   ],
   process: [
-    'Chimney flashing repair in Irvington starts with removal of all existing flashings, sealant, and roofing cement from the chimney base and adjacent roof surface. We expose the full chimney-to-roof intersection to evaluate both the masonry condition and the roof deck condition in the immediate area. Deteriorated mortar joints are repointed with Type S mortar to provide sound substrate for counterflashing embedding. Soft or rotted roof decking adjacent to the chimney is replaced with new plywood before any flashings are installed.',
-    'New step flashings are fabricated from 24-gauge galvanized steel or aluminum, sized to match the specific shingle exposure on the roof. Each step flashing piece interlocks with the shingle course above it, creating a cascading waterproofing system that channels water down and away from the chimney. Counterflashings are cut into freshly repointed mortar joints at a minimum depth of 1.5 inches and sealed with high-temperature polyurethane sealant rated for masonry adhesion. On the upslope side, a sheet-metal cricket directs water around the chimney rather than allowing pooling against the masonry.',
-    'After installation, we apply controlled water testing at every flashing detail -- running a hose at each chimney face for 15 minutes while monitoring the interior for any moisture penetration. This immediate verification catches any installation defects before the crew leaves the site. We photograph the completed flashing installation from all four chimney faces and provide the homeowner with documentation showing the work performed, materials used, and test results -- records that support insurance claims and property sale disclosures.',
+    '**Newark Quality Roofing diagnoses the chimney flashing at all four transitions — the downslope apron, the two sidewall step runs, and the upslope head or cricket — and traces the entry point before resealing.** A diagnosis starts at the chimney because the chimney is the roof\'s largest penetration, and a continuous one-piece strip at the sidewall flags a defective original installation, per InterNACHI and shingle-manufacturer guidance.',
+    '**Newark Quality Roofing rebuilds the NRCA two-part flashing system: step and base flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint.** The counter flashing locks into the masonry mechanically rather than relying on adhesive that masonry-versus-roof differential movement and freeze-thaw crack within a few years, per IIBEC, and a crew applies a self-adhering ice-and-water membrane at the chimney base that self-seals around fasteners, per ASTM D1970. Where a chimney measures wider than 30 inches parallel to the ridge, a crew builds a cricket to divert water and snow, per IRC Section R1003.20.',
+    '**Newark Quality Roofing documents the completed flashing with photographs at every chimney transition and issues a written workmanship warranty on the labor.** The documentation supports a homeowner insurance claim and satisfies a landlord, property manager, or insurer record on Irvington\'s investor-owned two- and three-family buildings, separate from the manufacturer material warranty that covers factory defects.',
   ],
   faqs: [
     {
-      question: 'Why does my Irvington chimney keep leaking after multiple repairs?',
-      answer: 'Recurring chimney leaks typically result from repairs that addressed symptoms rather than root causes. Applying sealant over deteriorated flashings, caulking cracked mortar joints without repointing, or installing new step flashing into eroded mortar all produce temporary fixes that fail within 2 to 4 years. Permanent repair requires addressing both the metal flashing components and the masonry substrate condition simultaneously.',
+      question: 'Do I need a permit from Irvington for a chimney flashing repair?',
+      answer:
+        'A repair of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Irvington\'s construction-code office, and the high share of two- and three-family buildings in Irvington puts much of its stock on the permit-required path.',
     },
     {
-      question: 'How much does chimney flashing repair cost in Irvington?',
-      answer: 'Complete chimney reflashing on Irvington homes typically costs $800 to $2,000 depending on chimney size, masonry condition, and cricket requirements. Simple single-face step flashing repair starts around $400. Chimneys requiring masonry repointing before flashing installation add $300 to $800 for the masonry work. We provide itemized estimates so homeowners understand exactly what each component of the repair involves.',
+      question: 'Why does chimney flashing leak more than the rest of the roof?',
+      answer:
+        'The chimney is the roof\'s largest penetration, and the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA. A chimney needs the apron, sidewall step, and upslope transitions all sealed, so a single failed counter flashing or cracked caulk joint admits water into the chase on Irvington\'s aging masonry chimneys.',
+    },
+    {
+      question: 'Is caulk a permanent fix for chimney flashing?',
+      answer:
+        'Caulk or roofing cement alone over no underlying metal is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A permanent repair rebuilds the NRCA two-part system: step flashing woven per course plus counter flashing set into a reglet cut in the mortar joint.',
     },
     {
       question: 'Does my Irvington chimney need a cricket?',
-      answer: 'Building code requires a cricket behind any chimney wider than 30 inches measured perpendicular to the roof slope. Many Irvington homes built before this requirement have wide chimneys without crickets, allowing water to pool behind the masonry and penetrate through aging shingles. If your chimney is wider than 30 inches and lacks a cricket, adding one during flashing repair significantly reduces future leak risk.',
+      answer:
+        'A cricket, or saddle, is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20. The cricket diverts water, ice, and snow around the chimney instead of letting the upslope face dam debris and meltwater against the masonry on Irvington\'s older detached and two- and three-family roofs.',
     },
     {
-      question: 'Should I repair the chimney flashing or wait until I re-roof my Irvington home?',
-      answer: 'If the chimney is actively leaking, repair now rather than waiting. Water damage to interior finishes, attic framing, and insulation accelerates rapidly once a leak path is established. When you eventually re-roof, the chimney flashings will be replaced again as part of the full project -- but allowing ongoing water damage while waiting for re-roofing is far more expensive than a standalone flashing repair now.',
+      question: 'Does chimney flashing repair on an Irvington home need historic-district approval?',
+      answer:
+        'Irvington has no local historic-district ordinance, so a chimney flashing repair faces no Certificate of Appropriateness step. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private property owner, per the National Park Service, so the work proceeds without a historic-review gate.',
     },
     {
       question: 'How much does chimney flashing repair cost in Irvington, NJ?',
-      answer: 'Most chimney flashing repair projects in Irvington range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Chimney flashing repair costs $300–$1,800, with most repairs $400–$1,600 and a spot reseal $150–$300, per HomeGuide and Angi cost data. The two-part rebuild, the chimney width, whether a cricket is required, and access set the cost. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Chimney flashing repair in Irvington NJ for aging colonials and multi-family homes. Permanent fixes with masonry repointing and cricket installation.',
+  metaDescription:
+    'Chimney flashing repair in Irvington NJ — two-part NRCA base-and-counter rebuilds, cricket installation on two- and three-family and older homes. Free estimate.',
   pricing: {
-    range: '$400–$1,500',
-    note: 'chimney flashing and counter-flashing',
+    range: '$300–$1,800',
+    note: 'Chimney flashing repair costs $300–$1,800, most $400–$1,600, per HomeGuide and Angi; final cost depends on chimney size, masonry condition, cricket requirements, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free chimney flashing repair estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for chimney flashing repair in Irvington.',
+    urgencyNote: 'Addressing chimney flashing leaks early limits interior and structural water damage.',
   },
 };

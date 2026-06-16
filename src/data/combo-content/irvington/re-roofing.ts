@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const irvingtonReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing re roofing across Irvington, New Jersey, and Essex County, replacing worn coverings on dense two- and three-family rentals, older detached homes, and Springfield Avenue and Chancellor Avenue commercial roofs** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in Irvington — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing is the most common major home improvement project in Irvington, where thousands of homes built between the 1920s and 1940s are cycling through their second or third roofing system and the materials installed in the 1990s have reached end-of-life. Our [re-roofing](/re-roofing) services deliver complete roof replacement with modern materials that upgrade Irvington homes from aging three-tab shingles to architectural shingle systems with enhanced wind resistance, improved aesthetics, and manufacturer-backed warranties that the current failing materials cannot provide.',
-    'The economics of re-roofing in Irvington favor proactive replacement over repeated repair. Homeowners spending $500 to $1,500 annually on patch repairs to a deteriorating roof cross the cost-effectiveness threshold within 3 to 5 years -- at which point the accumulated repair spending exceeds a significant portion of what a complete re-roof would have cost. Our re-roofing consultations include a repair-versus-replace cost analysis that shows Irvington homeowners when replacement becomes the financially rational choice.',
-    'Multi-family re-roofing is a significant segment of our Irvington work. Two-family and three-family homes throughout the township need re-roofing as a capital improvement that protects the structure, satisfies insurance requirements, and supports property value. Our landlord re-roofing program for [Irvington](/roofing-in-irvington-nj) investment properties includes competitive multi-property pricing, scheduling coordination with tenant occupancy, and documentation packages formatted for bank inspections and insurance files. Property investors managing portfolios in neighboring [Newark](/re-roofing-newark-nj) access similar multi-property pricing programs.',
+    '**Newark Quality Roofing re-roofs Irvington\'s dense two- and three-family rentals, older detached early-20th-century homes, and Springfield Avenue and Chancellor Avenue commercial buildings**, replacing a worn covering with a new underlayment-and-cover system once age or condition crosses the replacement threshold.',
+    '**Two- and three-family rentals** carry the heaviest re-roofing demand across Irvington, a majority-renter, rental- and multi-family-heavy township, where a re-roof is a capital improvement on investor- and landlord-owned stock that a Newark Quality Roofing crew documents with timestamped photographs for the owner, lender, and insurer.',
+    '**Older detached early-20th-century homes** reach the re-roofing decision through age and condition, because 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and a recover hides deck rot a tear-off catches, per ARMA.',
+    '**Springfield Avenue and Chancellor Avenue commercial buildings** and the Route 78 southeastern-edge light-industrial stock carry low-slope membranes that re-roof in EPDM, TPO, or modified bitumen, lasting 15 to 25, 7 to 20, and 20 years respectively, per the InterNACHI chart, where a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA.',
   ],
   challenges: [
-    'Scope discovery during tear-off remains the primary cost variable on Irvington re-roofing projects. The deck condition beneath 25 to 30-year-old shingles on an 80-year-old home is rarely as good as external appearances suggest. Budget-conscious Irvington homeowners need realistic expectations about potential additional costs for deck replacement, fascia repair, and chimney flashing that may be identified during tear-off. Our contracts include pre-agreed unit pricing for common discovery items so homeowners can authorize additional work without contract renegotiation.',
-    'Scheduling re-roofing on Irvington multi-family properties requires coordination with multiple tenant households. Noise during tear-off and installation affects tenants working from home, sleeping children during daytime hours, and pet owners whose animals are disturbed by rooftop activity. We provide advance notification to all tenants with a day-by-day schedule of work activities, and we coordinate with landlords to identify any tenant-specific scheduling concerns before the project begins.',
-    'Material availability for Irvington re-roofing projects can fluctuate with regional demand. When a significant storm event damages roofs across northern New Jersey, the resulting surge in re-roofing demand can deplete distributor inventory of popular shingle colors and styles. We maintain standing inventory agreements with multiple distributors to ensure material availability for scheduled Irvington projects regardless of regional demand fluctuations.',
+    '**Aging plank decking** surfaces at tear-off across Irvington\'s older detached and two- and three-family stock, where the sheathing beneath a 20-to-30-year-old covering rarely matches its outward condition. A Newark Quality Roofing crew replaces deteriorated plywood, OSB, or plank boards before the new system goes down.',
+    '**Tenant-occupied access** defines re-roofing on Irvington\'s heavy two- and three-family rental stock, because a re-roof coordinates entry and staging around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing job sets an access plan in advance and documents the completed work for the owner and any insurance file.',
+    '**Limited staging room** constrains re-roofing on Irvington\'s small, densely built lots, because a tear-off generates debris and material loads on a built-out parcel with little setback. A Newark Quality Roofing crew stages tear-off and disposal to the available footprint, contains debris with ground tarps, and runs a magnet sweep for nails before leaving.',
   ],
   process: [
-    'Re-roofing in Irvington follows our standard full tear-off protocol: complete removal of existing roofing materials, comprehensive deck inspection with repair of all deteriorated sections, installation of ice-and-water shield at eaves and valleys, synthetic underlayment across the full deck, and new drip edge at all roof edges. This preparation ensures the new roofing system is installed on a verified, solid substrate.',
-    'Shingle installation uses manufacturer-specified application methods for the selected product. Starter course shingles are installed at eaves and rakes. Field shingles are applied from eave to ridge with manufacturer-required fastener patterns and offset spacing. Hip and ridge cap shingles provide finished edges and ventilation at the ridge. All penetrations receive new pipe boots, and all flashings are replaced with new step, counterflashing, and valley metals.',
-    'Project completion includes a detailed walkthrough with the homeowner verifying shingle alignment, color consistency, flashing details, and gutter function. We remove all debris, sweep the property with magnetic nail sweepers, and restore any landscaping or property elements disturbed during the project. Warranty documentation is provided with manufacturer registration information, and the homeowner receives a project file with before-and-after photographs documenting the complete scope of work.',
+    '**Newark Quality Roofing confirms the re-roofing decision against the threshold rules, then strips the worn covering to the deck and repairs the sheathing exposed at tear-off.** A repair stays the more economical path only while a roof stays under 10 to 15 years old, and on the contractor-consensus thresholds damage across more than 25 to 30% of the area crosses the 25% rule per RapidRestore, while a repair near 50% of replacement cost crosses the 50% rule per WeatherShield and Home Depot cost data.',
+    '**Newark Quality Roofing favors a full tear-off where deck condition or code requires it**, because the NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound layer traps heat that industry estimates cut shingle service life by roughly 20 to 30%, per Angi.',
+    '**Newark Quality Roofing installs an ice barrier, synthetic underlayment, and the new cover to manufacturer specification, then verifies the install and documents it with photographs.** The crew sets the ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision, installs the cover to specification to keep the material warranty intact, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How much does re-roofing cost in Irvington?',
-      answer: 'Standard re-roofing on a typical Irvington colonial with full tear-off and architectural shingles costs $8,000 to $14,000 depending on roof area, deck condition, and material selection. Premium shingle products, extensive deck repair, or complex roof geometries push costs toward the higher end. We provide detailed written estimates before any work begins.',
+      question: 'Do you need a permit to re-roof a home in Irvington, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Irvington counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Irvington\'s construction-code office, and Irvington\'s rental- and multi-family-heavy stock puts much of it on the permit-required path.',
     },
     {
-      question: 'How long does re-roofing take on an Irvington home?',
-      answer: 'Most Irvington colonials and Cape Cods are completed in 2 to 3 days including tear-off, deck repair, and new shingle installation. Homes with extensive deck deterioration or complex roof configurations may require 3 to 4 days. We provide a timeline estimate with the project proposal.',
+      question: 'Does a historic-district approval apply to re-roofing in Irvington?',
+      answer:
+        'Irvington has no local historic-district ordinance and no locally designated districts or landmarks, so a homeowner re-roof faces no Certificate of Appropriateness step. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private property owner, per the National Park Service. A re-roof on an Irvington home proceeds without a historic-approval gate.',
     },
     {
-      question: 'What shingle brand do you recommend for Irvington homes?',
-      answer: 'We install GAF Timberline HDZ and CertainTeed Landmark as our primary architectural shingle products. Both carry 130 mph wind ratings, comprehensive manufacturer warranties, and color options that complement Irvington\'s housing styles. We also install Owens Corning Duration and premium designer shingles for homeowners seeking enhanced aesthetics.',
+      question: 'How do you handle a re-roof on a tenant-occupied two- or three-family in Irvington?',
+      answer:
+        'A Newark Quality Roofing re-roof coordinates entry and staging around occupants under New Jersey landlord-tenant notice, sets an access plan before any work begins, and documents the completed work with timestamped photographs for the owner. Irvington runs majority-renter with many investor- and landlord-owned two- and three-family buildings, so the documentation package supports a property manager, lender, or insurer record.',
     },
     {
-      question: 'Do you offer financing for re-roofing in Irvington?',
-      answer: 'Yes. We offer financing options through our lending partners with competitive rates and terms from 24 to 120 months. Many Irvington homeowners find that the monthly payment on a financed re-roof is comparable to what they were spending on annual repairs, making the investment accessible without a large upfront payment.',
+      question: 'Does re-roofing require a full tear-off in Irvington?',
+      answer:
+        'Re-roofing requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound asphalt layer hides deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20 to 30%, per ARMA and Angi. Older Irvington stock often reveals aging plank decking that a tear-off exposes for repair.',
     },
     {
-      question: 'How much does re roofing cost in Irvington, NJ?',
-      answer: 'Most re roofing projects in Irvington range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Which roofing material suits a re-roof on an Irvington home?',
+      answer:
+        'Re-roofing material matches the building and budget across five classes: 3-tab asphalt at 20 years, architectural asphalt at 30, metal at 40 to 80, slate at 60 to 150, and membrane at 7 to 25, per the InterNACHI chart. Asphalt shingles cover roughly 73% of U.S. residential roofs per 2024 roofing-market data, and value-priced asphalt fits Irvington\'s rental- and multi-family-heavy stock, while Springfield Avenue and Chancellor Avenue flat roofs re-roof in EPDM, TPO, or modified bitumen.',
+    },
+    {
+      question: 'How much does re-roofing cost in Irvington, NJ?',
+      answer:
+        'Re-roofing in New Jersey costs $10,000 to $25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000 to $11,000 per industry replacement benchmarks. NJ ranges sit 10 to 40% above national figures because labor accounts for roughly 60 to 70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Re-roofing in Irvington NJ for aging colonials and multi-family homes. Full tear-off, deck repair, and architectural shingles from your nearest roofer.',
+  metaDescription:
+    'Re-roofing in Irvington NJ — two- and three-family rentals, older homes, Springfield Ave flat roofs, full tear-off and deck repair. NJ-registered, free quote.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re-roofing in Irvington.',
+    urgencyNote: 'Addressing a worn roof early limits interior and structural water damage.',
   },
 };

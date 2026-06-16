@@ -3,55 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing tile roof installation repair across Irvington, New Jersey, and Essex County, replacing broken tiles, failed underlayment, and flashing details on the township\'s older 2-/3-family and detached homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof installation and repair** sets a clay or concrete tile covering over a waterproof underlayment, and restores an existing tile roof by replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.',
   overview: [
-    'Newark Quality Roofing delivers expert tile roof installation repair in Irvington — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Irvington is limited to a small number of Mediterranean-influenced and Spanish-style homes from the 1920s and 1930s that feature original or early-replacement clay tile roofs. These installations stand out in the township\'s predominantly shingle-roofed streetscape, giving their homes distinctive architectural character. When tile roofs on these Irvington properties need repair or restoration, the work requires specialized techniques that differ fundamentally from the asphalt shingle work that comprises most of our township projects. Our [tile roof installation and repair](/tile-roof-installation-repair) crews bring the expertise that these uncommon Irvington installations demand.',
-    'The economics of tile roof maintenance in Irvington favor repair and restoration over replacement whenever the tile material remains structurally sound. Clay tiles that have survived 90 years of New Jersey weather can serve for decades more -- the failures that generate repair calls are almost always in the underlayment, battens, flashings, and fasteners beneath the tiles rather than in the tiles themselves. Restoring these secondary components while preserving the original tiles is significantly more cost-effective than a full replacement with new tile or conversion to another material.',
-    'For [Irvington](/roofing-in-irvington-nj) homeowners considering conversion from tile to asphalt shingles for cost reasons, we provide honest guidance: conversion saves on the current project but eliminates a premium architectural feature that differentiates the home in a market where most properties look similar. Similar preservation-versus-conversion decisions arise for tile roof owners in [Montclair](/tile-roof-installation-repair-montclair-nj) and other Essex County communities with historic housing stock. In Irvington\'s market, where distinctive architectural details can influence sale prices, preserving an original tile roof often makes financial sense beyond the pure roofing calculation.',
+    '**Newark Quality Roofing installs and repairs clay and concrete tile roofs across Irvington\'s older detached and 2-/3-family stock**, replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.',
+    '**Clay and concrete tile** outlast most roof materials, because clay and concrete tile lasts 100 years or more, per the InterNACHI life-expectancy chart, while the Tile Roofing Industry Alliance rates concrete tile at a typical 40 to 75 years. A Newark Quality Roofing diagnosis separates the tile, the fastening, and the underlayment, the layer that fails first on Irvington\'s aging early-20th-century roofs.',
+    '**Broken tiles** trace mostly to foot traffic and impact rather than material failure, per the Tile Roofing Industry Alliance, because a tile roof carries no field redundancy once a tile cracks. A Newark Quality Roofing repair removes and matches individual displaced tiles to the existing profile and color across an Irvington roof.',
+    '**Failed underlayment**, not the tile, sets the real repair-versus-replace trigger, per the Tile Roofing Industry Alliance, so an interior stain beneath a 30-year-old Irvington tile roof points to the membrane beneath rather than the tile above. A Newark Quality Roofing underlayment replacement lifts the sound tiles, installs a new waterproof membrane, and resets the original tiles.',
   ],
   challenges: [
-    'Sourcing replacement tiles that match Irvington\'s original 1920s clay installations requires access to architectural salvage networks. The barrel and flat-profile clay tiles on Irvington homes were manufactured by regional companies that may no longer exist, and current production tiles differ in size, profile, and color from their century-old predecessors. We maintain relationships with salvage dealers throughout the Northeast who reclaim tiles from demolition projects, and we stockpile matching profiles when available for future Irvington repair needs.',
-    'Structural load is a persistent consideration for tile roof work in Irvington. Clay tiles weigh 900 to 1,200 pounds per roofing square -- three to five times the weight of asphalt shingles. The framing supporting a 90-year-old tile roof in Irvington has carried this weight for decades, and any weakening from moisture damage, insect activity, or age-related fatigue reduces the safety margin. We verify structural adequacy before committing to tile restoration, and recommend selective reinforcement where inspection reveals diminished load capacity in rafters or bearing connections.',
+    '**Structural load** governs tile roof work on Irvington\'s aging stock, because tile loads the framing well above an asphalt roof, so a Newark Quality Roofing assessment confirms the framing carries the tile before installation. A structural change to rafters, trusses, or ridge beams to carry the load triggers a permit under N.J.A.C. 5:23-2.7.',
+    '**Aging plank decking** surfaces at tear-off on Irvington\'s dense early-20th-century homes, where decades-old sheathing beneath the tile shows moisture decay once the tiles lift. A Newark Quality Roofing crew replaces the deteriorated decking before resetting the tiles, because the underlayment and tile bear on a sound deck.',
+    '**Tenant-occupied access** shapes tile work on Irvington\'s 2-/3-family and investor-owned buildings, because the township runs rental- and multi-family-heavy, so a repair coordinates entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing job sets a staging and access plan and documents the work for the owner.',
+    '**Tile matching** constrains repairs on Irvington\'s older clay installations, because tiles cannot be patched and require replacement with a matching profile, per the Tile Roofing Industry Alliance, and century-old profiles differ from current production. A Newark Quality Roofing repair sources replacement tile to hold the original appearance across the roof.',
   ],
   process: [
-    'Tile roof assessment in Irvington begins with careful non-destructive evaluation. We walk the roof on padded boards to distribute our weight without cracking tiles, checking each tile for fractures, displacement, and fastener integrity. Beneath the tile surface, we assess underlayment condition through selective tile removal at representative locations, checking for deteriorated felt paper, corroded battens, and moisture intrusion. The assessment determines whether selective repair, partial restoration of specific sections, or comprehensive re-underlayment of the entire roof is warranted.',
-    'Repair and restoration work proceeds by carefully removing tiles from the work area, storing them on padded racks to prevent breakage, addressing the underlayment and batten system beneath, and reinstalling the original tiles with new stainless steel fasteners. Where original tiles are broken beyond use, we install salvaged matching replacements or, when salvage is unavailable, custom-colored concrete tiles that approximate the original appearance. All flashings in the work area are replaced with copper or lead-coated copper for maximum longevity.',
-    'Reinstallation follows the original installation pattern -- tile overlap dimensions, head lap coverage, and hip and ridge detail configurations. Any deviations from the original pattern create water management issues because the tile profiles are designed to channel water in specific ways. Our tile crews understand these water management principles and restore each section to its original functional geometry while incorporating modern underlayment materials beneath the tile surface.',
+    '**Newark Quality Roofing confirms the framing carries the tile load and diagnoses the failed layer — tile, fastening, or underlayment — before quoting tile work on an Irvington roof.** A crew walks the roof to check each tile for fractures, displacement, and fastener integrity, then assesses the underlayment through selective tile removal, because the Tile Roofing Industry Alliance identifies the underlayment as the real lifespan limiter.',
+    '**Newark Quality Roofing sets clay or concrete tile over a self-adhering underlayment that carries the waterproofing, fastens each tile against wind uplift, and reseals the ridge, hip, and flashing details to manufacturer specification.** The underlayment holds the water layer, because tile profiles pass wind-driven rain between individual tiles, per Tile Roofing Industry Alliance guidance, so a Newark Quality Roofing install treats the membrane as the primary barrier.',
+    '**Newark Quality Roofing verifies tile alignment, fastener integrity, and watertight flashing, runs a magnet sweep for nails at cleanup, and documents the completed work with photographs.** Where original tiles break beyond use, a crew installs salvaged matching tiles or a matched profile, and the documentation supports an Irvington owner\'s record and any insurance claim.',
   ],
   faqs: [
     {
-      question: 'How much does tile roof repair cost in Irvington?',
-      answer: 'Selective tile roof repair with underlayment restoration and tile reinstallation runs $3,000 to $10,000 depending on the extent of work. Full roof re-underlayment with complete tile removal and reinstallation costs $15,000 to $30,000 depending on roof size. These costs reflect the specialized labor required but compare favorably to full tile replacement, which would run $30,000 to $50,000 or more with new clay tile.',
+      question: 'How long does a tile roof last in Irvington, NJ?',
+      answer:
+        'Clay tile lasts 100 years or more, per the InterNACHI life-expectancy chart, while the Tile Roofing Industry Alliance rates concrete tile at a typical 40 to 75 years and identifies the underlayment as the layer that fails first. A 30-to-50-year-old Irvington tile roof commonly needs underlayment replacement beneath tiles that remain sound, per the Tile Roofing Industry Alliance.',
     },
     {
-      question: 'Can cracked tiles on my Irvington roof be repaired or do they need replacement?',
-      answer: 'Tiles with clean cracks can sometimes be repaired in place with weather-resistant adhesive and sealant, though the repair is typically temporary. Tiles with missing pieces, severe fracturing, or complete breakage must be replaced. We source matching replacement tiles from architectural salvage dealers whenever possible to maintain visual consistency across your Irvington tile roof.',
+      question: 'Should I repair or replace my Irvington tile roof?',
+      answer:
+        'Repair a tile roof when the damage stays localized, and replace the cover when broken or displaced tiles cross roughly 20–25% for clay or 15–20% for concrete, or when the underlayment has failed, per the Tile Roofing Industry Alliance. An Irvington tile roof often needs only underlayment replacement beneath sound tiles, the path that preserves the original tile.',
     },
     {
-      question: 'Should I convert my Irvington tile roof to asphalt shingles?',
-      answer: 'We generally advise against conversion when the tile material is still sound. Your tile roof is a distinctive architectural feature that differentiates your Irvington home and can positively influence property value. The underlying issues causing problems -- deteriorated underlayment, corroded flashings, failed battens -- can be repaired while preserving the tiles. Conversion should only be considered when the tiles themselves have failed beyond repair.',
+      question: 'Do you need a permit for tile roof work in Irvington, NJ?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family Irvington home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area, or a structural change to carry the tile load, requires a permit filed with the Township of Irvington\'s construction-code office.',
     },
     {
-      question: 'How long do clay tile roofs last in Irvington?',
-      answer: 'Quality clay tiles last 75 to 100 years or more -- many of the tile roofs on Irvington homes installed in the 1920s are still structurally sound. The components beneath the tiles -- underlayment, battens, and flashings -- have shorter lifespans of 20 to 40 years and need periodic renewal. A well-maintained clay tile roof with periodic underlayment restoration can serve a home for well over a century.',
+      question: 'Does a tile roof in Irvington need historic-district approval?',
+      answer:
+        'Irvington has no local historic-district ordinance, so a tile roof repair faces no Certificate of Appropriateness step, unlike neighboring Newark and Orange. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private property owner, per the National Park Service.',
     },
     {
-      question: 'How much does tile roof installation repair cost in Irvington, NJ?',
-      answer: 'Most tile roof installation repair projects in Irvington range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Can my Irvington home support the weight of a tile roof?',
+      answer:
+        'A tile roof loads the framing well above an asphalt roof, so a structural assessment confirms the framing carries the tile before installation. A structural change to rafters, trusses, or ridge beams to carry the tile load triggers a permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance re-roof exemption, per the NJ Uniform Construction Code.',
+    },
+    {
+      question: 'How much does tile roof repair cost in Irvington, NJ?',
+      answer:
+        'Tile roof repair costs $500–$2,500, or $5–$25 per square foot, with individual tile replacement at $50–$300 per tile and flashing repair at $400–$3,000, per HomeGuide tile-repair cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Tile roof repair in Irvington NJ for 1920s clay tile installations. Salvage tile sourcing, underlayment restoration, and structural assessment.',
+  metaDescription:
+    'Tile roof repair in Irvington NJ — clay and concrete tile, broken-tile replacement, underlayment renewal, flashing reseal. NJ-registered, free written estimate.',
   pricing: {
-    range: '$18,000–$40,000',
-    note: 'clay or concrete tile systems',
+    range: '$500–$2,500',
+    note: 'Tile roof repair costs $500–$2,500, or $5–$25 per square foot, per HomeGuide tile-repair cost data; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free tile roof installation repair estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for tile roof installation repair in Irvington.',
+    urgencyNote: 'Addressing tile and underlayment damage early limits interior and structural water damage.',
   },
 };

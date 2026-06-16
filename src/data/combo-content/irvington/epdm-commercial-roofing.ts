@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing epdm commercial roofing across Irvington, New Jersey, and Essex County, installing and servicing EPDM rubber membrane on Springfield Avenue and Chancellor Avenue storefronts and Route 78 light-industrial roofs** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**EPDM commercial roofing** is a single-ply synthetic-rubber membrane installed on flat and low-slope commercial roofs to seal the building against water entry. EPDM attaches mechanically, fully adheres, or holds under ballast, with the splice seams joining the sheets.',
   overview: [
-    'Newark Quality Roofing delivers expert epdm commercial roofing in Irvington — with prices starting from $6–$11/sq ft and free estimates available today. Commercial EPDM roofing dominates Irvington\'s flat-roof landscape for a straightforward economic reason: the township\'s commercial property owners -- from Springfield Avenue retail operators to Route 78 warehouse managers -- need proven waterproofing at a price point that pencils out against aging building values. Our [EPDM commercial roofing](/epdm-commercial-roofing) installations across Irvington deliver the 30-year membrane performance that keeps operating costs predictable on buildings where the roof investment must be proportional to the property\'s income potential.',
-    'Springfield Avenue\'s commercial buildings present EPDM\'s strongest use case in Irvington. These 2,000 to 8,000 square foot flat roofs sit atop mixed-use structures housing first-floor retail with second-floor apartments -- a building typology where the roof serves both commercial and residential functions simultaneously. EPDM\'s flexibility handles the thermal movement these hybrid buildings generate, and its leak-free track record protects inventory, equipment, and occupied living spaces beneath. Our Springfield Avenue EPDM installations include fully adhered membrane with reinforced seams at all parapet intersections where these buildings concentrate structural movement.',
-    'Religious institutions throughout Irvington have adopted commercial EPDM for their flat-roofed fellowship halls, classrooms, and administrative additions. Churches, mosques, and temples operate on congregation-funded budgets that demand maximum value from every roofing dollar, and EPDM delivers more covered years per dollar invested than any competing commercial membrane. Property managers in [Newark](/epdm-commercial-roofing-newark-nj) specify EPDM on similar institutional and commercial buildings, though Irvington\'s smaller commercial building footprints allow for single-sheet EPDM installations that minimize the field seams where competing materials are most vulnerable.',
+    '**Newark Quality Roofing installs and services EPDM commercial roofing across Irvington\'s low-slope stock: mechanically attached, fully adhered, and ballasted rubber membrane** on Springfield Avenue and Chancellor Avenue storefronts and the Route 78 light-industrial buildings along the southeastern edge.',
+    '**EPDM rubber membrane** seals the flat and low-slope commercial roof against water entry, lasting 15 to 25 years, per the InterNACHI life-expectancy chart, with a service-life study attributed via Progressive Materials placing EPDM at 25 to 30 years. EPDM serves Irvington\'s mixed-use Springfield Avenue blocks where first-floor retail sits below occupied apartments.',
+    '**Springfield Avenue and Chancellor Avenue** mixed-use buildings carry low-slope roofs over both commercial and residential floors, so a Newark Quality Roofing installation seam-bonds the membrane and seals the flashing at parapets, drains, and rooftop penetrations that protect inventory, equipment, and the dwelling units below.',
+    '**Route 78 light-industrial** buildings along Irvington\'s southeastern edge carry large membrane fields, where EPDM fails most often at the seams, with membrane shrinkage and ponding-water stretching as secondary failure modes, per NRCA technical guidance, so the installation engineers positive drainage before the roof carries water.',
   ],
   challenges: [
-    'Substrate condition beneath existing Irvington commercial roofs is the single greatest EPDM installation variable. Springfield Avenue buildings that have been re-coated and patched repeatedly over decades conceal moisture-laden insulation and corroded steel decking beneath layers of accumulated roofing material. Installing EPDM over this compromised substrate guarantees premature failure. Our specification for every Irvington commercial EPDM project begins with core sampling at multiple locations to establish actual deck condition before finalizing scope and pricing.',
-    'Drainage engineering on Irvington\'s older commercial buildings requires attention that the original construction never received. Many flat-roofed commercial structures along Springfield Avenue were built with minimal slope -- sometimes as little as 1/8 inch per foot -- that becomes functionally flat after decades of structural settling. Ponding water on EPDM shortens membrane life and voids many manufacturer warranties. We address ponding with tapered insulation systems that re-establish proper drainage slope during every Irvington commercial EPDM installation.',
-    'Rooftop equipment on Irvington commercial buildings -- HVAC units, exhaust fans, satellite dishes, and electrical conduit -- creates penetration points where water entry is most likely. Many of these installations were performed by other trades with minimal attention to waterproofing integrity. Our EPDM installation protocol includes raising and reflashing all rooftop equipment with pre-formed EPDM accessories, replacing the caulk-dependent details that previous contractors left behind with fully bonded membrane terminations that maintain waterproofing integrity throughout the membrane\'s service life.',
+    '**Aging substrate** beneath Irvington\'s older low-slope roofs governs every EPDM installation, because Springfield Avenue and Chancellor Avenue buildings recoated over decades conceal water-soaked insulation and plank or steel decking, so a Newark Quality Roofing crew samples the deck first.',
+    '**Ponding water** on Irvington\'s older low-slope roofs ages and stretches the EPDM membrane, because a flat roof needs at least ¼ inch per foot of slope to drain and water standing more than 48 hours counts as a defect, per NRCA and ARMA. A Newark Quality Roofing installation engineers tapered insulation to positive drainage.',
+    '**Rooftop equipment** on Irvington commercial buildings — HVAC curbs, exhaust fans, and conduit — creates the penetration details where EPDM flashing fails, the membrane-shrinkage failure mode that opens curbs and perimeters, per NRCA technical guidance. A Newark Quality Roofing crew reflashes each penetration with manufacturer-approved EPDM components.',
+    '**Tenant-occupied access** shapes Irvington EPDM work, because the township is majority-renter with many two- and three-family and investor-owned buildings carrying low-slope rear-addition and porch sections, so a Newark Quality Roofing crew coordinates entry under New Jersey landlord-tenant notice and documents the work for the owner and insurer.',
   ],
   process: [
-    'Commercial EPDM installation in Irvington starts with complete removal of existing roofing materials down to the structural deck. We inventory all rooftop equipment, document existing penetration locations, and coordinate with HVAC and electrical contractors if equipment needs to be temporarily disconnected during the installation. Corroded steel deck sections are cut out and replaced with matching gauge steel, welded and primed to prevent future corrosion beneath the new membrane system.',
-    'Over the clean deck, we install two staggered layers of polyiso insulation with tapered sections establishing a minimum 1/4-inch-per-foot slope toward designated drains. A gypsum or high-density polyiso coverboard protects the insulation and provides the smooth bonding surface EPDM requires. The membrane is then fully adhered using solvent-based bonding adhesive, with all field seams receiving 6-inch overlap and factory seam tape applied with a steel roller. Perimeter terminations use pre-formed EPDM flashing boots and termination bars secured to parapet walls with stainless steel fasteners.',
-    'Quality assurance on every Irvington commercial EPDM installation includes a detailed visual inspection of all seams, flashings, and penetration details followed by a controlled flood test on buildings where structural capacity permits. We document the completed installation with geo-tagged photographs showing membrane condition at all critical details, providing the building owner with a permanent installation record that supports warranty claims, insurance documentation, and property sale due diligence.',
+    '**Newark Quality Roofing engineers the EPDM assembly before tear-off, sizing the attachment method, insulation, and drainage slope to the building and the NJ code.** A wind-uplift analysis sets mechanically attached, fully adhered, or ballasted attachment against the NJ design wind speed per ASCE 7 as adopted by the NJ Uniform Construction Code, and the crew samples the Springfield Avenue or Route 78 deck for water-soaked insulation.',
+    '**Newark Quality Roofing seam-bonds the EPDM membrane with manufacturer-approved splice tape and adhesive and clears the NJ permit triggers before the membrane goes down.** On a commercial, multi-family, or attached Irvington building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, filed with the Township of Irvington\'s construction-code office, and the Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing flashes the curbs, penetrations, and perimeters with manufacturer-approved EPDM components and documents the completed roof with photographs.** The crew installs continuous rigid insulation in staggered layers under the membrane, verifies the seams and drainage, and registers the manufacturer system warranty, giving an Irvington owner or landlord a condition record for warranty, insurance, and property due diligence on Firestone, Carlisle, and Johns Manville EPDM systems.',
   ],
   faqs: [
     {
-      question: 'How does EPDM compare to TPO for Irvington commercial buildings?',
-      answer: 'EPDM costs 15 to 20 percent less than TPO in material costs and has a 50-year performance track record that TPO cannot yet match. TPO offers reflective energy savings and stronger heat-welded seams. For Irvington commercial buildings where initial cost and proven longevity are priorities, EPDM is the standard recommendation. For buildings pursuing energy efficiency incentives or LEED certification, TPO\'s reflective surface may justify the premium.',
+      question: 'How long does a commercial EPDM roof last on an Irvington building?',
+      answer:
+        'Commercial EPDM rubber membrane lasts 15 to 25 years, per the InterNACHI life-expectancy chart, and a service-life study attributed via Progressive Materials places EPDM at 25 to 30 years. EPDM outlasts TPO at 7 to 20 years and modified bitumen at 20 years on the same InterNACHI chart, with seam separation the failure mode that ends EPDM service on Irvington\'s Springfield Avenue and Route 78 roofs.',
     },
     {
-      question: 'What warranty comes with commercial EPDM on Irvington buildings?',
-      answer: 'We install manufacturer-warranted EPDM systems from Carlisle, Firestone, and Johns Manville that include 20 to 30-year no-dollar-limit warranties covering both material and labor for leak repairs. These warranties require certified installer application -- which our crews carry -- and proper substrate preparation documented with photographs and inspection reports.',
+      question: 'Do you need a permit for a commercial EPDM roof in Irvington?',
+      answer:
+        'A commercial EPDM roof in Irvington requires a construction permit, because the ordinary-maintenance exemption covers only repair of up to 25% of the total roof area in a 12-month period on a commercial, multi-family, or attached building, per N.J.A.C. 5:23-2.7. The permit is filed with the Township of Irvington\'s construction-code office, and the Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4.',
     },
     {
-      question: 'Can you install EPDM on Irvington religious buildings without disrupting services?',
-      answer: 'Yes. We routinely schedule religious building roof work around worship schedules, mid-week services, and community events. Our crew uses equipment staging areas that do not block congregation access, and we coordinate shutdown of rooftop HVAC systems around service times so heating and cooling remain available during worship. Multi-phase installation allows us to complete sections while leaving the remainder weathertight between work sessions.',
+      question: 'How do you handle EPDM work on a tenant-occupied Irvington multi-family building?',
+      answer:
+        'A Newark Quality Roofing EPDM installation coordinates entry around occupants under New Jersey landlord-tenant notice, sets a staging and access plan before any work begins, and documents the completed roof with photographs for the owner. Irvington runs majority-renter with many investor-owned two- and three-family buildings, so the documentation package supports a property manager, lender, or insurer record.',
     },
     {
-      question: 'How long does a commercial EPDM installation take in Irvington?',
-      answer: 'A typical Springfield Avenue commercial building with 3,000 to 5,000 square feet of roof area takes 5 to 7 working days from tear-off to completion. Larger Route 78 industrial buildings with 15,000 to 30,000 square feet require 2 to 4 weeks depending on substrate condition and equipment coordination. We provide a detailed project schedule before work begins so tenants and business operators can plan accordingly.',
+      question: 'Does an Irvington EPDM roof on a historic-leaning building need extra approval?',
+      answer:
+        'No. Irvington has no local historic-district ordinance, no locally designated districts or landmarks, and no Historic Preservation Commission, so a commercial EPDM roof faces no Certificate of Appropriateness step. Irvington carries no National Register listings, and a Register listing alone places no restriction on a private owner, per the National Park Service. Only the construction permit triggered by the 25% rule applies.',
+    },
+    {
+      question: 'Why choose EPDM over TPO for an Irvington commercial roof?',
+      answer:
+        'EPDM rubber membrane records 15 to 25 years, per the InterNACHI life-expectancy chart, while TPO records 7 to 20 years on the same chart. EPDM fails most often at the splice seams and TPO at the welded seams, per NRCA technical guidance, so a Newark Quality Roofing assessment matches the membrane to the Irvington building and the Essex County climate.',
     },
     {
       question: 'How much does epdm commercial roofing cost in Irvington, NJ?',
-      answer: 'Most epdm commercial roofing projects in Irvington range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'EPDM commercial roofing in New Jersey runs $7.00 to $10.00 per square foot installed, per Josten Roofing NJ pricing, with flat-roof repair at $2.50 to $10.00 per square foot, per HomeGuide cost data. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, attachment method, insulation, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Commercial EPDM roofing in Irvington NJ for Springfield Ave businesses, religious buildings, and Route 78 industrial facilities. Proven 30-year membrane.',
+  metaDescription:
+    'EPDM commercial roofing in Irvington NJ — Springfield Ave and Chancellor Ave storefronts and Route 78 light-industrial roofs. NJ-registered, free estimate.',
   pricing: {
-    range: '$6–$11/sq ft',
-    note: 'EPDM rubber membrane system',
+    range: '$7.00–$10.00/sq ft installed',
+    note: 'EPDM commercial roofing in New Jersey runs $7.00 to $10.00 per square foot installed, per Josten Roofing NJ pricing; final cost depends on roof size, attachment method, insulation, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s Springfield Avenue and Chancellor Avenue storefronts, mixed-use blocks, and Route 78 light-industrial low-slope roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free epdm commercial roofing estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for epdm commercial roofing in Irvington.',
+    urgencyNote: 'Addressing membrane seams and ponding water early limits interior and structural water damage.',
   },
 };

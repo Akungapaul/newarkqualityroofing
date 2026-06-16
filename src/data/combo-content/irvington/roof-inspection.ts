@@ -3,55 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof inspection across Irvington, New Jersey, and Essex County, rating roof-covering condition, flashing, drainage, ventilation, and the deck on dense two- and three-family rentals and Springfield Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**A roof inspection** is a systematic evaluation of a roof\'s covering, flashing, drainage, ventilation, sealants, and deck that rates each component by condition and documents damage, wear, and active-leak indications before water reaches the interior.',
   overview: [
-    'Newark Quality Roofing delivers expert roof inspection in Irvington — with prices starting from $150–$400 and free estimates available today. Roof inspections in Irvington carry a different weight than in communities with newer housing stock. When we inspect a 1930s colonial in Olympic Park or a converted two-family on Chancellor Avenue, we are evaluating roofing systems that have been in service for decades on structures built before modern building codes existed. The inspection is not just checking for missing shingles -- it is a comprehensive assessment of how 80-to-100-year-old framing, original plank decking, and aging fastener systems are holding up under the accumulated stress of New Jersey weather. Our [roof inspection](/roof-inspection) process for Irvington is calibrated to this reality.',
-    'Real estate transactions drive a significant portion of Irvington\'s inspection demand. The township\'s affordability has attracted investment property buyers who need thorough roof assessments before closing on two-family and three-family acquisitions. A pre-purchase inspection that catches deteriorated decking, failed flashings, or remaining shingle life under five years can save a buyer thousands in unexpected capital expenditure. We provide investment-grade inspection reports that quantify remaining roof life, estimate replacement costs, and identify conditions that should be addressed in purchase negotiations.',
-    'Springfield Avenue commercial property inspections require flat-roof expertise that goes beyond visual assessment. Many commercial buildings along the corridor have been re-coated repeatedly, and the visible surface tells you almost nothing about the condition of the membrane, insulation, and deck beneath those accumulated layers. Our commercial inspections include core sampling to evaluate the full roof assembly, moisture scanning to detect trapped water in insulation, and drainage analysis to identify ponding areas. Neighboring municipalities like [East Orange](/roof-inspection-east-orange-nj) and [Newark](/roof-inspection-newark-nj) share similar commercial building stock along their own corridors.',
+    '**Newark Quality Roofing inspects roof-covering condition, flashing, drainage, ventilation, and the deck** across Irvington\'s dense two- and three-family rentals, older early-20th-century detached homes, and Springfield Avenue and Chancellor Avenue flat-roof storefronts. A roof inspection rates each component by condition and documents the findings before water reaches the interior.',
+    '**Flashing details** drive an Irvington inspection, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. On the township\'s older detached and 2-3-family stock, a Newark Quality Roofing inspection starts at the chimney, wall, and valley transitions where aged sealant laps lift.',
+    '**Drainage and the deck** carry the commercial side of the Springfield Avenue and Chancellor Avenue corridors and the Route 78 southeastern-edge light-industrial buildings, where ponding water remaining more than 48 hours counts as a defect and a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. A Newark Quality Roofing commercial inspection maps standing water and checks the membrane seams.',
+    '**Component condition** sets the inspection cadence on Irvington\'s aging roofs, because the NRCA recommends a roof inspection at least twice per year, spring and fall, plus an inspection after any major weather event, so a documented inspection history tracks roof condition across the freeze-thaw and storm seasons. A Newark Quality Roofing report rates each component and notes active-leak indications.',
   ],
   challenges: [
-    'Inspecting Irvington\'s multi-layered commercial roofs presents diagnostic challenges because surface conditions are misleading. A Springfield Avenue flat roof that looks acceptable from the surface may have waterlogged insulation, corroded steel decking, or membrane delamination hidden beneath multiple coating layers. Without core sampling and moisture detection, an inspection that reports only surface conditions provides false assurance. Our Irvington commercial inspections always include subsurface evaluation because the township\'s history of coating-over-problem has made surface-only assessments unreliable.',
-    'Attic access limitations on many Irvington homes prevent the interior portion of a thorough roof inspection. Finished attics, converted third-floor apartments in multi-family buildings, and homes where original access hatches have been drywalled over all restrict our ability to evaluate decking condition, insulation depth, and ventilation adequacy from below. When attic access is limited, we note this in our report and increase our exterior assessment detail, using probe testing at fascia edges and infrared scanning where conditions allow.',
+    '**Tenant-occupied access** shapes an Irvington roof inspection, because the township runs majority-renter with many two- and three-family and investor-owned buildings, so an inspection coordinates entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing inspector sets an access plan and documents the findings in a written report for the owner.',
+    '**Multi-layer commercial roofs** on the Springfield Avenue and Chancellor Avenue corridors hide their condition, because a flat roof re-coated repeatedly tells little about the membrane, insulation, and deck beneath those layers. A Newark Quality Roofing commercial inspection flags ponding water remaining more than 48 hours as a defect and checks the seams where EPDM, TPO, and modified-bitumen membranes fail, per the NRCA and ARMA.',
+    '**Attic access** limits the interior portion of an Irvington inspection, because finished attics, converted third-floor units in multi-family buildings, and drywalled-over hatches restrict a view of the decking, insulation, and ventilation from below. A Newark Quality Roofing inspector measures deck and framing moisture with moisture meters where access allows and increases exterior detail where it does not.',
+    '**Aging plank decking** turns up on Irvington\'s older early-20th-century homes, where 1920s–1940s sheathing shows moisture decay that a surface inspection misses. A Newark Quality Roofing inspector checks attic ventilation against the NRCA and ARMA standard of 1 square foot of net-free vent area per 150 square feet of attic floor, because balanced ventilation extends roof service life, per the NRCA.',
   ],
   process: [
-    'Our Irvington roof inspection follows a systematic protocol adapted for the township\'s aging building stock. Exterior assessment covers every surface -- shingle condition and remaining granulation, flashing integrity at all wall-to-roof intersections, chimney and dormer details, gutter and fascia condition, and soffit ventilation adequacy. We photograph each condition finding with close-up detail and wide-angle context. On flat commercial roofs, we add core sampling, ponding measurement, and membrane adhesion testing to the standard protocol.',
-    'Interior attic inspection, where accessible, evaluates decking condition from below -- checking for water staining, mold growth, sagging or delamination, and daylight penetration that indicates failed shingle or underlayment areas. We measure insulation depth and assess ventilation pathways from soffit to ridge. On Irvington homes built before ventilation standards existed, this portion of the inspection frequently identifies conditions that contribute to ice dam formation, premature shingle failure, and attic moisture problems.',
-    'The inspection report is formatted for its intended use. Homeowner reports include plain-language condition descriptions, photo documentation, remaining life estimates, and prioritized maintenance or repair recommendations. Investment buyer reports add replacement cost estimates, capital planning timelines, and negotiation-ready summaries. Landlord portfolio reports standardize findings across multiple properties for comparative analysis. All reports include an overall condition grade from A through F that provides an at-a-glance assessment.',
+    '**Newark Quality Roofing inspects the roof in 4 stages — an exterior ground survey, an on-roof component inspection, an attic-underside inspection, and a written condition report — rating each component and documenting active-leak indications.** A Newark Quality Roofing inspection starts at the flashing, because the roofing industry estimates that roughly 90–95% of leaks originate at flashing, an industry estimate attributed to the NRCA, and coordinates tenant access in advance on Irvington\'s occupied two- and three-family buildings.',
+    '**Newark Quality Roofing measures deck and framing moisture with moisture meters and locates trapped moisture with infrared imaging, finding wet sheathing before a ceiling stain appears.** Sealing the roof deck cuts water intrusion by up to 95%, per the IBHS, so a pre-leak inspection identifies a failing detail while a repair stays minor on Irvington\'s older detached and 2-3-family stock. The InterNACHI roof inspection standard of practice directs an inspector to report observed active-leak indications and describe the roof-covering type.',
+    '**Newark Quality Roofing delivers a written condition report with prioritized findings, a roof-condition rating, and photographs keyed to a roof diagram.** The documentation supports a homeowner or investor-owner record, satisfies a multi-family property manager, and gives an insurance carrier or manufacturer-warranty program the condition record it accepts, per the Insurance Information Institute and the InterNACHI roof inspection standard of practice.',
   ],
   faqs: [
     {
-      question: 'How much does a roof inspection cost in Irvington?',
-      answer: 'Residential roof inspections in Irvington run between $250 and $400 depending on roof size and complexity. Commercial flat-roof inspections with core sampling and moisture scanning start at $500. We offer multi-property discount pricing for Irvington landlords needing inspections across a portfolio. The inspection cost is credited toward any repair or replacement work performed within 90 days.',
+      question: 'How often should an Irvington roof be inspected?',
+      answer:
+        'The NRCA recommends a roof inspection at least twice per year, spring and fall, plus an additional inspection after any major weather event. A spring inspection follows winter freeze-thaw stress and a fall inspection precedes it, and proper maintenance on that cadence extends asphalt-shingle service life by roughly 25–30%, per ARMA. Given that many Irvington roofs sit on older early-20th-century homes near or past end of life, a documented inspection history tracks condition before a finding becomes a leak.',
     },
     {
-      question: 'Should I get a roof inspection before buying an Irvington investment property?',
-      answer: 'Absolutely. A pre-purchase roof inspection on an Irvington two-family or three-family home is one of the most valuable investments you can make before closing. The township\'s aging housing stock means roof replacement costs of $10,000 to $18,000 are realistic near-term expenditures on many properties. Knowing the roof condition before you buy lets you negotiate price adjustments or budget accurately for post-closing capital improvements.',
+      question: 'How do you inspect a tenant-occupied two- or three-family in Irvington?',
+      answer:
+        'A Newark Quality Roofing inspection coordinates entry around occupants under New Jersey landlord-tenant notice, sets an access plan before the visit, and documents the findings in a written report for the owner. Irvington runs majority-renter with many investor-owned two- and three-family buildings, so the report supports a property manager, lender, or insurer record across a cost-conscious portfolio.',
     },
     {
-      question: 'What does a failing roof inspection look like on a typical Irvington home?',
-      answer: 'Common failure indicators on Irvington homes include widespread granule loss on shingles exposing the asphalt mat beneath, curling or cupping at shingle edges, multiple visible repair patches, deteriorated flashings around chimneys and dormers, rusted gutter hardware, and -- when attic access allows -- water staining on decking or visible daylight through the roof surface. Any combination of these findings typically indicates remaining roof life under 5 years.',
+      question: 'Can a roof inspection find a leak before it appears inside an Irvington home?',
+      answer:
+        'A roof inspection finds a leak before it appears inside by measuring deck and framing moisture with moisture meters and locating trapped moisture with infrared imaging. Sealing the roof deck cuts water intrusion by up to 95%, per the IBHS, so a pre-leak inspection identifies a failing flashing or membrane detail on Irvington\'s aging stock while a repair stays minor.',
     },
     {
-      question: 'How often should Irvington homeowners get roof inspections?',
-      answer: 'We recommend every 3 years for Irvington homes with roofs under 15 years old, every 2 years for roofs aged 15 to 25 years, and annually for roofs over 25 years old. Given that many Irvington roofs are approaching or past 30 years, annual inspections help catch deterioration before it leads to interior damage. After any significant storm, we recommend a targeted inspection regardless of the roof age.',
+      question: 'Does a roof inspection in Irvington involve a historic-district approval?',
+      answer:
+        'Irvington has no local historic-district ordinance and no locally designated districts or landmarks, so a roof inspection and any resulting work face no Certificate of Appropriateness step. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private owner, per the National Park Service.',
     },
     {
-      question: 'How much does roof inspection cost in Irvington, NJ?',
-      answer: 'Most roof inspection projects in Irvington range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What does an Irvington roof inspection report cover?',
+      answer:
+        'A roof inspection report covers roof-covering condition, flashing, drainage, ventilation, sealants, the deck, and active-leak indications, rated by urgency on a roof diagram with photographs. The InterNACHI roof inspection standard of practice directs an inspector to describe the roof-covering type and report observed active-leak indications, the documentation an insurance carrier or manufacturer-warranty program accepts, per the Insurance Information Institute.',
+    },
+    {
+      question: 'How much does a roof inspection cost in Irvington, NJ?',
+      answer:
+        'A roof inspection costs $75–$200 for a visual inspection, $150–$400 for a drone inspection, and $400–$600 for an infrared inspection, with a national average of $248, per HomeAdvisor inspection-cost data. Roof size, slope, and the inspection method set the cost. Newark Quality Roofing provides a free roof inspection with a written report.',
     },
   ],
-  metaDescription: 'Irvington NJ roof inspections for aging homes and investment properties. Detailed reports with remaining life estimates. Pre-purchase evaluations.',
+  metaDescription:
+    'Roof inspection in Irvington NJ — two- and three-family rentals, Springfield Avenue flat roofs, moisture detection, written reports. NJ-registered, free.',
   pricing: {
-    range: '$150–$400',
-    note: 'comprehensive inspection with written report',
+    range: '$75–$600 for most inspections',
+    note: 'Visual inspection $75–$200, drone $150–$400, infrared $400–$600, with a national average of $248 per HomeAdvisor; final cost depends on roof size, slope, and inspection method. Newark Quality Roofing provides a free roof inspection.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Free roof inspections that rate each component and document active-leak indications per the InterNACHI roof inspection standard of practice.',
+    'Workmanship and findings documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof inspection estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free roof inspection in Irvington.',
+    urgencyNote: 'Catching deterioration early limits interior and structural water damage.',
   },
 };

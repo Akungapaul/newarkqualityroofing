@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const irvingtonRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof deck repair replacement across Irvington, New Jersey, and Essex County, removing rotted, delaminated, and water-soaked sheathing exposed at tear-off on dense two- and three-family rentals and older early-20th-century homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [
-    'Newark Quality Roofing delivers expert roof deck repair replacement in Irvington — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck deterioration is the hidden reality beneath Irvington\'s aging roofing surfaces. When we tear off a 25-year-old shingle roof on a 1930s colonial in Olympic Park or a 1940s Cape Cod along Union Avenue, we discover compromised decking on a majority of these projects -- softened plank boards, delaminated plywood patches from previous repairs, and outright rot where chronic leaks have saturated the wood for years. Our [roof deck repair](/roof-deck-repair-replacement) services address this structural foundation before new roofing materials are installed, because no surface material can perform when the substrate beneath it has failed.',
-    'The original plank decking on Irvington\'s pre-war homes presents a specific challenge that plywood-decked homes do not share. Individual 1x6 or 1x8 boards dry out, shrink, and develop gaps over decades, creating air channels beneath the shingle surface that allow wind-driven rain to enter the building even when the surface roofing appears intact. These gaps also reduce the holding power of roofing nails, leading to shingle blow-offs during moderate wind events that would not dislodge shingles on a solid plywood deck. Our deck repair approach for Irvington plank-decked homes includes full plywood overlay that creates the solid, continuous substrate that modern roofing materials require.',
-    'Investment property owners purchasing Irvington multi-family homes encounter deck deterioration as a scope-expanding discovery during what they planned as routine re-roofing projects. The two-family and three-family homes along Chancellor Avenue and Stuyvesant Avenue frequently carry three decades of deferred maintenance beneath their surface shingles, and deck replacement can add 20 to 40 percent to the anticipated re-roofing budget. Our assessment protocol for Irvington investment properties includes pre-tear-off deck condition indicators -- interior stain patterns, attic-side decking inspection, and exterior nail-pop evaluation -- that help property owners anticipate deck repair costs before committing to the project. Property managers handling similar aging stock in [Newark](/roof-deck-repair-replacement-newark-nj) face comparable deck discovery situations, though Irvington\'s detached structures are generally more accessible for inspection.',
+    '**Newark Quality Roofing repairs and replaces rotted sheathing, delaminated plywood and swollen OSB, sagging deck sections, and water-soaked decking exposed at tear-off** across Irvington\'s dense two- and three-family rentals and older early-20th-century homes. A re-deck restores the structural substrate that anchors every roofing nail under the underlayment and covering.',
+    '**Rotted sheathing** loses the ability to hold a fastener, because roofing nails penetrate at least 3/4 inch into the deck, or fully through plus 1/8 inch where the deck measures under 3/4 inch thick, per ARMA nail-application guidance. Trapped moisture decays the sheathing until the deck cannot grip a nail and the roof loses wind resistance, per InterNACHI, so a Newark Quality Roofing assessment separates a sound deck from sheathing that requires replacement before the covering goes on.',
+    '**Water-soaked decking** turns up under the old covering when an aging Irvington roof strips to the deck, where decades of slow leaks and deferred maintenance on the township\'s rental and investor-owned stock saturate the plank or panel sheathing beneath an intact-looking surface. The IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck, so a Newark Quality Roofing re-deck removes the saturated sections before the new covering goes on.',
+    '**Sagging deck sections** dip between the rafters on older Irvington homes, the sign of moisture-decayed sheathing or undersized panels, because panels thinner than 1/2 inch over rafters spaced more than 20 inches on center require H-clips, tongue-and-groove edges, or solid blocking, per IRC Section R803.2. A Newark Quality Roofing crew re-decks with code-rated panels sized to the rafter spacing, restoring a flat deck that grips a roofing nail at least 3/4 inch deep, per ARMA.',
   ],
   challenges: [
-    'The extent of deck deterioration on Irvington homes is frequently underestimated until full tear-off reveals the actual condition. Localized roof leaks create moisture damage that extends well beyond the visible stain area, and the slow, chronic nature of many Irvington roof leaks means that decking has been absorbing moisture for years before anyone opens the roof. A leak that stained a 2-foot circle on the bedroom ceiling may have saturated a 10-foot area of roof decking when the full extent is exposed during tear-off.',
-    'Original plank decking on Irvington homes was typically installed without any moisture barrier between the wood and the exterior roofing -- the shingles and felt paper served as the only waterproofing. When felt deteriorated and shingles aged, water reaching the plank surface was absorbed directly into the wood grain. Unlike plywood, which delaminates and reveals its damage visually, plank boards absorb moisture internally and can appear solid on the surface while being soft and structurally compromised beneath. Our assessment probes plank decking with an awl at regular intervals to detect internal softening that visual inspection misses.',
-    'Deck replacement on Irvington homes while maintaining weather protection for occupied spaces requires careful staging. We cannot remove the entire old roof and deck simultaneously on a home where families are living below -- weather events during the exposed period would flood the interior. Our tear-off and deck replacement proceeds in manageable sections, with each section stripped, decked, and covered with underlayment before moving to the next. This sectional approach adds labor time but protects Irvington homeowners from interior damage during the replacement process.',
+    '**Original plank decking** turns up at tear-off on Irvington\'s older early-20th-century homes, where individual boards dry, shrink, and gap over decades and absorb moisture internally while appearing solid on the surface. A Newark Quality Roofing crew probes the planks for internal softening that visual inspection misses and re-decks with a code-rated structural panel where the boards no longer grip a nail, per ARMA and InterNACHI.',
+    '**Tenant-occupied access** is the defining condition on Irvington\'s many two- and three-family and investor-owned buildings, a rental- and multi-family-heavy township, so a re-deck coordinates entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing crew sequences the tear-off and re-decking in sections, covering each exposed section with underlayment before moving to the next so the interior stays protected for occupants below.',
+    '**Hidden deck rot** expands the scope of a planned re-roof on the township\'s deferred-maintenance stock, because most deck decay on an Essex County home traces to a failed flashing or a clogged gutter overflowing against the eave, and slow chronic leaks saturate the sheathing for years before the surface fails. A Newark Quality Roofing scope traces the decay to the detail that admitted the water and documents the as-found deck condition for the owner and any insurer.',
+    '**Limited staging room** on Irvington\'s small, densely built lots constrains a re-deck, where the dense, built-out township leaves little setback for dumpsters, ground tarps, and panel staging. A Newark Quality Roofing crew stages the work tight to the building, runs a magnet sweep for nails, and clears debris before leaving the property.',
   ],
   process: [
-    'Deck assessment begins before tear-off when possible. Our crew inspects the decking from the attic side, checking for visible moisture staining, mold growth, deflection under foot pressure, and the condition of rafter-to-decking connections. This preliminary assessment provides an estimate of deck repair scope that helps homeowners budget for the full project. During tear-off, the exposed deck is inspected comprehensively -- every board or panel is probed for structural integrity, and deteriorated sections are marked for replacement.',
-    'Deck replacement uses CDX plywood -- a moisture-resistant grade with exterior-rated glue that tolerates the temporary weather exposure that occurs during roofing installation. Plywood panels are cut to fit between rafters and fastened with ring-shank nails or screws that resist withdrawal forces. On Irvington homes with plank decking, we install a full layer of 1/2-inch CDX plywood over the existing planks when the planks are structurally sound but have gaps and unevenness that compromise shingle performance. When plank boards are deteriorated, they are removed and replaced with plywood before the overlay.',
-    'After deck replacement, we install synthetic underlayment over the entire surface as a secondary waterproofing layer. Ice-and-water shield membrane is applied at all eave edges, valleys, and around penetrations per code requirements -- and we extend this membrane further up the roof on Irvington homes than code minimum requires because the aging attic conditions in these homes make them more vulnerable to ice dam water infiltration. The completed deck surface is ready to receive the new roofing material on a substrate that will support its full rated service life.',
+    '**Newark Quality Roofing probes the sheathing from the attic and the roof for the conditions that cost the deck its fastener hold — rot, delamination, swelling, and sag — before any work begins.** A crew checks for soft, spongy, or crumbling wood, delaminated plywood, swollen OSB edges, daylight through the deck, and dark staining on the underside, per InterNACHI and GAF inspection guidance, and coordinates tenant access in advance on Irvington\'s occupied two- and three-family buildings.',
+    '**Newark Quality Roofing strips the covering to the deck and removes every water-soaked or rotted section, then re-decks with code-rated structural panels sized to the rafter spacing.** Roof sheathing carries an APA span rating that sets the maximum rafter spacing — 7/16-inch panels rate 24/16 through 23/32-inch panels at 48/24, per APA – The Engineered Wood Association, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck. The crew adds H-clips, tongue-and-groove edges, or solid blocking on panels thinner than 1/2 inch over rafters spaced more than 20 inches on center, per IRC Section R803.2.',
+    '**Newark Quality Roofing applies underlayment and a self-adhering ice barrier, then installs the covering with fasteners that grip the new deck.** Ice-and-water barrier runs from the eave to at least 24 inches inside the exterior wall line, per IRC Section R905.1.2, and the covering fastens with corrosion-resistant nails of at least a 12-gauge shank and a 3/8-inch head that penetrate at least 3/4 inch into the new deck, per ARMA. The crew runs a magnet sweep for nails and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty that covers factory defects.',
   ],
   faqs: [
     {
-      question: 'How do I know if my Irvington roof needs deck repair before re-roofing?',
-      answer: 'Signs of deck deterioration visible without tear-off include sagging roof planes visible from the street, soft or bouncy spots when walking on the roof, nail pops pushing through shingle surfaces, and water stain patterns on attic-side decking. If your Irvington home shows any of these signs, budget for deck repair as part of your re-roofing project. We provide pre-tear-off deck assessments from the attic to help estimate the scope.',
+      question: 'Do I need a permit from Irvington for roof deck repair on my home?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, including re-decking water-soaked sheathing exposed at tear-off, per the NJ Uniform Construction Code. A structural change to rafters or trusses still triggers a permit. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Irvington\'s construction-code office, and Irvington\'s rental- and multi-family-heavy stock puts much of it on the permit-required path.',
     },
     {
-      question: 'How much does roof deck replacement add to a re-roofing project in Irvington?',
-      answer: 'Deck replacement on Irvington homes typically costs $2 to $4 per square foot of replaced area. On a typical colonial with 1,500 square feet of roof surface, replacing 30 percent of the deck adds $900 to $1,800 to the re-roofing project. Full deck replacement on homes with extensively deteriorated plank decking can add $3,000 to $6,000. We provide as-discovered pricing so homeowners know the per-sheet or per-area cost before authorizing additional deck work during tear-off.',
+      question: 'Can new roofing be installed over deteriorated decking on my Irvington home?',
+      answer:
+        'No. The IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck, so the rotted sheathing comes off before the new covering goes on. Roofing nails penetrate at least 3/4 inch into solid deck, per ARMA, and sheathing that cannot grip a nail leaves the covering prone to wind uplift, per InterNACHI.',
     },
     {
-      question: 'Can new shingles be installed over deteriorated decking on my Irvington home?',
-      answer: 'No. Roofing materials require a solid, flat substrate to perform properly. Shingles installed over soft, rotted, or gapped decking will crack, lift, and leak prematurely because the substrate cannot hold nails securely or provide the flat surface that shingles need to seal. Installing new roofing over compromised decking wastes the entire roofing investment.',
+      question: 'Why do older Irvington homes have worse deck rot than newer houses?',
+      answer:
+        'Irvington\'s older early-20th-century stock combines aged plank or panel decking with deferred-maintenance leaks that saturate the wood for years, and trapped moisture decays sheathing until the deck cannot hold a fastener, per InterNACHI. Most deck rot on an Essex County home traces to a failed flashing or a clogged gutter overflowing against the eave, and the township\'s rental and investor-owned buildings often carry chronic slow leaks before the surface fails.',
     },
     {
-      question: 'Why do Irvington homes have worse deck problems than newer houses?',
-      answer: 'Three factors combine: age, construction method, and maintenance history. Irvington\'s 1920s-1940s homes use plank decking that absorbs moisture more readily than modern plywood. They have had 80 to 90 years of weather exposure. And many have experienced extended periods of deferred maintenance where slow leaks went unaddressed for years. This combination produces more extensive deck deterioration than homes built after plywood became the standard decking material in the 1950s.',
+      question: 'Does swollen OSB dry out, or does it have to be replaced?',
+      answer:
+        'Swollen OSB swells at the edges and delaminates irreversibly once saturated, so saturated OSB gets replaced rather than dried out, while plywood dries more uniformly and partly recovers, per InterNACHI and trade guidance. A Newark Quality Roofing inspection separates plywood that recovers from OSB and plywood past recovery before a re-deck quote.',
     },
     {
-      question: 'How much does roof deck repair replacement cost in Irvington, NJ?',
-      answer: 'Most roof deck repair replacement projects in Irvington range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does roof deck repair in Irvington require a historic-district approval?',
+      answer:
+        'No. Irvington has no local historic-district ordinance, so a homeowner reroof and re-deck faces no Certificate of Appropriateness step. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private property owner, per the National Park Service.',
+    },
+    {
+      question: 'How much does roof deck replacement cost in Irvington, NJ?',
+      answer:
+        'Re-decking a roof costs $2–$5 per square foot, with a national average near $5,500, and Angi cites $2–$6 per square foot, per HomeGuide and Angi cost data. A hidden-rot re-deck added during a re-roof runs about $50–$120 per 4-by-8 sheet, per contractor cost data, and OSB sheathing costs less than plywood. Final cost depends on roof size, the extent of rot, panel thickness, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof deck repair and replacement in Irvington NJ for aging plank and plywood decking. Fix the structural foundation before re-roofing your home.',
+  metaDescription:
+    'Roof deck repair and replacement in Irvington NJ — rotted and water-soaked sheathing re-decked to code before re-roofing. NJ-registered, free estimate.',
   pricing: {
-    range: '$2,000–$6,000',
-    note: 'structural deck repair pricing',
+    range: '$2–$5 per sq ft for most re-decking',
+    note: 'Re-decking a roof costs $2–$5 per square foot, with a national average near $5,500, and Angi cites $2–$6 per square foot, per HomeGuide and Angi cost data; a hidden-rot re-deck added during a re-roof runs about $50–$120 per 4-by-8 sheet. Final cost depends on roof size, the extent of rot, panel thickness, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof deck repair replacement estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof deck repair replacement in Irvington.',
+    urgencyNote: 'Removing rotted decking before re-roofing keeps fasteners gripping and limits further structural water damage.',
   },
 };

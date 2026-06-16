@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const irvingtonSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'irvington',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor installing and repairing skylights across Irvington, New Jersey, and Essex County**, sealing flashing leaks, replacing fogged units, and curb-mounting skylights on the township\'s dense two- and three-family homes and Springfield Avenue commercial roofs as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
-    'Newark Quality Roofing delivers expert skylight installation repair in Irvington — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installations and repairs in Irvington address a specific need driven by the township\'s housing density: natural light delivery into interior rooms that compact lot configurations and close neighboring buildings leave in perpetual shadow. Our [skylight installation](/skylight-installation-repair) services across Irvington bring daylight into kitchens, bathrooms, and stairwells on homes where window-based natural light is insufficient due to 25-foot lot widths and minimal side yard separations.',
-    'Skylight repair on existing Irvington installations has become a growing service category as the skylights installed during 1990s-era renovations reach the end of their seal and glazing life. Fogged dual-pane glass, cracked acrylic domes, and deteriorated frame seals produce condensation, leaking, and heat loss that homeowners initially attribute to roof problems rather than skylight failure. Our diagnostic protocol for Irvington skylight leak calls distinguishes between flashing failure around the skylight curb and glazing seal failure within the skylight unit itself -- the two problems require fundamentally different solutions.',
-    'Tubular skylights have gained particular traction in Irvington\'s interior renovation market. These compact units deliver daylight through a reflective tube that routes light from the roof surface to interior rooms without the structural opening that conventional skylights require. For Irvington bathrooms and hallways where cutting a conventional skylight opening would compromise framing integrity, tubular skylights provide a minimally-invasive alternative. Homeowners renovating properties in neighboring [South Orange](/skylight-installation-repair-south-orange-nj) also specify tubular units, though Irvington\'s more compact housing stock makes the space-saving advantages even more pronounced.',
+    '**Newark Quality Roofing installs new skylights, replaces aging units, repairs flashing leaks, and replaces fogged insulated glass** across Irvington\'s dense early-20th-century detached homes, two- and three-family rentals, and Springfield Avenue and Chancellor Avenue commercial buildings. Skylight installation repair seals the roof penetration at the flashing detail that admits water.',
+    '**Flashing leaks** drive most skylight failures on Irvington roofs, because the leading cause of a skylight leak is failed or improperly installed flashing rather than the glass, per roofing trade consensus. A Newark Quality Roofing repair fits the VELUX or Fakro flashing kit matched to the mounting type and roof covering, because an engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America.',
+    '**Fogged units** signal a failed insulated-glass seal on the older skylights set into Irvington\'s aging two- and three-family stock, the moisture-between-the-panes failure the VELUX 20-year insulated-glass-seal warranty covers, separate from leak coverage, per VELUX America. A Newark Quality Roofing diagnosis separates a fogged-seal replacement from a flashing repair before setting the scope.',
+    '**Curb-mounting** suits the flat and low-slope storefront and mixed-use roofs on the Springfield Avenue corridor and the Route 78 light-industrial buildings along Irvington\'s southeastern edge, because a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A skylight lasts 10–20 years, per the InterNACHI Estimated Life Expectancy Chart.',
   ],
   challenges: [
-    'Roof framing in Irvington\'s pre-war homes was not designed to accommodate skylight openings. Original 2x6 or 2x8 rafters at 16-inch centers require headers and trimmers to redistribute structural loads around the skylight opening -- work that can cost as much as the skylight unit itself when proper engineering is applied. Shortcuts that eliminate headers or undersized trimmers create sagging roof planes and cracked interior finishes that appear within a few years of installation.',
-    'Ice dam formation at skylight curbs is a chronic problem in Irvington\'s poorly insulated older homes. The heat loss through and around the skylight melts snow on the surrounding roof surface, and the meltwater refreezes at the curb junction where the insulation barrier is interrupted. This localized ice dam forces water under the flashing and into the building at the skylight perimeter. Proper skylight installation on Irvington homes requires insulated curb construction and ice-and-water shield membrane extending at least 2 feet beyond the skylight frame on all sides.',
-    'Condensation inside existing Irvington skylights is frequently misidentified as a roof leak. When the seal between dual-pane glazing fails, moisture trapped between the panes produces a fogged appearance and can drip when warm moist air contacts the cold inner surface. Homeowners often pay for flashing repair or sealant application around the skylight frame before discovering that the unit itself needs replacement. Our assessment distinguishes between frame-origin leaks and glazing-origin condensation before recommending repair scope.',
+    '**Leak versus condensation** is the first call to resolve on an Irvington skylight, because water at a skylight is often condensation from excess indoor humidity on cold glass, not a roof leak, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads before opening the flashing.',
+    '**Tenant-occupied access** shapes skylight work on Irvington\'s rental- and multi-family-heavy stock, where many two- and three-family buildings are investor- or landlord-owned, so a job coordinates interior entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing crew sets a staging and access plan on the small, built-out lots and documents the completed work for the owner and any insurer.',
+    '**Aging decks** surface at older Irvington skylights, where a 1920s–1940s roof can expose deteriorated plank sheathing around the curb at tear-off and a failed flashing tracks water into the framing and finish before staining the ceiling, per roofing trade consensus. A Newark Quality Roofing repair replaces the failed flashing and any rotted decking at the penetration rather than recaulking the curb.',
   ],
   process: [
-    'Skylight installation in Irvington begins with roof structure evaluation from the attic. We measure rafter spacing, assess rafter depth and condition, and determine whether the proposed skylight location avoids plumbing vents, electrical runs, and structural load paths. The opening is framed with doubled headers and trimmers that transfer roof loads around the skylight without compromising structural integrity. On Irvington homes with undersized original rafters, we sister additional lumber alongside existing rafters adjacent to the opening for supplemental support.',
-    'The skylight unit is set on a site-built curb that raises the frame above the roof surface for positive drainage. We insulate the curb with closed-cell spray foam to maintain the thermal barrier between conditioned interior and unconditioned roof space. Ice-and-water shield membrane wraps the curb and extends 24 inches beyond the skylight on all sides, providing secondary waterproofing beneath the step flashings and counterflashings that integrate the skylight into the surrounding shingle field.',
-    'Interior finishing includes insulated light shaft construction from the roof opening to the ceiling plane. We frame the shaft with a slight flare -- wider at the bottom than at the top -- to maximize light distribution into the room below. Drywall or plywood lining receives vapor barrier treatment on the warm side to prevent condensation within the shaft cavity. The completed installation is inspected from both exterior and interior, with water testing at the skylight perimeter to verify flashing integrity before interior finishing covers the waterproofing details.',
+    '**Newark Quality Roofing inspects the skylight flashing, curb, and shaft, separating a true leak from condensation before sealing.** Water at a skylight is often condensation from excess indoor humidity on cold glass rather than a roof leak, a common winter misdiagnosis per VELUX America, and a Newark Quality Roofing inspection reads the rain-versus-humidity pattern before opening the flashing, coordinating tenant access in advance on Irvington\'s occupied two- and three-family buildings.',
+    '**Newark Quality Roofing fits the VELUX or Fakro flashing kit matched to both the mounting type and the roof covering, sealing the penetration with engineered flashing rather than caulk.** A deck-mounted unit fastens to the deck at a lower profile and a curb-mounted unit sits on a built-up curb for a flat or low-slope roof, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8 and VELUX America.',
+    '**Newark Quality Roofing installs VELUX and Fakro skylights to manufacturer specification, the condition the manufacturer leak warranty attaches to.** The VELUX No Leak installation warranty runs 10 years and applies only when the skylight installs to specification with a matching VELUX flashing kit, and Fakro provides a 10-year leak-proof guarantee conditioned on the original Fakro flashing kit, per VELUX America and Fakro USA. A Newark Quality Roofing lead verifies watertight execution and documents the completed work with photographs for the owner\'s record.',
   ],
   faqs: [
     {
-      question: 'Can a skylight be installed on my older Irvington home?',
-      answer: 'Yes, but the original roof framing must be properly reinforced to accommodate the opening. Pre-war Irvington homes with 2x6 or 2x8 rafters require headers and trimmers engineered for the specific opening size and roof load. We evaluate framing conditions from the attic before providing an installation quote, ensuring the structural modifications are included in the project scope.',
+      question: 'Why is my Irvington skylight leaking?',
+      answer:
+        'A skylight leaks because of failed or improperly installed flashing, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. An engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America, so a Newark Quality Roofing repair replaces the failed flashing rather than recaulking the curb on your Irvington roof.',
     },
     {
-      question: 'How much does skylight installation cost in Irvington?',
-      answer: 'A complete skylight installation on an Irvington home -- including unit, framing, flashing, and interior light shaft -- typically runs $2,500 to $4,500 for a standard fixed skylight. Vented models that open for airflow add $500 to $800 to the unit cost. Tubular skylights with minimal framing requirements cost $800 to $1,500 installed. These prices include all structural modifications required for proper load transfer.',
+      question: 'Is the water at my skylight a leak or condensation?',
+      answer:
+        'Water at a skylight is often condensation from excess indoor humidity on cold glass, not a roof leak, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads before opening the flashing.',
     },
     {
       question: 'Why is my existing Irvington skylight fogging up?',
-      answer: 'Fogged skylight glazing indicates that the seal between the dual-pane glass has failed, allowing moisture to enter the space between panes. This is a unit failure rather than a roof leak -- no amount of exterior flashing repair will resolve the condensation. The solution is replacement of the skylight unit with a new sealed glazing assembly. If the flashing and curb are in good condition, only the unit needs replacement.',
+      answer:
+        'A fogged skylight indicates a failed insulated-glass seal that admits moisture between the panes, the failure the VELUX 20-year glass-seal warranty covers, separate from leak coverage, per VELUX America. This is a unit failure rather than a roof leak, so a Newark Quality Roofing repair replaces the insulated-glass unit when the flashing and curb are sound.',
     },
     {
-      question: 'Do skylights leak more than regular roof surfaces in Irvington?',
-      answer: 'Properly installed skylights with correct flashing, insulated curbs, and ice-and-water shield protection should not leak. Skylight leaks almost always trace to installation deficiencies -- inadequate flashing, missing ice-and-water shield, or uninsulated curbs that promote ice dam formation. Our installation protocol addresses all three failure points to deliver skylights that perform as reliably as the surrounding roof surface.',
+      question: 'Do I need a permit for skylight work in Irvington?',
+      answer:
+        'Skylight work tied to the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Irvington\'s construction-code office, and structural framing for a new opening requires its own permit. Irvington has no local historic-district ordinance, so a reroof faces no Certificate of Appropriateness step.',
+    },
+    {
+      question: 'Can you install a skylight on a flat or low-slope Irvington commercial roof?',
+      answer:
+        'A skylight installs on a flat or low-slope roof on a curb-mounted unit, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA, so a Newark Quality Roofing curb sheds water at the penetration on the Springfield Avenue and Route 78 commercial roofs.',
     },
     {
       question: 'How much does skylight installation repair cost in Irvington, NJ?',
-      answer: 'Most skylight installation repair projects in Irvington range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Skylight installation costs $1,600–$4,200 installed, replacement $800–$2,400, and leak repair $225–$800, per HomeGuide, Angi, and Modernize cost data. A reseal runs $75–$250 and a flashing repair $150–$500, per Angi and Modernize. Final cost depends on the mounting type, roof covering, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Skylight installation and repair in Irvington NJ for compact homes needing natural light. VELUX certified with proper framing and ice dam prevention.',
+  metaDescription:
+    'Skylight installation and repair in Irvington NJ — flashing leaks, fogged-glass replacement, curb-mounted low-slope units. NJ-registered, free estimate.',
   pricing: {
-    range: '$1,500–$5,000',
-    note: 'per skylight installed or repaired',
+    range: '$225–$4,200 across repair and installation',
+    note: 'Skylight installation $1,600–$4,200, replacement $800–$2,400, and leak repair $225–$800 per HomeGuide, Angi, and Modernize; final cost depends on mounting type, roof covering, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
+    'VELUX and Fakro skylights installed with the matched flashing kit to manufacturer specification.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free skylight installation repair estimate in Irvington — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for skylight installation repair in Irvington.',
+    urgencyNote: 'Addressing a skylight leak early limits interior and structural water damage.',
   },
 };
