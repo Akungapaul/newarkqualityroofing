@@ -1,0 +1,70 @@
+import type { ComboContent } from '../schema';
+
+export const bloomfieldRoofThermalImagingInspections: ComboContent = {
+  serviceId: 'roof-thermal-imaging-inspections',
+  cityId: 'bloomfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof thermal imaging inspections across Bloomfield, New Jersey, and Essex County, scanning Broad Street, Bloomfield Avenue, and Garden State Parkway-corridor flat roofs and flat-roofed two-family homes for wet insulation** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**A roof thermal imaging inspection** is a non-destructive infrared survey that scans a roof surface for temperature anomalies marking moisture-contaminated insulation beneath an intact membrane. It applies ASTM C1153, the standard practice for locating wet insulation in roofing systems using infrared imaging, then verifies each anomaly by core cut.',
+  overview: [
+    '**Newark Quality Roofing scans the flat and low-slope membranes** that cover Bloomfield\'s commercial spine and its dense two-family and garden-apartment stock, reading wet insulation through an intact membrane that no surface walk reveals.',
+    '**Bloomfield\'s flat-roofed two-family homes and postwar garden apartments** hold a slight majority of the township\'s units, and decades of recovers and re-coats on those buildings trap moisture between membrane layers. A non-destructive infrared survey crosses these large EPDM, TPO, and modified-bitumen fields faster than a point-by-point moisture-meter sweep, per the NRCA and IIBEC, and a Newark Quality Roofing scan maps the trapped-moisture footprint a surface look misses before a repair or recover scope sets the affected area.',
+    '**A Bloomfield landlord weighing a re-coat against a tear-off** across the township\'s even owner-renter split orders a scan to see the wet area first. Wet insulation carries a higher heat capacity and cools more slowly than dry insulation, so after sunset the moisture-contaminated areas stay warmer and read as warm anomalies, per Fluke and IIBEC. A Newark Quality Roofing inspection applies ASTM C1153, the standard practice for locating wet insulation in roofing systems using infrared imaging, per ASTM and the NRCA, mapping the wet footprint that separates a partial repair from a portfolio-scale replacement.',
+    '**The Broad Street, Bloomfield Avenue, and Garden State Parkway storefronts and mixed-use buildings** carry the low-slope roofs where ponding water remaining more than 48 hours counts as a defect and a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. In low-lying Watsessing, drainage near Watsessing Park\'s Second River and Toney\'s Brook keeps these membranes wet longer, so a Newark Quality Roofing scan maps the saturated area before a coating or repair scope proceeds.',
+  ],
+  challenges: [
+    '**Decades of recovers on Bloomfield\'s flat roofs** spread wet insulation well away from the point water actually entered, so an intermittent leak that no visual inspection pins down still leaves a moisture footprint offset from the breach. An infrared survey reads the saturated insulation rather than the water path itself, per Fluke, and a Newark Quality Roofing scan maps that wet area and verifies each anomaly under ASTM C1153, per IIBEC.',
+    '**The HVAC-crowded rooftops of Broad Street and Bloomfield Avenue** make a confident read harder, because rooftop units, a structural member, or an interior heat source each throw a warm pattern that mimics moisture on the scan. An infrared camera detects temperature patterns rather than water directly, per Fluke, IIBEC, and the NRCA, so a Newark Quality Roofing technician sorts a true moisture anomaly from these confounders and verifies each suspected wet area by core cut, probe, or calibrated moisture meter as ASTM C1153 requires.',
+    '**Brookdale\'s mature canopy** drops leaf and branch debris that a scan clears off the surface first, because the ASTM C1153 optimal conditions call for no appreciable precipitation in roughly the prior 48 hours, a dry surface clear of standing water, snow, and debris, wind under about 15 mph, and an adequate temperature differential on a clear sunny day followed by a clear night, per ASTM C1153 via IIBEC and Fluke. Winter narrows the wet-area contrast to roughly 5°F against roughly 20°F in summer, so a Newark Quality Roofing technician confirms an adequate differential before the scan.',
+    '**Occupied units below the roof** shape how a scan reaches Bloomfield\'s two-family homes and garden apartments, since the roof read and any follow-up core cut both touch interior space that a tenant occupies. New Jersey landlord-tenant notice governs that entry, so a Newark Quality Roofing inspection arranges the access ahead of time and hands the landlord or property manager a documented finding for the owner, lender, or insurer record.',
+  ],
+  process: [
+    '**Timing a Bloomfield scan to the ASTM C1153 optimal conditions** opens the window for an accurate read on a flat roof. Those conditions call for no appreciable precipitation in roughly the prior 48 hours, a dry surface clear of standing water and debris, wind under about 15 mph, and an adequate temperature differential, per ASTM C1153 via IIBEC, the NRCA, and Fluke. The technician reads the roof after sunset, when a dry Garden State Parkway-corridor membrane sheds its day\'s heat fast while a wet area lags and holds a warm anomaly, the sharpest contrast a scan gets, per ASTM C1153 via IIBEC and Fluke.',
+    '**The technician walks the membrane field with a calibrated infrared imager**, flagging warm anomalies across the broad garden-apartment and storefront roofs that dominate Bloomfield\'s flat-roof stock. An imager resolving a temperature difference of roughly 0.2°F catches the contrast, yet a structural member, a rooftop unit, or an interior heat source throws a thermal pattern that mimics moisture, so the technician confirms each suspected wet area at a core cut, because an infrared camera detects temperature rather than water directly, per ASTM C1153 and Fluke.',
+    '**A verified moisture map keyed to the Bloomfield roof plan** drives the repair-versus-replacement decision and the permit path that follows. The mapped extent separates a selective repair of the wet area from a full membrane replacement, per IIBEC and the NRCA. On a commercial, multi-family, or attached Bloomfield building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Bloomfield\'s construction office, per N.J.A.C. 5:23-2.7 and the NJ Uniform Construction Code, with recover-versus-tear-off limits set by the Rehab Subcode at N.J.A.C. 5:23-6.4.',
+  ],
+  faqs: [
+    {
+      question: 'What standard governs a roof thermal imaging inspection on a Bloomfield flat roof?',
+      answer:
+        'A scan on a Bloomfield commercial or multi-family flat roof follows ASTM C1153, the Standard Practice for Location of Wet Insulation in Roofing Systems Using Infrared Imaging, per ASTM and the NRCA. As the most commonly used infrared roof moisture standard, it requires that every suspected wet area be verified by core cut, probe, or calibrated moisture meter.',
+    },
+    {
+      question: 'Why scan a Bloomfield commercial or garden-apartment roof after sunset?',
+      answer:
+        'A scan reads a Bloomfield commercial or garden-apartment roof after sunset because moisture-contaminated insulation cools more slowly than dry insulation, so as the dry membrane releases heat the wet area holds a warm anomaly, per IIBEC and Fluke. ASTM C1153 sets optimal conditions of a clear sunny day followed by a clear night, with no appreciable precipitation in roughly the prior 48 hours.',
+    },
+    {
+      question: 'Does a thermal scan find the exact leak on a Bloomfield two-family or storefront roof?',
+      answer:
+        'A thermal scan maps where moisture has soaked the insulation under a Bloomfield roof, not the exact spot water broke through, because that saturated footprint sits displaced from the breach, per Fluke, IIBEC, and the NRCA. The camera reads temperature, not water, so a core cut, probe, or calibrated moisture meter verifies each anomaly under ASTM C1153, while a surface inspection of the membrane, seams, and flashing pins the likely entry point.',
+    },
+    {
+      question: 'Should a Bloomfield landlord scan before re-coating a garden-apartment or storefront roof?',
+      answer:
+        'A wet-insulation survey before a recover or coating maps the saturated insulation a contractor cuts out and replaces first, because coating over wet insulation traps the moisture and shortens the new system\'s service life, per IIBEC and the NRCA. On Bloomfield\'s recover-layered two-family and garden-apartment roofs, ASTM C1153 verifies each suspected wet area by core cut before the scope sets the area to remove and rebuild with dry insulation.',
+    },
+    {
+      question: 'How much does a roof thermal imaging inspection cost in Bloomfield, NJ?',
+      answer:
+        'Pricing on a Bloomfield thermal scan tracks the roof\'s size, slope, and access, plus the core-cut, probe, or calibrated moisture-meter verification ASTM C1153 attaches to each anomaly on top of the infrared pass, per ASTM C1153 and the NRCA. A typical NJ roof-inspection range runs $400–$1,000 per HomeAdvisor; the final figure follows roof size, access, and that verification work. Newark Quality Roofing provides a free written estimate.',
+    },
+  ],
+  metaDescription:
+    'Roof thermal imaging in Bloomfield NJ — ASTM C1153 infrared moisture scans for flat-roofed two-family, garden-apartment, and Broad Street commercial roofs.',
+  pricing: {
+    range: '$400–$1,000',
+    note: 'Typical NJ roof-inspection range per HomeAdvisor; final cost depends on roof size, slope, access, and the core-cut verification ASTM C1153 requires. Newark Quality Roofing provides a free written estimate.',
+  },
+  whyChooseUs: [
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Scans under ASTM C1153 with each suspected wet area verified by core cut, probe, or calibrated moisture meter.',
+    'Local Essex County crew familiar with Bloomfield\'s flat-roofed two-family, garden-apartment, and Broad Street commercial building stock.',
+    'Wet-insulation findings documented with a moisture map and photos for your records and any insurance claim.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free written estimate for a roof thermal imaging inspection in Bloomfield.',
+    urgencyNote: 'Mapping hidden wet insulation before a recover or coating limits deck deterioration and avoids coating over trapped moisture.',
+  },
+};

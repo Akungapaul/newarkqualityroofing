@@ -1,0 +1,317 @@
+{
+  "confirmed": [
+    {
+      "combo": "wind-damage-roof-repair",
+      "field": "faqs[3].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The wind-claim deductible-structure claim is attributed to \"the NJ Department of Banking and Insurance,\" which is not a pack-verified source for this specific assertion (no NJ regulatory pack documents an all-perils-vs-named-storm-deductible structure tied to DOBI). The committed Irvington gold combo states the same point but attributes it to Triple-I and NAIC (and adds the 1%-5%-of-dwelling-Coverage-A range), which is the pack/gold-consistent attribution. This is a cross-combo attribution inconsistency on the identical fact.",
+      "evidence": "\"A standard New Jersey homeowners policy covers wind as a named peril, with the all-perils deductible applying to a wind claim, per the NJ Department of Banking and Insurance. Some policies add a separate named-storm deductible set as a percentage of the dwelling limit.\"",
+      "suggestedFix": "Re-pin to the Triple-I/NAIC attribution the Irvington gold uses. Before: \"...with the all-perils deductible applying to a wind claim, per the NJ Department of Banking and Insurance. Some policies add a separate named-storm deductible set as a percentage of the dwelling limit.\" After: \"...with the all-perils deductible applying to a wind claim. Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling limit, commonly 1%-5% of the dwelling Coverage A limit, per Triple-I and NAIC, so the policy declarations page states which deductible applies.\"",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present exactly as quoted in src/data/combo-content/bloomfield/wind-damage-roof-repair.ts (faqs[3], \"Does my insurance cover wind damage to my roof in Bloomfield?\"): \"...with the all-perils deductible applying to a wind claim, per the NJ Department of Banking and Insurance. Some policies add a separate named-storm deductible set as a percentage of the dwelling limit.\" This is a real source-attribution defect.\n\nPack verification (.planning/content-system/research/facts-replacement-reroofing-insurance.md): the substantive wind-coverage / named-peril / all-perils-deductible / percentage-named-storm-deductible structure is consistently attributed to Triple-I and NAIC. §1 line 196 (\"Percentage / named-storm / hurricane deductibles exist ... commonly ~1%-5% of insured value [Coverage A]\") = \"Insurance Information Institute (Triple-I); NAIC | PRIMARY-attrib\"; line 197 (NJ among states with named-storm deductibles) = Triple-I; NAIC; sources roster lines 401/422-423 reaffirm \"percentage/hurricane deductibles\" = NAIC + Triple-I. By contrast, NJ DOBI appears in the pack ONLY as the administrator of the public-adjuster statute (N.J.S.A. 17:22B), the unfair-claims-settlement rule (N.J.A.C. 11:2-17), and the hurricane-deductible NOTICE rule (N.J.A.C. 11:2-42) — DOBI is never documented as the source for the wind-as-named-peril / deductible-structure consumer assertion. So \"per the NJ Department of Banking and Insurance\" is an unverified, mis-pinned attribution for this specific claim.\n\nCross-combo: the committed Irvington gold combo (src/data/combo-content/irvington/wind-damage-roof-repair.ts, faqs[3]) states the identical fact and attributes it to \"Triple-I and NAIC,\" adds the pack-verified \"commonly 1%-5% of the dwelling Coverage A limit,\" and closes with the declarations-page line. Bloomfield diverges from both the pack tier table and the gold sibling — a genuine cross-combo attribution inconsistency on the identical fact.\n\nNo Bloomfield-specific fact is implicated (Third-River geography, conditional Ch.302 COA, owner-renter split, neighborhoods) — this is a generic insurance assertion, so the fix is a pure re-attribution. The Bloomfield FAQ already carries the wind/hail 2.8% Triple-I stat in its third sentence (matching gold), so only the first/second sentences need re-pinning; the third sentence is preserved.",
+      "finalFix": "Before: \"A standard New Jersey homeowners policy covers wind as a named peril, with the all-perils deductible applying to a wind claim, per the NJ Department of Banking and Insurance. Some policies add a separate named-storm deductible set as a percentage of the dwelling limit. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute, and a Newark Quality Roofing assessment documents the damage with timestamped photographs for the adjuster.\"\n\nAfter: \"A standard New Jersey homeowners policy covers wind as a named peril, with the all-perils deductible applying to a wind claim. Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling limit, commonly 1%-5% of the dwelling Coverage A limit, per Triple-I and NAIC, so the policy declarations page states which deductible applies. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute, and a Newark Quality Roofing assessment documents the damage with timestamped photographs for the adjuster.\""
+    },
+    {
+      "combo": "metal-roof-installation-repair",
+      "field": "process[1]",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Carries the banned NRCA \"extends roof life by up to 25%\" ventilation figure. The brief's source-attribution checklist explicitly flags this figure (\"gold combos dropped it; keep the qualitative point\"); it is an UNVERIFIED quantified ventilation claim that the gold Bloomfield city page and Orange combo do not carry.",
+      "evidence": "\"...corrects undersized ventilation, because proper attic ventilation extends roof life by up to 25%, per the NRCA.\"",
+      "suggestedFix": "Drop the figure, keep the qualitative point: \"...corrects undersized ventilation, because balanced attic ventilation slows the heat- and moisture-driven shingle/underside deterioration that shortens roof life, per the NRCA.\" (Remove \"by up to 25%\".)",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim at process[1]: \"...corrects undersized ventilation, because proper attic ventilation extends roof life by up to 25%, per the NRCA.\" This is a REAL defect, not a false positive:\n\n1) The batch's OWN orchestrator-sweep encodes this exact figure as banned. /Users/akungapaul/Projects/Newarkqualityroofing/.planning/content-system/combo-batch5-bloomfield/_orchestrator-sweep.mjs rule B reads: \"banned NRCA 'extends roof (service) life by up to 25%' vent stat → drop the figure\" with substitution [/ by up to 25%, per the NRCA/g, ', per the NRCA'] and the inline comment \"gold combos dropped it; keep the qualitative point\" — verbatim the finding's basis. The sweep evidently did not catch this instance (it ran on the file but this clause survived, or the file was authored/edited after the sweep).\n\n2) The committed GOLD combos confirm the pattern. Irvington gold (src/data/combo-content/irvington/metal-roof-installation-repair.ts process line): \"proper attic ventilation extends roof life, per the NRCA\" — no figure. Orange gold (faqs): \"Proper attic ventilation extends roof life, per the NRCA\" — no figure. Both retain the qualitative NRCA point and drop the quantified \"up to 25%.\"\n\n3) The figure is an UNVERIFIED quantified ventilation claim with no anchor in the fact packs; the qualitative point (\"extends roof life, per the NRCA\") is what is licensed.\n\nNOTE: process[1] is only ONE of two instances of this banned figure in the file. faqs[0] (line 31) ALSO carries \"Proper attic ventilation extends roof life by up to 25%, per the NRCA.\" The finding scopes only process[1], so the finalFix below addresses process[1]; the faqs[0] instance is a separate (identical) occurrence that the same sweep rule should remove. I apply the minimal sanctioned fix (the sweep's own substitution) rather than the finding's more elaborate rewrite, to preserve cross-combo voice consistency with the gold combos.",
+      "finalFix": "In process[1], change \"because proper attic ventilation extends roof life by up to 25%, per the NRCA.\" → \"because proper attic ventilation extends roof life, per the NRCA.\" (Delete \" by up to 25%\" only; keep the qualitative point and the NRCA attribution, matching the Irvington/Orange gold combos and the orchestrator-sweep rule B substitution.) NOTE: the identical banned figure also appears in faqs[0] (\"Proper attic ventilation extends roof life by up to 25%, per the NRCA\") and should receive the same deletion via the sweep, though it is outside this finding's cited field."
+    },
+    {
+      "combo": "metal-roof-installation-repair",
+      "field": "faqs[0].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Second instance of the banned NRCA \"extends roof life by up to 25%\" ventilation figure inside the lifespan FAQ first answer.",
+      "evidence": "\"...per the InterNACHI life-expectancy chart. Proper attic ventilation extends roof life by up to 25%, per the NRCA, and standing-seam panels outlast exposed-fastener metal...\"",
+      "suggestedFix": "Remove the quantified clause: \"...per the InterNACHI life-expectancy chart. Balanced attic ventilation extends metal-roof service life, per the NRCA, and standing-seam panels outlast exposed-fastener metal...\"",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim at faqs[0].answer (line 31): \"...per the InterNACHI life-expectancy chart. Proper attic ventilation extends roof life by up to 25%, per the NRCA, and standing-seam panels outlast exposed-fastener metal...\". The quantified \"up to 25%\" ventilation figure attributed to the NRCA is NOT verbatim-confirmed and is a documented banned figure: facts-components-specialty.md:232 states \"~20–30% / up to 25% circulates but NOT verbatim-confirmed... NRCA condensation/warranty point is the firmer basis\"; facts-cost-stats.md:75 marks it \"cited via industry,\" not a direct NRCA publication. The recurring orchestrator sweep across every prior combo batch (Newark, East Orange, Orange, Irvington) explicitly de-quantified this to \"extends roof life, per the NRCA.\" The committed GOLD (Orange faqs[0], line 31: \"Proper attic ventilation extends roof life, per the NRCA.\") and the committed sibling (Irvington faqs[0] and process[0]) both carry only the qualitative NRCA-attributed claim with no \"up to 25%.\" Bloomfield is out of line with both, carrying the banned figure in faqs[0].answer (the cited field) AND in process[0] (line 23) — the finding's \"second instance\" framing is accurate by document order. This is a genuine source-attribution defect: it asserts a quantified figure the NRCA does not publish. The fix de-quantifies, preserving the NRCA attribution and all surrounding lifespan/standing-seam facts, and brings the file in line with the committed gold/sibling voice. Note: process[0] (line 23) carries the same banned clause and should be swept in the same fix pass, though it is outside this finding's cited field.",
+      "finalFix": "In faqs[0].answer, change \"...per the InterNACHI life-expectancy chart. Proper attic ventilation extends roof life by up to 25%, per the NRCA, and standing-seam panels outlast exposed-fastener metal because the concealed fasteners resist the freeze-thaw cycling of a Bloomfield winter.\" → \"...per the InterNACHI life-expectancy chart. Proper attic ventilation extends roof life, per the NRCA, and standing-seam panels outlast exposed-fastener metal because the concealed fasteners resist the freeze-thaw cycling of a Bloomfield winter.\" (Orchestrator should also sweep the same \"extends roof life by up to 25%, per the NRCA\" → \"extends roof life, per the NRCA\" in process[0] at line 23.)"
+    },
+    {
+      "combo": "residential-roof-installation",
+      "field": "challenges[0]",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Carries the banned NRCA \"extends roof life up to 25%\" ventilation figure (same defect the brief flags; gold pages dropped it).",
+      "evidence": "\"The NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, and balanced ventilation extends roof life up to 25%, per the NRCA.\"",
+      "suggestedFix": "Keep the 1:150 vent-ratio standard (sourced) but drop the percentage: \"...per 150 square feet of attic floor, and balanced ventilation slows the heat- and moisture-driven deterioration that shortens roof life, per the NRCA.\"",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in challenges[0]: \"...per 150 square feet of attic floor, and balanced ventilation extends roof life up to 25%, per the NRCA.\" This is the exact banned construction. The research fact pack facts-components-specialty.md §8 (lines 232–237) flags the \"up to 25%\" figure as \"NOT verbatim-confirmed\" — an industry estimate that merely \"circulates,\" with the firmer NRCA basis being condensation/warranty, not a quantified percentage — and explicitly lists under **Banned**: \"exact NRCA 'up to 25%' or ARMA '20–30%' as a verbatim published stat.\" Attributing \"up to 25%, per the NRCA\" is therefore a source-attribution violation (false precision pinned to a named source). The committed GOLD (orange/residential-roof-installation.ts) and committed siblings (east-orange, irvington) for this same service all KEEP the sourced 1:150 vent-ratio but state the life consequence qualitatively — \"trapped heat and moisture shorten roof life, per the NRCA\" — and pointedly do NOT carry the percentage, confirming the gold pages dropped it. The Bloomfield combo is the outlier. (The same defect recurs in this file's faqs[3]; that is out of this finding's scope but should be swept by the orchestrator.) The 1:150 standard itself (IRC R806.2 / NRCA / ARMA) is correctly sourced and must be preserved — fix relocates/re-attributes the consequence rather than deleting the standard.",
+      "finalFix": "In src/data/combo-content/bloomfield/residential-roof-installation.ts, challenges[0]: replace \"The NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, and balanced ventilation extends roof life up to 25%, per the NRCA.\" with \"The NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, and balanced ventilation slows the heat- and moisture-driven deterioration that shortens roof life, per the NRCA.\""
+    },
+    {
+      "combo": "residential-roof-installation",
+      "field": "faqs[3].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Second instance in this file of the banned NRCA \"extends roof life up to 25%\" ventilation figure.",
+      "evidence": "\"Balanced attic ventilation extends roof life up to 25%, per the NRCA, so a Newark Quality Roofing installation corrects undersized venting and sets ice-and-water shield at the eaves...\"",
+      "suggestedFix": "Remove the quantified clause: \"Balanced attic ventilation extends roof service life, per the NRCA, so a Newark Quality Roofing installation corrects undersized venting and sets ice-and-water shield at the eaves...\"",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in faqs[3].answer (line 46 of /Users/akungapaul/Projects/Newarkqualityroofing/src/data/combo-content/bloomfield/residential-roof-installation.ts): \"Balanced attic ventilation extends roof life up to 25%, per the NRCA, so a Newark Quality Roofing installation corrects undersized venting and sets ice-and-water shield at the eaves to push performance toward the upper end of the range.\" It is genuinely the SECOND instance in the file; the first is in challenges[0] (line 17): \"balanced ventilation extends roof life up to 25%, per the NRCA.\"\n\nThe quantified figure is a real banned-source violation, not a false positive. facts-components-specialty.md lines 232–237 explicitly place the \"exact NRCA 'up to 25%'... as a verbatim published stat\" on the Banned list, and line 232 grades the ventilation-extends-shingle-life claim as \"'industry estimate' only (~20–30% / up to 25% circulates but NOT verbatim-confirmed)... NRCA condensation/warranty point is the firmer basis | SECONDARY.\" Although facts-cost-stats.md line 75 lists the figure as [PRIMARY-attrib] \"(cited via industry),\" the explicit Banned governance directive in facts-components-specialty.md is the controlling signal, and it is reinforced by the cross-batch orchestrator-sweep precedent (Newark, East Orange, Orange, Irvington all dropped the banned \"up to 25%\" vent figure). Attaching the precise quantification to \"per the NRCA\" misrepresents a non-verbatim secondary industry estimate as a primary NRCA statistic — exactly the de-fabrication pattern the prior combo batches enforced.\n\nThe qualitative claim that balanced ventilation extends roof life is itself supported (facts-causes-signs.md §238: \"Attic ventilation... extends shingle life... NRCA; ARMA; GAF\"), so the NRCA attribution can stay; only the \"up to 25%\" quantifier must be removed. The suggested fix de-quantifies to \"extends roof service life, per the NRCA\" while preserving sentence structure, attribution, and downstream clauses. This relocates/re-attributes rather than deleting content and preserves facts.\n\nNote: line 17 (challenges) carries the same banned figure and should be swept in the same fix pass, but this finding scopes faqs[3].answer specifically.",
+      "finalFix": "In faqs[3].answer, change: \"Balanced attic ventilation extends roof life up to 25%, per the NRCA, so a Newark Quality Roofing installation corrects undersized venting and sets ice-and-water shield at the eaves to push performance toward the upper end of the range.\" → \"Balanced attic ventilation extends roof service life, per the NRCA, so a Newark Quality Roofing installation corrects undersized venting and sets ice-and-water shield at the eaves to push performance toward the upper end of the range.\" (Recommended companion sweep: apply the same de-quantification to challenges[0] line 17, \"balanced ventilation extends roof life up to 25%, per the NRCA\" → \"balanced ventilation extends roof service life, per the NRCA,\" since the banned figure appears there too.)"
+    },
+    {
+      "combo": "spray-foam-roofing",
+      "field": "overview[2]",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "A failure-mode claim (TPO 'welded seams = most common failure mode'; EPDM 'seam separation = dominant failure mode') is pinned in part to 'the InterNACHI life-expectancy chart.' InterNACHI is a lifespan/life-expectancy chart ONLY — it does not back failure modes. This is the recurring NQR InterNACHI-misattribution defect. Every other cohort file correctly attributes these same failure modes to NRCA / single-ply field-failure guidance (epdm overview/challenges → 'per NRCA technical guidance'; tpo overview/challenges → 'per single-ply membrane field-failure guidance'), making this an internal cross-combo inconsistency too.",
+      "evidence": "'...eliminating the welded seams that rank as the most common TPO failure mode and the seam separation that ranks as the dominant EPDM failure mode, per the InterNACHI life-expectancy chart and NRCA technical guidance.'",
+      "suggestedFix": "Drop the InterNACHI portion so the failure-mode claim rests only on NRCA, matching the rest of the cohort. Before: '...the dominant EPDM failure mode, per the InterNACHI life-expectancy chart and NRCA technical guidance.' After: '...the dominant EPDM failure mode, per NRCA technical guidance.'",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim at overview[2] (line 13): \"...eliminating the welded seams that rank as the most common TPO failure mode and the seam separation that ranks as the dominant EPDM failure mode, per the InterNACHI life-expectancy chart and NRCA technical guidance.\" InterNACHI is a lifespan/life-expectancy source ONLY. The research packs confirm this: facts-materials-economics.md §0/§4 cite InterNACHI exclusively for the \"Standard Estimated Life Expectancy Chart\" lifespan numbers (TPO 7–20 yr, EPDM 15–25 yr), while the FAILURE MODES are sourced separately — EPDM \"seam separation (dominant failure mode)\" and TPO \"welded-seam failure (most common)\" are both tagged [SECONDARY, qualitative] under \"Common repair issues,\" NOT to InterNACHI. The committed sibling Bloomfield combos prove the correct attribution and a real internal inconsistency: epdm-commercial-roofing.ts pins \"Seam separation is the dominant EPDM failure mode, per NRCA technical guidance\" (with InterNACHI cited only for lifespan), and tpo-roofing-installation.ts pins \"TPO fails most often at the welded seams, per single-ply membrane field-failure guidance\" (with InterNACHI cited only for lifespan). The spray-foam combo wrongly appended InterNACHI to a failure-mode claim. This is the recurring NQR InterNACHI-misattribution defect plus a cross-combo inconsistency. NRCA already correctly backs the failure-mode claim in the same sentence, so dropping the InterNACHI portion loses no fact (InterNACHI never backed failure modes) — the fix is a re-attribution, not a deletion of substance. No Bloomfield fact, entity-grounding, or third-party-licensed-cite concern is implicated.",
+      "finalFix": "In overview[2], change \"...eliminating the welded seams that rank as the most common TPO failure mode and the seam separation that ranks as the dominant EPDM failure mode, per the InterNACHI life-expectancy chart and NRCA technical guidance.\" to \"...eliminating the welded seams that rank as the most common TPO failure mode and the seam separation that ranks as the dominant EPDM failure mode, per NRCA technical guidance.\""
+    },
+    {
+      "combo": "tpo-roofing-installation",
+      "field": "challenges[1] and process[1]",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The N.J.A.C. 5:23-6.4 recover-prohibition material list is rendered with the ABBREVIATED 'wood, slate, or tile' instead of the full statutory list 'wood shake, slate, clay, cement, or asbestos-cement tile' (facts-nj-regulatory-climate.md §1.4). The brief and ruleset flag this exact abbreviation as a recurring defect; the committed gold combos (Orange/Irvington) use the full list and ZERO gold combos use the abbreviated form. Appears twice in this file (challenges[1] line 18, process[1] line 24).",
+      "evidence": "'N.J.A.C. 5:23-6.4 prohibits a recover when the existing covering is water-soaked, is wood, slate, or tile, or already carries 2 or more layers.' (challenges[1] and process[1])",
+      "suggestedFix": "Expand the material clause to the full statutory list in both occurrences. Before: '...is water-soaked, is wood, slate, or tile, or already carries 2 or more layers.' After: '...is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers.' (Re-run audit-leads after expansion — the longer clause can push the process[1] lead over 40 words; tighten elsewhere in that sentence if needed.)",
+      "verdict": "confirmed",
+      "reasoning": "REAL defect. The offending abbreviated form \"is wood, slate, or tile\" is present verbatim in both cited fields: challenges[1] (line 18) and process[1] (line 24) of src/data/combo-content/bloomfield/tpo-roofing-installation.ts. It mis-states N.J.A.C. 5:23-6.4. The authoritative fact pack .planning/content-system/research/facts-nj-regulatory-climate.md §1.4 (line 63) gives the full statutory list: \"wood shake, slate, clay, cement, or asbestos-cement tile.\" The Bloomfield abbreviation (a) drops \"clay, cement, or asbestos-cement,\" (b) shortens \"wood shake\" to \"wood,\" and (c) leaves \"tile\" un-qualified — a material source-attribution error. The committed GOLD exemplars confirm: the directly parallel combos orange/tpo-roofing-installation.ts and irvington/tpo-roofing-installation.ts both render the full list \"wood shake, slate, clay, cement, or asbestos-cement tile\" in the same challenges/process/FAQ positions, and ZERO committed Orange/Irvington combos use the abbreviated form. MEMORY/the orchestrator brief explicitly flags abbreviated 5:23-6.4 lists as a recurring cross-file defect to sweep. The fix imports no Orange/Irvington COA or geography (it is a pure statutory-list correction), so it is safe and required. The finding's word-count caveat is moot under the batch-4 patched audit-leads (lead measured by the bold span): process[1]'s bold lead is 26 words and the expansion lands in the second, non-bold sentence; challenges[1]'s bold span is just \"Existing roof layers.\" No lead overflows. Note: cedar-shake combos in Orange/Irvington intentionally use a wood-shake-only short form for the cedar context, but the TPO context requires the full recover-prohibition list as the parallel TPO combos demonstrate.",
+      "finalFix": "In src/data/combo-content/bloomfield/tpo-roofing-installation.ts, expand the abbreviated material clause to the full statutory list in BOTH occurrences (identical edit each time).\n\nchallenges[1] (line 18):\nBEFORE: '...because N.J.A.C. 5:23-6.4 prohibits a recover when the existing covering is water-soaked, is wood, slate, or tile, or already carries 2 or more layers.'\nAFTER:  '...because N.J.A.C. 5:23-6.4 prohibits a recover when the existing covering is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers.'\n\nprocess[1] (line 24):\nBEFORE: '...while N.J.A.C. 5:23-6.4 prohibits a recover when the existing covering is water-soaked, is wood, slate, or tile, or already carries 2 or more layers.'\nAFTER:  '...while N.J.A.C. 5:23-6.4 prohibits a recover when the existing covering is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers.'\n\n(Both expansions occur outside the ≤40w bold lead span — process[1] bold lead = 26 words, unaffected — so no re-tightening is needed; still re-run audit-leads to confirm.)"
+    },
+    {
+      "combo": "commercial-metal-roofing",
+      "field": "process[1], faqs[3].answer, faqs[4].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Same abbreviated N.J.A.C. 5:23-6.4 material list 'wood, slate, or tile' instead of the full statutory list 'wood shake, slate, clay, cement, or asbestos-cement tile.' Appears three times (process[1] line 24; permit FAQ line 46; overlay FAQ line 51). Inconsistent with the full list used in the committed gold combos.",
+      "evidence": "'When the existing roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, the NJ Rehabilitation Subcode requires complete removal of the existing covering, per N.J.A.C. 5:23-6.4.' (and two FAQ repeats)",
+      "suggestedFix": "Expand to the full list in all three occurrences. Before: '...is water-soaked, is wood, slate, or tile, or already carries 2 or more layers...' After: '...is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers...'",
+      "verdict": "confirmed",
+      "reasoning": "VERIFIED PRESENT: All three occurrences are present in src/data/combo-content/bloomfield/commercial-metal-roofing.ts exactly as cited — process[1] (line 24), the permit FAQ faqs[3].answer (line 46), and the overlay FAQ faqs[4].answer (line 51) each read \"is wood, slate, or tile.\"\n\nSOURCE VIOLATION: The fact packs give the FULL statutory N.J.A.C. 5:23-6.4 list verbatim as \"wood shake, slate, clay, cement, or asbestos-cement tile\" (facts-replacement-reroofing-insurance.md:317 and facts-nj-regulatory-climate.md:63). The abbreviated \"wood, slate, or tile\" mis-attributes the cited source by truncating its statutory enumeration: it drops \"clay,\" \"cement,\" and \"asbestos-cement,\" and reduces \"wood shake\" to a bare \"wood.\" The fact pack specifically stresses that NJ's subcode EXPRESSLY ADDS \"wood shake\" (unlike the model IRC R908.3.1.1) — so dropping \"shake\" erodes the exact NJ-vs-IRC distinction the named source establishes.\n\nCROSS-COMBO CONSISTENCY VIOLATION: The full list \"wood shake, slate, clay, cement, or asbestos-cement tile\" appears in 53 committed gold combo occurrences (Newark/EO/Orange/Irvington). The abbreviated \"wood, slate, or tile\" appears in ZERO committed gold combos — it occurs only in 7 in-progress Bloomfield files. The directly comparable gold exemplar — Newark's own commercial-metal-roofing.ts (SAME service object), permit FAQ line 45 — uses the full list. This is a documented orchestrator cross-file-recurrence sweep target (\"abbreviated 5:23-6.4 list\").\n\nNO COUNTERVAILING CONSTRAINT: The three occurrences are in process and FAQ bodies, none of which are the ≤40-word-gated directAnswer or strict body-lead first sentence, so expanding the list cannot re-break a word-count gate. No Bloomfield-fact, COA/geography, or entity-grounding consideration bears on this. Finding is real and fixable.",
+      "finalFix": "Apply the same edit at all three occurrences (process[1] line 24; faqs[3].answer line 46; faqs[4].answer line 51).\nBefore: \"...is water-soaked, is wood, slate, or tile, or already carries 2 or more layers...\"\nAfter:  \"...is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers...\"\nThis matches the verbatim statutory list in facts-replacement-reroofing-insurance.md:317 / facts-nj-regulatory-climate.md:63 and the committed gold Newark commercial-metal-roofing.ts phrasing. Note: the orchestrator's batch sweep should also apply the identical expansion to the other 6 Bloomfield files carrying the abbreviated form (roof-replacement.ts ×3, storm-damage-roof-replacement.ts, metal-roof-replacement.ts ×3, tpo-roofing-installation.ts ×2, aging-roof-replacement.ts, residential-roof-installation.ts), but only the three occurrences in THIS combo are in scope for this finding."
+    },
+    {
+      "combo": "historic-roof-restoration",
+      "field": "overview[1]",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Unverified material-concentration assertion pinned to a named locale. The lead states as fact that slate/clay/wood/metal roofs 'define the character roofs near Bloomfield Center.' No source verifies that Bloomfield Center (or any specific Essex district) actually contains a concentration of slate/tile/metal historic roofs — facts-historic-restoration.md Gap §5 explicitly cautions against this exact 'concentration' claim ('Do not write \"many slate roofs in the [X] district\" as fact. Keep local copy generic unless verified'). NPS Brief 4 only establishes these as the region-appropriate historic materials generally, not that they characterize roofs at a named site.",
+      "evidence": "**Natural slate, clay tile, wood shingle, and historic metal** define the character roofs near Bloomfield Center, the historic civic core around the rectangular Bloomfield Green ringed by 19th- and early-20th-century civic, religious, and residential buildings.",
+      "suggestedFix": "Re-frame to the sourced, generic claim rather than a verified-concentration assertion: before→'**Natural slate, clay tile, wood shingle, and historic metal** define the character roofs near Bloomfield Center, the historic civic core around the rectangular Bloomfield Green ringed by 19th- and early-20th-century civic, religious, and residential buildings.' after→'**Natural slate, clay tile, wood shingle, and historic metal** are the region-appropriate historic roof materials on the pre-war buildings around Bloomfield Center, the historic civic core ringed by 19th- and early-20th-century civic, religious, and residential buildings, per NPS Preservation Brief 4.'",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in src/data/combo-content/bloomfield/historic-roof-restoration.ts overview[1]: \"**Natural slate, clay tile, wood shingle, and historic metal** define the character roofs near Bloomfield Center, the historic civic core around the rectangular Bloomfield Green ringed by 19th- and early-20th-century civic, religious, and residential buildings.\" The phrase \"define the character roofs near Bloomfield Center\" asserts as FACT that these four materials characterize/concentrate at a specific named locale. This directly violates a named-source caution. facts-historic-restoration.md Gap §5 (lines 408-412) states no one verified whether any specific Newark/Essex district \"actually contains a concentration of slate/tile/metal historic roofs. Do not write 'many slate roofs in the [X] district' as fact. Keep local copy generic unless verified,\" and the §9 banned list (line 311) explicitly bans \"naming a concentration of slate/tile/metal roofs in a specific district as fact (not verified).\" The fact pack only supports these four materials as REGION-APPROPRIATE historic roof materials for northern NJ/Essex County (line 189) and as those NAMED by NPS Brief 4 generally (line 187) — NOT that they characterize roofs at Bloomfield Center. The Bloomfield fact bank (line 280) verifies only that Bloomfield Center/Green is the civic core ringed by 19th-early-20th-c. civic, religious, and residential buildings; it asserts nothing about a slate/tile/metal roof concentration. This is a genuine, fixable source-attribution defect, not a gold-voice or third-party-credential issue. The fix re-frames to the sourced generic claim while preserving every verified fact (the four materials, Bloomfield Center as civic core, the building ring, the NPS Brief 4 attribution) — relocation/re-attribution, not deletion.",
+      "finalFix": "before: '**Natural slate, clay tile, wood shingle, and historic metal** define the character roofs near Bloomfield Center, the historic civic core around the rectangular Bloomfield Green ringed by 19th- and early-20th-century civic, religious, and residential buildings.'\nafter: '**Natural slate, clay tile, wood shingle, and historic metal** are the region-appropriate historic roof materials on the pre-war buildings around Bloomfield Center, the historic civic core around the rectangular Bloomfield Green ringed by 19th- and early-20th-century civic, religious, and residential buildings, per NPS Preservation Brief 4.'"
+    },
+    {
+      "combo": "aging-roof-replacement",
+      "field": "challenges[0]",
+      "severity": "high",
+      "category": "fabrication",
+      "issue": "Fabricated quantified replacement threshold with a false GAF attribution. The fact packs carry granule loss only as a QUALITATIVE wear sign (facts-materials-economics §81) and explicitly flag specific failure-share percentages as UNVERIFIED — '38% of calls are granule loss' etc. were 'invented by an unsourced pass; state qualitatively only' (§83). No pack supports a '30% of the surface, per GAF' beyond-repair threshold. The 30% figure here is also conflated with the genuine 30% repair-vs-replace cost rule (Kellow/Modernize/Josten), compounding the confusion.",
+      "evidence": "'because granule loss over 30% of the surface favors replacement, per GAF, and a repair cost over 30% of replacement crosses the contractor-consensus repair-vs-replace rule.'",
+      "suggestedFix": "Drop the fabricated number and the GAF cite for granule loss; de-quantify. Before: 'because granule loss over 30% of the surface favors replacement, per GAF, and a repair cost over 30% of replacement crosses the contractor-consensus repair-vs-replace rule.' After: 'because widespread granule loss, curling, and brittle flashing across the field favor replacement over spot repair, and a repair cost over 30% of replacement crosses the contractor-consensus 30% rule, per Kellow Roofing, Modernize, and Josten Roofing.' NOTE: this same fabricated 'granule loss exceeding 30%, per GAF' recurs outside the cohort in roof-cleaning-moss-removal.ts (overview/process) — orchestrator should sweep it batch-wide.",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present in challenges[0] verbatim. The fact packs support granule loss only QUALITATIVELY: facts-materials-economics §81 lists \"Wind-driven granule loss\" as a wear sign and labels the whole line \"(Qualitative — sourced to NRCA/GAF/InterNACHI general guidance)\"; §82 flags GAF-specific bulletin numbers as UNVERIFIED. No pack line supports a quantified \"30% of the surface\" granule-loss threshold attributed to GAF as favoring replacement. The two genuine 30% rules are unrelated: §88 = replace when >25–30% of roof AREA is damaged (RapidRestore/MyQuoteIQ/Kellow), and §90/§306 = repair cost > 30% of replacement → lean replace (Kellow/Modernize/Josten NJ). challenges[0] stacks a GAF-attributed quantified granule-loss \"favors replacement\" threshold directly against the repair-cost rule, conflating two distinct 30% rules and mis-attributing a quantified granule threshold to GAF — exactly the defect the finding describes. The finding slightly over-cites §83 (the §83 UNVERIFIED flag is about granule-loss CALL-SHARE percentages like \"38% of calls,\" not surface-area thresholds), but that does not save the text: the §81-qualitative-only constraint and the §90 misattribution are the real basis, and both hold. GOLD-EXEMPLAR CHECK: the verbatim committed-sibling phrasing \"granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF\" (Irvington aging-roof-replacement:36; Orange/EO roof-cleaning-moss-removal) survives in THIS file's FAQ (line 31), which the finding does NOT target — that FAQ stays. challenges[0] is a distinct, non-gold reframe (\"favors replacement, per GAF\" hard-stacked with the cost rule, hedge dropped) and is a genuine fixable fabrication/conflation. All Bloomfield geo/structure facts in the combo (pre-war Colonials, two-family/garden-apartment slight majority per B25024/Housing Element, Ch.302 listed-parcel COA, NOAA EWR proxy, even owner-renter split) verified accurate, so the issue is scoped solely to this clause. Fix de-quantifies the granule clause (back to §81 qualitative) and re-attributes the genuine repair-cost 30% rule to its real §90/§306 sources, preserving facts. NOTE for orchestrator: the matching \"per GAF\" granule phrasing in roof-cleaning-moss-removal.ts (overview/process) uses the gold \"rule-of-thumb, per GAF and InterNACHI\" framing and is NOT a challenges-style conflation — it is gold-consistent and should NOT be swept as a defect.",
+      "finalFix": "In src/data/combo-content/bloomfield/aging-roof-replacement.ts, challenges[0]:\nBEFORE: '**Repair-versus-replace timing** decides when a Bloomfield roof crosses from spot repair to full replacement, because granule loss over 30% of the surface favors replacement, per GAF, and a repair cost over 30% of replacement crosses the contractor-consensus repair-vs-replace rule. A localized repair stays economical only while an asphalt roof holds under 10 to 15 years, per industry repair-vs-replace guidance.'\nAFTER: '**Repair-versus-replace timing** decides when a Bloomfield roof crosses from spot repair to full replacement, because widespread granule loss, curling, and brittle flashing across the field favor replacement over spot repair, and a repair cost exceeding 30% of replacement crosses the 30% repair-vs-replace rule, per Kellow Roofing, Modernize, and Josten Roofing. A localized repair stays economical only while an asphalt roof holds under 10 to 15 years, per industry repair-vs-replace guidance.'"
+    },
+    {
+      "combo": "storm-damage-roof-replacement",
+      "field": "faqs[1].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Repair-vs-replace rule mis-pairing. Per the brief and facts-materials-economics §305-307: the 50% cost rule = WeatherShield/Home Depot, the 25% area rule = RapidRestore/MyQuoteIQ, and the 30% rule = Kellow/Modernize/Josten. This FAQ attributes BOTH the '25–30% area rule' AND the '50% cost rule' to 'Kellow Roofing, Modernize, and Josten Roofing' — those bodies are the source for the 30% rule only, not the 25% area rule or the 50% cost rule.",
+      "evidence": "'The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, attributed to Kellow Roofing, Modernize, and Josten Roofing...'",
+      "suggestedFix": "Re-pin each rule to its correct source. Before: '...are contractor-consensus thresholds, attributed to Kellow Roofing, Modernize, and Josten Roofing...' After: '...are contractor-consensus thresholds: the 25% area rule per RapidRestore and MyQuoteIQ and the 50% cost rule per WeatherShield and Home Depot...' (the sibling re-roofing.ts process[0] already pairs these correctly — 25% rule=RapidRestore, 50% rule=WeatherShield/Home Depot — match it).",
+      "verdict": "confirmed",
+      "reasoning": "duplicate-not-used",
+      "finalFix": "In faqs[1].answer, re-attribute each rule to its correct source per facts-materials-economics.md §305-307 (no facts deleted, only re-pinned). BEFORE: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, attributed to Kellow Roofing, Modernize, and Josten Roofing, and a Newark Quality Roofing assessment determines which path restores the roof, at no cost when an insurance claim is being filed.\" AFTER: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds — the 25% area rule per RapidRestore and MyQuoteIQ and the 50% cost rule per WeatherShield and Home Depot — and a Newark Quality Roofing assessment determines which path restores the roof, at no cost when an insurance claim is being filed.\""
+    },
+    {
+      "combo": "storm-damage-roof-replacement",
+      "field": "process[2]",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Abbreviated N.J.A.C. 5:23-6.4 recover-prohibition list. The full statutory list (per all three packs and the brief) is 'wood shake, slate, clay, cement, or asbestos-cement tile.' This combo writes only 'is wood, slate, or tile,' dropping shake/clay/cement/asbestos-cement. The cohort siblings (full-roof-tear-off, re-roofing, aging) use the full list correctly, so this is an internal inconsistency too. (Batch-wide: the abbreviated form also recurs in roof-replacement.ts, tpo-roofing-installation.ts, metal-roof-replacement.ts, commercial-metal-roofing.ts — orchestrator sweep.)",
+      "evidence": "'the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.'",
+      "suggestedFix": "Before: '...when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers...' After: '...when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers...'",
+      "verdict": "confirmed",
+      "reasoning": "The cited text is present verbatim in process[2] (line 25): \"...the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.\" This abbreviates a statutory list. The fact pack facts-nj-regulatory-climate.md §1.4 (line 63) states the full N.J.A.C. 5:23-6.4 list is \"wood shake, slate, clay, cement, or asbestos-cement tile\" (corroborated in facts-replacement-reroofing-insurance.md lines 106-113, which explicitly flag that NJ's 5:23-6.4 ADDS wood shake to the IRC R908.3.1.1 list). The combo writes \"is wood, slate, or tile,\" dropping shake/clay/cement/asbestos-cement AND mis-stating \"wood shake\" as bare \"wood\" — a material under-statement of a named statute (source-attribution defect). Internal inconsistency is confirmed: the cohort gold siblings full-roof-tear-off.ts and re-roofing.ts both write the full \"wood shake, slate, clay, cement, or asbestos-cement tile\" list, while storm-damage uses the truncated form (aging-roof-replacement.ts shares the same truncated error, and the batch-wide files roof-replacement/tpo/metal/commercial-metal all recur it — orchestrator sweep warranted). No Bloomfield-fact, entity-grounding (directAnswer/registered-HIC), or gold-voice consideration protects the abbreviated form; the third-party \"licensed public adjuster/Construction Official\" cites elsewhere in the file are correct and untouched. The fix corrects the enumerated list in place, re-attributing nothing and deleting no facts; \"water-soaked or deteriorated\" matches both the statute (condition 1) and the two fully-correct cohort siblings. Body-prose edit, not the ≤40w directAnswer, so no wordcount-gate risk.",
+      "finalFix": "In process[2], replace: \"the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.\" WITH: \"the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.\""
+    }
+  ],
+  "low": [
+    {
+      "combo": "metal-roof-installation-repair",
+      "field": "overview[3]",
+      "severity": "low",
+      "category": "bloomfield-fact",
+      "issue": "Overstates the inland salt-air exposure. The NJ regulatory-climate pack (§3.4) states coastal salt-air corrosion is \"less acute inland in Essex County\"; this asserts nor'easters actively carry salt air inland into Essex County, which the source qualifies as minimal. Bloomfield is an inland inner-ring township, not coastal.",
+      "evidence": "\"...and aluminum resists the salt air that nor'easters carry inland into Essex County.\"",
+      "suggestedFix": "Soften to match the pack: \"...and aluminum resists corrosion better than bare steel where coastal salt air reaches inland, an exposure the NJ climate pack notes is less acute inland in Essex County.\" Or drop the salt-air clause entirely and end at \"several asphalt-replacement cycles.\""
+    },
+    {
+      "combo": "asphalt-shingle-roofing",
+      "field": "faqs[2].answer",
+      "severity": "low",
+      "category": "fabrication",
+      "issue": "The \"rates near 60 mph\" 3-tab wind figure is not in the fact packs. The 130 mph / 6-nail architectural figure is committed gold (template-consistent, keep), but the paired 3-tab \"near 60 mph\" number has no named pack source — it is attributed loosely to \"ARMA and manufacturer guidance\" without appearing in materials-economics or the regulatory pack.",
+      "evidence": "\"...while 3-tab shingles use a single flat layer that lasts 20 years and rates near 60 mph.\"",
+      "suggestedFix": "De-quantify the 3-tab rating: \"...while 3-tab shingles use a single flat layer that lasts 20 years and carries a lower wind rating than architectural shingles.\" (Keep the architectural 130 mph / 6-nail figure as committed gold.)"
+    },
+    {
+      "combo": "wood-shake-roofing",
+      "field": "process[1] / faqs[0].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Abbreviated N.J.A.C. 5:23-6.4 recover-material list. The brief/§C requires the full statutory list (wood shake, slate, clay, cement, or asbestos-cement tile); process[1] writes \"wood shake, slate, clay, or tile\" and faq[0] writes only \"the existing wood shake,\" dropping cement and asbestos-cement tile.",
+      "evidence": "process[1]: \"...requires complete removal of a wood-shake, slate, or tile covering rather than a recover-over, per N.J.A.C. 5:23-6.4...\" (also \"complete removal of the existing wood shake, slate, clay, or tile\")",
+      "suggestedFix": "Use the full statutory list once: \"...requires complete removal where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, per N.J.A.C. 5:23-6.4.\" (Re-run audit-leads after expansion — the longer list can push a lead >40 words.)"
+    },
+    {
+      "combo": "cedar-shake-roofing",
+      "field": "process[1]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Abbreviated N.J.A.C. 5:23-6.4 recover-material list — writes \"wood-shake, slate, or tile,\" dropping clay, cement, and asbestos-cement tile from the full statutory list the brief specifies.",
+      "evidence": "\"The NJ Rehabilitation Subcode requires complete removal of a wood-shake, slate, or tile covering rather than a recover-over, per N.J.A.C. 5:23-6.4...\"",
+      "suggestedFix": "Expand to the statutory list: \"...requires complete removal where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, per N.J.A.C. 5:23-6.4...\""
+    },
+    {
+      "combo": "residential-roof-installation",
+      "field": "process[1]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Abbreviated N.J.A.C. 5:23-6.4 recover-material list — \"a wood, slate, or tile roof\" omits clay, cement, and asbestos-cement tile (the brief requires the full statutory list: wood shake, slate, clay, cement, or asbestos-cement tile).",
+      "evidence": "\"...N.J.A.C. 5:23-6.4 requires full removal of a water-soaked roof, a wood, slate, or tile roof, or a roof already carrying 2 or more layers, per the NJ Rehabilitation Subcode.\"",
+      "suggestedFix": "\"...N.J.A.C. 5:23-6.4 requires full removal of a water-soaked roof, a wood shake, slate, clay, cement, or asbestos-cement tile roof, or a roof already carrying 2 or more layers, per the NJ Rehabilitation Subcode.\""
+    },
+    {
+      "combo": "green-roof-installation",
+      "field": "overview[0], overview[2], challenges[2], faqs[0].answer, faqs[3].answer, whyChooseUs[1]",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "This file uses typographic/curly apostrophes (U+2019) for possessives ('Bloomfield’s', 'township’s', 'owner’s') in 9 places, whereas all 7 sibling cohort files use the ASCII apostrophe (\\'). It parses and renders fine (apostrophes sit inside single-quoted string literals), so it is not a gate failure, but it deviates from the cohort's punctuation convention and is a stylistic inconsistency.",
+      "evidence": "overview[0]: 'Newark Quality Roofing installs green roof systems on Bloomfield’s flat-roofed garden apartments...' (U+2019 right-single-quote rather than ASCII apostrophe)",
+      "suggestedFix": "Normalize the 9 U+2019 characters to ASCII apostrophes for cohort consistency. Before: 'Bloomfield’s' / 'township’s' / 'owner’s'. After: 'Bloomfield\\'s' / 'township\\'s' / 'owner\\'s'."
+    },
+    {
+      "combo": "commercial-roof-replacement",
+      "field": "overview[1], process[1], faqs[3].answer",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "PVC 20-30 yr is bundled into the InterNACHI attribution ('per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance'), but PVC is NOT on the InterNACHI chart (facts-materials-economics.md §0 — chart lists EPDM/TPO/Modified bitumen/BUR but no PVC; PVC 20-30 = SPRI/GAF per §6 line 359). The sibling commercial-roof-installation correctly pins PVC to 'the Single Ply Roofing Industry and GAF' (no InterNACHI). Within-cohort attribution split for the same fact. NOTE: the InterNACHI+SPRI bundling matches committed Orange gold (orange/commercial-roof-repair overview[1]), so this is inherited pattern, not Bloomfield-introduced — flag low; align replacement to the more-precise installation form rather than the reverse.",
+      "evidence": "\"...modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance.\"",
+      "suggestedFix": "Scope InterNACHI to the membranes it actually lists and pin PVC separately, matching installation: \"...modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF.\""
+    },
+    {
+      "combo": "commercial-roof-repair",
+      "field": "overview[2]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "'EPDM fails at the splice seams and TPO at the welded seams, per NRCA technical guidance' pins the EPDM/TPO seam-failure mechanics to NRCA. In facts-materials-economics.md §4 (lines 186-187) the EPDM seam-separation and TPO welded-seam failure modes are flagged [SECONDARY, qualitative], NOT NRCA-attributed; only PVC welded-seam failure (§6 line 361) carries the NRCA-technical-library attribution. NOTE: this exact 'per NRCA technical guidance' phrasing is carried verbatim in committed Orange gold (orange/commercial-roof-repair overview[2]) and 'NRCA technical library' is the named §4/§6 source header — so the over-attribution is inherited gold, not Bloomfield-introduced. Flag low / optional.",
+      "evidence": "\"...because EPDM fails at the splice seams and TPO at the welded seams, per NRCA technical guidance...\"",
+      "suggestedFix": "Optional precision: soften to the pack's qualitative tier, e.g. \"...because EPDM fails most often at the splice seams and TPO at the welded seams, a failure pattern documented in the NRCA technical library...\" — or leave as-is to stay consistent with committed Orange gold."
+    },
+    {
+      "combo": "roof-flashing-installation-repair",
+      "field": "faqs[5].answer (How much does roof flashing installation repair cost in Bloomfield, NJ?)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "A hard quantified figure (10–40%) is stated as a bare declarative with NO in-text named source. Ruleset R5/§B.5 requires every hard number to carry an in-text named attribution or be de-quantified. The figure is pack-supported but the pack tags it only as a '[SECONDARY consensus]' framing (facts-materials-economics §7, line 271) with no single named org; the gold Orange exemplar that introduced this sentence attributed it ('per Integrity Home Exteriors') and tied it to a labor-share point. Here the attribution was dropped, so the claim floats unsourced. It is also the lone hard number in the cohort that lacks an in-text source — every other cost figure across the 10 combos names HomeGuide/Angi/Modernize/This Old House, so this breaks the cohort's own attribution-consistency norm.",
+      "evidence": "'A larger chimney or valley flashing rebuild that removes and reinstalls the surrounding shingles costs more, and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code.'",
+      "suggestedFix": "Either name the source — change to '… and New Jersey ranges run roughly 10–40% above national figures on higher labor and stricter code, a regional pricing consensus reflected in Josten Roofing and HomeAdvisor NJ cost data.' — or de-quantify: '… and a larger chimney or valley flashing rebuild that removes and reinstalls the surrounding shingles costs more, with New Jersey labor and stricter code pushing local prices above national averages.'"
+    },
+    {
+      "combo": "historic-roof-restoration",
+      "field": "directAnswer",
+      "severity": "low",
+      "category": "bloomfield-fact",
+      "issue": "The directAnswer calls the Ch. 302 parcels 'Bloomfield Center landmark parcels.' Bloomfield's gate is a 'Historic District Property List' (listed-parcel) regime under Chapter 302 — the fact bank (_BLOOMFIELD-BRIEF.md §C and the committed city page) consistently uses 'parcel listed on the Township's Historic District Property List,' never 'landmark.' 'Landmark' is the term used for Belleville's single 2014 local landmark and Nutley's 'landmarks within said district,' so importing it here loosely re-labels Bloomfield's listed-parcel gate. Combined with the implied material presence on those parcels, it is a soft over-claim. Note the rest of the file (overview[3], challenges[0], all three FAQs) correctly uses the 'listed on the Historic District Property List' framing.",
+      "evidence": "...repairing slate, tile, wood, and metal roofs in kind on pre-war Colonials and Bloomfield Center landmark parcels** as a registered New Jersey Home Improvement Contractor.",
+      "suggestedFix": "Align the directAnswer to the file's own listed-parcel framing: before→'...on pre-war Colonials and Bloomfield Center landmark parcels**' after→'...on pre-war Colonials and Bloomfield Center listed historic parcels**' (keeps the bold span ≤40 words — currently 35)."
+    },
+    {
+      "combo": "silicone-elastomeric-roof-coating",
+      "field": "pricing.range",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "pricing.range is a prose sentence rather than a range string, inconsistent with the sibling silicone-roof-coating combo (which uses 'Varies by scope') and the brief §E default for a components-specialty service with no pack-sourced dollar figure. Not a fabrication (the 'a fraction of tear-off/replacement cost' phrasing is RCMA-sourced and factual), but the field should hold a range token, with the qualitative framing carried in note.",
+      "evidence": "range: 'Free written estimate — a fraction of tear-off and replacement cost'",
+      "suggestedFix": "Change range to 'Varies by scope' (to match silicone-roof-coating and the brief §E default); keep the existing note, which already carries the 'a fraction of tear-off and replacement cost, per the RCMA' framing."
+    },
+    {
+      "combo": "storm-damage-roof-replacement",
+      "field": "process[2]",
+      "severity": "low",
+      "category": "fabrication",
+      "issue": "Unsourced specific install claim. 'ring-shank-nails the cover for wind resistance' is a fastener-type specification not present in any fact pack. The wind-resistance install fact the packs support is the manufacturer 6-nail pattern for the 130 mph rating (ARMA/manufacturer guidance), not ring-shank nails.",
+      "evidence": "'The replacement seals the deck and ring-shank-nails the cover for wind resistance, then a magnet sweep clears nails before the crew leaves the property.'",
+      "suggestedFix": "Before: 'The replacement seals the deck and ring-shank-nails the cover for wind resistance...' After: 'The replacement seals the deck and fastens the cover in the manufacturer nailing zone for wind resistance...' (or de-specify: 'fastens the cover to manufacturer specification for wind resistance')."
+    },
+    {
+      "combo": "storm-damage-roof-replacement",
+      "field": "overview[2]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The 58 mph severe-thunderstorm threshold is a NOAA classification, but here it is bundled under 'per ASTM D3161 and manufacturer guidance,' which back only the 60 mph / 130 mph shingle wind ratings — not the NOAA storm threshold. The cohort-adjacent wind-damage-roof-repair.ts correctly credits this figure 'per NOAA, ARMA, and ASTM D3161,' so this is an internal attribution inconsistency. (The 60 mph / 130 mph / ASTM D3161 ratings themselves are committed template-consistent gold across the Bloomfield cohort — keep them.)",
+      "evidence": "'where NOAA classifies a thunderstorm as severe at gusts of 58 mph or higher, 3-tab shingles carry roughly a 60 mph rating, and architectural shingles rate to 130 mph, per ASTM D3161 and manufacturer guidance.'",
+      "suggestedFix": "Add NOAA to the attribution so the 58 mph figure is correctly sourced. After: '...3-tab shingles carry roughly a 60 mph rating, and architectural shingles rate to 130 mph, per NOAA, ASTM D3161, and manufacturer guidance.' (The sentence already names NOAA inline for the 58 mph; adding it to the trailing cite removes the implication that ASTM D3161 sets the storm threshold.)"
+    }
+  ],
+  "byCohort": [
+    {
+      "cohort": "repair-maintenance",
+      "confirmed": 1,
+      "refuted": 0,
+      "low": 0
+    },
+    {
+      "cohort": "residential-roof-types",
+      "confirmed": 4,
+      "refuted": 0,
+      "low": 5
+    },
+    {
+      "cohort": "commercial-roof-types",
+      "confirmed": 3,
+      "refuted": 0,
+      "low": 1
+    },
+    {
+      "cohort": "commercial-services",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 2
+    },
+    {
+      "cohort": "components-specialty",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 1
+    },
+    {
+      "cohort": "design-consultation",
+      "confirmed": 1,
+      "refuted": 0,
+      "low": 1
+    },
+    {
+      "cohort": "energy-solar",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 1
+    },
+    {
+      "cohort": "replacement-A",
+      "confirmed": 3,
+      "refuted": 1,
+      "low": 2
+    }
+  ]
+}
