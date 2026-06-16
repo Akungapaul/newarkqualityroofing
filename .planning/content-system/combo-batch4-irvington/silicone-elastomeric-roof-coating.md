@@ -1,0 +1,15 @@
+# silicone-elastomeric-roof-coating × Irvington — rewrite rationale
+
+De-fab literals cleared from the current combo file:
+- `overview[0]` price+hype lead ("prices starting from $3–$7/sq ft and free estimates available today") and the inline markdown self-links `[silicone elastomeric coating](/…)` and `[Newark](/…-newark-nj)` → removed; replaced with an answer-first, figure-free NQR-applied lead, all links stripped to plain text.
+- `whyChooseUs` de-fab line "NJ licensed, GAF Certified — 15+ years…", "same-day estimates and 24/7 emergency response", "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties", "Transparent pricing — no hidden fees" → replaced with the brief's §E factual reasons using "A registered New Jersey Home Improvement Contractor, fully insured."
+- `conversionHooks` hype ("Don't wait… saves thousands") → factual CTA + factual urgency note.
+- `pricing` unsourced `$3–$7/sq ft` + bare note → `Varies by scope` with the RCMA recoat-vs-tear-off framing + free-written-estimate (no aggregator number is in the fact pack for coating $/sq ft; §0.9/§E direct qualitative).
+- Cost FAQ rewritten off the fabricated "$3–$7/sq ft" guarantee to the RCMA "fraction of tear-off cost" + free-written-estimate framing.
+- Unsourced numerics removed/replaced: "120 degrees thermal swing," "20–25-mil DFT" spec literals, "ASTM D3359 crosshatch," "300–400% vs 100–200% elongation," "12–18 years," "negative 40 to 300°F," "40 percent recoat cost" → re-pinned to the fact-pack named-source values (Simiron 279% / Acrymax 220%; RCMA 10/15/20-yr DFT scale; silicone ~15–20 / acrylic ~10–15 yr).
+
+Entity-grounding (Batch-4 delta): `directAnswer` rewritten entity-grounded — "Newark Quality Roofing is a roofing contractor applying silicone elastomeric roof coating across Irvington, New Jersey, and Essex County…" (bold span 34 words) + credential tail "as a registered New Jersey Home Improvement Contractor." outside the bold. No `definition` field authored (spliced post-assembly). Credential = registered NJ HIC / fully insured throughout; no "licensed" for NQR.
+
+Irvington specifics preserved/corrected: Springfield Avenue + Chancellor Avenue storefronts; Route 78 light-industrial along the SE edge (not bisecting); rental/multi-family/investor-owner tenant-access economics; dense built-out aging stock with limited staging room; permit path via the Township of Irvington's construction-code office. Removed the fabricated response-time/"closest contractor"/investment-property-program claims and any river/flood/reservation framing. Historic = stated plainly: Irvington has no local historic-district ordinance, so no Certificate of Appropriateness applies (no invented COA, no Newark/Orange district import).
+
+Named sources cited: RCMA, CRRC, DOE, EPA; ASTM D6694 / D6083 / D6947 / D412 / D2370; Simiron and Acrymax product data; Western Colloid; Gaco; Henry; Mule-Hide; NRCA and ARMA (slope/ponding); N.J.A.C. 5:23-2.7 and 5:23-6.4 (NJ Uniform Construction Code); IRC Climate Zone 4–5 (DOE).

@@ -1,0 +1,15 @@
+# wind-damage-roof-repair × Irvington — rewrite rationale
+
+**De-fab literals cleared** from the old combo:
+- `overview[0]` price+hype lead ("delivers expert … prices starting from $400–$2,000 and free estimates available today") → replaced with an answer-first, figure-free NQR-applied lead.
+- Inline markdown self-links (`[wind damage roof repair](/wind-damage-roof-repair)`, `[Irvington](/roofing-in-irvington-nj)`, `[East Orange](/wind-damage-roof-repair-east-orange-nj)`) → stripped to plain text; zero URLs.
+- `whyChooseUs` "NJ licensed, GAF Certified — 15+ years", "same-day estimates and 24/7 emergency response", manufacturer-brand-as-credential ("Premium materials from GAF, CertainTeed, Owens Corning") → replaced with registered-HIC / fully-insured factual reasons.
+- conversionHooks hype ("Early action saves thousands") → factual urgency note.
+- Unsourced wind/damage assertions ("30-year-old colonial", "hundreds of square feet in minutes", arbitrary 25%/30% repair-vs-replace cutoffs) → de-quantified or replaced with named-sourced figures.
+- Old pricing band `$400–$2,000` "for wind-lifted or missing shingle repairs" → brief default `$400–$1,000` (HomeAdvisor) with the standard free-written-estimate note.
+
+**Entity-grounding applied:** entity-grounded `directAnswer` (bold span 32 words, "Irvington, New Jersey" + "roofing contractor", credential tail outside bold); NO `definition` field (spliced post-assembly); credential = "registered New Jersey Home Improvement Contractor" / "fully insured" — no "licensed" anywhere for NQR.
+
+**Irvington texture preserved (restructured, not discarded):** 2-/3-family rental + investor/landlord economics, tenant-occupied access under NJ landlord-tenant notice, Springfield Avenue + Chancellor Avenue commercial flat roofs, Route 78 southeastern-edge light-industrial, aging early-20th-century stock, plank decking discovered at tear-off. **NO COA** stated plainly (no local historic-district ordinance). No river/flood/reservation; Route 78 framed as southeastern-border-only; Vailsburg framed as Newark's section (not used as Irvington's).
+
+**Named sources cited in-text:** IIBEC RICOWI wind-investigation findings (2-3× edge uplift); IBHS wind-uplift research (seal strength) + IBHS field-aging study (<1% at 0-6 yrs → >79% at 14-20 yrs unsealed); NOAA / National Weather Service (58 mph severe threshold); ARMA (3-tab ~60 mph, architectural 130 mph at 6-nail); NRCA (flashing ≈90-95% of leaks); InterNACHI life-expectancy chart (EPDM/TPO seam failure); Insurance Information Institute / Triple-I (wind+hail = largest claim type, 2.8% / 1 in 36); NJ Department of Banking and Insurance (wind named peril, named-storm deductible up to 5%); N.J.A.C. 5:23-2.7 + NJ Uniform Construction Code (ordinary maintenance / 25% rule, Township of Irvington construction-code office); National Park Service (Register listing ≠ owner restriction); HomeAdvisor / Modernize / WeatherShield (cost ranges); Integrity Home Exteriors (stabilization); Owens Corning (warranty separation).

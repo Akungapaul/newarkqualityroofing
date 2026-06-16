@@ -1,0 +1,14 @@
+# Irvington × Emergency Roof Repair — rewrite rationale
+
+De-fab literals cleared from the current combo file:
+- Removed the price+hype overview lead ("prices starting from $500–$2,500 and free estimates available today"), the fabricated "investment property program"/"portfolio pricing", the "closest professional roofing contractor to any address in the township" superlative, and every response-time claim ("within 1 to 3 hours", "within 2 to 4 hours", priority-dispatch language).
+- Stripped both inline markdown self-links ([emergency roof repair](/...) and [Irvington](/...), [Bloomfield](/...)) to plain text — zero links/URLs remain.
+- De-fabbed whyChooseUs: removed "NJ licensed, GAF Certified — 15+ years", "same-day", "24/7", "Premium materials from GAF, CertainTeed, and Owens Corning", "no hidden fees". Replaced with the registered-NJ-HIC / fully-insured framing per the brief.
+- Removed the invented "$500–$2,500" pricing range and "including after-hours and storm response" note; replaced with the sourced $200–$1,000+ repair band plus the 25–50% emergency premium.
+- Geography fixes: dropped "Stuyvesant Avenue" blow-off invention and "Vailsburg" mis-attribution to Irvington; no river/flood/reservation/Watsessing/Watchung framing imported. Eastern-edge proximity framed factually without superlative.
+
+Entity-grounding applied: directAnswer rewritten to the entity-grounded shape (bold span 37w ending before the "as a registered New Jersey Home Improvement Contractor" tail; establishes "Irvington, New Jersey" + "roofing contractor"). No `definition` field authored (spliced post-assembly). NQR credential = registered NJ HIC / fully insured throughout; no "licensed" for NQR.
+
+Historic posture: no COA invented — Irvington has no local historic-district ordinance (the East Orange-style posture), so no Certificate-of-Appropriateness step is referenced.
+
+Named sources cited (all from the service base + fact packs): U.S. EPA (24–48h mold-growth window); NOAA (severe thunderstorm ≥58 mph); ARMA/manufacturer (3-tab ~60 mph, architectural up to 130 mph); Insurance Information Institute / Triple-I 2019–2023 (wind & hail 2.8% / 1-in-36 / $14,747 avg; water damage 1-in-67 / $15,400); FEMA + U.S. Army Corps of Engineers Operation Blue Roof (30-day tarp span; ≤50% framing-damage threshold); NRCA & ARMA (ponding >48h defect; ¼-in/ft slope); N.J.A.C. 5:23-2.7 (ordinary-maintenance / 25% rule, NJ Uniform Construction Code); HomeAdvisor + Modernize + Integrity Home Exteriors (cost ranges + 25–50% emergency premium); New Jersey landlord-tenant notice (qualitative). Irvington geography (Springfield/Chancellor Avenue corridors, Route 78 SE-edge light-industrial, dense 2-/3-family rental + early-20th-century stock, aging plank decking, Township construction-code office) carried from the committed Irvington city page (urban-core.ts, cityId 'irvington') and CITY-FACTS.

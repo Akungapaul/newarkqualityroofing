@@ -1,0 +1,14 @@
+# Irvington × Re-Roofing — rewrite rationale
+
+**De-fab literals cleared from the current combo:**
+- `overview[0]` price-in-lead + "free estimates available today" hype → answer-first NQR-applied lead (figure-free, bolded topics).
+- Fabricated **"landlord re-roofing program" / "competitive multi-property pricing" / "investment property" portfolio pricing** → removed; landlord/multi-family economics kept as factual capital-improvement + tenant-access framing only.
+- **Inline markdown self-links** `[re-roofing](/re-roofing)`, `[Irvington](/roofing-in-irvington-nj)`, `[Newark](/re-roofing-newark-nj)` → stripped to plain text (zero links).
+- **Financing claim** ("financing through lending partners, 24 to 120 months") and the **"NJ licensed, GAF Certified — 15+ years," "same-day estimates and 24/7 emergency response"** whyChooseUs lines → de-fabbed to registered-HIC / fully-insured factual reasons.
+- **Manufacturer-brand recommendations as credentials** (GAF Timberline HDZ / CertainTeed Landmark / Owens Corning Duration "we recommend," 130 mph rating claims) → removed; material classes framed generically with lifespans named-sourced.
+- Unsourced cost/duration specifics ("$8,000–$14,000," "2 to 3 days," "$500–$1,500 annually," "cost-effectiveness threshold within 3 to 5 years") → replaced with the sourced $10,000–$25,000 NJ range and the contractor-consensus decision rules.
+- Credential reframed to **"a registered New Jersey Home Improvement Contractor, fully insured"** everywhere for NQR (no "licensed").
+- `definition` field **omitted** (propagated by post-assembly splice). `directAnswer` authored entity-grounded (bold span 37 words; "Irvington, New Jersey" + "roofing contractor" established; credential tail outside bold).
+- **Geography corrected:** no river/flood/reservation, no "flat plain"/Watchung import; "Vailsburg" referenced only as a Newark section (not used here); I-78 framed as SE-edge light-industrial only; dropped any unverified street (no Nestor Terrace). **No COA** stated plainly (Irvington has no local historic-district ordinance, no NRHP listings).
+
+**Named sources cited in-text:** InterNACHI life-expectancy chart (material lifespans); ARMA (recover-vs-tear-off, low-slope slope/ponding); N.J.A.C. 5:23-2.7 (ordinary-maintenance no-permit + 25% commercial/multi-family rule); N.J.A.C. 5:23-6.4 + IRC R908.3.1.1 (recover-not-allowed conditions); IRC R905.1.2 (ice barrier); Angi (~20–30% overlay lifespan haircut); WeatherShield + Home Depot (decision-rule thresholds); HomeAdvisor + Modernize (NJ $10,000–$25,000 replacement range); HomeGuide + Integrity Home Exteriors (labor ~60–70%, NJ 10–40% above national); NRCA (low-slope drainage); Owens Corning (workmanship-vs-material warranty); National Park Service (Register-listing imposes no owner restriction); 2024 roofing-market data (asphalt ~73% share). All hard numbers named-sourced; no NQR self-stats, no response-time claims, no fabricated programs.
