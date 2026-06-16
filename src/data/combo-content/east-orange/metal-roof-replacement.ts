@@ -4,7 +4,7 @@ export const eastOrangeMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing replaces roofs with new metal across East Orange, stripping the old roof to the deck and installing standing-seam, metal-panel, or metal-shingle systems that last 40 to 80 years** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing roofs with new metal across East Orange, New Jersey, and Essex County**, stripping the old roof to the deck and installing standing-seam, metal-panel, or metal-shingle systems that last 40 to 80 years as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Metal roof replacement** removes a worn roof covering down to the deck and installs a new metal system in standing-seam panels, metal panels, or metal shingles. It rebuilds the entire weatherproof surface in steel, aluminum, copper, or zinc.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeMetalRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Metal roof replacement in East Orange NJ — standing-seam, panel, and shingle systems lasting 40 to 80 years for homes and multi-family buildings. NJ-licensed.',
+    'Metal roof replacement in East Orange NJ — standing-seam, panel, and shingle systems lasting 40 to 80 years for homes and multi-family buildings. NJ-registered.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

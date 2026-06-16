@@ -4,7 +4,7 @@ export const newarkWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides wood shake roofing across Newark**, installing, repairing, and maintaining **western red cedar shake and shingle** roofs on a ventilated deck, as a New Jersey Home Improvement Contractor, licensed and insured.',
+    '**Newark Quality Roofing is a roofing contractor providing wood shake roofing across Newark, New Jersey, and Essex County**, installing, repairing, and maintaining western red cedar shake and shingle roofs on a ventilated deck as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Wood shake roofing** covers a sloped roof in hand-split or tapersawn western red cedar laid over a ventilated assembly that lets each course dry from the underside after rainfall. The air space beneath the shakes manages the moisture that drives most cedar wear.',
   overview: [

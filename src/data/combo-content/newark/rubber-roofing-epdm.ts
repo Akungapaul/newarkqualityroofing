@@ -4,7 +4,7 @@ export const newarkRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing installs, repairs, and reseams EPDM rubber roofing across Newark**, waterproofing the flat and low-slope roofs common to Ironbound commercial buildings and Newark row-house extensions, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing rubber roofing EPDM across Newark, New Jersey, and Essex County**, installing, repairing, and reseaming EPDM single-ply membrane on the flat and low-slope roofs of Ironbound commercial buildings and Newark row-house extensions as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Rubber roofing EPDM** is a single-ply ethylene propylene diene monomer membrane that waterproofs a flat or low-slope roof, bonded to the deck or insulation and sealed at the laps. EPDM protects roof sections too shallow to shed water with shingles.',
   overview: [

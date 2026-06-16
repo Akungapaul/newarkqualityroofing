@@ -4,7 +4,7 @@ export const orangeEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides emergency roof repair across Orange and Essex County, stabilizing active leaks, wind-stripped shingles and membrane, fallen-branch punctures, and ice-dam backup** on two- and three-family rentals, Valley Arts loft roofs, and Main Street commercial buildings.',
+    '**Newark Quality Roofing is a roofing contractor providing emergency roof repair across Orange, New Jersey, and Essex County**, stabilizing active leaks, wind-stripped shingles and membrane, fallen-branch punctures, and ice-dam backup on two- and three-family rentals, Valley Arts loft roofs, and Main Street commercial buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Emergency roof repair** stabilizes a sudden roof failure — an active leak, storm-stripped shingles, a fallen-tree puncture, or ice-dam backup — to stop water entry before the loss compounds. It tarps or patches the breach first, then schedules the permanent repair.',
   overview: [
@@ -56,7 +56,7 @@ export const orangeEmergencyRoofRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Emergency roof repair in Orange NJ — leak stabilization, storm tarping, Valley Arts and Main Street membrane patches, rental access. NJ-licensed, free estimate.',
+    'Emergency roof repair in Orange NJ — leak stabilization, storm tarping, Valley Arts and Main Street membrane patches, rental access. NJ-registered, free quote.',
   pricing: {
     range: '$400–$1,000',
     note: 'Typical NJ leak-repair range per HomeAdvisor; emergency or after-hours work adds 25–50% per Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

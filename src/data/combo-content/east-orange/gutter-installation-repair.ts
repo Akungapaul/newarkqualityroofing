@@ -4,7 +4,7 @@ export const eastOrangeGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs gutters across East Orange**, fitting seamless aluminum, copper, and steel gutters, matched downspouts, and resealing leaks, sagging runs, and clogged systems as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing and repairing gutters across East Orange, New Jersey, and Essex County**, fitting seamless aluminum, copper, and steel gutters and matched downspouts and resealing leaks, sagging runs, and clogged systems as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeGutterInstallationRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Gutter installation and repair in East Orange NJ — seamless aluminum and copper gutters, downspouts, and seam reseals. NJ-licensed, free written estimate.',
+    'Gutter installation and repair in East Orange NJ — seamless aluminum and copper gutters, downspouts, and seam reseals. NJ-registered, free written estimate.',
   pricing: {
     range: '$12–$25 per linear foot installed; $100–$450 for most repairs',
     note: 'Installed and repair ranges per HomeGuide gutter cost data; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

@@ -4,7 +4,7 @@ export const eastOrangeCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides cedar shake roofing across East Orange and Essex County, installing and repairing western red cedar shake roofs over a ventilated deck** on older single-family homes as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing cedar shake roofing across East Orange, New Jersey, and Essex County**, installing and repairing western red cedar shake roofs over a ventilated deck on older single-family homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Cedar shake roofing** covers a sloped roof in hand-split western red cedar set over an air-spaced deck, the assembly that sheds water at the surface while the underside dries between rain events. Western red cedar carries natural extractives that resist decay.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeCedarShakeRoofing: ComboContent = {
     },
   ],
   metaDescription:
-    'Cedar shake roofing in East Orange NJ — western red cedar over a ventilated deck, fire-treated shakes, moss and debris maintenance. NJ-licensed, free estimate.',
+    'Cedar shake roofing in East Orange NJ — western red cedar over a ventilated deck, fire-treated shakes, moss and debris maintenance. NJ-registered, free quote.',
   pricing: {
     range: '$10–$20+ per square foot installed',
     note: 'Typical NJ premium cedar shake installed range per NHI Contractors; cedar shake repair runs $400–$1,800 per Angi. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

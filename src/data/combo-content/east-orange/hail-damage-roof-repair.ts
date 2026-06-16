@@ -4,7 +4,7 @@ export const eastOrangeHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides hail damage roof repair across East Orange and Essex County, documenting impact bruising, granule loss, and dented flashing for the insurance adjuster and resealing the damage** on multi-family, pre-war apartment, and single-family roofs.',
+    '**Newark Quality Roofing is a roofing contractor providing hail damage roof repair across East Orange, New Jersey, and Essex County**, documenting impact bruising, granule loss, and dented flashing for the insurance adjuster and resealing the damage on multi-family, pre-war apartment, and single-family roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Hail damage roof repair** restores the roof covering at each hail impact point — bruised and fractured shingles, granule loss, and dented metal flashing — and documents the damage for an insurance claim. It classifies functional damage that exposes the asphalt mat against cosmetic surface marking.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeHailDamageRoofRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Hail damage roof repair in East Orange NJ — impact-bruising and dented-flashing assessment, insurance documentation, shingle and membrane reseal. NJ-licensed.',
+    'Hail damage roof repair in East Orange NJ — impact-bruising and dented-flashing assessment, insurance documentation, shingle and membrane reseal. NJ-registered.',
   pricing: {
     range: '$400–$1,000',
     note: 'Typical NJ leak-repair range per HomeAdvisor; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

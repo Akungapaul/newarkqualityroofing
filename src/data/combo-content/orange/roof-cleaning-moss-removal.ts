@@ -4,7 +4,7 @@ export const orangeRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides roof cleaning and moss removal across Orange and Essex County, removing moss, Gloeocapsa magma algae, and lichen with a low-pressure chemical wash that protects roof granules** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof cleaning and moss removal across Orange, New Jersey, and Essex County**, removing moss, Gloeocapsa magma algae, and lichen with a low-pressure chemical wash that protects roof granules, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof cleaning and moss removal** clears biological growth — moss, Gloeocapsa magma algae, and lichen — from a roof with a low-pressure chemical wash that kills the growth at the root. It relies on chemical action rather than pressure washing, which strips the protective granules.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeRoofCleaningMossRemoval: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof cleaning and moss removal in Orange NJ — ARMA low-pressure soft-wash, algae and lichen treatment, granule protection. NJ-licensed, free written estimate.',
+    'Roof cleaning and moss removal in Orange NJ — ARMA low-pressure soft-wash, algae and lichen treatment, granule protection. NJ-registered, free written estimate.',
   pricing: {
     range: '$300–$1,050',
     note: 'Roof cleaning runs $300–$1,050, averaging $675 for a 1,500-square-foot home at $0.20–$0.70 per square foot, with moss-prevention treatment adding $150–$250, per This Old House. Final cost depends on roof size, pitch, growth severity, and access. Newark Quality Roofing provides a free written estimate.',

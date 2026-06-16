@@ -4,7 +4,7 @@ export const newarkModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing installs modified bitumen roofing across Newark and Essex County, building a multi-ply SBS or APP membrane over the deck** on the low-slope roofs of the Ironbound and downtown, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing modified bitumen roofing across Newark, New Jersey, and Essex County**, building a multi-ply SBS or APP membrane over the deck on the low-slope roofs of the Ironbound and downtown, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Modified bitumen roofing** is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet over base plies on the deck. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant, built-up asphalt assembly.',
   overview: [

@@ -4,7 +4,7 @@ export const orangeMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs metal roofs across Orange**, fitting **standing-seam panels and metal shingles** to Seven Oaks homes, Valley Arts lofts, and Main Street storefronts and resealing failed seams, fasteners, and corroded sections.',
+    '**Newark Quality Roofing is a roofing contractor that installs and repairs metal roofs across Orange, New Jersey, and Essex County**, fitting standing-seam panels and metal shingles to Seven Oaks homes, Valley Arts lofts, and Main Street storefronts and resealing failed seams, fasteners, and corroded sections as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Metal roof installation and repair** fits a concealed-fastener or exposed-fastener metal covering to the roof deck, and restores an existing metal roof by resealing separated seams, backed-out fasteners, and corroded panel sections. The covering uses steel, aluminum, copper, or zinc panels or shingles.',
   overview: [

@@ -4,7 +4,7 @@ export const eastOrangeRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing prices and performs roof replacements across East Orange, itemizing cost from roof size, material, tear-off, decking, and NJ code** on multi-family, pre-war walk-up, and older single-family roofs as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing residential and commercial roofs across East Orange, New Jersey, and Essex County**, itemizing cost from roof size, material, tear-off, decking, and NJ code on multi-family, pre-war walk-up, and older single-family roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.',
   overview: [
@@ -58,7 +58,7 @@ export const eastOrangeRoofReplacementCost: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof replacement cost in East Orange NJ — material, tear-off, and code line items for multi-family and single-family roofs. NJ-licensed, free written estimate.',
+    'Roof replacement cost in East Orange NJ — material, tear-off, and code line items for multi-family and single-family roofs. NJ-registered, free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

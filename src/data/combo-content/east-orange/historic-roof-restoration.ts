@@ -4,7 +4,7 @@ export const eastOrangeHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides historic roof restoration across East Orange and Essex County, repairing and matching period slate, clay tile, wood shingle, and metal roofs in kind under the Secretary of the Interior\'s Standards** as a New Jersey contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing historic roof restoration across East Orange, New Jersey, and Essex County**, repairing and matching period slate, clay tile, wood shingle, and metal roofs in kind under the Secretary of the Interior\'s Standards as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Historic roof restoration** repairs deteriorated original roofing on a period building rather than replacing it, and matches any necessary replacement to the old roof in design, color, texture, and, where possible, material. It covers slate, clay tile, wood shingle, and historic metal roofs.',
   overview: [
@@ -58,7 +58,7 @@ export const eastOrangeHistoricRoofRestoration: ComboContent = {
     },
   ],
   metaDescription:
-    'Historic roof restoration in East Orange NJ — in-kind slate, clay tile, wood shingle, and copper repair matched to the old roof. NJ-licensed, free estimate.',
+    'Historic roof restoration in East Orange NJ — in-kind slate, clay tile, wood shingle, and copper repair matched to the old roof. NJ-registered, free estimate.',
   pricing: {
     range: 'Free written estimate; historic slate restoration commonly $2,500–$10,000+',
     note: 'Historic slate restoration commonly costs $2,500–$10,000 or more, with individual slates at $50–$300 each, per HomeGuide cost data; final cost depends on roof area, material matching, structural repair, and access. Newark Quality Roofing provides a free written estimate.',

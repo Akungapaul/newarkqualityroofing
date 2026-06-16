@@ -4,7 +4,7 @@ export const eastOrangeCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs commercial roofs across East Orange** — the **flat-roof storefronts, high-rises, and apartment blocks** along the Central Avenue corridor — as a New Jersey Home Improvement Contractor applying single-ply, foam, and metal systems.',
+    '**Newark Quality Roofing is a roofing contractor installing commercial roofs across East Orange, New Jersey, and Essex County**, applying single-ply, foam, and metal systems to the flat-roof storefronts, high-rises, and apartment blocks along the Central Avenue corridor as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial roof installation** engineers and builds a new low-slope or steep-slope roof on a commercial building, sizing the insulation, slope, and attachment, then applying a membrane or metal panel system. It constructs the full weatherproof assembly on a new or stripped deck rather than patching an existing roof.',
   overview: [

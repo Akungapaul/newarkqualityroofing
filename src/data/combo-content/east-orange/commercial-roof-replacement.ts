@@ -4,7 +4,7 @@ export const eastOrangeCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing replaces commercial roofs across East Orange and Essex County, stripping the low-slope membrane to the deck, repairing the deck, and installing a new insulation-and-membrane system to manufacturer specification** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing commercial roofs across East Orange, New Jersey, and Essex County**, stripping the low-slope membrane to the deck, repairing the deck, and installing a new insulation-and-membrane system to manufacturer specification as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeCommercialRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Commercial roof replacement in East Orange NJ — EPDM, TPO, PVC, and modified-bitumen flat-roof systems for multi-family and pre-war buildings. NJ-licensed.',
+    'Commercial roof replacement in East Orange NJ — EPDM, TPO, PVC, and modified-bitumen flat-roof systems for multi-family and pre-war buildings. NJ-registered.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

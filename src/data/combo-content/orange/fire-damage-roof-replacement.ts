@@ -4,7 +4,7 @@ export const orangeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing replaces fire-damaged roofs across Orange and Essex County, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing fire-damaged roofs across Orange, New Jersey, and Essex County**, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
@@ -58,7 +58,7 @@ export const orangeFireDamageRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Fire damage roof replacement in Orange NJ — structural assessment, charred-deck tear-off, Class A rebuild, insurance documentation. NJ-licensed, free estimate.',
+    'Fire damage roof replacement in Orange NJ — structural assessment, charred-deck tear-off, Class A rebuild, insurance documentation. NJ-registered, free quote.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, the extent of structural damage, and access. Newark Quality Roofing provides a free written estimate.',

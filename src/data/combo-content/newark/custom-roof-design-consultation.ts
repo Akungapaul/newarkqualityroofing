@@ -4,7 +4,7 @@ export const newarkCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides custom roof design and consultation across Newark**, evaluating roof geometry, material options, and code requirements to produce a **written roofing specification** as a New Jersey Home Improvement Contractor, licensed and insured.',
+    '**Newark Quality Roofing is a roofing contractor providing custom roof design and consultation across Newark, New Jersey, and Essex County**, evaluating roof geometry, material options, and code requirements to produce a written roofing specification as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Custom roof design and consultation** is an advisory service that evaluates a building\'s roof geometry, structure, material options, and code requirements, then produces a written roofing specification before installation. It guides a new build, addition, complex roof, or material-selection decision.',
   overview: [

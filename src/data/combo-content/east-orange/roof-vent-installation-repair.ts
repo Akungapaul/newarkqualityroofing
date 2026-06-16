@@ -4,7 +4,7 @@ export const eastOrangeRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs roof vents across East Orange and Essex County, building a balanced soffit-intake and ridge-exhaust system** on multi-family walk-ups, pre-war apartments, and older single-family homes as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing and repairing roof vents across East Orange, New Jersey, and Essex County**, building a balanced soffit-intake and ridge-exhaust system on multi-family walk-ups, pre-war apartments, and older single-family homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeRoofVentInstallationRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof vent installation and repair in East Orange NJ — balanced ridge-and-soffit venting and multi-family attic moisture control. NJ-licensed, free estimate.',
+    'Roof vent installation and repair in East Orange NJ — balanced ridge-and-soffit venting and multi-family attic moisture control. NJ-registered, free estimate.',
   pricing: {
     range: 'Varies by scope',
     note: 'Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',

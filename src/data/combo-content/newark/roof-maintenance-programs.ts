@@ -4,7 +4,7 @@ export const newarkRoofMaintenancePrograms: ComboContent = {
   serviceId: 'roof-maintenance-programs',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides roof maintenance programs across Newark**, scheduling biannual inspections, drainage clearing, sealant maintenance, and a written condition report for residential and commercial properties as a New Jersey Home Improvement Contractor, licensed and insured.',
+    '**Newark Quality Roofing is a roofing contractor providing roof maintenance programs across Newark, New Jersey, and Essex County**, scheduling biannual inspections, drainage clearing, sealant maintenance, and a written condition report for residential and commercial properties as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**A roof maintenance program** is a recurring schedule of roof inspection, drainage clearing, sealant maintenance, and documentation that keeps a roof tracking toward its full service life. It catches deterioration early rather than reacting after a leak appears.',
   overview: [

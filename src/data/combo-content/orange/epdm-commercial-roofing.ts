@@ -4,7 +4,7 @@ export const orangeEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides EPDM commercial roofing in Orange**, installing and servicing **EPDM rubber membrane** on the flat roofs of Valley Arts converted-industrial lofts, Main Street commercial blocks, and multi-family buildings, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing EPDM commercial roofing across Orange, New Jersey, and Essex County**, installing and servicing EPDM rubber membrane on the flat roofs of Valley Arts converted-industrial lofts, Main Street commercial blocks, and multi-family buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**EPDM commercial roofing** is a single-ply synthetic-rubber membrane installed on flat and low-slope commercial roofs to seal the building against water entry. EPDM attaches mechanically, fully adheres, or holds under ballast, with the splice seams joining the sheets.',
   overview: [
@@ -58,7 +58,7 @@ export const orangeEpdmCommercialRoofing: ComboContent = {
     },
   ],
   metaDescription:
-    'EPDM commercial roofing in Orange NJ — rubber membrane for Valley Arts loft, Main Street, and multi-family flat roofs. NJ-licensed, free written estimate.',
+    'EPDM commercial roofing in Orange NJ — rubber membrane for Valley Arts loft, Main Street, and multi-family flat roofs. NJ-registered, free written estimate.',
   pricing: {
     range: '$7.00–$10.00/sq ft installed',
     note: 'EPDM commercial roofing in New Jersey runs $7.00 to $10.00 per square foot installed per Josten Roofing NJ pricing, with flat-roof repair at $2.50 to $10.00 per square foot per HomeGuide; final cost depends on roof size, attachment method, insulation, and access. Newark Quality Roofing provides a free written estimate.',

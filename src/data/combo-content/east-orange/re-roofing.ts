@@ -4,7 +4,7 @@ export const eastOrangeReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides re-roofing across East Orange and Essex County, recovering or replacing a worn roof covering with a new underlayment-and-cover system** once the existing roof crosses the replacement threshold, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing re-roofing across East Orange, New Jersey, and Essex County**, recovering or replacing a worn roof covering with a new underlayment-and-cover system once the existing roof crosses the replacement threshold, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
@@ -58,7 +58,7 @@ export const eastOrangeReRoofing: ComboContent = {
     },
   ],
   metaDescription:
-    'Re-roofing in East Orange NJ — recover-vs-tear-off for multi-family walk-ups, pre-war apartments, and older homes. NJ-licensed, free written estimate.',
+    'Re-roofing in East Orange NJ — recover-vs-tear-off for multi-family walk-ups, pre-war apartments, and older homes. NJ-registered, free written estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

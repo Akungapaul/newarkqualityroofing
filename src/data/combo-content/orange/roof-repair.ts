@@ -4,7 +4,7 @@ export const orangeRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides roof repair across Orange, fixing roof leaks, missing and cracked shingles, flashing failures, and storm damage** on two- and three-family homes, Valley Arts lofts, and Main Street commercial roofs as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof repair across Orange, New Jersey, and Essex County, fixing roof leaks, missing and cracked shingles, flashing failures, and storm damage** on two- and three-family homes, Valley Arts lofts, and Main Street commercial roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof repair** restores a roof\'s weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeRoofRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof repair in Orange NJ — two- and three-family leaks, Valley Arts and Main Street flat roofs, flashing reseals, storm damage. NJ-licensed, free estimate.',
+    'Roof repair in Orange NJ — two- and three-family leaks, Valley Arts and Main Street flat roofs, flashing reseals, storm damage. NJ-registered, free estimate.',
   pricing: {
     range: '$400–$1,000',
     note: 'Typical NJ leak-repair range per HomeAdvisor; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

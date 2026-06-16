@@ -4,7 +4,7 @@ export const orangeGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs green roof systems across Orange and Essex County, building the waterproofing membrane, root barrier, drainage layer, and growing media that carry a planted roof** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing green roof systems across Orange, New Jersey, and Essex County**, building the waterproofing membrane, root barrier, drainage layer, and growing media that carry a planted roof as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.',
   overview: [
@@ -56,7 +56,7 @@ export const orangeGreenRoofInstallation: ComboContent = {
     },
   ],
   metaDescription:
-    'Green roof installation in Orange NJ — Valley Arts loft flat roofs, Main Street commercial, structural load assessment, and stormwater retention. NJ-licensed.',
+    'Green roof installation in Orange NJ — Valley Arts loft flat roofs, Main Street commercial, structural load assessment, and stormwater retention. NJ-registered.',
   pricing: {
     range: '$6–$12/sq ft for the green-roof waterproofing membrane substrate',
     note: 'Green-roof waterproofing substrate range per commercial cost guides citing M&M Roofing and WeatherStar, with NJ TPO and EPDM per Josten Roofing NJ pricing; final cost depends on roof size, the structural assessment, green roof type, and access. Newark Quality Roofing provides a free written estimate.',

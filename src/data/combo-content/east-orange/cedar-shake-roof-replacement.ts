@@ -4,7 +4,7 @@ export const eastOrangeCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs across East Orange and Essex County, stripping aging cedar to the deck and installing new cedar on a ventilated nailing base** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing cedar shake roofs across East Orange, New Jersey, and Essex County**, stripping aging cedar to the deck and installing new cedar on a ventilated nailing base as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeCedarShakeRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Cedar shake roof replacement in East Orange NJ — full tear-off to the deck, ventilated nailing base, fire-class cedar. NJ-licensed, free written estimate.',
+    'Cedar shake roof replacement in East Orange NJ — full tear-off to the deck, ventilated nailing base, fire-class cedar. NJ-registered, free written estimate.',
   pricing: {
     range: '$10–$20+ per square foot installed for premium cedar',
     note: 'Premium cedar roofing in New Jersey runs $10 to $20-plus per square foot installed per NHI Contractors NJ pricing; final cost depends on roof size, pitch, cedar type, and access. Newark Quality Roofing provides a free written estimate.',

@@ -4,7 +4,7 @@ export const newarkRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs roof flashing across Newark**, sealing the chimneys, sidewalls, valleys, skylights, and penetrations where most roof leaks originate on the city\'s brownstones, row houses, and Ironbound flat-roof commercial blocks.',
+    '**Newark Quality Roofing is a roofing contractor installing and repairing roof flashing across Newark, New Jersey, and Essex County**, sealing the chimneys, sidewalls, valleys, skylights, and penetrations where most roof leaks originate on the city\'s brownstones, row houses, and Ironbound flat-roof commercial blocks, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof flashing** is the sheet metal that seals the transitions and penetrations of a roof — chimneys, walls, valleys, skylights, and vent stacks. Flashing sheds water at every joint a continuous shingle field cannot cover, the detail where most roof leaks originate.',
   overview: [

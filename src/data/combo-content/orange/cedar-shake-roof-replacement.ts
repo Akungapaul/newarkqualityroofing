@@ -4,7 +4,7 @@ export const orangeCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs on Orange\'s older detached homes**, working as a New Jersey Home Improvement Contractor and coordinating the **Certificate of Appropriateness** where a designated historic district applies.',
+    '**Newark Quality Roofing is a roofing contractor replacing cedar shake roofs across Orange, New Jersey, and Essex County**, working on the city\'s older detached homes and coordinating the Certificate of Appropriateness where a designated historic district applies, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
@@ -58,7 +58,7 @@ export const orangeCedarShakeRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Cedar shake roof replacement in Orange NJ for Seven Oaks and historic-district homes. Licensed NJ contractor, COA coordination, full tear-off. Free estimate.',
+    'Cedar shake roof replacement in Orange NJ for Seven Oaks and historic-district homes. Registered NJ contractor, COA coordination, full tear-off. Free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium cedar sits at the upper end, and final cost depends on roof size, pitch, cedar type, fire treatment, and access. Newark Quality Roofing provides a free written estimate.',

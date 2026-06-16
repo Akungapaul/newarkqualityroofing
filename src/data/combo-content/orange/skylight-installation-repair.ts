@@ -4,7 +4,7 @@ export const orangeSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs skylights across Orange, sealing leaks at the failed flashing, replacing fogged units, and curb-mounting skylights on Valley Arts low-slope roofs** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing and repairing skylights across Orange, New Jersey, and Essex County**, sealing leaks at failed flashing, replacing fogged units, and curb-mounting skylights on Valley Arts low-slope roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeSkylightInstallationRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Skylight installation and repair in Orange NJ — flashing-leak fixes, fogged-unit replacement, low-slope curb-mounting. NJ-licensed, free written estimate.',
+    'Skylight installation and repair in Orange NJ — flashing-leak fixes, fogged-unit replacement, low-slope curb-mounting. NJ-registered, free written estimate.',
   pricing: {
     range: '$225–$4,200 across repair and installation',
     note: 'Skylight installation runs $1,600–$4,200 installed and leak repair $225–$800, per HomeGuide, Angi, and Modernize; final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',

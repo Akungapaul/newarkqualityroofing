@@ -4,7 +4,7 @@ export const orangeRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides roof inspection across Orange and Essex County, assessing roof-covering condition, flashing, drainage, ventilation, and the deck** on two- and three-family homes, Valley Arts lofts, and Main Street commercial roofs as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof inspection across Orange, New Jersey, and Essex County**, assessing roof-covering condition, flashing, drainage, ventilation, and the deck on two- and three-family homes, Valley Arts lofts, and Main Street commercial roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**A roof inspection** is a systematic evaluation of a roof\'s covering, flashing, drainage, ventilation, sealants, and deck that rates each component by condition and documents damage, wear, and active-leak indications before water reaches the interior.',
   overview: [

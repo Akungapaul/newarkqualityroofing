@@ -4,7 +4,7 @@ export const orangeRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing replaces residential and commercial roofs across Orange and Essex County, stripping the roof to the deck, repairing the sheathing, and installing a new underlayment-and-cover system** on two- and three-family homes, Seven Oaks houses, and Valley Arts buildings.',
+    '**Newark Quality Roofing is a roofing contractor replacing residential and commercial roofs across Orange, New Jersey, and Essex County**, stripping the roof to the deck, repairing the sheathing, and installing a new underlayment-and-cover system on two- and three-family homes, Seven Oaks houses, and Valley Arts buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.',
   overview: [
@@ -58,7 +58,7 @@ export const orangeRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof replacement in Orange NJ — two- and three-family stock, Seven Oaks slate, Valley Arts membrane, Main Street commercial. NJ-licensed, free written estimate.',
+    'Roof replacement in Orange NJ — two- and three-family stock, Seven Oaks slate, Valley Arts membrane, Main Street commercial. NJ-registered, free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

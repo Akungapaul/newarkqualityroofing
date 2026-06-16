@@ -4,7 +4,7 @@ export const eastOrangeBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides built-up roofing across East Orange and Essex County, installing and restoring multi-ply BUR membranes** on the commercial, mixed-use, and multi-family low-slope roofs along Central Avenue, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing built-up roofing across East Orange, New Jersey, and Essex County**, installing and restoring multi-ply BUR membranes on the commercial, mixed-use, and multi-family low-slope roofs along Central Avenue, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Built-up roofing** is a low-slope membrane that alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel, mineral granules, or a reflective coating. The multi-ply assembly shields the membrane from UV and impact.',
   overview: [

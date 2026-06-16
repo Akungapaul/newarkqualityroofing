@@ -4,7 +4,7 @@ export const orangeResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs residential roofs across Orange** — deck-to-ridge **new construction and full replacements** on the city\'s two- and three-family rentals, older detached Seven Oaks homes, and converted Valley lofts — as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor that installs residential roofs across Orange, New Jersey, and Essex County**, building the complete deck-to-ridge system on new construction and full replacements for the city\'s two- and three-family rentals, older detached Seven Oaks homes, and converted Valley lofts as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Residential roof installation** builds a complete roof system on a house from the deck up — ice barrier, underlayment, flashing, the finish covering, and ventilation. It applies to new construction and full replacements, replacing the entire weatherproof assembly rather than patching a failed detail.',
   overview: [

@@ -4,7 +4,7 @@ export const orangeRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs, reseams, and repairs EPDM rubber membrane across Orange and Essex County** on Valley Arts loft flat roofs, Main Street commercial buildings, and two- and three-family rear extensions, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing rubber roofing EPDM across Orange, New Jersey, and Essex County**, installing, reseaming, and repairing EPDM single-ply membrane on Valley Arts loft flat roofs, Main Street commercial buildings, and two- and three-family rear extensions as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Rubber roofing EPDM** is a single-ply ethylene propylene diene monomer membrane that waterproofs a flat or low-slope roof, bonded to the deck or insulation and sealed at the laps. EPDM protects roof sections too shallow to shed water with shingles.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeRubberRoofingEpdm: ComboContent = {
     },
   ],
   metaDescription:
-    'EPDM rubber roofing in Orange NJ — Valley Arts loft flat roofs, Main Street commercial membranes, two-/three-family rear extensions. NJ-licensed, free estimate.',
+    'EPDM rubber roofing in Orange NJ — Valley Arts loft flat roofs, Main Street commercial membranes, two-/three-family rear extensions. NJ-registered, free quote.',
   pricing: {
     range: '$300–$1,100+ for most EPDM repairs',
     note: 'EPDM flat-roof repair runs $2.50–$10.00 per square foot, or $300–$1,100 typical, per HomeGuide; NJ EPDM installation runs $7.00–$10.00 per square foot per Josten Roofing. Final cost depends on roof size, slope, layers, and access. Newark Quality Roofing provides a free written estimate.',

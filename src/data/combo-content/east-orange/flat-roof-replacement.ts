@@ -4,7 +4,7 @@ export const eastOrangeFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing replaces flat and low-slope roofs across East Orange and Essex County, stripping the failed membrane to the deck, repairing the substrate, then installing a new single-ply or modified-bitumen system** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing flat and low-slope roofs across East Orange, New Jersey, and Essex County**, stripping the failed membrane to the deck, repairing the substrate, then installing a new single-ply or modified-bitumen system as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Flat roof replacement** strips a failed membrane from a flat or low-slope roof to the deck, repairs the substrate, and installs a new single-ply or modified-bitumen system. It rebuilds a water-shedding surface engineered for minimal slope.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeFlatRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Flat roof replacement in East Orange NJ — EPDM, TPO, PVC, and modified-bitumen membranes on apartments and walk-ups. NJ-licensed, free written estimate.',
+    'Flat roof replacement in East Orange NJ — EPDM, TPO, PVC, and modified-bitumen membranes on apartments and walk-ups. NJ-registered, free written estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

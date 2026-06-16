@@ -4,7 +4,7 @@ export const eastOrangeCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides commercial roof repair in East Orange**, resealing seam separations, membrane punctures, flashing failures, and ponding-water damage on low-slope EPDM, TPO, PVC, and modified-bitumen roofs as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof repair across East Orange, New Jersey, and Essex County**, resealing seam separations, membrane punctures, flashing failures, and ponding-water damage on low-slope EPDM, TPO, PVC, and modified-bitumen roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial roof repair** restores the weather barrier of a low-slope commercial membrane by sealing localized failures — seam separations, punctures, flashing breaks, and ponding damage — without replacing the entire roof. It traces water entry to the failed detail, then reseals it with manufacturer-approved bonding that keeps the system warranty intact.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeCommercialRoofRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Commercial roof repair in East Orange NJ — flat-roof seam and membrane repair on multi-family and mixed-use buildings. NJ-licensed, free written estimate.',
+    'Commercial roof repair in East Orange NJ — flat-roof seam and membrane repair on multi-family and mixed-use buildings. NJ-registered, free written estimate.',
   pricing: {
     range: '$300–$1,100',
     note: 'Typical NJ commercial flat-roof repair range per HomeGuide, Modernize, and WeatherShield; final cost depends on roof size, membrane, and access. Newark Quality Roofing provides a free written estimate.',

@@ -4,7 +4,7 @@ export const orangeCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs and services commercial metal roofing across the City of Orange Township**, fitting **standing-seam and exposed-fastener panels** on Main Street downtown commercial blocks and Valley Arts converted-industrial buildings as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor that installs and services commercial metal roofing across Orange, New Jersey, and Essex County**, fitting standing-seam and exposed-fastener panels on Main Street downtown commercial blocks and Valley Arts converted-industrial buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial metal roofing** is a roof covering of formed metal panels — steel, aluminum, or copper — fitted as concealed-fastener standing-seam or exposed-fastener systems on large-span commercial roofs. The metal panels carry long-span low- and steep-slope roofs across a multi-decade ownership horizon.',
   overview: [
@@ -29,7 +29,7 @@ export const orangeCommercialMetalRoofing: ComboContent = {
     {
       question: 'Who installs commercial metal roofing on a Main Street or Valley Arts building in Orange?',
       answer:
-        'Newark Quality Roofing installs and services commercial metal roofing across the City of Orange Township as a New Jersey Home Improvement Contractor, licensed and insured. The crew fits standing-seam, exposed-fastener, aluminum, and copper panel systems to the building — a finished profile on the Main Street downtown streetscape, a long-span exposed-fastener panel on the Valley Arts converted-industrial stock near the Highland Avenue station.',
+        'Newark Quality Roofing installs and services commercial metal roofing across the City of Orange Township as a registered New Jersey Home Improvement Contractor. The crew fits standing-seam, exposed-fastener, aluminum, and copper panel systems to the building — a finished profile on the Main Street downtown streetscape, a long-span exposed-fastener panel on the Valley Arts converted-industrial stock near the Highland Avenue station.',
     },
     {
       question: 'How long does a commercial metal roof last on an Orange building?',

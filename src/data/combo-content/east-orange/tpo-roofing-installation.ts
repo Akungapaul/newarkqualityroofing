@@ -4,7 +4,7 @@ export const eastOrangeTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs TPO roofing across East Orange and Essex County, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams** to the low-slope roofs on its apartment blocks, pre-war walk-ups, and Central Avenue buildings as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing TPO roofing across East Orange, New Jersey, and Essex County**, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to the low-slope roofs on its apartment blocks, pre-war walk-ups, and Central Avenue buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**TPO roofing** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface. The welded seams fuse the sheets into one continuous water layer.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeTpoRoofingInstallation: ComboContent = {
     },
   ],
   metaDescription:
-    'TPO roofing in East Orange NJ — heat-welded single-ply membrane for apartment blocks, walk-ups, and Central Avenue flat roofs. NJ-licensed, free estimate.',
+    'TPO roofing in East Orange NJ — heat-welded single-ply membrane for apartment blocks, walk-ups, and Central Avenue flat roofs. NJ-registered, free estimate.',
   pricing: {
     range: '$8–$12/sq ft installed',
     note: 'TPO installation in New Jersey costs $8 to $12 per square foot, per Josten Roofing NJ pricing; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

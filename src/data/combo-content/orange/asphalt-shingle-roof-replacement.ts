@@ -4,7 +4,7 @@ export const orangeAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides asphalt shingle roof replacement across the City of Orange Township, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing asphalt shingle roof replacement across Orange, New Jersey, and Essex County**, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Asphalt shingle roof replacement** strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering.',
   overview: [
@@ -56,7 +56,7 @@ export const orangeAsphaltShingleRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Asphalt shingle roof replacement in Orange NJ — 3-tab and architectural shingles for two-/three-family and detached homes. NJ-licensed, free written estimate.',
+    'Asphalt shingle roof replacement in Orange NJ — 3-tab and architectural shingles for two-/three-family and detached homes. NJ-registered, free written estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

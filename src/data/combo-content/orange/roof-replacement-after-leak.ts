@@ -4,7 +4,7 @@ export const orangeRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing replaces a roof after a chronic leak across Orange and Essex County, stripping the failed roof to the deck, replacing rotted sheathing, and installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing a roof after a chronic leak across Orange, New Jersey, and Essex County**, stripping the failed roof to the deck, replacing rotted sheathing, and installing a new underlayment-and-cover system as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement after a leak** strips a roof whose chronic or widespread leaking has saturated the underlayment and deck, replaces rotted sheathing, and installs a new roof system. It addresses moisture damage that a surface repair cannot reverse.',
   overview: [
@@ -56,7 +56,7 @@ export const orangeRoofReplacementAfterLeak: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof replacement after a leak in Orange NJ — tear-off to the deck, rotted-sheathing replacement, Valley Arts low-slope membranes. NJ-licensed, free estimate.',
+    'Roof replacement after a leak in Orange NJ — tear-off to the deck, rotted-sheathing replacement, Valley Arts low-slope membranes. NJ-registered, free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

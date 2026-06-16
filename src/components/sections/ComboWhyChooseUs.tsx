@@ -63,7 +63,7 @@ function buildContextualReasons(
 
   return [
     `Specialized ${serviceLC} experience in ${cityName} — we know the local building stock, codes, and common issues specific to ${cityName} homes and businesses.`,
-    `Fully licensed and insured for ${serviceLC} work throughout Essex County, New Jersey.`,
+    `A registered New Jersey Home Improvement Contractor, fully insured for ${serviceLC} work throughout Essex County.`,
     `Transparent, written estimates for every ${serviceLC} project — no hidden fees and no pressure to commit.`,
     `A local ${cityName} crew familiar with the area's permitting and property-access challenges.`,
   ];

@@ -4,7 +4,7 @@ export const newarkTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing installs TPO roofing across Newark and Essex County, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to commercial and residential low-slope roofs** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing TPO roofing across Newark, New Jersey, and Essex County**, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to commercial and residential low-slope roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**TPO roofing** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface. The welded seams fuse the sheets into one continuous water layer.',
   overview: [

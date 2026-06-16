@@ -4,7 +4,7 @@ export const newarkHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides historic roof restoration across Newark**, repairing and matching period slate, clay tile, wood shingle, and metal roofs in kind under the Secretary of the Interior\'s Standards as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing historic roof restoration across Newark, New Jersey, and Essex County**, repairing and matching period slate, clay tile, wood shingle, and metal roofs in kind under the Secretary of the Interior\'s Standards as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Historic roof restoration** repairs deteriorated original roofing on a period building rather than replacing it, and matches any necessary replacement to the old roof in design, color, texture, and, where possible, material. It covers slate, clay tile, wood shingle, and historic metal roofs.',
   overview: [

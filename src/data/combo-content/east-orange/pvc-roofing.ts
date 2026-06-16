@@ -4,7 +4,7 @@ export const eastOrangePvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs and services PVC single-ply roofing across East Orange and Essex County, welding chemical-resistant white membrane on flat and low-slope commercial, mixed-use, and multi-family roofs** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor that installs and services PVC roofing across East Orange, New Jersey, and Essex County**, welding chemical-resistant white membrane on flat and low-slope commercial, mixed-use, and multi-family roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**PVC roofing** is a single-ply polyvinyl-chloride thermoplastic membrane, hot-air-welded at the seams, installed on commercial low-slope roofs. The white membrane resists grease, oils, and chemical exhaust that degrade other single-ply membranes, and reflects solar radiation as a cool roof.',
   overview: [
@@ -58,7 +58,7 @@ export const eastOrangePvcRoofing: ComboContent = {
     },
   ],
   metaDescription:
-    'PVC roofing in East Orange NJ — chemical-resistant white membrane for restaurant, mixed-use, and multi-family flat roofs. NJ-licensed, free written estimate.',
+    'PVC roofing in East Orange NJ — chemical-resistant white membrane for restaurant, mixed-use, and multi-family flat roofs. NJ-registered, free written estimate.',
   pricing: {
     range: '$6–$12 per square foot installed',
     note: 'Commercial PVC range per commercial cost guides and Josten Roofing NJ TPO-class pricing; final cost depends on roof size, membrane thickness, attachment method, and access. Newark Quality Roofing provides a free written estimate.',

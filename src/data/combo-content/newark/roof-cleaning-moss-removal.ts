@@ -4,7 +4,7 @@ export const newarkRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides roof cleaning and moss removal across Newark**, clearing moss, Gloeocapsa magma algae, and lichen with a low-pressure chemical wash that kills growth at the root without stripping the protective granules.',
+    '**Newark Quality Roofing is a roofing contractor providing roof cleaning and moss removal across Newark, New Jersey, and Essex County**, clearing moss, Gloeocapsa magma algae, and lichen with a low-pressure chemical wash that kills growth at the root without stripping the protective granules, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof cleaning and moss removal** clears biological growth — moss, Gloeocapsa magma algae, and lichen — from a roof with a low-pressure chemical wash that kills the growth at the root. It relies on chemical action rather than pressure washing, which strips the protective granules.',
   overview: [

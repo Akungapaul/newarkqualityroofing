@@ -4,7 +4,7 @@ export const eastOrangeFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides full roof tear off across East Orange and Essex County, stripping every existing roof layer to the deck, repairing the sheathing, then installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing full roof tear off across East Orange, New Jersey, and Essex County**, stripping every existing roof layer to the deck, repairing the sheathing, then installing a new underlayment-and-cover system as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
@@ -58,7 +58,7 @@ export const eastOrangeFullRoofTearOff: ComboContent = {
     },
   ],
   metaDescription:
-    'Full roof tear off in East Orange NJ — strip to deck, deck repair, multi-family and pre-war walk-up reroofing. NJ-licensed, free written estimate.',
+    'Full roof tear off in East Orange NJ — strip to deck, deck repair, multi-family and pre-war walk-up reroofing. NJ-registered, free written estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

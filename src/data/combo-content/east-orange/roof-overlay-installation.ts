@@ -4,7 +4,7 @@ export const eastOrangeRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs roof overlays across East Orange and Essex County, applying a second layer of asphalt shingles over one existing sound asphalt layer without a tear-off** on qualifying homes as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing roof overlays across East Orange, New Jersey, and Essex County**, applying a second layer of asphalt shingles over one existing sound asphalt layer without a tear-off on qualifying homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeRoofOverlayInstallation: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof overlay installation in East Orange NJ — a second asphalt layer over one sound layer, no tear-off, on qualifying homes. NJ-licensed, free estimate.',
+    'Roof overlay installation in East Orange NJ — a second asphalt layer over one sound layer, no tear-off, on qualifying homes. NJ-registered, free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; a roof overlay runs roughly 20–25% less than a full tear-off, a national figure per HomeGuide and Angi. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

@@ -4,7 +4,7 @@ export const newarkAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides asphalt shingle roof replacement across Newark**, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles to manufacturer specification as a New Jersey Home Improvement Contractor, licensed and insured.',
+    '**Newark Quality Roofing is a roofing contractor providing asphalt shingle roof replacement across Newark, New Jersey, and Essex County**, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles to manufacturer specification as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Asphalt shingle roof replacement** strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering.',
   overview: [

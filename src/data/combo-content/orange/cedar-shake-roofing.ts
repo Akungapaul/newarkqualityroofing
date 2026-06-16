@@ -4,7 +4,7 @@ export const orangeCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs cedar shake roofing across Orange and Essex County**, laying hand-split western red cedar over a ventilated deck on Seven Oaks detached homes and designated-district properties as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing and repairing cedar shake roofing across Orange, New Jersey, and Essex County**, laying hand-split western red cedar over a ventilated deck on Seven Oaks detached homes and designated-district properties as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Cedar shake roofing** covers a sloped roof in hand-split western red cedar set over an air-spaced deck, the assembly that sheds water at the surface while the underside dries between rain events. Western red cedar carries natural extractives that resist decay.',
   overview: [

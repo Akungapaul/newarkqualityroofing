@@ -4,7 +4,7 @@ export const newarkEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides EPDM commercial roofing in Newark**, installing and servicing **EPDM rubber membrane** on flat and low-slope commercial and Ironbound industrial roofs, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing EPDM commercial roofing across Newark, New Jersey, and Essex County**, installing and servicing EPDM rubber membrane on flat and low-slope commercial and Ironbound industrial roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**EPDM commercial roofing** is a single-ply synthetic-rubber membrane installed on flat and low-slope commercial roofs to seal the building against water entry. EPDM attaches mechanically, fully adheres, or holds under ballast, with the splice seams joining the sheets.',
   overview: [

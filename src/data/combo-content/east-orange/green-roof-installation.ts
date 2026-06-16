@@ -4,7 +4,7 @@ export const eastOrangeGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs green roofs across East Orange and Essex County, building the green-roof-rated waterproofing membrane, root barrier, drainage layer, and engineered growing media that carry a planted roof** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing green roofs across East Orange, New Jersey, and Essex County**, building the green-roof-rated waterproofing membrane, root barrier, drainage layer, and engineered growing media that carry a planted roof as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.',
   overview: [
@@ -58,7 +58,7 @@ export const eastOrangeGreenRoofInstallation: ComboContent = {
     },
   ],
   metaDescription:
-    'Green roof installation in East Orange NJ — flood-tested waterproofing, root barrier, drainage, engineered growing media, sedum. NJ-licensed, free estimate.',
+    'Green roof installation in East Orange NJ — flood-tested waterproofing, root barrier, drainage, engineered growing media, sedum. NJ-registered, free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; the green-roof waterproofing substrate runs $6 to $12 per square foot for PVC single-ply per commercial cost guides. Final cost depends on roof size, structural work, growing media depth, and access. Newark Quality Roofing provides a free written estimate.',

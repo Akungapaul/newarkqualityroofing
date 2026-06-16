@@ -4,7 +4,7 @@ export const newarkMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing replaces roofs with new metal across Newark and Essex County** — stripping the old roof to the deck and installing **standing-seam, metal-panel, or metal-shingle** systems — as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing roofs with new metal across Newark, New Jersey, and Essex County**, stripping the old roof to the deck and installing standing-seam, metal-panel, or metal-shingle systems as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Metal roof replacement** removes a worn roof covering down to the deck and installs a new metal system in standing-seam panels, metal panels, or metal shingles. It rebuilds the entire weatherproof surface in steel, aluminum, copper, or zinc.',
   overview: [
@@ -47,7 +47,7 @@ export const newarkMetalRoofReplacement: ComboContent = {
       answer: 'A metal roof costs $9.00–$16.00 or more per square foot in New Jersey, against $6.50–$11.00 per square foot for architectural asphalt, per Josten Roofing and NJ guide pricing. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, across NJ roofing-cost estimates. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Metal roof replacement in Newark NJ: standing-seam upgrades, Ironbound industrial-conversion re-roofing, and corrugated metal tear-off by a licensed contractor.',
+  metaDescription: 'Metal roof replacement in Newark NJ: standing-seam upgrades, Ironbound industrial re-roofing, and corrugated metal tear-off by a registered contractor.',
   pricing: {
     range: '$9.00–$16.00+ per square foot for most metal roofs',
     note: 'A metal roof costs $9.00–$16.00 or more per square foot in New Jersey, against $6.50–$11.00 for architectural asphalt, per Josten Roofing and NJ guide pricing; final cost depends on roof size, pitch, metal system, and access. Newark Quality Roofing provides a free written estimate.',

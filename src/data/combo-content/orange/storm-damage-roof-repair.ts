@@ -4,7 +4,7 @@ export const orangeStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides storm damage roof repair across Orange and Essex County, repairing wind-lifted shingles, hail-bruised surfaces, debris punctures, and storm-opened flashing** as a New Jersey Home Improvement Contractor, with insurance-claim documentation.',
+    '**Newark Quality Roofing is a roofing contractor providing storm damage roof repair across Orange, New Jersey, and Essex County**, repairing wind-lifted shingles, hail-bruised surfaces, debris punctures, and storm-opened flashing as a registered New Jersey Home Improvement Contractor, with insurance-claim documentation.',
   definition:
     '**Storm damage roof repair** restores the roof covering where a storm opened a detail — wind-lifted shingles, hail-bruised surfaces, debris punctures, or displaced flashing — and documents the damage for an insurance claim. It separates storm-caused damage from pre-existing wear, the distinction that governs coverage.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeStormDamageRoofRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Storm damage roof repair in Orange NJ — Valley Arts loft membranes, Main Street commercial, tenant-occupied rentals, insurance documentation. NJ-licensed.',
+    'Storm damage roof repair in Orange NJ — Valley Arts loft membranes, Main Street commercial, tenant-occupied rentals, insurance documentation. NJ-registered.',
   pricing: {
     range: '$400–$2,000+ for most storm repairs',
     note: 'Typical NJ storm-repair range per HomeAdvisor and Angi. Final cost depends on roof size, pitch, material, extent of damage, and access. Newark Quality Roofing provides a free written estimate.',

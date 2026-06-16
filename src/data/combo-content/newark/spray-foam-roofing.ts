@@ -4,7 +4,7 @@ export const newarkSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides spray foam roofing across Newark**, spraying seamless **spray polyurethane foam** and a protective coating over commercial low-slope roofs as a New Jersey Home Improvement Contractor, licensed and insured.',
+    '**Newark Quality Roofing is a roofing contractor providing spray foam roofing across Newark, New Jersey, and Essex County**, applying seamless spray polyurethane foam and a protective coating over commercial low-slope roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Spray foam roofing** sprays liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating. The coating shields the UV-sensitive foam from degradation.',
   overview: [

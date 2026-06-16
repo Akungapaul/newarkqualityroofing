@@ -4,7 +4,7 @@ export const orangeRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs roof flashing across Orange and Essex County, sealing the chimneys, walls, valleys, skylights, and penetrations where most roof leaks originate** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing and repairing roof flashing across Orange, New Jersey, and Essex County**, sealing the chimneys, walls, valleys, skylights, and penetrations where most roof leaks originate as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof flashing** is the sheet metal that seals the transitions and penetrations of a roof — chimneys, walls, valleys, skylights, and vent stacks. Flashing sheds water at every joint a continuous shingle field cannot cover, the detail where most roof leaks originate.',
   overview: [
@@ -52,7 +52,7 @@ export const orangeRoofFlashingInstallationRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof flashing repair in Orange NJ — chimney and party-wall step flashing, Valley Arts parapets, Main Street commercial. NJ-licensed, free written estimate.',
+    'Roof flashing repair in Orange NJ — chimney and party-wall step flashing, Valley Arts parapets, Main Street commercial. NJ-registered, free written estimate.',
   pricing: {
     range: '$300–$1,800',
     note: 'Typical chimney flashing repair range per HomeGuide and Angi, with most repairs $400–$1,600; a reseal or small section runs $200–$500 per Modernize. Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',

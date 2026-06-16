@@ -4,7 +4,7 @@ export const orangeAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing replaces aging roofs across Orange and Essex County, stripping a roof at the end of its material lifespan to the deck and installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing aging roofs across Orange, New Jersey, and Essex County**, stripping a roof at the end of its material lifespan to the deck and installing a new underlayment-and-cover system as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeAgingRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Aging roof replacement in Orange NJ — end-of-life tear-off, hidden deck repair, and ventilation correction. NJ-licensed contractor, free written estimate.',
+    'Aging roof replacement in Orange NJ — end-of-life tear-off, hidden deck repair, and ventilation correction. NJ-registered contractor, free written estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

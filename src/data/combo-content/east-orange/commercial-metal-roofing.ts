@@ -4,7 +4,7 @@ export const eastOrangeCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs and services commercial metal roofing across East Orange and Essex County, fitting standing-seam and exposed-fastener panels** on mixed-use buildings, multi-family properties, and institutional roofs as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor that installs and services commercial metal roofing across East Orange, New Jersey, and Essex County**, fitting standing-seam and exposed-fastener panels on mixed-use buildings, multi-family properties, and institutional roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial metal roofing** is a roof covering of formed metal panels — steel, aluminum, or copper — fitted as concealed-fastener standing-seam or exposed-fastener systems on large-span commercial roofs. The metal panels carry long-span low- and steep-slope roofs across a multi-decade ownership horizon.',
   overview: [

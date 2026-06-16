@@ -4,7 +4,7 @@ export const newarkEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides emergency roof repair across Newark**, stabilizing active interior leaks, wind-stripped shingles or membrane, debris punctures, and ice-dam backup on the city\'s row houses, brownstones, and flat-roof commercial buildings.',
+    '**Newark Quality Roofing is a roofing contractor providing emergency roof repair across Newark, New Jersey, and Essex County**, stabilizing active interior leaks, wind-stripped shingles or membrane, debris punctures, and ice-dam backup on the city\'s row houses, brownstones, and flat-roof commercial buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Emergency roof repair** stabilizes a sudden roof failure — an active leak, storm-stripped shingles, a fallen-tree puncture, or ice-dam backup — to stop water entry before the loss compounds. It tarps or patches the breach first, then schedules the permanent repair.',
   overview: [
@@ -26,7 +26,7 @@ export const newarkEmergencyRoofRepair: ComboContent = {
   faqs: [
     {
       question: 'Who provides emergency roof repair in Newark, NJ?',
-      answer: 'Newark Quality Roofing provides emergency roof repair across Newark as a New Jersey Home Improvement Contractor, licensed and insured. A crew stabilizes the water entry first, tarping or patching the breach, then schedules the permanent repair on row houses, brownstones, and flat-roof commercial buildings citywide.',
+      answer: 'Newark Quality Roofing provides emergency roof repair across Newark as a registered New Jersey Home Improvement Contractor. A crew stabilizes the water entry first, tarping or patching the breach, then schedules the permanent repair on row houses, brownstones, and flat-roof commercial buildings citywide.',
     },
     {
       question: 'How quickly does an emergency roof leak need to be stabilized in Newark?',

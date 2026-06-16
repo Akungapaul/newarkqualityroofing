@@ -4,7 +4,7 @@ export const eastOrangeRoofMaintenancePrograms: ComboContent = {
   serviceId: 'roof-maintenance-programs',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides roof maintenance programs across East Orange, scheduling biannual roof inspections, drainage clearing, sealant maintenance, and a written condition report** on multi-family, pre-war apartment, and flat-roof buildings as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof maintenance programs across East Orange, New Jersey, and Essex County**, scheduling biannual inspections, drainage clearing, sealant maintenance, and a written condition report on multi-family, pre-war apartment, and flat-roof buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**A roof maintenance program** is a recurring schedule of roof inspection, drainage clearing, sealant maintenance, and documentation that keeps a roof tracking toward its full service life. It catches deterioration early rather than reacting after a leak appears.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeRoofMaintenancePrograms: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof maintenance programs in East Orange NJ — biannual inspections, drainage clearing, sealant maintenance, condition reports. NJ-licensed, free estimate.',
+    'Roof maintenance programs in East Orange NJ — biannual inspections, drainage clearing, sealant maintenance, condition reports. NJ-registered, free estimate.',
   pricing: {
     range: '$400–$1,000',
     note: 'Typical NJ leak-repair range per HomeAdvisor; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

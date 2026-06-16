@@ -4,7 +4,7 @@ export const newarkRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides roof inspection across Newark and Essex County, assessing the roof-covering, flashing, drainage, ventilation, and the deck** to document findings before a leak appears, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof inspection across Newark, New Jersey, and Essex County**, assessing the roof-covering, flashing, drainage, ventilation, and the deck to document findings before a leak appears as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**A roof inspection** is a systematic evaluation of a roof\'s covering, flashing, drainage, ventilation, sealants, and deck that rates each component by condition and documents damage, wear, and active-leak indications before water reaches the interior.',
   overview: [

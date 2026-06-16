@@ -4,7 +4,7 @@ export const newarkGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs gutters across Newark**, fitting **seamless aluminum, copper, and steel gutters** and downspouts and resealing leaks, sagging runs, and clogs on row houses, brownstones, and flat-roof buildings, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing and repairing gutters across Newark, New Jersey, and Essex County**, fitting seamless aluminum, copper, and steel gutters and downspouts and resealing leaks, sagging runs, and clogs on row houses, brownstones, and flat-roof buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

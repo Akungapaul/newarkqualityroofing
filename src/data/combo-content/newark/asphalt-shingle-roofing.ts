@@ -4,7 +4,7 @@ export const newarkAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing installs and replaces asphalt shingle roofing across Newark**, fitting architectural and 3-tab shingles with an ice barrier, synthetic underlayment, and balanced ventilation on the city\'s pitched row houses and single-family homes.',
+    '**Newark Quality Roofing is a roofing contractor installing asphalt shingle roofing across Newark, New Jersey, and Essex County**, fitting architectural and 3-tab shingles with an ice barrier, synthetic underlayment, and balanced ventilation on the city\'s pitched row houses and single-family homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Asphalt shingle roofing** covers a sloped roof in overlapping fiberglass-mat shingles surfaced with mineral granules, laid over underlayment, an ice barrier, drip edge, and flashing into a water-shedding system. It is the most common residential roof covering and comes in flat 3-tab and dimensional architectural profiles.',
   overview: [
@@ -29,7 +29,7 @@ export const newarkAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Who installs asphalt shingle roofing in Newark, NJ?',
       answer:
-        'Newark Quality Roofing installs asphalt shingle roofing across Newark and Essex County as a New Jersey Home Improvement Contractor, licensed and insured. A Newark Quality Roofing crew fits 3-tab and architectural shingles to the deck with an ice barrier, synthetic underlayment, flashing, and balanced ventilation.',
+        'Newark Quality Roofing installs asphalt shingle roofing across Newark and Essex County as a registered New Jersey Home Improvement Contractor. A Newark Quality Roofing crew fits 3-tab and architectural shingles to the deck with an ice barrier, synthetic underlayment, flashing, and balanced ventilation.',
     },
     {
       question: 'What is the difference between 3-tab and architectural shingles for a Newark home?',

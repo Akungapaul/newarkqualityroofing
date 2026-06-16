@@ -4,7 +4,7 @@ export const eastOrangeSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides spray foam roofing across East Orange and Essex County, applying seamless spray polyurethane foam and a protective coating** over the flat and low-slope roofs of multi-family walk-ups and commercial buildings.',
+    '**Newark Quality Roofing is a roofing contractor providing spray foam roofing across East Orange, New Jersey, and Essex County**, applying seamless spray polyurethane foam and a protective coating over the flat and low-slope roofs of multi-family walk-ups and commercial buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Spray foam roofing** sprays liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating. The coating shields the UV-sensitive foam from degradation.',
   overview: [

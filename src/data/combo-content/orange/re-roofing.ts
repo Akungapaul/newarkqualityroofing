@@ -4,7 +4,7 @@ export const orangeReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing re-roofs homes and buildings across Orange and Essex County, replacing a worn covering with a new underlayment-and-cover system** on two- and three-family rentals, Seven Oaks detached homes, and Valley Arts low-slope roofs as a NJ contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing re-roofing across Orange, New Jersey, and Essex County**, replacing a worn covering with a new underlayment-and-cover system on two- and three-family rentals, Seven Oaks detached homes, and Valley Arts low-slope roofs, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeReRoofing: ComboContent = {
     },
   ],
   metaDescription:
-    'Re-roofing in Orange NJ — asphalt, metal, slate, and Valley Arts low-slope membrane, two- and three-family tenant access. NJ-licensed, free written estimate.',
+    'Re-roofing in Orange NJ — asphalt, metal, slate, and Valley Arts low-slope membrane, two- and three-family tenant access. NJ-registered, free written estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

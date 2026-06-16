@@ -4,7 +4,7 @@ export const eastOrangeAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs asphalt shingle roofing across East Orange and Essex County, fitting 3-tab and architectural shingles** to the deck with ice barrier, synthetic underlayment, flashing, and balanced ventilation as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing asphalt shingle roofing across East Orange, New Jersey, and Essex County**, fitting 3-tab and architectural shingles to the deck with ice barrier, synthetic underlayment, flashing, and balanced ventilation as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Asphalt shingle roofing** covers a sloped roof in overlapping fiberglass-mat shingles surfaced with mineral granules, laid over underlayment, an ice barrier, drip edge, and flashing into a water-shedding system. It is the most common residential roof covering and comes in flat 3-tab and dimensional architectural profiles.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeAsphaltShingleRoofing: ComboContent = {
     },
   ],
   metaDescription:
-    'Asphalt shingle roofing in East Orange NJ — 3-tab and architectural reroofs for multi-family, pre-war walk-ups, and older homes. NJ-licensed, free estimate.',
+    'Asphalt shingle roofing in East Orange NJ — 3-tab and architectural reroofs for multi-family, pre-war walk-ups, and older homes. NJ-registered, free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

@@ -4,7 +4,7 @@ export const orangeInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides insurance roof replacement across Orange and Essex County, inspecting the roof, photographing storm, wind, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site** as a roofing contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing insurance roof replacement across Orange, New Jersey, and Essex County**, inspecting the roof, photographing storm, wind, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Insurance roof replacement** is a full roof replacement funded through a property-insurance claim for covered storm, hail, wind, or fire damage. It pairs documentation of the damage and a repair scope with the insurer claim process, separate from the work of adjusting the claim.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeInsuranceRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Insurance roof replacement in Orange NJ — two-/three-family rental claims, Valley Arts low-slope membranes, adjuster documentation. NJ-licensed, free estimate.',
+    'Insurance roof replacement in Orange NJ — two-/three-family rental claims, Valley Arts low-slope membranes, adjuster documentation. NJ-registered, free quote.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; a covered claim pays the loss minus the homeowner deductible, per the Insurance Information Institute (Triple-I). Newark Quality Roofing provides a free written estimate.',

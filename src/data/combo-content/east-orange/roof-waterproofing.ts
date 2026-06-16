@@ -4,7 +4,7 @@ export const eastOrangeRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing waterproofs roofs across East Orange and Essex County, sealing the roof deck, the eaves, the valleys and penetrations, and the low-slope and flashing details** on multi-family walk-ups and older homes as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor that waterproofs roofs across East Orange, New Jersey, and Essex County**, sealing the roof deck, eaves, valleys, penetrations, and low-slope and flashing details on multi-family walk-ups and older homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof waterproofing** seals the layer beneath the roof covering — the deck, the eaves, the valleys, and the flashing details — so wind-driven rain that gets past the shingles or membrane stops at the deck rather than entering the home.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeRoofWaterproofing: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof waterproofing in East Orange NJ — sealed deck, ice-barrier eaves, and parapet membrane sealing on multi-family walk-ups. NJ-licensed, free estimate.',
+    'Roof waterproofing in East Orange NJ — sealed deck, ice-barrier eaves, and parapet membrane sealing on multi-family walk-ups. NJ-registered, free estimate.',
   pricing: {
     range: 'Varies by scope',
     note: 'Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',

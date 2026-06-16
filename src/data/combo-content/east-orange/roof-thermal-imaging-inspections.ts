@@ -4,7 +4,7 @@ export const eastOrangeRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides roof thermal imaging inspections across East Orange, mapping wet insulation under the flat and low-slope membranes that cover its apartment, walk-up, and Central Avenue commercial stock** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof thermal imaging inspections across East Orange, New Jersey, and Essex County**, mapping wet insulation under the flat and low-slope membranes that cover its apartment, walk-up, and Central Avenue commercial stock as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**A roof thermal imaging inspection** is a non-destructive infrared survey that scans a roof surface for temperature anomalies marking moisture-contaminated insulation beneath an intact membrane. It applies ASTM C1153, the standard practice for locating wet insulation in roofing systems using infrared imaging, then verifies each anomaly by core cut.',
   overview: [

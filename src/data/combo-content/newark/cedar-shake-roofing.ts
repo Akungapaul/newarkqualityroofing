@@ -4,7 +4,7 @@ export const newarkCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides cedar shake roofing across Newark**, installing and repairing **western red cedar shake** roofs over a ventilated deck on the city\'s historic single-family stock, as a New Jersey Home Improvement Contractor, licensed and insured.',
+    '**Newark Quality Roofing is a roofing contractor providing cedar shake roofing across Newark, New Jersey, and Essex County**, installing and repairing western red cedar shake roofs over a ventilated deck on the city\'s historic single-family stock as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Cedar shake roofing** covers a sloped roof in hand-split western red cedar set over an air-spaced deck, the assembly that sheds water at the surface while the underside dries between rain events. Western red cedar carries natural extractives that resist decay.',
   overview: [

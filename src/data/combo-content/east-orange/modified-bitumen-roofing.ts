@@ -4,7 +4,7 @@ export const eastOrangeModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs modified bitumen roofing across East Orange and Essex County**, building a multi-ply SBS or APP membrane on the flat roofs of pre-war apartments, walk-ups, and Central Avenue commercial buildings, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing modified bitumen roofing across East Orange, New Jersey, and Essex County**, building a multi-ply SBS or APP membrane on the flat roofs of pre-war apartments, walk-ups, and Central Avenue commercial buildings, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Modified bitumen roofing** is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet over base plies on the deck. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant, built-up asphalt assembly.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeModifiedBitumenRoofing: ComboContent = {
     },
   ],
   metaDescription:
-    'Modified bitumen roofing in East Orange NJ — SBS and APP multi-ply flat roofs for pre-war apartments and commercial buildings. NJ-licensed, free estimate.',
+    'Modified bitumen roofing in East Orange NJ — SBS and APP multi-ply flat roofs for pre-war apartments and commercial buildings. NJ-registered, free estimate.',
   pricing: {
     range: '$7–$12/sq ft for a low-slope membrane install',
     note: 'NJ low-slope membrane install range per Josten Roofing NJ pricing, the closest NJ benchmark for modified bitumen; final cost depends on roof size, ply count, application method, and access. Newark Quality Roofing provides a free written estimate.',

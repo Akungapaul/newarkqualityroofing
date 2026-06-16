@@ -4,7 +4,7 @@ export const newarkInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides insurance roof replacement across Newark**, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site as a roofing contractor, not an adjuster.',
+    '**Newark Quality Roofing is a roofing contractor providing insurance roof replacement across Newark, New Jersey, and Essex County**, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Insurance roof replacement** is a full roof replacement funded through a property-insurance claim for covered storm, hail, wind, or fire damage. It pairs documentation of the damage and a repair scope with the insurer claim process, separate from the work of adjusting the claim.',
   overview: [
@@ -58,7 +58,7 @@ export const newarkInsuranceRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Insurance roof replacement in Newark NJ: damage documentation, adjuster on-site meeting, supplement scope, and the approved replacement by a licensed roofer.',
+    'Insurance roof replacement in Newark NJ: damage documentation, adjuster on-site meeting, supplement scope, and the approved replacement by a registered roofer.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize, paid by a covered claim minus the deductible the homeowner owes under the policy; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

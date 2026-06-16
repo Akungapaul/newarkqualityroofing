@@ -4,7 +4,7 @@ export const newarkRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides roof repair across Newark and Essex County, fixing roof leaks, missing and cracked shingles, flashing failures, and storm damage** on row houses, brownstones, and Ironbound flat roofs as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof repair across Newark, New Jersey, and Essex County, fixing roof leaks, missing and cracked shingles, flashing failures, and storm damage** on row houses, brownstones, and Ironbound flat roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof repair** restores a roof\'s weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.',
   overview: [
@@ -57,7 +57,7 @@ export const newarkRoofRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof repair in Newark NJ — brownstone party-wall leaks, Ironbound flat-roof membranes, flashing reseals, and storm damage. NJ-licensed, free written estimate.',
+    'Roof repair in Newark NJ — brownstone party-wall leaks, Ironbound flat-roof membranes, flashing reseals, and storm damage. NJ-registered, free written estimate.',
   pricing: {
     range: '$400–$1,000',
     note: 'Typical NJ leak-repair range per HomeAdvisor; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

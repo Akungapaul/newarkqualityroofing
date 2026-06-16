@@ -4,7 +4,7 @@ export const orangeStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing replaces storm-damaged roofs across Orange and Essex County, documenting wind, hail, and nor\'easter damage with photographs and a detailed scope, then installing a new roof to manufacturer specification** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing storm-damaged roofs across Orange, New Jersey, and Essex County**, documenting wind, hail, and nor\'easter damage with photographs and a detailed scope, then installing a new roof to manufacturer specification as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Storm damage roof replacement** removes and rebuilds a roof structurally compromised by wind, hail, or a severe storm, restoring the full weatherproof system. It follows documentation of the storm damage pattern across the covering, flashing, and deck.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeStormDamageRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Storm-damage roof replacement in Orange NJ — wind, hail, and nor\'easter damage documentation, insurance scope, full tear-off. NJ-licensed, free estimate.',
+    'Storm-damage roof replacement in Orange NJ — wind, hail, and nor\'easter damage documentation, insurance scope, full tear-off. NJ-registered, free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

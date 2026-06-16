@@ -4,7 +4,7 @@ export const eastOrangeInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides infrared roof leak detection across East Orange and Essex County, scanning the flat and low-slope roofs of pre-war apartments, walk-ups, and Central Avenue commercial blocks to ASTM C1153** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing infrared roof leak detection across East Orange, New Jersey, and Essex County**, scanning the flat and low-slope roofs of pre-war apartments, walk-ups, and Central Avenue commercial blocks to ASTM C1153 as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Infrared roof leak detection** is a thermal imaging survey that scans a low-slope or flat roof to ASTM C1153 and maps the subsurface wet insulation a failed roof admits. It locates the moisture-contaminated area that traces back to a breach, directing a targeted repair rather than exploratory tear-out.',
   overview: [
@@ -58,7 +58,7 @@ export const eastOrangeInfraredRoofLeakDetection: ComboContent = {
     },
   ],
   metaDescription:
-    'Infrared roof leak detection in East Orange NJ — ASTM C1153 thermal scans that map wet insulation on apartment and commercial flat roofs. NJ-licensed.',
+    'Infrared roof leak detection in East Orange NJ — ASTM C1153 thermal scans that map wet insulation on apartment and commercial flat roofs. NJ-registered.',
   pricing: {
     range: 'Varies by scope',
     note: 'Final cost depends on roof size, the roof system, and whether core-cut verification and a mapped report accompany the scan. Newark Quality Roofing provides a free written estimate.',

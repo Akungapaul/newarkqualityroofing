@@ -4,7 +4,7 @@ export const eastOrangeTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing replaces clay and concrete tile roofs across East Orange, stripping the tile and failed underlayment to the deck and installing a new underlayment-and-tile system over a load-rated structure** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing tile roofs across East Orange, New Jersey, and Essex County**, stripping the clay or concrete tile and failed underlayment to the deck and installing a new underlayment-and-tile system over a load-rated structure as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [
@@ -28,7 +28,7 @@ export const eastOrangeTileRoofReplacement: ComboContent = {
     {
       question: 'Who replaces tile roofs in East Orange, NJ?',
       answer:
-        'Newark Quality Roofing replaces clay and concrete tile roofs across East Orange as a licensed and insured New Jersey Home Improvement Contractor. A tile replacement strips the tile and the failed underlayment to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system, salvaging or matching the existing tile profile.',
+        'Newark Quality Roofing replaces clay and concrete tile roofs across East Orange as a registered New Jersey Home Improvement Contractor. A tile replacement strips the tile and the failed underlayment to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system, salvaging or matching the existing tile profile.',
     },
     {
       question: 'How long does a tile roof last on an East Orange home?',
@@ -57,7 +57,7 @@ export const eastOrangeTileRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Tile roof replacement in East Orange NJ — clay and concrete tile, full tear-off to deck, renewed underlayment and flashing. NJ-licensed, free written estimate.',
+    'Tile roof replacement in East Orange NJ — clay and concrete tile, full tear-off to deck, renewed underlayment and flashing. NJ-registered, free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

@@ -4,7 +4,7 @@ export const eastOrangeRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides rubber roofing EPDM across East Orange and Essex County, installing, reseaming, and repairing EPDM single-ply membrane on the flat and low-slope roofs** of pre-war apartments, walk-ups, and multi-family homes as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing rubber roofing EPDM across East Orange, New Jersey, and Essex County**, installing, reseaming, and repairing EPDM single-ply membrane on the flat and low-slope roofs of pre-war apartments, walk-ups, and multi-family homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Rubber roofing EPDM** is a single-ply ethylene propylene diene monomer membrane that waterproofs a flat or low-slope roof, bonded to the deck or insulation and sealed at the laps. EPDM protects roof sections too shallow to shed water with shingles.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeRubberRoofingEpdm: ComboContent = {
     },
   ],
   metaDescription:
-    'EPDM rubber roofing in East Orange NJ — flat-roof membrane install, seam reseaming, and leak repair on apartments and walk-ups. NJ-licensed, free estimate.',
+    'EPDM rubber roofing in East Orange NJ — flat-roof membrane install, seam reseaming, and leak repair on apartments and walk-ups. NJ-registered, free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

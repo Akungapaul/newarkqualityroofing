@@ -4,7 +4,7 @@ export const orangeCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides commercial roof repair across Orange and Essex County, repairing seam separations, membrane punctures, flashing failures, and ponding-water damage** on the low-slope EPDM, TPO, and modified-bitumen roofs of Valley Arts lofts and Main Street commercial buildings.',
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof repair across Orange, New Jersey, and Essex County**, repairing seam separations, membrane punctures, flashing failures, and ponding-water damage on the low-slope EPDM, TPO, and modified-bitumen roofs of Valley Arts lofts and Main Street commercial buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial roof repair** restores the weather barrier of a low-slope commercial membrane by sealing localized failures — seam separations, punctures, flashing breaks, and ponding damage — without replacing the entire roof. It traces water entry to the failed detail, then reseals it with manufacturer-approved bonding that keeps the system warranty intact.',
   overview: [
@@ -58,7 +58,7 @@ export const orangeCommercialRoofRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Commercial roof repair in Orange NJ — Valley Arts loft and Main Street flat-roof membranes, seam and flashing reseals, tenant-occupied scheduling. NJ-licensed.',
+    'Commercial roof repair in Orange NJ — Valley Arts loft and Main Street flat-roof membranes, seam and flashing reseals, tenant scheduling. NJ-registered.',
   pricing: {
     range: '$300–$1,100',
     note: 'Typical NJ commercial flat-roof repair range ($2.50–$10.00 per square foot) per HomeGuide, Modernize, and WeatherShield; final cost depends on roof size, membrane type, and access. Newark Quality Roofing provides a free written estimate.',

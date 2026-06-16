@@ -4,7 +4,7 @@ export const orangePvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs and services PVC single-ply roofing across Orange and Essex County, welding chemical-resistant white membrane on commercial low-slope roofs that carry grease, oil, and rooftop exhaust** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor that installs and services PVC roofing across Orange, New Jersey, and Essex County**, welding chemical-resistant white membrane on commercial low-slope roofs that carry grease, oil, and rooftop exhaust as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**PVC roofing** is a single-ply polyvinyl-chloride thermoplastic membrane, hot-air-welded at the seams, installed on commercial low-slope roofs. The white membrane resists grease, oils, and chemical exhaust that degrade other single-ply membranes, and reflects solar radiation as a cool roof.',
   overview: [

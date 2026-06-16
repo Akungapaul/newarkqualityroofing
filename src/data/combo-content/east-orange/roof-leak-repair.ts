@@ -4,7 +4,7 @@ export const eastOrangeRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides roof leak repair across East Orange, tracing the moisture path to the root-cause flashing, shingle, pipe-boot, or membrane detail** on multi-family walk-ups and older single-family homes as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor that locates and repairs roof leaks across East Orange, New Jersey, and Essex County**, tracing the moisture path to the root-cause flashing, shingle, pipe-boot, or membrane detail on multi-family walk-ups and older single-family homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof leak repair** traces a roof leak to its source detail — flashing, shingle, pipe boot, valley, or skylight — and reseals or replaces the failed component to stop water entry. It diagnoses the entry point, which sits feet away from the interior drip, before sealing.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeRoofLeakRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof leak repair in East Orange NJ — multi-family water-path tracing, flat-roof membrane leaks, and flashing reseals. NJ-licensed, free written estimate.',
+    'Roof leak repair in East Orange NJ — multi-family water-path tracing, flat-roof membrane leaks, and flashing reseals. NJ-registered, free written estimate.',
   pricing: {
     range: '$400–$1,000',
     note: 'Typical NJ leak-repair range per HomeAdvisor; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

@@ -4,7 +4,7 @@ export const newarkAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing replaces aging roofs across Newark**, stripping a roof at the end of its material lifespan to the deck and installing a new underlayment-and-cover system before age-driven failure, as a **New Jersey Home Improvement Contractor.**',
+    '**Newark Quality Roofing is a roofing contractor replacing aging roofs across Newark, New Jersey, and Essex County**, stripping a roof at the end of its material lifespan to the deck and installing a new underlayment-and-cover system before age-driven failure, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.',
   overview: [

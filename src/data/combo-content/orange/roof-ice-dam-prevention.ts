@@ -4,7 +4,7 @@ export const orangeRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides roof ice dam prevention across Orange and Essex County, correcting attic heat escape with air-sealing, code-minimum insulation, balanced ventilation, and a code eave ice barrier** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof ice dam prevention across Orange, New Jersey, and Essex County**, correcting attic heat escape with air-sealing, code-minimum insulation, balanced ventilation, and a code eave ice barrier as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof ice dam prevention** corrects the attic heat escape that melts a snowpack and refreezes meltwater into a dam at the cold eave. It combines air-sealing, attic insulation, balanced soffit-and-ridge ventilation, and a self-adhering eave ice barrier.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeRoofIceDamPrevention: ComboContent = {
     },
   ],
   metaDescription:
-    'Ice dam prevention in Orange NJ — attic air-sealing, code-minimum insulation, balanced ventilation, and code eave ice barrier. NJ-licensed, free estimate.',
+    'Ice dam prevention in Orange NJ — attic air-sealing, code-minimum insulation, balanced ventilation, and code eave ice barrier. NJ-registered, free estimate.',
   pricing: {
     range: 'Varies by scope',
     note: 'Final cost depends on the attic air-sealing scope, insulation added, ventilation correction, and eave ice-barrier coverage. Newark Quality Roofing provides a free written estimate.',

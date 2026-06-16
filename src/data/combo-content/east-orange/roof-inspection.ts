@@ -4,7 +4,7 @@ export const eastOrangeRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides roof inspection across East Orange and Essex County, documenting roof-covering condition, flashing, drainage, ventilation, and the deck** on pre-war apartments, two- and three-family walk-ups, and older single-family homes as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof inspection across East Orange, New Jersey, and Essex County**, documenting roof-covering condition, flashing, drainage, ventilation, and the deck on pre-war apartments, two- and three-family walk-ups, and older single-family homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**A roof inspection** is a systematic evaluation of a roof\'s covering, flashing, drainage, ventilation, sealants, and deck that rates each component by condition and documents damage, wear, and active-leak indications before water reaches the interior.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeRoofInspection: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof inspection in East Orange NJ — multi-family and pre-war walk-up condition reports, infrared moisture scans, drone surveys. NJ-licensed, free estimate.',
+    'Roof inspection in East Orange NJ — multi-family and pre-war walk-up condition reports, infrared moisture scans, drone surveys. NJ-registered, free estimate.',
   pricing: {
     range: '$75–$600 for most inspections',
     note: 'Visual $75–$200, drone $150–$400, infrared $400–$600 per HomeAdvisor inspection-cost data; final cost depends on roof size, slope, and method. Newark Quality Roofing provides a free written estimate.',

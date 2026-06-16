@@ -4,11 +4,11 @@ export const newarkRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs roof vents across Newark**, building a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing and repairing roof vents across Newark, New Jersey, and Essex County**, building a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [
-    '**Newark Quality Roofing installs and repairs roof vents across Newark, building a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents** as a New Jersey Home Improvement Contractor, licensed and insured.',
+    '**Newark Quality Roofing installs and repairs roof vents across Newark, building a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents** as a registered New Jersey Home Improvement Contractor.',
     '**Roof vent work** builds the airflow path that moves attic heat and moisture out of a Newark roof, the system the IRC requires on a vented attic. A Newark Quality Roofing vent layout pairs low soffit intake at the eave with high ridge exhaust at the top, so air moves from eave to ridge without short-circuiting.',
     '**Balanced ventilation** runs at roughly 50% soffit intake and 50% ridge exhaust, the balance the ARMA and Air Vent Inc. specify. Under IRC Section R806.2, the minimum net free ventilating area is 1/150 of the vented attic floor, and net free area counts the actual unobstructed opening after louvers and screen reduce the vent, per the ARMA — so Newark Quality Roofing sizes the venting to that 1/150 ratio before installing a single vent.',
     '**Newark\'s housing stock** shapes the vent design across the wards. Forest Hill and Roseville carry peaked-roof 1870s–1920s Victorians and brownstone row homes with accessible ridge lines that suit continuous ridge exhaust, while Ironbound and Ferry Street run low-slope flat-roof commercial buildings where intake and exhaust are sized to the same 1/150 ratio on a different geometry.',
@@ -29,7 +29,7 @@ export const newarkRoofVentInstallationRepair: ComboContent = {
     {
       question: 'Who installs and repairs roof vents in Newark, NJ?',
       answer:
-        'Newark Quality Roofing installs and repairs roof vents across Newark as a New Jersey Home Improvement Contractor, licensed and insured. The crew builds a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents, sized to the 1/150 net free area ratio under IRC Section R806.2 and balanced at roughly 50% intake and 50% exhaust, per the ARMA.',
+        'Newark Quality Roofing installs and repairs roof vents across Newark as a registered New Jersey Home Improvement Contractor. The crew builds a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents, sized to the 1/150 net free area ratio under IRC Section R806.2 and balanced at roughly 50% intake and 50% exhaust, per the ARMA.',
     },
     {
       question: 'How much attic ventilation does a roof need in Newark, NJ?',

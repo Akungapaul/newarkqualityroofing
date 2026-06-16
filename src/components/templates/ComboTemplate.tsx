@@ -266,9 +266,9 @@ function ComboPlaceholder({
               estimate and consultation.
             </p>
             <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
-              Our licensed and insured team brings years of experience to every project.
-              We serve {city.name} with the same commitment to quality that has made us a
-              trusted name across Essex County.
+              Our team is fully insured and brings years of experience to every project as a
+              registered New Jersey Home Improvement Contractor. We serve {city.name} with the
+              same commitment to quality that has made us a trusted name across Essex County.
             </p>
           </div>
         </div>

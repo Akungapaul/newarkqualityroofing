@@ -4,7 +4,7 @@ export const orangeRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing waterproofs roofs across Orange and Essex County, sealing the roof deck, ice-prone eaves, valleys, penetrations, and low-slope flashing details** on two-/three-family homes, Valley Arts lofts, and Main Street commercial roofs as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor that waterproofs roofs across Orange, New Jersey, and Essex County**, sealing the roof deck, ice-prone eaves, valleys, penetrations, and low-slope flashing details on two-/three-family homes, Valley Arts lofts, and Main Street commercial roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof waterproofing** seals the layer beneath the roof covering — the deck, the eaves, the valleys, and the flashing details — so wind-driven rain that gets past the shingles or membrane stops at the deck rather than entering the home.',
   overview: [
@@ -52,7 +52,7 @@ export const orangeRoofWaterproofing: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof waterproofing in Orange NJ — sealed roof decks, ice-barrier eaves, Valley Arts loft and Main Street low-slope membranes. NJ-licensed, free estimate.',
+    'Roof waterproofing in Orange NJ — sealed roof decks, ice-barrier eaves, Valley Arts loft and Main Street low-slope membranes. NJ-registered, free estimate.',
   pricing: {
     range: 'Varies by scope',
     note: 'Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',

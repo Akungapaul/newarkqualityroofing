@@ -4,7 +4,7 @@ export const eastOrangeSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs solar shingles across East Orange and Essex County, replacing the roof covering with building-integrated solar shingles** that generate power while serving as the roof itself on owner-occupied homes, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor that installs solar shingles across East Orange, New Jersey, and Essex County**, replacing the roof covering with building-integrated solar shingles that generate power while serving as the roof itself on owner-occupied homes, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeSolarShingleInstallation: ComboContent = {
     },
   ],
   metaDescription:
-    'Solar shingle installation in East Orange NJ — building-integrated GAF Energy, Tesla, and CertainTeed systems paired with a reroof. NJ-licensed, free estimate.',
+    'Solar shingle installation in East Orange NJ — building-integrated GAF Energy, Tesla, and CertainTeed systems paired with a reroof. NJ-registered, free quote.',
   pricing: {
     range: 'Free written estimate; solar shingles ~$3.50–$8.00/W installed',
     note: 'Solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for rack-mounted panels, per EnergySage, SolarReviews, and WattBuild; final cost depends on roof size, pitch, product, and reroof scope. Newark Quality Roofing provides a free written estimate.',

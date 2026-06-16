@@ -4,7 +4,7 @@ export const orangeSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides spray foam roofing across Orange**, spraying seamless **spray polyurethane foam** and a protective coating over the low-slope decks of Valley Arts loft and Main Street commercial buildings, licensed and insured.',
+    '**Newark Quality Roofing is a roofing contractor providing spray foam roofing across Orange, New Jersey, and Essex County**, applying seamless spray polyurethane foam and a protective coating over the low-slope decks of Valley Arts loft and Main Street commercial buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Spray foam roofing** sprays liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating. The coating shields the UV-sensitive foam from degradation.',
   overview: [

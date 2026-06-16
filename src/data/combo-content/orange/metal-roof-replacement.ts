@@ -4,7 +4,7 @@ export const orangeMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing replaces roofs with new metal across Orange and Essex County, installing standing-seam, metal-panel, or metal-shingle systems** on two-/three-family homes, Seven Oaks detached houses, and Valley Arts loft buildings as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing roofs with new metal across Orange, New Jersey, and Essex County**, installing standing-seam, metal-panel, or metal-shingle systems on two-/three-family homes, Seven Oaks detached houses, and Valley Arts loft buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Metal roof replacement** removes a worn roof covering down to the deck and installs a new metal system in standing-seam panels, metal panels, or metal shingles. It rebuilds the entire weatherproof surface in steel, aluminum, copper, or zinc.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeMetalRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Metal roof replacement in Orange NJ — standing-seam, metal-panel, and metal-shingle systems on two-/three-family, Seven Oaks, and loft buildings. NJ-licensed.',
+    'Metal roof replacement in Orange NJ — standing-seam, metal-panel, and metal-shingle systems on two-/three-family, Seven Oaks, and loft buildings. NJ-registered.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; metal sits at the higher end. Final cost depends on roof size, pitch, metal type, and access. Newark Quality Roofing provides a free written estimate.',

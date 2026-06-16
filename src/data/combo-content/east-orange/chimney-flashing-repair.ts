@@ -4,7 +4,7 @@ export const eastOrangeChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing repairs chimney flashing across East Orange and Essex County, rebuilding the two-part base-and-counter flashing system that seals the chimney, the roof\'s largest and most leak-prone penetration** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor repairing chimney flashing across East Orange, New Jersey, and Essex County**, rebuilding the two-part base-and-counter flashing system that seals the chimney, the roof\'s largest and most leak-prone penetration, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeChimneyFlashingRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Chimney flashing repair in East Orange NJ — two-part step and counter flashing, cricket installation, multi-family roof access. NJ-licensed, free estimate.',
+    'Chimney flashing repair in East Orange NJ — two-part step and counter flashing, cricket installation, multi-family roof access. NJ-registered, free estimate.',
   pricing: {
     range: '$300–$1,800',
     note: 'Typical chimney flashing repair range per HomeGuide and Angi (most $400–$1,600; spot reseal $150–$300); final cost depends on chimney width, masonry condition, and access. Newark Quality Roofing provides a free written estimate.',

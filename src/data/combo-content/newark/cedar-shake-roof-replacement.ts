@@ -4,7 +4,7 @@ export const newarkCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs across Newark**, stripping aging wood to the deck and installing new cedar on a ventilated nailing base as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing cedar shake roofs across Newark, New Jersey, and Essex County**, stripping aging wood to the deck and installing new cedar on a ventilated nailing base as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
@@ -29,7 +29,7 @@ export const newarkCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Who replaces cedar shake roofs in Newark, NJ?',
       answer:
-        'Newark Quality Roofing replaces cedar shake and cedar shingle roofs across Newark and Essex County as a New Jersey Home Improvement Contractor, licensed and insured. A Newark Quality Roofing crew strips aging cedar to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar for residential and character properties.',
+        'Newark Quality Roofing replaces cedar shake and cedar shingle roofs across Newark and Essex County as a registered New Jersey Home Improvement Contractor. A Newark Quality Roofing crew strips aging cedar to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar for residential and character properties.',
     },
     {
       question: 'Can a new cedar roof go over an old cedar roof in Newark?',
@@ -58,7 +58,7 @@ export const newarkCedarShakeRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Cedar shake roof replacement in Newark NJ. Licensed NJ contractor strips cedar to the deck, repairs sheathing, and rebuilds a ventilated base. Free estimate.',
+    'Cedar shake roof replacement in Newark NJ. Registered NJ contractor strips cedar to the deck, repairs sheathing, and rebuilds a ventilated base. Free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium cedar sits at the upper end, and final cost depends on roof size, pitch, cedar type, fire treatment, and access. Newark Quality Roofing provides a free written estimate.',

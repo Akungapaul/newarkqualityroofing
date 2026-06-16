@@ -4,7 +4,7 @@ export const eastOrangeWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides wood shake roofing across East Orange and Essex County, installing, repairing, and maintaining western red cedar shake and shingle systems on a ventilated assembly** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing wood shake roofing across East Orange, New Jersey, and Essex County**, installing, repairing, and maintaining western red cedar shake and shingle systems on a ventilated assembly as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Wood shake roofing** covers a sloped roof in hand-split or tapersawn western red cedar laid over a ventilated assembly that lets each course dry from the underside after rainfall. The air space beneath the shakes manages the moisture that drives most cedar wear.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeWoodShakeRoofing: ComboContent = {
     },
   ],
   metaDescription:
-    'Wood shake roofing in East Orange NJ — western red cedar shake and shingle installation, repair, and preservative maintenance. NJ-licensed, free estimate.',
+    'Wood shake roofing in East Orange NJ — western red cedar shake and shingle installation, repair, and preservative maintenance. NJ-registered, free estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

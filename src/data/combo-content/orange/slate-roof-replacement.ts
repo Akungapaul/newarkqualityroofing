@@ -4,7 +4,7 @@ export const orangeSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing replaces slate roofs across Orange and Essex County, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing slate roofs across Orange, New Jersey, and Essex County**, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Slate roof replacement** strips a failing slate roof to the deck, repairs the sheathing, and reinstalls natural or synthetic slate on corrosion-resistant copper or stainless fasteners. It renews a heavy, long-lived covering that demands a load-rated structure.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeSlateRoofReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Slate roof replacement in Orange NJ — natural and synthetic slate, copper flashing, full tear-off, four-district COA review. NJ-licensed, free written estimate.',
+    'Slate roof replacement in Orange NJ — natural and synthetic slate, copper flashing, full tear-off, four-district COA review. NJ-registered, free estimate.',
   pricing: {
     range: '$10–$30 per square foot for most slate roofs',
     note: 'Slate installation in NJ runs $10–$30 per square foot, roughly $1,500 per roofing square, per named NJ roofing guides; tear-off adds $2–$5 per square foot since slate cannot be roofed over. Final cost depends on roof size, pitch, slate source, and access. Newark Quality Roofing provides a free written estimate.',

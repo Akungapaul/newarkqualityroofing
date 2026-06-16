@@ -4,7 +4,7 @@ export const orangeWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides wind damage roof repair across Orange and Essex County, replacing wind-lifted and blown-off shingles, resealing displaced flashing, and refastening loosened low-slope membrane** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing wind damage roof repair across Orange, New Jersey, and Essex County**, replacing wind-lifted and blown-off shingles, resealing displaced flashing, and refastening loosened low-slope membrane as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Wind damage roof repair** restores the roof where wind separated the covering — blown-off and creased shingles, lifted ridge and hip caps, broken shingle seals, displaced flashing, and loosened membrane. It concentrates on the corners, rakes, and edges, where wind uplift peaks.',
   overview: [
@@ -58,7 +58,7 @@ export const orangeWindDamageRoofRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Wind damage roof repair in Orange NJ — blown-off shingles, displaced flashing, and Valley Arts low-slope membrane refastening. NJ-licensed, free estimate.',
+    'Wind damage roof repair in Orange NJ — blown-off shingles, displaced flashing, and Valley Arts low-slope membrane refastening. NJ-registered, free estimate.',
   pricing: {
     range: '$400–$1,000',
     note: 'Typical NJ wind-repair range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

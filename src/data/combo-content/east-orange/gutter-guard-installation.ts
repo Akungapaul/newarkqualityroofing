@@ -4,7 +4,7 @@ export const eastOrangeGutterGuardInstallation: ComboContent = {
   serviceId: 'gutter-guard-installation',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs gutter guards across East Orange and Essex County, fitting micro-mesh, screen, reverse-curve, foam, and brush guards over the gutters of multi-family, pre-war walk-up, and single-family buildings** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing gutter guards across East Orange, New Jersey, and Essex County**, fitting micro-mesh, screen, reverse-curve, foam, and brush guards over the gutters of multi-family, pre-war walk-up, and single-family buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**A gutter guard** is a cover fitted over or inside a gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while letting water pass into the gutter. A gutter guard reduces clogging and overflow rather than eliminating gutter cleaning.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeGutterGuardInstallation: ComboContent = {
     },
   ],
   metaDescription:
-    'Gutter guard installation in East Orange NJ — micro-mesh and screen guards for multi-family, walk-up, and single-family roofs. NJ-licensed, free estimate.',
+    'Gutter guard installation in East Orange NJ — micro-mesh and screen guards for multi-family, walk-up, and single-family roofs. NJ-registered, free estimate.',
   pricing: {
     range: '$22–$26 per linear foot installed',
     note: 'Installed gutter guards run roughly $22 to $26 per linear foot, about $4,300 to $5,200 for 200 feet, per This Old House; screen runs near $1 to $4 and micro-mesh near $9 per foot, per Angi. Final cost depends on linear footage, guard type, building height, and gutter condition. Newark Quality Roofing provides a free written estimate.',

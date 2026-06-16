@@ -4,7 +4,7 @@ export const newarkRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides roof ice dam prevention across Newark**, correcting **attic heat escape** with air-sealing, code-minimum insulation, and balanced ventilation, and installing the **code eave ice barrier**, as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof ice dam prevention across Newark, New Jersey, and Essex County**, correcting attic heat escape with air-sealing, code-minimum insulation, and balanced ventilation, and installing the code eave ice barrier, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof ice dam prevention** corrects the attic heat escape that melts a snowpack and refreezes meltwater into a dam at the cold eave. It combines air-sealing, attic insulation, balanced soffit-and-ridge ventilation, and a self-adhering eave ice barrier.',
   overview: [

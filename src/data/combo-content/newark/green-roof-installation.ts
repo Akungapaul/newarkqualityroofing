@@ -4,7 +4,7 @@ export const newarkGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing installs green roof systems across Newark and Essex County, building the waterproofing membrane, root barrier, drainage layer, and growing media that carry a planted roof** as a New Jersey Home Improvement Contractor, licensed and insured.',
+    '**Newark Quality Roofing is a roofing contractor installing green roof systems across Newark, New Jersey, and Essex County**, building the waterproofing membrane, root barrier, drainage layer, and growing media that carry a planted roof as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.',
   overview: [

@@ -4,7 +4,7 @@ export const newarkHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides hail damage roof repair across Newark**, assessing impact bruises, granule loss, and cracked shingles, then documenting the damage for an insurance claim as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing hail damage roof repair across Newark, New Jersey, and Essex County**, assessing impact bruises, granule loss, and cracked shingles, then documenting the damage for an insurance claim as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Hail damage roof repair** restores the roof covering at each hail impact point — bruised and fractured shingles, granule loss, and dented metal flashing — and documents the damage for an insurance claim. It classifies functional damage that exposes the asphalt mat against cosmetic surface marking.',
   overview: [

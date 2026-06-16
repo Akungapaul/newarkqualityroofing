@@ -4,7 +4,7 @@ export const orangeRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs roof overlays across the City of Orange Township, applying a second asphalt-shingle layer over one existing sound asphalt layer with no tear-off** on qualifying Seven Oaks detached and two-/three-family roofs as a New Jersey licensed contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing roof overlays across Orange, New Jersey, and Essex County**, applying a second asphalt-shingle layer over one existing sound asphalt layer with no tear-off on qualifying Seven Oaks detached and two-/three-family roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [
@@ -58,7 +58,7 @@ export const orangeRoofOverlayInstallation: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof overlay installation in Orange NJ — second-layer asphalt recover, 5:23-6.4 eligibility, rental access, tear-off trade-offs. NJ-licensed, free estimate.',
+    'Roof overlay installation in Orange NJ — second-layer asphalt recover, 5:23-6.4 eligibility, rental access, tear-off trade-offs. NJ-registered, free estimate.',
   pricing: {
     range: 'Roughly 20–25% less than a full tear-off',
     note: 'A roof overlay runs roughly 20–25% less than a full tear-off, commonly $2,000–$5,000 cheaper for a typical home, per HomeGuide and Angi; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

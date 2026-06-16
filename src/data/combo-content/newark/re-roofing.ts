@@ -4,7 +4,7 @@ export const newarkReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides re-roofing across Newark**, replacing a worn roof covering with a new underlayment-and-cover system once the existing roof crosses the replacement threshold by age or condition.',
+    '**Newark Quality Roofing is a roofing contractor providing re-roofing across Newark, New Jersey, and Essex County**, replacing a worn roof covering with a new underlayment-and-cover system once the existing roof crosses the replacement threshold by age or condition, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [

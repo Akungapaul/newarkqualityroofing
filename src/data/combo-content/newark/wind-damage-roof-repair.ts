@@ -4,7 +4,7 @@ export const newarkWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing provides wind damage roof repair across Newark**, replacing **wind-lifted and blown-off shingles**, resealing displaced flashing, and refastening loosened low-slope membrane as a New Jersey Home Improvement Contractor, with insurance-claim documentation.',
+    '**Newark Quality Roofing is a roofing contractor providing wind damage roof repair across Newark, New Jersey, and Essex County**, replacing wind-lifted and blown-off shingles, resealing displaced flashing, and refastening loosened low-slope membrane as a registered New Jersey Home Improvement Contractor, with insurance-claim documentation.',
   definition:
     '**Wind damage roof repair** restores the roof where wind separated the covering — blown-off and creased shingles, lifted ridge and hip caps, broken shingle seals, displaced flashing, and loosened membrane. It concentrates on the corners, rakes, and edges, where wind uplift peaks.',
   overview: [

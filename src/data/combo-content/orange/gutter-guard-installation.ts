@@ -4,7 +4,7 @@ export const orangeGutterGuardInstallation: ComboContent = {
   serviceId: 'gutter-guard-installation',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs gutter guards across the City of Orange Township and Essex County, fitting micro-mesh, screen, reverse-curve, foam, and brush guards** over Seven Oaks, Valley Arts, and Main Street gutters as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing gutter guards across Orange, New Jersey, and Essex County**, fitting micro-mesh, screen, reverse-curve, foam, and brush guards over Seven Oaks, Valley Arts, and Main Street gutters as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**A gutter guard** is a cover fitted over or inside a gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while letting water pass into the gutter. A gutter guard reduces clogging and overflow rather than eliminating gutter cleaning.',
   overview: [

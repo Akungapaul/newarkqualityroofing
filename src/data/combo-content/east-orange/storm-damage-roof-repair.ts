@@ -4,7 +4,7 @@ export const eastOrangeStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides storm damage roof repair across East Orange**, working the **landlord-owned walk-ups and apartment blocks** one storm exposes at once, with portfolio-wide insurance-claim documentation as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing storm damage roof repair across East Orange, New Jersey, and Essex County**, working the landlord-owned walk-ups and apartment blocks one storm exposes at once, with portfolio-wide insurance-claim documentation as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Storm damage roof repair** restores the roof covering where a storm opened a detail — wind-lifted shingles, hail-bruised surfaces, debris punctures, or displaced flashing — and documents the damage for an insurance claim. It separates storm-caused damage from pre-existing wear, the distinction that governs coverage.',
   overview: [

@@ -4,7 +4,7 @@ export const newarkResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing installs residential roofs across Newark, building the complete deck-to-ridge system on the city\'s row houses, brownstones, two- and three-family homes, and new construction** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor that installs residential roofs across Newark, New Jersey, and Essex County**, building the complete deck-to-ridge system on the city\'s row houses, brownstones, two- and three-family homes, and new construction as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Residential roof installation** builds a complete roof system on a house from the deck up — ice barrier, underlayment, flashing, the finish covering, and ventilation. It applies to new construction and full replacements, replacing the entire weatherproof assembly rather than patching a failed detail.',
   overview: [

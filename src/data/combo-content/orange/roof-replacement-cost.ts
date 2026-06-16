@@ -4,7 +4,7 @@ export const orangeRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing prices and performs roof replacements across Orange and Essex County**, estimating tear-off, decking, material, and NJ labor on two-/three-family, converted-loft, and detached homes as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing residential and commercial roofs across Orange, New Jersey, and Essex County**, estimating tear-off, decking, material, and NJ labor on two-/three-family, converted-loft, and detached homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.',
   overview: [
@@ -57,7 +57,7 @@ export const orangeRoofReplacementCost: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof replacement cost in Orange NJ — line-item estimates for two-/three-family, Valley Arts loft, and Seven Oaks homes. NJ-licensed, free written estimate.',
+    'Roof replacement cost in Orange NJ — line-item estimates for two-/three-family, Valley Arts loft, and Seven Oaks homes. NJ-registered, free written estimate.',
   pricing: {
     range: '$10,000–$25,000',
     note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

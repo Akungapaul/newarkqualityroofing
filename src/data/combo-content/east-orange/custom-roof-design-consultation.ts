@@ -4,7 +4,7 @@ export const eastOrangeCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides custom roof design and consultation across East Orange and Essex County, evaluating roof geometry, material options, and code requirements to produce a written roofing specification** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing custom roof design and consultation across East Orange, New Jersey, and Essex County**, evaluating roof geometry, material options, and code requirements to produce a written roofing specification as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Custom roof design and consultation** is an advisory service that evaluates a building\'s roof geometry, structure, material options, and code requirements, then produces a written roofing specification before installation. It guides a new build, addition, complex roof, or material-selection decision.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeCustomRoofDesignConsultation: ComboContent = {
     },
   ],
   metaDescription:
-    'Custom roof design and consultation for East Orange NJ — multi-family rehab, layered flat-roof systems, material selection, and code path. NJ-licensed.',
+    'Custom roof design and consultation for East Orange NJ — multi-family rehab, layered flat-roof systems, material selection, and code path. NJ-registered.',
   pricing: {
     range: 'Free written estimate and consultation',
     note: 'NJ architectural asphalt runs $6.50–$11.00 per square foot, metal $9.00–$16.00, and slate $10–$30, per Josten Roofing and NJ roofing-guide pricing, so the material selection drives the install cost. Newark Quality Roofing provides a free written estimate.',

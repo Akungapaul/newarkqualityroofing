@@ -4,7 +4,7 @@ export const newarkFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing replaces fire-damaged roofs across Newark and Essex County**, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a **Class A fire-rated roof** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing fire-damaged roofs across Newark, New Jersey, and Essex County**, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
@@ -29,7 +29,7 @@ export const newarkFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Who provides fire-damage roof replacement in Newark, NJ?',
       answer:
-        'Newark Quality Roofing replaces fire-damaged roofs across Newark and Essex County as a New Jersey Home Improvement Contractor, licensed and insured. A Newark Quality Roofing crew tears off the charred covering and deck, rebuilds heat-weakened framing to a licensed structural engineer\'s assessment, and installs a Class A fire-rated covering to current code on row houses, brownstones, and Ironbound flat-roof buildings.',
+        'Newark Quality Roofing replaces fire-damaged roofs across Newark and Essex County as a registered New Jersey Home Improvement Contractor. A Newark Quality Roofing crew tears off the charred covering and deck, rebuilds heat-weakened framing to a licensed structural engineer\'s assessment, and installs a Class A fire-rated covering to current code on row houses, brownstones, and Ironbound flat-roof buildings.',
     },
     {
       question: 'Should you repair or replace a fire-damaged roof?',

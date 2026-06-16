@@ -4,7 +4,7 @@ export const orangeFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs fascia across Orange, replacing the rotted edge board that closes the rafter-tail ends and mounts the gutter system** on the city\'s two- and three-family homes as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing and repairing fascia across Orange, New Jersey, and Essex County**, replacing the rotted edge board that closes the rafter-tail ends and mounts the gutter system on the city\'s two- and three-family homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.',
   overview: [
@@ -56,7 +56,7 @@ export const orangeFasciaInstallationRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Fascia installation and repair in Orange NJ — rotted-board replacement, gutter-line rebuild, and four-material options. NJ-licensed, free written estimate.',
+    'Fascia installation and repair in Orange NJ — rotted-board replacement, gutter-line rebuild, and four-material options. NJ-registered, free written estimate.',
   pricing: {
     range: 'Varies by scope',
     note: 'Final cost depends on board length, material, gutter remount, and access. Newark Quality Roofing provides a free written estimate.',

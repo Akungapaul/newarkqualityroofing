@@ -4,7 +4,7 @@ export const eastOrangeSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing applies silicone elastomeric roof coating across East Orange, matching the chemistry — silicone or acrylic — to each low-slope roof\'s ponding, dirt-pickup, and thermal-movement conditions** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor applying silicone elastomeric roof coating across East Orange, New Jersey, and Essex County**, matching the chemistry — silicone or acrylic — to each low-slope roof\'s ponding, dirt-pickup, and thermal-movement conditions as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Silicone elastomeric roof coating** is a liquid-applied membrane that stretches and recovers to accommodate the daily thermal movement of a low-slope roof, sealing it under one monolithic surface. The chemistry — silicone, acrylic, or polyurethane — is matched to the roof\'s ponding, dirt-pickup, and movement conditions.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeSiliconeElastomericRoofCoating: ComboContent = {
     },
   ],
   metaDescription:
-    'Silicone elastomeric roof coating in East Orange NJ — silicone-vs-acrylic selection for flat multi-family and commercial roofs. NJ-licensed, free estimate.',
+    'Silicone elastomeric roof coating in East Orange NJ — silicone-vs-acrylic selection for flat multi-family and commercial roofs. NJ-registered, free estimate.',
   pricing: {
     range: 'Free written estimate — a fraction of tear-off and replacement cost',
     note: 'A maintained elastomeric coating restores a sound low-slope roof at a fraction of tear-off cost and avoids landfill, per the RCMA; final cost tracks roof size, chemistry, dry-film thickness, and prep. Newark Quality Roofing provides a free written estimate.',

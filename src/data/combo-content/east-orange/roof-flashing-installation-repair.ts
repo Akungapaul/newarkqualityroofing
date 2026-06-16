@@ -4,7 +4,7 @@ export const eastOrangeRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing installs and repairs roof flashing across East Orange and Essex County, sealing the chimneys, sidewalls, valleys, dormers, and penetrations where most roof leaks originate** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing and repairing roof flashing across East Orange, New Jersey, and Essex County**, sealing the chimneys, sidewalls, valleys, dormers, and penetrations where most roof leaks originate as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof flashing** is the sheet metal that seals the transitions and penetrations of a roof — chimneys, walls, valleys, skylights, and vent stacks. Flashing sheds water at every joint a continuous shingle field cannot cover, the detail where most roof leaks originate.',
   overview: [
@@ -58,7 +58,7 @@ export const eastOrangeRoofFlashingInstallationRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof flashing repair in East Orange NJ — chimney, dormer, valley, and pipe-boot flashing on multi-family and pre-war buildings. NJ-licensed, free estimate.',
+    'Roof flashing repair in East Orange NJ — chimney, dormer, valley, and pipe-boot flashing on multi-family and pre-war buildings. NJ-registered, free estimate.',
   pricing: {
     range: '$200–$500',
     note: 'Flashing reseal or small-section repair range per Modernize; a larger chimney or valley rebuild costs more, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',

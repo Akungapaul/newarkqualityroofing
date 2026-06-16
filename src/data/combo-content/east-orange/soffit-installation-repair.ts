@@ -4,7 +4,7 @@ export const eastOrangeSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides soffit installation and repair across East Orange and Essex County, replacing rotted soffit board, clearing blocked intake vents, and installing insulation baffles to restore attic airflow** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing soffit installation and repair across East Orange, New Jersey, and Essex County, replacing rotted soffit board, clearing blocked intake vents, and installing insulation baffles to restore attic airflow** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**The soffit** is the eave underside that closes the rafter-tail bays and houses the intake vents of a balanced attic-ventilation system. Soffit installation and repair replaces the rotted panel, clears blocked intake, and installs baffles that hold the soffit-to-ridge air channel open.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeSoffitInstallationRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Soffit installation and repair in East Orange NJ — vented panel, blocked intake-vent restoration, insulation baffles, attic airflow. NJ-licensed, free estimate.',
+    'Soffit installation and repair in East Orange NJ — vented panel, blocked intake-vent restoration, insulation baffles, attic airflow. NJ-registered, free quote.',
   pricing: {
     range: 'Varies by scope',
     note: 'Final cost depends on soffit length, material, rafter-tail rot, and any fascia or gutter tie-in. Newark Quality Roofing provides a free written estimate.',

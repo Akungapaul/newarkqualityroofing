@@ -4,7 +4,7 @@ export const orangeEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing provides energy efficient roofing solutions across Orange and Essex County, installing cool reflective membranes and coatings, above-deck insulation, radiant barriers, and balanced attic ventilation** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing energy efficient roofing solutions across Orange, New Jersey, and Essex County**, installing cool reflective membranes and coatings, above-deck insulation, radiant barriers, and balanced attic ventilation as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Energy efficient roofing solutions** combine a high-reflectance surface that rejects solar heat with conductive insulation that slows heat flow into the building below. The two levers — reflective membranes and coatings, plus above-deck insulation, radiant barriers, and balanced attic ventilation — lower roof surface temperature and the cooling load beneath the roof.',
   overview: [

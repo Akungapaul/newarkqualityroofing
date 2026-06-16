@@ -4,7 +4,7 @@ export const eastOrangeInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing provides insurance roof replacement across East Orange, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing insurance roof replacement across East Orange, New Jersey, and Essex County**, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Insurance roof replacement** is a full roof replacement funded through a property-insurance claim for covered storm, hail, wind, or fire damage. It pairs documentation of the damage and a repair scope with the insurer claim process, separate from the work of adjusting the claim.',
   overview: [
@@ -48,7 +48,7 @@ export const eastOrangeInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Can I choose my own roofing contractor for an insurance replacement in East Orange?',
       answer:
-        'Yes — an insurer cannot require a specific contractor, and the owner selects any licensed, insured contractor for the replacement work. Newark Quality Roofing is a New Jersey Home Improvement Contractor, licensed and insured, and a local Essex County crew familiar with East Orange multi-family, pre-war apartment, and older single-family building stock in Brick Church, Ampere, Elmwood, Doddtown, Greenwood, and Presidential Estates.',
+        'Yes — an insurer cannot require a specific contractor, and the owner selects any registered, insured contractor for the replacement work. Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, and a local Essex County crew familiar with East Orange multi-family, pre-war apartment, and older single-family building stock in Brick Church, Ampere, Elmwood, Doddtown, Greenwood, and Presidential Estates.',
     },
     {
       question: 'How much does an insurance roof replacement cost in East Orange, NJ?',

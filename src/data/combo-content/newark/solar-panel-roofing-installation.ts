@@ -4,7 +4,7 @@ export const newarkSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing handles the roofing side of solar panel installation across Newark** — flashing each rack-mount foot watertight, verifying the structure, and coordinating with the solar installer, as a New Jersey Home Improvement Contractor, licensed and insured.',
+    '**Newark Quality Roofing is a roofing contractor handling the roofing side of solar panel installation across Newark, New Jersey, and Essex County**, flashing each rack-mount foot watertight, verifying the structure, and coordinating with the solar installer as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Solar panel roofing installation** is the roofing work that supports a rack-mounted photovoltaic array — flashing each mount foot watertight, verifying the roof structure carries the added load, and matching the attachment detail to the roof-covering warranty. It prepares and seals the roof so the panels mount without creating a leak path.',
   overview: [
@@ -58,7 +58,7 @@ export const newarkSolarPanelRoofingInstallation: ComboContent = {
     },
   ],
   metaDescription:
-    'Solar roofing in Newark NJ: watertight mount flashing, ASCE 7 load checks, and solar-installer coordination from a licensed NJ Home Improvement Contractor.',
+    'Solar roofing in Newark NJ: watertight mount flashing, ASCE 7 load checks, and solar-installer coordination from a registered NJ Home Improvement Contractor.',
   pricing: {
     range: 'Free written estimate — roofing scope priced per roof',
     note: 'The roofing side of a solar install is priced per roof, because roof age, mount type, and structural verification set the scope, per the NRCA, SPRI, and ASCE 7. Newark Quality Roofing provides a free written estimate.',

@@ -4,7 +4,7 @@ export const eastOrangeAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing replaces asphalt shingle roofs across East Orange, stripping the roof to the deck and installing new 3-tab or architectural shingles** on single-family homes, two- and three-family walk-ups, and pre-war apartments as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing asphalt shingle roof replacement across East Orange, New Jersey, and Essex County**, stripping the roof to the deck and installing new 3-tab or architectural shingles on single-family homes, two- and three-family walk-ups, and pre-war apartments as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Asphalt shingle roof replacement** strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering.',
   overview: [

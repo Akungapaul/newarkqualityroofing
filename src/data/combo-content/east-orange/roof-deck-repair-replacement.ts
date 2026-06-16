@@ -4,7 +4,7 @@ export const eastOrangeRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing repairs and replaces roof decks across East Orange, removing rotted plywood and OSB sheathing and re-decking the roof so the deck grips fasteners and supports the covering** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor repairing and replacing roof decks across East Orange, New Jersey, and Essex County**, removing rotted plywood and OSB sheathing and re-decking the roof so the deck grips fasteners and supports the covering, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [
@@ -57,7 +57,7 @@ export const eastOrangeRoofDeckRepairReplacement: ComboContent = {
     },
   ],
   metaDescription:
-    'Roof deck repair and replacement in East Orange NJ — rotted plywood and OSB sheathing, concealed rot at tear-off, code-rated re-decking. NJ-licensed.',
+    'Roof deck repair and replacement in East Orange NJ — rotted plywood and OSB sheathing, concealed rot at tear-off, code-rated re-decking. NJ-registered.',
   pricing: {
     range: '$2–$5 per sq ft',
     note: 'Typical re-decking range per HomeGuide and Angi cost data; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
