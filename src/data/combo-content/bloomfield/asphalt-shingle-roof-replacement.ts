@@ -3,56 +3,68 @@ import type { ComboContent } from '../schema';
 export const bloomfieldAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'bloomfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing asphalt shingle roof replacement across Bloomfield, New Jersey, and Essex County, stripping the roof to the deck and installing new 3-tab or architectural shingles** on pre-war Colonials, Capes, and two-family homes as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Asphalt shingle roof replacement** strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering.',
   overview: [
-    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Bloomfield — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the dominant residential roofing project in Bloomfield -- over ninety percent of the township\'s homes wear asphalt shingles and will replace them with the same material when the current system reaches end of life. The upgrade from aging three-tab shingles to modern architectural shingles represents the most significant roofing improvement available to Bloomfield homeowners, delivering approximately double the service life, substantially better wind resistance, and improved curb appeal at an installed cost premium of only fifteen to twenty percent over three-tab products.',
-    'Bloomfield\'s housing stock creates specific shingle selection considerations. The moderate roof pitches on Cape Cods and split-levels -- typically 4:12 to 8:12 -- show less shingle surface from street level than steep-slope homes, making the aesthetic premium of designer-grade products less visible. The practical implication: standard architectural shingles deliver the performance upgrade Bloomfield homes need without the visual premium that steep-slope homes justify. We guide Bloomfield homeowners to the [asphalt shingle](/asphalt-shingle-roofing-bloomfield-nj) tier that matches their home\'s visibility and their budget priorities.',
-    'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners approaching shingle replacement, the project is an opportunity to address underlying conditions that shortened the previous roof\'s life. Inadequate ventilation that baked shingles from below, missing ice-and-water shield that allowed ice dam leaks, and insufficient nailing patterns that permitted wind damage are all correctable during replacement at marginal additional cost.'
+    '**Newark Quality Roofing replaces asphalt shingle roofs across Bloomfield, installing 3-tab and architectural shingles** on the pre-war Colonials, Dutch Colonials, and Capes that define the township and on the steep-slope two-family homes north of Newark. Asphalt shingle roof replacement strips the roof to the deck, repairs the sheathing, and rebuilds the full shingle system rather than patching a single failed detail.',
+    '**3-tab and architectural shingles** carry different service lives, because a 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes the actual asphalt service life varies up to 40% with climate, install, and maintenance. A Newark Quality Roofing replacement matches the shingle line and wind rating to the Bloomfield home before tear-off.',
+    '**Pre-war Colonials, Dutch Colonials, and Capes** carry the steep slopes that asphalt shingles cover across Bloomfield Center, Watsessing, Brookdale, and Ampere, where roughly 65% of the township housing stock predates 1950 and aging covering reaches the end of its rated life. A Newark Quality Roofing replacement corrects the worn flashing, valley, and transition details exposed at tear-off on these older homes.',
+    '**Two-family homes** hold a slight majority of Bloomfield units in 2-or-more-unit structures alongside postwar garden apartments, so a steep-slope two-family reroof coordinates around tenants while a flat-roofed building moves to a membrane system instead of shingles. A Newark Quality Roofing replacement documents the work with photographs for an owner and any landlord-tenant record.',
   ],
   challenges: [
-    'Product selection among dozens of architectural shingle lines overwhelms many Bloomfield homeowners. GAF, Owens Corning, CertainTeed, and IKO each offer three to five product tiers with different warranties, wind ratings, and aesthetic profiles. The warranty numbers -- thirty years, forty years, lifetime -- do not represent actual expected lifespan, creating confusion that marketing language intentionally perpetuates. We simplify the selection by presenting two or three products at different price points with honest performance expectations.',
-    'Color selection on Bloomfield\'s moderate-pitch roofs requires different considerations than steep-slope homes. The limited roof visibility means subtle color blends and dimensional effects are less noticeable from the street. Dark colors absorb more heat, accelerating aging on south-facing slopes. Very light colors show dirt and algae staining sooner. Mid-tone earth tones with modest blending provide the best combination of appearance and performance for Bloomfield\'s typical roof pitches and housing colors.',
-    'Manufacturer certification requirements for full warranty eligibility affect contractor selection for Bloomfield homeowners. GAF Master Elite, Owens Corning Platinum, and CertainTeed SELECT ShingleMaster certifications qualify the contractor to offer the manufacturer\'s best warranty terms. Non-certified installers can install the same products but the warranty coverage is limited. We maintain current manufacturer certifications to provide Bloomfield homeowners with the fullest warranty protection available on their shingle investment.'
+    '**Tree-canopy debris and aged flashing** define asphalt replacement on Bloomfield\'s older stock, because mature oak, maple, and sycamore canopy over Brookdale and the pre-war grid drops leaves and branches into valleys and gutters that hold moisture against the covering. A Newark Quality Roofing replacement clears the loaded valleys and gutters and rebuilds the flashing the old roof opened.',
+    '**Plank decking** appears under the shingles on Bloomfield\'s 1920s-to-1940s Colonials and Capes, where a tear-off exposes board sheathing and any sheathing rotted by past valley or vent-boot leaks. A Newark Quality Roofing replacement repairs deteriorated boards before the new system goes down, the work the NJ Rehabilitation Subcode requires when the existing covering is water-soaked or the roof carries 2 or more layers, per N.J.A.C. 5:23-6.4.',
+    '**Freeze-thaw cycling and ice dams** stress every sealed roof detail on a Bloomfield asphalt roof, because northern New Jersey crosses the 32°F freezing point repeatedly through winter and trapped meltwater expands on freezing. A Newark Quality Roofing replacement installs a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision.',
+    '**Inadequate attic ventilation** baked the previous Bloomfield roof from below and shortened its life, because heat and moisture build under an undersized vent system. A Newark Quality Roofing replacement sizes ventilation against the NRCA and ARMA standard of 1 square foot of net-free vent area per 150 square feet of attic floor and corrects it as part of the asphalt replacement.',
   ],
   process: [
-    'Shingle replacement in Bloomfield follows the standard re-roofing sequence with attention to the upgrade opportunities the project presents. Tear-off exposes the deck for inspection and repair. Ice-and-water shield is installed to code depth at eaves and extended at valleys and wall intersections. Synthetic underlayment covers the remaining deck. Ridge vent is added or upgraded if the existing ventilation is inadequate.',
-    'Shingle installation uses the manufacturer\'s specified nailing pattern -- we default to six nails per shingle on all Bloomfield installations for enhanced wind resistance, exceeding the four-nail minimum that standard installations allow. Starter strip is applied at eaves and rakes with factory adhesive strips positioned for maximum wind-uplift resistance. Each course is aligned with chalk lines for consistent exposure and offset patterns that both perform and appear clean.',
-    'Completion includes hip and ridge cap installation using the manufacturer\'s dedicated ridge cap product, final flashing verification, cleanup with magnetic nail sweeps of the property, and warranty registration. The homeowner receives before-and-after photographs, the manufacturer\'s warranty certificate, our workmanship warranty, and a maintenance guide covering the annual inspection and gutter-cleaning schedule that preserves shingle performance.'
+    '**Newark Quality Roofing assesses the roof deck, the attic ventilation, and the NJ code triggers, then presents the shingle options before tear-off.** A crew sizes ventilation against the NRCA and ARMA standard of 1 square foot of net-free vent area per 150 square feet of attic floor, confirms whether the job stays ordinary maintenance under N.J.A.C. 5:23-2.7, and presents 3-tab and architectural shingles with the wind rating of each named.',
+    '**Newark Quality Roofing strips the asphalt roof to the deck, repairs the plank or panel sheathing, and installs an ice barrier and synthetic underlayment.** N.J.A.C. 5:23-6.4 requires full removal when the covering is water-soaked or the roof carries 2 or more layers, and the IRC R905.1.2 provision requires the ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the International Residential Code. A crew replaces deteriorated boards exposed at tear-off before the new system goes down.',
+    '**Newark Quality Roofing installs the asphalt shingles to manufacturer specification, runs a magnet sweep for nails, and documents the completed roof with photographs.** Installing to the manufacturer\'s specified nail pattern keeps the wind warranty intact and preserves the material warranty covering factory defects, separate from the written workmanship warranty backing the labor, per Owens Corning warranty guidance. The photographs give a Bloomfield owner a condition record for any insurance claim.',
   ],
   faqs: [
     {
-      question: 'What is the best asphalt shingle for Bloomfield homes?',
-      answer: 'Standard architectural shingles from any major manufacturer -- GAF Timberline, Owens Corning Duration, CertainTeed Landmark -- provide the best value for Bloomfield\'s residential roofs. These products deliver thirty-year-plus performance, 110-130 mph wind ratings, and algae-resistant granules at the most competitive price point in the architectural shingle category. Premium designer lines add aesthetic features that are most impactful on steep-pitch homes -- Bloomfield\'s moderate pitches show less of that visual premium from street level.'
+      question: 'Do I need a permit to replace an asphalt shingle roof in Bloomfield?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Bloomfield counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit from the Township of Bloomfield\'s construction office once the work exceeds 25% of the total roof area in a 12-month period, and so does any structural change to rafters or trusses. A slight majority of Bloomfield units sit in 2-or-more-unit structures, so the permit-required path applies to a large share of the township stock.',
     },
     {
-      question: 'How long do architectural shingles last on a Bloomfield home?',
-      answer: 'Properly installed architectural shingles with adequate ventilation deliver twenty-five to thirty-five years of service on Bloomfield homes. The range depends on roof orientation, pitch angle, ventilation adequacy, and tree cover. South-facing slopes in full sun age faster than north-facing slopes. Well-ventilated roofs outlast poorly ventilated ones by five to ten years. The manufacturer warranty period is not the same as expected lifespan -- we provide realistic service life estimates during consultation.'
+      question: 'What is the difference between 3-tab and architectural shingles on a Bloomfield home?',
+      answer:
+        'A 3-tab asphalt shingle is a flat single-layer shingle that lasts 20 years, while an architectural shingle is a thicker laminated shingle that lasts 30 years and warranties up to 130 mph with 6-nail installation. The 20-year and 30-year lifespans trace to the InterNACHI life-expectancy chart, and ASTM D3161 sets the asphalt wind classes, per ARMA and manufacturer guidance. On the steep-slope Colonials and Capes of the pre-war Bloomfield grid, a Newark Quality Roofing replacement matches the shingle type to the home and the Essex County climate.',
     },
     {
-      question: 'Should I upgrade to impact-resistant shingles in Bloomfield?',
-      answer: 'Impact-resistant shingles add fifteen to twenty-five percent to the material cost and provide enhanced protection against hail damage. For Bloomfield homes in areas with significant tree coverage where falling branches are a regular roof hazard, impact-resistant products can reduce maintenance costs over the roof\'s life. Additionally, some insurance companies offer premium discounts for impact-resistant roofing that partially offset the material cost increase. We can help you evaluate whether the upgrade pencils out for your specific situation.'
+      question: 'Does a Bloomfield historic-district home need extra approval for an asphalt replacement?',
+      answer:
+        'Exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. Bloomfield\'s local list, not the National Register Bloomfield Green district boundary, sets that jurisdiction, so an owner near Bloomfield Center confirms a parcel against the list or with the Historic Preservation Commission. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner, and a parcel not on the list is not subject to the Chapter 302 review.',
     },
     {
-      question: 'How much does asphalt shingle roof replacement cost in Bloomfield?',
-      answer: 'Asphalt shingle roof replacement on a typical Bloomfield Cape Cod or colonial costs twelve to twenty thousand dollars with tear-off, standard architectural shingles, and full scope including ventilation, ice protection, and cleanup. Premium shingle products add two to four thousand to the total. The wide range reflects roof size, layer count, deck condition, and scope inclusions. We provide exact pricing based on your home\'s specific measurements and conditions.'
+      question: 'How long does an architectural asphalt roof last on a Bloomfield home?',
+      answer:
+        'An architectural asphalt roof lasts 30 years and a 3-tab asphalt roof lasts 20 years, with the actual service life varying up to 40% with climate, install, and maintenance. The 20-year and 30-year figures trace to the InterNACHI life-expectancy chart and the up-to-40% variance to the NRCA. Bloomfield tree-canopy debris and shade-driven moss shorten that life on neglected slopes, so a Newark Quality Roofing replacement corrects ventilation and clears the valleys that hold the moisture which ages a roof early.',
     },
     {
       question: 'How much does asphalt shingle roof replacement cost in Bloomfield, NJ?',
-      answer: 'Most asphalt shingle roof replacement projects in Bloomfield range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Asphalt shingle roof replacement in New Jersey runs $5.50–$9.50 per square foot for standard 3-tab shingles and $6.50–$11.00 per square foot for architectural shingles, with a typical home costing $10,000–$25,000. The per-square-foot figures trace to Josten Roofing NJ pricing and the whole-home range to HomeAdvisor and Modernize NJ cost data, and labor accounts for roughly 60–70% of an asphalt-install total, per HomeGuide. Final cost depends on roof size, pitch, layer count, deck condition, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Asphalt shingle roof replacement in Bloomfield NJ -- architectural shingle upgrades for Cape Cods, colonials, and split-levels with full warranty.',
+  metaDescription:
+    'Asphalt shingle roof replacement in Bloomfield NJ — 3-tab and architectural shingles for pre-war Colonials, Capes, and two-family homes. NJ-registered.',
   pricing: {
-    range: '$8,500–$18,000',
-    note: 'asphalt shingle tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Bloomfield\'s pre-war Colonial, two-family, and garden-apartment building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Bloomfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for asphalt shingle roof replacement in Bloomfield.',
+    urgencyNote: 'Replacing an asphalt roof at the end of its service life limits interior and structural water damage.',
   },
 };

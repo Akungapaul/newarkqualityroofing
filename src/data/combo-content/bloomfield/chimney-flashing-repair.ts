@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const bloomfieldChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'bloomfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing chimney flashing repair across Bloomfield, New Jersey, and Essex County, rebuilding the two-part base-and-counter flashing on masonry chimneys atop pre-war Colonials, two-family homes, and Bloomfield Center properties** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
-    'Newark Quality Roofing delivers expert chimney flashing repair in Bloomfield — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is one of the most frequent roof-related service calls in Bloomfield because the township\'s housing stock -- Cape Cods, colonials, and split-levels built from the late 1940s through the 1970s -- came equipped with masonry chimneys that have now weathered fifty to seventy years of northern New Jersey freeze-thaw cycles. The flashing system around each chimney includes step flashing along both sides, a headwall apron at the front, counter flashing embedded in mortar joints, and often a cricket or saddle on the upslope face. When any component of this multi-part system fails, water enters at the largest roof penetration and follows rafters and sheathing to create leaks that can appear far from the chimney itself.',
-    'Bloomfield\'s brick chimneys present flashing conditions that differ from newer construction. The mortar joints into which counter flashing was originally embedded have deteriorated over decades of weather exposure, losing their grip on the flashing and opening pathways for water to run behind the metal and down the chimney face inside the building envelope. Re-embedding counter flashing in deteriorated mortar without first repointing the damaged joints creates a temporary seal that fails again within two to three years. Proper chimney flashing repair on Bloomfield homes often requires coordinated masonry repointing and flashing replacement to create a durable connection.',
-    'For homeowners in Bloomfield\'s Brookdale and Watsessing neighborhoods where the older housing stock concentrates, chimney leaks often overlap with the broader [roof repair](/roof-repair-bloomfield-nj) needs that aging roofs present. A chimney flashing failure discovered during inspection may be one of several flashing and shingle conditions requiring attention across the roof. We assess the full roof condition when responding to a chimney leak call so that Bloomfield homeowners can address all current issues in a single project rather than paying for multiple mobilizations as each problem surfaces separately.'
+    '**Newark Quality Roofing repairs chimney flashing on the masonry chimneys of Bloomfield\'s pre-war Colonials, Dutch Colonials, and Capes, plus the two-family homes and garden apartments** that hold a slight majority of the township\'s units. Chimney flashing repair restores the metal that seals the chimney, the roof\'s largest penetration, where the apron, sidewall step, and upslope transitions each shed water.',
+    '**Pre-war and mid-century stock** across Bloomfield Center, Watsessing, Brookdale, and Ampere carries masonry chimneys whose original counter flashing has loosened from weathered mortar joints. A Newark Quality Roofing repair sets a new counter flashing into a reglet cut in a sound mortar joint that mechanically locks the metal into the masonry, per the NRCA two-part chimney flashing standard, rather than relying on adhesive that masonry-versus-roof movement and freeze-thaw crack within a few years, per IIBEC.',
+    '**The two-part flashing system** drives every Bloomfield chimney repair, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. The NRCA specifies base and step flashing woven one piece per shingle course plus a separate counter flashing set into the masonry, so a Newark Quality Roofing repair restores both layers rather than smearing sealant over the symptom.',
+    '**Mature street-tree debris** loads the upslope chimney face on Brookdale Colonials and Watsessing two-family homes, where oak, maple, and sycamore canopy drop leaves and branches that dam meltwater against the masonry. A Newark Quality Roofing repair clears the transition and builds a cricket where a chimney measures wider than 30 inches parallel to the ridge, per IRC Section R1003.20.',
   ],
   challenges: [
-    'Mortar joint deterioration around Bloomfield chimneys complicates flashing repair because the counter flashing relies on sound mortar for embedment. Counter flashing is a metal strip inserted into a saw-cut or raked mortar joint and sealed with mortar or urethane caulk. When the surrounding mortar is soft, crumbling, or missing, the flashing insert has no structural support and the sealant has no sound substrate to bond to. Repairing flashing without addressing the mortar creates a repair that looks correct but fails at the first hard rain. We evaluate mortar condition at every chimney and include repointing in the repair scope when deterioration compromises flashing embedment.',
-    'Cricket construction on the upslope face of Bloomfield chimneys was often omitted in original construction. Without a cricket -- the small peaked diverter that redirects water around the chimney back -- rainwater and snowmelt pool against the upslope chimney face, saturating the headwall flashing and mortar joints for extended periods during and after weather events. This chronic moisture exposure accelerates both flashing corrosion and mortar deterioration, making the upslope face the most common leak location on chimney installations. Retrofitting a cricket during flashing repair adds modest cost but dramatically improves water management at the chimney-to-roof intersection.',
-    'Interior damage from chimney flashing leaks on Bloomfield homes often extends well beyond the visible water stain. Water entering at the chimney follows the chimney chase through multiple stories, saturating framing, insulation, and interior finishes in areas concealed behind walls and ceilings. By the time a ceiling stain appears in a first-floor room, the framing around the chimney chase may have been damp for months. We advise Bloomfield homeowners who have experienced chimney leaking to have the chimney chase area inspected for hidden moisture damage after flashing repair is complete, particularly in homes where the leak persisted for more than one season before repair.'
+    '**Deteriorated mortar joints** complicate chimney flashing repair on Bloomfield\'s older pre-war and mid-century homes, because the counter flashing locks into a reglet cut in sound masonry. A Newark Quality Roofing repair re-cuts the reglet and repoints the joint where the mortar has weathered, so the new counter flashing holds rather than re-failing at the first hard rain.',
+    '**Surface caulk and roofing cement** smeared over a leaking Bloomfield chimney is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A Newark Quality Roofing repair removes the failed seal and rebuilds the NRCA two-part metal system rather than recoating a transition that has no underlying flashing.',
+    '**A missing cricket** on the upslope face of a wide Bloomfield chimney dams water, ice, and tree debris against the masonry, accelerating both flashing corrosion and mortar deterioration. IRC Section R1003.20 requires a cricket where a chimney measures wider than 30 inches parallel to the ridge, so a Newark Quality Roofing repair builds the saddle during the rebuild to divert water around the chimney.',
+    '**Tenant-occupied access** shapes chimney flashing repair on Bloomfield\'s two-family homes and garden apartments, where a slight majority of units sit in 2-or-more-unit structures and ownership runs a roughly even owner/renter split. A Newark Quality Roofing job coordinates entry under New Jersey landlord-tenant notice and documents the work with photographs for the owner\'s record and any insurance claim.',
   ],
   process: [
-    'Chimney flashing repair in Bloomfield begins with a thorough assessment of the entire chimney-to-roof interface. We inspect step flashing on both sides, the headwall apron, counter flashing embedment, mortar joint condition, cricket condition or absence, and the shingle condition in the immediate chimney area. We also check the chimney cap, crown, and upper courses for masonry deterioration that could be contributing water to the flashing system from above. This complete assessment ensures the repair addresses every failure point rather than fixing one component while adjacent components continue leaking.',
-    'Repair execution follows the sequence dictated by the assessment findings. Deteriorated mortar joints are repointed before counter flashing is installed. Step flashing is replaced with aluminum or copper pieces woven between shingle courses. The headwall receives ice-and-water shield membrane beneath new apron flashing. If a cricket is missing on the upslope face, we construct one from plywood and membrane sheathed with matching shingles. New counter flashing is embedded in sound mortar joints or saw-cut reglets and sealed with high-quality polyurethane sealant rated for masonry adhesion.',
-    'Post-repair verification includes a controlled water test -- we run water from a hose across each flashing detail in sequence, starting from the lowest point and working upward, checking for any interior water entry at each stage. This systematic test confirms that every component of the multi-part flashing system is performing correctly before the repair is finalized. Bloomfield homeowners receive photographic documentation of the conditions found, the repair work performed, and the completed installation, along with a maintenance recommendation for periodic sealant and mortar inspection that prevents future deterioration from progressing to leak stage.'
+    '**Newark Quality Roofing inspects all four chimney transitions — the downslope apron, the two sidewall step runs, and the upslope head or cricket — and traces the entry point before resealing.** A Newark Quality Roofing diagnosis starts at the chimney because it is the roof\'s largest penetration, and a continuous one-piece strip at the sidewall flags a defective original installation, per InterNACHI and shingle-manufacturer guidance.',
+    '**Newark Quality Roofing rebuilds the NRCA two-part system: base and step flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint.** A Newark Quality Roofing crew applies a self-adhering ice-and-water membrane that self-seals around fasteners at the chimney base, per ASTM D1970, repoints the joint where the mortar has weathered, and builds a cricket where the chimney exceeds 30 inches parallel to the ridge, per IRC Section R1003.20.',
+    '**Newark Quality Roofing verifies watertight execution at every transition and documents the repair with photographs.** A Newark Quality Roofing lead runs a magnet sweep for nails at cleanup and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty that covers factory defects, and the photographic record supports an owner\'s file and any insurance claim on a two-family or garden-apartment property.',
   ],
   faqs: [
     {
-      question: 'Why does my Bloomfield chimney leak when it rains but not during every rain?',
-      answer: 'Wind direction determines where rain hits the chimney face. Leaks that occur only during wind-driven rain from a specific direction indicate flashing failure on the corresponding side -- the windward face receives direct water impact that overwhelmed a weakened flashing detail. The chimney may be well sealed on three sides but have failed counter flashing or deteriorated mortar on the wind-exposed face. We inspect all four faces and the crown to determine which specific component is admitting water during directional storms.'
+      question: 'Why does chimney flashing leak more than the rest of a Bloomfield roof?',
+      answer:
+        'The chimney is the roof\'s largest penetration, and the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA. A Bloomfield chimney needs the apron, sidewall step, and upslope transitions all sealed, so a single failed counter flashing or cracked caulk joint admits water into the chase.',
     },
     {
-      question: 'Can chimney flashing be repaired without removing shingles on my Bloomfield home?',
-      answer: 'Counter flashing embedded in mortar joints can sometimes be repaired without shingle removal by re-cutting the reglet, inserting new counter flashing, and sealing. However, step flashing is woven between shingle courses and requires shingle removal to access and replace. Most complete chimney flashing repairs on Bloomfield homes involve removing shingles in the immediate chimney area, replacing all step and counter flashings, and reinstalling shingles with ice-and-water shield membrane beneath. This full approach costs moderately more than a surface-only counter flashing repair but addresses all potential failure points.'
+      question: 'Is caulk a permanent fix for chimney flashing on a Bloomfield home?',
+      answer:
+        'Caulk or roofing cement alone over no underlying metal is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A permanent repair rebuilds the NRCA two-part system: step flashing woven one piece per shingle course plus a counter flashing set into a reglet cut in the mortar joint.',
     },
     {
-      question: 'Does my Bloomfield chimney need a cricket?',
-      answer: 'Building code requires a cricket on chimneys wider than thirty inches measured perpendicular to the roof slope. Many Bloomfield chimneys built before this code requirement lack crickets, and the chronic water pooling against the upslope face causes repeated flashing failures and mortar deterioration. If your chimney is wider than thirty inches and has no cricket, adding one during flashing repair is strongly recommended. The additional cost is modest relative to the repeated leak prevention it provides.'
+      question: 'Does a wide Bloomfield chimney need a cricket?',
+      answer:
+        'A cricket, or saddle, is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20. Many older Bloomfield chimneys built before this requirement lack a cricket, so the upslope face dams meltwater and tree debris against the masonry and the flashing fails repeatedly until a cricket diverts the water around it.',
     },
     {
-      question: 'How much does chimney flashing repair cost in Bloomfield?',
-      answer: 'Chimney flashing repair on a typical Bloomfield home ranges from eight hundred to two thousand dollars for complete step and counter flashing replacement, including ice-and-water membrane and shingle reinstallation. If mortar repointing is needed at the flashing embedment joints, add three hundred to six hundred dollars. Cricket construction, if the chimney lacks one, adds five hundred to eight hundred dollars. We provide a detailed line-item estimate so you know exactly what each component costs and can prioritize if budget requires phasing the work.'
+      question: 'Does chimney flashing repair on a Bloomfield historic-district home need extra approval?',
+      answer:
+        'Exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. Bloomfield\'s local list, not the National Register Bloomfield Green district boundary, sets that jurisdiction, so an owner near Bloomfield Center confirms a parcel against the list. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
+    },
+    {
+      question: 'Do you need a permit for chimney flashing repair in Bloomfield, NJ?',
+      answer:
+        'A localized chimney flashing repair on the roof covering of a detached one- or two-family Bloomfield home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit from the Township of Bloomfield\'s construction office.',
     },
     {
       question: 'How much does chimney flashing repair cost in Bloomfield, NJ?',
-      answer: 'Most chimney flashing repair projects in Bloomfield range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Chimney flashing repair costs $300–$1,800, with most repairs $400–$1,600 and a spot reseal $150–$300, per HomeGuide and Angi cost data. The two-part rebuild, the chimney width, and whether a cricket is required set the cost. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Chimney flashing repair in Bloomfield NJ -- step flashing, counter flashing, and cricket installation for Cape Cods, colonials, and split-levels.',
+  metaDescription:
+    'Chimney flashing repair in Bloomfield NJ — NRCA two-part base-and-counter flashing on pre-war Colonials and two-family chimneys. NJ-registered, free estimate.',
   pricing: {
-    range: '$400–$1,500',
-    note: 'chimney flashing and counter-flashing',
+    range: '$300–$1,800',
+    note: 'Chimney flashing repair costs $300–$1,800, most $400–$1,600, per HomeGuide and Angi cost data; final cost depends on chimney width, mortar condition, and whether a cricket is required. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Bloomfield\'s pre-war Colonial, two-family, and garden-apartment building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free chimney flashing repair estimate in Bloomfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for chimney flashing repair in Bloomfield.',
+    urgencyNote: 'Addressing a chimney flashing leak early limits interior and structural water damage at the chase.',
   },
 };

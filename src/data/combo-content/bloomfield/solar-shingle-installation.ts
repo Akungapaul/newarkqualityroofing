@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const bloomfieldSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'bloomfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing solar shingle installation across Bloomfield, New Jersey, and Essex County, replacing the roof covering with photovoltaic shingles on the steep-slope pre-war Colonials, Dutch Colonials, and Capes near Bloomfield Center** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.',
   overview: [
-    'Newark Quality Roofing delivers expert solar shingle installation in Bloomfield — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingles represent the integration of energy production and weather protection into a single roofing material -- each shingle contains photovoltaic cells that generate electricity while serving as the primary roof surface. For Bloomfield homeowners who want solar energy but find the appearance of rack-mounted panels unappealing on their Cape Cods and colonials, solar shingles offer production capability without the visual disruption of conventional panel arrays. The technology has matured significantly in recent years, with products from GAF Energy, CertainTeed, and Tesla approaching the efficiency of traditional panels while maintaining a shingle-like profile.',
-    'The practical calculus for solar shingles in Bloomfield differs from rack-mounted panels in one important respect: solar shingles make the most financial sense when the roof needs replacement anyway. Because solar shingles replace conventional shingles rather than mounting over them, the cost comparison should subtract the conventional re-roofing expense from the solar shingle total. A Bloomfield homeowner facing a fifteen-thousand-dollar re-roofing project who chooses solar shingles at forty thousand dollars is actually paying a twenty-five-thousand-dollar premium for the solar capability -- a premium that NJ solar incentives and the federal tax credit reduce further.',
-    'For homeowners in the Brookdale and Oakcrest sections of [Bloomfield](/roofing-in-bloomfield-nj) where streetscape consistency and curb appeal influence property values, solar shingles provide the energy production of solar without the visual contrast of panel arrays. The shingle profile sits flush with the roof plane, maintaining the architectural line of Cape Cods and colonials that define these neighborhoods. Neighbors and passersby may not even realize the roof is producing electricity -- a distinction that matters to homeowners in communities where aesthetic harmony is valued alongside energy independence.'
+    '**Newark Quality Roofing installs building-integrated solar shingles** on the steep-slope pre-war Colonials, Dutch Colonials, and Capes that define Bloomfield, replacing the roof covering with photovoltaic shingles during a new roof or full reroof.',
+    '**Building-integrated solar shingles** make the photovoltaic material the roof surface itself, building-integrated photovoltaics, BIPV, distinct from the rack-mounted panels added on top of a finished roof, building-applied photovoltaics, BAPV, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS. The named products carry an integrated appearance that reads as one uniform roof on Bloomfield\'s street-facing Colonial slopes.',
+    '**Replacing the roof covering** is the structural requirement, because a solar shingle is the roof covering rather than an add-on, so a Bloomfield project pairs with a new roof or full reroof, and CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed. The pre-war stock approaching reroof age across Bloomfield Center, Brookdale, and Watsessing fits that pairing.',
+    '**The honest comparison to panels** governs the decision, because a solar shingle costs more per watt and generates less per square foot than a rack-mounted panel, so a solar-shingle roof suits a Bloomfield owner prioritizing the integrated appearance of a uniform roof surface over the lower per-watt cost of panels, per SolarReviews and EnergySage cost data.',
   ],
   challenges: [
-    'Energy production per square foot from solar shingles is currently lower than conventional solar panels. Standard solar panels produce eighteen to twenty-two watts per square foot, while current solar shingle products produce twelve to fifteen watts per square foot. This efficiency gap means a solar shingle roof needs approximately thirty to fifty percent more active area to match the output of a conventional panel array. On Bloomfield homes with limited south-facing roof area or significant shading, the lower efficiency may make solar shingles unable to offset enough electricity to justify the premium cost.',
-    'Installation complexity for solar shingles exceeds both conventional roofing and standard solar panel installation because it combines both trades. The installing crew must understand both roofing techniques -- underlayment, flashing, weatherproofing details -- and electrical systems -- wiring, inverter integration, code-compliant connections. Improper installation from either trade perspective can result in roof leaks or electrical hazards. We use crews trained specifically in solar shingle installation who hold both roofing and electrical certifications.',
-    'Product availability and warranty coverage for solar shingles is still evolving compared to the mature conventional solar panel market. Fewer manufacturers produce solar shingles, limiting competition and keeping prices elevated. Warranty terms vary significantly between manufacturers -- some cover the roofing function and solar production separately, creating potential coverage gaps. We specify only solar shingle products with comprehensive warranties covering both weather protection and energy production from a single manufacturer, ensuring Bloomfield homeowners have clear warranty recourse if either function underperforms.'
+    '**Per-watt cost and roof area** separate solar shingles from panels, because a 6-kilowatt solar-shingle system needs about 360 square feet of shingles against about 250 square feet for panels, per SolarReviews from the GAF Energy datasheet.',
+    '**Roof pitch and condition** govern eligibility on Bloomfield\'s pre-war stock, because GAF Energy Timberline Solar and Tesla Solar Roof list a minimum pitch of 2:12, per GAF Energy and Tesla, and a solar shingle pairs with a full reroof, so the older Colonials and Capes approaching reroof age fit while a flat-roofed two-family or garden apartment takes a membrane and rack-mounted panels instead.',
+    '**The historic-core gate** applies to Bloomfield Center parcels, because exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. Bloomfield\'s local list, not the National Register Bloomfield Green district boundary, sets that jurisdiction.',
+    '**Federal incentives changed for 2026**, because the IRS reports the section 25D residential clean energy credit, the 30% credit available through 2025, is repealed for any system completed after December 31, 2025, per the IRS. New Jersey programs remain through the NJ Board of Public Utilities and the NJ Division of Taxation, so a Bloomfield owner consults a tax professional for current incentives.',
   ],
   process: [
-    'Solar shingle installation in Bloomfield begins with the same assessments required for both conventional re-roofing and solar installation: roof structure evaluation, shade analysis, electrical panel inspection, and energy consumption review. Because solar shingles replace the entire roof surface, the project scope includes full tear-off, deck inspection and repair, underlayment installation, and comprehensive flashing work before any solar shingles are applied. The assessment phase determines system size, expected production, and financial projections specific to each Bloomfield home.',
-    'Installation proceeds as a re-roofing project with integrated electrical work. After tear-off and deck preparation, ice-and-water shield and synthetic underlayment are installed per standard roofing practice. Solar shingles are installed in courses from eave to ridge, with each shingle\'s electrical connectors integrated during placement. Non-solar shingles from the same product line fill areas that do not receive solar shingles -- north-facing slopes, shaded zones, and areas around penetrations. Wiring from each circuit routes to a junction point and then to the inverter system.',
-    'Electrical integration, permitting, and utility interconnection follow the same process as conventional solar. Bloomfield building department inspection covers both the roofing and electrical components. PSE&G interconnection approval enables net metering. The homeowner receives both a roofing warranty and a solar production warranty, along with monitoring access to track energy production. We configure monitoring to alert both the homeowner and our service team if production drops below expected levels, enabling prompt diagnosis of any issues.'
+    '**Newark Quality Roofing assesses the roof pitch, the roof area, and the reroof scope, then sets honest expectations against rack-mounted panels before tear-off.** A crew confirms the minimum 2:12 pitch the named products require and sizes the array against the roughly 44% larger area a solar shingle needs versus panels, per GAF Energy and SolarReviews, and confirms whether a Bloomfield Center parcel sits on the Chapter 302 Historic District Property List.',
+    '**Newark Quality Roofing replaces the roof covering with the building-integrated solar shingle to manufacturer specification**, stripping the existing roof to the deck, repairing deteriorated sheathing exposed at tear-off on the pre-war stock, and integrating the photovoltaic shingle into the roof field. GAF Energy Timberline Solar installs as a nailable shingle with the same nail gun and crew as Timberline asphalt shingles, and installing to manufacturer specification keeps the manufacturer system warranty intact, per GAF Energy.',
+    '**Newark Quality Roofing wires the array to code and coordinates the electrical work for rapid shutdown and fire-service access.** The named solar-shingle systems meet NEC 690.12 rapid shutdown, which drops conductors outside the array boundary to 30 volts or less and inside the boundary to 80 volts or less within 30 seconds, met by module-level electronics or a listed UL 3741 photovoltaic hazard control system, per the NEC and UL, then the photovoltaic and electrical work passes inspection under its own building and electrical permits.',
   ],
   faqs: [
     {
-      question: 'How do solar shingles compare to regular solar panels for my Bloomfield home?',
-      answer: 'Solar shingles produce twelve to fifteen watts per square foot versus eighteen to twenty-two for conventional panels -- roughly thirty percent less per unit area. Solar shingles cost more per watt installed but replace the conventional roof, so the net premium is lower than the total price suggests. The primary advantage is aesthetics -- solar shingles maintain the roofline appearance of your Bloomfield home. The primary disadvantage is lower efficiency and higher cost per watt. If maximum production at lowest cost is the goal, conventional panels are superior. If aesthetics and integrated design matter, solar shingles deliver both functions in one system.'
+      question: 'What is a solar shingle and how does it differ from solar panels?',
+      answer:
+        'A solar shingle is building-integrated photovoltaics, BIPV, where the photovoltaic material is the roof covering itself, while solar panels are building-applied photovoltaics, BAPV, rack-mounted hardware added on top of an existing roof. A solar shingle replaces the roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS, which is why a Bloomfield project pairs with a full reroof on the pre-war Colonials and Capes.',
     },
     {
-      question: 'How much do solar shingles cost for a Bloomfield home?',
-      answer: 'Solar shingle installation on a typical Bloomfield Cape Cod or colonial runs thirty-five to fifty-five thousand dollars before incentives, covering both the roofing and solar components. After the federal tax credit and NJ solar incentives, the net cost drops to twenty to thirty-five thousand dollars. Because solar shingles replace the conventional roof, subtract the twelve to eighteen thousand dollars you would spend on standard re-roofing to calculate the true solar premium of approximately eight to twenty thousand dollars after incentives.'
+      question: 'Can a solar shingle go on a Bloomfield home with an existing roof?',
+      answer:
+        'A solar shingle replaces the roof covering rather than mounting on a finished roof, so it pairs with a new roof or full reroof. CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed and the DOE Office of Energy Efficiency and Renewable Energy. The pre-war stock approaching reroof age across Bloomfield fits that pairing.',
     },
     {
-      question: 'Can solar shingles be installed on a Bloomfield split-level with multiple roof planes?',
-      answer: 'Yes, and the multi-plane geometry of split-levels can actually be advantageous. Solar shingles are installed on south- and west-facing planes for maximum production, while north-facing and heavily shaded planes receive matching non-solar shingles from the same product line. The uniform appearance across all planes is one of solar shingles\' strongest advantages on complex rooflines where conventional panel arrays would look fragmented and visually disruptive.'
+      question: 'Are solar shingles more efficient than solar panels?',
+      answer:
+        'Solar shingles are less efficient and cost more per watt than solar panels, clustering around 14% to 18% module efficiency against more than 20% for premium panels. Solar shingles run a higher per-watt cost than rack-mounted panels, per SolarReviews, EnergySage, and NREL, so a solar shingle is an integration and appearance choice on a Bloomfield Colonial rather than an efficiency or per-watt-value choice.',
     },
     {
-      question: 'Do solar shingles qualify for the same NJ incentives as solar panels in Bloomfield?',
-      answer: 'Yes. Solar shingles qualify for all the same incentives: the federal 30% Investment Tax Credit, New Jersey\'s Successor Solar Incentive program payments, PSE&G net metering, and the NJ property tax exemption for solar improvements. The incentive calculations are based on system production capacity, not the technology type. We include all applicable incentive projections in our solar shingle proposals for Bloomfield homeowners.'
+      question: 'Does a Bloomfield Center historic parcel need approval for a solar shingle reroof?',
+      answer:
+        'Exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. Bloomfield\'s local list, not the National Register Bloomfield Green district boundary, sets that jurisdiction, and per the National Park Service a National Register listing alone places no federal restriction on a private property owner. An owner near the Bloomfield Green confirms a parcel against the list.',
     },
     {
-      question: 'How much does solar shingle installation cost in Bloomfield, NJ?',
-      answer: 'Most solar shingle installation projects in Bloomfield range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What New Jersey incentives apply to a solar shingle installation in Bloomfield?',
+      answer:
+        'New Jersey applies the Successor Solar Incentive program paying a fixed per-megawatt-hour SREC-II incentive over a 15-year term, plus net metering, a sales-tax exemption through Form ST-4, and a property-tax exemption through Form CRES. The Successor Solar Incentive program is administered by the NJ Board of Public Utilities, per the NJ Board of Public Utilities and the NJ Division of Taxation, and the federal section 25D residential credit is repealed for any system completed after December 31, 2025, per the IRS, so a Bloomfield owner consults a tax professional for current rates.',
+    },
+    {
+      question: 'How much does a solar shingle installation cost in Bloomfield, NJ?',
+      answer:
+        'Most solar shingle work in Bloomfield ranges $10,000–$25,000 for the reroof scope, per HomeAdvisor and Modernize NJ cost data, because a solar shingle pairs with a full reroof and costs more per watt than rack-mounted panels, per EnergySage and SolarReviews. Roof size, pitch, product, and reroof scope set the total. Newark Quality Roofing provides a free written estimate for every Bloomfield property.',
     },
   ],
-  metaDescription: 'Solar shingle installation in Bloomfield NJ -- integrated solar roofing for Cape Cods and colonials that produces energy while maintaining curb appeal.',
+  metaDescription:
+    'Solar shingle installation in Bloomfield NJ — building-integrated PV shingles on pre-war Colonials and Capes, paired with a reroof. NJ-registered, free quote.',
   pricing: {
-    range: '$25,000–$50,000',
-    note: 'integrated solar shingle system',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; a solar shingle pairs with a full reroof and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Bloomfield\'s pre-war Colonial, two-family, and garden-apartment building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free solar shingle installation estimate in Bloomfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for solar shingle installation in Bloomfield.',
+    urgencyNote: 'A solar shingle pairs with a full reroof, so the roof condition sets the timing.',
   },
 };

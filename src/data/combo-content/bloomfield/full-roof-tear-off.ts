@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const bloomfieldFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'bloomfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing full roof tear off across Bloomfield, New Jersey, and Essex County, stripping every roof layer to the deck on pre-war Colonials, two-family homes, and garden apartments** before installing a new underlayment-and-cover system as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
-    'Newark Quality Roofing delivers expert full roof tear off in Bloomfield — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off on Bloomfield homes strips the existing roofing down to the structural deck, removing every layer of shingles, underlayment, and flashing before installing the new system on a clean substrate. For the Cape Cods, colonials, and split-levels that have been re-roofed once or twice since their mid-century construction, tear-off is not optional -- it is mandated by New Jersey code, which limits asphalt shingle installations to two layers maximum. Many Bloomfield homes are approaching or at that two-layer limit, making full tear-off the mandatory starting point for their next roofing project.',
-    'Beyond code requirements, tear-off reveals the roof deck condition that recover installations conceal. Bloomfield homes with decades of slow leaking through aging flashing, ice dam backup at eaves, and condensation from inadequate ventilation frequently harbor deck deterioration that is invisible beneath the existing shingles. Tear-off exposes this damage for repair before new roofing is installed -- preventing the scenario where a fresh roof system sits atop rotted plywood that cannot hold fasteners, guaranteeing premature failure of the new installation.',
-    'For budget-conscious [Bloomfield](/roofing-in-bloomfield-nj) homeowners comparing tear-off cost against [roof overlay](/roof-overlay-installation-bloomfield-nj), the additional investment in tear-off delivers measurable value: deck inspection and repair opportunity, proper ice-and-water shield installation at eaves, reduced dead load on the roof structure, and a smoother substrate that allows the new shingles to lay flat without telegraphing the contours of the layer beneath. The completed roof performs better, lasts longer, and carries full manufacturer warranty eligibility that overlaid roofs may not qualify for.'
+    '**Newark Quality Roofing strips every roof layer to the bare deck**, inspects and repairs the **sheathing**, then installs a new **underlayment-and-cover system** on Bloomfield\'s pre-war Colonials, two-family homes, and garden apartments. Full roof tear off exposes the deck for the inspection a roof-over cannot provide.',
+    '**Stripping to the bare deck** is what separates a tear-off from a recover, because a full tear-off lets a roofer inspect the roof deck, repair any damage, and improve deck attachment, while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI. On Bloomfield\'s older pre-war Colonials, Dutch Colonials, and Capes, decades of slow flashing leaks and ice-dam backup at the eaves leave deck deterioration invisible beneath the existing covering.',
+    '**The sheathing** a tear-off exposes is inspected and repaired before any new covering goes down. Deteriorated decking on the flat-roofed two-family homes and garden apartments holding a slight majority of Bloomfield\'s units is replaced where it cannot hold a fastener.',
+    '**A new underlayment-and-cover system** finishes the work once the deck is sound, with steep-slope Colonials and Capes re-covered in architectural asphalt and the flat two-family and garden-apartment decks finished in EPDM or TPO membrane. Newark Quality Roofing installs an ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision as enforced under N.J.A.C. 5:23.',
   ],
   challenges: [
-    'Multi-layer tear-off on Bloomfield\'s older homes generates substantially more debris than single-layer removal. A two-layer tear-off on a standard Bloomfield Cape Cod produces approximately three to four tons of waste -- roughly double the volume of a single-layer removal. The dumpster capacity, disposal cost, and loading labor all increase proportionally. We account for layer count in every Bloomfield estimate based on an edge inspection that counts existing layers before quoting the project.',
-    'Weather exposure during tear-off requires careful staging on Bloomfield homes where the interior lacks attic-floor protection. Cape Cods with finished second floors directly below the roof deck have no insulation gap to absorb water if an unexpected rain event occurs during the exposed-deck period. We plan tear-off sections to match our daily dry-in capacity -- removing only the area that can be protected with underlayment by end of day. No Bloomfield home is left with exposed deck overnight.',
-    'Asbestos-containing materials in the original roofing on Bloomfield\'s oldest homes require specialized handling when encountered during tear-off. Shingles manufactured before 1980 may contain asbestos fibers, and the cement-based cap flashings and valley liners used on some pre-war homes are known asbestos-containing materials. If suspected asbestos materials are discovered during tear-off, work stops until testing confirms the material composition and, if positive, licensed abatement procedures are followed per NJ Department of Environmental Protection regulations.'
+    '**The Rehabilitation Subcode mandates a full tear-off** in 3 conditions on Bloomfield roofs, per N.J.A.C. 5:23-6.4. A recover is prohibited over a water-soaked or deteriorated deck, over a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or over a roof already carrying 2 or more layers, leaving complete removal the only code-compliant path on Bloomfield\'s older multi-layer stock.',
+    '**Deck deterioration hidden on the pre-war stock** surfaces only at tear-off, because Bloomfield\'s 1920s-to-1940s Colonials and Capes carry plank decking and aging flashing details that conceal rot until the covering comes off. Soft, spongy, or sagging sheathing that cannot grip a roofing nail at the ¾-inch penetration ARMA specifies is replaced, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI.',
+    '**Asbestos-containing materials** on Bloomfield\'s oldest homes require specialized handling when found during tear-off, because asbestos-cement tile is one of the coverings N.J.A.C. 5:23-6.4 lists for mandatory removal, and cement-based cap flashings and valley liners on some pre-war homes can contain asbestos. Where suspect material is found, work stops until testing confirms its composition, and any positive material is handled by a licensed asbestos abatement contractor.',
+    '**Tenant-occupied access** governs tear-off on Bloomfield\'s two-family homes and garden apartments, where a slight majority of units sit in 2-or-more-unit structures, so a tear-off coordinates entry around occupants under New Jersey landlord-tenant notice. Newark Quality Roofing sets a staging and access plan and documents the work with photographs for the owner and any insurance claim.',
   ],
   process: [
-    'Tear-off day on a Bloomfield home begins with ground protection and debris management setup. We position the dumpster for optimal debris flow, install plywood or tarps to protect landscaping and walkways, and remove any satellites dishes, antennas, or rooftop accessories that obstruct access. Gutter removal may precede tear-off if the gutters are being replaced, or gutters are protected in place if they are in good condition.',
-    'Shingle removal proceeds from ridge to eave using flat-blade roofing shovels and mechanical tear-off equipment on larger roof areas. As shingles are removed, the crew inspects the exposed underlayment and deck in real-time, marking any soft spots or visible deterioration for follow-up. After the entire roof surface is stripped, we conduct a systematic deck inspection -- walking the surface, probing suspect areas, and moisture-testing any questionable panels. Deteriorated deck sections are removed and replaced with matched sheathing material before underlayment installation begins.',
-    'Once the deck is sound and repaired, ice-and-water shield membrane is applied at eaves, valleys, and wall intersections per code requirements. Synthetic underlayment covers the remaining deck area. Drip edge is installed at eaves and rakes. The roof is now ready for new shingle installation on a verified substrate that will support the new system for its full warranty life. The tear-off waste is loaded and hauled for disposal, and the property is cleaned of any debris that migrated beyond the containment area.'
+    '**Newark Quality Roofing inspects the roof and attic underside, counts the existing covering layers, and identifies which N.J.A.C. 5:23-6.4 removal condition applies** before any tear-off begins. A crew checks for a water-soaked deck, a wood shake, slate, clay, cement, or asbestos-cement tile covering, or 2 or more existing layers, per the NJ Uniform Construction Code, and coordinates tenant access in advance on Bloomfield\'s occupied two-family and garden-apartment buildings.',
+    '**Newark Quality Roofing strips all existing covering, underlayment, and any overlay layers to the bare sheathing, then inspects every deck section it exposes.** The crew probes for the failing-deck signs InterNACHI names — daylight through the deck, soft or spongy wood, sagging between rafters, delaminated plywood, and swollen OSB edges — and replaces deteriorated sheathing that cannot hold a roofing nail, per ARMA nail-application guidance. Old-roof removal runs $1–$5 per square foot by material weight, per HomeGuide national cost data.',
+    '**Newark Quality Roofing installs the ice barrier, applies synthetic underlayment across the repaired deck, and installs the cover to manufacturer specification**, the sequence that keeps the manufacturer system warranty intact. The ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision, and a written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance. A magnet sweep for nails closes out the property.',
   ],
   faqs: [
     {
-      question: 'How much does a full tear-off add to the cost of re-roofing my Bloomfield home?',
-      answer: 'Full tear-off adds approximately two to three dollars per square foot to the project cost compared to an overlay installation. On a typical Bloomfield Cape Cod or colonial with 1,500 to 2,500 square feet of roof area, the tear-off premium is approximately three thousand to seven thousand dollars. This cost covers labor, debris loading, dumpster rental, and disposal fees. The investment reveals deck condition, enables proper underlayment installation, and qualifies the new roof for full manufacturer warranty coverage.'
+      question: 'When does New Jersey code require a full roof tear off on a Bloomfield home?',
+      answer:
+        'N.J.A.C. 5:23-6.4 requires complete removal of the existing covering in 3 conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying 2 or more layers. The NJ Rehabilitation Subcode adds wood shake to the IRC Section R908.3.1.1 removal list, per the NJ Uniform Construction Code, so a recover over 2 layers on a Bloomfield roof is prohibited.',
     },
     {
-      question: 'Does my Bloomfield home need a tear-off or can I overlay?',
-      answer: 'If your home already has two layers of shingles, tear-off is required by NJ code. If your home has one layer, overlay may be possible if the existing shingles are laying flat without curling, the deck beneath is sound, and the additional weight is within the structure\'s capacity. We inspect the existing roof to determine which option is appropriate. Even when overlay is code-compliant, we recommend tear-off for Bloomfield homes over twenty-five years old because deck inspection at that age frequently reveals hidden deterioration.'
+      question: 'Do I need a permit for a full roof tear off in Bloomfield, NJ?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Bloomfield counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit from the Township of Bloomfield\'s construction office once the work exceeds 25% of the roof area in 12 months, and so does any structural change to rafters or trusses.',
     },
     {
-      question: 'How long does a tear-off and re-roof take on a Bloomfield home?',
-      answer: 'Most Bloomfield Cape Cods, ranches, and colonials complete tear-off and re-roofing in one to two days. A straightforward single-layer tear-off and re-shingle on a ranch can finish in a single long day. Two-layer tear-offs on larger colonials or complex split-levels typically require two days. We never leave a Bloomfield home with exposed deck overnight -- at the end of each work day, all opened areas are dried-in with underlayment and temporary weatherproofing.'
+      question: 'Does a Bloomfield historic-district home need extra approval before a tear-off?',
+      answer:
+        'Exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. Bloomfield\'s local list, not the National Register Bloomfield Green district boundary, sets that jurisdiction, so an owner near Bloomfield Center confirms a parcel against the list. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'What happens to my old shingles after tear-off in Bloomfield?',
-      answer: 'Tear-off debris is loaded into dumpsters and hauled to licensed disposal facilities. Many facilities recycle asphalt shingles into road paving material rather than landfilling them. The disposal cost is included in our tear-off pricing -- there are no separate hauling charges. We clean the property of all debris including nail sweeps of the driveway, walkways, and yard areas within the work zone after the dumpster is removed.'
+      question: 'What happens if the deck is rotted under my old Bloomfield roof?',
+      answer:
+        'A full tear-off exposes the deck, and Newark Quality Roofing replaces sheathing that has rotted soft, delaminated, or swollen, because roofing nails penetrate at least ¾ inch into the deck to grip. Sheathing that cannot hold a nail is replaced, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI. Bloomfield\'s pre-war Colonials and Capes carry plank decking that hides rot until the covering comes off.',
     },
     {
-      question: 'How much does full roof tear off cost in Bloomfield, NJ?',
-      answer: 'Most full roof tear off projects in Bloomfield range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Why choose a full tear-off over a roof-over on a Bloomfield home?',
+      answer:
+        'A full tear-off strips the roof to the deck so the sheathing is inspected and repaired, while a roof-over installs a new layer over the existing covering and hides any deck rot underneath. A full tear-off lets a roofer inspect the roof deck, repair damage, and improve deck attachment, per the Asphalt Roofing Manufacturers Association and InterNACHI, and a recover over 2 existing layers is prohibited on Bloomfield\'s older stock, per N.J.A.C. 5:23-6.4.',
+    },
+    {
+      question: 'How much does a full roof tear off cost in Bloomfield, NJ?',
+      answer:
+        'Old-roof removal runs $1–$5 per square foot by material weight, and a New Jersey roof replacement costs $10,000–$25,000 for a typical home with the tear-off included. Removal costs $1–$3 per square foot for shingles and $2–$5 for heavier slate or tile, per HomeGuide national data, and the NJ replacement range traces to HomeAdvisor and Modernize. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Full roof tear-off in Bloomfield NJ -- complete shingle removal, deck inspection, and clean substrate for Cape Cods, colonials, and split-levels.',
+  metaDescription:
+    'Full roof tear off in Bloomfield NJ — strip to the deck, repair sheathing, new system on pre-war Colonials, two-family homes, garden apartments. Free estimate.',
   pricing: {
-    range: '$9,000–$26,000',
-    note: 'complete tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Bloomfield\'s pre-war Colonial, two-family, and garden-apartment building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free full roof tear off estimate in Bloomfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for full roof tear off in Bloomfield.',
+    urgencyNote: 'Addressing a failing roof early limits interior and structural water damage.',
   },
 };

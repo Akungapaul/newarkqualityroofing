@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const bloomfieldSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'bloomfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing skylight installation repair across Bloomfield, New Jersey, and Essex County, sealing leaks at failed flashing and curb-mounting skylights on flat-roofed two-family homes and garden apartments** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
-    'Newark Quality Roofing delivers expert skylight installation repair in Bloomfield — with prices starting from $1,500–$5,000 and free estimates available today. Skylights on Bloomfield homes serve a practical function that transcends aesthetics: they bring natural light into the interior spaces where the township\'s compact housing types need it most. Cape Cods with upstairs bedrooms tucked under low eave lines, split-levels with interior hallways connecting the offset floor levels, and colonials with dark central stairwells all benefit from roof-mounted skylights that deliver daylight where wall windows cannot reach. The VELUX, Andersen, and Pella skylights installed on Bloomfield homes from the 1980s through the 2000s are now reaching the age where seals fail, glazing hazes, and flashing systems deteriorate.',
-    'Skylight leaks account for a consistent share of the [roof repair](/roof-repair-bloomfield-nj) calls we receive from Bloomfield homeowners, and the leak source is almost always the flashing system rather than the skylight unit itself. The step and counter flashings that integrate the skylight frame into the surrounding shingle field corrode, crack, or lose sealant adhesion over fifteen to twenty years of exposure. Ice dam formation above the skylight -- common on Bloomfield\'s Cape Cods where the skylight sits on a relatively low-pitch roof plane -- pushes meltwater under the weakened flashings and into the skylight well. Homeowners often assume the skylight itself has failed when the flashing system is the actual culprit.',
-    'New skylight installation on Bloomfield homes unlocks light and ventilation improvements that can transform interior comfort. Venting skylights in bathrooms reduce moisture buildup and mold risk. Solar-powered blinds manage heat gain without wiring. Tubular skylights bring light into first-floor rooms through reflective tubes that pass through attic space without the framing modifications that conventional skylights require. For Bloomfield homeowners renovating kitchens, bathrooms, or adding living space to attic bedrooms, skylights provide the natural light that makes these interior spaces feel open and livable.'
+    '**Newark Quality Roofing installs and repairs skylights** on Bloomfield\'s pre-war Colonials and Capes and on the flat-roofed **two-family homes and garden apartments** that hold a slight majority of units, sealing the penetration at the flashing detail that admits water.',
+    '**Skylight installation and repair** seals the roof penetration at the flashing detail that admits water, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. A skylight lasts 10 to 20 years, per the InterNACHI Estimated Life Expectancy Chart, so a Newark Quality Roofing repair reseals failed flashing on a unit inside that range and replaces a unit past it.',
+    '**Two-family homes and garden apartments** carry curb-mounted skylights on low-slope additions and dormers across Watsessing, Ampere, and the Silver Lake and Halcyon locales, where a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A Newark Quality Roofing curb sheds water at the penetration rather than ponding against it.',
+    '**Failed flashing** opens the skylight to water on Bloomfield\'s aging pre-war and mid-century stock, where dried caulk and lifted metal admit rain at the curb. Newark Quality Roofing fits a VELUX or Fakro flashing kit matched to both the mounting type and the roof covering, because an engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America.',
   ],
   challenges: [
-    'Condensation on skylight glazing during Bloomfield\'s cold months is often misidentified as a leak. When warm, moist interior air contacts the cold inner surface of single-glazed or failing-seal double-glazed skylights, condensation forms on the glass and drips into the skylight well. This moisture pattern mimics a roof leak but the solution is different: improving interior ventilation, replacing single-pane skylights with modern double- or triple-pane units, or adding condensation gutters to the skylight frame to catch and drain condensation before it drips onto surfaces below.',
-    'Roof pitch constraints on Bloomfield\'s Cape Cods and ranches affect skylight product selection. Standard curb-mounted skylights require a minimum roof pitch to shed water effectively -- typically 3:12 or greater. Low-pitch roof sections on Cape Cods and the flat-to-low-slope portions of split-levels may fall below this threshold, requiring specialized low-slope skylight units with enhanced drainage details and wider flashing margins. Installing standard skylights on pitches below the minimum specification guarantees ponding water against the upslope flashing and premature leak development.',
-    'Skylight replacement on Bloomfield homes built with older curb designs requires adaptation to current products. Skylight dimensions and curb configurations have changed over the decades, and a replacement unit for a 1985 skylight may not match the existing roof opening. Options include ordering a custom-sized replacement, modifying the roof opening to accept a current-production unit, or installing a new curb adapter that bridges between the existing opening and the new skylight frame. We evaluate the existing installation and present the most cost-effective approach to each Bloomfield homeowner.'
+    '**Winter condensation** is misread as a skylight leak on Bloomfield\'s tighter older homes, because water at a skylight is often condensation from indoor humidity on cold glass rather than a roof leak, per VELUX America. A Newark Quality Roofing diagnosis separates the two before opening the flashing.',
+    '**Low-slope additions** on Bloomfield two-family homes and garden apartments demand a curb-mounted skylight, because a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A Newark Quality Roofing crew builds the curb to the code minimum and ties the flashing into the EPDM, TPO, or modified-bitumen membrane.',
+    '**Tenant-occupied access** shapes a skylight repair on Bloomfield\'s two-family and garden-apartment stock, because a slight majority of units sit in 2-or-more-unit structures and a repair coordinates entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing job documents the completed work with photographs for the owner.',
+    '**Mature canopy debris** in Brookdale and along the older streetcar grid loads the curb and the flashing reglet with leaf litter that holds moisture against the skylight, the path a flashing leak follows. A Newark Quality Roofing repair clears the debris and reseals the engineered flashing rather than recaulking the curb.',
   ],
   process: [
-    'Skylight repair in Bloomfield begins with determining whether the issue is a flashing failure, glazing seal failure, or condensation problem -- three distinct conditions that require different solutions. We inspect from both the rooftop and the interior, checking flashing condition, glazing seal integrity, frame condition, and interior moisture patterns. Many Bloomfield skylight calls can be resolved with flashing repair alone, preserving the existing unit and saving the homeowner the cost of full skylight replacement.',
-    'For new installations, we help Bloomfield homeowners select the skylight type, size, and features matched to their home and goals. Fixed skylights provide light only; venting skylights add ventilation. Solar-powered venting models qualify for federal tax credits and operate without electrical wiring. We determine the optimal roof location by evaluating roof pitch, framing access, interior ceiling configuration, and sun exposure from both exterior and interior perspectives.',
-    'Installation follows a weathertight sequence: roof opening is cut and framed, ice-and-water shield membrane is applied around the full perimeter, the skylight unit is set and fastened to the framing, and the manufacturer\'s integrated flashing kit is installed in the specific overlapping sequence that creates a watertight seal against both rainfall and ice dam backup. Shingles are integrated with the flashing kit per manufacturer specifications. Interior finishing -- drywall well construction, paint, and trim -- completes the project. We water-test every skylight installation before interior finishing begins.'
+    '**Newark Quality Roofing inspects the skylight flashing, curb, and shaft and separates a true leak from condensation before sealing.** A true leak tracks with rain and storms while condensation tracks with temperature and indoor humidity, the cue a Newark Quality Roofing inspection reads, because water at a skylight is often condensation on cold glass rather than a roof leak, per VELUX America.',
+    '**Newark Quality Roofing selects the VELUX or Fakro unit and the matching flashing kit and prepares the deck or builds the low-slope curb.** A skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8, and a curb-mounted unit takes its matched flashing kit on a flat or low-slope two-family or garden-apartment roof, per VELUX America.',
+    '**Newark Quality Roofing sets the unit and engineered flashing to manufacturer specification, then verifies the seal and documents the work.** The VELUX No Leak installation warranty runs 10 years and applies only when the skylight installs to specification with a matching VELUX flashing kit, per VELUX America, while Fakro provides a 10-year leak-proof guarantee conditioned on the original Fakro flashing kit, per Fakro USA. A Newark Quality Roofing lead runs a magnet sweep for nails at cleanup.',
   ],
   faqs: [
     {
-      question: 'My Bloomfield home\'s skylight leaks. Does the whole unit need replacement?',
-      answer: 'Not necessarily. Most skylight leaks on Bloomfield homes result from flashing failure rather than skylight unit failure. If the glass is clear, the frame is intact, and the seal between glass and frame is not fogged or dripping, flashing replacement alone can resolve the leak at a fraction of the cost of full unit replacement. We diagnose the specific failure point before recommending repair scope.'
+      question: 'Why does the skylight on my Bloomfield home leak?',
+      answer:
+        'A skylight leaks because of failed or improperly installed flashing, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. An engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America, so a Newark Quality Roofing repair replaces the failed flashing rather than recaulking the curb on a Bloomfield Colonial or two-family.',
     },
     {
-      question: 'How much does a new skylight cost installed on a Bloomfield home?',
-      answer: 'A standard curb-mounted fixed skylight installed on a Bloomfield Cape Cod or colonial costs approximately fifteen hundred to twenty-five hundred dollars including the unit, flashing kit, roofing integration, and basic interior finishing. Venting skylights add three hundred to five hundred dollars. Solar-powered venting models with blinds run twenty-five hundred to four thousand installed. Custom sizes and complex framing situations increase costs. Federal tax credits are available for qualifying energy-efficient skylight products.'
+      question: 'Is the water at my skylight a leak or winter condensation?',
+      answer:
+        'Water at a skylight is often condensation from excess indoor humidity on cold glass, not a roof leak, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads before opening the flashing on a Bloomfield home.',
     },
     {
-      question: 'Can a skylight be added to my Bloomfield Cape Cod upstairs bedroom?',
-      answer: 'Yes, and it is one of the most impactful improvements for Cape Cod upstairs bedrooms where low eave walls and limited window area create dark, cramped-feeling spaces. A properly sized skylight on the main roof plane floods the room with natural light and can add ventilation. Framing modification is usually minor -- cutting one or two rafters and installing headers. We evaluate the specific rafter spacing and roof structure to determine the largest skylight that can be installed without structural reinforcement.'
+      question: 'Can a skylight go on my Bloomfield two-family or garden-apartment flat roof?',
+      answer:
+        'A skylight installs on a flat or low-slope Bloomfield roof on a curb-mounted unit, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA, so a Newark Quality Roofing curb sheds water at the penetration.',
     },
     {
-      question: 'Are tubular skylights worth it for a Bloomfield ranch or split-level?',
-      answer: 'Tubular skylights are an excellent solution for bringing daylight into first-floor interior rooms on Bloomfield ranches and split-levels. The flexible reflective tube routes light from the roof through attic space to a ceiling diffuser, delivering surprisingly bright illumination without the framing modifications or heat gain issues of conventional skylights. Installed cost of eight hundred to twelve hundred dollars is modest relative to the impact, and the small roof footprint minimizes leak risk. We recommend ten-inch tubes for bathrooms and fourteen-inch tubes for kitchens and hallways.'
+      question: 'Does a Bloomfield historic-district home need approval to add or replace a skylight?',
+      answer:
+        'Exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. Bloomfield\'s local list, not the National Register Bloomfield Green district boundary, sets that jurisdiction, so an owner near Bloomfield Center confirms a parcel against the list. Per the National Park Service, a National Register listing alone places no federal restriction on a private property owner.',
+    },
+    {
+      question: 'Does a new skylight come with a no-leak warranty?',
+      answer:
+        'The VELUX No Leak installation warranty runs 10 years and applies only when the skylight installs to specification with a matching VELUX flashing kit, per VELUX America. VELUX adds a 20-year insulated-glass-seal warranty and a 10-year product warranty, and Fakro provides a 10-year leak-proof guarantee conditioned on the original Fakro flashing kit, per Fakro USA. Newark Quality Roofing installs VELUX and Fakro skylights to manufacturer specification.',
     },
     {
       question: 'How much does skylight installation repair cost in Bloomfield, NJ?',
-      answer: 'Most skylight installation repair projects in Bloomfield range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Skylight installation costs $1,600–$4,200 installed, replacement $800–$2,400, and leak repair $225–$800, per HomeGuide, Angi, and Modernize cost data. A reseal runs $75–$250 and a flashing repair $150–$500, per Angi and Modernize. Final cost depends on the unit, mounting type, roof covering, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Skylight installation and repair in Bloomfield NJ -- leak repair, flashing replacement, and new skylights for Cape Cods, split-levels, and colonials.',
+  metaDescription:
+    'Skylight installation and repair in Bloomfield NJ — flashing-leak repair, fogged-unit replacement, and curb-mounted skylights on two-family and flat roofs.',
   pricing: {
-    range: '$1,500–$5,000',
-    note: 'per skylight installed or repaired',
+    range: '$225–$4,200 across repair and installation',
+    note: 'Skylight leak repair $225–$800 and installation $1,600–$4,200 per HomeGuide, Angi, and Modernize cost data; final cost depends on the unit, mounting type, roof covering, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Bloomfield\'s pre-war Colonial, two-family, and garden-apartment building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free skylight installation repair estimate in Bloomfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for skylight installation repair in Bloomfield.',
+    urgencyNote: 'Addressing a skylight flashing leak early limits interior and structural water damage.',
   },
 };

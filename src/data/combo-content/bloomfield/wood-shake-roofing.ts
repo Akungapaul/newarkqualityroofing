@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const bloomfieldWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'bloomfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing wood shake roofing across Bloomfield, New Jersey, and Essex County, installing, repairing, and maintaining cedar shake and shingle systems on the steep-slope Colonials, Dutch Colonials, and Capes of the pre-war grid** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Wood shake roofing** covers a sloped roof in hand-split or tapersawn western red cedar laid over a ventilated assembly that lets each course dry from the underside after rainfall. The air space beneath the shakes manages the moisture that drives most cedar wear.',
   overview: [
-    'Newark Quality Roofing delivers expert wood shake roofing in Bloomfield — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in Bloomfield occupies a narrow niche between the township\'s practical asphalt-shingle majority and the occasional homeowner seeking natural material character on a home renovation or custom build project. Bloomfield\'s post-war housing stock was not built with wood shakes -- Cape Cods and split-levels from the 1950s and 1960s received asphalt shingles as the standard economy material of their era. The wood shake market in Bloomfield serves homeowners who want to differentiate their property with a natural roofing material that adds distinctive texture and curb appeal beyond what even premium architectural shingles can deliver.',
-    'The practical reality of wood shake ownership in Bloomfield\'s suburban environment includes maintenance demands that asphalt shingles do not require. Bloomfield\'s tree canopy creates shade conditions that promote moss and fungal growth on wood surfaces, and the township\'s humid summer climate accelerates the biological colonization that untreated wood shakes invite. Homeowners choosing wood shakes in Bloomfield must commit to periodic cleaning, preservative retreatment, and debris management that exceeds the low-maintenance profile of asphalt shingles. This is not a material for set-it-and-forget-it homeowners.',
-    'For Bloomfield homeowners who do choose [wood shake roofing](/wood-shake-roofing), the aesthetic return is genuine. A properly installed and maintained wood shake roof creates a handcrafted appearance that stands out in neighborhoods of uniform asphalt shingle roofs. The natural variation in shake thickness, width, and surface texture produces shadow lines and dimensional depth that synthetic materials approximate but do not replicate. Homeowners in neighboring [Montclair](/wood-shake-roofing-montclair-nj) and [Glen Ridge](/wood-shake-roofing-glen-ridge-nj) install wood shakes more frequently due to their Victorian and Tudor housing stock, but Bloomfield homeowners pursuing renovation projects have the same material available.'
+    '**Newark Quality Roofing installs, repairs, and maintains cedar shake and shingle roofs across Bloomfield**, building a ventilated assembly on the steep-slope pre-war Colonials, Dutch Colonials, and Capes that define the township and on the period homes near Bloomfield Center.',
+    '**Cedar shake and shingle systems** lay hand-split or tapersawn western red cedar over a ventilated assembly that lets each course dry from the underside after rainfall. A Newark Quality Roofing cedar installation builds at least 1.5 inches of air space beneath the shakes, because moisture, not insects, drives most premature cedar failure, per Cedar Shake & Shingle Bureau and NRCA guidance.',
+    '**Pre-war Colonials, Dutch Colonials, and Capes** carry the steep slopes that suit a cedar roof across Bloomfield\'s older streetcar-suburb grid, and the period homes ringing the Bloomfield Green show the natural texture a cedar covering delivers. A Newark Quality Roofing crew hand-selects each shake, sorts for color, and gaps adjacent shakes for moisture expansion across the surface.',
+    '**Bloomfield Center** parcels add a historic check, because exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. A Newark Quality Roofing job confirms a parcel against that list before scoping a cedar covering near the Green.',
   ],
   challenges: [
-    'Fire code compliance for wood shake installation in Bloomfield requires Class A fire-rated assembly construction, which adds components and cost beyond the shake material itself. Untreated wood shakes carry a Class C rating that does not meet New Jersey residential building code as a standalone roofing material. Achieving Class A requires either pressure-treated fire-retardant shakes or an underlayment assembly using fire-resistant materials beneath standard shakes. We specify fire-retardant-treated shakes for all Bloomfield installations, ensuring code compliance without relying solely on underlayment assemblies that complicate future maintenance access.',
-    'Moisture management on wood shake roofs in Bloomfield\'s humid climate demands attention to ventilation, spacing, and preservative treatment that asphalt shingle installations do not require. Shakes must be spaced to allow air circulation between courses, and the underlayment system must permit moisture vapor movement from below while shedding liquid water from above. Breather-type underlayment rather than ice-and-water shield across the full deck is critical -- sealing wood shakes against a vapor-impermeable membrane traps moisture and accelerates rot from the underside.',
-    'Long-term preservative maintenance is the ownership cost that Bloomfield homeowners often underestimate when choosing wood shakes. Initial preservative treatment lasts three to five years before UV exposure and weathering degrade the protective coating. Retreatment involves cleaning the shake surface, applying fresh wood preservative with UV protection, and addressing any individual shake replacements needed for cracking or splitting. This maintenance cycle adds eight hundred to fifteen hundred dollars every three to five years to the ownership cost -- an expense that should be factored into the material choice decision alongside the higher initial installation cost.'
+    '**Moisture-driven decay** is the defining wood shake challenge in Bloomfield, because moisture, not insects, drives most premature cedar failure, per Cedar Shake & Shingle Bureau and NRCA guidance, and shaded north-facing slopes under mature street trees degrade faster.',
+    '**Mature street-tree canopy** in Brookdale and across the older grid loads cedar valleys and surfaces with leaf and branch debris that holds moisture against the shakes, and shade feeds the moss and lichen that signal moisture retention and decay. A Newark Quality Roofing maintenance cycle clears the debris and applies a fungicide or algaecide treatment that slows the moisture-driven decay shortening cedar service life.',
+    '**Fire rating** governs whether cedar is code-compliant on a Bloomfield home, because untreated wood shakes are nonclassified for fire under UL 790 and ASTM E108, while pressure-impregnated fire-retardant shakes carry a Class B or Class C rating. A Class A wood roof is reached only as a component assembly of Class B fire-retardant shakes over a fire-retardant cap sheet, per the Cedar Shake and Shingle Bureau Certi-Guard program.',
+    '**Cupped and split shakes** cross the replacement threshold when more than 25 to 30% of the shakes cup or split, or when a shake cracks under the light-bending flex test, the InterNACHI field check for advanced cedar degradation. A Newark Quality Roofing inspection runs the flex test on suspect shakes before sizing a repair against a full re-roof.',
   ],
   process: [
-    'Wood shake installation in Bloomfield begins with structural verification, as shake roofs are heavier than asphalt shingle systems and Bloomfield\'s post-war framing may need evaluation. We verify that the existing roof framing can support the shake weight without deflection, assess the sheathing type and condition, and determine whether solid or spaced sheathing is appropriate for the specific shake product selected. Fire-retardant-treated shakes on solid sheathing with fire-rated underlayment provides the code-compliant assembly for Bloomfield residential construction.',
-    'Installation follows traditional shake roofing practice with spacing between each shake for drainage and air circulation, exposure rates matched to the shake length for proper coverage, and stainless steel or hot-dipped galvanized nails that resist the corrosive tannins in natural wood. Hip and ridge details use factory-prefabricated shake ridge caps or site-fabricated alternating mitered caps for a clean finished appearance. Valley treatment uses woven or closed-cut methods depending on the roof geometry.',
-    'Initial preservative treatment is applied immediately after installation, coating every exposed shake surface with a penetrating wood preservative containing UV inhibitors and fungicide. This first treatment is included in the installation cost and establishes the protective baseline that subsequent maintenance retreatments will refresh. We provide the homeowner with a detailed maintenance schedule specifying cleaning frequency, retreatment intervals, and inspection points specific to Bloomfield\'s climate and exposure conditions.'
+    '**Newark Quality Roofing inspects the cedar roof and the attic, runs the flex test on suspect shakes, and presents western red cedar grade and treatment options matched to the building and the Essex County climate.** A written estimate documents the cedar condition with photographs and sets the scope, labor, materials, and timeline before any work begins, per Integrity Home Exteriors documentation guidance.',
+    '**Newark Quality Roofing strips the existing covering to the bare deck and rebuilds the ventilated assembly with at least 1.5 inches of air space beneath the shakes.** A permitted re-roof requires complete removal of the existing wood shake, slate, clay, cement, or asbestos-cement tile under N.J.A.C. 5:23-6.4, per the NJ Rehabilitation Subcode, so a crew tears off to the deck, replaces deteriorated sheathing, and installs spaced skip sheathing or a breathable interlayment for the drying space the Cedar Shake & Shingle Bureau and NRCA guidance require.',
+    '**Newark Quality Roofing hand-selects each shake, fastens with corrosion-resistant stainless steel nails, and reseals the valley, wall, and penetration flashing to specification.** A crew sets thicker shakes at the eave courses, gaps adjacent shakes for moisture expansion, and reflashes the cedar transitions where flashing corrosion and lifted laps admit water, the most common leak source across roof types, an industry estimate attributed to the NRCA. A magnet sweep for nails closes the job, backed by a written workmanship warranty.',
   ],
   faqs: [
     {
-      question: 'Are wood shake roofs allowed in Bloomfield?',
-      answer: 'Yes, with fire-rated assembly compliance. New Jersey building code requires Class A fire-rated roofing assemblies for residential construction. Wood shake installations achieve Class A rating through pressure-treated fire-retardant shake products installed with fire-rated underlayment. We specify fire-retardant-treated shakes for all Bloomfield projects, ensuring code compliance. A building permit is required and we handle the application and inspection coordination.'
+      question: 'Do I need a permit for a wood shake roof in Bloomfield?',
+      answer:
+        'A repair or replacement of the cedar roof covering on a detached one- or two-family home in Bloomfield counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit from the Township of Bloomfield\'s construction office, and a permitted re-roof requires complete removal of the existing wood shake under N.J.A.C. 5:23-6.4.',
     },
     {
-      question: 'How much does a wood shake roof cost in Bloomfield?',
-      answer: 'Installed cost for fire-retardant-treated wood shakes in Bloomfield ranges from fifteen to twenty-five dollars per square foot, approximately two to three times the cost of premium architectural asphalt shingles. A typical Bloomfield home with 1,500 to 2,000 square feet of roof area runs twenty-two thousand to fifty thousand dollars installed. Add eight hundred to fifteen hundred dollars every three to five years for preservative retreatment throughout the roof lifespan.'
+      question: 'Does a wood shake roof in a Bloomfield historic district need extra approval?',
+      answer:
+        'Exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. Bloomfield\'s local list, not the National Register Bloomfield Green district boundary, sets that jurisdiction, so an owner near the Bloomfield Green confirms a parcel against the list. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'How long do wood shake roofs last in Bloomfield?',
-      answer: 'Properly maintained wood shake roofs deliver twenty-five to forty years of service in Bloomfield\'s climate. The key qualifier is maintenance commitment: regular cleaning to prevent moss establishment, preservative retreatment every three to five years, and prompt replacement of cracked or split individual shakes. Neglected wood shake roofs can deteriorate within fifteen years. The material rewards attentive ownership and punishes deferred maintenance more dramatically than asphalt shingles.'
+      question: 'Are wood shake roofs a fire hazard in Bloomfield?',
+      answer:
+        'Untreated wood shakes are nonclassified for fire under UL 790 and ASTM E108, while pressure-impregnated fire-retardant shakes carry a Class B or Class C rating. A Class A wood roof is reached only as a component assembly of Class B fire-retardant shakes over a fire-retardant cap sheet, where the fire-retardant is pressure-impregnated rather than surface-coated, per the Cedar Shake and Shingle Bureau Certi-Guard program.',
     },
     {
-      question: 'Is wood shake a good investment for a Bloomfield home?',
-      answer: 'It depends on your priorities and time horizon. If you plan to stay in the home long-term, value natural material aesthetics, and are comfortable with the maintenance commitment, wood shakes deliver genuine curb appeal differentiation in a township dominated by asphalt shingle roofs. If you prioritize low maintenance and cost efficiency, architectural asphalt shingles provide better value for the typical Bloomfield homeowner. We help you evaluate the trade-offs honestly rather than selling the premium material regardless of fit.'
+      question: 'How long does a wood shake roof last on a Bloomfield home?',
+      answer:
+        'A cedar shake roof lasts 20 to 40 years and a cedar shingle roof 30 to 50 years, per the Cedar Shake & Shingle Bureau, against the single 25-year "Wood" figure on the InterNACHI life-expectancy chart. Maintenance sets the range, because a fungicide or algaecide treatment every few years slows the moisture-driven decay that ends a wood roof early on the shaded north-facing slopes common under Bloomfield\'s mature canopy.',
+    },
+    {
+      question: 'How do you know when to repair or replace a wood shake roof in Bloomfield?',
+      answer:
+        'Replace a wood shake roof when more than 25 to 30% of the shakes cup or split, or when a shake cracks under the light-bending flex test; repair the roof when the damage stays localized and the deck is sound. The 25 to 30% threshold is contractor consensus, and the flex test is the InterNACHI field check for advanced cedar degradation. A Newark Quality Roofing inspection documents the condition before recommending a path.',
     },
     {
       question: 'How much does wood shake roofing cost in Bloomfield, NJ?',
-      answer: 'Most wood shake roofing projects in Bloomfield range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A new roof in New Jersey runs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize cost data, with cedar at the premium end. Labor accounts for roughly 60 to 70% of a wood shake job, and NJ ranges sit above national figures. Wood shake repair averages roughly $750 nationally, with a range of $400 to $1,800, per Angi. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Wood shake roofing in Bloomfield NJ -- fire-rated installation, preservative maintenance, and natural material options for renovation projects.',
+  metaDescription:
+    'Wood shake roofing in Bloomfield NJ — cedar shake and shingle installation, fire-rated assemblies, preservative maintenance. NJ-registered, free estimate.',
   pricing: {
-    range: '$14,000–$30,000',
-    note: 'cedar shake or wood shingle installation',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; cedar sits at the premium end. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Bloomfield\'s pre-war Colonial, two-family, and garden-apartment building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free wood shake roofing estimate in Bloomfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for wood shake roofing in Bloomfield.',
+    urgencyNote: 'Addressing moisture and debris on a cedar roof early limits the decay that shortens its service life.',
   },
 };

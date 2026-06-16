@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const bloomfieldCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'bloomfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing cedar shake roof replacement across Bloomfield, New Jersey, and Essex County, stripping aging cedar to the deck and laying new cedar over a ventilated base on pre-war Colonials and character homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
-    'Newark Quality Roofing delivers expert cedar shake roof replacement in Bloomfield — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Bloomfield serves the small number of homes that chose natural wood roofing for its distinctive rustic character and natural insulation properties. These homes -- scattered across the township\'s established residential neighborhoods, often the custom builds and renovation projects from the 1970s through 1990s -- wear cedar that has aged thirty to forty years and is approaching the point where individual shake replacement no longer sustains the system. The splits, curling, and moss growth that characterize aging cedar indicate the wood preservative treatment has been depleted and the shakes are absorbing moisture that accelerates deterioration.',
-    'Replacement with fresh cedar shakes restores the natural wood aesthetic that drew the original homeowner to the material. New hand-split cedar delivers the rich texture, warm color variation, and dimensional character that no synthetic product fully replicates. The replacement also provides an opportunity to upgrade the installation system: modern cedar shake installation over a breathable underlayment system with copper flashings and ridge ventilation outperforms the original installation methods that many Bloomfield cedar roofs received.',
-    'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners considering whether to replace cedar with cedar or convert to [asphalt shingles](/asphalt-shingle-roof-replacement-bloomfield-nj), the decision involves aesthetic preference, maintenance commitment, and budget. Cedar replacement costs approximately twice what asphalt architectural shingles cost and requires periodic treatment to maintain the preservative protection. Asphalt conversion eliminates the maintenance requirement at lower cost. Synthetic cedar shake products offer a middle path -- reproducing the cedar appearance with polymer materials that do not require treatment.'
+    '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs** on Bloomfield\'s pre-war Colonials, Dutch Colonials, and Capes and on the character homes near Bloomfield Center. Cedar shake roof replacement strips an aging wood roof to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar, the work that renews a wood covering past saving rather than patching individual split shakes.',
+    '**Cedar shake and cedar shingle roofs** carry distinct service lives, because cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing a single wood row at 25 years. Maintenance sets where in the range a Bloomfield cedar roof lands, because moisture cycling drives most premature cedar failure on the shaded north slopes of the township\'s older stock.',
+    '**The ventilated nailing base** governs cedar performance, because a cedar roof holds at least 1.5 inches of drying air space beneath the shakes, per Cedar Shake & Shingle Bureau install guidance, and that airflow slows the cupping, splitting, and rot that ends a wood roof. A Newark Quality Roofing replacement strips the cedar to the deck and rebuilds the base, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and requires a full tear-off to the deck.',
+    '**Fire class** distinguishes one cedar product from another, because untreated cedar is nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau Certi-Guard program. A Newark Quality Roofing estimate sets the cedar type and fire class against a Bloomfield owner\'s insurance requirement before tear-off.',
   ],
   challenges: [
-    'Fire resistance is a legitimate concern with cedar shake roofing in Bloomfield\'s residential neighborhoods. Untreated cedar is classified as a combustible roofing material with limited fire resistance. Fire-retardant-treated cedar shakes improve the classification but require periodic retreatment as the chemical treatment degrades over time. Bloomfield homeowners replacing cedar shakes should verify that the replacement product carries a Class A, B, or C fire rating appropriate for their location and that their homeowner insurance policy does not carry exclusions or surcharges related to wood roofing.',
-    'Maintenance commitment for cedar shake roofing exceeds all other residential roofing materials. Cedar requires periodic preservative treatment every five to seven years to maintain moisture resistance, periodic moss and lichen removal to prevent biological deterioration, and annual inspection for split or displaced shakes. Bloomfield homeowners who commit to this maintenance schedule achieve thirty-five to forty-five years of service. Homeowners who defer maintenance may see the cedar deteriorate to replacement condition in fifteen to twenty years.',
-    'Ventilation beneath cedar shakes is more critical than beneath asphalt shingles because cedar is a hygroscopic material that absorbs and releases moisture. Adequate airflow beneath the shakes and through the attic prevents the moisture retention that drives premature decay. The installation system -- typically cedar shakes over skip sheathing or a ventilated mat underlayment -- must maintain this airflow while providing the secondary weather protection that building codes require.'
+    '**Tear-off to the deck** is the only code-compliant path for a Bloomfield cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, per the NJ Rehabilitation Subcode. A Newark Quality Roofing replacement strips the wood to bare sheathing and replaces plank decking or plywood rotted under decades of trapped moisture.',
+    '**Moisture retention** drives most premature cedar failure on Bloomfield\'s older pre-war and mid-century stock, because cedar is hygroscopic and absorbs and releases water, and the cupping, splitting, and rot accelerate on the shaded north-facing slopes and beneath the mature street-tree canopy of sections like Brookdale. A ventilated nailing base holding at least 1.5 inches of drying air space slows that decay, per Cedar Shake & Shingle Bureau install guidance.',
+    '**Fire class and insurance** shape a cedar specification, because untreated cedar shakes and shingles are nonclassified under UL 790 and ASTM E108, per the Cedar Shake & Shingle Bureau Certi-Guard program, and some Bloomfield homeowner policies surcharge or exclude wood roofing. A Newark Quality Roofing estimate presents fire-retardant-treated cedar at a Class B or Class C product class so an owner can confirm coverage with the insurer before tear-off.',
+    '**Historic-list parcels** add a step near Bloomfield Center, because exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. A Newark Quality Roofing job confirms a parcel against that list before specifying a character-home cedar replacement.',
   ],
   process: [
-    'Cedar shake replacement begins with existing roof removal and deck assessment. Old cedar shakes and the original skip sheathing or solid deck beneath are removed, exposing the rafters for inspection. Any deteriorated framing is repaired. New solid deck sheathing with a ventilated mat underlayment system creates the combination of structural support and ventilation airflow that cedar shake performance requires.',
-    'Shake installation follows traditional methods: each hand-split shake is individually placed with proper exposure, offset from adjacent shakes, and secured with stainless steel or hot-dipped galvanized nails. Hip and ridge caps are fabricated from shake material on site. Valley construction uses woven or closed-cut methods with copper or aluminum valley flashing beneath. All penetration flashings use copper for longevity matched to the cedar material.',
-    'Post-installation, the new cedar receives its initial preservative treatment -- a penetrating oil-based preservative with UV inhibitors and fungicide that protects the fresh wood during its first years of exposure. The homeowner receives documentation of the cedar source and grade, installation specifications, and a detailed maintenance schedule covering the retreatment intervals, moss management, and annual inspection procedures that sustain cedar performance.'
+    '**Newark Quality Roofing rates the cedar roof against its 20-to-40-year shake and 30-to-50-year shingle service life, runs the InterNACHI flex test on suspect shakes, and checks the deck before quoting a replacement.** A shake that cracks under light bending fails the flex test and signals advanced degradation regardless of surface appearance, per InterNACHI flex-test guidance, and cupping, splitting, or rot across more than 25 to 30% of the field crosses the contractor-consensus replacement threshold.',
+    '**Newark Quality Roofing sets the cedar type and fire class in a written estimate and confirms the listed-parcel and permit path before tear-off.** The estimate presents hand-split shake, sawn shingle, and fire-retardant-treated cedar at a Class B or Class C product class per the Cedar Shake & Shingle Bureau Certi-Guard program, and a Bloomfield Center character home on the Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 first.',
+    '**Newark Quality Roofing strips the cedar to the deck, repairs the sheathing, installs a ventilated nailing base, and lays the new cedar.** A full tear-off exposes the deck for replacement of plank decking or plywood rotted under the old wood, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake, and the ventilated base holds at least 1.5 inches of drying air space beneath the shakes, per Cedar Shake & Shingle Bureau install guidance, so the wood roof drains and dries.',
   ],
   faqs: [
     {
-      question: 'How much does cedar shake roof replacement cost in Bloomfield?',
-      answer: 'Cedar shake replacement on a typical Bloomfield home costs eighteen to thirty dollars per square foot installed, approximately thirty to fifty thousand dollars total. This is roughly twice the cost of architectural asphalt shingle replacement. The premium buys the natural cedar aesthetic, superior insulation properties, and the distinctive character that drew the homeowner to cedar originally. Synthetic cedar alternatives cost fifteen to twenty-two dollars per square foot with lower maintenance requirements.'
+      question: 'Do I need a permit to replace a cedar roof in Bloomfield?',
+      answer:
+        'A complete cedar tear-off and replacement on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit from the Township of Bloomfield\'s construction office once the work exceeds 25% of the roof area in 12 months, and N.J.A.C. 5:23-6.4 requires full removal of the wood-shake covering on any cedar job.',
     },
     {
-      question: 'Should I replace my Bloomfield cedar roof with asphalt shingles instead?',
-      answer: 'Asphalt shingle conversion eliminates the maintenance commitment and fire concern associated with cedar at roughly half the cost. However, the visual change is significant -- the dimensional, textured character of cedar is not replicated by standard asphalt shingles. If the cedar aesthetic is important to you, cedar replacement or synthetic cedar alternatives preserve the appearance. If maintenance reduction and cost savings are priorities, asphalt architectural shingles provide reliable, attractive performance without the cedar maintenance obligation.'
+      question: 'Can a new cedar roof go over my old Bloomfield cedar roof?',
+      answer:
+        'A new cedar roof cannot go over an old cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a cedar replacement requires a full tear-off to the deck. The NJ Rehabilitation Subcode requires complete removal of a wood-shake covering, which also exposes the sheathing for replacement of any plank decking or plywood rotted under the old wood.',
     },
     {
-      question: 'How long will a new cedar shake roof last on my Bloomfield home?',
-      answer: 'With proper maintenance -- preservative treatment every five to seven years, moss removal, and annual inspection -- new cedar shake roofing delivers thirty-five to forty-five years of service. Without maintenance, the lifespan drops to fifteen to twenty years as untreated cedar absorbs moisture, develops moss, and deteriorates rapidly. The maintenance commitment is the defining factor in cedar longevity.'
+      question: 'How long does a new cedar shake roof last on a Bloomfield home?',
+      answer:
+        'Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing wood at 25 years. Maintenance sets where in the range a Bloomfield cedar roof lands, because moisture-driven cupping, splitting, and rot end a wood roof faster on the shaded north slopes and beneath the mature canopy of the older stock.',
     },
     {
-      question: 'Does cedar shake roofing affect my Bloomfield homeowner insurance?',
-      answer: 'Some insurance carriers apply surcharges or exclusions for wood roofing due to fire risk. Fire-retardant-treated cedar shakes reduce this concern and may satisfy carrier requirements. We recommend verifying with your insurance agent before specifying cedar replacement to confirm that your policy will cover the cedar installation without premium increase or coverage limitation. If insurance is an issue, synthetic cedar alternatives provide the appearance without the combustibility concern.'
+      question: 'Does a historic-district parcel in Bloomfield affect a cedar replacement?',
+      answer:
+        'Exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. Bloomfield\'s local list, not the National Register Bloomfield Green district boundary, sets that jurisdiction, so an owner near Bloomfield Center confirms a parcel against the list. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
+    },
+    {
+      question: 'Will cedar shake roofing affect my Bloomfield homeowner insurance?',
+      answer:
+        'Some insurance carriers surcharge or exclude wood roofing for fire risk, and untreated cedar shakes and shingles are nonclassified under UL 790 and ASTM E108, per the Cedar Shake & Shingle Bureau Certi-Guard program. Fire-retardant-treated cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly, so an owner confirms coverage with the insurer before a Newark Quality Roofing crew specifies the cedar.',
     },
     {
       question: 'How much does cedar shake roof replacement cost in Bloomfield, NJ?',
-      answer: 'Most cedar shake roof replacement projects in Bloomfield range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Premium cedar roofing in New Jersey runs $10 to $20-plus per square foot installed, per NHI Contractors NJ pricing, placing cedar above asphalt and below slate, while a typical full NJ roof replacement runs $10,000–$25,000, per HomeAdvisor and Modernize. Labor runs roughly 60 to 70% of a wood-roof install and NJ ranges sit 10 to 40% above national figures, per Modernize. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Cedar shake roof replacement in Bloomfield NJ -- hand-split cedar and synthetic alternatives for homes with natural wood roofing character.',
+  metaDescription:
+    'Cedar shake roof replacement in Bloomfield NJ — full tear-off to deck, ventilated base, hand-split shake and fire-treated cedar. NJ-registered, free estimate.',
   pricing: {
-    range: '$15,000–$32,000',
-    note: 'cedar shake roof replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium cedar runs $10–$20+ per square foot installed per NHI Contractors NJ. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Bloomfield\'s pre-war Colonial, two-family, and character-home building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free cedar shake roof replacement estimate in Bloomfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for cedar shake roof replacement in Bloomfield.',
+    urgencyNote: 'Replacing a cedar roof past its service life limits moisture-driven deck rot and interior water damage.',
   },
 };

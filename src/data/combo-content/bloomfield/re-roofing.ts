@@ -3,56 +3,68 @@ import type { ComboContent } from '../schema';
 export const bloomfieldReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'bloomfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing re-roofing across Bloomfield, New Jersey, and Essex County, replacing worn coverings on pre-war Colonials, two-family homes, garden apartments, and Broad Street, Bloomfield Avenue, and Garden State Parkway-corridor commercial roofs** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in Bloomfield — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing encompasses the full scope of roof surface replacement on Bloomfield homes -- whether through tear-off and new installation or overlay, using whatever material system best serves the building\'s needs and the homeowner\'s budget. For the Cape Cods, colonials, split-levels, and ranches that define Bloomfield\'s residential character, re-roofing is a predictable lifecycle event that occurs every twenty to thirty years, depending on the existing material and how well it has weathered northern New Jersey\'s thermal cycling, storm exposure, and freeze-thaw conditions.',
-    'The re-roofing decision for Bloomfield homeowners involves a series of connected choices: tear-off or overlay, standard architectural or premium designer shingles, basic ventilation or comprehensive ventilation upgrade, and whether to address gutters, fascia, and soffits in the same project scope. Each decision affects the project cost, the installed performance, and the years of service the new roof will deliver. Our consultation process walks Bloomfield homeowners through these decisions in plain language, explaining the cost-benefit tradeoff at each choice point so the final specification reflects their informed priorities.',
-    'Timing re-roofing to coordinate with other home exterior projects maximizes the value of the construction disruption. [Bloomfield](/roofing-in-bloomfield-nj) homeowners planning [gutter replacement](/gutter-installation-repair-bloomfield-nj), siding repair, or exterior painting within the next year or two should consider bundling these projects with re-roofing. Scaffolding and access setup serve multiple scopes, gutter removal during re-roofing reveals fascia condition for simultaneous repair, and painting after new roof installation avoids drip stains from construction on freshly painted surfaces.'
+    '**Newark Quality Roofing re-roofs the pre-war Colonials, Dutch Colonials, and Capes and the flat-roofed two-family homes and garden apartments** that define Bloomfield north of Newark. Re-roofing replaces a worn covering with a new underlayment-and-cover system once the roof crosses the replacement threshold by age or condition.',
+    '**Pre-war Colonials, Dutch Colonials, and Capes** carry steep asphalt, slate, and metal coverings across Bloomfield\'s older grid, where about 65% of the housing stock predates 1950, per the Bloomfield Housing Element and Fair Share Plan. A Newark Quality Roofing re-roof strips the worn covering to the deck, replaces deteriorated sheathing exposed at tear-off, and installs an ice barrier, synthetic underlayment, and the new cover to manufacturer specification.',
+    '**Flat-roofed two-family homes and garden apartments** hold a slight majority of Bloomfield\'s units in 2-or-more-unit structures, so a re-roof on this stock installs an EPDM, TPO, or modified-bitumen membrane and rebuilds the parapet and wall flashing where the membrane terminates against the adjoining structure, the wall-to-membrane transition where most low-slope leaks originate, per the NRCA.',
+    '**Broad Street, Bloomfield Avenue, and Garden State Parkway-corridor** storefronts and mixed-use buildings carry low-slope commercial roofs, where a re-roof grades the deck to at least ¼ inch per foot of slope to drain, with ponding water held more than 48 hours counted as a defect, per the NRCA and ARMA. A Newark Quality Roofing scope reseals or replaces the failed membrane and rebuilds flashing at parapets and rooftop penetrations.',
   ],
   challenges: [
-    'Material selection confusion confronts Bloomfield homeowners navigating the re-roofing market for the first time. The shingle industry offers dozens of product lines at price points spanning a two-to-one range, and every manufacturer markets their products with warranty claims that require careful interpretation. A thirty-year warranty does not mean the shingles will last thirty years -- it means the manufacturer guarantees the material against defects for thirty years with prorated coverage that diminishes each year. We translate warranty language into realistic lifespan expectations so Bloomfield homeowners compare products on actual performance rather than marketing claims.',
-    'Contractor evaluation is the other major challenge Bloomfield homeowners face during re-roofing. The low barrier to entry in the roofing industry means bids from qualified manufacturers-certified contractors compete against bids from uninsured operators who cut costs by skipping tear-off on multi-layer roofs, omitting ice-and-water shield, using insufficient nailing patterns, and installing without permits. We encourage Bloomfield homeowners to verify insurance, licenses, and manufacturer certifications before comparing prices -- the lowest bid often indicates missing scope rather than superior efficiency.',
-    'Seasonal scheduling affects both availability and pricing for Bloomfield re-roofing. The May-through-October peak season fills contractor schedules weeks in advance, while the November-through-March off-season offers faster scheduling but weather uncertainty. Winter re-roofing is technically possible on dry days above freezing but limits adhesive activation on shingle sealant strips. We schedule Bloomfield re-roofing projects for optimal conditions and advise homeowners on the scheduling tradeoffs of each season.'
+    '**Tear-off versus recover** is the defining re-roofing decision on Bloomfield\'s older stock, because a recover over a single sound layer hides deck rot a tear-off would catch and traps heat that shortens the new covering\'s life. A recover cuts shingle service life by roughly 20–30%, an industry estimate per ARMA and Angi, so a Newark Quality Roofing assessment confirms deck condition before recommending the method.',
+    '**Aged plank decking** surfaces at tear-off on Bloomfield\'s 1920s–1940s Colonials and Capes, where the New Jersey Rehabilitation Subcode requires complete removal of the existing covering, with no recover, when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A Newark Quality Roofing crew replaces deteriorated plywood, OSB, or plank before the new cover.',
+    '**Two-family and garden-apartment access** shapes a Bloomfield membrane re-roof, because a slight majority of units sit in 2-or-more-unit structures and many are tenant-occupied, so the work coordinates entry under New Jersey landlord-tenant notice. A Newark Quality Roofing job sets a staging and access plan and documents the completed re-roof with photographs for the owner and any insurance record.',
+    '**Mature-canopy debris and Watsessing drainage** stress a Bloomfield re-roof, because oak, maple, and sycamore canopy over Brookdale and the older streetcar grid loads valleys and gutters, while Watsessing sits low near the Second River and Toney\'s Brook. A Newark Quality Roofing re-roof corrects the drainage path and rebuilds valley flashing where debris and standing water concentrate.',
   ],
   process: [
-    'Re-roofing consultation for Bloomfield homes begins with a thorough roof evaluation: measuring roof area, counting existing layers, assessing shingle and deck condition, inspecting ventilation, and noting any fascia, soffit, or gutter conditions that should be addressed concurrently. We photograph the existing roof and walk through the findings with the homeowner, explaining what we found and what it means for the re-roofing specification.',
-    'Proposal development presents the homeowner with clearly defined options: shingle product tiers with cost and performance comparisons, tear-off versus overlay assessment with our recommendation, ventilation improvements included in the scope, and optional concurrent work on gutters, fascia, and soffits. Each option is line-itemed so homeowners see exactly what drives each price point. We answer questions until the homeowner is confident in their selection.',
-    'Execution follows the specification exactly: tear-off or overlay as selected, deck repair as discovered, ice-and-water shield and synthetic underlayment installation, drip edge at eaves and rakes, shingle installation with manufacturer-specified nailing pattern, ridge vent installation, and hip and ridge cap completion. Post-installation cleanup includes magnetic nail sweeps of the driveway, walkways, and yard. The homeowner receives warranty documentation, before-and-after photographs, and a maintenance guide for the new roof system.'
+    '**Newark Quality Roofing confirms the re-roofing decision against the contractor-consensus threshold rules, then inspects the deck and attic ventilation before quoting.** Damage across more than 25–30% of the roof area crosses the 25% rule, a single repair approaching 50% of replacement cost crosses the 50% rule, and an asphalt roof past 20 years crosses the age rule, per WeatherShield, RapidRestore, and Home Depot cost data.',
+    '**Newark Quality Roofing strips the worn roof to the deck, the tear-off method that exposes the deck for inspection and repair, because ARMA states a recover hides deck rot and water damage a tear-off catches.** Complete removal is required when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1, so a re-roof on Bloomfield\'s older Colonials and Capes favors tear-off where deck condition or code requires it.',
+    '**Newark Quality Roofing matches the new system to the building and the Essex County climate, then installs an ice barrier, synthetic underlayment, and the cover to manufacturer specification.** 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart; the ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision. Installing to specification keeps the manufacturer material warranty intact, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How much does re-roofing cost for a typical Bloomfield home?',
-      answer: 'Complete re-roofing on a Bloomfield Cape Cod, colonial, or split-level with 1,500 to 2,500 square feet of roof area ranges from twelve to twenty-five thousand dollars depending on shingle product, tear-off requirements, deck repair, and concurrent work scope. Entry-level architectural shingles with tear-off fall at the lower range. Premium designer shingles with full scope including ventilation, gutters, and fascia reach the upper range. We provide detailed proposals with line-item pricing so you can see exactly what each component costs.'
-    },
-    {
-      question: 'When is the best time to re-roof my Bloomfield home?',
-      answer: 'Late spring through early fall offers the best combination of reliable weather, optimal shingle adhesive activation, and reasonable scheduling availability. September and October are particularly good months -- summer heat has passed, shingle sealant strips still activate in daytime warmth, and fall storms have not yet begun. Booking during winter for spring installation often provides the best combination of scheduling priority and favorable pricing.'
-    },
-    {
-      question: 'How do I choose between shingle products for my Bloomfield re-roofing?',
-      answer: 'Focus on three factors: wind rating, warranty structure, and installed cost per year of expected service. Architectural shingles with 110-130 mph wind ratings and thirty-year limited warranties are the value sweet spot for most Bloomfield homes. Premium designer lines add aesthetic features that are most visible on steep-pitch roofs -- Bloomfield\'s moderate pitches show less shingle detail from the street, so the visual premium is less impactful. We show samples and explain the cost-performance tradeoff for each product tier.'
-    },
-    {
       question: 'Do I need a permit for re-roofing in Bloomfield?',
-      answer: 'Yes. Bloomfield requires a building permit for re-roofing projects. We handle the permit application and inspection coordination as part of our project scope. The permit ensures the work meets current building code, including ice-and-water shield requirements, nailing patterns, and ventilation standards. The permit fee is included in our project pricing -- there are no separate administrative charges.'
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Bloomfield counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit from the Township of Bloomfield\'s construction office once the work exceeds 25% of the total roof area in a 12-month period, and so does any structural change to rafters or trusses. A slight majority of Bloomfield units sit in 2-or-more-unit structures, which puts much of the township\'s stock on the permit-required path.',
     },
     {
-      question: 'How much does re roofing cost in Bloomfield, NJ?',
-      answer: 'Most re roofing projects in Bloomfield range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does re-roofing a Bloomfield home require a full tear-off?',
+      answer:
+        'Re-roofing requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound asphalt layer hides deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20–30%, per ARMA and Angi. On Bloomfield\'s 1920s–1940s Colonials and Capes, aged plank decking often surfaces at tear-off and is replaced before the new cover.',
+    },
+    {
+      question: 'Does a re-roof on a Bloomfield historic-district home need extra approval?',
+      answer:
+        'Exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. Bloomfield\'s local list, not the National Register Bloomfield Green district boundary, sets that jurisdiction, so an owner confirms a parcel against the list or with the Historic Preservation Commission. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner, and a parcel not on the list is not subject to the Chapter 302 gate.',
+    },
+    {
+      question: 'Which roofing material suits a re-roof on a Bloomfield two-family or garden apartment?',
+      answer:
+        'A low-slope single-ply membrane suits the flat roofs of Bloomfield two-family homes and garden apartments: EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart. A slight majority of Bloomfield units sit in 2-or-more-unit structures, so a Newark Quality Roofing membrane re-roof seals the new system to continuous metal flashing at the parapet and wall transitions where most low-slope leaks originate. The pre-war Colonials and Capes nearby re-roof in architectural asphalt, slate, or metal.',
+    },
+    {
+      question: 'How much does re-roofing cost for a Bloomfield home?',
+      answer:
+        'Re-roofing in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Re-roofing in Bloomfield NJ -- complete roof surface replacement for Cape Cods, colonials, and split-levels with material and ventilation upgrades.',
+  metaDescription:
+    'Re-roofing in Bloomfield NJ — tear-off and re-cover for pre-war Colonials, two-family membranes, and corridor flat roofs. NJ-registered, free estimate.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Bloomfield\'s pre-war Colonial, two-family, and garden-apartment building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in Bloomfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re-roofing in Bloomfield.',
+    urgencyNote: 'Re-roofing a covering past its service life limits interior and structural water damage.',
   },
 };

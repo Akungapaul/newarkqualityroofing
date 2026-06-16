@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const bloomfieldEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'bloomfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing energy efficient roofing solutions across Bloomfield, New Jersey, and Essex County, installing reflective TPO and PVC membranes on flat-roofed two-family homes and garden apartments and balancing attic ventilation on pre-war Colonials** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Energy efficient roofing solutions** combine a high-reflectance surface that rejects solar heat with conductive insulation that slows heat flow into the building below. The two levers — reflective membranes and coatings, plus above-deck insulation, radiant barriers, and balanced attic ventilation — lower roof surface temperature and the cooling load beneath the roof.',
   overview: [
-    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Bloomfield — with prices starting from $10,000–$28,000 and free estimates available today. Energy-efficient roofing in Bloomfield delivers measurable utility savings on the township\'s mid-century housing stock that was built before thermal performance was a construction priority. Cape Cods from the 1940s, split-levels from the 1960s, and colonials from the 1970s share a common energy deficiency: minimal roof insulation, inadequate attic ventilation, and roofing materials selected for weather resistance and cost rather than thermal performance. Upgrading to energy-efficient roofing materials and practices during re-roofing addresses these deficiencies at the most cost-effective point in the maintenance cycle.',
-    'Cool roofing technology -- reflective shingles and coatings that reduce heat absorption compared to standard dark-colored roofing -- provides the most accessible energy efficiency upgrade for Bloomfield\'s residential rooftops. Standard dark asphalt shingles absorb up to ninety percent of solar radiation, heating the attic space beneath and increasing air conditioning demand on already under-insulated Bloomfield homes. Energy Star-rated cool roofing shingles with reflective granules can reduce roof surface temperature by up to fifty degrees and lower attic temperatures by fifteen to twenty-five degrees, translating into measurable cooling cost reduction without any structural modification.',
-    'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners approaching [roof replacement](/roof-replacement-bloomfield-nj), the energy-efficient roofing conversation extends beyond material selection to system design. Attic insulation depth, ventilation capacity, and radiant barrier installation all interact with the roofing material to determine the total thermal performance of the roof assembly. Addressing only the surface material while ignoring the insulation and ventilation beneath it captures a fraction of the available energy savings. We design the complete assembly -- surface, ventilation, insulation, and air sealing -- to deliver maximum thermal performance from the combined investment.'
+    '**Newark Quality Roofing installs reflective membranes and coatings, above-deck insulation, radiant barriers, and balanced attic ventilation** across Bloomfield\'s pre-war Colonials, Dutch Colonials, and Capes and the flat-roofed two-family homes and garden apartments that hold a slight majority of units. Energy efficient roofing pairs a high-reflectance surface that rejects solar heat with insulation that slows heat flow into the space below.',
+    '**Reflective membranes and coatings** lower the surface temperature on the low-slope two-family and garden-apartment roofs across Watsessing, Ampere, and the Broad Street, Bloomfield Avenue, and Garden State Parkway corridors, because a reflective roof can stay over 50°F cooler than a conventional roof, per the DOE. A white TPO or PVC membrane carries a high solar reflectance and thermal emittance measured per ASTM C1549, CRRC-listed.',
+    '**Above-deck insulation and radiant barriers** raise the conductive resistance on Bloomfield\'s older pre-war and mid-century stock, the lever that governs heat flow through the assembly separate from the reflectance lever at the surface, per the DOE. A reflective coating changes the surface radiative properties and adds no R-value, so Newark Quality Roofing specifies the reflective surface and the insulation as separate measures, per the RCMA and the DOE.',
+    '**Balanced attic ventilation** pairs intake-and-exhaust airflow with code-minimum ceiling insulation on the steep-slope Colonials near Bloomfield Center and Brookdale, because the 2021 IECC Table R402.1.3 sets ceiling R-60 for Climate Zones 4 and 5, with an R-49 full-ceiling exception at raised-heel eaves, per the 2021 IECC and the NJ DCA. Bloomfield sits in the IECC Climate Zone 4-to-5 heating-dominated mixed climate.',
   ],
   challenges: [
-    'Finished attic spaces in Bloomfield\'s Cape Cods eliminate the conventional insulation approach that standard energy-efficient roofing depends on. When the attic is living space, there is no accessible attic floor to insulate. The insulation must be installed against the roof slope between the rafters, and the limited rafter depth on 1940s Cape Cods constrains the insulation thickness achievable without reducing room height. Spray foam insulation applied directly to the underside of the roof deck offers the highest R-value per inch for these constrained spaces, but at a cost premium over conventional insulation.',
-    'Existing roof assembly conditions on Bloomfield homes can limit which energy-efficient upgrades are practical during a re-roofing project. Adding insulation above the roof deck requires raising the entire roof surface -- flashing heights, gutter alignments, and edge details all change when the roof plane moves upward. This approach delivers the best thermal performance but the construction complexity and cost may exceed what Bloomfield homeowners anticipate. Below-deck insulation approaches avoid these complications but require attic access that finished Cape Cod spaces may not provide.',
-    'Cost-benefit analysis for energy-efficient roofing upgrades on Bloomfield homes must account for the home\'s specific energy profile. A poorly insulated Cape Cod with summer cooling bills exceeding three hundred dollars monthly will see meaningful return from cool roofing and attic improvements. A well-insulated colonial that already performs reasonably well may see marginal return that does not justify the upgrade premium. We calculate projected energy savings based on the home\'s current consumption, insulation condition, and the specific improvements proposed, so homeowners can evaluate the investment on its financial merits.'
+    '**The Essex County heating-dominated climate** sets the cool-roof trade-off on Bloomfield roofs, because a reflective roof reduces peak summer cooling demand but carries a winter heating penalty, per the DOE and the EPA. A Newark Quality Roofing design balances the reflective surface against the ceiling insulation, so the net annual benefit fits the Bloomfield climate.',
+    '**Flat-roofed two-family homes and garden apartments** along Watsessing, Ampere, and the commercial corridors carry low-slope membrane roofs that take a white TPO or PVC system or a reflective coating, the surfaces that lower membrane temperature through reflectance and emittance, per the CRRC, the RCMA, and the DOE. A reflective coating adds no R-value, because savings come from reflecting sunlight rather than added insulation, per the RCMA.',
+    '**Under-insulated pre-war and mid-century stock** limits the thermal return on Bloomfield\'s Colonials, Capes, and the secondary split-level segment, because ceiling insulation below the 2021 IECC R-60 minimum for Climate Zones 4 and 5 leaves an assembly that transfers solar heat into the space below, per the 2021 IECC. Newark Quality Roofing brings the ceiling insulation to the code minimum during a re-roof.',
+    '**Bloomfield Center historic-core parcels** add a review step to a reflective re-roof, because exterior roofing work on a parcel listed on the Township of Bloomfield\'s Historic District Property List requires a Historic Preservation Commission application under Bloomfield Township Code Chapter 302 before a construction permit issues. Newark Quality Roofing confirms a parcel against that list before specifying a visible reflective surface.',
   ],
   process: [
-    'Energy-efficient roofing design for Bloomfield homes begins with an energy assessment that evaluates current roof insulation R-value, attic ventilation adequacy, air leakage paths, and HVAC system efficiency. This assessment identifies the improvements with the highest return -- sometimes the biggest savings come from air sealing and insulation rather than roofing material selection. We present a prioritized improvement list so homeowners can allocate their budget to the upgrades that deliver the most measurable savings.',
-    'Material specification integrates cool roofing products with the home\'s aesthetic requirements. Reflective shingle options are available in the full range of colors and profiles that Bloomfield homeowners expect -- the reflective granule technology is invisible to the eye, so cool roofing shingles look identical to standard products. For commercial flat roofs, white TPO or reflective coatings provide the maximum cooling benefit. Material selection is paired with ventilation and insulation specifications that complete the thermal system.',
-    'Installation incorporates energy improvements seamlessly into the re-roofing workflow. During shingle tear-off, we assess and improve attic ventilation -- adding ridge vents, soffit baffles, and sealing bathroom exhaust ducts. Insulation upgrades are performed while the attic is accessible. Radiant barrier sheathing can replace deteriorated deck panels. Cool roofing shingles are then installed using standard techniques with enhanced nailing for wind resistance. The result is a complete thermal improvement that the homeowner experiences as a single project rather than multiple disruptions.'
+    '**Newark Quality Roofing measures the roof against 2 separate energy levers — surface reflectance and emittance, and conductive R-value — because reflectance governs solar heat gain at the surface while R-value governs conductive heat flow through the assembly.** A reflective coating changes the surface radiative properties and adds no R-value, so a Newark Quality Roofing assessment of a Bloomfield two-family or garden-apartment roof specifies the reflective surface and the insulation as separate measures, and checks ceiling insulation against the 2021 IECC R-60 minimum for Climate Zones 4 and 5, per the RCMA, the DOE, and the 2021 IECC.',
+    '**Newark Quality Roofing selects CRRC-listed reflective products and sizes insulation to the Bloomfield climate zone, because Essex County sits in IRC and IECC Climate Zone 4-to-5, a heating-dominated mixed climate.** A white TPO or PVC membrane carries a high initial solar reflectance and thermal emittance measured per ASTM C1549, CRRC-listed. The ENERGY STAR roof products program ended, with new certifications stopping June 1, 2021 and recognition ending June 1, 2022, so a Newark Quality Roofing specification references the CRRC-1 rating rather than an ENERGY STAR roof label, per the EPA and the CRRC.',
+    '**Newark Quality Roofing installs the reflective membrane, coating, insulation, and ventilation to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** On a low-slope corridor or two-family roof, the crew cleans and dries the deck, repairs seams and flashing, then installs the white reflective membrane or coating, the above-deck insulation, and the radiant barrier, per the RCMA and the DOE. The crew balances attic intake-and-exhaust ventilation and brings ceiling insulation to the 2021 IECC R-60 minimum for Climate Zones 4 and 5, with the R-49 full-ceiling exception at raised-heel eaves, per the 2021 IECC.',
   ],
   faqs: [
     {
-      question: 'Will energy-efficient roofing actually lower my utility bills in Bloomfield?',
-      answer: 'The savings depend on your home\'s current thermal performance. Poorly insulated homes with standard dark shingles and minimal ventilation can see cooling cost reductions of fifteen to twenty-five percent from cool roofing combined with ventilation improvements. Well-insulated homes see smaller but still measurable improvements. We calculate projected savings based on your specific home before you commit to premium material costs, so the decision is based on actual numbers rather than marketing claims.'
+      question: 'Does a cool roof save energy in the Bloomfield climate?',
+      answer:
+        'A cool roof reduces peak summer cooling demand by 11-to-27% in air-conditioned residential buildings, per the EPA, and carries a winter heating penalty in the Essex County heating-dominated climate, per the DOE. The net annual benefit depends on the climate and the insulation, so Newark Quality Roofing balances the reflective surface against the ceiling insulation for the Bloomfield climate.',
     },
     {
-      question: 'Do cool roofing shingles look different from regular shingles?',
-      answer: 'No. Cool roofing shingles use reflective granules that are visually indistinguishable from standard granules. They are available in the full range of colors and profiles from major manufacturers. The reflective technology is in the granule coating, not the color -- even dark-colored cool roof shingles reflect more solar energy than standard dark shingles. Your Bloomfield home will look exactly as you want while performing significantly better thermally.'
+      question: 'What makes a roof a cool roof?',
+      answer:
+        'A cool roof combines high solar reflectance, the fraction of solar energy reflected on a 0-to-1 scale, with high thermal emittance, the rate the surface re-radiates absorbed heat, per the EPA and the CRRC. Solar reflectance and thermal emittance combine into the Solar Reflectance Index per ASTM E1980, and the EPA calls solar reflectance the most important characteristic of a cool roof.',
     },
     {
-      question: 'What is the most cost-effective energy upgrade during re-roofing in Bloomfield?',
-      answer: 'Adding proper attic ventilation -- ridge vents and soffit intake -- provides the best return for the lowest cost. Proper ventilation reduces summer attic temperature by thirty to forty degrees and prevents winter moisture buildup, protecting both the new shingles and the home interior. The upgrade adds five hundred to one thousand dollars to a re-roofing project and delivers measurable cooling savings from the first summer. Cool roofing shingles add the next layer of improvement at a modest material premium.'
+      question: 'Does a reflective roof coating add insulation or R-value?',
+      answer:
+        'A reflective roof coating adds no meaningful R-value, because the coating changes the surface radiative properties — solar reflectance and thermal emittance — rather than conductive resistance, per the RCMA, the DOE, and the CRRC. Energy savings come from reflecting sunlight and lowering roof surface temperature, and a separate above-deck or ceiling insulation layer carries the R-value, per the DOE.',
     },
     {
-      question: 'Are there rebates for energy-efficient roofing in Bloomfield?',
-      answer: 'New Jersey offers Home Performance with Energy Star rebates for comprehensive energy improvements that include insulation and air sealing. Federal tax credits are available for qualifying cool roofing products on principal residences. PSE&G periodically offers rebates for energy efficiency improvements. We track current incentive availability and include applicable programs in our project proposals for Bloomfield homeowners. The available incentives can offset twenty to thirty percent of the energy improvement costs when programs are active.'
+      question: 'Is an ENERGY STAR roof rating still available for a Bloomfield home?',
+      answer:
+        'The ENERGY STAR roof products program ended, with new certifications stopping June 1, 2021 and recognition ending June 1, 2022, per the EPA, so the CRRC-1 rating is the successor. The CRRC-1 Rated Products Directory lists initial and 3-year aged solar reflectance and thermal emittance measured per ASTM C1549 and ASTM C1371, reporting product performance, per the CRRC.',
     },
     {
-      question: 'How much does energy efficient roofing solutions cost in Bloomfield, NJ?',
-      answer: 'Most energy efficient roofing solutions projects in Bloomfield range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Do you need a permit for an energy efficient re-roof in Bloomfield?',
+      answer:
+        'A re-roof or repair of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit from the Township of Bloomfield\'s construction office once the work exceeds 25% of the roof area in 12 months, and the recover-versus-tear-off limits follow the Rehab Subcode, N.J.A.C. 5:23-6.4.',
+    },
+    {
+      question: 'How much do energy efficient roofing solutions cost in Bloomfield, NJ?',
+      answer:
+        'A typical New Jersey roof replacement runs $10,000–$25,000, per HomeAdvisor and Modernize cost data, because a white membrane, a reflective coating, above-deck insulation, and ceiling insulation price separately by roof size and scope. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Energy-efficient roofing in Bloomfield NJ -- cool shingles, ventilation upgrades, and insulation for Cape Cods, split-levels, and colonials.',
+  metaDescription:
+    'Energy efficient roofing in Bloomfield NJ — reflective TPO/PVC membranes, cool coatings, insulation, and attic ventilation. CRRC-referenced. Free estimate.',
   pricing: {
-    range: '$10,000–$28,000',
-    note: 'cool-roof or reflective systems',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Bloomfield\'s pre-war Colonial, two-family, and garden-apartment building stock.',
+    'CRRC-referenced cool-roof specification with named solar reflectance and thermal emittance.',
+    'Free, detailed written estimates with no obligation.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free energy efficient roofing solutions estimate in Bloomfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for energy efficient roofing solutions in Bloomfield.',
+    urgencyNote: 'Sizing the reflective surface and the insulation to the Bloomfield climate sets the realistic energy benefit before any work begins.',
   },
 };
