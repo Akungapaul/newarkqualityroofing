@@ -1,0 +1,122 @@
+[
+  {
+    "serviceId": "roof-overlay-installation",
+    "gold": "**Newark Quality Roofing is a roofing contractor installing roof overlays across Newark, New Jersey, and Essex County**, applying a second layer of asphalt shingles over one existing sound asphalt layer as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing installs roof overlays across Newark**, applying a second layer of asphalt shingles over one existing sound asphalt layer without a tear-off, as a **New Jersey Home Improvement Contractor, licensed and insured**.",
+    "eastOrange": "**Newark Quality Roofing installs roof overlays across East Orange and Essex County, applying a second layer of asphalt shingles over one existing sound asphalt layer without a tear-off** on qualifying homes as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing installs roof overlays across the City of Orange Township, applying a second asphalt-shingle layer over one existing sound asphalt layer with no tear-off** on qualifying Seven Oaks detached and two-/three-family roofs as a New Jersey licensed contractor.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  },
+  {
+    "serviceId": "insurance-roof-replacement",
+    "gold": "**Newark Quality Roofing is a roofing contractor providing insurance roof replacement across Newark, New Jersey, and Essex County**, inspecting the roof, photographing storm and hail damage, and meeting the adjuster on site as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing provides insurance roof replacement across Newark**, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site as a roofing contractor, not an adjuster.",
+    "eastOrange": "**Newark Quality Roofing provides insurance roof replacement across East Orange, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site** as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing provides insurance roof replacement across Orange and Essex County, inspecting the roof, photographing storm, wind, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site** as a roofing contractor.",
+    "newarkHasTail": false,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": false
+  },
+  {
+    "serviceId": "storm-damage-roof-replacement",
+    "gold": "**Newark Quality Roofing is a roofing contractor replacing storm-damaged roofs across Newark, New Jersey, and Essex County**, documenting wind and hail damage with photographs and a scope, then installing a new roof as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing** provides **storm damage roof replacement** across Newark and Essex County, documenting wind, hail, and nor'easter damage with photographs, then replacing the roof to manufacturer specification as a New Jersey Home Improvement Contractor, licensed and insured.",
+    "eastOrange": "**Newark Quality Roofing replaces storm-damaged roofs across East Orange**, documenting wind, hail, and nor'easter damage with photographs and a detailed scope, then installing a new roof on multi-family and single-family buildings as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing replaces storm-damaged roofs across Orange and Essex County, documenting wind, hail, and nor'easter damage with photographs and a detailed scope, then installing a new roof to manufacturer specification** as a New Jersey Home Improvement Contractor.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  },
+  {
+    "serviceId": "aging-roof-replacement",
+    "gold": "**Newark Quality Roofing is a roofing contractor replacing aging roofs across Newark, New Jersey, and Essex County**, stripping a roof at the end of its lifespan and installing a new roof as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing replaces aging roofs across Newark**, stripping a roof at the end of its material lifespan to the deck and installing a new underlayment-and-cover system before age-driven failure, as a **New Jersey Home Improvement Contractor.**",
+    "eastOrange": "**Newark Quality Roofing replaces aging roofs across East Orange, stripping a roof past its material lifespan to the deck and installing a new underlayment-and-cover system** on pre-war apartments, walk-ups, and older homes as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing replaces aging roofs across Orange and Essex County, stripping a roof at the end of its material lifespan to the deck and installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  },
+  {
+    "serviceId": "roof-replacement-after-leak",
+    "gold": "**Newark Quality Roofing is a roofing contractor replacing a roof after a chronic leak across Newark, New Jersey, and Essex County**, stripping the failed roof to the deck and replacing rotted sheathing as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing replaces a roof after a chronic leak across Newark**, stripping the failed roof to the deck, replacing the rotted sheathing a leak leaves behind, and installing a new system, as a **New Jersey Home Improvement Contractor.**",
+    "eastOrange": "**Newark Quality Roofing replaces a roof after a chronic leak across East Orange**, stripping the roof to the deck, replacing rotted sheathing, and installing new underlayment-and-cover over pre-war walk-ups and multi-family buildings as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing replaces a roof after a chronic leak across Orange and Essex County, stripping the failed roof to the deck, replacing rotted sheathing, and installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  },
+  {
+    "serviceId": "roof-replacement-cost",
+    "gold": "**Newark Quality Roofing is a roofing contractor replacing residential and commercial roofs across Newark, New Jersey, and Essex County**, with a replacement costing $10,000-$25,000 for a typical home as a registered New Jersey Home Improvement Contractor, per HomeAdvisor data.",
+    "newark": "**Newark Quality Roofing prices and replaces residential and commercial roofs across Newark and Essex County**, itemizing roof size, material, tear-off, decking, and the NJ code path in a free written estimate as a **New Jersey Home Improvement Contractor**.",
+    "eastOrange": "**Newark Quality Roofing prices and performs roof replacements across East Orange, itemizing cost from roof size, material, tear-off, decking, and NJ code** on multi-family, pre-war walk-up, and older single-family roofs as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing prices and performs roof replacements across Orange and Essex County**, estimating tear-off, decking, material, and NJ labor on two-/three-family, converted-loft, and detached homes as a New Jersey Home Improvement Contractor.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  },
+  {
+    "serviceId": "asphalt-shingle-roof-replacement",
+    "gold": "**Newark Quality Roofing is a roofing contractor providing asphalt shingle roof replacement across Newark, New Jersey, and Essex County**, stripping the roof to the deck and installing new 3-tab or architectural shingles as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing provides asphalt shingle roof replacement across Newark**, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles to manufacturer specification as a New Jersey Home Improvement Contractor, licensed and insured.",
+    "eastOrange": "**Newark Quality Roofing replaces asphalt shingle roofs across East Orange, stripping the roof to the deck and installing new 3-tab or architectural shingles** on single-family homes, two- and three-family walk-ups, and pre-war apartments as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing provides asphalt shingle roof replacement across the City of Orange Township, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles** as a New Jersey Home Improvement Contractor.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  },
+  {
+    "serviceId": "metal-roof-replacement",
+    "gold": "**Newark Quality Roofing is a roofing contractor replacing roofs with new metal across Newark, New Jersey, and Essex County**, stripping the old roof to the deck and installing standing-seam or panel systems as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing replaces roofs with new metal across Newark and Essex County** — stripping the old roof to the deck and installing **standing-seam, metal-panel, or metal-shingle** systems — as a New Jersey Home Improvement Contractor.",
+    "eastOrange": "**Newark Quality Roofing replaces roofs with new metal across East Orange, stripping the old roof to the deck and installing standing-seam, metal-panel, or metal-shingle systems that last 40 to 80 years** as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing replaces roofs with new metal across Orange and Essex County, installing standing-seam, metal-panel, or metal-shingle systems** on two-/three-family homes, Seven Oaks detached houses, and Valley Arts loft buildings as a New Jersey Home Improvement Contractor.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  },
+  {
+    "serviceId": "slate-roof-replacement",
+    "gold": "**Newark Quality Roofing is a roofing contractor replacing slate roofs across Newark, New Jersey, and Essex County**, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing replaces slate roofs across Newark and Essex County, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners** as a New Jersey Home Improvement Contractor.",
+    "eastOrange": "**Newark Quality Roofing replaces slate roofs across East Orange and Essex County, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners** as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing replaces slate roofs across Orange and Essex County, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners** as a New Jersey Home Improvement Contractor.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  },
+  {
+    "serviceId": "tile-roof-replacement",
+    "gold": "**Newark Quality Roofing is a roofing contractor replacing tile roofs across Newark, New Jersey, and Essex County**, stripping the clay or concrete tile and underlayment to the deck and installing new tile as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing replaces clay and concrete tile roofs across Newark**, stripping the tile and failed underlayment to the deck and installing a new underlayment-and-tile system over a load-rated structure as a New Jersey Home Improvement Contractor.",
+    "eastOrange": "**Newark Quality Roofing replaces clay and concrete tile roofs across East Orange, stripping the tile and failed underlayment to the deck and installing a new underlayment-and-tile system over a load-rated structure** as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing replaces clay and concrete tile roofs across Orange and Essex County**, stripping the tile and failed underlayment to the deck and re-laying tile over a load-rated structure as a New Jersey Home Improvement Contractor.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  },
+  {
+    "serviceId": "flat-roof-replacement",
+    "gold": "**Newark Quality Roofing is a roofing contractor replacing flat and low-slope roofs across Newark, New Jersey, and Essex County**, stripping the failed membrane and installing a single-ply or modified-bitumen roof as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing replaces flat and low-slope roofs across Newark**, stripping the failed membrane to the deck, repairing the substrate, then installing a new **single-ply or modified-bitumen system** as a New Jersey Home Improvement Contractor.",
+    "eastOrange": "**Newark Quality Roofing replaces flat and low-slope roofs across East Orange and Essex County, stripping the failed membrane to the deck, repairing the substrate, then installing a new single-ply or modified-bitumen system** as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing replaces flat and low-slope roofs across Orange and Essex County, stripping the failed membrane to the deck, repairing the substrate, then installing a new single-ply or modified-bitumen system** as a New Jersey Home Improvement Contractor.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  },
+  {
+    "serviceId": "cedar-shake-roof-replacement",
+    "gold": "**Newark Quality Roofing is a roofing contractor replacing cedar shake roofs across Newark, New Jersey, and Essex County**, stripping aging cedar to the deck and installing new cedar over a ventilated base as a registered New Jersey Home Improvement Contractor.",
+    "newark": "**Newark Quality Roofing replaces cedar shake and cedar shingle roofs across Newark**, stripping aging wood to the deck and installing new cedar on a ventilated nailing base as a New Jersey Home Improvement Contractor.",
+    "eastOrange": "**Newark Quality Roofing replaces cedar shake and cedar shingle roofs across East Orange and Essex County, stripping aging cedar to the deck and installing new cedar on a ventilated nailing base** as a New Jersey Home Improvement Contractor.",
+    "orange": "**Newark Quality Roofing replaces cedar shake and cedar shingle roofs on Orange's older detached homes**, working as a New Jersey Home Improvement Contractor and coordinating the **Certificate of Appropriateness** where a designated historic district applies.",
+    "newarkHasTail": true,
+    "eastOrangeHasTail": true,
+    "orangeHasTail": true
+  }
+]

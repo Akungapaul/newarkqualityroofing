@@ -1,0 +1,9 @@
+[
+  {
+    "serviceId": "roof-flashing-installation-repair",
+    "city": "newark",
+    "severity": "med",
+    "issue": "Dangling credential clause: the reframe appends 'as a registered New Jersey Home Improvement Contractor' directly after the trailing local-specifics list ('...row houses, and Ironbound flat-roof commercial blocks'), so the credential reads as a modifier of the building types ('blocks as a registered HIC') rather than of the company. The gold avoids this because it has no trailing local-specifics clause before the credential. Unlike East Orange/Orange, Newark keeps a building-type tail after 'originate', which the credential now dangles off of.",
+    "suggestedFix": "**Newark Quality Roofing is a roofing contractor installing and repairing roof flashing across Newark, New Jersey, and Essex County**, sealing the chimneys, sidewalls, valleys, skylights, and penetrations where most roof leaks originate on the city's brownstones, row houses, and Ironbound flat-roof commercial blocks. Newark Quality Roofing works as a registered New Jersey Home Improvement Contractor."
+  }
+]

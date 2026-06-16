@@ -1,0 +1,7 @@
+{
+  "serviceId": "solar-shingle-installation",
+  "newark": "**Newark Quality Roofing is a roofing contractor that installs solar shingles across Newark, New Jersey, and Essex County**, replacing the roof covering with building-integrated solar shingles that generate power while serving as the roof itself, as a registered New Jersey Home Improvement Contractor.",
+  "eastOrange": "**Newark Quality Roofing is a roofing contractor that installs solar shingles across East Orange, New Jersey, and Essex County**, replacing the roof covering with building-integrated solar shingles that generate power while serving as the roof itself on owner-occupied homes, as a registered New Jersey Home Improvement Contractor.",
+  "orange": "**Newark Quality Roofing is a roofing contractor that installs solar shingles across Orange, New Jersey, and Essex County**, replacing the roof covering with building-integrated solar shingles that generate power while serving as the roof itself, as a registered New Jersey Home Improvement Contractor.",
+  "notes": "Closed bold at 'Essex County' (was over-bolding the specifics); inserted 'roofing contractor that' descriptor mirroring gold; added ', New Jersey' to each city; preserved East Orange's owner-occupied-homes specific; swapped 'a New Jersey Home Improvement Contractor' tail to 'a registered New Jersey Home Improvement Contractor'. Bold spans: 13 words each, well under 40."
+}

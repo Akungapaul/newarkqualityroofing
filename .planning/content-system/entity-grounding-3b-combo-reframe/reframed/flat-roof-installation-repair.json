@@ -1,0 +1,7 @@
+{
+  "serviceId": "flat-roof-installation-repair",
+  "newark": "**Newark Quality Roofing is a roofing contractor that installs and repairs flat and low-slope roofs across Newark, New Jersey, and Essex County**, servicing EPDM rubber, TPO, and modified-bitumen membranes as a registered New Jersey Home Improvement Contractor.",
+  "eastOrange": "**Newark Quality Roofing is a roofing contractor that installs and repairs flat and low-slope roofs across East Orange, New Jersey, and Essex County**, servicing EPDM, TPO, and modified-bitumen membranes on pre-war apartment walk-ups, two- and three-family buildings, and Central Avenue mixed-use blocks as a registered New Jersey Home Improvement Contractor.",
+  "orange": "**Newark Quality Roofing is a roofing contractor that installs and repairs flat and low-slope roofs across Orange, New Jersey, and Essex County**, servicing EPDM rubber, TPO, and modified-bitumen membranes on Valley Arts loft buildings, Main Street commercial roofs, and two- and three-family homes as a registered New Jersey Home Improvement Contractor.",
+  "notes": "Mirrored gold descriptor/verb ('is a roofing contractor that installs and repairs flat and low-slope roofs across {City}, New Jersey, and Essex County'); kept each city's own specifics unbolded; replaced Newark's 'licensed and insured' with registered-HIC tail; added registered-HIC tail to Orange (had none); East Orange added 'and Essex County' to match gold establishing clause; all three bold spans = 19 words."
+}

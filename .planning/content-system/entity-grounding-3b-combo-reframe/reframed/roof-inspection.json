@@ -1,0 +1,7 @@
+{
+  "serviceId": "roof-inspection",
+  "newark": "**Newark Quality Roofing is a roofing contractor providing roof inspection across Newark, New Jersey, and Essex County**, assessing the roof-covering, flashing, drainage, ventilation, and the deck to document findings before a leak appears as a registered New Jersey Home Improvement Contractor.",
+  "eastOrange": "**Newark Quality Roofing is a roofing contractor providing roof inspection across East Orange, New Jersey, and Essex County**, documenting roof-covering condition, flashing, drainage, ventilation, and the deck on pre-war apartments, two- and three-family walk-ups, and older single-family homes as a registered New Jersey Home Improvement Contractor.",
+  "orange": "**Newark Quality Roofing is a roofing contractor providing roof inspection across Orange, New Jersey, and Essex County**, assessing roof-covering condition, flashing, drainage, ventilation, and the deck on two- and three-family homes, Valley Arts lofts, and Main Street commercial roofs as a registered New Jersey Home Improvement Contractor.",
+  "notes": "Mirrored gold descriptor/verb ('is a roofing contractor providing roof inspection across {City}, New Jersey, and Essex County'); preserved each city's own specifics in the unbolded tail; swapped 'New Jersey'->'registered New Jersey' credential tail (no 'licensed'); bold spans 31/35/35 words, all <=40."
+}

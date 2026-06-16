@@ -1,0 +1,7 @@
+{
+  "serviceId": "insurance-roof-replacement",
+  "newark": "**Newark Quality Roofing is a roofing contractor providing insurance roof replacement across Newark, New Jersey, and Essex County**, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site as a registered New Jersey Home Improvement Contractor.",
+  "eastOrange": "**Newark Quality Roofing is a roofing contractor providing insurance roof replacement across East Orange, New Jersey, and Essex County**, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site as a registered New Jersey Home Improvement Contractor.",
+  "orange": "**Newark Quality Roofing is a roofing contractor providing insurance roof replacement across Orange, New Jersey, and Essex County**, inspecting the roof, photographing storm, wind, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site as a registered New Jersey Home Improvement Contractor.",
+  "notes": "Reframed all three to the gold descriptor/verb framing (roofing contractor providing insurance roof replacement across [City], New Jersey, and Essex County); preserved each city's own damage-type list (Newark/EO: storm/hail/fire; Orange: storm/wind/hail/fire) and the inspect-photo-scope-adjuster sequence; replaced Newark's 'as a roofing contractor, not an adjuster' and EO's plain NJ HIC tail and Orange's 'as a roofing contractor' with the registered-HIC tail."
+}

@@ -1,0 +1,7 @@
+{
+  "serviceId": "pvc-roofing",
+  "newark": "**Newark Quality Roofing is a roofing contractor that installs and services PVC roofing across Newark, New Jersey, and Essex County**, welding chemical-resistant white membrane on the city's commercial and flat-roof low-slope buildings as a registered New Jersey Home Improvement Contractor.",
+  "eastOrange": "**Newark Quality Roofing is a roofing contractor that installs and services PVC roofing across East Orange, New Jersey, and Essex County**, welding chemical-resistant white membrane on flat and low-slope commercial, mixed-use, and multi-family roofs as a registered New Jersey Home Improvement Contractor.",
+  "orange": "**Newark Quality Roofing is a roofing contractor that installs and services PVC roofing across Orange, New Jersey, and Essex County**, welding chemical-resistant white membrane on commercial low-slope roofs that carry grease, oil, and rooftop exhaust as a registered New Jersey Home Improvement Contractor.",
+  "notes": "Mirrored gold descriptor/verb ('roofing contractor that installs and services PVC roofing across {City}, New Jersey, and Essex County'); kept each city's own specifics (Newark commercial/flat-roof low-slope; EO commercial/mixed-use/multi-family; Orange grease/oil/rooftop exhaust); replaced Newark's 'New Jersey Home Improvement Contractor, licensed and insured' with the registered-HIC tail; established Orange as 'Orange, New Jersey' (not township). Bold span = establishing clause only, ~22 words each."
+}

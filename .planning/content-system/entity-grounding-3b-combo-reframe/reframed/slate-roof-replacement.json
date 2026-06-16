@@ -1,0 +1,7 @@
+{
+  "serviceId": "slate-roof-replacement",
+  "newark": "**Newark Quality Roofing is a roofing contractor replacing slate roofs across Newark, New Jersey, and Essex County**, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners as a registered New Jersey Home Improvement Contractor.",
+  "eastOrange": "**Newark Quality Roofing is a roofing contractor replacing slate roofs across East Orange, New Jersey, and Essex County**, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners as a registered New Jersey Home Improvement Contractor.",
+  "orange": "**Newark Quality Roofing is a roofing contractor replacing slate roofs across Orange, New Jersey, and Essex County**, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners as a registered New Jersey Home Improvement Contractor.",
+  "notes": "Moved bold-close to 'Essex County' (specifics + credential now unbolded), added ', New Jersey' city naming, swapped descriptor to gold's 'roofing contractor replacing slate roofs', preserved each city's own 'copper or stainless fasteners' specific, and changed bare 'New Jersey Home Improvement Contractor' to 'registered New Jersey Home Improvement Contractor'. All three cities shared identical specifics in the source, so only the city name differs."
+}

@@ -1,0 +1,7 @@
+{
+  "serviceId": "roof-leak-repair",
+  "newark": "**Newark Quality Roofing is a roofing contractor that locates and repairs roof leaks across Newark, New Jersey, and Essex County**, tracing leaks to the source detail — flashing, party-wall junctions, pipe boots, and flat-roof membrane seams — as a registered New Jersey Home Improvement Contractor.",
+  "eastOrange": "**Newark Quality Roofing is a roofing contractor that locates and repairs roof leaks across East Orange, New Jersey, and Essex County**, tracing the moisture path to the root-cause flashing, shingle, pipe-boot, or membrane detail on multi-family walk-ups and older single-family homes as a registered New Jersey Home Improvement Contractor.",
+  "orange": "**Newark Quality Roofing is a roofing contractor that locates and repairs roof leaks across Orange, New Jersey, and Essex County**, tracing leaks to the source detail — flashing, pipe boots, valley metal, and flat-roof membrane seams — as a registered New Jersey Home Improvement Contractor.",
+  "notes": "Mirrored gold verb phrase 'that locates and repairs roof leaks'; added Essex County to East Orange bold span per gold template (combo lacked it); preserved each city's own specifics (Newark party-wall junctions/flat-roof seams; East Orange multi-family walk-ups + older single-family; Orange valley metal/flat-roof seams); replaced 'New Jersey Home Improvement Contractor, licensed and insured' with 'registered New Jersey Home Improvement Contractor' on all three."
+}

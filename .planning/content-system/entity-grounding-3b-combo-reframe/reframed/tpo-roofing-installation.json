@@ -1,0 +1,7 @@
+{
+  "serviceId": "tpo-roofing-installation",
+  "newark": "**Newark Quality Roofing is a roofing contractor installing TPO roofing across Newark, New Jersey, and Essex County**, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to commercial and residential low-slope roofs as a registered New Jersey Home Improvement Contractor.",
+  "eastOrange": "**Newark Quality Roofing is a roofing contractor installing TPO roofing across East Orange, New Jersey, and Essex County**, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to the low-slope roofs on its apartment blocks, pre-war walk-ups, and Central Avenue buildings as a registered New Jersey Home Improvement Contractor.",
+  "orange": "**Newark Quality Roofing is a roofing contractor installing TPO roofing across Orange, New Jersey, and Essex County**, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to the low-slope roofs on its Valley Arts lofts, Main Street commercial blocks, and two- and three-family stock as a registered New Jersey Home Improvement Contractor.",
+  "notes": "Mirrored gold descriptor+verb (roofing contractor installing TPO roofing) and closed bold at Essex County; preserved each city's own specifics unbolded; swapped 'New Jersey Home Improvement Contractor' tail to 'registered New Jersey Home Improvement Contractor'; added the registered-HIC tail to Orange (it had none) and it reads naturally with bold span at 16 words."
+}

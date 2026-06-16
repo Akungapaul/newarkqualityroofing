@@ -1,0 +1,7 @@
+{
+  "serviceId": "cedar-shake-roofing",
+  "newark": "**Newark Quality Roofing is a roofing contractor providing cedar shake roofing across Newark, New Jersey, and Essex County**, installing and repairing western red cedar shake roofs over a ventilated deck on the city's historic single-family stock as a registered New Jersey Home Improvement Contractor.",
+  "eastOrange": "**Newark Quality Roofing is a roofing contractor providing cedar shake roofing across East Orange, New Jersey, and Essex County**, installing and repairing western red cedar shake roofs over a ventilated deck on older single-family homes as a registered New Jersey Home Improvement Contractor.",
+  "orange": "**Newark Quality Roofing is a roofing contractor installing and repairing cedar shake roofing across Orange, New Jersey, and Essex County**, laying hand-split western red cedar over a ventilated deck on Seven Oaks detached homes and designated-district properties as a registered New Jersey Home Improvement Contractor.",
+  "notes": "Reframed all three to gold descriptor (roofing contractor {verb-ing} {service} across {City}, New Jersey, and Essex County), closed bold at Essex County, moved each city's specifics + registered-HIC tail outside the bold. Removed Newark's 'licensed and insured' self-claim; converted all 'New Jersey Home Improvement Contractor' tails to 'registered'. Mirrored verb phrases per current combo (Newark/EastOrange = providing; Orange = installing and repairing). Bold spans: Newark 19w, EastOrange 19w, Orange 20w."
+}
