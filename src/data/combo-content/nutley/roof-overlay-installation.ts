@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const nutleyRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'nutley',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof overlay installation across Nutley, New Jersey, and Essex County, applying a second asphalt-shingle layer over one existing sound layer on the township\'s older single-family homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [
-    'Newark Quality Roofing delivers expert roof overlay installation in Nutley — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in Nutley adds a new layer of shingles directly over the existing single layer, providing a cost-effective re-roofing option for homes where the existing deck is sound, the current shingles provide a smooth substrate, and the building structure can support the additional weight. New Jersey building code permits a maximum of two roofing layers on residential structures, making overlay viable only for homes currently carrying a single layer of shingles -- a criterion that eliminates many of Nutley\'s older homes where previous re-roofing has already added a second layer.',
-    'The overlay approach makes most sense on Nutley homes built after 1970 with simple rooflines -- ranches in the Spring Garden neighborhood, basic gable-roof Capes, and straightforward Colonial designs without complex valley intersections or multiple dormer transitions. These simpler geometries allow the overlay layer to follow the existing roof surface without the flashing complications that complex rooflines create. Homes with Tudor multi-gable rooflines, extensive valley systems, or numerous dormers are generally better served by full tear-off, which allows proper flashing integration that overlay cannot achieve.',
-    'Our [roof overlay](/roof-overlay-installation) assessment for [Nutley](/roofing-in-nutley-nj) homes evaluates three criteria before recommending the overlay approach: existing layer count (must be one layer only), deck condition (verified by walking the surface for soft spots and probing at suspect areas), and roof complexity (simple geometries suitable, complex geometries not). When all three criteria are met, overlay delivers a new roof surface at 25 to 35 percent less cost than tear-off by eliminating the stripping labor, disposal expense, and the deck-repair scope that tear-off often reveals. When any criterion is not met, we recommend tear-off as the responsible alternative.'
+    '**Newark Quality Roofing installs an asphalt-shingle roof overlay across Nutley: a second shingle layer applied over one existing sound asphalt layer with no tear-off**, for the township\'s older single-family, two-family, and small multi-family homes.',
+    '**A roof overlay** is the recover ARMA defines as installing an additional roof covering over an existing roof covering, which skips the tear-off labor and the disposal on a qualifying Nutley roof. The overlay applies only where one sound asphalt layer sits over a smooth, dry deck.',
+    '**The township\'s older single-family stock** — much of it built between roughly 1890 and 1940 in the Spring Garden, Radcliffe, and Yantacaw sections — often hides plank decking and aging flashing on Colonials and Capes, so a Newark Quality Roofing eligibility inspection probes the deck before recommending an overlay over a tear-off.',
+    '**Franklin Avenue storefronts, ON3 institutional buildings, and two-family rentals** carry flat or low-slope membrane and attached or commercial construction, where a recover follows the same NJ Rehabilitation Subcode and the 25% commercial-permit path. The ON3 campus straddles Nutley and Clifton, so its institutional flat roofs sit on the commercial side of that line.',
   ],
   challenges: [
-    'Concealed deck conditions beneath the existing shingle layer cannot be inspected during overlay installation. Moisture damage, rot, and structural deterioration hidden by the existing shingles will persist beneath the new overlay layer, potentially progressing while invisible to inspection or maintenance. This concealment risk is the primary trade-off of the overlay approach and the main reason we limit overlay recommendations to homes where pre-installation probing and attic inspection indicate sound deck conditions.',
-    'Flashing integration at valleys, walls, and penetrations is compromised during overlay because the new shingles install over existing shingle bulk rather than directly on clean deck and flashing surfaces. Valley flashing must bridge the additional material thickness, chimney flashing must accommodate the height change, and sidewall step flashing must integrate with both the existing and new shingle courses. These accommodations are manageable on simple rooflines but become problematic on Nutley\'s more complex Tudor and Colonial architectures where flashing precision determines long-term water resistance.',
-    'Manufacturer warranty limitations on overlay installations may provide less coverage than tear-off installations receive. Some shingle manufacturers offer reduced warranty terms or exclude certain warranty provisions when their product is installed over existing shingles rather than on approved underlayment over bare deck. We disclose the specific warranty terms for overlay versus tear-off installations before the homeowner makes their decision, ensuring the cost savings of overlay are evaluated against any warranty reduction.'
+    '**A roof overlay hides any deck rot a tear-off would catch and repair**, per ARMA and InterNACHI, which matters most on Nutley\'s older single-family homes where moisture can collect at valleys and aging flashing under the existing shingle layer. A Newark Quality Roofing inspection probes the deck before quoting an overlay.',
+    '**Trapped heat between the two layers** cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, against the InterNACHI 3-tab life of 20 years and architectural life of 30 years. A Newark Quality Roofing crew states this trade-off in the written estimate before any work begins.',
+    '**N.J.A.C. 5:23-6.4 bars a recover** where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers already exist, per the NJ Uniform Construction Code. Many of Nutley\'s pre-WWII homes carry slate or a second layer that disqualifies an overlay.',
+    '**Tenant-occupied two-family and Franklin Avenue commercial buildings** add access and documentation steps an overlay on a detached home does not, because a crew coordinates entry under New Jersey landlord-tenant notice and documents the work for the owner or landlord. Mature street-tree debris in valleys and gutters also factors into the deck assessment.',
   ],
   process: [
-    'Overlay assessment begins with attic inspection to evaluate deck condition from below, looking for staining, soft spots, and daylight penetration that indicate sheathing problems. From the roof surface, we walk the existing shingles noting any areas of softness, deflection, or visible deterioration that suggest deck issues beneath. If both inspections confirm sound conditions and the home carries only one existing shingle layer, the overlay option proceeds. Any concern about concealed deck deterioration tips the recommendation toward tear-off.',
-    'Surface preparation for overlay addresses the existing shingle conditions that would create an uneven substrate for the new layer. Curled shingles are face-nailed flat. Missing shingles are replaced. Ridge cap is stripped to allow new ridge vent installation. Flashing at chimneys, walls, and penetrations is evaluated and replaced where necessary to accommodate the added shingle layer. New drip edge is installed over the existing roof edge to provide a clean starting course for the overlay layer.',
-    'Shingle installation follows the same coursing and nailing patterns as a bare-deck installation, with nail length increased to 1.75 or 2 inches to penetrate through both the new and existing shingle layers into the deck beneath. Starter strip, field courses, and ridge cap are applied as standard. At valleys, walls, and penetrations, the flashing details accommodate the double-layer thickness with extended counterflashing and adjusted step flashing dimensions. The completed overlay is indistinguishable from a tear-off installation when viewed from the ground.'
+    '**Newark Quality Roofing inspects the existing roof and the deck and confirms overlay eligibility against the 3 conditions that bar a recover before quoting an overlay.** N.J.A.C. 5:23-6.4 bars a recover over a water-soaked or deteriorated deck, over wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers already exist, and a Newark Quality Roofing inspection confirms one sound asphalt layer over a smooth, dry deck on the Nutley home.',
+    '**Newark Quality Roofing states the overlay trade-offs against a tear-off in the written estimate, because a roof overlay delivers less than a tear-off.** A roof overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI, traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile, per Owens Corning and GAF, and adds dead load across the deck and framing of the older Nutley home.',
+    '**Newark Quality Roofing prepares the smooth substrate and installs the second asphalt layer to manufacturer specification, the install that keeps the GAF or Owens Corning limited warranty in force.** A crew nails down loose and curled shingles, removes protruding nails, and replaces missing shingles, because Owens Corning installation instructions and GAF Technical Bulletin TAB-R-145 condition a recover on a single layer and a smooth substrate, then runs a magnet sweep for nails at cleanup.',
   ],
   faqs: [
     {
-      question: 'Is roof overlay a good option for my Nutley home?',
-      answer: 'Overlay is appropriate when your home has only one existing shingle layer, the deck is in sound condition, and the roof geometry is relatively simple. Nutley homes with complex Tudor rooflines, multiple valley systems, or documented leak history are generally better served by tear-off. We evaluate each home individually and recommend overlay only when it provides a reliable result -- never as a cost-cutting compromise that sacrifices quality.'
+      question: 'Does a roof overlay need a permit in Nutley, NJ?',
+      answer:
+        'A roof overlay on a detached one- and two-family home in Nutley counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. The ordinary-maintenance exemption covers the roof covering, not a non-compliant recover, so an overlay still meets the N.J.A.C. 5:23-6.4 eligibility limits. On a commercial, multi-family, or attached building — including the ON3 institutional buildings and Franklin Avenue storefronts — repairing more than 25% of the roof area in 12 months requires a permit filed through the Township of Nutley Code Enforcement Department.',
     },
     {
-      question: 'How much does overlay save compared to tear-off in Nutley?',
-      answer: 'Overlay typically saves 25 to 35 percent compared to full tear-off, primarily through eliminated stripping labor and disposal costs. On a typical Nutley Colonial, this translates to savings of 3,000 to 5,000 dollars. The savings must be weighed against the inability to inspect the deck, the compromised flashing details at complex junctions, and potentially reduced manufacturer warranty coverage. For simple rooflines with confirmed sound decks, the savings are well-justified.'
+      question: 'When is a roof overlay not allowed on a Nutley home?',
+      answer:
+        'A roof overlay is not allowed where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more shingle layers already exist. N.J.A.C. 5:23-6.4 sets the 3 conditions and lists wood shake expressly, per the NJ Uniform Construction Code. Many of Nutley\'s older pre-WWII single-family homes carry natural slate or have been re-roofed once already, so a Newark Quality Roofing eligibility inspection confirms the layer count and deck condition before recommending an overlay over a tear-off.',
     },
     {
-      question: 'Does overlay affect my shingle warranty?',
-      answer: 'Some shingle manufacturers offer reduced warranty terms on overlay installations compared to bare-deck installations. The specific reduction varies by manufacturer and product line. We disclose the exact warranty terms for both overlay and tear-off scenarios before you make your decision, so you can evaluate whether the cost savings justify any warranty difference. GAF and certain other manufacturers offer full warranty on overlay installations when specific installation requirements are met.'
+      question: 'Is a roof overlay as good as a full tear-off on an older Nutley home?',
+      answer:
+        'A roof overlay delivers less than a full tear-off: it hides deck rot a tear-off catches and repairs, traps heat that cuts the new shingles\' service life by roughly 20–30%, telegraphs the old shingle profile, and adds dead load. The hidden-deck and trade-off framing traces to ARMA, InterNACHI, Owens Corning, and a national Angi industry estimate. On Nutley\'s older single-family stock, where plank decking and aging flashing often hide beneath the existing layer, a Newark Quality Roofing inspection probes the deck so the overlay-vs-tear-off choice is documented before any work begins.',
     },
     {
-      question: 'Can I overlay if my Nutley home already has two layers of shingles?',
-      answer: 'No. New Jersey building code prohibits more than two roofing layers on residential structures. If your home already has two layers, full tear-off is required before new shingles can be installed. We determine the existing layer count during our initial assessment and include this finding in the proposal. Most Nutley homes built before 1970 have been re-roofed at least once, making tear-off the likely requirement on these vintage properties.'
+      question: 'Does a roof overlay in a Nutley historic district need extra approval?',
+      answer:
+        'Exterior roofing on a parcel inside Nutley\'s locally designated Historic District of the Third River and Environs requires a Certificate of Appropriateness under the township\'s Chapter 410 ordinance, a separate approval from the construction permit. The Nutley Historic Preservation Committee issues the certificate, and the Enclosure lies along the Third River and is very likely within the district, so verify the specific parcel against the Township\'s official historic-district map. Per the National Park Service, a National Register listing alone places no restriction on a private owner, and a parcel outside the district is not subject to a Certificate of Appropriateness.',
     },
     {
-      question: 'How much does roof overlay installation cost in Nutley, NJ?',
-      answer: 'Most roof overlay installation projects in Nutley range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does a roof overlay affect the shingle manufacturer warranty?',
+      answer:
+        'A roof overlay keeps the GAF or Owens Corning limited warranty in force only when the shingles install in strict accordance with the printed application instructions over one existing layer and a smooth deck. GAF Technical Bulletin TAB-R-145 and Owens Corning installation instructions set the single-layer, smooth-substrate condition, and a recover outside those conditions falls outside warranty coverage, per GAF. A Newark Quality Roofing crew prepares the smooth substrate and installs to manufacturer specification on the Nutley roof.',
+    },
+    {
+      question: 'How much does a roof overlay cost compared with a tear-off in Nutley, NJ?',
+      answer:
+        'A roof overlay runs roughly 20–25% less than a full tear-off, commonly $2,000–$5,000 cheaper for a typical home, because an overlay skips the tear-off labor and the disposal, a national figure per HomeGuide and Angi. A full NJ roof replacement runs $10,000–$25,000 per HomeAdvisor and Modernize, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof overlay installation in Nutley NJ. Cost-effective re-roofing over single-layer homes with sound decks and simple roofline geometry.',
+  metaDescription:
+    'Roof overlay installation in Nutley NJ — a second asphalt layer over one sound layer on older single-family homes. NJ-registered, code-checked, free estimate.',
   pricing: {
-    range: '$6,000–$14,000',
-    note: 'overlay without full tear-off',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; an overlay runs roughly 20–25% less than a full tear-off per HomeGuide and Angi. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Nutley\'s older single-family, two-family, and small multi-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof overlay installation estimate in Nutley — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof overlay installation in Nutley.',
+    urgencyNote: 'A roof overlay applies only where one sound layer sits over a dry, sound deck, so an eligibility inspection comes first.',
   },
 };

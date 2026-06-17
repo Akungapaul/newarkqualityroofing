@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const nutleyFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'nutley',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across Nutley, New Jersey, and Essex County, tearing off the charred covering and deck and rebuilding a Class A fire-rated roof on the township\'s older single-family homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in Nutley — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Nutley restores the structural envelope and weather protection that fire compromises in ways fundamentally different from storm or water damage. Fire damages roofing through direct combustion of materials, radiant heat weakening of structural members not directly burned, and firefighting water saturation that compounds the fire damage with secondary moisture damage throughout the assembly. The restoration scope extends well beyond the visibly burned area because heat radiates through framing members and sheathing, weakening structural capacity in zones that appear undamaged to visual inspection.',
-    'Nutley\'s residential density, with homes on lots typically 50 to 75 feet wide, creates fire-exposure risk where flames from one property can damage the roof and exterior of adjacent homes. Kitchen fires, chimney fires, and electrical fires that breach the roof plane from inside the home produce the most extensive roofing damage, but radiant heat from a neighboring property fire can also degrade shingles, melt flashing, and weaken sheathing on the exposed elevation of an otherwise undamaged home.',
-    'Our [fire damage replacement](/fire-damage-roof-replacement) protocol for [Nutley](/roofing-in-nutley-nj) homes coordinates with the fire restoration process that encompasses the entire building, not just the roof. The roof replacement must integrate with structural restoration below, and the sequencing must account for engineering assessment, permit requirements, and the insurance claim process that governs funding. We work within this multi-trade coordination as the roofing specialist providing the weather barrier that allows interior restoration to proceed.'
+    '**Newark Quality Roofing replaces fire-damaged roofs on Nutley\'s older single-family homes, two-family and small multi-family buildings, and Franklin Avenue and ON3 commercial roofs, rebuilding the charred covering, saturated decking, heat-weakened framing, and corroded connectors.** A fire damage roof replacement removes the char layer, replaces compromised framing and decking, and rebuilds to current code rather than recovering over fire-weakened material.',
+    '**The charred covering and decking** carry essentially zero residual structural capacity and are removed to sound wood, because the char layer retains no structural strength and the American Wood Council uses a nominal char rate of 1.5 inches of wood per hour for fire design, per the U.S. Forest Products Laboratory and the American Wood Council. A Newark Quality Roofing tear-off strips the burned covering and the firefighting-water-saturated plank decking common on Nutley\'s ~1890–1940 single-family stock down to the framing.',
+    '**The heat-weakened rafters and trusses** beneath the char retain only roughly 85–90% of original strength, so a licensed structural engineer assesses the framing before reconstruction, per the U.S. Forest Products Laboratory and EDT Engineers. A Newark Quality Roofing rebuild replaces charred and heat-compromised rafters, trusses, and sheathing to that assessment rather than roofing over fire-weakened material on a Colonial or Cape in Spring Garden, Radcliffe, or Yantacaw.',
+    '**The corroded connectors and the Class A rebuild** close the assembly, because acidic soot and extinguishing water accelerate corrosion of metal truss plates and fasteners, and a finished covering qualifies as Class A, B, or C under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant, per ANSI/IICRC S700, the U.S. Forest Products Laboratory, and UL 790. A Newark Quality Roofing rebuild matches the covering and assembly to the Class A rating on Nutley\'s pitched single-family homes and on the EPDM, TPO, and modified-bitumen low-slope roofs of its Franklin Avenue and ON3 commercial stock.',
   ],
   challenges: [
-    'Structural assessment after fire requires engineering evaluation that goes beyond visual inspection. Heat radiating through rafters and ridge beams reduces the wood\'s structural capacity even when the member appears intact. Charred-surface depth, internal temperature indicators, and load-testing at suspect locations determine whether each structural member can be preserved with reinforcement or must be replaced entirely. This engineering assessment must be completed before any roofing materials are installed above.',
-    'Insurance coordination for fire damage involves larger claim amounts and more complex scope negotiation than storm-damage claims. The roof replacement is one component of a building-wide restoration that may include structural repair, interior demolition and rebuild, mechanical system replacement, and smoke-damage remediation. The roofing scope must be documented and valued independently while coordinating with the general contractor managing the overall restoration.',
-    'Smoke and soot contamination of roof materials extends the replacement zone beyond the fire-damaged area. Shingles, underlayment, and insulation that absorbed smoke during the fire retain odor and particulate contamination that affects indoor air quality if sealed beneath new roofing. The contamination perimeter -- determined by air quality testing rather than visual inspection -- defines the minimum replacement area.'
+    '**Heat-weakened framing under intact-looking sheathing** is the defining fire condition on Nutley\'s older single-family homes, because the heat-affected zone beneath the char retains only roughly 85–90% of original strength and a charred surface hides reduced capacity below, per the U.S. Forest Products Laboratory. A Newark Quality Roofing rebuild follows a licensed structural engineer\'s post-fire assessment before any covering is installed.',
+    '**Firefighting-water saturation** compounds the fire on plank-decked Colonials and Capes, because extinguishing water soaks the decking, insulation, and framing and accelerates corrosion of metal truss plates and fasteners, per the U.S. Forest Products Laboratory and ANSI/IICRC S700. A water-soaked or deteriorated deck is not an adequate base and requires full removal, per N.J.A.C. 5:23-6.4, so a Newark Quality Roofing tear-off replaces the saturated sheathing rather than recovering it.',
+    '**Smoke and soot contamination** carries acidic residue that keeps corroding metal connectors and electrical components even where the wood stays structurally sound, though smoke staining alone does not weaken the framing, per ANSI/IICRC S700 and the U.S. Forest Products Laboratory. A Newark Quality Roofing rebuild removes corroded connectors from members kept in service and documents the soot perimeter for the adjuster.',
+    '**Fire-claim documentation** governs how the fire damage replacement is funded, because fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I). A Newark Quality Roofing crew photographs the fire, heat, and water damage and writes a detailed scope, while the homeowner or a licensed public adjuster files and negotiates the claim.',
   ],
   process: [
-    'Fire-damage assessment begins with structural engineering evaluation of all roof framing within and adjacent to the fire-affected zone. The engineer evaluates each rafter, ridge beam, collar tie, and ceiling joist for heat damage using char depth measurement, wood hardness testing, and visual inspection of connection integrity. The assessment report identifies members requiring replacement, members suitable for sistering reinforcement, and members cleared for continued service.',
-    'Structural restoration rebuilds the load-carrying capacity of the roof framing system. Damaged rafters are replaced or sistered with new lumber matching the original dimensions. Ridge beams and collar ties are repaired or replaced as the engineering assessment specifies. New structural connections using modern hardware upgrade the original cut-nail or toenail connections to current wind-uplift requirements. The restored structure is inspected by the township building department before any sheathing or roofing is installed above.',
-    'Roof system installation on the restored structure follows standard re-roofing protocol with additional attention to the integration points between new construction and undamaged original materials. New sheathing ties into existing sound sheathing with proper edge support. Underlayment, waterproofing, and shingle installation span the full replacement zone with overlap into undamaged areas to ensure seamless weather protection. The completed installation restores the home\'s exterior to pre-fire condition with materials and construction quality that meet or exceed the original.'
+    '**Newark Quality Roofing photographs the fire, heat, smoke, and water damage, writes a detailed scope, and works to a licensed structural engineer\'s post-fire assessment before any rebuild.** A fire-damaged roof receives a formal structural assessment because charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, per the U.S. Forest Products Laboratory and EDT Engineers, and the engineer sets the framing scope.',
+    '**Newark Quality Roofing tears off the charred covering and the saturated decking to the framing, then rebuilds the heat-weakened rafters, trusses, and sheathing to the engineer\'s assessment and current code.** The char layer carries essentially zero residual structural capacity, and a water-soaked or deteriorated deck is not an adequate base and requires full removal, per N.J.A.C. 5:23-6.4 and the American Wood Council, so the rebuild removes charred material to sound wood on Nutley\'s plank-decked older homes.',
+    '**Newark Quality Roofing installs a Class A fire-rated covering to manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor.** A covering classified under the UL 790 and ASTM E108 fire-test methods carries Class A, the most fire-resistant rating, and the written workmanship warranty backs the labor separate from the manufacturer material warranty that covers factory defects, per UL 790 and ASTM E108.',
   ],
   faqs: [
     {
-      question: 'How long does fire damage roof replacement take in Nutley?',
-      answer: 'Fire damage roof replacement typically takes two to four weeks of active construction once the structural engineering assessment is complete and the building department has approved the restoration plan. The total timeline from fire event to completed roof may extend to eight to twelve weeks when engineering, permitting, and insurance coordination are included. We prioritize emergency weatherproofing immediately after the fire department releases the structure to prevent secondary water damage during the restoration planning period.'
+      question: 'Should you repair or replace a fire-damaged roof in Nutley?',
+      answer:
+        'Replace a fire-damaged roof when fire reaches the structure, char weakens the framing, or damage exceeds 25–30% of the roof area; repair only when fire damage stays surface-localized on sound framing. The char layer carries essentially zero residual structural capacity and is removed, per the U.S. Forest Products Laboratory, and the 25–30% area rule favors full replacement, per roofing industry guidance. Nutley\'s ~1890–1940 single-family stock often hides plank decking that saturates and delaminates under firefighting water.',
     },
     {
-      question: 'Does insurance cover fire damage roof replacement in Nutley?',
-      answer: 'Yes. Fire damage is a standard covered peril in homeowner insurance policies. The policy typically covers the full cost of restoring the roof to pre-fire condition, including structural repair, new materials, and code upgrades required by current building standards. Your policy\'s coverage limits and deductible apply. We coordinate directly with your insurance adjuster and the general restoration contractor to ensure the roofing scope is fully documented and covered within the overall claim.'
+      question: 'Does homeowners insurance cover fire damage roof replacement in Nutley?',
+      answer:
+        'Homeowners insurance covers fire damage roof replacement when fire causes the loss, a covered peril, and the deductible stays the homeowner\'s responsibility under the policy. Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I), and coverage and approval are the insurer\'s decision. In New Jersey, only a licensed public adjuster or an attorney negotiates the claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B.',
     },
     {
-      question: 'Can parts of my Nutley roof be saved after a fire?',
-      answer: 'Sections outside the direct fire and heat zone may be structurally sound but require evaluation for smoke contamination and heat exposure. The engineering assessment determines the structural boundaries and air quality testing determines the contamination boundaries. Material outside both boundaries can potentially remain, though many Nutley homeowners opt for full replacement when fire has affected any significant portion of the roof to ensure uniform appearance and warranty coverage across the entire surface.'
+      question: 'Does Newark Quality Roofing handle the fire insurance claim in Nutley?',
+      answer:
+        'Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so it inspects and photographs the fire damage, writes a detailed scope and estimate, meets the adjuster on site, and performs the approved roofing. In New Jersey, only a licensed public adjuster or an attorney negotiates or settles the claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B, so the homeowner or a public adjuster files and negotiates the claim.',
     },
     {
-      question: 'Do I need to wait for insurance approval before starting fire damage roof repair?',
-      answer: 'Emergency weatherproofing -- tarping, boarding, and temporary barrier installation -- should proceed immediately after the fire department releases the structure. These emergency measures are covered by insurance and prevent secondary damage during the claim process. Permanent restoration work should wait until insurance scope approval to ensure the approved scope matches the actual work performed. We provide the emergency stabilization immediately and coordinate permanent restoration after claim approval.'
+      question: 'Does a permit or historic approval apply to a fire rebuild in Nutley?',
+      answer:
+        'A re-roof of the covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and needs no construction permit, but replacing charred rafters or trusses is structural work that triggers a permit through the Township of Nutley Code Enforcement Department; a commercial or multi-family rebuild and any work over 25% of the roof area also require a permit. Exterior roofing on a parcel inside Nutley\'s locally designated Historic District of the Third River and Environs requires a Certificate of Appropriateness from the Nutley Historic Preservation Committee under the township\'s Chapter 410 ordinance, a separate approval, so verify the specific parcel against the Township\'s official historic-district map.',
+    },
+    {
+      question: 'Can a fire-damaged Nutley roof be recovered over instead of torn off?',
+      answer:
+        'A fire-damaged roof requires a full tear-off rather than a recover, because a water-soaked, charred, or deteriorated deck is not an adequate base for a new covering. N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1 require removal of the existing covering when the deck is water-soaked or deteriorated, the condition firefighting water and char create on Nutley\'s plank-decked older homes.',
     },
     {
       question: 'How much does fire damage roof replacement cost in Nutley, NJ?',
-      answer: 'Most fire damage roof replacement projects in Nutley range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage roof replacement adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Josten Roofing and Integrity Home Exteriors. Final cost depends on roof size, framing scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement in Nutley NJ. Structural restoration, engineering assessment, and insurance coordination for fire-affected homes.',
+  metaDescription:
+    'Fire damage roof replacement in Nutley NJ — charred tear-off, structural framing rebuild, Class A fire-rated covering. NJ-registered, free estimate.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize, with fire damage adding structural framing and decking replacement; final cost depends on roof size, framing scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Nutley\'s older single-family, two-family, and small multi-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in Nutley — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in Nutley.',
+    urgencyNote: 'Emergency weatherproofing after the fire department releases the structure limits secondary water damage during the claim process.',
   },
 };
