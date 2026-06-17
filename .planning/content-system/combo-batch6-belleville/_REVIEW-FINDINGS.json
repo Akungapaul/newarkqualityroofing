@@ -1,0 +1,418 @@
+{
+  "summary": "Adversarial review + refute of the 65 Belleville combo rewrites (Combo Batch 6) by service-category cohort",
+  "agentCount": 28,
+  "logs": [
+    "Reviewing 65 Belleville combos across 9 category cohorts…",
+    "Review complete: 16 confirmed, 3 refuted, 17 low-advisory"
+  ],
+  "result": {
+    "confirmedCount": 16,
+    "refutedCount": 3,
+    "lowCount": 17,
+    "confirmed": [
+      {
+        "combo": "wind-damage-roof-repair",
+        "field": "overview[0]",
+        "severity": "high",
+        "category": "fabrication",
+        "issue": "Fabricated RICOWI wind-uplift multiplier. The 'suction 2 to 3 times the field pressure, per IIBEC RICOWI wind-investigation findings' claim is a quantified figure carried in NONE of the five committed sibling cities (Newark, Orange, Irvington, Bloomfield, East Orange) — all of which deliberately use 'where wind uplift peaks, per IIBEC' with no multiplier and no RICOWI branding. The cohort ruleset explicitly bans 'Any RICOWI 2-3x field pressure wind-uplift multiplier' as fabricated. No fact pack supports a 2-3x field-pressure figure.",
+        "evidence": "Wind damage starts at the roof corners, rakes, and edges, where wind separates and generates suction 2 to 3 times the field pressure, per IIBEC RICOWI wind-investigation findings.",
+        "suggestedFix": "Drop the multiplier and RICOWI to match gold. Before: '...where wind separates and generates suction 2 to 3 times the field pressure, per IIBEC RICOWI wind-investigation findings.' After: '...where wind uplift peaks, per IIBEC.'",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present verbatim in overview[0] of src/data/combo-content/belleville/wind-damage-roof-repair.ts: \"where wind separates and generates suction 2 to 3 times the field pressure, per IIBEC RICOWI wind-investigation findings.\"\n\nThis is a genuine source-fabrication defect on two counts:\n(1) FABRICATED BRAND + MULTIPLIER, ZERO PACK SUPPORT. A grep of the actual research fact packs at .planning/content-system/research/ returns ZERO hits for \"RICOWI\" and ZERO hits for any multiplier variant (\"2-3 times\", \"2–3 times\", \"2 to 3 times\", \"times the field\", \"times the pressure\", \"field pressure\"). The only IIBEC-backed claim in the packs is QUALITATIVE — facts-causes-signs.md §2.2 L84: \"uplift is highest at roof edges, rakes, and corners; damage starts there.\" No quantitative 2-3x edge-pressure ratio and no \"RICOWI\" program exists in any source. (The batch6 research-md \"named sources\" note on L17 lists \"IIBEC RICOWI (corner uplift 2–3× field pressure...)\" but that is the author's intended-attribution string carrying the same fabrication forward — it does not trace to any fact pack.)\n\n(2) CONTRADICTS COMMITTED GOLD AND WAS TWICE EXPLICITLY KILLED. All five committed sibling cities (Newark, Orange, Irvington, Bloomfield, East Orange) deliberately use \"where wind uplift peaks, per IIBEC\" with NO multiplier and NO RICOWI (verified by grep on each sibling's definition/overview). This exact fabrication was identified and removed in the committed Orange batch review (_REVIEW-FINDINGS.json: \"the '2-3x field pressure' factor and the 'RICOWI wind-investigation findings' provenance are both unsourced fabrications\") and again in the committed Irvington batch review (\"Fabricated source program 'RICOWI' ... RICOWI appears in no fact pack and was explicitly killed in the Orange batch\"). The Belleville file re-introduced the killed fabrication.\n\nNo Belleville-specific fact (active-HPC-no-COA-district, Second River / Passaic boundary, neighborhoods, tenure split) is at issue — this is a pure named-source fabrication. The fix relocates to the committed gold IIBEC qualitative framing, preserving the legitimate attribution. (Note: the same fab also recurs in this file's process[0] and faqs[0], an orchestrator cross-field sweep item, but this finding is scoped to overview[0].)",
+        "finalFix": "In src/data/combo-content/belleville/wind-damage-roof-repair.ts, overview[0]:\nBEFORE: \"Wind damage starts at the roof corners, rakes, and edges, where wind separates and generates suction 2 to 3 times the field pressure, per IIBEC RICOWI wind-investigation findings.\"\nAFTER: \"Wind damage starts at the roof corners, rakes, and edges, where wind uplift peaks, per IIBEC.\"\n(The preceding sentence — \"**Newark Quality Roofing repairs wind-lifted and blown-off shingles, lifted ridge and hip caps, displaced flashing, and loosened low-slope membrane** across Belleville's older single-family, two-family, and small multi-family stock and its Washington Avenue and Route 21 commercial roofs.\" — stays unchanged.)"
+      },
+      {
+        "combo": "wind-damage-roof-repair",
+        "field": "process[0]",
+        "severity": "high",
+        "category": "fabrication",
+        "issue": "Same fabricated RICOWI '2 to 3 times the field pressure' multiplier repeated in the process lead. Gold siblings carry no such figure.",
+        "evidence": "Wind separates at the roof edge and generates suction 2 to 3 times the field pressure, per IIBEC RICOWI wind-investigation findings, and the crew coordinates tenant access in advance...",
+        "suggestedFix": "Before: 'Wind separates at the roof edge and generates suction 2 to 3 times the field pressure, per IIBEC RICOWI wind-investigation findings, and the crew...' After: 'Wind uplift peaks at the roof edge, per IIBEC, and the crew...'",
+        "verdict": "confirmed",
+        "reasoning": "The finding is a real fabrication. process[0] (line 22) reads: \"Wind separates at the roof edge and generates suction 2 to 3 times the field pressure, per IIBEC RICOWI wind-investigation findings, and the crew coordinates tenant access in advance...\" The \"2 to 3 times the field pressure\" multiplier and the \"RICOWI wind-investigation findings\" attribution are NOT in the fact packs. facts-causes-signs.md §2.2 (\"Wind uplift & storm damage\") and facts-process-standards.md document only that uplift is \"highest at roof edges, rakes, and corners\" — no multiplier, no RICOWI source. Every committed gold sibling confirms the figure-free phrasing: Newark, East Orange, Orange, Irvington, and Bloomfield all write \"wind uplift concentrates/peaks at the roof corners, rakes, and edges, where damage starts, per IIBEC\" with no \"field pressure\" ratio and no RICOWI cite. This exact fabrication (\"RICOWI multiplier\"/\"RICOWI fab\") was already swept out in the Orange and Irvington batches per project memory; Belleville re-introduced it. The fix re-attributes to the verified IIBEC edge-uplift mechanism and preserves the tenant-access clause. (Note: the same fab also appears in overview[0] and faq[0], but this finding is scoped to process[0] only.)",
+        "finalFix": "Before: \"**Newark Quality Roofing inspects the corners, rakes, and ridge first, then tests shingle seals by hand across the field, and stabilizes any exposed area before the permanent repair.** Wind separates at the roof edge and generates suction 2 to 3 times the field pressure, per IIBEC RICOWI wind-investigation findings, and the crew coordinates tenant access in advance on Belleville's occupied two-family and small multi-family buildings.\"\nAfter: \"**Newark Quality Roofing inspects the corners, rakes, and ridge first, then tests shingle seals by hand across the field, and stabilizes any exposed area before the permanent repair.** Wind uplift concentrates at the roof corners, rakes, and edges, where damage starts, per IIBEC, and the crew coordinates tenant access in advance on Belleville's occupied two-family and small multi-family buildings.\""
+      },
+      {
+        "combo": "wind-damage-roof-repair",
+        "field": "faqs[0].answer",
+        "severity": "high",
+        "category": "fabrication",
+        "issue": "Same fabricated RICOWI multiplier a third time in the 'How strong is the wind...' FAQ answer, here also stretching the named-source attribution by crediting the 2-3x figure to 'NOAA, ARMA, and IIBEC' (none of which publishes that field-pressure multiplier).",
+        "evidence": "Wind uplift at the corners, rakes, and edges reaches 2 to 3 times the field pressure, per NOAA, ARMA, and IIBEC, so an aged Belleville roof loses tabs below its product rating.",
+        "suggestedFix": "Before: 'Wind uplift at the corners, rakes, and edges reaches 2 to 3 times the field pressure, per NOAA, ARMA, and IIBEC, so an aged Belleville roof loses tabs below its product rating.' After: 'Wind uplift concentrates at the corners, rakes, and edges where damage starts, per IIBEC, so an aged Belleville roof loses tabs below its product rating.'",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present exactly as cited in faqs[0].answer of src/data/combo-content/belleville/wind-damage-roof-repair.ts. It is a genuine fabrication that also over-stretches named-source attribution. (1) FACT-PACK CHECK: facts-causes-signs.md §2.2 supports only the QUALITATIVE IIBEC mechanism — \"uplift is highest at roof edges, rakes, and corners; damage starts there\" — and contains NO numeric \"2 to 3 times the field pressure\" multiplier. A full grep across all research fact packs returns zero support for any 2-3x / field-pressure multiplier (the only \"2x\" hit is unrelated fire-charred rafters). The \"2 to 3 times the field pressure\" figure is invented. (2) GOLD-EXEMPLAR CHECK: the committed Orange wind-damage combo (the gold) renders this exact FAQ as \"Wind uplift concentrates at the roof corners, rakes, and edges, where damage starts, per IIBEC\" — multiplier-free and IIBEC-only. The \"2 to 3 times the field pressure\" string appears in NO committed combo except this Belleville file (3 times: overview[0], process[0], faqs[0]), confirming it is a Belleville-batch fabrication that diverged from gold, not committed gold to preserve. (3) ATTRIBUTION CHECK: the FAQ credits the fabricated figure to \"NOAA, ARMA, and IIBEC,\" but NOAA supports only the 58-mph severe threshold, ARMA only the 60/130-mph shingle ratings, and IIBEC only the qualitative edge/corner mechanism — none publishes a field-pressure multiplier. The first sentence (58/60/130 mph) is correctly sourced and is preserved; only the second sentence's fabricated multiplier and tri-source over-attribution are corrected, re-attributed to IIBEC alone to match the committed Orange voice while keeping the Belleville geography.",
+        "finalFix": "In faqs[0].answer, replace: 'Wind uplift at the corners, rakes, and edges reaches 2 to 3 times the field pressure, per NOAA, ARMA, and IIBEC, so an aged Belleville roof loses tabs below its product rating.' → 'Wind uplift concentrates at the corners, rakes, and edges, where damage starts, per IIBEC, so an aged Belleville roof loses tabs below its product rating.'"
+      },
+      {
+        "combo": "roof-replacement",
+        "field": "process[1]",
+        "severity": "med",
+        "category": "source-attribution",
+        "issue": "Abbreviated N.J.A.C. 5:23-6.4 recover-material list ('is wood, slate, or tile'). The fact pack (facts-nj-regulatory-climate.md §1.4) and the cohort rule require the full statutory list, and ALL four committed roof-replacement siblings (Newark, Orange, Irvington, Bloomfield) carry the expanded form. Belleville regressed to the abbreviation — the exact recurring defect the orchestrator sweep targets.",
+        "evidence": "The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4...",
+        "suggestedFix": "Before: '...when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4...' After: '...when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4...'",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present verbatim at process[1] of src/data/combo-content/belleville/roof-replacement.ts: \"...when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4...\". This abbreviated recover-material list mis-states the cited source. The fact pack (facts-nj-regulatory-climate.md §1.4, line 63) gives the full statutory list under N.J.A.C. 5:23-6.4 as \"wood shake, slate, clay, cement, or asbestos-cement tile.\" Belleville dropped \"shake,\" \"clay,\" \"cement,\" and \"asbestos-cement,\" contradicting the named source it explicitly cites. All four committed roof-replacement siblings carry the expanded gold form — Newark, Orange, Irvington, and Bloomfield all write \"is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.\" Belleville is the lone regression to the abbreviation, which is the documented recurring 5:23-6.4 defect the orchestrator cross-file sweep targets. This is a real source-attribution violation and cross-combo consistency break, not a false positive — it does not touch any Belleville-specific geography/COA fact, any committed-gold NRCA/ARMA phrasing, or any correct third-party \"licensed\" cite. Fixable by expanding the list to the full statutory form, matching the source and the committed siblings.",
+        "finalFix": "In src/data/combo-content/belleville/roof-replacement.ts, process[1]: Before: \"...when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4, the condition Belleville's older multi-layer stock meets most often.\" After: \"...when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4, the condition Belleville's older multi-layer stock meets most often.\" (Exact string replacement: \"is wood, slate, or tile\" -> \"is wood shake, slate, clay, cement, or asbestos-cement tile\")"
+      },
+      {
+        "combo": "wind-damage-roof-repair",
+        "field": "faqs[2].answer",
+        "severity": "med",
+        "category": "source-attribution",
+        "issue": "The named-storm/hurricane deductible percentage ('up to 5%') is mis-pinned to the NJ Department of Banking and Insurance. The committed gold siblings (Irvington, Bloomfield) attribute the 1%-5%-of-Coverage-A figure to Triple-I and NAIC, and reserve NJ DOBI for the 'wind = named peril / all-perils deductible applies' point only. Crediting the percentage to NJ DOBI overstates that body as the source of the figure.",
+        "evidence": "Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling limit, generally up to 5%, per the NJ Department of Banking and Insurance, so the policy declarations page states which deductible applies.",
+        "suggestedFix": "Re-pin the percentage to Triple-I/NAIC to match gold. Before: '...set as a percentage of the dwelling limit, generally up to 5%, per the NJ Department of Banking and Insurance, so the policy declarations page...' After: '...set as a percentage of the dwelling limit, commonly 1%-5% of the dwelling Coverage A limit, per Triple-I and NAIC, so the policy declarations page...' (Wind as a named peril with the all-perils deductible may keep the NJ DOBI cite in the opening sentence.)",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present at faqs[2].answer (line 40): \"...set as a percentage of the dwelling limit, generally up to 5%, per the NJ Department of Banking and Insurance, so the policy declarations page...\". This mis-pins the named-storm/hurricane deductible percentage to NJ DOBI. The insurance fact pack (.planning/content-system/research/facts-replacement-reroofing-insurance.md, line 196) explicitly sources the \"percentage deductible (a percent of the dwelling Coverage A limit) ... commonly ~1%–5% of insured value\" to \"Insurance Information Institute (Triple-I); NAIC\" (PRIMARY-attrib). NJ DOBI in the fact pack is the administrator of public-adjuster compliance (N.J.S.A. 17:22B, N.J.A.C. 11:2-17) and the hurricane-deductible NOTICE rule (N.J.A.C. 11:2-42, line 199) — NOT the source of the 1%–5% figure. Both committed gold siblings confirm: Irvington (line 46) and Bloomfield (line 46) both write \"commonly 1%-5% of the dwelling Coverage A limit, per Triple-I and NAIC,\" and neither attributes the figure to NJ DOBI. Crediting the percentage to NJ DOBI overstates that body as the source. The finding is a real, fixable source-attribution defect. Note: the finding's parenthetical suggestion to \"keep the NJ DOBI cite in the opening sentence\" does not match gold — the gold siblings carry NO cite on the opening \"named peril / all-perils deductible\" sentence — so the fix simply re-pins the percentage to Triple-I/NAIC and adds no DOBI cite, matching the committed Bloomfield phrasing exactly. The fix preserves the fact (percentage of Coverage A, 1%–5%) and re-attributes rather than deletes.",
+        "finalFix": "In src/data/combo-content/belleville/wind-damage-roof-repair.ts, faqs[2].answer — Before: \"Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling limit, generally up to 5%, per the NJ Department of Banking and Insurance, so the policy declarations page states which deductible applies.\" After: \"Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling limit, commonly 1%-5% of the dwelling Coverage A limit, per Triple-I and NAIC, so the policy declarations page states which deductible applies.\" (Leave the opening \"A standard New Jersey homeowners policy covers wind as a named peril, with the all-perils deductible applying to a wind claim.\" sentence unchanged and uncited, matching the Irvington/Bloomfield gold siblings.)"
+      },
+      {
+        "combo": "asphalt-shingle-roofing",
+        "field": "overview[3]",
+        "severity": "high",
+        "category": "source-attribution",
+        "issue": "Carries the explicitly BANNED NRCA 'extends roof life by up to 25%' ventilation figure. The brief (§D / 'banned NRCA up to 25% vent') and prior committed gold combos dropped this quantified claim; only the qualitative point (ventilation extends roof service life) is permitted. No fact pack supports the 25% figure.",
+        "evidence": "...balances soffit intake and ridge exhaust, because balanced ventilation extends roof service life by up to 25%, per the NRCA and ARMA.",
+        "suggestedFix": "Drop the quantified figure and keep the qualitative point: '...balances soffit intake and ridge exhaust, because balanced ventilation extends roof service life, per the NRCA and ARMA.'",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present verbatim at overview[3]: \"...balances soffit intake and ridge exhaust, because balanced ventilation extends roof service life by up to 25%, per the NRCA and ARMA.\" This is a real, fixable source-attribution violation, confirmed on three independent grounds.\n\n(1) FACT-PACK BAN. facts-components-specialty.md lines 232-234 classifies \"ventilation extends shingle life ~20–30% / up to 25%\" as an \"'industry estimate' only ... NOT verbatim-confirmed\" and explicitly BANS citing the \"exact NRCA up to 25% ... as a verbatim published stat\" — only the qualitative condensation/warranty point is NRCA-attributable. The Belleville line does exactly the banned thing, and worse: it pins the unconfirmed figure to TWO named sources (\"per the NRCA and ARMA\") as a verbatim stat. No fact pack supports the quantified figure as publishable (facts-cost-stats.md:75 even tags it \"cited via industry\").\n\n(2) PRIOR CONFIRMED PRECEDENT. batch8/CONFIRMED-FINDINGS.json (lines 142-143) records this identical violation as a CONFIRMED finding: \"The 'up to 25%' roof-life figure is mis-attributed to the NRCA ... BANS citing the exact NRCA up to 25% as a verbatim published stat.\" The brief's banned-claims list (\"banned NRCA 'up to 25%' vent\") is the orchestrator's cross-file recurrence sweep target.\n\n(3) GOLD-EXEMPLAR DIVERGENCE. A corpus-wide grep shows Belleville's asphalt overview[3] is the ONLY combo carrying \"by up to 25%\". Every committed sibling — including this combo's own Newark asphalt-shingle-roofing.ts (lines 26: \"because balanced ventilation extends roof service life, per the NRCA and ARMA\"), plus East Orange, Orange, Irvington roof-inspection — uses the qualitative form with NO figure and the SAME source attribution. Belleville is the lone outlier, exactly as the finding states. (The \"up to 25%\" hits in batch1/ are uncommitted draft markdown, not committed gold.)\n\nThis is not a defensible template-gold phrasing (unlike 90–95% leaks, ¼-in/ft slope, or 130 mph / 6-nail, which the fact packs DO support verbatim). The fix relocates to the qualitative point and preserves the existing NRCA+ARMA attribution — no facts lost, only the unverified number dropped, matching the committed Newark asphalt sibling exactly.",
+        "finalFix": "In src/data/combo-content/belleville/asphalt-shingle-roofing.ts, overview[3], change:\n\nBEFORE: \"A Newark Quality Roofing install reseals the chimney, wall, skylight, and valley transitions and balances soffit intake and ridge exhaust, because balanced ventilation extends roof service life by up to 25%, per the NRCA and ARMA.\"\n\nAFTER: \"A Newark Quality Roofing install reseals the chimney, wall, skylight, and valley transitions and balances soffit intake and ridge exhaust, because balanced ventilation extends roof service life, per the NRCA and ARMA.\"\n\n(Delete only the four words \" by up to 25%\"; keep the qualitative claim and the \"per the NRCA and ARMA\" attribution — identical to the committed Newark asphalt-shingle-roofing.ts sibling at line 26.)"
+      },
+      {
+        "combo": "residential-roof-installation",
+        "field": "challenges[2]",
+        "severity": "high",
+        "category": "source-attribution",
+        "issue": "Repeats the BANNED NRCA 'extends roof life by up to 25%' ventilation figure (the qualitative point is fine; the quantified 25% is not pack-sourced and was dropped from gold combos).",
+        "evidence": "...balanced about 50% intake and 50% exhaust, and balanced ventilation extends roof life by up to 25%, per the NRCA, so a Newark Quality Roofing install corrects ventilation before the cover goes down.",
+        "suggestedFix": "Remove the figure: '...balanced about 50% intake and 50% exhaust, and balanced ventilation extends roof life, per the NRCA, so a Newark Quality Roofing install corrects ventilation before the cover goes down.'",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present verbatim at challenges[2] (line 19): \"...balanced about 50% intake and 50% exhaust, and balanced ventilation extends roof life by up to 25%, per the NRCA, so a Newark Quality Roofing install corrects ventilation before the cover goes down.\" The quantified \"by up to 25%\" is the banned figure. Two independent confirmations: (1) Fact pack facts-components-specialty.md:232 tags the \"up to 25%\" ventilation-lifespan claim as an \"'industry estimate' only (~20–30% / up to 25% circulates but NOT verbatim-confirmed),\" SECONDARY, with the note that \"NRCA condensation/warranty point is the firmer basis\" — so attributing the 25% figure directly to \"the NRCA\" overstates the source. facts-cost-stats.md:75 carries the same figure but explicitly qualified \"(cited via industry).\" (2) The committed GOLD combos uniformly dropped the figure and use the qualitative phrasing \"proper attic ventilation extends roof life, per the NRCA\" — confirmed across newark/residential-roof-installation.ts, east-orange/roof-replacement.ts, orange/roof-replacement.ts, irvington/roof-replacement.ts and the prior-batch GOLD sibling bloomfield/residential-roof-installation.ts:17 (\"balanced ventilation extends roof life, per the NRCA\"). This matches the standing batch rule (MEMORY: \"only quantified 'by up to 25%' banned; qualitative 'extends roof life, per NRCA' is gold-consistent KEEP\"). The Belleville combo reintroduced the banned figure that gold removed. The fix preserves the fact and the NRCA attribution — it only strips the unverified figure, mirroring gold. (Note: the identical violation also recurs at faqs[3].answer/line 46 and in belleville/asphalt-shingle-roofing.ts:14, which the orchestrator should sweep, but this finding correctly targets challenges[2].)",
+        "finalFix": "In challenges[2] (line 19), change \"...balanced about 50% intake and 50% exhaust, and balanced ventilation extends roof life by up to 25%, per the NRCA, so a Newark Quality Roofing install corrects ventilation before the cover goes down.\" → \"...balanced about 50% intake and 50% exhaust, and balanced ventilation extends roof life, per the NRCA, so a Newark Quality Roofing install corrects ventilation before the cover goes down.\" (Remove only \"by up to 25%\"; preserve the qualitative claim and NRCA attribution, matching committed gold.)"
+      },
+      {
+        "combo": "residential-roof-installation",
+        "field": "faqs[3].answer",
+        "severity": "high",
+        "category": "source-attribution",
+        "issue": "Third occurrence of the BANNED NRCA 'extends roof life by up to 25%' ventilation figure (FAQ 'Can you add proper attic ventilation during a Belleville roof installation?').",
+        "evidence": "...balanced about 50% intake and 50% exhaust, and balanced ventilation extends roof life by up to 25%, per the NRCA, while satisfying the manufacturer ventilation requirement for full warranty coverage.",
+        "suggestedFix": "Remove the figure: '...balanced about 50% intake and 50% exhaust, and balanced ventilation extends roof life, per the NRCA, while satisfying the manufacturer ventilation requirement for full warranty coverage.'",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present verbatim at faqs[3].answer (line 46): \"...balanced about 50% intake and 50% exhaust, and balanced ventilation extends roof life by up to 25%, per the NRCA, while satisfying the manufacturer ventilation requirement for full warranty coverage.\" The quantified \"extends roof life by up to 25%, per the NRCA\" is a BANNED phrasing. (1) Fact-pack basis: facts-components-specialty.md:232-234 explicitly flags this figure as \"industry estimate only (~20–30% / up to 25% circulates but NOT verbatim-confirmed)\" and lists \"inventing ... '25%' or ARMA '20–30%' as a verbatim published stat\" as a thing NOT to do — the NRCA condensation/warranty point is the firmer basis (the qualitative claim). The conflicting facts-cost-stats.md:75 \"[PRIMARY-attrib]\" entry is overridden by the project-wide decision. (2) Project decision: the Batch-4/5 finalize lessons (NRCA \"up to 25%\" vent is a standing cross-combo sweep target) state verbatim that the quantified \"by up to 25%\" is banned while qualitative \"ventilation extends roof life, per NRCA\" is gold-consistent KEEP. (3) Gold exemplar: the committed Orange residential-roof-installation combo uses ONLY the qualitative phrasing (\"trapped heat and moisture shorten roof life per the NRCA\") and never the \"up to 25%\" figure. This is a real, fixable source-attribution violation — not a false positive. (Note: the same banned figure also appears at challenges[2]/line 19 of this file and in belleville/asphalt-shingle-roofing.ts — the orchestrator's recurrence sweep should clean those, but they are out of scope for this single-field finding.)",
+        "finalFix": "In faqs[3].answer, change: \"...balanced about 50% intake and 50% exhaust, and balanced ventilation extends roof life by up to 25%, per the NRCA, while satisfying the manufacturer ventilation requirement for full warranty coverage.\" → \"...balanced about 50% intake and 50% exhaust, and balanced ventilation extends roof life, per the NRCA, while satisfying the manufacturer ventilation requirement for full warranty coverage.\" (Delete only the four words \"by up to 25%\"; preserve the NRCA attribution and the manufacturer-warranty fact.)"
+      },
+      {
+        "combo": "metal-roof-installation-repair",
+        "field": "challenges[1] and overview[2]",
+        "severity": "med",
+        "category": "source-attribution",
+        "issue": "Salt-air-corrosion claim overreaches the pack. facts-nj-regulatory-climate §3.4 states salt-air corrosion is 'less acute inland in Essex County' and flags it '[UNVERIFIED as a quantified stat]'. The combo asserts nor'easters affirmatively 'carry inland into Essex County' salt air that 'accelerates rust' — a causal/quantified-feel claim the pack does not support for an inland township; Belleville is not coastal.",
+        "evidence": "overview[2]: 'aluminum resisting the salt air that nor'easters carry inland into Essex County'; challenges[1]: 'the salt air that Essex County nor'easters carry inland accelerates rust at any cut or scratch in the coating.'",
+        "suggestedFix": "Soften to the pack framing (inland Essex is less exposed): overview[2] → 'aluminum resisting corrosion well at the coastings'; challenges[1] → '...and cut-edge corrosion advances at any scratch or cut in the coating, which a Newark Quality Roofing repair reseals.' Remove the 'salt air carried inland accelerates rust in Essex County' assertion.",
+        "verdict": "confirmed",
+        "reasoning": "The cited text is present verbatim: overview[2] says aluminum resists \"the salt air that nor'easters carry inland into Essex County,\" and challenges[1] says \"the salt air that Essex County nor'easters carry inland accelerates rust at any cut or scratch in the coating.\" This overreaches the named source. facts-nj-regulatory-climate.md §3.4 states salt-air corrosion is a \"Coastal NJ\" stressor that is \"less acute inland in Essex County,\" sourced to \"regional roofing guidance\" and explicitly flagged \"[UNVERIFIED as a quantified stat].\" The Belleville draft (1) drops the mandatory \"less acute inland in Essex County\" hedge, and (2) invents an affirmative causal mechanism — that nor'easters carry salt air inland INTO Essex County and \"accelerate rust\" — which the pack never asserts (it ties salt air to coastal NJ, not to nor'easters depositing it inland). The Belleville fact bank confirms Belleville is an inland township whose only water features are the freshwater Passaic River (eastern boundary, west bank) and Second River (Newark border) — no coastal/ocean exposure; the bank does not mention salt air. This is NOT a committed-gold phrasing to defend; it is a deviation FROM gold. The immediately-preceding Bloomfield gold (same first-suburbs fact bank, same batch) preserves the correct framing: \"aluminum resists corrosion better than bare steel where salt air reaches inland, an exposure less acute inland in Essex County.\" Newark gold likewise attributes \"coastal salt air migrates inland, per metal-roofing industry consensus\" with no nor'easter causation. The fix relocates/re-attributes the fact to the pack's hedge rather than deleting it. (The reviewer's suggested overview[2] text was garbled — \"resisting corrosion well at the coastings\" — so I substitute the clean Bloomfield-gold-aligned phrasing.)",
+        "finalFix": "overview[2]: change \"...with copper resisting corrosion for decades and aluminum resisting the salt air that nor'easters carry inland into Essex County.\" → \"...with copper resisting corrosion for decades and aluminum resisting corrosion better than bare steel where coastal salt air reaches inland, an exposure less acute inland in Essex County.\" | challenges[1]: change \"...because sealant at metal laps typically fails in 5 to 10 years, per roofing trade guidance, and the salt air that Essex County nor'easters carry inland accelerates rust at any cut or scratch in the coating.\" → \"...because sealant at metal laps typically fails in 5 to 10 years, per roofing trade guidance, and cut-edge corrosion advances at any scratch or cut in the coating, an exposure salt air worsens but one less acute inland in Essex County, per regional roofing guidance.\""
+      },
+      {
+        "combo": "epdm-commercial-roofing",
+        "field": "whyChooseUs[2]",
+        "severity": "high",
+        "category": "fabrication",
+        "issue": "Three manufacturer brands are presented as an NQR credential/capability in whyChooseUs. The brief §D/§E explicitly bans manufacturer brands as NQR credentials (the 'Premium materials from GAF/CertainTeed/Owens Corning' de-fab pattern) and requires whyChooseUs to use only the registered-HIC / fully-insured / local-crew / free-estimate / photo-documented reasons — 'No certifications ... no manufacturer brands as credentials.' This is the one combo in the cohort whose whyChooseUs still carries the templated manufacturer-brand line; the other seven correctly use the clean factual reasons.",
+        "evidence": "'Firestone, Carlisle, and Johns Manville EPDM systems seam-bonded to manufacturer specification to keep the system warranty intact.'",
+        "suggestedFix": "Replace with a brand-free reason matching the cohort's other whyChooseUs lines, e.g. before: 'Firestone, Carlisle, and Johns Manville EPDM systems seam-bonded to manufacturer specification to keep the system warranty intact.' → after: 'Free, detailed written estimates with no obligation.' (or 'EPDM splice seams bonded to manufacturer specification to keep the system warranty intact.' — keep the warranty point, drop the brand names).",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present verbatim at src/data/combo-content/belleville/epdm-commercial-roofing.ts line 68: whyChooseUs[2] = 'Firestone, Carlisle, and Johns Manville EPDM systems seam-bonded to manufacturer specification to keep the system warranty intact.' This presents three manufacturer brands as an NQR credential/capability in whyChooseUs — the exact banned pattern. The Belleville brief bans it three times: §B.4 (line 79) lists \"any manufacturer brand as an NQR credential ('Premium materials from GAF/CertainTeed/Owens Corning')\" as a GATE-failing de-fab literal; §D (lines 171–173) names the templated whyChooseUs \"Premium materials from GAF, CertainTeed, and Owens Corning…\" as a de-fab target to replace with clean factual reasons; and §E (line 208) is explicit: \"(No certifications, no years-in-business, no response-time claims, no manufacturer brands as credentials, NO 'licensed.')\". The Firestone/Carlisle/Johns Manville set is just the EPDM-specific substitution of the GAF/CertainTeed/Owens Corning asphalt set — same defect. Cross-combo consistency confirms it: across all SIX rewritten cities (Newark, East Orange, Orange, Irvington, Bloomfield, Belleville), this is the ONLY combo whose whyChooseUs names manufacturer brands; the only other brand-carrying whyChooseUs lines sit in the 17 un-rewritten, still-noindexed fabrication-laden cities (glen-ridge et al.) — the dead pre-rewrite template the brief targets. Within Belleville's own commercial cohort, the sibling rubber-roofing-epdm.ts (same EPDM material) and all seven other commercial/flat-roof combos use brand-free §E reasons; modified-bitumen uses a brand-free method/capability line. The substantive warranty point is not lost — it already lives in the body at process[1] (\"the bond that keeps the manufacturer system warranty intact\") — so removing the brand names from whyChooseUs preserves the fact and only strips the banned credential framing. This is a real, fixable, gate-relevant defect, not a gold-exemplar phrasing.",
+        "finalFix": "In src/data/combo-content/belleville/epdm-commercial-roofing.ts, whyChooseUs[2]: before: 'Firestone, Carlisle, and Johns Manville EPDM systems seam-bonded to manufacturer specification to keep the system warranty intact.' → after: 'Free, detailed written estimates with no obligation.' (matches the cohort/§E default and the same-material sibling rubber-roofing-epdm.ts whyChooseUs[2]; the warranty-integrity point is already carried brand-free in process[1])."
+      },
+      {
+        "combo": "green-roof-installation",
+        "field": "overview[2] and faqs[3].answer",
+        "severity": "med",
+        "category": "fabrication",
+        "issue": "A named regulatory program — 'combined-sewer overflow rules in Essex County' that 'target' stormwater discharge — is asserted twice with no source. No fact pack contains any combined-sewer-overflow rule, Essex County stormwater regulation, or CSO claim (brief §B5: every regulatory/hard claim must be named-sourced or de-quantified). The underlying physical point that a green roof retains rainfall is fine and needs no source; the invented regulatory framing must be removed.",
+        "evidence": "overview[2]: '... A green roof retains rainfall on the roof rather than discharging it to the municipal system, the stormwater path that combined-sewer overflow rules in Essex County target.'  faqs[3]: '... reduces the stormwater discharged to the municipal system that combined-sewer overflow rules in Essex County target.'",
+        "suggestedFix": "Strip the named-rule clause and keep only the factual retention point. overview[2] → '... A green roof retains rainfall in the growing media and drainage layer rather than discharging it immediately to the storm system, reducing peak runoff from a low-lying riverfront parcel.' faqs[3] → 'A green roof retains rainfall in the growing media and the water-retention layer, which reduces the peak stormwater runoff discharged from the roof.' (no named regulatory program).",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present exactly as cited, twice. In overview[2]: \"A green roof retains rainfall on the roof rather than discharging it to the municipal system, the stormwater path that combined-sewer overflow rules in Essex County target.\" In faqs[3]: \"...reduces the stormwater discharged to the municipal system that combined-sewer overflow rules in Essex County target.\"\n\nThis is a fabricated, unsourced named regulatory program. (1) Zero hits for \"combined sewer,\" \"CSO,\" \"sewer overflow,\" \"stormwater,\" or \"Essex County stormwater\" across ALL research fact packs (.planning/content-system/research/) and the Belleville fact bank (.planning/content-system/cities-batchB/CITY-FACTS-first-suburbs.md). (2) The Belleville fact bank explicitly lists its gaps and frames riverfront exposure QUALITATIVELY: line 362 — \"Low-lying riverfront parcels carry flood exposure (qualitative — no FEMA figure)\" — and names no stormwater rule. (3) Decisive cross-combo check: every committed sibling green-roof combo keeps the stormwater point generic and source-free — Newark/East Orange/Irvington/Bloomfield all say \"reduces the stormwater discharged to the municipal system\" with NO named rule; Orange uses a verified city-specific \"Orange runs a stormwater program\" (a real Orange fact, not a fabricated regulation). Belleville is the lone outlier inventing a named \"combined-sewer overflow rules in Essex County\" program and an editorializing \"target\" claim. This violates brief §B5 (regulatory/hard claims must be named-sourced or de-quantified). The underlying physical retention point and the legitimate Belleville geography (low-lying Passaic-riverfront / Route 21 corridor — both in the fact bank, line 362) are fine and must be preserved; only the invented regulatory clause is removed, matching the committed gold voice.",
+        "finalFix": "overview[2] — BEFORE: \"A green roof retains rainfall on the roof rather than discharging it to the municipal system, the stormwater path that combined-sewer overflow rules in Essex County target.\" → AFTER: \"A green roof retains rainfall on the roof rather than discharging it to the municipal system, reducing the peak runoff a low-lying Passaic-riverfront and Route 21 corridor parcel sheds from its rooftop.\" (keeps the gold \"discharging it to the municipal system\" phrasing + fact-bank-grounded Belleville geography; drops the fabricated CSO rule.)\n\nfaqs[3].answer — BEFORE first sentence: \"A green roof retains rainfall in the growing media and the water-retention layer, which reduces the stormwater discharged to the municipal system that combined-sewer overflow rules in Essex County target.\" → AFTER first sentence: \"A green roof retains rainfall in the growing media and the water-retention layer, which reduces the stormwater discharged to the municipal system.\" (exactly matches the committed Irvington/Bloomfield gold; the existing second sentence already grounds Belleville's \"low-lying Passaic-riverfront and Route 21 corridor parcels,\" so geography is retained — only the fabricated CSO clause is stripped.)"
+      },
+      {
+        "combo": "custom-roof-design-consultation",
+        "field": "faqs[2].answer",
+        "severity": "med",
+        "category": "answer-length",
+        "issue": "The first sentence of the permit FAQ answer is 51 words, exceeding the ≤40-word definitive-answer cap (R2 / brief §B.1). It merges the commercial/25% clause into the 1–2-family ordinary-maintenance ruling via a semicolon, so there is no short definitive first sentence. The committed gold Orange exemplar ends its permit-FAQ first sentence at '...per the NJ Uniform Construction Code' (42 words) and puts the commercial/25% clause in a SEPARATE second sentence.",
+        "evidence": "'A re-roof of the covering on a detached one- or two-family home is ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no permit; an addition, a dormer, a roof-pitch change, or a commercial or multi-family roof over 25% of the area in 12 months requires one, per the NJ Uniform Construction Code.' (51 words)",
+        "suggestedFix": "Split into two sentences matching the gold structure. Before: '...and requires no permit; an addition, a dormer, a roof-pitch change, or a commercial or multi-family roof over 25% of the area in 12 months requires one, per the NJ Uniform Construction Code.' After: '...and requires no permit, per the NJ Uniform Construction Code. An addition, a dormer, a roof-pitch change, or a commercial or multi-family roof exceeding 25% of the area in a 12-month period requires one.' (first sentence ~26 words).",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present exactly as cited: the Belleville permit FAQ (faqs[2].answer, lines 38-41 of src/data/combo-content/belleville/custom-roof-design-consultation.ts) opens with a SINGLE sentence that uses a semicolon to merge the 1-2-family ordinary-maintenance ruling with the commercial/25% clause: \"A re-roof of the covering on a detached one- or two-family home is ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no permit; an addition, a dormer, a roof-pitch change, or a commercial or multi-family roof over 25% of the area in 12 months requires one, per the NJ Uniform Construction Code.\" A semicolon does not terminate a sentence, so this entire span is the first sentence — 51 words, exceeding the ≤40-word definitive-answer cap mandated for \"the first sentence of every faqs.answer\" by brief §B.1 / R2 (_BLOOMFIELD-BRIEF.md line 66, inherited by batch 6).\n\nThis is a genuine UNENFORCED violation, not an audit-blessed phrasing: the batch audit-leads.ts firstSentence splitter (line 11, /(?<=[.!?])\\s/) trips on the \"N.J.A.C.\" abbreviation period and counts only 17 words, so the gate gave a FALSE PASS — the human-readable definitive answer is 51 words.\n\nThe committed GOLD Orange exemplar (src/data/combo-content/orange/custom-roof-design-consultation.ts, permit FAQ line 42) deliberately splits this into TWO sentences: a 23-word first sentence ending \"...requires no construction permit.\" then the 25%/commercial clause as a separate second sentence. So Belleville's merged-semicolon form DIVERGES from gold; fixing it brings Belleville INTO alignment with the committed voice (gold-consistency override therefore does not shield it).\n\nNo fact or Belleville-specific rule is violated by the current content (the 5:23-2.7 exemption, the 25%/12-month rule, and the Township of Belleville construction office all match the fact bank §1/§Belleville and facts-nj-regulatory-climate.md §1.1-1.2) — and the fix preserves every fact, deleting nothing, merely relocating the second clause across a sentence boundary to match gold. The proposed first sentence lands at 28 words (≤40), the second at 24 words.",
+        "finalFix": "In src/data/combo-content/belleville/custom-roof-design-consultation.ts, faqs[2].answer — split the 51-word semicolon-joined first sentence into two sentences mirroring the Orange gold structure (attribution on sentence 1, the 25%/addition clause as a separate sentence 2). BEFORE: 'A re-roof of the covering on a detached one- or two-family home is ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no permit; an addition, a dormer, a roof-pitch change, or a commercial or multi-family roof over 25% of the area in 12 months requires one, per the NJ Uniform Construction Code. The Township of Belleville\\'s construction office administers the state classification, and Belleville\\'s large two-family and small multi-family share puts much of its stock on the permit-required path.' AFTER: 'A re-roof of the covering on a detached one- or two-family home is ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no permit, per the NJ Uniform Construction Code. An addition, a dormer, a roof-pitch change, or a commercial or multi-family roof exceeding 25% of the area in a 12-month period requires one. The Township of Belleville\\'s construction office administers the state classification, and Belleville\\'s large two-family and small multi-family share puts much of its stock on the permit-required path.' (first sentence = 28 words, ≤40; all facts preserved.)"
+      },
+      {
+        "combo": "roof-replacement-after-leak",
+        "field": "faqs[0].answer",
+        "severity": "med",
+        "category": "source-attribution",
+        "issue": "Mis-attribution of the '5–10× less than replacement' figure. The packs source this figure ONLY to Home Depot / Kelly Roofing (facts-cost-stats.md §5; facts-materials-economics.md). Kellow and Modernize are the 30%/50%-rule sources, not the 5–10× localized-repair-cost source. The sibling storm-damage combo correctly attributes the same stat to 'Home Depot and Kelly Roofing.'",
+        "evidence": "\"...a localized repair costs 5 to 10 times less than replacement, per Kellow, Modernize, and Home Depot cost data.\"",
+        "suggestedFix": "Re-pin the 5–10× figure to its real source: change \"...a localized repair costs 5 to 10 times less than replacement, per Kellow, Modernize, and Home Depot cost data.\" → \"...a localized repair costs 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\" (the 3-repairs/25%/50% rules stay attributed to the contractor-consensus thresholds).",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present verbatim at faqs[0].answer (line 31): \"...a localized repair costs 5 to 10 times less than replacement, per Kellow, Modernize, and Home Depot cost data.\" This mis-attributes the 5–10× localized-repair-cost figure. Both fact packs source it ONLY to Home Depot / Kelly Roofing: facts-cost-stats.md:84 (\"Localized repair can cost 5–10× less than full replacement | Home Depot / Kelly Roofing (2025)\") and facts-materials-economics.md:312 (\"Localized-cheap rule | ... | Home Depot / Kelly Roofing\"). Kellow and Modernize are instead the threshold-rule sources — facts-materials-economics.md:306 pins them to the \"30% rule\" (Kellow / Modernize / Josten), and the 25–30% area rule to RapidRestore/MyQuoteIQ/Kellow (line 88). They are NOT the 5–10× source. The \"per Kellow, Modernize, and Home Depot cost data\" clause attaches grammatically to the 5–10× figure (the threshold rules are separately and correctly labeled \"contractor-consensus thresholds\"), so this is a clean mis-pin: it omits the real co-source Kelly Roofing and wrongly bolts on Kellow/Modernize. Two committed Belleville siblings prove the correct gold attribution: storm-damage-roof-replacement.ts:46 and roof-replacement-cost.ts:55 both read \"per Home Depot and Kelly Roofing cost data.\" This is a genuine source-attribution defect, not a gold-template phrasing. The fix re-pins rather than deletes, matching the committed sibling voice. No Belleville fact, entity-grounding, or ruleset gold phrasing is implicated.",
+        "finalFix": "In src/data/combo-content/belleville/roof-replacement-after-leak.ts, faqs[0].answer, change \"and a localized repair costs 5 to 10 times less than replacement, per Kellow, Modernize, and Home Depot cost data.\" → \"and a localized repair costs 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\" (The \"3-repairs, 25%, and 50% rules are contractor-consensus thresholds\" attribution stays unchanged.)"
+      },
+      {
+        "combo": "re-roofing",
+        "field": "challenges[0] and process[0]",
+        "severity": "med",
+        "category": "source-attribution",
+        "issue": "The 50%-of-replacement-cost rule is mis-paired. Per the brief rubric and the dominant committed-sibling convention (Orange/Irvington/Bloomfield re-roofing + Orange/Bloomfield storm-damage), the 50% cost rule = WeatherShield/Home Depot, the 30% rule = Kellow/Modernize/Josten, and the 25%-area rule = RapidRestore. This combo bundles BOTH the 25–30% area rule AND the 50% cost rule under 'Kellow, Modernize, and Josten,' which over-claims those three as the source of the 50% rule.",
+        "evidence": "\"Damage across more than 25 to 30 percent of the roof area, or a repair quote approaching 50 percent of replacement cost, crosses the point where a full re-roof returns more value than continued spot repair, per Kellow, Modernize, and Josten cost guidance\" (challenges[0]); near-identical phrasing in process[0].",
+        "suggestedFix": "Split the attribution to match the sibling convention: \"...the 25–30% area rule per Kellow and Modernize and the 50% cost rule per WeatherShield and Home Depot...\" — or at minimum move the 50% rule to 'per WeatherShield and Home Depot.' Apply in both challenges[0] and process[0].",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present exactly as described. challenges[0] (line 17): \"Damage across more than 25 to 30 percent of the roof area, or a repair quote approaching 50 percent of replacement cost, crosses the point where a full re-roof returns more value than continued spot repair, per Kellow, Modernize, and Josten cost guidance.\" process[0] (line 23) carries near-identical phrasing: \"Damage across more than 25 to 30 percent of the roof area or a repair approaching 50 percent of replacement cost crosses the re-roof threshold, per Kellow, Modernize, and Josten cost guidance.\"\n\nThis mis-pairs the 50% cost rule. The canonical fact pack facts-materials-economics.md is explicit (lines 305-307): the 50% rule = WeatherShield / Home Depot / industry; the 30% cost rule = Kellow / Modernize / Josten (NJ); the 25% area rule = RapidRestore / MyQuoteIQ. So \"Kellow, Modernize, and Josten\" are the named source of the 30% cost rule, NOT the 50% rule. The Belleville combo cites only Kellow/Modernize/Josten for BOTH the 25-30% area threshold AND the 50% cost threshold, over-claiming those three as the source of the 50% rule.\n\nThis also breaks the dominant committed-sibling convention. All three committed re-roofing siblings attribute the 50% cost rule to WeatherShield/Home Depot: Orange (\"crosses the 50% rule, per WeatherShield and Home Depot cost data\"), Irvington (\"crosses the 25% rule per RapidRestore, while a repair near 50% of replacement cost crosses the 50% rule per WeatherShield and Home Depot cost data\"), and Bloomfield (\"per WeatherShield, RapidRestore, and Home Depot cost data\"). None attributes the 50% rule to Kellow/Modernize/Josten.\n\nThe Belleville fact bank carries no city-specific cost-rule override (only HomeAdvisor/Modernize for the price range, used correctly in the pricing block). No Belleville fact, entity-grounding requirement, or gold-exemplar phrasing protects this — it is a genuine source-attribution defect (category match: source-attribution, severity med). Fix relocates the 50% rule to WeatherShield and Home Depot and keeps the 25-30% area rule with an accurate source, preserving all facts.",
+        "finalFix": "challenges[0] — BEFORE: \"Damage across more than 25 to 30 percent of the roof area, or a repair quote approaching 50 percent of replacement cost, crosses the point where a full re-roof returns more value than continued spot repair, per Kellow, Modernize, and Josten cost guidance, so a Newark Quality Roofing assessment confirms the threshold against a Belleville roof's age and condition before recommending a re-roof.\" → AFTER: \"Damage across more than 25 to 30 percent of the roof area crosses the 25% rule per RapidRestore, and a repair quote approaching 50 percent of replacement cost crosses the 50% rule per WeatherShield and Home Depot cost data, the point where a full re-roof returns more value than continued spot repair, so a Newark Quality Roofing assessment confirms the threshold against a Belleville roof's age and condition before recommending a re-roof.\"\n\nprocess[0] — BEFORE: \"Damage across more than 25 to 30 percent of the roof area or a repair approaching 50 percent of replacement cost crosses the re-roof threshold, per Kellow, Modernize, and Josten cost guidance, and the written estimate sets the scope, materials, and timeline and names each material's lifespan from the InterNACHI life-expectancy chart.\" → AFTER: \"Damage across more than 25 to 30 percent of the roof area crosses the 25% rule per RapidRestore, and a repair approaching 50 percent of replacement cost crosses the 50% rule per WeatherShield and Home Depot cost data, and the written estimate sets the scope, materials, and timeline and names each material's lifespan from the InterNACHI life-expectancy chart.\""
+      },
+      {
+        "combo": "roof-replacement-after-leak",
+        "field": "process[0] and faqs[0].answer",
+        "severity": "med",
+        "category": "source-attribution",
+        "issue": "Same 50%-rule mis-pairing as re-roofing: the 50%-of-replacement-cost threshold is attributed to 'Kellow, Modernize, and Josten,' but the rubric/sibling convention assigns the 50% rule to WeatherShield/Home Depot (Kellow/Modernize/Josten = the 30% rule). The committed Orange roof-replacement-after-leak pins '50% of replacement cost' to 'WeatherShield and roofing-industry guidance.'",
+        "evidence": "\"...after damage crosses 25–30% of the roof area, or when one repair approaches 50% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance\" (process[0]).",
+        "suggestedFix": "Re-pin the 50% cost rule: \"...or when one repair approaches 50% of replacement cost, per WeatherShield and Home Depot repair-vs-replace guidance\" (keep the 30% / age rules with Kellow/Modernize/Josten if cited).",
+        "verdict": "confirmed",
+        "reasoning": "The offending text is present exactly as described. process[0] reads \"...after damage crosses 25–30% of the roof area, or when one repair approaches 50% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance, and a localized repair holds value only while an asphalt roof stays under 10 to 15 years old, per Home Depot cost data.\" faqs[0].answer reads \"The 3-repairs, 25%, and 50% rules are contractor-consensus thresholds, and a localized repair costs 5 to 10 times less than replacement, per Kellow, Modernize, and Home Depot cost data.\"\n\nThis violates the named-source rubric in facts-materials-economics.md §8 (cross-material summary, lines 305-312), which assigns: 50% rule → WeatherShield/Home Depot/industry; 3-repairs rule → WeatherShield; 25% rule → RapidRestore/MyQuoteIQ; and the 30% rule → Kellow/Modernize/Josten(NJ). Belleville cites the 50% (cost) rule and the 3-repairs rule (both WeatherShield-owned) but NOT the 30% rule, then mis-pins the whole bundle to Kellow/Modernize/Josten — the same CMP-3 mis-pairing the rubric warns against.\n\nThe committed Orange gold sibling (src/data/combo-content/orange/roof-replacement-after-leak.ts) handles the identical bundle correctly: it pins the 3-repairs/25–30%/50% thresholds to \"WeatherShield and roofing-industry guidance\" and reserves \"per Home Depot cost data\" for the localized-repair economics (under 10–15 yrs / 5–10× cheaper). This is purely a source-attribution defect — not an entity-grounding or Belleville-geography import — so it is a real, fixable problem. Fix re-pins the consensus bundle to WeatherShield (matching gold) and keeps Home Depot on the localized-repair economics it actually owns; Josten is dropped since the 30% rule it owns is never cited.",
+        "finalFix": "process[0]: BEFORE \"...or when one repair approaches 50% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance, and a localized repair holds value only while an asphalt roof stays under 10 to 15 years old, per Home Depot cost data.\" → AFTER \"...or when one repair approaches 50% of replacement cost, per WeatherShield and roofing-industry repair-vs-replace guidance, and a localized repair holds value only while an asphalt roof stays under 10 to 15 years old, per Home Depot cost data.\"\n\nfaqs[0].answer: BEFORE \"The 3-repairs, 25%, and 50% rules are contractor-consensus thresholds, and a localized repair costs 5 to 10 times less than replacement, per Kellow, Modernize, and Home Depot cost data.\" → AFTER \"The 3-repairs, 25%, and 50% rules are contractor-consensus thresholds, and a localized repair costs 5 to 10 times less than replacement, per WeatherShield and Home Depot cost data.\""
+      },
+      {
+        "combo": "roof-replacement-cost",
+        "field": "overview[1]",
+        "severity": "med",
+        "category": "source-attribution",
+        "issue": "The low-slope membrane per-square-foot figure carries NO named source and mis-bundles two distinct Josten ranges into one. The fact pack (facts-materials-economics.md §NJ per-sq-ft) lists EPDM (flat) at $7.00–$10.00 and TPO (flat) at $8.00–$12.00 — both attributed to Josten Roofing (NJ). The combo collapses these to a single unattributed '$7.00–$12.00'. In the same sentence the asphalt ($5.50–$9.50) and slate ($10–$30) figures ARE attributed (Josten / NJ guides), but the membrane figure floats sourceless, and the merged range loses the EPDM-vs-TPO distinction the pack draws.",
+        "evidence": "'...and low-slope EPDM and TPO membrane at $7.00–$12.00 for the flat-roofed two-family and garden-apartment sections that make up much of Belleville's stock.' (no 'per Josten' attached to the membrane figure)",
+        "suggestedFix": "Before: '...to slate at $10–$30, per NJ roofing guides, and low-slope EPDM and TPO membrane at $7.00–$12.00 for the flat-roofed two-family and garden-apartment sections...' → After: '...to slate at $10–$30, per NJ roofing guides, and low-slope membrane at $7.00–$10.00 for EPDM and $8.00–$12.00 for TPO, per Josten Roofing NJ pricing, for the flat-roofed two-family and garden-apartment sections...' (split the range and attach the Josten attribution, matching the flat-roof-replacement cost FAQ in this same cohort which states it correctly).",
+        "verdict": "confirmed",
+        "reasoning": "The finding is REAL and confirmed on both counts. The cited text in src/data/combo-content/belleville/roof-replacement-cost.ts overview[1] reads: \"...from asphalt shingle at $5.50–$9.50 per square foot, per Josten Roofing NJ pricing, to slate at $10–$30, per NJ roofing guides, and low-slope EPDM and TPO membrane at $7.00–$12.00 for the flat-roofed two-family and garden-apartment sections...\"\n\n(1) MISSING ATTRIBUTION: Asphalt ($5.50–$9.50, \"per Josten Roofing NJ pricing\") and slate ($10–$30, \"per NJ roofing guides\") are both attributed in the sentence, but the membrane figure \"$7.00–$12.00\" floats with no named source — a named-source-attribution violation per the ruleset, since the other two figures in the very same sentence carry their cite.\n\n(2) MIS-BUNDLED RANGE: The fact pack facts-materials-economics.md §\"NJ per-sq-ft install/replace\" (lines 288–289) lists two DISTINCT Josten Roofing (NJ) ranges — EPDM (flat) $7.00–$10.00 and TPO (flat) $8.00–$12.00. The combo collapses these into a single fabricated union range $7.00–$12.00 (floor from EPDM, ceiling from TPO) that appears nowhere in the pack as one figure.\n\nCROSS-COMBO GOLD confirms this is a deviation, not gold: every committed sibling that cites this pricing both attributes AND splits — e.g., Belleville flat-roof-replacement.ts (\"$7.00 to $10.00 ... for EPDM and $8.00 to $12.00 ... for TPO ... traces to Josten Roofing NJ pricing\"), Belleville commercial-roof-replacement.ts (\"EPDM at $7.00 to $10.00 and TPO at $8.00 to $12.00 per square foot, per Josten Roofing NJ pricing\"), and the same pattern across Newark/East-Orange/Irvington/Bloomfield. The Belleville roof-replacement-cost overview[1] is the lone outlier. No Belleville fact-bank rule, entity-grounding requirement, or third-party-cite carve-out protects it. The fix relocates/re-attributes (does not delete facts), splitting the merged range and attaching the Josten cite to match the dominant committed voice, while preserving the Belleville geographic context.",
+        "finalFix": "In src/data/combo-content/belleville/roof-replacement-cost.ts, overview[1] (the \"Material choice\" element):\n\nBEFORE: '**Material choice** drives the per-square-foot cost most, from asphalt shingle at $5.50–$9.50 per square foot, per Josten Roofing NJ pricing, to slate at $10–$30, per NJ roofing guides, and low-slope EPDM and TPO membrane at $7.00–$12.00 for the flat-roofed two-family and garden-apartment sections that make up much of Belleville\\'s stock. A Newark Quality Roofing free written estimate prices the selected material against the measured roof area.'\n\nAFTER: '**Material choice** drives the per-square-foot cost most, from asphalt shingle at $5.50–$9.50 per square foot, per Josten Roofing NJ pricing, to slate at $10–$30, per NJ roofing guides, and low-slope membrane at $7.00–$10.00 for EPDM and $8.00–$12.00 for TPO, per Josten Roofing NJ pricing, for the flat-roofed two-family and garden-apartment sections that make up much of Belleville\\'s stock. A Newark Quality Roofing free written estimate prices the selected material against the measured roof area.'\n\n(Splits the union range into the two distinct Josten ranges from facts-materials-economics.md lines 288–289 and attaches \"per Josten Roofing NJ pricing\" to the membrane figure, matching committed siblings belleville/flat-roof-replacement.ts and belleville/commercial-roof-replacement.ts.)"
+      }
+    ],
+    "low": [
+      {
+        "combo": "asphalt-shingle-roofing",
+        "field": "faqs[0].answer",
+        "severity": "low",
+        "category": "fabrication",
+        "issue": "Unsourced wind number for 3-tab: 'rates near 60 mph.' The materials pack carries no 3-tab wind rating; the only pack-adjacent/gold-consistent wind figure is the 'up-to-130 mph architectural / 6-nail' claim (template-consistent, keep). The added '60 mph' for 3-tab is attributed to 'ARMA and manufacturer guidance' but is not in any pack.",
+        "evidence": "...while 3-tab shingles use a single flat layer that lasts 20 years and rates near 60 mph. The lifespans trace to the InterNACHI life-expectancy chart and the wind ratings to ARMA and manufacturer guidance...",
+        "suggestedFix": "De-quantify the 3-tab side: '...while 3-tab shingles use a single flat layer that lasts 20 years and carries a lower wind rating. The lifespans trace to the InterNACHI life-expectancy chart and the up-to-130 mph architectural rating to ARMA and manufacturer guidance, requiring the manufacturer 6-nail pattern.'"
+      },
+      {
+        "combo": "rubber-roofing-epdm",
+        "field": "challenges[1]",
+        "severity": "low",
+        "category": "belleville-fact",
+        "issue": "Inherited Newark/Orange 'three-family' frame. Belleville's verified stock is two-family + small multi-family + postwar garden apartments (brief §C; CITY-FACTS Belleville: 2-unit ~20%, combined 2+ ~51%); 'three-family' is not a Belleville-characteristic descriptor. Other combos in this cohort correctly use 'two-family and small multi-family.'",
+        "evidence": "**Seam and flashing aging** carries the heaviest leak load on Belleville's dense two- and three-family membrane roofs...",
+        "suggestedFix": "Align to the Belleville stock descriptor: '...carries the heaviest leak load on Belleville's dense two-family and small multi-family membrane roofs...'"
+      },
+      {
+        "combo": "commercial-metal-roofing",
+        "field": "challenges[0]",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "The '>100 ft requires engineered expansion provisions' figure is attributed to 'the Metal Construction Association.' The fact pack (facts-materials-economics §3) pins this exact claim to NRCA ('panels >100 ft need expansion zones per NRCA'). MCA is a generally-named metal-roofing body in the project sources, but the specific 100-ft expansion figure traces to NRCA in the pack — re-pin to the pack's actual source for source-attribution precision.",
+        "evidence": "'... a run over 100 feet requires engineered expansion provisions, per the Metal Construction Association.'",
+        "suggestedFix": "Re-pin to the pack source: before: '... requires engineered expansion provisions, per the Metal Construction Association.' → after: '... requires engineered expansion provisions, per the NRCA.'"
+      },
+      {
+        "combo": "tpo-roofing-installation",
+        "field": "challenges[0], process[0], faqs[1].answer (recurring 3×)",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "The N.J.A.C. 5:23-6.4 recover-trigger material list is abbreviated to 'is wood, slate, or tile,' omitting the rest of the full statutory list. Per N.J.A.C. 5:23-6.4 (and the brief's explicit instruction / established orchestrator sweep target) the full list is 'wood shake, slate, clay, cement, or asbestos-cement tile.' The abbreviated form is the documented recurring NQR defect.",
+        "evidence": "'N.J.A.C. 5:23-6.4 prohibits a recover when the existing covering is water-soaked, is wood, slate, or tile, or already carries 2 or more layers' (appears in challenges[0], process[0], and faqs[1].answer).",
+        "suggestedFix": "Expand the list each occurrence: before: '... is water-soaked, is wood, slate, or tile, or already carries 2 or more layers' → after: '... is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers.' (Re-check the directAnswer/overview ≤40-word leads are unaffected; these instances sit in body sentences, not leads.)"
+      },
+      {
+        "combo": "modified-bitumen-roofing",
+        "field": "overview[3] and faqs[5].answer (recurring 2×)",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "Same abbreviated N.J.A.C. 5:23-6.4 recover-trigger material list ('is wood, slate, or tile') as in the TPO combo — missing clay, cement, and asbestos-cement tile from the full statutory list.",
+        "evidence": "overview[3]/faqs[5]: 'The NJ Rehabilitation Subcode requires complete removal when the roof is water-soaked, is wood, slate, or tile, or already carries two or more layers.'",
+        "suggestedFix": "before: '... is water-soaked, is wood, slate, or tile, or already carries two or more layers' → after: '... is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more layers.'"
+      },
+      {
+        "combo": "commercial-metal-roofing",
+        "field": "process[1] and faqs[2].answer (recurring 2×)",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "Same abbreviated N.J.A.C. 5:23-6.4 recover-trigger material list ('is wood, slate, or tile') — missing clay, cement, and asbestos-cement tile from the full statutory list.",
+        "evidence": "process[1]/faqs[2]: 'The Rehab Subcode requires complete removal when the existing roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.'",
+        "suggestedFix": "before: '... is water-soaked, is wood, slate, or tile, or already carries 2 or more layers' → after: '... is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers.'"
+      },
+      {
+        "combo": "commercial-roof-installation",
+        "field": "overview[1] and faqs[2].answer (\"Which commercial roof works best...\")",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "The solar-reflectance claim is tied only to the ASTM C1549 measurement method and omits the 'and listed by the CRRC' attribution that all five committed sibling cities (Newark, East Orange, Orange, Irvington, Bloomfield) pair with this exact figure. ASTM C1549 is the reflectance MEASUREMENT standard; the CRRC is the directory that LISTS/rates the products as cool-roof compliant. The Belleville cohort never cites the CRRC at all, breaking cross-city consistency for a verbatim-shared stat. The figure itself (70–85%) is correctly sourced and matches siblings, so this is an attribution-completeness/consistency gap, not a fabrication.",
+        "evidence": "overview[1]: 'A reflective white TPO or PVC membrane reflects roughly 70 to 85% of solar radiation measured per ASTM C1549.' (faqs[2] repeats the same C1549-only phrasing). Sibling gold (e.g. newark/orange/bloomfield/irvington/east-orange commercial-roof-installation) all read '...measured per ASTM C1549 and listed by the CRRC.'",
+        "suggestedFix": "Append the CRRC tail to match the committed siblings: 'reflects roughly 70 to 85% of solar radiation measured per ASTM C1549' → 'reflects roughly 70 to 85% of solar radiation measured per ASTM C1549 and listed by the CRRC.' Apply in both overview[1] and the faqs 'Which commercial roof works best' answer. (Optional: the commercial-roof-replacement overview[3]/process[1] handle this acceptably by saying 'high solar reflectance' without a number, so no CRRC needed there.)"
+      },
+      {
+        "combo": "skylight-installation-repair",
+        "field": "overview[1]",
+        "severity": "low",
+        "category": "fabrication",
+        "issue": "Invented decade-range for skylight stock. The components fact pack carries no date range for when Belleville's skylights were installed, and the Belleville brief's UNVERIFIED list discourages publishing specific year/decade figures for the building stock (median-year-built is banned). \"1980s–1990s skylight units\" is an unsourced date-specificity. The skylight 10-20-year lifespan (InterNACHI) is correctly cited elsewhere in the same string; the decade label is the only unsupported add-on.",
+        "evidence": "the work Belleville's older asphalt roofs and aging 1980s–1990s skylight units most often require.",
+        "suggestedFix": "Drop the decade range: \"... the work Belleville's older asphalt roofs and aging skylight units most often require.\" (Keep the qualitative \"older\"/\"aging\" framing; remove the invented \"1980s–1990s\" figure.)"
+      },
+      {
+        "combo": "historic-roof-restoration",
+        "field": "faqs[2].answer (slate repair-vs-replace, second sentence)",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "The answer de-hedges NPS Preservation Brief 29, which states it is 'usually less expensive to replace' at/above the 20% threshold. The combo's second sentence states it as an absolute ('full replacement costs less than individual repairs'), dropping the 'usually' qualifier the source uses. The first sentence's 20% threshold and Brief 29 attribution are correct; only the de-hedged restatement needs softening.",
+        "evidence": "'At or above that 20% threshold, full replacement costs less than individual repairs.'  (Brief 29 verbatim: 'it is usually less expensive to replace the roof than to execute individual repairs.')",
+        "suggestedFix": "Before: 'At or above that 20% threshold, full replacement costs less than individual repairs.' After: 'At or above that 20% threshold, full replacement is usually less expensive than individual repairs, per NPS Preservation Brief 29.'"
+      },
+      {
+        "combo": "silicone-roof-coating",
+        "field": "challenges[2]",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "The ¼-inch-per-foot-slope and 48-hour ponding-defect figures are attributed to 'per the NRCA' only, dropping ARMA. Every committed sibling that carries this exact figure pair (the gold Orange combo at lines 18/46/51, and the committed Belleville city page at first-suburbs.ts lines 205 and 220) attributes it to 'per the NRCA and ARMA.' Within this cohort the figure also appears (city baseline) with the ARMA co-attribution, so dropping ARMA is a cross-file/within-site attribution inconsistency for the same fact.",
+        "evidence": "'...because a low-slope roof needs at least ¼ inch per foot of slope to drain and ponding held more than 48 hours counts as a defect, per the NRCA. A 100% silicone coating resists that standing water without softening, per the RCMA.'",
+        "suggestedFix": "Restore the ARMA co-attribution to match the gold Orange combo and the committed Belleville city page: change 'counts as a defect, per the NRCA.' → 'counts as a defect, per the NRCA and ARMA.'"
+      },
+      {
+        "combo": "silicone-elastomeric-roof-coating",
+        "field": "challenges[0] and faqs[0].answer",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "The dirt-pickup / re-wash trade-off claim ('acrylic re-washes cleaner... while silicone holds dirt and loses reflectance faster') bundles 'Western Colloid' into its attribution. In facts-energy-solar.md Part D, Western Colloid sources the acrylic PONDING/re-emulsification limitation row, NOT the 'Aged reflectance + dirt-pickup trade-off' row (which the pack pins to CRRC; Henry; Mule-Hide). The compound sentences also cover re-emulsification (which Western Colloid does back), so the cite is only partly off — but for the dirt-pickup/re-wash clause specifically, the pack-correct co-source is the CRRC, not Western Colloid.",
+        "evidence": "challenges[0]: '...silicone resists standing water without softening while acrylic re-washes cleaner on a draining, tree-shaded roof, per the RCMA, Western Colloid, Henry, and Mule-Hide.' / faqs[0].answer: '...acrylic re-washes cleaner with rainfall while silicone holds dirt and loses reflectance faster, per the RCMA, Western Colloid, Henry, and Mule-Hide.'",
+        "suggestedFix": "Re-pin the dirt-pickup/re-wash trade-off to the pack-correct sources by adding the CRRC (the pack's aged-reflectance/dirt-pickup authority): change 'per the RCMA, Western Colloid, Henry, and Mule-Hide.' → 'per the RCMA, the CRRC, Henry, and Mule-Hide.' (drop Western Colloid from the dirt-pickup clause; it remains correct only where the same sentence states the acrylic re-emulsification/ponding limitation)."
+      },
+      {
+        "combo": "storm-damage-roof-replacement",
+        "field": "process[2]",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "Abbreviated N.J.A.C. 5:23-6.4 recover-material list. The brief, ruleset, and the other 6 cohort files use the full statutory list (wood shake, slate, clay, cement, or asbestos-cement tile). This combo truncates it to 'wood, slate, or tile,' which the orchestrator-sweep guidance explicitly flags as a recurring defect.",
+        "evidence": "\"...the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.\"",
+        "suggestedFix": "Expand to the full statutory list: \"...when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more layers, per N.J.A.C. 5:23-6.4.\" (re-check the bold span ≤40w after expansion if it touches a lead)."
+      },
+      {
+        "combo": "aging-roof-replacement",
+        "field": "process[2]",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "Same abbreviated N.J.A.C. 5:23-6.4 list as storm-damage: 'wood, slate, or tile' instead of the full statutory list (wood shake, slate, clay, cement, or asbestos-cement tile) used in the other cohort files.",
+        "evidence": "\"...the removal the NJ Rehabilitation Subcode requires when the existing covering is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4...\"",
+        "suggestedFix": "Expand to: \"...when the existing covering is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more layers, per N.J.A.C. 5:23-6.4...\""
+      },
+      {
+        "combo": "roof-replacement-after-leak",
+        "field": "faqs[5].answer (How much does roof replacement after a leak cost...)",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "'Josten Roofing' is pinned to the 'NJ ranges sit 10–40% above national figures' premium/labor-share claim. In the packs Josten Roofing is a source for NJ per-sqft material pricing and the 30% rule — not for a national-premium percentage or a labor-share rationale. The gold Orange combo attributes the '10–40% above national' framing (with the labor≈60% rationale) to Integrity Home Exteriors.",
+        "evidence": "\"NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Josten Roofing and Integrity Home Exteriors.\"",
+        "suggestedFix": "Drop Josten from this specific claim: \"NJ ranges sit 10–40% above national figures because labor accounts for roughly 60% of an install total and NJ code is stricter, per Integrity Home Exteriors.\" (Josten remains valid if cited for NJ per-sqft material pricing or the 30% rule elsewhere.)"
+      },
+      {
+        "combo": "fire-damage-roof-replacement",
+        "field": "faqs[5].answer (How much does fire damage roof replacement cost...)",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "Same Josten mis-pairing: 'Josten Roofing' attributed to the '10–40% above national' premium claim it does not carry in the packs (Josten = NJ per-sqft pricing / 30% rule).",
+        "evidence": "\"NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Josten Roofing and Integrity Home Exteriors.\"",
+        "suggestedFix": "\"NJ ranges sit 10–40% above national figures because labor accounts for roughly 60% of an install total and NJ code is stricter, per Integrity Home Exteriors.\""
+      },
+      {
+        "combo": "aging-roof-replacement",
+        "field": "faqs[0].answer (Should I repair or replace my aging Belleville roof?)",
+        "severity": "low",
+        "category": "fabrication",
+        "issue": "The specific figure 'granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF' is not supported by any of the provided fact packs (no GAF granule-loss-percentage threshold appears in facts-cost-stats / facts-replacement-reroofing-insurance / facts-nj-regulatory-climate). Hard number attributed to a named source not present in the packs.",
+        "evidence": "\"Granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF, and the age and 3-repairs rules are contractor-consensus thresholds...\"",
+        "suggestedFix": "Either de-quantify ('widespread granule loss is a common beyond-repair indicator') or, if a packed source supports the figure, re-attribute it; do not state '30% ... per GAF' unless a pack carries that GAF figure."
+      },
+      {
+        "combo": "slate-roof-replacement",
+        "field": "faqs[0].answer",
+        "severity": "low",
+        "category": "source-attribution",
+        "issue": "The verbatim preservation phrase 'repaired rather than replaced whenever possible' is from NPS Preservation Brief 29 (facts-historic-restoration.md: 'they should be repaired rather than replaced whenever possible' — Brief 29), not the National Slate Association. The NSA supports the durability/repair-favoring point generally (ASTM S-1 ~75-yr min, 100–150+ life), but the quoted 'whenever possible' framing should be pinned to Brief 29. The 20% threshold in the same answer is already correctly attributed to Brief 29.",
+        "evidence": "'...natural slate is repaired rather than replaced whenever possible, because individual slates replace indefinitely while the deck and fasteners stay sound, per the National Slate Association.'",
+        "suggestedFix": "Before: '...natural slate is repaired rather than replaced whenever possible... per the National Slate Association.' → After: '...natural slate is repaired rather than replaced whenever possible, per NPS Preservation Brief 29, because individual slates replace indefinitely while premium slate commonly lasts 100-plus years, per the National Slate Association.' (attach the 'whenever possible' phrase to Brief 29; keep NSA on the durability claim it actually backs)."
+      }
+    ],
+    "byCohort": [
+      {
+        "cohort": "repair-maintenance",
+        "confirmed": 5,
+        "refuted": 0,
+        "low": 0
+      },
+      {
+        "cohort": "residential-roof-types",
+        "confirmed": 4,
+        "refuted": 1,
+        "low": 2
+      },
+      {
+        "cohort": "commercial-roof-types",
+        "confirmed": 2,
+        "refuted": 0,
+        "low": 4
+      },
+      {
+        "cohort": "commercial-services",
+        "confirmed": 0,
+        "refuted": 0,
+        "low": 1
+      },
+      {
+        "cohort": "components-specialty",
+        "confirmed": 0,
+        "refuted": 0,
+        "low": 1
+      },
+      {
+        "cohort": "design-consultation",
+        "confirmed": 1,
+        "refuted": 1,
+        "low": 1
+      },
+      {
+        "cohort": "energy-solar",
+        "confirmed": 0,
+        "refuted": 0,
+        "low": 2
+      },
+      {
+        "cohort": "replacement-A",
+        "confirmed": 3,
+        "refuted": 0,
+        "low": 5
+      },
+      {
+        "cohort": "replacement-B",
+        "confirmed": 1,
+        "refuted": 1,
+        "low": 1
+      }
+    ]
+  }
+}
