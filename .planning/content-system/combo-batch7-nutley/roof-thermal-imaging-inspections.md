@@ -1,0 +1,15 @@
+# roof-thermal-imaging-inspections × Nutley — rewrite rationale
+
+**De-fab literals cleared from the current file:**
+- OLD `$300–$700` price (overview lead + pricing.range + cost FAQ) → removed from prose; pricing set to `Varies by scope` per the service layer (priced per roof size + ASTM C1153 verification work).
+- whyChooseUs trust lines: `NJ licensed, GAF Certified — 15+ years`, `Premium materials from GAF, CertainTeed, and Owens Corning`, `same-day estimates and 24/7 emergency response`, `Transparent pricing… no hidden fees, no surprises` → replaced with registered-HIC / fully-insured + ASTM C1153 + local-stock factual reasons.
+- conversionHooks: `Early action saves thousands` and `Don't wait for minor damage to become a major expense` → factual urgency (limits spread through assembly + interior).
+- Fabricated accuracy stats (`85 to 95 percent accuracy`, `30 percent of the insulation`, `up to five locations`, `800 to 1,800 dollars`, `older than 15 years`, `May-through-September window`) → removed; all numbers now named-sourced.
+- Inline markdown self-links `[thermal imaging inspection](/…)`, `[Nutley](/roofing-in-nutley-nj)` → stripped to plain text (zero links, matching committed siblings).
+- No `~35,000` population, no `James O'Malley, PE`, no five-landmark list, no COA fees/fines/buffer, no "eliminates exemptions," no Chapter 272↔410 conflation, no swapped rivers — none were re-introduced.
+
+**Entity-grounding applied:** directAnswer reframed to "Newark Quality Roofing is a roofing contractor providing roof thermal imaging inspections across Nutley, New Jersey, and Essex County…" (bold span 37 words) + credential tail "as a registered New Jersey Home Improvement Contractor" outside the bold. No `definition` field (spliced post-assembly). No "licensed" for NQR anywhere.
+
+**Differentiation (process-heavy service):** leads with Nutley-specific application before standardized ASTM facts — Franklin Avenue commercial spine / Nutley Center, the ON3 redevelopment campus that STRADDLES Nutley and Clifton (large institutional flat roofs, 25% rule + UCC permit path), flat-roofed two-family / small multi-family stock (~30.1% of units in multi-unit structures), the Third River / Yantacaw drainage corridor and Passaic western edge, and the mature nine-parks street-tree canopy. The binding **Chapter 410 / Historic District of the Third River and Environs COA** (verify the specific parcel; The Enclosure likely-but-unconfirmed) is the key differentiator from Belleville's no-COA posture.
+
+**Named sources cited in-text:** ASTM C1153 (Standard Practice for Location of Wet Insulation in Roofing Systems Using Infrared Imaging) · NRCA · IIBEC · Fluke · ARMA (ponding > 48 hrs defect, ¼-in/ft slope) · N.J.A.C. 5:23-2.7 (ordinary-maintenance reroof + 25% rule) · NJ Uniform Construction Code · Township of Nutley Code Enforcement Department (permit office, no Construction Official named) · Nutley Chapter 410 / Nutley Historic Preservation Committee (binding COA) · National Park Service (Register listing imposes no private restriction).

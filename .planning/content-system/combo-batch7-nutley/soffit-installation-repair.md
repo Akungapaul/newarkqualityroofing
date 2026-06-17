@@ -1,0 +1,18 @@
+# soffit-installation-repair × Nutley — rewrite rationale
+
+**De-fab literals cleared from the old combo file:**
+- Fabricated pricing `$1,500–$4,000` (overview lead, pricing.range/note, and cost FAQ) → removed from prose; pricing set to `Varies by scope` with a free-written-estimate note per brief §E (no pack-sourced soffit dollar figure exists, and the soffit service layer itself prices by free written estimate).
+- Hype/price prose lead "delivers expert soffit installation repair in Nutley — with prices starting from $1,500–$4,000 and free estimates available today" → replaced with answer-first, figure-free NQR-applied lead.
+- Unsourced per-linear-foot numbers ("8 to 16 dollars," "14 to 24 dollars," "$1,200–$2,900," "$600–$1,200") and the "one square foot per 150 square feet" ratio stated without code attribution → removed/re-grounded to IRC R806.2 (1/150) with named attribution.
+- whyChooseUs trust lines "NJ licensed, GAF Certified — 15+ years," "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties," "same-day estimates and 24/7 emergency response" → replaced with the registered-HIC / fully-insured / written-estimate / photo-documentation defaults.
+- conversionHooks "free soffit installation repair estimate… call now or fill out our form" + "Early action saves thousands" → factual midPageCta and urgencyNote (no fabricated savings).
+- Inline markdown self-links `[soffit](/soffit-installation-repair)` and `[Nutley](/roofing-in-nutley-nj)` → stripped (zero links, matching committed siblings).
+- "Tudor homes / beadboard / tongue-and-groove / period-appropriate custom profiles" architectural-detail invention not in the fact pack → dropped in favor of the pack's verified vinyl/aluminum/wood/fiber-cement material classes.
+
+**Entity-grounding applied:** directAnswer reframed to "Newark Quality Roofing is a roofing contractor providing soffit installation and repair across Nutley, New Jersey, and Essex County…" with the credential tail "as a registered New Jersey Home Improvement Contractor" outside the ≤40-word bold span (37 words). No `definition` field (spliced post-assembly). No "licensed" for NQR anywhere.
+
+**Nutley facts re-grounded (verified only):** older predominantly single-family owner-occupied Lambert-era Colonial/Cape stock + two-family/small-multi + Franklin Avenue commercial spine and ON3 redevelopment (straddling Nutley AND Clifton); mature street-tree canopy / nine public parks loading valleys and gutters; Township of Nutley Code Enforcement Department (no named Construction Official); binding **Chapter 410** Historic District of the Third River and Environs COA (separate from the permit; verify the parcel against the Township's official historic-district map). No ~35,000 population, no fabricated landmark list, no fees/fines/buffer, no Chapter 272↔410 conflation, no swapped rivers, no reservation.
+
+**Named sources cited in-text:** U.S. DOE Building America Solution Center; InterNACHI (inspection guidance + life-expectancy chart, aluminum soffit/fascia 20–40+ yr); ARMA and Air Vent Inc. (≈50% intake / 50% exhaust); IRC Section R806.2 (1/150 net free ventilating area; Newark/Essex = IRC Climate Zone 4–5); NRCA (ventilation reduces condensation/ice-dam conditions); N.J.A.C. 5:23-2.7 and the NJ Uniform Construction Code (ordinary-maintenance / permit path); the township's Chapter 410 ordinance and the Township of Nutley Code Enforcement Department.
+
+5 FAQs (exactly one cost FAQ); directAnswer bold span 37 words; metaDescription 150 chars; parses clean; no de-fab literals, no modality, no prose price, no links.
