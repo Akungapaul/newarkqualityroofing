@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const bellevilleBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'belleville',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing built up roofing across Belleville, New Jersey, and Essex County, installing and restoring multi-ply BUR membranes on Washington Avenue and Route 21 riverfront commercial low-slope roofs** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Built-up roofing** is a low-slope membrane that alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel, mineral granules, or a reflective coating. The multi-ply assembly shields the membrane from UV and impact.',
   overview: [
-    'Newark Quality Roofing delivers expert built up roofing in Belleville — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing -- the tar-and-gravel systems that covered virtually every commercial flat roof in America during Belleville\'s mid-century building boom -- still protects a substantial number of commercial and industrial buildings throughout the township. These multi-layer asphalt and felt assemblies, while aging, have proven remarkably durable on Belleville Turnpike warehouses and Washington Avenue retail buildings where they were installed 30, 40, and even 50 years ago. Understanding BUR is essential for any contractor working on Belleville\'s commercial roofscape, because even new installations interact with existing BUR components during transitions and tie-ins.',
-    'The gravel ballast that defines traditional BUR serves multiple functions on Belleville\'s commercial buildings: UV protection for the bitumen below, fire resistance for closely-spaced structures, weight for wind uplift resistance, and impact protection from falling debris and rooftop foot traffic. In a township where commercial buildings share party walls and fire spread between structures is a genuine concern, BUR\'s Class A fire rating provides passive fire protection that property insurance underwriters recognize with favorable premium treatment.',
-    'Our [built-up roofing](/built-up-roofing) work in Belleville spans both maintenance of existing BUR systems and selective replacement with modern multi-layer assemblies. For building owners who prefer the proven redundancy of BUR over single-ply membrane systems, we install contemporary hot-mopped or cold-applied systems using fiberglass-reinforced plies that offer improved tensile strength and dimensional stability compared to the organic-felt plies used in original installations. These modern BUR systems maintain the multi-layer philosophy while incorporating materials that resist the moisture and thermal stress that Belleville\'s Passaic River basin climate imposes.',
-    'Many Belleville commercial properties face a decision point where their existing BUR system requires either comprehensive restoration or replacement with an alternative technology. We provide honest assessments that weigh the costs of BUR restoration against transition to TPO, EPDM, or modified bitumen, factoring in the specific building\'s mechanical equipment layout, access patterns, and the owner\'s budget timeline. In neighboring [Newark](/built-up-roofing-newark-nj), similar BUR-to-membrane transitions are common on the same generation of commercial buildings.'
+    '**Newark Quality Roofing installs and restores built up roofing** on Belleville\'s commercial low-slope roofs along the Washington Avenue and Main Street spines and the Route 21 Passaic riverfront, plus the flat-roofed two-family homes, small multi-family, and postwar garden apartments. Built up roofing alternates plies of reinforcing fabric and hot bitumen on the deck, then surfaces the membrane with gravel or a reflective coating that shields it from UV and impact.',
+    '**Built up roofing** lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15–25 years, TPO at 7–20 years, and modified bitumen at 20 years. A built-up roof concentrates failures at the flashing details and the surfacing, because water enters at one transition and the gravel migrates over decades, so a Newark Quality Roofing assessment identifies the failed detail before resealing or resurfacing the system.',
+    '**Washington Avenue and Route 21** carry the bulk of Belleville\'s built-up stock, where mid-century storefronts, mixed-use buildings, and the industrial and commercial roofs along the McCarter Highway Passaic corridor were built in the era when BUR was the dominant flat-roof technology. A Newark Quality Roofing crew maps the membrane, the surfacing, and the drainage on these low-slope roofs before specifying restoration or replacement.',
+    '**Flat-roofed two-family homes** and small multi-family carry membrane and built-up sections on the rear additions and low-slope roofs of Belleville\'s dense older stock, where roughly half of all units sit in two-or-more-unit structures. A Newark Quality Roofing job on an occupied two-family or garden-apartment roof coordinates access for the owner and documents the work for an insurance or property record.',
   ],
   challenges: [
-    'Alligatoring -- the network of surface cracks that develops as BUR ages and loses its volatile oils -- is the most visible sign of system deterioration on Belleville\'s older commercial buildings. These cracks allow water to penetrate through the cap sheet into the underlying felt plies, initiating a slow saturation process that eventually reaches the roof deck. By the time interior leaks become visible, the insulation and deck may have sustained extensive moisture damage. Our BUR assessments include core sampling to determine the extent of subsurface saturation, which dictates whether localized repair or full system replacement is the appropriate response.',
-    'Weight is a significant consideration for BUR on Belleville\'s commercial buildings. A fully ballasted BUR system weighs 6-8 pounds per square foot, compared to 1-2 pounds for single-ply alternatives. Many of Belleville\'s Turnpike corridor buildings were engineered for this loading during original construction, but additions, equipment installations, and structural modifications over decades have altered the load distribution. Before any BUR restoration or overlay, we verify that the structural capacity accommodates the cumulative dead load including any new insulation and membrane layers.',
-    'Hot-asphalt application during BUR installation generates fumes and odors that affect neighboring properties in Belleville\'s compact commercial zones. Washington Avenue businesses positioned downwind of a BUR project may experience customer complaints about the asphalt smell. We mitigate this by scheduling hot-application work during off-peak hours, using fume-suppressing asphalt modifiers, and notifying adjacent business owners in advance. For the most sensitive locations, cold-applied BUR adhesives eliminate fume concerns entirely.'
+    '**Alligatoring, cracking, and bald spots** across an aging Belleville BUR surface signal that the gravel surfacing has migrated and the bitumen plies are oxidizing, the most common end-of-life pattern on a 30-year built-up roof, per the InterNACHI life-expectancy chart. A Newark Quality Roofing assessment cores the membrane to map subsurface moisture before specifying resurfacing or replacement.',
+    '**Ponding water** collects on Belleville\'s low-lying Route 21 riverfront and Washington Avenue low-slope roofs, where a low-slope roof needs at least ¼ inch per foot of slope to drain and ponding held more than 48 hours counts as a defect that accelerates bitumen oxidation, per NRCA and ARMA. A Newark Quality Roofing scope grades the deck to drain and rebuilds the flashing at parapets and rooftop penetrations.',
+    '**Mature street-tree canopy** of oak, maple, and sycamore drops leaves and branches onto Belleville\'s flat commercial and garden-apartment roofs, where the debris dams drains and holds moisture against the gravel surfacing. A Newark Quality Roofing maintenance visit clears the drains and scuppers, redistributes displaced gravel, and reseals the flashing details where water concentrates.',
+    '**The permit threshold** governs Belleville\'s built-up stock, because repairing more than 25% of the total roof area on a commercial, multi-family, or attached building in a 12-month period requires a construction permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. A Newark Quality Roofing job files with the Township of Belleville\'s construction office, and full removal to the deck applies when the existing roof is water-soaked or already carries two or more layers, per N.J.A.C. 5:23-6.4.',
   ],
   process: [
-    'BUR assessment in Belleville begins with a comprehensive survey of the existing system. We perform core cuts at representative locations across the roof surface to evaluate each layer\'s condition, measure insulation moisture content, and assess deck integrity. For buildings with multiple previous repair layers, we map the repair history to understand the total system thickness and identify areas where adhesion between layers has failed. This data drives the restoration-versus-replacement recommendation we present to the building owner.',
-    'For BUR restoration projects, we remove deteriorated sections down to a sound substrate, replace wet insulation, and apply new plies with hot-mopped or cold-applied asphalt. We use fiberglass-reinforced felts rather than organic felts for improved dimensional stability and moisture resistance. The restoration area receives a minimum two-ply application with staggered seams, tied into the surrounding existing BUR system with overlapping plies that maintain continuous waterproofing across the repair boundary.',
-    'For full BUR replacement, the entire existing system is removed to the structural deck. We inspect and repair the deck, install a vapor barrier, rigid insulation, and then build up the new system with alternating layers of asphalt and reinforced felt. The cap sheet receives a gravel or mineral-surface finish based on the building owner\'s preference. We document the layer count, material specifications, and flashing details in the project closeout package, establishing a maintenance baseline for the new system\'s projected 25-30 year service life.'
+    '**Newark Quality Roofing assesses the BUR membrane, the surfacing, the flashing details, and the drainage** before specifying a built-up roof on a Belleville low-slope building, because the plies, the gravel, and the slope each fail on a different timeline. A crew cores at representative locations to map subsurface moisture, then sizes the ply count, the reinforcing fabric, and the bitumen grade against the roof traffic and the ¼-inch-per-foot minimum slope, per NRCA and ARMA.',
+    '**Newark Quality Roofing builds the BUR assembly** from alternating plies of reinforcing fabric and hot bitumen, then surfaces the membrane with gravel or a reflective coating, the multi-ply construction that gives built-up roofing a 30-year service life, per the InterNACHI life-expectancy chart. Each fully mopped ply adds an independent waterproofing layer that a single puncture does not breach to the deck, and fiberglass reinforcing fabric raises fire performance and dimensional stability against structural movement.',
+    '**Newark Quality Roofing restores a sound BUR roof** through resurfacing rather than replacement, or recovers the membrane with a new system, the lower-cost path when the plies hold, per NRCA maintenance guidance. Full removal to the deck applies when the existing roof is water-soaked or already carries two or more layers, per N.J.A.C. 5:23-6.4, and a Newark Quality Roofing crew documents the layer count, materials, and flashing details in a written closeout for the owner.',
   ],
   faqs: [
     {
-      question: 'Should I repair or replace my Belleville building\'s built-up roof?',
-      answer: 'If core sampling shows less than 25% of the insulation is wet and the deck structure is sound, repair and restoration is typically cost-effective. If moisture has spread through more than 25% of the roof area, or if the roof has had multiple repair cycles that have added excessive weight, full replacement makes more sense. We provide both options with detailed cost comparisons in every Belleville BUR assessment.'
+      question: 'Do you need a permit for a commercial built-up roof in Belleville, NJ?',
+      answer:
+        'A commercial, multi-family, or attached built-up roof repairing more than 25% of the total roof area in a 12-month period requires a construction permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. Newark Quality Roofing files with the Township of Belleville\'s construction office. Full removal to the deck applies when the existing roof is water-soaked or already carries two or more layers, per N.J.A.C. 5:23-6.4 and the NJ Rehabilitation Subcode. A detached one- or two-family flat-roof recover counts as ordinary maintenance and requires no permit.',
     },
     {
-      question: 'Can I switch from BUR to a single-ply membrane on my Belleville commercial building?',
-      answer: 'Yes, and many Belleville property owners are making this transition. TPO or EPDM can replace BUR with significant weight reduction and improved energy performance. The full tear-off required for the transition adds cost compared to BUR-over-BUR restoration, but the 25-30 year warranty on modern single-ply systems and reduced maintenance requirements often justify the investment.'
+      question: 'Does a Belleville historic building need extra approval for a built-up roof?',
+      answer:
+        'Belleville maintains an active Historic Preservation Commission, but a typical Belleville reroof requires no Certificate of Appropriateness. The Township has no locally designated historic district, and its only confirmed local landmark is the Old Reformed Church of Second River at 171 Main Street, designated in 2014. Per the National Park Service, a National or State Register listing alone places no restriction on a private property owner, so other Belleville historic context carries no private-reroof restriction.',
     },
     {
-      question: 'How much does built-up roofing cost in Belleville?',
-      answer: 'BUR restoration typically costs $5-$8 per square foot depending on the extent of repair needed. Full BUR replacement runs $8-$14 per square foot including tear-off, new insulation, and a multi-ply system with gravel ballast. These costs are competitive with TPO and EPDM installations, with the multi-layer redundancy of BUR providing additional fault tolerance that single-ply systems cannot match.'
+      question: 'How long does a built-up roof last on a Belleville building?',
+      answer:
+        'A built-up roof lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15–25 years, TPO at 7–20 years, and modified bitumen at 20 years. The multi-ply construction and the gravel surfacing extend the service life, because each fully mopped ply adds an independent waterproofing layer and the gravel shields the bitumen from UV and impact, which matters on Belleville\'s mature-canopy, debris-loaded commercial roofs.',
     },
     {
-      question: 'Does the gravel on my Belleville BUR roof need to be replaced?',
-      answer: 'Gravel rarely needs full replacement. However, bare spots where gravel has been displaced by wind, foot traffic, or drain maintenance expose the cap sheet to UV damage that accelerates aging. We redistribute displaced gravel during maintenance visits and add supplemental gravel to bare areas. If the cap sheet shows extensive UV degradation in bare zones, we apply a reflective coating over the exposed areas for protection.'
+      question: 'Should you restore or replace a Belleville built-up roof?',
+      answer:
+        'Restore a built-up roof when the plies hold and the damage stays localized; replace it when damage exceeds 25–30% of the membrane or the leaks recur at the same detail. The 25–30% flat-roof replacement threshold is contractor consensus, per Kellow, Modernize, and HomeGuide cost data, and recurring leaks signal a systemic failure regardless of damaged area, per HomeAdvisor. A Newark Quality Roofing assessment cores the membrane and presents restoration, recover, and full-replacement options.',
+    },
+    {
+      question: 'Can a Belleville built-up roof be converted to a single-ply membrane?',
+      answer:
+        'Newark Quality Roofing converts a Belleville built-up roof to a single-ply membrane by stripping the BUR to the deck and installing EPDM at a 15–25-year life or TPO at a 7–20-year life, per the InterNACHI life-expectancy chart. Full removal to the deck applies when the existing roof is water-soaked or already carries two or more layers, per N.J.A.C. 5:23-6.4 and the NJ Rehabilitation Subcode.',
     },
     {
       question: 'How much does built up roofing cost in Belleville, NJ?',
-      answer: 'Most built up roofing projects in Belleville range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A built-up roof replacement in New Jersey runs $10,000–$25,000 for a typical building, per HomeAdvisor and Modernize cost data. NJ ranges sit roughly 10–40% above national figures because labor accounts for most of an install total and NJ code is stricter, per HomeGuide. Final cost depends on roof size, slope, ply count, surfacing, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Built-up roofing in Belleville NJ. Multi-layer BUR restoration and replacement for commercial buildings along Washington Avenue and the Turnpike.',
+  metaDescription:
+    'Built up roofing in Belleville NJ — multi-ply BUR install, restoration, and recover on Washington Avenue and Route 21 commercial flat roofs. Free estimate.',
   pricing: {
-    range: '$5–$9/sq ft',
-    note: 'traditional built-up roofing system',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Belleville\'s older single-family, two-family, and small multi-family building stock, plus Washington Avenue and Route 21 commercial flat roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free built up roofing estimate in Belleville — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for built up roofing in Belleville.',
+    urgencyNote: 'Addressing built-up roof damage early limits interior and structural water damage.',
   },
 };

@@ -3,57 +3,68 @@ import type { ComboContent } from '../schema';
 export const bellevilleReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'belleville',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing re-roofing across Belleville, New Jersey, and Essex County, replacing the worn covering on Soho older-stock homes, two-family and small multi-family buildings, and Route 21 commercial roofs** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in Belleville — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing Belleville\'s post-war homes transforms buildings that have endured 60-80 years of New Jersey weather into structures protected by modern materials engineered for the next 30 years. The township\'s housing stock -- Cape Cods, colonials, and two-family duplexes built predominantly between 1940 and 1965 -- represents one of the most concentrated re-roofing markets in Essex County, with thousands of homes cycling through replacement at various stages.',
-    'The re-roofing opportunity in Belleville extends beyond simple material replacement. Every re-roofing project is a chance to upgrade ventilation from obsolete gable vents to continuous ridge-and-soffit systems, add insulation that post-war construction omitted, install ice-and-water shield at vulnerable transitions that original builders never protected, and replace aging fascia, soffits, and gutters in a single coordinated project. Our [re-roofing](/re-roofing) approach in Belleville treats the roof replacement as a building envelope upgrade, not just a surface swap.',
-    'For Belleville\'s two-family and multi-family property owners, re-roofing is a maintenance investment that affects rental income, insurance costs, and tenant retention. A building with a new roof and updated gutters attracts better tenants, qualifies for improved insurance rates, and eliminates the emergency repair calls that disrupt property management operations. We work with dozens of Belleville landlords who schedule re-roofing into their property improvement cycles, often coordinating two or three properties per season for volume pricing efficiency.',
-    'Material advancement since the last time most Belleville homes were roofed has been dramatic. The three-tab shingles commonly installed 20-25 years ago have given way to dimensional architectural shingles with significantly better wind resistance, longer warranties, and algae-resistant technology that addresses the biological growth Belleville\'s humid climate promotes. Homeowners comparing their aging three-tab installation to the rich, textured appearance of modern architectural shingles see the visual transformation that [re-roofing](/roofing-in-belleville-nj) delivers alongside the functional protection upgrade, similar to projects throughout [Newark](/re-roofing-newark-nj).'
+    '**Newark Quality Roofing re-roofs Belleville\'s older single-family and two-family homes, small multi-family buildings, and the postwar garden apartments and Route 21 commercial flat roofs along the Passaic riverfront.** Re-roofing replaces a worn covering with a new underlayment-and-cover system, the work that renews a roof past its service life rather than patching a single failed detail.',
+    '**Older single-family and two-family homes** carry sloped asphalt that reaches the replacement decision by age and condition, because 3-tab asphalt lasts 20 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies with climate, install, and maintenance. About one-third of Belleville units predate 1940, and the oldest, densest stock concentrates near the Soho river edge and the Washington Avenue corridor, so a Newark Quality Roofing re-roof matches a new system to the township\'s pre-war and mid-century housing.',
+    '**Small multi-family buildings and postwar garden apartments** carry flat and low-slope membrane that re-roofs in EPDM, TPO, or modified bitumen, systems that last 15 to 25, 7 to 20, and 20 years respectively, per the InterNACHI life-expectancy chart. About half of Belleville units sit in 2-or-more-unit structures, so a large share of the township\'s stock re-roofs as membrane rather than shingle, where a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA.',
+    '**Route 21 commercial flat roofs** along the McCarter Highway and Passaic riverfront corridor, plus the Washington Avenue and Main Street storefronts, re-roof in single-ply and modified-bitumen membrane to manufacturer specification. A Newark Quality Roofing re-roof grades the deck to drain, rebuilds flashing at parapets and rooftop penetrations, and installs the cover to keep the manufacturer warranty intact, per Owens Corning warranty guidance.',
   ],
   challenges: [
-    'Belleville\'s tight lot spacing makes re-roofing logistics more complex than suburban projects. Material staging, debris management, and equipment access all require planning that accounts for the narrow gaps between buildings. We survey every Belleville re-roofing site before scheduling, identifying the material delivery approach, dumpster position, staging areas, and neighbor coordination needs specific to each property.',
-    'Coordinating re-roofing on multi-family properties while maintaining tenant occupancy requires scheduling sensitivity that single-family projects do not demand. Noise, debris, and temporary loss of weather protection affect tenants on all floors. We schedule re-roofing on Belleville multi-family buildings with 48-hour advance tenant notification, designated parking arrangements during equipment staging, and phased execution that maintains waterproof integrity on occupied sections throughout the project.',
-    'Budget management for Belleville homeowners requires transparent pricing that accounts for the common additional costs specific to the township\'s building stock: multi-layer tear-off, deck repair, fascia replacement, and gutter upgrade. We provide comprehensive estimates that include allowances for these common additional scope items rather than lowball base prices that grow with change orders during the project.'
+    '**The repair-versus-re-roof decision** turns on contractor-consensus cost thresholds before a Belleville roof re-roofs. Damage across more than 25 to 30 percent of the roof area crosses the 25% rule per RapidRestore, and a repair quote approaching 50 percent of replacement cost crosses the 50% rule per WeatherShield and Home Depot cost data, the point where a full re-roof returns more value than continued spot repair, so a Newark Quality Roofing assessment confirms the threshold against a Belleville roof\'s age and condition before recommending a re-roof.',
+    '**Tear-off requirements** govern many Belleville re-roofs, because the NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A full tear-off exposes the plank decking common on Belleville\'s pre-war stock for inspection and repair, which a recover hides.',
+    '**Tenant-occupied access** shapes a re-roof on Belleville\'s dense two-family and small multi-family stock, because about half of the township\'s units sit in 2-or-more-unit structures and a re-roof coordinates entry around occupants under New Jersey landlord-tenant notice. A Newark Quality Roofing crew sets a staging and access plan and documents the completed work for the owner, the landlord, and any insurer record.',
+    '**Riverfront and canopy debris** stress Belleville re-roofs along the low-lying Passaic and Second River edges, where runoff loads gutters and slow-draining low-slope roofs, and the township\'s mature street-tree canopy of oak, maple, and sycamore drops leaf and branch debris into valleys. A Newark Quality Roofing re-roof corrects the drainage path and rebuilds the valley and transition flashing where debris and standing water break the seal.',
   ],
   process: [
-    'Re-roofing in Belleville begins with a thorough pre-project assessment that evaluates the existing roof system, structural condition, ventilation adequacy, and gutter system health. We present a comprehensive proposal that includes the base re-roofing scope plus any recommended upgrades for ventilation, insulation, and exterior trim. The proposal itemizes every component so homeowners can make informed decisions about which upgrades to include.',
-    'Project execution follows our standard quality sequence: property protection and debris containment, tear-off to the structural deck, deck inspection and repair, underlayment system installation, shingle application, flashing installation at all transitions and penetrations, and ridge ventilation installation. Gutter replacement and fascia repair, when included, are coordinated within the re-roofing timeline to minimize total project duration.',
-    'Post-installation walkthrough with the homeowner verifies quality at every visible element: shingle alignment, flashing integration, gutter function, and cleanup completeness. We provide warranty documentation, maintenance recommendations, and a scheduled one-year follow-up inspection. For Belleville landlords, we provide formatted documentation packages that support insurance filings, property improvement records, and tenant communication.'
+    '**Newark Quality Roofing confirms the re-roofing decision against the contractor-consensus thresholds, inspects the deck and attic ventilation, and presents a written estimate before any tear-off.** Damage across more than 25 to 30 percent of the roof area crosses the 25% rule per RapidRestore, and a repair approaching 50 percent of replacement cost crosses the 50% rule per WeatherShield and Home Depot cost data, and the written estimate sets the scope, materials, and timeline and names each material\'s lifespan from the InterNACHI life-expectancy chart.',
+    '**Newark Quality Roofing strips the worn roof to the deck, inspects every sheathing section, and replaces deteriorated decking before the new system goes on.** A full tear-off exposes the plank decking and aging flashing details common on Belleville\'s pre-war Colonials and Capes, and N.J.A.C. 5:23-6.4 requires complete removal when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per the NJ Rehabilitation Subcode.',
+    '**Newark Quality Roofing matches the new system to the building, installs an ice barrier, synthetic underlayment, and the cover to manufacturer specification, and documents the completed re-roof.** Asphalt re-roofs on the township\'s single-family and two-family homes install an ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision, while membrane re-roofs on flat two-family and garden-apartment sections seat the EPDM, TPO, or modified-bitumen system to keep the manufacturer warranty intact, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How much does re-roofing cost for a typical Belleville home?',
-      answer: 'Re-roofing a standard Belleville colonial or Cape Cod costs $12,000-$22,000 depending on roof size, material selection, tear-off conditions, and the extent of deck repair needed. This range includes full tear-off, deck repair allowance, ice-and-water shield, synthetic underlayment, and architectural shingles with manufacturer warranty. We provide detailed written estimates after in-person assessment.'
+      question: 'Do you need a permit to re-roof a home in Belleville, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Belleville counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25 percent of the roof area within 12 months requires a permit filed with the Township of Belleville\'s construction office, and Belleville\'s significant two-family and small multi-family share puts much of its stock on the permit-required path.',
     },
     {
-      question: 'How long does re-roofing take in Belleville?',
-      answer: 'A typical Belleville home re-roofing project takes 2-3 days from tear-off to completion. Projects with extensive deck repair or additional scope items like gutter replacement may extend to 4 days. Multi-family buildings take 3-5 days depending on building size. We provide a specific timeline in every proposal and maintain schedule commitments barring weather delays.'
+      question: 'Does a re-roof require a full tear-off in Belleville?',
+      answer:
+        'A re-roof requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound asphalt layer hides the deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20 to 30 percent, per ARMA and Angi, so a Newark Quality Roofing re-roof favors tear-off where deck condition or code requires it.',
     },
     {
-      question: 'What shingle brand do you recommend for Belleville homes?',
-      answer: 'We primarily install GAF Timberline HDZ and Owens Corning Duration architectural shingles, both featuring algae-resistant technology important in Belleville\'s humid climate. Popular color choices in Belleville include Weathered Wood, Pewter Gray, and Charcoal, which complement the brick and vinyl siding common throughout the township. We are certified installers for both manufacturers, qualifying your project for enhanced warranty coverage.'
+      question: 'Does a historic property restrict a re-roof in Belleville?',
+      answer:
+        'Belleville maintains an active Historic Preservation Commission, but a typical detached one- or two-family re-roof requires no Certificate of Appropriateness. The Township has no locally designated historic district, and its only confirmed local landmark designation is a single church, the Old Reformed Church of Second River at 171 Main Street, designated in 2014. Per the National Park Service, a National or State Register listing alone places no restriction on a private property owner, so all other Belleville historic context carries no private-reroof restriction.',
     },
     {
-      question: 'Can I finance re-roofing for my Belleville home?',
-      answer: 'Yes. We offer financing through multiple lending partners with terms from 12 to 144 months. Many Belleville homeowners combine roofing with gutter and fascia upgrades into a single financed project with manageable monthly payments. We provide pre-qualification during the estimate process so you know your financing options before committing to a project scope.'
+      question: 'Which roofing material suits a re-roof on a Belleville two-family or flat-roofed home?',
+      answer:
+        'Architectural asphalt at a 30-year life or 3-tab at 20 years suits the sloped sections of a Belleville single-family or two-family home, per the InterNACHI life-expectancy chart. EPDM, TPO, or modified-bitumen membrane at 15 to 25, 7 to 20, and 20 years suits the flat rear-addition, two-family, and garden-apartment sections, where a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA, and Newark Quality Roofing installs both across Belleville\'s dense stock.',
     },
     {
-      question: 'How much does re roofing cost in Belleville, NJ?',
-      answer: 'Most re roofing projects in Belleville range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How much does re-roofing cost in Belleville, NJ?',
+      answer:
+        'Re-roofing in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000–$11,000 per industry replacement benchmarks. NJ ranges sit roughly 10 to 40 percent above national figures because labor accounts for most of an install total and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Re-roofing services in Belleville NJ. Modern architectural shingles with ventilation upgrades for post-war Cape Cods, colonials, and duplexes.',
+  metaDescription:
+    'Re-roofing in Belleville NJ — asphalt and flat membrane for older single-family, two-family, and garden-apartment stock. NJ-registered, free written estimate.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Belleville\'s older single-family, two-family, and small multi-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in Belleville — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re-roofing in Belleville.',
+    urgencyNote: 'Re-roofing a roof past its service life limits interior and structural water damage.',
   },
 };

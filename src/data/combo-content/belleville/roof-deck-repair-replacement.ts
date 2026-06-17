@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const bellevilleRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'belleville',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof deck repair replacement across Belleville, New Jersey, and Essex County, re-decking rotted sheathing exposed at tear-off on older one- and two-family homes and Route 21 flat-roofed commercial buildings** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [
-    'Newark Quality Roofing delivers expert roof deck repair replacement in Belleville — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair is a discovery that Belleville homeowners make during roof replacement, not before it. The plywood or board sheathing that forms the structural surface beneath roofing material is invisible until the old shingles come off, and in Belleville -- where multi-layer roofing, decades of ice dam damage, and elevated humidity from the Passaic River basin have conspired against post-war construction -- the condition of the deck frequently surprises even experienced crews. Our standard practice is to budget for deck repair in every Belleville roof estimate, because the township\'s building stock produces deteriorated decking on a majority of tear-off projects.',
-    'Belleville\'s homes from the 1940s and 1950s were built with 1x6 or 1x8 board sheathing rather than the plywood and OSB panels used in modern construction. This skip sheathing -- boards spaced with gaps between them -- was standard for the era but creates a structurally different substrate than solid-panel decking. When sections of board sheathing rot, the individual boards can be replaced, but the overall deck rigidity is lower than panel sheathing. For Belleville homes receiving their second or third roof, we evaluate whether the skip sheathing is adequate for modern shingle installation or whether a plywood overlay should be added to create a continuous, rigid nailing surface.',
-    'The moisture conditions that cause deck deterioration in [Belleville](/roofing-in-belleville-nj) are specific to the township\'s geography and building patterns. River basin humidity enters attics through inadequately ventilated soffit systems and condenses on the cold underside of the roof deck during winter, saturating the wood from inside. Simultaneously, ice dam backup forces water beneath shingles from outside. This two-directional moisture attack is more aggressive than what homes in the drier western suburbs experience, producing deck rot that is both more widespread and more advanced by the time the roof is opened for replacement. Homes in neighboring [Newark](/roof-deck-repair-replacement-newark-nj) face similar urban density moisture pressures.',
-    'Our [roof deck repair](/roof-deck-repair-replacement) includes structural evaluation of the rafter system beneath the decking. Deck rot that has progressed to the point of soft, spongy wood has usually transferred moisture to the rafters below, weakening the structural members that support the entire roof system. We probe the rafters at every area of deck deterioration, identifying structural compromises that must be addressed before new decking and roofing material can be safely installed.'
+    '**Newark Quality Roofing repairs and replaces roof decks across Belleville**, removing rotted, delaminated, swollen, or sagging sheathing so the deck grips a fastener again on the township\'s older one- and two-family homes and Route 21 commercial flat roofs.',
+    '**Rotted sheathing** surfaces at tear-off on Belleville\'s older pre-war and mid-century stock, where roofing nails penetrate at least 3/4 inch into the deck, per ARMA, so sheathing that cannot grip a nail comes off. Much of the oldest, densest fabric concentrates near the Soho river edge, where trapped moisture decays the deck until it loses fastener hold and the roof loses wind resistance, per InterNACHI.',
+    '**Delaminated plywood and swollen OSB** appear on second- and third-roof Belleville homes, because plywood dries more uniformly and partly recovers while OSB swells at the edges and delaminates irreversibly once saturated, per InterNACHI and trade guidance. A Newark Quality Roofing re-deck separates panels that recover from sheathing past recovery before the covering goes on.',
+    '**Sagging deck sections** dip between the rafters on Belleville\'s mature stock, the sign of moisture-decayed decking or undersized panels, because panels thinner than 1/2 inch over rafters spaced more than 20 inches on center require H-clips, tongue-and-groove edges, or solid blocking, per IRC Section R803.2. The IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck.',
   ],
   challenges: [
-    'The extent of deck repair cannot be fully determined until the old roofing is removed, creating budget uncertainty for Belleville homeowners who want a firm price before committing to a project. We address this by including a deck repair allowance in every estimate based on the statistical probability of deterioration for the specific building age and type. For Belleville homes with three layers of shingles, a history of ice dam damage, or evidence of previous leaks, the allowance is higher. Any deck repair beyond the allowance is documented with photographs and approved by the homeowner before proceeding.',
-    'Multi-layer shingle roofs in Belleville trap moisture between layers that accelerates deck deterioration in ways that single-layer roofs do not experience. The moisture that penetrates the outer layer is trapped by the layer below, saturating the paper substrate between layers and creating a permanent wet zone that never dries. When we tear off a three-layer Belleville roof, we frequently find the bottom shingle layer fused to the deck by years of moisture-bonded organic material, requiring careful removal to avoid pulling rotted deck boards off the rafters below.',
-    'Belleville\'s tightly-spaced lots complicate deck repair logistics because damaged sheathing panels and replacement lumber must be hoisted to the roof level with limited staging space. Standard plywood panel delivery through side yards is impossible when the gap between buildings is narrower than the panel width. We cut replacement panels to size on the ground and hoist them to the roof using our compact material lift system, solving the dimensional access problem that full-sheet delivery creates on Belleville\'s narrow lots.'
+    '**Hidden deck rot** stays invisible until the old covering comes off, so a Newark Quality Roofing scope budgets for re-decking and documents any exposed rot with photographs. The IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck.',
+    '**Riverfront and ventilation moisture** drives much of Belleville\'s deck decay, because the low-lying Passaic-riverfront and Second-River edges load gutters and slow-draining roofs, and inadequate attic ventilation condenses on the cold underside of the deck. Trapped moisture decays the sheathing until it loses fastener hold, per InterNACHI, so a Newark Quality Roofing re-deck corrects the failed flashing, clogged gutter, or attic ventilation that admitted the water.',
+    '**Flat-roofed two-family homes, small multi-family, and garden apartments** carry saturated decking under EPDM, TPO, and modified-bitumen membranes, where ponding water remaining more than 48 hours counts as a defect that breaches the membrane and soaks the deck, per NRCA and ARMA. A Newark Quality Roofing crew strips the failed membrane, replaces the water-soaked sheathing, and re-covers to manufacturer specification.',
+    '**Tenant-occupied two-family and small multi-family buildings** require entry coordinated around occupants under New Jersey landlord-tenant notice, because about half of Belleville units sit in 2-or-more-unit structures. A Newark Quality Roofing job sets a staging and access plan and documents the re-deck with photographs for the owner and any insurance claim.',
   ],
   process: [
-    'Deck assessment begins immediately after the existing roofing material is removed. Our crew walks the entire exposed deck surface, probing with an awl at regular intervals to test wood soundness. Soft, spongy, or discolored sections are marked for replacement. We photograph all damaged areas before any repair work begins, creating a visual record that documents the extent of deterioration for the homeowner\'s review and insurance documentation.',
-    'Damaged board sheathing sections are removed by cutting at the nearest rafter on each side of the deteriorated area. New treated lumber or plywood panels are cut to fit the opening and secured to the rafters with ring-shank nails or construction screws. For homes receiving plywood overlay over existing skip sheathing, we install 7/16-inch or 1/2-inch CDX plywood across the entire deck surface, creating a continuous, rigid substrate for the new underlayment and shingles. The overlay is secured with screws at 6-inch intervals along each rafter line for structural integrity.',
-    'Rafter repairs, when needed, involve sistering new treated lumber alongside the deteriorated original rafter. The sister rafter is cut to span the full length of the damaged area plus a minimum 24 inches of overlap on each side of the damage. The sister is secured to the original rafter with structural screws or through-bolts at 12-inch intervals. This repair restores the load-bearing capacity of the rafter system without the cost and disruption of full rafter replacement, which would require removing the ceiling finish below.'
+    '**Newark Quality Roofing strips the covering to the deck and probes the sheathing from the attic and the roof for rot, delamination, swelling, and sag.** A crew marks soft, spongy, or crumbling wood, delaminated plywood, swollen OSB edges, daylight breaches, and underside staining, per InterNACHI and GAF inspection guidance, and photographs every damaged area for the homeowner\'s review and insurance documentation.',
+    '**Newark Quality Roofing replaces the failed sheathing with code-rated structural panels sized to the rafter spacing.** Roof sheathing carries an APA span rating that sets the maximum rafter spacing — 7/16-inch panels rate 24/16 through 23/32-inch panels at 48/24, per APA – The Engineered Wood Association — and a crew adds H-clips, tongue-and-groove edges, or solid blocking on panels thinner than 1/2 inch over rafters spaced more than 20 inches on center, per IRC Section R803.2.',
+    '**Newark Quality Roofing fastens the covering to a deck that grips a roofing nail and documents the completed re-deck.** A crew installs the covering with corrosion-resistant nails of at least a 12-gauge shank and a 3/8-inch head that penetrate at least 3/4 inch into the new deck, per ARMA, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty that covers factory defects.',
   ],
   faqs: [
     {
-      question: 'How common is deck repair on Belleville roof replacements?',
-      answer: 'Very common. Approximately 60-70% of Belleville roof replacements involve some degree of deck repair. Homes with multi-layer shingles, previous leak history, or ice dam damage have even higher rates. We include a deck repair allowance in every estimate and document any additional repair with photographs before proceeding.'
+      question: 'Do I need a permit from Belleville for roof deck work?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code, while a structural change to rafters or trusses still triggers a permit. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Belleville\'s construction office, and about half of Belleville units sit in 2-or-more-unit structures that fall on the permit-required path.',
     },
     {
-      question: 'How much does roof deck repair cost in Belleville?',
-      answer: 'Individual sheet replacement costs $75-$150 per plywood panel installed, including removal of the damaged section. Full plywood overlay over skip sheathing costs $1.50-$2.50 per square foot. Rafter sistering costs $200-$500 per rafter depending on length and access. A typical Belleville home with moderate deck deterioration adds $800-$2,500 to the roof replacement cost.'
+      question: 'Does a Belleville historic property restrict roof deck work?',
+      answer:
+        'Belleville maintains an active Historic Preservation Commission, but a typical detached one- or two-family reroof requires no Certificate of Appropriateness. The Township has no locally designated historic district, and its only confirmed local landmark is the Old Reformed Church of Second River at 171 Main Street, designated in 2014. Per the National Park Service, a National or State Register listing alone places no restriction on a private property owner, so all other Belleville historic context carries no private-reroof restriction.',
     },
     {
-      question: 'Should I choose plywood or OSB for deck repair in Belleville?',
-      answer: 'We recommend CDX plywood for Belleville deck repairs. While OSB is less expensive, CDX plywood performs significantly better when exposed to moisture -- it swells and dries without losing structural integrity, while OSB swells permanently and decomposes when repeatedly wet. Given Belleville\'s humidity and moisture exposure, the CDX plywood premium is a worthwhile investment in long-term deck performance.'
+      question: 'Can you reroof over a rotted or water-soaked deck in Belleville?',
+      answer:
+        'The IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck, so the rotted sheathing comes off before the new covering goes on. Roofing nails penetrate at least 3/4 inch into solid deck, per ARMA, and sheathing that cannot grip a nail leaves the covering prone to wind uplift, per InterNACHI.',
     },
     {
-      question: 'Will my roofer check the deck on my Belleville home?',
-      answer: 'Not all contractors inspect the deck thoroughly during tear-off. Some simply cover deck deterioration with new shingles, which leads to premature failure of the new roof. We probe the entire deck surface after tear-off, photograph all damage, and discuss repair options with the homeowner before proceeding. This thorough approach ensures the new roof is built on a sound structural foundation.'
+      question: 'Is OSB or plywood better for a roof deck in Belleville?',
+      answer:
+        'OSB costs less than plywood per sheet, while plywood dries more uniformly and partly recovers after wetting, whereas OSB swells at the edges and delaminates irreversibly once saturated, per InterNACHI and trade guidance. Both panels carry an APA span rating that sets the maximum rafter spacing, per APA – The Engineered Wood Association, and either grips a roofing nail at least 3/4 inch deep, per ARMA.',
     },
     {
-      question: 'How much does roof deck repair replacement cost in Belleville, NJ?',
-      answer: 'Most roof deck repair replacement projects in Belleville range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How thick should roof sheathing be for the rafter spacing?',
+      answer:
+        'Roof sheathing carries an APA span rating that sets the maximum rafter spacing: 7/16-inch panels rate 24/16, 15/32-inch panels 32/16, 19/32-inch panels 40/20, and 23/32-inch panels 48/24, per APA – The Engineered Wood Association. InterNACHI cites a 5/8-inch minimum at 24-inch rafter spacing, and panels thinner than 1/2 inch over rafters spaced more than 20 inches on center take H-clips, tongue-and-groove edges, or solid blocking, per IRC Section R803.2.',
+    },
+    {
+      question: 'How much does roof deck replacement cost in Belleville, NJ?',
+      answer:
+        'Re-decking a roof costs $2–$5 per square foot, with a national average near $5,500, and Angi cites $2–$6 per square foot, per HomeGuide and Angi cost data. A hidden-rot re-deck added during a re-roof runs about $50–$120 per 4-by-8 sheet, per contractor cost data, and OSB sheathing costs less than plywood. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof deck repair and replacement in Belleville NJ. Plywood replacement, skip sheathing overlay, and rafter repair for post-war homes during re-roofing.',
+  metaDescription:
+    'Roof deck repair and replacement in Belleville NJ — rotted sheathing, swollen OSB, and sagging decks re-decked at tear-off. NJ-registered, free estimate.',
   pricing: {
-    range: '$2,000–$6,000',
-    note: 'structural deck repair pricing',
+    range: '$2–$5 per sq ft',
+    note: 'Re-decking a roof costs $2–$5 per square foot, with a national average near $5,500, and Angi cites $2–$6 per square foot, per HomeGuide and Angi cost data; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Belleville\'s older single-family, two-family, and small multi-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof deck repair replacement estimate in Belleville — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof deck repair replacement in Belleville.',
+    urgencyNote: 'Replacing a rotted deck before the new covering goes on keeps the roof fastened and prevents wind uplift.',
   },
 };

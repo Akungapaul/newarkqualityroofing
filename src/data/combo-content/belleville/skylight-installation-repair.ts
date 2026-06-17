@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const bellevilleSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'belleville',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing skylight installation repair across Belleville, New Jersey, and Essex County, sealing flashing leaks, replacing fogged units, and curb-mounting skylights** on flat-roofed two-family homes and Route 21 commercial buildings as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
-    'Newark Quality Roofing delivers expert skylight installation repair in Belleville — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation in Belleville solves a specific problem that the township\'s compact housing creates: limited natural light. When homes sit eight feet apart and are only 25-40 feet wide, windows on the side walls of interior rooms receive minimal direct sunlight. Kitchens, bathrooms, and second-floor bedrooms in the center of Belleville\'s narrow homes can be perpetually dim, relying on artificial lighting throughout the day. A properly positioned skylight introduces natural light from above, transforming dark interior spaces without any dependency on neighboring building proximity.',
-    'Belleville\'s post-war Cape Cods and colonials are well-suited for skylight installation because their simple gable and hip roof geometries provide adequate south-facing or west-facing roof area for skylight placement. The 4:12 to 6:12 roof pitches common in the township work well with both fixed and vented skylight designs, and the attic spaces above second-floor rooms typically provide clear paths for skylight well construction without ductwork or structural member interference.',
-    'Our [skylight installation](/skylight-installation-repair) services in Belleville address both new installations and the replacement of aging skylights that have developed the condensation, seal failure, and frame deterioration that plague units installed in the 1980s and 1990s. These older acrylic-dome skylights were popular during Belleville\'s renovation boom but have reached the end of their 20-25 year service life, developing yellowed glazing, cracked frames, and failed weather seals that leak during rain and sweat during temperature transitions.',
-    'Skylight repair on existing installations is often more cost-effective than full replacement when the issue is limited to flashing failure around the skylight perimeter. Belleville\'s freeze-thaw cycling and the thermal expansion of skylight frames stress the flashing connection between the skylight curb and the surrounding roof surface. We repair these flashing failures with the same stepped-flashing technique used on chimney penetrations, restoring waterproof integrity without the cost of a new skylight unit for homes in [Belleville](/roofing-in-belleville-nj) and throughout Essex County near [Newark](/skylight-installation-repair-newark-nj).'
+    '**Newark Quality Roofing installs and repairs skylights across Belleville\'s older single-family, two-family, and small multi-family stock** — new installation, replacement, flashing-leak repair, and fogged-glass-seal replacement on Soho river-edge homes, Washington Avenue mixed-use buildings, and Route 21 commercial roofs.',
+    '**Flashing-leak repair** seals the roof penetration at the flashing detail that admits water, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. A Newark Quality Roofing repair replaces the failed flashing with an engineered flashing kit rather than recaulking the curb, because an engineered kit sheds water without relying on caulk that breaks down over time, per VELUX America — the work Belleville\'s older asphalt roofs and aging skylight units most often require.',
+    '**Replacement** swaps a skylight at the end of its service life for a new VELUX or Fakro unit, because a skylight lasts 10–20 years, per the InterNACHI Estimated Life Expectancy Chart, fitting the new flashing kit rather than reusing the degraded original. A fogged insulated-glass seal drives replacement over reseal, the failure the VELUX 20-year glass-seal warranty covers, separate from leak coverage, per VELUX America.',
+    '**Curb-mounting** sets a skylight on the flat and low-slope sections of Belleville\'s dense two-family homes, postwar garden apartments, and Route 21 commercial buildings, because a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A Newark Quality Roofing curb ties its flashing into the EPDM, TPO, or modified-bitumen membrane that covers those low-slope roofs.',
   ],
   challenges: [
-    'Condensation management is the primary skylight challenge in Belleville\'s humid climate. The Passaic River basin humidity combines with interior moisture from cooking and bathing in Belleville\'s compact homes to create condensation on skylight glazing during cold weather. This condensation drips onto interior surfaces, causing water staining that homeowners mistake for a leak. Our installations use dual-pane low-E glazing with argon gas fill that maintains the interior glass surface above the dew point, preventing condensation formation even during the coldest Belleville winter nights.',
-    'Roof structural modification for skylight installation requires careful engineering on Belleville\'s post-war homes. Creating the roof opening typically involves cutting through one or two rafters, which must be supported by header beams on each side. The header beams transfer the interrupted rafter loads to adjacent rafters, which must have adequate capacity for the additional loading. We verify structural capacity before cutting and install engineered headers that maintain the roof\'s original load-bearing performance.',
-    'Light well construction through attic spaces on Cape Cod second floors requires navigating the knee-wall geometry that characterizes these homes. The angled ceiling and limited attic headroom create light well shapes that must be carefully designed to maximize light delivery to the room below while fitting within the available structural space. We use splayed (flared) light well designs that widen the light cone from skylight to ceiling, capturing more light than straight-walled wells and distributing it more evenly across the room.'
+    '**Leak-versus-condensation diagnosis** is the first skylight challenge on Belleville homes, because water at a skylight is often condensation from indoor humidity on cold glass rather than a roof leak, a common winter misdiagnosis per VELUX America.',
+    '**Condensation** tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing diagnosis reads on Belleville\'s compact, older homes, where cooking and bathing moisture meets cold glass through the winter. Low-E warm-edge glazing reduces, but does not eliminate, condensation, per VELUX America, so a Newark Quality Roofing assessment corrects the cause before resealing a unit that is not actually leaking.',
+    '**Flashing failure** carries the leak load on Belleville\'s aging skylights, because the leading cause of a skylight leak is failed or improperly installed flashing, not the glass, per roofing trade consensus. Cracked, dried, or peeling caulk around the curb signals a sealant-only installation breaking down, and a Newark Quality Roofing repair replaces it with the VELUX or Fakro flashing kit matched to both the mounting type and the roof covering, per VELUX America.',
+    '**Low-slope mounting** challenges skylight work on Belleville\'s flat-roofed two-family homes, garden apartments, and Route 21 commercial buildings, because a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA, so a Newark Quality Roofing curb sheds water at the penetration.',
   ],
   process: [
-    'Skylight installation begins with interior and exterior assessment to determine optimal placement. We evaluate roof orientation (south and west-facing slopes receive the most light), interior room layout, attic obstructions (ductwork, wiring, structural members), and the exterior roof surface for flashing integration with existing shingle courses. The selected location balances maximum light delivery with minimal structural modification and optimal flashing conditions.',
-    'The installation sequence starts from inside: marking the ceiling opening, framing the light well, and installing the header beams that support the cut rafters. We then cut the roof opening from above, install the skylight curb and flashing system integrated with the surrounding shingles, and mount the skylight unit onto the prepared curb. The flashing uses a four-piece system -- apron at the bottom, step flashing on each side, and saddle flashing at the top -- that directs water around the skylight without penetrating the roof surface.',
-    'Interior finishing completes the project: drywall or trim on the light well walls, painting to maximize light reflection within the well, and trim installation around the ceiling opening. We recommend white or light-colored finishes inside the light well to bounce maximum light into the room. For vented skylights, we install the operating hardware and verify smooth operation of the sash. The complete installation typically takes 1-2 days for a single skylight, including structural work, roofing integration, and interior finishing.'
+    '**Newark Quality Roofing inspects the skylight flashing, curb, and shaft and separates a true leak from condensation before sealing anything on a Belleville home.** Water at a skylight is often condensation from indoor humidity on cold glass rather than a roof leak, a common winter misdiagnosis per VELUX America, so a Newark Quality Roofing diagnosis rules out condensation before opening the flashing.',
+    '**Newark Quality Roofing fits the VELUX or Fakro flashing kit matched to both the mounting type and the roof covering, sealing the penetration with engineered flashing rather than caulk.** A deck-mounted unit fastens to the deck at a lower profile and a curb-mounted unit sits on a built-up curb for a flat or low-slope roof, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8 and VELUX America — the path most Belleville two-family and Route 21 membrane roofs follow.',
+    '**Newark Quality Roofing sets the unit to manufacturer specification, verifies watertight execution, and runs a magnet sweep for nails at cleanup.** The VELUX No Leak installation warranty runs 10 years and applies only when the skylight installs to specification with a matching VELUX flashing kit, alongside a 20-year insulated-glass-seal warranty, per VELUX America, and Fakro provides a 10-year leak-proof guarantee conditioned on the original Fakro flashing kit, per Fakro USA. A written workmanship warranty backs the labor, separate from those manufacturer warranties.',
   ],
   faqs: [
     {
-      question: 'Will a skylight help with dark rooms in my Belleville home?',
-      answer: 'Absolutely. A single properly positioned skylight delivers 30-50% more natural light than a wall window of the same size because overhead light reaches deeper into the room. For Belleville\'s narrow homes where side windows receive limited direct sunlight due to adjacent building proximity, skylights are the most effective way to bring natural daylight into interior spaces without structural wall modifications.'
+      question: 'Why does a skylight leak on a Belleville home?',
+      answer:
+        'A skylight leaks because of failed or improperly installed flashing, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. An engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America, so a Newark Quality Roofing repair replaces the failed flashing rather than recaulking the curb. Cracked, peeling caulk around the curb signals a sealant-only installation breaking down on Belleville\'s aging skylights.',
     },
     {
-      question: 'How much does skylight installation cost in Belleville?',
-      answer: 'A complete skylight installation including structural framing, roofing integration, and interior finishing costs $2,500-$5,500 for a standard fixed skylight and $3,500-$7,000 for a vented model. Skylight replacement on an existing opening costs $1,500-$3,500. Costs vary with skylight size, structural complexity, and light well depth. We provide detailed written estimates after an in-person assessment of your specific installation conditions.'
+      question: 'Is the water at my Belleville skylight a leak or condensation?',
+      answer:
+        'Water at a skylight is often condensation from excess indoor humidity on cold glass, not a roof leak, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads on Belleville\'s compact, older homes before opening the flashing. Low-E warm-edge glazing reduces, but does not eliminate, condensation, per VELUX America.',
     },
     {
-      question: 'Will a skylight leak on my Belleville home?',
-      answer: 'Not when properly installed. Skylight leaks result from flashing failure, not skylight failure. Our four-piece flashing system integrates with the surrounding roof surface to direct water around the skylight without relying on sealant alone. We use the same flashing principles applied to chimney penetrations. Modern skylights with dual-pane glazing and factory-sealed frames do not leak through the unit itself.'
+      question: 'Can a skylight go on a flat or low-slope Belleville roof?',
+      answer:
+        'A skylight installs on a flat or low-slope roof on a curb-mounted unit, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA, so a Newark Quality Roofing curb sheds water on Belleville\'s flat-roofed two-family homes, garden apartments, and Route 21 commercial buildings.',
     },
     {
-      question: 'Can I add a skylight to my Belleville Cape Cod\'s second floor?',
-      answer: 'Yes. Cape Cod second floors are excellent candidates for skylights because the angled ceiling brings the roof surface close to the living space, minimizing light well depth. The simple roof geometry typically accommodates skylight openings without complex structural modifications. We design splayed light wells that maximize light delivery through the compact attic space between the roof and ceiling.'
+      question: 'Do I need a permit to install a skylight in Belleville?',
+      answer:
+        'Resealing or replacing a skylight on the roof covering of a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. Cutting a new roof opening, which removes structural framing, is never ordinary maintenance and requires a permit under N.J.A.C. 5:23-2.7(b), as does skylight work on a commercial or multi-family building. The Township of Belleville\'s construction office administers the state classification.',
+    },
+    {
+      question: 'Does a skylight on a Belleville historic property need extra approval?',
+      answer:
+        'A typical detached one- or two-family skylight project in Belleville requires no Certificate of Appropriateness. The Township maintains an active Historic Preservation Commission but has no locally designated historic district, and its only confirmed local landmark is the Old Reformed Church of Second River at 171 Main Street, designated in 2014. Per the National Park Service, a National or State Register listing alone places no restriction on a private property owner, so other Belleville historic context carries no private-reroof restriction.',
     },
     {
       question: 'How much does skylight installation repair cost in Belleville, NJ?',
-      answer: 'Most skylight installation repair projects in Belleville range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Skylight installation costs $1,600–$4,200 installed and replacement $800–$2,400, per HomeGuide cost data, while leak repair runs $225–$800, with a reseal at $75–$250 and a flashing repair at $150–$500, per Angi and Modernize cost data. Final cost depends on the mounting type, the flashing kit, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Skylight installation and repair in Belleville NJ. Natural light solutions for narrow homes with VELUX certified installation and leak-proof flashing.',
+  metaDescription:
+    'Skylight installation and repair in Belleville NJ — flashing-leak repair, fogged-unit replacement, curb-mounting on flat roofs. NJ-registered, free estimate.',
   pricing: {
-    range: '$1,500–$5,000',
-    note: 'per skylight installed or repaired',
+    range: '$225–$4,200 across repair and installation',
+    note: 'Skylight installation runs $1,600–$4,200 installed and replacement $800–$2,400 per HomeGuide, with leak repair $225–$800 per Angi and Modernize; final cost depends on mounting type, flashing kit, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Belleville\'s older single-family, two-family, and small multi-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free skylight installation repair estimate in Belleville — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for skylight installation repair in Belleville.',
+    urgencyNote: 'Addressing a skylight leak early limits interior and structural water damage.',
   },
 };

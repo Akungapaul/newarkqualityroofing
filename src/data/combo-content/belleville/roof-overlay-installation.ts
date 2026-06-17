@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const bellevilleRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'belleville',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof overlay installation across Belleville, New Jersey, and Essex County, applying a second asphalt-shingle layer over one existing sound layer on qualifying Soho, two-family, and Washington Avenue homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [
-    'Newark Quality Roofing delivers expert roof overlay installation in Belleville — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay -- installing new shingles directly over the existing single layer -- offers Belleville homeowners a lower-cost alternative to full tear-off when specific conditions are met. The existing roof must have only one layer of shingles, the deck must be in sound structural condition, and the existing shingles must be laying flat without significant curling or buckling that would telegraph through the new surface. When these conditions are verified, overlay reduces project cost by eliminating tear-off labor and disposal fees.',
-    'The reality in Belleville is that relatively few homes qualify for overlay. The township\'s multi-generation re-roofing history means most homes already have two or three layers, exceeding the NJ code maximum of two layers total. Even homes with a single existing layer may be disqualified by deck problems hidden beneath that layer, which cannot be inspected without removal. We evaluate every Belleville roof for overlay eligibility, but our honest assessment typically identifies conditions that make tear-off the better investment.',
-    'For the Belleville homes that do qualify, overlay delivers a fully warranted new roof surface at 20-30% less cost than tear-off. The installation follows the same quality standards as our tear-off projects: ice-and-water shield at eaves, synthetic underlayment, proper starter strip, and architectural shingle installation with manufacturer-specified fastening patterns. The overlay method simply retains the existing layer as a substrate rather than removing it, saving the labor and disposal cost associated with stripping. Homeowners in neighboring [Bloomfield](/roof-overlay-installation-bloomfield-nj) face similar eligibility questions based on their comparable housing stock.',
-    'We are transparent with Belleville homeowners about the [overlay](/roof-overlay-installation) tradeoffs. Overlay cannot address hidden deck problems, may result in a slightly less flat finished surface, and adds weight to the existing structure. These tradeoffs are acceptable when the existing roof is genuinely in sound condition, but they represent real risks when overlay is chosen primarily to save money on a roof that actually needs full tear-off examination of the deck below.'
+    '**Newark Quality Roofing installs roof overlays on qualifying Belleville homes, applying a second asphalt-shingle layer over one existing sound layer with no tear-off.** A Newark Quality Roofing overlay serves Soho\'s older river-edge stock, the township\'s single-family and two-family homes, and the Washington Avenue and Main Street corridors, retaining the existing layer as a substrate rather than stripping the roof to the deck.',
+    '**A roof overlay** skips the tear-off labor and the disposal, so it runs roughly 20–25% less than a full tear-off, a national figure per HomeGuide and Angi, but it delivers less than a tear-off. An overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI, traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile, per Owens Corning and GAF, and adds dead load across the deck and framing.',
+    '**Qualifying Belleville roofs** carry one sound asphalt layer over a smooth, dry, sound deck, because N.J.A.C. 5:23-6.4 bars an overlay where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers already exist, per the NJ Uniform Construction Code. On Belleville\'s older pre-war and mid-century single-family and two-family stock, plank decking and aged flashing often turn up at inspection, so a Newark Quality Roofing eligibility check confirms one layer over a sound deck before quoting an overlay.',
+    '**Washington Avenue and Route 21 flat roofs** sit outside the residential overlay rule, because the Washington Avenue and Main Street storefronts and the industrial and commercial buildings along the Route 21 McCarter Highway Passaic riverfront corridor carry low-slope EPDM, TPO, and modified-bitumen membranes, where a commercial recover is a separate membrane decision under the same NJ Rehabilitation Subcode. The riverfront flat-roof stock is a membrane recover-or-replace scope, not an asphalt-shingle overlay.',
   ],
   challenges: [
-    'Verifying deck condition beneath the existing shingles without tear-off requires indirect assessment methods. We probe from inside the attic, checking sheathing firmness at accessible locations. We look for sag, deflection, and softness in the deck surface from above. We check for evidence of previous water damage, mold, or rot in the attic interior. These indirect methods catch obvious problems but cannot guarantee deck soundness with the certainty that direct inspection after tear-off provides.',
-    'Warranty coverage on overlay installations may differ from tear-off installations depending on the shingle manufacturer\'s warranty terms. Some manufacturers reduce warranty duration or exclude specific coverage when shingles are installed over an existing layer. We review the applicable warranty terms with Belleville homeowners before proceeding with overlay, ensuring they understand any coverage limitations compared to a tear-off installation.',
-    'The visual result of overlay may show telegraphing -- where the pattern of the underlying shingle layer shows through the new surface, particularly on low-slope sections that catch light at shallow angles. This cosmetic issue does not affect waterproof performance but may be visible from certain vantage points. On Belleville\'s closely-spaced lots where roofs are visible at close range from neighboring properties, telegraphing may be more noticeable than on homes with greater viewing distance.'
+    '**Hidden deck condition** is the defining overlay risk on Belleville\'s older stock, because an overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI. Belleville\'s Soho and pre-war stock often conceals plank decking and prior water damage beneath the existing layer, so a Newark Quality Roofing eligibility check probes the deck from the attic and confirms a sound, smooth surface before any overlay proceeds.',
+    '**Two-family and small multi-family stock** narrows where an overlay applies, because about half of Belleville\'s units sit in 2-or-more-unit structures, and the flat-roofed two-family, small multi-family, and garden-apartment sections carry membranes governed by the commercial path rather than the asphalt-overlay rule. On an attached, multi-family, or commercial building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.',
+    '**Telegraphing and added dead load** are the overlay trade-offs on a qualifying single-family or two-family roof, because asphalt shingles take the shape of the surface beneath and telegraph the old profile, per Owens Corning and GAF, and a second layer adds dead load across the deck, the rafters, and the supporting walls. A Newark Quality Roofing crew nails down loose and curled shingles to create the smooth substrate GAF Technical Bulletin TAB-R-145 requires before the new layer installs.',
+    '**Mature street-tree debris** loads valleys and gutters on Belleville\'s canopied streets, because oak, maple, and sycamore drop leaves and branches that hold moisture against the covering and back water under the shingles. A Newark Quality Roofing overlay clears valleys and wall transitions and installs new flashing at every penetration before the second layer goes down, because the existing flashing has aged alongside the existing shingles.',
   ],
   process: [
-    'Overlay assessment includes both exterior and interior inspection. We examine the existing shingle surface for curling, buckling, missing tabs, and granule loss. We inspect the attic for evidence of deck deterioration, moisture damage, and structural adequacy. We verify that only one existing layer is present by checking the exposed edge at the eave or rake. If all conditions are met, we prepare the overlay specification. If any condition fails, we recommend tear-off and explain the specific finding that disqualifies overlay.',
-    'Installation begins with preparation of the existing surface: replacing any missing or severely damaged shingles that would create voids beneath the new layer, removing debris from valleys and wall transitions, and installing new flashing at all penetrations and transitions regardless of existing flashing condition. New flashing is critical because the existing flashing has aged alongside the existing shingles and will likely fail within the new roof\'s service life if not replaced.',
-    'New shingle installation follows standard practices: ice-and-water shield at eaves and valleys (installed over the existing shingle surface), synthetic underlayment over the full roof area, starter strip at eaves and rakes, field shingles with manufacturer-specified nailing pattern, and ridge cap at the ridge and hips. We use slightly longer nails than tear-off installations to ensure adequate penetration through the existing layer into the deck below. Quality verification and cleanup complete the project.'
+    '**Newark Quality Roofing inspects the existing roof and the deck and confirms overlay eligibility against the conditions that bar a recover before quoting an overlay.** A crew verifies one sound asphalt layer over a smooth, dry, sound deck and checks the attic for sag, deflection, and prior water damage, because N.J.A.C. 5:23-6.4 bars an overlay over a water-soaked or deteriorated deck, over wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers already exist, per the NJ Uniform Construction Code.',
+    '**Newark Quality Roofing states the overlay trade-offs against a tear-off in the written estimate, because a roof overlay delivers less than a tear-off.** The estimate sets the scope, labor, materials, and timeline and documents the trade-offs — a hidden deck, a roughly 20–30% shorter shingle life per Angi, a telegraphed profile, and added dead load — so the overlay-vs-tear-off choice is recorded before any work begins. A future re-roof over 2 layers then removes both layers at higher cost, per IRC Section R908.3.1.1 and Angi.',
+    '**Newark Quality Roofing prepares the smooth substrate and installs the second asphalt layer to manufacturer specification, the install that keeps the GAF or Owens Corning limited warranty in force.** A crew nails down loose and curled shingles, removes protruding nails, replaces missing shingles, and installs new flashing at every penetration and transition, because Owens Corning installation instructions and GAF Technical Bulletin TAB-R-145 condition a recover on a smooth substrate. A magnet sweep for nails and a written workmanship warranty on the labor close the project, separate from the manufacturer material warranty, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'Can my Belleville home get a roof overlay instead of tear-off?',
-      answer: 'Only if the existing roof has a single layer of shingles, the deck is in sound condition (verified from the attic), and the existing shingles are flat without significant curling or buckling. Most Belleville homes built in the 1940s-1960s have already had multiple re-roofing cycles and do not qualify. We perform a thorough evaluation and provide an honest recommendation based on your specific conditions.'
+      question: 'Can my Belleville home get a roof overlay instead of a tear-off?',
+      answer:
+        'A Belleville home qualifies for an overlay only where one sound asphalt layer sits over a smooth, dry, sound deck, with no wood shake, slate, clay, cement, or asbestos-cement covering and no second layer already in place. N.J.A.C. 5:23-6.4 sets these conditions and IRC Section R908.3.1.1 caps a roof at 2 total layers, per the NJ Uniform Construction Code. Belleville\'s older pre-war and mid-century stock often carries more than one layer or a deteriorated deck, so a Newark Quality Roofing eligibility inspection confirms the conditions before quoting.',
     },
     {
-      question: 'How much does a roof overlay save compared to tear-off in Belleville?',
-      answer: 'Overlay typically saves $1,500-$3,500 compared to full tear-off on a standard Belleville home, representing a 15-25% reduction in total project cost. The savings come from eliminated tear-off labor and disposal fees. However, this savings must be weighed against the inability to inspect and repair the deck, which is a significant risk on Belleville\'s 60-80 year old housing stock.'
+      question: 'Is a roof overlay as good as a full tear-off on a Belleville roof?',
+      answer:
+        'A roof overlay delivers less than a full tear-off: it hides deck rot a tear-off catches and repairs, cuts the new shingles\' service life by roughly 20–30%, telegraphs the old profile, and adds dead load. The hidden-deck and trade-off framing traces to ARMA, InterNACHI, Owens Corning, and a national Angi industry estimate. On Belleville\'s older Soho and pre-war stock, the hidden-deck risk weighs heaviest, because aged plank decking and prior water damage hide beneath the existing layer.',
     },
     {
-      question: 'Does a roof overlay last as long as a tear-off in Belleville?',
-      answer: 'Under ideal conditions, an overlay can deliver the same shingle lifespan as a tear-off installation. However, hidden deck problems that cannot be addressed without tear-off can cause premature failure. Additionally, the thermal mass of two shingle layers accelerates aging of the top layer in summer heat. We typically see overlay roofs perform well for 20-25 years compared to 25-30 years for tear-off installations in Belleville.'
+      question: 'Do I need a permit for a roof overlay in Belleville, NJ?',
+      answer:
+        'An overlay on a detached one- or two-family home in Belleville counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. The ordinary-maintenance exemption covers the roof covering, not a non-compliant recover, so the overlay still meets the N.J.A.C. 5:23-6.4 eligibility limits. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Belleville\'s construction office.',
     },
     {
-      question: 'Will the old shingles show through my new overlay?',
-      answer: 'Some telegraphing of the underlying shingle pattern is possible, particularly on low-slope sections viewed at shallow angles. This is cosmetic rather than functional. On Belleville\'s closely-spaced lots where neighbors view your roof from close range, telegraphing may be more noticeable than on homes with greater setback distance. Using thicker dimensional shingles reduces telegraphing visibility.'
+      question: 'Does a historic designation restrict a roof overlay in Belleville?',
+      answer:
+        'A typical detached one- or two-family overlay in Belleville requires no Certificate of Appropriateness. The Township maintains an active Historic Preservation Commission but has no locally designated historic district and only one confirmed local landmark — the Old Reformed Church of Second River at 171 Main Street, designated in 2014. That church is also Register-listed, and per the National Park Service a Register listing alone places no restriction on a private property owner, so all other Belleville historic context carries no private-reroof restriction.',
     },
     {
-      question: 'How much does roof overlay installation cost in Belleville, NJ?',
-      answer: 'Most roof overlay installation projects in Belleville range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How long does a roof overlay last in Belleville?',
+      answer:
+        'A roof overlay lasts less than the same shingles installed over a clean deck, because trapped heat cuts the new shingles\' service life by roughly 20–30%, so a 30-year architectural shingle delivers closer to 20–24 years over an overlay. The 20–30% reduction is a national industry estimate per Angi, and the 3-tab 20-year and architectural 30-year baselines trace to the InterNACHI life-expectancy chart. A future re-roof over 2 layers then removes both layers at higher cost, per IRC Section R908.3.1.1.',
+    },
+    {
+      question: 'How much does a roof overlay cost in Belleville, NJ?',
+      answer:
+        'A roof overlay runs roughly 20–25% less than a full tear-off, commonly $2,000–$5,000 cheaper for a typical home, because an overlay skips the tear-off labor and the disposal, a national figure per HomeGuide and Angi. A typical NJ roof replacement costs $10,000–$25,000 per HomeAdvisor and Modernize, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof overlay installation in Belleville NJ. Cost-effective re-roofing over single-layer homes when deck condition supports overlay installation.',
+  metaDescription:
+    'Roof overlay installation in Belleville NJ — a second asphalt layer over one sound layer on qualifying homes. NJ-registered, free written estimate.',
   pricing: {
-    range: '$6,000–$14,000',
-    note: 'overlay without full tear-off',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; an overlay runs roughly 20–25% less than a full tear-off per HomeGuide and Angi. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Belleville\'s older single-family, two-family, and small multi-family building stock.',
+    'Honest overlay-vs-tear-off disclosure — the hidden deck, shorter shingle life, telegraphing, and added dead load stated in the written estimate.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof overlay installation estimate in Belleville — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof overlay installation in Belleville.',
+    urgencyNote: 'Confirming overlay eligibility early avoids roofing over a deteriorated deck that a tear-off would catch and repair.',
   },
 };

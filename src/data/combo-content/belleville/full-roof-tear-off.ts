@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const bellevilleFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'belleville',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing full roof tear off across Belleville, New Jersey, and Essex County**, stripping every roof layer to the deck on Soho one- and two-family homes and Washington Avenue commercial roofs, as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
-    'Newark Quality Roofing delivers expert full roof tear off in Belleville — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off is our standard recommendation for Belleville homes, not an optional premium upgrade. The township\'s post-war housing stock has typically undergone two or three re-roofing cycles since original construction, with each generation of contractor layering new shingles over the previous installation rather than stripping to the deck. New Jersey code allows a maximum of two asphalt shingle layers, but we routinely discover three-layer roofs on Belleville homes built in the 1940s-1960s. This accumulated weight stresses original rafters and sheathing, traps moisture between layers, and hides deck deterioration that worsens with each year it goes undetected.',
-    'The tear-off process on Belleville\'s closely-spaced homes requires debris containment discipline that open-lot suburban projects do not demand. When the neighbor\'s siding is six feet from the tear-off zone, every shovel of stripped shingles, every loose nail, and every piece of rotted sheathing must be controlled from roof edge to dumpster without landing on the adjacent property. Our crews install magnetic nail catchers along the ground perimeter, debris tarps against neighboring walls, and chute systems that direct material directly into the dumpster without ground-level exposure.',
-    'Our [full tear-off](/full-roof-tear-off) exposes the structural deck for the thorough inspection that Belleville\'s moisture-prone housing stock requires. We probe every square foot of exposed sheathing, mark deteriorated sections for replacement, and assess rafter condition at every area showing deck damage. This inspection step is impossible on overlay installations, which is precisely why overlay fails to address the hidden problems that Belleville\'s aging building stock harbors beneath the surface. Similar conditions exist on homes across [Newark](/full-roof-tear-off-newark-nj) and Essex County.',
-    'The environmental aspect of tear-off in Belleville involves managing significant waste volumes on narrow lots. A typical two-layer tear-off generates 4,000-6,000 pounds of debris from a standard Belleville home. Three-layer tear-offs produce even more. We coordinate dumpster placement on streets where driveway access may be limited, obtain temporary parking permits when street placement is necessary, and haul debris to licensed recycling facilities where asphalt shingles are processed for road material rather than landfilled.'
+    '**Newark Quality Roofing strips every roof layer to the bare deck, inspects and repairs the sheathing, then installs a new underlayment-and-cover system** on Belleville\'s older single-family, two-family, and small multi-family stock and its Washington Avenue commercial roofs. Full roof tear off exposes the deck for the inspection a roof-over cannot provide.',
+    '**Stripping every layer** clears the asphalt, underlayment, and any prior overlay a Belleville roof carries, exposing the sheathing across the township\'s older pre-war and mid-century homes concentrated near the Soho river edge. A full tear-off lets a roofer inspect the roof deck, repair damage, and improve deck attachment, while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI.',
+    '**Inspecting and repairing the sheathing** follows the strip, because the NJ Rehabilitation Subcode requires complete removal of the existing covering in three conditions — a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying two or more layers, per N.J.A.C. 5:23-6.4. Roofing nails grip the deck only in sound sheathing, so Belleville decking that has rotted soft, delaminated, or swollen is replaced.',
+    '**Installing the new system** completes the tear-off across Belleville\'s flat-roofed two-family homes, postwar garden apartments, and storefront low-slope decks. A pitched home takes synthetic underlayment, an eave ice barrier, and architectural shingles, while a flat two-family or commercial deck takes an EPDM, TPO, or modified-bitumen membrane resealed at the seams, where each system fails first.',
   ],
   challenges: [
-    'Staging dumpsters on Belleville\'s narrow residential streets creates parking displacement that affects neighbors and generates complaints if not managed proactively. We notify adjacent homeowners 48 hours before dumpster delivery, coordinate with the Belleville DPW for temporary no-parking signage when needed, and schedule dumpster swap during off-peak hours to minimize street obstruction duration.',
-    'Weather exposure during the tear-off period creates risk for Belleville homes where the deck will be exposed for hours or a full day before new underlayment and roofing can be installed. We monitor weather forecasts obsessively during tear-off projects, maintaining the ability to temporarily waterproof any exposed deck area within 30 minutes if conditions change unexpectedly. Our crews carry emergency tarp rolls and self-adhering membrane on every Belleville tear-off project.',
-    'Discovering extensive deck damage during tear-off can extend the project timeline beyond the original estimate, creating budget and scheduling pressure for Belleville homeowners who expected a 2-3 day project. We include a deck repair allowance in every tear-off estimate and communicate the possibility of additional work before the first shingle is removed. When unanticipated damage is discovered, we photograph the conditions, discuss options with the homeowner, and document the approved additional work before proceeding.'
+    '**Multi-layer Belleville roofs** force a full tear-off, because the NJ Rehabilitation Subcode prohibits a recover where two or more applications already exist, leaving complete removal of both layers the only compliant path, per N.J.A.C. 5:23-6.4. Belleville\'s older pre-war and mid-century stock has often accumulated a second layer over decades, which a tear-off strips to a single sound base.',
+    '**Plank decking and aged flashing** surface at tear-off on Belleville\'s pre-war Colonials and Capes, where the older sheathing and worn step, counter, and valley flashing details are exposed only once the covering is stripped. Newark Quality Roofing replaces deteriorated sheathing that cannot grip a roofing nail and rebuilds the failed flashing, the detail that carries most leak load, per InterNACHI and ARMA.',
+    '**Flat-roofed two-family and garden-apartment decks** carry membrane stock across Belleville, where about half of all housing units sit in two-or-more-unit structures and adjoining buildings share party-wall and parapet flashing. A membrane tear-off strips the low-slope deck, repairs the sheathing, and rebuilds the shared metal flashing line that seals the transition between adjoining rooflines.',
+    '**Tenant-occupied two-family and multi-family buildings** shape access on Belleville tear-offs, given the township\'s roughly even owner/renter split and substantial small multi-family stock. Newark Quality Roofing coordinates entry around occupants under New Jersey landlord-tenant notice and documents the completed work with photographs for the owner\'s and any insurer\'s record.',
   ],
   process: [
-    'Tear-off day begins with property protection: tarps against adjacent property walls, magnetic nail sweepers staged at ground level, dumpster positioned for efficient loading, and material chute installed from roof edge. The crew works in sections, stripping shingles from ridge to eave with flat shovels and roofing forks. Each section is cleared to the deck, inspected for structural condition, and documented with photographs before the crew moves to the next section.',
-    'Once the entire deck is exposed, we perform the full structural assessment: probing sheathing soundness, identifying wet or rotted sections, checking rafter condition at all areas showing deck damage, and marking all locations requiring repair. We discuss findings with the homeowner, approve any additional repair scope beyond the estimate allowance, and complete all structural work before any new roofing material is installed. The sound, repaired deck is the foundation for 25-30 years of new roof performance.',
-    'After structural repairs, the new roof system is built from the deck up: ice-and-water shield at eaves and valleys, synthetic underlayment over the remaining deck, drip edge at eaves and rakes, starter strip, field shingles, and ridge cap. Each component is installed in proper sequence to create a complete, integrated system. The project concludes with a thorough cleanup including magnetic nail sweeping of the entire property perimeter, debris removal from gutters and landscaping, and a final walk-through with the homeowner.'
+    '**Newark Quality Roofing inspects the roof and attic underside, counts the existing covering layers, and identifies which N.J.A.C. 5:23-6.4 removal condition applies before the strip.** A crew checks for the failing-deck signs InterNACHI names — daylight through the deck, soft or spongy wood, sagging between rafters, and delaminated plywood or swollen OSB — and sets a written scope and a permit path where the building is commercial, multi-family, or attached.',
+    '**Newark Quality Roofing strips every covering, underlayment, and overlay layer to the bare sheathing, then inspects and repairs the deck before any new covering goes down.** The crew contains debris with ground tarps along Belleville\'s denser lots, replaces sheathing that cannot grip a roofing nail, and re-decks saturated OSB rather than drying it, because it swells and delaminates irreversibly, per InterNACHI and ARMA nail-application guidance.',
+    '**Newark Quality Roofing builds the new roof system from the repaired deck up and closes with a magnet sweep for nails.** On a pitched Belleville home the crew installs an ice barrier from the eave to at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision, synthetic underlayment, and architectural shingles; on a flat two-family or commercial deck it installs an EPDM, TPO, or modified-bitumen membrane to manufacturer specification to keep the system warranty intact.',
   ],
   faqs: [
     {
-      question: 'Why does Newark Quality Roofing always recommend tear-off in Belleville?',
-      answer: 'Belleville\'s post-war homes have typically undergone multiple re-roofing cycles, creating multi-layer roofs that hide deck damage, trap moisture, and stress the original structure. The only way to assess deck and rafter condition is to strip everything to the structural deck. An overlay installed over hidden problems will fail prematurely, wasting the homeowner\'s investment. Tear-off costs more upfront but delivers a fundamentally sound roof system.'
+      question: 'When does New Jersey code require a full roof tear off in Belleville?',
+      answer:
+        'N.J.A.C. 5:23-6.4 requires complete removal of the existing covering in three conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying two or more layers. The NJ Rehabilitation Subcode adds wood shake to the IRC Section R908.3.1.1 removal list, per the NJ Uniform Construction Code, so a Belleville roof at two layers can carry no third.',
     },
     {
-      question: 'How much does full tear-off add to a Belleville roof replacement?',
-      answer: 'Tear-off adds $1,500-$3,500 to the project cost compared to an overlay, depending on the number of existing layers and debris disposal requirements. This cost includes labor for stripping, dump fees for debris hauling, and the structural inspection and basic deck repairs that tear-off enables. The investment prevents the premature failure that overlay installations experience on Belleville\'s aging substrates.'
+      question: 'Do you need a permit for a full roof tear off in Belleville, NJ?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Belleville counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit or inspection, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area within 12 months requires a permit filed with the Township of Belleville\'s construction office, and Belleville\'s substantial two-family and small multi-family stock puts much of its roof area on that permit-required path.',
     },
     {
-      question: 'How do you protect my neighbor\'s property during tear-off in Belleville?',
-      answer: 'We install debris tarps against adjacent property walls, magnetic nail catchers along the ground perimeter on both sides, and material chutes that direct debris into the dumpster without ground-level exposure. Our crews are trained in confined-space debris management specific to Belleville\'s tight lot conditions. We carry supplemental liability insurance for adjacent property protection.'
+      question: 'Does a full roof tear off on a Belleville historic property need extra approval?',
+      answer:
+        'A typical detached one- or two-family tear-off in Belleville requires no Certificate of Appropriateness. Belleville maintains an active Historic Preservation Commission, but the Township has no locally designated historic district and only one confirmed local landmark designation — the Old Reformed Church of Second River at 171 Main Street, designated in 2014. The church is also Register-listed, and per the National Park Service a Register listing alone places no restriction on a private property owner, so other Belleville historic properties carry no private-reroof restriction.',
     },
     {
-      question: 'How long does a full tear-off take in Belleville?',
-      answer: 'A standard single-layer tear-off and complete re-roof on a typical Belleville home takes 2-3 days. Two or three-layer tear-offs may add a half-day for the additional stripping work and deck repair. Weather delays can extend the timeline, which is why we monitor forecasts carefully and maintain the ability to waterproof exposed deck areas within 30 minutes if conditions change.'
+      question: 'Why choose a full tear-off over a roof-over on a Belleville home?',
+      answer:
+        'A full tear-off strips the roof to the deck so the sheathing is inspected and repaired, while a roof-over installs a new layer over the existing covering and hides any deck rot underneath. A tear-off lets a roofer inspect the deck, repair damage, and improve deck attachment, per the Asphalt Roofing Manufacturers Association and InterNACHI, and it becomes the code-mandated path once a Belleville deck is water-soaked or the roof carries two layers, per N.J.A.C. 5:23-6.4.',
     },
     {
-      question: 'How much does full roof tear off cost in Belleville, NJ?',
-      answer: 'Most full roof tear off projects in Belleville range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What happens if the deck is rotted under the old roof in Belleville?',
+      answer:
+        'A full tear-off exposes the deck, and Newark Quality Roofing replaces sheathing that has rotted soft, delaminated, or swollen, because roofing nails penetrate at least ¾ inch into the deck to grip. Sheathing that cannot hold a nail is replaced, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI. Older pre-war Belleville stock near the Soho river edge often reveals plank decking at this stage.',
+    },
+    {
+      question: 'How much does a full roof tear off cost in Belleville, NJ?',
+      answer:
+        'A New Jersey roof replacement with the tear-off included costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize cost data, and old-roof removal alone runs $1–$5 per square foot by material weight, per HomeGuide. A multi-layer Belleville roof adds removal cost because both layers come off where a recover is prohibited, per N.J.A.C. 5:23-6.4. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Full roof tear-off in Belleville NJ. Complete shingle removal to deck for proper inspection and repair on post-war homes with multi-layer roofs.',
+  metaDescription:
+    'Full roof tear off in Belleville NJ — strip to the deck on Soho, two-family, and Washington Avenue roofs, inspect and repair sheathing. Free estimate.',
   pricing: {
-    range: '$9,000–$26,000',
-    note: 'complete tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Belleville\'s older single-family, two-family, and small multi-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free full roof tear off estimate in Belleville — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for full roof tear off in Belleville.',
+    urgencyNote: 'A roof carrying two layers can take no third, so a multi-layer roof reaches the tear-off path under N.J.A.C. 5:23-6.4.',
   },
 };
