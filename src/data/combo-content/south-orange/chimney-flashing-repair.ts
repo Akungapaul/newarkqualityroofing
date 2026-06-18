@@ -3,57 +3,72 @@ import type { ComboContent } from '../schema';
 export const southOrangeChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'south-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing chimney flashing repair across South Orange, New Jersey, and Essex County, rebuilding the two-part base-and-counter flashing system on the masonry chimneys of the Village\'s large pre-war homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
-    'Newark Quality Roofing delivers expert chimney flashing repair in South Orange — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair in South Orange Village addresses one of the most common leak sources on the decorative, multi-chimney homes that define the village\'s architectural character. Tudor Revival estates in Montrose Park often feature two or three chimneys with elaborate masonry detailing, each requiring properly executed step flashing, counter-flashing, and cricket assemblies where the chimney intersects the roof plane. When these flashing systems fail -- as they inevitably do after decades of thermal cycling and mortar deterioration -- the resulting leaks threaten both the interior finishes and the structural integrity of these irreplaceable homes.',
-    'The chimneys on South Orange homes are not simple utilitarian penetrations through the roof. They are architectural features with decorative corbeling, projecting courses, and patterned brickwork that create complex geometries where flashing must conform to irregular masonry profiles while maintaining watertight integrity. Standard aluminum step flashing kits designed for rectangular chimneys on simple gable roofs cannot accommodate the dimensional variety that South Orange chimneys present. Custom-fabricated copper flashing, shaped to each chimney\'s unique profile, is the standard our clients expect.',
-    'Cricket construction behind chimneys wider than 30 inches is critical for preventing water and debris accumulation on the upslope side. Many South Orange homes have chimneys positioned mid-slope or near valleys where water volume concentrates, and the absence or deterioration of a properly constructed cricket creates a pooling zone that forces water under the surrounding roofing material. Our [chimney flashing](/chimney-flashing-repair) repair scope always evaluates cricket condition and includes cricket construction or reconstruction when needed.',
-    'Our chimney flashing work in South Orange coordinates roofing expertise with masonry assessment. Deteriorated mortar joints above and around flashing embedments require tuckpointing before new flashing can be properly installed, and chimney cap conditions that allow water entry from above make flashing repair futile if the chimney crown and cap are not also addressed. We evaluate the complete chimney-to-roof assembly and recommend a scope that addresses all contributing failure points rather than just the visible flashing gap that prompted the service call.'
+    '**Newark Quality Roofing repairs chimney flashing on South Orange\'s large pre-war Victorians, Colonial Revivals, and Tudor Revivals**, plus the Colonials and Capes on the Village\'s tree-lined streets. Chimney flashing repair rebuilds the metal that seals the chimney, the roof\'s largest penetration, where the apron, sidewall step, and upslope transitions each shed water.',
+    '**Pre-war chimneys** carry the heaviest leak load on South Orange\'s mature stock, because over half the Village housing predates 1940 and 82% predates 1960, per the Township planning evaluation, and decades of thermal cycling and mortar deterioration pull the original flashing from the masonry. A Newark Quality Roofing repair starts at the failed transition rather than the visible drip.',
+    '**The two-part system** is what a lasting chimney repair restores, because the NRCA specifies base and step flashing woven one piece per shingle course plus a separate counter flashing set into a reglet cut in a mortar joint. A continuous one-piece strip at the chimney is a defective installation, per InterNACHI and shingle-manufacturer guidance.',
+    '**The Montrose Park district** sets a separate approval step on a designated property, because exterior roofing work there requires a Certificate of Appropriateness under Village Code Chapter 185 before a construction permit. A Newark Quality Roofing scope on a Montrose Park home matches the new flashing to the period detailing so the chimney transition stays watertight.',
   ],
   challenges: [
-    'Counter-flashing installation on South Orange\'s decorative chimneys requires masonry skill that standard roofing contractors do not possess. Counter-flashing is embedded in reglet cuts made into mortar joints, and the irregular joint patterns on decorative chimneys demand precise cutting that follows the masonry coursing without damaging the brick faces. On chimneys with historically significant brickwork, the reglet cuts must be minimally invasive and the mortar fill must match the existing mortar color and texture. This precision work distinguishes qualified chimney flashing repair from the surface-mounted caulk jobs that fail within two seasons.',
-    'Multi-chimney homes in Montrose Park and along Prospect Street multiply the scope and complexity of chimney flashing projects. Each chimney sits at a different location on the roof, with different slope orientations, exposure conditions, and flashing geometries. A comprehensive chimney flashing repair on a three-chimney Tudor may involve copper step flashing fabricated in three different profiles, three cricket assemblies with different drainage patterns, and counter-flashing installations in masonry of varying condition. The project scope on South Orange homes regularly exceeds what contractors experienced only with single-chimney Cape Cods anticipate.',
-    'Accessing chimney flashing on South Orange\'s steep-pitch roofs requires specialized staging that positions workers safely at the chimney base while providing the working platform needed for flashing fabrication and installation. Scaffolding erected to chimney height on the exterior provides better access than roof-side approaches on the steepest pitches, but the staging logistics and cost increase project overhead. This access complexity is a reality of working on the architecturally significant homes throughout South Orange and neighboring [West Orange](/chimney-flashing-repair-west-orange-nj).'
+    '**Mortar deterioration** drives most chimney flashing failure on South Orange\'s aging pre-war homes, because as the mortar joint ages it cracks and releases the counter flashing from its reglet, allowing water behind the step flashing below. Surface caulk alone over no underlying metal cracks within a few years from masonry-versus-roof movement and freeze-thaw, per IIBEC.',
+    '**Period detailing** on the large Victorians, Colonial Revivals, and Tudor Revivals of Montrose Park and the Wyoming sections shapes the flashing scope, because slate, metal, and copper roofs and decorative masonry demand counter flashing set cleanly into the mortar joint rather than a surface patch. A Newark Quality Roofing crew matches the new flashing stock to the existing roof color and product line.',
+    '**Wide chimneys** on the larger period homes require a cricket on the upslope side where the chimney measures wider than 30 inches parallel to the ridge, per IRC Section R1003.20, to divert water, ice, and snow around the masonry. The heavy South Mountain canopy that South Orange streets carry, over 8,000 shade trees across 181 Village streets per the Township Fast Facts, loads the upslope face with debris that dams meltwater without the cricket.',
   ],
   process: [
-    'Chimney flashing assessment examines the complete chimney-to-roof interface. We inspect step flashing courses for displacement and corrosion, counter-flashing embedments for mortar deterioration and separation, cricket condition and drainage pattern, chimney crown and cap integrity, and the surrounding roofing material for damage caused by flashing-related water entry. The assessment identifies every contributing failure point, preventing the common scenario where repairing one flashing element shifts water entry to the next weakest point in the assembly.',
-    'Flashing fabrication and installation uses copper sheet formed to the specific chimney profile. Step flashing pieces are cut and bent to match the roof pitch and chimney geometry, with each piece sized to the masonry coursing at its installation location. Counter-flashing is formed in sections that follow the mortar joint pattern of the decorative masonry. Cricket framing is constructed with pressure-treated lumber and covered with soldered copper sheet that directs water around the chimney to the adjacent roof planes. Every copper joint receives soldered connections rather than the caulk-and-overlap shortcuts that fail within a few heating seasons.',
-    'Completed chimney flashing work receives mortar fill in the reglet cuts, matching the existing mortar color as closely as available materials allow. The surrounding roofing material -- slate, cedar shake, or shingle -- is reset against the new flashing with appropriate overlap and sealant. Final documentation photographs show every flashing course, the cricket assembly, and the counter-flashing embedment for the homeowner\'s maintenance records. We recommend annual chimney flashing inspection as part of routine roof maintenance to catch early deterioration before water entry develops.'
+    '**Newark Quality Roofing inspects all 4 chimney transitions — the downslope apron, the two sidewall step runs, and the upslope head or cricket — and traces the entry point before resealing.** A crew starts at the chimney because it is the roof\'s largest and most leak-prone penetration, and a continuous one-piece strip at the sidewall flags a defective original installation, per InterNACHI and shingle-manufacturer guidance.',
+    '**Newark Quality Roofing rebuilds the NRCA two-part system: step and base flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint.** The counter flashing locks into the masonry mechanically rather than relying on adhesive that masonry-versus-roof movement and freeze-thaw crack within a few years, per IIBEC, and a crew sets a self-adhering ice-and-water membrane at the chimney base that self-seals around fasteners, per ASTM D1970. Where a chimney exceeds 30 inches parallel to the ridge, a crew builds a cricket, per IRC Section R1003.20.',
+    '**Newark Quality Roofing fills the reglet, resets the surrounding slate, shingle, or metal against the new flashing, and documents the completed transition with photographs.** A lead verifies watertight execution at every chimney transition and runs a magnet sweep for nails before leaving the property, and the photo record supports a South Orange homeowner\'s maintenance file or any insurance claim.',
   ],
   faqs: [
     {
-      question: 'How do I know if my South Orange chimney flashing needs repair?',
-      answer: 'Interior water stains on the ceiling or wall near the chimney are the most obvious indicator. From the exterior, look for gaps between the metal flashing and the chimney masonry, rust-colored staining on the brickwork below the flashing, or displaced step flashing pieces along the chimney sides. Missing mortar around flashing embedments and deteriorated chimney crown conditions also signal impending flashing failure even before active leaking begins.'
+      question: 'Does a chimney flashing repair on a South Orange home need a permit?',
+      answer:
+        'A repair of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit, per the NJ Uniform Construction Code, filed through the Township of South Orange Village Building Department at 76 South Orange Avenue, where plan review runs within 20 business days.',
     },
     {
-      question: 'Why does chimney flashing fail on South Orange homes?',
-      answer: 'The primary failure mechanism is mortar deterioration around the counter-flashing embedments. As mortar joints age and weather, they crack and crumble, releasing the counter-flashing from its reglet and allowing water behind the step flashing below. Thermal expansion differences between copper or aluminum flashing and masonry create cyclical stress that accelerates separation. On homes over 50 years old, the original flashing material itself may have corroded beyond functional integrity.'
+      question: 'Does a chimney flashing repair in Montrose Park need extra approval?',
+      answer:
+        'Exterior roofing work on a designated property in the Montrose Park Historic District requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from a construction permit. The Certificate is a local-ordinance requirement set by Village Code Chapter 185, not by National Register listing, so it applies only inside the locally designated district and to designated local landmarks, not Village-wide. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'Do you also repair the chimney masonry during flashing work?',
-      answer: 'We address the masonry conditions that directly affect flashing performance -- tuckpointing mortar joints where counter-flashing embeds, and repairing chimney crown and cap conditions that allow water entry from above. Extensive chimney masonry restoration beyond the flashing zone is referred to our masonry partners who specialize in that scope. We coordinate scheduling to complete masonry and flashing work in proper sequence.'
+      question: 'Why does chimney flashing leak more than the rest of a South Orange roof?',
+      answer:
+        'The chimney is the roof\'s largest penetration, and the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA. A chimney needs the apron, sidewall step, and upslope transitions all sealed, so a single failed counter flashing or cracked caulk joint admits water into the chase on the large pre-war homes that define South Orange.',
     },
     {
-      question: 'How long does chimney flashing repair take on a South Orange Tudor?',
-      answer: 'A single chimney typically requires one to two days for complete flashing replacement including cricket construction. Multi-chimney projects on larger homes span three to five days depending on access conditions and the complexity of each chimney\'s geometry. Weather delays can extend the timeline, as flashing installation requires dry conditions for proper mortar work and sealant application. We schedule chimney flashing projects during seasonal windows that minimize weather risk.'
+      question: 'Is caulk a permanent fix for chimney flashing?',
+      answer:
+        'Caulk or roofing cement alone over no underlying metal is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A permanent repair rebuilds the NRCA two-part system: base and step flashing woven one piece per shingle course plus a separate counter flashing set into a reglet cut in the mortar joint.',
+    },
+    {
+      question: 'Do you need a cricket behind a chimney?',
+      answer:
+        'A cricket, or saddle, is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20. The cricket diverts water, ice, and snow around the chimney instead of letting the upslope face dam debris and meltwater against the masonry, a real concern under South Orange\'s heavy street-tree canopy.',
     },
     {
       question: 'How much does chimney flashing repair cost in South Orange, NJ?',
-      answer: 'Most chimney flashing repair projects in South Orange range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Chimney flashing repair costs $300–$1,800, with most repairs $400–$1,600 and a spot reseal $150–$300, per HomeGuide and Angi cost data. The two-part rebuild, the chimney width, and whether a cricket is required set the cost. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Chimney flashing repair in South Orange NJ -- custom copper flashing for Tudor and Colonial Revival homes with decorative chimneys.',
+  metaDescription:
+    'Chimney flashing repair in South Orange NJ — NRCA two-part base-and-counter flashing on pre-war Victorian, Colonial, and Tudor chimneys. Free written estimate.',
   pricing: {
-    range: '$400–$1,500',
-    note: 'chimney flashing and counter-flashing',
+    range: '$300–$1,800',
+    note: 'Typical chimney flashing repair range per HomeGuide and Angi; most repairs $400–$1,600, a spot reseal $150–$300. Final cost depends on the two-part rebuild, chimney width, and whether a cricket is required. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with South Orange\'s large pre-war homes, Montrose Park, and the Seton Hall / Village-center buildings.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free chimney flashing repair estimate in South Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for chimney flashing repair in South Orange.',
+    urgencyNote: 'Addressing chimney flashing early limits interior and structural water damage from the roof\'s most leak-prone penetration.',
   },
 };

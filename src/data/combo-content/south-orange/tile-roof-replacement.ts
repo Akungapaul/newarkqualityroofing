@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const southOrangeTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'south-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing tile roof replacement across South Orange, New Jersey, and Essex County, stripping the clay or concrete tile and worn underlayment to the deck on the Village\'s large pre-war homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [
-    'Newark Quality Roofing delivers expert tile roof replacement in South Orange — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in South Orange Village restores the distinctive clay and concrete tile roofing that defines the village\'s Mediterranean Revival, Spanish Colonial, and Italian Renaissance homes from the 1920s building era. When original tile has deteriorated beyond repair or the underlayment beneath has failed systemically, replacement with new freeze-rated tile maintains the architectural authenticity that defines these South Orange properties.',
-    'The tile replacement decision in South Orange typically arrives when the 1920s-era underlayment beneath original clay tiles has deteriorated to the point where individual tile repairs no longer address the systemic waterproofing failure below the tile surface. The tiles themselves may remain structurally sound, but the felting and flashing beneath have reached the end of their century-long service. In these cases, replacement involves lifting and resetting salvageable original tiles on new underlayment rather than replacing the tile material itself.',
-    'For situations where the original tile material has also deteriorated -- cracking from freeze-thaw cycling, spalling from moisture absorption, breakage from impact -- new tile replacement requires sourcing products that match the original profile and color while providing the freeze resistance that northern New Jersey\'s climate demands. Modern clay and concrete tiles from manufacturers like Ludowici and Boral offer freeze-rated formulations that outperform the original tiles while maintaining period-appropriate appearance.',
-    'Our tile replacement work in [South Orange](/roofing-in-south-orange-nj) combines the roofing expertise needed for proper underlayment and flashing installation with the specialized tile handling skills that prevent breakage during removal, storage, and reinstallation of salvageable original material.'
+    '**Newark Quality Roofing replaces clay and concrete tile roofs** on South Orange\'s large pre-war Victorians, Colonial Revivals, and Tudor Revivals, stripping the tile and worn underlayment to the deck and re-laying a new underlayment-and-tile system over a load-rated structure.',
+    '**Clay and concrete tile** detail the Village\'s large pre-war stock, where over half the housing predates 1940 and 82% predates 1960, per the Township planning evaluation. Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years.',
+    '**The underlayment** is the real service-life limiter, failing well before the tile, per the Tile Roofing Industry Alliance and This Old House, so a Newark Quality Roofing tile replacement renews the underlayment and flashing while salvaging or matching the tile profile. Interior leaks under intact tile and slipped or sliding tile across the field both trace to the underlayment, not the tile.',
+    '**The deck** takes a full tear-off, because a clay or concrete tile covering cannot be roofed-over and the NJ Rehabilitation Subcode requires complete removal of the existing covering before new roofing, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing tear-off exposes the sheathing for inspection and replaces the plank or deteriorated decking discovered beneath years of underlayment leakage.',
   ],
   challenges: [
-    'Structural assessment for tile replacement on South Orange homes must verify that the existing framing supports tile weight with current safety margins. Homes originally built for tile carry framing designed for the load, but a century of service may have weakened members through moisture exposure or insect damage. We verify structural adequacy before committing to tile replacement, engaging structural engineers when conditions warrant.',
-    'Salvaging and resetting original tile requires careful handling of fragile century-old material. Each tile must be lifted without cracking, cleaned of old mortar and debris, inspected for structural integrity, stored securely during the underlayment replacement phase, and reset in proper coursing on the new substrate. Breakage rates during this process are unavoidable, and sufficient replacement tile must be sourced before the project begins to cover both the anticipated breakage and any tiles too deteriorated for reuse. Homeowners in [Maplewood](/tile-roof-replacement-maplewood-nj) with similar vintage tile face identical preservation challenges.',
-    'Freeze-rated tile selection for new replacement material requires product research that standard tile roofing regions do not demand. Many clay and concrete tile products are manufactured for warm-climate markets and will not survive northern New Jersey freeze-thaw cycling. We specify products tested and rated for freeze-thaw performance, with documentation from the manufacturer confirming suitability for our climate zone.'
+    '**Structural load** governs a tile replacement on South Orange\'s large pre-war homes, because tile is heavy and the deck and framing carry the tile dead load, so a Newark Quality Roofing assessment verifies the structure before setting new tile. A structural change to rafters or trusses to carry that load triggers a construction permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance re-roof exemption.',
+    '**The underlayment** beneath sound tile drives most South Orange tile replacements, because the underlayment fails well before the tile and is the real service-life limiter, per the Tile Roofing Industry Alliance and This Old House. A Newark Quality Roofing replacement lifts the tile, renews the underlayment and flashing, and re-lays salvaged tile in its original coursing.',
+    '**Freeze-thaw spalling** ages concrete tile in the Essex County climate, because northern New Jersey crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR). Surface flaking on concrete tile and impact damage from the South Mountain Reservation ridgeline both point toward a matching-profile tile replacement.',
+    '**Historic-district review** applies inside the Montrose Park Historic District, where the heaviest concentration of Queen Anne, Colonial Revival, and Tudor Revival homes carries period tile, slate, and copper detailing. Exterior roofing on a designated property requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from the construction permit.',
   ],
   process: [
-    'Tile replacement assessment determines whether the project involves resetting salvageable original tile on new underlayment, full replacement with new tile, or a combination approach. We evaluate the tile material condition, the underlayment and flashing condition beneath, and the structural framing capacity. The assessment establishes the project scope and material sourcing requirements before work begins.',
-    'For salvage-and-reset projects, tiles are carefully removed in sequence, cleaned, inspected, and stacked for storage. Deteriorated underlayment and flashing are removed, and the deck is inspected and repaired. New synthetic underlayment, ice-and-water shield, and counter-batten drainage systems are installed. Salvaged tiles are reset in their original coursing pattern with new mortar at ridges and hips. Replacement tiles fill gaps where originals were too damaged for reuse.',
-    'For full replacement projects, the existing tile and underlayment are removed completely. Deck repair and new underlayment follow our premium substrate protocol. New tile installation proceeds from eave to ridge with proper fastening, mortar work at hips and ridges, and valley and penetration flashing integrated with the tile coursing. The completed installation maintains the architectural character of the original while providing modern underlayment and drainage performance beneath the traditional tile surface.'
+    '**Newark Quality Roofing verifies the deck and framing carry the tile dead load, dates the underlayment that sets the service life, and rates the tile and flashing before quoting a South Orange tile replacement.** Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, and the underlayment fails well before the tile, so the assessment confirms structural capacity and plans a full tear-off to the deck, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing strips the tile and the failed underlayment to the deck, repairs the sheathing, installs an ice barrier and a tile-rated underlayment, and re-lays the tile to manufacturer specification.** A full tear-off exposes the deck for replacement of plank or plywood rotted under the old underlayment, the complete removal the NJ Rehabilitation Subcode requires because a tile roof cannot be roofed-over, per N.J.A.C. 5:23-6.4. The IRC R905.1.2 ice-barrier provision requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the International Residential Code.',
+    '**Newark Quality Roofing salvages sound tile, matches the profile of replacement tile to the existing roof, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor.** Tile cannot be patched and takes a matching-profile course, so a Newark Quality Roofing replacement re-lays salvaged tile and fills gaps with matching tile, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance. A designated Montrose Park property files a Certificate of Appropriateness before the work begins.',
   ],
   faqs: [
     {
-      question: 'Can my original 1920s clay tiles be reused during replacement?',
-      answer: 'In many cases, yes. Original clay tiles that are structurally sound can be carefully removed, cleaned, and reset on new underlayment. Breakage during the salvage process is expected, typically 10-20 percent depending on tile condition. We source replacement tiles to cover both anticipated breakage and tiles too deteriorated for reuse. The savings from reusing original tile versus purchasing all new material are significant, and the original tiles maintain authentic appearance.'
+      question: 'Why does my South Orange tile roof leak when the tile is still intact?',
+      answer:
+        'A tile roof leaks under intact tile when the underlayment beneath the tile fails, because the underlayment is the real service-life limiter and fails well before the tile, per the Tile Roofing Industry Alliance and This Old House. A Newark Quality Roofing tile replacement lifts the tile, renews the underlayment and flashing, and re-lays the salvaged tile, the work that resets the service life on the large pre-war South Orange homes.',
     },
     {
-      question: 'How long does a tile roof replacement take in South Orange?',
-      answer: 'Tile replacement projects take longer than shingle work due to the individual piece handling involved. A salvage-and-reset project on a moderately sized South Orange home typically requires three to five weeks. Full replacement with new tile may move somewhat faster without the salvage handling phase. Weather delays can extend the timeline during the underlayment-replacement phase when weather protection is critical.'
+      question: 'Can a tile roof be roofed over instead of torn off?',
+      answer:
+        'A tile roof cannot be roofed-over and takes a full tear-off to the deck, because the NJ Rehabilitation Subcode requires complete removal of an existing clay, cement, or slate tile covering before new roofing, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing tile replacement strips the tile and the failed underlayment to the bare sheathing, which exposes the plank or deteriorated decking common on South Orange\'s pre-war stock for inspection and repair.',
     },
     {
-      question: 'Are modern tile products as attractive as my original clay tiles?',
-      answer: 'Modern clay tiles from premium manufacturers like Ludowici closely replicate the profiles and colors of historical production. They offer the additional advantage of engineered freeze resistance that original tiles may lack. Color matching to weathered originals is not precise, but the tonal range available in current production covers most South Orange original installations adequately. We bring samples for comparison before material selection.'
+      question: 'Do I need a permit to replace a tile roof in South Orange?',
+      answer:
+        'A complete re-roof of the tile covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; a commercial roof, a structural change to carry the tile load, or work beyond ordinary maintenance does require one, per the NJ Uniform Construction Code. A permit is filed through the Township of South Orange Village Building Department at 76 South Orange Avenue, where plan review runs within 20 business days.',
     },
     {
-      question: 'Is tile roof replacement cost-effective for my South Orange home?',
-      answer: 'Tile replacement makes economic sense when the home\'s architectural style specifically calls for tile roofing and the homeowner values maintaining authentic character. The cost exceeds asphalt shingle and approaches natural slate pricing, but the 75-plus-year service life and unique aesthetic cannot be replicated by other materials. For homes where tile is architecturally integral, no alternative material achieves the same result.'
+      question: 'Does a tile roof replacement in the Montrose Park Historic District need extra approval?',
+      answer:
+        'Exterior roofing work on a designated property in the Montrose Park Historic District requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from a construction permit. The Certificate of Appropriateness is a local-ordinance requirement set by Village Code Chapter 185, not by National Register listing, so it applies only inside the locally designated district and to designated local landmarks, not Village-wide. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
+    },
+    {
+      question: 'Does my South Orange home structure carry the weight of a tile roof?',
+      answer:
+        'A tile roof is heavy, so the deck and framing carry the tile dead load, and a Newark Quality Roofing assessment verifies the structure before setting new tile on a large pre-war South Orange home. A structural change to rafters or trusses to carry the tile load triggers a construction permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance re-roof exemption, per the NJ Uniform Construction Code.',
     },
     {
       question: 'How much does tile roof replacement cost in South Orange, NJ?',
-      answer: 'Most tile roof replacement projects in South Orange range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A tile roof replacement in New Jersey runs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with clay tile carrying a higher material cost than concrete tile, per the Tile Roofing Industry Alliance. NJ ranges sit roughly 10–40% above national figures because labor accounts for most of an install total and NJ code is stricter, per HomeGuide. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Tile roof replacement in South Orange NJ -- clay and concrete tile for Mediterranean and Spanish Revival village homes.',
+  metaDescription:
+    'Tile roof replacement in South Orange NJ — clay and concrete tile on large pre-war homes, full tear-off, Montrose Park historic. NJ-registered, free estimate.',
   pricing: {
-    range: '$18,000–$40,000',
-    note: 'tile roof replacement installed',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with South Orange\'s large pre-war homes, Montrose Park, and the Seton Hall / Village-center buildings.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free tile roof replacement estimate in South Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for tile roof replacement in South Orange.',
+    urgencyNote: 'Addressing a failed underlayment early limits interior and structural water damage under the tile.',
   },
 };

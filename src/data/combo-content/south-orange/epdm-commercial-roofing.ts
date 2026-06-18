@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const southOrangeEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'south-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing EPDM commercial roofing across South Orange, New Jersey, and Essex County**, installing and servicing EPDM rubber membrane on the low-slope roofs of Village-center and SOPAC-area storefronts and the Seton Hall University campus, as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**EPDM commercial roofing** is a single-ply synthetic-rubber membrane installed on flat and low-slope commercial roofs to seal the building against water entry. EPDM attaches mechanically, fully adheres, or holds under ballast, with the splice seams joining the sheets.',
   overview: [
-    'Newark Quality Roofing delivers expert epdm commercial roofing in South Orange — with prices starting from $6–$11/sq ft and free estimates available today. EPDM commercial roofing in South Orange Village serves the institutional, retail, and mixed-use buildings that support the village\'s compact, walkable commercial core. The synthetic rubber membrane\'s proven performance history across four decades of northern New Jersey winters and summers gives property owners and facility managers confidence in a material that has demonstrated its resilience through countless freeze-thaw cycles, hurricane remnants, and the intense UV exposure that south-facing flat roofs endure during Essex County summers.',
-    'Seton Hall University\'s campus maintenance portfolio includes EPDM installations on older academic and residential buildings that predate the TPO era. Our commercial team maintains and repairs these existing EPDM systems while also installing new EPDM where the material\'s specific properties -- superior cold-weather flexibility, excellent ozone resistance, and time-tested seam durability -- make it the most appropriate choice. The university\'s property management appreciates our ability to work within both EPDM and TPO systems without defaulting to a single-material approach regardless of application.',
-    'The village center buildings along South Orange Avenue, many dating to the early and mid-twentieth century, carry flat roof systems that require periodic replacement as membranes reach the end of their service life. EPDM remains a preferred option for these buildings because the rubber membrane accommodates the minor structural movement that older masonry buildings experience without the seam stress that stiffer membranes can produce. Property owners along [South Orange](/roofing-in-south-orange-nj) Avenue value our transparent comparison of EPDM, TPO, and PVC options, with recommendations based on each building\'s specific conditions rather than crew preference or material markup.',
-    'Commercial EPDM installations in South Orange deliver reliable waterproofing without the reflective surface appearance that TPO provides. For buildings where energy-efficient cool-roof performance is desired from an EPDM system, we offer factory-applied or field-applied reflective coatings that achieve comparable solar reflectance while maintaining EPDM\'s inherent flexibility and cold-weather performance advantages.'
+    '**Newark Quality Roofing installs and services EPDM commercial roofing** on the flat and low-slope roofs of South Orange, seam-bonding the rubber membrane against water entry. The work covers the Village-center and SOPAC-area storefronts around the NJ Transit station and the institutional roof inventory of the Seton Hall University campus.',
+    '**EPDM rubber membrane** seals a low-slope South Orange roof in a single-ply synthetic-rubber sheet, lasting 15 to 25 years, per the InterNACHI life-expectancy chart, against TPO at 7 to 20 years and modified bitumen at 20 years on the same chart. EPDM fails most often at the splice seams, with membrane shrinkage and ponding-water stretching as secondary failure modes, per NRCA technical guidance.',
+    '**Village-center and SOPAC-area storefronts** carry the flat low-slope roofs around the NJ Transit South Orange station, where the rubber membrane accommodates the minor structural movement of older masonry buildings without the seam stress a stiffer membrane carries. A Newark Quality Roofing installation seam-bonds the membrane and engineers positive drainage before the roof carries water.',
+    '**The Seton Hall University campus** adds a substantial low-slope roof inventory across its 58-acre footprint — academic buildings and residence halls with flat roofs distinct from the Village\'s pre-war residential stock. A Newark Quality Roofing scope sizes the attachment method, the insulation, and the drainage slope to each building and the NJ code.',
   ],
   challenges: [
-    'EPDM seam integrity on South Orange commercial buildings depends on adhesive quality and application conditions that less experienced contractors frequently compromise. The contact adhesive used for EPDM seam bonding requires specific temperature and humidity ranges for proper curing, and seams applied outside these parameters develop adhesive failure within a few years. Our installation crews monitor ambient conditions throughout the workday and suspend seaming operations when temperatures or humidity fall outside the manufacturer\'s specified application window, even when schedule pressure pushes for continued production.',
-    'Foot traffic damage on commercial EPDM roofs in South Orange accumulates over time as HVAC technicians, telecommunications installers, and building maintenance personnel access rooftop equipment without awareness of the membrane beneath their feet. Tool drops, dragged equipment, and chemical spills from refrigerant handling create localized damage that undermines the membrane\'s waterproofing integrity. We design traffic management systems with walk pads connecting all access points and equipment locations, and we provide building owners with rooftop access protocols for distribution to service contractors who access the roof.',
-    'The organic debris load from South Orange\'s tree canopy creates unique maintenance demands for commercial EPDM surfaces. Leaves and twigs decomposing on the membrane surface create acidic conditions that can degrade the rubber over time, and clogged drains from accumulated debris lead to ponding water that accelerates EPDM aging. Buildings near South Mountain Reservation and in the densely wooded Montrose Park section face the heaviest debris loads, requiring more frequent clearing schedules than commercial buildings in [East Orange](/epdm-commercial-roofing-east-orange-nj) or other communities with less tree canopy coverage.'
+    '**Seam separation** is the dominant EPDM failure mode, per NRCA technical guidance, because the splice seams that join the rubber sheets open before the membrane field fails. A Newark Quality Roofing installation seam-bonds the membrane with primer, splice tape, and lap adhesive to the manufacturer specification, the bond that addresses the seam separation that ends EPDM service.',
+    '**Ponding water** standing on a South Orange low-slope roof more than 48 hours counts as a defect that stretches and ages the membrane, because a flat roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. A Newark Quality Roofing scope sets tapered insulation to clear the standing water before the membrane goes down.',
+    '**Tree-canopy debris** loads a South Orange commercial roof harder than a roof in a less-wooded community, because the Township maintains over 8,000 shade trees across 181 Village streets, per the Township Fast Facts, and decomposing leaf load on the membrane clogs drains and feeds the ponding that ages EPDM. A Newark Quality Roofing maintenance scope clears the drains and the membrane surface.',
+    '**Foot traffic** from rooftop HVAC, telecommunications, and maintenance access punctures and abrades a commercial EPDM membrane over time, the localized damage that opens the waterproofing layer. A Newark Quality Roofing installation routes walk pads between access points and equipment and documents the rooftop access detail in the project record.',
   ],
   process: [
-    'Commercial EPDM installation in South Orange follows a methodical sequence from substrate preparation through final inspection. After removing the existing roofing system and repairing any deck deterioration, we install rigid insulation in tapered configuration to establish positive drainage toward internal drains or perimeter scuppers. The insulation layout eliminates ponding zones that would trap debris and standing water on the completed membrane surface.',
-    'EPDM membrane is rolled out, positioned, and bonded to the insulation substrate using full-spread adhesive application. We use large-format sheets to minimize seam quantity, reducing the potential failure points across the roof surface. All seams receive contact adhesive applied to both surfaces, dried to proper tack, and rolled with heavy consolidation rollers. Seam edges are sealed with lap sealant, and every linear foot of seam is inspected visually before the next membrane panel is positioned. Perimeter termination uses extruded aluminum bars mechanically fastened into masonry or blocking.',
-    'Penetration flashings are the most failure-prone elements on any commercial EPDM roof, and our detailing protocol addresses each penetration individually. Prefabricated EPDM boots are fully primed and bonded to the field membrane with overlap dimensions exceeding minimum manufacturer standards. Irregular penetrations receive field-fabricated flashings from uncured EPDM sheet, molded to the penetration geometry and fully adhered. Every penetration is documented in the project record with photographs showing the completed flashing detail. The property owner receives this documentation along with the manufacturer warranty registration and our workmanship warranty.'
+    '**Newark Quality Roofing inspects the deck and the existing membrane, sizes the wind-uplift attachment against the NJ design wind speed, and designs the insulation and drainage slope before tear-off.** Wind-uplift analysis sets the attachment method — mechanically attached, fully adhered, or ballasted — per ASCE 7 as adopted by the NJ Uniform Construction Code, and tapered insulation creates at least ¼ inch per foot of slope to clear the ponding water the NRCA and ARMA count as a defect after 48 hours.',
+    '**Newark Quality Roofing clears the NJ permit triggers, strips or recovers the roof in managed sections, and repairs the deck.** On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, filed through the Township of South Orange Village Building Department at 76 South Orange Avenue, where plan review runs within 20 business days. The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing sets the EPDM membrane, bonds the splice seams to manufacturer specification, and flashes the penetrations, then documents the completed roof.** Splice seams join with primer, splice tape, and lap adhesive rather than adhesive alone, and the curbs, penetrations, and perimeters seal with manufacturer-approved EPDM components, the detail work that addresses the seam separation and membrane shrinkage that drive EPDM failure, per NRCA technical guidance. The property owner receives photographs of the completed flashing detail alongside the manufacturer system warranty registration and a written workmanship warranty on the labor.',
   ],
   faqs: [
     {
-      question: 'Why choose EPDM over TPO for my South Orange commercial building?',
-      answer: 'EPDM excels in cold-weather flexibility, performing without brittleness at temperatures where some TPO products stiffen and become vulnerable to cracking. For South Orange buildings with minimal rooftop equipment and lower foot traffic, EPDM provides excellent long-term waterproofing at a lower material cost than TPO. For buildings where energy-efficient reflectivity matters, TPO holds the advantage. We evaluate each building individually and recommend the membrane that best fits the specific conditions.'
+      question: 'How long does a commercial EPDM roof last in South Orange?',
+      answer:
+        'A commercial EPDM rubber membrane lasts 15 to 25 years, per the InterNACHI life-expectancy chart, against TPO at 7 to 20 years and modified bitumen at 20 years on the same chart. Seam separation is the failure mode that ends EPDM service, with membrane shrinkage and ponding-water stretching as secondary failure modes, per NRCA technical guidance.',
     },
     {
-      question: 'How thick should an EPDM membrane be for a South Orange commercial roof?',
-      answer: 'We specify 60-mil EPDM as the standard for South Orange commercial installations. The thicker 90-mil option is appropriate for roofs with heavy foot traffic, extensive mechanical equipment, or when the owner wants maximum puncture resistance and the longest possible service life. The 45-mil thickness that budget-focused contractors offer does not provide adequate durability for the demands commercial buildings in South Orange place on their roofing systems.'
+      question: 'Do you need a permit for a commercial EPDM roof in South Orange, NJ?',
+      answer:
+        'A commercial EPDM roof requires a construction permit, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period on a commercial, multi-family, or attached building, per N.J.A.C. 5:23-2.7. The Township of South Orange Village Building Department at 76 South Orange Avenue administers the state classification, with plan review within 20 business days, and the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4.',
     },
     {
-      question: 'How often should an EPDM commercial roof be inspected in South Orange?',
-      answer: 'We recommend semi-annual inspections -- once after fall leaf drop and once in spring. The fall inspection focuses on debris clearing, drain cleaning, and membrane condition before winter freeze-thaw cycling begins. The spring inspection assesses any winter damage, checks seams for adhesive integrity, and clears pollen and seed debris. Buildings with heavy tree canopy exposure should add a mid-autumn clearing when leaf drop is heaviest.'
+      question: 'Does a Montrose Park property need extra approval for low-slope roof work?',
+      answer:
+        'Exterior roofing work on a designated property in the Montrose Park Historic District requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from a construction permit. The Certificate of Appropriateness is a local-ordinance requirement set by Chapter 185, not by National Register listing, so it applies only inside the locally designated district and to designated local landmarks, not Village-wide. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'Can you repair an existing EPDM roof rather than replacing it on my South Orange building?',
-      answer: 'Yes, if the membrane is generally sound with localized damage. We repair punctures, seam separations, and flashing failures on existing EPDM systems, extending the roof\'s service life without the cost and disruption of full replacement. When repair locations become extensive or the membrane shows widespread surface degradation, replacement becomes more cost-effective than continued patching. Our inspection report provides an honest assessment of repair-versus-replace economics for each building.'
+      question: 'Why choose EPDM over TPO for a South Orange commercial roof?',
+      answer:
+        'EPDM rubber membrane records 15 to 25 years, per the InterNACHI life-expectancy chart, while TPO records 7 to 20 years on the same chart. EPDM fails most often at the splice seams and TPO at the welded seams, per NRCA technical guidance, so a Newark Quality Roofing assessment matches the membrane to the building, the rooftop equipment, and the Essex County climate.',
     },
     {
-      question: 'How much does epdm commercial roofing cost in South Orange, NJ?',
-      answer: 'Most epdm commercial roofing projects in South Orange range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Can you repair an existing EPDM roof instead of replacing it?',
+      answer:
+        'A sound EPDM roof with localized damage repairs at the seams, flashing, and punctures rather than replacing the field. A Newark Quality Roofing scope reseals the failed splice seams and penetration flashing where EPDM fails most often, per NRCA technical guidance. Full membrane replacement costs less than continued spot repair once damage exceeds 25 to 30% of the roof area or leaks recur at the same location, per Parish, Modernize, and HomeGuide flat-roof guidance.',
+    },
+    {
+      question: 'How much does commercial EPDM roofing cost in South Orange, NJ?',
+      answer:
+        'EPDM commercial roofing in New Jersey runs $7.00 to $10.00 per square foot installed, per Josten Roofing NJ pricing, with flat-roof repair at $2.50 to $10.00 per square foot, per HomeGuide cost data. NJ ranges sit roughly 10 to 40% above national figures because of higher labor and stricter NJ code, per HomeGuide. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'EPDM commercial roofing in South Orange NJ -- proven rubber membrane systems for village businesses and Seton Hall University facilities.',
+  metaDescription:
+    'EPDM commercial roofing in South Orange NJ — rubber membrane on Village-center, SOPAC, and Seton Hall low-slope roofs. NJ-registered, free written estimate.',
   pricing: {
-    range: '$6–$11/sq ft',
-    note: 'EPDM rubber membrane system',
+    range: '$7.00–$10.00/sq ft installed',
+    note: 'Typical NJ installed EPDM range per Josten Roofing NJ pricing; final cost depends on roof size, attachment method, insulation, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with South Orange\'s Village-center and SOPAC storefronts and the Seton Hall low-slope roof inventory.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free epdm commercial roofing estimate in South Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for EPDM commercial roofing in South Orange.',
+    urgencyNote: 'Resealing failed seams and clearing ponding water early limits interior and structural water damage.',
   },
 };

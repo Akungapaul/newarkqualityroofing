@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const southOrangeFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'south-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing full roof tear off across South Orange, New Jersey, and Essex County, stripping every roof layer to the deck on the Village\'s large pre-war Victorians, Colonials, and Tudors** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
-    'Newark Quality Roofing delivers expert full roof tear off in South Orange — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off in South Orange Village removes every layer of existing roofing material down to the bare deck, revealing the substrate condition that overlay installations conceal and providing the clean foundation that premium roofing materials require for optimal performance. On South Orange\'s architecturally significant homes -- where roofing investments in slate, cedar shake, and designer shingles run well into five figures -- starting with a verified, structurally sound deck is not an option but an absolute requirement.',
-    'The tear-off process on South Orange homes frequently uncovers conditions that change the project scope. Decades of slow leaks at flashing junctions, ice dam damage at eaves, and moisture migration through poorly ventilated attic spaces leave deteriorated decking that must be replaced before new roofing proceeds. Our commitment to full tear-off rather than overlay ensures these hidden conditions are discovered and corrected, protecting the substantial roofing investment that follows.',
-    'South Orange\'s older housing stock often carries multiple roofing layers from successive installations that were overlaid rather than torn off. A Tudor Revival in Montrose Park may have original slate with a shingle overlay from the 1960s and another layer from the 1990s -- three generations of roofing material adding unnecessary weight and concealing deck conditions. Our [full roof tear-off](/full-roof-tear-off) service removes all accumulated layers, returning the roof to its structural starting point.',
-    'Waste management during tear-off in South Orange\'s residential neighborhoods requires careful containment that prevents debris from damaging landscaping, vehicles, and neighboring properties. We deploy ground-level tarps, magnetic nail sweepers, and enclosed debris chutes that direct tear-off material into dumpsters rather than across the property. The village\'s dense residential development means neighboring homes are close, and debris control is a commitment we take seriously on every [South Orange](/roofing-in-south-orange-nj) tear-off project.'
+    '**Newark Quality Roofing strips a roof to the bare deck, inspects and repairs the sheathing, then installs a new underlayment-and-cover system** on South Orange\'s large pre-war Victorians, Colonials, and Tudors and on the Village-center and Seton Hall low-slope roofs. A full tear off exposes the deck a recover cannot, the foundation under any new South Orange roof.',
+    '**The deck a recover hides** is the reason a tear off serves South Orange\'s aging stock, because a recover leaves the underlying layers difficult to inspect so rot and water damage go uncaught, while a tear off lets a roofer inspect the deck, repair any damage, and improve deck attachment, per the Asphalt Roofing Manufacturers Association and InterNACHI. Over half of the Village\'s housing predates 1940 and 82% predates 1960, per the Township planning evaluation, so decades of slow flashing leaks leave deteriorated sheathing that surfaces only at tear off.',
+    '**A code-mandated tear off** governs much of the pre-war stock, because the NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the deck is water-soaked or deteriorated, when the covering is wood shake, slate, clay, cement, or asbestos-cement tile, or when a roof already carries 2 or more layers, per N.J.A.C. 5:23-6.4. A South Orange slate or multi-layer roof falls on that full-removal path.',
+    '**Village-center and Seton Hall low-slope roofs** carry the institutional and commercial side of South Orange tear off, because the Village center around the NJ Transit station and the South Orange Performing Arts Center and the Seton Hall University 58-acre campus hold EPDM, TPO, and modified-bitumen membranes. A Newark Quality Roofing tear off removes the failed membrane to the deck before a new low-slope system goes down.',
   ],
   challenges: [
-    'Tear-off on South Orange\'s steep-pitch Tudors and Colonials generates debris at angles and velocities that flat-roof tear-off does not produce. Material sliding off an 8:12 or 10:12 pitch gains momentum that carries it well beyond the roof edge if not contained by debris nets and scaffolding-mounted catch platforms. The steep-pitch safety equipment our crews use protects both workers and the property below, but the setup time and equipment cost add to the project overhead that steep-pitch South Orange homes inherently require.',
-    'Preserving salvageable components during tear-off adds time and care to what is otherwise a demolition process. Copper valleys, decorative copper ridge caps, and reusable slate may have value worth salvaging from a South Orange tear-off. We identify salvageable components before tear-off begins and remove them carefully for the homeowner\'s future use or sale. This selective preservation respects the material value present in South Orange\'s premium roofing systems while proceeding efficiently through the bulk tear-off work.',
-    'Weather exposure during the tear-off period creates vulnerability that South Orange homeowners must understand before committing to the project timeline. Once roofing material is removed, the exposed deck is vulnerable to any precipitation until underlayment and new roofing are installed. We plan tear-off scope to match the crew\'s ability to install underlayment protection before the end of each working day, and we monitor forecasts to avoid starting tear-off when multi-day rain events are predicted. This weather-aware scheduling protects properties across [Maplewood](/full-roof-tear-off-maplewood-nj) and South Orange alike.'
+    '**Multi-layer pre-war roofs** define the South Orange tear off, because a recover where 2 layers already exist is prohibited and a future re-roof over 2 layers then requires removing both, per N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1. A Newark Quality Roofing tear off strips every accumulated layer to a single sound base.',
+    '**Deteriorated sheathing** surfaces once the covering comes off South Orange\'s mature stock, because roofing nails penetrate at least ¾ inch into the deck to grip, so sheathing rotted soft, delaminated, or swollen cannot hold a nail and gets replaced, per ARMA nail-application guidance, while saturated OSB swells at the edges and delaminates irreversibly rather than drying, per InterNACHI. A Newark Quality Roofing crew re-decks the failed sections before any new covering goes down.',
+    '**Tree-canopy and reservation-edge debris** load the decks a tear off exposes, because the Township maintains over 8,000 shade trees across 181 Village streets, per the Township Fast Facts, and South Orange borders the South Mountain Reservation on the Reservation\'s eastern edge along the Village\'s western boundary, per Essex County Parks, where the wooded ridgeline drops branches that hold moisture in valleys and fracture the covering. A Newark Quality Roofing tear off clears that debris load and replaces the decking it has rotted.',
+    '**Salvageable period detailing** adds care to a Montrose Park or Wyoming-section tear off, because copper valleys, copper ridge caps, and reusable slate carry material value worth removing intact before the bulk strip. A Newark Quality Roofing crew identifies and sets aside salvageable components for the homeowner before the demolition proceeds.',
   ],
   process: [
-    'Tear-off preparation establishes the containment and protection measures that safeguard the property throughout the demolition phase. Ground-level tarps protect landscaping, driveways, and walkways. Scaffolding or ladder-bracket staging provides working platforms at the roof edge. Debris chutes direct tear-off material from the roof to dumpsters positioned for efficient collection. Adjacent structures, vehicles, and outdoor furnishings are covered or relocated beyond the debris zone.',
-    'Tear-off proceeds systematically from ridge to eave, removing all roofing material, underlayment, and any accumulated debris layers. On multi-layer roofs, each generation of material is removed completely. Nails and fasteners from previous installations are extracted or driven flush. The exposed deck surface is swept clean and inspected for deterioration. Damaged decking sections are marked for replacement, and the crew reports the repair scope to the project manager before proceeding with deck work.',
-    'With tear-off complete and deck repairs finished, the clean substrate receives its new underlayment system. Synthetic high-temperature underlayment provides the secondary waterproofing layer. Ice-and-water shield membrane covers all eaves, valleys, and penetration surrounds. Drip edge protects every perimeter. The prepared deck is ready for the new roofing material installation, starting from a verified, structurally sound foundation that ensures the new roofing system achieves its full expected service life.'
+    '**Newark Quality Roofing inspects the roof and attic underside, counts the existing covering layers, and identifies which N.J.A.C. 5:23-6.4 removal condition applies before any work begins.** A crew checks for a water-soaked deck, a wood-shake or slate covering, or 2 or more existing layers, per the NJ Uniform Construction Code, and sets a written estimate covering scope, labor, materials, disposal, and timeline on South Orange\'s large pre-war stock.',
+    '**Newark Quality Roofing strips all covering, underlayment, and overlay layers to the bare sheathing, contains the debris, and disposes of the stripped material.** Ground tarps protect landscaping and walkways, debris chutes direct material to dumpsters, and a magnet sweep clears nails before the crew leaves the property, because old-roof removal runs $1–$5 per square foot by material weight, per HomeGuide national cost data, the removal a recover skips.',
+    '**Newark Quality Roofing replaces deteriorated sheathing, installs an ice barrier at the eaves, applies synthetic underlayment, and installs the cover to manufacturer specification, the sequence that keeps the manufacturer warranty intact.** The ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision as enforced under N.J.A.C. 5:23, and installing to specification preserves the material warranty separate from the written workmanship warranty backing the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'Why is full tear-off better than overlay for my South Orange home?',
-      answer: 'Full tear-off reveals deck conditions that overlay conceals, allows proper underlayment and ice-and-water shield installation, eliminates the excess weight of accumulated roofing layers, and ensures the new roofing material lays flat against a smooth substrate. On South Orange homes where roofing investments are substantial, starting with a verified foundation protects that investment for the full expected service life.'
+      question: 'When does New Jersey code require a full roof tear off in South Orange?',
+      answer:
+        'N.J.A.C. 5:23-6.4 requires complete removal of the existing covering in 3 conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying 2 or more layers. The NJ Rehabilitation Subcode adds wood shake to the IRC Section R908.3.1.1 removal list, per the NJ Uniform Construction Code, so many of South Orange\'s slate and multi-layer pre-war roofs fall on the full-removal path.',
     },
     {
-      question: 'How long does a tear-off take on a South Orange home?',
-      answer: 'A typical South Orange Colonial requires one day for complete tear-off with a full crew. Larger Montrose Park estates with complex rooflines may require two days. Deck repair scope, if discovered during tear-off, may add time depending on the extent of deterioration. Weather delays can extend the timeline if conditions prevent safe work on steep pitches.'
+      question: 'Do I need a permit for a full roof tear off in South Orange, NJ?',
+      answer:
+        'A complete tear off and replacement of the roof covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building crosses into permit territory once roof work exceeds 25% of the roof area in 12 months, filed through the Township of South Orange Village Building Department at 76 South Orange Avenue, where plan review runs within 20 business days, and so does any structural change to rafters or trusses.',
     },
     {
-      question: 'What happens to the old roofing material from my South Orange tear-off?',
-      answer: 'Standard asphalt shingle material is collected in dumpsters and hauled to recycling facilities that process shingles into road base material. Slate removed during tear-off is evaluated for salvage potential -- usable slate has resale value. Cedar shake and wood materials are disposed of through standard construction waste channels. Copper and metal components are recycled. We handle all disposal and recycling logistics.'
+      question: 'Does a full roof tear off on a Montrose Park home need extra approval?',
+      answer:
+        'Exterior roofing work on a designated property in the Montrose Park Historic District requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from a construction permit. The Certificate of Appropriateness is a local-ordinance requirement set by Village Code Chapter 185, not by National Register listing, so it applies only inside the locally designated district and to designated local landmarks, not Village-wide. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'Will tear-off damage my South Orange home landscaping?',
-      answer: 'We deploy protective ground tarps beneath the work zone and use debris chutes that direct material into dumpsters rather than dropping it from roof height. Plants directly beneath the roof edge receive additional protection with plywood shields. Despite these precautions, some minor disturbance is possible on beds immediately adjacent to the building. We repair any landscape damage our work causes as part of the project completion cleanup.'
+      question: 'Why choose a full tear off over a roof-over on my South Orange home?',
+      answer:
+        'A full tear off strips the roof to the deck so the sheathing is inspected and repaired, while a roof-over installs a new layer over the existing covering and hides any deck rot underneath. A tear off lets a roofer inspect the deck, repair damage, and improve deck attachment, per the Asphalt Roofing Manufacturers Association and InterNACHI. A recover also adds roughly 2 to 4.5 pounds per square foot of dead load, per shingle-weight conversion data from Dumpsters.com and Angi, and traps heat that industry estimates cut shingle service life by about 20 to 30%, per Angi. On South Orange\'s large pre-war stock, a tear off starts the new roof from a single verified base.',
     },
     {
-      question: 'How much does full roof tear off cost in South Orange, NJ?',
-      answer: 'Most full roof tear off projects in South Orange range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What happens if the deck is rotted under my old South Orange roof?',
+      answer:
+        'A full tear off exposes the deck, and Newark Quality Roofing replaces sheathing that has rotted soft, delaminated, or swollen, because roofing nails penetrate at least ¾ inch into the deck to grip, per ARMA nail-application guidance. Saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI. Decades of slow flashing leaks and tree-canopy moisture load the decks of South Orange\'s pre-war homes, so deteriorated sheathing surfaces only once the covering is stripped.',
+    },
+    {
+      question: 'How much does a full roof tear off cost in South Orange, NJ?',
+      answer:
+        'Old-roof removal runs $1–$5 per square foot by material weight, and a New Jersey roof replacement costs $10,000–$25,000 for a typical home with the tear off included, per HomeGuide national data and HomeAdvisor and Modernize NJ cost data. Removal runs $1–$3 per square foot for shingles and $2–$5 for heavier slate or tile, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Full roof tear-off in South Orange NJ -- complete removal to the deck for clean, verified substrate on village home replacements.',
+  metaDescription:
+    'Full roof tear off in South Orange NJ — strip to the deck on pre-war Victorians, Tudors, and Seton Hall low-slope roofs. NJ-registered, free written estimate.',
   pricing: {
-    range: '$9,000–$26,000',
-    note: 'complete tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range with tear off included, per HomeAdvisor and Modernize; old-roof removal runs $1–$5 per square foot by material weight, per HomeGuide. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with South Orange\'s large pre-war homes, Montrose Park, and the Seton Hall / Village-center buildings.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free full roof tear off estimate in South Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for full roof tear off in South Orange.',
+    urgencyNote: 'A full tear off exposes deteriorated decking before it weakens the structure or feeds interior water damage.',
   },
 };

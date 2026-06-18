@@ -3,51 +3,67 @@ import type { ComboContent } from '../schema';
 export const maplewoodReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'maplewood',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing re roofing across Maplewood, New Jersey, and Essex County, replacing a worn covering with a new underlayment-and-cover system on the township\'s architect-designed Tudor, Colonial Revival, and Italian Revival homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in Maplewood — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing restores weatherproof protection and curb appeal to Maplewood homes where the existing roof has reached the end of its functional life. Whether through full tear-off and replacement or overlay on eligible single-layer roofs, re-roofing transforms an aging liability into a 25-30 year asset that protects the home, reduces energy costs, and enhances property value in Maplewood\'s competitive real estate market. Our [re-roofing](/re-roofing) projects in [Maplewood](/roofing-in-maplewood-nj) deliver material upgrades, ventilation improvements, and waterproofing enhancements that bring aging homes up to modern performance standards.',
-    'Maplewood\'s active housing market makes re-roofing one of the highest-return home improvements available. Real estate agents consistently identify a new roof as a top-three factor in buyer decisions, and homes with recently replaced roofs sell faster and at higher prices than comparable homes with aging systems. For homeowners preparing properties for sale, re-roofing removes the most significant objection buyers raise during inspection while demonstrating overall home maintenance quality.',
-    'Re-roofing also presents the opportunity to correct ventilation, insulation, and flashing deficiencies that have been hidden beneath the aging roof surface. During our re-roofing projects on Maplewood\'s older homes, we routinely upgrade soffit ventilation, install continuous ridge vent, add ice-and-water shield at all vulnerable transitions, and repair deteriorated fascia and soffit boards. These concurrent improvements are most cost-effective when performed during re-roofing, since the roof surface is already open and accessible. Homeowners re-roofing in [Millburn](/re-roofing-millburn-nj) capture the same concurrent improvement efficiencies during their projects.',
+    '**Newark Quality Roofing re-roofs Maplewood\'s architect-designed Tudor, Colonial Revival, and Italian Revival homes and Maplewood Village storefronts**, replacing a worn covering with a new underlayment-and-cover system once the roof reaches the end of its service life.',
+    '**Architect-designed homes** carry the residential volume, because Maplewood runs 74.9% owner-occupied across about 9,051 housing units, per the U.S. Census Bureau, so a Newark Quality Roofing re-roof matches the new system to a period Tudor, Colonial Revival, or Italian Revival roof and replaces deteriorated plank sheathing exposed at tear-off.',
+    '**Worn coverings** reach the replacement decision through age and condition: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance.',
+    '**Maplewood Village and Springfield Avenue storefronts** carry the low-slope side, where EPDM, TPO, and modified-bitumen membranes last 15 to 25, 7 to 20, and 20 years respectively, per the InterNACHI chart, on roofs that need at least one-quarter inch per foot of slope to drain, per the NRCA and ARMA. A Newark Quality Roofing re-roof grades the deck to drain.',
   ],
   challenges: [
-    'Material selection for re-roofing in Maplewood must balance architectural appropriateness with modern performance expectations. The township\'s design-conscious homeowners expect re-roofing to enhance their home\'s architectural character, which means matching shingle profiles, colors, and textures to the specific style of each home. A Colonial Revival on Oakland Road calls for different aesthetic choices than a Tudor in the Hilton neighborhood or an Arts and Crafts bungalow near Jefferson Village.',
-    'Scheduling re-roofing around Maplewood\'s weather patterns and tree-related constraints requires seasonal awareness. South Mountain Reservation\'s canopy drops debris continuously from spring through late autumn, complicating work-in-progress management on western properties where exposed deck surfaces accumulate leaves and organic matter faster than crews can clean them. We schedule western Maplewood re-roofing projects with additional labor for debris management.',
+    '**Plank and deteriorated sheathing** define the re-roofing condition on Maplewood\'s architect-designed early-20th-century homes, because a full tear-off strips the covering to the deck and exposes the rotted board sheathing beneath, per ARMA. A Newark Quality Roofing re-roof replaces the deteriorated sheathing before the new underlayment and cover go down.',
+    '**Reservation-edge canopy** loads the western Wyoming section, where the South Mountain Reservation reaches into Maplewood\'s wooded western and northwestern edge and presses heavy tree canopy against the roofs. Leaf and branch debris collects on an exposed deck faster than a crew clears it, so a Newark Quality Roofing re-roof schedules added debris management on the reservation-edge homes.',
+    '**Recover limits** govern whether a Maplewood re-roof tears off or overlays, because the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4. A recover over one sound layer traps heat that industry estimates cut shingle life by roughly 20 to 30%, per Angi.',
   ],
   process: [
-    'Re-roofing begins with comprehensive assessment that evaluates existing roof condition, deck structure, ventilation adequacy, and flashing integrity. Based on this assessment, we recommend either full tear-off or overlay, specify the appropriate roofing material for the home\'s architectural style, and identify concurrent improvement opportunities that should be addressed during the project.',
-    'Project execution follows our standard phased approach: systematic tear-off or overlay preparation, deck inspection and repair, waterproofing membrane installation at all critical transitions, and new roofing material installation from eave to ridge. All concurrent improvements, including ventilation upgrades, fascia repair, and flashing replacement, are integrated into the installation sequence at the appropriate phase.',
-    'Project completion includes final inspection, cleanup verification, and warranty registration. We walk the finished roof with the homeowner, explaining all work performed and pointing out the concurrent improvements that enhance long-term performance. Warranty documentation covers both material and workmanship, with clear terms that the homeowner can reference if questions arise during the warranty period.',
+    '**Newark Quality Roofing confirms the re-roofing decision against the contractor-consensus thresholds, then strips the worn covering to the deck.** Damage across more than 25 to 30% of the roof area crosses the 25% rule and a repair approaching 50% of replacement cost crosses the 50% rule, per WeatherShield, RapidRestore, and Home Depot cost data, and a localized repair stays economical only while an asphalt roof stays under 10 to 15 years old.',
+    '**Newark Quality Roofing inspects the exposed Maplewood deck and replaces deteriorated plank sheathing, then installs an ice barrier, synthetic underlayment, and the new cover to manufacturer specification.** A full tear-off exposes rotted plywood or board sheathing a recover would hide, per ARMA, and the ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision. Installing to manufacturer specification keeps the material warranty intact, per Owens Corning warranty guidance.',
+    '**Newark Quality Roofing matches the new system to the building from five material classes, then verifies the install and runs a magnet sweep for nails at cleanup.** The classes are 3-tab asphalt, architectural asphalt, standing-seam metal, slate for the period Tudor and Colonial Revival stock, and low-slope membrane for the Village and Springfield Avenue storefronts, with the lifespan of each named from the InterNACHI life-expectancy chart. A written workmanship warranty backs the labor, separate from the manufacturer material warranty.',
   ],
   faqs: [
     {
-      question: 'When is the best time to re-roof in Maplewood?',
-      answer: 'Late spring and early fall offer the best re-roofing conditions in Maplewood. Summer heat makes attic work uncomfortable and can affect shingle adhesive during installation. Winter cold prevents proper shingle sealing. We schedule projects year-round but recommend April-June and September-November for optimal conditions and material performance.',
+      question: 'Do you need a permit to re-roof a home in Maplewood, NJ?',
+      answer:
+        'A detached one- or two-family re-roof in Maplewood needs no construction permit, no inspection, and no notice, because a full tear-off and replacement of the roof covering counts as ordinary maintenance under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area within 12 months requires a permit from the Township of Maplewood Construction Division at 574 Valley Street, decided within 20 business days, per the Township of Maplewood. A structural change to rafters or trusses still triggers a permit.',
     },
     {
-      question: 'How do I choose the right shingle for my Maplewood home\'s style?',
-      answer: 'We bring material samples to your home and photograph mock-ups against your specific exterior for color and texture evaluation. For Victorians, we recommend designer shingles with dimensional profiles that complement decorative trim. For Colonials, classic architectural shingles in traditional colors suit the style. For Tudors, high-profile shingles or synthetic materials that evoke the original wood shake appearance work best.',
+      question: 'Does a re-roof on a Maplewood Village historic home need a Certificate of Appropriateness?',
+      answer:
+        'A private homeowner re-roof in Maplewood Village requires no Certificate of Appropriateness, because the Maplewood Village Historic District is listed on the National Register only, which the National Park Service confirms places no restriction on a private owner. Maplewood maintains a Historic Preservation Commission and a historic-preservation ordinance under Article VIII of the municipal code, and exterior roofing work on a property in a locally designated Maplewood historic district or landmark falls under a township Certificate of Appropriateness — confirm current local designation with the Township.',
     },
     {
-      question: 'What is included in a re-roofing project besides new shingles?',
-      answer: 'Our re-roofing projects include new drip edge, ice-and-water shield at eaves and valleys, synthetic underlayment, pipe boot and penetration flashings, ridge vent installation, and step flashing at all wall-to-roof transitions. We also inspect and repair fascia, soffit, and existing flashing as needed. The scope extends well beyond the visible shingle surface to ensure comprehensive roof system performance.',
+      question: 'Does a Maplewood re-roof require a full tear-off, or can you overlay?',
+      answer:
+        'A Maplewood re-roof requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over one sound asphalt layer hides deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20 to 30%, per ARMA and Angi, so Maplewood\'s older plank-deck homes favor tear-off where deck condition or code requires it.',
+    },
+    {
+      question: 'Which roofing material suits a re-roof on a Maplewood architect-designed home?',
+      answer:
+        'A re-roof matches the building across five material classes: 3-tab asphalt at 20 years, architectural asphalt at 30 years, metal at 40 to 80 years, slate at 60 to 150 years, and low-slope membrane at 7 to 25 years. The lifespans trace to the InterNACHI life-expectancy chart and the National Slate Association. Natural slate and metal suit the period Tudor, Colonial Revival, and Italian Revival roofs, while the Maplewood Village and Springfield Avenue storefronts carry low-slope EPDM, TPO, or modified-bitumen membrane.',
     },
     {
       question: 'How much does re roofing cost in Maplewood, NJ?',
-      answer: 'Most re roofing projects in Maplewood range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Re-roofing in New Jersey costs $10,000 to $25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000 to $11,000 per industry replacement benchmarks. NJ ranges sit 10 to 40% above national figures because labor accounts for roughly 60 to 70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors, and Maplewood\'s larger architect-designed homes and steep slate slopes raise the figure. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Re-roofing services in Maplewood NJ. Complete roof renewal for Victorians, Colonials, and Tudors with modern materials and ventilation.',
+  metaDescription:
+    'Re-roofing in Maplewood NJ — tear-off and replacement for architect-designed Tudor, Colonial, and slate homes and Village storefronts. NJ-registered, free.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Maplewood\'s architect-designed early-20th-century homes and Village storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in Maplewood — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re roofing in Maplewood.',
+    urgencyNote: 'Re-roofing a covering past its service life limits interior and structural water damage.',
   },
 };

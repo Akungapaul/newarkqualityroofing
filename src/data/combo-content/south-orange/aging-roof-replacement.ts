@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const southOrangeAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'south-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing aging roof replacement across South Orange, New Jersey, and Essex County, stripping end-of-life slate, metal, asphalt, and low-slope membrane roofs** on the Village\'s large pre-war homes and Seton Hall and Village-center buildings as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.',
   overview: [
-    'Newark Quality Roofing delivers expert aging roof replacement in South Orange — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in South Orange Village addresses the planned transition from worn-out roofing to new installation before the deteriorating material fails catastrophically and causes the water damage that emergency replacement cannot prevent. South Orange homeowners who monitor their roof condition and plan replacement proactively protect both their home\'s interior and their financial position by avoiding the premium costs and limited material options that emergency situations impose.',
-    'The pre-war homes that define South Orange carry roofing materials installed across multiple decades -- some original, some from mid-century renovations, some from the 1990s re-roofing boom. Each material has a finite service life, and recognizing when that life is ending allows planned replacement on the homeowner\'s schedule rather than the weather\'s. Asphalt shingles approaching 25-30 years, cedar shake beyond 30-35 years, and even century-old slate showing widespread delamination all signal that planned replacement serves the property better than continued patching.',
-    'South Orange\'s real estate market rewards proactive roof replacement. Homes listed with recent roofing attract buyer confidence and stronger offers than properties where aging roofing raises inspection concerns. For homeowners planning to sell within the next several years, replacing an aging roof before listing eliminates a common negotiation point and presents the property in its best condition. The investment typically recovers a significant percentage of its cost through enhanced sale price.',
-    'Our aging roof replacement service in [South Orange](/roofing-in-south-orange-nj) provides the planning timeline that proactive replacement demands. We assess aging roof conditions, project remaining service life, discuss material options for the replacement, and schedule the project within a timeline that optimizes weather conditions, material availability, and the homeowner\'s budget planning across seasons.'
+    '**Newark Quality Roofing replaces aging slate, metal, copper, asphalt, and low-slope membrane roofs** across South Orange\'s large pre-war Victorians, Colonial Revivals, and Tudor Revivals plus the Seton Hall and Village-center buildings. Aging roof replacement strips a roof past its service life to the deck, repairs the sheathing, and installs a new underlayment-and-cover system before age-driven failure begins.',
+    '**Aging slate, metal, and copper** detail the Village\'s large Victorian, Colonial Revival, and Tudor Revival homes, where natural slate lasts 60 to 150 years, metal 40 to 80 years, and copper 70 years or more, per the InterNACHI life-expectancy chart. Over half of South Orange\'s housing stock predates 1940 and 82% predates 1960, per the Township planning evaluation, so a slate or metal roof on a Montrose Park or Wyoming-section home fails at corroded fasteners and degraded valley and chimney flashing before the tile itself.',
+    '**Aging asphalt** covers the Village\'s Colonials, Capes, and smaller detached homes, where architectural shingles last 30 years and 3-tab 20 years, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing re-roof replaces a covering near the end of that range. Widespread granule loss that exposes the asphalt mat marks shingles near end of life, per GAF and InterNACHI, and a roof carrying 3 or more repairs in 2 years crosses the contractor-consensus threshold that favors replacement over continued spot repair.',
+    '**Aging low-slope membrane** ages out on the Seton Hall University 58-acre campus, the SOPAC-area mixed-use blocks, and the Village-center storefronts around the NJ Transit station, where EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart. A Newark Quality Roofing membrane replacement strips the failed system, grades the deck to drain, and installs the new cover to manufacturer specification.',
   ],
   challenges: [
-    'Determining the optimal replacement timing requires balancing the remaining service life against the risk of continued use. An aging roof that still sheds water adequately tempts homeowners to defer replacement, but the gradual deterioration that precedes failure -- granule loss exposing asphalt, cedar softening beneath apparently intact surfaces, slate delamination weakening attachment -- reduces the safety margin between functional performance and catastrophic failure. Our assessment evaluates these degradation indicators to help South Orange homeowners make timing decisions based on condition rather than hope.',
-    'Material selection during planned replacement allows the deliberate evaluation that emergency replacement precludes. South Orange homeowners can compare material options over weeks rather than days, visit installed examples in the neighborhood, evaluate color samples in different lighting conditions, and make confident selections. This thoughtful approach produces results that homeowners in [Millburn](/aging-roof-replacement-millburn-nj) and South Orange live with for decades, justifying the time invested in proper material evaluation.',
-    'Budget planning for aging roof replacement on South Orange\'s premium homes involves amounts that warrant financial preparation. A comprehensive re-roofing project with premium materials on a substantial Montrose Park estate represents a significant investment. Planned replacement allows homeowners to arrange financing, coordinate with home equity credit lines, or budget across tax years in ways that emergency replacement does not permit.'
+    '**Tear-off discovery** drives the heaviest cost variable on South Orange\'s large pre-war stock, because plank and deteriorated sheathing hidden under decades of roofing surfaces only when the crew strips the covering to the deck. A Newark Quality Roofing replacement replaces the rotted plywork or OSB before the new system goes down, the work the NJ Rehabilitation Subcode requires on a water-soaked deck, per N.J.A.C. 5:23-6.4.',
+    '**Period detailing** on the Village\'s Victorians and Tudors ages at the valleys, chimneys, and dormers, where the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing replacement rebuilds the slate, copper, and metal transitions that fail before the field covering itself.',
+    '**Tree-canopy debris** loads the aging roofs along the South Mountain border and the dense Village streets, because the Township maintains over 8,000 shade trees across 181 Village streets, per the Township Fast Facts. Leaf load holds moisture in valleys and gutters that accelerates the deck and flashing decay a replacement corrects, and falling branches off the reservation ridgeline fracture slate and crack shingles.',
+    '**Historic-district approval** governs a replacement on a designated Montrose Park property, where exterior roofing work requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from the construction permit. A Newark Quality Roofing replacement matches the slate, copper, and profile the Commission reviews before scheduling the tear-off.',
   ],
   process: [
-    'Aging roof assessment documents the current condition, identifies the degradation indicators present, and projects the remaining functional service life. We evaluate granule retention on asphalt shingles, fiber integrity on cedar shake, structural soundness on slate, and seam condition on metal panels. The assessment provides the homeowner with an honest timeline -- how long the existing roof will likely continue to perform acceptably and when replacement should be completed to avoid failure-driven urgency.',
-    'Replacement planning develops the project scope, material specification, timeline, and budget. Material consultation presents options appropriate for the home\'s architecture and the owner\'s goals. We provide detailed proposals with specified products, installation scope, and pricing that the homeowner can evaluate alongside financing options. Scheduling targets the optimal weather window within the homeowner\'s preferred timeline.',
-    'Replacement execution follows our standard protocol -- full tear-off, deck inspection and repair, complete underlayment system, and precision installation of the selected roofing material. The planned nature of aging roof replacement allows material pre-ordering that ensures the specified product is available when installation begins, preventing the substitutions and delays that emergency replacements sometimes encounter. The completed installation provides decades of reliable protection backed by manufacturer and workmanship warranties.'
+    '**Newark Quality Roofing rates the aging roof against its material lifespan and the contractor-consensus age and 3-repairs rules, then quotes a full replacement.** A roof reaches end of service after a material-specific lifespan: architectural asphalt at 30 years, metal at 40 to 80, and slate at 60 to 150, per the InterNACHI life-expectancy chart, and a roof carrying 3 or more repairs in 2 years crosses the threshold that favors replacement over continued spot repair on South Orange\'s aging steep-slope stock.',
+    '**Newark Quality Roofing matches the new system to the home and confirms the historic and permit path before scheduling.** A detached one- or two-family re-roof, including a full tear-off, counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a Village-center, SOPAC-area, multi-family, or Seton Hall commercial roof files through the Township of South Orange Village Building Department at 76 South Orange Avenue, where plan review runs within 20 business days. A designated Montrose Park property requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185 first.',
+    '**Newark Quality Roofing strips the aging roof to the deck, repairs the sheathing exposed at tear-off, installs an ice barrier and synthetic underlayment, and installs the cover to manufacturer specification.** A full tear-off exposes the deck for replacement of plywork or OSB rotted under the old roof, the removal the NJ Rehabilitation Subcode requires when the covering is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. A magnet sweep for nails clears the property before the crew leaves, and a written workmanship warranty backs the labor separate from the manufacturer material warranty, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How do I know when my South Orange roof needs replacement?',
-      answer: 'Asphalt shingles approaching 25-30 years with visible granule loss, curling, and brittle texture are approaching replacement age. Cedar shake showing widespread softening, splitting, and moss penetration beyond surface treatment is reaching its end. Slate with delamination, widespread cracking, and fastener corrosion needs replacement. A professional inspection provides the definitive assessment, but these visible signs from the ground indicate the conversation should begin.'
+      question: 'When should an aging South Orange roof be replaced instead of repaired?',
+      answer:
+        'Replace an aging roof when it passes its material lifespan, carries 3 or more repairs in 2 years, or shows widespread granule loss, curling, and a spongy deck; repair an asphalt roof under 10 to 15 years old. The age rule and the 3-repairs rule are contractor-consensus thresholds, and a localized repair stays economical only while the roof holds young, per industry repair-vs-replace cost data. Widespread granule loss that exposes the asphalt mat marks shingles near end of life, per GAF and InterNACHI.',
     },
     {
-      question: 'Can I replace my aging roof in phases?',
-      answer: 'Phased replacement -- one slope or section at a time -- is possible but not generally recommended. Each phase requires full mobilization of crew and equipment, and the transition between old and new sections creates temporary flashing conditions that must be managed carefully. The total cost of phased replacement typically exceeds single-phase completion. Phased approaches make most sense on large Montrose Park properties where the total scope exceeds a single-season budget.'
+      question: 'How long does each roofing material last before replacement on a South Orange home?',
+      answer:
+        'Natural slate lasts 60 to 150 years, metal 40 to 80 years, copper 70 years or more, architectural asphalt 30 years, and 3-tab asphalt 20 years, per the InterNACHI life-expectancy chart. On the Village-center, SOPAC, and Seton Hall low-slope roofs, EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the same chart, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA.',
     },
     {
-      question: 'What is the best time of year for roof replacement in South Orange?',
-      answer: 'Late spring through early fall provides the best weather conditions for South Orange roof replacement. Shingle adhesive activates properly in warm temperatures, and the longer daylight hours allow more productive working days. Fall installations before the first frost work well for shingles that have time to seal before cold weather. Winter installation is possible but carries weather risk and some material limitations.'
+      question: 'Do you need a permit to replace an aging roof in South Orange, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in South Orange counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building, including a Village-center, SOPAC-area, or Seton Hall roof, requires a permit through the Township of South Orange Village Building Department at 76 South Orange Avenue, where plan review runs within 20 business days, and so does any structural change to rafters or trusses.',
     },
     {
-      question: 'How much advance notice do you need for a planned replacement?',
-      answer: 'We recommend contacting us three to six months before your preferred installation window. This lead time allows thorough consultation, material selection, and scheduling during the optimal weather period. Standard shingle products require less lead time, while specialty materials like slate, cedar shake, or custom copper fabrication may need longer procurement periods. Early engagement ensures the project proceeds on your preferred timeline.'
+      question: 'Does a Montrose Park historic-district home need extra approval to replace its roof?',
+      answer:
+        'Exterior roofing work on a designated property in the Montrose Park Historic District requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from a construction permit. The Certificate of Appropriateness is a local-ordinance requirement set by Village Code Chapter 185, not by National Register listing, so it applies only inside the locally designated district and to designated local landmarks, not Village-wide. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
+    },
+    {
+      question: 'Does replacing an aging roof add value at resale in South Orange?',
+      answer:
+        'A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per Zillow analysis, so replacing an aging roof returns value at sale as well as ending the leak risk. Older homes report roof leakage at 5.5% against 3.5% for newer homes, roughly twice the rate, per US Census housing-survey data, and South Orange\'s large pre-war stock sits past its design life, so a planned replacement targets a roof before the leak rate climbs.',
     },
     {
       question: 'How much does aging roof replacement cost in South Orange, NJ?',
-      answer: 'Most aging roof replacement projects in South Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Aging roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit roughly 10–40% above national figures because labor accounts for most of an install total and NJ code is stricter, per HomeGuide, and slate, copper, and full tear-off of a multi-layer or water-soaked deck add cost on South Orange\'s large pre-war homes. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Aging roof replacement in South Orange NJ -- planned replacement with premium materials before deterioration causes damage.',
+  metaDescription:
+    'Aging roof replacement in South Orange NJ — end-of-life slate, metal, asphalt, and low-slope membrane on pre-war homes and Seton Hall roofs. NJ-registered.',
   pricing: {
-    range: '$8,500–$25,000',
-    note: 'replacing end-of-life roofing',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with South Orange\'s large pre-war homes, Montrose Park, and the Seton Hall and Village-center buildings.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free aging roof replacement estimate in South Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for aging roof replacement in South Orange.',
+    urgencyNote: 'Replacing a roof past its lifespan limits interior and structural water damage.',
   },
 };

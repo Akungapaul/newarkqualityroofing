@@ -3,51 +3,72 @@ import type { ComboContent } from '../schema';
 export const maplewoodRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'maplewood',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof replacement after a leak across Maplewood, New Jersey, and Essex County, stripping a chronically leaking roof to the deck and replacing rotted sheathing on the township\'s architect-designed early-20th-century homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof replacement after a leak** strips a roof whose chronic or widespread leaking has saturated the underlayment and deck, replaces rotted sheathing, and installs a new roof system. It addresses moisture damage that a surface repair cannot reverse.',
   overview: [
-    'Newark Quality Roofing delivers expert roof replacement after leak in Maplewood — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak resolves the chronic water infiltration that repair alone cannot permanently stop on Maplewood homes where systemic material failure, widespread deck damage, or fundamental design flaws make continued patching impractical. When a Maplewood homeowner has invested in multiple leak repairs without lasting resolution, the roof is telling them that the problem is no longer localized. Our [replacement after leak](/roof-replacement-after-leak) approach in [Maplewood](/roofing-in-maplewood-nj) eliminates every contributing failure point by removing the entire compromised system and installing new roofing with modern waterproofing protection at every vulnerable location.',
-    'Maplewood\'s older Victorian and Colonial homes are the most frequent candidates for leak-driven replacement. These homes accumulate decades of repair history, often involving multiple contractors with varying skill levels, creating a patchwork of incompatible repairs that undermine the roof system\'s overall integrity. Each repair may have temporarily stopped one leak path only to redirect water to a different failure point. Full replacement is the definitive solution that addresses every accumulated deficiency simultaneously.',
-    'Water damage from chronic leaks on Maplewood homes often extends well beyond the roof itself. Saturated insulation, rotted framing, damaged plaster and drywall, and mold growth in concealed wall and ceiling cavities accumulate over months or years of recurring leaks. Our replacement scope includes assessment and remediation of water damage within the accessible roof structure, providing a clean foundation for the new roof system. Homeowners facing similar chronic leak situations in [South Orange](/roof-replacement-after-leak-south-orange-nj) reach the same conclusion that comprehensive replacement outperforms continued repair investment.',
+    '**Newark Quality Roofing replaces a roof after a chronic leak across Maplewood** when repair no longer holds — on the township\'s architect-designed Tudor, Colonial Revival, and Italian Revival homes and on Maplewood Village and Springfield Avenue storefronts. Roof replacement after a leak resets the underlayment-and-cover system rather than patching the detail that admits water.',
+    '**Chronic leaks** on Maplewood\'s older architect-designed stock trace to one detail and travel before showing as an interior stain, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A repair stops a single failed detail, while replacement after a leak addresses a roof past service life: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart.',
+    '**Architect-designed early-20th-century homes** in Maplewood frequently reveal plank or deteriorated sheathing at tear-off, because trapped moisture from a prolonged leak decays sheathing until it loses the ability to grip a roofing nail, per InterNACHI. A Newark Quality Roofing replacement strips the roof to the deck so the rot a chronic leak leaves behind no longer hides under the cover, then replaces deteriorated plank, plywood, or OSB before any new roofing is applied.',
+    '**Maplewood Village and Springfield Avenue storefronts** carry low-slope EPDM, TPO, and modified-bitumen membranes, where recurring leaks in the same spot indicate a systemic membrane failure that a patch does not resolve, per HomeAdvisor flat-roof guidance. EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing membrane replacement reseals or rebuilds at the seams and penetrations where each system fails.',
   ],
   challenges: [
-    'Concealed water damage from chronic leaks on Maplewood homes can extend further than pre-project estimates anticipate. Water follows gravity and capillary paths through framing that channel moisture to locations distant from the original entry point. Full scope of deck and framing damage is only revealed during tear-off, requiring on-the-fly scope adjustments that extend project duration and cost. Our proposals include contingency allowances sized for the severity of the known leak history.',
-    'Mold remediation may be required when chronic leaks have created conditions for mold growth in concealed spaces. If mold is discovered during tear-off, work must pause for professional mold assessment and remediation before roofing proceeds. We coordinate with licensed mold remediation contractors to address these situations promptly when they arise.',
+    '**Concealed deck rot** is the defining Maplewood replacement-after-leak condition, because a prolonged leak on the township\'s older architect-designed stock decays plank or panel sheathing under the cover until it no longer grips a roofing nail, per InterNACHI. A Newark Quality Roofing tear-off exposes the full extent of the rot and replaces the deteriorated decking before new roofing is applied.',
+    '**Reservation-edge canopy** along Maplewood\'s wooded western and northwestern side, where the South Mountain Reservation reaches into the Wyoming section, drops leaf load and branches that clog valleys and gutters and hold moisture against the covering, feeding the chronic leaks that drive replacement. A Newark Quality Roofing scope clears the blockage and rebuilds the valley and flashing details that failed.',
+    '**Mold from prolonged moisture** can develop in concealed framing and insulation when a leak has run unaddressed. Newark Quality Roofing is not licensed to remediate mold; where mold is found at tear-off, the roofing pauses for a qualified remediation contractor before the deck is restored and the new roof installed.',
   ],
   process: [
-    'Pre-replacement assessment documents the leak history, identifies all known water entry points, and inspects the attic for evidence of moisture damage to framing, insulation, and deck. This assessment establishes the anticipated remediation scope and informs the contingency budget for concealed damage likely to be discovered during tear-off.',
-    'Tear-off reveals the full extent of water damage that has accumulated beneath the failed roof system. Our crews inspect every square foot of exposed deck, probing for soft spots and marking damaged areas for replacement. Rotted framing members are sistered or replaced per structural specifications. All saturated insulation is removed and replaced. The deck is restored to solid, dry condition before any new roofing is applied.',
-    'New roof installation incorporates enhanced waterproofing at every location where the previous system failed. Ice-and-water shield membrane covers all eaves, valleys, wall-to-roof transitions, and chimney surrounds. Flashing details use step-and-counter systems that exceed code minimums. Ventilation improvements address any moisture-retention conditions that contributed to the chronic leak pattern.',
+    '**Newark Quality Roofing traces the recurring leak to the root-cause detail and applies the repair-vs-replace thresholds before quoting a replacement**, because a leak repeated across repairs signals a systemic failure rather than an isolated defect. The 3-repairs rule favors replacement after 3 or more repairs in 2 years, and the 30% rule when repairs exceed 30% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance.',
+    '**Newark Quality Roofing strips the leaked roof to the bare deck and replaces the rotted sheathing a chronic leak leaves behind**, because a recover hides deck rot rather than repairing it. Trapped moisture decays sheathing until it loses the ability to grip a roofing nail, per InterNACHI, so the IRC reroofing provisions prohibit a new covering over a water-soaked or deteriorated deck, per IRC Section R908, and the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing installs an ice barrier and synthetic underlayment over the repaired deck and sets the cover to manufacturer specification**, the sequence that keeps the manufacturer system warranty intact. The IRC ice-barrier provision requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per IRC Section R905.1.2. The crew documents the work with photographs and runs a magnet sweep for nails at cleanup.',
   ],
   faqs: [
     {
-      question: 'How do I know when repair is no longer enough for my leaking Maplewood roof?',
-      answer: 'When leaks recur at the same or different locations after professional repair, when repair costs over the past few years approach replacement cost, or when water damage to interior finishes from chronic leaks is accumulating, replacement provides better long-term value. If you have had three or more professional repairs in the past five years without lasting resolution, your roof is likely past the point where repair can succeed.',
+      question: 'When does a leaking Maplewood roof need replacement instead of another repair?',
+      answer:
+        'Replacement follows a leak when 3 or more repairs in 2 years fail to stop it, when repairs exceed 30% of replacement cost, or when the deck is moisture-rotted, per Kellow, Modernize, and Josten repair-vs-replace guidance. A localized repair on an asphalt roof under 10 to 15 years old still holds where the damage stays confined to one detail.',
     },
     {
-      question: 'Will replacement fix the interior water damage in my Maplewood home?',
-      answer: 'Replacement stops the water source. Interior repairs including drywall replacement, painting, and mold remediation are separate projects that should follow roof replacement. We can coordinate with interior contractors to sequence the work efficiently, ensuring the roof is fully replaced before interior finishes are restored.',
+      question: 'Do you need a permit to replace a leaking roof in Maplewood, NJ?',
+      answer:
+        'A detached one- or two-family reroof in Maplewood needs no construction permit, no inspection, and no notice, because a full tear-off and replacement of the roof covering counts as ordinary maintenance under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area within 12 months requires a permit from the Township of Maplewood Construction Division at 574 Valley Street, decided within 20 business days, and a structural change to rotted rafters or trusses still triggers a permit.',
     },
     {
-      question: 'How much more does replacement after leak cost versus standard replacement?',
-      answer: 'The primary additional cost is deck and framing repair, which varies based on the extent of water damage. Homes with limited damage may add $1,000 to $3,000. Homes with extensive damage from years of chronic leaks may require $5,000 to $10,000 in structural remediation. We provide contingency estimates based on the known leak severity and adjust the final invoice to reflect actual conditions found.',
+      question: 'Does a Maplewood historic-district home need extra approval to replace a leaking roof?',
+      answer:
+        'A private homeowner reroof in Maplewood Village requires no Certificate of Appropriateness, because the Maplewood Village Historic District is listed on the National Register only, which the National Park Service confirms places no restriction on a private owner. Maplewood maintains a Historic Preservation Commission and a historic-preservation ordinance under Article VIII, and exterior roofing work on a property in a locally designated Maplewood district or landmark falls under a township Certificate of Appropriateness — confirm current local designation with the Township.',
     },
     {
-      question: 'How much does roof replacement after leak cost in Maplewood, NJ?',
-      answer: 'Most roof replacement after leak projects in Maplewood range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Why does my Maplewood roof keep leaking after repairs?',
+      answer:
+        'A Maplewood roof keeps leaking after repairs when the failure is systemic rather than an isolated detail, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA. A prolonged leak then rots the deck beneath the cover, per InterNACHI, so a replacement that strips the roof and replaces the rotted sheathing ends the cycle a patch cannot.',
+    },
+    {
+      question: 'Can a new roof go over a leaked Maplewood roof without a full tear-off?',
+      answer:
+        'A new covering cannot be installed over a water-soaked or deteriorated deck, per IRC Section R908, so a Maplewood roof leaked long enough to rot the deck requires a full tear-off. The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering, per N.J.A.C. 5:23-6.4, and a recover hides deck rot a tear-off repairs, per InterNACHI.',
+    },
+    {
+      question: 'How much does roof replacement after a leak cost in Maplewood, NJ?',
+      answer:
+        'Roof replacement in New Jersey costs $10,000 to $25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data. Rotted-deck replacement adds cost when a prolonged leak deteriorates the sheathing, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof replacement after leak in Maplewood NJ. Permanent solution for chronic leaks with deck repair and enhanced waterproofing.',
+  metaDescription:
+    'Roof replacement after a leak in Maplewood NJ — full tear-off, rotted-deck replacement, ice barrier per code. NJ-registered, insured. Free written estimate.',
   pricing: {
-    range: '$8,500–$25,000',
-    note: 'when repair is no longer viable',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Maplewood\'s architect-designed early-20th-century homes and Village storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof replacement after leak estimate in Maplewood — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof replacement after a leak in Maplewood.',
+    urgencyNote: 'Addressing a chronic roof leak early limits deck rot and interior water damage.',
   },
 };

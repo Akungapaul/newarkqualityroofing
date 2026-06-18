@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const southOrangeSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'south-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor installing and repairing skylights across South Orange, New Jersey, and Essex County, sealing leaks at failed flashing, replacing fogged units, and curb-mounting skylights on the Village-center and Seton Hall low-slope roofs** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
-    'Newark Quality Roofing delivers expert skylight installation repair in South Orange — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair in South Orange Village serves homeowners seeking natural light in the characteristically deep floor plans of the village\'s pre-war housing stock. Tudor Revival and Colonial Revival homes in Montrose Park and along Prospect Street often have interior rooms and upper-floor hallways that receive limited window light, making skylights a valued addition that transforms dark spaces without the exterior facade modifications that window additions would require on architecturally significant homes.',
-    'South Orange\'s tree canopy creates a particular dynamic for skylight installations. The filtered light that passes through mature oak and maple canopies provides soft, diffused illumination through skylights that avoids the harsh direct sunlight that unshaded skylights in open suburban settings deliver. This canopy-filtered light creates comfortable interior lighting conditions that South Orange homeowners find appealing, though the shade also means skylight placement must be carefully planned to maximize the available light rather than defaulting to south-facing orientations that standard skylight guidelines recommend.',
-    'Skylight repair in South Orange frequently addresses the failure modes that age and environmental exposure produce on installations that were common in the 1980s and 1990s renovation era. Acrylic domes that have yellowed and become brittle, curb-mounted units with deteriorated gaskets, and flashing systems that were installed over the existing roofing rather than integrated properly into the roof assembly all create leak conditions that bring homeowners to our door seeking either repair or replacement with modern sealed-glass units.',
-    'Our skylight work in [South Orange](/roofing-in-south-orange-nj) coordinates roofing expertise with the light-shaft construction and interior finishing that skylight installation involves. Unlike standalone skylight installers who may not understand the roofing implications of their penetrations, or roofing contractors who treat skylights as afterthoughts, we approach each skylight as an integrated roofing component that must be waterproofed to the same standard as every other roof element on these premium homes.'
+    '**Newark Quality Roofing installs and repairs skylights** across South Orange’s large pre-war Victorians, Colonial Revivals, and Tudor Revivals and the Village-center and Seton Hall low-slope roofs, sealing the penetration at the flashing detail that admits water rather than the glass.',
+    '**Flashing-leak repair** seals the failed or improperly installed flashing, the leading cause of a skylight leak rather than the glass, per roofing trade consensus, replacing deteriorating caulk with an engineered flashing kit that sheds water without relying on sealant that breaks down over time, per VELUX America. A Newark Quality Roofing diagnosis separates a true leak, which tracks with rain and storms, from winter condensation, which tracks with indoor humidity on cold glass, a common misdiagnosis per VELUX America.',
+    '**New installation and replacement** set a deck-mounted or curb-mounted VELUX or Fakro unit with the flashing kit matched to both the mounting type and the roof covering, per VELUX America, because a skylight lasts 10–20 years, per the InterNACHI Estimated Life Expectancy Chart, and a unit past that range favors replacement over repeated reseal. On the Village-center and Seton Hall low-slope roofs a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8.',
+    '**Fogged-glass-seal replacement** installs a new insulated-glass unit when moisture fogs between the panes, the failure the VELUX 20-year insulated-glass-seal warranty covers, separate from the 10-year No Leak installation warranty, per VELUX America. A Newark Quality Roofing skylight ties its flashing into the surrounding asphalt, slate, or membrane covering at the same waterproofing standard as every other detail on South Orange’s aging steep-slope and low-slope roofs.',
   ],
   challenges: [
-    'Installing skylights on South Orange\'s slate and cedar shake roofs requires specialized flashing techniques that standard skylight installation kits do not provide. The irregular surface of natural slate and the thick profile of cedar shake create gaps around standard step flashing that allow water entry. Custom copper flashing fabricated to match the specific roofing material\'s thickness and coursing pattern provides the watertight integration that premium roofing materials demand. This custom work adds cost and time beyond standard skylight installation but is essential for maintaining the roof\'s integrity on homes in [Millburn](/skylight-installation-repair-millburn-nj) and South Orange.',
-    'Structural framing modifications on South Orange\'s older homes accommodate skylight openings differently than modern construction. Pre-war roof framing often uses undersized rafters by current standards, and cutting openings for skylights requires header installation that transfers loads to adjacent rafters. Framing evaluation before skylight placement determines which locations can accommodate the opening without structural reinforcement and which require additional framing work that adds to project scope and cost.',
-    'Condensation management on skylights in South Orange\'s humid summer and cold winter climate requires proper ventilation detailing within the light shaft and around the skylight unit. Warm, moist interior air rising through the light shaft contacts the cold glass during winter, creating condensation that drips onto interior finishes and creates the appearance of a leak. Proper insulation of the light shaft walls, ventilation pathways around the skylight frame, and condensation gutter features within the skylight unit itself prevent moisture problems that plagued earlier skylight generations.'
+    '**Steep-slope flashing** carries the heaviest skylight-leak load on South Orange’s large pre-war Victorians, Colonial Revivals, and Tudor Revivals, where over half the housing stock predates 1940, per the Township planning evaluation, and aged sealant laps lift around a roof penetration.',
+    '**Slate, metal, and copper detailing** on the Village’s period homes requires the skylight flashing kit to integrate with natural slate coursing and copper transitions rather than a sealant-only curb, because an engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America. A Newark Quality Roofing install matches the flashing kit to the brand and to the surrounding covering so the skylight holds water at the same standard as the slate or metal field.',
+    '**Tree-canopy debris** loads the skylight curb and the valleys feeding it across South Orange, because the Township maintains over 8,000 shade trees across 181 Village streets, per the Township Fast Facts, and leaf load that backs water against a skylight curb opens a flashing leak at the held moisture. Reservation-edge homes along the South Mountain border face added branch impact during nor’easters, per Essex County Parks.',
+    '**Low-slope membrane skylights** on the Village center around the NJ Transit station, the SOPAC-area mixed-use buildings, and the Seton Hall University 58-acre campus sit on a built-up curb tied into EPDM, TPO, or modified-bitumen, where a roof needs at least ¼ inch per foot of slope to drain and ponding past 48 hours counts as a defect, per NRCA and ARMA. A Newark Quality Roofing curb sheds water rather than ponding at the penetration.',
   ],
   process: [
-    'Skylight consultation in South Orange evaluates both the natural lighting opportunity and the roofing integration requirements. We assess the roof pitch and orientation for optimal light capture through South Orange\'s tree canopy, identify framing conditions that determine feasible skylight locations, and discuss sizing and glazing options. Fixed skylights provide maximum weather resistance, while operable units add ventilation capability. We present options from VELUX and other premium manufacturers with the glazing specifications appropriate for South Orange\'s climate.',
-    'Installation coordinates roof opening, framing, flashing, and interior finishing in a controlled sequence. The roof opening is cut and framed with proper headers and trimmers. The skylight unit is set into the prepared opening, leveled and secured per manufacturer specifications. Custom flashing -- copper for slate and cedar shake roofs, manufacturer-supplied kits for shingle roofs -- integrates the skylight into the surrounding roof surface. Ice-and-water shield membrane lines the opening beneath the flashing for secondary waterproofing protection.',
-    'Interior light shaft construction connects the roof opening to the ceiling below. The shaft may be straight, splayed to increase light spread, or angled to direct light toward specific interior areas. Shaft walls are insulated, vapor-sealed, and finished to match the room\'s interior. The completed installation is tested for weather-tightness before interior finishing proceeds. Documentation includes flashing photographs and maintenance recommendations for the specific skylight model installed.'
+    '**Newark Quality Roofing inspects the skylight flashing, curb, and shaft and separates a true leak from condensation before sealing anything**, because water at a skylight is often condensation on cold glass, not a roof leak, per VELUX America. A Newark Quality Roofing diagnosis reads whether the water tracks with rain and storms or with indoor humidity before opening the flashing.',
+    '**Newark Quality Roofing fits the VELUX or Fakro flashing kit matched to the mounting type and the roof covering, sealing the penetration with engineered flashing rather than caulk.** A deck-mounted unit fastens to the deck at a lower profile and a curb-mounted unit sits on a built-up curb for the Village-center and Seton Hall low-slope roofs, each taking its matched kit, per VELUX America, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8.',
+    '**Newark Quality Roofing sets the unit to manufacturer specification, verifies watertight execution, and documents the work for the owner.** The VELUX No Leak installation warranty runs 10 years and applies only when the skylight installs to specification with a matching VELUX flashing kit, alongside a 20-year insulated-glass-seal warranty, and Fakro provides a 10-year leak-proof guarantee conditioned on the original Fakro flashing kit, per VELUX America and Fakro USA. A crew runs a magnet sweep for nails and records the flashing with photographs before leaving the property.',
   ],
   faqs: [
     {
-      question: 'Can you install a skylight on my South Orange slate roof?',
-      answer: 'Yes. Skylight installation on slate roofs requires removing and resetting slates around the opening with custom copper flashing fabricated to integrate with the slate coursing. The work is more involved than standard shingle skylight installation, requiring the same slate-handling skills we apply to all our South Orange slate work. The finished installation maintains the slate roof\'s appearance and waterproofing integrity while delivering natural light to the interior.'
+      question: 'Why does my South Orange skylight leak?',
+      answer:
+        'A skylight leaks because of failed or improperly installed flashing, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. An engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America, so a Newark Quality Roofing repair replaces the failed flashing rather than recaulking the curb, the work that matters most on South Orange’s aging steep-slope roofs.',
     },
     {
-      question: 'How do you prevent skylight leaks on South Orange homes?',
-      answer: 'Proper flashing installation is the primary leak prevention measure. We install continuous ice-and-water shield beneath all skylight flashing, fabricate step and head flashings to match the specific roofing material, and ensure positive drainage around the skylight curb. We also verify that the skylight unit is properly sealed and that condensation management features are functioning. Most skylight leaks we repair trace to inadequate original flashing rather than to the skylight unit itself.'
+      question: 'Is the water at my South Orange skylight a leak or condensation?',
+      answer:
+        'Water at a skylight is often condensation from excess indoor humidity on cold glass, not a roof leak, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads before opening the flashing on a South Orange roof.',
     },
     {
-      question: 'Should I repair or replace my aging skylight in South Orange?',
-      answer: 'Skylights installed before 2000 typically benefit from complete replacement rather than repair. Modern sealed-glass units provide dramatically better thermal performance, UV filtration, and leak resistance than the acrylic or older glass units common on South Orange homes from the renovation era. The replacement scope includes new flashing integration with the existing roof, often resolving chronic leak issues that repeated seal repairs have failed to cure.'
+      question: 'Can you install a skylight on my South Orange slate roof or a low-slope Village-center roof?',
+      answer:
+        'A skylight installs on a slate roof with the flashing kit integrated into the slate coursing, and on a flat or low-slope roof on a curb-mounted unit. A skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8, so a Newark Quality Roofing curb on a Village-center, SOPAC-area, or Seton Hall low-slope roof sheds water at the penetration rather than ponding.',
     },
     {
-      question: 'Will a skylight help with my South Orange home\'s interior darkness?',
-      answer: 'Skylights are exceptionally effective for illuminating interior spaces that windows cannot reach. South Orange homes with deep floor plans, center hallways, and upper-floor rooms shielded by adjacent dormers benefit significantly from skylight natural light. Even through the village\'s tree canopy, skylights deliver meaningful illumination that reduces daytime electric lighting and improves the livability of previously dark interior spaces.'
+      question: 'Does a skylight on a designated Montrose Park home need historic approval in South Orange?',
+      answer:
+        'Exterior roofing work on a designated property in the Montrose Park Historic District requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from a construction permit. The Certificate of Appropriateness is a local-ordinance requirement set by Village Code Chapter 185, not by National Register listing, so it applies only inside the locally designated district and to designated local landmarks, not Village-wide. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
+    },
+    {
+      question: 'Do I need a permit for skylight work in South Orange?',
+      answer:
+        'A repair or replacement of the roof covering and its penetrations on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit, filed through the Township of South Orange Village Building Department at 76 South Orange Avenue, where plan review runs within 20 business days, and any structural cutting for a new opening requires a permit regardless of building type.',
     },
     {
       question: 'How much does skylight installation repair cost in South Orange, NJ?',
-      answer: 'Most skylight installation repair projects in South Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Skylight installation costs $1,600–$4,200 installed, replacement $800–$2,400, and leak repair $225–$800, with a reseal at $75–$250 and a flashing repair at $150–$500, per HomeGuide, Angi, and Modernize cost data. Final cost depends on the mounting type, the roof covering, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Skylight installation and repair in South Orange NJ -- custom-flashed skylights for slate, cedar, and shingle roofs on village homes.',
+  metaDescription:
+    'Skylight installation and repair in South Orange NJ — flashing-leak fixes, fogged units, low-slope curb-mounting on Village homes. NJ-registered, free estimate.',
   pricing: {
-    range: '$1,500–$5,000',
-    note: 'per skylight installed or repaired',
+    range: '$225–$4,200 across repair and installation',
+    note: 'Skylight installation runs $1,600–$4,200 installed, replacement $800–$2,400, and leak repair $225–$800, per HomeGuide, Angi, and Modernize cost data; final cost depends on mounting type, roof covering, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with South Orange’s large pre-war homes, Montrose Park, and the Seton Hall / Village-center buildings.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free skylight installation repair estimate in South Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for skylight installation repair in South Orange.',
+    urgencyNote: 'Sealing a failed skylight flashing early limits interior and structural water damage.',
   },
 };

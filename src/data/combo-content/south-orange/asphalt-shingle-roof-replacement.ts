@@ -3,57 +3,72 @@ import type { ComboContent } from '../schema';
 export const southOrangeAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'south-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing asphalt shingle roof replacement across South Orange, New Jersey, and Essex County, stripping the roof to the deck and installing new 3-tab or architectural shingles** on the Village’s Colonials, Capes, and smaller detached homes as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Asphalt shingle roof replacement** strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering.',
   overview: [
-    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in South Orange — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement in South Orange Village delivers new warranty-backed roofing to the portion of the housing stock where architectural shingles provide the appropriate material choice -- the mid-century Colonials and Capes in Newstead and Hixon Place, newer renovations where the home\'s architectural style suits shingle rather than slate or cedar, and properties where the homeowner\'s budget or maintenance preference favors asphalt over premium alternatives.',
-    'Product selection for South Orange shingle replacement focuses on the designer and luxury tiers that complement the village\'s architectural standards. Standard three-tab shingles are not appropriate for South Orange\'s premium streetscapes. GAF Timberline HDZ, CertainTeed Landmark Pro, and Owens Corning Duration architectural shingles provide the dimensional profiles and color ranges that South Orange homes require. For properties where maximum visual impact matters, designer products like GAF Grand Sequoia and CertainTeed Grand Manor provide profiles approaching the visual weight of natural materials.',
-    'Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) process in South Orange includes the complete installation scope that premium shingle performance requires -- full tear-off, deck verification and repair, synthetic underlayment, ice-and-water shield at all vulnerable locations, and the manufacturer-specified nail pattern and exposure dimensions. These installation details determine whether the shingle achieves its full warranty lifespan, and cutting any corner compromises the investment.',
-    'Color and profile selection for South Orange shingle replacement involves the same contextual evaluation we apply to premium material projects. Shingle color is evaluated from street perspective against the home\'s siding, trim, masonry, and the roofscape of neighboring properties. Designer shingle profiles are assessed for compatibility with the home\'s architectural style. This consultation prevents the color mismatches and style-inappropriate selections that diminish curb appeal in a village where roofscape quality matters to homeowners and neighbors in [South Orange](/roofing-in-south-orange-nj) alike.'
+    '**Newark Quality Roofing replaces aging asphalt roofs** on South Orange’s Colonials, Capes, and smaller detached single-family homes, the Village stock where shingles cover the roof rather than the slate and copper detailing the pre-war Victorians and Tudors. An asphalt replacement strips the roof to the deck and rebuilds the full shingle system rather than patching one failed detail.',
+    '**3-tab and architectural shingles** make up the 2 asphalt types a Newark Quality Roofing replacement installs, where a 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes the actual asphalt service life varies up to 40% with climate, install, and maintenance. A Newark Quality Roofing replacement matches the shingle line and wind rating to the home before tear-off.',
+    '**Deteriorated sheathing** turns up at tear-off on South Orange’s aging stock, because over half the Village’s housing predates 1940 and 82% predates 1960, per the Township planning evaluation, so a Newark Quality Roofing crew strips the covering to the bare deck and replaces water-soaked plywood or plank the old shingles hid, the removal N.J.A.C. 5:23-6.4 requires when the roof is water-soaked or already carries 2 or more layers.',
+    '**Tree-canopy debris and reservation-edge branch impact** shorten an asphalt roof in South Orange, because the Township maintains over 8,000 shade trees across 181 Village streets, per the Township Fast Facts, and the South Mountain Reservation ridgeline along the western boundary drops branches onto adjoining roofs, per Essex County Parks. A Newark Quality Roofing replacement clears the valleys and reseals the flashing the canopy and impact damage fatigue.',
   ],
   challenges: [
-    'Meeting South Orange\'s visual standards with asphalt shingles requires careful product selection that many contractors neglect. The difference between a builder-grade shingle and a premium architectural product is visible from the street, and in a village where slate and cedar set the aesthetic bar, asphalt shingle installations must earn their place through quality product selection and precise installation. Color selection mistakes are particularly consequential -- a roof lasts 25-30 years, and a color choice that the homeowner regrets is visible every day for that entire period.',
-    'Steep-pitch installation on South Orange\'s Tudors and larger Colonials adds technical complexity to shingle replacement. Proper nail placement at steep angles, consistent exposure maintenance on pitches where gravity pulls tools and materials downhill, and hip and ridge treatment that remains secure on pitches exceeding 8:12 all require technique adjustments that experienced steep-slope crews apply instinctively but less experienced installers struggle with.',
-    'Ventilation deficiency correction during shingle replacement provides the most cost-effective opportunity to improve attic airflow on South Orange\'s older homes. Adding ridge ventilation, upgrading soffit intake, and correcting ventilation imbalances during replacement costs a fraction of what standalone ventilation improvement would cost, yet many contractors skip this step to reduce their bid price. We include ventilation assessment and improvement as a standard component of every South Orange shingle replacement, as do responsible contractors working across [Maplewood](/asphalt-shingle-roof-replacement-maplewood-nj).'
+    '**Deteriorated decking and multiple existing layers** define an asphalt replacement on South Orange’s pre-war homes, because over half the Village stock predates 1940, per the Township planning evaluation, and N.J.A.C. 5:23-6.4 requires full removal of the covering when the roof is water-soaked or already carries 2 or more layers. A Newark Quality Roofing tear-off exposes and replaces the sheathing a surface inspection misses.',
+    '**Attic ventilation** runs undersized on the Village’s older homes, and a tear-off is the cost-effective point to correct it, because the NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA. A Newark Quality Roofing replacement corrects undersized ventilation as part of the work.',
+    '**Tree-canopy debris and reservation-edge branch impact** load South Orange roofs, because the Township maintains over 8,000 shade trees across 181 Village streets, per the Township Fast Facts, and the South Mountain Reservation ridgeline along the western boundary drops branches onto adjoining roofs, per Essex County Parks. A Newark Quality Roofing replacement keeps an impact-rated shingle line and ice-dam protection in the scope for the canopy and reservation-edge homes.',
   ],
   process: [
-    'Shingle replacement consultation begins with product selection. We present options across multiple manufacturers and product tiers, with sample boards evaluated at the property against the home\'s exterior finishes. Color selections are photographed from street perspective for the homeowner\'s review. Impact-resistant Class 4 options are recommended for properties beneath heavy tree canopy. Algae-resistant formulations are specified as standard for the shade conditions South Orange\'s trees create.',
-    'Installation begins with full tear-off, deck inspection, and the complete underlayment system. Every South Orange shingle replacement receives synthetic underlayment across the full deck, ice-and-water shield at eaves extending past the exterior wall, ice-and-water shield in all valleys and at all wall-to-roof transitions, and drip edge at every perimeter. This substrate preparation meets or exceeds manufacturer requirements for the enhanced warranty coverage we register on behalf of the homeowner.',
-    'Shingle installation follows manufacturer specifications precisely. Starter course, field shingles with specified exposure and nail pattern, laminated valley treatment, and manufacturer-dedicated hip and ridge cap complete the installation. Ventilation modifications -- ridge vent installation, soffit vent improvement -- are completed as part of the roofing project. Final cleanup includes magnetic nail sweeping, gutter cleaning, and a property walk-through with the homeowner reviewing the completed installation.'
+    '**Newark Quality Roofing inspects the roof deck, the attic ventilation, and the NJ code triggers before quoting an asphalt replacement.** A tear-off exposes deck rot, undersized ventilation, and structural conditions a surface inspection misses, and the NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor. A structural change to rafters or trusses triggers a permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance re-roof exemption, per the NJ Uniform Construction Code.',
+    '**Newark Quality Roofing strips the asphalt roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs the shingles to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code, and northern New Jersey crosses the 32°F freezing point repeatedly through winter, driving freeze-thaw stress on the shingle seals.',
+    '**Newark Quality Roofing verifies the install against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor.** The written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance, and the crew documents the completed replacement with photographs for the homeowner’s record.',
   ],
   faqs: [
     {
-      question: 'What is the best asphalt shingle for my South Orange home?',
-      answer: 'For most South Orange applications, we recommend GAF Timberline HDZ or CertainTeed Landmark Pro as the standard tier providing excellent value and appearance. For homes where maximum visual impact is desired, designer products like GAF Grand Sequoia offer profiles with shadow lines and dimension that approach premium material appearance. Impact-resistant Class 4 versions are recommended for properties beneath heavy tree canopy. We present options and help select the product that best fits each home and budget.'
+      question: 'Do you need a permit for an asphalt shingle roof replacement in South Orange, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- and two-family home in South Orange counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit through the Township of South Orange Village Building Department at 76 South Orange Avenue, where plan review runs within 20 business days, and so does any structural change to rafters or trusses.',
     },
     {
-      question: 'How long does asphalt shingle replacement take in South Orange?',
-      answer: 'A standard South Orange Colonial typically requires two to three working days for complete tear-off and installation. Larger homes, complex multi-gable geometries, and steep-pitch conditions extend the timeline. Weather delays add time during periods of rain or extreme temperatures. We provide a projected timeline during consultation and communicate any schedule adjustments promptly.'
+      question: 'Does a historic district in South Orange affect an asphalt shingle replacement?',
+      answer:
+        'Exterior roofing work on a designated property in the Montrose Park Historic District requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from a construction permit. The Certificate of Appropriateness is a local-ordinance requirement set by Village Code Chapter 185, not by National Register listing, so it applies only inside the locally designated district and to designated local landmarks, not Village-wide. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'Should I choose impact-resistant shingles for my South Orange home?',
-      answer: 'Properties beneath heavy tree canopy benefit significantly from Class 4 impact-resistant shingles that withstand branch strikes and hail damage that crack standard products. The additional cost is modest -- roughly 15-20 percent above standard architectural shingles -- and many insurance companies offer premium discounts for Class 4 installations. For South Orange homes near South Mountain Reservation or beneath large trees, the investment provides genuine protection value.'
+      question: 'What is the difference between 3-tab and architectural shingles?',
+      answer:
+        'A 3-tab asphalt shingle is a flat single-layer shingle that lasts 20 years and rates near 60 mph, while an architectural shingle is a thicker laminated shingle that lasts 30 years and warranties up to 130 mph with 6-nail installation. The 20-year and 30-year lifespans trace to the InterNACHI life-expectancy chart, and ASTM D3161 sets the asphalt wind classes, per ARMA and manufacturer guidance. Architectural shingles suit the wind and tree-canopy load on South Orange’s pre-war homes.',
     },
     {
-      question: 'What warranty do you provide on shingle replacement?',
-      answer: 'We register the manufacturer\'s enhanced warranty that covers both material defects and our installation labor. GAF offers lifetime limited warranties on Timberline products when installed by certified contractors with windspeed warranties up to 130 MPH. CertainTeed and Owens Corning offer similar enhanced coverage. Additionally, we provide our own workmanship warranty covering installation details that manufacturer warranties may not fully address.'
+      question: 'How long does an asphalt shingle roof last on a South Orange home?',
+      answer:
+        'A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, with the actual service life varying up to 40% with climate, install, and maintenance. The 20-year and 30-year figures trace to the InterNACHI life-expectancy chart and the up-to-40% variance to the NRCA, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA. South Orange’s heavy tree canopy adds leaf load and shade-driven moss that shorten a neglected roof.',
     },
     {
-      question: 'How much does asphalt shingle roof replacement cost in South Orange, NJ?',
-      answer: 'Most asphalt shingle roof replacement projects in South Orange range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Should I repair or replace my South Orange asphalt roof?',
+      answer:
+        'Replace an asphalt roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair an asphalt roof when the damage stays localized on a roof under 10–15 years old. The 30% repair-vs-replace rule traces to Kellow, Modernize, and Josten cost guidance, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.',
+    },
+    {
+      question: 'How much does an asphalt shingle roof replacement cost in South Orange, NJ?',
+      answer:
+        'A roof replacement in New Jersey runs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit roughly 10–40% above national figures because labor accounts for most of an install total and NJ code is stricter, per HomeGuide. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Asphalt shingle roof replacement in South Orange NJ -- premium architectural shingles for Colonials and mid-century village homes.',
+  metaDescription:
+    'Asphalt shingle roof replacement in South Orange NJ — tear-off and 3-tab or architectural re-roofs on pre-war Colonials and Capes. NJ-registered, free estimate.',
   pricing: {
-    range: '$8,500–$18,000',
-    note: 'asphalt shingle tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with South Orange’s large pre-war homes, Montrose Park, and the Seton Hall and Village-center buildings.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free asphalt shingle roof replacement estimate in South Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for asphalt shingle roof replacement in South Orange.',
+    urgencyNote: 'Replacing an asphalt roof near the end of its service life limits interior and structural water damage.',
   },
 };

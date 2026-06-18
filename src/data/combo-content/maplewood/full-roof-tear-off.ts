@@ -3,51 +3,72 @@ import type { ComboContent } from '../schema';
 export const maplewoodFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'maplewood',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing full roof tear off across Maplewood, New Jersey, and Essex County, stripping every layer to the deck on the township\'s architect-designed Tudor, Colonial Revival, and Italian Revival homes and Village storefronts** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
-    'Newark Quality Roofing delivers expert full roof tear off in Maplewood — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off is the foundation of every quality re-roofing project in Maplewood, stripping away decades of layered shingles, deteriorated underlayment, and concealed damage to expose the structural deck for inspection and repair before new roofing is installed. Many Maplewood homes carry two or three layers of shingles applied over decades of overlay installations, each layer trapping moisture and adding weight that stresses aging rafters. Our [full tear-off](/full-roof-tear-off) protocol in [Maplewood](/roofing-in-maplewood-nj) removes every layer down to bare wood, revealing the deck condition that determines whether the new roof will have a solid foundation or an inherited weakness.',
-    'Maplewood\'s Victorian, Colonial Revival, and Tudor homes present tear-off complexity that ranch-style homes in suburban developments do not. Multi-gable rooflines with intersecting valleys, dormer transitions, and turret sections create confined work areas where debris removal requires careful sequencing. The decorative cornices and trim elements on Village-area Victorians must be protected during tear-off to prevent damage that would require costly carpentry repairs. Our crews use protective boarding, corner guards, and landscaping shields specific to the architectural elements present on each Maplewood home.',
-    'New Jersey building code limits residential roofs to a maximum of two shingle layers. Maplewood homes with two existing layers must undergo full tear-off before new shingles can be installed. Even on homes with a single existing layer where overlay is technically permissible, we recommend tear-off because overlay conceals deck damage, prevents proper waterproofing membrane installation at critical transitions, and adds weight that Maplewood\'s older framing was not designed to carry. Homeowners in [South Orange](/full-roof-tear-off-south-orange-nj) with similar vintage housing stock face the same multi-layer removal requirements.',
+    '**Newark Quality Roofing performs full roof tear off across Maplewood\'s architect-designed early-20th-century homes and Maplewood Village storefronts**, stripping the asphalt, underlayment, and any overlay layers to the bare deck. Full roof tear off exposes the sheathing for the inspection a recover cannot provide.',
+    '**Newark Quality Roofing strips every layer to the deck** because a full tear-off lets a roofer inspect the roof deck, repair any damage, and improve deck attachment, while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when a deck is water-soaked, when the covering is wood shake, slate, clay, cement, or asbestos-cement tile, or when 2 or more layers already exist, per N.J.A.C. 5:23-6.4.',
+    '**Maplewood Village storefronts** and the Springfield Avenue commercial corridor carry low-slope EPDM, TPO, and modified-bitumen membrane, where a commercial tear-off removes the existing membrane to the deck before a new low-slope system goes down. A low-slope roof needs at least ¼ inch per foot of slope to drain, and ponding water held more than 48 hours counts as a defect, per the NRCA and ARMA.',
+    '**Architect-designed period stock** in the Jefferson, Hilton, Tuscan, and Memorial Park sections often carries plank or board sheathing that tear-off exposes, along with aging valley, chimney, and wall flashing. A Newark Quality Roofing tear-off replaces deteriorated sheathing that cannot grip a roofing nail, per ARMA nail-application guidance.',
   ],
   challenges: [
-    'Disposal logistics for tear-off debris in Maplewood require planning around the township\'s residential street constraints. Dumpster placement on narrow Village-area streets may require parking permits and traffic coordination. Hillside properties in the Hilton neighborhood and along Prospect Street present roll-off dumpster access challenges where steep driveways and terraced lots limit positioning options. We arrange debris containers before project start and confirm access with the township when street placement is necessary.',
-    'Unexpected deck damage discovered during tear-off on Maplewood\'s older homes adds unplanned scope to every project. Water migration through failed flashing, condensation from inadequate ventilation, and insect damage concealed beneath multiple shingle layers can reveal deterioration ranging from isolated soft spots to section-wide deck compromise. Our proposals include contingency allowances for anticipated deck repair based on the home\'s age and known history.',
+    '**Concealed deck deterioration** is the defining tear-off condition on Maplewood\'s architect-designed early-20th-century homes, where moisture, condensation, and insect damage hidden beneath multiple covering layers reach the sheathing. A Newark Quality Roofing tear-off replaces decking that has rotted soft, delaminated, or swollen, because roofing nails penetrate at least ¾ inch into the deck to grip, per ARMA nail-application guidance.',
+    '**Tree-canopy and reservation-edge debris** stresses Maplewood roofs along the Wyoming section\'s western edge, where the South Mountain Reservation reaches into the township\'s wooded western and northwestern edge and presses heavy canopy against nearby slopes. The roughly 2,100-acre Essex County reserve sits in portions of Maplewood, Millburn, and West Orange, per Essex County Parks, dropping leaf load and branches that trap moisture against fascia, soffit, and decking and accelerate the deck deterioration a tear-off exposes.',
+    '**Layered-roof removal** governs older Maplewood homes that have accumulated a second covering over decades, because N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1 prohibit a recover over 2 existing applications, leaving full removal the only code-compliant path. A Newark Quality Roofing tear-off strips both layers to the bare deck.',
   ],
   process: [
-    'Tear-off preparation includes protective measures for the home\'s exterior: landscaping tarps, window shields, and siding protection boards positioned before the first shingle is lifted. We stage the work to begin at the ridge and progress downslope, with debris sliding directly into chutes positioned at the eave edge for controlled loading into dumpsters below.',
-    'Shingle and underlayment removal exposes the deck for our systematic inspection. Every square foot of exposed decking is visually examined and probed for soft spots. Nails from previous installations are pulled or driven flat. The deck inspection report documents condition by zone, with photographs of any damage discovered, providing the homeowner with transparent evidence of what was found beneath their old roof.',
-    'Deck repair addresses all identified deficiencies before new underlayment and roofing is installed. Damaged plywood or OSB is cut back to the nearest rafter and replaced with matching material. Skip sheathing on Maplewood Victorians receives full plywood overlay for the continuous substrate that modern roofing systems require. Only when the deck passes our final walkthrough does the new roofing installation begin.',
+    '**Newark Quality Roofing inspects the roof and attic underside, counts the existing covering layers, and identifies which N.J.A.C. 5:23-6.4 removal condition applies** to the roof. The removal conditions are a water-soaked deck, a wood-shake or tile covering, or 2 or more existing layers, per the NJ Uniform Construction Code. A written estimate sets the scope, labor, materials, disposal, and timeline.',
+    '**Newark Quality Roofing strips all covering, underlayment, and any overlay layers to the bare sheathing, then inspects every deck section** for the failing-deck signs InterNACHI names — daylight through the deck, soft or spongy wood, sagging between rafters, and delaminated plywood or swollen OSB edges. Deteriorated sheathing that cannot grip a roofing nail is replaced, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI.',
+    '**Newark Quality Roofing installs an ice barrier at the eaves, applies synthetic underlayment across the repaired deck, and installs the cover to manufacturer specification.** The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone regions like Essex County, per the International Residential Code as enforced under N.J.A.C. 5:23. A magnet sweep for nails closes out the job, and a written workmanship warranty backs the labor, separate from the manufacturer material warranty, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'Why should I choose tear-off over overlay for my Maplewood home?',
-      answer: 'Tear-off exposes the deck for inspection, allows proper waterproofing membrane installation at all critical transitions, and removes weight from aging framing. Overlay traps existing problems, prevents ice-and-water shield installation, and adds approximately 250 pounds per 100 square feet to the roof load. For Maplewood homes with framing that is 80-130 years old, removing weight rather than adding it protects structural integrity.',
+      question: 'Do you need a permit for a full roof tear off in Maplewood, NJ?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Maplewood counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. The exemption removes the permit, inspection, and notice for the detached one- and two-family covering. A commercial, multi-family, or attached building exceeding 25% of the roof area in a 12-month period requires a permit from the Township of Maplewood Construction Division at 574 Valley Street, decided on a complete application within 20 business days. The exemption covers the roof covering, not rafters or trusses, and does not authorize a non-compliant recover.',
     },
     {
-      question: 'How long does tear-off take on a typical Maplewood home?',
-      answer: 'Tear-off on a standard Maplewood Colonial takes one day. Complex Victorians with multiple gable sections and dormers may take 1.5 to 2 days. The new roofing installation follows immediately, so the home is never left with exposed deck overnight unless weather forces a pause, in which case we apply temporary waterproof covering before leaving the site.',
+      question: 'When does New Jersey code require a full roof tear off instead of a roof-over?',
+      answer:
+        'N.J.A.C. 5:23-6.4 requires complete removal of the existing covering in 3 conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying 2 or more layers. The NJ Rehabilitation Subcode adds wood shake to the IRC Section R908.3.1.1 removal list, per the NJ Uniform Construction Code. Maplewood\'s older architect-designed homes that already carry a second layer fall on the tear-off path.',
     },
     {
-      question: 'What happens to all the tear-off debris from my Maplewood roof?',
-      answer: 'Tear-off debris is loaded into roll-off dumpsters and hauled to licensed recycling facilities. Asphalt shingles are recycled into road paving material, diverting approximately 3-5 tons of material from landfill per average Maplewood roof. Metal flashing and copper elements are separated for metal recycling. We handle all disposal logistics and leave the property clean.',
+      question: 'Why choose a full tear-off over a roof-over on a Maplewood home?',
+      answer:
+        'A full tear-off strips the roof to the deck so the sheathing is inspected and repaired, while a roof-over installs a new layer over the existing covering and hides any deck rot underneath. A full tear-off lets a roofer inspect and repair the deck, per the Asphalt Roofing Manufacturers Association and InterNACHI, while a recover leaves the underlying layers difficult to inspect. A recover also traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, and adds dead load across decking and framing. On Maplewood\'s period plank-deck stock, the tear-off exposes the concealed deck condition that determines the new roof\'s foundation.',
     },
     {
-      question: 'How much does full roof tear off cost in Maplewood, NJ?',
-      answer: 'Most full roof tear off projects in Maplewood range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does a full roof tear off on a Maplewood Village home need historic approval?',
+      answer:
+        'A private homeowner reroof in Maplewood Village requires no Certificate of Appropriateness, because the Maplewood Village Historic District is listed on the National Register only, which the National Park Service confirms places no restriction on a private owner. Maplewood maintains a Historic Preservation Commission and a historic-preservation ordinance under Article VIII of the municipal code, and exterior roofing work on a property in a locally designated Maplewood historic district or landmark falls under a township Certificate of Appropriateness — confirm current local designation with the Township. A Certificate of Appropriateness, where it applies, is a separate approval from the building permit.',
+    },
+    {
+      question: 'What happens if the deck is rotted under the old Maplewood roof?',
+      answer:
+        'A full tear-off exposes the deck, and Newark Quality Roofing replaces sheathing that has rotted soft, delaminated, or swollen, because roofing nails penetrate at least ¾ inch into the deck to grip. Sheathing that cannot hold a nail is replaced, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI. Maplewood\'s tree-canopy debris and reservation-edge moisture drive the concealed deck deterioration a tear-off reveals.',
+    },
+    {
+      question: 'How much does a full roof tear off cost in Maplewood, NJ?',
+      answer:
+        'Old-roof removal runs $1–$5 per square foot by material weight, and a New Jersey roof replacement costs $10,000–$25,000 for a typical home with the tear-off included, per HomeGuide, HomeAdvisor, and Modernize cost data. Removal runs $1–$3 per square foot for shingles and $2–$5 for heavier slate or tile, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Full roof tear-off in Maplewood NJ. Complete removal of old roofing layers for clean installation on Victorians, Colonials, and Tudors.',
+  metaDescription:
+    'Full roof tear off in Maplewood NJ — strip every layer to the deck on architect-designed Tudor, Colonial, and Village homes. NJ-registered, free estimate.',
   pricing: {
-    range: '$9,000–$26,000',
-    note: 'complete tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range with tear-off included per HomeAdvisor and Modernize; old-roof removal runs $1–$5 per square foot by material weight per HomeGuide. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Maplewood\'s architect-designed early-20th-century homes and Village storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free full roof tear off estimate in Maplewood — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for full roof tear off in Maplewood.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

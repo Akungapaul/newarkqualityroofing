@@ -3,57 +3,73 @@ import type { ComboContent } from '../schema';
 export const southOrangeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'south-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across South Orange, New Jersey, and Essex County, rebuilding fire-rated roofs on the Village\'s large pre-war homes and the Seton Hall and Village-center buildings** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in South Orange — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in South Orange Village addresses the catastrophic roofing failure that structural fires cause, restoring weather protection and building integrity to homes that have suffered partial or complete fire damage to their roof systems. The structural, material, and emotional complexity of fire damage restoration demands a contractor experienced in post-fire construction who can coordinate the roofing scope within the broader building restoration project.',
-    'South Orange\'s densely developed residential neighborhoods create fire exposure conditions where adjacent properties may sustain radiant heat damage, ember impact, or firefighting water damage to roofing even when fire does not directly consume the roof structure. Our fire damage assessment distinguishes between direct fire damage requiring full structural replacement and exposure damage that may warrant material replacement without structural reconstruction.',
-    'Insurance coordination on fire damage replacement in South Orange involves the most comprehensive documentation and claims advocacy in the roofing industry. Fire claims cover not just the roofing material but structural framing, decking, insulation, and any related building components damaged by fire, heat, smoke, or firefighting water. Our [fire damage roof replacement](/fire-damage-roof-replacement) documentation captures every affected element for complete claim support.',
-    'Our post-fire roofing work in [South Orange](/roofing-in-south-orange-nj) coordinates with structural engineers, general contractors, and fire restoration specialists to ensure the roofing scope integrates properly with the broader building restoration. The roof cannot be replaced until structural framing is verified or restored, and the roofing timeline must align with the construction sequence that fire restoration projects demand.'
+    '**Newark Quality Roofing replaces fire-damaged roofs across South Orange, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a fire-rated roof.** The work serves the Village\'s large pre-war Victorians, Colonial Revivals, and Tudor Revivals and its Village-center and Seton Hall buildings, rebuilding to current code rather than recovering over fire-weakened material.',
+    '**The charred covering and deck** come off to the framing on a South Orange fire rebuild, because a roof is a structural assembly of covering, underlayment, decking, and framing, so fire, heat, smoke, and firefighting water span the whole assembly rather than the surface alone, per the U.S. Forest Products Laboratory. A Newark Quality Roofing tear-off removes the char to sound wood.',
+    '**Heat-weakened framing** governs the rebuild on the Village\'s large pre-war steep-slope homes, because the char layer carries essentially zero residual structural capacity and the heat-affected zone beneath retains only roughly 85–90% of original strength, per the U.S. Forest Products Laboratory and the American Wood Council. A Newark Quality Roofing rebuild follows a licensed structural engineer\'s post-fire assessment.',
+    '**A fire-rated roof** completes the rebuild on a South Orange home or a Village-center, SOPAC-area, or Seton Hall building, because a roof covering qualifies as Class A, B, or C under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant, per UL 790 and ASTM E108. A Newark Quality Roofing rebuild matches the covering and assembly to the Class A rating.',
   ],
   challenges: [
-    'Structural assessment after fire damage requires engineering evaluation that standard roofing inspection cannot provide. Fire weakens wood framing by charring that reduces cross-sectional dimensions and by heat exposure that degrades wood fiber strength even where charring is not visible. Steel connectors and fasteners may have lost tempering at elevated temperatures. We engage structural engineers for post-fire evaluation, ensuring the framing that supports the new roof meets structural requirements for load capacity and connection integrity.',
-    'Smoke and chemical contamination in the roof assembly creates conditions that must be remediated before new roofing is installed. Smoke residue on surviving framing, chemical residue from firefighting foam, and soot accumulation in attic spaces can create persistent odor issues if enclosed beneath new roofing material. Professional smoke and soot remediation before roofing installation prevents contamination from being sealed into the building assembly.',
-    'Material matching on partial fire damage restoration, where the fire destroyed one section while leaving other sections intact, requires the same careful matching process as storm damage partial replacement. On South Orange homes with premium materials, matching replacement slate, cedar, or copper to surviving sections demands the sourcing expertise and material access that comprehensive restoration requires across [Bloomfield](/fire-damage-roof-replacement-bloomfield-nj) and the region.'
+    '**Structural assessment** is the defining condition on a South Orange fire rebuild, because charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, and the rebuild meets current code, per the U.S. Forest Products Laboratory and EDT Engineers. A Newark Quality Roofing crew performs the roofing to a licensed structural engineer\'s assessment.',
+    '**Period detailing** on the Village\'s large pre-war Victorian, Colonial Revival, and Tudor Revival homes complicates a fire rebuild, because slate, metal, and copper coverings and steep-slope valley and chimney flashing carry the heaviest leak load, where roughly 90–95% of leaks originate at flashing, an industry estimate attributed to the NRCA. A Newark Quality Roofing rebuild reconstructs those transitions.',
+    '**Saturated decking and corroded connectors** follow firefighting on a South Orange roof, because extinguishing water saturates decking, insulation, and framing and accelerates corrosion of metal truss plates and fasteners, per the U.S. Forest Products Laboratory and ANSI/IICRC S700. A Newark Quality Roofing rebuild replaces water-soaked plywood or OSB sheathing and the corroded connectors.',
+    '**The Montrose Park Historic District** adds a separate approval on a fire rebuild of a designated property, because exterior roofing there requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from the construction permit. A Newark Quality Roofing rebuild clears that approval before the permit step.',
   ],
   process: [
-    'Fire damage assessment begins after the building is declared safe for entry by the fire department. We inspect the roof system with a structural engineer to determine the extent of fire, heat, smoke, and water damage to framing, decking, insulation, and roofing material. The assessment categorizes damage by severity and identifies which structural elements require replacement, which can be repaired, and which are undamaged and can remain in service.',
-    'Structural restoration proceeds based on the engineering assessment. Damaged framing members are replaced or reinforced to meet current building code requirements. New decking replaces fire-damaged substrate. The restored structure provides the sound foundation that the new roofing system requires for full-performance installation.',
-    'Roofing installation follows the structural restoration, using the same quality standards as our new construction work. The complete underlayment system, flashing details, and material installation create a roof assembly that exceeds the performance of the pre-fire installation when current materials and methods replace those from a prior generation. Documentation covers every phase of the restoration for insurance claim support and building department inspection requirements.'
+    '**Newark Quality Roofing assesses the fire-damaged assembly with a licensed structural engineer, then tears off the charred covering and decking to the framing.** Charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, and the American Wood Council uses a nominal char rate of 1.5 inches of wood per hour, with the char layer carrying essentially zero residual structural capacity, per the U.S. Forest Products Laboratory and the American Wood Council. A Newark Quality Roofing tear-off removes charred material to sound wood across the Village\'s large pre-war stock.',
+    '**Newark Quality Roofing rebuilds the framing and decking to the engineer\'s assessment, then installs a Class A fire-rated roof covering.** A water-soaked or deteriorated deck is not an adequate base and requires full removal, per N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1, so a Newark Quality Roofing crew replaces saturated sheathing and corroded connectors. The covering is classified under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant, on a South Orange home or a Village-center, SOPAC-area, or Seton Hall building.',
+    '**Newark Quality Roofing documents the fire, heat, and water damage, writes a detailed scope and estimate, and meets the insurer\'s adjuster on site.** Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so a crew inspects and photographs the damage and performs the approved roofing, while the homeowner or a licensed public adjuster files and negotiates the claim under the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B. Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute.',
   ],
   faqs: [
     {
-      question: 'How long does fire damage roof replacement take in South Orange?',
-      answer: 'Fire damage restoration timelines vary widely based on the extent of structural damage and the broader building restoration sequence. The roofing phase itself typically requires one to three weeks once the underlying structure is restored, but the overall project from fire event to completed roofing may span months when structural reconstruction and remediation precede the roofing work.'
+      question: 'Should you repair or replace a fire-damaged roof in South Orange?',
+      answer:
+        'Replace a fire-damaged South Orange roof when fire reaches the structure, char weakens the framing, or damage exceeds 25–30% of the roof area; repair a roof only when fire damage stays surface-localized on sound framing. The char layer carries essentially zero residual structural capacity and is removed, per the U.S. Forest Products Laboratory, and the 25% area rule favors full replacement, per RapidRestore cost data, on the Village\'s large pre-war steep-slope homes.',
     },
     {
-      question: 'Does insurance cover fire damage roof replacement?',
-      answer: 'Homeowner insurance policies typically cover fire damage including roofing replacement, structural restoration, and related building components. Coverage usually extends to the cost of restoration with like-quality materials meeting current building codes. We provide comprehensive documentation supporting the full claim scope and coordinate with the carrier throughout the restoration process.'
+      question: 'Does homeowners insurance cover fire damage roof replacement?',
+      answer:
+        'Homeowners insurance covers fire damage roof replacement when fire causes the loss, a covered peril, and the deductible stays the homeowner\'s responsibility under the policy. Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute, and coverage and approval are the insurer\'s decision. Newark Quality Roofing documents the fire, heat, and water damage with timestamped photographs for the adjuster.',
     },
     {
-      question: 'Can you match my existing slate roof on the undamaged sections?',
-      answer: 'We make every effort to match replacement materials to surviving sections. For slate, we source from quarries matching the original stone or from salvage dealers carrying compatible profiles. Perfect matching may not be achievable when the original slate has weathered for decades, but we select the closest available match and can discuss options including full replacement for uniform appearance when partial matching proves insufficient.'
+      question: 'Does a fire rebuild in the Montrose Park Historic District need extra approval?',
+      answer:
+        'Exterior roofing work on a designated property in the Montrose Park Historic District requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from a construction permit. The Certificate of Appropriateness is a local-ordinance requirement set by Village Code Chapter 185, not by National Register listing, so it applies only inside the locally designated district and to designated local landmarks, not Village-wide. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner. The Township of South Orange Village Building Department at 76 South Orange Avenue handles the construction permit, where plan review runs within 20 business days.',
     },
     {
-      question: 'Do you handle the entire fire restoration or just the roofing?',
-      answer: 'We focus on the roofing and related exterior scope -- framing, decking, insulation, underlayment, roofing material, flashing, gutters, and associated exterior components. We coordinate with structural engineers and general contractors who handle the broader building restoration, ensuring the roofing scope integrates properly with the construction sequence and timeline.'
+      question: 'Does a South Orange fire rebuild require a construction permit?',
+      answer:
+        'Replacing charred rafters or trusses is a structural change that triggers a construction permit through the Township of South Orange Village Building Department, even though a detached one- and two-family covering re-roof alone counts as ordinary maintenance under N.J.A.C. 5:23-2.7. A commercial, multi-family, or attached building such as a Village-center storefront or a Seton Hall roof requires a permit once roof work exceeds 25% of the roof area in a 12-month period, per the NJ Uniform Construction Code, with plan review within 20 business days.',
+    },
+    {
+      question: 'Can you match the slate or copper on the undamaged sections of my South Orange home?',
+      answer:
+        'A partial fire rebuild on a South Orange period home matches replacement slate, metal, or copper to the surviving sections where fire destroyed one area and left others intact. Natural slate lasts 60 to 150 years, metal 40 to 80 years, and copper 70 years or more, per the InterNACHI life-expectancy chart, and slate that has weathered for decades limits an exact match, so Newark Quality Roofing selects the closest available match and discusses full replacement for uniform appearance where partial matching proves insufficient.',
     },
     {
       question: 'How much does fire damage roof replacement cost in South Orange, NJ?',
-      answer: 'Most fire damage roof replacement projects in South Orange range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage roof replacement adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Josten Roofing and Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement in South Orange NJ -- structural restoration and roofing for fire-damaged village homes.',
+  metaDescription:
+    'Fire damage roof replacement in South Orange NJ — tear-off, structural rebuild, and a Class A fire-rated roof for pre-war homes. NJ-registered, free estimate.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; fire damage adds structural framing and decking replacement, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with South Orange\'s large pre-war homes, Montrose Park, and the Seton Hall / Village-center buildings.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in South Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in South Orange.',
+    urgencyNote: 'Addressing fire-damaged framing and decking early limits further water and structural damage.',
   },
 };

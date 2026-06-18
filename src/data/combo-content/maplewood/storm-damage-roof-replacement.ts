@@ -3,51 +3,67 @@ import type { ComboContent } from '../schema';
 export const maplewoodStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'maplewood',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing storm damage roof replacement across Maplewood, New Jersey, and Essex County, documenting wind and tree-impact damage on architect-designed period homes and Village storefronts, then installing a new roof** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Storm damage roof replacement** removes and rebuilds a roof structurally compromised by wind, hail, or a severe storm, restoring the full weatherproof system. It follows documentation of the storm damage pattern across the covering, flashing, and deck.',
   overview: [
-    'Newark Quality Roofing delivers expert storm damage roof replacement in Maplewood — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement responds to the severe weather events that periodically devastate Maplewood roofs beyond repair, particularly in the western neighborhoods where South Mountain Reservation\'s towering trees become projectiles during nor\'easters and summer thunderstorms. When storm damage exceeds the threshold where repair can restore functional integrity, full replacement provides the comprehensive solution that eliminates compromised materials and structural damage. Our [storm damage replacement](/storm-damage-roof-replacement) protocol in [Maplewood](/roofing-in-maplewood-nj) moves rapidly from emergency tarping through permanent replacement, coordinating insurance claims throughout the process.',
-    'Maplewood\'s storm damage patterns reflect the township\'s unique geography. Western neighborhoods along Prospect Street, Wyoming Avenue, and throughout the Hilton area experience disproportionate tree-impact damage from Reservation-edge trees that grow to 60-80 feet without municipal pruning. Central and eastern neighborhoods face wind-driven shingle loss and flashing displacement from storms that channel through the South Mountain gap. Both damage types can trigger replacement when the affected area exceeds repair feasibility.',
-    'The distinction between repairable storm damage and replacement-requiring damage depends on the percentage of roof area affected, the structural integrity of the framing, and the condition of the remaining undamaged roofing. When storm damage removes more than 25-30% of the shingle field, exposes large areas of underlayment to UV degradation, or causes structural damage to rafters and decking, replacement provides better long-term value than extensive repair. Homeowners recovering from storm damage in [South Orange](/storm-damage-roof-replacement-south-orange-nj) apply the same repair-versus-replacement analysis to their recovery decisions.',
+    '**Newark Quality Roofing replaces storm-damaged roofs across Maplewood\'s architect-designed Tudor, Colonial Revival, and Italian Revival homes and its Village and Springfield Avenue storefronts.** Storm damage roof replacement strips the failed roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system, the work that restores a roof past partial repair after a covered storm loss.',
+    '**Architect-designed period homes** carry the storm-replacement volume in Maplewood, a township that runs 74.9% owner-occupied across about 9,051 housing units, per the U.S. Census Bureau, where a tear-off commonly exposes plank or deteriorated sheathing the older stock hides. A Newark Quality Roofing replacement inspects every deck section at tear-off and replaces deteriorated boards before the new cover.',
+    '**Wind and tree-impact damage** drives the Maplewood loss, because the South Mountain Reservation reaches into the township\'s wooded western and northwestern edge, pressing heavy canopy against the homes of the Wyoming section, where branch impact in a nor\'easter or summer storm punctures the covering. A Newark Quality Roofing replacement documents the damage pattern with timestamped photographs for the adjuster.',
+    '**Village and Springfield Avenue storefronts** carry low-slope EPDM, TPO, and modified-bitumen membrane that tears at the seams under wind-driven storm load, unlike the pitched asphalt and slate field of the residential stock. A Newark Quality Roofing replacement reseals or rebuilds the membrane and matches the new system to the Essex County climate before tear-off.',
   ],
   challenges: [
-    'Post-storm material availability constraints can delay replacement projects when multiple homes in Maplewood and surrounding communities need roofing materials simultaneously. Regional storms create demand spikes that deplete distributor inventories of popular shingle lines. Our distributor relationships and pre-storm inventory agreements mitigate these delays, but homeowners should understand that major storm events may extend project timelines beyond normal scheduling.',
-    'Structural damage assessment after severe storms requires engineering evaluation that extends beyond standard roofing contractor scope. When a tree impacts a Maplewood roof with enough force to damage rafters, ridge beams, or bearing walls, a structural engineer must evaluate the damage and specify repair requirements before roofing work can proceed. We coordinate engineering assessments promptly to prevent delays in the overall recovery timeline.',
+    '**Plank and deteriorated sheathing** surfaces at tear-off on Maplewood\'s early-20th-century architect-designed stock, a condition a storm replacement cannot see until the covering is off. A Newark Quality Roofing crew inspects every sheathing section and replaces deteriorated boards, and the documentation supports an insurance supplement when hidden decking damage exceeds the initial estimate, per Insurance Information Institute claims-process guidance.',
+    '**Structural damage from tree impact** crosses beyond standard roofing scope when a falling branch or tree damages rafters, ridge, or framing on a reservation-edge Wyoming home. A Newark Quality Roofing crew coordinates a licensed structural engineer\'s assessment and roofs to that engineer\'s and code\'s requirements, because the engineer signs off the framing and the roofer performs the roofing to that assessment.',
+    '**Maplewood Village and Springfield Avenue commercial roofs** cross into permit territory that a detached-home reroof does not, because repairing more than 25% of the total roof area in a 12-month period requires a construction permit, per N.J.A.C. 5:23-2.7. A Newark Quality Roofing replacement files the permit with the Township of Maplewood Construction Division on the storefront low-slope roofs that cross that threshold.',
   ],
   process: [
-    'Emergency response deploys tarping crews within hours of storm damage reports from Maplewood properties. We install reinforced tarps secured to the roof structure, not just draped over the damage, to provide weather protection that withstands subsequent storms while permanent replacement is planned. Emergency tarping addresses immediate water intrusion risk and preserves the interior from secondary water damage.',
-    'Damage assessment and insurance documentation follow the emergency response. We photograph all damage comprehensively, assess structural integrity, and prepare a detailed scope of work for insurance submission. If structural engineering evaluation is needed, we coordinate the engineer\'s inspection and incorporate their findings into the replacement specification.',
-    'Replacement execution follows claim approval, proceeding through complete tear-off, structural repair per engineering specifications, new deck installation where needed, waterproofing membrane application, and new roofing material installation. The replacement addresses not only the storm-damaged areas but the entire roof surface, providing the homeowner with a completely new system warranted against future failures.',
+    '**Newark Quality Roofing inspects the storm-damaged roof, documents the wind and tree-impact damage with timestamped photographs, and writes a detailed scope and estimate matching the insurer\'s line items.** Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, not a licensed public adjuster, so the homeowner or a licensed public adjuster files and negotiates the claim, per the NJ Public Adjusters\' Licensing Act administered by NJ DOBI, while the crew documents the damage and meets the assigned adjuster on site. Coverage and approval are the insurer\'s decision.',
+    '**Newark Quality Roofing meets the assigned insurance adjuster on site to walk the storm damage and provide technical input on the damage extent and the repair methods.** A Newark Quality Roofing crew prepares the documentation for a supplement, because rotted plank decking or hidden damage at tear-off can exceed the initial estimate on Maplewood\'s older architect-designed stock, per Insurance Information Institute claims-process guidance. The deductible is the policyholder\'s responsibility under the policy, which Newark Quality Roofing cannot legally waive or pay, per NJ DOBI.',
+    '**Newark Quality Roofing strips the roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs the cover to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** A complete tear-off on a detached one- or two-family Maplewood home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more layers, per N.J.A.C. 5:23-6.4.',
   ],
   faqs: [
     {
-      question: 'How quickly can you tarp my Maplewood home after storm damage?',
-      answer: 'We maintain emergency response capability for Maplewood and prioritize western neighborhoods near South Mountain where storm damage frequency is highest. Emergency tarping is typically completed within 2-6 hours during business hours, depending on storm severity and concurrent demand. After major regional storms, response times may extend but we triage based on damage severity and active water intrusion risk.',
+      question: 'Should you repair or replace a storm-damaged roof in Maplewood?',
+      answer:
+        'Replace a storm-damaged roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair a roof when the storm damage stays localized on an asphalt roof under 10–15 years old. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds — the 25–30% area rule per RapidRestore and Kellow Construction and the 50% cost rule per WeatherShield and Home Depot cost data — and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data. On Maplewood\'s reservation-edge Wyoming homes, branch impact and deck rot often push a tree-struck roof over that threshold.',
     },
     {
-      question: 'Will insurance cover full replacement after storm damage in Maplewood?',
-      answer: 'Insurance typically covers full replacement when storm damage exceeds the repair threshold. Your policy terms, deductible amount, and the specific damage determine coverage. We document damage comprehensively to support full replacement claims when the damage warrants it. Most Maplewood homeowner policies cover wind, hail, and falling tree damage with full replacement cost coverage.',
+      question: 'Does homeowners insurance cover storm damage roof replacement in Maplewood?',
+      answer:
+        'Homeowners insurance covers roof replacement when a covered peril causes the damage — wind, hail, or a falling tree — and excludes replacement for normal wear, age, or deferred maintenance. Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). Newark Quality Roofing documents the tree-impact and wind damage with timestamped photographs for the adjuster; coverage and approval are the insurer\'s decision.',
     },
     {
-      question: 'How long does storm damage replacement take from start to finish?',
-      answer: 'The full timeline from storm event through completed replacement typically spans 4-8 weeks. This includes emergency tarping within hours, damage documentation within 48 hours, insurance claim processing over 2-4 weeks, and replacement installation over 3-7 working days depending on roof complexity and any required structural repairs. We manage the entire timeline to minimize the period your Maplewood home is under temporary protection.',
+      question: 'Do you handle the insurance claim and negotiate with the adjuster?',
+      answer:
+        'Newark Quality Roofing inspects the roof, photographs the damage, writes a detailed scope and estimate, and meets the assigned adjuster on site, because in New Jersey a licensed public adjuster or attorney negotiates or settles the claim. The homeowner or a licensed public adjuster files and negotiates the claim, per the NJ Public Adjusters\' Licensing Act administered by NJ DOBI, and Newark Quality Roofing performs the approved work to the agreed scope and to code.',
+    },
+    {
+      question: 'Do you need a permit to replace a storm-damaged roof in Maplewood, NJ?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family Maplewood home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, while a structural change to rafters or trusses still triggers a permit. A commercial, multi-family, or attached building exceeding 25% of the roof area within 12 months requires a permit from the Township of Maplewood Construction Division at 574 Valley Street, decided within 20 business days. Exterior roofing on a property in a locally designated Maplewood historic district or landmark falls under a township Certificate of Appropriateness — confirm current local designation with the Township.',
     },
     {
       question: 'How much does storm damage roof replacement cost in Maplewood, NJ?',
-      answer: 'Most storm damage roof replacement projects in Maplewood range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data. NJ architectural asphalt runs $6.50–$11.00 per square foot and metal $9.00–$16.00, per Josten Roofing NJ pricing, and Maplewood\'s larger architect-designed homes and steep slate slopes raise the install figure. Newark Quality Roofing provides a free written estimate; the deductible remains the homeowner\'s responsibility under the policy.',
     },
   ],
-  metaDescription: 'Storm damage roof replacement in Maplewood NJ. Emergency tarping to full replacement with insurance coordination near South Mountain.',
+  metaDescription:
+    'Storm damage roof replacement in Maplewood NJ — wind and tree-impact tear-offs on period homes and Village storefronts, insurance documentation. Free estimate.',
   pricing: {
-    range: '$9,000–$28,000',
-    note: 'often insurance-covered',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Maplewood\'s architect-designed early-20th-century homes and Village storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Storm damage documented with timestamped photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free storm damage roof replacement estimate in Maplewood — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for storm damage roof replacement in Maplewood.',
+    urgencyNote: 'Documenting storm damage early limits interior and structural water damage and supports the insurance claim.',
   },
 };

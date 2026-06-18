@@ -3,57 +3,74 @@ import type { ComboContent } from '../schema';
 export const southOrangeSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'south-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing soffit installation repair across South Orange, New Jersey, and Essex County, replacing rotted eave board, clearing blocked intake vents, and installing baffles** on the Village\'s large pre-war Victorians, Colonials, and Tudors as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**The soffit** is the eave underside that closes the rafter-tail bays and houses the intake vents of a balanced attic-ventilation system. Soffit installation and repair replaces the rotted panel, clears blocked intake, and installs baffles that hold the soffit-to-ridge air channel open.',
   overview: [
-    'Newark Quality Roofing delivers expert soffit installation repair in South Orange — with prices starting from $1,500–$4,000 and free estimates available today. Soffit installation and repair in South Orange Village maintains the critical ventilation pathway that prevents moisture accumulation and ice dam formation in the attic spaces of the village\'s pre-war housing stock. The soffits -- panels enclosing the underside of the roof overhang -- contain perforated or vented sections that allow fresh air intake into the attic, balancing the exhaust ventilation at the ridge or roof vents above. When soffits deteriorate, seal shut, or become blocked, the ventilation system fails and moisture problems follow.',
-    'South Orange\'s older homes present soffit conditions that range from well-maintained to severely deteriorated depending on how past owners managed the ongoing moisture and pest pressures the village environment creates. Tudor Revival homes in Montrose Park carry soffits beneath their dramatic eave overhangs that are among the most visible exterior elements on these properties. Arts and Crafts bungalows along Scotland Road display exposed rafter tails with soffit panels between them -- a design detail where deterioration is immediately noticeable from the street and affects the Craftsman character homeowners value.',
-    'Animal intrusion through deteriorated soffits is a persistent concern in South Orange, where the village\'s proximity to South Mountain Reservation brings raccoons, squirrels, and birds into residential neighborhoods seeking shelter. Softened soffit material provides easy entry points into attic spaces where wildlife causes insulation damage, creates fire hazards, and deposits waste that compromises air quality. Prompt soffit repair eliminates these entry points and restores the building envelope integrity that keeps wildlife outside where it belongs.',
-    'Our soffit work in [South Orange](/roofing-in-south-orange-nj) coordinates with the broader roofline assembly -- fascia, gutters, drip edge, and ventilation -- to ensure each component supports the others. Replacing soffits without addressing failed fascia or blocked ventilation treats the symptom rather than the system, and our assessment evaluates the complete eave assembly before prescribing the repair scope.'
+    '**Newark Quality Roofing rebuilds the deep eave soffit and cornice detailing** that ring South Orange\'s large pre-war Victorians, Colonial Revivals, and Tudor Revivals, where over half the stock predates 1940, per the Township planning evaluation. The soffit closes that wide overhang and carries the attic intake vents.',
+    '**The deep eaves, brackets, and overhangs** on those large period homes give the soffit its long exposed run, and Newark Quality Roofing matches replacement vinyl, aluminum, wood, or fiber-cement panel to the existing cornice profile. Aluminum soffit and fascia carry a 20 to 40-plus-year service life, per the InterNACHI life-expectancy chart.',
+    '**Original wood soffit and cornice trim** on the Montrose Park, Wyoming-section, and Newstead homes rots from gutter overflow and trapped eave moisture, the most common soffit failure, per InterNACHI inspection guidance. Newark Quality Roofing restores the eave detail to match, then sets the panel to admit the attic intake.',
+    '**Soffit vents** behind the period cornice carry the primary intake of a balanced attic, so when blown insulation, paint, or debris seals that intake, the trapped heat and moisture condense on the sheathing and form mold, per the U.S. DOE Building America Solution Center and InterNACHI. The eave intake balances the ridge exhaust at roughly 50% each, per ARMA and Air Vent Inc.',
+    '**The Village center, SOPAC-area mixed-use, and Seton Hall University campus** carry low-slope eaves and rafter-vented assemblies where a blocked soffit intake stalls the balanced system, per the U.S. DOE Building America Solution Center. Newark Quality Roofing sizes the intake against the IRC minimum net free ventilating area of 1/150 of the vented attic, per IRC Section R806.2, because South Orange sits in IRC Climate Zone 4 to 5.',
   ],
   challenges: [
-    'Ventilation adequacy assessment on South Orange\'s older homes requires evaluating whether the existing soffit ventilation, combined with ridge or roof vent exhaust, provides the attic airflow that prevents moisture and ice dam problems. Many pre-war South Orange homes were built without adequate soffit ventilation, and subsequent modifications -- insulation additions, attic conversions, bathroom exhaust routing -- may have further restricted airflow. Simply replacing deteriorated soffits with new panels perpetuates ventilation deficiencies unless the opportunity is used to upgrade vented area to current standards.',
-    'Matching soffit material and configuration on South Orange\'s historic homes requires attention to the original construction details that contribute to architectural character. Tudor Revival soffits may use board-and-batten patterns, while Colonial Revival homes carry flat-panel soffits with crown molding transitions at the wall line. Replacing original wood soffits with standard vinyl or aluminum soffit panels changes the texture and profile visible from the street, diminishing the architectural detail that South Orange homeowners and their neighbors in [Maplewood](/soffit-installation-repair-maplewood-nj) invest to maintain.',
-    'Access to soffit work zones on multi-story South Orange homes requires scaffolding or lift equipment that adds cost and logistics to what might otherwise appear as a simple panel replacement project. The two-and-a-half-story Tudor Revivals and three-story Colonials common in Montrose Park position soffits 25 to 35 feet above grade, well beyond safe ladder reach. The staging investment is unavoidable on these taller homes, and we include access logistics in our initial estimate rather than discovering the cost impact mid-project.'
+    '**The 8,000-tree shade canopy** drops leaf and branch debris into the deep period eaves and gutters, overflowing onto the long soffit and cornice run below, per the Township Fast Facts. The Township maintains over 8,000 shade trees across 181 Village streets, so Newark Quality Roofing rebuilds the soffit and fascia together where both rot from the same eave overflow.',
+    '**The reservation-edge branch and leaf load** fractures the wide eave soffit on the South Mountain, Newstead, and Wyoming-section homes, because South Orange borders the South Mountain Reservation on the Reservation\'s eastern edge along the Village\'s western boundary, per Essex County Parks, and the wooded ridgeline drops branches onto adjoining roofs during storms. Newark Quality Roofing replaces the impact-broken cornice panel and repairs the rafter-tail wood behind it.',
+    '**Aluminum cover-overs** wrapped across the original wood cornice on these older homes hide the rot beneath, because the visible aluminum stays intact while the rafter-tail and fascia behind it deteriorate from gutter overflow and trapped eave moisture, per InterNACHI inspection guidance. Newark Quality Roofing probes behind the wrap and replaces the rotted structural wood before the new soffit goes on.',
+    '**The multi-family stock near the train and Seton Hall** carries soffit ventilation that serves rental units, where blown or batt insulation packs tight against the deck at the eaves and seals the intake from above while the panel reads intact below, per the U.S. DOE Building America Solution Center. Newark Quality Roofing installs rafter baffles that hold a clear soffit-to-ridge air channel above the insulation and documents the completed work for the owner.',
   ],
   process: [
-    'Soffit assessment inspects the existing panels for deterioration, ventilation adequacy, pest entry points, and compatibility with the home\'s overall eave assembly. We measure existing vent area and calculate the net free area relative to attic square footage, determining whether the existing ventilation meets or falls short of recommended minimums. Probing suspect areas identifies soft spots indicating moisture damage that may not be visible from ground level. The assessment guides repair scope and ventilation improvement recommendations.',
-    'Soffit replacement removes deteriorated panels and inspects the lookout framing beneath for structural condition. Damaged lookouts are repaired or replaced before new soffit material is installed. Vented soffit panels are positioned to provide maximum intake airflow, with continuous vent strip preferred over individual circular vents for superior air distribution. On homes where the original soffit design used non-vented panels, we add ventilation capacity by incorporating vented sections or continuous soffit vent strips that balance the exhaust ventilation at the ridge.',
-    'Material selection matches the home\'s architectural requirements and the owner\'s maintenance preferences. Custom wood soffits are milled to match existing profiles on historic homes where authenticity matters. Prefinished aluminum soffits provide permanent weather resistance on homes where the soffit is not a prominent architectural feature. Composite materials offer a middle ground between wood authenticity and aluminum durability. Every installation includes the paint or finish appropriate for the selected material and a maintenance schedule that identifies inspection intervals.'
+    '**Newark Quality Roofing inspects the eave soffit, the intake vents, and the attic sheathing** before quoting, checking the deep period overhangs for rot, blocked intake, and condensation staining. The inspection sizes the intake against the IRC minimum net free ventilating area of 1/150 of the vented attic, per IRC Section R806.2, because a soffit repair corrects the attic-ventilation intake, not the cornice appearance alone.',
+    '**Newark Quality Roofing removes the failed cornice soffit panel** and repairs or replaces the rotted rafter-tail and fascia wood behind it, then clears intake blocked by insulation, paint, or debris, restoring the eave underside that holds the intake vents, per InterNACHI inspection guidance. On a large pre-war South Orange home the crew matches vinyl, aluminum, wood, or fiber-cement panel to the original profile.',
+    '**Newark Quality Roofing installs insulation baffles** at the deep eaves and sets the vented soffit panel, keeping blown and batt insulation off the soffit intake to hold a clear soffit-to-ridge air channel, per the U.S. DOE Building America Solution Center. The crew confirms the intake balances against the ridge exhaust at roughly 50% intake and 50% exhaust, per ARMA and Air Vent Inc., then runs a magnet sweep for nails.',
   ],
   faqs: [
     {
-      question: 'How do I know if my South Orange home\'s soffits need repair?',
-      answer: 'Visible signs include peeling paint revealing soft or darkened wood, sagging panels, holes from animal activity, and wasp or bee nests indicating accessible cavities. From inside the attic, look for daylight through the soffit area -- this indicates gaps. Water stains on attic framing near the eave also suggest soffit failure allowing rain entry. Annual exterior inspection from the ground with binoculars can identify deterioration on upper-story soffits before problems escalate.'
+      question: 'Why does soffit on South Orange\'s large pre-war homes rot first at the eaves?',
+      answer:
+        'The deep eaves, brackets, and overhangs on South Orange\'s large Victorians, Colonial Revivals, and Tudor Revivals give the wood soffit a long exposed run that gutter overflow and trapped eave moisture rot first. That is the most common soffit failure, per InterNACHI inspection guidance, and Newark Quality Roofing restores the original cornice detail to match.',
     },
     {
-      question: 'Are vented soffits important for my South Orange home?',
-      answer: 'Vented soffits are essential for proper attic ventilation, which prevents moisture accumulation, mold growth, and ice dam formation. South Orange\'s older homes are particularly vulnerable to these problems because original construction often provided inadequate ventilation. If your home has non-vented soffits, adding ventilation during repair or replacement is one of the most cost-effective improvements for attic health and energy efficiency.'
+      question: 'Do blocked soffit vents cause attic mold and ice dams in South Orange?',
+      answer:
+        'Blocked soffit vents stall the balanced attic system, so trapped heat and moisture condense on the sheathing and form mold. The trapped attic heat also drives the ice-dam conditions at the eaves through the South Orange winter, per the U.S. DOE Building America Solution Center, InterNACHI, and the NRCA. A balanced system runs roughly 50% intake at the soffit and 50% exhaust at the ridge, per ARMA and Air Vent Inc.',
     },
     {
-      question: 'Should I choose wood or aluminum soffits for my South Orange home?',
-      answer: 'Wood soffits are appropriate for historic homes where the soffit profile and material are architecturally significant features visible from the street. Aluminum soffits provide maintenance-free durability on homes where the soffit is less prominent or where the homeowner prefers to eliminate periodic painting. We recommend wood for Arts and Crafts homes with exposed rafter-tail detailing and aluminum or composite for Colonial homes where the soffit is a background element.'
+      question: 'Do I need a permit or historic approval for soffit work in South Orange?',
+      answer:
+        'A repair or replacement of the roof covering and trim on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. The Township of South Orange Village Building Department at 76 South Orange Avenue administers the permit on a commercial, multi-family, or attached building, where plan review runs within 20 business days.',
     },
     {
-      question: 'Can you add soffit ventilation to my South Orange home that currently has none?',
-      answer: 'Yes. We retrofit ventilation into existing non-vented soffits by cutting openings and installing vented panels or continuous vent strips. The retrofit requires verifying that the attic space above the soffit area is open to airflow -- insulation or blocking at the top plate may need to be cleared to create the intake pathway. Adding soffit ventilation without corresponding exhaust ventilation at the ridge can actually create moisture problems, so we evaluate and address both intake and exhaust as a balanced system.'
+      question: 'Does the Montrose Park Historic District restrict cornice and soffit work in South Orange?',
+      answer:
+        'Exterior roofing work on a designated property in the Montrose Park Historic District requires a Certificate of Appropriateness from the South Orange Historic Preservation Commission under Village Code Chapter 185, separate from a construction permit. The Certificate of Appropriateness is a local-ordinance requirement set by Village Code Chapter 185, not by National Register listing, so it applies only inside the locally designated district and to designated local landmarks, not Village-wide. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
+    },
+    {
+      question: 'What soffit material lasts the longest in the South Orange climate?',
+      answer:
+        'Aluminum soffit and fascia carry a 20 to 40-plus-year service life, per the InterNACHI life-expectancy chart, alongside vinyl, wood, and fiber-cement options. Painted wood soffit needs repainting and lasts a shorter span, while vinyl, aluminum, and fiber-cement resist the moisture that rots wood at the eave, per InterNACHI inspection guidance.',
     },
     {
       question: 'How much does soffit installation repair cost in South Orange, NJ?',
-      answer: 'Most soffit installation repair projects in South Orange range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Soffit installation repair cost varies by scope, because soffit length, the material across vinyl, aluminum, wood, and fiber-cement, rafter-tail rot behind the panel, and any fascia and gutter tie-in set the cost. Newark Quality Roofing provides a free written estimate across South Orange and Essex County.',
     },
   ],
-  metaDescription: 'Soffit installation and repair in South Orange NJ -- vented panels and custom profiles for attic ventilation on village homes.',
+  metaDescription:
+    'Soffit installation repair in South Orange NJ — restoring deep period-eave soffit, intake vents, and baffles on large pre-war homes. Free written estimate.',
   pricing: {
-    range: '$1,500–$4,000',
-    note: 'soffit replacement or repair',
+    range: 'Varies by scope',
+    note: 'Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with South Orange\'s large pre-war homes, Montrose Park, and the Seton Hall / Village-center buildings.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free soffit installation repair estimate in South Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for soffit installation repair in South Orange.',
+    urgencyNote: 'Restoring soffit intake early limits trapped attic moisture, sheathing rot, and ice-dam conditions.',
   },
 };
