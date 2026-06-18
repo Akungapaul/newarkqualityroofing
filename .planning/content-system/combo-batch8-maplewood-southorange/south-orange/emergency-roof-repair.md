@@ -1,0 +1,15 @@
+# south-orange / emergency-roof-repair — rewrite rationale
+
+De-fab literals cleared from the current file:
+- Price-in-lead + hype ("$500–$2,500 … free estimates available today"), the "two-to-four-hour / 2–4 hour response window" response-time claims (overview, process, FAQ), and named slate-quarry sourcing claims — all deleted.
+- whyChooseUs templated trust lines: "NJ licensed, GAF Certified — 15+ years", "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties", "same-day estimates and 24/7 emergency response" — replaced with registered-HIC / fully-insured factual reasons.
+- conversionHooks: "Early action saves thousands" → factual urgency note; mid-page CTA de-hyped.
+- Inline markdown self-links ([Maplewood](/…), [emergency roof repair](/…)) — none in the rewrite (zero links).
+- Pricing tier replaced with the sourced repair-&-maintenance default ($400–$1,000 + named 25–50% emergency premium).
+- Entity-grounded directAnswer authored (bold span 37 words, ≤40), no `definition` field (spliced post-assembly), credential = "a registered New Jersey Home Improvement Contractor" / "fully insured" only — no "licensed" for NQR.
+
+Historic / COA framing: BINDING LOCAL COA stated only as a Village Code Chapter 185 / Montrose Park Historic District matter, only inside the locally designated district and for designated local landmarks, NOT "because of National Register listing," NOT Village-wide; per NPS, NR listing alone places no federal restriction. Historic FAQ first sentence split to stay ≤40 words.
+
+Named sources cited in-text: EPA (24–48h mold-growth window); FEMA / U.S. Army Corps of Engineers Operation Blue Roof (30-day tarp span, ≤50% framing threshold); Insurance Information Institute (Triple-I) (wind/hail 2.8% / 1 in 36, $14,747; water $15,400); NOAA (severe-thunderstorm 58 mph gust threshold); University of Minnesota Extension (ice-dam attic-heat mechanism); NRCA + ARMA (ponding >48h defect, ¼-inch/foot slope; 90–95% flashing-leak industry estimate attributed to the NRCA); Essex County Parks (Reservation eastern-edge geography); Township Fast Facts (8,000 shade trees / 181 Village streets); HomeAdvisor, Modernize, Integrity Home Exteriors (cost range + 25–50% emergency premium); National Park Service (NR listing places no federal restriction).
+
+South Orange texture preserved/restructured answer-first: large pre-war Victorians/Colonial Revivals/Tudor Revivals + slate/copper steep-slope detailing; reservation-edge branch impact (Reservation's eastern edge / western boundary); 8,000-tree canopy debris; Village-center, SOPAC, and Seton Hall low-slope membrane; Township of South Orange Village Building Department at 76 South Orange Avenue (no Construction Official named); Montrose Park binding Chapter-185 COA. Verified sections only (Montrose Park, Seton Hall/Village, South Mountain, Village Center). Differentiated from Maplewood: foregrounds the BINDING (not framework-only) Chapter-185 COA, Seton Hall institutional flat roofs, and the Reservation's-eastern-edge framing; no Maplewood Village / Springfield Ave / 574 Valley St / owner-occupancy-Census imports.
