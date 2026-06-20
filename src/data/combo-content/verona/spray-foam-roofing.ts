@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const veronaSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing spray foam roofing across Verona, New Jersey, and Essex County, spraying seamless polyurethane foam and a protective coating over low-slope roofs on the Bloomfield Avenue and Pompton Avenue corridor storefronts** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Spray foam roofing** sprays liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating. The coating shields the UV-sensitive foam from degradation.',
   overview: [
-    'Newark Quality Roofing delivers expert spray foam roofing in Verona — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing delivers a seamless, self-insulating roof system that transforms Verona commercial buildings from energy liabilities into thermal performers. The liquid foam is sprayed directly onto the existing roof surface, expanding to fill every crack, gap, and penetration detail before curing into a rigid, closed-cell insulation layer that also serves as the waterproofing membrane. No other roofing system simultaneously insulates and waterproofs in a single monolithic application, making spray foam uniquely efficient for Verona buildings where energy performance upgrades are a priority.',
-    'Newark Quality Roofing applies spray foam roofing on Verona commercial and institutional buildings where the material\'s integrated insulation and waterproofing properties address both weatherproofing and energy efficiency in a single application. Buildings along Bloomfield Avenue with minimal existing insulation gain the most dramatic benefit -- the spray foam adds R-6.5 per inch of thickness, creating an insulation envelope that older Verona commercial structures never had. Our [spray foam roofing](/spray-foam-roofing) installations include the elastomeric coating system that protects the foam surface from UV degradation and provides a walkable, maintainable surface.',
-    'The seamless nature of spray foam eliminates every joint, seam, and lap that conventional membrane roofing systems rely on -- and that eventually become the failure points where leaks originate. On Verona commercial buildings with complex geometry, numerous penetrations, and irregular parapet configurations, spray foam conforms to every surface detail without the custom fabrication that membrane flashings require. Building owners in [West Orange](/spray-foam-roofing-west-orange-nj) with similarly complex commercial rooftops have chosen spray foam specifically for its ability to seal challenging geometry that membrane systems flash imperfectly.'
+    '**Newark Quality Roofing sprays seamless polyurethane foam roofing and a protective coating** across Verona\'s Bloomfield Avenue and Pompton Avenue corridor storefronts and the flat sections of its pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels. The foam expands into a closed-cell layer that insulates and waterproofs in one monolithic application.',
+    '**Seamless polyurethane foam** sprays continuous around every curb, drain, and pipe penetration on a Verona corridor roof, eliminating the welded seams and laps where single-ply membranes fail, per the SPFA and NRCA technical guidance. A Newark Quality Roofing foam application conforms to the irregular parapets and rooftop-equipment penetrations on a Bloomfield Avenue or Pompton Avenue building.',
+    '**A protective coating** shields the UV-sensitive foam from degradation, so the foam layer lasts 30 or more years when the coating is maintained, per the SPFA and SPF manufacturers, with a recoat every 10 to 20 years restoring the surface — an acrylic coating at 10 to 15 years and a silicone coating at 15 to 20 years. A Newark Quality Roofing recoat renews the surface before erosion reaches the foam.',
+    '**A closed-cell foam layer** adds an aged R-value of R-6.0 to R-6.5 per inch, the insulation figure attributed to ICC-ES reports and ASTM C1289 LTTR testing and the SPFA, thermal resistance no single-ply membrane provides on a corridor storefront or a Verona split-level\'s flat section above living space. A Newark Quality Roofing foam recover adds that insulation to an existing low-slope assembly without a tear-off.',
   ],
   challenges: [
-    'Application conditions for spray foam roofing are more restrictive than any other commercial roofing material. The two-component chemical reaction requires ambient temperatures above 50 degrees Fahrenheit, dry surfaces free from dew or frost, and wind speeds below 15 mph to prevent overspray drift. In Verona\'s climate, these conditions limit the application season to approximately April through October, with daily weather windows that may exclude early morning and late afternoon hours. Our project scheduling accounts for these constraints, building contingency days into every Verona spray foam project timeline.',
-    'UV degradation destroys unprotected spray foam rapidly -- exposed foam breaks down within months of sun exposure, losing insulation value and waterproofing integrity. The protective coating system applied over the cured foam is not optional; it is an integral component of the roof assembly. Verona installations receive minimum 25-mil elastomeric coating with embedded granules for UV protection and walking surface. This coating must be inspected and recoated on a schedule determined by exposure conditions -- typically every 8 to 12 years.',
-    'Moisture trapped in existing roof substrates can cause spray foam adhesion failure and blister formation. Foam applied over wet insulation or damp deck material will not bond properly, and moisture vaporizing under the cured foam lifts sections away from the substrate. Before any Verona spray foam application, we perform infrared moisture scanning on the existing roof to identify and remove wet areas, ensuring the substrate is dry enough for proper foam adhesion. This pre-application survey is non-negotiable regardless of the apparent condition of the existing surface.'
+    '**Trapped moisture** causes blistering and adhesion loss, because spray foam bonds directly to the substrate and lifts where the surface holds water, per the SPFA and NRCA. A Newark Quality Roofing crew core-samples an existing Verona corridor roof and tests substrate moisture before any foam sprays.',
+    '**Existing covering layers** limit a foam recover on a Bloomfield Avenue or Pompton Avenue building, because the NJ Rehabilitation Subcode requires full removal once a roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing core sample confirms the layer count before a recover proceeds.',
+    '**The application window** narrows in Verona\'s climate, because foam cures only inside the manufacturer-specified temperature and humidity window, and the township crosses the 32-degree-Fahrenheit freezing point repeatedly through winter on the shared Newark/EWR baseline, per NOAA 1991–2020 normals at Newark Liberty (EWR). A Newark Quality Roofing crew schedules the spray for a dry, in-range day.',
+    '**Ponding water** erodes a coating and stresses a foam roof, because a low-slope roof needs at least one-quarter inch per foot of slope to drain and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing application builds positive drainage into the foam thickness on the slow-draining corridor roofs near the Peckman River.',
   ],
   process: [
-    'Spray foam roofing on Verona commercial buildings begins with a thorough assessment of the existing roof condition. We evaluate the current membrane type, insulation condition and moisture content, deck integrity, drainage patterns, and penetration inventory. Infrared moisture scanning identifies wet insulation areas that must be removed and replaced before foam application. The assessment determines whether the existing roof can serve as the substrate for spray foam or whether selective tear-off is required to create dry, sound conditions for foam adhesion.',
-    'Surface preparation involves cleaning the existing roof surface, removing loose material, and priming for adhesion where required by the substrate type. The spray foam is applied in multiple passes, building to the specified thickness -- typically 1.5 to 3 inches depending on the insulation R-value target and the tapered profile needed for drainage improvement. The foam expands and cures within seconds of application, conforming to every surface contour, penetration boot, and flashing detail. Additional foam builds up tapered profiles that improve drainage toward existing or new drain locations.',
-    'After the foam cures, the protective elastomeric coating is applied in multiple coats to the specified mil thickness, with embedded granules providing UV protection and walk-surface texture. The coating system is color-coded by coat to ensure complete coverage -- the base coat in one color, the top coat in another, so any thin spots or missed areas are visually apparent during application. The completed system is inspected for coating thickness, foam adhesion, and drainage function before warranty documentation is submitted.'
+    '**Newark Quality Roofing inspects the roof, core-samples an existing assembly, and tests substrate moisture before any foam sprays.** Foam bonds directly to the substrate, so trapped moisture causes the blistering and adhesion loss the SPFA names as primary SPF failure modes, and a recover applies only over a roof carrying fewer than 2 covering layers, because the NJ Rehabilitation Subcode requires full removal once the existing roof is water-soaked or carries 2 or more layers, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing sprays the closed-cell foam in controlled passes and builds positive drainage into the foam thickness on the Verona corridor roof.** The foam cures into a seamless, monolithic layer carrying an aged R-value of R-6.0 to R-6.5 per inch, the insulation figure attributed to ICC-ES reports and ASTM C1289 LTTR testing and the SPFA, and varying the thickness builds the positive drainage the NRCA requires on a roof that needs at least one-quarter inch per foot of slope, per the NRCA and ARMA. The crew applies foam within the manufacturer-specified temperature and humidity window on the shared Newark/EWR climate baseline.',
+    '**Newark Quality Roofing finishes with a protective elastomeric coating and documents the system for the building owner.** The coating shields the UV-sensitive foam, with an acrylic coating recoated at 10 to 15 years and a silicone coating at 15 to 20 years, per manufacturer and SPFA guidance, and a white reflective coating adds a cool-roof surface, the property the CRRC rates for reflective roofing systems. A written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'Can spray foam be applied over my existing Verona commercial roof?',
-      answer: 'Spray foam can be applied over most existing roof surfaces -- EPDM, TPO, BUR, modified bitumen, and metal -- as long as the substrate is dry, sound, and properly prepared. This is one of spray foam\'s primary advantages: avoiding the cost and disruption of full tear-off. However, any areas with trapped moisture must be cut out and replaced before foam application. We perform infrared scanning to identify all wet areas and address them before any foam is applied.'
+      question: 'Can spray foam roofing be applied over my existing Verona corridor roof?',
+      answer:
+        'Spray foam roofing applies over a structurally sound, dry existing EPDM, TPO, modified-bitumen, or BUR roof that carries fewer than 2 covering layers, after core sampling and moisture testing confirm the substrate. The NJ Rehabilitation Subcode requires full removal once a roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. Bloomfield Avenue and Pompton Avenue corridor storefronts carry the low-slope roofs where a foam recover adds insulation without a full tear-off.',
     },
     {
-      question: 'How long does spray foam roofing last in Verona?',
-      answer: 'The spray foam itself can last 30 years or more because it is protected from UV and weather by the elastomeric coating. The coating system is the wear surface that requires periodic renewal -- typically every 8 to 12 years at a fraction of the original installation cost. Each recoating cycle extends the system life indefinitely, making spray foam potentially the last roofing system the building ever needs. The key is maintaining the coating before UV degradation reaches the foam below.'
+      question: 'How long does a spray foam roof last in Verona?',
+      answer:
+        'A spray foam roof lasts 30 or more years when the protective coating is maintained, because the coating shields the UV-sensitive foam from degradation. The 30-plus-year foam life and the 10-to-20-year recoat cycle trace to the SPFA and SPF manufacturers — an acrylic coating at 10 to 15 years and a silicone coating at 15 to 20 years. A Newark Quality Roofing recoat renews the surface on a maintenance cycle before erosion reaches the foam below.',
     },
     {
-      question: 'What R-value does spray foam roofing provide?',
-      answer: 'Closed-cell spray polyurethane foam delivers R-6.5 per inch of thickness -- the highest insulation value of any commercial roofing insulation material. A 2-inch foam application adds R-13 to the existing roof assembly, and 3 inches provides R-19.5. For Verona commercial buildings with little or no existing insulation, this added thermal performance produces immediate and measurable heating and cooling cost reductions. The seamless foam application also eliminates the thermal bridging that occurs at joints in rigid board insulation systems.'
+      question: 'What R-value does spray foam roofing add?',
+      answer:
+        'Spray polyurethane foam carries an aged R-value of R-6.0 to R-6.5 per inch, the insulation figure attributed to ICC-ES reports and ASTM C1289 LTTR testing and the SPFA. The closed-cell foam adds thermal resistance no single-ply membrane provides, useful on a Bloomfield Avenue or Pompton Avenue corridor storefront or the flat section above living space on a Verona split-level, and a thicker foam layer raises the total R-value across the roof area.',
     },
     {
-      question: 'Does spray foam roofing smell during application near Verona businesses?',
-      answer: 'The spray foam chemical reaction produces a brief odor during application that dissipates within hours as the foam cures. Modern low-odor foam formulations have reduced this issue significantly compared to earlier products. We coordinate application timing with building management to minimize occupant exposure, and we can ventilate interior spaces during application if needed. Once cured, the foam is completely inert and produces no ongoing odor. The elastomeric coating applied over the foam is also low-VOC and odor-free once dry.'
+      question: 'Does a commercial spray foam roof require a permit in Verona?',
+      answer:
+        'A commercial spray foam roof requires a permit when the work recovers or replaces more than 25% of the total roof area in a 12-month period, the threshold the ordinary-maintenance exemption covers under N.J.A.C. 5:23-2.7. The NJ Rehabilitation Subcode requires full removal of a roof that carries 2 or more layers, per N.J.A.C. 5:23-6.4. A permit on a Bloomfield Avenue or Pompton Avenue commercial building files through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue.',
+    },
+    {
+      question: 'How does spray foam roofing compare to a single-ply membrane in Verona?',
+      answer:
+        'Spray foam roofing forms a seamless, monolithic layer with built-in insulation, while a single-ply membrane assembles from sheets joined at seams that rank as the common failure point. Welded-seam failure is the most common TPO failure mode and seam separation the dominant EPDM failure mode, per the InterNACHI life-expectancy chart and NRCA technical guidance, so the seamless foam suits the penetration-heavy parapets on a Verona corridor storefront, and the foam adds the aged R-6.0 to R-6.5-per-inch insulation attributed to the SPFA.',
     },
     {
       question: 'How much does spray foam roofing cost in Verona, NJ?',
-      answer: 'Most spray foam roofing projects in Verona range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Spray foam roofing costs $4 to $8 per square foot installed, per commercial roofing cost guides. A foam recover over a sound existing roof avoids tear-off cost, and NJ ranges sit roughly 10 to 40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, foam thickness, coating, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Spray foam roofing in Verona NJ -- seamless insulating roof systems for commercial buildings with built-in R-value and energy savings.',
+  metaDescription:
+    'Spray foam roofing in Verona NJ — seamless polyurethane foam and coating for Bloomfield Avenue and Pompton Avenue corridor low-slope roofs. Free estimate.',
   pricing: {
-    range: '$4–$8/sq ft',
-    note: 'spray polyurethane foam application',
+    range: '$4–$8/sq ft installed',
+    note: 'Spray polyurethane foam application per commercial roofing cost guides; final cost depends on roof size, foam thickness, coating, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Free roof inspections that core-sample an existing low-slope roof and test substrate moisture before a spray foam recover quote.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free spray foam roofing estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for spray foam roofing in Verona.',
+    urgencyNote: 'Recoating spray foam before the coating erodes keeps the UV-sensitive foam protected.',
   },
 };

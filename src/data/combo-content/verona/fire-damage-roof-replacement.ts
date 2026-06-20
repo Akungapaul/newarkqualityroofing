@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const veronaFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across Verona, New Jersey, and Essex County, tearing off charred covering and deck and rebuilding a Class A fire-rated roof** on Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in Verona — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Verona addresses the complete structural and roofing restoration needed after a fire event damages or destroys the roof system. Fire damage extends beyond the charred surface -- heat compromises structural framing integrity, smoke permeates insulation and sheathing, and firefighting water saturates every component of the roof assembly. The replacement project must address all three damage vectors to restore the building to safe, habitable condition. Newark Quality Roofing coordinates fire damage roof restoration from structural assessment through final inspection, working alongside insurance adjusters and general contractors to return Verona homes to pre-loss condition.',
-    'The structural assessment after fire damage determines the full extent of framing compromise. Heat weakens wood framing even when it does not visibly char the surface -- rafters, ridge beams, and collar ties exposed to sustained temperatures above 300 degrees Fahrenheit lose structural capacity that visual inspection cannot detect. Our [fire damage](/fire-damage-roof-replacement) assessment includes load testing and deflection measurement on exposed framing to identify members that appear sound but have been thermally compromised.',
-    'Verona\'s residential character means that fire damage roof replacement must navigate neighborhood sensitivity to the visible damage and restoration timeline. Extended construction activity on a fire-damaged home affects adjacent properties and community aesthetics. Our project management prioritizes efficient scheduling that minimizes the period between damage and completed restoration, keeping the community impact as brief as possible. Insurance carriers in [Essex County](/fire-damage-roof-replacement-east-orange-nj) generally support expedited timelines that reduce additional living expense payments and property value impact.'
+    '**Newark Quality Roofing replaces fire-damaged roofs across Verona, tearing off charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof** on the township\'s pre-war Colonials, postwar Capes, ranches, and split-levels. The rebuild restores both the weatherproof surface and the structural integrity a fire compromises rather than recovering over fire-weakened material.',
+    '**Tear-off** removes the char to sound wood, because a roof is a structural assembly of covering, underlayment, decking, and framing, so fire, heat, smoke, and firefighting water span the whole assembly rather than the surface alone, per the U.S. Forest Products Laboratory. The American Wood Council uses a nominal char rate of 1.5 inches of wood per hour, and the char layer carries essentially zero residual structural capacity, so a Newark Quality Roofing tear-off strips charred covering and saturated decking from Verona\'s plank-decked pre-war stock and 1960s–70s split-levels to the framing.',
+    '**Heat-weakened framing** comes out on a structural assessment, because a fire-damaged roof receives a formal post-fire structural assessment, often by a licensed structural engineer, before reconstruction, and charred, heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, per the U.S. Forest Products Laboratory and EDT Engineers. On a Verona split-level the offset planes that meet a vertical wall add the roof-to-wall step and counter-flashing detail back at rebuild, and a Newark Quality Roofing crew rebuilds the framing to the engineer\'s scope.',
+    '**A Class A fire-rated roof** caps the rebuild, because a roof covering qualifies as Class A, B, or C under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant, per UL 790 and ASTM E108. A Newark Quality Roofing rebuild matches the covering and assembly to that rating, from architectural asphalt on a residential slope to an EPDM, TPO, or modified-bitumen membrane on a Bloomfield Avenue or Pompton Avenue corridor storefront.',
   ],
   challenges: [
-    'Smoke odor permeation into roof sheathing, insulation, and framing creates a persistent indoor air quality problem that new roofing materials alone cannot solve. Smoke molecules penetrate deeply into porous wood and insulation fibers, and the odor releases slowly over months or years after the fire event. Complete removal and replacement of smoke-contaminated components is typically necessary to achieve acceptable interior air quality. This scope extension beyond the visible fire damage significantly increases the project cost and timeline.',
-    'Coordinating fire damage restoration with multiple trades -- structural engineers, general contractors, electricians, plumbers, and roofing crews -- requires project management that maintains work sequence and prevents trades from interfering with each other. Structural framing must be repaired before sheathing can be installed. Electrical and mechanical work within the roof structure must be completed before sheathing closes the cavity. Our scheduling integrates the roofing sequence with other trades to prevent delays from sequencing conflicts.',
-    'Insurance claim scope for fire damage often requires multiple supplements as concealed damage is discovered during restoration. The initial claim may cover visible damage, but structural compromise, smoke permeation, and water damage from firefighting are often discovered only as deconstruction progresses. Our documentation protocol captures every discovery with photographs and measurements, supporting supplement filings that recover the cost of damage not visible during the initial adjuster inspection.'
+    '**Structural sign-off stays with a structural engineer**, because charred and heat-compromised rafters, trusses, and sheathing carry reduced capacity that a roofer does not certify, per the U.S. Forest Products Laboratory and EDT Engineers. A Newark Quality Roofing crew tears off the char, replaces the framing and decking to the engineer\'s post-fire assessment, and roofs to that scope and current code on Verona\'s plank-decked older homes and 1960s–70s split-levels.',
+    '**Firefighting water and corroded connectors** extend the scope past the visible char, because extinguishing water saturates decking, insulation, and framing and accelerates corrosion of metal truss plates and fasteners, per the U.S. Forest Products Laboratory and ANSI/IICRC S700. A Newark Quality Roofing rebuild replaces saturated plywood or OSB sheathing and corroded connectors, because a water-soaked or deteriorated deck is not an adequate base and requires full removal, per N.J.A.C. 5:23-6.4.',
+    '**Smoke and soot** stain the assembly without weakening sound wood, because smoke staining alone does not structurally weaken wood, though acidic soot keeps corroding metal connectors and electrical components and is removed from members kept in service, per ANSI/IICRC S700 and the U.S. Forest Products Laboratory. The structural concern stays the char layer, the heat-affected zone, and corrosion of metal connectors, which a Newark Quality Roofing rebuild addresses with the engineer\'s scope.',
+    '**The fire claim** stays with the homeowner or a licensed public adjuster, because in New Jersey only a licensed public adjuster or an attorney negotiates or settles a claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B. Newark Quality Roofing operates as a roofing contractor, photographing the fire, heat, and water damage, writing a detailed scope and estimate, and meeting the adjuster on site, while the homeowner\'s deductible stays the homeowner\'s responsibility.',
   ],
   process: [
-    'Fire damage roof assessment begins with a safety evaluation of the remaining structure, followed by systematic documentation of fire, smoke, and water damage throughout the roof assembly. We classify each component -- framing, sheathing, insulation, and roofing -- by damage severity and restoration requirement: salvageable, requiring treatment, or requiring replacement. The assessment produces the scope document that guides both the insurance claim and the restoration work plan.',
-    'Structural restoration replaces or sisters fire-compromised framing members, installs new sheathing where the existing deck was damaged by fire or water, and verifies that the restored structure meets current building code load requirements. Smoke-contaminated components are removed and replaced rather than treated in place, ensuring that the restored roof assembly does not contribute to ongoing air quality problems in the home.',
-    'New roofing installation on the restored structure follows standard installation procedures with full underlayment, ice-and-water shield at all critical areas, new flashings, and premium shingle installation. The completed restoration returns the roof to current code standards with new materials and a full manufacturer warranty, providing the homeowner with a roof system that meets or exceeds the performance of the pre-fire installation.'
+    '**Newark Quality Roofing documents the fire, heat, smoke, and firefighting-water damage and coordinates the post-fire structural assessment before any tear-off.** A licensed structural engineer assesses the fire-damaged roof assembly before reconstruction, and a Newark Quality Roofing crew photographs the damage and writes a detailed scope and estimate, because fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I).',
+    '**Newark Quality Roofing tears off the charred covering and saturated decking to the framing, then rebuilds the heat-weakened rafters, trusses, and sheathing to the engineer\'s assessment and current code.** A water-soaked or deteriorated deck is not an adequate base and requires full removal, per N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1, and the char layer that carries essentially zero residual structural capacity is removed to sound wood, per the American Wood Council and the U.S. Forest Products Laboratory. A Verona split-level rebuild restores the roof-to-wall step and counter-flashing at the offset planes.',
+    '**Newark Quality Roofing installs a Class A fire-rated covering to manufacturer specification, then verifies the rebuild and issues a written workmanship warranty.** A Class A roof covering rates highest under the UL 790 and ASTM E108 fire-test methods, the rating that keeps the manufacturer system warranty intact, and a Newark Quality Roofing lead runs a magnet sweep for nails at cleanup before the written workmanship warranty backs the labor, separate from the manufacturer material warranty.',
   ],
   faqs: [
     {
-      question: 'How long does fire damage roof replacement take in Verona?',
-      answer: 'Timeline depends on the extent of structural damage and the coordination required with other restoration trades. Minor fire damage affecting only the roofing surface and sheathing can be restored in one to two weeks. Major structural damage requiring framing replacement, smoke remediation, and multi-trade coordination may extend to four to eight weeks. Insurance companies generally support reasonable timelines that restore the home efficiently without compromising quality.'
+      question: 'Should you repair or replace a fire-damaged roof in Verona?',
+      answer:
+        'Replace a fire-damaged roof when fire reaches the structure, char weakens the framing, or damage exceeds 25–30% of the roof area; repair a roof only when fire damage stays surface-localized on sound framing. The char layer carries essentially zero residual structural capacity and is removed, per the U.S. Forest Products Laboratory, and the 25–30% area rule favors full replacement, per roofing industry guidance attributed to RapidRestore, MyQuoteIQ, and Kellow.',
     },
     {
-      question: 'Does insurance cover all fire damage roof replacement costs?',
-      answer: 'Homeowner\'s insurance typically covers fire damage restoration to pre-loss condition, including structural repair, smoke damage remediation, and roofing replacement. Code upgrade coverage, if included in the policy, pays for improvements required by current building codes. Our documentation and supplement filing process ensures that the claim captures the full scope of damage, including concealed conditions discovered during restoration.'
+      question: 'Does homeowners insurance cover fire damage roof replacement in Verona?',
+      answer:
+        'Homeowners insurance covers fire damage roof replacement when fire causes the loss, a covered peril, and the deductible stays the homeowner\'s responsibility under the policy. Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I), and coverage and approval are the insurer\'s decision.',
     },
     {
-      question: 'Can I upgrade my roof during fire damage replacement in Verona?',
-      answer: 'Insurance covers replacement with like-kind materials. Upgrades beyond that standard are the homeowner\'s financial responsibility. Fire damage replacement provides the opportunity to install fire-resistant materials -- Class A rated shingles, fire-retardant treated sheathing, and non-combustible underlayment -- that improve the home\'s fire resistance for the future. We present upgrade options with clear cost differentials so the homeowner can make informed decisions about enhanced protection.'
+      question: 'Does Newark Quality Roofing handle the fire insurance claim in Verona?',
+      answer:
+        'Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so it inspects and photographs the fire damage, writes a detailed scope and estimate, meets the adjuster on site, and performs the approved roofing. In New Jersey, only a licensed public adjuster or an attorney negotiates or settles a claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B, so the homeowner or a public adjuster files and negotiates the claim.',
     },
     {
-      question: 'Do I need to vacate my Verona home during fire damage roof restoration?',
-      answer: 'Most fire damage roof restoration requires temporary relocation, which is typically covered by the Additional Living Expense provision in your homeowner\'s insurance policy. The duration depends on the restoration scope and the extent of interior damage. We coordinate our timeline with the general contractor to minimize the displacement period and provide regular progress updates so you know when the home will be ready for re-occupancy.'
+      question: 'Do I need a permit for fire damage roof replacement in Verona?',
+      answer:
+        'Replacing the charred roof covering on a detached one- or two-family Verona home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit. Replacing fire-charred rafters or trusses is a structural change that triggers a permit, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit, filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue, and the Bloomfield Avenue and Pompton Avenue corridor storefronts follow that path.',
+    },
+    {
+      question: 'Can a fire-damaged Verona roof be recovered over instead of torn off?',
+      answer:
+        'A fire-damaged roof requires a full tear-off rather than a recover, because a water-soaked, charred, or deteriorated deck is not an adequate base for a new covering. N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1 require removal of the existing covering when the deck is water-soaked or deteriorated, the condition firefighting water and char create on Verona\'s older plank-decked stock.',
     },
     {
       question: 'How much does fire damage roof replacement cost in Verona, NJ?',
-      answer: 'Most fire damage roof replacement projects in Verona range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage roof replacement adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Josten Roofing and Integrity Home Exteriors. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement in Verona NJ -- structural restoration, smoke remediation, and insurance coordination for fire-damaged homes.',
+  metaDescription:
+    'Fire damage roof replacement in Verona NJ — charred tear-off, structural rebuild to engineer assessment, Class A fire-rated roof. NJ-registered, free estimate.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; fire damage adds structural framing and decking replacement, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in Verona.',
+    urgencyNote: 'Tarping a fire-opened roof early limits further interior and structural water damage before the rebuild.',
   },
 };

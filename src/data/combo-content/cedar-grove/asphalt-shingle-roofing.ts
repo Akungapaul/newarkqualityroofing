@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing asphalt shingle roofing across Cedar Grove, New Jersey, and Essex County, fitting 3-tab and architectural shingles on the township\'s postwar ranches and split-levels and Pompton Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Asphalt shingle roofing** covers a sloped roof in overlapping fiberglass-mat shingles surfaced with mineral granules, laid over underlayment, an ice barrier, drip edge, and flashing into a water-shedding system. It is the most common residential roof covering and comes in flat 3-tab and dimensional architectural profiles.',
   overview: [
-    'Newark Quality Roofing delivers expert asphalt shingle roofing in Cedar Grove — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingles cover the vast majority of Cedar Grove rooftops, and for good reason -- the material delivers reliable weather protection at a price point that fits the township\'s practical, value-conscious homeowner culture. But not all asphalt shingles perform equally on Cedar Grove\'s low-pitch ranch roofs, and the product selection decisions that might be cosmetic in other communities become performance-critical here. Shallow roof slopes between 3:12 and 5:12 pitch, combined with northern Essex County\'s heavier snow loads and extended freeze-thaw cycling, demand shingles with SBS-modified asphalt formulations that maintain flexibility through temperature extremes rather than the rigid oxidized-asphalt products that crack under thermal stress.',
-    'The architectural shingle has largely replaced the three-tab product across Cedar Grove, and the upgrade delivers measurable performance advantages beyond aesthetics. Dimensional profiles create a thicker, more rigid assembly that resists wind uplift more effectively than flat three-tab shingles on Cedar Grove\'s exposed low-pitch surfaces. The layered construction also provides enhanced impact resistance during the hail events that summer thunderstorms deliver along the Watchung ridge. Our [asphalt shingle roofing](/asphalt-shingle-roofing) installations in Cedar Grove match the specific product line to each property\'s pitch, exposure, and ventilation conditions.',
-    'Color selection in Cedar Grove trends toward the earth tones that complement the township\'s traditional ranch and colonial architecture. Weathered Wood, Driftwood, and Charcoal shingles dominate the residential streets, creating a cohesive neighborhood aesthetic that most homeowners prefer to match. We bring full-size samples for daylight evaluation against each home\'s siding and trim, because the ranch home\'s low profile places the entire roof at eye level where color choices are immediately visible. Homes in [Montclair](/asphalt-shingle-roofing-montclair-nj) tend toward more varied palettes reflecting that township\'s diverse architectural character, but Cedar Grove favors consistency.',
+    '**Newark Quality Roofing fits asphalt shingles** on Cedar Grove\'s postwar ranches, split-levels, bi-levels, colonials, and Cape Cods and on the Pompton Avenue storefronts. Asphalt shingle roofing layers fiberglass-mat shingles, synthetic underlayment, an eave-and-valley ice barrier, drip edge, and flashing into a water-shedding system.',
+    '**Architectural shingles** cover most Cedar Grove homes, because they last 30 years against the 20-year life of 3-tab shingles, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. A Newark Quality Roofing install matches the shingle line and the attic ventilation to the township\'s tree-shaded slopes.',
+    '**The ice barrier** seals the deck where ice-dam meltwater backs up, because the IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the International Residential Code. Synthetic underlayment covers the remaining deck and metal drip edge channels water off the eaves and rakes, per GAF and ARMA.',
+    '**Flashing and balanced ventilation** finish the system at the transitions and the attic. Step flashing weaves with each shingle course at chimneys, walls, and valleys, the transitions the roofing industry estimates account for roughly 90–95% of roof leaks, an industry estimate attributed to the NRCA, and balanced soffit-and-ridge ventilation runs 1 square foot of net-free vent area per 150 square feet of attic floor, per the NRCA and ARMA.',
   ],
   challenges: [
-    'Low-pitch performance is the defining challenge for asphalt shingles in Cedar Grove. Standard installation methods designed for 6:12 and steeper slopes do not provide adequate water resistance on the 3:12 to 5:12 pitches common throughout the township. Water moves more slowly on shallow surfaces, remaining in contact with shingle laps longer and exploiting any gap in the overlap seal. We address this by extending ice-and-water shield membrane across the entire low-slope surface -- not just at eaves as code minimum requires -- and by verifying that shingle exposure dimensions are appropriate for the specific pitch angle. This comprehensive approach prevents the wind-driven rain penetration that standard installations allow on Cedar Grove ranch roofs.',
-    'Granule retention under freeze-thaw cycling determines how long an asphalt shingle protects a Cedar Grove home. Northern Essex County\'s temperature swings -- below freezing overnight, above 40 degrees during sunny winter afternoons -- create daily expansion and contraction cycles that work granules loose from the asphalt matrix. Once granules are lost, the exposed asphalt substrate absorbs UV radiation and heat directly, accelerating the degradation cycle. SBS-modified asphalt formulations resist this process significantly better than oxidized-asphalt shingles, maintaining granule adhesion through hundreds of additional freeze-thaw cycles over the roof\'s life.',
-    'Ventilation inadequacy beneath Cedar Grove\'s ranch roofs shortens asphalt shingle lifespan from the inside. Heat and moisture trapped in poorly ventilated attic spaces attack shingles from beneath, cooking the asphalt substrate and causing premature aging that no surface treatment can prevent. Every asphalt shingle installation in Cedar Grove must include ventilation assessment and correction as a system requirement, not an optional add-on. The shingle warranty itself often depends on verified adequate ventilation, and manufacturer inspectors will deny claims on roofs where ventilation deficiency contributed to premature failure.',
+    '**Reservation-edge and street-tree canopy** is the defining asphalt-shingle stressor in Cedar Grove, because the wooded edges of the Mills and Hilltop reservations and the township\'s mature deciduous canopy drop leaf and branch load that clogs valleys and gutters. A Newark Quality Roofing install clears the valleys and fits algae-resistant shingles on the canopy-shaded slopes.',
+    '**Shade-driven moss** holds moisture against a shingle surface on the north-facing slopes that stay damp under the tree cover, lifting shingle edges and accelerating granule loss ahead of the rated service life. A Newark Quality Roofing re-roof fits copper-granule algae-resistant shingles on the canopy-shaded slopes and balances the attic ventilation that slows underside aging.',
+    '**Ice dams** form on Cedar Grove\'s postwar single-family stock when escaping attic heat melts the snowpack and the meltwater refreezes at the colder eave, backing water under the shingles, per University of Minnesota Extension. A Newark Quality Roofing install runs the IRC R905.1.2 ice barrier from the eave to at least 24 inches inside the exterior wall line, where field underlayment alone only sheds wind-driven rain.',
+    '**Deteriorated sheathing** surfaces at tear-off on Cedar Grove\'s older period homes, where aging valley, chimney, and wall flashing and slate or metal period detailing have admitted water over decades. A Newark Quality Roofing tear-off exposes every sheathing section and replaces deteriorated plywood or OSB before the new shingle system goes down.',
   ],
   process: [
-    'Asphalt shingle installation in Cedar Grove starts with product selection matched to the specific property. We evaluate roof pitch, orientation, wind exposure, and existing ventilation before recommending a shingle line. Low-pitch ranch sections receive SBS-modified architectural shingles with enhanced wind ratings. Steeper colonial gable ends may use standard architectural products where the pitch provides natural water shedding. Color samples are evaluated on-site against the home exterior in natural daylight, because the wide visibility of a ranch roof makes color match critically important.',
-    'Installation follows a systematic underlayment-first approach. Full tear-off exposes the sheathing for inspection and replacement of deteriorated panels. Ice-and-water shield membrane covers all low-slope surfaces, valleys, eaves, and penetrations. Synthetic underlayment protects the remaining field. Metal drip edge channels water into gutters. Starter strip with factory-applied adhesive establishes the perimeter bond. Shingle courses are installed with enhanced nailing patterns on exposed elevations and standard patterns on sheltered planes. Ridge cap with integrated ventilation completes the assembly.',
-    'Quality verification before the crew leaves ensures every Cedar Grove installation meets our performance standards. We check nailing patterns on representative samples, verify shingle alignment and exposure spacing, inspect all flashing details at penetrations and wall intersections, and confirm that the ventilation system is operating with unobstructed airflow. Warranty registration with the manufacturer, a photographic documentation package, and a written workmanship guarantee complete the delivery to the homeowner.',
+    '**Newark Quality Roofing presents the 2 asphalt options, then strips the roof to the deck, repairs the sheathing, and sets the ice barrier and synthetic underlayment before the shingles.** A Newark Quality Roofing estimate names the lifespan and wind rating of 3-tab at 20 years and architectural at 30 years, per the InterNACHI life-expectancy chart and ARMA and manufacturer guidance, and complete removal of the existing covering follows N.J.A.C. 5:23-6.4 when the roof is water-soaked or already carries 2 or more layers.',
+    '**Newark Quality Roofing fastens each shingle in the manufacturer nailing zone with the correct nail count, because high-nailing above the sealant line leaves the lower edge unsecured.** Architectural shingles reach a wind rating up to 130 mph only with the manufacturer 6-nail pattern, per ARMA and manufacturer guidance, and ARMA specifies nails penetrate at least three-quarters of an inch into solid deck, so a Newark Quality Roofing crew installs to the rated specification on Cedar Grove\'s tree-shaded slopes.',
+    '**Newark Quality Roofing integrates the flashing and balances the attic ventilation, then verifies the install and runs a magnet sweep for nails at cleanup.** Step flashing weaves with each shingle course at the transitions where the roofing industry estimates roughly 90–95% of leaks originate, an industry estimate attributed to the NRCA, and balanced soffit-and-ridge ventilation runs 1 square foot of net-free vent area per 150 square feet of attic floor, per the NRCA and ARMA, before a written workmanship warranty backs the labor.',
   ],
   faqs: [
     {
-      question: 'How long do asphalt shingles last on a Cedar Grove home?',
-      answer: 'Quality architectural shingles on a properly ventilated Cedar Grove home deliver 25 to 30 years of service. Low-pitch ranch surfaces in heavy shade may trend toward the lower end due to persistent moisture exposure. Homes with corrected ventilation and algae-resistant shingle selections consistently reach the upper end. Standard three-tab shingles, which we no longer recommend for Cedar Grove, average 18 to 22 years due to thermal cycling stress.',
+      question: 'What is the difference between 3-tab and architectural shingles for a Cedar Grove home?',
+      answer:
+        'Architectural shingles bond multiple layers of fiberglass mat into a dimensional profile that lasts 30 years and rates up to 130 mph, while 3-tab shingles use a single flat layer that lasts 20 years and rates near 60 mph. The lifespans trace to the InterNACHI life-expectancy chart, and the wind ratings to ARMA and manufacturer guidance, with the 130 mph rating requiring the manufacturer 6-nail pattern. Architectural shingles cover most of Cedar Grove\'s postwar ranches and split-levels.',
     },
     {
-      question: 'What is the difference between three-tab and architectural shingles?',
-      answer: 'Architectural shingles are thicker, heavier, and more dimensionally layered than flat three-tab products. On Cedar Grove ranch roofs, the practical differences are significant: architectural shingles resist wind uplift better on low-pitch surfaces, withstand impact from hail and branch debris, and carry longer warranties. The cost premium of $800 to $1,500 on a typical Cedar Grove ranch pays back through extended service life and better storm resistance.',
+      question: 'How long do asphalt shingles last on a tree-shaded Cedar Grove roof?',
+      answer:
+        'Architectural asphalt shingles last 30 years and 3-tab shingles 20 years, with actual asphalt life varying up to 40% with climate, install, and attic ventilation. The lifespans trace to the InterNACHI life-expectancy chart and the NRCA, and balanced attic ventilation extends roof service life, per the NRCA. On Cedar Grove\'s canopy-shaded north slopes, moss and trapped moisture press a roof toward the lower end, so a Newark Quality Roofing install fits algae-resistant shingles and corrects the ventilation.',
     },
     {
-      question: 'Do you offer algae-resistant asphalt shingles for Cedar Grove?',
-      answer: 'Yes, and we strongly recommend them. Cedar Grove\'s heavy tree canopy creates the shaded, moist conditions that Gloeocapsa magma algae thrives on. Copper-granule algae-resistant shingles prevent the black streaking that develops within three to five years on standard shingles under Cedar Grove\'s canopy. The modest cost premium eliminates the need for periodic chemical roof cleaning treatments.',
+      question: 'Does an asphalt re-roof in a Cedar Grove historic district need extra approval?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
     },
     {
-      question: 'What wind rating should my Cedar Grove asphalt shingles have?',
-      answer: 'We recommend minimum 110 mph rated shingles for standard Cedar Grove elevations and 130 mph rated products for exposed ridge-top properties on Ridge Road, Bowden Road, and upper Bradford Avenue. Enhanced six-nail fastening patterns supplement the shingle wind rating with additional mechanical resistance. These specifications reflect Cedar Grove\'s actual storm exposure rather than minimum code requirements.',
+      question: 'Do you need a permit for asphalt shingle roofing in Cedar Grove, NJ?',
+      answer:
+        'A complete asphalt re-roof of the roof covering on a detached one- or two-family Cedar Grove home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the total roof area in a 12-month period requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, as does any structural change to rafters or trusses.',
+    },
+    {
+      question: 'Can asphalt shingles withstand the nor\'easters that reach Cedar Grove?',
+      answer:
+        'Architectural shingles rate up to 130 mph with the manufacturer 6-nail pattern, above the 58 mph wind-gust threshold NOAA sets for a severe thunderstorm and the up-to-60 mph sustained winds a nor\'easter brings. The wind ratings trace to ARMA and manufacturer guidance, NOAA sets the 58 mph severe threshold, and the IBHS finds the shingle-to-shingle seal strength the most important high-wind factor. A Newark Quality Roofing crew installs to the rated specification on Cedar Grove\'s higher-ground slopes between the Watchungs.',
     },
     {
       question: 'How much does asphalt shingle roofing cost in Cedar Grove, NJ?',
-      answer: 'Most asphalt shingle roofing projects in Cedar Grove range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Asphalt shingle roofing in New Jersey runs $5.50–$9.50 per square foot for 3-tab and $6.50–$11.00 per square foot for architectural shingles, against an asphalt install of $3.50–$11.00 per square foot nationally. The NJ ranges trace to Josten Roofing NJ pricing and the national range to HomeGuide, and NJ figures sit 10–40% above national because of higher labor and stricter code. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Asphalt shingle roofing in Cedar Grove NJ. SBS-modified architectural shingles for low-pitch ranch homes with wind and ice dam protection.',
+  metaDescription:
+    'Asphalt shingle roofing in Cedar Grove NJ — 3-tab and architectural shingles, ice barrier, flashing, and ventilation. NJ-registered, free written estimate.',
   pricing: {
-    range: '$8,500–$18,000',
-    note: 'full installation with tear-off',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free asphalt shingle roofing estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for asphalt shingle roofing in Cedar Grove.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

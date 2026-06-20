@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const veronaSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing skylight installation repair across Verona, New Jersey, and Essex County, sealing flashing leaks, replacing fogged units, and curb-mounting skylights on the township\'s split-levels and Bloomfield Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
-    'Newark Quality Roofing delivers expert skylight installation repair in Verona — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation brings natural light into Verona homes where the township\'s dense tree canopy and split-level architecture often leave interior rooms darker than homeowners prefer. The upper-level bedrooms and hallways of split-levels, positioned beneath low-pitch roof sections, receive limited window light from small, high-set windows. A properly placed skylight transforms these dim spaces with overhead daylight that no window can replicate. Newark Quality Roofing installs VELUX and comparable skylights on Verona homes, integrating the opening into the existing roof system with flashing details that maintain full waterproofing integrity.',
-    'Skylight placement on Verona split-levels requires careful evaluation of the roof structure, pitch, orientation, and interior ceiling configuration to deliver maximum light benefit without creating solar heat gain problems or structural complications. South-facing skylights provide the most daylight but may overheat upper-level rooms in summer. North-facing installations deliver consistent, glare-free light year-round. East and west orientations provide morning or afternoon light, respectively. Our [skylight installation](/skylight-installation-repair) consultations evaluate each Verona home\'s specific conditions to recommend the placement that balances light quality, energy impact, and structural feasibility.',
-    'Skylight repair on existing Verona installations addresses the two most common failure modes: seal deterioration around the skylight frame and flashing failure where the skylight curb meets the surrounding shingle field. Many Verona homes carry skylights installed during the 1980s and 1990s renovation era when split-level homeowners sought to brighten their homes. These 30 to 40 year old units have outlived their seal and flashing systems, creating chronic leaks that homeowners in [Montclair](/skylight-installation-repair-montclair-nj) with similar-era installations also encounter.'
+    '**Newark Quality Roofing installs and repairs skylights on Verona\'s Colonials, Capes, ranches, and split-levels**, sealing the roof penetration at the flashing detail that admits water, the leading cause of a skylight leak rather than the glass, per roofing trade consensus.',
+    '**Flashing-leak repair** seals the failed or improperly installed flashing where a Verona skylight meets the shingle field, the detail that fails before the glass, per roofing trade consensus. An engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America, so a Newark Quality Roofing repair replaces the failed flashing rather than recaulking the curb. A skylight lasts 10–20 years, per the InterNACHI Estimated Life Expectancy Chart.',
+    '**New skylight installation** on a Verona split-level sets a deck-mounted or curb-mounted VELUX or Fakro unit with the matching flashing kit, because the matched kit ties into the roof covering and the split-level\'s offset planes that meet a vertical wall. A skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8.',
+    '**Fogged-glass-seal replacement** installs a new insulated-glass unit when moisture fogs between the panes on an older Verona skylight, the failure the VELUX 20-year insulated-glass-seal warranty covers, separate from leak coverage, per VELUX America. A Newark Quality Roofing diagnosis separates a true leak from winter condensation before any work begins.',
   ],
   challenges: [
-    'Cutting a skylight opening in a Verona split-level roof intersects the rafter framing that supports the roof load, requiring header construction that transfers the cut rafters\' loads to adjacent full-length members. The framing modification must be engineered to prevent sagging or deflection around the opening. On split-levels with non-standard rafter spacing -- common in 1960s construction -- the header design must account for the specific framing geometry rather than relying on standard span tables that assume uniform spacing.',
-    'Flashing integration between the skylight curb and the surrounding shingle field demands precision that standard roofing crews may not provide. The skylight sits proud of the roof surface on a curb that interrupts the natural water-shedding cascade of shingle courses. Water flowing down the roof must be diverted around the curb without entering at any point. Step flashings along the sides, a head flashing above, and an apron below create the diversion path, but each component must be sized, positioned, and lapped correctly for the system to function in wind-driven rain.',
-    'Condensation on skylight glazing during Verona winters creates moisture problems that homeowners often mistake for leaks. When warm, humid interior air contacts the cold glass surface, condensation forms, drips down the glazing, and collects on the sill or curb. The moisture enters the ceiling cavity and stains adjacent drywall, creating the appearance of a roof leak when the actual cause is interior humidity. Our diagnostic approach distinguishes between true leaks and condensation by examining the moisture pattern relative to weather conditions and interior humidity levels.'
+    '**Split-level transition flashing** concentrates the leak risk on Verona\'s 1960s–70s split-levels, because the roof breaks into offset planes that meet a vertical wall, and a skylight near that roof-to-wall step adds a penetration that ties into the step flashing. A Newark Quality Roofing install ties the flashing kit into the surrounding step flashing rather than the open field.',
+    '**Reservation-edge tree debris** shades and loads Verona skylights, because Verona hosts part of Eagle Rock Reservation on the First Watchung Mountain and part of Hilltop Reservation on the Second Watchung Mountain, per Essex County Parks, and the wooded edges plus mature street trees near Verona Park drop leaf load that collects at the upslope side of a skylight curb. Debris dams meltwater against the curb where flashing fails, and shade settles moss and algae on north-facing slopes.',
+    '**Winter condensation** at a Verona skylight reads as a leak but traces to indoor humidity, because water at a skylight is often condensation from excess indoor humidity on cold glass rather than a roof leak, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads before opening the flashing.',
+    '**Low-slope curb-mounting** on the Bloomfield Avenue and Pompton Avenue corridor storefronts sets a skylight on a built-up curb tied into the EPDM, TPO, or modified-bitumen membrane. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding water remaining more than 48 hours counted as a defect, per NRCA and ARMA, so a Newark Quality Roofing curb sheds water at the penetration rather than ponding.',
   ],
   process: [
-    'Skylight installation on Verona homes begins with an interior evaluation to identify the optimal ceiling location for light delivery, followed by an exterior survey to confirm that the corresponding roof position provides adequate pitch, orientation, and structural clearance for the selected skylight size. We verify that no rafters, plumbing vents, or electrical runs conflict with the proposed opening. The homeowner approves the final placement before any cutting begins.',
-    'Roof opening construction follows a careful sequence: temporary shoring supports the roof load around the cut area, rafters are cut at the opening dimensions, headers are installed to transfer loads to adjacent rafters, and the curb or deck-mount frame is secured to the structural opening. Ice-and-water shield membrane lines the curb and extends onto the surrounding deck. The skylight unit is set into the prepared opening and secured per manufacturer specifications.',
-    'Flashing installation integrates the skylight into the shingle field using the manufacturer\'s step-flashing kit supplemented with additional ice-and-water shield at the head and sill locations. Shingle courses are cut and fitted around the flashing assembly, maintaining the coursing pattern of the surrounding field. Interior finish work -- light shaft construction, drywall, and trim -- completes the installation. The finished skylight is tested with controlled water application to verify watertight performance before interior finishing proceeds.'
+    '**Newark Quality Roofing inspects the skylight flashing, curb, and shaft and separates a true leak from condensation before sealing anything.** Water at a skylight is often condensation from indoor humidity on cold glass rather than a roof leak, a common winter misdiagnosis per VELUX America, so a Newark Quality Roofing diagnosis reads the moisture pattern against weather and indoor humidity before opening the flashing on a Verona home.',
+    '**Newark Quality Roofing fits the VELUX or Fakro flashing kit matched to both the mounting type and the roof covering, sealing the penetration with engineered flashing rather than caulk.** A deck-mounted unit fastens to the deck at a lower profile, and a curb-mounted unit on a Verona low-slope addition or a Bloomfield Avenue storefront sits on a built-up curb at least 4 inches above the roof plane where the slope is under 3:12, per IRC Section R308.6.8 and VELUX America.',
+    '**Newark Quality Roofing installs VELUX and Fakro skylights to manufacturer specification, the condition the manufacturer leak warranty attaches to, then verifies watertight performance.** The VELUX No Leak installation warranty runs 10 years and applies only when the skylight installs to specification with a matching VELUX flashing kit, and Fakro provides a 10-year leak-proof guarantee conditioned on the original Fakro flashing kit, per VELUX America and Fakro USA. A Newark Quality Roofing crew runs a magnet sweep for nails before leaving.',
   ],
   faqs: [
     {
-      question: 'Where is the best place to install a skylight on a Verona split-level?',
-      answer: 'The upper-level hallway and bedrooms typically benefit most from skylights on split-levels because these rooms have the least window area relative to their floor space. North-facing roof planes provide consistent, glare-free light without summer heat gain. The specific position depends on your rafter layout, existing mechanical systems, and the light shaft angle from roof to ceiling. We evaluate these factors during the consultation and recommend placement that maximizes light delivery to the intended space.'
+      question: 'Is the water at my Verona skylight a leak or condensation?',
+      answer:
+        'Water at a skylight is often condensation from excess indoor humidity on cold glass, not a roof leak, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads before opening the flashing on a Verona home.',
     },
     {
-      question: 'How much does a skylight installation cost in Verona?',
-      answer: 'A single fixed skylight installation on a Verona home, including the unit, structural framing, flashing, roofing integration, and interior light shaft finish, typically costs $2,500 to $5,000. Venting skylights with remote-control operation add $500 to $1,000 to the cost. Tubular skylights for small spaces cost $1,000 to $2,000 installed. Multiple skylights on the same project achieve per-unit savings through shared mobilization and staging costs.'
+      question: 'Why does a skylight leak on a Verona split-level?',
+      answer:
+        'A skylight leaks because of failed or improperly installed flashing, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. On a Verona split-level, the offset roof planes meet a vertical wall, so a skylight near that roof-to-wall step ties into the surrounding step flashing, and an engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America.',
     },
     {
-      question: 'My Verona skylight leaks -- should I repair or replace it?',
-      answer: 'If the skylight is less than 15 years old and the glazing seal is intact, reflashing the curb-to-roof junction usually resolves the leak. If the unit is 20 years or older, the glazing seals have likely failed (visible as fogging between panes) and the curb frame may be deteriorated. In this case, full replacement with a modern unit provides better long-term value than flashing repair around a compromised skylight. We assess the unit condition and provide honest guidance about repair versus replacement for your specific situation.'
+      question: 'Should I repair or replace my Verona skylight?',
+      answer:
+        'Repair a skylight when the flashing fails on a unit inside its 10–20-year service life; replace a skylight past that range or when the insulated-glass seal fogs. The 10–20-year service life traces to the InterNACHI Estimated Life Expectancy Chart, and the VELUX 20-year glass-seal warranty covers fogging between the panes, separate from leak coverage, per VELUX America.',
     },
     {
-      question: 'Will a skylight make my Verona home hotter in summer?',
-      answer: 'South-facing skylights can increase summer heat gain in upper-level rooms. We mitigate this through several approaches: specifying Low-E glazing that blocks infrared heat while transmitting visible light, installing skylights on north-facing planes where direct sun exposure is minimal, or adding interior shading options that the homeowner can close during peak heat hours. Properly specified skylights add minimal heat load while dramatically improving natural light quality.'
+      question: 'Can you install a skylight on a Verona low-slope or commercial roof?',
+      answer:
+        'A skylight installs on a flat or low-slope roof on a curb-mounted unit, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA, so a Newark Quality Roofing curb on a Bloomfield Avenue or Pompton Avenue storefront sheds water at the penetration.',
     },
     {
-      question: 'How much does skylight installation repair cost in Verona, NJ?',
-      answer: 'Most skylight installation repair projects in Verona range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does a skylight repair need a permit in Verona?',
+      answer:
+        'A skylight repair on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building crosses into permit territory once roof work exceeds 25% of the roof area in 12 months, filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue. Verona requires HPC review prior to permit issuance only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt.',
+    },
+    {
+      question: 'How much does skylight installation and repair cost in Verona, NJ?',
+      answer:
+        'Skylight installation costs $1,600–$4,200 installed, replacement $800–$2,400, and leak repair $225–$800, per HomeGuide, Angi, and Modernize cost data. A reseal runs $75–$250 and a flashing repair $150–$500, per Angi and Modernize. Final cost depends on the mounting type, the roof covering, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Skylight installation and repair in Verona NJ -- VELUX skylights for split-level homes with proper flashing and natural light design.',
+  metaDescription:
+    'Skylight installation and repair in Verona NJ — VELUX and Fakro flashing-kit installs, split-level curb-mounts, leak vs condensation diagnosis. Free estimate.',
   pricing: {
-    range: '$1,500–$5,000',
-    note: 'per skylight installed or repaired',
+    range: '$225–$4,200 across repair and installation',
+    note: 'Skylight install $1,600–$4,200, replacement $800–$2,400, leak repair $225–$800 per HomeGuide, Angi, and Modernize; final cost depends on mounting type, roof covering, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free skylight installation repair estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for skylight installation repair in Verona.',
+    urgencyNote: 'Addressing a skylight leak early limits interior and structural water damage.',
   },
 };

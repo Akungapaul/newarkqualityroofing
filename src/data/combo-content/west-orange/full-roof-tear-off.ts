@@ -3,56 +3,74 @@ import type { ComboContent } from '../schema';
 export const westOrangeFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'west-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing full roof tear off across West Orange, New Jersey, and Essex County, stripping every roof layer to the deck on the township\'s capes, ranches, hillside Tudors, and Llewellyn Park estate homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
-    'Newark Quality Roofing delivers expert full roof tear off in West Orange — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off removes every layer of existing roofing material down to the structural deck, providing the clean substrate that West Orange\'s demanding weather conditions require for maximum new-roof performance. Our [full roof tear off](/full-roof-tear-off) process in West Orange exposes and repairs deck damage hidden beneath aging shingles, replaces deteriorated underlayment, and installs modern ice-and-water shield protection at the vulnerable eave and valley details where elevation-driven weather creates the most aggressive infiltration pressure.',
-    'West Orange homes benefit from full tear-off over overlay because the township\'s ice dam history and elevation-variable wind exposure demand the layered waterproofing barriers that only clean-deck installation allows. Ice-and-water shield membrane at eaves and valleys, synthetic underlayment across the full deck surface, and properly integrated flashing at every transition require direct contact with sound sheathing -- connections that overlay installation through existing shingle layers cannot achieve.',
-    'The mid-century split-level homes along Gregory Avenue and Main Street almost always require tear-off rather than overlay because their level-change transitions need full access for waterproofing barrier installation. Decades of ice dam damage at these transitions have typically compromised both the shingles above and the deck sheathing below. Only tear-off reveals the full scope of this concealed damage and allows comprehensive repair before new roofing is installed. Homeowners near [Montclair](/full-roof-tear-off-montclair-nj) follow similar tear-off protocols for their own aging multi-level homes.'
+    '**Newark Quality Roofing strips a West Orange roof to the bare deck, inspects and repairs the sheathing, then installs a new underlayment-and-cover system.** This work covers the township\'s valley capes, ranches, and Colonials in Pleasantdale and Gregory up through hillside Tudors and Llewellyn Park estate homes. Full roof tear off exposes the deck for the inspection a roof-over cannot provide.',
+    '**Full roof tear off** removes the asphalt, underlayment, and any overlay layers a West Orange roof carries, exposing the sheathing so a roofer inspects the deck, repairs any damage, and improves deck attachment, while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI.',
+    '**Deck inspection** is the step a recover skips, because the NJ Rehabilitation Subcode requires complete removal of the existing covering in 3 conditions — a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying 2 layers, per N.J.A.C. 5:23-6.4. The mature ridge-side stock along the First Watchung slope frequently reveals deteriorated sheathing once the covering comes off.',
+    '**Underlayment-and-cover installation** follows the deck repair on the prepared sheathing, with an ice barrier run from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision as enforced under N.J.A.C. 5:23. A West Orange asphalt tear-off carries that ice barrier; a hillside Tudor or Llewellyn Park estate restores natural slate, metal, or copper on the same clean deck.',
   ],
   challenges: [
-    'Debris management on West Orange\'s hillside lots requires careful staging to prevent damage to terraced landscaping, retaining walls, and steep driveways. Standard ground-level dumpster placement may not be feasible on properties where the only flat staging area is occupied by the driveway or patio. We use rooftop-to-dumpster chute systems positioned to avoid landscape features and protect exterior surfaces from falling debris impact.',
-    'Weather exposure during tear-off creates vulnerability for the hours between old roof removal and new underlayment installation. We limit daily tear-off scope to the area our crew can strip, repair, and protect with underlayment before end of day, maintaining weather-tight conditions on the remaining roof surface throughout the project.',
-    'Deck damage discovery during tear-off on [West Orange](/roofing-in-west-orange-nj) homes averaging 30 to 50 years old frequently reveals deterioration beyond pre-project estimates. We carry replacement sheathing on every project truck and include contingency allowances in our estimates, setting realistic expectations for the additional deck work that aging homes almost invariably require.'
+    '**Deteriorated sheathing** discovered at tear-off is the defining West Orange condition. The township\'s mature ridge-side stock — capes, ranches, and Colonials in Pleasantdale and Gregory up through hillside Tudors and Llewellyn Park estates — has often accumulated decades of concealed deck moisture that only full removal reveals. A Newark Quality Roofing crew exposes and replaces sheathing that cannot grip a nail.',
+    '**Reservation-edge canopy** off South Mountain Reservation and part of Eagle Rock Reservation, per Essex County Parks, drops leaves and branches that collect in valleys and gutters on the ridge-side sections, while shade on north slopes near the reservations feeds moss and algae. A tear-off in St. Cloud and the reservation-edge sections clears that debris path and rebuilds the valley flashing where water concentrates.',
+    '**Multi-layer roofs** rule out a recover, because N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1 prohibit a new covering over a roof already carrying 2 layers, leaving a full tear-off the only code-compliant path. A second overlay layer adds roughly 2 to 4.5 pounds per square foot of dead load across the deck and rafters, per shingle-weight conversion data from Dumpsters.com and Angi.',
+    '**Slate and copper detailing** on the hillside Tudors and Llewellyn Park estate homes calls for a slate-grade tear-off and restoration, because natural slate lasts 60 to 150 years per the InterNACHI life-expectancy chart and is repaired tile by tile with non-ferrous copper or stainless slater\'s nails, per NPS Preservation Brief 29. The Brief advises replacing the roof once 20% or more of the slates are broken, cracked, missing, or sliding.',
   ],
   process: [
-    'Tear-off begins at the ridge and progresses downward in manageable sections. Crews remove ridge cap, field shingles, starter strip, flashing, and underlayment in sequence, exposing the deck surface for inspection. Every square foot of exposed deck receives structural probing to identify soft spots, delamination, and hidden moisture damage that visual inspection alone cannot confirm.',
-    'Deck repair addresses all identified damage before new materials are installed. Rotted sheathing sections are cut to nearest rafter edges and replaced with matching thickness plywood or OSB. Compromised rafter tails receive sistering reinforcement. Protruding fasteners are removed or driven flush. The clean, repaired deck surface receives full-coverage synthetic underlayment with ice-and-water shield at eaves, valleys, and wall transitions.',
-    'New roofing installation proceeds on the prepared deck surface with properly integrated flashing, ventilation components, and shingle courses from eave to ridge. The tear-off process enables each component to be installed in the correct sequence with direct substrate contact, producing the layered weather barrier system that overlay installation compromises.'
+    '**Newark Quality Roofing inspects the roof and the attic underside, counts the existing covering layers, and identifies which N.J.A.C. 5:23-6.4 removal condition applies** before stripping anything. A crew checks for the failing-deck signs InterNACHI names — daylight through the deck, soft or spongy wood, sagging between rafters, and delaminated plywood or swollen OSB — across the West Orange roof.',
+    '**Newark Quality Roofing strips all existing covering, underlayment, and any overlay layers to the bare deck, then replaces deteriorated sheathing before any new covering goes down.** Roofing nails penetrate at least ¾ inch into the deck to grip, so sheathing that has rotted soft, delaminated, or swollen is replaced, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI.',
+    '**Newark Quality Roofing installs an ice barrier at the eaves, applies synthetic underlayment across the repaired deck, and installs the cover to manufacturer specification.** The ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision, and installing to specification preserves the manufacturer material warranty covering factory defects, separate from the written workmanship warranty backing the labor, per Owens Corning warranty guidance.',
+    '**Newark Quality Roofing verifies the install, runs a magnet sweep for nails at cleanup, and documents the completed roof with timestamped photographs** keyed to the West Orange property. The documentation supports a homeowner record and any insurance claim, and a crew contains debris on the township\'s tree-lined and hillside lots throughout, per Integrity Home Exteriors verification guidance.',
   ],
   faqs: [
     {
-      question: 'Why is tear-off better than overlay for my West Orange home?',
-      answer: 'Tear-off allows installation of ice-and-water shield membrane at eaves and valleys, full deck inspection and repair, proper flashing integration at every transition, and a single clean layer of new roofing at correct nailing depth. Overlay through existing shingles prevents all of these critical details. Given West Orange\'s ice dam exposure and elevation-variable wind loads, the performance advantage of tear-off installation justifies the additional cost over overlay for the majority of homes in this township.'
+      question: 'When does New Jersey code require a full roof tear off in West Orange?',
+      answer:
+        'N.J.A.C. 5:23-6.4 requires complete removal of the existing covering in 3 conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying 2 or more layers. The NJ Rehabilitation Subcode adds wood shake to the IRC Section R908.3.1.1 removal list, per the NJ Uniform Construction Code. The aging deck moisture common in West Orange\'s ridge-side stock often puts a roof on the mandatory-tear-off path.',
     },
     {
-      question: 'How long does a full tear-off take on a West Orange home?',
-      answer: 'Most residential tear-off and re-roof projects complete in 2 to 4 days depending on roof size, complexity, and deck repair requirements. Split-level homes with multiple roof planes and level-change transitions typically require 3 to 4 days. Simple ranch or cape styles may complete in 2 days. Weather delays can extend the timeline, but we maintain weather-tight conditions at the end of each work day regardless of overall project duration.'
+      question: 'Do I need a permit for a full roof tear off in West Orange, NJ?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit once the work exceeds 25% of the total roof area in a 12-month period, filed with the Township of West Orange Building & Construction Code Enforcement office, and so does any structural change to rafters or trusses.',
     },
     {
-      question: 'What happens to the old roofing material?',
-      answer: 'All removed material is loaded into dumpsters positioned on-site and hauled to licensed disposal facilities. Asphalt shingle recycling is available when local processing facilities accept material. We handle all debris removal, dump fees, and site cleanup as part of the tear-off scope, leaving the property clean upon project completion.'
+      question: 'Does a full roof tear off on a West Orange historic landmark need extra approval?',
+      answer:
+        'Exterior roofing work on one of West Orange\'s roughly ten locally designated historic landmarks requires a Certificate of Appropriateness from the West Orange Historic Preservation Commission under Section 25-30 before a construction permit issues. The Certificate of Appropriateness covers landmarks such as Holy Trinity Episcopal Church, the State Diner, and the Hedges Block, and applies only to locally designated landmarks, not township-wide, so a typical West Orange home faces no historic review. Llewellyn Park homeowners answer to a private 1857 deed covenant rather than a township Certificate of Appropriateness, and per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'Will tear-off damage my landscaping or siding?',
-      answer: 'We protect vulnerable areas with plywood shields against walls, tarps over foundation plantings, and debris chute systems that direct material into dumpsters without scattering across the property. Despite these precautions, some minor landscape disturbance is unavoidable during any tear-off project. We restore any displaced mulch, repair any damaged plantings, and perform a thorough magnetic nail sweep of the entire property perimeter after project completion.'
+      question: 'What happens if the deck is rotted under the old roof?',
+      answer:
+        'A full tear-off exposes the deck, and Newark Quality Roofing replaces sheathing that has rotted soft, delaminated, or swollen, because roofing nails penetrate at least ¾ inch into the deck to grip. Sheathing that cannot hold a nail is replaced, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI. The ridge-side stock above the First Watchung slope frequently hides this damage until the covering comes off.',
     },
     {
-      question: 'How much does full roof tear off cost in West Orange, NJ?',
-      answer: 'Most full roof tear off projects in West Orange range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How does a slate or copper tear-off differ on a Llewellyn Park estate or hillside Tudor?',
+      answer:
+        'A slate-grade tear-off preserves the original roof where possible, because natural slate lasts 60 to 150 years and copper over 100 years when properly installed, per the InterNACHI life-expectancy chart and the Copper Development Association. Broken slate is replaced tile by tile with non-ferrous copper or stainless slater\'s nails, per NPS Preservation Brief 29, which advises replacing the roof once 20% or more of the slates are broken, cracked, missing, or sliding. New copper valley and step flashing rebuilds where water concentrates.',
+    },
+    {
+      question: 'How much does a full roof tear off cost in West Orange, NJ?',
+      answer:
+        'A New Jersey roof replacement with the tear-off included costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data. Old-roof removal runs $1–$5 per square foot by material weight — $1–$3 for shingles and $2–$5 for heavier slate or tile, per HomeGuide national data. A natural slate or copper roof on a Llewellyn Park estate or hillside Tudor costs more than asphalt, with slate installed at roughly $10 to $30 per square foot, per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Full roof tear-off in West Orange NJ. Complete removal to deck for clean installation with ice-and-water shield protection.',
+  metaDescription:
+    'Full roof tear off in West Orange NJ — strip to the deck, repair sheathing, new ice barrier and cover on capes, Tudors, and estate homes. Free estimate.',
   pricing: {
-    range: '$9,000–$26,000',
-    note: 'complete tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range with tear-off included per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with West Orange\'s wide stock, from valley capes and ranches up through hillside Tudors and Llewellyn Park estate homes.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free full roof tear off estimate in West Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for full roof tear off in West Orange.',
+    urgencyNote: 'Replacing a roof to the deck addresses sheathing rot a recover would conceal.',
   },
 };

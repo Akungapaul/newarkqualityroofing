@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const veronaSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing slate roof replacement across Verona, New Jersey, and Essex County, stripping a failing slate roof to the deck and reinstalling natural or synthetic slate on pre-war Colonials and older homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Slate roof replacement** strips a failing slate roof to the deck, repairs the sheathing, and reinstalls natural or synthetic slate on corrosion-resistant copper or stainless fasteners. It renews a heavy, long-lived covering that demands a load-rated structure.',
   overview: [
-    'Newark Quality Roofing delivers expert slate roof replacement in Verona — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Verona preserves the premium natural stone roofing that distinguishes the township\'s finest pre-war homes along Claremont Avenue and the older Lakeview neighborhood. When an existing slate roof has reached the point where individual slate replacement can no longer keep pace with deterioration, full slate replacement reinstalls the building with a century-grade roof system using quarried natural stone that matches or improves upon the original installation. Newark Quality Roofing performs slate replacement on Verona homes with the material expertise and craftsmanship this premium work demands.',
-    'The decision to replace slate with slate rather than converting to a less expensive material reflects both preservation values and economic logic. A properly installed slate roof lasts 75 to 150 years depending on slate origin and quality. Replacing a 90-year-old slate roof with new natural slate provides another century of service, while converting to asphalt shingles provides 25 to 30 years. Over two or three generations, the slate investment produces lower per-year cost. Our [slate replacement](/slate-roof-replacement) consultations present the lifecycle cost comparison alongside the aesthetic and preservation arguments.',
-    'Verona homeowners replacing slate roofs join a tradition of stewardship that has maintained these homes\' architectural integrity through nearly a century of ownership. The slate-roofed colonials and Tudor-influenced homes represent the township\'s architectural heritage, and maintaining them with authentic materials preserves neighborhood character and property values. Homeowners in [Glen Ridge](/slate-roof-replacement-glen-ridge-nj) with historic preservation requirements have validated that authentic slate replacement maintains both the aesthetic and the appraised value that synthetic alternatives cannot match.'
+    '**Newark Quality Roofing replaces natural and synthetic slate roofs** on Verona\'s pre-war Colonials and Dutch Colonials, including the older stock on Personette Avenue and Claremont Avenue. Slate roof replacement strips the slate to the deck, repairs the sheathing, and reinstalls slate on corrosion-resistant fasteners, the work that renews a slate roof when its fastening and flashing wear out.',
+    '**Natural and synthetic slate** carry very different service lives, because natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association, while synthetic composite slate lasts 10 to 35 years per the InterNACHI chart, with premium composite designed for 40 to 50 years per CertainTeed product literature. A Newark Quality Roofing replacement matches the new slate, fasteners, and flashing to the original.',
+    '**Slate fails at the fastening and flashing, not the stone** on Verona\'s older Colonials, because plain steel and galvanized nails rust out and the valley, chimney, and wall flashing degrades long before the slate itself, per NPS Preservation Brief 29. A Newark Quality Roofing replacement renews the underlayment, the non-ferrous fasteners, and the metal flashing the slate hangs on.',
+    '**Reservation-edge tree debris** loads the valleys and transitions on these slate-roofed homes, because Verona hosts part of the Eagle Rock Reservation on the First Watchung Mountain and part of the Hilltop Reservation on the Second Watchung Mountain, per Essex County Parks, and the wooded edges plus mature street trees near Verona Park drop leaf load and broken branches that collect in valleys and concentrate water at the slate flashing.',
   ],
   challenges: [
-    'Structural capacity must be verified before slate replacement because the weight of natural slate -- 800 to 1,500 pounds per square depending on thickness -- requires robust framing. Homes that have carried slate for decades have proven structural adequacy, but decades of moisture exposure may have weakened framing members that originally supported the load safely. Our structural assessment evaluates the current condition of the framing, not just the original design capacity.',
-    'Slate sourcing for Verona replacement projects requires matching the stone\'s color, texture, and thickness to the existing installation or to the home\'s architectural character. Vermont slate, Pennsylvania slate, and imported slate each carry different color ranges, grain patterns, and expected lifespans. Quarry availability, production schedules, and shipping logistics create lead times that can extend months beyond standard roofing material procurement.',
-    'Skilled slate installation labor is scarce because the trade requires hand-cutting skills, copper nail knowledge, and understanding of graduated exposure courses that asphalt shingle installers do not develop. Our slate crews have years of experience installing and restoring natural slate roofs in the Essex County market, providing the craftsmanship that this premium material deserves.'
+    '**Slate cannot be roofed over**, because slate is listed among the coverings that require complete removal of the existing covering before new roofing, per N.J.A.C. 5:23-6.4. A Verona slate replacement is always a full tear-off and reinstall, stripping the slate to the sheathing, renewing the underlayment, and replacing the deteriorated plank decking often found beneath the pre-war stock at tear-off.',
+    '**Non-ferrous fasteners** are what a natural slate roof requires, because plain steel and galvanized nails rust out long before the slate, per NPS Preservation Brief 29, so the slate reinstalls on solid copper or stainless slater\'s nails set to hang on the shank rather than driven tight. A Newark Quality Roofing crew avoids walking on the slate, since walking on slate breaks the brittle tiles.',
+    '**Split-level transition flashing** concentrates the leak risk on Verona\'s many 1960s and 1970s split-levels and bi-levels, where a slate or slate-style covering meets the offset roof planes against a vertical wall. The roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing, an industry estimate attributed to the NRCA, so a replacement rebuilds the roof-to-wall step and counter-flashing at that transition.',
+    '**Climate-matched metal flashing** outlasts the replacement on a Verona slate roof, because the flashing matches the slate\'s long service life in copper, lead-coated copper, or terne-coated stainless steel, per NPS Preservation Brief 29. Northern New Jersey crosses the 32-degree freezing point repeatedly through winter, so a Newark Quality Roofing replacement uses metal hooks for broken-slate repair rather than the copper-strip method that ice folds.',
   ],
   process: [
-    'Slate replacement begins with careful documentation of the existing installation: slate sizes, exposure patterns, color distribution, and any decorative details that the replacement should replicate. This documentation guides the slate specification and ensures the replacement maintains the visual character of the original roof.',
-    'Tear-off proceeds carefully to preserve reusable slates for repair stock and to avoid damaging the structural deck beneath. New skip or solid sheathing is installed as specified, followed by synthetic underlayment and copper ice-and-water shield at eaves, valleys, and transitions. Slate installation uses copper nails on every piece, with courses laid from eave to ridge in the graduated exposure pattern documented from the original installation.',
-    'Copper flashings at valleys, hips, ridges, and penetrations are hand-fabricated and soldered to create the watertight joints that slate roofs require. Ridge and hip caps use saddle-mounted or mitered slate details that match the home\'s architectural style. The completed installation is inspected for alignment, exposure consistency, and flashing integrity before the homeowner receives the craftsmanship warranty and maintenance guidelines.'
+    '**Newark Quality Roofing documents the existing slate pattern, coursing, color, and dimensions, then rates the roof against the 20% replacement threshold before quoting.** A slate roof with 20% or more of the slates broken, cracked, missing, or sliding usually costs less to replace than to repair individually, per NPS Preservation Brief 29, and below that the work stays a selective repair, per NPS Preservation Brief 4.',
+    '**Newark Quality Roofing strips the slate to the deck, renews the underlayment, and replaces deteriorated decking, because a slate roof cannot be recovered over.** A slate replacement requires complete removal of the existing covering, per N.J.A.C. 5:23-6.4, so the crew strips the slate to the sheathing, replaces the plank or deteriorated decking exposed at tear-off on the older stock, and lays new underlayment before reinstallation.',
+    '**Newark Quality Roofing reinstalls natural slate on solid copper or stainless slater\'s nails and rebuilds the flashing in a matching durable metal, never coating or sealing the slate.** Slate hangs on the shank rather than driven tight, per NPS Preservation Brief 29, and the valley, chimney, and wall flashing rebuilds in copper, lead-coated copper, or terne-coated stainless steel, then a crew runs a magnet sweep for nails and issues a written workmanship warranty.',
   ],
   faqs: [
     {
-      question: 'How much does slate roof replacement cost in Verona?',
-      answer: 'Natural slate roof replacement on a Verona home typically costs $30,000 to $70,000 depending on roof size, slate origin, and installation complexity. The investment provides 75 to 150 years of service life, making the per-year cost comparable to or lower than asphalt shingles replaced every 25 years. The aesthetic value, durability, and property value enhancement further support the investment for homeowners committed to their Verona home.'
+      question: 'Should I repair or replace my Verona slate roof?',
+      answer:
+        'Replace a slate roof when 20% or more of the slates on a slope are broken, cracked, missing, or sliding, or when the fasteners and flashing have failed across the roof; repair selectively below 20%. The 20% threshold traces to NPS Preservation Brief 29, and natural slate is repaired rather than replaced whenever possible, because individual slates replace indefinitely while the deck and fasteners stay sound, per the National Slate Association. Newark Quality Roofing rates a Verona slate roof against that threshold before quoting.',
     },
     {
-      question: 'Should I replace my Verona slate roof with shingles to save money?',
-      answer: 'Converting slate to shingles saves approximately 50 to 60 percent on the initial installation but sacrifices 50 to 100 years of additional service life, diminishes the home\'s architectural character, and may reduce property value by $20,000 or more in the Verona market. Unless structural conditions prevent slate reinstallation, we recommend maintaining the slate material that has defined your home for generations.'
+      question: 'How long does a slate roof last on a Verona home?',
+      answer:
+        'Natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association, and properly installed slate lasts 60 to 125 years or longer, per NPS Preservation Brief 29. Synthetic composite slate lasts 10 to 35 years per the InterNACHI chart, with premium composite designed for 40 to 50 years per CertainTeed product literature. On a Verona Colonial, a slate roof typically outlives its underlayment and copper or stainless fasteners.',
     },
     {
-      question: 'How long does slate roof replacement take in Verona?',
-      answer: 'Slate replacement projects typically require three to six weeks of on-site work, plus two to four months of advance material procurement. The installation timeline reflects the precision hand-work that slate requires -- each piece is individually sized, cut, and nailed rather than run through in overlapping courses like machine-made products. We schedule the project timeline well in advance and coordinate material delivery with installation start.'
+      question: 'Can a Verona slate roof be roofed over instead of replaced?',
+      answer:
+        'A slate roof cannot be roofed over, because slate is listed among the coverings that require complete removal of the existing covering before new roofing, per N.J.A.C. 5:23-6.4. A Verona slate replacement is always a full tear-off and reinstall, stripping the slate to the deck to renew the underlayment and the fasteners the slate hangs on, and replacing the deteriorated plank decking often found beneath the pre-war stock.',
     },
     {
-      question: 'What type of slate should I choose for my Verona home?',
-      answer: 'Vermont slate in unfading colors (gray-green, purple, gray-black) provides the longest service life at 100 to 150 years. Pennsylvania soft slate in black provides a classic appearance at lower cost but shorter life of 60 to 75 years. We recommend matching the original slate type if it can be identified, or specifying unfading Vermont or equivalent for maximum longevity. Color selection considers the home\'s masonry, trim, and neighborhood context.'
+      question: 'Does a slate roof replacement in Verona need a permit or HPC review?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Verona counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit. Structural work and commercial, multi-family, or attached buildings do require one, filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue. Verona requires HPC review prior to permit issuance only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona, the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church, so every other Verona home reroofs with no HPC review.',
+    },
+    {
+      question: 'What fasteners and flashing does a Verona slate roof require?',
+      answer:
+        'A natural slate roof requires non-ferrous fasteners, solid copper or stainless slater\'s nails set so the slate hangs on the shank rather than driven tight, per NPS Preservation Brief 29. Plain steel and galvanized nails rust out long before the slate deteriorates, and the valley, chimney, and wall flashing rebuilds in copper, lead-coated copper, or terne-coated stainless steel matched to the slate\'s long service life, with a broken slate replaced using a ripper and a copper strip or metal hook rather than mastic.',
     },
     {
       question: 'How much does slate roof replacement cost in Verona, NJ?',
-      answer: 'Most slate roof replacement projects in Verona range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A roof replacement in New Jersey runs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, and a natural slate replacement on an older Verona Colonial runs above that asphalt range. Slate is among the longest-lasting roofing materials at 60 to 150 years, per the InterNACHI life-expectancy chart, and a slate replacement demands a full tear-off, copper or stainless fasteners, and metal flashing matched to the slate. Final cost depends on roof size, pitch, slate type, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Slate roof replacement in Verona NJ -- natural stone roofing for pre-war homes with century-grade durability and copper flashings.',
+  metaDescription:
+    'Slate roof replacement in Verona NJ — full tear-off and reinstall on copper or stainless fasteners for pre-war Colonials. NJ-registered, free written estimate.',
   pricing: {
-    range: '$20,000–$45,000',
-    note: 'slate roof replacement or restoration',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; a natural slate replacement runs above the asphalt range. Final cost depends on roof size, pitch, slate type, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Slate reinstalled on solid copper or stainless slater\'s nails with copper or lead-coated copper flashing, the technique set by NPS Preservation Brief 29 and the National Slate Association.',
+    'Free, detailed written estimates with no obligation.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free slate roof replacement estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for slate roof replacement in Verona.',
+    urgencyNote: 'Addressing failed slate fasteners and flashing early limits interior and structural water damage.',
   },
 };

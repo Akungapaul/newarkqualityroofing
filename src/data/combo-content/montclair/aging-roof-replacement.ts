@@ -3,52 +3,68 @@ import type { ComboContent } from '../schema';
 export const montclairAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'montclair',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing aging roof replacement across Montclair, New Jersey, and Essex County, stripping an end-of-life roof to the deck and installing a new system** on the township\'s architecturally diverse pre-war homes as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.',
   overview: [
-    'Newark Quality Roofing delivers expert aging roof replacement in Montclair — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Montclair addresses the natural end-of-life transition that every roofing material eventually reaches -- the point where granule loss, shingle brittleness, underlayment deterioration, and accumulated wear have progressed beyond what maintenance and spot repairs can meaningfully extend. For Montclair homes where the existing roof was installed twenty to thirty years ago, the question is not whether replacement is needed but when to schedule it before the aging process produces active leaks and interior damage that add urgency and cost to the project.',
-    'The proactive approach to aging roof replacement allows Montclair homeowners to plan the project around their schedule and budget rather than reacting to emergency conditions. A planned replacement during favorable weather months produces better installation quality, wider material selection, and competitive pricing compared to emergency replacements driven by active leaks during peak demand periods. Our [aging roof replacement](/aging-roof-replacement) consultations for [Montclair](/roofing-in-montclair-nj) homes provide honest assessments of remaining useful life, helping homeowners time the replacement investment for maximum value.',
-    'Properties throughout Montclair and neighboring [West Orange](/aging-roof-replacement-west-orange-nj) and [Verona](/aging-roof-replacement-verona-nj) that were roofed or re-roofed during the building boom of the 1990s and early 2000s are entering the replacement window now, creating a generation-wide re-roofing cycle across western Essex County.'
+    '**Newark Quality Roofing replaces aging asphalt, slate, metal, and low-slope membrane roofs across Montclair** on the township\'s architecturally diverse Victorian, Queen Anne, Tudor, Craftsman, and Colonial Revival homes. Aging roof replacement strips a covering past its service life to the deck, repairs the sheathing, and installs a new underlayment-and-cover system before granule loss, curling, and brittle sealants admit water.',
+    '**Aging asphalt, slate, and metal** coverings reach the end of service after a material-specific lifespan: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and actual asphalt life varies up to 40% with climate, install, and maintenance, per the NRCA. On Montclair\'s large period homes the slate itself outlasts the corroded fasteners and degraded valley and chimney flashing that end the roof\'s service life first.',
+    '**The Montclair stock** is largely pre-WWII, with a large majority of the housing predating World War II, per the Township of Montclair Housing Element, so an architecturally diverse covering at or past its InterNACHI-rated life curls, loses granules, and opens at the flashing across the Upper Montclair, Estate Section, Erwin Park, and Pine Street homes. A Newark Quality Roofing tear-off exposes plank and deteriorated sheathing for replacement before the new system goes down.',
+    '**The low-slope and multi-unit angle** carries the commercial side, because roughly 54% of Montclair units sit in multi-unit structures, per the U.S. Census Bureau, and the Bloomfield Avenue, Watchung Plaza, and Upper Montclair storefronts and two- and three-family rear additions carry EPDM, TPO, and modified-bitumen membrane that ages at the seams. A Newark Quality Roofing membrane replacement reseals or replaces the failed laps and grades the deck to drain.',
   ],
   challenges: [
-    'Determining the optimal replacement timing requires balancing remaining useful life against the risk of waiting too long. Shingles that appear serviceable from ground level may have significant granule loss, hairline cracking, and adhesive failure visible only from roof-level inspection. We provide measured assessments using granule density, flexibility testing, and adhesive seal evaluation that predict remaining service life more accurately than visual observation alone.',
-    'Material selection for aging replacement on architecturally significant Montclair homes considers both performance upgrade opportunities and aesthetic continuity with the home\'s character. The replacement event is the opportunity to upgrade from builder-grade to designer-series materials, add impact resistance, and improve ventilation and insulation that the previous installation did not address.',
-    'Budget planning for aging replacement benefits from advance scheduling that allows homeowners to obtain multiple estimates, evaluate financing options, and time the investment within their financial planning cycle rather than scrambling for emergency funding when leaks force the issue.'
+    '**Timing the replacement** against the roof\'s remaining service life is the defining decision on an aging Montclair roof, because a localized repair stays economical only while the covering holds. Replacing a roof past 30% of its replacement cost in repairs favors replacement, per the contractor-consensus repair-vs-replace rule attributed to Kellow, Modernize, and Josten, so a Newark Quality Roofing assessment rates the roof against its InterNACHI material lifespan first.',
+    '**Plank and deteriorated sheathing** surfaces at tear-off on Montclair\'s older architecturally diverse homes, where years of trapped moisture rot the decking under an end-of-life covering. A Newark Quality Roofing crew strips the roof to the bare deck and replaces the plywood, OSB, or plank board that the old covering hid, because the NJ Rehabilitation Subcode requires full removal of a water-soaked, wood shake, slate, clay, cement, or asbestos-cement tile roof, per N.J.A.C. 5:23-6.4.',
+    '**Period slate, metal, and copper detailing** on the Estate Section and Upper Montclair Victorians, Queen Annes, and Tudors complicates an aging replacement, because the turrets, dormers, valleys, and chimney transitions multiply the flashing details that fail first and the in-kind match preserves the home\'s character. A Newark Quality Roofing replacement matches a slate or metal in design, color, and texture and fabricates copper valleys and step flashing where the original detailing calls for it.',
+    '**Historic-district approval** governs an aging replacement that changes a roof\'s appearance inside a locally designated Montclair district. Appearance-changing exterior roofing on a property in one of Montclair\'s four locally designated historic districts — Town Center, Upper Montclair Business, Pine Street, or Watchung Plaza — or on a local landmark requires a Certificate of Appropriateness from the Montclair Historic Preservation Commission under Article XXIII of Chapter 347, section 347-136. In-kind maintenance or repair with no change in design, scale, or appearance does not require one, and the Estate Section is nominated but not locally designated.',
   ],
   process: [
-    'Aging roof assessment provides a data-driven remaining-life estimate through hands-on material evaluation at multiple roof locations. We test shingle flexibility, measure granule retention, evaluate adhesive seal integrity, and inspect underlayment condition through sample lifts. The assessment report provides a clear timeline recommendation -- years of serviceable life remaining -- and identifies any areas where accelerated aging warrants earlier attention than the overall roof condition suggests.',
-    'Replacement planning develops a complete project specification including material selection, tear-off or overlay determination, ventilation and insulation upgrades, and flashing renewal scope. We present material options tailored to the home\'s architectural style, exposure conditions, and the homeowner\'s budget and aesthetic preferences. The specification serves as the basis for accurate competitive bidding if the homeowner chooses to compare contractors.',
-    'Execution follows the planned specification with quality verification at each installation stage. The aging replacement project typically includes comprehensive improvements that a younger roof would not warrant -- full deck inspection and repair during tear-off, upgraded ice-and-water shield coverage, ventilation improvements, and premium flashing installation at all transitions. These concurrent upgrades transform the aging replacement from a material swap into a complete roof system renewal.'
+    '**Newark Quality Roofing rates the aging roof against its material lifespan and the repair-vs-replace thresholds before quoting a replacement, because a roof past its design life fails across the whole field rather than at one detail.** A roof reaches end of service after a material-specific lifespan — 3-tab asphalt at 20 years, architectural at 30, metal at 40 to 80, and slate at 60 to 150, per the InterNACHI life-expectancy chart — and the assessment checks the attic ventilation that drives premature aging, per the NRCA.',
+    '**Newark Quality Roofing strips the aging covering to the deck, repairs the plank and deteriorated sheathing exposed at tear-off, and installs an ice barrier and synthetic underlayment before the new cover.** A full tear-off exposes the deck for replacement of plywood, OSB, or plank board rotted under the old roof, the work the NJ Rehabilitation Subcode requires when the existing covering is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4, and the ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision.',
+    '**Newark Quality Roofing installs the new cover to manufacturer specification, documents the work with timestamped photographs, and issues a written workmanship warranty on the labor.** Installing to manufacturer specification preserves the material warranty that covers factory defects, separate from the workmanship warranty that backs the labor, per Owens Corning warranty guidance. A crew runs a magnet sweep for nails at cleanup, and the photo record supports a homeowner\'s file or an insurance claim.',
   ],
   faqs: [
     {
-      question: 'How do I know when my aging Montclair roof needs replacement?',
-      answer: 'Key indicators include widespread granule loss visible in gutters and downspout discharge, shingles that crack or break when flexed, curling at tab edges, visible daylight through the roof deck in the attic, and multiple repair patches from recent years. A professional assessment provides a remaining-life estimate based on material condition testing rather than age alone -- some twenty-year-old roofs need immediate replacement while others have five to ten years of remaining service.'
+      question: 'Should I repair or replace my aging Montclair roof?',
+      answer:
+        'Replace an aging roof when it passes its material lifespan, carries 3 or more repairs in 2 years, or shows widespread granule loss, curling, and a spongy deck. Repair an asphalt roof while it stays under 10 to 15 years old. The age rule and the 3-repairs rule are contractor-consensus thresholds, and a localized repair stays economical only while the roof holds, per the repair-vs-replace guidance attributed to Kellow, Modernize, and Josten. A Newark Quality Roofing assessment rates the roof against its InterNACHI material lifespan first.',
     },
     {
-      question: 'Should I replace my aging roof before selling my Montclair home?',
-      answer: 'A new roof is one of the highest-ROI pre-sale investments for Montclair homes. Buyers in the township\'s price range expect quality roofing and will use an aging roof as a negotiation point that typically exceeds the actual replacement cost. A documented recent installation with transferable warranty removes a major inspection contingency and supports the asking price. The investment typically returns one hundred to one hundred fifty percent of cost through improved sale price and faster sale timeline.'
+      question: 'How long does each roofing material last before replacement on a Montclair home?',
+      answer:
+        '3-tab asphalt lasts 20 years, architectural asphalt 30 years, wood and cedar 25 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart. On Montclair\'s large period Victorians and Tudors the slate outlasts the corroded fasteners and degraded valley and chimney flashing that end the roof\'s service life first, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA.',
     },
     {
-      question: 'Can I wait another year to replace my aging Montclair roof?',
-      answer: 'Possibly, depending on current condition. Our assessment provides an honest remaining-life estimate. Waiting an additional year is reasonable when the roof shows even aging without active failures. Waiting becomes risky when the roof has areas of advanced deterioration, when recent repair frequency is increasing, or when the existing underlayment has reached its own end of life. The cost of one more year of service must be weighed against the risk of leak damage that would make the eventual replacement more expensive.'
+      question: 'Do I need a permit to replace an aging roof in Montclair, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Montclair counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit through the Township of Montclair Building Office once roof work exceeds 25% of the roof area in 12 months, and the recover-versus-tear-off limits follow the NJ Rehabilitation Subcode, per N.J.A.C. 5:23-6.4. Roughly 54% of Montclair units sit in multi-unit structures, per the U.S. Census Bureau, so much of the township\'s commercial and two- and three-family stock takes the permit-required path.',
+    },
+    {
+      question: 'Does an aging-roof replacement on a Montclair historic-district home need extra approval?',
+      answer:
+        'Appearance-changing exterior roofing on a property in one of Montclair\'s four locally designated historic districts, or on a local landmark, requires a Certificate of Appropriateness from the Montclair Historic Preservation Commission under Article XXIII of Chapter 347, section 347-136. The four locally designated districts are Town Center, Upper Montclair Business, Pine Street, and Watchung Plaza. In-kind maintenance or repair with no change in design, scale, or appearance does not require one, and the Estate Section is nominated but not locally designated. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner. A Certificate of Appropriateness, where it applies, is a separate approval from the building permit.',
     },
     {
       question: 'How much does aging roof replacement cost in Montclair, NJ?',
-      answer: 'Most aging roof replacement projects in Montclair range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Aging roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data. Final cost depends on roof size, pitch, material, and access, and Montclair\'s large slate-roofed Victorians and steep complex slopes raise the install figure above the asphalt range. A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per Zillow analysis. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Aging roof replacement in Montclair NJ -- planned replacement with premium materials before leaks and damage drive emergency costs.',
+  metaDescription:
+    'Aging roof replacement in Montclair NJ — full tear-off of end-of-life asphalt, slate, metal, and membrane roofs on pre-war homes. NJ-registered, free estimate.',
   pricing: {
-    range: '$8,500–$25,000',
-    note: 'replacing end-of-life roofing',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Montclair\'s architecturally diverse Victorian, Tudor, and Colonial Revival homes and Bloomfield Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free aging roof replacement estimate in Montclair — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for aging roof replacement in Montclair.',
+    urgencyNote: 'Replacing a roof at the end of its service life limits interior and structural water damage.',
   },
 };

@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'cedar-grove',
+  directAnswer:
+    `**Newark Quality Roofing is a roofing contractor applying silicone elastomeric roof coating across Cedar Grove, New Jersey, and Essex County, matching the chemistry to a Pompton Avenue storefront or postwar-home low-slope roof** as a registered New Jersey Home Improvement Contractor.`,
+  definition:
+    '**Silicone elastomeric roof coating** is a liquid-applied membrane that stretches and recovers to accommodate the daily thermal movement of a low-slope roof, sealing it under one monolithic surface. The chemistry — silicone, acrylic, or polyurethane — is matched to the roof\'s ponding, dirt-pickup, and movement conditions.',
   overview: [
-    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Cedar Grove — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating provides Cedar Grove commercial building owners with a flexible, self-healing waterproof barrier that stretches and recovers through the thermal cycling northern Essex County subjects roofing materials to year after year. Unlike rigid coating systems that crack under thermal stress, elastomeric formulations elongate up to three hundred percent without losing adhesion or waterproof integrity -- a performance characteristic specifically matched to Cedar Grove\'s temperature range from sub-zero winter nights to hundred-degree summer afternoons.',
-    'The elastomeric properties of this coating system make it particularly effective for Cedar Grove commercial roofs exhibiting thermal-movement cracking in their existing membrane or coating surfaces. As buildings along Route 23 and Pompton Avenue age, their roof membranes develop stress cracks at seam edges, flashing terminations, and equipment curb details where thermal contraction concentrates force. Our [silicone elastomeric roof coating](/silicone-elastomeric-roof-coating) bridges these cracks and flexes with subsequent thermal movement, restoring waterproof continuity without the cost and disruption of membrane replacement.',
-    'Cedar Grove properties that have received previous acrylic or urethane roof coatings often find that those products have cracked, peeled, or delaminated after a few northern Essex County winters. Silicone elastomeric coating outperforms these alternatives in cold-weather flexibility, UV stability, and ponding water tolerance, making it the appropriate upgrade for Cedar Grove buildings where previous coating attempts have failed to deliver the promised service life.',
+    `**Newark Quality Roofing applies silicone elastomeric roof coating** on the low-slope membranes of Cedar Grove's **Pompton Avenue / Route 23 storefronts** and the flat sections of its **postwar ranch and split-level homes**, matching the coating chemistry to the roof.`,
+    `**Silicone elastomeric roof coating** is a liquid-applied membrane that stretches and recovers to accommodate the daily thermal movement of a low-slope roof, the property that separates an elastomeric coating from a rigid film. The RCMA recognizes 3 liquid-applied elastomeric chemistries — silicone under ASTM D6694, acrylic under ASTM D6083, and polyurethane under ASTM D6947 — per the RCMA.`,
+    `**Pompton Avenue / Route 23 storefronts** carry the EPDM, TPO, and modified-bitumen low-slope membranes that suit a restorative coating, where a weathered but structurally sound membrane is recoated rather than torn off at a fraction of tear-off cost and avoids landfill, per the RCMA. A Newark Quality Roofing scope cleans the membrane, repairs and reinforces the seams, splits, and flashing, then applies the field coat.`,
+    `**Postwar ranch and split-level homes** carry their coating angle on flat porch, garage, and addition sections, where a recoat of the roof covering on a detached one- or two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. A coating selection there matches silicone to a ponding section and acrylic to a draining, dust-prone one.`,
   ],
   challenges: [
-    'Adhesion over previously coated surfaces requires careful compatibility assessment and surface preparation. Cedar Grove commercial roofs that have received acrylic, urethane, or aluminum-based coatings present adhesion challenges for silicone elastomeric systems because residual coating material may not provide a stable bonding substrate. Complete removal of failing previous coatings or application of bonding primer specifically formulated for over-coating situations is essential for long-term adhesion in Cedar Grove\'s demanding climate.',
-    'Film thickness management during spray application must account for the elastomeric coating\'s self-leveling tendency on horizontal surfaces. The material naturally flows from high points to low points under gravity, potentially creating thin coverage on ridges and thick accumulation in depressions. Cedar Grove commercial roofs with significant surface irregularities require multiple light passes rather than single heavy application to maintain consistent protective thickness across the entire surface.',
-    'Foot traffic and maintenance activity on Cedar Grove commercial roofs can damage freshly applied elastomeric coating during the cure period, which extends to seventy-two hours under the humid conditions northern Essex County frequently produces. Coordinating coating application with building maintenance schedules to prevent rooftop access during the cure window requires advance planning with building managers and HVAC service contractors.',
+    `**Chemistry selection** is the defining elastomeric-coating decision on a Cedar Grove low-slope roof: silicone over acrylic when ponding is present, acrylic over silicone when dirt-pickup and recoatability matter, per the RCMA, Western Colloid, Henry, and Mule-Hide.`,
+    `**Ponding water** lingers on the flatter Pompton Avenue storefront roofs, where ponding held more than 48 hours counts as a defect and a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. A 100% silicone coating resists permanent standing water without softening while a water-based acrylic re-emulsifies, per the RCMA, Gaco, and GE/Momentive.`,
+    `**Tree-canopy and reservation-edge debris** loads Cedar Grove low-slope roofs near the Mills and Hilltop reservation edges and under the township's mature street canopy, dropping leaf and needle litter that holds moisture and soils the coating surface. A Newark Quality Roofing scope clears the debris and cleans the membrane fully before any coat, because a primer is no substitute for thorough cleaning, per the RCMA, Gaco, and Henry.`,
+    `**Previously coated surfaces** complicate adhesion on Cedar Grove roofs that carry aged acrylic, urethane, or aluminum coatings, because a cured silicone coating is recoated only with silicone and switching away from silicone generally requires removal first, per Gaco and the RCMA. A Newark Quality Roofing crew verifies adhesion before full application, and aged asphalt may take an epoxy primer to stop bleed-through, per Gaco.`,
   ],
   process: [
-    'Silicone elastomeric coating projects in Cedar Grove begin with a detailed roof condition survey including adhesion pull tests on the existing surface, moisture scanning to identify saturated insulation zones, and documentation of all areas requiring pre-coating repair. The survey determines coating system compatibility with the existing roof surface and identifies any remediation required before coating application begins.',
-    'Pre-coating repairs address all membrane deficiencies that the elastomeric coating cannot bridge. Seam separations exceeding one-quarter inch are re-bonded with compatible adhesive. Flashing details are resecured and sealed. Equipment curb transitions are reinforced with fabric-reinforced coating at stress concentration points. These repairs establish a sound substrate that the elastomeric coating can encapsulate for long-term performance.',
-    'Coating application uses airless spray equipment calibrated for the specific elastomeric product viscosity and the Cedar Grove ambient temperature conditions. Two coats are applied at right angles to each other, with the first coat achieving initial encapsulation and crack bridging and the second coat building the reflective UV barrier to full thickness. Fabric reinforcement is embedded in the coating at all seam locations, penetration details, and areas of concentrated thermal movement. Final thickness verification confirms compliance with manufacturer specifications for warranty qualification.',
+    `**Newark Quality Roofing assesses the membrane, the ponding pattern, and the dirt-pickup exposure, then selects the chemistry from the roof condition** before any coating reaches a Cedar Grove roof. A crew picks silicone for a ponding roof and acrylic for a draining one, per the RCMA, Western Colloid, and Mule-Hide.`,
+    `**Newark Quality Roofing cleans the membrane, repairs and reinforces the details, then verifies adhesion** before the field coat. A crew removes debris and carefully pressure-washes the roof, lets the surface dry fully, and repairs and reinforces the seams, splits, and flashing the elastomeric film stretches across, because the cured film reaches 220–279% elongation per the Acrymax and Simiron datasheet values under ASTM D2370 and ASTM D412, per the RCMA, Gaco, and Henry.`,
+    `**Newark Quality Roofing applies the field coat to the dry-film thickness that sets the warranty length**, with a high-solids silicone near 90% solids often covering in one coat and a lower-solids acrylic near 50–60% solids usually needing two coats, per Gaco, Henry, and Mule-Hide. A lead verifies the cured film and dry-film thickness, then registers the renewable warranty on the 10/15/20-year scale that lengthens with thickness, the coating a maintained roof recoats again rather than replaces, per the RCMA.`,
   ],
   faqs: [
     {
-      question: 'What makes elastomeric coating different from standard silicone coating?',
-      answer: 'Elastomeric silicone coating contains higher molecular weight polymers that provide greater elongation -- up to three hundred percent stretch compared to one hundred fifty percent for standard silicone. This enhanced flexibility allows the coating to bridge and seal thermal-movement cracks that standard coatings cannot accommodate. For Cedar Grove commercial roofs with existing stress cracking, the elastomeric formulation provides self-healing capability as cracks open and close with temperature changes.',
+      question: 'Should I choose a silicone or an acrylic elastomeric coating in Cedar Grove?',
+      answer:
+        'Choose silicone over acrylic when ponding or standing water is present, and acrylic over silicone when dirt-pickup and recoatability matter. Silicone resists permanent immersion while acrylic re-emulsifies under standing water, and acrylic re-washes cleaner with rainfall while silicone holds dirt and loses reflectance faster, per the RCMA, Western Colloid, Henry, and Mule-Hide. The flatter Pompton Avenue storefront roofs that pond point toward silicone.',
     },
     {
-      question: 'How long does silicone elastomeric coating last in Cedar Grove?',
-      answer: 'Properly applied silicone elastomeric coating lasts twelve to eighteen years before recoating is needed on Cedar Grove commercial buildings. The elastomeric formulation maintains its flexibility throughout this period, continuing to bridge thermal-movement cracks and maintain waterproof integrity through northern Essex County\'s temperature extremes. Recoating requires only surface cleaning and a single new coat -- no removal of the existing coating.',
+      question: 'How long does a silicone elastomeric coating last before recoating in Cedar Grove?',
+      answer:
+        'A silicone elastomeric coating renews on a cycle of roughly 15–20 years and an acrylic on roughly 10–15 years, with the warranty scaling on a 10/15/20-year scale that lengthens with dry-film thickness, per the RCMA, Henry, and Mule-Hide. A cured silicone coating recoats only with silicone, because switching away from silicone generally requires removal first, per Gaco and the RCMA.',
     },
     {
-      question: 'Can elastomeric coating save my Cedar Grove flat roof from replacement?',
-      answer: 'If the existing roof structure and insulation are in good condition and the membrane failure is limited to surface cracking, seam separation, and weathering, elastomeric coating can restore waterproof integrity and add twelve to eighteen years of service life at thirty to forty percent of replacement cost. However, if the insulation is saturated or the membrane has widespread adhesion failure, coating is not appropriate and replacement should be planned.',
+      question: 'Can an elastomeric coating save my Cedar Grove flat roof from replacement?',
+      answer:
+        'A maintained, structurally sound low-slope roof without widespread saturation is recoated at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA, and a recoated roof recoats again. Replace the roof instead when saturation spreads or the membrane fails across more than 25–30% of the area. A Newark Quality Roofing assessment maps the ponding and moisture before recommending a coat.',
     },
     {
-      question: 'Will elastomeric coating work over my existing acrylic coating in Cedar Grove?',
-      answer: 'Silicone elastomeric can be applied over existing acrylic coating if the acrylic is well-adhered to the substrate. Areas where the acrylic has peeled, cracked, or delaminated must be removed and primed before the silicone elastomeric is applied. We perform adhesion testing on every Cedar Grove project to verify compatibility and prepare the surface for reliable long-term bonding of the new coating system.',
+      question: 'Do I need a permit for an elastomeric roof coating in Cedar Grove, NJ?',
+      answer:
+        'A recoat of the roof covering on a detached one- or two-family home in Cedar Grove counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, where much of the Pompton Avenue / Route 23 storefront work falls.',
     },
     {
-      question: 'How much does silicone elastomeric roof coating cost in Cedar Grove, NJ?',
-      answer: 'Most silicone elastomeric roof coating projects in Cedar Grove range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does a historic district in Cedar Grove restrict an elastomeric roof coating?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner or storefront coating in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
+    },
+    {
+      question: 'How much does a silicone elastomeric roof coating cost in Cedar Grove, NJ?',
+      answer:
+        'A silicone elastomeric roof coating restores a low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA, and Newark Quality Roofing sets the scope and price in a free written estimate. Coating cost tracks roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs.',
     },
   ],
-  metaDescription: 'Silicone elastomeric roof coating in Cedar Grove NJ -- flexible, self-healing waterproof coating for commercial flat roofs with 300% elongation.',
+  metaDescription:
+    'Silicone elastomeric roof coating in Cedar Grove NJ — silicone-vs-acrylic chemistry matched to Pompton Avenue storefront and home low-slope roofs. Free quote.',
   pricing: {
-    range: '$3–$7/sq ft',
-    note: 'reflective coating application',
+    range: 'Free written estimate — a fraction of tear-off and replacement cost',
+    note: 'A maintained elastomeric coating recoats a sound low-slope roof at a fraction of tear-off and replacement cost, per the RCMA; final cost tracks roof size, chemistry, dry-film thickness, and prep. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for silicone elastomeric roof coating in Cedar Grove.',
+    urgencyNote: 'Recoating a sound low-slope roof early restores the waterproof surface before water reaches the deck and insulation.',
   },
 };

@@ -3,57 +3,72 @@ import type { ComboContent } from '../schema';
 export const westOrangeChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'west-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing chimney flashing repair across West Orange, New Jersey, and Essex County, rebuilding the two-part base-and-counter flashing that seals masonry chimneys** on the township\'s capes, ranches, Colonials, hillside Tudors, and Llewellyn Park estate homes, as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
-    'Newark Quality Roofing delivers expert chimney flashing repair in West Orange — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair addresses one of the most persistent leak sources on West Orange homes, where the intersection of masonry chimney and roofing surface creates a complex waterproofing challenge amplified by the township\'s elevation-driven weather stresses. Our [chimney flashing repair](/chimney-flashing-repair) work in West Orange treats the full chimney-to-roof junction as an integrated system -- step flashing, counter-flashing, cricket diverters, and sealant connections working together to keep water outside the building envelope.',
-    'West Orange\'s older housing stock carries chimneys that have weathered 50 to 100 years of Essex County storms, with original mortar joints and flashing details that have deteriorated well beyond their intended service life. Step flashing embedded in crumbling mortar loses its seal as joints erode; counter-flashing pulled away from deteriorating masonry creates gaps that channel water directly into the wall cavity. Repairing these aged chimney flashings requires addressing both the metal flashing and the masonry condition simultaneously, because new flashing installed into failing mortar will fail just as quickly as the original.',
-    'Ridge-top homes along Eagle Rock Avenue experience amplified chimney flashing stress from sustained wind that drives rain horizontally into gaps that gravity drainage cannot reach. The upslope face of chimneys on windward-facing roof planes absorbs direct wind-driven rain pressure that forces water behind standard flashing details. Our ridge-top chimney repairs include enhanced cricket diverters and extended counter-flashing coverage that account for this horizontal rain vector unique to West Orange\'s exposed elevations. Homeowners near [Cedar Grove](/chimney-flashing-repair-cedar-grove-nj) face similar ridge-top chimney exposure along the northern Watchung corridor.',
-    'The mid-slope split-level neighborhoods present a distinctive chimney flashing scenario: chimneys located at the level-change wall where upper and lower roof sections intersect. These chimneys sit in the most complex waterproofing zone on any [West Orange](/roofing-in-west-orange-nj) split-level, where chimney flashing must integrate with step flashing at the level change, valley flashing where roof planes converge, and the chimney cricket that diverts water around the upslope face.'
+    '**Newark Quality Roofing rebuilds chimney flashing** across West Orange\'s wide stock, from valley capes, ranches, and Colonials in Pleasantdale and Gregory up through the hillside Tudors and Llewellyn Park estate homes on the First Watchung ridge. A chimney flashing repair reseals the roof\'s largest penetration, where the apron, sidewall step, and upslope transitions each shed water.',
+    '**Chimney flashing** fails first because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing details and only 5 to 10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing repair traces the failed transition before resealing, starting at the chimney because it is the roof\'s largest and most leak-prone penetration.',
+    '**The two-part system** the NRCA specifies pairs base and step flashing woven one piece per shingle course with a separate counter flashing set into a reglet cut in a mortar joint, so a Newark Quality Roofing repair restores both layers rather than smearing caulk over the symptom. A continuous one-piece metal strip at the chimney sidewall marks a defective installation, per InterNACHI and shingle-manufacturer guidance.',
+    '**Slate and copper** detail the hillside Tudors and Llewellyn Park estates, where natural slate lasts 60 to 150 years per the InterNACHI life-expectancy chart and the chimney transitions take new copper or stainless flashing matched to the original roof. The Main Street, Valley Road, and Route 280 commercial spine carries low-slope EPDM, TPO, and modified-bitumen roofs whose chimney and chase transitions a Newark Quality Roofing crew reseals into the membrane.',
   ],
   challenges: [
-    'Mortar joint deterioration in West Orange\'s older chimneys undermines counter-flashing embedment that the waterproofing system depends on. Counter-flashing relies on a reglet-cut groove in the mortar joint for mechanical attachment and sealant adhesion. When mortar crumbles, the groove widens, sealant loses adhesion, and water bypasses the flashing entirely. Effective chimney flashing repair in West Orange frequently requires tuckpointing the surrounding masonry before installing new counter-flashing, adding masonry restoration to what appears initially to be a simple flashing job.',
-    'Freeze-thaw cycling at chimney-to-roof transitions creates seasonal movement that works flashing connections loose over repeated winter cycles. The masonry chimney and wood-framed roof structure expand and contract at different rates through temperature cycling, stressing the flashing connection between them. This differential movement is amplified at West Orange\'s higher elevations where temperature extremes are more severe. Two-piece flashing systems that allow movement between the wall-embedded counter-flashing and the roof-integrated step flashing accommodate this cycling without losing waterproof integrity.',
-    'Chimney cricket construction or repair adds complexity to upslope chimney flashing on West Orange homes where chimneys exceed 30 inches in width. Without a cricket, snow and debris accumulate against the upslope chimney face, creating standing water and ice dam conditions directly at the most leak-prone junction on the roof. Building code requires crickets on chimneys exceeding 30 inches, but many older West Orange homes were built before this requirement and lack crickets entirely. Adding a cricket during chimney flashing repair requires framing, sheathing, and flashing a small secondary roof structure -- a significant addition to the scope of work.'
+    '**Masonry deterioration** undermines the counter flashing that the waterproofing depends on across West Orange\'s aged ridge-side chimneys, because the cap locks into a reglet cut in a sound mortar joint and a crumbling joint loses that mechanical grip. A Newark Quality Roofing repair cuts a clean reglet into sound masonry rather than relying on adhesive the freeze-thaw cracks.',
+    '**Freeze-thaw cycling** works chimney flashing loose over repeated winters, because West Orange crosses 32 degrees Fahrenheit repeatedly through the season and masonry-versus-roof differential movement stresses the connection. Caulk or roofing cement alone over no underlying metal cracks within a few years from that movement and freeze-thaw, per IIBEC, so a Newark Quality Roofing repair rebuilds the two-part metal system the sealant was hiding.',
+    '**Reservation-edge debris** off South Mountain and Eagle Rock collects on the upslope chimney face on shaded St. Cloud and ridge slopes, damming meltwater and ice against the masonry where a chimney measures wider than 30 inches parallel to the ridge. IRC Section R1003.20 requires a cricket there to divert water, ice, and snow, and many older West Orange chimneys predate that requirement.',
   ],
   process: [
-    'Chimney flashing assessment examines both the flashing system and the masonry condition it depends on. We probe mortar joints for soundness, test counter-flashing adhesion, evaluate step flashing integration with surrounding shingles, and check cricket condition and drainage function on the upslope face. This dual assessment prevents the common mistake of replacing flashing without addressing the masonry deterioration that caused the previous flashing to fail.',
-    'Flashing removal proceeds carefully to avoid damaging salvageable masonry and surrounding roofing materials. We remove counter-flashing from reglet grooves, extract step flashing from beneath shingle courses, and disassemble cricket components when present. Exposed masonry receives tuckpointing with portland-lime mortar matched to the existing joint profile. New reglet grooves are cut into sound mortar joints at the correct height and depth to receive counter-flashing embedment.',
-    'New flashing installation begins with step flashing woven between shingle courses from the base of the chimney upward, with ice-and-water shield membrane extending behind the flashing for secondary protection. Counter-flashing installs into reglet grooves with lead or aluminum wedges and high-performance polyurethane sealant. The cricket receives its own flashing system -- step flashing up each side, valley flashing at the cricket-to-main-roof transition, and cap flashing at the cricket ridge. Every joint receives sealant, and the completed system is water-tested before final documentation.'
+    '**Newark Quality Roofing inspects all four chimney transitions** (the downslope apron, the two sidewall step runs, and the upslope head or cricket) and traces the entry point before resealing, because the chimney is the roof\'s most leak-prone penetration. A continuous one-piece strip at the sidewall flags a defective original installation, per InterNACHI, so the repair identifies the failed transition rather than the visible drip.',
+    '**Newark Quality Roofing rebuilds the NRCA two-part flashing system**, weaving base and step flashing one piece per shingle course and setting a separate counter flashing into a reglet cut in a mortar joint that locks the metal into the masonry. A crew applies a self-adhering ice-and-water membrane at the chimney base that self-seals around fasteners, per ASTM D1970, and builds a cricket where the chimney exceeds 30 inches parallel to the ridge, per IRC Section R1003.20.',
+    '**Newark Quality Roofing verifies and documents** watertight execution at every chimney transition, runs a magnet sweep for nails at cleanup, and records the rebuilt flashing with photographs for the owner and any insurance claim. A written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects.',
   ],
   faqs: [
     {
-      question: 'Why does my chimney leak every time it rains hard?',
-      answer: 'Heavy rain exposes flashing failures that light rain does not reveal. The increased water volume overwhelms deteriorated sealant, fills gaps behind counter-flashing, and backs up behind step flashing that would shed lighter rainfall without issue. The most common causes are deteriorated mortar joints allowing water behind counter-flashing, missing or damaged cricket on the upslope face, and step flashing that has lifted away from the roof surface. Our assessment identifies the specific failure point and repairs the complete chimney flashing system to handle heavy rain conditions.'
+      question: 'Why does chimney flashing leak more than the rest of the roof in West Orange?',
+      answer:
+        'The chimney is the roof\'s largest penetration, and the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA. The chimney needs the apron, sidewall step, and upslope transitions all sealed, so a single failed counter flashing or cracked caulk joint on a West Orange home admits water into the chase.',
     },
     {
-      question: 'Do I need to replace my chimney flashing when I get a new roof?',
-      answer: 'Yes. Chimney flashing must be removed and reinstalled during roof replacement because step flashing weaves between shingle courses that are being replaced. Reusing old step flashing during a new roof installation creates immediate leak risk at a junction that should be waterproof for the full life of the new roof. The cost of new chimney flashing during roof replacement is modest compared to the expense of a callback repair and interior water damage within the first year.'
+      question: 'Is caulk a permanent fix for chimney flashing?',
+      answer:
+        'Caulk or roofing cement alone over no underlying metal is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and West Orange freeze-thaw stress the sealant. A permanent repair rebuilds the NRCA two-part system: base and step flashing woven one piece per shingle course plus counter flashing set into a reglet cut in the mortar joint.',
     },
     {
-      question: 'What is a chimney cricket and does my West Orange home need one?',
-      answer: 'A chimney cricket is a small peaked structure built on the upslope side of the chimney to divert water and debris around the chimney rather than allowing it to accumulate against the masonry face. Building code requires crickets on chimneys wider than 30 inches. Many older West Orange homes lack crickets because they were built before this code requirement. If your chimney is wider than 30 inches and lacks a cricket, adding one during flashing repair or roof replacement significantly reduces the leak risk and ice dam potential on the upslope chimney face.'
+      question: 'Does my West Orange home need a cricket behind the chimney?',
+      answer:
+        'A cricket, or saddle, is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20. The cricket diverts water, ice, and reservation-edge debris around the chimney instead of letting the upslope face dam meltwater against the masonry, and many older West Orange chimneys predate the requirement.',
     },
     {
-      question: 'How much does chimney flashing repair cost in West Orange?',
-      answer: 'Chimney flashing repair costs vary based on chimney size, masonry condition, and cricket requirements. Basic step and counter-flashing replacement on a standard single-flue chimney with sound masonry is a moderate repair. Adding cricket construction, masonry tuckpointing, or custom copper flashing increases the scope and cost proportionally. We provide detailed estimates that break out each component, so you understand exactly what work is included and why each element contributes to a lasting repair.'
+      question: 'How is chimney flashing repaired on a slate or Llewellyn Park estate roof?',
+      answer:
+        'A Newark Quality Roofing repair fabricates new copper or stainless flashing matched to the original roof and sets the counter flashing into a clean reglet cut in the mortar joint, per the NRCA two-part chimney flashing standard. Natural slate lasts 60 to 150 years per the InterNACHI life-expectancy chart, so the repair preserves the original field while rebuilding the chimney transition where water concentrates on a hillside Tudor or Llewellyn Park estate home.',
+    },
+    {
+      question: 'Does chimney flashing repair on a West Orange historic landmark need extra approval?',
+      answer:
+        'Exterior roofing work on one of West Orange\'s roughly ten locally designated historic landmarks requires a Certificate of Appropriateness from the West Orange Historic Preservation Commission under Section 25-30 before a construction permit issues. The Certificate of Appropriateness covers landmarks such as Holy Trinity Episcopal Church, the State Diner, and the Hedges Block, and applies only to locally designated landmarks, not township-wide, so a typical West Orange chimney repair faces no historic review. Llewellyn Park homeowners answer to a private 1857 deed covenant rather than a township Certificate of Appropriateness, and per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
       question: 'How much does chimney flashing repair cost in West Orange, NJ?',
-      answer: 'Most chimney flashing repair projects in West Orange range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Chimney flashing repair costs $300–$1,800, with most repairs $400–$1,600 and a spot reseal $150–$300, per HomeGuide and Angi cost data. The two-part rebuild, the chimney width, and whether a cricket is required set the cost. Final cost depends on chimney size, masonry condition, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Chimney flashing repair in West Orange NJ. Step flashing, counter-flashing, and cricket installation for leak-free chimney junctions.',
+  metaDescription:
+    'Chimney flashing repair in West Orange NJ — NRCA base, step, and counter flashing on capes, Tudors, and Llewellyn Park estates. NJ-registered, free estimate.',
   pricing: {
-    range: '$400–$1,500',
-    note: 'chimney flashing and counter-flashing',
+    range: '$300–$1,800',
+    note: 'Chimney flashing repair runs $300–$1,800 (most $400–$1,600, spot reseal $150–$300) per HomeGuide and Angi; final cost depends on chimney size, masonry condition, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with West Orange\'s wide stock, from valley capes and ranches up through hillside Tudors and Llewellyn Park estate homes.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free chimney flashing repair estimate in West Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for chimney flashing repair in West Orange.',
+    urgencyNote: 'Addressing a chimney flashing leak early limits interior and structural water damage.',
   },
 };

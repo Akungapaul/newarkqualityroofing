@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing flat roof replacement across Cedar Grove, New Jersey, and Essex County, stripping a failed EPDM, TPO, or modified-bitumen membrane on Pompton Avenue storefronts and residential low-slope sections** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Flat roof replacement** strips a failed membrane from a flat or low-slope roof to the deck, repairs the substrate, and installs a new single-ply or modified-bitumen system. It rebuilds a water-shedding surface engineered for minimal slope.',
   overview: [
-    'Newark Quality Roofing delivers expert flat roof replacement in Cedar Grove — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Cedar Grove renews the membrane, insulation, and drainage systems on the township\'s commercial buildings and residential low-slope sections with modern materials engineered for northern Essex County\'s demanding weather conditions. Whether replacing an aging EPDM membrane on a Pompton Avenue office, a deteriorated modified bitumen system on a Route 23 retail building, or a failed built-up roof on a ranch home addition, our [flat roof replacement](/flat-roof-replacement) projects deliver warranted waterproof protection with corrected drainage and upgraded thermal performance.',
-    'Cedar Grove\'s flat roof replacement projects consistently reveal that drainage deficiency was the primary factor shortening the previous roof\'s service life. Standing water on flat roofs with inadequate slope accelerates membrane deterioration, saturates insulation, and creates concentrated load conditions that the roof structure was not designed to carry. Our replacements incorporate tapered insulation systems that create positive drainage to every outlet, eliminating the ponding conditions that would shorten the new membrane\'s service life just as they shortened the old one\'s.',
-    'The thermal upgrade opportunity during flat roof replacement is substantial for Cedar Grove commercial buildings with outdated insulation. Adding tapered polyiso insulation to achieve current energy code R-values can reduce heating and cooling costs by fifteen to twenty-five percent -- an ongoing savings that partially offsets the replacement investment and continues throughout the new roof\'s twenty to thirty-year service life.',
+    '**Newark Quality Roofing replaces flat and low-slope roofs across Cedar Grove**, installing EPDM rubber, TPO, PVC, and modified-bitumen membrane systems on the Pompton Avenue storefronts and on the flat sections and additions over the township\'s postwar ranches and split-levels.',
+    '**Flat roof replacement** strips the existing membrane to the deck, repairs the substrate, and installs a new single-ply or modified-bitumen system, the work that ends recurring membrane leaks rather than patching a single seam. A flat roof needs at least ¼ inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing replacement corrects the slope as part of the install.',
+    '**EPDM, TPO, PVC, and modified-bitumen** membranes carry different service lives, so the membrane gets matched to the building and the Essex County climate before tear-off. EPDM lasts 15 to 25 years, TPO 7 to 20 years on the InterNACHI chart and commonly 15 to 25 years in practice, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, while PVC single-ply lasts 20 to 30 years, per the Single Ply Roofing Industry.',
+    '**The Pompton Avenue / Route 23 corridor** carries Cedar Grove\'s strip retail, offices, and auto and service buildings on low-slope decks, the natural home for a commercial membrane replacement, while the township\'s postwar ranches and split-levels carry flat sections and additions that tie back into the adjacent sloped roof.',
   ],
   challenges: [
-    'Insulation moisture assessment before replacement determines whether the existing insulation can remain in place or must be removed. Wet insulation beneath a new membrane traps moisture that causes blistering, adhesion failure, and mold growth. Cedar Grove\'s commercial buildings with chronic leak histories typically require full insulation removal and replacement, while buildings with isolated or recent leak events may retain dry insulation sections with only the wet zones replaced.',
-    'Drain system evaluation and upgrade during replacement addresses the undersized or improperly positioned drains that contributed to the previous roof\'s premature failure. Cedar Grove commercial buildings from the 1960s and 1970s often feature drains that are too small, too few, or poorly positioned relative to the roof\'s low points. Adding drains, upgrading drain bodies, and repositioning outlets during replacement is far more cost-effective than modifying the drainage system after the new membrane is installed.',
-    'Business continuity during flat roof replacement on occupied Cedar Grove commercial buildings requires phased construction that maintains waterproof protection at all times. We never leave exposed insulation or deck overnight without temporary membrane protection, ensuring that an unexpected rain event cannot cause interior damage during the replacement process.',
+    '**Deteriorated decking discovered at tear-off** drives the first Cedar Grove flat-roof challenge, because stripping a ponded membrane to the deck exposes water-soaked substrate that a surface inspection misses on the township\'s older stock and the Pompton Avenue storefronts. A Newark Quality Roofing assessment scans for moisture and cores the membrane before quoting.',
+    '**Slope correction** addresses the standing water that shortened the previous membrane\'s service life, because a flat roof needs at least ¼ inch per foot of slope to drain and ponding water held more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing install adds tapered insulation where the deck ponds so the new membrane drains rather than ponds.',
+    '**Reservation-edge and street-canopy debris** load Cedar Grove low-slope roofs near the Mills Reservation and Hilltop Reservation edges, where leaf and needle shed collects at drains, scuppers, and parapet transitions and backs water across the membrane. A Newark Quality Roofing replacement rebuilds flashing at the parapets and penetrations where that debris traps moisture.',
+    '**Mandatory tear-off on a deteriorated deck** governs the scope under the NJ Rehabilitation Subcode, because N.J.A.C. 5:23-6.4 requires complete removal of the existing covering, with no recover-over, when the deck is water-soaked or the roof already carries 2 or more layers. A Newark Quality Roofing crew strips to the bare deck and replaces the rotted substrate before the new membrane.',
   ],
   process: [
-    'Flat roof replacement begins with existing system assessment including moisture scanning, core cuts, and drain flow evaluation. We map wet insulation zones for removal, evaluate deck condition, and design the tapered insulation layout that will direct water to properly sized and positioned drains. The scope drawing specifies every component of the replacement assembly before tear-off begins.',
-    'Tear-off removes the existing membrane, wet insulation, and any deteriorated deck components. The exposed deck is inspected, repaired where needed, and prepared for new insulation. Tapered polyiso boards are installed to create the designed drainage pattern, with crickets directing water around equipment curbs and toward drain locations. The membrane -- TPO, PVC, or EPDM per the building owner\'s specification -- is installed with fully adhered application and heat-welded or taped seams.',
-    'Completion includes new drain assemblies with oversized strainers, secondary overflow scuppers, metal edge terminations, and all equipment curb and penetration flashings. The installation is inspected by the membrane manufacturer\'s technical representative for warranty qualification. The building owner receives the warranty package, maintenance manual, and a recommended inspection schedule specific to Cedar Grove\'s climate and debris conditions.',
+    '**Newark Quality Roofing inspects the deck, the drainage, and the membrane condition before quoting the replacement, marking the low spots where ponding water remains more than 48 hours.** A flat roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA, so the assessment identifies the failed drainage and the substrate rot before the membrane selection, and on a Pompton Avenue commercial roof the scope confirms whether the work crosses the 25% permit threshold.',
+    '**Newark Quality Roofing matches the new membrane to the building and the Essex County climate from 4 systems: EPDM rubber, TPO, PVC, and modified bitumen.** EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, while PVC single-ply lasts 20 to 30 years, per the Single Ply Roofing Industry. A white TPO or PVC membrane reflects solar heat as a cool roof, with reflectance near 0.70 to 0.85 measured per ASTM C1549 and listed by the CRRC.',
+    '**Newark Quality Roofing strips the failed membrane to the deck, repairs the substrate, corrects the slope to drain, and installs the new membrane to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** N.J.A.C. 5:23-6.4 requires complete removal when the deck is water-soaked or the roof carries 2 or more layers, per the NJ Rehabilitation Subcode, and installing to manufacturer specification preserves the material warranty covering factory defects, separate from the written workmanship warranty backing the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How long does flat roof replacement take on a Cedar Grove building?',
-      answer: 'Flat roof replacement on a typical Cedar Grove commercial building under five thousand square feet takes one to two weeks. Larger buildings take proportionally longer. Phased construction maintains waterproof protection throughout, so the building remains operational during the entire project. Weather delays may extend the calendar timeline, but interior protection is maintained regardless.',
+      question: 'Do you need a permit for flat roof replacement in Cedar Grove, NJ?',
+      answer:
+        'A flat roof replacement of the roof covering on a detached one- or two-family home in Cedar Grove counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a Pompton Avenue commercial, multi-family, or attached building, reroofing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, and so does a structural change to rafters or joists.',
     },
     {
-      question: 'What flat roof membrane is best for Cedar Grove buildings?',
-      answer: 'TPO provides the best overall value for most Cedar Grove commercial flat roofs, offering twenty to thirty-year warranty, energy-efficient reflective surface, and heat-welded seam integrity. PVC is recommended for buildings with chemical exposure from kitchen or industrial exhaust. EPDM provides the lowest initial cost for buildings where reflective energy savings are minimal due to shade from Cedar Grove\'s tree canopy.',
+      question: 'Does a historic district in Cedar Grove restrict a flat roof replacement?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner flat roof replacement in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority, and the township carries no locally designated historic district or landmark. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
     },
     {
-      question: 'How much does flat roof replacement cost in Cedar Grove?',
-      answer: 'Commercial flat roof replacement in Cedar Grove ranges from seven to fourteen dollars per square foot depending on the membrane type, insulation thickness, and extent of deck repair. A five-thousand-square-foot commercial roof typically costs thirty-five to seventy thousand dollars for complete replacement with warranty. The wide range reflects differences in system specification and existing condition.',
+      question: 'Which flat roof membrane lasts longest on a Cedar Grove building?',
+      answer:
+        'PVC single-ply lasts 20 to 30 years and built-up roofing 30 years, followed by EPDM at 15 to 25 years, modified bitumen at 20 years, and TPO at 7 to 20 years. PVC lifespan traces to the Single Ply Roofing Industry, and the EPDM, modified-bitumen, TPO, and built-up lifespans trace to the InterNACHI life-expectancy chart, with TPO commonly cited at 15 to 25 years in practice. Newark Quality Roofing matches the membrane to the building before tear-off.',
     },
     {
-      question: 'Can a flat roof be replaced without disrupting business operations?',
-      answer: 'Yes. Phased replacement works in sections sized for daily completion, with temporary membrane protection installed each evening. Interior operations continue throughout the project with minimal disruption. Noise during tear-off is the primary inconvenience, and we schedule the loudest work around the building\'s most sensitive operational hours when possible.',
+      question: 'Why does a Cedar Grove flat roof keep ponding water at the same spot?',
+      answer:
+        'A Cedar Grove flat roof ponds water when the slope falls below ¼ inch per foot, and ponding water remaining more than 48 hours counts as a defect that breaks down membrane seams, per the NRCA and ARMA. Reservation-edge and street-canopy debris collecting at drains and scuppers along the Pompton Avenue corridor compounds the standing water. A Newark Quality Roofing replacement adds tapered insulation to correct the slope so the new membrane drains rather than ponds.',
+    },
+    {
+      question: 'Can a white TPO or PVC roof lower cooling costs on a Cedar Grove building?',
+      answer:
+        'A white TPO or PVC membrane reflects solar heat as a cool roof, with solar reflectance near 0.70 to 0.85 measured per ASTM C1549 and listed by the CRRC. A reflective single-ply membrane runs cooler than a dark membrane in summer, though canopy shade from Cedar Grove\'s reservation-edge tree cover reduces the gain on shaded sections. Newark Quality Roofing installs white TPO and PVC single-ply systems across the township.',
     },
     {
       question: 'How much does flat roof replacement cost in Cedar Grove, NJ?',
-      answer: 'Most flat roof replacement projects in Cedar Grove range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Flat roof replacement in New Jersey runs $7.00 to $10.00 per square foot for EPDM and $8.00 to $12.00 per square foot for TPO, with a typical New Jersey roof replacement at $10,000 to $25,000. The per-square-foot membrane pricing traces to Josten Roofing NJ pricing and the typical replacement range to HomeAdvisor and Modernize NJ cost data. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Flat roof replacement in Cedar Grove NJ -- TPO, PVC, and EPDM membrane systems with tapered drainage for commercial and residential flat roofs.',
+  metaDescription:
+    'Flat roof replacement in Cedar Grove NJ — EPDM, TPO, PVC, and modified-bitumen membranes on Pompton Avenue storefronts and home flat sections. Free estimate.',
   pricing: {
-    range: '$6,000–$18,000',
-    note: 'flat roof membrane replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free flat roof replacement estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for flat roof replacement in Cedar Grove.',
+    urgencyNote: 'Addressing a failing flat roof early limits ponding, deck rot, and interior water damage.',
   },
 };

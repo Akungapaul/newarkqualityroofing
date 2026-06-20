@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof waterproofing across Cedar Grove, New Jersey, and Essex County, sealing the roof deck, eaves, valleys, and flashing on the township\'s postwar ranch and split-level homes and Pompton Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof waterproofing** seals the layer beneath the roof covering — the deck, the eaves, the valleys, and the flashing details — so wind-driven rain that gets past the shingles or membrane stops at the deck rather than entering the home.',
   overview: [
-    'Newark Quality Roofing delivers expert roof waterproofing in Cedar Grove — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Cedar Grove applies advanced membrane and coating technologies to protect the township\'s residential and commercial buildings from water infiltration at the most vulnerable points in the roof assembly. Beyond standard shingle and membrane installation, waterproofing addresses the secondary barriers, sealant systems, and penetration details that serve as the last line of defense when primary roof coverings are overwhelmed by northern Essex County\'s driving rain, ice dam meltwater, and wind-driven precipitation.',
-    'Cedar Grove\'s low-pitch ranch homes benefit most from comprehensive [roof waterproofing](/roof-waterproofing) strategies because their shallow slopes retain water longer and shed it less effectively than steeper designs. Ice-and-water shield membrane at eaves and valleys, liquid-applied waterproofing at penetrations, and self-adhering underlayment on low-slope sections create layered protection that compensates for the geometric disadvantage that low-pitch roofs present in Cedar Grove\'s wet climate.',
-    'Commercial flat roofs along Pompton Avenue and Route 23 require waterproofing systems engineered for zero-slope conditions where standing water is inevitable despite drainage improvements. Liquid-applied membrane coatings, spray-on rubberized barriers, and reinforced sheet membranes each serve specific commercial waterproofing applications in Cedar Grove, selected based on the building\'s existing roof type, traffic requirements, and budget constraints.',
+    '**Newark Quality Roofing waterproofs the roof deck, the ice-prone eaves, the valleys and penetrations, and the low-slope flashing details** on Cedar Grove\'s postwar ranch and split-level homes and on the Pompton Avenue / Route 23 storefronts. Waterproofing seals the layer beneath the covering so water that gets past the shingles or membrane stops at the deck rather than entering the home.',
+    '**A sealed roof deck** cuts water entry into the home by as much as 95% compared with an unsealed deck, per the Insurance Institute for Business & Home Safety. On a 2,000-square-foot unsealed roof stripped of shingles, up to 750 gallons of water per inch of rain enter the attic, roughly nine bathtubs, per IBHS research, so a Newark Quality Roofing job seals the deck, the eaves, and the flashing details where most water enters on Cedar Grove\'s tree-shaded slopes.',
+    '**The ice-prone eaves** matter most on Cedar Grove\'s postwar single-family stock, where escaping attic heat melts the snowpack and meltwater refreezes at the colder eave, forcing water under the shingles. An ice barrier runs from the eave to at least 24 inches inside the exterior wall line, and at least 36 inches along the slope on roofs of 8:12 or steeper, per IRC Section R905.1.2 as enforced through the NJ Uniform Construction Code.',
+    '**The low-slope flashing details** carry the work on the Pompton Avenue / Route 23 storefronts, where EPDM, TPO, and modified-bitumen membranes meet curbs, drains, and parapets. A low-slope roof needs at least ¼ inch per foot of slope to drain, and ponding water held more than 48 hours counts as a defect that breaks down the membrane, per the NRCA and ARMA.',
   ],
   challenges: [
-    'Ice dam water infiltration on Cedar Grove ranch homes drives more residential waterproofing work than any other cause. The township\'s northern Essex County location and low-pitch housing stock create severe ice dam conditions during winters with sustained cold temperatures. Meltwater backing up behind ice dams can penetrate conventional shingle installations, flowing beneath shingle laps and through nail holes into the attic space. Waterproofing the vulnerable eave zones with self-adhering ice-and-water shield membrane is the most effective preventive measure.',
-    'Below-grade roof sections on Cedar Grove homes built into the Watchung Mountain hillside create waterproofing conditions more typical of foundation work than roofing. Retaining wall-to-roof junctions, earth-sheltered wall sections, and grade-level roof planes collect surface water and hydrostatic pressure that standard roof waterproofing cannot resist. These specialized conditions require below-grade membrane systems with drainage mat and protection board to manage water pressure from both above and below the roof surface.',
-    'Persistent moisture in Cedar Grove\'s shaded environment tests waterproofing system adhesion and longevity. Surfaces that never fully dry between rain events present adhesion challenges for liquid-applied membranes and sealants that require dry substrates for proper bonding. Installation scheduling must account for the limited drying windows that Cedar Grove\'s shaded properties provide, particularly during spring and fall when the canopy retains moisture and delays surface drying.',
+    '**Reservation-edge and street-canopy debris** loads the valleys where Cedar Grove waterproofing fails first, because the wooded edges of the Mills and Hilltop reservations and the township\'s mature canopy drop leaf and branch load that backs water under the covering. A Newark Quality Roofing job seals the valleys and penetrations with a self-adhered ice-and-water membrane that self-seals around fasteners, per ASTM D1970.',
+    '**Ice-dam backup** stresses the eaves of Cedar Grove\'s postwar ranches and split-levels, because escaping attic heat melts the upper snowpack and the meltwater refreezes at the colder eave, forcing water beneath the shingle laps and through nail holes. A Newark Quality Roofing job installs an ice barrier from the eave to at least 24 inches inside the exterior wall line, per IRC Section R905.1.2 as enforced through the NJ Uniform Construction Code.',
+    '**Deteriorated sheathing discovered at tear-off** opens the moment to seal the deck on Cedar Grove\'s older period homes, where IRC Section R908 bars a recover over a water-soaked or deteriorated deck. A Newark Quality Roofing crew replaces the rotted sheathing and bonds the sealing membrane to bare sheathing, the point at which a sealed deck cuts water entry into the home by as much as 95% compared with an unsealed deck, per the Insurance Institute for Business & Home Safety.',
+    '**Ponding on the Pompton Avenue storefronts** breaks down the low-slope membrane along the Route 23 corridor, where a flat roof needs at least ¼ inch per foot of slope to drain. A Newark Quality Roofing job maps the standing water, grades the deck to the NRCA minimum design slope, and reseals the seams, curbs, and drains, because ponding held more than 48 hours counts as a defect, per the NRCA and ARMA.',
   ],
   process: [
-    'Roof waterproofing in Cedar Grove begins with identification of the specific water entry mechanisms affecting the building. We distinguish between gravity drainage failures, wind-driven penetration, ice dam infiltration, and hydrostatic pressure to prescribe the appropriate waterproofing system for each condition. Multiple water entry mechanisms on a single Cedar Grove building may require different waterproofing approaches at different locations.',
-    'Waterproofing application methods vary by condition. Self-adhering membrane sheets are applied at eaves, valleys, and penetrations during roof replacement. Liquid-applied membranes are brushed or sprayed onto surfaces where sheet materials cannot conform to complex geometry. Sealant injection addresses localized penetration points and joint failures. Each method requires specific surface preparation, temperature conditions, and application techniques to achieve the adhesion and coverage necessary for long-term waterproof performance.',
-    'Verification testing confirms waterproof integrity before the project is considered complete. We use controlled water application to simulate the specific conditions each waterproofing detail must resist -- spray testing for wind-driven rain protection, flood testing for flat-roof membranes, and ice dam simulation for eave waterproofing. Any detail that fails verification is corrected and retested. Cedar Grove homeowners receive documentation of the waterproofing materials, application methods, and test results for warranty and insurance records.',
+    '**Newark Quality Roofing inspects the eaves, valleys, penetrations, and low-slope details, locates where water reaches the deck, and selects an IBHS-approved sealing method before any work begins.** A crew distinguishes ice-dam backup at the eaves from valley and penetration failures and from low-slope ponding, because a sealed deck cuts water entry into the home by as much as 95% compared with an unsealed deck, per the Insurance Institute for Business & Home Safety.',
+    '**Newark Quality Roofing seals the roof deck during a tear-off or re-roof, installs an ice barrier at the eaves, and runs a self-adhered membrane at the valleys, penetrations, and low-slope flashing details.** An ice barrier runs from the eave to at least 24 inches inside the exterior wall line, and at least 36 inches along the slope on roofs of 8:12 or steeper, per IRC Section R905.1.2, and the self-adhering membrane self-seals around fasteners, per ASTM D1970. A crew grades a low-slope storefront roof to the NRCA minimum design slope of ¼ inch per foot.',
+    '**Newark Quality Roofing verifies watertight execution at the eaves, valleys, and penetrations and documents the waterproofing with photographs for the owner.** A lead confirms the sealed details, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty that covers factory defects. The documentation supports an owner-occupant\'s records and any insurance claim.',
   ],
   faqs: [
     {
-      question: 'What is the difference between roof waterproofing and regular roof repair?',
-      answer: 'Regular roof repair fixes the primary roof covering -- replacing damaged shingles, patching membranes, or resealing flashing. Roof waterproofing addresses the secondary barriers beneath and around the primary covering that prevent water infiltration when the primary layer is overwhelmed. Waterproofing is especially important on Cedar Grove\'s low-pitch ranch roofs where slow drainage gives water more time to find pathways through the primary roof covering.',
+      question: 'What is roof waterproofing and how does a sealed deck protect a Cedar Grove home?',
+      answer:
+        'Roof waterproofing seals the layer beneath the covering — the roof deck, the eaves, the valleys, and the flashing details — so water that gets past the shingles or membrane stops at the deck. A sealed roof deck cuts water entry into the home by as much as 95% compared with an unsealed deck, per the Insurance Institute for Business & Home Safety, the protection that matters on Cedar Grove\'s tree-shaded postwar ranches and split-levels.',
     },
     {
-      question: 'Should I add ice-and-water shield when replacing my Cedar Grove roof?',
-      answer: 'Absolutely. Cedar Grove building code requires ice-and-water shield at eaves and valleys, but we recommend extending coverage to include all roof sections below 4:12 pitch, around all penetrations, and at all wall-to-roof transitions. The additional material cost is modest during a roof replacement but provides significant protection against the ice dam and wind-driven rain conditions that Cedar Grove\'s low-pitch ranch roofs regularly experience.',
+      question: 'Does New Jersey code require an ice barrier at the eaves in Cedar Grove?',
+      answer:
+        'IRC Section R905.1.2, enforced through the NJ Uniform Construction Code, requires an ice barrier from the eave to at least 24 inches inside the exterior wall line in ice-dam-prone regions like Essex County. On roofs of 8:12 slope or steeper the ice barrier extends at least 36 inches along the slope, and the self-adhered membrane self-seals around fasteners, per ASTM D1970 — the layer that resists the ice-dam backup Cedar Grove\'s postwar single-family eaves face each winter.',
     },
     {
-      question: 'Can waterproofing stop an existing roof leak in Cedar Grove?',
-      answer: 'Targeted waterproofing can stop some leak types without full roof replacement. Liquid-applied membrane over leaking flat-roof sections, sealant injection at penetration points, and ice-and-water shield at vulnerable details can resolve specific water entry problems on Cedar Grove roofs with remaining service life. However, waterproofing cannot compensate for a roof covering that has reached end-of-life -- widespread shingle deterioration or membrane failure requires replacement.',
+      question: 'Do I need a permit to waterproof a roof in Cedar Grove?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. That covers sealing the deck during a tear-off. On a commercial, multi-family, or attached building, sealing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, and recover-versus-tear-off limits follow the Rehabilitation Subcode, N.J.A.C. 5:23-6.4.',
     },
     {
-      question: 'How long does roof waterproofing last on Cedar Grove homes?',
-      answer: 'Self-adhering membrane waterproofing installed during roof replacement lasts the life of the roof -- typically twenty to thirty years. Liquid-applied waterproofing coatings last ten to fifteen years before reapplication. Sealant-based waterproofing at penetrations requires inspection and maintenance every five to seven years. The key is matching the waterproofing system lifespan to the primary roof covering lifespan so both are addressed simultaneously during roof replacement.',
+      question: 'Does a historic district in Cedar Grove restrict waterproofing work?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
+    },
+    {
+      question: 'How does waterproofing protect a low-slope roof on the Pompton Avenue / Route 23 corridor?',
+      answer:
+        'Roof waterproofing seals the seams, curbs, drains, and flashing details of a low-slope storefront roof and grades the roof to the NRCA minimum design slope of ¼ inch per foot so water drains. Ponding water remaining more than 48 hours counts as a defect that breaks down the membrane, per the NRCA and ARMA, so a Newark Quality Roofing crew seals the details on a roof graded to drain along the Pompton Avenue commercial corridor.',
     },
     {
       question: 'How much does roof waterproofing cost in Cedar Grove, NJ?',
-      answer: 'Most roof waterproofing projects in Cedar Grove range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Roof waterproofing cost in Cedar Grove varies by scope, because the cost depends on the sealing method, the roof size, the pitch, the membrane area, and access; the fact packs gather no fixed waterproofing price. Sealing the deck during a tear-off or re-roof costs less per square foot than a standalone access, because the deck sits exposed and the membrane bonds to bare sheathing, per the IBHS sealed-deck methods. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof waterproofing in Cedar Grove NJ -- ice-and-water shield, liquid membranes, and penetration sealing for ranch homes and commercial buildings.',
+  metaDescription:
+    'Roof waterproofing in Cedar Grove NJ — sealed deck, ice barrier at the eaves, valley and low-slope flashing membrane. NJ-registered, free written estimate.',
   pricing: {
-    range: '$1,500–$5,000',
-    note: 'waterproofing membrane application',
+    range: 'Varies by scope',
+    note: 'Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof waterproofing estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof waterproofing in Cedar Grove.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

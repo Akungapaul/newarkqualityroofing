@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing chimney flashing repair across Cedar Grove, New Jersey, and Essex County, rebuilding the two-part base-and-counter flashing that seals the chimney** on the township\'s postwar ranches and split-levels as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
-    'Newark Quality Roofing delivers expert chimney flashing repair in Cedar Grove — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is one of the most frequent roof service calls in Cedar Grove, where original 1950s and 1960s ranch homes and colonials feature masonry chimneys with galvanized steel flashing that has corroded through decades of northern Essex County weather exposure. The intersection between chimney masonry and roof surface creates the most complex flashing detail on any residential roof -- multiple material transitions, thermal movement differentials, and concentrated water flow all converge at a junction originally designed to last twenty years but expected to serve for sixty or more.',
-    'Cedar Grove\'s chimney flashing failures produce water entry patterns that often mislead homeowners about the source of their leaks. Water infiltrating deteriorated counter-flashing embedded in mortar joints can travel along the chimney structure, down interior framing, and emerge as ceiling stains in rooms nowhere near the chimney. Our [chimney flashing repair](/chimney-flashing-repair) diagnostic in Cedar Grove traces every water path systematically before prescribing repairs, ensuring that the actual failure point receives attention rather than just the visible symptom.',
-    'The township\'s low-pitch ranch roofs compound chimney flashing challenges because water drains more slowly past chimney bases on shallow slopes, increasing the volume and duration of water contact with flashing joints. Standard chimney flashing details designed for steeper roofs may underperform on Cedar Grove ranches, requiring wider base flashings, cricket installations on the upslope side, and enhanced sealant detailing to manage the slower drainage pattern.',
+    '**Newark Quality Roofing repairs chimney flashing** on Cedar Grove\'s postwar ranches, split-levels, and colonials and on Pompton Avenue / Route 23 storefronts, rebuilding the metal sealing the chimney, the roof\'s largest penetration, at the apron, sidewall, and upslope transitions.',
+    '**Chimney flashing** repair starts at the transition metal, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. The NRCA specifies a two-part chimney flashing system, so a repair restores both layers rather than smearing sealant over the symptom.',
+    '**The apron, sidewall step, and upslope** transitions all carry water past the chimney, and a single failed counter flashing or cracked caulk joint admits water into the chase on Cedar Grove\'s tree-shaded single-family stock. A repair rebuilds the failed transition rather than chasing the visible drip.',
+    '**The Pompton Avenue / Route 23** storefronts and the older period homes on Cedar Grove\'s higher ground carry masonry chimneys whose galvanized step and counter flashing corrode at the mortar joint, and a repair sets a new cap into a clean reglet cut in the masonry.',
   ],
   challenges: [
-    'Mortar joint deterioration in Cedar Grove chimney masonry complicates counter-flashing replacement. The lime-rich mortar used in 1960s chimney construction has softened over decades of freeze-thaw cycling, and cutting new reglets for counter-flashing embedment risks damaging adjacent mortar joints and creating additional water entry points. On severely deteriorated chimneys, tuckpointing or partial chimney rebuild may be required before new flashing can be properly installed and expected to perform long-term.',
-    'Cricket construction on the upslope side of Cedar Grove chimneys wider than thirty inches is essential for preventing water and debris accumulation that accelerates flashing deterioration. Many Cedar Grove homes lack crickets entirely -- a construction detail commonly omitted during the original building era. Adding a cricket during flashing repair requires structural framing, sheathing, and membrane application that transforms a simple flashing repair into a more involved carpentry and roofing project.',
-    'Siding interference with chimney flashing access is common on Cedar Grove homes where aluminum or vinyl siding was installed over original flashing details during the remodeling era. Removing siding to access and replace chimney flashing, then reinstalling siding with proper integration, adds cost and complexity. The siding removal frequently reveals concealed water damage to wall sheathing that was invisible before the repair work began.',
+    '**Surface caulk** smeared over no underlying metal is the most common failed repair on Cedar Grove chimneys, because masonry-versus-roof differential movement and freeze-thaw crack the sealant within a few years, per IIBEC. A lasting repair rebuilds the metal beneath rather than recaulking the joint.',
+    '**Counter flashing** pulled loose from the mortar joint breaks the mechanical lock the NRCA two-part system sets into a reglet, so meltwater and rain run behind the cap into the chase. A repair cuts a clean reglet into a horizontal mortar joint and locks a new cap into the masonry rather than relying on adhesive.',
+    '**A missing cricket** on a chimney wider than 30 inches dams ice, snow, and reservation-edge canopy debris against the upslope face on Cedar Grove\'s tree-shaded slopes, accelerating flashing deterioration. The cricket, a saddle IRC Section R1003.20 requires on a wide chimney, diverts water and debris around the masonry.',
+    '**Deteriorated step flashing** woven into the shingle courses on older Cedar Grove chimneys corrodes and lifts, exposing the sidewall to wind-driven rain, and a continuous one-piece strip at a chimney marks a defective installation, per InterNACHI and shingle-manufacturer guidance. A repair reweaves the metal one piece per shingle course.',
   ],
   process: [
-    'Chimney flashing repair in Cedar Grove begins with a complete assessment of the chimney-to-roof junction from both exterior and interior perspectives. We inspect the chimney masonry for mortar integrity, evaluate existing flashing condition, check for the presence or absence of a cricket, and trace any interior water damage back to its entry point. This assessment determines whether the repair is limited to flashing replacement or requires supplementary masonry repair or cricket construction.',
-    'Flashing replacement removes all existing step flashing, base flashing, and counter-flashing from the chimney junction. New step flashing is woven into the shingle courses along both sides of the chimney, with each piece extending at least four inches up the chimney face and four inches across the roof surface. Base flashing covers the front and rear of the chimney with appropriate overlap onto the step flashing. Counter-flashing is embedded in freshly cut reglets sealed with polyurethane sealant.',
-    'Cricket construction on chimneys wider than thirty inches provides a positive drainage path that diverts water around the chimney base rather than allowing it to pool behind the structure. We frame the cricket with pressure-treated lumber, sheath with plywood, apply ice-and-water shield membrane, and flash to the chimney and surrounding roof surface. The completed cricket eliminates the debris and water accumulation zone that caused accelerated flashing deterioration on the original installation.',
+    '**Newark Quality Roofing diagnoses the chimney flashing at all four transitions — the downslope apron, the two sidewall step runs, and the upslope head or cricket — tracing the entry point before resealing.** A diagnosis starts at the chimney because it is the roof\'s largest penetration, and a continuous one-piece strip at the sidewall flags a defective original installation, per InterNACHI and shingle-manufacturer guidance.',
+    '**Newark Quality Roofing rebuilds the NRCA two-part flashing system: step and base flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint.** The counter flashing locks into the masonry mechanically rather than relying on adhesive that masonry-versus-roof differential movement and freeze-thaw crack within a few years, per IIBEC, and a crew installs a self-adhering ice-and-water membrane that self-seals around fasteners at the chimney base, per ASTM D1970. Where a chimney measures wider than 30 inches parallel to the ridge, a crew builds a cricket to divert water and snow, per IRC Section R1003.20.',
+    '**Newark Quality Roofing verifies watertight execution at every chimney transition, runs a magnet sweep for nails at cleanup, and documents the repair with photographs for your records and any insurance claim.** A repair on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code.',
   ],
   faqs: [
     {
       question: 'How do I know if my Cedar Grove chimney flashing needs repair?',
-      answer: 'Look for water stains on ceilings or walls near the chimney, rust staining on the chimney masonry below the roofline, visible gaps between metal flashing and the chimney surface, or lifted flashing edges on the roof surface. If your Cedar Grove home was built before 1980 and the chimney flashing has never been replaced, deterioration is virtually certain even without visible symptoms.',
+      answer:
+        'Look for brown or yellow ceiling stains near the chimney chase, rust staining on the masonry below the roofline, gaps between the metal flashing and the chimney, or counter flashing hanging from the mortar joint. The chimney is the roof\'s largest penetration, and the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing, an industry estimate attributed to the NRCA.',
     },
     {
-      question: 'How much does chimney flashing repair cost in Cedar Grove?',
-      answer: 'Straightforward chimney flashing replacement on a standard Cedar Grove ranch chimney typically costs fifteen hundred to twenty-five hundred dollars. If the repair requires cricket construction, the cost increases to twenty-five hundred to four thousand dollars. If chimney masonry repair is needed before flashing can be installed, tuckpointing or partial rebuild adds one to three thousand dollars depending on the extent of deterioration.',
+      question: 'Is caulk a permanent fix for chimney flashing?',
+      answer:
+        'Caulk or roofing cement alone over no underlying metal is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A permanent repair rebuilds the NRCA two-part system: step flashing woven one piece per shingle course plus counter flashing set into a reglet cut in the mortar joint.',
     },
     {
-      question: 'Can chimney flashing be repaired without removing shingles?',
-      answer: 'Step flashing replacement requires lifting or removing shingles along the chimney sides to weave new flashing pieces into the shingle courses. This is an unavoidable part of proper chimney flashing repair. However, we limit shingle removal to the minimum necessary for flashing access and reinstall or replace only the affected courses, preserving the surrounding roof surface.',
+      question: 'Does my Cedar Grove home need a chimney cricket?',
+      answer:
+        'A cricket, or saddle, is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20. The cricket diverts water, ice, snow, and reservation-edge canopy debris around the chimney instead of letting the upslope face dam meltwater against the masonry on Cedar Grove\'s tree-shaded slopes.',
     },
     {
-      question: 'What is a chimney cricket and does my Cedar Grove home need one?',
-      answer: 'A chimney cricket is a peaked diverter structure built on the upslope side of a chimney to direct water and debris around the chimney base rather than allowing accumulation behind it. Current building code requires crickets on chimneys wider than thirty inches. Many Cedar Grove homes built before this code requirement lack crickets, and adding one during flashing repair dramatically improves drainage and extends the life of the new flashing installation.',
+      question: 'Does a chimney flashing repair on a Cedar Grove historic home need extra approval?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof or flashing repair in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
+    },
+    {
+      question: 'Do I need a permit for chimney flashing repair in Cedar Grove?',
+      answer:
+        'A chimney flashing repair on a detached one- or two-family home in Cedar Grove counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue.',
     },
     {
       question: 'How much does chimney flashing repair cost in Cedar Grove, NJ?',
-      answer: 'Most chimney flashing repair projects in Cedar Grove range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Chimney flashing repair costs $300–$1,800, with most repairs $400–$1,600 and a spot reseal $150–$300, per HomeGuide and Angi cost data. The two-part rebuild, the chimney width, and whether a cricket is required set the cost. Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Chimney flashing repair in Cedar Grove NJ -- step flashing, counter-flashing, and cricket installation for ranch and colonial chimney leak solutions.',
+  metaDescription:
+    'Chimney flashing repair in Cedar Grove NJ — step, base, and counter flashing rebuilt to the NRCA two-part standard, plus crickets. NJ-registered, free estimate.',
   pricing: {
-    range: '$400–$1,500',
-    note: 'chimney flashing and counter-flashing',
+    range: '$300–$1,800',
+    note: 'Chimney flashing repair costs $300–$1,800, with most repairs $400–$1,600 and a spot reseal $150–$300, per HomeGuide and Angi cost data; final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free chimney flashing repair estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for chimney flashing repair in Cedar Grove.',
+    urgencyNote: 'Addressing chimney flashing leaks early limits interior and structural water damage.',
   },
 };

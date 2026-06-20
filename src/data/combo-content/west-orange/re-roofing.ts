@@ -3,57 +3,72 @@ import type { ComboContent } from '../schema';
 export const westOrangeReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'west-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing re roofing across West Orange, New Jersey, and Essex County, replacing a worn covering with a new underlayment-and-cover system** on valley capes, ranches, and Colonials up through hillside Tudors and Llewellyn Park estates as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in West Orange — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in West Orange encompasses the full spectrum of roof replacement approaches -- from complete tear-off with deck repair to overlay installation on qualifying homes -- matched to each property\'s elevation, condition, and the homeowner\'s budget and performance priorities. Our [re-roofing](/re-roofing) consultations evaluate every West Orange home individually, recommending the approach that delivers the best long-term value for the property\'s specific circumstances.',
-    'The re-roofing decision point arrives for most West Orange homes between 20 and 30 years after the previous installation, depending on material quality, maintenance history, and elevation exposure. Ridge-top homes along Eagle Rock Avenue reach re-roofing age faster due to amplified wind stress and UV exposure. Valley-floor homes in Pleasant Valley may extend toward the upper end of that range when shaded locations reduce UV degradation. Mid-slope split-levels along Gregory Avenue tend to need re-roofing at the earlier end due to the ice dam damage that accumulates at level-change transitions over time.',
-    'Material upgrades during re-roofing provide the opportunity to install products engineered for West Orange\'s specific challenges. Homeowners replacing basic 3-tab shingles can upgrade to impact-resistant architectural shingles rated for the wind and hail exposure their elevation experiences. Ridge-top homeowners can transition from asphalt to standing seam metal that eliminates the shingle replacement cycle entirely. Homeowners near [Bloomfield](/re-roofing-bloomfield-nj) consider similar material upgrades during their own re-roofing projects.',
-    'Energy efficiency improvements during re-roofing represent the most cost-effective time to upgrade attic insulation, ventilation, and barrier protection on [West Orange](/roofing-in-west-orange-nj) homes. With the roof surface removed during tear-off, insulation can be added from above, ventilation baffles can be installed at every rafter bay, and ice-and-water shield can be applied at all vulnerable details -- improvements that would require separate, more expensive projects if performed independently.'
+    '**Newark Quality Roofing re-roofs West Orange\'s wide, ridge-side stock** — valley capes, ranches, and Colonials in Pleasantdale and Gregory, hillside Tudors and Llewellyn Park estate homes, and the low-slope commercial roofs of the Main Street and Valley Road spine. Re-roofing replaces a worn covering with a new system once a roof crosses the replacement threshold by age or condition.',
+    '**Valley capes, ranches, and Colonials** in Pleasantdale and Gregory carry asphalt shingle, where 3-tab lasts 20 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart. A Newark Quality Roofing re-roof strips the covering to the deck, replaces deteriorated sheathing exposed at tear-off, and installs an ice barrier from the eave to at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision.',
+    '**Hillside Tudors and Llewellyn Park estate homes** carry natural slate, metal, and copper period detailing, where slate lasts 60 to 150 years and metal 40 to 80 years, per the InterNACHI life-expectancy chart, and a copper roof exceeds 100 years when properly installed, per the Copper Development Association. A Newark Quality Roofing slate re-roof checks the structural deck before install and replaces broken slate with non-ferrous copper or stainless slater\'s nails, per NPS Preservation Brief 29.',
+    '**Low-slope commercial roofs** along the Main Street, Valley Road, and Pleasant Valley Way spine and the Route 280 corridor carry EPDM, TPO, and modified-bitumen membrane, which last 15 to 25, 7 to 20, and 20 years respectively, per the InterNACHI life-expectancy chart. A Newark Quality Roofing membrane re-roof grades the deck to drain, because a low-slope roof needs at least one-quarter inch per foot of slope and ponding over 48 hours counts as a defect, per the NRCA and ARMA.',
   ],
   challenges: [
-    'Timing re-roofing to optimize remaining roof life versus avoiding emergency replacement requires objective condition assessment rather than calendar-based scheduling. A well-maintained roof on a sheltered valley-floor home may have years of remaining life at age 25, while a neglected ridge-top roof may need replacement at 18. We provide condition-based assessment that evaluates shingle flexibility, granule retention, flashing integrity, and deck condition to determine actual remaining life independent of installation date.',
-    'Material selection amid dozens of available products overwhelms many West Orange homeowners. Architectural asphalt shingles, designer shingles, metal panels, synthetic slate, engineered wood, and natural materials each offer different performance, aesthetic, and lifecycle characteristics. We narrow the selection to two or three options appropriate for each property\'s elevation, architecture, and budget, presenting clear comparisons that support informed decisions without the analysis paralysis that unlimited choice creates.',
-    'Seasonal scheduling pressure concentrates West Orange re-roofing demand into the spring and fall weather windows, creating wait times that homeowners needing immediate re-roofing find frustrating. We maintain project capacity through winter and summer scheduling when weather permits, offering alternative timing with the caveat that temperature extremes require material-specific installation techniques -- cold-weather adhesive activation methods in winter, and morning-schedule installation to avoid peak heat in summer.'
+    '**Deteriorated sheathing discovered at tear-off** defines re-roofing on West Orange\'s mature ridge-side stock, because a full tear-off exposes deck rot that a recover would hide, per ARMA. A Newark Quality Roofing re-roof strips the worn covering to the bare deck, inspects every sheathing section, and replaces water-soaked plywood or OSB before the new underlayment goes down.',
+    '**A recover over a deteriorated or multi-layer deck** is prohibited in New Jersey, because N.J.A.C. 5:23-6.4 requires complete removal of the existing covering when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications. A Newark Quality Roofing re-roof favors a tear-off where the deck condition or code requires one, since a recover traps heat that industry estimates cut shingle service life by roughly 20 to 30%, per Angi.',
+    '**Reservation-edge canopy and ridge-line wind** stress West Orange roofs ahead of a low-lying lot, because the township sits on the First Watchung ridge and contains part of South Mountain Reservation and part of Eagle Rock Reservation, per Essex County Parks. A Newark Quality Roofing re-roof reseals every chimney, wall, valley, and dormer flashing line and clears the leaf and branch debris that collects in valleys near the reservation-edge sections such as St. Cloud.',
   ],
   process: [
-    'Re-roofing assessment evaluates existing roof condition, structural capacity, ventilation performance, and the homeowner\'s goals for appearance, performance, and budget. We climb the roof to test shingle condition, probe deck soundness, and inspect flashing details. Attic inspection evaluates ventilation, insulation, and moisture conditions. This comprehensive assessment produces a recommendation for tear-off versus overlay, material selection, and any energy improvements that should be incorporated during the project.',
-    'Material selection narrows to the two or three options best suited to the property\'s specific conditions. We present physical samples, performance specifications, warranty details, and installed cost comparisons for each option. Color selection uses full-size sample boards evaluated against the home\'s exterior at different times of day, because shingle color appearance changes dramatically between morning, midday, and evening light conditions.',
-    'Project execution follows the selected approach -- tear-off or overlay -- with integrated energy improvements where applicable. Each work day achieves a weather-tight stopping point. Final inspection verifies material installation against manufacturer specifications, confirms ventilation component function, and walks the property perimeter to verify cleanup and magnetic nail sweep completion. Documentation includes material warranty registration, installed product specifications, and maintenance recommendations tailored to the installed system.'
+    '**Newark Quality Roofing confirms the re-roofing decision against the threshold rules, then strips the worn covering to the deck for inspection and repair.** Damage across more than 25 to 30% of the roof area crosses the contractor-consensus 25% rule, and a repair approaching 50% of replacement cost crosses the 50% rule, per WeatherShield, RapidRestore, and Home Depot cost data, while a localized repair stays the more economical path only while the roof stays under 10 to 15 years old.',
+    '**Newark Quality Roofing matches the new system to the building and the Essex County climate, then installs the ice barrier, underlayment, and cover to manufacturer specification.** Lifespan differs sharply across asphalt, metal, slate, and low-slope membrane, per the InterNACHI life-expectancy chart, and installing to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
+    '**Newark Quality Roofing verifies the install, runs a magnet sweep for nails at cleanup, and documents the completed re-roof with photographs for the owner.** A detached one- or two-family re-roof counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and needs no construction permit, while a commercial, multi-family, or attached roof crossing the 25% threshold files through the Township of West Orange Building & Construction Code Enforcement office, per the NJ Uniform Construction Code.',
   ],
   faqs: [
     {
-      question: 'How do I know when my West Orange home needs re-roofing?',
-      answer: 'Common indicators include curling or buckling shingles, significant granule loss visible in gutters, multiple active or recent leaks, daylight visible through the deck from inside the attic, and shingle age approaching 20 to 25 years for standard asphalt products. We recommend a professional assessment when any of these signs appear, providing an objective evaluation of remaining roof life and the urgency of re-roofing relative to your specific conditions.'
+      question: 'Do you need a permit to re-roof a home in West Orange, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in West Orange counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit from the Township of West Orange Building & Construction Code Enforcement office once roof work exceeds 25% of the roof area in 12 months, and so does any structural change to rafters or trusses.',
     },
     {
-      question: 'What is the best roofing material for a West Orange home?',
-      answer: 'The best material depends on your elevation, architecture, and budget. Architectural asphalt shingles provide reliable 25 to 30-year performance at moderate cost and suit most West Orange homes. Standing seam metal delivers 50-year performance for homeowners planning long-term ownership. Natural slate serves historic properties where authenticity matters. We recommend the material that provides the best combination of performance and value for your specific property and investment timeline.'
+      question: 'Does a historic landmark designation restrict re-roofing in West Orange?',
+      answer:
+        'Exterior roofing work on one of West Orange\'s roughly ten locally designated historic landmarks requires a Certificate of Appropriateness from the West Orange Historic Preservation Commission under Section 25-30 before a construction permit issues. The Certificate of Appropriateness covers landmarks such as Holy Trinity Episcopal Church, the State Diner, and the Hedges Block, and applies only to locally designated landmarks, not township-wide, so a typical West Orange home faces no historic review. Llewellyn Park homeowners answer to a private 1857 deed covenant rather than a township Certificate of Appropriateness, and per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'Can I re-roof in winter?',
-      answer: 'Yes, with temperature-specific installation techniques. Asphalt shingles require hand-sealing when temperatures prevent thermal activation of the adhesive strip, and some products specify minimum installation temperatures of 40 degrees Fahrenheit. Metal roofing installs in any temperature with standard techniques. We schedule winter projects for moderate-temperature windows and avoid installation during active precipitation or extreme cold below product specifications.'
+      question: 'What is the difference between re-roofing and a full replacement?',
+      answer:
+        'Re-roofing is the umbrella term for recovering or replacing an existing roof covering, so re-roofing covers both a full tear-off replacement and a recover over a single sound layer, per ARMA and the IRC R908 reroofing section. A full tear-off strips the covering to the deck and exposes deteriorated sheathing for repair, while a recover installs a new layer over the existing single layer, per ARMA. On West Orange\'s mature ridge-side stock, a tear-off catches the deck rot a recover would hide.',
     },
     {
-      question: 'How much does re-roofing a West Orange home cost?',
-      answer: 'Re-roofing cost depends on roof size, material selection, tear-off versus overlay approach, and deck repair requirements. We provide detailed estimates based on your property\'s actual measurements and conditions rather than generic per-square-foot pricing that does not account for complexity, access, or material quality. Our estimates itemize each project component so you understand exactly what is included and can compare options with full cost transparency.'
+      question: 'Does re-roofing require a full tear-off in West Orange?',
+      answer:
+        'Re-roofing requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound asphalt layer hides deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20 to 30%, per ARMA and Angi. The natural slate on West Orange\'s hillside Tudors and Llewellyn Park estates always requires removal before a new covering.',
     },
     {
-      question: 'How much does re roofing cost in West Orange, NJ?',
-      answer: 'Most re roofing projects in West Orange range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What roofing material suits a re-roof on a West Orange home?',
+      answer:
+        'Re-roofing material matches the building and budget across asphalt at 20 to 30 years, metal at 40 to 80 years, slate at 60 to 150 years, and low-slope membrane at 7 to 25 years, per the InterNACHI life-expectancy chart. Asphalt shingles suit the valley capes, ranches, and Colonials of Pleasantdale and Gregory, while natural slate, metal, and copper suit the hillside Tudors and Llewellyn Park estate homes, where a properly installed copper roof exceeds 100 years, per the Copper Development Association.',
+    },
+    {
+      question: 'How much does re-roofing cost in West Orange, NJ?',
+      answer:
+        'Re-roofing in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000 to $11,000 per industry replacement benchmarks. A natural slate or copper roof on a Llewellyn Park estate or hillside Tudor costs more than asphalt, with slate installed at roughly $10 to $30 per square foot, per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Re-roofing services in West Orange NJ. Complete roof replacement with material upgrades for every elevation and housing type.',
+  metaDescription:
+    'Re-roofing in West Orange NJ — tear-off and replacement on valley capes, hillside Tudors, Llewellyn Park slate, and membrane. NJ-registered, free estimate.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with West Orange\'s wide stock, from valley capes and ranches up through hillside Tudors and Llewellyn Park estate homes.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in West Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re-roofing in West Orange.',
+    urgencyNote: 'Re-roofing a worn covering before the deck saturates limits sheathing rot and interior water damage.',
   },
 };

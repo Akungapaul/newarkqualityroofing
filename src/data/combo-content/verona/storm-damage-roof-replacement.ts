@@ -3,56 +3,67 @@ import type { ComboContent } from '../schema';
 export const veronaStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing storm damage roof replacement across Verona, New Jersey, and Essex County, documenting wind, hail, and fallen-branch damage on pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels**, then installing a new roof as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Storm damage roof replacement** removes and rebuilds a roof structurally compromised by wind, hail, or a severe storm, restoring the full weatherproof system. It follows documentation of the storm damage pattern across the covering, flashing, and deck.',
   overview: [
-    'Newark Quality Roofing delivers expert storm damage roof replacement in Verona — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Verona responds to the severe weather events that periodically overwhelm repair solutions and require complete roof system replacement. When a nor\'easter strips dozens of shingles from multiple planes, when hail damage across the entire roof surface compromises every shingle\'s weather protection, or when a fallen tree crushes structural framing along with the roofing above it, repair is no longer adequate. Newark Quality Roofing provides storm damage replacement services that move from emergency stabilization through insurance coordination to permanent replacement with upgraded materials designed to resist the next storm.',
-    'Verona\'s hilltop properties along Claremont Avenue and upper Personette absorb the full force of storms that approach from the west, experiencing wind speeds 15 to 20 percent higher than sheltered valley locations. This exposure differential means hilltop homes sustain replacement-level damage during events that cause only minor repair needs on valley properties. Our [storm damage replacement](/storm-damage-roof-replacement) specifications for hilltop Verona homes include wind-rated products and enhanced attachment methods that address the elevated exposure these properties face.',
-    'The tree canopy that defines Verona\'s character becomes a liability during severe storms, dropping branches and whole trees onto roof surfaces. Branch impacts create localized structural damage that extends well beyond the visible damage zone, cracking sheathing, splitting rafters, and displacing flashings across a wide area. Our storm damage assessments examine the full extent of impact damage, not just the obvious penetration point. Homeowners in [Cedar Grove](/storm-damage-roof-replacement-cedar-grove-nj) surrounded by similar dense canopy face equivalent tree-fall risks during major storm events.'
+    '**Newark Quality Roofing replaces storm-damaged roofs after wind, hail, and reservation-edge fallen-branch impact** across Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels, plus the Bloomfield Avenue and Pompton Avenue corridor storefronts. Storm damage roof replacement strips the failed roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system past the point of partial repair.',
+    '**Wind and hail** rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). A Newark Quality Roofing storm replacement documents the damage with timestamped photographs for the adjuster before tear-off, on the offset planes of a split-level or the slate-and-metal field of an older Colonial.',
+    '**Reservation-edge fallen-branch impact** opens the roof on Verona\'s wooded ridge edges, because the township hosts part of the Eagle Rock Reservation on the First Watchung Mountain and part of the Hilltop Reservation on the Second Watchung Mountain, per Essex County Parks, where mature canopy near Verona Park drops limbs onto roof slopes. A Newark Quality Roofing assessment maps the full impact zone, not only the visible penetration.',
+    '**Split-level transition flashing** is the distinctive Verona storm detail, because a 1960s–70s split-level breaks the slope into offset planes that meet a vertical wall, and the roof-to-wall step and counter-flashing at that transition fails before the open shingle field. A Newark Quality Roofing replacement rebuilds that step and counter-flashing where wind and water concentrate the damage.',
   ],
   challenges: [
-    'Emergency stabilization after storm damage must happen before permanent replacement can be planned. Active water entry through damaged roof sections threatens interior finishes, personal property, and building structure every hour the damage remains open. Our emergency crews install temporary tarps, board-up materials, and emergency membrane patches within hours of the damage event, stopping water entry while the insurance claim and permanent replacement are organized.',
-    'Scope determination after storm damage requires distinguishing between storm-caused damage and pre-existing conditions that the storm merely revealed. Insurance covers storm-caused damage but not pre-existing deterioration. Our damage documentation clearly separates the two, providing the adjuster with evidence that attributes specific damage to the storm event while honestly noting any pre-existing conditions observed during the assessment.',
-    'Material availability after widespread storm events can delay replacement projects by weeks or months when demand spikes exhaust local supply inventories. Popular shingle colors and profiles sell out quickly during regional storm recovery. We maintain supplier relationships and pre-order commitments that provide priority material access for Verona storm projects, reducing the delay between insurance approval and installation start.'
+    '**Storm-versus-pre-existing scope** is the defining condition after a Verona storm, because homeowners insurance covers storm-caused damage and excludes normal wear, age, or deferred maintenance. A Newark Quality Roofing assessment separates the two with photographs and a written scope, attributing wind, hail, and branch-impact damage to the storm while noting any pre-existing flashing or sheathing condition observed at the roof.',
+    '**Plank-deck tear-offs** surface on Verona\'s older pre-war Colonials and Dutch Colonials, where a storm tear-off exposes deteriorated board sheathing and aging valley, chimney, and wall flashing under the slate or metal field. A Newark Quality Roofing crew inspects every sheathing section at tear-off and replaces deteriorated decking before the new cover, because the NJ Rehabilitation Subcode requires full removal of a water-soaked, wood, slate, tile, or multi-layer roof, per N.J.A.C. 5:23-6.4.',
+    '**Corridor low-slope storm damage** on the Bloomfield Avenue and Pompton Avenue storefronts tears membrane seams and lifts flashing at parapets and rooftop penetrations, where EPDM, TPO, and modified-bitumen membranes fail first. A Newark Quality Roofing scope documents the wind damage, reseals or replaces the failed laps, and files the construction permit, because a commercial roof crosses into permit territory once work exceeds 25% of the roof area in a 12-month period, per N.J.A.C. 5:23-2.7.',
   ],
   process: [
-    'Storm damage replacement begins with emergency stabilization within hours of the event -- tarping open areas, boarding compromised sections, and photographing all damage for insurance documentation. The emergency response focuses on stopping active water entry and preventing secondary damage to the building interior.',
-    'The comprehensive damage assessment follows within one to three days, documenting every area of storm-related damage with photographs, measurements, and annotated diagrams. The assessment identifies the full replacement scope, distinguishes storm damage from pre-existing conditions, and documents any code upgrades that apply. This report supports the insurance claim filing and supplements when needed.',
-    'Permanent replacement proceeds once insurance approval and material procurement are complete. The installation follows our full re-roofing protocol: tear-off, deck inspection and repair, enhanced underlayment and flashings, and new shingle installation with products selected to improve storm resistance above the level the original roof provided. The completed replacement addresses the vulnerabilities that allowed the storm damage to occur, not just the symptoms of the damage itself.'
+    '**Newark Quality Roofing inspects the storm-damaged roof, documents the wind, hail, and branch-impact damage with timestamped photographs, and writes a detailed scope and estimate matching the insurer\'s line items.** Newark Quality Roofing is a New Jersey Home Improvement Contractor, not a licensed public adjuster, so the crew documents the damage and meets the assigned adjuster on site, while the homeowner or a licensed public adjuster files and negotiates the claim, per the NJ Public Adjusters\' Licensing Act administered by NJ DOBI; the deductible is the policyholder\'s responsibility under the policy.',
+    '**Newark Quality Roofing meets the assigned insurance adjuster on site to walk the storm damage and provide technical input on the damage extent and the repair methods.** A crew prepares the documentation for a supplement, because rotted decking or hidden damage at a Verona pre-war tear-off can exceed the initial estimate, per Insurance Information Institute claims-process guidance. Under a replacement-cost policy the insurer commonly pays first on an actual-cash-value basis, then releases the held recoverable depreciation after the roof is completed and invoiced, per the National Association of Insurance Commissioners and the Insurance Information Institute.',
+    '**Newark Quality Roofing strips the roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs the cover to manufacturer specification.** A complete tear-off exposes the split-level offset planes and pre-war plank deck for inspection and repair, the ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision, and the crew seals the deck, ring-shank-nails the cover for wind resistance, and rebuilds the roof-to-wall step and counter-flashing at the offset planes.',
   ],
   faqs: [
     {
-      question: 'How quickly can you start storm damage replacement in Verona?',
-      answer: 'Emergency stabilization happens within hours of the call. Permanent replacement scheduling depends on insurance approval timing and material availability, typically starting two to four weeks after the storm event. During major regional storms, material supply constraints may extend the timeline. We keep you informed throughout the process and maintain temporary waterproofing until permanent work begins.'
+      question: 'Do I need a permit to replace a storm-damaged roof in Verona?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Verona counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A structural change to storm-damaged rafters or trusses still triggers a permit, and a commercial, multi-family, or attached building exceeding 25% of the total roof area within 12 months requires one, filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue.',
     },
     {
-      question: 'Does insurance cover the full cost of storm damage replacement?',
-      answer: 'Homeowner\'s insurance typically covers the full replacement cost minus your deductible for storm-damaged roofs. Replacement Cost Value policies pay the full cost to replace with like-kind materials. We file supplements when the initial adjuster estimate falls short of the actual replacement cost, recovering additional coverage for overlooked damage, code upgrades, and material costs that have increased since the adjuster\'s initial estimate.'
+      question: 'Does a storm replacement on a Verona historic landmark need extra approval?',
+      answer:
+        'Verona requires HPC review prior to the issuance of permits only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona, the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church, so every other Verona home reroofs with no HPC review. Per the National Park Service, National Register listing alone places no restriction on a private owner, and Verona Park is an Olmsted-designed Essex County park, not a homeowner reroof gate.',
     },
     {
-      question: 'Can I upgrade my roof during storm damage replacement in Verona?',
-      answer: 'Yes. The insurance covers replacement with like-kind materials, and you pay the difference for any upgrades beyond that standard. Impact-resistant shingles, enhanced wind ratings, and cool-roof technology are common upgrades Verona homeowners select during storm replacement. Some insurers offer premium discounts for impact-resistant upgrades, partially offsetting the upgrade cost through reduced future premiums.'
+      question: 'Should you repair or replace a storm-damaged Verona roof?',
+      answer:
+        'Replace a storm-damaged roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair a roof when the storm damage stays localized on an asphalt roof under 10–15 years old. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data. On a split-level, the offset planes and transition flashing concentrate where that decision turns.',
     },
     {
-      question: 'Should I get multiple estimates for storm damage replacement?',
-      answer: 'Getting multiple estimates helps ensure fair pricing, but be cautious of storm-chasing contractors who appear after major events, quote low prices, and disappear before warranty obligations arise. Local contractors with established Verona presence provide accountability that transient operators cannot. We encourage homeowners to verify licensing, insurance, and local references before selecting any contractor for storm damage replacement.'
+      question: 'Does homeowners insurance cover storm damage roof replacement in Verona?',
+      answer:
+        'Homeowners insurance covers roof replacement when a covered peril causes the damage — wind, hail, or a falling tree branch — and excludes replacement for normal wear, age, or deferred maintenance. Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023), and a reservation-edge Verona home faces falling-branch impact during storms. Newark Quality Roofing documents the damage with timestamped photographs for the adjuster; coverage and approval are the insurer\'s decision.',
     },
     {
       question: 'How much does storm damage roof replacement cost in Verona, NJ?',
-      answer: 'Most storm damage roof replacement projects in Verona range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000–$11,000 per industry replacement benchmarks. Final cost depends on roof size, pitch, material, and access, and a natural slate restoration on an older Verona Colonial runs above the asphalt range. Newark Quality Roofing provides a free written estimate; the deductible remains the homeowner\'s responsibility under the policy.',
     },
   ],
-  metaDescription: 'Storm damage roof replacement in Verona NJ -- emergency tarping, insurance coordination, and wind-rated upgrades for hilltop homes.',
+  metaDescription:
+    'Storm damage roof replacement in Verona NJ — wind, hail, and fallen-branch documentation, insurance coordination, split-level and pre-war tear-offs.',
   pricing: {
-    range: '$9,000–$28,000',
-    note: 'often insurance-covered',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free storm damage roof replacement estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for storm damage roof replacement in Verona.',
+    urgencyNote: 'Addressing storm roof damage early limits interior and structural water damage.',
   },
 };

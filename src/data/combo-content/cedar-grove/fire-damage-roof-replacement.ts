@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across Cedar Grove, New Jersey, and Essex County, tearing off the charred covering and deck and rebuilding a Class A fire-rated roof** on the township\'s postwar ranches, split-levels, and Pompton Avenue storefronts as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in Cedar Grove — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Cedar Grove restores the structural roof assembly after fire has compromised rafters, sheathing, and roofing materials beyond repair. Whether the fire originated from an interior source, a chimney malfunction, or an exterior event, the heat, flame, and water from firefighting operations create damage that requires complete roof system rebuild in the affected areas rather than surface replacement alone.',
-    'Cedar Grove\'s residential construction -- wood-framed ranch and colonial homes with asphalt shingle roofing -- is susceptible to fire damage at the roof level from several township-specific sources: chimney fires in aging masonry flues that have not been cleaned or relined, electrical fires in shallow ranch attic spaces where outdated wiring runs close to framing, and exterior fires from lightning strikes to the mature tree canopy. Our [fire damage roof replacement](/fire-damage-roof-replacement) projects address the structural, waterproofing, and aesthetic restoration required to return a fire-damaged Cedar Grove home to its pre-loss condition.',
-    'Insurance coordination is integral to fire damage roof replacement, as the scope and cost of fire restoration typically exceeds the homeowner\'s ability to fund independently. Our experience with fire damage claims in Cedar Grove ensures that the full scope of structural repair, code-triggered upgrades, and material replacement is documented and included in the insurance settlement.',
+    '**Newark Quality Roofing replaces fire-damaged roofs across Cedar Grove**, tearing off the charred covering and decking, replacing the heat-weakened framing to a structural assessment, and rebuilding a fire-rated roof on the township\'s postwar ranches, split-levels, and Pompton Avenue storefronts.',
+    '**The charred covering and decking** carry essentially zero residual structural capacity and are removed to sound wood, per the U.S. Forest Products Laboratory, because the American Wood Council uses a nominal char rate of 1.5 inches of wood per hour. A Newark Quality Roofing tear-off strips the burned covering on a Cedar Grove ranch or split-level to the framing rather than recovering over fire-weakened material.',
+    '**The heat-weakened rafters and trusses** beneath the char retain only roughly 85–90% of original strength, a condition a licensed structural engineer evaluates before reconstruction, per the U.S. Forest Products Laboratory. A Newark Quality Roofing rebuild replaces charred and heat-compromised framing and firefighting-water-saturated decking, then verifies the deteriorated sheathing common on the township\'s older period stock at tear-off.',
+    '**The fire-rated rebuild** installs a roof covering classified under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant rating, per UL 790 and ASTM E108. A Newark Quality Roofing crew rebuilds a Cedar Grove home to current code and documents the fire, heat, and water damage for the owner-occupant and the insurance adjuster.',
   ],
   challenges: [
-    'Structural integrity assessment after fire damage requires engineering evaluation that accounts for the effect of heat exposure on wood framing strength. Rafters, ridge beams, and collar ties exposed to sustained heat lose structural capacity even when they appear intact -- charring depth, checking patterns, and discoloration provide indicators of compromised members that may need replacement. A structural engineer familiar with fire damage assessment determines which framing elements are salvageable and which require replacement.',
-    'Smoke and soot contamination of attic insulation and ductwork extends the remediation scope beyond the visibly fire-damaged area. Smoke travels through the entire attic space and into HVAC systems, depositing soot and odor compounds on every surface. Complete insulation removal, duct cleaning or replacement, and surface sealing with odor-blocking primer are typically required across the entire attic -- not just the fire-damaged zone.',
-    'Water damage from firefighting operations compounds the fire damage on Cedar Grove homes. Fire department hose streams saturate roof sheathing, attic insulation, and interior finishes in areas far from the actual fire location. This water damage must be addressed promptly to prevent mold growth, which can begin within forty-eight hours of water exposure in northern Essex County\'s humid environment.',
+    '**Post-fire structural assessment** is the defining condition on a Cedar Grove fire rebuild, because charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, per the U.S. Forest Products Laboratory and EDT Engineers. A licensed structural engineer sets the framing scope, and Newark Quality Roofing performs the roofing to that assessment.',
+    '**Firefighting-water saturation** compounds the fire damage on the township\'s postwar ranches and split-levels, because extinguishing water saturates decking, insulation, and framing and accelerates corrosion of metal truss plates and fasteners, per the U.S. Forest Products Laboratory and ANSI/IICRC S700. A Newark Quality Roofing rebuild replaces the saturated plywood or OSB sheathing and the corroded connectors.',
+    '**Smoke and soot residue** spreads through the attic and onto metal components beyond the burned zone, because acidic soot keeps corroding metal connectors and electrical insulation, though smoke staining alone does not structurally weaken wood, per ANSI/IICRC S700 and the U.S. Forest Products Laboratory. A Newark Quality Roofing scope removes soot from members kept in service.',
+    '**Deteriorated period sheathing** surfaces at a Cedar Grove tear-off on the township\'s older homes, where firefighting water and char meet aging plank decking with slate or metal detailing. A Newark Quality Roofing crew replaces the water-soaked or deteriorated deck, because a water-soaked or deteriorated base is not adequate for a new covering and requires full removal, per N.J.A.C. 5:23-6.4.',
   ],
   process: [
-    'Fire damage roof replacement begins with structural engineering assessment once the fire marshal releases the building for access. We document the full extent of fire, smoke, and water damage with photographs, measurements, and material identification. The engineering evaluation determines the scope of structural repair required and informs the insurance claim documentation.',
-    'Structural rebuild replaces all fire-compromised framing with new dimensional lumber matching or exceeding the original member sizes. Damaged sheathing is stripped to the extent of fire and water damage. All salvageable framing is cleaned, treated with odor sealant, and verified for structural adequacy. Insulation is removed entirely and replaced after structural work is complete. The rebuild brings the affected area up to current Cedar Grove building code requirements.',
-    'Roofing installation on the rebuilt structure follows standard new-construction practices with full ice-and-water shield, synthetic underlayment, and architectural shingles matched to the undamaged portions of the roof. Fire-resistant materials are specified where code requires, including Class A rated shingles and fire-rated collar ties and blocking. The completed restoration returns the Cedar Grove home to pre-loss condition with upgraded fire resistance.',
+    '**Newark Quality Roofing photographs the fire, heat, smoke, and firefighting-water damage, writes a detailed scope and estimate, and meets the insurer\'s adjuster on site.** Newark Quality Roofing inspects and documents the damage as a roofing contractor, while the homeowner or a licensed public adjuster files and negotiates the claim under the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B, because fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I).',
+    '**Newark Quality Roofing tears off the charred covering and saturated decking to the framing, then rebuilds the heat-weakened rafters, trusses, and sheathing to the structural engineer\'s assessment and current code.** A tear-off removes charred material to sound wood, because the char layer carries essentially zero residual structural capacity, per the American Wood Council and the U.S. Forest Products Laboratory, and a water-soaked or deteriorated deck requires full removal, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing rebuilds a Class A fire-rated roof, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor.** A Class A roof covering rates highest under the UL 790 and ASTM E108 fire-test methods, the rating that keeps the manufacturer system warranty intact, and the workmanship warranty on the labor is separate from the manufacturer material warranty that covers factory defects.',
   ],
   faqs: [
     {
-      question: 'How long does fire damage roof replacement take in Cedar Grove?',
-      answer: 'Fire damage restoration timelines depend on the extent of structural damage and the insurance coordination process. Minor fire damage affecting a small roof section may complete in two to three weeks. Major fire damage requiring structural rebuild typically takes four to eight weeks from construction start, with additional lead time for engineering assessment and insurance approval. Emergency weatherproofing is maintained throughout.',
+      question: 'Should I repair or replace a fire-damaged roof on a Cedar Grove home?',
+      answer:
+        'Replace a fire-damaged Cedar Grove roof when fire reaches the structure, char weakens the framing, or damage exceeds 25–30% of the roof area; repair only when fire damage stays surface-localized on sound framing. The char layer carries essentially zero residual structural capacity and is removed, per the U.S. Forest Products Laboratory, and the 25–30% area rule favors full replacement, per roofing industry guidance.',
     },
     {
-      question: 'Will my insurance cover fire damage roof replacement in Cedar Grove?',
-      answer: 'Homeowner\'s insurance typically covers fire damage roof replacement in full, minus the deductible, including structural repair, code upgrades, and material replacement needed to restore the home to pre-loss condition. We coordinate all documentation and claims communication to maximize coverage and minimize the homeowner\'s out-of-pocket exposure.',
+      question: 'Does a fire damage roof replacement on a Cedar Grove home need a permit?',
+      answer:
+        'A complete tear-off and re-cover of the roof covering on a detached one- or two-family Cedar Grove home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit. Replacing charred rafters or trusses, however, is a structural change that triggers a permit, per the NJ Uniform Construction Code. A commercial or attached building, including a Pompton Avenue storefront, requires a permit once the work exceeds 25% of the roof area in 12 months, filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue.',
     },
     {
-      question: 'Can the non-fire-damaged portion of my Cedar Grove roof stay?',
-      answer: 'If the non-damaged portion of the roof is in good condition with remaining service life, partial replacement is appropriate. We match new shingles to the existing material as closely as possible. However, if the undamaged roof section is near end-of-life, the insurance claim may support full replacement to avoid a patchwork result that requires separate replacement within a few years.',
+      question: 'Does a historic district in Cedar Grove restrict a fire damage roof replacement?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority, and the township carries no locally designated historic district or landmark. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
     },
     {
-      question: 'Do I need to move out during fire damage roof replacement?',
-      answer: 'If the fire damage is limited to the roof structure and the living space is habitable, you can remain in the home during reconstruction. However, if smoke contamination, water damage, or structural compromise affects the living space, temporary relocation is advisable. Loss-of-use coverage in your homeowner\'s policy typically covers temporary housing expenses during the restoration period.',
+      question: 'Does homeowners insurance cover fire damage roof replacement in Cedar Grove?',
+      answer:
+        'Homeowners insurance covers fire damage roof replacement when fire causes the loss, a covered peril, and the deductible stays the homeowner\'s responsibility under the policy. Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I). Newark Quality Roofing documents the damage and meets the adjuster on site, while the homeowner or a licensed public adjuster files and negotiates the claim under N.J.S.A. 17:22B.',
+    },
+    {
+      question: 'Can a fire-damaged Cedar Grove roof be recovered over instead of torn off?',
+      answer:
+        'A fire-damaged Cedar Grove roof requires a full tear-off rather than a recover, because a water-soaked, charred, or deteriorated deck is not an adequate base for a new covering. N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions require removal of the existing covering when the deck is water-soaked or deteriorated, the condition firefighting water and char create on the township\'s postwar and older homes.',
     },
     {
       question: 'How much does fire damage roof replacement cost in Cedar Grove, NJ?',
-      answer: 'Most fire damage roof replacement projects in Cedar Grove range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage roof replacement adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Josten Roofing and Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement in Cedar Grove NJ -- structural rebuild, insurance coordination, and full restoration after residential fire events.',
+  metaDescription:
+    'Fire damage roof replacement in Cedar Grove NJ — charred tear-off, structural rebuild, Class A fire-rated roof, insurance documentation. Free estimate.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; fire damage adds structural framing and decking replacement on top of the covering. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Structural rebuild to a licensed structural engineer\'s post-fire assessment, with a Class A fire-rated roof.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in Cedar Grove.',
+    urgencyNote: 'Addressing fire and firefighting-water damage early limits further interior and structural water damage.',
   },
 };

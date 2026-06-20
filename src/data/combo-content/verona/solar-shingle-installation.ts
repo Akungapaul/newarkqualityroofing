@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const veronaSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing solar shingle installation across Verona, New Jersey, and Essex County, replacing the roof covering with photovoltaic shingles on pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.',
   overview: [
-    'Newark Quality Roofing delivers expert solar shingle installation in Verona — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle installation in Verona offers homeowners who want clean energy generation without the visual impact of traditional panel arrays a building-integrated solution that looks like conventional roofing. Solar shingles replace standard asphalt or slate-profile roofing on designated roof sections, generating electricity from the same surface that provides weather protection. For Verona homeowners who value the township\'s established suburban aesthetic but also want to reduce their carbon footprint and energy costs, solar shingles represent the convergence of architectural discretion and renewable energy performance.',
-    'Newark Quality Roofing installs solar shingle systems on Verona homes where the rooftop solar exposure justifies the investment and where the homeowner\'s aesthetic preferences favor integration over the visibility of rack-mounted panels. The technology has matured significantly -- current-generation solar shingles achieve 15 to 20 percent conversion efficiency, approaching the 20 to 22 percent range of conventional panels while maintaining the low-profile appearance that makes them nearly indistinguishable from premium architectural shingles at street level. Our [solar shingle](/solar-shingle-installation) installations coordinate the roofing and electrical components as a single integrated system.',
-    'Verona\'s split-level rooflines actually complement solar shingle installations by distributing the energy-generating surface across multiple planes at different orientations. While a south-facing plane produces peak generation at midday, east and west-facing planes extend the production curve into morning and afternoon hours, smoothing the daily output profile. This multi-plane advantage, unique to split-levels and multi-faceted roofs, generates more usable energy throughout the day than a single-orientation array would produce. Homeowners in [Montclair](/solar-shingle-installation-montclair-nj) with similarly complex rooflines have seen comparable multi-plane production benefits.'
+    '**Newark Quality Roofing installs building-integrated solar shingles** during a new roof or full reroof on Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels, where the photovoltaic shingle becomes the roof covering itself rather than hardware on top.',
+    '**Building-integrated solar shingles** replace the covering as a single project, because a solar shingle serves as the roof rather than an add-on, per the DOE Office of Energy Efficiency and Renewable Energy. Newark Quality Roofing names 3 systems for Verona homes — GAF Energy Timberline Solar, Tesla Solar Roof, and CertainTeed Solstice — and CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed.',
+    '**Verona\'s split-levels** spread the energy surface across offset planes that meet a vertical wall, so a Newark Quality Roofing layout sets the solar shingles on the planes with clear exposure and rebuilds the roof-to-wall step and counter-flashing at the transition where most split-level leaks start. The named products list a minimum 2:12 pitch, per GAF Energy and Tesla, which the township\'s pitched stock meets.',
+    '**Honest positioning against rack-mounted panels** frames the choice, because a solar shingle costs more per watt and produces less per square foot than a panel — solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for panels, per EnergySage, SolarReviews, and WattBuild — so a solar-shingle roof suits a Verona homeowner prioritizing a uniform roof surface over the lower per-watt cost of panels.',
   ],
   challenges: [
-    'Solar shingle cost per watt of generation capacity exceeds conventional panel systems by 30 to 50 percent, making the financial payback period longer than rack-mounted alternatives. The premium buys aesthetic integration that panels cannot provide, but the economic calculation must be clear: homeowners choosing solar shingles are paying for appearance alongside energy generation. Our consultations present both options side-by-side with production estimates, cost comparisons, and payback projections so Verona homeowners can make an informed value judgment.',
-    'Replacement and repair of individual solar shingles is more complex than servicing rack-mounted panels because the shingles are integrated into the roofing system rather than mounted on accessible rails above it. A failed solar shingle requires partial roof disassembly to access the electrical connections and physical attachment. This repair complexity means that product reliability is paramount -- we specify only solar shingle products with proven field track records and manufacturers with established warranty service infrastructure.',
-    'Shade impact on solar shingle performance is amplified compared to conventional panel systems because solar shingles lack the individual microinverter or optimizer technology that panel systems use to isolate shaded modules from productive ones. A shadow falling across one section of solar shingles can reduce output across the entire connected string. Verona\'s tree canopy makes shade management critical, and our design process identifies which roof sections have consistent clear exposure versus intermittent shading that would compromise production.'
+    '**Reroof pairing** governs a Verona solar-shingle project, because a solar shingle replaces the roof covering and pairs with a full reroof rather than mounting on a finished roof, per the DOE Office of Energy Efficiency and Renewable Energy. A Newark Quality Roofing scope strips the older pre-war stock to the deck and replaces deteriorated plank sheathing discovered at tear-off before the solar shingle goes down.',
+    '**Reservation-edge shade** from the Eagle Rock Reservation on the First Watchung Mountain and the Hilltop Reservation on the Second Watchung Mountain, per Essex County Parks, plus mature street trees near Verona Park, drops branch and leaf cover across north-facing slopes. A Newark Quality Roofing layout sizes the array on the planes with consistent clear exposure rather than the intermittently shaded slopes.',
+    '**Roof area** sets the second constraint, because a 6-kilowatt solar-shingle system needs about 360 square feet of shingles against about 250 square feet of panels, roughly 44% more roof area, per SolarReviews from the GAF Energy datasheet. A Newark Quality Roofing layout determines which planes carry solar shingles and which carry conventional shingles based on exposure and the home\'s energy target.',
   ],
   process: [
-    'Solar shingle project planning in Verona begins with the same shade analysis and structural assessment as conventional solar installations, with the additional step of evaluating the roof area needed to meet the homeowner\'s energy target using solar shingles\' lower per-unit output compared to panels. The design determines which roof planes receive solar shingles and which receive conventional shingles, optimizing the solar-to-conventional ratio based on exposure quality and production economics.',
-    'Installation integrates solar shingle courses into the standard roofing sequence. The deck receives full underlayment and ice-and-water shield at all required locations. Conventional shingle courses begin at the eaves and progress upward until reaching the solar shingle zone, where the electrical wiring harness is positioned and the solar shingles are installed in their designated courses. The transition from conventional to solar shingles is visually seamless -- both products maintain the same coursing pattern and profile height. Electrical connections are made behind the shingle field, invisible from any viewing angle.',
-    'System commissioning tests each solar shingle section individually, verifying electrical output against the rated production for the installed orientation and pitch. The inverter is configured for the specific array layout, and utility interconnection paperwork is submitted for net metering activation. The homeowner receives a combined warranty package covering both roofing weatherproofing and solar energy production, with separate coverage terms for each component.'
+    '**Newark Quality Roofing assesses the roof pitch, the roof area, and the reroof scope, then sets honest expectations against rack-mounted panels.** A technician confirms the minimum 2:12 pitch the named products require and sizes the array against the roughly 44% larger area a solar shingle needs versus panels, per GAF Energy and SolarReviews, and presents GAF Energy Timberline Solar at 57 watts per shingle, Tesla Solar Roof at 72 watts per active tile, and CertainTeed Solstice at 70 watts per shingle, per each manufacturer.',
+    '**Newark Quality Roofing strips the roof to the deck and installs the building-integrated solar shingle to manufacturer specification.** The crew repairs deteriorated sheathing, prepares the underlayment, and rebuilds the roof-to-wall step and counter-flashing on a split-level transition, then installs the solar shingle into the field — GAF Energy Timberline Solar nails in with the same crew and tools as Timberline asphalt shingles — keeping the manufacturer system warranty intact, per GAF Energy.',
+    '**Newark Quality Roofing coordinates the array wiring to code, files the required permits, and schedules inspection.** The photovoltaic and electrical work carries its own building and electrical permits filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue, and the named systems meet NEC 690.12 rapid shutdown, which drops conductors to 30 volts or less outside and 80 volts or less inside the array boundary within 30 seconds, per the NEC and UL 3741.',
   ],
   faqs: [
     {
-      question: 'How do solar shingles look compared to regular shingles on a Verona home?',
-      answer: 'Current-generation solar shingles closely match the profile, texture, and color of premium architectural asphalt shingles. From street level, most visitors cannot distinguish the solar sections from conventional shingle courses. The integration is most seamless when solar shingles cover full roof planes rather than partial sections, which eliminates mid-plane transitions between solar and conventional materials. Our design process optimizes plane coverage to maximize both visual integration and energy production.'
+      question: 'What is a solar shingle and how does it differ from solar panels on a Verona home?',
+      answer:
+        'A solar shingle is building-integrated photovoltaics, BIPV, where the photovoltaic material is the roof covering itself, while solar panels are building-applied photovoltaics, BAPV, rack-mounted hardware added on top of an existing roof. A solar shingle replaces the roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS, so a Verona project pairs with a new roof or full reroof.',
     },
     {
-      question: 'How much electricity do solar shingles produce on a Verona split-level?',
-      answer: 'Production depends on the available solar-exposure roof area, but a typical Verona split-level with solar shingles on the best-oriented planes generates 4 to 7 kilowatts of peak capacity, producing approximately 5,000 to 9,000 kilowatt-hours annually. This offsets 40 to 75 percent of average household electricity consumption, depending on usage patterns. Multi-plane installations on split-levels capture morning, midday, and afternoon sun, distributing production across more hours than single-plane installations.'
+      question: 'Do I need a permit to install solar shingles in Verona?',
+      answer:
+        'A reroof of the roof covering on a detached one- or two-family Verona home counts as ordinary maintenance under N.J.A.C. 5:23-2.7. The photovoltaic and electrical work carries its own building and electrical permits filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue, per the NJ Uniform Construction Code and the NEC. A commercial, multi-family, or attached building exceeding 25% of the roof area in 12 months also requires a roofing permit.',
+    },
+    {
+      question: 'Does a Verona historic landmark designation affect a solar shingle reroof?',
+      answer:
+        'Verona requires HPC review prior to the issuance of permits only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona — the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church — so every other Verona home reroofs with no HPC review. The Afterglow section is a proposed survey recommendation, not a designated district, and per the National Park Service, National Register listing alone places no restriction on a private property owner.',
     },
     {
       question: 'Are solar shingles worth the extra cost over panels in Verona?',
-      answer: 'Solar shingles cost 30 to 50 percent more per watt than conventional panel systems. The premium buys aesthetic integration that preserves Verona\'s neighborhood character without the visual impact of rack-mounted panels. For homeowners in architecturally sensitive areas or those who strongly prefer a seamless roof appearance, the premium is worthwhile. For homeowners primarily motivated by energy savings and return on investment, conventional panels deliver more energy per dollar invested.'
+      answer:
+        'Solar shingles cost more per watt than panels and produce less per square foot, so a solar shingle is an integration and appearance choice for a Verona homeowner who prefers a uniform roof surface, not a per-watt-value win. Solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for panels, with module efficiency around 14% to 18% against more than 20% for premium panels, per SolarReviews, EnergySage, and NREL.',
     },
     {
-      question: 'How long do solar shingles last compared to regular roofing shingles?',
-      answer: 'Solar shingles are designed for a 25 to 30 year service life, matching or exceeding the lifespan of premium architectural asphalt shingles. The energy production degrades gradually -- approximately 0.5 percent per year -- so a 25-year-old solar shingle system still produces roughly 87 percent of its original output. The roofing weatherproofing function remains effective throughout the product life, as the shingle substrate materials are the same as those used in premium non-solar architectural shingles.'
+      question: 'Is there a tax credit for solar shingles in Verona, NJ in 2026?',
+      answer:
+        'No federal residential solar tax credit applies to a system completed after December 31, 2025, because the IRS reports the section 25D clean energy credit, the 30% credit available through 2025, is repealed under the One Big Beautiful Bill. New Jersey programs remain — the Successor Solar Incentive program administered by the NJ Board of Public Utilities pays a fixed per-megawatt-hour SREC-II incentive over a 15-year term, plus net metering and sales- and property-tax exemptions, per the NJ Board of Public Utilities and the NJ Division of Taxation. Newark Quality Roofing refers tax and incentive questions to a tax professional.',
     },
     {
       question: 'How much does solar shingle installation cost in Verona, NJ?',
-      answer: 'Most solar shingle installation projects in Verona range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A solar-shingle installation in Verona typically falls in the $10,000–$25,000 range, with the per-watt cost running higher than rack-mounted panels at about $3.50 to $8.00 per watt installed, per EnergySage, SolarReviews, and WattBuild. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Solar shingle installation in Verona NJ -- building-integrated solar roofing for split-level homes that looks like premium shingles.',
+  metaDescription:
+    'Solar shingle installation in Verona NJ — building-integrated photovoltaic roofing on Colonials, Capes, and split-levels during a reroof. Free estimate.',
   pricing: {
-    range: '$25,000–$50,000',
-    note: 'integrated solar shingle system',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; solar shingles run a higher per-watt cost than rack-mounted panels per EnergySage and SolarReviews. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free solar shingle installation estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for solar shingle installation in Verona.',
+    urgencyNote: 'Pairing the solar shingle with a planned reroof avoids removing and reinstalling an array mid-roof-life.',
   },
 };

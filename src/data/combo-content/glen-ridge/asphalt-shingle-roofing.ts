@@ -3,55 +3,74 @@ import type { ComboContent } from '../schema';
 export const glenRidgeAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'glen-ridge',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing asphalt shingle roofing across Glen Ridge, New Jersey, and Essex County, fitting architectural and 3-tab shingles on the borough\'s pre-WWII Colonial Revival and Dutch Colonial homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Asphalt shingle roofing** covers a sloped roof in overlapping fiberglass-mat shingles surfaced with mineral granules, laid over underlayment, an ice barrier, drip edge, and flashing into a water-shedding system. It is the most common residential roof covering and comes in flat 3-tab and dimensional architectural profiles.',
   overview: [
-    'Newark Quality Roofing delivers expert asphalt shingle roofing in Glen Ridge — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roofing in Glen Ridge occupies a carefully defined niche within the borough\'s preservation framework. The Historic Preservation Commission does not accept standard three-tab or basic architectural shingles on the street-facing elevations of homes within the historic district -- the visual disconnect between economy shingles and the Victorian, Edwardian, and Colonial Revival architecture they would cover is simply too stark. However, premium designer shingle systems from manufacturers including CertainTeed, GAF, and Owens Corning have earned commission approval for specific applications, offering Glen Ridge homeowners an alternative to natural slate and cedar shake that delivers comparable aesthetics at significantly lower installed cost.',
-    'The commission-approved shingle products available for Glen Ridge homes are not the dimensional shingles found at building supply centers. These are heavy-weight, multi-layered designer products engineered to replicate the shadow lines, depth, and texture of natural slate or hand-split cedar shake. Products like CertainTeed Grand Manor, GAF Camelot, and Owens Corning Berkshire create roofscapes that complement Glen Ridge\'s period architecture from street-level viewing distance. They carry manufacturer warranties of 50 years or more and provide the wind, impact, and algae resistance that the borough\'s exposure conditions demand.',
-    'For homeowners deciding between premium shingles and natural materials, Glen Ridge presents a calculation that differs from surrounding communities. The commission\'s material requirements mean that the cheapest acceptable shingle option in Glen Ridge costs substantially more than what a homeowner in neighboring [Bloomfield](/asphalt-shingle-roofing-bloomfield-nj) would pay for a standard architectural shingle. However, the gap between commission-approved designer shingles and natural slate or cedar shake remains significant, making premium shingles an attractive middle ground that satisfies preservation standards while respecting budget realities.',
+    '**Newark Quality Roofing installs architectural and 3-tab asphalt shingle roofs** across Glen Ridge\'s pre-WWII Colonial Revival, Dutch Colonial, and smaller detached homes, and on the small Bloomfield Avenue station-edge buildings. An asphalt shingle re-roof layers shingles, an eave-and-valley ice barrier, synthetic underlayment, drip edge, and flashing into one water-shedding system.',
+    '**Architectural and 3-tab shingles** carry different service lives, because 3-tab shingles last 20 years and architectural shingles 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. Architectural shingles bond multiple fiberglass-mat layers into a dimensional profile that carries a higher wind rating than single-layer 3-tab, per ARMA and manufacturer guidance.',
+    '**Glen Ridge\'s mature street-tree canopy** of oak, maple, and elm shades a fully built-out inner lowland borough and drops leaf load and broken branches that collect in valleys and gutters, while shade on north-facing slopes feeds the moss and algae that lift shingle edges. A Newark Quality Roofing asphalt install specifies algae-resistant shingles and clears valley and gutter blockage on the borough\'s tree-lined streets.',
+    '**The Glen Ridge Historic District** covers over 90% of the borough, per the Borough of Glen Ridge, so a change of roofing material on a regulated property requires a Certificate of Appropriateness from the borough Historic Preservation Commission before the work, addressed in the historic-permit framing below. A detached one- or two-family asphalt re-roof in matching material is still no-permit ordinary maintenance under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.',
   ],
   challenges: [
-    'Securing Historic Preservation Commission approval for asphalt shingles in Glen Ridge requires demonstrating that the selected product achieves visual compatibility with the home\'s architectural period and the surrounding streetscape. The commission evaluates material samples, manufacturer profile specifications, and sometimes installed examples before granting approval. Products that work for a 1920s Colonial Revival may not be accepted for a high-visibility 1890s Queen Anne Victorian where the commission expects natural materials. Our knowledge of commission precedents guides homeowners toward products with demonstrated approval history for their specific home type and location.',
-    'Even premium designer shingles face performance challenges unique to Glen Ridge. The borough\'s dense tree canopy creates heavy shade that promotes algae and moss colonization regardless of algae-resistant granule technology. Leaf and debris accumulation in the complex valleys, dormers, and gable intersections of Victorian rooflines retains moisture that can undermine even the heaviest shingle products. We specify algae-resistant products for every Glen Ridge installation and recommend annual maintenance cleaning to protect the investment.',
+    '**The mature street-tree canopy** is the defining asphalt-roof stressor in Glen Ridge, because the borough\'s heavy oak, maple, and elm canopy loads valleys and gutters with leaf and branch debris. That debris backs water under the shingles, while shade on north slopes feeds moss and algae, so a Newark Quality Roofing install fits algae-resistant shingles and clears the valleys and gutters.',
+    '**Complex multi-gable rooflines** detail Glen Ridge\'s pre-WWII high-style stock with dormers, valleys, and chimney transitions, where the roofing industry estimates roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing crew weaves step flashing with each shingle course and reseals the penetrations.',
+    '**Plank and deteriorated sheathing** turns up at tear-off on the borough\'s ~1890s–1930s homes, per the Glen Ridge Historical Society, because older decking can rot beneath an aging covering. A Newark Quality Roofing crew strips the roof to the bare deck, inspects every section, and replaces deteriorated boards before the new shingles go down.',
+    '**The Glen Ridge Historic District** regulates exterior roofing on most of the borough, because the district covers over 90% of Glen Ridge, per the Borough of Glen Ridge. A change of roofing material on a regulated property requires a Certificate of Appropriateness from the borough Historic Preservation Commission under Chapter 15.32, a separate local approval from the construction permit.',
   ],
   process: [
-    'Asphalt shingle selection for Glen Ridge begins with understanding the commission\'s expectations for the specific home. We evaluate the architectural period, the street-facing visibility, the materials on neighboring homes, and the commission\'s recent approval history for comparable properties. This analysis narrows the product options to those most likely to receive first-submission approval, avoiding the delays of rejected applications.',
-    'Commission application for asphalt shingle installations includes product specifications, physical samples, color photographs of the selected product installed on comparable architecture, and manufacturer documentation of the shingle\'s profile dimensions and shadow line characteristics. We present this package to demonstrate that the product achieves the visual density and texture that the commission expects for Glen Ridge\'s protected streetscapes.',
-    'Installation follows the same enhanced specifications we apply to every Glen Ridge project: complete ice-and-water shield at all eaves, valleys, and penetrations; copper flashings hand-formed to match existing metalwork; concealed ridge vent maintaining the historic roofline silhouette; and six-nail fastening patterns on all exposures. The result is a shingle installation that performs to premium standards while achieving the aesthetic harmony that Glen Ridge\'s historic district demands.',
+    '**Newark Quality Roofing presents the 2 asphalt options — 3-tab at a 20-year life and architectural at 30 years — with the lifespan and wind rating of each named before any work begins.** The lifespans trace to the InterNACHI life-expectancy chart and the wind ratings to ARMA and manufacturer guidance, and a Newark Quality Roofing estimate confirms whether a Glen Ridge parcel sits in the regulated historic district before the material is set.',
+    '**Newark Quality Roofing strips the roof to the deck, repairs the sheathing, and installs an ice barrier and synthetic underlayment before the shingles**, the sequence that keeps the manufacturer system warranty intact. The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code, and metal drip edge extends at least 2 inches onto the deck, per GAF and ARMA.',
+    '**Newark Quality Roofing fastens each shingle in the manufacturer nailing zone, integrates the flashing, and balances the attic ventilation**, because architectural shingles reach a wind rating up to 130 mph only with the manufacturer 6-nail pattern, per ARMA and manufacturer guidance. The NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, balanced about 50% intake and 50% exhaust, because balanced ventilation extends roof service life, per the NRCA.',
+    '**Newark Quality Roofing verifies the install against manufacturer specification, runs a magnet sweep for nails, and documents the work with photographs.** A Newark Quality Roofing lead issues a written workmanship warranty on the labor, separate from the manufacturer material warranty that covers factory defects, per Integrity Home Exteriors verification and Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'Will the Glen Ridge Historic Preservation Commission approve asphalt shingles on my home?',
-      answer: 'Specific premium designer shingle products have received commission approval for Glen Ridge homes, particularly on Colonial Revival, Tudor, and Craftsman-style homes built after 1910. High-visibility Victorian homes from the 1890s may require natural materials for street-facing elevations. We assess your home\'s specific situation and recommend products with demonstrated commission approval for comparable applications.',
+      question: 'What is the difference between 3-tab and architectural shingles for a Glen Ridge home?',
+      answer:
+        'Architectural shingles bond multiple fiberglass-mat layers into a dimensional profile that lasts 30 years and rates up to 130 mph, while 3-tab shingles use a single flat layer that lasts 20 years and rates near 60 mph. The lifespans trace to the InterNACHI life-expectancy chart and the wind ratings to ARMA and manufacturer guidance, with the 130 mph rating requiring the manufacturer 6-nail pattern. Newark Quality Roofing fits architectural shingles on most Glen Ridge homes for the higher rating and longer life.',
     },
     {
-      question: 'What asphalt shingle brands work best for Glen Ridge homes?',
-      answer: 'CertainTeed Grand Manor and Carriage House, GAF Camelot and Slateline, and Owens Corning Berkshire are among the designer products that have received Glen Ridge commission approval. These heavy-weight, multi-layered products replicate the shadow depth and texture of natural materials. We maintain current product samples and can show you installed examples on Glen Ridge homes for comparison.',
+      question: 'Does the Glen Ridge Historic District affect an asphalt shingle re-roof?',
+      answer:
+        'Exterior roofing on a regulated property in the Glen Ridge Historic District requires a Certificate of Appropriateness from the borough Historic Preservation Commission under Glen Ridge\'s Historic Preservation ordinance, Chapter 15.32. The Certificate of Appropriateness governs roof replacement, a change of roofing material, dormers, and visible roof-mounted equipment, and the Glen Ridge Historic District covers over 90% of the borough, per the Borough of Glen Ridge, so most homes fall inside the regulated district. The Certificate of Appropriateness is a local-ordinance requirement, not a consequence of the 1982 National Register listing — per the National Park Service, National Register listing alone places no federal restriction on a private owner, so confirm a specific parcel with the Historic Preservation Commission or Building Department.',
     },
     {
-      question: 'How much do commission-approved asphalt shingles cost in Glen Ridge?',
-      answer: 'Commission-approved designer shingle installations in Glen Ridge typically range from $18,000 to $30,000 depending on roof size and complexity. This is 30 to 50 percent more than standard architectural shingle installations but 40 to 60 percent less than natural slate. The cost includes copper flashings, enhanced underlayment, and commission application coordination.',
+      question: 'Do you need a permit for asphalt shingle roofing in Glen Ridge, NJ?',
+      answer:
+        'A complete asphalt re-roof of the roof covering on a detached one- or two-family home in Glen Ridge counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the total roof area within 12 months requires a permit from the Borough of Glen Ridge Building Department at 825 Bloomfield Avenue, and the small Bloomfield Avenue station-edge buildings are where that commercial path applies. A regulated historic-district property still requires a separate Certificate of Appropriateness for a change of roofing material.',
     },
     {
-      question: 'How long do premium asphalt shingles last on Glen Ridge homes?',
-      answer: 'Designer shingle products carry manufacturer warranties of 50 years or more. Realistic performance life in Glen Ridge is 30 to 40 years with proper maintenance, including periodic cleaning to manage the biological growth that the borough\'s tree canopy promotes. Adequate attic ventilation and annual debris removal from valleys and gutters are the most important factors in achieving maximum shingle lifespan.',
+      question: 'How long do asphalt shingles last on a Glen Ridge home?',
+      answer:
+        'Architectural asphalt shingles last 30 years and 3-tab shingles 20 years, with actual asphalt life varying up to 40% with climate, install, and attic ventilation. The lifespans trace to the InterNACHI life-expectancy chart and the NRCA, and balanced attic ventilation extends roof service life, per the NRCA. On Glen Ridge\'s tree-shaded streets, clearing valleys and gutters of canopy debris and managing moss on north-facing slopes protects the shingle life the chart describes.',
+    },
+    {
+      question: 'Should you repair or replace an asphalt shingle roof in Glen Ridge?',
+      answer:
+        'Replace an asphalt roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair the roof when the damage stays localized on a roof under 10–15 years old. The 25–30% area rule traces to RapidRestore and Modernize and the 50% cost rule to WeatherShield and Home Depot, with the 30% rule attributed to Kellow and Modernize. A localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.',
     },
     {
       question: 'How much does asphalt shingle roofing cost in Glen Ridge, NJ?',
-      answer: 'Most asphalt shingle roofing projects in Glen Ridge range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Asphalt shingle roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize cost data. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors, and Glen Ridge\'s larger high-style homes with steep slopes and complex rooflines raise the figure. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Asphalt shingle roofing in Glen Ridge NJ. HPC-approved designer shingles replicating slate and cedar profiles for the borough\'s historic district homes.',
+  metaDescription:
+    'Asphalt shingle roofing in Glen Ridge NJ — architectural and 3-tab installs on pre-WWII homes, Chapter 15.32 historic COA. NJ-registered, free estimate.',
   pricing: {
-    range: '$8,500–$18,000',
-    note: 'full installation with tear-off',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Glen Ridge\'s pre-WWII Victorian, Tudor, and Colonial Revival homes and the Bloomfield Avenue station edge.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free asphalt shingle roofing estimate in Glen Ridge — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for asphalt shingle roofing in Glen Ridge.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

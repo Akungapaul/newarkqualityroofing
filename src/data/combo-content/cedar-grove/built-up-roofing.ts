@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing built-up roofing across Cedar Grove, New Jersey, and Essex County, installing and restoring multi-ply BUR membranes on the low-slope commercial roofs of the Pompton Avenue / Route 23 corridor** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Built-up roofing** is a low-slope membrane that alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel, mineral granules, or a reflective coating. The multi-ply assembly shields the membrane from UV and impact.',
   overview: [
-    'Newark Quality Roofing delivers expert built up roofing in Cedar Grove — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems have protected Cedar Grove\'s commercial and institutional buildings since the township\'s post-war development era, and the multi-ply construction method remains relevant for building owners who value proven redundancy over single-membrane simplicity. The alternating layers of bitumen and reinforcing fabric that define BUR create a monolithic waterproof assembly that resists the puncture damage, foot traffic wear, and debris impact that Cedar Grove\'s commercial rooftops endure season after season.',
-    'Cedar Grove\'s commercial properties along Pompton Avenue and in the professional office parks flanking Route 23 include numerous buildings carrying original or second-generation BUR systems installed during the 1970s through 1990s. As these systems approach end-of-life, our [built-up roofing](/built-up-roofing) replacement and restoration projects give building managers the choice between continuing with modern BUR -- using contemporary fiberglass felts and polymer-modified bitumens -- or transitioning to single-ply alternatives. For properties requiring walkable, impact-resistant roof surfaces, updated BUR systems remain the performance benchmark.',
-    'The institutional familiarity of BUR construction among Cedar Grove\'s established commercial building owners and property managers provides a practical advantage: maintenance teams understand the system, repair procedures are straightforward, and local roofing supply houses maintain full inventories of BUR materials suited to northern Essex County conditions.',
+    '**Newark Quality Roofing installs and restores built-up roofing** on the low-slope commercial roofs of Cedar Grove\'s Pompton Avenue / Route 23 corridor, plus the township\'s older flat-roof stock. The corridor carries the strip retail, offices, and service buildings of Central Cedar Grove. Built-up roofing alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel, mineral granules, or a reflective coating.',
+    '**Built-up roofing** lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15–25 years, TPO at 7–20 years, and modified bitumen at 20 years. The multi-ply construction gives a Cedar Grove storefront roof redundant waterproofing, because each fully mopped ply adds an independent layer that a dropped tool or a falling branch from the township\'s street canopy does not breach to the deck.',
+    '**The plies and the surfacing** fail on different timelines, so a built-up roof concentrates failures at the flashing details and at the gravel surfacing, where water enters at one transition and the aggregate migrates over decades. A Newark Quality Roofing assessment identifies the failed detail before resealing or resurfacing the system rather than replacing the whole roof.',
+    '**The Pompton Avenue / Route 23 storefronts** carry these low-slope membranes, while older flat-roof homes on the township\'s tree-shaded streets carry residual BUR from the mid-twentieth-century era when built-up roofing was the dominant flat-roof technology. Newark Quality Roofing maintains, resurfaces, and recovers the sound systems and tears off the spent ones to the deck.',
   ],
   challenges: [
-    'Hot-applied bitumen fumes during BUR installation create air quality and fire safety concerns in Cedar Grove\'s residential-commercial interface. The township\'s compact layout places many commercial buildings directly adjacent to residential properties, and the asphalt fumes generated during traditional hot-mopped BUR application can affect neighboring homes during the installation period. Cold-process BUR systems using adhesive-applied plies rather than hot bitumen mitigate this concern, though they require longer cure times and carry slightly higher material costs. Building managers in neighboring [Caldwell](/built-up-roofing-caldwell-nj) navigate similar proximity challenges.',
-    'Weight accumulation on aging BUR systems poses structural concerns for Cedar Grove commercial buildings. Each recover layer adds two to three pounds per square foot to the existing dead load, and buildings with multiple recovers may approach or exceed their original design load capacity. Cedar Grove building code requires structural evaluation before any BUR recover installation, and properties with existing multi-layer assemblies typically require full tear-off to the deck rather than recover -- a more disruptive and costly process that must be budgeted accordingly.',
-    'Drainage maintenance on BUR systems is critical in Cedar Grove\'s tree-heavy environment. The gravel surface ballast used on traditional BUR installations traps leaf debris and sediment, creating localized ponding areas that accelerate bitumen oxidation and felt deterioration. Modern BUR systems with smooth mineral-surface cap sheets or reflective coatings shed debris more effectively, but Cedar Grove building owners must still commit to quarterly drain cleaning and annual professional surface inspection to prevent debris-related water damage.',
+    '**Reservation-edge and street-canopy debris** loads a Cedar Grove built-up roof, collecting on the gravel surface and at the drains where trapped sediment holds water against the bitumen plies. The wooded edges of the Mills and Hilltop reservations and the township\'s mature deciduous canopy and conifer needle-shed drop the leaf and branch litter. A Newark Quality Roofing scope clears the drains and resurfaces the migrated gravel.',
+    '**Ponding water** breaks down a built-up roof faster than any other condition, because a low-slope roof needs at least ¼ inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per NRCA and ARMA. Standing water accelerates bitumen oxidation and felt deterioration on the flat storefront roofs of the Pompton Avenue / Route 23 corridor. A Newark Quality Roofing scope grades the deck to drain and rebuilds the failed detail.',
+    '**Multiple existing layers** govern whether a Cedar Grove built-up roof recovers or tears off, because full removal to the deck applies when the existing roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4 and the NJ Rehabilitation Subcode. A Newark Quality Roofing core-cut counts the existing plies and assesses the insulation moisture before specifying recover or full tear-off.',
+    '**Surface oxidation** ends a built-up roof, where alligatoring, cracking, and bald spots show the surfacing has migrated and the plies are oxidizing, the most common end-of-life pattern on a 30-year BUR system, per the InterNACHI life-expectancy chart. A Newark Quality Roofing assessment separates a sound membrane that resurfacing restores from a spent one that full replacement requires.',
   ],
   process: [
-    'BUR installation or replacement in Cedar Grove begins with existing assembly evaluation. We core-cut at multiple locations to determine the number of existing layers, assess insulation moisture content, and inspect the structural deck for deterioration. If the building carries two or more existing roof layers, full tear-off is required per Cedar Grove building code. Single-layer buildings may qualify for recover, which reduces cost and disruption.',
-    'New BUR construction begins with mechanical attachment of base sheet to the insulation or deck, followed by application of two to four plies of fiberglass reinforcing felt embedded in hot-applied or cold-process bitumen. Each ply is offset to create staggered lap joints that prevent water migration between layers. The cap sheet uses a mineral-granule or smooth-surface finish depending on traffic requirements and reflectivity goals. Cedar Grove commercial installations typically receive three plies for standard warranty and four plies for enhanced warranty coverage.',
-    'Flashing and penetration details follow the same multi-ply principle -- reinforcing fabric is embedded in bitumen up vertical surfaces at walls, curbs, and equipment bases, with metal counter-flashing providing mechanical termination at the top. We install oversized drain assemblies with debris strainer domes, secondary overflow scuppers, and positive drainage crickets around all rooftop equipment. Completed installations receive manufacturer inspection for warranty qualification and a maintenance guide tailored to Cedar Grove\'s seasonal debris cycles.',
+    '**Newark Quality Roofing assesses the BUR membrane, the surfacing, the flashing details, and the drainage before specifying a built-up roof.** A crew core-cuts at multiple locations to count the existing plies, assess insulation moisture, and inspect the deck, because the plies, the gravel, and the slope each fail on a different timeline. Full removal to the deck applies when the existing roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing builds the BUR assembly from alternating plies of reinforcing fabric and hot bitumen, then surfaces the plies with gravel or a reflective coating, the multi-ply construction that gives built-up roofing a 30-year service life, per the InterNACHI life-expectancy chart.** Each ply crosses the layer below for redundant waterproofing, and the bitumen grade matches the roof slope and the Essex County climate. A reflective cool-roof coating raises solar reflectance against the dark bitumen, measured per ASTM C1549 and listed by the CRRC.',
+    '**Newark Quality Roofing details the flashing, files the commercial permit where one applies, and documents the completed roof.** Reinforcing fabric is embedded in bitumen up walls, curbs, and equipment bases with metal counter-flashing terminating the top, and a permit is filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue when a commercial roof repairs more than 25% of the total roof area in a 12-month period, per N.J.A.C. 5:23-2.7. The lead verifies ply adhesion, surfacing coverage, and positive drainage, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty.',
   ],
   faqs: [
     {
-      question: 'Is built-up roofing still a good choice for Cedar Grove commercial buildings?',
-      answer: 'BUR remains an excellent choice for Cedar Grove commercial buildings where roof surface durability, foot traffic resistance, and proven redundancy matter. The multi-ply construction withstands puncture from falling branches better than single-ply membranes, and the system supports rooftop equipment without special reinforcement. Modern BUR using fiberglass felts and polymer-modified bitumen has eliminated most of the application-era issues that gave older BUR systems a mixed reputation.',
+      question: 'How long does a built-up roof last on a Cedar Grove building?',
+      answer:
+        'A built-up roof lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15–25 years, TPO at 7–20 years, and modified bitumen at 20 years. The multi-ply construction and the gravel surfacing extend the service life, because each fully mopped ply adds an independent waterproofing layer and the gravel shields the bitumen from UV radiation and impact. On the Pompton Avenue / Route 23 storefront roofs, drainage drives the outcome, because a BUR system with chronic ponding deteriorates ahead of one that drains to every drain and scupper.',
     },
     {
-      question: 'How long does built-up roofing last on Cedar Grove buildings?',
-      answer: 'Modern BUR systems last twenty-five to thirty-five years on Cedar Grove commercial buildings with proper drainage and maintenance. Three-ply systems typically reach twenty-five years, while four-ply assemblies extend to thirty-five years under favorable conditions. The primary lifespan factor is drainage -- BUR systems with chronic ponding deteriorate significantly faster than those maintaining positive drainage to every drain and scupper.',
+      question: 'Why choose built-up roofing over a single-ply membrane in Cedar Grove?',
+      answer:
+        'Built-up roofing provides multi-ply redundancy and a 30-year service life, against 7–20 years for TPO and 15–25 years for EPDM, per the InterNACHI life-expectancy chart. A dropped tool or a falling branch from Cedar Grove\'s reservation-edge and street canopy that punctures a single-layer membrane only dents the gravel-armored BUR surface, so built-up roofing suits commercial roofs that carry heavy equipment service traffic along the Pompton Avenue / Route 23 corridor.',
     },
     {
-      question: 'Does BUR installation produce odors that will affect Cedar Grove neighbors?',
-      answer: 'Traditional hot-mopped BUR does produce asphalt fumes during application. For Cedar Grove installations adjacent to residential properties, we offer cold-process BUR using adhesive-applied plies that eliminate hot-kettle fumes entirely. Cold-process installation takes slightly longer and costs roughly ten to fifteen percent more, but it eliminates neighbor complaints and fire safety concerns. We notify adjacent property owners of the installation schedule regardless of the application method used.',
+      question: 'Should you restore or replace a built-up roof in Cedar Grove?',
+      answer:
+        'Restore a built-up roof when the plies hold and the damage stays localized; replace it when damage exceeds 25–30% of the membrane or the leaks recur at the same detail. The flat-roof 25–30% replacement threshold is contractor consensus, per Parish, Modernize, and HomeGuide cost data, and recurring leaks signal a systemic failure regardless of damaged area, per HomeAdvisor. A Newark Quality Roofing assessment resurfaces a sound membrane, recovers a sound roof with a new system, or strips a spent roof to the deck for replacement or conversion to EPDM or TPO.',
     },
     {
-      question: 'Can you repair a BUR roof in Cedar Grove without full replacement?',
-      answer: 'Yes. BUR systems are among the most repairable roofing types. Blisters are cut, dried, and patched with matching ply material. Split seams are re-mopped and reinforced. Deteriorated flashing is stripped and rebuilt with new multi-ply fabric. The key is addressing repairs promptly before water migrates into the insulation beneath. We offer annual BUR maintenance contracts for Cedar Grove commercial buildings that include inspection, minor repairs, and drain cleaning.',
+      question: 'Does a built-up roof in a Cedar Grove historic district need a Certificate of Appropriateness?',
+      answer:
+        'No. Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a built-up roof in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner. A commercial built-up roof still follows the standard permit path on the Pompton Avenue / Route 23 corridor.',
     },
     {
-      question: 'How much does built up roofing cost in Cedar Grove, NJ?',
-      answer: 'Most built up roofing projects in Cedar Grove range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Do you need a permit for a commercial built-up roof in Cedar Grove, NJ?',
+      answer:
+        'A commercial built-up roof repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, per the NJ Uniform Construction Code. Full removal to the deck applies when the existing roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4 and the NJ Rehabilitation Subcode. A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance and requires no permit.',
+    },
+    {
+      question: 'How much does built-up roofing cost in Cedar Grove, NJ?',
+      answer:
+        'Commercial low-slope roofing in New Jersey runs $7–$12 per square foot installed, and flat-roof repair runs $2.50–$10 per square foot, per Josten Roofing NJ pricing and HomeGuide cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, ply count, surfacing, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Built-up roofing in Cedar Grove NJ -- proven multi-ply commercial roof systems with redundant waterproofing for offices and retail buildings.',
+  metaDescription:
+    'Built-up roofing in Cedar Grove NJ — multi-ply BUR on Pompton Avenue / Route 23 storefronts, plus resurfacing and recover. NJ-registered, free estimate.',
   pricing: {
-    range: '$5–$9/sq ft',
-    note: 'traditional built-up roofing system',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free built up roofing estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for built-up roofing in Cedar Grove.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

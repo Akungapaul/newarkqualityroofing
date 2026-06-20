@@ -3,52 +3,73 @@ import type { ComboContent } from '../schema';
 export const montclairRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'montclair',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof overlay installation across Montclair, New Jersey, and Essex County, applying a second asphalt-shingle layer over one existing sound layer on the township\'s pre-WWII Victorian, Tudor, and Colonial Revival homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [
-    'Newark Quality Roofing delivers expert roof overlay installation in Montclair — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in Montclair places a new shingle layer directly over the existing roof, bypassing the tear-off process that adds labor, debris, and project duration to a re-roofing project. For Montclair homeowners with a single existing shingle layer in generally sound condition over a solid deck, overlay provides a cost-effective path to a new roof surface that delivers the curb appeal and weather protection benefits of fresh material at roughly thirty percent less than a full tear-off project.',
-    'The overlay decision in Montclair depends on specific conditions that we verify before recommending the approach. The existing roof must have only one layer of shingles -- code prohibits a third layer. The existing shingles must lie reasonably flat without significant curling, buckling, or moss-related distortion that would telegraph through the overlay. The deck beneath must be dry and structurally sound based on attic-side inspection. Our [roof overlay](/roof-overlay-installation) assessments for [Montclair](/roofing-in-montclair-nj) homes provide an honest candidacy determination rather than defaulting to the cheaper option when conditions warrant tear-off.',
-    'Properties in [Bloomfield](/roof-overlay-installation-bloomfield-nj) and [Verona](/roof-overlay-installation-verona-nj) with similar mid-century housing stock are frequent overlay candidates. Montclair\'s Victorian and Tudor homes with steep pitches are also viable when the existing single layer lies flat, though the added weight of a second layer on steep slopes creates slightly different wind-load dynamics that our installation specifications address.'
+    '**Newark Quality Roofing installs an asphalt-shingle roof overlay across Montclair: a second shingle layer applied over one existing sound asphalt layer with no tear-off** on a qualifying detached home. A roof overlay, the recover ARMA defines as installing an additional roof covering on an existing roof covering, skips the tear-off labor and the disposal on homes in Upper Montclair, the Estate Section, Erwin Park, and the South End.',
+    '**A roof overlay** carries real trade-offs against a tear-off on Montclair\'s architecturally diverse stock, because a roof overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI — the plank and deteriorated sheathing common under the township\'s Victorian, Queen Anne, Craftsman, and Colonial Revival roofs — traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile, per Owens Corning and GAF, and adds dead load across the deck and framing.',
+    '**A roof overlay** qualifies only on a single sound asphalt layer over a smooth, dry deck, and N.J.A.C. 5:23-6.4 bars a roof overlay where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers already exist. The original slate, metal, and copper detailing on many Montclair period homes disqualifies an overlay outright, so those roofs follow a full tear-off.',
+    '**The asphalt-shingle stock** on Montclair\'s Colonial Revivals, Craftsman homes, and the two- and three-family buildings that hold a large share of the township\'s units is the natural overlay candidate, where roughly 54% of units sit in multi-unit structures, per the U.S. Census Bureau. A Newark Quality Roofing eligibility inspection confirms one sound layer over a smooth, dry deck before quoting an overlay.',
   ],
   challenges: [
-    'Concealed deck conditions beneath the existing shingle layer remain unknown during overlay installation. Localized rot at ice-dam-prone eaves, moisture damage around flashings, and deteriorated skip-sheathing sections cannot be assessed without removing the existing roofing. Overlay accepts this uncertainty as a trade-off for reduced cost and project duration. We mitigate risk through thorough attic-side inspection for accessible deck areas and honest communication with homeowners about what overlay conceals.',
-    'Heat buildup between shingle layers in double-layer assemblies can accelerate aging of both layers. The trapped heat degrades the lower layer\'s adhesive, which provides the substrate the upper layer depends on for stability. This thermal penalty is more pronounced on south-facing slopes with full sun exposure. We account for this effect in our warranty expectations, advising Montclair homeowners that overlay assemblies may deliver five to seven fewer years of service life compared to tear-off installations on identical homes.',
-    'Flashing integration at chimneys, walls, and dormers is more complex in overlay installations because the new flashing must tie into both the new shingle layer and the existing flashing beneath it without creating moisture traps between the layers. Incorrect flashing transitions at these critical points negate the waterproofing benefit of the new shingle surface.'
+    '**Concealed deck conditions** are the defining overlay trade-off on Montclair\'s aging stock, because a roof overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI. A large majority of the township\'s housing predates World War II, with roughly 60% built before 1940, per the Township of Montclair Housing Element, so a Newark Quality Roofing inspection checks accessible deck areas from the attic side and states what an overlay leaves unseen.',
+    '**Trapped heat** between two layers cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, more so on the south-facing slopes of Montclair\'s steep Victorian and Tudor rooflines. A Newark Quality Roofing estimate frames an overlay\'s shorter life against the InterNACHI 3-tab life of 20 years and architectural life of 30 years, so the choice is documented before any work begins.',
+    '**Flashing integration** at the chimneys, walls, dormers, and valleys of Montclair\'s complex steep-slope geometry is harder over an existing layer, because new flashing ties into both the new shingle course and the existing flashing beneath without trapping moisture between the layers. A Newark Quality Roofing crew renews the metal at the transitions where the roofing industry estimates roughly 90–95% of roof leaks originate, an industry estimate attributed to the NRCA.',
+    '**Added dead load** from a second asphalt layer crosses the deck, rafters, and supporting walls of the township\'s mature framing, and a future re-roof over 2 layers then removes both layers at higher cost, per IRC Section R908.3.1.1 and Angi. A Newark Quality Roofing assessment confirms the structure carries the second layer plus design snow loads before an overlay proceeds.',
   ],
   process: [
-    'Overlay candidacy assessment evaluates the existing roof condition against our criteria for successful overlay installation. We inspect the existing shingles for flatness, integrity, and layer count. We access the attic to check visible deck surfaces for moisture damage. We verify that the structure can support the additional weight of a second shingle layer plus design snow loads. The assessment report provides a clear recommendation -- overlay viable, overlay viable with specific conditions, or tear-off recommended.',
-    'Installation begins with surface preparation of the existing shingles. We remove debris, address any protruding nails, and install new drip edge at eaves and rakes over the existing material. Valley areas receive reinforced treatment with ice-and-water shield applied over the existing valley material. New shingles are installed using enhanced nailing patterns that penetrate through the existing layer into the deck, providing the fastener pull-out resistance that a single-layer installation achieves with shorter nails.',
-    'Completion includes flashing renewal at all chimneys, walls, and penetrations. Existing counter flashing is either reused if sound or replaced with new material that ties into the overlay installation. Ridge vents are installed through both shingle layers, and hip and ridge caps complete the finished appearance. The overlay installation receives a maintenance guide noting that future replacement will require tear-off of both layers.'
+    '**Newark Quality Roofing inspects the existing roof and the deck and confirms overlay eligibility against the conditions that bar a recover before quoting an overlay.** N.J.A.C. 5:23-6.4 bars a roof overlay where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more shingle layers already exist, per the NJ Uniform Construction Code, and IRC Section R908.3.1.1 caps a roof at 2 total layers. A Newark Quality Roofing eligibility inspection confirms one sound asphalt layer over a smooth, dry deck, because GAF Technical Bulletin TAB-R-145 permits a recover only where one roof is in place and the surface lies smooth.',
+    '**Newark Quality Roofing states the overlay trade-offs against a tear-off in the written estimate, because a roof overlay delivers less than a tear-off on Montclair\'s older plank-deck homes.** A roof overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI, traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile, per Owens Corning and GAF, and adds dead load across the deck, the rafters, and the supporting walls. A future re-roof over 2 layers then removes both layers at higher cost, per IRC Section R908.3.1.1.',
+    '**Newark Quality Roofing prepares the smooth substrate and installs the second asphalt layer to manufacturer specification, the install that keeps the GAF or Owens Corning limited warranty in force.** A crew nails down loose and curled shingles, removes protruding nails, and replaces missing shingles, because Owens Corning installation instructions require a smooth surface and GAF Technical Bulletin TAB-R-145 sets the same single-layer, smooth-substrate condition. The crew renews flashing at chimneys, walls, and penetrations, then runs a magnet sweep for nails before leaving the property.',
   ],
   faqs: [
     {
-      question: 'Is overlay as good as tear-off for my Montclair home?',
-      answer: 'Overlay delivers excellent weather protection and curb appeal when installed on a qualifying existing roof. The trade-offs compared to tear-off are concealed deck conditions, slightly reduced service life from inter-layer heat buildup, and the requirement for full tear-off of both layers when the overlay eventually needs replacement. For Montclair homeowners with budget constraints and a single existing layer in good condition, overlay is a sound investment that provides fifteen to twenty-five years of service at significantly lower cost than tear-off.'
+      question: 'Do I need a permit for a roof overlay in Montclair?',
+      answer:
+        'A roof overlay on a detached one- or two-family home in Montclair counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. The ordinary-maintenance exemption covers the roof covering, not a non-compliant recover, so an overlay still meets the N.J.A.C. 5:23-6.4 eligibility limits. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed through the Township of Montclair Building Office.',
     },
     {
-      question: 'How much does overlay save compared to tear-off in Montclair?',
-      answer: 'Overlay typically saves twenty-five to thirty-five percent compared to full tear-off installation by eliminating demolition labor, dumpster rental, disposal fees, and the deck inspection and repair that tear-off often reveals as necessary. On a Montclair home where a tear-off installation would cost eighteen to twenty-five thousand dollars, overlay might range from twelve to eighteen thousand. The savings are meaningful, but the decision should be based on roof condition rather than cost alone.'
+      question: 'Does a roof overlay on a Montclair historic-district home need extra approval?',
+      answer:
+        'Appearance-changing exterior roofing on a property inside one of Montclair\'s four locally designated historic districts, or on a local landmark, requires a Certificate of Appropriateness from the Montclair Historic Preservation Commission under Article XXIII of Chapter 347, section 347-136. The four districts are Town Center, Upper Montclair Business, Pine Street, and Watchung Plaza. In-kind maintenance or repair with no change in design, scale, or appearance does not require one, and the Estate Section is nominated but not locally designated. Per the National Park Service, National Register listing alone places no federal restriction on a private owner. A Certificate of Appropriateness, where it applies, is a separate approval from the construction permit.',
     },
     {
-      question: 'Can I overlay slate or wood shake roofing in Montclair?',
-      answer: 'No. Overlay is only appropriate over existing asphalt shingle roofing. Slate and wood shake roofing must be fully removed before new roofing installation because their dimensional profiles, fastening methods, and weight characteristics do not provide a suitable substrate for overlay shingle installation. Montclair homes transitioning from original slate or shake to asphalt shingles require full tear-off regardless of the existing material condition.'
+      question: 'When is a roof overlay not allowed in Montclair?',
+      answer:
+        'A roof overlay is not allowed where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more shingle layers already exist. N.J.A.C. 5:23-6.4 sets these conditions and lists wood shake expressly, and IRC Section R908.3.1.1 caps a roof at 2 total layers, per the NJ Uniform Construction Code. The original slate, metal, and copper roofs on many Montclair Victorians and Tudors require a full tear-off rather than an overlay.',
     },
     {
-      question: 'How much does roof overlay installation cost in Montclair, NJ?',
-      answer: 'Most roof overlay installation projects in Montclair range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Is a roof overlay as good as a full tear-off for my Montclair home?',
+      answer:
+        'A roof overlay delivers less than a full tear-off: it hides deck rot a tear-off catches and repairs, traps heat that cuts the new shingles\' service life by roughly 20–30%, telegraphs the old shingle profile, and adds dead load. The hidden-deck and trade-off framing traces to ARMA, InterNACHI, Owens Corning, and a national Angi industry estimate. On Montclair\'s pre-WWII plank-deck homes, where deteriorated sheathing is common at tear-off, an overlay leaves those deck conditions unseen, so the choice depends on roof condition rather than cost alone.',
+    },
+    {
+      question: 'How much does a roof overlay cost in Montclair, NJ?',
+      answer:
+        'A roof overlay runs roughly 20–25% less than a full tear-off, commonly $2,000–$5,000 cheaper for a typical home, because an overlay skips the tear-off labor and the disposal, a national figure per HomeGuide and Angi. Final cost depends on roof size, pitch, material, access, and the substrate preparation an overlay requires. Newark Quality Roofing provides a free written estimate.',
+    },
+    {
+      question: 'Does a roof overlay affect the shingle manufacturer warranty?',
+      answer:
+        'A roof overlay keeps the GAF or Owens Corning limited warranty in force only when the shingles install in strict accordance with the printed application instructions over one existing layer and a smooth deck. GAF Technical Bulletin TAB-R-145 and Owens Corning installation instructions set the single-layer, smooth-substrate condition, and a recover outside those conditions falls outside warranty coverage, per GAF.',
     },
   ],
-  metaDescription: 'Roof overlay installation in Montclair NJ -- cost-effective second-layer shingle installation over existing single-layer roofs.',
+  metaDescription:
+    'Roof overlay installation in Montclair NJ — a second asphalt layer over one sound layer on qualifying homes, per N.J.A.C. 5:23-6.4. NJ-registered, free quote.',
   pricing: {
-    range: '$6,000–$14,000',
-    note: 'overlay without full tear-off',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; an overlay runs roughly 20–25% less than a full tear-off, per HomeGuide and Angi. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Montclair\'s architecturally diverse Victorian, Tudor, and Colonial Revival homes and Bloomfield Avenue storefronts.',
+    'Honest overlay-vs-tear-off disclosure with eligibility confirmed before any work begins.',
+    'Free, detailed written estimates with no obligation.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof overlay installation estimate in Montclair — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof overlay installation in Montclair.',
+    urgencyNote: 'Confirming overlay eligibility before work begins avoids a non-compliant recover and a costlier future double tear-off.',
   },
 };

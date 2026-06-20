@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing solar shingle installation across Cedar Grove, New Jersey, and Essex County, replacing the roof covering with building-integrated photovoltaic shingles on the township\'s postwar ranches and split-levels** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.',
   overview: [
-    'Newark Quality Roofing delivers expert solar shingle installation in Cedar Grove — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle installation in Cedar Grove offers homeowners a building-integrated photovoltaic solution that generates electricity while maintaining the traditional roofline appearance that the township\'s residential neighborhoods expect. Unlike conventional solar panels mounted above the roof surface on visible racking systems, solar shingles replace standard roofing material course by course, creating a flush, uniform surface that is virtually indistinguishable from premium architectural shingles when viewed from street level.',
-    'Cedar Grove\'s residential aesthetic values -- well-maintained homes, earth-toned palettes, and understated design that harmonizes with the wooded landscape -- make solar shingles particularly appealing for homeowners who want renewable energy without the visual impact of conventional panel arrays. The township\'s ranch and colonial homes, with their wide, uninterrupted roof planes, provide ideal installation surfaces for [solar shingle](/solar-shingle-installation) systems that require continuous shingle field area to achieve meaningful electricity production.',
-    'The technology has matured significantly from early-generation products, with current solar shingle offerings achieving fifteen to twenty percent cell efficiency while maintaining Class F fire rating and wind resistance certification to one hundred thirty miles per hour. For Cedar Grove homeowners replacing an aging roof, solar shingles provide the opportunity to upgrade to an energy-producing roof at a marginal cost premium over premium architectural shingle installation, with the electricity production offsetting the additional investment over the system\'s warranty period.',
+    '**Newark Quality Roofing installs building-integrated solar shingles** across Cedar Grove during a new roof or full reroof, replacing the roof covering on the township\'s postwar ranches, split-levels, and colonials. A solar shingle is the roof surface itself, distinct from rack-mounted panels added on top of a finished roof.',
+    '**Building-integrated solar shingles** serve as the roof covering rather than hardware added to a finished roof, so a solar-shingle project pairs with a new roof or a full reroof, and CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed. A Cedar Grove install strips the aging covering to the deck, replaces deteriorated sheathing exposed at tear-off, and sets the photovoltaic shingle into the field.',
+    '**Cedar Grove\'s postwar single-family stock** of ranches, split-levels, bi-levels, and Cape Cods carries the wide, uninterrupted roof planes a solar shingle uses, with Cedar Grove strongly homeowner-facing at 76.3% owner-occupied across 5,008 housing units, per the U.S. Census Bureau. A solar shingle costs more per watt and generates less per square foot than a rack-mounted panel, so it suits a homeowner prioritizing the integrated appearance of a uniform roof surface, per SolarReviews and EnergySage cost data.',
+    '**Named solar-shingle systems** carry the manufacturer\'s published listings: GAF Energy Timberline Solar rates 57 watts per energy shingle, Tesla Solar Roof 72 watts per active tile, and CertainTeed Solstice 70 watts per shingle, per each manufacturer. The named products list ASTM D3161 Class F wind to roughly 130 miles per hour, UL 2218 Class 4 hail, and UL 790 Class A fire, per GAF Energy and the listed manufacturers.',
   ],
   challenges: [
-    'Per-watt cost premium over conventional solar panels remains the primary economic challenge for solar shingle adoption in Cedar Grove. Solar shingles currently produce electricity at a cost roughly thirty to fifty percent higher per watt than equivalent conventional panel systems. This premium narrows when accounting for the dual function -- the solar shingles replace both the roofing material and the solar array -- but Cedar Grove homeowners must evaluate whether the aesthetic benefit justifies the efficiency and cost tradeoff compared to a separate high-efficiency panel system.',
-    'Cedar Grove\'s tree canopy creates partial shading conditions that affect solar shingle performance differently than conventional panel systems. Most conventional panels use string inverter or optimizer technology that mitigates the impact of partial shade on overall system output. Some solar shingle products lack equivalent shade mitigation technology, meaning that shade falling on a portion of the shingle field can reduce output across the entire roof plane. Cedar Grove properties with partial shade require careful product selection to ensure adequate production under real-world conditions.',
-    'Installation complexity exceeds conventional roofing and conventional solar installation because the trade requires both roofing and electrical expertise applied simultaneously. Each solar shingle course must be electrically connected to adjacent shingles and to the system wiring while maintaining proper roofing overlap, flashing integration, and weatherproof integrity. The specialized labor pool for solar shingle installation is smaller than for either conventional roofing or conventional solar, which can extend project timelines in Cedar Grove.',
+    '**Tree-canopy shade** is the defining solar-shingle siting condition in Cedar Grove, because the Mills and Hilltop reservation edges and the township\'s mature deciduous canopy press heavy shade against nearby roofs, per Essex County Parks. A Newark Quality Roofing assessment runs a shade analysis before product selection, because shade on a portion of the shingle field reduces output across the affected roof plane.',
+    '**The per-watt cost premium** over rack-mounted panels frames the Cedar Grove economic decision, because solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for panels, roughly 1.5 to 2 times the per-watt cost, per EnergySage, SolarReviews, and WattBuild. A solar shingle is an integration and appearance choice rather than an efficiency or per-watt-value choice.',
+    '**Roof area** drives the Cedar Grove sizing, because a solar shingle generates less per square foot than a panel: a 6-kilowatt solar-shingle system needs about 360 square feet of shingles against about 250 square feet of panels, roughly 44% more roof area, per SolarReviews from the GAF Energy datasheet. The wide roof planes on Cedar Grove\'s postwar ranches accommodate the larger field, while smaller planes limit achievable system size.',
+    '**Reroof pairing** governs the Cedar Grove project sequence, because a solar shingle replaces the roof covering and pairs with a new roof or full reroof rather than mounting on a finished roof, per the DOE Office of Energy Efficiency and Renewable Energy. A Cedar Grove install strips the existing roof to the deck and repairs deteriorated sheathing before the photovoltaic shingle goes on.',
   ],
   process: [
-    'Solar shingle installation in Cedar Grove follows an integrated roof-and-solar design process. We begin with a combined structural assessment, shade analysis, and electrical load evaluation. The roof design determines which sections receive solar shingles and which receive conventional architectural shingles to match -- typically, south and west-facing roof planes receive solar shingles while north-facing planes and shaded areas receive standard material. This hybrid approach maximizes production while managing cost.',
-    'Installation proceeds as a coordinated roofing and electrical project. Deck preparation, underlayment, and starter course installation follow standard roofing practice. Solar shingle courses are installed with integrated wiring connections at each shingle-to-shingle junction, with trunk wiring routed beneath the shingle field to a junction point at the roof edge. Conventional architectural shingles in matching color complete the non-solar roof sections. The result is a visually uniform roof surface with no visible distinction between producing and non-producing areas.',
-    'Electrical completion includes inverter installation, service panel connection, utility meter coordination, and production monitoring system activation. We handle all Cedar Grove building permits and electrical inspections, utility interconnection applications, and incentive program enrollment. The homeowner receives separate warranties for the roofing function and the electrical production function, ensuring comprehensive coverage across both performance dimensions of the integrated system.',
+    '**Newark Quality Roofing matches the solar-shingle system to the home from named products and sets honest expectations against rack-mounted panels before tear-off.** A solar shingle costs more per watt and produces less per square foot than a panel, with module efficiency clustering around 14% to 18% against more than 20% for premium panels, per SolarReviews, EnergySage, and NREL, so the choice is an integration and appearance decision. A combined roof pitch, roof area, and shade analysis confirms a minimum 2:12 pitch for the named products on Cedar Grove\'s postwar single-family roofs, per GAF Energy and Tesla.',
+    '**Newark Quality Roofing replaces the roof covering with the building-integrated solar shingle to manufacturer specification across the postwar single-family stock.** A Cedar Grove crew strips the existing roof to the deck, replaces deteriorated sheathing exposed at tear-off, and installs the photovoltaic shingle into the field — GAF Energy Timberline Solar nails into the field with the same crew and tools as Timberline asphalt shingles — keeping the manufacturer system warranty intact, per GAF Energy and the DOE Office of Energy Efficiency and Renewable Energy.',
+    '**Newark Quality Roofing wires the array to code and coordinates the electrical work for rapid shutdown and fire-service access.** The named solar-shingle systems meet NEC 690.12 rapid shutdown, which drops conductors outside the array boundary to 30 volts or less and inside to 80 volts or less within 30 seconds, met by module-level electronics or a listed UL 3741 photovoltaic hazard control system, per the NEC and UL. A crew files the building and electrical permits the photovoltaic work requires and schedules the inspection.',
   ],
   faqs: [
     {
-      question: 'How do solar shingles look compared to regular shingles on Cedar Grove homes?',
-      answer: 'Current-generation solar shingles closely resemble premium architectural shingles in profile, color, and texture. From street level, most observers cannot distinguish solar shingle sections from conventional shingle sections on the same roof. The flush installation -- no raised racking, no visible mounting hardware -- maintains the clean roofline appearance that Cedar Grove homeowners value. Available colors include charcoal, slate, and dark bronze that integrate with the township\'s typical home palettes.',
+      question: 'What is a solar shingle and how does it differ from solar panels on a Cedar Grove home?',
+      answer:
+        'A solar shingle is building-integrated photovoltaics, where the photovoltaic material is the roof covering itself, while solar panels are rack-mounted hardware added on top of an existing roof. A solar shingle replaces the roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS. On Cedar Grove\'s postwar ranches and split-levels, a solar shingle reads as one uniform roof surface with no raised racking.',
     },
     {
-      question: 'Are solar shingles as efficient as regular solar panels?',
-      answer: 'Solar shingles currently achieve fifteen to twenty percent cell efficiency compared to twenty to twenty-two percent for premium conventional panels. This efficiency gap means a solar shingle system requires roughly fifteen to twenty percent more roof area to match the output of an equivalent conventional panel system. On Cedar Grove ranch homes with ample south-facing roof area, this difference is easily accommodated. On smaller roof planes, the efficiency gap may limit achievable system size.',
+      question: 'Are solar shingles as efficient as solar panels for Cedar Grove homes?',
+      answer:
+        'Solar shingles are less efficient and cost more per watt than solar panels, clustering around 14% to 18% module efficiency against more than 20% for premium panels, per SolarReviews, EnergySage, and NREL. A solar-shingle system needs roughly 44% more roof area than a panel array to match output, per SolarReviews from the GAF Energy datasheet, which the wide roof planes on Cedar Grove ranches accommodate. A solar shingle is an integration and appearance choice.',
     },
     {
-      question: 'How long do solar shingles last on Cedar Grove homes?',
-      answer: 'Current solar shingle products carry twenty-five to thirty-year power production warranties and lifetime roofing material warranties. The electrical output degrades gradually over time -- typically maintaining eighty percent of original production at year twenty-five. The roofing material function continues beyond the electrical warranty period, providing weather protection comparable to premium architectural shingles for the full life of the installation.',
+      question: 'Do I need a permit for a solar shingle installation in Cedar Grove?',
+      answer:
+        'A reroof of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while the photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, per the NJ Uniform Construction Code and the NEC. The Township of Cedar Grove Building Department at 525 Pompton Avenue administers the state classification.',
     },
     {
-      question: 'Do solar shingles qualify for the same incentives as regular solar panels in Cedar Grove?',
-      answer: 'Yes. Solar shingles qualify for the federal investment tax credit, New Jersey solar renewable energy certificates, state sales tax exemption, and property tax exemption -- the same incentives available for conventional solar panel installations. The incentive calculations are based on total system capacity and production, not the form factor of the solar technology. Cedar Grove homeowners receive the full economic benefit regardless of whether they choose panels or shingles.',
+      question: 'Does a Cedar Grove historic home need extra approval for solar shingles?',
+      answer:
+        'No Certificate of Appropriateness applies in Cedar Grove, because Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
+    },
+    {
+      question: 'What incentives apply to a solar shingle installation in Cedar Grove?',
+      answer:
+        'New Jersey applies the Successor Solar Incentive program, net metering, a sales-tax exemption through Form ST-4, and a property-tax exemption through Form CRES, per the NJ Board of Public Utilities and the NJ Division of Taxation. The Successor Solar Incentive program pays a fixed per-megawatt-hour SREC-II incentive over a 15-year term. The federal residential solar credit was 30% for systems completed through 2025 and is repealed for systems completed after December 31, 2025, per the IRS, so Newark Quality Roofing refers a Cedar Grove homeowner to a tax professional and the NJ Clean Energy Program.',
     },
     {
       question: 'How much does solar shingle installation cost in Cedar Grove, NJ?',
-      answer: 'Most solar shingle installation projects in Cedar Grove range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Solar-shingle installation in Cedar Grove typically runs $10,000–$25,000, with solar shingles costing about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for rack-mounted panels, per EnergySage, SolarReviews, and WattBuild. Roof size, pitch, product, and reroof scope set the total. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Solar shingle installation in Cedar Grove NJ -- building-integrated photovoltaics that generate power while matching your home\'s roofline appearance.',
+  metaDescription:
+    'Solar shingle installation in Cedar Grove NJ — building-integrated photovoltaic shingles on postwar ranches and split-levels. NJ-registered, free estimate.',
   pricing: {
-    range: '$25,000–$50,000',
-    note: 'integrated solar shingle system',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; solar shingles run about $3.50 to $8.00 per watt installed per EnergySage and SolarReviews; final cost depends on roof size, pitch, product, and reroof scope. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free solar shingle installation estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for solar shingle installation in Cedar Grove.',
+    urgencyNote: 'Pairing a solar shingle with a planned reroof avoids removing and reinstalling the roof covering later.',
   },
 };

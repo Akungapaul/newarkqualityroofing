@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const veronaFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fascia installation repair across Verona, New Jersey, and Essex County, replacing the rotted board that closes the rafter-tail ends and mounts the gutter system on Verona\'s split-levels and pre-war Colonials** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.',
   overview: [
-    'Newark Quality Roofing delivers expert fascia installation repair in Verona — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards on Verona homes serve as the visible finish at the roof edge and the structural backing for the gutter system, making them both an aesthetic element and a functional component that fails visibly when neglected. The split-level homes that define Verona\'s streetscape present more fascia linear footage per home than simple gable designs, with fascia runs on the upper level, the lower level, and the connecting sections at each level transition. When fascia deteriorates on a split-level, the failing sections can be hidden at transition points where moisture accumulates but visual inspection from the ground is difficult.',
-    'Newark Quality Roofing installs and repairs fascia on Verona homes using materials selected for the specific conditions each section faces. Wood fascia remains appropriate for interior-facing sections with adequate overhang protection, while aluminum-wrapped or composite fascia performs better on exposed sections where rain, snow, and direct sun exposure accelerate wood deterioration. Our [fascia installation](/fascia-installation-repair) approach evaluates each fascia run independently, specifying the material that delivers the best longevity for that section\'s exposure conditions.',
-    'Fascia failure in Verona most commonly originates from gutter overflow or ice dam drainage that soaks the wood repeatedly. The township\'s canopy-heavy environment clogs gutters rapidly, and overflowing gutters direct water across the fascia face rather than through the downspout system. This repeated wetting cycle causes rot that progresses from the gutter attachment zone inward, weakening the fascia board until the gutter sags away from the roof edge. Homeowners in [West Orange](/fascia-installation-repair-west-orange-nj) with similar canopy conditions face identical gutter-overflow fascia damage patterns.'
+    '**Newark Quality Roofing replaces rotted fascia board, restores the gutter line, and matches new fascia material to the eave** on Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels. Fascia installation and repair restores the board along the lower roof edge that closes the rafter-tail ends and carries the gutter system, per InterNACHI inspection guidance.',
+    '**Rotted fascia** on a Verona home traces to water, because clogged and overflowing gutters back up and soak the board, and loose gutters leave a gap that lets water contact the fascia, per InterNACHI inspection guidance. The reservation-edge canopy off Eagle Rock and Hilltop, plus the mature street trees near Verona Park, drops leaf load that clogs gutters and feeds that overflow.',
+    '**The gutter line** pulls away once the board weakens, because water-filled gutters weigh roughly 5–7 pounds per linear foot, a load a soaked fascia cannot carry, per HB Elements trade guidance. A Newark Quality Roofing fascia repair replaces the failed board before the gutter run and the rafter tails behind it take on further water.',
+    '**Fascia material** sets the upkeep-versus-durability trade-off across painted wood, PVC, aluminum cladding, and fiber-cement, with painted pine or cedar lasting roughly 15–25 years on a repaint cycle and aluminum fascia and soffit bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart and HB Elements trade guidance. Newark Quality Roofing matches the new board to the exposure each Verona eave faces.',
   ],
   challenges: [
-    'Detecting fascia rot on Verona split-levels before it becomes visible from the ground requires inspection from ladder height or roof level. The transition sections between levels -- where moisture concentrates and visual access is limited -- often deteriorate years before the damage becomes apparent from the street. By the time peeling paint or visible sagging reveals the problem, the rot has typically spread beyond the visible area into the rafter tails and roof sheathing edges that the fascia covers.',
-    'Matching existing fascia profiles on Verona homes built across multiple decades requires familiarity with the lumber dimensions and trim styles used during each era. Pre-war colonials carry wide, thick fascia boards with decorative profiles that modern lumber yards do not stock. Mid-century split-levels use standard one-by-six or one-by-eight nominal boards that are available but may differ in actual dimension from the original lumber. Custom milling or composite material shaped to match the existing profile ensures visual consistency when replacing sections rather than the entire fascia run.',
-    'Gutter removal and reinstallation during fascia repair adds time and cost that homeowners do not always anticipate. Since gutters attach directly to the fascia board, replacing a rotted section requires removing the gutter from the repair area, installing the new fascia, and then remounting the gutter with new hangers. If the gutter itself has deteriorated from the same moisture conditions that damaged the fascia, it makes sense to replace both simultaneously rather than mounting a compromised gutter on new fascia.'
+    '**Split-level transition flashing** complicates fascia work on Verona\'s many 1960s–70s split-levels, because the offset roof planes meet a vertical wall and the runoff overflowing at that step soaks the fascia and gutter line below it. A Newark Quality Roofing repair traces the rot to that water path, not the board alone, per InterNACHI inspection guidance.',
+    '**Reservation-edge debris** off Eagle Rock and Hilltop and the mature trees near Verona Park clogs Verona gutters, where the backed-up water saturates the fascia and the soffit behind it, per InterNACHI inspection guidance. Gutter cleaning twice per year, spring and fall, limits the backup that rots the board, per Angi and GAF maintenance guidance.',
+    '**Pre-war Colonial fascia** on Verona\'s older stock near Personette Avenue and Claremont Avenue carries wider, period-profile board and decorative trim that off-the-shelf lumber does not match, so a Newark Quality Roofing crew mills or shapes a replacement to the existing profile rather than swapping a mismatched modern board.',
   ],
   process: [
-    'Fascia repair in Verona begins with a full-perimeter inspection from ladder height, probing each fascia section with an awl to detect soft spots that indicate concealed rot. We document the condition of every fascia run, noting areas that need replacement, sections that require painting or sealing only, and transition zones where moisture exposure demands material upgrade from wood to composite or aluminum-wrapped options.',
-    'Replacement sections are cut from material that matches the existing profile in width, thickness, and edge detail. We remove the deteriorated section, inspect the rafter tails and sheathing edge beneath for rot extension, and treat or replace any compromised structural components before installing the new fascia. The new board is primed on all six sides before installation -- including the back face against the rafter tails -- to prevent moisture absorption from hidden condensation.',
-    'After fascia installation, gutters are remounted using new hidden hangers at 24-inch spacing. Any gutter sections that show corrosion, split seams, or deformation from ice loading are replaced rather than remounted. The completed installation is painted to match the existing trim color, and we apply a bead of compatible sealant at the fascia-to-soffit joint to prevent water intrusion at this transition. The homeowner receives a condition report showing the repaired and remaining fascia sections for future maintenance planning.'
+    '**Newark Quality Roofing traces the fascia failure to the water source — a clogged gutter, a loose gutter, or a failed slope — before replacing the board, because fascia rot starts at the moisture path, not the board.** A crew checks the gutter line and the drip edge, set at least ¼ inch below the deck and fascia under the IRC R905.2.8.5 provision, so runoff drops into the gutter rather than behind the board, per the International Residential Code.',
+    '**Newark Quality Roofing replaces the rotted fascia and remounts the gutter system**, matching the board to the eave across painted wood, PVC, aluminum cladding, and fiber-cement and inspecting the rafter tails and sheathing edge beneath for rot before installing the new board. Aluminum fascia and soffit are bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart, so an exposed Verona eave often warrants the aluminum-clad or PVC option.',
+    '**Newark Quality Roofing refastens the gutters to the sound fascia and confirms the eave drains clean**, so the new board carries the roughly 5–7 pounds per linear foot of a water-filled gutter without sagging, per HB Elements trade guidance. A crew runs a magnet sweep for fasteners at cleanup and sets the spring-and-fall gutter-cleaning cadence, per Angi and GAF maintenance guidance.',
   ],
   faqs: [
     {
-      question: 'How do I know if my Verona home needs fascia repair?',
-      answer: 'Look for peeling paint along the fascia board, visible dark staining from water damage, gaps between the fascia and the soffit or roof edge, and gutters that sag or pull away from the house. From inside the attic, check the rafter tail ends near the eaves for moisture staining. If you notice any of these signs, schedule a professional inspection before the damage extends from the fascia into the structural framing behind it.'
+      question: 'What causes fascia to rot on a Verona home?',
+      answer:
+        'Fascia rots from water: clogged and overflowing gutters back up and soak the board, and loose gutters leave a gap that lets water contact the fascia, per InterNACHI inspection guidance. On Verona\'s many 1960s–70s split-levels, the offset roof planes meet a vertical wall, and runoff overflowing at that transition soaks the fascia and gutter line below before the open shingle field shows any sign.',
     },
     {
-      question: 'Should I replace wood fascia with aluminum-wrapped fascia in Verona?',
-      answer: 'Aluminum-wrapped fascia eliminates the painting maintenance cycle and resists moisture damage significantly better than exposed wood. The aluminum covers the face and bottom edge of a wood substrate board, protecting it from rain, snow, and UV exposure. The cost premium over painted wood fascia is modest -- approximately 30 to 50 percent more installed -- and the elimination of repainting every 5 to 8 years makes the lifecycle cost lower. We recommend aluminum-wrapped fascia for all exposed sections on Verona homes.'
+      question: 'How do I know if my Verona home needs fascia replaced?',
+      answer:
+        'Peeling or blistering paint, soft and spongy spots and discoloration, surface cracks and flaking, and gutters sagging or pulling from the roofline indicate fascia that needs replacing, per Ledegar Roofing inspection guidance. Soft spots confirm water-driven rot inside the board, because water-filled gutters weigh roughly 5–7 pounds per linear foot that a weakened fascia cannot carry, per HB Elements trade guidance.',
     },
     {
-      question: 'How much does fascia repair cost on a Verona split-level?',
-      answer: 'Selective fascia repair on a Verona split-level -- replacing the damaged sections while leaving sound sections intact -- typically costs $500 to $2,000 depending on the linear footage affected. Full-perimeter fascia replacement with aluminum wrapping ranges from $2,500 to $5,000. These costs include gutter removal and reinstallation. If rafter tails behind the fascia need repair, the structural work adds $200 to $500 per affected location.'
+      question: 'What fascia material lasts longest on a Verona eave?',
+      answer:
+        'Aluminum, PVC, and fiber-cement fascia resist moisture longer than painted wood, which lasts roughly 15–25 years and needs a repaint cycle, per HB Elements trade guidance. Aluminum fascia and soffit are bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart, so Newark Quality Roofing favors the aluminum-clad or PVC option on the exposed Verona eaves near the reservation-edge canopy.',
     },
     {
-      question: 'Can fascia repair prevent gutter problems on my Verona home?',
-      answer: 'Sound fascia is essential for proper gutter function because the gutter hangers fasten directly into the fascia board. Rotted fascia cannot hold hanger screws, causing gutters to sag, overflow, and eventually detach. Replacing deteriorated fascia and installing new hangers restores the gutter system to proper function. Pairing fascia repair with gutter guard installation prevents the overflow that caused the fascia damage in the first place, breaking the deterioration cycle.'
+      question: 'Does fascia repair on a Verona home need a permit or HPC review?',
+      answer:
+        'Trim and fascia repair on a detached one- or two-family home in Verona counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. The Township of Verona Department of Building and Inspections, at the Municipal Building, 600 Bloomfield Avenue, administers that classification. Verona requires HPC review prior to permit issuance only for significant exterior changes on a locally designated landmark under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona — the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church — so every other Verona home repairs fascia with no HPC review.',
+    },
+    {
+      question: 'Can you replace fascia without removing the gutters on my Verona home?',
+      answer:
+        'Fascia replacement detaches the gutter section first, because the gutters mount to the fascia and the fascia closes the rafter-tail ends behind the gutter line, per InterNACHI inspection guidance. A Newark Quality Roofing crew removes the gutter run, replaces the rotted board, inspects the rafter tails beneath, then refastens the gutters to the sound fascia with new hidden hangers.',
     },
     {
       question: 'How much does fascia installation repair cost in Verona, NJ?',
-      answer: 'Most fascia installation repair projects in Verona range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Fascia installation repair cost in Verona depends on the board length, the material, and the gutter remount, and a free written estimate sets the scope before any work begins. A Newark Quality Roofing inspection traces the rot to the water source and prices the board replacement and gutter remount together, because the fascia and gutter share the same eave. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fascia installation and repair in Verona NJ -- wood, aluminum-wrapped, and composite fascia for split-level homes with rot prevention.',
+  metaDescription:
+    'Fascia installation and repair in Verona NJ — rotted board replacement and gutter-line rebuild on split-levels and Colonials. NJ-registered, free estimate.',
   pricing: {
-    range: '$1,200–$3,500',
-    note: 'fascia board replacement',
+    range: 'Varies by scope',
+    note: 'Final cost depends on board length, material, and the gutter remount. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fascia installation repair estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fascia installation repair in Verona.',
+    urgencyNote: 'Replacing rotted fascia early keeps the gutter line and rafter tails behind it from taking on further water.',
   },
 };

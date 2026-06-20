@@ -3,56 +3,74 @@ import type { ComboContent } from '../schema';
 export const veronaCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof replacement across Verona, New Jersey, and Essex County, stripping the low-slope membrane to the deck and installing a new insulation-and-membrane system on Bloomfield Avenue and Pompton Avenue corridor buildings** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [
-    'Newark Quality Roofing delivers expert commercial roof replacement in Verona — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement on Verona buildings represents a significant capital investment that building owners plan months or years in advance. The decision to replace rather than continue repairing typically comes when repair frequency escalates, energy costs reflect inadequate insulation, or the roof system approaches the end of its rated service life. Newark Quality Roofing manages commercial roof replacements in Verona from initial assessment through warranty activation, coordinating the project with building operations to minimize disruption and maximize the return on the investment.',
-    'Verona\'s Bloomfield Avenue commercial buildings face replacement decisions across a range of existing systems. Buildings carrying 30-year-old BUR or modified bitumen often convert to modern single-ply membrane during replacement, gaining energy efficiency, reduced weight, and improved warranty coverage. Buildings with first-generation TPO or EPDM from the 1990s replace with current-generation products that offer better performance and longer warranties. Each replacement is an opportunity to upgrade insulation, correct drainage deficiencies, and accommodate new equipment requirements. Our [commercial roof replacement](/commercial-roof-replacement) specifications address the full building performance opportunity, not just the membrane swap.',
-    'Phased replacement allows Verona building owners to spread the capital investment across budget cycles while addressing the most deteriorated sections first. We engineer phase boundaries at natural divisions -- expansion joints, parapet walls, or mechanical equipment zones -- that allow complete waterproofing of each phase independently. Building owners in [East Orange](/commercial-roof-replacement-east-orange-nj) with similar multi-tenant buildings have used phased replacement to manage both the financial and operational impact of major roof projects.'
+    '**Newark Quality Roofing replaces commercial low-slope roofs along Verona\'s Bloomfield Avenue and Pompton Avenue corridors**, the mixed-use storefronts and offices that meet near the central commercial core of a township that is mostly owner-occupied single-family homes. A replacement strips the worn membrane to the deck, rebuilds the deck, and lays a fresh insulation-and-membrane system.',
+    '**Verona\'s corridor storefronts** sit downhill of the Eagle Rock and Hilltop reservation edges and near the Peckman River at Verona Park, so leaf load and slow runoff settle on their flat sections first. Reservation-edge canopy debris and river-adjacent drainage push standing water across low-slope decks, and a Newark Quality Roofing replacement grades the deck and builds tapered insulation to at least ¼ inch per foot of slope, because ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA.',
+    '**A corridor re-roof** matches one of six membrane classes to the building before tear-off — EPDM, TPO, PVC, modified bitumen, built-up roofing, or standing-seam metal — each retired after a material-specific lifespan. EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per Single Ply Roofing Industry guidance.',
+    '**Membrane choice on a Verona storefront** also weighs rooftop heat gain, since white PVC and TPO carry high solar reflectance measured per ASTM C1549. Replacement, not new construction, drives most of this work: it accounts for 79.2% of US roofing installations in 2025, per Mordor Intelligence, because commercial roofs reach the end of service through membrane age and storm loss.',
   ],
   challenges: [
-    'Maintaining weather protection over occupied commercial space during tear-off and replacement requires daily waterproofing that residential projects do not demand. Every evening, exposed sections must be covered with temporary membrane that sheds overnight rain or unexpected weather. Our crews install termination strips at each day\'s stopping point and roll temporary membrane across the exposed deck, creating a sealed barrier that protects the building interior until work resumes the next morning.',
-    'Asbestos-containing materials in older Verona commercial buildings may be discovered during tear-off of roofing systems installed before the 1980s. Modified bitumen, BUR, and mastic products from that era frequently contain asbestos fibers that require regulated abatement procedures, specialized disposal, and work crew protection. Our pre-replacement assessment includes material testing when the existing system\'s installation date suggests asbestos possibility, identifying the issue before tear-off begins rather than discovering it mid-project.',
-    'Code-required upgrades during commercial roof replacement may add scope beyond the simple membrane-for-membrane swap. Current energy codes require insulation R-values that 1970s and 1980s buildings do not meet, and fire rating requirements may mandate additional protection layers. Wind uplift requirements based on current standards may exceed the existing attachment system\'s capacity. Our specifications incorporate all code-required upgrades, documenting them for building department review and helping the building owner understand the mandatory scope increases.'
+    '**Reservation-edge debris and Peckman River drainage** age the flat roofs along Verona\'s Bloomfield Avenue and Pompton Avenue corridors, where canopy debris from Eagle Rock and Hilltop clogs drains and river-adjacent runoff at Verona Park holds standing water. A flat roof needs at least ¼ inch per foot of slope to drain, and ponding remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a tapered-insulation re-roof rebuilds positive drainage to the drains.',
+    '**Aging corridor membranes** fail at the seams before the open field gives way, and the wet insulation underneath holds water against the deck. EPDM fails most often at the splice seams and TPO at the welded seams, per NRCA technical guidance, the failure mode that retires a corridor storefront roof to replacement.',
+    '**Saturated insulation** sits hidden under an intact membrane until a moisture survey maps it. An ASTM C1153 infrared survey locates the wet insulation because wet insulation retains heat longer than dry insulation and reads as a warm anomaly after sunset, per ASTM and the NRCA, and a core cut verifies each anomaly before the replacement scope sets the affected area.',
+    '**A corridor tear-off** triggers code obligations a recover-over avoids. On a commercial building, a roof replacement requires a permit, and the NJ Rehabilitation Subcode requires complete removal of the existing covering — with no recover-over — when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.',
   ],
   process: [
-    'Commercial roof replacement in Verona begins with the assessment and specification phase: existing conditions survey, structural capacity verification, code compliance analysis, and system selection. We present membrane options with lifecycle cost comparisons, energy performance projections, and warranty terms so the building owner can make an informed material decision. The specification includes phasing plan, equipment coordination, and a tenant notification schedule.',
-    'The replacement proceeds in phases, with each section receiving complete tear-off, deck inspection and repair, insulation installation, and membrane application before the next section begins. Equipment curbs are rebuilt to current height standards, drains are upgraded if capacity is deficient, and edge details are rebuilt with new metal and membrane terminations. Each phase is fully waterproofed before the next begins, maintaining building protection throughout the multi-week project.',
-    'Project completion includes manufacturer inspection for warranty certification, as-built documentation, and a maintenance program recommendation. The building owner receives the manufacturer warranty certificate, our workmanship warranty, and a maintenance manual covering the specific system installed. The maintenance recommendations include inspection frequency, cleaning procedures, and the repair protocols needed to maintain warranty compliance through the warranty period.'
+    '**On a Bloomfield Avenue or Pompton Avenue corridor storefront, Newark Quality Roofing reads the deck, the insulation, the drainage, and the NJ code triggers before quoting a Verona replacement.** A tear-off exposes the saturated insulation and deck deterioration — including the deteriorated plank sheathing common on older corridor buildings — that a surface inspection misses.',
+    '**Verona\'s corridor replacements file through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue.** A commercial roof replacement requires a construction permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period on a commercial building, per the NJ Uniform Construction Code. Newark Quality Roofing runs an ASTM C1153 infrared moisture survey to map the wet insulation under the membrane, verifying each anomaly with a core cut, per ASTM and the NRCA. Verona requires HPC review prior to the issuance of permits only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona — the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church — so every other Verona building reroofs with no HPC review, a separate approval from the building permit where it applies.',
+    '**The corridor membrane is then matched to the building, the drainage, and the climate** from 6 classes — EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal — each carrying a distinct service life per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance. White PVC and TPO carry high solar reflectance measured per ASTM C1549, lowering rooftop heat gain on a corridor building. Newark Quality Roofing sets the class before tear-off.',
+    '**A Verona corridor re-roof** strips the existing covering to the deck, repairs the deck, builds tapered insulation to at least ¼ inch per foot of slope, and installs the new membrane to manufacturer specification — the sequence that keeps the manufacturer system warranty intact. Installing to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How long does commercial roof replacement take in Verona?',
-      answer: 'A typical 5,000 to 10,000 square foot Verona commercial building requires 2 to 4 weeks for complete replacement including tear-off, insulation, and membrane installation. Larger buildings or phased projects extend proportionally. Weather delays can add time during spring and fall seasons. We provide a detailed schedule during the proposal phase and update the building owner weekly on progress and any schedule adjustments.'
+      question: 'Should you repair or replace your commercial roof in Verona?',
+      answer:
+        'On a Bloomfield or Pompton Avenue storefront, replace the membrane when damage exceeds 25 to 30% of the roof area, when leaks recur at the same spot, or when core samples show saturated insulation across most of the roof. Repair when the damage stays localized. The 25 to 30% flat-roof threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance, and a recurring same-spot leak signals systemic failure regardless of damaged area, per HomeAdvisor.',
     },
     {
-      question: 'What is the ROI on commercial roof replacement in Verona?',
-      answer: 'The return on investment comes from eliminated repair costs, reduced energy consumption from upgraded insulation, and preserved building value. A building spending $5,000 annually on repair with $2,000 in excess energy costs recovers $7,000 per year after replacement. Over a 20-year membrane life, the avoided costs exceed $140,000 -- well above the replacement investment for most Verona commercial buildings. The new roof also maintains tenant satisfaction and rental rates that a leaking building would jeopardize.'
+      question: 'Do you need a permit for a commercial roof replacement in Verona, NJ?',
+      answer:
+        'A Verona corridor storefront replacement is filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue. A commercial roof replacement requires a construction permit, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period on a commercial building, per N.J.A.C. 5:23-2.7. The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4.',
     },
     {
-      question: 'Can I phase my Verona commercial roof replacement over multiple years?',
-      answer: 'Yes, phased replacement is a practical approach for buildings where the full replacement cost exceeds a single budget cycle. We engineer phase boundaries at natural building divisions that allow each phase to function as an independent waterproofing system. Each phase gets its own warranty from the completion date, and later phases connect to earlier ones using compatible membrane and transition details. The key constraint is that phase boundaries must fall at structurally logical points -- not arbitrarily across the middle of a membrane field.'
+      question: 'Does a historic landmark affect a commercial roof replacement in Verona?',
+      answer:
+        'Verona requires HPC review prior to the issuance of permits only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona — the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church — so every other Verona building reroofs with no HPC review. Per the National Park Service, National Register listing alone places no restriction on a private property owner.',
     },
     {
-      question: 'Does my Verona building need to be vacated during roof replacement?',
-      answer: 'Building vacancy is not required for standard commercial roof replacement. Our phased approach maintains weather protection over occupied spaces throughout the project. Noise from tear-off equipment may affect sensitive operations during work hours, and we can schedule the noisiest activities for early morning or late afternoon to minimize impact. Specific tenant concerns -- medical offices requiring quiet, food service needing debris protection -- are accommodated through schedule coordination with building management.'
+      question: 'What is the typical lifespan of a new commercial roof?',
+      answer:
+        'A new membrane on a Verona corridor storefront lasts 15 to 25 years for EPDM, 7 to 20 years for TPO, 20 years for modified bitumen, 30 years for built-up roofing, and 20 to 30 years for PVC. The membrane lifespans trace to the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance, and standing-seam metal lasts 40 to 80 years per the InterNACHI chart.',
+    },
+    {
+      question: 'How does a commercial roof replacement handle ponding water on a Verona corridor roof?',
+      answer:
+        'A commercial roof replacement builds tapered insulation to at least ¼ inch per foot of slope under the new membrane, clearing the standing water that ages a flat roof. Ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, and the tear-off exposes the deck once, the point at which the insulation and drainage go in at the lowest added labor on a Bloomfield Avenue or Pompton Avenue building.',
     },
     {
       question: 'How much does commercial roof replacement cost in Verona, NJ?',
-      answer: 'Most commercial roof replacement projects in Verona range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A Verona corridor storefront replacement runs $7.00 to $12.00 per square foot installed for single-ply membrane, the same New Jersey range cited by Josten Roofing NJ pricing and commercial cost guides. EPDM runs $7.00 to $10.00 and TPO $8.00 to $12.00 per square foot, and NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Commercial roof replacement in Verona NJ -- phased replacement for Bloomfield Avenue businesses with minimal disruption and code compliance.',
+  metaDescription:
+    'Commercial roof replacement in Verona NJ — EPDM, TPO, PVC, and built-up on Bloomfield Avenue and Pompton Avenue corridor buildings, with tapered drainage.',
   pricing: {
-    range: '$8–$16/sq ft',
-    note: 'full tear-off and replacement',
+    range: '$7.00–$12.00/sq ft installed',
+    note: 'Single-ply membrane replacement in New Jersey runs $7.00 to $12.00 per square foot installed per Josten Roofing NJ pricing; final cost depends on roof size, membrane, tear-off layers, deck repair, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s Bloomfield Avenue and Pompton Avenue corridor flat-roof commercial stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free commercial roof replacement estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for commercial roof replacement in Verona.',
+    urgencyNote: 'Replacing a saturated membrane before winter limits freeze-thaw damage to the seams, flashing, and deck.',
   },
 };

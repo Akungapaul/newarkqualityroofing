@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const westOrangeRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'west-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof overlay installation across West Orange, New Jersey, and Essex County, applying a second asphalt-shingle layer over one existing sound layer on qualifying capes, ranches, Colonials, and Tudors** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [
-    'Newark Quality Roofing delivers expert roof overlay installation in West Orange — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation places new shingles directly over the existing roof surface, providing a cost-effective re-roofing option for West Orange homes where the existing single layer remains flat, well-adhered, and free of significant deck damage. Our [roof overlay installation](/roof-overlay-installation) approach evaluates each property\'s specific conditions before recommending overlay, because West Orange\'s elevation-driven weather stresses make overlay inappropriate for homes where ice dam exposure, wind uplift, or deck deterioration would compromise the new system\'s performance.',
-    'Valley-floor homes in Pleasant Valley with sheltered exposures, minimal ice dam history, and single-layer existing roofs represent West Orange\'s best overlay candidates. These properties experience less wind stress and thermal cycling than mid-slope or ridge-top homes, and the reduced weather severity extends the viability window for overlay installations. Even on valley-floor properties, we perform thorough existing-roof evaluation before recommending overlay, because the cost savings only hold value when the underlying conditions support acceptable performance.',
-    'We actively discourage overlay installation on West Orange homes at mid-slope and ridge-top elevations, where ice dam exposure requires ice-and-water shield membrane installation at eaves and valleys that overlay cannot accommodate. The performance compromise of installing new shingles over old without proper barrier protection creates leak risk within the first few winters -- risk that erases the cost savings overlay provides and creates interior damage costs that full tear-off would have prevented. Homeowners near [Verona](/roof-overlay-installation-verona-nj) receive the same elevation-specific overlay guidance for their Watchung ridge-line properties.'
+    '**Newark Quality Roofing installs an asphalt-shingle roof overlay on qualifying West Orange homes — a second shingle layer over one existing sound asphalt layer with no tear-off.** A West Orange overlay covers the valley capes, ranches, and Colonials of Pleasantdale and Gregory and the hillside stock that climbs toward Llewellyn Park. An overlay, the recover ARMA defines as installing an additional roof covering over an existing covering, skips the tear-off labor and the disposal.',
+    '**A roof overlay qualifies only on a single sound asphalt layer over a smooth, dry deck**, the condition Newark Quality Roofing confirms before quoting one on West Orange\'s mature ridge-side stock, where deteriorated sheathing often turns up at tear-off. N.J.A.C. 5:23-6.4 bars an overlay where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers already exist, per the NJ Uniform Construction Code.',
+    '**An overlay carries real trade-offs**, so Newark Quality Roofing states them in the written estimate rather than presenting one as equal to a tear-off. An overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI, traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile, per Owens Corning and GAF, and adds dead load across the deck and framing on older West Orange homes.',
+    '**The hillside Tudors and Llewellyn Park estate homes carry natural slate, metal, and copper**, coverings N.J.A.C. 5:23-6.4 bars from an overlay outright, so those roofs follow a tear-off or a tile-by-tile slate restoration rather than a recover. The low-slope storefronts of the Main Street, Valley Road, and Pleasant Valley Way spine and the Route 280 corridor follow a separate membrane recover path under the same Rehabilitation Subcode.',
   ],
   challenges: [
-    'Existing roof condition must meet strict criteria for overlay to deliver acceptable performance in [West Orange](/roofing-in-west-orange-nj). The existing roof must be a single layer with no previous overlay, shingle surfaces must lie flat without curling or buckling, flashing must be in serviceable condition, and the deck beneath must be structurally sound. Any deviation from these criteria makes overlay inappropriate, and we recommend tear-off instead.',
-    'Weight addition concerns surface on older West Orange homes where the existing framing was designed for one layer of roofing material. Adding a second layer nearly doubles the dead load on rafters, which is significant on homes with original dimensional lumber framing already spanning close to their design limits. We verify structural adequacy before recommending overlay, particularly on pre-war homes with older framing lumber.',
-    'Warranty limitations on overlay installations reduce the homeowner\'s long-term protection compared to tear-off installations. Most shingle manufacturers provide reduced warranty terms for overlay applications, recognizing that the underlying roof surface affects new shingle performance. We disclose warranty differences during consultation so homeowners can make informed decisions about the cost-versus-protection trade-off.'
+    '**Existing-roof condition** governs whether an overlay performs in West Orange, because the recover qualifies only on one sound asphalt layer over a smooth, dry, sound deck. N.J.A.C. 5:23-6.4 bars a recover over a water-soaked or deteriorated deck, over wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers exist, so a Newark Quality Roofing eligibility check precedes any overlay quote.',
+    '**Deteriorated sheathing discovered at tear-off** is the recurring West Orange disqualifier, because the township\'s mature ridge-side stock, with reservation-edge canopy off South Mountain and Eagle Rock pressing on north slopes, hides soft decking an overlay would seal in. A Newark Quality Roofing inspection walks the deck for softness and edge layers, and a deteriorated deck routes the home to a tear-off rather than a recover.',
+    '**Added dead load** raises a concern on older West Orange homes framed for one roofing layer, because a second layer adds weight across the rafters, the deck, and the supporting walls. A Newark Quality Roofing assessment verifies the existing layer count and the deck condition before recommending an overlay, and a roof already carrying 2 layers requires a full tear-off under N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1.',
+    '**Reduced warranty and a shorter overlay lifespan** trade against the lower upfront cost, because an overlay keeps the GAF or Owens Corning limited warranty in force only when the shingles install in strict accordance with the printed instructions over one layer and a smooth deck. The trapped heat cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, against the InterNACHI 3-tab life of 20 years and architectural life of 30 years.',
   ],
   process: [
-    'Overlay evaluation examines the existing roof for all criteria that determine candidacy: single layer confirmed by edge inspection, flat shingle surfaces without curling, solid deck verified by walking the roof surface, and serviceable flashing at all transitions. We reject overlay recommendations for any property showing signs of deck softness, multiple existing layers, or significant ice dam exposure that requires barrier membrane installation.',
-    'Installation begins with re-securing any loose existing shingles that could create bumps beneath the new layer. New drip edge and flashing install at eaves and rakes over the existing roofing. Starter shingles and field courses apply directly over the existing surface using slightly longer nails that penetrate through both layers into the deck sheathing. Valley and ridge details receive new flashing and cap treatment installed over the existing surface.',
-    'Quality verification confirms that new shingles lie flat without telegraphing bumps from the underlying surface. We inspect nail penetration depth at multiple locations to verify adequate engagement with the deck through both shingle layers. Final documentation discloses the overlay installation method and existing-layer condition for the homeowner\'s records, providing transparency for future roof decisions and property transactions.'
+    '**Newark Quality Roofing inspects the existing roof and the deck and confirms overlay eligibility against the conditions that bar a recover before quoting an overlay on a West Orange home.** A crew walks the roof for deck softness, edge layers, and curled shingles, because N.J.A.C. 5:23-6.4 bars a recover over a water-soaked or deteriorated deck, over wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers exist, and IRC Section R908.3.1.1 caps a roof at 2 total layers, per the NJ Uniform Construction Code.',
+    '**Newark Quality Roofing states the overlay trade-offs against a tear-off in the written estimate, because an overlay delivers less than a tear-off.** An overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI, traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile, per Owens Corning and GAF, and adds dead load, so the overlay-vs-tear-off choice is documented before any work begins.',
+    '**Newark Quality Roofing prepares the smooth substrate and installs the second asphalt layer to manufacturer specification, the install that keeps the limited warranty in force.** A crew nails down loose and curled shingles, removes protruding nails, and replaces missing shingles, because Owens Corning installation instructions and GAF Technical Bulletin TAB-R-145 condition a recover on a smooth substrate. A Newark Quality Roofing lead verifies the finished overlay, runs a magnet sweep for nails at cleanup, and documents the overlay method and existing-layer condition for the homeowner\'s records.',
   ],
   faqs: [
     {
-      question: 'Is overlay appropriate for my West Orange home?',
-      answer: 'Overlay may be appropriate if your home is at valley-floor elevation with minimal ice dam history, carries a single existing shingle layer in flat condition, and has a structurally sound deck. Homes at mid-slope or ridge-top elevation, homes with ice dam exposure, and homes with curling shingles or soft deck areas should receive tear-off instead. We evaluate every overlay candidate individually and recommend tear-off when overlay conditions are not met, even though tear-off costs more.'
+      question: 'Is a roof overlay allowed on my West Orange home?',
+      answer:
+        'A roof overlay is allowed on a West Orange home that carries one sound asphalt-shingle layer over a smooth, dry, sound deck. N.J.A.C. 5:23-6.4 bars the recover where the deck is water-soaked or deteriorated, where the covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers already exist. A Newark Quality Roofing eligibility inspection confirms the layer count and deck condition, and the hillside Tudor and Llewellyn Park slate, metal, and copper roofs follow a tear-off or restoration rather than a recover.',
     },
     {
-      question: 'How much does overlay save compared to tear-off?',
-      answer: 'Overlay typically saves 20 to 30 percent compared to tear-off by eliminating old material removal labor, disposal costs, and underlayment replacement. However, this savings must be weighed against reduced warranty coverage, inability to install ice-and-water shield, and the risk that hidden deck damage will shorten the new roof\'s service life. For many West Orange homes, the long-term value of tear-off exceeds the short-term savings of overlay.'
+      question: 'Is a roof overlay as good as a full tear-off?',
+      answer:
+        'A roof overlay delivers less than a full tear-off: it hides deck rot a tear-off catches and repairs, traps heat that cuts the new shingles\' service life by roughly 20–30%, telegraphs the old shingle profile, and adds dead load. The hidden-deck and trade-off framing traces to ARMA, InterNACHI, Owens Corning, and a national Angi industry estimate. A future re-roof over 2 layers then removes both layers at higher cost, per IRC Section R908.3.1.1.',
     },
     {
-      question: 'Will an overlay make my roof too heavy?',
-      answer: 'Two layers of asphalt shingles weigh approximately 5 to 7 pounds per square foot, which most modern residential framing accommodates within design limits. However, older West Orange homes with original dimensional lumber framing may have limited reserve capacity, particularly if the home also supports heavy snow loads during winter storms. We verify structural adequacy as part of our overlay evaluation and recommend tear-off when weight addition raises concern.'
+      question: 'Does a roof overlay need a permit in West Orange, NJ?',
+      answer:
+        'A roof overlay on a detached one- or two-family home in West Orange counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice. The ordinary-maintenance exemption covers the roof covering, not a non-compliant recover, so an overlay still meets the N.J.A.C. 5:23-6.4 eligibility limits. On a commercial, multi-family, or attached building along the Main Street, Valley Road, or Route 280 spine, repairing more than 25% of the roof area in a 12-month period requires a permit from the Township of West Orange Building & Construction Code Enforcement office.',
     },
     {
-      question: 'Can I do a second overlay over my existing two-layer roof?',
-      answer: 'No. New Jersey building code prohibits more than two layers of asphalt shingles on any residential roof. If your home already has two layers, tear-off is the only option. We verify layer count during our initial evaluation by examining exposed edges at eaves and rakes, ensuring that overlay recommendations only apply to single-layer existing roofs that meet all other candidacy criteria.'
+      question: 'Does an overlay work on a West Orange historic landmark or in Llewellyn Park?',
+      answer:
+        'Exterior roofing work on one of West Orange\'s roughly ten locally designated historic landmarks requires a Certificate of Appropriateness from the West Orange Historic Preservation Commission under Section 25-30 before a construction permit issues. The Certificate of Appropriateness covers landmarks such as Holy Trinity Episcopal Church, the State Diner, and the Hedges Block, and applies only to locally designated landmarks, not township-wide, so a typical West Orange home faces no historic review. Llewellyn Park homeowners answer to a private 1857 deed covenant rather than a township Certificate of Appropriateness, and per the National Park Service, National Register listing alone places no federal restriction on a private owner.',
     },
     {
       question: 'How much does roof overlay installation cost in West Orange, NJ?',
-      answer: 'Most roof overlay installation projects in West Orange range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A roof overlay in West Orange runs roughly 20–25% less than a full tear-off, because the recover skips the tear-off labor and the disposal, a national figure per HomeGuide and Angi. Most NJ roof-replacement projects fall between $10,000 and $25,000, per HomeAdvisor and Modernize, and NJ architectural asphalt runs $6.50–$11.00 per square foot installed, per Josten Roofing NJ pricing. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
+    },
+    {
+      question: 'How long does a roof overlay last?',
+      answer:
+        'A roof overlay lasts less than the same shingles installed over a clean deck, because trapped heat cuts the new shingles\' service life by roughly 20–30%, so a 30-year architectural shingle delivers closer to 20–24 years over an overlay. The 20–30% reduction is a national industry estimate per Angi, and the 3-tab 20-year and architectural 30-year baselines trace to the InterNACHI life-expectancy chart.',
     },
   ],
-  metaDescription: 'Roof overlay installation in West Orange NJ. Cost-effective second layer for valley-floor homes with qualifying conditions.',
+  metaDescription:
+    'Roof overlay installation in West Orange NJ — a second asphalt layer over one sound layer where N.J.A.C. 5:23-6.4 allows. NJ-registered, free written estimate.',
   pricing: {
-    range: '$6,000–$14,000',
-    note: 'overlay without full tear-off',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; an overlay runs roughly 20–25% less than a full tear-off per HomeGuide and Angi. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with West Orange\'s wide stock, from valley capes and ranches up through hillside Tudors and Llewellyn Park estate homes.',
+    'Honest overlay-vs-tear-off disclosure in the written estimate, including the trade-offs an overlay carries.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof overlay installation estimate in West Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof overlay installation in West Orange.',
+    urgencyNote: 'Confirming overlay eligibility before work begins avoids sealing in deck rot a tear-off would catch.',
   },
 };

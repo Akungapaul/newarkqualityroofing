@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const veronaCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing cedar shake roof replacement across Verona, New Jersey, and Essex County, stripping aging cedar to the deck and installing new cedar over a ventilated base** on pre-war Colonials and split-levels as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
-    'Newark Quality Roofing delivers expert cedar shake roof replacement in Verona — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Verona renews the natural wood roofing that gives select homes their distinctive organic character. When existing cedar shakes have weathered past the point of individual replacement -- splitting extensively, losing structural thickness to decay, or hosting biological growth that penetrates into the wood fiber -- full replacement with premium hand-split western red cedar restores the roof to its original warmth and dimensional beauty.',
-    'Newark Quality Roofing replaces cedar shake roofs on Verona homes using the same premium materials and installation techniques we apply to new installations: hand-selected heavy-grade shakes, corrosion-resistant ring-shank fasteners, skip sheathing for ventilation, and preservative treatment applied within 60 days of installation. Our [cedar shake replacement](/cedar-shake-roof-replacement) projects address not just the shake surface but the underlying deck, flashing, and ventilation systems that support cedar\'s long-term performance.',
-    'Verona homeowners replacing cedar shake face the decision of whether to reinstall cedar or convert to an alternative material. The conversion question arises most frequently for park-adjacent properties where persistent shade accelerated the original cedar\'s deterioration. We present the honest assessment: cedar replacement with enhanced treatment and maintenance protocols can succeed even in canopy-heavy locations, while conversion to algae-resistant architectural shingles eliminates the biological growth concern at lower cost. Homeowners in [Montclair](/cedar-shake-roof-replacement-montclair-nj) surrounded by similar canopy have made both choices successfully.'
+    '**Newark Quality Roofing replaces hand-split cedar shake and sawn cedar shingle roofs** on Verona\'s pre-war Colonials and Dutch Colonials, the older character homes on Personette Avenue and Claremont Avenue, and cedar-clad properties near Verona Park. Cedar shake roof replacement strips an aging cedar roof to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar.',
+    '**Hand-split cedar shake and sawn cedar shingle** carry different service lives, where cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing wood at 25 years. Maintenance sets where in the range a Verona cedar roof lands, because moisture-driven cupping, splitting, and rot end a cedar roof faster on shaded slopes.',
+    '**Reservation-edge shade** drives that moisture load on Verona cedar, because Verona holds part of the Eagle Rock Reservation on the First Watchung Mountain and part of the Hilltop Reservation on the Second Watchung Mountain, per Essex County Parks, and the wooded edges plus mature street trees near Verona Park settle moss and algae on north-facing slopes that dry slowly and rot the wood beneath cupped shakes.',
+    '**The deck beneath** aging cedar often rots from years of trapped moisture, so a Newark Quality Roofing replacement strips the cedar to the bare sheathing and replaces deteriorated plywood or OSB, the work N.J.A.C. 5:23-6.4 requires because the NJ Rehabilitation Subcode prohibits roofing over wood shake and over a water-soaked or deteriorated deck.',
   ],
   challenges: [
-    'Underlying deck deterioration beneath aging cedar shakes is almost universal because cedar\'s natural moisture absorption transmits water to the sheathing and framing below. Skip sheathing boards directly beneath the shakes show darkened staining from decades of moisture contact, and some boards will have softened or rotted completely. The replacement project must include skip-sheathing inspection and replacement at damaged locations, which adds scope that shingle-over-plywood replacements rarely require.',
-    'Fire-retardant treatment for replacement cedar shakes adds cost and procurement complexity but may be required by insurance companies or recommended by fire safety considerations. Pressure-treated fire-retardant shakes cost 20 to 30 percent more than untreated product and require sourcing from specialty suppliers with two to four week lead times. We determine treatment requirements based on building code, insurance policy provisions, and the property\'s specific fire exposure before specifying the shake product.',
-    'Preservative treatment scheduling during replacement must coordinate with installation timing and weather. The initial preservative application should occur within 60 days of installation but requires dry conditions for proper absorption. Installing shakes late in the fall may delay treatment until spring, leaving the new cedar unprotected through its first winter. Our scheduling coordinates installation timing with the treatment window to ensure the shakes receive protection as quickly as possible.'
+    '**A full tear-off is the only code path** for a Verona cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a cedar replacement strips the wood to the deck rather than recovering over the old shakes.',
+    '**Rotted sheathing under the cedar** surfaces at tear-off on Verona\'s older pre-war stock, where decades of trapped moisture beneath the wood soften the plank decking and plywood. A Newark Quality Roofing crew inspects every sheathing section and replaces the deteriorated boards before the new cedar goes on, scope a shingle-over-plywood re-roof rarely carries.',
+    '**Fire class governs the cedar selection**, because untreated cedar shakes and shingles are nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau Certi-Guard program. A Newark Quality Roofing estimate sets the fire class against building code and any insurance requirement before tear-off.',
+    '**A ventilated nailing base** keeps the new cedar drying, because a cedar roof needs at least 1.5 inches of air space beneath the shakes to resist the moisture-driven cupping, splitting, and rot that ends most cedar roofs, per Cedar Shake & Shingle Bureau install guidance, and a flat-deck install over Verona\'s shaded slopes traps the moisture that shortens cedar service life.',
   ],
   process: [
-    'Cedar shake replacement begins with careful tear-off that preserves the skip sheathing beneath while removing all existing shake material, underlayment remnants, and deteriorated flashings. Each skip sheathing board is inspected for soundness, and damaged boards are replaced with matching dimension lumber. The restored sheathing provides the ventilated substrate that cedar shake performance requires.',
-    'New shake installation follows the same protocol as our new cedar installations: doubled starter course at the eave, consistent exposure coursing with offset joints, valley weaving into metal flashings, and hand-sealing at transitions. Ice-and-water shield covers eaves, valleys, and split-level transitions where ventilated skip sheathing gives way to solid deck protection. Each shake receives two ring-shank nails placed for concealment by the overlapping course.',
-    'Preservative treatment application within 60 days of installation protects the new cedar from the start of its exposure cycle. The penetrating preservative with UV inhibitors and fungicide establishes baseline protection that Verona\'s canopy environment will test throughout the following seasons. The homeowner receives a treatment schedule calibrated to the property\'s specific sun exposure and canopy density, establishing the maintenance rhythm that maximizes cedar shake lifespan.'
+    '**Newark Quality Roofing rates the cedar roof against its 20-to-40-year shake and 30-to-50-year shingle service life, runs the InterNACHI flex test on suspect shakes, and checks the deck before quoting the replacement.** Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, and a shake that cracks under light bending fails the InterNACHI flex test, the sign of advanced degradation regardless of surface appearance, per the InterNACHI flex-test guidance. Replacement favors a cedar roof where cupping, splitting, and rot cover more than 25 to 30% of the field, per industry repair-vs-replace guidance.',
+    '**Newark Quality Roofing strips the cedar to the bare deck, inspects every sheathing section, and replaces deteriorated plywood or OSB rotted under the old wood.** A full tear-off exposes the deck for inspection and repair, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, the only code-compliant path for a Verona cedar roof. On a detached one- or two-family Verona home the re-roof counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a structural change to rafters or trusses still triggers one.',
+    '**Newark Quality Roofing installs the underlayment and a ventilated nailing base that holds at least 1.5 inches of drying air space, then lays the new cedar shake or shingle to install guidance.** The ventilated base keeps the air space that extends cedar service life and slows moisture-driven cupping and rot, per Cedar Shake & Shingle Bureau install guidance, and an ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision. A Newark Quality Roofing crew runs a magnet sweep for nails before leaving the property.',
   ],
   faqs: [
     {
-      question: 'Should I replace cedar with cedar or convert to shingles in Verona?',
-      answer: 'The choice depends on your priorities and property conditions. Cedar replacement preserves the natural beauty and architectural character that distinguishes your home, but requires ongoing maintenance and costs two to three times more than shingle replacement. Shingle conversion eliminates the maintenance burden at lower cost but sacrifices the organic aesthetic and may reduce property value in the Verona market. We present both options with honest cost, maintenance, and value comparisons.'
+      question: 'Should I replace my Verona cedar roof with cedar or convert to shingles?',
+      answer:
+        'Replace a Verona cedar roof when cupping, splitting, and rot cover more than 25 to 30% of the field, when a shake cracks under light bending, or when the deck rotted beneath the wood. Cedar reinstallation preserves the original wood character on Verona\'s pre-war Colonials, while architectural asphalt shingles end the biological-growth concern on shaded reservation-edge slopes at lower cost. Newark Quality Roofing presents both options with honest cost, maintenance, and service-life comparisons.',
     },
     {
-      question: 'How much does cedar shake replacement cost in Verona?',
-      answer: 'Cedar shake replacement on a Verona home typically costs $20,000 to $40,000 depending on roof size and shake grade. This includes tear-off, skip sheathing repair, ice-and-water shield at critical areas, premium hand-split shakes, and initial preservative treatment. The investment provides 30 to 40 years of service with proper maintenance, delivering natural beauty and performance that no manufactured material can replicate.'
+      question: 'Can a new cedar roof go over an old cedar roof in Verona, NJ?',
+      answer:
+        'A new cedar roof cannot go over an old cedar roof in Verona, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a cedar replacement requires a full tear-off to the deck. The NJ Rehabilitation Subcode requires complete removal of a wood-shake covering, per the NJ Uniform Construction Code, and the tear-off exposes the Verona deck for the sheathing repair the old cedar hid.',
     },
     {
-      question: 'How long does cedar shake replacement take?',
-      answer: 'Cedar shake replacement on a typical Verona home takes five to eight working days: one to two days for tear-off and deck preparation, three to five days for shake installation, and one day for trim and cleanup. Material procurement adds two to four weeks lead time before installation begins. We schedule the project to allow preservative treatment within 60 days of completion.'
+      question: 'Why does a Verona cedar roof need a ventilated nailing base?',
+      answer:
+        'A Verona cedar roof needs at least 1.5 inches of drying air space beneath the shakes, the ventilation that slows the moisture-driven cupping, splitting, and rot that ends most cedar roofs. The 1.5-inch air-space standard traces to Cedar Shake & Shingle Bureau install guidance, and the shade from Verona\'s Eagle Rock and Hilltop reservation edges and the street trees near Verona Park keeps north-facing slopes wet, so the air space matters more on shaded Verona slopes.',
     },
     {
-      question: 'Will new cedar shakes match the gray weathered look of my old roof?',
-      answer: 'New cedar shakes start as warm golden-brown and weather to silver-gray over approximately two to three years of exposure. The transition is gradual and natural. If you prefer to accelerate the gray appearance, weathering stains can be applied during the preservative treatment to achieve the silver-gray tone immediately. Untreated cedar weathers unevenly; our preservative treatment ensures uniform aging across all roof planes.'
+      question: 'Does a cedar roof replacement on a Verona landmark need HPC review?',
+      answer:
+        'Verona requires HPC review prior to the issuance of permits only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona, the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church, so every other Verona home reroofs with no HPC review. Per the National Park Service, National Register listing alone places no restriction on a private property owner.',
+    },
+    {
+      question: 'What fire rating does a cedar shake roof carry in Verona?',
+      answer:
+        'Untreated cedar shakes and shingles are nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly. The product classes trace to the Cedar Shake & Shingle Bureau Certi-Guard program, and Newark Quality Roofing sets the fire class against building code and any insurance requirement before specifying the Verona cedar.',
     },
     {
       question: 'How much does cedar shake roof replacement cost in Verona, NJ?',
-      answer: 'Most cedar shake roof replacement projects in Verona range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Premium cedar roofing in New Jersey runs $10 to $20-plus per square foot installed, per NHI Contractors NJ pricing, placing cedar above asphalt and below slate among NJ roofing materials. NJ ranges sit 10 to 40% above national figures because labor runs roughly 60 to 70% of a wood-roof install, per Modernize, and NJ code is stricter. Final cost depends on roof size, pitch, cedar type, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Cedar shake roof replacement in Verona NJ -- premium hand-split cedar with preservative treatment for split-levels and custom homes.',
+  metaDescription:
+    'Cedar shake roof replacement in Verona NJ — hand-split shake and sawn shingle, full tear-off, ventilated base, deck repair. NJ-registered, free estimate.',
   pricing: {
-    range: '$15,000–$32,000',
-    note: 'cedar shake roof replacement',
+    range: '$10–$20+ per square foot installed for premium cedar',
+    note: 'Premium cedar roofing in NJ runs $10 to $20-plus per square foot installed per NHI Contractors pricing; final cost depends on roof size, pitch, cedar type, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free cedar shake roof replacement estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for cedar shake roof replacement in Verona.',
+    urgencyNote: 'Replacing a cedar roof past its service life prevents trapped moisture from rotting the deck and framing beneath the wood.',
   },
 };

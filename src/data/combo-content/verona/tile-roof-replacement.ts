@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const veronaTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing tile roof replacement across Verona, New Jersey, and Essex County, stripping clay or concrete tile and worn underlayment to the deck on the township\'s pre-war Colonials** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [
-    'Newark Quality Roofing delivers expert tile roof replacement in Verona — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Verona restores the distinctive clay or concrete tile systems that grace the township\'s Mediterranean-influenced homes with a new installation providing 75 to 100 years of service. When the existing tile system has deteriorated beyond repair -- cracked tiles too numerous to replace individually, failed underlayment beneath the tile field, or structural concerns from decades of heavy-load service -- full replacement reinstalls the building with modern tile products and contemporary underlayment systems that improve performance while maintaining the authentic appearance.',
-    'Newark Quality Roofing performs tile replacement on Verona homes using both clay and concrete tile products selected for compatibility with the home\'s architectural style and the structural capacity of the existing framing. Modern concrete tiles replicate the profiles of traditional clay at lower weight and cost, expanding the options available to Verona homeowners. Our [tile replacement](/tile-roof-replacement) specifications match the replacement product to the home\'s specific requirements.',
-    'Tile replacement on Verona homes is less common than shingle or metal replacement but requires significantly more specialized expertise. The weight handling, batten layout, interlocking patterns, and mortar or mechanical ridge and hip details demand crews experienced specifically in tile roofing. Homeowners in [Montclair](/tile-roof-replacement-montclair-nj) with similar period architecture have relied on our tile crews for both restoration and full replacement projects.'
+    '**Newark Quality Roofing replaces clay and concrete tile roofs across Verona\'s pre-war Colonials and Dutch Colonials and its select Mediterranean and civic buildings.** Tile roof replacement strips the tile and worn underlayment to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system.',
+    '**Clay and concrete tile** outlast the underlayment beneath them, where clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment fails well before the tile, per the Tile Roofing Industry Alliance and This Old House, so a Newark Quality Roofing replacement renews the underlayment and flashing while salvaging or matching the tile profile.',
+    '**The underlayment** is the real service-life limiter on a Verona tile roof, because an interior leak or a ceiling stain under intact tile traces to failed felt rather than failed tile, per the Tile Roofing Industry Alliance and This Old House. A Newark Quality Roofing replacement lifts the tile, dates and renews the underlayment, and re-lays the salvaged tile across the older pre-war stock on Personette Avenue and Claremont Avenue.',
+    '**Worn flashing** under tile admits water at the valleys, headwalls, and chimneys that roughly 90 to 95% of leaks trace back to, an industry estimate attributed to the NRCA, and the reservation-edge canopy off the Eagle Rock and Hilltop reservations drops debris that backs water at those same transitions. A Newark Quality Roofing replacement rebuilds the flashing at the transitions as the tile and underlayment are re-laid.',
   ],
   challenges: [
-    'Structural re-evaluation is essential before tile replacement because framing that has carried tile weight for decades may have experienced fatigue or moisture-related weakening. The replacement project includes structural inspection of rafters, purlins, and bearing connections to verify continued load capacity. Any compromised members are sistered or replaced before new tile is installed.',
-    'Underlayment upgrade during tile replacement represents the single most impactful performance improvement available. Original tile installations often used organic felt underlayment that has deteriorated to near-zero waterproofing capacity. Modern synthetic underlayment with 40-year rated life expectancy installed during tile replacement creates a robust secondary waterproofing layer beneath the tile field.',
-    'Tile disposal and handling logistics require equipment and planning beyond standard roofing projects. Individual tiles are heavy and fragile, requiring careful removal to avoid breakage scatter and controlled lowering to ground level rather than free-fall into dumpsters. The weight of tile debris requires larger dumpster capacity and more frequent hauling than shingle tear-off.'
+    '**Structural dead load** governs a Verona tile replacement, because tile is heavy and the deck and framing carry the load while the underlayment sets the service life. A Newark Quality Roofing assessment verifies the structure carries the tile dead load before new tile is set, and a structural change to rafters or trusses to carry that load triggers a construction permit under N.J.A.C. 5:23-2.7.',
+    '**Tear-off to the deck** is mandatory on a tile roof, because a clay or concrete tile covering cannot be roofed-over and the NJ Rehabilitation Subcode requires complete removal of the existing covering before new roofing, per N.J.A.C. 5:23-6.4. A full tear-off exposes the deck for inspection and replacement of plywood or plank sheathing rotted under the old felt, the deteriorated decking that pre-war Verona homes commonly reveal at tear-off.',
+    '**Concrete-tile spalling** ages the lower-cost option in the Essex County climate, because northern New Jersey crosses the 32 degree freezing point repeatedly through winter with an average January low near 25.5 degrees Fahrenheit, per NOAA 1991 to 2020 normals at Newark Liberty (EWR), driving the freeze-thaw spalling and efflorescence that surface-flake concrete tile. A Newark Quality Roofing replacement matches the tile class to the building and that climate.',
   ],
   process: [
-    'Tile replacement begins with careful tile removal, salvaging sound pieces for repairs and documenting the existing layout pattern, hip and ridge details, and decorative elements. The exposed deck receives full inspection and repair, followed by modern underlayment and batten installation at the exposure spacing specified for the replacement tile profile.',
-    'New tile installation begins at the eaves with starter tiles, progressing upward in courses that interlock via lugs, channels, or overlap patterns specific to the tile profile. Each tile is mechanically fastened to the battens with corrosion-resistant screws or clips. Hip and ridge tiles are installed with mortar bed or dry mechanical attachment depending on the profile and aesthetic preference.',
-    'The completed installation is inspected for tile alignment, fastener security, mortar integrity, and flashing integration at all penetrations and transitions. The homeowner receives warranty documentation for both the tile product and the installation workmanship, along with a maintenance guide covering the periodic inspection and minor repair that tile roofs require over their multi-decade service life.'
+    '**Newark Quality Roofing verifies the deck and framing carry the tile dead load, dates the underlayment that drives the replacement, and rates the tile and flashing before quoting.** Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, and the underlayment fails well before the tile, so the assessment confirms structural capacity and plans the tear-off to the deck that N.J.A.C. 5:23-6.4 requires.',
+    '**Newark Quality Roofing strips the tile and the failed underlayment to the deck, salvages sound tile, repairs the sheathing, and installs an ice barrier and a tile-rated underlayment.** A tile roof cannot be roofed-over and takes complete removal of the existing covering, per N.J.A.C. 5:23-6.4, and the IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the International Residential Code.',
+    '**Newark Quality Roofing re-lays the salvaged and matching-profile tile to manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty.** The matching profile preserves the look of the original Verona Colonial roof, and the written workmanship warranty backs the labor separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How much does tile roof replacement cost in Verona?',
-      answer: 'Tile roof replacement on a Verona home typically costs $25,000 to $55,000 depending on tile type (clay vs concrete), roof size, and structural repair requirements. The investment provides 75 to 100 years of service life, making the per-decade cost competitive with asphalt shingles that require replacement every 25 to 30 years.'
+      question: 'Why does a Verona tile roof leak when the tile is still intact?',
+      answer:
+        'A Verona tile roof leaks under intact tile when the underlayment beneath the tile fails, because the underlayment is the real service-life limiter and fails well before the tile, per the Tile Roofing Industry Alliance and This Old House. A Newark Quality Roofing tile replacement lifts the tile, renews the underlayment and flashing, and re-lays the salvaged tile across the older pre-war stock on Personette Avenue and Claremont Avenue.',
     },
     {
-      question: 'Can I switch from clay tile to concrete tile during replacement?',
-      answer: 'Yes. Concrete tile profiles that replicate traditional clay appearances are available at lower material cost and reduced weight. The lighter concrete may eliminate the need for structural reinforcement that heavier clay would require. We present both options with weight, cost, and appearance comparisons so you can make an informed decision for your Verona home.'
+      question: 'How long does a tile roof last before replacement?',
+      answer:
+        'Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment fails well before the tile and is the real replacement trigger, so a Verona tile roof past 50 years with an original underlayment reaches that point even while the tile holds.',
     },
     {
-      question: 'How long does tile roof replacement take in Verona?',
-      answer: 'Tile replacement typically requires three to five weeks of on-site work, plus material procurement lead time of two to six weeks depending on tile availability. The extended timeline reflects the precision hand-work that tile installation requires compared to machine-made roofing products.'
+      question: 'Can a tile roof be roofed over instead of torn off in Verona?',
+      answer:
+        'A tile roof cannot be roofed-over and takes a full tear-off to the deck, because the NJ Rehabilitation Subcode requires complete removal of an existing clay, cement, or slate tile covering before new roofing, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing tile replacement strips the tile and the failed underlayment to the bare sheathing, then inspects and replaces the plank or plywood decking that older Verona homes reveal at tear-off.',
     },
     {
-      question: 'Will my Verona home look the same after tile replacement?',
-      answer: 'We match the replacement tile profile to the original as closely as available products allow. Modern manufacturing produces tiles that replicate historic profiles with remarkable accuracy. Color matching is the greatest variable -- new tiles will not carry the weathered patina of 80-year-old originals, but they will develop their own character over time. We can blend salvaged original tiles into prominent visible areas with new tiles on less visible sections for transitional appearance.'
+      question: 'Do I need a permit to replace a tile roof in Verona?',
+      answer:
+        'A complete re-roof of the tile covering on a detached one- or two-family Verona home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice. A commercial or multi-family building, or a structural change to rafters or trusses to carry the tile dead load, does require a permit filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue.',
+    },
+    {
+      question: 'Does a Verona historic landmark designation restrict a tile roof replacement?',
+      answer:
+        'Verona requires HPC review prior to the issuance of permits only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona, the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church, so every other Verona home reroofs with no HPC review. Per the National Park Service, National Register listing alone places no restriction on a private property owner.',
     },
     {
       question: 'How much does tile roof replacement cost in Verona, NJ?',
-      answer: 'Most tile roof replacement projects in Verona range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Tile roof replacement in New Jersey runs $10 to $20-plus per square foot for premium tile, per NHI Contractors, against a typical NJ new-roof range of $10,000 to $25,000, per HomeAdvisor and Modernize NJ cost data. Clay tile carries a higher material cost than concrete tile, per the Tile Roofing Industry Alliance, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Tile roof replacement in Verona NJ -- clay and concrete tile systems for Mediterranean-style homes with structural verification.',
+  metaDescription:
+    'Tile roof replacement in Verona NJ — clay and concrete tile, underlayment and flashing renewal, tear-off to the deck. NJ-registered, insured, free estimate.',
   pricing: {
-    range: '$18,000–$40,000',
-    note: 'tile roof replacement installed',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium tile runs $10–$20+ per square foot per NHI Contractors, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free tile roof replacement estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for tile roof replacement in Verona.',
+    urgencyNote: 'Addressing failed underlayment under intact tile early limits interior and structural water damage.',
   },
 };

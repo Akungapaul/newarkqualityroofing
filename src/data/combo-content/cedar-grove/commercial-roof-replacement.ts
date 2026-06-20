@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const cedarGroveCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof replacement across Cedar Grove, New Jersey, and Essex County, stripping the failed low-slope membrane to the deck and installing a new insulation-and-membrane system** on the Pompton Avenue and Route 23 storefronts as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [
-    'Newark Quality Roofing delivers expert commercial roof replacement in Cedar Grove — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Cedar Grove provides building owners along Pompton Avenue, Route 23, and the township\'s professional office parks with an opportunity to upgrade aging roof systems to current performance standards while correcting the drainage, insulation, and structural deficiencies that decades of service have revealed. Our [commercial roof replacement](/commercial-roof-replacement) projects in Cedar Grove transform underperforming roofs into warranted systems that reduce operating costs, eliminate recurring repair expenses, and protect building value for the next twenty to thirty years.',
-    'Many Cedar Grove commercial buildings are approaching or have passed their second roof lifecycle -- the original roof was replaced once during the 1990s or early 2000s, and that replacement is now reaching end-of-life. Building owners facing a second replacement have the advantage of experience: they understand the costs of deferred maintenance, the value of proper drainage, and the importance of selecting a contractor who delivers quality installation rather than the lowest bid. Our Cedar Grove commercial replacement proposals reflect this informed audience with detailed engineering, transparent pricing, and realistic project timelines.',
-    'The replacement decision on Cedar Grove commercial buildings is driven by accumulated repair costs, energy performance decline, and tenant satisfaction concerns. When annual repair spending exceeds two percent of replacement cost, when energy bills climb due to saturated insulation and deteriorated reflective surfaces, or when recurring leaks threaten tenant retention, replacement becomes the economically rational decision.',
+    '**Newark Quality Roofing replaces commercial low-slope roofs across Cedar Grove** — EPDM rubber, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal — on the strip retail, offices, and service buildings of the Pompton Avenue and Route 23 corridor. Commercial roof replacement strips the existing covering to the deck, repairs the deck, and installs a new insulation-and-membrane system, the work that replaces a roof past its service life rather than patching a failed seam.',
+    '**Pompton Avenue and Route 23** carry Cedar Grove\'s low-slope commercial stock in the township business district that runs along Central Cedar Grove, where a flat roof needs at least ¼ inch per foot of slope to drain and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing replacement grades the deck and builds tapered insulation so the new system drains rather than ponds.',
+    '**A new commercial membrane** reaches the end of service after a material-specific lifespan: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF. A Newark Quality Roofing replacement matches the new membrane to the building, the drainage, and the Essex County climate before tear-off.',
   ],
   challenges: [
-    'Occupied-building logistics on Cedar Grove commercial replacement projects require careful phasing to maintain business operations during the multi-week installation period. Interior-sensitive businesses like medical offices, technology firms, and restaurants along Pompton Avenue need noise mitigation, dust control, and absolute waterproof protection during every phase of tear-off and reinstallation. Our project plans identify the critical interior areas and sequence the work to minimize exposure.',
-    'Existing roof assembly investigation frequently reveals conditions that expand the replacement scope beyond the initial estimate. Saturated insulation, deck corrosion or decay, structural framing inadequacy, and improperly installed prior roof layers create additional work items that must be addressed for the new system to perform. We include contingency provisions in Cedar Grove proposals and communicate change order protocols clearly before work begins.',
-    'Code-triggered improvements during commercial roof replacement in Cedar Grove may require upgrades beyond simple membrane replacement. Current energy code may mandate higher insulation R-values, current fire code may require different membrane classifications, and current structural code may specify enhanced wind uplift ratings compared to the original installation. These code-triggered improvements add cost but bring the building into compliance for the next thirty-year roof cycle.',
+    '**Wet insulation and deck deterioration** hide under an intact membrane on Cedar Grove\'s aging Route 23 storefront roofs and surface only at tear-off. An ASTM C1153 infrared moisture survey maps the saturated insulation before the crew opens the roof, because wet insulation retains heat longer than dry insulation and reads as a warm anomaly after sunset, per ASTM and the NRCA, and a core cut verifies each anomaly.',
+    '**Multi-layer and water-soaked roofs** require complete removal rather than a recover-over, because the NJ Rehabilitation Subcode mandates full tear-off when the existing covering is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing replacement strips the Pompton Avenue building to the deck and rebuilds the full assembly.',
+    '**The permit threshold** governs every commercial replacement in Cedar Grove, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period on a commercial building, per N.J.A.C. 5:23-2.7. A Newark Quality Roofing crew files the construction permit with the Township of Cedar Grove Building Department at 525 Pompton Avenue on the storefront roofs that cross the threshold.',
   ],
   process: [
-    'Commercial roof replacement in Cedar Grove begins with a pre-construction survey that includes core cuts for insulation moisture assessment, structural evaluation for load capacity, and documentation of all rooftop equipment and penetrations. We produce engineered drawings showing the proposed roof assembly, drainage layout, and equipment integration details. The drawings are submitted to Cedar Grove Building Department for permit approval.',
-    'Construction proceeds in managed phases: tear-off and deck inspection in sections sized for single-day weatherproofing, deck repair or replacement as conditions dictate, insulation installation with tapered systems for positive drainage, membrane application with documented quality verification, and completion of all flashing, equipment curb, and penetration details. Temporary waterproofing protects the building between phases and during overnight and weather interruptions.',
-    'Project closeout includes manufacturer warranty inspection, final building department inspection, and comprehensive handover documentation. The building owner receives the full warranty package, as-built drawings, a maintenance manual specific to the installed system, and a recommended inspection schedule. We schedule a six-month and twelve-month follow-up inspection at no charge to verify early-service performance and address any punch-list items.',
+    '**Newark Quality Roofing assesses the deck, the insulation, the drainage, and the NJ code triggers before quoting a Cedar Grove commercial replacement.** An ASTM C1153 infrared moisture survey locates the wet insulation under an intact membrane, per ASTM and the NRCA, and a core cut verifies each anomaly. The construction permit a commercial replacement requires under N.J.A.C. 5:23-2.7 is filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue.',
+    '**Newark Quality Roofing matches the new commercial system to the building, the drainage, and the Essex County climate from six membrane classes: EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal.** Material lifespan differs sharply — EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF — and white PVC and TPO carry high solar reflectance measured per ASTM C1549, the cool-roof property that lowers rooftop heat gain.',
+    '**Newark Quality Roofing strips the existing covering to the deck, repairs the deck, builds tapered insulation to positive drainage, and installs the new membrane to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** N.J.A.C. 5:23-6.4 requires complete removal when the roof is water-soaked or already carries 2 or more layers, and tapered insulation builds at least ¼ inch per foot of slope to clear the ponding water the NRCA and ARMA count as a defect after 48 hours. Installing to manufacturer specification preserves the material warranty, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How long does commercial roof replacement take in Cedar Grove?',
-      answer: 'Typical Cedar Grove commercial replacements take three to six weeks for buildings under ten thousand square feet and six to twelve weeks for larger properties. Weather delays, unexpected deck conditions, and equipment coordination can extend timelines. We provide weekly schedule updates and maintain temporary waterproofing to ensure the building remains protected throughout the project regardless of duration.',
+      question: 'Should you repair or replace your Cedar Grove commercial roof?',
+      answer:
+        'Replace a Cedar Grove commercial roof when membrane damage exceeds 25 to 30% of the roof area, when leaks recur at the same location, or when core samples show saturated insulation across a majority of the roof. Repair the roof when damage stays localized. The 25 to 30% flat-roof threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance, and a recurring same-spot leak signals systemic failure regardless of damaged area, per HomeAdvisor.',
     },
     {
-      question: 'Can my Cedar Grove business stay open during roof replacement?',
-      answer: 'Yes. Phased construction is specifically designed to maintain building operations during replacement. We schedule the noisiest work during less sensitive hours, maintain dust barriers at interior access points, and ensure waterproof protection at all times. Some interior disruption is unavoidable during tear-off phases, but we minimize impact through careful planning and communication with building tenants.',
+      question: 'Do you need a permit for a commercial roof replacement in Cedar Grove, NJ?',
+      answer:
+        'A commercial roof replacement in Cedar Grove requires a construction permit, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period on a commercial building, per N.J.A.C. 5:23-2.7. The permit is filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, and the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4.',
     },
     {
-      question: 'What is the ROI on commercial roof replacement in Cedar Grove?',
-      answer: 'Commercial roof replacement in Cedar Grove typically delivers ROI through three channels: eliminated repair costs that were running one to three percent of replacement value annually, reduced energy costs of fifteen to twenty-five percent through upgraded insulation and reflective membrane, and preserved tenant revenue by eliminating leak-related complaints. The combined savings typically recover the replacement investment within eight to twelve years.',
+      question: 'Does a historic district in Cedar Grove restrict a commercial roof replacement?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a commercial roof replacement in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority, and the township carries no locally designated historic district or landmark. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
     },
     {
-      question: 'Should I replace or recover my Cedar Grove commercial roof?',
-      answer: 'Recover is viable when the building has only one existing roof layer, insulation is dry, and the deck is sound. It costs twenty to thirty percent less than full replacement. However, recover adds weight to the structure, cannot correct drainage deficiencies in the underlying deck, and limits future options since code restricts total layers to two. Full replacement is the better investment when deck repair is needed, drainage correction is required, or the building already has multiple roof layers.',
+      question: 'What is the typical lifespan of a new Cedar Grove commercial roof?',
+      answer:
+        'A new commercial membrane lasts 15 to 25 years for EPDM, 7 to 20 years for TPO, 20 years for modified bitumen, and 30 years for built-up roofing, per the InterNACHI life-expectancy chart. PVC lasts 20 to 30 years, per the Single Ply Roofing Industry and GAF. A Newark Quality Roofing replacement on the Pompton Avenue and Route 23 corridor matches the membrane to the building and the drainage before tear-off.',
+    },
+    {
+      question: 'How does an infrared moisture survey scope a Cedar Grove commercial replacement?',
+      answer:
+        'An ASTM C1153 infrared moisture survey locates the wet insulation under an intact membrane, because wet insulation retains heat longer than dry insulation and reads as a warm anomaly after sunset, per ASTM and the NRCA. ASTM C1153 requires a core cut to verify each anomaly, because the survey locates wet insulation, not the leak entry point, and the survey scopes the saturated assembly on a Route 23 storefront roof before tear-off.',
     },
     {
       question: 'How much does commercial roof replacement cost in Cedar Grove, NJ?',
-      answer: 'Most commercial roof replacement projects in Cedar Grove range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A roof replacement in New Jersey runs $10,000 to $25,000 for a typical building, per HomeAdvisor and Modernize NJ cost data. A single-ply commercial membrane runs $7.00 to $12.00 per square foot installed, with EPDM at $7.00 to $10.00 and TPO at $8.00 to $12.00, per Josten Roofing NJ pricing. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Commercial roof replacement in Cedar Grove NJ -- full tear-off and re-roof for Pompton Ave and Route 23 businesses with minimal disruption.',
+  metaDescription:
+    'Commercial roof replacement in Cedar Grove NJ — EPDM, TPO, and modified-bitumen tear-offs on Pompton Avenue and Route 23 storefronts. NJ-registered contractor.',
   pricing: {
-    range: '$8–$16/sq ft',
-    note: 'full tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; single-ply commercial membrane runs $7.00–$12.00 per square foot installed per Josten Roofing NJ pricing; final cost depends on roof size, membrane, drainage, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s Pompton Avenue and Route 23 low-slope commercial roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free commercial roof replacement estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for commercial roof replacement in Cedar Grove.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

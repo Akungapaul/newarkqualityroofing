@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing energy efficient roofing solutions across Cedar Grove, New Jersey, and Essex County, pairing reflective surfaces and balanced attic ventilation with code-minimum insulation** on the township\'s postwar ranches and split-levels and Pompton Avenue storefronts as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Energy efficient roofing solutions** combine a high-reflectance surface that rejects solar heat with conductive insulation that slows heat flow into the building below. The two levers — reflective membranes and coatings, plus above-deck insulation, radiant barriers, and balanced attic ventilation — lower roof surface temperature and the cooling load beneath the roof.',
   overview: [
-    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Cedar Grove — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing solutions in Cedar Grove help homeowners and business owners reduce heating and cooling costs through materials, insulation strategies, and ventilation upgrades designed for northern Essex County\'s four-season climate. The township\'s ranch-dominant housing stock -- with its wide roof footprints and shallow attic spaces -- presents both the greatest opportunity for energy improvement and the most common thermal performance deficiencies. Our [energy efficient roofing](/energy-efficient-roofing-solutions) assessments in Cedar Grove consistently find that addressing roof insulation and ventilation delivers the highest return on investment of any home energy improvement.',
-    'Cedar Grove\'s northern Essex County location produces a heating-dominated energy profile where winter heat loss through the roof accounts for twenty-five to forty percent of total heating expense on poorly insulated ranch homes. The shallow attic spaces typical of Cedar Grove ranch construction often contain original fiberglass batts at R-11 or R-13 -- far below the current R-49 minimum recommended for the climate zone. Upgrading insulation during roof replacement transforms the economics of heating these homes, with payback periods of three to five years on insulation investment alone.',
-    'Cool roofing technology provides summer energy savings on Cedar Grove properties with sun-exposed roof surfaces, though the benefit calculation differs from southern climates. In northern Essex County, the winter heating penalty from reduced solar heat gain must offset against summer cooling savings. Our energy analysis for each Cedar Grove property quantifies the net annual benefit, often recommending cool roofing for commercial buildings with dominant cooling loads and traditional roofing with enhanced insulation for residential homes with dominant heating loads.',
+    '**Newark Quality Roofing pairs a high-reflectance roof surface with above-deck insulation, radiant barriers, and balanced attic ventilation** across Cedar Grove\'s postwar ranches, split-levels, and colonials and the low-slope storefronts of the Pompton Avenue / Route 23 corridor.',
+    '**A reflective roof surface** rejects solar heat through 2 measured radiative properties: solar reflectance, the fraction of sunlight the roof returns on a 0-to-1 scale, and thermal emittance, how efficiently the surface re-radiates absorbed heat, per the EPA and the CRRC. On a low-slope Pompton Avenue or Route 23 commercial roof, a white TPO or PVC membrane carries roughly 0.70-to-0.85 initial solar reflectance and 0.80-to-0.90 thermal emittance measured per ASTM C1549, CRRC-listed.',
+    '**Above-deck insulation** carries the second lever, the conductive R-value that governs heat flow through the assembly separate from the reflectance at the surface, per the DOE. On Cedar Grove\'s tree-shaded ranches and split-levels, a re-roof pairs the reflective surface with ceiling insulation sized to the 2021 IECC R-60 minimum for Climate Zones 4 and 5, with an R-49 full-ceiling exception at raised-heel eaves, per the 2021 IECC.',
+    '**Balanced attic ventilation** closes the system, pairing continuous intake-and-exhaust airflow with the code-minimum ceiling insulation so the assembly sheds trapped heat and moisture, one of the levers the DOE names alongside reflective surfaces and insulation, per the DOE. Cedar Grove\'s strongly homeowner-facing stock, 76.3% owner-occupied across 5,008 housing units, per the U.S. Census Bureau, carries this residential energy work.',
   ],
   challenges: [
-    'Balancing heating-season and cooling-season performance on Cedar Grove roofs requires climate-specific analysis rather than applying generic cool-roof recommendations. A highly reflective white roof that reduces summer cooling costs by fifteen percent may increase winter heating costs by ten percent in northern Essex County, producing a net annual savings of only five percent. Cedar Grove\'s heating-dominant climate means that insulation improvements -- which reduce both heating and cooling costs -- deliver substantially greater energy savings than reflective surface treatments alone.',
-    'Shallow attic access on Cedar Grove ranch homes limits the insulation upgrade methods available. Blown-in cellulose or fiberglass can be installed through small access hatches, but achieving uniform coverage in the tapered eave areas where ranch roofs meet the exterior walls requires experienced installers who understand how to direct fill material into tight spaces without blocking soffit ventilation. Improperly installed blown-in insulation can obstruct airflow, creating the ice dam and moisture condensation problems that energy upgrades are meant to prevent.',
-    'Ventilation system compatibility with energy-efficient roofing upgrades must be verified during planning. Adding insulation without maintaining or improving ventilation can create moisture problems -- warm, humid interior air that previously escaped through the poorly insulated attic now condenses on cold roof sheathing during winter. Cedar Grove ranch homes require balanced ventilation systems with continuous soffit intake and ridge exhaust that maintain cold attic temperatures while the enhanced insulation keeps heat inside the living space.',
+    '**A heating-dominated climate** sets the defining constraint on Cedar Grove energy roofing, because Essex County sits in IRC and IECC Climate Zone 4-to-5, where a reflective roof carries a winter heating penalty, per the DOE and the EPA. A Newark Quality Roofing design balances the reflective surface against the ceiling insulation so the net annual benefit fits the climate.',
+    '**The reflective surface and the conductive R-value are separate levers**, and a reflective coating adds no R-value, because the coating changes the surface radiative properties rather than conductive resistance, per the RCMA and the DOE. A Newark Quality Roofing assessment specifies the reflective surface and the insulation as distinct measures rather than treating one as a substitute for the other.',
+    '**The retired ENERGY STAR roof label** no longer applies, because the ENERGY STAR roof products program ended, with new certifications stopping June 1, 2021 and recognition ending June 1, 2022, per the EPA. A Newark Quality Roofing specification references the CRRC-1 rating, the successor third-party program that lists initial and 3-year aged reflectance and emittance, per the CRRC.',
+    '**Reservation-edge tree canopy** shades Cedar Grove\'s north-facing slopes, because the wooded edges of the Mills Reservation and the Hilltop Reservation and the township\'s mature street-tree canopy press heavy cover against nearby roofs. A Newark Quality Roofing scope keeps the intake-and-exhaust ventilation clear of leaf and branch debris so the balanced airflow that protects the insulation stays open.',
   ],
   process: [
-    'Energy efficient roofing assessment in Cedar Grove begins with thermal imaging of the existing roof during cold weather to visualize heat loss patterns. We identify specific areas where insulation is missing, compressed, or improperly installed, and quantify the thermal performance gap between existing conditions and current energy code requirements. This diagnostic approach targets improvement spending at the specific deficiencies driving energy waste on each Cedar Grove property.',
-    'Improvement recommendations are prioritized by cost-effectiveness: air sealing attic floor penetrations delivers the highest return per dollar, followed by insulation upgrade to R-49, ventilation optimization, and finally roof surface material selection. For Cedar Grove homeowners replacing their roof, we integrate all four improvements into a single project scope. For homeowners not yet ready for roof replacement, attic-side improvements can be performed independently as an energy upgrade project.',
-    'Material selection for energy-efficient roof replacement considers the specific thermal profile of each Cedar Grove property. We present life-cycle energy cost analysis comparing standard shingles with enhanced insulation versus cool-roof materials, radiant barrier underlayment, and insulated panel systems. The analysis accounts for Cedar Grove\'s specific heating degree days, cooling degree days, and utility rates to produce an accurate payback projection for each option.',
+    '**Newark Quality Roofing measures the roof against 2 separate energy levers — surface reflectance and emittance, and conductive R-value — and checks the existing ceiling insulation against the 2021 IECC R-60 minimum for Climate Zones 4 and 5.** Reflectance and emittance combine into the Solar Reflectance Index per ASTM E1980, with reflectance measured per ASTM C1549 and emittance per ASTM C1371, per ASTM and the CRRC, and the assessment targets the deficiency driving heat loss on each Cedar Grove property.',
+    '**Newark Quality Roofing selects CRRC-listed reflective products and sizes insulation to the Essex County climate zone, because a reflective roof carries a winter heating penalty in a heating-dominated climate.** A white TPO or PVC membrane on a Pompton Avenue or Route 23 storefront carries roughly 0.70-to-0.85 initial solar reflectance and 0.80-to-0.90 thermal emittance per ASTM C1549, CRRC-listed, while a residential design balances the reflective surface against the ceiling insulation for the climate, per the CRRC, ASTM, and the DOE.',
+    '**Newark Quality Roofing installs the reflective surface, insulation, and ventilation to manufacturer specification and balances the attic airflow against the code-minimum ceiling insulation.** On a Cedar Grove ranch or split-level, the crew brings ceiling insulation to the 2021 IECC R-60 minimum for Climate Zones 4 and 5, with the R-49 full-ceiling exception at raised-heel eaves, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per the 2021 IECC and the DOE.',
   ],
   faqs: [
     {
-      question: 'What is the most cost-effective energy improvement for a Cedar Grove roof?',
-      answer: 'Air sealing attic floor penetrations followed by insulation upgrade to R-49 consistently delivers the best energy savings per dollar invested on Cedar Grove ranch homes. These two improvements can reduce heating costs by twenty to thirty percent with payback periods of three to five years. Roof surface material changes provide supplemental savings but typically rank third or fourth in cost-effectiveness behind insulation and ventilation improvements.',
+      question: 'Does a cool roof save energy in Cedar Grove\'s climate?',
+      answer:
+        'A cool roof reduces peak summer cooling demand by 11-to-27% in air-conditioned residential buildings, per the EPA, and carries a winter heating penalty in the Essex County heating-dominated climate, per the DOE. The net annual benefit depends on the climate and the insulation, so Newark Quality Roofing balances the reflective surface against the ceiling insulation for Cedar Grove\'s Climate Zone 4-to-5 before specifying the design.',
     },
     {
-      question: 'Should I get a cool roof on my Cedar Grove home?',
-      answer: 'For most Cedar Grove residential homes, enhanced insulation beneath a standard-colored roof delivers greater net annual energy savings than a cool roof with existing insulation. Cedar Grove\'s heating-dominant climate means the winter heating penalty from a highly reflective roof partially offsets summer cooling savings. We recommend cool roofing primarily for Cedar Grove commercial buildings with significant air conditioning loads where the summer savings clearly outweigh the modest winter penalty.',
+      question: 'Does a reflective roof coating add insulation or R-value in Cedar Grove?',
+      answer:
+        'A reflective roof coating adds no meaningful R-value, because the coating changes the surface radiative properties — solar reflectance and thermal emittance — rather than conductive resistance, per the RCMA, the DOE, and the CRRC. Energy savings come from reflecting sunlight and lowering roof surface temperature, and a separate above-deck or ceiling insulation layer carries the R-value, per the DOE.',
     },
     {
-      question: 'How much can I save on energy with a new roof in Cedar Grove?',
-      answer: 'A comprehensive energy-efficient roof replacement on a Cedar Grove ranch home -- including insulation upgrade, air sealing, ventilation improvement, and appropriate material selection -- typically reduces annual heating and cooling costs by twenty-five to thirty-five percent. On homes with original 1960s-era insulation, savings can exceed forty percent. The energy savings partially offset the roof replacement cost over the system\'s lifetime.',
+      question: 'How much insulation does a Cedar Grove roof need for energy efficiency?',
+      answer:
+        'The 2021 IECC Table R402.1.3 sets ceiling insulation R-60 for Climate Zones 4 and 5, which cover Essex County, with an R-49 full-ceiling exception at raised-heel eaves, per the 2021 IECC. New Jersey adopted the 2021 IECC with residential enforcement beginning April 2023, so a Newark Quality Roofing energy upgrade on a Cedar Grove ranch or split-level sizes ceiling insulation to that R-60 minimum.',
     },
     {
-      question: 'Does insulation matter more than roofing material for energy efficiency in Cedar Grove?',
-      answer: 'Yes. Insulation R-value and air sealing quality determine seventy to eighty percent of a roof system\'s thermal performance in Cedar Grove\'s climate. Roofing material reflectivity and emissivity account for the remaining twenty to thirty percent. A well-insulated roof with standard shingles will outperform a poorly insulated roof with premium cool-roof material in every season. We address insulation first and treat surface material as a supplemental optimization.',
+      question: 'Do you need a permit for energy efficient roofing in Cedar Grove, NJ?',
+      answer:
+        'A re-roof or repair of the roof covering on a detached one- or two-family Cedar Grove home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code, so an energy upgrade to the covering proceeds without a permit. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, the path the Pompton Avenue / Route 23 storefronts follow.',
     },
     {
-      question: 'How much does energy efficient roofing solutions cost in Cedar Grove, NJ?',
-      answer: 'Most energy efficient roofing solutions projects in Cedar Grove range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Is an energy efficient re-roof in a Cedar Grove historic district restricted?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner energy re-roof in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
+    },
+    {
+      question: 'How much do energy efficient roofing solutions cost in Cedar Grove, NJ?',
+      answer:
+        'A typical NJ roof-replacement range runs $10,000–$25,000, per HomeAdvisor and Modernize cost data, and an energy-efficient re-roof prices the reflective surface and the insulation scope separately within that range. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate that sets the reflective surface and insulation scope for the Cedar Grove climate.',
     },
   ],
-  metaDescription: 'Energy efficient roofing in Cedar Grove NJ -- insulation upgrades, ventilation optimization, and material selection for northern Essex County homes.',
+  metaDescription:
+    'Energy efficient roofing in Cedar Grove NJ — reflective TPO/PVC, above-deck insulation, and balanced ventilation for postwar ranches and Route 23 storefronts.',
   pricing: {
-    range: '$10,000–$28,000',
-    note: 'cool-roof or reflective systems',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free energy efficient roofing solutions estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for energy efficient roofing solutions in Cedar Grove.',
+    urgencyNote: 'Sizing the reflective surface and insulation to the Cedar Grove climate at re-roof avoids paying twice for the energy upgrade.',
   },
 };

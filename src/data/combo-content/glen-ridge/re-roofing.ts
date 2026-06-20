@@ -3,50 +3,72 @@ import type { ComboContent } from '../schema';
 export const glenRidgeReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'glen-ridge',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing re roofing across Glen Ridge, New Jersey, and Essex County, replacing worn slate, asphalt, and low-slope coverings on the borough\'s pre-WWII single-family homes and Bloomfield Avenue station-edge buildings** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in Glen Ridge — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing a Glen Ridge home is among the most consequential improvement decisions a homeowner in the borough will make. The choice of roofing material, the quality of installation, and the compatibility with the home\'s architectural period will affect the property\'s appearance, protection, and value for decades. In a community where the Historic Preservation Commission reviews material selections and neighbors take genuine pride in the streetscape they share, re-roofing carries aesthetic and social significance beyond the practical waterproofing function.',
-    'Newark Quality Roofing guides Glen Ridge homeowners through the full re-roofing process from material consultation through commission approval, installation, and final inspection. We begin with the home\'s architectural context -- its construction period, original roofing material, the materials used on neighboring homes -- and narrow material options to those that satisfy both preservation requirements and performance expectations. This front-loaded design process prevents the costly mid-project changes that occur when homeowners or contractors discover too late that their material selection will not pass commission review.',
-    'Glen Ridge re-roofing projects demand logistics planning that generic roofing contractors often underestimate. The borough\'s narrow lots, close house spacing, mature street trees, and gaslit thoroughfares create staging constraints where equipment must be positioned precisely to avoid property damage and borough infrastructure. Our Glen Ridge project managers develop site-specific logistics plans for every re-roofing project, coordinating with neighbors and the borough when necessary to ensure smooth execution. We apply the same precision to re-roofing in historic communities throughout Essex County including [Montclair](/re-roofing-montclair-nj) and [Verona](/re-roofing-verona-nj).',
+    '**Newark Quality Roofing re-roofs Glen Ridge\'s pre-WWII Victorian, Tudor, and Colonial Revival homes and the Bloomfield Avenue station-edge buildings**, replacing a worn covering with a new underlayment-and-cover system once the roof crosses the replacement threshold.',
+    '**Glen Ridge\'s pre-WWII high-style homes** carry slate, dormers, and multi-gable rooflines, per the Glen Ridge Historical Society, where natural slate lasts 60 to 150 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing re-roof matches the new system in kind to a covering near the end of that range on this ~1890s–1930s, predominantly owner-occupied stock.',
+    '**The replacement threshold** reaches through age and condition: damage across more than 25–30% of the roof area crosses the contractor-consensus 25% rule and a single repair approaching 50% of replacement cost crosses the 50% rule, per RapidRestore, WeatherShield, and Home Depot cost data, while a localized repair stays the more economical path only on an asphalt roof under 10 to 15 years old.',
+    '**The Bloomfield Avenue station edge** carries the borough\'s minimal low-slope commercial footprint, where EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI chart, so a station-edge re-roof installs a single-ply or multi-ply membrane graded to drain rather than the slate and asphalt that detail the residential streets.',
   ],
   challenges: [
-    'Material selection for Glen Ridge re-roofing involves navigating a matrix of preservation requirements, performance specifications, and budget constraints that rarely have a single obvious solution. A Victorian home that originally carried slate may re-roof with natural slate, designer shingles replicating slate profile, or -- on approved secondary elevations -- standard architectural shingles. Each option has distinct cost, longevity, and maintenance implications. Our consultation process presents these tradeoffs clearly, helping homeowners make confident decisions within their budget and the commission\'s expectations.',
-    'Construction scheduling in Glen Ridge must account for weather windows, commission approval timelines, material lead times, and neighborhood coordination. Slate sourcing requires weeks; commission review requires weeks; and Essex County weather provides reliable construction windows only during certain months. We build realistic project timelines that account for all these variables, setting homeowner expectations accurately and avoiding the compressed schedules that lead to quality compromises.',
+    '**Plank and deteriorated sheathing** surfaces at tear-off on Glen Ridge\'s ~1890s–1930s homes, because a full tear-off strips the covering to the deck and exposes deteriorated plank or board sheathing that a recover would hide, per ARMA. A Newark Quality Roofing re-roof replaces the deteriorated sections before the new underlayment and cover go down.',
+    '**Mature street-tree debris** loads the valleys, gutters, and north slopes that a new Glen Ridge roof inherits, because the borough\'s heavy oak, maple, and elm canopy shades a fully built-out inner lowland borough and drops leaf load and broken branches on streets like Forest Avenue and Ridgewood Avenue. A re-roof rebuilds the valley and eave detailing that the canopy wears, and shade-driven moss on north slopes lifts shingle edges before the field fails.',
+    '**The recover-vs-tear-off rule** governs whether a Glen Ridge roof takes a new layer or a full strip, because the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4. The borough\'s slate roofs and aging stock put most Glen Ridge re-roofs on the tear-off path.',
   ],
   process: [
-    'Re-roofing in Glen Ridge follows a structured sequence: consultation and material selection, Historic Preservation Commission application if required, material procurement, site preparation, tear-off, deck repair, underlayment and waterproofing installation, roofing material installation, flashing and trim completion, cleanup, and final inspection. Each phase has defined quality checkpoints and clear communication points where we update the homeowner on progress and any findings that affect scope or timeline.',
-    'Installation quality on Glen Ridge homes demands the hand-craft precision that premium materials require. Slate is individually fitted and copper-nailed in graduated courses. Cedar shakes are spaced for ventilation with stainless steel ring-shank fasteners. Architectural shingles are installed per manufacturer high-wind specifications with enhanced nailing patterns appropriate for Glen Ridge\'s exposure. Every flashing detail is fabricated from copper in profiles matching the home\'s existing or period-appropriate metalwork. The completed installation represents craftsmanship that honors both the home and the community.',
+    '**Newark Quality Roofing confirms the re-roofing decision against the threshold rules, then strips the worn covering to the deck and replaces deteriorated sheathing exposed at tear-off.** Damage across more than 25–30% of the roof area crosses the contractor-consensus 25% rule and a repair approaching 50% of replacement cost crosses the 50% rule, per RapidRestore and Home Depot cost data, and a full tear-off exposes the plank decking on Glen Ridge\'s older homes for repair, because N.J.A.C. 5:23-6.4 requires complete removal where the roof is water-soaked, deteriorated, or carries slate or 2 or more layers.',
+    '**Newark Quality Roofing matches the new system to the building from slate, architectural asphalt, metal, and low-slope membrane, then installs an ice barrier, underlayment, and the cover to manufacturer specification.** Natural slate lasts 60 to 150 years, architectural asphalt 30 years, metal 40 to 80 years, and low-slope membrane 7 to 25 years, per the InterNACHI life-expectancy chart, and a Glen Ridge re-roof installs the ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision, and rebuilds copper valley and step flashing on the steep multi-gable rooflines.',
+    '**Newark Quality Roofing verifies the install, runs a magnet sweep for nails, and documents the completed re-roof with photographs for the homeowner\'s records.** A detached one- or two-family re-roof of the roof covering counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a regulated property in the Glen Ridge Historic District requires a separate Certificate of Appropriateness for a change of roofing material, addressed below.',
   ],
   faqs: [
     {
-      question: 'How do I know when my Glen Ridge home needs re-roofing versus repair?',
-      answer: 'Re-roofing becomes the appropriate choice when repair costs approach 40 to 50 percent of replacement cost, when deterioration affects more than 25 to 30 percent of the roof surface, when the roof has reached the end of its material lifespan, or when multiple leaks indicate systemic failure rather than isolated damage. Our assessment provides honest guidance about the repair-versus-replace threshold for your specific roof.',
+      question: 'Do I need a permit to re-roof a home in Glen Ridge, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Glen Ridge counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area within a 12-month period requires a permit from the Borough of Glen Ridge Building Department at 825 Bloomfield Avenue, and a structural change to rafters or trusses triggers a permit on any building.',
     },
     {
-      question: 'What is the most popular roofing material in Glen Ridge re-roofing projects?',
-      answer: 'Natural slate and premium architectural shingles with slate-profile designs are the most common Glen Ridge re-roofing materials. Cedar shake remains popular on homes with established cedar character. The appropriate choice depends on the home\'s architectural period, the commission\'s expectations, and the homeowner\'s budget and maintenance preferences.',
+      question: 'Does a re-roof on a historic Glen Ridge home need a Certificate of Appropriateness?',
+      answer:
+        'Exterior roofing on a regulated property in the Glen Ridge Historic District requires a Certificate of Appropriateness from the borough Historic Preservation Commission under Glen Ridge\'s Historic Preservation ordinance, Chapter 15.32. The Certificate of Appropriateness governs roof replacement, a change of roofing material, dormers, and visible roof-mounted equipment, and the Glen Ridge Historic District covers over 90% of the borough, per the Borough of Glen Ridge, so most homes fall inside the regulated district. The Certificate of Appropriateness is a local-ordinance requirement, not a consequence of the 1982 National Register listing — per the National Park Service, National Register listing alone places no federal restriction on a private owner, so confirm a specific parcel with the Historic Preservation Commission or Building Department.',
     },
     {
-      question: 'How long should a new roof last on a Glen Ridge home?',
-      answer: 'Natural slate lasts 100 or more years. Cedar shake lasts 30 to 40 years with proper maintenance. Premium architectural shingles last 30 to 50 years depending on product line. Standing seam copper lasts 75 to 100 years. We present lifespan and lifecycle cost data for each material option during consultation so homeowners can evaluate long-term value.',
+      question: 'Does a Glen Ridge re-roof require a full tear-off?',
+      answer:
+        'A Glen Ridge re-roof requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound asphalt layer hides the plank-deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20–30%, per ARMA and Angi, so the borough\'s slate and aging stock put most re-roofs on the tear-off path.',
+    },
+    {
+      question: 'When should I re-roof a Glen Ridge home instead of repairing it?',
+      answer:
+        'Re-roofing fits a Glen Ridge home when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; a repair fits while the damage stays localized on an asphalt roof under 10 to 15 years old. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a localized repair costs 5 to 10 times less than a re-roof while the roof stays young, per RapidRestore, Home Depot, and Kelly Roofing cost data.',
+    },
+    {
+      question: 'Which roofing material suits a re-roof on a Glen Ridge Victorian or Tudor?',
+      answer:
+        'Natural slate, metal, and copper suit the larger Victorian, Edwardian, and Tudor homes, where natural slate lasts 60 to 150 years, metal 40 to 80 years, and copper 70 years or more, per the InterNACHI life-expectancy chart. The Glen Ridge Historic Design Guidelines treat slate as historic fabric to match in kind, while architectural asphalt at a 30-year service life suits the Colonial Revival and Dutch Colonial homes, per the same chart, and a re-roof on a regulated property changing roofing material requires a Certificate of Appropriateness.',
     },
     {
       question: 'How much does re roofing cost in Glen Ridge, NJ?',
-      answer: 'Most re roofing projects in Glen Ridge range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Re-roofing in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data. Final cost depends on roof size, pitch, material, and access, and Glen Ridge\'s larger high-style homes with steep slate slopes and complex multi-gable rooflines raise the install figure. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Re-roofing in Glen Ridge NJ. Preservation-grade slate, cedar shake, and premium shingle replacement for historic homes.',
+  metaDescription:
+    'Re-roofing in Glen Ridge NJ — slate, asphalt, metal, and low-slope replacement on pre-WWII homes and station-edge buildings. NJ-registered, free estimate.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Glen Ridge\'s pre-WWII Victorian, Tudor, and Colonial Revival homes and the Bloomfield Avenue station edge.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in Glen Ridge — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re roofing in Glen Ridge.',
+    urgencyNote: 'Addressing a failing roof early limits interior and structural water damage during a re-roof.',
   },
 };

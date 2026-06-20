@@ -3,56 +3,74 @@ import type { ComboContent } from '../schema';
 export const veronaFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing full roof tear off across Verona, New Jersey, and Essex County, stripping every roof layer to the deck on pre-war Colonials, postwar Capes and ranches, and split-levels** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
-    'Newark Quality Roofing delivers expert full roof tear off in Verona — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off removes every layer of existing roofing material down to the structural deck, providing the clean substrate that new roofing systems require for maximum performance and warranty coverage. On Verona homes where multiple roofing layers have accumulated over decades -- original shingles from the 1960s construction covered by a second layer in the 1990s and possibly a third layer since -- tear-off is not optional. Building codes limit residential roofs to two layers, and the cumulative weight of multiple installations stresses framing designed for a single roof. Newark Quality Roofing performs full tear-off on every Verona re-roofing project, exposing the deck for inspection and repair before new roofing is installed.',
-    'The tear-off process on Verona split-levels reveals deck and framing conditions concealed for decades beneath the shingle surface. Deteriorated plywood at level transitions, corroded original flashings buried under subsequent installations, and insulation blocked soffit vents are typical discoveries. These conditions must be corrected during tear-off -- installing new roofing over compromised substrate perpetuates the problems. Our [tear-off](/full-roof-tear-off) approach treats deck exposure as an opportunity for comprehensive structural evaluation, not just a step toward new shingle installation.',
-    'Verona\'s community character values clean, respectful work practices, and tear-off generates more debris, noise, and visual disruption than any other phase of a roofing project. Our crews deploy ground-level tarps, containment barriers around landscaping, and dumpster placement that minimizes street impact. Homeowners in [Cedar Grove](/full-roof-tear-off-cedar-grove-nj) have praised the same clean-site practices on their projects, noting that our crews leave the property cleaner after tear-off than many contractors leave it after final cleanup.'
+    '**Newark Quality Roofing strips the roof to the bare deck, inspects and repairs the sheathing, then installs a new underlayment-and-cover system** on Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels. Full roof tear off exposes the sheathing for the inspection a roof-over cannot provide.',
+    '**Tear off to the bare deck** removes the asphalt, underlayment, and any overlay layers a Verona roof carries, because a tear-off lets a roofer inspect the deck and repair damage while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI.',
+    '**Deck inspection and repair** exposes the sheathing for the failing-deck signs InterNACHI names — daylight through the deck, soft or spongy wood, delaminated plywood, and swollen OSB edges — and replaces decking that cannot grip a roofing nail, common on Verona\'s pre-war stock where plank sheathing and decades-buried flashing surface at tear-off.',
+    '**Split-level transition flashing** rebuilds at the offset-plane wall lines on Verona\'s 1960s–70s split-levels and bi-levels, where the roof-to-wall step and counter-flashing fail before the open shingle field, and the corridor storefronts on Bloomfield Avenue and Pompton Avenue carry low-slope EPDM, TPO, and modified-bitumen membrane tear-offs instead.',
   ],
   challenges: [
-    'Multi-layer tear-off on Verona homes produces substantially more debris than single-layer removal, requiring larger dumpster capacity and more labor hours. A typical split-level with two shingle layers generates 60 to 80 squares of tear-off waste -- four to six tons of material that must be removed from the roof, contained during descent, and loaded for disposal. Our tear-off process uses roofing jacks and slide chutes that control debris descent directly into the dumpster, preventing scatter across the lawn and driveway.',
-    'Preserving the structural deck during aggressive tear-off requires technique that distinguishes between removing roofing layers and damaging the sheathing beneath. Flat shovels and specialized tear-off tools lift shingle courses without driving into the plywood surface. On older Verona homes with skip sheathing beneath the original roofing, the open gaps between boards create fall hazards and complicate the tear-off process. Our crews identify the sheathing type from the attic before tear-off begins, adjusting their technique for solid versus spaced decking.',
-    'Weather risk during tear-off demands same-day waterproofing capability. Once the existing roofing is removed, the exposed deck has no weather protection. Our scheduling never starts tear-off without confirmed dry weather for the full workday, and our crew size ensures that any section opened can be covered with synthetic underlayment before departing for the day. Emergency tarps are staged on-site for unexpected weather changes.'
+    '**A roof already carrying two layers** mandates a full tear off, because N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1 prohibit a recover where two applications already exist. Complete removal is the only compliant path on the many Verona homes that reached a second layer over the decades.',
+    '**A water-soaked or deteriorated deck** mandates a full tear off under N.J.A.C. 5:23-6.4, which bars a recover over a deck that is not an adequate base, and a recover hides the rot a tear-off repairs, per the Asphalt Roofing Manufacturers Association. Verona\'s older pre-war Colonials carry the aged valley, chimney, and wall flashing that admits the water behind that rot.',
+    '**Plank or skip sheathing on the older pre-war stock** complicates the tear off, because the open gaps between boards under the original covering create fall hazards and demand a technique that lifts shingle courses without driving into the deck. A crew identifies the sheathing type from the attic before tear-off begins.',
+    '**Weather exposure once the deck is open** removes the roof\'s only weather protection, so a tear off proceeds on a confirmed dry window and any opened section is covered with synthetic underlayment before the crew leaves for the day, per InterNACHI sheathing-inspection practice.',
   ],
   process: [
-    'Tear-off day begins with ground preparation: tarps placed around the perimeter, landscaping covered with plywood shields, and the dumpster positioned for efficient loading from slide chutes. The crew strips shingles starting at the ridge, working downward in sections to maintain a stable working platform. Ridge cap, hip shingles, and field courses are removed in sequence, with flashings and underlayment following as each section is exposed.',
-    'The exposed deck receives immediate inspection -- every square foot is walked and probed for soft spots, delamination, and rot. Damaged sections are marked with spray paint and measured for replacement. The framing beneath is inspected at damage locations for moisture staining or structural compromise. All deck repairs are completed before any new underlayment or roofing is installed, ensuring the new system starts on a solid, verified foundation.',
-    'Debris management throughout the day keeps the site organized and safe. Tear-off material travels from roof to dumpster via controlled chutes, not thrown over the edge. Magnetic nail sweepers clear the driveway and walkways multiple times during the workday. At the end of tear-off, the deck is swept clean, deck repairs are completed, and the full surface is covered with synthetic underlayment stapled securely. The prepared deck is ready for the new roofing installation, which begins the next working day.'
+    '**Newark Quality Roofing inspects the roof and the attic underside, counts the existing covering layers, and identifies which N.J.A.C. 5:23-6.4 removal condition applies.** The conditions are a water-soaked deck, a wood-shake or slate covering, or two or more existing layers, per the NJ Uniform Construction Code, and a written estimate then sets the scope, labor, materials, disposal, and timeline.',
+    '**Newark Quality Roofing strips all existing covering, underlayment, and overlay layers to the bare sheathing and stages disposal**, the removal a recover skips, with old-roof removal running $1–$5 per square foot by material weight, per HomeGuide national cost data. Ground tarps contain debris and a magnet sweep clears nails before the crew leaves the property.',
+    '**Newark Quality Roofing inspects every exposed sheathing section and replaces deteriorated decking that cannot grip a roofing nail**, because roofing nails penetrate at least ¾ inch into the deck to grip, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI.',
+    '**Newark Quality Roofing installs an ice barrier at the eaves, applies synthetic underlayment across the repaired deck, and installs the cover to manufacturer specification.** The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone Essex County, per the International Residential Code as enforced under N.J.A.C. 5:23, which keeps the manufacturer system warranty intact.',
   ],
   faqs: [
     {
-      question: 'How long does tear-off take on a Verona split-level?',
-      answer: 'Single-layer tear-off on a typical Verona split-level takes one full day with a four to five person crew. Two-layer tear-off may require a day and a half. The tear-off day includes ground protection, debris removal, deck inspection, and temporary waterproofing. New roofing installation begins the following day on the prepared, dry deck surface.'
+      question: 'When does New Jersey code require a full roof tear off in Verona?',
+      answer:
+        'N.J.A.C. 5:23-6.4 requires complete removal of the existing covering in three conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying two or more layers. The NJ Rehabilitation Subcode adds wood shake to the IRC Section R908.3.1.1 removal list, per the NJ Uniform Construction Code, so a recover over a third layer is never compliant on a Verona home.',
     },
     {
-      question: 'Can I stay in my Verona home during roof tear-off?',
-      answer: 'Yes, you can remain in your home during tear-off. The work is noisy -- expect significant impact noise from shingle removal and some vibration. Sensitive items on upper-level shelves should be secured or removed. Pets may be disturbed by the noise and activity and may benefit from alternative accommodation for the day. We recommend that elderly or noise-sensitive household members plan an outing during the most intensive morning hours when tear-off activity peaks.'
+      question: 'Do you need a permit for a full roof tear off in Verona, NJ?',
+      answer:
+        'A complete tear-off of the roof covering on a detached one- or two-family home in Verona counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice. A commercial, multi-family, or attached building — including the Bloomfield Avenue and Pompton Avenue corridor storefronts — exceeding 25% of the roof area in 12 months requires a permit filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue, per the NJ Uniform Construction Code, and so does any structural change to rafters or trusses.',
     },
     {
-      question: 'What happens if bad weather arrives during tear-off in Verona?',
-      answer: 'We never begin tear-off without a confirmed dry weather window for the full workday. If unexpected weather develops, our crew stops tear-off and immediately applies temporary waterproofing -- synthetic underlayment secured with cap nails and edges sealed with tape -- to all exposed deck areas. This temporary cover provides reliable protection until dry conditions allow work to resume. The risk of mid-day weather surprises is why we monitor hourly forecasts throughout the tear-off day.'
+      question: 'Does a Verona historic landmark designation restrict a full roof tear off?',
+      answer:
+        'Verona requires HPC review prior to the issuance of permits only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona — the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church — so every other Verona home tears off and re-roofs with no HPC review. The Afterglow section is a proposed district from the 2017 survey, not designated, so a tear-off there follows the standard N.J.A.C. 5:23-2.7 path, and per the National Park Service, National Register listing alone places no restriction on a private owner.',
     },
     {
-      question: 'Does tear-off damage the landscaping around my Verona home?',
-      answer: 'Our ground protection protocol prevents landscaping damage. Plywood shields cover plants and shrubs within the drop zone, tarps catch debris at the perimeter, and controlled chutes direct material into the dumpster rather than off the roof edge. Magnetic sweepers clear nails from lawn, driveway, and walkway areas. We photograph the landscaping before and after the project, and any damage attributable to our work is repaired or compensated.'
+      question: 'What does tear off reveal on a Verona split-level deck?',
+      answer:
+        'Tear off on a Verona 1960s–70s split-level exposes the deteriorated plank or plywood sheathing, the corroded original flashings buried under later layers, and the roof-to-wall step flashing at the offset-plane transition where most split-level leaks start. A crew replaces decking that cannot grip a roofing nail at the ¾-inch penetration ARMA specifies and rebuilds the step and counter-flashing at the wall lines before any new covering goes down.',
     },
     {
-      question: 'How much does full roof tear off cost in Verona, NJ?',
-      answer: 'Most full roof tear off projects in Verona range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What roofing goes back on after a Verona tear off?',
+      answer:
+        'After tear off, architectural asphalt shingles last 30 years and 3-tab shingles 20 years on Verona\'s pitched homes, per the InterNACHI life-expectancy chart. Natural slate lasts 60 to 150 years and metal 40 to 80 years on the older pre-war Colonials, while a Bloomfield Avenue or Pompton Avenue low-slope corridor roof takes an EPDM, TPO, or modified-bitumen membrane, where ponding water held more than 48 hours counts as a defect, per the NRCA and ARMA.',
+    },
+    {
+      question: 'How much does a full roof tear off cost in Verona, NJ?',
+      answer:
+        'Old-roof removal runs $1–$5 per square foot by material weight, and a New Jersey roof replacement costs $10,000–$25,000 for a typical home with the tear-off included, per HomeGuide, HomeAdvisor, and Modernize cost data. Final cost depends on roof size, pitch, material, layer count, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Full roof tear-off in Verona NJ -- complete shingle removal, deck inspection, and clean site practices for split-level re-roofing projects.',
+  metaDescription:
+    'Full roof tear off in Verona NJ — strip to the deck, repair sheathing, rebuild split-level flashing, then re-roof. NJ-registered, fully insured, free estimate.',
   pricing: {
-    range: '$9,000–$26,000',
-    note: 'complete tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range with tear-off included, per HomeAdvisor and Modernize; old-roof removal runs $1–$5 per square foot by material weight per HomeGuide, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free full roof tear off estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for full roof tear off in Verona.',
+    urgencyNote: 'Stripping the roof to the deck exposes and repairs hidden rot a recover would leave under the new covering.',
   },
 };

@@ -3,55 +3,72 @@ import type { ComboContent } from '../schema';
 export const glenRidgeWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'glen-ridge',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing wood shake roofing across Glen Ridge, New Jersey, and Essex County, building a ventilated cedar assembly on the borough\'s pre-WWII Victorian, Colonial Revival, and Tudor homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Wood shake roofing** covers a sloped roof in hand-split or tapersawn western red cedar laid over a ventilated assembly that lets each course dry from the underside after rainfall. The air space beneath the shakes manages the moisture that drives most cedar wear.',
   overview: [
-    'Newark Quality Roofing delivers expert wood shake roofing in Glen Ridge — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing holds a respected place in Glen Ridge\'s preservation vocabulary as the traditional alternative to slate for homes across the borough\'s historic district. While slate defines the grandest Victorian residences, wood shake -- in various species and cut profiles -- appears on Arts and Crafts bungalows, Dutch Colonial gambrels, and the simpler vernacular homes that fill out Glen Ridge\'s residential fabric. Newark Quality Roofing installs wood shake using traditional methods updated with modern fastening and treatment systems that satisfy the Historic Preservation Commission while delivering the decades of service that Glen Ridge homeowners expect from their roofing investment.',
-    'The term wood shake encompasses several distinct products with different characteristics suited to different Glen Ridge applications. Hand-split shakes produce the thick, irregular texture valued on rustic and Arts and Crafts homes. Taper-split shakes offer a more refined surface while retaining handcrafted character. Machine-sawn shakes provide uniform dimensions preferred by the commission for some architectural periods. We guide Glen Ridge homeowners through these distinctions, matching the shake type to the architectural character of the specific home and the commission\'s expectations for visual authenticity.',
-    'Wood shake performance in Glen Ridge\'s northeastern climate depends heavily on species selection, treatment, and installation detail. The borough\'s heavy tree canopy creates persistent shade and moisture conditions that accelerate biological attack on untreated wood. Our wood shake installations incorporate preservative treatment, proper coursing with ventilation gaps, and underlayment systems designed to protect the roof deck while allowing the air circulation that prevents the moisture trapping responsible for premature wood decay. This preservation-conscious approach extends wood shake life in Glen Ridge well beyond what untreated installations achieve in similar [Bloomfield](/wood-shake-roofing-bloomfield-nj) environments.',
+    '**Newark Quality Roofing installs, repairs, and maintains cedar shake and shingle roofs** across Glen Ridge\'s pre-WWII Victorian, Edwardian, Colonial Revival, Tudor, and Dutch Colonial homes. Wood shake roofing covers a sloped roof in hand-split or tapersawn cedar laid over a ventilated assembly that dries each course after rainfall.',
+    '**Cedar shake and shingle** suit Glen Ridge\'s wood-detailed period homes, where a cedar shake roof lasts 20 to 40 years and a cedar shingle roof 30 to 50 years, per the Cedar Shake & Shingle Bureau, against the single 25-year "Wood" figure on the InterNACHI life-expectancy chart. Western red cedar carries natural extractives that resist decay.',
+    '**The ventilated assembly** governs how long cedar lasts on Glen Ridge\'s tree-shaded streets, because a cedar roof needs at least 1.5 inches of air space beneath the shakes for drying, and moisture, not insects, drives most premature cedar failure, per Cedar Shake & Shingle Bureau and NRCA guidance. A Newark Quality Roofing crew builds that drying space before the first course goes down.',
+    '**The mature street-tree canopy** of oak, maple, and elm sets Glen Ridge cedar apart from open-lot installations, because shade on north-facing slopes feeds the moss and lichen that signal moisture retention and decay, per Cedar Shake & Shingle Bureau guidance. A Newark Quality Roofing maintenance cycle clears that growth and re-treats the cedar before decay spreads.',
   ],
   challenges: [
-    'Moisture management dominates wood shake performance in Glen Ridge. The borough\'s dense tree canopy restricts airflow across roof surfaces and creates extended damp periods after rain events. Without proper ventilation beneath the shake layer and effective preservative treatment, wood shake roofs in this environment develop decay within 15 to 20 years -- half the expected lifespan in more open settings. Our installation specifications address this through enhanced ventilation spacing, treated shake products, and underlayment systems that balance moisture protection with breathability.',
-    'Fire resistance concerns have grown in importance even for Glen Ridge\'s historic district. While wood shake is historically appropriate, modern building science has heightened awareness of its combustibility. We offer Class A fire-rated wood shake products treated with fire retardant that satisfy both fire safety concerns and preservation aesthetics. These treated products are visually indistinguishable from untreated shake while providing fire resistance comparable to asphalt shingles.',
+    '**Moisture and shade** dominate cedar performance in Glen Ridge, because the borough\'s heavy oak, maple, and elm canopy holds north-facing slopes damp, and moisture, not insects, drives most premature cedar failure, per the Cedar Shake & Shingle Bureau. A Newark Quality Roofing assembly answers it with the 1.5-inch drying space and a regular re-treatment cycle.',
+    '**Fire rating** governs cedar selection on the borough\'s closely set period homes, because untreated cedar shakes and shingles are nonclassified for fire under UL 790 and ASTM E108, while pressure-impregnated fire-retardant shakes carry a Class B or Class C rating, per the Cedar Shake and Shingle Bureau Certi-Guard program. A Class A wood roof is reached only as a component assembly of Class B shakes over a fire-retardant cap sheet.',
+    '**A Certificate of Appropriateness** governs a change of roofing material on most Glen Ridge homes, because the Glen Ridge Historic District covers over 90% of the borough, per the Borough of Glen Ridge, so most homes fall inside the regulated district. The borough Historic Preservation Commission issues the Certificate of Appropriateness under Glen Ridge\'s Historic Preservation ordinance, Chapter 15.32 — a separate local approval from the construction permit.',
   ],
   process: [
-    'Wood shake specification for Glen Ridge begins with species and profile selection matched to the home\'s architectural period. We consult the Historic Preservation Commission\'s precedents for the specific neighborhood and home style, recommending the shake profile -- hand-split, taper-split, or sawn -- that aligns with historical appropriateness and commission expectations.',
-    'Installation follows traditional coursing patterns with modern enhancement. Each shake receives proper spacing for ventilation and expansion. Stainless steel ring-shank nails prevent the corrosion staining that mars cedar surfaces when standard galvanized fasteners fail. Underlayment uses a breathable synthetic that protects the deck while allowing moisture vapor to escape -- a critical detail in Glen Ridge\'s humid microclimate. Copper flashings at valleys, walls, and penetrations match existing metalwork on the home.',
-    'Post-installation treatment applies an initial coat of UV-stable preservative that protects the fresh wood surface from the immediate sunlight exposure before natural weathering establishes the protective patina. This treatment is particularly important in Glen Ridge where intermittent shade from the tree canopy creates uneven weathering patterns that can produce a blotchy appearance without initial protection.',
+    '**Newark Quality Roofing inspects the cedar roof and attic, runs the flex test on suspect shakes, and presents western red cedar grade and treatment options matched to Glen Ridge\'s shade and climate.** A crew checks the deck and the existing flashing at valleys, dormers, and chimneys, the transitions where lifted laps admit water on the borough\'s complex multi-gable rooflines.',
+    '**Newark Quality Roofing strips the existing covering to the deck, replaces deteriorated sheathing, and builds the ventilated assembly with at least 1.5 inches of air space beneath the shakes.** Glen Ridge\'s 1890s-to-1930s homes commonly reveal plank or deteriorated sheathing at tear-off, so the crew repairs the deck before installing spaced skip sheathing or a breathable interlayment, the drying space the Cedar Shake & Shingle Bureau and NRCA guidance require. A permitted re-roof requires complete removal of the existing wood shake, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing hand-selects each cedar shake, gaps adjacent shakes for moisture expansion, fastens with corrosion-resistant stainless steel nails, and reseals the cedar transitions to specification.** Copper or corrosion-resistant flashing matches the existing metalwork at valleys, walls, and penetrations, where flashing corrosion and lifted laps admit water, the most common leak source across roof types, an industry estimate attributed to the NRCA. The crew runs a magnet sweep for nails before leaving the property.',
   ],
   faqs: [
     {
-      question: 'What wood species are approved for shake roofing in Glen Ridge?',
-      answer: 'Western red cedar is the most commonly approved and recommended species due to its natural decay resistance, dimensional stability, and historical precedent. Eastern white cedar and Alaska yellow cedar are alternatives for specific applications. The Historic Preservation Commission evaluates the shake appearance rather than the species, so the key factor is selecting a product that achieves the texture and profile appropriate to your home\'s architectural period.',
+      question: 'How long does a wood shake roof last in Glen Ridge, NJ?',
+      answer:
+        'A cedar shake roof lasts 20 to 40 years and a cedar shingle roof 30 to 50 years, per the Cedar Shake & Shingle Bureau, against the single 25-year "Wood" figure on the InterNACHI life-expectancy chart. Maintenance sets the range, because a fungicide or algaecide treatment at $0.15 to $0.60 per square foot every few years slows the moisture-driven decay that ends a wood roof early, per HomeGuide cost data — and Glen Ridge\'s mature street-tree canopy makes that re-treatment cycle matter more on shaded slopes.',
     },
     {
-      question: 'How long do wood shake roofs last in Glen Ridge?',
-      answer: 'With proper treatment and maintenance, quality wood shake roofs in Glen Ridge last 30 to 40 years. Without treatment, the heavy shade and moisture from the borough\'s tree canopy can reduce lifespan to 15 to 20 years. Our installation includes preservative treatment and we recommend re-treatment every 7 to 10 years as part of a maintenance program that protects the investment.',
+      question: 'Does a wood shake roof in Glen Ridge\'s historic district need extra approval?',
+      answer:
+        'Exterior roofing on a regulated property in the Glen Ridge Historic District requires a Certificate of Appropriateness from the borough Historic Preservation Commission under Glen Ridge\'s Historic Preservation ordinance, Chapter 15.32. The Certificate of Appropriateness governs roof replacement, a change of roofing material, dormers, and visible roof-mounted equipment, and the Glen Ridge Historic District covers over 90% of the borough, per the Borough of Glen Ridge, so most homes fall inside the regulated district. The Certificate of Appropriateness is a local-ordinance requirement, not a consequence of the 1982 National Register listing — per the National Park Service, National Register listing alone places no federal restriction on a private owner, so confirm a specific parcel with the Historic Preservation Commission or Building Department.',
     },
     {
-      question: 'Are wood shake roofs a fire risk in Glen Ridge?',
-      answer: 'Untreated wood shake has a higher fire rating concern than mineral-based materials. We offer Class A fire-rated wood shake products treated with fire retardant that provide fire resistance comparable to asphalt shingles while maintaining the natural wood appearance the preservation commission requires. These products satisfy both safety and aesthetic standards.',
+      question: 'Are wood shake roofs a fire hazard in Glen Ridge?',
+      answer:
+        'Untreated cedar shakes and shingles are nonclassified for fire under UL 790 and ASTM E108, while pressure-impregnated fire-retardant shakes carry a Class B or Class C rating, per the Cedar Shake and Shingle Bureau Certi-Guard program. A Class A wood roof is reached only as a component assembly of Class B fire-retardant shakes over a fire-retardant cap sheet, where the fire-retardant is pressure-impregnated rather than surface-coated. Newark Quality Roofing presents the fire-retardant cedar options where they suit the building.',
     },
     {
-      question: 'How much does a wood shake roof cost in Glen Ridge?',
-      answer: 'Wood shake installations in Glen Ridge typically range from $22,000 to $40,000 depending on roof size, complexity, and shake grade. Premium hand-split shakes cost more than machine-sawn products. The price includes preservative treatment, stainless steel fasteners, copper flashings, and commission application coordination. This positions wood shake between standard architectural shingles and natural slate in the Glen Ridge pricing spectrum.',
+      question: 'Do you need a permit to install a wood shake roof in Glen Ridge?',
+      answer:
+        'A repair or replacement of the cedar roof covering on a detached one- or two-family home in Glen Ridge counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area in 12 months requires a permit from the Borough of Glen Ridge Building Department at 825 Bloomfield Avenue, and a permitted re-roof requires complete removal of the existing wood shake, per N.J.A.C. 5:23-6.4. A regulated historic-district property still requires a separate Certificate of Appropriateness for a change of roofing material.',
+    },
+    {
+      question: 'When should a wood shake roof be repaired versus replaced?',
+      answer:
+        'Replace a wood shake roof when more than 25 to 30% of the shakes cup or split, or when a shake cracks under the light-bending flex test; repair the roof when the damage stays localized and the deck is sound. The 25 to 30% threshold is contractor consensus, and the flex test is the InterNACHI field check for advanced cedar degradation. On Glen Ridge\'s shaded slopes, rot beneath cupped shakes and moss colonizing the surface point toward replacement, because moisture-driven decay runs faster where the tree canopy keeps a slope damp.',
     },
     {
       question: 'How much does wood shake roofing cost in Glen Ridge, NJ?',
-      answer: 'Most wood shake roofing projects in Glen Ridge range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A typical NJ roof-replacement project runs $10,000 to $25,000, per HomeAdvisor and Modernize, while wood shake repair averages roughly $750 nationally with a range of $400 to $1,800, per Angi cost data. NJ ranges sit roughly 10 to 40% above national figures because of higher labor and stricter NJ code, and labor accounts for roughly 60 to 70% of a cedar job. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Wood shake roofing in Glen Ridge NJ. Hand-split and taper-split installations with preservative treatment for the borough\'s historic district homes.',
+  metaDescription:
+    'Wood shake roofing in Glen Ridge NJ — ventilated cedar assembly, fire-retardant options, Chapter 15.32 historic-district COA. NJ-registered, free estimate.',
   pricing: {
-    range: '$14,000–$30,000',
-    note: 'cedar shake or wood shingle installation',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Glen Ridge\'s pre-WWII Victorian, Tudor, and Colonial Revival homes and the Bloomfield Avenue station edge.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free wood shake roofing estimate in Glen Ridge — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for wood shake roofing in Glen Ridge.',
+    urgencyNote: 'Addressing moisture-driven cedar decay early limits deck rot and interior water damage.',
   },
 };

@@ -3,57 +3,72 @@ import type { ComboContent } from '../schema';
 export const westOrangeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'west-orange',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across West Orange, New Jersey, and Essex County, tearing off the charred covering and deck and rebuilding a Class A fire-rated roof on the township\'s wide stock** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in West Orange — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in West Orange rebuilds the entire roof assembly after fire has compromised structural framing, sheathing, and roofing materials beyond repair. Our [fire damage roof replacement](/fire-damage-roof-replacement) service coordinates the structural restoration, insurance documentation, and weatherproofing installation that fire-damaged [West Orange](/roofing-in-west-orange-nj) homes require to return to habitable condition.',
-    'West Orange\'s wooded hillside setting creates fire exposure risk from both interior sources and exterior wildfire conditions during dry seasons. Homes near South Mountain Reservation face proximity risk from brush fires that can spread to structures through landscaping and debris accumulation against foundations and siding. Homes at ridge elevation face amplified fire spread risk from wind-driven embers during wildfire conditions. Replacement roofing on fire-damaged homes incorporates fire-resistant materials and design details that reduce vulnerability to future fire exposure.',
-    'Structural assessment by licensed engineers precedes any roofing work on fire-damaged West Orange homes. Fire compromises the structural integrity of wood framing through charring that reduces member cross-section, heat damage that weakens connections, and water damage from fire suppression that saturates insulation and sheathing. Engineering assessment determines which framing members require replacement versus those that retain adequate structural capacity despite fire exposure. Homeowners near [South Orange](/fire-damage-roof-replacement-south-orange-nj) navigate similar fire restoration processes on their own tree-canopy-adjacent properties.',
-    'Insurance coordination for fire damage replacement involves more complex claims than storm damage, typically including structural engineering costs, temporary housing expenses, personal property loss, and the multi-trade restoration scope that fire damage requires. We coordinate with the homeowner\'s insurance carrier on the roofing component of the claim, providing detailed scope documentation that integrates with the overall restoration contractor\'s claim package.'
+    '**Newark Quality Roofing replaces fire-damaged roofs across West Orange, tearing off the charred covering, replacing heat-weakened framing and saturated decking, and rebuilding a Class A fire-rated roof.** The work spans the township\'s valley capes, ranches, and Colonials in Pleasantdale and Gregory up through its hillside Tudors and Llewellyn Park estate homes, rebuilding to a structural assessment and current code rather than recovering over fire-weakened material.',
+    '**The charred covering and decking** carry essentially zero residual structural capacity, so a Newark Quality Roofing tear-off strips the burned roof covering and the heat-damaged decking to the framing, because the char layer is removed to sound wood and a water-soaked or deteriorated deck is not an adequate base, per the U.S. Forest Products Laboratory and the American Wood Council. West Orange\'s wide ridge-side stock spans valley capes through hillside Tudors and Llewellyn Park estates.',
+    '**Heat-weakened framing** is replaced to a licensed structural engineer\'s post-fire assessment, because the char layer carries essentially zero residual capacity and the heat-affected zone beneath retains only roughly 85–90% of original strength, per the U.S. Forest Products Laboratory and the American Wood Council. A Newark Quality Roofing crew rebuilds the rafters, trusses, and sheathing to that assessment and performs the roofing to current code.',
+    '**Saturated decking and corroded connectors** are replaced, because firefighting water saturates plywood or OSB sheathing and accelerates corrosion of metal truss plates and fasteners, per the U.S. Forest Products Laboratory and ANSI/IICRC S700. The low-slope EPDM, TPO, and modified-bitumen storefronts along the Main Street, Valley Road, Pleasant Valley Way, and Route 280 corridor carry the same fire-damaged assembly and rebuild on a permit path.',
   ],
   challenges: [
-    'Structural framing assessment requires engineering expertise to evaluate fire-damaged members. Visual char depth does not always indicate the extent of heat damage to wood fiber. Internal heat damage can weaken framing members that appear only surface-charred. We coordinate with structural engineers who use core sampling and load testing to determine which members are salvageable and which require replacement, preventing the unsafe practice of roofing over compromised structure.',
-    'Fire suppression water damage creates secondary restoration scope. Water used to extinguish the fire saturates insulation, soaks into framing, and pools on interior surfaces. This moisture must be addressed through controlled drying before new roofing encloses the structure. Premature enclosure traps moisture that promotes mold growth and accelerates the deterioration of replacement materials installed over damp substrates.',
-    'Coordinating with general restoration contractors requires communication protocols that prevent scope gaps and trade conflicts. Roofing work depends on structural repairs being complete. Structural repairs require engineering direction. Engineering depends on fire investigation clearance. We manage our scope within this sequence, scheduling roofing installation to align with the overall restoration timeline without creating delays for other trades or proceeding before prerequisite work is complete.'
+    '**Structural sign-off** precedes the roofing on a fire-damaged West Orange home, because a licensed structural engineer assesses the charred and heat-compromised rafters, trusses, and sheathing before reconstruction, per the U.S. Forest Products Laboratory and EDT Engineers. A Newark Quality Roofing crew performs the roofing to that assessment and current code, not the structural determination itself.',
+    '**Firefighting water** saturates decking, insulation, and framing across the assembly, so a Newark Quality Roofing rebuild replaces water-soaked sheathing and corroded metal connectors rather than enclosing damp material, because saturation accelerates corrosion and decay, per the U.S. Forest Products Laboratory and ANSI/IICRC S700. A water-soaked or deteriorated deck is not an adequate base for a new covering.',
+    '**Slate, copper, and Class A coverings** on West Orange\'s hillside Tudors and Llewellyn Park estate homes set the match for a fire rebuild, because a roof covering qualifies as Class A, B, or C under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant, per UL 790 and ASTM E108. A Newark Quality Roofing rebuild matches the covering and assembly to the Class A rating.',
   ],
   process: [
-    'Emergency tarping protects fire-damaged structures from weather exposure while engineering assessment and insurance processing proceed. We install heavy-duty tarps with mechanical anchoring at safe attachment points, verified by preliminary structural evaluation, to prevent rain from adding water damage to fire damage during the assessment and approval period.',
-    'After structural engineering clearance and insurance claim approval, framing restoration proceeds according to the engineer\'s specifications. Replacement rafters, ridge boards, and collar ties bring the roof frame back to structural code compliance. New sheathing installs over the restored framing, providing the sound substrate that new roofing materials require.',
-    'Roofing installation on the restored structure uses fire-resistant materials appropriate for the property\'s exposure. Class A fire-rated shingles or metal roofing replace whatever material was damaged, with upgraded specifications where the fire investigation identified material vulnerability as a contributing factor. Complete ice-and-water shield, synthetic underlayment, and properly integrated flashing create the layered weatherproofing system the restored home requires.'
+    '**Newark Quality Roofing tears off the charred covering and decking to the framing, then rebuilds the heat-weakened rafters, trusses, and sheathing to a licensed structural engineer\'s post-fire assessment and current code.** The char layer carries essentially zero residual structural capacity, so the tear-off removes charred material to sound wood, per the U.S. Forest Products Laboratory and the American Wood Council. The engineer sets the framing scope and Newark Quality Roofing performs the roofing to that assessment.',
+    '**Newark Quality Roofing rebuilds a Class A fire-rated roof from a covering classified under the UL 790 and ASTM E108 fire-test methods, the most fire-resistant rating.** Untreated cedar is non-classified on its own, fire-retardant-treated cedar reaches Class B or C, and a Class A wood-shake roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau and InterNACHI, so a Newark Quality Roofing rebuild matches the covering and assembly to the Class A rating on the hillside Tudor and Llewellyn Park estate stock.',
+    '**Newark Quality Roofing documents the fire, heat, and water damage, writes a detailed scope and estimate, and meets the insurer\'s adjuster on site to walk the damage.** Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so it inspects and photographs the damage and performs the approved replacement, while the homeowner or a licensed public adjuster files and negotiates the claim under the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B.',
   ],
   faqs: [
     {
-      question: 'How long does fire damage roof replacement take in West Orange?',
-      answer: 'The full timeline from fire event to completed roof ranges from 2 to 6 months, depending on the extent of structural damage and insurance processing speed. Engineering assessment takes 1 to 2 weeks. Insurance claim processing runs 2 to 6 weeks. Structural restoration takes 1 to 3 weeks. Roofing installation adds 3 to 5 days. The cumulative timeline is longer than standard replacement because each phase must complete before the next can begin.'
+      question: 'Do I need a permit for fire damage roof replacement in West Orange?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family West Orange home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and needs no construction permit for the covering, per the NJ Uniform Construction Code, while replacing charred rafters or trusses is a structural change that triggers a permit. On a commercial or multi-family building along the Main Street, Valley Road, or Route 280 corridor, repairing more than 25% of the roof area in a 12-month period requires a permit. The Township of West Orange Building & Construction Code Enforcement office administers the state classification.',
     },
     {
-      question: 'Does insurance cover fire damage roof replacement?',
-      answer: 'Fire damage is a standard covered peril under virtually all homeowner insurance policies. Coverage typically includes structural restoration, new roofing materials and installation, temporary housing during restoration, and code upgrade costs for bringing the replacement up to current building standards. We coordinate with your insurance adjuster on the roofing scope, providing detailed documentation that supports full claim recovery for the roof component of the restoration.'
+      question: 'Should you repair or replace a fire-damaged roof?',
+      answer:
+        'Replace a fire-damaged West Orange roof when fire reaches the structure, char weakens the framing, or damage exceeds 25–30% of the roof area; repair a roof only when fire damage stays surface-localized on sound framing. The char layer carries essentially zero residual structural capacity and is removed, per the U.S. Forest Products Laboratory, and the 25–30% area rule favors full replacement, per roofing industry guidance.',
     },
     {
-      question: 'Should I upgrade to fire-resistant roofing after a fire?',
-      answer: 'Yes. Class A fire-rated roofing materials provide the highest level of fire resistance and are recommended for all fire damage replacements in West Orange, particularly for homes near South Mountain Reservation or in densely wooded neighborhoods. Metal roofing provides inherent fire resistance without chemical treatment. Fire-retardant-treated wood shake and Class A asphalt shingles achieve high fire ratings through material engineering. The upgrade cost is modest relative to the total restoration investment and may reduce insurance premiums.'
+      question: 'Does homeowners insurance cover fire damage roof replacement?',
+      answer:
+        'Homeowners insurance covers fire damage roof replacement when fire causes the loss, a covered peril, and the deductible stays the homeowner\'s responsibility under the policy. Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I), and coverage and approval are the insurer\'s decision. Newark Quality Roofing documents the damage and meets the adjuster on site, while the homeowner or a licensed public adjuster files and negotiates the claim under N.J.S.A. 17:22B.',
     },
     {
-      question: 'Can I change my roof design during fire damage restoration?',
-      answer: 'Fire damage restoration provides the opportunity to modify roof design because the framing is being rebuilt regardless. Adding dormers, changing roof pitch, or modifying the roof line can be incorporated into the structural restoration scope. Design changes require building permits and may affect the insurance claim if they exceed like-kind replacement. We coordinate design modifications with both the structural engineer and the insurance adjuster to ensure proper permitting and coverage alignment.'
+      question: 'Does a fire-damaged roof on a West Orange historic landmark need extra approval?',
+      answer:
+        'Exterior roofing work on one of West Orange\'s roughly ten locally designated historic landmarks requires a Certificate of Appropriateness from the West Orange Historic Preservation Commission under Section 25-30 before a construction permit issues. The Certificate of Appropriateness covers landmarks such as Holy Trinity Episcopal Church, the State Diner, and the Hedges Block, and applies only to locally designated landmarks, not township-wide, so a typical West Orange home faces no historic review. Llewellyn Park homeowners answer to a private 1857 deed covenant rather than a township Certificate of Appropriateness, and per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
+    },
+    {
+      question: 'Can a fire-damaged roof be recovered over instead of torn off?',
+      answer:
+        'A fire-damaged roof requires a full tear-off rather than a recover, because a water-soaked, charred, or deteriorated deck is not an adequate base for a new covering. N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1 require removal of the existing covering when the deck is water-soaked or deteriorated, the condition firefighting water and char create on a West Orange roof.',
     },
     {
       question: 'How much does fire damage roof replacement cost in West Orange, NJ?',
-      answer: 'Most fire damage roof replacement projects in West Orange range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage roof replacement adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data. A natural slate or copper roof on a Llewellyn Park estate or hillside Tudor costs more than asphalt, with slate installed at roughly $10 to $30 per square foot, per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement in West Orange NJ. Structural restoration with fire-resistant upgrades and insurance coordination.',
+  metaDescription:
+    'Fire damage roof replacement in West Orange NJ — charred-deck tear-off, structural rebuild to assessment, Class A fire-rated roof. NJ-registered, free estimate.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; fire damage adds structural framing and decking replacement. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with West Orange\'s wide stock, from valley capes and ranches up through hillside Tudors and Llewellyn Park estate homes.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in West Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in West Orange.',
+    urgencyNote: 'Tarping a fire-damaged roof early limits added water damage while the structural assessment and claim proceed.',
   },
 };

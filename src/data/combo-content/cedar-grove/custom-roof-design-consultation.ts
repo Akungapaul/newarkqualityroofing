@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing custom roof design and consultation across Cedar Grove, New Jersey, and Essex County, evaluating roof geometry, materials, and code on the township\'s postwar ranches, split-levels, and Pompton Avenue storefronts** to produce a written roofing specification as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Custom roof design and consultation** is an advisory service that evaluates a building\'s roof geometry, structure, material options, and code requirements, then produces a written roofing specification before installation. It guides a new build, addition, complex roof, or material-selection decision.',
   overview: [
-    'Newark Quality Roofing delivers expert custom roof design consultation in Cedar Grove — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Cedar Grove addresses the unique architectural requirements of a township where the dominant mid-century ranch and colonial housing stock presents homeowners with specific design constraints -- low-pitch geometries, shallow attic spaces, and roof-to-wall transitions that require thoughtful material and detail selection to balance aesthetics with northern Essex County weather performance. Our [custom roof design consultation](/custom-roof-design-consultation) process helps Cedar Grove homeowners navigate the full range of material options, ventilation strategies, and design upgrades available for their specific roof geometry and budget.',
-    'Cedar Grove homeowners renovating or expanding their properties face roof design decisions that significantly impact both the project\'s visual outcome and its long-term performance. Adding a second story to a ranch, extending a roofline over a new addition, or converting a flat-roof section to a pitched design each require professional design coordination to ensure the new roof integrates with existing structural framing, matches the neighborhood architectural context, and satisfies Cedar Grove building code requirements. Property owners in nearby [Verona](/custom-roof-design-consultation-verona-nj) and [Little Falls](/custom-roof-design-consultation-little-falls-nj) engage similar design consultation when modifying their comparable housing stock.',
-    'Commercial property owners along Pompton Avenue and Route 23 benefit from design consultation when upgrading roof systems on existing buildings. Material selection, drainage redesign, insulation upgrade paths, and aesthetic improvements to street-facing rooflines are all design decisions that perform better when coordinated through a comprehensive consultation process rather than addressed piecemeal during construction.',
+    '**Newark Quality Roofing custom roof design and consultation delivers a roof and structural assessment, a material evaluation against measured lifespans, and a written roofing specification** for Cedar Grove\'s postwar ranches, split-levels, colonials, and Pompton Avenue commercial buildings. The consultation guides a new build, an addition, a complex roof geometry, or a material-selection decision before installation, and it can lead to a Newark Quality Roofing installation.',
+    '**The roof and structural assessment** surveys the existing roof, the deck, the attic ventilation, and the roof geometry on a Cedar Grove home, sizing ventilation against the minimum net free ventilating area of 1 square foot per 150 square feet of attic floor, per IRC R806.2 and ARMA, before a material recommendation. On the township\'s postwar ranches and split-levels, that pass also flags deteriorated sheathing likely to surface at tear-off.',
+    '**The material evaluation** matches the roof system to the building and the northern Essex County climate, because lifespans differ sharply: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, natural slate 60 to 150 years, copper 70-plus years, wood 25 years, and clay or concrete tile 100-plus years, per the InterNACHI life-expectancy chart. Cedar Grove\'s older period homes carry slate and metal detailing, and the Pompton Avenue / Route 23 storefronts carry low-slope EPDM, TPO, and modified-bitumen membrane.',
+    '**The written roofing specification** documents the material, the underlayment, the flashing, the ventilation, and the wind-load and snow-load design set to ASCE 7, the load standard the NJ Uniform Construction Code adopts, the deliverable a Newark Quality Roofing installation or a competitive bid works from, per the documentation sequence in Integrity Home Exteriors guidance.',
   ],
   challenges: [
-    'Low-pitch design constraints on Cedar Grove ranch homes limit material options and require ventilation engineering that steeper-pitched homes avoid. Roof designs for ranch renovations must work within the shallow slope parameters that define the existing structure while maximizing water shedding performance, ventilation capacity, and aesthetic appeal. Adding dormers, modifying rooflines, or extending eaves to improve ranch roof performance requires structural engineering that accounts for the existing framing limitations these homes present.',
-    'Neighborhood architectural consistency in Cedar Grove creates design expectations that limit dramatic departures from the established visual character. While the township has no formal historic preservation commission, the strong community aesthetic -- earth-toned roofing, moderate proportions, and understated design -- influences material and color decisions. Custom roof designs that respect this context while introducing modern performance improvements require a nuanced design approach that balances individual homeowner preferences with neighborhood compatibility.',
-    'Tree canopy interaction with roof design decisions affects material durability, maintenance requirements, and ventilation performance throughout Cedar Grove. A roof design that performs well on an open, sun-exposed lot may fail prematurely on a heavily shaded property two blocks away. Design consultation must account for the specific canopy conditions of each Cedar Grove property, adjusting material selection, moss-resistant treatments, and ventilation specifications to match the actual environmental exposure the roof will experience.',
+    '**Low-pitch ranch and split-level geometry** narrows the material and ventilation options on Cedar Grove\'s postwar single-family stock. A design pass sizes the ventilation against the minimum net free ventilating area of 1 square foot per 150 square feet of attic floor, per IRC R806.2 and ARMA, before a recommendation. Shallow attics and shallow slopes set what a covering can carry.',
+    '**Older period detailing** on Cedar Grove\'s higher-ground homes carries slate and metal that a design pass matches in profile and fastener, because natural slate lasts 60 to 150 years and metal 40 to 80 years, per the InterNACHI life-expectancy chart, and a non-ferrous fastener outlasts the field. A consultation specifies the in-kind match before sourcing.',
+    '**Reservation-edge and street-canopy debris** from the Mills Reservation and Hilltop Reservation edges and the township\'s mature deciduous canopy presses leaf and branch load onto nearby Cedar Grove roofs, loading valleys and gutters and shading north slopes. A design pass specifies the valley detail, the flashing metal, and the ventilation that hold a covering to its rated service life under that load.',
+    '**A structural change** to rafters, trusses, ridge beams, or roof pitch triggers a construction permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance re-roof exemption, per the NJ Uniform Construction Code. A Cedar Grove design pass maps that permit path, and the same applies once a Pompton Avenue commercial roof crosses 25% of the roof area in 12 months.',
   ],
   process: [
-    'Design consultation begins with an on-site evaluation of the existing roof structure, property conditions, and the homeowner\'s renovation objectives. We measure existing roof dimensions, document structural framing, assess ventilation capacity, and photograph the property in the context of its immediate neighborhood. For renovation projects, we review architectural plans and coordinate with the project architect to ensure roof design decisions align with the overall design intent.',
-    'Material evaluation presents the homeowner with samples, performance specifications, and cost comparisons for every material compatible with their specific roof geometry and Cedar Grove\'s climate zone. For low-pitch ranch roofs, this typically includes standing seam metal, architectural shingles rated for low-slope application, and modified bitumen options. We provide life-cycle cost analysis comparing initial installation cost, expected maintenance, and projected replacement intervals so the homeowner can make an informed value decision rather than a price-only choice.',
-    'Final design documentation includes a material specification package, color selections with physical samples approved against the actual property, ventilation calculations verified for the specific roof geometry, and detail drawings for all critical flashing and transition points. This documentation serves as the installation specification, ensuring that the roofing crew executes the design intent exactly as the homeowner approved during the consultation process.',
+    '**Newark Quality Roofing assesses the roof, the deck, the attic ventilation, and the roof geometry first**, documenting the existing structure and the code path before a material recommendation on a Cedar Grove property. A Newark Quality Roofing assessment sizes ventilation against the minimum net free ventilating area of 1 square foot per 150 square feet of attic floor, per IRC R806.2 and ARMA, and identifies the deteriorated sheathing the township\'s postwar ranches and split-levels tend to surface at tear-off.',
+    '**Newark Quality Roofing evaluates the material options against measured lifespan, structural load, and the northern Essex County climate.** Lifespans differ sharply: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, natural slate 60 to 150 years, copper 70-plus years, wood 25 years, and clay or concrete tile 100-plus years, per the InterNACHI life-expectancy chart, and the NRCA notes that balanced attic ventilation reduces the heat and moisture stress that shortens roof life. For a Pompton Avenue / Route 23 storefront, EPDM, TPO, and modified-bitumen membrane serve 15 to 25, 7 to 20, and 20 years respectively, per the same chart.',
+    '**Newark Quality Roofing produces a written roofing specification** that documents the material, the underlayment, the flashing, the ventilation, and the wind-load and snow-load design set to ASCE 7, the load standard the NJ Uniform Construction Code adopts, and names the ice-barrier scope per the IRC R905.1.2 provision. The specification carries the scope, the material, and the code path into a Newark Quality Roofing installation or a competitive bid, per the documentation sequence in Integrity Home Exteriors guidance.',
   ],
   faqs: [
     {
-      question: 'How much does a roof design consultation cost in Cedar Grove?',
-      answer: 'Our Cedar Grove design consultation is complimentary when it leads to a roofing project. For consultation-only engagements -- such as design advice for an architect-led renovation or material guidance for a future project -- we charge a professional fee that varies based on project complexity. The consultation investment typically saves far more than its cost by preventing material selection mistakes and identifying structural requirements before construction begins.',
+      question: 'What does a custom roof design consultation include in Cedar Grove?',
+      answer:
+        'A Newark Quality Roofing custom roof design consultation in Cedar Grove includes a roof and structural assessment, a material evaluation against measured lifespans, and a written roofing specification. The assessment sizes attic ventilation to the IRC R806.2 minimum of 1 square foot per 150 square feet of attic floor and sets the wind-load and snow-load design to ASCE 7, the load standard the NJ Uniform Construction Code adopts.',
     },
     {
-      question: 'Can you help redesign my Cedar Grove ranch roof to look more modern?',
-      answer: 'Yes. Common modernization approaches for Cedar Grove ranch homes include adding shed dormers to create visual interest and interior space, converting flat-roof garage sections to low-slope standing seam metal, and introducing mixed-material rooflines that break the monotony of a continuous low-pitch plane. Each modification requires structural analysis and building permit approval, both of which we coordinate as part of the design consultation process.',
+      question: 'Does a Cedar Grove historic district affect a custom roof design project?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
     },
     {
-      question: 'Do I need a consultation for a simple roof replacement in Cedar Grove?',
-      answer: 'A full design consultation is not necessary for a straightforward shingle-to-shingle replacement. However, every Cedar Grove roof replacement benefits from a material evaluation session where we present the options available for your specific roof geometry, discuss ventilation improvements that can be incorporated during replacement, and review color selections in the context of your home and neighborhood.',
+      question: 'Do I need a permit for a custom roof design project in Cedar Grove, NJ?',
+      answer:
+        'A re-roof of the covering on a detached one- or two-family home in Cedar Grove is ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; an addition, a dormer, a roof-pitch change, or a structural change to rafters or trusses requires one. The exemption covers the roof covering, not the framing, and a Pompton Avenue commercial roof crosses the threshold once work exceeds 25% of the total roof area in 12 months, per the NJ Uniform Construction Code. A permit is filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue.',
     },
     {
-      question: 'Will you coordinate with my architect on a Cedar Grove renovation project?',
-      answer: 'Absolutely. We regularly collaborate with architects on Cedar Grove renovation projects, providing roofing-specific expertise that complements the architect\'s design vision. Our input covers structural loading requirements for the selected roofing material, ventilation integration with the overall building envelope design, and practical constructability guidance that helps avoid costly field modifications during construction.',
+      question: 'Which roofing material lasts the longest for a custom roof in Cedar Grove?',
+      answer:
+        'Clay or concrete tile lasts the longest at 100-plus years, followed by natural slate at 60 to 150 years and copper at 70-plus years, then metal at 40 to 80 years and asphalt at 20 to 30 years. Those lifespans trace to the InterNACHI life-expectancy chart, and a material evaluation weighs each one against the structural load and the NJ install cost, because proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA.',
     },
     {
-      question: 'How much does custom roof design consultation cost in Cedar Grove, NJ?',
-      answer: 'Most custom roof design consultation projects in Cedar Grove range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Can you redesign my Cedar Grove ranch roof and coordinate with my architect?',
+      answer:
+        'A Newark Quality Roofing design consultation evaluates dormers, roofline changes, and material upgrades on a Cedar Grove ranch or split-level, then produces a written roofing specification an architect or a competitive bid works from. The pass sizes the ventilation to the IRC R806.2 minimum, sets the wind-load and snow-load design to ASCE 7, and flags any structural change that triggers a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.',
+    },
+    {
+      question: 'How much does custom roof design and consultation cost in Cedar Grove, NJ?',
+      answer:
+        'Newark Quality Roofing provides a free written estimate and consultation, and the design feeds an install priced by material: NJ architectural asphalt runs $6.50–$11.00 per square foot, metal $9.00–$16.00, and slate $10–$30, per Josten Roofing pricing. Roof complexity, the material, and the deck condition set the install cost. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Custom roof design consultation in Cedar Grove NJ -- material selection, ventilation planning, and renovation design for ranch and colonial homes.',
+  metaDescription:
+    'Custom roof design consultation in Cedar Grove NJ — roof assessment, material evaluation, and a written roofing specification. NJ-registered, free estimate.',
   pricing: {
-    range: '$200–$500',
-    note: 'applied toward project cost',
+    range: 'Free written estimate and consultation',
+    note: 'Newark Quality Roofing provides a free written estimate and consultation; the design feeds an install priced by material — NJ architectural asphalt runs $6.50–$11.00 per square foot, metal $9.00–$16.00, and slate $10–$30, per Josten Roofing and NJ roofing-guide pricing.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'A written roofing specification naming the material, the ventilation, and the wind-load and snow-load design to ASCE 7.',
+    'Free, detailed written estimates with no obligation.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free custom roof design consultation estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for custom roof design and consultation in Cedar Grove.',
+    urgencyNote: 'A written roofing specification before installation prevents material and code mistakes a field change cannot undo.',
   },
 };

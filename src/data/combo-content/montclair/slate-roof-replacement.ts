@@ -3,52 +3,73 @@ import type { ComboContent } from '../schema';
 export const montclairSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'montclair',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing slate roof replacement across Montclair, New Jersey, and Essex County, stripping failing slate to the deck and reinstalling natural or synthetic slate on the township\'s Victorian, Queen Anne, and Tudor homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Slate roof replacement** strips a failing slate roof to the deck, repairs the sheathing, and reinstalls natural or synthetic slate on corrosion-resistant copper or stainless fasteners. It renews a heavy, long-lived covering that demands a load-rated structure.',
   overview: [
-    'Newark Quality Roofing delivers expert slate roof replacement in Montclair — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Montclair preserves the material authenticity that defines the township\'s most architecturally significant homes -- the Victorian mansions along North Mountain Avenue, the Tudor estates near Watchung Plaza, and the Arts & Crafts residences throughout the Upper Montclair historic areas where natural slate has covered rooftops since original construction in the late nineteenth and early twentieth centuries. Replacing slate with slate maintains the architectural integrity, property value, and Historic Preservation Commission compliance that these homes demand.',
-    'The decision to replace slate with slate rather than converting to a less expensive material represents a preservation commitment that [Montclair](/roofing-in-montclair-nj) homeowners make with full awareness of the cost premium. Our [slate roof replacement](/slate-roof-replacement) projects source material from active quarries and salvage dealers to match the original slate\'s color, thickness, and geological character. Properties in [Glen Ridge](/slate-roof-replacement-glen-ridge-nj), with its own preservation-conscious community, share Montclair\'s demand for authentic slate replacement.',
-    'A properly installed slate replacement roof delivers seventy-five to one hundred-plus years of service -- meaning that the replacement performed today will outlast the homeowner, the next owner, and potentially the owner after that. This multi-generational perspective justifies the investment for families who view their Montclair home as a legacy asset rather than a transactional property.'
+    '**Newark Quality Roofing replaces natural quarried slate and synthetic composite slate** across Montclair\'s architecturally diverse Victorian, Queen Anne, Tudor, and Craftsman homes, from the Estate Section to Erwin Park\'s turreted and dormered rooflines. Slate roof replacement strips the slate to the deck, repairs the sheathing, and reinstalls slate on non-ferrous fasteners.',
+    '**Victorian, Queen Anne, and Tudor slate** in Montclair fails at its fasteners and flashing, not its stone, because plain steel and galvanized nails rust out long before the slate, per NPS Preservation Brief 29. A Newark Quality Roofing replacement renews the underlayment and the copper or stainless fasteners the slate hangs on, then rebuilds the valley, chimney, and Tudor wall-to-roof flashing that admits water at the period rooflines\' steep turret, dormer, and gable transitions.',
+    '**Montclair\'s First-Watchung-ridge canopy and reservation edges** drive what a crew finds at tear-off: leaf load held in the valleys and decades of moisture under the slate rot the plank decking on the township\'s older architecturally diverse stock. A Newark Quality Roofing replacement strips the slate to the bare deck, replaces the rotted boards, and documents the slate pattern, coursing, and color before tear-off, per NPS Preservation Brief 4.',
+    '**Estate Section and Upper Montclair period roofs** match the slate to the era they cover, and natural and synthetic slate carry very different service lives: natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association, while synthetic slate lasts 10 to 35 years per the InterNACHI chart and premium composite slate is designed for 40 to 50 years per CertainTeed product literature.',
   ],
   challenges: [
-    'Structural evaluation for slate replacement must confirm that the roof framing can support natural slate\'s weight -- eight hundred to fifteen hundred pounds per square depending on slate thickness and exposure. Homes with original slate framing are already engineered for this load, but homes where original slate was previously replaced with lighter materials may have had structural modifications that reduce capacity below slate-bearing levels.',
-    'Slate sourcing for color and quality matching requires lead time that other roofing materials do not demand. Quarry production schedules, inventory availability, and shipping logistics from Vermont, Pennsylvania, or international sources add weeks to the project timeline.',
-    'Installation craftsmanship for slate requires specialized skills -- copper hook-and-bib techniques, proper headlap and sidelap dimensions, and sorting by thickness and color for visual consistency -- that standard roofing crews do not possess. We maintain a slate-trained crew dedicated to preservation-grade installations.'
+    '**Town Center, Upper Montclair Business, Pine Street, and Watchung Plaza** are Montclair\'s four locally designated historic districts. Appearance-changing exterior slate work there, or on a local landmark, requires a Certificate of Appropriateness from the Montclair Historic Preservation Commission under Article XXIII of Chapter 347. In-kind slate replacement with no change in design, scale, or appearance is exempt, and the Estate Section is nominated but not locally designated.',
+    '**Montclair\'s reservation edges and mature street canopy** load slate valleys hardest, where the First-Watchung-ridge township adjoins the Eagle Rock Reservation and the Mills Reservation, per Essex County Parks, and the wooded edges drop leaf and branch debris into valleys and gutters. The trapped moisture and branch impact stress the slate valleys and flashing first, so a Newark Quality Roofing replacement rebuilds those transitions in a durable metal matched to the slate.',
+    '**A Montclair slate roof cannot be roofed over**, so a replacement on the township\'s period homes is always a full tear-off to the deck, per N.J.A.C. 5:23-6.4, because slate is listed among the coverings that require complete removal of the existing covering. A Newark Quality Roofing replacement strips the slate to the sheathing and renews the underlayment and fasteners beneath it.',
+    '**The 20% replacement threshold** decides repair against replacement on a Montclair slate roof: a slate roof with 20% or more of the slates broken, cracked, missing, or sliding is usually less expensive to replace than to repair individually, per NPS Preservation Brief 29, while below 20% selective slate repair is preferred. A Newark Quality Roofing assessment rates the roof against the threshold before quoting.',
   ],
   process: [
-    'Slate replacement begins with existing material analysis, structural verification, and material sourcing. We identify the original slate type, document the installation pattern and exposure dimensions, and source replacement material that matches the original. Structural engineering review confirms framing capacity for the slate load. For HPC-designated properties, we prepare the Certificate of Appropriateness application documenting the in-kind material replacement.',
-    'Installation follows traditional slate roofing methods adapted for current best practices. Copper nails throughout, ice-and-water shield underlayment at eaves, valleys, and penetrations, and copper flashing at all transitions provide the secondary waterproofing layer beneath the primary slate surface. Each slate is individually positioned, checked for proper headlap and sidelap, and nailed with two copper nails at the manufacturer-specified location.',
-    'Completion includes ridge and hip installation with saddle-ridge slate or copper ridge cap appropriate to the home\'s original detail. Documentation photographs create a baseline record for future maintenance reference. Maintenance guidance specific to the slate type and installation method helps the homeowner protect their investment through appropriate annual inspection and minor repair protocols.'
+    '**On Montclair\'s steep Victorian, Queen Anne, and Tudor slopes, a crew works off the brittle tiles** and documents the existing slate roof before quoting, recording the slate pattern, coursing, color, and dimensions, per NPS Preservation Brief 4. A roof is rated against the 20% replacement threshold first, because slate is repaired rather than replaced whenever fewer than 20% of the slates are broken, cracked, missing, or sliding, per NPS Preservation Brief 29.',
+    '**Inside Town Center, Upper Montclair Business, Pine Street, or Watchung Plaza, or on a local landmark, Newark Quality Roofing coordinates a Certificate of Appropriateness first, then strips the slate to the bare deck.** Appearance-changing work in those districts requires Montclair Historic Preservation Commission approval under Article XXIII of Chapter 347, separate from any building permit filed through the Township of Montclair Building Office. A slate roof requires complete removal of the existing covering with no recover-over, per N.J.A.C. 5:23-6.4, so the crew renews the underlayment and replaces deteriorated plank decking exposed at tear-off.',
+    '**Period flashing in copper, lead-coated copper, or terne-coated stainless steel** rebuilds matched to the slate\'s service life, and the slate reinstalls on non-ferrous fasteners that Newark Quality Roofing never coats or seals. Natural slate sets on solid copper or stainless slater\'s nails so the slate hangs on the shank rather than driven tight, per NPS Preservation Brief 29, because degraded flashing, not the stone, is the common slate-roof leak source. A crew verifies watertight execution, runs a magnet sweep for nails, and documents the work with photographs for the owner\'s records.',
   ],
   faqs: [
     {
-      question: 'How much does slate roof replacement cost in Montclair?',
-      answer: 'Natural slate roof replacement in Montclair ranges from thirty-five to seventy thousand dollars or more depending on roof size, slate type, and complexity. The per-square-foot installed cost of twenty to thirty-five dollars is three to four times higher than premium asphalt shingles. However, the seventy-five-to-one-hundred-year service life makes the per-year cost comparable to shingle roofs that require replacement two to three times over the same period. Tax credits for historic rehabilitation on designated properties can offset twenty to forty percent of the cost.'
+      question: 'Should you repair or replace a slate roof on a Montclair home?',
+      answer:
+        'On a Montclair Victorian or Tudor, replace the slate when 20% or more of the slates on a slope are broken, cracked, missing, or sliding, or when fasteners and flashing have failed across the roof. Repair selectively below 20%; the 20% threshold traces to NPS Preservation Brief 29, and natural slate is repaired rather than replaced whenever possible because individual slates replace indefinitely while the deck and fasteners stay sound, per the National Slate Association.',
     },
     {
-      question: 'Can I replace my Montclair slate roof with shingles instead?',
-      answer: 'Non-designated properties can legally replace slate with shingles. HPC-designated properties would require Commission review for this material change, which may not be approved if the slate roof is a character-defining feature. Even for non-designated homes, we advise careful consideration because slate-to-shingle conversion permanently reduces the home\'s architectural authenticity and may affect property value in Montclair\'s preservation-conscious market. Synthetic slate products offer a middle path -- lower cost and weight than natural slate with an appearance that approximates the original material.'
+      question: 'Does a slate roof on a Montclair historic-district home need extra approval?',
+      answer:
+        'Appearance-changing exterior slate work in one of Montclair\'s four locally designated historic districts, or on a local landmark, requires a Certificate of Appropriateness from the Montclair Historic Preservation Commission under Article XXIII of Chapter 347, section 347-136. The four locally designated districts are Town Center, Upper Montclair Business, Pine Street, and Watchung Plaza. In-kind maintenance or repair with no change in design, scale, or appearance does not require one, and the Estate Section is nominated but not locally designated. Per the National Park Service, National Register listing alone places no federal restriction on a private owner, and a Certificate of Appropriateness is separate from any building permit.',
     },
     {
-      question: 'How long does slate roof replacement take in Montclair?',
-      answer: 'Material sourcing typically requires four to eight weeks of lead time before installation begins. On-site installation spans two to four weeks for a typical Montclair Victorian, depending on roof size, complexity, and weather conditions. The total project timeline from contract to completion is six to twelve weeks. This extended timeline reflects the craftsmanship-intensive nature of slate work compared to shingle installation.'
+      question: 'How long does a new slate roof last on a Montclair home?',
+      answer:
+        'On Montclair\'s early-20th-century period homes, natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association. Properly installed slate lasts 60 to 125 years or longer, per NPS Preservation Brief 29, while synthetic composite slate lasts 10 to 35 years per the InterNACHI chart, with premium composite designed for 40 to 50 years per CertainTeed product literature.',
+    },
+    {
+      question: 'Can a slate roof be roofed over instead of replaced in Montclair?',
+      answer:
+        'No Montclair slate roof can be roofed over, because slate is listed among the coverings that require complete removal of the existing covering before new roofing, per N.J.A.C. 5:23-6.4. A slate replacement on the township\'s Victorian and Tudor homes is always a full tear-off and reinstall, stripping the slate to the deck to renew the underlayment and the copper or stainless fasteners the slate hangs on.',
+    },
+    {
+      question: 'Do you need a permit to replace a slate roof in Montclair?',
+      answer:
+        'A full tear-off and replacement of the roof covering on a detached one- or two-family Montclair home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice. A structural change to rafters or trusses still triggers a permit, per the NJ Uniform Construction Code, and a commercial, multi-family, or attached building exceeding 25% of the roof area within 12 months requires a permit filed through the Township of Montclair Building Office.',
     },
     {
       question: 'How much does slate roof replacement cost in Montclair, NJ?',
-      answer: 'Most slate roof replacement projects in Montclair range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'On a Montclair period home, a roof replacement in New Jersey runs $10,000 to $25,000 for a typical home, per HomeAdvisor and Modernize, and slate sits at the upper end of that range. Slate is among the longest-lasting roofing materials at 60 to 150 years, per the InterNACHI life-expectancy chart, and a slate replacement demands a full tear-off with non-ferrous fasteners. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Slate roof replacement in Montclair NJ -- quarry-matched natural slate for Victorian and Tudor landmark home preservation.',
+  metaDescription:
+    'Slate roof replacement in Montclair NJ — full tear-off and natural or synthetic slate on Victorian, Queen Anne, and Tudor homes. NJ-registered, free estimate.',
   pricing: {
-    range: '$20,000–$45,000',
-    note: 'slate roof replacement or restoration',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; slate sits at the upper end, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Montclair\'s architecturally diverse Victorian, Queen Anne, Tudor, and Colonial Revival homes and its locally designated historic districts.',
+    'Slate technique to NPS Preservation Brief 29 — non-ferrous fasteners, durable metal flashing, and no coating or sealing of the slate.',
+    'Free, detailed written estimates with no obligation, and workmanship documented with photos for your records.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free slate roof replacement estimate in Montclair — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for slate roof replacement in Montclair.',
+    urgencyNote: 'Addressing failed slate fasteners and flashing early limits interior and structural water damage.',
   },
 };

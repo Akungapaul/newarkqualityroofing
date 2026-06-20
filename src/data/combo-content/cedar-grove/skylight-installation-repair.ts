@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing skylight installation repair across Cedar Grove, New Jersey, and Essex County, sealing flashing leaks, replacing fogged units, and curb-mounting skylights** on the township\'s postwar ranches and Pompton Avenue storefronts as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
-    'Newark Quality Roofing delivers expert skylight installation repair in Cedar Grove — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair in Cedar Grove brings natural light into the township\'s ranch and colonial homes where shallow attic spaces, interior floor plans, and tree-shaded lot conditions create rooms that rely heavily on artificial lighting during daylight hours. The ranch home design dominant throughout Cedar Grove features long, deep floor plans where central rooms -- hallways, kitchens, and bathrooms -- sit far from exterior walls and receive little natural illumination. Strategically placed skylights transform these dark interior spaces while reducing daytime electricity consumption.',
-    'Cedar Grove\'s northern Essex County location provides strong seasonal variation in natural light, with short winter days and low sun angles making every available light source valuable during the heating season. Our [skylight installation](/skylight-installation-repair) designs for Cedar Grove homes position units to capture maximum winter sun while managing summer heat gain through glazing selection, shade accessories, and orientation relative to the tree canopy. Homeowners in nearby [Verona](/skylight-installation-repair-verona-nj) address similar natural light challenges in their split-level homes.',
-    'Skylight repair on Cedar Grove homes addresses the leaking and condensation issues that aging skylight units develop after fifteen to twenty years of northern Essex County weather exposure. The seal failures, cracked glazing, and deteriorated flashing that plague older skylights create water damage disproportionate to their small roof footprint. Replacement with current-generation energy-efficient units eliminates the leak risk while dramatically improving insulation value and condensation resistance.',
+    '**Newark Quality Roofing installs new skylights, replaces aging units, reseals flashing leaks, and swaps fogged insulated glass** on Cedar Grove\'s postwar ranches, split-levels, and Pompton Avenue / Route 23 low-slope storefronts. Skylight installation repair seals the roof penetration at the flashing detail that admits water on a township of shallow-pitch single-family stock.',
+    '**Flashing leaks** drive most skylight failures rather than the glass, the leading cause of a skylight leak per roofing trade consensus, so a Newark Quality Roofing repair reseals the engineered flashing kit instead of recaulking the curb on a Cedar Grove roof, because a kit sheds water without relying on caulk that breaks down over time, per VELUX America.',
+    '**Fogged insulated glass** signals a failed seal, the failure the VELUX 20-year insulated-glass-seal warranty covers, separate from leak coverage, per VELUX America. A Newark Quality Roofing crew swaps the unit when moisture fogs between the panes, because a skylight lasts 10–20 years, per the InterNACHI Estimated Life Expectancy Chart, and a fogged seal favors replacement over repeated reseal on Cedar Grove\'s older period homes.',
+    '**Curb-mounted units** carry the work on the Pompton Avenue / Route 23 low-slope storefronts and on shallow ranch additions, because a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A Newark Quality Roofing low-slope install builds the curb to that minimum and ties the matched flashing kit into the EPDM, TPO, or modified-bitumen membrane.',
   ],
   challenges: [
-    'Low-pitch roof mounting on Cedar Grove ranch homes requires careful skylight model selection and flashing specification. Standard curb-mounted skylights designed for steeper pitches may allow water infiltration on slopes below 4:12 unless equipped with extended flashing kits and raised curbs that create adequate drainage clearance. Deck-mounted units with integrated flashing designed for specific pitch ranges provide better weather performance on Cedar Grove\'s shallow ranch roofs and maintain a lower profile that is more visually proportionate to the modest roof height.',
-    'Tree canopy shading reduces skylight effectiveness on many Cedar Grove properties during summer months when the canopy is fully leafed. While this natural shading reduces unwanted heat gain, it also diminishes the light transmission that justifies the skylight investment. Skylight placement must account for the specific shade patterns on each Cedar Grove property, positioning units in canopy gaps or on south-facing slopes where direct sun penetrates the tree cover during the greatest number of daylight hours.',
-    'Condensation on skylight glazing during Cedar Grove winters affects homeowner satisfaction when water droplets form on interior glass surfaces and drip onto furnishings below. Single-glazed and early double-glazed skylights are particularly susceptible. Current triple-pane units with warm-edge spacer technology virtually eliminate interior condensation, but the higher cost and greater weight of triple-pane units must be balanced against the condensation benefit on a property-specific basis.',
+    '**Shallow-pitch ranch and split-level roofs** define the skylight challenge in Cedar Grove, because the township runs predominantly postwar single-family stock where low slopes push a deck-mounted unit toward a curb-mounted one. A Newark Quality Roofing install matches the mounting type to the slope and fits the flashing kit engineered for the roof covering, per VELUX America.',
+    '**Reservation-edge and street-canopy debris** loads the skylight curb and surrounding valleys on Cedar Grove\'s tree-shaded slopes near the Mills Reservation and Hilltop Reservation edges, where leaf and branch load collects against the penetration and holds moisture at the flashing. A Newark Quality Roofing repair clears the debris path and reseals the flashing where the leak starts.',
+    '**Winter condensation misread as a leak** complicates a Cedar Grove skylight diagnosis, because water at a skylight is often condensation from excess indoor humidity on cold glass, not a roof leak, a common winter misdiagnosis per VELUX America. A Newark Quality Roofing inspection reads the cue — condensation tracks with temperature and humidity while a true leak tracks with rain — before opening the flashing.',
+    '**Low-slope storefront membranes** along the Pompton Avenue / Route 23 corridor carry the commercial skylight work, where a curb-mounted unit ties into EPDM, TPO, or modified-bitumen and the roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA. A Newark Quality Roofing curb sheds water at the penetration.',
   ],
   process: [
-    'Skylight installation in Cedar Grove begins with an interior evaluation of the room where additional natural light is desired, followed by an attic and roof inspection to determine the optimal skylight size, position, and type. We consider rafter spacing, electrical and plumbing obstructions, roof pitch at the proposed location, and exterior tree canopy coverage. The recommended unit size balances light delivery with thermal performance -- larger units provide more light but increase heat gain and loss.',
-    'Roof penetration and curb construction follow framing preparation that distributes the skylight load to adjacent rafters through doubled headers. We install the skylight with manufacturer-approved flashing integrated into the surrounding roofing material, with ice-and-water shield membrane extending at least twenty-four inches beyond the skylight frame on all sides. The light shaft through the attic space is framed, insulated, and finished with drywall or painted plywood to deliver maximum light to the room below.',
-    'Skylight repair assessments determine whether the unit can be resealed or requires full replacement. Seal failures, cracked glazing, corroded frames, and deteriorated flashing typically indicate that replacement provides better long-term value than repair on Cedar Grove skylights older than fifteen years. We recommend VELUX or similar tier-one manufacturers with integrated flashing systems engineered for northern New Jersey climate conditions.',
+    '**Newark Quality Roofing inspects the skylight flashing, curb, and shaft and separates a true leak from condensation before any reseal.** Water at a skylight is often condensation from excess indoor humidity on cold glass rather than a roof leak, a common winter misdiagnosis per VELUX America, so a Cedar Grove diagnosis reads whether the water tracks with rain or with cold weather.',
+    '**Newark Quality Roofing fits the VELUX or Fakro flashing kit matched to the mounting type and roof covering, sealing the penetration with engineered flashing rather than caulk.** A deck-mounted unit fastens to the deck at a lower profile while a curb-mounted unit sits on a built-up curb for a flat or low-slope roof, and a skylight under 3:12 slope sits on a curb at least 4 inches above the plane, per IRC Section R308.6.8 and VELUX America.',
+    '**Newark Quality Roofing sets the unit to manufacturer specification and documents the completed work with photographs.** The VELUX No Leak installation warranty runs 10 years and applies only when the skylight installs to specification with a matching VELUX flashing kit, alongside a 20-year glass-seal warranty, and Fakro provides a 10-year leak-proof guarantee conditioned on the original Fakro kit, per VELUX America and Fakro USA. A crew runs a magnet sweep for nails before leaving the Cedar Grove property.',
   ],
   faqs: [
     {
-      question: 'Will a skylight work on my Cedar Grove ranch with a low-pitch roof?',
-      answer: 'Yes, but model selection matters. Deck-mounted skylights with low-profile flashing kits designed for pitches between 3:12 and 6:12 provide reliable weather performance on Cedar Grove ranch roofs. Standard curb-mounted units require raised curbs and extended flashing kits to function properly on low slopes. We specify the appropriate mounting system for your specific roof pitch to ensure leak-free performance.',
+      question: 'Why does a skylight leak on my Cedar Grove roof?',
+      answer:
+        'A skylight leaks because of failed or improperly installed flashing, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. An engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America, so a Newark Quality Roofing repair reseals the failed flashing rather than recaulking the curb. On Cedar Grove\'s tree-shaded ranch and split-level slopes, reservation-edge and street-canopy debris that holds moisture against the curb accelerates the failure.',
     },
     {
-      question: 'How much natural light will a skylight add to my Cedar Grove home?',
-      answer: 'A single two-foot-by-four-foot skylight in a Cedar Grove ranch home typically delivers as much natural light as a window twice its size due to the overhead angle of incidence. Even on partially shaded lots, skylights capture significantly more light than walls windows because the overhead position receives light from more of the sky dome. The light shaft design through the attic also affects delivery -- flared shafts distribute light across a wider floor area.',
+      question: 'Is the water at my Cedar Grove skylight a leak or condensation?',
+      answer:
+        'Water at a skylight is often condensation from excess indoor humidity on cold glass, not a roof leak, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads before opening the flashing on a Cedar Grove roof. The diagnosis separates the two before any reseal so the repair addresses the actual cause.',
     },
     {
-      question: 'How do skylights perform in Cedar Grove winters?',
-      answer: 'Current-generation triple-pane skylights with low-E coatings and argon gas fill provide insulation values approaching R-5, which is comparable to the wall insulation in many Cedar Grove ranch homes. These units resist interior condensation and contribute passive solar heat gain during sunny winter days. The net energy impact is slightly positive in Cedar Grove\'s climate when properly oriented and glazing-selected for the specific installation.',
+      question: 'Can you install a skylight on my low-slope Cedar Grove ranch or Pompton Avenue storefront?',
+      answer:
+        'A skylight installs on a flat or low-slope roof on a curb-mounted unit, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA, so a Newark Quality Roofing curb sheds water at the penetration. The matched flashing kit ties into the EPDM, TPO, or modified-bitumen membrane on a Pompton Avenue / Route 23 storefront.',
     },
     {
-      question: 'How long do skylights last before needing replacement in Cedar Grove?',
-      answer: 'Quality skylights from tier-one manufacturers last twenty to thirty years in Cedar Grove\'s climate. The seals, glazing, and frame materials gradually degrade under UV exposure and thermal cycling, with leak susceptibility increasing after the fifteen-year mark. We recommend proactive replacement of skylights that show early signs of seal failure rather than waiting for active leaking, which can cause significant interior damage before detection.',
+      question: 'Does a skylight on a Cedar Grove home need a historic approval or permit?',
+      answer:
+        'No Certificate of Appropriateness applies in Cedar Grove. Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. A skylight installed during a roof-covering repair on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code; per the National Park Service, National Register listing alone places no restriction on a private owner. A commercial Pompton Avenue storefront exceeding 25% of the roof area in 12 months requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue.',
+    },
+    {
+      question: 'How long does a skylight last in Cedar Grove?',
+      answer:
+        'A skylight lasts 10–20 years, per the InterNACHI Estimated Life Expectancy Chart. Failed or improperly installed flashing causes a skylight leak well before the glass fails, per roofing trade consensus, so a Newark Quality Roofing flashing repair extends service within that range while a fogged insulated-glass seal signals replacement, the failure the VELUX 20-year glass-seal warranty covers, per VELUX America.',
     },
     {
       question: 'How much does skylight installation repair cost in Cedar Grove, NJ?',
-      answer: 'Most skylight installation repair projects in Cedar Grove range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Skylight installation costs $1,600–$4,200 installed, replacement $800–$2,400, and leak repair $225–$800, per HomeGuide, Angi, and Modernize cost data. A reseal runs $75–$250 and a flashing repair $150–$500, per Angi and Modernize. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Skylight installation and repair in Cedar Grove NJ -- natural light solutions for ranch homes with low-pitch mounting and energy-efficient glazing.',
+  metaDescription:
+    'Skylight installation repair in Cedar Grove NJ — flashing-leak reseals, fogged-unit swaps, low-slope curb-mounts on ranches and storefronts. NJ-registered.',
   pricing: {
-    range: '$1,500–$5,000',
-    note: 'per skylight installed or repaired',
+    range: '$225–$4,200 across repair and installation',
+    note: 'Skylight install $1,600–$4,200, replacement $800–$2,400, and leak repair $225–$800 per HomeGuide, Angi, and Modernize; final cost depends on scope, mounting type, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free skylight installation repair estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for skylight installation repair in Cedar Grove.',
+    urgencyNote: 'Addressing a skylight flashing leak early limits interior and structural water damage.',
   },
 };

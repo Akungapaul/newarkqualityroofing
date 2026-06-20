@@ -1,9 +1,22 @@
 import { z } from 'zod';
 import { ComboContentSchema } from '../schema';
 
-// ─── Repair-Maintenance (0 of 10 -- remaining files pending) ────────────────
+// ─── Repair-Maintenance (10) ─────────────────────────────────────────────────────
+import { cedarGroveRoofRepair } from './roof-repair';
+import { cedarGroveRoofReplacement } from './roof-replacement';
+import { cedarGroveEmergencyRoofRepair } from './emergency-roof-repair';
+import { cedarGroveRoofInspection } from './roof-inspection';
+import { cedarGroveRoofMaintenancePrograms } from './roof-maintenance-programs';
+import { cedarGroveRoofLeakRepair } from './roof-leak-repair';
+import { cedarGroveStormDamageRoofRepair } from './storm-damage-roof-repair';
+import { cedarGroveHailDamageRoofRepair } from './hail-damage-roof-repair';
+import { cedarGroveWindDamageRoofRepair } from './wind-damage-roof-repair';
+import { cedarGroveRoofCleaningMossRemoval } from './roof-cleaning-moss-removal';
 
-// ─── Residential Roof Types (6 of 9 -- 3 pending) ──────────────────────────
+// ─── Residential Roof Types (9) ──────────────────────────────────────────────────
+import { cedarGroveResidentialRoofInstallation } from './residential-roof-installation';
+import { cedarGroveAsphaltShingleRoofing } from './asphalt-shingle-roofing';
+import { cedarGroveSlateRoofInstallationRepair } from './slate-roof-installation-repair';
 import { cedarGroveWoodShakeRoofing } from './wood-shake-roofing';
 import { cedarGroveMetalRoofInstallationRepair } from './metal-roof-installation-repair';
 import { cedarGroveFlatRoofInstallationRepair } from './flat-roof-installation-repair';
@@ -11,7 +24,7 @@ import { cedarGroveTileRoofInstallationRepair } from './tile-roof-installation-r
 import { cedarGroveCedarShakeRoofing } from './cedar-shake-roofing';
 import { cedarGroveRubberRoofingEpdm } from './rubber-roofing-epdm';
 
-// ─── Commercial Roof Types (8) ──────────────────────────────────────────────
+// ─── Commercial Roof Types (8) ───────────────────────────────────────────────────
 import { cedarGroveTpoRoofingInstallation } from './tpo-roofing-installation';
 import { cedarGroveEpdmCommercialRoofing } from './epdm-commercial-roofing';
 import { cedarGroveModifiedBitumenRoofing } from './modified-bitumen-roofing';
@@ -21,7 +34,7 @@ import { cedarGrovePvcRoofing } from './pvc-roofing';
 import { cedarGroveGreenRoofInstallation } from './green-roof-installation';
 import { cedarGroveSprayFoamRoofing } from './spray-foam-roofing';
 
-// ─── Components-Specialty (10) ──────────────────────────────────────────────
+// ─── Components-Specialty (10) ───────────────────────────────────────────────────
 import { cedarGroveRoofFlashingInstallationRepair } from './roof-flashing-installation-repair';
 import { cedarGroveChimneyFlashingRepair } from './chimney-flashing-repair';
 import { cedarGroveGutterInstallationRepair } from './gutter-installation-repair';
@@ -33,26 +46,26 @@ import { cedarGroveRoofVentInstallationRepair } from './roof-vent-installation-r
 import { cedarGroveRoofWaterproofing } from './roof-waterproofing';
 import { cedarGroveRoofDeckRepairReplacement } from './roof-deck-repair-replacement';
 
-// ─── Energy/Solar (5) ───────────────────────────────────────────────────────
+// ─── Energy/Solar (5) ────────────────────────────────────────────────────────────
 import { cedarGroveSolarPanelRoofingInstallation } from './solar-panel-roofing-installation';
 import { cedarGroveSolarShingleInstallation } from './solar-shingle-installation';
 import { cedarGroveEnergyEfficientRoofingSolutions } from './energy-efficient-roofing-solutions';
 import { cedarGroveSiliconeRoofCoating } from './silicone-roof-coating';
 import { cedarGroveSiliconeElastomericRoofCoating } from './silicone-elastomeric-roof-coating';
 
-// ─── Commercial Services (5) ────────────────────────────────────────────────
+// ─── Commercial Services (5) ─────────────────────────────────────────────────────
 import { cedarGroveCommercialRoofInstallation } from './commercial-roof-installation';
 import { cedarGroveCommercialRoofRepair } from './commercial-roof-repair';
 import { cedarGroveCommercialRoofReplacement } from './commercial-roof-replacement';
 import { cedarGroveRoofThermalImagingInspections } from './roof-thermal-imaging-inspections';
 import { cedarGroveInfraredRoofLeakDetection } from './infrared-roof-leak-detection';
 
-// ─── Design/Consultation (3) ────────────────────────────────────────────────
+// ─── Design/Consultation (3) ─────────────────────────────────────────────────────
 import { cedarGroveCustomRoofDesignConsultation } from './custom-roof-design-consultation';
 import { cedarGroveHistoricRoofRestoration } from './historic-roof-restoration';
 import { cedarGroveRoofIceDamPrevention } from './roof-ice-dam-prevention';
 
-// ─── Replacement Sub-Pages (15) ─────────────────────────────────────────────
+// ─── Replacement Sub-Pages (15) ──────────────────────────────────────────────────
 import { cedarGroveFullRoofTearOff } from './full-roof-tear-off';
 import { cedarGroveRoofOverlayInstallation } from './roof-overlay-installation';
 import { cedarGroveReRoofing } from './re-roofing';
@@ -69,13 +82,27 @@ import { cedarGroveTileRoofReplacement } from './tile-roof-replacement';
 import { cedarGroveFlatRoofReplacement } from './flat-roof-replacement';
 import { cedarGroveCedarShakeRoofReplacement } from './cedar-shake-roof-replacement';
 
-// ─── Validated aggregator ───────────────────────────────────────────────────
-// Zod validates all existing Cedar Grove combo content objects at module load.
+// ─── Validated aggregator ────────────────────────────────────────────────────
+// Zod validates all 65 cedar-grove combo content objects at module load.
 // Build crashes immediately on invalid data.
-// NOTE: 13 files pending from cedar-grove plan -- will be re-added when created.
 
 export const cedarGroveComboContent = z.array(ComboContentSchema).parse([
-  // Residential Roof Types (6 of 9)
+  // Repair-Maintenance (10)
+  cedarGroveRoofRepair,
+  cedarGroveRoofReplacement,
+  cedarGroveEmergencyRoofRepair,
+  cedarGroveRoofInspection,
+  cedarGroveRoofMaintenancePrograms,
+  cedarGroveRoofLeakRepair,
+  cedarGroveStormDamageRoofRepair,
+  cedarGroveHailDamageRoofRepair,
+  cedarGroveWindDamageRoofRepair,
+  cedarGroveRoofCleaningMossRemoval,
+
+  // Residential Roof Types (9)
+  cedarGroveResidentialRoofInstallation,
+  cedarGroveAsphaltShingleRoofing,
+  cedarGroveSlateRoofInstallationRepair,
   cedarGroveWoodShakeRoofing,
   cedarGroveMetalRoofInstallationRepair,
   cedarGroveFlatRoofInstallationRepair,

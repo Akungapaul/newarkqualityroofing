@@ -3,56 +3,69 @@ import type { ComboContent } from '../schema';
 export const cedarGroveReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing re-roofing across Cedar Grove, New Jersey, and Essex County, replacing the worn covering on the township\'s postwar ranches and split-levels and on the Pompton Avenue / Route 23 storefronts** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in Cedar Grove — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in Cedar Grove encompasses the full scope of roof renewal -- whether through complete tear-off and replacement or overlay installation -- delivering a new roofing surface that restores weather protection, energy performance, and curb appeal to the township\'s aging residential properties. The term covers both methods and allows Cedar Grove homeowners to evaluate their options within a single consultation rather than committing to an approach before understanding the condition of their existing roof.',
-    'Cedar Grove\'s housing stock has reached the point where many homes require their second or third [re-roofing](/re-roofing) since original construction. Ranch homes built during the 1950s and 1960s have cycled through multiple roof replacements, each one revealing the cumulative effects of northern Essex County weather on the underlying structure. Our re-roofing projects treat each cycle as an opportunity to correct the ventilation, insulation, and flashing deficiencies that previous installations may have perpetuated.',
-    'The re-roofing decision for Cedar Grove homeowners often coincides with other exterior improvement projects -- siding replacement, window upgrades, or addition construction. Coordinating re-roofing with these related projects creates cost savings through shared mobilization, sequential construction scheduling, and integrated flashing details that perform better when installed as part of a unified project rather than patched together between separate contractors at different times.',
+'**Newark Quality Roofing re-roofs the postwar ranches, split-levels, and period homes of Cedar Grove and the low-slope Pompton Avenue / Route 23 storefronts**, replacing a worn covering with a new underlayment-and-cover system rather than patching one failed detail.',
+    '**The postwar ranches and split-levels** that make up most of Cedar Grove carry asphalt coverings that reach the end of their service life by age and condition, and a tear-off on the township\'s older period stock often exposes deteriorated sheathing under the shingles. A Newark Quality Roofing re-roof strips the covering to the deck, replaces the rotted plywood or plank decking found at tear-off, and installs the new system across the township\'s strongly homeowner-facing single-family stock, 76.3% owner-occupied across 5,008 housing units, per the U.S. Census Bureau.',
+    '**Period homes** on Cedar Grove\'s higher ground carry slate and metal detailing at valleys, chimneys, and walls, where corroded fasteners and aged flashing fail before the field covering. A Newark Quality Roofing re-roof matches the new system to the building, resealing the flashing at the transitions behind most roof leaks and restoring slate or metal where the original roof remains structurally sound.',
+    '**The Pompton Avenue / Route 23 storefronts** carry EPDM, TPO, and modified-bitumen membrane on low-slope decks that fail at the seams and at rooftop penetrations. A Newark Quality Roofing commercial re-roof grades the deck to drain and replaces the membrane to manufacturer specification on the strip retail, offices, and service buildings along the corridor.',
   ],
   challenges: [
-    'Material selection for Cedar Grove re-roofing projects must account for the township\'s low-pitch ranch geometry. Not all roofing materials perform equally on shallow slopes, and products installed at the bottom of their recommended pitch range require enhanced underlayment, modified exposure widths, and additional flashing coverage. Homeowners attracted to materials they see on steeper-roofed homes in nearby communities may find that those same products require significant installation modifications to perform reliably on Cedar Grove\'s characteristic 4:12 to 5:12 ranch slopes.',
-    'Ventilation system upgrade during re-roofing is the most cost-effective time to address Cedar Grove\'s endemic attic ventilation deficiencies. Adding ridge vent, increasing soffit intake, installing baffles, and correcting improperly vented exhaust fans all require access to the roof and attic that re-roofing provides. Deferring ventilation improvements to a future date costs more and misses the opportunity to integrate new ventilation components seamlessly with the new roofing system.',
-    'Color and style selection affects long-term satisfaction with the re-roofing investment. Cedar Grove\'s earth-toned residential palette and wooded setting influence which shingle colors and profiles look appropriate in the neighborhood context. We provide physical samples viewed against the home\'s siding, trim, and surrounding landscape rather than relying on digital color renderings that can misrepresent the actual appearance.',
+    '**Deteriorated sheathing discovered at tear-off** is the defining re-roofing condition on Cedar Grove\'s older period homes, because a recover hides deck rot and water damage that a tear-off catches and resolves, per ARMA. A Newark Quality Roofing re-roof strips the covering to the bare deck, inspects every sheathing section, and replaces the rotted plywood or plank decking before the new underlayment goes down.',
+    '**Reservation-edge and street-canopy debris** loads Cedar Grove valleys and gutters from the wooded edges of the Mills Reservation and Hilltop Reservation and the township\'s mature deciduous canopy and conifer needle-shed. A Newark Quality Roofing re-roof rebuilds valley flashing and integrates new gutters and ice-and-water shield where canopy debris and meltwater concentrate on tree-shaded slopes.',
+    '**The recover-or-tear-off limit** governs whether Cedar Grove gets a new layer over the old one or a full strip, because a roof-over is prohibited where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where two layers already exist, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing assessment confirms the deck condition and the layer count before quoting tear-off versus recover.',
+    '**Low-slope membrane seams** fail first on the Pompton Avenue / Route 23 storefronts, where a low-slope roof needs at least a quarter inch per foot of slope to drain and ponding water held more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing commercial re-roof maps the standing water, grades the deck to drain, and replaces the membrane at the failed laps.',
   ],
   process: [
-    'Re-roofing consultation in Cedar Grove begins with a comprehensive roof and attic inspection that determines the existing condition, identifies the appropriate re-roofing method, and catalogs ventilation and insulation improvements to incorporate. We present the homeowner with a comparison of tear-off versus overlay options including cost, lifespan, and risk factors specific to their property. The homeowner makes an informed choice before the project scope is finalized.',
-    'Project execution follows the selected method -- full tear-off with deck inspection and repair, or overlay with surface preparation -- augmented by the ventilation and insulation improvements identified during consultation. Re-roofing on Cedar Grove ranch homes typically includes ridge vent installation or upgrade, soffit vent verification, and baffle installation at eave rafter bays to maintain airflow from soffit to ridge.',
-    'Completion includes a quality walk-through, manufacturer warranty registration, and delivery of a maintenance guide specific to the installed material and Cedar Grove\'s climate conditions. We photograph the completed installation from multiple angles for the homeowner\'s records and schedule a one-year follow-up inspection to verify early-service performance.',
+    '**Newark Quality Roofing confirms the re-roofing decision against the contractor-consensus thresholds, then inspects the deck and attic ventilation before quoting.** Damage across more than 25 to 30% of the roof area crosses the 25% rule and a repair approaching 50% of replacement cost crosses the 50% rule, per RapidRestore, WeatherShield, and Home Depot cost data, and a localized repair stays the more economical path only while the roof stays under 10 to 15 years old.',
+    '**Newark Quality Roofing strips the worn roof to the deck, the tear-off method that exposes the deck for inspection and repair.** A full tear-off exposes deteriorated plywood or plank decking on Cedar Grove\'s older homes, and the NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1.',
+    '**Newark Quality Roofing matches the new system to the building and the Essex County climate, then installs an ice barrier, synthetic underlayment, and the cover to manufacturer specification.** Material lifespan differs sharply: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and the ice barrier runs from the eave to at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision.',
+    '**Newark Quality Roofing verifies the install, runs a magnet sweep for nails, and issues a written workmanship warranty on the labor.** The written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance, and the crew documents the completed re-roof with photographs for the owner\'s records.',
   ],
   faqs: [
     {
-      question: 'When should I re-roof my Cedar Grove home?',
-      answer: 'Re-roof when your existing shingles show widespread granule loss, curling, cracking, or missing tabs. Cedar Grove ranch homes with asphalt shingles typically need re-roofing every eighteen to twenty-two years -- slightly less than the twenty to twenty-five-year range on steeper-pitched homes due to the moisture retention that low slopes produce. If you are experiencing recurring leaks, re-roofing may be more cost-effective than continued repair.',
+      question: 'Do I need a permit to re-roof my Cedar Grove home?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Cedar Grove counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the total roof area within 12 months requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, and so does any structural change to rafters or trusses. The Pompton Avenue / Route 23 storefronts are the natural place the commercial permit path applies.',
     },
     {
-      question: 'What roofing material is best for Cedar Grove re-roofing?',
-      answer: 'Architectural asphalt shingles remain the most popular choice for Cedar Grove re-roofing, offering a good balance of cost, durability, and appearance. Standing seam metal is gaining popularity on Cedar Grove ranch homes for its superior performance on low-pitch roofs and fifty-year service life. We present all compatible options during consultation so the homeowner can evaluate materials based on their budget, aesthetic preference, and expected ownership timeline.',
+      question: 'Does re-roofing require a full tear-off in Cedar Grove?',
+      answer:
+        'A re-roof requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound asphalt layer hides deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20 to 30%, per ARMA and Angi. On Cedar Grove\'s older period homes, the deteriorated sheathing found under aging shingles favors a tear-off so the deck can be inspected and repaired.',
     },
     {
-      question: 'How long does re-roofing take on a Cedar Grove ranch home?',
-      answer: 'Complete re-roofing on a Cedar Grove ranch -- including tear-off, deck repair, and new shingle installation -- typically takes two to four days of active work. Overlay projects complete in one to two days. Weather interruptions may extend the calendar duration, but we maintain temporary weatherproofing whenever work is paused. We provide a specific timeline estimate during the proposal based on your home\'s size and complexity.',
+      question: 'Does a historic home in Cedar Grove need extra approval to re-roof?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority, and the township carries no locally designated historic district or landmark. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
     },
     {
-      question: 'Can I stay in my Cedar Grove home during re-roofing?',
-      answer: 'Yes. The work is performed entirely from the exterior, and the home remains habitable throughout the project. Tear-off generates significant noise during the stripping phase, and some dust may enter the attic space. We recommend removing or covering attic-stored items before tear-off begins. If you work from home, the noisiest phase is typically the first day during tear-off.',
+      question: 'Which roofing material suits a re-roof on a Cedar Grove home?',
+      answer:
+        'Re-roofing material matches the building and budget, with architectural asphalt covering most Cedar Grove ranches and split-levels, slate and metal restoring the older period homes, and membrane re-roofing the Pompton Avenue / Route 23 storefronts. Material lifespan differs sharply: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, slate 60 to 150 years, and low-slope membrane 7 to 25 years, per the InterNACHI life-expectancy chart. Newark Quality Roofing presents the compatible options before any work begins.',
     },
     {
-      question: 'How much does re roofing cost in Cedar Grove, NJ?',
-      answer: 'Most re roofing projects in Cedar Grove range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How much does re-roofing cost in Cedar Grove, NJ?',
+      answer:
+        'A re-roof in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000–$11,000 per industry replacement benchmarks. NJ ranges sit 10 to 40% above national figures because labor accounts for roughly 60 to 70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors, and a premium material such as natural slate raises the figure above the asphalt range. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Re-roofing in Cedar Grove NJ -- complete roof renewal for ranch and colonial homes with material options, ventilation upgrades, and deck repair.',
+  metaDescription:
+    'Re-roofing in Cedar Grove NJ — tear-off and replacement for postwar ranches, split-levels, and storefronts. NJ-registered, fully insured. Free estimate.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re-roofing in Cedar Grove.',
+    urgencyNote: 'Re-roofing a covering at the end of its service life limits interior and structural water damage.',
   },
 };

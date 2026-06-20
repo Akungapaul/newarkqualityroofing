@@ -3,56 +3,68 @@ import type { ComboContent } from '../schema';
 export const veronaReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'verona',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing re-roofing across Verona, New Jersey, and Essex County, replacing the worn covering on pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in Verona — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in Verona restores weather protection and curb appeal to homes where the existing roof has reached the end of its functional life. Whether your split-level carries 25-year-old three-tab shingles that have lost their granule coating, or a colonial\'s original architectural shingles are curling and lifting after three decades of service, re-roofing delivers a complete reset with modern materials engineered for the demands that Verona\'s climate and tree canopy environment impose. Newark Quality Roofing approaches every Verona re-roofing project as an opportunity to upgrade both the roofing material and the underlying systems -- ventilation, insulation, and flashing -- that the original installation may have left deficient.',
-    'The re-roofing process on Verona split-levels addresses the structural complexities that simple re-roofing specifications overlook. Level transitions, multi-plane valleys, and varied pitch sections each receive material and detailing appropriate to their specific geometry. Algae-resistant shingles for park-adjacent canopy zones, wind-rated products for Claremont Avenue hilltop exposure, and enhanced underlayment at every transition point customize the installation to your home\'s particular environment. Our [re-roofing](/re-roofing) specifications treat each Verona home as a unique project, not a standard square-footage calculation.',
-    'Modern re-roofing products available for Verona homes represent a generational leap from the materials installed 20 to 30 years ago. Impact-resistant shingles withstand hail events that destroy standard products. Cool-reflective granules reduce attic temperatures and energy costs. Algae-resistant formulations prevent the black streaking that canopy-shaded roofs develop within a few years of installation. Homeowners in [Montclair](/re-roofing-montclair-nj) upgrading from aging three-tab to modern architectural shingles consistently report both visual improvement and measurable performance gains.'
+    '**Newark Quality Roofing re-roofs Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels, plus the low-slope membrane roofs along the Bloomfield Avenue and Pompton Avenue corridors.** Re-roofing replaces a worn covering with a new underlayment-and-cover system, the work for a roof past its service life rather than a single patched detail.',
+    '**Re-roofing reaches the replacement decision through age and condition**, because 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart. A Newark Quality Roofing re-roof confirms the threshold against the contractor-consensus 30% area rule and the 50% cost rule, because a localized repair stays the more economical path only while the covering is sound and under 10 to 15 years old, per Home Depot and Kelly Roofing cost data.',
+    '**Split-level transition flashing** drives the distinctive Verona re-roof on the township\'s 1960s and 1970s split-levels and bi-levels, because a split-level breaks the slope into offset planes that meet a vertical wall, and the roof-to-wall step and counter-flashing at that transition fails before the open shingle field. A Newark Quality Roofing re-roof rebuilds the step and counter-flashing at the offset planes where most split-level leaks start, the failure point behind roughly 90–95% of roof leaks, an industry estimate attributed to the NRCA.',
+    '**Pre-war Colonial and Dutch Colonial stock** near Personette Avenue and Claremont Avenue carries aging valley, chimney, and wall flashing and original slate or metal period detailing, and plank sheathing that turns up deteriorated at tear-off. A Newark Quality Roofing re-roof strips the covering to the deck, replaces the deteriorated sheathing exposed at tear-off, and installs an ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision.',
   ],
   challenges: [
-    'Scope definition for Verona re-roofing projects must balance the homeowner\'s budget with the work needed to achieve a lasting result. Re-roofing the shingle surface without addressing deteriorated flashings, inadequate ventilation, or compromised deck sections saves upfront cost but creates leak risks within a few years. Our re-roofing proposals itemize every component -- tear-off, deck repair, flashings, underlayment, ventilation, and shingles -- so the homeowner sees the full scope needed for a complete system rather than a surface-only reskinning.',
-    'Material selection for Verona re-roofing must account for the varied conditions across the home\'s multiple roof planes. One plane may face south with full sun exposure while another sits beneath heavy canopy shade. Hilltop properties experience wind loads that valley properties do not face. The shingle product must perform across all conditions present on the home, which sometimes means specifying a higher-rated product than the most sheltered plane would require in order to protect the most exposed plane adequately.',
-    'Coordinating re-roofing work with Verona\'s residential environment requires attention to noise, dust, and site access that commercial projects do not demand. Most Verona streets are quiet residential neighborhoods where construction activity draws attention. Our crews maintain professional worksites with contained debris, controlled noise hours, and respectful interaction with neighbors whose properties adjoin the worksite.'
+    '**Deck condition under the worn covering** sets the scope of a Verona re-roof, because the older pre-war stock near Personette Avenue and Claremont Avenue often hides deteriorated plank sheathing that a tear-off exposes and a recover would conceal. A Newark Quality Roofing re-roof strips the covering to the deck, the method that exposes the deck for inspection and repair, because ARMA states a recover hides deck rot and water damage that a tear-off catches.',
+    '**Recover-versus-tear-off limits** govern a Verona re-roof, because the NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing re-roof favors a tear-off where the deck or the code requires it.',
+    '**Reservation-edge canopy debris** from Eagle Rock Reservation on the First Watchung Mountain and Hilltop Reservation on the Second Watchung Mountain, per Essex County Parks, plus mature street trees near Verona Park, drops leaf load and broken branches that collect in valleys and gutters. A Newark Quality Roofing re-roof rebuilds the valley flashing and clears the drainage path where blockage backs water under the covering and rots fascia, soffit, and decking.',
+    '**Peckman River drainage** loads the low-lying parcels along Bloomfield Avenue and Lakeside Avenue near Verona Park, where the NOAA National Weather Service Peckman River gauge at Verona notes that at roughly a 5-foot stage water covers roads and reaches 1 to 3 feet into properties. A Newark Quality Roofing re-roof grades a low-slope corridor deck to drain, where a low-slope roof requires at least one-quarter inch per foot of slope and ponding over 48 hours counts as a defect, per the NRCA and ARMA.',
   ],
   process: [
-    'Re-roofing in Verona begins with a comprehensive property assessment that evaluates every roof plane, flashing detail, ventilation component, and deck condition. The assessment identifies the full scope of work needed for a complete roofing system -- not just new shingles but all the supporting components that must function together. Material recommendations are calibrated to the property\'s specific exposure, canopy conditions, and architectural style.',
-    'Installation follows our standard sequence: ground protection, full tear-off, deck inspection and repair, ice-and-water shield at all critical areas, synthetic underlayment over the full deck, drip edge installation, starter strip, field shingle courses, and ridge cap. On split-levels, transition flashings are rebuilt with new materials at every level change. Ventilation improvements -- soffit intake, ridge exhaust, and attic baffles -- are integrated into the re-roofing work while the system is open.',
-    'Final walkthrough with the homeowner reviews every visible detail of the completed re-roofing: shingle alignment, color consistency, flashing integration, and ridge cap line. We provide warranty registration with both the shingle manufacturer and our workmanship guarantee, before-and-after photographs documenting the transformation, and a maintenance schedule that protects the investment through the warranty period.'
+    '**Newark Quality Roofing confirms the re-roofing decision against the threshold rules, then inspects the deck and attic ventilation before quoting.** A crew checks the covering age against the 30% area rule and the 50% cost rule, because a localized repair costs 5 to 10 times less than a re-roof only while the roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data, and a Verona split-level concentrates the inspection at the roof-to-wall transitions.',
+    '**Newark Quality Roofing strips the worn roof to the deck, replaces deteriorated sheathing, and installs the ice barrier, underlayment, and new cover to manufacturer specification.** The tear-off exposes the plank decking common on the pre-war stock for repair, the crew installs an ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision, and rebuilds the roof-to-wall step and counter-flashing at every split-level offset plane.',
+    '**Newark Quality Roofing verifies the install against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty.** The written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance, and timestamped photographs document the completed re-roof for the owner record and any insurance claim.',
   ],
   faqs: [
     {
-      question: 'How long does re-roofing take on a Verona split-level?',
-      answer: 'A typical Verona split-level re-roofing project takes three to five working days from tear-off through completion. Day one covers tear-off and deck preparation. Days two and three handle underlayment, shingle installation, and flashings. Additional days accommodate ventilation improvements, complex transition work, and weather delays. We provide a specific timeline during the proposal based on your home\'s size and complexity.'
+      question: 'Do you need a permit to re-roof a home in Verona, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Verona counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area within 12 months requires a permit filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue, and so does any structural change to rafters or trusses.',
     },
     {
-      question: 'How much does re-roofing cost for a Verona home?',
-      answer: 'Re-roofing a typical Verona split-level with premium architectural shingles ranges from $12,000 to $22,000 depending on roof size, deck repair needs, ventilation work, and shingle product selection. This includes full tear-off, complete underlayment, new flashings at all critical junctions, and cleanup. We provide detailed proposals with line-item pricing so you can see exactly where the investment goes and make informed decisions about product and scope options.'
+      question: 'Does a Verona historic landmark designation restrict a re-roof?',
+      answer:
+        'Verona requires HPC review prior to the issuance of permits only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona, the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church, so every other Verona home reroofs with no HPC review. Per the National Park Service, National Register listing alone places no restriction on a private property owner, and the Afterglow section is a proposed district from the 2017 Verona Historic Resources Survey, not designated, so a reroof there follows the standard N.J.A.C. 5:23-2.7 path.',
     },
     {
-      question: 'What shingle brand is best for re-roofing in Verona?',
-      answer: 'We specify GAF Timberline HDZ and CertainTeed Landmark Pro as our primary options for Verona re-roofing. Both offer lifetime limited warranties, algae resistance, and wind ratings appropriate for the township\'s conditions. For hilltop properties requiring enhanced wind performance, GAF WindProven provides the highest-rated wind warranty available. Product selection depends on your specific priorities -- warranty terms, color options, and wind performance requirements all factor into the best choice for your home.'
+      question: 'Does re-roofing a Verona home require a full tear-off?',
+      answer:
+        'Re-roofing requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4. A recover over a single sound asphalt layer hides the deck rot common under Verona\'s older pre-war stock that a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20–30%, per ARMA and Angi.',
     },
     {
-      question: 'Should I re-roof my entire Verona home or just the damaged sections?',
-      answer: 'Partial re-roofing creates color mismatches between new and weathered sections and creates transition points between old and new materials that can become future leak locations. Unless the existing roof has significant remaining life on most planes with only one section failing, full re-roofing provides better aesthetics, more reliable weather protection, and simpler warranty coverage. We evaluate the remaining useful life of each roof plane and recommend the most cost-effective approach for your specific situation.'
+      question: 'Which roofing material suits a re-roof on a Verona split-level?',
+      answer:
+        'Architectural asphalt shingles suit most Verona split-levels and bi-levels at a 30-year service life, with 3-tab at 20 years, metal at 40 to 80 years, and slate at 60 to 150 years, per the InterNACHI life-expectancy chart. Newark Quality Roofing rebuilds the roof-to-wall step and counter-flashing at the offset planes where most split-level leaks start, and matches natural slate or metal restoration to the older pre-war Colonials near Personette Avenue and Claremont Avenue.',
     },
     {
-      question: 'How much does re roofing cost in Verona, NJ?',
-      answer: 'Most re roofing projects in Verona range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How much does re-roofing cost in Verona, NJ?',
+      answer:
+        'Re-roofing in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with a natural slate restoration on an older Verona Colonial running above the asphalt range. Final cost depends on roof size, pitch, material, and access, and a multi-layer or water-soaked roof requires full removal under N.J.A.C. 5:23-6.4, which adds tear-off and deck-repair cost. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Re-roofing in Verona NJ -- complete roof replacement with modern materials for split-level homes, colonials, and custom properties.',
+  metaDescription:
+    'Re-roofing in Verona NJ — full tear-off and replacement on Colonials, Capes, and split-levels with transition flashing rebuilt. NJ-registered, free estimate.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Verona\'s pre-war Colonials, postwar Capes and ranches, and 1960s–70s split-levels.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in Verona — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re-roofing in Verona.',
+    urgencyNote: 'Re-roofing a covering past its service life limits interior and structural water damage.',
   },
 };

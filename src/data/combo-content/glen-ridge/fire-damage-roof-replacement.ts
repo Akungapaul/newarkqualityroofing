@@ -3,50 +3,73 @@ import type { ComboContent } from '../schema';
 export const glenRidgeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'glen-ridge',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across Glen Ridge, New Jersey, and Essex County, tearing off the charred covering and deck and rebuilding a Class A fire-rated roof on the borough\'s pre-WWII homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in Glen Ridge — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Glen Ridge addresses one of the most devastating scenarios a historic homeowner can face. When fire damages the roof of a century-old Victorian or Edwardian home, the loss extends beyond the roofing material to the irreplaceable architectural details, original framing, and the structural integrity that has supported the home for generations. Newark Quality Roofing provides comprehensive fire damage restoration that rebuilds the roof system from the surviving structure upward, restoring both weather protection and the architectural character that makes Glen Ridge homes architectural treasures.',
-    'Fire damage on Glen Ridge\'s closely spaced homes creates cascading risk that extends beyond the directly affected property. Radiant heat and airborne embers can damage roofing materials on adjacent homes, and fire suppression water saturates roofing and framing on neighboring structures. Our fire damage assessments in Glen Ridge examine not just the primary fire property but the adjacent structures that may have sustained thermal or water damage requiring remediation. This comprehensive response protects the neighborhood from ongoing damage that fire events can trigger.',
-    'The rebuilding process after fire damage provides an opportunity to incorporate modern structural and safety improvements beneath historically appropriate roofing materials. Fire-retardant treated framing, enhanced insulation, improved ventilation, and comprehensive ice-and-water shield installation can all be integrated into the reconstruction without altering the home\'s exterior appearance. The rebuilt roof emerges stronger, better insulated, and more fire-resistant than the original it replaces while maintaining the preservation-compliant appearance that [Glen Ridge](/roofing-in-glen-ridge-nj) requires.',
+    '**Newark Quality Roofing replaces fire-damaged roofs across Glen Ridge\'s pre-WWII Victorian, Tudor, and Colonial Revival homes**, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a fire-rated roof rather than recovering fire-weakened material.',
+    '**Charred covering and decking** carry essentially zero residual structural capacity and are removed to sound wood, because the American Wood Council uses a nominal char rate of 1.5 inches of wood per hour for structural fire design, per the American Wood Council, and a water-soaked or deteriorated deck is not an adequate base, per N.J.A.C. 5:23-6.4.',
+    '**Heat-weakened framing** on Glen Ridge\'s ~1890s–1930s high-style houses is rebuilt to a licensed structural engineer\'s post-fire assessment, because the heat-affected zone beneath the char retains only roughly 85–90% of original strength, per the U.S. Forest Products Laboratory, and the deteriorated plank sheathing common in older stock is exposed and replaced at tear-off.',
+    '**A Class A fire-rated rebuild** restores the roof to current code, because a roof covering qualifies as Class A, B, or C under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant, per UL 790 and ASTM E108. On a regulated Glen Ridge Historic District property, the exterior rebuild requires a Certificate of Appropriateness under Chapter 15.32.',
   ],
   challenges: [
-    'Structural assessment after fire damage requires engineering evaluation to determine which framing members retain adequate structural capacity and which must be replaced. Fire weakens wood framing even when it does not fully consume it -- charred surfaces lose cross-section, and heat-damaged wood loses structural integrity at temperatures well below combustion point. We coordinate with structural engineers to evaluate every affected framing member, ensuring that the rebuilt roof rests on structure verified to meet current load requirements.',
-    'Historic Preservation Commission involvement in fire damage restoration adds a layer of review that does not apply to standard insurance rebuilds. The commission expects fire-damaged homes to be restored to their pre-loss appearance using appropriate materials. This requirement must be communicated to the insurance company during the claims process to ensure adequate coverage for preservation-grade materials. We coordinate between the commission, the insurance adjuster, and the homeowner to align all parties on the material specification before reconstruction begins.',
+    '**Structural assessment** governs a Glen Ridge fire rebuild, because charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, and a licensed structural engineer sets the framing scope before reconstruction, per the U.S. Forest Products Laboratory and EDT Engineers. Newark Quality Roofing performs the roofing to that assessment and current code.',
+    '**The Chapter 15.32 Certificate of Appropriateness** adds a separate local approval on most Glen Ridge homes, because the Glen Ridge Historic District covers over 90% of the borough, per the Borough of Glen Ridge, so a fire rebuild on a regulated property carries the borough Historic Preservation Commission review of the roofing material and visible roof form alongside the structural rebuild.',
+    '**Older plank decking and slate detailing** complicate the tear-off, because Glen Ridge\'s pre-WWII high-style houses carry deteriorated plank sheathing, slate, dormers, and copper period flashing that the rebuild matches in kind on a regulated property. Firefighting water also saturates the assembly and corrodes metal connectors, per the U.S. Forest Products Laboratory and ANSI/IICRC S700.',
+    '**Honest insurance documentation** keeps the fire claim within the contractor role, because in New Jersey only a licensed public adjuster or an attorney negotiates or settles the claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B. Newark Quality Roofing photographs the fire, heat, and water damage and writes a detailed scope while the homeowner or a public adjuster files the claim.',
   ],
   process: [
-    'Fire damage response begins with emergency stabilization: tarping damaged sections, shoring compromised framing, and securing the structure against weather and unauthorized access. We document the pre-fire condition using the homeowner\'s photographs, neighboring homes as reference, and the surviving architectural evidence on unburned sections. This documentation establishes the restoration target and supports the insurance claim for historically appropriate replacement.',
-    'Reconstruction proceeds from structural restoration through roofing installation. Damaged framing is replaced with new lumber matching original dimensions, using fire-retardant treated material where code permits. New sheathing and waterproofing underlayment are installed over the restored framing. The replacement roofing material -- approved by both the insurance settlement and the Historic Preservation Commission -- is installed with the preservation-grade craftsmanship that Glen Ridge restoration demands. The finished product restores the home\'s pre-fire appearance with modern safety improvements concealed beneath the historic exterior.',
+    '**Newark Quality Roofing stabilizes the structure, then tears off the charred covering and decking to expose the framing for a licensed structural engineer\'s post-fire assessment.** A crew tarps openings and removes char to sound wood, because the char layer carries essentially zero residual structural capacity and a water-soaked deck requires full removal, per the American Wood Council and N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing rebuilds the heat-weakened rafters, trusses, and sheathing to the structural engineer\'s assessment and current code**, replacing firefighting-water-saturated decking and corroded metal connectors, because extinguishing water saturates the assembly and accelerates corrosion, per the U.S. Forest Products Laboratory and ANSI/IICRC S700. The engineer sets the framing scope and Newark Quality Roofing performs the roofing to it.',
+    '**Newark Quality Roofing installs a Class A fire-rated covering, documents the damage for the adjuster, and verifies the rebuild before cleanup.** A Class A covering rates highest under the UL 790 and ASTM E108 fire-test methods, and a crew photographs the fire, heat, and water damage, runs a magnet sweep for nails, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty.',
   ],
   faqs: [
     {
-      question: 'Does insurance cover preservation-grade materials after fire damage in Glen Ridge?',
-      answer: 'Fire insurance policies providing replacement cost coverage should cover the cost of restoring the roof to its pre-loss condition, which in Glen Ridge means preservation-appropriate materials. We document the pre-fire roofing material and the commission\'s restoration requirements to support the claim for adequate coverage.',
+      question: 'Should you repair or replace a fire-damaged roof in Glen Ridge?',
+      answer:
+        'Replace a fire-damaged Glen Ridge roof when fire reaches the structure, char weakens the framing, or damage exceeds 25–30% of the roof area; repair a roof only when fire damage stays surface-localized on sound framing. The char layer carries essentially zero residual structural capacity and is removed, per the U.S. Forest Products Laboratory, and the 25–30% area rule favors full replacement, per roofing industry guidance.',
     },
     {
-      question: 'How long does fire damage roof restoration take in Glen Ridge?',
-      answer: 'Fire damage restoration typically takes 3 to 6 months from initial stabilization through completed re-roofing, depending on the extent of structural damage, insurance processing time, and material procurement. Emergency stabilization is completed within days of the fire event, providing immediate weather protection.',
+      question: 'Does a fire-damaged Glen Ridge home need a structural assessment before the rebuild?',
+      answer:
+        'A fire-damaged Glen Ridge roof receives a formal post-fire structural assessment, often by a licensed structural engineer, before reconstruction, because charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, per the U.S. Forest Products Laboratory and EDT Engineers. Newark Quality Roofing performs the roofing to that assessment and current code, with the engineer setting the framing scope.',
     },
     {
-      question: 'Can a fire-damaged Glen Ridge home be improved during reconstruction?',
-      answer: 'Yes. The reconstruction process provides an opportunity to add fire-retardant framing, improved insulation, enhanced ventilation, and modern waterproofing that were not present in the original construction. These improvements are concealed beneath the historically appropriate exterior, giving the homeowner better performance than the pre-fire condition.',
+      question: 'Does a historic district in Glen Ridge affect a fire rebuild?',
+      answer:
+        'Exterior roofing on a regulated property in the Glen Ridge Historic District requires a Certificate of Appropriateness from the borough Historic Preservation Commission under Glen Ridge\'s Historic Preservation ordinance, Chapter 15.32. The Certificate of Appropriateness governs roof replacement, a change of roofing material, dormers, and visible roof-mounted equipment, and the Glen Ridge Historic District covers over 90% of the borough, per the Borough of Glen Ridge, so most homes fall inside the regulated district. The Certificate of Appropriateness is a local-ordinance requirement, not a consequence of the 1982 National Register listing. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner, so confirm a specific parcel with the Historic Preservation Commission or the Borough of Glen Ridge Building Department at 825 Bloomfield Avenue.',
+    },
+    {
+      question: 'Does Newark Quality Roofing handle the fire insurance claim in Glen Ridge?',
+      answer:
+        'Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so it inspects and photographs the fire damage, writes a detailed scope and estimate, meets the adjuster on site, and performs the approved roofing. In New Jersey, only a licensed public adjuster or an attorney negotiates or settles the claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B, so the homeowner or a public adjuster files and negotiates the claim, and the deductible stays the homeowner\'s responsibility under the policy.',
+    },
+    {
+      question: 'What fire rating does a replacement Glen Ridge roof carry?',
+      answer:
+        'A replacement roof covering carries a Class A, B, or C fire rating under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant. Untreated cedar is non-classified on its own, fire-retardant-treated cedar reaches Class B or C, and a Class A wood-shake roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau and InterNACHI, so a rebuild matches the covering and assembly to the Class A rating.',
     },
     {
       question: 'How much does fire damage roof replacement cost in Glen Ridge, NJ?',
-      answer: 'Most fire damage roof replacement projects in Glen Ridge range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage roof replacement adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Josten Roofing and Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement in Glen Ridge NJ. Structural restoration and preservation-grade re-roofing for historic homes.',
+  metaDescription:
+    'Fire damage roof replacement in Glen Ridge NJ — charred tear-off, structural rebuild to assessment, Class A fire-rated roof. NJ-registered, free estimate.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; fire damage adds structural framing and decking replacement, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Glen Ridge\'s pre-WWII Victorian, Tudor, and Colonial Revival homes and the Bloomfield Avenue station edge.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in Glen Ridge — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in Glen Ridge.',
+    urgencyNote: 'Tarping and stabilizing a fire-damaged roof early limits further water and structural damage to the home.',
   },
 };

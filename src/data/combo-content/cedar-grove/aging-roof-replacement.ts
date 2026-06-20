@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor replacing aging roofs across Cedar Grove, New Jersey, and Essex County, stripping a roof at the end of its lifespan and installing a new underlayment-and-cover system** on the township\'s postwar ranches and split-levels and its Pompton Avenue storefronts as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.',
   overview: [
-    'Newark Quality Roofing delivers expert aging roof replacement in Cedar Grove — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Cedar Grove addresses the inevitable end-of-life transition that every roofing system reaches -- the point where continued repair spending exceeds the value of the remaining protection and replacement becomes the economically sound decision. The township\'s concentration of 1960s ranch and colonial homes puts many Cedar Grove properties on similar replacement timelines, with homes originally roofed during the same development era now reaching their second or third replacement cycle simultaneously.',
-    'Recognizing the optimal replacement timing for Cedar Grove homes requires understanding how [aging roof](/aging-roof-replacement) deterioration progresses on the township\'s characteristic low-pitch structures. Granule loss, shingle curling, and flashing deterioration all accelerate on low-slope roofs where moisture retention and thermal cycling compound the aging process. Cedar Grove ranch roofs typically reach replacement threshold at eighteen to twenty-two years -- two to three years earlier than the same shingles would last on a steeper-pitched home in the same climate zone.',
-    'Proactive replacement before active leaking begins protects Cedar Grove homeowners from the cascading damage that deferred replacement causes. Water infiltration through an aging roof damages deck sheathing, attic insulation, interior drywall, and even structural framing. Replacing the roof before these secondary damages occur limits the project scope to the roof surface and saves the thousands of dollars in interior restoration that emergency replacement after leak damage inevitably requires.',
+    '**Newark Quality Roofing replaces aging asphalt, slate, metal, and low-slope membrane roofs** across Cedar Grove\'s postwar ranches and split-levels and the Pompton Avenue / Route 23 storefronts. Aging roof replacement strips a covering worn past its service life to the deck, repairs the sheathing, and installs a new underlayment-and-cover system before granule loss, curling, and brittle sealants admit water.',
+    '**Aging asphalt** marks most Cedar Grove re-roofs, where 3-tab asphalt lasts 20 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart, and widespread granule loss that exposes the asphalt mat marks shingles near end of life, per GAF and InterNACHI. A Newark Quality Roofing replacement targets a covering past its design life across the township\'s predominantly single-family stock, 76.3% owner-occupied across 5,008 housing units, per the U.S. Census Bureau.',
+    '**Aging slate and metal** end the service life of the older period homes on Cedar Grove\'s higher ground, where natural slate lasts 60 to 150 years and metal 40 to 80 years, per the InterNACHI life-expectancy chart, and corroded fasteners and degraded valley and chimney flashing, not the tile itself, end the roof. A Newark Quality Roofing replacement matches the new system to the home and the Essex County climate.',
+    '**Aging low-slope membrane** ends a flat roof along the Pompton Avenue / Route 23 corridor, where EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, when seam separation and shrinkage end the membrane. A Newark Quality Roofing replacement strips the worn membrane and installs a system graded to drain on the storefront low-slope roofs.',
   ],
   challenges: [
-    'Homeowner procrastination on roof replacement is understandable but costly in Cedar Grove\'s climate. A roof showing clear aging symptoms -- widespread granule loss, curling tab edges, cracked hip and ridge caps -- may appear to function adequately because the leaks have not yet begun. However, on Cedar Grove\'s low-pitch ranch roofs, the transition from aging-but-functional to actively-leaking happens rapidly when a single heavy rain or winter ice dam overwhelms the deteriorated covering. The damage from that first leak often exceeds the incremental cost savings from waiting.',
-    'Budget planning for aging roof replacement in Cedar Grove benefits from the predictability of the replacement cycle. Homeowners who know their current roof age can plan the financial commitment years in advance rather than facing an emergency expenditure when leaks force immediate action. Our free aging roof assessments provide Cedar Grove homeowners with a realistic timeline for replacement, allowing budgeting and contractor selection on the homeowner\'s schedule rather than the weather\'s.',
-    'Material selection during aging roof replacement reflects different priorities than the original installation. Cedar Grove homeowners on their second or third roof have the benefit of experience and are more likely to invest in premium materials, enhanced ventilation, and ice dam prevention upgrades that protect against the specific failure modes they experienced with the previous roof.',
+    '**Deteriorated sheathing discovered at tear-off** is the defining aging-replacement condition on Cedar Grove\'s older period homes, where years of trapped moisture rot the plywood or plank deck under the old covering. A Newark Quality Roofing tear-off exposes the deck for inspection and replaces the rotted sheathing before the new underlayment and cover go down.',
+    '**Reservation-edge and street-canopy debris** shortens a Cedar Grove roof ahead of its rated life, because the wooded edges of the Mills Reservation and the Hilltop Reservation, per Essex County Parks, and the township\'s mature deciduous canopy and conifer needle-shed load leaf and branch debris into valleys and gutters and hold moisture against shaded north slopes. A Newark Quality Roofing replacement clears the debris and corrects the drainage the old roof lost.',
+    '**Ice dams on tree-shaded slopes** drive premature aging on Cedar Grove\'s postwar single-family homes, because escaping attic heat melts the snowpack and the meltwater refreezes at the colder eave, backing water under the shingles, per University of Minnesota Extension. A Newark Quality Roofing replacement installs an ice barrier at the eaves and verifies the attic ventilation that the worn-out roof lacked.',
+    '**Multi-layer and water-soaked roofs** force a full tear-off rather than a recover on an aging Cedar Grove roof, because the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more layers, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing replacement strips the covering to a sound deck.',
   ],
   process: [
-    'Aging roof assessment in Cedar Grove evaluates the current condition and estimates remaining service life. We inspect shingle flexibility, granule retention, flashing integrity, and attic conditions to determine whether the roof is approaching, at, or past its optimal replacement point. The assessment provides a timeline recommendation -- replace now, plan for next year, or monitor annually -- based on the specific conditions observed.',
-    'Replacement planning establishes the project scope, material selection, and budget with enough lead time for the homeowner to make informed decisions without urgency pressure. We present material options with life-cycle cost comparisons, discuss ventilation and insulation upgrades worth incorporating during replacement, and schedule the project for a weather window that allows clean, uninterrupted execution.',
-    'Replacement execution follows the standard tear-off, inspection, and installation sequence with particular attention to the conditions that caused the previous roof to age out. If ice dams were a factor, we install enhanced ice-and-water shield and verify ventilation adequacy. If wind damage accelerated aging, we specify higher wind-rated shingles and improved nailing patterns. The goal is a replacement roof that outlasts its predecessor by addressing the specific vulnerabilities that Cedar Grove\'s climate exposed.',
+    '**Newark Quality Roofing rates the aging roof against its material lifespan and applies the contractor-consensus age and three-repairs rules before quoting a Cedar Grove replacement.** A roof reaches end of service after a material-specific lifespan from the InterNACHI life-expectancy chart, and an asphalt roof past 20 years or carrying three or more repairs in two years crosses the thresholds that favor replacement, per industry repair-vs-replace guidance. A Newark Quality Roofing assessment also checks the attic ventilation that drove the premature aging.',
+    '**Newark Quality Roofing presents the material options from five classes — 3-tab asphalt, architectural asphalt, standing-seam metal, slate, and low-slope membrane — with the lifespan of each named in a free written estimate before any work begins.** A written estimate sets the scope, labor, materials, and timeline so a Cedar Grove owner-occupant decides on schedule rather than under leak pressure, per Integrity Home Exteriors documentation guidance.',
+    '**Newark Quality Roofing strips the aging roof to the deck, repairs the sheathing exposed at tear-off, installs an ice barrier and synthetic underlayment, and installs the cover to manufacturer specification.** Complete removal of the existing covering follows N.J.A.C. 5:23-6.4 when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more layers, and installing to manufacturer specification keeps the material warranty intact, separate from the written workmanship warranty on the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How do I know if my Cedar Grove roof needs replacement due to aging?',
-      answer: 'Key indicators include widespread granule loss visible in gutters and downspout discharge areas, curling or cupping shingle edges across multiple roof sections, cracked or missing hip and ridge cap shingles, and daylight visible through attic sheathing at nail penetrations. If your Cedar Grove roof is eighteen years old or more and shows these symptoms, replacement is advisable before active leaking begins.',
+      question: 'Should I repair or replace my aging Cedar Grove roof?',
+      answer:
+        'Replace an aging roof when it passes its material lifespan, carries three or more repairs in two years, or shows widespread granule loss and a spongy deck; repair an asphalt roof under 10 to 15 years old. The age and three-repairs rules are contractor-consensus thresholds, per industry repair-vs-replace guidance, and 3-tab asphalt lasts 20 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart. A Newark Quality Roofing assessment rates a Cedar Grove roof against those thresholds before a replacement quote.',
     },
     {
-      question: 'Can I wait another year before replacing my aging Cedar Grove roof?',
-      answer: 'Possibly, but the risk increases each season. Cedar Grove\'s low-pitch ranch roofs transition from aging to failing more abruptly than steeper roofs because the first significant leak on a shallow slope often produces widespread water entry rather than an isolated drip. We recommend a professional assessment to determine whether waiting is reasonable or whether the aging has progressed to the point where the next storm could cause interior damage.',
+      question: 'Do I need a permit to replace an aging roof in Cedar Grove, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Cedar Grove counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area within 12 months requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, and so does any structural change to rafters or trusses. The Pompton Avenue / Route 23 storefronts are where that commercial path applies.',
     },
     {
-      question: 'How much does aging roof replacement cost on a Cedar Grove ranch?',
-      answer: 'Complete tear-off and replacement with architectural shingles on a typical Cedar Grove ranch home costs eight to fourteen thousand dollars depending on roof size, the extent of deck repair, and material selection. Premium materials like standing seam metal or designer shingles cost more but deliver longer service life. We provide detailed proposals with line-item pricing so the homeowner understands exactly what each component costs.',
+      question: 'Does a roof replacement on a Cedar Grove historic home need extra approval?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof in Cedar Grove faces no historic-district restriction. The township maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner. A detached one- or two-family re-roof remains ordinary maintenance under N.J.A.C. 5:23-2.7.',
     },
     {
-      question: 'What improvements should I make during aging roof replacement?',
-      answer: 'Cedar Grove homeowners should incorporate ridge vent installation or upgrade, soffit vent verification, attic insulation baffles, and ice-and-water shield membrane at eaves and valleys. These improvements cost a fraction of their standalone installation price when included with the replacement project, and they address the ventilation, insulation, and ice dam vulnerabilities that shorten roof life on Cedar Grove\'s low-pitch ranch homes.',
+      question: 'What improvements should I make during an aging roof replacement?',
+      answer:
+        'Incorporate an ice barrier at the eaves and valleys, attic-ventilation correction, and deck repair where the old roof rotted the sheathing, because proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA. A Newark Quality Roofing replacement installs the ice barrier from the eave to at least 24 inches inside the exterior wall line per the IRC R905.1.2 provision and verifies the soffit-and-ridge ventilation, the upgrades that address the ice-dam and shade-driven wear common on Cedar Grove\'s tree-shaded slopes.',
+    },
+    {
+      question: 'How long does each roofing material last before replacement?',
+      answer:
+        '3-tab asphalt lasts 20 years, architectural asphalt 30 years, wood and cedar 25 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart. On the Pompton Avenue / Route 23 low-slope storefronts, EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the same chart, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA.',
     },
     {
       question: 'How much does aging roof replacement cost in Cedar Grove, NJ?',
-      answer: 'Most aging roof replacement projects in Cedar Grove range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Aging roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize cost data, with NJ architectural asphalt running $6.50–$11.00 per square foot and metal $9.00–$16.00, per Josten Roofing NJ pricing. Final cost depends on roof size, pitch, material, the extent of deck repair at tear-off, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Aging roof replacement in Cedar Grove NJ -- proactive replacement for ranch homes before leak damage with ventilation and insulation upgrades.',
+  metaDescription:
+    'Aging roof replacement in Cedar Grove NJ — postwar ranch, split-level, and Pompton Avenue storefront re-roofs with tear-off and deck repair. Free estimate.',
   pricing: {
-    range: '$8,500–$25,000',
-    note: 'replacing end-of-life roofing',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free aging roof replacement estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for aging roof replacement in Cedar Grove.',
+    urgencyNote: 'Replacing an aging roof before it fails limits interior and structural water damage.',
   },
 };

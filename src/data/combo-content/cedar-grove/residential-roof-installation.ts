@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing residential roof installation across Cedar Grove, New Jersey, and Essex County, building the complete deck-to-ridge system on the township\'s postwar ranches, split-levels, and colonials** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Residential roof installation** builds a complete roof system on a house from the deck up — ice barrier, underlayment, flashing, the finish covering, and ventilation. It applies to new construction and full replacements, replacing the entire weatherproof assembly rather than patching a failed detail.',
   overview: [
-    'Newark Quality Roofing delivers expert residential roof installation in Cedar Grove — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Cedar Grove serves two distinct markets: the aging mid-century homes requiring system replacement and the modest new construction and additions that expand the township\'s housing stock. Both demand installation techniques calibrated to Cedar Grove\'s northern Essex County climate, where heavier snow loads, extended freeze-thaw cycling, and exposure along the Watchung slope create conditions more demanding than sheltered communities to the south. Our [residential roof installation](/residential-roof-installation) approach starts with the building envelope rather than just the surface material, ensuring that ventilation, insulation, and underlayment form a complete system beneath the finished shingles.',
-    'Cedar Grove\'s ranch-dominant architecture shapes every installation decision. The low-pitch rooflines between 3:12 and 5:12 slope that characterize most township homes require product selections and techniques specifically rated for shallow installation. Standard shingle exposure must be adjusted, ice-and-water shield coverage must extend beyond code minimums, and ventilation must be engineered to compensate for the restricted attic volume these designs create. Contractors who apply suburban-standard installation methods to Cedar Grove ranch roofs are setting up premature failures. Our crews install to the conditions these homes actually present, not to minimum code requirements written for steeper-pitched designs.',
-    'For homeowners adding rooms, raising rooflines, or building new on Cedar Grove\'s remaining developable lots, installation integrates with the architectural vision while meeting the practical demands of the township\'s weather exposure. We work with builders and architects to specify roofing systems that complement the neighborhood character -- Cedar Grove\'s traditional palette favors earth-toned architectural shingles -- while providing the enhanced wind and weather protection that the township\'s elevated terrain requires. Neighbors in [Verona](/residential-roof-installation-verona-nj) undertake similar new construction installations along the shared municipal border.',
+    '**Newark Quality Roofing installs architectural and 3-tab asphalt shingle, standing-seam and metal-shingle, natural slate, and low-slope membrane systems** on Cedar Grove\'s postwar ranches, split-levels, bi-levels, colonials, and Cape Cods, and on the Pompton Avenue / Route 23 storefronts. A residential roof installation builds the full system from the deck up — ice barrier, underlayment, flashing, cover, and ventilation — rather than patching a single failed detail.',
+    '**Material lifespan** separates the systems Newark Quality Roofing installs across Cedar Grove: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and natural slate 60 to 150 years, per the InterNACHI life-expectancy chart. Asphalt shingles cover most Cedar Grove homes, while the township\'s older period homes on its higher ground carry natural slate and metal detailing.',
+    '**Asphalt shingle systems** carry the residential volume on Cedar Grove\'s predominantly postwar single-family stock, where Cedar Grove is strongly homeowner-facing at 76.3% owner-occupied across 5,008 housing units, per the U.S. Census Bureau. A Newark Quality Roofing installation strips the covering to the deck, replaces deteriorated sheathing exposed at tear-off, and sets an ice barrier at the eaves before the cover goes on.',
+    '**Low-slope membrane systems** cover the strip retail, offices, and auto and service buildings along the Pompton Avenue / Route 23 commercial corridor, where EPDM, TPO, and modified-bitumen membranes last 15 to 25, 7 to 20, and 20 years respectively, per the InterNACHI life-expectancy chart. A Newark Quality Roofing installation grades the deck to drain, because a low-slope roof needs at least a quarter inch per foot of slope, per NRCA and ARMA.',
   ],
   challenges: [
-    'Ventilation design on new and replacement installations for Cedar Grove ranch homes requires engineering beyond standard practice. The shallow attic spaces beneath low-pitch roofs resist natural convective airflow, and the wide, open floor plans typical of ranch design create large ceiling areas that generate significant moisture vapor. Balanced ventilation with adequate ridge exhaust and soffit intake is essential but difficult to achieve when the ridge-to-soffit distance is minimal. We use continuous ridge vent systems with high-CFM capacity and supplemental soffit ventilation to create the airflow that protects the shingle investment from interior moisture damage.',
-    'Structural assessment before installation reveals conditions that affect long-term performance. Cedar Grove homes built in the 1950s and 1960s used framing standards that may not support the weight of modern architectural shingles plus the enhanced underlayment systems that low-pitch installations require. We evaluate rafter sizing, spacing, and condition before specifying the roofing assembly, ensuring the structure can support the installed weight through the 25- to 30-year system life without deflection that would compromise drainage and shingle performance.',
-    'Color and aesthetic coordination matters in Cedar Grove\'s closely built residential neighborhoods where roof visibility is high. Ranch homes with their low profiles place the entire roof surface at eye level from neighboring properties, making color selection and installation quality more visually prominent than on taller home designs where the roof recedes from view. We bring full-size shingle samples to the property for daylight evaluation against existing siding, trim, and landscaping, ensuring the installation enhances rather than detracts from the home\'s street presentation.',
+    '**Deteriorated sheathing** surfaces at tear-off on Cedar Grove\'s older period homes and aging postwar stock, where decades of valley and chimney water exposure rot the plank or plywood deck beneath the covering. A Newark Quality Roofing installation inspects every sheathing section once the old roof is stripped and replaces the deteriorated decking before the new system goes on, the condition a surface cover cannot correct.',
+    '**Attic ventilation** falls short on the township\'s low-pitch ranch and split-level rooflines, where the NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, balanced about half intake and half exhaust, and proper ventilation extends roof life, per the NRCA. A Newark Quality Roofing installation corrects undersized ridge exhaust and soffit intake as part of the deck-to-ridge build.',
+    '**Reservation-edge and street-canopy debris** loads Cedar Grove roofs, because the wooded edges of the Mills Reservation and the Hilltop Reservation and the township\'s mature deciduous canopy press leaf and branch load against nearby roofs. A Newark Quality Roofing installation sets the valley and flashing detailing to shed the debris that collects where canopy meets the postwar single-family roofline.',
+    '**Structural roof work** crosses out of the no-permit re-roof path, because a structural change to rafters, trusses, or ridge beams triggers a construction permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance covering exemption, per the NJ Uniform Construction Code. A Newark Quality Roofing installation evaluates the framing during assessment and files the permit with the Township of Cedar Grove Building Department at 525 Pompton Avenue when the work triggers one.',
   ],
   process: [
-    'Residential roof installation in Cedar Grove begins with a complete property assessment covering structural capacity, ventilation requirements, existing damage, and architectural considerations. For replacement projects, we determine whether tear-off to bare sheathing is required or whether an overlay is permissible under New Jersey building code. Cedar Grove ranch homes with original 1960s construction almost always require full tear-off due to age-related sheathing deterioration, providing the opportunity to correct ventilation deficiencies and add the enhanced underlayment that low-pitch performance demands.',
-    'Installation proceeds in systematic layers. After sheathing replacement as needed, ice-and-water shield membrane covers all eaves, valleys, wall intersections, and penetrations with extended coverage on low-slope sections. Synthetic underlayment provides secondary protection across the field. Metal drip edge at rakes and eaves channels water cleanly into the gutter system. Starter strip along the perimeter establishes the first adhesive bond. Architectural shingles go on with the nailing pattern specified for Cedar Grove\'s wind exposure -- six nails per shingle on exposed elevations, four nails in sheltered areas. Ridge cap completes the system with integrated ventilation.',
-    'Final inspection and documentation close every Cedar Grove installation. We verify nailing patterns, flashing integrity, ventilation operation, and aesthetic alignment before conducting a homeowner walk-through. Manufacturer warranty registration ensures the full coverage period applies, and our photographic documentation package records every installation layer for future reference during insurance claims, maintenance planning, and property transactions.',
+    '**Newark Quality Roofing assesses the roof deck, the attic ventilation, and the NJ code triggers before quoting a Cedar Grove installation.** A crew sizes ventilation against the NRCA and ARMA standard of 1 square foot of net-free vent area per 150 square feet of attic floor, checks the framing on the township\'s low-pitch ranch and split-level rooflines, and presents the material options with the lifespan of each named, per the InterNACHI life-expectancy chart.',
+    '**Newark Quality Roofing strips the roof to the deck, repairs the sheathing, and installs the system to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** Complete removal of the existing covering is required by N.J.A.C. 5:23-6.4 when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per the NJ Rehabilitation Subcode. The IRC ice-barrier provision (R905.1.2) sets the self-adhering ice barrier from the eave to at least 24 inches inside the exterior wall line.',
+    '**Newark Quality Roofing verifies the installed roof against manufacturer specification, runs a magnet sweep for nails, and documents the completed work with photographs.** A written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance, and the documentation package records every installation layer for the owner-occupant\'s record, any insurance claim, and a future property sale.',
   ],
   faqs: [
     {
-      question: 'What type of shingles work best on Cedar Grove ranch homes?',
-      answer: 'Architectural shingles with SBS-modified asphalt provide the best performance on Cedar Grove ranch roofs. The SBS modification maintains flexibility through the freeze-thaw cycling that low-pitch roofs in northern Essex County experience, while the thicker profile resists wind uplift better than standard three-tab products. We recommend GAF Timberline HDZ, Owens Corning Duration, or CertainTeed Landmark for most Cedar Grove installations.',
+      question: 'Do I need a permit for a residential roof installation in Cedar Grove, NJ?',
+      answer:
+        'A complete installation of the roof covering on a detached one- or two-family home in Cedar Grove counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area within 12 months requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, and so does any structural change to rafters or trusses. The Pompton Avenue / Route 23 storefronts are where this commercial path most often applies.',
+    },
+    {
+      question: 'Does a historic district in Cedar Grove restrict a roof installation?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority, and the township carries no locally designated historic district or landmark. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
+    },
+    {
+      question: 'Which roofing material works best for a Cedar Grove home?',
+      answer:
+        'Architectural asphalt suits most Cedar Grove postwar ranches and split-levels, while natural slate and metal preserve the township\'s older period homes. Architectural asphalt lasts 30 years and 3-tab 20 years, natural slate 60 to 150 years, and metal 40 to 80 years, per the InterNACHI life-expectancy chart. Asphalt shingles cover roughly 73% of US residential roofs, per 2024 roofing-market data. Newark Quality Roofing presents the material options with the lifespan of each named before any work begins.',
     },
     {
       question: 'Can you install a new roof over my existing Cedar Grove roof?',
-      answer: 'New Jersey code permits one overlay layer over a single existing layer if the existing shingles are flat-lying and the sheathing beneath is sound. However, for Cedar Grove homes built in the 1950s and 1960s, we typically recommend tear-off to bare sheathing. This allows inspection and replacement of deteriorated plywood, installation of proper underlayment on the low-pitch surfaces, and ventilation improvements that overlays cannot accommodate. The long-term performance benefit justifies the additional tear-off cost.',
+      answer:
+        'A re-cover over a single existing layer is permitted only when the existing covering lies flat and the deck beneath is sound; otherwise a tear-off is required. Complete removal is required by N.J.A.C. 5:23-6.4 when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per the NJ Rehabilitation Subcode. On Cedar Grove\'s older period homes and aging postwar stock, a tear-off lets a Newark Quality Roofing crew replace deteriorated sheathing, set the ice barrier, and correct undersized ventilation that a re-cover cannot reach.',
     },
     {
-      question: 'How long does a residential roof installation take in Cedar Grove?',
-      answer: 'Most Cedar Grove ranch roof installations complete in one to two days. Larger colonial homes or projects requiring extensive sheathing replacement may extend to three days. Weather delays can extend the schedule, but we do not leave homes exposed overnight -- if weather threatens, the roof is sealed with temporary waterproofing before the crew departs.',
-    },
-    {
-      question: 'Do you handle the Cedar Grove building permit for roof installation?',
-      answer: 'Yes. Full roof installations in Cedar Grove require a building permit from the township. We handle the application, fee, and inspection scheduling as part of the project. The permit process ensures the installation meets current building code requirements including wind uplift resistance and energy efficiency standards.',
+      question: 'How does Newark Quality Roofing protect a Cedar Grove roof against ice dams?',
+      answer:
+        'A Newark Quality Roofing installation sets a self-adhering ice barrier from the eave to at least 24 inches inside the exterior wall line, the membrane that blocks ice-dam meltwater backup per the IRC R905.1.2 provision. Field underlayment, by contrast, only sheds wind-driven rain. Balanced attic ventilation, sized at 1 square foot of net-free vent area per 150 square feet of attic floor per NRCA and ARMA, keeps the roof deck cold and limits the snowmelt that feeds ice dams on the township\'s postwar single-family stock.',
     },
     {
       question: 'How much does residential roof installation cost in Cedar Grove, NJ?',
-      answer: 'Most residential roof installation projects in Cedar Grove range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Residential roof installation in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. A premium material such as natural slate raises the figure above the asphalt range. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Residential roof installation in Cedar Grove NJ. Low-pitch ranch expertise, ventilation upgrades, and quality shingles for northern Essex County.',
+  metaDescription:
+    'Residential roof installation in Cedar Grove NJ — postwar ranches and split-levels, deck-to-ridge asphalt, slate, low-slope. NJ-registered, free estimate.',
   pricing: {
-    range: '$8,500–$25,000',
-    note: 'complete residential installation',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free residential roof installation estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for residential roof installation in Cedar Grove.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

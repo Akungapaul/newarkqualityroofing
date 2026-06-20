@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing tile roof replacement across Cedar Grove, New Jersey, and Essex County, stripping the clay or concrete tile and worn underlayment to the deck and re-laying new tile** on the township\'s older period homes as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [
-    'Newark Quality Roofing delivers expert tile roof replacement in Cedar Grove — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Cedar Grove addresses the end-of-life transition for clay and concrete tile systems on the township\'s custom-built and Mediterranean-inspired homes. While tile roofs offer exceptional longevity -- fifty to one hundred years for the tile material itself -- the underlayment, flashings, and battens beneath the tile field require replacement at the thirty to forty-year mark, necessitating a full lift-and-reset or complete tile replacement project.',
-    'Cedar Grove properties with [tile roofs](/tile-roof-replacement) benefit from replacement approaches that preserve the original tile when possible. Lifting the existing tile field, replacing deteriorated underlayment and battens, and resetting the original tiles with new fasteners restores the waterproof integrity beneath a tile surface that may have decades of remaining life. When the tile itself has deteriorated -- cracked, spalled, or color-faded beyond acceptable appearance -- full replacement with new tile in matching or updated profiles completes the restoration.',
-    'Northern Essex County\'s freeze-thaw climate accelerates underlayment deterioration beneath tile roofs, making Cedar Grove tile systems more likely to need underlayment replacement within the thirty-year window than tile roofs in milder climates. The moisture that migrates beneath tile edges during freeze-thaw cycles gradually degrades the felt or modified bitumen underlayment, eventually allowing water to reach the sheathing despite tile surfaces that remain intact above.',
+    '**Newark Quality Roofing replaces clay and concrete tile roofs** on Cedar Grove\'s older period homes carrying slate and metal detailing on the township\'s higher ground, and on the occasional Mediterranean or Spanish-revival roof. Tile roof replacement strips the tile and worn underlayment to the deck, confirms the structure carries the tile dead load, and re-lays a new underlayment-and-tile system.',
+    '**Clay and concrete tile** outlive the underlayment beneath them, so the underlayment, not the tile, sets the replacement schedule. Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years, while the underlayment fails well before the tile, per the Tile Roofing Industry Alliance and This Old House.',
+    '**The underlayment** is the real service-life limiter, so interior stains under intact tile point to failed underlayment rather than failed tile, per the Tile Roofing Industry Alliance and This Old House. A Newark Quality Roofing tile replacement lifts and salvages sound tile, renews the underlayment and flashing across the deck, and matches the profile of any replacement tile.',
+    '**Tear-off to the deck** is mandatory on a tile roof, because a clay or concrete tile covering cannot be roofed-over and the NJ Rehabilitation Subcode requires complete removal of the existing covering before new roofing, per N.J.A.C. 5:23-6.4. The full strip exposes the deck for inspection and replacement of plywood or plank sheathing rotted under the old underlayment.',
   ],
   challenges: [
-    'Tile handling during lift-and-reset operations requires careful technique to prevent breakage. Clay and concrete tiles become brittle with age, and rough handling during removal can crack tiles that were otherwise serviceable. Our Cedar Grove tile replacement crews use padded carrying trays and systematic stacking procedures that minimize breakage losses during the lift, underlayment replacement, and reset process.',
-    'Matching replacement tiles for damaged or missing pieces in the existing field challenges Cedar Grove projects when the original tile profile has been discontinued. We maintain salvage inventory and specialist supplier relationships for common tile profiles, but homeowners should expect that exact matches for twenty to thirty-year-old tiles may require extended sourcing timelines or acceptance of close-match alternatives.',
-    'Structural load verification is required even for lift-and-reset projects because the replacement underlayment and battens may differ in weight from the original materials, and the code-required snow load and wind uplift ratings may have changed since the original installation. Engineering confirmation ensures the existing structure remains adequate for the replaced assembly.',
+    '**Deteriorated sheathing discovered at tear-off** is the recurring Cedar Grove tile condition, because the township\'s older period homes carry decades of underlayment age, and moisture migrating under the tile rots the plywood or plank deck beneath sound-looking tile. A Newark Quality Roofing crew exposes the deck at full strip and replaces the rotted sheathing before new underlayment.',
+    '**Structural dead load** governs a tile replacement, because tile is heavy and the deck and framing carry the load. A Newark Quality Roofing assessment confirms the structure carries the tile weight before new tile is set, and a structural change to rafters or trusses to carry that load triggers a construction permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance re-roof exemption.',
+    '**Reservation-edge and street-canopy debris** loads tile valleys and flashing across Cedar Grove, where the wooded edges of the Mills Reservation and the Hilltop Reservation and the township\'s mature deciduous canopy drop leaf and branch litter onto nearby roofs. A Newark Quality Roofing replacement rebuilds the valley, headwall, and chimney flashing where leaf-clogged transitions admit water under the tile field.',
+    '**Low-slope storefronts** along the Pompton Avenue / Route 23 corridor carry EPDM, TPO, or modified-bitumen membrane rather than tile, where a low-slope roof needs at least one-quarter inch per foot of slope to drain and ponding held more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing scope reseals those membrane seams separately from the residential tile work.',
   ],
   process: [
-    'Tile replacement begins with careful documentation of the existing tile layout, including field tile coursing, hip and ridge details, valley configuration, and any specialty trim pieces. Tiles are removed systematically, cleaned, inspected for reusability, and stored on padded racks. Damaged tiles are separated and measured for replacement procurement.',
-    'With the tile field removed, the underlayment and battens are stripped to the deck. Sheathing is inspected and repaired as needed. New self-adhering modified bitumen underlayment is installed across the full deck, followed by pressure-treated batten strips at the spacing required for the tile profile. New fasteners -- corrosion-resistant ring-shank nails or stainless steel screws -- replace the original hardware.',
-    'Tiles are reset or new tiles are installed on the prepared battens, each mechanically fastened per current code requirements. Hip and ridge tiles receive flexible adhesive bedding rather than rigid mortar to accommodate Cedar Grove\'s thermal movement range. All valley, wall, and penetration flashings use copper or painted aluminum fabricated to match the tile profile. The completed installation receives a walk-through, documentation, and a reserve tile delivery for future maintenance.',
+    '**Newark Quality Roofing verifies the deck and framing carry the tile dead load, dates the underlayment, and rates the tile and flashing condition before quoting the replacement.** Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, and the underlayment fails well before the tile, so the assessment confirms structural capacity for the tile weight and dates the underlayment that drives the work. A tile roof cannot be roofed-over, so the assessment plans a tear-off to the deck, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing strips the tile and the failed underlayment to the deck, salvages sound tile, repairs the sheathing, and re-lays the tile to manufacturer specification.** A full tear-off exposes the deck for inspection and replacement of plywood or plank rotted under the old underlayment, the complete removal of the existing covering the NJ Rehabilitation Subcode requires because a clay or concrete tile roof cannot be roofed-over, per N.J.A.C. 5:23-6.4. New self-adhering underlayment and a tile-rated assembly go down before the salvaged and matching tile is re-laid.',
+    '**Newark Quality Roofing installs the ice barrier, rebuilds the flashing, and documents the completed roof with photographs for the homeowner\'s records.** The IRC ice-barrier provision requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code R905.1.2. Valley, headwall, and chimney flashing is fabricated to match the tile profile, and a magnet sweep clears nails before the crew leaves the property.',
   ],
   faqs: [
     {
-      question: 'Can my existing Cedar Grove tiles be reused during replacement?',
-      answer: 'If the tiles are structurally sound without significant cracking, spalling, or color degradation, lift-and-reset reuses the existing tile field at lower cost than full tile replacement. We inspect each tile during removal and typically achieve eighty to ninety percent reuse rates on Cedar Grove tile roofs under thirty years old. Replacement tiles are sourced for the ten to twenty percent that do not pass inspection.',
+      question: 'Can my existing Cedar Grove tile be reused in a replacement?',
+      answer:
+        'Sound tile is salvaged and re-laid over new underlayment, because the underlayment fails well before the tile and is the real replacement trigger, per the Tile Roofing Industry Alliance and This Old House. A Newark Quality Roofing replacement lifts the tile, renews the underlayment and flashing, replaces the rotted sheathing exposed at tear-off, and re-lays the salvaged tile, matching the profile of any tile that does not pass inspection.',
     },
     {
-      question: 'How much does tile roof replacement cost in Cedar Grove?',
-      answer: 'Lift-and-reset with underlayment replacement typically costs sixty to seventy percent of full tile replacement. Full replacement with new concrete tile on a Cedar Grove home ranges from twenty-five to forty-five thousand dollars depending on tile profile, roof complexity, and structural modifications. Clay tile replacement costs approximately twenty to thirty percent more than concrete due to material pricing.',
+      question: 'Why does my tile roof leak when the tile is still intact?',
+      answer:
+        'A tile roof leaks under intact tile when the underlayment beneath it fails, because the underlayment is the real service-life limiter and fails well before the tile, per the Tile Roofing Industry Alliance and This Old House. On Cedar Grove\'s older period homes, years of underlayment age and moisture migration under the tile also rot the deck, so a Newark Quality Roofing replacement renews the underlayment and replaces deteriorated sheathing.',
     },
     {
-      question: 'How long can I expect my replaced tile roof to last in Cedar Grove?',
-      answer: 'Concrete tiles last fifty to seventy-five years and clay tiles last seventy-five to one hundred years or more. The underlayment beneath requires replacement at approximately thirty to forty-year intervals, which involves lifting and resetting the tile field. Over a one-hundred-year ownership period, a tile roof requires two to three underlayment replacements -- each at significantly lower cost than a full roof replacement.',
+      question: 'How long does a replaced tile roof last in Cedar Grove?',
+      answer:
+        'Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment fails well before the tile and limits service life, so a Newark Quality Roofing replacement renews the underlayment and flashing while salvaging or matching the tile profile.',
     },
     {
-      question: 'Does tile roof replacement require Cedar Grove building permits?',
-      answer: 'Yes. Tile roof replacement involving underlayment and batten replacement requires a Cedar Grove building permit. The permit ensures that the replacement assembly meets current structural, wind uplift, and fire resistance requirements. We handle all permit applications and schedule required inspections as part of the project management.',
+      question: 'Does a Cedar Grove historic district restrict a tile roof replacement?',
+      answer:
+        'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner tile roof replacement in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner.',
+    },
+    {
+      question: 'Do you need a permit to replace a tile roof in Cedar Grove, NJ?',
+      answer:
+        'A complete re-roof of the tile covering on a detached one- or two-family home in Cedar Grove counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, inspection, or notice, per the NJ Uniform Construction Code. A commercial or multi-family roof, or a structural change to rafters or trusses to carry the tile load, does require a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue.',
     },
     {
       question: 'How much does tile roof replacement cost in Cedar Grove, NJ?',
-      answer: 'Most tile roof replacement projects in Cedar Grove range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A typical New Jersey roof replacement runs $10,000–$25,000, per HomeAdvisor and Modernize NJ cost data, with premium tile installing at $10–$20-plus per square foot, per NHI Contractors, and clay carrying a higher material cost than concrete. Final cost depends on roof size, pitch, tile profile, structural work, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Tile roof replacement in Cedar Grove NJ -- lift-and-reset or full replacement for clay and concrete tile with underlayment renewal.',
+  metaDescription:
+    'Tile roof replacement in Cedar Grove NJ — clay and concrete tile and underlayment stripped to the deck and re-laid. NJ-registered, insured, free estimate.',
   pricing: {
-    range: '$18,000–$40,000',
-    note: 'tile roof replacement installed',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes, older period homes, and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free tile roof replacement estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for tile roof replacement in Cedar Grove.',
+    urgencyNote: 'Addressing failed underlayment early limits deck rot and interior water damage under intact tile.',
   },
 };

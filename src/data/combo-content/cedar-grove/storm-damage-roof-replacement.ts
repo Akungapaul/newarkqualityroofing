@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const cedarGroveStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'cedar-grove',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing storm damage roof replacement across Cedar Grove, New Jersey, and Essex County, documenting wind and hail damage on the township\'s postwar ranch and split-level homes and Route 23 storefronts** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Storm damage roof replacement** removes and rebuilds a roof structurally compromised by wind, hail, or a severe storm, restoring the full weatherproof system. It follows documentation of the storm damage pattern across the covering, flashing, and deck.',
   overview: [
-    'Newark Quality Roofing delivers expert storm damage roof replacement in Cedar Grove — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Cedar Grove responds to the severe weather events that northern Essex County produces -- nor\'easters driving wind and rain against the Watchung Mountain slope, summer microbursts toppling mature oaks onto ranch roofs, and hail events that damage entire roof planes beyond repair. When storm damage exceeds the scope of targeted repair, full [storm damage roof replacement](/storm-damage-roof-replacement) restores the building envelope with a new system designed to resist the specific storm forces that caused the original failure.',
-    'Cedar Grove\'s dense tree canopy creates a unique storm damage profile. While communities without significant tree cover primarily sustain wind-driven shingle damage, Cedar Grove homes face the added risk of large branch and whole-tree impacts that cause structural damage to rafters, sheathing, and even load-bearing walls beneath the roof. Storm replacement on these properties often includes structural repair work that extends beyond the roof system into the building frame.',
-    'Our storm damage replacement process integrates emergency response, insurance coordination, and full replacement construction into a managed sequence that moves Cedar Grove homeowners from damage event to completed new roof with minimum disruption and maximum insurance recovery.',
+    '**Newark Quality Roofing replaces storm-damaged roofs on Cedar Grove\'s postwar ranch and split-level homes**, the older period houses on the township\'s higher ground, and the low-slope Pompton Avenue / Route 23 storefronts. A storm replacement strips the failed roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system after a covered loss.',
+    '**Postwar ranch and split-level homes** carry the bulk of Cedar Grove\'s residential storm exposure across the North End, Park Ridge Estates, Central Cedar Grove, and the South End, a stock the township holds at 76.3% owner-occupied across 5,008 housing units, per the U.S. Census Bureau. A Newark Quality Roofing storm replacement re-roofs the detached single-family stock to the deck and documents the work for the owner\'s record and any insurance claim.',
+    '**Mills and Hilltop reservation edges** and Cedar Grove\'s mature street canopy add fallen-limb impact to the wind and hail every storm brings, and wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). A Newark Quality Roofing storm replacement documents the damage with timestamped photographs for the adjuster before tear-off.',
+    '**Older period stock** on the township\'s higher ground admits deteriorated plank decking and aging valley, chimney, and wall flashing at tear-off, while the Pompton Avenue / Route 23 storefronts carry EPDM, TPO, and modified-bitumen membrane on their low-slope roofs. A Newark Quality Roofing replacement repairs the sheathing exposed at tear-off and rebuilds the step and counter-flashing at every wall, chimney, and transition.',
   ],
   challenges: [
-    'Structural damage assessment beneath storm-damaged roofing requires engineering evaluation that goes beyond standard roofing inspection. Tree impacts on Cedar Grove ranch homes can crack rafters, split ridge beams, and compress ceiling joists without visible exterior evidence. Our storm damage assessments include attic inspection for structural compromise, and we engage structural engineers when impact damage suggests framing loads may have exceeded member capacity.',
-    'Emergency weatherproofing on storm-damaged Cedar Grove roofs must account for the possibility of additional weather events during the repair coordination period. Temporary tarping and board-up that protects against light rain may fail under the next storm, extending damage and complicating the insurance claim. Our emergency response uses heavy-duty tarp systems mechanically secured to the roof structure, designed to withstand subsequent storms during the weeks between damage and replacement.',
-    'Material availability following widespread storm events can delay Cedar Grove replacement timelines. Major storms affecting the broader Essex County area create regional demand surges for roofing materials, particularly architectural shingles in popular colors and ice-and-water shield products. We maintain inventory relationships with multiple suppliers and pre-order materials upon insurance claim filing to minimize the delivery delays that storm-driven demand creates.',
+    '**Reservation-edge and street-canopy debris** is the defining Cedar Grove storm condition, because the wooded edges of the Mills Reservation and the Hilltop Reservation and the township\'s mature deciduous canopy and conifer needle-shed press heavy growth against nearby roofs. A Newark Quality Roofing storm replacement clears the loaded valleys and rebuilds the flashing where branch impact strips the covering.',
+    '**Hidden deck and flashing damage** surfaces only at tear-off on the older period homes set across Cedar Grove\'s higher ground, because a storm that strips the covering can also rot plank decking and split aging flashing beneath the surface. A Newark Quality Roofing storm replacement budgets for sheathing repair and prepares the documentation for an insurance supplement when tear-off reveals damage beyond the initial scope.',
+    '**Low-slope membrane** on the Pompton Avenue / Route 23 storefronts fails at the seams and at rooftop-equipment penetrations after a storm, where a low-slope roof needs at least ¼ inch per foot of slope to drain and ponding water held more than 48 hours counts as a defect, per NRCA and ARMA. A Newark Quality Roofing storm replacement grades the deck to drain and rebuilds the parapet and penetration flashing.',
+    '**Ice-dam backup** strains the tree-shaded slopes on Cedar Grove\'s ranch and split-level roofs through winter, because escaping attic heat melts the snowpack and the meltwater refreezes at the colder eave and backs under the shingles, per University of Minnesota Extension. A Newark Quality Roofing storm replacement installs an ice barrier at the eaves during the re-roof.',
   ],
   process: [
-    'Storm damage response in Cedar Grove begins with emergency stabilization within hours of the damage event. We secure temporary weatherproofing over damaged roof areas, document the damage with comprehensive photography, and perform a preliminary scope assessment. Interior damage is documented simultaneously for inclusion in the insurance claim.',
-    'Insurance coordination proceeds in parallel with damage documentation. We prepare the claim support package, attend the adjuster inspection, and negotiate the scope of covered work to ensure the Cedar Grove homeowner receives full policy coverage including code upgrade requirements. Structural engineering assessments are commissioned when tree impact or severe wind damage suggests framing compromise.',
-    'Replacement construction begins upon insurance approval. Storm damage replacements follow the same quality standards as planned re-roofing -- full tear-off, deck inspection and repair, ice-and-water shield installation, ventilation verification, and new architectural shingle installation. The replacement roof incorporates any code upgrades required by current Cedar Grove building standards, with these costs included in the insurance settlement.',
+    '**On a Cedar Grove storm replacement, Newark Quality Roofing inspects the damaged roof, documents the wind and hail damage with timestamped photographs, and writes a detailed scope and estimate matching the insurer\'s line items.** Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, not a licensed public adjuster, so a crew documents the damage and meets the assigned adjuster on site, while the homeowner or a licensed public adjuster files and negotiates the claim, per the NJ Public Adjusters\' Licensing Act administered by NJ DOBI. The deductible is the policyholder\'s responsibility under the policy, and coverage is the insurer\'s decision.',
+    '**Newark Quality Roofing meets the assigned insurance adjuster on the Cedar Grove roof to walk the storm damage and provide technical input on the damage extent and the repair methods.** A crew prepares the documentation for a supplement, because rotted plank decking or hidden flashing damage at tear-off on the township\'s older period stock can exceed the initial estimate, per Insurance Information Institute claims-process guidance. Under a replacement-cost policy the insurer commonly pays first on an actual-cash-value basis, then releases the held recoverable depreciation as a second payment after the roof is completed and invoiced, per the National Association of Insurance Commissioners and the Insurance Information Institute.',
+    '**Newark Quality Roofing strips the Cedar Grove roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs the cover to manufacturer specification.** A complete tear-off exposes the deck for repair, and the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. The replacement seals the deck and ring-shank-nails the cover for wind resistance, the sequence that keeps the manufacturer system warranty intact.',
   ],
   faqs: [
     {
-      question: 'What should I do immediately after storm damage to my Cedar Grove roof?',
-      answer: 'Move valuables away from leak areas, place containers to catch active water entry, and call us for emergency tarping. Do not attempt to climb on a storm-damaged roof. Document visible damage with ground-level photographs for your insurance claim. Do not make permanent repairs before the insurance adjuster inspects -- temporary stabilization is appropriate, but permanent work before adjuster approval may complicate your claim.',
+      question: 'Do I need a permit to replace a storm-damaged roof in Cedar Grove?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Cedar Grove counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice. A structural change to rafters or trusses still triggers a permit, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area within a 12-month period requires a permit filed with the Township of Cedar Grove Building Department at 525 Pompton Avenue, the path the Pompton Avenue / Route 23 storefronts follow.',
     },
     {
-      question: 'How long after storm damage can I get my Cedar Grove roof replaced?',
-      answer: 'The typical timeline from storm damage to completed replacement is four to eight weeks: one to two days for emergency stabilization, one to two weeks for insurance adjuster inspection and approval, one week for material procurement, and one to two weeks for installation. This timeline can extend during regional storm events when adjuster availability and material supply are strained.',
+      question: 'Does a storm-damaged historic home in Cedar Grove need extra approval to reroof?',
+      answer:
+        'No extra approval applies, because Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof in Cedar Grove faces no historic-district restriction. Cedar Grove maintains only an advisory Heritage Advisory Committee, which runs educational and cultural programs and holds no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner, so a storm-damaged Cedar Grove roof rebuilds under the same Uniform Construction Code path as any other.',
     },
     {
-      question: 'Will my new roof be more storm-resistant than the one that was damaged?',
-      answer: 'Yes. Current-generation architectural shingles carry wind ratings of one hundred ten to one hundred thirty miles per hour, significantly exceeding the sixty to seventy mile-per-hour ratings of shingles installed twenty years ago. Enhanced underlayment, improved nailing patterns, and code-required ice-and-water shield further improve the new roof\'s resistance to the storm forces that damaged the original installation.',
+      question: 'Does homeowners insurance cover storm damage roof replacement in Cedar Grove?',
+      answer:
+        'A falling reservation-edge or canopy limb, wind, or hail counts as a covered peril, so homeowners insurance covers a Cedar Grove roof replacement for that storm damage and excludes replacement for normal wear, age, or deferred maintenance. Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). Newark Quality Roofing documents the damage with timestamped photographs for the adjuster; coverage and approval are the insurer\'s decision.',
     },
     {
-      question: 'Does insurance cover the full cost of storm damage roof replacement?',
-      answer: 'Insurance typically covers the full replacement cost minus your deductible when the damage results from a covered storm event. Code upgrade costs required by current building standards are also covered under most policies. Your out-of-pocket cost is limited to the deductible amount. We work directly with your insurance company to maximize coverage and minimize your financial exposure.',
+      question: 'Do you handle the insurance claim and negotiate with the adjuster?',
+      answer:
+        'On a Cedar Grove storm claim, Newark Quality Roofing inspects the roof, photographs the damage, writes a detailed scope and estimate, and meets the assigned adjuster on site. In New Jersey a licensed public adjuster or attorney negotiates or settles the claim; the homeowner or a licensed public adjuster files and negotiates the claim, per the NJ Public Adjusters\' Licensing Act administered by NJ DOBI, and Newark Quality Roofing performs the approved work to the agreed scope and to code.',
+    },
+    {
+      question: 'Should you repair or replace a storm-damaged Cedar Grove roof?',
+      answer:
+        'On a Cedar Grove ranch or split-level roof, replace it when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost. Repair it when the storm damage stays localized on an asphalt roof under 10–15 years old, since the 25–30% area rule and the 50% cost rule are contractor-consensus thresholds and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data. On a Pompton Avenue / Route 23 membrane roof, a torn seam or punctured field over a small area favors a repair instead.',
     },
     {
       question: 'How much does storm damage roof replacement cost in Cedar Grove, NJ?',
-      answer: 'Most storm damage roof replacement projects in Cedar Grove range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000–$11,000 per industry replacement benchmarks. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate; the deductible remains the homeowner\'s responsibility under the policy.',
     },
   ],
-  metaDescription: 'Storm damage roof replacement in Cedar Grove NJ -- emergency response, insurance coordination, and full replacement after severe weather events.',
+  metaDescription:
+    'Storm damage roof replacement in Cedar Grove NJ — ranch and split-level homes, Route 23 storefronts, insurance documentation, full tear-off. Free estimate.',
   pricing: {
-    range: '$9,000–$28,000',
-    note: 'often insurance-covered',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Cedar Grove\'s postwar ranch and split-level homes and Pompton Avenue storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free storm damage roof replacement estimate in Cedar Grove — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for storm damage roof replacement in Cedar Grove.',
+    urgencyNote: 'Addressing storm damage early limits interior and structural water damage.',
   },
 };
