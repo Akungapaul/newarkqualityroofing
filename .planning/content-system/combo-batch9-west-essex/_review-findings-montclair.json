@@ -1,0 +1,365 @@
+{
+ "confirmedCount": 10,
+ "refutedCount": 2,
+ "lowCount": 17,
+ "confirmed": [
+  {
+   "combo": "wind-damage-roof-repair",
+   "field": "overview[1]",
+   "severity": "med",
+   "category": "fabrication",
+   "issue": "Fabricated quantified wind-uplift multiplier attributed to IIBEC. The fact pack (facts-causes-signs §2.2) supports ONLY the qualitative IIBEC claim — 'uplift is highest at roof edges, rakes, and corners; damage starts there' — and carries NO '2-3x field pressure' figure. The brief's review axis explicitly flags 'Any RICOWI \"2-3x field pressure\" wind-uplift multiplier' as fabricated. The dominant gold corpus (Bloomfield, Belleville, and most committed wind siblings) uses the un-quantified form 'wind uplift concentrates at the roof corners, rakes, and edges, where damage starts, per IIBEC'; only glen-ridge and verona (the same west-essex batch) carry the same defect, so this is a batch-introduced fabrication, not established gold.",
+   "evidence": "'...at the corners, rakes, and edges, where wind separates from the roof and generates suction two to three times the pressure on the open field, per IIBEC.'",
+   "suggestedFix": "Replace the quantified multiplier with the qualitative gold form. Before: '...where wind separates from the roof and generates suction two to three times the pressure on the open field, per IIBEC.' After: '...where wind uplift concentrates and damage starts, per IIBEC.'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at overview[1] of src/data/combo-content/montclair/wind-damage-roof-repair.ts: \"...at the corners, rakes, and edges, where wind separates from the roof and generates suction two to three times the pressure on the open field, per IIBEC.\" The fact pack (.planning/content-system/research/facts-causes-signs.md §2.2, lines 84-85) supports ONLY the qualitative IIBEC mechanism — \"uplift is highest at roof edges, rakes, and corners; damage starts there. Source: IIBEC\" — and carries NO \"2-3x field pressure\" / \"two to three times\" quantifier anywhere. The batch's own REVIEW-WORKFLOW.js (line 144) explicitly enumerates this as a defect: 'Any RICOWI \"2–3× field pressure\" wind-uplift multiplier → flag (fabricated; gold combos carry none).' The committed gold corpus confirms the gold form: Bloomfield and Belleville wind-damage combos both use the un-quantified \"wind uplift concentrates at the roof corners, rakes, and edges, where damage starts, per IIBEC\"; the cedar-grove sibling in this same batch already de-quantified it to \"runs above the open-field pressure.\" No committed (rewritten-gold) combo carries the IIBEC wind-uplift multiplier — the only three committed \"two to three times\" hits are unrelated metal-roof cost/lifecycle and flashing-linear-footage multiples in still-fabrication-laden files. Only glen-ridge and verona (same west-essex batch) share this defect, so it is a batch-introduced fabrication, not established gold. This is not a third-party \"licensed\" cite, a COA/geography issue, or an entity-grounding matter — it is a quantified figure fabricated against a named source (IIBEC). The finding is real and fixable.",
+   "finalFix": "In src/data/combo-content/montclair/wind-damage-roof-repair.ts overview[1], replace: \"appear first at the corners, rakes, and edges, where wind separates from the roof and generates suction two to three times the pressure on the open field, per IIBEC.\" → with: \"appear first at the corners, rakes, and edges, where wind uplift concentrates and damage starts, per IIBEC.\" (Preserves the IIBEC corner/rake/edge mechanism, matches the committed Bloomfield/Belleville gold form, and removes only the fabricated quantifier. The fabricated multiplier should likewise be swept from process[0] and the \"How strong is the wind\" FAQ in the same file, which carry the identical \"two to three times the field pressure, per IIBEC\" phrasing.)",
+   "city": "montclair"
+  },
+  {
+   "combo": "wind-damage-roof-repair",
+   "field": "process[0]",
+   "severity": "med",
+   "category": "fabrication",
+   "issue": "Same fabricated '2-3x field pressure, per IIBEC' multiplier repeated in the process lead. No pack supports the quantified figure; the qualitative IIBEC point is all that is sourced.",
+   "evidence": "'Wind separates at the roof edge and generates suction two to three times the field pressure, per IIBEC, and wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, per the Insurance Information Institute.'",
+   "suggestedFix": "Before: 'Wind separates at the roof edge and generates suction two to three times the field pressure, per IIBEC,' After: 'Wind uplift concentrates at the roof corners, rakes, and edges, where damage starts, per IIBEC,' (matches the committed Bloomfield/Belleville gold form).",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at process[0]: \"Wind separates at the roof edge and generates suction two to three times the field pressure, per IIBEC\". The fact pack facts-causes-signs.md §2.2 (lines 84-85) sources the IIBEC mechanism ONLY qualitatively — \"uplift is highest at roof edges, rakes, and corners; damage starts there. Source: IIBEC.\" No fact pack anywhere quantifies a \"two to three times the field pressure\" multiplier and attributes it to IIBEC; the figure is fabricated. This is the exact documented fabrication class repeatedly de-quantified in prior batches (the \"RICOWI/2-3× field pressure, per IIBEC\" sweep). Cross-combo consistency confirms it is an outlier: all five committed same-archetype siblings (Bloomfield, Belleville, Nutley, Maplewood, South Orange) use the qualitative gold form \"Wind uplift concentrates at the roof corners, rakes, and edges, where damage starts, per IIBEC\" and none carry the quantified multiplier. The qualitative IIBEC point is all that is sourced, so the fix preserves the IIBEC attribution and the edge/corner/rake fact while removing only the unsupported figure. (Note: the same fabricated multiplier also appears in overview[1] and faqs[2] of this file — out of scope for this process[0] finding but should be swept by the orchestrator.)",
+   "finalFix": "In src/data/combo-content/montclair/wind-damage-roof-repair.ts, process[0]: Before: 'Wind separates at the roof edge and generates suction two to three times the field pressure, per IIBEC,' After: 'Wind uplift concentrates at the roof corners, rakes, and edges, where damage starts, per IIBEC,' (matches the committed Bloomfield process[0] gold form; the rest of the sentence — \"and wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, per the Insurance Information Institute.\" — is unchanged).",
+   "city": "montclair"
+  },
+  {
+   "combo": "wind-damage-roof-repair",
+   "field": "faqs[2].answer",
+   "severity": "med",
+   "category": "fabrication",
+   "issue": "Third instance of the fabricated '2-3x field pressure, per IIBEC' multiplier, inside the 'How strong is the wind that damages a roof?' FAQ. De-quantify here too so the same de-fab is swept consistently across the file (and verify glen-ridge/verona siblings get the same sweep).",
+   "evidence": "'Wind uplift at roof corners, rakes, and edges reaches two to three times the field pressure, per IIBEC, so an aged or weakly sealed roof on Montclair's exposed west-side slopes loses tabs below the product rating.'",
+   "suggestedFix": "Before: 'Wind uplift at roof corners, rakes, and edges reaches two to three times the field pressure, per IIBEC, so an aged or weakly sealed roof...' After: 'Wind uplift concentrates at roof corners, rakes, and edges, where damage starts, per IIBEC, so an aged or weakly sealed roof...'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in faqs[2].answer (line 41): \"Wind uplift at roof corners, rakes, and edges reaches two to three times the field pressure, per IIBEC, so an aged or weakly sealed roof on Montclair's exposed west-side slopes loses tabs below the product rating.\" The IIBEC attribution is FABRICATED at the quantitative level. The canonical IIBEC entry in the fact pack (.planning/content-system/research/facts-causes-signs.md, lines 84-85) supports ONLY the qualitative mechanism: \"uplift is highest at roof edges, rakes, and corners; damage starts there. Source: IIBEC; trade wind-damage guidance.\" No \"two to three times the field pressure\" multiplier is attributed to IIBEC anywhere in the fact packs. This is the documented recurring fabrication class (RICOWI/IIBEC \"2-3x field pressure, per IIBEC\") that the orchestrator de-quantifies to the gold IIBEC qualitative form across siblings. It recurs three times in this file — overview[1] (line 12), process[0] (line 23), and this faqs[2] instance — so the finding is correctly flagging the third instance for consistent file-wide de-fab (and the glen-ridge/verona siblings should get the same sweep). The suggested fix relocates rather than deletes: it preserves the IIBEC corners/rakes/edges mechanism and the \"aged or weakly sealed roof...west-side slopes...loses tabs below the product rating\" tail, only removing the unsourced multiplier. Not a third-party-cite false positive; not an entity-grounding/COA issue. The COA-posture and geography facts elsewhere in the FAQ block are unaffected by this fix.",
+   "finalFix": "In src/data/combo-content/montclair/wind-damage-roof-repair.ts, faqs[2].answer (line 41), change the second sentence. Before: \"Wind uplift at roof corners, rakes, and edges reaches two to three times the field pressure, per IIBEC, so an aged or weakly sealed roof on Montclair's exposed west-side slopes loses tabs below the product rating.\" After: \"Wind uplift concentrates at roof corners, rakes, and edges, where damage starts, per IIBEC, so an aged or weakly sealed roof on Montclair's exposed west-side slopes loses tabs below the product rating.\" (Apply the same de-quantification to overview[1] line 12 and process[0] line 23 so the IIBEC \"two to three times the field pressure\" multiplier is removed consistently across the file, and sweep glen-ridge/verona wind-damage siblings for the same phrasing.)",
+   "city": "montclair"
+  },
+  {
+   "combo": "asphalt-shingle-roofing",
+   "field": "process[2] and faqs[0].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "Two issues with the '130 mph wind / 6-nail' spec. (1) The Montclair brief explicitly names this exact spec as a de-fab/never-publish item (§C UNVERIFIED line 177 'the 130 mph wind / six-nail specification'; §D line 195 'the 130 mph wind resistance with enhanced six-nail fastening spec → DELETE/CORRECT'). (2) Even setting the brief aside, the 130 mph figure is mis-attributed: it is sourced to 'ARMA and manufacturer guidance,' but the 130 mph value traces to ASTM D3161 Class F (facts-causes-signs.md: 'architectural shingles warrantied to 130 mph'; ASTM D3161 / AIC Roofing / NRCA), not ARMA. The sibling cohort file asphalt-shingle-roof-replacement.ts already uses the safer, correctly-attributed framing ('ASTM D3161 sets the asphalt wind classes — Class A near 60 mph and Class F near 110 mph — many architectural lines warranty higher with 6-nail installation'). NOTE: the figure is genuinely pack-supported and MEMORY records an Irvington-batch override treating 130mph/6-nail as template-consistent gold — flagging so the orchestrator reconciles the brief's explicit Montclair de-fab directive against that precedent.",
+   "evidence": "process[2]: 'A crew fits the manufacturer 6-nail pattern that reaches the architectural wind rating up to 130 mph, per ARMA and manufacturer guidance...' ; faqs[0]: '...a dimensional profile that lasts 30 years and rates up to 130 mph... the wind ratings to ARMA and manufacturer guidance, with the 130 mph rating requiring the manufacturer 6-nail pattern.'",
+   "suggestedFix": "Re-pin to the verifiable ASTM D3161 framing the sibling replacement file uses. process[2] After: '...A crew installs to the manufacturer wind-rated nailing schedule, the high-wind fastening that ASTM D3161 ties to the higher wind classes, weaves step flashing...'. faqs[0] After: '...a dimensional profile that lasts 30 years and carries a higher ASTM D3161 wind class than the single-layer 3-tab. The lifespans trace to the InterNACHI life-expectancy chart and the wind classes to ASTM D3161, per ARMA and manufacturer guidance.' (Drops the brief-flagged literal '130 mph' / 'six-nail' spec and corrects ARMA→ASTM D3161 attribution; keeps the architectural-vs-3-tab point.)",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present exactly as quoted. process[2]: \"A crew fits the manufacturer 6-nail pattern that reaches the architectural wind rating up to 130 mph, per ARMA and manufacturer guidance, weaves step flashing...\"; faqs[0]: \"...a dimensional profile that lasts 30 years and rates up to 130 mph... the wind ratings to ARMA and manufacturer guidance, with the 130 mph rating requiring the manufacturer 6-nail pattern.\"\n\nPART 1 (brief de-fab) = REAL and controlling. The Montclair brief (_MONTCLAIR-BRIEF.md) names this exact literal spec twice: §C line 175-176 lists 'the \"130 mph wind / six-nail\" specification' under \"UNVERIFIED — never publish,\" and §D lines 192-193 list 'the \"130 mph wind resistance with enhanced six-nail fastening\" spec' under DELETE/CORRECT. The brief is the per-city controlling instruction for this batch and explicitly bans the literal \"130 mph\"/\"six-nail\" string for Montclair (it was the old files' fabricated elevation-wind narrative — bundled in §D with the killed \"15-20 mph higher wind at upper elevations\" + \"enhanced fastening schedules\" claim).\n\nPART 2 (ARMA→ASTM re-attribution) = the reviewer is WRONG, and I REJECT that half of the suggested fix. facts-causes-signs.md lines 76-78 state: \"many architectural shingles are warrantied to 130 mph with enhanced (6-nail) installation. Source: ARMA/manufacturer guidance; AIC Roofing.\" The 130 mph + 6-nail figure is genuinely ARMA/manufacturer-sourced; ASTM D3161 only reaches Class F = 110 mph (line 80-81). Swapping the attribution to ASTM D3161 would MIS-attribute it. The correct attribution stays \"per ARMA and manufacturer guidance.\"\n\nPRECEDENT RECONCILIATION: The committed Orange GOLD asphalt-shingle-roofing.ts uses the identical \"130 mph / 6-nail / per ARMA\" framing, and MEMORY records an Irvington-batch override treating 130mph/6-nail as template-consistent gold. BUT those overrides applied where no brief banned the spec. Montclair's brief explicitly and doubly bans this literal string — the city brief governs the city. The fix is NOT to delete the wind point but to RELOCATE to the brief-compliant qualitative framing already used by the Montclair sibling asphalt-shingle-roof-replacement.ts, which complies: \"ASTM D3161 sets the asphalt wind classes — Class A near 60 mph and Class F near 110 mph — and many architectural lines warranty higher with 6-nail installation, per ARMA and manufacturer guidance.\" That keeps the ASTM class anchors (110 mph Class F is verifiable, not the banned 130 mph), keeps 6-nail and the ARMA attribution, and drops the banned literal \"130 mph.\"",
+   "finalFix": "process[2] BEFORE: \"**Newark Quality Roofing fastens each shingle in the manufacturer nailing zone, integrates the flashing, and balances the attic ventilation.** A crew fits the manufacturer 6-nail pattern that reaches the architectural wind rating up to 130 mph, per ARMA and manufacturer guidance, weaves step flashing with each course at walls, reseals penetrations, and sets soffit intake and ridge exhaust to the NRCA and ARMA net-free-vent ratio before a magnet sweep for nails at cleanup.\"\nprocess[2] AFTER: \"**Newark Quality Roofing fastens each shingle in the manufacturer nailing zone, integrates the flashing, and balances the attic ventilation.** A crew fits the manufacturer 6-nail pattern that carries the higher ASTM D3161 wind class architectural shingles warranty, per ARMA and manufacturer guidance, weaves step flashing with each course at walls, reseals penetrations, and sets soffit intake and ridge exhaust to the NRCA and ARMA net-free-vent ratio before a magnet sweep for nails at cleanup.\"\n\nfaqs[0] BEFORE: \"Architectural shingles bond multiple layers of fiberglass mat into a dimensional profile that lasts 30 years and rates up to 130 mph, while 3-tab shingles use a single flat layer that lasts 20 years and rates near 60 mph. The lifespans trace to the InterNACHI life-expectancy chart and the wind ratings to ARMA and manufacturer guidance, with the 130 mph rating requiring the manufacturer 6-nail pattern. The dimensional profile suits Montclair's architecturally diverse Victorian, Tudor, and Colonial Revival homes.\"\nfaqs[0] AFTER: \"Architectural shingles bond multiple layers of fiberglass mat into a dimensional profile that lasts 30 years and carries a higher ASTM D3161 wind class than the single-layer 3-tab, which lasts 20 years and rates near 60 mph at Class A. The lifespans trace to the InterNACHI life-expectancy chart and ASTM D3161 sets the asphalt wind classes — Class A near 60 mph and Class F near 110 mph — with many architectural lines warrantying higher under 6-nail installation, per ARMA and manufacturer guidance. The dimensional profile suits Montclair's architecturally diverse Victorian, Tudor, and Colonial Revival homes.\"\n\n(Drops the brief-banned literal \"130 mph\" / \"six-nail spec\" in BOTH fields; KEEPS the verifiable ASTM D3161 Class A 60 mph / Class F 110 mph anchors and the 6-nail higher-warranty point with its correct \"per ARMA and manufacturer guidance\" attribution — REJECTING the reviewer's incorrect ARMA→ASTM-D3161 attribution swap, since the pack sources 130 mph to ARMA. NOTE: the sibling montclair/wind-damage-roof-repair.ts faqs also still carries \"warrantied to 130 mph at 6-nail installation\" — orchestrator should sweep the same brief de-fab there.)",
+   "city": "montclair"
+  },
+  {
+   "combo": "commercial-roof-installation",
+   "field": "overview[3]",
+   "severity": "med",
+   "category": "city-fact",
+   "issue": "Residual fabricated-geography reference. \"Valley-corridor blocks\" echoes the fabricated \"Valley Road\" street the brief (§C neighborhoods, lines 148-149) explicitly lists as invented in the current files and instructs to DROP. \"Valley corridor\" is not a verified Montclair neighborhood (verified list = Upper Montclair, Watchung Plaza, Montclair Center/Town Center, Estate Section, Pine Street, South End, Erwin Park). The other four combos in the cohort carry zero unverified streets; this is the lone contaminated token.",
+   "evidence": "'**Montclair\\'s plank-decked older stock** complicates a commercial install, because the architecturally diverse early-twentieth-century buildings along Bloomfield Avenue and Valley-corridor blocks carry wood-joist framing and accumulated recover layers that a tear-off exposes.'",
+   "suggestedFix": "Replace the fabricated street reference with a verified Montclair anchor. Before: \"...the architecturally diverse early-twentieth-century buildings along Bloomfield Avenue and Valley-corridor blocks carry wood-joist framing...\" After: \"...the architecturally diverse early-twentieth-century buildings along the Bloomfield Avenue corridor and the Watchung Plaza and Upper Montclair business districts carry wood-joist framing...\" (or simply drop \"and Valley-corridor blocks\" → \"...buildings along Bloomfield Avenue carry wood-joist framing...\").",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in src/data/combo-content/montclair/commercial-roof-installation.ts:14 (overview[3]): \"...the architecturally diverse early-twentieth-century buildings along Bloomfield Avenue and Valley-corridor blocks carry wood-joist framing...\". \"Valley-corridor\" is a residual fabrication. The Montclair brief §C (lines 148-150) explicitly names \"Valley Road\" in its DROP list of FABRICATED streets the current files carry (\"the CURRENT files FABRICATE 'North Mountain Avenue,' 'Church Street,' 'Valley Road,' 'Montclair Heights,' and similar; do NOT carry them\"). The west-essex fact bank's verified Montclair neighborhood table lists only Upper Montclair, Watchung Plaza, Montclair Center/Town Center, Estate Section, Pine Street, South End, Erwin Park (plus Frog Hollow) — no \"Valley corridor\"/\"Valley Road\" neighborhood or commercial corridor exists; \"Valley Road\" appears only as a directional reference inside the Frog Hollow entry, never as an anchor. The token is also internally inconsistent: this same file's directAnswer, overview[0], overview[1], and challenges[0] all anchor to \"Bloomfield Avenue, Watchung Plaza, Upper Montclair,\" so \"Valley-corridor blocks\" is the lone contaminated token. The other \"Valley\" hit in the montclair directory (roof-replacement-cost.ts:19, \"turrets, dormers, valleys\") is the legitimate roofing element, not a street. This is a real, fixable city-fact defect. Fix relocates to a verified anchor (Watchung Plaza) rather than deleting, preserving geographic specificity and the file's established voice.",
+   "finalFix": "In src/data/combo-content/montclair/commercial-roof-installation.ts, overview[3], replace: \"...the architecturally diverse early-twentieth-century buildings along Bloomfield Avenue and Valley-corridor blocks carry wood-joist framing and accumulated recover layers that a tear-off exposes.\" with: \"...the architecturally diverse early-twentieth-century buildings along Bloomfield Avenue and the Watchung Plaza business district carry wood-joist framing and accumulated recover layers that a tear-off exposes.\" (Replaces the fabricated \"Valley-corridor blocks\" with the verified Watchung Plaza business district; if avoiding any echo of overview[0]/[1] is preferred, the alternative is simply dropping \"and Valley-corridor blocks\" → \"...buildings along Bloomfield Avenue carry wood-joist framing...\".)",
+   "city": "montclair"
+  },
+  {
+   "combo": "custom-roof-design-consultation",
+   "field": "faqs[4].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The 50%-of-replacement-cost repair-vs-replace rule is mis-attributed. Per facts-materials-economics §8, the 50% rule = WeatherShield/Home Depot; Kellow/Modernize/Josten are the 30% rule, and the 25–30%-area threshold = RapidRestore/MyQuoteIQ (Parish/Modernize for flat). Bundling the 50% rule under 'Kellow, Modernize, and Josten Roofing' is exactly the recurring NQR source-pairing defect the brief warns about (§D).",
+   "evidence": "\"replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost, the contractor-consensus thresholds attributed to Kellow, Modernize, and Josten Roofing.\"",
+   "suggestedFix": "Re-pin each threshold to its correct source. Before: \"…or one repair approaches 50% of replacement cost, the contractor-consensus thresholds attributed to Kellow, Modernize, and Josten Roofing.\" After: \"…or one repair approaches 50% of replacement cost — the area threshold per the RapidRestore and Modernize contractor consensus and the 50% replacement-cost rule per WeatherShield and Home Depot.\"",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at faqs[4].answer: \"…replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost, the contractor-consensus thresholds attributed to Kellow, Modernize, and Josten Roofing.\" Per facts-materials-economics §8 (the consolidated rule table, lines 305–308), the source pairings are unambiguous: the 50% rule (one repair > 50% of replacement cost) = WeatherShield / Home Depot / industry; the 25% area rule (damage > 25% of roof area) = RapidRestore / MyQuoteIQ; and only the 30% replacement-cost rule = Kellow / Modernize / Josten (NJ). The Montclair sentence pins BOTH the 25–30% area threshold AND the 50% replacement-cost rule on Kellow/Modernize/Josten — a source-set that owns NEITHER of those two rules (it owns the 30% rule, which this sentence never states). This is precisely the recurring NQR source-pairing defect the brief warns about (§D). Committed gold proves the pack-accurate split is the standard: glen-ridge/asphalt-shingle-roofing.ts (\"The 25–30% area rule traces to RapidRestore and Modernize and the 50% cost rule to WeatherShield and Home Depot, with the 30% rule attributed to Kellow and Modernize\") and bloomfield/storm-damage-roof-replacement.ts (\"the 25% area rule per RapidRestore and MyQuoteIQ and the 50% cost rule per WeatherShield and Home Depot\"). The batch-8 lesson (\"committed gold is LOOSE on the 25-30%-area/50%-cost pairing → apply pack-accurate re-pairings to CONFIRMED only, don't blanket-sweep\") endorses fixing this confirmed instance while not sweeping siblings. No Montclair fact is disturbed: the COA posture, reservation, neighborhoods, housing-age, entity-grounding directAnswer/registered-HIC form, and the third-party citations are all untouched by a pure source re-pin. The fix relocates/re-attributes rather than deletes, preserving every fact.",
+   "finalFix": "In src/data/combo-content/montclair/custom-roof-design-consultation.ts, faqs[4].answer — BEFORE: \"A Newark Quality Roofing consultation also models the replace-now-or-later decision: replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost, the contractor-consensus thresholds attributed to Kellow, Modernize, and Josten Roofing.\" AFTER: \"A Newark Quality Roofing consultation also models the replace-now-or-later decision: replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost — the 25–30% area rule per RapidRestore and Modernize and the 50% cost rule per WeatherShield and Home Depot, the contractor-consensus repair-vs-replace thresholds.\"",
+   "city": "montclair"
+  },
+  {
+   "combo": "historic-roof-restoration",
+   "field": "faqs[5].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The '~10–40% above national figures' NJ regional-premium claim is attributed to HomeGuide, but facts-materials-economics §7 tags the '~10–40% above national averages' figure as a '[SECONDARY consensus]' statement, NOT a HomeGuide figure. HomeGuide is the correct source for the slate restoration $2,500–$10,000+, individual-slate $50–$300, and flashing/fastener $400–$3,000 figures only — not the regional premium.",
+   "evidence": "\"NJ ranges sit roughly 10–40% above national figures because in-kind material-matching and Commission coordination exceed a standard re-roof, per HomeGuide.\"",
+   "suggestedFix": "Drop the HomeGuide tag from the regional-premium sentence (keep it on the slate $ figures). Before: \"NJ ranges sit roughly 10–40% above national figures because in-kind material-matching and Commission coordination exceed a standard re-roof, per HomeGuide.\" After: \"New Jersey roofing costs run roughly 10–40% above national averages on higher labor, stricter codes, and older stock, per regional NJ pricing consensus, and in-kind material-matching and Commission coordination add to a historic-slate job above a standard re-roof.\"",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present exactly as quoted: \"NJ ranges sit roughly 10–40% above national figures because in-kind material-matching and Commission coordination exceed a standard re-roof, per HomeGuide.\" Verified against facts-materials-economics.md §7 (lines 269-272): the \"~10–40% above national averages\" figure is explicitly tagged \"[SECONDARY consensus]\" with the rationale \"higher labor, stricter codes, older housing stock often needing extra decking work\" — it is NOT a HomeGuide figure. HomeGuide is the correct source ONLY for the slate $ figures: slate restoration $2,500–$10,000+ (line 134), individual slate $50–$300 (line 132), flashing/fastener $400–$3,000 (line 133) — all of which are correctly tagged in the FAQ's first sentence and stay untouched. The combo's \"per HomeGuide\" on the regional-premium clause therefore mis-attributes a [SECONDARY consensus] figure to HomeGuide, a real source-attribution defect. The committed GOLD Orange combos confirm the correct voice across 20+ instances: every one states \"NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code\" with NO \"per HomeGuide\" tag on that clause (e.g. orange/slate-roof-replacement.ts, orange/tile-roof-installation-repair.ts). The Montclair file deviated both in inventing a non-§7 rationale and in attaching \"per HomeGuide.\" Fix re-grounds the premium in the §7 rationale (higher labor, stricter NJ code) matching the gold sibling voice, keeps the Montclair-specific in-kind/Commission point as an un-attributed cost driver, and drops the HomeGuide tag from the premium sentence while leaving it correctly on the slate $ figures. (Note: the same mis-attribution recurs at line 63 pricing.note — orchestrator should sweep it too, but it is out of this finding's field scope.)",
+   "finalFix": "In faqs[5].answer (line 56), replace: \"NJ ranges sit roughly 10–40% above national figures because in-kind material-matching and Commission coordination exceed a standard re-roof, per HomeGuide.\" → \"NJ ranges sit roughly 10–40% above national figures because of higher labor and stricter NJ code, and an in-kind historic-slate restoration with Commission coordination adds to that above a standard re-roof.\"",
+   "city": "montclair"
+  },
+  {
+   "combo": "silicone-roof-coating",
+   "field": "faqs[5].answer (cost FAQ) + pricing.range + pricing.note",
+   "severity": "high",
+   "category": "fabrication",
+   "issue": "A hard roof-REPLACEMENT cost range ($10,000–$25,000) is pinned to a silicone COATING restoration and attributed to HomeAdvisor and Modernize. Per facts-energy-solar §0.9 no primary/aggregator source gives a coating-restoration cost — coating is framed qualitatively as 'a fraction of tear-off and replacement cost.' The number mis-sources (HomeAdvisor/Modernize's $10k–$25k is the replacement aggregate, not a coating figure), it internally contradicts the same answer's 'a fraction of tear-off and replacement cost' line, and it breaks cohort consistency: all five committed sibling coating combos (Orange, Irvington, Bloomfield, Belleville, Nutley) AND the Montclair silicone-elastomeric combo use range 'Varies by scope' with a qualitative cost FAQ.",
+   "evidence": "faqs cost answer: 'A full commercial roof restoration in New Jersey ranges from $10,000–$25,000, per HomeAdvisor and Modernize, depending on roof size, the dry-film thickness specified...'; pricing.range: '$10,000–$25,000'; pricing.note: 'Typical NJ commercial roof-restoration range per HomeAdvisor and Modernize...'",
+   "suggestedFix": "Match the committed siblings. pricing.range '$10,000–$25,000' → 'Varies by scope'. pricing.note → 'Silicone coating is priced by roof size, the dry-film thickness specified, and surface prep; recoating restores a roof at a fraction of tear-off cost, per the RCMA. Newark Quality Roofing provides a free written estimate.' Cost-FAQ first sentence → 'Silicone roof coating cost depends on roof size, the dry-film thickness specified, and the surface preparation the existing roof requires, and Newark Quality Roofing provides a free written estimate.' Keep the existing 'Recoating restores a roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA.' Drop the '$10,000–$25,000 per HomeAdvisor and Modernize' clause entirely.",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present exactly as cited. Verification confirms a genuine, fixable fabrication on three counts:\n\n1. MIS-SOURCE / MIS-APPLICATION. The $10,000–$25,000 \"per HomeAdvisor and Modernize\" is NOT a coating figure — facts-materials-economics.md line 295 traces that exact range to \"NJ new roof typical $10,000–$25,000 ... HomeAdvisor / Modernize (NJ)\" i.e. a roof-REPLACEMENT aggregate. The combo relabels a replacement number as \"a full commercial roof restoration.\" facts-energy-solar §0.9 is explicit: \"No hard cost figure has a primary source ... Use qualitative framing ('a fraction of tear-off/replacement cost') + the NQR free-estimate CTA ... Never present a coating/solar cost as a fixed NQR price.\" Neither HomeAdvisor/Modernize nor the $10k–$25k figure appears anywhere in the energy-solar pack as a coating-restoration cost. (Note: §0.9 does permit citing a range WITH named-aggregator attribution, so the violation is the mis-application of a replacement aggregate to coating, not the act of citing a number per se.)\n\n2. INTERNAL CONTRADICTION. The same FAQ answer asserts \"Recoating restores a roof at a fraction of tear-off and replacement cost,\" which is logically inconsistent with pinning the FULL replacement range ($10k–$25k) to the coating.\n\n3. COHORT INCONSISTENCY. All five committed sibling silicone-coating combos (Orange, Irvington, Bloomfield, Belleville, Nutley) use range 'Varies by scope' with a qualitative cost FAQ; the same-city Montclair silicone-ELASTOMERIC combo also uses 'Varies by scope' + qualitative. The Montclair silicone-roof-coating combo is the lone outlier with a hard numeric range.\n\nThe permit/COA FAQ (Article XXIII Ch. 347 §347-136, four locally designated districts, in-kind exempt, Estate Section nominated-not-designated) is correct and is left untouched. Fix follows the gold sibling voice (Orange/Nutley) — relocate to qualitative framing + RCMA \"fraction of tear-off cost\" + free-estimate CTA.",
+   "finalFix": "THREE edits in src/data/combo-content/montclair/silicone-roof-coating.ts:\n\n(1) faqs[5].answer — BEFORE: 'A full commercial roof restoration in New Jersey ranges from $10,000–$25,000, per HomeAdvisor and Modernize, depending on roof size, the dry-film thickness specified, and the surface preparation the existing roof requires. Recoating restores a roof at a fraction of tear-off and replacement cost and avoids landfill disposal, per the RCMA. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'\nAFTER: 'Silicone roof coating cost depends on roof size, the dry-film thickness specified, and the surface preparation the existing roof requires, and Newark Quality Roofing provides a free written estimate. Recoating restores a roof at a fraction of tear-off and replacement cost and avoids landfill disposal, per the RCMA. Final cost depends on roof size, the condition of seams and flashings, and access.'\n\n(2) pricing.range — BEFORE: '$10,000–$25,000'  AFTER: 'Varies by scope'\n\n(3) pricing.note — BEFORE: 'Typical NJ commercial roof-restoration range per HomeAdvisor and Modernize; recoating restores a roof at a fraction of tear-off cost, per the RCMA. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'\nAFTER: 'Silicone coating is priced by roof size, the dry-film thickness specified, and the surface prep the existing roof requires; recoating restores a roof at a fraction of tear-off cost, per the RCMA. Newark Quality Roofing provides a free written estimate.'",
+   "city": "montclair"
+  },
+  {
+   "combo": "solar-shingle-installation",
+   "field": "challenges[2]",
+   "severity": "med",
+   "category": "answer-length",
+   "issue": "The COA challenge lead is a single 61-word run-on first sentence — the brief (§C historic, 'If the historic COA sentence runs long, SPLIT it so the first sentence stays ≤40 words') explicitly directs splitting it, and the sibling solar-panel combo's COA challenge IS split correctly (36-word first sentence ending '...regulated exterior work there.'). Intra-cohort inconsistency on the same fact.",
+   "evidence": "'**The conditional historic gate** applies on a designated property, because appearance-changing exterior roofing on a property in one of Montclair's four locally designated historic districts — Town Center, Upper Montclair Business, Pine Street, or Watchung Plaza — or on a local landmark requires a Certificate of Appropriateness from the Montclair Historic Preservation Commission under Article XXIII of Chapter 347, section 347-136.'",
+   "suggestedFix": "Split so the lead's first sentence is the ≤40-word definitive answer, e.g.: '**The conditional historic gate** applies where a Montclair property sits in one of the four locally designated districts or is a local landmark, because a solar shingle that changes the roof's appearance is regulated exterior work there. Appearance-changing exterior roofing in those districts — Town Center, Upper Montclair Business, Pine Street, or Watchung Plaza — requires a Certificate of Appropriateness from the Montclair Historic Preservation Commission under Article XXIII of Chapter 347, section 347-136. In-kind maintenance or repair with no change in design, scale, or appearance does not require one, and the Estate Section is nominated but not locally designated. Per the National Park Service, National Register listing alone places no federal restriction on a private owner.'",
+   "verdict": "confirmed",
+   "reasoning": "The challenges[2] lead is a single 61-word run-on first sentence (59 even discounting the two standalone em-dash tokens), far over the answer-first ≤40-word definitive-answer cap. The _MONTCLAIR-BRIEF.md §C historic rule (lines 126-127) explicitly directs: \"If the historic COA sentence runs long, SPLIT it so the first sentence (the definitive answer) stays ≤40 words — period after '…section 347-136,' then the exemption and Estate-Section / NPS notes follow.\" The sibling solar-panel-roofing-installation.ts challenges[3] IS correctly split (36-word first sentence ending \"...regulated exterior work there.\"), and the other Montclair combos (slate, asphalt, aging-roof-replacement, commercial) all note the same SPLIT per their briefs — so this is a genuine intra-cohort inconsistency on the same fact, not a stylistic preference. This is purely an answer-length/structure defect: every COA FACT in the text is correct and matches the west-essex fact bank (Article XXIII of Chapter 347 §347-136; the exact four locally designated districts Town Center / Upper Montclair Business / Pine Street / Watchung Plaza; in-kind exempt; Estate Section nominated-not-designated; NPS National-Register-listing note), and the posture is correctly CONDITIONAL (never Village/township-wide). The suggested fix relocates rather than deletes facts, yielding a 37-word definitive first sentence that mirrors the committed sibling's answer-first/entity-grounded voice, then carries the district list, in-kind exemption, Estate-Section, and NPS notes into following sentences. Confirmed and fixable.",
+   "finalFix": "BEFORE (challenges[2]):\n'**The conditional historic gate** applies on a designated property, because appearance-changing exterior roofing on a property in one of Montclair\\'s four locally designated historic districts — Town Center, Upper Montclair Business, Pine Street, or Watchung Plaza — or on a local landmark requires a Certificate of Appropriateness from the Montclair Historic Preservation Commission under Article XXIII of Chapter 347, section 347-136. In-kind maintenance or repair with no change in design, scale, or appearance does not require one, and the Estate Section is nominated but not locally designated. Per the National Park Service, National Register listing alone places no federal restriction on a private owner.'\n\nAFTER (challenges[2]):\n'**The conditional historic gate** applies where a Montclair property sits in one of the four locally designated districts or is a local landmark, because a solar shingle that changes the roof\\'s appearance is regulated exterior work there. Appearance-changing exterior roofing in those districts — Town Center, Upper Montclair Business, Pine Street, or Watchung Plaza — requires a Certificate of Appropriateness from the Montclair Historic Preservation Commission under Article XXIII of Chapter 347, section 347-136. In-kind maintenance or repair with no change in design, scale, or appearance does not require one, and the Estate Section is nominated but not locally designated. Per the National Park Service, National Register listing alone places no federal restriction on a private owner.'",
+   "city": "montclair"
+  },
+  {
+   "combo": "full-roof-tear-off",
+   "field": "process[0]",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "Abbreviated N.J.A.C. 5:23-6.4 recover-material list. The brief and review rubric require the FULL statutory list (wood shake, slate, clay, cement, or asbestos-cement tile). This clause drops slate, clay, cement and asbestos-cement entirely, collapsing the list to 'a wood-shake or tile covering' — the most truncated form anywhere in the cohort, and inconsistent with the full list this same file uses in its FAQ (line 36) and with every sibling combo (re-roofing, overlay, storm, aging all carry the full list).",
+   "evidence": "'...identifies which N.J.A.C. 5:23-6.4 removal condition applies — a water-soaked deck, a wood-shake or tile covering, or two or more existing layers, per the NJ Uniform Construction Code.'",
+   "suggestedFix": "Before: 'a water-soaked deck, a wood-shake or tile covering, or two or more existing layers' → After: 'a water-soaked deck, a wood shake, slate, clay, cement, or asbestos-cement tile covering, or two or more existing layers' (match the full statutory list this file's FAQ and every sibling already use).",
+   "verdict": "confirmed",
+   "reasoning": "REAL defect. process[0] (line 23) describes the N.J.A.C. 5:23-6.4 removal triggers as \"a water-soaked deck, a wood-shake or tile covering, or two or more existing layers.\" The statutory list — per the primary fact sources facts-nj-regulatory-climate.md §1.4 (\"wood shake, slate, clay, cement, or asbestos-cement tile\") and facts-replacement-reroofing-insurance.md line 317 — is \"wood shake, slate, clay, cement, or asbestos-cement tile.\" The clause drops slate, clay, cement, AND asbestos-cement, collapsing the covered-material set to \"wood-shake or tile,\" which materially understates the code and is the exact \"abbreviated 5:23-6.4 list\" sweep-class flagged repeatedly in the orchestrator runbook. It is internally inconsistent: the SAME file's challenges[0] (line 17) carries the near-full list and the FAQ (line 36) carries the full statutory list \"wood-shake, slate, clay, cement, or asbestos-cement tile covering.\" Cross-combo: this abbreviated form appears in exactly ONE place across all Montclair combos (verified by grep — only full-roof-tear-off.ts), while all 8 sibling combos that list the recover-material set (aging, re-roofing, overlay, storm, replacement, metal, commercial, tpo) use the full \"wood shake, slate, clay, cement, or asbestos-cement tile\" form. No Montclair fact (COA posture / reservation / housing-age) is at stake; entity-grounding (registered HIC directAnswer) is untouched. Fix restores documented facts (relocate, not delete) and aligns with the file's own FAQ and every sibling. Not a false positive.",
+   "finalFix": "In process[0] (line 23), change: \"...and identifies which N.J.A.C. 5:23-6.4 removal condition applies** — a water-soaked deck, a wood-shake or tile covering, or two or more existing layers, per the NJ Uniform Construction Code.\" → \"...and identifies which N.J.A.C. 5:23-6.4 removal condition applies** — a water-soaked deck, a wood shake, slate, clay, cement, or asbestos-cement tile covering, or two or more existing layers, per the NJ Uniform Construction Code.\" (Replaces the truncated \"a wood-shake or tile covering\" with the full statutory list, exactly matching this file's FAQ on line 36 and every sibling Montclair combo.)",
+   "city": "montclair"
+  }
+ ],
+ "low": [
+  {
+   "combo": "wood-shake-roofing",
+   "field": "faqs[5].answer (cost FAQ)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The '60 to 70%' labor-share clause is pack-accurate (facts-materials-economics.md line 233: 'labor ~60–70% of cost' — Modernize, specifically for shakes) but the clause carries no adjacent source tag; it reads as a free-floating figure. Modernize is named earlier in the same answer ('per Angi and Modernize cost data') so the source is present, but the figure-to-source link is loose for a hard percentage.",
+   "evidence": "'...because of higher labor and stricter NJ code, and labor accounts for roughly 60 to 70% of a cedar job.'",
+   "suggestedFix": "Before: '...and labor accounts for roughly 60 to 70% of a cedar job.' After: '...and labor accounts for roughly 60 to 70% of a cedar job, per Modernize.' (Pin the pack source to the percentage; figure itself is correct and may stay.)",
+   "city": "montclair"
+  },
+  {
+   "combo": "commercial-metal-roofing",
+   "field": "faqs[4].answer (Should you repair or replace a commercial metal roof?)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The metal-roof repair-vs-replace numeric thresholds (standing-seam >25% seam-connection / >20% panel corrosion; exposed-fastener 15-20% fasteners / >25% panel corrosion) are attributed to 'metal-roofing industry consensus and HomeAdvisor.' In the materials-economics pack (§3) these specific metal thresholds are tagged ONLY as 'industry consensus' [SECONDARY]; HomeAdvisor is the named source for the cross-material 'recurring leaks in the same spot' rule (§4/§8), not for the metal-specific percentages. The HomeAdvisor cite is correct for the recurring-leak sentence but is loosely bundled onto the percentage thresholds.",
+   "evidence": "\"replace a standing-seam roof when seam-connection damage exceeds 25% or panel corrosion exceeds 20%, and an exposed-fastener roof when 15 to 20% of fasteners corrode or panel corrosion exceeds 25%. Recurring leaks in the same spot signal a systemic defect that favors replacement regardless of percentage, per metal-roofing industry consensus and HomeAdvisor.\"",
+   "suggestedFix": "Tighten the attribution so HomeAdvisor pins only the recurring-leak rule: change to '...per metal-roofing industry consensus, and recurring leaks in the same spot signal a systemic defect that favors replacement regardless of percentage, per HomeAdvisor.' (i.e., move 'per HomeAdvisor' to sit directly with the recurring-leak sentence, leaving the threshold percentages on 'metal-roofing industry consensus' alone).",
+   "city": "montclair"
+  },
+  {
+   "combo": "modified-bitumen-roofing",
+   "field": "challenges[1] / process[2]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The phrase 'flashing separation at penetrations and parapets ranks among the most common low-slope leak sources, per NRCA and ARMA' implies NRCA/ARMA quantify flashing as the leading low-slope leak source. The packs back the ponding/slope rule and the qualitative modified-bitumen failure modes (blistering, alligator cracking, flashing separation) to ARMA/NRCA, but the 'most common leak source' ranking for flashing is the NRCA ~90-95%-of-leaks-at-flashing framing used in the committed gold (Orange) as 'an industry estimate attributed to the NRCA.' As written it reads as a firmer NRCA+ARMA ranking than the pack supports.",
+   "evidence": "challenges[1]: \"...open the membrane at the details that rank among the most common low-slope leak sources, per NRCA and ARMA.\"  process[2]: \"...flashing separation at penetrations and parapets ranks among the most common low-slope leak sources, per NRCA and ARMA...\"",
+   "suggestedFix": "Soften to the gold framing: '...the details that rank among the most common low-slope leak sources, an industry estimate attributed to the NRCA.' Drop 'and ARMA' from the flashing-ranking clause (keep NRCA+ARMA for the ponding/¼-in-slope statements, which the packs do back jointly).",
+   "city": "montclair"
+  },
+  {
+   "combo": "green-roof-installation",
+   "field": "overview[3] / process[2]",
+   "severity": "low",
+   "category": "fabrication",
+   "issue": "Stormwater-retention and 'thermal mass above the membrane' benefits are stated without a named source, where every other hard claim in the cohort carries one. The InterNACHI 5-40 yr lifespan and the PVC/membrane figures ARE sourced, but the 'retains rainfall rather than discharging it to the municipal system' / 'adds thermal mass' benefit statements are unattributed. These are defensible qualitative green-roof benefits, but the cohort standard (and R5) is name-source-or-de-quantify; they currently sit as bare assertions.",
+   "evidence": "overview[3]: \"The vegetation layer retains rainfall on the roof rather than discharging it to the municipal system... The growing media adds thermal mass above the membrane on the exposed business-district decks...\" (no source named on either benefit)",
+   "suggestedFix": "Either attribute to a pack/standard source (e.g., the EPA/GSA green-roof stormwater guidance if present in a green-roof fact pack) or keep purely qualitative and uncontested phrasing without an implied quantified benefit; if no source exists for stormwater-retention, leave as a plain qualitative statement but avoid any figure. No number is currently stated, so this is borderline-acceptable — flagging for parity with the rest of the cohort's name-sourced discipline.",
+   "city": "montclair"
+  },
+  {
+   "combo": "commercial-metal-roofing",
+   "field": "faqs[5].answer (cost) / pricing.note",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "The cost FAQ attributes the $9.00-$16.00/sq ft commercial-metal installed figure to 'HomeAdvisor, Modernize, and Josten Roofing NJ pricing,' but in the materials-economics pack the NJ metal $/sq ft ($9.00-$16.00+) is sourced specifically to 'Josten Roofing / NJ guides' (§7), while HomeAdvisor/Modernize back the $10,000-$25,000 full-replacement benchmark. Bundling all three onto the per-sq-ft metal figure slightly over-attributes; the $/sq ft is a Josten/NJ-guides figure.",
+   "evidence": "\"...with commercial metal roofing at $9.00 to $16.00 per square foot installed, per HomeAdvisor, Modernize, and Josten Roofing NJ pricing.\"",
+   "suggestedFix": "Split the attributions: 'A typical NJ roof replacement runs $10,000-$25,000, per HomeAdvisor and Modernize, with commercial metal roofing at $9.00 to $16.00 per square foot installed, per Josten Roofing NJ pricing.' (matches the pricing.note phrasing in the same file, which already pairs them correctly).",
+   "city": "montclair"
+  },
+  {
+   "combo": "infrared-roof-leak-detection",
+   "field": "challenges[3]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The ballasted-membrane / uninsulated-metal-deck IR limitation is attributed to \"IIBEC and Fluke,\" but no provided fact-pack line backs this specific limitation (facts-materials-economics §7 covers C1153 conditions, verification, sensitivity, and efficiency, but not a ballast/uninsulated-deck caveat; the only ballast lines in the packs are PV solar-mounting in facts-energy-solar, an unrelated context). The underlying claim is a true, well-documented IR-thermography fact and the attributed bodies (IIBEC/Fluke) are the same the pack uses for adjacent C1153 claims, so this is an attribution-precision nit rather than a fabrication. Phase 2c notes record \"gravel ballast\" as a committed-sibling-approved phrasing, so this may be intentional carryover.",
+   "evidence": "'**Ballasted and uninsulated decks** lower the thermal signal, because gravel ballast obscures the membrane and an uninsulated metal deck retains no moisture for the imager to read, per IIBEC and Fluke.'",
+   "suggestedFix": "Either confirm a named IIBEC/Fluke application-note source for the ballast/uninsulated-deck limitation before publishing, or soften to a method-suitability statement that the pack does support. Before: \"...gravel ballast obscures the membrane and an uninsulated metal deck retains no moisture for the imager to read, per IIBEC and Fluke.\" After: \"...gravel ballast and an uninsulated metal deck reduce the temperature contrast the imager can read, so a Newark Quality Roofing scan confirms the method suits the specific Montclair roof before the survey.\" (drop the unsourced per-IIBEC/Fluke attribution on this specific limitation).",
+   "city": "montclair"
+  },
+  {
+   "combo": "custom-roof-design-consultation",
+   "field": "pricing.note",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Slate $10–$30 per sq ft is over-attributed to Josten Roofing. In facts-materials-economics §7, the slate $10–$30 figure is sourced to 'NJ roofing guides' only; Josten Roofing supplies the asphalt/architectural ($6.50–$11.00), metal ($9.00–$16.00), EPDM, and TPO figures — not slate. The combined 'per Josten Roofing and NJ roofing-guide pricing' implies Josten sourced the slate number.",
+   "evidence": "\"NJ architectural asphalt $6.50–$11.00 per square foot, metal $9.00–$16.00, and slate $10–$30, per Josten Roofing and NJ roofing-guide pricing.\"",
+   "suggestedFix": "Scope the attribution so slate is tied to the NJ roofing guides, not Josten. Before: \"…and slate $10–$30, per Josten Roofing and NJ roofing-guide pricing.\" After: \"…architectural asphalt $6.50–$11.00 per square foot and metal $9.00–$16.00 per Josten Roofing, and slate $10–$30 per NJ roofing-guide pricing.\" (Apply the same fix to the duplicate text in faqs[5].answer.)",
+   "city": "montclair"
+  },
+  {
+   "combo": "custom-roof-design-consultation",
+   "field": "faqs[5].answer",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Same slate-source over-attribution as pricing.note: slate $10–$30 is a 'NJ roofing guides' figure, not a Josten Roofing figure (facts-materials-economics §7).",
+   "evidence": "\"NJ architectural asphalt runs $6.50–$11.00 per square foot, metal $9.00–$16.00, and slate $10–$30, per Josten Roofing and NJ roofing-guide pricing.\"",
+   "suggestedFix": "Before: \"…and slate $10–$30, per Josten Roofing and NJ roofing-guide pricing.\" After: \"…and metal $9.00–$16.00 per Josten Roofing, and slate $10–$30 per NJ roofing-guide pricing.\"",
+   "city": "montclair"
+  },
+  {
+   "combo": "historic-roof-restoration",
+   "field": "pricing.note",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Same '~10–40% above national' premium attributed to HomeGuide as in faqs[5]; the premium is a '[SECONDARY consensus]' figure in facts-materials-economics §7, not a HomeGuide figure.",
+   "evidence": "\"NJ ranges sit roughly 10–40% above national figures, per HomeGuide.\"",
+   "suggestedFix": "Before: \"…per HomeGuide cost data; NJ ranges sit roughly 10–40% above national figures, per HomeGuide.\" After: \"…per HomeGuide cost data; New Jersey roofing costs run roughly 10–40% above national averages, per regional NJ pricing consensus.\"",
+   "city": "montclair"
+  },
+  {
+   "combo": "silicone-elastomeric-roof-coating",
+   "field": "challenges[2] (surface prep and dry-film thickness)",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "The challenge lead's first sentence is a 55-word run-on bundling two distinct facts (220–279% elongation AND warranty-scales-with-DFT). The opening bold span is short, so this does not gate-fail (committed Orange gold has a 62-word challenge first sentence that passed), but it is an R2 'definitive ≤40-word answer' quality miss.",
+   "evidence": "'**Surface prep and dry-film thickness** govern whether the coating holds, because the cured elastomeric film stretches to 220–279% elongation across moving details, per the Acrymax and Simiron datasheet values under ASTM D2370 and ASTM D412, and the renewable warranty scales with the dry-film thickness on a 10/15/20-year scale, per the RCMA, Gaco, Henry, and Mule-Hide.'",
+   "suggestedFix": "Split at the conjunction: '**Surface prep and dry-film thickness** govern whether the coating holds. The cured elastomeric film stretches to 220–279% elongation across moving details, per the Acrymax and Simiron datasheet values under ASTM D2370 and ASTM D412, and the renewable warranty scales with the dry-film thickness on a 10/15/20-year scale, per the RCMA, Gaco, Henry, and Mule-Hide.'",
+   "city": "montclair"
+  },
+  {
+   "combo": "silicone-roof-coating",
+   "field": "challenges[3] (commercial/attached permit)",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "The permit challenge lead's first sentence is 48 words. Same R2 'definitive ≤40-word answer' quality target (does not gate-fail per committed-gold tolerance, but flagged for the cohort sweep).",
+   "evidence": "'**A commercial or attached building** on Bloomfield Avenue, Watchung Plaza, or in the Upper Montclair business district crosses into permit territory once roof work exceeds 25% of the roof area in a 12-month period, per the NJ Uniform Construction Code, filed through the Township of Montclair Building Office.'",
+   "suggestedFix": "Trim the geography out of the definitive first sentence: '**A commercial or attached building** crosses into permit territory once roof work exceeds 25% of the roof area in a 12-month period, per the NJ Uniform Construction Code, filed through the Township of Montclair Building Office. That permit path applies to the Bloomfield Avenue, Watchung Plaza, and Upper Montclair business-district roofs. Recover-versus-tear-off limits follow the Rehabilitation Subcode, N.J.A.C. 5:23-6.4.'",
+   "city": "montclair"
+  },
+  {
+   "combo": "full-roof-tear-off",
+   "field": "challenges[0]",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "Abbreviated 5:23-6.4 recover-material list — ends the list with bare 'tile' instead of the full statutory 'asbestos-cement tile'. Every other instance in the cohort (and this file's own FAQ at line 36) uses the full 'wood shake, slate, clay, cement, or asbestos-cement tile'. Minor cross-combo wording drift.",
+   "evidence": "'...a wood-shake, slate, clay, cement, or tile covering, or a roof already carrying two or more layers, per N.J.A.C. 5:23-6.4.'",
+   "suggestedFix": "Before: 'a wood-shake, slate, clay, cement, or tile covering' → After: 'a wood shake, slate, clay, cement, or asbestos-cement tile covering' (full statutory list).",
+   "city": "montclair"
+  },
+  {
+   "combo": "fire-damage-roof-replacement",
+   "field": "faqs[2].answer",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "FAQ first sentence runs 46 words, over the R2 ≤40-word definitive-answer target. The answer is correct and well-sourced (FPL/AWC), but the 'because the char layer carries... and the heat-affected zone... 85-90%...' expansion is bundled into the first sentence rather than split off.",
+   "evidence": "'Charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, because the char layer carries essentially zero residual structural capacity and the heat-affected zone beneath retains only roughly 85–90% of original strength, per the U.S. Forest Products Laboratory and the American Wood Council.'",
+   "suggestedFix": "Split after the definitive clause. Before: '...replaced rather than roofed over, because the char layer carries... 85–90% of original strength, per the U.S. Forest Products Laboratory and the American Wood Council.' → After: '...replaced rather than roofed over. The char layer carries essentially zero residual structural capacity and the heat-affected zone beneath retains only roughly 85–90% of original strength, per the U.S. Forest Products Laboratory and the American Wood Council.'",
+   "city": "montclair"
+  },
+  {
+   "combo": "insurance-roof-replacement",
+   "field": "faqs[5].answer",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The '2025 national average near $10,000–$11,000' hard figure is stated without naming its source in-text; the in-text attribution ('The NJ range traces to HomeAdvisor and Modernize') is explicitly scoped to the NJ range only. R7/R10 require every hard number to carry an in-text named source. The figure does exist in facts-cost-stats.md §6 sourced to 'Ridgetop Exteriors / industry (2025)' [SECONDARY].",
+   "evidence": "'A roof replacement in New Jersey costs $10,000–$25,000 for a typical home, against a 2025 national average near $10,000–$11,000, and a covered claim pays the covered loss minus the deductible... The NJ range traces to HomeAdvisor and Modernize cost data...'",
+   "suggestedFix": "Either name the source for the national figure or drop it. Before: '...against a 2025 national average near $10,000–$11,000...' → After: '...against a 2025 national average near $10,000–$11,000, per Ridgetop Exteriors industry data...' (or simply remove the national-average clause and keep the NJ range, which carries its own HomeAdvisor/Modernize attribution).",
+   "city": "montclair"
+  },
+  {
+   "combo": "roof-replacement-cost",
+   "field": "faqs[3].answer",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Source mis-pairing of the repair-vs-replace thresholds. The 50% cost rule is bundled with the 25-30% area rule under a single attribution to 'Kellow, Modernize, and Josten.' Per the cohort fact pack (facts-cost-stats.md §5) and the brief §D, Kellow/Modernize/Josten back the 30% rule only; the 50% rule is generic industry consensus (the pack ties it to Billrago/Equity, not Kellow/Modernize/Josten). This matches a committed sibling (Nutley) and the gold is acknowledged 'loose' on this pairing, so severity is low; flagging for pack-accuracy only.",
+   "evidence": "'The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.'",
+   "suggestedFix": "Either de-attribute the 50% rule or pin only the 30% rule to Kellow/Modernize/Josten. Before: '...the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten,...' After: '...the 50% cost rule are contractor-consensus thresholds, with the 25–30% rule attributed to Kellow, Modernize, and Josten,...' (matches the South Orange committed pattern, which leaves both as 'contractor-consensus thresholds' without over-pinning the 50% rule).",
+   "city": "montclair"
+  },
+  {
+   "combo": "asphalt-shingle-roof-replacement",
+   "field": "faqs[5].answer",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Same 50%-cost-rule mis-pairing as roof-replacement-cost. The 50% cost rule is attributed to 'Kellow, Modernize, and Josten Roofing guidance' alongside the 25-30% area rule; per the cohort pack + brief §D, Kellow/Modernize/Josten support the 30% rule, not the 50% rule. Low severity (committed-gold-consistent), flagged for pack accuracy.",
+   "evidence": "'The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten Roofing guidance, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.'",
+   "suggestedFix": "Before: '...the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten Roofing guidance,...' After: '...the 50% cost rule are contractor-consensus thresholds, with the 25–30% rule per Kellow, Modernize, and Josten Roofing guidance,...'",
+   "city": "montclair"
+  },
+  {
+   "combo": "flat-roof-replacement",
+   "field": "faqs[3].answer",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The 25-30% membrane repair-vs-replace threshold is attributed to 'Kellow, Modernize, and Josten guidance.' Per the pack + brief §D this attribution is acceptable for the 30% rule, but the flat-roof context applies it to a low-slope membrane (the 25%-AREA rule the brief sources to RapidRestore per materials-economics §8); the named trio is the 30%-rule source. Minor; consistent with sibling phrasing. Flagged only for precision.",
+   "evidence": "'The 25 to 30% repair-vs-replace threshold traces to Kellow, Modernize, and Josten guidance and runs stricter than a sloped roof...'",
+   "suggestedFix": "Acceptable as-is given committed-sibling consistency; if tightening for pack accuracy, frame as a general consensus threshold: Before: 'The 25 to 30% repair-vs-replace threshold traces to Kellow, Modernize, and Josten guidance...' After: 'The 25 to 30% repair-vs-replace threshold is a contractor-consensus rule (Kellow, Modernize, Josten for the 30% rule)...'",
+   "city": "montclair"
+  }
+ ],
+ "byCohort": [
+  {
+   "cohort": "montclair:repair-maintenance",
+   "confirmed": 3,
+   "refuted": 0,
+   "low": 0
+  },
+  {
+   "cohort": "montclair:residential-roof-types",
+   "confirmed": 1,
+   "refuted": 1,
+   "low": 1
+  },
+  {
+   "cohort": "montclair:commercial-roof-types",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 4
+  },
+  {
+   "cohort": "montclair:commercial-services",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 1
+  },
+  {
+   "cohort": "montclair:components-specialty",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 0
+  },
+  {
+   "cohort": "montclair:design-consultation",
+   "confirmed": 2,
+   "refuted": 0,
+   "low": 3
+  },
+  {
+   "cohort": "montclair:energy-solar",
+   "confirmed": 2,
+   "refuted": 0,
+   "low": 2
+  },
+  {
+   "cohort": "montclair:replacement-A",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 3
+  },
+  {
+   "cohort": "montclair:replacement-B",
+   "confirmed": 0,
+   "refuted": 1,
+   "low": 3
+  }
+ ]
+}

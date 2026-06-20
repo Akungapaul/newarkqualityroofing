@@ -1,0 +1,15 @@
+# Montclair × silicone-elastomeric-roof-coating — rewrite rationale
+
+**De-fab literals cleared from the current file:**
+- Deleted the price-in-lead (`overview[0]` "prices starting from $3–$7/sq ft and free estimates available today") and the fabricated `$3–$7/sq ft` pricing range — no pack supports a hard coating $/sq ft, so pricing is `Varies by scope` with free-written-estimate framing (matches the service-layer cost FAQ, which deliberately omits a coating number).
+- Deleted the fabricated `whyChooseUs` lines: "NJ licensed, GAF Certified — 15+ years," "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties," and "same-day estimates and 24/7 emergency response." Replaced with the registered-HIC / fully-insured factual set.
+- Killed the fabricated Watchung-Ridge "elevation produces a wider annual temperature range / winter lows well below zero / summer highs above ninety" microclimate claim (banned city-specific temp numbers); replaced with QUALITATIVE reservation-edge + street-canopy stressor framing.
+- Removed every inline markdown self-link (`[silicone elastomeric coating](/…)`, `[Montclair](/…)`, `[West Orange](/…)`, `[Caldwell](/…)`) to plain text — zero links remain.
+- Killed `conversionHooks.urgencyNote` "Early action saves thousands" → factual recoat-before-saturation note.
+- Dropped the unsourced "eighteen to twenty-five years" lifespan and "three hundred to six hundred percent elongation" figures; re-pinned to the named datasheet values (220–279% per ASTM D2370/D412, silicone ~15–20 yr / acrylic ~10–15 yr recoat cycle).
+
+**Entity-grounding:** `directAnswer` reframed to "Newark Quality Roofing is a roofing contractor providing silicone elastomeric roof coating across Montclair, New Jersey, and Essex County …" (bold span 37 words) with credential tail "as a registered New Jersey Home Improvement Contractor" outside the bold. No `definition` field (spliced post-assembly). No "licensed" for NQR anywhere.
+
+**Named sources cited:** RCMA, Western Colloid, CRRC, Henry, Mule-Hide, Gaco, Acrymax & Simiron datasheets (ASTM D2370/D412), ASTM D6694/D6083/D6947, EPA (11–27% peak cooling demand), DOE (Climate Zone 4–5 heating penalty), Essex County Parks (Eagle Rock + Mills Reservations), U.S. Census Bureau (~54% multi-unit), N.J.A.C. 5:23-2.7 (ordinary maintenance) + 5:23-6.4 (Rehab Subcode), the Montclair Historic Preservation Commission / Article XXIII of Chapter 347 §347-136 (conditional four-district COA), the National Park Service, and the Township of Montclair Building Office (permit path).
+
+**Differentiation:** Foregrounds the Montclair-distinct anchors — conditional four-district COA (Town Center, Upper Montclair Business, Pine Street, Watchung Plaza; in-kind exempt; Estate Section nominated-not-designated), Eagle Rock + Mills Reservation adjacency on the First Watchung ridge, ~54% multi-unit stock, Bloomfield Avenue / Watchung Plaza / Upper Montclair storefronts. No South Mountain Reservation, no Glen Ridge/Verona/West Orange/Cedar Grove COA framings imported.

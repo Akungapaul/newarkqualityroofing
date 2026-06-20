@@ -1,0 +1,16 @@
+# verona / slate-roof-installation-repair — rewrite rationale
+
+**De-fab literals cleared from the current file:**
+- Price-in-lead `$20,000–$45,000` in overview[0] + the "free estimates available today" hype → replaced with an answer-first, entity-grounded, figure-free NQR-applied lead.
+- OLD invented pricing tier `$20,000–$45,000` / `$30 per square foot` / per-tile `$75–$150` → replaced with §E sourced range `$10,000–$25,000` (install/roof-type) plus the cost FAQ carrying the slate-repair figures named to HomeGuide/Angi.
+- whyChooseUs: "NJ licensed, GAF Certified — 15+ years…", "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties," "same-day estimates and 24/7 emergency response" → de-fabbed to the 4 §E factual reasons with "A registered New Jersey Home Improvement Contractor, fully insured."
+- conversionHooks.urgencyNote "Early action saves thousands" → factual water-damage framing, no fabricated savings.
+- Removed every fabricated/unsourced claim: "century-lasting," "outlast the mortgage," named slate-quarry inventory (Bangor / Pennsylvania-black-vs-Vermont-black / Virginia grain), the redundant second cost FAQ, and the "guarantee" framing.
+- Stripped the inline markdown self-link `[slate roofing](/slate-roof-installation-repair)` → plain text (file now carries zero links).
+- Removed the duplicate redundant cost FAQ (the file previously carried two) — kept exactly one cost FAQ per spec.
+
+**Entity-grounding applied:** directAnswer entity-grounded ("roofing contractor providing slate roof installation repair across Verona, New Jersey, and Essex County…"), bold span 36 words, credential tail "as a registered New Jersey Home Improvement Contractor" outside the bold. No `definition` field (spliced post-assembly). Credential framing is "registered New Jersey Home Improvement Contractor, fully insured" everywhere — no "licensed" for NQR.
+
+**Verona localization:** pre-war Colonials/Dutch Colonials on Personette Avenue and Claremont Avenue; split-level/postwar stock; Eagle Rock (First Watchung) + Hilltop (Second Watchung) reservation-edge canopy debris (NOT South Mountain/Mills); permit office = Township of Verona Department of Building and Inspections, Municipal Building, 600 Bloomfield Avenue (no Construction Official named). Historic = NARROW HPC review under Zoning Ordinance Chapter 150, Article XXII (exactly two designated landmarks — Erie Railroad Freight Shed at 62 Depot Street + Verona United Methodist Church; in-kind exempt; Afterglow PROPOSED-only) — "HPC review," never "COA."
+
+**Named sources cited:** InterNACHI life-expectancy chart (slate 60–150 yrs, copper 70-plus yrs); National Slate Association (premium slate 100-plus yrs; tile-by-tile repairability; fastener/flashing failure mode); NRCA (most-common slate leak source = flashing); 30-to-40% fastener-corrosion replace threshold (NSA/industry consensus, materials-economics §2); N.J.A.C. 5:23-2.7 (UCC ordinary-maintenance / structural permit trigger); IRC R905.1.2 (ice barrier); National Park Service (National Register listing imposes no restriction); Essex County Parks (Eagle Rock / Hilltop reservations); cost figures HomeAdvisor/Modernize ($10,000–$25,000 install), HomeGuide/Angi (slate repair $500–$2,100, broken-tile $50–$300/tile, flashing/fastener $400–$3,000).

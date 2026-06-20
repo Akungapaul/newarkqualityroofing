@@ -1,0 +1,293 @@
+{
+ "confirmedCount": 6,
+ "refutedCount": 0,
+ "lowCount": 14,
+ "failedCohorts": [],
+ "confirmed": [
+  {
+   "combo": "wind-damage-roof-repair",
+   "field": "overview[1]",
+   "severity": "high",
+   "category": "fabrication",
+   "issue": "Quantified wind-uplift multiplier '2–3 times the pressure on the open field' attributed to IIBEC. No fact pack carries a quantified uplift multiplier — facts-causes-signs §2.2 only states uplift is highest at edges/rakes/corners (qualitative), per IIBEC. This is the same RICOWI-class fabricated multiplier the ruleset bans, here mis-pinned to IIBEC. Every committed wind-damage sibling (Newark, EO, Orange, Irvington, Bloomfield, Belleville, Nutley, Maplewood, South Orange) carries the QUALITATIVE form with no number — none carry a '2–3×' figure.",
+   "evidence": "'**Wind-lifted and blown-off shingles** start at the corners, rakes, and edges, where wind generates suction 2–3 times the pressure on the open field, per IIBEC.'",
+   "suggestedFix": "Drop the quantified multiplier and use the committed-gold qualitative form: '…start at the corners, rakes, and edges, where wind uplift concentrates and damage starts, per IIBEC.'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in overview[1]: \"**Wind-lifted and blown-off shingles** start at the corners, rakes, and edges, where wind generates suction 2–3 times the pressure on the open field, per IIBEC.\" This is a genuine fabrication. The fact pack facts-causes-signs.md §2.2 attributes to IIBEC ONLY the qualitative mechanism — \"uplift is highest at roof edges, rakes, and corners; damage starts there. Source: IIBEC\" — with NO quantified multiplier. A grep across all fact packs (research/) and the west-essex fact bank turns up zero \"2–3 times\"/\"times the field pressure\" figure attributed to IIBEC or anyone; the only \"2x/3x\" hits are unrelated (2x rafters). This is the RICOWI-class fabricated wind-uplift multiplier the ruleset bans, mis-pinned to IIBEC. Cross-combo consistency confirms it: all nine committed wind-damage siblings (Newark, East Orange, Orange, Irvington, Bloomfield, Belleville, Nutley, Maplewood, South Orange) carry the qualitative gold form (\"wind uplift concentrates at the roof corners, rakes, and edges, where damage starts, per IIBEC\" / \"where wind uplift peaks, per IIBEC\") with no number — Verona is the sole outlier. The fix preserves the IIBEC attribution and the corners/rakes/edges fact, only removing the unsupported quantification. (Note: the same \"2–3 times the field pressure, per IIBEC\" fabrication also recurs in the FAQ \"How strong is the wind…\" answer — out of this finding's scope but should be swept by the orchestrator.)",
+   "finalFix": "In overview[1], replace: \"**Wind-lifted and blown-off shingles** start at the corners, rakes, and edges, where wind generates suction 2–3 times the pressure on the open field, per IIBEC.\" → \"**Wind-lifted and blown-off shingles** start at the corners, rakes, and edges, where wind uplift concentrates and damage starts, per IIBEC.\" (Leaves the rest of overview[1] — the 3-tab 60 mph / architectural 130 mph 6-nail ARMA/ASTM sentence — unchanged.)",
+   "city": "verona"
+  },
+  {
+   "combo": "wind-damage-roof-repair",
+   "field": "faqs[0].answer",
+   "severity": "high",
+   "category": "fabrication",
+   "issue": "Second instance of the same unsourced quantified uplift multiplier ('2–3 times the field pressure, per IIBEC'). Not supported by any fact pack and absent from all committed siblings, which keep uplift qualitative.",
+   "evidence": "'Wind uplift at the corners, rakes, and edges reaches 2–3 times the field pressure, per IIBEC, so an aged or weakly sealed Verona roof loses tabs below the product rating.'",
+   "suggestedFix": "De-quantify: 'Wind uplift peaks at the corners, rakes, and edges, per IIBEC, so an aged or weakly sealed Verona roof loses tabs below the product rating.'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at faqs[0].answer: \"Wind uplift at the corners, rakes, and edges reaches 2–3 times the field pressure, per IIBEC, so an aged or weakly sealed Verona roof loses tabs below the product rating.\" This is a fabrication. The only IIBEC-attributed wind fact in the fact pack (.planning/content-system/research/facts-causes-signs.md, §2.2 line 84-85) is QUALITATIVE: \"uplift is highest at roof edges, rakes, and corners; damage starts there. Source: IIBEC.\" No fact pack anywhere contains a \"2–3 times the field pressure\" quantified uplift multiplier attributed to IIBEC. The committed GOLD sibling — south-orange/wind-damage-roof-repair.ts faqs[0] (the directly parallel same-service combo) — keeps this exact claim qualitative: \"Wind uplift at roof corners, rakes, and edges peaks above the open-field pressure, per NOAA, ARMA, and IIBEC.\" This matches the MEMORY-documented fabrication class repeatedly de-quantified in prior batches (the fabricated RICOWI/IIBEC \"2-3× field pressure\" multiplier). It is indeed the second instance in this file — overview[1] carries the same fabricated \"suction 2–3 times the pressure on the open field, per IIBEC\" — but the FAQ instance is independently a real, fixable fabrication. The fix relocates to the qualitative IIBEC form, preserving the corners/rakes/edges fact and the IIBEC attribution while removing the unsupported multiplier.",
+   "finalFix": "In faqs[0].answer, change \"Wind uplift at the corners, rakes, and edges reaches 2–3 times the field pressure, per IIBEC, so an aged or weakly sealed Verona roof loses tabs below the product rating.\" → \"Wind uplift peaks at the corners, rakes, and edges, per IIBEC, so an aged or weakly sealed Verona roof loses tabs below the product rating.\"",
+   "city": "verona"
+  },
+  {
+   "combo": "roof-leak-repair",
+   "field": "faqs[4].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The 50% cost rule is mis-paired to Kellow/Modernize/Josten. Per facts-cost-stats §5 and the ruleset, the 50% repair-vs-replace rule = WeatherShield/Home Depot (committed siblings attribute it to 'industry consensus' or Billrago/Equity); ONLY the 30% rule = Kellow/Modernize/Josten. The committed gold (maplewood/roof-leak-repair) attributes ONLY 'The 30% repair-vs-replace rule' to Kellow, Modernize, and Josten — it does not bundle the 50% rule under them.",
+   "evidence": "'The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten cost guidance, and a recurring leak in the same spot signals a systemic flashing failure rather than an isolated one.'",
+   "suggestedFix": "Attribute only the 30% rule to those sources and leave the 50% rule as general consensus: 'The 30% repair-vs-replace rule is a contractor-consensus threshold attributed to Kellow, Modernize, and Josten, and the 50% cost rule is an industry-consensus threshold; a recurring leak in the same spot signals a systemic flashing failure rather than an isolated one.'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in verona/roof-leak-repair.ts faqs[4].answer: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten cost guidance.\" This bundles BOTH rules under Kellow/Modernize/Josten. The cost-stats fact pack §5 (Repair-vs-replacement cost RATIO & decision thresholds) attributes the 50% rule specifically to \"industry consensus (Billrago/Equity)\" and the 30% rule to generic \"industry consensus\" — neither line in §5 sources either rule to Kellow/Modernize/Josten. The committed gold exemplar (maplewood/roof-leak-repair.ts faqs[3]) attributes ONLY \"The 30% repair-vs-replace rule\" to \"Kellow, Modernize, and Josten\" and does not bundle the 50% rule under them. So the Verona text mis-pairs the 50% cost rule to the wrong sources, violating named-source accuracy and the committed gold pattern. (The montclair sibling carries the identical defect, but that does not excuse it; the gold is the reference, and the montclair finding should be swept too.) This is a real, fixable source-attribution error.",
+   "finalFix": "BEFORE: 'Repair a roof leak when the damage stays localized and covers under 25–30% of the roof area; replace the roof when damage exceeds that share or one repair approaches 50% of replacement cost. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten cost guidance, and a recurring leak in the same spot signals a systemic flashing failure rather than an isolated one.'\nAFTER: 'Repair a roof leak when the damage stays localized and covers under 25–30% of the roof area; replace the roof when damage exceeds that share or one repair approaches 50% of replacement cost. The 30% repair-vs-replace rule is a contractor-consensus threshold attributed to Kellow, Modernize, and Josten, and the 50% cost rule is a broader industry-consensus threshold; a recurring leak in the same spot signals a systemic flashing failure rather than an isolated one.'",
+   "city": "verona"
+  },
+  {
+   "combo": "epdm-commercial-roofing",
+   "field": "process[2]",
+   "severity": "med",
+   "category": "fabrication",
+   "issue": "Unsourced causal claim. The statement 'Cross-material contamination from incompatible sealants is a leading cause of premature flashing failure' carries NO source attribution and is not supported anywhere in the fact packs. facts-materials-economics §4 lists EPDM failure modes as seam separation (dominant), puncture, shrinkage, and ponding — it does NOT name 'cross-material contamination from incompatible sealants' as a leading cause of flashing failure. The only flashing-leak-share fact in the cohort's packs is the NRCA ~90-95% flashing-origin estimate (used elsewhere). This is an invented causal assertion presented as fact.",
+   "evidence": "Cross-material contamination from incompatible sealants is a leading cause of premature flashing failure, so the detail work uses EPDM-compatible accessories exclusively",
+   "suggestedFix": "De-quantify/de-claim and keep the practice point: change to 'EPDM detail work uses EPDM-compatible accessories and sealants exclusively, because incompatible products can degrade the membrane at flashing transitions, per NRCA technical guidance' — or drop the causal 'leading cause' clause entirely and retain 'the detail work uses EPDM-compatible accessories exclusively.'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at process[2]: \"Cross-material contamination from incompatible sealants is a leading cause of premature flashing failure, so the detail work uses EPDM-compatible accessories exclusively.\" It carries no source attribution and is an invented causal assertion. (1) facts-materials-economics.md line 186 lists EPDM failure modes as seam separation (dominant), puncture, membrane shrinkage/creep, and ponding-water stretching — it never names \"cross-material contamination from incompatible sealants\" as a flashing-failure cause. (2) The documented flashing-failure causes in facts-causes-signs.md (lines 62-64, 231) and facts-components-specialty.md (lines 97, 111, 175) are corrosion, thermal cracking of sealant laps, wind lifting, short laps, and sealant caulk AGING (fails in 5-10 years) — i.e., chemical aging/cracking, not chemical incompatibility/contamination. The only chemical-attack membrane fact is for TPO (rooftop-equipment chemical attack), not EPDM and not sealant compatibility. (3) The west-essex fact bank carries no material-science facts, so no support there either. (4) Critically, this phrasing appears ONLY in the Verona file — it is NOT inherited gold. Every committed gold sibling (Orange, Newark, East Orange, Irvington) writes this exact flashing process step as \"flashes the curbs, penetrations, and perimeters with manufacturer-approved EPDM components\" tied to the NRCA-attributed seam-separation/membrane-shrinkage failure modes, never invoking a \"leading cause of premature flashing failure\" claim. The \"EPDM-compatible accessories\" practice point itself is legitimate and gold-consistent; only the unsourced causal sentence is the defect. This is a genuine, fixable fabrication (ruleset: no unsourced causal claims presented as fact).",
+   "finalFix": "In process[2], change: \"**Newark Quality Roofing flashes the curbs, penetrations, and perimeters with manufacturer-approved EPDM components, verifies the seams and drainage, and registers the manufacturer system warranty.** Cross-material contamination from incompatible sealants is a leading cause of premature flashing failure, so the detail work uses EPDM-compatible accessories exclusively, and the completed install carries a written workmanship warranty on the labor alongside the manufacturer material warranty, per Owens Corning warranty guidance.\" → \"**Newark Quality Roofing flashes the curbs, penetrations, and perimeters with manufacturer-approved EPDM components, verifies the seams and drainage, and registers the manufacturer system warranty.** The detail work uses EPDM-compatible accessories and sealants exclusively, the flashing-detail work that addresses the membrane shrinkage which opens perimeters and penetrations, per NRCA technical guidance, and the completed install carries a written workmanship warranty on the labor alongside the manufacturer material warranty, per Owens Corning warranty guidance.\" (Drops the unsourced \"leading cause of premature flashing failure\" causal assertion; keeps the legitimate EPDM-compatible-accessories practice point; re-anchors to the NRCA-attributed membrane-shrinkage failure mode used by the committed gold siblings.)",
+   "city": "verona"
+  },
+  {
+   "combo": "roof-waterproofing",
+   "field": "faqs[4].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The 50% repair-vs-replace COST rule is mis-attributed. The text bundles the 25–30% area rule and the 50% cost rule together and attributes BOTH to \"Kellow, Modernize, and Josten.\" Per the ruleset/brief source-attribution map, Kellow/Modernize/Josten back ONLY the 30% rule; the 50% repair-vs-replace cost rule is WeatherShield/Home Depot. The 25–30% area attribution is correct; the 50% cost rule is wrongly pinned to the 30%-rule sources.",
+   "evidence": "\"...replace it when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten.\"",
+   "suggestedFix": "Re-split the attribution: BEFORE — \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten.\" AFTER — \"The 25–30% area rule is a contractor-consensus threshold attributed to Kellow, Modernize, and Josten, and the 50% repair-versus-replace cost rule is attributed to WeatherShield and Home Depot.\"",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in src/data/combo-content/verona/roof-waterproofing.ts faqs[4].answer: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten.\" This mis-attributes the 50% cost rule. The canonical source map (facts-materials-economics.md §8, line 305-307, and the asphalt section lines 88-90) is unambiguous: the 50% rule (single repair > 50% of replacement cost → replace) = WeatherShield / Home Depot / industry; Kellow / Modernize / Josten back the 30% rule (repair > 30% of replacement cost → lean replace), NOT the 50% cost rule. The committed GOLD exemplar comparison-content/service-vs-service.ts confirms this split every time: \"the 50% rule per WeatherShield and Home Depot, the 30% rule per Kellow Construction and Modernize\" (line 49); 50% rule \"per WeatherShield and Home Depot\" (lines 34, 81). The committed south-orange/roof-replacement-after-leak.ts (line 23) correctly pins Kellow/Modernize/Josten to \"the contractor-consensus 30% rule.\" The Verona text replicates a known mis-pin that also exists in glen-ridge/roof-replacement-cost.ts (line 51) — exactly the \"25-30%-area/50%-cost source-pairing\" loose-gold recurrence the orchestrator is tasked to sweep. The 25–30% area attribution is defensible (line 88 lists Kellow among the area-rule contractor consensus), but bundling the 50% cost rule under Kellow/Modernize/Josten is a genuine source-attribution error. Not a Verona-fact, entity-grounding, or third-party-license issue — purely a named-source mis-attribution. The suggested fix matches the canonical gold split exactly.",
+   "finalFix": "In src/data/combo-content/verona/roof-waterproofing.ts, faqs[4].answer — re-split the attribution to the canonical sources.\nBEFORE: \"Waterproof and repair a roof when the covering serves its lifespan and the leak stays localized to a detail; replace it when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten. Sealing the deck during a Verona re-roof captures the moment the bare sheathing sits exposed.\"\nAFTER: \"Waterproof and repair a roof when the covering serves its lifespan and the leak stays localized to a detail; replace it when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost. The 25–30% area rule is a contractor-consensus threshold, and the 50% repair-versus-replace cost rule is the industry \\\"50% rule\\\" attributed to WeatherShield and Home Depot. Sealing the deck during a Verona re-roof captures the moment the bare sheathing sits exposed.\"",
+   "city": "verona"
+  },
+  {
+   "combo": "fire-damage-roof-replacement",
+   "field": "faqs[0].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The 25–30% AREA rule is mis-pinned to the 30%-of-replacement-COST-rule sources. Per facts-materials-economics §8, the 25%-area rule is RapidRestore/MyQuoteIQ; Kellow/Modernize/Josten back the 30%-of-COST rule, not the area rule. Committed sibling Maplewood attributes this exact area rule to 'RapidRestore, MyQuoteIQ, and Kellow'; Nutley/Belleville leave it 'per roofing industry guidance.' Verona pins it to the wrong source trio.",
+   "evidence": "\"...and the 25–30% area rule favors full replacement, per roofing industry guidance attributed to Kellow, Modernize, and Josten Roofing.\"",
+   "suggestedFix": "Change \"...per roofing industry guidance attributed to Kellow, Modernize, and Josten Roofing.\" → \"...per roofing industry guidance attributed to RapidRestore, MyQuoteIQ, and Kellow.\" (or simply \"...per roofing industry guidance.\" to match Nutley/Belleville).",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at faqs[0].answer: \"...the 25–30% area rule favors full replacement, per roofing industry guidance attributed to Kellow, Modernize, and Josten Roofing.\" Per facts-materials-economics.md §8 (line 301-308): the 25% rule = \"Damage covering > 25% of roof AREA → replace\" is sourced to RapidRestore / MyQuoteIQ (line 307); the 30% rule = \"Repair > 30% of replacement COST → lean replace\" is sourced to Kellow / Modernize / Josten (NJ) (line 306). Verona describes the AREA rule but attributes it to the exact COST-rule trio (Kellow/Modernize/Josten), a clear named-source mis-pin. Cross-combo consistency confirms the defect: committed sibling Maplewood pins this identical 25–30% area rule to \"RapidRestore, MyQuoteIQ, and Kellow\" (the correct area-rule pinning), while Nutley and Belleville use the safe generic \"per roofing industry guidance\" with no named trio. Verona is the only one pinning the area rule to the wrong trio. No Verona-specific fact (COA posture, reservation, neighborhoods, housing age) bears on or overrides this attribution, and the third-party USFPL cite in the same sentence is correct and untouched. This is a real, fixable source-attribution error. Fix re-attributes to the correct area-rule trio (matching the Maplewood gold sibling) while preserving Verona's existing \"area rule … per roofing industry guidance attributed to\" sentence structure.",
+   "finalFix": "In faqs[0].answer, change \"and the 25–30% area rule favors full replacement, per roofing industry guidance attributed to Kellow, Modernize, and Josten Roofing.\" → \"and the 25–30% area rule favors full replacement, per roofing industry guidance attributed to RapidRestore, MyQuoteIQ, and Kellow.\"",
+   "city": "verona"
+  }
+ ],
+ "low": [
+  {
+   "combo": "storm-damage-roof-repair",
+   "field": "process[2]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The '25% rule' is attributed to Kellow, Modernize, and Josten. Per the packs/ruleset, the 25%-area rule = RapidRestore and the 30% rule = Kellow/Modernize/Josten. All committed storm-damage siblings (Nutley, Maplewood, Bloomfield, Belleville) write 'the contractor-consensus 25% rule' WITHOUT the Kellow/Modernize/Josten attribution — they reserve those sources for the 30% rule. Verona over-attributes the 25% rule.",
+   "evidence": "'…widespread damage above 25–30% of the roof area takes full replacement, the contractor-consensus 25% rule attributed to Kellow, Modernize, and Josten.'",
+   "suggestedFix": "Match committed gold by dropping the source on the 25% rule: '…widespread damage above 25–30% of the roof area takes full replacement, the contractor-consensus 25% rule.'",
+   "city": "verona"
+  },
+  {
+   "combo": "hail-damage-roof-repair",
+   "field": "process[0] / process[1] / overview[3] / challenges[1] / faqs[0].answer",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "'HAAG Engineering' is used as a named source/method ('HAAG Engineering Test Square method', 'per HAAG Engineering', 'HAAG Engineering hail-assessment guidance') but HAAG appears in NONE of the four fact packs. NOTE FOR ORCHESTRATOR: this is NOT a fresh Verona fabrication — HAAG was removed in the early East-Orange/Orange batches but RE-INTRODUCED and shipped in the freshest committed siblings (Newark, Irvington, Bloomfield, Belleville, Nutley=8, Maplewood=8, South Orange=8). Verona simply mirrors the freshest committed gold. Flagging for visibility/decision, not as a Verona-specific defect — do not fix in isolation without aligning the whole hail-damage class.",
+   "evidence": "'Newark Quality Roofing assesses hail damage at close range using the HAAG Engineering Test Square method … per HAAG Engineering, the standard hail-inspection procedure since the 1960s.'",
+   "suggestedFix": "No Verona-only change. If the orchestrator decides HAAG must go site-wide, swap to a pack-grounded frame (AMS damage-threshold sizes + IBHS impact-resistance for the assessment, '10-by-10-foot test square, one roofing square') and apply across ALL hail-damage combos at once for consistency; otherwise KEEP as committed gold.",
+   "city": "verona"
+  },
+  {
+   "combo": "flat-roof-installation-repair",
+   "field": "challenges[1]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "EPDM/TPO seam-FAILURE-MODE is attributed to 'the InterNACHI life-expectancy chart and trade guidance.' Per the cohort rule, InterNACHI is a LIFESPAN/life-expectancy chart only; seam-failure behavior is not a lifespan claim. NOTE: this exact form is the committed gold across EVERY sibling flat-roof combo (West Orange, Belleville, Bloomfield, Cedar Grove, Glen Ridge, Montclair, Orange, Maplewood, Nutley, South Orange) — it is an inherited SITE-WIDE flat-roof template pattern, NOT a Verona authoring defect. Verona's own rubber-roofing-epdm combo correctly pins the identical fact to 'HomeGuide membrane-repair guidance.' Treat as a global sweep candidate, not a per-Verona fix.",
+   "evidence": "challenges[1]: 'because EPDM fails most often at the seams and the shrinking perimeter while TPO fails at the heat-welded seams, per the InterNACHI life-expectancy chart and trade guidance' (same over-attribution recurs in faqs[0] '...each lifespan assumes the drainage clears within 48 hours' is fine, but the EPDM/TPO seam-mode pinning to InterNACHI is the issue; the lifespan figures themselves are correctly InterNACHI-sourced).",
+   "suggestedFix": "Re-pin the seam-failure-mode clause to trade guidance, keeping the InterNACHI cite only for the lifespan numbers: '...EPDM fails most often at the seams and the shrinking perimeter while TPO fails at the heat-welded seams, per HomeGuide and trade membrane-repair guidance' (lifespan 15–25/7–20/20-yr stays 'per the InterNACHI life-expectancy chart'). Because this is committed gold across all 11 flat-roof siblings, apply as a site-wide orchestrator sweep rather than editing Verona alone.",
+   "city": "verona"
+  },
+  {
+   "combo": "infrared-roof-leak-detection",
+   "field": "faqs[3].answer",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "The first sentence of the permit FAQ answer is 44 words (counting the two standalone em-dash ' — ' tokens), over the R2/brief ≤40-word definitive-answer cap. It packs the scan-no-permit point AND the full detached-1-2-family ordinary-maintenance rule into one sentence.",
+   "evidence": "'An infrared scan itself requires no permit, and a repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 — no construction permit, inspection, or notice — per the NJ Uniform Construction Code.' (44 words incl. em-dashes)",
+   "suggestedFix": "Split into two sentences so the lead answer is ≤40 words. Before: '...counts as ordinary maintenance under N.J.A.C. 5:23-2.7 — no construction permit, inspection, or notice — per the NJ Uniform Construction Code.' After: 'An infrared scan itself requires no permit. A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7, requiring no construction permit, inspection, or notice, per the NJ Uniform Construction Code.'",
+   "city": "verona"
+  },
+  {
+   "combo": "commercial-roof-replacement",
+   "field": "process[1]",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "The second process step folds the entire 2-landmark HPC-review historic block (Chapter 150 Article XXII, both named landmarks, in-kind exempt, every-other-building-reroofs) into a membrane-spec/permit-filing process step, then the same historic fact set is restated in full in faqs[2]. This is a mild R21/R36 context-break and state-each-fact-once duplication: the historic angle belongs in its dedicated FAQ, and the process step's lead is about running the infrared survey + filing the permit, not historic designation. Facts are all accurate — this is structure, not fabrication.",
+   "evidence": "process[1]: '...filed through the Township of Verona Department of Building and Inspections at the Municipal Building, 600 Bloomfield Avenue. Verona requires HPC review prior to the issuance of permits only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII... Exactly two locally designated landmarks exist in Verona — the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church — so every other Verona building reroofs with no HPC review...' — duplicated almost verbatim in faqs[2].answer.",
+   "suggestedFix": "Trim the historic block out of process[1], keeping only the permit/Rehab-Subcode content that belongs to the replacement process, and leave the full HPC-review treatment in faqs[2]. Before (process[1] tail): '...600 Bloomfield Avenue. Verona requires HPC review prior to the issuance of permits only for significant exterior changes on a locally designated landmark, under Zoning Ordinance Chapter 150, Article XXII, and in-kind exterior repairs stay exempt. Exactly two locally designated landmarks exist in Verona — the Erie Railroad Freight Shed at 62 Depot Street and the Verona United Methodist Church — so every other Verona building reroofs with no HPC review, a separate approval from the building permit where it applies.' After: '...600 Bloomfield Avenue, and the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.'",
+   "city": "verona"
+  },
+  {
+   "combo": "roof-deck-repair-replacement",
+   "field": "faqs[1].answer (\"Does Verona's historic preservation review apply to roof deck work?\")",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "Phrasing wart, not a fact error: the HPC fact is correct, but on a DECK-repair page the clause \"a deck repair on every other Verona home reroofs with no HPC review\" uses the verb \"reroofs\" for a deck repair, which is the boilerplate carried over from the re-roof FAQ template and reads imprecisely (a deck repair is not a reroof). The other cohort files correctly say \"flashing repair... proceeds\" / \"repairs fascia\" / \"re-soffits\" / \"re-vents\" matched to the service.",
+   "evidence": "\"...so a deck repair on every other Verona home reroofs with no HPC review, since the deck sits beneath the covering.\"",
+   "suggestedFix": "Match the verb to the service: BEFORE — \"so a deck repair on every other Verona home reroofs with no HPC review, since the deck sits beneath the covering.\" AFTER — \"so deck repair on every other Verona home proceeds with no HPC review, since the deck sits beneath the covering.\"",
+   "city": "verona"
+  },
+  {
+   "combo": "historic-roof-restoration",
+   "field": "challenges[2]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Over-pinned superlative. The sentence asserts flashing is THE single most common leak source and applies it to BOTH slate AND tile while citing only NPS Preservation Brief 30. Brief 30 is the CLAY-TILE brief and frames failures as stemming from 'fasteners, flashing, OR sheathing' collectively (not flashing as the singular most-common leak source), and does not cover slate (that is Brief 29). The same file's overview[1] already states the careful, correctly-attributed version ('most failures trace to corroded fasteners, degraded flashing, or sheathing rather than the slate or tile itself, per NPS Preservation Brief 29 and Brief 30'), so challenges[2] is the looser duplicate.",
+   "evidence": "\"The flashing failure that follows ranks as the most common leak source on a slate or tile roof, per NPS Preservation Brief 30.\"",
+   "suggestedFix": "Soften the superlative and fix the source pin: \"The flashing, fasteners, and sheathing are where a historic slate or tile roof typically fails first, not the slate or tile itself, per NPS Preservation Briefs 29 and 30.\" (drops the 'most common leak source' superlative; pairs Brief 29 for slate with Brief 30 for tile, matching overview[1]).",
+   "city": "verona"
+  },
+  {
+   "combo": "silicone-roof-coating",
+   "field": "challenges[2]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Slight over-attribution to the RCMA. The clause 'because the seams and flashings are the most common leak points ... per the RCMA' pins a 'most common leak points' claim to the RCMA. The energy-solar pack's RCMA entries cover surface prep (repair seams/splits/flashing before coating) and ponding, but do not state that seams/flashings are 'the most common leak points' — that flashing-leak-share point is the NRCA 90–95% fact elsewhere in the canon. The RCMA backs 'repaired and reinforced before the field coat,' not the leak-frequency ranking.",
+   "evidence": "'**Seams, splits, and flashings** concentrate the leaks on a Verona corridor storefront, because the seams and flashings are the most common leak points, and silicone seals them under one monolithic membrane rather than chasing individual repairs, per the RCMA.'",
+   "suggestedFix": "Re-scope the RCMA cite to what the pack supports. Before: '...because the seams and flashings are the most common leak points, and silicone seals them under one monolithic membrane rather than chasing individual repairs, per the RCMA.' After: '...because seams, splits, and flashings are the details a coating must repair and reinforce first, and silicone then seals them under one monolithic membrane rather than chasing individual repairs, per the RCMA.'",
+   "city": "verona"
+  },
+  {
+   "combo": "silicone-roof-coating",
+   "field": "faqs[4].answer (Will a silicone coating make a Verona roof slippery for foot traffic?)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The walk-path / non-skid-granule answer carries NO named source. Every other claim in the cohort is name-sourced; this one asserts a specific practice ('non-skid granules are broadcast into the coating at designated walk paths') with no attribution. It is a defensible, generic coating practice, but per R5 each substantive practice claim should name a source (RCMA covers walk-pad / granule-broadcast detailing) or be de-quantified to a plainly generic statement. The energy-solar pack also flags walkability as UNVERIFIED (in the BIPV context), so an unsourced walkability assertion is worth tightening.",
+   "evidence": "'A silicone coating is smooth and can be slippery when wet, so non-skid granules are broadcast into the coating at designated walk paths around rooftop equipment, access hatches, and service routes. The granulated paths give safe footing for maintenance personnel while the smooth reflective surface stays across the roof field where foot traffic is not expected.'",
+   "suggestedFix": "Attribute the practice to the RCMA (which covers walk-pad/granulated-path detailing) or keep it plainly generic. Before: '...so non-skid granules are broadcast into the coating at designated walk paths around rooftop equipment, access hatches, and service routes.' After: '...so non-skid granules or walk pads are added at designated walk paths around rooftop equipment, access hatches, and service routes, per RCMA detailing guidance.'",
+   "city": "verona"
+  },
+  {
+   "combo": "roof-replacement-after-leak",
+   "field": "faqs[5].answer (How much does roof replacement after a leak cost...)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The '$2 to $5 per square foot' figure attributed to HomeGuide for 're-decking' is mis-labeled. The replacement pack (facts-replacement-reroofing-insurance §4) gives $2–$5/sq ft as the TEAR-OFF / old-roof REMOVAL cost for heavier slate or tile ('$1–$5 per sq ft... $2–$5/sq ft for heavier slate or tile') — it is not a new-sheathing/re-decking $/sq-ft figure. No pack carries a re-decking $/sq-ft number, so this relabels a removal cost as a decking cost.",
+   "evidence": "\"Rotted-deck replacement adds cost when a prolonged leak deteriorates the sheathing, and re-decking runs $2 to $5 per square foot, per HomeGuide.\"",
+   "suggestedFix": "Drop the mislabeled figure: \"...and re-decking runs $2 to $5 per square foot, per HomeGuide.\" → \"...and replacing deteriorated sheathing adds cost depending on the area found rotted at tear-off.\" (de-quantify; the pack has no sourced re-decking $/sq-ft).",
+   "city": "verona"
+  },
+  {
+   "combo": "re-roofing",
+   "field": "overview[1] and process[0]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Calls the area threshold the '30% area rule.' Per facts-materials-economics §8 the AREA rule is 25% (RapidRestore/MyQuoteIQ) and the 30% rule is a COST rule (Kellow/Modernize/Josten). Committed siblings (Nutley, Belleville, Bloomfield) consistently phrase it 'the 25% rule' for area and pin it to RapidRestore. 'Contractor-consensus 30% area rule' conflates the two thresholds.",
+   "evidence": "overview[1]: \"...confirms the threshold against the contractor-consensus 30% area rule and the 50% cost rule...\"; process[0]: \"A crew checks the covering age against the 30% area rule and the 50% cost rule...\"",
+   "suggestedFix": "Change \"30% area rule\" → \"25% area rule\" in both strings to match the pack and the committed siblings (e.g. \"...the contractor-consensus 25% area rule and the 50% cost rule...\").",
+   "city": "verona"
+  },
+  {
+   "combo": "fire-damage-roof-replacement",
+   "field": "process[2]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Causally ties manufacturer-warranty validity to the Class A fire RATING. The replacement pack ties warranty to installation 'in strict accordance with printed application instructions' (GAF TAB-R-145 / Owens Corning), never to the fire class. Committed siblings (Nutley, Belleville) keep Class A as a standalone UL-790/ASTM-E108 fact and tie warranty to 'install to manufacturer specification,' not to the rating.",
+   "evidence": "\"A Class A roof covering rates highest under the UL 790 and ASTM E108 fire-test methods, the rating that keeps the manufacturer system warranty intact, and...\"",
+   "suggestedFix": "Decouple the two facts: \"A Class A roof covering rates highest under the UL 790 and ASTM E108 fire-test methods, and installing to the manufacturer's printed specification keeps the manufacturer system warranty intact, and a Newark Quality Roofing lead runs a magnet sweep...\"",
+   "city": "verona"
+  },
+  {
+   "combo": "roof-replacement-cost",
+   "field": "overview[2] / process[1] / faqs[1].answer (What drives the cost)",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "Slate is priced at '$10–$30, per NJ roofing guides' in roof-replacement-cost, but the sibling tile and cedar combos in the same cohort price the premium-material bucket at '$10–$20+, per NHI Contractors'. Same premium-roofing per-sq-ft bucket, two different named sources and two different upper bounds ($30 vs $20+) within one cohort. The $10–$30 figure is NOT in the materials-economics pack (§7 only carries '$10–$20+, NHI Contractors' for the premium bucket); however it IS used verbatim by the committed Verona-batch city page (west-essex.ts, West Orange pricing: 'slate installed at roughly $10 to $30 per square foot, per NJ roofing guides'), so it traces to committed gold, not a fabrication.",
+   "evidence": "roof-replacement-cost overview[2]: 'slate $10–$30, per NJ roofing guides' vs tile-roof-replacement: '$10–$20+ per square foot per NHI Contractors' and cedar-shake-roof-replacement: '$10–$20+ per square foot installed per NHI Contractors'. Pack source (facts-materials-economics §7): 'Premium (cedar/tile/slate) | $10–$20+ | NHI Contractors (NJ)'.",
+   "suggestedFix": "Optional (low priority): for cross-combo consistency, align the slate per-sq-ft citation to the same pack source the tile/cedar combos use — change 'slate $10–$30, per NJ roofing guides' → 'slate $10–$20+, per NHI Contractors NJ pricing'. If the city-page '$10–$30, per NJ roofing guides' is the intended brand-consistent figure, leave slate as-is and instead note the spread is source-driven (slate guides vs NHI). Either is defensible; do not force a fix that breaks brand consistency with the committed city page.",
+   "city": "verona"
+  },
+  {
+   "combo": "tile-roof-replacement",
+   "field": "overview[0]",
+   "severity": "low",
+   "category": "city-fact",
+   "issue": "The lead asserts Verona has 'select Mediterranean and civic buildings' carrying clay/concrete tile. The verified Verona stock (CITY-FACTS §Verona + city page) is pre-war Colonials/Dutch Colonials, postwar Capes/ranches, and 1960s–70s split-levels — no Mediterranean or tile-clad stock is documented for Verona, and 'civic buildings' is not enumerated. This is a generic tile-stock hedge: the committed siblings (Belleville, Newark, Montclair, Orange, Cedar Grove, Nutley, Bloomfield) use the same 'Mediterranean and Spanish-revival [and civic]' pattern as a qualitative hedge for a material that is uncommon in Essex County, so it matches template practice rather than fabricating a named neighborhood. Borderline-acceptable; flagged only because Verona's tile presence is unattested and the bold answer span asserts it without a 'small share'/'occasional' hedge as strong as the siblings' (e.g., Bloomfield 'small share', Cedar Grove 'occasional').",
+   "evidence": "tile-roof-replacement overview[0]: 'Newark Quality Roofing replaces clay and concrete tile roofs across Verona\\'s pre-war Colonials and Dutch Colonials and its select Mediterranean and civic buildings.'",
+   "suggestedFix": "Optional: soften the tile-presence claim to match the siblings' hedge and drop the unattested 'civic' qualifier — e.g. '…across the small share of Verona\\'s pre-war and Mediterranean-revival homes that carry tile.' Preserves the answer-first lead, removes the unsupported 'civic buildings' assertion, and aligns the hedge strength with the committed siblings.",
+   "city": "verona"
+  }
+ ],
+ "byCohort": [
+  {
+   "cohort": "verona:repair-maintenance",
+   "confirmed": 3,
+   "refuted": 0,
+   "low": 2,
+   "failed": false
+  },
+  {
+   "cohort": "verona:residential-roof-types",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 1,
+   "failed": false
+  },
+  {
+   "cohort": "verona:commercial-roof-types",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 0,
+   "failed": false
+  },
+  {
+   "cohort": "verona:commercial-services",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 2,
+   "failed": false
+  },
+  {
+   "cohort": "verona:components-specialty",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 1,
+   "failed": false
+  },
+  {
+   "cohort": "verona:design-consultation",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 1,
+   "failed": false
+  },
+  {
+   "cohort": "verona:energy-solar",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 2,
+   "failed": false
+  },
+  {
+   "cohort": "verona:replacement-A",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 3,
+   "failed": false
+  },
+  {
+   "cohort": "verona:replacement-B",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 2,
+   "failed": false
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "confirmedCount": 5,
+ "refutedCount": 0,
+ "lowCount": 13,
+ "confirmed": [
+  {
+   "combo": "slate-roof-installation-repair",
+   "field": "faqs[3].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The natural-slate >30-40%-of-fasteners-corroded REPLACEMENT THRESHOLD is mis-attributed to Kellow, Modernize, and Josten Roofing. Per the materials-economics pack §2 (line 124), the slate fastener-corrosion threshold ('replace only when >30-40% of fasteners corroded beyond repair or deck rotted') is sourced to 'industry/NSA consensus' (i.e., National Slate Association). Kellow/Modernize/Josten are the sources for the COST-based 30% repair-vs-replace rule (§7/§8), NOT the slate fastener-corrosion threshold. Every committed sibling (Bloomfield, Belleville, East Orange, Montclair, Nutley, Maplewood, Verona, South Orange) attributes this exact threshold to 'industry and National Slate Association consensus.' Glen Ridge is the lone outlier conflating the cost-rule sources with the fastener-corrosion threshold.",
+   "evidence": "\"Replace only when more than 30 to 40% of fasteners corrode beyond repair or the deck rots, a contractor threshold attributed to Kellow, Modernize, and Josten Roofing.\"",
+   "suggestedFix": "Re-pin to the pack/sibling source. Before: \"...or the deck rots, a contractor threshold attributed to Kellow, Modernize, and Josten Roofing.\" After: \"...or the deck rots, a threshold from industry and National Slate Association consensus.\"",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in faqs[3].answer: \"Replace only when more than 30 to 40% of fasteners corrode beyond repair or the deck rots, a contractor threshold attributed to Kellow, Modernize, and Josten Roofing.\" This is a genuine source-attribution defect. The materials-economics pack (facts-materials-economics.md) is unambiguous: line 124 sources the natural-slate fastener-corrosion threshold (\"replace only when >30-40% of fasteners corroded beyond repair or deck rotted\") to \"industry/NSA consensus\" (National Slate Association). Kellow, Modernize, and Josten Roofing are the named sources for the COST-based repair-vs-replace 30% rule — pack line 88 (>25-30% area, RapidRestore/MyQuoteIQ/Kellow), line 90 (repair >30% of replacement cost, Kellow/Modernize), line 279 (Josten Roofing NJ 30-40%-of-replacement-cost framing), and the cross-material §8 line 306 (30% rule, Kellow/Modernize/Josten). Glen Ridge conflates those cost-rule sources with the slate fastener-corrosion threshold. Cross-combo consistency confirms the mis-pin: every sibling that attributes this threshold (Montclair faqs, Nutley, Maplewood, Bloomfield, East Orange) attributes it to \"industry and National Slate Association consensus\" matching pack line 124; Verona/South-Orange leave it unattributed; NONE attribute it to Kellow/Modernize/Josten. Glen Ridge is the lone outlier. The fix relocates/re-pins the attribution (preserving the threshold fact) rather than deleting it, matching the canonical sibling form.",
+   "finalFix": "Before: \"Replace only when more than 30 to 40% of fasteners corrode beyond repair or the deck rots, a contractor threshold attributed to Kellow, Modernize, and Josten Roofing.\" → After: \"Replace only when more than 30 to 40% of fasteners corrode beyond repair or the deck rots, a threshold that traces to industry and National Slate Association consensus.\"",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "commercial-roof-installation",
+   "field": "faqs[4].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The $7-$12/sq ft single-ply (EPDM/TPO) per-square-foot figure is mis-attributed to HomeAdvisor and Modernize. Per facts-materials-economics.md, the per-sqft single-ply figures (EPDM $7-$10, TPO $8-$12) are sourced to Josten Roofing (NJ); SPRI backs the membrane class. HomeAdvisor/Modernize source the $10,000-$25,000 FULL-REPLACEMENT total, not the per-sqft single-ply rate. The committed gold siblings (orange, irvington) pin this exact figure to 'Josten Roofing NJ pricing and the Single Ply Roofing Industry' — Glen Ridge swaps in HomeAdvisor/Modernize incorrectly.",
+   "evidence": "'A typical NJ roof replacement and installation runs $10,000–$25,000, with single-ply EPDM and TPO at $7 to $12 per square foot, per HomeAdvisor, Modernize, and Josten Roofing NJ pricing.'",
+   "suggestedFix": "Split the attribution so each figure carries its own source, matching the Orange/Irvington gold: 'A typical NJ roof replacement runs $10,000–$25,000, per HomeAdvisor and Modernize, while single-ply EPDM and TPO install at $7 to $12 per square foot, per Josten Roofing NJ pricing and the Single Ply Roofing Industry.'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in glen-ridge/commercial-roof-installation.ts faqs[4].answer: \"A typical NJ roof replacement and installation runs $10,000–$25,000, with single-ply EPDM and TPO at $7 to $12 per square foot, per HomeAdvisor, Modernize, and Josten Roofing NJ pricing.\" This blanket-attributes all three sources to both figures, which is a real source-attribution defect. Per facts-materials-economics.md, the two figures have DISTINCT sources: (a) the NJ new-roof total $10,000–$25,000 is sourced to HomeAdvisor / Modernize (NJ) (line 295); (b) the single-ply per-sqft rates — EPDM (flat) $7.00–$10.00 and TPO (flat) $8.00–$12.00 — are sourced to Josten Roofing (NJ) (lines 288–289, reconfirmed line 363), with the Single Ply Roofing Industry backing the membrane class (§6, lines 352–363). HomeAdvisor/Modernize do NOT source the per-sqft single-ply rate. The committed gold siblings confirm the correct pinning: Orange (\"$7 to $12 per square foot for EPDM and TPO single-ply, per Josten Roofing NJ pricing and the Single Ply Roofing Industry\") and Irvington (identical pinning). Glen Ridge incorrectly swaps HomeAdvisor/Modernize onto the single-ply rate and drops SPRI. The fix relocates/re-attributes rather than deleting, preserving every fact. This is faqs[4].answer (not a directAnswer), so the ≤40-word answer-first lead rule does not constrain the fix; entity-grounding/COA posture are untouched and correct (Chapter 15.32, over 90%, registered HIC — all intact).",
+   "finalFix": "In faqs[4].answer, replace the first sentence: BEFORE → \"A typical NJ roof replacement and installation runs $10,000–$25,000, with single-ply EPDM and TPO at $7 to $12 per square foot, per HomeAdvisor, Modernize, and Josten Roofing NJ pricing.\" AFTER → \"A typical NJ roof replacement runs $10,000–$25,000, per HomeAdvisor and Modernize, while single-ply EPDM and TPO install at $7 to $12 per square foot, per Josten Roofing NJ pricing and the Single Ply Roofing Industry.\" (Leave the remaining sentences — \"Spray polyurethane foam runs $4 to $8 per square foot, per the Single Ply Roofing Industry, and final cost depends on roof size, system, insulation, and access. Newark Quality Roofing provides a free written estimate.\" — unchanged.)",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "commercial-roof-installation",
+   "field": "faqs[4].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The spray-polyurethane-foam $4-$8/sq ft installed cost is mis-attributed to the Single Ply Roofing Industry. Per facts-materials-economics.md §6, SPF installed cost ($4-$8/sq ft) is sourced to 'commercial cost guides' (M&M Roofing; WeatherStar); SPRI is the source for PVC SERVICE LIFE, not SPF cost (SPF is not a single-ply membrane). The committed irvington gold says SPF '$4 to $8 per square foot, per commercial cost guides' — Glen Ridge mis-pins it to SPRI.",
+   "evidence": "'Spray polyurethane foam runs $4 to $8 per square foot, per the Single Ply Roofing Industry, and final cost depends on roof size, system, insulation, and access.'",
+   "suggestedFix": "Re-pin the SPF cost to the pack source: change 'per the Single Ply Roofing Industry' → 'per commercial cost guides' (matching the Irvington gold).",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at faqs[4].answer (line 51): \"Spray polyurethane foam runs $4 to $8 per square foot, per the Single Ply Roofing Industry, and final cost depends on roof size, system, insulation, and access.\" This mis-attributes the SPF installed-cost figure to the wrong named source. Per facts-materials-economics.md §6 (line 370), SPF installed cost ($4-$8/sq ft) is sourced to \"commercial cost guides\" [SECONDARY], while the Single Ply Roofing Industry (SPRI) is the named source only for PVC service life (line 359) and PVC installed cost (line 360). SPF is a sprayed monolithic foam system, not a single-ply membrane, so SPRI is factually the wrong attribution. The committed Irvington gold (commercial-roof-installation.ts line 56) confirms the correct pinning: \"Spray polyurethane foam installs at $4 to $8 per square foot, per commercial cost guides.\" This is a genuine, fixable named-source attribution defect — not a Glen Ridge geography/COA issue, not an entity-grounding issue, and the fix relocates the attribution rather than deleting any fact.",
+   "finalFix": "In faqs[4].answer, change \"Spray polyurethane foam runs $4 to $8 per square foot, per the Single Ply Roofing Industry, and final cost depends on roof size, system, insulation, and access.\" → \"Spray polyurethane foam runs $4 to $8 per square foot, per commercial cost guides, and final cost depends on roof size, system, insulation, and access.\"",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "roof-deck-repair-replacement",
+   "field": "faqs[3].answer (\"Should I repair or replace the roof deck on my Glen Ridge home?\")",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The 25–30% area repair-vs-replace rule and the 50% cost rule are stated as bare \"contractor-consensus thresholds\" with NO named source. The ruleset/brief require these rules to be pinned to their specific sources (50% cost rule = WeatherShield/Home Depot; 25–30% area rule = RapidRestore/Kellow/Modernize, per materials-economics §8). The committed same-batch sibling src/data/combo-content/south-orange/roof-deck-repair-replacement.ts attributes them precisely — Glen Ridge dropped the named attribution, a recurring NQR source-attribution defect.",
+   "evidence": "\"...replace the whole deck when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair when the decay stays localized. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.\"",
+   "suggestedFix": "Re-pin to the named sources exactly as the committed South Orange sibling does. Before: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.\" After: \"The 25–30% area rule is a contractor-consensus threshold attributed to Kellow, RapidRestore, and Modernize, and the 50% cost rule traces to WeatherShield and Home Depot, while Section R908 prohibits roofing over a water-soaked deck.\"",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present exactly as quoted in glen-ridge/roof-deck-repair-replacement.ts faqs[3].answer: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.\" The 25–30% area and 50% cost rules are borrowed contractor-consensus figures that the materials-economics fact pack §8 pins to specific named sources — facts-materials-economics.md line 89/305 attributes the 50% cost rule to WeatherShield/Home Depot, and lines 88/307/306 attribute the 25–30% area rule to RapidRestore/Kellow/Modernize. The Semantic Content Ruleset requires named-source attribution in-text for borrowed figures. The committed same-batch gold sibling south-orange/roof-deck-repair-replacement.ts faqs[2].answer carries the precise attribution (\"attributed to Kellow, RapidRestore, and Modernize, and the 50% cost rule traces to WeatherShield and Home Depot\") in an otherwise word-for-word-identical sentence — Glen Ridge dropped it to a bare \"contractor-consensus thresholds.\" This is a real, fixable source-attribution defect and a recurring NQR pattern, not a Glen-Ridge-fact, COA, geography, or entity-grounding issue, and the R908 clause is correct and preserved. The fix relocates/re-attributes rather than deletes, exactly mirroring the South Orange gold exemplar.",
+   "finalFix": "In src/data/combo-content/glen-ridge/roof-deck-repair-replacement.ts faqs[3].answer — Before: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.\" After: \"The 25–30% area rule is a contractor-consensus threshold attributed to Kellow, RapidRestore, and Modernize, and the 50% cost rule traces to WeatherShield and Home Depot, while Section R908 prohibits roofing over a water-soaked deck.\"",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "roof-replacement-cost",
+   "field": "faqs[4].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "Source mis-pairing of the repair-vs-replace rules. The 50% COST rule is attributed in the pack (facts-materials-economics §8, line 89) to WeatherShield/industry consensus, NOT to Kellow/Modernize/Josten. The combo lumps BOTH the 25–30% area rule AND the 50% cost rule under a single 'attributed to Kellow, Modernize, and Josten guidance' citation, which mis-attributes the 50% cost rule. Per the pack: 25–30% AREA rule = RapidRestore/MyQuoteIQ/Kellow; 50% COST rule = WeatherShield; 30% COST rule = Kellow/Modernize. This is the recurring NQR contractor-blog rule-of-thumb mis-pairing.",
+   "evidence": "'The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten guidance, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.'",
+   "suggestedFix": "Re-pair the sources or drop the misattributed name. Before→After: '…attributed to Kellow, Modernize, and Josten guidance' → 'the 25–30% area rule a contractor-consensus threshold and the 50% cost rule attributed to WeatherShield' (or simply '…are contractor-consensus thresholds' with no name, matching the asphalt-shingle combo's clean phrasing).",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at faqs[4].answer (line 51): \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten guidance, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.\"\n\nThis is a real source-attribution defect, grounded in the fact pack facts-materials-economics.md §8 (lines 305–312) and the §\"Repair-vs-replace threshold\" table (lines 88–90), both of which agree:\n- 50% COST rule → WeatherShield / Home Depot / industry consensus (lines 89, 305). NOT Kellow, Modernize, or Josten.\n- 25–30% AREA rule → RapidRestore / MyQuoteIQ / Kellow (lines 88, 307). Kellow is a defensible area-rule name, but Modernize and Josten are NOT pack-named for the area rule.\n- 30% COST rule → Kellow / Modernize / Josten (NJ) (lines 90, 306) — this is the only rule Kellow+Modernize+Josten jointly own, and the combo does not even cite it.\n\nSo lumping BOTH the 25–30% area rule and the 50% cost rule under a single \"attributed to Kellow, Modernize, and Josten guidance\" citation mis-attributes the 50% cost rule entirely and over-extends Modernize/Josten onto the area rule. This is the recurring NQR contractor-blog rule-of-thumb mis-pairing (same class swept in CMP-3 and Maplewood/South Orange).\n\nCross-combo consistency confirms it: the same city already carries correctly-attributed gold siblings — asphalt-shingle-roofing.ts:52 (\"The 25–30% area rule traces to RapidRestore and Modernize and the 50% cost rule to WeatherShield and Home Depot, with the 30% rule attributed to Kellow and Modernize\") and the clean name-free form in asphalt-shingle-roof-replacement.ts:51 / storm-damage-roof-replacement.ts:30 / re-roofing.ts:45. The mis-attributed form in this file is the outlier.\n\nThe \"5 to 10 times less... per Home Depot and Kelly Roofing\" tail is CORRECT per §8 line 312 (Localized-cheap rule = Home Depot / Kelly Roofing) and is preserved. No Glen Ridge fact, COA posture, entity-grounding (directAnswer/registered-HIC), or third-party-license issue is involved — this is purely the named-source mis-pairing. Fix re-pairs to the pack-accurate sibling phrasing (preserving all facts, relocating attributions rather than deleting).",
+   "finalFix": "Before: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten guidance, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.\"\nAfter: \"The 25–30% area rule traces to RapidRestore and Modernize and the 50% cost rule to WeatherShield and Home Depot, with the 30% cost rule attributed to Kellow and Modernize, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.\"",
+   "city": "glen-ridge"
+  }
+ ],
+ "low": [
+  {
+   "combo": "roof-inspection",
+   "field": "faqs[4].answer (cost FAQ) + pricing.note",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The roof-inspection cost figures ($75–$200 visual, $150–$400 drone, $400–$600 infrared, national average $248, per HomeAdvisor) are not present in any of the four provided repair-focused fact packs (facts-cost-stats covers repair/replacement, not inspection). They are plausibly carried verbatim from the already-rewritten roof-inspection SERVICE layer and are internally consistent across the combo, so this is almost certainly a service-layer-sourced figure rather than an invention — flagged only so the orchestrator can confirm the inspection-cost numbers trace to a named source in the inspection service pack before sign-off. No change needed if the service layer carries the same HomeAdvisor inspection figures.",
+   "evidence": "'A roof inspection costs $75–$200 for a visual inspection, $150–$400 for a drone inspection, and $400–$600 for an infrared inspection, with a national average of $248, per HomeAdvisor inspection-cost data.'",
+   "suggestedFix": "No edit if these match the committed roof-inspection service layer / siblings (verify with: grep '248' across other cities' roof-inspection combos). If unverifiable, de-quantify to 'A standalone roof inspection runs from a visual check to a drone or infrared survey, per HomeAdvisor inspection-cost data' and rely on the 'free roof inspection' framing already present.",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "commercial-metal-roofing",
+   "field": "faqs[5].answer (cost FAQ) + pricing.note",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Source mis-pairing on the metal repair-cost bundle. The pack pins $5–$10/sq ft metal repair to HomeGuide (materials-economics §3, line 168) and the $200–$1,000 minor-leak / up-to-$3,000 severe-corrosion figures to Modernize ONLY (line 165); Angi backs only the unused ~$1,700 average (line 169). The combo attributes the whole bundle to \"Modernize and Angi cost data,\" so HomeGuide is dropped from the line it actually backs and Angi is credited for figures it does not support. (Inherited verbatim from the committed Nutley sibling; the committed Bloomfield sibling already uses the more accurate \"per HomeGuide and Modernize cost data.\")",
+   "evidence": "'Metal repair runs $5 to $10 per square foot, with a minor leak at $200 to $1,000 and severe corrosion up to $3,000, per Modernize and Angi cost data.'",
+   "suggestedFix": "Re-pin to the pack sources, matching the Bloomfield gold pattern: '…Metal repair runs $5 to $10 per square foot, with a minor leak at $200 to $1,000 and severe corrosion up to $3,000, per HomeGuide and Modernize cost data.'",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "epdm-commercial-roofing",
+   "field": "process[2] / faqs[1].answer (and BUR, PVC, green, spray-foam recover clauses)",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "Cross-combo inconsistency in how the N.J.A.C. 5:23-6.4 recover prohibition is stated. TPO, commercial-metal, and modified-bitumen carry the full statutory trigger list ('water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers'), while EPDM, built-up, PVC, green-roof, and spray-foam carry only the abbreviated 'water-soaked or already carries 2 or more layers' (the material-type prong omitted). The brief/ruleset call for the full statutory list. The omission is defensible on a membrane-over-membrane low-slope recover (the existing covering is rarely wood shake/slate/tile), so this is a consistency/completeness note rather than a factual error.",
+   "evidence": "epdm process[2]: '…the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.'",
+   "suggestedFix": "For cross-combo uniformity, align the abbreviated combos to the full statutory list used by the TPO/metal/mod-bit combos: '…requires complete removal of the existing covering when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.' (Or leave as-is and accept the abbreviated form on low-slope membrane recovers — but pick one and apply it consistently.)",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "commercial-roof-installation",
+   "field": "overview[2], process[1], faqs[2].answer (reflectance claim)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The reflective white TPO/PVC reflectance claim cites 'measured per ASTM C1549' but drops the CRRC listing carried by the committed gold siblings. Per facts-materials-economics.md, the ~0.70-0.85 solar reflectance is 'measured per ASTM C1549, listed by CRRC/ENERGY STAR'; the gold combos (nutley, belleville, orange, irvington, bloomfield) all write 'measured per ASTM C1549 and listed by the CRRC.' Glen Ridge's 'per ASTM C1549' alone is still accurate (C1549 is the measurement standard), but it is less complete than the established gold. Note: ENERGY STAR is correctly omitted (retired program), so CRRC is the right current listing body.",
+   "evidence": "'a reflective white TPO or PVC membrane reflects roughly 70 to 85% of solar radiation measured per ASTM C1549'",
+   "suggestedFix": "Append the CRRC listing to match the committed gold: '...reflects roughly 70 to 85% of solar radiation measured per ASTM C1549 and listed by the CRRC.'",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "historic-roof-restoration",
+   "field": "faqs[5].answer (How much does historic roof restoration cost)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The three slate dollar ranges are over-attributed to NPS Preservation Brief 29, which carries NO cost figures. Per facts-historic-restoration.md Global Correction #12 (\"No precise cost figures in this pack... do not invent a 'historic slate restoration costs $X' figure\") and Gaps #1, every historic price must come from facts-materials-economics.md. All three ranges trace there to HomeGuide/Angi only ($2,500–$10,000+ slate restoration, $50–$300/tile, $400–$3,000 flashing/fastener). Bundling Brief 29 into the cost attribution is the same source-pinning defect the brief warns against. The pricing-field note (line 62) attributes correctly to HomeGuide alone — the FAQ should match it.",
+   "evidence": "\"Historic slate restoration commonly costs $2,500–$10,000 or more, an individual broken slate replaces at $50–$300 per slate, and slate flashing and fastener replacement costs $400–$3,000, per HomeGuide cost data and NPS Preservation Brief 29.\"",
+   "suggestedFix": "Drop the Brief-29 cost attribution: change \"per HomeGuide cost data and NPS Preservation Brief 29\" → \"per HomeGuide and Angi cost data.\" (Brief 29 may still be cited for the 20%-threshold/repair-method facts elsewhere in the file, but not for the dollar figures.)",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "custom-roof-design-consultation",
+   "field": "challenges[2] (second sentence)",
+   "severity": "low",
+   "category": "other",
+   "issue": "Garbled clause — a missing preposition makes the sentence ungrammatical and hard to parse. \"the drainage detailing the canopy and the localized Toney's Brook glen runoff load\" reads as if the drainage is detailing the canopy. Facts are correct (Toney's Brook kept qualitative as a localized runoff angle, per §C), this is purely a readability defect.",
+   "evidence": "\"A written roofing specification sizes the valley flashing, the gutter capacity, and the drainage detailing the canopy and the localized Toney's Brook glen runoff load, so the roof sheds water before it backs under the covering.\"",
+   "suggestedFix": "Insert the missing word: \"...sizes the valley flashing, the gutter capacity, and the drainage detailing for the canopy load and the localized Toney's Brook glen runoff, so the roof sheds water before it backs under the covering.\"",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "solar-shingle-installation",
+   "field": "challenges[1] / challenges[2]",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "challenges[1] bolds '**Higher per-watt cost and a larger roof area**' and develops BOTH the per-watt-cost and the larger-area point; challenges[2] then bolds '**A larger roof area**' and re-develops the same 'larger roof area / 44% more area / efficiency' material. The 'larger roof area' topic is split across two adjacent bullets, so the second bullet largely restates the first's second half rather than advancing a distinct challenge. This is a structural redundancy, not a factual error (all figures are correctly pack-sourced: 1.5–2x per-watt per EnergySage/SolarReviews/WattBuild; 360 vs 250 sq ft / 44% per SolarReviews+GAF datasheet; 14–18% vs >20% per SolarReviews/EnergySage/NREL).",
+   "evidence": "challenges[1]: '**Higher per-watt cost and a larger roof area** are the trade-offs ... Solar shingles run about $3.50 to $8.00 per watt ...' ; challenges[2]: '**A larger roof area** carries the same output ... a 6-kilowatt solar-shingle system needs about 360 square feet ... roughly 44% more roof area ...'",
+   "suggestedFix": "Tighten challenges[1]'s lead to the per-watt-COST trade-off only (bold '**Higher per-watt cost**'), leaving the area/efficiency comparison to challenges[2]; or merge the two bullets so 'larger roof area' is developed once. Keeps all the same sourced figures but removes the topic overlap between the two adjacent challenge bullets.",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "silicone-roof-coating",
+   "field": "challenges[1]",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "challenges[1]'s first SENTENCE (the lead before the first period) runs ~39 words to the first sentence boundary but the bolded span itself is fine (5 words). Not a violation of the audit (which measures the bold span), but the lead's first full sentence is dense and pushes the ~40-word definitive-answer target; flagging only as a polish note since R2 leads should read as a crisp definitive answer.",
+   "evidence": "challenges[1]: '**A clean, dry, reinforced surface** governs coating performance on Glen Ridge\\'s aged low-slope roofs, because even ponding-resistant silicone needs the seams, splits, and flashings repaired and the field pressure-washed and fully dried first, per the RCMA, Gaco, and Henry.'",
+   "suggestedFix": "Optionally split after 'governs coating performance on Glen Ridge\\'s aged low-slope roofs.' to give a tighter definitive lead sentence, then start the 'because even ponding-resistant silicone needs...' clause as a second sentence. Content and sourcing unchanged.",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "fire-damage-roof-replacement",
+   "field": "challenges[0]",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "R2 first-sentence answer-length: the challenges lead's first sentence runs 42 words, over the ≤40-word definitive-answer cap. The brief instructs to tighten BELOW 40 (counting standalone em-dash/abbreviation tokens). All other 23 leads in the cohort are ≤40; this is the only over-length author-written lead.",
+   "evidence": "'**Structural assessment** governs a Glen Ridge fire rebuild, because charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, and a licensed structural engineer sets the framing scope before reconstruction, per the U.S. Forest Products Laboratory and EDT Engineers.' (42 words)",
+   "suggestedFix": "Trim the source bundle out of the first sentence to land ≤40, e.g.: '**Structural assessment** governs a Glen Ridge fire rebuild, because charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, and a licensed structural engineer sets the framing scope before reconstruction.' Then move 'per the U.S. Forest Products Laboratory and EDT Engineers' into the following sentence ('Newark Quality Roofing performs the roofing to that assessment...').",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "insurance-roof-replacement",
+   "field": "faqs[6].answer (cost FAQ)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Cross-combo consistency / under-attribution: the same '2025 national average near $10,000–$11,000' figure carries an inline source tag in the storm-damage sibling ('per industry replacement benchmarks') but is left without an inline source in this file — the 'HomeAdvisor and Modernize' clause that follows is scoped to 'The NJ range,' not to the national average. The $10–11k 2025-average figure traces to facts-cost-stats §6 (Ridgetop Exteriors / industry [SECONDARY]), not HomeAdvisor/Modernize.",
+   "evidence": "'A roof replacement in New Jersey costs $10,000–$25,000 for a typical home, against a 2025 national average near $10,000–$11,000, and a covered claim pays the covered loss minus the deductible... The NJ range traces to HomeAdvisor and Modernize cost data...'",
+   "suggestedFix": "Mirror the storm-damage sibling's attribution: '...against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks, and a covered claim pays...' so the national-average figure carries its own source tag consistently across the cohort.",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "cedar-shake-roof-replacement",
+   "field": "faqs[0].answer (Should you repair or replace a cedar roof?)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The 25–30% AREA threshold is attributed to 'Kellow, Modernize, and Josten.' Per the pack (facts-materials-economics §8, line 88) the 25–30% area rule traces to RapidRestore/MyQuoteIQ/Kellow; Modernize and Josten are paired with the COST rules / NJ framing (lines 90, 279), not the area rule. Kellow is correctly in the area-rule list, but Modernize and Josten are loose here. Inconsistent with the cost and asphalt combos, which treat the same trio differently.",
+   "evidence": "'The 25-to-30% area threshold is a contractor-consensus figure per Kellow, Modernize, and Josten, and the flex test is the InterNACHI sign of advanced degradation.'",
+   "suggestedFix": "Before→After: 'a contractor-consensus figure per Kellow, Modernize, and Josten' → 'a contractor-consensus figure per RapidRestore and Kellow' (or drop the names: 'a contractor-consensus area threshold').",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "metal-roof-replacement",
+   "field": "faqs[2].answer (How long does a metal roof last on a Glen Ridge home?)",
+   "severity": "low",
+   "category": "fabrication",
+   "issue": "Self-derived comparative multiplier not in any pack. 'Outlasts … by 2 to 4 times' is computed from metal 40–80 vs asphalt 20–30. The upper bound (80/20=4x) holds, but the lower bound is loose — 40 vs 30 = ~1.3x, not 2x — so '2 to 4 times' overstates the floor. The underlying lifespans are all sourced, but the multiplier itself is a synthesized figure.",
+   "evidence": "'A metal roof outlasts a 20-year 3-tab asphalt roof and a 30-year architectural asphalt roof by 2 to 4 times…'",
+   "suggestedFix": "De-quantify the multiplier or correct the floor. Before→After: 'outlasts a 20-year 3-tab asphalt roof and a 30-year architectural asphalt roof by 2 to 4 times' → 'roughly doubles to quadruples the service life of a 20-year 3-tab or 30-year architectural asphalt roof' → simplest: 'outlasts a 20-year 3-tab and a 30-year architectural asphalt roof by a wide margin' (keep the sourced 40–80 / 70+ figures, drop the derived multiplier).",
+   "city": "glen-ridge"
+  },
+  {
+   "combo": "tile-roof-replacement",
+   "field": "challenges[0]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Imprecise code-section cite. 'A structural change to rafters or trusses triggers a construction permit under N.J.A.C. 5:23-2.7.' 5:23-2.7 is the ordinary-MAINTENANCE (no-permit) section; it is 5:23-2.7(b) that EXCLUDES structural work from the exemption (which is why a permit is then required). Citing bare 5:23-2.7 as the section that 'triggers a permit' is backwards in surface reading. The sibling asphalt/metal combos cleanly say a structural change 'still triggers a permit' with no section cite.",
+   "evidence": "'…and a structural change to rafters or trusses triggers a construction permit under N.J.A.C. 5:23-2.7.'",
+   "suggestedFix": "Before→After: 'triggers a construction permit under N.J.A.C. 5:23-2.7' → 'falls outside ordinary maintenance under N.J.A.C. 5:23-2.7(b) and requires a construction permit' (or drop the section cite to match the asphalt/metal phrasing: 'a structural change to rafters or trusses still requires a construction permit').",
+   "city": "glen-ridge"
+  }
+ ],
+ "byCohort": [
+  {
+   "cohort": "glen-ridge:repair-maintenance",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 1
+  },
+  {
+   "cohort": "glen-ridge:residential-roof-types",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 0
+  },
+  {
+   "cohort": "glen-ridge:commercial-roof-types",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 2
+  },
+  {
+   "cohort": "glen-ridge:commercial-services",
+   "confirmed": 2,
+   "refuted": 0,
+   "low": 1
+  },
+  {
+   "cohort": "glen-ridge:components-specialty",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 0
+  },
+  {
+   "cohort": "glen-ridge:design-consultation",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 2
+  },
+  {
+   "cohort": "glen-ridge:energy-solar",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 2
+  },
+  {
+   "cohort": "glen-ridge:replacement-A",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 2
+  },
+  {
+   "cohort": "glen-ridge:replacement-B",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 3
+  }
+ ]
+}

@@ -1,0 +1,336 @@
+{
+ "confirmedCount": 7,
+ "refutedCount": 0,
+ "lowCount": 18,
+ "confirmed": [
+  {
+   "combo": "green-roof-installation",
+   "field": "overview[3]",
+   "severity": "med",
+   "category": "fabrication",
+   "issue": "Invokes a 'combined-sewer overflow' regulatory program for West Orange. No fact pack, the west-essex city-facts bank, or the committed West Orange city page references any combined-sewer / CSO system or program. West Orange is a hillside ridge-side suburb, not a combined-sewer municipality. This is a fabricated regulatory hook — and it is the ONLY combined-sewer mention in the entire combo-content tree (even Newark, a genuine CSO city, and the Montclair green-roof sibling avoid it and frame stormwater generically).",
+   "evidence": "'**A green roof** retains rainfall in the growing media and the water-retention layer rather than discharging it to the municipal system, the stormwater path that combined-sewer overflow rules target.'",
+   "suggestedFix": "Genericize to the Montclair-sibling phrasing: 'A green roof retains rainfall in the growing media and the water-retention layer rather than discharging it to the municipal system. A green (vegetation) roof lasts 5 to 40 years, per the InterNACHI life-expectancy chart, while the waterproofing membrane beneath it carries its own documented service life.' (Drop 'the stormwater path that combined-sewer overflow rules target.')",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at overview[3]: \"...rather than discharging it to the municipal system, the stormwater path that combined-sewer overflow rules target.\" VERIFICATION: (1) Fact-pack/fact-bank — no green-roof fact pack exists, and grep of the entire .planning/content-system/research tree returns ZERO combined-sewer/CSO/sewer-overflow references. The west-essex fact bank likewise has NO combined-sewer mention for West Orange (or any of the five west-essex cities). The committed West Orange city page carries no CSO program. (2) Geography contradicts the hook — the fact bank places West Orange on the First Watchung ridge with South Mountain/Eagle Rock reservations, 69.2% owner-occupied hillside suburb; the combo's own FAQ leans on \"hilly terrain\" and \"runoff that flows downhill.\" Combined-sewer-overflow systems are a feature of older dense urban cores (Newark, Paterson, Camden), not a ridge-side homeowner suburb served by separated stormwater. (3) Cross-combo consistency — grep of the ENTIRE src/data/combo-content tree shows this West Orange file is the ONLY file invoking combined-sewer overflow. The Montclair green-roof sibling frames it generically (\"retains rainfall on the roof rather than discharging it to the municipal system\"), and even Newark — a GENUINE CSO city — frames stormwater generically and never invokes \"combined-sewer overflow rules.\" This is a fabricated regulatory hook (R-de-fab violation) with no named-source support. The suggestedFix correctly genericizes to the Montclair-sibling voice and preserves the InterNACHI lifespan fact. NOTE: the same fabrication recurs at the FAQ \"How does a green roof manage stormwater...\" (line 41) — outside this finding's scope, but the orchestrator should sweep it.",
+   "finalFix": "In overview[3], change: '**A green roof** retains rainfall in the growing media and the water-retention layer rather than discharging it to the municipal system, the stormwater path that combined-sewer overflow rules target. A green (vegetation) roof lasts 5 to 40 years, per the InterNACHI life-expectancy chart, while the waterproofing membrane beneath it carries its own documented service life.' → '**A green roof** retains rainfall in the growing media and the water-retention layer rather than discharging it to the municipal system, which eases the runoff that flows downhill through West Orange\\'s established neighborhoods. A green (vegetation) roof lasts 5 to 40 years, per the InterNACHI life-expectancy chart, while the waterproofing membrane beneath it carries its own documented service life.'",
+   "city": "west-orange"
+  },
+  {
+   "combo": "green-roof-installation",
+   "field": "faqs[2].answer",
+   "severity": "med",
+   "category": "fabrication",
+   "issue": "Second instance of the same fabricated 'combined-sewer overflow rules' regulatory hook in the stormwater FAQ. No source supports a CSO program for West Orange.",
+   "evidence": "'A green roof retains rainfall in the growing media and the water-retention layer, which reduces the stormwater discharged to the municipal system that combined-sewer overflow rules target.'",
+   "suggestedFix": "Match the committed Montclair green-roof sibling: 'A green roof retains rainfall in the growing media and the water-retention layer, which reduces the stormwater discharged to the municipal system. The drainage layer channels the excess rainfall to the roof drains, because a low-slope roof requires at least one-quarter inch per foot of slope to drain and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA. On West Orange's hilly terrain, retaining rainfall on the roof eases the runoff that flows downhill through the established neighborhoods.' (Delete 'that combined-sewer overflow rules target'.)",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at faqs[2].answer (line 41): \"...which reduces the stormwater discharged to the municipal system that combined-sewer overflow rules target.\" This is a real fabrication: (1) Neither the west-essex fact bank (.planning/content-system/cities-batchC/CITY-FACTS-west-essex.md) nor any research fact pack contains a single reference to \"combined-sewer,\" \"CSO,\" or \"overflow\" — there is no source supporting a combined-sewer-overflow program for West Orange. West Orange is an inland Essex County hill-terrain township (First/Second Watchung ridges), not an older urban CSO-permittee community. (2) Cross-combo consistency confirms the violation: the committed GOLD Montclair green-roof sibling handles this identical FAQ WITHOUT any CSO hook — \"...which reduces the stormwater discharged to the municipal system from a Bloomfield Avenue, Watchung Plaza, or Upper Montclair rooftop.\" A corpus-wide grep shows the West Orange green-roof file is the ONLY combo in the entire combo-content corpus carrying \"combined-sewer overflow,\" confirming it is an idiosyncratic unsupported insertion, not an accepted pattern. The finding correctly labels this the \"second instance\" — the same fabricated hook also appears in overview[3] (line 14), which is a separate field handled by another finding. The minimal fix deletes only the fabricated clause and preserves the locally-grounded hilly-terrain hook that already follows; the reviewer's full Montclair-clone suggestedFix is overcomplete (it would also overwrite the correct West-Orange \"hilly terrain / runoff flows downhill\" sentence).",
+   "finalFix": "In faqs[2].answer, change \"...which reduces the stormwater discharged to the municipal system that combined-sewer overflow rules target. The drainage layer channels the excess rainfall to the roof drains...\" → \"...which reduces the stormwater discharged to the municipal system. The drainage layer channels the excess rainfall to the roof drains...\" (delete only the clause \" that combined-sewer overflow rules target\"; the period moves to follow \"municipal system\"). Keep the rest of the FAQ unchanged, including the West-Orange-specific closing sentence \"On West Orange's hilly terrain, retaining rainfall on the roof eases the runoff that flows downhill through the established neighborhoods.\"",
+   "city": "west-orange"
+  },
+  {
+   "combo": "spray-foam-roofing",
+   "field": "overview[3]",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "InterNACHI mis-pin. The claims attributed here are failure MODES (welded-seam = most common TPO failure; seam separation = dominant EPDM failure). The InterNACHI life-expectancy chart backs LIFESPAN only — it carries no failure-mode data. The failure-mode facts trace to NRCA / single-ply field-failure guidance (facts-materials-economics §4), not InterNACHI.",
+   "evidence": "'eliminating the welded seams that rank as the most common TPO failure mode and the seam separation that ranks as the dominant EPDM failure mode, per the InterNACHI life-expectancy chart and NRCA technical guidance.'",
+   "suggestedFix": "Drop the InterNACHI clause; attribute the failure modes to NRCA only: '…eliminating the welded seams that rank as the most common TPO failure mode and the seam separation that ranks as the dominant EPDM failure mode, per NRCA technical guidance.'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in west-orange/spray-foam-roofing.ts overview[3]: \"...eliminating the welded seams that rank as the most common TPO failure mode and the seam separation that ranks as the dominant EPDM failure mode, per the InterNACHI life-expectancy chart and NRCA technical guidance.\" The InterNACHI co-citation is a genuine source mis-pin. The fact pack (facts-materials-economics.md) places the InterNACHI \"Standard Estimated Life Expectancy Chart\" in §0/§4 lifespan tables ONLY (EPDM 15-25 yrs line 178, TPO 7-20 yrs line 179) — it carries LIFESPAN figures, no failure-mode data. The failure-mode facts live separately in §4 \"Common repair issues\" (lines 185-187), tagged [SECONDARY, qualitative] and attributed to the NRCA technical library / industry guidance: EPDM \"seam separation (dominant failure mode)\" and TPO \"welded-seam failure (most common).\" So the InterNACHI chart cannot back these claims. Cross-combo consistency confirms the defect: the committed GOLD spray-foam combos — Newark (the Batch-1 canonical exemplar), Irvington, and Orange — attribute these exact failure modes to \"per NRCA technical guidance\" ONLY, with no InterNACHI. The InterNACHI co-citation is a known recurring drift (MEMORY's named \"InterNACHI failure→NRCA\" sweep class) that also infected Bloomfield/Belleville/Montclair/Verona. West Orange should match the NRCA-only gold. No West Orange fact, COA posture, or entity-grounding requirement is implicated; this is purely a named-source-attribution fix. Relocation/re-attribution preserves the facts (the failure modes remain, correctly sourced to NRCA).",
+   "finalFix": "In src/data/combo-content/west-orange/spray-foam-roofing.ts overview[3], change \"...the seam separation that ranks as the dominant EPDM failure mode, per the InterNACHI life-expectancy chart and NRCA technical guidance.\" → \"...the seam separation that ranks as the dominant EPDM failure mode, per NRCA technical guidance.\" (drop the \"the InterNACHI life-expectancy chart and \" clause; attribute the failure modes to NRCA only, matching the committed Newark/Irvington/Orange gold)",
+   "city": "west-orange"
+  },
+  {
+   "combo": "silicone-roof-coating",
+   "field": "faqs[5].answer / pricing.range / pricing.note",
+   "severity": "med",
+   "category": "fabrication",
+   "issue": "Unsourced hard $/sq ft coating cost. The energy-solar fact pack has NO per-square-foot silicone coating cost figure and explicitly classifies '$/sq ft coating cost' as a Gap ('secondary blogs/aggregators only; use \"a fraction of tear-off cost\" qualitatively or attribute'). '$3 to $6 per square foot, an industry-estimated coating range' carries no NAMED source — only the generic hedge 'industry-estimated' — so it reads as an invented number. (The pack's only $/area silicone-adjacent figure is solar-shingle $21–$25/sq ft, not a coating figure.) The sibling combo silicone-elastomeric-roof-coating correctly uses 'Varies by scope' with no number, making this a cross-combo inconsistency too.",
+   "evidence": "faqs[5].answer: 'Silicone roof coating in West Orange runs about $3 to $6 per square foot, an industry-estimated coating range...'; pricing.range: '$3–$6 per square foot'; pricing.note: 'Industry-estimated silicone coating range; final cost depends on roof size, dry-film thickness, and surface preparation.'",
+   "suggestedFix": "Drop the invented $/sq ft figure and match the sibling. faqs[5] first sentence before→after: 'Silicone roof coating in West Orange runs about $3 to $6 per square foot, an industry-estimated coating range, and the final cost depends on...' → 'Silicone roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost, per the RCMA, with the final cost depending on roof size, the dry-film thickness specified, and the surface preparation the roof requires.' Set pricing.range to 'Varies by scope' and pricing.note to 'Final cost depends on roof size, dry-film thickness, and surface preparation; recoating costs a fraction of tear-off and replacement, per the RCMA. Newark Quality Roofing provides a free written estimate.'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim: faqs[5].answer opens \"Silicone roof coating in West Orange runs about $3 to $6 per square foot, an industry-estimated coating range, and the final cost depends on...\"; pricing.range = \"$3–$6 per square foot\"; pricing.note = \"Industry-estimated silicone coating range...\". This violates a named-source rule in facts-energy-solar.md, which classifies \"$/sq ft coating cost\" as a GAP (lines 367-368: \"secondary blogs/aggregators only; use 'a fraction of tear-off cost' qualitatively or attribute\") and states in Fact #9 (lines 114-119) \"No hard cost figure has a primary source... Never present a coating/solar cost as a fixed NQR price.\" The pack's only $/area silicone-adjacent figure is solar-shingle $21–$25/sq ft (line 239), not a coating figure. materials-economics §7 carries only a single-blog CPS lump/$1.20–$2.70-repaint figure (SECONDARY, line 167) that neither supports nor matches \"$3–$6/sq ft.\" The hedge \"industry-estimated\" carries NO named source, so the number reads as invented — the precise fabrication category. Cross-combo inconsistency is real: the same-city sibling silicone-elastomeric-roof-coating correctly uses range \"Varies by scope\" with no number and the qualitative \"fraction of tear-off and replacement cost, per the RCMA\" — the sanctioned framing. No West Orange fact (COA, reservation, housing-age) is implicated; this is purely a fabricated $/sq ft figure. Fix relocates to the RCMA-attributed qualitative framing the sibling already uses, preserving the real cost drivers (roof size, dry-film thickness, surface prep) and the free-estimate close.",
+   "finalFix": "faqs[5].answer before→after: 'Silicone roof coating in West Orange runs about $3 to $6 per square foot, an industry-estimated coating range, and the final cost depends on roof size, the dry-film thickness specified, and the surface preparation the existing roof requires. Recoating restores a roof at a fraction of tear-off and replacement cost and avoids landfill disposal, per the RCMA. Newark Quality Roofing provides a free written estimate.' → 'Silicone roof coating restores a sound low-slope West Orange roof at a fraction of tear-off and replacement cost and avoids landfill disposal, per the RCMA. The final cost tracks roof size, the dry-film thickness specified, and the surface preparation the existing roof requires. Newark Quality Roofing provides a free written estimate.' | pricing.range before→after: '$3–$6 per square foot' → 'Varies by scope' | pricing.note before→after: 'Industry-estimated silicone coating range; final cost depends on roof size, dry-film thickness, and surface preparation. Newark Quality Roofing provides a free written estimate.' → 'Final cost depends on roof size, dry-film thickness, and surface preparation; recoating restores a roof at a fraction of tear-off and replacement cost, per the RCMA. Newark Quality Roofing provides a free written estimate.'",
+   "city": "west-orange"
+  },
+  {
+   "combo": "storm-damage-roof-replacement",
+   "field": "faqs[0].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The 50% cost rule and the 25-30% area rule are BOTH mis-pinned to 'Kellow, Modernize, and Josten.' Per facts-materials-economics.md §8 the 30% rule = Kellow/Modernize/Josten, the 50% rule = WeatherShield/Home Depot, and the 25%-area rule = RapidRestore. This same combo elsewhere (and the sibling re-roofing / roof-replacement-after-leak combos) correctly pin the 50% rule to WeatherShield/Home Depot, so this attribution is internally inconsistent within the cohort.",
+   "evidence": "\"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten roofing guidance, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\"",
+   "suggestedFix": "BEFORE: \"...attributed to Kellow, Modernize, and Josten roofing guidance...\"  AFTER: \"...the 25–30% area rule attributed to RapidRestore and the 50% cost rule to WeatherShield and Home Depot...\" (or de-attribute to 'contractor-consensus thresholds' as the after-leak combo does).",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten roofing guidance, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\"\n\nThis violates the named-source pinning in facts-materials-economics.md. Per the consolidated rule table (lines 305-308) and the detail table (lines 88-90): the 50% COST rule = WeatherShield/Home Depot/industry; the 25-30% AREA rule = RapidRestore/MyQuoteIQ (Kellow appears only as a \"contractor consensus\" co-cite at line 88); and \"Kellow / Modernize / Josten (NJ)\" is the source for a DIFFERENT, third rule — the 30% COST rule (line 90/306). The combo pins BOTH the 25-30% area rule and the 50% cost rule to \"Kellow, Modernize, and Josten,\" which is a fact-pack mis-pin of two distinct rules onto a source the pack assigns to the 30% rule.\n\nCohort consistency confirms the defect: within the West Orange cohort, re-roofing.ts (line 22) correctly attributes \"per WeatherShield, RapidRestore, and Home Depot cost data\" and roof-replacement-after-leak.ts (line 32) de-attributes to \"contractor-consensus thresholds\" — both fact-pack-accurate. Only roof-replacement.ts carries the identical Kellow/Modernize/Josten mis-pin (a separate finding). So this attribution is internally inconsistent with the cohort's accurate siblings.\n\nThe \"5 to 10 times less... per Home Depot and Kelly Roofing cost data\" tail is correct (matches line 312, \"Localized-cheap rule | Home Depot / Kelly Roofing\") and must be preserved. No West Orange / west-essex fact-bank override applies — the repair-economics sources live only in the materials-economics pack. The fix re-attributes to the fact-pack-correct sources (50% rule → WeatherShield/Home Depot, 25-30% area rule → RapidRestore) while preserving every figure and the cost-multiplier tail, mirroring the cleanest sibling (re-roofing's WeatherShield/RapidRestore/Home Depot phrasing).",
+   "finalFix": "BEFORE: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten roofing guidance, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\"\n\nAFTER: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, the 25–30% area rule attributed to RapidRestore and the 50% cost rule to WeatherShield, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\"",
+   "city": "west-orange"
+  },
+  {
+   "combo": "flat-roof-replacement",
+   "field": "challenges[2]",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "Membrane seam-failure MODE is mis-attributed to InterNACHI. Per the cohort's source-attribution rule, InterNACHI is a LIFESPAN/life-expectancy chart ONLY — failure-mode behavior (EPDM separating at seams, TPO failing at welded seams) must be pinned to NRCA. The committed gold sibling proves the correct source: maplewood/commercial-roof-repair.ts challenges[0] writes the identical claim as 'EPDM at the splice seams and TPO at the welded seams, per NRCA technical guidance.'",
+   "evidence": "'...because EPDM separates at the seams and shrinks away from penetrations while TPO fails at the welded seams, per InterNACHI and membrane failure-mode data.'",
+   "suggestedFix": "Re-pin to NRCA: '...because EPDM separates at the seams and shrinks away from penetrations while TPO fails at the welded seams, per NRCA technical guidance.' (Drop 'InterNACHI and membrane failure-mode data'; InterNACHI stays only where the lifespan figures are cited.)",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at challenges[2] (line 19): \"...because EPDM separates at the seams and shrinks away from penetrations while TPO fails at the welded seams, per InterNACHI and membrane failure-mode data.\" This violates the cohort's documented source-attribution rule. The rule is explicit in the review pipeline (combo-batch5-bloomfield/REVIEW-WORKFLOW.js:99): \"InterNACHI is a LIFESPAN/life-expectancy chart ONLY — re-pin seam-failure... claims to SPRI / Josten / NRCA / ASTM / the actual pack source, never InterNACHI.\" The Bloomfield batch already surfaced and FIXED this exact defect class (_REVIEW-FINDINGS-run1.json:68-72), re-attributing a failure-mode claim from InterNACHI to NRCA with the note that \"InterNACHI never backed failure modes — the fix is a re-attribution, not a deletion of substance.\" Corpus evidence is decisive: 43 live combo files pin this membrane failure-mode behavior (EPDM at seams / TPO at welded seams) to NRCA, and West Orange's flat-roof-replacement.ts is the ONLY file in the entire combo corpus pinning it to \"per InterNACHI and membrane failure-mode data.\" The committed gold sibling for the IDENTICAL service — newark/flat-roof-replacement.ts challenges (overview[2]/challenges) — writes the IDENTICAL claim as \"...TPO fails at the welded seams... per NRCA and membrane failure-mode data,\" and the finding's cited maplewood/commercial-roof-repair.ts challenges[0] writes \"EPDM at the splice seams and TPO at the welded seams, per NRCA technical guidance.\" West Orange's own file otherwise correctly confines InterNACHI to the life-expectancy chart (overview[1], process[1], FAQs). This is both a named-source violation (InterNACHI does not publish failure modes) and a cross-combo inconsistency (1 file out of 44 deviates). No West Orange fact, COA posture, entity-grounding requirement, or third-party-licensed cite is implicated; the fix is a pure source re-attribution. I align the fix to the SAME-service Newark gold (\"per NRCA and membrane failure-mode data\") rather than the finding's suggested maplewood form, since it preserves the existing West Orange sentence verbatim except for swapping the source name, minimizing drift while satisfying the rule.",
+   "finalFix": "In src/data/combo-content/west-orange/flat-roof-replacement.ts, challenges[2]: replace \"while TPO fails at the welded seams, per InterNACHI and membrane failure-mode data.\" with \"while TPO fails at the welded seams, per NRCA and membrane failure-mode data.\" (Swap \"InterNACHI\" → \"NRCA\"; everything else in the sentence is unchanged. This matches the committed same-service Newark gold sibling. InterNACHI remains correctly used elsewhere in the file only for life-expectancy chart figures.)",
+   "city": "west-orange"
+  },
+  {
+   "combo": "tile-roof-replacement",
+   "field": "faqs[3].answer",
+   "severity": "med",
+   "category": "answer-length",
+   "issue": "The FAQ-answer first sentence is a 57-word run-on that crams the permit rule AND the commercial/structural-permit office into a single sentence, violating R2 (each faqs.answer first sentence must be a definitive ≤40-word answer). Every other permit FAQ in the cohort lands at ~40 words by stopping after the ordinary-maintenance clause; this file merged permit + historic into one FAQ and let the first sentence overrun.",
+   "evidence": "'A complete re-roof of the tile covering on a detached one- or two-family West Orange home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a commercial roof or a structural change to carry the tile load does require a permit from the Township of West Orange Building & Construction Code Enforcement office.' (57 words)",
+   "suggestedFix": "Split into two sentences so the first is the definitive ≤40-word answer: 'A complete re-roof of the tile covering on a detached one- or two-family West Orange home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit. A commercial roof or a structural change to carry the tile load does require a permit from the Township of West Orange Building & Construction Code Enforcement office.'",
+   "verdict": "confirmed",
+   "reasoning": "VERIFIED present and a real R2 violation. The cited FAQ[3] answer (\"Do I need a permit or historic approval...\") first sentence is 57 words (confirmed by token count) — it merged the ordinary-maintenance/no-permit clause AND the commercial-roof/structural-permit clause into one sentence via a \"while\" conjunction. R2 (and the cohort convention) requires the first sentence of each faqs.answer to be a definitive ≤40-word answer. Cross-cohort check confirms the finding's claim: every other West Orange replacement-B permit FAQ stops the first sentence after the no-permit clause and lands at ~33-42 words (roof-replacement 39, storm-damage 33, aging 37, asphalt 40, metal 42, after-leak 39, flat 33, cedar-shake 39); only fire-damage (53w, a separate file/finding) and this tile file overrun. Facts are all correct and must be preserved: the office name \"Building & Construction Code Enforcement,\" the detached-1-2-family-reroof = ordinary maintenance / no permit under 5:23-2.7, and the commercial/structural-needs-a-permit exception all match the west-essex fact bank (lines 170-174, 310-312). The COA content is also accurate (narrow landmark-only, Section 25-30, ~10 designated landmarks, Llewellyn Park = private 1857 deed covenant not township COA, NPS no-federal-restriction). The defect is purely answer-length; the fix is a pure sentence split (\", while \" → \". A \"), 0 fact deletions, yielding a 28-word definitive first sentence.",
+   "finalFix": "In faqs[3].answer, change the opening run-on from: 'A complete re-roof of the tile covering on a detached one- or two-family West Orange home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a commercial roof or a structural change to carry the tile load does require a permit from the Township of West Orange Building & Construction Code Enforcement office.' → to: 'A complete re-roof of the tile covering on a detached one- or two-family West Orange home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit. A commercial roof or a structural change to carry the tile load does require a permit from the Township of West Orange Building & Construction Code Enforcement office.' (Only the \", while \" → \". A \" boundary changes; the rest of the answer — the Section 25-30 historic-landmark COA sentence and the Llewellyn Park deed-covenant/NPS sentence — is unchanged. New first sentence = 28 words, ≤40w definitive answer.)",
+   "city": "west-orange"
+  }
+ ],
+ "low": [
+  {
+   "combo": "wind-damage-roof-repair",
+   "field": "faqs[4].answer",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The named-storm/hurricane deductible percentage figure 'generally up to 5%' carries no named source, and the deductible detail is effectively pinned to NJ DOBI. The committed gold siblings (Maplewood, Nutley) attribute the deductible percentage to Triple-I and NAIC and frame it as the verified range '1% to 5%' — NJ DOBI is only the source for the named-peril / all-perils-deductible point, not for the percentage figure. This is the recurring NQR source-attribution defect: an unsourced numeric figure mispinned to the wrong authority.",
+   "evidence": "'A standard New Jersey homeowners policy covers wind as a named peril, with the all-perils deductible applying to a wind claim, per the NJ Department of Banking and Insurance. Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling Coverage A limit, generally up to 5%, so the policy declarations page states which deductible applies.'",
+   "suggestedFix": "Re-pin the figure to the same source the committed gold uses and restore the verified range: change 'set as a percentage of the dwelling Coverage A limit, generally up to 5%, so the policy declarations page states which deductible applies.' → 'set as a percentage of the dwelling Coverage A limit, commonly 1% to 5%, per Triple-I and NAIC, so the policy declarations page states which deductible applies.'",
+   "city": "west-orange"
+  },
+  {
+   "combo": "emergency-roof-repair",
+   "field": "overview[0]",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "The overview[0] first sentence runs 53 words (the bold span is a compliant 31 words, but the full first 'definitive answer' sentence overshoots ≤40). The committed gold emergency siblings keep the entire overview[0] first sentence ≤40 words (Maplewood 36w, Newark 35w). The lead bolds a long ~31w span and then appends a second clause to the same sentence, pushing the sentence past 40.",
+   "evidence": "'**Newark Quality Roofing performs emergency roof repair across West Orange, New Jersey, for sudden failures: active interior leaks, wind-stripped shingles or membrane, reservation-edge tree and debris punctures, and ice-dam water backup.** The crew works the township\\'s valley capes, ranches, hillside Tudors, Llewellyn Park estate homes, and Main Street and Route 280 commercial roofs. Emergency roof repair stabilizes the water entry first, then schedules the permanent repair.' (first sentence = 53 words)",
+   "suggestedFix": "Tighten the bolded first sentence below 40 words by trimming the failure list, e.g. → '**Newark Quality Roofing performs emergency roof repair across West Orange, New Jersey, for sudden failures: active leaks, wind-stripped shingles, tree-debris punctures, and ice-dam backup.**' then keep the building-stock and 'stabilizes first' details as the following sentences.",
+   "city": "west-orange"
+  },
+  {
+   "combo": "hail-damage-roof-repair",
+   "field": "overview[0]",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "The overview[0] first sentence runs 46 words (bold span is a compliant 30 words). The committed gold hail siblings keep the whole overview[0] first sentence ≤40 (Maplewood 38w, South Orange 39w). The lead bolds a ~30w stock-list span and appends an 'its Main Street and Route 280 storefronts' clause that carries the first sentence past 40.",
+   "evidence": "'**Newark Quality Roofing assesses hail damage on West Orange\\'s valley capes, ranches, and Colonials, its hillside Tudors and Llewellyn Park estate homes, and its Main Street and Route 280 storefronts.** The assessment documents impact bruises, granule loss, cracked shingles, and dented flashing for an insurance claim. Hail damage roof repair restores the water layer at each impact point.' (first sentence = 46 words)",
+   "suggestedFix": "Trim the bolded first sentence below 40 words, e.g. → '**Newark Quality Roofing assesses hail damage on West Orange\\'s valley capes, ranches, and Colonials, its hillside Tudors and Llewellyn Park estates, and its Main Street storefronts.**' (drops 'and Route 280' / 'estate homes' redundancy to land at ~38w).",
+   "city": "west-orange"
+  },
+  {
+   "combo": "asphalt-shingle-roofing",
+   "field": "overview[1], challenges[1], process[1], faqs[0].answer, faqs[4].answer",
+   "severity": "low",
+   "category": "fabrication",
+   "issue": "The asphalt combo carries the '130 mph / manufacturer 6-nail / near 60 mph (3-tab)' wind-rating cluster five times. The West Orange brief's §C/§D UNVERIFIED list explicitly names the \"130-mph wind-rated / six-nail / insurance premium discount\" claim as a banned West Orange fabrication to DELETE. The mitigating context: this exact ARMA-attributed cluster (130 mph / 6-nail / 60 mph) is verbatim committed gold in the freshest siblings (south-orange/asphalt-shingle-roofing overview[1]+process[1]+faqs, irvington), and the Batch-4 orchestrator OVERRODE this identical finding as template-consistent gold. The actually-banned element — the bundled 'insurance premium discount' — is ABSENT here. Surfacing as low so the orchestrator decides: either keep (match committed gold, as Batch 4 did) or de-quantify to the city-page form (which carries NO 130/6-nail). The committed West Orange CITY page uses NO numeric wind rating, only 'reaches its rated wind performance with the manufacturer 6-nail pattern' style is the conservative form.",
+   "evidence": "overview[1]: 'reach a wind rating up to 130 mph with the manufacturer 6-nail pattern, while 3-tab rates near 60 mph, per ARMA and manufacturer guidance'; process[1]: 'fits the 6-nail pattern that reaches the 130 mph architectural wind rating, per ARMA and manufacturer guidance'",
+   "suggestedFix": "ORCHESTRATOR DECISION. If matching committed gold (recommended, per Batch-4 precedent + identical ARMA-attributed spans in south-orange/irvington): KEEP all five spans as-is — the banned insurance-discount bundle is not present. If honoring the brief's literal West Orange ban: replace 'reach a wind rating up to 130 mph with the manufacturer 6-nail pattern, while 3-tab rates near 60 mph, per ARMA and manufacturer guidance' → 'carry a higher wind rating than 3-tab and reach that rated performance only with the manufacturer 6-nail pattern, per ARMA and manufacturer guidance' (drop the numeric mph values), and apply the same de-quantification at process[1], faqs[0], faqs[4], and the faqs[4] '58 mph' clause.",
+   "city": "west-orange"
+  },
+  {
+   "combo": "tpo-roofing-installation",
+   "field": "faqs[2].answer",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The 0.70–0.85 (70–85%) solar-reflectance figure in the packs (facts-materials-economics §6) is a PVC-specific value (measured per ASTM C1549, listed by CRRC). The packs carry NO TPO-specific reflectance number. The TPO overview[2] correctly hedges it ('comparable to white PVC'), but this FAQ attributes the PVC figure directly to a white TPO membrane with no hedge, presenting a PVC measurement as a TPO fact.",
+   "evidence": "'…while a reflective white TPO membrane reflects roughly 70 to 85% of solar radiation per ASTM C1549 and the CRRC.'",
+   "suggestedFix": "Restore the hedge used in overview[2]: '…while a reflective white TPO membrane reflects solar radiation comparable to white PVC, measured per ASTM C1549 and listed by the CRRC.' (Remove the bare '70 to 85%' from the TPO claim, since that figure is PVC-sourced.)",
+   "city": "west-orange"
+  },
+  {
+   "combo": "tpo-roofing-installation",
+   "field": "overview[3]",
+   "severity": "low",
+   "category": "city-fact",
+   "issue": "Geography imprecision. West Orange CONTAINS part of the South Mountain Reservation AND part of the Eagle Rock Reservation (per Essex County Parks / the brief's reservation matrix). Saying the township 'sits on the First Watchung ridge below' the two reservations implies the reservations are above/elsewhere, contradicting the 'contains part of' fact. The sibling files (modified-bitumen overview/challenges 'contains part of', built-up 'presses against … canopy') phrase it correctly.",
+   "evidence": "'**West Orange\\'s hillside stock** sits on the First Watchung ridge below the South Mountain and Eagle Rock Reservations, where a reflective white TPO surface reflects roughly 70 to 85% of solar radiation comparable to white PVC…'",
+   "suggestedFix": "Replace 'below the South Mountain and Eagle Rock Reservations' with the verified 'where the township contains part of the South Mountain and Eagle Rock Reservations' (or 'against the South Mountain and Eagle Rock reservation-edge canopy'), matching the sibling files.",
+   "city": "west-orange"
+  },
+  {
+   "combo": "commercial-roof-replacement",
+   "field": "overview[1] and faqs[3].answer (\"What is the typical lifespan of a new commercial roof?\")",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "PVC's 20–30-year lifespan is grouped under \"per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance,\" but the InterNACHI chart does NOT list PVC (it lists EPDM 15–25, TPO 7–20, mod-bit, BUR 30). PVC is sourced only to SPRI/GAF in the packs (facts-materials-economics.md:359). The reader can mis-read InterNACHI as backing the PVC figure. The sibling commercial-roof-installation correctly isolates PVC to \"the Single Ply Roofing Industry and GAF,\" so the cohort is internally inconsistent on this attribution.",
+   "evidence": "overview[1]: \"...modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance.\" / faqs[3]: \"...20 to 30 years for PVC. The membrane lifespans trace to the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance...\"",
+   "suggestedFix": "Re-pin PVC to its actual source and isolate the InterNACHI claim, matching the installation combo. Before: \"...built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance.\" After: \"...built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry. Apply the same split in faqs[3].answer.",
+   "city": "west-orange"
+  },
+  {
+   "combo": "commercial-roof-repair",
+   "field": "faqs[2].answer (\"When should I replace rather than keep repairing...\")",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The clause \"when a repair approaches 30% of replacement cost\" blends the cost-based 30% rule (per the packs sourced to Kellow/Modernize/Josten, facts-materials-economics.md:306) into the same sentence as the flat-roof 25–30%-AREA threshold, then attributes only \"the 25 to 30% flat-roof threshold\" to \"Parish, Modernize, and HomeGuide.\" The cost-based 30% clause itself rides on no explicit citation within the sentence. The figure is genuine (the 30% cost rule exists), so this is a precision nit, not a fabrication — but the area-rule and cost-rule should be sourced distinctly to avoid implying Parish/Modernize/HomeGuide back the cost rule.",
+   "evidence": "\"...when membrane damage exceeds 25 to 30% of the roof area, when a repair approaches 30% of replacement cost, or when leaks recur at the same location. The 25 to 30% flat-roof threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance, and a recurring same-spot leak signals systemic failure regardless of damaged area, per HomeAdvisor.\"",
+   "suggestedFix": "Attribute the cost rule to its pack source. After the existing area-threshold citation, add: \"...and the 30%-of-replacement-cost rule to Kellow, Modernize, and Josten flat-roof guidance.\" (Or drop the cost clause and keep only the area threshold + recurring-leak signal, which are already cleanly sourced.)",
+   "city": "west-orange"
+  },
+  {
+   "combo": "gutter-installation-repair",
+   "field": "overview[2] and process[2]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The downspout-discharge-away-from-the-foundation claim is tagged 'per Angi', but in the components-specialty pack the downspout-discharge-distance fact (discharge >=4-6 ft from the foundation) is attributed to Boggs Inspection; Angi backs only the separate clogged-gutter-overflow-against-the-foundation point. The discharge clause is de-quantified (no '4-6 ft' figure is stated), so this is an attribution-precision nuance, not a fabrication.",
+   "evidence": "overview[2]: '...and extends the discharge away from the foundation on West Orange's sloped hillside lots.' (the 'per Angi' tag earlier in the sentence carries to the discharge clause) | process[2]: 'extends the downspout discharge away from the foundation, per Angi'",
+   "suggestedFix": "Either re-pin the discharge clause to its pack source (process[2]: '...extends the downspout discharge away from the foundation, per Boggs Inspection') or drop the source tag on the qualitative discharge clause entirely (keep 'per Angi' only on the clogged-gutter-overflow point it actually supports). No content/value change needed.",
+   "city": "west-orange"
+  },
+  {
+   "combo": "historic-roof-restoration",
+   "field": "challenges[1]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The clay-tile copper-fastener rule is mis-pinned to NPS Preservation Brief 29 (the slate Brief). Brief 29 covers slate fasteners only; the clay-tile copper/non-ferrous fastener rule is sourced to NPS Preservation Brief 30 in the fact pack. The umbrella sentence already cites 'Briefs 19, 29, and 30,' so the fact itself is correctly sourced overall, but the inline '...slater\\'s nails, never plain or galvanized steel, which rusts out long before the slate, per NPS Preservation Brief 29' attaches BOTH slate AND clay tile to Brief 29. Not a fabrication (the clay-copper fact is genuine and in-pack), only an imprecise per-Brief pin.",
+   "evidence": "Natural slate and clay tile take non-ferrous solid copper or stainless steel slater's nails, never plain or galvanized steel, which rusts out long before the slate, per NPS Preservation Brief 29; red cedar takes hot-dipped zinc-coated, aluminum, or stainless steel nails...",
+   "suggestedFix": "Split the per-Brief pin so slate maps to Brief 29 and clay tile to Brief 30. Before: '...non-ferrous solid copper or stainless steel slater\\'s nails, never plain or galvanized steel, which rusts out long before the slate, per NPS Preservation Brief 29; red cedar...' After: 'Natural slate takes non-ferrous solid copper or stainless steel slater\\'s nails, never plain or galvanized steel, which rusts out long before the slate, per NPS Preservation Brief 29, and clay tile takes copper nails or hangers, per NPS Preservation Brief 30; red cedar takes hot-dipped zinc-coated, aluminum, or stainless steel nails, never copper...'",
+   "city": "west-orange"
+  },
+  {
+   "combo": "solar-shingle-installation",
+   "field": "faqs[5].answer / pricing.note",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "The $10,000–$25,000 range is named-sourced 'per HomeAdvisor and Modernize' in the cohort siblings solar-panel-roofing-installation (faqs + pricing.note) and energy-efficient-roofing-solutions (faqs + pricing.note), but here the same range is dropped into the FAQ and note with NO source attribution. Same fact, inconsistent attribution within the cohort.",
+   "evidence": "faqs[5].answer: 'Solar shingle installation in West Orange typically runs $10,000–$25,000.' (no source); pricing.note: 'Typical NJ solar-shingle installation range; solar shingles run about $3.50 to $8.00 per watt installed per EnergySage, SolarReviews, and WattBuild.'",
+   "suggestedFix": "Attribute the headline range to match the siblings. faqs[5] first sentence: 'Solar shingle installation in West Orange typically runs $10,000–$25,000.' → 'A solar-shingle reroof in New Jersey runs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize cost data.' pricing.note: prepend 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; solar shingles run about $3.50 to $8.00 per watt installed per EnergySage, SolarReviews, and WattBuild...'",
+   "city": "west-orange"
+  },
+  {
+   "combo": "solar-shingle-installation",
+   "field": "faqs[3].answer",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "FAQ first sentence is 52 words — beyond the ≤40-word R2 target and beyond the ~42-word committed tolerance the gold Orange permit FAQ sets (42 words). The single sentence chains the PV-permit clause and the 1–2-family ordinary-maintenance clause; split it so the lead sentence is a definitive ≤40-word answer.",
+   "evidence": "faqs[3].answer: 'The photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, while the underlying reroof on a detached one- or two-family West Orange home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 with no construction permit, per the NJ Uniform Construction Code and the NEC.' (52 words)",
+   "suggestedFix": "Split after the first clause: '...permits and inspection for NEC and fire-code compliance, while the underlying reroof on a detached one- or two-family West Orange home counts as...' → '...permits and inspection for NEC and fire-code compliance. The underlying reroof on a detached one- or two-family West Orange home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 with no construction permit, per the NJ Uniform Construction Code and the NEC.'",
+   "city": "west-orange"
+  },
+  {
+   "combo": "silicone-roof-coating",
+   "field": "faqs[2].answer",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "FAQ first sentence is 50 words — beyond the ≤40-word R2 target and the ~42-word committed tolerance. The lead sentence chains the 25%-rule permit clause and the 5:23-6.4 recover clause; split it so the lead is a definitive ≤40-word answer.",
+   "evidence": "faqs[2].answer: 'A silicone recoat on a West Orange commercial, multi-family, or attached building requires a construction permit once the work exceeds 25% of the total roof area in a 12-month period, per N.J.A.C. 5:23-2.7 of the NJ Uniform Construction Code, and a recover follows the Rehabilitation Subcode limits at N.J.A.C. 5:23-6.4.' (50 words)",
+   "suggestedFix": "Split before the recover clause: '...per N.J.A.C. 5:23-2.7 of the NJ Uniform Construction Code, and a recover follows the Rehabilitation Subcode limits at N.J.A.C. 5:23-6.4.' → '...per N.J.A.C. 5:23-2.7 of the NJ Uniform Construction Code. A recover follows the Rehabilitation Subcode limits at N.J.A.C. 5:23-6.4.'",
+   "city": "west-orange"
+  },
+  {
+   "combo": "roof-replacement-after-leak",
+   "field": "process[0] and faqs[0].answer",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "Cross-combo inconsistency on the 50% rule source. process[0] attributes the repair-vs-replace thresholds to 'WeatherShield and roofing industry repair-vs-replace guidance' and faqs[0] calls the 3-repairs/25%/50% figures 'contractor-consensus thresholds' (unsourced). re-roofing pins the 50% rule to WeatherShield + 25%-area to RapidRestore + Home Depot; storm-damage pins both to Kellow/Modernize/Josten. The same three rules should carry the same attribution across the cohort.",
+   "evidence": "after-leak faqs[0]: \"The 3-repairs, 25%, and 50% figures are contractor-consensus thresholds.\"  vs storm faqs[0]: \"...attributed to Kellow, Modernize, and Josten...\" vs re-roofing process[0]: \"...per WeatherShield, RapidRestore, and Home Depot cost data...\"",
+   "suggestedFix": "Standardize the rule→source map across all four replacement combos to §8: 50% rule → WeatherShield/Home Depot; 30% rule → Kellow/Modernize/Josten; 25%-area rule → RapidRestore; 3-repairs/age rule → WeatherShield; 5–10× → Home Depot/Kelly Roofing. Pick one phrasing and reuse it.",
+   "city": "west-orange"
+  },
+  {
+   "combo": "fire-damage-roof-replacement",
+   "field": "process[1]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The cedar fire-class facts are attributed to 'the Cedar Shake & Shingle Bureau and InterNACHI.' This pairing is supportable (facts-materials-economics.md §343-345 cite CSSB Certi-Guard + InterNACHI), but the parallel statement in challenges[2] attributes the Class A/B/C system to 'UL 790 and ASTM E108' only — the two fire-class sentences in the same file use different source bundles for overlapping claims. Minor, but reconcile so the same fact (cedar non-classified / FRT = B-C / Class A = assembly-only) carries one consistent attribution.",
+   "evidence": "process[1]: \"...per the Cedar Shake & Shingle Bureau and InterNACHI...\"  vs challenges[2]: \"...under the UL 790 and ASTM E108 fire-test methods... per UL 790 and ASTM E108.\"",
+   "suggestedFix": "Keep CSSB+InterNACHI for the cedar-specific classification (correct per §5b) and UL 790/ASTM E108 for the A/B/C test-method statement (correct per fact pack §7) — both are individually accurate, so this is acceptable to leave; if tightening, append 'per UL 790 and ASTM E108' to the process[1] cedar sentence for symmetry. No factual error.",
+   "city": "west-orange"
+  },
+  {
+   "combo": "cedar-shake-roof-replacement",
+   "field": "challenges[0]",
+   "severity": "low",
+   "category": "answer-length",
+   "issue": "The gated first string of `challenges` runs 41 words in its first sentence, just over the R2 ≤40-word definitive-answer limit (the brief instructs tightening BELOW 40 to be safe).",
+   "evidence": "'A full tear-off to the deck is the defining cedar condition in West Orange, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a cedar replacement strips the old wood to the bare sheathing.' (41 words)",
+   "suggestedFix": "Trim 2+ words, e.g.: '...because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake or a water-soaked deck, so a cedar replacement strips the old wood to bare sheathing.' (drops 'over' duplication, 'deteriorated', 'the').",
+   "city": "west-orange"
+  },
+  {
+   "combo": "asphalt-shingle-roof-replacement",
+   "field": "challenges[1] and faqs[1].answer",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "The brief §D and §0 UNVERIFIED list explicitly name the '130-mph wind-rated / six-nail' claim for DELETION. HOWEVER, the West Orange version correctly stripped the brief's actual target (the fabricated insurance-premium-discount tail) and kept only the ARMA/ASTM D3161 + manufacturer-sourced wind-rating fact, which is verbatim committed gold across Maplewood, South Orange, Nutley, and Bloomfield asphalt combos, and matches the standing orchestrator override (MEMORY: batch-4 'OVERRODE finding [26] (130mph/6-nail = template-consistent gold)'). Flagging only to surface the brief-vs-gold tension; recommend KEEP, do not fix.",
+   "evidence": "challenges[1]: 'specifies an architectural shingle warrantied up to 130 mph with 6-nail installation on the most exposed ridge-side homes, per ARMA and manufacturer guidance.' / faqs[1]: '...warranties up to 130 mph with 6-nail installation... ASTM D3161 sets the asphalt wind classes, per ARMA and manufacturer guidance.'",
+   "suggestedFix": "KEEP as committed gold (no insurance-premium tail present; ARMA/ASTM-sourced, consistent with all four committed siblings). No change. If the orchestrator chooses to honor the literal West Orange brief instead, de-quantify to 'a higher wind rating with the manufacturer 6-nail pattern' — but this would diverge from committed siblings.",
+   "city": "west-orange"
+  },
+  {
+   "combo": "asphalt-shingle-roof-replacement",
+   "field": "challenges[3]",
+   "severity": "low",
+   "category": "city-fact",
+   "issue": "Borderline unsourced qualitative micro-claim. The brief permits the ridge-WIND qualitative fact ('a hillside slope catches stronger wind than a low-lying lot — no numbers') but does NOT list snow-retention-by-elevation among the permitted qualitative facts; the brief §C/§D explicitly cut the quantified 'north-facing slopes above 300 feet hold snow longer.' The de-quantified 'a ridge-top slope holds snow longer than a valley lot' carries no number but is an unsourced elevation-driven snow-retention assertion. It recurs across many committed West Orange combos (emergency-roof-repair, roof-waterproofing, roof-ice-dam-prevention, etc.), so it is a pervasive West Orange pattern, not an isolated slip.",
+   "evidence": "challenges[3]: '...because northern New Jersey crosses the 32°F freezing point repeatedly through winter and a ridge-top slope holds snow longer than a valley lot, feeding ice-dam meltwater.'",
+   "suggestedFix": "Optional tightening to the brief-sanctioned qualitative frame: replace the snow-retention clause with the ice-dam mechanism without the elevation claim, e.g. '...and attic heat escape drives ice-dam meltwater at the cold eaves.' If kept, treat as a cohort-wide West Orange micro-claim, not a single-file fix; consistency across the city's combos is the only argument for retention.",
+   "city": "west-orange"
+  }
+ ],
+ "byCohort": [
+  {
+   "cohort": "west-orange:repair-maintenance",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 3
+  },
+  {
+   "cohort": "west-orange:residential-roof-types",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 1
+  },
+  {
+   "cohort": "west-orange:commercial-roof-types",
+   "confirmed": 3,
+   "refuted": 0,
+   "low": 2
+  },
+  {
+   "cohort": "west-orange:commercial-services",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 2
+  },
+  {
+   "cohort": "west-orange:components-specialty",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 1
+  },
+  {
+   "cohort": "west-orange:design-consultation",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 1
+  },
+  {
+   "cohort": "west-orange:energy-solar",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 3
+  },
+  {
+   "cohort": "west-orange:replacement-A",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 2
+  },
+  {
+   "cohort": "west-orange:replacement-B",
+   "confirmed": 2,
+   "refuted": 0,
+   "low": 3
+  }
+ ]
+}

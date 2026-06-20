@@ -1,0 +1,312 @@
+{
+ "confirmedCount": 9,
+ "refutedCount": 0,
+ "lowCount": 12,
+ "failedCohorts": [],
+ "confirmed": [
+  {
+   "combo": "hail-damage-roof-repair",
+   "field": "faqs[5].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The IR-shingle upgrade cost and insurance-discount figures are not supported by any of this cohort's four fact packs, and the attribution is to out-of-cohort sources. The packs (facts-cost-stats §10, facts-causes-signs, facts-materials-economics) contain UL 2218 Class 4 / IBHS hail-mitigation guidance but carry NO '10-20% added cost' figure and NO '10-35% premium discount'; 'Texas Department of Insurance' appears nowhere in the packs, and the only RoofVista cite in the packs is for Northeast replacement-price premiums (CT ~+20%), not impact-resistant-shingle insurance discounts. Of the 12 committed hail-damage siblings only 2 (glen-ridge + this file) carry this claim; the freshest same-archetype west-essex sibling (verona/hail-damage-roof-repair.ts) omits both percentages entirely.",
+   "evidence": "A UL 2218 Class 4 impact-resistant shingle upgrade adds about 10–20% to standard shingle cost and qualifies for homeowners-insurance premium discounts of roughly 10–35%, per RoofVista and Texas Department of Insurance data.",
+   "suggestedFix": "Drop the two unsourced percentages and the RoofVista/Texas-DOI attribution; match the Verona sibling's pack-anchored framing. Before→After: '...A UL 2218 Class 4 impact-resistant shingle upgrade adds about 10–20% to standard shingle cost and qualifies for homeowners-insurance premium discounts of roughly 10–35%, per RoofVista and Texas Department of Insurance data. Newark Quality Roofing provides a free written estimate...' → '...A UL 2218 Class 4 impact-resistant shingle is available as an upgrade, the standard hail mitigation per IBHS FORTIFIED guidance. Newark Quality Roofing provides a free written estimate and documents the damage for an insurance claim.'",
+   "verdict": "confirmed",
+   "reasoning": "VERIFIED REAL. The offending text is present verbatim at faqs[5].answer of src/data/combo-content/cedar-grove/hail-damage-roof-repair.ts: \"A UL 2218 Class 4 impact-resistant shingle upgrade adds about 10–20% to standard shingle cost and qualifies for homeowners-insurance premium discounts of roughly 10–35%, per RoofVista and Texas Department of Insurance data.\" Both percentages and both attributions fail source verification against the cohort's four fact packs (.planning/content-system/research/): (1) NO \"10–20% added cost\" for Class 4 shingles exists in any pack — the only \"10–20%\" figures are granule-loss severity bands in facts-causes-signs (lines 147, 282), unrelated to IR-shingle cost; (2) NO \"10–35% premium discount\" — a targeted grep for any IR-shingle insurance discount across all packs returned EMPTY; (3) \"Texas Department of Insurance\" appears NOWHERE in the packs; (4) \"RoofVista\" appears in the packs ONLY in facts-materials-economics line 296 for Northeast replacement-price premiums (CT ~+20%, ME/VT ~+10–12%), explicitly NOT for impact-resistant-shingle insurance discounts — so the RoofVista cite is misattributed. The packs DO support a pack-anchored framing: facts-causes-signs lines 115-117 (UL 2218 Class 1–4, Class 4 most resistant; FLASH/IBHS recommend Class 3/4 in hail-prone areas) and facts-cost-stats §10 (IBHS FORTIFIED hail mitigation). Cross-combo consistency confirms the defect: of 21 committed hail-damage siblings, only 2 (cedar-grove + glen-ridge, both in this same west-essex batch) carry this claim; the freshest same-archetype sibling verona/hail-damage-roof-repair.ts omits both percentages entirely, using only tiered HomeAdvisor/Angi/This Old House cost data in its cost FAQ. This is a named-source/source-attribution violation (fabricated figures + misattributed/out-of-cohort sources), not a Cedar Grove fact or entity-grounding issue. The fix relocates to the pack-supported IBHS/UL 2218 framing rather than deleting the legitimate Class-4 upgrade mention, preserving the in-file process-section's own attribution (\"per IBHS hail-mitigation guidance\").",
+   "finalFix": "In src/data/combo-content/cedar-grove/hail-damage-roof-repair.ts, faqs[5].answer, replace the sentence: \"A UL 2218 Class 4 impact-resistant shingle upgrade adds about 10–20% to standard shingle cost and qualifies for homeowners-insurance premium discounts of roughly 10–35%, per RoofVista and Texas Department of Insurance data.\" → \"A UL 2218 Class 4 impact-resistant shingle is available as an upgrade, the standard hail mitigation per IBHS hail-mitigation guidance.\" The full revised answer reads: \"Hail-damage roof repair in New Jersey runs $400–$1,000 for a typical repair, per HomeAdvisor cost data, and the final figure depends on roof size, pitch, material, and access. A UL 2218 Class 4 impact-resistant shingle is available as an upgrade, the standard hail mitigation per IBHS hail-mitigation guidance. Newark Quality Roofing provides a free written estimate and documents the damage for an insurance claim.\"",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "storm-damage-roof-repair",
+   "field": "pricing.range",
+   "severity": "med",
+   "category": "consistency",
+   "issue": "The pricing-card range understates and contradicts the file's own cost FAQ and the committed Verona sibling's pricing card. faqs[5] and pricing.note both state storm-damage runs '$400–$2,000 for most repairs' (per HomeAdvisor and Angi), and the freshest west-essex sibling verona/storm-damage-roof-repair.ts uses range: '$400–$2,000+ for most storm repairs' — but this file's pricing.range is the lower '$400–$1,000', a leak-repair default that does not reflect the storm-damage range the same file cites.",
+   "evidence": "pricing: { range: '$400–$1,000', note: 'Typical NJ leak-repair range per HomeAdvisor; hail-damage repair runs higher by hail size and roof area...' }  // while faqs[5] says: 'Storm-damage roof repair in New Jersey runs roughly $400–$2,000 for most repairs...'",
+   "suggestedFix": "Align the pricing card to the FAQ and the Verona sibling. Before→After: range: '$400–$1,000' → range: '$400–$2,000+ for most storm repairs'; and note: 'Typical NJ leak-repair range per HomeAdvisor...' → note: 'Storm-damage roof repair in NJ runs roughly $400–$2,000 for most repairs, with hail-damage repair $3,000–$12,000 by hail size and roof area, per HomeAdvisor and Angi; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'",
+   "verdict": "confirmed",
+   "reasoning": "Verified in src/data/combo-content/cedar-grove/storm-damage-roof-repair.ts: pricing.range is '$400–$1,000' and the note opens \"Typical NJ leak-repair range per HomeAdvisor,\" yet the SAME file's faqs[5] and overview/process state the storm range is \"$400–$2,000 for most repairs, with hail-damage repair reaching $3,000–$12,000 ... per HomeAdvisor and Angi.\" So the card understates and contradicts the page's own cited storm figure — a real internal-consistency defect, not a fabrication question.\n\nCross-sibling check is decisive. Committed storm-damage cards split three ways: the answer-first GOLD storm range '$400–$2,000+ for most storm repairs' (Orange, Irvington, Bloomfield, Belleville, and the freshest west-essex sibling Verona); a plain '$400–$2,000' (Newark, East Orange, South Orange, Glen Ridge); and a leak-default '$400–$1,000' (Nutley, Maplewood, West Orange, Montclair). Crucially, the two committed cities that use '$400–$1,000' CORRECTLY (west-orange, montclair) ALSO carry a '$400–$1,000' FAQ cost line — card and FAQ agree. The two that left the exact contradiction the finding flags (nutley, maplewood: card $400–$1,000 but FAQ $400–$2,000) are committed exceptions, not gold. Cedar Grove inherited that nutley/maplewood defect: its FAQ is the storm range ($400–$2,000), so the card must mirror it.\n\nThe freshest same-archetype west-essex sibling verona/storm-damage-roof-repair.ts confirms the target: range '$400–$2,000+ for most storm repairs' with a fully storm-aligned note. No Cedar Grove fact (COA posture is correctly NONE in faqs[3]; no HPC/COA, advisory Heritage Advisory Committee only — untouched by this fix), no entity-grounding rule (directAnswer/registered-HIC are correct), and no fact-bank pricing directive justifies the lower leak-default for a storm page; the west-essex fact bank carries no storm-cost figure. The fix preserves all facts (relocates the $400–$2,000 storm range + $3,000–$12,000 hail figure already cited in faqs[5] into the card) and deletes nothing. Confirmed.",
+   "finalFix": "In src/data/combo-content/cedar-grove/storm-damage-roof-repair.ts, the pricing block:\n\nBEFORE:\n  pricing: {\n    range: '$400–$1,000',\n    note: 'Typical NJ leak-repair range per HomeAdvisor; hail-damage repair runs higher by hail size and roof area, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',\n  },\n\nAFTER:\n  pricing: {\n    range: '$400–$2,000+ for most storm repairs',\n    note: 'Storm-damage roof repair in NJ runs roughly $400–$2,000 for most repairs, with hail-damage repair $3,000–$12,000 by hail size and roof area, per HomeAdvisor and Angi; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',\n  },",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "commercial-metal-roofing",
+   "field": "faqs[5].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The ~10-40% NJ-premium figure is mis-pinned to Integrity Home Exteriors. The materials-economics pack (§7, line 271) attributes 'NJ runs ~10-40% above national averages' to unnamed [SECONDARY consensus]; Integrity Home Exteriors appears in the packs ONLY as a roof-repair-PROCESS source (process-standards §1, the inspection/diagnosis/documentation steps), never as the owner of the 10-40% cost premium. The Orange gold and the other five cohort combos (tpo, built-up, pvc, spray-foam) correctly leave this figure unattributed.",
+   "evidence": "'NJ ranges sit 10 to 40% above national figures because labor and code costs run higher, per Integrity Home Exteriors.'",
+   "suggestedFix": "Drop the false attribution: 'NJ ranges sit 10 to 40% above national figures because labor and code costs run higher, per Integrity Home Exteriors.' -> 'NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code.' (matches the other five cohort combos and the Orange gold).",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in faqs[5].answer: \"NJ ranges sit 10 to 40% above national figures because labor and code costs run higher, per Integrity Home Exteriors.\" It misattributes a named source. The materials-economics pack §7 (lines 271-272) attributes the \"~10-40% above national\" NJ premium to \"[SECONDARY consensus]\" — an UNNAMED consensus, not to Integrity Home Exteriors. Across both packs, Integrity Home Exteriors appears ONLY as a roof-repair-PROCESS source (facts-process-standards.md §1-9: inspection, diagnosis, documentation, stabilization, etc.; its sole source URL is a residential roof-repair *process* page), never as the owner of the 10-40% cost premium. The Orange GOLD exemplar for this same combo (orange/commercial-metal-roofing.ts) correctly leaves the figure unattributed with the exact phrasing \"NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code.\" Cross-cohort, the unattributed form is the dominant/correct pattern (commercial-roof-repair, commercial-roof-replacement, tpo, built-up, pvc, spray-foam all use it). The same false attribution also recurs in the pricing.note field (a cross-file recurrence the orchestrator should sweep), but the flagged field is the FAQ answer. This is a real, fixable source-attribution defect; default skepticism of the finding is overcome by the pack evidence and the gold exemplar.",
+   "finalFix": "In faqs[5].answer, replace: \"NJ ranges sit 10 to 40% above national figures because labor and code costs run higher, per Integrity Home Exteriors.\" -> \"NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code.\" (matches the Orange gold and the unattributed cohort siblings). The orchestrator should additionally sweep the identical false attribution out of the pricing.note field: \"NJ ranges sit 10–40% above national figures because labor and code costs run higher, per Integrity Home Exteriors.\" -> \"NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code.\"",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "commercial-metal-roofing",
+   "field": "pricing.note",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "Same mis-pin as faqs[5]: the 10-40% NJ-premium is attributed 'per Integrity Home Exteriors,' which the packs do not support. The $9.00-$16.00/sq ft figure itself IS correctly sourced to Josten Roofing NJ (materials-economics §7, line 286); only the premium attribution is wrong.",
+   "evidence": "'Typical NJ commercial metal range per Josten Roofing NJ pricing; NJ ranges sit 10-40% above national figures because labor and code costs run higher, per Integrity Home Exteriors.'",
+   "suggestedFix": "'...per Josten Roofing NJ pricing; NJ ranges sit 10-40% above national figures because labor and code costs run higher, per Integrity Home Exteriors.' -> '...per Josten Roofing NJ pricing; NJ ranges sit 10-40% above national figures because of higher labor and stricter NJ code.'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim at line 63: \"...NJ ranges sit 10–40% above national figures because labor and code costs run higher, per Integrity Home Exteriors.\" The \"per Integrity Home Exteriors\" attribution on the NJ-premium clause is a genuine mis-pin. In the packs, the \"~10–40% above national\" claim (facts-materials-economics.md §7, line 271) is attributed to \"[SECONDARY consensus]\" — NO named source. \"Integrity Home Exteriors\" IS a real pack source, but only for (a) the roof-repair process steps (facts-process-standards.md) and (b) the labor-60% / emergency +25–50% cost figures (facts-cost-stats.md lines 36–37). It is NOT the source for the bare NJ premium. The $9.00–$16.00/sq ft range is correctly Josten-sourced (facts-materials-economics.md line 286: Metal $9.00–$16.00+, Josten Roofing / NJ guides), so the Josten cite stays. Cross-combo consistency confirms the fix: the committed GOLD sibling Orange/commercial-metal-roofing.ts phrases the identical claim as \"NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code\" with NO attribution; the only committed combos that correctly cite Integrity on the premium clause are the ones that ALSO carry the labor-60% figure (e.g. Orange roof-repair: \"labor accounts for roughly 60%...per Integrity Home Exteriors\"). This Cedar Grove pricing.note has no labor-share figure, so the Integrity cite is unjustified. The same defect exists in faqs[5] (line 56), as the finding notes. This is fixable by removing the bad attribution and keeping the facts, not deleting content. (The finding's own suggestedFix string accidentally retained \"per Integrity Home Exteriors\" in its after-state — a typo; the corrected finalFix below matches the gold form.)",
+   "finalFix": "In pricing.note (line 63), change: \"NJ ranges sit 10–40% above national figures because labor and code costs run higher, per Integrity Home Exteriors.\" → \"NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code.\" (Keep the Josten Roofing NJ pricing attribution earlier in the note unchanged.) Apply the identical fix in faqs[5] (line 56): \"NJ ranges sit 10 to 40% above national figures because labor and code costs run higher, per Integrity Home Exteriors.\" → \"NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code.\"",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "commercial-roof-repair",
+   "field": "overview[3]",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "PVC 20-30 yr lifespan is mis-attributed to the InterNACHI life-expectancy chart. The InterNACHI master chart (facts-materials-economics §0) lists EPDM 15-25, TPO 7-20, modified bitumen 20, and BUR 30 — but does NOT list PVC. PVC 20-30 is sourced ONLY to the Single Ply Roofing Industry / GAF (§359). Bundling 'PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry data' implies InterNACHI charts PVC, which it does not. The sibling combo commercial-roof-installation attributes this correctly (PVC 'per the Single Ply Roofing Industry and GAF', metal/EPDM/TPO/mod-bit 'per InterNACHI'), so this is also a cross-combo inconsistency.",
+   "evidence": "'...EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry data.'",
+   "suggestedFix": "Split the attribution so PVC is not credited to InterNACHI, matching the installation combo. Before: '...modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry data.' After: '...modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF.'",
+   "verdict": "confirmed",
+   "reasoning": "Verified against the fact pack and the sibling combo. The InterNACHI \"Standard Estimated Life Expectancy Chart\" (facts-materials-economics.md §0, lines 44-61) lists EPDM 15-25, TPO 7-20, modified bitumen 20, and BUR 30 — but does NOT list PVC. PVC's 20-30 year figure is sourced only to the Single Ply Roofing Industry / GAF EverGuard (§6, line 359, [SECONDARY-named]). The repair combo's overview[3] (line 14) enumerates all five materials including \"PVC 20 to 30 years\" and then bundles the attribution as \"per the InterNACHI life-expectancy chart and Single Ply Roofing Industry data,\" which grammatically credits the InterNACHI chart for the entire list including PVC — a real source-attribution error. The sibling commercial-roof-installation combo (lines 13 and 41) handles this correctly: \"modified bitumen ... per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF.\" So this is also a confirmed cross-combo inconsistency. The fix relocates the PVC attribution without deleting any fact (all five materials and ranges preserved) and aligns the repair combo to the committed installation combo's exact phrasing. Not a Cedar Grove COA/geography issue, not an entity-grounding issue, not a third-party-license issue — it is a genuine, fixable named-source mis-attribution.",
+   "finalFix": "In src/data/combo-content/cedar-grove/commercial-roof-repair.ts, overview[3] (line 14): BEFORE: \"...EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry data.\" AFTER: \"...EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF.\" (matches the committed commercial-roof-installation sibling's attribution split exactly)",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "commercial-roof-replacement",
+   "field": "overview[2]",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "Same PVC mis-attribution as commercial-roof-repair: PVC 20-30 yr is bundled under 'per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance', but InterNACHI's chart does not list PVC (it is SPRI/GAF only). Recurs in this file's process step and lifespan FAQ as well.",
+   "evidence": "'...EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance.' (recurs at process[1] line 22 and faqs[3]/'What is the typical lifespan...' line 44)",
+   "suggestedFix": "In overview[2], process[1], and the lifespan FAQ, de-couple PVC from InterNACHI. Before: '...built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance.' After: '...and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF.'",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present at overview[2] (line 13) and recurs verbatim at process[1] (line 22) and the lifespan FAQ (faqs[3], line 44), exactly as the finding states. The fact pack confirms the mis-attribution: facts-materials-economics.md §0 is the InterNACHI \"Standard Estimated Life Expectancy Chart\" (verified by direct fetch) and lists EPDM 15-25, TPO 7-20, modified bitumen 20, BUR 30 — but it does NOT list PVC. PVC's 20-30 yr service life lives in a separate §6 (\"added 2026-06-05, Batch 3 research\") sourced explicitly to \"Single Ply Roofing Industry; GAF EverGuard,\" NOT InterNACHI. So bundling PVC's 20-30 yr figure under \"per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance\" co-attributes the PVC claim to a chart that does not contain it. The committed-gold exemption does NOT rescue this: Orange and East Orange carry the identical bundling, but the exemption protects stylistic voice and only carves out COA/geography imports — it does not immunize a factual source-pairing error that the fact pack contradicts. MEMORY confirms committed gold is \"LOOSE on the source-pairing\" and the orchestrator's standing job is exactly this cross-combo re-pairing sweep (same class as the 5:23-6.4 and GAF-granule re-pairings). The figure itself (PVC 20-30 yr per SPRI/GAF) is factually correct, so the fix relocates/re-attributes rather than deletes. Real, fixable, med-severity source-attribution issue — confirmed.",
+   "finalFix": "Apply to all three parallel fields. overview[2] BEFORE: '...EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance.' AFTER: '...EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF.' || process[1] BEFORE: '...EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance — and white PVC and TPO carry high solar reflectance...' AFTER: '...EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF — and white PVC and TPO carry high solar reflectance...' || lifespan FAQ (faqs[3]) BEFORE: 'A new commercial membrane lasts 15 to 25 years for EPDM, 7 to 20 years for TPO, 20 years for modified bitumen, 30 years for built-up roofing, and 20 to 30 years for PVC. The membrane lifespans trace to the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance,...' AFTER: 'A new commercial membrane lasts 15 to 25 years for EPDM, 7 to 20 years for TPO, 20 years for modified bitumen, and 30 years for built-up roofing per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF. A Newark Quality Roofing replacement on the Pompton Avenue and Route 23 corridor matches the membrane to the building and the drainage before tear-off.'",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "fascia-installation-repair",
+   "field": "faqs[4].answer (\"Should I replace the roof when I replace the fascia?\")",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "The repair-vs-replace thresholds are attributed to a generic catch-all source, which the ruleset bans: the 50% rule must pin to WeatherShield/Home Depot and the 25%-area rule to RapidRestore (materials-economics §8). This also appears to be an off-pattern FAQ insertion — no committed sibling fascia file (Newark, Orange, Irvington, Bloomfield, Belleville, Nutley, Maplewood, South Orange) carries a \"Should I replace the roof when I replace the fascia?\" question or this repair-vs-replace rule; their 5th FAQ slot is the permit/historic question. For a fascia (trim) page the whole-roof replace-vs-repair tangent is also weakly relevant.",
+   "evidence": "\"a roof is replaced when damage exceeds 25 to 30 percent of the roof area or one repair approaches 50 percent of replacement cost. The 25-to-30-percent area rule and the 50-percent cost rule are contractor-consensus thresholds, separate from the gutter-and-fascia edge work, per roofing industry guidance.\"",
+   "suggestedFix": "Replace this FAQ with the sibling-canonical 5th-slot fascia question. Before: the \"Should I replace the roof when I replace the fascia?\" FAQ above. After (mirroring Nutley/Orange): question \"Does a fascia repair on a Cedar Grove historic home need extra approval?\" / answer \"Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner fascia repair faces no historic-district restriction; the township maintains only an advisory Heritage Advisory Committee with no landmark-designation or regulatory authority. Per the National Park Service, National Register listing alone places no restriction on a private owner.\" If the repair-vs-replace rule is kept anywhere, re-pin: \"...one repair approaches 50 percent of replacement cost, per WeatherShield and Home Depot, or damage exceeds 25 percent of the roof area, per RapidRestore.\"",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim: \"a roof is replaced when damage exceeds 25 to 30 percent of the roof area or one repair approaches 50 percent of replacement cost. The 25-to-30-percent area rule and the 50-percent cost rule are contractor-consensus thresholds... per roofing industry guidance.\" This is a genuine source-attribution defect. facts-materials-economics.md §8 (the authoritative cross-material table) pins these exact rules to NAMED sources: the 50% rule = WeatherShield/Home Depot/industry, the 25% rule = RapidRestore/MyQuoteIQ, the flat-roof 25–30% rule = Parish/Modernize. The combo bundles all of them under a generic \"per roofing industry guidance\" catch-all, which the ruleset bans whenever a named source exists (the recurring MIS-PAIR fix-class documented in the CMP-3/CMP-4 runbook lessons). Cross-combo check confirms the secondary observation: none of the 8 committed sibling fascia files (Newark, Orange, Irvington, Bloomfield, Belleville, Nutley, Maplewood, South Orange) carries a \"Should I replace the roof when I replace the fascia?\" FAQ — their 5th slot is the permit/historic question, and Cedar Grove already covers permit+historic in FAQ[3]. So the question is off-pattern AND under-attributed. I REJECT the reviewer's suggestedFix of swapping in a new historic-only question — that would DUPLICATE the existing FAQ[3] historic/permit content (and FAQ[3] is already correct per the fact bank: Cedar Grove = NO local HPC, NO COA, advisory Heritage Advisory Committee only, NPS Register-listing-places-no-restriction). The minimal, fact-preserving fix is to re-pin the thresholds to their named sources in place, per the runbook directive to re-attribute rather than delete. No Cedar Grove fact, COA posture, or entity-grounding requirement is violated by the FAQ otherwise.",
+   "finalFix": "In faqs[4].answer, re-attribute the generic catch-all to the named §8 sources. BEFORE: \"A fascia repair stays a trim-level job that does not by itself signal roof replacement; a roof is replaced when damage exceeds 25 to 30 percent of the roof area or one repair approaches 50 percent of replacement cost. The 25-to-30-percent area rule and the 50-percent cost rule are contractor-consensus thresholds, separate from the gutter-and-fascia edge work, per roofing industry guidance.\" AFTER: \"A fascia repair stays a trim-level job that does not by itself signal roof replacement; a roof is replaced when one repair approaches 50 percent of replacement cost, per WeatherShield and Home Depot, or damage exceeds 25 percent of the roof area, per RapidRestore. Those repair-vs-replace thresholds are separate from the gutter-and-fascia edge work.\"",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "aging-roof-replacement",
+   "field": "overview[1]",
+   "severity": "high",
+   "category": "fabrication",
+   "issue": "Fabricated GAF granule-loss threshold. No pack source ties a '30% of surface' granule-loss rule-of-thumb to GAF; facts-materials-economics.md line 83 explicitly marks specific granule-share percentages as [UNVERIFIED] 'invented by an unsourced pass; state qualitatively only.' This is the exact recurring 'GAF 30%-of-surface granule' fabrication swept in prior batches (Batch 7/8 per MEMORY).",
+   "evidence": "'...architectural asphalt 30 years, per the InterNACHI life-expectancy chart, and granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF.'",
+   "suggestedFix": "Delete the fabricated GAF figure and de-quantify: '...architectural asphalt 30 years, per the InterNACHI life-expectancy chart, and widespread granule loss that exposes the asphalt mat signals a covering past its service life. A Newark Quality Roofing replacement targets a covering past its design life...' (drop ', per GAF' and the '30% of the surface' threshold entirely).",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in src/data/combo-content/cedar-grove/aging-roof-replacement.ts overview[1]: \"...and granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF.\" This is a real, fixable fabrication on two counts. (1) Source-attribution: facts-materials-economics.md does NOT tie a \"30% of the surface\" granule-loss-beyond-repair rule to GAF. The only \"30%\" figure in the pack is the repair-vs-replace AREA-DAMAGE threshold (line 88, the \"25%/30% rule\") sourced to RapidRestore/MyQuoteIQ/Kellow contractor consensus, NOT GAF; and line 83 explicitly flags invented specific granule-SHARE percentages as [UNVERIFIED], \"state qualitatively only.\" Conflating an area-damage rule into a \"granule loss exceeding 30% of the surface\" claim and pinning it solely on GAF is unsupported. (2) Cross-combo / gold consistency: the freshest committed same-service sibling, south-orange/aging-roof-replacement.ts, de-quantifies this exact aging-replacement context to \"Widespread granule loss that exposes the asphalt mat marks shingles near end of life, per GAF and InterNACHI.\" The quantified \"30% of the surface, per GAF and InterNACHI\" form only survives in committed gold in the ROOF-CLEANING context (glen-ridge/roof-cleaning-moss-removal.ts), and even there it is paired \"GAF and InterNACHI,\" never \"per GAF\" alone. So Cedar Grove's aging-replacement overview both imports the wrong-context quantified figure AND mis-attributes it to GAF only. This matches the recurring \"GAF 30%-of-surface granule\" fabrication swept in Batches 6/7/8 per MEMORY. Not a Cedar Grove fact issue (COA posture/reservation/Census all untouched by the fix) and not a third-party-credential misuse. The lifespan clause (\"3-tab 20 years / architectural 30 years, per the InterNACHI life-expectancy chart\") and the Census sentence are correct and preserved; only the fabricated GAF-30% clause is rewritten to the committed gold qualitative form rather than deleted, keeping the named-source attribution.",
+   "finalFix": "In src/data/combo-content/cedar-grove/aging-roof-replacement.ts, overview[1], replace the clause \"and granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF.\" with \"and widespread granule loss that exposes the asphalt mat marks shingles near end of life, per GAF and InterNACHI.\"\n\nBEFORE: '**Aging asphalt** marks most Cedar Grove re-roofs, where 3-tab asphalt lasts 20 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart, and granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF. A Newark Quality Roofing replacement targets a covering past its design life across the township\\'s predominantly single-family stock, 76.3% owner-occupied across 5,008 housing units, per the U.S. Census Bureau.'\n\nAFTER: '**Aging asphalt** marks most Cedar Grove re-roofs, where 3-tab asphalt lasts 20 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart, and widespread granule loss that exposes the asphalt mat marks shingles near end of life, per GAF and InterNACHI. A Newark Quality Roofing replacement targets a covering past its design life across the township\\'s predominantly single-family stock, 76.3% owner-occupied across 5,008 housing units, per the U.S. Census Bureau.'",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "roof-replacement-after-leak",
+   "field": "process[0] and faqs[0].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "Mis-paired repair-vs-replace rule sources. The 50% cost rule is attributed to 'Kellow, Modernize, and Josten,' but per facts-materials-economics.md §8 the 50% rule's sources are WeatherShield/Home Depot; Kellow pairs to the 25%-area rule and Modernize/Josten to the 30% rule. The named set does not contain a valid 50%-rule source.",
+   "evidence": "'Replacement is quoted after damage crosses 25–30% of the roof area or one repair nears 50% of replacement cost, the contractor-consensus thresholds, per Kellow, Modernize, and Josten repair-vs-replace guidance' (process[0]); same pairing repeats in faqs[0].answer ('...or when one repair nears 50% of replacement cost, per Kellow, Modernize, and Josten...').",
+   "suggestedFix": "Re-pair per the packs: keep the 25–30% area rule to Kellow/RapidRestore and pin the 50% cost rule to WeatherShield/Home Depot — e.g. '...damage crosses 25–30% of the roof area, per Kellow and RapidRestore, or one repair nears 50% of replacement cost, per WeatherShield and Home Depot...'. Apply to both process[0] and faqs[0].answer.",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present exactly as described in both process[0] (\"...one repair nears 50% of replacement cost, the contractor-consensus thresholds, per Kellow, Modernize, and Josten repair-vs-replace guidance...\") and faqs[0].answer (\"...or when one repair nears 50% of replacement cost, per Kellow, Modernize, and Josten...\"). This violates the named-source mapping in facts-materials-economics.md §8 (and §85-92): the 50% rule sources are WeatherShield / Home Depot / industry (§305); Kellow / Modernize / Josten are the sources for the 30% cost rule (§306, §90), NOT the 50% rule; the 25% area rule sources are RapidRestore / MyQuoteIQ (§307). So the named set Kellow/Modernize/Josten contains no valid 50%-rule source — it is the 30%-rule trio mis-pinned to the 50% threshold. The gold exemplar (committed Orange combo) correctly attributes the 50% rule to \"WeatherShield and roofing-industry guidance,\" and every committed sibling that states the 50% cost rule (Newark, East Orange, Orange, Belleville, Nutley, West Orange, Bloomfield, Glen-Ridge, Irvington) pins it to WeatherShield — never to Kellow/Modernize/Josten alone. Cedar-grove is the lone outlier mis-pairing the 50% cost rule exclusively to the NJ-blog trio. This is a real, fixable source-attribution defect, not a gold-voice match. No Cedar Grove COA/geography/entity-grounding facts are implicated (those fields are correct: COA NONE, advisory Heritage Advisory Committee, registered NJ HIC).",
+   "finalFix": "process[0]: BEFORE — \"Replacement is quoted after damage crosses 25–30% of the roof area or one repair nears 50% of replacement cost, the contractor-consensus thresholds, per Kellow, Modernize, and Josten repair-vs-replace guidance, and a localized repair costs 5 to 10 times less than replacement only while the roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data.\" → AFTER — \"Replacement is quoted after damage crosses 25–30% of the roof area, the contractor-consensus area threshold per RapidRestore and Kellow, or one repair nears 50% of replacement cost, per WeatherShield and Home Depot repair-vs-replace guidance, and a localized repair costs 5 to 10 times less than replacement only while the roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data.\"\n\nfaqs[0].answer: BEFORE — \"Replacement is indicated when a leak recurs across repairs, when damage exceeds 25–30% of the roof, when the deck is soft or delaminated, or when one repair nears 50% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance.\" → AFTER — \"Replacement is indicated when a leak recurs across repairs, when damage exceeds 25–30% of the roof, when the deck is soft or delaminated, or when one repair nears 50% of replacement cost, per WeatherShield and Home Depot repair-vs-replace guidance.\"",
+   "city": "cedar-grove"
+  }
+ ],
+ "low": [
+  {
+   "combo": "roof-inspection",
+   "field": "faqs[0].answer",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The ARMA 25–30% figure in the fact pack (facts-causes-signs.md: 'ARMA: proper MAINTENANCE can extend shingle lifespan by ~25–30%') is applied here to an INSPECTION cadence rather than to maintenance, slightly over-claiming what the source supports (an inspection alone does not extend shingle life by 25–30%; maintenance does). The value and source are real but the subject drifts. Note the same file's process[1] correctly de-quantifies the ventilation point ('balanced ventilation extends roof service life, per the NRCA'), so this is the only mis-subjected instance.",
+   "evidence": "...a documented inspection at that cadence extends asphalt-shingle service life by roughly 25–30%, per ARMA.",
+   "suggestedFix": "Re-pin the 25–30% to maintenance, not inspection. Before→After: '...a documented inspection at that cadence extends asphalt-shingle service life by roughly 25–30%, per ARMA.' → '...and proper maintenance on that cadence extends asphalt-shingle service life by roughly 25–30%, per ARMA.'",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "slate-roof-installation-repair",
+   "field": "overview[1]",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "Minor internal phrasing inconsistency: the lead asserts tiles 'are replaced indefinitely, the deck and nailers staying sound' as an absolute, but the same file's challenges[0] correctly frames the limiter as corroded fasteners/flashing failing first. The 'indefinitely' absolute reads slightly stronger than the pack ('Individual tiles can be replaced indefinitely IF the deck/nailers are sound' — materials-economics §2). The conditional is present but buried; this is template-consistent with committed siblings (Bloomfield/Belleville carry the same phrasing) so it is borderline-KEEP.",
+   "evidence": "overview[1]: '...so a slate roof on a Cedar Grove period home stays serviceable while individual tiles are replaced indefinitely, the deck and nailers staying sound.'",
+   "suggestedFix": "Optional only (KEEP if matching committed siblings): tighten to '...while individual tiles are replaced one by one so long as the deck and nailers stay sound, per National Slate Association guidance.' No factual error; leave as-is if sibling-consistent.",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "metal-roof-installation-repair",
+   "field": "faqs[5].answer / pricing",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "The cost FAQ leads with the replacement range ($10,000-$25,000) but the pricing.range field is also the replacement default ($10,000-$25,000), while the FAQ then adds a repair range ($200-$1,000 / up to $3,000 for corrosion, per Modernize). All figures are correctly pack-sourced (HomeAdvisor/Modernize NJ replacement; Modernize §3 metal repair). This is consistent and acceptable per brief §E (roof-type services use the replacement default). No fix required — noted only for completeness; the repair-vs-replacement split is handled the same way in the committed metal siblings.",
+   "evidence": "pricing.range '$10,000–$25,000'; faqs[5] 'while a metal roof repair runs $200–$1,000 for a minor leak, up to $3,000 for severe corrosion, per Modernize.'",
+   "suggestedFix": "No change needed. All figures trace to named pack sources ($200–$1,000 minor leak / up to $3,000 corrosion = facts-materials-economics §3 Modernize; $10,000–$25,000 = §7 HomeAdvisor/Modernize NJ). Retain.",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "epdm-commercial-roofing",
+   "field": "process[1], faqs[3].answer, and recurring across built-up[challenges 2 / process 0 / faqs 4], modified-bitumen[faqs 4], pvc[faqs 2], spray-foam[overview 3 / process 0 / faqs 1]",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "Cross-combo inconsistency in how N.J.A.C. 5:23-6.4 is stated. TPO and commercial-metal cite the FULL statutory recover-trigger list ('water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers'); EPDM, built-up, modified-bitumen, pvc, and spray-foam cite only the abbreviated subset ('water-soaked or already carries 2 or more layers'). Both are factually accurate (5:23-6.4 lists these as separate triggers per nj-regulatory-climate §1.4), and the abbreviated form is legitimate where the membrane-recover context is about moisture/layer count rather than incumbent material — so this is a precision/consistency note, not a fabrication. Reviewer-rule preference is the full list where the recover triggers are enumerated.",
+   "evidence": "epdm process[1]: 'The NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.' (vs TPO's full 'wood shake, slate, clay, cement, or asbestos-cement tile' enumeration)",
+   "suggestedFix": "Optional consistency tightening: where the 5:23-6.4 recover triggers are enumerated as the gate, use the full list to match TPO/metal — e.g. '...when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.' Leave the abbreviated form only where the surrounding clause is specifically about moisture/layer count on an existing membrane recover.",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "roof-thermal-imaging-inspections",
+   "field": "faqs[3].answer",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "The historic-district FAQ for a thermal imaging inspection asserts the no-COA conclusion using 'a homeowner reroof in Cedar Grove faces no historic-district restriction' — but the page topic is a non-destructive scan, not a reroof. The conclusion is factually correct (Cedar Grove has no COA), but the subject noun mismatches the service. The commercial FAQs in this cohort correctly mirror the service ('so a commercial roof installation/repair/replacement... faces no...'). Minor topical-precision nit.",
+   "evidence": "'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof in Cedar Grove faces no historic-district restriction.'",
+   "suggestedFix": "Match the subject to the service. Before: '...so a homeowner reroof in Cedar Grove faces no historic-district restriction.' After: '...so a roof thermal imaging inspection in Cedar Grove faces no historic-district restriction.' (The closing sentence 'A non-destructive thermal scan alters nothing in any case.' already covers the scan; keeping it is fine.)",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "infrared-roof-leak-detection",
+   "field": "faqs[2].answer",
+   "severity": "low",
+   "category": "consistency",
+   "issue": "Same subject mismatch as the thermal file: the permit/historic FAQ for an infrared scan uses 'a homeowner reroof in Cedar Grove faces no historic-district restriction' where the service is a scan, not a reroof. Conclusion is correct (no COA in Cedar Grove); only the subject noun is off-topic.",
+   "evidence": "'Cedar Grove has no local Historic Preservation Commission and no Certificate-of-Appropriateness process, so a homeowner reroof in Cedar Grove faces no historic-district restriction...'",
+   "suggestedFix": "Before: '...so a homeowner reroof in Cedar Grove faces no historic-district restriction...' After: '...so an infrared roof leak detection scan in Cedar Grove faces no historic-district restriction...'",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "commercial-roof-repair",
+   "field": "faqs[5].answer (cost)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The 'NJ ranges sit 10 to 40% above national figures' figure is stated as fact without a named source. In the pack (facts-materials-economics §271) the 10-40% NJ premium is a [SECONDARY consensus] figure carrying no single named source, and the gold exemplar (Orange roof-repair) pins this multiplier to 'per Integrity Home Exteriors.' Stating it unattributed weakens the named-source discipline (R5). Same pattern in commercial-roof-replacement cost FAQ.",
+   "evidence": "'...and NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code.'",
+   "suggestedFix": "Attribute or soften. Before: '...and NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code.' After: '...and NJ ranges typically run roughly 10 to 40% above national figures, an industry-aggregate consensus reflecting higher labor and stricter NJ code.' (or pin to a named aggregator if one is chosen as canonical for this multiplier).",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "commercial-roof-replacement",
+   "field": "faqs[5].answer (cost)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Same unattributed '10 to 40% above national' multiplier as commercial-roof-repair (pack §271 is [SECONDARY consensus] with no single named source). Keep the cohort consistent with whatever framing is chosen for the repair file.",
+   "evidence": "'...NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code.'",
+   "suggestedFix": "Apply the same fix chosen for commercial-roof-repair: either soften to 'an industry-aggregate consensus' framing or pin to a named source, identically across both cost FAQs.",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "commercial-roof-repair",
+   "field": "faqs[5].answer (cost)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The '$300 to $1,100 for a typical repair' flat-roof figure is bundled under 'per HomeGuide, Modernize, and WeatherShield', but in the pack the $2.50-$10.00/sq ft and $300-$1,100 figures are HomeGuide (§201) while the seam re-weld $200-$400 / section replace $500-$1,000 figures are Modernize/WeatherShield (§204). WeatherShield is over-credited to the $300-$1,100 line. All three sources are in-pack, so this is a minor pairing imprecision rather than a fabrication.",
+   "evidence": "'Commercial flat-roof repair in New Jersey costs $2.50 to $10.00 per square foot, or $300 to $1,100 for a typical repair, per HomeGuide, Modernize, and WeatherShield cost data.'",
+   "suggestedFix": "Pin the per-sq-ft / $300-$1,100 figure to HomeGuide and keep Modernize/WeatherShield on the seam/section figures. Before: '...$300 to $1,100 for a typical repair, per HomeGuide, Modernize, and WeatherShield cost data. A membrane seam re-weld runs $200 to $400 and a section replacement $500 to $1,000...' After: '...$300 to $1,100 for a typical repair, per HomeGuide. A membrane seam re-weld runs $200 to $400 and a section replacement $500 to $1,000, per Modernize and WeatherShield...'",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "roof-flashing-installation-repair",
+   "field": "faqs[5].answer (\"How much does roof flashing repair cost in Cedar Grove, NJ?\")",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The \"NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code\" claim is left unattributed here, whereas the gold Orange exemplar and the other cost FAQs that use this same 10–40% figure attribute it (e.g., \"per Integrity Home Exteriors\"). Cross-combo consistency: the same recurring stat should carry the same named source.",
+   "evidence": "\"...and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, pitch, material, and access.\"",
+   "suggestedFix": "Before: \"...and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code.\" After: \"...and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Integrity Home Exteriors.\"",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "silicone-elastomeric-roof-coating",
+   "field": "faqs[2].answer",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The quantified flat-roof replace-vs-recoat threshold '25–30% of the area' is stated with no in-text source. The figure itself is legitimate (it is the flat-roof 25–30% rule, attributed in facts-materials-economics.md §8 to Parish/Modernize/HomeGuide), but the sentence names no source, unlike the gold pattern where every hard number is name-sourced in prose. The preceding clause cites the RCMA only for the recoat-economics, not for this percentage.",
+   "evidence": "'Replace the roof instead when saturation spreads or the membrane fails across more than 25–30% of the area.' (no source named for the 25–30% figure)",
+   "suggestedFix": "Add the named source for the flat-roof rule: 'Replace the roof instead when saturation spreads or the membrane fails across more than 25–30% of the area, per Parish and Modernize.' (i.e. attribute the figure to the flat-roof 25–30% rule source rather than leaving it unsourced).",
+   "city": "cedar-grove"
+  },
+  {
+   "combo": "re-roofing",
+   "field": "process[0]",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "Bundled rule-source attribution. The 25% rule and 50% rule are jointly attributed to 'RapidRestore, WeatherShield, and Home Depot,' lumping both rules' sources together. Each named source is individually correct (RapidRestore=25%, WeatherShield/Home Depot=50%), but the joint citation blurs the pairing. Committed gold is loose here, so this is minor.",
+   "evidence": "'Damage across more than 25 to 30% of the roof area crosses the 25% rule and a repair approaching 50% of replacement cost crosses the 50% rule, per RapidRestore, WeatherShield, and Home Depot cost data'",
+   "suggestedFix": "Split the attribution for precision: '...crosses the 25% rule, per RapidRestore, and a repair approaching 50% of replacement cost crosses the 50% rule, per WeatherShield and Home Depot cost data...'. Optional — acceptable as-is given gold tolerance.",
+   "city": "cedar-grove"
+  }
+ ],
+ "byCohort": [
+  {
+   "cohort": "cedar-grove:repair-maintenance",
+   "confirmed": 2,
+   "refuted": 0,
+   "low": 1,
+   "failed": false
+  },
+  {
+   "cohort": "cedar-grove:residential-roof-types",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 2,
+   "failed": false
+  },
+  {
+   "cohort": "cedar-grove:commercial-roof-types",
+   "confirmed": 2,
+   "refuted": 0,
+   "low": 1,
+   "failed": false
+  },
+  {
+   "cohort": "cedar-grove:commercial-services",
+   "confirmed": 2,
+   "refuted": 0,
+   "low": 5,
+   "failed": false
+  },
+  {
+   "cohort": "cedar-grove:components-specialty",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 1,
+   "failed": false
+  },
+  {
+   "cohort": "cedar-grove:design-consultation",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 0,
+   "failed": false
+  },
+  {
+   "cohort": "cedar-grove:energy-solar",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 1,
+   "failed": false
+  },
+  {
+   "cohort": "cedar-grove:replacement-A",
+   "confirmed": 2,
+   "refuted": 0,
+   "low": 1,
+   "failed": false
+  },
+  {
+   "cohort": "cedar-grove:replacement-B",
+   "confirmed": 0,
+   "refuted": 0,
+   "low": 0,
+   "failed": false
+  }
+ ]
+}

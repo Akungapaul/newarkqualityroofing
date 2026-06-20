@@ -1,0 +1,17 @@
+# west-orange/tpo-roofing-installation — rewrite rationale
+
+De-fab literals cleared from the CURRENT file:
+- Price-in-lead + hype ("with prices starting from $7–$12/sq ft and free estimates available today"); the old `$7–$12/sq ft` pricing tier (→ replacement default `$10,000–$25,000`, with $8–$12/sf cited to Josten in the note + cost FAQ).
+- The elevation fabrication engine: "ridge-to-valley geography," ridge winds "20 to 30 percent" / "elevated wind zone," "above 300 feet elevation," "170-plus-degree annual range," "below zero" ridge temps, "energy modeling," reduced-circulation valley heat — all numeric elevation/gust/percentage claims DELETED; kept only qualitative First Watchung ridge + reservation-edge canopy.
+- Fabricated streets/sections: "Pleasant Valley Way and Eagle Rock Avenue" as ridge-top commercial claim, "Eagle Rock Avenue" wind framing — DROPPED. Kept only verified sections (St. Cloud, Gregory, Pleasantdale) + the Main Street / Valley Road / Route 280 commercial spine. (Eagle Rock *Reservation* retained per §C as a verified West Orange reservation.)
+- Fabricated specs/guarantees: "1.5-inch weld width exceeding 1-inch minimum," "60-mil minimum," "robotically welded," "5 percent moisture," "48-hour code maximum," "our own 10-year workmanship guarantee," "manufacturer warranty ranging from 15 to 25 years," cool-roof "rebates and utility incentive programs," "carbon footprints" — DELETED/de-quantified to sourced facts.
+- whyChooseUs templated trust line ("NJ licensed, GAF Certified — 15+ years…," "Premium materials from GAF, CertainTeed, and Owens Corning…," "same-day estimates and 24/7 emergency response") → registered HIC / fully insured framing.
+- conversionHooks.urgencyNote hype → factual tapered-drainage/seam-welding note. Inline self-link `[TPO roofing installation](/tpo-roofing-installation)`, `[Livingston](...)`, `[West Orange](...)` → stripped (zero links).
+
+Entity-grounding applied:
+- directAnswer entity-grounded, bold span 34 words ("…roofing contractor providing tpo roofing installation across West Orange, New Jersey, and Essex County…"), credential tail "as a registered New Jersey Home Improvement Contractor" outside the bold. No `definition` field (spliced post-assembly).
+- Credential = "registered New Jersey Home Improvement Contractor" / "fully insured" only; no "licensed" for NQR anywhere.
+
+West Orange differentiation foregrounded: low-slope commercial spine (Main Street / Valley Road / Route 280), reservation-edge St. Cloud canopy on drains, narrow LANDMARK-ONLY COA (Section 25-30; Holy Trinity Episcopal Church, State Diner, Hedges Block — typical reroof needs none), Llewellyn Park PRIVATE 1857 deed covenant (not a township COA), Township of West Orange Building & Construction Code Enforcement office.
+
+Named sources cited in-text: InterNACHI life-expectancy chart (TPO 7–20 yr, EPDM 15–25, BUR 30, PVC 20–30 via SPRI/GAF); Progressive Materials (15–25 yr field practice); NRCA and ARMA (¼" / foot slope, 48-hr ponding defect); single-ply membrane field-failure guidance (welded seam = most common failure); ASTM C1549 + CRRC (70–85% reflectance); N.J.A.C. 5:23-2.7 (25% rule / ordinary-maintenance) + 5:23-6.4 (recover limits) per NJ UCC; Josten Roofing NJ pricing ($8–$12/sf TPO); HomeAdvisor + Modernize (replacement range); Owens Corning warranty guidance; Essex County Parks (reservations); West Orange Historic Preservation Commission / Section 25-30; National Park Service (National Register listing places no restriction on a private owner).

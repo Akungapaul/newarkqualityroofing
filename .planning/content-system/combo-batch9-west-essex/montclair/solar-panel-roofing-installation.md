@@ -1,0 +1,18 @@
+# montclair/solar-panel-roofing-installation — rewrite rationale
+
+**De-fab literals cleared (from the current combo file):**
+- Price-in-lead in overview[0] ("prices starting from $18,000–$35,000 and free estimates available today") + the whole full-solar-installer framing (NQR was wrongly cast as the solar installer running shading/microinverter/incentive analysis).
+- whyChooseUs trust block: "NJ licensed, GAF Certified — 15+ years," "Premium materials from GAF, CertainTeed, and Owens Corning," "same-day estimates and 24/7 emergency response" → replaced with registered-HIC / fully-insured factual reasons.
+- conversionHooks.urgencyNote "Early action saves thousands" / "minor damage to become a major expense" → factual re-roof-before-array note.
+- Old pricing range `$18,000–$35,000` ("full solar panel roof integration") → sourced `$10,000–$25,000` roofing-scope range (HomeAdvisor/Modernize).
+- Inline markdown self-links ([Caldwell], [Roseland], [solar panel roofing], [Montclair]) stripped to plain prose.
+- Unsourced "thirty percent federal ITC" + "forty to fifty percent" incentive math dropped (the §25D residential credit is repealed for systems completed after Dec 31, 2025, per the IRS) — incentives reframed out; NQR is the roofer, not a tax/solar advisor.
+- "Township electrical inspector" / fabricated production-estimate framing dropped; geography kept qualitative (no elevation/gust/canopy number).
+
+**Reframe (per the rewritten service layer, energy-solar.ts):** NQR handles the ROOFING SIDE of rack-mounted PV — watertight mount flashing, roof-structure load verification, roof-age-before-solar, and fire/electrical + historic code coordination — and coordinates with the solar installer. Not cast as the solar installer.
+
+**Entity-grounding:** directAnswer = "Newark Quality Roofing is a roofing contractor … across Montclair, New Jersey, and Essex County …" (bold span 38w) + "as a registered New Jersey Home Improvement Contractor" tail. No `definition` field (spliced post-assembly). No "licensed" for NQR; "fully insured" in whyChooseUs.
+
+**Named sources cited in-text:** NRCA Rooftop PV Guidelines + IronRidge (under-course flashing); NRCA + Solar Power World (mount flashing matches roof-covering manufacturer, deviation voids warranty); ASCE 7 (uplift/ballast, structure dead-load verification); NREL + DOE (25–30+ yr module life, ~0.5%/yr degradation to ~85–88%); NEC 690.12 (rapid shutdown ≤30 V outside boundary within 30 s); IRC R324.6 (firefighter access pathways + ridge setback); SPRI (low-slope ballasted/mechanically-attached mounting); InterNACHI life-expectancy chart (covering lifespan); N.J.A.C. 5:23-2.7 (detached 1–2-family reroof = ordinary maintenance); HomeAdvisor + Modernize (NJ roof-replacement range); Township of Montclair Housing Element (large pre-WWII majority, qualitative); National Park Service (National Register listing alone = no federal restriction); Township of Montclair Building Office (permit path).
+
+**Montclair-distinct anchors foregrounded:** CONDITIONAL local COA — appearance-changing exterior roofing in the four locally designated districts (Town Center, Upper Montclair Business, Pine Street, Watchung Plaza) or on a local landmark requires a Certificate of Appropriateness from the Montclair Historic Preservation Commission under Article XXIII of Chapter 347 §347-136; in-kind exempt; Estate Section nominated-not-designated. Architecturally diverse Victorian/Queen Anne/Tudor/Craftsman/Colonial Revival pre-war stock; plank/deteriorated sheathing at tear-off; ~54% multi-unit + Bloomfield Avenue/Watchung Plaza/Upper Montclair low-slope commercial stock; steep turret/dormer/valley geometry. No Village-/township-wide COA; no sibling anchors imported.

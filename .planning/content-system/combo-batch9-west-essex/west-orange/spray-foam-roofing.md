@@ -1,0 +1,12 @@
+# west-orange/spray-foam-roofing — rewrite rationale
+
+De-fab literals cleared from the current combo file:
+- Price-in-lead "prices starting from $4–$8/sq ft and free estimates available today" → moved price to `pricing`/cost FAQ only; entity-grounded answer-first lead.
+- whyChooseUs "NJ licensed, GAF Certified — 15+ years", "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties", "same-day estimates and 24/7 emergency response" → replaced with registered-HIC/fully-insured factual reasons.
+- conversionHooks "Early action saves thousands" → factual coating-maintenance note.
+- Inline markdown self-links `[spray foam roofing](/…)`, `[East Orange](…)`, `[West Orange](…)` → stripped (zero links).
+- Fabricated facts removed: "across the township's full elevation range," "ridge-top West Orange locations / sustained wind exposure," wind ">15 mph overspray" + "afternoon gusts" elevation engine, "Pleasant Valley Way numerous degraded-insulation properties," "reduce heating/cooling costs 15–25%," and the unsourced R-6.5/R-13/coating-renewal-without-attribution figures.
+
+Named sources cited in-text: aged R-6.0–R-6.5/in (ICC-ES reports, ASTM C1289 LTTR testing, SPFA); 30+-yr foam life + 10–20-yr recoat / acrylic 10–15, silicone 15–20 (SPFA and SPF manufacturers); positive-drainage + ponding-48hr + ¼-in/ft (NRCA and ARMA); TPO welded-seam / EPDM seam-separation failure modes (InterNACHI life-expectancy chart, NRCA); recover-over-existing <2 layers, 25% rule (N.J.A.C. 5:23-6.4, N.J.A.C. 5:23-2.7); cool-roof reflectance (CRRC, ENERGY STAR dropped per sweep); warranty split (Owens Corning warranty guidance); reservation-edge canopy (Essex County Parks); $4–$8/sq ft installed (commercial roofing cost guides).
+
+Entity-grounding: directAnswer bold span 38w (roofing contractor + "West Orange, New Jersey" + Essex County + SPF scope clauses), credential tail "registered New Jersey Home Improvement Contractor" outside the bold; no `definition` field (spliced post-assembly). Permit office named by function (Township of West Orange Building & Construction Code Enforcement). COA framing N/A for SPF (commercial low-slope service, no historic-landmark angle) — kept out per the narrow-landmark-only posture. Geography limited to verified Main Street / Valley Road / Route 280 spine + South Mountain/Eagle Rock reservation-edge + St. Cloud; no Llewellyn Park / elevation / fabricated streets.

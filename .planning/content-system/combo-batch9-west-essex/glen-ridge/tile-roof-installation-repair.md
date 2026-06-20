@@ -1,0 +1,16 @@
+# glen-ridge / tile-roof-installation-repair — rewrite rationale
+
+De-fab literals cleared from the current file:
+- Deleted the price-in-lead ("prices starting from $18,000–$40,000 and free estimates available today") and the old invented `$18,000–$40,000` pricing tier; replaced with the sourced tile-repair range `$500–$2,500` per HomeGuide.
+- Deleted the `whyChooseUs` block ("NJ licensed, GAF Certified — 15+ years…", "Premium materials from GAF, CertainTeed, and Owens Corning…", "same-day estimates and 24/7 emergency response") → replaced with the registered-NJ-HIC / fully-insured / free-written-estimate / photo-documentation lines.
+- Deleted the fabricated "Mediterranean Revival / Spanish Colonial" dominant-style framing and the invented artisanal-tile / salvage "sourcing network" prose; corrected to the verified pre-WWII Victorian/Edwardian/Tudor/Colonial-Revival/Dutch-Colonial stock and qualitative "match profile and color of the existing tile."
+- Replaced "Early action saves thousands" `urgencyNote` with a factual water-damage line; rewrote the cost FAQ to drop the fabricated $18,000–$40,000 / $35,000–$70,000 figures and use the sourced range + free-written-estimate framing.
+- No inline markdown self-links existed; none added (zero links anywhere).
+
+COA correction (the key Glen Ridge fix): framed the binding LOCAL **Chapter 15.32 Certificate of Appropriateness** under the Glen Ridge Historic Preservation Commission, with the historic district covering **over 90% of the borough** (NOT "every home"/100%), explicitly NOT the 1982 National Register listing (per NPS, listing alone places no federal restriction). A detached 1–2-family reroof remains no-permit ordinary maintenance under N.J.A.C. 5:23-2.7. Permit office named as the Borough of Glen Ridge Building Department at 825 Bloomfield Avenue (no Construction Official named).
+
+Entity-grounding: `directAnswer` opens "Newark Quality Roofing is a roofing contractor providing tile roof installation repair across Glen Ridge, New Jersey, and Essex County…" (bold span 39 words) with the credential tail "as a registered New Jersey Home Improvement Contractor" outside the bold. No `definition` field (spliced post-assembly). Credential is "registered New Jersey Home Improvement Contractor, fully insured" everywhere; no "licensed" for NQR.
+
+Named sources cited in-text: InterNACHI life-expectancy chart (clay/concrete tile 100+ yrs); Tile Roofing Industry Alliance (underlayment = lifespan limiter; concrete 40–75 yrs; foot-traffic/impact breakage; ridge-mortar and fastener failure; maintenance); HomeGuide tile-repair cost data ($500–$2,500, $50–$300/tile, flashing $400–$3,000); N.J.A.C. 5:23-2.7 (ordinary-maintenance reroof + structural/25% permit triggers) and N.J.A.C. 5:23-6.4 (Rehabilitation Subcode complete-removal of clay/tile); the Borough of Glen Ridge (historic district >90% coverage); the National Park Service (National Register no-restriction); the NJ Uniform Construction Code.
+
+Geography kept qualitative and verified: mature street-tree canopy (oak/maple/elm) as the defining lowland stressor; pre-WWII high-style multi-gable rooflines; plank/deteriorated sheathing at tear-off; Bloomfield Avenue station edge. No reservation/ridge-elevation claim, no population/units integer, no pre-1940 %, no fabricated streets.

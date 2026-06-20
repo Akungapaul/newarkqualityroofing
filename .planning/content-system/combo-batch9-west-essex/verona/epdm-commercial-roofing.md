@@ -1,0 +1,17 @@
+# verona/epdm-commercial-roofing — rewrite rationale
+
+**De-fab literals cleared from the current file:**
+- Price-in-lead `$6–$11/sq ft` in `overview[0]` + "free estimates available today" hype → replaced with an entity-grounded, figure-free answer-first lead. The old invented `$6–$11/sq ft` pricing tier → replaced with the service-layer's Josten-sourced EPDM range `$7.00–$10.00/sq ft installed`.
+- `whyChooseUs` "NJ licensed, GAF Certified — 15+ years…", "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties", "same-day estimates and 24/7 emergency response" → de-fabbed to registered-HIC / fully-insured / local-crew / photo-documentation reasons (no certs, no years, no brands, no response-time).
+- `conversionHooks.urgencyNote` "Early action saves thousands" → factual interior/structural-water-damage framing.
+- Inline markdown self-links `[EPDM commercial roofing](/epdm-commercial-roofing)` and `[West Orange](/epdm-commercial-roofing-west-orange-nj)` → stripped (and the West Orange cross-city reference dropped entirely — forbidden sibling geography).
+- Unsourced "one to two percent over 20 years" shrinkage figure and the unattributed "160-degree summer roof surfaces / sub-zero winters / 25 years or more" claims → de-quantified or replaced with named-sourced facts; "Verona's tree canopy" canopy reference kept qualitative and tied to the verified Eagle Rock/Hilltop reservation-edge framing via the Peckman corridor.
+- NQR `definition` field omitted per §0.2 (spliced post-assembly).
+
+**Entity-grounding applied:** `directAnswer` reframed to "Newark Quality Roofing is a roofing contractor providing EPDM commercial roofing across Verona, New Jersey, and Essex County… as a registered New Jersey Home Improvement Contractor" (bold span 33 words, credential tail outside the bold). Credential = "registered New Jersey Home Improvement Contractor, fully insured" throughout.
+
+**Verona localization:** Bloomfield Avenue + Pompton Avenue (NJ Route 23) corridor storefronts as the commercial low-slope stock; permit office = Township of Verona Department of Building and Inspections, Municipal Building, 600 Bloomfield Avenue (no Construction Official named); Peckman River drainage along Bloomfield Avenue and Lakeside Avenue near Verona Park kept qualitative. No HPC-review angle needed for a commercial-membrane service (no historic gate triggered). No fabricated streets/sections, no South Mountain/Mills, no COA literal.
+
+**Named sources cited (all from the fact packs / service base):** InterNACHI life-expectancy chart (EPDM 15–25 yrs; TPO 7–20; modified bitumen 20); Progressive Materials service-life study (EPDM 25–30 yrs); NRCA technical guidance (seam separation = dominant failure mode; shrinkage/creep secondary); NRCA + ARMA (¼"/ft slope, ponding >48 hrs = defect); N.J.A.C. 5:23-2.7 (25% rule / ordinary-maintenance) and N.J.A.C. 5:23-6.4 (Rehab Subcode water-soaked / 2+ layers); ASCE 7 as adopted by the NJ UCC (wind-uplift attachment); Parish/Modernize/HomeGuide (25–30% flat-roof replacement threshold) and HomeAdvisor (recurring-leak systemic failure); Josten Roofing NJ ($7.00–$10.00/sq ft installed) + HomeGuide ($2.50–$10.00/sq ft flat-roof repair) + NJ 10–40%-above-national framing; Owens Corning warranty guidance (workmanship vs material warranty).
+
+5 FAQs (one cost FAQ with Josten/HomeGuide range + free-written-estimate framing; no redundant "Who provides…" FAQ). directAnswer bold span = 33 words.

@@ -1,0 +1,50 @@
+{
+ "confirmedCount": 1,
+ "refutedCount": 0,
+ "lowCount": 2,
+ "confirmed": [
+  {
+   "combo": "custom-roof-design-consultation",
+   "field": "faqs[4].answer",
+   "severity": "med",
+   "category": "source-attribution",
+   "issue": "Repair-vs-replace thresholds are mis-paired to their named sources. The sentence attributes BOTH the 25-30%-of-roof-area rule AND the 50%-of-replacement-cost rule to \"Kellow, Modernize, and Josten Roofing.\" Per facts-materials-economics §8, Kellow/Modernize/Josten back ONLY the 30%-of-COST rule; the 50% rule = WeatherShield/Home Depot, and the 25%-of-AREA rule = RapidRestore/MyQuoteIQ. The brief §D states this split explicitly.",
+   "evidence": "\"...replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost, the contractor-consensus thresholds attributed to Kellow, Modernize, and Josten Roofing.\"",
+   "suggestedFix": "Re-pair to the correct §8 sources. Before: \"...damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost, the contractor-consensus thresholds attributed to Kellow, Modernize, and Josten Roofing.\" After: \"...damage exceeds 25–30% of the roof area, per RapidRestore and Kellow, or one repair approaches 50% of replacement cost, the most widely cited threshold per WeatherShield and Home Depot.\"",
+   "verdict": "confirmed",
+   "reasoning": "The offending text is present verbatim in faqs[4].answer of src/data/combo-content/montclair/custom-roof-design-consultation.ts: \"...replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost, the contractor-consensus thresholds attributed to Kellow, Modernize, and Josten Roofing.\" This is a real source-attribution mismatch against the authoritative fact pack. facts-materials-economics.md §8 (the named-source decision-rule table, lines 305-307) is unambiguous: the 50%-of-cost rule = WeatherShield/Home Depot/industry; the 25%-of-AREA rule = RapidRestore/MyQuoteIQ; and Kellow/Modernize/Josten back ONLY the 30%-of-COST rule (line 306). The Montclair sentence attributes BOTH the 25-30%-area rule AND the 50%-cost rule to Kellow/Modernize/Josten — and §8 backs neither of those two rules to those three sources. So the named-source claim is factually wrong on both counts.\\n\\nTwo caveats the finding overstated, neither of which refutes it: (1) The finding claims \"brief §D states this split explicitly\" — it does NOT; brief lines 205-208 are themselves loose, bundling \"the 30% / 25%-area rule = Kellow/Modernize/Josten/RapidRestore.\" The authority for the split is the fact pack §8, not the brief. (2) The exact phrasing \"attributed to Kellow, Modernize, and Josten\" for the area+50% rules is COMMITTED GOLD (bloomfield/roof-replacement.ts, nutley/roof-replacement.ts, nutley/roof-replacement-cost.ts), and the runbook flags this as a known-LOOSE committed pattern. But \"gold-consistent\" does not immunize a factual mis-pin against the primary fact pack — and the project's own committed gold ALSO carries the precise re-pairing (bloomfield/storm-damage-roof-replacement.ts: \"the 25% area rule per RapidRestore and MyQuoteIQ and the 50% cost rule per WeatherShield and Home Depot\"), proving the accurate form is the higher standard. Per the runbook instruction to apply pack-accurate re-pairings to CONFIRMED findings, this is a fixable source-attribution defect. No Montclair fact, COA posture, entity-grounding, or third-party-credential issue is involved; the fix only relocates/re-attributes, preserving all facts.",
+   "finalFix": "In src/data/combo-content/montclair/custom-roof-design-consultation.ts, faqs[4].answer — BEFORE: \"A Newark Quality Roofing consultation also models the replace-now-or-later decision: replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost, the contractor-consensus thresholds attributed to Kellow, Modernize, and Josten Roofing.\" AFTER: \"A Newark Quality Roofing consultation also models the replace-now-or-later decision: replace a roof when damage exceeds 25–30% of the roof area, the contractor-consensus threshold per RapidRestore and Kellow, or one repair approaches 50% of replacement cost, the most widely cited threshold per WeatherShield and Home Depot.\"",
+   "city": "montclair"
+  }
+ ],
+ "low": [
+  {
+   "combo": "historic-roof-restoration",
+   "field": "faqs[5].answer and pricing.note (the NJ 10–40% premium)",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The NJ \"roughly 10–40% above national\" cost premium is attributed to HomeGuide. In facts-materials-economics §7 the 10–40% NJ premium is a general [SECONDARY consensus] line, not a HomeGuide figure; HomeGuide is the named source for the slate restoration $ ranges ($2,500–$10,000+, $50–$300/tile, $400–$3,000), not for the regional premium. The causal clause (\"because in-kind material-matching and Commission coordination exceed a standard re-roof\") is also author reasoning, not a HomeGuide finding.",
+   "evidence": "\"NJ ranges sit roughly 10–40% above national figures because in-kind material-matching and Commission coordination exceed a standard re-roof, per HomeGuide.\"",
+   "suggestedFix": "Detach the 10–40% premium from the HomeGuide pin (keep HomeGuide for the slate $ figures). Before: \"...10–40% above national figures because in-kind material-matching and Commission coordination exceed a standard re-roof, per HomeGuide.\" After: \"...10–40% above national figures, a New Jersey regional premium reflecting higher labor and stricter code, with in-kind material-matching and Commission coordination adding to a standard re-roof.\" (state the premium as NJ-regional consensus, not as a HomeGuide claim).",
+   "city": "montclair"
+  },
+  {
+   "combo": "roof-ice-dam-prevention",
+   "field": "faqs[5].answer (\"How much does roof ice dam prevention cost in Montclair, NJ?\")",
+   "severity": "low",
+   "category": "source-attribution",
+   "issue": "The cost FAQ states the $400–$1,000 figure definitively as an ice-dam-prevention price \"per HomeAdvisor cost data,\" but no pack carries an ice-dam-prevention-specific cost. HomeAdvisor's $400–$1,000 is specifically the NJ leak-REPAIR range (facts-materials-economics §7; facts-nj-regulatory has none for ice-dam). The brief §E sanctions using this $400–$1,000 HomeAdvisor default for repair & maintenance services and pricing.note hedges it correctly (\"Typical NJ ice-dam prevention range per HomeAdvisor\"), so this is borderline — the FAQ wording is just slightly more definitive than the source supports.",
+   "evidence": "\"Roof ice dam prevention in New Jersey runs $400–$1,000 for a typical scope, per HomeAdvisor cost data.\"",
+   "suggestedFix": "Soften the source pin to match the underlying figure. Before: \"Roof ice dam prevention in New Jersey runs $400–$1,000 for a typical scope, per HomeAdvisor cost data.\" After: \"A typical New Jersey roof repair-and-maintenance scope runs $400–$1,000, per HomeAdvisor cost data, and ice-dam prevention prices within that range depending on the attic and eave-barrier scope.\"",
+   "city": "montclair"
+  }
+ ],
+ "byCohort": [
+  {
+   "cohort": "montclair:design-consultation",
+   "confirmed": 1,
+   "refuted": 0,
+   "low": 2
+  }
+ ]
+}
