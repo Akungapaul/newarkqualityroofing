@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const millburnFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'millburn',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fascia installation repair across Millburn, New Jersey, and Essex County, replacing the rotted edge board that closes the rafter-tail ends and mounts the gutter system** on Short Hills estates and downtown buildings as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.',
   overview: [
-    'Newark Quality Roofing delivers expert fascia installation repair in Millburn — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards on Millburn estates frame the roofline with a finished edge that supports the gutter system, seals the rafter tails against weather and pests, and presents the clean architectural line that estate-grade construction demands. On the Tudor revivals, Georgian colonials, and custom contemporary homes throughout Short Hills and Wyoming, fascia is not merely a functional component -- it is an architectural detail that defines the home\'s character at the roof edge, often crafted from clear cedar, painted mahogany, or wrapped in custom-bent copper or aluminum coil stock profiled to match the original design specification.',
-    'Fascia deterioration on Millburn properties typically originates from gutter overflow or ice-dam melt that saturates the wood substrate behind the protective paint film or metal wrap. The moisture migrates into the fascia board from the top edge -- the one surface that paint rarely protects fully -- and initiates rot that spreads downward through the board while the visible painted face still appears sound. By the time exterior deterioration becomes visible, the rot has often extended into the rafter tails or soffit framing behind the fascia, transforming a board replacement into a carpentry repair that addresses the structural connection between the fascia and the roof framework.',
-    'Our [fascia installation and repair](/fascia-installation-repair) approach on Millburn estates treats the fascia as a system connected to the gutter, soffit, drip edge, and rafter tails rather than as an isolated board. Replacing a rotted fascia board without addressing the gutter overflow that caused the rot, the missing drip edge that allowed water behind the fascia, or the deteriorated rafter tails that no longer provide adequate nailing substrate produces a repair that will fail within a few years. Properties across Essex County -- from [Montclair](/fascia-installation-repair-montclair-nj) to [Caldwell](/fascia-installation-repair-caldwell-nj) -- face similar fascia challenges, but Millburn\'s premium materials and architectural expectations elevate the repair standard significantly.'
+    '**Newark Quality Roofing replaces rotted fascia, restores the painted edge, and rebuilds the gutter line** across Millburn\'s early-20th-century high-style homes, Short Hills Tudor and Arts-and-Crafts estates, and downtown Millburn village buildings. Fascia is the board along the lower roof edge that closes the rafter-tail ends and carries the gutters.',
+    '**Rotted fascia** traces to water, because clogged and overflowing gutters back up and soak the board, and loose gutters leave a gap that lets water contact the fascia, per InterNACHI inspection guidance. On the wooded estate lots that abut the South Mountain Reservation, leaf and branch debris from the heavy oak and maple canopy clogs the gutters first.',
+    '**The gutter line** rides on the fascia, and water-filled gutters weigh roughly 5–7 pounds per linear foot, a load a weakened board cannot carry, so the gutters sag and pull from the roofline, per HB Elements trade guidance. A Newark Quality Roofing repair replaces the board before the gutters and rafter tails take on further water.',
+    '**The board material** matches the eave across painted wood, PVC, aluminum cladding, and fiber-cement, with painted wood in pine or cedar lasting roughly 15–25 years on a repaint cycle and aluminum fascia bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart, so a Millburn fascia choice trades repaint upkeep against moisture durability on the high-style stock.',
   ],
   challenges: [
-    'Matching the fascia profile on historic Millburn homes requires custom milling that standard lumberyards cannot provide. Original fascia boards on pre-war estates often incorporate ogee, cove, or beaded profiles milled from clear stock that is no longer commonly available. Reproducing these profiles requires a millwork shop capable of running custom knives to match samples taken from the existing fascia. We maintain relationships with specialty millwork providers who produce custom fascia profiles for estate restoration projects, though the lead time for custom-milled material adds scheduling complexity to the repair timeline.',
-    'Access to fascia on multi-story Millburn estates frequently requires scaffolding or aerial lift equipment that must navigate mature landscape plantings, decorative hardscape, and the setback distances specific to estate properties. Third-story fascia on a Tudor revival set back one hundred feet from the road behind a formal garden cannot be reached with a standard extension ladder, and the mobilization of appropriate access equipment adds cost and coordination that single-story fascia repairs do not require.',
-    'Color matching for painted fascia requires attention to the UV degradation that existing paint has undergone. A fresh color-matched paint applied to a new fascia board will initially contrast with the faded paint on adjacent fascia sections that were not replaced. For Millburn homeowners who prioritize visual uniformity, we recommend repainting the entire fascia run on each building elevation -- not just the replaced section -- to achieve a consistent appearance. For metal-wrapped fascia, we source coil stock from the same manufacturer in the same color code, though batch-to-batch color variation in baked enamel finishes can still produce visible differences that we discuss with the homeowner before fabrication.'
+    '**Canopy debris** is the defining fascia stressor on Millburn\'s wooded estate lots, because the heavy oak and maple cover and the Cora Hartshorn Arboretum drop leaf load and broken branches into the gutters. A clogged gutter backs water against the board, per InterNACHI inspection guidance, so a Newark Quality Roofing repair clears the cause before the new board goes on.',
+    '**Period detailing** on Millburn\'s early-20th-century high-style homes sets the fascia material and profile, because the Tudor Revival and Arts-and-Crafts stock carries painted wood and copper or aluminum-clad edges that a Newark Quality Roofing crew matches in kind. Aluminum cladding wraps the board for weather resistance, and fiber-cement resists moisture and insects, per HB Elements trade guidance.',
+    '**Downtown drainage** stresses the fascia and gutter line on the downtown Millburn village storefronts on the Rahway River, where flash flooding in Hurricane Floyd, Hurricane Irene, and the remnants of Hurricane Ida overloads the low-slope drainage. A Newark Quality Roofing scope sets positive slope-to-drain and rebuilds parapet, scupper, and downspout flashing to carry storm water off the downtown decks.',
   ],
   process: [
-    'Fascia assessment begins with a probe inspection along the full length of each fascia run, testing for soft or punky wood behind the painted surface. We pay particular attention to the areas beneath gutter joints, at gutter end caps, behind downspout connections, and above any sections where ice dams form -- all locations where water is most likely to have contacted the fascia\'s vulnerable top edge. The assessment identifies not just the deteriorated sections but the water-entry conditions that caused the deterioration, so both the symptom and the cause are addressed in the repair specification.',
-    'Repair execution removes the deteriorated fascia sections and inspects the rafter tails and subfascia behind them. Rotten rafter tails are sistered with treated lumber to restore structural connection. The new fascia board -- milled to match the existing profile in the species specified -- is installed with corrosion-resistant fasteners, primed on all six sides before installation, and painted to match the existing color. Where metal fascia wrap is specified, the coil stock is brake-formed on site to the exact profile and installed with concealed fasteners that maintain the clean surface.',
-    'Drip-edge integration is verified during fascia replacement. The drip edge -- the metal strip that extends under the first course of roofing and over the fascia face -- directs water into the gutter rather than behind the fascia. If the existing drip edge is missing, damaged, or improperly positioned, we install or correct it during the fascia repair. This integration prevents the water intrusion that caused the original fascia failure from recurring on the new installation.'
+    '**Newark Quality Roofing inspectors trace the fascia failure to the water source — a clogged gutter, a loose gutter, or a failed slope — before replacing the board.** Clogged and overflowing gutters soak the fascia and a loose gutter leaves a gap that lets water contact it, per InterNACHI inspection guidance, and a crew checks the drip edge, which the IRC R905.2.8.5 provision sets at least ¼ inch below the deck and fascia to direct runoff into the gutter.',
+    '**Newark Quality Roofing replaces the rotted fascia, inspects the rafter tails behind it, and matches the board to the eave** across painted wood, PVC, aluminum cladding, and fiber-cement, per HB Elements trade guidance. A crew installs the new board to the rafter-tail ends, sets the drip edge per IRC R905.2.8.5, and matches the period detailing on Millburn\'s slate, tile, and copper estate roofs.',
+    '**Newark Quality Roofing refastens the gutters to the sound fascia and confirms the eave sheds water clean.** The board carries the roughly 5–7 pounds per linear foot of a water-filled gutter without sagging, per HB Elements trade guidance, and a crew runs a magnet sweep for fasteners and sets the spring-and-fall gutter-cleaning cadence that keeps the clog-and-overflow rot from returning, per Angi and GAF maintenance guidance.',
   ],
   faqs: [
     {
-      question: 'How do I know if my fascia needs replacement rather than just repainting?',
-      answer: 'Press firmly on the painted surface with a screwdriver or awl. Sound fascia resists penetration; deteriorated fascia allows the tool to sink into soft, punky wood beneath the paint film. Also check for gaps between the fascia and the soffit below, sagging sections that indicate the nailing substrate has rotted, and discoloration or staining patterns that suggest moisture penetration behind the paint. These signs indicate structural deterioration that painting cannot address.'
+      question: 'Do I need a permit for fascia work in Millburn?',
+      answer:
+        'A repair or replacement of the roof covering and trim on a detached one- or two-family home in Millburn counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, work exceeding 25% of the total roof area in a 12-month period requires a permit, filed with the Township of Millburn Building Department, with recover-versus-tear-off limits under the Rehabilitation Subcode, N.J.A.C. 5:23-6.4.',
     },
     {
-      question: 'What fascia material is best for Millburn\'s climate?',
-      answer: 'Clear western red cedar provides the best combination of rot resistance, paint adhesion, and dimensional stability for Millburn\'s freeze-thaw climate. For maximum longevity without paint maintenance, cellular PVC fascia boards replicate the appearance of wood without the susceptibility to moisture damage. On estate properties where architectural authenticity requires wood, we specify clear cedar primed on all six sides with a high-quality exterior primer before installation, which significantly extends the board\'s service life by preventing moisture absorption through the raw wood surfaces.'
+      question: 'Does a Millburn historic district require approval for fascia work?',
+      answer:
+        'Most Millburn and Short Hills homes need no Historic Preservation Commission review. A designated landmark or a property inside the Wyoming or Short Hills Park historic district requires a Certificate of Appropriateness before permit-triggering exterior work. The Township of Millburn Historic Preservation ordinance, Article 8, enabled by MLUL N.J.S.A. 40:55D-107, names roof repairs or replacement, and a Certificate of Appropriateness is the Commission\'s exterior-design approval, separate from the building permit, so a detached one- or two-family reroof stays N.J.A.C. 5:23-2.7 ordinary maintenance even where it applies. Short Hills Village is a recently designated or pending third district, checked against current designation status. Per the National Park Service, National Register listing alone places no restriction, so the Paper Mill Playhouse and Cora Hartshorn Arboretum impose no roofing gate on a neighboring home.',
     },
     {
-      question: 'Should I replace all my fascia at once or just the damaged sections?',
-      answer: 'Replacing only the damaged sections is cost-effective when the deterioration is localized to areas with specific water-entry problems -- failed gutter joints, missing drip edge, ice-dam zones. However, if the fascia across the entire building elevation shows signs of age-related deterioration approaching failure, replacing the full run eliminates the need for repeated repairs over the next several years and produces a visually consistent result. We assess the condition of the entire fascia system and present both targeted-repair and full-replacement options with their respective costs and expected service lives.'
+      question: 'What causes fascia to rot on a Millburn estate home?',
+      answer:
+        'Fascia rots from water: clogged and overflowing gutters back up and soak the board, and loose gutters leave a gap that lets water contact the fascia, per InterNACHI inspection guidance. On Millburn\'s wooded estate lots that abut the South Mountain Reservation, the heavy oak and maple canopy drops leaf and branch debris that clogs the gutters first, and water-filled gutters weigh roughly 5–7 pounds per linear foot that a rotted board cannot carry, per HB Elements trade guidance.',
     },
     {
-      question: 'Can you wrap my existing wood fascia with aluminum or copper instead of repainting?',
-      answer: 'Yes, provided the existing wood is structurally sound. Metal wrapping eliminates future paint maintenance and provides a weather-resistant shell over the wood substrate. Aluminum coil stock in baked-enamel finishes is the most common wrap material, available in colors that match the home\'s trim palette. For estate properties where copper gutters define the roofline aesthetic, copper fascia wrap creates a unified material vocabulary at the roof edge. We verify the wood condition before wrapping because encapsulating deteriorated wood behind metal conceals a problem that will eventually require more extensive repair.'
+      question: 'What fascia material lasts longest on a high-style Millburn home?',
+      answer:
+        'Aluminum, PVC, and fiber-cement fascia resist moisture longer than painted wood, which lasts roughly 15–25 years on a repaint cycle, per HB Elements trade guidance. Aluminum fascia and soffit are bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart, while PVC resists moisture and fiber-cement resists moisture and insects. On Millburn\'s Tudor Revival and Arts-and-Crafts stock, Newark Quality Roofing matches the board material and profile to the period detailing in kind.',
+    },
+    {
+      question: 'Can you replace fascia without removing the gutters in Millburn?',
+      answer:
+        'Fascia replacement detaches the gutter section first, because the gutters mount to the fascia and the fascia closes the rafter-tail ends behind the gutter line, per InterNACHI inspection guidance. A Newark Quality Roofing crew removes the gutter run, replaces the rotted board, inspects the rafter tails, then refastens the gutters to the sound fascia so the board carries the roughly 5–7 pounds per linear foot of a water-filled gutter, per HB Elements trade guidance.',
     },
     {
       question: 'How much does fascia installation repair cost in Millburn, NJ?',
-      answer: 'Most fascia installation repair projects in Millburn range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Fascia installation repair cost depends on the board length, the material, and the gutter remount, and a free written estimate sets the scope before any work begins. A Newark Quality Roofing inspection traces the rot to the water source and prices the board replacement and the gutter remount together, because fascia and gutter work share the same eave. Newark Quality Roofing provides a free written estimate for every Millburn property.',
     },
   ],
-  metaDescription: 'Fascia installation and repair for Millburn and Short Hills estates. Custom-milled profiles, copper wrapping, and rot remediation with rafter-tail restoration.',
+  metaDescription:
+    'Fascia repair in Millburn and Short Hills, NJ — rotted-board replacement, gutter-line rebuild, drip-edge correction. NJ-registered, free written estimate.',
   pricing: {
-    range: '$1,200–$3,500',
-    note: 'fascia board replacement',
+    range: 'Varies by scope',
+    note: 'Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Millburn\'s early-20th-century high-style homes and Short Hills estates in slate, copper, tile, and cedar.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fascia installation repair estimate in Millburn — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fascia installation repair in Millburn.',
+    urgencyNote: 'Addressing fascia rot early limits gutter, soffit, and rafter-tail water damage.',
   },
 };

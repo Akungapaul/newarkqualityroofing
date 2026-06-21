@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const millburnBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'millburn',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing built-up roofing across Millburn, New Jersey, and Essex County, installing and restoring multi-ply BUR membranes on the downtown Millburn village and Mall at Short Hills low-slope decks** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Built-up roofing** is a low-slope membrane that alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel, mineral granules, or a reflective coating. The multi-ply assembly shields the membrane from UV and impact.',
   overview: [
-    'Newark Quality Roofing delivers expert built up roofing in Millburn — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing in Millburn maintains a presence on the township\'s older commercial buildings, institutional properties, and certain estate structures where the original multi-layer asphalt-and-felt system installed decades ago continues performing beneath its gravel ballast. The office buildings along Millburn Avenue constructed during the mid-twentieth century commercial expansion, the original sections of institutional facilities, and flat-roof additions on pre-war estates may still carry BUR systems that have delivered forty or fifty years of reliable service -- a testament to the material system\'s inherent redundancy when properly installed and maintained.',
-    'New BUR installations in Millburn are less common than they were in previous decades, but the system retains specific advantages that make it the appropriate specification for certain applications. Properties requiring maximum puncture resistance for heavy rooftop equipment, buildings where gravel ballast provides acoustic dampening valued by tenants, and re-roofing projects where the existing BUR can serve as the substrate for additional layers all present scenarios where our [built-up roofing](/built-up-roofing) expertise serves Millburn property owners with a system that contemporary single-ply alternatives do not replicate in every performance dimension.',
-    'Maintenance and repair of existing BUR systems on Millburn buildings demands specialized knowledge that fewer contractors possess as the industry shifts toward single-ply membrane dominance. Locating leaks beneath gravel ballast, cutting and patching deteriorated plies without compromising adjacent sound material, and re-establishing proper gravel coverage after repair work are skills that require training and experience specific to built-up roofing. Our crews maintain these capabilities specifically for Millburn and Essex County properties where BUR systems continue operating and where replacement with single-ply alternatives may not be warranted until the existing system reaches the end of its serviceable life.'
+    '**Newark Quality Roofing installs and restores built-up roofing** across Millburn\'s downtown village storefronts on the Rahway River, the Mall at Short Hills, and the township\'s older flat-roof and mixed-use buildings. Built-up roofing alternates layers of reinforcing fabric and hot bitumen, then surfaces the plies with gravel or a reflective coating that shields the membrane from UV and impact.',
+    '**Built-up roofing** lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15 to 25 years, TPO at 7 to 20 years, and modified bitumen at 20 years. The multi-ply assembly concentrates failures at the flashing details and the surfacing, because water enters at one transition and the gravel migrates over decades.',
+    '**Multi-ply redundancy** suits a commercial roof that carries heavy rooftop-equipment service traffic, where a dropped tool or an equipment leg that punctures a single-layer membrane only dents the gravel-armored BUR surface, per NRCA low-slope guidance. A Newark Quality Roofing assessment sizes the ply count and the surfacing against the roof traffic before specifying the system.',
+    '**The downtown Millburn village** on the Rahway River and the Mall at Short Hills carry Millburn\'s commercial low-slope roofs, where positive drainage governs membrane life, because a low-slope roof requires at least one-quarter inch per foot of slope to drain and ponding water remaining more than 48 hours counts as a defect, per NRCA and ARMA. A Newark Quality Roofing assessment maps the standing water before resurfacing or replacing the system.',
   ],
   challenges: [
-    'Leak detection beneath gravel-ballasted BUR surfaces is inherently more difficult than on exposed-membrane systems where water entry points are often visible as membrane damage. On Millburn\'s BUR roofs, water may enter through a crack in the flood coat or a deteriorated felt layer, travel laterally along interply pathways, and emerge inside the building at a location far from the actual point of entry. Our diagnostic approach for BUR leaks combines infrared thermal imaging -- which detects moisture trapped within the roof assembly -- with systematic gravel clearing and flood testing to isolate the entry point before cutting into the system for repair.',
-    'Weight considerations govern decisions about re-roofing versus tear-off on Millburn buildings with existing BUR systems. A multi-ply BUR with gravel ballast can weigh six hundred to eight hundred pounds per roofing square, and adding new roofing over the existing system without removing the old doubles this structural load. Older commercial buildings and estate structures may not have been engineered for the combined weight. We perform structural analysis before recommending overlay versus tear-off, and when tear-off is required, we coordinate gravel removal, felt stripping, and debris disposal to minimize the duration the building is exposed without weather protection.',
-    'Environmental and safety regulations for BUR installation and removal have become more stringent in recent years, particularly regarding hot-asphalt fumes during installation and the potential for asbestos-containing materials in existing BUR systems on older Millburn buildings. We conduct asbestos testing on any BUR removal project involving buildings constructed before 1980, and we comply with OSHA fume-exposure regulations during hot-asphalt application by maintaining ventilation equipment and monitoring air quality at the work area and building perimeter.'
+    '**Downtown-village drainage** stresses Millburn\'s commercial built-up roofs hardest, because the downtown Millburn village sits on the Rahway River, where storm water that backs up against a parapet finds the seam first. The downtown village has flash-flooded in Hurricane Floyd in 1999, Hurricane Irene in 2011, and the remnants of Hurricane Ida in 2021, so a Newark Quality Roofing scope grades the deck to drain and rebuilds parapet, scupper, and downspout flashing.',
+    '**Surface oxidation** ends a built-up roof, because alligatoring, cracking, and bald spots across the BUR surface mark migrated gravel and oxidizing bitumen, the most common end-of-life pattern on a 30-year system, per the InterNACHI life-expectancy chart. A Newark Quality Roofing assessment identifies whether the plies hold under the worn surfacing before resurfacing or replacing the membrane.',
+    '**Asbestos-bearing plies** complicate work on older Millburn buildings, because a built-up roof installed before 1980 carries asbestos-reinforced felts, asbestos-modified flood coats, or asbestos flashing cement. A Newark Quality Roofing crew tests a pre-1980 BUR roof before cutting, patching, or removal, and a licensed asbestos abatement contractor handles any asbestos-containing material in compliance with New Jersey DEP regulations before the new roofing goes on.',
   ],
   process: [
-    'BUR projects in Millburn begin with a comprehensive condition assessment that determines whether the existing system warrants repair, overlay, or full replacement. Core samples reveal the number of existing plies, their adhesion quality, moisture content within the assembly, and the condition of the insulation and deck beneath. These findings drive the specification -- a well-adhered, dry BUR system with isolated deterioration is an excellent repair candidate, while a system with widespread moisture contamination or delaminated plies requires tear-off and replacement.',
-    'For new BUR installations or full replacements, the multi-ply application builds redundancy layer by layer. Each ply of reinforcing fabric is set in hot asphalt or cold adhesive, with mopping coverage verified at each layer to ensure full adhesion without voids. The number of plies is specified based on the building\'s performance requirements -- three-ply for standard applications, four or five-ply for roofs with heavy equipment loading or high-traffic maintenance access. The flood coat and gravel surfacing complete the assembly, providing UV protection and ballast weight that resists wind uplift without mechanical fastening.',
-    'Repair work on existing BUR systems follows a targeted approach: gravel is cleared from the repair area, deteriorated plies are cut back to sound material, new reinforcing fabric is set in compatible adhesive overlapping the existing plies by the specified dimension, and the repair is surfaced with flood coat and matched gravel. We maintain gravel inventories in the common sizes and colors used on Millburn commercial and institutional buildings to ensure visual consistency between the repair area and the surrounding field.'
+    '**Newark Quality Roofing assesses the BUR membrane, the surfacing, the flashing details, and the drainage** before specifying a built-up roof, then sizes the ply count and surfacing against the roof traffic and the minimum slope. A low-slope roof requires at least one-quarter inch per foot of slope to drain, per NRCA and ARMA, and a core sample reveals the ply count, the adhesion quality, and any moisture trapped in the assembly.',
+    '**The BUR assembly builds from alternating plies** of reinforcing fabric and hot bitumen, then surfaces the plies with gravel or a reflective coating, the multi-ply construction that gives built-up roofing a 30-year service life, per the InterNACHI life-expectancy chart. Each fully mopped ply adds an independent waterproofing layer that a single puncture does not breach to the deck, and the surfacing shields the bitumen from UV and impact.',
+    '**Restoration and recover** extend a sound built-up roof at a fraction of replacement cost, the lower-cost path when the plies hold, per NRCA maintenance guidance. Full removal to the deck applies when the existing roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4 and the NJ Rehabilitation Subcode. A Newark Quality Roofing crew verifies ply adhesion, surfacing coverage, flashing integrity, and positive drainage, then issues a written workmanship warranty on the labor, separate from the manufacturer material warranty.',
   ],
   faqs: [
     {
-      question: 'Should I replace my existing BUR roof with a single-ply membrane?',
-      answer: 'Not necessarily. If the existing BUR system is performing adequately with isolated repair needs, maintaining it is often more cost-effective than full replacement. BUR systems have demonstrated service lives of thirty to fifty years when maintained, and a system with another ten or fifteen years of viable service life represents value that premature replacement forfeits. When full replacement becomes necessary, we evaluate both BUR and single-ply options for the specific building, considering structural capacity, performance requirements, and lifecycle costs.'
+      question: 'Do I need a permit for a commercial built-up roof in Millburn?',
+      answer:
+        'A commercial, multi-family, or attached building repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code, filed with the Township of Millburn Building Department. Full removal to the deck applies when the existing roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4 and the NJ Rehabilitation Subcode. A repair or replacement of the roof covering on a detached one- or two-family home stays ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no permit.',
     },
     {
-      question: 'How do you find leaks on a gravel-ballasted BUR roof?',
-      answer: 'We use infrared thermal imaging to detect moisture trapped within the roof assembly -- wet insulation retains heat differently than dry insulation, creating thermal signatures visible through the imaging equipment. This non-destructive method narrows the search area before we clear gravel for visual inspection and targeted flood testing. The combination of thermal imaging and systematic testing locates leak entry points with far greater accuracy than the trial-and-error approach of clearing gravel and inspecting at random.'
+      question: 'Should I restore my built-up roof or replace it?',
+      answer:
+        'Restore a built-up roof when the plies hold and the damage stays localized; replace it when damage exceeds 25 to 30% of the membrane or leaks recur at the same detail. The flat-roof 25 to 30% replacement threshold is contractor consensus, per Parish, Modernize, and HomeGuide cost data, and recurring leaks signal a systemic failure regardless of damaged area, per HomeAdvisor. A Newark Quality Roofing assessment presents full replacement, restoration through resurfacing, or conversion to a single-ply membrane.',
     },
     {
-      question: 'Does my Millburn building\'s BUR roof contain asbestos?',
-      answer: 'BUR systems installed before 1980 may contain asbestos-reinforced felts, asbestos-modified flood coats, or asbestos flashing cements. We test for asbestos before performing any cutting, patching, or removal work on pre-1980 BUR systems. If asbestos-containing materials are identified, removal is performed by licensed asbestos abatement contractors in compliance with New Jersey DEP regulations, and the replacement roofing is installed after the abatement is completed and clearance testing confirms the work area is safe.'
+      question: 'Does my older Millburn building\'s built-up roof contain asbestos?',
+      answer:
+        'A built-up roof installed before 1980 may carry asbestos-reinforced felts, asbestos-modified flood coats, or asbestos flashing cement. Newark Quality Roofing tests a pre-1980 BUR roof before any cutting, patching, or removal, and a licensed asbestos abatement contractor handles any asbestos-containing material in compliance with New Jersey DEP regulations. The new roofing goes on after the abatement is complete and clearance testing confirms the work area is safe.',
     },
     {
-      question: 'What is the lifespan of a new BUR installation?',
-      answer: 'A properly installed three-to-five-ply BUR system with quality materials achieves twenty-five to forty years of service depending on maintenance, traffic levels, and environmental exposure. The gravel surfacing protects the underlying bitumen from UV degradation, and the redundant plies provide continued waterproofing even if individual layers develop localized failures. Annual maintenance inspections that address gravel displacement, flood-coat cracking, and flashing deterioration maximize the system\'s functional lifespan.'
+      question: 'How long does a built-up roof last?',
+      answer:
+        'A built-up roof lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15 to 25 years, TPO at 7 to 20 years, and modified bitumen at 20 years. Each fully mopped ply adds an independent waterproofing layer, and the gravel or reflective surfacing shields the bitumen from UV radiation and impact. Annual maintenance that addresses gravel displacement, flood-coat cracking, and flashing deterioration extends the functional lifespan.',
     },
     {
-      question: 'How much does built up roofing cost in Millburn, NJ?',
-      answer: 'Most built up roofing projects in Millburn range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Can a built-up roof be converted to a single-ply membrane?',
+      answer:
+        'Newark Quality Roofing converts a built-up roof to a single-ply membrane by stripping the BUR to the deck, upgrading the insulation, and installing EPDM or TPO. EPDM lasts 15 to 25 years and TPO 7 to 20 years, per the InterNACHI life-expectancy chart, and full removal to the deck applies when the existing roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. The choice depends on the deck condition, the slope, and the rooftop traffic.',
+    },
+    {
+      question: 'How much does built-up roofing cost in Millburn, NJ?',
+      answer:
+        'A roof replacement in New Jersey runs $10,000 to $25,000 for a typical building, per HomeAdvisor and Modernize cost data, and commercial low-slope roofing runs $7 to $12 per square foot installed, per Josten Roofing NJ pricing. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, ply count, surfacing, and access, and Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Built-up roofing services for Millburn commercial and institutional buildings. BUR repair, maintenance, and multi-ply replacement with gravel or smooth.',
+  metaDescription:
+    'Built-up roofing in Millburn NJ — multi-ply BUR install, restoration, and recover on downtown village and Mall at Short Hills low-slope decks. Free estimate.',
   pricing: {
-    range: '$5–$9/sq ft',
-    note: 'traditional built-up roofing system',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; commercial low-slope roofing runs $7–$12 per square foot installed per Josten Roofing NJ pricing. Final cost depends on roof size, ply count, surfacing, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Millburn\'s downtown village and Mall at Short Hills low-slope commercial roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free built up roofing estimate in Millburn — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for built-up roofing in Millburn.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

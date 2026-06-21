@@ -929,7 +929,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         name: 'Commercial membrane leak repair',
         description:
-          'Commercial membrane leak repair seals seam separations and punctures on EPDM, TPO, and modified-bitumen roofs, where ELD locates breaches per ASTM D8231 and infrared imaging locates wet insulation per ASTM C-1153.',
+          'Commercial membrane leak repair seals seam separations and punctures on EPDM, TPO, and modified-bitumen roofs, where ELD locates breaches and infrared imaging locates wet insulation per ASTM C1153.',
       },
     ],
     signsHeading: 'Warning Signs Your Property Needs Attention',
@@ -946,7 +946,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
     approachContent: [
       '**Newark Quality Roofing contractors locate a roof leak by tracing the moisture path from the interior stain to the root-cause detail — flashing, shingle, underlayment, or pipe boot — not the drip point.** Water enters at one detail and travels before showing as an interior stain, so a Newark Quality Roofing diagnosis identifies the failed component rather than the visible symptom, per Integrity Home Exteriors repair-process guidance. The roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA, so the diagnosis starts at the flashing details. Controlled water testing isolates roof sections to reproduce a wind-driven or intermittent leak that a dry inspection misses, per Integrity Home Exteriors diagnostic guidance.',
       '**Newark Quality Roofing repairs the failed component to manufacturer specification with a written workmanship warranty, replacing failed flashing rather than recaulking a deteriorated flashing.** Flashing fabricated from corrosion-resistant stock matches the existing color and product line, and membrane and low-slope systems use manufacturer-approved bonding rather than adhesive alone, which keeps a manufacturer system warranty intact. A written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance.',
-      '**Newark Quality Roofing locates leaks on commercial low-slope membranes with electronic leak detection and infrared imaging, the diagnostic methods ASTM standardizes for membrane roofs.** Electronic leak detection locates membrane breaches per ASTM D8231, and infrared thermography locates wet insulation inside the roof assembly per ASTM C-1153, so a Newark Quality Roofing commercial diagnosis pinpoints a breach that a surface inspection misses.',
+      '**Newark Quality Roofing locates leaks on commercial low-slope membranes with electronic leak detection and infrared imaging, the diagnostic methods ASTM standardizes for membrane roofs.** Electronic leak detection locates membrane breaches, and infrared thermography locates wet insulation inside the roof assembly per ASTM C1153, so a Newark Quality Roofing commercial diagnosis pinpoints a breach that a surface inspection misses.',
     ],
     approachSubheadings: [
       'Leak Detection and Root-Cause Diagnostics',
@@ -964,7 +964,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
     commercial: {
       heading: 'Commercial Solutions',
       content: [
-        '**Newark Quality Roofing repairs commercial roof leaks on low-slope membranes across Essex County, servicing EPDM rubber, TPO, and modified-bitumen systems with manufacturer-approved bonding that keeps a system warranty intact.** EPDM fails most often at the seams, TPO at the welded seams, and modified bitumen by blistering and flashing separation at penetrations, per roofing trade guidance, and electronic leak detection locates a membrane breach per ASTM D8231.',
+        '**Newark Quality Roofing repairs commercial roof leaks on low-slope membranes across Essex County, servicing EPDM rubber, TPO, and modified-bitumen systems with manufacturer-approved bonding that keeps a system warranty intact.** EPDM fails most often at the seams, TPO at the welded seams, and modified bitumen by blistering and flashing separation at penetrations, per roofing trade guidance, and electronic leak detection locates a membrane breach.',
         'Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and a flat roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA; standing water weighs about 5 pounds per inch per square foot, so a 1-inch pond over 100 square feet adds about 500 pounds of dead load, per NRCA and ARMA. On a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
       ],
       ctaLabel: 'Get Commercial Quote',
@@ -978,7 +978,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         title: 'Exterior Diagnosis and Leak Detection',
         description:
-          'A Newark Quality Roofing technician inspects the suspect roof zone, then isolates roof sections with controlled water testing on steep-slope roofs and locates membrane breaches with electronic leak detection per ASTM D8231 and wet insulation with infrared imaging per ASTM C-1153 on commercial roofs.',
+          'A Newark Quality Roofing technician inspects the suspect roof zone, then isolates roof sections with controlled water testing on steep-slope roofs and locates membrane breaches with electronic leak detection and wet insulation with infrared imaging per ASTM C1153 on commercial roofs.',
       },
       {
         title: 'Written Estimate',
@@ -1272,20 +1272,20 @@ export const repairMaintenanceContent: ServiceContent[] = [
     ],
     signsHeading: 'Warning Signs of Hail Damage',
     signs: [
-      '**Circular bruises and soft spots felt when a shingle is pressed** indicate mat fracture beneath intact granules, the primary functional hail-damage sign, per IBHS and HAAG Engineering hail-assessment guidance.',
+      '**Circular bruises and soft spots felt when a shingle is pressed** indicate mat fracture beneath intact granules, the primary functional hail-damage sign, per IBHS hail-assessment guidance.',
       '**Random-pattern granule loss exposing the black asphalt mat** indicates hail scuffed the protective granule layer, which the American Meteorological Society identifies as the onset of lost service life on impacted shingles.',
-      '**Cracked or split shingle edges and corners** indicate angled hail impact on aged, brittle asphalt, per HAAG Engineering hail-assessment guidance.',
-      '**Dented metal gutters, downspouts, vent caps, and flashing** indicate hailstones large enough to damage the roof field, because metal denting corroborates the hail size that struck the shingles, per HAAG Engineering and IBHS hail-assessment guidance.',
+      '**Cracked or split shingle edges and corners** indicate angled hail impact on aged, brittle asphalt, per IBHS hail-assessment guidance.',
+      '**Dented metal gutters, downspouts, vent caps, and flashing** indicate hailstones large enough to damage the roof field, because metal denting corroborates the hail size that struck the shingles, per IBHS hail-assessment guidance.',
       '**Dents on air-conditioning condenser fins, vehicles, and outdoor equipment** indicate hail of damaging size, an industry corroborating indicator for a roof inspection per IBHS guidance.',
       '**Neighboring roofs filing hail claims after the same storm** indicate a hail swath crossed the area, because hail damage from one storm concentrates within a defined path, per IBHS hail research.',
     ],
     approachHeading: 'How We Handle Every Project',
     approachContent: [
-      '**Newark Quality Roofing contractors assess hail damage at close range using the HAAG Engineering Test Square method — a 10-by-10-foot square, one roofing square of 100 square feet, marked on each roof slope.** A Newark Quality Roofing inspector counts and classifies every impact within the test square as functional damage, which exposes the asphalt mat and shortens service life, or cosmetic damage, which marks the surface without compromising waterproofing, per HAAG Engineering, the standard hail-inspection procedure since the 1960s. The functional-versus-cosmetic split governs the repair scope, because most homeowners-insurance policies cover functional hail damage while some exclude cosmetic-only damage.',
+      '**Newark Quality Roofing contractors assess hail damage at close range using a test-square method — a 10-by-10-foot square, one roofing square of 100 square feet, marked on each roof slope.** A Newark Quality Roofing inspector counts and classifies every impact within the test square as functional damage, which exposes the asphalt mat and shortens service life, or cosmetic damage, which marks the surface without compromising waterproofing, per IBHS hail-assessment guidance, the standard hail-inspection procedure. The functional-versus-cosmetic split governs the repair scope, because most homeowners-insurance policies cover functional hail damage while some exclude cosmetic-only damage.',
       '**Newark Quality Roofing documents the hail damage with close-up photographs, per-square impact counts, and a roof diagram for the insurance adjuster.** A Newark Quality Roofing crew also documents collateral hail damage to gutters, vent caps, skylights, and siding, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). The repair-versus-replacement decision follows the impact density: scattered impacts on a newer roof allow individual shingle replacement, while a dense impact pattern across the roof favors full replacement.',
     ],
     approachSubheadings: [
-      'HAAG Test-Square Impact Assessment',
+      'Test-Square Impact Assessment',
       'Insurance-Claim Documentation',
     ],
     residential: {
@@ -1300,25 +1300,25 @@ export const repairMaintenanceContent: ServiceContent[] = [
       heading: 'Commercial Solutions',
       content: [
         '**Newark Quality Roofing repairs commercial hail damage on low-slope roofs across Essex County, inspecting EPDM rubber, TPO, and modified-bitumen membranes for punctures, compression fractures, and seam separation.** Hail strikes a low-slope membrane at a more direct angle than a sloped residential roof, and EPDM lasts 15–25 years, TPO 7–20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, so a hail impact that shortens membrane life is documented at assessment.',
-        'On a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. A Newark Quality Roofing commercial hail assessment uses the HAAG Engineering Test Square method on each membrane field, because commercial hail claims involve larger dollar amounts and insurers retain independent engineers, and HAAG-standard documentation withstands that level of review. Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
+        'On a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. A Newark Quality Roofing commercial hail assessment uses a test-square method on each membrane field, because commercial hail claims involve larger dollar amounts and insurers retain independent engineers, and test-square documentation withstands that level of review. Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
       ],
       ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'HAAG Test-Square Assessment',
+        title: 'Test-Square Assessment',
         description:
-          'A Newark Quality Roofing inspector marks a 10-by-10-foot test square, one roofing square of 100 square feet, on each roof slope and counts every impact, classifying each as functional or cosmetic hail damage, per the HAAG Engineering Test Square method.',
+          'A Newark Quality Roofing inspector marks a 10-by-10-foot test square, one roofing square of 100 square feet, on each roof slope and counts every impact, classifying each as functional or cosmetic hail damage, per IBHS hail-assessment guidance.',
       },
       {
         title: 'Damage Documentation',
         description:
-          'A Newark Quality Roofing crew records close-up impact photographs with measurement references, per-square impact counts, and collateral damage to gutters, vent caps, and siding on a roof diagram, per HAAG Engineering and Integrity Home Exteriors documentation guidance.',
+          'A Newark Quality Roofing crew records close-up impact photographs with measurement references, per-square impact counts, and collateral damage to gutters, vent caps, and siding on a roof diagram, per IBHS and Integrity Home Exteriors documentation guidance.',
       },
       {
         title: 'Insurance Claim and Adjuster Meeting',
         description:
-          'A Newark Quality Roofing representative meets the insurance adjuster on-site and walks the documented HAAG-standard findings, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, per the Insurance Information Institute.',
+          'A Newark Quality Roofing representative meets the insurance adjuster on-site and walks the documented test-square findings, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, per the Insurance Information Institute.',
       },
       {
         title: 'Repair or Replacement Scope',
@@ -1335,7 +1335,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         question: 'How do you know if a roof has hail damage from the ground?',
         answer:
-          '**Hail damage is confirmed by close-range inspection, not from the ground, because the first visible signs are collateral dents on gutters, vent caps, air-conditioning units, and vehicles.** Dents on these soft-metal surfaces indicate hailstones large enough to bruise shingles, the corroborating indicator for a roof inspection, per HAAG Engineering and IBHS hail-assessment guidance.',
+          '**Hail damage is confirmed by close-range inspection, not from the ground, because the first visible signs are collateral dents on gutters, vent caps, air-conditioning units, and vehicles.** Dents on these soft-metal surfaces indicate hailstones large enough to bruise shingles, the corroborating indicator for a roof inspection, per IBHS hail-assessment guidance.',
       },
       {
         question: 'What size hail damages a roof in Essex County, NJ?',
@@ -1387,9 +1387,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
             'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
         },
         {
-          title: 'HAAG Test-Square Assessment',
+          title: 'Test-Square Assessment',
           description:
-            'Newark Quality Roofing assesses hail damage with the HAAG Engineering Test Square method, the standard 100-square-foot inspection procedure adjusters and engineers use to classify functional and cosmetic hail damage.',
+            'Newark Quality Roofing assesses hail damage with a test-square method, the standard 100-square-foot inspection procedure adjusters and engineers use to classify functional and cosmetic hail damage.',
         },
         {
           title: 'Local Essex County Roofers',

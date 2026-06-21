@@ -12,7 +12,7 @@ export const newarkHailDamageRoofRepair: ComboContent = {
     '**Bruised and fractured shingles** lose service life where hail scuffs the protective granules and fractures the mat beneath, even when the surface still looks intact. The National Oceanic and Atmospheric Administration sets the severe-hail warning threshold at 0.75 inch diameter, while roof damage begins at about 1.0 inch on aged 3-tab shingles and 1.25 inch on most common shingles, with 2.0-inch hail damaging all tested roofing, per the American Meteorological Society.',
     '**Hail-driven granule loss** exposes the black asphalt mat in scattered impact marks, which the American Meteorological Society identifies as the onset of lost service life on struck shingles. The Insurance Institute for Business and Home Safety notes hail damage tracks kinetic energy — hail size combined with wind speed — so a 0.75-inch stone in high wind outdamages a 1.0-inch stone in calm air.',
     '**Cracked slate** appears on Forest Hill\'s Victorian and Roseville\'s brownstone roofs, where angled hail splits brittle slate and opens a moisture path masked by surrounding intact tiles. Hail damage roof repair restores the water layer at each impact point, from a few replaced slates or shingles to a documented insurance-claim restoration.',
-    '**Dented metal flashing and gutters** on a roof corroborate the hailstone size that struck the field, per HAAG Engineering and IBHS hail-assessment guidance. On the Ironbound\'s low-slope EPDM and TPO membranes, the same hail produces surface bruising, compression fractures, and seam separation that admit water slowly through the insulation below.',
+    '**Dented metal flashing and gutters** on a roof corroborate the hailstone size that struck the field, per IBHS hail-assessment guidance. On the Ironbound\'s low-slope EPDM and TPO membranes, the same hail produces surface bruising, compression fractures, and seam separation that admit water slowly through the insulation below.',
   ],
   challenges: [
     '**Aging Newark roofs complicate hail-damage attribution** because curling, granule loss, and weathered flashing already present on an older roof resemble or mask storm impacts. The American Meteorological Society notes uniform long-term granule loss reads as normal aging, while localized loss along impact paths reads as storm damage.',
@@ -21,7 +21,7 @@ export const newarkHailDamageRoofRepair: ComboContent = {
     '**North Ward access constraints** on dense, party-wall row houses and multi-family blocks limit ladder staging and roof setup, and a single hail swath can strike an investor\'s whole row at once. A hail swath from one storm concentrates within a defined path, per IBHS hail research, so neighboring roofs filing claims after the same storm corroborate the event.',
   ],
   process: [
-    '**Newark Quality Roofing assesses hail damage at close range on each roof slope, counting and classifying impacts per roofing square of 100 square feet.** An inspector classifies every impact as functional damage, which exposes the mat and shortens service life, or cosmetic damage, which marks the surface without compromising waterproofing, per HAAG Engineering and IBHS hail-assessment guidance.',
+    '**Newark Quality Roofing assesses hail damage at close range on each roof slope, counting and classifying impacts per roofing square of 100 square feet.** An inspector classifies every impact as functional damage, which exposes the mat and shortens service life, or cosmetic damage, which marks the surface without compromising waterproofing, per IBHS hail-assessment guidance.',
     '**Newark Quality Roofing documents the hail damage** with close-up photographs, per-square impact counts, and a roof diagram for the insurance adjuster, recording collateral damage to gutters, vent caps, skylights, and siding. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023).',
     '**Newark Quality Roofing sets the repair scope by impact density** and material: scattered impacts on a newer roof allow individual shingle or slate replacement, while a dense pattern favors full replacement. A detached one- and two-family roof-covering repair counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; on a commercial or attached building, repairing more than 25% of the roof area within 12 months requires a permit through Newark\'s Office of Uniform Construction Code, per the NJ Uniform Construction Code.',
   ],
@@ -29,7 +29,7 @@ export const newarkHailDamageRoofRepair: ComboContent = {
     {
       question: 'How do you tell if a Newark roof has hail damage from the ground?',
       answer:
-        'Hail damage is confirmed by close-range inspection, not from the ground, because the first visible signs are collateral dents on aluminum gutters, downspouts, vent caps, air-conditioning units, and vehicles. Dents on these soft-metal surfaces indicate hailstones large enough to bruise the shingles, the corroborating indicator for a roof inspection, per HAAG Engineering and IBHS hail-assessment guidance. Newark Quality Roofing inspects each roof plane to confirm and quantify the damage.',
+        'Hail damage is confirmed by close-range inspection, not from the ground, because the first visible signs are collateral dents on aluminum gutters, downspouts, vent caps, air-conditioning units, and vehicles. Dents on these soft-metal surfaces indicate hailstones large enough to bruise the shingles, the corroborating indicator for a roof inspection, per IBHS hail-assessment guidance. Newark Quality Roofing inspects each roof plane to confirm and quantify the damage.',
     },
     {
       question: 'What size hail damages a roof in Newark, NJ?',
@@ -39,12 +39,12 @@ export const newarkHailDamageRoofRepair: ComboContent = {
     {
       question: 'Can hail damage a flat membrane roof on an Ironbound building?',
       answer:
-        'Yes. Hail strikes a low-slope EPDM or TPO membrane at a more direct angle than a sloped roof, causing surface bruising, compression fractures, and seam separation that weaken the material at each impact point. The damage may not leak immediately and often surfaces months later as accelerated aging or a slow leak through saturated insulation. Newark Quality Roofing assesses Ironbound commercial membranes with a functional-versus-cosmetic inspection per 100-square-foot inspection area, per HAAG Engineering and IBHS guidance, because commercial hail claims involve larger amounts and insurers retain independent engineers.',
+        'Yes. Hail strikes a low-slope EPDM or TPO membrane at a more direct angle than a sloped roof, causing surface bruising, compression fractures, and seam separation that weaken the material at each impact point. The damage may not leak immediately and often surfaces months later as accelerated aging or a slow leak through saturated insulation. Newark Quality Roofing assesses Ironbound commercial membranes with a functional-versus-cosmetic inspection per 100-square-foot inspection area, per IBHS guidance, because commercial hail claims involve larger amounts and insurers retain independent engineers.',
     },
     {
       question: 'Does homeowners insurance cover hail damage to a Newark roof?',
       answer:
-        'Homeowners insurance covers hail damage as a sudden weather peril, though some policies exclude cosmetic-only damage and cover functional damage that exposes the asphalt mat. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (2019–2023). Newark Quality Roofing documents the functional-versus-cosmetic split per 100-square-foot inspection area, per HAAG Engineering and IBHS guidance, and meets the adjuster on-site.',
+        'Homeowners insurance covers hail damage as a sudden weather peril, though some policies exclude cosmetic-only damage and cover functional damage that exposes the asphalt mat. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (2019–2023). Newark Quality Roofing documents the functional-versus-cosmetic split per 100-square-foot inspection area, per IBHS guidance, and meets the adjuster on-site.',
     },
     {
       question: 'Do I need a permit to repair hail damage on my Newark home?',
@@ -66,7 +66,7 @@ export const newarkHailDamageRoofRepair: ComboContent = {
   whyChooseUs: [
     'New Jersey Home Improvement Contractor — licensed and insured.',
     'Local Essex County crew familiar with Newark\'s row-house, brownstone, slate, and Ironbound flat-roof building stock.',
-    'Hail damage assessed per 100-square-foot inspection area, per HAAG Engineering and IBHS guidance, to classify functional and cosmetic damage the way adjusters and engineers do.',
+    'Hail damage assessed per 100-square-foot inspection area, per IBHS guidance, to classify functional and cosmetic damage the way adjusters and engineers do.',
     'Free, detailed written estimates with damage documented in photos for your records and any insurance claim.',
   ],
   conversionHooks: {

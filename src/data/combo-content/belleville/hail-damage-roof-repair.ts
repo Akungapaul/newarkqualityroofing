@@ -20,7 +20,7 @@ export const bellevilleHailDamageRoofRepair: ComboContent = {
     '**Mature-canopy debris** complicates a Belleville hail assessment, because the township\'s streetcar-suburb canopy of oak, maple, and sycamore drops leaves and branches that collect in valleys and gutters and mask impact patterns. A Newark Quality Roofing inspection clears debris from the test areas before mapping the directional hail damage across each slope.',
   ],
   process: [
-    '**Newark Quality Roofing assesses hail damage at close range using the HAAG Engineering Test Square method — a 10-by-10-foot square, one roofing square of 100 square feet, marked on each roof slope.** A Newark Quality Roofing inspector counts and classifies every impact as functional damage that exposes the asphalt mat or cosmetic marking that leaves waterproofing intact, per HAAG Engineering, the standard hail-inspection procedure since the 1960s, and coordinates tenant access in advance on Belleville\'s occupied two-family and multi-family buildings.',
+    '**Newark Quality Roofing assesses hail damage at close range using a test-square method — a 10-by-10-foot square, one roofing square of 100 square feet, marked on each roof slope.** A Newark Quality Roofing inspector counts and classifies every impact as functional damage that exposes the asphalt mat or cosmetic marking that leaves waterproofing intact, per IBHS hail-assessment guidance, the standard hail-inspection procedure, and coordinates tenant access in advance on Belleville\'s occupied two-family and multi-family buildings.',
     '**Newark Quality Roofing documents the hail damage with close-up photographs, per-square impact counts, and a roof diagram for the insurance adjuster.** A Newark Quality Roofing crew also records collateral damage to gutters, vent caps, skylights, and siding, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). The repair-versus-replacement scope follows impact density: scattered impacts on a newer roof allow individual shingle replacement, while a dense pattern favors full replacement.',
     '**Newark Quality Roofing repairs the damaged shingles or membrane to manufacturer specification, matching the color and product line, then runs a magnet sweep for nails at cleanup.** A Newark Quality Roofing estimate offers a UL 2218 Class 4 impact-resistant shingle upgrade, the most resistant of the four UL 2218 classes, which IBHS and the Federal Alliance for Safe Homes recommend in hail-exposed areas, per IBHS hail-mitigation guidance. The completed work is documented with timestamped photographs keyed to the roof diagram for the owner and insurer.',
   ],
@@ -28,12 +28,12 @@ export const bellevilleHailDamageRoofRepair: ComboContent = {
     {
       question: 'How can I tell if my Belleville roof has hail damage from the ground?',
       answer:
-        'Hail damage is confirmed by close-range inspection, not from the ground, because the first visible signs are collateral dents on gutters, vent caps, air-conditioning units, and vehicles. Dents on these soft-metal surfaces indicate hailstones large enough to bruise shingles, the corroborating indicator for a roof inspection, per HAAG Engineering and IBHS hail-assessment guidance. Newark Quality Roofing assesses the roof at close range after a confirmed hail event in the area.',
+        'Hail damage is confirmed by close-range inspection, not from the ground, because the first visible signs are collateral dents on gutters, vent caps, air-conditioning units, and vehicles. Dents on these soft-metal surfaces indicate hailstones large enough to bruise shingles, the corroborating indicator for a roof inspection, per IBHS hail-assessment guidance. Newark Quality Roofing assesses the roof at close range after a confirmed hail event in the area.',
     },
     {
       question: 'My adjuster says the hail damage is cosmetic. What does that mean?',
       answer:
-        'Cosmetic damage marks the shingle surface without compromising waterproofing, while functional damage exposes the asphalt mat and shortens service life, and most homeowners policies cover functional hail damage while some exclude cosmetic-only damage. A Newark Quality Roofing HAAG Test Square assessment classifies each impact and documents mat-level bruising, cracking, or exposed fiberglass to support the claim, per HAAG Engineering hail-assessment guidance.',
+        'Cosmetic damage marks the shingle surface without compromising waterproofing, while functional damage exposes the asphalt mat and shortens service life, and most homeowners policies cover functional hail damage while some exclude cosmetic-only damage. A Newark Quality Roofing test-square assessment classifies each impact and documents mat-level bruising, cracking, or exposed fiberglass to support the claim, per IBHS hail-assessment guidance.',
     },
     {
       question: 'Do flat-roofed two-family and multi-family buildings in Belleville need a permit for hail repair?',
@@ -52,7 +52,7 @@ export const bellevilleHailDamageRoofRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Hail damage roof repair in Belleville NJ — HAAG Test Square assessment, insurance-claim documentation, older asphalt and flat-membrane stock. Free estimate.',
+    'Hail damage roof repair in Belleville NJ — test-square assessment, insurance-claim documentation, older asphalt and flat-membrane stock. Free estimate.',
   pricing: {
     range: '$400–$1,000',
     note: 'Typical NJ leak-repair range per HomeAdvisor; hail damage is often covered by homeowner insurance. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
@@ -61,7 +61,7 @@ export const bellevilleHailDamageRoofRepair: ComboContent = {
     'A registered New Jersey Home Improvement Contractor, fully insured.',
     'Local Essex County crew familiar with Belleville\'s older single-family, two-family, and small multi-family building stock.',
     'Free, detailed written estimates with no obligation.',
-    'Hail damage documented with HAAG Test Square impact counts and photos for your records and any insurance claim.',
+    'Hail damage documented with test-square impact counts and photos for your records and any insurance claim.',
   ],
   conversionHooks: {
     midPageCta: 'Get your free written estimate for hail damage roof repair in Belleville.',

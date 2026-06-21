@@ -11,7 +11,7 @@ export const irvingtonHailDamageRoofRepair: ComboContent = {
     '**Newark Quality Roofing repairs hail-bruised and fractured shingles, hail-driven granule loss, and dented metal flashing, gutters, and vents** across Irvington\'s dense two- and three-family rentals, older early-20th-century detached homes, and Springfield Avenue commercial flat roofs. Hail damage roof repair restores the water layer at each impact point and documents the damage for an insurance claim.',
     '**Hail-bruised and fractured shingles** define the assessment on Irvington\'s aged stock, because the National Oceanic and Atmospheric Administration sets the severe-hail warning threshold at 0.75 inch diameter, while roof damage begins at about 1.0 inch on aged 3-tab shingles and 1.25 inch on most common shingles, with 2.0-inch hail damaging all tested roofing, per the American Meteorological Society. The Insurance Institute for Business and Home Safety notes hail damage tracks kinetic energy, hail size combined with wind speed, so a smaller stone in high wind outdamages a larger stone in calm air.',
     '**Hail-driven granule loss** exposes the black asphalt mat on a struck shingle, the onset of lost service life the American Meteorological Society identifies on impacted shingles, and a Newark Quality Roofing assessment separates concentrated hail scuffing from the diffuse age-related granule loss that Irvington\'s 1920s-1940s roofs already carry. Uniform, long-term granule loss reads as wear, while localized loss along an impact path reads as possible storm damage, per InterNACHI inspection guidance.',
-    '**Dented metal flashing, gutters, and vents** corroborate hail large enough to bruise the shingle field, per the Insurance Institute for Business and Home Safety and HAAG Engineering hail-assessment guidance, and on Irvington\'s two- and three-family rentals a Newark Quality Roofing crew documents the collateral damage building by building for an owner managing several tenant-occupied properties.',
+    '**Dented metal flashing, gutters, and vents** corroborate hail large enough to bruise the shingle field, per the Insurance Institute for Business and Home Safety hail-assessment guidance, and on Irvington\'s two- and three-family rentals a Newark Quality Roofing crew documents the collateral damage building by building for an owner managing several tenant-occupied properties.',
   ],
   challenges: [
     '**Aged shingle stock** defines hail assessment in Irvington, because the township\'s dense early-20th-century homes and two- and three-family rentals carry brittle, granule-depleted asphalt that fractures at a lower impact threshold than a newer roof. A Newark Quality Roofing inspector distinguishes fresh hail fracture from the background wear an aged roof already shows.',
@@ -28,7 +28,7 @@ export const irvingtonHailDamageRoofRepair: ComboContent = {
     {
       question: 'How do you know if an Irvington roof has hail damage from the ground?',
       answer:
-        'Hail damage is confirmed by close-range inspection, not from the ground, because the first visible signs are collateral dents on gutters, vent caps, air-conditioning units, and vehicles. Dents on these soft-metal surfaces indicate hailstones large enough to bruise shingles, the corroborating indicator for a roof inspection, per HAAG Engineering and IBHS hail-assessment guidance. On Irvington\'s aged shingle roofs, many hail fractures stay invisible from the ground because the brittle material cracks without obviously displacing.',
+        'Hail damage is confirmed by close-range inspection, not from the ground, because the first visible signs are collateral dents on gutters, vent caps, air-conditioning units, and vehicles. Dents on these soft-metal surfaces indicate hailstones large enough to bruise shingles, the corroborating indicator for a roof inspection, per IBHS hail-assessment guidance. On Irvington\'s aged shingle roofs, many hail fractures stay invisible from the ground because the brittle material cracks without obviously displacing.',
     },
     {
       question: 'What size hail damages a roof in Irvington, NJ?',
@@ -57,7 +57,7 @@ export const irvingtonHailDamageRoofRepair: ComboContent = {
     },
   ],
   metaDescription:
-    'Hail damage roof repair in Irvington NJ — HAAG test-square assessment and insurance documentation on aging two- and three-family shingle roofs. Free estimate.',
+    'Hail damage roof repair in Irvington NJ — test-square assessment and insurance documentation on aging two- and three-family shingle roofs. Free estimate.',
   pricing: {
     range: '$500–$3,500 for most hail repairs',
     note: 'Typical NJ hail-repair range per HomeAdvisor, Angi, and This Old House; severe repair that punctures underlayment runs higher. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
@@ -65,7 +65,7 @@ export const irvingtonHailDamageRoofRepair: ComboContent = {
   whyChooseUs: [
     'A registered New Jersey Home Improvement Contractor, fully insured.',
     'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
-    'HAAG Engineering Test Square assessment that classifies functional and cosmetic hail damage for an insurance adjuster.',
+    'Test-square assessment that classifies functional and cosmetic hail damage for an insurance adjuster.',
     'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {

@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const millburnRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'millburn',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof overlay installation across Millburn, New Jersey, and Essex County, applying a second asphalt-shingle layer over one existing sound layer** on qualifying Colonial Revival and downtown-village homes, as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [
-    'Newark Quality Roofing delivers expert roof overlay installation in Millburn — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in Millburn provides a re-roofing option for properties where the existing single layer of asphalt shingles is in stable condition, the deck beneath is sound, and the homeowner prioritizes reduced cost and project duration over the comprehensive benefits of full tear-off. The overlay approach installs new shingles directly over the existing layer, eliminating the debris, noise, and extended timeline that tear-off generates -- considerations that resonate with Millburn homeowners whose estate properties include landscape features, pool areas, and outdoor living spaces vulnerable to construction disruption.',
-    'Our [roof overlay installation](/roof-overlay-installation) assessment for Millburn properties applies strict qualification criteria before recommending overlay as the appropriate approach. The existing roof must have only one layer of shingles, the deck must be structurally sound with no evidence of moisture damage, the existing shingles must lie flat without excessive curling or buckling that would telegraph through the new layer, and the structural capacity must accommodate the additional weight of the second shingle layer. Properties that fail any criterion receive a tear-off recommendation instead.',
-    'The overlay option on Millburn estates is most commonly appropriate for secondary structures -- guest houses, pool houses, detached garages -- where the roofing budget is allocated proportionally to the structure\'s role within the property rather than to the same standard applied to the main residence. A pool house with a single layer of aging architectural shingles on a sound deck is a sensible overlay candidate when the homeowner plans to invest the premium-material budget on the main residence\'s slate or cedar restoration instead.'
+    '**Newark Quality Roofing applies a roof overlay — a second asphalt-shingle layer over one existing sound layer with no tear-off** — on Millburn\'s Colonial Revival, downtown-village, and contemporary asphalt-shingle homes. Most Short Hills slate, copper, tile, and cedar estate roofs never qualify.',
+    '**A roof overlay** skips the tear-off labor and the disposal, so a roof overlay runs roughly 20–25% less than a full tear-off, a national figure per HomeGuide and Angi. It suits a sound Colonial Revival or downtown-village asphalt roof carrying a single layer, not a Short Hills period roof in natural slate, copper, tile, or cedar.',
+    '**Eligibility** turns on what the existing roof carries, because N.J.A.C. 5:23-6.4 bars a roof overlay where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers already exist, per the NJ Uniform Construction Code. A Newark Quality Roofing eligibility inspection confirms one sound asphalt layer over a smooth, dry deck.',
+    '**Trade-offs** weigh against the saving, because a roof overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI, traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile, per Owens Corning and GAF, and adds dead load. Newark Quality Roofing states these in the written estimate.',
   ],
   challenges: [
-    'Warranty limitations on overlay installations constrain the protection available to Millburn homeowners. Most shingle manufacturers reduce their warranty coverage -- both duration and scope -- when the product is installed over an existing layer rather than on a clean deck with proper underlayment. The reduced warranty reflects the higher failure risk that hidden deck conditions, trapped moisture, and irregular substrate surfaces create beneath the overlay. We communicate these warranty implications clearly so the homeowner makes the overlay-versus-tear-off decision with full knowledge of the coverage difference.',
-    'Flashing replacement during overlay installation is compromised by the existing shingle layer that conceals the flashing integration points. Step flashings woven into the existing shingle coursing cannot be properly replaced without removing the existing shingles in those areas, and counter-flashings at wall and chimney junctions may not integrate properly with the elevated new-shingle surface. These flashing limitations represent the highest-risk elements of overlay installation and are the most common failure points in overlay roofs.',
-    'Aesthetic results of overlay installation can be affected by irregularities in the existing shingle surface telegraphing through the new layer. Curled shingle edges, ridge-cap buildup, and dimensional variations in the existing layer create a substrate that is less uniform than a clean deck, and the new shingles laid over this surface may develop visible waves, ridges, or shadow-line irregularities that would not occur on a tear-off installation. On Millburn properties where aesthetic expectations are elevated, this cosmetic risk should factor into the overlay-versus-tear-off decision.'
+    '**Slate, copper, tile, and cedar estate roofs never qualify for an overlay**, because N.J.A.C. 5:23-6.4 bars a recover over wood shake, slate, clay, cement, or asbestos-cement tile, per the NJ Uniform Construction Code. The deep stock of early-20th-century high-style homes in Short Hills carries those coverings, so a Newark Quality Roofing assessment restores or replaces them in kind rather than overlaying them.',
+    '**Deck condition** decides eligibility on the wooded reservation-edge lots Millburn abuts along the South Mountain Reservation, a roughly 2,112-acre Essex County reservation between the First and Second Watchung ridges, per Essex County Parks, where heavy oak and maple canopy drops leaf load into valleys and gutters that back water under the covering. Trapped moisture rots sheathing, and N.J.A.C. 5:23-6.4 bars a recover over a deteriorated deck.',
+    '**Telegraphed profile** affects the result where the existing shingles do not lie flat, because asphalt shingles take the shape of the surface beneath, so a smooth substrate is required, per Owens Corning installation instructions and GAF Technical Bulletin TAB-R-145. A Newark Quality Roofing crew nails down loose and curled shingles, removes protruding nails, and replaces missing shingles before the second layer installs.',
+    '**Two existing layers** disqualify an overlay outright, because N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1 cap a roof at 2 total layers and prohibit a third, per the NJ Uniform Construction Code. A future re-roof over 2 layers then removes both at higher tear-off and disposal cost, so a Newark Quality Roofing inspection counts the existing layers before quoting an overlay.',
   ],
   process: [
-    'Overlay qualification begins with a thorough inspection of the existing roof. We verify single-layer status through edge examination and, where necessary, probe cuts that expose the deck beneath. The deck is tested for moisture and structural soundness from the attic side. The existing shingle condition is evaluated for flatness, adhesion, and uniformity. Properties that meet all qualification criteria receive an overlay proposal alongside a tear-off proposal with the cost difference, warranty implications, and expected service life for each option clearly compared.',
-    'Pre-installation preparation addresses the existing surface conditions that could affect the overlay. Curled or lifted shingle edges are nailed flat. Excessive ridge-cap buildup is removed. Missing or damaged shingles are replaced to create a uniform substrate. New flashing is installed at the most critical junctions -- valleys, chimney bases, and wall intersections -- even if this requires selective removal of existing shingles in those areas to achieve proper flashing integration.',
-    'Shingle installation over the prepared existing surface follows standard application procedures with adjustments for the elevated starting height at the eave and the modified nail-penetration depth required to secure through two shingle layers into the deck. Starter courses, field shingles, hip and ridge caps, and edge details are installed to manufacturer specifications for overlay applications. The completed installation is documented with the overlay-specific warranty registered with the manufacturer.'
+    '**Newark Quality Roofing inspects the existing roof and deck and confirms overlay eligibility against the conditions that bar a recover before quoting an overlay.** N.J.A.C. 5:23-6.4 bars a roof overlay where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers exist, per the NJ Uniform Construction Code, and a Newark Quality Roofing inspection confirms one sound asphalt layer over a smooth, dry deck.',
+    '**Newark Quality Roofing states the overlay trade-offs against a tear-off in the written estimate, because a roof overlay delivers less than a tear-off.** A roof overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI, traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile, per Owens Corning and GAF, and adds dead load across the deck and framing, so the choice is documented before any work begins.',
+    '**Newark Quality Roofing prepares the smooth substrate and installs the second asphalt layer to manufacturer specification, the install that keeps the GAF or Owens Corning limited warranty in force.** A crew nails down loose and curled shingles, removes protruding nails, and replaces missing shingles, because GAF Technical Bulletin TAB-R-145 and Owens Corning installation instructions condition a recover on a smooth substrate, then runs a magnet sweep for nails at cleanup.',
   ],
   faqs: [
     {
-      question: 'Is overlay as durable as a full tear-off and replacement?',
-      answer: 'Overlay installations typically achieve eighty to ninety percent of the service life of tear-off installations, primarily because hidden deck conditions, trapped moisture, and compromised flashing integration create failure risks that do not exist on clean-deck installations. For Millburn homeowners who plan to remain in the property for the full life of the new roof, tear-off provides better long-term value. For properties where the overlay will serve adequately for the anticipated remaining ownership period, the cost savings may justify the reduced longevity.'
+      question: 'Will my Millburn home qualify for a roof overlay?',
+      answer:
+        'A Millburn home qualifies for a roof overlay where one sound asphalt-shingle layer sits over a smooth, dry, sound deck, per GAF Technical Bulletin TAB-R-145. N.J.A.C. 5:23-6.4 bars a recover over a deteriorated deck, over wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers exist, so most Short Hills slate, copper, tile, and cedar estate roofs and any home with two layers require a full tear-off instead, per the NJ Uniform Construction Code.',
     },
     {
-      question: 'Will my Millburn home qualify for overlay installation?',
-      answer: 'Qualification depends on the existing roof condition: single layer of shingles, sound deck, flat-lying shingles without excessive curling, and structural capacity for the additional weight. We assess these criteria during the inspection and provide a clear recommendation. Properties with two existing layers, deck damage, or significant shingle deterioration do not qualify and require tear-off regardless of the homeowner\'s preference.'
+      question: 'Is a roof overlay as good as a full tear-off?',
+      answer:
+        'A roof overlay delivers less than a full tear-off: it hides deck rot a tear-off catches and repairs, traps heat that cuts the new shingles\' service life by roughly 20–30%, telegraphs the old shingle profile, and adds dead load. The hidden-deck and trade-off framing traces to ARMA, InterNACHI, Owens Corning, and a national Angi industry estimate. A future re-roof over 2 layers then removes both at higher cost, per IRC Section R908.3.1.1.',
     },
     {
-      question: 'How much can I save with overlay versus tear-off?',
-      answer: 'Overlay typically saves twenty to thirty percent compared to tear-off installation, with the savings coming from eliminated tear-off labor, reduced debris-disposal costs, and shorter project duration. The actual savings depend on the size and complexity of the roof, the disposal costs for the existing material, and the site-protection requirements that tear-off demands. We provide both options in the proposal with itemized costs so the savings are transparent.'
+      question: 'Does a roof overlay need a permit in Millburn, NJ?',
+      answer:
+        'A roof overlay on a detached one- or two-family home in Millburn counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. The ordinary-maintenance exemption covers the roof covering, not a non-compliant recover, so an overlay still meets the N.J.A.C. 5:23-6.4 eligibility limits. On a commercial, multi-family, or attached building, repairing more than 25% of the roof area in 12 months requires a permit filed with the Township of Millburn Building Department.',
     },
     {
-      question: 'Can I install premium architectural shingles as an overlay?',
-      answer: 'Yes, architectural shingles can be installed as overlay provided the existing surface is qualified. The dimensional thickness of architectural shingles actually helps mask minor irregularities in the existing surface that would be more visible through thinner three-tab shingles. However, the overlay warranty for architectural shingles is still reduced compared to the clean-deck warranty, so the premium material investment receives less warranty protection in the overlay configuration.'
+      question: 'Does a roof overlay need historic approval in Millburn?',
+      answer:
+        'Most Millburn and Short Hills homes need no Historic Preservation Commission review, but a designated landmark or a property inside the Wyoming or Short Hills Park historic district requires a Certificate of Appropriateness before permit-triggering roof work. The Township of Millburn Historic Preservation ordinance names roof repairs or replacement, and a Certificate of Appropriateness is the Commission\'s exterior-design approval, separate from the building permit. Short Hills Village is a recently designated or pending third historic district, checked against current designation status. Per the National Park Service, National Register listing alone places no restriction, so the Paper Mill Playhouse and Cora Hartshorn Arboretum impose no roofing gate on a neighboring home.',
     },
     {
-      question: 'How much does roof overlay installation cost in Millburn, NJ?',
-      answer: 'Most roof overlay installation projects in Millburn range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How long does a roof overlay last on a Millburn home?',
+      answer:
+        'A roof overlay lasts less than the same shingles installed over a clean deck, because trapped heat cuts the new shingles\' service life by roughly 20–30%, so a 30-year architectural shingle delivers closer to 20–24 years over an overlay. The 20–30% reduction is a national industry estimate per Angi, and the 3-tab 20-year and architectural 30-year baselines trace to the InterNACHI life-expectancy chart.',
+    },
+    {
+      question: 'How much does a roof overlay cost in Millburn, NJ?',
+      answer:
+        'A roof overlay runs roughly 20–25% less than a full tear-off, a national figure per HomeGuide and Angi, because an overlay skips the tear-off labor and the disposal. NJ architectural asphalt runs $6.50–$11.00 per square foot installed, per Josten Roofing NJ pricing. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof overlay installation for Millburn properties. Second-layer shingle application with qualification assessment, cost savings, and warranty comparison.',
+  metaDescription:
+    'Roof overlay in Millburn NJ — a second asphalt layer over one sound layer on qualifying homes, with code eligibility checks. NJ-registered, free estimate.',
   pricing: {
-    range: '$6,000–$14,000',
-    note: 'overlay without full tear-off',
+    range: 'Roughly 20–25% less than a full tear-off',
+    note: 'A roof overlay runs roughly 20–25% less than a full tear-off, a national figure per HomeGuide and Angi; NJ architectural asphalt runs $6.50–$11.00 per square foot installed per Josten Roofing NJ pricing. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Millburn\'s early-20th-century high-style homes and Short Hills estates in slate, copper, tile, and cedar.',
+    'Honest overlay-versus-tear-off disclosure of the trade-offs in the written estimate.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof overlay installation estimate in Millburn — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof overlay installation in Millburn.',
+    urgencyNote: 'An eligibility check confirms whether one sound layer and a dry deck support an overlay before the work begins.',
   },
 };

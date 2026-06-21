@@ -48,7 +48,7 @@ export const nutleyRoofLeakRepair: ComboContent = {
     {
       question: 'Why does my Nutley flat or commercial roof keep leaking at the same seam?',
       answer:
-        'A recurring leak on a low-slope roof traces to a failed membrane seam, a cracked rooftop-equipment penetration, or ponding water that breaks down the seam adhesive. Ponding held more than 48 hours counts as a defect, and a low-slope roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA. The Franklin Avenue downtown corridor and the ON3 institutional buildings carry these EPDM, TPO, and modified-bitumen roofs, where electronic leak detection locates a membrane breach per ASTM D8231 and infrared imaging locates wet insulation per ASTM C-1153. A Newark Quality Roofing repair maps the standing water and reseals the failed seam.',
+        'A recurring leak on a low-slope roof traces to a failed membrane seam, a cracked rooftop-equipment penetration, or ponding water that breaks down the seam adhesive. Ponding held more than 48 hours counts as a defect, and a low-slope roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA. The Franklin Avenue downtown corridor and the ON3 institutional buildings carry these EPDM, TPO, and modified-bitumen roofs, where electronic leak detection locates a membrane breach and infrared imaging locates wet insulation per ASTM C1153. A Newark Quality Roofing repair maps the standing water and reseals the failed seam.',
     },
     {
       question: 'How much does roof leak repair cost in Nutley, NJ?',
