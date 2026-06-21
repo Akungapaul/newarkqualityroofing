@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const roselandSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'roseland',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing skylight installation repair across Roseland, New Jersey, and Essex County, sealing flashing leaks, replacing fogged units, and curb-mounting skylights** on the borough\'s postwar single-family homes and Eisenhower Parkway office-park roofs as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [
-    'Newark Quality Roofing delivers expert skylight installation repair in Roseland — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair in Roseland transforms interior spaces in the borough\'s mid-century homes where original floor plans did not prioritize natural light. The colonials, split-levels, and ranches that define Roseland\'s residential architecture often feature interior hallways, bathrooms, and stairwells that rely entirely on artificial lighting. Skylights positioned over these spaces introduce daylight that improves both the livability and perceived size of rooms that artificial light cannot fully illuminate. Our [skylight installation and repair](/skylight-installation-repair) service handles the combined roofing and carpentry work that proper skylight integration requires.',
-    'Skylight repair calls in Roseland most frequently address units installed during the 1980s and 1990s that have reached the end of their glazing and flashing life. Condensation between dual-pane glass layers, cracked acrylic domes, and deteriorated flashing curbs are the typical failure modes that generate service calls. Replacement with current-generation units from VELUX and other manufacturers delivers dramatically improved thermal performance, UV filtering, and condensation resistance compared to the products they replace.',
-    'Commercial skylight applications in Roseland\'s office buildings and retail spaces bring natural light into common areas and atriums where employee satisfaction and energy cost reduction both benefit. Tubular skylights provide an alternative for commercial spaces where traditional skylight installation is constrained by the building structure, using reflective tubes to transport daylight from the roof surface to interior ceilings up to 30 feet below. Properties in [West Orange](/skylight-installation-repair-west-orange-nj) have implemented similar commercial daylighting strategies in their office environments.'
+    '**Newark Quality Roofing installs and repairs skylights across Roseland\'s postwar colonials, ranches, split-levels, and Capes and its Eisenhower Parkway office-park buildings**, sealing flashing leaks, replacing fogged units, and curb-mounting skylights on low-slope roofs. The work seals the roof penetration at the flashing detail that admits water.',
+    '**Skylight leaks** on Roseland\'s tree-shaded single-family homes trace to failed or improperly installed flashing, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. A Newark Quality Roofing repair reseals the failed flashing with the VELUX or Fakro flashing kit matched to the mounting type and the roof covering, because an engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America.',
+    '**Fogged units** signal a failed insulated-glass seal on the older skylights set into Roseland\'s built-out postwar stock, the failure the VELUX 20-year glass-seal warranty covers, separate from leak coverage, per VELUX America. A skylight lasts 10–20 years, per the InterNACHI Estimated Life Expectancy Chart, so a Newark Quality Roofing diagnosis replaces a unit past that range and reseals one inside it.',
+    '**Curb-mounting** carries the skylight work on the flat and low-slope decks of the Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office-park corridor, where a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A Newark Quality Roofing low-slope skylight curb sheds water rather than ponding at the penetration.',
   ],
   challenges: [
-    'Roof structure modification for skylight installation requires cutting through rafters and headers that support the roof load. Proper framing around the skylight opening -- double headers and trimmer rafters -- transfers the interrupted load path around the opening without compromising structural integrity. The framing work is invisible once completed but is the most critical element of the installation. Undersized framing creates roof sag that manifests months or years after installation when cumulative snow loads reveal the structural deficiency.',
-    'Flashing integration between the skylight curb and the surrounding shingle field must handle water flow from the upslope roof area while accommodating thermal movement between the metal curb and the wood framing. Step flashing along the skylight sides, apron flashing at the downslope face, and cricket flashing at the upslope face create a multi-piece assembly that must function as a continuous water barrier. Each component must be sized, shaped, and integrated specifically for the skylight dimensions and roof pitch.',
-    'Condensation management in cold climates requires skylight products with thermal break frames and low-E glazing that maintain interior glass surface temperatures above the dew point. Skylights installed in Roseland homes with high interior humidity -- especially bathrooms and kitchens -- must carry the thermal performance rating to prevent the condensation dripping that cheaper units produce during winter. We specify only skylights rated for cold-climate installation in the northeastern market.'
+    '**Flashing integration** is the defining skylight condition across Roseland, because failed or improperly installed flashing is the leading cause of a skylight leak rather than the glass, per roofing trade consensus. A Newark Quality Roofing repair fits the VELUX or Fakro flashing kit matched to both the mounting type and the roof covering, replacing deteriorating caulk with engineered flashing, per VELUX America.',
+    '**Leak-versus-condensation diagnosis** separates a true skylight leak from winter misdiagnosis on Roseland\'s single-family homes, because water at a skylight is often condensation from excess indoor humidity on cold glass rather than a roof leak, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads before opening the flashing.',
+    '**Mature-canopy debris** stresses the skylights on Roseland\'s tree-shaded single-family streets, because the borough\'s heavy oak and maple canopy drops leaf load and broken branches that collect in valleys and at the skylight curb. A Newark Quality Roofing repair clears the curb and reseals the flashing where standing debris and branch impact open the water path on a tree-shaded Roseland slope.',
+    '**Western-edge drainage** loads the low-slope skylight curbs on the lower-lying parcels along Roseland\'s Passaic River boundary, because a low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA, while the office corridors and most neighborhoods sit on higher developed ground. A Newark Quality Roofing curb sheds water rather than ponding at the riverine western edge.',
   ],
   process: [
-    'Skylight installation begins with location selection that balances daylighting goals with structural and roofing practicalities. We evaluate the roof structure from the attic to identify the rafter bay that provides the best combination of interior light placement, minimal structural modification, and favorable position on the exterior roof plane. North-facing placements provide consistent indirect light, while south-facing positions maximize solar heat gain during winter months.',
-    'Structural framing for the skylight opening includes double headers at the top and bottom of the opening and trimmer rafters at each side. The opening is sized to accommodate the selected skylight unit with the manufacturer\'s specified clearance for flashing installation. After framing, the roof deck is cut, and the skylight curb is set and secured to the framing. Step flashing, apron flashing, and cricket flashing integrate the curb with the surrounding shingle system.',
-    'Interior finishing transforms the rough framing opening into a finished light shaft that directs daylight into the room below. For cathedral ceilings, the shaft is minimal -- the skylight sits directly above the finished ceiling surface. For conventional ceilings with attic space above, a light shaft is framed from the roof opening down to the ceiling opening, angled to maximize light spread into the room. Drywall, insulation, and painting complete the interior presentation.'
+    '**Newark Quality Roofing inspects the skylight flashing, curb, and shaft and rules out condensation before sealing.** A Newark Quality Roofing diagnosis separates a true leak from condensation, because water at a skylight is often condensation from indoor humidity on cold glass rather than a roof leak, a common winter misdiagnosis per VELUX America, and condensation tracks with temperature and humidity while a true leak tracks with rain and storms.',
+    '**Newark Quality Roofing fits the VELUX or Fakro flashing kit matched to the mounting type and the roof covering.** A deck-mounted unit fastens to the deck at a lower profile on a Roseland single-family pitched roof, while a curb-mounted unit on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8, on the office-park low-slope decks, and each mounting type takes its matched flashing kit, per VELUX America.',
+    '**Newark Quality Roofing installs the skylight to manufacturer specification, the condition the manufacturer leak warranty attaches to.** The VELUX No Leak installation warranty runs 10 years and applies only when the skylight installs to specification with a matching VELUX flashing kit, per VELUX America, and Fakro provides a 10-year leak-proof guarantee conditioned on the original Fakro flashing kit, per Fakro USA. A Newark Quality Roofing crew verifies watertight execution and runs a magnet sweep for nails before leaving the property.',
   ],
   faqs: [
     {
-      question: 'Will a skylight cause leaks on my Roseland home?',
-      answer: 'Properly installed skylights with manufacturer-specified flashing do not leak. Skylight leaks result from incorrect flashing integration with the roof system, not from the skylight unit itself. Our installation follows manufacturer flashing protocols precisely, and we install ice-and-water shield membrane around the entire skylight perimeter as secondary protection. The warranty covers both the skylight unit and our workmanship for a combined guarantee against water entry.'
+      question: 'Is the water at my Roseland skylight a leak or condensation?',
+      answer:
+        'Water at a skylight is often condensation from excess indoor humidity on cold glass, not a roof leak, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads before opening the flashing on a Roseland home.',
     },
     {
-      question: 'Can a skylight be added to a room that has an attic above it?',
-      answer: 'Yes, a light shaft connects the roof-level skylight to a ceiling opening in the room below. The shaft is framed through the attic space, insulated to prevent heat loss, and finished with drywall. Angling the shaft walls maximizes light distribution into the room. The result brings natural daylight into interior rooms that have no access to exterior walls -- a transformative improvement for dark hallways and interior bathrooms common in Roseland ranch homes.'
+      question: 'Why does a skylight leak on a Roseland home?',
+      answer:
+        'A skylight leaks because of failed or improperly installed flashing, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. An engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America, so a Newark Quality Roofing repair replaces the failed flashing rather than recaulking the curb, and clears the leaf and branch debris that Roseland\'s mature canopy drops at the curb.',
     },
     {
-      question: 'What skylight brand do you recommend for Roseland homes?',
-      answer: 'We install VELUX skylights as our primary product for residential installations. VELUX offers the widest range of sizes, venting options, and glazing configurations with the cold-climate thermal performance ratings that Roseland installations require. The brand\'s no-leak warranty, combined with our installation workmanship guarantee, provides comprehensive protection. For commercial applications, we also install Wasco and Milgard products when project specifications require them.'
+      question: 'Do I need a permit for skylight work in Roseland, NJ?',
+      answer:
+        'A repair or replacement of the roof covering and its penetrations on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit from the Borough of Roseland construction-code office at 300 Eagle Rock Avenue, and so does any structural change to rafters or framing for a new skylight opening. Roseland\'s Eisenhower Parkway and Becker Farm Road office buildings are commercial and follow that permit path.',
     },
     {
-      question: 'Should I replace my skylight during a roof replacement?',
-      answer: 'If your existing skylight is more than 15 years old, replacement during re-roofing is strongly recommended. The roofing crew already has the access and staging needed for skylight work, and integrating a new skylight into the new roof system creates optimal flashing conditions. Attempting to flash an aging skylight curb into a new roof system often reveals deteriorated curb components that require replacement anyway, adding unplanned cost and time.'
+      question: 'Can you install a skylight on a Roseland office-park flat roof?',
+      answer:
+        'A skylight installs on a flat or low-slope roof on a curb-mounted unit, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA, so a Newark Quality Roofing curb on an Eisenhower Parkway, Becker Farm Road, or Livingston Avenue office deck sheds water at the penetration rather than ponding.',
+    },
+    {
+      question: 'Does a skylight on a Roseland historic property need a Certificate of Appropriateness?',
+      answer:
+        'Roseland maintains a Landmarks and Historic District Commission and a Certificate of Appropriateness process for major alterations to designated properties under Chapter 30, Article IX, but the binding Certificate-of-Appropriateness gate applies only to locally designated properties. No specific Roseland landmark, site, or local historic district is confirmed to have been designated, and the ordinance requires owner consent before any residence can be designated, so no Roseland homeowner is subject to a Certificate of Appropriateness absent a designation. The Williams-Harrison House at 126 Eagle Rock Avenue is a National and New Jersey Register museum property, and per the National Park Service, Register listing alone places no restriction on a private property owner. A Certificate of Appropriateness, where it ever applies, is a separate approval from the construction permit.',
     },
     {
       question: 'How much does skylight installation repair cost in Roseland, NJ?',
-      answer: 'Most skylight installation repair projects in Roseland range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Skylight installation costs $1,600–$4,200 installed, replacement $800–$2,400, and leak repair $225–$800, per HomeGuide, Angi, and Modernize cost data. A reseal runs $75–$250 and a flashing repair $150–$500, per Angi and Modernize. Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Skylight installation and repair in Roseland NJ -- VELUX skylights and tubular daylighting for residential and commercial spaces.',
+  metaDescription:
+    'Skylight installation repair in Roseland NJ — flashing-leak seals, fogged-unit replacement, low-slope curb-mounting. NJ-registered, free estimate.',
   pricing: {
-    range: '$1,500–$5,000',
-    note: 'per skylight installed or repaired',
+    range: '$225–$4,200 across repair and installation',
+    note: 'Skylight installation runs $1,600–$4,200 and leak repair $225–$800, per HomeGuide, Angi, and Modernize; final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Roseland\'s postwar single-family homes and Eisenhower Parkway office-park roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free skylight installation repair estimate in Roseland — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for skylight installation repair in Roseland.',
+    urgencyNote: 'Sealing a failing skylight flashing early limits interior and structural water damage.',
   },
 };

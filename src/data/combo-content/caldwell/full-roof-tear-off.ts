@@ -3,56 +3,68 @@ import type { ComboContent } from '../schema';
 export const caldwellFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'caldwell',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing full roof tear off across Caldwell, New Jersey, and Essex County, stripping every roof layer to the bare deck on the borough\'s older Victorian-era homes and Bloomfield Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
-    'Newark Quality Roofing delivers expert full roof tear off in Caldwell — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off on Caldwell homes removes every layer of existing roofing material down to the structural deck, providing a clean foundation for new roof installation. This approach reveals the actual condition of the sheathing, allows inspection and repair of deteriorated decking, and eliminates the trapped moisture and debris that accumulate between roof layers when overlays are applied. For Caldwell\'s colonial and cape cod homes carrying their original 1960s roofing plus one or two overlay layers, full tear-off is the only path to a roof system that performs to modern standards.',
-    'Caldwell building code limits residential roofs to two total layers of shingle material. Many Caldwell homes have already reached this limit, making [full tear-off](/full-roof-tear-off) mandatory rather than optional for the next replacement cycle. Even when code allows an additional layer, we recommend tear-off for [Caldwell](/roofing-in-caldwell-nj) homes where the existing roof shows any signs of moisture infiltration, valley deterioration, or deck softness -- conditions that an overlay would conceal but not correct. Tear-off exposes every square foot of deck for inspection, ensuring that no hidden damage carries into the new roof installation.',
-    'The tear-off process on a typical Caldwell colonial generates approximately three thousand to four thousand pounds of waste material that must be contained, removed, and disposed of responsibly. Our containment system protects landscaping, siding, and walkways during the aggressive demolition phase, and our disposal practices comply with Essex County waste regulations. Neighbors in [North Caldwell](/full-roof-tear-off-north-caldwell-nj) and [Roseland](/full-roof-tear-off-roseland-nj) see similar tear-off scope on their residential properties.'
+    '**Newark Quality Roofing strips every existing roof layer to the bare deck, repairs the sheathing, and installs a new underlayment-and-cover system** on Caldwell\'s older Victorian-era and Colonial Revival homes, Capes, ranches, and the Bloomfield Avenue downtown\'s low-slope storefronts. A full roof tear off exposes the deck for the inspection a roof-over cannot provide.',
+    '**A full roof tear off** lets a roofer inspect the roof deck, repair any damage, and improve deck attachment, while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI. On Caldwell\'s substantially built-out blocks, decades of mature street-tree canopy debris in valleys and gutters back water under aging covering, so a tear-off often reveals deteriorated sheathing on these older homes.',
+    '**The NJ Rehabilitation Subcode** requires complete removal of the existing covering, with no recover-over, in 3 conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4. A full roof tear off is the code-mandated path for each of those conditions on a Caldwell roof.',
+    '**Caldwell\'s natural slate, metal, and copper period detailing** on its older high-style homes carries longer service lives than asphalt, with natural slate at 60 to 150 years, metal 40 to 80 years, and copper 70 years or more, per the InterNACHI life-expectancy chart. A tear-off on a slate or metal roof exposes corroded fasteners and degraded valley and chimney flashing for repair before the new system goes down.',
   ],
   challenges: [
-    'Protecting Caldwell landscaping during tear-off requires careful planning on properties where mature plantings line the foundation perimeter. Heavy tarps laid along the drip edge catch falling shingle debris, nails, and flashing material that would otherwise embed in garden beds and damage shrubs. Ground-level magnetic sweepers pass over lawn and driveway areas multiple times after tear-off to collect loose nails that protect bare feet, pet paws, and vehicle tires. These protection measures add time to the project but prevent the damage complaints that careless tear-off operations generate.',
-    'Weather exposure risk during tear-off on Caldwell homes creates urgency in the construction sequence. Once existing shingles are removed, the exposed deck is vulnerable to any precipitation until new underlayment and shingles are installed. We monitor weather forecasts closely and size our crews to complete tear-off and re-cover within the same day on most Caldwell colonials. When project scale exceeds single-day capacity, we tear in sections and protect each day\'s exposed area with temporary waterproofing before the crew leaves.',
-    'Asbestos-containing materials in original roofing on older Caldwell homes require identification and proper handling. Asphalt shingles manufactured before the mid-1980s may contain asbestos fibers. If testing confirms asbestos presence, tear-off must follow regulated abatement procedures including worker protection equipment, wet removal methods, and certified disposal at approved facilities. We test suspect materials before project start and build any required abatement procedures into the project scope and pricing.'
+    '**Deteriorated sheathing discovered at tear-off** is the defining condition on Caldwell\'s older built-out stock, because roofing nails penetrate at least ¾ inch into the deck, so sheathing rotted soft or swollen cannot hold a nail, per ARMA nail-application guidance. Newark Quality Roofing replaces the failing sections InterNACHI names — daylight through the deck, soft or spongy wood, sagging, delaminated plywood, swollen OSB.',
+    '**Mature street-tree canopy debris** loads valleys and gutters across Caldwell\'s shaded older blocks and backs water under the covering, so a tear-off frequently uncovers moisture-rotted decking and fascia beneath the worn field. Newark Quality Roofing maps the rotted sections at the deck-exposure phase and re-decks them before any underlayment goes down, the repair a recover would permanently conceal.',
+    '**Asbestos-containing covering** on the borough\'s oldest roofs requires identification before tear-off, because the Rehabilitation Subcode lists asbestos-cement tile among the coverings that mandate complete removal, per N.J.A.C. 5:23-6.4. Where suspect material is present, removal follows regulated handling by a licensed asbestos abatement contractor, separate from the roofing scope.',
+    '**Bloomfield Avenue storefront low-slope membranes** tear off differently from the pitched residential field, because a commercial, multi-family, or attached building crosses into permit territory once roof work exceeds 25% of the roof area in 12 months, per the NJ Uniform Construction Code. Newark Quality Roofing strips the existing membrane to the deck, grades the deck to drain, and rebuilds parapet and penetration flashing.',
   ],
   process: [
-    'Tear-off preparation in Caldwell begins with property protection setup. Landscape tarps are positioned along the building perimeter, dumpster is placed for efficient loading, and vulnerable features -- windows, outdoor furniture, vehicles -- are protected or moved. The crew works from the ridge downward, removing ridge cap, then field shingles in courses, then underlayment, then any previous layers of roofing beneath. All material is fed to the dumpster via roof-edge chutes or hand-carried in controlled bundles.',
-    'With the deck fully exposed, the crew chief walks every square foot probing for soft spots, checking for moisture damage, and marking sections requiring replacement. Deteriorated deck panels are removed and replaced with matching-thickness CDX plywood, secured with ring-shank nails at code-specified spacing. Rafter tops exposed by deck removal are inspected and sistered if decay has compromised their structural integrity. The inspection and repair phase is the primary value of full tear-off -- it addresses problems that overlay installation would permanently conceal.',
-    'Once deck repairs are complete, new synthetic underlayment is installed from eave to ridge, with ice-and-water shield membrane applied at eaves, valleys, and around all penetrations as required by current building code. The prepared deck is ready for new shingle installation, which proceeds the same day on most Caldwell residential projects. The tear-off-to-re-cover workflow is designed for single-day completion to minimize the exposure time that leaves the home vulnerable to weather.'
+    '**Newark Quality Roofing inspects the roof and the attic underside, counts the existing covering layers, and identifies which N.J.A.C. 5:23-6.4 removal condition applies** before any tear-off begins. A crew checks for a water-soaked deck, a wood-shake or tile covering, or 2 or more existing layers, per the NJ Uniform Construction Code, and sets a written scope and permit path — a Caldwell detached one- or two-family reroof is ordinary maintenance under N.J.A.C. 5:23-2.7.',
+    '**Newark Quality Roofing strips all existing covering, underlayment, and any overlay layers to the bare sheathing, then inspects every exposed section.** Deteriorated decking that cannot grip a roofing nail at the ¾-inch penetration ARMA specifies is replaced, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI. Ground tarps contain debris and a magnet sweep clears nails before the crew leaves the property.',
+    '**Newark Quality Roofing installs an ice barrier at the eaves, applies synthetic underlayment across the repaired deck, and installs the cover to manufacturer specification.** The IRC ice-barrier provision (R905.1.2) requires a self-adhering membrane run from the eave to at least 24 inches inside the exterior wall line in ice-prone Essex County, per the IRC as enforced under N.J.A.C. 5:23. Installing to manufacturer specification keeps the manufacturer system warranty intact.',
   ],
   faqs: [
     {
-      question: 'How long does a full tear-off take on a Caldwell colonial?',
-      answer: 'A full tear-off on a typical Caldwell colonial with one existing shingle layer completes in one day, with new shingle installation completing on day two. Homes with multiple existing layers or extensive deck repair needs may require an additional day. We size the crew for the specific project scope to maintain the tempo that minimizes exposure time. Weather delays may extend the timeline, but we never leave a Caldwell home without waterproof protection at the end of any work day.'
+      question: 'When does New Jersey code require a full roof tear off in Caldwell?',
+      answer:
+        'N.J.A.C. 5:23-6.4 requires complete removal of the existing covering in 3 conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying 2 or more layers. The NJ Rehabilitation Subcode adds wood shake to the IRC Section R908.3.1.1 removal list, per the NJ Uniform Construction Code. Many of Caldwell\'s older built-out homes have reached the 2-layer limit, leaving a full tear-off the only compliant path.',
     },
     {
-      question: 'Is full tear-off required or can I overlay new shingles on my Caldwell home?',
-      answer: 'Overlay is code-permitted when the existing roof has only one layer and the deck beneath is sound. However, overlay conceals deck damage, traps moisture between layers, and adds weight to the structure. If your Caldwell home already has two layers, tear-off is mandatory. Even with a single existing layer, we recommend tear-off when any symptoms of moisture intrusion, deck softness, or valley deterioration exist. The modest additional cost of tear-off is recovered through the deck inspection and repair opportunity it provides.'
+      question: 'Do I need a permit for a full roof tear off on my Caldwell home?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice. A commercial, multi-family, or attached building — including the Bloomfield Avenue downtown storefronts — requires a permit once roof work exceeds 25% of the roof area in 12 months, filed with the Borough of Caldwell Construction Department at 24 Smull Avenue, and any structural change to rafters or trusses triggers a permit too.',
     },
     {
-      question: 'How much waste does a Caldwell tear-off produce?',
-      answer: 'A typical Caldwell colonial tear-off generates three thousand to four thousand pounds of waste per roof layer, filling approximately one thirty-yard dumpster for a single-layer removal. Multi-layer tear-offs proportionally increase waste volume. All roofing waste is delivered to approved disposal facilities in compliance with Essex County regulations. The dumpster is positioned on the driveway to protect the street and is typically removed within one day of project completion.'
+      question: 'What happens if the deck is rotted under my old Caldwell roof?',
+      answer:
+        'A full tear-off exposes the deck, and Newark Quality Roofing replaces sheathing that has rotted soft, delaminated, or swollen, because roofing nails penetrate at least ¾ inch into the deck to grip. Sheathing that cannot hold a nail is replaced, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI. Caldwell\'s mature street-tree canopy debris in valleys and gutters is a common source of the moisture damage uncovered at tear-off.',
     },
     {
-      question: 'Will the tear-off damage my landscaping?',
-      answer: 'We take specific precautions to protect Caldwell home landscaping during tear-off. Heavy tarps cover plantings along the foundation perimeter. Debris chutes direct material into the dumpster rather than allowing freefall off the roof edge. Magnetic nail sweepers cover all ground areas after tear-off. Occasionally a shrub branch may be bent by tarp weight or a plant may receive minor damage from falling material despite precautions. We document pre-existing landscaping conditions and take responsibility for any damage our operations cause.'
+      question: 'Does a full roof tear off on a Caldwell historic landmark need extra approval?',
+      answer:
+        'Caldwell maintains a Historic Preservation Commission and an ordinance under Chapter 130, and exterior roofing on one of the borough\'s two locally designated historic landmarks routes through a Certificate of Appropriateness review before a permit. Caldwell has designated no local historic district, so a typical home is not in a Certificate-of-Appropriateness-regulated district. The Grover Cleveland Birthplace at 207 Bloomfield Avenue is state-owned and Register-listed, and per the National Park Service, Register listing alone places no restriction on a private owner.',
     },
     {
-      question: 'How much does full roof tear off cost in Caldwell, NJ?',
-      answer: 'Most full roof tear off projects in Caldwell range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How much does a full roof tear off cost in Caldwell, NJ?',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home with the tear-off included, and old-roof removal runs $1–$5 per square foot by material weight, per HomeAdvisor, Modernize, and HomeGuide cost data. Removal is $1–$3 per square foot for shingles and $2–$5 for heavier slate or tile, and a multi-layer roof or deck repair exposed at tear-off adds cost. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Full roof tear-off in Caldwell NJ -- complete shingle removal with deck inspection, repair, and responsible waste disposal for colonial homes.',
+  metaDescription:
+    'Full roof tear off in Caldwell NJ — strip to the deck, repair sheathing, new ice barrier on older homes and Bloomfield Avenue storefronts. Free estimate.',
   pricing: {
-    range: '$9,000–$26,000',
-    note: 'complete tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range with tear-off included per HomeAdvisor and Modernize; old-roof removal runs $1–$5 per square foot per HomeGuide. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Caldwell\'s older Victorian-era and Colonial Revival homes, Capes, ranches, and Bloomfield Avenue downtown storefronts.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free full roof tear off estimate in Caldwell — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for full roof tear off in Caldwell.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

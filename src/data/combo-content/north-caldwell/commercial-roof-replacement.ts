@@ -3,56 +3,68 @@ import type { ComboContent } from '../schema';
 export const northCaldwellCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'north-caldwell',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof replacement across North Caldwell, New Jersey, and Essex County, stripping the low-slope membrane to the deck and installing a new insulation-and-membrane system** on the borough\'s estate accessory and municipal structures as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [
-    'Newark Quality Roofing delivers expert commercial roof replacement in North Caldwell — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in North Caldwell happens when an existing roof system has exhausted its service life and repairs no longer provide reliable protection for the building and its tenants. For the borough\'s professional offices, medical practices, and small commercial buildings, the replacement decision balances the cost of continued repair against the investment in a new system that eliminates maintenance concerns for the next two to three decades.',
-    'Our [commercial roof replacement](/commercial-roof-replacement) projects in North Caldwell prioritize minimal tenant disruption. Medical practices cannot close for a week of roofing work. Law offices cannot conduct client meetings beneath construction noise. We plan the project phases to complete tear-off and waterproofing quickly, stage the noisiest work during tenant-coordinated windows, and maintain temporary weatherproofing overnight so the building is always protected during the multi-day replacement process.',
-    'System selection for replacement considers the building\'s next thirty years of use. We evaluate current tenant requirements, anticipated future tenants, energy code obligations, and the building\'s position within [North Caldwell\'s](/roofing-in-north-caldwell-nj) residential-character streetscape. The replacement system should serve the property through its next ownership and tenant cycles without requiring the kind of ongoing repair investment that prompted the current replacement decision. Similar replacement planning guides our work on commercial buildings in [Caldwell](/commercial-roof-replacement-caldwell-nj).'
+    '**Newark Quality Roofing replaces low-slope commercial roof systems across North Caldwell** — EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal — on the borough\'s estate accessory structures, pool houses, detached garages, and municipal and institutional buildings. Commercial roof replacement strips the existing covering to the deck, repairs the deck, and installs a new insulation-and-membrane system rather than patching a failed seam.',
+    '**EPDM, TPO, PVC, modified bitumen, and built-up systems** each reach the end of service after a material-specific lifespan, because EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance. A Newark Quality Roofing replacement matches the new membrane to the building, the drainage, and the far-western upland Second Watchung climate before tear-off.',
+    '**Estate accessory and municipal structures** carry most North Caldwell low-slope work, because the borough is an affluent, almost entirely residential community with negligible commercial stock, per the U.S. Census Bureau housing profile, so the commercial path applies mainly to pool houses, detached garages, carriage houses, and municipal and institutional roof sections. A Newark Quality Roofing replacement grades the deck to drain and rebuilds flashing at parapets and rooftop penetrations.',
+    '**The mature oak and maple canopy** is the defining North Caldwell roof stressor, because the heavily wooded large lots and the Hilltop Reservation edge, per Essex County Parks, drop leaf load and broken branches that clog drains and scuppers and hold moisture against a low-slope membrane. A Newark Quality Roofing replacement clears the drainage path and seals the membrane that storm-blown debris and standing water age first.',
   ],
   challenges: [
-    'Tenant coordination during commercial roof replacement in North Caldwell requires detailed scheduling communication. Each phase of the project -- tear-off, deck repair, insulation, membrane installation, and detail work -- produces different levels of noise, vibration, and access disruption. We provide tenants with a daily schedule showing what work is planned, what disruption to expect, and what building areas may be temporarily affected. This communication reduces complaints and helps tenants plan around the construction activity.',
-    'Discovering unexpected deck deterioration during tear-off adds unplanned cost and time to commercial replacement projects. We mitigate this by performing pre-project core sampling to assess insulation and deck condition beneath the existing roof. Core samples cannot evaluate every square foot, but they provide a statistically meaningful assessment that narrows the range of deck repair likely needed. Replacement budgets include a contingency allowance based on the core sample findings.',
-    'Waste management for commercial tear-off material in North Caldwell must respect the residential neighborhood setting. Roll-off dumpsters must be positioned to minimize visual and access impact. Tear-off debris must be contained to prevent migration onto neighboring residential properties. We schedule dumpster delivery and pickup for business hours and maintain clean containment around the work zone throughout the project.'
+    '**Wet insulation and deck deterioration** drive the North Caldwell replacement decision, because a tear-off exposes saturated insulation, deteriorated decking, and ponding conditions a surface inspection misses on the borough\'s low-slope estate accessory and municipal roofs. A Newark Quality Roofing assessment runs an ASTM C1153 infrared moisture survey and verifies each anomaly with a core cut.',
+    '**An ASTM C1153 infrared moisture survey** locates the wet insulation under an intact membrane, because wet insulation retains heat longer than dry insulation and reads as a warm anomaly after sunset, per ASTM and the NRCA. The survey scopes the saturated area before tear-off, and a core cut verifies each anomaly because the scan locates wet insulation, not the leak entry point, per ASTM C1153.',
+    '**Ponding water** ages a North Caldwell low-slope membrane and points toward a tapered-insulation re-roof, because ponding remaining more than 48 hours counts as a defect and a flat roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. A Newark Quality Roofing replacement builds tapered insulation to positive drainage across the assembly.',
+    '**Canopy debris and branch impact** stress the borough\'s low-slope roofs ahead of the sheltered interior, because the wooded reservation-edge lots near the Hilltop catch storm wind and falling canopy, per Essex County Parks, and clogged drains hold water against the membrane. A Newark Quality Roofing replacement clears the drainage path and grades the deck so the new roof sheds water.',
   ],
   process: [
-    'Commercial replacement begins with pre-project assessment including core sampling, structural evaluation, and tenant coordination planning. We develop a project schedule that identifies each phase, its duration, and its impact on building operations. This schedule is shared with the property owner and tenants before work begins, and updated daily as the project progresses to keep all stakeholders informed.',
-    'Tear-off removes the existing roofing system down to the structural deck. Deck condition is assessed comprehensively once exposed, and any deteriorated sections are repaired or replaced before new insulation is installed. Tapered polyiso insulation creates positive drainage slope across the entire roof area. The new membrane system -- TPO, EPDM, PVC, or metal depending on building requirements -- is installed per manufacturer specifications with factory-trained techniques.',
-    'Completion includes final inspection, warranty registration, and documentation delivery. The property owner receives the full project documentation package: as-built drawings, membrane specifications, energy code compliance certificates, manufacturer system warranty, and our workmanship warranty. This documentation package supports insurance, building department records, and future maintenance planning for the new roof system on the North Caldwell commercial property.'
+    '**Newark Quality Roofing assesses the deck, the insulation, the drainage, and the NJ code triggers before quoting a North Caldwell commercial replacement.** An ASTM C1153 infrared moisture survey locates the wet insulation under the membrane and a core cut verifies each anomaly, per ASTM C1153 and the NRCA. On a commercial or attached building a roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code, filed with the Borough of North Caldwell Construction Department at 141 Gould Avenue.',
+    '**Newark Quality Roofing matches the new commercial system to the building, the drainage, and the upland climate from six membrane classes: EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal.** EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance, and white PVC and TPO carry high solar reflectance, the cool-roof property that lowers rooftop heat gain. The far-western Second Watchung ground crosses the freezing point repeatedly through winter, driving freeze-thaw stress on seams and flashing.',
+    '**Newark Quality Roofing strips the existing covering to the deck, repairs the deck, builds tapered insulation to positive drainage, and installs the new membrane to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4, and tapered insulation builds at least ¼ inch per foot of slope to clear ponding water. Installing to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How do I know when commercial roof replacement is needed versus continued repair?',
-      answer: 'Replace when the roof requires more than two emergency repairs per year, when multiple areas show membrane deterioration simultaneously, when core samples reveal wet insulation beneath the membrane, or when the roof has exceeded its rated service life. We provide honest assessment including lifecycle cost comparison between continued repair and replacement to help you make the financially sound decision for your North Caldwell commercial property.'
+      question: 'Should you repair or replace a commercial roof in North Caldwell?',
+      answer:
+        'Replace a commercial roof when membrane damage exceeds 25 to 30% of the roof area, when leaks recur at the same location, or when core samples show saturated insulation across a majority of the roof. Repair the roof when damage stays localized. The 25 to 30% flat-roof threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance, and a recurring same-spot leak signals systemic failure regardless of damaged area, per HomeAdvisor. Newark Quality Roofing provides an honest assessment for your North Caldwell estate accessory or municipal building.',
     },
     {
-      question: 'How long does commercial roof replacement take on a North Caldwell building?',
-      answer: 'A typical North Caldwell commercial building of 3,000 to 8,000 square feet requires five to ten working days for complete replacement, including tear-off, deck repair, insulation, membrane installation, and detail work. Weather delays may extend the timeline. We maintain temporary weatherproofing each night so the building is always protected even if the project extends beyond the planned completion date.'
+      question: 'Do you need a permit for a commercial roof replacement in North Caldwell, NJ?',
+      answer:
+        'A commercial roof replacement requires a construction permit, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period on a commercial, multi-family, or attached building, per N.J.A.C. 5:23-2.7. The permit files with the Borough of North Caldwell Construction Department at 141 Gould Avenue, Borough Hall. The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4.',
     },
     {
-      question: 'Can tenants remain in the building during commercial roof replacement?',
-      answer: 'Yes. We plan and execute commercial roof replacement with continuous building occupancy as the standard expectation. Tear-off phases are the noisiest and are scheduled in coordination with tenant needs. Sensitive operations like medical procedures can be scheduled around the loudest work phases. We have never required tenant evacuation for a commercial roof replacement project.'
+      question: 'Does the North Caldwell historic commission restrict a commercial reroof?',
+      answer:
+        'No Certificate of Appropriateness applies to a reroof anywhere in North Caldwell, because the borough\'s Historic Preservation Commission under Chapter 107, Article XIII is advisory and survey-only, with no locally designated district or landmark. The commission surveys, recommends, and advises but issues no Certificate of Appropriateness, and no North Caldwell property sits on the National or NJ State Register. Per the National Park Service, Register listing alone places no federal restriction on a private owner, so a commercial reroof follows the standard UCC permit path under N.J.A.C. 5:23-2.7.',
     },
     {
-      question: 'What warranty comes with a commercial roof replacement in North Caldwell?',
-      answer: 'Manufacturer system warranties for the membrane, insulation, and flashing components typically cover 20 to 30 years depending on the system specified. Our workmanship warranty covers installation quality for an additional period. Together, these warranties provide comprehensive protection for the investment. We register all warranties immediately upon completion and provide the documentation to the property owner for their records.'
+      question: 'What is the typical lifespan of a new commercial roof?',
+      answer:
+        'A new commercial membrane lasts 15 to 25 years for EPDM, 7 to 20 years for TPO, 20 years for modified bitumen, 30 years for built-up roofing, and 20 to 30 years for PVC, per the InterNACHI life-expectancy chart. Single Ply Roofing Industry guidance confirms the single-ply ranges, and standing-seam metal lasts 40 to 80 years, per the InterNACHI life-expectancy chart, and a Newark Quality Roofing replacement builds positive drainage to carry the membrane through its full service life on a North Caldwell low-slope roof.',
     },
     {
       question: 'How much does commercial roof replacement cost in North Caldwell, NJ?',
-      answer: 'Most commercial roof replacement projects in North Caldwell range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Commercial roof replacement in New Jersey runs $7.00 to $12.00 per square foot installed for single-ply membrane, with EPDM at $7.00 to $10.00 and TPO at $8.00 to $12.00, per Josten Roofing NJ pricing. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code, per commercial cost guides. Final cost depends on roof size, membrane class, drainage, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Commercial roof replacement in North Caldwell NJ -- full system replacement for offices and small commercial buildings with tenant coordination.',
+  metaDescription:
+    'Commercial roof replacement in North Caldwell NJ — EPDM, TPO, PVC, and modified-bitumen re-roofs on estate accessory and municipal buildings. Free estimate.',
   pricing: {
-    range: '$8–$16/sq ft',
-    note: 'full tear-off and replacement',
+    range: '$7.00–$12.00/sq ft installed',
+    note: 'Single-ply membrane replacement in New Jersey runs $7.00 to $12.00 per square foot installed, with EPDM at $7.00 to $10.00 and TPO at $8.00 to $12.00, per Josten Roofing NJ pricing; final cost depends on roof size, membrane class, drainage, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with North Caldwell\'s estate accessory, municipal, and institutional low-slope roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free commercial roof replacement estimate in North Caldwell — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for commercial roof replacement in North Caldwell.',
+    urgencyNote: 'Addressing membrane failure early limits interior and structural water damage.',
   },
 };

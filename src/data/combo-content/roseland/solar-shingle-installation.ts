@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const roselandSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'roseland',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing solar shingle installation across Roseland, New Jersey, and Essex County, replacing the roof covering with building-integrated photovoltaic shingles on the borough\'s postwar single-family homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.',
   overview: [
-    'Newark Quality Roofing delivers expert solar shingle installation in Roseland — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle installation offers Roseland homeowners an integrated approach to energy generation that eliminates the visual impact of traditional rack-mounted panels. Solar shingles replace conventional roofing material on designated roof sections, generating electricity while providing the same weatherproofing function as standard shingles. This dual-purpose design appeals to homeowners who want solar energy production without altering the residential aesthetic that defines Roseland\'s well-maintained streetscape. Our [solar shingle installation](/solar-shingle-installation) service provides the combined roofing and electrical expertise that this integrated technology demands.',
-    'The technology has matured significantly from its early iterations, with current-generation products from manufacturers like Tesla, CertainTeed, and GAF achieving efficiency ratings that approach conventional panel performance. For Roseland homes where south-facing roof sections offer strong solar exposure but homeowner association sensitivities or personal aesthetic preferences rule out traditional panels, solar shingles provide a viable energy generation path. The integrated appearance -- shingles that look like roofing material rather than technical equipment -- maintains the property presentation that Roseland homeowners prioritize.',
-    'Solar shingle installations are most cost-effective when coordinated with a full roof replacement. Since solar shingles replace conventional shingles on the designated roof sections, the cost differential reflects only the upgrade from standard roofing material to energy-generating material rather than the full system cost that rack-mounted panels require on top of a conventional roof. Homeowners in [Millburn](/solar-shingle-installation-millburn-nj) have embraced this approach on estate properties where visual integration is paramount.'
+    '**Newark Quality Roofing installs building-integrated solar shingles** on Roseland\'s postwar colonials, ranches, split-levels, and Capes, replacing the roof covering with photovoltaic shingles during a new roof or full reroof rather than mounting hardware on a finished roof. A solar shingle is the roof itself.',
+    '**Building-integrated solar shingles**, BIPV, make the photovoltaic material the roof covering, distinct from building-applied panels, BAPV, the rack-mounted hardware added on top of an existing roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS. On Roseland\'s tree-shaded single-family streets, a solar shingle pairs with a reroof when the existing covering reaches the end of its service life.',
+    '**A solar shingle replaces the roof covering** rather than adding to a finished roof, so a Roseland project runs as a full reroof, and CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed. Newark Quality Roofing installs GAF Energy Timberline Solar, Tesla Solar Roof, and CertainTeed Solstice on the borough\'s detached homes.',
+    '**A solar shingle costs more per watt and generates less per square foot** than a rack-mounted panel, so a solar-shingle roof suits a Roseland homeowner prioritizing the integrated appearance of a uniform roof surface over the lower per-watt cost of panels, per SolarReviews and EnergySage cost data. It is an appearance and integration choice rather than an efficiency choice.',
   ],
   challenges: [
-    'Energy production per square foot of roof area is lower for solar shingles compared to conventional panel installations. Current solar shingle products achieve 14 to 19 percent efficiency versus 20 to 22 percent for premium monocrystalline panels. This efficiency gap means that solar shingle systems require more roof area to achieve the same energy output, potentially limiting total system capacity on Roseland homes with limited south-facing roof exposure. Our production modeling accounts for this efficiency difference to set realistic energy expectations.',
-    'Installation complexity exceeds both conventional roofing and standard solar panel installation because the installer must be proficient in both disciplines simultaneously. Solar shingles integrate into the roof coursing with specific electrical connections between each unit, requiring coordinated sequencing that prevents both roofing and electrical errors. Insufficient experience in either discipline creates problems that may not manifest until the system underperforms or leaks develop at the integration points between solar and conventional shingle sections.',
-    'Product ecosystem limitations restrict material choices compared to both conventional roofing and traditional solar. Solar shingle manufacturers offer limited color options, and the solar sections must integrate visually with the conventional shingle sections used on north-facing and shaded roof areas. Matching between solar and conventional shingle textures and colors is imperfect with some products, creating visible transitions that partially defeat the aesthetic integration purpose. We present physical sample comparisons so homeowners evaluate the actual visual match before committing.'
+    '**A solar shingle pairs with a reroof**, not a finished roof, so the timing aligns the photovoltaic install with a covering at the end of its service life on Roseland\'s built-out postwar stock. A reroof of a detached one- or two-family covering counts as ordinary maintenance under N.J.A.C. 5:23-2.7, while the photovoltaic and electrical work carries its own permits.',
+    '**The mature oak and maple canopy** over Roseland\'s single-family neighborhoods shades north-facing slopes and drops leaf and branch debris into valleys, so a Newark Quality Roofing assessment sizes the array to the sunniest roof planes and accounts for canopy shading before tear-off. Branch impact in nor\'easters and summer storms also drives the falling-debris risk a solar-shingle roof shares with any covering.',
+    '**A solar shingle needs more roof area** than a panel array for the same output, because a 6-kilowatt solar-shingle system needs about 360 square feet of shingles against about 250 square feet of panels, roughly 44% more roof area, per SolarReviews from the GAF Energy datasheet. Newark Quality Roofing sizes the array against the available roof planes on a Roseland home.',
+    '**A higher per-watt cost** buys the integrated appearance, because solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for rack-mounted panels, roughly 1.5 to 2 times the per-watt cost, per EnergySage, SolarReviews, and WattBuild. Newark Quality Roofing states the per-watt cost and efficiency honestly against panels before a Roseland homeowner commits.',
   ],
   process: [
-    'Solar shingle projects in Roseland begin with a combined roofing and solar assessment. We evaluate the existing roof condition, structural capacity, and remaining useful life alongside solar production modeling for the available south-facing roof area. The assessment determines whether solar shingles can meet the homeowner\'s energy production goals within the available roof area, or whether the efficiency limitations of integrated shingles suggest conventional panels as a better fit for the specific property.',
-    'Installation proceeds as a roofing project with integrated electrical work. Full tear-off exposes the deck for inspection and repair. Underlayment and ice-and-water shield are installed following standard roofing protocols. Conventional shingles cover non-solar roof sections first, establishing the coursing pattern. Solar shingles are integrated into the designated sections with electrical connections made between units as each course is installed. The combined approach requires careful sequencing to prevent stepping on completed solar shingle sections while accessing the remaining installation area.',
-    'Electrical system completion includes inverter installation, metering equipment, and interconnection with the home\'s electrical panel and the utility grid. System commissioning verifies that each solar shingle unit is producing its rated output and that the combined roof system is weathertight. Roseland electrical inspection and PSE&G interconnection approval authorize operation. We provide comprehensive documentation including roof warranty, solar product warranty, production guarantee, and maintenance instructions specific to the integrated system.'
+    '**Newark Quality Roofing assesses the roof pitch, roof area, and reroof scope, then matches a solar-shingle system to the Roseland home from three named products.** A crew confirms a minimum 2:12 pitch for the named products and sizes the array against the roughly 44% larger area a solar shingle needs versus panels, per GAF Energy and SolarReviews, and a written estimate presents GAF Energy Timberline Solar at 57 watts per shingle, Tesla Solar Roof at 72 watts per active tile, and CertainTeed Solstice at 70 watts per shingle with the per-watt cost stated honestly against panels, per each manufacturer.',
+    '**Newark Quality Roofing strips the existing roof to the deck, repairs deteriorated sheathing, and installs the building-integrated solar shingle to manufacturer specification.** Roseland\'s postwar homes often reveal plank or aged sheathing at tear-off, replaced before the new system goes down, and GAF Energy Timberline Solar nails into the field with the same crew and tools as Timberline asphalt shingles, keeping the manufacturer system warranty intact, per GAF Energy. The named products list ASTM D3161 Class F wind to roughly 130 miles per hour, UL 2218 Class 4 hail, and UL 790 Class A fire, per the listed manufacturers.',
+    '**Newark Quality Roofing coordinates the array wiring to code and schedules the building and electrical inspection.** The named solar-shingle systems meet NEC 690.12 rapid shutdown, which drops conductors outside the array boundary to 30 volts or less and inside the boundary to 80 volts or less within 30 seconds, met by module-level electronics or a listed UL 3741 photovoltaic hazard control system, per the NEC and UL. The photovoltaic and electrical work carries its own permits and inspection for NEC and fire-code compliance, separate from the reroof, per the NJ Uniform Construction Code and the NEC.',
   ],
   faqs: [
     {
-      question: 'How do solar shingles compare to traditional solar panels for a Roseland home?',
-      answer: 'Solar shingles provide lower per-unit efficiency (14-19% versus 20-22% for premium panels) but integrate seamlessly with the roof surface for a cleaner appearance. They are most cost-effective when installed during a full roof replacement. Traditional panels cost less per watt of generation capacity and produce more energy from the same roof area. The choice depends on whether aesthetic integration or maximum energy production is the homeowner\'s priority.'
+      question: 'What is a solar shingle and how does it differ from solar panels?',
+      answer:
+        'A solar shingle is building-integrated photovoltaics, BIPV, where the photovoltaic material is the roof covering itself, while solar panels are building-applied photovoltaics, BAPV, rack-mounted hardware added on top of an existing roof. A solar shingle replaces the roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS, so a Roseland project runs as a new roof or full reroof.',
     },
     {
-      question: 'Can I install solar shingles on just part of my roof?',
-      answer: 'Yes, solar shingles are typically installed on the south-facing and southwest-facing roof sections where solar exposure is strongest, while conventional shingles cover the remaining roof areas. The transition between solar and conventional sections occurs at natural break points -- ridges, hips, or dormers -- to minimize visible differences. We design the layout to maximize energy production while maintaining the visual integration that makes solar shingles appealing.'
+      question: 'Are solar shingles more efficient than solar panels for a Roseland home?',
+      answer:
+        'Solar shingles are less efficient and cost more per watt than solar panels, clustering around 14% to 18% module efficiency against more than 20% for premium panels. Solar shingles run about $3.50 to $8.00 per watt against about $2.50 to $4.00 per watt for panels, so a solar shingle is an integration and appearance choice rather than an efficiency or per-watt-value choice, per SolarReviews, EnergySage, and NREL.',
     },
     {
-      question: 'How long do solar shingles last compared to regular shingles?',
-      answer: 'Current solar shingle products carry 25 to 30 year warranties for both roofing performance and energy production. This matches or exceeds the warranty period of premium conventional shingles, meaning the solar and non-solar sections of the roof should reach end-of-life at approximately the same time. The solar energy production typically degrades by 0.5 percent per year over the warranty period, retaining 85-plus percent of original capacity at year 25.'
+      question: 'Do you need a permit for a solar shingle installation in Roseland?',
+      answer:
+        'A reroof of the roof covering on a detached one- or two-family home in Roseland counts as ordinary maintenance under N.J.A.C. 5:23-2.7 with no construction permit, while the photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, per the NJ Uniform Construction Code and the NEC. The Borough of Roseland construction-code office at 300 Eagle Rock Avenue administers the permit, and an office-park or multi-family building also crosses the 25% roof-area threshold for the reroof itself.',
     },
     {
-      question: 'Do solar shingles work well in New Jersey\'s climate?',
-      answer: 'Solar shingles perform well in New Jersey, with Roseland receiving adequate solar insolation for meaningful energy generation. Snow coverage temporarily reduces production during winter months, but the dark surface and slight heat generation from active cells promote snow shedding faster than conventional shingles. Annual production accounts for seasonal variation, and our modeling uses local historical insolation data to project realistic year-round performance for each specific Roseland property.'
+      question: 'Does a historic designation require a Certificate of Appropriateness for a Roseland solar roof?',
+      answer:
+        'Roseland maintains a Landmarks and Historic District Commission and a Certificate of Appropriateness process for major alterations to designated properties under Chapter 30, Article IX. The binding Certificate-of-Appropriateness gate applies only to locally designated properties; no specific Roseland landmark, site, or district is confirmed to have been designated, and the ordinance requires owner consent before a residence can be designated, so no Roseland homeowner is subject to a Certificate of Appropriateness absent a designation. A COA, where it ever applies, is a separate approval from the building permit. The Williams-Harrison House at 126 Eagle Rock Avenue is a National and New Jersey Register property operated as a Roseland Historical Society museum, and per the National Park Service, Register listing alone places no restriction on a private property owner.',
     },
     {
-      question: 'How much does solar shingle installation cost in Roseland, NJ?',
-      answer: 'Most solar shingle installation projects in Roseland range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What New Jersey incentives apply to a solar shingle installation in Roseland?',
+      answer:
+        'New Jersey applies the Successor Solar Incentive program paying a fixed per-megawatt-hour SREC-II incentive over a 15-year term, plus net metering, a sales-tax exemption through Form ST-4, and a property-tax exemption through Form CRES. The Successor Solar Incentive program is administered by the NJ Board of Public Utilities, and no federal residential solar tax credit applies to a system completed after December 31, 2025, because the IRS reports the section 25D credit is repealed under the One Big Beautiful Bill. Newark Quality Roofing installs eligible equipment and refers rate questions to a tax professional and the NJ Clean Energy Program.',
+    },
+    {
+      question: 'How much does a solar shingle installation cost in Roseland, NJ?',
+      answer:
+        'A solar shingle installation in Roseland runs about $10,000 to $25,000 for a typical residential project. Solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for rack-mounted panels, per EnergySage, SolarReviews, and WattBuild. Roof size, pitch, product, and reroof scope set the total. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Solar shingle installation in Roseland NJ -- integrated solar roofing that generates energy while maintaining residential aesthetics.',
+  metaDescription:
+    'Solar shingle installation in Roseland NJ — building-integrated GAF, Tesla, and CertainTeed solar roofs paired with a full reroof. NJ-registered, free estimate.',
   pricing: {
-    range: '$25,000–$50,000',
-    note: 'integrated solar shingle system',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; solar shingles run about $3.50–$8.00 per watt installed, per EnergySage and SolarReviews. Final cost depends on roof size, pitch, product, and reroof scope. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Roseland\'s postwar single-family homes and Eisenhower Parkway office-park roofs.',
+    'Honest comparison of solar shingles against rack-mounted panels on per-watt cost and efficiency before any commitment.',
+    'Free, detailed written estimates with no obligation.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free solar shingle installation estimate in Roseland — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for solar shingle installation in Roseland.',
+    urgencyNote: 'Pairing a solar shingle with a planned reroof installs the photovoltaic roof and the new covering in one project.',
   },
 };

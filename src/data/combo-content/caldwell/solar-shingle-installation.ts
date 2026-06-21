@@ -3,56 +3,74 @@ import type { ComboContent } from '../schema';
 export const caldwellSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'caldwell',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing solar shingle installation across Caldwell, New Jersey, and Essex County, replacing the roof covering with photovoltaic shingles during a reroof on the borough\'s older Victorian-era and Colonial-Revival homes, Capes, and ranches** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.',
   overview: [
-    'Newark Quality Roofing delivers expert solar shingle installation in Caldwell — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle technology offers Caldwell homeowners a way to generate renewable energy without the visual impact of traditional panel arrays mounted on rails above the roof surface. Solar shingles integrate photovoltaic cells directly into roofing material that installs in courses alongside conventional asphalt shingles, creating a roof surface that produces electricity while maintaining the traditional appearance that Caldwell\'s residential streetscape values. For homeowners who want solar energy but resist the industrial aesthetic of rack-mounted panels, solar shingles resolve the conflict between environmental commitment and neighborhood character.',
-    'The Caldwell context for solar shingles differs from urban installations in [Newark](/solar-shingle-installation-newark-nj) or dense suburban settings in [Montclair](/solar-shingle-installation-montclair-nj). Caldwell\'s detached homes with individual roof planes offer the designer flexibility to position solar shingles where production is highest while leaving shaded or north-facing planes in conventional shingles. The smaller scale of Caldwell\'s colonial and cape cod roofs means that each solar shingle course contributes a meaningful percentage of total roof area, making system sizing more intuitive than on large commercial installations.',
-    'Solar shingle [installation](/solar-shingle-installation) in Caldwell makes the most sense during complete roof replacement, when the entire roof surface is stripped to the deck and rebuilt with new materials. Integrating solar shingles into a partial roof means coordinating two different roofing materials on the same plane -- a technically achievable but more complex installation than a clean full-roof approach. The roof replacement cycle on Caldwell\'s mid-century housing stock creates natural opportunities for solar shingle adoption as homeowners invest in new roof systems.'
+    '**Newark Quality Roofing installs building-integrated solar shingles** across Caldwell during a new roof or full reroof, applying them to the borough\'s older Victorian-era and Colonial-Revival homes, Capes, ranches, and college-adjacent low-rise stock. A solar shingle is the roof covering itself rather than hardware added on top.',
+    '**Building-integrated solar shingles** make the photovoltaic material the roof surface, distinct from building-applied rack-mounted panels added over a finished roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS. On Caldwell\'s compact, built-out lots, a solar-shingle roof reads as a uniform surface in keeping with the borough\'s downtown-borough streetscape.',
+    '**A solar shingle replaces the covering** rather than mounting on a finished roof, so the project pairs with a reroof, and CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed. The reroof cycle on Caldwell\'s aging built-out stock is the natural point to adopt the technology.',
+    '**Solar shingles cost more per watt and produce less per square foot** than rack-mounted panels, so a solar-shingle roof suits a Caldwell owner prioritizing the integrated appearance of a uniform roof over the lower per-watt cost of panels, per SolarReviews and EnergySage. Newark Quality Roofing states that trade-off honestly before any tear-off.',
   ],
   challenges: [
-    'Solar shingle efficiency per square foot falls below traditional solar panel output, meaning Caldwell homeowners need more roof area dedicated to solar shingles to achieve the same production that a smaller panel array would deliver. On Caldwell colonials with limited south-facing roof area, this efficiency gap may reduce the system\'s ability to offset meaningful portions of the electric bill. Accurate production modeling that accounts for both the per-shingle efficiency and the available installation area determines whether solar shingles can deliver the financial return each Caldwell homeowner expects.',
-    'Cost per watt for solar shingles currently exceeds traditional solar panels, and the combined cost of the solar shingle system plus conventional shingles for remaining roof areas typically exceeds the cost of a standard roof replacement plus traditional solar panel array. The aesthetic advantage of solar shingles carries a financial premium that Caldwell homeowners must weigh against production efficiency. As the technology matures and manufacturing scales, this cost gap is narrowing, but current pricing makes solar shingles a premium choice rather than a value proposition.',
-    'Repair and replacement of individual solar shingles requires electrical disconnection and specialized handling that conventional shingle replacement does not involve. A branch impact that would require simple shingle replacement on a conventional roof becomes a warranty and electrical service call on a solar shingle installation. Caldwell\'s tree canopy makes individual shingle damage more likely than in open-exposure settings, potentially creating higher maintenance costs over the system\'s lifespan compared to rack-mounted panels that sit above the roof surface on raised mounting rails.'
+    '**Roof area** drives the Caldwell decision, because a solar shingle needs roughly 44% more roof area than a panel array, per SolarReviews from the GAF Energy datasheet. A 6-kilowatt system needs about 360 square feet of shingles against about 250 square feet of panels, so the compact roof planes on Caldwell\'s built-out lots set how much capacity fits.',
+    '**The mature street-tree canopy** over Caldwell\'s older built-out blocks shades north slopes and drops leaf and branch debris, so the array sits on the south- and west-facing planes with the clearest exposure while conventional shingles cover the shaded and minimal-production areas. Production modeling accounts for that canopy shade before sizing the system.',
+    '**Per-watt cost and efficiency** position a solar shingle as an integration choice, because solar shingles run more per watt installed than rack-mounted panels and cluster around 14% to 18% module efficiency against more than 20% for premium panels, per SolarReviews, EnergySage, and NREL. A solar shingle is an appearance choice rather than an efficiency or per-watt-value win.',
+    '**Tear-off and deck repair** add scope on Caldwell\'s aging stock, because a solar shingle pairs with a full reroof that strips the covering to the deck and replaces deteriorated sheathing exposed at tear-off, per the DOE Office of Energy Efficiency and Renewable Energy. The older built-out blocks often reveal worn plank decking once the covering comes off.',
   ],
   process: [
-    'Solar shingle assessment for Caldwell homes evaluates the intersection of roof replacement timing, energy production potential, and aesthetic priorities. We model the production output for solar shingles on the available south-facing roof area, accounting for Caldwell\'s specific shade conditions, and compare it against traditional panel alternatives. The assessment presents both options side by side -- production, cost, appearance, and lifecycle value -- so the homeowner makes an informed decision based on their priorities rather than assumptions about either technology.',
-    'Installation integrates solar shingles into the full roof replacement workflow. The roof deck receives standard underlayment and ice-and-water shield at required locations. Conventional asphalt shingles are installed on non-solar roof planes and at the lower courses of solar planes. Solar shingles are installed from the transition point upward, with each course connected electrically to the system wiring routed beneath the sheathing. The solar shingle-to-conventional shingle transition is flashed and integrated to maintain waterproof continuity across the material change.',
-    'Electrical system completion includes inverter installation, monitoring system setup, utility meter connection, and final inspection. The system is tested for production output against the design model, and any discrepancies are investigated and resolved. The Caldwell homeowner receives documentation covering both the roofing warranty for conventional shingle areas and the solar warranty covering the photovoltaic shingle sections, along with monitoring system access for tracking daily and monthly energy production.'
+    '**Newark Quality Roofing assesses the roof pitch, roof area, and reroof scope, then sizes the array against the roughly 44% larger area a solar shingle needs versus panels.** A crew confirms a minimum 2:12 pitch for the named solar-shingle products and accounts for Caldwell\'s mature-canopy shade on the south- and west-facing planes, per GAF Energy and SolarReviews.',
+    '**Newark Quality Roofing presents the solar-shingle products with the per-watt cost and efficiency stated honestly against rack-mounted panels.** GAF Energy Timberline Solar rates 57 watts per energy shingle, Tesla Solar Roof 72 watts per active tile, and CertainTeed Solstice 70 watts per shingle, with GAF Energy Timberline Solar and Tesla Solar Roof listing ASTM D3161 Class F wind to roughly 130 miles per hour and CertainTeed Solstice listing a 110-mile-per-hour wind rating, each listing UL 2218 Class 4 hail and UL 790 Class A fire, per each manufacturer.',
+    '**Newark Quality Roofing strips the existing roof to the deck, replaces deteriorated sheathing, and installs the building-integrated solar shingle to manufacturer specification.** GAF Energy Timberline Solar nails into the field with the same crew and tools as Timberline asphalt shingles, keeping the manufacturer system warranty intact, per GAF Energy and the DOE Office of Energy Efficiency and Renewable Energy.',
+    '**Newark Quality Roofing coordinates the array wiring to NEC 690.12 rapid shutdown and files the building and electrical permits the photovoltaic work requires.** Rapid shutdown drops conductors to 30 volts or less outside and 80 volts or less inside the array boundary within 30 seconds, met by module-level electronics or a listed UL 3741 hazard-control system, per the NEC and UL.',
   ],
   faqs: [
     {
-      question: 'How do solar shingles compare to solar panels for Caldwell homes?',
-      answer: 'Solar shingles offer a lower-profile appearance that blends with conventional roofing, while solar panels deliver higher efficiency per square foot at lower cost per watt. For Caldwell homeowners whose primary concern is aesthetic integration with the neighborhood character, solar shingles provide the clean appearance that traditional panels cannot match. For homeowners focused on maximum energy production and financial return, traditional panels remain the more efficient choice. Both technologies qualify for the same NJ solar incentives.'
+      question: 'What is a solar shingle and how does it differ from solar panels?',
+      answer:
+        'A solar shingle is building-integrated photovoltaics, where the photovoltaic material is the roof covering itself, while solar panels are rack-mounted hardware added on top of an existing roof. A solar shingle replaces the roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS. On Caldwell\'s compact built-out lots, the result reads as one uniform roof surface.',
     },
     {
-      question: 'Can solar shingles be installed on just part of my Caldwell roof?',
-      answer: 'Yes. Solar shingles are typically installed on south-facing and west-facing roof planes where production is highest, with conventional asphalt shingles covering north-facing planes, steep dormers, and other areas where solar production would be minimal. This selective placement optimizes the investment by concentrating solar shingles where they deliver the most energy return. The transition between solar and conventional shingles is handled with flashing details that maintain waterproof integrity.'
+      question: 'Can solar shingles go over my existing Caldwell roof?',
+      answer:
+        'No. A solar shingle is the roof covering itself, so it pairs with a new roof or full reroof rather than mounting over a finished roof, and CertainTeed states the Solstice system installs on a new roof or reroof only, per CertainTeed and the DOE Office of Energy Efficiency and Renewable Energy. The reroof strips the covering to the deck and replaces deteriorated sheathing exposed at tear-off on Caldwell\'s older built-out stock.',
     },
     {
-      question: 'How long do solar shingles last compared to regular shingles?',
-      answer: 'Current-generation solar shingles carry twenty-five to thirty-year warranties for both roofing performance and power production. This lifespan exceeds the typical twenty to twenty-five-year warranty on architectural asphalt shingles, meaning the solar shingles may outlast the conventional shingles on non-solar roof planes. The roofing warranty covers weather protection while the power warranty guarantees minimum energy production levels throughout the warranty period.'
+      question: 'Do I need a permit for a solar shingle installation in Caldwell, NJ?',
+      answer:
+        'The underlying reroof of the covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7, while the photovoltaic and electrical work carries its own permits, per the NJ Uniform Construction Code and the NEC. The Borough of Caldwell Construction Department at 24 Smull Avenue administers the permit. A reroof on one of the borough\'s two locally designated historic landmarks routes through a Certificate of Appropriateness review before a permit; a typical Caldwell home is not in a Certificate-of-Appropriateness-regulated district.',
     },
     {
-      question: 'What happens if a tree branch damages solar shingles on my Caldwell roof?',
-      answer: 'Damaged solar shingles require professional replacement that includes electrical disconnection, damaged shingle removal, new shingle installation, and reconnection to the system circuit. The process takes longer and costs more than conventional shingle replacement due to the electrical component. Homeowner insurance typically covers storm and tree damage to solar shingles. We recommend maintaining adequate tree canopy clearance around solar shingle areas to reduce the damage risk that Caldwell\'s tree cover presents.'
+      question: 'Are solar shingles less efficient than solar panels?',
+      answer:
+        'Solar shingles are less efficient and cost more per watt than solar panels, clustering around 14% to 18% module efficiency against more than 20% for premium panels, per SolarReviews, EnergySage, and NREL. A solar shingle is an integration and appearance choice rather than an efficiency or per-watt-value choice, which Newark Quality Roofing states before any tear-off on a Caldwell home.',
     },
     {
-      question: 'How much does solar shingle installation cost in Caldwell, NJ?',
-      answer: 'Most solar shingle installation projects in Caldwell range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What incentives apply to a solar shingle installation in New Jersey?',
+      answer:
+        'New Jersey applies the Successor Solar Incentive program over a 15-year term, plus net metering, a sales-tax exemption through Form ST-4, and a property-tax exemption through Form CRES, per the NJ Board of Public Utilities. The federal residential solar tax credit, which was 30% through 2025, is repealed for systems completed after December 31, 2025, per the IRS, so Newark Quality Roofing refers rate questions to the NJ Clean Energy Program and a tax professional.',
+    },
+    {
+      question: 'How much does a solar shingle installation cost in Caldwell, NJ?',
+      answer:
+        'A solar-shingle reroof in New Jersey runs roughly $10,000–$25,000 for a typical home, with solar shingles costing about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for rack-mounted panels, per EnergySage, SolarReviews, and WattBuild. Roof size, pitch, product, and reroof scope set the total. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Solar shingle installation in Caldwell NJ -- integrated photovoltaic roofing for colonials with seamless appearance and NJ solar incentives.',
+  metaDescription:
+    'Solar shingle installation in Caldwell NJ — building-integrated photovoltaic roofing paired with a reroof, honest panel comparison, NJ incentives. Free quote.',
   pricing: {
-    range: '$25,000–$50,000',
-    note: 'integrated solar shingle system',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; solar shingles run about $3.50–$8.00 per watt installed per EnergySage and SolarReviews, and final cost depends on roof size, pitch, product, and reroof scope. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Caldwell\'s older Victorian-era and Colonial-Revival homes, Capes, ranches, and Bloomfield Avenue downtown storefronts.',
+    'Honest comparison of solar shingles against rack-mounted panels on per-watt cost and efficiency before any tear-off.',
+    'Free, detailed written estimates with no obligation.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free solar shingle installation estimate in Caldwell — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for solar shingle installation in Caldwell.',
+    urgencyNote: 'Pairing a solar shingle with a reroof at the end of the covering\'s service life avoids a second tear-off later.',
   },
 };

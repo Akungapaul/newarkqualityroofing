@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const northCaldwellCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'north-caldwell',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing cedar shake roof replacement across North Caldwell, New Jersey, and Essex County, stripping aging cedar to the deck and laying new cedar over a ventilated base** on the borough\'s custom colonials, contemporaries, and Tudors as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
-    'Newark Quality Roofing delivers expert cedar shake roof replacement in North Caldwell — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement on North Caldwell estates confronts the end-of-life decision for a material that many homeowners chose specifically for its natural harmony with the borough\'s wooded landscape. After thirty to forty years of service under heavy canopy conditions, cedar shakes thin, split, and lose their structural integrity to the point where maintenance can no longer sustain the system. The replacement project restores the natural wood aesthetic with fresh material or transitions to a fire-rated alternative that preserves the visual character without the maintenance demands of natural cedar.',
-    'Our [cedar shake replacement](/cedar-shake-roof-replacement) work on North Caldwell properties offers two paths: fresh premium cedar with modern ventilation and fire treatment, or composite shake products that replicate the hand-split appearance with enhanced durability, fire resistance, and lower maintenance requirements. Both options maintain the natural aesthetic that blends with the wooded North Caldwell setting, and we present honest comparisons of cost, maintenance expectations, and long-term performance for each path on [North Caldwell](/roofing-in-north-caldwell-nj) estate homes.',
-    'The replacement also provides the opportunity to upgrade the ventilation system beneath the shake field. Many original cedar installations in North Caldwell used felt underlayment without the breather mat ventilation that dramatically extends cedar life in shaded environments. Installing a modern breather mat system during replacement gives the new cedar or composite shakes the ventilation support that the original installation lacked. Homeowners in [Essex Fells](/cedar-shake-roof-replacement-essex-fells-nj) face identical replacement decisions on their estate cedar roofs.'
+    '**Newark Quality Roofing replaces 2 cedar wood roof types across North Caldwell: hand-split cedar shake and sawn cedar shingle** on the borough\'s custom colonials, contemporaries, and Tudors on large wooded lots. Cedar shake roof replacement strips an aging cedar roof to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar, the work that renews a wood roof past its service life rather than patching individual split shakes.',
+    '**Hand-split cedar shake** lasts 20 to 40 years and **sawn cedar shingle** 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing a single wood row at 25 years, and maintenance sets where in the range a North Caldwell cedar roof lands. Moisture-driven cupping, splitting, and rot end most cedar roofs, accelerated on the borough\'s shaded north-facing slopes under its mature oak and maple canopy.',
+    '**Cedar shake** suits the borough\'s wooded large-lot setting, where many homeowners chose wood for its natural harmony with the canopy, while **fire-retardant-treated cedar** carries a Class B or Class C product class per the Cedar Shake & Shingle Bureau Certi-Guard program, because untreated cedar is nonclassified under UL 790 and ASTM E108 and a Class A wood roof is an assembly rating, not a single shake.',
   ],
   challenges: [
-    'Tear-off of aged cedar shakes generates significant debris from the brittle, fragmenting material. Unlike asphalt shingles that peel off in sheets, old cedar breaks apart during removal, creating loose debris that must be carefully contained to prevent damage to landscaping and drainage systems around the North Caldwell property. Ground tarps and debris barriers are essential during cedar tear-off.',
-    'The choice between natural cedar and composite replacement involves trade-offs that homeowners must evaluate honestly. New cedar costs less initially but requires ongoing maintenance (preservative treatment every three to five years) and carries lower fire resistance unless pressure-treated. Composite products cost more initially but require no maintenance and meet Class A fire standards. We present the lifecycle cost comparison so homeowners choose based on total investment rather than installation cost alone.',
-    'HOA and architectural review standards in North Caldwell may specify natural wood roofing for homes that were originally built with cedar. Composite alternatives that look identical to natural cedar from viewing distance may or may not satisfy these standards depending on the specific covenant language. We research the applicable requirements before presenting replacement options to ensure all recommendations are viable within the homeowner\'s governance framework.'
+    '**Mature tree canopy** is the defining cedar stressor in North Caldwell, because the heavily wooded large lots and the Hilltop Reservation edge feed the moss, algae, and trapped moisture that drive cedar cupping and rot on shaded north slopes. A Newark Quality Roofing replacement clears leaf-clogged valleys and lays cedar over a ventilated base that dries between rains.',
+    '**Tear-off of aged cedar** generates brittle, fragmenting debris that breaks apart during removal rather than peeling off in sheets, so a Newark Quality Roofing crew contains the loose material with ground tarps and a magnet sweep for nails to protect landscaping and drainage around the large wooded lot.',
+    '**Deteriorated sheathing discovered at tear-off** is common on the borough\'s older custom stock, because years of trapped moisture beneath cupped cedar rot the plywood or OSB deck. A Newark Quality Roofing crew strips the cedar to the bare deck, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, and replaces the rotted decking before the new system goes on.',
+    '**Cedar type and fire class** are the homeowner\'s replacement decision, because hand-split shake and sawn shingle carry different service-life ranges and untreated cedar is nonclassified under UL 790 and ASTM E108 while fire-retardant-treated cedar carries a Class B or Class C product class, per the Cedar Shake & Shingle Bureau Certi-Guard program. A Newark Quality Roofing estimate presents the options before tear-off.',
   ],
   process: [
-    'Cedar replacement begins with careful tear-off that contains the fragmenting material and protects the surrounding property. The exposed deck is assessed for the moisture damage that aging cedar installations commonly produce -- especially in the valleys and low-slope sections where debris accumulation held moisture against the sheathing for years. All deteriorated deck sections are replaced before the new system installation begins.',
-    'The replacement installation starts with a breather mat ventilation system over the repaired deck. This ventilation layer creates continuous airflow beneath the shake field, promoting drying between rain events and extending the service life of the new material in North Caldwell\'s shaded environment. New Number 1 grade hand-split and resawn cedar shakes (or the selected composite alternative) are installed with stainless steel fasteners at the specified exposure.',
-    'The completed installation receives an initial application of penetrating wood preservative (for natural cedar) or simply a final inspection (for composite). The homeowner receives material specifications, warranty documentation, and a maintenance schedule calibrated to their property\'s specific canopy and exposure conditions. For natural cedar, this schedule includes preservative re-treatment intervals. For composite, the maintenance schedule covers inspection only, with no periodic surface treatment required.'
+    '**Newark Quality Roofing rates the cedar roof against its 20-to-40-year shake and 30-to-50-year shingle service life and runs the InterNACHI flex test before quoting a replacement.** Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, and a shake that cracks under light bending fails the InterNACHI flex test, the sign of advanced degradation regardless of surface appearance, on North Caldwell\'s shaded, canopy-loaded slopes.',
+    '**Newark Quality Roofing strips the cedar to the deck, repairs the sheathing, and installs a ventilated nailing base, the sequence that holds at least 1.5 inches of drying air space beneath the shakes.** A full tear-off exposes the deck for replacement of plywood or OSB rotted under the old cedar, the work the NJ Rehabilitation Subcode requires because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, and the ventilated base extends cedar life in the borough\'s shaded environment, per Cedar Shake & Shingle Bureau install guidance.',
+    '**Newark Quality Roofing lays new hand-split shake, sawn shingle, or fire-retardant-treated cedar with corrosion-resistant fasteners, verifies the install, and issues a written workmanship warranty.** A crew installs the selected cedar to Cedar Shake & Shingle Bureau guidance, runs a magnet sweep for nails at cleanup on the wooded lot, and backs the labor with a written workmanship warranty separate from the manufacturer material warranty that covers factory defects.',
   ],
   faqs: [
     {
-      question: 'Should I replace my North Caldwell cedar roof with natural cedar or composite?',
-      answer: 'Both options maintain the visual character of cedar on your North Caldwell estate. Natural cedar costs less initially, requires ongoing maintenance, and has a 30-to-40-year lifespan with proper care. Composite costs more initially, requires no maintenance, meets Class A fire resistance, and lasts 50-plus years. The lifecycle cost is comparable. The decision comes down to whether you prefer the authentic natural material with its maintenance commitment, or the maintenance-free alternative with its equivalent appearance.'
+      question: 'Does a cedar shake roof replacement need a permit or historic approval in North Caldwell?',
+      answer:
+        'A complete cedar shake replacement on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. No Certificate of Appropriateness applies to a homeowner\'s reroof anywhere in North Caldwell, because the borough\'s Historic Preservation Commission under Chapter 107, Article XIII is advisory and survey-only, with no locally designated district or landmark, and no North Caldwell property sits on the National or NJ State Register. Per the National Park Service, Register listing alone places no federal restriction on a private owner. A commercial, multi-family, or attached building requires a permit from the Borough of North Caldwell Construction Department once roof work exceeds 25% of the roof area in 12 months.',
     },
     {
-      question: 'How long does cedar shake replacement take on a North Caldwell estate?',
-      answer: 'Plan for two to three weeks for a typical North Caldwell estate cedar replacement, including tear-off, deck repair, ventilation system installation, and shake installation. Cedar installation proceeds more slowly than shingle work because each shake is individually placed and fastened. Weather delays during the project are managed with temporary waterproofing that protects the home between work sessions.'
+      question: 'Can a new cedar roof go over my old cedar roof in North Caldwell?',
+      answer:
+        'A new cedar roof cannot go over an old cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a cedar replacement requires a full tear-off to the deck. The NJ Rehabilitation Subcode requires complete removal of a wood-shake covering, and the tear-off exposes the sheathing for replacement of any plywood or OSB rotted under the old cedar, common on North Caldwell\'s older custom stock.',
     },
     {
-      question: 'Will new cedar shakes match the weathered appearance of my neighbor\'s roof?',
-      answer: 'New cedar starts with a warm golden-tan color and weathers to silver-gray within two to three years of exposure. During this transition period, the new roof will be noticeably different from weathered installations in the neighborhood. The weathering timeline varies by sun exposure and moisture conditions. Applying a gray-toning stain during installation can accelerate the appearance transition for homeowners who prefer immediate visual consistency with the surrounding neighborhood.'
+      question: 'Should I replace my North Caldwell cedar roof with natural cedar or fire-retardant-treated cedar?',
+      answer:
+        'Untreated hand-split shake and sawn shingle keep the natural wood look that suits the borough\'s wooded large lots, while fire-retardant-treated cedar adds a Class B or Class C product class, per the Cedar Shake & Shingle Bureau Certi-Guard program. Untreated cedar is nonclassified under UL 790 and ASTM E108, and a Class A wood roof is achieved only as a tested assembly of fire-retardant shakes over a fire-retardant cap sheet, not as a single shake. Newark Quality Roofing presents both options at the estimate so a North Caldwell homeowner weighs the natural material against the added fire treatment.',
     },
     {
-      question: 'Is fire risk a concern with cedar shake replacement in wooded North Caldwell?',
-      answer: 'Fire risk is a legitimate consideration on wooded lots. We recommend Class A fire-rated pressure-treated cedar for all North Caldwell natural cedar installations. The fire treatment is applied during manufacturing and remains effective for the life of the material. For maximum fire protection on heavily wooded lots, composite shake alternatives inherently meet Class A standards without chemical treatment. Either option satisfies insurance and building code requirements for fire resistance.'
+      question: 'Why does a North Caldwell cedar roof need a ventilated nailing base?',
+      answer:
+        'A cedar roof needs at least 1.5 inches of drying air space beneath the shakes, the ventilation that slows the moisture-driven cupping, splitting, and rot that ends most cedar roofs, per Cedar Shake & Shingle Bureau install guidance. North Caldwell\'s mature oak and maple canopy shades north-facing slopes and keeps a cedar field damp, so the ventilated base that dries the wood between rains matters more on the borough\'s wooded large lots than on an open exposure.',
+    },
+    {
+      question: 'When does a North Caldwell cedar roof need replacement rather than repair?',
+      answer:
+        'Replace a cedar roof when cupping, splitting, and rot cover more than 25 to 30% of the field, when a shake cracks under light bending, or when the deck rotted beneath the wood. The 25-to-30% area threshold is a contractor-consensus repair-vs-replace rule attributed to Kellow, Modernize, and Josten, and the flex test is the InterNACHI sign of advanced degradation. Localized damage on a sound field still favors a repair on a North Caldwell estate roof.',
     },
     {
       question: 'How much does cedar shake roof replacement cost in North Caldwell, NJ?',
-      answer: 'Most cedar shake roof replacement projects in North Caldwell range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A roof replacement in New Jersey runs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize cost data, with premium cedar sitting above asphalt because hand-split shake, fire-retardant treatment, tear-off, and the ventilated nailing base each add cost. Labor accounts for roughly 60 to 70% of a wood-roof install, per Modernize, and NJ ranges sit above national figures. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Cedar shake roof replacement in North Caldwell NJ -- natural cedar and composite options for estate homes on wooded lots.',
+  metaDescription:
+    'Cedar shake roof replacement in North Caldwell NJ — full tear-off, ventilated base, and fire-class options for custom homes. NJ-registered, free estimate.',
   pricing: {
-    range: '$15,000–$32,000',
-    note: 'cedar shake roof replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium cedar sits above asphalt, with wood/cedar running roughly $5–$10 per square foot per Modernize and HomeGuide (labor about 60 to 70% of a wood-roof install). Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with North Caldwell\'s custom colonials, contemporaries, and Tudors on large wooded lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free cedar shake roof replacement estimate in North Caldwell — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for cedar shake roof replacement in North Caldwell.',
+    urgencyNote: 'Addressing cedar cupping, splitting, and rot early limits deck damage and interior water intrusion.',
   },
 };

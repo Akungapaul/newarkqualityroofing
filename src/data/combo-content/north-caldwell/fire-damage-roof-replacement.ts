@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const northCaldwellFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'north-caldwell',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across North Caldwell, New Jersey, and Essex County, tearing off the charred covering and deck and rebuilding a Class A fire-rated roof** on the borough\'s custom colonials, contemporaries, and Tudors as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in North Caldwell — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement on North Caldwell estates requires specialized assessment and reconstruction expertise that extends well beyond standard roofing replacement. Fire compromises structural framing, destroys sheathing integrity, and may damage supporting walls and bearing points that the roof system depends on. The replacement process must verify and restore structural soundness before any new roofing material can be installed, making fire damage projects fundamentally different from weather-related replacement.',
-    'Our [fire damage replacement](/fire-damage-roof-replacement) work on North Caldwell properties coordinates between the structural engineering assessment, insurance claims process, and the phased reconstruction that fire restoration demands. The roof cannot be replaced in isolation -- it must be rebuilt as part of the overall structural restoration, with each phase verified for code compliance before the next phase proceeds. This systematic approach ensures that the rebuilt roof system is structurally sound, code-compliant, and properly integrated with the restored building structure below.',
-    'Insurance coordination for fire damage on [North Caldwell](/roofing-in-north-caldwell-nj) estates involves substantial claim values that reflect the premium construction and materials on these properties. We provide detailed replacement cost documentation that supports the claim at the actual cost of restoring the roof to its pre-fire specification, including premium materials, custom detailing, and the structural reconstruction needed to support the original roofing system. Property owners in [Caldwell](/fire-damage-roof-replacement-caldwell-nj) rely on similar fire restoration expertise when their properties are affected.'
+    '**Newark Quality Roofing replaces fire-damaged roofs across North Caldwell, addressing the charred covering, the saturated decking, the heat-weakened rafters and trusses, and the corroded metal connectors** on the borough\'s custom colonials, contemporaries, and Tudors on large wooded lots. Fire damage roof replacement removes the char layer, replaces compromised framing and decking, and rebuilds to current code.',
+    '**The charred covering and decking** come off to the framing first, because a roof is a structural assembly of covering, underlayment, decking, and framing, so fire, heat, smoke, and firefighting water damage span the whole assembly rather than the surface alone, per the U.S. Forest Products Laboratory. The char layer carries essentially zero residual structural capacity and is removed, per the American Wood Council. A Newark Quality Roofing tear-off strips a North Caldwell estate roof to sound wood.',
+    '**The heat-weakened rafters and trusses** rebuild to a licensed structural engineer\'s post-fire assessment, because the heat-affected zone beneath the char retains only roughly 85 to 90% of original strength, per the U.S. Forest Products Laboratory and the American Wood Council. A Newark Quality Roofing crew rebuilds the framing on a North Caldwell custom colonial or Tudor to that assessment, then replaces the firefighting-water-saturated decking and corroded metal connectors below the new covering.',
+    '**The Class A fire-rated rebuild** restores the roof on the borough\'s heavily wooded large lots, where a roof covering qualifies as Class A, B, or C under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant, per UL 790 and ASTM E108. A Newark Quality Roofing rebuild matches the covering and assembly to the Class A rating on a North Caldwell estate or Tudor roof.',
   ],
   challenges: [
-    'Structural assessment after fire damage must determine the extent of heat compromise to framing members that may appear intact but have lost structural capacity. Wood framing exposed to high temperatures without visible charring can still be weakened, and the assessment must distinguish between framing that requires replacement and framing that retains adequate strength. This evaluation requires structural engineering expertise that exceeds standard roofing assessment capabilities.',
-    'Smoke and soot contamination in attic spaces and within the roof assembly must be addressed before reconstruction. Encapsulating or removing contaminated materials is essential for indoor air quality in the restored home. The decontamination scope depends on fire severity and may involve removal of insulation, cleaning of surviving framing, and treatment of masonry surfaces that absorbed smoke compounds during the fire.',
-    'Code compliance for fire damage reconstruction may require upgrades beyond the original construction. Current building code provisions for structural connections, fire resistance, ventilation, and energy performance may differ from the codes in effect when the home was originally built. The replacement must meet current code, which can increase the reconstruction scope and cost beyond a simple like-for-like restoration.'
+    '**A post-fire structural assessment** governs every North Caldwell fire rebuild, because charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, per the U.S. Forest Products Laboratory and EDT Engineers. A licensed structural engineer sets the framing scope on a custom colonial or Tudor, and Newark Quality Roofing performs the roofing to that assessment and current code.',
+    '**Saturated decking and corroded connectors** follow the fire on North Caldwell\'s older custom stock, because extinguishing water saturates decking, insulation, and framing and accelerates corrosion of metal truss plates and fasteners, per the U.S. Forest Products Laboratory and ANSI/IICRC S700. A Newark Quality Roofing rebuild replaces firefighting-water-saturated plywood or OSB sheathing and the corroded connectors before the new covering goes on.',
+    '**The insurance documentation** runs alongside the rebuild on North Caldwell\'s owner-occupied estate homes, where fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I). Newark Quality Roofing inspects, photographs, and documents the fire, heat, and water damage and meets the adjuster on site, while the homeowner or a licensed public adjuster files and negotiates the claim under N.J.S.A. 17:22B.',
+    '**A tear-off, not a recover,** is the code path after fire on a North Caldwell roof, because a water-soaked, charred, or deteriorated deck is not an adequate base for a new covering, per N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1. A Newark Quality Roofing fire rebuild strips the existing covering and deck rather than roofing over fire-weakened material.',
   ],
   process: [
-    'Fire damage assessment begins after the property is cleared for entry by the fire department. We coordinate with a structural engineer to evaluate the roof framing, bearing walls, and foundation elements that support the roof system. The assessment determines which structural elements require replacement, which can be repaired, and which are sound. This structural evaluation provides the foundation for the replacement scope and the insurance claim documentation.',
-    'Reconstruction proceeds in phases: structural framing repair and replacement first, then deck sheathing installation, followed by underlayment and waterproofing, and finally the roofing surface material. Each phase is inspected and verified before the next proceeds. For North Caldwell estates with premium roofing materials, the final roofing phase includes sourcing the specific materials needed to restore the roof to its pre-fire appearance and performance specification.',
-    'Project completion includes final inspection by the building department, warranty documentation for all materials and systems, and comprehensive project records that support the insurance claim closeout and the homeowner\'s property records. The rebuilt roof section integrates with any surviving portions of the original roof system, with transition details that ensure both weathertight performance and visual continuity across the repaired and original sections.'
+    '**Newark Quality Roofing coordinates a licensed structural engineer\'s post-fire assessment of the framing, then documents the fire, heat, smoke, and water damage with timestamped photographs and a detailed written scope for the adjuster.** A fire-damaged roof receives a formal post-fire structural assessment before reconstruction, per the U.S. Forest Products Laboratory and EDT Engineers, and the documentation supports the claim while the homeowner or a licensed public adjuster files and negotiates it under N.J.S.A. 17:22B.',
+    '**Newark Quality Roofing tears off the charred covering and saturated decking to the framing, then rebuilds the heat-weakened rafters, trusses, and sheathing to the engineer\'s assessment and current code.** The char layer carries essentially zero residual structural capacity and is removed to sound wood, per the American Wood Council and the U.S. Forest Products Laboratory, and a water-soaked or deteriorated deck is replaced because it is not an adequate base, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing installs the underlayment and a Class A fire-rated covering, then verifies the rebuild and issues a written workmanship warranty.** A Class A covering rates highest under the UL 790 and ASTM E108 fire-test methods, the rating that keeps the manufacturer system warranty intact, and a lead runs a magnet sweep for nails at cleanup before issuing the written workmanship warranty on the labor, separate from the manufacturer material warranty.',
   ],
   faqs: [
     {
-      question: 'How long does fire damage roof replacement take on a North Caldwell estate?',
-      answer: 'Fire damage reconstruction is significantly longer than standard roof replacement due to the structural assessment, engineering review, phased reconstruction, and inspection requirements. Timelines of 3 to 6 months from fire event to completed roof restoration are typical for substantial fire damage on North Caldwell estate homes. Material sourcing for premium products may extend the timeline further. We maintain temporary weatherproofing throughout the reconstruction process.'
+      question: 'Should you repair or replace a fire-damaged roof in North Caldwell?',
+      answer:
+        'Replace a fire-damaged North Caldwell roof when fire reaches the structure, char weakens the framing, or damage exceeds 25 to 30% of the roof area; repair a roof only when fire damage stays surface-localized on sound framing. The char layer carries essentially zero residual structural capacity and is removed, per the U.S. Forest Products Laboratory, and the 25 to 30% area rule favors full replacement, per roofing industry guidance.',
     },
     {
-      question: 'Will insurance cover the full restoration of my premium roof after fire?',
-      answer: 'Replacement cost coverage should cover restoration to the pre-fire condition with like-kind-and-quality materials, including premium products. We document the pre-fire roof specification in detail to support the claim at the actual restoration cost. Code upgrade provisions in most policies cover the additional cost of meeting current building code requirements that exceed the original construction standard.'
+      question: 'Do I need a permit for fire damage roof replacement in North Caldwell?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit. Replacing charred rafters or trusses is a structural change that triggers a permit from the Borough of North Caldwell Construction Department at 141 Gould Avenue, and a commercial, multi-family, or attached building requires a permit once roof work exceeds 25% of the roof area in 12 months.',
     },
     {
-      question: 'Can the roof be rebuilt to match the original appearance after fire damage?',
-      answer: 'In most cases, yes. We source matching materials and reconstruct using techniques that replicate the original construction. For partial fire damage where some original roof sections survive, we match the new work to the existing material in color, profile, and installation pattern. For total roof loss, we work from pre-fire photographs and the homeowner\'s preferences to restore the architectural character of the original design.'
+      question: 'Does a North Caldwell historic commission restrict fire damage roof replacement?',
+      answer:
+        'No Certificate of Appropriateness applies to a homeowner\'s reroof anywhere in North Caldwell, because the borough\'s Historic Preservation Commission under Chapter 107, Article XIII is advisory and survey-only, with no locally designated district or landmark. The commission surveys, recommends, and advises but issues no Certificate of Appropriateness, and no North Caldwell property sits on the National or NJ State Register. Per the National Park Service, Register listing alone places no federal restriction on a private owner, so a North Caldwell fire rebuild follows the standard N.J.A.C. 5:23-2.7 path.',
     },
     {
-      question: 'Do I need a structural engineer for fire damage roof replacement?',
-      answer: 'Yes. Structural engineering assessment is essential for any fire damage that affected roof framing. The engineer verifies which framing members are structurally sound and which require replacement, and designs any needed reinforcement. This assessment is required by building code for fire restoration and provides the documentation that insurance companies and building departments require before reconstruction can proceed.'
+      question: 'Does Newark Quality Roofing handle the fire insurance claim?',
+      answer:
+        'Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so Newark Quality Roofing inspects and photographs the fire damage, writes a detailed scope and estimate, meets the adjuster on site, and performs the approved roofing. In New Jersey, only a licensed public adjuster or an attorney negotiates or settles the claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B, so the homeowner or a public adjuster files and negotiates the claim, and the deductible stays the homeowner\'s responsibility under the policy.',
+    },
+    {
+      question: 'Can a fire-damaged North Caldwell roof be recovered over instead of torn off?',
+      answer:
+        'A fire-damaged North Caldwell roof requires a full tear-off rather than a recover, because a water-soaked, charred, or deteriorated deck is not an adequate base for a new covering. N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1 require removal of the existing covering when the deck is water-soaked or deteriorated, the condition firefighting water and char create on the borough\'s older custom stock.',
     },
     {
       question: 'How much does fire damage roof replacement cost in North Caldwell, NJ?',
-      answer: 'Most fire damage roof replacement projects in North Caldwell range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage roof replacement adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data. A natural slate or copper rebuild on a North Caldwell Tudor or estate home costs more, with slate installed at roughly $10 to $30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement in North Caldwell NJ -- structural restoration and insurance coordination for estate home fire recovery.',
+  metaDescription:
+    'Fire damage roof replacement in North Caldwell NJ — structural rebuild to engineer assessment, Class A fire-rated covering. NJ-registered, free estimate.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; fire damage adds structural framing and decking replacement, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with North Caldwell\'s custom colonials, contemporaries, and Tudors on large wooded lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in North Caldwell — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in North Caldwell.',
+    urgencyNote: 'Tarping fire-opened roof areas early limits further interior and structural water damage before the rebuild.',
   },
 };

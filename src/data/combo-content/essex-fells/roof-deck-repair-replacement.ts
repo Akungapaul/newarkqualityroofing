@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const essexFellsRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'essex-fells',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof deck repair replacement across Essex Fells, New Jersey, and Essex County, removing rotted sheathing exposed at tear-off on the borough\'s large-lot custom single-family homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [
-    'Newark Quality Roofing delivers expert roof deck repair replacement in Essex Fells — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair on Essex Fells estates addresses the structural substrate beneath premium roofing materials where water infiltration, age, or biological deterioration has compromised the plywood, OSB, or board sheathing that supports the entire roof system. Deck deterioration beneath slate or cedar shake is particularly insidious because the premium roofing material may show no exterior signs while the substrate beneath has softened from years of moisture contact at flashing failures, valley deficiencies, or ice dam locations. Discovery typically occurs during planned re-roofing when the existing surface material is removed to reveal the sheathing condition beneath.',
-    'The historic Essex Fells estate homes feature original roof decking materials rarely encountered in modern construction -- skip-sheathing with individual boards spaced for cedar shake ventilation, full tongue-and-groove board sheathing predating plywood availability, and occasionally structural plank decking on the oldest carriage house and stable conversions. Repairing these historic decking systems requires understanding both their structural contribution and their compatibility with modern underlayment and roofing installation methods. Wholesale replacement of historic board sheathing with plywood changes the roof assembly\'s vapor behavior in ways that must be analyzed before specification.',
-    'Our [roof deck repair and replacement](/roof-deck-repair-replacement) capability in Essex Fells encompasses both the structural carpentry required for sound deck restoration and the engineering understanding necessary to maintain proper vapor management and ventilation when deck materials are modified. We evaluate deck conditions during every re-roofing project, map deterioration areas before the homeowner commits to the full material replacement scope, and present repair options that address the structural problem while preserving the building\'s original deck characteristics where they contribute to the roof assembly\'s performance.'
+    '**Newark Quality Roofing repairs and replaces roof decks across Essex Fells\'s custom single-family homes — rotted sheathing that cannot hold a nail, delaminated plywood, swollen OSB, and water-soaked decking exposed at tear-off.** The roof deck is the plywood or board sheathing that spans the rafters and anchors every roofing nail under the underlayment and the covering.',
+    '**Rotted sheathing** surfaces at tear-off on the borough\'s older custom homes, because trapped moisture decays the deck until it loses the ability to hold a fastener and the roof loses wind resistance, per InterNACHI, and roofing nails penetrate at least 3/4 inch into solid deck, per ARMA nail-application guidance. On Essex Fells homes the rot most often traces to failed valley, chimney, or wall flashing or to a gutter clogged by the mature tree canopy that overflows against the eave.',
+    '**Delaminated plywood and swollen OSB** mark sheathing past recovery, because plywood dries more uniformly and partly recovers while OSB swells at the edges and delaminates irreversibly once saturated, per InterNACHI and trade guidance. A Newark Quality Roofing inspection separates the boards that recover from the panels that require replacement before a re-deck quote on the custom-home stock.',
+    '**Water-soaked decking exposed at tear-off** comes off before the new covering goes on, because the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck. A Newark Quality Roofing crew re-decks the failed sections with code-rated structural panels, then corrects the flashing or ventilation that drove the decay so it does not recur.',
   ],
   challenges: [
-    'Concealed deterioration beneath intact roofing surfaces on Essex Fells estates creates cost uncertainty that homeowners find difficult to budget. Slate or copper roofing may appear sound while the deck beneath has deteriorated over decades of slow moisture infiltration. The full extent of deck damage typically cannot be determined until the roofing material is removed, creating a scope expansion during re-roofing projects that affects schedule and cost. We mitigate this uncertainty through pre-project assessment using interior inspection, thermal imaging, and targeted exploratory openings that characterize deck condition before the full re-roofing commitment.',
-    'Structural adequacy of historic board sheathing -- adequate when originally installed for the specific roofing material and loading conditions of the era -- may not meet current standards for modern underlayment attachment, wind-uplift resistance, or concentrated load distribution. Adding plywood overlay to existing board sheathing provides a code-compliant substrate but changes the assembly thickness, affecting trim alignments at eaves and rakes, dormer flashing details, and gutter positioning. These cascade effects must be anticipated and addressed in the repair specification rather than discovered during installation.',
-    'Biological deterioration from wood-decay fungi in the shaded, moisture-retentive Essex Fells environment progresses faster and more extensively than in open-exposure settings. Once decay establishes in roof deck material beneath a moisture source, it can spread laterally through the wood fibers well beyond the visually apparent damage zone. Repair specifications must extend replacement boundaries beyond the visible deterioration to reach sound wood, and the moisture source that initiated the decay must be corrected simultaneously to prevent recurrence in the new deck material.'
+    '**Concealed deterioration under sound-looking slate, metal, or asphalt** defines deck work on Essex Fells\'s mature custom homes, because the covering can read intact while the deck beneath has softened from years of slow moisture at a failed flashing detail. A Newark Quality Roofing crew probes the sheathing from the attic and the roof before the re-roofing commitment.',
+    '**Mature-canopy moisture** accelerates deck decay on the borough\'s wooded large lots, because the unique 50-to-150-year-old tree canopy, the Bowditch design legacy per the Borough of Essex Fells 2018 Master Plan, drops leaf and branch debris into valleys and gutters and shades north slopes, so blocked valleys back water under the covering and onto the deck. A Newark Quality Roofing re-deck clears the source and replaces the saturated sheathing.',
+    '**Older board sheathing** on the turn-of-the-century custom stock can sit below modern standards for fastener hold and wind uplift, because panels thinner than 1/2 inch over rafters spaced more than 20 inches on center require H-clips, tongue-and-groove edges, or solid blocking, per IRC Section R803.2. A Newark Quality Roofing crew replaces failed sections with code-rated panels sized to the rafter spacing.',
   ],
   process: [
-    'Deck assessment begins before roofing removal whenever possible. Interior inspection from the attic identifies water staining, soft spots, visible fungal growth, and structural deflection in the deck surface. Thermal imaging from exterior detects moisture concentrations that indicate deck saturation beneath intact roofing. Where assessment from below is inconclusive, we recommend targeted exploratory openings -- small sections of roofing removed to inspect deck condition at suspected deterioration locations. This pre-project intelligence enables budget-accurate repair scoping before the full re-roofing project begins.',
-    'Repair specification defines the replacement boundaries, material selection, and structural integration details for each deteriorated zone. Plywood replacement sections are specified in thickness matching the existing deck or in the minimum thickness required by the new roofing system, whichever is greater. Edge connections to existing sound deck material are detailed with proper nailing patterns and blocking. Where the deterioration source was a flashing failure or ventilation deficiency, the correction is specified as an integral part of the deck repair to prevent recurrence.',
-    'Execution during re-roofing removes deteriorated deck material back to sound wood at structural member locations where replacement sections can be properly supported and fastened. New plywood or OSB is installed with code-compliant nailing patterns, edge blocking at unsupported joints, and appropriate gap spacing for thermal expansion. The repaired deck surface is verified for flatness and structural soundness before underlayment and new roofing material installation proceeds. Every repair zone is documented with photographs showing the deterioration found, the extent of material removed, and the completed repair for the homeowner\'s property file.'
+    '**Newark Quality Roofing probes the deck from the attic and the roof, separating sound sheathing from rot, delamination, swelling, and sag before any tear-off.** A crew checks for soft or crumbling wood, delaminated plywood, swollen OSB edges, daylight through the deck, and dark underside staining, per InterNACHI and GAF inspection guidance, because the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck.',
+    '**Newark Quality Roofing replaces the failed sheathing with code-rated structural panels sized to the rafter spacing, restoring a deck that grips a roofing nail at least 3/4 inch deep, per ARMA.** Roof sheathing carries an APA span rating that sets the maximum rafter spacing, per APA – The Engineered Wood Association, and a crew adds H-clips, tongue-and-groove edges, or solid blocking on thin panels over wide framing, per IRC Section R803.2.',
+    '**Newark Quality Roofing corrects the flashing or ventilation that drove the decay, then documents the re-deck with photographs.** A crew traces the rot to its moisture source, applies an ice barrier from the eave to at least 24 inches inside the exterior wall line, per IRC Section R905.1.2, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor for the homeowner\'s property file.',
   ],
   faqs: [
     {
-      question: 'How do I know if my roof deck needs repair before re-roofing?',
-      answer: 'Interior inspection from the attic reveals the most accessible indicators -- water staining on deck surfaces, soft or spongy areas when walked upon, visible fungal growth on sheathing, and daylight visible through gaps between boards. From exterior, areas where the roof surface has sagged or deflected between rafters indicate deck deterioration beneath. We include comprehensive deck assessment in every re-roofing proposal, providing advance information about probable repair scope before the homeowner commits to the project.'
+      question: 'How do I know if my Essex Fells roof deck needs repair before re-roofing?',
+      answer:
+        'Soft or spongy wood underfoot, delaminated plywood, swollen OSB edges, dark stains on the deck underside, and daylight through the sheathing from the attic all point toward deck replacement rather than a surface patch, per InterNACHI. A Newark Quality Roofing crew probes the deck from the attic and the roof in every re-roofing assessment, so the probable repair scope is known before the project begins on an Essex Fells custom home.',
     },
     {
-      question: 'Should historic board sheathing be replaced with plywood during re-roofing?',
-      answer: 'Not necessarily. Sound board sheathing provides adequate substrate for most roofing materials when properly fastened. Overlaying board sheathing with plywood adds structural rigidity and provides a smooth substrate for modern underlayment adhesion, but it also changes the assembly thickness and vapor characteristics. We evaluate the existing board sheathing condition and recommend selective repair of deteriorated sections, full overlay where structural improvement is needed, or preservation of sound original boards when they meet current requirements.'
+      question: 'Do I need a permit from Essex Fells to replace a roof deck?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code, though a structural change to rafters or trusses still triggers a permit. On a municipal, institutional, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit from the Borough of Essex Fells Building Department at Borough Hall, 255 Roseland Avenue.',
     },
     {
-      question: 'What causes roof deck deterioration on well-maintained homes?',
-      answer: 'Deck deterioration results from moisture contact -- not from inadequate maintenance of the visible roofing surface. Common sources include slow flashing failures that allow water to reach the deck at quantities too small to produce visible interior leaking, ice dam formation forcing water beneath roofing material at eaves, and condensation from inadequate ventilation depositing moisture on deck surfaces from below. These moisture sources can operate for years beneath an apparently sound roof, gradually deteriorating the deck until a re-roofing project reveals the hidden damage.'
+      question: 'Does a historic district restrict roof deck work in Essex Fells?',
+      answer:
+        'Essex Fells maintains no local historic-preservation ordinance, no Historic Preservation Commission, and no Certificate-of-Appropriateness process, so a roof deck replacement in Essex Fells requires no historic-board approval. No "Essex Fells Historic District" exists on the National Register or the NJ State Register, and the borough\'s Bowditch planned-community heritage carries no private-owner restriction. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'How much does deck repair add to a re-roofing project cost?',
-      answer: 'Deck repair typically adds ten to twenty percent to the re-roofing cost for localized deterioration affecting less than ten percent of the deck area. Extensive deterioration requiring replacement of larger sections can add thirty percent or more. Pre-project assessment reduces cost surprise by identifying probable repair scope before the project begins. We provide unit pricing for deck repair in our re-roofing proposals so homeowners can anticipate the cost range based on the assessment findings.'
+      question: 'Does swollen OSB dry out, or does it have to be replaced?',
+      answer:
+        'Swollen OSB swells at the edges and delaminates irreversibly once saturated, so saturated OSB gets replaced rather than dried out, while plywood dries more uniformly and partly recovers, per InterNACHI and trade guidance. A Newark Quality Roofing inspection separates plywood that recovers from OSB and plywood past recovery before a re-deck quote on an Essex Fells home.',
+    },
+    {
+      question: 'Should I repair or replace my roof deck?',
+      answer:
+        'Replace the deck section when the sheathing is rotted, delaminated, swollen, or sagging, and replace the roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair when the decay stays localized. The 25–30% area rule is a contractor-consensus threshold attributed to RapidRestore and Kellow Construction, and the 50% cost rule to WeatherShield, while the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.',
     },
     {
       question: 'How much does roof deck repair replacement cost in Essex Fells, NJ?',
-      answer: 'Most roof deck repair replacement projects in Essex Fells range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A roof replacement with deck work in New Jersey runs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize cost data, while re-decking itself runs about $2 to $5 per square foot, per HomeGuide. Final cost depends on roof size, pitch, material, and access, and the borough\'s large custom homes with steep complex slopes sit toward the upper end. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof deck repair and replacement in Essex Fells NJ -- structural substrate restoration for estate re-roofing projects.',
+  metaDescription:
+    'Roof deck repair and replacement in Essex Fells NJ — rotted sheathing, swollen OSB, code-rated re-decking on custom homes. NJ-registered, free estimate.',
   pricing: {
-    range: '$2,000–$6,000',
-    note: 'structural deck repair pricing',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; re-decking itself runs about $2 to $5 per square foot per HomeGuide. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Essex Fells\'s custom single-family homes on the borough\'s large Bowditch-plan lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof deck repair replacement estimate in Essex Fells — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof deck repair replacement in Essex Fells.',
+    urgencyNote: 'Addressing roof deck decay early limits interior and structural water damage.',
   },
 };

@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const northCaldwellRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'north-caldwell',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof deck repair replacement across North Caldwell, New Jersey, and Essex County, re-decking rotted sheathing exposed at tear-off on the borough\'s custom colonials, contemporaries, and Tudors on large wooded lots** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [
-    'Newark Quality Roofing delivers expert roof deck repair replacement in North Caldwell — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair on North Caldwell estates addresses the structural foundation beneath the visible roofing material -- the plywood or board sheathing that spans between rafters and provides the surface that everything above it attaches to. When the deck deteriorates from moisture intrusion, the entire roof system above it is compromised regardless of how premium the surface material may be. A slate roof is only as solid as the deck it sits on, and North Caldwell estate homes with complex multi-level roof systems have extensive deck area where hidden deterioration can develop undetected for years.',
-    'Our [roof deck repair](/roof-deck-repair-replacement) work in North Caldwell typically occurs during re-roofing projects when the existing surface material is removed and the deck is exposed for inspection. The scope of deck damage ranges from localized soft spots at chronic leak locations to extensive sheathing deterioration across entire roof sections where ventilation failure allowed moisture accumulation over decades. The extent of deck repair needed is often the biggest variable in re-roofing cost estimates on older North Caldwell homes.',
-    'Proactive deck assessment without full roof removal is possible through targeted inspection from inside the attic. We check sheathing condition at vulnerable locations -- eaves where ice dams have formed, valleys where water concentrates, areas beneath compromised flashings, and sections over bathrooms and kitchens where interior moisture migrates upward. This pre-project assessment gives [North Caldwell](/roofing-in-north-caldwell-nj) homeowners a realistic preview of the deck condition before committing to a re-roofing project where deck repair costs could significantly exceed the initial surface material estimate. Homeowners in [Caldwell](/roof-deck-repair-replacement-caldwell-nj) benefit from similar pre-project deck evaluations.'
+    '**Newark Quality Roofing repairs and replaces roof decks on North Caldwell\'s custom colonials, contemporaries, and Tudors**, removing rotted, delaminated, swollen, or sagging sheathing so the deck grips fasteners and holds the covering across the borough\'s large wooded lots. The roof deck is the plywood or board sheathing that spans the rafters and anchors every roofing nail.',
+    '**Rotted sheathing** turns up most often when an aging covering comes off a North Caldwell custom home, because roofing nails penetrate at least 3/4 inch into the deck, per ARMA nail-application guidance, so sheathing that cannot grip a nail requires replacement. Trapped moisture decays the deck until it loses fastener hold and the roof loses wind resistance, per InterNACHI, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck.',
+    '**Custom and older stock** across North Caldwell carries original board sheathing on the Tudors and large estate homes alongside plywood and OSB on later additions, and deck decay on these wooded large-lot homes traces to failed valley, chimney, or wall flashing and to gutters that the mature oak and maple canopy clogs and overflows against the eave. A Newark Quality Roofing re-deck restores the substrate before the covering goes back on.',
+    '**Estate accessory and municipal structures** in North Caldwell carry low-slope EPDM, TPO, and modified-bitumen membrane over their own decks, where ponding water remaining more than 48 hours saturates the sheathing through a membrane breach, per the NRCA and ARMA, so a Newark Quality Roofing scope traces the deck decay to the drainage or seam failure that admitted the water.',
   ],
   challenges: [
-    'The scope of deck damage on North Caldwell estate homes is often significantly greater than the visible symptoms suggest. A ceiling stain in one room may indicate a deck failure zone that spans from the leak source across multiple rafter bays to the point where water finally drips through. On homes with multiple decades of deferred maintenance, we frequently discover deck deterioration extending ten to twenty feet from the apparent problem location -- damage that was invisible until the roof surface above was removed.',
-    'Original board sheathing on older North Caldwell estates -- one-by-six or one-by-eight boards installed during original construction -- presents different repair challenges than modern plywood. Board sheathing has gaps between planks that allow air and moisture movement, and individual boards can deteriorate while adjacent boards remain sound. Replacing deteriorated boards requires matching the existing board width and thickness while shimming for the dimensional variations that old-growth lumber exhibits compared to modern lumber.',
-    'Structural rafter damage beneath deteriorated deck sheathing elevates the repair scope from simple sheathing replacement to structural carpentry. When moisture that has rotted the deck also reaches the rafters below, the structural members must be sistered, reinforced, or replaced before new sheathing can be installed. This structural work adds significant cost and time to what homeowners initially understood as a straightforward re-roofing project.'
+    '**Hidden deck decay** defines North Caldwell deck work, because the extent shows only at tear-off, and most rot on these wooded large-lot homes traces to failed flashing or a gutter the mature canopy clogs and overflows at the eave. A Newark Quality Roofing re-deck removes every soft section back to sound material at the nearest rafter support.',
+    '**Original board sheathing** on North Caldwell\'s Tudors and large estate homes presents a different repair than modern plywood, because individual boards decay while neighbors stay sound and the gaps between planks pass air and moisture. A Newark Quality Roofing crew matches the board width and thickness and shims for the dimensional variation that old-growth lumber carries.',
+    '**Sagging deck sections** between the rafters signal moisture-decayed sheathing or undersized panels, because panels thinner than 1/2 inch over rafters spaced more than 20 inches on center require H-clips, tongue-and-groove edges, or solid blocking, per IRC Section R803.2. A Newark Quality Roofing re-deck sizes the replacement panel to the rafter spacing it spans.',
+    '**Rafter damage** beneath rotted deck raises the scope from sheathing replacement to structural carpentry, because moisture that decays the deck reaches the rafters below, and structural change to rafters or trusses triggers a construction permit filed with the Borough of North Caldwell Construction Department at 141 Gould Avenue. A Newark Quality Roofing crew addresses the framing before new sheathing closes the deck.',
   ],
   process: [
-    'Deck assessment during re-roofing proceeds systematically as the existing roof surface is removed. Our crew walks every section of exposed deck, probing with an awl at regular intervals and at every location where staining, discoloration, or softness suggests moisture damage. Every deteriorated zone is marked, measured, and photographed. The homeowner receives a real-time update on deck condition as removal progresses, with cost implications communicated before replacement work begins.',
-    'Deck replacement removes deteriorated sheathing back to sound material at the nearest rafter support points. New CDX plywood or OSB matching the existing deck thickness is installed with proper edge support and fastening patterns per current building code. For large replacement zones, we verify that rafter condition supports the new decking and address any structural deficiencies before closing the new sheathing. H-clips between panel edges provide edge support at unsupported joints.',
-    'Quality verification confirms that the new deck provides a flat, solid substrate for the roofing material above. We check for soft spots, gaps, and fastener issues before the underlayment and roofing installation proceeds. The deck repair is documented with photographs and measurement records that become part of the re-roofing project file. For North Caldwell estate homeowners, this documentation supports insurance records and provides a baseline for future maintenance planning on the restored roof structure.'
+    '**Newark Quality Roofing inspects the deck for the conditions that cost the sheathing its fastener hold — rot, delamination, swelling, and sag — probing suspect decking from the attic and the roof.** A crew identifies soft, spongy, or crumbling wood, swollen OSB edges, daylight through the deck, and dark staining underneath, per InterNACHI and GAF inspection guidance, because trapped moisture decays the sheathing until the deck loses the ability to hold a nail.',
+    '**Newark Quality Roofing replaces the failed sheathing with code-rated structural panels sized to the rafter spacing, restoring a deck that grips a roofing nail at least 3/4 inch deep.** Roof sheathing carries an APA span rating that sets the maximum rafter spacing, per APA – The Engineered Wood Association, and a crew installs panels thinner than 1/2 inch over rafters spaced more than 20 inches on center with H-clips, tongue-and-groove edges, or solid blocking, per IRC Section R803.2. On a North Caldwell Tudor or estate home, the crew matches original board sheathing in kind where the deck calls for it.',
+    '**Newark Quality Roofing applies underlayment and an ice barrier, then verifies the deck before the covering goes on and documents the work.** A crew sets a self-adhering ice barrier from the eave to at least 24 inches inside the exterior wall line, per IRC Section R905.1.2, fastens the covering with corrosion-resistant nails that penetrate at least 3/4 inch into the new deck, per ARMA, and records the re-deck with photographs for the homeowner\'s file and any insurance claim.',
   ],
   faqs: [
     {
-      question: 'How do I know if my North Caldwell home needs roof deck repair before re-roofing?',
-      answer: 'Pre-project indicators include interior water stains, soft or bouncy spots felt when walking on the roof, visible sagging from ground level, and attic inspection showing discolored, delaminated, or soft sheathing. We recommend attic inspection as part of every re-roofing estimate on North Caldwell homes older than 25 years. The inspection identifies likely deck repair zones and helps set realistic budget expectations before the project begins.'
+      question: 'Do I need a permit to replace a rotted roof deck in North Caldwell?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. Replacing water-soaked sheathing as part of that re-roof follows the same path, while a structural change to rafters or trusses, or roof work over 25% of the area on a commercial or attached building, requires a permit from the Borough of North Caldwell Construction Department at 141 Gould Avenue.',
     },
     {
-      question: 'What percentage of North Caldwell re-roofing projects require deck repair?',
-      answer: 'On homes over 30 years old, roughly 70 to 80 percent of re-roofing projects involve some degree of deck repair. The extent varies from a few sheets of plywood at isolated problem areas to significant sections requiring full replacement. Homes with a history of ice dams, deferred maintenance, or inadequate attic ventilation are more likely to need extensive deck work. The only way to know definitively is exposing the deck during the re-roofing process.'
+      question: 'Does a historic commission restrict roof deck work in North Caldwell?',
+      answer:
+        'No Certificate of Appropriateness applies to a homeowner\'s roof work anywhere in North Caldwell, because the borough\'s Historic Preservation Commission under Chapter 107, Article XIII is advisory and survey-only, with no locally designated district or landmark. The commission surveys, recommends, and advises but issues no Certificate of Appropriateness, and no North Caldwell property sits on the National or NJ State Register. Per the National Park Service, Register listing alone places no federal restriction on a private owner, so a North Caldwell re-deck follows the standard N.J.A.C. 5:23-2.7 ordinary-maintenance path.',
     },
     {
-      question: 'Should rotted roof deck be replaced with plywood or OSB?',
-      answer: 'We recommend CDX plywood for North Caldwell estate re-roofing projects. While OSB costs less, plywood handles moisture exposure better if future leaks occur -- it retains structural integrity longer when wet, giving homeowners more time to identify and repair a leak before deck deterioration progresses. On estate homes where the roofing investment is significant, the modest additional cost of plywood provides meaningful insurance against future moisture events.'
+      question: 'Can you reroof over a rotted or water-soaked deck on a North Caldwell home?',
+      answer:
+        'The IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck, so the rotted sheathing comes off before the new covering goes on. Roofing nails penetrate at least 3/4 inch into solid deck, per ARMA, and sheathing that cannot grip a nail leaves the covering prone to wind uplift on North Caldwell\'s exposed Second Watchung upland lots, per InterNACHI.',
     },
     {
-      question: 'Can deck repair be done from inside the attic without removing the roof?',
-      answer: 'In limited cases, small areas of deck deterioration accessible from the attic can be reinforced from below by sistering plywood to the existing sheathing. However, this approach is impractical for most deck repair situations because the existing roofing material above creates a water management challenge during the repair. Deck repair is most effectively and economically performed during a re-roofing project when the surface is already removed and full deck access is available.'
+      question: 'Does swollen OSB dry out, or does it have to be replaced?',
+      answer:
+        'Swollen OSB swells at the edges and delaminates irreversibly once saturated, so saturated OSB gets replaced rather than dried out, while plywood dries more uniformly and partly recovers, per InterNACHI and trade guidance. A Newark Quality Roofing inspection separates plywood that recovers from OSB and plywood past recovery before a re-deck quote on a North Caldwell home.',
     },
     {
-      question: 'How much does roof deck repair replacement cost in North Caldwell, NJ?',
-      answer: 'Most roof deck repair replacement projects in North Caldwell range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Should you repair or replace the roof when the deck is rotted?',
+      answer:
+        'Replace the deck section when the sheathing is rotted, delaminated, swollen, or sagging, and replace the roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair when the decay stays localized. The 25–30% area rule is a contractor-consensus threshold attributed to RapidRestore and Kellow Construction, and the 50% cost rule to WeatherShield, while the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.',
+    },
+    {
+      question: 'How much does roof deck replacement cost in North Caldwell, NJ?',
+      answer:
+        'Re-decking a roof costs $2–$5 per square foot, with a national average near $5,500, and Angi cites $2–$6 per square foot, per HomeGuide and Angi cost data. A hidden-rot re-deck added during a re-roof runs about $50–$120 per 4-by-8 sheet, per contractor cost data, and OSB sheathing costs less than plywood. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof deck repair and replacement in North Caldwell NJ -- structural sheathing restoration for estate homes during re-roofing projects.',
+  metaDescription:
+    'Roof deck repair and replacement in North Caldwell NJ — re-decking rotted sheathing on custom colonials and Tudors. NJ-registered, free written estimate.',
   pricing: {
-    range: '$2,000–$6,000',
-    note: 'structural deck repair pricing',
+    range: '$10,000–$25,000',
+    note: 'Re-decking costs $2–$5 per square foot per HomeGuide, with a hidden-rot re-deck during a full replacement adding about $50–$120 per 4-by-8 sheet; a typical NJ roof replacement runs $10,000–$25,000 per HomeAdvisor and Modernize. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with North Caldwell\'s custom colonials, contemporaries, and Tudors on large wooded lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof deck repair replacement estimate in North Caldwell — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof deck repair replacement in North Caldwell.',
+    urgencyNote: 'Addressing deck decay early limits interior and structural water damage.',
   },
 };

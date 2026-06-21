@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const northCaldwellReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'north-caldwell',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing re-roofing across North Caldwell, New Jersey, and Essex County, replacing a worn covering with a new underlayment-and-cover system on the borough\'s custom colonials, contemporaries, and Tudors on large wooded lots** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in North Caldwell — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing North Caldwell estates is a significant undertaking that transforms the protective envelope and visual character of properties valued well into seven figures. Whether transitioning from aging asphalt to designer architectural shingles, restoring a deteriorated slate roof with quarry-matched material, or upgrading from cedar shakes to fire-rated composite alternatives, the [re-roofing](/re-roofing) project on a North Caldwell home requires planning, material expertise, and execution quality that standard residential roofing companies rarely deliver.',
-    'The re-roofing decision on North Caldwell properties typically involves material selection, not just replacement in kind. Homeowners at the twenty-to-thirty-year mark evaluate whether the original material still represents the best option or whether advances in roofing technology offer better performance, longer life, or lower maintenance. A cedar shake roof approaching replacement age might transition to synthetic shake that delivers the same appearance with fire resistance and no maintenance. An aging three-tab shingle roof is upgraded to premium architectural profiles that transform the home\'s streetside presence.',
-    'Our re-roofing work in [North Caldwell](/roofing-in-north-caldwell-nj) treats every project as a custom installation designed for the specific home, its architectural style, and the homeowner\'s priorities. We present material options with samples, lifecycle cost projections, and installed examples from comparable properties. The result is a roofing system that reflects an informed decision rather than a default specification -- an approach that homeowners in [Essex Fells](/re-roofing-essex-fells-nj) and throughout the affluent west Essex suburbs expect and deserve.'
+    '**Newark Quality Roofing re-roofs North Caldwell\'s custom colonials, contemporaries, and Tudors on large wooded lots, plus the borough\'s estate accessory and municipal low-slope sections.** Re-roofing replaces a worn covering with a new system, the work that renews a roof past its service life rather than patching a single failed detail.',
+    '**Re-roofing** reaches the replacement decision through age and condition: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and natural slate 60 to 150 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. A North Caldwell re-roof matches the new system to the borough\'s custom stock before tear-off.',
+    '**North Caldwell\'s custom colonials and contemporaries** carry asphalt-shingle re-roofs, where a full tear-off strips the covering to the deck, exposes deteriorated sheathing for repair, and installs an ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision. The borough runs about 96% owner-occupied, among the highest in Essex County, per the U.S. Census Bureau.',
+    '**The Tudors and large estate homes** carry natural slate, metal, and copper, where slate lasts 60 to 150 years and a properly installed copper roof exceeds 100 years, per the InterNACHI chart and the Copper Development Association. The borough\'s estate accessory structures and municipal sections carry EPDM, TPO, or modified-bitumen low-slope membrane, at 15 to 25, 7 to 20, and 20 years respectively, per the InterNACHI chart.',
   ],
   challenges: [
-    'Material transitions during re-roofing require careful evaluation of structural, aesthetic, and regulatory implications. Moving from lightweight shingles to heavy slate requires structural reinforcement. Transitioning from traditional cedar to synthetic shake requires confirming that HOA standards accept the alternative material. Upgrading from three-tab to premium architectural shingles is straightforward structurally but demands attention to ventilation and underlayment standards that have changed since the original installation.',
-    'Coordinating re-roofing on occupied North Caldwell estates involves managing the homeowner\'s daily life around construction activity. Noise, dust, vibration, and access restrictions affect how the household functions during the project. We plan work schedules around the homeowner\'s routines, maintain clean access to all entries throughout the project, and communicate daily schedules so the household can plan accordingly.',
-    'The estate scale of North Caldwell re-roofing projects requires larger crew sizes and longer timelines than standard residential work. A 6,000-square-foot roof may require two to three weeks for tear-off, deck repair, and installation. Material deliveries must be staged across multiple days. Quality control across the larger area demands systematic inspection processes that ensure consistency from the first installed section to the last.'
+    '**Mature oak and maple canopy** is the defining North Caldwell re-roofing condition, because the heavily wooded large lots and the Hilltop Reservation edge, per Essex County Parks, drop leaf load and broken branches that strip valleys and gutters. A Newark Quality Roofing re-roof renews the covering and rebuilds flashing at the valleys where that debris first backs water under the roof.',
+    '**Deteriorated sheathing discovered at tear-off** drives the cost variable on North Caldwell\'s older custom stock, because a full tear-off exposes deteriorated plywood or planks that a recover would hide. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4.',
+    '**Far-western upland exposure** on the Second Watchung Mountain stresses a North Caldwell re-roof at the ridge, edges, and corners, because the borough holds Essex County\'s highest point at roughly 691 feet at the Hilltop, per the North Caldwell description and Wikipedia, and reservation-edge lots catch storm wind and falling canopy ahead of a sheltered interior street. A re-roof anchors the new covering and fastens the edge metal to the rake.',
+    '**Natural slate and copper period detailing** on the Tudors and large estate homes calls for in-kind material handling rather than a standard asphalt swap, because slate rarely fails as a tile and instead fails at corroded fasteners and degraded valley and chimney flashing. A re-roof preserves the original roof, replacing broken slate with non-ferrous copper or stainless slater\'s nails, per NPS Preservation Brief 29, and fabricating copper valley and step flashing.',
   ],
   process: [
-    'Re-roofing begins with a comprehensive consultation covering material options, project scope, and timeline. We assess the existing roof condition, evaluate structural capacity for the desired new material, and present options with samples, cost projections, and warranty comparisons. The homeowner selects the material and specification, and we develop a detailed project plan covering every phase from tear-off through final cleanup.',
-    'Execution follows the project plan with daily progress communication to the homeowner. Tear-off exposes the deck for complete assessment and repair. Underlayment and waterproofing components are installed to current code standards. The new roofing material is installed by crews trained specifically in the selected product. Every detail -- valleys, ridges, flashings, penetrations -- receives the attention that an estate-scale investment demands.',
-    'Project completion includes final inspection from multiple vantage points around the property, warranty registration for all components, and delivery of the complete project documentation package. For North Caldwell homeowners, this includes material specifications, installation detail photographs, warranty certificates, and a maintenance calendar tailored to the specific material and local conditions. Post-completion inspection at the six-month mark verifies that all materials are performing as expected after initial weather exposure.'
+    '**Newark Quality Roofing confirms the re-roofing decision, inspects the deck and attic ventilation, and presents the material options before quoting.** Damage across more than 25–30% of the roof area crosses the contractor-consensus 25–30% rule, a single repair approaching 50% of replacement cost crosses the 50% rule, and an asphalt roof past 20 years crosses the age rule, per WeatherShield, RapidRestore, and Home Depot cost data, so a Newark Quality Roofing assessment confirms the threshold before recommending a re-roof.',
+    '**Newark Quality Roofing strips the worn roof to the deck, the tear-off method that exposes the deck for inspection and repair, because a recover hides deck rot and water damage that a tear-off catches.** A full tear-off exposes deteriorated plywood or planks for replacement, and N.J.A.C. 5:23-6.4 requires complete removal when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per the NJ Rehabilitation Subcode.',
+    '**Newark Quality Roofing installs the ice barrier, synthetic underlayment, and the cover to manufacturer specification, then documents the completed re-roof with timestamped photographs.** The ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line per the IRC R905.1.2 provision, and installing to manufacturer specification keeps the material warranty intact, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How do I choose the right roofing material for my North Caldwell estate re-roofing?',
-      answer: 'Start with the architectural style of your home and work from there. Colonial and traditional homes pair well with slate, cedar, or designer architectural shingles. Contemporary homes suit standing seam metal or flat-profile composite. Tudor and European styles complement tile or high-definition shingles. We provide material samples, cost comparisons, and examples from comparable properties to support an informed decision that balances aesthetics, performance, and budget.'
+      question: 'Do you need a permit for re-roofing in North Caldwell, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit from the Borough of North Caldwell Construction Department once roof work exceeds 25% of the roof area in 12 months, and so does any structural change to rafters or trusses. Because North Caldwell is almost entirely residential, the commercial path applies mainly to estate accessory and municipal structures.',
     },
     {
-      question: 'How long does re-roofing take on a North Caldwell estate?',
-      answer: 'Timeline depends on roof area, material type, and deck repair scope. A standard asphalt shingle re-roofing on a 5,000-square-foot estate typically takes 7 to 12 working days. Slate or tile re-roofing extends to 3 to 5 weeks due to material handling and installation pace. Weather interruptions and deck repair discoveries can extend any project. We provide timeline estimates during the consultation and update them as the project progresses.'
+      question: 'Does a North Caldwell historic home need approval before a re-roof?',
+      answer:
+        'No Certificate of Appropriateness applies to a homeowner\'s re-roof anywhere in North Caldwell, because the borough\'s Historic Preservation Commission under Chapter 107, Article XIII is advisory and survey-only, with no locally designated district or landmark. The commission surveys, recommends, and advises but issues no Certificate of Appropriateness, and no North Caldwell property sits on the National or NJ State Register. Per the National Park Service, Register listing alone places no federal restriction on a private owner, so a North Caldwell re-roof follows the standard N.J.A.C. 5:23-2.7 ordinary-maintenance path.',
     },
     {
-      question: 'Should I re-roof my entire North Caldwell home at once or in sections?',
-      answer: 'Complete re-roofing in a single project is strongly preferred. It ensures consistent material matching, uniform aging, and proper integration between all roof sections. Phased re-roofing creates transition zones between old and new material that must be carefully managed and may produce color variations between phases. The only practical reason to phase a re-roofing project is budget constraint -- in which case we plan the phases to minimize transition complications.'
+      question: 'Does re-roofing require a full tear-off?',
+      answer:
+        'Re-roofing requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound asphalt layer hides deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20–30%, per ARMA and Angi. North Caldwell\'s older custom stock often reveals deteriorated sheathing at tear-off, which favors complete removal.',
     },
     {
-      question: 'What happens if the deck needs significant repair during my re-roofing project?',
-      answer: 'We communicate deck condition findings in real time as tear-off reveals the substrate. Any necessary repairs are discussed with the homeowner before proceeding, including cost implications and timeline adjustments. Our original estimate includes a deck repair contingency based on pre-project attic inspection findings, so minor discoveries are already budgeted. Significant unexpected conditions are addressed with transparent change order communication before repair work begins.'
+      question: 'Which roofing material suits a re-roof on a North Caldwell home?',
+      answer:
+        'Re-roofing material matches the building across the classes that fit North Caldwell\'s stock: asphalt on the custom colonials and contemporaries, and natural slate, metal, and copper on the Tudors and large estate homes. Architectural asphalt lasts 30 years and 3-tab 20 years, while slate lasts 60 to 150 years, metal 40 to 80 years, and copper over 100 years, per the InterNACHI life-expectancy chart and the Copper Development Association. The estate accessory and municipal low-slope sections carry EPDM, TPO, or modified-bitumen membrane.',
     },
     {
-      question: 'How much does re roofing cost in North Caldwell, NJ?',
-      answer: 'Most re roofing projects in North Caldwell range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How much does re-roofing cost in North Caldwell, NJ?',
+      answer:
+        'A re-roof in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize cost data. A natural slate or copper roof on a North Caldwell Tudor or large estate home costs more, with slate installed at roughly $10 to $30 per square foot, per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
+    },
+    {
+      question: 'How long does a slate roof last on a North Caldwell estate home?',
+      answer:
+        'A natural slate roof lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association. Slate rarely fails as a tile, instead failing at corroded fasteners and degraded flashing, and NPS Preservation Brief 29 advises replacing a slate roof rather than executing individual repairs once 20% or more of the slates are broken, cracked, missing, or sliding, so a re-roof below that threshold replaces fasteners and flashing to hold the original roof.',
     },
   ],
-  metaDescription: 'Re-roofing services in North Caldwell NJ -- material upgrades and full roof replacement for estate homes with premium specifications.',
+  metaDescription:
+    'Re-roofing in North Caldwell NJ — asphalt, slate, copper, and low-slope tear-offs on custom colonials, Tudors, and estate homes. NJ-registered, free estimate.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with North Caldwell\'s custom colonials, contemporaries, and Tudors on large wooded lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in North Caldwell — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re-roofing in North Caldwell.',
+    urgencyNote: 'Replacing a roof at the end of its service life prevents leaks that damage sheathing, interiors, and structure.',
   },
 };

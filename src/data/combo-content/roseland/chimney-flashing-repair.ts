@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const roselandChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'roseland',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing chimney flashing repair across Roseland, New Jersey, and Essex County, rebuilding the two-part base-and-counter flashing system on the borough’s postwar single-family chimneys and office-park penetrations** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
-    'Newark Quality Roofing delivers expert chimney flashing repair in Roseland — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair ranks among the most frequent roofing service calls in Roseland, where the colonials, split-levels, and ranch homes built during the 1950s through 1970s carry chimneys with original flashing systems that have exceeded their design life. The intersection between masonry chimney and roof surface is inherently vulnerable -- two dissimilar materials with different thermal expansion rates meeting at a point that concentrates water flow from the surrounding roof field. Our [chimney flashing repair](/chimney-flashing-repair) service addresses these failures with techniques that account for the specific chimney types and roof configurations found throughout the borough.',
-    'The typical Roseland chimney flashing failure occurs at the counter-flashing embedded in mortar joints. Original counter-flashing -- usually galvanized steel set in mortar during chimney construction -- corrodes over decades while the surrounding mortar deteriorates from freeze-thaw cycling. Water penetrates behind the counter-flashing, runs down the step flashing concealed beneath the shingle courses, and emerges as ceiling stains in the room adjacent to the chimney. Homeowners in [North Caldwell](/chimney-flashing-repair-north-caldwell-nj) and [Essex Fells](/chimney-flashing-repair-essex-fells-nj) experience identical failure patterns on their mid-century homes.',
-    'Back-wall cricket flashings -- the diverter behind the chimney that redirects water around the chimney mass -- are frequently missing or undersized on Roseland homes. Original construction on many mid-century homes omitted the cricket entirely, allowing snow and debris to accumulate behind the chimney where trapped moisture accelerates deterioration of both the flashing and the roof deck. Adding or rebuilding the cricket during chimney flashing repair permanently solves this accumulation problem.'
+    '**Newark Quality Roofing repairs chimney flashing** on Roseland’s tree-shaded postwar colonials, ranches, split-levels, and Capes and on the chimney and chase transitions of the Eisenhower Parkway and Becker Farm Road office-park stock. Chimney flashing repair rebuilds the metal that seals the chimney, the roof’s largest penetration.',
+    '**Chimney flashing repair** starts at the transition metal, because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing details and only 5 to 10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing repair traces the entry point across the apron, the two sidewall step runs, and the upslope head before resealing.',
+    '**Counter flashing** failure carries the most common Roseland chimney leak, because the original galvanized cap corrodes while the mortar joint deteriorates under freeze-thaw cycling, and water then runs behind the cap and down the step flashing concealed under the shingle courses. A Newark Quality Roofing repair sets a new counter flashing into a clean reglet cut in the masonry, per the NRCA two-part standard.',
+    '**Mature-canopy debris** stresses chimney flashing on the single-family streets near Becker Park and off Harrison Avenue, where the heavy oak and maple canopy drops leaf and branch load that dams behind the chimney and holds meltwater against the masonry. A Newark Quality Roofing repair clears the upslope transition and builds or rebuilds the cricket that diverts that load around the chimney.',
   ],
   challenges: [
-    'Mortar condition at the counter-flashing reglet determines the repair approach. Sound mortar allows new counter-flashing to be set into recut reglets with durable sealant. Deteriorated mortar crumbles during reglet cutting, requiring mortar joint repointing before flashing installation can proceed. Some Roseland chimneys require significant masonry repair before the flashing work can begin, and we assess mortar condition during initial inspection to provide accurate repair scope and cost.',
-    'Multi-flue chimneys on older Roseland homes present complex geometries where the chimney profile creates multiple intersections with the roof plane. Each face of the chimney -- upslope, downslope, and both sides -- requires its own flashing treatment, and the transitions between these treatments at the chimney corners must maintain watertight continuity. Prefabricated flashing kits do not accommodate the irregular dimensions of masonry chimneys, requiring field-fabricated components for every repair.',
-    'Concealed deterioration at the chimney base -- beneath the visible flashing -- often exceeds what surface inspection reveals. Decades of slow moisture infiltration through failing flashing can rot the roof deck sheathing, deteriorate rafter tails, and damage the framing that supports the chimney saddle. Our chimney flashing repair protocol includes selective removal of flashing and shingle material to expose and evaluate the substrate condition before committing to the repair specification.'
+    '**Mortar condition** at the counter-flashing reglet sets the Roseland repair approach, because sound mortar accepts a clean reglet cut while deteriorated mortar crumbles and calls for repointing before the cap can lock in. A Newark Quality Roofing crew assesses the mortar joint during the inspection so the estimate reflects the actual masonry scope, separating a spot reseal from a two-part rebuild.',
+    '**Missing crickets** recur on Roseland’s postwar chimneys, because a chimney wider than 30 inches measured parallel to the ridge requires a saddle on the upslope side, per IRC Section R1003.20, and the original construction on many mid-century homes omitted it. A Newark Quality Roofing repair builds the cricket that diverts water, ice, and snow around the wide face instead of damming debris against the masonry.',
+    '**Surface caulk fixes** fail on Roseland chimneys, because caulk or roofing cement alone over no underlying metal cracks within a few years from masonry-versus-roof differential movement and freeze-thaw, per IIBEC. A Newark Quality Roofing repair removes the failed sealant and rebuilds the NRCA two-part flashing system rather than smearing fresh caulk over the symptom.',
+    '**Concealed deck rot** at the chimney base often exceeds what the surface shows, because slow infiltration through failed flashing soaks the sheathing the original plank or panel deck relies on. A Newark Quality Roofing repair lifts the surrounding shingles and the corroded flashing to inspect the substrate before committing to the flashing specification.',
   ],
   process: [
-    'Chimney flashing repair begins with complete assessment of the chimney-roof intersection. We inspect all four faces of the chimney from the roof surface, evaluate mortar condition at counter-flashing reglets, check cricket condition and sizing, and examine the interior attic space around the chimney for moisture evidence. This full-perimeter assessment identifies every contributing failure point rather than addressing only the most visible symptom.',
-    'Repair execution removes all existing flashing material from the chimney intersection -- step flashing along both sides, counter-flashing from all mortar joints, apron flashing at the front face, and cricket flashing at the rear. Exposed substrate receives inspection and repair as needed. Ice-and-water shield membrane covers the entire chimney perimeter as secondary protection. New step flashing -- aluminum or copper depending on specification -- weaves into the shingle courses along both sides. Counter-flashing sets into freshly cut or repointed mortar reglets. A properly sized cricket behind the chimney diverts water around the mass.',
-    'Completion testing validates the repair before final shingle courses close out the installation. We direct controlled water flow across each repaired face to verify positive drainage without water entry. This functional test catches any remaining gaps before they can cause interior damage. Photographic documentation of the completed repair supports both warranty and insurance records.'
+    '**Newark Quality Roofing inspects all four chimney transitions — the downslope apron, the two sidewall step runs, and the upslope head or cricket — and traces the entry point before resealing.** A crew starts at the chimney because it is the roof’s largest penetration, and a continuous one-piece strip at the sidewall flags a defective original installation, per InterNACHI and shingle-manufacturer guidance.',
+    '**Newark Quality Roofing rebuilds the NRCA two-part flashing system: step and base flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint.** A crew applies a self-adhering ice-and-water membrane at the chimney base that self-seals around fasteners, per ASTM D1970, and builds a cricket where the chimney exceeds 30 inches parallel to the ridge, per IRC Section R1003.20.',
+    '**Newark Quality Roofing verifies watertight execution at every transition and documents the completed repair with timestamped photographs.** A lead runs a magnet sweep for nails at cleanup and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, and the photographs support a homeowner record or an insurance claim.',
   ],
   faqs: [
     {
-      question: 'How do I know if my chimney flashing needs repair?',
-      answer: 'Water stains on the ceiling or walls adjacent to the chimney -- especially after rain driven by a specific wind direction -- strongly indicate flashing failure. Visible rust streaks on the roof surface below the chimney, gaps between counter-flashing and the chimney masonry, and missing or crumbled mortar at the flashing line are exterior indicators. Any chimney on a Roseland home built before 1980 with original flashing should be professionally inspected regardless of visible symptoms.'
+      question: 'Do I need a permit for chimney flashing repair in Roseland?',
+      answer:
+        'A repair of the roof covering and flashing on a detached one- or two-family home in Roseland counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice. On a commercial, multi-family, or attached building — including the Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office-park stock — repairing more than 25% of the total roof area in a 12-month period requires a permit, filed with the Borough of Roseland construction-code office at 300 Eagle Rock Avenue, per the NJ Uniform Construction Code. A localized chimney flashing repair stays within the ordinary-maintenance threshold.',
     },
     {
-      question: 'Can chimney flashing be repaired without replacing the roof?',
-      answer: 'Yes, chimney flashing repair is routinely performed independently of roof replacement. We remove shingles in the immediate chimney area, replace all flashing components, install fresh ice-and-water shield, and reinstall shingles with proper integration. The surrounding roof field remains undisturbed. This targeted repair costs significantly less than full re-roofing while permanently resolving the leak source.'
+      question: 'Why does chimney flashing leak more than the rest of the roof?',
+      answer:
+        'The chimney is the roof’s largest penetration, and the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA. A chimney needs the apron, the two sidewall step runs, and the upslope head all sealed, so a single failed counter flashing or cracked caulk joint admits water into the chase. Freeze-thaw cycling on the shared Newark/EWR baseline fatigues the metal and the mortar joint ahead of the open shingle field.',
     },
     {
-      question: 'Should I repair the chimney masonry at the same time as the flashing?',
-      answer: 'If mortar joints are deteriorated at the roofline, coordinating masonry repointing with flashing repair is both practical and cost-effective. The flashing work requires access to the mortar joints for counter-flashing installation, and repointing at the same time provides sound mortar for the new flashing to seal against. We identify masonry repair needs during the flashing assessment and can coordinate both trades during a single project mobilization.'
+      question: 'Is caulk a permanent fix for chimney flashing?',
+      answer:
+        'Caulk or roofing cement alone over no underlying metal is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A permanent repair rebuilds the NRCA two-part system: step and base flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint that mechanically locks the cap into the masonry.',
     },
     {
-      question: 'What material do you use for chimney counter-flashing?',
-      answer: 'We use lead-coated copper or aluminum for counter-flashing depending on the project specification. Lead-coated copper conforms precisely to irregular masonry surfaces and lasts 70 to 100 years. Aluminum provides excellent corrosion resistance at lower cost with 30 to 40 year service life. Both materials are set into freshly cut mortar reglets with polyurethane sealant that maintains flexibility through thermal cycling.'
+      question: 'Does a Roseland historic designation require approval for chimney flashing work?',
+      answer:
+        'Roseland maintains a Landmarks and Historic District Commission and a Certificate of Appropriateness process for major alterations to designated properties under Chapter 30, Article IX. The binding Certificate-of-Appropriateness gate applies only to locally designated properties; no specific Roseland landmark, site, or district is confirmed to have been designated, and the ordinance requires owner consent before a residence can be designated, so no Roseland homeowner is subject to a Certificate of Appropriateness absent a designation. The Williams-Harrison House at 126 Eagle Rock Avenue is a National and New Jersey Register property, and per the National Park Service, Register listing alone places no restriction on a private property owner.',
+    },
+    {
+      question: 'Do you need a cricket behind a chimney?',
+      answer:
+        'A cricket, or saddle, is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20. The cricket diverts water, ice, and snow around the chimney instead of letting the upslope face dam debris and meltwater against the masonry. The mature oak and maple canopy over Roseland’s single-family streets drops the leaf and branch load that makes the cricket the durable fix on a wide chimney.',
     },
     {
       question: 'How much does chimney flashing repair cost in Roseland, NJ?',
-      answer: 'Most chimney flashing repair projects in Roseland range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Chimney flashing repair costs $300 to $1,800, with most repairs $400 to $1,600 and a spot reseal $150 to $300, per HomeGuide and Angi cost data. The two-part rebuild, the chimney width, the mortar condition, and whether a cricket is required set the cost. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Chimney flashing repair in Roseland NJ -- step flashing, counter-flashing, and cricket installation for colonial and split-level homes.',
+  metaDescription:
+    'Chimney flashing repair in Roseland NJ — NRCA two-part step and counter flashing, crickets, and reglet cuts on postwar and office-park chimneys. Free estimate.',
   pricing: {
-    range: '$400–$1,500',
-    note: 'chimney flashing and counter-flashing',
+    range: '$300–$1,800',
+    note: 'Chimney flashing repair costs $300–$1,800, with most repairs $400–$1,600 and a spot reseal $150–$300, per HomeGuide and Angi cost data; final cost depends on the chimney width, mortar condition, and whether a cricket is required. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Roseland’s postwar single-family homes and Eisenhower Parkway office-park roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free chimney flashing repair estimate in Roseland — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for chimney flashing repair in Roseland.',
+    urgencyNote: 'Addressing chimney flashing failure early limits interior and structural water damage.',
   },
 };

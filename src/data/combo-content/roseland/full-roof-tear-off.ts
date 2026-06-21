@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const roselandFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'roseland',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing full roof tear off across Roseland, New Jersey, and Essex County, stripping every layer to the deck on postwar single-family homes and Eisenhower Parkway office-park roofs** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.',
   overview: [
-    'Newark Quality Roofing delivers expert full roof tear off in Roseland — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off in Roseland strips every layer of existing roofing material down to the structural deck, providing the clean foundation that a new roof system requires for maximum performance and longevity. Many of the borough\'s mid-century homes carry two or even three layers of shingles accumulated over decades of overlay installations -- each layer adding weight, trapping moisture, and concealing deck deterioration that worsens invisibly beneath. Our [full roof tear-off](/full-roof-tear-off) service removes this accumulated burden and exposes the deck for the thorough inspection that overlay installations bypass.',
-    'The rationale for full tear-off over overlay varies by property condition, but for most Roseland homes built during the 1950s and 1960s, tear-off is the recommended approach. Homes with existing double-layer shingles cannot accept another overlay under NJ building code. Homes with any sign of deck moisture, ventilation problems, or structural questions must be stripped for inspection. Even single-layer homes benefit from tear-off because it allows ice-and-water shield installation directly on the deck at eaves, valleys, and penetrations -- protection that overlay installations cannot provide.',
-    'Debris management during tear-off on Roseland\'s residential lots requires the site discipline that suburban settings demand. Adjacent homes, driveways, landscaping, and vehicles must be protected from the falling material that tear-off generates. Our crews deploy tarps, plywood protection, and magnetic nail sweepers as standard practice, maintaining the property presentation that Roseland homeowners expect. Post-project cleanup includes adjacent property inspection for any stray material. Homeowners in [Verona](/full-roof-tear-off-verona-nj) and [Cedar Grove](/full-roof-tear-off-cedar-grove-nj) value the same site management standards.'
+    '**Newark Quality Roofing performs full roof tear off across Roseland in three phases: complete removal of every roof layer to the bare deck, deck inspection and repair, then a new underlayment-and-cover installation.** The phases serve the borough\'s postwar colonials, ranches, split-levels, and its Eisenhower Parkway office-park buildings. A full roof tear off strips the asphalt, underlayment, and any overlay layers, exposing the sheathing for the inspection a roof-over cannot provide.',
+    '**Complete removal** clears the accumulated layers many older Roseland homes carry, because a full tear-off lets a roofer inspect the deck, repair any damage, and improve deck attachment, while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when a deck is water-soaked or deteriorated, when the covering is wood shake, slate, clay, cement, or asbestos-cement tile, or when two or more layers already exist, per N.J.A.C. 5:23-6.4.',
+    '**Deck inspection and repair** exposes the sheathing across Roseland\'s built-out postwar single-family stock, where decades of overlay and the mature oak and maple canopy that loads valleys and gutters leave plank decking and aged flashing to repair at tear-off. Roofing nails grip at least three-quarters of an inch into the deck, so soft, delaminated, or swollen sheathing that cannot hold a nail is replaced, per ARMA nail-application guidance and InterNACHI.',
+    '**New underlayment and cover** finish the system on the repaired deck, where Newark Quality Roofing installs an ice barrier from the eave to at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision, applies synthetic underlayment, and installs the finish covering to manufacturer specification. The Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office-park corridor carries the flat, low-slope EPDM, TPO, and modified-bitumen membranes that follow the commercial permit path.',
   ],
   challenges: [
-    'Multi-layer tear-off generates significantly more debris weight and volume than single-layer removal. A typical Roseland colonial with two shingle layers produces 8,000 to 12,000 pounds of tear-off material that must be loaded into dumpsters, hauled from the site, and properly disposed of. Our debris management plan positions dumpsters for efficient loading, schedules haul-away to prevent site congestion, and accounts for the disposal costs that multi-layer projects incur.',
-    'Weather exposure during tear-off creates the most acute risk of the re-roofing process. Once existing roofing is removed, the exposed deck is vulnerable to any precipitation until new underlayment and shingles are installed. Our tear-off sequencing limits exposed area to what can be waterproofed within the same work day, preventing the overnight exposure that invites water damage to attic contents and interior finishes. This phased approach extends the project by one day compared to full-roof simultaneous tear-off but eliminates the weather risk.',
-    'Hidden conditions discovered during tear-off -- rotted deck sheathing, deteriorated rafter tails, inadequate ventilation baffles, and animal damage -- require immediate decisions and additional work that was not visible before tear-off began. Our pre-project estimates include contingency allowances for typical Roseland deck repair based on the home\'s age and condition indicators, setting realistic expectations before the project begins.'
+    '**Multi-layer removal** on Roseland\'s postwar stock generates more debris and heavier disposal than a single-layer strip, because older homes accumulate a second covering over decades and N.J.A.C. 5:23-6.4 bars a recover where two layers exist. A Newark Quality Roofing crew stages debris containment and runs a magnet sweep for nails before leaving the property.',
+    '**Hidden deck conditions** surface only once the covering comes off, where plank or deteriorated sheathing, branch-impact damage under the mature canopy, and aged chimney, wall, and valley flashing on a Roseland colonial or split-level appear at tear-off. A Newark Quality Roofing estimate sets the scope and a contingency for deck repair tied to the home\'s age and condition before the project begins.',
+    '**Weather exposure** during tear-off opens the deck to any precipitation until new underlayment is down, the most acute risk of the re-roofing sequence. A Newark Quality Roofing crew limits the stripped area to what is waterproofed within the same workday and treats any unfinished section before leaving, preventing the overnight exposure that drives water into the attic and interior finishes.',
   ],
   process: [
-    'Tear-off day begins with property protection deployment -- tarps over landscaping, plywood on driveways, and magnetic sweepers positioned for end-of-day nail collection. The dumpster is positioned for efficient loading without blocking street access or damaging the driveway surface. Crew staging areas are established away from landscaping and exterior features.',
-    'Removal proceeds from the ridge downward in sections sized for same-day waterproofing. Shingles, underlayment, and any accumulated debris layers are stripped to expose the deck surface. As each section is cleared, the crew chief inspects the exposed deck for deterioration, marks panels requiring replacement, and directs deck repair before underlayment installation proceeds. Ice-and-water shield membrane covers eaves, valleys, and penetrations. Synthetic underlayment covers the remaining field.',
-    'End-of-day protocol ensures that every exposed section is waterproofed before the crew leaves. Ridge areas not yet re-shingled receive temporary waterproofing treatment. Ground-level cleanup includes magnetic sweeping of all accessible areas, tarp removal and debris inspection, and dumpster contents coverage. This daily discipline prevents the nail punctures, debris scatter, and weather damage that less rigorous tear-off practices risk.'
+    '**Newark Quality Roofing inspects the roof and attic underside, counts the existing layers, and identifies which N.J.A.C. 5:23-6.4 removal condition applies before the strip begins.** A crew checks for the three conditions — a water-soaked or deteriorated deck, a wood-shake or tile covering, or two or more existing layers — per the NJ Uniform Construction Code, and sets the written scope, disposal plan, and timeline for a Roseland home or office-park building.',
+    '**Newark Quality Roofing strips all covering, underlayment, and overlay layers to the bare sheathing, then inspects every deck section and replaces deteriorated decking.** A crew exposes the deck a recover cannot inspect and looks for the failing-deck signs InterNACHI names — daylight, soft or spongy wood, sagging between rafters, delaminated plywood, swollen OSB — replacing sheathing that cannot grip a roofing nail, per ARMA nail-application guidance.',
+    '**Newark Quality Roofing installs the ice barrier, applies synthetic underlayment across the repaired deck, and installs the cover to manufacturer specification, the sequence that keeps the manufacturer warranty intact.** The IRC R905.1.2 provision requires an ice barrier from the eave to at least 24 inches inside the exterior wall line in ice-prone Essex County, and a crew runs a magnet sweep for nails at cleanup before issuing a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How many shingle layers can my Roseland home have before tear-off is required?',
-      answer: 'New Jersey building code allows a maximum of two shingle layers on a residential roof. If your home already has two layers, tear-off is mandatory before a new roof can be installed. Even with a single existing layer, we recommend tear-off for most Roseland homes because it allows deck inspection, ice-and-water shield installation, and proper ventilation improvement that overlay installations cannot provide.'
+      question: 'When does New Jersey code require a full roof tear off in Roseland?',
+      answer:
+        'N.J.A.C. 5:23-6.4 requires complete removal of the existing covering in three conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying two or more layers. The NJ Rehabilitation Subcode adds wood shake to the IRC removal list, per the NJ Uniform Construction Code, so a tear-off is the code-mandated path on those Roseland roofs.',
     },
     {
-      question: 'How long does tear-off take on a typical Roseland home?',
-      answer: 'Tear-off on a standard Roseland colonial or split-level typically occupies the first day of the re-roofing project. Single-layer tear-off is faster than multi-layer removal. The crew strips existing material, inspects and repairs the deck, and installs underlayment in the same day. Shingle installation begins on the second day. Total project duration is typically two to four days depending on roof size, deck repair scope, and weather conditions.'
+      question: 'Do you need a permit for a full roof tear off in Roseland, NJ?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Roseland counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice. A commercial, multi-family, or attached building requires a permit from the Borough of Roseland construction-code office at 300 Eagle Rock Avenue once roof work exceeds 25% of the roof area in 12 months, per the NJ Uniform Construction Code, so the Eisenhower Parkway and Becker Farm Road office-park buildings follow that permit path; a structural change to rafters or trusses also triggers a permit.',
     },
     {
-      question: 'What happens to the old roofing material?',
-      answer: 'All tear-off material is loaded into roll-off dumpsters positioned on the property and hauled to licensed disposal or recycling facilities. Asphalt shingle recycling programs accept tear-off material for processing into road aggregate. We use recycling facilities when available in the disposal area to reduce landfill impact. Disposal costs are included in the project estimate based on the anticipated debris volume.'
+      question: 'Why choose a full tear-off over a roof-over on a Roseland home?',
+      answer:
+        'A full tear-off strips the roof to the deck so the sheathing is inspected and repaired, while a roof-over installs a new layer over the existing covering and hides any deck rot underneath. A full tear-off lets a roofer inspect the deck, repair damage, and improve deck attachment, per the Asphalt Roofing Manufacturers Association and InterNACHI, where a recover leaves the underlying layers difficult to inspect — a real factor on the older multi-layer roofs across Roseland\'s postwar stock.',
     },
     {
-      question: 'Will tear-off damage my landscaping or driveway?',
-      answer: 'Our property protection protocol prevents damage to landscaping, driveways, and adjacent property. Tarps cover planting beds and shrubs along the roofline. Plywood protects driveways at material loading points. Magnetic nail sweepers clear all accessible areas at the end of each day. We inspect adjacent properties for stray material as part of daily cleanup. If any damage occurs despite these precautions, we repair or replace the affected items.'
+      question: 'What happens if the deck is rotted under my old Roseland roof?',
+      answer:
+        'A full tear-off exposes the deck, and Newark Quality Roofing replaces sheathing that has rotted soft, delaminated, or swollen, because roofing nails grip at least three-quarters of an inch into the deck. Sheathing that cannot hold a nail is replaced, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI. Plank and deteriorated decking under the mature canopy is common on Roseland\'s built-out single-family stock.',
     },
     {
-      question: 'How much does full roof tear off cost in Roseland, NJ?',
-      answer: 'Most full roof tear off projects in Roseland range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does a Roseland home need historic approval for a roof tear-off?',
+      answer:
+        'Roseland maintains a Landmarks and Historic District Commission and a Certificate of Appropriateness process for major alterations to designated properties under Chapter 30, Article IX. The binding Certificate-of-Appropriateness gate applies only to locally designated properties; no specific Roseland landmark, site, or district is confirmed to have been designated, and the ordinance requires owner consent before a residence can be designated, so no Roseland homeowner is subject to a Certificate of Appropriateness absent a designation. The Williams-Harrison House at 126 Eagle Rock Avenue is a National and New Jersey Register museum, and per the National Park Service, Register listing alone places no restriction on a private property owner. A Certificate of Appropriateness, where it ever applies, is a separate approval from the construction permit.',
+    },
+    {
+      question: 'How much does a full roof tear off cost in Roseland, NJ?',
+      answer:
+        'Old-roof removal runs $1–$5 per square foot by material weight, and a New Jersey roof replacement costs $10,000–$25,000 for a typical home with the tear-off included. Removal runs $1–$3 per square foot for shingles and $2–$5 for heavier slate or tile, per HomeGuide national data, and the NJ replacement range traces to HomeAdvisor and Modernize. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Full roof tear-off in Roseland NJ -- complete shingle removal to the deck for proper inspection, repair, and new roof installation.',
+  metaDescription:
+    'Full roof tear off in Roseland NJ — strip to the deck, inspect and repair sheathing, install a new system on postwar homes and office-park roofs. Free estimate.',
   pricing: {
-    range: '$9,000–$26,000',
-    note: 'complete tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize, with tear-off included; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Roseland\'s postwar single-family homes and Eisenhower Parkway office-park roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free full roof tear off estimate in Roseland — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for full roof tear off in Roseland.',
+    urgencyNote: 'Addressing deck damage early limits interior and structural water damage.',
   },
 };

@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const fairfieldTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'fairfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing tile roof replacement across Fairfield, New Jersey, and Essex County, stripping clay or concrete tile and worn underlayment to the deck on the township\'s larger and older homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [
-    'Newark Quality Roofing delivers expert tile roof replacement in Fairfield — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Fairfield serves the select homes and commercial properties that carry clay or concrete tile roofing systems needing full replacement after decades of service. While tile is uncommon on Fairfield\'s standard suburban homes, custom-built residences and certain commercial properties with Mediterranean or Spanish architectural themes use tile roofing that eventually requires replacement when individual tile failures become too widespread for economical repair and the underlayment beneath has degraded beyond its useful life.',
-    'Tile replacement in Fairfield offers homeowners the opportunity to upgrade from aging first-generation concrete tiles to modern products with improved freeze-thaw resistance, lighter weight options, and more consistent manufacturing quality. Current tile products rated for ASTM C1167 Grade 1 severe weathering exposure perform significantly better in Fairfield\'s freeze-thaw climate than the tiles installed twenty to thirty years ago. Our [tile roof replacement](/tile-roof-replacement) specifications for Fairfield always specify Grade 1 tiles to ensure appropriate climate performance.',
-    'The replacement process involves more than swapping tiles. The entire underlayment system beneath the tile field has typically degraded over the decades, and the batten system that supports individual tiles may show rot or fastener corrosion. Full tile replacement includes removal of the complete existing system, deck inspection and repair, installation of modern waterproof underlayment and ventilated batten system, and precision installation of new tiles. This comprehensive approach addresses every layer of the roof system, not just the visible surface.'
+    '**Newark Quality Roofing replaces clay and concrete tile roofs** on the larger and older period homes scattered through Fairfield\'s owner-occupied suburban township. Tile roof replacement strips the tile and the worn underlayment to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system that resets the roof.',
+    '**Clay and concrete tile** outlast the layer beneath them, because clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment fails well before the tile and sets the real service life, per the Tile Roofing Industry Alliance and This Old House, so a Newark Quality Roofing replacement renews the underlayment and flashing while salvaging or matching the tile profile.',
+    '**Worn underlayment** is the trigger a replacement answers on a Fairfield tile roof, because interior leaks under intact tile, slipped or sliding tile across the field, and corroded fasteners all trace to the failed layer beneath rather than the tile itself, per the Tile Roofing Industry Alliance. A Newark Quality Roofing replacement lifts the tile, replaces the underlayment, rebuilds the valley and chimney flashing, and re-lays the salvaged or matching tile.',
+    '**The deck** carries the heavy tile dead load, so a Newark Quality Roofing assessment verifies the framing before quoting the work, and a full tear-off exposes the sheathing for inspection and repair of plywood or OSB rotted under years of underlayment leakage. The Passaic-floodplain setting and the mature oak and maple canopy on Fairfield\'s residential streets load the drainage path, so the replacement corrects the valley and flashing detail that admits water.',
   ],
   challenges: [
-    'Structural load verification is required before tile replacement because existing framing may have been marginally adequate for the original tile load and weakened by decades of service. Replacing tile with tile maintains the same load, but if the framing has deteriorated, it may no longer safely support that load. Converting from tile to lighter materials like asphalt shingles eliminates the structural concern but sacrifices the aesthetic that tile provides. Our structural assessment determines the current framing capacity and identifies any reinforcement needed.',
-    'Tile profile and color matching for partial replacements or phased projects requires sourcing from the same manufacturer or finding compatible aftermarket options. Discontinued tile profiles present significant matching challenges. For full replacements, matching is not a concern, but homeowners should select tiles that complement their home\'s architectural style and Fairfield\'s neighborhood character.',
-    'Installation complexity for tile roofing exceeds that of shingle or metal systems. Each tile must be individually positioned, aligned, and fastened on the batten system. Valley, hip, and ridge details require precision cutting and custom flashing integration. The installation pace is slower than shingle work, extending project duration and increasing weather-exposure risk. Our scheduling accounts for this extended timeline with weather contingency planning.'
+    '**Structural load** governs a Fairfield tile replacement, because tile is heavy and the deck and framing carry the dead load while the underlayment, not the tile, sets the service life, per the Tile Roofing Industry Alliance. A Newark Quality Roofing assessment confirms the framing capacity before new tile is set and flags any reinforcement a structural change requires.',
+    '**Tile-to-deck tear-off** is mandatory on a Fairfield tile roof, because a clay or concrete tile covering cannot be roofed-over and N.J.A.C. 5:23-6.4 requires complete removal of the existing covering to the bare sheathing before new roofing, per the NJ Rehabilitation Subcode. A Newark Quality Roofing crew strips the tile and the failed underlayment to the deck and salvages sound tile for reuse.',
+    '**Worn underlayment under intact tile** masks the failure on Fairfield\'s older homes, because the underlayment fails well before the tile and admits water at valleys, headwalls, and chimneys, where roughly 90 to 95% of roof leaks originate at flashing, an industry estimate attributed to the NRCA. A Newark Quality Roofing replacement renews the underlayment and rebuilds the flashing that the visible drip point traces back to.',
+    '**Profile matching** challenges a partial or phased Fairfield tile replacement, because discontinued tile profiles take sourcing from the original manufacturer or a compatible aftermarket course, and tile cannot be patched. A Newark Quality Roofing replacement salvages sound tile and matches the profile of replacement tile to the existing roof so the field stays uniform.',
   ],
   process: [
-    'Tile replacement begins with structural assessment and material selection. We verify framing capacity for the selected tile product weight, present tile profiles and colors appropriate to the home\'s architecture, and develop a project timeline that accounts for tile installation\'s slower pace. Material ordering precedes demolition to ensure tiles are on-site before the existing roof is removed.',
-    'Existing tiles, battens, and underlayment are removed and the deck is thoroughly inspected. Damaged decking is replaced. A modern self-adhering underlayment system is installed for primary waterproofing, with counter-battens and horizontal battens creating the ventilated support grid for the new tile field. Eave closure, valley metal, and hip-and-ridge preparation are completed before tile setting begins.',
-    'Tiles are installed from eave to ridge, with each tile mechanically fastened to the batten system. Perimeter tiles and tiles in high-wind zones receive additional fastening. Cut tiles at valleys and hips are sealed with compatible flashing and sealant. Ridge tiles and hip caps complete the installation. The entire roof is walked for alignment verification and fastener confirmation before the building department final inspection.'
+    '**Newark Quality Roofing verifies the deck and framing carry the tile dead load, dates the underlayment that sets the service life, and rates the tile and flashing before quoting the Fairfield replacement.** Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, and the underlayment fails well before the tile, per the Tile Roofing Industry Alliance and This Old House, so the assessment plans a tear-off to the deck because a tile roof cannot be roofed-over, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing strips the tile and the failed underlayment to the bare deck, replaces deteriorated sheathing, and salvages sound tile for reuse.** A full tear-off exposes the deck for inspection and replacement of plywood or OSB rotted under the old underlayment, the complete removal the NJ Rehabilitation Subcode requires because a clay or concrete tile covering cannot be roofed-over, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing installs an ice barrier and a tile-rated underlayment, rebuilds the valley and chimney flashing, and re-lays salvaged and matching tile to manufacturer specification.** The IRC R905.1.2 ice-barrier provision requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code, and the crew runs a magnet sweep for nails before leaving the property.',
   ],
   faqs: [
     {
-      question: 'How long does tile roof replacement take in Fairfield?',
-      answer: 'Tile replacement takes longer than shingle or metal projects due to the individual tile-setting process. A typical Fairfield residential tile replacement requires one to two weeks depending on roof size and complexity. We schedule tile projects during extended favorable weather windows and maintain protective covering at daily stopping points to prevent weather exposure during the longer installation period.'
+      question: 'Do I need a permit to replace a tile roof in Fairfield?',
+      answer:
+        'A complete re-roof of the tile covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial or multi-family building, or a structural change to rafters or trusses to carry the tile load, does require a permit, filed with the Building Department, Township of Fairfield, at 230 Fairfield Road. Because Fairfield carries a dense Route 46 and I-80 commercial-industrial corridor, much of that stock follows the permit-required path.',
     },
     {
-      question: 'Can I switch from tile to asphalt shingles during replacement in Fairfield?',
-      answer: 'Yes. Converting from tile to asphalt shingles significantly reduces the roof load, eliminates future tile maintenance complexity, and costs less than tile-to-tile replacement. The trade-off is aesthetic -- shingles do not replicate tile\'s distinctive appearance. If the structural framing is marginal for tile loads or the homeowner prioritizes cost savings, conversion to shingles is a practical option.'
+      question: 'Does a tile roof replacement in Fairfield need historic approval?',
+      answer:
+        'No. A private reroof in Fairfield requires no historic approval. Fairfield\'s Historic Preservation Commission is advisory and educational, focused on the township-owned Van Ness House, and issues no Certificate of Appropriateness, and Fairfield has no locally designated historic district, per the Township of Fairfield municipal code. The Van Ness House at 236 Little Falls Road and the Fairfield Dutch Reformed Church on Fairfield Road carry National Register listings only as township-owned and church-owned heritage sites, and National Register listing alone places no federal restriction on a private property owner, per the National Park Service.',
     },
     {
-      question: 'What tile type performs best in Fairfield\'s freeze-thaw climate?',
-      answer: 'Concrete tiles rated ASTM C1167 Grade 1 for severe weathering exposure perform best in Fairfield\'s climate. These tiles have low water absorption rates that resist freeze-thaw spalling. Clay tiles are naturally freeze-resistant but cost more. Standard-grade concrete tiles rated for moderate climates should not be used in Fairfield because they will deteriorate under repeated freeze-thaw cycling.'
+      question: 'Can a tile roof in Fairfield be roofed over instead of torn off?',
+      answer:
+        'No. A tile roof in Fairfield cannot be roofed-over and takes a full tear-off to the deck, because the NJ Rehabilitation Subcode requires complete removal of an existing clay, cement, or slate tile covering before new roofing, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing replacement strips the tile and the failed underlayment to the bare sheathing so the deck can be inspected and rotted plywood or OSB replaced before the new system goes down.',
+    },
+    {
+      question: 'Why does my Fairfield tile roof leak when the tile is still intact?',
+      answer:
+        'A tile roof leaks under intact tile when the underlayment beneath the tile fails, because the underlayment is the real service-life limiter and fails well before the tile, per the Tile Roofing Industry Alliance and This Old House. Roughly 90 to 95% of roof leaks originate at flashing, an industry estimate attributed to the NRCA, so a Newark Quality Roofing replacement lifts the tile, renews the underlayment, rebuilds the valley and chimney flashing, and re-lays the salvaged tile.',
     },
     {
       question: 'How long does a new tile roof last in Fairfield?',
-      answer: 'A properly installed tile roof with Grade 1 tiles lasts fifty to seventy-five years in Fairfield. The tiles themselves can exceed this range, but the underlayment system beneath the tiles typically needs attention around the forty-year mark. With periodic underlayment maintenance accessed by lifting and replacing tiles in sections, a tile roof system can approach century-long service.'
+      answer:
+        'Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment fails well before the tile and sets the real service life, per the Tile Roofing Industry Alliance and This Old House, so a Newark Quality Roofing replacement renews the underlayment and flashing while the tile carries decades more service.',
     },
     {
       question: 'How much does tile roof replacement cost in Fairfield, NJ?',
-      answer: 'Most tile roof replacement projects in Fairfield range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Tile roof replacement in Fairfield runs a typical NJ roof-replacement range of $10,000 to $25,000, per HomeAdvisor and Modernize. Premium tile installs around $10 to $20-plus per square foot, per New Jersey roofing guides, with clay carrying a higher material cost than concrete, per the Tile Roofing Industry Alliance. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Tile roof replacement in Fairfield NJ. Clay and concrete tile with freeze-thaw rated materials and structural assessment.',
+  metaDescription:
+    'Tile roof replacement in Fairfield NJ — clay and concrete tile, full tear-off to the deck, new underlayment and flashing. NJ-registered, free estimate.',
   pricing: {
-    range: '$18,000–$40,000',
-    note: 'tile roof replacement installed',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Fairfield\'s suburban colonials and split-levels and its Route 46 and I-80 commercial buildings.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free tile roof replacement estimate in Fairfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for tile roof replacement in Fairfield.',
+    urgencyNote: 'Addressing failed underlayment early limits interior and structural water damage.',
   },
 };

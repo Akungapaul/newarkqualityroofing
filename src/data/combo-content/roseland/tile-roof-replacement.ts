@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const roselandTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'roseland',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing tile roof replacement across Roseland, New Jersey, and Essex County, stripping clay or concrete tile and worn underlayment to the deck** on the borough\'s postwar single-family homes and older period roofs as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [
-    'Newark Quality Roofing delivers expert tile roof replacement in Roseland — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Roseland provides the clay and concrete roofing options that deliver 75-year-plus service life with distinctive Mediterranean, Spanish, and European architectural character. For homeowners replacing existing tile roofs or upgrading from conventional materials during major renovation, our [tile roof replacement](/tile-roof-replacement) service manages the structural assessment, material selection, and skilled installation that tile systems require.',
-    'Replacement of existing tile roofs in Roseland typically involves removing aging tiles and underlayment, inspecting and repairing the batten system and structural framing, and installing new tiles over fresh high-temperature underlayment rated for the tile system\'s expected service life. The opportunity to upgrade from failing underlayment -- the weak link in most aging tile installations -- extends the next service cycle to the full potential of the new tiles.',
-    'New tile installations on custom homes or comprehensive renovations in Roseland allow homeowners to select from the full range of clay and concrete profiles that the material market offers. Barrel tiles, flat interlocking profiles, and shake-mimicking concrete tiles each create distinct visual effects. Color options span natural terra cotta through custom-glazed finishes. We source tiles rated for freeze-thaw performance in New Jersey\'s climate, ensuring that the selected product handles four-season exposure without the spalling that warm-climate tiles develop in cold environments.'
+    '**Newark Quality Roofing replaces clay and concrete tile roofs** across Roseland\'s mature-canopy single-family streets and its older period homes. Tile roof replacement strips the tile and the worn underlayment to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system.',
+    '**Clay and concrete tile** outlast the underlayment beneath them, so a tile replacement resets a roof when the underlayment fails while the tile still has decades left. Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years.',
+    '**The underlayment** is the real service-life limiter, failing well before the tile, per the Tile Roofing Industry Alliance and This Old House. A Newark Quality Roofing tile replacement renews the underlayment and flashing while salvaging or matching the tile profile across the tree-shaded blocks off Harrison Avenue, Laurel Avenue, and the Livingston Avenue residential edge.',
+    '**The deck** is exposed for inspection at a tile tear-off, because a tile roof cannot be roofed-over and N.J.A.C. 5:23-6.4 requires complete removal of the existing covering before new roofing, per the NJ Rehabilitation Subcode. A Newark Quality Roofing crew replaces sheathing rotted under years of underlayment leakage on Roseland\'s postwar stock.',
   ],
   challenges: [
-    'Structural reinforcement for tile roofing must account for dead load, snow load, and wind uplift simultaneously. Concrete tiles at 900 to 1,200 pounds per square combined with potential snow loads create demands that most Roseland residential framing cannot support without modification. Our structural assessment evaluates each load condition and specifies the reinforcement needed to safely carry the tile system through worst-case loading scenarios.',
-    'Underlayment selection beneath tile systems demands material rated for the tile\'s expected service life. Standard roofing felt degrades within 20 to 30 years, far short of the 75-year tile lifespan above it. Premature underlayment failure requires removing the tile, replacing the underlayment, and reinstalling the tile -- an expensive mid-life intervention that proper initial specification avoids. We use high-temperature synthetic underlayment rated for 50-year-plus service beneath every tile installation.',
-    'Freeze-thaw resistance in tile selection is non-negotiable for Roseland installations. Tiles with moisture absorption rates above specification limits will experience spalling -- surface fracturing from expanding ice within the tile body -- that progressively destroys the tile over winter cycles. We specify only tiles with documented freeze-thaw test results confirming suitability for northeastern climate exposure and reject materials marketed primarily for warm-climate markets.'
+    '**Structural load** governs a tile replacement, because tile is heavy and the deck and framing carry the dead load while the underlayment, not the tile, sets the service life. A Newark Quality Roofing assessment confirms the postwar framing carries the tile weight before quoting, and a structural change to rafters or trusses triggers a permit under N.J.A.C. 5:23-2.7.',
+    '**The underlayment** drives the replacement decision, because it fails well before the tile, per the Tile Roofing Industry Alliance and This Old House, and shows as interior leaks and ceiling stains under intact tile. A Newark Quality Roofing replacement lifts the tile, renews the tile-rated underlayment and flashing, and re-lays salvaged or matching-profile tile.',
+    '**The mature oak and maple canopy** over Roseland\'s single-family neighborhoods loads valleys and gutters with leaf and branch debris and shades north slopes, fatiguing the valley, headwall, and chimney flashing under tile that roughly 90 to 95% of roof leaks trace back to, an industry estimate attributed to the NRCA. A Newark Quality Roofing replacement rebuilds the flashing at every transition.',
+    '**Freeze-thaw cycling** spalls concrete tile in the Essex County climate, because northern New Jersey crosses 32 degrees Fahrenheit repeatedly through winter, and surface flaking signals expanding ice within the tile body. A Newark Quality Roofing replacement specifies concrete tile rated for freeze-thaw exposure and replaces spalled tile to a matching profile.',
   ],
   process: [
-    'Tile replacement begins with structural evaluation and material selection. Engineering assessment determines framing reinforcement requirements. Tile selection involves physical sample evaluation at the property for color, profile, and texture decisions. Freeze-thaw test documentation is reviewed for every candidate product. Material orders are placed with lead times appropriate to the selected product, and the project is scheduled around material delivery.',
-    'Installation follows the batten system sequence. After structural reinforcement and deck preparation, high-temperature underlayment covers the full surface. Counter-battens create the drainage and ventilation plane beneath the tiles. Horizontal battens at the calculated exposure dimension provide the mounting framework. Each tile is positioned and fastened according to the wind-uplift fastening schedule with enhanced fastening at perimeter and ridge positions.',
-    'Ridge and hip closure complete the tile installation using mortar-set ridge tiles or dry-ridge ventilated systems depending on the selected tile profile. Valley treatment uses custom-cut tiles over metal valley flashing. Penetration flashings use custom-formed metal boots integrated with the batten system. Final inspection verifies tile alignment, fastening, flashing integration, and mortar quality before warranty documentation is prepared.'
+    '**Newark Quality Roofing verifies the deck and framing carry the tile dead load, dates the underlayment, and rates the tile and flashing before quoting a tile replacement.** Tile is heavy and the structure carries the load while the underlayment sets the service life, per the Tile Roofing Industry Alliance, so an assessment confirms structural capacity and plans a tear-off to the deck, because a tile roof cannot be roofed-over, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing matches the tile system to the building and the Essex County climate from clay and concrete tile.** Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, and a replacement salvages sound tile and matches the profile of replacement tile, because tile cannot be patched and takes a matching-profile course on Roseland\'s period roofs.',
+    '**Newark Quality Roofing strips the tile and the failed underlayment to the deck, repairs the sheathing, installs an ice barrier and a tile-rated underlayment, and re-lays the tile to manufacturer specification.** A full tear-off exposes the deck for inspection and replacement of rotted plywood or OSB, the work N.J.A.C. 5:23-6.4 requires, and the ice barrier runs from the eave to at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision.',
   ],
   faqs: [
     {
-      question: 'How long does a tile roof last in New Jersey?',
-      answer: 'Clay and concrete tiles properly specified for freeze-thaw resistance provide 75 to 100 years of service in New Jersey\'s climate. The tile material itself is essentially permanent when the correct product is selected. The underlayment beneath the tiles has a shorter lifespan and typically requires replacement once during the tile roof\'s service life. Proper initial underlayment specification with 50-year-rated products minimizes this mid-life intervention.'
+      question: 'How long does a tile roof last in Roseland, NJ?',
+      answer:
+        'Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment beneath the tile is the real service-life limiter, failing well before the tile, per the Tile Roofing Industry Alliance and This Old House, so a tile roof typically requires an underlayment renewal once during its service life while the tile carries on.',
     },
     {
-      question: 'Can my Roseland home support a tile roof?',
-      answer: 'Most Roseland homes require structural reinforcement for tile roofing because the mid-century framing was designed for lighter shingle systems. The reinforcement extent varies with current framing dimensions and the tile weight selected -- lighter concrete profiles require less reinforcement than heavy barrel clay tiles. Our structural assessment determines the specific modifications needed and their cost, which is included in the overall project estimate.'
+      question: 'Why does my Roseland tile roof leak when the tile is still intact?',
+      answer:
+        'A tile roof leaks under intact tile when the underlayment beneath the tile fails, because the underlayment is the real service-life limiter and fails well before the tile, per the Tile Roofing Industry Alliance and This Old House. Interior leaks and ceiling stains under sound tile signal failed underlayment rather than failed tile. A Newark Quality Roofing tile replacement lifts the tile, renews the underlayment and flashing, and re-lays the salvaged tile.',
     },
     {
-      question: 'Are concrete tiles as good as clay tiles?',
-      answer: 'Concrete tiles provide excellent performance at lower cost than clay. They offer comparable weather resistance, fire rating, and longevity when properly manufactured and specified for freeze-thaw resistance. Clay tiles offer superior color permanence -- the color is integral to the material rather than surface-applied -- and carry slightly longer expected service life. Both materials serve Roseland homes well when correctly specified for the climate.'
+      question: 'Can a tile roof be roofed over instead of torn off in Roseland?',
+      answer:
+        'A tile roof cannot be roofed-over and takes a full tear-off to the deck, because the NJ Rehabilitation Subcode requires complete removal of an existing clay, cement, or slate tile covering before new roofing, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing tile replacement strips the tile and the failed underlayment to the bare sheathing for inspection and repair, then replaces decking rotted under years of underlayment leakage.',
     },
     {
-      question: 'How does tile compare to other premium roofing options?',
-      answer: 'Tile occupies a cost and longevity position between asphalt shingles and natural slate. It costs approximately twice the price of premium asphalt and half the cost of natural slate. Its 75-year-plus service life exceeds any synthetic material while approaching slate\'s century-plus expectation. The distinctive profiles available in tile provide architectural character that flat-profile materials cannot match. For Roseland homeowners seeking premium performance with distinctive aesthetics, tile delivers exceptional value.'
+      question: 'Do I need a permit to replace a tile roof in Roseland?',
+      answer:
+        'A complete re-roof of the tile covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code; a commercial or office-park building, or a structural change to rafters or trusses to carry the tile load, does require a permit. A commercial roof crosses into permit territory once roof work exceeds 25% of the roof area in a 12-month period, filed with the Borough of Roseland construction-code office at 300 Eagle Rock Avenue.',
+    },
+    {
+      question: 'Does a Roseland tile roof need a Certificate of Appropriateness?',
+      answer:
+        'Roseland maintains a Landmarks and Historic District Commission and a Certificate of Appropriateness process for major alterations to designated properties under Chapter 30, Article IX, but the binding Certificate-of-Appropriateness gate applies only to locally designated properties. No specific Roseland landmark, site, or local historic district is confirmed to have been designated, and the ordinance requires owner consent before a residence can be designated, so no Roseland homeowner is subject to a Certificate of Appropriateness absent a designation. The Williams-Harrison House at 126 Eagle Rock Avenue is a National and New Jersey Register museum property, and per the National Park Service, Register listing alone places no restriction on a private property owner.',
     },
     {
       question: 'How much does tile roof replacement cost in Roseland, NJ?',
-      answer: 'Most tile roof replacement projects in Roseland range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Tile roof replacement in New Jersey runs $10 to $20-plus per square foot for premium tile, per NHI Contractors, against a typical NJ new-roof range of $10,000 to $25,000, per HomeAdvisor and Modernize NJ cost data. Clay tile carries a higher material cost than concrete tile, per the Tile Roofing Industry Alliance, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Tile roof replacement in Roseland NJ -- clay and concrete tiles with freeze-thaw rating and structural engineering for residential homes.',
+  metaDescription:
+    'Tile roof replacement in Roseland NJ — clay and concrete tile, underlayment renewal, structural load check, full tear-off to deck. NJ-registered, free estimate.',
   pricing: {
-    range: '$18,000–$40,000',
-    note: 'tile roof replacement installed',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium tile runs $10–$20+ per square foot per NHI Contractors; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Roseland\'s postwar single-family homes and Eisenhower Parkway office-park roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free tile roof replacement estimate in Roseland — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for tile roof replacement in Roseland.',
+    urgencyNote: 'Renewing the underlayment when it fails limits leaks and protects the sound tile above it.',
   },
 };

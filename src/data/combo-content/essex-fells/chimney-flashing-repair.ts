@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const essexFellsChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'essex-fells',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing chimney flashing repair across Essex Fells, New Jersey, and Essex County, rebuilding the two-part base-and-counter flashing that seals the chimney** on the borough\'s large-lot custom single-family homes as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
   overview: [
-    'Newark Quality Roofing delivers expert chimney flashing repair in Essex Fells — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair on Essex Fells estates addresses the intersection of two aging systems -- the roofing material and the masonry chimney -- where deterioration of either component compromises the weathertight junction between them. The architect-designed homes throughout the borough feature chimneys constructed from fieldstone, cut bluestone, brick with corbeled caps, and occasionally copper-clad masonry that serves as an architectural focal point. The flashing systems connecting these chimneys to slate, cedar shake, or copper roof surfaces must be fabricated and installed with materials and methods consistent with both the roofing and the masonry craftsmanship.',
-    'Multi-chimney estates in Essex Fells present flashing repair requirements rarely encountered in standard residential practice. Properties along Fells Road and Devon Road may feature three to five chimneys across the main residence alone, with additional fireplaces in guest cottages and carriage houses. Each chimney presents unique flashing conditions based on its roof position, the roofing material surrounding it, the masonry type and mortar joint condition, and the chimney\'s dimensional relationship to adjacent roof features. A comprehensive flashing repair engagement may require multiple material specifications across a single property.',
-    'Our chimney flashing repair practice in [Essex Fells](/roofing-in-essex-fells-nj) combines sheet metal fabrication expertise with masonry understanding developed through years of estate maintenance work. We read mortar joint conditions, assess masonry pointing integrity, and evaluate chimney structural stability as part of every flashing repair assessment -- because installing premium flashing on a deteriorating chimney displaces rather than solves the water infiltration problem. When masonry repair precedes flashing work, we coordinate with qualified masons to ensure that repointing cures before flashing installation loads the mortar joints.'
+    '**Newark Quality Roofing repairs chimney flashing on Essex Fells custom homes, rebuilding the metal that seals the chimney**, the roof\'s largest penetration, where corroded step flashing, counter flashing pulled from the mortar joint, and cracked caulk admit water.',
+    '**The chimney is the roof\'s largest penetration**, and the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing repair starts at the transition metal on Essex Fells\'s older custom stock rather than smearing sealant over the visible drip.',
+    '**Counter flashing pulled from the mortar joint** breaks the mechanical lock the NRCA two-part system sets into a reglet, while surface caulk alone over no underlying metal cracks within a few years from masonry-versus-roof differential movement and freeze-thaw, per IIBEC. A Newark Quality Roofing repair restores both layers on the chimneys of Essex Fells\'s turn-of-the-century and early-20th-century homes.',
+    '**A missing cricket** on a chimney wider than 30 inches measured parallel to the ridge lets the upslope face dam debris and meltwater against the masonry, the saddle IRC Section R1003.20 requires to divert water, ice, and snow around a wide chimney. The mature canopy of Essex Fells loads that upslope face with leaf and branch debris, concentrating the backup a cricket diverts.',
   ],
   challenges: [
-    'Masonry deterioration at chimney flashing reglets represents the most common failure mode on Essex Fells historic chimneys. Counter-flashings embedded in mortar joints during original construction have functioned for decades while the surrounding mortar gradually eroded from freeze-thaw cycling and acid rain exposure. Replacing the counter-flashing requires either re-cutting reglets in sound masonry or installing surface-mounted counter-flashing where mortar joint depth is insufficient. Both approaches must integrate with the masonry aesthetically -- a particular concern on Essex Fells chimneys that serve as architectural features visible from the estate approach.',
-    'Fieldstone and irregular-cut masonry chimneys -- common on Essex Fells estates designed in the rustic tradition -- create irregular surfaces that prevent the tight counter-flashing fit achievable on uniform brick courses. Flashing on fieldstone chimneys must conform to the irregular stone profile, requiring individual fabrication of each counter-flashing section to match the stone course below. Standard pre-bent counter-flashing designed for brick chimneys produces gaps and visual discontinuity when forced onto fieldstone surfaces, allowing water entry and marring the chimney\'s architectural character.',
-    'Cricket and saddle construction behind wide chimneys on Essex Fells steep-slope roofs requires structural carpentry in addition to sheet metal fabrication. Chimneys wider than thirty inches on steep roof pitches accumulate snow, ice, and debris on the upslope side, creating water dam conditions that force moisture beneath the roofing material. Building or rebuilding the cricket -- a peaked diverter structure behind the chimney -- involves framing, sheathing, waterproofing, and roofing integration that transforms a flashing repair into a carpentry-and-roofing project.'
+    '**Mature-canopy debris on the upslope chimney face** is the defining Essex Fells chimney-flashing condition, because the borough\'s mature tree canopy, per its 2018 Master Plan, drops leaf and branch debris that dams meltwater against a wide chimney.',
+    '**Deteriorated mortar joints** on the older custom homes loosen counter flashing that has functioned for decades, so a lasting Newark Quality Roofing repair cuts a clean reglet into sound masonry and sets a new cap that locks in mechanically, per the NRCA two-part standard, rather than the adhesive that masonry-versus-roof movement and freeze-thaw crack within a few years, per IIBEC.',
+    '**A continuous one-piece metal strip at the chimney sidewall** marks a defective original installation found on Essex Fells\'s aging custom stock, because step flashing seals only when woven one piece per shingle course, per InterNACHI and shingle-manufacturer guidance. A Newark Quality Roofing repair reweaves the metal piece by piece into the existing covering.',
   ],
   process: [
-    'Chimney flashing assessment begins from interior and exterior vantage points. We inspect the attic space around each chimney for water staining, moisture damage, and evidence of previous repair attempts. Exterior assessment documents the condition of step flashings, counter-flashings, cap flashings, and cricket construction on each chimney. Mortar joint condition at flashing reglets receives particular attention -- deteriorated joints signal the need for masonry repair before flashing work can achieve lasting results.',
-    'Flashing fabrication addresses each chimney\'s specific requirements. Copper or lead-coated copper step flashings are formed to integrate with the existing roofing material course pattern. Counter-flashings are fabricated to the documented chimney profile -- uniform bends for brick chimneys, individually shaped sections for fieldstone. Cap flashings are formed to the chimney crown dimensions with drip edges that direct water away from the masonry face. All components are pre-fabricated in our shop for precision fit and minimal on-site fabrication time.',
-    'Installation sequences the work to build waterproofing from the bottom up. Step flashings are woven into the roofing material from eave to ridge alongside the chimney. Counter-flashings are set into cleaned and repointed reglets with high-quality urethane sealant. Cricket construction, where required, is framed, sheathed, and integrated with the surrounding roof surface before final flashing details are completed. Every completed chimney receives water testing from above to verify that the flashing system sheds water before the project is closed out.'
+    '**Newark Quality Roofing inspects all 4 chimney transitions — the downslope apron, the two sidewall step runs, and the upslope head or cricket — and traces the entry point before resealing.** A diagnosis starts at the chimney because it is the roof\'s largest and most leak-prone penetration, per trade consensus, and a one-piece strip at the sidewall flags a defective original installation, per InterNACHI and shingle-manufacturer guidance.',
+    '**Newark Quality Roofing rebuilds the NRCA two-part flashing system: step and base flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint.** A crew applies a self-adhering ice-and-water membrane at the chimney base that self-seals around fasteners, per ASTM D1970, and builds a cricket where the chimney measures wider than 30 inches parallel to the ridge, per IRC Section R1003.20.',
+    '**Newark Quality Roofing verifies watertight execution at every chimney transition, runs a magnet sweep for nails at cleanup, and documents the completed repair with photographs.** The written record supports a homeowner\'s file and any insurance claim, and a written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects.',
   ],
   faqs: [
     {
-      question: 'How can I tell if my chimney flashing needs repair?',
-      answer: 'Interior signs include water stains on ceilings or walls near the chimney, damp or musty odors from the chimney area, and visible moisture in the attic around the chimney penetration. Exterior signs include lifted or separated counter-flashing, visible gaps between flashing and masonry, rust staining below metal flashings, and deteriorated mortar at flashing reglet joints. We recommend chimney flashing inspection as part of annual roof maintenance, particularly on Essex Fells properties where multiple chimneys multiply the potential for undetected flashing failure.'
+      question: 'Do I need a permit for chimney flashing repair in Essex Fells?',
+      answer:
+        'A repair of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A localized chimney flashing repair stays within that ordinary-maintenance threshold. On a municipal, institutional, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Borough of Essex Fells Building Department at Borough Hall, 255 Roseland Avenue.',
     },
     {
-      question: 'Should masonry repair happen before or after flashing replacement?',
-      answer: 'Masonry repointing and repair must be completed before counter-flashing installation. Counter-flashings are embedded in mortar joints or secured to the masonry face -- installing them into deteriorated mortar produces joints that fail within one to two seasons. We coordinate with qualified masons to complete repointing, allow adequate mortar curing time, and then install flashing into sound masonry. This sequenced approach prevents the repeated repair cycle that results from installing quality flashings into failing mortar.'
+      question: 'Does a chimney flashing repair in Essex Fells need historic-board approval?',
+      answer:
+        'No historic-board approval applies to a homeowner reroof or chimney flashing repair in Essex Fells. The borough maintains no local historic-preservation ordinance, no Historic Preservation Commission, and no Certificate-of-Appropriateness process. No "Essex Fells Historic District" exists on the National Register or the NJ State Register, and the borough\'s Bowditch planned-community heritage carries no private-owner restriction. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'What flashing material is best for chimneys on my Essex Fells estate?',
-      answer: 'Copper is the premium standard for Essex Fells chimney flashing, providing sixty-plus year service life with a patina that complements stone and brick masonry. Lead-coated copper offers similar longevity with a matte gray appearance suitable for certain architectural styles. For budget-conscious repairs on secondary structures, stainless steel provides excellent corrosion resistance at lower material cost. We select flashing material based on the chimney\'s architectural prominence, the adjacent roofing material, and compatibility with existing metals on the property.'
+      question: 'Why does chimney flashing leak more than the rest of the roof?',
+      answer:
+        'The chimney is the roof\'s largest penetration, and the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA. A chimney needs the apron, sidewall step, and upslope transitions all sealed, so a single failed counter flashing or cracked caulk joint admits water into the chase on Essex Fells\'s steep, complex custom rooflines.',
+    },
+    {
+      question: 'Is caulk a permanent fix for chimney flashing?',
+      answer:
+        'Caulk or roofing cement alone over no underlying metal is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A permanent repair rebuilds the NRCA two-part system: step flashing woven one piece per shingle course plus a counter flashing set into a reglet cut in the mortar joint.',
     },
     {
       question: 'Does my chimney need a cricket built behind it?',
-      answer: 'Chimneys wider than thirty inches on roof pitches above 4:12 benefit from cricket construction to divert water and debris around the upslope chimney face. Building code requires crickets on chimneys wider than thirty inches. Even smaller chimneys accumulate debris behind them on steep Essex Fells roofs, and adding a cricket during flashing repair prevents the water damming and ice formation that create recurring leak problems at the chimney-roof junction.'
+      answer:
+        'A cricket, or saddle, is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20. The cricket diverts water, ice, and snow around the chimney instead of letting the upslope face dam debris and meltwater against the masonry, a particular concern under Essex Fells\'s mature tree canopy.',
     },
     {
       question: 'How much does chimney flashing repair cost in Essex Fells, NJ?',
-      answer: 'Most chimney flashing repair projects in Essex Fells range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Chimney flashing repair costs $300–$1,800, with most repairs $400–$1,600 and a spot reseal $150–$300, per HomeGuide and Angi cost data. The two-part rebuild, the chimney width, and whether a cricket is required set the cost. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Chimney flashing repair in Essex Fells NJ -- copper and lead-coated copper flashing for estate chimneys with masonry coordination.',
+  metaDescription:
+    'Chimney flashing repair in Essex Fells NJ — NRCA two-part base-and-counter flashing on custom-home masonry chimneys. NJ-registered, free written estimate.',
   pricing: {
-    range: '$400–$1,500',
-    note: 'chimney flashing and counter-flashing',
+    range: '$300–$1,800',
+    note: 'Chimney flashing repair costs $300–$1,800, with most repairs $400–$1,600 and a spot reseal $150–$300, per HomeGuide and Angi cost data; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Essex Fells\'s custom single-family homes on the borough\'s large Bowditch-plan lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free chimney flashing repair estimate in Essex Fells — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for chimney flashing repair in Essex Fells.',
+    urgencyNote: 'Addressing chimney flashing failure early limits interior and structural water damage.',
   },
 };

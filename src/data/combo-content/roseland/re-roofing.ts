@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const roselandReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'roseland',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing re roofing across Roseland, New Jersey, and Essex County, replacing worn coverings on the borough\'s postwar single-family homes and Eisenhower Parkway office-park low-slope roofs** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in Roseland — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in Roseland encompasses the full scope of roof system replacement -- from material selection and structural assessment through installation and warranty documentation. Whether approached as tear-off-and-replace or as overlay installation, re-roofing provides the opportunity to upgrade material quality, improve ventilation, enhance energy efficiency, and correct the accumulated deficiencies that aging roof systems develop over decades of service. Our [re-roofing](/re-roofing) service guides Roseland homeowners through each decision point with transparent options and honest recommendations.',
-    'The timing of re-roofing decisions on Roseland homes depends on measurable condition indicators rather than arbitrary age thresholds. A 20-year-old roof in good condition with well-maintained flashings and adequate ventilation may have several years of remaining life, while a 15-year-old roof with chronic leak issues, poor ventilation, and granule loss may be ready for replacement. Our assessment evaluates shingle condition, flashing integrity, ventilation adequacy, and deck stiffness to recommend timing based on actual conditions rather than general life-expectancy estimates.',
-    'Material upgrade opportunities during re-roofing give Roseland homeowners options that did not exist when their current roof was installed. Impact-resistant shingles with Class 4 hail ratings, cool-roof formulations with enhanced infrared reflectivity, and synthetic underlayments with superior tear resistance represent genuine performance improvements over the products installed 20 to 30 years ago. Our re-roofing consultations present these options with comparative performance data and cost-benefit analysis. Homeowners in [South Orange](/re-roofing-south-orange-nj) and throughout Essex County evaluate the same upgrade options during their re-roofing decisions.'
+    '**Newark Quality Roofing re-roofs the postwar single-family homes and Eisenhower Parkway office-park buildings of Roseland**, replacing a worn covering with a new underlayment-and-cover system once the roof crosses the replacement threshold by age or condition.',
+    '**Postwar single-family stock** — the colonials, ranches, split-levels, and Capes under Roseland\'s mature oak and maple canopy — re-roofs to asphalt shingles, where 3-tab asphalt lasts 20 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart, and actual life varies up to 40% with climate, install, and maintenance, per the NRCA. A Newark Quality Roofing re-roof strips the worn covering to the deck and replaces deteriorated sheathing exposed at tear-off.',
+    '**Eisenhower Parkway office-park buildings** — the flat and low-slope commercial decks along the Eisenhower Parkway, Becker Farm Road, and Livingston Avenue corridor where ADP was long headquartered and Lowenstein Sandler occupies a redeveloped headquarters — re-roof to EPDM, TPO, or modified-bitumen membrane, where those systems last 15 to 25, 7 to 20, and 20 years respectively, per the InterNACHI life-expectancy chart.',
+    '**The replacement threshold** turns on age and condition: a localized repair stays the more economical path only while an asphalt roof stays under 10 to 15 years old, and damage across more than 25–30% of the roof area or a repair approaching 50% of replacement cost crosses the contractor-consensus rules toward a re-roof, per Kellow, Modernize, Josten, WeatherShield, and Home Depot cost data.',
   ],
   challenges: [
-    'Material selection from the expanding product landscape requires navigating manufacturer marketing claims against verified performance data. Roseland homeowners face choices between multiple shingle manufacturers, product tiers, warranty structures, and special features -- each presented by the manufacturer as superior. Our role is to cut through the marketing and present performance differences based on independent testing data, our field experience with each product, and the specific conditions the material will face on the homeowner\'s particular roof.',
-    'Scheduling re-roofing around Roseland\'s weather patterns requires planning that accounts for both optimal installation conditions and seasonal demand peaks. Spring and fall offer the best temperature ranges for shingle adhesion, but demand for re-roofing peaks during these same windows. Summer installations work well technically but require heat management for crew safety. Winter installations are possible but limited by temperature minimums for proper shingle seal-strip activation. We schedule projects to balance optimal conditions with manageable wait times.',
-    'Coordinating re-roofing with related projects -- gutter replacement, fascia repair, skylight addition, chimney flashing -- maximizes value by sharing mobilization costs and ensuring integrated installation between all roofline components. Homeowners who address these items separately pay multiple mobilization costs and risk integration problems between the independently installed components. Our re-roofing consultations identify companion work that benefits from same-project execution.'
+    '**Tear-off deck condition** is the defining re-roofing variable on Roseland\'s postwar homes, because a full tear-off exposes plank or plywood sheathing for inspection and repair while a recover hides deck rot a tear-off catches, per ARMA. A Newark Quality Roofing re-roof favors tear-off where the deck or the code requires it.',
+    '**Recover limits** govern when a Roseland roof admits a second layer, because the NJ Rehabilitation Subcode requires complete removal of the existing covering — no recover-over — when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound asphalt layer traps heat that industry estimates cut shingle service life by roughly 20–30%, per Angi.',
+    '**Mature-canopy debris and the western-edge floodplain** shape the re-roof detailing, because the oak and maple canopy over Roseland\'s single-family streets loads valleys and gutters with leaf and branch debris, and roughly 459 acres along the borough\'s western Passaic-River edge sit in the FEMA Special Flood Hazard Area, per the Borough of Roseland Master Plan, while the office corridors and most neighborhoods sit on higher developed ground. A Newark Quality Roofing re-roof rebuilds flashing at every transition and grades a low-slope deck to drain.',
   ],
   process: [
-    'Re-roofing projects begin with a comprehensive evaluation that covers every aspect of the existing roof system. Exterior inspection assesses shingle condition, flashing integrity, gutter function, and ventilation component status. Attic inspection evaluates deck condition from below, insulation levels, ventilation airflow, and evidence of moisture intrusion. This dual-perspective evaluation produces the findings that inform the re-roofing specification.',
-    'Project specification translates evaluation findings into a detailed scope. Tear-off versus overlay determination is made based on existing conditions. Material selection matches the homeowner\'s performance expectations with appropriate products. Ventilation, insulation, and flashing upgrades are specified as needed. The written proposal presents a fixed price, detailed material specifications, project timeline, and warranty terms that establish clear expectations before work begins.',
-    'Execution follows the systematic sequence that professional re-roofing demands -- tear-off or preparation, deck inspection and repair, underlayment installation with ice-and-water shield at all vulnerable locations, drip edge installation, shingle application from eave to ridge with proper nailing and coursing, and finish work at ridges, hips, valleys, and penetrations. Final inspection verifies every detail before cleanup releases the property. Warranty registration and maintenance documentation complete the project.'
+    '**Newark Quality Roofing confirms the re-roofing decision against the threshold rules, then inspects the deck and attic ventilation before quoting.** Damage across more than 25–30% of the roof area crosses the area rule, a repair approaching 50% of replacement cost crosses the cost rule, and an asphalt roof past 20 years crosses the age rule, because a localized repair stays the more economical path only while the roof stays under 10 to 15 years old, per WeatherShield, RapidRestore, and Home Depot cost data.',
+    '**Newark Quality Roofing strips the worn roof to the deck, inspects every sheathing section, and replaces deteriorated plank or plywood exposed at tear-off.** The NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. On the Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office buildings a commercial re-roof exceeding 25% of the roof area in 12 months requires a permit filed with the Borough of Roseland construction-code office at 300 Eagle Rock Avenue, per the NJ Uniform Construction Code.',
+    '**Newark Quality Roofing matches the new system to the building from 5 material classes — 3-tab asphalt, architectural asphalt, standing-seam metal, slate, and low-slope membrane — then installs the ice barrier, underlayment, and cover to manufacturer specification.** A residential re-roof runs the ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision, contains debris with ground tarps, and runs a magnet sweep for nails before leaving the property. Installing to manufacturer specification preserves the material warranty, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How do I know when my Roseland home needs re-roofing?',
-      answer: 'Key indicators include shingle granules accumulating in gutters, visible shingle curling or buckling, daylight visible through the attic roof boards, recurring leaks despite repairs, and dark streaks from algae growth. Age alone is not definitive -- some roofs need replacement at 15 years while others perform well at 25. Our free evaluation assesses actual conditions rather than age to determine whether re-roofing is needed now, soon, or can be safely deferred.'
+      question: 'Do I need a permit to re-roof a home in Roseland, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home in Roseland counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A structural change to rafters or trusses still triggers a permit. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit from the Borough of Roseland construction-code office at 300 Eagle Rock Avenue, the path the Eisenhower Parkway and Becker Farm Road office buildings follow.',
     },
     {
-      question: 'What is the best roofing material for Roseland homes?',
-      answer: 'For most Roseland homes, premium architectural asphalt shingles from GAF, Owens Corning, or CertainTeed provide the optimal balance of performance, appearance, warranty coverage, and cost. Specific product recommendations depend on the home\'s architectural style, color scheme, and the homeowner\'s priority -- maximum warranty versus lowest cost versus energy efficiency. We present physical samples and comparative specifications for the products most appropriate for each property.'
+      question: 'Does a re-roof on a Roseland historic property need a Certificate of Appropriateness?',
+      answer:
+        'Roseland maintains a Landmarks and Historic District Commission and a Certificate of Appropriateness process for major alterations to designated properties under Chapter 30, Article IX, but the binding Certificate-of-Appropriateness gate applies only to locally designated properties. No specific Roseland landmark, site, or district is confirmed to have been designated, and the ordinance requires owner consent before any residence can be designated, so no Roseland homeowner is subject to a Certificate of Appropriateness absent a designation. The Williams-Harrison House at 126 Eagle Rock Avenue is a National and New Jersey Register museum property, and per the National Park Service, Register listing alone places no restriction on a private owner. A Certificate of Appropriateness, where it ever applies, stays separate from the building permit.',
     },
     {
-      question: 'How long does a re-roofing project take?',
-      answer: 'Most Roseland residential re-roofing projects complete in two to four working days. A standard colonial with tear-off typically takes three days. Complex roofs with multiple valleys, dormers, and penetrations may require four days. Overlay installations are typically one day shorter than tear-off projects. Weather delays can extend the timeline, but we schedule to minimize exposure and maintain project momentum.'
+      question: 'What is the difference between re-roofing and a full replacement?',
+      answer:
+        'Re-roofing is the umbrella term for recovering or replacing an existing roof covering, so it covers both a full tear-off replacement and a recover over a single sound layer, per ARMA and the IRC R908 reroofing section. A full tear-off strips the covering to the deck and exposes deteriorated plank or plywood sheathing for repair, while a recover installs a new layer over the existing single layer and hides deck rot a tear-off would catch, per ARMA. The NJ Rehabilitation Subcode bars a recover where the deck is water-soaked or deteriorated, the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or two layers already exist, per N.J.A.C. 5:23-6.4.',
     },
     {
-      question: 'Can I stay in my home during re-roofing?',
-      answer: 'Yes, most homeowners remain in their homes during re-roofing. The primary inconvenience is noise from tear-off and nailing, which is concentrated during work hours. We advise planning activities away from home during the noisiest phases of the project. Interior areas directly beneath the work zone may experience vibration and occasional dust. Pets that are sensitive to noise may benefit from temporary relocation during work hours.'
+      question: 'Which roofing material suits a re-roof in Roseland?',
+      answer:
+        'Re-roofing material matches the building across 5 classes: 3-tab asphalt at 20 years, architectural asphalt at 30 years, metal at 40 to 80 years, slate at 60 to 150 years, and low-slope membrane at 7 to 25 years. The lifespans trace to the InterNACHI life-expectancy chart and the National Slate Association. Most of Roseland\'s postwar single-family homes re-roof to architectural asphalt, while the Eisenhower Parkway and Becker Farm Road office-park low-slope decks take EPDM, TPO, or modified-bitumen membrane. Proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA.',
     },
     {
-      question: 'How much does re roofing cost in Roseland, NJ?',
-      answer: 'Most re roofing projects in Roseland range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does a re-roof require a full tear-off?',
+      answer:
+        'A re-roof requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound asphalt layer hides deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20–30%, per ARMA and Angi. On Roseland\'s postwar homes the deck condition exposed at tear-off — plank or aging plywood sheathing — often settles the question toward complete removal.',
+    },
+    {
+      question: 'How much does re-roofing cost in Roseland, NJ?',
+      answer:
+        'Re-roofing in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000–$11,000 per industry replacement benchmarks. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Re-roofing in Roseland NJ -- complete roof system replacement with material upgrades and ventilation improvement for residential homes.',
+  metaDescription:
+    'Re-roofing in Roseland NJ — postwar single-family tear-offs and Eisenhower Parkway office-park low-slope membranes. NJ-registered, free written estimate.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Roseland\'s postwar single-family homes and Eisenhower Parkway office-park roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in Roseland — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re roofing in Roseland.',
+    urgencyNote: 'Addressing a failing roof early limits interior and structural water damage.',
   },
 };

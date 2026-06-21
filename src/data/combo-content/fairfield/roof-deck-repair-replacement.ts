@@ -3,56 +3,68 @@ import type { ComboContent } from '../schema';
 export const fairfieldRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'fairfield',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing roof deck repair replacement across Fairfield, New Jersey, and Essex County, removing rotted sheathing under the suburban colonials and the Route 46 and I-80 corridor membrane roofs** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [
-    'Newark Quality Roofing delivers expert roof deck repair replacement in Fairfield — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair and replacement in Fairfield addresses the structural substrate beneath every roofing system -- the plywood or OSB sheathing panels that span between rafters and provide the surface that shingles, membranes, and underlayment are attached to. When the deck deteriorates through moisture damage, the roofing material above it loses its structural support, and the building beneath it loses its weather protection. Fairfield homes from the 1960s through 1990s commonly use CDX plywood or OSB roof decking, and after decades of service, areas that have been exposed to even minor water intrusion show soft spots, delamination, and fungal decay that compromise the deck\'s ability to hold fasteners and support loads.',
-    'Deck deterioration in Fairfield follows predictable patterns. Areas beneath failed flashings at chimneys and sidewalls absorb water for years before the leak becomes visible inside the home, creating localized rot that may span several sheathing panels. Eave sections where ice dams have historically formed develop cyclical wetting and drying that weakens the wood fibers over time. Valley areas where water concentrates and ventilation is restricted trap moisture between the underlayment and the deck surface. These damage patterns are discovered during roof replacement when the old shingles come off and the deck is exposed for the first time in decades.',
-    'Commercial [roof deck](/roof-deck-repair-replacement) conditions in Fairfield\'s Route 46 buildings involve metal and concrete deck substrates in addition to the wood decking found on residential properties. Steel decks on warehouses and retail buildings may show rust perforation at fastener locations where water has penetrated the membrane. Lightweight concrete decks on older commercial buildings can develop spalling and surface deterioration that prevents proper membrane adhesion. Our commercial deck assessments identify these substrate conditions and specify the repairs needed before new roofing can be installed.'
+    '**Newark Quality Roofing repairs and replaces roof decks** on Fairfield\'s owner-occupied colonials, split-levels, and raised ranches and on the flat buildings along the Route 46 and I-80 corridor. A re-deck removes rotted plywood and OSB sheathing so the deck grips a fastener and holds the covering.',
+    '**Rotted sheathing** loses the ability to hold a roofing nail when trapped moisture decays the wood, per InterNACHI, because roofing nails penetrate at least 3/4 inch into the deck, per ARMA nail-application guidance, so sheathing that cannot grip a nail leaves the covering prone to wind uplift. On Fairfield\'s later-20th-century homes, deck rot most often traces to a failed chimney or wall flashing or an overflowing gutter that soaks the eave.',
+    '**Tear-off re-decking** replaces the water-soaked decking found under the old covering during a Fairfield re-roof, the work the IRC reroofing provisions in Section R908 require because roofing over a water-soaked or deteriorated deck is not permitted. A re-deck installs structural panels sized to the rafter spacing by APA span rating, then runs underlayment and an ice barrier before the covering goes back on.',
+    '**Commercial low-slope decks** along the Route 46 and I-80 corridor carry EPDM, TPO, and modified-bitumen membranes over sheathing that saturates where a seam fails or ponding water sits, a drainage load the Passaic-floodplain setting compounds. A low-slope roof needs at least 1/4 inch per foot of slope to drain and ponding held more than 48 hours counts as a defect, per NRCA and ARMA, so the scope traces the decay to the seam or drainage failure that admitted the water.',
   ],
   challenges: [
-    'Discovering the full extent of deck damage during a Fairfield roof replacement creates scope uncertainties that affect project cost and timeline. Soft spots visible from the attic side provide clues, but the complete picture is only revealed when shingles and underlayment are removed. A project that begins as a straightforward shingle replacement may require significant deck work once deterioration is exposed. We prepare Fairfield homeowners for this possibility during the estimation process, providing a base price with a per-sheet deck replacement allowance that establishes clear pricing before the project begins.',
-    'Matching replacement deck material to the existing installation matters for structural performance. Original CDX plywood on Fairfield homes should be replaced with the same plywood grade and thickness -- typically half-inch or five-eighths-inch CDX. OSB decking requires matching the original thickness and APA rating. Mismatched deck panels create uneven surfaces that telegraph through shingles and vary in fastener-holding capacity. We stock the deck materials most common in Fairfield homes and carry adequate inventory on each project truck to handle discovered deck damage without delay.',
-    'Load-bearing capacity during deck replacement requires careful sequencing. Removing multiple deck panels simultaneously exposes the attic below to weather and eliminates the structural diaphragm that distributes loads across rafters. Our crews replace deck sections progressively -- removing and replacing a few panels at a time, maintaining structural integrity and weather protection throughout the process. Emergency weatherproofing tarps are always on site to protect exposed deck openings if weather conditions change during the work.'
+    '**Hidden deck rot** surfaces only after tear-off on a Fairfield re-roof, because soft spots visible from the attic give clues but the full extent shows when the covering comes off. A written estimate sets a per-sheet deck-replacement allowance so the scope and cost stay clear before the work begins, rather than a surprise mid-project.',
+    '**Passaic-floodplain drainage load** stresses Fairfield decks because the low-lying township sits downstream of the Passaic-Pompton confluence at Two Bridges, with much of it inside the FEMA Special Flood Hazard Area, per the Township of Fairfield Flood Protection Information page. Heavy storm water concentrates at the drainage path, so a re-deck pairs sound sheathing with positive slope and well-sealed flashing that carry water off before it backs up.',
+    '**Mature tree-canopy debris** drops leaf and branch load into the valleys and gutters of Fairfield\'s residential streets, and the blockage backs water under the covering and rots the sheathing below. A re-deck corrects the drainage path and the failed flashing that admitted the water, because deck rot on an Essex County home traces to the detail that let water reach the wood.',
+    '**Matched replacement panels** keep the new deck consistent with the old, because plywood and OSB carry an APA span rating that sets the maximum rafter spacing, per APA – The Engineered Wood Association, and InterNACHI cites a 5/8-inch minimum at 24-inch rafter spacing. Mismatched thickness telegraphs through the covering and varies the fastener hold, so the replacement panel matches the rating and depth the framing requires.',
   ],
   process: [
-    'Deck assessment in Fairfield begins before shingle removal. We inspect the attic space from below, probing the underside of the deck for soft spots, discoloration, and visible deterioration. Areas of concern are mapped on the roof plan to guide the roofing crew during shingle removal. During removal, each section of exposed deck is walked, probed, and visually inspected for delamination, fungal growth, fastener withdrawal, and structural deflection. All damage locations are marked and measured for replacement material estimation.',
-    'Damaged deck sections are cut back to sound wood at the nearest rafter on each side. New plywood or OSB panels are cut to fit the opening and nailed to the rafters with ring-shank nails that resist withdrawal. Panel edges are supported by rafter-mounted H-clips or blocking where they do not land on a rafter. The replacement panels are checked for flush alignment with the surrounding original deck to prevent ridges or dips that would show through the new shingle surface.',
-    'After all deck repairs are complete, the full deck surface is inspected for consistent fastener-holding capacity, proper panel spacing for moisture expansion, and smooth transitions between original and replacement sections. Underlayment installation follows immediately, covering the deck with synthetic felt or self-adhering membrane at designated waterproofing zones. This rapid coverage protects the newly repaired deck from weather exposure during the shingle installation phase and establishes the secondary waterproofing layer that code requires beneath the shingle surface.'
+    '**Newark Quality Roofing probes the deck** from the attic and the roof for the conditions that cost the sheathing its fastener hold — rot, delamination, swollen OSB, daylight breaches, and underside staining, per InterNACHI and GAF inspection guidance. The crew maps the suspect sections on a roof plan before tear-off, then verifies each area once the covering is stripped.',
+    '**Newark Quality Roofing strips the covering** to the deck and removes every water-soaked or rotted section, because the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck. On a Fairfield colonial or split-level the work counts as ordinary maintenance under N.J.A.C. 5:23-2.7 with no construction permit, while a commercial corridor building crosses into permit territory once roof work exceeds 25% of the roof area in 12 months, filed with the Building Department, Township of Fairfield, at 230 Fairfield Road.',
+    '**Newark Quality Roofing re-decks** with code-rated structural panels sized to the rafter spacing, adding H-clips, tongue-and-groove edges, or solid blocking on panels thinner than 1/2 inch over rafters spaced more than 20 inches on center, per IRC Section R803.2. The crew then applies underlayment and a self-adhering ice barrier from the eave to at least 24 inches inside the exterior wall line, per IRC Section R905.1.2, fastens the covering with corrosion-resistant nails that penetrate at least 3/4 inch into the new deck, per ARMA, and runs a magnet sweep for nails at cleanup.',
   ],
   faqs: [
     {
-      question: 'How do I know if my Fairfield home\'s roof deck needs replacement?',
-      answer: 'From the attic, look for dark water stains on the underside of the deck, soft or spongy areas when pressed, visible daylight through the deck, and any evidence of fungal growth. From the roof surface, sagging between rafters visible as wavy shingle lines indicates deck deterioration. During roof replacement, soft spots discovered when walking the exposed deck confirm replacement needs. Any deck area that does not firmly hold a nail or feels springy under foot weight requires replacement.'
-    },
-    {
-      question: 'How much does roof deck replacement add to a Fairfield roof replacement cost?',
-      answer: 'Deck replacement adds per-sheet cost for materials and labor to the base roof replacement price. A typical Fairfield home may need two to ten sheets of decking replaced, depending on the history of water intrusion. We provide a per-sheet price in every roofing proposal so that Fairfield homeowners have a clear understanding of the cost if deck damage is discovered during shingle removal. Most projects fall within the estimated range provided during pre-project assessment.'
+      question: 'How do I know if my Fairfield home\'s roof deck needs replacing?',
+      answer:
+        'A Fairfield roof deck needs replacing when trapped moisture decays the sheathing until it cannot hold a fastener, per InterNACHI, because roofing nails penetrate at least 3/4 inch into solid deck, per ARMA. From the attic, look for daylight breaches, soft or spongy wood, and dark underside staining; from the roof, sagging between rafters shows as wavy lines. Any section that does not firmly hold a nail requires replacement.',
     },
     {
       question: 'Should I use plywood or OSB for deck replacement on my Fairfield home?',
-      answer: 'We recommend matching the existing deck material. If your home has CDX plywood, replacement sections should use the same product for consistent performance. Both plywood and OSB are code-approved deck materials, but plywood handles moisture exposure better than OSB -- the oriented strand board swells at edges when wet and does not recover to its original dimensions after drying. For Fairfield homes with moisture history, plywood is the preferred choice regardless of the original material.'
+      answer:
+        'Plywood dries more uniformly and partly recovers after wetting while OSB swells at the edges and delaminates irreversibly once saturated, per InterNACHI and trade guidance, so saturated OSB gets replaced rather than dried out. Both carry an APA span rating that sets the maximum rafter spacing, per APA – The Engineered Wood Association, and either grips a roofing nail at least 3/4 inch deep, per ARMA. On a flood-prone Fairfield lot with a moisture history, plywood is the durable choice.',
     },
     {
-      question: 'Can roof deck damage be prevented on Fairfield homes?',
-      answer: 'The best prevention is eliminating the water sources that cause deck deterioration. Maintaining chimney and sidewall flashing, keeping gutters clean and functional, ensuring adequate attic ventilation, and installing ice-and-water shield at eaves and valleys all prevent the water exposure that causes deck decay. Annual attic inspections that catch early moisture problems before they progress to structural damage are the most cost-effective preventive measure for Fairfield homeowners.'
+      question: 'Does a Fairfield historic listing restrict a roof deck replacement?',
+      answer:
+        'No COA applies to a private reroof in Fairfield. Fairfield\'s Historic Preservation Commission is advisory and educational, focused on the township-owned Van Ness House, and issues no Certificate of Appropriateness, so a private re-deck and reroof requires no historic approval. Fairfield has no locally designated historic district, and the Van Ness House at 236 Little Falls Road and the Fairfield Dutch Reformed Church on Fairfield Road carry National Register listings only as township-owned and church-owned heritage sites. Per the National Park Service, Register listing alone places no federal restriction on a private owner.',
+    },
+    {
+      question: 'Can you reroof over a rotted or water-soaked deck in Fairfield?',
+      answer:
+        'No — the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck, so the rotted sheathing comes off before the new covering goes on. Roofing nails penetrate at least 3/4 inch into solid deck, per ARMA, and sheathing that cannot grip a nail leaves the covering prone to wind uplift, per InterNACHI. In a flood-prone township a sound deck and sound drainage detailing both protect the roof.',
     },
     {
       question: 'How much does roof deck repair replacement cost in Fairfield, NJ?',
-      answer: 'Most roof deck repair replacement projects in Fairfield range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Re-decking a roof costs $2–$5 per square foot, with a national average near $5,500, and Angi cites $2–$6 per square foot, per HomeGuide and Angi cost data. A hidden-rot re-deck added during a re-roof runs about $50–$120 per 4-by-8 sheet, per contractor cost data, with the final figure set by how many sheets of decking are rotted, the roof size, the pitch, the material, and the access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof deck repair and replacement in Fairfield NJ. Plywood and OSB sheathing restoration for homes and commercial building substrates.',
+  metaDescription:
+    'Roof deck repair and replacement in Fairfield NJ — rotted plywood and OSB sheathing on colonials and Route 46 and I-80 commercial roofs. Free estimate.',
   pricing: {
-    range: '$2,000–$6,000',
-    note: 'structural deck repair pricing',
+    range: '$2–$5 per sq ft for most re-decking',
+    note: 'Re-decking runs $2–$5 per square foot per HomeGuide and Angi cost data, with a hidden-rot re-deck added during a re-roof about $50–$120 per 4-by-8 sheet; final cost depends on the number of rotted sheets, roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Fairfield\'s suburban colonials and split-levels and its Route 46 and I-80 commercial buildings.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof deck repair replacement estimate in Fairfield — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof deck repair replacement in Fairfield.',
+    urgencyNote: 'Addressing deck rot early limits interior and structural water damage.',
   },
 };

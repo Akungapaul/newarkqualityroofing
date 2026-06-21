@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const essexFellsCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'essex-fells',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing cedar shake roof replacement across Essex Fells, New Jersey, and Essex County, stripping aging cedar to the deck and laying new cedar over a ventilated base** on the borough\'s large-lot custom homes as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
-    'Newark Quality Roofing delivers expert cedar shake roof replacement in Essex Fells — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement on Essex Fells estates restores the natural wood roofing character that complements the borough\'s wooded landscape with organic warmth that no manufactured material replicates. Cedar shake roofs on Essex Fells homes -- often installed on the main residence, guest cottage, and carriage house as a unified estate material -- reach replacement age within twenty-five to forty years depending on maintenance history and the specific canopy shade exposure each structure receives. When replacement becomes necessary, the project combines premium material sourcing with installation techniques adapted for the borough\'s challenging shade and moisture environment.',
-    'The replacement decision for Essex Fells cedar shake roofs balances the homeowner\'s commitment to natural wood roofing against the maintenance reality that the canopy environment imposes. Homeowners who value the cedar aesthetic and are prepared to maintain the preservative treatment schedule that shade exposure demands choose treated cedar shake replacement. Those seeking the cedar-inspired appearance with reduced maintenance commitment consider designer-grade architectural shingles or composite shake products that approximate the wood aesthetic. We present both paths with transparent lifecycle cost and maintenance projections.',
-    'Our cedar shake roof replacement in Essex Fells specifies pressure-treated, premium-grade hand-split shakes with enhanced installation details developed for the borough\'s heavy-canopy environment. Skip sheathing with improved ventilation gaps beneath the shake surface, extended ice-and-water shield coverage beyond code minimum, and copper valley linings at every intersection create a shake roof assembly engineered for the specific conditions that Essex Fells properties face -- conditions significantly more demanding than the open-exposure installations where cedar achieves its longest published service life.'
+    '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs** on Essex Fells\'s custom single-family homes, the borough\'s older period houses under a mature tree canopy. Cedar shake roof replacement strips an aging wood roof to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar across the large-lot stock.',
+    '**Cedar shake and cedar shingle** carry different service lives, because cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing wood at 25 years, and maintenance sets where in the range a roof lands. A Newark Quality Roofing replacement renews a cedar covering past saving rather than patching individual split shakes.',
+    '**The mature tree canopy** drives cedar failure on Essex Fells\'s shaded north slopes, because moisture cycling is the dominant cedar failure mode and trapped moisture under cupped shakes accelerates rot, per Cedar Shake & Shingle Bureau and NRCA guidance. A Newark Quality Roofing replacement clears the canopy debris that holds water in valleys and gutters and rebuilds the roof to drain and dry on the borough\'s wooded large lots.',
+    '**A ventilated nailing base** holds at least 1.5 inches of drying air space beneath the shakes, the ventilation that slows the moisture-driven cupping, splitting, and rot a cedar roof faces, per Cedar Shake & Shingle Bureau install guidance. A Newark Quality Roofing crew replaces decking rotted under the old cedar and contains debris with a magnet sweep for nails before leaving the property.',
   ],
   challenges: [
-    'Material grade selection determines the replacement shake roof\'s performance in the Essex Fells shade environment. Premium hand-split and resawn shakes from certified mills using sustainably harvested old-growth or plantation western red cedar provide the density and natural oil content that resists decay in perpetually shaded conditions. Lower-grade shakes from fast-growth plantation wood lack the density and extractive oil concentration needed for canopy exposure. We specify only premium-grade material and verify the mill source for every Essex Fells cedar shake project.',
-    'Treatment specification for Essex Fells conditions must balance decay resistance with environmental responsibility. CCA (chromated copper arsenate) pressure treatment provides the most aggressive decay protection but raises environmental concerns. Borate pressure treatment offers effective protection with lower environmental impact. Topical preservative application provides surface protection requiring periodic renewal. We present the treatment options with their respective protection levels, environmental profiles, and maintenance requirements so homeowners can make informed choices aligned with their values.',
-    'Multi-structure replacement coordination on Essex Fells estates where cedar shake covers multiple buildings requires material procurement from a single mill lot to ensure color consistency across structures. Shake from different lots, even from the same mill, can vary in color and grain character enough to create visible differences between buildings on the same property. We source the full project volume from a single production run and stage the material for sequential installation across each structure, maintaining the visual continuity that estate-unified material specification demands.'
+    '**No-overlay tear-off** is the defining cedar-replacement condition in Essex Fells, because N.J.A.C. 5:23-6.4 prohibits roofing over a wood-shake roof and over a water-soaked or deteriorated deck, so a cedar replacement requires a full strip to the deck. A Newark Quality Roofing job removes the cedar to the bare sheathing, the only code-compliant path on the borough\'s custom homes.',
+    '**Deteriorated sheathing** surfaces at tear-off on Essex Fells\'s older custom stock, where the roughly 806 homes were largely built between the turn of the 20th century and the mid-20th century, per the U.S. Census Bureau and the Borough of Essex Fells 2018 Master Plan, and years of trapped moisture beneath cedar rot the plywood or OSB deck. A Newark Quality Roofing replacement replaces every deteriorated section before the new cedar goes on.',
+    '**Fire-class selection** matters on a wood roof, because untreated cedar shakes and shingles are nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau Certi-Guard program. A Newark Quality Roofing replacement presents the cedar type and fire class before tear-off.',
+    '**The mature canopy** keeps Essex Fells cedar slopes shaded and slow to dry, because moss, cupping, and rot accelerate on north-facing and shaded slopes where a cedar roof dries slowly, per Cedar Shake & Shingle Bureau guidance. A Newark Quality Roofing replacement rebuilds the ventilated base and clears the valley and gutter debris the borough\'s 50-to-150-year-old trees drop onto the roof.',
   ],
   process: [
-    'Replacement planning begins with material specification and procurement. We present shake samples from our preferred mills, discuss treatment options, and establish the grade, length, thickness, and treatment specification for the project. The full project volume is ordered from a single mill lot for color consistency. Material delivery is scheduled to align with the construction start date, avoiding extended on-site storage that can initiate premature weathering of uninstalled shakes.',
-    'Tear-off and deck assessment follow procurement. Existing shakes and skip sheathing are removed to expose the structural deck or rafter system. Deck condition is evaluated and repairs executed at every deteriorated location. The underlayment system is installed -- ice-and-water shield at eaves, valleys, and penetrations, with synthetic underlayment across the field area. Skip sheathing boards are installed at calculated spacing over the underlayment, creating the ventilation channels beneath the shake surface that promote drying and extend shake life in the shaded Essex Fells environment.',
-    'Shake installation proceeds from eave to ridge with each course set to the calculated exposure dimension for the roof pitch. Shakes are fastened with stainless steel ring-shank nails positioned to avoid splitting while providing maximum wind-uplift resistance. Copper valley linings are installed at every intersection. Hip and ridge shakes are cut and fitted with alternating overlap patterns. The completed installation receives initial preservative treatment six to twelve months post-installation, after the cedar has weathered sufficiently for treatment absorption. The homeowner receives a documented maintenance schedule specifying preservative application timing, debris clearing frequency, and inspection intervals.'
+    '**Newark Quality Roofing rates the cedar roof against its 20-to-40-year shake and 30-to-50-year shingle service life, runs the InterNACHI flex test on suspect shakes, and checks the deck before quoting the replacement.** A shake that cracks under light bending fails the flex test and signals advanced degradation regardless of surface appearance, per the InterNACHI flex-test guidance, and a written estimate then sets the cedar type and fire class on the borough\'s custom homes.',
+    '**Newark Quality Roofing strips the cedar to the bare deck, inspects every sheathing section, and replaces deteriorated plywood or OSB.** A full tear-off is the only code-compliant path, because N.J.A.C. 5:23-6.4 prohibits roofing over a wood-shake roof and over a water-soaked or deteriorated deck, and years of trapped moisture beneath the old cedar rot the deck on Essex Fells\'s older custom stock.',
+    '**Newark Quality Roofing installs the underlayment and a ventilated nailing base, then lays the new cedar to install guidance so the wood roof drains and dries.** The base holds at least 1.5 inches of drying air space beneath the shakes, per Cedar Shake & Shingle Bureau install guidance, and the crew runs a magnet sweep for nails at cleanup and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty.',
   ],
   faqs: [
     {
-      question: 'How long will replacement cedar shakes last in the Essex Fells canopy environment?',
-      answer: 'Premium pressure-treated hand-split cedar shakes with proper maintenance -- biennial preservative treatment, annual debris clearing, and regular moss treatment -- perform twenty-five to thirty-five years under Essex Fells canopy conditions. Without maintenance, the shaded environment can reduce effective lifespan to fifteen to twenty years. The maintenance commitment is the primary determinant of cedar shake longevity in the shaded conditions that characterize virtually every property in the borough.'
+      question: 'Do I need a permit to replace a cedar shake roof in Essex Fells?',
+      answer:
+        'A complete tear-off and re-cover of the roof covering on a detached one- or two-family home in Essex Fells counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A structural change to rafters or trusses still triggers a permit, as does work on a municipal, institutional, or attached building once it exceeds 25% of the roof area in 12 months, filed with the Borough of Essex Fells Building Department at Borough Hall, 255 Roseland Avenue.',
     },
     {
-      question: 'Should I replace cedar with a lower-maintenance material?',
-      answer: 'Material transition is a valid consideration for homeowners unwilling to maintain the preservative treatment schedule cedar demands in the Essex Fells environment. Designer-grade architectural shingles with cedar-tone coloring provide twenty-five to thirty-year performance with minimal maintenance. Composite shake products offer enhanced cedar replication with fifteen to twenty-year track records. Synthetic shake products from manufacturers like DaVinci provide the most convincing cedar simulation with the lowest maintenance requirements. We present alternatives with honest aesthetic comparison to genuine cedar.'
+      question: 'Does a historic district restrict cedar shake roof replacement in Essex Fells?',
+      answer:
+        'Essex Fells maintains no local historic-preservation ordinance, no Historic Preservation Commission, and no Certificate-of-Appropriateness process, so a homeowner cedar shake roof replacement in Essex Fells requires no historic-board approval. No "Essex Fells Historic District" exists on the National Register or the NJ State Register, and the borough\'s Bowditch planned-community heritage carries no private-owner restriction. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'What is the cost difference between cedar shake replacement and shingle replacement?',
-      answer: 'Premium cedar shake replacement typically costs two to three times more than designer-grade architectural shingle replacement for equivalent roof area. The cedar premium reflects higher material cost, more labor-intensive installation, and the enhanced underlayment and ventilation system our Essex Fells specification requires. Lifecycle cost comparison must include the ongoing preservative treatment and more frequent maintenance that cedar demands in the shaded environment versus the minimal maintenance asphalt shingles require.'
+      question: 'Can a new cedar roof go over the old cedar roof on my Essex Fells home?',
+      answer:
+        'A new cedar roof cannot go over an old cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a cedar replacement requires a full tear-off to the deck. The NJ Rehabilitation Subcode requires complete removal of a wood-shake covering, and on Essex Fells\'s older custom homes the strip exposes the deck for inspection and replacement of any plywood or OSB rotted under the cedar.',
     },
     {
-      question: 'Can I replace cedar shake on one structure while keeping it on others?',
-      answer: 'Individual structure replacement is feasible and common on Essex Fells estates managing phased replacement budgets. The replacement shake is specified from the same grade and mill source as the shake on remaining structures for maximum material consistency. New cedar weathers toward the silver-gray patina of existing installations within two to three years, achieving visual integration across structures at different points in their replacement cycle. We document the material specification to enable consistent sourcing for subsequent replacement phases.'
+      question: 'How long does a replacement cedar roof last on a tree-canopied Essex Fells home?',
+      answer:
+        'Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing wood at 25 years. Maintenance sets where in the range a roof lands, because moisture-driven cupping, splitting, and rot accelerate on the shaded north slopes under Essex Fells\'s mature tree canopy, and a ventilated nailing base holding at least 1.5 inches of drying air space slows that failure, per Cedar Shake & Shingle Bureau install guidance.',
+    },
+    {
+      question: 'What fire rating does a cedar shake roof carry in Essex Fells?',
+      answer:
+        'Untreated cedar shakes and shingles are nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly. The product classes trace to the Cedar Shake & Shingle Bureau Certi-Guard program, and a Newark Quality Roofing replacement explains the cedar type and fire class before tear-off.',
     },
     {
       question: 'How much does cedar shake roof replacement cost in Essex Fells, NJ?',
-      answer: 'Most cedar shake roof replacement projects in Essex Fells range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Cedar shake roof replacement in New Jersey typically runs $10,000–$25,000, with premium cedar at $10 to $20-plus per square foot installed, per NHI Contractors NJ pricing, placing cedar above asphalt and below slate among NJ roofing materials. NJ ranges sit 10 to 40% above national figures because labor runs roughly 60 to 70% of a wood-roof install, per Modernize, and tear-off and deck repair add cost. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Cedar shake roof replacement in Essex Fells NJ -- premium treated cedar shake with shade-adapted installation for estate homes.',
+  metaDescription:
+    'Cedar shake roof replacement in Essex Fells NJ — full tear-off, ventilated base, fire-class cedar on custom homes. NJ-registered, fully insured, free estimate.',
   pricing: {
-    range: '$15,000–$32,000',
-    note: 'cedar shake roof replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Essex Fells\'s custom single-family homes on the borough\'s large Bowditch-plan lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free cedar shake roof replacement estimate in Essex Fells — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for cedar shake roof replacement in Essex Fells.',
+    urgencyNote: 'Addressing a failing cedar roof early limits deck rot and interior water damage.',
   },
 };

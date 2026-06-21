@@ -3,56 +3,68 @@ import type { ComboContent } from '../schema';
 export const northCaldwellBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'north-caldwell',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing built-up roofing across North Caldwell, New Jersey, and Essex County, restoring and replacing multi-ply BUR membranes on the borough\'s estate accessory structures and municipal and institutional buildings** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Built-up roofing** is a low-slope membrane that alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel, mineral granules, or a reflective coating. The multi-ply assembly shields the membrane from UV and impact.',
   overview: [
-    'Newark Quality Roofing delivers expert built up roofing in North Caldwell — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems on North Caldwell properties exist primarily as legacy installations on older commercial buildings and municipal structures that were constructed before modern single-ply membranes became the industry standard. The multi-layer BUR approach -- alternating plies of asphalt-saturated felt with hot-mopped bitumen and a gravel or cap sheet surface -- provided the flat roof waterproofing technology of its era and continues to protect several properties along the borough\'s limited commercial corridors.',
-    'Our [built-up roofing](/built-up-roofing) work in North Caldwell focuses on maintenance, repair, and strategic restoration of existing BUR systems that still have serviceable life remaining. For property owners managing the cost of commercial roof assets, restoring a BUR system at forty to fifty percent of replacement cost makes financial sense when the existing plies remain adhered and the insulation beneath is dry. Properties in nearby [Caldwell](/built-up-roofing-caldwell-nj) maintain similar legacy BUR systems on their older commercial buildings.',
-    'When full replacement becomes necessary, we transition North Caldwell commercial properties from BUR to modern single-ply systems that deliver equivalent or superior waterproofing with lower installed weight, better energy performance, and simpler long-term maintenance. This transition requires careful removal of the heavy existing BUR assembly and assessment of the deck structure that has supported several tons of roofing material for decades under [North Caldwell](/roofing-in-north-caldwell-nj) weather conditions.'
+    '**Newark Quality Roofing installs and restores built-up roofing** on the low-slope decks across North Caldwell, a wooded, large-lot residential borough where built-up roofing covers the estate accessory structures and municipal and institutional buildings, not its custom colonials and Tudors.',
+    '**Built-up roofing** alternates plies of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel or a reflective coating that shields the membrane from UV and impact, and it lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15 to 25 years, TPO at 7 to 20 years, and modified bitumen at 20 years.',
+    '**Estate accessory structures** carry most of the borough\'s built-up roofing, on the pool houses, detached garages, and carriage houses behind the large 1-plus-acre lots, where the multi-ply gravel surfacing absorbs the falling-branch impact the mature oak and maple canopy drives across North Caldwell\'s wooded grounds. A Newark Quality Roofing assessment sizes the ply count and surfacing against that exposure before tear-off.',
+    '**Municipal and institutional buildings** along Gould Avenue\'s civic complex and the borough\'s schools carry the larger low-slope sections, where built-up roofing concentrates failures at the flashing details and the surfacing, because water enters at one transition and the gravel migrates over decades. A Newark Quality Roofing assessment identifies the failed detail before resealing or resurfacing the system.',
   ],
   challenges: [
-    'Aging BUR systems in North Caldwell develop alligator cracking -- a pattern of surface fissures that signals oxidation and brittleness in the top asphalt layer. These cracks allow water to penetrate the surface course and begin saturating the felt plies beneath. On gravel-surfaced BUR, detecting these cracks requires displacing the gravel ballast to inspect the membrane surface, making visual assessment from ground level or even from drone imagery unreliable for evaluating BUR condition.',
-    'The weight of existing BUR assemblies on North Caldwell commercial buildings complicates both repair and replacement logistics. A four-ply BUR with gravel ballast weighs six hundred to eight hundred pounds per square, loading the roof structure with tons of dead weight that must be carefully removed during tear-off without overloading any single structural bay during the process. We plan removal sequences that distribute the weight reduction evenly across the roof structure.',
-    'Debris from North Caldwell\'s tree canopy embeds in gravel-surfaced BUR and accumulates in low spots where it retains moisture against the membrane surface. This organic debris accelerates biological deterioration of the exposed asphalt surface. Smooth-surfaced and cap sheet BUR systems handle debris more easily, but gravel-surfaced installations require periodic clearing that disturbs the ballast layer and can expose membrane surface to UV degradation.'
+    '**Mature tree canopy** is the defining North Caldwell stressor on a built-up roof, because the wooded large lots near the Hilltop Reservation drop leaves and branches that embed in gravel-surfaced BUR and hold moisture against the membrane.',
+    '**Gravel surfacing** hides the membrane condition on North Caldwell\'s built-up roofs, because detecting alligator cracking and surface oxidation requires displacing the ballast to inspect the plies, so a Newark Quality Roofing assessment cuts test cores rather than relying on a ground-level or aerial view.',
+    '**Ponding water** stresses the low-slope BUR on the borough\'s estate accessory and municipal structures, because a low-slope roof needs at least one-quarter inch per foot of slope to drain and ponding held more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing scope grades the deck to drain and rebuilds the flashing at parapets and rooftop penetrations.',
+    '**Assembly weight** complicates a North Caldwell BUR tear-off, because a multi-ply gravel-surfaced built-up roof loads the deck with tons of dead weight that comes off in a sequence that keeps the structure evenly loaded, per NRCA low-slope guidance. A Newark Quality Roofing crew stages removal to avoid overloading any single structural bay.',
   ],
   process: [
-    'BUR assessment in North Caldwell begins with core sampling to evaluate the condition of individual plies and underlying insulation. We cut small test cores at representative locations to inspect ply adhesion, moisture content in the insulation, and deck condition beneath the assembly. These cores reveal the true condition of the system that surface inspection alone cannot determine, and they guide our recommendation for repair, restoration, or full replacement.',
-    'For restoration projects, we remove loose gravel, clean and prime the existing surface, and apply a reinforced coating system that seals surface cracks and creates a new weathering layer over the existing plies. For full replacement, we remove the entire BUR assembly down to the structural deck, inspect and repair the deck structure, and install a modern single-ply system (typically TPO or EPDM) with tapered insulation for positive drainage.',
-    'Every BUR project in North Caldwell produces documentation of the existing system condition (including core sample analysis), the work performed, and the resulting warranty coverage. For restoration projects, we provide honest assessments of remaining expected service life so property owners can plan capital expenditures for eventual full replacement. For replacement projects, the modern system documentation includes manufacturer warranties, energy performance specifications, and maintenance schedules.'
+    '**Newark Quality Roofing assesses the BUR membrane, the surfacing, the flashing, and the drainage, then cuts test cores to read ply adhesion, insulation moisture, and deck condition before specifying repair, restoration, or replacement.** A low-slope roof needs at least one-quarter inch per foot of slope to drain, and ponding held more than 48 hours counts as a defect, per the NRCA and ARMA.',
+    '**Newark Quality Roofing restores a sound BUR roof through resurfacing rather than replacement, the lower-cost path when the plies hold.** A restoration consolidates or removes the existing gravel, repairs the damaged areas, and applies a new surfacing layer or a reflective coating over the existing plies, per NRCA maintenance guidance. Full removal to the deck applies when the existing roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4 and the NJ Rehabilitation Subcode.',
+    '**Newark Quality Roofing builds a replacement BUR assembly from alternating plies of reinforcing fabric and hot bitumen, surfaces the plies with gravel or a reflective coating, and details the flashing at penetrations and equipment curbs.** Each fully mopped ply adds an independent waterproofing layer, the multi-ply construction that gives built-up roofing a 30-year service life, per the InterNACHI life-expectancy chart, and a Newark Quality Roofing lead verifies ply adhesion, surfacing coverage, and positive drainage before issuing a written workmanship warranty on the labor.',
   ],
   faqs: [
     {
-      question: 'Should I repair or replace the built-up roof on my North Caldwell commercial property?',
-      answer: 'That decision depends on core sample analysis. If the existing plies are well-adhered, the insulation is dry, and the deck is sound, restoration coating can extend the roof life by ten to fifteen years at roughly forty percent of replacement cost. If core samples reveal wet insulation, delaminated plies, or deck deterioration, full replacement is the better investment because restoration would only seal moisture inside the assembly where it continues to cause damage.'
+      question: 'Do you need a permit for built-up roofing in North Caldwell, NJ?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. Because North Caldwell built-up roofing sits mostly on commercial, municipal, and accessory structures, the permit path applies once roof work exceeds 25% of the roof area in a 12-month period, filed with the Borough of North Caldwell Construction Department at 141 Gould Avenue.',
     },
     {
-      question: 'What replaces built-up roofing when full replacement is needed?',
-      answer: 'We typically recommend TPO or EPDM single-ply systems as BUR replacements in North Caldwell. Both deliver superior waterproofing with dramatically less weight, better energy performance, and simplified maintenance. The choice between TPO and EPDM depends on the specific building -- TPO for its reflective properties on sun-exposed roofs, EPDM for its flexibility and cost advantage on shaded properties. Either system provides a thirty-year-plus service life with proper maintenance.'
+      question: 'Does a historic commission restrict built-up roofing work in North Caldwell?',
+      answer:
+        'No Certificate of Appropriateness applies to a built-up roof anywhere in North Caldwell, because the borough\'s Historic Preservation Commission under Chapter 107, Article XIII is advisory and survey-only, with no locally designated district or landmark. The commission surveys, recommends, and advises but issues no Certificate of Appropriateness, and no North Caldwell property sits on the National or NJ State Register. Per the National Park Service, Register listing alone places no federal restriction on a private owner, so a North Caldwell low-slope reroof follows the standard N.J.A.C. 5:23-2.7 path.',
     },
     {
-      question: 'How long does a BUR restoration last on a North Caldwell building?',
-      answer: 'A properly executed BUR restoration using reinforced acrylic or silicone coating extends the system life by ten to fifteen years. The restoration creates a new weathering surface that protects the underlying plies from UV degradation, water infiltration, and thermal cycling. Annual inspection and maintenance of the restoration coating maximizes its protective lifespan.'
+      question: 'Should I restore or replace the built-up roof on my North Caldwell building?',
+      answer:
+        'Restore a built-up roof when the plies hold and the damage stays localized; replace it when damage exceeds 25 to 30% of the membrane or the leaks recur at the same detail. The flat-roof 25 to 30% replacement threshold is contractor consensus, per Parish, Modernize, and HomeGuide cost data, and recurring leaks signal a systemic failure regardless of damaged area, per HomeAdvisor. A Newark Quality Roofing core sample reads ply adhesion and insulation moisture before that decision.',
     },
     {
-      question: 'Is BUR removal hazardous on an occupied North Caldwell building?',
-      answer: 'BUR removal generates dust, debris, and potentially asphalt fumes that require containment measures on occupied buildings. We install dust barriers at building penetrations, schedule removal during off-hours when feasible, and use low-fume removal techniques. For North Caldwell commercial buildings in residential neighborhoods, we also manage noise and traffic impacts to minimize disruption to surrounding properties.'
+      question: 'What replaces built-up roofing when full replacement is needed in North Caldwell?',
+      answer:
+        'A North Caldwell BUR roof converts to EPDM at a 15-to-25-year life or TPO at a 7-to-20-year life, or installs a new multi-ply BUR system at a 30-year life, per the InterNACHI life-expectancy chart. Full removal to the deck applies when the existing roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing assessment matches the system to the building and its drainage before tear-off.',
     },
     {
-      question: 'How much does built up roofing cost in North Caldwell, NJ?',
-      answer: 'Most built up roofing projects in North Caldwell range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How much does built-up roofing cost in North Caldwell, NJ?',
+      answer:
+        'Commercial low-slope roofing in New Jersey runs $7 to $12 per square foot installed, and flat-roof repair runs $2.50 to $10 per square foot, per Josten Roofing NJ pricing and HomeGuide cost data. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, slope, surfacing, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Built-up roofing repair and replacement in North Caldwell NJ -- BUR restoration and modern system transitions for commercial properties.',
+  metaDescription:
+    'Built-up roofing in North Caldwell NJ — BUR restoration, resurfacing, and replacement on estate accessory and municipal low-slope roofs. Free written estimate.',
   pricing: {
-    range: '$5–$9/sq ft',
-    note: 'traditional built-up roofing system',
+    range: '$7–$12/sq ft for commercial low-slope systems',
+    note: 'Commercial low-slope roofing in NJ runs $7–$12 per square foot installed and flat-roof repair $2.50–$10 per square foot, per Josten Roofing NJ pricing and HomeGuide; final cost depends on roof size, slope, surfacing, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with North Caldwell\'s estate accessory and municipal low-slope built-up roofs on large wooded lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free built up roofing estimate in North Caldwell — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for built-up roofing in North Caldwell.',
+    urgencyNote: 'Addressing built-up roof damage early limits interior and structural water damage.',
   },
 };

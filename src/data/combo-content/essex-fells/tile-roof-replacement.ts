@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const essexFellsTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'essex-fells',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing tile roof replacement across Essex Fells, New Jersey, and Essex County, stripping the clay or concrete tile and worn underlayment to the deck** on the borough\'s large-lot custom single-family homes as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [
-    'Newark Quality Roofing delivers expert tile roof replacement in Essex Fells — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement on Essex Fells estate homes restores the Mediterranean, Spanish Colonial, and architectural tile roofing systems specified by architects who designed the borough\'s most distinctive residences. These tile installations -- original clay barrel mission tile, flat interlocking Ludowici profiles, and concrete tile simulating traditional clay forms -- reach replacement age through accumulated freeze-thaw damage, impact failure from falling branches, or underlayment deterioration that manifests as leaking despite intact tile surfaces above.',
-    'The tile replacement decision on Essex Fells properties involves the same architectural considerations as new specification: maintaining the home\'s design character through accurate tile profile selection. The architects who specified barrel mission tile on a 1930s Mediterranean revival estate chose that profile as an integral element of the home\'s architectural statement. Replacing the tile with a different profile -- or worse, substituting asphalt shingles for the removed tile -- fundamentally alters the home\'s architectural identity in ways that diminish both aesthetic value and property market position.',
-    'Our tile roof replacement practice in Essex Fells sources matching or compatible tile profiles from the original manufacturer when possible, through architectural salvage when originals are available, or from specialty fabricators when custom reproduction is required. This material sourcing capability ensures that tile replacement maintains the architectural continuity that Essex Fells estate owners expect, delivering a roof surface indistinguishable from the original installation in profile, color, and visual character.'
+    '**Newark Quality Roofing replaces clay and concrete tile roofs** across Essex Fells\'s large-lot custom single-family homes, the older period houses, and the borough\'s few municipal and institutional structures. Tile roof replacement strips the tile and the worn underlayment to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system.',
+    '**Clay and concrete tile** outlast the underlayment beneath them, where clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment fails well before the tile and is the real service-life limiter, per the Tile Roofing Industry Alliance and This Old House, so a Newark Quality Roofing tile replacement renews the underlayment and flashing while salvaging or matching the tile profile across the borough\'s custom-home stock.',
+    '**The worn underlayment** drives the replacement on Essex Fells\'s older homes, because original tile installations used felt underlayment that deteriorates beneath an intact tile surface and admits water at the worn detail. A Newark Quality Roofing replacement lifts the tile, repairs the sheathing deteriorated under the old felt, and installs a tile-rated underlayment that resets the service life on the layer that limits it.',
+    '**The mature tree canopy** loads the steep, complex rooflines of Essex Fells\'s custom homes, because the borough\'s trees run roughly 50 to 150 years old and form a unique canopy over the housing stock, the Bowditch design legacy, per the Borough of Essex Fells 2018 Master Plan. Leaf and branch debris collects in valleys and at chimney transitions, and a Newark Quality Roofing tile replacement rebuilds the valley, headwall, and chimney flashing where that debris and water concentrate.',
   ],
   challenges: [
-    'Structural weight implications of tile replacement require engineering verification identical to new tile installation. If the existing tile has been removed and replaced with lighter materials at some point, the framing may have relaxed under reduced load. If the replacement tile has a different weight-per-square than the original, load calculations must be updated. Structural adequacy verification by a licensed engineer precedes every Essex Fells tile replacement commitment.',
-    'Discontinued tile profiles from manufacturers no longer in production create sourcing challenges that can define the project timeline and cost. Salvaged tile from regional estate demolitions provides the closest match to original installations but availability is unpredictable. Ludowici Roof Tile maintains pattern archives and can produce limited reproduction runs of discontinued profiles with eight to twelve-week lead times. Custom fabrication from artisan tile makers provides a final option for profiles unavailable through standard or salvage channels.',
-    'Underlayment system upgrade during tile replacement addresses the hidden failure that often drives the replacement decision. Original tile installations on Essex Fells estates used felt underlayment that deteriorates over decades beneath the tile surface. Water passes through deteriorated felt despite intact tile above, producing interior leaking that tile replacement alone would not address. Modern self-adhered underlayment systems installed during replacement provide the waterproofing redundancy that the original felt system cannot offer after decades of service.'
+    '**Structural load verification** precedes every Essex Fells tile replacement, because tile is heavy and the deck and framing carry the tile dead load while the underlayment, not the tile, sets the service life. A Newark Quality Roofing assessment confirms the structure carries the tile weight and dates the underlayment that drives the replacement.',
+    '**Profile matching** defines the tile replacement on the borough\'s older custom homes, where the original clay or concrete tile reads as an integral element of the home\'s design. A Newark Quality Roofing tile replacement salvages sound tile and matches the profile and color of the replacement course, because tile cannot be patched and takes a matching-profile replacement.',
+    '**Deteriorated sheathing** surfaces at tear-off on Essex Fells\'s older stock, because water passing through failed felt underlayment rots the plywood or OSB deck beneath an intact tile surface, per GAF inspection guidance. A full tear-off to the bare deck exposes the rotted sheathing for replacement before the new underlayment and tile go down.',
+    '**Mature-canopy debris and flashing failure** concentrate at the valleys, headwalls, and chimney transitions of the steep custom rooflines, because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing, an industry estimate attributed to the NRCA, and the borough\'s 50-to-150-year canopy drops leaf and branch load into those transitions. A Newark Quality Roofing replacement rebuilds the flashing while the tile is off the deck.',
   ],
   process: [
-    'Tile replacement begins with the profile identification and sourcing process. We extract sample tiles for manufacturer identification and dimensional documentation. The manufacturer is contacted for current production availability. When the profile is discontinued, salvage sources and custom fabrication options are evaluated. Material commitment is secured before construction scheduling to prevent the schedule disruption that material unavailability creates during active construction.',
-    'Tear-off and structural assessment follow material procurement. Existing tile is carefully removed to preserve any salvageable units for future repair matching. Battens are removed, exposing the underlayment for assessment. Deck condition is evaluated at every location where the underlayment shows deterioration. Structural framing verification confirms load capacity for the replacement tile specification. Modern self-adhered underlayment is installed across the entire deck surface, with enhanced ice-and-water protection at eaves, valleys, and penetrations.',
-    'Tile installation follows manufacturer batten layout specifications for the specific profile and roof pitch. Battens are installed at calculated spacing to achieve proper tile overlap. Tiles are installed from eave to ridge, secured with the fastening method specified for the tile type -- typically stainless steel wire ties at every third course with full fastening at eaves, rakes, and high-wind zones. Ridge and hip tiles are bedded in flexible polymer mortar that accommodates thermal movement without cracking. Final inspection verifies tile alignment, fastener engagement, and drainage path continuity across every tile course.'
+    '**Newark Quality Roofing verifies the deck and framing carry the tile dead load, dates the underlayment that sets the service life, and identifies the tile profile before quoting the replacement.** A tile roof cannot be roofed-over, so the assessment plans a full tear-off to the deck, per N.J.A.C. 5:23-6.4, and salvage sources or matching-profile reproduction are confirmed before scheduling.',
+    '**Newark Quality Roofing strips the tile and the failed underlayment to the bare deck, repairs the sheathing, installs an ice barrier and a tile-rated underlayment, and re-lays the tile to manufacturer specification.** Complete removal of the existing tile covering is required by the NJ Rehabilitation Subcode, because a clay or concrete tile roof cannot be roofed-over and takes a full tear-off, per N.J.A.C. 5:23-6.4. The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code.',
+    '**Newark Quality Roofing salvages sound tile, matches the profile of the replacement course, and verifies the install against manufacturer specification at completion.** A crew runs a magnet sweep for nails at cleanup and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty that covers factory defects, per Integrity Home Exteriors verification and Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'Can you match the original tile on my Essex Fells estate?',
-      answer: 'We maintain relationships with Ludowici, US Tile, and European tile importers that can often match or closely reproduce original profiles. Discontinued profiles may be available through the manufacturer\'s archive production, through architectural salvage, or through custom fabrication. We identify the original tile manufacturer and profile during assessment and pursue matching through all available channels before presenting the closest available alternative.'
+      question: 'Do you need a permit to replace a tile roof in Essex Fells, NJ?',
+      answer:
+        'A complete re-roof of the tile covering on a detached one- or two-family home in Essex Fells counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A structural change to rafters or trusses to carry the tile load triggers a permit, and a municipal, institutional, or attached building requires a permit from the Borough of Essex Fells Building Department at Borough Hall, 255 Roseland Avenue, once roof work exceeds 25% of the roof area in 12 months.',
     },
     {
-      question: 'How long does a replacement tile roof last?',
-      answer: 'Quality clay tile provides seventy-five to one hundred years of service. Concrete tile provides forty to sixty years. These lifespans assume proper installation on adequate structure with modern underlayment systems. The modern underlayment installed during replacement adds waterproofing redundancy that the original installation lacked, potentially extending the period before the first significant maintenance intervention compared to the original tile installation\'s performance history.'
+      question: 'Does a historic district restrict tile roof replacement in Essex Fells?',
+      answer:
+        'Essex Fells maintains no local historic-preservation ordinance, no Historic Preservation Commission, and no Certificate-of-Appropriateness process, so a homeowner tile roof replacement in Essex Fells requires no historic-board approval. No "Essex Fells Historic District" exists on the National Register or the NJ State Register, and the borough\'s Bowditch planned-community heritage carries no private-owner restriction. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'Is concrete tile an acceptable substitute for original clay tile?',
-      answer: 'Modern concrete tile closely replicates many clay tile profiles with adequate visual similarity for most viewing distances. The material is lighter than clay (reducing structural demands), less expensive, and more readily available. The textural difference between concrete and clay is apparent at close range. For homeowners prioritizing exact material authenticity, clay replacement is recommended. For those prioritizing visual continuity with practical considerations, concrete tile provides a viable alternative.'
+      question: 'Can a tile roof be roofed over instead of torn off?',
+      answer:
+        'A tile roof cannot be roofed-over and takes a full tear-off to the deck, because the NJ Rehabilitation Subcode requires complete removal of an existing clay, cement, or slate tile covering before new roofing, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing tile replacement strips the tile and the failed underlayment to the bare sheathing, which exposes the deck rot common under the felt on Essex Fells\'s older custom homes for inspection and repair.',
     },
     {
-      question: 'What underlayment goes beneath replacement tile?',
-      answer: 'We install self-adhered ice-and-water shield membrane across the full deck surface for all Essex Fells tile replacements. This premium underlayment specification provides redundant waterproofing beneath the tile surface, compensating for the water management characteristics of tile roofing systems where wind-driven rain can penetrate between tiles and reach the underlayment layer. The full-coverage approach exceeds code minimum but provides the waterproofing assurance appropriate for the estate interiors these roofs protect.'
+      question: 'Why does a tile roof leak when the tile is still intact?',
+      answer:
+        'A tile roof leaks under intact tile when the underlayment beneath the tile fails, because the underlayment is the real service-life limiter and fails well before the tile, per the Tile Roofing Industry Alliance and This Old House. On Essex Fells\'s older custom homes, original felt underlayment deteriorates beneath sound tile and admits water at the worn detail, so a Newark Quality Roofing replacement lifts the tile, renews the underlayment and flashing, and re-lays the salvaged tile.',
+    },
+    {
+      question: 'How long does a replacement tile roof last in Essex Fells?',
+      answer:
+        'Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment fails well before the tile and is the real service-life limiter, per the Tile Roofing Industry Alliance and This Old House, so the tile-rated underlayment installed during replacement resets the period before the next intervention.',
     },
     {
       question: 'How much does tile roof replacement cost in Essex Fells, NJ?',
-      answer: 'Most tile roof replacement projects in Essex Fells range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Tile roof replacement in New Jersey falls in a typical new-roof range of $10,000 to $25,000, per HomeAdvisor and Modernize NJ cost data, with premium tile running $10 to $20-plus per square foot, per NHI Contractors. Clay tile carries a higher material cost than concrete tile, per the Tile Roofing Industry Alliance, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Tile roof replacement in Essex Fells NJ -- clay and concrete tile sourcing and installation for estate architectural restoration.',
+  metaDescription:
+    'Tile roof replacement in Essex Fells NJ — clay and concrete tile, underlayment renewal, full tear-off on custom homes. NJ-registered, free written estimate.',
   pricing: {
-    range: '$18,000–$40,000',
-    note: 'tile roof replacement installed',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Essex Fells\'s custom single-family homes on the borough\'s large Bowditch-plan lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free tile roof replacement estimate in Essex Fells — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for tile roof replacement in Essex Fells.',
+    urgencyNote: 'Renewing the underlayment beneath sound tile early limits interior and structural water damage.',
   },
 };

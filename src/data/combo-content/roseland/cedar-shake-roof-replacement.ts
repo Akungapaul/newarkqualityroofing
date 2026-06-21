@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const roselandCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'roseland',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing cedar shake roof replacement across Roseland, New Jersey, and Essex County, stripping aging cedar to the deck and installing new cedar over a ventilated base on the borough\'s tree-shaded postwar homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [
-    'Newark Quality Roofing delivers expert cedar shake roof replacement in Roseland — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Roseland restores the natural beauty and insulation performance of hand-split cedar on homes where aging shakes have reached the end of their service life. The weathering, curling, splitting, and moss colonization that signal exhausted cedar require replacement with fresh material to restore both weather protection and the distinctive aesthetic that cedar shake homeowners value. Our [cedar shake roof replacement](/cedar-shake-roof-replacement) service manages the complete process from material sourcing through installation and preservative treatment.',
-    'Replacement decisions for cedar shake roofs involve a fundamental choice: reinstall cedar to maintain the natural wood aesthetic, or transition to a different material that offers lower maintenance requirements. Both paths are valid, and our consultation presents each with honest assessment of cost, maintenance commitment, and visual outcome. Homeowners who love the cedar look and accept the maintenance responsibility invest in fresh cedar knowing what the material demands. Those who prefer reduced maintenance can transition to architectural shingles, composite shake profiles, or metal shingles that approximate cedar\'s appearance.',
-    'Fresh cedar shake installation provides measurable advantages beyond aesthetics. Western red cedar\'s natural insulation value -- roughly R-2 per inch -- exceeds any manufactured roofing material. The ventilation system required beneath cedar shakes contributes additional thermal buffer. Combined, these properties reduce heating and cooling energy consumption compared to conventional shingle installations. Property owners in [Millburn](/cedar-shake-roof-replacement-millburn-nj) who invest in cedar shake replacement value this combination of beauty and thermal performance.'
+    '**Newark Quality Roofing replaces hand-split cedar shake and sawn cedar shingle roofs** on the cedar-clad and period homes among Roseland\'s tree-shaded postwar colonials, ranches, split-levels, and Capes. Cedar shake roof replacement strips an aging wood roof to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar, rather than patching individual split shakes.',
+    '**Hand-split cedar shake and sawn cedar shingle** carry different service lives, where cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing wood at 25 years. Maintenance sets where in that range a Roseland cedar roof lands, because moisture-driven cupping, splitting, and rot end most cedar roofs.',
+    '**A ventilated nailing base** holds at least 1.5 inches of drying air space beneath the shakes, the airflow that slows the moisture-driven decay a cedar roof faces, per Cedar Shake & Shingle Bureau install guidance. Roseland\'s mature oak and maple canopy shades north-facing slopes that dry slowly, so a Newark Quality Roofing cedar install builds in the underside drying a wood roof requires.',
+    '**A full tear-off** is the only code-compliant path for cedar in Roseland, because N.J.A.C. 5:23-6.4 prohibits roofing over a wood-shake roof and over a water-soaked or deteriorated deck, per the NJ Rehabilitation Subcode. A Newark Quality Roofing replacement strips the old wood to the deck, replaces sheathing rotted under years of trapped moisture, and rebuilds the system from the deck up.',
   ],
   challenges: [
-    'Deck condition beneath aging cedar shakes is frequently worse than the visible shake condition suggests. The ventilation space beneath shakes -- necessary for shake performance -- also allows airborne moisture to reach the deck surface, and decades of exposure can deteriorate plywood and board sheathing at higher rates than solid-contact shingle installations produce. Our replacement projects include full deck inspection after shake removal, with contingency planning for the deck repair that aging cedar roof substrates frequently require.',
-    'Fire code compliance requirements have changed significantly since most Roseland cedar shake roofs were originally installed. Current NJ building code requires fire-retardant-treated shakes rated Class B or better. Untreated cedar carries Class C fire rating and may not satisfy current code requirements for replacement in some jurisdictions. We install only pressure-treated fire-retardant shakes that meet current code standards and provide the documentation that insurance carriers require.',
-    'Material quality variation in the cedar shake market creates risk for uninformed buyers. Premium grade hand-split shakes from reputable British Columbia mills deliver consistent quality and treatment. Lower-grade products with irregular thickness, excessive sapwood content, and inadequate fire treatment may cost less initially but fail prematurely and create insurance complications. Our sourcing uses exclusively certified mills with documented quality control and fire treatment verification.'
+    '**Deck rot beneath aging cedar** is frequently worse than the shake surface suggests, because the drying air space that cedar requires also lets airborne moisture reach the sheathing, decaying the plywood or board deck over decades. A Newark Quality Roofing replacement strips the cedar to bare deck and replaces deteriorated sheathing, the work N.J.A.C. 5:23-6.4 requires before new cedar goes on.',
+    '**Cedar fire class** governs material selection, because untreated cedar shakes and shingles are nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau Certi-Guard program. A Newark Quality Roofing cedar install documents the fire-class selection for the homeowner and any insurer.',
+    '**Mature-canopy debris and shaded slopes** stress a Roseland cedar roof harder than an open suburb, because the borough\'s heavy oak and maple canopy drops leaf load into valleys and keeps north-facing slopes damp. Moisture-driven cupping, splitting, and rot accelerate on slow-drying shaded slopes, per Cedar Shake & Shingle Bureau guidance, so a Newark Quality Roofing install builds in the underside drying that offsets the shade.',
   ],
   process: [
-    'Cedar shake replacement begins with existing roof removal. All shakes, the ventilation system or skip-sheathing, and compromised underlayment are stripped to the deck. The exposed deck surface receives thorough inspection -- every panel is evaluated for moisture damage, structural integrity, and fastener-holding capacity. Damaged panels are replaced with CDX plywood that matches existing thickness. The prepared deck provides the solid foundation for the new cedar system.',
-    'Underlayment and ventilation system installation follows deck preparation. Ice-and-water shield covers eaves, valleys, and penetrations. The ventilation mat or skip-sheathing system creates the airspace beneath the shakes that cedar requires for underside moisture management. This ventilation layer is the most critical component for cedar longevity -- without it, trapped moisture accelerates decay from below regardless of shake quality.',
-    'Cedar shake installation proceeds with fire-retardant-treated hand-split shakes installed at the specified exposure dimension with ring-shank stainless steel or hot-dipped galvanized nails. Copper flashings at valleys, walls, and penetrations complement cedar\'s natural longevity. Ridge caps complete the installation. UV-protective preservative application seals the fresh cedar surface during the initial exposure period. The homeowner receives a maintenance schedule for preservative reapplication and annual inspection that supports maximum cedar service life.'
+    '**Newark Quality Roofing rates the cedar roof against its 20-to-40-year shake and 30-to-50-year shingle service life, runs the InterNACHI flex test on suspect shakes, and checks the deck before quoting the replacement.** A shake that cracks under light bending fails the flex test and signals advanced degradation regardless of surface appearance, per the InterNACHI flex-test guidance, and cupping, splitting, and rot across more than 25 to 30% of the field crosses the contractor-consensus area threshold that favors replacement.',
+    '**Newark Quality Roofing selects new cedar by type and fire class and explains the wood fire ratings before tear-off.** Untreated cedar is nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is a tested assembly of fire-retardant shakes over a fire-retardant cap sheet, per the Cedar Shake & Shingle Bureau Certi-Guard program and InterNACHI.',
+    '**Newark Quality Roofing strips the cedar to the deck, repairs the sheathing, installs a ventilated nailing base, and lays the new cedar.** A full tear-off exposes the deck for replacement of plywood or OSB rotted under the old cedar, the work N.J.A.C. 5:23-6.4 requires because the NJ Rehabilitation Subcode prohibits roofing over wood shake, and a ventilated nailing base holds at least 1.5 inches of drying air space beneath the shakes, per Cedar Shake & Shingle Bureau install guidance.',
+    '**Newark Quality Roofing verifies the cedar install, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor.** The workmanship warranty is separate from the manufacturer material warranty that covers factory defects, and the crew contains debris with ground tarps before leaving the property, per Integrity Home Exteriors verification guidance.',
   ],
   faqs: [
     {
-      question: 'Should I replace my cedar shake roof with cedar again or switch materials?',
-      answer: 'The decision depends on your commitment to cedar\'s maintenance requirements and your appreciation for its natural appearance. Fresh cedar with proper maintenance provides 30 to 40 years of service with unmatched natural beauty and insulation. Architectural shingles cost less, require less maintenance, and last 25 to 30 years. Composite shake products offer a middle ground with shake aesthetics and moderate maintenance. We present all options with cost and maintenance comparisons during consultation.'
+      question: 'Do I need a permit to replace a cedar shake roof in Roseland, NJ?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Roseland counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit once roof work exceeds 25% of the roof area in 12 months, filed with the Borough of Roseland construction-code office at 300 Eagle Rock Avenue, and a structural change to rafters or trusses triggers a permit on any building.',
     },
     {
-      question: 'How much does cedar shake replacement cost compared to asphalt shingles?',
-      answer: 'Cedar shake replacement typically costs two to three times more than premium architectural asphalt shingles on a Roseland home. The premium covers the fire-treated western red cedar material, the ventilation system beneath the shakes, stainless steel fasteners, copper flashings, and the longer installation timeline that individual shake handling requires. The investment delivers superior insulation performance, natural beauty, and the distinctive character that manufactured products cannot replicate.'
+      question: 'Should I replace my Roseland cedar roof with cedar again or switch materials?',
+      answer:
+        'Replace cedar with cedar to keep the wood look and accept the maintenance, or switch to architectural asphalt, composite shake, or metal for lower upkeep. Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, while architectural asphalt lasts 30 years and metal 40 to 80 years, per the InterNACHI life-expectancy chart. A Newark Quality Roofing consultation presents each path with its cost, maintenance, and service-life trade-offs.',
     },
     {
-      question: 'How long will the new cedar shake roof last?',
-      answer: 'Quality fire-treated western red cedar shakes properly installed with ventilation and maintained on schedule provide 30 to 40 years of service in Roseland\'s climate. The maintenance commitment -- annual inspection, debris clearing, and preservative reapplication every 3 to 5 years -- directly affects longevity. Homeowners who maintain consistently achieve the upper end of this range. Deferred maintenance shortens life to 20 to 25 years.'
+      question: 'Can a new cedar roof go over the old cedar roof in Roseland?',
+      answer:
+        'A new cedar roof cannot go over an old cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a cedar replacement requires a full tear-off to the deck, per the NJ Rehabilitation Subcode. The tear-off also exposes the sheathing for replacement of plywood or OSB rotted under years of trapped moisture beneath the wood.',
     },
     {
-      question: 'Do you handle the fire treatment certification for insurance?',
-      answer: 'Yes, every cedar shake bundle we install carries documented fire-retardant pressure treatment certification. We retain copies of treatment certificates for every project and provide documentation to the homeowner for insurance company verification. The fire-treatment documentation demonstrates compliance with NJ building code requirements and satisfies the fire-rating verification that most insurance carriers require before issuing or renewing policies on cedar shake homes.'
+      question: 'Does a cedar roof replacement in Roseland need historic approval?',
+      answer:
+        'No Roseland homeowner is subject to a Certificate of Appropriateness absent a local designation. Roseland maintains a Landmarks and Historic District Commission and a Certificate-of-Appropriateness process for major alterations to designated properties under Chapter 30, Article IX, but the binding gate applies only to locally designated properties; no specific Roseland landmark, site, or district is confirmed to have been designated, and the ordinance requires owner consent before a residence can be designated. The Williams-Harrison House at 126 Eagle Rock Avenue is a National and New Jersey Register museum, and per the National Park Service, Register listing alone places no restriction on a private property owner. A Certificate of Appropriateness, where it ever applies, is a separate approval from the construction permit.',
+    },
+    {
+      question: 'How long does a new cedar shake roof last in Roseland?',
+      answer:
+        'Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing wood at 25 years. Maintenance sets where in that range a roof lands, because moisture-driven cupping, splitting, and rot, accelerated by Essex County freeze-thaw and Roseland\'s shaded mature canopy, end a cedar roof faster on slow-drying north slopes. A ventilated nailing base holding at least 1.5 inches of air space extends cedar service life, per Cedar Shake & Shingle Bureau install guidance.',
     },
     {
       question: 'How much does cedar shake roof replacement cost in Roseland, NJ?',
-      answer: 'Most cedar shake roof replacement projects in Roseland range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A typical roof replacement in New Jersey runs $10,000–$25,000, per HomeAdvisor and Modernize cost data, with premium cedar landing toward the upper end because labor accounts for roughly 60 to 70% of a wood-roof install, per Modernize. Hand-split shake costs more than sawn shingle, and fire-retardant-treated cedar adds the pressure-impregnation cost, per Cedar Shake & Shingle Bureau material guidance. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Cedar shake roof replacement in Roseland NJ -- fire-treated western red cedar with ventilation system for residential homes.',
+  metaDescription:
+    'Cedar shake roof replacement in Roseland NJ — full tear-off, ventilated nailing base, fire-class cedar on postwar homes. NJ-registered, free written estimate.',
   pricing: {
-    range: '$15,000–$32,000',
-    note: 'cedar shake roof replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium cedar lands toward the upper end, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Roseland\'s postwar single-family homes and Eisenhower Parkway office-park roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free cedar shake roof replacement estimate in Roseland — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for cedar shake roof replacement in Roseland.',
+    urgencyNote: 'Addressing cedar rot and deck moisture early limits interior and structural water damage.',
   },
 };

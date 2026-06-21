@@ -3,56 +3,74 @@ import type { ComboContent } from '../schema';
 export const northCaldwellTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'north-caldwell',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing tile roof replacement across North Caldwell, New Jersey, and Essex County, stripping clay or concrete tile and worn underlayment to the deck on the borough\'s custom estate and Tudor homes** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [
-    'Newark Quality Roofing delivers expert tile roof replacement in North Caldwell — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement on North Caldwell estates restores the Mediterranean, Spanish Colonial, and European-inspired homes where clay or concrete tile defines the architectural identity. When the existing tile has reached its service life or the underlayment beneath requires replacement, the project involves carefully removing the tile field, restoring the substrate, and reinstalling either salvaged original tiles or new material matched to the home\'s design character.',
-    'Our [tile roof replacement](/tile-roof-replacement) work on North Caldwell properties recognizes that the tiles themselves may be sound even when the underlayment beneath them has failed. Clay tiles with a 75-to-100-year lifespan frequently outlast the 30-to-40-year underlayment installed beneath them. In these cases, we carefully remove and store the existing tiles, replace the underlayment and battens, and reinstall the original tiles over the upgraded substrate. This approach preserves the original material and its authentic weathered appearance at lower cost than sourcing new matching tile.',
-    'When new tile is required, we source products from manufacturers that match the profile, color, and texture of the existing installation. For discontinued profiles, we work with specialty suppliers who stock rare tile formats or can fabricate custom profiles. The goal on every [North Caldwell](/roofing-in-north-caldwell-nj) tile replacement is seamless material continuity that preserves the architectural character the homeowner chose tile roofing to achieve. Homeowners in [Essex Fells](/tile-roof-replacement-essex-fells-nj) pursue similar tile restoration and replacement on their estate properties.'
+    '**Newark Quality Roofing replaces clay and concrete tile roofs** on North Caldwell\'s custom colonials, contemporaries, Tudors, and large estate homes on wooded, large-lot streets. Tile roof replacement strips the tile and the worn underlayment to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system.',
+    '**Clay and concrete tile** outlast the underlayment beneath them, where clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment is the real service-life limiter, failing well before the tile, per the Tile Roofing Industry Alliance and This Old House, so a Newark Quality Roofing tile replacement renews the underlayment and flashing while salvaging or matching the tile profile.',
+    '**The underlayment** drives the project on a North Caldwell tile roof, because interior leaks and ceiling stains appear under intact tile when the underlayment fails, per the Tile Roofing Industry Alliance and This Old House. A Newark Quality Roofing crew lifts and stores sound tile, replaces the underlayment and any deteriorated sheathing exposed at tear-off, and re-lays the salvaged tile, the sequence that resets the service life on the layer that limits it.',
+    '**Matching the tile profile** preserves the architectural character on the borough\'s custom estate and Tudor homes, because a tile roof cannot be patched and takes a matching-profile course where tile is replaced, per industry repair-vs-replace guidance. A Newark Quality Roofing tile replacement salvages sound tile, matches the profile and color of replacement tile to the existing roof, and reseals the valley, headwall, and chimney flashing that admits water at the transitions.',
   ],
   challenges: [
-    'Tile weight creates logistical challenges during replacement. Removing thousands of pounds of tile from the roof, storing it during substrate work, and returning it to the roof requires careful weight management on scaffolding, staging areas, and the ground around the property. We plan tile handling logistics before work begins, designating storage areas that protect both the tiles and the North Caldwell property\'s landscaping and surfaces.',
-    'Matching discontinued tile profiles for partial replacement or supplemental needs is a common sourcing challenge. Tile manufacturers occasionally discontinue profiles, and finding replacement pieces for roofs installed twenty or thirty years ago may require nationwide sourcing from salvage companies and specialty tile dealers. We begin the sourcing process early in project planning to identify matching material before the installation schedule is committed.',
-    'The structural framing beneath tile roofs on North Caldwell homes must be verified for capacity after decades of carrying the heavy tile load. While the framing has supported the weight throughout its service life, moisture damage, settling, and material degradation may have reduced the safety margin. Structural assessment during the replacement process confirms that the framing is adequate for the reinstalled or replacement tile load.'
+    '**Tile dead load** is the defining condition on a North Caldwell tile replacement, because tile is heavy and the deck and framing carry the load while the underlayment, not the tile, sets the service life. A Newark Quality Roofing assessment verifies that the structure carries the tile weight before the new tile is set, and a structural change to rafters or trusses triggers a construction permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.',
+    '**Tear-off to the deck** is unavoidable on a tile roof, because a clay or concrete tile covering cannot be roofed-over and the NJ Rehabilitation Subcode requires complete removal of the existing covering before new roofing, per N.J.A.C. 5:23-6.4. A full tear-off on a North Caldwell custom home exposes plank or plywood sheathing rotted under years of underlayment leakage, the deteriorated decking a Newark Quality Roofing crew replaces before the new underlayment goes down.',
+    '**Mature tree canopy** stresses tile roofs across North Caldwell\'s heavily wooded, large-lot streets and the Hilltop Reservation edge, per Essex County Parks, where leaf and branch debris collects in valleys and at chimney saddles and branch impact in a nor\'easter or summer storm fractures tile. A Newark Quality Roofing tile replacement clears the canopy debris, replaces the impact-broken tile in matching profile, and rebuilds the valley flashing the debris had blocked.',
+    '**Profile matching** challenges a North Caldwell tile replacement when a discontinued tile profile no longer ships, because tile cannot be patched and takes a matching-profile course, per industry repair-vs-replace guidance. A Newark Quality Roofing crew salvages sound tile for reuse and sources matching-profile replacement tile early in planning so the matched material arrives on the scheduled start date.',
   ],
   process: [
-    'Tile replacement begins with careful removal of the existing tile field. Each tile is evaluated for condition and reuse potential. Sound tiles are cleaned, sorted, and stored on-site for reinstallation. Damaged tiles are counted and specifications recorded for replacement sourcing. The exposed underlayment and battens are removed, and the deck is assessed for condition and repaired as needed.',
-    'New underlayment rated for tile application is installed over the repaired deck, followed by new pressure-treated battens at the spacing required for the specific tile profile. Tiles are reinstalled -- original or new -- with hurricane clips and mortar or dry-ridge systems per current wind code requirements. Hip and ridge tiles receive secure attachment that exceeds the requirements of the original installation to reflect updated wind resistance standards.',
-    'Quality verification includes alignment inspection from ground level at multiple positions around the property, confirming uniform coursing, consistent reveal, and proper ridge and hip detail finishing. The homeowner receives documentation of the tile specifications (original or replacement), underlayment details, and the warranty coverage for all new components. A reserve stock of matching tiles is stored for the homeowner\'s future repair needs.'
+    '**Newark Quality Roofing verifies the deck and framing carry the tile dead load, dates the underlayment that sets the service life, and rates the tile and flashing condition before quoting the tile replacement.** Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, and the underlayment fails well before the tile, per the Tile Roofing Industry Alliance and This Old House, so a Newark Quality Roofing assessment confirms structural capacity for the tile weight and dates the underlayment that drives the replacement.',
+    '**Newark Quality Roofing strips the tile and the failed underlayment to the bare deck, salvages sound tile, and replaces deteriorated sheathing.** A tile roof cannot be roofed-over and takes complete removal of the existing covering to the deck, per N.J.A.C. 5:23-6.4, exposing the North Caldwell custom home\'s plank or plywood sheathing for inspection and replacement where years of underlayment leakage have rotted it.',
+    '**Newark Quality Roofing installs an ice barrier and a tile-rated underlayment, then re-lays salvaged and matching tile to manufacturer specification.** The IRC R905.1.2 ice-barrier provision requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the International Residential Code, and a Newark Quality Roofing crew applies the tile-rated underlayment across the repaired deck before re-laying the tile in matching profile.',
+    '**Newark Quality Roofing verifies the tile install, runs a magnet sweep for nails at cleanup, and documents the completed roof with photographs.** A lead checks the coursing, reveal, and ridge and hip detail against manufacturer specification and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Integrity Home Exteriors verification and Owens Corning warranty guidance, with the documentation supporting the owner\'s record and any insurance claim.',
   ],
   faqs: [
     {
-      question: 'Can the existing tiles on my North Caldwell home be reused during replacement?',
-      answer: 'In many cases, yes. If the tiles are structurally sound with intact surfaces and the replacement is driven by underlayment failure rather than tile deterioration, we carefully remove, store, and reinstall the existing tiles over the new substrate. The salvage rate depends on tile condition and how carefully the removal is executed. We typically salvage 60 to 80 percent of well-maintained clay tiles for reinstallation.'
+      question: 'Why does my North Caldwell tile roof leak when the tile is still intact?',
+      answer:
+        'A tile roof leaks under intact tile when the underlayment beneath the tile fails, because the underlayment is the real service-life limiter and fails well before the tile, per the Tile Roofing Industry Alliance and This Old House. A Newark Quality Roofing tile replacement lifts the tile, renews the underlayment and flashing, and re-lays the salvaged tile over the repaired deck.',
     },
     {
-      question: 'How long does tile roof replacement take on a North Caldwell estate?',
-      answer: 'Tile replacement is one of the most time-intensive residential roofing projects. Plan for three to five weeks for a typical North Caldwell estate tile roof, including tile removal and storage, substrate replacement, and tile reinstallation. Projects requiring new tile sourcing from specialty suppliers may extend the timeline to accommodate delivery schedules. We maintain temporary waterproofing throughout the project to protect the home during the extended installation period.'
+      question: 'How long does a tile roof last before replacement on a North Caldwell estate?',
+      answer:
+        'Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment fails well before the tile and is the real service-life limiter, per the Tile Roofing Industry Alliance and This Old House, so a tile replacement on a North Caldwell estate renews the underlayment while salvaging the long-lived tile.',
     },
     {
-      question: 'What is the difference between clay and concrete tile for replacement?',
-      answer: 'Clay tile lasts longer (75-100 years versus 40-60 years for concrete), weighs slightly more, and costs more. Clay maintains its color permanently because the color is integral to the fired ceramic material. Concrete tile color is applied as a surface coating that can fade or wear over decades. For North Caldwell homes with existing clay tile, we recommend clay replacement to maintain material continuity and lifespan expectations.'
+      question: 'Can a North Caldwell tile roof be roofed over instead of torn off?',
+      answer:
+        'A tile roof cannot be roofed-over and takes a full tear-off to the deck, because the NJ Rehabilitation Subcode requires complete removal of an existing clay, cement, or slate tile covering before new roofing, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing tile replacement strips the tile and the failed underlayment to the bare sheathing for inspection and repair of the North Caldwell custom home\'s deck.',
     },
     {
-      question: 'Does tile replacement require structural reinforcement on my North Caldwell home?',
-      answer: 'If the home was originally built for tile roofing, the framing was designed for the load and typically does not require reinforcement for replacement with the same material. If you are transitioning from a lighter material to tile, structural assessment and likely reinforcement are necessary. Even for like-for-like replacement, we verify structural condition during the project since decades of service may have affected the framing capacity.'
+      question: 'Do I need a permit or historic approval to replace a tile roof in North Caldwell?',
+      answer:
+        'A complete re-roof of the tile covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code; a commercial roof or a structural change to carry the tile load does require a permit from the Borough of North Caldwell Construction Department at 141 Gould Avenue. No Certificate of Appropriateness applies to a homeowner\'s reroof anywhere in North Caldwell, because the borough\'s Historic Preservation Commission under Chapter 107, Article XIII is advisory and survey-only, with no locally designated district or landmark. Per the National Park Service, Register listing alone places no restriction on a private owner.',
+    },
+    {
+      question: 'Does a North Caldwell home structure carry the weight of a tile roof?',
+      answer:
+        'A tile roof is heavy, so the deck and framing carry the tile dead load, and a Newark Quality Roofing assessment verifies the structure before setting new tile. A structural change to rafters or trusses to carry the tile load triggers a construction permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance re-roof exemption, per the NJ Uniform Construction Code.',
     },
     {
       question: 'How much does tile roof replacement cost in North Caldwell, NJ?',
-      answer: 'Most tile roof replacement projects in North Caldwell range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Tile roof replacement in New Jersey runs $10 to $20-plus per square foot for premium tile, per NHI Contractors, against a typical NJ new-roof range of $10,000 to $25,000, per HomeAdvisor and Modernize NJ cost data. Clay tile carries a higher material cost than concrete tile, per the Tile Roofing Industry Alliance. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Tile roof replacement in North Caldwell NJ -- clay and concrete tile restoration for estate homes with original tile salvage and matching.',
+  metaDescription:
+    'Tile roof replacement in North Caldwell NJ — clay and concrete tile to the deck, new underlayment, salvaged and matching tile on estate homes. Free estimate.',
   pricing: {
-    range: '$18,000–$40,000',
-    note: 'tile roof replacement installed',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize, with premium tile running $10 to $20-plus per square foot per NHI Contractors; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with North Caldwell\'s custom colonials, contemporaries, and Tudors on large wooded lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free tile roof replacement estimate in North Caldwell — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for tile roof replacement in North Caldwell.',
+    urgencyNote: 'Addressing failed underlayment under intact tile early limits interior and structural water damage.',
   },
 };

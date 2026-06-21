@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const essexFellsFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'essex-fells',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across Essex Fells, New Jersey, and Essex County, tearing off the charred covering and deck and rebuilding a Class A fire-rated roof** on the borough\'s custom single-family homes as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in Essex Fells — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement on Essex Fells estate properties addresses the structural and material restoration required after fire compromises the roof assembly -- from localized chimney fires affecting adjacent roof sections to catastrophic structural fires requiring complete roof reconstruction. The estate scale of Essex Fells homes and the premium materials involved create fire restoration projects of extraordinary complexity, often requiring structural engineering, architect coordination, and material procurement timelines that extend well beyond standard residential fire restoration practice.',
-    'The wooded environment surrounding Essex Fells estates creates both fire risk factors and fire response challenges unique to the borough. Embers from chimney fires can ignite cedar shake roofing and accumulate in leaf-filled gutters. Wildfire ember exposure during dry conditions threatens homes surrounded by mature hardwood forest. Fire department access through narrow, wooded estate driveways can delay response times. These risk factors inform our post-fire assessment approach, which evaluates not only the immediate fire damage but also the fire resistance improvements available during reconstruction.',
-    'Our fire damage roof replacement capability coordinates the engineering assessment, insurance claims management, material specification, and phased reconstruction that Essex Fells estate fire restoration requires. We partner with structural engineers to evaluate framing integrity, coordinate with architects on material specification for the replacement system, and manage the insurance documentation that high-value property fire claims demand. This multi-disciplinary coordination delivers complete roof system restoration rather than the surface-level repair that simpler fire damage scenarios might permit.'
+    '**Newark Quality Roofing replaces fire-damaged roofs** on Essex Fells\'s large-lot custom single-family homes, tearing off the **charred covering and deck**, replacing **heat-weakened framing** to a structural assessment, and rebuilding a **Class A fire-rated roof** to current code.',
+    '**The charred covering and deck** come off to the framing, because the char layer carries essentially zero residual structural capacity and is removed, and a water-soaked or deteriorated deck is not an adequate base, per the U.S. Forest Products Laboratory and N.J.A.C. 5:23-6.4. A Newark Quality Roofing tear-off strips the burned covering and the firefighting-water-saturated decking to sound wood.',
+    '**Heat-weakened framing** is rebuilt to a licensed structural engineer\'s post-fire assessment, because the char layer carries essentially zero residual structural capacity and the heat-affected zone beneath retains only roughly 85–90% of original strength, per the U.S. Forest Products Laboratory and the American Wood Council. A Newark Quality Roofing crew performs the roofing to that engineering assessment and current code.',
+    '**A Class A fire-rated roof** rebuilds the assembly from a roof covering classified under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant rating. On the borough\'s older custom stock, natural slate, metal, and copper detail many roofs, and a Newark Quality Roofing rebuild matches the covering and assembly to the Class A rating.',
   ],
   challenges: [
-    'Structural assessment after fire damage determines whether existing framing can be retained or must be replaced -- a determination that fundamentally affects project scope, cost, and timeline. Fire exposure weakens structural lumber through charring that reduces cross-sectional area and heat-induced changes to wood fiber strength. A rafter that appears intact may have lost thirty percent of its structural capacity through charring on concealed surfaces. Licensed structural engineering evaluation is mandatory before any load-bearing reconstruction decision on fire-damaged Essex Fells estate framing.',
-    'Smoke and heat damage to roofing materials extends beyond the directly burned area, creating replacement scope that may surprise homeowners expecting localized repair. Slate exposed to intense heat develops micro-fractures that compromise weathering resistance. Copper flashings subjected to fire temperatures may undergo metallurgical changes affecting solderability and corrosion resistance. Cedar shake absorbs smoke compounds that produce persistent odor. The replacement boundary must encompass all heat-and-smoke-affected material, not just the visibly charred sections.',
-    'Insurance claim complexity for fire damage on Essex Fells estates involves building code upgrade requirements, material specification disputes, and additional living expense coordination for extended reconstruction timelines. Current building codes may mandate upgrades beyond replacing the fire-damaged system with equivalent materials -- improved fire rating, updated wind-uplift resistance, enhanced ventilation standards. These code-mandated improvements are typically covered by ordinance-or-law provisions in the homeowner\'s policy, but documenting and claiming them requires specific policy analysis and supplemental documentation.'
+    '**Deteriorated sheathing and charred framing** define a fire rebuild on Essex Fells\'s older custom homes, because turn-of-the-century to mid-century stock often hides aged decking that the fire and firefighting water finish off. A Newark Quality Roofing tear-off exposes the framing and replaces the char-weakened and saturated members to the structural engineer\'s assessment.',
+    '**Smoke, heat, and water damage** extend past the visibly burned area, because acidic soot keeps corroding metal connectors and firefighting water saturates decking, insulation, and framing, per ANSI/IICRC S700 and the U.S. Forest Products Laboratory. Smoke staining alone does not structurally weaken wood, so the replacement boundary follows the char, the heat-affected zone, and the metal corrosion, not the soot line.',
+    '**Mature-canopy debris** loads the valleys, gutters, and complex transitions of Essex Fells\'s wooded large lots, where the borough\'s roughly 50-to-150-year-old tree canopy drops leaves and branches, the Bowditch design legacy, per the Borough of Essex Fells 2018 Master Plan. A Newark Quality Roofing fire rebuild reflashes the chimney, wall, and valley details where debris and water concentrate on the new covering.',
+    '**Fire-claim documentation** falls to the owner-occupant on Essex Fells\'s overwhelmingly owner-occupied stock, where about 97% of units are single-family detached and roughly 96–98% owner-occupied, per the Borough of Essex Fells 2018 Master Plan and the U.S. Census Bureau. A Newark Quality Roofing crew photographs the fire, heat, and water damage and writes a detailed scope for the homeowner\'s record and the adjuster.',
   ],
   process: [
-    'Fire damage assessment begins after the fire department releases the property for re-entry. We survey the entire roof structure in coordination with a structural engineer, documenting char depth on framing members, heat exposure patterns on roofing materials, and smoke damage extent on adjacent undamaged sections. The assessment distinguishes between structural damage requiring engineering solutions, material damage requiring replacement, and cosmetic damage that may not require immediate intervention. The resulting report serves both the insurance claim and the reconstruction specification.',
-    'Reconstruction specification addresses structural repair, material replacement, and code-mandated improvements as an integrated project. Structural repairs are designed by the engineering firm and executed by licensed framing contractors under engineering observation. Roofing material specification matches or upgrades the pre-fire system based on the homeowner\'s preference and insurance coverage. Code-required improvements -- fire-rated underlayment, enhanced ventilation, updated wind resistance -- are specified as integral components of the reconstruction.',
-    'Phased execution follows the structural-then-surface sequence: framing repair and engineering verification first, then deck installation or repair, underlayment and waterproofing systems, and finally roofing surface material. Each phase is documented for the insurance file with progress photographs and material receipts. Structural work receives engineering sign-off before roofing proceeds. The completed project restores the estate roof to pre-fire condition or better, with documentation supporting final insurance claim settlement and establishing the reconstruction record for future property reference.'
+    '**Newark Quality Roofing surveys the fire-damaged roof assembly with a licensed structural engineer, documenting char depth, heat exposure, and saturation across covering, deck, and framing.** A fire-damaged roof receives a formal post-fire structural assessment, often by a licensed structural engineer, before reconstruction, and charred, heat-compromised members are replaced rather than roofed over, per the U.S. Forest Products Laboratory and EDT Engineers.',
+    '**Newark Quality Roofing tears off the charred covering and saturated decking to the framing, then replaces the char-weakened rafters, trusses, and sheathing to the engineer\'s assessment and current code.** The char layer carries essentially zero residual structural capacity and is removed, and a water-soaked or deteriorated deck requires full removal, per the American Wood Council and N.J.A.C. 5:23-6.4, with the engineer setting the framing scope and Newark Quality Roofing performing the roofing.',
+    '**Newark Quality Roofing rebuilds a Class A fire-rated roof to manufacturer specification, documents the work with photographs, and runs a magnet sweep at cleanup.** A roof covering rates Class A, B, or C under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant, and the documentation supports the homeowner\'s record and the insurance file while a written workmanship warranty backs the labor.',
   ],
   faqs: [
     {
-      question: 'How do you determine if fire-damaged roof framing can be saved?',
-      answer: 'Structural engineering evaluation measures char depth on exposed framing members and calculates remaining structural capacity against required load ratings. Framing with superficial charring may retain adequate capacity after surface cleaning. Members with deep charring or heat-induced fiber degradation require sistering, reinforcement, or full replacement. The engineering determination is mandatory -- visual assessment alone cannot confirm structural adequacy of fire-exposed lumber.'
+      question: 'Should you repair or replace a fire-damaged roof in Essex Fells?',
+      answer:
+        'Replace a fire-damaged roof when fire reaches the structure, char weakens the framing, or damage exceeds 25–30% of the roof area; repair a roof only when fire damage stays surface-localized on sound framing. The char layer carries essentially zero residual structural capacity and is removed, per the U.S. Forest Products Laboratory, and the 25–30% area rule favors full replacement, per roofing industry guidance.',
     },
     {
-      question: 'Will my insurance cover code upgrades required during fire reconstruction?',
-      answer: 'Most high-value property policies include ordinance-or-law coverage that pays for code-mandated upgrades during reconstruction. Standard policies may include this coverage or offer it as an endorsement. We identify applicable code requirements during specification and document them separately from the damage replacement scope, enabling clear claims presentation for the upgrade costs. Review your policy\'s ordinance-or-law provisions or consult your agent to confirm coverage before reconstruction begins.'
+      question: 'Do I need a permit for a fire damage roof replacement in Essex Fells?',
+      answer:
+        'A full tear-off and replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. Replacing charred rafters or trusses is a structural change that triggers a permit, filed with the Borough of Essex Fells Building Department at Borough Hall, 255 Roseland Avenue. On a municipal, institutional, or attached building, repairing more than 25% of the roof area in a 12-month period also requires a permit.',
     },
     {
-      question: 'How long does fire damage roof reconstruction take on an Essex Fells estate?',
-      answer: 'Reconstruction timelines depend on structural damage extent and material procurement requirements. Localized fire damage with sound structural framing may permit roofing reconstruction within four to eight weeks of insurance approval. Structural fire damage requiring engineering design, framing reconstruction, and premium material procurement can extend the timeline to three to six months. We provide a phased project schedule during the specification phase that accounts for engineering, procurement, and construction sequencing.'
+      question: 'Does a fire roof replacement in Essex Fells need historic-board approval?',
+      answer:
+        'No historic-board approval applies to a roof replacement in Essex Fells. The borough maintains no local historic-preservation ordinance, no Historic Preservation Commission, and no Certificate-of-Appropriateness process, so a homeowner reroof requires no historic approval. No "Essex Fells Historic District" exists on the National Register or the NJ State Register, and per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
     },
     {
-      question: 'Should I upgrade to more fire-resistant roofing material during reconstruction?',
-      answer: 'Fire reconstruction presents the optimal opportunity to improve roof fire resistance. Class A fire-rated materials -- metal, tile, certain treated slate -- provide the highest fire resistance. Fire-treated cedar shake offers improved resistance over untreated wood. Fire-resistant underlayments and deck treatments add secondary protection beneath any surface material. We present fire-resistance options during material consultation, particularly for Essex Fells properties surrounded by mature forest where wildfire ember exposure is a recognized risk.'
+      question: 'Does Newark Quality Roofing handle the fire insurance claim?',
+      answer:
+        'Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so it inspects and photographs the fire damage, writes a detailed scope and estimate, meets the adjuster on site, and performs the approved roofing. In New Jersey, only a licensed public adjuster or an attorney negotiates or settles the claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B, so the homeowner or a public adjuster files and negotiates it. The deductible stays the homeowner\'s responsibility under the policy.',
+    },
+    {
+      question: 'What fire rating does a replacement roof carry in Essex Fells?',
+      answer:
+        'A replacement roof covering carries a Class A, B, or C fire rating under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant. Untreated cedar is non-classified on its own, fire-retardant-treated cedar reaches Class B or C, and a Class A wood-shake roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau and InterNACHI. On the borough\'s wooded large lots, a Class A rebuild adds fire resistance during reconstruction.',
     },
     {
       question: 'How much does fire damage roof replacement cost in Essex Fells, NJ?',
-      answer: 'Most fire damage roof replacement projects in Essex Fells range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage roof replacement adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Josten Roofing and Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement in Essex Fells NJ -- structural assessment and estate reconstruction with insurance coordination.',
+  metaDescription:
+    'Fire damage roof replacement in Essex Fells NJ — char tear-off, structural rebuild to assessment, Class A fire-rated roof. NJ-registered, free written estimate.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; fire damage adds structural framing and decking replacement. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Essex Fells\'s custom single-family homes on the borough\'s large Bowditch-plan lots.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in Essex Fells — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in Essex Fells.',
+    urgencyNote: 'Addressing fire damage early limits interior and structural water damage and supports the insurance claim.',
   },
 };

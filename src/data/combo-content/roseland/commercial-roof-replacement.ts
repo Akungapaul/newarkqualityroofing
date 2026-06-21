@@ -3,56 +3,73 @@ import type { ComboContent } from '../schema';
 export const roselandCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'roseland',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof replacement across Roseland, New Jersey, and Essex County, stripping low-slope membrane to the deck and installing new insulation-and-membrane systems on the Eisenhower Parkway and Becker Farm Road office-park buildings** as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [
-    'Newark Quality Roofing delivers expert commercial roof replacement in Roseland — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Roseland transitions aging membrane systems on the borough\'s office buildings and business properties to modern roofing assemblies with improved insulation, energy performance, and warranty coverage. When repair costs accumulate, membrane integrity declines systemically, or insulation moisture renders the existing assembly ineffective, planned replacement provides better long-term value than continued reactive maintenance. Our [commercial roof replacement](/commercial-roof-replacement) manages the full process from system specification through installation, tenant coordination, and warranty documentation.',
-    'The corporate office buildings along Eisenhower Parkway are entering replacement cycles as the membrane systems installed during the 1990s and 2000s reach their design life limits. These large-scale replacements represent significant capital projects requiring engineering specification, competitive bidding, tenant disruption planning, and multi-week execution timelines. Our commercial division manages projects at this scale with the project management resources, crew capacity, and manufacturer relationships that corporate property standards require.',
-    'Smaller commercial replacements on Roseland\'s Eagle Rock Avenue buildings demand the same system quality with greater scheduling flexibility. Single-story retail buildings and professional offices can often be re-roofed over a weekend, minimizing business disruption. Our ability to scale crew size and equipment deployment between corporate campus projects and small commercial buildings serves Roseland\'s full range of commercial property types effectively. Property managers in [North Caldwell](/commercial-roof-replacement-north-caldwell-nj) similarly rely on our scalable commercial capabilities.'
+    '**Newark Quality Roofing replaces the low-slope membrane roofs on Roseland\'s Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office-park buildings**, stripping the existing covering to the deck and installing a new insulation-and-membrane system. Commercial roof replacement rebuilds the entire weatherproof assembly on a roof past its service life rather than patching a failed seam.',
+    '**The office-park corridor** along Eisenhower Parkway, Becker Farm Road, and Livingston Avenue — the corridor where ADP was long headquartered and Lowenstein Sandler occupies a redeveloped headquarters — carries the borough\'s flat and low-slope EPDM, TPO, and modified-bitumen decks, where EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart. A Newark Quality Roofing replacement matches the new membrane to the building, the drainage, and the Essex County climate before tear-off.',
+    '**Membrane replacement** crosses from repair when damage spans more than 25 to 30% of the roof area, when leaks recur at the same location, or when core samples show saturated insulation across a majority of the roof, the threshold above which full replacement costs less than continued spot repair, per Parish, Modernize, and HomeGuide flat-roof guidance. A Newark Quality Roofing replacement rebuilds the entire weatherproof assembly to manufacturer specification.',
+    '**Residential flat and low-slope sections** on Roseland\'s postwar single-family stock take the same commercial-grade EPDM, TPO, and modified-bitumen membrane, where a complete tear-off and replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code.',
   ],
   challenges: [
-    'Occupied building logistics during commercial replacement require phased execution that maintains weathertight conditions throughout the project. Large roofs are divided into work zones, with each zone completed and weatherproofed before the adjacent zone is opened. Temporary barriers protect the completed work from construction activity in adjacent zones. This phased approach extends the project timeline compared to unrestricted open-building work but eliminates the interior damage risk that exposes the building owner to liability.',
-    'Energy code compliance during replacement mandates insulation upgrades that the original installation did not include. Current NJ commercial energy code requires R-values that significantly exceed the insulation levels installed in Roseland commercial buildings during the 1990s. Meeting current code during replacement adds insulation thickness that may affect parapet heights, drain elevations, and equipment curb details. Our specifications account for these dimensional changes during the design phase.',
-    'Existing rooftop equipment must be addressed during replacement. HVAC condensers sitting on curbs need temporary support or disconnection during membrane work around them. Equipment installed directly on the membrane must be raised, the membrane replaced beneath, and the equipment reset on proper curbs. Some aging equipment is most cost-effectively replaced during the roofing project rather than temporarily relocated and returned to service on the new membrane.'
+    '**Occupied office buildings** along the Eisenhower Parkway and Becker Farm Road corridor require phased work that keeps each section weathertight, because a corporate-tenant building stays in service during the replacement. A Newark Quality Roofing replacement strips and re-covers the roof in managed sections so no zone sits open to the weather overnight.',
+    '**Wet insulation** hides under an intact-looking membrane and points toward replacement rather than a surface patch, because saturated insulation has lost both its waterproofing and its thermal value. An ASTM C1153 infrared moisture survey maps the wet insulation as a warm anomaly after sunset and a core cut verifies each reading, per ASTM and the NRCA, before a Newark Quality Roofing tear-off.',
+    '**Ponding water** standing on a Roseland office-park flat roof more than 48 hours counts as a defect that ages the membrane, because a low-slope roof requires at least one-quarter inch per foot of slope to drain, per the NRCA and ARMA. A Newark Quality Roofing replacement builds tapered insulation to positive drainage so the new deck sheds water rather than holding it.',
+    '**Western-edge drainage** loads the low-slope decks on Roseland\'s lower-lying parcels nearest the Passaic River and West Essex Park, where part of the borough sits within the FEMA Special Flood Hazard Area, per the Borough of Roseland Master Plan, while the office corridors and most neighborhoods sit on higher developed ground. A Newark Quality Roofing replacement grades the deck to drain and rebuilds sound parapet and penetration flashing.',
   ],
   process: [
-    'Commercial replacement begins with existing system evaluation and specification development. Core testing reveals insulation condition, structural deck assessment verifies capacity for the new assembly weight, and equipment inventory identifies every rooftop element that must be integrated. The replacement specification defines membrane type, insulation system, attachment method, edge details, and warranty tier. For competitive bidding, the specification provides the quality standard that ensures all proposals represent equivalent systems.',
-    'Execution follows the phased work plan developed for each building. Material staging, crew deployment, and daily completion targets are planned to maintain the schedule while ensuring quality at every step. Daily progress updates to the property manager maintain communication throughout the project. Quality verification includes insulation attachment testing, seam weld testing, and photographic documentation of every flashing and edge detail.',
-    'Project closeout delivers the documentation package that commercial property management requires -- manufacturer warranty certificates, as-built drawings, maintenance schedules, emergency contact information, and photographic records of the completed installation. Equipment curb modifications, drain locations, and walkpad positions are documented for the facility management team. The closeout package supports both the ongoing maintenance program and the property asset records that ownership requires.'
+    '**Newark Quality Roofing assesses the deck, the insulation, the drainage, and the NJ code triggers before quoting a Roseland commercial replacement**, because a tear-off exposes saturated insulation, deck deterioration, and ponding the surface inspection misses. An ASTM C1153 infrared moisture survey locates the wet insulation under the membrane and a core cut verifies each anomaly, per ASTM and the NRCA.',
+    '**Newark Quality Roofing matches the new commercial system to the building, the drainage, and the Essex County climate** from EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal, where EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance. A commercial roof replacement requires a permit under N.J.A.C. 5:23-2.7, filed with the Borough of Roseland construction-code office at 300 Eagle Rock Avenue.',
+    '**Newark Quality Roofing strips the existing covering to the deck, repairs the deck, builds tapered insulation to positive drainage, and installs the new membrane to manufacturer specification.** The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. Installing to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How long does a commercial roof replacement take on a Roseland office building?',
-      answer: 'Duration depends on building size, system complexity, and tenant coordination requirements. A 10,000-square-foot office building typically requires 7 to 12 working days. Larger corporate buildings of 50,000 square feet or more may require 4 to 8 weeks. Phased execution on occupied buildings extends the timeline by approximately 25 percent compared to unrestricted access. We provide a detailed schedule with daily milestones during project planning.'
+      question: 'Do you need a permit for a commercial roof replacement in Roseland, NJ?',
+      answer:
+        'A roof replacement on a commercial, multi-family, or attached building in Roseland requires a construction permit, because the ordinary-maintenance exemption covers only the repair of up to 25% of the roof area in a 12-month period. That threshold sits in N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code, and the permit is filed with the Borough of Roseland construction-code office at 300 Eagle Rock Avenue. The Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office-park buildings are the natural place this commercial permit path applies.',
     },
     {
-      question: 'Should we upgrade to a different membrane type during replacement?',
-      answer: 'Replacement is the optimal time to evaluate membrane options. Buildings currently under EPDM may benefit from converting to TPO for energy reflectivity. BUR buildings may gain from single-ply membrane simplicity and lower maintenance. We present comparative analysis of all viable options with lifecycle cost projections, energy performance differences, and warranty comparisons so the property owner can make an informed system selection.'
+      question: 'When should a Roseland office-park roof be replaced instead of repaired?',
+      answer:
+        'Replace a commercial roof when membrane damage exceeds 25 to 30% of the roof area, when leaks recur at the same location, or when core samples show saturated insulation across a majority of the roof. Repair the roof when damage stays localized. The 25 to 30% flat-roof threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance, and a recurring same-spot leak signals systemic failure regardless of damaged area, per HomeAdvisor.',
     },
     {
-      question: 'What happens to our HVAC equipment during the roof replacement?',
-      answer: 'Equipment handling depends on the specific units and their position on the roof. Lightweight units may be temporarily relocated within the work zone. Heavy equipment typically remains in place with membrane work phased around it. Equipment on aged curbs is often most efficiently replaced on new curbs during the roofing project rather than temporarily disturbed and returned. We coordinate equipment planning with the building\'s mechanical contractor during the pre-construction phase.'
+      question: 'Which membrane system holds up on a Roseland low-slope roof?',
+      answer:
+        'EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance. EPDM fails most often at the splice seams and TPO at the welded seams, per NRCA technical guidance, so a Newark Quality Roofing replacement details the seams and the flashing first. White PVC and TPO carry high solar reflectance measured per ASTM C1549, the cool-roof property that lowers rooftop heat gain on the office-park decks.',
     },
     {
-      question: 'Can the replacement be done in sections to minimize tenant disruption?',
-      answer: 'Yes, phased replacement is our standard approach for occupied Roseland commercial buildings. The roof is divided into work zones that can be completed and made weathertight within a single work day. Work proceeds sequentially through the zones with temporary weather barriers protecting completed sections. Tenants in the area directly beneath the active work zone receive advance notice of noise and vibration periods. This phased approach adds modest project duration but virtually eliminates tenant impact.'
+      question: 'How does Newark Quality Roofing handle tear-off and drainage during a Roseland replacement?',
+      answer:
+        'A Newark Quality Roofing replacement strips the existing covering to the deck in managed sections, repairs deteriorated decking, and builds tapered insulation to at least one-quarter inch per foot of slope so the new roof drains. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. Tapered insulation clears the ponding water the NRCA and ARMA count as a defect after 48 hours.',
+    },
+    {
+      question: 'Does a Roseland historic designation require a Certificate of Appropriateness for a roof replacement?',
+      answer:
+        'Roseland maintains a Landmarks and Historic District Commission and a Certificate of Appropriateness process for major alterations to designated properties under Chapter 30, Article IX. The binding Certificate-of-Appropriateness gate applies only to locally designated properties; no specific Roseland landmark, site, or district is confirmed to have been designated, and the ordinance requires owner consent before a residence can be designated, so no Roseland homeowner is subject to a Certificate of Appropriateness absent a designation. The Williams-Harrison House at 126 Eagle Rock Avenue is a National and New Jersey Register property operated as a Roseland Historical Society museum, and per the National Park Service, Register listing alone places no restriction on a private property owner. A Certificate of Appropriateness, where it ever applies, is a separate approval from the construction permit.',
     },
     {
       question: 'How much does commercial roof replacement cost in Roseland, NJ?',
-      answer: 'Most commercial roof replacement projects in Roseland range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A roof replacement in New Jersey runs $10,000–$25,000 for a typical building, per HomeAdvisor and Modernize cost data, with the final figure depending on roof size, membrane system, drainage correction, and access. A large office-park membrane replacement scales above that band with the roof area and the insulation buildup. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Commercial roof replacement in Roseland NJ -- full membrane replacement for office parks and businesses with phased tenant coordination.',
+  metaDescription:
+    'Commercial roof replacement in Roseland NJ — EPDM, TPO, and modified-bitumen tear-offs on Eisenhower Parkway office-park roofs. NJ-registered, free estimate.',
   pricing: {
-    range: '$8–$16/sq ft',
-    note: 'full tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; a large office-park membrane replacement scales above the band with roof area and insulation buildup. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Roseland\'s postwar single-family homes and Eisenhower Parkway office-park roofs.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free commercial roof replacement estimate in Roseland — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for commercial roof replacement in Roseland.',
+    urgencyNote: 'Replacing a roof at end of service life limits interior and structural water damage during occupancy.',
   },
 };
