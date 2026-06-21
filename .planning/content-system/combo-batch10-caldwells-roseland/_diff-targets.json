@@ -1,0 +1,58 @@
+[
+  {
+    "city": "north-caldwell",
+    "svc": "roof-ice-dam-prevention",
+    "sib": "west-orange",
+    "ov": 75.1,
+    "e": "northCaldwellRoofIceDamPrevention",
+    "brief": "_NORTH-CALDWELL-BRIEF.md"
+  },
+  {
+    "city": "essex-fells",
+    "svc": "infrared-roof-leak-detection",
+    "sib": "west-orange",
+    "ov": 69.6,
+    "e": "essexFellsInfraredRoofLeakDetection",
+    "brief": "_ESSEX-FELLS-BRIEF.md"
+  },
+  {
+    "city": "caldwell",
+    "svc": "silicone-elastomeric-roof-coating",
+    "sib": "orange",
+    "ov": 67.1,
+    "e": "caldwellSiliconeElastomericRoofCoating",
+    "brief": "_CALDWELL-BRIEF.md"
+  },
+  {
+    "city": "caldwell",
+    "svc": "commercial-roof-repair",
+    "sib": "north-caldwell",
+    "ov": 66.9,
+    "e": "caldwellCommercialRoofRepair",
+    "brief": "_CALDWELL-BRIEF.md"
+  },
+  {
+    "city": "north-caldwell",
+    "svc": "commercial-roof-repair",
+    "sib": "caldwell",
+    "ov": 66.9,
+    "e": "northCaldwellCommercialRoofRepair",
+    "brief": "_NORTH-CALDWELL-BRIEF.md"
+  },
+  {
+    "city": "caldwell",
+    "svc": "roof-maintenance-programs",
+    "sib": "nutley",
+    "ov": 60,
+    "e": "caldwellRoofMaintenancePrograms",
+    "brief": "_CALDWELL-BRIEF.md"
+  },
+  {
+    "city": "north-caldwell",
+    "svc": "fascia-installation-repair",
+    "sib": "verona",
+    "ov": 64.2,
+    "e": "northCaldwellFasciaInstallationRepair",
+    "brief": "_NORTH-CALDWELL-BRIEF.md"
+  }
+]

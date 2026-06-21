@@ -1,0 +1,14 @@
+# fairfield/roof-ice-dam-prevention — rewrite rationale
+
+De-fab literals cleared from the current combo file:
+- Price-in-lead ("prices starting from $800–$3,000 and free estimates available today") and the old `$800–$3,000` pricing/meta — replaced with the sourced HomeAdvisor repair range `$400–$1,000`.
+- whyChooseUs trust lines: "NJ licensed, GAF Certified — 15+ years," "Premium materials from GAF, CertainTeed, and Owens Corning," "same-day estimates and 24/7 emergency response" — replaced with the registered-NJ-HIC / fully-insured factual set.
+- Fabricated/unsourced numbers: "1960s through 1980s development boom," "four to six inches of fiberglass," "R-38 to R-49," "$2,000–$5,000," "reduces heating costs by ten to twenty percent," "recover the investment within three to five years," "every five to ten years" heat-cable replacement — de-quantified or replaced with source-cited facts.
+- conversionHooks.urgencyNote "Early action saves thousands" — replaced with a factual interior/structural water-damage note.
+- Inline self-links `[Caldwell]`, `[North Caldwell]`, `[ice dam prevention]` — stripped (combo carries zero links).
+- Geography: removed any decade-specific build-era and neighbor-comparison framing; localized to Fairfield's owner-occupied colonials/split-levels/raised ranches and mature tree-canopy soffit condition; NO floodplain basement claim, NO FEMA/PINN4/upland/reservation/West Essex Trail.
+- Historic posture corrected to the verified NO-COA advisory/educational HPC (township-owned Van Ness House, no district, no section number); no binding COA, no Israel Crane House, no §2-55.
+
+Entity-grounding: directAnswer entity-grounded (bold span exactly 40 words: "Newark Quality Roofing…roofing contractor…Fairfield, New Jersey, and Essex County…"; credential tail "as a registered New Jersey Home Improvement Contractor." outside the bold). No `definition` field (spliced post-assembly). Credential = registered NJ HIC + fully insured; no "licensed" for NQR.
+
+Named sources cited in-text: University of Minnesota Extension (ice-dam root cause = attic heat escape, not gutters; heat cables manage symptom); U.S. Department of Energy Building America Solution Center (air-seal → insulate → ventilate together); IRC R806.2 + ARMA (1/150 net free ventilating area, 50/50 soffit-ridge balance); IRC R905.1.2 + ASTM D1970 (self-adhering eave ice barrier ≥24 in inside wall line, ≥36 in slope on 8:12+; valley membrane), enforced via NJ UCC N.J.A.C. 5:23; NOAA 1991–2020 normals at EWR (~31.5 in/yr snow; crosses 32°F); N.J.A.C. 5:23-2.7 (ordinary-maintenance reroof + 25% commercial permit rule); National Park Service (Register listing places no private restriction); HomeAdvisor (NJ repair cost range). Building Department, Township of Fairfield, at 230 Fairfield Road named for the commercial permit path (no Construction Official, no phone).

@@ -1,0 +1,768 @@
+[
+  {
+    "file": "aging-roof-replacement",
+    "serviceId": "aging-roof-replacement",
+    "exportName": "fairfieldAgingRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "asphalt-shingle-roof-replacement",
+    "serviceId": "asphalt-shingle-roof-replacement",
+    "exportName": "fairfieldAsphaltShingleRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "asphalt-shingle-roofing",
+    "serviceId": "asphalt-shingle-roofing",
+    "exportName": "fairfieldAsphaltShingleRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "built-up-roofing",
+    "serviceId": "built-up-roofing",
+    "exportName": "fairfieldBuiltUpRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "cedar-shake-roof-replacement",
+    "serviceId": "cedar-shake-roof-replacement",
+    "exportName": "fairfieldCedarShakeRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "cedar-shake-roofing",
+    "serviceId": "cedar-shake-roofing",
+    "exportName": "fairfieldCedarShakeRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "chimney-flashing-repair",
+    "serviceId": "chimney-flashing-repair",
+    "exportName": "fairfieldChimneyFlashingRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-metal-roofing",
+    "serviceId": "commercial-metal-roofing",
+    "exportName": "fairfieldCommercialMetalRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-installation",
+    "serviceId": "commercial-roof-installation",
+    "exportName": "fairfieldCommercialRoofInstallation",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-repair",
+    "serviceId": "commercial-roof-repair",
+    "exportName": "fairfieldCommercialRoofRepair",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-replacement",
+    "serviceId": "commercial-roof-replacement",
+    "exportName": "fairfieldCommercialRoofReplacement",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "custom-roof-design-consultation",
+    "serviceId": "custom-roof-design-consultation",
+    "exportName": "fairfieldCustomRoofDesignConsultation",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "emergency-roof-repair",
+    "serviceId": "emergency-roof-repair",
+    "exportName": "fairfieldEmergencyRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "energy-efficient-roofing-solutions",
+    "serviceId": "energy-efficient-roofing-solutions",
+    "exportName": "fairfieldEnergyEfficientRoofingSolutions",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "epdm-commercial-roofing",
+    "serviceId": "epdm-commercial-roofing",
+    "exportName": "fairfieldEpdmCommercialRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "fascia-installation-repair",
+    "serviceId": "fascia-installation-repair",
+    "exportName": "fairfieldFasciaInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "fire-damage-roof-replacement",
+    "serviceId": "fire-damage-roof-replacement",
+    "exportName": "fairfieldFireDamageRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "flat-roof-installation-repair",
+    "serviceId": "flat-roof-installation-repair",
+    "exportName": "fairfieldFlatRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "flat-roof-replacement",
+    "serviceId": "flat-roof-replacement",
+    "exportName": "fairfieldFlatRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "full-roof-tear-off",
+    "serviceId": "full-roof-tear-off",
+    "exportName": "fairfieldFullRoofTearOff",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "green-roof-installation",
+    "serviceId": "green-roof-installation",
+    "exportName": "fairfieldGreenRoofInstallation",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "gutter-guard-installation",
+    "serviceId": "gutter-guard-installation",
+    "exportName": "fairfieldGutterGuardInstallation",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "gutter-installation-repair",
+    "serviceId": "gutter-installation-repair",
+    "exportName": "fairfieldGutterInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "hail-damage-roof-repair",
+    "serviceId": "hail-damage-roof-repair",
+    "exportName": "fairfieldHailDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "historic-roof-restoration",
+    "serviceId": "historic-roof-restoration",
+    "exportName": "fairfieldHistoricRoofRestoration",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "infrared-roof-leak-detection",
+    "serviceId": "infrared-roof-leak-detection",
+    "exportName": "fairfieldInfraredRoofLeakDetection",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "insurance-roof-replacement",
+    "serviceId": "insurance-roof-replacement",
+    "exportName": "fairfieldInsuranceRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "metal-roof-installation-repair",
+    "serviceId": "metal-roof-installation-repair",
+    "exportName": "fairfieldMetalRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "metal-roof-replacement",
+    "serviceId": "metal-roof-replacement",
+    "exportName": "fairfieldMetalRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "modified-bitumen-roofing",
+    "serviceId": "modified-bitumen-roofing",
+    "exportName": "fairfieldModifiedBitumenRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "pvc-roofing",
+    "serviceId": "pvc-roofing",
+    "exportName": "fairfieldPvcRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "re-roofing",
+    "serviceId": "re-roofing",
+    "exportName": "fairfieldReRoofing",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "residential-roof-installation",
+    "serviceId": "residential-roof-installation",
+    "exportName": "fairfieldResidentialRoofInstallation",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-cleaning-moss-removal",
+    "serviceId": "roof-cleaning-moss-removal",
+    "exportName": "fairfieldRoofCleaningMossRemoval",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-deck-repair-replacement",
+    "serviceId": "roof-deck-repair-replacement",
+    "exportName": "fairfieldRoofDeckRepairReplacement",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-flashing-installation-repair",
+    "serviceId": "roof-flashing-installation-repair",
+    "exportName": "fairfieldRoofFlashingInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-ice-dam-prevention",
+    "serviceId": "roof-ice-dam-prevention",
+    "exportName": "fairfieldRoofIceDamPrevention",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-inspection",
+    "serviceId": "roof-inspection",
+    "exportName": "fairfieldRoofInspection",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-leak-repair",
+    "serviceId": "roof-leak-repair",
+    "exportName": "fairfieldRoofLeakRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-maintenance-programs",
+    "serviceId": "roof-maintenance-programs",
+    "exportName": "fairfieldRoofMaintenancePrograms",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-overlay-installation",
+    "serviceId": "roof-overlay-installation",
+    "exportName": "fairfieldRoofOverlayInstallation",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "roof-repair",
+    "serviceId": "roof-repair",
+    "exportName": "fairfieldRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-replacement",
+    "serviceId": "roof-replacement",
+    "exportName": "fairfieldRoofReplacement",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-replacement-after-leak",
+    "serviceId": "roof-replacement-after-leak",
+    "exportName": "fairfieldRoofReplacementAfterLeak",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "roof-replacement-cost",
+    "serviceId": "roof-replacement-cost",
+    "exportName": "fairfieldRoofReplacementCost",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-thermal-imaging-inspections",
+    "serviceId": "roof-thermal-imaging-inspections",
+    "exportName": "fairfieldRoofThermalImagingInspections",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-vent-installation-repair",
+    "serviceId": "roof-vent-installation-repair",
+    "exportName": "fairfieldRoofVentInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-waterproofing",
+    "serviceId": "roof-waterproofing",
+    "exportName": "fairfieldRoofWaterproofing",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "rubber-roofing-epdm",
+    "serviceId": "rubber-roofing-epdm",
+    "exportName": "fairfieldRubberRoofingEpdm",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "silicone-elastomeric-roof-coating",
+    "serviceId": "silicone-elastomeric-roof-coating",
+    "exportName": "fairfieldSiliconeElastomericRoofCoating",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "silicone-roof-coating",
+    "serviceId": "silicone-roof-coating",
+    "exportName": "fairfieldSiliconeRoofCoating",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "skylight-installation-repair",
+    "serviceId": "skylight-installation-repair",
+    "exportName": "fairfieldSkylightInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "slate-roof-installation-repair",
+    "serviceId": "slate-roof-installation-repair",
+    "exportName": "fairfieldSlateRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "slate-roof-replacement",
+    "serviceId": "slate-roof-replacement",
+    "exportName": "fairfieldSlateRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "soffit-installation-repair",
+    "serviceId": "soffit-installation-repair",
+    "exportName": "fairfieldSoffitInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "solar-panel-roofing-installation",
+    "serviceId": "solar-panel-roofing-installation",
+    "exportName": "fairfieldSolarPanelRoofingInstallation",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "solar-shingle-installation",
+    "serviceId": "solar-shingle-installation",
+    "exportName": "fairfieldSolarShingleInstallation",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "spray-foam-roofing",
+    "serviceId": "spray-foam-roofing",
+    "exportName": "fairfieldSprayFoamRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "storm-damage-roof-repair",
+    "serviceId": "storm-damage-roof-repair",
+    "exportName": "fairfieldStormDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "storm-damage-roof-replacement",
+    "serviceId": "storm-damage-roof-replacement",
+    "exportName": "fairfieldStormDamageRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "tile-roof-installation-repair",
+    "serviceId": "tile-roof-installation-repair",
+    "exportName": "fairfieldTileRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "tile-roof-replacement",
+    "serviceId": "tile-roof-replacement",
+    "exportName": "fairfieldTileRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "tpo-roofing-installation",
+    "serviceId": "tpo-roofing-installation",
+    "exportName": "fairfieldTpoRoofingInstallation",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "wind-damage-roof-repair",
+    "serviceId": "wind-damage-roof-repair",
+    "exportName": "fairfieldWindDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "wood-shake-roofing",
+    "serviceId": "wood-shake-roofing",
+    "exportName": "fairfieldWoodShakeRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  }
+]

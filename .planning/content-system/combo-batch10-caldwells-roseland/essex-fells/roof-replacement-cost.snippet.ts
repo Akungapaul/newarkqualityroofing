@@ -1,0 +1,74 @@
+import type { ComboContent } from '../schema';
+
+export const essexFellsRoofReplacementCost: ComboContent = {
+  serviceId: 'roof-replacement-cost',
+  cityId: 'essex-fells',
+  directAnswer:
+    '**Newark Quality Roofing is a roofing contractor pricing roof replacement across Essex Fells, New Jersey, and Essex County, measuring squares, pitch, material, tear-off, and decking repair on the borough\'s large-lot custom single-family homes** as a registered New Jersey Home Improvement Contractor.',
+  overview: [
+    '**Newark Quality Roofing prices a roof replacement on Essex Fells\'s custom single-family homes from the roof in squares, the pitch and complexity, the material, the tear-off, decking repair, and NJ labor and code** across the borough\'s large-lot Bowditch-plan stock.',
+    '**Material choice** drives the per-square-foot cost most on the borough\'s older custom homes, where natural slate runs $10–$30 per square foot, per NJ roofing guides, against asphalt at $5.50–$9.50, per Josten Roofing NJ pricing, so a Newark Quality Roofing estimate prices the selected covering against the measured area and the steep, complex slopes of the borough\'s turn-of-the-century and mid-century stock.',
+    '**Tear-off and decking repair** add the line items a surface quote misses, because an Essex Fells tear-off exposes the sheathing on older custom homes and replaces deteriorated plywood or boards, while tear-off and disposal add $1–$3 per square foot for asphalt and $2–$5 for slate or tile, per HomeGuide national cost data, and N.J.A.C. 5:23-6.4 requires full removal of a multi-layer or water-soaked roof.',
+    '**NJ labor and code** apply last, because NJ replacement ranges sit 10–40% above national figures and labor accounts for roughly 60–70% of an asphalt install, per HomeGuide and Integrity Home Exteriors, so a Newark Quality Roofing free written estimate itemizes every cost driver before any work begins on an Essex Fells property.',
+  ],
+  challenges: [
+    '**Premium-material pricing** is the defining roof-replacement-cost condition on Essex Fells\'s custom homes, because natural slate, metal, and copper period detailing cost several times more per square foot than asphalt. A Newark Quality Roofing estimate prices the selected covering against the measured roof area.',
+    '**Deteriorated sheathing discovered at tear-off** raises the replacement cost on the borough\'s older custom stock, because the roughly 806 Essex Fells homes were largely built from the turn of the 20th century to mid-century, per the U.S. Census Bureau and the Borough of Essex Fells 2018 Master Plan, and a tear-off exposes decking the original surface estimate could not see. A Newark Quality Roofing estimate notes decking repair as a separate line.',
+    '**Steep, complex rooflines** add labor over a simple gable on the borough\'s large custom homes, because the dormers, valleys, hips, and chimney transitions of the Bowditch-plan stock raise both material and labor, per industry cost guidance. A Newark Quality Roofing estimate rates pitch and complexity against the measured squares so the proposal reflects the actual roof.',
+    '**Comparing an Essex Fells estimate to a national average** produces misleading expectations, because a published "average roof replacement cost" reflects a standard asphalt project on a simple roof, while a NJ replacement runs $10,000–$25,000 against a 2025 national average near $10,000–$11,000, per HomeAdvisor, Modernize, and industry replacement benchmarks. A Newark Quality Roofing estimate explains each cost driver in writing.',
+  ],
+  process: [
+    '**Newark Quality Roofing measures the roof in squares, rates the pitch and complexity, and inspects the deck, the ventilation, and the existing layers before pricing a replacement on an Essex Fells custom home.** A roofing square covers 100 square feet, and valleys, dormers, and hips add material and labor over a simple gable roof, per industry cost guidance, so the measured roof drives the base figure.',
+    '**Material selection** sets the largest share of the per-square-foot cost, so a Newark Quality Roofing estimate prices each option against the measured area — asphalt at $5.50–$9.50, architectural at $6.50–$11.00, and metal at $9.00–$16.00+, per Josten Roofing NJ pricing, and slate at $10–$30, per NJ roofing guides — to match the borough\'s slate, metal, and copper detailing or its mid-century asphalt stock.',
+    '**Tear-off, decking, flashing, and ventilation** itemize as separate lines, because tear-off and disposal add $1–$3 per square foot for asphalt and $2–$5 for slate or tile, per HomeGuide national cost data, and N.J.A.C. 5:23-6.4 requires full removal of a multi-layer or water-soaked roof. Deteriorated sheathing exposed at tear-off, corroded flashing, and undersized attic ventilation each add cost on the borough\'s older custom homes.',
+    '**NJ labor and code apply last**, because NJ ranges sit 10–40% above national figures and labor accounts for roughly 60–70% of an asphalt install, per HomeGuide and Integrity Home Exteriors. A Newark Quality Roofing free written estimate documents the scope, the per-line-item cost, and the timeline before any work begins on an Essex Fells property.',
+  ],
+  faqs: [
+    {
+      question: 'How much does a roof replacement cost in Essex Fells, NJ?',
+      answer:
+        'A roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors, and Essex Fells\'s large custom homes with steep slopes and natural slate raise the figure above the asphalt range. Newark Quality Roofing provides a free written estimate.',
+    },
+    {
+      question: 'What drives the cost of a roof replacement on an Essex Fells custom home?',
+      answer:
+        'Roof replacement cost rises from the roof in squares, the pitch and complexity, the material choice, the existing layers and tear-off, decking repair, flashing and ventilation, and NJ labor and code. Material choice sets the largest share, from asphalt at $5.50–$9.50 per square foot, per Josten Roofing NJ pricing, to slate at $10–$30, per NJ roofing guides, and tear-off adds $1–$5 per square foot, per HomeGuide. The dormers, valleys, and hips of the borough\'s large Bowditch-plan homes add labor over a simple gable, per industry cost guidance.',
+    },
+    {
+      question: 'Should you repair or replace your Essex Fells roof?',
+      answer:
+        'Replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair a roof when the damage stays localized on an asphalt roof under 10–15 years old. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten industry guidance, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data. Slate lasts 60 to 150 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart.',
+    },
+    {
+      question: 'Do you need a permit to replace a roof in Essex Fells?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Essex Fells counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A municipal, institutional, or attached building requires a permit from the Borough of Essex Fells Building Department at Borough Hall, 255 Roseland Avenue, once roof work exceeds 25% of the roof area in a 12-month period, and so does any structural change to rafters or trusses.',
+    },
+    {
+      question: 'Does a historic district restrict a roof replacement in Essex Fells?',
+      answer:
+        'Essex Fells maintains no local historic-preservation ordinance, no Historic Preservation Commission, and no Certificate-of-Appropriateness process, so a homeowner reroof in Essex Fells requires no historic-board approval. No "Essex Fells Historic District" exists on the National Register or the NJ State Register, and the borough\'s Bowditch planned-community heritage carries no private-owner restriction. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.',
+    },
+    {
+      question: 'Does a roof replacement add resale value in New Jersey?',
+      answer:
+        'A new asphalt roof recoups roughly 60 to 68% of project cost at resale and adds about $15,247 to resale value, per Opendoor, Zillow, and the Zonda Cost vs Value report. Eight of the top 10 highest-ROI remodels are exterior replacement projects, and a new roof supports a 1% to 3% higher asking price, per Opendoor. Newark Quality Roofing provides a free written estimate.',
+    },
+  ],
+  metaDescription:
+    'Roof replacement cost in Essex Fells NJ — slate, metal, and asphalt on custom Bowditch-plan homes, itemized by square, material, and tear-off. Free estimate.',
+  pricing: {
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
+  },
+  whyChooseUs: [
+    'A registered New Jersey Home Improvement Contractor, fully insured.',
+    'Local Essex County crew familiar with Essex Fells\'s custom single-family homes on the borough\'s large Bowditch-plan lots.',
+    'Free, detailed written estimates that itemize material, tear-off, decking, and labor with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free written estimate for roof replacement cost in Essex Fells.',
+    urgencyNote: 'Pricing the replacement early limits the deferred decking and interior water damage that raises the final cost.',
+  },
+};

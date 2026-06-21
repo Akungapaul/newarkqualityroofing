@@ -1,0 +1,227 @@
+{
+  "confirmedCount": 4,
+  "refutedCount": 4,
+  "lowCount": 10,
+  "failedCohorts": [],
+  "confirmed": [
+    {
+      "combo": "hail-damage-roof-repair",
+      "field": "overview[3], process[0], process[1] (faqs[2].answer \"HAAG-standard\"), faqs[0].answer, faqs[2].answer, whyChooseUs[2], metaDescription",
+      "severity": "high",
+      "category": "source-attribution",
+      "issue": "HAAG Engineering is cited as the named source/credential for the hail test-square assessment method (6 occurrences). HAAG appears in NONE of the nine fact packs nor the site source registry (sources-and-nqr-facts.md) — it is a fabricated source attribution, and the same 'HAAG Engineering brand' was explicitly de-fabbed in the committed Orange batch. The actual pack source for the test-square / per-100-sq-ft impact-count method is IBHS / insurer hail-assessment protocols (facts-causes-signs §2.3: 'IBHS-style insurer protocols often use 8 functional impacts per 100 sq ft') and InterNACHI 'Mastering Roof Inspections.' The soft-metal-denting corroboration is IBHS, not HAAG.",
+      "evidence": "process[0]: 'assesses each roof slope at close range using the HAAG Engineering Test Square method ... the standard hail-inspection procedure since the 1960s, per HAAG Engineering.' overview[3]: 'metal denting confirms hailstones large enough to bruise shingles, per HAAG Engineering and IBHS hail-assessment guidance.' whyChooseUs[2]: 'HAAG Engineering test-square hail assessment that classifies functional and cosmetic damage for the adjuster.' metaDescription: 'HAAG test-square assessment'.",
+      "suggestedFix": "Strip every 'HAAG Engineering' attribution. process[0] → 'marks a 10-by-10-foot test square, one roofing square of 100 square feet, on each slope and counts and classifies every functional impact, the per-100-square-foot impact-count benchmark used in insurer hail-assessment protocols, per the IBHS.' overview[3] → 'per IBHS hail-assessment guidance.' whyChooseUs[2] → 'Per-square hail impact counts that classify functional and cosmetic damage for the adjuster.' metaDescription → 'per-square hail impact counts' (or drop the brand).",
+      "verdict": "confirmed",
+      "reasoning": "HAAG Engineering is a fabricated source. It appears in NONE of the nine fact packs and is absent from the source registry (sources-and-nqr-facts.md). The Roseland combo cites it in 6 places as the named credential for the test-square / per-100-sq-ft impact-count method and as the soft-metal-denting corroborator. The committed GOLD exemplar — src/data/combo-content/orange/hail-damage-roof-repair.ts — explicitly does NOT use HAAG; it attributes the identical \"10-by-10-foot test square, one roofing square of 100 square feet, counts/classifies functional vs cosmetic, 8 functional impacts per 100 sq ft\" method to \"IBHS-style insurer protocols / per IBHS hail-assessment guidance,\" and attributes soft-metal denting to \"per IBHS hail-assessment guidance.\" This matches facts-causes-signs §2.3 (\"IBHS-style insurer protocols often use 8 functional impacts per 100 sq ft\"; denting on metal gutters/vents corroboration = IBHS). MEMORY confirms the Orange batch de-fabbed the \"fabricated HAAG-Engineering brand\"; Roseland (and 15 other later hail combos) re-imported it — a regression. Roseland additionally fabricates provenance: \"the standard hail-inspection procedure since the 1960s, per HAAG Engineering\" — the 1960s/standard-procedure claim has no fact-pack basis and the Orange gold makes no such claim. The underlying test-square FACTS are defensible (gold-supported), so the fix re-attributes to IBHS rather than deleting. No Roseland COA/geography/sibling-anchor issue is involved; this is pure source-attribution. Third-party-licensed cites are not implicated. Confirmed; the reviewer also missed faqs[2].answer \"HAAG-standard impact counts\" — folded into the fix.",
+      "finalFix": "Strip every \"HAAG Engineering\"/\"HAAG\" attribution and re-attribute the (defensible) test-square method to IBHS per the Orange gold. (1) process[0]: BEFORE \"...then assesses each roof slope at close range using the HAAG Engineering Test Square method.** A crew checks gutters, downspout elbows, vent caps, and flashing for impact marks that confirm hail size, then marks a 10-by-10-foot test square, one roofing square of 100 square feet, on each slope and counts and classifies every impact as functional or cosmetic damage, the standard hail-inspection procedure since the 1960s, per HAAG Engineering.\" → AFTER \"...then assesses each roof slope at close range using the per-square method adjusters use.** A crew checks gutters, downspout elbows, vent caps, and flashing for impact marks that confirm hail size, then marks a 10-by-10-foot test square, one roofing square of 100 square feet, on each slope and counts and classifies every impact as functional or cosmetic damage, where IBHS-style insurer protocols often treat 8 functional impacts per 100 square feet as a damage benchmark, per IBHS hail-assessment guidance.\" (2) overview[3]: \"per HAAG Engineering and IBHS hail-assessment guidance.\" → \"per IBHS hail-assessment guidance.\" (3) faqs[0].answer: \"the corroborating indicator for a roof inspection, per HAAG Engineering and IBHS hail-assessment guidance.\" → \"the corroborating indicator for a roof inspection, per IBHS hail-assessment guidance.\" (4) faqs[2].answer: \"documents the damage with timestamped photographs and HAAG-standard impact counts for the adjuster.\" → \"documents the damage with timestamped photographs and per-square impact counts for the adjuster, per IBHS hail-assessment guidance.\" (5) whyChooseUs[2]: \"HAAG Engineering test-square hail assessment that classifies functional and cosmetic damage for the adjuster.\" → \"Per-square hail impact counts that classify functional and cosmetic damage the way adjusters do, per IBHS hail-assessment guidance.\" (6) metaDescription: \"HAAG test-square assessment\" → \"per-square hail impact assessment\".",
+      "city": "roseland"
+    },
+    {
+      "combo": "roof-leak-repair",
+      "field": "overview[3], process[1], faqs[2].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Electronic leak detection is attributed to 'ASTM D8231' (3 occurrences). ASTM D8231 appears in NONE of the nine fact packs nor the source registry — it is an invented standard attribution. ASTM C1153 (wet-insulation IR detection) IS in facts-materials-economics and is cited correctly here; the D8231 electronic-leak-detection citation has no pack support.",
+      "evidence": "overview[3]: 'Electronic leak detection locates a membrane breach per ASTM D8231 and infrared imaging maps wet insulation per ASTM C-1153.' Same pattern in challenges[2-equivalent], process[1], faqs[2].answer.",
+      "suggestedFix": "De-fab the standard cite: drop 'per ASTM D8231' and frame the method generically — 'Electronic (low-voltage) leak detection locates a membrane breach and infrared imaging maps wet insulation per ASTM C1153' — keeping only the pack-supported C1153 attribution. (Also normalize 'ASTM C-1153' to 'ASTM C1153' to match the pack.)",
+      "verdict": "confirmed",
+      "reasoning": "ASTM D8231 (electronic leak detection) is an invented standard attribution with zero pack support: it appears in NONE of the nine fact packs and is absent from the source registry. The only leak/moisture-detection standards documented (facts-materials-economics.md §7) are ASTM C1153 (IR wet-insulation, PRIMARY) and ASTM D7954 (nuclear companion); no electronic/low-voltage leak-detection ASTM standard exists in the research. C1153 IS pack-supported and is correctly cited here, but the combo spells it 'ASTM C-1153' whereas the pack uses 'ASTM C1153' (no hyphen). The GOLD-exemplar carve-out does NOT protect D8231: the committed urban-core/Orange gold roof-leak-repair.ts files (Newark, East Orange, Irvington, Orange) contain no D8231 and no electronic-leak-detection content at all — D8231 is not part of the original gold voice, it was introduced and propagated into the parent service-content/repair-maintenance.ts and 9 first-suburbs/west-essex/caldwells siblings. A fabrication that propagated widely is still a fabrication. The D8231 cite appears three times in this file (overview[3] line 14, process[1] line 24, faqs[2].answer line 41); the finding's 'challenges[2]' pointer is inaccurate (Roseland's challenges array has no D8231 instance — the third occurrence is faqs[2].answer). The fix de-fabs the invented standard while preserving electronic leak detection as a real generically-framed method and keeping the pack-supported C1153, and it shortens the affected lead sentence (29→27 words), so no wordcount risk.",
+      "finalFix": "Drop the invented 'per ASTM D8231' cite in all three occurrences, frame electronic leak detection generically, and normalize 'ASTM C-1153' to 'ASTM C1153'.\n\noverview[3] (line 14):\nBEFORE: 'Electronic leak detection locates a membrane breach per ASTM D8231 and infrared imaging maps wet insulation per ASTM C-1153, the methods that pinpoint a breach a surface inspection misses.'\nAFTER: 'Electronic (low-voltage) leak detection locates a membrane breach and infrared imaging maps wet insulation per ASTM C1153, the methods that pinpoint a breach a surface inspection misses.'\n\nprocess[1] (line 24):\nBEFORE: 'Controlled water testing reproduces a wind-driven or intermittent leak, while electronic leak detection finds a membrane breach per ASTM D8231 and infrared imaging maps wet insulation per ASTM C-1153 on the Eisenhower Parkway and Becker Farm Road low-slope decks.'\nAFTER: 'Controlled water testing reproduces a wind-driven or intermittent leak, while electronic (low-voltage) leak detection finds a membrane breach and infrared imaging maps wet insulation per ASTM C1153 on the Eisenhower Parkway and Becker Farm Road low-slope decks.'\n\nfaqs[2].answer (line 41):\nBEFORE: 'Electronic leak detection locates the membrane breach per ASTM D8231 and infrared imaging maps wet insulation per ASTM C-1153 on the Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office decks.'\nAFTER: 'Electronic (low-voltage) leak detection locates the membrane breach and infrared imaging maps wet insulation per ASTM C1153 on the Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office decks.'",
+      "city": "roseland"
+    },
+    {
+      "combo": "roof-inspection",
+      "field": "faqs[5].answer, pricing.range, pricing.note",
+      "severity": "med",
+      "category": "fabrication",
+      "issue": "The roof-inspection cost set — $75–$200 visual, $150–$400 drone, $400–$600 infrared, '$248 national average' — is attributed to 'HomeAdvisor inspection-cost data.' None of the nine fact packs contain any roof-inspection price, a $248 average, or drone/infrared inspection costs (drone/infrared appear in the packs only as inspection METHODS, never with a price). These are invented external cost figures.",
+      "evidence": "faqs[5].answer: 'A roof inspection costs $75–$200 for a visual inspection, $150–$400 for a drone inspection, and $400–$600 for an infrared inspection, with a national average of $248, per HomeAdvisor inspection-cost data.' pricing.range: '$75–$600 for most inspections' with the same breakdown in pricing.note.",
+      "suggestedFix": "De-quantify, since NQR offers a free inspection. faqs[5].answer → 'Newark Quality Roofing provides a free roof inspection for Roseland properties; a paid third-party inspection cost varies by roof size, slope, and method (visual, drone, or infrared).' pricing.range → 'Free roof inspection' with pricing.note 'Newark Quality Roofing provides a free roof inspection; cost on a paid third-party inspection depends on roof size, slope, and method.'",
+      "verdict": "confirmed",
+      "reasoning": "The cited text is present verbatim in src/data/combo-content/roseland/roof-inspection.ts at faqs[5].answer ($75–$200 visual / $150–$400 drone / $400–$600 infrared / \"$248 national average, per HomeAdvisor inspection-cost data\"), pricing.range (\"$75–$600 for most inspections\"), and pricing.note (same breakdown). Verified against all research fact packs in .planning/content-system/research/: (1) \"$248\" has ZERO hits in any pack; (2) HomeAdvisor appears only for repair/material/replacement costs and is explicitly flagged in sources-and-nqr-facts.md line 52 as \"cite cautiously and only when a number is corroborated\" — no inspection-cost line exists; (3) \"drone\" and \"infrared\" appear in facts-process-standards.md ONLY as inspection METHODS in the repair-process inspection step, never with a price; (4) the $75/$150/$200/$400/$600 inspection tiers and \"visual inspection\" cost have ZERO hits anywhere. So the entire inspection-cost dataset and its named-source attribution are fabricated — a named-source-fact / de-fab violation. NQR's only verified, D-01-cleared posture is \"Free Roof Inspections\" (site-config trustBadges). The gold-match defense fails: the identical block recurs in all 9 committed sibling roof-inspection combos (Newark, East Orange, Orange, Irvington, Bloomfield, Belleville, Nutley, Maplewood, South Orange), which makes this a cross-file RECURRENCE fabrication — exactly the orchestrator-sweep class (per MEMORY, fabs that recur across committed gold such as the GAF \"30%-of-surface granule\" and the RICOWI multiplier are de-fabbed despite appearing in gold; gold-consistency does not immunize a fabricated attribution). No Roseland fact, COA posture, or entity-grounding rule is implicated; this is a pure fabrication call. Note: prior committed siblings carry the same fab and remain a deferred orchestrator sweep, but for this Roseland review the finding is a real, fixable problem.",
+      "finalFix": "faqs[5].answer BEFORE: 'A roof inspection costs $75–$200 for a visual inspection, $150–$400 for a drone inspection, and $400–$600 for an infrared inspection, with a national average of $248, per HomeAdvisor inspection-cost data. Roof size, slope, and the inspection method set the cost. Newark Quality Roofing provides a free roof inspection.' → AFTER: 'Newark Quality Roofing provides a free roof inspection for a Roseland property. A paid third-party inspection cost varies by roof size, slope, and method, since a visual inspection, a drone inspection, and an infrared moisture survey each take different time and equipment, but the inspection that informs a Newark Quality Roofing repair or replacement plan is free.' || pricing.range BEFORE: '$75–$600 for most inspections' → AFTER: 'Free roof inspection' || pricing.note BEFORE: 'Typical NJ roof-inspection range per HomeAdvisor inspection-cost data; a visual inspection runs $75–$200, a drone inspection $150–$400, and an infrared inspection $400–$600. Newark Quality Roofing provides a free roof inspection.' → AFTER: 'Newark Quality Roofing provides a free roof inspection for Roseland properties; a paid third-party inspection cost depends on roof size, slope, and method (visual, drone, or infrared).'",
+      "city": "roseland"
+    },
+    {
+      "combo": "commercial-roof-installation",
+      "field": "faqs[5].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The PVC installed-cost figure ($6 to $12 per sq ft) is attributed to the wrong sources. Per facts-materials-economics.md §6, PVC installed cost ($6–$12/sq ft) is sourced to 'commercial cost guides (M&M Roofing; WeatherStar)'. Josten Roofing covers only EPDM ($7–10) and TPO ($8–12); the Single Ply Roofing Industry (SPRI) is a standards/wind-design body, not a pricing source in any pack. So neither cited source backs the PVC number.",
+      "evidence": "'A commercial roof installation in Roseland runs $7 to $12 per square foot for EPDM and TPO single-ply and $6 to $12 for PVC, per Josten Roofing NJ pricing and the Single Ply Roofing Industry.'",
+      "suggestedFix": "Re-pin the PVC figure to its actual pack source and drop SPRI as a pricing cite. Before: '...$6 to $12 for PVC, per Josten Roofing NJ pricing and the Single Ply Roofing Industry.' After: '...$6 to $12 for PVC, per Josten Roofing NJ pricing for EPDM and TPO and commercial cost guides for PVC.' (EPDM/TPO at $7–$12 stays correctly attributed to Josten.)",
+      "verdict": "confirmed",
+      "reasoning": "Verified against facts-materials-economics.md. §6 (line 360) pins the PVC installed cost ($6–$12/sq ft) to \"commercial cost guides (M&M Roofing; WeatherStar)\" — NOT Josten and NOT SPRI. §4 (lines 288–289) pins EPDM (flat) $7–$10 and TPO (flat) $8–$12 to Josten Roofing (NJ), so the combined \"$7 to $12 for EPDM and TPO\" envelope is correctly attributed to Josten. The Single Ply Roofing Industry (SPRI) appears in §6 only as a LIFESPAN source (line 359, PVC 20–30 yr), never as a pricing source in any pack. The combo's cost FAQ attributes the PVC $6–$12 figure to \"Josten Roofing NJ pricing and the Single Ply Roofing Industry,\" both of which are wrong for that number: Josten covers only EPDM/TPO pricing and SPRI is a standards/lifespan body. This is a genuine named-source violation, not an entity-grounding/COA/geography/gold-voice issue. The identical mis-pin exists in the committed Irvington sibling, but a sibling inheriting the same source-attribution defect does not qualify for the gold-exemplar carve-out (that protects answer-first/entity-grounded voice, not a factually incorrect citation). The suggested fix preserves all figures and re-attributes rather than deleting, and matches the pack exactly.",
+      "finalFix": "In faqs[5].answer, change: \"A commercial roof installation in Roseland runs $7 to $12 per square foot for EPDM and TPO single-ply and $6 to $12 for PVC, per Josten Roofing NJ pricing and the Single Ply Roofing Industry.\" → \"A commercial roof installation in Roseland runs $7 to $12 per square foot for EPDM and TPO single-ply, per Josten Roofing NJ pricing, and $6 to $12 for PVC, per commercial roofing cost guides.\" (EPDM/TPO at $7–$12 stays attributed to Josten; the PVC $6–$12 figure is re-pinned to its actual §6 pack source and SPRI is dropped as a pricing cite.)",
+      "city": "roseland"
+    }
+  ],
+  "low": [
+    {
+      "combo": "emergency-roof-repair",
+      "field": "metaDescription",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "Unlike every other combo in the cohort (roof-repair, roof-replacement, roof-inspection, roof-leak-repair, storm-damage, hail-damage, wind-damage all end the metaDescription with 'NJ-registered, free estimate.'), this combo's metaDescription omits the 'NJ-registered' credential tail, ending only 'Free estimate.' — an entity-grounding/credential inconsistency within the cohort.",
+      "evidence": "metaDescription: 'Emergency roof repair in Roseland NJ — stabilizing storm-stripped shingles, fallen-tree punctures, and ice-dam leaks on postwar homes. Free estimate.'",
+      "suggestedFix": "Add the credential tail to match siblings: '... on postwar homes. NJ-registered, free estimate.' (verify ≤160 chars after the edit).",
+      "city": "roseland"
+    },
+    {
+      "combo": "roseland/asphalt-shingle-roofing",
+      "field": "faqs[4].answer (cost FAQ)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "A hard percentage is attributed to a vague catch-all ('per industry cost guidance') when a named pack source supports it precisely. The architectural-vs-3-tab installed-cost premium is derivable from Josten Roofing (NJ) per-sq-ft figures in facts-materials-economics.md §1/§7 (3-tab $5.50–$9.50 vs architectural $6.50–$11.00 = roughly a 15–20% midpoint premium). This phrasing appears in NO committed sibling combo (it is a Roseland-only one-off, not established gold), so it is in-scope to tighten the attribution rather than leave it as a generic appeal to 'industry' guidance.",
+      "evidence": "\"...and architectural shingles cost roughly 15 to 20% more installed than 3-tab, per industry cost guidance.\"",
+      "suggestedFix": "Re-pin to the named NJ source already in the pack. Before: \"...architectural shingles cost roughly 15 to 20% more installed than 3-tab, per industry cost guidance.\"  After: \"...architectural shingles install at roughly $6.50 to $11.00 per square foot against $5.50 to $9.50 for 3-tab, per Josten Roofing NJ pricing.\" (Or, if keeping the percentage form, attribute it to 'per Josten Roofing NJ per-square-foot pricing.')",
+      "city": "roseland"
+    },
+    {
+      "combo": "green-roof-installation",
+      "field": "directAnswer (bold span)",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "The bold span ends at '...that carry a planted roof' and the Roseland-specific scope clause ('on the Eisenhower Parkway and Becker Farm Road office-park low-slope decks') sits OUTSIDE the bold, alongside the credential tail. Every other cohort directAnswer keeps the city/corridor scope INSIDE the bold span. The bold span is still ≤40 words (32), so this is a cosmetic R3/structure inconsistency, not a gate fail.",
+      "evidence": "'**Newark Quality Roofing is a roofing contractor installing green roof systems across Roseland, New Jersey, and Essex County, building waterproofing membrane, root barrier, drainage, and growing media that carry a planted roof** on the Eisenhower Parkway and Becker Farm Road office-park low-slope decks as a registered New Jersey Home Improvement Contractor.'",
+      "suggestedFix": "Extend the bold to include the corridor scope so the bold span carries the local anchor like its siblings: move the closing ** to after '...office-park low-slope decks' (still under 40 words): '...drainage, and growing media that carry a planted roof on the Eisenhower Parkway and Becker Farm Road office-park low-slope decks** as a registered New Jersey Home Improvement Contractor.'",
+      "city": "roseland"
+    },
+    {
+      "combo": "spray-foam-roofing",
+      "field": "overview[0]",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "overview[0] adds a residential application ('and the flat sections of its postwar homes') that the directAnswer scopes office-only ('over the low-slope office decks of the Eisenhower Parkway and Becker Farm Road corridor'). SPF is overwhelmingly a commercial/low-slope-membrane recover product; the residential flat-section claim is a minor scope stretch and is not echoed in the directAnswer, definition, or any FAQ. Not a fabrication of fact, just an internal scope mismatch.",
+      "evidence": "directAnswer: '...spraying seamless polyurethane foam and a coating over the low-slope office decks of the Eisenhower Parkway and Becker Farm Road corridor'  vs  overview[0]: '...to the flat and low-slope commercial decks of Roseland's Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office-park corridor and the flat sections of its postwar homes.'",
+      "suggestedFix": "Align overview[0] scope to the commercial/office-park framing used in the directAnswer. Before: '...office-park corridor and the flat sections of its postwar homes.' After: '...Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office-park corridor and the older flat-roof buildings across the borough.'",
+      "city": "roseland"
+    },
+    {
+      "combo": "commercial-roof-repair",
+      "field": "overview[2]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "EPDM and TPO failure modes are pinned to 'per NRCA technical guidance', but facts-materials-economics.md §4 lists EPDM 'seam separation (dominant failure mode)' and TPO 'welded-seam failure (most common)' as [SECONDARY, qualitative] with no NRCA attribution (NRCA technical library is the pack source for the PVC failure-mode row and the §6 header, not for the §4 EPDM/TPO rows). The facts are pack-supported; only the NRCA pin is not pack-precise. Borderline — the same 'per NRCA technical guidance' phrasing recurs in this file's challenges[1] and faqs[3], so it reads consistently, but it slightly over-attributes a [SECONDARY] qualitative fact to a primary body.",
+      "evidence": "'**Membrane seams** fail first on these decks, because seam separation is the dominant EPDM failure mode and welded-seam failure the dominant TPO failure mode, per NRCA technical guidance.'",
+      "suggestedFix": "Either soften the attribution to match the pack tier or keep it (NRCA's technical library is a defensible umbrella for membrane failure-mode guidance). Conservative fix — Before: '...the dominant TPO failure mode, per NRCA technical guidance.' After: '...the dominant TPO failure mode, per NRCA and Single Ply Roofing Industry technical guidance.' If kept as-is, accept as gold-consistent.",
+      "city": "roseland"
+    },
+    {
+      "combo": "commercial-roof-installation",
+      "field": "overview[2] / faqs[0].answer / commercial-roof-replacement faqs[2].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The white-membrane solar-reflectance value (70 to 85%) is attributed to the test method ('measured per ASTM C1549') rather than to the source that publishes the value. Per facts-materials-economics.md §6, the ~0.70–0.85 solar reflectance is sourced to Duro-Last / CRRC, with ASTM C1549 cited only as the measurement standard. Attributing the figure 'per ASTM C1549' makes the standard the source of the number. The combos correctly AVOID the retired-ENERGY-STAR trap and do not claim an annual-bill %, so this is minor and consistent with gold practice.",
+      "evidence": "'A reflective white TPO or PVC membrane reflects roughly 70 to 85% of solar radiation measured per ASTM C1549, the cool-roof property that lowers rooftop heat gain over a cooled office floor.'",
+      "suggestedFix": "Optional precision: name the value's source and keep C1549 as the method. Before: '...reflects roughly 70 to 85% of solar radiation measured per ASTM C1549...' After: '...reflects roughly 70 to 85% of solar radiation when measured per ASTM C1549, per the CRRC...' Acceptable to leave as-is if matching committed siblings.",
+      "city": "roseland"
+    },
+    {
+      "combo": "custom-roof-design-consultation",
+      "field": "faqs[5].answer (cost FAQ) and pricing.note",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The slate install figure $10–$30/sq ft is bundled into the attribution 'per Josten Roofing and NJ roofing-guide pricing,' but in facts-materials-economics.md the $10–$30 slate figure is sourced to 'NJ roofing guides' only (line 287) — Josten Roofing supplies the architectural-asphalt $6.50–$11.00 (line 285) and the metal $9.00–$16.00 (line 286), not the slate figure. The trailing 'and NJ roofing-guide pricing' does technically cover it, so this is a soft over-attribution rather than a fabrication; the three numbers themselves all trace to the pack.",
+      "evidence": "NJ architectural asphalt runs $6.50–$11.00 per square foot, metal $9.00–$16.00, and slate $10–$30, per Josten Roofing and NJ roofing-guide pricing",
+      "suggestedFix": "Tighten the pairing so Josten is not implied to source the slate figure, e.g. '…architectural asphalt runs $6.50–$11.00 per square foot and metal $9.00–$16.00 per Josten Roofing, and slate $10–$30 per NJ roofing-guide pricing…' (apply the same split in pricing.note). Optional — the numbers are correct and the current phrasing is defensible.",
+      "city": "roseland"
+    },
+    {
+      "combo": "energy-efficient-roofing-solutions",
+      "field": "overview[1] and faqs[1].answer",
+      "severity": "low",
+      "category": "modality",
+      "issue": "The DOE >50°F surface-temp fact is written with the 'can' hedge ('a reflective roof CAN STAY over 50 degrees Fahrenheit cooler'). Although the build gate's MODALITY regex does not include 'can', R6 and the ruleset BANNED list / brief §B.3 name 'can/may/might' as banned hedges in declaratives, and every committed gold sibling renders this exact DOE fact indicatively ('stays more than 50°F cooler' — Orange/Newark metal-roof-replacement, Newark silicone-roof-coating). It is also inconsistent within this same cohort: silicone-roof-coating.ts (overview[3]/faqs[4]) writes 'staying more than 50°F cooler' for the identical DOE fact.",
+      "evidence": "overview[1]: 'a reflective roof can stay over 50 degrees Fahrenheit cooler than a conventional roof, per the DOE.' — repeated in faqs[1].answer: 'A reflective roof can stay over 50 degrees Fahrenheit cooler than a conventional roof, per the DOE.'",
+      "suggestedFix": "Both occurrences: 'a reflective roof can stay over 50 degrees Fahrenheit cooler than a conventional roof, per the DOE.' → 'a reflective roof stays more than 50°F cooler than a conventional roof on a sunny afternoon, per the DOE.' (matches gold-sibling indicative phrasing and the cohort's own silicone-roof-coating wording).",
+      "city": "roseland"
+    },
+    {
+      "combo": "roof-replacement-after-leak",
+      "field": "challenges[0] and faqs[0].answer (\"How do I know if a leaking Roseland roof needs repair or full replacement?\")",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The \"5 to 10 times less than replacement\" repair-vs-replace cost ratio is attributed to \"WeatherShield and Home Depot.\" Per facts-cost-stats §5, the 5–10× localized-repair-vs-replacement figure is sourced to Home Depot / Kelly Roofing; WeatherShield is the source for the 50% rule, not the 5–10× ratio. This is also internally inconsistent with the cohort: storm-damage-roof-replacement.ts cites the same 5–10× figure to the correct \"Home Depot and Kelly Roofing.\"",
+      "evidence": "challenges[0]: \"…The contractor-consensus thresholds favor replacement after 3 or more repairs in 2 years, after damage crosses roughly 25 to 30% of the roof area, or when one repair approaches 50% of replacement cost, per WeatherShield and roofing industry repair-vs-replace guidance.\" + faqs[0]: \"…a localized repair costs 5 to 10 times less than replacement, per WeatherShield and Home Depot cost data.\"",
+      "suggestedFix": "In faqs[0], re-pair the 5–10× figure: \"…a localized repair costs 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\" (matches storm-damage-roof-replacement and the pack). The 50%-rule citation to WeatherShield in challenges[0] may stay.",
+      "city": "roseland"
+    },
+    {
+      "combo": "re-roofing",
+      "field": "process[0]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The area/cost/age repair-vs-replace thresholds are attributed to \"WeatherShield, RapidRestore, and Home Depot.\" Per facts-materials-economics §8, RapidRestore is specifically the 25%-AREA-rule source, while the 25–30%/50%/age framing the same file uses in overview[3] is correctly attributed to \"Kellow, Modernize, Josten, WeatherShield, and Home Depot.\" The process[0] source set is internally inconsistent with overview[3] of the same combo and drops the 30%-rule sources (Kellow/Modernize/Josten) that actually back the cost rule.",
+      "evidence": "process[0]: \"Damage across more than 25–30% of the roof area crosses the area rule, a repair approaching 50% of replacement cost crosses the cost rule, and an asphalt roof past 20 years crosses the age rule, because a localized repair stays the more economical path only while the roof stays under 10 to 15 years old, per WeatherShield, RapidRestore, and Home Depot cost data.\"",
+      "suggestedFix": "Align process[0] to overview[3]'s source set: \"…per Kellow, Modernize, Josten, WeatherShield, and Home Depot cost data.\" (RapidRestore is the 25%-area rule; keep it only where the area rule is the lead, not as a blanket cite for the cost/age rules.)",
+      "city": "roseland"
+    }
+  ],
+  "byCohort": [
+    {
+      "cohort": "roseland:repair-maintenance",
+      "confirmed": 3,
+      "refuted": 2,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "roseland:residential-roof-types",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "roseland:commercial-roof-types",
+      "confirmed": 0,
+      "refuted": 1,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "roseland:commercial-services",
+      "confirmed": 1,
+      "refuted": 0,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "roseland:components-specialty",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 0,
+      "failed": false
+    },
+    {
+      "cohort": "roseland:design-consultation",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "roseland:energy-solar",
+      "confirmed": 0,
+      "refuted": 1,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "roseland:replacement-A",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "roseland:replacement-B",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 0,
+      "failed": false
+    }
+  ]
+}

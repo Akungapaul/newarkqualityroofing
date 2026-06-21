@@ -1,0 +1,17 @@
+# north-caldwell / rubber-roofing-epdm — rewrite rationale
+
+**De-fab literals cleared from the current file:**
+- Deleted the price-in-lead + hype "delivers expert rubber roofing epdm in North Caldwell — with prices starting from $6,000–$16,000 and free estimates available today"; replaced with an entity-grounded, figure-free answer-first lead.
+- Deleted the invented `$6,000–$16,000` tier → replaced with the sourced flat-roof repair default `$400–$1,000` (HomeAdvisor/Modernize); cost FAQ uses the same range + small-patch $300–$500 / seam re-weld $200–$400 (Modernize/WeatherShield) + "free written estimate" framing.
+- Deleted whyChooseUs templated lines "NJ licensed, GAF Certified — 15+ years…", "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties," "same-day estimates and 24/7 emergency response" → replaced with the registered-HIC/fully-insured factual set.
+- Deleted the urgencyNote "Don't wait for minor damage to become a major expense. Early action saves thousands." → factual "Addressing a failed EPDM seam early limits interior and structural water damage."
+- Stripped both inline markdown self-links ([rubber roofing](/…), [Caldwell](/…), [North Caldwell](/…)) to plain text (none remain).
+- Removed unsourced/invented texture: "60-mil standard / heavier than 45-mil budget," "30-plus-year service life," and the manufacturer-warranty "20 to 30 years" claim → re-pinned all lifespans to the InterNACHI life-expectancy chart (EPDM 15–25, TPO 7–20, mod-bit 20).
+- No "licensed" used for NQR anywhere; credential = "a registered New Jersey Home Improvement Contractor" + "fully insured." No `definition` field authored (spliced post-assembly).
+
+**North Caldwell facts corrected / enforced:**
+- Historic posture stated plainly: NO Certificate of Appropriateness applies anywhere in North Caldwell; HPC under Chapter 107, Article XIII is advisory/survey-only, no designations; no National/NJ State Register listing; per the National Park Service, Register listing alone places no restriction. (No O-8-2026, no Caldwell Chapter 130, no Idaho "North Caldwell Historic District," no architectural-review-board/HOA gate.)
+- Permit office = the Borough of North Caldwell Construction Department at 141 Gould Avenue (no Construction Official named).
+- Geography kept upland/qualitative: mature oak/maple canopy as the defining stressor, Hilltop Reservation edge + Second Watchung far-western upland exposure; ~96.0% owner-occupied (U.S. Census Bureau); no floodplain, no borough-wide wind/snow figure, no canopy-%. Localized EPDM to estate accessory (pool houses, detached garages, carriage houses), enclosed porch additions, and municipal/institutional low-slope sections.
+
+**Named sources cited in-text:** InterNACHI life-expectancy chart (EPDM 15–25 / TPO 7–20 / mod-bit 20); HomeGuide membrane-repair guidance (seam separation = primary failure, shrinkage = secondary); the NRCA and ARMA (¼-in/ft slope, ponding >48 hr = defect); Owens Corning warranty guidance (manufacturer system warranty vs. workmanship warranty); Modernize / WeatherShield cost data (patch $300–$500, seam re-weld $200–$400); HomeAdvisor / Modernize (NJ flat-roof repair $400–$1,000, NJ 10–40% over national); N.J.A.C. 5:23-2.7 ordinary-maintenance + 25% rule; N.J.A.C. 5:23-6.4 Rehab Subcode (water-soaked / two-layer tear-off); National Park Service (Register-listing-no-restriction); Integrity Home Exteriors documentation guidance; U.S. Census Bureau (96.0% owner-occupied).

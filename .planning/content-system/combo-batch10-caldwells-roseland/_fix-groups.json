@@ -1,0 +1,565 @@
+[
+  {
+    "city": "caldwell",
+    "combo": "slate-roof-installation-repair",
+    "findings": [
+      {
+        "field": "overview[3]",
+        "category": "source-attribution",
+        "issue": "InterNACHI (a lifespan/life-expectancy chart only) is cited as the source for the CAUSAL claim that failed flashing 'ranks as the most common slate-roof leak source.' InterNACHI backs only the lifespan figures (slate 60-150 yr, copper 70+ yr). The 'most common leak source' claim is sourced correctly to NRCA + National Slate Association in this same file's FAQ (faqs[4]) and across the majority of committed siblings (Orange, Irvington, Maplewood, Cedar Grove, Fairfield, Bloomfield), so the file is internally inconsistent.",
+        "evidence": "'**Failed flashing** at valleys, chimneys, and dormers ranks as the most common slate-roof leak source, because copper flashing degrades decades before natural slate, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing slate repair lifts and resets the adjacent slate to rebuild the copper detail, where copper lasts 70-plus years, matching the slate service life.'",
+        "finalFix": "Before: '**Failed flashing** at valleys, chimneys, and dormers ranks as the most common slate-roof leak source, because copper flashing degrades decades before natural slate, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing slate repair lifts and resets the adjacent slate to rebuild the copper detail, where copper lasts 70-plus years, matching the slate service life.'\nAfter: '**Failed flashing** at valleys, chimneys, and dormers ranks as the most common slate-roof leak source, per NRCA and National Slate Association guidance, because copper flashing degrades decades before natural slate, so a Newark Quality Roofing slate repair lifts and resets the adjacent slate to rebuild the copper detail, where copper lasts 70-plus years, per the InterNACHI life-expectancy chart, matching the slate service life.'"
+      },
+      {
+        "field": "process[0]",
+        "category": "source-attribution",
+        "issue": "Same InterNACHI misattribution for the causal 'most common slate-roof leak source' claim. InterNACHI is lifespan-only; the leak-source claim belongs to NRCA/NSA (as the file's own FAQ uses). This is the second instance of the same defect in the file and compounds the internal inconsistency.",
+        "evidence": "'...and examines every valley, chimney, and wall transition, the detail that ranks as the most common slate-roof leak source, per the InterNACHI life-expectancy chart.'",
+        "finalFix": "Before: '...and examines every valley, chimney, and wall transition, the detail that ranks as the most common slate-roof leak source, per the InterNACHI life-expectancy chart.' After: '...and examines every valley, chimney, and wall transition, the detail that ranks as the most common slate-roof leak source, per NRCA and National Slate Association guidance.'"
+      }
+    ]
+  },
+  {
+    "city": "caldwell",
+    "combo": "wood-shake-roofing",
+    "findings": [
+      {
+        "field": "faqs[2].answer",
+        "category": "answer-length",
+        "issue": "The FAQ answer's first sentence is 53 words — over the R2 ≤40-word definitive-first-sentence cap. It is a run-on that joins the UCC ordinary-maintenance rule and the permit-office clause with a semicolon. The brief's §C historic-FAQ lesson explicitly calls for splitting such overruns.",
+        "evidence": "'A repair or replacement of the cedar roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code; the Borough of Caldwell Construction Department at 24 Smull Avenue administers the state classification.'",
+        "finalFix": "In src/data/combo-content/caldwell/wood-shake-roofing.ts, faqs[2].answer — change the semicolon after \"per the NJ Uniform Construction Code\" to a period and capitalize the next clause. BEFORE: '...no notice, per the NJ Uniform Construction Code; the Borough of Caldwell Construction Department at 24 Smull Avenue administers the state classification.' AFTER: '...no notice, per the NJ Uniform Construction Code. The Borough of Caldwell Construction Department at 24 Smull Avenue administers the state classification.' (First sentence then = 39 words, ≤40; the remaining two sentences of the answer are unchanged.)"
+      }
+    ]
+  },
+  {
+    "city": "caldwell",
+    "combo": "solar-shingle-installation",
+    "findings": [
+      {
+        "field": "process[1]",
+        "category": "source-attribution",
+        "issue": "The wind rating 'ASTM D3161 Class F wind to roughly 130 miles per hour' is applied to ALL THREE named products (GAF Energy Timberline Solar, Tesla Solar Roof, AND CertainTeed Solstice). Per the energy-solar pack Part B, GAF (Class F ~130 mph) and Tesla (Class F) are correct, but CertainTeed Solstice is rated 110 mph wind (10-yr wind warranty), NOT Class F / 130 mph. Lumping Solstice into the 130 mph / Class F claim mis-states a manufacturer spec.",
+        "evidence": "GAF Energy Timberline Solar rates 57 watts per energy shingle, Tesla Solar Roof 72 watts per active tile, and CertainTeed Solstice 70 watts per shingle, with each system listing ASTM D3161 Class F wind to roughly 130 miles per hour, UL 2218 Class 4 hail, and UL 790 Class A fire, per each manufacturer.",
+        "finalFix": "Before: '...with each system listing ASTM D3161 Class F wind to roughly 130 miles per hour, UL 2218 Class 4 hail, and UL 790 Class A fire, per each manufacturer.'\nAfter: '...with GAF Energy Timberline Solar and Tesla Solar Roof listing ASTM D3161 Class F wind to roughly 130 miles per hour and CertainTeed Solstice listing a 110-mile-per-hour wind rating, each listing UL 2218 Class 4 hail and UL 790 Class A fire, per each manufacturer.'"
+      }
+    ]
+  },
+  {
+    "city": "caldwell",
+    "combo": "silicone-roof-coating",
+    "findings": [
+      {
+        "field": "challenges[1] (overview/challenges[1], the 'Mature street-tree debris' string)",
+        "category": "fabrication",
+        "issue": "Fabricated comparative claim attributed to the RCMA. No source in facts-energy-solar.md or facts-nj-regulatory-climate.md states silicone 'resists biological growth better than water-based acrylic.' The pack's only silicone-vs-acrylic surface trade-off is dirt-pickup/reflectance (silicone holds dirt and loses reflectance FASTER; acrylic re-washes cleaner). A biological-growth advantage for silicone is invented and is the OPPOSITE direction of the pack's documented dirt-retention finding.",
+        "evidence": "Silicone resists biological growth better than water-based acrylic, per the RCMA, and regular drain and gutter clearing protects both the coating and the drainage path the roof sheds water.",
+        "finalFix": "In src/data/combo-content/caldwell/silicone-roof-coating.ts, challenges[1]: BEFORE: \"**Mature street-tree debris** from the canopy over the older built-out blocks settles on a coated downtown roof, where accumulated leaf matter blocks drains, holds standing water, and stains the surface. Silicone resists biological growth better than water-based acrylic, per the RCMA, and regular drain and gutter clearing protects both the coating and the drainage path the roof sheds water.\" AFTER: \"**Mature street-tree debris** from the canopy over the older built-out blocks settles on a coated downtown roof, where accumulated leaf matter blocks drains, holds standing water, and stains the surface. Regular drain and gutter clearing protects both the coating and the drainage path the roof sheds water, since accumulated debris holds moisture against the surface.\""
+      },
+      {
+        "field": "faqs[4].answer (cost FAQ) and pricing.note / pricing.range",
+        "category": "source-attribution",
+        "issue": "A silicone-COATING restoration price is asserted as '$10,000-$25,000 ... per HomeAdvisor and Modernize cost data' and the pricing.note labels it a 'Typical NJ roof-replacement range.' Per energy-solar pack Global Correction #9, coating costs have NO primary/aggregator-replacement source and should be qualitative ('a fraction of tear-off/replacement cost'). HomeAdvisor/Modernize cover roof REPLACEMENT, not silicone-coating restoration, so attributing a coating price to them is a mis-pairing — and it directly contradicts this same combo's overview, which says coating extends life 'at a fraction of replacement cost.' The sibling silicone-elastomeric-roof-coating handled this correctly (range 'Varies by scope', qualitative fraction-of-tear-off framing) — see cross-combo inconsistency finding.",
+        "evidence": "A silicone roof coating restoration in New Jersey runs $10,000-$25,000 for a typical commercial low-slope roof, per HomeAdvisor and Modernize cost data, with the coating extending service life at a fraction of tear-off and replacement cost, per the RCMA.",
+        "finalFix": "Two edits in src/data/combo-content/caldwell/silicone-roof-coating.ts.\n\n(1) faqs[4].answer —\nBEFORE: 'A silicone roof coating restoration in New Jersey runs $10,000–$25,000 for a typical commercial low-slope roof, per HomeAdvisor and Modernize cost data, with the coating extending service life at a fraction of tear-off and replacement cost, per the RCMA. Final cost depends on roof size, condition, the dry-film thickness the warranty requires, and access. Newark Quality Roofing provides a free written estimate.'\nAFTER: 'A silicone roof coating restores a low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Cost tracks roof size, condition, the dry-film thickness the warranty requires, and access. Newark Quality Roofing provides a free written estimate.'\n\n(2) pricing block —\nBEFORE: range: '$10,000–$25,000', note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'\nAFTER: range: 'Varies by scope', note: 'Final cost depends on roof size, condition, dry-film thickness, prep, and access. Newark Quality Roofing provides a free written estimate.' (mirrors the committed silicone-elastomeric-roof-coating sibling)"
+      }
+    ]
+  },
+  {
+    "city": "caldwell",
+    "combo": "storm-damage-roof-replacement",
+    "findings": [
+      {
+        "field": "overview[2]",
+        "category": "source-attribution",
+        "issue": "The architectural-shingle 130 mph wind rating is mis-pinned to ASTM D3161. Per facts-causes-signs.md §2.2, ASTM D3161 tops out at Class A = 60 mph / Class D = 90 mph / Class F = 110 mph; the 130 mph figure is a manufacturer-warranty rating (with 6-nail install), attributed in the pack to 'ARMA/manufacturer guidance,' and the committed west-orange siblings pin 130 mph to 'ARMA and manufacturer guidance,' never to ASTM D3161.",
+        "evidence": "'3-tab shingles carry roughly a 60 mph rating, and architectural shingles rate to 130 mph, per ASTM D3161'",
+        "finalFix": "In overview[2], change: \"3-tab shingles carry roughly a 60 mph rating, and architectural shingles rate to 130 mph, per ASTM D3161, while functional hail damage begins near 1.0 inch\" → \"3-tab shingles carry roughly a 60 mph rating, and architectural shingles rate to 130 mph with the manufacturer 6-nail pattern, per ARMA and manufacturer guidance, while functional hail damage begins near 1.0 inch\""
+      },
+      {
+        "field": "overview[2], faqs[0].answer",
+        "category": "source-attribution",
+        "issue": "The 50% repair-vs-replace cost rule and the 25%-area rule are both mis-attributed to 'Kellow, Modernize, and Josten.' Per the brief and facts-cost-stats.md §5 / materials-economics §8, Kellow/Modernize/Josten back the 30% rule only; the 50% rule = WeatherShield/Home Depot and the 25%-area rule = RapidRestore. The file bundles all under Kellow/Modernize/Josten.",
+        "evidence": "'Damage across more than 25 to 30% of the roof area crosses the contractor-consensus threshold favoring replacement over continued spot repair, per Kellow, Modernize, and Josten cost guidance.' and faqs[0]: 'The 25 to 30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten cost guidance'",
+        "finalFix": "Two edits, both relocating/re-attributing (no facts deleted):\n\n(1) overview[2] — BEFORE: \"Damage across more than 25 to 30% of the roof area crosses the contractor-consensus threshold favoring replacement over continued spot repair, per Kellow, Modernize, and Josten cost guidance.\"\nAFTER: \"Damage across more than 25 to 30% of the roof area crosses the contractor-consensus 25% area rule, the threshold favoring replacement over continued spot repair, per RapidRestore cost data.\"\n\n(2) faqs[0].answer — BEFORE: \"The 25 to 30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten cost guidance, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\"\nAFTER: \"The 25 to 30% area rule and the 50% cost rule are contractor-consensus thresholds — the 25 to 30% area rule per RapidRestore and Kellow Construction and the 50% cost rule per WeatherShield and Home Depot cost data — and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\""
+      }
+    ]
+  },
+  {
+    "city": "caldwell",
+    "combo": "roof-replacement-after-leak",
+    "findings": [
+      {
+        "field": "process[0], faqs[0].answer",
+        "category": "source-attribution",
+        "issue": "Same mis-pin as storm-damage: the 50% rule and the 25%-area rule are attributed to 'Kellow, Modernize, and Josten,' which back only the 30% rule. The 50% rule = WeatherShield/Home Depot, the 25%-area rule = RapidRestore.",
+        "evidence": "process[0]: 'The 25% rule favors replacement once damage crosses 25 to 30% of the roof area, and the 50% rule applies when one repair approaches 50% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance.'",
+        "finalFix": "In process[0]: change \"The 25% rule favors replacement once damage crosses 25 to 30% of the roof area, and the 50% rule applies when one repair approaches 50% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance.\" → \"The 25% rule favors replacement once damage crosses 25 to 30% of the roof area, per RapidRestore, and the 50% rule applies when one repair approaches 50% of replacement cost, per WeatherShield and Home Depot repair-vs-replace guidance.\"\n\nIn faqs[0].answer: change \"because the 25% and 50% thresholds are contractor-consensus rules, per Kellow, Modernize, and Josten guidance, and a localized repair costs 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\" → \"because the 25% and 50% thresholds are contractor-consensus rules, per RapidRestore, WeatherShield, and Home Depot guidance, and a localized repair costs 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\""
+      }
+    ]
+  },
+  {
+    "city": "north-caldwell",
+    "combo": "roof-repair",
+    "findings": [
+      {
+        "field": "faqs[4].answer",
+        "category": "source-attribution",
+        "issue": "The 50% cost rule is mis-paired to Kellow, Modernize, and Josten. Per the canonical materials-economics §8 source table, the 50% rule = WeatherShield / Home Depot / industry, while Kellow / Modernize / Josten is the 30% rule. The cohort's own roof-inspection.ts FAQ correctly pairs the 50% rule with WeatherShield and Home Depot, so this file contradicts its sibling and the canon.",
+        "evidence": "\"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten, and repair favors an asphalt roof under 10 to 15 years old.\"",
+        "finalFix": "before→ \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten, and repair favors an asphalt roof under 10 to 15 years old.\"; after→ \"The 25–30% area rule is a contractor-consensus threshold attributed to RapidRestore and the 50% cost rule to WeatherShield and Home Depot, and repair favors an asphalt roof under 10 to 15 years old.\""
+      }
+    ]
+  },
+  {
+    "city": "north-caldwell",
+    "combo": "storm-damage-roof-repair",
+    "findings": [
+      {
+        "field": "faqs[4].answer",
+        "category": "source-attribution",
+        "issue": "The 50% rule is mis-attributed to Kellow, Modernize, and Josten cost guidance. Per materials-economics §8 the 50% rule = WeatherShield / Home Depot (Kellow/Modernize/Josten is the 30% rule). The committed Maplewood storm sibling attributes the 50% rule to 'Billrago and Equity' (also a recognized 50%-rule source); either of those is correct, but Kellow/Modernize/Josten is the wrong (30%-rule) source for the 50% threshold.",
+        "evidence": "\"A second threshold, the 50% rule, favors replacement when one repair approaches 50% of replacement cost, per Kellow, Modernize, and Josten cost guidance.\"",
+        "finalFix": "In faqs[4].answer, before→ \"per Kellow, Modernize, and Josten cost guidance\"; after→ \"per WeatherShield and Home Depot cost guidance\" — the canonical 50%-rule source pairing per materials-economics fact pack line 305 and consistent with the cohort's own North Caldwell roof-inspection.ts."
+      }
+    ]
+  },
+  {
+    "city": "north-caldwell",
+    "combo": "roof-deck-repair-replacement",
+    "findings": [
+      {
+        "field": "faqs[4].answer (\"Should you repair or replace the roof when the deck is rotted?\")",
+        "category": "source-attribution",
+        "issue": "The 25–30% repair-vs-replace area rule and the 50% repair-vs-replacement-cost rule are attributed only to a generic \"contractor-consensus thresholds\" rather than the named sources the brief (§D/§F) and the materials-economics pack require. The committed gold sibling (glen-ridge/roof-deck-repair-replacement.ts:44) pins these precisely: 25–30% area rule → Kellow / RapidRestore / Modernize; 50% cost rule → WeatherShield / Home Depot. The North Caldwell file drops that attribution, leaving two hard percentages unsourced.",
+        "evidence": "\"...replace the roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair when the decay stays localized. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.\"",
+        "finalFix": "In faqs[4].answer, change: before→ \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.\" ; after→ \"The 25–30% area rule is a contractor-consensus threshold attributed to RapidRestore and Kellow Construction, and the 50% cost rule to WeatherShield, while the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.\" (mirrors the same-batch committed sibling essex-fells/roof-deck-repair-replacement.ts:50; fact-pack-accurate per facts-materials-economics.md §8; no percentage deleted.)"
+      }
+    ]
+  },
+  {
+    "city": "north-caldwell",
+    "combo": "solar-shingle-installation",
+    "findings": [
+      {
+        "field": "faqs[0].answer",
+        "category": "answer-length",
+        "issue": "R2 violation: the FAQ answer's first sentence runs 56 words (well over the ≤40-word definitive-answer cap). It chains the ordinary-maintenance rule AND the PV/electrical-permit rule into one sentence before the first period.",
+        "evidence": "\"The reroof of the covering on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while the photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, per the NJ Uniform Construction Code and the NEC.\" (56 words)",
+        "finalFix": "In src/data/combo-content/north-caldwell/solar-shingle-installation.ts, faqs[0].answer — replace the first sentence:\n\nBEFORE: \"The reroof of the covering on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while the photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, per the NJ Uniform Construction Code and the NEC.\"\n\nAFTER: \"The reroof of the covering on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. The photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance.\"\n\nThe trailing sentence (\"The Borough of North Caldwell Construction Department at 141 Gould Avenue administers the permits for the photovoltaic and electrical scope.\") stays unchanged. Resulting lead sentence = 33 words (≤40); follow-on = 19 words."
+      }
+    ]
+  },
+  {
+    "city": "north-caldwell",
+    "combo": "re-roofing",
+    "findings": [
+      {
+        "field": "process[0]",
+        "category": "source-attribution",
+        "issue": "The repair-vs-replace THRESHOLD rules (25-30% area rule, 50% rule, age rule) are mis-attributed to 'Home Depot and Kelly Roofing cost data.' Per facts-materials-economics.md §8, Home Depot/Kelly Roofing is the named source ONLY for the '5-10x less' localized-cheap rule. The 50% rule = WeatherShield/Home Depot; the age & 3-repairs rules = WeatherShield; the 25%-area rule = RapidRestore. Attaching the threshold rules to 'Home Depot and Kelly Roofing cost data' is the exact mis-pairing the brief warns against.",
+        "evidence": "'Damage across more than 25–30% of the roof area crosses the contractor-consensus 25–30% rule, a single repair approaching 50% of replacement cost crosses the 50% rule, and an asphalt roof past 20 years crosses the age rule, per Home Depot and Kelly Roofing cost data, so a Newark Quality Roofing assessment confirms the threshold before recommending a re-roof.'",
+        "finalFix": "In src/data/combo-content/north-caldwell/re-roofing.ts process[0], replace \"an asphalt roof past 20 years crosses the age rule, per Home Depot and Kelly Roofing cost data, so a Newark Quality Roofing assessment confirms the threshold before recommending a re-roof.\" with \"an asphalt roof past 20 years crosses the age rule, per WeatherShield, RapidRestore, and Home Depot cost data, so a Newark Quality Roofing assessment confirms the threshold before recommending a re-roof.\" (Re-attributes the 25–30% area / 50% / age threshold rules to their fact-pack §8 sources — RapidRestore for the area rule, WeatherShield for the 50% and age rules, Home Depot for the 50% rule — matching the committed South Orange re-roofing sibling, and drops the Kelly-Roofing attachment, which §8 reserves solely for the 5–10x localized-repair figure not present in this sentence.)"
+      }
+    ]
+  },
+  {
+    "city": "north-caldwell",
+    "combo": "roof-replacement-cost",
+    "findings": [
+      {
+        "field": "faqs[3].answer",
+        "category": "source-attribution",
+        "issue": "Repair-vs-replace rule sources are mis-paired. The 50% COST rule is attributed to Kellow/Modernize/Josten, but those sources back the 30% COST rule. Per the materials-economics §8 canon: 50% rule = WeatherShield/Home Depot; 30% rule = Kellow/Modernize/Josten; 25%-area rule = RapidRestore. Both the '25-30% area rule' and the '50% cost rule' are pinned to the wrong named bodies here.",
+        "evidence": "\"Replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; ... The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten\"",
+        "finalFix": "Before: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.\" → After: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.\" (drop the false \"per Kellow, Modernize, and Josten\" pin — the 50% cost rule belongs to WeatherShield/Home Depot per materials-economics §8, while Kellow/Modernize/Josten back the uncited 30% cost rule; matches committed verona gold.)"
+      }
+    ]
+  },
+  {
+    "city": "north-caldwell",
+    "combo": "cedar-shake-roof-replacement",
+    "findings": [
+      {
+        "field": "pricing.note",
+        "category": "city-fact",
+        "issue": "Stray slate pricing copy-pasted from the slate combo into the cedar combo's pricing note. Slate's $10–$30/sq ft is irrelevant to a cedar-shake replacement and conflates the two materials, undermining the page's accuracy.",
+        "evidence": "\"premium cedar sits above asphalt, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access.\"",
+        "finalFix": "In src/data/combo-content/north-caldwell/cedar-shake-roof-replacement.ts, pricing.note — Before: \"Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium cedar sits above asphalt, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.\" → After: \"Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium cedar sits above asphalt, with wood/cedar running roughly $5–$10 per square foot per Modernize and HomeGuide (labor about 60 to 70% of a wood-roof install). Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.\""
+      }
+    ]
+  },
+  {
+    "city": "essex-fells",
+    "combo": "storm-damage-roof-repair",
+    "findings": [
+      {
+        "field": "faqs[3].answer",
+        "category": "fabrication",
+        "issue": "Invented NJ statutory claim deadline. The answer asserts a 'two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.' NJ has no such statutory roofing/named-storm claim deadline. The insurance fact pack states plainly: 'NJ proof-of-loss deadline NOT tied to a NJ source. The common 60-day proof-of-loss window is a POLICY term (United Policyholders / NAIC model), not a confirmed NJ statute. Frame as ... per your policy, not a NJ legal deadline.' This is unique to Essex Fells — every committed sibling (Bloomfield, West Orange, Montclair) uses the correct framing.",
+        "evidence": "\"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.\"",
+        "finalFix": "In faqs[3].answer — BEFORE: \"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance. Prompt documentation supports the claim. A Newark Quality Roofing storm response documents the damage with timestamped photographs and a scope of work the same way on the borough's owner-occupied custom single-family homes.\" → AFTER: \"Most New Jersey homeowner policies require prompt notice of damage and a proof of loss within a policy-set window — commonly about 60 days — set by the policy contract rather than by statute, per United Policyholders and the NAIC. Prompt documentation supports the claim. A Newark Quality Roofing storm response documents the damage with timestamped photographs and a scope of work the same way on the borough's owner-occupied custom single-family homes.\" (Mirrors the committed West Orange/Montclair gold framing; preserves the Essex Fells anchor sentence unchanged.)"
+      },
+      {
+        "field": "process[1]",
+        "category": "fabrication",
+        "issue": "Same fabricated NJ statutory deadline recurs in the process step: 'a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.' Not pack-supported (insurance pack lines 455-457) and contradicts every committed sibling.",
+        "evidence": "\"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance. The documentation package supports the homeowner's claim...\"",
+        "finalFix": "In BOTH occurrences (process[1] line 24 and faqs[3] line 46) replace the sentence: BEFORE \"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.\" AFTER \"Most New Jersey homeowner policies require prompt notice of damage and a proof of loss within a policy-set window — commonly about 60 days — set by the policy contract rather than by statute, per United Policyholders and the NAIC.\""
+      }
+    ]
+  },
+  {
+    "city": "essex-fells",
+    "combo": "emergency-roof-repair",
+    "findings": [
+      {
+        "field": "overview[1] (also process[0], faqs[2])",
+        "category": "source-attribution",
+        "issue": "EPA mold-window figure not present in any fact pack. The claim 'the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold' is attributed to the EPA, but no EPA source and no 24–48-hour figure appears in facts-causes-signs.md (which carries only the NRCA 48-hour PONDING threshold and University of Minnesota for mold) or any other pack. A prior reviewer formally CONFIRMED this exact attribution as not-in-packs (batch8/CONFIRMED-FINDINGS.json). NOTE: it is also an established site-wide emergency-combo pattern (batch1 gold exemplar + every committed sibling), so this is a systemic source-grounding gap, not an Essex-Fells-only defect.",
+        "evidence": "\"...within the mold-growth window, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, so every hour of exposure raises the secondary-damage cost.\" (recurs in process[0] and faqs[2])",
+        "finalFix": "In src/data/combo-content/essex-fells/emergency-roof-repair.ts, overview[1] (line 12): BEFORE \"within the mold-growth window, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, so every hour of exposure raises the secondary-damage cost.\" AFTER \"promptly, because trapped moisture drives mold growth and interior decay the longer water sits, so every hour of exposure raises the secondary-damage cost.\" Apply the same swap to the recurrences: in process[0] (line 23) replace \"because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, and confirms\" with \"because trapped moisture drives mold growth and interior decay the longer water sits, and confirms\"; in faqs[2] (line 41) replace \"to stop water entry, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold.\" with \"to stop water entry, because trapped moisture drives mold growth and interior decay the longer water sits.\" (Orchestrator should apply the same de-attribution swap site-wide across the batch1 Newark gold exemplar and committed/in-flight siblings carrying this identical EPA mold-window phrasing.)"
+      }
+    ]
+  },
+  {
+    "city": "essex-fells",
+    "combo": "wood-shake-roofing",
+    "findings": [
+      {
+        "field": "overview[0]",
+        "category": "fabrication",
+        "issue": "Carries the banned 'architect-collaborated' Essex Fells narrative. The brief (§D) explicitly lists 'the architect-collaboration / architectural-review-submittal culture claim' as a fabrication to DELETE/CORRECT — there is no source for architect-collaborated custom-home stock in Essex Fells; the verified texture is 'custom single-family homes on large Bowditch-plan lots.'",
+        "evidence": "'...maintains cedar shake and shingle roofing on the custom single-family homes of Essex Fells, Essex County's smallest borough, on the architect-collaborated stock along Fells Road, Forest Way, Oak Lane, and Devon Road.'",
+        "finalFix": "In overview[0], replace \"on the architect-collaborated stock along Fells Road, Forest Way, Oak Lane, and Devon Road.\" → \"on the borough's large Bowditch-plan lots along Fells Road, Forest Way, Oak Lane, and Devon Road.\" (drops the fabricated \"architect-collaborated stock\"; keeps the verified streets and the sourced Bowditch-plan large-lot texture, mirroring the same file's whyChooseUs framing and avoiding redundancy with \"custom single-family homes\" already in the bold span)."
+      }
+    ]
+  },
+  {
+    "city": "essex-fells",
+    "combo": "tile-roof-installation-repair",
+    "findings": [
+      {
+        "field": "overview[2]",
+        "category": "fabrication",
+        "issue": "Carries the banned 'architect-collaborated' Essex Fells narrative (same defect as wood-shake). The brief (§D) bans the architect-collaboration claim; verified framing is 'turn-of-the-century to mid-century custom homes on large Bowditch-plan lots.'",
+        "evidence": "'A Newark Quality Roofing installation matches the profile and color of the existing tile on Essex Fells's architect-collaborated turn-of-the-century and mid-century custom homes.'",
+        "finalFix": "In overview[2], change: \"A Newark Quality Roofing installation matches the profile and color of the existing tile on Essex Fells's architect-collaborated turn-of-the-century and mid-century custom homes.\" → \"A Newark Quality Roofing installation matches the profile and color of the existing tile on Essex Fells's turn-of-the-century and mid-century custom single-family homes.\""
+      }
+    ]
+  },
+  {
+    "city": "essex-fells",
+    "combo": "asphalt-shingle-roofing",
+    "findings": [
+      {
+        "field": "faqs[4].answer",
+        "category": "source-attribution",
+        "issue": "Mis-pairs the repair-vs-replace rules. Per materials-economics §8 the 50% cost rule = WeatherShield/Home Depot, the 30% cost rule = Kellow/Modernize/Josten, and the 25%-area rule = RapidRestore/MyQuoteIQ. The combo pins BOTH the '25–30% area rule' and the '50% cost rule' to 'Kellow and Modernize' — the 50% rule is wrongly attributed (Kellow/Modernize back the 30% rule, not the 50% rule).",
+        "evidence": "'The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow and Modernize, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.'",
+        "finalFix": "In src/data/combo-content/essex-fells/asphalt-shingle-roofing.ts, faqs[4].answer, replace: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow and Modernize, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\" → \"The 25–30% area rule traces to RapidRestore and Kellow, the 50% cost rule to WeatherShield, and the 30% cost rule to Kellow and Modernize, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\" (Re-pins each threshold to its §8 source and mirrors the committed Maplewood sibling; 5-to-10× Home Depot/Kelly Roofing pairing left intact.)"
+      }
+    ]
+  },
+  {
+    "city": "essex-fells",
+    "combo": "silicone-elastomeric-roof-coating",
+    "findings": [
+      {
+        "field": "pricing.range / pricing.note / faqs[5].answer",
+        "category": "fabrication",
+        "issue": "The $3–$7/sq ft coating price and its 'Typical NJ roof-coating range per HomeAdvisor' attribution are fabricated. The energy-solar fact pack carries NO HomeAdvisor coating figure and explicitly flags '$/sq ft coating cost' as UNVERIFIED (§0.9 + Gaps: 'Recoat-vs-replacement % cost and $/sq ft coating cost — secondary blogs/aggregators only; use \"a fraction of tear-off cost\" qualitatively'). The only $/sq ft figures in the pack are solar-shingle vs panel install ($21–$25 vs $7–$10 per SolarTech Online) — not a coating range, and not HomeAdvisor.",
+        "evidence": "pricing.range: '$3–$7/sq ft'; pricing.note: 'Typical NJ roof-coating range per HomeAdvisor...'; faq: 'with a typical NJ roof-coating range from $3 to $7 per square foot per HomeAdvisor.'",
+        "finalFix": "Apply three edits aligning to the caldwell/fairfield/roseland sibling pattern (de-quantify, RCMA-attributed). (1) pricing.range: BEFORE: '$3–$7/sq ft' → AFTER: 'Varies by scope'. (2) pricing.note: BEFORE: 'Typical NJ roof-coating range per HomeAdvisor; final cost depends on roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs. Newark Quality Roofing provides a free written estimate.' → AFTER: 'A maintained coating restores a sound low-slope roof at a fraction of tear-off and replacement cost, per the RCMA; final cost depends on roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs. Newark Quality Roofing provides a free written estimate.' (3) faqs[5].answer: BEFORE: 'A silicone elastomeric roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Coating cost tracks roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs, with a typical NJ roof-coating range from $3 to $7 per square foot per HomeAdvisor. Newark Quality Roofing provides a free written estimate.' → AFTER: 'A silicone elastomeric roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Coating cost tracks roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs, so the price varies by scope. Newark Quality Roofing provides a free written estimate.'"
+      },
+      {
+        "field": "pricing.range",
+        "category": "consistency",
+        "issue": "Cross-combo inconsistency within the cohort: the same low-slope coating service is priced two incompatible ways — silicone-roof-coating uses '$400–$1,000' (a flat range) while silicone-elastomeric uses '$3–$7/sq ft'. A user comparing the two sibling coating pages sees a self-contradiction, and the brief requires the same fact to carry the same value/attribution across combos.",
+        "evidence": "silicone-roof-coating pricing.range '$400–$1,000' vs silicone-elastomeric-roof-coating pricing.range '$3–$7/sq ft'",
+        "finalFix": "In src/data/combo-content/essex-fells/silicone-elastomeric-roof-coating.ts, replace the pricing block:\n\nBEFORE:\n  pricing: {\n    range: '$3–$7/sq ft',\n    note: 'Typical NJ roof-coating range per HomeAdvisor; final cost depends on roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs. Newark Quality Roofing provides a free written estimate.',\n  },\n\nAFTER:\n  pricing: {\n    range: 'Varies by scope',\n    note: 'A silicone elastomeric roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA; final cost depends on roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs. Newark Quality Roofing provides a free written estimate.',\n  },\n\nAnd fix the matching unsourced figure in the body FAQ \"How much does silicone elastomeric roof coating cost in Essex Fells, NJ?\" answer:\n\nBEFORE:\n        'A silicone elastomeric roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Coating cost tracks roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs, with a typical NJ roof-coating range from $3 to $7 per square foot per HomeAdvisor. Newark Quality Roofing provides a free written estimate.',\n\nAFTER:\n        'A silicone elastomeric roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Coating cost tracks roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs, and Newark Quality Roofing sets the scope and price in a free written estimate.'\n\n(Note: the sibling silicone-roof-coating.ts also carries the same unsourced HomeAdvisor '$400–$1,000' coating figure in both its pricing.range and its cost FAQ — that page should get the same qualitative treatment in a paired fix so the two adjacent pages no longer contradict and neither cites a fabricated HomeAdvisor coating number.)"
+      }
+    ]
+  },
+  {
+    "city": "essex-fells",
+    "combo": "silicone-roof-coating",
+    "findings": [
+      {
+        "field": "pricing.note (and faqs[6].answer — the cost FAQ)",
+        "category": "source-attribution",
+        "issue": "The $400–$1,000 range is mis-attributed as a 'Typical NJ low-slope coating range per HomeAdvisor.' HomeAdvisor's $400–$1,000 in the pack/exemplars is the NJ leak-REPAIR range, not a coating range — the pack has no HomeAdvisor coating figure (and flags coating $/cost as UNVERIFIED). The number can stay as the repair-tier default per brief §E, but the attribution must not present HomeAdvisor as the source of a coating-specific range, and the cost FAQ asserting 'most projects fall in the $400–$1,000 range' for coatings inherits the same mis-pin.",
+        "evidence": "pricing.note: 'Typical NJ low-slope coating range per HomeAdvisor; final cost depends on roof size, dry-film thickness, and surface prep.'; faq: 'most projects fall in the $400–$1,000 range for the smaller low-slope decks common in Essex Fells.'",
+        "finalFix": "EDIT 1 — pricing.note (line 63):\nBEFORE: note: 'Typical NJ low-slope coating range per HomeAdvisor; final cost depends on roof size, dry-film thickness, and surface prep. Newark Quality Roofing provides a free written estimate.',\nAFTER: note: 'Coating restores a sound low-slope roof at a fraction of tear-off and replacement cost, per the RCMA; final cost depends on roof size, dry-film thickness, and surface prep. Newark Quality Roofing provides a free written estimate.',\n\nEDIT 2 — faqs[6].answer (the cost FAQ, line 56):\nBEFORE: 'Silicone roof coating cost depends on roof size, the dry-film thickness specified, and the surface preparation the existing roof requires, and most projects fall in the $400–$1,000 range for the smaller low-slope decks common in Essex Fells. Recoating restores a roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'\nAFTER: 'Silicone roof coating cost depends on roof size, the dry-film thickness specified, and the surface preparation the existing roof requires, which on the smaller low-slope decks common in Essex Fells keeps a recoat well below a full tear-off. Recoating restores a roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'\n\nNote: pricing.range '$400–$1,000' (line 62) should also be reconciled — drop it to figure-free 'Varies by scope' to match the de-attribution and the roseland/fairfield siblings, OR keep a range only if unattributed; do not leave '$400–$1,000' standing as a HomeAdvisor-sourced coating figure."
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "roof-maintenance-programs",
+    "findings": [
+      {
+        "field": "faqs[3].answer",
+        "category": "fabrication",
+        "issue": "Carries the banned NRCA 'ventilation extends roof life by up to 25%' quantified figure. The brief and reviewer rules explicitly ban this figure (gold combos dropped the quantity and keep only the qualitative point; the committed Orange gold roof-inspection says 'balanced ventilation extends roof service life, per the NRCA' with NO 25%). It is the only one of the 10 cohort files carrying it.",
+        "evidence": "'Proper maintenance extends shingle lifespan by roughly 25 to 30%, per ARMA, and the NRCA finds balanced attic ventilation extends roof life by up to 25%.'",
+        "finalFix": "In src/data/combo-content/fairfield/roof-maintenance-programs.ts, faqs[3].answer, replace only the offending clause:\n\nBEFORE:\n'Proper maintenance extends shingle lifespan by roughly 25 to 30%, per ARMA, and the NRCA finds balanced attic ventilation extends roof life by up to 25%.'\n\nAFTER:\n'Proper maintenance extends shingle lifespan by roughly 25 to 30%, per ARMA, and balanced attic ventilation extends roof service life, per the NRCA.'\n\nThis removes the unconfirmed/banned \"up to 25%\" ventilation figure while keeping the ARMA 25-30% maintenance clause intact and re-pinning the ventilation point to the qualitative gold form used by the committed Orange/Newark siblings (\"balanced ventilation extends roof service life, per the NRCA\")."
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "roof-leak-repair",
+    "findings": [
+      {
+        "field": "challenges[0] and challenges[1]",
+        "category": "consistency",
+        "issue": "challenges[0] and challenges[1] both open with the identical bold lead '**Passaic-floodplain drainage load**' and cover the same subject. challenges[0] is a thin, generic restatement of challenges[1]; the duplicated bold topic violates R3 in-section topic ordering (each following body string should re-bold a DISTINCT topic) and is redundant.",
+        "evidence": "challenges[0]: '**Passaic-floodplain drainage load** defines roof-leak risk across low-lying Fairfield, because storm water that lingers backs up at the drainage path...' ; challenges[1]: '**Passaic-floodplain drainage load** runs township-wide, because Fairfield sits in the Passaic River floodplain downstream of the Passaic-Pompton confluence at Two Bridges...'",
+        "finalFix": "In src/data/combo-content/fairfield/roof-leak-repair.ts, delete the thin generic challenges[0] entirely and promote the detailed challenges[1] to be the floodplain lead, leaving 3 distinct challenges.\n\nBEFORE (challenges array, 4 strings):\nchallenges: [\n  '**Passaic-floodplain drainage load** defines roof-leak risk across low-lying Fairfield, because storm water that lingers backs up at the drainage path, so positive slope, sound flashing, and clear gutters carry it off the roof before it works under the covering.',\n  '**Passaic-floodplain drainage load** runs township-wide, because Fairfield sits in the Passaic River floodplain downstream of the Passaic-Pompton confluence at Two Bridges, with much of the low-lying township inside the FEMA Special Flood Hazard Area, per the Township of Fairfield Flood Protection Information page and the FEMA Essex County flood maps. Great Piece Meadows holds roughly 1,170 acres of Passaic wetland within Fairfield, per Wikipedia and Wildlife Preserves, and the same nor\\'easters and tropical remnants that drove record Passaic flooding gauged at the NOAA-NWS Passaic River at Pine Brook station load every roof at its gutters, scuppers, and drains.',\n  '**Mature tree-canopy debris** compounds the drainage load on the residential streets, ...',\n  '**Commercial low-slope membranes** on the Route 46 and I-80 corridor leak at the seams ...',\n],\n\nAFTER (challenges array, 3 distinct strings — delete the generic [0], keep the grounded floodplain entry as the lead):\nchallenges: [\n  '**Passaic-floodplain drainage load** runs township-wide, because Fairfield sits in the Passaic River floodplain downstream of the Passaic-Pompton confluence at Two Bridges, with much of the low-lying township inside the FEMA Special Flood Hazard Area, per the Township of Fairfield Flood Protection Information page and the FEMA Essex County flood maps. Great Piece Meadows holds roughly 1,170 acres of Passaic wetland within Fairfield, per Wikipedia and Wildlife Preserves, and the same nor\\'easters and tropical remnants that drove record Passaic flooding gauged at the NOAA-NWS Passaic River at Pine Brook station load every roof at its gutters, scuppers, and drains.',\n  '**Mature tree-canopy debris** compounds the drainage load on the residential streets, ...',\n  '**Commercial low-slope membranes** on the Route 46 and I-80 corridor leak at the seams ...',\n],\n\n(Net effect: the duplicated/thin first string is removed; remaining three each carry a distinct bold lead — Passaic-floodplain drainage load / Mature tree-canopy debris / Commercial low-slope membranes — matching the Fairfield sibling and Orange-gold pattern. No facts lost.)"
+      },
+      {
+        "field": "overview/process/faqs (any ASTM D8231 occurrence)",
+        "category": "source-attribution",
+        "issue": "RECURRENCE: ASTM D8231 is an invented electronic-leak-detection standard (absent from all fact packs + the source registry).",
+        "evidence": "every \"ASTM D8231\" / \"per ASTM D8231\" string, plus any hyphenated \"ASTM C-1153\"",
+        "finalFix": "DROP every \"per ASTM D8231\"/\"ASTM D8231\" attribution. Keep the pack-supported ASTM C1153 for infrared wet-insulation detection (normalize any \"ASTM C-1153\" → \"ASTM C1153\"). Frame electronic/low-voltage leak detection generically with NO standard cite (e.g. \"Electronic (low-voltage) leak detection locates a membrane breach, and infrared imaging maps wet insulation per ASTM C1153\"). Preserve the method facts; only remove the invented standard. Keep leads ≤40 words."
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "wind-damage-roof-repair",
+    "findings": [
+      {
+        "field": "faqs[3].answer",
+        "category": "source-attribution",
+        "issue": "The percentage named-storm/hurricane deductible figure 'generally up to 5%' is mis-attributed to the NJ Department of Banking and Insurance. Per facts-replacement-reroofing-insurance.md, the ~1%-5% percentage-deductible range is sourced to the Insurance Information Institute (Triple-I) and the NAIC; NJ DOBI's role is the notice rules (N.J.A.C. 11:2-42), and the NJIUA program uses 2%/3%/4%, not 'up to 5%'. Five committed siblings (Belleville, Bloomfield, Irvington, Maplewood, Nutley) correctly cite Triple-I/NAIC for this figure.",
+        "evidence": "'Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling limit, generally up to 5%, per the NJ Department of Banking and Insurance, so the policy declarations page states which deductible applies.'",
+        "finalFix": "In src/data/combo-content/fairfield/wind-damage-roof-repair.ts faqs[3].answer, change \"A standard New Jersey homeowners policy covers wind as a named peril, with the all-perils deductible applying to a wind claim. Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling limit, generally up to 5%, per the NJ Department of Banking and Insurance, so the policy declarations page states which deductible applies.\" → \"A standard New Jersey homeowners policy covers wind as a named peril, with the all-perils deductible applying to a wind claim, per the NJ Department of Banking and Insurance. Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling Coverage A limit, commonly 1% to 5%, per Triple-I and NAIC, so the policy declarations page states which deductible applies.\" (Relocates the DOBI cite to the named-peril framing per the Maplewood gold pattern, and re-pins the 1%-5% percentage figure to Triple-I and NAIC; leaves the trailing photo-documentation sentence unchanged.)"
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "cedar-shake-roofing",
+    "findings": [
+      {
+        "field": "challenges[2]",
+        "category": "source-attribution",
+        "issue": "Abbreviated N.J.A.C. 5:23-6.4 recover-material list. The ruleset and brief require the FULL statutory list (wood shake, slate, clay, cement, or asbestos-cement tile). This combo truncates it to 'a wood-shake, slate, or tile covering' — a flagged recurring NQR defect. Every OTHER Fairfield combo (wood-shake-roofing, residential-roof-installation, re-roofing, commercial-*, etc.) uses the full list, so this is also a cross-combo inconsistency.",
+        "evidence": "challenges[2]: 'the NJ Rehabilitation Subcode requires complete removal of a wood-shake, slate, or tile covering rather than a recover-over, per N.J.A.C. 5:23-6.4.'",
+        "finalFix": "In challenges[2], replace \"complete removal of a wood-shake, slate, or tile covering rather than a recover-over\" → \"complete removal of a covering that is wood shake, slate, clay, cement, or asbestos-cement tile rather than a recover-over\". Full corrected sentence: \"**Tear-off to the deck** governs a Fairfield cedar replacement, because the NJ Rehabilitation Subcode requires complete removal of a covering that is wood shake, slate, clay, cement, or asbestos-cement tile rather than a recover-over, per N.J.A.C. 5:23-6.4.\""
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "spray-foam-roofing",
+    "findings": [
+      {
+        "field": "overview[1]",
+        "category": "source-attribution",
+        "issue": "The TPO welded-seam and EPDM seam-separation FAILURE-MODE claims are attributed to 'the InterNACHI life-expectancy chart and NRCA technical guidance.' InterNACHI is a lifespan/life-expectancy chart only and backs no failure-mode claim; this sentence makes no lifespan claim at all, so the InterNACHI tag is a clear mis-pin. The failure-mode facts trace to NRCA / single-ply field-failure guidance (materials-economics §4, qualitative). Recurring InterNACHI mis-attribution defect.",
+        "evidence": "overview[1]: '...eliminates the welded seams that rank as the most common TPO failure mode and the seam separation that ranks as the dominant EPDM failure mode, per the InterNACHI life-expectancy chart and NRCA technical guidance.'",
+        "finalFix": "In overview[1], change the closing attribution. Before: \"...and the seam separation that ranks as the dominant EPDM failure mode, per the InterNACHI life-expectancy chart and NRCA technical guidance.\" After: \"...and the seam separation that ranks as the dominant EPDM failure mode, per NRCA technical guidance.\""
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "chimney-flashing-repair",
+    "findings": [
+      {
+        "field": "faqs[4].answer",
+        "category": "source-attribution",
+        "issue": "The 50%-of-replacement-cost repair-vs-replace rule is mis-attributed. Per the materials-economics fact pack §8, the 50% rule = WeatherShield/Home Depot, while Kellow/Modernize/Josten back the 30% rule (and the 25-30%-of-area threshold = RapidRestore/MyQuoteIQ/Kellow). The FAQ bundles BOTH the 25-30%-of-area threshold AND the 50%-of-cost threshold under one citation to Kellow/Modernize/Josten, which is correct for the 30% rule but wrong for the 50% rule. This is the recurring NQR source-mis-pairing defect.",
+        "evidence": "\"Replace the roof when damage exceeds 25 to 30% of the roof area or one repair approaches 50% of replacement cost, a contractor-consensus threshold attributed to Kellow, Modernize, and Josten.\"",
+        "finalFix": "In src/data/combo-content/fairfield/chimney-flashing-repair.ts, faqs[4].answer, replace: \"Replace the roof when damage exceeds 25 to 30% of the roof area or one repair approaches 50% of replacement cost, a contractor-consensus threshold attributed to Kellow, Modernize, and Josten.\" → \"Replace the roof when damage covers more than 25% of the roof area, a contractor-consensus threshold attributed to RapidRestore and MyQuoteIQ, or when a single repair approaches 50% of replacement cost, the most widely cited rule, attributed to WeatherShield and Home Depot.\""
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "roof-deck-repair-replacement",
+    "findings": [
+      {
+        "field": "faqs[4].answer + pricing.range + pricing.note",
+        "category": "source-attribution",
+        "issue": "A structural roof-deck repair/replacement is priced with the generic roof-leak-repair range '$400–$1,000, per HomeAdvisor.' The components-specialty pack §10 carries deck-specific figures: re-decking $2–$5/sq ft (~$5,500 avg, labor $1.50–$3.00/sq ft) per HomeGuide/Angi, and a hidden-rot re-deck add-on ~$50–$120 per 4x8 sheet per Refined Home Services/HomeHero. Attributing a re-deck to the HomeAdvisor leak-repair figure both mis-cites (HomeAdvisor's $400–$1,000 is the LEAK-repair number, not a deck number) and materially understates a structural re-deck. The brief's '$400–$1,000 fallback' applies only when no pack figure exists — a pack figure does exist here.",
+        "evidence": "pricing.range: '$400–$1,000'; note: 'Typical NJ leak-repair range per HomeAdvisor; final cost depends on the number of rotted sheets...'; faqs[4]: 'Roof-leak repair in New Jersey costs $400–$1,000, per HomeAdvisor, with the final figure set by how many sheets of decking are rotted...'",
+        "finalFix": "THREE edits in src/data/combo-content/fairfield/roof-deck-repair-replacement.ts:\n\n1) faqs[4].answer —\nBEFORE: 'Roof-leak repair in New Jersey costs $400–$1,000, per HomeAdvisor, with the final figure set by how many sheets of decking are rotted, the roof size, the pitch, the material, and the access. A hidden-rot re-deck added during a re-roof adds per-sheet cost discovered once the covering is stripped. Newark Quality Roofing provides a free written estimate.'\nAFTER: 'Re-decking a roof costs $2–$5 per square foot, with a national average near $5,500, and Angi cites $2–$6 per square foot, per HomeGuide and Angi cost data. A hidden-rot re-deck added during a re-roof runs about $50–$120 per 4-by-8 sheet, per contractor cost data, with the final figure set by how many sheets of decking are rotted, the roof size, the pitch, the material, and the access. Newark Quality Roofing provides a free written estimate.'\n\n2) pricing.range —\nBEFORE: '$400–$1,000'\nAFTER: '$2–$5 per sq ft for most re-decking'\n\n3) pricing.note —\nBEFORE: 'Typical NJ leak-repair range per HomeAdvisor; final cost depends on the number of rotted sheets, roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'\nAFTER: 'Re-decking runs $2–$5 per square foot per HomeGuide and Angi cost data, with a hidden-rot re-deck added during a re-roof about $50–$120 per 4-by-8 sheet; final cost depends on the number of rotted sheets, roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'"
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "custom-roof-design-consultation",
+    "findings": [
+      {
+        "field": "process[1]",
+        "category": "other",
+        "issue": "Pricing ($/sq ft) is embedded in process body prose, which violates brief §B.6 ('No price in any prose lead. Pricing lives ONLY in the pricing field and the cost FAQ') and breaks the established gold pattern. The committed gold exemplar (orange/roof-repair.ts) keeps ALL dollar figures strictly in the cost FAQ and the pricing field — overview/challenges/process carry zero prices. The numbers themselves are correctly sourced (Josten Roofing / NJ roofing-guide pricing per facts-materials-economics.md §7), so this is a placement/structure defect, not a fabrication.",
+        "evidence": "process[1] ends: '…and the evaluation weighs the NJ install cost, because NJ architectural asphalt runs $6.50 to $11.00 per square foot, metal $9.00 to $16.00, and slate $10 to $30, per Josten Roofing and NJ roofing-guide pricing.'",
+        "finalFix": "In src/data/combo-content/fairfield/custom-roof-design-consultation.ts, process[1], replace the price clause:\nBEFORE: 'Material lifespan differs sharply — 3-tab asphalt at 20 years, architectural asphalt at 30 years, metal at 40 to 80 years, natural slate at 60 to 150 years, copper at 70-plus years, wood at 25 years, and clay or concrete tile at 100-plus years, per the InterNACHI life-expectancy chart — and the evaluation weighs the NJ install cost, because NJ architectural asphalt runs $6.50 to $11.00 per square foot, metal $9.00 to $16.00, and slate $10 to $30, per Josten Roofing and NJ roofing-guide pricing.'\nAFTER: 'Material lifespan differs sharply — 3-tab asphalt at 20 years, architectural asphalt at 30 years, metal at 40 to 80 years, natural slate at 60 to 150 years, copper at 70-plus years, wood at 25 years, and clay or concrete tile at 100-plus years, per the InterNACHI life-expectancy chart — and the evaluation weighs each material against the building structure, the Essex County climate, and the floodplain drainage path before a recommendation.'\n(Prices are preserved unchanged in faq6 and pricing.note, where they correctly live; only the duplicated process-body price clause is relocated/removed.)"
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "re-roofing",
+    "findings": [
+      {
+        "field": "process[0]",
+        "category": "source-attribution",
+        "issue": "Repair-vs-replace rule source mis-pairing. The 50% rule is attributed to a trio that includes Kellow and Modernize, which are 30%-rule sources, not 50%-rule sources. Per the canonical materials-economics §8 pairings: the 50% rule = WeatherShield / Home Depot; the 30% rule = Kellow / Modernize / Josten; the 25%-area rule = RapidRestore / MyQuoteIQ. The sentence also labels the 25-30% area threshold 'the 25% rule' under the same wrong source trio.",
+        "evidence": "'Damage across more than 25 to 30% of the roof area crosses the 25% rule and a single repair approaching 50% of replacement cost crosses the 50% rule, per Kellow, Modernize, and WeatherShield cost guidance'",
+        "finalFix": "In process[0], replace: \"Damage across more than 25 to 30% of the roof area crosses the 25% rule and a single repair approaching 50% of replacement cost crosses the 50% rule, per Kellow, Modernize, and WeatherShield cost guidance, while a localized repair stays the more economical path only on an asphalt roof under 10 to 15 years old, per Home Depot cost data.\" → \"Damage across more than 25 to 30% of the roof area crosses the 25% rule and a single repair approaching 50% of replacement cost crosses the 50% rule, per WeatherShield, RapidRestore, and Home Depot cost data, while a localized repair stays the more economical path only on an asphalt roof under 10 to 15 years old, per Home Depot cost data.\""
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "roof-replacement-after-leak",
+    "findings": [
+      {
+        "field": "overview[2]",
+        "category": "source-attribution",
+        "issue": "Repair-vs-replace rule source mis-pairing. The 50% rule (one repair near 50% of replacement cost) and the 25%-area rule are both attributed to 'Kellow, Modernize, and Josten' — but that trio is the 30%-rule source per materials-economics §8. The 50% rule = WeatherShield / Home Depot; the 25%-area rule = RapidRestore / MyQuoteIQ. Only the 30% rule and 3-repairs aspects can carry Kellow/Modernize/Josten (3-repairs rule is actually WeatherShield).",
+        "evidence": "'...favor replacement after 3 or more repairs in 2 years, after a leak path crosses 25–30% of the roof, or when one repair nears 50% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance.'",
+        "finalFix": "In overview[2], replace \"...favor replacement after 3 or more repairs in 2 years, after a leak path crosses 25–30% of the roof, or when one repair nears 50% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance.\" with \"...favor replacement after 3 or more repairs in 2 years, after a leak path crosses 25–30% of the roof, or when one repair nears 50% of replacement cost, per WeatherShield, RapidRestore, and Home Depot repair-vs-replace guidance.\""
+      },
+      {
+        "field": "process[0]",
+        "category": "source-attribution",
+        "issue": "Same repair-vs-replace mis-pairing repeated in the process step. The '25% rule' (area) and '50% rule' (cost) are both attributed to 'Kellow, Modernize, and Josten' — the 30%-rule source. Per §8: 50% rule = WeatherShield/Home Depot; 25%-area rule = RapidRestore/MyQuoteIQ; the 3-repairs rule = WeatherShield.",
+        "evidence": "'The 3-repairs rule favors replacement after 3 or more repairs in 2 years, the 25% rule after damage crosses 25–30% of the roof area, and the 50% rule when one repair nears 50% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance'",
+        "finalFix": "In process[0], change the closing attribution from \"...when one repair nears 50% of replacement cost, per Kellow, Modernize, and Josten repair-vs-replace guidance, so an assessment quotes replacement when the leak recurs and the deck is compromised.\" to \"...when one repair nears 50% of replacement cost, per WeatherShield and roofing industry repair-vs-replace guidance, so an assessment quotes replacement when the leak recurs and the deck is compromised.\" (matches the committed west-orange sibling's identical tri-rule sentence; correctly pins the 3-repairs and 50% rules to WeatherShield per §8, with \"roofing industry\" covering the 25–30% area threshold; preserves all figures and the sentence structure, only re-attributes)."
+      },
+      {
+        "field": "faqs[0].answer",
+        "category": "source-attribution",
+        "issue": "Same repair-vs-replace mis-pairing in the FAQ. The 3-repairs, 25%-area, and 50%-cost thresholds are collectively attributed to 'Kellow, Modernize, and Josten' (the 30%-rule source). Per §8 the 50% rule traces to WeatherShield/Home Depot, the 25%-area rule to RapidRestore/MyQuoteIQ, and the 3-repairs rule to WeatherShield.",
+        "evidence": "'The 3-repairs, 25%, and 50% thresholds are contractor-consensus rules, per Kellow, Modernize, and Josten repair-vs-replace guidance.'",
+        "finalFix": "In faqs[0].answer, replace: \"The 3-repairs, 25%, and 50% thresholds are contractor-consensus rules, per Kellow, Modernize, and Josten repair-vs-replace guidance.\" → \"The 3-repairs and 50% thresholds are contractor-consensus rules, per WeatherShield and Home Depot cost data, and the 25% area rule per RapidRestore.\" (Alternatively, to mirror the committed Orange gold voice exactly: \"The 3-repairs, 25%, and 50% thresholds are contractor-consensus rules, per WeatherShield and Home Depot cost data.\")"
+      }
+    ]
+  },
+  {
+    "city": "fairfield",
+    "combo": "roof-replacement-cost",
+    "findings": [
+      {
+        "field": "faqs[2].answer (historic-designation FAQ)",
+        "category": "source-attribution",
+        "issue": "The National Park Service 'Register listing places no federal restriction' statement is mis-pinned to the Township of Fairfield municipal code by a trailing clause. The NPS rule and the municipal code are two different sources; the sentence already (correctly) attributes the rule to the NPS, then wrongly re-tags it to the municipal code. The other six cohort combos end this same sentence cleanly at '...private property owner.' — this combo is the inconsistent one.",
+        "evidence": "'Per the National Park Service, National Register listing alone places no federal restriction on a private property owner, per the Township of Fairfield municipal code.'",
+        "finalFix": "In faqs[2].answer, change the final sentence.\nBefore: \"Per the National Park Service, National Register listing alone places no federal restriction on a private property owner, per the Township of Fairfield municipal code.\"\nAfter: \"Per the National Park Service, National Register listing alone places no federal restriction on a private property owner.\"\n(Delete the trailing clause \", per the Township of Fairfield municipal code\" — keep the period. This matches the historic-FAQ ending used in every other Fairfield cohort combo.)"
+      }
+    ]
+  },
+  {
+    "city": "roseland",
+    "combo": "hail-damage-roof-repair",
+    "findings": [
+      {
+        "field": "overview[3], process[0], process[1] (faqs[2].answer \"HAAG-standard\"), faqs[0].answer, faqs[2].answer, whyChooseUs[2], metaDescription",
+        "category": "source-attribution",
+        "issue": "HAAG Engineering is cited as the named source/credential for the hail test-square assessment method (6 occurrences). HAAG appears in NONE of the nine fact packs nor the site source registry (sources-and-nqr-facts.md) — it is a fabricated source attribution, and the same 'HAAG Engineering brand' was explicitly de-fabbed in the committed Orange batch. The actual pack source for the test-square / per-100-sq-ft impact-count method is IBHS / insurer hail-assessment protocols (facts-causes-signs §2.3: 'IBHS-style insurer protocols often use 8 functional impacts per 100 sq ft') and InterNACHI 'Mastering Roof Inspections.' The soft-metal-denting corroboration is IBHS, not HAAG.",
+        "evidence": "process[0]: 'assesses each roof slope at close range using the HAAG Engineering Test Square method ... the standard hail-inspection procedure since the 1960s, per HAAG Engineering.' overview[3]: 'metal denting confirms hailstones large enough to bruise shingles, per HAAG Engineering and IBHS hail-assessment guidance.' whyChooseUs[2]: 'HAAG Engineering test-square hail assessment that classifies functional and cosmetic damage for the adjuster.' metaDescription: 'HAAG test-square assessment'.",
+        "finalFix": "Strip every \"HAAG Engineering\"/\"HAAG\" attribution and re-attribute the (defensible) test-square method to IBHS per the Orange gold. (1) process[0]: BEFORE \"...then assesses each roof slope at close range using the HAAG Engineering Test Square method.** A crew checks gutters, downspout elbows, vent caps, and flashing for impact marks that confirm hail size, then marks a 10-by-10-foot test square, one roofing square of 100 square feet, on each slope and counts and classifies every impact as functional or cosmetic damage, the standard hail-inspection procedure since the 1960s, per HAAG Engineering.\" → AFTER \"...then assesses each roof slope at close range using the per-square method adjusters use.** A crew checks gutters, downspout elbows, vent caps, and flashing for impact marks that confirm hail size, then marks a 10-by-10-foot test square, one roofing square of 100 square feet, on each slope and counts and classifies every impact as functional or cosmetic damage, where IBHS-style insurer protocols often treat 8 functional impacts per 100 square feet as a damage benchmark, per IBHS hail-assessment guidance.\" (2) overview[3]: \"per HAAG Engineering and IBHS hail-assessment guidance.\" → \"per IBHS hail-assessment guidance.\" (3) faqs[0].answer: \"the corroborating indicator for a roof inspection, per HAAG Engineering and IBHS hail-assessment guidance.\" → \"the corroborating indicator for a roof inspection, per IBHS hail-assessment guidance.\" (4) faqs[2].answer: \"documents the damage with timestamped photographs and HAAG-standard impact counts for the adjuster.\" → \"documents the damage with timestamped photographs and per-square impact counts for the adjuster, per IBHS hail-assessment guidance.\" (5) whyChooseUs[2]: \"HAAG Engineering test-square hail assessment that classifies functional and cosmetic damage for the adjuster.\" → \"Per-square hail impact counts that classify functional and cosmetic damage the way adjusters do, per IBHS hail-assessment guidance.\" (6) metaDescription: \"HAAG test-square assessment\" → \"per-square hail impact assessment\"."
+      }
+    ]
+  },
+  {
+    "city": "roseland",
+    "combo": "roof-leak-repair",
+    "findings": [
+      {
+        "field": "overview[3], process[1], faqs[2].answer",
+        "category": "source-attribution",
+        "issue": "Electronic leak detection is attributed to 'ASTM D8231' (3 occurrences). ASTM D8231 appears in NONE of the nine fact packs nor the source registry — it is an invented standard attribution. ASTM C1153 (wet-insulation IR detection) IS in facts-materials-economics and is cited correctly here; the D8231 electronic-leak-detection citation has no pack support.",
+        "evidence": "overview[3]: 'Electronic leak detection locates a membrane breach per ASTM D8231 and infrared imaging maps wet insulation per ASTM C-1153.' Same pattern in challenges[2-equivalent], process[1], faqs[2].answer.",
+        "finalFix": "Drop the invented 'per ASTM D8231' cite in all three occurrences, frame electronic leak detection generically, and normalize 'ASTM C-1153' to 'ASTM C1153'.\n\noverview[3] (line 14):\nBEFORE: 'Electronic leak detection locates a membrane breach per ASTM D8231 and infrared imaging maps wet insulation per ASTM C-1153, the methods that pinpoint a breach a surface inspection misses.'\nAFTER: 'Electronic (low-voltage) leak detection locates a membrane breach and infrared imaging maps wet insulation per ASTM C1153, the methods that pinpoint a breach a surface inspection misses.'\n\nprocess[1] (line 24):\nBEFORE: 'Controlled water testing reproduces a wind-driven or intermittent leak, while electronic leak detection finds a membrane breach per ASTM D8231 and infrared imaging maps wet insulation per ASTM C-1153 on the Eisenhower Parkway and Becker Farm Road low-slope decks.'\nAFTER: 'Controlled water testing reproduces a wind-driven or intermittent leak, while electronic (low-voltage) leak detection finds a membrane breach and infrared imaging maps wet insulation per ASTM C1153 on the Eisenhower Parkway and Becker Farm Road low-slope decks.'\n\nfaqs[2].answer (line 41):\nBEFORE: 'Electronic leak detection locates the membrane breach per ASTM D8231 and infrared imaging maps wet insulation per ASTM C-1153 on the Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office decks.'\nAFTER: 'Electronic (low-voltage) leak detection locates the membrane breach and infrared imaging maps wet insulation per ASTM C1153 on the Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office decks.'"
+      }
+    ]
+  },
+  {
+    "city": "roseland",
+    "combo": "roof-inspection",
+    "findings": [
+      {
+        "field": "faqs[5].answer, pricing.range, pricing.note",
+        "category": "fabrication",
+        "issue": "The roof-inspection cost set — $75–$200 visual, $150–$400 drone, $400–$600 infrared, '$248 national average' — is attributed to 'HomeAdvisor inspection-cost data.' None of the nine fact packs contain any roof-inspection price, a $248 average, or drone/infrared inspection costs (drone/infrared appear in the packs only as inspection METHODS, never with a price). These are invented external cost figures.",
+        "evidence": "faqs[5].answer: 'A roof inspection costs $75–$200 for a visual inspection, $150–$400 for a drone inspection, and $400–$600 for an infrared inspection, with a national average of $248, per HomeAdvisor inspection-cost data.' pricing.range: '$75–$600 for most inspections' with the same breakdown in pricing.note.",
+        "finalFix": "faqs[5].answer BEFORE: 'A roof inspection costs $75–$200 for a visual inspection, $150–$400 for a drone inspection, and $400–$600 for an infrared inspection, with a national average of $248, per HomeAdvisor inspection-cost data. Roof size, slope, and the inspection method set the cost. Newark Quality Roofing provides a free roof inspection.' → AFTER: 'Newark Quality Roofing provides a free roof inspection for a Roseland property. A paid third-party inspection cost varies by roof size, slope, and method, since a visual inspection, a drone inspection, and an infrared moisture survey each take different time and equipment, but the inspection that informs a Newark Quality Roofing repair or replacement plan is free.' || pricing.range BEFORE: '$75–$600 for most inspections' → AFTER: 'Free roof inspection' || pricing.note BEFORE: 'Typical NJ roof-inspection range per HomeAdvisor inspection-cost data; a visual inspection runs $75–$200, a drone inspection $150–$400, and an infrared inspection $400–$600. Newark Quality Roofing provides a free roof inspection.' → AFTER: 'Newark Quality Roofing provides a free roof inspection for Roseland properties; a paid third-party inspection cost depends on roof size, slope, and method (visual, drone, or infrared).'"
+      }
+    ]
+  },
+  {
+    "city": "roseland",
+    "combo": "commercial-roof-installation",
+    "findings": [
+      {
+        "field": "faqs[5].answer",
+        "category": "source-attribution",
+        "issue": "The PVC installed-cost figure ($6 to $12 per sq ft) is attributed to the wrong sources. Per facts-materials-economics.md §6, PVC installed cost ($6–$12/sq ft) is sourced to 'commercial cost guides (M&M Roofing; WeatherStar)'. Josten Roofing covers only EPDM ($7–10) and TPO ($8–12); the Single Ply Roofing Industry (SPRI) is a standards/wind-design body, not a pricing source in any pack. So neither cited source backs the PVC number.",
+        "evidence": "'A commercial roof installation in Roseland runs $7 to $12 per square foot for EPDM and TPO single-ply and $6 to $12 for PVC, per Josten Roofing NJ pricing and the Single Ply Roofing Industry.'",
+        "finalFix": "In faqs[5].answer, change: \"A commercial roof installation in Roseland runs $7 to $12 per square foot for EPDM and TPO single-ply and $6 to $12 for PVC, per Josten Roofing NJ pricing and the Single Ply Roofing Industry.\" → \"A commercial roof installation in Roseland runs $7 to $12 per square foot for EPDM and TPO single-ply, per Josten Roofing NJ pricing, and $6 to $12 for PVC, per commercial roofing cost guides.\" (EPDM/TPO at $7–$12 stays attributed to Josten; the PVC $6–$12 figure is re-pinned to its actual §6 pack source and SPRI is dropped as a pricing cite.)"
+      }
+    ]
+  },
+  {
+    "city": "caldwell",
+    "combo": "hail-damage-roof-repair",
+    "findings": [
+      {
+        "field": "overview/process/faqs/whyChooseUs/metaDescription (any HAAG occurrence)",
+        "category": "source-attribution",
+        "issue": "RECURRENCE: HAAG Engineering is a fabricated source (absent from all fact packs + the source registry; de-fabbed in the committed Orange hail gold). It was re-imported into this hail combo.",
+        "evidence": "every \"HAAG\" / \"HAAG Engineering\" string in this file (e.g. \"HAAG Engineering Test Square method\", \"per HAAG Engineering\", \"HAAG-standard impact counts\", metaDescription \"HAAG test-square assessment\")",
+        "finalFix": "Strip EVERY \"HAAG\"/\"HAAG Engineering\" attribution. Re-attribute the (defensible) 10-by-10-foot test-square / per-100-square-foot functional-impact-count method to IBHS — \"per IBHS hail-assessment guidance\" (the committed Orange hail-damage gold form), treating 8 functional impacts per 100 square feet as the IBHS-style benchmark. DROP any fabricated \"standard … since the 1960s\" provenance. In metaDescription replace any \"HAAG test-square assessment\" with \"per-square hail impact assessment\". Preserve the test-square FACTS; only swap the source. Keep all leads ≤40 words and the bolded topics."
+      }
+    ]
+  },
+  {
+    "city": "north-caldwell",
+    "combo": "hail-damage-roof-repair",
+    "findings": [
+      {
+        "field": "overview/process/faqs/whyChooseUs/metaDescription (any HAAG occurrence)",
+        "category": "source-attribution",
+        "issue": "RECURRENCE: HAAG Engineering is a fabricated source (absent from all fact packs + the source registry; de-fabbed in the committed Orange hail gold). It was re-imported into this hail combo.",
+        "evidence": "every \"HAAG\" / \"HAAG Engineering\" string in this file (e.g. \"HAAG Engineering Test Square method\", \"per HAAG Engineering\", \"HAAG-standard impact counts\", metaDescription \"HAAG test-square assessment\")",
+        "finalFix": "Strip EVERY \"HAAG\"/\"HAAG Engineering\" attribution. Re-attribute the (defensible) 10-by-10-foot test-square / per-100-square-foot functional-impact-count method to IBHS — \"per IBHS hail-assessment guidance\" (the committed Orange hail-damage gold form), treating 8 functional impacts per 100 square feet as the IBHS-style benchmark. DROP any fabricated \"standard … since the 1960s\" provenance. In metaDescription replace any \"HAAG test-square assessment\" with \"per-square hail impact assessment\". Preserve the test-square FACTS; only swap the source. Keep all leads ≤40 words and the bolded topics."
+      }
+    ]
+  },
+  {
+    "city": "essex-fells",
+    "combo": "hail-damage-roof-repair",
+    "findings": [
+      {
+        "field": "overview/process/faqs/whyChooseUs/metaDescription (any HAAG occurrence)",
+        "category": "source-attribution",
+        "issue": "RECURRENCE: HAAG Engineering is a fabricated source (absent from all fact packs + the source registry; de-fabbed in the committed Orange hail gold). It was re-imported into this hail combo.",
+        "evidence": "every \"HAAG\" / \"HAAG Engineering\" string in this file (e.g. \"HAAG Engineering Test Square method\", \"per HAAG Engineering\", \"HAAG-standard impact counts\", metaDescription \"HAAG test-square assessment\")",
+        "finalFix": "Strip EVERY \"HAAG\"/\"HAAG Engineering\" attribution. Re-attribute the (defensible) 10-by-10-foot test-square / per-100-square-foot functional-impact-count method to IBHS — \"per IBHS hail-assessment guidance\" (the committed Orange hail-damage gold form), treating 8 functional impacts per 100 square feet as the IBHS-style benchmark. DROP any fabricated \"standard … since the 1960s\" provenance. In metaDescription replace any \"HAAG test-square assessment\" with \"per-square hail impact assessment\". Preserve the test-square FACTS; only swap the source. Keep all leads ≤40 words and the bolded topics."
+      }
+    ]
+  },
+  {
+    "city": "north-caldwell",
+    "combo": "roof-leak-repair",
+    "findings": [
+      {
+        "field": "overview/process/faqs (any ASTM D8231 occurrence)",
+        "category": "source-attribution",
+        "issue": "RECURRENCE: ASTM D8231 is an invented electronic-leak-detection standard (absent from all fact packs + the source registry).",
+        "evidence": "every \"ASTM D8231\" / \"per ASTM D8231\" string, plus any hyphenated \"ASTM C-1153\"",
+        "finalFix": "DROP every \"per ASTM D8231\"/\"ASTM D8231\" attribution. Keep the pack-supported ASTM C1153 for infrared wet-insulation detection (normalize any \"ASTM C-1153\" → \"ASTM C1153\"). Frame electronic/low-voltage leak detection generically with NO standard cite (e.g. \"Electronic (low-voltage) leak detection locates a membrane breach, and infrared imaging maps wet insulation per ASTM C1153\"). Preserve the method facts; only remove the invented standard. Keep leads ≤40 words."
+      }
+    ]
+  }
+]

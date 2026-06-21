@@ -1,0 +1,14 @@
+# fairfield/commercial-metal-roofing — rewrite rationale
+
+De-fab literals cleared from the current file:
+- Deleted the price-in-lead ("prices starting from $10–$18/sq ft and free estimates available today") and the invented `$10–$18/sq ft` pricing tier → replaced with the §E roof-type default `$10,000–$25,000` (HomeAdvisor/Modernize NJ replacement range).
+- Killed the whyChooseUs de-fabs: "NJ licensed, GAF Certified — 15+ years," "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties," and "same-day estimates and 24/7 emergency response" → registered-HIC/fully-insured factual reasons.
+- Removed the "Early action saves thousands" urgencyNote hype and the fabricated forty-thousand-sq-ft project claim, the Kynar-500 brand spec, and the invented warehouse/dealership/hotel project inventory.
+- Stripped both inline markdown self-links ([commercial metal roofing](...), [Newark]/[East Orange] city links) to plain prose (file now carries zero links).
+- No de-fab Fairfield prose was present to scrub here (no fabricated streets/COA in this file), but the rewrite affirmatively states the correct NO-COA posture (advisory/educational HPC, Van Ness House, no district, no section number — Township of Fairfield municipal code cited qualitatively).
+
+Entity-grounding applied: directAnswer reframed to "roofing contractor providing commercial metal roofing across Fairfield, New Jersey, and Essex County … as a registered New Jersey Home Improvement Contractor" (bold span 38 words). No `definition` field authored (spliced post-assembly). Credential = registered NJ HIC, fully insured — no "licensed" for NQR anywhere.
+
+Named sources cited in-text: InterNACHI life-expectancy chart (metal 40–80, copper 70+, EPDM 15–25, TPO 7–20, mod-bit 20); This Old House (standing-seam 40–70) and metal-roofing industry consensus (exposed-fastener 30–50; repair-vs-replace thresholds; standing-seam higher installed cost); Metal Construction Association + NRCA (panel runs >100 ft expansion provisions); NRCA and ARMA (¼ in/ft slope, ponding >48 hrs = defect); N.J.A.C. 5:23-2.7 + 5:23-6.4 / NJ Uniform Construction Code (25% permit rule, Rehabilitation Subcode tear-off triggers, Building Department, Township of Fairfield, 230 Fairfield Road); HomeAdvisor and Modernize ($10,000–$25,000 NJ replacement); National Park Service (Register listing imposes no private restriction).
+
+Fairfield localization: Route 46 / I-80 commercial-industrial corridor membrane/metal stock; Passaic-River floodplain framed as a qualitative drainage/storm stressor (Two Bridges confluence, low-lying township — no FEMA letters, no PINN4 stages, no %); Van Ness House (236 Little Falls Rd) + Fairfield Dutch Reformed Church (Fairfield Rd) as Register heritage sites only. No reservation/West Essex Trail/upland framing, no Israel Crane House.

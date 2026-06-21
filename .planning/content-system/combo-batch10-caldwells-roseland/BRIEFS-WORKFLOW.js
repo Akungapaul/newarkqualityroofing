@@ -1,0 +1,152 @@
+export const meta = {
+  name: 'combo-batch10-briefs',
+  description: 'Generate the 5 caldwells-roseland combo author briefs (caldwell, north-caldwell, essex-fells, fairfield, roseland) by re-slicing the proven Maplewood brief template with verified per-city facts',
+  phases: [
+    { title: 'Briefs', detail: 'one agent per city writes _<CITY>-BRIEF.md from the template + supplied verified facts' },
+  ],
+}
+
+phase('Briefs')
+
+// Verified facts per city (transcribed from the committed caldwells-roseland.ts city page + the
+// cities-batchD CITY-FACTS fact bank §0 corrections + per-city sections). Agents TRANSCRIBE these
+// into the proven brief structure — they do NOT re-research. The reservation/floodplain guardrail
+// matrix is the key cross-contamination guard and goes verbatim into every brief's geography section.
+const RES_MATRIX = `RESERVATION / FLOODPLAIN GUARDRAIL MATRIX (the cross-city contamination guard — put this in the geography section of EVERY brief and never violate it):
+- Hilltop Reservation (~284 ac, Second Watchung) = NORTH CALDWELL only (in this batch; shared with Cedar Grove + Verona, neither in this batch). Caldwell, Essex Fells, Fairfield, and Roseland border NO large Essex County reservation.
+- Passaic-River floodplain = FAIRFIELD (the DEFINING floodplain city) + ROSELAND'S WESTERN/RIVERINE EDGE only. Caldwell, North Caldwell, and Essex Fells are UPLAND — NEVER attach any floodplain / FEMA-flood-zone / Great Piece Meadows framing to those three.
+- Roseland contains county PARKS (most of Becker Park; part of West Essex Park), NEVER "reservations." The West Essex Trail is a linear rail-trail (Cedar Grove / Verona / Essex Fells / Roseland area), NOT a reservation, and does NOT run through Fairfield.
+- The ONLY hard elevation fact is Essex County's highest point (~691 ft) at the Hilltop in North Caldwell (attribute it; do NOT extrapolate a borough-wide wind/snow figure). Every other elevation/snow/wind claim stays QUALITATIVE on the shared EWR baseline.`
+
+const COA_SPECTRUM = `CALDWELLS-ROSELAND COA SPECTRUM (5 distinct points — keep each city's gate DISTINCT, never import a neighbor's):
+- Caldwell = NARROW LOCAL COA (Chapter 130; TWO individually designated landmarks only — one being the Caldwell Public Library; the 2nd is unnamed; NO designated district; Grover Cleveland Birthplace = state-owned, not a gate). The "HD-1/HD-2/HD-3 downtown historic-district overlay" is Caldwell, IDAHO — NEVER reintroduce it.
+- North Caldwell = NO COA (advisory/survey-only HPC, Chapter 107 Art. XIII §§107-85 to 107-87; no designations; O-8-2026 introduced-not-adopted).
+- Essex Fells = NONE (no HPC, no ordinance, no COA, no National/State Register listing; the "Essex Fells Historic District" is REFUTED).
+- Fairfield = NO COA (advisory/educational HPC focused on the township-owned Van Ness House; no designated district; do NOT publish a precise HPC §number).
+- Roseland = COA ordinance EXISTS (Chapter 30 Art. IX §§30-901 to 30-910; COA at §30-909) BUT zero properties are locally designated + §30-901.1 requires owner consent → no homeowner is subject to it.`
+
+const CITIES = [
+  {
+    slug: 'caldwell', name: 'Caldwell', cityId: 'caldwell', brief: '_CALDWELL-BRIEF.md',
+    crib: '.planning/content-system/cities-batchD/caldwell.md',
+    macro: 'Borough of Caldwell, Essex County — a small (~1.17 sq mi), built-out, walkable downtown borough on the far-western Essex uplands; the renter-heavier exception in this batch (~41% owner-occupied), with Victorian-era and Colonial-Revival cores, interwar/postwar Capes and ranches on compact lots, and low-rise multifamily near the Bloomfield Avenue downtown and Caldwell University.',
+    coaPos: 'NARROW LOCAL COA — TWO designated landmarks only (no district)',
+    coa: 'The Borough of Caldwell HAS a real local Historic Preservation Commission and ordinance — Chapter 130 "Historic Preservation" (§§130-1 to 130-13). Per Preservation New Jersey, Caldwell has TWO individually LOCALLY DESIGNATED landmarks — one being the Caldwell Public Library (a 1917 Classical Revival Carnegie library, locally designated since 2016; the SECOND site is UNNAMED by any source — do NOT name it). For a parcel that IS one of those designated landmarks, exterior roofing routes through the HPC\'s Certificate-of-Appropriateness review before a permit. BUT Caldwell has NOT designated any local historic DISTRICT (the NJ Historic Trust calls them "potential" districts only), so a typical home is NOT in a COA-regulated district. The Grover Cleveland Birthplace (207 Bloomfield Ave) is STATE-owned and is Caldwell\'s only Register property — NOT a homeowner COA gate. Per the NPS, National Register listing alone places no restriction on a private owner. NEVER reintroduce the "HD-1/HD-2/HD-3 downtown historic-district overlay" — that is Caldwell, IDAHO, not Caldwell, NJ. Assert the COA ONLY for the two designated landmarks, never township-wide, never for a district.',
+    office: 'the Borough of Caldwell Construction Department at 24 Smull Avenue (Borough Hall) — NOT Bloomfield Avenue; do NOT name a Construction Official',
+    geo: 'Caldwell is a small, compact, built-out borough on the far-western Essex uplands (~397 ft, qualitative) that borders NO large Essex County reservation (Hilltop is North Caldwell, not Caldwell) and carries NO Passaic floodplain exposure (it is upland — never import Fairfield\'s flood framing). The mature street-tree canopy over its older built-out blocks is the defining residential roof stressor (leaf/debris in valleys & gutters, branch impact in storms, shade-driven moss/algae). The Bloomfield Avenue downtown is the walkable storefront/mixed-use commercial corridor (flat/low-slope/parapet roofs). Keep all geography QUALITATIVE (no elevation/gust/canopy-% number).',
+    demo: 'Caldwell is the renter-heavier exception in this batch — about 41% owner-occupied (a majority-renter borough), anchored by a walkable Bloomfield Avenue downtown and Caldwell University (~2,200 students). Frame as a mixed owner/renter downtown borough with older built-out Victorian-era/Colonial-Revival stock plus interwar/postwar Capes & ranches and low-rise multifamily — NOT a large-lot enclave. Do NOT publish a population integer or a Census %; the ~41% owner-occupancy and the downtown/university character are the load-bearing qualitative facts.',
+    verified: 'Bloomfield Avenue (the downtown commercial spine), Central Avenue, the Grover Cleveland Park vicinity (Brookside Avenue), and the Caldwell University area. Franklin and Westville are HISTORICAL settlement names (heritage color only, not present-day neighborhoods). DROP any street/section not on this list (omit "Personette Street").',
+    purged: 'any "HD-1/HD-2/HD-3 downtown historic-district overlay" (that is Caldwell, Idaho), any claim of a designated Caldwell historic DISTRICT, any treatment of the Grover Cleveland Birthplace as a homeowner COA gate, any high-owner-occupancy "enclave"/"large-lot" framing (Caldwell is majority-renter), any reservation adjacency (Caldwell borders none), any Passaic floodplain framing (upland), any city-specific elevation/snow/wind number, the named Construction Official ("Carl Thunell"), and every fabricated NQR warranty term',
+  },
+  {
+    slug: 'north-caldwell', name: 'North Caldwell', cityId: 'north-caldwell', brief: '_NORTH-CALDWELL-BRIEF.md',
+    crib: '.planning/content-system/cities-batchD/north-caldwell.md',
+    macro: 'Borough of North Caldwell, Essex County — an affluent, large-lot, heavily wooded, almost entirely residential borough ("The Green Jewel of Essex County," ~96% owner-occupied) on the Second Watchung Mountain; the only city in this batch that abuts a county reservation (Hilltop) and that holds Essex County\'s highest point (~691 ft at the Hilltop).',
+    coaPos: 'NO COA — advisory/survey-only HPC',
+    coa: 'North Caldwell HAS a local Historic Preservation Commission established under Chapter 107 (Zoning and Land Use), Article XIII (§§107-85 to 107-87), but under §107-87 the Commission is ADVISORY/SURVEY-ONLY — it prepares a survey, makes recommendations, and advises boards; it issues NO Certificate of Appropriateness and has designated NO local district or landmark. Therefore NO COA applies to a homeowner\'s reroof anywhere in North Caldwell. A revised HPC ordinance that WOULD add COA review (O-8-2026) was only INTRODUCED, not adopted, and designates nothing — do NOT cite it as in force. No North Caldwell property is on the National or NJ State Register. Do NOT confuse with adjacent Caldwell\'s Chapter 130 + two designated landmarks, and the "North Caldwell Historic District" on the National Register is in Caldwell, IDAHO — never import it. Per the NPS, Register listing alone places no restriction. State plainly in the historic FAQ that no COA applies in North Caldwell.',
+    office: 'the Borough of North Caldwell Construction Department at 141 Gould Avenue (Borough Hall); do NOT name a Construction Official',
+    geo: 'North Caldwell sits in northwestern Essex County on the Second Watchung Mountain; it is the ONLY city in this batch that abuts a county reservation — the Hilltop Reservation (~284 acres, shared with Cedar Grove and Verona, per Essex County Parks) — and it holds Essex County\'s highest point (~691 ft at the Hilltop, per the Wikipedia description, with a Verona-edge ambiguity; do NOT extrapolate a borough-wide wind/snow figure). It is upland and does NOT sit in or border the Passaic floodplain (that belongs to Fairfield — never import it). A heavily wooded, large-lot residential borough whose mature oak/maple canopy is the defining roof stressor (leaf/valley/gutter debris, branch impact in storms, shade-driven moss/algae). Almost no commercial corridor. Keep all geography QUALITATIVE (no city-specific elevation/gust number beyond the attributed ~691 ft high point).',
+    demo: 'Affluent, large-lot, heavily wooded, almost entirely residential ("The Green Jewel of Essex County") — ~96% owner-occupied custom colonials, contemporaries, and Tudors on large (often 1+ acre) lots, with negligible commercial/multi-family stock; roofing demand is overwhelmingly single-family residential. Frame qualitatively; do NOT publish a population/units integer or a hard income figure (cite affluence as roughly $200,000+ income / high-value homes only if needed).',
+    verified: 'Mountain Avenue, Gould Avenue (Borough Hall at 141 Gould Ave), Grandview Avenue, Central Avenue, the Hilltop area / Hilltop Drive / Hilltop Park, and the West/East Greenbrook Road & Fairfield Road edge (the Fairfield Township line); a short Bloomfield Avenue segment only touches the borough. DROP any street/section not on this list (confirm any large-lot subdivision street name before naming).',
+    purged: 'any assertion that a North Caldwell reroof needs a COA (the HPC is advisory/survey-only, no designations), any citation of proposed Ordinance O-8-2026 as in force, any conflation with Caldwell\'s Chapter 130 / two landmarks or with the Caldwell-IDAHO "North Caldwell Historic District," any Passaic floodplain framing (upland), any invented city-specific elevation/snow/wind number beyond the attributed ~691 ft high point, the named Construction Official ("Paul Milani"), and every fabricated NQR warranty term',
+  },
+  {
+    slug: 'essex-fells', name: 'Essex Fells', cityId: 'essex-fells', brief: '_ESSEX-FELLS-BRIEF.md',
+    crib: '.planning/content-system/cities-batchD/essex-fells.md',
+    macro: 'Borough of Essex Fells, Essex County — Essex County\'s smallest municipality by area (~1.4 sq mi), an overwhelmingly single-family (~97% detached), ~96–98% owner-occupied enclave of custom homes on large lots along the winding roads of Ernest W. Bowditch\'s ~1889–1902 planned community, under a "unique" mature tree canopy; the one city in this batch with NO historic ordinance and NO Register listing at all.',
+    coaPos: 'NONE — no HPC, no ordinance, no COA, no Register listing',
+    coa: 'Essex Fells has NO binding local historic-preservation ordinance, NO Historic Preservation Commission, and NO Certificate-of-Appropriateness process (confirmed via the borough\'s eCode360 code and Building Department page). A homeowner reroof requires NO historic-board approval. There is also NO "Essex Fells Historic District" on the National or NJ Register — the assumption that one exists is REFUTED. Do NOT confuse the code\'s Chapter 142 "HISTORIC STRUCTURE" wording (that is the FEMA/NFIP floodplain definition, not a preservation designation). The 2018 Master Plan\'s Historic Preservation Element is aspirational ("could be the basis for…"), not enacted. The Grover Cleveland Birthplace is in CALDWELL, not Essex Fells. State plainly in the historic FAQ that no COA applies in Essex Fells.',
+    office: 'the Borough of Essex Fells Building Department (Building & Zoning) at Borough Hall, 255 Roseland Avenue; do NOT name a Construction Official',
+    geo: 'Essex Fells sits on the hilly, rocky high ground of far-western Essex County, west of the Watchung ridges — Essex County\'s smallest municipality by area (~1.4 sq mi). It does NOT border or contain any large Essex County reservation (not Hilltop, South Mountain, Eagle Rock, or Mills) and carries NO Passaic floodplain exposure (upland; the floodplain belongs to Fairfield). The defining roof stressor is the borough\'s "unique," roughly 50–150-year-old mature tree canopy (the Bowditch design legacy): leaf/valley/gutter debris, branch impact in storms, shade-driven moss/algae. There is no commercial business district (residents shop in neighboring boroughs). Keep all geography QUALITATIVE (no elevation/gust/canopy-% number).',
+    demo: 'An overwhelmingly single-family (~97% detached), ~96–98% owner-occupied enclave of custom homes on large lots along winding Bowditch-plan roads (the roughly 806 homes were largely built from the turn of the 20th century to mid-century). Frame lot size qualitatively ("large lots / custom homes") — do NOT assert a strict "one-acre minimum." Do NOT publish a population/units integer or a hard income/value figure.',
+    verified: 'Roseland Avenue (the principal through-road; Borough Hall at 255 Roseland Avenue), Fells Road, Forest Way, Oak Lane, and Devon Road. "Neighborhoods" are effectively named roads in a ~1.4-sq-mi borough. DROP any street/section not on this list.',
+    purged: 'any claim that Essex Fells has an HPC, a historic ordinance, a COA, or a National/State Register district/landmark (it has none — the "Essex Fells Historic District" is REFUTED), any use of the Chapter 142 "HISTORIC STRUCTURE" floodplain wording as a preservation gate, any placement of the Grover Cleveland Birthplace in Essex Fells (it is in Caldwell), any reservation adjacency (it borders none), any Passaic floodplain framing (upland), any city-specific elevation/snow/wind number, a commercial-district claim (there is none), and every fabricated NQR warranty term',
+  },
+  {
+    slug: 'fairfield', name: 'Fairfield', cityId: 'fairfield', brief: '_FAIRFIELD-BRIEF.md',
+    crib: '.planning/content-system/cities-batchD/fairfield.md',
+    macro: 'Township of Fairfield, Essex County — the largest municipality in this batch (~10.13 sq mi) and the DEFINING Passaic-River floodplain city, with a dual character: affluent, predominantly owner-occupied (~79%) later-20th-century suburban residential PLUS one of northern NJ\'s dense Route 46 / I-80 commercial-industrial corridors (a large flat/low-slope commercial roof market).',
+    coaPos: 'NO COA — advisory/educational HPC',
+    coa: 'Fairfield Township\'s code lists a Historic Preservation Commission, but its powers are ADVISORY/EDUCATIONAL/CELEBRATORY (promoting preservation and recommending programs for the township-owned Peter Van Ness House) — it issues NO binding Certificate of Appropriateness, and there is NO locally designated historic district. A homeowner reroof requires NO historic approval. Do NOT publish a precise HPC ordinance section number (the "§2-55" cite was unverified — cite qualitatively as "the Township of Fairfield municipal code"). The Van Ness House (236 Little Falls Rd; NRHP + township-owned) and the Fairfield Dutch Reformed Church (Fairfield Rd; NRHP + church-owned) are Register-listed heritage SITES, NOT homeowner COA gates (per NPS, listing imposes no private restriction). Do NOT attribute the Israel Crane House to Fairfield — it is in Montclair. State plainly in the historic FAQ that no COA applies to a private reroof in Fairfield.',
+    office: 'the Building Department, Township of Fairfield, at 230 Fairfield Road; do NOT name a Construction Official, and do NOT publish a phone number',
+    geo: 'Fairfield is the largest municipality in this batch (~10.13 sq mi) and the DEFINING Passaic-River floodplain city — it sits low-lying (~174 ft, NOT upland) in the NW corner of Essex County downstream of the Passaic-Pompton confluence ("Two Bridges"), with much of the township in the FEMA Special Flood Hazard Area / 100-year flood zone; the Great Piece Meadows Passaic wetland (~1,170 acres in-township) and the adjacent Hatfield Swamp / West Essex Park lie partly in/beside it, and the NOAA-NWS Passaic River at Pine Brook gauge (PINN4) is used to judge flood severity (named floods: Irene 2011, Ida 2021, Floyd 1999). Frame the floodplain as a roof-relevant DRAINAGE/storm stressor (positive low-slope drainage, sound flashing, well-maintained gutters/scuppers/downspouts) — NOT a basement-flood sales claim, no FEMA zone letters, no PINN4 stage numbers, no "~70% in a flood zone." Route 46 and I-80 BISECT the township, creating the dense commercial-industrial flat/low-slope corridor. It borders NO reservation (Hilltop is North Caldwell), and the West Essex Trail does NOT run through Fairfield. Keep all geography QUALITATIVE.',
+    demo: 'A dual-character township: affluent, predominantly owner-occupied (~79%) later-20th-century suburban residential (colonials/split-levels/bi-levels/raised ranches — keep QUALITATIVE, no per-style count) PLUS the Route 46 / I-80 commercial-industrial corridor (big-box retail, offices, warehouse/flex/light-manufacturing — a large flat/low-slope commercial roofing market). Use the decennial population only if needed (7,872, NOT 7,824; distinguish from Fairfield Twp, CUMBERLAND County). Do NOT publish a per-style count.',
+    verified: 'Fairfield Road (a main spine; Building Department at 230 Fairfield Road), Hollywood Avenue, Big Piece Road, Little Falls Road (the Van Ness House), Pier Lane, Plymouth Street, and the Route 46 / I-80 commercial-industrial corridor. Describe light-industrial uses by corridor — do NOT name a "Fairfield Business Campus" (unsourced). DROP any street/section not on this list.',
+    purged: 'any binding-COA claim (the HPC is advisory/educational), any precise HPC ordinance section number, any treatment of the Van Ness House or the Fairfield Dutch Reformed Church as homeowner COA gates, any placement of the Israel Crane House in Fairfield (it is in Montclair), any "upland"/cooler-snowier-windier differential (Fairfield is low-lying ~174 ft), any reservation adjacency or West Essex Trail attribution, any basement-flood sales claim / "~70% in a flood zone" / FEMA zone letters / PINN4 stage numbers, a named "Fairfield Business Campus," and every fabricated NQR warranty term',
+  },
+  {
+    slug: 'roseland', name: 'Roseland', cityId: 'roseland', brief: '_ROSELAND-BRIEF.md',
+    crib: '.planning/content-system/cities-batchD/roseland.md',
+    macro: 'Borough of Roseland, Essex County — an affluent, predominantly owner-occupied (~68%) far-western-Essex suburban borough of single-family postwar homes under a mature tree canopy, PLUS a recognized office-park corridor (Eisenhower Parkway / Becker Farm Road / Livingston Avenue, ~2,922 jobs) carrying flat/low-slope commercial roofs, with a genuine Passaic-River floodplain confined to its western/riverine edge.',
+    coaPos: 'COA ORDINANCE EXISTS but NO designations — no homeowner subject',
+    coa: 'Roseland HAS a real, on-the-books local ordinance — the Roseland Landmarks and Historic District Commission at Chapter 30 (Land Development), Article IX (§§30-901 to 30-910; the Certificate-of-Appropriateness process for "major" alterations sits at §30-909) — NOT merely advisory. BUT no source confirms any specific local landmark, landmark site, or historic district has actually been DESIGNATED, and §30-901.1 requires OWNER CONSENT before any residence can be designated. So the binding COA gate applies ONLY to locally designated properties, and none are confirmed — no homeowner is subject to it unless their property has been locally designated. The Williams-Harrison House (126 Eagle Rock Ave; NJ/National Register + Roseland Historical Society museum) is NOT a homeowner COA gate (per NPS, Register listing imposes no private restriction). Frame the COA as conditional on a local designation that no homeowner currently has.',
+    office: 'the Borough of Roseland construction/permit office at 300 Eagle Rock Avenue (the DPW building) — NOT Borough Hall; do NOT name a Construction Official',
+    geo: 'Roseland is a far-western Essex County borough whose WESTERN municipal boundary is the Passaic River (the border with East Hanover, Morris County); per its Master Plan ~30% of the borough is environmentally constrained, including 459 acres in the FEMA Special Flood Hazard Area, with part of West Essex Park (a Passaic-River wetland preserve) on the western edge — frame this floodplain as a roof-relevant DRAINAGE/storm stressor on the WESTERN/riverine side ONLY, never a whole-borough or basement-flood claim. It borders NO Essex County reservation (it contains county PARKS — most of Becker Park and part of West Essex Park — never "reservations") and does NOT border Fairfield (they meet only via West Essex Park). It is NOT uniformly upland (steep slopes AND a low riverine edge), so assert NO Roseland-specific elevation/snow/wind number. The mature oak/maple canopy over its single-family neighborhoods is the defining residential roof stressor. The Eisenhower Parkway / Becker Farm Road / Livingston Avenue office-park corridor carries the flat/low-slope commercial roofs. Keep all geography QUALITATIVE.',
+    demo: 'Affluent, predominantly owner-occupied (~68%) — built-out single-family postwar suburban stock (colonials/ranches/split-levels/Capes + later infill + some townhome/condo, e.g. Roseland Green / Avalon-branded near the office corridor) PLUS a real office-park employment base (~2,922 jobs; ADP and Lowenstein Sandler are firm anchors) carrying flat/low-slope commercial roofs. Frame house types qualitatively; do NOT publish a population/units integer.',
+    verified: 'Eagle Rock Avenue (the permit office at 300 Eagle Rock Avenue), Eisenhower Parkway, Harrison Avenue, Laurel Avenue, Livingston Avenue, Passaic Avenue, the Becker Farm Road office-park corridor, and Becker Park. Describe residential areas by corridor/area (no distinct named residential neighborhoods are sourced). DROP any street/section not on this list.',
+    purged: 'any assertion that a Roseland homeowner needs a COA (the ordinance exists but no property is locally designated; §30-901.1 owner-consent), any treatment of the Williams-Harrison House as a homeowner COA gate, any claim that Roseland borders Fairfield, any "reservation" attribution (it contains county PARKS, not reservations), any whole-borough or basement-flood claim (the floodplain is the western edge only), any Roseland-specific elevation/snow/wind number, the "1,000–1,200 acre" Becker Farm figure, the named Construction Official ("Thomas Jacobsen"), and every fabricated NQR warranty term',
+  },
+]
+
+// Concise per-sibling geo/COA tag for the cross-city avoid-list.
+const GEO_TAG = {
+  'caldwell': 'NO reservation, upland (no floodplain), walkable Bloomfield Ave downtown + Caldwell University',
+  'north-caldwell': 'Hilltop Reservation + Essex County high point (~691 ft), upland, large-lot wooded',
+  'essex-fells': 'NO reservation, upland, no commercial district (Bowditch plan), unique tree canopy',
+  'fairfield': 'NO reservation, Passaic floodplain (low-lying ~174 ft) + Route 46/I-80 commercial-industrial corridor',
+  'roseland': 'NO reservation (county parks Becker/West Essex), western-edge Passaic floodplain + Eisenhower Pkwy/Becker Farm office-park corridor',
+}
+
+function siblingAvoid(me) {
+  return CITIES.filter((c) => c.slug !== me.slug)
+    .map((c) => `${c.name}: ${c.coaPos}; office ${c.office.replace(/; do NOT.*/, '')}; ${GEO_TAG[c.slug]}`)
+    .join('  |  ')
+}
+
+function prompt(c) {
+  const OUT = `.planning/content-system/combo-batch10-caldwells-roseland/${c.slug}/${c.brief}`
+  return `You are writing the COMBO AUTHOR BRIEF for ${c.name} (cityId '${c.cityId}'), Essex County, NJ — one of five caldwells-roseland cities in Combo Batch 10 of the Newark Quality Roofing answer-first content rewrite. This brief will be read IN FULL by 65 downstream author agents (one per service×${c.name} combo), so it must be precise, self-contained, and faithful to the supplied verified facts. This is content-engineering for a local-SEO roofing site.
+
+STEP 1 — READ THE EXACT STRUCTURAL TEMPLATE: .planning/content-system/combo-batch8-maplewood-southorange/maplewood/_MAPLEWOOD-BRIEF.md
+Mirror its structure EXACTLY: the intro blockquote, then sections "## 0. ENTITY-GROUNDING", "## A. The combo render contract", "## B. Answer-first + hard rules", "## C. ${c.name} load-bearing facts", "## D. De-fab targets present in the CURRENT combo files", "## E. Pricing + whyChooseUs + conversionHooks", "## F. Differentiation directive", "## G. Output format".
+- Sections 0, A, B, E, G are CITY-AGNOSTIC: copy them VERBATIM from the Maplewood template, swapping only "Maplewood" -> "${c.name}" and the city-page reference "src/data/city-content/first-suburbs.ts" -> "src/data/city-content/caldwells-roseland.ts". KEEP every rule (entity-grounding directAnswer shape, ≤40w bold span, no-definition-field, registered-NJ-HIC-not-licensed, R2/R3/R6, de-fab list, pricing defaults $400-$1,000 repair / $10,000-$25,000 replacement, whyChooseUs/conversionHooks defaults, output format) byte-for-byte except the city-name swap.
+- The Output-format §G path must point to .planning/content-system/combo-batch10-caldwells-roseland/${c.slug}/ and 'src/data/combo-content/${c.slug}/'.
+
+STEP 2 — CROSS-CHECK FACTS: read the ${c.name} crib ${c.crib} AND the committed city page src/data/city-content/caldwells-roseland.ts (find the object with cityId: '${c.cityId}'). These are the verified authority. If anything below conflicts with the committed city page, the committed city page wins — but the facts below are already reconciled to it.
+
+STEP 3 — WRITE SECTIONS C, D, F from these VERIFIED ${c.name} FACTS (transcribe — do NOT re-research or invent):
+
+MACRO: ${c.macro}
+
+COA POSITION: ${c.coaPos}
+COA FRAMING (carry this exactly into §C historic + the historic FAQ guidance): ${c.coa}
+
+PERMIT OFFICE: ${c.office}. The statewide reroof rule is identical to every city: a detached 1-2-family reroof (incl. full tear-off/re-cover) is "ordinary maintenance" under N.J.A.C. 5:23-2.7 — NO permit; a permit IS required on commercial/multi-family/attached and the 25% rule (>25% of roof area in 12 months); recover-vs-tear-off limits follow the Rehab Subcode N.J.A.C. 5:23-6.4.
+
+GEOGRAPHY (§C geography subsection — HARD guardrails): ${c.geo}
+
+${RES_MATRIX}
+
+${COA_SPECTRUM}
+
+DEMOGRAPHICS / HOUSING (§C): ${c.demo}
+
+VERIFIED NEIGHBORHOODS / SECTIONS (§C — the ONLY ones any combo may name): ${c.verified}
+
+CLIMATE (§C — shared EWR baseline, HEDGED, identical to every city): ~31.5 in/yr snow; nor'easters Oct-April; ~25-30 thunderstorms/yr; ground snow load Pg ~25 psf and ~110-115 mph ASCE 7-16 design wind kept HEDGED (not Essex-confirmed). BAN every city-specific degree/gust/elevation number (the ONLY exception is the attributed ~691 ft Essex County high point at the Hilltop, North Caldwell only).
+
+DE-FAB TARGETS (§D — present in the CURRENT ${c.name} combo files; instruct authors to DELETE/CORRECT all): the shared scaffold fabs (price-in-lead "with prices starting from \$X-\$Y and free estimates available today"; the "NJ licensed, GAF Certified, 15+ years / same-day / 24/7" whyChooseUs; "Premium materials from GAF, CertainTeed, and Owens Corning"; "Early action saves thousands"; inline markdown self-links) PLUS these ${c.name}-specific fabrications: ${c.purged}. To catalog the ACTUAL current fabs, instruct authors that their per-combo file is at src/data/combo-content/${c.slug}/<service>.ts and they must strip every de-fab found there. (You may read 2-3 current ${c.slug} combo files to make §D concrete.)
+
+DIFFERENTIATION (§F — pre-empt cross-city overlap; the in-archetype caldwells-roseland siblings are the primary differentiate target): FOREGROUND ${c.name}-DISTINCT anchors (its COA position, its specific reservation/canopy/floodplain geography, its housing stock, its verified neighborhoods, its permit office address). AVOID importing the OTHER four caldwells-roseland siblings' anchors: ${siblingAvoid(c)}. Also avoid the committed Newark/East-Orange/Orange/Irvington/Bloomfield/Belleville/Nutley/Maplewood/South-Orange/West-Orange/Montclair/Glen-Ridge/Verona/Cedar-Grove anchors. For the process-heavy / low-localizability services (roof-thermal-imaging-inspections, storm-damage-roof-repair, commercial-roof-installation, commercial-roof-repair, infrared-roof-leak-detection, insurance-roof-replacement, roof-overlay-installation), LEAD with the ${c.name} situation before the standardized facts. PRESERVE every cited standard/cost fact (ASTM C1153, NRCA cadence, IRC/UCC sections, HomeAdvisor/Modernize/InterNACHI figures) — differentiation is about which LOCAL facts lead, not changing sourced numbers.
+
+STEP 4 — WRITE the complete brief to ${OUT}. It must be a single self-contained markdown file (~220-250 lines) mirroring the Maplewood template's depth. Use plain prose; this is a brief for authors, not code.
+
+Return ONE line: "${c.slug}: brief written, <N> lines, COA=${c.coaPos}".`
+}
+
+const results = await parallel(CITIES.map((c) => () =>
+  agent(prompt(c), { label: `brief:${c.slug}`, phase: 'Briefs' })
+))
+const ok = results.filter(Boolean).length
+log(`Briefs phase complete: ${ok}/${CITIES.length}`)
+return { written: ok, total: CITIES.length, statuses: results }

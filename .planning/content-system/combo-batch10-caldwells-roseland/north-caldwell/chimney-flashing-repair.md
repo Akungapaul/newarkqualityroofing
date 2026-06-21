@@ -1,0 +1,15 @@
+# north-caldwell/chimney-flashing-repair — rewrite rationale
+
+**De-fab literals cleared (from the current file):**
+- Price-in-lead ("prices starting from $400–$1,500 and free estimates available today") — deleted; price now lives only in `pricing` + the cost FAQ.
+- whyChooseUs trust line "NJ licensed, GAF Certified — 15+ years…", "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties", "same-day estimates and 24/7 emergency response" — replaced with registered-HIC / fully-insured + local-crew / free-estimate / photo-documentation reasons.
+- urgencyNote "Early action saves thousands" — replaced with factual interior/structural water-damage framing.
+- Inline markdown self-links (`[chimney flashing](/…)`, `[Caldwell](/…)`, `[North Caldwell](/…)`) — stripped to plain text (zero links).
+- Old `pricing.range` `$400–$1,500` + bare note — re-pinned to the pack-sourced `$300–$1,800` (most `$400–$1,600`, spot reseal `$150–$300`) with named source.
+- Unsourced "ranges higher than the same work" cost hand-wave in the old cost FAQ — replaced with the sourced HomeGuide/Angi range + free-written-estimate.
+- Redundant duplicate cost FAQ (two "how much" FAQs) collapsed to one.
+- No COA fabrications were present in this file, but the new permit/historic FAQ affirmatively states the North Caldwell truth (no COA; advisory/survey-only HPC under Ch. 107, Art. XIII; no designations; Register-listing-alone places no restriction per NPS). O-8-2026, "Paul Milani", Caldwell Ch. 130, the Idaho district, and any Passaic/floodplain/FEMA framing were kept out.
+
+**Entity-grounding applied:** directAnswer reframed to "Newark Quality Roofing is a roofing contractor … across North Caldwell, New Jersey, and Essex County …" (bold span 34 words) + credential tail "as a registered New Jersey Home Improvement Contractor" outside the bold. No `definition` field authored (left to deterministic splice). Credential = registered NJ HIC / fully insured; no "licensed" for NQR anywhere.
+
+**Named sources cited in-text:** NRCA (two-part base/step + counter flashing; ~90–95% leaks-at-flashing hedged estimate); IRC Section R1003.20 (cricket required > 30 in parallel to ridge); IIBEC (caulk-alone cracks within a few years from masonry-vs-roof movement + freeze-thaw); ASTM D1970 (self-adhering ice-and-water membrane); InterNACHI + shingle-manufacturer guidance (continuous one-piece strip = defective install); N.J.A.C. 5:23-2.7 / NJ Uniform Construction Code (ordinary maintenance, no permit on detached 1–2 family); National Park Service (Register listing alone places no restriction); HomeGuide + Angi (cost data $300–$1,800 / $400–$1,600 / $150–$300). North Caldwell facts (custom colonials/contemporaries/Tudors on large wooded lots, mature oak/maple canopy near the Hilltop Reservation edge, Borough of North Caldwell Construction Department at 141 Gould Avenue, Ch. 107 Art. XIII advisory/survey-only HPC) match the committed city page `caldwells-roseland.ts` (cityId 'north-caldwell'). All geography kept qualitative (no borough-wide wind/snow/canopy-% figure).

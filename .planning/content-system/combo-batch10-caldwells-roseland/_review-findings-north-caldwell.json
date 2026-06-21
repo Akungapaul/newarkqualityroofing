@@ -1,0 +1,306 @@
+{
+  "confirmedCount": 7,
+  "refutedCount": 0,
+  "lowCount": 14,
+  "failedCohorts": [],
+  "confirmed": [
+    {
+      "combo": "roof-repair",
+      "field": "faqs[4].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The 50% cost rule is mis-paired to Kellow, Modernize, and Josten. Per the canonical materials-economics §8 source table, the 50% rule = WeatherShield / Home Depot / industry, while Kellow / Modernize / Josten is the 30% rule. The cohort's own roof-inspection.ts FAQ correctly pairs the 50% rule with WeatherShield and Home Depot, so this file contradicts its sibling and the canon.",
+      "evidence": "\"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten, and repair favors an asphalt roof under 10 to 15 years old.\"",
+      "suggestedFix": "Re-pair the sources: before→ \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten\"; after→ \"The 25–30% area rule is a contractor-consensus threshold attributed to RapidRestore and the 50% cost rule to WeatherShield and Home Depot\" (matches materials-economics §8 and the cohort's roof-inspection.ts).",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim at faqs[4].answer (line 51): \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten.\" This mis-pairs BOTH rules. The canonical source table in .planning/content-system/research/facts-materials-economics.md (the §\"rules\" table, lines 305–310) is definitive: the 50% rule = WeatherShield / Home Depot / industry; the 30% rule = Kellow / Modernize / Josten (NJ); the 25% area rule = RapidRestore / MyQuoteIQ. So the Kellow/Modernize/Josten triad belongs to the 30% COST rule — not the 25–30% AREA rule and not the 50% COST rule, which is exactly what the combo wrongly attributes to it. The cohort's own sibling north-caldwell/roof-inspection.ts (line 51) pairs it correctly — \"The 25–30% area rule is attributed to RapidRestore and the 50% cost rule to WeatherShield and Home Depot\" — so this file directly contradicts both its sibling and the canon (a cross-combo consistency defect on top of a named-source factual error). The COA posture (faqs[1] = no Certificate of Appropriateness, advisory/survey-only HPC under Chapter 107 Art. XIII) is correct and not implicated, and no NQR-credential or entity-grounding rule is at issue — this is purely a third-party source-attribution mis-pairing. The suggestedFix relocates/re-attributes the sources rather than deleting them, preserving the facts and aligning with both canon §8 and roof-inspection.ts.",
+      "finalFix": "before→ \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten, and repair favors an asphalt roof under 10 to 15 years old.\"; after→ \"The 25–30% area rule is a contractor-consensus threshold attributed to RapidRestore and the 50% cost rule to WeatherShield and Home Depot, and repair favors an asphalt roof under 10 to 15 years old.\"",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "storm-damage-roof-repair",
+      "field": "faqs[4].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The 50% rule is mis-attributed to Kellow, Modernize, and Josten cost guidance. Per materials-economics §8 the 50% rule = WeatherShield / Home Depot (Kellow/Modernize/Josten is the 30% rule). The committed Maplewood storm sibling attributes the 50% rule to 'Billrago and Equity' (also a recognized 50%-rule source); either of those is correct, but Kellow/Modernize/Josten is the wrong (30%-rule) source for the 50% threshold.",
+      "evidence": "\"A second threshold, the 50% rule, favors replacement when one repair approaches 50% of replacement cost, per Kellow, Modernize, and Josten cost guidance.\"",
+      "suggestedFix": "before→ \"per Kellow, Modernize, and Josten cost guidance\"; after→ \"per WeatherShield and Home Depot cost guidance\" (canonical 50%-rule pairing; consistent with the cohort's roof-inspection.ts).",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present exactly as cited in faqs[4].answer: \"A second threshold, the 50% rule, favors replacement when one repair approaches 50% of replacement cost, per Kellow, Modernize, and Josten cost guidance.\" This is a genuine source mis-attribution. The materials-economics fact pack decision-rule table (.planning/content-system/research/facts-materials-economics.md, lines 305-306) is definitive: the 50% rule = WeatherShield / Home Depot / industry; the 30% rule = Kellow / Modernize / Josten (NJ). So Kellow/Modernize/Josten is the source for the 30% rule, NOT the 50% rule cited here. The cohort's own North Caldwell roof-inspection.ts (line 51) already pins this correctly — \"the 50% cost rule to WeatherShield and Home Depot\" — establishing the in-city gold. Committed storm-damage siblings either leave the 50% rule unsourced (Newark), say \"per industry consensus\" (Nutley), or attribute it to \"Billrago and Equity\" (Maplewood, another recognized 50%-rule source), but none attribute the 50% threshold to the 30%-rule trio. The finding's suggested fix (WeatherShield and Home Depot) is the canonical fact-pack pairing and is consistent with the cohort's roof-inspection.ts. This is a real, fixable named-source violation. Not an entity-grounding, COA (North Caldwell correctly carries no COA — advisory/survey-only HPC), geography, or third-party-license issue.",
+      "finalFix": "In faqs[4].answer, before→ \"per Kellow, Modernize, and Josten cost guidance\"; after→ \"per WeatherShield and Home Depot cost guidance\" — the canonical 50%-rule source pairing per materials-economics fact pack line 305 and consistent with the cohort's own North Caldwell roof-inspection.ts.",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "roof-deck-repair-replacement",
+      "field": "faqs[4].answer (\"Should you repair or replace the roof when the deck is rotted?\")",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The 25–30% repair-vs-replace area rule and the 50% repair-vs-replacement-cost rule are attributed only to a generic \"contractor-consensus thresholds\" rather than the named sources the brief (§D/§F) and the materials-economics pack require. The committed gold sibling (glen-ridge/roof-deck-repair-replacement.ts:44) pins these precisely: 25–30% area rule → Kellow / RapidRestore / Modernize; 50% cost rule → WeatherShield / Home Depot. The North Caldwell file drops that attribution, leaving two hard percentages unsourced.",
+      "evidence": "\"...replace the roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair when the decay stays localized. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.\"",
+      "suggestedFix": "Re-pin to the named sources, mirroring the glen-ridge gold: before→ \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds\" ; after→ \"The 25–30% area rule is a contractor-consensus threshold attributed to Kellow, RapidRestore, and Modernize, and the 50% cost rule traces to WeatherShield and Home Depot\".",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim at north-caldwell/roof-deck-repair-replacement.ts:51: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds.\" It presents two hard percentages (25–30% area, 50% cost) with only a generic \"contractor-consensus\" label and no named sources. This violates the batch's explicit hard rule in AUTHOR-WORKFLOW.js:93 — \"EVERY hard number named-sourced in-text or removed\" — and the source pack facts-materials-economics.md §8 supplies the sources (50% rule → WeatherShield/Home Depot; 25% area rule → RapidRestore/MyQuoteIQ; 30% rule → Kellow/Modernize). It also diverges from the same-batch committed sibling essex-fells/roof-deck-repair-replacement.ts:50 (\"...attributed to RapidRestore and Kellow Construction, and the 50% cost rule to WeatherShield...\") and the gold exemplar glen-ridge/roof-deck-repair-replacement.ts:44 (\"...attributed to Kellow, RapidRestore, and Modernize, and the 50% cost rule traces to WeatherShield and Home Depot...\"). Both attributions are fact-pack-accurate; North Caldwell simply dropped them. The fix re-attributes (no facts deleted), is confined to source attribution, and touches no North Caldwell-specific fact (NO-COA posture, reservation, housing-age) — so no risk of importing Orange/sibling COA or geography. The first FAQ sentence (the ≤40w definitive answer) is unaffected; only the second sentence gains the attribution.",
+      "finalFix": "In faqs[4].answer, change: before→ \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.\" ; after→ \"The 25–30% area rule is a contractor-consensus threshold attributed to RapidRestore and Kellow Construction, and the 50% cost rule to WeatherShield, while the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked deck.\" (mirrors the same-batch committed sibling essex-fells/roof-deck-repair-replacement.ts:50; fact-pack-accurate per facts-materials-economics.md §8; no percentage deleted.)",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "solar-shingle-installation",
+      "field": "faqs[0].answer",
+      "severity": "med",
+      "category": "answer-length",
+      "issue": "R2 violation: the FAQ answer's first sentence runs 56 words (well over the ≤40-word definitive-answer cap). It chains the ordinary-maintenance rule AND the PV/electrical-permit rule into one sentence before the first period.",
+      "evidence": "\"The reroof of the covering on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while the photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, per the NJ Uniform Construction Code and the NEC.\" (56 words)",
+      "suggestedFix": "Split into two sentences so the first is a ≤40-word definitive answer. Before→After: replace the first sentence with — \"The reroof of the covering on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. The photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance.\" (rest of the answer unchanged).",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present exactly as cited. The first sentence of faqs[0].answer (\"Do I need a permit for solar shingles in North Caldwell?\") runs 56 words (verified by word count), well over the R2 ≤40-word definitive-answer cap. It chains two distinct rules into one sentence before the first period: the ordinary-maintenance/no-permit rule (N.J.A.C. 5:23-2.7) AND the PV/electrical-permit-plus-inspection rule (NEC/fire-code/NJ UCC). This is a real R2 answer-length violation, not a gold pattern: the committed sibling Caldwell solar-shingle combo keeps its first sentence at 39 words (under the cap) by NOT adding the redundant \"and requires no construction permit\" + \"and inspection for NEC and fire-code compliance\" clauses — so North Caldwell drifted long. All facts are accurate per the caldwells-roseland fact bank (detached 1-2 family reroof = ordinary maintenance under 5:23-2.7, no permit; Construction Department at 141 Gould Ave; PV/electrical carries its own permits), and the COA posture is correctly handled in the separate faqs[1], so this is purely a length defect, not a factual or entity-grounding one. The suggested split produces a 33-word definitive lead + a 19-word follow-on, preserving every fact and both named-source attributions (NJ UCC in sentence 1; NEC named in-text in sentence 2).",
+      "finalFix": "In src/data/combo-content/north-caldwell/solar-shingle-installation.ts, faqs[0].answer — replace the first sentence:\n\nBEFORE: \"The reroof of the covering on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while the photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, per the NJ Uniform Construction Code and the NEC.\"\n\nAFTER: \"The reroof of the covering on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. The photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance.\"\n\nThe trailing sentence (\"The Borough of North Caldwell Construction Department at 141 Gould Avenue administers the permits for the photovoltaic and electrical scope.\") stays unchanged. Resulting lead sentence = 33 words (≤40); follow-on = 19 words.",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "re-roofing",
+      "field": "process[0]",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The repair-vs-replace THRESHOLD rules (25-30% area rule, 50% rule, age rule) are mis-attributed to 'Home Depot and Kelly Roofing cost data.' Per facts-materials-economics.md §8, Home Depot/Kelly Roofing is the named source ONLY for the '5-10x less' localized-cheap rule. The 50% rule = WeatherShield/Home Depot; the age & 3-repairs rules = WeatherShield; the 25%-area rule = RapidRestore. Attaching the threshold rules to 'Home Depot and Kelly Roofing cost data' is the exact mis-pairing the brief warns against.",
+      "evidence": "'Damage across more than 25–30% of the roof area crosses the contractor-consensus 25–30% rule, a single repair approaching 50% of replacement cost crosses the 50% rule, and an asphalt roof past 20 years crosses the age rule, per Home Depot and Kelly Roofing cost data, so a Newark Quality Roofing assessment confirms the threshold before recommending a re-roof.'",
+      "suggestedFix": "Re-pin the threshold rules to their real sources or leave them as 'contractor-consensus thresholds' (unattributed, as the storm-damage sibling does). Before→after: '…crosses the age rule, per Home Depot and Kelly Roofing cost data, so…' → '…crosses the age rule; the 50% rule traces to WeatherShield and Home Depot and the age and 3-repairs rules to WeatherShield, so a Newark Quality Roofing assessment confirms the threshold before recommending a re-roof.' (Drop the Kelly-Roofing attachment to the threshold rules; reserve Home Depot/Kelly Roofing for the 5-10x figure.)",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in src/data/combo-content/north-caldwell/re-roofing.ts process[0]: it pins the 25–30% area rule, the 50% rule, AND the age rule to \"per Home Depot and Kelly Roofing cost data.\" This violates the named-source fact in facts-materials-economics.md §8 (consolidated rules table, lines 305–312): 50% rule = WeatherShield/Home Depot/industry; 25%-area rule = RapidRestore/MyQuoteIQ; age rule = WeatherShield; and Kelly Roofing is named for EXACTLY ONE rule — the \"Localized-cheap rule\" (5–10x less, line 312, Home Depot/Kelly Roofing) — which does not appear in this sentence at all. So Kelly Roofing is mis-attached to three rules it does not source, and its only valid attachment is absent. This is the precise mis-pairing the brief warns against. The committed GOLD siblings confirm the correct handling: the same-service South Orange re-roofing process[0] attributes these exact threshold rules to \"WeatherShield, RapidRestore, and Home Depot cost data\" (NOT Kelly Roofing), and Nutley/Belleville/South Orange consistently reserve \"Home Depot and Kelly Roofing cost data\" only for the 5-10x localized-repair figure. No North Caldwell fact (COA posture, reservation, geography) or entity-grounding rule is implicated; this is a pure source-attribution defect. Fixable by re-pinning to the real sources, mirroring the committed South Orange re-roofing sibling.",
+      "finalFix": "In src/data/combo-content/north-caldwell/re-roofing.ts process[0], replace \"an asphalt roof past 20 years crosses the age rule, per Home Depot and Kelly Roofing cost data, so a Newark Quality Roofing assessment confirms the threshold before recommending a re-roof.\" with \"an asphalt roof past 20 years crosses the age rule, per WeatherShield, RapidRestore, and Home Depot cost data, so a Newark Quality Roofing assessment confirms the threshold before recommending a re-roof.\" (Re-attributes the 25–30% area / 50% / age threshold rules to their fact-pack §8 sources — RapidRestore for the area rule, WeatherShield for the 50% and age rules, Home Depot for the 50% rule — matching the committed South Orange re-roofing sibling, and drops the Kelly-Roofing attachment, which §8 reserves solely for the 5–10x localized-repair figure not present in this sentence.)",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "roof-replacement-cost",
+      "field": "faqs[3].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Repair-vs-replace rule sources are mis-paired. The 50% COST rule is attributed to Kellow/Modernize/Josten, but those sources back the 30% COST rule. Per the materials-economics §8 canon: 50% rule = WeatherShield/Home Depot; 30% rule = Kellow/Modernize/Josten; 25%-area rule = RapidRestore. Both the '25-30% area rule' and the '50% cost rule' are pinned to the wrong named bodies here.",
+      "evidence": "\"Replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; ... The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten\"",
+      "suggestedFix": "Re-pin to the canon. Before: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten\" → After: \"The 50%-of-replacement-cost rule is the most widely cited threshold, per WeatherShield and Home Depot, and a repair exceeding 30% of replacement cost leans toward replacement, per Kellow, Modernize, and Josten\" (drop the misattributed 25-30% 'area' framing or attribute the area rule to RapidRestore).",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten.\" This mis-pins the 50% COST rule to Kellow/Modernize/Josten. Per the canonical materials-economics §8 (.planning/content-system/research/facts-materials-economics.md, lines 305-307): the 50% rule = WeatherShield / Home Depot / industry; the 30% cost rule = Kellow / Modernize / Josten (NJ); the 25% AREA rule = RapidRestore / MyQuoteIQ. So Kellow/Modernize/Josten actually back the 30% COST rule (which the combo never cites), not the 50% COST rule. This is a genuine named-source attribution error and matches the recorded CMP-3 LESSON (\"50% rule=WeatherShield/Home Depot; 30%=Kellow/Modernize/Josten\"). It is not a gold-protected phrasing: committed west-essex gold is split — montclair carries the same defect, but verona (also committed `9410c1b`) presents the identical sentence with NO named attribution (\"...contractor-consensus thresholds, and a localized repair...\"), proving the clean, canon-safe form is to drop the false pin. The downstream attribution \"5 to 10 times less... per Home Depot and Kelly Roofing\" is correct (§8 line 312, localized-cheap rule) and must be preserved. North Caldwell facts (NO COA, advisory/survey-only HPC) are not implicated. The finding's own suggestedFix over-restructures and imports the 30% rule; the minimal canon-safe fix is to delete the misattribution, mirroring committed verona gold.",
+      "finalFix": "Before: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, per Kellow, Modernize, and Josten, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.\" → After: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.\" (drop the false \"per Kellow, Modernize, and Josten\" pin — the 50% cost rule belongs to WeatherShield/Home Depot per materials-economics §8, while Kellow/Modernize/Josten back the uncited 30% cost rule; matches committed verona gold.)",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "cedar-shake-roof-replacement",
+      "field": "pricing.note",
+      "severity": "med",
+      "category": "city-fact",
+      "issue": "Stray slate pricing copy-pasted from the slate combo into the cedar combo's pricing note. Slate's $10–$30/sq ft is irrelevant to a cedar-shake replacement and conflates the two materials, undermining the page's accuracy.",
+      "evidence": "\"premium cedar sits above asphalt, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access.\"",
+      "suggestedFix": "Replace the slate clause with a cedar-relevant figure. Before: \"premium cedar sits above asphalt, with slate installed at roughly $10–$30 per square foot per NJ roofing guides.\" → After: \"premium cedar sits above asphalt, with wood/cedar running roughly $5–$10 per square foot per Modernize and HomeGuide (labor ~60–70% of a wood-roof install).\"",
+      "verdict": "confirmed",
+      "reasoning": "CONFIRMED. The offending text is present verbatim in src/data/combo-content/north-caldwell/cedar-shake-roof-replacement.ts line 62: pricing.note reads \"...premium cedar sits above asphalt, with slate installed at roughly $10–$30 per square foot per NJ roofing guides...\" This is stray slate pricing imported into a cedar combo. Proof of contamination: the SIBLING slate combo (slate-roof-replacement.ts line 63) carries the identical \"$10–$30 per square foot\" clause as its OWN correct figure (\"natural slate runs higher at $10–$30 per square foot, per named NJ roofing guides\"), and the slate FAQ (line 56) anchors it: \"Slate installation in New Jersey costs $10 to $30 per square foot.\" So $10–$30/sq ft is a documented SLATE figure, not a cedar one. The fact pack confirms the correct cedar/wood figure: facts-materials-economics.md §5 line 234 — \"Wood / metal-shingle per-sq-ft $5–$10 / sq ft | Modernize/HomeGuide [SECONDARY]\" — and line 233 — \"Replace shakes ≈ $600–$700/square; labor ~60–70% of cost | Modernize.\" The suggested cedar replacement ($5–$10/sq ft per Modernize and HomeGuide, labor ~60–70%) is exactly supported by these named-source rows. Notably the body FAQ \"How much does cedar shake roof replacement cost\" (line 55) is already CLEAN — it omits the slate figure and correctly uses \"labor accounts for roughly 60 to 70% of a wood-roof install, per Modernize\" — so the pricing.note is the lone field carrying the slate misattribution, undermining cross-field consistency within the same page. This is a real, fixable named-source/material-accuracy defect, not a deliberate cross-material comparison (a cedar pricing note has no reason to quote a slate per-sq-ft rate). No North Caldwell fact, COA posture (NO COA / advisory-survey-only HPC), or entity-grounding requirement is affected — the fix is a re-attribution that preserves the page's HomeAdvisor/Modernize anchors.",
+      "finalFix": "In src/data/combo-content/north-caldwell/cedar-shake-roof-replacement.ts, pricing.note — Before: \"Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium cedar sits above asphalt, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.\" → After: \"Typical NJ roof-replacement range per HomeAdvisor and Modernize; premium cedar sits above asphalt, with wood/cedar running roughly $5–$10 per square foot per Modernize and HomeGuide (labor about 60 to 70% of a wood-roof install). Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.\"",
+      "city": "north-caldwell"
+    }
+  ],
+  "low": [
+    {
+      "combo": "roof-repair",
+      "field": "faqs[4].answer",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "Cross-combo inconsistency in repair-vs-replace attribution within the same cohort: roof-repair and storm-damage attribute the same thresholds to Kellow/Modernize/Josten, while roof-inspection attributes the 25–30% area rule to RapidRestore and the 50% rule to WeatherShield/Home Depot. The same fact should carry the same attribution across the cohort (Ruleset R25). Aligning the two mis-paired files to the roof-inspection wording resolves both the accuracy and the consistency issue in one pass.",
+      "evidence": "roof-repair/storm-damage: \"...attributed to Kellow, Modernize, and Josten\"  vs  roof-inspection: \"The 25–30% area rule is attributed to RapidRestore and the 50% cost rule to WeatherShield and Home Depot\"",
+      "suggestedFix": "Standardize all three combos on the roof-inspection wording: 25–30% area rule → RapidRestore; 50% cost rule → WeatherShield and Home Depot; 30% cost rule → Kellow/Modernize/Josten (only where a 30% threshold is actually stated).",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "cedar-shake-roofing",
+      "field": "process[1]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Abbreviated N.J.A.C. 5:23-6.4 recover-material list ('wood-shake, slate, or tile') instead of the full statutory list. The review brief and fact pack (facts-nj-regulatory-climate.md §1.4) require the full list: wood shake, slate, clay, cement, or asbestos-cement tile. This is the documented recurring NQR defect — and it is internally inconsistent within the cohort: the sibling wood-shake-roofing.ts (process[1] and its FAQ) and residential-roof-installation.ts both carry the FULL list, while cedar-shake abbreviates it. Site-wide the full list dominates 412:14, so the abbreviated form is the outlier.",
+      "evidence": "'...with complete removal of a wood-shake, slate, or tile covering required by N.J.A.C. 5:23-6.4 rather than a recover-over, per the NJ Rehabilitation Subcode.'",
+      "suggestedFix": "Expand to the full statutory list to match the sibling combos and the pack: 'with complete removal of the existing covering required by N.J.A.C. 5:23-6.4 when it is wood shake, slate, clay, cement, or asbestos-cement tile, rather than a recover-over, per the NJ Rehabilitation Subcode.' (Note: the FAQ at line 42 referencing 'a wood-shake covering' specifically is CORRECT and should be left — cedar IS wood shake, so the single-item reference is accurate there; only process[1]'s abbreviated multi-item list needs the fix.)",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "green-roof-installation",
+      "field": "faqs[2].answer (\"Does a green roof installation need a permit in North Caldwell?\")",
+      "severity": "low",
+      "category": "answer-length",
+      "issue": "The FAQ answer's first sentence runs ~46 words, over the R2/brief ≤40-word definitive-answer target for a faq answer's first sentence (the brief says tighten BELOW 40 to be safe).",
+      "evidence": "\"A green roof on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code, though a structural change to the framing triggers a permit.\"",
+      "suggestedFix": "Split into two sentences: \"A green roof on a detached one- or two-family home in North Caldwell counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A structural change to the framing triggers a permit.\" (first sentence then ~40w).",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "commercial-metal-roofing",
+      "field": "faqs[2].answer (\"Do you need a permit for a commercial metal roof in North Caldwell, NJ?\")",
+      "severity": "low",
+      "category": "answer-length",
+      "issue": "FAQ answer first sentence is ~42 words, marginally over the ≤40 target. This matches committed-gold tolerance (the Orange exemplar's permit-FAQ first sentence is also ~42w), so it is borderline-acceptable; flag only for optional tightening.",
+      "evidence": "\"A commercial, municipal, or attached metal roof replacement requires a construction permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code.\"",
+      "suggestedFix": "Optional: trim to ≤40w, e.g. \"A commercial, municipal, or attached metal roof replacement requires a construction permit under N.J.A.C. 5:23-2.7, because ordinary maintenance covers only repair of up to 25% of total roof area in a 12-month period.\" (drop \"the ... exemption\" / \"per the NJ Uniform Construction Code\" tail). Low priority — matches gold.",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "green-roof-installation",
+      "field": "faqs[5].answer and pricing.note ($/sq ft attribution)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The green-roof waterproofing-substrate price '$6 to $12 per square foot, per commercial cost guides' reuses the pack's PVC single-ply install figure ($6–$12/sq ft, attributed to M&M Roofing/WeatherStar 'commercial cost guides' in facts-materials-economics §6). It is applied as the green-roof MEMBRANE-SUBSTRATE cost, which is defensible (the substrate IS a single-ply membrane) but the pack carries no green-roof-specific $/sq ft, so the figure is a proxy rather than a directly-sourced green-roof number.",
+      "evidence": "\"a green-roof-rated waterproofing membrane substrate installs at roughly $6 to $12 per square foot, per commercial cost guides\"",
+      "suggestedFix": "Acceptable as-is, but to be precise either keep the qualifier already present (the text already says 'waterproofing membrane substrate', which scopes it to the single-ply layer — fine to leave), OR de-quantify the green-roof line to the $10,000–$25,000 whole-project range only and drop the borrowed $6–$12 substrate figure. No change required if reviewers accept the single-ply proxy.",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "commercial-roof-repair",
+      "field": "faqs[5].answer (cost FAQ)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The flat-roof repair total range and per-sq-ft figure are bundled under a three-source citation, but the fact pack pins '$300–$1,100 / $2.50–$10.00 per sq ft' to HomeGuide ALONE (facts-materials-economics §201). Modernize and WeatherShield back only the seam re-weld $200–$400 / section-replace $500–$1,000 figures that appear later in the same answer (§204). The bundled 'per HomeGuide, Modernize, and WeatherShield' over-attributes the $300–$1,100 range to all three. All three sources are legitimately present for figures in this single answer, so this is a precision nit, not a fabrication.",
+      "evidence": "Commercial flat-roof repair in New Jersey costs $300 to $1,100 for a typical repair, or $2.50 to $10.00 per square foot, per HomeGuide, Modernize, and WeatherShield cost data. A seam re-weld runs $200 to $400 and a section replacement $500 to $1,000",
+      "suggestedFix": "Re-pin the figures to their exact pack sources: 'Commercial flat-roof repair in New Jersey costs $300 to $1,100 for a typical repair, or $2.50 to $10.00 per square foot, per HomeGuide. A seam re-weld runs $200 to $400 and a section replacement $500 to $1,000, per Modernize and WeatherShield.'",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "commercial-roof-replacement",
+      "field": "process[1]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The cool-roof reflectance statement is asserted without a named source. Every other cool-roof reflectance claim in the wider North Caldwell file set (pvc-roofing, flat-roof-replacement, silicone coatings) attributes the reflectance property to the CRRC / ASTM C1549. This line is qualitative and figure-free (no number, no EPA mis-attribution), so it is safe, but it is the one cool-roof mention in the cohort that carries no attribution, making it slightly inconsistent with the cohort/site pattern.",
+      "evidence": "white PVC and TPO carry high solar reflectance, the cool-roof property that lowers rooftop heat gain",
+      "suggestedFix": "Add the standard attribution used elsewhere in the file set, e.g. 'white PVC and TPO carry high solar reflectance, the cool-roof property that lowers rooftop heat gain, per the CRRC' (no quantified % needed — keep it qualitative).",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "gutter-installation-repair",
+      "field": "overview[2]",
+      "severity": "low",
+      "category": "city-fact",
+      "issue": "States North Caldwell lots as a flat \"one-acre wooded lots\" rather than the hedged form the fact bank / brief use (\"large (often 1+ acre) lots\"). The fact bank frames lot size qualitatively and the brief warns against asserting a strict figure; a flat \"one-acre\" reads as a precise uniform fact. (The sibling gutter-guard file uses the better-hedged \"acre-plus lots.\")",
+      "evidence": "\"A mature oak and maple canopy over North Caldwell's one-acre wooded lots drops leaf load and broken branches that fill the trough...\"",
+      "suggestedFix": "before→ \"North Caldwell's one-acre wooded lots\" ; after→ \"North Caldwell's large, often acre-plus wooded lots\" (matches the fact bank's \"often 1+ acre\" hedge and the gutter-guard sibling phrasing).",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "soffit-installation-repair",
+      "field": "overview[1]",
+      "severity": "low",
+      "category": "city-fact",
+      "issue": "Same flat \"one-acre lots\" framing as the gutter file — states lot size as a precise uniform figure rather than the fact bank's hedged \"large (often 1+ acre)\" form. Low severity; consistency/precision rather than a wrong fact.",
+      "evidence": "\"...the mature oak and maple canopy over one-acre lots overflows gutters and soaks the eave underside, per InterNACHI inspection guidance.\"",
+      "suggestedFix": "before→ \"the mature oak and maple canopy over one-acre lots\" ; after→ \"the mature oak and maple canopy over the borough's large, often acre-plus lots\".",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "custom-roof-design-consultation",
+      "field": "faqs[3].answer",
+      "severity": "low",
+      "category": "answer-length",
+      "issue": "The permit FAQ's first sentence runs 46 words (over the R2 ≤40-word answer-first limit). It bundles the ordinary-maintenance rule and the structural-permit exception into one sentence joined by a semicolon. The committed Caldwell sibling splits these into two sentences (first sentence ends at '...requires no construction permit.').",
+      "evidence": "'A re-roof of the covering on a detached one- or two-family home is ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; an addition, a dormer, a roof-pitch change, or a structural change to rafters or trusses requires one, per the NJ Uniform Construction Code.' (46 words). R2: first sentence of every faqs.answer must be ≤40 words.",
+      "suggestedFix": "Replace the semicolon with a period to split the first sentence. Before: '...requires no construction permit; an addition, a dormer, a roof-pitch change, or a structural change to rafters or trusses requires one, per the NJ Uniform Construction Code.' After: '...requires no construction permit. An addition, a dormer, a roof-pitch change, or a structural change to rafters or trusses triggers one as a structural change, per the NJ Uniform Construction Code.' (first sentence then = 24 words).",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "roof-ice-dam-prevention",
+      "field": "faqs[3].answer",
+      "severity": "low",
+      "category": "answer-length",
+      "issue": "The permit/historic FAQ's first sentence runs 47 words (over the R2 ≤40-word answer-first limit) because it appends the 'so an eave ice-barrier install at the next re-roof adds no permit step' clause onto the ordinary-maintenance sentence. The committed Caldwell ice-dam sibling ends the first sentence at '...no notice, per the NJ Uniform Construction Code.' then starts a new sentence for the ice-barrier point.",
+      "evidence": "'A re-roof or repair of the roof covering on a detached one- or two-family North Caldwell home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, so an eave ice-barrier install at the next re-roof adds no permit step.' (47 words). R2: first sentence of every faqs.answer must be ≤40 words.",
+      "suggestedFix": "Split into two sentences. Before: '...requires no construction permit, no inspection, and no notice, so an eave ice-barrier install at the next re-roof adds no permit step.' After: '...requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. Adding the eave ice barrier at the next re-roof therefore adds no permit step.' (first sentence then ≈ 35 words).",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "roof-replacement-after-leak",
+      "field": "faqs[0].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The '5 to 10 times less' localized-cheap figure is attributed to 'WeatherShield and Home Depot cost data.' Per facts-materials-economics.md §8, the 5-10x localized-cheap rule is sourced to Home Depot/Kelly Roofing — NOT WeatherShield. WeatherShield is the named source for the 50%, age, and 3-repairs rules. Home Depot is correct here; WeatherShield is wrongly attached to the 5-10x number.",
+      "evidence": "'Repair when the leak stays localized on an asphalt roof under 10 to 15 years, because a localized repair costs 5 to 10 times less than replacement, per WeatherShield and Home Depot cost data.'",
+      "suggestedFix": "Before→after: '…costs 5 to 10 times less than replacement, per WeatherShield and Home Depot cost data.' → '…costs 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.' (process[0] in this same file already correctly pairs the 3-repairs/25-30%/50% rules with WeatherShield — keep that; just fix the 5-10x line.)",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "aging-roof-replacement",
+      "field": "faqs[0].answer",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "The GAF '30%-of-surface granule loss = beyond repair' figure is technically pack-supported (facts-causes-signs.md: '>30% ≈ beyond repair — GAF/trade'), so this is NOT a fabrication. BUT this exact 'GAF 30%-of-surface granule' claim is the recurring de-fab target the project has de-quantified to qualitative in committed siblings (per the batch lessons); it is not carried in the cohort's assigned replacement/cost fact packs. It risks inconsistency with the de-quantified sibling pattern.",
+      "evidence": "'…granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF. Newark Quality Roofing rates the covering against the InterNACHI life-expectancy chart before quoting.'",
+      "suggestedFix": "Either keep as-is (it is sourced to GAF/trade and accurate) OR, to match the de-quantified committed-sibling pattern, before→after: '…granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF.' → 'widespread granule loss that exposes the asphalt mat signals a covering near the end of its service life, per GAF and InterNACHI.' Orchestrator call: confirm against committed siblings before changing; flagged for consistency, not for fabrication.",
+      "city": "north-caldwell"
+    },
+    {
+      "combo": "cedar-shake-roof-replacement",
+      "field": "faqs[4].answer (When does a North Caldwell cedar roof need replacement rather than repair?)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "A '25-to-30% AREA threshold' is attributed to Kellow, Modernize, and Josten — but those sources back the 30% COST rule, not an area threshold. The pack's cedar-specific area threshold (>25–30% of shakes cupped/split) is 'industry consensus', and the cross-material 25% AREA rule = RapidRestore. The attribution to the cost-rule trio for an area threshold is imprecise.",
+      "evidence": "\"The 25-to-30% area threshold is a contractor-consensus repair-vs-replace rule attributed to Kellow, Modernize, and Josten\"",
+      "suggestedFix": "Generalize the attribution to match the pack. Before: \"...is a contractor-consensus repair-vs-replace rule attributed to Kellow, Modernize, and Josten\" → After: \"...is a contractor-consensus repair-vs-replace threshold\" (drop the cost-rule trio, or move Kellow/Modernize/Josten to a 30%-of-cost statement if one is added).",
+      "city": "north-caldwell"
+    }
+  ],
+  "byCohort": [
+    {
+      "cohort": "north-caldwell:repair-maintenance",
+      "confirmed": 2,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "north-caldwell:residential-roof-types",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "north-caldwell:commercial-roof-types",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 3,
+      "failed": false
+    },
+    {
+      "cohort": "north-caldwell:commercial-services",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "north-caldwell:components-specialty",
+      "confirmed": 1,
+      "refuted": 0,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "north-caldwell:design-consultation",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "north-caldwell:energy-solar",
+      "confirmed": 1,
+      "refuted": 0,
+      "low": 0,
+      "failed": false
+    },
+    {
+      "cohort": "north-caldwell:replacement-A",
+      "confirmed": 1,
+      "refuted": 0,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "north-caldwell:replacement-B",
+      "confirmed": 2,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    }
+  ]
+}

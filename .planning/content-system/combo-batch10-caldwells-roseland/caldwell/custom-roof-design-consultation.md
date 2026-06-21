@@ -1,0 +1,15 @@
+# caldwell/custom-roof-design-consultation — rewrite rationale
+
+De-fab literals cleared from the current file:
+- Killed the price-in-lead + hype "delivers expert ... with prices starting from $200–$500 and free estimates available today"; the fabricated `$200–$500` / "applied toward project cost" pricing tier; the whyChooseUs "NJ licensed, GAF Certified — 15+ years," "Premium materials from GAF/CertainTeed/Owens Corning with manufacturer warranties," and "same-day estimates and 24/7 emergency response"; the urgencyNote "Early action saves thousands"; and every inline markdown self-link ([custom roof design], [Caldwell], [Montclair], [Bloomfield]) plus the cross-city Montclair/Bloomfield mentions.
+- Dropped the "remaining undeveloped lots / colonial-on-undeveloped-lot" and the asphalt-"dominates-the-borough" framing; replaced with the verified mixed owner/renter downtown-borough stock (Victorian-era / Colonial-Revival cores + interwar/postwar Capes & ranches + low-rise multifamily + Bloomfield Avenue storefront low-slope membrane). No reservation adjacency, no Passaic floodplain, no enclave/large-lot framing, no city-specific elevation/snow/wind number, no Construction Official name, no HD-1/HD-2/HD-3 overlay.
+- Corrected the COA framing: Caldwell HAS a real Chapter-130 HPC + ordinance, but the Certificate of Appropriateness applies ONLY to the borough's two locally designated landmarks; Caldwell has designated NO local historic district, so a typical home is not COA-regulated. Permit office corrected to the Borough of Caldwell Construction Department at 24 Smull Avenue (NOT Bloomfield Avenue). No Grover Cleveland Birthplace as a homeowner gate.
+
+Entity-grounding: directAnswer entity-grounded (bold span 26 words, "Newark Quality Roofing is a roofing contractor … across Caldwell, New Jersey, and Essex County …"; credential tail "as a registered New Jersey Home Improvement Contractor" outside the bold). Credential = registered NJ HIC, fully insured; no "licensed" for NQR. No `definition` field (spliced post-assembly).
+
+Named sources cited in-text:
+- InterNACHI Standard Estimated Life Expectancy Chart — 3-tab 20 / architectural 30 / metal 40–80 / slate 60–150 / copper 70+ / wood 25 / clay-concrete tile 100+.
+- ASCE 7 (load standard the NJ UCC adopts) — wind-load/snow-load design; IRC R806.2 + ARMA — 1 sq ft / 150 sq ft attic ventilation; IRC R905.1.2 — ice-barrier scope; NRCA — balanced ventilation reduces heat/moisture stress.
+- N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code) — detached 1–2-family re-roof = ordinary maintenance; structural change triggers a permit.
+- Josten Roofing / NJ roofing-guide pricing (facts-materials-economics §0) — architectural asphalt $6.50–$11.00/sq ft, metal $9.00–$16.00, slate $10–$30; "industry cost guidance" for roof-complexity cost driver.
+- Caldwell historic facts (Chapter 130 HPC / two designated landmarks / no district) and verified geography (Preservation New Jersey; mature street-tree canopy) per the committed Caldwell city page + brief §C.

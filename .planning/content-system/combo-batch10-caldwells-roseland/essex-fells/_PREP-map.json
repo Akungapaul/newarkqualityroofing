@@ -1,0 +1,768 @@
+[
+  {
+    "file": "aging-roof-replacement",
+    "serviceId": "aging-roof-replacement",
+    "exportName": "essexFellsAgingRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "asphalt-shingle-roof-replacement",
+    "serviceId": "asphalt-shingle-roof-replacement",
+    "exportName": "essexFellsAsphaltShingleRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "asphalt-shingle-roofing",
+    "serviceId": "asphalt-shingle-roofing",
+    "exportName": "essexFellsAsphaltShingleRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "built-up-roofing",
+    "serviceId": "built-up-roofing",
+    "exportName": "essexFellsBuiltUpRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "cedar-shake-roof-replacement",
+    "serviceId": "cedar-shake-roof-replacement",
+    "exportName": "essexFellsCedarShakeRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "cedar-shake-roofing",
+    "serviceId": "cedar-shake-roofing",
+    "exportName": "essexFellsCedarShakeRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "chimney-flashing-repair",
+    "serviceId": "chimney-flashing-repair",
+    "exportName": "essexFellsChimneyFlashingRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-metal-roofing",
+    "serviceId": "commercial-metal-roofing",
+    "exportName": "essexFellsCommercialMetalRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-installation",
+    "serviceId": "commercial-roof-installation",
+    "exportName": "essexFellsCommercialRoofInstallation",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-repair",
+    "serviceId": "commercial-roof-repair",
+    "exportName": "essexFellsCommercialRoofRepair",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-replacement",
+    "serviceId": "commercial-roof-replacement",
+    "exportName": "essexFellsCommercialRoofReplacement",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "custom-roof-design-consultation",
+    "serviceId": "custom-roof-design-consultation",
+    "exportName": "essexFellsCustomRoofDesignConsultation",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "emergency-roof-repair",
+    "serviceId": "emergency-roof-repair",
+    "exportName": "essexFellsEmergencyRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "energy-efficient-roofing-solutions",
+    "serviceId": "energy-efficient-roofing-solutions",
+    "exportName": "essexFellsEnergyEfficientRoofingSolutions",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "epdm-commercial-roofing",
+    "serviceId": "epdm-commercial-roofing",
+    "exportName": "essexFellsEpdmCommercialRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "fascia-installation-repair",
+    "serviceId": "fascia-installation-repair",
+    "exportName": "essexFellsFasciaInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "fire-damage-roof-replacement",
+    "serviceId": "fire-damage-roof-replacement",
+    "exportName": "essexFellsFireDamageRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "flat-roof-installation-repair",
+    "serviceId": "flat-roof-installation-repair",
+    "exportName": "essexFellsFlatRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "flat-roof-replacement",
+    "serviceId": "flat-roof-replacement",
+    "exportName": "essexFellsFlatRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "full-roof-tear-off",
+    "serviceId": "full-roof-tear-off",
+    "exportName": "essexFellsFullRoofTearOff",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "green-roof-installation",
+    "serviceId": "green-roof-installation",
+    "exportName": "essexFellsGreenRoofInstallation",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "gutter-guard-installation",
+    "serviceId": "gutter-guard-installation",
+    "exportName": "essexFellsGutterGuardInstallation",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "gutter-installation-repair",
+    "serviceId": "gutter-installation-repair",
+    "exportName": "essexFellsGutterInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "hail-damage-roof-repair",
+    "serviceId": "hail-damage-roof-repair",
+    "exportName": "essexFellsHailDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "historic-roof-restoration",
+    "serviceId": "historic-roof-restoration",
+    "exportName": "essexFellsHistoricRoofRestoration",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "infrared-roof-leak-detection",
+    "serviceId": "infrared-roof-leak-detection",
+    "exportName": "essexFellsInfraredRoofLeakDetection",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "insurance-roof-replacement",
+    "serviceId": "insurance-roof-replacement",
+    "exportName": "essexFellsInsuranceRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "metal-roof-installation-repair",
+    "serviceId": "metal-roof-installation-repair",
+    "exportName": "essexFellsMetalRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "metal-roof-replacement",
+    "serviceId": "metal-roof-replacement",
+    "exportName": "essexFellsMetalRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "modified-bitumen-roofing",
+    "serviceId": "modified-bitumen-roofing",
+    "exportName": "essexFellsModifiedBitumenRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "pvc-roofing",
+    "serviceId": "pvc-roofing",
+    "exportName": "essexFellsPvcRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "re-roofing",
+    "serviceId": "re-roofing",
+    "exportName": "essexFellsReRoofing",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "residential-roof-installation",
+    "serviceId": "residential-roof-installation",
+    "exportName": "essexFellsResidentialRoofInstallation",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-cleaning-moss-removal",
+    "serviceId": "roof-cleaning-moss-removal",
+    "exportName": "essexFellsRoofCleaningMossRemoval",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-deck-repair-replacement",
+    "serviceId": "roof-deck-repair-replacement",
+    "exportName": "essexFellsRoofDeckRepairReplacement",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-flashing-installation-repair",
+    "serviceId": "roof-flashing-installation-repair",
+    "exportName": "essexFellsRoofFlashingInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-ice-dam-prevention",
+    "serviceId": "roof-ice-dam-prevention",
+    "exportName": "essexFellsRoofIceDamPrevention",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-inspection",
+    "serviceId": "roof-inspection",
+    "exportName": "essexFellsRoofInspection",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-leak-repair",
+    "serviceId": "roof-leak-repair",
+    "exportName": "essexFellsRoofLeakRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-maintenance-programs",
+    "serviceId": "roof-maintenance-programs",
+    "exportName": "essexFellsRoofMaintenancePrograms",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-overlay-installation",
+    "serviceId": "roof-overlay-installation",
+    "exportName": "essexFellsRoofOverlayInstallation",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "roof-repair",
+    "serviceId": "roof-repair",
+    "exportName": "essexFellsRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-replacement",
+    "serviceId": "roof-replacement",
+    "exportName": "essexFellsRoofReplacement",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-replacement-after-leak",
+    "serviceId": "roof-replacement-after-leak",
+    "exportName": "essexFellsRoofReplacementAfterLeak",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "roof-replacement-cost",
+    "serviceId": "roof-replacement-cost",
+    "exportName": "essexFellsRoofReplacementCost",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-thermal-imaging-inspections",
+    "serviceId": "roof-thermal-imaging-inspections",
+    "exportName": "essexFellsRoofThermalImagingInspections",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-vent-installation-repair",
+    "serviceId": "roof-vent-installation-repair",
+    "exportName": "essexFellsRoofVentInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-waterproofing",
+    "serviceId": "roof-waterproofing",
+    "exportName": "essexFellsRoofWaterproofing",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "rubber-roofing-epdm",
+    "serviceId": "rubber-roofing-epdm",
+    "exportName": "essexFellsRubberRoofingEpdm",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "silicone-elastomeric-roof-coating",
+    "serviceId": "silicone-elastomeric-roof-coating",
+    "exportName": "essexFellsSiliconeElastomericRoofCoating",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "silicone-roof-coating",
+    "serviceId": "silicone-roof-coating",
+    "exportName": "essexFellsSiliconeRoofCoating",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "skylight-installation-repair",
+    "serviceId": "skylight-installation-repair",
+    "exportName": "essexFellsSkylightInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "slate-roof-installation-repair",
+    "serviceId": "slate-roof-installation-repair",
+    "exportName": "essexFellsSlateRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "slate-roof-replacement",
+    "serviceId": "slate-roof-replacement",
+    "exportName": "essexFellsSlateRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "soffit-installation-repair",
+    "serviceId": "soffit-installation-repair",
+    "exportName": "essexFellsSoffitInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "solar-panel-roofing-installation",
+    "serviceId": "solar-panel-roofing-installation",
+    "exportName": "essexFellsSolarPanelRoofingInstallation",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "solar-shingle-installation",
+    "serviceId": "solar-shingle-installation",
+    "exportName": "essexFellsSolarShingleInstallation",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "spray-foam-roofing",
+    "serviceId": "spray-foam-roofing",
+    "exportName": "essexFellsSprayFoamRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "storm-damage-roof-repair",
+    "serviceId": "storm-damage-roof-repair",
+    "exportName": "essexFellsStormDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "storm-damage-roof-replacement",
+    "serviceId": "storm-damage-roof-replacement",
+    "exportName": "essexFellsStormDamageRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "tile-roof-installation-repair",
+    "serviceId": "tile-roof-installation-repair",
+    "exportName": "essexFellsTileRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "tile-roof-replacement",
+    "serviceId": "tile-roof-replacement",
+    "exportName": "essexFellsTileRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "tpo-roofing-installation",
+    "serviceId": "tpo-roofing-installation",
+    "exportName": "essexFellsTpoRoofingInstallation",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "wind-damage-roof-repair",
+    "serviceId": "wind-damage-roof-repair",
+    "exportName": "essexFellsWindDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "wood-shake-roofing",
+    "serviceId": "wood-shake-roofing",
+    "exportName": "essexFellsWoodShakeRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  }
+]

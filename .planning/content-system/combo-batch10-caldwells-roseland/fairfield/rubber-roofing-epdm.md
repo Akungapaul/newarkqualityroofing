@@ -1,0 +1,19 @@
+# fairfield/rubber-roofing-epdm — rewrite rationale
+
+**De-fab literals cleared** (all present in the old combo file):
+- Price-in-lead "with prices starting from $6,000–$16,000 and free estimates available today" — deleted from `overview[0]`; price now lives only in `pricing` + the cost FAQ.
+- Old invented pricing `$6,000–$16,000` / "EPDM rubber membrane system" → replaced with the sourced default `$10,000–$25,000` (NJ roof-replacement range per HomeAdvisor and Modernize).
+- whyChooseUs templated trust lines — "NJ licensed, GAF Certified — 15+ years," "Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties," "same-day estimates and 24/7 emergency response" → de-fabbed to the registered-HIC / fully-insured factual reasons.
+- conversionHooks "Early action saves thousands" + "call now or fill out our form" → factual CTA + factual urgency note (no fabricated savings).
+- Fabricated geography/era claims removed: "subdivisions near the Caldwell border," "renovation waves of the 1980s and 1990s," "twenty-five to thirty years," "forty-year track record," "fifty feet wide factory panels," "six-inch pressure-sensitive tape" spec invention, "summer heat island effect over asphalt parking lots," and the inline self-links `[Caldwell]`, `[Roseland]`, `[rubber roofing EPDM]`.
+- Wrong geography corrected: dropped the "Passaic River corridor along Fairfield's eastern border" framing (Passaic is the floodplain/confluence, framed as a qualitative DRAINAGE stressor at Two Bridges — no FEMA letters, no PINN4 numbers, no basement-flood claim, no "~70%," no elevation number in prose).
+
+**Entity-grounding applied:** `directAnswer` reframed to "Newark Quality Roofing is a roofing contractor providing rubber roofing EPDM across Fairfield, New Jersey, and Essex County…" with the credential tail "as a registered New Jersey Home Improvement Contractor" outside the ≤40-word bold span (39 words). No `definition` field authored (propagated by post-assembly splice). No "licensed" for NQR anywhere.
+
+**Fairfield historic posture:** stated plainly — Fairfield's HPC (named via "the Township of Fairfield municipal code," no section number) is advisory/educational, focused on the township-owned Van Ness House, issues no Certificate of Appropriateness, and there is no locally designated historic district, so no EPDM reroof requires historic approval. Van Ness House (236 Little Falls Rd) and Fairfield Dutch Reformed Church (Fairfield Rd) cited as Register-listed heritage sites only (no COA gate); Israel Crane House not mentioned (it is in Montclair).
+
+**Permit office:** the Building Department, Township of Fairfield, at 230 Fairfield Road (no Construction Official, no phone).
+
+**Named sources cited in-text:** InterNACHI life-expectancy chart (EPDM 15–25 / TPO 7–20 / modified bitumen 20); HomeGuide membrane-repair guidance (seam separation = dominant failure, membrane shrinkage = secondary); NRCA and ARMA (¼ in/ft slope; ponding >48 hrs = defect); N.J.A.C. 5:23-2.7 (ordinary-maintenance reroof rule + commercial 25% rule); Owens Corning warranty guidance (manufacturer system vs. workmanship warranty); Integrity Home Exteriors documentation guidance; National Park Service (Register listing imposes no private restriction); HomeAdvisor and Modernize ($10,000–$25,000 NJ replacement); Modernize and WeatherShield (small patch $300–$500, seam re-weld $200–$400). All hard numbers named-sourced; no unsourced figure published.
+
+**Differentiation:** foregrounds the Fairfield-distinct anchors — the Route 46 / I-80 commercial-industrial membrane corridor (commercial as CO-LEAD), the Passaic-floodplain drainage load (qualitative), and the no-COA advisory HPC — so the page does not mirror the upland Caldwell/North Caldwell/Essex Fells siblings or Roseland's western-edge-only floodplain + Eisenhower-Pkwy office belt.

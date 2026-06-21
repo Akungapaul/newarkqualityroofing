@@ -1,0 +1,392 @@
+{
+  "confirmedCount": 9,
+  "refutedCount": 5,
+  "lowCount": 20,
+  "failedCohorts": [],
+  "confirmed": [
+    {
+      "combo": "storm-damage-roof-repair",
+      "field": "faqs[3].answer",
+      "severity": "high",
+      "category": "fabrication",
+      "issue": "Invented NJ statutory claim deadline. The answer asserts a 'two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.' NJ has no such statutory roofing/named-storm claim deadline. The insurance fact pack states plainly: 'NJ proof-of-loss deadline NOT tied to a NJ source. The common 60-day proof-of-loss window is a POLICY term (United Policyholders / NAIC model), not a confirmed NJ statute. Frame as ... per your policy, not a NJ legal deadline.' This is unique to Essex Fells — every committed sibling (Bloomfield, West Orange, Montclair) uses the correct framing.",
+      "evidence": "\"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.\"",
+      "suggestedFix": "Replace with the committed-gold/pack-correct framing: BEFORE \"...with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.\" AFTER \"Most New Jersey homeowner policies require prompt notice of damage and a sworn proof of loss within a policy-set window — commonly about 60 days — set by the policy contract rather than by statute, per United Policyholders and the NAIC.\"",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in faqs[3].answer: \"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.\" This is a fabrication on two counts. (1) NAMED-SOURCE VIOLATION: the insurance fact pack (facts-replacement-reroofing-insurance.md, Gaps #3, lines 455-457) states explicitly \"NJ proof-of-loss deadline NOT tied to a NJ source. The common 60-day proof-of-loss window is a POLICY term (United Policyholders / NAIC model), not a confirmed NJ statute. Frame as ...per your policy, not a NJ legal deadline.\" There is NO \"two-year statutory window for hurricane and named-storm losses\" anywhere in the pack; the only \"two-year\" figure the pack mentions (Gaps #2) is the recoverable-depreciation completion window, which it also says is \"NOT a NJ figure\" and is policy/insurer-specific. NJ DOBI's actual role per the pack is the hurricane-DEDUCTIBLE notice rule (N.J.A.C. 11:2-42), not any claim-filing deadline — so both the \"two-year statutory\" claim and the \"per the NJ Department of Banking and Insurance\" attribution are invented. (2) CROSS-COMBO INCONSISTENCY: every committed sibling — Bloomfield, West Orange, Montclair, Belleville, Nutley — answers this identical FAQ with the pack-correct framing (\"a proof of loss within a policy-set window — commonly about 60 days — set by the policy contract rather than by statute, per United Policyholders and the NAIC\"). Essex Fells is the lone outlier. The Essex Fells fact bank (CITY-FACTS-caldwells-roseland.md GLOBAL CORRECTIONS) contains nothing that overrides this — no two-year/named-storm/DOBI deadline reference exists. Not a third-party-licensed cite, not a COA/geography matter, not entity-grounding. Real, fixable fabrication. (The same fabricated sentence also appears in process[1] of this file; the finding scopes faqs[3].answer, so the finalFix targets that field, but the orchestrator should sweep process[1] too.)",
+      "finalFix": "In faqs[3].answer — BEFORE: \"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance. Prompt documentation supports the claim. A Newark Quality Roofing storm response documents the damage with timestamped photographs and a scope of work the same way on the borough's owner-occupied custom single-family homes.\" → AFTER: \"Most New Jersey homeowner policies require prompt notice of damage and a proof of loss within a policy-set window — commonly about 60 days — set by the policy contract rather than by statute, per United Policyholders and the NAIC. Prompt documentation supports the claim. A Newark Quality Roofing storm response documents the damage with timestamped photographs and a scope of work the same way on the borough's owner-occupied custom single-family homes.\" (Mirrors the committed West Orange/Montclair gold framing; preserves the Essex Fells anchor sentence unchanged.)",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "storm-damage-roof-repair",
+      "field": "process[1]",
+      "severity": "high",
+      "category": "fabrication",
+      "issue": "Same fabricated NJ statutory deadline recurs in the process step: 'a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.' Not pack-supported (insurance pack lines 455-457) and contradicts every committed sibling.",
+      "evidence": "\"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance. The documentation package supports the homeowner's claim...\"",
+      "suggestedFix": "BEFORE \"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.\" AFTER \"Most New Jersey homeowner policies require prompt notice of damage and a sworn proof of loss within a policy-set window — commonly about 60 days — set by the policy contract rather than by statute, per United Policyholders and the NAIC.\"",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in process[1] (line 24) and recurs in faqs[3] (line 46): \"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.\" This is a genuine fabrication, not a false positive: (1) The insurance fact pack (facts-replacement-reroofing-insurance.md) at line 224 establishes the only supported framing — \"prompt notice of loss and commonly require a sworn proof of loss... within a set period after the insurer requests it — frequently 60 days,\" attributed to United Policyholders and NAIC, tier SECONDARY-named, explicitly \"a common POLICY term, not a confirmed NJ statute.\" (2) Gap items #2 and #3 (lines 450-457) directly flag the trap: gap #2 says the \"2-year from date of loss\" figure is a generally-circulating recoverable-depreciation completion window that is \"policy/insurer-specific and contractual,\" NOT tied to any named NJ authority — so attributing a \"two-year statutory window\" to NJ DOBI both invents a statute that does not exist AND misapplies the 2-year depreciation concept to claim-filing notice; gap #3 says even the 60-day proof-of-loss window is a policy term, \"not a confirmed NJ statute,\" and must NOT be framed as \"a NJ legal deadline.\" The combo's \"two-year statutory window... per the NJ DOBI\" violates both. (3) Cross-combo consistency: a grep across all combo-content shows this \"two-year statutory\" phrasing appears ONLY in this Essex Fells file (twice), while every committed sibling — Nutley, Belleville, Bloomfield, Maplewood — uses the corrected pack-accurate form (\"proof of loss within a policy-set window — commonly about 60 days — set by the policy contract rather than by statute, per United Policyholders and the NAIC\"). The Essex Fells fact bank carries no insurance-deadline fact that rehabilitates the text. This is a high-severity sourced-fact fabrication; the fix relocates to the pack-supported United Policyholders/NAIC framing matching the committed sibling voice (Nutley/Maplewood exact form), preserving the prompt-notice fact rather than deleting.",
+      "finalFix": "In BOTH occurrences (process[1] line 24 and faqs[3] line 46) replace the sentence: BEFORE \"Most New Jersey homeowner policies require prompt notice of damage, with a separate two-year statutory window for hurricane and named-storm losses, per the NJ Department of Banking and Insurance.\" AFTER \"Most New Jersey homeowner policies require prompt notice of damage and a proof of loss within a policy-set window — commonly about 60 days — set by the policy contract rather than by statute, per United Policyholders and the NAIC.\"",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "emergency-roof-repair",
+      "field": "overview[1] (also process[0], faqs[2])",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "EPA mold-window figure not present in any fact pack. The claim 'the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold' is attributed to the EPA, but no EPA source and no 24–48-hour figure appears in facts-causes-signs.md (which carries only the NRCA 48-hour PONDING threshold and University of Minnesota for mold) or any other pack. A prior reviewer formally CONFIRMED this exact attribution as not-in-packs (batch8/CONFIRMED-FINDINGS.json). NOTE: it is also an established site-wide emergency-combo pattern (batch1 gold exemplar + every committed sibling), so this is a systemic source-grounding gap, not an Essex-Fells-only defect.",
+      "evidence": "\"...within the mold-growth window, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, so every hour of exposure raises the secondary-damage cost.\" (recurs in process[0] and faqs[2])",
+      "suggestedFix": "Either source the 24–48h window to a pack-present authority or de-quantify to the qualitative point the packs support. BEFORE \"because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold\" AFTER \"because trapped moisture drives mold growth and interior decay the longer water sits, so every hour of exposure raises the secondary-damage cost.\" (Apply the same swap site-wide if the orchestrator chooses to keep/re-source it across siblings.)",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in three places in src/data/combo-content/essex-fells/emergency-roof-repair.ts: overview[1] (line 12), process[0] (line 23), and faqs[2] (line 41). It is a real, fixable source-attribution defect. The claim \"the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold\" pins a specific figure to the EPA, but NO EPA mold statement and NO 24–48-hour mold window exists in any fact pack. The single 24–48 reference in the packs is facts-causes-signs.md lines 181-183, where it is the NRCA/ARMA PONDING window (\"water remaining on the roof > 48 hours after the rain stops; some guidance cites 24–48 hr; 48 hr is the primary threshold\") — about ponding, not mold, and not the EPA. Mold in the packs is attributed only to University of Minnesota and GAF (lines 199, 202), with no 24-48h figure. Across all research packs, EPA appears only for cool-roof/reflectance (ENERGY STAR, solar reflectance, peak-cooling demand) and, in the caldwells-roseland fact bank, as \"EPA Priority Wetland\" / \"EPA urban-heat-island\" — never mold. The claim therefore conflates the NRCA ponding window with a mold-growth window AND fabricates an EPA attribution. This was ALSO formally CONFIRMED by a prior reviewer in batch8/CONFIRMED-FINDINGS.json (lines 94-96): \"no EPA source — and no '24–48 hours / wet materials grow no mold' figure — appears in any of the fact packs... zero EPA citation anywhere in the relevant packs,\" with a prescribed de-quantification fix. The pattern recurs across the batch1 Newark gold exemplar and many committed siblings (batch8 maplewood, batch9 west-orange/montclair/glen-ridge/cedar-grove, batch10 fairfield/essex-fells), confirming the finding's characterization as a systemic source-grounding gap rather than an Essex-Fells-only defect — but a confirmed-CONFIRMED fabrication does not become defensible by repetition; the gold-exemplar carve-out applies to entity-grounded voice/COA/geography, not to an invented named-source figure. The Essex Fells COA posture (NONE) is handled correctly elsewhere in the file and is unaffected. The fix de-quantifies to the qualitative point the packs support, removing the EPA name while preserving the \"every hour raises secondary-damage cost\" logic.",
+      "finalFix": "In src/data/combo-content/essex-fells/emergency-roof-repair.ts, overview[1] (line 12): BEFORE \"within the mold-growth window, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, so every hour of exposure raises the secondary-damage cost.\" AFTER \"promptly, because trapped moisture drives mold growth and interior decay the longer water sits, so every hour of exposure raises the secondary-damage cost.\" Apply the same swap to the recurrences: in process[0] (line 23) replace \"because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, and confirms\" with \"because trapped moisture drives mold growth and interior decay the longer water sits, and confirms\"; in faqs[2] (line 41) replace \"to stop water entry, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold.\" with \"to stop water entry, because trapped moisture drives mold growth and interior decay the longer water sits.\" (Orchestrator should apply the same de-attribution swap site-wide across the batch1 Newark gold exemplar and committed/in-flight siblings carrying this identical EPA mold-window phrasing.)",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "wood-shake-roofing",
+      "field": "overview[0]",
+      "severity": "high",
+      "category": "fabrication",
+      "issue": "Carries the banned 'architect-collaborated' Essex Fells narrative. The brief (§D) explicitly lists 'the architect-collaboration / architectural-review-submittal culture claim' as a fabrication to DELETE/CORRECT — there is no source for architect-collaborated custom-home stock in Essex Fells; the verified texture is 'custom single-family homes on large Bowditch-plan lots.'",
+      "evidence": "'...maintains cedar shake and shingle roofing on the custom single-family homes of Essex Fells, Essex County's smallest borough, on the architect-collaborated stock along Fells Road, Forest Way, Oak Lane, and Devon Road.'",
+      "suggestedFix": "Replace 'on the architect-collaborated stock along Fells Road, Forest Way, Oak Lane, and Devon Road.' → 'on the custom single-family homes along Fells Road, Forest Way, Oak Lane, and Devon Road.' (drop 'architect-collaborated').",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in overview[0]: \"...on the architect-collaborated stock along Fells Road, Forest Way, Oak Lane, and Devon Road.\" Brief §D (lines 188-200 of _ESSEX-FELLS-BRIEF.md) explicitly lists \"the architect-collaboration / architectural-review-submittal culture claim\" among the fabrications to DELETE/CORRECT, and instructs to \"drop the fabricated estate/architect-review/voluntary-standard wrapper.\" The caldwells-roseland fact bank (line 568) documents Ernest W. Bowditch only as the LANDSCAPE ARCHITECT of the community PLAN LAYOUT (~1889–1902) — there is no source for architect-collaborated individual custom-home stock. The verified Essex Fells texture per §D is \"custom single-family homes on large lots.\" The named streets (Fells Road, Forest Way, Oak Lane, Devon Road) ARE on the brief's verified-roads list (lines 135, 247), so they stay; only the fabricated \"architect-collaborated stock\" qualifier must go. The committed-sibling framing in this same file's whyChooseUs[1] already uses the correct verified texture (\"custom single-family homes on the borough's large Bowditch-plan lots\"). The reviewer's suggested fix is directionally right, but \"custom single-family homes\" already appears in the bolded span opening the sentence (\"maintains cedar shake and shingle roofing on the custom single-family homes of Essex Fells\"), so repeating it creates redundancy; the verified large-lot texture is the cleaner de-fab. This is not a third-party-licensed misuse and does not import an Orange/sibling COA or anchor — it is a genuine, sourced-fact fabrication.",
+      "finalFix": "In overview[0], replace \"on the architect-collaborated stock along Fells Road, Forest Way, Oak Lane, and Devon Road.\" → \"on the borough's large Bowditch-plan lots along Fells Road, Forest Way, Oak Lane, and Devon Road.\" (drops the fabricated \"architect-collaborated stock\"; keeps the verified streets and the sourced Bowditch-plan large-lot texture, mirroring the same file's whyChooseUs framing and avoiding redundancy with \"custom single-family homes\" already in the bold span).",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "tile-roof-installation-repair",
+      "field": "overview[2]",
+      "severity": "high",
+      "category": "fabrication",
+      "issue": "Carries the banned 'architect-collaborated' Essex Fells narrative (same defect as wood-shake). The brief (§D) bans the architect-collaboration claim; verified framing is 'turn-of-the-century to mid-century custom homes on large Bowditch-plan lots.'",
+      "evidence": "'A Newark Quality Roofing installation matches the profile and color of the existing tile on Essex Fells's architect-collaborated turn-of-the-century and mid-century custom homes.'",
+      "suggestedFix": "Change '...on Essex Fells's architect-collaborated turn-of-the-century and mid-century custom homes.' → '...on Essex Fells's turn-of-the-century and mid-century custom single-family homes.' (drop 'architect-collaborated').",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in overview[2] (line 12 of src/data/combo-content/essex-fells/tile-roof-installation-repair.ts): \"A Newark Quality Roofing installation matches the profile and color of the existing tile on Essex Fells's architect-collaborated turn-of-the-century and mid-century custom homes.\" This is a genuine fabrication. The Essex Fells tile brief (.planning/content-system/combo-batch10-caldwells-roseland/essex-fells/tile-roof-installation-repair.md, line 3) explicitly lists among the de-fab literals cleared: \"the 'architect coordination / architectural review' culture claim\" and \"the fabricated Mediterranean/Spanish-Colonial-estate narrative.\" The \"architect-collaborated\" descriptor is exactly this banned narrative surviving in the lead-developing body. No source attributes architect collaboration to Essex Fells homes: the fact bank (CITY-FACTS-caldwells-roseland.md line 568) names only landscape architect Ernest W. Bowditch, who designed the COMMUNITY street/landscape PLAN (~1889-1902), not the individual houses. The verified framing (AUTHOR/BRIEFS-WORKFLOW.js) is \"custom homes on large lots along winding Bowditch-plan roads (the roughly 806 homes were largely built from the turn of the 20th century to mid-century)\" with lot size kept qualitative and no architect attribution. The \"architect-designed\" house framing is reserved for the Maplewood/South Orange siblings (a different city with a sourced architectural survey), and the batch10 avoid-list scopes it there. The same fabricated phrasing recurs in the essex-fells wood-shake-roofing.ts combo (the finding's cross-reference), so the orchestrator should sweep both. The fix preserves the verified turn-of-the-century/mid-century framing and merely drops the unsourced \"architect-collaborated\" modifier; I add \"single-family\" to align with this same file's directAnswer and whyChooseUs (\"custom single-family homes\").",
+      "finalFix": "In overview[2], change: \"A Newark Quality Roofing installation matches the profile and color of the existing tile on Essex Fells's architect-collaborated turn-of-the-century and mid-century custom homes.\" → \"A Newark Quality Roofing installation matches the profile and color of the existing tile on Essex Fells's turn-of-the-century and mid-century custom single-family homes.\"",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "asphalt-shingle-roofing",
+      "field": "faqs[4].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Mis-pairs the repair-vs-replace rules. Per materials-economics §8 the 50% cost rule = WeatherShield/Home Depot, the 30% cost rule = Kellow/Modernize/Josten, and the 25%-area rule = RapidRestore/MyQuoteIQ. The combo pins BOTH the '25–30% area rule' and the '50% cost rule' to 'Kellow and Modernize' — the 50% rule is wrongly attributed (Kellow/Modernize back the 30% rule, not the 50% rule).",
+      "evidence": "'The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow and Modernize, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.'",
+      "suggestedFix": "Re-pin per §8: '...replace when damage exceeds roughly 25% of the roof area, a contractor-consensus threshold attributed to RapidRestore, or when one repair approaches 50% of replacement cost, the widely cited 50% rule attributed to WeatherShield and Home Depot...' (keep the 5-to-10× localized-repair claim as Home Depot/Kelly Roofing — that pairing is correct).",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim at faqs[4].answer: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow and Modernize, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\" This mis-attributes the 50% cost rule. Per facts-materials-economics.md §8 (the cross-material decision-rules table, lines 305–312): the 50% rule = WeatherShield / Home Depot / industry; the 30% rule = Kellow / Modernize / Josten; the 25% rule (damage > 25% of roof area) = RapidRestore / MyQuoteIQ. Kellow and Modernize back the 30% COST rule, not the 50% cost rule — so pinning the 50% rule to \"Kellow and Modernize\" is a genuine source-attribution error. Cross-combo consistency confirms it: the committed gold sibling Maplewood (batch 8) attributes the same FAQ correctly — \"The 25 to 30% area rule traces to RapidRestore and Kellow Construction, the 50% cost rule to WeatherShield, and the 30% cost rule to Kellow Construction and Modernize.\" The Essex Fells combo collapsed those distinct attributions into a single wrong pairing. The 5-to-10× localized-repair claim attributed to Home Depot and Kelly Roofing is correct (§8 line 312) and should be preserved. This is a real, fixable named-source violation, not a gold-voice match or a third-party-credential false positive.",
+      "finalFix": "In src/data/combo-content/essex-fells/asphalt-shingle-roofing.ts, faqs[4].answer, replace: \"The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow and Modernize, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\" → \"The 25–30% area rule traces to RapidRestore and Kellow, the 50% cost rule to WeatherShield, and the 30% cost rule to Kellow and Modernize, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.\" (Re-pins each threshold to its §8 source and mirrors the committed Maplewood sibling; 5-to-10× Home Depot/Kelly Roofing pairing left intact.)",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "silicone-elastomeric-roof-coating",
+      "field": "pricing.range / pricing.note / faqs[5].answer",
+      "severity": "high",
+      "category": "fabrication",
+      "issue": "The $3–$7/sq ft coating price and its 'Typical NJ roof-coating range per HomeAdvisor' attribution are fabricated. The energy-solar fact pack carries NO HomeAdvisor coating figure and explicitly flags '$/sq ft coating cost' as UNVERIFIED (§0.9 + Gaps: 'Recoat-vs-replacement % cost and $/sq ft coating cost — secondary blogs/aggregators only; use \"a fraction of tear-off cost\" qualitatively'). The only $/sq ft figures in the pack are solar-shingle vs panel install ($21–$25 vs $7–$10 per SolarTech Online) — not a coating range, and not HomeAdvisor.",
+      "evidence": "pricing.range: '$3–$7/sq ft'; pricing.note: 'Typical NJ roof-coating range per HomeAdvisor...'; faq: 'with a typical NJ roof-coating range from $3 to $7 per square foot per HomeAdvisor.'",
+      "suggestedFix": "Remove the invented $3–$7/sq ft HomeAdvisor figure. Either (a) de-quantify per the pack: range: 'Varies by scope', note: 'Coating restores a low-slope roof at a fraction of tear-off and replacement cost, per the RCMA; final cost depends on roof size, chemistry, dry-film thickness, and surface prep. Newark Quality Roofing provides a free written estimate.', and in the FAQ replace '$3 to $7 per square foot per HomeAdvisor' with 'a fraction of tear-off and replacement cost, per the RCMA'; OR (b) align both coating combos to the brief §E repair default '$400–$1,000' with the HomeAdvisor leak-repair note (NOT a coating-specific HomeAdvisor claim).",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present exactly as cited (pricing.range '$3–$7/sq ft'; pricing.note 'Typical NJ roof-coating range per HomeAdvisor...'; FAQ 'with a typical NJ roof-coating range from $3 to $7 per square foot per HomeAdvisor'). It violates the energy-solar fact pack on three counts: (1) Item 9 (\"§0.9\"): \"No hard cost figure has a primary source... Never present a coating/solar cost as a fixed NQR price.\" (2) Gaps section: \"Recoat-vs-replacement % cost... and $/sq ft coating cost — secondary blogs/aggregators only; use 'a fraction of tear-off cost' qualitatively or attribute.\" (3) Part D \"Restoration economics\" sources only \"a fraction of tear-off/replacement cost\" to the RCMA — there is NO HomeAdvisor coating $/sq ft figure anywhere in the pack. The only $/sq ft figures in the pack (line 239) are solar-shingle vs panel install ($21–$25 vs $7–$10 per SolarTech Online), not a coating range and not HomeAdvisor. So both the number ($3–$7/sq ft as a coating price) and its attribution (HomeAdvisor) are fabricated. Cross-combo consistency confirms the defect and the fix: the caldwell, fairfield, and roseland sibling coating combos all de-quantify to \"a fraction of tear-off and replacement cost, per the RCMA\" with \"price varies by scope\" and carry NO coating $/sq ft figure; north-caldwell cites HomeAdvisor only for a full-replacement contrast ($10k–$25k), never a coating $/sq ft. Essex Fells is the lone outlier. This is not a third-party-licensed-cite issue and does not touch the COA posture (Essex Fells = NONE, correctly stated). Finding is a real, fixable fabrication; fix relocates to the RCMA qualitative framing already used in this file's own FAQ lead, matching the sibling gold.",
+      "finalFix": "Apply three edits aligning to the caldwell/fairfield/roseland sibling pattern (de-quantify, RCMA-attributed). (1) pricing.range: BEFORE: '$3–$7/sq ft' → AFTER: 'Varies by scope'. (2) pricing.note: BEFORE: 'Typical NJ roof-coating range per HomeAdvisor; final cost depends on roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs. Newark Quality Roofing provides a free written estimate.' → AFTER: 'A maintained coating restores a sound low-slope roof at a fraction of tear-off and replacement cost, per the RCMA; final cost depends on roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs. Newark Quality Roofing provides a free written estimate.' (3) faqs[5].answer: BEFORE: 'A silicone elastomeric roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Coating cost tracks roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs, with a typical NJ roof-coating range from $3 to $7 per square foot per HomeAdvisor. Newark Quality Roofing provides a free written estimate.' → AFTER: 'A silicone elastomeric roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Coating cost tracks roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs, so the price varies by scope. Newark Quality Roofing provides a free written estimate.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "silicone-roof-coating",
+      "field": "pricing.note (and faqs[6].answer — the cost FAQ)",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The $400–$1,000 range is mis-attributed as a 'Typical NJ low-slope coating range per HomeAdvisor.' HomeAdvisor's $400–$1,000 in the pack/exemplars is the NJ leak-REPAIR range, not a coating range — the pack has no HomeAdvisor coating figure (and flags coating $/cost as UNVERIFIED). The number can stay as the repair-tier default per brief §E, but the attribution must not present HomeAdvisor as the source of a coating-specific range, and the cost FAQ asserting 'most projects fall in the $400–$1,000 range' for coatings inherits the same mis-pin.",
+      "evidence": "pricing.note: 'Typical NJ low-slope coating range per HomeAdvisor; final cost depends on roof size, dry-film thickness, and surface prep.'; faq: 'most projects fall in the $400–$1,000 range for the smaller low-slope decks common in Essex Fells.'",
+      "suggestedFix": "Re-frame the attribution off HomeAdvisor-as-coating-source. note: 'Coating restores a sound low-slope roof at a fraction of tear-off and replacement cost, per the RCMA; final cost depends on roof size, dry-film thickness, and surface prep. Newark Quality Roofing provides a free written estimate.' In the cost FAQ, replace 'most projects fall in the $400–$1,000 range' with the RCMA fraction-of-tear-off framing (or keep a range only if both coating combos use the same one and it is not attributed to HomeAdvisor).",
+      "verdict": "confirmed",
+      "reasoning": "CONFIRMED. The offending text is present verbatim: pricing.note (line 63) reads \"Typical NJ low-slope coating range per HomeAdvisor; final cost depends on roof size, dry-film thickness, and surface prep. Newark Quality Roofing provides a free written estimate.\" and the cost FAQ faqs[6].answer (line 56) reads \"...most projects fall in the $400–$1,000 range for the smaller low-slope decks common in Essex Fells.\"\n\nThis is a real named-source violation, double-confirmed against the packs:\n1) materials-economics line 277: \"NJ roof leak repair $400–$1,000 (≈10–15% over national) | HomeAdvisor (NJ page) | [SECONDARY]\". HomeAdvisor's $400–$1,000 is the NJ leak-REPAIR range, not a coating range.\n2) The ONLY actual silicone/elastomeric coating cost figure in any pack is materials-economics line 167: \"Elastomeric/silicone coating (life-extension) $1,500–$7,000 | CPS Construction\" — a different number AND a different source. A grep across all research packs for any HomeAdvisor-coating attribution returns nothing; HomeAdvisor has no coating-specific figure.\n3) The batch-10 brief (BRIEFS-WORKFLOW.js line 112) sets the pricing defaults as \"$400-$1,000 repair / $10,000-$25,000 replacement\" — i.e. $400–$1,000 is the REPAIR default, and the brief forbids changing the type-label of sourced figures (\"PRESERVE every cited HomeAdvisor/Modernize figure... not changing sourced numbers\"). The author re-labeled the repair number as a HomeAdvisor \"coating range.\"\n\nCross-combo consistency confirms the outlier: NO sibling caldwells-roseland coating combo attributes $400–$1,000 to HomeAdvisor as a coating range. roseland and fairfield use figure-free RCMA fraction-of-tear-off notes; caldwell and north-caldwell carry the correctly-pinned \"$10,000–$25,000 NJ roof-REPLACEMENT range per HomeAdvisor and Modernize\" (matching materials-economics line 295). The essex-fells combo's body already establishes the correct RCMA fraction-of-tear-off framing (overview[1], \"coat or replace\" FAQ, and the cost FAQ's own second sentence), so the fix is a clean re-attribution, not content loss. Not an entity-grounding/COA/geography issue, and not a legitimate third-party \"licensed\" cite. The number may stay only if de-attributed from HomeAdvisor-as-coating-source; the cleaner fix (matching the figure-free siblings) drops the mis-pinned range entirely in favor of the RCMA framing already present.",
+      "finalFix": "EDIT 1 — pricing.note (line 63):\nBEFORE: note: 'Typical NJ low-slope coating range per HomeAdvisor; final cost depends on roof size, dry-film thickness, and surface prep. Newark Quality Roofing provides a free written estimate.',\nAFTER: note: 'Coating restores a sound low-slope roof at a fraction of tear-off and replacement cost, per the RCMA; final cost depends on roof size, dry-film thickness, and surface prep. Newark Quality Roofing provides a free written estimate.',\n\nEDIT 2 — faqs[6].answer (the cost FAQ, line 56):\nBEFORE: 'Silicone roof coating cost depends on roof size, the dry-film thickness specified, and the surface preparation the existing roof requires, and most projects fall in the $400–$1,000 range for the smaller low-slope decks common in Essex Fells. Recoating restores a roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'\nAFTER: 'Silicone roof coating cost depends on roof size, the dry-film thickness specified, and the surface preparation the existing roof requires, which on the smaller low-slope decks common in Essex Fells keeps a recoat well below a full tear-off. Recoating restores a roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'\n\nNote: pricing.range '$400–$1,000' (line 62) should also be reconciled — drop it to figure-free 'Varies by scope' to match the de-attribution and the roseland/fairfield siblings, OR keep a range only if unattributed; do not leave '$400–$1,000' standing as a HomeAdvisor-sourced coating figure.",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "essex-fells:silicone-elastomeric-roof-coating",
+      "field": "pricing.range",
+      "severity": "med",
+      "category": "consistency",
+      "issue": "Cross-combo inconsistency within the cohort: the same low-slope coating service is priced two incompatible ways — silicone-roof-coating uses '$400–$1,000' (a flat range) while silicone-elastomeric uses '$3–$7/sq ft'. A user comparing the two sibling coating pages sees a self-contradiction, and the brief requires the same fact to carry the same value/attribution across combos.",
+      "evidence": "silicone-roof-coating pricing.range '$400–$1,000' vs silicone-elastomeric-roof-coating pricing.range '$3–$7/sq ft'",
+      "suggestedFix": "Pick ONE pricing treatment for both coating combos. Cleanest given the pack: set both to range: 'Varies by scope' with the RCMA fraction-of-tear-off note (no invented number, no HomeAdvisor coating attribution). This resolves findings 1, 2, and 3 together.",
+      "verdict": "confirmed",
+      "reasoning": "The contradiction is real and the offending text is present. essex-fells/silicone-elastomeric-roof-coating.ts has pricing.range '$3–$7/sq ft' (note \"per HomeAdvisor\") while the sibling essex-fells/silicone-roof-coating.ts has pricing.range '$400–$1,000' (also \"per HomeAdvisor\") — same low-slope coating service, two incompatible treatments (per-sq-ft vs flat range) on adjacent city pages, violating the brief's same-fact-same-value rule.\n\nCrucially, BOTH numbers are unsourced fabrications against the governing fact pack. facts-energy-solar.md Part D is the pack for these two combos and at lines 368/370 mandates: restoration economics = \"a fraction of tear-off cost qualitatively or attribute\"; do NOT use a single coating cost number from blogs/aggregators. There is NO HomeAdvisor coating figure anywhere in the packs: the only attributed coating cost is CPS Construction ($1,500–$7,000 whole-job, or $1.20–$2.70/sq ft repaint sections). '$3–$7/sq ft' in the packs is 3-tab asphalt-shingle INSTALL (HomeGuide/Modernize), and '$400–$1,000' is NJ leak repair — neither is coating, and neither is HomeAdvisor coating. So the HomeAdvisor attribution on both pages is false.\n\nThe committed gold confirms the qualitative treatment: the parent energy-solar service (service-content/energy-solar.ts:881) uses \"restores a low-slope roof at a fraction of tear-off and replacement cost... Coating cost tracks roof size, chemistry, dry-film thickness\" with NO number, and the committed siblings roseland (both coating combos) and fairfield (both) use range 'Varies by scope'. The caldwells-roseland batch is internally mixed (caldwell/north-caldwell carry $10,000–$25,000 / Varies; roseland+fairfield are clean Varies) so there is no locked numeric gold to defend — the clean, pack-compliant treatment is qualitative.\n\nRefuting the finding would require defending an unsourced HomeAdvisor coating number that the pack explicitly bans; it cannot stand. Confirmed.",
+      "finalFix": "In src/data/combo-content/essex-fells/silicone-elastomeric-roof-coating.ts, replace the pricing block:\n\nBEFORE:\n  pricing: {\n    range: '$3–$7/sq ft',\n    note: 'Typical NJ roof-coating range per HomeAdvisor; final cost depends on roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs. Newark Quality Roofing provides a free written estimate.',\n  },\n\nAFTER:\n  pricing: {\n    range: 'Varies by scope',\n    note: 'A silicone elastomeric roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA; final cost depends on roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs. Newark Quality Roofing provides a free written estimate.',\n  },\n\nAnd fix the matching unsourced figure in the body FAQ \"How much does silicone elastomeric roof coating cost in Essex Fells, NJ?\" answer:\n\nBEFORE:\n        'A silicone elastomeric roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Coating cost tracks roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs, with a typical NJ roof-coating range from $3 to $7 per square foot per HomeAdvisor. Newark Quality Roofing provides a free written estimate.',\n\nAFTER:\n        'A silicone elastomeric roof coating restores a sound low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Coating cost tracks roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs, and Newark Quality Roofing sets the scope and price in a free written estimate.'\n\n(Note: the sibling silicone-roof-coating.ts also carries the same unsourced HomeAdvisor '$400–$1,000' coating figure in both its pricing.range and its cost FAQ — that page should get the same qualitative treatment in a paired fix so the two adjacent pages no longer contradict and neither cites a fabricated HomeAdvisor coating number.)",
+      "city": "essex-fells"
+    }
+  ],
+  "low": [
+    {
+      "combo": "hail-damage-roof-repair",
+      "field": "process[0], process[1], overview[2], challenges (HAAG Engineering attribution)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "HAAG Engineering brand/Test-Square method is cited as a named source repeatedly, but HAAG appears in NONE of the named fact packs (facts-causes-signs §2.3 cites AMS, IBHS, NOAA for hail; not HAAG). HOWEVER, HAAG Engineering ships as established committed gold in EVERY sibling's hail combo (Newark, Bloomfield, Montclair, Glen Ridge, all 15+ cities) and HAAG is a real, recognized forensic firm whose Test Square is the genuine industry-standard method — so this matches committed gold and should NOT be 'fixed' in Essex Fells alone. Noted only for the record / possible site-wide pack-grounding follow-up.",
+      "evidence": "\"Newark Quality Roofing assesses hail damage at close range using the HAAG Engineering Test Square method, a 10-by-10-foot square ... per HAAG Engineering, the standard hail-inspection procedure...\"",
+      "suggestedFix": "No Essex-Fells-specific change (matches committed gold). If the orchestrator wants pack-grounding site-wide, add HAAG (or its Test Square) to a hail fact pack with a named source, or re-pin the method to IBHS/AMS which the packs already carry.",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "wind-damage-roof-repair",
+      "field": "faqs[2].answer (\"Does my insurance cover wind damage to my roof in New Jersey?\")",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The 'named-storm or hurricane deductible set as a percentage of the dwelling limit, generally up to 5%' is attributed to 'the NJ Department of Banking and Insurance.' The insurance pack (line 196) attributes the 1%–5% percentage-deductible figure to Triple-I and NAIC, not DOBI (DOBI's role is the notice rule N.J.A.C. 11:2-42 and the NJIUA 2%/3%/4% program). NOTE: this exact 'up to 5%, per the NJ Department of Banking and Insurance' phrasing matches committed gold (Montclair and West Orange wind combos), so it is low priority and should track the site-wide decision rather than be fixed in Essex Fells alone; the conditional 'Some policies add...' framing is correct per the pack's caution.",
+      "evidence": "\"Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling limit, generally up to 5%, per the NJ Department of Banking and Insurance...\"",
+      "suggestedFix": "If aligning to the pack (and to Bloomfield's variant), re-attribute the figure: BEFORE \"generally up to 5%, per the NJ Department of Banking and Insurance\" AFTER \"commonly 1%–5% of the dwelling Coverage A limit, per Triple-I and NAIC.\" Otherwise leave as-is to match the dominant committed-gold pattern.",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "residential-roof-installation",
+      "field": "faqs[5].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "States 'labor accounts for roughly 60–70% of an asphalt install.' The packs support 'labor ≈ 60% of total repair cost' (Integrity Home Exteriors, facts-cost-stats) and 'labor ~60–70% of cost' for WOOD SHAKES (Modernize, materials-economics §5) — not a generic asphalt INSTALL. The 60–70% figure is borrowed from the wood-shake row and the repair figure, then re-pinned to asphalt installs.",
+      "evidence": "'NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors.'",
+      "suggestedFix": "Soften to the supported figure: '...because labor is roughly 60% of a roofing job, per Integrity Home Exteriors, and NJ code is stricter.' (drop the 70% ceiling and the 'asphalt install' specificity not in the packs).",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "modified-bitumen-roofing",
+      "field": "faqs[3].answer",
+      "severity": "low",
+      "category": "answer-length",
+      "issue": "The first sentence of the 'Do you need a permit for modified bitumen roofing in Essex Fells?' FAQ answer is a single ~53-word compound sentence, exceeding the R2 ≤40-word definitive-first-sentence rule. The other seven cohort files (TPO, EPDM, built-up, commercial-metal, PVC, green-roof, spray-foam) all split this same permit answer so the first sentence is ≤40 words — modified-bitumen is the cohort outlier. All facts are correct (5:23-2.7 ordinary-maintenance, 25%/12-month rule, NJ UCC, correct permit office); only the sentence length and intra-cohort consistency are the issue.",
+      "evidence": "\"A reroof of the covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no permit, but the borough's municipal, institutional, and attached buildings cross into permit territory once roof work exceeds 25% of the roof area in 12 months, per the NJ Uniform Construction Code.\" (53 words, one sentence)",
+      "suggestedFix": "Split into two sentences so the first is definitive and ≤40 words. Before: \"A reroof of the covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no permit, but the borough's municipal, institutional, and attached buildings cross into permit territory once roof work exceeds 25% of the roof area in 12 months, per the NJ Uniform Construction Code.\" After: \"A reroof of the covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no permit, per the NJ Uniform Construction Code. The borough's municipal, institutional, and attached buildings cross into permit territory once roof work exceeds 25% of the total roof area in a 12-month period.\"",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "commercial-roof-installation",
+      "field": "process[1] and faqs[1].answer; commercial-roof-repair process[2] and faqs[3].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The N.J.A.C. 5:23-6.4 recover-vs-tear-off rule is cited in 4 of 5 instances across the cohort with the statutory material list DROPPED, while commercial-roof-replacement (process[2]) carries the full list. The brief's source-attribution rule explicitly prefers the full statutory list (wood shake, slate, clay, cement, or asbestos-cement tile) and warns against abbreviating it; the cohort is internally inconsistent. (Note: an abbreviated form does appear in committed gold siblings incl. same-batch Fairfield, so this is not a gate-failure — but it is a defensible consistency/precision fix per the brief.)",
+      "evidence": "commercial-roof-installation process[1]: 'the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4.' (same abbreviated form in cri faqs[1], commercial-roof-repair process[2] and faqs[3]) — vs commercial-roof-replacement process[2]: '...when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4'",
+      "suggestedFix": "Make the cohort consistent on the preferred full-list form. Before: 'the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4.' After: 'the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "roof-thermal-imaging-inspections",
+      "field": "challenges[1]",
+      "severity": "low",
+      "category": "answer-length",
+      "issue": "The first sentence of challenges[1] runs ~53 words, over the ≤40-word definitive-answer guidance (R2). It is the SECOND challenges string (the gate-critical first string, challenges[0], is 37 words and clean), so this is not a hard gate failure, but the lead sentence packs the entire ASTM C1153 optimal-conditions checklist into one clause.",
+      "evidence": "'The ASTM C1153 optimal conditions call for no appreciable precipitation in roughly the prior 48 hours, a dry surface clear of standing water, snow, and debris, wind under about 15 mph, and an adequate temperature differential, on a clear sunny day followed by a clear night, per ASTM C1153 via IIBEC and Fluke.'",
+      "suggestedFix": "Split into a definitive lead + supporting sentence. Before: one ~53-word sentence. After: 'A roof thermal imaging inspection needs the ASTM C1153 optimal window — a dry surface, wind under about 15 mph, and an adequate temperature differential, per ASTM C1153 via IIBEC and Fluke. ASTM C1153 also calls for no appreciable precipitation in roughly the prior 48 hours, on a clear sunny day followed by a clear night.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "gutter-guard-installation",
+      "field": "overview[3]",
+      "severity": "low",
+      "category": "city-fact",
+      "issue": "The local cleaning-cadence driver is framed as 'near pine trees,' but Essex Fells's documented canopy is oak/maple (Borough of Essex Fells 2018 Master Plan), not pine. The generic Angi/GAF rule (3-4 cleanings with pine trees nearby) is being localized onto an oak/maple borough, creating a subtle local-fact mismatch. (The generic guard-capability sentences that list 'pine needles' as a debris type the guards block are fine — those are sourced This Old House/LeafFilter capability descriptions, not local-fact claims.)",
+      "evidence": "'**The mature canopy** sets the cadence on an Essex Fells lot, because a gutter near pine trees needs 3 to 4 cleanings per year against the standard 2, spring and fall, per Angi and GAF.'",
+      "suggestedFix": "Generalize the local trigger from species to canopy density, matching the gold-combo convention: '…because a gutter on a property surrounded by trees needs 3 to 4 cleanings per year against the standard 2, spring and fall, per Angi and GAF.' (Keep the 3-4 cadence + Angi/GAF source; drop the pine-specific framing for the Essex Fells localization.)",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "gutter-guard-installation",
+      "field": "process[0]",
+      "severity": "low",
+      "category": "city-fact",
+      "issue": "Same pine-vs-oak/maple local-fact mismatch as overview[3]: the Essex Fells cleaning cadence is again attributed to proximity to 'pine trees,' whereas the borough's canopy is oak/maple per the 2018 Master Plan.",
+      "evidence": "'A crew catalogs the leaf, seed, needle, and fine-grit debris the mature canopy drops on the property, because a gutter near pine trees needs 3 to 4 cleanings per year against the standard 2, per Angi and GAF…'",
+      "suggestedFix": "Replace 'a gutter near pine trees needs 3 to 4 cleanings per year' with 'a gutter under heavy tree cover needs 3 to 4 cleanings per year' (or 'a gutter on a tree-shaded property…'), preserving the 3-4 cadence and the Angi/GAF attribution.",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "roof-vent-installation-repair",
+      "field": "overview[3]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The commercial/institutional 25%-area permit trigger is cited to 'N.J.A.C. 5:23-2.7' while being phrased as the rule that 'requires a permit.' Section 5:23-2.7 is the ordinary-maintenance EXEMPTION; the 25% limit is the carve-out within 5:23-2.7(c). Sibling cohort files (gutter, fascia, soffit) phrase this more cleanly by separating the exemption from the 25% trigger. Minor precision nit — the bare section number is technically correct, but the phrasing reads as if 5:23-2.7 is the permit-requiring provision.",
+      "evidence": "'…carry the borough\\'s low-slope and commercial-angle venting, where repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.'",
+      "suggestedFix": "Align with the cohort's cleaner phrasing, e.g. '…where repairing more than 25% of the total roof area in a 12-month period falls outside the N.J.A.C. 5:23-2.7 ordinary-maintenance exemption and requires a permit, per the NJ Uniform Construction Code.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "custom-roof-design-consultation",
+      "field": "process[2]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The written-specification sentence ends 'per the documentation sequence in Integrity Home Exteriors guidance,' but Integrity Home Exteriors is the named source for the roof-REPAIR process sequence (facts-process-standards.md §1), not for a roofing-specification / wind-load / ice-barrier documentation sequence. The genuinely load-bearing standards in that same sentence (ASCE 7, IRC R905.1.2) are correctly cited; the trailing Integrity attribution is a soft over-reach pinned to the wrong source for the spec deliverable.",
+      "evidence": "'...and names the underlayment and ice-barrier scope per the International Residential Code R905.1.2 ice-barrier provision, per the documentation sequence in Integrity Home Exteriors guidance.'",
+      "suggestedFix": "Drop the trailing Integrity attribution (the IRC/ASCE cites already carry the sentence): change '...per the International Residential Code R905.1.2 ice-barrier provision, per the documentation sequence in Integrity Home Exteriors guidance.' → '...per the International Residential Code R905.1.2 ice-barrier provision.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "custom-roof-design-consultation",
+      "field": "challenges[0]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "'Roof complexity drives the per-square-foot cost across every material class, per industry cost guidance' attributes a cost-driver claim to an unnamed 'industry cost guidance' — no fact pack names a complexity-cost source (facts-materials-economics.md §11/cost tables carry per-material $/sqft from Josten/NHI but no complexity multiplier). The claim itself is a true, figure-free generality (no fabricated number), so this is a naming softness, not a fabrication. The same vague tag also appears in faqs[4].",
+      "evidence": "'Roof complexity drives the per-square-foot cost across every material class, per industry cost guidance, so a Newark Quality Roofing design specifies the material, the flashing, and the drainage at each transition before installation.'",
+      "suggestedFix": "Either de-attribute (state qualitatively without a source tag) or drop the cost-driver framing to keep the lead figure-free: '...over a simple gable roof, so a Newark Quality Roofing design specifies the material, the flashing, and the drainage at each transition before installation.' (Remove 'Roof complexity drives the per-square-foot cost across every material class, per industry cost guidance,'). Apply the same removal in faqs[4].",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "energy-efficient-roofing-solutions",
+      "field": "faqs[4].answer (permit/historic FAQ — first sentence)",
+      "severity": "low",
+      "category": "answer-length",
+      "issue": "R2 answer-length: the first sentence of the FAQ answer is ~65 words, well over the ≤40-word definitive-answer cap. It chains the detached-home exemption, the 25%-rule permit path, and the Borough Hall address into one sentence.",
+      "evidence": "'A re-roof or covering repair on a detached one- or two-family home in Essex Fells counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a municipal, institutional, or attached building crosses into permit territory once roof work exceeds 25% of the roof area in 12 months, filed with the Borough of Essex Fells Building Department at Borough Hall, 255 Roseland Avenue.'",
+      "suggestedFix": "Split into a short definitive lead + elaboration: 'A re-roof or covering repair on a detached one- or two-family home in Essex Fells counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. A municipal, institutional, or attached building crosses into permit territory once roof work exceeds 25% of the roof area in 12 months, filed with the Borough of Essex Fells Building Department at Borough Hall, 255 Roseland Avenue.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "solar-shingle-installation",
+      "field": "faqs[3].answer (permit FAQ — first sentence)",
+      "severity": "low",
+      "category": "answer-length",
+      "issue": "R2 answer-length: the first sentence is ~59 words, over the ≤40-word cap. It joins the ordinary-maintenance exemption and the PV/electrical permit path with 'while' into a single sentence.",
+      "evidence": "'A reroof of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, while the photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, per the NJ Uniform Construction Code and the NEC.'",
+      "suggestedFix": "Break at the 'while' into two sentences: '...requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. The photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "solar-panel-roofing-installation",
+      "field": "faqs[1].answer (permit FAQ — first sentence)",
+      "severity": "low",
+      "category": "answer-length",
+      "issue": "R2 answer-length: the first sentence is ~46 words, over the ≤40-word cap. It combines the AHJ array permit and the re-roof ordinary-maintenance exemption in one 'while' clause.",
+      "evidence": "'A rooftop solar array requires an AHJ building and electrical permit and inspection for NEC and fire-code compliance, while the underlying re-roof on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 with no construction permit, per the NJ Uniform Construction Code.'",
+      "suggestedFix": "Split at 'while': 'A rooftop solar array requires an AHJ building and electrical permit and inspection for NEC and fire-code compliance. The underlying re-roof on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 with no construction permit, per the NJ Uniform Construction Code.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "storm-damage-roof-replacement",
+      "field": "process[2]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "An IBHS FORTIFIED resilience statistic ('more than 70% less likely to file a claim, with damage 22% less severe') is tacked onto the END of a tear-off/installation process step. The figure is accurately sourced to IBHS (facts-cost-stats.md §10), but it is non-sequitur in this position — the step is about stripping the roof, repairing sheathing, and installing the ice barrier/underlayment, none of which a homeowner controls by choosing FORTIFIED-standard work, and the page never sets up FORTIFIED elsewhere. It reads as an inserted stat rather than a developed point.",
+      "evidence": "'...and an ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision. A FORTIFIED roof built to the Insurance Institute for Business & Home Safety standard is more than 70% less likely to file a claim, with damage 22% less severe, per the IBHS.'",
+      "suggestedFix": "Either drop the trailing FORTIFIED sentence (cleanest), or relocate and integrate it so it develops a storm-resilience point — e.g., move to a 'how resilient is a replacement?' angle: '...installing the cover to manufacturer specification. Building to the Insurance Institute for Business & Home Safety FORTIFIED standard — impact-resistant covering and enhanced edge sealing — lowers a home's storm-claim likelihood by more than 70% in IBHS analysis, with damage 22% less severe when one occurs.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "roof-replacement-after-leak",
+      "field": "faqs[4].answer",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "Cross-combo attribution inconsistency. This combo cites the wind/hail 1-in-36 figure as just 'per the Insurance Information Institute,' while the sibling combos in the same cohort (insurance-roof-replacement overview[1]/process; storm-damage-roof-replacement overview[2]/challenges/faqs) consistently carry the fuller 'per the Insurance Information Institute (Triple-I, 2019–2023)' qualifier. The same stat should carry the same attribution across the cohort.",
+      "evidence": "'Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute.'",
+      "suggestedFix": "'Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute (Triple-I, 2019–2023).' — match the cohort's standard attribution.",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "aging-roof-replacement",
+      "field": "challenges[3]",
+      "severity": "low",
+      "category": "other",
+      "issue": "Garbled phrasing (not a fact error). 'a covering known for its slate roof for decades carries an identity tied to that material' is grammatically broken — the subject should be the home, not the covering — and reads as residue from a partial rewrite.",
+      "evidence": "'**Material selection** on a custom Essex Fells home weighs lifespan, the home\\'s established slate, metal, or copper character, and the budget, because a covering known for its slate roof for decades carries an identity tied to that material.'",
+      "suggestedFix": "'**Material selection** on a custom Essex Fells home weighs lifespan, the home\\'s established slate, metal, or copper character, and the budget, because a home identified with its slate roof for decades carries an architectural character tied to that material.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "tile-roof-replacement",
+      "field": "faqs[2].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The N.J.A.C. 5:23-6.4 recover-not-allowed covering list is abbreviated to 'clay, cement, or slate tile,' dropping asbestos-cement tile (and, in the full statutory list, wood shake and the water-soaked/two-layer conditions). The metal combo in the same cohort uses the full statutory list, so this is an internal inconsistency the brief flags as a recurring NQR defect. (It is a contextual tile-only subset, but it still omits asbestos-cement tile, which is a tile covering.)",
+      "evidence": "'...the NJ Rehabilitation Subcode requires complete removal of an existing clay, cement, or slate tile covering before new roofing, per N.J.A.C. 5:23-6.4.'",
+      "suggestedFix": "Match the metal combo's full-list framing for the tile-relevant entries: '...requires complete removal of an existing slate, clay, cement, or asbestos-cement tile covering before new roofing, per N.J.A.C. 5:23-6.4.' (add 'asbestos-cement', reorder to the statutory sequence).",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "tile-roof-replacement",
+      "field": "process[1]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Same abbreviated 5:23-6.4 covering list recurs in process[1] ('clay or concrete tile roof'). Concrete tile is NOT named in the N.J.A.C. 5:23-6.4 recover-prohibition list (the statutory tile entries are slate, clay, cement, and asbestos-cement tile). Asserting that 5:23-6.4 mandates tear-off because the covering is 'a clay or concrete tile roof' over-states the statute for concrete tile.",
+      "evidence": "'Complete removal of the existing tile covering is required by the NJ Rehabilitation Subcode, because a clay or concrete tile roof cannot be roofed-over and takes a full tear-off, per N.J.A.C. 5:23-6.4.'",
+      "suggestedFix": "Tie the 5:23-6.4 mandate to the covering names the statute actually lists (clay/cement tile), and frame the concrete-tile tear-off on the engineering/underlayment-failure basis rather than the statute, e.g. 'Complete removal is required where the existing covering is slate, clay, cement, or asbestos-cement tile, per N.J.A.C. 5:23-6.4; a concrete-tile roof is likewise stripped to the deck so the failed underlayment and any deck rot are replaced.'",
+      "city": "essex-fells"
+    },
+    {
+      "combo": "metal-roof-replacement",
+      "field": "faqs[2].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Standing-seam '40 to 70 years' is bundled under 'per the InterNACHI life-expectancy chart and This Old House,' but InterNACHI does not break out standing-seam (it lists only 'Metal 40–80' and 'Copper 70+'); the 40–70 standing-seam figure is This Old House only (per facts-materials-economics §145). The dual attribution implies InterNACHI sources the standing-seam range.",
+      "evidence": "'A metal roof lasts 40 to 80 years, with copper at 70-plus years and standing-seam metal at 40 to 70 years, per the InterNACHI life-expectancy chart and This Old House.'",
+      "suggestedFix": "Pin standing-seam to This Old House and the general/copper figures to InterNACHI: '...A metal roof lasts 40 to 80 years and copper 70-plus years, per the InterNACHI life-expectancy chart, with standing-seam metal at 40 to 70 years, per This Old House.'",
+      "city": "essex-fells"
+    }
+  ],
+  "byCohort": [
+    {
+      "cohort": "essex-fells:repair-maintenance",
+      "confirmed": 3,
+      "refuted": 2,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "essex-fells:residential-roof-types",
+      "confirmed": 3,
+      "refuted": 2,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "essex-fells:commercial-roof-types",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "essex-fells:commercial-services",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "essex-fells:components-specialty",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 3,
+      "failed": false
+    },
+    {
+      "cohort": "essex-fells:design-consultation",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "essex-fells:energy-solar",
+      "confirmed": 3,
+      "refuted": 0,
+      "low": 3,
+      "failed": false
+    },
+    {
+      "cohort": "essex-fells:replacement-A",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 3,
+      "failed": false
+    },
+    {
+      "cohort": "essex-fells:replacement-B",
+      "confirmed": 0,
+      "refuted": 1,
+      "low": 3,
+      "failed": false
+    }
+  ]
+}

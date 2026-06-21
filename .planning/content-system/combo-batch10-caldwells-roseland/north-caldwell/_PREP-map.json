@@ -1,0 +1,768 @@
+[
+  {
+    "file": "aging-roof-replacement",
+    "serviceId": "aging-roof-replacement",
+    "exportName": "northCaldwellAgingRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "asphalt-shingle-roof-replacement",
+    "serviceId": "asphalt-shingle-roof-replacement",
+    "exportName": "northCaldwellAsphaltShingleRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "asphalt-shingle-roofing",
+    "serviceId": "asphalt-shingle-roofing",
+    "exportName": "northCaldwellAsphaltShingleRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "built-up-roofing",
+    "serviceId": "built-up-roofing",
+    "exportName": "northCaldwellBuiltUpRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "cedar-shake-roof-replacement",
+    "serviceId": "cedar-shake-roof-replacement",
+    "exportName": "northCaldwellCedarShakeRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "cedar-shake-roofing",
+    "serviceId": "cedar-shake-roofing",
+    "exportName": "northCaldwellCedarShakeRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "chimney-flashing-repair",
+    "serviceId": "chimney-flashing-repair",
+    "exportName": "northCaldwellChimneyFlashingRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-metal-roofing",
+    "serviceId": "commercial-metal-roofing",
+    "exportName": "northCaldwellCommercialMetalRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-installation",
+    "serviceId": "commercial-roof-installation",
+    "exportName": "northCaldwellCommercialRoofInstallation",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-repair",
+    "serviceId": "commercial-roof-repair",
+    "exportName": "northCaldwellCommercialRoofRepair",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-replacement",
+    "serviceId": "commercial-roof-replacement",
+    "exportName": "northCaldwellCommercialRoofReplacement",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "custom-roof-design-consultation",
+    "serviceId": "custom-roof-design-consultation",
+    "exportName": "northCaldwellCustomRoofDesignConsultation",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "emergency-roof-repair",
+    "serviceId": "emergency-roof-repair",
+    "exportName": "northCaldwellEmergencyRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "energy-efficient-roofing-solutions",
+    "serviceId": "energy-efficient-roofing-solutions",
+    "exportName": "northCaldwellEnergyEfficientRoofingSolutions",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "epdm-commercial-roofing",
+    "serviceId": "epdm-commercial-roofing",
+    "exportName": "northCaldwellEpdmCommercialRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "fascia-installation-repair",
+    "serviceId": "fascia-installation-repair",
+    "exportName": "northCaldwellFasciaInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "fire-damage-roof-replacement",
+    "serviceId": "fire-damage-roof-replacement",
+    "exportName": "northCaldwellFireDamageRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "flat-roof-installation-repair",
+    "serviceId": "flat-roof-installation-repair",
+    "exportName": "northCaldwellFlatRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "flat-roof-replacement",
+    "serviceId": "flat-roof-replacement",
+    "exportName": "northCaldwellFlatRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "full-roof-tear-off",
+    "serviceId": "full-roof-tear-off",
+    "exportName": "northCaldwellFullRoofTearOff",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "green-roof-installation",
+    "serviceId": "green-roof-installation",
+    "exportName": "northCaldwellGreenRoofInstallation",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "gutter-guard-installation",
+    "serviceId": "gutter-guard-installation",
+    "exportName": "northCaldwellGutterGuardInstallation",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "gutter-installation-repair",
+    "serviceId": "gutter-installation-repair",
+    "exportName": "northCaldwellGutterInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "hail-damage-roof-repair",
+    "serviceId": "hail-damage-roof-repair",
+    "exportName": "northCaldwellHailDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "historic-roof-restoration",
+    "serviceId": "historic-roof-restoration",
+    "exportName": "northCaldwellHistoricRoofRestoration",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "infrared-roof-leak-detection",
+    "serviceId": "infrared-roof-leak-detection",
+    "exportName": "northCaldwellInfraredRoofLeakDetection",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "insurance-roof-replacement",
+    "serviceId": "insurance-roof-replacement",
+    "exportName": "northCaldwellInsuranceRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "metal-roof-installation-repair",
+    "serviceId": "metal-roof-installation-repair",
+    "exportName": "northCaldwellMetalRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "metal-roof-replacement",
+    "serviceId": "metal-roof-replacement",
+    "exportName": "northCaldwellMetalRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "modified-bitumen-roofing",
+    "serviceId": "modified-bitumen-roofing",
+    "exportName": "northCaldwellModifiedBitumenRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "pvc-roofing",
+    "serviceId": "pvc-roofing",
+    "exportName": "northCaldwellPvcRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "re-roofing",
+    "serviceId": "re-roofing",
+    "exportName": "northCaldwellReRoofing",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "residential-roof-installation",
+    "serviceId": "residential-roof-installation",
+    "exportName": "northCaldwellResidentialRoofInstallation",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-cleaning-moss-removal",
+    "serviceId": "roof-cleaning-moss-removal",
+    "exportName": "northCaldwellRoofCleaningMossRemoval",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-deck-repair-replacement",
+    "serviceId": "roof-deck-repair-replacement",
+    "exportName": "northCaldwellRoofDeckRepairReplacement",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-flashing-installation-repair",
+    "serviceId": "roof-flashing-installation-repair",
+    "exportName": "northCaldwellRoofFlashingInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-ice-dam-prevention",
+    "serviceId": "roof-ice-dam-prevention",
+    "exportName": "northCaldwellRoofIceDamPrevention",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-inspection",
+    "serviceId": "roof-inspection",
+    "exportName": "northCaldwellRoofInspection",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-leak-repair",
+    "serviceId": "roof-leak-repair",
+    "exportName": "northCaldwellRoofLeakRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-maintenance-programs",
+    "serviceId": "roof-maintenance-programs",
+    "exportName": "northCaldwellRoofMaintenancePrograms",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-overlay-installation",
+    "serviceId": "roof-overlay-installation",
+    "exportName": "northCaldwellRoofOverlayInstallation",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "roof-repair",
+    "serviceId": "roof-repair",
+    "exportName": "northCaldwellRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-replacement",
+    "serviceId": "roof-replacement",
+    "exportName": "northCaldwellRoofReplacement",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-replacement-after-leak",
+    "serviceId": "roof-replacement-after-leak",
+    "exportName": "northCaldwellRoofReplacementAfterLeak",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "roof-replacement-cost",
+    "serviceId": "roof-replacement-cost",
+    "exportName": "northCaldwellRoofReplacementCost",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-thermal-imaging-inspections",
+    "serviceId": "roof-thermal-imaging-inspections",
+    "exportName": "northCaldwellRoofThermalImagingInspections",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-vent-installation-repair",
+    "serviceId": "roof-vent-installation-repair",
+    "exportName": "northCaldwellRoofVentInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-waterproofing",
+    "serviceId": "roof-waterproofing",
+    "exportName": "northCaldwellRoofWaterproofing",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "rubber-roofing-epdm",
+    "serviceId": "rubber-roofing-epdm",
+    "exportName": "northCaldwellRubberRoofingEpdm",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "silicone-elastomeric-roof-coating",
+    "serviceId": "silicone-elastomeric-roof-coating",
+    "exportName": "northCaldwellSiliconeElastomericRoofCoating",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "silicone-roof-coating",
+    "serviceId": "silicone-roof-coating",
+    "exportName": "northCaldwellSiliconeRoofCoating",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "skylight-installation-repair",
+    "serviceId": "skylight-installation-repair",
+    "exportName": "northCaldwellSkylightInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "slate-roof-installation-repair",
+    "serviceId": "slate-roof-installation-repair",
+    "exportName": "northCaldwellSlateRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "slate-roof-replacement",
+    "serviceId": "slate-roof-replacement",
+    "exportName": "northCaldwellSlateRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "soffit-installation-repair",
+    "serviceId": "soffit-installation-repair",
+    "exportName": "northCaldwellSoffitInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "solar-panel-roofing-installation",
+    "serviceId": "solar-panel-roofing-installation",
+    "exportName": "northCaldwellSolarPanelRoofingInstallation",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "solar-shingle-installation",
+    "serviceId": "solar-shingle-installation",
+    "exportName": "northCaldwellSolarShingleInstallation",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "spray-foam-roofing",
+    "serviceId": "spray-foam-roofing",
+    "exportName": "northCaldwellSprayFoamRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "storm-damage-roof-repair",
+    "serviceId": "storm-damage-roof-repair",
+    "exportName": "northCaldwellStormDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "storm-damage-roof-replacement",
+    "serviceId": "storm-damage-roof-replacement",
+    "exportName": "northCaldwellStormDamageRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "tile-roof-installation-repair",
+    "serviceId": "tile-roof-installation-repair",
+    "exportName": "northCaldwellTileRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "tile-roof-replacement",
+    "serviceId": "tile-roof-replacement",
+    "exportName": "northCaldwellTileRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "tpo-roofing-installation",
+    "serviceId": "tpo-roofing-installation",
+    "exportName": "northCaldwellTpoRoofingInstallation",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "wind-damage-roof-repair",
+    "serviceId": "wind-damage-roof-repair",
+    "exportName": "northCaldwellWindDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "wood-shake-roofing",
+    "serviceId": "wood-shake-roofing",
+    "exportName": "northCaldwellWoodShakeRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  }
+]
