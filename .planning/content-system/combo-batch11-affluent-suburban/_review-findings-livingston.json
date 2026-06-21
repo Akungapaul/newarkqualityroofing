@@ -1,0 +1,188 @@
+{
+  "confirmedCount": 1,
+  "refutedCount": 2,
+  "lowCount": 10,
+  "failedCohorts": [],
+  "confirmed": [
+    {
+      "combo": "storm-damage-roof-replacement",
+      "field": "process[2]",
+      "severity": "med",
+      "category": "fabrication",
+      "issue": "The general IBHS FORTIFIED claim-frequency/severity statistic is woven into NQR's standard storm-replacement process in a way that implies every NQR storm roof is FORTIFIED-built ('so the crew seals the deck and ring-shank-nails the cover'). The IBHS figures (cost-stats §10) describe FORTIFIED-designated homes, not NQR's standard install; presenting them as a consequence of NQR's routine cleanup step risks implying a FORTIFIED designation NQR has not claimed or verified.",
+      "evidence": "'A FORTIFIED roof built to the IBHS standard is more than 70 percent less likely to file a claim, with damage 22 percent less severe, per the IBHS, so the crew seals the deck and ring-shank-nails the cover for wind resistance, then runs a magnet sweep for nails before leaving.'",
+      "suggestedFix": "Decouple the IBHS stat from NQR's routine step (use it as context, not as a claimed designation). Before: '…22 percent less severe, per the IBHS, so the crew seals the deck and ring-shank-nails the cover for wind resistance, then runs a magnet sweep…' After: '…22 percent less severe, per the IBHS. A Newark Quality Roofing crew installs sealed-deck and enhanced-fastening details for wind resistance where the scope calls for them, then runs a magnet sweep for nails before leaving.'",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim at process[2] of src/data/combo-content/livingston/storm-damage-roof-replacement.ts. The IBHS figures themselves are accurate and correctly attributed — facts-cost-stats.md §10 line 155 records \"FORTIFIED homes were >70% less likely to file a claim; when they did, damage was 22% less severe ... IBHS [PRIMARY].\" So this is NOT a fabricated-statistic defect. The real defect is the rhetorical coupling: the Livingston version appends a causal clause — \"...22 percent less severe, per the IBHS, SO THE CREW seals the deck and ring-shank-nails the cover for wind resistance...\" — that presents NQR's routine, uncertified storm install as the cause of the FORTIFIED-designation outcome. The >70%/22% figures describe homes that carry a third-party IBHS FORTIFIED designation (cost-stats §10 / sources-and-nqr-facts.md lists IBHS as authoritative for \"fortified-roof STANDARDS\"), not a generic sealed-deck-and-ring-shank install; the \"so the crew...\" link implies a FORTIFIED designation NQR has neither claimed nor verified. The committed GOLD sibling (irvington/storm-damage-roof-replacement.ts process[2], committed Combo Batch 4) uses the SAME stat but ends it cleanly as standalone resilience context — \"...with damage 22% less severe, per the IBHS.\" — with NO \"so the crew\" coupling. The Livingston author diverged from gold voice. No Livingston fact, COA posture, or entity-grounding rule changes this; the fix is to decouple the stat and re-scope the install steps as NQR's own work, preserving all facts (IRC ice-barrier detail, sealed deck, ring-shank nailing, magnet sweep).",
+      "finalFix": "In src/data/combo-content/livingston/storm-damage-roof-replacement.ts process[2], replace: \"A FORTIFIED roof built to the IBHS standard is more than 70 percent less likely to file a claim, with damage 22 percent less severe, per the IBHS, so the crew seals the deck and ring-shank-nails the cover for wind resistance, then runs a magnet sweep for nails before leaving.\" → with: \"A FORTIFIED roof built to the IBHS standard is more than 70 percent less likely to file a claim, with damage 22 percent less severe, per the IBHS. A Newark Quality Roofing crew seals the deck and ring-shank-nails the cover for wind resistance where the scope calls for it, then runs a magnet sweep for nails before leaving.\"",
+      "city": "livingston"
+    }
+  ],
+  "low": [
+    {
+      "combo": "roof-inspection",
+      "field": "pricing.range / pricing.note",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "The pricing card displays the generic leak-repair default ($400–$1,000, note 'Typical NJ leak-repair range per HomeAdvisor') on a roof-INSPECTION page, while the page's own cost FAQ correctly gives the service-specific, pack-sourced inspection range ($75–$200 visual, $150–$400 drone, $400–$600 infrared, $248 national average, per HomeAdvisor). The card and the FAQ therefore state two different prices for the same service, and the card's 'leak-repair' label is wrong for an inspection. A service-specific sourced figure exists (it is in the FAQ and in the parent repair-maintenance.ts service page), so the card should match it rather than fall back to the repair default.",
+      "evidence": "pricing: { range: '$400–$1,000', note: 'Typical NJ leak-repair range per HomeAdvisor; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.' }  — vs the cost FAQ: 'A roof inspection costs $75–$200 for a visual inspection, $150–$400 for a drone inspection, and $400–$600 for an infrared inspection, with a national average of $248, per HomeAdvisor inspection-cost data.'",
+      "suggestedFix": "Align the card to the inspection figures already used in the FAQ/parent: range: '$75–$600' ; note: 'Typical NJ roof-inspection range per HomeAdvisor — visual $75–$200, drone $150–$400, infrared $400–$600 (national average $248); cost depends on roof size, slope, and inspection method. Newark Quality Roofing provides a free written estimate.' (No new figures introduced — all already sourced on the page.)",
+      "city": "livingston"
+    },
+    {
+      "combo": "asphalt-shingle-roofing",
+      "field": "faqs[4].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Repair-vs-replace rule source-pairing is imprecise per materials-economics §8 and the brief's pairing map. The pure 25%-AREA rule is RapidRestore/MyQuoteIQ; Kellow/Modernize/Josten back the 30%-of-COST rule. The combo bundles '25 to 30% area rule' onto Kellow/Modernize/Josten, and states the '50% of replacement cost' threshold with no source (the 50% rule = WeatherShield/Home Depot).",
+      "evidence": "'Replace an asphalt roof when damage exceeds 25 to 30% of the roof area or one repair approaches 50% of replacement cost ... The 25 to 30% area rule traces to Kellow, Modernize, and Josten, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.'",
+      "suggestedFix": "Re-pair to the pack. Before: '...The 25 to 30% area rule traces to Kellow, Modernize, and Josten...' After: '...The 25% area rule traces to RapidRestore, the 30%-of-cost rule to Kellow, Modernize, and Josten, and the 50% rule to WeatherShield, while a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.' (Note: per MEMORY, committed gold siblings are loose on this pairing — apply only if standardizing the cohort.)",
+      "city": "livingston"
+    },
+    {
+      "combo": "wood-shake-roofing",
+      "field": "faqs[5].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Per-sq-ft cedar figures appear in the cost FAQ with the named source ('HomeAdvisor and Modernize') attached only to the $10,000-$25,000 range; the '$10 to $20-plus per square foot' and '60 to 70% labor' figures trail without an explicit in-clause source. The packs do support them (NHI Contractors §7 Premium $10-$20+; Modernize §5 labor ~60-70%), so this is an attribution-precision gap, not a fabrication.",
+      "evidence": "'...range from $10,000 to $25,000, per HomeAdvisor and Modernize NJ cost data. Cedar installs run roughly $10 to $20-plus per square foot, with labor accounting for about 60 to 70% of the job.'",
+      "suggestedFix": "Attach the named source to the trailing figures. Before: 'Cedar installs run roughly $10 to $20-plus per square foot, with labor accounting for about 60 to 70% of the job.' After: 'Cedar installs run roughly $10 to $20-plus per square foot, per NJ premium-material guides, with labor accounting for about 60 to 70% of the job, per Modernize.'",
+      "city": "livingston"
+    },
+    {
+      "combo": "commercial-metal-roofing",
+      "field": "faqs[0].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The standing-seam '40 to 70 years' figure is bundled under 'per the InterNACHI life-expectancy chart and This Old House,' but InterNACHI's chart only gives Metal (general) 40-80 and Copper 70+ — it does NOT source the standing-seam 40-70 split. The 40-70 standing-seam figure is This Old House's; InterNACHI is over-attributed here.",
+      "evidence": "'A commercial metal roof lasts 40 to 80 years, with standing-seam metal at 40 to 70 years, exposed-fastener metal about 30 to 50 years, and copper 70-plus years, per the InterNACHI life-expectancy chart and This Old House.'",
+      "suggestedFix": "Split the attribution so each figure traces to its true source: 'A commercial metal roof lasts 40 to 80 years, with copper 70-plus years, per the InterNACHI life-expectancy chart; standing-seam metal runs 40 to 70 years per This Old House and exposed-fastener metal about 30 to 50 years per metal-roofing industry consensus.' (Matches how overview[1] already pairs them correctly.)",
+      "city": "livingston"
+    },
+    {
+      "combo": "commercial-metal-roofing",
+      "field": "challenges[0]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The hard figure '>100 feet need engineered expansion provisions' is attributed to 'the Metal Construction Association and the NRCA,' but the fact pack (facts-materials-economics.md §3, line 150) sources the '>100 ft need expansion zones' figure to the NRCA only. The MCA is listed in sources-and-nqr-facts.md as a metal-roofing authority generally, but it is not the pack's named source for this specific 100-ft figure.",
+      "evidence": "'Panel runs exceeding 100 feet require engineered expansion provisions, per the Metal Construction Association and the NRCA' (also recurs in overview[2], process[2], and faqs[4].answer)",
+      "suggestedFix": "Pin the 100-ft figure to its pack source (NRCA) and keep MCA only as a qualitative co-authority, or drop MCA from the numeric claim: '...exceeding 100 feet require engineered expansion provisions, per the NRCA.' Apply the same edit to overview[2], process[2], and faqs[4].answer for consistency.",
+      "city": "livingston"
+    },
+    {
+      "combo": "modified-bitumen-roofing",
+      "field": "challenges[0]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The qualitative claim 'SBS-modified bitumen holds low-temperature flexibility better than APP-modified bitumen, per ARMA modified-bitumen guidance' is not present verbatim in the project fact packs (facts-materials-economics.md §4 carries no SBS-vs-APP cold-flex statement). The claim is true industry knowledge and ARMA is a plausible authority, but it is named-sourced to a guidance document the packs do not establish.",
+      "evidence": "'SBS-modified bitumen holds low-temperature flexibility better than APP-modified bitumen, per ARMA modified-bitumen guidance, so Newark Quality Roofing specifies SBS...' (also in process[0] and faqs[4].answer)",
+      "suggestedFix": "Keep the qualitative point but soften the specific source claim to a general industry attribution rather than a named ARMA document, e.g. 'SBS-modified bitumen holds low-temperature flexibility better than APP-modified bitumen, an industry distinction in modified-bitumen practice,' OR verify and add an ARMA SBS/APP source to the pack so the citation is grounded. Low priority — the claim itself is accurate.",
+      "city": "livingston"
+    },
+    {
+      "combo": "silicone-elastomeric-roof-coating",
+      "field": "faqs[3].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Unsourced quantified repair-vs-replace area threshold. The FAQ states that EPDM membrane replacement is better value 'across more than 25 to 30% of the area' with NO named source. This is the documented recurring NQR defect (the area/cost repair-vs-replace rule-of-thumb must be named-sourced — 25%-area = RapidRestore, 30% = Kellow/Modernize/Josten) and the energy-solar fact pack explicitly flags 'Recoat-vs-replacement % cost' as [UNVERIFIED] (line 367: 'use a fraction of tear-off cost qualitatively'). The figure also risks reader confusion with the statutory UCC 25%-permit rule (N.J.A.C. 5:23-2.7), which is a permitting trigger, not a replacement-economics threshold — two distinct concepts.",
+      "evidence": "Where saturation spreads or the membrane fails across more than 25 to 30% of the area, EPDM membrane replacement often delivers better long-term value, and Newark Quality Roofing recommends the approach the specific section warrants.",
+      "suggestedFix": "De-quantify per the fact-pack [UNVERIFIED] flag, OR name-source the threshold. Before: 'Where saturation spreads or the membrane fails across more than 25 to 30% of the area, EPDM membrane replacement often delivers better long-term value...' After (de-quantify): 'Where saturation or membrane failure spreads beyond a localized area, EPDM membrane replacement often delivers better long-term value than a coating, and Newark Quality Roofing recommends the approach the specific section warrants.'",
+      "city": "livingston"
+    },
+    {
+      "combo": "storm-damage-roof-replacement",
+      "field": "overview[2]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Labels the area threshold 'the contractor-consensus 25 percent rule.' The cost-stats pack (§5) names a '30% rule (some contractors 25–30%)' and a separate '50% rule'; there is no standalone named '25 percent rule.' The bracket '25 to 30 percent' is accurate, but singling it out as 'the 25 percent rule' mislabels the named rule-of-thumb.",
+      "evidence": "'…damage across more than 25 to 30 percent of the roof area crosses the contractor-consensus 25 percent rule, the threshold above which full replacement costs less than continued spot repair, per roofing industry guidance.'",
+      "suggestedFix": "Before: 'crosses the contractor-consensus 25 percent rule'. After: 'crosses the contractor-consensus 25–30% rule' (or 'the 30% rule, which some contractors set at 25–30%'), keeping the bracket consistent with the pack's named figure.",
+      "city": "livingston"
+    },
+    {
+      "combo": "re-roofing",
+      "field": "process[0]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The 50% cost rule, the 25–30% area rule, and the 5–10×/age rule are bundled under 'per WeatherShield, RapidRestore, and Home Depot cost data.' Per the brief's required pairings the 50% rule = WeatherShield/Home Depot and the 25%-area rule = RapidRestore, so the sources are individually in-pack, but the blanket bundling pairs RapidRestore (25%-area) loosely with the 50% cost rule. Low-priority cleanup, consistent with committed-sibling tolerance.",
+      "evidence": "'Damage across more than 25–30% of the roof area crosses the area rule, a repair approaching 50% of replacement cost crosses the cost rule, and an asphalt roof past 20 years crosses the age rule, because a localized repair stays the more economical path only while the roof stays under 10 to 15 years old, per WeatherShield, RapidRestore, and Home Depot cost data.'",
+      "suggestedFix": "Optionally pin each rule to its pack source: area rule → RapidRestore; cost rule → WeatherShield/Home Depot; age/5–10× → Home Depot. Or leave as-is (all three sources are legitimately in-pack and the committed siblings carry the same loose bundling).",
+      "city": "livingston"
+    },
+    {
+      "combo": "roof-replacement-cost",
+      "field": "faqs[5].answer (Does a roof replacement add resale value in New Jersey?)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Source-attribution imprecision: the $15,247 added-resale figure and the 60-68% recoup figure are bundled as 'per Opendoor, Zillow, and the Zonda Cost vs Value report,' but the fact pack assigns $15,247 and 60-68% to Opendoor/Zillow only (facts-cost-stats.md §7, both [SECONDARY] Opendoor/Zillow 2025). Zonda's Cost vs Value report backs ONLY the separate '8 of the top 10 highest-ROI remodels are exterior replacement projects' claim (the one [PRIMARY] Zonda line). The cleaner committed siblings (Bloomfield, Cedar Grove, Glen Ridge, Irvington, Maplewood, Nutley, North-Caldwell) already split these attributions correctly; Livingston follows the less-precise Essex-Fells/Montclair variant.",
+      "evidence": "'A new asphalt roof recoups roughly 60 to 68% of project cost at resale and adds about $15,247 to resale value, per Opendoor, Zillow, and the Zonda Cost vs Value report. A new roof supports a 1% to 3% higher asking price, per Opendoor, on the affluent, roughly 88.9% owner-occupied single-family stock that fills Livingston, per the U.S. Census Bureau, and 8 of the top 10 highest-ROI remodels are exterior replacement projects.'",
+      "suggestedFix": "Re-pin so Zonda backs only the top-10 claim: change '...adds about $15,247 to resale value, per Opendoor, Zillow, and the Zonda Cost vs Value report.' → '...adds about $15,247 to resale value, per Opendoor and Zillow.' and change '...and 8 of the top 10 highest-ROI remodels are exterior replacement projects.' → '...and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per the Zonda Cost vs Value report.'",
+      "city": "livingston"
+    }
+  ],
+  "byCohort": [
+    {
+      "cohort": "livingston:repair-maintenance",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "livingston:residential-roof-types",
+      "confirmed": 0,
+      "refuted": 1,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "livingston:commercial-roof-types",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 3,
+      "failed": false
+    },
+    {
+      "cohort": "livingston:commercial-services",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 0,
+      "failed": false
+    },
+    {
+      "cohort": "livingston:components-specialty",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 0,
+      "failed": false
+    },
+    {
+      "cohort": "livingston:design-consultation",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 0,
+      "failed": false
+    },
+    {
+      "cohort": "livingston:energy-solar",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "livingston:replacement-A",
+      "confirmed": 1,
+      "refuted": 1,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "livingston:replacement-B",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    }
+  ]
+}

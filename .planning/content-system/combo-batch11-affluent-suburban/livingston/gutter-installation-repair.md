@@ -1,0 +1,15 @@
+# livingston/gutter-installation-repair — rewrite rationale
+
+De-fab literals cleared from the current file:
+- Price-in-lead (`overview[0]` "prices starting from $1,000–$3,500 and free estimates available today") deleted → answer-first, entity-grounded, figure-free lead.
+- Old invented pricing tier `$1,000–$3,500` ("full gutter system for typical home") replaced with the pack-sourced HomeGuide installed range `$12–$25 per linear foot` (+ repair `$100–$450`).
+- `whyChooseUs`: "NJ licensed, GAF Certified — 15+ years…", "Premium materials from GAF, CertainTeed, and Owens Corning…", "same-day estimates and 24/7 emergency response" → de-fabbed to registered-HIC/fully-insured + factual reasons.
+- `conversionHooks.urgencyNote` "Don't wait… Early action saves thousands" → factual fascia/soffit/foundation water-damage note.
+- Inline markdown self-links `[South Orange](…)` and `[gutter installation and repair](/gutter-installation-repair)` stripped to plain text.
+- Unsourced hard numbers fixed/sourced: unsourced "two to three times per year" cleaning cadence corrected to the sourced "twice per year, spring and fall, rising to 3 to 4 times" cadence (Angi/GAF); 24-in hanger spec and "four feet"/copper "50-plus year" claims re-pinned to named sources (or de-quantified). No township-wide, basement-flood, South Mountain, or fabricated-neighborhood content present.
+
+Entity-grounding applied: `directAnswer` bold span (32w) = "Newark Quality Roofing is a roofing contractor providing gutter installation repair across Livingston, New Jersey, and Essex County…"; credential tail "as a registered New Jersey Home Improvement Contractor" outside the bold; no `definition` field (spliced post-assembly); whyChooseUs uses "A registered New Jersey Home Improvement Contractor, fully insured." NO "licensed" for NQR anywhere.
+
+Named sources cited in-text: InterNACHI Estimated Life Expectancy Chart (copper 50+, aluminum 20–40+, galvanized steel 20 yr); gutter manufacturer Englert (seamless eliminates lapped joints); Storm Master / My Gutter Doctor (6-in holds ~50% more, 5-in→2×3 / 6-in→3×4 downspout sizing); American Gutter Masters / Vermont Gutter Co. (~1/4 in per 10 ft trade slope); Angi (clogged gutter saturates fascia/soffit, sheds against foundation) and GAF maintenance guidance (cleaning cadence); Boggs Inspection (downspout discharge ≥4–6 ft from foundation); HomeGuide (installed $12–$25/lf, repair $100–$450, sagging $75–$300, leak/seam $100–$225); InterNACHI (fascia is the gutter mounting surface); N.J.A.C. 5:23-2.7 + NJ UCC + Township of Livingston Building Department at 357 South Livingston Avenue (permit/25% rule); FEMA Flood Insurance Study for Essex County + Essex County Multi-Jurisdictional Hazard Mitigation Plan (western-edge Passaic/Willow Brook SFHA, qualitative).
+
+Differentiation: led with mature-canopy debris load, aging-fascia mounting, split-level multi-level routing, and the western-edge Passaic/Willow Brook drainage — Livingston-distinct; NO COA prose (no historic gate triggered by gutter work), no Millburn/South-Mountain/Watchung anchors.

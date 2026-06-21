@@ -1,0 +1,388 @@
+{
+  "confirmedCount": 11,
+  "refutedCount": 1,
+  "lowCount": 17,
+  "failedCohorts": [],
+  "confirmed": [
+    {
+      "combo": "wind-damage-roof-repair",
+      "field": "overview[1], process[0], faqs[0].answer",
+      "severity": "high",
+      "category": "fabrication",
+      "issue": "The fabricated RICOWI-style wind-uplift multiplier '2 to 3 times the [field] pressure' (attributed here to IIBEC) appears three times. The fact packs (facts-causes-signs.md §2.2, attributing to IIBEC) only support the QUALITATIVE claim that 'uplift is highest at roof edges, rakes, and corners; damage starts there' — there is NO 2-3x quantified multiplier in any pack, and the reviewer canon flags the '2-3x field pressure' multiplier as fabricated (gold combos carry none). Attributing it to IIBEC does not cure the fabrication.",
+      "evidence": "overview[1]: '...where wind separates and generates suction 2 to 3 times the pressure on the open field, per IIBEC...'; process[0]: 'Wind uplift peaks at the edges at 2 to 3 times the field pressure, per IIBEC...'; faqs[0].answer: 'Wind uplift at the corners, rakes, and edges reaches 2 to 3 times the field pressure, per IIBEC...'",
+      "suggestedFix": "De-quantify all three to the gold-consistent qualitative form. overview[1]: '...appear first at the corners, rakes, and edges, where wind uplift peaks, per IIBEC...'. process[0]: 'Wind uplift peaks at the corners, rakes, and edges, per IIBEC...'. faqs[0].answer: 'Wind uplift peaks at the corners, rakes, and edges, per IIBEC, so an aged or weakly sealed roof loses tabs below the product rating.' Re-run the answer-length audit on faqs[0] after editing.",
+      "verdict": "confirmed",
+      "reasoning": "The fabricated \"2 to 3 times the field pressure\" wind-uplift multiplier is present in all three cited fields exactly as the finding describes (file lines 12, 23, 31), each attributed \"per IIBEC.\" Verified against the named source: facts-causes-signs.md §2.2 (lines 84-85) states the IIBEC-sourced fact only QUALITATIVELY — \"uplift is highest at roof edges, rakes, and corners; damage starts there\" — with NO quantified multiplier. A full-tree grep of .planning/content-system/research/ and the affluent-suburban fact bank found ZERO support for \"2 to 3 times the field pressure,\" \"2-3x,\" or any RICOWI/IIBEC uplift multiplier. Attaching the fabricated number to a real source (IIBEC) does not cure the fabrication. The MEMORY canon explicitly flags this exact class as fabricated and notes prior committed batches de-quantified it (Belleville \"RICOWI 2-3x field pressure ×3 de-quantified to gold IIBEC form\"; batch-8 \"RICOWI 2-3x field pressure, per IIBEC is a SEPARATE fab\"), so gold combos carry no such multiplier. No Millburn fact, COA posture, or entity-grounding requirement is implicated by the fix; the per-IIBEC attribution is retained in its correct qualitative form, and the faqs[0] edit shortens the sentence so it cannot breach any length limit. This is a real, fixable high-severity fabrication.",
+      "finalFix": "See above.",
+      "city": "millburn"
+    },
+    {
+      "combo": "storm-damage-roof-repair",
+      "field": "faqs[4].answer, pricing.note",
+      "severity": "med",
+      "category": "fabrication",
+      "issue": "Unsourced hard-number range. 'hail-damage repair reaching $3,000 to $12,000 by hail size and roof area, per HomeAdvisor and Angi' has no support in facts-cost-stats.md (which gives leak/repair $400–$1,000, repair-band $800–$3,500, replacement $12,000–$35,000) or any other pack; 'Angi' is not a named source anywhere in the cost packs. The $3,000–$12,000 hail-repair figure is invented.",
+      "evidence": "faqs[4].answer: 'Storm-damage roof repair in New Jersey runs roughly $400 to $2,000 for most repairs, with hail-damage repair reaching $3,000 to $12,000 by hail size and roof area, per HomeAdvisor and Angi cost data.' Same range repeated in pricing.note ('...with hail-damage repair $3,000–$12,000 by hail size and roof area per Angi...').",
+      "suggestedFix": "Drop the unsourced $3,000–$12,000 hail-specific range and the 'Angi' attribution. Replace with the pack-sourced storm-repair band only: '...runs roughly $400 to $2,000 for most repairs, per HomeAdvisor cost data; severe or widespread storm damage that approaches the replacement threshold runs higher. A natural slate, copper, or tile roof on a Short Hills estate costs more than asphalt...'. Mirror the same edit in pricing.note.",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in both cited fields. faqs[4].answer: \"Storm-damage roof repair in New Jersey runs roughly $400 to $2,000 for most repairs, with hail-damage repair reaching $3,000 to $12,000 by hail size and roof area, per HomeAdvisor and Angi cost data.\" pricing.note: \"...with hail-damage repair $3,000–$12,000 by hail size and roof area per Angi...\".\n\nCORE DEFECT IS REAL (fabrication). The \"$3,000–$12,000 hail-damage repair\" range has NO support in any fact pack. facts-cost-stats.md gives repair-by-issue ($150–$1,000 bands), repair-vs-replace ($800–$3,500+ repair / $12,000–$35,000 replacement), and wind&hail as an INSURANCE-CLAIM stat (1 in 36, avg claim $14,747) — never a hail-specific repair-cost band. facts-materials-economics.md gives NJ leak repair $400–$1,000 and other per-issue bands, with no hail repair figure. A repo-wide grep for \"hail.*$\" / \"3,000...12,000\" found zero source for the range. It is invented.\n\nGOLD EXEMPLAR CONFIRMS THE FIX, NOT THE DEFECT. The committed Orange storm-damage-roof-repair cost FAQ reads \"runs roughly $400–$2,000 for most repairs, per HomeAdvisor and Angi cost data\" with NO hail-specific add-on; pricing.note likewise has no hail figure. So the source-backed, gold-consistent form is the $400–$2,000 base band only. The $3,000–$12,000 add-on is a fabrication-recurrence that escaped earlier review and propagated into several committed siblings (newark, caldwell, etc.) — it is a defect to remove, not a gold pattern to preserve.\n\nONE CORRECTION TO THE FINDING'S RATIONALE (does not change verdict): the finding's claim that \"'Angi' is not a named source anywhere in the cost packs\" is FALSE — Angi is an explicitly allowed named cost aggregator (sources-and-nqr-facts.md line 52; facts-materials-economics.md cites Angi throughout, e.g. lines 98, 100–101, 133, 164–169, 202–205). So the \"HomeAdvisor and Angi\" attribution on the legitimate $400–$2,000 band is CORRECT and should be retained; only the invented hail range is removed. The third-party \"licensed public adjuster\" cite in faqs[3] is also correct and untouched. No Millburn fact (COA posture, reservation, housing-age) is implicated.\n\nNet: a real, fixable fabrication. Keep the $400–$2,000 HomeAdvisor/Angi band and the slate $10–$30/sq ft NJ-guides figure; delete only the $3,000–$12,000 hail-specific range, mirrored in pricing.note.",
+      "finalFix": "faqs[4].answer — BEFORE: 'Storm-damage roof repair in New Jersey runs roughly $400 to $2,000 for most repairs, with hail-damage repair reaching $3,000 to $12,000 by hail size and roof area, per HomeAdvisor and Angi cost data. A natural slate, copper, or tile roof on a Short Hills estate costs more than asphalt, with slate installed at roughly $10 to $30 per square foot, per NJ roofing guides. Final cost depends on roof size, pitch, material, and access, and Newark Quality Roofing provides a free written estimate.' → AFTER: 'Storm-damage roof repair in New Jersey runs roughly $400 to $2,000 for most repairs, per HomeAdvisor and Angi cost data, and severe or widespread storm damage that approaches the replacement threshold runs higher. A natural slate, copper, or tile roof on a Short Hills estate costs more than asphalt, with slate installed at roughly $10 to $30 per square foot, per NJ roofing guides. Final cost depends on roof size, pitch, material, and access, and Newark Quality Roofing provides a free written estimate.'\n\npricing.note — BEFORE: 'Typical NJ leak-repair range per HomeAdvisor; most storm repairs run $400–$2,000, with hail-damage repair $3,000–$12,000 by hail size and roof area per Angi, and a Short Hills slate, copper, or tile roof costs more, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.' → AFTER: 'Typical NJ leak-repair range per HomeAdvisor; most storm repairs run $400–$2,000 per HomeAdvisor and Angi, and a Short Hills slate, copper, or tile roof costs more, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.'",
+      "city": "millburn"
+    },
+    {
+      "combo": "tile-roof-installation-repair",
+      "field": "challenges[1]",
+      "severity": "med",
+      "category": "fabrication",
+      "issue": "Unsourced hard age-threshold presented as a sourced fact. The '30 years or older' tile-age figure is attributed to TRI Alliance + the InterNACHI life-expectancy chart, but neither source gives a 30-year underlayment-failure threshold. The packs (facts-materials-economics.md §6; facts-historic-restoration.md) support 'underlayment fails sooner / is the real lifespan limiter' QUALITATIVELY only, with no age number. Violates Rule 10 (every hard number must trace to a named source).",
+      "evidence": "\"...interior stains appear beneath a tile roof 30 years or older while the tile above stays sound, the signal of failed underlayment rather than failed tile, per the Tile Roofing Industry Alliance and the InterNACHI life-expectancy chart.\"",
+      "suggestedFix": "Drop the unsourced '30 years or older' number → de-quantify to the pack-supported qualitative point: \"...interior stains appear beneath an aging tile roof while the tile above stays sound, the signal of failed underlayment rather than failed tile, because the underlayment fails before the tile, per the Tile Roofing Industry Alliance.\"",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in challenges[1]: \"...interior stains appear beneath a tile roof 30 years or older while the tile above stays sound, the signal of failed underlayment rather than failed tile, per the Tile Roofing Industry Alliance and the InterNACHI life-expectancy chart.\" The \"30 years or older\" is a hard age threshold attributed to two named sources, but neither supplies it. facts-materials-economics.md §6 (lines 245, 250, 257) and facts-historic-restoration.md (lines 227, 368) support the underlayment-fails-first / real-lifespan-limiter point QUALITATIVELY only — no age number. The InterNACHI master chart (lines 44–61) has NO underlayment row at all and lists clay/concrete tile at \"100+\"; its only \"30\" entries are architectural asphalt, BUR, and coal/tar — wholly unrelated to tile-underlayment failure. The affluent-suburban fact bank grounds material lifespans in that same InterNACHI shared pack and supplies no Millburn-specific tile-age figure (the GLOBAL CORRECTIONS frame the heritage roof mix qualitatively). So a hard number is attributed to sources that do not contain it — a Rule 10 / fabrication violation. This is NOT defensible gold: although the identical \"30 years or older / per TRI Alliance and InterNACHI\" string recurs in committed siblings (newark, caldwell, bloomfield, livingston, north-caldwell), that is propagated unsourced debt, not committed gold — the genuinely pack-faithful phrasing in this same file's faqs[0] and in south-orange uses the qualitative \"30-to-50-year-old\" path tied to the underlayment point, never a sourced \"30 years or older\" InterNACHI threshold. No third-party-licensed misuse and no COA/geography issue is involved; the finding is a real, fixable named-source-attribution fabrication. Fix de-quantifies to the pack-supported qualitative point and keeps both cites only where they actually apply (TRI Alliance = underlayment limiter; InterNACHI = 100-year tile lifespan), preserving facts by relocating rather than deleting attribution.",
+      "finalFix": "BEFORE: '**Hidden underlayment failure** beneath an intact tile field is the most insidious challenge on an aging Millburn tile roof, because interior stains appear beneath a tile roof 30 years or older while the tile above stays sound, the signal of failed underlayment rather than failed tile, per the Tile Roofing Industry Alliance and the InterNACHI life-expectancy chart. A Newark Quality Roofing diagnosis lifts tiles at representative locations to inspect the membrane directly.'\n\nAFTER: '**Hidden underlayment failure** beneath an intact tile field is the most insidious challenge on an aging Millburn tile roof, because interior stains appear beneath a sound tile field that itself lasts 100 years or more, the signal of failed underlayment rather than failed tile, per the InterNACHI life-expectancy chart and the Tile Roofing Industry Alliance, which identifies the underlayment as the real lifespan limiter. A Newark Quality Roofing diagnosis lifts tiles at representative locations to inspect the membrane directly.'",
+      "city": "millburn"
+    },
+    {
+      "combo": "commercial-roof-replacement",
+      "field": "faqs[1].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The 25–30% flat-roof AREA replacement threshold is attributed to 'Kellow, Modernize, and Josten flat-roof guidance.' Per facts-materials-economics.md, the flat-roof 25–30% AREA-damaged rule is sourced to Parish/Modernize/HomeGuide (§194, §308); Kellow/Modernize/Josten is the source for the separate 30%-of-replacement-COST rule (§90, §306). This both mis-pairs the source and breaks cross-combo consistency: the SAME flat-roof area threshold is correctly cited as 'Parish, Modernize, and HomeGuide' in commercial-roof-repair (faqs[4]) and infrared-roof-leak-detection (challenges[2]).",
+      "evidence": "\"Replace a commercial roof when membrane damage exceeds 25 to 30% of the roof area ... The 25 to 30% flat-roof threshold traces to Kellow, Modernize, and Josten flat-roof guidance\"",
+      "suggestedFix": "Change \"The 25 to 30% flat-roof threshold traces to Kellow, Modernize, and Josten flat-roof guidance\" → \"The 25 to 30% flat-roof threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance\" (matching the pack and the two sibling combos).",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim in faqs[1].answer (the \"Should you repair or replace\" FAQ, line 35): \"The 25 to 30% flat-roof threshold traces to Kellow, Modernize, and Josten flat-roof guidance.\" This mis-attributes the flat-roof AREA-damaged rule. Per facts-materials-economics.md, the flat-roof 25–30% AREA-damaged threshold is sourced to Parish/Modernize/HomeGuide (line 194: \"Flat roof: replace when >25–30% of membrane shows damage ... Parish/Modernize/HomeGuide\"; rule glossary line 308: \"Flat-roof 25–30% rule ... Parish / Modernize\"). Kellow/Modernize/Josten is the source for the SEPARATE 30%-of-replacement-COST rule (line 90: \"Repair > 30% of replacement cost → lean replace | Kellow Construction / Modernize\"; rule glossary line 306: \"30% rule | Repair > 30% of replacement → lean replace | Kellow / Modernize / Josten (NJ)\"). So the attribution is genuinely mis-paired against a named-source fact. It also breaks cross-combo consistency: the SAME flat-roof area threshold is correctly cited as \"Parish, Modernize, and HomeGuide\" in the two committed Millburn siblings — commercial-roof-repair faqs[4] (line 51: \"The 25 to 30% flat-roof threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance\") and infrared-roof-leak-detection challenges[2] (line 19: \"the flat-roof replacement threshold of more than 25 to 30% membrane damage, per Parish, Modernize, and HomeGuide flat-roof guidance\"). This is not a Millburn-fact, COA, entity-grounding, or gold-voice issue — the COA/historic FAQ (faqs[3]) is correct (binding-but-narrow, Wyoming/Short Hills Park districts/landmarks, COA separate from permit, Register-only Paper Mill/Cora Hartshorn impose no gate). It is a real, fixable named-source mis-pairing fixed by re-attribution (facts preserved, source relocated to the correct rule).",
+      "finalFix": "In src/data/combo-content/millburn/commercial-roof-replacement.ts, faqs[1].answer: change \"The 25 to 30% flat-roof threshold traces to Kellow, Modernize, and Josten flat-roof guidance\" → \"The 25 to 30% flat-roof threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance\" (matching facts-materials-economics.md §194/§308 and the two committed Millburn siblings commercial-roof-repair faqs[4] and infrared-roof-leak-detection challenges[2]).",
+      "city": "millburn"
+    },
+    {
+      "combo": "roof-ice-dam-prevention",
+      "field": "faqs[2].answer",
+      "severity": "high",
+      "category": "fabrication",
+      "issue": "Wrong clay/concrete tile lifespan attributed to InterNACHI. The InterNACHI Standard Estimated Life Expectancy Chart lists Clay/Concrete tile at 100+ years (per facts-materials-economics.md §0 master table). This combo states '50 years or more' and pins it to InterNACHI — a fabricated/wrong figure under a named source. It also contradicts the other two combos in the same cohort, which both correctly state '100-plus years, per the InterNACHI life-expectancy chart' (custom-roof-design overview[2], process[1], faqs[2]; historic FAQ4). This is both a fabrication and a cross-combo consistency defect. (The committed Millburn city page carries the same '50 years or more' error, but the pack value is 100+ and the cohort's other combos already use it.)",
+      "evidence": "'Natural slate lasts 60 to 150 years, copper 70 years or more, and clay and concrete tile 50 years or more, per the InterNACHI life-expectancy chart'",
+      "suggestedFix": "Change 'clay and concrete tile 50 years or more' to 'clay and concrete tile 100 years or more' so it matches the InterNACHI chart (Clay/Concrete 100+) and the other two combos in the cohort. Before: '...copper 70 years or more, and clay and concrete tile 50 years or more, per the InterNACHI life-expectancy chart' → After: '...copper 70 years or more, and clay and concrete tile 100 years or more, per the InterNACHI life-expectancy chart'.",
+      "verdict": "confirmed",
+      "reasoning": "The flagged text is present verbatim at faqs[2].answer: \"Natural slate lasts 60 to 150 years, copper 70 years or more, and clay and concrete tile 50 years or more, per the InterNACHI life-expectancy chart.\" This is a real fabrication under a named source. The InterNACHI \"Standard Estimated Life Expectancy Chart for Homes\" lists Clay/Concrete tile at 100+ years, confirmed in facts-materials-economics.md §0 master table (line 54, [PRIMARY], \"verified by direct fetch nachi.org 2026-06-03\") and again in §6 line 244 ([PRIMARY], \"Clay / concrete tile 100+ yrs ... InterNACHI chart\"). The combo's slate (60 to 150) and copper (70+) figures match InterNACHI exactly (lines 49, 52), which isolates \"50 years or more\" as the lone wrong figure — and it is pinned to the named InterNACHI source, making it a fabricated value under a named attribution (high severity). The affluent-suburban city-facts bank (line 475) explicitly grounds material lifespans in \"InterNACHI (shared pack),\" so there is no Millburn-specific override — the shared pack value of 100+ governs. This is also a cross-combo consistency defect: within the same Millburn cohort, custom-roof-design-consultation.ts (lines 13/24/41), residential-roof-installation.ts (lines 12/41), and tile-roof-installation-repair.ts all correctly state clay/concrete tile at \"100-plus / 100 years or more, per the InterNACHI life-expectancy chart,\" while this ice-dam combo (and several other Millburn siblings) carry the \"50\" error. The issue is purely factual misattribution to a named source — not a COA/geography, entity-grounding, gold-voice, or third-party-license matter, none of which would excuse it. The default-skeptic stance protects defensible original text, but here the original text fails against a directly verified named-source fact, so the finding stands. The suggested fix relocates/re-attributes (corrects the figure to the named source's value) rather than deleting, preserving the slate and copper facts and the sentence structure.",
+      "finalFix": "In src/data/combo-content/millburn/roof-ice-dam-prevention.ts, faqs[2].answer, change \"clay and concrete tile 50 years or more\" to \"clay and concrete tile 100 years or more\". Before: \"Natural slate lasts 60 to 150 years, copper 70 years or more, and clay and concrete tile 50 years or more, per the InterNACHI life-expectancy chart, so accumulated ice-dam damage that requires restoration is worth preventing on these long-lived coverings.\" After: \"Natural slate lasts 60 to 150 years, copper 70 years or more, and clay and concrete tile 100 years or more, per the InterNACHI life-expectancy chart, so accumulated ice-dam damage that requires restoration is worth preventing on these long-lived coverings.\"",
+      "city": "millburn"
+    },
+    {
+      "combo": "silicone-roof-coating",
+      "field": "faqs[0].answer",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The ¼-inch-per-foot low-slope drainage minimum is mis-attributed to RCMA. The ¼\"/ft slope-to-drain rule is an NRCA/ARMA roofing standard; RCMA owns coating chemistry and recoat economics, not the drainage-slope minimum. The energy-solar fact pack carries no ¼\"/ft slope rule under RCMA, and the gold Orange exemplar plus this combo's own sibling (silicone-elastomeric-roof-coating.ts:17) correctly attribute it to 'the NRCA and ARMA'. This is both a source-attribution defect and a cross-combo consistency break within the cohort (same fact, two different attributions).",
+      "evidence": "\"...rebuilds parapet, scupper, and downspout flashing, because a flat roof needs at least one-quarter inch per foot of slope to drain, per the RCMA and NRCA.\" (silicone-roof-coating.ts line 31) — vs. silicone-elastomeric-roof-coating.ts line 17: \"...a low-slope roof needs at least one-quarter inch per foot of slope to drain, per the NRCA and ARMA.\"",
+      "suggestedFix": "Change \"per the RCMA and NRCA\" → \"per the NRCA and ARMA\" so the slope minimum is attributed to the standard bodies that own it and matches the sibling combo. (The earlier RCMA cite in the same sentence for ponding resistance is correct and stays.)",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim at src/data/combo-content/millburn/silicone-roof-coating.ts line 31: \"...rebuilds parapet, scupper, and downspout flashing, because a flat roof needs at least one-quarter inch per foot of slope to drain, per the RCMA and NRCA.\" The ¼-in/ft slope-to-drain minimum is mis-attributed to RCMA. Per the research fact pack facts-components-specialty.md line 253 — \"Low-slope/flat roofs need positive drainage — NRCA min design slope ¼ in per foot (~2%); ponding accelerates membrane deterioration | ¼ in/ft | NRCA; ARMA | PRIMARY\" — this slope minimum is owned by NRCA and ARMA, not RCMA. RCMA appears in the research packs only in facts-energy-solar.md, where its scope is coating chemistry, ponding resistance, warranty/dry-film thickness, recoat economics, and the R-value myth (lines 287-303); it carries NO slope rule. This is also an internal cohort consistency break: the sibling combo silicone-elastomeric-roof-coating.ts line 17 attributes the identical fact correctly to \"the NRCA and ARMA.\" The earlier RCMA cite in the same sentence (ponding resistance, \"per the RCMA, Gaco, and Western Colloid\") is correct and stays — RCMA legitimately owns the ponding-resistance fact (facts-energy-solar.md line 288). The defect is not a Millburn-fact/COA, entity-grounding, or gold-exemplar matter; it is a clean source-attribution error. The like-for-like re-attribution preserves the fact, word count, and answer-first structure.",
+      "finalFix": "In src/data/combo-content/millburn/silicone-roof-coating.ts, faqs[0].answer (line 31): change \"because a flat roof needs at least one-quarter inch per foot of slope to drain, per the RCMA and NRCA.\" → \"because a flat roof needs at least one-quarter inch per foot of slope to drain, per the NRCA and ARMA.\" (Leave the earlier \"per the RCMA, Gaco, and Western Colloid\" ponding cite unchanged.)",
+      "city": "millburn"
+    },
+    {
+      "combo": "re-roofing",
+      "field": "process[0]",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "The 50% repair-vs-replace rule (and the 25%-area rule) is mis-pinned to Kellow/Modernize/Josten. Per the source matrix, Kellow/Modernize/Josten back the 30% rule; the 50% rule = WeatherShield/Home Depot, and the 25%-area rule = RapidRestore. Naming Kellow/Modernize/Josten as the source for the 50% rule is a wrong-source cite, and labeling a '25–30%' band 'the 25% rule' is internally muddy.",
+      "evidence": "'Damage across more than 25–30% of the roof area crosses the 25% rule and a repair approaching 50% of replacement cost crosses the 50% rule, per Kellow, Modernize, and Josten cost data, while a localized repair stays economical only on an asphalt roof under 10 to 15 years old, per Home Depot guidance.'",
+      "suggestedFix": "Re-pin to the correct sources, matching the same file's siblings (roof-replacement-after-leak pins 30% to Kellow Construction and Modernize): before → '...crosses the 25% rule and a repair approaching 50% of replacement cost crosses the 50% rule, per Kellow, Modernize, and Josten cost data'; after → 'Damage across more than 25–30% of the roof area or a repair approaching 50% of replacement cost favors replacement — the 30% rule per Kellow, Modernize, and Josten and the 50% rule per WeatherShield and Home Depot — while a localized repair stays economical only on an asphalt roof under 10 to 15 years old, per Home Depot guidance.'",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim at process[0] (line 23): \"Damage across more than 25–30% of the roof area crosses the 25% rule and a repair approaching 50% of replacement cost crosses the 50% rule, per Kellow, Modernize, and Josten cost data, while a localized repair stays economical only on an asphalt roof under 10 to 15 years old, per Home Depot guidance.\" The source matrix in .planning/content-system/research/facts-materials-economics.md §8 (lines 305-307) and §7 (lines 88-90, 279, 306) is unambiguous: the 50% rule = WeatherShield / Home Depot / industry; the 30% rule (repair > 30% of replacement → lean replace) = Kellow / Modernize / Josten (NJ); the 25% rule (damage > 25% of roof AREA → replace) = RapidRestore / MyQuoteIQ. The combo names only the 25% rule and the 50% rule in the sentence, then attaches \"per Kellow, Modernize, and Josten cost data\" — but those three back the 30% rule, NOT the 50% (WeatherShield/Home Depot) nor the 25% (RapidRestore/MyQuoteIQ). The proximate clause being attributed is the 50% rule, so this is a genuine wrong-source cite. The same file's sibling roof-replacement-after-leak.ts (lines 20, 31) correctly pins the 30% rule to \"Kellow Construction and Modernize,\" confirming the gold-correct mapping and that re-roofing is the deviation. The finding's secondary point also holds: labeling a \"25–30%\" band \"the 25% rule\" is internally muddy, since the 30% figure here is the cost-rule (Kellow/Modernize/Josten) not the 25% area-rule. This is the documented batch lesson (authors mis-pair contractor-blog rule-of-thumb sources). COA posture, entity-grounding (registered NJ HIC, directAnswer form), and the Home Depot localized-repair clause are all correct and untouched by the fix. Confirmed.",
+      "finalFix": "In src/data/combo-content/millburn/re-roofing.ts process[0], replace: 'Damage across more than 25–30% of the roof area crosses the 25% rule and a repair approaching 50% of replacement cost crosses the 50% rule, per Kellow, Modernize, and Josten cost data, while a localized repair stays economical only on an asphalt roof under 10 to 15 years old, per Home Depot guidance.' → 'Damage across more than 25% of the roof area crosses the 25% rule, per RapidRestore, and a repair approaching 50% of replacement cost crosses the 50% rule, per WeatherShield and Home Depot, while a repair nearing 30% of replacement cost leans toward replacement, per Kellow, Modernize, and Josten — and a localized repair stays economical only on an asphalt roof under 10 to 15 years old, per Home Depot guidance.'",
+      "city": "millburn"
+    },
+    {
+      "combo": "re-roofing (+ aging-roof-replacement, storm-damage-roof-replacement, roof-replacement-after-leak)",
+      "field": "overview[1] / faqs[3].answer (+ sibling-combo overview strings)",
+      "severity": "med",
+      "category": "source-attribution",
+      "issue": "Clay/concrete tile lifespan is cited as '50 years or more' / '50-plus years' attributed to the InterNACHI life-expectancy chart, but the InterNACHI chart row is 'Clay/Concrete tile 100+'. The '50+' value does not come from InterNACHI (the ~40–75 concrete figure is Tile Roofing Industry Alliance). This is both a wrong-source attribution and a cross-combo inconsistency: aging-roof-replacement faqs[3] states clay tile '75 to 100-plus years' (attributed to InterNACHI + National Slate Association + TRIA — the 75–100+ is TRIA only, and the National Slate Association is a slate body, not a tile authority), so the same cohort prints tile as both '50+' and '75–100+' against the same InterNACHI cite.",
+      "evidence": "re-roofing overview[1]: 'clay and concrete tile 50-plus years ... per the InterNACHI life-expectancy chart'; aging-roof-replacement faqs[3]: 'clay tile at 75 to 100-plus years ... The lifespans trace to the InterNACHI life-expectancy chart, the National Slate Association, and the Tile Roofing Industry Alliance.'",
+      "suggestedFix": "Pick one tile value + correct source and apply it across all five strings. Align to the InterNACHI chart (the dominant cite): before → 'clay and concrete tile 50-plus years, per the InterNACHI life-expectancy chart'; after → 'clay and concrete tile 100-plus years, per the InterNACHI life-expectancy chart'. In aging faqs[3], drop the National Slate Association from the tile clause (it is a slate authority): keep 'clay tile at 75 to 100-plus years, per the Tile Roofing Industry Alliance' and reserve InterNACHI/NSA for the slate figure.",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present and violates a named-source fact plus committed GOLD. The fact pack (.planning/content-system/research/facts-materials-economics.md) verifies by direct fetch (2026-06-03) that the InterNACHI \"Standard Estimated Life Expectancy Chart for Homes\" lists \"Clay / Concrete tile 100+\" (lines 52, 244). It does NOT list 50+. The ~40–75-year concrete figure is Tile Roofing Industry Alliance (line 246), and \"Clay tile 75+/100+\" is also TRIA (line 245) — so attributing 50+ (or 75–100+) to InterNACHI is a wrong-source attribution. The National Slate Association is a slate authority (\"premium slate 100+ yr,\" lines 111/321), not a tile body, so naming it for a tile figure is also misattributed. The inconsistency is real and internal: against the SAME InterNACHI cite, re-roofing/storm/aging-overview/leak all print tile as \"50-plus / 50 years or more,\" while aging-roof-replacement faqs[3] prints \"clay tile at 75 to 100-plus years\" — the same Millburn cohort therefore self-contradicts. Decisively, all six committed-GOLD sibling cities (Newark, Orange, East Orange, Bloomfield, Belleville, Nutley custom-roof-design-consultation) uniformly print \"clay or concrete tile 100-plus years, per the InterNACHI life-expectancy chart,\" so the gold/canonical value is 100+, and Millburn's 50+ is a deviation, not template-consistent voice. Fix: align all four overview strings to InterNACHI 100-plus (matching gold), and in aging faqs[3] re-pin the 75–100+ figure to TRIA (its actual source per fact pack line 245) and drop the National Slate Association from the tile clause, reserving InterNACHI/NSA for the slate (60–150 / 100+) figure. No Millburn fact (COA posture, reservation, housing-age) or entity-grounding rule is implicated; this is purely source-attribution + cross-combo consistency.",
+      "finalFix": "Apply the canonical InterNACHI tile value (100+, matching all six committed-gold cities) across all five strings, relocating not deleting facts:\n\n1) src/data/combo-content/millburn/re-roofing.ts overview[1]:\nBEFORE: \"...copper 70-plus years, clay and concrete tile 50-plus years, and cedar 20 to 40 years, per the InterNACHI life-expectancy chart.\"\nAFTER: \"...copper 70-plus years, clay and concrete tile 100-plus years, and cedar 20 to 40 years, per the InterNACHI life-expectancy chart.\"\n\n2) src/data/combo-content/millburn/aging-roof-replacement.ts overview[1] (line 12):\nBEFORE: \"...copper 70 years or more, and clay and concrete tile 50 years or more, per the InterNACHI life-expectancy chart...\"\nAFTER: \"...copper 70 years or more, and clay and concrete tile 100 years or more, per the InterNACHI life-expectancy chart...\"\n\n3) src/data/combo-content/millburn/storm-damage-roof-replacement.ts overview[2] (line 13):\nBEFORE: \"...copper 70 years or more, and clay and concrete tile 50 years or more, per the InterNACHI life-expectancy chart.\"\nAFTER: \"...copper 70 years or more, and clay and concrete tile 100 years or more, per the InterNACHI life-expectancy chart.\"\n\n4) src/data/combo-content/millburn/roof-replacement-after-leak.ts overview[3] (line 14):\nBEFORE: \"...copper 70 years or more, clay and concrete tile 50 years or more, cedar 20–40 years, architectural asphalt 30 years, and 3-tab asphalt 20 years, per the InterNACHI life-expectancy chart.\"\nAFTER: \"...copper 70 years or more, clay and concrete tile 100 years or more, cedar 20–40 years, architectural asphalt 30 years, and 3-tab asphalt 20 years, per the InterNACHI life-expectancy chart.\"\n\n5) src/data/combo-content/millburn/aging-roof-replacement.ts faqs[3].answer (line 46) — re-pin the tile figure to its true source (TRIA) and drop NSA from the tile clause, keeping NSA/InterNACHI on slate:\nBEFORE: \"Natural slate lasts the longest at 60 to 150 years, followed by clay tile at 75 to 100-plus years, copper at 70 years or more, architectural asphalt at 30 years, and 3-tab asphalt at 20 years. The lifespans trace to the InterNACHI life-expectancy chart, the National Slate Association, and the Tile Roofing Industry Alliance.\"\nAFTER: \"Natural slate lasts the longest at 60 to 150 years, per the InterNACHI life-expectancy chart and the National Slate Association, followed by clay tile at 75 to 100-plus years, per the Tile Roofing Industry Alliance, then copper at 70 years or more, architectural asphalt at 30 years, and 3-tab asphalt at 20 years, per the InterNACHI life-expectancy chart.\"",
+      "city": "millburn"
+    },
+    {
+      "combo": "full-roof-tear-off",
+      "field": "challenges[2]",
+      "severity": "med",
+      "category": "fabrication",
+      "issue": "'a 30-to-50-square estate roof' is an unsourced hard dimensional figure. No fact pack supports a 30–50-square (3,000–5,000 sq ft) typical Millburn estate-roof size, and the brief bans fabricated estate dimensional specifics. Per Ruleset R10/D-01, an unsupported hard number is de-quantified, not invented.",
+      "evidence": "'**Weather exposure between tear-off and new cover** carries interior risk on a 30-to-50-square estate roof that spans several working days.'",
+      "suggestedFix": "De-quantify the roof size: before → '...carries interior risk on a 30-to-50-square estate roof that spans several working days.'; after → '...carries interior risk on a large estate roof whose tear-off spans several working days.'",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present verbatim at millburn/full-roof-tear-off.ts challenges[2]: \"carries interior risk on a 30-to-50-square estate roof that spans several working days.\" The \"30-to-50-square\" figure (3,000–5,000 sq ft) is an unsourced hard dimensional spec for a typical Millburn estate roof. Verification: (1) No fact pack supports it — facts-cost-stats.md gives only per-sq-ft / per-square unit costs ($3–$5/sq ft, $350–$1,100/square), never a typical estate roof square-count. (2) The affluent-suburban fact bank explicitly requires Short Hills roof character framed QUALITATIVELY (\"no per-style count is sourced\"; \"frame the roof-material mix ... QUALITATIVELY\"). (3) The Millburn brief (cities-batchE/millburn.md) mandates \"Every digit named-sourced; no fabricated number\" and explicitly PURGED a fabricated estate dimensional spec (\"4,200 sq ft Vermont Unfading Green\") — the exact fabrication class the finding names. (4) Cross-combo consistency is decisive: the sibling affluent-suburban combo Livingston, plus Cedar Grove, Verona, and Roseland, all phrase the identical \"Weather exposure\" challenge WITHOUT any roof-size figure — Millburn alone invents the square-count. Per Ruleset R10/D-01 an unsupported hard number is de-quantified, not invented. This is a real, fixable fabrication. The suggested fix is sound: it preserves the answer-first bold lead and the legitimate qualitative \"estate roof / several working days\" framing while deleting only the invented number, and the result is grammatical.",
+      "finalFix": "In src/data/combo-content/millburn/full-roof-tear-off.ts, challenges[2]: before → '**Weather exposure between tear-off and new cover** carries interior risk on a 30-to-50-square estate roof that spans several working days. Newark Quality Roofing phases the tear-off to expose only the deck area it re-sheathes and weatherproofs within each day, applying an ice barrier or synthetic underlayment to close every exposed square foot before end of day.'; after → '**Weather exposure between tear-off and new cover** carries interior risk on a large estate roof whose tear-off spans several working days. Newark Quality Roofing phases the tear-off to expose only the deck area it re-sheathes and weatherproofs within each day, applying an ice barrier or synthetic underlayment to close every exposed square foot before end of day.'",
+      "city": "millburn"
+    },
+    {
+      "combo": "slate-roof-replacement",
+      "field": "challenges[0]",
+      "severity": "med",
+      "category": "answer-length",
+      "issue": "The challenges[0] lead is a single run-on sentence of ~55 words with no internal break, violating R2 (the first string of challenges must be a definitive answer of <=40 words). The whole chain 'drives the defining slate-replacement condition... because... so years of trapped moisture... once the slate comes off' never resolves until 55 words in.",
+      "evidence": "'**Deteriorated sheathing discovered at tear-off** drives the defining slate-replacement condition on a Millburn estate roof, because a slate roof cannot be recovered over and a slate replacement is always a full tear-off, per N.J.A.C. 5:23-6.4, so years of trapped moisture under aged valley and chimney flashing surface as rotted decking once the slate comes off.'",
+      "suggestedFix": "Split into a <=40-word lead + a body clause. Before: the single 55-word sentence. After: '**Deteriorated sheathing discovered at tear-off** drives the defining slate-replacement condition on a Millburn estate roof, because a slate roof cannot be recovered over and a slate replacement is always a full tear-off, per N.J.A.C. 5:23-6.4. Years of trapped moisture under aged valley and chimney flashing surface as rotted decking once the slate comes off.' (lead now ~36 words, definitive; second sentence keeps re-bolding the section topic per R3 if desired).",
+      "verdict": "confirmed",
+      "reasoning": "REAL R2 violation. The project's own R2 rule (_MILLBURN-BRIEF.md §B.1) requires \"the first STRING of overview/challenges/process\" to be \"a definitive ≤40-word answer.\" The flagged challenges[0] is a single 55-word run-on sentence (verified word count = 55; it is one sentence — the only periods are inside the \"N.J.A.C.\" abbreviation). Its five-link causal chain (drives… because… and… per… so…) does not resolve into a definitive answer until the final clause, so the first string is neither ≤40 words nor self-contained.\n\nWhy the gate stayed green and the finding is still valid: audit-leads.ts measures challenges[0] via words(firstSentence(text)) where firstSentence splits on /(?<=[.!?])\\s/. That regex treats the period in \"N.J.A.C. 5:23-6.4\" as a sentence terminator, so the gate measures only the truncated 34-word fragment ending at \"N.J.A.C.\" and passes. That is a measurement artifact of an abbreviation period, NOT compliance — the human-readable first string is genuinely 55 words.\n\nThis is NOT committed gold. The gold Orange slate-roof-replacement challenges[0] keeps a tight first sentence + second sentence (\"**Failed fasteners, not failed stone,** end most Orange slate roofs, because plain steel and galvanized nails rust out long before the slate, per NPS Preservation Brief 29. A Newark Quality Roofing crew rates the roof against the 20% replacement threshold before quoting.\"), and the sibling Millburn roof-replacement.ts / cedar-shake-roof-replacement.ts challenges[0] each resolve cleanly (sentence break after a self-contained answer, or a single ≤43w sentence). The flagged slate string is the only one in the set that runs a single unbroken 55-word chain.\n\nFacts are all sound and must be preserved: the \"slate cannot be recovered over / always a full tear-off, per N.J.A.C. 5:23-6.4\" claim matches the fact bank (Rule 2: recover-vs-tear-off governed by Rehab Subcode 5:23-6.4) and the gold Orange combo verbatim. The defect is structural only. The fix is a fact-preserving comma→period split after \"N.J.A.C. 5:23-6.4,\" yielding a 35-word definitive lead (gate firstSentence = 34w, no regression) plus a second body clause carrying the remaining moisture/decking detail. The second sentence needs no R3 re-bold because it is a continuation clause WITHIN challenges[0], not a separate array element (siblings do the same — e.g. roof-replacement.ts challenges[0] second sentence opens \"A Newark Quality Roofing assessment…\" with no bold).",
+      "finalFix": "BEFORE (challenges[0]):\n'**Deteriorated sheathing discovered at tear-off** drives the defining slate-replacement condition on a Millburn estate roof, because a slate roof cannot be recovered over and a slate replacement is always a full tear-off, per N.J.A.C. 5:23-6.4, so years of trapped moisture under aged valley and chimney flashing surface as rotted decking once the slate comes off.'\n\nAFTER (challenges[0]) — single edit: change the comma after \"5:23-6.4\" to a period and capitalize \"Years\"; all facts/sources preserved:\n'**Deteriorated sheathing discovered at tear-off** drives the defining slate-replacement condition on a Millburn estate roof, because a slate roof cannot be recovered over and a slate replacement is always a full tear-off, per N.J.A.C. 5:23-6.4. Years of trapped moisture under aged valley and chimney flashing surface as rotted decking once the slate comes off.'\n\n(Lead is now a definitive 35-word answer; gate firstSentence measures 34w — no new violation.)",
+      "city": "millburn"
+    },
+    {
+      "combo": "cedar-shake-roof-replacement",
+      "field": "challenges[0]",
+      "severity": "med",
+      "category": "answer-length",
+      "issue": "The challenges[0] lead is a single sentence of ~43 words with no internal break, violating R2 (first string of challenges must be a definitive <=40-word answer). The 'because... and over... so a full removal... is the only code-compliant path, per the NJ Rehabilitation Subcode' chain pushes it to 43 words.",
+      "evidence": "'**A tear-off to the deck** governs a Millburn cedar replacement, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a full removal of the cedar covering is the only code-compliant path, per the NJ Rehabilitation Subcode.'",
+      "suggestedFix": "Tighten under 40 words. Before: the 43-word sentence. After: '**A tear-off to the deck** governs a Millburn cedar replacement, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a full removal of the cedar covering is the only code-compliant path.' (drops the redundant trailing 'per the NJ Rehabilitation Subcode' — 5:23-6.4 already names it — landing at ~38 words).",
+      "verdict": "confirmed",
+      "reasoning": "The offending text is present exactly as cited: challenges[0] is a single 43-word sentence with no internal period break (verified: wc -w = 43; tokens 1-43 enumerated). Read as a human sentence it overruns the R2 ≤40-word target. Gold-sibling check (the decisive test): the committed cities that use this same N.J.A.C. 5:23-6.4 tear-off construction keep the FIRST human sentence at/under 40w and push the rest into a SECOND sentence — bloomfield first sentence = 34w, irvington = 31w, west-orange = 41w, each then continues with \"A Newark Quality Roofing crew…\". Millburn alone crams BOTH \"so a full removal… is the only code-compliant path\" AND \"per the NJ Rehabilitation Subcode\" into one breath, hitting 43w, and is the only lead carrying a redundant trailing source-gloss (\"per the NJ Rehabilitation Subcode\") when N.J.A.C. 5:23-6.4 already names that subcode (fact bank line 483: \"recover-vs-tear-off per Rehab Subcode 5:23-6.4\"). So this is NOT a match to committed gold voice — it is an outlier overrun. Caveat I verified for honesty: the project's own audit-leads.ts gate does NOT flag this, because its firstSentence regex splits on (?<=[.!?])\\s and \"N.J.A.C.\" ends in period+space, truncating the measured first sentence to 12w — a measurement blind spot, not a pass. R2 is a semantic ruleset rule, not just whatever the regex happens to count, so the gate quirk does not excuse the overrun. No Millburn fact, entity-grounding requirement (directAnswer/registered-HIC untouched), or COA posture is implicated — the COA-scope text lives in challenges[3] and is correct. The suggested fix drops only the redundant trailing attribution, lands at 38w (verified), and preserves every fact (5:23-6.4 = the Rehabilitation Subcode). Real, fixable, fact-preserving → confirmed.",
+      "finalFix": "In src/data/combo-content/millburn/cedar-shake-roof-replacement.ts, challenges[0]:\nBEFORE: '**A tear-off to the deck** governs a Millburn cedar replacement, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a full removal of the cedar covering is the only code-compliant path, per the NJ Rehabilitation Subcode.'\nAFTER:  '**A tear-off to the deck** governs a Millburn cedar replacement, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a full removal of the cedar covering is the only code-compliant path.'\n(Drops the redundant trailing \", per the NJ Rehabilitation Subcode\" — N.J.A.C. 5:23-6.4 already names it — landing the single sentence at 38 words, under the 40-word R2 cap, while preserving the statute citation and every fact.)",
+      "city": "millburn"
+    }
+  ],
+  "low": [
+    {
+      "combo": "roof-repair",
+      "field": "faqs[4].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Source mis-pairing of the repair-vs-replace thresholds. The combo bundles BOTH the '25–30% area rule' AND the '50% cost rule' under 'attributed to Kellow, Modernize, and Josten.' Per the project source canon, the 50% repair-vs-replace cost rule = WeatherShield/Home Depot; only the 30% rule = Kellow/Modernize/Josten (the 25%-area rule = RapidRestore). The 50% cost rule is wrongly attributed.",
+      "evidence": "faqs[4].answer: 'The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten...'",
+      "suggestedFix": "Split the attribution: 'The 25–30% area rule is a contractor-consensus threshold attributed to Kellow, Modernize, and Josten, and the 50%-of-replacement-cost rule is a contractor-consensus threshold attributed to WeatherShield and Home Depot...'",
+      "city": "millburn"
+    },
+    {
+      "combo": "roof-replacement",
+      "field": "faqs[4].answer",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Same 50%-cost-rule mis-pairing as roof-repair. The '50% cost rule' is attributed to 'Kellow, Modernize, and Josten' alongside the 25–30% area rule; per canon the 50% cost rule = WeatherShield/Home Depot.",
+      "evidence": "faqs[4].answer: 'The 25 to 30% area rule and the 50% cost rule are contractor-consensus thresholds attributed to Kellow, Modernize, and Josten, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.'",
+      "suggestedFix": "Re-pin: 'The 25 to 30% area rule is a contractor-consensus threshold attributed to Kellow, Modernize, and Josten, and the 50%-of-replacement-cost rule is attributed to WeatherShield and Home Depot, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.'",
+      "city": "millburn"
+    },
+    {
+      "combo": "hail-damage-roof-repair",
+      "field": "challenges[0]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The observation that collateral hail dents (on gutters/vents/vehicles) are the first visible sign is attributed to the Insurance Information Institute, but the III is a claims-statistics source; the collateral-dent / from-the-ground hail-assessment guidance is sourced to IBHS in facts-causes-signs.md §2.3. The same combo's faqs[0].answer correctly attributes this to 'IBHS hail-assessment guidance' — so the attribution is inconsistent within the combo.",
+      "evidence": "challenges[0]: '...inspects each covering at close range rather than from the ground, where the Insurance Information Institute notes collateral dents first appear.'",
+      "suggestedFix": "Re-pin to IBHS to match the FAQ and the pack: '...rather than from the ground, where IBHS hail-assessment guidance notes collateral dents first appear.'",
+      "city": "millburn"
+    },
+    {
+      "combo": "flat-roof-installation-repair",
+      "field": "challenges[1]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Mild over-attribution. The ponding dead-load figure (~5 lb per inch per sq ft; ~500 lb over 100 sq ft) is correct and pack-present (facts-causes-signs.md), but the pack sources that weight figure to general trade guidance, not to the NRCA and ARMA — those two bodies back only the >48-hr-ponding-defect rule and the ¼-inch/ft slope rule in the same sentence. The 'per the NRCA and ARMA' tag bleeds onto the weight number.",
+      "evidence": "\"...standing water adds roughly 5 pounds per inch per square foot, so a 1-inch pond over 100 square feet adds about 500 pounds that deflects the deck, per the NRCA and ARMA.\"",
+      "suggestedFix": "Scope the NRCA/ARMA tag to the ponding-defect rule and leave the weight figure as a physical estimate: \"...standing water adds roughly 5 pounds per inch per square foot, so a 1-inch pond over 100 square feet adds about 500 pounds that deflects the deck; ponding held more than 48 hours counts as a defect, per the NRCA and ARMA.\"",
+      "city": "millburn"
+    },
+    {
+      "combo": "metal-roof-installation-repair",
+      "field": "overview[3]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The '5 to 10 years' sealant-life figure is pack-present (facts-causes-signs.md; facts-components-specialty.md) but pinned there to FLASHING/lap sealant in general (GAF/trade), not specifically to 'metal laps.' The paraphrase 'sealant at metal laps' plus the vague 'per roofing trade guidance' tag is defensible but loosens the source pin. Borderline — keep only if tightened.",
+      "evidence": "\"...because sealant at metal laps typically fails in 5 to 10 years, per roofing trade guidance.\"",
+      "suggestedFix": "Tighten the attribution to match the pack's flashing-sealant framing: \"...because exposed sealant at laps and flashing typically fails in 5 to 10 years, per GAF and roofing trade guidance.\"",
+      "city": "millburn"
+    },
+    {
+      "combo": "pvc-roofing",
+      "field": "directAnswer / conversionHooks.midPageCta",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "The service name is rendered lowercase as 'pvc roofing' in the directAnswer ('providing pvc roofing across Millburn') and the midPageCta ('free written estimate for pvc roofing in Millburn'), while the body, definition, FAQs, and metaDescription all use the correct uppercase initialism 'PVC'. The lowercase form reads as a typo for a known initialism and is inconsistent within the same file. (Likely inherited from the lowercased serviceId slug.)",
+      "evidence": "directAnswer: '...providing pvc roofing across Millburn, New Jersey...'; midPageCta: 'Get your free written estimate for pvc roofing in Millburn.'",
+      "suggestedFix": "Capitalize the initialism in both prose fields: 'providing PVC roofing across Millburn, New Jersey…' and 'Get your free written estimate for PVC roofing in Millburn.' (Do not change serviceId.)",
+      "city": "millburn"
+    },
+    {
+      "combo": "green-roof-installation",
+      "field": "overview[1] / faqs[2].answer / faqs[4].answer (vs pvc-roofing faqs[1].answer)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The PVC single-ply '20 to 30 years' lifespan figure carries two different (both pack-valid) attributions across the cohort: pvc-roofing.ts attributes it to 'the Single Ply Roofing Industry' alone, while green-roof-installation.ts attributes the same figure to 'the Single Ply Roofing Industry and GAF EverGuard warranty data' (twice). Same fact, same value, but the cohort is not carrying one consistent attribution string. Both sources are sanctioned by facts-materials-economics §6 ('Single Ply Roofing Industry; GAF EverGuard warranties up to 30–35 yr'), so this is a consistency-polish item, not a fabrication.",
+      "evidence": "pvc-roofing.ts: 'A PVC single-ply roof lasts 20 to 30 years … per the Single Ply Roofing Industry.' vs green-roof-installation.ts: 'PVC single-ply lasts 20 to 30 years, per the Single Ply Roofing Industry and GAF EverGuard warranty data'",
+      "suggestedFix": "Pick one attribution and use it for the PVC 20–30 yr figure in both files. Simplest: drop the 'and GAF EverGuard warranty data' rider in green-roof-installation.ts so both read 'per the Single Ply Roofing Industry,' matching pvc-roofing.ts.",
+      "city": "millburn"
+    },
+    {
+      "combo": "commercial-roof-replacement",
+      "field": "challenges[1]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The infrared physics claim ('wet insulation retains heat longer than dry insulation and reads as a warm anomaly after sunset') is attributed to 'ASTM and the NRCA.' Per facts-materials-economics.md §386, this thermal-physics fact is sourced to Fluke; IIBEC [SECONDARY-named]; ASTM C1153 is the standard PRACTICE (the procedure), not the physics source. This is inconsistent with the two thermal-imaging combos in the cohort, which correctly attribute the same physics 'per Fluke and IIBEC' (infrared-roof-leak-detection process[1]; roof-thermal-imaging-inspections challenges[1]).",
+      "evidence": "\"because wet insulation retains heat longer than dry insulation and reads as a warm anomaly after sunset, per ASTM and the NRCA, and a core cut verifies each anomaly, per ASTM C1153.\"",
+      "suggestedFix": "Re-pin the physics to Fluke/IIBEC and keep ASTM C1153 only for the procedure: \"...because wet insulation retains heat longer than dry insulation and reads as a warm anomaly after sunset, per Fluke and IIBEC, and a core cut verifies each anomaly, per ASTM C1153.\"",
+      "city": "millburn"
+    },
+    {
+      "combo": "infrared-roof-leak-detection",
+      "field": "faqs[5].answer",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "Minor cross-cohort cost-anchor variance worth noting, not a fabrication: this cost FAQ pivots the infrared scan to the residential leak-repair band ($400–$1,000 per HomeAdvisor and Modernize), while the other diagnostic combo (roof-thermal-imaging-inspections faqs[5]) gives a scope-only 'Varies by scope' answer with no dollar band. Both are pack-supported (the $400–$1,000 leak-repair band is real, facts-cost-stats §2), but the two infrared/thermal diagnostic combos answer the identical cost question with different framings. Acceptable if intentional (infrared-leak-detection ties to the downstream repair, thermal-inspections is diagnostic-only); flagging only for reviewer awareness.",
+      "evidence": "infrared: \"A typical NJ leak-repair following the scan runs $400–$1,000, per HomeAdvisor and Modernize cost data\" vs thermal-imaging: \"prices by roof size, slope, and the verification work the scan requires ... Newark Quality Roofing provides a free written estimate.\"",
+      "suggestedFix": "No change required if the divergence is intentional (infrared scopes the downstream repair; thermal-imaging stays diagnostic). If consistency is preferred, drop the $400–$1,000 downstream-repair band from infrared faqs[5] so both diagnostic combos answer cost scope-only, since neither scan itself has a pack-sourced dollar figure.",
+      "city": "millburn"
+    },
+    {
+      "combo": "roof-deck-repair-replacement",
+      "field": "overview[2]",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Unsourced quantified causal assertion. The sentence claims a dominant CAUSE of deck rot ('Most ... traces to a failed valley or chimney flashing'), but the fact packs only support (a) 'trapped moisture decays sheathing' attributed to InterNACHI (facts-components-specialty §10) and (b) flashing as the dominant LEAK source (~90-95%, NRCA-hedged). No pack supports 'most deck rot traces to flashing' as a proportion of deck-rot causation; it is a synthesized inference presented as fact.",
+      "evidence": "'Most Millburn deck rot traces to a failed valley or chimney flashing on a high-style slope rather than the field.' (overview second body string, the sentence following the InterNACHI trapped-moisture point)",
+      "suggestedFix": "De-quantify and re-pin to the supported mechanism. Before: 'Most Millburn deck rot traces to a failed valley or chimney flashing on a high-style slope rather than the field.' After: 'On a high-style slope, deck rot commonly originates where a failed valley or chimney flashing admits water to the sheathing, since most roof leaks originate at flashing, an industry estimate attributed to the NRCA, rather than at the open field.'",
+      "city": "millburn"
+    },
+    {
+      "combo": "fascia-installation-repair",
+      "field": "process[0]",
+      "severity": "low",
+      "category": "consistency",
+      "issue": "Lead opens with the noun 'inspectors' instead of the verb 'inspects', breaking the answer-first lead pattern used by every other combo's process[0] in the cohort (which opens 'Newark Quality Roofing inspects/diagnoses/sizes/identifies ...'). Reads as a grammar slip in the definitive first-string answer.",
+      "evidence": "'**Newark Quality Roofing inspectors trace the fascia failure to the water source — a clogged gutter, a loose gutter, or a failed slope — before replacing the board.**'",
+      "suggestedFix": "Before: 'Newark Quality Roofing inspectors trace the fascia failure to the water source ...' After: 'Newark Quality Roofing inspects the fascia and traces the failure to the water source ...' (keeps the bold span definitive, indicative, and consistent with the other nine combos).",
+      "city": "millburn"
+    },
+    {
+      "combo": "roof-waterproofing",
+      "field": "faqs[4].answer",
+      "severity": "low",
+      "category": "fabrication",
+      "issue": "Unattributed durability claim. 'A self-adhering ice-and-water membrane concealed beneath the covering lasts the life of the roof' is stated as fact with no named source. facts-components-specialty §9 attributes ASTM D1970 only to the self-seal-around-fasteners property and explicitly bans elastomeric/coating life numbers without a manufacturer spec; no pack supports a 'lasts the life of the roof' lifespan for the concealed membrane. (The same FAQ correctly source-pins the ASTM D226 felt and ASTM D1970 points; only this clause floats unsourced.)",
+      "evidence": "'A self-adhering ice-and-water membrane concealed beneath the covering lasts the life of the roof, and a self-adhered ice-and-water membrane self-seals around fasteners, per ASTM D1970.'",
+      "suggestedFix": "Soften to the durable-position-not-a-lifespan framing the pack supports. Before: 'A self-adhering ice-and-water membrane concealed beneath the covering lasts the life of the roof, ...' After: 'A self-adhering ice-and-water membrane is installed beneath the covering as a concealed secondary barrier and self-seals around fasteners, per ASTM D1970, so its service life is tied to the covering above it rather than to exposed weathering.'",
+      "city": "millburn"
+    },
+    {
+      "combo": "custom-roof-design-consultation",
+      "field": "faqs[4].answer (How does custom roof design handle a complex Millburn roof geometry?)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The complexity-drives-cost claim is attributed to a vague, unnamed 'per industry cost guidance' rather than a named pack source. The ruleset requires name-only attribution to a named body; 'industry cost guidance' is not a named source. The underlying point (valleys, dormers, and hips raise material and labor cost) is uncontroversial and carries no hard number, so severity is low — but the phrasing should either name a source or be de-attributed to a plain statement.",
+      "evidence": "'Roof complexity drives the per-square-foot cost across every material class, because valleys, dormers, and hips increase both material and labor over a simple gable roof, per industry cost guidance, and the reservation-edge canopy adds branch-impact and debris load to the design.'",
+      "suggestedFix": "Drop the vague tag and state it plainly (no fabricated source). Before: '...increase both material and labor over a simple gable roof, per industry cost guidance, and...' → After: '...increase both material and labor over a simple gable roof, and...'.",
+      "city": "millburn"
+    },
+    {
+      "combo": "fire-damage-roof-replacement",
+      "field": "faqs[3].answer (What fire rating does a replacement roof carry?)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The cedar Class A wood-shake assembly fact is attributed in part to 'InterNACHI'. Per the brief, InterNACHI is a lifespan/life-expectancy authority only; fire-class facts trace to UL 790 / ASTM E108 (and, for cedar, the Cedar Shake & Shingle Bureau / listed roof-system documentation per facts-replacement §7). InterNACHI should not co-anchor a fire-class claim.",
+      "evidence": "'...a Class A wood-shake roof is achieved only as a tested assembly of treated shakes over a listed fire barrier, per the Cedar Shake & Shingle Bureau and InterNACHI.'",
+      "suggestedFix": "Drop InterNACHI from the fire-class cite: before → 'per the Cedar Shake & Shingle Bureau and InterNACHI.'; after → 'per the Cedar Shake & Shingle Bureau, restating the UL 790 and ASTM E108 fire-test methods.'",
+      "city": "millburn"
+    },
+    {
+      "combo": "fire-damage-roof-replacement",
+      "field": "faqs[0].answer (Should you repair or replace a fire-damaged roof?)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "The '25 to 30% area rule' is attributed to 'Kellow, Modernize, and Josten'. Those sources back the 30% repair-vs-replace COST rule, not a 25%-area rule (the 25%-area rule = RapidRestore). The combined '25 to 30%' band partly covers the 30% rule so the cite is not wholly wrong, but framing it as a '25 to 30% area rule' per Kellow/Modernize/Josten conflates the 30% cost ratio with a separate area threshold.",
+      "evidence": "'...the 25 to 30% area rule favors full replacement, an industry estimate attributed to Kellow, Modernize, and Josten.'",
+      "suggestedFix": "Tie the named sources to the 30% rule they actually support: before → 'the 25 to 30% area rule favors full replacement, an industry estimate attributed to Kellow, Modernize, and Josten.'; after → 'a repair approaching 30% of replacement cost favors full replacement, per Kellow, Modernize, and Josten.'",
+      "city": "millburn"
+    },
+    {
+      "combo": "roof-replacement-after-leak",
+      "field": "faqs[1].answer (Do I need a permit to replace a leaked roof in Millburn?)",
+      "severity": "low",
+      "category": "answer-length",
+      "issue": "The FAQ answer's first sentence is 41 words, exceeding the ≤40-word definitive-answer cap (Ruleset R2). Sibling permit FAQs in this cohort (full-roof-tear-off, re-roofing, aging) land at ≤40 by trimming the trailing source clause or the 'in Millburn' phrase.",
+      "evidence": "'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Millburn counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code.'",
+      "suggestedFix": "Trim to ≤40: before (41 w) → ends '...no notice, per the NJ Uniform Construction Code.'; after (≈38 w) → 'A complete tear-off and replacement of the roof covering on a detached one- or two-family home in Millburn counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice.' (move the 'per the NJ Uniform Construction Code' cite into the second sentence).",
+      "city": "millburn"
+    },
+    {
+      "combo": "roof-replacement-cost",
+      "field": "faqs[4].answer (Should I repair or replace a Millburn roof?)",
+      "severity": "low",
+      "category": "source-attribution",
+      "issue": "Mild source mis-pairing of the repair-vs-replace thresholds. The combo attributes the '25 to 30% area rule' to 'Kellow, Modernize, and Josten' — but per the ruleset the named pairing is: 30% rule = Kellow/Modernize/Josten, 25%-area rule = RapidRestore, 50% rule = WeatherShield/Home Depot. The '50% cost rule' is left as generic 'contractor-consensus.' This conflates a 25%-area rule with the 30% cost rule. (Committed gold is known-loose on this pairing, so low severity; the 5-10x repair-vs-replace cite to Home Depot/Kelly Roofing is correct.)",
+      "evidence": "'The 25 to 30% area rule comes from Kellow, Modernize, and Josten cost guidance and the 50% cost rule is a contractor-consensus threshold, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.'",
+      "suggestedFix": "Before: 'The 25 to 30% area rule comes from Kellow, Modernize, and Josten cost guidance and the 50% cost rule is a contractor-consensus threshold'. After: 'The 30% repair-vs-replace rule comes from Kellow, Modernize, and Josten cost guidance, and the 50% rule is a separate contractor-consensus threshold' (drops the '25%... area' conflation; keeps the 30%->Kellow/Modernize/Josten pairing the pack actually supports). Optional: pin the 50% rule to WeatherShield/Home Depot for precision.",
+      "city": "millburn"
+    }
+  ],
+  "byCohort": [
+    {
+      "cohort": "millburn:repair-maintenance",
+      "confirmed": 2,
+      "refuted": 0,
+      "low": 3,
+      "failed": false
+    },
+    {
+      "cohort": "millburn:residential-roof-types",
+      "confirmed": 1,
+      "refuted": 1,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "millburn:commercial-roof-types",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "millburn:commercial-services",
+      "confirmed": 1,
+      "refuted": 0,
+      "low": 2,
+      "failed": false
+    },
+    {
+      "cohort": "millburn:components-specialty",
+      "confirmed": 0,
+      "refuted": 0,
+      "low": 3,
+      "failed": false
+    },
+    {
+      "cohort": "millburn:design-consultation",
+      "confirmed": 1,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    },
+    {
+      "cohort": "millburn:energy-solar",
+      "confirmed": 1,
+      "refuted": 0,
+      "low": 0,
+      "failed": false
+    },
+    {
+      "cohort": "millburn:replacement-A",
+      "confirmed": 3,
+      "refuted": 0,
+      "low": 3,
+      "failed": false
+    },
+    {
+      "cohort": "millburn:replacement-B",
+      "confirmed": 2,
+      "refuted": 0,
+      "low": 1,
+      "failed": false
+    }
+  ]
+}
