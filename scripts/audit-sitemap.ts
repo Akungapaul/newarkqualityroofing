@@ -5,11 +5,12 @@
  * Re-derives the EXPECTED sitemap membership from the verdict API + data layer
  * and asserts the ACTUAL sitemap (src/app/sitemap.ts) matches:
  *
- *   INCLUDES: 255 keep combos + all indexable core pages + 65 services +
+ *   INCLUDES: 1197 keep combos + all indexable core pages + 65 services +
  *             21 cities + 30 comparisons + 252 articles + the KB hub +
  *             6 cluster hubs + glossary.
- *   EXCLUDES: the 942 noindex combos, the 168 redirected combos, the 6 FLAT hub
- *             scaffolds (residential-roofing etc.), and the 44 nested KB articles.
+ *   EXCLUDES: the 168 redirected combos (0 noindex combos remain after the
+ *             942-doorway re-index), the 6 FLAT hub scaffolds (residential-roofing
+ *             etc.), and the 44 nested KB articles.
  *
  * Any included-but-should-be-excluded OR excluded-but-should-be-included entry
  * -> process.exit(1) with a clear message; else process.exit(0).
@@ -86,7 +87,7 @@ async function main() {
   for (const c of cities) mustInclude.add(u(generateCityPageSlug(c.slug)));
   for (const c of comparisons) mustInclude.add(u(c.slug));
   for (const a of articles) mustInclude.add(u(a.slug));
-  // 255 KEEP combos
+  // 1197 KEEP combos
   const keepCombos = combos.filter((c) => isKeep(c.slug));
   for (const c of keepCombos) mustInclude.add(u(c.slug));
   // KB IA: hub + 6 cluster hubs + glossary
@@ -96,7 +97,7 @@ async function main() {
 
   // ── Expected EXCLUDED ─────────────────────────────────────────────────────────
   const mustExclude = new Set<string>();
-  // 942 noindex + 168 redirected combos
+  // 168 redirected combos (0 noindex combos remain after the 942-doorway re-index)
   for (const c of combos) {
     if (isNoindex(c.slug) || isRedirect(c.slug)) mustExclude.add(u(c.slug));
   }
@@ -110,9 +111,9 @@ async function main() {
     ...KB_CLUSTERS.map((cl) => u(`roofing-knowledge-base/${cl}`)),
   ]);
 
-  // Sanity: keep count must be exactly 255.
-  if (keepCombos.length !== 255) {
-    errors.push(`Keep combo count: expected 255, got ${keepCombos.length}`);
+  // Sanity: keep count must be exactly 1197.
+  if (keepCombos.length !== 1197) {
+    errors.push(`Keep combo count: expected 1197, got ${keepCombos.length}`);
   }
 
   // ── Assert INCLUDED present ────────────────────────────────────────────────────
@@ -150,8 +151,8 @@ async function main() {
     process.exit(1);
   }
 
-  console.log('Sitemap membership valid: 255 keep + core/KB/glossary included;');
-  console.log('942 noindex + 168 redirected + 6 hub scaffolds + 44 nested KB articles excluded. PASS');
+  console.log('Sitemap membership valid: 1197 keep + core/KB/glossary included;');
+  console.log('168 redirected + 6 hub scaffolds + 44 nested KB articles excluded. PASS');
   process.exit(0);
 }
 

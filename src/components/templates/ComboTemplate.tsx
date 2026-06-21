@@ -255,8 +255,10 @@ function ComboPlaceholder({
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         <div className="space-y-8 pb-16 lg:col-span-2">
           <div className="rounded-sm border border-border bg-white p-8">
-            {/* §4.4 Core question -- the 942 noindex combos render this placeholder
-                path, so its first H2 must be the Core string (HTAG-06/08). */}
+            {/* §4.4 Core question -- this placeholder path renders only when a combo's
+                content is missing (getComboContent throws); all 1,365 combos are now
+                authored + wired, so it is currently unreached. Its first H2 must remain
+                the Core string (HTAG-06/08) for any future unwired combo. */}
             <h2 className="font-heading text-2xl font-bold text-forest">
               {HEADING_CONFIG.combo.coreH2(service.name, city.name)}
             </h2>

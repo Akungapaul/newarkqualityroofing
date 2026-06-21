@@ -35,8 +35,8 @@ export const PRIORITY_CITY_IDS = [
 ] as const;
 
 // Hand-curated priority intent, keyed serviceId:cityId. This is the WISH list;
-// the exported PRIORITY_COMBO_PAIRS below is reconciled down to the 255 KEEP set
-// (D-08) so no NOINDEX/CONSOLIDATE combo can ever be priority-boosted.
+// the exported PRIORITY_COMBO_PAIRS below is reconciled against the 1197 KEEP set
+// (D-08) so no CONSOLIDATE/301 (or any future NOINDEX) combo can ever be priority-boosted.
 const RAW_PRIORITY_COMBO_PAIRS = [
   'roof-repair:newark',
   'roof-leak-repair:newark',
@@ -63,9 +63,10 @@ function comboSlugForPair(pair: string): string | undefined {
   return generateComboSlug(service.slug, city.slug);
 }
 
-// D-08: PRIORITY_COMBO_PAIRS ⊆ the 255 KEEP set. Each raw pair is mapped to its
-// combo slug and DROPPED unless isKeep(slug). 4 NOINDEX pairs (gutter-guard@belleville,
-// green-roof@newark, modified-bitumen@newark, built-up@newark) are reconciled out.
+// D-08: PRIORITY_COMBO_PAIRS ⊆ the KEEP set. Each raw pair is mapped to its combo
+// slug and DROPPED unless isKeep(slug). After the 942-doorway re-index all 11 raw
+// pairs are KEEP (the 4 formerly-NOINDEX pairs — gutter-guard@belleville,
+// green-roof@newark, modified-bitumen@newark, built-up@newark — now pass the gate).
 export const PRIORITY_COMBO_PAIRS = new Set<string>(
   RAW_PRIORITY_COMBO_PAIRS.filter((pair) => {
     const slug = comboSlugForPair(pair);

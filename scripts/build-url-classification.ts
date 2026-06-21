@@ -8,7 +8,7 @@
  *   - src/generated/redirects.generated.mjs   default-export of 168 301s
  *
  * This script IS the INDX-02 count validator. It fails the build (process.exit(1))
- * on ANY drift from the locked counts (255 keep / 942 noindex / 168 combo-redirect
+ * on ANY drift from the locked counts (1197 keep / 0 noindex / 168 combo-redirect
  * / 0 legacy-redirect) or on ANY redirect chain / invalid (non-root-relative) target.
  *
  * Run via: tsx scripts/build-url-classification.ts  (also wired as `prebuild`)
@@ -21,8 +21,10 @@
  *   KEEP-INDEX, KEEP-INDEX (review), NOINDEX, CONSOLIDATE / 301, CONSOLIDATE, REVIEW
  *
  * Bucketing (locked counts apply to combo rows; legacy hub redirects now 0):
- *   - combo (Page Type === 'Service+City combo') + KEEP-INDEX  -> keep bucket    (255)
- *   - combo + NOINDEX                                           -> noindex bucket (942)
+ *   - combo (Page Type === 'Service+City combo') + KEEP-INDEX  -> keep bucket    (1197)
+ *   - combo + NOINDEX                                           -> noindex bucket (0; the
+ *     942 doorway combos were re-indexed after the per-city rewrite [batches 0-11] + a
+ *     clean full-21-city near-dup gate — 0 near-dups, 0 dup metas)
  *   - combo + 'CONSOLIDATE / 301' (has Redirect Target)         -> combo-redirect (168)
  *   - non-combo CONSOLIDATE ('Service hub' rows -> /roof-replacement) -> legacy-redirect (0
  *     after the Batch-8 un-redirect: the 8 replacement-cause hubs are now KEEP-INDEX pages
@@ -49,7 +51,7 @@ const ORIGIN = 'https://newarkqualityroofing.com';
 const WWW_ORIGIN = 'https://www.newarkqualityroofing.com';
 
 // ─── Locked expectations (D-03) ─────────────────────────────────────────────
-const EXPECT = { keep: 255, noindex: 942, comboRedirect: 168, legacyRedirect: 0 } as const;
+const EXPECT = { keep: 1197, noindex: 0, comboRedirect: 168, legacyRedirect: 0 } as const;
 
 // ─── Quote-aware CSV line parser (RFC-4180; RESEARCH Pitfall 3) ──────────────
 // A left-to-right scan that respects double-quoted fields. The quoted `Reason`
@@ -105,10 +107,10 @@ if (COL.url !== 0 || COL.pageType !== 2 || COL.verdict !== 6 || COL.target !== 7
   process.exit(1);
 }
 
-const keep: string[] = []; // 255 combo keep slugs (emitted as json.keep)
-const noindex: string[] = []; // 942 combo noindex slugs
+const keep: string[] = []; // 1197 combo keep slugs (emitted as json.keep)
+const noindex: string[] = []; // 0 combo noindex slugs (the 942 doorway combos were re-indexed)
 const comboRedirects: Array<{ source: string; target: string }> = []; // 168
-const legacyRedirects: Array<{ source: string; target: string }> = []; // 8
+const legacyRedirects: Array<{ source: string; target: string }> = []; // 0
 
 // Full KEEP-INDEX universe (all page types) — used for the chain/target check.
 const fullKeepSet = new Set<string>();

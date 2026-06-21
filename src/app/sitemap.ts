@@ -80,9 +80,9 @@ export default async function sitemap({
       }));
 
     case 'combos':
-      // D-06: only the 255 KEEP combos are indexable + in the sitemap. The 942
-      // noindex combos (live but robots:noindex,follow) and the 168 redirected
-      // combos (301 before routing) are excluded.
+      // D-06: the 1197 KEEP combos are indexable + in the sitemap. After the
+      // 942-doorway re-index, 0 noindex combos remain; the 168 redirected combos
+      // (301 before routing) are still excluded.
       return combos
         .filter((combo) => isKeep(combo.slug))
         .map((combo) => {

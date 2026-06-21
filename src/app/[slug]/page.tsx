@@ -127,10 +127,11 @@ export async function generateMetadata({
       }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
-      // D-04 indexation gate: all 942 noindex combos serve a LIVE page emitting
-      // robots:{index:false,follow:true}; the 255 keep combos stay indexable.
-      // Canonical is ALWAYS the combo's OWN slug (self-canonical) — never point a
-      // noindex combo at its keep parent or any unrelated page.
+      // D-04 indexation gate: after the 942-doorway re-index all 1197 combos are
+      // KEEP-INDEX (isNoindex is empty), so robots resolves to undefined (indexable).
+      // The isNoindex guard is retained so any future NOINDEX verdict re-applies
+      // robots:{index:false,follow:true}. Canonical is ALWAYS the combo's OWN slug
+      // (self-canonical) — never point a combo at a parent or unrelated page.
       return {
         title: combo.metaTitle,
         description: comboDescription,

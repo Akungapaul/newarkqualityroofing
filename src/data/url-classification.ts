@@ -10,8 +10,9 @@
  * Combo routing precedence (D-04): redirect > keep > noindex (> unknown -> 404).
  *
  * Verdict buckets:
- *   - keep    : 255 combo slugs that are indexable + self-canonical + in sitemap
- *   - noindex : 942 combo slugs served live with robots:{index:false,follow:true}
+ *   - keep    : 1197 combo slugs that are indexable + self-canonical + in sitemap
+ *   - noindex : 0 combo slugs (the 942 doorway combos were re-indexed after the
+ *               per-city rewrite + a clean full-21-city near-dup gate)
  *   - redirect: 168 combo slugs that 301 to a keep target (via next.config.ts)
  */
 
