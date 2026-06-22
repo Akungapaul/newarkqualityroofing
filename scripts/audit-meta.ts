@@ -10,6 +10,7 @@ import { comparisons } from '@/data/comparisons';
 import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
 import { getCityContent } from '@/data/city-content';
+import { getAllHubContent } from '@/data/hub-content';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -137,6 +138,12 @@ function main() {
   for (const page of corePages) {
     totalPages++;
     allIssues.push(...checkMeta('core', page.id, page.metaTitle, page.metaDescription));
+  }
+
+  // FLAT hubs (6) — metaTitle/metaDescription live in hub content
+  for (const hub of getAllHubContent()) {
+    totalPages++;
+    allIssues.push(...checkMeta('hub', hub.hubId, hub.metaTitle, hub.metaDescription));
   }
 
   // ─── Summary ────────────────────────────────────────────────────────────

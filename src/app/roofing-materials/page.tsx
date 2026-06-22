@@ -1,19 +1,22 @@
 import HubScaffold, { buildHubMetadata } from '@/components/templates/HubScaffold';
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { getHubContent } from '@/data/hub-content';
+
+const content = getHubContent('roofing-materials');
 
 export const metadata = buildHubMetadata({
   slug: 'roofing-materials',
-  title: 'Roofing Materials | Newark Quality Roofing',
-  description:
-    'Compare roofing materials for Newark and Essex County homes and businesses — asphalt shingles, metal, TPO, EPDM, and more, with guidance for NJ weather.',
+  title: content.metaTitle,
+  description: content.metaDescription,
 });
 
 export default function RoofingMaterialsHubPage() {
   return (
     <HubScaffold
+      hubId="roofing-materials"
       eyebrow="Roofing Materials"
       heading={HEADING_CONFIG.hub['roofing-materials']}
-      intro="Newark Quality Roofing helps Newark and Essex County property owners compare roofing materials — from asphalt and architectural shingles to metal and flat-roof membranes."
+      content={content}
     />
   );
 }

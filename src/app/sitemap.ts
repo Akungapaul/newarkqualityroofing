@@ -12,15 +12,14 @@ import { isKeep } from '@/data/url-classification';
 
 // ─── Sitemap IDs ────────────────────────────────────────────────────────────
 
-const SITEMAP_IDS = ['core', 'services', 'cities', 'combos', 'comparisons', 'articles', 'knowledge-base'] as const;
+const SITEMAP_IDS = ['core', 'services', 'cities', 'combos', 'comparisons', 'articles', 'knowledge-base', 'hubs'] as const;
 
 /**
  * The 6 KB cluster hub slugs (D-14 taxonomy). The KB index, these cluster hubs,
  * and the glossary belong in the sitemap (they are the permanent topical-map IA;
- * content lands Phase 13/14). The 6 FLAT hub scaffolds (residential-roofing,
- * commercial-roofing, flat-roof-systems, roofing-materials, free-roofing-estimate,
- * our-roofing-process) and the 44 nested KB articles are deliberately NOT emitted
- * here (D-06; audit:sitemap in Plan 05 enforces this exclusion).
+ * content lands Phase 13/14). The 6 FLAT hubs are now content-bearing and
+ * indexable — they are emitted via the 'hubs' segment below. The 44 nested KB
+ * articles remain deliberately NOT emitted here (D-06).
  */
 const KB_CLUSTER_SLUGS = [
   'roof-problems',
@@ -29,6 +28,19 @@ const KB_CLUSTER_SLUGS = [
   'roofing-process',
   'roofing-costs',
   'local-roofing-knowledge',
+] as const;
+
+/**
+ * The 6 FLAT topical/utility hubs — answer-first, indexable top-of-funnel pages
+ * (distinct from the KB cluster hubs above). Emitted via the 'hubs' segment.
+ */
+const FLAT_HUB_SLUGS = [
+  'residential-roofing',
+  'commercial-roofing',
+  'flat-roof-systems',
+  'roofing-materials',
+  'free-roofing-estimate',
+  'our-roofing-process',
 ] as const;
 
 export async function generateSitemaps() {
@@ -125,6 +137,15 @@ export default async function sitemap({
         })),
         { url: `${BASE_URL}/roofing-glossary`, lastModified: NOW, changeFrequency: 'monthly' as const, priority: 0.6 },
       ];
+
+    case 'hubs':
+      // The 6 FLAT topical/utility hubs — answer-first + indexable top-of-funnel pages.
+      return FLAT_HUB_SLUGS.map((slug) => ({
+        url: `${BASE_URL}/${slug}`,
+        lastModified: NOW,
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+      }));
 
     default:
       return [];

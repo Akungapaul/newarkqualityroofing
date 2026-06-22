@@ -163,6 +163,30 @@ export function MobileMenu({ isOpen, onClose, serviceGroups, cityItems, comparis
 
         {/* Scrollable content */}
         <div className="flex-1 overflow-y-auto overscroll-contain">
+          {/* Topical hubs — browse by category */}
+          <AccordionSection title="Browse by Category">
+            <ul className="space-y-0.5">
+              {[
+                { href: '/residential-roofing', label: 'Residential Roofing' },
+                { href: '/commercial-roofing', label: 'Commercial Roofing' },
+                { href: '/flat-roof-systems', label: 'Flat Roof Systems' },
+                { href: '/roofing-materials', label: 'Roofing Materials' },
+                { href: '/free-roofing-estimate', label: 'Free Roofing Estimate' },
+                { href: '/our-roofing-process', label: 'Our Roofing Process' },
+              ].map((hub) => (
+                <li key={hub.href}>
+                  <Link
+                    href={hub.href}
+                    onClick={onClose}
+                    className="block rounded px-3 py-1.5 font-body text-sm text-parchment/80 transition-colors duration-150 hover:bg-forest-light/20 hover:text-parchment focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-copper"
+                  >
+                    {hub.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </AccordionSection>
+
           {/* Services accordion groups */}
           <AccordionSection title="Services" defaultOpen>
             <div className="space-y-4">

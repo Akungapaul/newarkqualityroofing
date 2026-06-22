@@ -54,7 +54,7 @@ function argVal(name: string): string | undefined {
   const hit = ARGV.find((a) => a.startsWith(`--${name}=`));
   return hit ? hit.slice(name.length + 3) : undefined;
 }
-const ALL_TYPES = ['services', 'cities', 'combos', 'articles', 'comparisons'] as const;
+const ALL_TYPES = ['services', 'cities', 'combos', 'articles', 'comparisons', 'hubs'] as const;
 type ContentType = (typeof ALL_TYPES)[number];
 const TYPES: ContentType[] = (argVal('types')?.split(',').map((s) => s.trim()).filter(Boolean) as ContentType[]) ?? [
   ...ALL_TYPES,
@@ -351,6 +351,15 @@ async function main(): Promise<void> {
       const id = (c as { comparisonId?: string; id?: string }).comparisonId ?? (c as { id?: string }).id ?? 'unknown';
       if (!inScope(id)) continue;
       auditObject(`comparison:${id}`, c);
+      audited++;
+    }
+  }
+  if (TYPES.includes('hubs')) {
+    const { getAllHubContent } = await import('@/data/hub-content');
+    for (const c of getAllHubContent()) {
+      const id = (c as { hubId: string }).hubId;
+      if (!inScope(id)) continue;
+      auditObject(`hub:${id}`, c);
       audited++;
     }
   }

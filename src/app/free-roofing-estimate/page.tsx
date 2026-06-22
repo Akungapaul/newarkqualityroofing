@@ -1,19 +1,22 @@
 import HubScaffold, { buildHubMetadata } from '@/components/templates/HubScaffold';
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { getHubContent } from '@/data/hub-content';
+
+const content = getHubContent('free-roofing-estimate');
 
 export const metadata = buildHubMetadata({
   slug: 'free-roofing-estimate',
-  title: 'Free Roofing Estimate | Newark Quality Roofing',
-  description:
-    'Request a free roofing estimate from Newark Quality Roofing. Serving Newark and Essex County with no-cost roof inspections for repair and replacement projects.',
+  title: content.metaTitle,
+  description: content.metaDescription,
 });
 
 export default function FreeRoofingEstimatePage() {
   return (
     <HubScaffold
+      hubId="free-roofing-estimate"
       eyebrow="Free Estimate"
       heading={HEADING_CONFIG.hub['free-roofing-estimate']}
-      intro="Newark Quality Roofing provides free roofing estimates and on-site inspections across Newark and Essex County for repair, replacement, and new roofing projects."
+      content={content}
     />
   );
 }

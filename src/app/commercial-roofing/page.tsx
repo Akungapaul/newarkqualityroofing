@@ -1,19 +1,22 @@
 import HubScaffold, { buildHubMetadata } from '@/components/templates/HubScaffold';
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { getHubContent } from '@/data/hub-content';
+
+const content = getHubContent('commercial-roofing');
 
 export const metadata = buildHubMetadata({
   slug: 'commercial-roofing',
-  title: 'Commercial Roofing | Newark Quality Roofing',
-  description:
-    'Commercial roofing for Newark and Essex County properties — flat roof systems, coatings, repair, and maintenance for property managers and building owners.',
+  title: content.metaTitle,
+  description: content.metaDescription,
 });
 
 export default function CommercialRoofingPage() {
   return (
     <HubScaffold
+      hubId="commercial-roofing"
       eyebrow="Commercial Roofing"
       heading={HEADING_CONFIG.hub['commercial-roofing']}
-      intro="Newark Quality Roofing installs, repairs, and maintains commercial roof systems for property managers, facility directors, and building owners across Essex County."
+      content={content}
     />
   );
 }

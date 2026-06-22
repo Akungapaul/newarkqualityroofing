@@ -286,9 +286,12 @@ export function Footer() {
 
           {/* Column 4: Services (Residential) */}
           <div>
-            <span className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper">
+            <Link
+              href="/residential-roofing"
+              className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+            >
               Services (Residential)
-            </span>
+            </Link>
             <ul className="space-y-0.5">
               {residentialServiceLinks.map((service) => (
                 <li key={service.slug}>
@@ -305,9 +308,12 @@ export function Footer() {
 
           {/* Column 5: Services (Commercial) */}
           <div>
-            <span className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper">
+            <Link
+              href="/commercial-roofing"
+              className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+            >
               Services (Commercial)
-            </span>
+            </Link>
             <ul className="space-y-0.5">
               {commercialServiceLinks.map((service) => (
                 <li key={service.slug}>
@@ -338,6 +344,26 @@ export function Footer() {
             Get Your Free Estimate
           </Link>
         </div>
+      </div>
+
+      {/* Topical hubs row */}
+      <div className="border-t border-forest-light/20">
+        <nav aria-label="Roofing topics" className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-6 gap-y-2 px-4 pt-5 sm:px-6 lg:px-8">
+          {[
+            { href: '/flat-roof-systems', label: 'Flat Roof Systems' },
+            { href: '/roofing-materials', label: 'Roofing Materials' },
+            { href: '/free-roofing-estimate', label: 'Free Roofing Estimate' },
+            { href: '/our-roofing-process', label: 'Our Roofing Process' },
+          ].map((hub) => (
+            <Link
+              key={hub.href}
+              href={hub.href}
+              className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+            >
+              {hub.label}
+            </Link>
+          ))}
+        </nav>
       </div>
 
       {/* Bottom bar */}

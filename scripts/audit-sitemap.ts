@@ -7,10 +7,10 @@
  *
  *   INCLUDES: 1197 keep combos + all indexable core pages + 65 services +
  *             21 cities + 30 comparisons + 252 articles + the KB hub +
- *             6 cluster hubs + glossary.
+ *             6 cluster hubs + glossary + the 6 FLAT hubs (residential-roofing
+ *             etc. — now content-bearing + indexable).
  *   EXCLUDES: the 168 redirected combos (0 noindex combos remain after the
- *             942-doorway re-index), the 6 FLAT hub scaffolds (residential-roofing
- *             etc.), and the 44 nested KB articles.
+ *             942-doorway re-index) and the 44 nested KB articles.
  *
  * Any included-but-should-be-excluded OR excluded-but-should-be-included entry
  * -> process.exit(1) with a clear message; else process.exit(0).
@@ -34,8 +34,8 @@ const { BASE_URL } = SEO_CONFIG;
 // Core pages excluded from the sitemap (noindex) — mirror src/app/sitemap.ts.
 const EXCLUDED_CORE_PAGES = new Set(['thank-you', 'privacy-policy']);
 
-// The 6 FLAT hub scaffolds + glossary live as flat slugs. The 6 hubs MUST be
-// excluded from the sitemap; the glossary + KB IA pages MUST be included.
+// The 6 FLAT hubs + glossary live as flat slugs. The 6 hubs are now content-bearing
+// and indexable, so they MUST be included in the sitemap (alongside the glossary + KB IA).
 const FLAT_HUB_SCAFFOLDS = [
   'residential-roofing',
   'commercial-roofing',
@@ -94,6 +94,8 @@ async function main() {
   mustInclude.add(u('roofing-knowledge-base'));
   for (const cl of KB_CLUSTERS) mustInclude.add(u(`roofing-knowledge-base/${cl}`));
   mustInclude.add(u('roofing-glossary'));
+  // 6 FLAT hubs — now content-bearing + indexable
+  for (const h of FLAT_HUB_SCAFFOLDS) mustInclude.add(u(h));
 
   // ── Expected EXCLUDED ─────────────────────────────────────────────────────────
   const mustExclude = new Set<string>();
@@ -101,8 +103,6 @@ async function main() {
   for (const c of combos) {
     if (isNoindex(c.slug) || isRedirect(c.slug)) mustExclude.add(u(c.slug));
   }
-  // 6 FLAT hub scaffolds
-  for (const h of FLAT_HUB_SCAFFOLDS) mustExclude.add(u(h));
   // 44 nested KB articles are NOT enumerated in any sitemap segment — assert the
   // sitemap contains NO nested KB article paths (anything under the KB prefix that
   // is not the hub or a cluster hub).
@@ -151,8 +151,8 @@ async function main() {
     process.exit(1);
   }
 
-  console.log('Sitemap membership valid: 1197 keep + core/KB/glossary included;');
-  console.log('168 redirected + 6 hub scaffolds + 44 nested KB articles excluded. PASS');
+  console.log('Sitemap membership valid: 1197 keep + core/KB/glossary + 6 FLAT hubs included;');
+  console.log('168 redirected + 44 nested KB articles excluded. PASS');
   process.exit(0);
 }
 

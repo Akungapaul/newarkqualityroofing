@@ -93,6 +93,30 @@ function ServicesMegaMenu({
 }) {
   return (
     <div className="max-h-[calc(100vh-5rem)] w-[720px] overflow-y-auto overscroll-contain rounded-lg border border-border bg-parchment p-6 shadow-2xl">
+      {/* Featured topical hubs — browse by category */}
+      <div className="mb-5 border-b border-border pb-4">
+        <span className="mb-2 block font-heading text-sm font-bold uppercase tracking-widest text-copper-dark">
+          Browse by Category
+        </span>
+        <div className="flex flex-wrap gap-2">
+          {[
+            { href: '/residential-roofing', label: 'Residential Roofing' },
+            { href: '/commercial-roofing', label: 'Commercial Roofing' },
+            { href: '/flat-roof-systems', label: 'Flat Roof Systems' },
+            { href: '/roofing-materials', label: 'Roofing Materials' },
+          ].map((hub) => (
+            <Link
+              key={hub.href}
+              href={hub.href}
+              onClick={onClose}
+              className="rounded-md border border-copper/30 px-3 py-1.5 font-heading text-sm font-semibold text-forest transition-colors duration-150 hover:border-copper hover:bg-copper/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+              role="menuitem"
+            >
+              {hub.label}
+            </Link>
+          ))}
+        </div>
+      </div>
       <div className="grid grid-cols-2 gap-x-8 gap-y-5">
         {groups.map((group) => (
           <div key={group.category}>

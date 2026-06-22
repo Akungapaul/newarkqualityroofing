@@ -44,6 +44,7 @@ import { HEADING_CONFIG } from '@/data/heading-config';
 import { getServiceContent } from '@/data/service-content';
 import { getCityContent } from '@/data/city-content';
 import { getComboContent } from '@/data/combo-content';
+import { getHubContent } from '@/data/hub-content';
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PRERENDER_DIR = join(REPO_ROOT, '.next', 'server', 'app');
@@ -199,6 +200,17 @@ function comboHasDefinition(serviceSlug: string, citySlug: string): boolean {
     return false;
   }
 }
+// Hub first content H2 = the EntityDefinition heading (category hubs) or the first
+// section heading (utility hubs). Resolves from hub content so the expected coreH2
+// tracks the authored data with no manual map.
+function hubCoreH2(hubSlug: string): string | undefined {
+  try {
+    const c = getHubContent(hubSlug);
+    return c.definitionHeading ?? c.sections[0]?.heading;
+  } catch {
+    return undefined;
+  }
+}
 
 /** One representative prerendered file per template (Pattern 3). */
 function buildSampleSet(): RenderedSample[] {
@@ -247,14 +259,14 @@ function buildSampleSet(): RenderedSample[] {
     { label: 'core (service-areas)', file: 'service-areas.html', kind: 'full' },
     { label: 'core (contact)', file: 'contact.html', kind: 'full' },
     { label: 'core (about)', file: 'about.html', kind: 'full' },
-    // 6 noindex hub scaffolds — DOM-safety subset only (Q2): one question H1,
-    // no split, no nav/footer H-tags, no skipped levels. No full-tree assertion.
-    { label: 'hub (residential-roofing)', file: 'residential-roofing.html', kind: 'scaffold' },
-    { label: 'hub (commercial-roofing)', file: 'commercial-roofing.html', kind: 'scaffold' },
-    { label: 'hub (flat-roof-systems)', file: 'flat-roof-systems.html', kind: 'scaffold' },
-    { label: 'hub (roofing-materials)', file: 'roofing-materials.html', kind: 'scaffold' },
-    { label: 'hub (free-roofing-estimate)', file: 'free-roofing-estimate.html', kind: 'scaffold' },
-    { label: 'hub (our-roofing-process)', file: 'our-roofing-process.html', kind: 'scaffold' },
+    // 6 FLAT hubs — now content-bearing + indexable: full DOM rules + first content
+    // H2 = the EntityDefinition heading (category hubs) or first section heading (utility).
+    { label: 'hub (residential-roofing)', file: 'residential-roofing.html', coreH2: hubCoreH2('residential-roofing'), kind: 'full' },
+    { label: 'hub (commercial-roofing)', file: 'commercial-roofing.html', coreH2: hubCoreH2('commercial-roofing'), kind: 'full' },
+    { label: 'hub (flat-roof-systems)', file: 'flat-roof-systems.html', coreH2: hubCoreH2('flat-roof-systems'), kind: 'full' },
+    { label: 'hub (roofing-materials)', file: 'roofing-materials.html', coreH2: hubCoreH2('roofing-materials'), kind: 'full' },
+    { label: 'hub (free-roofing-estimate)', file: 'free-roofing-estimate.html', coreH2: hubCoreH2('free-roofing-estimate'), kind: 'full' },
+    { label: 'hub (our-roofing-process)', file: 'our-roofing-process.html', coreH2: hubCoreH2('our-roofing-process'), kind: 'full' },
   ];
 }
 

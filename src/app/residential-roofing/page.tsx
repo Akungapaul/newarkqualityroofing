@@ -1,19 +1,22 @@
 import HubScaffold, { buildHubMetadata } from '@/components/templates/HubScaffold';
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { getHubContent } from '@/data/hub-content';
+
+const content = getHubContent('residential-roofing');
 
 export const metadata = buildHubMetadata({
   slug: 'residential-roofing',
-  title: 'Residential Roofing | Newark Quality Roofing',
-  description:
-    'Residential roofing for Newark and Essex County homes — repair, replacement, inspection, and roofing materials for houses of every style.',
+  title: content.metaTitle,
+  description: content.metaDescription,
 });
 
 export default function ResidentialRoofingPage() {
   return (
     <HubScaffold
+      hubId="residential-roofing"
       eyebrow="Residential Roofing"
       heading={HEADING_CONFIG.hub['residential-roofing']}
-      intro="Newark Quality Roofing repairs, replaces, and inspects residential roofs across Newark and Essex County, matching the right roofing system to each home and budget."
+      content={content}
     />
   );
 }
