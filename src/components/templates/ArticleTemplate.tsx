@@ -169,6 +169,7 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
       <article className="mx-auto max-w-3xl px-6 py-12 lg:px-8">
         <AnimateIn>
           <ArticleBody
+            directAnswer={content.directAnswer}
             intro={content.intro}
             sections={content.sections}
             conclusion={content.conclusion}

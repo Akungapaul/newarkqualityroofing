@@ -1,19 +1,29 @@
 import Image from 'next/image';
+import { ProseLead } from './ProseLead';
+import { parseRichText } from '@/lib/rich-text';
 
 interface ArticleBodyProps {
+  /** Answer-first ≤40w lead to the question-form H1 (semantic ruleset R2). When
+   *  present it renders as the copper-rail lead with `intro` as its supporting
+   *  paragraph; when absent the article falls back to the plain intro. */
+  directAnswer?: string;
   intro: string;
   sections: Array<{ heading: string; body: string[] }>;
   conclusion: string;
   sectionImage?: { src: string; alt: string };
 }
 
-export function ArticleBody({ intro, sections, conclusion, sectionImage }: ArticleBodyProps) {
+export function ArticleBody({ directAnswer, intro, sections, conclusion, sectionImage }: ArticleBodyProps) {
   return (
     <article className="mx-auto max-w-3xl">
-      {/* Intro paragraph -- slightly larger for editorial emphasis */}
-      <p className="font-body text-lg leading-relaxed text-text-primary">
-        {intro}
-      </p>
+      {/* Answer-first lead (rewritten articles) or plain editorial intro (legacy) */}
+      {directAnswer ? (
+        <ProseLead paragraphs={[directAnswer, intro]} />
+      ) : (
+        <p className="font-body text-lg leading-relaxed text-text-primary">
+          {parseRichText(intro)}
+        </p>
+      )}
 
       {/* Content sections */}
       {sections.map((section, index) => (
@@ -40,9 +50,9 @@ export function ArticleBody({ intro, sections, conclusion, sectionImage }: Artic
               {section.body.map((paragraph, pIndex) => (
                 <p
                   key={pIndex}
-                  className="font-body text-base leading-relaxed text-text-primary"
+                  className="font-body text-base leading-relaxed text-text-primary [&_strong]:font-semibold [&_strong]:text-forest"
                 >
-                  {paragraph}
+                  {parseRichText(paragraph)}
                 </p>
               ))}
             </div>
@@ -52,8 +62,8 @@ export function ArticleBody({ intro, sections, conclusion, sectionImage }: Artic
 
       {/* Conclusion */}
       <div className="mt-10 border-l-2 border-copper/30 pl-6">
-        <p className="font-body text-base leading-relaxed text-text-secondary italic">
-          {conclusion}
+        <p className="font-body text-base leading-relaxed text-text-secondary italic [&_strong]:font-semibold [&_strong]:text-forest">
+          {parseRichText(conclusion)}
         </p>
       </div>
     </article>

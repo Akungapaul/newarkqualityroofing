@@ -9,6 +9,11 @@ export const ArticleContentSchema = z.object({
   parentId: z.string(),
   parentType: z.enum(['service', 'comparison', 'core']),
   position: z.number().min(1).max(3),
+  // Answer-first lead (semantic-content ruleset R2): a ≤40-word definitive answer
+  // to the article's question-form H1, rendered as a prominent copper-rail lead
+  // above the intro. Optional so pre-rewrite articles still validate; the
+  // ArticleBody falls back to the plain intro when absent.
+  directAnswer: z.string().optional(),
   intro: z.string(),
   sections: z.array(z.object({
     heading: z.string(),
