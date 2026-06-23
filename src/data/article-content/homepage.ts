@@ -1,99 +1,122 @@
 import type { ArticleContent } from './schema';
 
-// ─── Homepage Article Content ───────────────────────────────────────────────
-// 3 articles for the homepage (parentType: 'core', parentId: 'homepage')
-// Broad NJ roofing guides serving as comprehensive entry points
+// ─── Homepage Article Content ─────────────────────────────────
+// 3 core articles for the homepage (parentType: 'core', parentId: 'homepage').
+// Broad NJ roofing guides, rewritten answer-first (semantic-content ruleset).
 
 export const homepageArticles: ArticleContent[] = [
-  // ═════════════════════════════════════════════════════════════════════════════
-  // ARTICLE 1: The Complete Guide to Roofing in New Jersey
-  // ═════════════════════════════════════════════════════════════════════════════
   {
-    articleId: 'homepage-nj-roofing-guide',
-    parentId: 'homepage',
-    parentType: 'core',
-    position: 1,
-    intro: 'New Jersey presents unique roofing challenges that homeowners in other states simply do not face. From nor\'easters delivering 60+ mph winds and heavy snow to summer humidity that accelerates material aging, NJ roofs work harder than most. This guide covers everything Essex County homeowners and building owners need to know about roofing in the Garden State.',
-    sections: [
-      { heading: 'NJ Climate and Your Roof', body: [
-        'New Jersey\'s four-season climate creates a demanding environment for roofing materials. Winter brings freeze-thaw cycles from November through March, with temperatures swinging from the teens to the 40s within days. This cycling expands and contracts roofing materials repeatedly, testing the flexibility and adhesion of every component. Essex County averages 28 inches of snowfall annually, with individual nor\'easters capable of dropping 12-18 inches in a single event.',
-        'Summer adds its own stress: temperatures regularly reach 90-95 degrees, and relative humidity of 65-80% creates conditions that promote moss, algae, and mold growth on roofing surfaces. The combination of summer heat baking shingles from above and attic heat baking them from below accelerates aging. Proper attic ventilation is not optional in NJ; it is the single most important factor in roof longevity regardless of material choice.',
-        'Wind exposure varies significantly across Essex County. Elevated areas in West Orange, Verona, and Cedar Grove experience 10-15% higher wind speeds than valley locations in Newark and Belleville. Homes on exposed hilltops may need enhanced wind-rated materials that their downhill neighbors do not require.',
-      ] },
-      { heading: 'Choosing the Right Roofing Material', body: [
-        'The NJ residential roofing market is dominated by architectural asphalt shingles, which offer the best balance of affordability, performance, and aesthetic variety. Premium options include standing seam metal roofing (50-70 year lifespan), natural slate (75-150 years), cedar shake (30-40 years with maintenance), and clay or concrete tile (50-75 years). Each material has specific advantages in NJ conditions.',
-        'For commercial flat roofs, TPO membrane has become the market leader in Essex County due to its heat-welded seams, energy-efficient white surface, and competitive pricing. EPDM rubber roofing remains popular for budget-sensitive projects, while PVC is essential for buildings with kitchen exhaust or chemical exposure. Modified bitumen excels on high-traffic roofs with heavy mechanical equipment.',
-        'Material selection should consider your building type, budget, aesthetic preferences, expected ownership duration, and local building code requirements. The cheapest material to buy is rarely the cheapest to own over time. Cost-per-year analysis reveals that mid-range and premium materials often deliver better financial value than budget options.',
-      ] },
-      { heading: 'NJ Regulations and Seasonal Timing', body: [
-        'New Jersey requires all roofing contractors to register as Home Improvement Contractors with the NJ Division of Consumer Affairs. Verify your contractor registration at the NJ Division of Consumer Affairs website before hiring. NJ building permits are required for all roof replacements and most significant repairs. Your contractor should handle the permit process, but verify this is included in your contract.',
-        'The optimal roofing season in Essex County runs from April through November, with peak demand from May through October. Winter installations are possible but cost 10-20% more due to cold-weather material limitations and safety considerations. Schedule your roofing project during shoulder seasons (April-May or September-October) for the best balance of weather conditions and contractor availability.',
-      ] },
+    "articleId": "homepage-nj-roofing-guide",
+    "parentId": "homepage",
+    "parentType": "core",
+    "position": 1,
+    "directAnswer": "**New Jersey homeowners benefit from understanding three things about roofing: the demanding four-season climate, matching the right material to the building and budget, and the state rules that govern the work.** The NJ Division of Consumer Affairs registers every home-improvement contractor, and N.J.A.C. 5:23-2.7 treats a detached one-to-two-family re-roof as ordinary maintenance that needs no permit.",
+    "intro": "Each of those three factors shapes how a New Jersey roof is chosen, installed, and maintained over its service life.",
+    "sections": [
+      {
+        "heading": "How Does New Jersey's Climate Affect a Roof?",
+        "body": [
+          "**New Jersey's four-season climate** stresses a roof through repeated freeze-thaw cycles, roughly 31.5 inches of annual snowfall, and warm, humid summers, all of which shorten the lifespan of shingles, flashing, and sealant. NOAA's 1991-2020 climate normals record about 31.5 inches of average annual snowfall at Newark Liberty, and the daily swings around freezing in winter drive the repeated freeze-thaw cycles that pry at roof assemblies.",
+          "**Freeze-thaw cycles** do their damage where water collects and refreezes, so flashing joints, sealant lines, and the edges around chimneys and valleys fail first. Water expands as it freezes, working open small gaps with each cycle; the NRCA attributes roughly 90 to 95 percent of roof leaks to flashing details rather than the field of the shingles. An industry estimate places the New Jersey region around 35 to 45 freeze-thaw cycles per year, though that figure is an approximation rather than a measured constant.",
+          "**Summer heat and humidity** add a second stress, with average July high temperatures near 87 degrees at Newark Liberty creating the warm, damp conditions that feed algae and moss on north-facing slopes. Attic ventilation is the single factor that most influences how long a roof lasts under that load, because balanced intake and exhaust airflow moderate attic temperature and carry moisture out before it degrades the deck. Exposed and elevated sites, such as hilltops and homes without surrounding tree cover, see higher wind exposure that loosens fasteners and lifts shingle edges over time."
+        ]
+      },
+      {
+        "heading": "Which Roofing Materials Suit New Jersey Homes?",
+        "body": [
+          "**Architectural asphalt shingles** lead on New Jersey homes, while slate, metal, cedar, and tile suit specific budgets and styles, and TPO, EPDM, or PVC membranes cover flat commercial roofs. The ARMA notes that architectural asphalt shingles dominate the residential market because they balance cost, weather resistance, and a service life of roughly 25 to 30 years.",
+          "**Architectural asphalt shingles** carry a layered, dimensional profile that resists wind better than older three-tab styles, and major manufacturers such as GAF, CertainTeed, and Owens Corning produce the lines most often installed on New Jersey homes. A typical architectural shingle roof lasts about 25 to 30 years, which sets the baseline that other materials are measured against on a cost-per-year basis, where a [roof replacement](/roof-replacement) decision often comes down to dividing the installed price by that expected service life.",
+          "**Slate, metal, cedar, and tile** each trade a higher upfront price for a longer life: natural slate can last 75 to 100 years or more, standing-seam metal roughly 40 to 70 years, cedar shakes around 30 years with maintenance, and clay or concrete tile 50 years or more. Slate and tile add considerable weight, so the building structure governs whether either material is appropriate without reinforcement. For low-slope and flat roofs on commercial buildings, row homes, and additions, TPO, EPDM, and PVC membranes take over: TPO and PVC are heat-welded thermoplastic sheets and EPDM is a synthetic rubber membrane, each shedding water through drains and tapered insulation rather than slope."
+        ]
+      },
+      {
+        "heading": "What NJ Rules and Timing Govern a Roofing Project?",
+        "body": [
+          "**New Jersey rules** require every roofing business to register as a Home Improvement Contractor, exempt detached one-to-two-family re-roofs from permits as ordinary maintenance, and concentrate most projects between April and November. The NJ Division of Consumer Affairs administers the Home Improvement Contractor registration under N.J.S.A. 56:8-136, which carries no dollar threshold to register; the state sets a statutory minimum of $500,000 per occurrence in commercial general liability insurance under N.J.S.A. 56:8-142, the 13VH registration number appears on every contract and advertisement under N.J.S.A. 56:8-144, and a separate rule, N.J.A.C. 13:45A-16.2, requires a written contract once a job exceeds $500.",
+          "**Permits** separate residential maintenance from larger commercial work in New Jersey. N.J.A.C. 5:23-2.7 classifies a re-roof or tear-off on a detached one-to-two-family dwelling as ordinary maintenance that proceeds without a construction permit, while commercial and multi-family roofs require a permit once work touches more than 25 percent of the roof area within a twelve-month period. Homeowners can confirm a contractor's standing or report a problem to the NJ Division of Consumer Affairs under the Consumer Fraud Act, and can review available [roofing services](/roofing-services) before signing a contract.",
+          "**Timing** shapes the project as much as the rules do, with the practical roofing season running from April through November when temperatures stay high enough for asphalt sealant strips to bond and crews can work safely. Cold weather slows shingle sealing and makes membrane welding harder, which is why most New Jersey roof work concentrates in the warmer months. Planning a roof replacement in spring or early summer leaves margin to schedule materials and complete the job before winter."
+        ]
+      }
     ],
-    conclusion: 'Roofing in New Jersey demands materials and installation practices calibrated to our specific climate challenges. Whether you are maintaining, repairing, or replacing your roof, understanding NJ conditions helps you make informed decisions that protect your property and investment for decades to come.',
-    ctaHeading: 'Ready to Address Your Roofing Needs?',
-    ctaText: 'Newark Quality Roofing serves homeowners and businesses across Essex County with expert roofing services. Contact us for a free consultation and honest assessment of your roofing situation.',
-    metaDescription: 'Complete guide to roofing in New Jersey. Climate challenges, material options, and regulations for Essex County homeowners.',
+    "conclusion": "Understanding New Jersey's climate, the trade-offs among roofing materials, and the state's registration and permit rules helps homeowners plan a roof that holds up through four demanding seasons.",
+    "ctaHeading": "Talk Through Your New Jersey Roof",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for an assessment of your roof and a clear, written plan for repair or replacement.",
+    "metaDescription": "NJ homeowners face a four-season climate, several roofing materials, and state HIC rules. A guide to climate stress, material fit, and permit timing."
   },
-
-  // ═════════════════════════════════════════════════════════════════════════════
-  // ARTICLE 2: How to Find a Reliable Roofer in Essex County, NJ
-  // ═════════════════════════════════════════════════════════════════════════════
   {
-    articleId: 'homepage-finding-roofer-essex-county',
-    parentId: 'homepage',
-    parentType: 'core',
-    position: 2,
-    intro: 'Finding a reliable roofing contractor in Essex County should not feel like a gamble. Unfortunately, the roofing industry attracts its share of unlicensed operators, storm chasers, and fly-by-night companies that disappear after collecting payment. This guide helps NJ homeowners identify trustworthy contractors and avoid costly mistakes.',
-    sections: [
-      { heading: 'NJ Licensing and Verification', body: [
-        'New Jersey requires all roofing contractors to register as Home Improvement Contractors (HIC) with the NJ Division of Consumer Affairs. This registration is not a license to practice roofing; it is a consumer protection registration that provides access to the NJ Contractors Guaranty Fund if a registered contractor defrauds a homeowner. Verify registration status at the NJ Division of Consumer Affairs website before signing any contract.',
-        'Beyond HIC registration, look for manufacturer certifications that indicate advanced training and commitment. GAF Master Elite certification is held by only 2% of roofing contractors nationally and requires proven installation expertise, financial stability, and customer satisfaction. CertainTeed SELECT ShingleMaster certification provides similar assurance. These certifications also unlock enhanced warranty coverage for homeowners.',
-        'Verify that your contractor carries both general liability insurance (minimum $1 million) and workers compensation insurance. Request current certificates of insurance directly from the insurance company, not just copies from the contractor. In Essex County, an uninsured contractor who is injured on your property can file a liability claim against your homeowner insurance.',
-      ] },
-      { heading: 'Red Flags and Warning Signs', body: [
-        'Door-to-door solicitation after storms is the most common entry point for roofing scams in Essex County. Legitimate contractors do not need to canvass neighborhoods to find work. Storm chasers follow weather events from state to state, collect deposits, perform substandard work or no work at all, and are gone before homeowners realize the problems.',
-        'Other red flags include: requesting full payment upfront (legitimate contractors bill in stages or upon completion), no written contract or vague contract terms, pressure to sign immediately ("this price is only good today"), no physical business address in the area, unwillingness to provide references from recent local projects, and quotes significantly below all other bids (lowball pricing often indicates corners will be cut or hidden charges will appear).',
-      ] },
-      { heading: 'Getting and Comparing Estimates', body: [
-        'Request written estimates from at least three NJ-licensed roofing contractors. Each estimate should detail: the scope of work (tear-off or overlay, material brand and model, underlayment type, ventilation work, flashing details), the total price with payment schedule, the project timeline, the warranty terms for both materials and workmanship, and the permit responsibility.',
-        'Compare estimates on equivalent specifications, not just total price. A lower bid may use thinner membrane, cheaper underlayment, or exclude important details like ice and water shield in valleys. Ask each contractor to explain any differences between their proposal and the others. A reputable Essex County contractor will welcome this comparison and explain why their specification serves your property best.',
-      ] },
+    "articleId": "homepage-finding-roofer-essex-county",
+    "parentId": "homepage",
+    "parentType": "core",
+    "position": 2,
+    "directAnswer": "**Find a reliable Essex County roofer by verifying HIC registration with the NJ Division of Consumer Affairs, confirming $500,000 commercial general liability insurance per N.J.S.A. 56:8-142, and collecting detailed written estimates** before signing anything.",
+    "intro": "These three checks separate accountable New Jersey contractors from storm-chasers who disappear after a job goes wrong.",
+    "sections": [
+      {
+        "heading": "How Do You Verify a Roofer's NJ Registration and Insurance?",
+        "body": [
+          "**Verify registration** by searching the contractor's \"13VH\" Home Improvement Contractor number on the NJ Division of Consumer Affairs (NJ DCA) database, then requesting a Certificate of Insurance sent directly from the insurer showing at least $500,000 commercial general liability coverage.",
+          "**Registration** under N.J.S.A. 56:8-136 applies to every home-improvement business in New Jersey, and N.J.S.A. 56:8-144 requires the \"13VH\" number on contracts and advertising. **Insurance** verification, meanwhile, protects you if a worker is injured or your property is damaged — N.J.S.A. 56:8-142 sets the statutory minimum general liability at $500,000 per occurrence, so request the Certificate of Insurance from the carrier directly rather than accepting a contractor copy that can be expired or altered. If a roofer names a manufacturer credential, confirm it independently with that manufacturer, such as GAF, CertainTeed, or Owens Corning.",
+          "**Registration** is not a roofing license, and that distinction matters here. The NJ DCA registers home-improvement contractors under N.J.A.C. 13:45A-16; New Jersey issues no roofing license, so any roofer claiming a \"state roofing license\" misstates how the system works. The accurate question is whether the contractor holds active HIC registration and current insurance."
+        ]
+      },
+      {
+        "heading": "What Are the Warning Signs of a Roofing Scam?",
+        "body": [
+          "**The clearest warning signs of a roofing scam** are unsolicited door-to-door storm-chasing, demands for full payment upfront, refusal to put the job in a written contract, high-pressure deadlines, no verifiable local address, and lowball bids that undercut every other estimate.",
+          "**Storm-chasing** solicitation follows hail and wind events, when out-of-state crews canvass neighborhoods offering immediate inspections, collect deposits, and leave before warranty obligations come due. **Full payment upfront** is the most common scam structure, because once the money clears, accountability disappears — reputable contractors invoice against milestones such as a deposit, a progress payment, and a balance on completion. N.J.A.C. 13:45A-16.2 requires a written contract for home-improvement work exceeding $500, so a verbal-only deal already breaks state rules.",
+          "**Pressure tactics** and lowball bids work together to short-circuit your judgment. A \"today only\" price or a bid far below competitors usually signals cut corners, omitted underlayment, or unregistered labor. When a contractor cannot be verified, the NJ Division of Consumer Affairs enforces the Consumer Fraud Act and accepts complaints, which is your recourse against deceptive home-improvement practices."
+        ]
+      },
+      {
+        "heading": "How Should You Compare Roofing Estimates?",
+        "body": [
+          "**Compare roofing estimates by collecting at least three written bids** that itemize scope, shingle or membrane material, underlayment, ventilation, flashing details, warranty terms, and permit handling — then compare equivalent specifications rather than headline price alone.",
+          "**Scope and material** drive most of the price difference, so read past the total. A bid detailing tear-off versus layover, the specific shingle or membrane product, underlayment type, and flashing work describes a different job than a one-line \"replace roof\" quote at a lower number. Flashing details cause roughly 90 to 95% of roof leaks per an NRCA industry estimate, so an estimate naming flashing work is doing the homework. **Ventilation and warranty** terms also matter — confirm each estimate specifies intake and exhaust ventilation and states both the manufacturer material warranty and the contractor workmanship warranty in writing, because manufacturers can deny claims when ventilation falls short of their specification.",
+          "**Permit handling** belongs in every comparison. Under N.J.A.C. 5:23-2.7, a re-roof or tear-off on a detached one- or two-family home is ordinary maintenance requiring no permit, while commercial and multi-family roofs need a permit once work covers more than 25% of the roof area within twelve months. An estimate that addresses permitting correctly for your building type signals a contractor who knows New Jersey code; for context, review [roof repair](/roof-repair) versus [roof replacement](/roof-replacement) options."
+        ]
+      }
     ],
-    conclusion: 'Hiring a reliable roofer in Essex County comes down to verification, comparison, and trust. Verify licensing and insurance, compare detailed proposals, and choose a contractor who communicates clearly and puts their promises in writing.',
-    ctaHeading: 'Work with a Trusted Essex County Roofer',
-    ctaText: 'Newark Quality Roofing is fully licensed, insured, and manufacturer-certified. We provide detailed written proposals and stand behind our work with strong warranties.',
-    metaDescription: 'How to find a reliable roofer in Essex County NJ. Licensing checks, red flags, and estimate comparison tips.',
+    "conclusion": "A reliable Essex County roofer verifies cleanly: an active \"13VH\" HIC registration in the NJ Division of Consumer Affairs database, a Certificate of Insurance from the carrier showing at least $500,000 general liability, and a detailed written estimate. Run all three checks before any deposit, compare equivalent specifications across at least three bids, and treat upfront-payment demands or door-to-door pressure as reasons to walk away.",
+    "ctaHeading": "Get a Detailed Written Roofing Estimate in Essex County",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a written estimate that itemizes scope, materials, ventilation, flashing, warranty, and permit handling so you can compare it line by line. Explore our [roofing services](/roofing-services) to start.",
+    "metaDescription": "Find a reliable Essex County roofer: verify the 13VH HIC registration at NJ Consumer Affairs, confirm $500,000 liability insurance, compare written estimates."
   },
-
-  // ═════════════════════════════════════════════════════════════════════════════
-  // ARTICLE 3: Understanding NJ Roofing Licenses, Insurance, and Warranties
-  // ═════════════════════════════════════════════════════════════════════════════
   {
-    articleId: 'homepage-nj-roofing-licensing-insurance',
-    parentId: 'homepage',
-    parentType: 'core',
-    position: 3,
-    intro: 'Before hiring any roofing contractor in New Jersey, understanding the regulatory framework that protects you is essential. NJ has specific requirements for contractor registration, insurance coverage, and warranty obligations that exist to protect homeowners from fraud and substandard work.',
-    sections: [
-      { heading: 'NJ Home Improvement Contractor Registration Act', body: [
-        'The New Jersey Home Improvement Contractor Registration Act (NJSA 56:8-136 et seq.) requires all contractors performing home improvement work over $500 to register with the NJ Division of Consumer Affairs. This includes roofing contractors. The registration number must appear on all contracts, advertisements, and business documents. Working without registration is a consumer fraud violation.',
-        'Registration provides homeowners access to the NJ Contractors Guaranty Fund, which can reimburse homeowners up to $20,000 for losses caused by a registered contractor who commits fraud, abandons a project, or performs grossly defective work. This fund is funded by contractor registration fees and provides a financial safety net beyond the contractor own assets.',
-        'To verify a contractor registration, visit the NJ Division of Consumer Affairs website or call their consumer hotline. Check that the registration is current, that no disciplinary actions are pending, and that the registration name matches the company name on your contract.',
-      ] },
-      { heading: 'Insurance Requirements and Verification', body: [
-        'NJ does not mandate specific insurance amounts for roofing contractors, but industry standards and prudent hiring practices require: general liability insurance of at least $1 million per occurrence (covers property damage to your home and injuries to third parties), workers compensation insurance (covers contractor employees injured on your property), and commercial auto insurance (covers vehicles used in the roofing operation).',
-        'Request a Certificate of Insurance (COI) issued directly by the insurance company, not a photocopy from the contractor. The COI should list you as the certificate holder and show current policy dates. Call the insurance company to verify the policy is active. An expired or fraudulent insurance certificate is one of the most common roofing contractor scams in Essex County.',
-      ] },
-      { heading: 'Manufacturer and Workmanship Warranties', body: [
-        'Manufacturer warranties cover material defects and are provided by the shingle or membrane manufacturer. Standard manufacturer warranties for asphalt shingles range from 25 years to lifetime, but most are heavily pro-rated after an initial non-pro-rated period of 5-15 years. Enhanced system warranties from GAF, CertainTeed, and Owens Corning extend non-pro-rated coverage and may include labor costs, but require installation by certified contractors using complete system products.',
-        'Workmanship warranties cover installation quality and are provided by your roofing contractor. This warranty is arguably more important than the manufacturer warranty because installation errors cause more roof failures than material defects. Look for a minimum 5-year workmanship warranty from an established Essex County contractor. Verify that the contractor carries insurance that backs their warranty obligation, because a warranty from a company that goes out of business provides no protection.',
-        'NJ consumer protection law provides additional rights. If your roofing contractor performs defective work, you have recourse through the NJ Consumer Affairs Division, small claims court, or the Contractors Guaranty Fund. Document everything: keep copies of all contracts, change orders, payment records, photos of work in progress, and written correspondence.',
-      ] },
+    "articleId": "homepage-nj-roofing-licensing-insurance",
+    "parentId": "homepage",
+    "parentType": "core",
+    "position": 3,
+    "directAnswer": "**New Jersey requires every roofing contractor to register as a Home Improvement Contractor with the NJ Division of Consumer Affairs under N.J.S.A. 56:8-136** — a consumer-protection registration, not a roofing license, since the state issues no roofing license.",
+    "intro": "That single registration, paired with mandatory insurance and a clear understanding of warranty types, forms the baseline every New Jersey homeowner verifies before signing a roofing contract.",
+    "sections": [
+      {
+        "heading": "What Does the NJ Contractors' Registration Act Require?",
+        "body": [
+          "The **NJ Contractors' Registration Act (N.J.S.A. 56:8-136)** requires every home-improvement business, including roofers, to register with the NJ Division of Consumer Affairs, display a \"13VH\" registration number, and follow consumer-protection rules. This is a registration, not a roofing license.",
+          "The **registration** distinguishes itself from a license: New Jersey issues no roofing license, so a contractor proving competency through a state exam does not exist for this trade. Instead, registration confirms a business filed its information, carries required insurance, and accepted oversight by the NJ Division of Consumer Affairs. N.J.S.A. 56:8-144 requires the \"13VH\" registration number on contracts and advertisements, and a missing or invalid number signals an unregistered operator.",
+          "The **\"13VH\" number** travels with two related rules homeowners often confuse. Any home-improvement project priced above $500 requires a written contract under N.J.A.C. 13:45A-16.2 — that $500 figure triggers the contract requirement, not the registration itself, which has no dollar floor. When a contractor breaches these rules, the **NJ Division of Consumer Affairs** handles recourse under the Consumer Fraud Act, investigating deceptive practices and pursuing penalties on a homeowner's behalf."
+        ]
+      },
+      {
+        "heading": "What Insurance Must a NJ Roofing Contractor Carry?",
+        "body": [
+          "A **NJ roofing contractor** carries commercial general liability insurance with a minimum of $500,000 per occurrence under N.J.S.A. 56:8-142, plus workers' compensation coverage for crew injuries. Both protect the homeowner from cost transfer after an accident.",
+          "The **commercial general liability** policy covers property damage and bodily injury arising from the contractor's work — a dropped bundle through a skylight, water intrusion from an open tear-off, or injury to a passerby. The $500,000 per-occurrence floor set by N.J.S.A. 56:8-142 is the statutory minimum, and many contractors carry higher limits for larger commercial projects. A homeowner verifies this coverage by requesting a Certificate of Insurance issued directly by the insurer, not a copy supplied by the contractor.",
+          "**Workers' compensation** covers medical bills and lost wages when a crew member is injured on the property, which matters acutely on roofs where falls and heat exposure are common. Without it, an injured worker can pursue the homeowner directly. The **Certificate of Insurance** lists policy numbers, coverage limits, and effective dates; confirming those dates remain current — and that the insurer's name matches a real carrier — closes the most common gap between claimed and actual coverage."
+        ]
+      },
+      {
+        "heading": "How Do Manufacturer and Workmanship Warranties Differ?",
+        "body": [
+          "**Manufacturer warranties** cover defects in the roofing material itself and are often pro-rated over time, while **workmanship warranties** cover the quality of the installation and come from the contractor. The two address different failure points and rarely overlap.",
+          "A **manufacturer warranty** from a shingle or membrane maker — GAF, CertainTeed, or Owens Corning, for example — promises the product performs as specified and replaces material that fails from a manufacturing defect. Coverage is frequently pro-rated, meaning the dollar value declines as the roof ages, and it excludes problems caused by improper installation. Reading the exclusions reveals what the material warranty does and does not address.",
+          "A **workmanship warranty** comes from the contractor and covers installation errors — misdriven fasteners, flashing details left unsealed, or underlayment laid incorrectly — that material warranties expressly exclude. Since flashing details cause an estimated 90 to 95 percent of roof leaks per NRCA, this installation coverage carries real weight. A **warranty** of either type is only as durable as the organization standing behind it, so verifying that the manufacturer and the contractor both remain in business gives the document its actual value."
+        ]
+      }
     ],
-    conclusion: 'NJ provides meaningful consumer protections for homeowners hiring roofing contractors. Understanding and utilizing these protections, verifying registration, confirming insurance, and securing strong warranties, is the foundation of a successful roofing project.',
-    ctaHeading: 'Fully Licensed and Insured Roofing',
-    ctaText: 'Newark Quality Roofing meets every NJ regulatory requirement and backs our work with comprehensive warranties. Contact us for a consultation that starts with transparency.',
-    metaDescription: 'NJ roofing contractor licensing, insurance, and warranty guide. Consumer protections every Essex County homeowner should know.',
-  },
+    "conclusion": "New Jersey protects homeowners through registration, not licensing: a contractor displaying a valid \"13VH\" number, carrying $500,000 commercial general liability and workers' compensation, and standing behind a written workmanship warranty meets the state's baseline. Verifying each item before signing turns a roofing contract into a defensible agreement.",
+    "ctaHeading": "Work With a Registered New Jersey Roofing Contractor",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide written contracts, a Certificate of Insurance on request, and a workmanship warranty in plain language. Reach out to discuss your roof repair or roof replacement.",
+    "metaDescription": "NJ roofing requires HIC registration with the Division of Consumer Affairs (N.J.S.A. 56:8-136), $500,000 liability insurance, and clear warranty terms."
+  }
 ];
