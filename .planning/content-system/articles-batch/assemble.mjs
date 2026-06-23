@@ -12,13 +12,19 @@ import { dirname, join } from 'node:path';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO = join(HERE, '..', '..', '..');
 const AUTHORED = join(HERE, '_authored.json');
-const OUT = join(REPO, 'src', 'data', 'article-content', 'homepage.ts');
+const OUT = join(REPO, 'src', 'data', 'article-content', 'design-consultation.ts');
 
-// Fixed identity (current homepage.ts) — agents never touch these.
+// Fixed identity (current design-consultation.ts) — agents never touch these.
 const IDENTITY = {
-  'homepage-nj-roofing-guide':            { parentId: 'homepage', parentType: 'core', position: 1 },
-  'homepage-finding-roofer-essex-county': { parentId: 'homepage', parentType: 'core', position: 2 },
-  'homepage-nj-roofing-licensing-insurance': { parentId: 'homepage', parentType: 'core', position: 3 },
+  'custom-roof-design-consultation-signs':      { parentId: 'custom-roof-design-consultation', parentType: 'service', position: 1 },
+  'custom-roof-design-consultation-cost-guide': { parentId: 'custom-roof-design-consultation', parentType: 'service', position: 2 },
+  'custom-roof-design-consultation-decision':   { parentId: 'custom-roof-design-consultation', parentType: 'service', position: 3 },
+  'historic-roof-restoration-signs':            { parentId: 'historic-roof-restoration', parentType: 'service', position: 1 },
+  'historic-roof-restoration-cost-guide':       { parentId: 'historic-roof-restoration', parentType: 'service', position: 2 },
+  'historic-roof-restoration-decision':         { parentId: 'historic-roof-restoration', parentType: 'service', position: 3 },
+  'roof-ice-dam-prevention-signs':              { parentId: 'roof-ice-dam-prevention', parentType: 'service', position: 1 },
+  'roof-ice-dam-prevention-cost-guide':         { parentId: 'roof-ice-dam-prevention', parentType: 'service', position: 2 },
+  'roof-ice-dam-prevention-decision':           { parentId: 'roof-ice-dam-prevention', parentType: 'service', position: 3 },
 };
 const ORDER = Object.keys(IDENTITY);
 
@@ -49,11 +55,12 @@ const objects = ORDER.map((id) => {
 
 const header = `import type { ArticleContent } from './schema';
 
-// ─── Homepage Article Content ─────────────────────────────────
-// 3 core articles for the homepage (parentType: 'core', parentId: 'homepage').
-// Broad NJ roofing guides, rewritten answer-first (semantic-content ruleset).
+// ─── Design & Consultation Article Content ──────────────────────────────────
+// 3 services x 3 articles = 9 articles (parentType: 'service').
+// custom-roof-design-consultation, historic-roof-restoration, roof-ice-dam-prevention.
+// Rewritten answer-first + de-fabbed (semantic-content ruleset v1.7).
 
-export const homepageArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
+export const designConsultationArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
 `;
 
 writeFileSync(OUT, header, 'utf8');
