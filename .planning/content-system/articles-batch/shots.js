@@ -1,24 +1,33 @@
-// Articles Batch — full-page screenshots + render checks for the 15 commercial-services articles.
+// Articles Batch — full-page screenshots + render checks for the 24 commercial-roof-types articles.
 // Articles render their full content (directAnswer/ArticleBody) at root /<slug>.
-// Run: NODE_PATH=/opt/homebrew/lib/node_modules PORT=3230 node .planning/content-system/articles-batch/shots.js
+// Run: NODE_PATH=/opt/homebrew/lib/node_modules PORT=3240 node .planning/content-system/articles-batch/shots.js
 const { chromium } = require('playwright');
-const PORT = process.env.PORT || 3230;
+const PORT = process.env.PORT || 3240;
 const SLUGS = [
-  'signs-your-building-needs-commercial-roof-installation',
-  'how-much-does-commercial-roof-installation-cost-in-nj',
-  'commercial-roof-installation-what-business-owners-should-know',
-  'signs-your-building-needs-commercial-roof-repair',
-  'how-much-does-commercial-roof-repair-cost-in-nj',
-  'commercial-roof-repair-what-business-owners-should-know',
-  'signs-your-building-needs-commercial-roof-replacement',
-  'how-much-does-commercial-roof-replacement-cost-in-nj',
-  'commercial-roof-replacement-what-business-owners-should-know',
-  'signs-your-building-needs-roof-thermal-imaging-inspections',
-  'how-much-does-roof-thermal-imaging-inspections-cost-in-nj',
-  'roof-thermal-imaging-inspections-what-business-owners-should-know',
-  'signs-your-building-needs-infrared-roof-leak-detection',
-  'how-much-does-infrared-roof-leak-detection-cost-in-nj',
-  'infrared-roof-leak-detection-what-business-owners-should-know',
+  'tpo-roofing-installation-warning-signs-nj',
+  'how-much-does-tpo-roofing-installation-cost-in-nj',
+  'tpo-roofing-installation-pros-and-cons-nj-homeowners',
+  'epdm-commercial-roofing-warning-signs-nj',
+  'how-much-does-epdm-commercial-roofing-cost-in-nj',
+  'epdm-commercial-roofing-pros-and-cons-nj-homeowners',
+  'modified-bitumen-roofing-warning-signs-nj',
+  'how-much-does-modified-bitumen-roofing-cost-in-nj',
+  'modified-bitumen-roofing-pros-and-cons-nj-homeowners',
+  'built-up-roofing-warning-signs-nj',
+  'how-much-does-built-up-roofing-cost-in-nj',
+  'built-up-roofing-pros-and-cons-nj-homeowners',
+  'commercial-metal-roofing-warning-signs-nj',
+  'how-much-does-commercial-metal-roofing-cost-in-nj',
+  'commercial-metal-roofing-pros-and-cons-nj-homeowners',
+  'pvc-roofing-warning-signs-nj',
+  'how-much-does-pvc-roofing-cost-in-nj',
+  'pvc-roofing-pros-and-cons-nj-homeowners',
+  'green-roof-installation-warning-signs-nj',
+  'how-much-does-green-roof-installation-cost-in-nj',
+  'green-roof-installation-pros-and-cons-nj-homeowners',
+  'spray-foam-roofing-warning-signs-nj',
+  'how-much-does-spray-foam-roofing-cost-in-nj',
+  'spray-foam-roofing-pros-and-cons-nj-homeowners',
 ];
 const DEFAB = /GAF[-\s]?certified|same-?day|24\s*\/\s*7|0\s*%\s*financing|top-?rated|master[-\s]elite|HAAG|500\+|licensed/i;
 (async () => {

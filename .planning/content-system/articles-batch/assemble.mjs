@@ -1,7 +1,7 @@
-// Deterministic assemble for the homepage CORE articles sub-batch.
+// Deterministic assemble for the commercial-roof-types articles sub-batch.
 // Reads _authored.json (the AUTHOR workflow result's `articles` array), merges the
 // authored content fields with the FIXED identity fields (orchestrator-owned, never
-// agent-authored), and emits src/data/article-content/homepage.ts.
+// agent-authored), and emits src/data/article-content/commercial-roof-types.ts.
 // JSON.stringify => valid TS object literals => zero escaping bugs (hubs-batch lesson).
 //
 // Run: node .planning/content-system/articles-batch/assemble.mjs
@@ -12,25 +12,36 @@ import { dirname, join } from 'node:path';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO = join(HERE, '..', '..', '..');
 const AUTHORED = join(HERE, '_authored.json');
-const OUT = join(REPO, 'src', 'data', 'article-content', 'commercial-services.ts');
+const OUT = join(REPO, 'src', 'data', 'article-content', 'commercial-roof-types.ts');
 
-// Fixed identity (current commercial-services.ts) — agents never touch these.
+// Fixed identity (current commercial-roof-types.ts) — agents never touch these.
+// 8 parent commercial roof-type services x 3 articles = 24.
+const svc = (parentId) => ({ parentId, parentType: 'service' });
 const IDENTITY = {
-  'commercial-roof-installation-signs':          { parentId: 'commercial-roof-installation', parentType: 'service', position: 1 },
-  'commercial-roof-installation-cost-guide':     { parentId: 'commercial-roof-installation', parentType: 'service', position: 2 },
-  'commercial-roof-installation-decision':       { parentId: 'commercial-roof-installation', parentType: 'service', position: 3 },
-  'commercial-roof-repair-signs':                { parentId: 'commercial-roof-repair', parentType: 'service', position: 1 },
-  'commercial-roof-repair-cost-guide':           { parentId: 'commercial-roof-repair', parentType: 'service', position: 2 },
-  'commercial-roof-repair-decision':             { parentId: 'commercial-roof-repair', parentType: 'service', position: 3 },
-  'commercial-roof-replacement-signs':           { parentId: 'commercial-roof-replacement', parentType: 'service', position: 1 },
-  'commercial-roof-replacement-cost-guide':      { parentId: 'commercial-roof-replacement', parentType: 'service', position: 2 },
-  'commercial-roof-replacement-decision':        { parentId: 'commercial-roof-replacement', parentType: 'service', position: 3 },
-  'roof-thermal-imaging-inspections-signs':      { parentId: 'roof-thermal-imaging-inspections', parentType: 'service', position: 1 },
-  'roof-thermal-imaging-inspections-cost-guide': { parentId: 'roof-thermal-imaging-inspections', parentType: 'service', position: 2 },
-  'roof-thermal-imaging-inspections-decision':   { parentId: 'roof-thermal-imaging-inspections', parentType: 'service', position: 3 },
-  'infrared-roof-leak-detection-signs':          { parentId: 'infrared-roof-leak-detection', parentType: 'service', position: 1 },
-  'infrared-roof-leak-detection-cost-guide':     { parentId: 'infrared-roof-leak-detection', parentType: 'service', position: 2 },
-  'infrared-roof-leak-detection-decision':       { parentId: 'infrared-roof-leak-detection', parentType: 'service', position: 3 },
+  'tpo-roofing-installation-signs':         { ...svc('tpo-roofing-installation'), position: 1 },
+  'tpo-roofing-installation-cost-guide':    { ...svc('tpo-roofing-installation'), position: 2 },
+  'tpo-roofing-installation-decision':      { ...svc('tpo-roofing-installation'), position: 3 },
+  'epdm-commercial-roofing-signs':          { ...svc('epdm-commercial-roofing'), position: 1 },
+  'epdm-commercial-roofing-cost-guide':     { ...svc('epdm-commercial-roofing'), position: 2 },
+  'epdm-commercial-roofing-decision':       { ...svc('epdm-commercial-roofing'), position: 3 },
+  'modified-bitumen-roofing-signs':         { ...svc('modified-bitumen-roofing'), position: 1 },
+  'modified-bitumen-roofing-cost-guide':    { ...svc('modified-bitumen-roofing'), position: 2 },
+  'modified-bitumen-roofing-decision':      { ...svc('modified-bitumen-roofing'), position: 3 },
+  'built-up-roofing-signs':                 { ...svc('built-up-roofing'), position: 1 },
+  'built-up-roofing-cost-guide':            { ...svc('built-up-roofing'), position: 2 },
+  'built-up-roofing-decision':              { ...svc('built-up-roofing'), position: 3 },
+  'commercial-metal-roofing-signs':         { ...svc('commercial-metal-roofing'), position: 1 },
+  'commercial-metal-roofing-cost-guide':    { ...svc('commercial-metal-roofing'), position: 2 },
+  'commercial-metal-roofing-decision':      { ...svc('commercial-metal-roofing'), position: 3 },
+  'pvc-roofing-signs':                      { ...svc('pvc-roofing'), position: 1 },
+  'pvc-roofing-cost-guide':                 { ...svc('pvc-roofing'), position: 2 },
+  'pvc-roofing-decision':                   { ...svc('pvc-roofing'), position: 3 },
+  'green-roof-installation-signs':          { ...svc('green-roof-installation'), position: 1 },
+  'green-roof-installation-cost-guide':     { ...svc('green-roof-installation'), position: 2 },
+  'green-roof-installation-decision':       { ...svc('green-roof-installation'), position: 3 },
+  'spray-foam-roofing-signs':               { ...svc('spray-foam-roofing'), position: 1 },
+  'spray-foam-roofing-cost-guide':          { ...svc('spray-foam-roofing'), position: 2 },
+  'spray-foam-roofing-decision':            { ...svc('spray-foam-roofing'), position: 3 },
 };
 const ORDER = Object.keys(IDENTITY);
 
@@ -61,14 +72,15 @@ const objects = ORDER.map((id) => {
 
 const header = `import type { ArticleContent } from './schema';
 
-// ─── Commercial Services Article Content ─────────────────────────────────────
-// 5 services x 3 articles = 15 articles (parentType: 'service').
-// commercial-roof-installation, commercial-roof-repair, commercial-roof-replacement,
-// roof-thermal-imaging-inspections, infrared-roof-leak-detection.
+// ─── Commercial Roof Types Article Content ───────────────────────────────────
+// 8 services x 3 articles = 24 articles (parentType: 'service').
+// tpo-roofing-installation, epdm-commercial-roofing, modified-bitumen-roofing,
+// built-up-roofing, commercial-metal-roofing, pvc-roofing, green-roof-installation,
+// spray-foam-roofing. signs / cost-guide / decision (pros-and-cons).
 // Rewritten answer-first + de-fabbed (semantic-content ruleset v1.7), grounded in the
-// committed parent gold service-content/commercial-services.ts.
+// committed parent gold service-content/commercial-roof-types.ts.
 
-export const commercialServicesArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
+export const commercialRoofTypesArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
 `;
 
 writeFileSync(OUT, header, 'utf8');
