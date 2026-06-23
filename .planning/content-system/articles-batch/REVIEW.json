@@ -1,0 +1,21 @@
+{
+  "summary": "Adversarial review of the 3 core homepage articles (factual + de-fab + answer-first)",
+  "agentCount": 3,
+  "logs": [],
+  "result": {
+    "reviews": [
+      {
+        "articleId": "homepage-nj-roofing-guide",
+        "findings": []
+      },
+      {
+        "articleId": "homepage-finding-roofer-essex-county",
+        "findings": []
+      },
+      {
+        "articleId": "homepage-nj-roofing-licensing-insurance",
+        "findings": []
+      }
+    ]
+  }
+}
