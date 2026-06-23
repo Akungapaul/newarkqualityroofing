@@ -1,21 +1,24 @@
-// Articles Batch — full-page screenshots + render checks for the 12 energy-solar articles.
+// Articles Batch — full-page screenshots + render checks for the 15 commercial-services articles.
 // Articles render their full content (directAnswer/ArticleBody) at root /<slug>.
 // Run: NODE_PATH=/opt/homebrew/lib/node_modules PORT=3230 node .planning/content-system/articles-batch/shots.js
 const { chromium } = require('playwright');
 const PORT = process.env.PORT || 3230;
 const SLUGS = [
-  'is-solar-panel-roofing-installation-right-for-your-home',
-  'how-much-does-solar-panel-roofing-installation-cost-in-nj',
-  'solar-panel-roofing-installation-nj-incentives-and-savings',
-  'is-solar-shingle-installation-right-for-your-home',
-  'how-much-does-solar-shingle-installation-cost-in-nj',
-  'solar-shingle-installation-nj-incentives-and-savings',
-  'is-energy-efficient-roofing-solutions-right-for-your-home',
-  'how-much-does-energy-efficient-roofing-solutions-cost-in-nj',
-  'energy-efficient-roofing-solutions-nj-incentives-and-savings',
-  'is-silicone-roof-coating-right-for-your-home',
-  'how-much-does-silicone-roof-coating-cost-in-nj',
-  'silicone-roof-coating-nj-incentives-and-savings',
+  'signs-your-building-needs-commercial-roof-installation',
+  'how-much-does-commercial-roof-installation-cost-in-nj',
+  'commercial-roof-installation-what-business-owners-should-know',
+  'signs-your-building-needs-commercial-roof-repair',
+  'how-much-does-commercial-roof-repair-cost-in-nj',
+  'commercial-roof-repair-what-business-owners-should-know',
+  'signs-your-building-needs-commercial-roof-replacement',
+  'how-much-does-commercial-roof-replacement-cost-in-nj',
+  'commercial-roof-replacement-what-business-owners-should-know',
+  'signs-your-building-needs-roof-thermal-imaging-inspections',
+  'how-much-does-roof-thermal-imaging-inspections-cost-in-nj',
+  'roof-thermal-imaging-inspections-what-business-owners-should-know',
+  'signs-your-building-needs-infrared-roof-leak-detection',
+  'how-much-does-infrared-roof-leak-detection-cost-in-nj',
+  'infrared-roof-leak-detection-what-business-owners-should-know',
 ];
 const DEFAB = /GAF[-\s]?certified|same-?day|24\s*\/\s*7|0\s*%\s*financing|top-?rated|master[-\s]elite|HAAG|500\+|licensed/i;
 (async () => {

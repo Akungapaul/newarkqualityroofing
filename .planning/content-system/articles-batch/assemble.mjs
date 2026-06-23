@@ -12,22 +12,25 @@ import { dirname, join } from 'node:path';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO = join(HERE, '..', '..', '..');
 const AUTHORED = join(HERE, '_authored.json');
-const OUT = join(REPO, 'src', 'data', 'article-content', 'energy-solar.ts');
+const OUT = join(REPO, 'src', 'data', 'article-content', 'commercial-services.ts');
 
-// Fixed identity (current energy-solar.ts) — agents never touch these.
+// Fixed identity (current commercial-services.ts) — agents never touch these.
 const IDENTITY = {
-  'solar-panel-roofing-installation-signs':       { parentId: 'solar-panel-roofing-installation', parentType: 'service', position: 1 },
-  'solar-panel-roofing-installation-cost-guide':  { parentId: 'solar-panel-roofing-installation', parentType: 'service', position: 2 },
-  'solar-panel-roofing-installation-decision':    { parentId: 'solar-panel-roofing-installation', parentType: 'service', position: 3 },
-  'solar-shingle-installation-signs':             { parentId: 'solar-shingle-installation', parentType: 'service', position: 1 },
-  'solar-shingle-installation-cost-guide':        { parentId: 'solar-shingle-installation', parentType: 'service', position: 2 },
-  'solar-shingle-installation-decision':          { parentId: 'solar-shingle-installation', parentType: 'service', position: 3 },
-  'energy-efficient-roofing-solutions-signs':      { parentId: 'energy-efficient-roofing-solutions', parentType: 'service', position: 1 },
-  'energy-efficient-roofing-solutions-cost-guide': { parentId: 'energy-efficient-roofing-solutions', parentType: 'service', position: 2 },
-  'energy-efficient-roofing-solutions-decision':   { parentId: 'energy-efficient-roofing-solutions', parentType: 'service', position: 3 },
-  'silicone-roof-coating-signs':                  { parentId: 'silicone-roof-coating', parentType: 'service', position: 1 },
-  'silicone-roof-coating-cost-guide':             { parentId: 'silicone-roof-coating', parentType: 'service', position: 2 },
-  'silicone-roof-coating-decision':               { parentId: 'silicone-roof-coating', parentType: 'service', position: 3 },
+  'commercial-roof-installation-signs':          { parentId: 'commercial-roof-installation', parentType: 'service', position: 1 },
+  'commercial-roof-installation-cost-guide':     { parentId: 'commercial-roof-installation', parentType: 'service', position: 2 },
+  'commercial-roof-installation-decision':       { parentId: 'commercial-roof-installation', parentType: 'service', position: 3 },
+  'commercial-roof-repair-signs':                { parentId: 'commercial-roof-repair', parentType: 'service', position: 1 },
+  'commercial-roof-repair-cost-guide':           { parentId: 'commercial-roof-repair', parentType: 'service', position: 2 },
+  'commercial-roof-repair-decision':             { parentId: 'commercial-roof-repair', parentType: 'service', position: 3 },
+  'commercial-roof-replacement-signs':           { parentId: 'commercial-roof-replacement', parentType: 'service', position: 1 },
+  'commercial-roof-replacement-cost-guide':      { parentId: 'commercial-roof-replacement', parentType: 'service', position: 2 },
+  'commercial-roof-replacement-decision':        { parentId: 'commercial-roof-replacement', parentType: 'service', position: 3 },
+  'roof-thermal-imaging-inspections-signs':      { parentId: 'roof-thermal-imaging-inspections', parentType: 'service', position: 1 },
+  'roof-thermal-imaging-inspections-cost-guide': { parentId: 'roof-thermal-imaging-inspections', parentType: 'service', position: 2 },
+  'roof-thermal-imaging-inspections-decision':   { parentId: 'roof-thermal-imaging-inspections', parentType: 'service', position: 3 },
+  'infrared-roof-leak-detection-signs':          { parentId: 'infrared-roof-leak-detection', parentType: 'service', position: 1 },
+  'infrared-roof-leak-detection-cost-guide':     { parentId: 'infrared-roof-leak-detection', parentType: 'service', position: 2 },
+  'infrared-roof-leak-detection-decision':       { parentId: 'infrared-roof-leak-detection', parentType: 'service', position: 3 },
 };
 const ORDER = Object.keys(IDENTITY);
 
@@ -58,13 +61,14 @@ const objects = ORDER.map((id) => {
 
 const header = `import type { ArticleContent } from './schema';
 
-// ─── Energy & Solar Article Content ─────────────────────────────────────────
-// 4 services x 3 articles = 12 articles (parentType: 'service').
-// solar-panel-roofing-installation, solar-shingle-installation,
-// energy-efficient-roofing-solutions, silicone-roof-coating.
-// Rewritten answer-first + de-fabbed + 2026-currency-corrected (semantic-content ruleset v1.7).
+// ─── Commercial Services Article Content ─────────────────────────────────────
+// 5 services x 3 articles = 15 articles (parentType: 'service').
+// commercial-roof-installation, commercial-roof-repair, commercial-roof-replacement,
+// roof-thermal-imaging-inspections, infrared-roof-leak-detection.
+// Rewritten answer-first + de-fabbed (semantic-content ruleset v1.7), grounded in the
+// committed parent gold service-content/commercial-services.ts.
 
-export const energySolarArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
+export const commercialServicesArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
 `;
 
 writeFileSync(OUT, header, 'utf8');
