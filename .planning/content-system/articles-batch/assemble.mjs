@@ -12,19 +12,22 @@ import { dirname, join } from 'node:path';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO = join(HERE, '..', '..', '..');
 const AUTHORED = join(HERE, '_authored.json');
-const OUT = join(REPO, 'src', 'data', 'article-content', 'design-consultation.ts');
+const OUT = join(REPO, 'src', 'data', 'article-content', 'energy-solar.ts');
 
-// Fixed identity (current design-consultation.ts) — agents never touch these.
+// Fixed identity (current energy-solar.ts) — agents never touch these.
 const IDENTITY = {
-  'custom-roof-design-consultation-signs':      { parentId: 'custom-roof-design-consultation', parentType: 'service', position: 1 },
-  'custom-roof-design-consultation-cost-guide': { parentId: 'custom-roof-design-consultation', parentType: 'service', position: 2 },
-  'custom-roof-design-consultation-decision':   { parentId: 'custom-roof-design-consultation', parentType: 'service', position: 3 },
-  'historic-roof-restoration-signs':            { parentId: 'historic-roof-restoration', parentType: 'service', position: 1 },
-  'historic-roof-restoration-cost-guide':       { parentId: 'historic-roof-restoration', parentType: 'service', position: 2 },
-  'historic-roof-restoration-decision':         { parentId: 'historic-roof-restoration', parentType: 'service', position: 3 },
-  'roof-ice-dam-prevention-signs':              { parentId: 'roof-ice-dam-prevention', parentType: 'service', position: 1 },
-  'roof-ice-dam-prevention-cost-guide':         { parentId: 'roof-ice-dam-prevention', parentType: 'service', position: 2 },
-  'roof-ice-dam-prevention-decision':           { parentId: 'roof-ice-dam-prevention', parentType: 'service', position: 3 },
+  'solar-panel-roofing-installation-signs':       { parentId: 'solar-panel-roofing-installation', parentType: 'service', position: 1 },
+  'solar-panel-roofing-installation-cost-guide':  { parentId: 'solar-panel-roofing-installation', parentType: 'service', position: 2 },
+  'solar-panel-roofing-installation-decision':    { parentId: 'solar-panel-roofing-installation', parentType: 'service', position: 3 },
+  'solar-shingle-installation-signs':             { parentId: 'solar-shingle-installation', parentType: 'service', position: 1 },
+  'solar-shingle-installation-cost-guide':        { parentId: 'solar-shingle-installation', parentType: 'service', position: 2 },
+  'solar-shingle-installation-decision':          { parentId: 'solar-shingle-installation', parentType: 'service', position: 3 },
+  'energy-efficient-roofing-solutions-signs':      { parentId: 'energy-efficient-roofing-solutions', parentType: 'service', position: 1 },
+  'energy-efficient-roofing-solutions-cost-guide': { parentId: 'energy-efficient-roofing-solutions', parentType: 'service', position: 2 },
+  'energy-efficient-roofing-solutions-decision':   { parentId: 'energy-efficient-roofing-solutions', parentType: 'service', position: 3 },
+  'silicone-roof-coating-signs':                  { parentId: 'silicone-roof-coating', parentType: 'service', position: 1 },
+  'silicone-roof-coating-cost-guide':             { parentId: 'silicone-roof-coating', parentType: 'service', position: 2 },
+  'silicone-roof-coating-decision':               { parentId: 'silicone-roof-coating', parentType: 'service', position: 3 },
 };
 const ORDER = Object.keys(IDENTITY);
 
@@ -55,12 +58,13 @@ const objects = ORDER.map((id) => {
 
 const header = `import type { ArticleContent } from './schema';
 
-// ─── Design & Consultation Article Content ──────────────────────────────────
-// 3 services x 3 articles = 9 articles (parentType: 'service').
-// custom-roof-design-consultation, historic-roof-restoration, roof-ice-dam-prevention.
-// Rewritten answer-first + de-fabbed (semantic-content ruleset v1.7).
+// ─── Energy & Solar Article Content ─────────────────────────────────────────
+// 4 services x 3 articles = 12 articles (parentType: 'service').
+// solar-panel-roofing-installation, solar-shingle-installation,
+// energy-efficient-roofing-solutions, silicone-roof-coating.
+// Rewritten answer-first + de-fabbed + 2026-currency-corrected (semantic-content ruleset v1.7).
 
-export const designConsultationArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
+export const energySolarArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
 `;
 
 writeFileSync(OUT, header, 'utf8');

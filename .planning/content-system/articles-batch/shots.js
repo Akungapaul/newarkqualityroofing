@@ -1,18 +1,21 @@
-// Articles Batch — full-page screenshots + render checks for the 9 design-consultation articles.
+// Articles Batch — full-page screenshots + render checks for the 12 energy-solar articles.
 // Articles render their full content (directAnswer/ArticleBody) at root /<slug>.
 // Run: NODE_PATH=/opt/homebrew/lib/node_modules PORT=3230 node .planning/content-system/articles-batch/shots.js
 const { chromium } = require('playwright');
 const PORT = process.env.PORT || 3230;
 const SLUGS = [
-  'when-to-consider-custom-roof-design-consultation-nj',
-  'how-much-does-custom-roof-design-consultation-cost-in-nj',
-  'custom-roof-design-consultation-what-to-expect-nj',
-  'when-to-consider-historic-roof-restoration-nj',
-  'how-much-does-historic-roof-restoration-cost-in-nj',
-  'historic-roof-restoration-what-to-expect-nj',
-  'when-to-consider-roof-ice-dam-prevention-nj',
-  'how-much-does-roof-ice-dam-prevention-cost-in-nj',
-  'roof-ice-dam-prevention-what-to-expect-nj',
+  'is-solar-panel-roofing-installation-right-for-your-home',
+  'how-much-does-solar-panel-roofing-installation-cost-in-nj',
+  'solar-panel-roofing-installation-nj-incentives-and-savings',
+  'is-solar-shingle-installation-right-for-your-home',
+  'how-much-does-solar-shingle-installation-cost-in-nj',
+  'solar-shingle-installation-nj-incentives-and-savings',
+  'is-energy-efficient-roofing-solutions-right-for-your-home',
+  'how-much-does-energy-efficient-roofing-solutions-cost-in-nj',
+  'energy-efficient-roofing-solutions-nj-incentives-and-savings',
+  'is-silicone-roof-coating-right-for-your-home',
+  'how-much-does-silicone-roof-coating-cost-in-nj',
+  'silicone-roof-coating-nj-incentives-and-savings',
 ];
 const DEFAB = /GAF[-\s]?certified|same-?day|24\s*\/\s*7|0\s*%\s*financing|top-?rated|master[-\s]elite|HAAG|500\+|licensed/i;
 (async () => {
