@@ -1,0 +1,171 @@
+{
+  "serviceId": "roof-cleaning-moss-removal",
+  "serviceTitle": "Roof Cleaning & Moss Removal",
+  "definition": "Roof cleaning and moss removal clears biological growth — moss, Gloeocapsa magma algae, and lichen — from a roof with a low-pressure chemical wash that kills the growth at the root. It relies on chemical action rather than pressure washing, which strips the protective granules.",
+  "hasRealWholeProjectTotal": false,
+  "costRanges": [
+    {
+      "item": "Roof cleaning — overall (1,500-sf home)",
+      "range": "$300–$1,050, an average of $675 for a 1,500-square-foot home (this is a small per-job cleaning total, NOT a whole-roof replacement/install total)",
+      "source": "This Old House"
+    },
+    {
+      "item": "Soft-wash cleaning rate (moss removal included in most basic cleanings at the same rate)",
+      "range": "$0.20–$0.70 per square foot",
+      "source": "This Old House"
+    },
+    {
+      "item": "Moss-prevention treatment after a cleaning",
+      "range": "adds $150–$250",
+      "source": "This Old House"
+    },
+    {
+      "item": "Zinc applied as strips or powder (at a roof replacement only — ARMA does not recommend adding strips to an existing roof)",
+      "range": "$0.05–$0.15 per square foot",
+      "source": "This Old House (rate); ARMA (strip-on-existing-roof not recommended)"
+    }
+  ],
+  "signs": [
+    "Thick green moss along shingle edges, in valleys, and on north-facing slopes lifts and curls the shingle leading edges and raises the risk of wind blow-off — per ARMA; shaded north-facing slopes hold moisture and degrade faster, per CSSB and NRCA guidance.",
+    "Dark black or green streaking across the roof surface indicates Gloeocapsa magma, the most prevalent roof-discoloration algae, which feeds on the limestone filler in asphalt shingles — per ARMA and Atlas Roofing.",
+    "Crusty grey-green lichen patches adhered to the shingle surface establish in shaded, moisture-holding areas and require the ARMA 50:50 chlorine-bleach-and-water solution at a 15–20-minute dwell to reach the root — per ARMA.",
+    "Granule loss with sandy grit in gutters under the streaked areas indicates accelerated wear, because granule loss exceeding roughly 30% of the surface is the common rule-of-thumb for beyond repair — per GAF and InterNACHI.",
+    "Leaf litter and organic debris in valleys and at roof-to-wall transitions create the moisture-holding, nutrient-rich conditions where moss colonies establish — per ARMA algae-and-moss guidance.",
+    "Severe moss build-up across the field causes lateral water movement that reaches the roof deck and leads to moisture damage or leaks — per ARMA."
+  ],
+  "selectionCriteria": [
+    "Active NJ Home Improvement Contractor registration (N.J.S.A. 56:8-136) — this is a registration, NOT a license; New Jersey issues no roofing license. The 13VH-prefixed registration number must appear on the contract and in advertising (N.J.S.A. 56:8-144).",
+    "Commercial general liability insurance of at least $500,000 per occurrence (N.J.S.A. 56:8-142), verified through a Certificate of Insurance issued directly by the carrier.",
+    "A written contract for any home-improvement work over $500, signed by both parties with start/end dates and the total price (N.J.A.C. 13:45A-16.2).",
+    "A detailed, itemized written estimate that names the cleaning method (low-pressure chemical wash), the chemistry, and the areas treated — not a phone quote given sight-unseen.",
+    "Local references and an established Essex County presence so the homeowner can verify completed work.",
+    "A thorough, documented pre-cleaning assessment that identifies the growth as moss, Gloeocapsa magma algae, or lichen and rates the roof-covering condition before quoting (granule loss exceeding roughly 30% of the surface marks a roof beyond cleaning, per GAF and InterNACHI).",
+    "A contractor who cleans by the ARMA low-pressure chemical method (50:50 chlorine-bleach-and-water, 15–20-minute dwell, low-pressure rinse) rather than pressure-washing, because ARMA states pressure-washing an asphalt shingle roof causes granule loss and premature failure."
+  ],
+  "technicalFacts": [
+    {
+      "fact": "Pressure-washing an asphalt shingle roof causes granule loss and premature failure of the roof system; cleaning should use a low-pressure chemical wash instead.",
+      "source": "ARMA"
+    },
+    {
+      "fact": "ARMA specifies a 50:50 mix of laundry-strength liquid chlorine bleach and water, a 15–20-minute dwell, and a low-pressure rinse, so the cleaning relies on chemical action rather than mechanical force.",
+      "source": "ARMA"
+    },
+    {
+      "fact": "Gloeocapsa magma is the most prevalent roof-discoloration algae and feeds on the limestone filler in asphalt shingles, producing the dark streaks.",
+      "source": "ARMA and Atlas Roofing"
+    },
+    {
+      "fact": "Moss lifts and curls the leading edges of shingles and raises the risk of shingle blow-off during wind events; severe moss build-up causes lateral water movement that reaches the roof deck and leads to moisture damage or leaks.",
+      "source": "ARMA"
+    },
+    {
+      "fact": "Granule loss exceeding roughly 30% of the surface is the common rule-of-thumb for a roof being beyond repair (and therefore beyond cleaning).",
+      "source": "GAF and InterNACHI"
+    },
+    {
+      "fact": "Proper maintenance extends asphalt-shingle service life by roughly 25–30%.",
+      "source": "ARMA"
+    },
+    {
+      "fact": "Zinc and copper metal molecules inhibit algae growth, so manufacturers build copper granules into algae-resistant shingles; but ARMA does not recommend adding zinc or copper strips to an existing roof, because the strips require exposed nails that cause leaks over time or break the sealant bond — strip installation is reserved for a roof replacement.",
+      "source": "ARMA and Atlas Roofing"
+    },
+    {
+      "fact": "Shaded, north-facing slopes hold moisture and grow moss faster, so they are cleaned first.",
+      "source": "CSSB and NRCA guidance"
+    },
+    {
+      "fact": "A roof-covering cleaning of a detached one- and two-family dwelling counts as ordinary maintenance and requires no construction permit, no inspection, and no notice to the construction official.",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and a flat roof needs at least 1/4 inch per foot of slope to drain — so drains are cleared during the rinse on commercial low-slope membranes.",
+      "source": "NRCA and ARMA"
+    },
+    {
+      "fact": "The NRCA recommends a roof inspection at least twice per year, spring and fall, plus an inspection after any major weather event — the cadence for checking biological growth.",
+      "source": "NRCA"
+    },
+    {
+      "fact": "Membrane life expectancies for commercial low-slope cleaning context: EPDM 15–25 years, TPO 7–20 years, modified bitumen 20 years; biological growth that holds moisture against the membrane accelerates deterioration.",
+      "source": "InterNACHI life-expectancy chart"
+    }
+  ],
+  "sources": [
+    "ARMA (Asphalt Roofing Manufacturers Association)",
+    "Atlas Roofing",
+    "GAF",
+    "InterNACHI",
+    "CSSB (Cedar Shake & Shingle Bureau)",
+    "NRCA (National Roofing Contractors Association)",
+    "This Old House",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)",
+    "N.J.S.A. 56:8-136 / 56:8-142 / 56:8-144 (NJ Consumer Fraud Act / HIC registration)",
+    "N.J.A.C. 13:45A-16.2 (NJ Home Improvement Practices)"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "roof-cleaning-moss-removal-signs",
+      "issue": "Lichen called 'the most destructive biological growth' with invented mechanism claims — 'root structures (rhizines) penetrate into the shingle surface' and 'removal after established growth often pulls granules and asphalt material with it, leaving permanent damage.' No source; not in the gold.",
+      "fix": "Describe lichen as crusty grey-green patches that adhere to shaded, moisture-holding shingle surfaces and require the ARMA 50:50 chlorine-bleach-and-water solution at a 15–20-minute dwell to reach the root (per ARMA). Do not rank it 'most destructive' or invent rhizine/granule-pulling mechanics."
+    },
+    {
+      "articleId": "roof-cleaning-moss-removal-signs",
+      "issue": "Frames poor roof ventilation as a primary driver of moss growth and tells the reader to address ventilation as part of the cleaning solution — conflates ventilation with the cleaning service; unsourced.",
+      "fix": "Ground the moisture/shade mechanism in the gold: shaded north-facing slopes hold moisture and grow moss faster (CSSB and NRCA guidance); leaf litter and organic debris create the moisture-holding, nutrient-rich conditions where moss establishes (ARMA). Drop the ventilation-as-cleaning-fix framing."
+    },
+    {
+      "articleId": "roof-cleaning-moss-removal-signs",
+      "issue": "'can shorten your roof lifespan by years' — vague invented loss figure with no source.",
+      "fix": "Use the grounded inverse from the gold: proper maintenance EXTENDS asphalt-shingle service life by roughly 25–30%, per ARMA. Do not state an invented number of years lost."
+    },
+    {
+      "articleId": "roof-cleaning-moss-removal-cost-guide",
+      "issue": "Fabricated price lines not in the gold: soft washing '$300 to $600' for 1,500–2,500 sf; manual moss scraping 'adds $200 to $400'; zinc/copper strip install '$300 to $700'; pressure washing '$150 to $350.'",
+      "fix": "Use only the This Old House figures from the gold: roof cleaning $300–$1,050 (avg $675 for a 1,500-sf home) at $0.20–$0.70 per square foot; moss removal is included in most basic cleanings at the same per-sf rate; moss-prevention treatment adds $150–$250; zinc as strips/powder $0.05–$0.15 per sf at a roof replacement only. Every figure carries 'per This Old House.'"
+    },
+    {
+      "articleId": "roof-cleaning-moss-removal-cost-guide",
+      "issue": "Recommends ridge-line zinc/copper STRIP INSTALLATION as a preventive add-on to an existing-roof cleaning ('combined with initial cleaning provides the best long-term value').",
+      "fix": "ARMA does NOT recommend adding zinc or copper strips to an existing roof — the strips require exposed nails that cause leaks over time or break the sealant bond. Reserve strip/powder application for a roof replacement; prevent regrowth on an existing roof with a maintenance wash and an algae-and-moss prevention treatment ($150–$250, per This Old House)."
+    },
+    {
+      "articleId": "roof-cleaning-moss-removal-cost-guide",
+      "issue": "Manufacturer-warranty claims used as a sales hook: pressure washing 'specifically voids warranty coverage' and 'protects your shingle warranty' / 'throughout the shingle warranty period.' Unsourced warranty-policy assertions.",
+      "fix": "Anchor the pressure-washing harm in the actual ARMA finding: pressure-washing an asphalt shingle roof causes granule loss and premature failure of the roof system. Drop the unsourced 'voids warranty' claims; the de-fab risk is asserting a specific manufacturer warranty policy."
+    },
+    {
+      "articleId": "roof-cleaning-moss-removal-decision",
+      "issue": "Invented technical spec: soft washing 'at low pressure (below 100 PSI at the nozzle)' — a precise PSI threshold not present in the gold.",
+      "fix": "State the gold method instead: ARMA low-pressure chemical wash — a 50:50 laundry-strength chlorine-bleach-and-water solution, a 15–20-minute dwell, and a low-pressure rinse. Do not cite a specific PSI number."
+    },
+    {
+      "articleId": "roof-cleaning-moss-removal-decision",
+      "issue": "Invented material-specific chemistry advice for cedar shake (Millburn/Short Hills) and slate (Glen Ridge/Montclair) — 'different solutions … to avoid wood fiber damage,' 'experience with the specific stone type.' No source; not in the gold.",
+      "fix": "Keep selection criteria to verifiable items: the contractor cleans by the ARMA low-pressure chemical method, matches chemistry/rinse to the covering (gold notes asphalt shingles, slate, tile, and metal generally, and EPDM/TPO/modified-bitumen on commercial low-slope — no per-material chemistry recipes), and rates the roof-covering condition first. Do not invent cedar/slate solution recipes."
+    },
+    {
+      "articleId": "roof-cleaning-moss-removal-decision",
+      "issue": "Specific regulatory claim: contractor 'complies with NJ Department of Environmental Protection guidelines for chemical runoff management.' No NJDEP citation in the gold; cites a regulatory regime not verified.",
+      "fix": "Keep landscape/property protection as a factual practice (pre-wet and cover plantings beneath the roof edge before applying the laundry-strength 50:50 bleach solution, per the gold process steps), and frame runoff/overspray care as standard contractor practice without asserting compliance with a named NJDEP guideline that the gold does not cite."
+    },
+    {
+      "articleId": "roof-cleaning-moss-removal-decision",
+      "issue": "Implied service promises not in the gold: 'maintenance cleaning programs that provide discounted follow-up cleanings,' and tree-trimming recommendations as an NQR offering.",
+      "fix": "Ground prevention in the gold: a maintenance wash plus an algae-and-moss prevention treatment slows regrowth (proper maintenance extends asphalt-shingle service life ~25–30%, per ARMA), on the NRCA inspection cadence of twice per year plus after any major weather event. Do not promise a discounted maintenance-program tier or position tree-trimming as an NQR service."
+    }
+  ],
+  "parentDebtToAvoid": [
+    "Parent credentialsHighlight chip reads 'NJ HIC Licensed' (line 1757) — this is WRONG. Articles MUST say 'registered NJ HIC' / 'registered New Jersey Home Improvement Contractor.' NJ issues no roofing license; HIC is a REGISTRATION, never a license.",
+    "Do NOT reproduce any manufacturer brand-system lines (e.g. 'GAF, CertainTeed, Owens Corning shingle systems' or 'Firestone, Carlisle, Johns Manville membrane systems'). GAF and Atlas appear in this service's gold ONLY as cited authorities for facts (granule-loss rule-of-thumb; algae mechanism) — keep them as in-text source attributions, never as 'systems NQR installs/uses.'",
+    "NQR makes NO manufacturer-certification self-claim (no HAAG, no GAF Master Elite, no CertainTeed SELECT ShingleMaster, no Owens Corning Preferred) and NO '24/7' promise — none is substantiated in the gold. The gold hours are Mon–Fri 7:00 AM–6:00 PM and Sat 8:00 AM–2:00 PM; use those if hours are referenced.",
+    "Position-3 directAnswer is TOPIC-definitional (what choosing a roof-cleaning contractor involves), NOT NQR-first; reserve NQR mention for the ctaText.",
+    "No service-specific verification flags for this service — extract straight from the gold. No wind 2-3x/IIBEC-RICOWI item and no hail $3k-$12k item applies here."
+  ],
+  "articleAngles": {
+    "signs": "Definitively answer that the signs you need roof cleaning and moss removal are visible biological growth and its damage trail: thick green moss along shingle edges/valleys/north-facing slopes (lifts and curls leading edges, wind blow-off risk, per ARMA); dark black/green streaking from Gloeocapsa magma feeding on limestone filler (per ARMA and Atlas Roofing); crusty grey-green lichen in shaded areas; granule grit in gutters under streaks (>~30% granule loss = beyond repair, per GAF and InterNACHI); leaf litter/debris in valleys creating moisture-holding conditions; and severe field moss driving lateral water to the deck (per ARMA). Shade/moisture root cause = north-facing slopes + debris (CSSB/NRCA), NOT poor ventilation. Maintenance extends shingle life ~25–30% (ARMA).",
+    "costGuide": "Definitively answer with the This Old House figures only: roof cleaning costs $300–$1,050, avg $675 for a 1,500-sf home, at $0.20–$0.70 per square foot, with moss removal included in most basic cleanings at the same rate; a moss-prevention treatment adds $150–$250; zinc as strips/powder is $0.05–$0.15 per sf but ONLY at a roof replacement (ARMA does not recommend strips on an existing roof). Pressure-washing is cheaper but causes granule loss and premature failure (ARMA) — frame the harm via ARMA, not via unsourced 'voids warranty' claims. North-facing/heavy-moss slopes needing hand removal sit at the higher end (CSSB/NRCA). Free written estimate. Strip every invented dollar line.",
+    "decision": "Definitively answer that choosing a roof cleaning & moss removal contractor means verifying: active registered NJ HIC (N.J.S.A. 56:8-136, 13VH number on the contract/ad per 56:8-144 — registration, not a license); commercial general liability insurance >=$500,000/occurrence (N.J.S.A. 56:8-142) via a carrier-issued COI; a written contract for work over $500 (N.J.A.C. 13:45A-16.2); a detailed itemized written estimate naming the cleaning method; local references/established Essex County presence; a documented pre-cleaning assessment that IDs the growth and rates the covering (>~30% granule loss = beyond cleaning, per GAF/InterNACHI); and that the contractor uses the ARMA low-pressure chemical method (50:50 bleach-and-water, 15–20-min dwell, low-pressure rinse) rather than pressure-washing that causes granule loss and premature failure (ARMA). Prevention = maintenance wash + prevention treatment on the NRCA twice-a-year cadence; strips reserved for a roof replacement (ARMA). Drop the invented PSI threshold, cedar/slate chemistry recipes, NJDEP-guideline compliance claim, and discounted-maintenance-program promise."
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "serviceId": "emergency-roof-repair",
+  "serviceTitle": "Emergency Roof Repair",
+  "definition": "Emergency roof repair stabilizes a sudden roof failure — an active leak, storm-stripped shingles, a fallen-tree puncture, or ice-dam backup — to stop water entry before the loss compounds. It tarps or patches the breach first, then schedules the permanent repair.",
+  "hasRealWholeProjectTotal": false,
+  "costRanges": [
+    {
+      "item": "Emergency roof repair — typical repair (with emergency premium)",
+      "range": "$200–$1,000+ for most repairs, plus a 25–50% emergency or after-hours premium",
+      "source": "Integrity Home Exteriors and HomeAdvisor cost data (gold pricing.range; gold FAQ 'How much does emergency roof repair cost')"
+    },
+    {
+      "item": "Standard NJ roof-leak repair (before the emergency premium)",
+      "range": "$400–$1,000 — roughly 10–15% above the national average",
+      "source": "HomeAdvisor (gold pricing.factors and gold FAQ)"
+    },
+    {
+      "item": "Flashing reseal or small flashing section (before the emergency premium)",
+      "range": "$200–$500",
+      "source": "Modernize flashing cost data (gold pricing.factors)"
+    },
+    {
+      "item": "Emergency / after-hours premium on a standard repair rate",
+      "range": "+25–50% over the standard repair rate",
+      "source": "Integrity Home Exteriors (gold pricing.factors)"
+    },
+    {
+      "item": "NJ cost positioning vs. national figures",
+      "range": "10–40% above national figures, because labor accounts for roughly 60% of a repair total and NJ code is stricter",
+      "source": "Integrity Home Exteriors (gold pricing.factors)"
+    },
+    {
+      "item": "Whole-job emergency repair total",
+      "range": "No fixed whole-job dollar total — cost varies by the failure stabilized, area affected, accessibility, and whether the call is after-hours. Newark Quality Roofing provides a free written estimate.",
+      "source": "Newark Quality Roofing (gold; gold prices only per-repair / per-component, not a whole-job total)"
+    }
+  ],
+  "signs": [
+    "Water entering through a ceiling, wall, or light fixture during or after rainfall indicates an active roof breach and ranks as an immediate stabilization priority, because wet materials dried within 24–48 hours of a leak in most cases grow no mold — per the EPA.",
+    "Shingles or membrane stripped from a roof section after high wind exposes the underlayment and roof deck to the next rainfall; a thunderstorm is classed as severe at wind gusts of 58 mph or higher — per NOAA. (3-tab shingles carry roughly a 60 mph rating and architectural shingles rate up to 130 mph — per ARMA and manufacturer guidance.)",
+    "A fallen tree, large branch, or wind-driven debris penetrating the roof covering opens the structure to water and falls in the largest homeowners-insurance claim type, wind and hail, at 1 in 36 insured homes per year — per the Insurance Information Institute (Triple-I).",
+    "Daylight or a sagging roofline visible from inside the attic indicates deck or framing compromise, a structural priority that points toward replacement rather than a patch — per GAF inspection guidance.",
+    "Icicles and thick ice ridges at the eaves with interior stains near the top-floor exterior walls indicate an ice dam backing meltwater under the shingles, a winter pattern driven by attic heat escape — per University of Minnesota Extension.",
+    "Ponding water held on a low-slope roof for more than 48 hours after rain counts as a defect that breaks down membrane seams; a flat roof needs at least 1/4 inch per foot of slope to drain — per NRCA and ARMA."
+  ],
+  "selectionCriteria": [
+    "Active New Jersey Home Improvement Contractor registration (N.J.S.A. 56:8-136) — this is a REGISTRATION, not a license; New Jersey issues no roofing license. Verify the 13VH registration number, which must appear on the contract and in advertising per N.J.S.A. 56:8-144.",
+    "Commercial general liability insurance of at least $500,000 per occurrence (N.J.S.A. 56:8-142), verified by requesting a Certificate of Insurance directly from the carrier.",
+    "A written contract for any work over $500, signed by both parties, with the start/completion dates and total price (N.J.A.C. 13:45A-16.2).",
+    "A detailed, itemized WRITTEN estimate that separates the emergency stabilization (tarp/patch) scope from the permanent repair scope, rather than a single verbal number under pressure.",
+    "A verifiable local physical address and established Essex County presence with checkable local references — not a door-to-door, post-storm, out-of-state-plate operator.",
+    "A thorough, documented assessment: an inspection of the roof and attic that identifies the active entry point and confirms whether the framing carries the covering, with timestamped photographs recorded for the insurance adjuster.",
+    "Manufacturer-approved bonding on membrane and component repairs so an existing system warranty stays intact (a contractor practice, NOT a manufacturer-certification self-claim by NQR)."
+  ],
+  "technicalFacts": [
+    {
+      "fact": "Wet materials dried within 24–48 hours of a leak in most cases grow no mold, so every hour of water exposure raises the secondary-damage cost — which is why stabilization (tarp/patch) is sequenced ahead of the permanent repair.",
+      "source": "U.S. Environmental Protection Agency (EPA)"
+    },
+    {
+      "fact": "A thunderstorm is classified as severe at wind gusts of 58 mph or higher — the threshold that strips shingles and tears membrane seams.",
+      "source": "NOAA"
+    },
+    {
+      "fact": "3-tab shingles carry roughly a 60 mph wind rating while architectural shingles rate up to 130 mph.",
+      "source": "ARMA and manufacturer guidance"
+    },
+    {
+      "fact": "Wind and hail is the largest homeowners-insurance claim type at 2.8% of insured homes per year (1 in 36), with an average claim of $14,747; water damage and freezing follow at 1 in 67 with an average claim of $15,400.",
+      "source": "Insurance Information Institute (Triple-I, 2019–2023)"
+    },
+    {
+      "fact": "An emergency roof tarp protects a building for roughly 30 days — the design span fiber-reinforced emergency sheeting is rated for — bridging until the permanent repair.",
+      "source": "FEMA and the U.S. Army Corps of Engineers Operation Blue Roof program"
+    },
+    {
+      "fact": "Temporary emergency protection covers a roof with no more than 50% of the framing damaged; above that threshold a roof needs a structural rebuild rather than a tarp-and-repair scope.",
+      "source": "FEMA and the U.S. Army Corps of Engineers Operation Blue Roof program"
+    },
+    {
+      "fact": "Repair or replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance — no construction permit, inspection, or notice to the construction official required.",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "On a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a permit; an emergency scope therefore separates the stabilization patch from the permitted permanent repair.",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "Ponding water held on a low-slope roof more than 48 hours after rain counts as a defect; a flat roof needs at least 1/4 inch per foot of slope to drain.",
+      "source": "NRCA and ARMA"
+    },
+    {
+      "fact": "Membrane life expectancy on commercial low-slope roofs: EPDM 15–25 years, TPO 7–20 years, modified bitumen 20 years — an emergency membrane patch reseals the storm-opened seam where these systems fail.",
+      "source": "InterNACHI life-expectancy chart"
+    },
+    {
+      "fact": "Nor'easters bring sustained winds up to 60 mph; New Jersey averages at least one coastal storm per year (some years 5–10), most common October through April.",
+      "source": "NJ Office of the Governor; NOAA New Jersey State Climate Summary"
+    },
+    {
+      "fact": "Ice-dam meltwater backup is a winter pattern driven by attic heat escape (not by gutters or ventilation as the root cause).",
+      "source": "University of Minnesota Extension"
+    }
+  ],
+  "sources": [
+    "U.S. Environmental Protection Agency (EPA)",
+    "NOAA",
+    "ARMA (Asphalt Roofing Manufacturers Association)",
+    "Insurance Information Institute (Triple-I, 2019–2023)",
+    "FEMA and the U.S. Army Corps of Engineers Operation Blue Roof program",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)",
+    "NRCA",
+    "InterNACHI",
+    "University of Minnesota Extension",
+    "GAF inspection guidance",
+    "NJ Office of the Governor; NOAA New Jersey State Climate Summary",
+    "HomeAdvisor",
+    "Integrity Home Exteriors",
+    "Modernize",
+    "NJ Division of Consumer Affairs / Contractors Registration Act (N.J.S.A. 56:8-136, 56:8-142, 56:8-144; N.J.A.C. 13:45A-16.2)"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "emergency-roof-repair-signs (+cost-guide, +decision)",
+      "issue": "'24/7 availability' / 'rapid emergency response throughout Essex County with 24/7 availability' / 'emergency response team serves all of Essex County with 24/7 availability' — the gold does NOT substantiate a literal 24/7 claim. The gold whyChooseUs lists business hours of Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.",
+      "fix": "Drop the literal '24/7.' Reframe to rapid emergency response with stabilization first: NQR tarps or temporarily patches the breach to stop water entry, then schedules the permanent repair — grounded in the EPA 24–48-hour mold window (stabilize fast to cap secondary-damage cost). Never state 24/7 or any staffed-around-the-clock promise."
+    },
+    {
+      "articleId": "emergency-roof-repair-signs",
+      "issue": "Invented mold timeline: 'within 72 hours, mold colonies can establish in New Jersey humid conditions.' The gold/EPA figure is the 24–48-hour dry-out window, not a 72-hour colony-establishment claim.",
+      "fix": "Replace with the EPA fact: wet materials dried within 24–48 hours of a leak in most cases grow no mold — so each hour of exposure raises the secondary-damage cost (per the EPA)."
+    },
+    {
+      "articleId": "emergency-roof-repair-signs",
+      "issue": "Unsourced local-geography embellishments stated as fact: 'oaks and maples in South Orange, Maplewood, and West Orange,' 'storms that move through the I-78 and I-280 corridors,' 'neighborhoods like Ironbound and the Oranges, where older homes... are more vulnerable.' No source in the gold.",
+      "fix": "Keep Essex County / nor'easter framing grounded in NOAA (severe ≥58 mph; nor'easters up to 60 mph, Oct–Apr per NOAA NJ State Climate Summary / NJ Office of the Governor). Drop the specific tree-species, highway-corridor, and neighborhood-vulnerability claims that have no source."
+    },
+    {
+      "articleId": "emergency-roof-repair-cost-guide",
+      "issue": "Fabricated dollar figures not in the gold: 'tarping and temporary stabilization typically $300 and $1,500,' 'moderate emergency repair... $1,500 to $4,000,' 'tree strikes or major storm events can reach $5,000 to $15,000,' 'trip fee ($150 to $300),' 'urgency in material sourcing can add 10 to 20 percent.'",
+      "fix": "Use ONLY the gold's sourced figures: emergency repair $200–$1,000+ for most repairs plus a 25–50% emergency premium (Integrity Home Exteriors + HomeAdvisor); standard NJ leak repair $400–$1,000 before the premium (HomeAdvisor); flashing reseal $200–$500 (Modernize); NJ runs 10–40% above national because labor is ~60% of the total and NJ code is stricter (Integrity Home Exteriors). End with NQR's free written estimate. No whole-job total — set hasRealWholeProjectTotal false."
+    },
+    {
+      "articleId": "emergency-roof-repair-cost-guide",
+      "issue": "Folksy/unverifiable framing and an invented insurance-process claim: 'charging homeowners just to look at their emergency is not how neighbors should treat each other'; 'mold remediation, and structural repair can multiply the original damage cost tenfold' (invented 'tenfold' multiplier).",
+      "fix": "Drop the 'neighbors' editorializing and the unsourced 'tenfold' multiplier. Ground the why-act-fast claim in the EPA 24–48-hour window and the Triple-I average claim figures (wind/hail $14,747; water damage $15,400) instead of an invented multiplier."
+    },
+    {
+      "articleId": "emergency-roof-repair-decision",
+      "issue": "'licensed local contractor' / 'licensed contractor' (used twice) — NJ issues NO roofing license; the credential is a REGISTRATION.",
+      "fix": "Replace every 'licensed' with 'registered New Jersey Home Improvement Contractor.' Verify the 13VH registration number (N.J.S.A. 56:8-144) before any work; require CGL insurance ≥$500,000/occurrence (N.J.S.A. 56:8-142) via a Certificate of Insurance from the carrier; require a written contract for work over $500 (N.J.A.C. 13:45A-16.2)."
+    },
+    {
+      "articleId": "emergency-roof-repair-decision",
+      "issue": "Vague 'verbal estimate... follow up with a written document within 24 hours' and 'NJ consumer protection rules still apply' stated without the specific code basis.",
+      "fix": "Anchor to the actual NJ rules: an itemized WRITTEN contract is required for work over $500 (N.J.A.C. 13:45A-16.2); the contractor's 13VH registration number must appear on the contract (N.J.S.A. 56:8-144). Keep the stabilize-first / no-pressure-on-permanent-scope sequence."
+    },
+    {
+      "articleId": "all three",
+      "issue": "Watch list (verified ABSENT from the dirty copy, but must stay absent in the rewrite): no HAAG certification, no GAF Master Elite / CertainTeed SELECT ShingleMaster / Owens Corning Preferred self-claim, no 'only ~2% qualify,' no Golden Pledge specifics, no 'fully licensed/certified,' no 'hundreds of completed repairs/replacements,' no invented dollar stats.",
+      "fix": "Make NO manufacturer-certification self-claim. NQR's only credential statement is 'registered New Jersey Home Improvement Contractor' + insured. Manufacturer-approved bonding is described as a repair practice that keeps a system warranty intact, never as an NQR certification."
+    }
+  ],
+  "parentDebtToAvoid": [
+    "Gold credentialsHighlight chip reads 'NJ HIC Licensed' — this is INACCURATE. The articles must say 'registered NJ HIC' / 'registered New Jersey Home Improvement Contractor.' NJ issues no roofing license; do not reproduce 'Licensed' anywhere.",
+    "Do NOT reproduce manufacturer brand-system lines ('Firestone, Carlisle, Johns Manville membrane systems' or 'GAF, CertainTeed, Owens Corning shingle systems'). Membranes may be named generically (EPDM, TPO, modified bitumen) without asserting a brand partnership or installer certification.",
+    "24/7 VERIFICATION CONCLUSION (from the SERVICE NOTE): The gold does NOT support a 24/7 claim — its only stated hours are Mon–Fri 7:00 AM–6:00 PM and Sat 8:00 AM–2:00 PM (gold whyChooseUs 'Local Essex County Roofers'). AUTHOR INSTRUCTION: never write '24/7' or any around-the-clock staffing promise. Frame the value as rapid emergency response with stabilization-first (tarp/patch to stop water entry, then schedule the permanent repair), justified by the EPA 24–48-hour mold-dry-out window. The honest tarp-duration fact is ~30 days (FEMA/USACE Operation Blue Roof), and the structural cutoff for tarp-and-repair vs. rebuild is no more than 50% framing damage.",
+    "Cost: AUTHOR INSTRUCTION — there is NO whole-job emergency total in the gold; hasRealWholeProjectTotal is false. Price ONLY per-repair/per-component with named sources ($200–$1,000+ most repairs + 25–50% premium / $400–$1,000 standard leak / $200–$500 flashing reseal), then point to NQR's free written estimate. Do not invent a tarping price band, a tree-strike total, or a trip fee."
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "serviceId": "wind-damage-roof-repair",
+  "serviceTitle": "Wind Damage Roof Repair",
+  "definition": "Wind damage roof repair restores the roof where wind separated the covering — blown-off and creased shingles, lifted ridge and hip caps, broken shingle seals, displaced flashing, and loosened low-slope membrane. It concentrates on the corners, rakes, and edges, where wind uplift peaks.",
+  "hasRealWholeProjectTotal": false,
+  "costRanges": [
+    {
+      "item": "Replacing a few blown-off or creased shingles",
+      "range": "$150–$500",
+      "source": "Reliable Roofing Restoration and Modernize cost data (gold pricing.factors)"
+    },
+    {
+      "item": "Flashing reseal or a small flashing section",
+      "range": "$200–$500",
+      "source": "Modernize flashing cost data (gold pricing.factors)"
+    },
+    {
+      "item": "Low-slope membrane seam re-weld",
+      "range": "$200–$400",
+      "source": "Modernize cost data (gold pricing.factors)"
+    },
+    {
+      "item": "Low-slope membrane section replacement",
+      "range": "$500–$1,000",
+      "source": "Modernize and WeatherShield cost data (gold pricing.factors / FAQ)"
+    },
+    {
+      "item": "Overall range for most wind repairs (NOT a single whole-job total — a span across repair types)",
+      "range": "$150–$2,000+ for most wind repairs",
+      "source": "Newark Quality Roofing gold pricing.range, built from Reliable Roofing Restoration, Modernize, and WeatherShield per-repair cost data — no single whole-job dollar total exists; wind repair is priced per-repair, not per-job"
+    },
+    {
+      "item": "NJ market adjustment (modifier, not a standalone figure)",
+      "range": "NJ ranges sit 10–40% above national figures, because labor accounts for roughly 60% of a repair total and NJ code is stricter",
+      "source": "Integrity Home Exteriors (gold pricing.factors)"
+    },
+    {
+      "item": "Emergency or after-hours surcharge (modifier, not a standalone figure)",
+      "range": "Adds 25–50% to the standard rate",
+      "source": "Integrity Home Exteriors (gold pricing.factors)"
+    }
+  ],
+  "signs": [
+    "Shingle tabs lifted, creased, or torn from the roof appear first at the corners, rakes, and edges, where wind uplift reaches roughly 2–3 times the field pressure — corners, rakes, and edges are the high-suction zones that fail first, per ASCE 7 component-and-cladding pressure coefficients / general wind-engineering principles.",
+    "Ridge and hip cap shingles peeled or missing from the highest roof lines indicate uplift at the ridge and rake corners, the zone of highest wind suction — per ASCE 7 / general wind-engineering principles.",
+    "Wind-lifted shingles that resettled with a broken seal show no granule scuffing yet lift by hand, because the seal strength between shingle courses is the most important factor in a shingle's high-wind performance — per IBHS wind-uplift research.",
+    "Rusted, lifted, or bent flashing at edges, dormers, and chimneys is the most common leak source, because flashing seals the roof transitions that roughly 90–95% of roof leaks trace back to — an industry estimate commonly attributed to the NRCA.",
+    "Low-slope membrane bubbling, ballooning, or pulling from the deck indicates wind negative pressure loosening the attachment, where EPDM tends to fail at the seams and TPO at the welded seams — per the InterNACHI life-expectancy chart and trade failure-mode guidance.",
+    "Shingle field unsealing on a roof 14–20 years old raises blow-off risk, because the share of partially unsealed shingles rises from under 1% at 0–6 years to over 79% at 14–20 years — per the IBHS field-aging study.",
+    "Asphalt grit, torn tabs, or debris in the yard after a 58 mph gust signals severe-storm wind loading, the National Weather Service severe-thunderstorm threshold — per NOAA."
+  ],
+  "selectionCriteria": [
+    "Active New Jersey Home Improvement Contractor registration — required of every NJ home-improvement/roofing contractor (N.J.S.A. 56:8-136). NJ issues NO roofing license; this is a registration, not a license.",
+    "A 13VH registration number displayed on the written contract and on advertising (N.J.S.A. 56:8-144) — verify it is active in the NJ Division of Consumer Affairs HIC registry.",
+    "Commercial general liability insurance of at least $500,000 per occurrence (N.J.S.A. 56:8-142), verified directly via a Certificate of Insurance issued by the carrier — not just a verbal claim.",
+    "A written contract for any home-improvement work over $500, signed by both parties, with start/end dates and total price (N.J.A.C. 13:45A-16.2).",
+    "A detailed, itemized WRITTEN estimate stating scope, labor, materials, and timeline (the gold's standard practice; required as part of the written contract under N.J.A.C. 13:45A-16.2).",
+    "Local references and an established local presence in Essex County — a contractor who serves the area year-round, not an out-of-area storm chaser who appears only after a regional wind event.",
+    "A thorough, documented wind-damage assessment that inspects the corners, rakes, and ridge first, tests shingle seals by hand across the field, and records the wind-affected zones with timestamped photographs for the insurance claim.",
+    "Repairs made to manufacturer specification with manufacturer-approved bonding on membrane, so a system warranty stays intact, backed by a written workmanship warranty on the labor (separate from the manufacturer material warranty)."
+  ],
+  "technicalFacts": [
+    {
+      "fact": "Wind separates at the roof corners, rakes, and edges and generates suction roughly 2–3 times the pressure on the open field, so these zones fail first. The physics is well established: corner and edge component-and-cladding pressure coefficients run well above the field zone.",
+      "source": "ASCE 7 component-and-cladding wind-pressure coefficients / general wind-engineering principles (state qualitatively or attribute to ASCE 7; do NOT cite 'IIBEC RICOWI')"
+    },
+    {
+      "fact": "The seal strength between shingle courses is the single most important factor in a shingle's resistance to high wind; once the seal breaks, the tab no longer resists uplift.",
+      "source": "Insurance Institute for Business & Home Safety (IBHS) wind-uplift research"
+    },
+    {
+      "fact": "The share of partially unsealed shingles rises from under 1% at 0–6 years to over 79% at 14–20 years, so an aged roof loses tabs at lower wind speeds than the product rating.",
+      "source": "IBHS field-aging study"
+    },
+    {
+      "fact": "The National Weather Service classifies a thunderstorm as severe at wind gusts of 58 mph or higher.",
+      "source": "NOAA / National Weather Service"
+    },
+    {
+      "fact": "3-tab asphalt shingles carry a wind rating near 60 mph; architectural (laminate) shingles reach a 130 mph warranted wind rating with 6-nail installation. Wind ratings are classified under ASTM D3161 and ASTM D7158.",
+      "source": "ARMA (Asphalt Roofing Manufacturers Association) and ASTM D3161 / D7158 / manufacturer warranty"
+    },
+    {
+      "fact": "Flashing is the most common leak source; roughly 90–95% of roof leaks trace back to flashing and roof transitions.",
+      "source": "Industry estimate commonly attributed to the NRCA"
+    },
+    {
+      "fact": "Low-slope membrane balloons under wind negative pressure; EPDM tends to fail at the seams and TPO at the welded seams. EPDM lasts 15–25 years, TPO 7–20 years, modified bitumen ~20 years.",
+      "source": "InterNACHI life-expectancy chart and trade failure-mode guidance"
+    },
+    {
+      "fact": "Wind and hail rank as the largest homeowners-insurance claim type, affecting about 2.8% of insured homes per year (about 1 in 36), with an average claim of $14,747.",
+      "source": "Insurance Information Institute (Triple-I / III, 2019–2023)"
+    },
+    {
+      "fact": "Wind is a covered named peril under a standard New Jersey homeowners policy, with the all-perils deductible applying; some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling limit, generally up to 5%. The policy declarations page states which deductible applies.",
+      "source": "New Jersey Department of Banking and Insurance"
+    },
+    {
+      "fact": "Repair or replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance — no construction permit, inspection, or notice to the construction official is required.",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "On a commercial building, repairing more than 25% of the total roof area within a 12-month period requires a permit.",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "High-wind installation adds adhesive at the starter course and rake edges to resist the elevated corner/edge pressures; membrane refastening uses manufacturer-approved bonding to keep the system warranty intact.",
+      "source": "IIBEC high-wind installation guidance (high-wind installation method only — do NOT use IIBEC for the 2–3x suction figure) and manufacturer warranty guidance"
+    },
+    {
+      "fact": "A written workmanship warranty backs the labor and is separate from the manufacturer material warranty, which covers factory defects.",
+      "source": "Owens Corning warranty guidance (cited as warranty-structure guidance, NOT as an NQR installer certification)"
+    }
+  ],
+  "sources": [
+    "Insurance Institute for Business & Home Safety (IBHS) — seal strength is the most important high-wind factor; field-aging study (<1% unsealed at 0–6 yrs to >79% at 14–20 yrs)",
+    "ASCE 7 / general wind-engineering principles — corners, rakes, edges are high-suction zones (~2–3x field pressure) that fail first (replaces the flagged 'IIBEC RICOWI' attribution)",
+    "NOAA / National Weather Service — 58 mph severe-thunderstorm gust threshold",
+    "ARMA (Asphalt Roofing Manufacturers Association) — 3-tab ~60 mph rating; architectural 130 mph at 6-nail",
+    "ASTM D3161 / ASTM D7158 — shingle wind-rating classification",
+    "NRCA — flashing accounts for ~90–95% of roof leaks (industry estimate)",
+    "InterNACHI — roofing-material life-expectancy chart (EPDM 15–25 yrs, TPO 7–20 yrs, modified bitumen ~20 yrs); EPDM/TPO seam failure modes",
+    "Insurance Information Institute (Triple-I / III) — wind/hail largest claim type, 2.8% of homes/yr, $14,747 average claim (2019–2023)",
+    "New Jersey Department of Banking and Insurance — wind as covered named peril; deductible structure",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code) — ordinary-maintenance roof-covering rule; >25% commercial-area permit",
+    "IIBEC high-wind installation guidance — starter/rake adhesive method (NOT the suction figure)",
+    "N.J.S.A. 56:8-136 / 56:8-142 / 56:8-144 and N.J.A.C. 13:45A-16.2 — NJ Contractors' Registration Act / Home Improvement Practices (registration, $500k CGL, 13VH number, written contract over $500)"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "wind-damage-roof-repair-signs",
+      "issue": "Invented hard wind-speed threshold for debris damage: 'small branches driven by 60+ mph winds can puncture shingles.' The 60 mph figure is the 3-tab SHINGLE wind RATING (ARMA), not a branch-impact threshold, and is misapplied here.",
+      "fix": "Do not present 60 mph as a debris/branch-impact threshold. Keep grounded wind facts as their actual sources: NWS severe-thunderstorm threshold is 58 mph gusts (NOAA); 3-tab shingles are rated near 60 mph, architectural to 130 mph at 6-nail (ARMA). Describe branch/debris impact qualitatively."
+    },
+    {
+      "articleId": "wind-damage-roof-repair-signs",
+      "issue": "Unsubstantiated mechanism claim: creased shingles 'will not lie flat again because the fiberglass mat inside has fractured' and 'lost its waterproofing integrity at the crease line' — stated as fact with no source.",
+      "fix": "Ground the creased-shingle sign in the seal mechanism: a wind-lifted/creased shingle that resettled with a broken seal no longer resists the next gust because the seal between courses governs wind resistance (IBHS). Test seals by hand. Avoid asserting an unsourced internal-mat-fracture mechanism."
+    },
+    {
+      "articleId": "wind-damage-roof-repair-signs",
+      "issue": "Local-color geography presented as inspection guidance without grounding (northeasters 'pound the coast,' 'Watchung foothills,' specific tree-canopy neighborhoods Maplewood/South Orange/Verona). Decorative narrative, not a verifiable sign.",
+      "fix": "Keep Essex County / Newark, New Jersey geo references minimal and factual. Lead each sign with a definitive, sourced answer (high-suction corners/rakes/edges per ASCE 7; seal strength per IBHS; 58 mph per NOAA). Do not pad with unverifiable local weather narrative."
+    },
+    {
+      "articleId": "wind-damage-roof-repair-cost-guide",
+      "issue": "Fabricated cost tiers unmatched to the gold: 'minor $250–$800,' 'moderate $800–$3,500,' 'severe $3,500–$10,000 or more.' The gold prices wind repair PER-REPAIR (blown-off shingles $150–$500; flashing reseal $200–$500; membrane re-weld $200–$400; membrane section $500–$1,000; overall span $150–$2,000+), with NO whole-job tiers and no $10,000 figure.",
+      "fix": "Replace all invented tiers with the gold per-repair figures and their named sources (Reliable Roofing Restoration, Modernize, WeatherShield). State plainly there is no single whole-job total — wind repair is priced per repair. Apply the NJ 10–40%-above-national modifier (Integrity Home Exteriors) and the 25–50% emergency surcharge as modifiers, not as new dollar tiers. End with a free written estimate."
+    },
+    {
+      "articleId": "wind-damage-roof-repair-cost-guide",
+      "issue": "Invented deductible figures stated as Essex County norms: 'typically $1,000 to $2,500 in Essex County.' No source; deductible amounts vary by policy.",
+      "fix": "Drop the specific dollar deductible range. Ground the insurance answer in the NJ DOBI fact: wind is a covered named peril under a standard NJ homeowners policy with the all-perils deductible applying (some policies add a separate named-storm/hurricane percentage deductible, generally up to 5% of the dwelling limit); the declarations page states which deductible applies. Cite Triple-I for the $14,747 average wind/hail claim if a benchmark is wanted."
+    },
+    {
+      "articleId": "wind-damage-roof-repair-cost-guide",
+      "issue": "Unsourced UV-degradation absolute: 'UV exposure degrades synthetic underlayments rapidly' so exposed underlayment 'must be replaced even if it looks intact' — overstated as a universal rule.",
+      "fix": "Either drop the claim or state it qualitatively (manufacturers limit UV exposure time for synthetic underlayment; weather-exposed underlayment is assessed and replaced if exposure exceeds the manufacturer's allowance). Do not assert a blanket 'must replace' rule without a manufacturer/source."
+    },
+    {
+      "articleId": "wind-damage-roof-repair-decision",
+      "issue": "Invented NJ code wind-rating mandate: 'NJ building code requires... shingles rated for sustained winds of at least 110 mph' and a '110 mph code requirement.' No such 110 mph minimum-shingle-rating exists in the gold; this misstates NJ code.",
+      "fix": "Do not cite a 110 mph NJ shingle-rating mandate. Use the grounded ratings: 3-tab ~60 mph, architectural warranted to 130 mph at 6-nail (ARMA), classified under ASTM D3161/D7158. Frame material selection as choosing a higher-rated product for better wind performance, not as meeting a fabricated 110 mph code floor."
+    },
+    {
+      "articleId": "wind-damage-roof-repair-decision",
+      "issue": "Vague trust/relationship and volume claims: 'established relationships with major insurance carriers,' 'known and respected by insurance companies,' 'Our reputation with Essex County insurance professionals has been built over years.' Unverifiable NQR self-claims / implied special carrier access.",
+      "fix": "Replace with verifiable selection criteria: active NJ HIC registration (13VH number, N.J.S.A. 56:8-136/144), $500k CGL verified via Certificate of Insurance (N.J.S.A. 56:8-142), written contract for work over $500 (N.J.A.C. 13:45A-16.2), itemized written estimate, local references/established local presence, and documented timestamped-photo assessment for the claim. No claim of special insurer relationships."
+    },
+    {
+      "articleId": "wind-damage-roof-repair-decision",
+      "issue": "Implied 24/7 / emergency-response promise: '24 to 48 hours for emergency tarping' framed as the standard, plus storm-chaser narrative as differentiator. The gold substantiates business-hours scheduling (Mon–Fri 7:00 AM–6:00 PM, Sat 8:00 AM–2:00 PM) and crew-stocked common shingles — NOT a 24/7 or guaranteed-24-hour emergency promise.",
+      "fix": "Do not promise 24/7 or a specific emergency response window for NQR. State NQR's actual hours from the gold and that a crew stocks common shingles and flashing so a straightforward wind repair often finishes during the inspection visit. The honest-timeline-vs-storm-chaser point can stay as general guidance, but framed against the verifiable 'established local presence' criterion, not an NQR speed promise."
+    }
+  ],
+  "parentDebtToAvoid": [
+    {
+      "issue": "WIND 2–3x SUCTION ATTRIBUTION (service-specific verification — the flagged item). The gold attributes 'wind generates suction 2–3 times the field pressure at corners/rakes/edges' to 'IIBEC RICOWI wind-investigation findings' (~6x in the gold block). IIBEC and RICOWI are distinct organizations; the 2–3x figure is an ASCE 7 / general wind-engineering result, NOT a RICOWI investigation finding.",
+      "instruction": "KEEP THE PHYSICS — corners, rakes, and edges are the high-suction zones and fail first; uplift at the perimeter runs well above the open field (roughly 2–3x). ATTRIBUTE it to ASCE 7 component-and-cladding pressure coefficients / general wind-engineering principles, OR state it qualitatively. DROP the 'IIBEC RICOWI' / 'per IIBEC' cite entirely in the new articles. IIBEC may still be cited for the high-wind INSTALLATION method (adhesive at the starter course and rake edges) — that use is fine; only the suction-figure attribution is the problem."
+    },
+    {
+      "issue": "IBHS seal-strength fact is VALID — keep it. 'The seal strength between shingle courses is the most important high-wind factor' is correctly attributed to IBHS.",
+      "instruction": "KEEP the IBHS attribution for seal strength and for the field-aging study (<1% unsealed at 0–6 yrs to >79% at 14–20 yrs). These are real IBHS findings."
+    },
+    {
+      "issue": "Wind-speed facts are VALID — keep with attribution. 58 mph severe-thunderstorm threshold (NOAA), 3-tab ~60 mph, architectural 130 mph at 6-nail (ARMA/manufacturer, ASTM D3161/D7158).",
+      "instruction": "KEEP all three with their named sources (NOAA, ARMA). Do NOT round, merge, or restate them as a single fabricated NJ code wind-rating mandate."
+    },
+    {
+      "issue": "Parent commercial brand line: 'Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems' (gold commercial block). Carrying brand-system name-drops into the articles reads as an implied manufacturer endorsement/certification.",
+      "instruction": "Do NOT reproduce the 'Firestone, Carlisle, Johns Manville' (or any 'GAF, CertainTeed, Owens Corning shingle systems') brand line in the new articles. Refer to membrane/shingle systems generically (EPDM, TPO, modified bitumen / asphalt, architectural). Owens Corning may be cited ONLY as warranty-structure guidance, never as an NQR installer certification."
+    },
+    {
+      "issue": "credentialsHighlight chip reads 'NJ HIC Licensed' in the parent gold (line ~1571). NJ issues NO roofing license.",
+      "instruction": "Articles MUST say 'registered NJ HIC' / 'registered New Jersey Home Improvement Contractor' — NEVER 'licensed.' Do not carry the parent's 'NJ HIC Licensed' wording into article copy."
+    },
+    {
+      "issue": "NRCA 90–95% flashing-leak figure is an INDUSTRY ESTIMATE, not a hard NRCA-published statistic.",
+      "instruction": "Hedge it as the gold does: 'roughly 90–95% of roof leaks, an industry estimate commonly attributed to the NRCA.' Do not state it as a precise NRCA-certified number."
+    },
+    {
+      "issue": "directAnswer is TOPIC-definitional, not NQR-first. The article directAnswer should define what wind damage roof repair IS (the topic), with NQR appearing only in the CTA, per the article-layer convention.",
+      "instruction": "Lead each article's directAnswer with the topic definition (≤40 words, bold the main topic), grounded in the gold definition. Put NQR / 'registered New Jersey Home Improvement Contractor' framing in ctaText, not the opening answer."
+    }
+  ],
+  "articleAngles": {
+    "signs": "Definitively answer that the signs you need wind damage roof repair are wind-separation symptoms that show up FIRST at the corners, rakes, and edges, where uplift runs ~2–3x the field pressure (ASCE 7 / general wind engineering — NOT IIBEC RICOWI): tabs lifted/creased/torn at the perimeter; ridge and hip caps peeled or missing; wind-lifted shingles that resettled with a broken seal (test by hand — seal strength is the most important high-wind factor, IBHS); rusted/bent flashing (the most common leak source, ~90–95% of leaks, industry estimate attributed to NRCA); low-slope membrane ballooning (EPDM seam / TPO welded-seam failure, InterNACHI); field unsealing on a 14–20-yr roof (IBHS field-aging study); and yard debris after a 58 mph gust (NWS severe threshold, NOAA). Kill the misapplied 60 mph branch threshold, the unsourced mat-fracture mechanism, and decorative local weather narrative.",
+    "costGuide": "Definitively answer that wind damage roof repair has NO single whole-job total — it is priced PER REPAIR, so NQR gives a free written estimate (hasRealWholeProjectTotal = false). Cite ONLY the gold per-repair figures with named sources: blown-off/creased shingles $150–$500 (Reliable Roofing Restoration, Modernize); flashing reseal $200–$500 (Modernize); low-slope membrane seam re-weld $200–$400 and section $500–$1,000 (Modernize, WeatherShield); overall span $150–$2,000+ for most wind repairs. Apply the NJ +10–40% modifier (labor ~60% of total, stricter NJ code — Integrity Home Exteriors) and the 25–50% emergency surcharge (Integrity Home Exteriors) as modifiers, not new tiers. Insurance context from NJ DOBI (wind = covered named peril, all-perils deductible; possible named-storm/hurricane % deductible up to 5%) and Triple-I ($14,747 average wind/hail claim). Strip every fabricated tier ($250–$800 / $800–$3,500 / $3,500–$10,000+), the invented $1,000–$2,500 deductible, and the unsourced UV 'must replace' absolute.",
+    "decision": "Definitively answer how to choose a wind damage roof repair contractor with VERIFIABLE NJ criteria, not vague trust claims: active NJ HIC registration with a 13VH number on the contract/ad (N.J.S.A. 56:8-136/144 — a registration, NOT a license); at least $500,000/occurrence commercial general liability verified via a Certificate of Insurance from the carrier (N.J.S.A. 56:8-142); a written contract for work over $500 (N.J.A.C. 13:45A-16.2) with an itemized written estimate; local references / established local presence (vs. out-of-area storm chasers); and a documented assessment that inspects corners/rakes/ridge first and tests seals by hand, with timestamped photos for the claim. Repairs to manufacturer spec with manufacturer-approved bonding keep a system warranty intact, backed by a written workmanship warranty. Material angle: 3-tab ~60 mph vs. architectural 130 mph at 6-nail (ARMA, ASTM D3161/D7158) — choose a higher-rated product for performance, NOT to meet a fabricated 110 mph NJ code floor. Kill the 110 mph code mandate, the implied insurer relationships, the 24/7 / 24–48-hr emergency promise, and any manufacturer-certification (HAAG / Master Elite / SELECT ShingleMaster / Owens Corning Preferred) self-claim. NQR = registered NJ HIC, insured, business hours Mon–Fri 7:00 AM–6:00 PM / Sat 8:00 AM–2:00 PM."
+  }
+}

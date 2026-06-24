@@ -1,0 +1,189 @@
+{
+  "serviceId": "roof-replacement",
+  "serviceTitle": "Roof Replacement",
+  "definition": "Roof replacement strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.",
+  "hasRealWholeProjectTotal": true,
+  "costRanges": [
+    {
+      "item": "Roof replacement — typical NJ home (whole-job total)",
+      "range": "$10,000–$25,000 for a typical home (gold pricing.range states '$10,000–$25,000+ for most replacements')",
+      "source": "HomeAdvisor and Modernize NJ cost data (per gold)"
+    },
+    {
+      "item": "National 2025 average — whole roof",
+      "range": "approximately $10,000–$11,000",
+      "source": "HomeAdvisor and Modernize NJ cost data / industry replacement benchmarks (per gold)"
+    },
+    {
+      "item": "NJ premium over national figures",
+      "range": "NJ ranges sit 10–40% above national figures (labor is roughly 60–70% of an asphalt install, and NJ code is stricter)",
+      "source": "HomeGuide and Integrity Home Exteriors (per gold)"
+    },
+    {
+      "item": "Architectural asphalt — per square foot (NJ)",
+      "range": "$6.50–$11.00 per square foot",
+      "source": "Josten Roofing NJ pricing (per gold)"
+    },
+    {
+      "item": "Metal roof — per square foot (NJ)",
+      "range": "$9.00–$16.00 per square foot",
+      "source": "Josten Roofing NJ pricing (per gold)"
+    },
+    {
+      "item": "Slate roof — per square foot (NJ)",
+      "range": "$10–$30 per square foot",
+      "source": "Josten Roofing NJ pricing (per gold)"
+    },
+    {
+      "item": "Repair-vs-replacement economics",
+      "range": "A localized repair can cost 5 to 10 times less than replacement — but only while an asphalt roof stays under 10–15 years old",
+      "source": "Home Depot and Kelly Roofing cost data (per gold)"
+    },
+    {
+      "item": "Average wind/hail homeowners-insurance claim",
+      "range": "average claim near $14,747; wind and hail are the largest claim type at 2.8% of insured homes per year (1 in 36)",
+      "source": "Insurance Information Institute (Triple-I, 2019–2023) (per gold)"
+    },
+    {
+      "item": "Resale recoup (cost vs value)",
+      "range": "a new asphalt roof recoups roughly 60–68% of project cost at resale; 8 of the top 10 highest-ROI remodels are exterior replacement projects",
+      "source": "Zonda Cost vs Value report (per gold)"
+    }
+  ],
+  "signs": [
+    "A roof at or past its material lifespan signals replacement — 3-tab asphalt lasts 20 years and architectural asphalt 30 years, with actual life varying up to 40% with climate and maintenance — per the InterNACHI life-expectancy chart and the NRCA.",
+    "Damage across more than 25–30% of the roof area crosses the contractor-consensus 25% rule, the threshold above which full replacement costs less than continued spot repair — per roofing industry guidance.",
+    "Three or more repairs in 2 years signals systemic failure rather than an isolated defect, the contractor-consensus 3-repairs rule that favors replacement — per roofing industry guidance.",
+    "Granule loss — sandy grit in the gutters and a bald asphalt mat — indicates shingles nearing end of life; granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair — per GAF.",
+    "A spongy or sagging roof deck indicates moisture-rotted sheathing or framing, a structural condition that points toward replacement rather than a surface patch — per GAF inspection guidance.",
+    "Daylight visible through the roof deck from inside the attic indicates holes in the decking and shingles, a sign that points toward replacement rather than a patch — per This Old House.",
+    "A repair quote approaching 50% of replacement cost crosses the contractor-consensus 50% rule, the point at which replacement returns more value than repair — per roofing industry guidance.",
+    "An asphalt roof past 20 years (or 15 on the coast) favors replacement, because a localized repair costs 5 to 10 times less than replacement only while the roof stays under 10–15 years old — per Home Depot and Kelly Roofing cost data."
+  ],
+  "selectionCriteria": [
+    "Active New Jersey Home Improvement Contractor registration — N.J.S.A. 56:8-136 requires every NJ home-improvement contractor to register with the Division of Consumer Affairs; the 13VH registration number must appear on the contract and in advertising (N.J.S.A. 56:8-144). This is a registration, NOT a license — New Jersey issues no roofing license.",
+    "Commercial general liability insurance of at least $500,000 per occurrence (N.J.S.A. 56:8-142), verified by a Certificate of Insurance issued directly by the contractor's carrier — not a self-printed claim.",
+    "A written contract for any home improvement over $500, signed by both parties before work begins, with the total price and a description of the work (N.J.A.C. 13:45A-16.2).",
+    "A detailed, itemized written estimate that sets the scope, labor, materials, and timeline before any work begins — so two bids can be compared line by line (shingle brand and product line, layers to be removed, ice-and-water shield extent, ventilation plan, flashing scope, cleanup).",
+    "Local references and an established local presence — a contractor who works the Essex County housing stock and can point to nearby completed work.",
+    "A thorough, documented roof and deck assessment before quoting — inspecting the deck, attic ventilation, and NJ code triggers, because a tear-off exposes deck rot and structural conditions a surface inspection misses.",
+    "Reasonable payment terms — a deposit of 10–30% is customary in NJ; never more than one-third upfront, with progress payments tied to milestones; full payment demanded before work begins is a red flag."
+  ],
+  "technicalFacts": [
+    {
+      "fact": "Material lifespans: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40–80 years (copper 70-plus), and slate 60–150 years (premium slate commonly 100-plus); low-slope membrane lasts 7–25 years (EPDM 15–25, TPO 7–20, modified bitumen 20). Actual asphalt life varies up to 40% with climate, install, and maintenance.",
+      "source": "InterNACHI life-expectancy chart; National Slate Association; NRCA"
+    },
+    {
+      "fact": "The NJ Rehabilitation Subcode requires complete removal of the existing roof covering (no recover-over) when the existing roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers.",
+      "source": "N.J.A.C. 5:23-6.4 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "A complete re-roof of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance — no construction permit, inspection, or notice to the construction official. A structural change to rafters, trusses, or ridge beams still triggers a permit. On a commercial building a replacement requires a permit, because the ordinary-maintenance exemption covers only repair of up to 25% of total roof area in a 12-month period.",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "An ice barrier — either two cemented underlayment layers or one self-adhering polymer-modified bitumen sheet — must run from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates.",
+      "source": "IRC R905.1.2 (International Residential Code)"
+    },
+    {
+      "fact": "Attic ventilation should provide 1 square foot of net-free vent area per 150 square feet of attic floor; proper attic ventilation extends roof life by up to 25%.",
+      "source": "NRCA; ARMA"
+    },
+    {
+      "fact": "A low-slope roof needs at least 1/4 inch per foot of slope to drain; ponding water remaining more than 48 hours counts as a defect.",
+      "source": "NRCA; ARMA"
+    },
+    {
+      "fact": "Installing the cover to manufacturer specification preserves the material warranty (factory defects), which is separate from the written workmanship warranty that backs the labor.",
+      "source": "Owens Corning warranty guidance"
+    },
+    {
+      "fact": "Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year (1 in 36); homeowners insurance covers replacement when a covered peril (wind, hail, falling tree, fire) causes the damage, and excludes normal wear, age, or deferred maintenance.",
+      "source": "Insurance Information Institute (Triple-I)"
+    },
+    {
+      "fact": "Newark crosses the 32°F freezing point repeatedly through winter, with an average January low near 25.5°F, driving freeze-thaw stress on sealants and fasteners.",
+      "source": "NOAA 1991–2020 climate normals at Newark Liberty International (EWR)"
+    },
+    {
+      "fact": "Replacement accounts for 79.2% of US roofing installations in 2025; asphalt shingles cover roughly 73% of US residential roofs (2024 roofing-market data).",
+      "source": "Mordor Intelligence (2025); 2024 roofing-market data"
+    }
+  ],
+  "sources": [
+    "InterNACHI (life-expectancy chart)",
+    "National Slate Association",
+    "NRCA (National Roofing Contractors Association)",
+    "ARMA (Asphalt Roofing Manufacturers Association)",
+    "International Residential Code (IRC R905.1.2)",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code — ordinary maintenance / permit triggers)",
+    "N.J.A.C. 5:23-6.4 (NJ Rehabilitation Subcode — complete removal / no recover-over)",
+    "N.J.S.A. 56:8-136, 56:8-142, 56:8-144 (NJ Contractors Registration Act — registration, $500k liability, 13VH number)",
+    "N.J.A.C. 13:45A-16.2 (NJ Home Improvement Practices — written contract over $500)",
+    "Insurance Information Institute (Triple-I)",
+    "Owens Corning warranty guidance",
+    "GAF (granule-loss / inspection guidance)",
+    "This Old House",
+    "Home Depot and Kelly Roofing (cost data)",
+    "HomeAdvisor and Modernize NJ (cost data)",
+    "HomeGuide and Integrity Home Exteriors (labor-share / NJ premium)",
+    "Josten Roofing (NJ per-square-foot pricing)",
+    "Zonda Cost vs Value report",
+    "NOAA (1991–2020 climate normals, Newark Liberty/EWR)",
+    "Mordor Intelligence (2025 installation share)"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "roof-replacement-cost-guide",
+      "issue": "Fabricated decking-repair statistic: 'Roughly 20 to 40 percent of replacements we do require some decking repair, typically adding $1,000 to $3,000' plus an invented '10 to 15 percent contingency.' No such percentage or dollar add-on exists in the gold.",
+      "fix": "Drop the 20–40% stat, the $1,000–$3,000 add-on, and the 10–15% contingency entirely. State the grounded fact: tear-off exposes the deck, and N.J.A.C. 5:23-6.4 requires full removal and deck repair when the roof is water-soaked, is wood/slate/tile, or already carries 2 or more layers — so deck repair is a cost factor the written estimate captures after assessment. No invented percentage or dollar figure."
+    },
+    {
+      "articleId": "roof-replacement-cost-guide",
+      "issue": "Invented per-job dollar ranges not in gold: asphalt '$8,000–$18,000', standing-seam metal '$15,000–$30,000', slate 'can exceed $35,000', cedar shake '$20,000–$35,000', permit fees '$100–$400', dumpster/disposal '$500–$1,000', '3 to 5 tons of debris'.",
+      "fix": "Use ONLY gold-attributed cost figures: NJ whole-job $10,000–$25,000 for a typical home and national 2025 average ~$10,000–$11,000 (HomeAdvisor / Modernize NJ); per-square-foot NJ figures — architectural asphalt $6.50–$11.00, metal $9.00–$16.00, slate $10–$30 (Josten Roofing). NQR gives a free written estimate. Cedar shake is not an NQR material class (gold lists 5: 3-tab asphalt, architectural asphalt, metal, slate, low-slope membrane) — do not price it. Drop permit-fee and dumpster dollar figures."
+    },
+    {
+      "articleId": "roof-replacement-cost-guide",
+      "issue": "Fabricated savings/ROI stats: 'reduce energy bills by 15 to 25 percent', insurance premium reduction 'by 5 to 20 percent', and unsourced 'recoup approximately 60 to 70 percent at resale.'",
+      "fix": "Drop the energy-bill and insurance-premium reduction percentages. Replace the resale figure with the gold-attributed one: a new asphalt roof recoups roughly 60–68% of project cost at resale, and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per the Zonda Cost vs Value report."
+    },
+    {
+      "articleId": "roof-replacement-cost-guide",
+      "issue": "Vague 'According to industry data' / 'Mid-Atlantic region' attribution and 'manufacturers offer financing through their certified contractor networks' (implies NQR is in a manufacturer certified-contractor program).",
+      "fix": "Attribute every figure to a named source (Zonda Cost vs Value; HomeAdvisor/Modernize NJ; HomeGuide/Integrity Home Exteriors; Josten Roofing). Drop the manufacturer-certified-contractor financing line — NQR makes no manufacturer-certification self-claim."
+    },
+    {
+      "articleId": "roof-replacement-decision",
+      "issue": "GAF Master Elite / Golden Pledge fabrication: claims 'GAF Master Elite contractors can provide the Golden Pledge warranty... 25 years... labor for the first two years. Only about 2 percent of roofing contractors in New Jersey qualify.' NQR makes no such certification self-claim, and the '~2%' / Golden Pledge specifics are invented.",
+      "fix": "Remove the entire GAF Master Elite / Golden Pledge / '~2% qualify' passage. Explain warranties honestly: two components — the manufacturer material warranty (covers factory defects, preserved only when the cover is installed to manufacturer specification, per Owens Corning warranty guidance) and the contractor's written workmanship warranty on the labor. NO manufacturer-certification self-claim, NO HAAG, NO Master Elite / SELECT ShingleMaster / Owens Corning Preferred."
+    },
+    {
+      "articleId": "roof-replacement-decision",
+      "issue": "'Our certified team has completed hundreds of roof replacements across Essex County' (CTA) — unverifiable volume claim plus an implied 'certified' status. Also intro 'We have replaced hundreds of roofs' in the cost guide.",
+      "fix": "Drop 'certified' and the 'hundreds of roofs/replacements' volume claim. Describe NQR as a registered New Jersey Home Improvement Contractor that replaces residential and commercial roofs across Essex County. Use only substantiated identity from gold."
+    },
+    {
+      "articleId": "roof-replacement-decision / roof-replacement-cost-guide",
+      "issue": "'licensed NJ contractors' / 'licensed NJ contractor' framing throughout (cost-guide conclusion: 'multiple written estimates from licensed NJ contractors').",
+      "fix": "Replace 'licensed' with 'registered' — NJ issues no roofing license. The verifiable credential is active NJ Home Improvement Contractor REGISTRATION (N.J.S.A. 56:8-136; 13VH number on contract/ad per 56:8-144)."
+    },
+    {
+      "articleId": "roof-replacement-signs",
+      "issue": "Invented energy/ventilation savings stat: 'a new roof with modern ventilation can reduce energy bills by 15 to 25 percent', plus 'NJ energy code standards' framing for ventilation as an energy-savings driver.",
+      "fix": "Drop the 15–25% energy-bill stat. Ground ventilation in the gold/NRCA fact: 1 sq ft of net-free vent per 150 sq ft of attic floor, and proper attic ventilation extends roof life by up to 25% (NRCA, ARMA) — a roof-life claim, NOT an energy-bill claim."
+    },
+    {
+      "articleId": "roof-replacement-signs",
+      "issue": "Slightly off lifespan framing: 'Asphalt shingle roofs in Essex County typically last 20 to 25 years.' Gold/InterNACHI gives 3-tab asphalt 20 years and architectural asphalt 30 years.",
+      "fix": "Use the InterNACHI figures: 3-tab asphalt 20 years, architectural asphalt 30 years, with actual life varying up to 40% by climate, install, and maintenance (NRCA). Avoid a vague '20–25 year' Essex County average."
+    }
+  ],
+  "parentDebtToAvoid": [
+    "Do NOT reproduce the parent-gold brand lines. The gold approachContent and commercial sections say 'Newark Quality Roofing installs GAF, CertainTeed, and Owens Corning shingle systems and Firestone, Carlisle, and Johns Manville membrane systems.' The NEW articles must omit these manufacturer-brand product lines — they read as endorsement/certification claims and add no homeowner value here.",
+    "Do NOT carry the parent-gold credentialsHighlight chip 'NJ HIC Licensed' — it is wrong. Articles must say 'registered NJ HIC' / 'registered New Jersey Home Improvement Contractor'. NJ issues no roofing license; the credential is a REGISTRATION.",
+    "directAnswer is TOPIC-definitional, not NQR-first: open the article with what roof replacement IS (strips to the deck, repairs sheathing, installs a new underlayment-and-cover system, rebuilds the weatherproof assembly for a roof past its service life). NQR belongs only in the CTA, framed as a registered NJ Home Improvement Contractor — never as 'licensed', 'certified', or '24/7'.",
+    "Whole-job total IS allowed for this service (unlike the per-unit-only siblings): roof-replacement gold carries a real whole-job range — $10,000–$25,000 for a typical NJ home (HomeAdvisor / Modernize NJ), national 2025 average ~$10,000–$11,000. Set hasRealWholeProjectTotal true and lead the cost guide with this attributed range, then layer the per-square-foot Josten Roofing figures. Every other dollar figure in the dirty cost guide is invented — use only these gold-attributed numbers."
+  ]
+}

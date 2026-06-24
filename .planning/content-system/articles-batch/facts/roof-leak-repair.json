@@ -1,0 +1,194 @@
+{
+  "serviceId": "roof-leak-repair",
+  "serviceTitle": "Roof Leak Repair",
+  "definition": "Roof leak repair traces a roof leak to its source detail — flashing, shingle, pipe boot, valley, or skylight — and reseals or replaces the failed component to stop water entry. Because water enters at one roof detail and travels along rafters and sheathing before showing as an interior stain, the entry point typically sits feet away from the visible interior drip, so the diagnosis identifies the entry point before sealing.",
+  "hasRealWholeProjectTotal": false,
+  "costRanges": [
+    {
+      "item": "Roof-leak repair in New Jersey (typical range)",
+      "range": "$400–$1,000, roughly 10–15% above the national average",
+      "source": "HomeAdvisor (and Modernize cost data)"
+    },
+    {
+      "item": "Minor leak repair",
+      "range": "$150–$400",
+      "source": "Modernize and industry cost data"
+    },
+    {
+      "item": "Flashing reseal / small flashing section",
+      "range": "$200–$500",
+      "source": "Modernize and industry cost data"
+    },
+    {
+      "item": "Valley leak repair (removes and reinstalls surrounding shingles)",
+      "range": "$400–$1,000 or more",
+      "source": "HomeAdvisor"
+    },
+    {
+      "item": "Minor flat-roof (commercial) membrane leak",
+      "range": "$150–$500",
+      "source": "Angi cost data"
+    },
+    {
+      "item": "Extensive membrane leak with structural repair",
+      "range": "$1,200–$3,000",
+      "source": "Angi cost data"
+    },
+    {
+      "item": "Overall leak-repair job (no fixed whole-job total)",
+      "range": "$150–$1,000+ for most leak repairs; no single whole-job total — cost varies by leak source, severity, and roof type. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60% of a repair total and NJ code is stricter. Newark Quality Roofing provides a free written estimate.",
+      "source": "Integrity Home Exteriors (NJ-vs-national differential); Newark Quality Roofing (free written estimate)"
+    }
+  ],
+  "signs": [
+    "Brown or yellow ceiling and wall stains that spread or darken after rainfall indicate an active roof leak or trapped attic moisture, the classic first sign — per GAF and This Old House inspection guidance.",
+    "Active dripping during rain from a ceiling, a light fixture, or a vent indicates water reaching the interior finish, with the entry point often feet away from the drip — per Integrity Home Exteriors repair-process guidance.",
+    "A musty or moldy odor below the roof or in the attic indicates moisture intrusion, including ice-dam backup, and ranks as a health hazard — per University of Minnesota Extension.",
+    "Rusted, lifted, or bent flashing at chimneys, walls, skylights, and valleys is the most common leak source, because flashing seals the roof transitions that roughly 90–95% of leaks trace back to — an industry estimate attributed to the NRCA.",
+    "A cracked pipe boot at a vent stack opens the most common penetration failure point; a quality boot lasts 10–15 years and fails in 2–5 years with exposed nails — per roofing contractor guidance (Dom Roofing).",
+    "Ceiling stains without recent rain indicate attic condensation rather than a roof leak, because warm interior air condenses on a cold roof deck under inadequate ventilation; NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor — per NRCA and ARMA.",
+    "Damp or compressed attic insulation indicates a slow leak or condensation reaching the deck before any interior drip appears — per GAF inspection guidance."
+  ],
+  "selectionCriteria": [
+    "Active New Jersey Home Improvement Contractor registration (N.J.S.A. 56:8-136) — NJ requires every home-improvement contractor to register with the Division of Consumer Affairs. This is a registration, NOT a license; NJ issues no roofing license. Verify the registration is current.",
+    "A valid 13VH registration number displayed on the contract and in advertising (N.J.S.A. 56:8-144) — the number a registered NJ HIC must disclose; ask for it and confirm it.",
+    "Commercial general liability insurance of at least $500,000 per occurrence (N.J.S.A. 56:8-142), verified through a Certificate of Insurance issued directly by the carrier — not a contractor-supplied copy.",
+    "A written contract for any home-improvement work over $500 (N.J.A.C. 13:45A-16.2), with start/finish dates, total price, and scope.",
+    "A detailed, itemized WRITTEN estimate that documents the source detail (ideally with photographs) and sets scope, labor, materials, and timeline before any work begins — per Integrity Home Exteriors documentation guidance.",
+    "Local references and an established local presence serving Essex County (Newark, East Orange, Bloomfield, Montclair, Belleville, Irvington).",
+    "A thorough, documented leak assessment that traces the moisture path to the root-cause detail rather than the interior drip — a systematic interior/attic inspection, exterior diagnosis, and, where needed, controlled water testing (and electronic leak detection / infrared imaging per ASTM C1153 on commercial membranes). A contractor who immediately proposes ripping off large sections without diagnosing is guessing.",
+    "A written workmanship warranty on the labor, distinct from the manufacturer material warranty that covers factory defects — per Owens Corning warranty guidance. (Do not state a specific NQR warranty term; the gold does not substantiate one.)"
+  ],
+  "technicalFacts": [
+    {
+      "fact": "Roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, so a leak diagnosis starts at the flashing details before sealing.",
+      "source": "Industry estimate attributed to the NRCA"
+    },
+    {
+      "fact": "Water enters at one roof detail and travels along rafters and sheathing before showing as an interior stain, so the entry point sits feet away from the visible drip; controlled water testing isolates roof sections to reproduce a wind-driven or intermittent leak a dry inspection misses.",
+      "source": "Integrity Home Exteriors repair-process and diagnostic guidance"
+    },
+    {
+      "fact": "An unsealed 2,000-square-foot roof stripped of shingles admits up to 750 gallons of water — about nine bathtubs — per inch of rain, and a sealed roof deck cuts water intrusion by up to 95%.",
+      "source": "Insurance Institute for Business & Home Safety (IBHS), chief-engineer findings (Anne Cope)"
+    },
+    {
+      "fact": "Wind-driven rain pushes water laterally under shingle edges and through flashing laps that shed water in vertical rainfall, so an intermittent wind-only leak traces to lifted shingle edges, short flashing overlaps, or failed step-flashing sealant; directional-spray water testing reproduces it.",
+      "source": "Industry estimate attributed to the NRCA; Integrity Home Exteriors diagnostic guidance"
+    },
+    {
+      "fact": "Ceiling stains appearing without recent rain indicate attic condensation, not a roof leak: warm interior air condenses on a cold roof deck under inadequate ventilation. NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, balanced about 50% intake and 50% exhaust.",
+      "source": "NRCA and ARMA"
+    },
+    {
+      "fact": "A flashing sealant lap fails in roughly 5–10 years; a quality rubber pipe boot lasts 10–15 years but fails in 2–5 years when set with exposed nails.",
+      "source": "Roofing trade guidance; roofing contractor guidance (Dom Roofing)"
+    },
+    {
+      "fact": "Ice dams form when an upper roof surface above 32°F melts snow and a lower roof edge below 32°F refreezes the meltwater into a dam that backs water up under the shingles; Newark crosses 32°F repeatedly in winter, with an average January low near 25.5°F (EWR, 1991–2020). Root cause is attic heat loss, addressed by the eave/ice-barrier remedy — not gutters.",
+      "source": "University of Minnesota Extension; NOAA/National Weather Service (Newark Liberty/EWR climate normals)"
+    },
+    {
+      "fact": "On commercial low-slope membranes, electronic leak detection (ELD) locates membrane breaches and infrared thermography locates wet insulation inside the roof assembly; EPDM fails most often at the seams, TPO at the welded seams, and modified bitumen by blistering and flashing separation at penetrations.",
+      "source": "ASTM C1153 (infrared moisture survey method); roofing trade guidance"
+    },
+    {
+      "fact": "Ponding water remaining on a low-slope roof more than 48 hours counts as a defect; a flat roof needs at least 1/4 inch per foot of slope to drain, and standing water weighs about 5 pounds per inch per square foot (a 1-inch pond over 100 sq ft adds ~500 pounds of dead load).",
+      "source": "NRCA and ARMA"
+    },
+    {
+      "fact": "Repair/replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance — no construction permit, inspection, or notice to the construction official required.",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "On a commercial building, repairing more than 25% of the total roof area within a 12-month period requires a permit.",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "Water damage and freezing rank as a homeowners-insurance claim type at roughly 1.5% of insured homes per year (about 1 in 67), with an average claim near $15,400.",
+      "source": "Insurance Information Institute (Triple-I, 2019–2023)"
+    },
+    {
+      "fact": "Repair-vs-replace thresholds: repair when damage stays localized and covers under 25–30% of the roof area; replace when damage exceeds 25–30% of the area or one repair approaches 50% of replacement cost. The 25–30% area rule and 50% cost rule are contractor-consensus thresholds, and a recurring leak in the same spot signals a systemic membrane failure.",
+      "source": "Industry guidance (contractor consensus)"
+    },
+    {
+      "fact": "Repair to manufacturer specification with manufacturer-approved bonding (not adhesive alone) keeps a manufacturer system warranty intact; a written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects.",
+      "source": "Owens Corning warranty guidance"
+    }
+  ],
+  "sources": [
+    "NRCA (National Roofing Contractors Association)",
+    "ARMA (Asphalt Roofing Manufacturers Association)",
+    "Insurance Institute for Business & Home Safety (IBHS), Anne Cope",
+    "Insurance Information Institute (Triple-I, 2019–2023)",
+    "University of Minnesota Extension (ice dams)",
+    "NOAA / National Weather Service (Newark Liberty/EWR climate normals, 1991–2020)",
+    "ASTM C1153 (infrared moisture-survey standard for membrane roofs)",
+    "HomeAdvisor (cost data)",
+    "Modernize (cost data)",
+    "Angi (flat-roof membrane cost data)",
+    "Integrity Home Exteriors (repair-process/diagnostic guidance)",
+    "GAF and This Old House (inspection guidance)",
+    "Owens Corning (warranty guidance)",
+    "Dom Roofing (pipe-boot guidance)",
+    "N.J.S.A. 56:8-136 / 56:8-142 / 56:8-144 (NJ Contractors' Registration Act)",
+    "N.J.A.C. 13:45A-16.2 (Home Improvement Practices)",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "roof-leak-repair-signs",
+      "issue": "Invented mold-timeline stat: 'even a small roof leak can create conditions where mold colonies establish within 48 to 72 hours.' No 48–72 hour mold figure exists in the gold; it is an unsourced YMYL claim.",
+      "fix": "Drop the specific 48–72 hour figure. State qualitatively that prolonged or trapped moisture grows mold and ranks as a health hazard, attributed to University of Minnesota Extension, and that a musty/moldy odor signals moisture intrusion (per the gold sign)."
+    },
+    {
+      "articleId": "roof-leak-repair-signs",
+      "issue": "Unsourced anecdotal claims dressed as fact about specific neighborhoods: 'plaster-walled homes... rarely included modern moisture barriers,' 'particularly susceptible because their original construction.' Presented as established fact with no source.",
+      "fix": "Keep neighborhood/geo color light and non-fabricated. Lead each sign with the grounded answer: water travels feet from the entry point before it drips (Integrity Home Exteriors), and ~90–95% of leaks trace to flashing (NRCA estimate). Do not assert unsourced construction-history claims as fact."
+    },
+    {
+      "articleId": "roof-leak-repair-signs",
+      "issue": "'fifteen feet away on the roof' — an invented exact distance for how far water travels from entry to drip. The gold says only 'feet away,' not a specific 15 ft.",
+      "fix": "Use the grounded framing: the entry point often sits feet away from the visible drip (Integrity Home Exteriors). Do not state a specific distance like 15 feet."
+    },
+    {
+      "articleId": "roof-leak-repair-cost-guide",
+      "issue": "Dollar figures that do not match the vetted gold aggregator data: flashing '$200 to $800' (gold: flashing reseal $200–$500), valley '$400 to $1,500' (gold: $400–$1,000 or more), 'damaged shingle areas $300 to $1,200' (not a gold line item; gold minor leak is $150–$400), decking '$3 to $5 per square foot' (unsourced), ceiling repair '$200 to $600 per area,' mold remediation '$1,000 to $5,000' (all unsourced interior-remediation numbers).",
+      "fix": "Replace with the gold's NAMED-SOURCE ranges only: NJ leak repair $400–$1,000 (HomeAdvisor/Modernize), minor leak $150–$400 and flashing reseal $200–$500 (Modernize/industry), valley $400–$1,000+ (HomeAdvisor), commercial membrane minor $150–$500 / extensive w/ structural $1,200–$3,000 (Angi). Drop the invented interior-remediation/decking $/sf figures, or attribute interior costs only if a named source is added. Every number carries its source."
+    },
+    {
+      "articleId": "roof-leak-repair-cost-guide",
+      "issue": "Fabricated cost-of-delay scenario stated as fact: 'a $400 leak repair... ignored for six months could mean the difference between $400 total and $4,000 or more.' The specific $4,000 escalation and six-month timeline are invented and unsourced.",
+      "fix": "Drop the invented $4,000 / six-month math. Ground the cost-of-delay point in the gold facts instead: prolonged intrusion saturates insulation, grows mold, and rots the deck (GAF); water-damage/freezing claims average near $15,400 (Triple-I, 2019–2023); and NJ ranges sit 10–40% above national because labor is ~60% of a repair total (Integrity Home Exteriors)."
+    },
+    {
+      "articleId": "roof-leak-repair-cost-guide",
+      "issue": "First-person 'We consistently urge our Essex County customers...' framing without grounding, and a missing free-estimate close. Also no whole-job total stated despite a 'cost guide' framing implying one.",
+      "fix": "Reframe answer-first: leak repair has no fixed whole-job total — cost varies by source/severity/roof type ($150–$1,000+ range), so NQR provides a free written estimate. Anchor the 'fix it early' point to sources, not to a sales urge."
+    },
+    {
+      "articleId": "roof-leak-repair-decision",
+      "issue": "Invented warranty term self-claim: 'We warranty our leak repairs for a minimum of five years.' The gold substantiates only a 'written workmanship warranty' with NO stated duration. Stating a 5-year term is fabricated.",
+      "fix": "State that NQR issues a WRITTEN WORKMANSHIP WARRANTY on the labor (per gold), distinct from the manufacturer material warranty (Owens Corning guidance). Do NOT state a 5-year (or any specific) term unless the gold adds one."
+    },
+    {
+      "articleId": "roof-leak-repair-decision",
+      "issue": "First-person diagnostic-process self-claims presented as standard practice ('We use this approach when infrared scanning is inconclusive, which is rare...') and an implied always-on post-repair follow-up offer not substantiated by the gold.",
+      "fix": "Ground the diagnostic methods in sources: controlled water testing reproduces wind-driven/intermittent leaks (Integrity Home Exteriors); ELD + infrared per ASTM C1153 on commercial membranes; verification with controlled water application + magnet sweep at cleanup (gold process steps). Frame NQR's process from the gold processSteps, not from unsupported promises."
+    },
+    {
+      "articleId": "roof-leak-repair-decision",
+      "issue": "No mention of the actual NJ contractor-selection legal criteria (registration, 13VH number, insurance minimum, written contract over $500) — the article instead leans on generic 'diagnostic expertise' and unsupported warranty claims.",
+      "fix": "Add the verifiable selection criteria: active NJ HIC registration (N.J.S.A. 56:8-136) with the 13VH number on the contract/ad (56:8-144) — a registration, NOT a license; commercial general liability insurance min $500,000/occurrence (56:8-142) verified via a Certificate of Insurance from the carrier; a written contract for work over $500 (N.J.A.C. 13:45A-16.2); and an itemized written estimate."
+    }
+  ],
+  "parentDebtToAvoid": [
+    "Do NOT reproduce the parent gold's commercial brand line: 'Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.' The new articles must NOT name specific membrane manufacturer brands as systems NQR installs. Describe membranes generically (EPDM rubber, TPO, modified bitumen).",
+    "Do NOT carry over the parent gold's 'NJ HIC Licensed' credentialsHighlight chip. The articles say 'registered NJ HIC' / 'registered New Jersey Home Improvement Contractor' — NEVER 'licensed.' NJ issues no roofing license.",
+    "Do NOT reproduce any manufacturer-certification self-claim. The parent gold makes none for roof-leak-repair; the articles must make none either (no GAF Master Elite, no CertainTeed SELECT ShingleMaster, no Owens Corning Preferred, no HAAG). Owens Corning may appear ONLY as the named source of warranty guidance, never as an NQR certification.",
+    "Do NOT promise '24/7' or emergency availability. The gold substantiates only business hours: Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM, with common materials stocked so a straightforward leak repair often finishes during the inspection visit.",
+    "Treat the ~90–95% flashing-leak figure as an INDUSTRY ESTIMATE ATTRIBUTED TO THE NRCA (the parent gold hedges it this way) — never as a definitive published NRCA statistic.",
+    "Keep all dollar figures bound to their named aggregator (HomeAdvisor / Modernize / Angi) exactly as the gold attributes them; do not round, merge, or restate the ranges without the source."
+  ]
+}

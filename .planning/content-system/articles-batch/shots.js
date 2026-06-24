@@ -1,26 +1,26 @@
-// Articles Batch — full-page screenshots + render checks for the 30 components-specialty articles.
+// Articles Batch — full-page screenshots + render checks for the 30 repair-maintenance articles.
 // Articles render their full content (directAnswer/ArticleBody) at root /<slug>.
 // Run: NODE_PATH=/opt/homebrew/lib/node_modules PORT=3240 node .planning/content-system/articles-batch/shots.js
 const { chromium } = require('playwright');
 const PORT = process.env.PORT || 3240;
 const SERVICES = [
-  'roof-flashing-installation-repair',
-  'chimney-flashing-repair',
-  'gutter-installation-repair',
-  'gutter-guard-installation',
-  'skylight-installation-repair',
-  'fascia-installation-repair',
-  'soffit-installation-repair',
-  'roof-vent-installation-repair',
-  'roof-waterproofing',
-  'roof-deck-repair-replacement',
+  'roof-repair',
+  'roof-replacement',
+  'emergency-roof-repair',
+  'roof-inspection',
+  'roof-maintenance-programs',
+  'roof-leak-repair',
+  'storm-damage-roof-repair',
+  'hail-damage-roof-repair',
+  'wind-damage-roof-repair',
+  'roof-cleaning-moss-removal',
 ];
 const SLUGS = SERVICES.flatMap((id) => [
-  `when-to-replace-${id}-nj`,
+  `signs-you-need-${id}-nj`,
   `how-much-does-${id}-cost-in-nj`,
-  `${id}-complete-homeowner-guide-nj`,
+  `choosing-the-right-${id}-contractor-nj`,
 ]);
-const DEFAB = /GAF[-\s]?certified|same-?day|24\s*\/\s*7|0\s*%\s*financing|top-?rated|master[-\s]elite|HAAG|500\+|velux[-\s]?certified/i;
+const DEFAB = /GAF[-\s]?certified|same-?day|24\s*\/\s*7|24-7|0\s*%\s*financing|top-?rated|master[-\s]elite|certainteed select|HAAG|500\+|golden pledge|hundreds of (projects|repairs|homes|replacements)/i;
 (async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1280, height: 1000 } });

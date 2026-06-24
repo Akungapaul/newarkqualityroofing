@@ -10,16 +10,16 @@ const ADIR = join(HERE, 'authored');
 const OUT = join(HERE, '_authored.json');
 
 const SERVICES = [
-  'roof-flashing-installation-repair',
-  'chimney-flashing-repair',
-  'gutter-installation-repair',
-  'gutter-guard-installation',
-  'skylight-installation-repair',
-  'fascia-installation-repair',
-  'soffit-installation-repair',
-  'roof-vent-installation-repair',
-  'roof-waterproofing',
-  'roof-deck-repair-replacement',
+  'roof-repair',
+  'roof-replacement',
+  'emergency-roof-repair',
+  'roof-inspection',
+  'roof-maintenance-programs',
+  'roof-leak-repair',
+  'storm-damage-roof-repair',
+  'hail-damage-roof-repair',
+  'wind-damage-roof-repair',
+  'roof-cleaning-moss-removal',
 ];
 const ORDER = SERVICES.flatMap((s) => [`${s}-signs`, `${s}-cost-guide`, `${s}-decision`]);
 

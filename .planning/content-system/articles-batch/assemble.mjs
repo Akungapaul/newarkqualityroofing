@@ -1,7 +1,7 @@
-// Deterministic assemble for the components-specialty articles sub-batch.
+// Deterministic assemble for the repair-maintenance articles sub-batch.
 // Reads _authored.json (the AUTHOR result's `articles` array), merges the authored
 // content fields with the FIXED identity fields (orchestrator-owned, never agent-authored),
-// and emits src/data/article-content/components-specialty.ts.
+// and emits src/data/article-content/repair-maintenance.ts.
 // JSON.stringify => valid TS object literals => zero escaping bugs (hubs-batch lesson).
 //
 // Run: node .planning/content-system/articles-batch/assemble.mjs
@@ -12,22 +12,22 @@ import { dirname, join } from 'node:path';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO = join(HERE, '..', '..', '..');
 const AUTHORED = join(HERE, '_authored.json');
-const OUT = join(REPO, 'src', 'data', 'article-content', 'components-specialty.ts');
+const OUT = join(REPO, 'src', 'data', 'article-content', 'repair-maintenance.ts');
 
-// Fixed identity (current components-specialty.ts) — agents never touch these.
-// 10 parent component/specialty services x 3 articles = 30.
+// Fixed identity (current repair-maintenance.ts) — agents never touch these.
+// 10 parent repair/maintenance services x 3 articles = 30.
 const svc = (parentId) => ({ parentId, parentType: 'service' });
 const SERVICES = [
-  'roof-flashing-installation-repair',
-  'chimney-flashing-repair',
-  'gutter-installation-repair',
-  'gutter-guard-installation',
-  'skylight-installation-repair',
-  'fascia-installation-repair',
-  'soffit-installation-repair',
-  'roof-vent-installation-repair',
-  'roof-waterproofing',
-  'roof-deck-repair-replacement',
+  'roof-repair',
+  'roof-replacement',
+  'emergency-roof-repair',
+  'roof-inspection',
+  'roof-maintenance-programs',
+  'roof-leak-repair',
+  'storm-damage-roof-repair',
+  'hail-damage-roof-repair',
+  'wind-damage-roof-repair',
+  'roof-cleaning-moss-removal',
 ];
 const IDENTITY = {};
 for (const id of SERVICES) {
@@ -64,17 +64,16 @@ const objects = ORDER.map((id) => {
 
 const header = `import type { ArticleContent } from './schema';
 
-// ─── Components & Specialty Article Content ──────────────────────────────────
+// ─── Repair & Maintenance Article Content ────────────────────────────────────
 // 10 services x 3 articles = 30 articles (parentType: 'service').
-// roof-flashing-installation-repair, chimney-flashing-repair, gutter-installation-repair,
-// gutter-guard-installation, skylight-installation-repair, fascia-installation-repair,
-// soffit-installation-repair, roof-vent-installation-repair, roof-waterproofing,
-// roof-deck-repair-replacement.
+// roof-repair, roof-replacement, emergency-roof-repair, roof-inspection,
+// roof-maintenance-programs, roof-leak-repair, storm-damage-roof-repair,
+// hail-damage-roof-repair, wind-damage-roof-repair, roof-cleaning-moss-removal.
 // signs / cost-guide / decision.
 // Rewritten answer-first + de-fabbed (semantic-content ruleset v1.7), grounded in the
-// committed parent gold service-content/components-specialty.ts.
+// committed parent gold service-content/repair-maintenance.ts.
 
-export const componentsSpecialtyArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
+export const repairMaintenanceArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
 `;
 
 writeFileSync(OUT, header, 'utf8');

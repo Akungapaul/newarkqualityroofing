@@ -1,0 +1,172 @@
+{
+  "serviceId": "roof-repair",
+  "serviceTitle": "Roof Repair",
+  "definition": "Roof repair restores a roof's weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.",
+  "hasRealWholeProjectTotal": false,
+  "costRanges": [
+    {
+      "item": "Roof-leak repair in New Jersey",
+      "range": "$400–$1,000 (roughly 10–15% above the national average)",
+      "source": "HomeAdvisor and Modernize cost data (NJ uplift per Integrity Home Exteriors)"
+    },
+    {
+      "item": "Flashing reseal or small flashing section",
+      "range": "$200–$500",
+      "source": "Modernize flashing cost data"
+    },
+    {
+      "item": "Valley repair (removes and reinstalls surrounding shingles)",
+      "range": "$400–$1,000 or more",
+      "source": "HomeAdvisor"
+    },
+    {
+      "item": "Overall roof-repair range for most repairs",
+      "range": "$200–$1,000+ for most repairs — this is a per-repair range, NOT a whole-job total; specific pricing requires an on-site written estimate",
+      "source": "Newark Quality Roofing gold pricing.range (HomeAdvisor / Modernize component figures)"
+    },
+    {
+      "item": "NJ cost premium vs. national figures",
+      "range": "NJ ranges sit 10–40% above national figures (labor is roughly 60% of a repair total; NJ code is stricter)",
+      "source": "Integrity Home Exteriors"
+    },
+    {
+      "item": "Emergency or after-hours repair surcharge",
+      "range": "adds 25–50% to the standard rate",
+      "source": "Integrity Home Exteriors"
+    }
+  ],
+  "signs": [
+    "Brown or yellow ceiling and wall stains that spread or darken after rainfall indicate an active roof leak or trapped attic moisture — per GAF and This Old House inspection guidance.",
+    "Missing, cracked, or torn shingles expose the underlayment and the roof deck to wind-driven rain — per GAF inspection guidance.",
+    "Granule loss with sandy grit in gutters indicates shingles nearing end of life; granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair — per GAF.",
+    "Rusted, lifted, or bent flashing at chimneys, walls, skylights, and valleys is the most common leak source, because flashing seals the roof transitions that an estimated 90–95% of leaks trace back to — an industry estimate attributed to the NRCA.",
+    "Daylight through the roof deck seen from inside the attic indicates holes in the decking and shingles, a sign that points toward replacement rather than a patch — per This Old House.",
+    "A sagging ceiling or roofline indicates sheathing decay from prolonged moisture and ranks as a structural priority — per GAF."
+  ],
+  "selectionCriteria": [
+    "Active New Jersey Home Improvement Contractor registration with the Division of Consumer Affairs (N.J.S.A. 56:8-136) — this is a registration, NOT a license; New Jersey issues no roofing license. Verify the 13VH registration number, which must appear on the contract and in advertising (N.J.S.A. 56:8-144).",
+    "Commercial general liability insurance of at least $500,000 per occurrence (N.J.S.A. 56:8-142), verified directly through a Certificate of Insurance issued by the carrier — not just a verbal claim.",
+    "A written contract for any home-improvement work over $500 (N.J.A.C. 13:45A-16.2), with start/completion dates and the total price.",
+    "A detailed, itemized written estimate that separates materials and labor and clearly specifies the scope of work before any work begins.",
+    "Local references and an established local presence in Essex County, rather than out-of-area crews that move on after a storm season.",
+    "A thorough, documented assessment that traces the moisture path from ridge to eave to the root-cause detail (flashing, shingles, underlayment, pipe boot) and documents the damage with photographs — not a quote from the visible drip point alone."
+  ],
+  "technicalFacts": [
+    {
+      "fact": "Roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, so a repair diagnoses the root cause before sealing the failed component; water enters at one detail and travels before showing as an interior stain.",
+      "source": "Industry estimate attributed to the NRCA (process per Integrity Home Exteriors / North Coast Roofing)"
+    },
+    {
+      "fact": "Repair favors an asphalt roof under 10–15 years old; repair when damage stays localized and covers under 25–30% of the roof area, replace when damage exceeds 25–30% of the area or one repair approaches 50% of replacement cost (the '25% rule' and '50% rule' are contractor-consensus thresholds).",
+      "source": "Contractor-consensus thresholds (per gold FAQ guidance)"
+    },
+    {
+      "fact": "Wind and hail are the largest homeowners-insurance claim type, affecting 2.8% of insured homes per year (about 1 in 36).",
+      "source": "Insurance Information Institute (Triple-I, 2019–2023)"
+    },
+    {
+      "fact": "Repair or replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance — no construction permit, inspection, or notice to the construction official required.",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "On a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a permit.",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "Membrane life expectancy: EPDM lasts 15–25 years, TPO 7–20 years, and modified bitumen 20 years; EPDM fails most often at the seams while TPO fails at the welded seams.",
+      "source": "InterNACHI life-expectancy chart"
+    },
+    {
+      "fact": "Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and a flat roof needs at least 1/4 inch per foot of slope to drain.",
+      "source": "NRCA; ARMA"
+    },
+    {
+      "fact": "A written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects; membrane and low-slope systems use manufacturer-approved bonding rather than adhesive alone to keep a manufacturer system warranty intact.",
+      "source": "Owens Corning warranty guidance"
+    },
+    {
+      "fact": "The NRCA recommends a roof inspection twice per year — spring and fall — plus an inspection after any major storm, which aligns repair scheduling with lower-demand (and more competitively priced) seasons (late fall and early spring).",
+      "source": "NRCA"
+    }
+  ],
+  "sources": [
+    "NRCA",
+    "ARMA",
+    "GAF (inspection / technical guidance — cited as a manufacturer source, NOT an NQR certification)",
+    "This Old House",
+    "HomeAdvisor",
+    "Modernize",
+    "InterNACHI life-expectancy chart",
+    "Insurance Information Institute (Triple-I, 2019–2023)",
+    "Owens Corning (warranty guidance — cited as a manufacturer source, NOT an NQR certification)",
+    "Integrity Home Exteriors (repair-process guidance)",
+    "North Coast Roofing (repair-process guidance)",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)",
+    "N.J.S.A. 56:8-136 / 56:8-142 / 56:8-144 (Contractors' Registration Act)",
+    "N.J.A.C. 13:45A-16.2 (Home Improvement Practices)"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "roof-repair-signs",
+      "issue": "Invented hyper-local climate stats stated as fact: 'northeasters with sustained 40-50 mph winds', freeze-thaw 'between November and March' as a mechanism, 'south-facing roof planes in Montclair and Bloomfield' UV degradation 'year-round', heating-bill spikes tied to ventilation. None of these wind speeds, month windows, or neighborhood-specific UV claims are in the gold.",
+      "fix": "Ground each sign in the gold's 6 signs[] facts with named sources (GAF, This Old House, NRCA flashing estimate). Describe wind/freeze-thaw and UV qualitatively without fabricated mph, month ranges, or neighborhood-specific degradation rates."
+    },
+    {
+      "articleId": "roof-repair-signs",
+      "issue": "Mold-in-attic framed as a near-certain consequence of small leaks 'through a humid New Jersey summer' — overstated and unsourced.",
+      "fix": "Keep attic moisture/staining as a grounded leak indicator (per GAF / This Old House). Do not assert mold as an inevitable outcome; if mentioned, treat it as a possible secondary problem without an invented prevalence."
+    },
+    {
+      "articleId": "roof-repair-signs",
+      "issue": "Vague code claim: 'New Jersey building code (N.J.A.C. 5:23) requires roofing systems to withstand specific wind uplift and snow load ratings' — no specific section, and conflates the code's scope.",
+      "fix": "If code is cited at all, anchor it to the accurate ordinary-maintenance provision (N.J.A.C. 5:23-2.7: detached 1- and 2-family roof-covering repair needs no permit). Do not invent wind-uplift/snow-load 'ratings' language."
+    },
+    {
+      "articleId": "roof-repair-cost-guide",
+      "issue": "Fabricated, unsourced dollar tiers presented as NQR's own pricing: minor '$250-$750', moderate '$750-$2,500', major '$2,500-$7,000+', architectural shingles '$90-$110/square in 2022 now $120-$150/square', permits '$75-$200', and 'set aside $500-$1,000 annually'. The metaDescription even ranges '$250 to $7,000+'. None of these trace to a named source.",
+      "fix": "Replace with the gold's sourced figures ONLY: roof-leak repair $400–$1,000 (HomeAdvisor/Modernize), flashing reseal $200–$500 (Modernize), valley repair $400–$1,000+ (HomeAdvisor), NJ 10–40% above national (Integrity Home Exteriors), emergency/after-hours +25–50% (Integrity Home Exteriors). Frame the overall as '$200–$1,000+ for most repairs' (a per-repair range, NOT a whole-job total) and end with a free written estimate. hasRealWholeProjectTotal is FALSE — do not present any single whole-job number."
+    },
+    {
+      "articleId": "roof-repair-cost-guide",
+      "issue": "Fabricated company-scale claim: 'We have completed thousands of repairs across Newark, Montclair, and surrounding communities.'",
+      "fix": "Remove the volume claim entirely. NQR is a roofing contractor / registered New Jersey Home Improvement Contractor serving Essex County — no 'thousands of repairs' figure."
+    },
+    {
+      "articleId": "roof-repair-cost-guide",
+      "issue": "Credential error: 'NJ licensed contractors must pull these permits' and 'working with a licensed NJ contractor'. NJ issues no roofing license.",
+      "fix": "Use 'registered New Jersey Home Improvement Contractor' (NEVER 'licensed'). Note that under N.J.A.C. 5:23-2.7 a detached 1- and 2-family roof-covering repair is ordinary maintenance and needs no permit; do not assert a flat per-permit dollar amount."
+    },
+    {
+      "articleId": "roof-repair-decision",
+      "issue": "Manufacturer-certification self-claims presented as a contractor-quality signal: 'GAF Master Elite, CertainTeed SELECT ShingleMaster, and Owens Corning Preferred contractors... can offer enhanced warranty coverage'. NQR makes NO manufacturer-certification self-claim.",
+      "fix": "Remove the certification-shopping advice entirely. Ground 'how to choose' in the verifiable selectionCriteria: active NJ HIC registration (13VH number, N.J.S.A. 56:8-136/144), CGL insurance min $500,000/occurrence verified by Certificate of Insurance (N.J.S.A. 56:8-142), written contract over $500 (N.J.A.C. 13:45A-16.2), itemized written estimate, local references, documented root-cause assessment."
+    },
+    {
+      "articleId": "roof-repair-decision",
+      "issue": "Unsupported NQR-specific insurance figure: 'We carry $2 million in general liability and full workers comp coverage.' Not substantiated in the gold (gold says only 'carries liability coverage').",
+      "fix": "State NQR carries liability coverage as a registered NJ HIC (per the Contractors' Registration Act). Do not assert a specific $2M policy limit. Cite the legal minimum of $500,000/occurrence (N.J.S.A. 56:8-142) as what homeowners should verify, not an NQR-specific number."
+    },
+    {
+      "articleId": "roof-repair-decision",
+      "issue": "Wrong statute cited: 'New Jersey consumer protection law (N.J.S.A. 56:8-1) requires written contracts for home improvement work.' The written-contract requirement is N.J.A.C. 13:45A-16.2 (Home Improvement Practices regs), for work over $500.",
+      "fix": "Cite N.J.A.C. 13:45A-16.2 — a written contract is required for home-improvement work over $500. Keep the Contractors' Registration Act for the registration/insurance points (N.J.S.A. 56:8-136/142/144)."
+    },
+    {
+      "articleId": "roof-repair-decision",
+      "issue": "Fabricated portfolio/scale claims in body and CTA: 'We have repaired more storm-chaser-damaged roofs than we can count' and 'We are fully licensed, insured, and certified in New Jersey with hundreds of completed repairs across Essex County.'",
+      "fix": "Drop the volume claims and 'fully licensed/certified'. NQR is a registered New Jersey Home Improvement Contractor, insured, serving Essex County. The storm-chaser warning is fine as advice (verify local presence, written contract, COI) — just without the 'more than we can count' self-claim."
+    },
+    {
+      "articleId": "roof-repair-decision",
+      "issue": "Implied 24/7 / always-available framing risk via 'do not let urgency push you'. (No explicit 24/7 claim present, but guard against adding one.)",
+      "fix": "Do not introduce any '24/7' or after-hours promise — the gold only substantiates business hours (Mon–Fri 7:00 AM–6:00 PM, Sat 8:00 AM–2:00 PM). Emergency/after-hours work carries a +25–50% surcharge (Integrity Home Exteriors), it is not an always-on free service."
+    }
+  ],
+  "parentDebtToAvoid": [
+    "Do NOT reproduce the parent gold's commercial brand line 'Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems' (service-content/repair-maintenance.ts commercial section). Articles describe membrane repair generically (EPDM, TPO, modified bitumen) without a manufacturer brand roster.",
+    "Do NOT use the parent gold's credentialsHighlight chip 'NJ HIC Licensed'. Articles say 'registered New Jersey Home Improvement Contractor' / 'registered NJ HIC' — NEVER 'licensed'. NJ issues no roofing license.",
+    "directAnswer must be TOPIC-definitional (what roof repair IS), not NQR-first; NQR appears only in ctaText. Ground every fact in the committed service-content/repair-maintenance.ts roof-repair gold block — do not invent.",
+    "hasRealWholeProjectTotal is FALSE for roof repair: the gold prices only per-repair components (leak $400–$1,000, flashing $200–$500, valley $400–$1,000+) with named sources. Do NOT synthesize these into a single whole-job total or invent a project total.",
+    "When citing GAF, This Old House, NRCA, Owens Corning, HomeAdvisor, Modernize, Integrity Home Exteriors, or InterNACHI, attribute them as external named sources for facts/guidance — NOT as NQR certifications, partnerships, or memberships."
+  ]
+}
