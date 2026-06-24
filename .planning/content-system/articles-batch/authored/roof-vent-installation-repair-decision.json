@@ -1,0 +1,42 @@
+{
+  "articleId": "roof-vent-installation-repair-decision",
+  "directAnswer": "**A roof vent system builds the attic airflow path that carries heat and moisture out, pairing low soffit intake with high exhaust and sized to code.** ARMA and Air Vent Inc. set that balance at roughly 50 percent intake and 50 percent exhaust.",
+  "intro": "Understanding the airflow path, the one-exhaust-type rule, the code sizing, and what to verify covers the decisions behind any vent installation or repair.",
+  "sections": [
+    {
+      "heading": "How Does a Balanced Roof Vent System Work?",
+      "body": [
+        "**A balanced attic vent system pairs low soffit and eave intake with high ridge exhaust at roughly 50 percent intake and 50 percent exhaust, so air travels from eave to ridge without short-circuiting.** ARMA and Air Vent Inc. describe this even split as the condition that keeps cool outdoor air entering at the eaves and warm, moist air leaving at the peak.",
+        "**Soffit vents** carry the primary intake of the system, which is why blocked eaves are the most common reason a vent system underperforms. The U.S. DOE Building America Solution Center identifies insulation, paint, and debris packed against the eave as the obstruction that starves the exhaust and unbalances the airflow; rafter baffles hold a clear soffit-to-ridge channel so intake air reaches the deck. **Ridge vent** is the preferred exhaust on roofs with adequate ridge length and open soffits, supplying continuous, low-pressure passive exhaust paired with continuous soffit intake, per GAF and Air Vent Inc.",
+        "**Five exhaust types** carry air out of an attic: ridge, box or static, turbine, powered or solar fan, and gable, with soffit serving as the intake side. Air Vent Inc. and the U.S. DOE Building America Solution Center name these categories, and the choice among them depends on ridge length, slope, and the existing intake."
+      ]
+    },
+    {
+      "heading": "Why Should an Attic Have Only One Exhaust Type?",
+      "body": [
+        "**One exhaust type per attic is the firm rule, because two exhaust openings over a shared attic short-circuit the airflow and the lower one reverses into an intake.** Air Vent Inc. (Paul Scelsi), the Roof Assembly Ventilation Coalition, ARMA, and GAF all warn against mixing a ridge vent with a power fan, gable vents, or box and turbine vents.",
+        "**The short-circuit** happens when the lower exhaust pulls outdoor air, and wind-driven rain or snow, straight into the attic instead of drawing air up from the soffits. A powered attic fan combined with a ridge vent creates the same defect, pulling outdoor air down through the ridge rather than up from the eaves and depressurizing the attic, per GAF and Air Vent Inc. Correcting a vent system that already mixes two exhaust types means removing the short-circuited second exhaust and restoring a single, continuous exhaust path.",
+        "**Passive balanced ventilation** of continuous ridge exhaust paired with continuous soffit intake is the preferred design, ahead of powered or solar fans. The U.S. DOE Building America Solution Center and Building Science Corporation (Joseph Lstiburek) note that powered and solar attic fans depressurize the attic and draw conditioned air out of the living space, which makes them counterproductive rather than an upgrade over a properly sized passive system."
+      ]
+    },
+    {
+      "heading": "How Much Ventilation Does NJ Code Require?",
+      "body": [
+        "**Sizing follows net free area, the actual unobstructed opening that remains after louvers and screen reduce the vent, not the vent's overall dimensions.** ARMA explains that net free area, not the physical size of the vent, is the figure used to size a system under IRC R806.2.",
+        "**IRC R806.2** sets the minimum net free ventilating area of a vented attic at 1/150 of the attic floor. The reduced 1/300 ratio applies only where a vapor retarder is present and 40 to 50 percent of the venting sits within 3 feet of the ridge; that cold-zone exception is not the routine entitlement in Newark and Essex County, which fall in IRC Climate Zone 4-5, so a Newark attic is designed to the 1/150 figure. **Balanced ventilation** is also commonly a condition of shingle warranties, the NRCA notes, because proper airflow reduces the condensation that leads to mold, structural damage, and ice dams.",
+        "**Permit rules** under the NJ Uniform Construction Code, N.J.A.C. 5:23-2.7, separate residential from commercial vent work. Repairing or replacing the roof covering and its venting on a detached one- and two-family dwelling is ordinary maintenance that needs no construction permit, while a commercial vent retrofit affecting more than 25 percent of the total roof area within a 12-month period requires a permit."
+      ]
+    },
+    {
+      "heading": "What Should You Verify in a Vent System?",
+      "body": [
+        "**Three checks confirm a sound vent system: a clear soffit-to-ridge air channel, balanced 50/50 sizing, and a single exhaust type across the attic.** The U.S. DOE Building America Solution Center ties performance to an unobstructed intake, since soffit vents are the primary intake and blocked eaves stall the whole system.",
+        "**The air channel** is verified at the eaves, where rafter baffles keep insulation off the intake and preserve a clear path from soffit to ridge, per the U.S. DOE Building America Solution Center. **The sizing** is verified against net free area under IRC R806.2, confirming the system meets 1/150 of the attic floor with intake and exhaust split close to even, per ARMA and Air Vent Inc. **The exhaust** is verified by counting types: a single continuous ridge or a single category of exhaust, never a ridge paired with a power fan, gable, or box vent, per Air Vent Inc. and the Roof Assembly Ventilation Coalition."
+      ]
+    }
+  ],
+  "conclusion": "A roof vent system that draws air from soffit to ridge, runs a single balanced exhaust type, and meets the 1/150 net-free-area minimum under IRC R806.2 moves heat and moisture out the way the code and the manufacturers intend.",
+  "ctaHeading": "Get a Roof Ventilation Assessment in Essex County",
+  "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We inspect intake and exhaust, check net free area against IRC R806.2, and correct short-circuited or undersized systems. Request a free written estimate for [Roof Vent Installation Repair](/roof-vent-installation-repair).",
+  "metaDescription": "How NJ roof ventilation works: balanced soffit intake and ridge exhaust, one exhaust type per attic, and the IRC R806.2 1/150 net-free-area minimum."
+}

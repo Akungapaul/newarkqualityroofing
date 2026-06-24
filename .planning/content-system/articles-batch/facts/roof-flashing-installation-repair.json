@@ -1,0 +1,182 @@
+{
+  "serviceId": "roof-flashing-installation-repair",
+  "serviceTitle": "Roof Flashing Installation & Repair",
+  "hasRealWholeProjectTotal": false,
+  "costRanges": [
+    {
+      "item": "Flashing reseal or small flashing section repair",
+      "range": "$200-$500",
+      "source": "Modernize"
+    },
+    {
+      "item": "Chimney or valley flashing rebuild that removes and reinstalls surrounding shingles and sets counter flashing into masonry",
+      "range": "costs more than an isolated transition repair (no fixed total; NQR provides a free written estimate)",
+      "source": "NRCA flashing guidance / Newark Quality Roofing free estimate"
+    },
+    {
+      "item": "NJ pricing premium over national figures (labor is roughly 60% of a repair total; NJ code is stricter)",
+      "range": "10-40% above national figures",
+      "source": "Integrity Home Exteriors"
+    }
+  ],
+  "lifespans": [
+    {
+      "item": "Caulk/sealant-only flashing repair before it dries and cracks",
+      "value": "a few years",
+      "source": "GAF technical guidance"
+    }
+  ],
+  "signs": [
+    "Brown or yellow ceiling and wall stains near a chimney, skylight, or roof-to-wall junction indicate a flashing leak (roofing industry estimates roughly 90-95% of roof leaks originate at flashing details, an estimate attributed to NRCA)",
+    "Rusted, lifted, or bent flashing at chimneys, walls, skylights, and valleys, where corroded and wind-lifted metal opens the transition the flashing seals (per GAF and This Old House inspection guidance)",
+    "Cracked or separated sealant at a flashing lap, signaling a temporary caulk-only repair reaching end of life because sealant alone dries and cracks within a few years while properly lapped metal does not (per GAF)",
+    "A continuous one-piece metal strip against a sidewall or chimney, which marks a defective flashing installation because correct step flashing weaves one piece per shingle course (per InterNACHI and shingle-manufacturer guidance)",
+    "Water staining behind siding or interior walls below a roof-to-wall eave, indicating a missing kickout flashing routing water into the wall cavity (the cause of hidden rot and mold, per IRC R903.2.1 and InterNACHI)",
+    "Damp or rotted decking at a valley or penetration, indicating a failed flashing detail admitting water under the covering (the condition a self-adhered ice-and-water shield under the metal resists, per ASTM D1970)"
+  ],
+  "technicalFacts": [
+    {
+      "fact": "Roof flashing is the sheet metal that seals the transitions and penetrations of a roof (chimneys, walls, valleys, skylights, and vent stacks), shedding water at every joint a continuous shingle field cannot cover; the roofing industry estimates roughly 90-95% of roof leaks originate at flashing details and only 5-10% at the open shingle field",
+      "source": "industry estimate attributed to NRCA (hedged)"
+    },
+    {
+      "fact": "Eight flashing types are named: step, counter (cap), valley, apron/head, drip edge, kickout/diverter, vent-pipe boot, and chimney flashing",
+      "source": "components-specialty.ts gold (entities per fact pack)"
+    },
+    {
+      "fact": "Step flashing weaves one separate metal piece per shingle course against a sidewall or chimney; a continuous one-piece strip is a defective installation",
+      "source": "InterNACHI and shingle-manufacturer guidance"
+    },
+    {
+      "fact": "Counter (cap) flashing caps the step pieces and is set into the masonry; a chimney transition is a two-part base-and-counter system",
+      "source": "NRCA / InterNACHI"
+    },
+    {
+      "fact": "A kickout (diverter) flashing redirects water away from the wall cladding where a sloped-roof eave meets a vertical sidewall; a missing kickout sends water behind the siding into the wall cavity, the cause of hidden rot and mold",
+      "source": "IRC R903.2.1 and InterNACHI"
+    },
+    {
+      "fact": "A self-adhered ice-and-water shield runs under valley, eave, and penetration flashing and self-seals around fasteners",
+      "source": "ASTM D1970"
+    },
+    {
+      "fact": "Drip edge extends at least 2 inches onto the deck, at least 1/4 inch below the deck/fascia, fastened no more than 12 inches on center, with at least 2-inch end laps, required at eaves AND rakes",
+      "source": "IRC R905.2.8.5"
+    },
+    {
+      "fact": "Flashing failure modes are corrosion/rust, lifting/bending by wind, short laps, and sealant laps that dry and crack (sealant alone fails within a few years)",
+      "source": "GAF / trade guidance"
+    },
+    {
+      "fact": "Caulk alone is a temporary flashing repair; properly lapped corrosion-resistant metal sheds water without relying on sealant",
+      "source": "GAF / IRC R905.2.8.5 and R903.2.1"
+    },
+    {
+      "fact": "On a detached one- and two-family dwelling, repair or replacement of the roof covering counts as ordinary maintenance and requires no construction permit, inspection, or notice to the construction official",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "On a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a permit",
+      "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "Repair vs. replace thresholds: repair when the leak stays localized to a transition and the surrounding covering holds; replace when damage exceeds 25-30% of the roof area or one repair approaches 50% of replacement cost (contractor-consensus thresholds, not a code or NRCA statistic)",
+      "source": "contractor-consensus thresholds (hedged)"
+    }
+  ],
+  "codes": [
+    {
+      "code": "IRC R905.2.8.5",
+      "requirement": "Drip edge must extend at least 2 inches onto the deck and at least 1/4 inch below the deck/fascia, be fastened no more than 12 inches on center, with at least 2-inch end laps, at eaves and rakes"
+    },
+    {
+      "code": "IRC R903.2.1",
+      "requirement": "Flashing required at roof-wall intersections, including a kickout/diverter flashing where a sloped-roof eave meets a vertical sidewall"
+    },
+    {
+      "code": "ASTM D1970",
+      "requirement": "Self-adhering polymer-modified bitumen ice-and-water membrane under valleys, eaves, and penetrations that self-seals around fasteners"
+    },
+    {
+      "code": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)",
+      "requirement": "Roof-covering repair/replacement on a detached one- and two-family dwelling is ordinary maintenance (no permit); on commercial, repairing >25% of total roof area in 12 months requires a permit"
+    },
+    {
+      "code": "IRC R905.1.2",
+      "requirement": "Ice barrier at least 24 inches inside the exterior wall line (at least 36 inches along slope on roofs 8:12 or steeper, still in force under the 2021 IRC as adopted in NJ)"
+    }
+  ],
+  "namedSources": [
+    "NRCA",
+    "InterNACHI",
+    "GAF",
+    "This Old House",
+    "ASTM International (D1970)",
+    "ICC International Residential Code (IRC R905.2.8.5, R903.2.1, R905.1.2)",
+    "NJ Uniform Construction Code (N.J.A.C. 5:23-2.7)",
+    "Modernize",
+    "Integrity Home Exteriors"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "roof-flashing-installation-repair-signs",
+      "issue": "Claims '80+ annual freeze-thaw cycles' in Essex County (invented, unsourced specific count)",
+      "fix": "Drop the fabricated cycle count; reference Essex County freeze-thaw climate qualitatively, the condition that warrants ice-and-water shield under valley/eave flashing per ASTM D1970"
+    },
+    {
+      "articleId": "roof-flashing-installation-repair-signs",
+      "issue": "States flashing is 'the number one cause of roof leaks' / 'the most common leak source' as a flat fact",
+      "fix": "Hedge to the gold framing: the roofing industry estimates roughly 90-95% of roof leaks originate at flashing details, an estimate attributed to NRCA"
+    },
+    {
+      "articleId": "roof-flashing-installation-repair-signs",
+      "issue": "Asserts NJ pre-2000 step flashing 'was often galvanized steel that has now corroded through' and 'NJ's UV exposure breaks down roofing sealants in 5-8 years, faster on south-facing exposures' (invented region/year specifics)",
+      "fix": "Replace with sourced failure modes: corrosion/rust, wind lift, and sealant that dries and cracks within a few years (per GAF); keep sealant lifespan qualitative ('a few years'), no invented 5-8 year UV figure"
+    },
+    {
+      "articleId": "roof-flashing-installation-repair-cost-guide",
+      "issue": "Fabricated price grid: spot repairs '$200-$600', reseal '$150-300', step section '$350-700', valley replacement '$400-$1,200', standalone full flashing replacement '$2,000-5,000', re-roof add '$500-2,000' — none carry a named source",
+      "fix": "Use only the gold-sourced range: a flashing reseal or small flashing section costs $200-$500 (Modernize); larger chimney/valley rebuilds cost more (no fixed total) and NQR provides a free written estimate; NJ ranges sit 10-40% above national figures (Integrity Home Exteriors)"
+    },
+    {
+      "articleId": "roof-flashing-installation-repair-cost-guide",
+      "issue": "'Emergency flashing repairs ... command premium pricing of $400-800' and 'scheduling ... costs 30-50% less' (invented emergency surcharge and discount; no source; emergency framing not in gold)",
+      "fix": "Remove emergency-premium and 30-50% discount claims entirely; frame timing as a free written estimate before any work, with labor roughly 60% of a repair total per Integrity Home Exteriors"
+    },
+    {
+      "articleId": "roof-flashing-installation-repair-cost-guide",
+      "issue": "Per-linear-foot material prices ('aluminum $2-4', 'copper $15-25', 'lead-coated copper $10-18', 'galvanized $1-3') and lifespans ('copper lasts 70+ years', 'galvanized corrodes in 15-20 years') are all unsourced inventions",
+      "fix": "Drop the unsourced per-LF price ladder and invented lifespan figures; cost article relies on the Modernize $200-$500 reseal/section range plus free-estimate framing; if discussing copper vs galvanized, keep durability qualitative with no year counts"
+    },
+    {
+      "articleId": "roof-flashing-installation-repair-cost-guide",
+      "issue": "'NJ roofing best practice calls for replacing all flashing during every re-roof' stated as a rule",
+      "fix": "Reframe to the code-grounded fact: a full-roof flashing replacement during a re-roof installs drip edge, valley, step, and penetration flashing to IRC R905.2.8.5 and R903.2.1, costing more than an isolated transition repair"
+    },
+    {
+      "articleId": "roof-flashing-installation-repair-decision",
+      "issue": "'Building code in NJ requires ice-and-water shield membrane at eaves, valleys, and all flashing locations, extending at least 24 inches past the exterior wall line' overstates the requirement ('all flashing locations')",
+      "fix": "Correct to IRC R905.1.2: the ice barrier extends at least 24 inches inside the exterior wall line (at least 36 inches along slope on 8:12+ roofs in NJ); ice-and-water shield is specified under valleys, eaves, and penetrations per ASTM D1970, not legally required at every flashing location"
+    },
+    {
+      "articleId": "roof-flashing-installation-repair-decision",
+      "issue": "Implies ice dams are driven/prevented chiefly by flashing/underlayment, and frames 'properly installed flashing with ice-and-water shield' as 'the primary defense' against ice dams",
+      "fix": "Per global correction, the root cause of ice dams is attic heat loss/air leakage from the living space (Building Science Digest 135 / U. of Minnesota Extension); ice-and-water shield under eaves/valleys resists resulting backup but is not the primary ice-dam cause or cure"
+    },
+    {
+      "articleId": "roof-flashing-installation-repair-decision",
+      "issue": "Invented flashing lifespans: 're-sealing ... extends its life 5-10 years', galvanized end-of-life '15-20 years', aluminum '30+', plus invented linear-footage figures ('colonial ... 100+ feet', 'Victorian ... 200 feet')",
+      "fix": "Remove unsourced lifespan year counts and footage estimates; keep durability qualitative; only the sealant-only 'a few years' figure (GAF) is grounded"
+    },
+    {
+      "articleId": "roof-flashing-installation-repair-decision",
+      "issue": "Repair-vs-replace section gives no threshold while the gold supplies a hedged consensus rule",
+      "fix": "Add the contractor-consensus thresholds (hedged, not code/NRCA): repair when the leak stays localized; replace when damage exceeds 25-30% of roof area or one repair approaches 50% of replacement cost"
+    }
+  ],
+  "articleAngles": {
+    "signs": "Definitively answer that the strongest signs of failed flashing are interior brown/yellow stains near chimneys, skylights, and roof-to-wall junctions, plus rusted/lifted/bent metal, cracked sealant at laps, a continuous one-piece strip (defective step flashing), and damp decking at valleys/penetrations. Lead with the hedged 90-95%-attributed-to-NRCA framing, then InterNACHI step-flashing defect, IRC R903.2.1 missing-kickout staining-behind-siding, and ASTM D1970 decking/valley evidence. Kill the 80+-freeze-thaw-cycle and 5-8-year-UV inventions.",
+    "costGuide": "Answer that a flashing reseal or small section repair costs $200-$500 (Modernize), with larger chimney/valley rebuilds costing more (no fixed total) and NQR providing a free written estimate; NJ ranges sit 10-40% above national figures because labor is roughly 60% of a repair total and NJ code is stricter (Integrity Home Exteriors). Cite ONLY Modernize and Integrity Home Exteriors; delete the entire fabricated per-LF price ladder, emergency surcharge, and invented re-roof/standalone totals.",
+    "decision": "Broad overview: roof flashing is the sheet metal sealing roof transitions/penetrations where most leaks originate; cover the 8 flashing types (step, counter, valley, apron, drip edge, kickout, vent-pipe boot, chimney), how step flashing must be one piece per shingle course (InterNACHI), the IRC R905.2.8.5 drip-edge spec and IRC R903.2.1 kickout requirement, ASTM D1970 ice-and-water shield under valleys/eaves/penetrations, and the hedged repair-vs-replace thresholds. To verify a contractor's work: confirm woven step flashing (not a continuous strip), a kickout where eave meets sidewall, a two-part base-and-counter chimney system, and a registered NJ HIC credential. Correct the ice-dam framing (root cause = attic heat loss/air leakage) and remove invented lifespans/footage."
+  }
+}

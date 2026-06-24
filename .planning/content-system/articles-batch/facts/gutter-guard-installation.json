@@ -1,0 +1,78 @@
+{
+  "serviceId": "gutter-guard-installation",
+  "serviceTitle": "Gutter Guard Installation",
+  "hasRealWholeProjectTotal": true,
+  "costRanges": [
+    {"item": "Installed gutter guards (national brand quotes)", "range": "$22-$26 per linear foot", "source": "This Old House"},
+    {"item": "Installed gutter guards for a 200-foot run (national brand quotes)", "range": "$4,300-$5,200 for 200 feet", "source": "This Old House"},
+    {"item": "Installed screen / perforated-metal guard by type", "range": "$1-$4 per linear foot", "source": "Angi"},
+    {"item": "Installed micro-mesh guard by type", "range": "about $9 per linear foot", "source": "Angi"},
+    {"item": "Guard material cost ladder by type (foam)", "range": "about $2 per linear foot", "source": "This Old House"},
+    {"item": "Guard material cost ladder by type (screen)", "range": "about $2.50 per linear foot", "source": "This Old House"},
+    {"item": "Guard material cost ladder by type (brush)", "range": "about $3 per linear foot", "source": "This Old House"},
+    {"item": "Guard material cost ladder by type (reverse-curve)", "range": "about $5.17 per linear foot", "source": "This Old House"},
+    {"item": "Guard material cost ladder by type (micro-mesh)", "range": "about $7.84 per linear foot", "source": "This Old House"}
+  ],
+  "lifespans": [
+    {"item": "Micro-mesh gutter guard (longest of the 5 types; warranty span)", "value": "commonly 20 to 25-year or lifetime warranty", "source": "EcoWatch"},
+    {"item": "Foam and brush gutter guards (least durable of the 5 types)", "value": "a few years", "source": "EcoWatch / This Old House"},
+    {"item": "Aluminum gutters beneath the guard", "value": "20 to 40-plus years", "source": "InterNACHI Estimated Life Expectancy Chart"},
+    {"item": "Copper gutters beneath the guard", "value": "50-plus years", "source": "InterNACHI Estimated Life Expectancy Chart"}
+  ],
+  "signs": [
+    "Gutters clogging and overflowing within days of a cleaning, indicating a debris load an open gutter cannot keep clear (per Angi)",
+    "Pine needles and fine grit packing the gutter trough, which call for the finest-filtration micro-mesh guard because screen, perforated, and reverse-curve guards pass pine needles and fine dirt (per This Old House)",
+    "Gutter cleaning needed more than the standard 2 times per year (spring and fall); a property near pine trees needs 3 to 4 cleanings per year (per Angi and GAF)",
+    "Sagging gutter sections pulling from the fascia from accumulated debris weight; a full gutter of water and wet debris weighs roughly 20 pounds per linear foot, over 60 pounds per foot with ice and snow (per Green Sun NJ trade guidance)",
+    "Fascia and soffit staining or rot below the gutter line from repeated overflow saturating the fascia and soffit (per Angi)",
+    "Repeated ladder cleaning at height on a multi-story home; a guard reduces the cleaning frequency that drives repeated ladder work (per This Old House survey findings that 63% of homeowners with guards still clean at least once a year)"
+  ],
+  "technicalFacts": [
+    {"fact": "There are 5 main gutter-guard types: micro-mesh, screen / perforated metal, reverse-curve (surface-tension), foam, and brush", "source": "This Old House"},
+    {"fact": "A gutter guard is a cover fitted over or inside the gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while letting water pass into the gutter; it reduces clogging and overflow rather than eliminating gutter cleaning", "source": "This Old House / Consumer Reports"},
+    {"fact": "Micro-mesh is the finest-filtration type, an ultra-fine stainless screen on a rigid frame that best blocks the smallest debris including pine needles, seeds, and shingle grit", "source": "This Old House"},
+    {"fact": "Micro-mesh material specification: 316L surgical-grade stainless mesh on a uPVC frame, with an opening sweet spot near 100 to 300 microns", "source": "LeafFilter (manufacturer)"},
+    {"fact": "Screen and perforated guards block leaves and twigs but pass pine needles and fine dirt; reverse-curve sheds large leaves but passes some needles and seeds; foam and brush block large debris only and are the least durable", "source": "This Old House / EcoWatch"},
+    {"fact": "No gutter guard is fully maintenance-free; a guard reduces, rather than eliminates, gutter cleaning, with Consumer Reports framing a guard as a tool for easier gutter cleaning, not elimination", "source": "This Old House / Consumer Reports"},
+    {"fact": "In a 2025 This Old House survey of 1,000 homeowners, about 30% stopped cleaning entirely while 63% still cleaned at least once a year (41% annually, 22% twice yearly)", "source": "This Old House survey (n=1,000, Nov 2025)"},
+    {"fact": "Gutter cleaning cadence is the standard 2 times per year (spring and fall); a property near pine trees needs 3 to 4 cleanings per year", "source": "Angi / GAF"},
+    {"fact": "A full gutter of water and wet debris weighs roughly 20 pounds per linear foot, over 60 pounds per foot with ice and snow, enough to pull the gutter from the fascia if hangers are too far apart", "source": "Green Sun NJ (trade)"},
+    {"fact": "Hidden hanger spacing is about 24 inches standard and about 18 inches in snow and ice climates", "source": "Art of Gutter (trade)"},
+    {"fact": "Clogged gutters overflow and saturate the fascia and soffit and shed water against the foundation", "source": "Angi"},
+    {"fact": "A failing gutter should be corrected (sagging run reseated, open joint resealed) before the guard fits over it, because a guard over a failing gutter locks in the defect", "source": "gold (NQR install practice) grounded in Green Sun NJ trade weight guidance"},
+    {"fact": "A gutter guard does not prevent an ice dam; the root cause of an ice dam is attic heat loss and air leakage from the living space, not the gutter, and a gutter only aggravates eave backup", "source": "University of Minnesota Extension / Building Science Digest 135"}
+  ],
+  "codes": [
+    {"code": "IRC R905.1.2", "requirement": "Ice barrier required at eaves, extending from the eave to at least 24 inches inside the exterior wall line (and at least 36 inches up-slope on roofs 8:12 or steeper); enforced in New Jersey via N.J.A.C. 5:23 (2021 IRC)"}
+  ],
+  "namedSources": [
+    "This Old House",
+    "Consumer Reports",
+    "Angi",
+    "GAF",
+    "EcoWatch",
+    "LeafFilter",
+    "InterNACHI Estimated Life Expectancy Chart",
+    "Green Sun NJ",
+    "Art of Gutter",
+    "University of Minnesota Extension",
+    "Building Science Digest 135"
+  ],
+  "defabToKill": [
+    {"articleId": "gutter-guard-installation-signs", "issue": "Claims ice dams forming at gutter lines suggest gutter guards with heating elements or improved water flow may be appropriate, implying gutters/guards cause or cure ice dams ('Heavy ice in NJ gutters indicates standing water freezing... a problem that proper guards can mitigate').", "fix": "A gutter guard does not prevent an ice dam; the root cause is attic heat loss and air leakage from the living space, not the gutter (University of Minnesota Extension). A gutter only aggravates eave backup; the code defense is an ice barrier from the eave to at least 24 inches inside the exterior wall line (IRC R905.1.2, enforced in NJ)."},
+    {"articleId": "gutter-guard-installation-signs", "issue": "Hard threshold 'Screen-type guards with mesh larger than 100 microns allow fine debris to pass' presents the 100-micron figure as a universal rating.", "fix": "Drop the universal micron threshold. Only the ~100 to 300-micron opening sweet spot is sourced, and it is LeafFilter's micro-mesh spec, not a universal screen rating (LeafFilter). Frame qualitatively: screen, perforated, and reverse-curve guards pass pine needles and fine dirt, while micro-mesh blocks the smallest debris (This Old House)."},
+    {"articleId": "gutter-guard-installation-signs", "issue": "Invented hyper-local environmental specifics ('within 50 feet of mature deciduous trees,' borders Branch Brook Park / Watchung Reservation, 'clogs standard gutters monthly,' 'overwhelms unprotected gutters in a single week during October') stated as fact without a source.", "fix": "Replace with the sourced cadence: a property near pine trees needs 3 to 4 cleanings per year against the standard 2, spring and fall (Angi and GAF). Keep tree-canopy framing qualitative and tie the symptom to overflow that saturates fascia and soffit (Angi)."},
+    {"articleId": "gutter-guard-installation-cost-guide", "issue": "ROI math built on 'A $3,000 micro-mesh guard system that eliminates cleaning pays for itself in 2-4 years' plus cleaning-cost figures ($150-350/visit, $450-1,400/yr) with no named source, and an absolute 'eliminates cleaning' claim.", "fix": "Remove unsourced cleaning-cost figures and the 'eliminates cleaning' absolute. Guards reduce, not eliminate, cleaning (This Old House / Consumer Reports). Use only sourced ranges: installed $22-$26/ft, about $4,300-$5,200 for 200 ft (This Old House); screen $1-$4/ft, micro-mesh ~$9/ft (Angi); close with NQR's free written estimate."},
+    {"articleId": "gutter-guard-installation-cost-guide", "issue": "Unsourced per-type price tiers ('$1-3', '$6-12', '$10-20 per linear foot') and whole-home totals ('$150-600... $900-2,400... $1,500-4,000' for 150-200 ft) presented as fact.", "fix": "Replace with sourced figures: Angi installed screen $1-$4/ft and micro-mesh ~$9/ft; This Old House installed national brand quotes $22-$26/ft (~$4,300-$5,200 for 200 ft) and the material cost ladder (foam ~$2, screen ~$2.50, brush ~$3, reverse-curve ~$5.17, micro-mesh ~$7.84/ft). Attribute every figure."},
+    {"articleId": "gutter-guard-installation-cost-guide", "issue": "'genuine maintenance elimination rather than the maintenance reduction that lesser systems provide' — frames micro-mesh as maintenance-free.", "fix": "No gutter guard is fully maintenance-free; even micro-mesh reduces rather than eliminates cleaning, and 63% of homeowners with guards still clean at least once a year (This Old House survey; Consumer Reports)."},
+    {"articleId": "gutter-guard-installation-decision", "issue": "Fabricated precise exclusion percentages ('micro-mesh maintain 95%+ debris exclusion,' 'Screen guards 60-75%,' 'Solid covers 80-90% leaf / 40-50% needle') stated as field data, and 'openings under 100 microns' as a universal micro-mesh rating.", "fix": "Strike all invented percentages (no sourced failure-share or exclusion percentages exist). Keep qualitative ranking: micro-mesh is finest-filtration and blocks the smallest debris; screen/perforated/reverse-curve pass pine needles and fine dirt; foam and brush block large debris only (This Old House / EcoWatch). Cite the 100-300 micron range only as LeafFilter's micro-mesh spec."},
+    {"articleId": "gutter-guard-installation-decision", "issue": "Ice-dam section attributes ice dams to guard type and 'standing water freezing' and recommends heating cables for 'complete ice dam prevention,' implying gutters/guards drive ice dams.", "fix": "Reframe: a gutter guard does not prevent an ice dam; the root cause is attic heat loss and air leakage from the living space (University of Minnesota Extension), and a gutter only aggravates eave backup. The code defense is an ice barrier 24+ inches inside the exterior wall line (IRC R905.1.2). Do not present any guard as ice-dam prevention."},
+    {"articleId": "gutter-guard-installation-decision", "issue": "'DIY installation saves 30-50% on labor' and 'micro-mesh systems maintain 95%+ debris exclusion' present unsourced precise figures as fact.", "fix": "Drop the unsourced 30-50% labor-savings figure and the 95% exclusion figure. Keep the qualitative point that professional installation corrects the gutter first (reseat sagging runs, reseal joints) before fitting the guard, because a guard over a failing gutter locks in the defect, and a full gutter weighs roughly 20 lb/ft (Green Sun NJ)."},
+    {"articleId": "gutter-guard-installation-decision", "issue": "NQR positioned via manufacturer/brand performance and selection authority without a credential frame.", "fix": "Frame NQR as a roofing contractor and registered New Jersey Home Improvement Contractor installing gutter guards across Newark, New Jersey, and Essex County. Never use 'licensed' and never claim a manufacturer certification (e.g., 'LeafFilter certified'); naming brands like LeafFilter or GAF as products is fine."}
+  ],
+  "articleAngles": {
+    "signs": "Definitively answer that you need gutter guards (or your current guards are failing) when gutters clog and overflow within days of cleaning, when cleaning is needed more than the standard 2 times a year, when sagging runs pull from the fascia, and when fascia/soffit stain or rot below the gutter line. Strongest grounded facts: clogged gutters overflow and saturate fascia/soffit (Angi); pine-tree properties need 3-4 cleanings/year vs the standard 2, spring and fall (Angi, GAF); pine needles and fine grit packing the trough call for the finest-filtration micro-mesh because screen/perforated/reverse-curve guards pass them (This Old House); a full gutter weighs ~20 lb/ft, 60+ lb/ft with ice/snow (Green Sun NJ); 63% of guard owners still clean at least annually so a guard reduces, not eliminates, ladder work (This Old House survey).",
+    "costGuide": "Answer that installed gutter guards in NJ run roughly $22-$26 per linear foot, about $4,300-$5,200 for 200 feet (This Old House national brand quotes), with cost varying by type: installed screen $1-$4/ft and micro-mesh ~$9/ft (Angi), and a material cost ladder of foam ~$2, screen ~$2.50, brush ~$3, reverse-curve ~$5.17, micro-mesh ~$7.84/ft (This Old House). Close on NQR's free written estimate; do not invent whole-home totals, cleaning-cost ROI, or 'eliminates cleaning' claims.",
+    "decision": "Broad overview: a gutter guard is a cover fitted over or inside the gutter trough that blocks leaves, needles, seed pods, and shingle grit while passing water, reducing (not eliminating) cleaning (This Old House / Consumer Reports). Cover the 5 types and their tradeoffs (micro-mesh finest-filtration and most durable with a 316L stainless mesh on uPVC frame at ~100-300 microns per LeafFilter; screen/perforated/reverse-curve pass needles and fine dirt; foam/brush least durable, a few years, per EcoWatch). Verify before buying: match the guard type to the debris load, correct the existing gutter first (reseat sagging runs, reseal joints) because a full gutter weighs ~20 lb/ft (Green Sun NJ), confirm aluminum gutters last 20-40+ yr and copper 50+ yr beneath the guard (InterNACHI), and know a guard does not prevent ice dams (root cause = attic heat loss/air leakage, per University of Minnesota Extension; ice-barrier code defense IRC R905.1.2)."
+  }
+}

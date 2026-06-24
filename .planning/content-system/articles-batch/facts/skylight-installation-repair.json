@@ -1,0 +1,80 @@
+{
+  "serviceId": "skylight-installation-repair",
+  "serviceTitle": "Skylight Installation & Repair",
+  "hasRealWholeProjectTotal": false,
+  "costRanges": [
+    {"item": "Skylight installation (installed)", "range": "$1,600-$4,200 installed", "source": "HomeGuide"},
+    {"item": "Skylight replacement", "range": "$800-$2,400", "source": "HomeGuide"},
+    {"item": "Skylight leak repair (overall)", "range": "$225-$800", "source": "Angi; Modernize"},
+    {"item": "Skylight reseal", "range": "$75-$250", "source": "Angi; Modernize"},
+    {"item": "Skylight flashing repair", "range": "$150-$500", "source": "Angi; Modernize"}
+  ],
+  "lifespans": [
+    {"item": "Skylight service life", "value": "10-20 years", "source": "InterNACHI Estimated Life Expectancy Chart"},
+    {"item": "VELUX insulated-glass seal warranty (fogging/moisture between panes)", "value": "20 years", "source": "VELUX America"},
+    {"item": "VELUX No Leak installation warranty (only when installed to spec with a matching VELUX flashing kit)", "value": "10 years", "source": "VELUX America"},
+    {"item": "VELUX product warranty", "value": "10 years", "source": "VELUX America"},
+    {"item": "VELUX shades/controls warranty", "value": "5 years", "source": "VELUX America"},
+    {"item": "Fakro unit warranty", "value": "10 years", "source": "Fakro USA"},
+    {"item": "Fakro leak-proof guarantee (conditioned on original Fakro flashing kit)", "value": "10 years", "source": "Fakro USA"},
+    {"item": "EPDM membrane (commercial low-slope context for curb-mounted units)", "value": "15-25 years", "source": "InterNACHI Estimated Life Expectancy Chart"},
+    {"item": "TPO membrane (commercial low-slope context)", "value": "7-20 years", "source": "InterNACHI Estimated Life Expectancy Chart"},
+    {"item": "Modified bitumen membrane (commercial low-slope context)", "value": "20 years", "source": "InterNACHI Estimated Life Expectancy Chart"}
+  ],
+  "signs": [
+    "Water staining or dripping at the skylight frame during or after rain, indicating failed or improperly installed flashing (the leading cause of a skylight leak, not the glass)",
+    "Fog, haze, or trapped moisture between the glass panes, indicating a failed insulated-glass seal",
+    "Water at the skylight only in cold weather that clears as humidity drops, indicating condensation from excess indoor humidity on cold glass rather than a roof leak (a common winter misdiagnosis)",
+    "Cracked, dried, or peeling caulk around the skylight curb, indicating a sealant-only installation breaking down",
+    "A skylight past 10-20 years of service, reaching the end of the InterNACHI service-life range and favoring replacement over repeated reseal",
+    "A skylight on a low-slope (under 3:12) roof sitting flat against the roof plane instead of on a curb at least 4 inches above it (IRC R308.6.8)",
+    "Daylight, draft, or interior trim/shaft rot at the skylight, indicating water tracking from failed flashing into the framing before it stains the ceiling"
+  ],
+  "technicalFacts": [
+    {"fact": "The leading cause of skylight leaks is failed or improperly installed flashing, not the glass", "source": "roofing trade consensus"},
+    {"fact": "Engineered flashing kits shed water without relying on caulk/sealant that breaks down over time; the kit is matched to BOTH the mounting type and the roof covering", "source": "VELUX America"},
+    {"fact": "Two mounting types: deck-mounted (frame fastens to the deck, lower profile) and curb-mounted (set on a built-up curb, for flat/low-slope roofs) - each needs its matched flashing kit", "source": "VELUX America"},
+    {"fact": "Water at a skylight is often condensation from excess indoor humidity on cold glass, not a leak; Low-E warm-edge glass reduces (does not eliminate) condensation", "source": "VELUX America"},
+    {"fact": "Diagnostic cue: condensation comes and goes with temperature/humidity, while a true leak tracks with rain and storms", "source": "VELUX America"},
+    {"fact": "The VELUX No Leak installation warranty applies ONLY when the unit is installed to spec with a matching VELUX deck-mount or curb-mount flashing kit; the 20-year glass-seal warranty covers fogging between panes, separate from leak coverage", "source": "VELUX America"},
+    {"fact": "Fakro's 10-year leak-proof guarantee is conditioned on using original Fakro flashing kits", "source": "Fakro USA"},
+    {"fact": "Low-slope/flat roofs need positive drainage: NRCA minimum design slope is 1/4 inch per foot (~2%); ponding accelerates membrane deterioration, so a curb-mounted skylight curb must shed water rather than pond at the penetration", "source": "NRCA; ARMA"},
+    {"fact": "On a detached one- and two-family dwelling, repair/replacement of the roof covering and its penetrations counts as ordinary maintenance requiring no construction permit; on a commercial building, repairing more than 25% of total roof area in a 12-month period requires a permit", "source": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)"}
+  ],
+  "codes": [
+    {"code": "IRC R308.6.8", "requirement": "Skylights on roofs under 3:12 slope must sit on a curb at least 4 inches above the roof plane, unless manufacturer instructions specify otherwise (this 4-inch curb requirement applies ONLY to roofs under 3:12, not all skylights)"},
+    {"code": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)", "requirement": "Roof-covering/penetration repair-replacement on a detached one- and two-family dwelling is ordinary maintenance (no permit); commercial repair of >25% of total roof area in 12 months requires a permit"},
+    {"code": "NRCA / ARMA design-slope guidance", "requirement": "Low-slope roofs need a minimum 1/4 inch per foot of slope to drain; ponding water remaining more than 48 hours is counted as a defect"}
+  ],
+  "namedSources": [
+    "InterNACHI Estimated Life Expectancy Chart",
+    "VELUX America",
+    "Fakro USA",
+    "HomeGuide",
+    "Angi",
+    "Modernize",
+    "NRCA",
+    "ARMA",
+    "IRC R308.6.8",
+    "N.J.A.C. 5:23 (NJ Uniform Construction Code)",
+    "roofing trade consensus"
+  ],
+  "defabToKill": [
+    {"articleId": "skylight-installation-repair-signs", "issue": "Claims a fogged glass seal failure 'reduces insulation value by 30-50%' - an invented statistic with no named source.", "fix": "Drop the percentage. State only that a failed perimeter seal lets moisture into the airspace and causes persistent fogging between the panes that cleaning cannot fix (the failure the VELUX 20-year insulated-glass-seal warranty covers, per VELUX America); the fix is glass-unit/skylight replacement."},
+    {"articleId": "skylight-installation-repair-signs", "issue": "Says uniform cold-weather condensation 'requires ventilation improvement rather than flashing repair' - mis-prescribes the fix; gold frames condensation as a humidity/cold-glass misdiagnosis addressed via reduced indoor humidity and Low-E warm-edge glass, not generic ventilation work.", "fix": "Reframe per VELUX America: water at a skylight is often condensation from excess indoor humidity on cold glass, not a leak; Low-E warm-edge glass reduces (does not eliminate) it. Diagnostic cue: condensation tracks with temperature/humidity, a true leak tracks with rain/storms."},
+    {"articleId": "skylight-installation-repair-signs", "issue": "Describes skylight flashing as 'a step-and-counter flashing system similar to chimney flashing, with an apron at the bottom and a cricket or diverter at the top' - presents site-fabricated chimney-style flashing as the skylight standard, contradicting the gold (engineered manufacturer flashing kit).", "fix": "Describe the skylight seal as an engineered VELUX/Fakro flashing kit matched to BOTH the mounting type and the roof covering, which sheds water without relying on caulk that breaks down over time, per VELUX America. Keep failure signs (rust stains, lifted/separated flashing edges, failed caulk, ice-dam backup at the uphill edge) but do not assert a chimney cricket as the skylight detail."},
+    {"articleId": "skylight-installation-repair-cost-guide", "issue": "Unsourced/fabricated cost ranges throughout: flashing re-seal $200-500, complete flashing replacement $500-1,200, glass unit $300-800 + $200-400 install, new install $1,500-3,500/unit, new roof opening $2,500-5,000, venting +$300-800, solar venting +$500-1,200, and a 'repair vs replace at $1,000-1,500' threshold - none carry a named source.", "fix": "Replace ALL with the gold's named-source ranges: installation $1,600-$4,200 (HomeGuide); replacement $800-$2,400 (HomeGuide); leak repair $225-$800 with reseal $75-$250 and flashing repair $150-$500 (Angi; Modernize). No whole-project total is self-attributed - close with NQR's free written estimate framing."},
+    {"articleId": "skylight-installation-repair-cost-guide", "issue": "Claims modern skylights 'qualify for federal energy efficiency tax credits (currently up to $600 per qualifying unit)' - a fabricated/outdated incentive (the §25C/§25D residential energy credits have been repealed and no $600-per-skylight credit is grounded in the gold).", "fix": "Delete the tax-credit claim entirely. The gold contains no skylight tax incentive; do not cite any federal or NJ skylight credit."},
+    {"articleId": "skylight-installation-repair-cost-guide", "issue": "Unsourced energy claim that skylights 'reduce daytime lighting energy by 50-75% in the affected rooms' and deliver 'one of the highest combined functional and financial returns.'", "fix": "Drop the percentage and the ROI superlative; neither is in the gold. Keep cost discussion grounded in the HomeGuide/Angi/Modernize ranges and the repair-vs-replace logic (replace once a unit fogs or passes its 10-20-year InterNACHI service life)."},
+    {"articleId": "skylight-installation-repair-decision", "issue": "States skylights should be replaced 'every 25-30 years' and budgets glass/seal repair 'every 15-20 years' - contradicts the gold/InterNACHI 10-20-year skylight service life.", "fix": "Use the InterNACHI Estimated Life Expectancy Chart figure: a skylight lasts 10-20 years. Replace a unit past that range or when the insulated-glass seal fogs; repair when the flashing fails on a unit still inside its service life."},
+    {"articleId": "skylight-installation-repair-decision", "issue": "Recommends 'south-facing skylights with high solar heat gain coefficient (SHGC) glass' as the best NJ choice and prescribes sizing 'at 5-10% of the room's floor area' plus 'NJ ground snow loads (25-30 psf)' - unsourced design rules, and the high-SHGC advice cuts against the gold's Low-E warm-edge condensation guidance.", "fix": "Drop the SHGC/orientation prescription, the 5-10% floor-area rule, and the 25-30 psf snow-load figure (none are in the gold). Where glazing is discussed, cite VELUX America: Low-E warm-edge glass reduces (not eliminates) condensation. Anchor the decision on the engineered flashing kit matched to mounting type and roof covering, the 10-20-year service life, and curb-mounting for under-3:12 slopes (IRC R308.6.8)."},
+    {"articleId": "skylight-installation-repair-decision", "issue": "Claims timing replacement with a re-roof 'saves $500-1,000 per skylight in labor' - an invented dollar figure.", "fix": "Drop the dollar figure. The logical point (coordinating skylight work with the roof covering avoids redoing the penetration) can stand qualitatively; no per-skylight savings number is grounded."},
+    {"articleId": "skylight-installation-repair-decision", "issue": "Frames venting skylights via a 'chimney effect' and treats the manufacturer flashing kit as merely 'dramatically better than site-fabricated' without the gold's mounting/covering-match precision.", "fix": "Keep venting-vs-fixed as a real choice but ground the waterproofing point in VELUX America: the engineered flashing kit is matched to BOTH the mounting type and the roof covering and sheds water without caulk. Name the two mounting types (deck-mounted, curb-mounted) and the under-3:12 curb requirement (IRC R308.6.8)."},
+    {"articleId": "skylight-installation-repair-decision", "issue": "Implies NQR (or a generic installer) carries manufacturer certification by leaning on 'integrated flashing systems from major manufacturers' as a credential.", "fix": "Naming VELUX/Fakro as installed brands is fine; never assert 'VELUX certified' or 'Fakro certified' for NQR. NQR's credential is registered New Jersey Home Improvement Contractor."}
+  ],
+  "articleAngles": {
+    "signs": "Answer definitively that the top signs you need skylight installation or repair are water staining/dripping at the frame during rain (failed flashing - the leading cause, not the glass), fog or trapped moisture between the panes (failed insulated-glass seal), and cold-weather-only moisture that clears as humidity drops (condensation, not a leak). Strongest grounded facts: the leak-vs-condensation diagnostic cue (condensation tracks temp/humidity, a leak tracks rain/storms, per VELUX America); failed flashing is the leading cause per roofing trade consensus; 10-20-year service life per InterNACHI; the under-3:12 curb requirement (IRC R308.6.8); cracked/peeling caulk signals a sealant-only install that should be an engineered flashing kit.",
+    "costGuide": "Answer that skylight work in NJ runs (per HomeGuide) $1,600-$4,200 installed and $800-$2,400 for replacement, with leak repair $225-$800 - reseal $75-$250 and flashing repair $150-$500 (Angi; Modernize) - and that NQR gives a free written estimate. Cite ONLY those named ranges; carry no whole-project total, no tax credit, and no invented per-unit/per-opening pricing.",
+    "decision": "Answer the broad homeowner overview: a skylight lasts 10-20 years (InterNACHI), leaks come from failed flashing not the glass (roofing trade consensus), and a watertight install depends on an engineered VELUX/Fakro flashing kit matched to BOTH the mounting type and the roof covering (VELUX America). Cover the two mounting types (deck-mounted vs curb-mounted), the under-3:12 curb-at-least-4-inches rule (IRC R308.6.8), Low-E warm-edge glass to reduce condensation, the NJ permit framing (one-and-two-family ordinary maintenance vs commercial >25% area per N.J.A.C. 5:23-2.7), and what to verify: that the installer matches the flashing kit to brand/mounting/covering and that the manufacturer No-Leak warranty attaches only to a spec install."
+  }
+}

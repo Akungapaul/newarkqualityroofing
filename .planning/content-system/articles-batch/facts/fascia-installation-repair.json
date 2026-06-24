@@ -1,0 +1,173 @@
+{
+  "serviceId": "fascia-installation-repair",
+  "serviceTitle": "Fascia Installation & Repair",
+  "hasRealWholeProjectTotal": false,
+  "costRanges": [
+    {
+      "item": "Fascia repair / replacement (overall scope)",
+      "range": "Free written estimate priced by board length, material, and gutter remount (no fixed total)",
+      "source": "Newark Quality Roofing (gold pricing block)"
+    },
+    {
+      "item": "Cost driver — board length",
+      "range": "Priced by the linear footage of rotted board removed and replaced at the rafter-tail ends",
+      "source": "InterNACHI inspection guidance (per gold)"
+    },
+    {
+      "item": "Cost driver — material selection (4 options)",
+      "range": "Painted wood is the lowest first cost (carries a repaint cycle); PVC, aluminum cladding, and fiber-cement cost more upfront but trade off lower upkeep against moisture durability",
+      "source": "HB Elements trade guidance (per gold)"
+    },
+    {
+      "item": "Cost driver — gutter remount",
+      "range": "Adds to the fascia scope because the crew detaches and refastens the gutter run so the new board carries the water-filled-gutter load",
+      "source": "HB Elements trade guidance (per gold)"
+    },
+    {
+      "item": "Cost driver — hidden rafter-tail rot",
+      "range": "Adds cost when the fascia has soaked the rafter-tail ends, exposing additional repair once the board comes off",
+      "source": "InterNACHI inspection guidance (per gold)"
+    }
+  ],
+  "lifespans": [
+    {
+      "item": "Painted wood fascia (pine or cedar)",
+      "value": "roughly 15-25 years, with repainting on a cycle",
+      "source": "HB Elements trade guidance"
+    },
+    {
+      "item": "Aluminum fascia and soffit (bundled)",
+      "value": "20 to 40+ years",
+      "source": "InterNACHI life-expectancy chart"
+    },
+    {
+      "item": "PVC fascia",
+      "value": "resists moisture (no numeric lifespan in source — keep qualitative)",
+      "source": "HB Elements trade guidance"
+    },
+    {
+      "item": "Fiber-cement / composite fascia",
+      "value": "resists moisture and insects (no numeric lifespan in source — keep qualitative)",
+      "source": "HB Elements trade guidance"
+    }
+  ],
+  "signs": [
+    "Peeling or blistering paint along the fascia board — first surface sign of a failing fascia as moisture wicks through the board at the eaves (Ledegar Roofing)",
+    "Soft, spongy spots and discoloration in the fascia — water-driven rot inside the board (InterNACHI)",
+    "Cracks and flaking across the fascia surface — opens the board to further water entry and accelerates rot started at the gutter line (Ledegar Roofing)",
+    "Gutters sagging or pulling away from the roofline — fascia too weak to carry the gutter load (HB Elements)",
+    "Granule grit and standing water in overflowing gutters — a clog backing water against the fascia; gutter cleaning twice per year (spring and fall) limits the backup (Angi and GAF)",
+    "Daylight or a gap between the gutter back and the fascia — lets wind-driven rain reach the board directly, the loose-gutter failure mode that soaks the fascia from behind (InterNACHI)"
+  ],
+  "technicalFacts": [
+    {
+      "fact": "Fascia is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system; without solid fascia, gutters cannot stay attached.",
+      "source": "InterNACHI; Ledegar Roofing"
+    },
+    {
+      "fact": "Fascia rots most often from water: clogged and overflowing gutters back up and soak the board, and loose gutters leave a gap that lets water contact the fascia.",
+      "source": "InterNACHI inspection guidance"
+    },
+    {
+      "fact": "Water-filled gutters weigh roughly 5-7 pounds per linear foot, a load a weakened fascia cannot carry, so the gutters sag and pull away from the roofline.",
+      "source": "HB Elements trade guidance"
+    },
+    {
+      "fact": "Fascia is installed in 4 materials — painted wood, PVC, aluminum cladding, and fiber-cement — trading repaint upkeep against moisture durability.",
+      "source": "HB Elements trade guidance; InterNACHI life-expectancy chart"
+    },
+    {
+      "fact": "Repairing fascia begins by tracing the failure to its water source (a clogged gutter, a loose gutter, or a failed slope) before replacing the board, because fascia rot starts at the moisture path, not the board.",
+      "source": "InterNACHI inspection guidance"
+    },
+    {
+      "fact": "The drip edge is set at least 1/4 inch below the deck and fascia to direct runoff into the gutter rather than behind the board.",
+      "source": "International Residential Code R905.2.8.5"
+    },
+    {
+      "fact": "Fascia replacement detaches the gutter section first because the gutters mount to the fascia and the fascia closes the rafter-tail ends behind the gutter line; the crew then refastens the gutters to the sound board.",
+      "source": "InterNACHI inspection guidance"
+    },
+    {
+      "fact": "Gutter cleaning twice per year, spring and fall, is the maintenance cadence that keeps the clog-and-overflow rot from returning.",
+      "source": "Angi and GAF maintenance guidance"
+    }
+  ],
+  "codes": [
+    {
+      "code": "IRC R905.2.8.5",
+      "requirement": "Drip edge extends at least 2 in onto the deck and at least 1/4 in below the deck and fascia, fastened not more than 12 in O.C. with at least 2 in end laps; required at eaves and rakes — directs runoff into the gutter rather than behind the fascia board."
+    },
+    {
+      "code": "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)",
+      "requirement": "Repair or replacement of the roof covering and trim on a detached one- and two-family dwelling is ordinary maintenance requiring no construction permit, inspection, or notice to the construction official; on a commercial building, work beyond repair of more than 25% of total roof area in a 12-month period requires a permit."
+    }
+  ],
+  "namedSources": [
+    "InterNACHI",
+    "Ledegar Roofing",
+    "HB Elements",
+    "Angi",
+    "GAF",
+    "InterNACHI life-expectancy chart",
+    "International Residential Code (IRC R905.2.8.5)",
+    "NJ Uniform Construction Code (N.J.A.C. 5:23-2.7)"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "fascia-installation-repair-signs",
+      "issue": "'once moisture reaches bare wood, rot begins within one season' — invented, source-less timing claim.",
+      "fix": "Drop the season-timing claim; keep the grounded sequence: peeling/blistering paint is the first surface sign of moisture wicking through the board (Ledegar Roofing), progressing to soft, spongy spots and discoloration that confirm water-driven rot inside the board (InterNACHI)."
+    },
+    {
+      "articleId": "fascia-installation-repair-signs",
+      "issue": "'the weight of water and ice in NJ gutters accelerates the separation' — unsourced ice-weight embellishment.",
+      "fix": "State the grounded load: water-filled gutters weigh roughly 5-7 pounds per linear foot, a load a weakened fascia cannot carry, so gutters sag and pull away from the roofline (HB Elements)."
+    },
+    {
+      "articleId": "fascia-installation-repair-signs",
+      "issue": "'This hidden rot is the most common fascia failure pattern in Essex County' and pest/wasp 'particularly common in Essex County' — invented superlatives and unsourced geo-specific frequency/pest claims.",
+      "fix": "Remove 'most common in Essex County' superlative and the pest-entry section entirely (no source in gold/fact pack). Replace with the grounded hidden-failure cue: dark staining or soft wood behind the gutter line indicates fascia deteriorating out of sight, and a loose gutter leaves a gap that lets water contact the board (InterNACHI)."
+    },
+    {
+      "articleId": "fascia-installation-repair-cost-guide",
+      "issue": "Invented whole-project dollar totals with NO named source: '$200-600 per section', '$1,500 to $4,000 for wood / $2,000 to $5,000 aluminum wrap / $2,500 to $6,000 composite or PVC', and '200-280 linear feet' typical-home figure.",
+      "fix": "Gold has NO whole-project total and NO named aggregator — DELETE all fixed dollar ranges. Frame cost via a free written estimate priced by board length, material selection, and gutter remount (NQR gold pricing block); name the cost drivers from the gold pricing.factors."
+    },
+    {
+      "articleId": "fascia-installation-repair-cost-guide",
+      "issue": "Invented per-unit/savings dollar figures with no source: 'rafter tail repair adds $50-150 per rafter', 'saves 30-40% compared to standalone', 'combining the projects saves $500-1,500'.",
+      "fix": "Drop all dollar/percent figures. Keep grounded qualitative drivers: hidden rafter-tail rot adds cost once the board comes off (InterNACHI); combining fascia work with a re-roof or gutter job shares the eave access, but quantify only via the free estimate."
+    },
+    {
+      "articleId": "fascia-installation-repair-cost-guide",
+      "issue": "Material per-linear-foot prices ('$3-8', '$5-10', '$8-15 per linear foot') and 'PVC and composite ... maintenance-free performance for 25+ years' — invented per-foot pricing and a banned numeric PVC/composite lifespan.",
+      "fix": "Remove per-foot price points (no named source). Keep only the sourced lifespan: painted wood (pine/cedar) lasts roughly 15-25 years on a repaint cycle (HB Elements); aluminum fascia/soffit bundled at 20-40+ years (InterNACHI chart). Keep PVC/fiber-cement/composite durability QUALITATIVE (resists moisture / moisture and insects) — never '25+ years'."
+    },
+    {
+      "articleId": "fascia-installation-repair-cost-guide",
+      "issue": "'requires paint or stain maintenance every 3-5 years' — invented repaint interval (gold gives a ~15-25 year lifespan with a repaint 'cycle,' not a 3-5 year number).",
+      "fix": "State painted wood fascia lasts roughly 15-25 years and needs repainting on a cycle (HB Elements); do not assign a specific 3-5 year interval."
+    },
+    {
+      "articleId": "fascia-installation-repair-decision",
+      "issue": "'Composite and PVC fascia boards ... maintaining their appearance for 25+ years without painting' and 'maintenance-free' absolutes — banned numeric lifespan + maintenance-free absolute.",
+      "fix": "Replace with qualitative durability: PVC resists moisture; fiber-cement/composite resists moisture and insects (HB Elements). Cite numeric life only for painted wood (~15-25 yr, HB Elements) and the aluminum bundle (20-40+ yr, InterNACHI chart). Avoid 'maintenance-free.'"
+    },
+    {
+      "articleId": "fascia-installation-repair-decision",
+      "issue": "'NJ building code requires drip edge on all new roof installations' — vague code assertion without the section.",
+      "fix": "Cite the specific provision: the drip edge is set at least 1/4 inch below the deck and fascia to direct runoff into the gutter rather than behind the board, per IRC R905.2.8.5 (drip edge required at eaves and rakes, fastened not more than 12 in O.C.)."
+    },
+    {
+      "articleId": "fascia-installation-repair-decision",
+      "issue": "'painting every 3-5 years' / 'painting or staining every 3-5 years' repeated as the maintenance interval, plus unsourced 'North-facing fascia sections stay wetter longer and fail first.'",
+      "fix": "Use the sourced repaint framing (painted wood ~15-25 yr lifespan, repaint on a cycle — HB Elements). Drop the unsourced north-facing 'fail first' claim. Add the grounded ordinary-maintenance code point: roof-covering and trim repair on a one-/two-family home is ordinary maintenance needing no permit (N.J.A.C. 5:23-2.7)."
+    }
+  ],
+  "articleAngles": {
+    "signs": "Definitively answer that the signs you need fascia work are water-rot symptoms read at the eave: peeling/blistering paint (the first surface sign, per Ledegar Roofing), soft/spongy spots and discoloration confirming rot inside the board (InterNACHI), surface cracks and flaking, gutters sagging or pulling from the roofline because a water-filled gutter weighs ~5-7 lb/linear ft a weak board can't carry (HB Elements), and daylight/a gap behind the gutter that soaks the fascia from behind (InterNACHI). Strongest grounded facts: the 4 lead symptoms, the 5-7 lb/ft load, and the hidden-rot-behind-the-gutter cue.",
+    "costGuide": "Answer that there is NO fixed fascia price — cost is set by a free written estimate priced on board length, material selection, and gutter remount (NQR gold pricing block), so DELETE every invented dollar total. Cite only the sourced cost drivers: linear footage of rotted board (InterNACHI), the 4-material upkeep-vs-durability trade-off with painted wood the lowest first cost (HB Elements), the gutter remount carrying the ~5-7 lb/ft load (HB Elements), and hidden rafter-tail rot exposed once the board is off (InterNACHI). For durability, cite painted wood ~15-25 yr (HB Elements) and aluminum bundle 20-40+ yr (InterNACHI chart) only — keep PVC/fiber-cement qualitative.",
+    "decision": "Broad-overview answer: fascia is the board closing the rafter-tail ends and carrying the gutters (InterNACHI/Ledegar); it fails from water (clogged/loose gutters), so the fix traces the water source first, replaces the board in one of 4 materials, and remounts the gutters to the sound board. Key facts/codes to cover: the 4-material trade-off with sourced lifespans (painted wood ~15-25 yr / aluminum 20-40+ yr; PVC & fiber-cement qualitative), the drip-edge role at IRC R905.2.8.5, that fascia is replaced with gutters detached, the spring-and-fall gutter-cleaning cadence (Angi/GAF), and that one-/two-family roof-trim repair is ordinary maintenance with no permit (N.J.A.C. 5:23-2.7). Verification points: confirm the drip edge sits below the deck/fascia and the gutter line drains clear of the wall."
+  }
+}

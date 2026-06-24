@@ -1,38 +1,26 @@
-// Articles Batch — full-page screenshots + render checks for the 27 residential-roof-types articles.
+// Articles Batch — full-page screenshots + render checks for the 30 components-specialty articles.
 // Articles render their full content (directAnswer/ArticleBody) at root /<slug>.
 // Run: NODE_PATH=/opt/homebrew/lib/node_modules PORT=3240 node .planning/content-system/articles-batch/shots.js
 const { chromium } = require('playwright');
 const PORT = process.env.PORT || 3240;
-const SLUGS = [
-  'residential-roof-installation-warning-signs-nj',
-  'how-much-does-residential-roof-installation-cost-in-nj',
-  'residential-roof-installation-pros-and-cons-nj-homeowners',
-  'asphalt-shingle-roofing-warning-signs-nj',
-  'how-much-does-asphalt-shingle-roofing-cost-in-nj',
-  'asphalt-shingle-roofing-pros-and-cons-nj-homeowners',
-  'slate-roof-installation-repair-warning-signs-nj',
-  'how-much-does-slate-roof-installation-repair-cost-in-nj',
-  'slate-roof-installation-repair-pros-and-cons-nj-homeowners',
-  'wood-shake-roofing-warning-signs-nj',
-  'how-much-does-wood-shake-roofing-cost-in-nj',
-  'wood-shake-roofing-pros-and-cons-nj-homeowners',
-  'metal-roof-installation-repair-warning-signs-nj',
-  'how-much-does-metal-roof-installation-repair-cost-in-nj',
-  'metal-roof-installation-repair-pros-and-cons-nj-homeowners',
-  'flat-roof-installation-repair-warning-signs-nj',
-  'how-much-does-flat-roof-installation-repair-cost-in-nj',
-  'flat-roof-installation-repair-pros-and-cons-nj-homeowners',
-  'tile-roof-installation-repair-warning-signs-nj',
-  'how-much-does-tile-roof-installation-repair-cost-in-nj',
-  'tile-roof-installation-repair-pros-and-cons-nj-homeowners',
-  'cedar-shake-roofing-warning-signs-nj',
-  'how-much-does-cedar-shake-roofing-cost-in-nj',
-  'cedar-shake-roofing-pros-and-cons-nj-homeowners',
-  'rubber-roofing-epdm-warning-signs-nj',
-  'how-much-does-rubber-roofing-epdm-cost-in-nj',
-  'rubber-roofing-epdm-pros-and-cons-nj-homeowners',
+const SERVICES = [
+  'roof-flashing-installation-repair',
+  'chimney-flashing-repair',
+  'gutter-installation-repair',
+  'gutter-guard-installation',
+  'skylight-installation-repair',
+  'fascia-installation-repair',
+  'soffit-installation-repair',
+  'roof-vent-installation-repair',
+  'roof-waterproofing',
+  'roof-deck-repair-replacement',
 ];
-const DEFAB = /GAF[-\s]?certified|same-?day|24\s*\/\s*7|0\s*%\s*financing|top-?rated|master[-\s]elite|HAAG|500\+|licensed/i;
+const SLUGS = SERVICES.flatMap((id) => [
+  `when-to-replace-${id}-nj`,
+  `how-much-does-${id}-cost-in-nj`,
+  `${id}-complete-homeowner-guide-nj`,
+]);
+const DEFAB = /GAF[-\s]?certified|same-?day|24\s*\/\s*7|0\s*%\s*financing|top-?rated|master[-\s]elite|HAAG|500\+|velux[-\s]?certified/i;
 (async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1280, height: 1000 } });
