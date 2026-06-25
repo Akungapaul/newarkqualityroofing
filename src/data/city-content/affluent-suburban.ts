@@ -8,7 +8,7 @@ export const affluentSuburbanContent: CityContent[] = [
 {
   cityId: 'livingston',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Livingston, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's split-levels, ranches, and colonials and its Route 10 commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Livingston, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor servicing asphalt, slate, metal, and flat membrane roofs across the township and Essex County. The work covers the township's split-levels, ranches, and colonials and its Route 10 commercial buildings, and Newark Quality Roofing carries full insurance as a roofing contractor.`,
   whereIs:
     `**Livingston, New Jersey** is a large township in **Essex County** whose western edge runs along the Passaic River and the West Essex Park greenway, bordered by Roseland, West Orange, Millburn, and the Morris County line. Our roofing crews serve its post-war split-levels, ranches, and Route 10 commercial corridor.`,
   heroHeadline: `Roofing in Livingston, NJ`,
@@ -206,7 +206,7 @@ export const affluentSuburbanContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Livingston, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Livingston, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Livingston and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
@@ -221,7 +221,7 @@ export const affluentSuburbanContent: CityContent[] = [
 {
   cityId: 'millburn',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Millburn, New Jersey**, and **Essex County**, repairing and replacing natural slate, copper, tile, and asphalt roofs on the township's Short Hills estates, Tudor and Arts-and-Crafts homes, and downtown buildings as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Millburn, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor servicing natural slate, copper, tile, and asphalt roofs across the township and Essex County. The work covers the township's Short Hills estates, Tudor and Arts-and-Crafts homes, and downtown buildings, and Newark Quality Roofing carries full insurance as a roofing contractor.`,
   whereIs:
     `**Millburn, New Jersey** is a township in **Essex County** that includes the Short Hills section and abuts the South Mountain Reservation in the wooded Watchung foothills, with its downtown village set on the Rahway River. Our roofing crews serve its slate, copper, and tile estate roofs and downtown buildings.`,
   heroHeadline: `Roofing in Millburn, NJ`,
@@ -404,7 +404,7 @@ export const affluentSuburbanContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Millburn, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Millburn, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces slate, copper, tile, and asphalt roofs in Millburn and Short Hills, Essex County. NJ HIC registered. Free estimate.`,
   pricing: {

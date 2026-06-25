@@ -12,7 +12,7 @@ const TOP_SERVICES = [
 ] as const;
 
 const TOP_CITIES = [
-  { name: 'Newark', slug: 'newark' },
+  // Newark omitted — its combos are consolidated (301) into the service pages (Option 3).
   { name: 'Bloomfield', slug: 'bloomfield' },
   { name: 'Montclair', slug: 'montclair' },
   { name: 'East Orange', slug: 'east-orange' },

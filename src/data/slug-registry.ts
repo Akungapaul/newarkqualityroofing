@@ -32,7 +32,7 @@ function buildRegistry(): Map<string, SlugEntry> {
     });
   }
 
-  // Cities (21) -- use "roofing-in-{city}-nj" pattern to avoid collisions
+  // Cities (21) -- use "roof-repair-and-installation-in-{city}-nj" pattern to avoid collisions
   for (const city of cities) {
     register({
       slug: generateCityPageSlug(city.slug),

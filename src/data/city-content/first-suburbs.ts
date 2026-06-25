@@ -9,7 +9,7 @@ export const firstSuburbsContent: CityContent[] = [
 {
   cityId: 'bloomfield',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Bloomfield, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on pre-war Colonials, two-family homes, garden apartments, and commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Bloomfield, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor, insured, repairing and replacing asphalt, slate, metal, and flat membrane roofs across Bloomfield and Essex County. The crews work pre-war Colonials, two-family homes, garden apartments, and commercial buildings, where about 65% of housing predates 1950, per the Bloomfield Housing Element and Fair Share Plan.`,
   whereIs:
     `**Bloomfield, New Jersey** is a township in **Essex County** north of Newark, with the Third River running past its town center and the Garden State Parkway threading through its commercial spine. Bordering Montclair, Glen Ridge, Belleville, Nutley, and Newark, it sits within the suburban ring our roofing crews serve.`,
   heroHeadline: `Roofing in Bloomfield, NJ`,
@@ -177,7 +177,7 @@ export const firstSuburbsContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Bloomfield, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Bloomfield, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Bloomfield and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
@@ -192,7 +192,7 @@ export const firstSuburbsContent: CityContent[] = [
 {
   cityId: 'belleville',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Belleville, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on one- and two-family homes, multi-family buildings, and commercial properties as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Belleville, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor, insured, repairing and replacing asphalt, slate, metal, and flat membrane roofs across Belleville and Essex County. The crews work one- and two-family homes, multi-family buildings, and commercial properties, where roughly 51% of housing units sit in 2-or-more-unit structures, per ACS estimates via the U.S. Census Bureau.`,
   whereIs:
     `**Belleville, New Jersey** is a township in **Essex County** bounded by the Second River along its southwest edge with Newark and the Passaic River on its eastern side. It sits on the Passaic's west bank opposite North Arlington and Lyndhurst, with Branch Brook Park extending into the streets our roofing crews serve.`,
   heroHeadline: `Roofing in Belleville, NJ`,
@@ -365,7 +365,7 @@ export const firstSuburbsContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Belleville, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Belleville, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Belleville and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
@@ -380,7 +380,7 @@ export const firstSuburbsContent: CityContent[] = [
 {
   cityId: 'nutley',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Nutley, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's owner-occupied single-family homes and Franklin Avenue commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Nutley, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor, insured, repairing and replacing asphalt, slate, metal, and flat membrane roofs across Nutley and Essex County. The crews work the township's owner-occupied single-family homes and Franklin Avenue commercial buildings, clearing the valley and gutter debris that Nutley's heavily tree-lined streets and nine public parks drop onto roofs.`,
   whereIs:
     `**Nutley, New Jersey** is a township in **Essex County** roughly eleven miles west of Manhattan, with the Third River — also called the Yantacaw — winding through its parks and the Passaic River forming its western boundary. Our roofing crews serve its tree-lined residential sections and Franklin Avenue corridor.`,
   heroHeadline: `Roofing in Nutley, NJ`,
@@ -553,7 +553,7 @@ export const firstSuburbsContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Nutley, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Nutley, NJ`,
   metaDescription:
     `Roofing in Nutley, NJ. Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs on homes and commercial buildings. Free estimate.`,
   pricing: {
@@ -568,7 +568,7 @@ export const firstSuburbsContent: CityContent[] = [
 {
   cityId: 'maplewood',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Maplewood, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's architect-designed early-20th-century homes and Village storefronts as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Maplewood, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor, insured, repairing and replacing asphalt, slate, metal, and flat membrane roofs across Maplewood and Essex County. The crews work the township's architect-designed early-20th-century Tudor, Colonial Revival, and Italian Revival homes and Village storefronts, across a 74.9% owner-occupied township, per the U.S. Census Bureau.`,
   whereIs:
     `**Maplewood, New Jersey** is a township in **Essex County** set between the First and Second Watchung ridges, where the South Mountain Reservation reaches into its wooded western edge. Its architect-designed early-20th-century homes and the Maplewood Village commercial core sit on the rail line our roofing crews serve.`,
   heroHeadline: `Roofing in Maplewood, NJ`,
@@ -741,7 +741,7 @@ export const firstSuburbsContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Maplewood, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Maplewood, NJ`,
   metaDescription:
     `Roofing in Maplewood, NJ: repair and replacement for architect-designed homes, slate restoration, and Village roofs. NJ HIC registered, insured. Free quote.`,
   pricing: {
@@ -756,7 +756,7 @@ export const firstSuburbsContent: CityContent[] = [
 {
   cityId: 'south-orange',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **South Orange, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the Village's large Victorians, Colonials, and Tudors as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in South Orange, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor, insured, repairing and replacing asphalt, slate, metal, and flat membrane roofs across South Orange and Essex County. The crews work the Village's large Victorians, Colonials, and Tudors, where over half the housing stock predates 1940, per the Township planning evaluation.`,
   whereIs:
     `**South Orange, New Jersey** — officially the Township of South Orange Village — sits in **Essex County** along the eastern edge of the South Mountain Reservation, with the East Branch of the Rahway River running through the village. Seton Hall University and the Montrose Park historic district anchor the streets our roofing crews serve.`,
   heroHeadline: `Roofing in South Orange, NJ`,
@@ -939,7 +939,7 @@ export const firstSuburbsContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in South Orange, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in South Orange, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across South Orange and Essex County. NJ HIC registered, insured. Free quote.`,
   pricing: {

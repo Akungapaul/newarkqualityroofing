@@ -35,15 +35,11 @@ export function buildComboTitle(service: Service, city: City): string {
   return candidates.find((title) => title.length <= 60) ?? cap(`${service.name} ${city.name} NJ`, 60);
 }
 
-/** City page title with compact fallback for longer municipality names. */
+/** City page title — re-targeted onto the two money keywords (repair + installation). */
 export function buildCityTitle(city: City): string {
-  const candidates = [
-    `Roofing Services in ${city.name}, NJ | Newark Quality Roofing`,
-    `Roofing Services in ${city.name}, NJ | NQR`,
-    `Roofing Services ${city.name} NJ | NQR`,
-  ];
-
-  return candidates.find((title) => title.length <= 60) ?? cap(`Roofing Services ${city.name} NJ`, 60);
+  // "Roof Repair and Installation in {City}, NJ" — longest NJ municipality name
+  // keeps this <=60 chars (North Caldwell => 50). Matches the city H1 verbatim.
+  return `Roof Repair and Installation in ${city.name}, NJ`;
 }
 
 // ─── Combo Descriptions ─────────────────────────────────────────────────────

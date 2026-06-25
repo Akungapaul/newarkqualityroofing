@@ -4,6 +4,7 @@ import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { comparisons } from '@/data/comparisons';
 import { generateCityPageSlug, generateComboSlug } from '@/lib/slug-utils';
+import { isKeep } from '@/data/url-classification';
 import { siteConfig } from '@/config/site-config';
 
 // ─── Curated residential services for footer ────────────────────────────────
@@ -240,7 +241,9 @@ export function Footer() {
               Popular Services by City
             </span>
             <ul className="space-y-0.5">
-              {footerComboLinks.map((combo) => {
+              {footerComboLinks
+                .filter((combo) => isKeep(generateComboSlug(combo.serviceSlug, combo.citySlug)))
+                .map((combo) => {
                 const slug = generateComboSlug(combo.serviceSlug, combo.citySlug);
                 return (
                   <li key={slug}>

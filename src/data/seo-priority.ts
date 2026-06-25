@@ -37,18 +37,20 @@ export const PRIORITY_CITY_IDS = [
 // Hand-curated priority intent, keyed serviceId:cityId. This is the WISH list;
 // the exported PRIORITY_COMBO_PAIRS below is reconciled against the 1197 KEEP set
 // (D-08) so no CONSOLIDATE/301 (or any future NOINDEX) combo can ever be priority-boosted.
+// Newark combos are consolidated (301) into the service pages (Option 3), so the
+// priority combos target the next-tier Essex County cities (all KEEP-INDEX).
 const RAW_PRIORITY_COMBO_PAIRS = [
-  'roof-repair:newark',
-  'roof-leak-repair:newark',
-  'emergency-roof-repair:newark',
-  'roof-replacement:newark',
-  'flat-roof-installation-repair:newark',
-  'commercial-roof-repair:newark',
-  'commercial-roof-installation:newark',
+  'roof-repair:east-orange',
+  'roof-leak-repair:montclair',
+  'emergency-roof-repair:irvington',
+  'roof-replacement:bloomfield',
+  'flat-roof-installation-repair:east-orange',
+  'commercial-roof-repair:bloomfield',
+  'commercial-roof-installation:montclair',
   'gutter-guard-installation:belleville',
-  'green-roof-installation:newark',
-  'modified-bitumen-roofing:newark',
-  'built-up-roofing:newark',
+  'green-roof-installation:montclair',
+  'modified-bitumen-roofing:east-orange',
+  'storm-damage-roof-repair:irvington',
 ] as const;
 
 /**

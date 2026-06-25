@@ -11,7 +11,7 @@ export const urbanCoreContent: CityContent[] = [
 {
   cityId: 'newark',
   directAnswer:
-    'Newark Quality Roofing is a **roofing contractor** serving **Newark, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on homes, multi-family buildings, and commercial properties as a registered New Jersey Home Improvement Contractor.',
+    '**Roof repair and installation in Newark, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor servicing asphalt, slate, metal, and flat membrane roofs across the city. The insured crew works homes, multi-family buildings, and commercial properties throughout Newark and Essex County.',
   whereIs:
     '**Newark, New Jersey** is the state\'s largest city and the seat of **Essex County**, set along the Passaic River at the western edge of the New York metropolitan area. It anchors the dense urban core our roofing crews serve.',
   heroHeadline: 'Roofing in Newark, NJ',
@@ -184,7 +184,7 @@ export const urbanCoreContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: 'Roofing in Newark, NJ | Newark Quality Roofing',
+  metaTitle: 'Roof Repair and Installation in Newark, NJ',
   metaDescription:
     'Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Newark and Essex County. NJ HIC registered, insured. Free estimate.',
   pricing: {
@@ -200,7 +200,7 @@ export const urbanCoreContent: CityContent[] = [
 {
   cityId: 'east-orange',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **East Orange, New Jersey**, and **Essex County**, repairing and replacing asphalt, flat-membrane, and multi-family roofs as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in East Orange, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor servicing asphalt, flat-membrane, and multi-family roofs. The insured crew works homes, apartment buildings, and commercial roofs across East Orange and Essex County.`,
   whereIs:
     `**East Orange, New Jersey** is a densely built inner-ring suburb of Newark in **Essex County**, set on the flat Watsessing plain immediately west of the city. Its tree-lined residential streets and two NJ Transit rail stops sit within the urban core our roofing crews serve.`,
   heroHeadline: `Roofing Services in East Orange, NJ`,
@@ -371,7 +371,7 @@ export const urbanCoreContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `East Orange Roofing | Repair & Replacement | NQR`,
+  metaTitle: `Roof Repair and Installation in East Orange, NJ`,
   metaDescription: `Newark Quality Roofing serves East Orange, NJ with roof repair, replacement, and flat-membrane work for homes, multi-family, and commercial roofs. Free quote.`,
   pricing: {
     averageRepair: '$400–$1,000',
@@ -385,7 +385,7 @@ export const urbanCoreContent: CityContent[] = [
 {
   cityId: 'orange',
   directAnswer:
-    'Newark Quality Roofing is a **roofing contractor** serving **Orange, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the city\'s older homes and Main Street commercial buildings as a registered New Jersey Home Improvement Contractor.',
+    '**Roof repair and installation in Orange, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor servicing asphalt, slate, metal, and flat membrane roofs. The insured crew works the city\'s older homes and Main Street commercial buildings across the City of Orange Township and Essex County.',
   whereIs:
     `**Orange, New Jersey** — officially the City of Orange Township — sits at the eastern foot of the First Watchung ridge in **Essex County**, bordering West Orange to its west. Interstate 280 crosses the city, whose older homes and Main Street commercial corridor our roofing crews serve.`,
   heroHeadline: 'Roofing Services in Orange, NJ',
@@ -563,7 +563,7 @@ export const urbanCoreContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: 'Roofing Services in Orange, NJ | Newark Quality Roofing',
+  metaTitle: 'Roof Repair and Installation in Orange, NJ',
   metaDescription:
     'Roofing in Orange, NJ: repair and replacement for older homes, slate restoration, and Main Street flat roofs. NJ HIC registered, insured. Free written estimate.',
   pricing: {
@@ -582,7 +582,7 @@ export const urbanCoreContent: CityContent[] = [
 {
   cityId: 'irvington',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Irvington, New Jersey**, and **Essex County**, repairing and replacing asphalt, flat-membrane, and metal roofs on Irvington homes, 2-3-family rentals, and commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Irvington, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor servicing asphalt, flat-membrane, and metal roofs. The insured crew works Irvington homes, 2-3-family rentals, and commercial buildings across the township and Essex County.`,
   whereIs:
     `**Irvington, New Jersey** is a small, dense township in **Essex County** directly southwest of Newark, one of the state's most heavily settled municipalities, with the Springfield Avenue corridor running through it from Newark toward Union County. Our roofing crews serve its homes, 2-3-family rentals, and commercial buildings.`,
   heroHeadline: `Roofing in Irvington, NJ`,
@@ -752,7 +752,7 @@ export const urbanCoreContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Irvington, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Irvington, NJ`,
   metaDescription:
     `Roofing in Irvington, NJ. Newark Quality Roofing repairs and replaces asphalt, flat-membrane, and metal roofs on homes and commercial buildings. Free estimate.`,
   pricing: {

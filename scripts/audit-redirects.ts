@@ -3,7 +3,7 @@
  *
  * Build-fail validator (model: validate-flat-urls.ts) for the indexation
  * redirect set. Asserts:
- *   1. The generated redirect set = 168 combo + 0 legacy = 168 entries, all
+ *   1. The generated redirect set = 225 combo + 0 legacy = 225 entries, all
  *      sources unique (no duplicate `source`).
  *   2. Every redirect destination is root-relative (starts with `/`).
  *   3. No chains: every COMBO redirect destination is a KEEP combo slug
@@ -28,10 +28,12 @@ type Redirect = { source: string; destination: string; permanent: boolean };
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
-// Expected locked counts (D-05): 168 combo + 0 legacy = 168 generated 301s.
-// (The 8 replacement-cause hub redirects were un-redirected in Batch 8 — they are
-// now KEEP-INDEX pages with unique answer-first content, so 0 legacy redirects remain.)
-const EXPECT = { combo: 168, legacy: 0, total: 168 } as const;
+// Expected locked counts: 225 combo + 0 legacy = 225 generated 301s.
+// (168 prior combo redirects + 57 Newark combos consolidated into their service
+// pages [Option 3, kills the service↔Newark-combo cannibalization]; the 8 Newark
+// replacement-cause combos that were already redirects are re-pointed to their
+// own service pages, so the combo total rises 168 -> 225, legacy stays 0.)
+const EXPECT = { combo: 225, legacy: 0, total: 225 } as const;
 
 function main() {
   console.log('='.repeat(72));
@@ -61,15 +63,18 @@ function main() {
     }
   }
 
-  // ── 4. Combo redirects (168): unique sources + targets ⊆ keep (no chains) ─────
+  // ── 4. Combo redirects (225): unique sources + targets ⊆ keep (no chains) ─────
   const comboRedirects = getComboRedirects(); // [{ source: '/x', destination: '/y', permanent: true }]
   if (comboRedirects.length !== EXPECT.combo) {
     errors.push(`Combo redirect count: expected ${EXPECT.combo}, got ${comboRedirects.length}`);
   }
   for (const r of comboRedirects) {
     const targetSlug = r.destination.replace(/^\//, '');
-    if (!isKeep(targetSlug)) {
-      errors.push(`Combo redirect target NOT in keep set (chain risk): ${r.source} -> ${r.destination}`);
+    // A valid combo-redirect target is an indexable combo OR a registered non-combo
+    // keep page (e.g. a Service hub — the 57 Newark combos consolidate into their
+    // service pages under Option 3). The no-chain guarantee is the isRedirect check below.
+    if (!isKeep(targetSlug) && !getPageDataBySlug(targetSlug)) {
+      errors.push(`Combo redirect target not a keep combo or registered page: ${r.source} -> ${r.destination}`);
     }
     // A keep target must never itself be a redirect source.
     if (isRedirect(targetSlug)) {
@@ -127,7 +132,7 @@ function main() {
     process.exit(1);
   }
 
-  console.log('Redirect pipeline valid: 168 combo + 0 legacy unique sources, targets ⊆ keep (no chains),');
+  console.log('Redirect pipeline valid: 225 combo + 0 legacy unique sources, targets ⊆ keep (no chains),');
   console.log('flat-roof + www + hub migrations preserved. PASS');
   process.exit(0);
 }

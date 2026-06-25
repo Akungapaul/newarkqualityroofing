@@ -8,7 +8,7 @@ export const caldwellsRoselandContent: CityContent[] = [
 {
   cityId: 'caldwell',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Caldwell, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the borough's Victorian-era and Colonial Revival homes, Capes, ranches, and Bloomfield Avenue downtown buildings as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Caldwell, NJ** covers asphalt, slate, metal, and flat membrane roofs on the borough's Victorian-era and Colonial Revival homes, Capes, ranches, and Bloomfield Avenue downtown buildings. Newark Quality Roofing serves Caldwell and Essex County as a registered, insured New Jersey Home Improvement Contractor and roofing contractor.`,
   whereIs:
     `**Caldwell, New Jersey** is a compact borough in the far-western uplands of **Essex County**, bordered by North Caldwell, West Caldwell, and Essex Fells, with a walkable Bloomfield Avenue downtown and Caldwell University at its center. Its older homes and downtown storefronts are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in Caldwell, NJ`,
@@ -181,7 +181,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Caldwell, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Caldwell, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Caldwell and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
@@ -196,7 +196,7 @@ export const caldwellsRoselandContent: CityContent[] = [
 {
   cityId: 'north-caldwell',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **North Caldwell, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the borough's custom colonials, contemporaries, and Tudors as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in North Caldwell, NJ** covers asphalt, slate, metal, and flat membrane roofs on the borough's custom colonials, contemporaries, and Tudors on large wooded lots near the Hilltop Reservation. Newark Quality Roofing serves North Caldwell and Essex County as a registered, insured New Jersey Home Improvement Contractor.`,
   whereIs:
     `**North Caldwell, New Jersey** is a wooded, large-lot residential borough in the far-western uplands of **Essex County**, rising onto the Second Watchung ridge that holds the Hilltop Reservation and the highest ground in the county. Its custom homes on large lots are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in North Caldwell, NJ`,
@@ -379,7 +379,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in North Caldwell, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in North Caldwell, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs in North Caldwell and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
@@ -394,7 +394,7 @@ export const caldwellsRoselandContent: CityContent[] = [
 {
   cityId: 'essex-fells',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Essex Fells, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the borough's large-lot custom single-family homes as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Essex Fells, NJ** covers asphalt, slate, metal, and flat membrane roofs on the borough's large-lot custom single-family homes under a mature tree canopy. Newark Quality Roofing serves Essex Fells, the smallest municipality in Essex County, as a registered, insured New Jersey Home Improvement Contractor.`,
   whereIs:
     `**Essex Fells, New Jersey** is the smallest municipality in **Essex County**, a compact borough laid out as the planned, hilly Bowditch residential community in the far-western uplands. Its large-lot custom homes under a mature tree canopy are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in Essex Fells, NJ`,
@@ -567,7 +567,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Essex Fells, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Essex Fells, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Essex Fells and Essex County. NJ HIC registered, insured. Free quote.`,
   pricing: {
@@ -582,7 +582,7 @@ export const caldwellsRoselandContent: CityContent[] = [
 {
   cityId: 'fairfield',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Fairfield, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's colonials, split-levels, and Route 46 and I-80 commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Fairfield, NJ** covers asphalt, slate, metal, and flat membrane roofs on the township's colonials, split-levels, and Route 46 and I-80 commercial buildings. Set in the Passaic River floodplain, Fairfield receives this work from Newark Quality Roofing, a registered, insured New Jersey Home Improvement Contractor serving Essex County.`,
   whereIs:
     `**Fairfield, New Jersey** is a township in the northwest corner of **Essex County**, the area's defining Passaic River floodplain community, set on low-lying ground downstream of the Passaic-Pompton confluence beside the Route 46 and I-80 commercial corridor. Our roofing crews serve its homes and flat-roofed commercial buildings.`,
   heroHeadline: `Roofing in Fairfield, NJ`,
@@ -765,7 +765,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Fairfield, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Fairfield, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Fairfield and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
@@ -780,7 +780,7 @@ export const caldwellsRoselandContent: CityContent[] = [
 {
   cityId: 'roseland',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Roseland, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the borough's postwar colonials, ranches, and split-levels and its office-park buildings as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Roseland, NJ** covers asphalt, slate, metal, and flat membrane roofs on the borough's postwar colonials, ranches, and split-levels and its Eisenhower Parkway office-park buildings. Newark Quality Roofing serves Roseland and Essex County as a registered, insured New Jersey Home Improvement Contractor and roofing contractor.`,
   whereIs:
     `**Roseland, New Jersey** is a far-western borough in **Essex County** where the Passaic River forms its western boundary with Morris County, mixing established residential streets with the Eisenhower Parkway office-park corridor. Its postwar homes and office-park flat roofs are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in Roseland, NJ`,
@@ -958,7 +958,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Roseland, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Roseland, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Roseland and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {

@@ -20,10 +20,11 @@ export function generateComboSlug(serviceSlug: string, citySlug: string): string
 }
 
 /**
- * Generate a city landing page slug: roofing-in-{city-slug}-nj
- * This pattern avoids collision with service page slugs.
- * Example: "newark" => "roofing-in-newark-nj"
+ * Generate a city landing page slug: roof-repair-and-installation-in-{city-slug}-nj
+ * Re-targeted onto the two money keywords (repair + installation). Still avoids
+ * collision with service page slugs and the combo "{service}-{city}-nj" pattern.
+ * Example: "newark" => "roof-repair-and-installation-in-newark-nj"
  */
 export function generateCityPageSlug(citySlug: string): string {
-  return `roofing-in-${citySlug}-nj`;
+  return `roof-repair-and-installation-in-${citySlug}-nj`;
 }

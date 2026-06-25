@@ -105,7 +105,11 @@ function staticPass(errors: string[]): void {
     ...Object.entries(H.core).map(([k, v]) => [`core.${k}.h1`, v] as [string, string]),
     ...Object.entries(H.hub).map(([k, v]) => [`hub.${k}.h1`, v] as [string, string]),
   ];
+  // The city H1 is the one intentional declarative H1 ("Roof Repair and Installation
+  // in {City}, NJ") — a scoped, keyword-led exception to the question-form rule.
+  const CITY_DECLARATIVE_H1 = new Set(['city.h1']);
   for (const [name, str] of configStrings) {
+    if (CITY_DECLARATIVE_H1.has(name)) continue;
     if (!isQuestion(str)) errors.push(`STATIC config heading not a question (${name}): "${str}"`);
   }
 
@@ -163,6 +167,7 @@ interface RenderedSample {
   file: string; // relative to .next/server/app
   coreH2?: string; // expected first <h2> after hero (full templates only)
   kind: SampleKind;
+  declarativeH1?: boolean; // city template: H1 is declarative, exempt from the question-form rule
 }
 
 const H = HEADING_CONFIG;
@@ -233,16 +238,19 @@ function buildSampleSet(): RenderedSample[] {
     },
     {
       label: 'city (newark)',
-      file: 'roofing-in-newark-nj.html',
+      file: 'roof-repair-and-installation-in-newark-nj.html',
       coreH2: cityHasWhereIs('newark') ? H.city.whereIsH2(newarkName) : H.city.coreH2(newarkName),
       kind: 'full',
+      declarativeH1: true, // "Roof Repair and Installation in Newark, NJ" — not a question
     },
     {
-      label: 'keep combo (roof-repair/newark)',
-      file: 'roof-repair-newark-nj.html',
-      coreH2: comboHasDefinition('roof-repair', 'newark')
+      // Newark combos are 301-redirected into the service pages (Option 3), so they
+      // are no longer prerendered — use a keep combo from another city.
+      label: 'keep combo (roof-repair/belleville)',
+      file: 'roof-repair-belleville-nj.html',
+      coreH2: comboHasDefinition('roof-repair', 'belleville')
         ? H.combo.definitionH2(repairName)
-        : H.combo.coreH2(repairName, newarkName),
+        : H.combo.coreH2(repairName, keepComboCity),
       kind: 'full',
     },
     {
@@ -283,7 +291,7 @@ function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
   const h1 = h1s[0];
   if (h1) {
     // ── H1 is a question ──────────────────────────────────────────────────────
-    if (!isQuestion(h1.text)) errors.push(`${tag} H1 not a question → "${h1.text.trim()}"`);
+    if (!sample.declarativeH1 && !isQuestion(h1.text)) errors.push(`${tag} H1 not a question → "${h1.text.trim()}"`);
     // ── H1 has zero element children (no <br>/<span> split) ───────────────────
     if (hasElementChildren(h1)) {
       errors.push(`${tag} H1 has element children (<br>/<span> split): "${h1.text.trim()}"`);
@@ -299,7 +307,7 @@ function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
       errors.push(`${tag} forbidden <${h.tagName.toLowerCase()}> inside nav/footer/button/label: "${text}"`);
       continue; // do not let a nav heading drive level-order
     }
-    if (!isQuestion(text)) {
+    if (!isQuestion(text) && !(sample.declarativeH1 && h.tagName === 'H1')) {
       errors.push(`${tag} <${h.tagName.toLowerCase()}> not a question → "${text}"`);
     }
     const level = Number(h.tagName[1]);

@@ -8,7 +8,7 @@ export const westEssexContent: CityContent[] = [
 {
   cityId: 'west-orange',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **West Orange, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on capes, ranches, hillside Colonials, Tudors, and Llewellyn Park estate homes as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in West Orange, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor and insured roofing contractor serving Essex County. The crew repairs and replaces asphalt, slate, metal, and flat membrane roofs on the township's valley capes, ranches, hillside Colonials, Tudors, and Llewellyn Park estate homes.`,
   whereIs:
     `**West Orange, New Jersey** is a township in **Essex County** straddling the First Watchung (Orange Mountain) ridge and containing the South Mountain Reservation along with part of Eagle Rock Reservation. Its valley and hillside neighborhoods form the terrain our roofing crews serve.`,
   heroHeadline: `Roofing in West Orange, NJ`,
@@ -186,7 +186,7 @@ export const westEssexContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in West Orange, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in West Orange, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across West Orange and Essex County. NJ HIC registered, insured. Free quote.`,
   pricing: {
@@ -201,7 +201,7 @@ export const westEssexContent: CityContent[] = [
 {
   cityId: 'montclair',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Montclair, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's Victorian, Tudor, and Colonial Revival homes and commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Montclair, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor and insured roofing contractor serving Essex County. The crew repairs and replaces asphalt, slate, metal, and flat membrane roofs on the township's Victorian, Tudor, and Colonial Revival homes and commercial buildings.`,
   whereIs:
     `**Montclair, New Jersey** is a township in **Essex County** on the eastern slope of the First Watchung Mountain, where higher elevations open to New York City skyline views. It holds parts of the Eagle Rock and Mills reservations, and its tree-lined streets of Victorian and Tudor homes are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in Montclair, NJ`,
@@ -384,7 +384,7 @@ export const westEssexContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Montclair, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Montclair, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Montclair and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
@@ -399,7 +399,7 @@ export const westEssexContent: CityContent[] = [
 {
   cityId: 'glen-ridge',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Glen Ridge, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the borough's pre-WWII Victorian, Colonial Revival, and Tudor homes as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Glen Ridge, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor and insured roofing contractor serving Essex County. The crew repairs and replaces asphalt, slate, metal, and flat membrane roofs on the borough's pre-WWII Victorian, Colonial Revival, and Tudor homes.`,
   whereIs:
     `**Glen Ridge, New Jersey** is a small, landlocked lowland borough in **Essex County**, bordered by Montclair to its west, Bloomfield, and East Orange, and named for the wooded glen where Toney's Brook runs. Its tree-canopied streets of pre-war homes are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in Glen Ridge, NJ`,
@@ -572,7 +572,7 @@ export const westEssexContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Glen Ridge, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Glen Ridge, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Glen Ridge and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
@@ -587,7 +587,7 @@ export const westEssexContent: CityContent[] = [
 {
   cityId: 'verona',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Verona, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on pre-war Colonials, postwar Capes and ranches, and split-levels as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Verona, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor and insured roofing contractor serving Essex County. The crew repairs and replaces asphalt, slate, metal, and flat membrane roofs on the township's pre-war Colonials, postwar Capes and ranches, and split-levels.`,
   whereIs:
     `**Verona, New Jersey** is a township in **Essex County** lying in a valley between the First and Second Watchung mountains, holding parts of the Eagle Rock and Hilltop reservations and the Olmsted-designed Verona Park on the Peckman River. Our roofing crews serve its pre-war Colonials and postwar Capes and ranches.`,
   heroHeadline: `Roofing in Verona, NJ`,
@@ -755,7 +755,7 @@ export const westEssexContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Verona, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Verona, NJ`,
   metaDescription:
     `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Verona and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
@@ -770,7 +770,7 @@ export const westEssexContent: CityContent[] = [
 {
   cityId: 'cedar-grove',
   directAnswer:
-    `Newark Quality Roofing is a **roofing contractor** serving **Cedar Grove, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's postwar ranches, split-levels, colonials, and commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+    `**Roof repair and installation in Cedar Grove, NJ** comes from Newark Quality Roofing, a registered New Jersey Home Improvement Contractor and insured roofing contractor serving Essex County. The crew repairs and replaces asphalt, slate, metal, and flat membrane roofs on the township's postwar ranches, split-levels, colonials, and commercial buildings.`,
   whereIs:
     `**Cedar Grove, New Jersey** is a township in **Essex County** set between the First and Second Watchung mountains, climbing from a valley center up the wooded ridges that hold parts of the Mills and Hilltop reservations. Its three sections along Pompton Avenue are the neighborhoods our roofing crews serve.`,
   heroHeadline: `Roofing in Cedar Grove, NJ`,
@@ -943,7 +943,7 @@ export const westEssexContent: CityContent[] = [
       },
     ],
   },
-  metaTitle: `Roofing in Cedar Grove, NJ | Newark Quality Roofing`,
+  metaTitle: `Roof Repair and Installation in Cedar Grove, NJ`,
   metaDescription:
     `Roofing in Cedar Grove, NJ. Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs on homes and commercial buildings. Free estimate.`,
   pricing: {

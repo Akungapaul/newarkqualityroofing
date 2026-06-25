@@ -3,6 +3,7 @@ import { services } from '@/data/services';
 import { comparisons } from '@/data/comparisons';
 import { articles, type Article } from '@/data/articles';
 import { generateComboSlug, generateCityPageSlug } from '@/lib/slug-utils';
+import { isKeep } from '@/data/url-classification';
 import type { Service, City } from '@/lib/types';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
@@ -89,7 +90,9 @@ export function getNearbyCityLinks(service: Service, city: City): NearbyLink[] {
         label: `${service.name} in ${adjacentCity.name}`,
       };
     })
-    .filter((link): link is NearbyLink => link !== null);
+    // Only link to indexable combos — skip redirected ones (e.g. an adjacent Newark
+    // combo, now consolidated into its service page).
+    .filter((link): link is NearbyLink => link !== null && isKeep(link.slug));
 }
 
 // ─── Related-category affinity map ──────────────────────────────────────────

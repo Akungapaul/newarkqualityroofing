@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { cities } from '@/data/cities';
 import { generateComboSlug } from '@/lib/slug-utils';
+import { isKeep } from '@/data/url-classification';
 import type { Service } from '@/lib/types';
 
 // ─── Region groupings for Essex County cities ────────────────────────────────
@@ -61,6 +62,8 @@ export function ServiceAreasGrid({ heading, service }: ServiceAreasGridProps) {
                   const city = cityById.get(cityId);
                   if (!city) return null;
                   const comboSlug = generateComboSlug(service.slug, city.slug);
+                  // Skip redirected combos (Newark is consolidated into the service page itself).
+                  if (!isKeep(comboSlug)) return null;
                   return (
                     <li key={cityId}>
                       <Link

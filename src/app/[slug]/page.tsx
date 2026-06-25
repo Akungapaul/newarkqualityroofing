@@ -14,7 +14,7 @@ import { generateCityPageSlug } from '@/lib/slug-utils';
 import { isNoindex, isRedirect } from '@/data/url-classification';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { getOGImage } from '@/data/image-manifest';
-import { buildServiceDescription, buildCityDescription } from '@/lib/seo-utils';
+import { buildServiceDescription, buildCityDescription, buildCityTitle } from '@/lib/seo-utils';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -103,11 +103,12 @@ export async function generateMetadata({
       const citySlug = generateCityPageSlug(city.slug);
       const cityOg = getOGImage('city', city.id);
       const cityDesc = buildCityDescription(cityContent, city);
+      const cityTitle = buildCityTitle(city);
       return {
-        title: cityContent.metaTitle,
+        title: cityTitle,
         description: cityDesc,
         alternates: { canonical: `/${citySlug}` },
-        openGraph: buildOG(cityContent.metaTitle, cityDesc, citySlug, 'website', cityOg?.path ?? undefined),
+        openGraph: buildOG(cityTitle, cityDesc, citySlug, 'website', cityOg?.path ?? undefined),
       };
     }
     case 'combo': {

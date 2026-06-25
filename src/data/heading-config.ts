@@ -73,7 +73,9 @@ export const HEADING_CONFIG = {
 
   // ─── §4.3 Location / City Page ([City] interpolated) ───────────────────────
   city: {
-    h1: (c: string) => `Who Provides Roofing Services in ${c}?`,
+    // Declarative, keyword-led H1 (exception to the question-form rule, scoped to
+    // the city page type — see scripts/audit-headings.ts CITY_DECLARATIVE_H1).
+    h1: (c: string) => `Roof Repair and Installation in ${c}, NJ`,
     coreH2: (c: string) => `What Roofing Services Are Available in ${c}?`,
     // Entity-grounding: the locational first H2 ("Where Is {City}, NJ?"), rendered
     // ABOVE the services grid by the EntityDefinition section when content.whereIs
