@@ -1,0 +1,87 @@
+{
+  "comparisonId": "green-roof-vs-traditional-roofing",
+  "type": "material",
+  "itemA": "Green roof",
+  "itemB": "Traditional membrane roofing",
+  "verdict": {
+    "winner": "A green roof wins on stormwater and cooling; traditional membrane roofing wins on cost, weight, and simplicity.",
+    "reasoning": "A green roof beats traditional membrane roofing when stormwater quantity drives the project: a green roof retains roughly 50-60% of annual rainfall and cuts peak runoff up to 65%, earning NJ runoff-quantity credit under the NJ Stormwater BMP Manual Ch 9.4, which a bare membrane never earns.",
+    "alternate": "Traditional membrane roofing wins when upfront budget and structural load lead: an EPDM or TPO membrane installs at roughly $5-$10 per NJ square foot, far lighter than a green roof's $10-$35 per square foot and ~20-150 lb/sq ft saturated load, per HomeAdvisor and GSA dead-load measurements."
+  },
+  "keyFacts": [
+    "A green roof retains ~50-60% of annual rainfall (extensive) and ~65-85% (intensive), versus traditional membrane roofing which sheds ~100% to roof drains (EPA/Penn State).",
+    "An extensive sedum green roof cuts peak runoff up to 65% and delays off-site flow up to about 3 hours; traditional membrane roofing offers no retention and immediate runoff (GSA study).",
+    "NJ installed cost is $10-$25 per square foot for an extensive green roof and $20-$35 for intensive, versus $5-$10 per square foot for an EPDM/TPO membrane (HomeAdvisor; GSA institutional green-roof premium ~$10.30-$12.50 per square foot above a conventional roof).",
+    "A 3-inch extensive green roof adds ~20 lb/sq ft saturated dead load and an intensive roof 80-150 lb/sq ft, against a far lighter membrane with negligible added load; GSA measured 20.06 lb/sq ft for a 3-inch extensive system and 42.23 lb/sq ft for a 6-inch semi-intensive system, per ASTM E2397 (GSA).",
+    "A green-roof surface runs up to 56F cooler than a conventional roof through evapotranspiration (EPA), while a reflective white membrane runs over 50F cooler by reflectance (DOE).",
+    "A green roof can lower nearby air temperature up to 20F and, in study-specific buildings, cut cooling load up to 70%, a figure the EPA frames as building-dependent, not a Newark guarantee (EPA heat-island program).",
+    "A white TPO or PVC membrane reflects sunlight at roughly 0.70-0.85 initial solar reflectance, rated by reflectance and emittance (not R-value) per the Cool Roof Rating Council, cutting peak cooling demand 11-27% (EPA), offset by a winter heating penalty in Newark's heating-dominated climate (DOE).",
+    "Covering the waterproofing membrane more than doubles its service life: GSA's model uses 40 years for a shielded membrane versus 17 years for an exposed black roof (GSA green-roof study).",
+    "The InterNACHI chart lists vegetated roofs at 5-40 years (the low end reflecting poor installs); exposed membranes run EPDM 15-25 years, TPO 7-20, modified bitumen 20, and BUR 30 (InterNACHI chart; NRCA guidance).",
+    "Annual maintenance is $0.75-$2 per square foot for an extensive green roof and $1.50-$4 for intensive, versus periodic inspection only for a traditional membrane (HomeAdvisor).",
+    "A green roof earns NJ runoff-quantity credit but not groundwater-recharge or runoff-quality credit; a traditional membrane earns no stormwater credit (NJ Stormwater BMP Manual Ch 9.4).",
+    "NJ runoff-quantity credit applies through a reduced Curve Number tied to growing-medium depth, capped at a 20% maximum roof slope and 85% minimum vegetation density (NJ Stormwater BMP Manual Ch 9.4).",
+    "A green roof requires NJ structural engineer sign-off (mandatory per IBC 1607.12.3); a traditional membrane re-cover requires none (IBC 1607.12.3 adopted via NJ Uniform Construction Code).",
+    "Failure modes differ: a green roof's defining failure is a hidden membrane leak that is hard to locate under the medium; traditional membranes fail by seam separation (EPDM), welded-seam failure (TPO), and blistering or alligator cracking (modified bitumen), per InterNACHI and NRCA.",
+    "A green roof divides into extensive (growing medium 6 inches or less, lightweight sedum) and intensive (6 inches or greater, garden-depth and heavy) per the NJ Stormwater BMP Manual Ch 9.4; traditional membrane roofing splits into EPDM, TPO, modified bitumen, and BUR.",
+    "ANSI/SPRI VF-1, referenced by IBC 1505.10, requires a 6-foot-wide Class A fire-rated vegetation-free zone at intervals and perimeters of a green roof.",
+    "NJDEP's N.J.A.C. 7:8 stormwater rules, amended effective March 2, 2021, govern the green-roof runoff-quantity credit and require a recorded deed notice plus a maintenance plan with a leak-detection method."
+  ],
+  "sources": [
+    "EPA (heat-island program; ~50-60% retention; up to 56F surface cooling; up to 20F air cooling; up to 70% cooling-load reduction; 11-27% peak-demand cut)",
+    "Penn State research (rainfall retention)",
+    "GSA green-roof study (peak runoff up to 65%; ~3-hour delay; 40 vs 17-year membrane-life model; institutional premium ~$10.30-$12.50/sq ft; dead-load measurements 20.06 and 42.23 lb/sq ft)",
+    "ASTM E2397 (saturated dead-load measurement standard)",
+    "DOE (white-membrane reflectance >50F cooler; winter heating penalty)",
+    "Cool Roof Rating Council (reflectance/emittance rating, 0.70-0.85 initial solar reflectance)",
+    "InterNACHI life-expectancy chart (vegetated 5-40 yrs; EPDM 15-25; TPO 7-20; mod-bit 20; BUR 30)",
+    "NRCA guidance (membrane failure modes)",
+    "HomeAdvisor (NJ install cost ranges; annual maintenance ranges)",
+    "NJ Stormwater BMP Manual Ch 9.4 (green roof as accepted Green Infrastructure BMP; runoff-quantity credit only; Curve Number; 20% slope cap; 85% vegetation density; load-capacity analysis; maintenance plan + leak detection)",
+    "NJDEP N.J.A.C. 7:8 (stormwater rules amended effective March 2, 2021; recorded deed notice)",
+    "IBC 1607.12.3 (structural live-load sign-off, adopted via NJ Uniform Construction Code)",
+    "IBC 1505.10 / ANSI/SPRI VF-1 (Class A fire-rated 6-ft vegetation-free zone)",
+    "Delaware DNREC (intensive-load planning ranges)"
+  ],
+  "njContext": [
+    "NJ installed cost: extensive green roof $10-$25/sq ft, intensive $20-$35/sq ft, versus EPDM/TPO membrane $5-$10/sq ft (HomeAdvisor); GSA institutional green-roof premium ~$10.30-$12.50/sq ft above a conventional roof.",
+    "NJ code governs a green roof through the NJ Stormwater BMP Manual and a NJ professional engineer: stormwater-quantity credit, structural-load sign-off (IBC 1607.12.3), and ANSI/SPRI VF-1 fire-break rules a bare membrane never triggers; a traditional membrane re-cover requires no engineer load review.",
+    "The NJ Stormwater BMP Manual Ch 9.4 lists a green roof as an accepted Green Infrastructure BMP earning runoff-quantity credit only (not recharge or quality), capped at 20% max roof slope under NJDEP N.J.A.C. 7:8 (amended effective March 2, 2021), and requires a recorded deed notice plus a maintenance plan with a leak-detection method.",
+    "Dense, combined-sewer Newark is the GSA-described case where a green roof relieves combined-sewer overflow most, given a minimum 3-inch medium on sufficient area; traditional membrane roofing routes 100% to roof drains and the combined sewer.",
+    "Essex County residential: a full residential green roof is rare given cost and structural load; extensive sedum at ~$10-$25/sq ft with $0.75-$2/sq ft annual maintenance still requires the NJ engineer load check; a reflective cool-roof membrane at $5-$10/sq ft delivers most summer-cooling benefit where the deck cannot carry a vegetated assembly.",
+    "Essex County commercial: a green roof carries a GSA installed premium of ~$10.30-$12.50/sq ft over a conventional black roof, recovered partly through avoided stormwater infrastructure and a 40-vs-17-year membrane life, and supports LEED documentation; TPO/EPDM/mod-bit/BUR at $5-$10/sq ft with periodic-inspection maintenance and no mandatory engineer load review is the lower-complexity choice without a stormwater or sustainability mandate.",
+    "An intensive green roof's 80-150 lb/sq ft saturated load often rules out retrofits, per the NJ Stormwater BMP Manual; an existing Essex County deck carries a re-cover membrane without reinforcement."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (registration under N.J.S.A. 56:8-136), insured, offering a free written estimate. NQR handles the roofing/waterproofing side of any green-roof decision (the waterproofing membrane assembly, root barrier, drainage, leak-detection layer, and the traditional EPDM/TPO/mod-bit/BUR alternative), and coordinates the mandatory NJ professional-engineer structural-load sign-off (IBC 1607.12.3) and NJ Stormwater BMP Manual compliance rather than performing the engineering or horticultural design itself. Warranty framing stays honest and two-part: the manufacturer's material warranty on the membrane plus NQR's written workmanship warranty on the installation; never claim manufacturer certification tiers or a roofing 'license' (NJ issues no roofing license).",
+  "defabToKill": [
+    "BUYER'S GUIDE: 'absorbing 50-90% of rainfall' / 'retain 60-80% of rainfall' (expert-picks). Dies: gold caps extensive retention at ~50-60% and intensive ~65-85% (EPA/Penn State); 50-90% and 60-80% are inflated, not in gold.",
+    "BUYER'S GUIDE: 'Extensive green roofs cost $15-$25 per square foot installed, roughly 2-3x the cost of quality TPO or modified bitumen.' Dies: gold's extensive range is $10-$25/sq ft; the '$15' floor and the unsupported '2-3x' multiplier are invented, not in gold.",
+    "BUYER'S GUIDE: 'Intensive green roofs cost $25-$50+ per square foot.' Dies: gold's intensive range is $20-$35/sq ft; $25-$50+ is inflated, not in gold.",
+    "BUYER'S GUIDE: 'saturated weight of an extensive green roof is 15-30 lbs per square foot.' Dies: gold gives ~20 lb/sq ft (3-in extensive, GSA 20.06 measured); '15-30' is a fabricated range, not in gold.",
+    "BUYER'S GUIDE: 'Extensive green roofs (2-6 inch growing medium)' and 'Intensive green roofs (12+ inches with trees and walkable gardens).' Dies: gold/NJ BMP defines the split at 6 inches (extensive 6 in or less, intensive 6 in or greater); '2-6 inch' and '12+ inches' are invented thresholds, not in gold.",
+    "BUYER'S GUIDE: 'Some Essex County municipalities provide tax incentives or expedited permitting for green roof installations.' Dies: invented incentive claim with no named source; gold only documents NJ stormwater runoff-quantity CREDIT under the BMP Manual, not municipal tax incentives or expedited permitting.",
+    "BUYER'S GUIDE: 'NJ offers stormwater management credits for green roofs that can offset ongoing fees.' Dies: overstated; gold specifies runoff-QUANTITY credit only (not recharge or quality) via a reduced Curve Number, with no claim about offsetting 'ongoing fees' — reframe strictly to the BMP Manual Ch 9.4 quantity credit.",
+    "EXPERT-PICKS: 'we have installed enough to understand their real-world performance' / 'our green roof installations retain 60-80% of rainfall' / 'During heavy storms, retention drops to 30-40%' / 'We expect green roof membranes to last 40-50 years versus 25-30 for exposed membranes.' Dies: fabricated NQR field-experience and project-volume anecdote plus invented retention (60-80%/30-40%) and membrane-life (40-50 vs 25-30) figures; gold has GSA 40 vs 17-year model and InterNACHI 5-40 vegetated, EPDM 15-25/TPO 7-20 — replace with the standards-grounded figures, drop the 'we'.",
+    "EXPERT-PICKS: 'Spring green-up is reliable by late April' and 'native sedum varieties are far more resilient than ornamental choices' framed as NQR-observed performance. Dies: unsourced horticultural performance anecdote presented as field experience; no named source in gold.",
+    "EXPERT-PICKS: '$0.75-$1.50 per square foot per year' maintenance. Dies: gold's extensive maintenance range is $0.75-$2/sq ft (HomeAdvisor); the '$1.50' ceiling understates the sourced range — use $0.75-$2 with HomeAdvisor attribution.",
+    "BOTH: 'Our team evaluates...' / 'Newark Quality Roofing can assess your building for green roof feasibility' framed around capabilities beyond the roofing scope. Dies: keep CTA honest to NQR's roofing/waterproofing scope and registered-NJ-HIC framing; NQR coordinates (not performs) the engineer load sign-off and stormwater design."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Green Roof vs Traditional Roofing?",
+    "directAnswerThesis": "A green roof wins when stormwater quantity drives the project, retaining ~50-60% of rainfall for NJ BMP credit; traditional membrane roofing wins on cost ($5-$10/sq ft) and weight. Structural load is the deciding factor.",
+    "sectionAngles": [
+      "What does each roof cost in NJ, and where does the long-term value land? (extensive $10-$25 vs membrane $5-$10/sq ft, plus the GSA 40-vs-17-year membrane-life model)",
+      "Which roof fits Essex County's climate and NJ code? (NJ Stormwater BMP Manual Ch 9.4 runoff-quantity credit, 20% slope cap, mandatory IBC 1607.12.3 engineer load sign-off)",
+      "How do you decide between a green roof and traditional roofing for your building? (the structural-load and stormwater-mandate decision checklist)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Green Roof vs Traditional Roofing?",
+    "directAnswerThesis": "The standards favor a green roof only where structural capacity and a stormwater mandate justify the $10-$35/sq ft cost; otherwise NJ engineering data and InterNACHI life figures point to traditional membrane roofing.",
+    "sectionAngles": [
+      "What do the standards and NJ code actually favor for each roof? (NJ Stormwater BMP Manual runoff-quantity credit, ASTM E2397 dead loads, IBC 1607.12.3 engineer sign-off)",
+      "Which installation-quality factors decide green-roof longevity? (GSA's 40-vs-17-year membrane protection, the hard-to-locate hidden leak, the NJ-required leak-detection maintenance plan)",
+      "What mistakes lead Essex County owners to the wrong choice? (underestimating saturated dead load, assuming retention near 100%, overlooking ANSI/SPRI VF-1 fire-break and recorded-deed-notice requirements)"
+    ]
+  }
+}

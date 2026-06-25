@@ -1,0 +1,112 @@
+{
+  "comparisonId": "roof-repair-vs-replacement",
+  "type": "service",
+  "itemA": "Roof Repair",
+  "itemB": "Roof Replacement",
+  "verdict": {
+    "winner": "Roof repair wins on cost for a young, locally damaged roof; roof replacement wins once age or damage extent crosses the contractor-consensus thresholds.",
+    "reasoning": "Roof repair beats replacement when damage stays under 25-30% of the roof area, the roof is under 15 years old, and the deck is sound, because a localized repair costs 5-10x less than full replacement (Home Depot, Kelly Roofing).",
+    "alternate": "Roof replacement beats repair when one repair exceeds 50% of replacement cost (the industry '50% rule,' per WeatherShield and Home Depot), the roof passes 20 years (15 on the coast), or three-plus repairs occur in two years (WeatherShield decision rules)."
+  },
+  "keyFacts": [
+    "Roof repair runs $360-$1,550 for minor work, per Angi.",
+    "An asphalt roof repair averages about $1,174 and typically runs $366-$1,984, per HomeAdvisor.",
+    "A NJ leak repair runs $400-$1,000, per HomeAdvisor.",
+    "An Essex County roof replacement runs $10,000-$25,000, per HomeAdvisor and Modernize.",
+    "A localized repair costs 5-10x less than full replacement, per Home Depot and Kelly Roofing.",
+    "Emergency after-hours repair work adds 25-50%, per Integrity Home Exteriors.",
+    "Asphalt shingle roofs carry a 20-30-year service life, per InterNACHI.",
+    "The '25% rule' (replace when damage exceeds 25% of roof area) is a contractor rule of thumb, per RapidRestore.",
+    "The '30% rule' (lean to replace when repair cost approaches 30% of replacement cost) is a contractor rule of thumb, per Josten Roofing, Kellow Construction, and Modernize.",
+    "The '50% rule' says replace when one repair exceeds 50% of replacement cost, per WeatherShield and Home Depot.",
+    "A roof under 15 years old favors repair; a roof past 20 years (15 on the coast) or with 3-plus repairs in 2 years favors replacement, per the WeatherShield decision rules.",
+    "Architectural asphalt loses repair economy faster (around 15-20% of area) because color and weathering match grows harder, per HomeGuide and Modernize.",
+    "Asphalt roofs hold most of their 20-30-year design life under 10 years of age, per NAHB.",
+    "Actual roof lifespan varies up to plus-or-minus 40% by climate, install quality, and maintenance, per the NRCA.",
+    "Older homes report roof leakage at 5.5% versus 3.5% for newer homes (about 2x the rate), per US Census housing-survey data.",
+    "Essex County's median home was built in 1981, per housing data, so many original roofs now near end of life.",
+    "Roof replacement resets the roof age an insurer depreciates, per NAIC and Triple-I depreciation practice.",
+    "Roof insurance pays on an ACV basis (replacement cost minus depreciation) or RCV basis (like-kind cost without that deduction), per NAIC and the Insurance Information Institute.",
+    "An RCV policy commonly pays in two stages: a first actual-cash-value payment minus the deductible, then the held recoverable depreciation after the work is completed and invoiced, per the Insurance Information Institute.",
+    "In New Jersey only a licensed public adjuster or attorney may negotiate or settle an insurance claim, per N.J.S.A. 17:22B; a contractor cannot waive the deductible or guarantee approval.",
+    "A tear-off exposes and repairs the full deck, per ARMA reroofing guidance.",
+    "A new asphalt roof recoups about 61% of job cost, per Remodeling/Zonda 2023 Cost vs. Value.",
+    "A new roof recoups 60-68% nationally, per Zillow via Opendoor.",
+    "A new roof adds about $15,247 to resale value and lets sellers ask 1%-3% more, per Opendoor and Zillow analysis.",
+    "Recurring leaks in the same spot signal a systemic failure that a tear-off resolves by exposing and repairing the full deck, per ARMA reroofing guidance."
+  ],
+  "sources": [
+    "Angi",
+    "HomeAdvisor",
+    "Modernize",
+    "Home Depot",
+    "Kelly Roofing",
+    "Integrity Home Exteriors",
+    "InterNACHI",
+    "RapidRestore",
+    "Josten Roofing",
+    "Kellow Construction",
+    "WeatherShield",
+    "HomeGuide",
+    "NAHB",
+    "NRCA",
+    "US Census housing-survey data",
+    "NAIC",
+    "Insurance Information Institute (Triple-I)",
+    "ARMA (Asphalt Roofing Manufacturers Association)",
+    "Remodeling/Zonda 2023 Cost vs. Value Report",
+    "Zillow via Opendoor",
+    "Opendoor",
+    "N.J.A.C. 5:23-2.7",
+    "N.J.A.C. 5:23-2.7(b)",
+    "N.J.A.C. 5:23-2.7(c)",
+    "N.J.A.C. 5:23-6.4",
+    "IRC R908.3.1.1",
+    "N.J.S.A. 17:22B",
+    "NJ DCA 2018 alert"
+  ],
+  "njContext": [
+    "An Essex County roof replacement runs $10,000-$25,000, per HomeAdvisor and Modernize.",
+    "A NJ leak repair runs $400-$1,000, per HomeAdvisor.",
+    "The NJ Uniform Construction Code treats repair or total replacement of the roof covering on a detached 1- or 2-family dwelling as ordinary maintenance, requiring no permit, inspection, or notice, per N.J.A.C. 5:23-2.7 and the NJ DCA's 2018 alert.",
+    "The NJ Uniform Construction Code requires a permit once roof work turns structural (replacing rafters, trusses, or ridge beams) or exceeds 25% of roof area within 12 months on commercial, condo, or attached buildings, per N.J.A.C. 5:23-2.7(b) and 5:23-2.7(c).",
+    "The NJ Uniform Construction Code caps a roof at two layers; a recover-over is prohibited once two applications of covering already exist, so a two-layer roof forces a full tear-off replacement, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1.",
+    "In New Jersey only a licensed public adjuster or attorney may negotiate or settle an insurance claim, per N.J.S.A. 17:22B.",
+    "Essex County's median home was built in 1981, so many original roofs now near their 20-30-year asphalt end of life.",
+    "Commercial roof replacement in NJ triggers a UCC permit once roof work exceeds 25% of roof area in 12 months, since the ordinary-maintenance exemption covers only detached 1- and 2-family dwellings, per N.J.A.C. 5:23-2.7(c)."
+  ],
+  "positioning": "Position NQR as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written inspection and estimate across Essex County. NQR's role on the repair-or-replace call is the inspection and the honest written scope: it photographs the damage, assesses roof age, damage extent, and deck condition, and recommends repair when damage is localized on a sound young roof and replacement when age or damage crosses the contractor-consensus thresholds. On insurance work NQR stays within the contractor role (documenting damage with photos and a written scope) and never negotiates or settles the claim, waives the deductible, or guarantees approval, since N.J.S.A. 17:22B reserves claim negotiation to a licensed public adjuster or attorney. Warranties are framed honestly in two parts: a manufacturer material warranty on the new roofing system plus NQR's own written workmanship warranty on the install, never as manufacturer certification tiers.",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'Repair costs in Essex County range from $300-$1,500 for minor work and $1,500-$5,000 for more extensive repairs' — invented ranges not in gold; gold has $360-$1,550 minor (Angi), $400-$1,000 NJ leak repair (HomeAdvisor), and ~$1,174 avg / $366-$1,984 asphalt repair (HomeAdvisor). The '$300-$1,500' and '$1,500-$5,000 more extensive' figures die; use the gold-sourced ranges.",
+    "BUYERS-GUIDE: 'full replacement costs of $8,000-$25,000+' — invented low end; gold range is $10,000-$25,000 (HomeAdvisor/Modernize). The '$8,000' floor and open-ended '+' die.",
+    "BUYERS-GUIDE: 'we see homeowners spend $5,000-$8,000 on cumulative repairs over 3-5 years' — fabricated NQR field-observation ('we see') plus invented cumulative-cost figure not in gold. Dies.",
+    "BUYERS-GUIDE: 'less than 15% of the roof is affected' (Decision Checklist) — invented threshold; gold uses the 25-30% area rule (RapidRestore '25% rule', Josten Roofing '30% rule'), not 15%. The 15% number dies.",
+    "BUYERS-GUIDE: 'if repair costs exceed 30% of replacement cost and your roof is over 15 years old, replacement is the smarter investment' — the 30% rule is real (Josten/Kellow/Modernize) but the conjoined '15 years old' threshold is misstated; gold pairs the age call as under-15-favors-repair / past-20-favors-replace. Reframe to gold's sourced rules, do not invent the combined cutoff.",
+    "EXPERT-PICKS: 'The repair vs replacement question is the one we answer most often as Essex County roofers' — fabricated NQR field-frequency claim. Dies; reframe as evidence/standards-based.",
+    "EXPERT-PICKS: 'what we look for during inspection... we check three things... we probe for soft spots' — fabricated NQR crew anecdote ('we look', 'we check', 'we probe'). The inspection criteria (deck condition, underlayment integrity, ventilation) can stay as standards-grounded factors, but the 'we'-framed field narrative dies.",
+    "EXPERT-PICKS: 'about 40% of the repair requests we receive actually need replacement' — fabricated NQR statistic/volume claim. No source in gold. Dies entirely.",
+    "EXPERT-PICKS: 'We see a pattern in Essex County: homeowners invest in repair after repair, spending $1,000-$2,000 each time, until they have spent $6,000-$8,000 over 5 years' — fabricated 'we see' field observation plus invented per-repair ($1,000-$2,000) and cumulative ($6,000-$8,000) figures not in gold. Dies.",
+    "EXPERT-PICKS: 'if you have had two or more repairs in the past three years and your roof is over 15 years old, stop repairing' — gold's rule is 3-plus repairs in 2 years (WeatherShield); the '2 repairs in 3 years' restatement is an invented variant. Reframe to gold's sourced thresholds.",
+    "EXPERT-PICKS: 'A thorough inspection takes 30-60 minutes' — invented duration figure not in gold. Dies or drop unsourced.",
+    "GENERAL: every first-person crew voice ('we recommend', 'we show you exactly what we find', 'our honest advice', 'our inspection reveals') across both articles — fabricated field-experience framing. Replace with registered-NJ-HIC, evidence-and-standards positioning; NQR identity belongs only in ctaText.",
+    "NOTE: no GAF Master Elite / CertainTeed SELECT / manufacturer-cert self-claims, no 'licensed contractor'/'NJ-licensed', and no solar-ITC / ENERGY STAR / R-49 / §25D / §25C / HTC currency errors appear in either dirty article — none to kill on those axes for this comparison."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Roof Repair vs Replacement?",
+    "directAnswerThesis": "Repair wins when damage is under 25-30% of the roof area on a sound deck under 15 years old; replacement wins past 20 years, beyond 25-30% damage, or once one repair tops 50% of replacement cost.",
+    "sectionAngles": [
+      "Which costs less, roof repair or replacement — upfront price versus cost per remaining year?",
+      "How do roof age and damage extent decide the call in NJ (the 25-30% area, 30%, and 50% rules)?",
+      "What does the repair-or-replace decision checklist look like for an Essex County home, including NJ permit and insurance factors?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Roof Repair vs Replacement?",
+    "directAnswerThesis": "Industry decision rules favor repair under 15 years with localized damage and a sound deck, and replacement past 20 years, beyond 25-30% damage, or above the 50% repair-cost rule; a written inspection of deck, underlayment, and damage extent settles it.",
+    "sectionAngles": [
+      "What do the standards and decision rules actually favor (InterNACHI lifespan, the 25-30%/30%/50% rules, WeatherShield age thresholds)?",
+      "Which inspection findings — deck condition, underlayment integrity, damage extent — determine whether repair holds or replacement is required (per ARMA tear-off guidance)?",
+      "What homeowner mistakes does the evidence flag, such as cumulative repairs on a past-20-year roof and misreading NJ insurance ACV/RCV and N.J.S.A. 17:22B claim rules?"
+    ]
+  }
+}

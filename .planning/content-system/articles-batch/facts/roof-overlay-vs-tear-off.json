@@ -1,0 +1,87 @@
+{
+  "comparisonId": "roof-overlay-vs-tear-off",
+  "type": "service",
+  "itemA": "Roof Overlay",
+  "itemB": "Tear-Off",
+  "verdict": {
+    "winner": "Tear-off wins on lifespan, deck repair, and warranty; overlay wins on a lower national cost where one sound layer exists.",
+    "reasoning": "Choose a tear-off over an overlay when the roof stays beyond ~17-20 years - a tear-off resets to the shingles' full rated life, while an overlay's trapped heat cuts that life ~20-30% (per Angi) and conceals deck rot a tear-off repairs (per ARMA).",
+    "alternate": "Choose an overlay over a tear-off when one sound layer exists and budget leads - an overlay runs ~20-25%, roughly $2,000-$5,000, below a full tear-off (national figures, HomeGuide and Angi), permitted only where the deck is sound and no slate, wood shake, clay, cement, or second layer is present (per N.J.A.C. 5:23-6.4)."
+  },
+  "keyFacts": [
+    "An overlay installs a new layer of asphalt shingles directly over one existing sound shingle layer without stripping to the deck, and is limited to a roof carrying no more than one existing layer (gold definition).",
+    "A tear-off removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed, exposing the sheathing for inspection and repair (gold definition).",
+    "An overlay runs about 20-25%, roughly $2,000-$5,000, below a full tear-off nationally by skipping tear-off labor and disposal (per HomeGuide and Angi); these are national aggregator figures, not a Newark or Essex County price.",
+    "A NJ asphalt install runs $5.50-$11.00 per square foot for an overlay, versus $5.50-$11.00 per square foot plus $1-$3 per square foot tear-off for a full replacement (per Josten Roofing for the per-square-foot install; per HomeGuide for the $1-$3 stripping cost).",
+    "Stripping asphalt shingles costs $1-$3 per square foot, and a disposal dumpster runs $220-$699 per week (per HomeGuide).",
+    "An overlay's trapped heat cuts the new shingles' service life by roughly 20-30%, while a tear-off delivers the full rated life (per Angi).",
+    "An overlay leaves the deck concealed so rot goes unresolved, while a tear-off allows full deck inspection and repair (per ARMA).",
+    "A single asphalt-shingle layer weighs roughly 2-4.5 pounds per square foot (about 200-450 pounds per 100-square-foot roofing square), so a second layer adds that dead load; 3-tab runs ~2.3-2.5 lb/sq ft and architectural ~4.0-4.3 lb/sq ft, roughly 50% heavier per square (figures converted from disposal weights via the Dumpsters.com and Sourgum calculators, not a manufacturer structural specification).",
+    "An overlay cannot include an ice-and-water barrier because IRC Section R905.1.2 specifies the self-adhered membrane against the bare deck, which shingles-over-shingles cannot reach (per IRC R905.1.2).",
+    "A tear-off applies an ASTM D1970 self-adhering polymer-modified bitumen membrane directly to the bare deck at the eaves and valleys, where it self-seals around fasteners, extending at least 24 inches inside the exterior wall line (per ASTM International and IRC R905.1.2).",
+    "IRC Section R908 bars recovering over a water-soaked or deteriorated deck, and ARMA rules out a recover where the deck reveals rotted or warped wood, gaps wider than 1/4 inch, or sagging across ridge and truss lines (per IRC R908 and ARMA).",
+    "Failing-deck signs surfaced by a tear-off include daylight through the deck, soft or spongy wood, delaminated plywood, and swollen OSB edges that lose fastener grip; rotted sheathing is replaced before new underlayment (per InterNACHI and IRC R908).",
+    "An overlay is allowed only where one layer already exists; a second layer reaches the IRC R908.3.1.1 two-layer ceiling, so a future re-roof over two layers removes both at higher cost (per ICC IRC R908.3.1.1).",
+    "A tear-off resets the roof to a single layer and enables the full manufacturer system warranty when installed to spec; an overlay reduces coverage where the install departs from the maker's printed instructions (per published shingle-manufacturer install requirements).",
+    "An overlay is shorter to install (no tear-off, no disposal); a tear-off is longer (tear-off and disposal added) (gold comparison rows).",
+    "Manufacturers condition warranty coverage on a single existing layer, a smooth sound deck, and installation per their printed instructions, so a recover that departs from those instructions reduces coverage (per published shingle-manufacturer install requirements).",
+    "Some insurers decline or limit coverage on a two-layer roof, so an overlay that reaches the two-layer ceiling can force a future double tear-off (per ICC IRC R908.3.1.1 and Angi)."
+  ],
+  "sources": [
+    "Angi",
+    "HomeGuide",
+    "Josten Roofing",
+    "ARMA (Asphalt Roofing Manufacturers Association)",
+    "IRC Section R908 / IRC R908.3.1.1 (ICC International Residential Code)",
+    "IRC Section R905.1.2",
+    "ASTM D1970 / ASTM International",
+    "InterNACHI",
+    "Dumpsters.com calculator",
+    "Sourgum calculator",
+    "N.J.A.C. 5:23-6.4 (NJ Rehabilitation Subcode)",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code ordinary-maintenance exemption)",
+    "NOAA 1991-2020 climate normals",
+    "Published shingle-manufacturer install requirements"
+  ],
+  "njContext": [
+    "A NJ asphalt install runs $5.50-$11.00 per square foot, with a tear-off adding $1-$3 per square foot to strip the old asphalt shingles (per Josten Roofing and HomeGuide).",
+    "N.J.A.C. 5:23-6.4 (NJ Rehabilitation Subcode) caps a roof at two layers and bars any recover over a deteriorated deck.",
+    "The NJ Uniform Construction Code treats a full re-roof of a detached 1- or 2-family dwelling (overlay or tear-off) as ordinary maintenance with no construction permit, but that exemption does not authorize a non-compliant recover over a deteriorated deck or a third layer (per N.J.A.C. 5:23-2.7 and N.J.A.C. 5:23-6.4).",
+    "A tear-off becomes mandatory once N.J.A.C. 5:23-6.4 triggers - a water-soaked deck, a slate or wood-shake covering, or an existing two-layer roof - conditions an overlay cannot satisfy, so the deck is stripped and re-roofed as a single layer.",
+    "An overlay stays code-compliant on an Essex County house only where the deck is sound and one layer exists, since N.J.A.C. 5:23-6.4 bars a recover over a deteriorated deck, wood shake, slate, clay, cement, asbestos-cement tile, or a second layer.",
+    "Newark averages ~31.5 inches of snowfall with ~78% falling December-February and roughly 35-45 freeze-thaw cycles per winter (per NOAA 1991-2020 normals), making deck-level ice-dam protection at the eaves relevant - protection an overlay structurally cannot add.",
+    "On a commercial building, a documented tear-off provides clean deck-condition records for sales and lender review and resets the IRC R908.3.1.1 two-layer count, while an overlay conceals the deck and can force a future double tear-off (per ARMA and ICC IRC R908.3.1.1)."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (NJ HIC, N.J.S.A. 56:8-136 - NJ has no roofing license), insured, offering a free written estimate that includes an inspection of the existing roof to determine whether one sound layer and a sound deck make an overlay code-compliant under N.J.A.C. 5:23-6.4 or whether deck condition mandates a tear-off. Frame warranty honestly in two parts - the manufacturer material/system warranty (enabled by a tear-off installed to printed instructions) plus the contractor's written workmanship warranty - never as certification tiers or self-claimed manufacturer credentials. All cost figures are national aggregator or NJ per-square-foot ranges from named sources, never an NQR-specific quote.",
+  "defabToKill": [
+    "BUYERS-GUIDE intro/sections - 'saving $1,000-$3,000 on a typical Essex County home' (also in 'The Hidden Risk of Overlay', 'Making the Right Call' implies it, conclusion '$1,000-$3,000 savings of overlay'): invented Essex County dollar figure - not in gold (gold's overlay saving is the NATIONAL ~20-25% / $2,000-$5,000 per HomeGuide and Angi; the $1,000-$3,000 Essex County figure dies).",
+    "BUYERS-GUIDE 'The Hidden Risk of Overlay' - 'potentially shortening the new layer lifespan by 3-5 years': invented specific year figure - not in gold (gold states ~20-30% life reduction per Angi, never a 3-5 year number).",
+    "BUYERS-GUIDE 'The Hidden Risk of Overlay' - 'In Essex County's humid climate, moisture damage to roof decking is common': unsubstantiated local-prevalence claim not grounded in any named source in the gold.",
+    "EXPERT-PICKS intro - 'We install both overlay and tear-off roofs across Essex County, and our experience has made us increasingly firm advocates': fabricated NQR field-experience/anecdote framing - dies (replace with standards/evidence-based recommendation).",
+    "EXPERT-PICKS 'What We Find Under Old Shingles' - 'On approximately 70% of tear-off projects in Essex County, we find conditions...': fabricated NQR project-statistic ('70%') and 'we find' anecdote - not in gold, dies.",
+    "EXPERT-PICKS 'What We Find Under Old Shingles' - 'The most common finding is moisture-damaged plywood around bathroom and kitchen exhaust vents. Essex County homes built in the 1970s-1990s frequently have poorly sealed exhaust penetrations...': fabricated NQR field-observation and invented housing-stock claim - not in gold, dies.",
+    "EXPERT-PICKS 'Lifespan Difference' - 'Our tracking of overlay vs tear-off projects shows a consistent pattern: overlay roofs in Essex County last 3-7 years less than tear-off roofs': fabricated NQR proprietary tracking data and invented '3-7 years' figure - not in gold (gold uses ~20-30% per Angi), dies.",
+    "EXPERT-PICKS 'Lifespan Difference' - 'most pronounced on south and west-facing roof planes': unsubstantiated specific claim not in any named gold source.",
+    "EXPERT-PICKS 'Our Recommendation Process' - 'We offer overlay only to clients...', 'we recommend tear-off', 'We explain the trade-offs...document the client's informed decision': fabricated first-person NQR process anecdote - reframe as evidence/standards-based recommendation without 'we' claims.",
+    "EXPERT-PICKS 'Our Recommendation Process' / conclusion - 'The additional cost of $1,000-$3,000 buys... and 3-7 additional years of roof life. That is exceptional value': repeats both invented figures ($1,000-$3,000 Essex cost and 3-7 years) - dies; use gold's national $2,000-$5,000 / ~20-30% life figures with sources.",
+    "EXPERT-PICKS conclusion - 'the professionally recommended approach' / 'professionally recommended' framing leaning on unstated NQR authority: reframe to what published standards (ARMA, IRC, manufacturer instructions) and the evidence favor."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Roof Overlay vs Tear Off?",
+    "directAnswerThesis": "A tear-off is better for most NJ homes - it resets shingles to full rated life and repairs the deck; an overlay only wins on cost (~20-25% / $2,000-$5,000 less nationally) where one sound layer and a sound deck exist.",
+    "sectionAngles": [
+      "Which re-roof costs less, and when does the saving reverse? (overlay's ~20-25% / $2,000-$5,000 national upfront saving via skipped tear-off labor and disposal vs the two-layer ceiling that forces a costlier future double tear-off, per HomeGuide, Angi, IRC R908.3.1.1)",
+      "Does an Essex County home qualify for an overlay under NJ code? (N.J.A.C. 5:23-6.4 two-layer cap, sound-deck requirement, and barred coverings - slate, wood shake, clay, cement, asbestos-cement tile)",
+      "What does a homeowner give up with an overlay - lifespan, deck repair, ice-and-water barrier, and warranty? (the ~20-30% life cut per Angi, concealed deck per ARMA, no deck-applied ASTM D1970 membrane per IRC R905.1.2, reduced manufacturer coverage)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Roof Overlay vs Tear Off?",
+    "directAnswerThesis": "Published standards favor a tear-off for most NJ roofs: ARMA bars overlays over unsound decks, IRC R905.1.2 ties ice-and-water protection to a bare deck, and manufacturers condition full warranty on installation to printed instructions.",
+    "sectionAngles": [
+      "What do the standards and codes actually favor for a re-roof? (ARMA's deck-soundness rule, IRC R908 ban on recovering deteriorated decks, manufacturer warranty conditioned on a single sound layer and printed-instruction installation)",
+      "Which installation factors decide how long the new shingles last? (a deck-applied ASTM D1970 ice-and-water barrier per IRC R905.1.2, full deck inspection and rot repair per InterNACHI/ARMA, and avoiding the ~20-30% trapped-heat life cut per Angi)",
+      "What do homeowners most often get wrong about overlays? (assuming an overlay is always permitted despite the N.J.A.C. 5:23-6.4 two-layer cap and barred coverings, overlooking the added 2-4.5 lb/sq ft dead load per Dumpsters.com/Sourgum, and missing that an overlay can void or reduce the manufacturer warranty)"
+    ]
+  }
+}

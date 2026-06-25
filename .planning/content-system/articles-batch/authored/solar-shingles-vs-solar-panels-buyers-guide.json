@@ -1,0 +1,35 @@
+{
+  "articleId": "solar-shingles-vs-solar-panels-buyers-guide",
+  "directAnswer": "**Solar panels** out-produce **solar shingles** per dollar at 20-22% efficiency, ~$2.50-$4.00 per watt, and ~250 square feet for a 6-kW system; solar shingles win only when a roof needs full replacement and roof-integrated looks decide it, per SolarReviews and EnergySage.",
+  "intro": "The choice turns on three measurable factors a homeowner weighs in order: output per dollar, the NJ incentives and code that apply in 2026, and whether the roof is sound or due for replacement.",
+  "sections": [
+    {
+      "heading": "Which Rooftop Solar Costs Less and Produces More Per Dollar in NJ?",
+      "body": [
+        "**Solar panels** cost less and produce more per dollar than **solar shingles**. Panels run 20-22% efficient at ~$2.50-$4.00 per watt, while BIPV shingles cluster at 14-18% at ~$3.50-$8.00 per watt, per SolarReviews and EnergySage.",
+        "**Solar panels** carry the lower entry cost because rack-mounted crystalline-silicon modules of roughly 350-470 watts add power above an existing roof without replacing the covering, so they install at $7-$10 per square foot against the solar shingle's $21-$25, per SolarTech Online and NREL. The higher panel efficiency also extracts more output from less area, so a 6-kW system covers ~250 square feet of panels versus ~360 square feet of shingles, per SolarReviews. Across the BIPV range of 13-23%, the high-efficiency panel still leads the typical solar-shingle module on watts per square foot.",
+        "**Solar shingles** carry the higher per-watt and per-square-foot cost as building-integrated photovoltaics that double as the roof covering, so a roof-covering replacement folds into the solar project rather than adding modules to a sound roof, per the DOE and SolarTech Online. Flush mounting also runs the shingles hotter, trimming output ~0.3-0.5% per degree C above 25 degrees C, so the ~360-square-foot area penalty stands, per WattBuild and NREL's thermal coefficient. No primary cost authority sets a fixed NJ whole-system price; the per-watt and per-square-foot ranges trace to named aggregators, not a single contractor quote."
+      ]
+    },
+    {
+      "heading": "How Do NJ Incentives and Code Shape the Decision in 2026?",
+      "body": [
+        "**NJ incentives** credit solar shingles and solar panels identically, so incentives do not break the tie. The NJ SuSI program pays a fixed per-MWh SREC-II over a 15-year term set at registration by the NJ Board of Public Utilities, and both systems are eligible, per NJBPU.",
+        "**NJ net metering** applies the same way to either system — N.J.S.A. 48:3-87 requires full retail (1:1) credit for exports up to the customer's annual usage, with net annual surplus settled at the wholesale avoided-cost rate, per the statute and NJBPU. Because eligibility and crediting match across both technologies, the incentive picture favors neither, and the decision returns to output per dollar and roof condition. A homeowner reads the current SuSI rate from the NJ Clean Energy Program at registration, since the per-MWh figure is set then for the full 15-year term.",
+        "**The federal residential solar credit** no longer applies to either system completed in 2026 — the IRS Section 25D credit was 30% for systems completed through December 31, 2025, then repealed under P.L. 119-21, per the IRS. A homeowner confirms current incentives with a tax professional rather than budgeting on a credit that no longer exists, since the once-active 30% credit is historical and the remaining NJ programs run independently of it."
+      ]
+    },
+    {
+      "heading": "When Does Roof Condition Decide Between Integration and Add-On?",
+      "body": [
+        "**Roof condition** decides between integration and an add-on. Solar shingles pair with a new roof or full reroof and cannot go over an existing roof, while solar panels add to a roof with remaining service life, per CertainTeed and the DOE.",
+        "**Solar shingles** suit a house already due for roof replacement, because building-integrated photovoltaics replace the roof covering in one project, folding the covering cost into the solar work — CertainTeed Solstice and similar BIPV lines install on new-roof and reroof work only, not over an existing roof, per CertainTeed and the DOE. That makes integration sensible when a reroof is happening anyway and the flush, roof-integrated look carries weight on a visible Essex County roofline.",
+        "**Solar panels** suit a roof with years of service left, since rack-mounted modules attach above the covering and leave it in place, per NREL and the DOE. An industry rule of thumb re-roofs first when the roof outlasts neither the ~25-30-year panels nor the array, to avoid removing and reinstalling the array mid-roof — the panel-life figure per NREL, the re-roof-first timing an industry rule of thumb with no named standard. A roofer reviews the remaining roof life before [solar panel roofing installation](/solar-panel-roofing-installation) so the array does not outlive the roof beneath it."
+      ]
+    }
+  ],
+  "conclusion": "Solar panels win on output per dollar, NJ incentives credit both systems identically, and roof condition is the real tie-breaker: panels for a sound roof, integrated shingles for a roof already due for replacement. The figures trace to SolarReviews, EnergySage, NREL, and the NJBPU, and the once-active 30% federal credit is historical, so a homeowner confirms current incentives with a tax professional.",
+  "ctaHeading": "Plan the Roofing Side of Your Solar Project",
+  "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We handle the roofing side of solar — mount flashing, ASCE 7 load on the assembly, and the re-roof-before-solar timing decision in coordination with your solar installer. Reach out for a free written estimate.",
+  "metaDescription": "Solar shingles vs solar panels for NJ homes: panels run 20-22% efficient at $2.50-$4.00/watt, shingles 14-18% and cost more. NJ SREC-II, net metering, code."
+}

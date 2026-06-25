@@ -1,0 +1,98 @@
+{
+  "comparisonId": "solar-shingles-vs-solar-panels",
+  "type": "material",
+  "itemA": "Solar shingles (BIPV)",
+  "itemB": "Solar panels (BAPV)",
+  "verdict": {
+    "winner": "Solar panels win on output per dollar and roof area; solar shingles win on roof-integrated appearance.",
+    "reasoning": "Solar panels beat solar shingles when output per dollar leads: panels reach 20-22% efficiency at ~$2.50-$4.00 per watt and need ~250 square feet for a 6-kW system, versus shingles' 14-18% at ~$3.50-$8.00 per watt over ~360 square feet (per SolarReviews and EnergySage).",
+    "alternate": "Solar shingles beat solar panels when a roof needs replacement and integration leads: BIPV shingles replace the roof covering in one project, while CertainTeed Solstice and similar lines cannot go over an existing roof (per the DOE and CertainTeed)."
+  },
+  "keyFacts": [
+    "Solar panels run 20-22% efficient versus solar shingles' 14-18% (BIPV range 13-23%) (per SolarReviews).",
+    "Solar panels install at ~$2.50-$4.00 per watt versus solar shingles' ~$3.50-$8.00 per watt, roughly 1.5-2x the per-watt cost (per EnergySage and SolarReviews).",
+    "Installed cost per square foot is $7-$10 for solar panels versus $21-$25 for solar shingles (per SolarTech Online).",
+    "A 6-kW system needs ~250 square feet of solar panels versus ~360 square feet of solar shingles (per SolarReviews).",
+    "Solar shingles are building-integrated photovoltaics (BIPV) that replace the roof covering, while solar panels are building-applied photovoltaics (BAPV) rack-mounted above an existing roof (per the DOE and IEA-PVPS).",
+    "Named BIPV solar-shingle products: GAF Energy Timberline Solar ES 2 (57 W per energy shingle, ~16.7 W per square foot), Tesla Solar Roof (72 W per active glass tile), CertainTeed Solstice (70 W, 19.85% module efficiency), and SunTegra (105-114 W) (per the manufacturers' datasheets).",
+    "Solar panels are crystalline-silicon modules of roughly 350-470 watts (~400 W common), racked above the deck (per NREL).",
+    "Solar panels degrade a median ~0.5% per year to ~85-88% of rated output by year 25-30 (per NREL).",
+    "Solar shingles carry a ~25-year power warranty (~84.8-85% at year 25); solar panels carry a ~25-year warranty (~85-88% at year 25-30) (per the manufacturers and NREL).",
+    "Solar panels attach through flashed lag-bolt rail feet whose upper flange tucks under the upslope shingle course so water sheds onto intact shingles; solar shingles are field-integrated and nailed in (per NRCA guidance and the DOE).",
+    "Flush-mounted solar shingles run hotter, trimming output ~0.3-0.5% per degree C above 25 degrees C (per WattBuild and NREL's thermal coefficient).",
+    "Both solar shingles and solar panels meet NJ-relevant wind, hail, and fire ratings: BIPV shingles list UL 7103 certification, UL 790 Class A fire, UL 2218 Class 4 hail, and ASTM D3161 Class F wind (per the manufacturers' datasheets).",
+    "GAF Energy Timberline Solar lists Class A fire, Class 4 hail, and 130-mph wind on a pitch of 2:12 or steeper; SunTegra lists 130-mph wind with UL 2218 Class 4 (per GAF Energy and SunTegra).",
+    "Solar panels must meet NEC 690.12 rapid shutdown: conductors fall to <=30 volts outside and <=80 volts inside the array boundary within 30 seconds; the module-plus-mounting-plus-roof assembly carries the UL 790 fire class (per the NEC and UL).",
+    "Solar panels shade the roof covering but do not extend its service life as established fact; any quantified roof-life extension is marketing, not a verified figure (per NRCA guidance).",
+    "On a flat commercial roof, solar panels mount on ballasted non-penetrating racking (weighted by blocks over a protection pad) or on mechanically attached flashed anchors, with uplift and ballast governed by ASCE 7 (per NRCA and SPRI).",
+    "Solar shingles rarely fit commercial buildings because BIPV is a sloped roof-covering replacement, leaving the higher per-watt cost without the integration payoff (per the DOE and SolarTech Online)."
+  ],
+  "sources": [
+    "SolarReviews",
+    "EnergySage",
+    "SolarTech Online",
+    "DOE (U.S. Department of Energy)",
+    "IEA-PVPS",
+    "NREL",
+    "GAF Energy (Timberline Solar datasheet)",
+    "Tesla (Solar Roof datasheet)",
+    "CertainTeed (Solstice datasheet)",
+    "SunTegra (datasheet)",
+    "NRCA",
+    "SPRI",
+    "WattBuild",
+    "GreenLancer",
+    "UL 7103",
+    "UL 790",
+    "UL 2218",
+    "ASTM D3161",
+    "ASCE 7",
+    "NEC 690.12",
+    "NJBPU (NJ Board of Public Utilities)",
+    "NJ Clean Energy Program (SuSI)",
+    "N.J.S.A. 48:3-87 (NJ net metering)",
+    "IRS (Section 25D residential solar credit)",
+    "P.L. 119-21"
+  ],
+  "njContext": [
+    "The NJ SuSI program pays a fixed per-MWh SREC-II over a 15-year term, set at registration by the NJ Board of Public Utilities; both solar shingles and solar panels are eligible (per NJBPU).",
+    "NJ net metering credits both systems identically: N.J.S.A. 48:3-87 requires full retail (1:1) credit for exports up to the customer's annual usage, with net annual surplus settled at the wholesale avoided-cost rate (per the statute and NJBPU).",
+    "The federal residential solar credit no longer applies to either system completed in 2026: the IRS Section 25D credit was 30% for systems completed through December 31, 2025, then repealed under P.L. 119-21 (per the IRS); a homeowner confirms current incentives with a tax professional.",
+    "High-efficiency solar panels at 20-22% extract more output from the limited south-facing roof area common on densely built Essex County lots, since fewer modules reach a target system size (per SolarReviews and GreenLancer).",
+    "Solar shingles suit integration-driven Essex County houses (flush look during a reroof); solar panels suit output-driven ones (more watts per dollar) (per the DOE and SolarReviews).",
+    "An industry rule of thumb re-roofs first when the roof outlasts neither the ~25-30-year panels nor the array, to avoid removing and reinstalling the array mid-roof; the panel-life figure is per NREL, the re-roof-first timing is an industry rule of thumb with no named standard."
+  ],
+  "positioning": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate. For this solar comparison NQR handles the roofing side only, not the solar design: mount flashing and flashed rail attachments, ASCE 7 wind/ballast load on the assembly, the re-roof-before-solar timing decision when a roof has limited remaining life, and NEC 690.12 / fire-rating coordination with the solar installer. Warranty framing is honestly two-part: a manufacturer material/power warranty plus a contractor written workmanship warranty on the roofing work; never claim certification tiers (no Master Elite / SELECT ShingleMaster / Tesla-certified). All cost, efficiency, and rating figures trace to named aggregators, manufacturers, and standards, not to NQR.",
+  "defabToKill": [
+    "BUYER'S GUIDE intro/decision-framework: 'Both options qualify for NJ's excellent solar incentives including the federal Investment Tax Credit, NJ SREC program, and net metering' and 'qualify for NJ's excellent solar incentives including the federal Investment Tax Credit' — CURRENCY ERROR: the federal residential solar ITC (IRS Section 25D, 30%) was repealed for systems completed after December 31, 2025 under P.L. 119-21; presenting it as a live incentive is false for 2026 and dies.",
+    "BUYER'S GUIDE 'Efficiency and Cost Comparison': 'Solar shingles cost more: $25,000-$50,000+ for a full roof replacement with integrated solar, versus $15,000-$30,000 for panels on an existing roof' — INVENTED whole-system dollar ranges not in the gold (gold uses per-watt and per-sq-ft only); dies.",
+    "BUYER'S GUIDE 'Efficiency and Cost Comparison': '15-18% for solar shingles' — minor figure mismatch; gold states shingles 14-18%; use gold's 14-18% range.",
+    "BUYER'S GUIDE: brand name-drops 'Tesla Solar Roof or GAF Energy Timberline Solar' are acceptable (in gold), but the article frames them loosely without datasheet attribution; keep only with the gold's named-source framing.",
+    "EXPERT-PICKS intro: 'As roofing contractors who work alongside solar installers daily, we see how solar shingles and panels actually perform on Essex County homes' — FABRICATED field-experience/daily-volume anecdote; dies (no 'we see how... actually perform' claims).",
+    "EXPERT-PICKS 'Roof Integration Quality': 'We see panel installations from less careful companies that use inadequate flashing, causing leaks within 5 years' — FABRICATED field observation AND invented '5 years' leak-failure figure not in gold; dies.",
+    "EXPERT-PICKS 'Long-Term Roofing Concerns': 'all panels must be removed, stored, and reinstalled at a cost of $3,000-$8,000' — INVENTED dollar range not in gold; dies (gold gives no remove-and-reinstall cost).",
+    "EXPERT-PICKS 'Long-Term Roofing Concerns': 'when the roof needs replacement in 10-15 years' — INVENTED roof-life timing not in gold (gold frames re-roof-first as an unnamed industry rule of thumb, panel life ~25-30 yr per NREL); dies as a fixed figure.",
+    "EXPERT-PICKS 'What We Tell Homeowners': 'If your Essex County roof has 10+ years of remaining life... install panels' and 'roof needs replacement within 5 years... consider solar shingles' — INVENTED specific year thresholds (10+, within 5) presented as a contractor rule; not in gold; reframe to gold's unnamed rule-of-thumb without invented numbers.",
+    "EXPERT-PICKS 'What We Tell Homeowners' / conclusion: 'What We Tell Homeowners' and 'From a roofing contractor perspective' and 'We recommend Essex County homeowners replace their roof...' and 'We coordinate roofing and solar installations' — FABRICATED first-person contractor-recommendation voice unsupported by named sources; reframe to what the standards/NRCA/NREL evidence supports plus NQR's registered-NJ-HIC honest framing.",
+    "EXPERT-PICKS CTA: 'We coordinate roofing and solar installations for optimal results' — overclaim; NQR handles the roofing side (flashing, load, re-roof timing, NEC/fire coordination), not solar design; reframe.",
+    "NOTE (not present but guard against): no 'licensed contractor' / 'NJ-licensed' language appears in either dirty article, but the rewrite must use 'registered New Jersey Home Improvement Contractor' (N.J.S.A. 56:8-136) and must NOT introduce a license claim, GAF Master Elite / CertainTeed SELECT ShingleMaster / Tesla-certified tiers, ENERGY STAR roof program, R-49 code, or any reinstated 30% ITC."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Solar Shingles vs Solar Panels?",
+    "directAnswerThesis": "Solar panels are better for output per dollar (20-22% efficient, ~$2.50-$4.00/watt, ~250 sq ft per 6 kW); solar shingles win only when a roof needs full replacement and roof-integrated looks decide it (per SolarReviews and EnergySage).",
+    "sectionAngles": [
+      "Which rooftop solar costs less and produces more per dollar in NJ? (panels' 20-22% at $2.50-$4.00/watt and ~250 sq ft vs shingles' 14-18% at $3.50-$8.00/watt and ~360 sq ft, per SolarReviews/EnergySage)",
+      "How do NJ incentives and code shape the decision in 2026? (SuSI SREC-II 15-year term and N.J.S.A. 48:3-87 1:1 net metering apply to both; the IRS Section 25D 30% credit was repealed for systems completed after Dec 31, 2025 under P.L. 119-21, per NJBPU and the IRS)",
+      "When does roof condition decide between integration and add-on? (shingles pair with a full reroof and cannot go over an existing roof per CertainTeed/DOE; panels add to a roof with remaining service life, re-roofing first when the roof outlasts neither the ~25-30-yr panels nor the array)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Solar Shingles vs Solar Panels?",
+    "directAnswerThesis": "The evidence favors solar panels on a sound existing roof and solar shingles only when a full reroof is already due; a registered NJ Home Improvement Contractor coordinates flashing, ASCE 7 load, and re-roof timing, not the solar design.",
+    "sectionAngles": [
+      "What do the roofing standards favor on attachment and waterproofing? (panels use flashed rail feet whose flange tucks under the upslope course so water sheds onto intact shingles, per NRCA/DOE; shingles nail in as the covering and the manufacturer warranty governs leaks under the array)",
+      "Which installation-quality and code factors decide long-term performance? (UL 790 Class A fire, UL 2218 Class 4 hail, ASTM D3161 / 130-mph wind ratings on BIPV per manufacturer datasheets; NEC 690.12 rapid shutdown to <=30V/<=80V; ASCE 7 uplift/ballast on flat commercial roofs per NRCA/SPRI)",
+      "What is the most common homeowner mistake, and how does re-roof timing avoid it? (putting panels on a roof that will outlast neither the ~25-30-yr panels nor the array forces a costly mid-life remove-and-reinstall; an industry rule of thumb re-roofs first, panel life per NREL, no named standard for the timing)"
+    ]
+  }
+}

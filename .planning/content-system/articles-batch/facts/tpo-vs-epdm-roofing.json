@@ -1,0 +1,84 @@
+{
+  "comparisonId": "tpo-vs-epdm-roofing",
+  "type": "material",
+  "itemA": "TPO (thermoplastic-polyolefin single-ply membrane)",
+  "itemB": "EPDM (ethylene propylene diene monomer rubber single-ply membrane)",
+  "verdict": {
+    "winner": "TPO wins on a cooling-load Newark flat roof; EPDM wins on ponding, chemical, or budget roofs.",
+    "reasoning": "TPO beats EPDM when the building runs a summer cooling load, because TPO's white reflective surface stays over 50 degrees F cooler than a conventional roof per the DOE and cuts peak cooling demand 11-27% per the EPA; TPO seams are heat-welded per the NRCA.",
+    "alternate": "EPDM beats TPO when the roof faces standing water, rooftop chemical exposure, or a tighter budget, because EPDM is an inert flexible rubber that installs at $7.00-$10.00 per square foot in NJ per Josten Roofing, below TPO's $8.00-$12.00."
+  },
+  "keyFacts": [
+    "TPO installs at $8.00-$12.00 per square foot in NJ; EPDM installs cheaper at $7.00-$10.00 per square foot, per Josten Roofing.",
+    "TPO lasts 7-20 years on the InterNACHI life-expectancy chart, commonly cited at 15-25 years in practice.",
+    "EPDM lasts 15-25 years per the InterNACHI life-expectancy chart, with a service-life study citing 25-30 years.",
+    "White TPO carries a CRRC-listed solar reflectance near 0.70-0.85 measured by ASTM C1549.",
+    "A reflective roof surface stays over 50 degrees F cooler than a conventional roof, per the DOE.",
+    "A reflective TPO surface cuts peak cooling demand by 11-27% in air-conditioned buildings per the EPA, which is a peak-demand reduction, not a guaranteed annual bill cut.",
+    "Newark sits in IRC Climate Zone 4A-5, a heating-dominated mixed climate, so a reflective TPO roof carries a winter heating penalty that offsets part of the summer gain, per the DOE.",
+    "EPDM's black carbon-filled surface absorbs heat and resists UV; black EPDM outlasts white EPDM because the carbon black acts as a UV stabilizer, per industry guidance.",
+    "TPO seams are heat-welded into a fused thermoplastic bond; EPDM seams are taped or adhered, per the NRCA.",
+    "TPO's dominant failure mode is welded-seam failure (a defective weld opens the leak path); EPDM's dominant failure mode is seam separation driven by adhesive aging and membrane shrinkage.",
+    "EPDM repairs faster in the field by clean-prime-patch (cleaned, primed, and patched with adhesive), while a permanent TPO repair requires heat-welding equipment.",
+    "A small membrane patch runs $300-$500, per Modernize.",
+    "A failing section of either TPO or EPDM membrane replaces for $500-$1,000, per Modernize.",
+    "Both membranes require NRCA positive drainage of at least 1/4 inch per foot (about 2%) because ponding water stresses every seam and accelerates membrane deterioration on either sheet.",
+    "EPDM, as an inert flexible rubber, resists rooftop chemical exposure and flexes around heavy rooftop equipment better than TPO, which needs walk pads and equipment supports to protect the membrane."
+  ],
+  "sources": [
+    "NRCA (National Roofing Contractors Association) - single-ply membrane definitions, heat-welded vs taped seams, minimum 1/4-inch-per-foot design slope",
+    "InterNACHI life-expectancy chart - TPO 7-20 years, EPDM 15-25 years",
+    "Josten Roofing - NJ installed cost ranges (TPO $8-$12/sq ft, EPDM $7-$10/sq ft)",
+    "EPA - reflective roof cuts peak cooling demand 11-27% in air-conditioned buildings",
+    "DOE (U.S. Department of Energy) - reflective roof stays 50+ degrees F cooler, IRC Climate Zone 4A-5 heating-dominated, winter heating penalty",
+    "CRRC (Cool Roof Rating Council) - listed solar reflectance for white TPO",
+    "ASTM C1549 - solar reflectance test method",
+    "Modernize - $300-$500 small patch, $500-$1,000 failing-section replacement",
+    "Industry guidance - carbon black as UV stabilizer in black EPDM"
+  ],
+  "njContext": [
+    "TPO installs at $8.00-$12.00 per square foot in NJ; EPDM at $7.00-$10.00 per square foot, per Josten Roofing.",
+    "Both TPO and EPDM install to the same NJ low-slope drainage rule: NRCA minimum design slope of 1/4 inch per foot (about 2%) so water drains rather than ponds.",
+    "Newark and the surrounding Essex County (East Orange, Bloomfield) sit in IRC Climate Zone 4A-5, a heating-dominated mixed climate per the DOE; a reflective TPO roof cuts peak summer cooling demand but carries a winter heating penalty, so net annual benefit depends on insulation and exposure.",
+    "On Newark/Essex County homes, EPDM fits most residential flat sections (rear additions, sun porches, attached garages) because it installs fast by clean-prime-patch and costs less; black EPDM blends with traditional Essex County rooflines.",
+    "TPO suits an Essex County commercial roof carrying air-conditioning load (peak cooling demand down 11-27% per EPA); EPDM suits a warehouse, storage, or low-HVAC building where reflectance adds no measurable benefit and chemical/equipment resistance matters.",
+    "Newark Quality Roofing installs tapered insulation to move water off either membrane and details both membranes for foot traffic at every commercial penetration."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (NJ HIC, N.J.S.A. 56:8-136), insured, offering a free written estimate, that installs both TPO and EPDM single-ply membranes on low-slope Essex County roofs. NQR's role is matching the membrane to the building: TPO on cooling-load roofs for its CRRC-listed reflectance and heat-welded seams, EPDM on ponding/chemical/budget roofs for its inert-rubber durability and lower NJ cost, plus tapered insulation for NRCA positive drainage. Warranty framing is honest and two-part: a manufacturer material warranty on the membrane plus NQR's own written workmanship warranty on the installation; never imply manufacturer certification tiers or a roofing license NJ does not issue. This is not a solar page, so no solar/ITC framing applies.",
+  "defabToKill": [
+    "BUYER'S GUIDE - 'reducing cooling costs by 15-30% during NJ summers': invented figure and wrong metric. Gold says 11-27% peak cooling DEMAND per EPA (not cost, not 15-30%). Replace with gold's 11-27% peak-demand-per-EPA figure.",
+    "BUYER'S GUIDE - 'EPDM costs $4.50-$7.50 per sq ft installed... TPO runs $5.50-$9.00': invented cost ranges contradicting gold. Gold/Josten: EPDM $7-$10, TPO $8-$12 per sq ft.",
+    "BUYER'S GUIDE - 'On a 10,000 sq ft commercial roof, that is a $10,000-$15,000 difference': invented cost-per-roof math, not in gold. Dies.",
+    "BUYER'S GUIDE - 'proven 30+ year installations throughout NJ' (EPDM) and 'shorter proven track record of 20-25 years' (TPO): invented lifespan claims. Gold/InterNACHI: EPDM 15-25 (study 25-30), TPO 7-20 (15-25 in practice).",
+    "BUYER'S GUIDE - 'NJ's Clean Energy Program has periodically offered rebates for cool roofing systems including white TPO': incentive claim not in gold and currency-questionable; not a verified NQR fact. Dies (no incentive/rebate claims).",
+    "BUYER'S GUIDE - 'tenant satisfaction with indoor comfort often tips the decision toward TPO': opinion/anecdote with no source. Dies; replace with sourced reflectance benefit.",
+    "EXPERT PICKS - 'Commercial roofing contractors in NJ see TPO and EPDM performance daily. Here is what we have learned from decades of installing, maintaining, and replacing both systems across Essex County': fabricated field experience / decades-of-volume claim. Dies; reframe as what standards/InterNACHI/NRCA/EPA evidence recommend.",
+    "EXPERT PICKS - 'EPDM adhesive seams in Essex County start showing separation at 12-15 years': invented specific timeline not in gold. Gold gives seam separation as the dominant EPDM failure mode without a 12-15-year figure.",
+    "EXPERT PICKS - 'On buildings along the Passaic River where humidity is consistently high, EPDM seam adhesive degrades faster': invented location-specific anecdote with no source. Dies.",
+    "EXPERT PICKS - 'We have transitioned primarily to TPO for new installations because of this seam reliability difference': fabricated NQR practice/preference anecdote. Dies.",
+    "EXPERT PICKS - 'TPO membranes exposed to chronic ponding can experience accelerated plasticizer degradation': false/invented — TPO is not plasticized (that mechanism belongs to PVC), and the claim is not in gold. Dies.",
+    "EXPERT PICKS - 'Adding tapered insulation for positive drainage costs $1-$3/sq ft but extends any membrane life by 5-10 years': invented cost and life-extension figures not in gold. Keep only that NQR installs tapered insulation for NRCA positive drainage (in gold), drop the numbers.",
+    "EXPERT PICKS - 'We have repaired numerous EPDM roofs where previous contractors used wrong adhesive, causing widespread seam failures within 5 years': fabricated NQR repair anecdote and invented 5-year figure. Dies.",
+    "EXPERT PICKS - 'Our commercial division has installed hundreds of flat roofs across Essex County' (CTA): fabricated project-count / volume claim. Dies; replace with registered-NJ-HIC, insured, free written estimate framing.",
+    "BOTH - first-person field-volume voice ('we see', 'we have learned', 'our crews/division', 'we always recommend', 'we specify'): no fabricated experiential authority. Reframe every recommendation as what named sources (NRCA, InterNACHI, EPA, DOE, CRRC, Josten, Modernize) support.",
+    "NOTE - no manufacturer-certification self-claims (no GAF Master Elite / CertainTeed SELECT ShingleMaster / membrane-brand certification tiers) appear in the dirty articles, but the rewrite must NOT introduce any; warranty stays two-part (manufacturer material + NQR written workmanship). No 'licensed'/'NJ-licensed' wording — NJ issues no roofing license; use registered NJ Home Improvement Contractor (N.J.S.A. 56:8-136)."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: TPO vs EPDM Roofing?",
+    "directAnswerThesis": "TPO wins on a Newark flat roof carrying summer cooling load, for its CRRC-listed reflectance and heat-welded seams; EPDM wins on ponding, chemical-exposure, or tight-budget roofs at $7-$10 versus TPO's $8-$12 per square foot.",
+    "sectionAngles": [
+      "How do TPO and EPDM compare on installed cost and service life on a NJ flat roof? (Josten $7-$10 EPDM vs $8-$12 TPO; InterNACHI EPDM 15-25 vs TPO 7-20 years)",
+      "Which membrane fits Newark's climate and NJ low-slope code? (CRRC reflectance and EPA 11-27% peak cooling demand vs heating-dominated Zone 4A-5 winter penalty per DOE; NRCA 1/4-inch-per-foot drainage)",
+      "What is the decision checklist: cooling load vs ponding, chemicals, and budget? (TPO for cooling-load buildings; EPDM for standing-water, chemical, equipment-heavy, or budget roofs)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for TPO vs EPDM Roofing?",
+    "directAnswerThesis": "Match the membrane to the building: standards and evidence favor TPO's heat-welded seams and CRRC reflectance on cooling-load roofs, and EPDM's inert-rubber durability and lower NJ cost on ponding, chemical, or budget roofs.",
+    "sectionAngles": [
+      "What do the seam specs actually favor over time? (NRCA: TPO heat-welded fused bond vs EPDM taped/adhered seams; dominant failure modes are TPO welded-seam defects and EPDM seam separation from adhesive aging and shrinkage)",
+      "Which installation-quality factors decide longevity in NJ? (NRCA positive drainage of 1/4 inch per foot since ponding accelerates deterioration on both; reflectance value confirmed by ASTM C1549/CRRC; correct membrane-specific adhesives for EPDM, calibrated welding for TPO)",
+      "What homeowner and building-owner mistakes shorten flat-roof life? (ignoring ponding/drainage, picking on color alone instead of cooling load per EPA/DOE, expecting a white roof to guarantee annual savings in heating-dominated Zone 4A-5)"
+    ]
+  }
+}

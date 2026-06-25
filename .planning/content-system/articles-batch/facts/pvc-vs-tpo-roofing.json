@@ -1,0 +1,83 @@
+{
+  "comparisonId": "pvc-vs-tpo-roofing",
+  "type": "material",
+  "itemA": "PVC membrane",
+  "itemB": "TPO membrane",
+  "verdict": {
+    "winner": "PVC membrane wins for any roof exposed to grease, fats, oils, or solvents.",
+    "reasoning": "PVC membrane beats TPO membrane when the roof carries grease, fats, oils, or solvent exhaust, because PVC resists the chemical contact that softens and degrades TPO (per Duro-Last), and PVC carries a longer 20-30-year service life (per the Single Ply Roofing Industry).",
+    "alternate": "TPO membrane is the better value for offices, retail, schools, and warehouses with no rooftop chemical exposure, because TPO matches PVC on heat-welded seams and ~0.70-0.85 solar reflectance at a comparable price near $8-$12 per square foot."
+  },
+  "keyFacts": [
+    "PVC is a single-ply polyvinyl-chloride thermoplastic roofing membrane, hot-air-welded at the seams; the white membrane resists grease, oils, and chemical exhaust and reflects solar radiation as a cool roof.",
+    "TPO is a single-ply thermoplastic-polyolefin roofing membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface.",
+    "PVC membrane carries a 20-30-year typical service life (per the Single Ply Roofing Industry).",
+    "TPO membrane lists a 7-20-year service life on the InterNACHI Estimated Life Expectancy Chart.",
+    "Both PVC and TPO install at roughly $8-$12 per square foot in Essex County / New Jersey (per Josten Roofing).",
+    "PVC membrane resists rooftop grease, animal fats, oils, and solvents, while TPO membrane softens and degrades under chronic chemical contact (per Duro-Last).",
+    "Both PVC and TPO seal at the seam by hot-air heat-welding, so the chemical exposure on the roof, not the seam method, drives the choice.",
+    "White PVC and white TPO both carry ~0.70-0.85 initial solar reflectance and ~0.80-0.90 thermal emittance, measured per ASTM C1549 and listed by the Cool Roof Rating Council (CRRC).",
+    "PVC membrane ages mainly through plasticizer loss leading to embrittlement, surface cracking, and pinholes, plus welded-seam failure and cold-weather shattering of unreinforced sheets (per the NRCA); reinforced PVC resists that cold-shatter failure mode.",
+    "TPO membrane fails most often at the welded seam, then through chemical attack from rooftop equipment and thermal-shock cracking as plasticizers migrate and the membrane hardens (per single-ply manufacturer guidance).",
+    "A reflective (cool) roof stays over 50 F cooler than a conventional dark roof on a sunny afternoon (per the DOE).",
+    "A cool roof reduces peak cooling demand by 11-27% in air-conditioned residential buildings (per the EPA).",
+    "In Newark's heating-dominated climate, a reflective membrane surface cuts peak summer cooling demand while carrying a winter heating tradeoff (per the DOE).",
+    "A small TPO section repair runs $300-$500 (per Modernize).",
+    "A roof switches between TPO and PVC only with a full tear-off, because the two thermoplastics differ chemically and do not heat-weld to each other.",
+    "Once installed, white PVC and white TPO look near-identical; a roofing professional distinguishes them by thickness and weld behavior, while building occupants see no difference.",
+    "PVC is the chemical-resistant choice for restaurant and food-processing roofs where exhaust vents deposit fats and oils; TPO suits roofs with no grease, chemical, or solvent exposure."
+  ],
+  "sources": [
+    "Single Ply Roofing Industry (SPRI)",
+    "InterNACHI Estimated Life Expectancy Chart",
+    "Duro-Last",
+    "Josten Roofing",
+    "ASTM C1549",
+    "Cool Roof Rating Council (CRRC)",
+    "NRCA (National Roofing Contractors Association)",
+    "DOE (U.S. Department of Energy)",
+    "EPA (U.S. Environmental Protection Agency)",
+    "Modernize"
+  ],
+  "njContext": [
+    "Both PVC and TPO install near $8-$12 per square foot on Essex County flat roofs (per Josten Roofing), so the rooftop chemical exposure decides the membrane, not New Jersey code.",
+    "PVC earns its place on Newark commercial corridors crowded with restaurants and food-processing buildings, where exhaust grease degrades a TPO surface; PVC carries a 20-30-year service life in that exposure (per SPRI).",
+    "TPO fits the warehouses, offices, and retail buildings along Essex County's highway corridors that carry no rooftop grease or solvent exposure, matching PVC on heat-welded seams and reflectance at a comparable installed price near $8-$12 per square foot (per Josten Roofing).",
+    "On residential flat-roof sections (porch roof, dormer flat, rear addition), TPO fits most because a home rarely carries rooftop grease; a small TPO section repair runs $300-$500 (per Modernize).",
+    "PVC earns the residential premium only where a rooftop deck hosts an outdoor kitchen or grill that deposits grease.",
+    "In Newark's heating-dominated climate, a white reflective membrane cuts peak summer cooling demand while carrying a winter heating tradeoff (per the DOE)."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate. NQR installs both PVC and TPO single-ply commercial membranes and matches the membrane to the building's actual rooftop exposure rather than upselling: PVC where grease/chemical/solvent exhaust is present (restaurants, food processing, kitchens), TPO for clean office/retail/warehouse roofs at a comparable installed price. Warranty framing must stay honest and two-part: the manufacturer covers the membrane material, and the contractor provides a separate written workmanship warranty; never imply a single blended warranty or cite manufacturer certification tiers as a quality claim.",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'The chemical resistance premium ($1-$3 more per sq ft)' — invented figure not in gold (gold lists both PVC and TPO at $8-$12/sq ft with no PVC premium delta); dies.",
+    "BUYERS-GUIDE: 'TPO maintains better flexibility in cold temperatures than PVC, which can become brittle in extended freezing... PVC on very cold days can crack if walked on improperly' — fabricated cold-flexibility comparison; gold attributes PVC cold-shatter to UNREINFORCED sheets only and notes reinforced PVC resists it (per NRCA). The blanket 'TPO is more flexible in cold' claim is unsupported; dies.",
+    "BUYERS-GUIDE: 'Both achieve Energy Star ratings for cool roofing' — ENERGY STAR roof product program is DEAD; reflectance is now measured per ASTM C1549 and rated by the Cool Roof Rating Council (CRRC) per the gold; dies and is replaced with CRRC/ASTM C1549.",
+    "BUYERS-GUIDE: 'Both last 20-30 years properly installed' — invented; conflates the two materials. Gold gives PVC 20-30 years (SPRI) but TPO only 7-20 years (InterNACHI). Claiming both last 20-30 years is a fabricated figure; dies.",
+    "BUYERS-GUIDE: 'complex roof details require superior weldability' / 'forgiving weld process' framing — unsupported field claim not in gold; dies.",
+    "EXPERT-PICKS: 'Installing both PVC and TPO on commercial buildings across Essex County gives our crews direct comparison experience. Here is what we see performing differently in the field.' — fabricated NQR field-experience/volume anecdote; dies.",
+    "EXPERT-PICKS: 'PVC welds more predictably than TPO. The welding window... is wider... When we switch TPO brands, we recalibrate and test before welding production seams.' — fabricated 'we' crew anecdote and unsupported weld-window claim; dies.",
+    "EXPERT-PICKS: 'PVC membranes we installed 25+ years ago in Essex County are still performing well... Our oldest TPO installations are 15-18 years old' — fabricated NQR install-history/longevity anecdote with invented years (25+, 15-18); dies.",
+    "EXPERT-PICKS: 'One pattern: PVC roofs tend to shrink over time, pulling at edges and penetrations. TPO shows this less frequently.' — unsupported 'we observe' field pattern not in gold; dies.",
+    "EXPERT-PICKS: 'For budget-conscious projects: TPO from Carlisle, Firestone, or GAF. For premium longevity projects: PVC from Sarnafil, Duro-Last, or IB Roof Systems.' — brand-recommendation list reads as endorsement/cert framing not in gold (only Duro-Last appears in gold, and there only as a cited technical source, not a product endorsement); strip brand picks.",
+    "EXPERT-PICKS: 'Our commercial team has installed hundreds of membrane roofs across Essex County' (ctaText) — fabricated project-count volume claim; dies.",
+    "EXPERT-PICKS / BUYERS-GUIDE: 'ask your TPO installer specifically about peel-test protocols and welding temperature documentation' — acceptable as a standards-grounded homeowner-mistake angle ONLY if reframed to industry seam-integrity practice (NRCA/manufacturer guidance), NOT as 'what we do'; remove the 'we'-implied framing."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: PVC vs TPO Roofing?",
+    "directAnswerThesis": "PVC wins on any roof with grease, oil, or chemical exhaust (restaurants, food plants) and lasts 20-30 years vs TPO's 7-20; TPO is the better value for clean office, retail, and warehouse roofs at the same $8-$12/sq ft.",
+    "sectionAngles": [
+      "Does PVC or TPO cost more, and is the price difference real? (both install at $8-$12/sq ft in Essex County per Josten Roofing; the deciding factor is service life, not install cost)",
+      "Which membrane fits an Essex County roof's actual exposure and the Newark climate? (PVC for grease/chemical roofs; TPO for clean roofs; both ~0.70-0.85 reflectance per ASTM C1549/CRRC, with a winter heating tradeoff per the DOE)",
+      "How do you decide between PVC and TPO for your building? (the decision checklist: rooftop chemical/grease exposure -> PVC; no chemical exposure + budget priority -> TPO; expected service life 20-30 vs 7-20 years)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for PVC vs TPO Roofing?",
+    "directAnswerThesis": "Industry standards point to PVC for grease- or chemical-exposed roofs (longer 20-30-year life per SPRI) and TPO for clean office/retail/warehouse roofs; a registered NJ Home Improvement Contractor matches the membrane to the building's real exposure.",
+    "sectionAngles": [
+      "What do the service-life and material standards actually favor for each roof type? (SPRI 20-30-year PVC vs InterNACHI 7-20-year TPO; Duro-Last chemical-resistance guidance; ASTM C1549/CRRC reflectance parity)",
+      "Which installation-quality factors decide how long a single-ply membrane lasts? (heat-welded seam integrity is the dominant failure mode for both per NRCA/manufacturer guidance; reinforced PVC resists cold-shatter; verify a separate written workmanship warranty alongside the manufacturer material warranty)",
+      "What are the most common building-owner mistakes when choosing PVC vs TPO? (paying the PVC premium with no rooftop chemical exposure, or specifying TPO where kitchen-exhaust grease will degrade it per Duro-Last; assuming ENERGY STAR ratings instead of checking CRRC/ASTM C1549 reflectance)"
+    ]
+  }
+}

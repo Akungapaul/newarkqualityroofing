@@ -1,0 +1,100 @@
+{
+  "comparisonId": "modified-bitumen-vs-tpo",
+  "type": "material",
+  "itemA": "Modified Bitumen",
+  "itemB": "TPO",
+  "verdict": {
+    "winner": "Modified bitumen wins on multi-ply toughness; TPO wins on reflectance and lower NJ install cost.",
+    "reasoning": "Modified bitumen beats TPO when the roof carries frequent foot traffic or rooftop equipment because its 2-3 reinforced plies resist punctures and dropped tools that a single-ply membrane absorbs, per NRCA, where TPO needs walk pads in traffic lanes.",
+    "alternate": "TPO beats modified bitumen when cooling load and install budget lead: TPO's white surface carries roughly 0.70-0.85 solar reflectance per CRRC against modified bitumen's heat-absorbing dark cap, and TPO installs at $8.00-$12.00 per NJ square foot, per Josten Roofing."
+  },
+  "keyFacts": [
+    "On the InterNACHI life-expectancy chart, modified bitumen rates 20 years versus TPO's 7-20 years (InterNACHI).",
+    "TPO is commonly cited at 15-25 years in practice, per Progressive Materials.",
+    "Modified bitumen is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet (SBS or APP modifier) over 2-3 reinforced base plies (gold definition).",
+    "TPO is a single-ply thermoplastic-polyolefin membrane, hot-air heat-welded at the seams, installed on commercial and residential low-slope/flat roofs (gold definition).",
+    "TPO installs at $8.00-$12.00 per NJ square foot, per Josten Roofing.",
+    "Modified bitumen falls inside the broader NJ flat-roof installed bracket of $2.50-$10.00 per square foot, per HomeGuide (no sourced standalone modified-bitumen per-foot figure, so no per-foot head-to-head winner holds).",
+    "TPO at $8.00-$12.00 per NJ square foot sits in the same low-slope band as EPDM ($7.00-$10.00) and PVC ($6-$12), per Josten Roofing.",
+    "NJ flat-roof pricing runs roughly 10-40% above national averages on higher labor and stricter code, per Josten Roofing.",
+    "Modified bitumen flat-roof repair runs $300-$1,100 for a typical job, with extensive leak-plus-structure work reaching $1,200-$3,000, per HomeGuide and Angi.",
+    "TPO seam re-welds run $200-$400 and patches $300-$500, per Modernize.",
+    "TPO's white surface carries roughly 0.70-0.85 initial solar reflectance and roughly 0.80-0.90 thermal emittance per ASTM C1549, CRRC-listed, while modified bitumen's dark granule cap absorbs solar load, per CRRC.",
+    "TPO reflectance reduces peak summer cooling demand 11-27% in air-conditioned buildings, per the EPA.",
+    "A reflective roof keeps its surface temperature over 50 degrees F below a conventional roof on a sunny afternoon, per the DOE; roof reflective performance is rated by reflectance and emittance, not R-value, per CRRC.",
+    "Modified bitumen withstands foot traffic better than TPO: its 2-3 reinforced plies form a thick membrane resisting dropped tools and rooftop-equipment placement, while single-ply TPO needs walk pads in high-traffic lanes, per NRCA.",
+    "Modified bitumen multi-ply construction provides redundancy so a surface gouge meets additional plies before reaching the deck, whereas a puncture breaches single-layer TPO outright, per NRCA technical guidance.",
+    "Modified bitumen fails by blistering, delamination, alligator cracking from UV oxidation, and flashing separation at penetrations, per NRCA.",
+    "TPO fails primarily by welded-seam failure plus thermal-shock cracking as plasticizers migrate and the membrane hardens, per NRCA.",
+    "Modified bitumen installs by torch-applied or cold-adhesive methods (cold-adhesive uses no open flame and costs slightly more than torch-applied), while TPO joins by hot-air heat-welded seams with no flame, per NRCA.",
+    "Neither modified bitumen nor TPO tolerates chronic ponding; NJ building code requires positive drainage, and tapered insulation under either membrane directs water to drains, with modified bitumen's multi-ply construction carrying slightly more ponding tolerance, per NRCA.",
+    "TPO can be installed over existing modified bitumen via a recover board in many NJ cases; the board separates membranes and adds insulation, with N.J.A.C. 5:23-6.4 limiting total roof layers, per the NJ Rehabilitation Subcode."
+  ],
+  "sources": [
+    "InterNACHI life-expectancy chart",
+    "Progressive Materials",
+    "Josten Roofing",
+    "HomeGuide",
+    "Angi",
+    "Modernize",
+    "NRCA (National Roofing Contractors Association)",
+    "ASTM C1549",
+    "CRRC (Cool Roof Rating Council)",
+    "EPA",
+    "DOE (U.S. Department of Energy)",
+    "N.J.A.C. 5:23-2.7",
+    "N.J.A.C. 5:23-2.7(b)",
+    "N.J.A.C. 5:23-2.7(c)",
+    "N.J.A.C. 5:23-6.4 (NJ Rehabilitation Subcode)",
+    "NJ DCA (Department of Community Affairs) energy subcode",
+    "2021 IECC (adopted by NJ for ceiling insulation)"
+  ],
+  "njContext": [
+    "TPO installs at $8.00-$12.00 per NJ square foot, per Josten Roofing; modified bitumen falls inside the broader NJ flat-roof bracket of $2.50-$10.00 per square foot, per HomeGuide.",
+    "NJ flat-roof pricing runs roughly 10-40% above national averages on higher labor and stricter code, per Josten Roofing.",
+    "The NJ Uniform Construction Code treats a full re-roof of modified bitumen or TPO as ordinary maintenance on a detached 1- or 2-family dwelling: no permit, inspection, or notice, per N.J.A.C. 5:23-2.7 and the NJ DCA.",
+    "The NJ UCC requires a permit once flat-roof work exceeds 25% of roof area within 12 months on a commercial, condo, or attached building, or turns structural by cutting load-bearing members, per N.J.A.C. 5:23-2.7(b) and 5:23-2.7(c).",
+    "Newark sits in IRC Climate Zone 4A-5 (heating-dominated), which carries a winter heating offset that narrows the net annual reflectance benefit of a white TPO roof, per the DOE and EPA.",
+    "NJ adopted the 2021 IECC for ceiling insulation (R-60, Zones 4-5) but sets no cool-roof reflectance mandate for low-slope residential, per the DOE, EPA, and NJ DCA energy subcode.",
+    "TPO over existing modified bitumen via a recover board is allowed in many NJ cases, but N.J.A.C. 5:23-6.4 limits total roof layers and deck/layer count governs whether the recover qualifies, per the NJ Rehabilitation Subcode.",
+    "On a commercial NJ building, TPO (or modified bitumen) work triggers a UCC permit once it exceeds 25% of roof area in 12 months, since the ordinary-maintenance exemption covers only detached 1- and 2-family dwellings, per N.J.A.C. 5:23-2.7(c)."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (registration under N.J.S.A. 56:8-136, not a 'license' since NJ issues no roofing license), insured, offering a free written estimate, that installs both modified bitumen and TPO on Essex County low-slope and flat roofs. Frame any warranty honestly as two separate parts: a manufacturer material warranty plus NQR's own written workmanship warranty; never reference manufacturer certification tiers (no GAF Master Elite, no CertainTeed SELECT, no 'we are certified' claims) and never invent project counts or field anecdotes. Recommendations are grounded in named standards and trade sources (NRCA, CRRC/ASTM C1549, InterNACHI, EPA/DOE, N.J.A.C. 5:23) rather than self-asserted experience.",
+  "defabToKill": [
+    "buyers-guide intro: 'modified bitumen and TPO represent two generations of commercial flat roofing technology' is fine as framing, but the article is positioned commercial-only while the H1 frames a homeowner choice; rebalance per gold (residential flat sections + commercial).",
+    "buyers-guide 'System Fundamentals': 'It has been the commercial roofing standard in NJ for decades and every experienced roofer knows the material' - unsourced sweeping claim, kill (not in gold).",
+    "buyers-guide 'Cost and Performance in Essex County': 'Modified bitumen costs $5-$8 per square foot installed, while TPO runs $5.50-$9' - INVENTED figures, not in gold; gold has TPO $8.00-$12.00 (Josten Roofing) and modified bitumen inside $2.50-$10.00 (HomeGuide). Kill both fabricated ranges.",
+    "buyers-guide 'Cost and Performance': 'TPO wins on energy efficiency with its reflective white surface reducing cooling costs 15-30% in summer' - INVENTED stat ('15-30%'); gold states EPA 11-27% peak summer cooling demand reduction. Replace with the EPA figure.",
+    "buyers-guide 'Cost and Performance': 'TPO's energy savings can offset its slightly higher cost within 3-5 years' - INVENTED payback math, not in gold. Kill.",
+    "buyers-guide 'Decision Guide': 'you are pursuing green building certification' - speculative; gold has no LEED/green-cert claim. Kill or generalize to reflectance/cooling.",
+    "buyers-guide 'Decision Guide': 'Many Essex County buildings benefit from hybrid approaches... Ask your contractor about combination systems' - INVENTED hybrid/combination-system claim, not in gold. Kill.",
+    "expert-picks intro: 'Having installed both modified bitumen and TPO on hundreds of Essex County commercial buildings, our crews have developed strong preferences based on real-world performance' - FABRICATED field experience + project volume ('hundreds'), 'our crews'. Kill; replace with standards-grounded framing.",
+    "expert-picks 'Durability Observations': 'We see 30-year-old modified bitumen roofs in Newark's industrial areas still holding up' - FABRICATED field anecdote + invented 30-year lifespan (gold InterNACHI rates modified bitumen 20 years). Kill.",
+    "expert-picks 'Durability Observations': 'TPO membranes in similar conditions show scuff marks and occasional punctures' - 'we see' field anecdote framing. Kill / re-ground in NRCA single-ply puncture/walk-pad guidance.",
+    "expert-picks 'Durability Observations': 'we see more seam-related leaks on modified bitumen roofs than TPO roofs after 15+ years. TPO's heat-welded seams are genuinely more reliable long-term' - FABRICATED comparative field claim; gold attributes TPO's dominant failure mode to welded-seam failure (NRCA), which partially contradicts this. Kill anecdote; re-ground in NRCA failure-mode data.",
+    "expert-picks 'Installation Considerations': 'Some municipalities require fire watches and additional insurance riders for torch-down roofing' - unsourced regulatory claim, not in gold. Kill (note gold offers cold-adhesive no-flame option per NRCA instead).",
+    "expert-picks 'Installation Considerations': 'TPO crews can cover 50% more area per day than modified bitumen crews. That speed advantage translates to lower labor costs' - INVENTED productivity stat ('50% more area per day'), not in gold. Kill.",
+    "expert-picks 'What We Recommend and Why': 'For new construction in Essex County: TPO is our default recommendation' / 'For re-roofing over existing modified bitumen: we often recommend...' / 'For rooftop restaurants and buildings with heavy mechanical equipment' - self-asserted contractor preferences framed as field experience ('our default', 'we often recommend'). Re-ground each recommendation in gold verdict/alternate + NRCA/CRRC standards, drop the 'we'-experience framing.",
+    "expert-picks metaDescription: 'insights from Essex County' implies proprietary field data - acceptable only if reframed as standards-based recommendation, not experiential.",
+    "Both articles: no manufacturer-certification self-claims found (no GAF Master Elite/CertainTeed/etc.), and no 'licensed contractor' / 'NJ-licensed' phrasing found in these two blocks - confirm none added in rewrite (use 'registered New Jersey Home Improvement Contractor').",
+    "Both articles: no active federal solar ITC / Section 25D / 25C / 30% tax credit, no ENERGY STAR roof program, no R-49 code reference found in these two blocks - confirm none introduced; gold correctly uses CRRC/ASTM C1549 and R-60 (2021 IECC)."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Modified Bitumen vs TPO?",
+    "directAnswerThesis": "Neither wins outright: modified bitumen (20-year InterNACHI rating, multi-ply) wins for heavy foot traffic and rooftop equipment; white TPO wins for cooling-load reflectance and lower NJ install cost ($8-12/sq ft).",
+    "sectionAngles": [
+      "What does each membrane cost to install and repair on an Essex County flat roof? (TPO $8-12/sq ft per Josten Roofing vs modified bitumen inside the $2.50-$10 bracket per HomeGuide; repair ranges per HomeGuide/Modernize/Angi)",
+      "Which membrane fits Newark's climate and NJ flat-roof code? (TPO 0.70-0.85 reflectance/EPA 11-27% cooling reduction vs heating-offset Zone 4A-5; N.J.A.C. 5:23-2.7 ordinary-maintenance vs commercial 25% permit rule)",
+      "How do you decide between them - what is the deciding factor? (foot traffic / rooftop equipment / puncture risk favors modified bitumen per NRCA; cooling load + budget favors TPO per CRRC/Josten)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Modified Bitumen vs TPO?",
+    "directAnswerThesis": "The evidence favors white TPO for cooling-driven, low-traffic flat roofs (CRRC reflectance, lower NJ cost) and modified bitumen for equipment-heavy, high-foot-traffic roofs where its 2-3 reinforced plies resist punctures, per NRCA.",
+    "sectionAngles": [
+      "What do the roofing standards actually favor for each roof profile? (NRCA foot-traffic/puncture redundancy for modified bitumen; CRRC/ASTM C1549 reflectance and EPA 11-27% cooling reduction for TPO)",
+      "Which installation and seam factors decide long-term performance? (modified bitumen torch vs no-flame cold-adhesive per NRCA; TPO hot-air welded seams whose welded-seam failure is its dominant failure mode per NRCA)",
+      "What flat-roof mistakes shorten membrane life in NJ? (ignoring ponding - neither tolerates it, NJ code requires positive drainage; skipping walk pads on single-ply TPO; over-stacking layers past N.J.A.C. 5:23-6.4 on recover jobs)"
+    ]
+  }
+}

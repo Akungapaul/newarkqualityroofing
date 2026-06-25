@@ -1,31 +1,46 @@
-// Articles Batch — full-page screenshots + render checks for the 42 replacement-sub-pages articles.
+// Articles Batch — full-page screenshots + render checks for the 60 comparison articles.
 // Articles render their full content (directAnswer/ArticleBody) at root /<slug>.
 // Run: NODE_PATH=/opt/homebrew/lib/node_modules PORT=3240 node .planning/content-system/articles-batch/shots.js
 const { chromium } = require('playwright');
 const PORT = process.env.PORT || 3240;
-const SERVICES = [
-  'full-roof-tear-off',
-  'roof-overlay-installation',
-  're-roofing',
-  'insurance-roof-replacement',
-  'storm-damage-roof-replacement',
-  'aging-roof-replacement',
-  'roof-replacement-after-leak',
-  'fire-damage-roof-replacement',
-  'asphalt-shingle-roof-replacement',
-  'metal-roof-replacement',
-  'slate-roof-replacement',
-  'tile-roof-replacement',
-  'flat-roof-replacement',
-  'cedar-shake-roof-replacement',
+const COMPARISONS = [
+  'asphalt-shingles-vs-metal-roofing',
+  'slate-vs-tile-roofing',
+  'tpo-vs-epdm-roofing',
+  'metal-vs-tile-roofing',
+  'asphalt-vs-slate-roofing',
+  'wood-shake-vs-asphalt-shingles',
+  'pvc-vs-tpo-roofing',
+  'standing-seam-vs-corrugated-metal',
+  'modified-bitumen-vs-tpo',
+  'rubber-roofing-vs-tpo',
+  'cedar-shake-vs-wood-shingle',
+  'built-up-roofing-vs-modified-bitumen',
+  'spray-foam-vs-tpo',
+  'green-roof-vs-traditional-roofing',
+  'solar-shingles-vs-solar-panels',
+  'roof-repair-vs-replacement',
+  'roof-coating-vs-replacement',
+  'roof-overlay-vs-tear-off',
+  'patching-vs-full-roof-repair',
+  'preventive-maintenance-vs-emergency-repair',
+  'best-roofing-material-nj-weather',
+  'best-commercial-roofing-material',
+  'best-roofing-for-flat-roofs',
+  'best-roofing-for-historic-homes-nj',
+  'cheapest-vs-most-durable-roofing',
+  'most-energy-efficient-roofing-materials',
+  'architectural-vs-3-tab-shingles',
+  'diy-vs-professional-roof-repair',
+  'best-roofing-for-essex-county-colonial-homes',
+  'roof-warranty-comparison-guide',
 ];
-// Replacement slugs: signs-you-need-{id}-nj / {id}-cost-breakdown-nj / {id}-complete-guide-nj.
-const SLUGS = SERVICES.flatMap((id) => [
-  `signs-you-need-${id}-nj`,
-  `${id}-cost-breakdown-nj`,
-  `${id}-complete-guide-nj`,
+// Comparison slugs: pos1 how-to-choose-{cmp}-nj / pos2 what-nj-roofers-recommend-{cmp}.
+const SLUGS = COMPARISONS.flatMap((c) => [
+  `how-to-choose-${c}-nj`,
+  `what-nj-roofers-recommend-${c}`,
 ]);
-const DEFAB = /GAF[-\s]?certified|same-?day|24\s*\/\s*7|24-7|0\s*%\s*financing|top-?rated|master[-\s]elite|certainteed select|HAAG|500\+|golden pledge|hundreds of (projects|repairs|homes|replacements)/i;
+const DEFAB = /GAF[-\s]?certified|same-?day|24\s*\/\s*7|24-7|0\s*%\s*financing|top-?rated|master[-\s]elite|certainteed select|HAAG|500\+|golden pledge|drexel|sheffield|thousands of (roofs|installations|projects)|our crews|we install/i;
 (async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1280, height: 1000 } });

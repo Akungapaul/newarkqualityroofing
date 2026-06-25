@@ -1,0 +1,101 @@
+{
+  "comparisonId": "roof-coating-vs-replacement",
+  "type": "service",
+  "itemA": "Roof coating",
+  "itemB": "Roof replacement",
+  "verdict": {
+    "winner": "Roof coating wins on a sound, dry, drained flat roof; roof replacement wins once leaks or wet insulation appear.",
+    "reasoning": "Roof coating beats roof replacement when the membrane is watertight with dry insulation and positive drainage: silicone renews it for $1,500-$7,000 (CPS Construction) without tear-off, and a maintained coated roof is recoated rather than replaced (RCMA).",
+    "alternate": "Roof replacement beats roof coating when active leaks, wet insulation, or membrane damage exceeds 25-30% of the roof area: coating over saturated insulation traps moisture and accelerates deck rot, and a flat roof past the 25-30% damage threshold requires replacement (Parish and Modernize)."
+  },
+  "keyFacts": [
+    "Silicone roof coating renews a watertight flat roof for $1,500-$7,000, with repaint sections at $1.20-$2.70 per sq ft (CPS Construction).",
+    "NJ flat-roof replacement runs $7.00-$12.00 per sq ft: EPDM $7.00-$10.00 and TPO $8.00-$12.00 (Josten Roofing).",
+    "A typical NJ flat-roof replacement job runs $10,000-$25,000 (Josten Roofing and HomeAdvisor).",
+    "Acrylic coating adds roughly 10-15 years of service life and silicone roughly 15-20 years before recoating (RCMA and SPFA).",
+    "EPDM lasts 15-25 years and modified bitumen about 20 years (InterNACHI).",
+    "Coating warranty length scales with dry-film thickness: about 20-22 mils for 10-15 years and 30 mils for 15-20 years (RCMA).",
+    "Roof coating qualifies on four conditions: no active leaks, dry insulation confirmed by infrared scan or core cut, an intact membrane, and positive drainage; failing any condition requires replacement (RCMA).",
+    "A flat roof with more than 25-30% membrane damage requires replacement (Parish and Modernize).",
+    "Silicone coating (ASTM D6694) resists ponding water without re-emulsifying, while water-based acrylic (ASTM D6083) softens under continuous immersion (RCMA and Western Colloid).",
+    "Most acrylic coating warranties exclude ponded areas, so silicone is used on Essex County flat roofs with poor drainage (RCMA and Western Colloid).",
+    "A cool-roof surface reduces peak cooling demand 11-27% in air-conditioned buildings, with no added R-value (EPA, with CRRC and RCMA).",
+    "A reflective roof stays over 50 degrees F cooler than a conventional roof on a sunny afternoon (DOE).",
+    "White silicone and acrylic coatings rate roughly 0.80-0.88 initial solar reflectance and 0.85-0.92 thermal emittance (CRRC).",
+    "An infrared moisture survey locates wet insulation as warm anomalies after sunset, verified by core cut, under ASTM C1153; coating over saturated insulation seals moisture in and decays the deck (InterNACHI).",
+    "NRCA minimum design slope for positive drainage is 1/4 inch per foot (NRCA).",
+    "Seams, splits, and flashing details are repaired and reinforced before field coating, and even ponding-resistant silicone requires a fully dry substrate (RCMA, Gaco, and Henry surface-prep guidance).",
+    "Coating applies to residential EPDM, modified-bitumen, and metal flat sections, not to steep-slope asphalt shingles, which take repair or replacement instead (CPS Construction and InterNACHI).",
+    "Replacing a residential EPDM flat section runs $7.00-$10.00 per NJ sq ft, roughly $3,500-$5,000 on a 500-sq-ft section (Josten Roofing and RCMA)."
+  ],
+  "sources": [
+    "CPS Construction",
+    "Josten Roofing",
+    "HomeAdvisor",
+    "RCMA (Roof Coatings Manufacturers Association)",
+    "SPFA (Spray Polyurethane Foam Alliance)",
+    "InterNACHI",
+    "Western Colloid",
+    "Gaco",
+    "Henry",
+    "EPA",
+    "DOE",
+    "CRRC (Cool Roof Rating Council)",
+    "NRCA",
+    "ARMA",
+    "Parish",
+    "Modernize",
+    "ASTM D6694 (silicone roof coatings)",
+    "ASTM D6083 (acrylic roof coatings)",
+    "ASTM C1153 (infrared moisture survey)",
+    "N.J.A.C. 5:23-6.4",
+    "N.J.A.C. 5:23-2.7(c)",
+    "NOAA 1991-2020 climate normals"
+  ],
+  "njContext": [
+    "NJ flat-roof replacement runs $7.00-$12.00 per sq ft (EPDM $7.00-$10.00, TPO $8.00-$12.00), landing a typical NJ job inside the $10,000-$25,000 benchmark (Josten Roofing and HomeAdvisor).",
+    "N.J.A.C. 5:23-6.4 (Rehabilitation Subcode) requires full removal once a roof covering is water-soaked, deteriorated, or already two layers deep; coating renews a sound membrane without a tear-off and resets nothing, while a tear-off resets the layer count.",
+    "Roof replacement on a commercial or attached building triggers a NJ permit once roof work exceeds 25% of roof area in 12 months (N.J.A.C. 5:23-2.7(c) and 5:23-6.4).",
+    "Newark sits in IECC Climate Zone 4A-5 (heating-dominated), carrying a winter heating offset against the summer cooling reduction from a reflective coating (DOE).",
+    "Newark receives about 31.5 inches of annual snowfall and 35-45 freeze-thaw cycles per winter, which stress any moisture trapped under a coating (NOAA 1991-2020 normals and regional freeze-thaw estimates).",
+    "Coating suits an aging-but-watertight residential flat section (EPDM, modified-bitumen, or metal porch, addition, or garage roof) for $1,500-$7,000 (CPS Construction); a leaking section requires replacement at $7.00-$10.00 per NJ sq ft, roughly $3,500-$5,000 on 500 sq ft (Josten Roofing).",
+    "Coating is typically classified as maintenance rather than a capital improvement, though RCMA defers the tax outcome to the owner's tax professional.",
+    "An occupied commercial building with a sound membrane can be coated without tear-off, avoiding tenant relocation; a failed or 25-30%-damaged roof requires replacement (RCMA and Modernize)."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate and a free flat-roof/commercial roof evaluation that tests the four coating-eligibility conditions (no active leaks, dry insulation by infrared scan or core cut, intact membrane, positive drainage) before recommending coating or replacement. NQR performs the roofing work (surface prep, seam/flashing repair, silicone or acrylic coating, or full tear-off and new-membrane install) but does not perform structural engineering or solar design. Warranty framing is honest and two-part: the manufacturer's material/coating-system warranty (which scales with dry-film thickness per RCMA) plus NQR's written contractor workmanship warranty; never claim manufacturer certification tiers (no GAF Master Elite, CertainTeed SELECT ShingleMaster, etc.).",
+  "defabToKill": [
+    "BUYERS-GUIDE intro: 'Roof coating can extend your existing roof's life by 10-15 years at a fraction of replacement cost' - keep the 10-15 year acrylic figure but attribute to RCMA/SPFA; 'fraction of replacement cost' is vague hype, replace with sourced $1,500-$7,000 vs $7-$12/sq ft figures.",
+    "BUYERS-GUIDE 'When Coating Works': 'A properly applied coating system can extend service life by 10-15 years at 30-50% of replacement cost' - the '30-50% of replacement cost' figure is INVENTED, not in gold; gold gives absolute dollar ranges only. Dies.",
+    "BUYERS-GUIDE 'When Coating Fails': 'Coating over a failing roof is the most expensive mistake we see in Essex County' - fabricated NQR field-experience anecdote ('we see'). Dies; reframe as evidence-based per InterNACHI/RCMA.",
+    "BUYERS-GUIDE 'Decision Framework': 'This $500-$1,000 assessment prevents the $15,000 mistake of coating over a wet system' - the '$500-$1,000 assessment' cost and the '$15,000 mistake' figure are INVENTED, not in gold. Dies. (Gold offers a free evaluation, not a paid $500-$1,000 survey.)",
+    "EXPERT-PICKS intro: 'As contractors who install both roof coatings and full replacement systems, we see when coating succeeds and when it fails across Essex County' - fabricated field-experience volume claim ('we install', 'we see... across Essex County'). Dies.",
+    "EXPERT-PICKS 'Assessment Before Recommendation': 'This assessment costs $500-$1,000 but prevents $10,000+ mistakes' - INVENTED $500-$1,000 assessment cost and '$10,000+ mistakes' figure, not in gold. Dies.",
+    "EXPERT-PICKS 'Assessment Before Recommendation': 'roughly 60% of commercial roofs we evaluate are coating candidates. The other 40% have issues...' - INVENTED 60%/40% NQR project statistic and 'we evaluate' / 'We walk away' anecdote. Dies.",
+    "EXPERT-PICKS 'Coating Success Stories': 'Our best coating outcomes in Essex County are on 12-15 year old TPO and EPDM roofs' - fabricated NQR project anecdote ('Our best coating outcomes'). Dies.",
+    "EXPERT-PICKS 'Coating Success Stories': 'A silicone coating at $3-$5 per square foot adds 12-15 years of service life to roofs that would otherwise need $8-$12 per square foot replacement within 5-7 years' - the '$3-$5 per square foot' coating rate, the '12-15 years' silicone life (gold says 15-20 yr for silicone, 10-15 for acrylic), and the 'within 5-7 years' window are INVENTED/MISATTRIBUTED. Gold gives coating life-extension as a lump $1,500-$7,000, not per-sq-ft. Dies; replace with gold figures.",
+    "EXPERT-PICKS 'Coating Success Stories': 'We also see excellent results coating metal roofs... rust-inhibitive primer followed by elastomeric coating. This can extend metal roof life by 15-20 years at minimal cost' - the '15-20 years' metal-coating life claim and 'we see excellent results' anecdote are INVENTED, not in gold (gold only lists metal as a coatable flat section, no metal-coating lifespan figure). Dies.",
+    "EXPERT-PICKS 'When We Say No to Coating': 'more than 25% wet insulation' - gold's threshold is 25-30% membrane DAMAGE (Parish/Modernize), not '25% wet insulation'; reframe to the sourced 25-30% damage figure.",
+    "EXPERT-PICKS 'When We Say No to Coating': 'coating now and replacement in 3-5 years' and 'spending more total than replacement alone' - the '3-5 years' re-failure window and the cost-per-year math are INVENTED, not in gold. Dies.",
+    "EXPERT-PICKS 'When We Say No to Coating': 'We would rather lose the coating job than sell a service that will fail' / 'Some Essex County building owners push back' - fabricated NQR sales-anecdote framing. Dies.",
+    "EXPERT-PICKS conclusion + CTA: 'Our reputation depends on honest recommendations', 'We tell you what your roof actually needs, not what generates the most revenue' - acceptable honest-positioning tone but must be grounded in the free-evaluation framing, not implied installed-project volume.",
+    "Both articles use first-person installer voice ('we install', 'we see', 'we evaluate', 'Our best outcomes') throughout - replace all with standards/source-grounded statements plus NQR's registered-NJ-HIC + free-evaluation framing. NOTE: no GAF/CertainTeed cert claims, no 'licensed contractor', no solar ITC, no ENERGY STAR present in these two dirty articles to kill."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Roof Coating vs Replacement?",
+    "directAnswerThesis": "Roof coating is better on a sound, dry, drained flat roof, renewing it for $1,500-$7,000 (CPS Construction); roof replacement is better once active leaks, wet insulation, or 25-30%+ membrane damage appear (Parish, Modernize).",
+    "sectionAngles": [
+      "Which costs less on an Essex County flat roof - coating at $1,500-$7,000 (CPS Construction) or NJ replacement at $7-$12 per sq ft / $10,000-$25,000 (Josten Roofing, HomeAdvisor)?",
+      "Which fits NJ climate and code - how N.J.A.C. 5:23-6.4 tear-off rules, the 25%-of-roof-area permit trigger, and 35-45 freeze-thaw cycles decide between renewing and rebuilding?",
+      "What is the coating-eligibility checklist - the four conditions (no active leaks, dry insulation by infrared/core cut, intact membrane, positive drainage) that qualify a roof for coating versus replacement (RCMA, ASTM C1153)?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Roof Coating vs Replacement?",
+    "directAnswerThesis": "The standards recommend coating only when the four RCMA eligibility conditions hold; otherwise replacement. A registered NJ Home Improvement Contractor confirms eligibility by infrared moisture survey (ASTM C1153) before recommending either, via a free written estimate.",
+    "sectionAngles": [
+      "What do the standards actually favor - how RCMA, SPFA, and the ASTM D6694 (silicone) vs D6083 (acrylic) split point to silicone for ponding-prone Essex County flat roofs and to replacement once damage exceeds 25-30%?",
+      "Which factors decide coating longevity - dry-film thickness driving the 20-22 mil / 10-15 yr versus 30 mil / 15-20 yr warranty bands, a fully dry substrate, and seam/flashing repair before field coating (RCMA, Gaco, Henry)?",
+      "What are the common homeowner mistakes - coating over wet insulation that ASTM C1153 infrared scans catch, coating asphalt shingles instead of EPDM/modified-bitumen/metal flat sections, and skipping the moisture survey before committing (InterNACHI, CPS Construction)?"
+    ]
+  }
+}

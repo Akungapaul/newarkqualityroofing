@@ -1,8 +1,8 @@
-// Deterministic assemble for the repair-maintenance articles sub-batch.
-// Reads _authored.json (the AUTHOR result's `articles` array), merges the authored
-// content fields with the FIXED identity fields (orchestrator-owned, never agent-authored),
-// and emits src/data/article-content/repair-maintenance.ts.
-// JSON.stringify => valid TS object literals => zero escaping bugs (hubs-batch lesson).
+// Deterministic assemble for the comparisons articles sub-batch (9/9, FINAL).
+// Reads _authored.json (the merged `articles` array), merges the authored content
+// fields with the FIXED identity fields (orchestrator-owned, never agent-authored),
+// and emits src/data/article-content/comparisons.ts.
+// JSON.stringify => valid TS object literals => zero escaping bugs.
 //
 // Run: node .planning/content-system/articles-batch/assemble.mjs
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -12,32 +12,46 @@ import { dirname, join } from 'node:path';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO = join(HERE, '..', '..', '..');
 const AUTHORED = join(HERE, '_authored.json');
-const OUT = join(REPO, 'src', 'data', 'article-content', 'replacement-sub-pages.ts');
+const OUT = join(REPO, 'src', 'data', 'article-content', 'comparisons.ts');
 
-// Fixed identity (current replacement-sub-pages.ts) — agents never touch these.
-// 14 parent replacement-scenario/material services x 3 articles = 42.
-const svc = (parentId) => ({ parentId, parentType: 'service' });
-const SERVICES = [
-  'full-roof-tear-off',
-  'roof-overlay-installation',
-  're-roofing',
-  'insurance-roof-replacement',
-  'storm-damage-roof-replacement',
-  'aging-roof-replacement',
-  'roof-replacement-after-leak',
-  'fire-damage-roof-replacement',
-  'asphalt-shingle-roof-replacement',
-  'metal-roof-replacement',
-  'slate-roof-replacement',
-  'tile-roof-replacement',
-  'flat-roof-replacement',
-  'cedar-shake-roof-replacement',
+// Fixed identity (current comparisons.ts) — agents never touch these.
+// 30 comparisons x 2 articles = 60. position 1 = buyers-guide, position 2 = expert-picks.
+const COMPARISONS = [
+  'asphalt-shingles-vs-metal-roofing',
+  'slate-vs-tile-roofing',
+  'tpo-vs-epdm-roofing',
+  'metal-vs-tile-roofing',
+  'asphalt-vs-slate-roofing',
+  'wood-shake-vs-asphalt-shingles',
+  'pvc-vs-tpo-roofing',
+  'standing-seam-vs-corrugated-metal',
+  'modified-bitumen-vs-tpo',
+  'rubber-roofing-vs-tpo',
+  'cedar-shake-vs-wood-shingle',
+  'built-up-roofing-vs-modified-bitumen',
+  'spray-foam-vs-tpo',
+  'green-roof-vs-traditional-roofing',
+  'solar-shingles-vs-solar-panels',
+  'roof-repair-vs-replacement',
+  'roof-coating-vs-replacement',
+  'roof-overlay-vs-tear-off',
+  'patching-vs-full-roof-repair',
+  'preventive-maintenance-vs-emergency-repair',
+  'best-roofing-material-nj-weather',
+  'best-commercial-roofing-material',
+  'best-roofing-for-flat-roofs',
+  'best-roofing-for-historic-homes-nj',
+  'cheapest-vs-most-durable-roofing',
+  'most-energy-efficient-roofing-materials',
+  'architectural-vs-3-tab-shingles',
+  'diy-vs-professional-roof-repair',
+  'best-roofing-for-essex-county-colonial-homes',
+  'roof-warranty-comparison-guide',
 ];
 const IDENTITY = {};
-for (const id of SERVICES) {
-  IDENTITY[`${id}-signs`] = { ...svc(id), position: 1 };
-  IDENTITY[`${id}-cost-guide`] = { ...svc(id), position: 2 };
-  IDENTITY[`${id}-decision`] = { ...svc(id), position: 3 };
+for (const c of COMPARISONS) {
+  IDENTITY[`${c}-buyers-guide`] = { parentId: c, parentType: 'comparison', position: 1 };
+  IDENTITY[`${c}-expert-picks`] = { parentId: c, parentType: 'comparison', position: 2 };
 }
 const ORDER = Object.keys(IDENTITY);
 
@@ -68,16 +82,14 @@ const objects = ORDER.map((id) => {
 
 const header = `import type { ArticleContent } from './schema';
 
-// ─── Replacement Sub-Pages Article Content ───────────────────────────────────
-// 14 services x 3 articles = 42 articles (parentType: 'service').
-// full-roof-tear-off, roof-overlay-installation, re-roofing, insurance-roof-replacement,
-// storm-damage-roof-replacement, aging-roof-replacement, roof-replacement-after-leak,
-// fire-damage-roof-replacement, asphalt-shingle-/metal-/slate-/tile-/flat-/cedar-shake-roof-replacement.
-// signs / cost-guide / decision (decision H1 = "What Should You Know About {Service} Roofing?").
+// ─── Comparison Article Content ─────────────────────────────────────────────
+// 30 comparisons x 2 articles each = 60 articles (parentType: 'comparison').
+// Position 1: buyer's guide (decision framework) — H1 "Which Is Better: A vs B?".
+// Position 2: expert picks (contractor recommendation) — H1 "What Do NJ Roofers Recommend for A vs B?".
 // Rewritten answer-first + de-fabbed (semantic-content ruleset v1.7), grounded in the
-// committed parent gold service-content/replacement-sub-pages.ts.
+// committed parent gold comparison-content/{material-vs-material,service-vs-service,decision-helper}.ts.
 
-export const replacementSubPagesArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
+export const comparisonArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
 `;
 
 writeFileSync(OUT, header, 'utf8');

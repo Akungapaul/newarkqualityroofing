@@ -1,0 +1,83 @@
+{
+  "comparisonId": "standing-seam-vs-corrugated-metal",
+  "type": "material",
+  "itemA": "Standing seam metal",
+  "itemB": "Corrugated metal",
+  "verdict": {
+    "winner": "Standing seam wins for residential and long-service roofs.",
+    "reasoning": "Standing seam over corrugated metal when leak-free service across the 40-70-year lifespan This Old House cites outweighs first cost, because concealed clips remove the exposed-fastener gaskets that drive corrugated leaks.",
+    "alternate": "Corrugated metal wins when budget governs a warehouse or agricultural roof, since corrugated installs faster at the lower end of the NJ $9-$16+ metal range Josten Roofing reports and accepts a periodic re-fastening cycle."
+  },
+  "keyFacts": [
+    "Standing seam is a concealed-fastener metal roof covering formed from steel, aluminum, copper, or zinc panels whose raised, interlocking vertical seams lock together over hidden clips fastened to the deck, with no roof-penetrating fasteners in the panel field (gold definition).",
+    "Corrugated metal is an exposed-fastener metal roof covering of rolled steel or aluminum sheets pressed into repeating wavy ridges and grooves, screwed through the panel face into the deck with gasketed screws sealing each penetration (gold definition).",
+    "Standing seam lasts 40-70 years versus 30-50 years for exposed-fastener corrugated metal (This Old House for standing seam; industry sources for corrugated).",
+    "NJ metal roofing runs $9-$16+ per square foot installed, with standing seam at the upper end and corrugated at the lower end (Josten Roofing).",
+    "Standing seam confines water entry to the seam and flashing only, while corrugated metal relies on hundreds of gasketed screw holes as its primary leak point (gold comparison table).",
+    "Per NRCA-attributed guidance, concealed-fastener roofs produce fewer leaks than exposed-fastener roofs (NRCA).",
+    "Standing seam clips let panels float to absorb thermal movement, while corrugated's fixed screws resist movement and enlarge screw holes over decades, widening the leak path (gold detailed analysis; NRCA on expansion provisions for long runs).",
+    "Standing seam requires minimal recurring maintenance because it has no exposed fasteners, while corrugated metal needs periodic re-fastening as gaskets degrade (gold comparison table).",
+    "Corrugated metal installs faster as screw-down panels, while standing seam installs slower due to clip precision (gold comparison table).",
+    "Corrugated gaskets harden and crack under Newark freeze-thaw cycling per the NOAA 1991-2020 normals at Newark Liberty (~31.5 in. annual snowfall, January average low near 25.5 degrees F), so the exposed-fastener seal fails decades before the steel (NOAA normals).",
+    "Newark summer highs reach near 87 degrees F per NOAA normals, so metal panels expand across roughly a 25.5-87 degree F range that standing seam clips absorb and corrugated fixed screws do not (NOAA normals).",
+    "Both standing seam and corrugated meet New Jersey's design wind speed of roughly 110-115 mph for northern NJ under ASCE 7-16 as adopted by the NJ Uniform Construction Code, when installed to manufacturer specification (ASCE 7-16; NJ UCC).",
+    "Standing seam earns wind margin from continuous concealed-clip engagement of the whole panel rather than individual screws, relevant under the 40-60 mph sustained nor'easter winds NOAA records for north NJ (NOAA).",
+    "A corrugated or standing seam re-roof on a commercial or multi-family building triggers the NJ UCC permit threshold once it exceeds 25% of the roof area in 12 months per N.J.A.C. 5:23-2.7; a detached one- or two-family re-roof stays ordinary maintenance with no permit (N.J.A.C. 5:23-2.7).",
+    "Corrugated steel placed near copper flashing or gutters common on older Essex County homes can produce galvanic corrosion (gold-attributed material-compatibility note in source positioning; not a fabricated NQR observation)."
+  ],
+  "sources": [
+    "This Old House (standing seam 40-70 year lifespan)",
+    "Josten Roofing (NJ metal roofing $9-$16+ per sq ft installed)",
+    "NRCA (concealed vs exposed fastener leak guidance; thermal expansion provisions)",
+    "NOAA 1991-2020 climate normals, Newark Liberty (~31.5 in. snowfall, January avg low ~25.5 F, summer highs ~87 F, 40-60 mph nor'easter winds)",
+    "ASCE 7-16 (northern NJ design wind speed ~110-115 mph)",
+    "NJ Uniform Construction Code (UCC)",
+    "N.J.A.C. 5:23-2.7 (re-roof permit 25%-in-12-months threshold; one-/two-family ordinary-maintenance exemption)",
+    "Industry sources (corrugated exposed-fastener metal 30-50 year lifespan)"
+  ],
+  "njContext": [
+    "NJ metal roofing installs at $9-$16+ per square foot; standing seam sits at the upper end and corrugated at the lower end (Josten Roofing).",
+    "A detached one- or two-family metal re-roof in NJ is ordinary maintenance and needs no construction permit; a Montclair or West Orange homeowner re-roofs the covering without a permit (N.J.A.C. 5:23-2.7).",
+    "A commercial or multi-family metal re-roof exceeding 25% of the roof area within 12 months requires a NJ UCC permit (N.J.A.C. 5:23-2.7).",
+    "Newark freeze-thaw cycling (NOAA: ~31.5 in. annual snowfall, January avg low ~25.5 F) hardens and cracks corrugated exposed-fastener gaskets while standing seam carries no exposed seal in the panel field.",
+    "Northern NJ design wind speed is roughly 110-115 mph under ASCE 7-16 as adopted by the NJ UCC; both metal systems meet it when installed to spec, and standing seam's continuous clip engagement adds margin under 40-60 mph sustained nor'easter winds (NOAA).",
+    "Standing seam suits the Essex County home for a 40-70-year leak-resistant service life (This Old House); corrugated fits a detached garage or barn rather than the primary dwelling.",
+    "An Essex County warehouse roofs more square footage per dollar with corrugated at the lower end of the NJ $9-$16+ range, accepting periodic re-fastening as gaskets degrade (Josten Roofing)."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor, insured, offering a free written estimate. NQR installs both standing seam and corrugated metal across Essex County and matches the profile to the building: standing seam for residential and client-facing commercial roofs that must stay leak-free across a 40-70-year service life, corrugated for budget-governed warehouse and agricultural structures that accept the exposed-fastener re-fastening cycle. Warranty framing must be honest and two-part: the manufacturer's material warranty plus NQR's written contractor workmanship warranty, never a fabricated single '50-year' figure or any certification-tier claim. NQR coordinates the NJ UCC permit when a commercial or multi-family re-roof exceeds the 25% N.J.A.C. 5:23-2.7 threshold.",
+  "defabToKill": [
+    "BUYER'S GUIDE: 'Standing seam costs $800-$1,400 per square in Essex County. Corrugated runs $350-$600 per square.' Invented per-square figures not in gold (gold uses $9-$16+ per sq ft from Josten Roofing) - dies.",
+    "BUYER'S GUIDE: 'standing seam lasts 50-70 years ... versus 25-40 for corrugated' - invented lifespan figures; gold says 40-70 (This Old House) vs 30-50 (industry sources) - dies, replace with gold figures and sources.",
+    "BUYER'S GUIDE: 'Cost-per-year favors standing seam.' Invented cost-per-year math not in gold - dies.",
+    "BUYER'S GUIDE: 'may draw HOA or planning board objections' and 'accepted metal profile ... in virtually every Essex County municipality' - unsubstantiated regulatory/aesthetic claims not in gold - dies.",
+    "BUYER'S GUIDE: 'water cannot penetrate, making it the superior weather barrier' - absolute unverifiable claim; gold frames leak risk as fewer leak points / NRCA fewer-leaks guidance, not 'cannot penetrate' - soften to gold framing.",
+    "EXPERT-PICKS: 'Metal roofing is our specialty ... comes up constantly. Here is what our installation experience across Essex County reveals' - fabricated NQR field-experience framing - dies.",
+    "EXPERT-PICKS: 'We see corrugated roofs leak at dozens of points after 10 years' - fabricated NQR observation - dies; replace with NRCA exposed-fastener leak guidance.",
+    "EXPERT-PICKS: 'Exposed fastener roofs need re-torquing every 5-7 years in NJ' and 'the 5-7 year fastener cycle' - invented re-fastening interval not in gold (gold says 'periodic re-fastening as gaskets degrade', no number) - dies.",
+    "EXPERT-PICKS: 'What We See Fail First ... first failures appear at panel ends and transitions after 40+ years when sealants deteriorate' - fabricated NQR failure-observation and invented timeline - dies.",
+    "EXPERT-PICKS: 'We also see galvanic corrosion on corrugated panels near other metals' - fabricated NQR observation framing; the galvanic-corrosion fact may be stated generically (corrugated steel near copper can corrode) but never as 'we see' - reframe.",
+    "EXPERT-PICKS: 'We install standing seam on every residential project and most commercial buildings in Essex County' - fabricated NQR project-volume/anecdote - dies.",
+    "EXPERT-PICKS: 'For homeowners ... we explain true cost of ownership ... Most then choose standing seam' - fabricated NQR sales anecdote - dies.",
+    "EXPERT-PICKS CTA: 'Our standing seam installations come with 50-year material warranties' - fabricated single warranty figure / implied cert tier - dies; replace with honest two-part warranty framing (manufacturer material + NQR written workmanship).",
+    "EXPERT-PICKS: 'Schedule a free assessment with our metal roofing specialists' / 'metal roofing specialists' self-credential - reframe to registered NJ Home Improvement Contractor + free written estimate.",
+    "BUYER'S GUIDE CTA: 'specializes in standing seam metal roofing' - soften specialist self-claim; NQR installs both profiles as a registered NJ HIC."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Standing Seam vs Corrugated Metal?",
+    "directAnswerThesis": "Standing seam is better for homes and long-service roofs: concealed clips remove the exposed-fastener gaskets that drive corrugated leaks across a 40-70-year life (This Old House). Corrugated wins only on lower install cost.",
+    "sectionAngles": [
+      "Does the higher cost of standing seam pay off over a metal roof's lifetime? (gold $9-$16+ Josten Roofing range, upper vs lower end; 40-70 vs 30-50 year lifespans)",
+      "Which metal roof fits New Jersey climate and code? (NOAA freeze-thaw on corrugated gaskets; ASCE 7-16 ~110-115 mph wind; N.J.A.C. 5:23-2.7 re-roof permit threshold)",
+      "How do I decide between standing seam and corrugated for my property type? (residential / client-facing commercial vs warehouse / agricultural; leak-point and maintenance trade-off)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Standing Seam vs Corrugated Metal?",
+    "directAnswerThesis": "The standards favor standing seam for homes and long-service roofs: NRCA-attributed guidance shows concealed fasteners leak less than exposed, and This Old House rates standing seam 40-70 years versus 30-50 for corrugated.",
+    "sectionAngles": [
+      "What do roofing standards actually favor between concealed and exposed fasteners? (NRCA fewer-leaks guidance; seam-and-flashing-only vs hundreds of gasketed screw holes)",
+      "Which installation and climate factors decide how long each metal roof lasts in NJ? (NOAA freeze-thaw gasket degradation; thermal-movement handling per NRCA; re-fastening cycle on corrugated)",
+      "When does corrugated still make sense, and what mistakes shorten a metal roof's life? (budget warehouse/agricultural use per Josten Roofing cost; ignoring gasket maintenance; galvanic corrosion when corrugated steel meets copper)"
+    ]
+  }
+}

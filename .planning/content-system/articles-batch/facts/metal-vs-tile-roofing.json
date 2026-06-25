@@ -1,0 +1,88 @@
+{
+  "comparisonId": "metal-vs-tile-roofing",
+  "type": "material",
+  "itemA": "Metal roofing",
+  "itemB": "Tile roofing",
+  "verdict": {
+    "winner": "Metal roofing wins for most Essex County re-roofs.",
+    "reasoning": "Metal roofing beats tile when the existing roof carries no confirmed structural capacity for tile, because metal panels weigh far less and recover the deck without framing upgrades, per the Metal Construction Association.",
+    "alternate": "Tile roofing wins when the framing already carries tile dead load and a Mediterranean or Spanish profile defines the home, because clay tile reaches 75 to 100-plus years per the Tile Roofing Industry Alliance."
+  },
+  "keyFacts": [
+    "Metal roofing lasts 40 to 80 years (copper past 70), per the InterNACHI life-expectancy chart.",
+    "Clay tile reaches 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance.",
+    "Metal roofing installs at roughly $9 to $16-plus per square foot in New Jersey, per regional NJ install pricing.",
+    "Tile roofing installs at roughly $10 to $20-plus per square foot in New Jersey, per regional NJ install pricing.",
+    "A full New Jersey roof replacement in either metal or tile lands in the $10,000 to $25,000 band, per HomeAdvisor and Modernize.",
+    "Standing-seam metal panels carry concealed fasteners that reduce leak points, per the Metal Construction Association and Metal Roofing Alliance.",
+    "Tile roofing's underlayment fails decades before the clay or concrete tile, so the real service interval tracks the membrane, not the 100-year tile, per the Tile Roofing Industry Alliance.",
+    "Tile roofing adds substantial dead load that demands confirmed framing capacity before installation, per Tile Roofing Industry Alliance guidance.",
+    "Metal roofing panels (standing-seam sheets and metal shingles) fasten to existing sheathing as a lightweight covering, so older Newark homes avoid rafter and truss upgrades, per the Metal Construction Association.",
+    "Metal roofing end-of-life arrives as fastener loosening, cut-edge corrosion, and oil-canning on long panels, per the Metal Construction Association.",
+    "Tile roofing end-of-life arrives as cracked units, slipped tiles from corroded fasteners, and concrete spalling, replaced unit by matching unit, per the Tile Roofing Industry Alliance.",
+    "Metal roofing repairs replace a panel section or re-seat a loosened fastener; tile repairs must match the broken unit's exact profile and color, per Tile Roofing Industry Alliance guidance.",
+    "Profile matching for tile repairs grows harder as a tile roof ages and the original tile line discontinues, per Tile Roofing Industry Alliance guidance.",
+    "Stone-coated metal shingles reproduce a clay or concrete tile profile at a fraction of tile's dead load, per Metal Construction Association product guidance.",
+    "Concrete tile spalls and cracks under New Jersey freeze-thaw cycling, while dense clay tile resists it through low water absorption, per Tile Roofing Industry Alliance grading.",
+    "Metal roofing is non-absorptive and resists freeze-thaw stress.",
+    "Newark crosses 32 degrees F repeatedly from December through March, per NOAA 1991-2020 normals, driving freeze stress on absorptive units."
+  ],
+  "sources": [
+    "InterNACHI life-expectancy chart",
+    "Tile Roofing Industry Alliance",
+    "Metal Construction Association",
+    "Metal Roofing Alliance",
+    "HomeAdvisor",
+    "Modernize",
+    "NOAA 1991-2020 climate normals",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)",
+    "N.J.A.C. 5:23-2.7(b)",
+    "N.J.A.C. 5:23-2.7(c)"
+  ],
+  "njContext": [
+    "Installed cost in Essex County: metal $9-$16+/sq ft vs tile $10-$20+/sq ft, per regional NJ install pricing.",
+    "Full-roof replacement in NJ for either material lands in the $10,000-$25,000 band, per HomeAdvisor and Modernize.",
+    "Metal roofing recovers a detached one- or two-family roof as ordinary maintenance with no permit, per N.J.A.C. 5:23-2.7.",
+    "Tile roofing that alters rafters, trusses, or ridge beams to carry the dead load triggers a structural permit, per N.J.A.C. 5:23-2.7(b), because the NJ Uniform Construction Code excludes load-bearing changes from the maintenance exemption.",
+    "Commercial tile roofing exceeding 25 percent roof-area repair in a 12-month period triggers a permit, per N.J.A.C. 5:23-2.7(c); metal recovers within the same threshold rule with less load.",
+    "Newark crosses 32 degrees F repeatedly each winter (December through March), per NOAA 1991-2020 normals, driving freeze-thaw stress that spalls concrete tile.",
+    "Metal fits the widest range of Essex County houses, from Newark row houses to Livingston colonials, because lightweight standing-seam and metal-shingle panels recover an existing deck; tile fits homes designed around a Mediterranean or Spanish profile.",
+    "On a commercial Essex County building, metal panels stage and fasten over the existing structure with less load and shorter site time than tile; tile suits hospitality and retail where a Mediterranean facade defines the brand."
+  ],
+  "positioning": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate. Position NQR as the contractor that determines material fit by inspecting the existing deck and confirming structural capacity before recommending metal or tile, never steering by margin. NQR installs both metal panel/metal-shingle systems and clay or concrete tile, and handles the permit path under N.J.A.C. 5:23-2.7 (no permit for a lightweight metal recover on a detached one- or two-family roof; structural permit when tile dead load requires altering rafters, trusses, or ridge beams). Warranty framing is honest and two-part: the manufacturer's material warranty plus NQR's written workmanship warranty; never invoke manufacturer certification tiers (no GAF Master Elite, no CertainTeed SELECT ShingleMaster) and never claim a NJ roofing license (NJ issues none).",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'metal runs $700-$1,400 per square in Essex County, quality tile ranges from $800-$1,600 per square' — invented per-square dollar figures not in gold (gold uses $9-$16+/sq ft metal and $10-$20+/sq ft tile, plus the $10,000-$25,000 full-replacement band). Dies; replace with gold figures.",
+    "BUYERS-GUIDE: 'lasting 40-70+ years with proper care' (lumping both materials) — invented combined lifespan; contradicts gold's split figures (metal 40-80 InterNACHI; clay 75-100+, concrete 40-75 TRIA). Dies.",
+    "BUYERS-GUIDE: 'Metal achieves Class A fire ratings and handles 140+ mph winds. Tile also achieves Class A' — invented fire/wind ratings not present in gold (no Class A or 140 mph claim, no ASTM/UL cite). Dies; not in gold.",
+    "BUYERS-GUIDE: 'your structure supports 600-1,100 lbs per square' — invented dead-load figure not in gold (gold says 'substantial dead load' / 'confirmed framing capacity' without a psf number). Dies.",
+    "BUYERS-GUIDE: 'Metal handles NJ snow loads exceptionally well, shedding snow before dangerous accumulation. Tile holds snow due to its textured profile, meaning higher sustained loads' — invented snow-load performance narrative not in gold (gold addresses freeze-thaw, not snow shedding/retention). Dies; not in gold.",
+    "BUYERS-GUIDE: 'installation clips have corroded in NJ's humid climate' as a tile wind-failure cause — invented mechanism; gold attributes slipped tiles to corroded fasteners generally (TRIA) but makes no humidity-clip wind claim. Dies as stated.",
+    "BUYERS-GUIDE: 'In communities like Glen Ridge or Montclair with historic preservation guidelines, metal roofing ... typically receives easier approval' — invented local-approval claim with no source in gold. Dies; unsubstantiated.",
+    "EXPERT-PICKS: 'As contractors who install both metal and tile across Essex County, we see how each material performs year after year' — fabricated field-experience framing. Dies; replace with standards/evidence-based recommendation.",
+    "EXPERT-PICKS: 'Metal roofing installation ... takes 3-5 days ... Tile takes 5-10 days' — invented install-duration figures not in gold. Dies; not in gold.",
+    "EXPERT-PICKS: 'We schedule tile during dry stretches in summer and early fall ... Metal can be installed in cooler weather' — fabricated 'we schedule' crew anecdote. Dies.",
+    "EXPERT-PICKS: 'Maintenance Patterns We Observe' / 'We inspect at 10-year intervals and rarely find issues' — fabricated NQR inspection-cadence anecdote. Dies; no source.",
+    "EXPERT-PICKS: 'the waterproofing layer has a 30-40 year lifespan. When it fails, the entire tile field must be removed and reset at $15,000-$25,000' — invented underlayment-lifespan number (30-40 yr) and invented reset cost ($15,000-$25,000) not in gold (gold says underlayment 'fails decades before the tile' with no specific year or reset-cost figure). Dies; not in gold.",
+    "EXPERT-PICKS: 'We have seen Montclair and Maplewood homes with standing seam sell above comparable homes with asphalt' — fabricated resale anecdote with no source. Dies.",
+    "EXPERT-PICKS: 'recommend based on your home, not our margins' is acceptable in spirit but 'We install both materials and recommend' must drop the implied volume/experience claim and be reframed to NQR's registered-NJ-HIC honest evaluation. Soften.",
+    "BOTH: 'Schedule a consultation' / 'Call Newark Quality Roofing for a free evaluation' — keep the CTA intent but ground NQR identity as 'registered New Jersey Home Improvement Contractor, insured, free written estimate'; the gold/positioning credential reframe applies. No 'licensed' language appears in these two articles, but enforce 'registered HIC' framing in the rewrite."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Metal vs Tile Roofing?",
+    "directAnswerThesis": "Metal roofing fits most Essex County re-roofs because lightweight panels recover the deck without framing upgrades; tile wins only where confirmed structural capacity and a Mediterranean profile justify its weight.",
+    "sectionAngles": [
+      "How does roof weight decide between metal and tile on an Essex County home? (metal recovers a deck; tile demands confirmed framing capacity and a structural permit under N.J.A.C. 5:23-2.7(b))",
+      "Which material costs less and lasts longer in New Jersey? (metal $9-$16+/sq ft, 40-80 yr per InterNACHI; tile $10-$20+/sq ft, clay 75-100+/concrete 40-75 yr per TRIA, but underlayment limits the real interval; both $10,000-$25,000 full replacement)",
+      "What is the metal-vs-tile decision checklist for an Essex County roof? (confirmed structural capacity, architectural profile, repair/profile-match difficulty, freeze-thaw exposure per NOAA normals)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Metal vs Tile Roofing?",
+    "directAnswerThesis": "Industry standards favor metal for most New Jersey re-roofs because it recovers a deck light; tile is recommended only where confirmed framing capacity and a Mediterranean profile are both present, per MCA and TRIA guidance.",
+    "sectionAngles": [
+      "What do the standards actually favor for a New Jersey roof? (Metal Construction Association on lightweight recover and concealed fasteners; Tile Roofing Industry Alliance on dead-load capacity and clay longevity)",
+      "Which installation and structural factors decide longevity? (concealed standing-seam fasteners reduce leak points per MCA; tile underlayment fails before the tile per TRIA, setting the real service interval; confirmed framing capacity required for tile)",
+      "What are the common homeowner mistakes in choosing metal versus tile? (specifying tile without confirming structural capacity; ignoring profile-match difficulty on aging discontinued tile lines per TRIA; choosing concrete tile despite NJ freeze-thaw spalling per NOAA normals and TRIA grading)"
+    ]
+  }
+}

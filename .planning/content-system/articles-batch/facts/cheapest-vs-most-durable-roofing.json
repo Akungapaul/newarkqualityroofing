@@ -1,0 +1,96 @@
+{
+  "comparisonId": "cheapest-vs-most-durable-roofing",
+  "type": "material",
+  "itemA": "Cheapest to install (3-tab asphalt shingles)",
+  "itemB": "Most durable (natural slate / standing seam metal)",
+  "verdict": {
+    "winner": "3-tab asphalt shingles lead on lowest install cost; natural slate and standing seam metal lead on durability, with architectural asphalt shingles the runner-up balancing cost against a 30-year life.",
+    "reasoning": "3-tab asphalt shingles lead on entry price at $5.50-$9.50 per NJ square foot (Josten Roofing), but their 20-year life forces more re-roof cycles than natural slate at 60-150 years or standing seam metal at 40-80 years (InterNACHI chart) -- so a sourced install range divided across a sourced lifespan narrows the cheapest gap on a long hold.",
+    "alternate": "Architectural asphalt shingles serve the middle ground -- $6.50-$11.00 per NJ square foot over a 30-year life (Josten Roofing and the InterNACHI chart) -- recouping ~61% of job cost at resale versus metal's ~49% (Remodeling/Zonda 2023 Cost vs Value report), which favors them when a near-term sale leads the decision."
+  },
+  "keyFacts": [
+    "3-tab asphalt shingles install cheapest at $5.50-$9.50 per NJ square foot over a 20-year life (Josten Roofing and the InterNACHI chart).",
+    "Architectural asphalt shingles install at $6.50-$11.00 per NJ square foot over a 30-year life (Josten Roofing and the InterNACHI chart).",
+    "EPDM (flat roof) installs at $7.00-$10.00 per NJ square foot over a 15-25-year life (Josten Roofing and the InterNACHI chart).",
+    "TPO (flat roof) installs at $8.00-$12.00 per NJ square foot over a 7-20-year life (Josten Roofing and the InterNACHI chart).",
+    "Wood / cedar installs at $10-$20+ per square foot over a 25-year life (NHI and the InterNACHI chart).",
+    "Standing seam metal installs at $9.00-$16.00+ per NJ square foot over a 40-80-year life, with copper 70+ years (Josten Roofing and the InterNACHI chart).",
+    "Natural slate installs at $10-$30 per NJ square foot and lasts longest at 60-150 years (NJ roofing guides and the InterNACHI chart).",
+    "Cost per year divides a sourced install range by a sourced lifespan -- an illustrative method, not a measured figure -- spreading the NJ $10,000-$25,000 replacement benchmark across a 20-year asphalt life or a 60-year slate life (HomeAdvisor, Modernize, and the InterNACHI chart).",
+    "Labor runs roughly 60% of an asphalt project cost (HomeGuide).",
+    "A full NJ asphalt roof replacement falls within the $10,000-$25,000 benchmark (HomeAdvisor and Modernize).",
+    "Natural slate tiles can be replaced indefinitely while the deck and fasteners stay sound, making the covering itself rarely the lifespan limiter (InterNACHI chart and the National Slate Association).",
+    "Standing seam metal uses concealed fasteners that leak less than exposed-fastener systems (InterNACHI chart).",
+    "Actual asphalt and metal roof life varies up to plus or minus 40% with climate, install, and maintenance (NRCA).",
+    "Attic ventilation extends roof life up to 25% by reducing heat-driven volatile loss and thermal cycling (NRCA).",
+    "Wood / cedar needs fungicide or algaecide every few years at $0.15-$0.60 per square foot, plus a 1.5-inch air space beneath the shakes for drying (HomeGuide and the Cedar Shake & Shingle Bureau).",
+    "Standing seam metal with a reflective finish reduces peak cooling demand 11-27% in air-conditioned residential buildings (EPA) -- a peak-demand effect, not a year-round bill reduction.",
+    "A reflective roof stays over 50 degrees F cooler than a conventional roof on a sunny afternoon (DOE).",
+    "Architectural asphalt shingles recoup ~61% of job cost at resale and standing seam metal ~49% (Remodeling/Zonda 2023 Cost vs Value report).",
+    "National roof replacement recoups 60-68% of cost at sale (Remodeling/Zonda 2023 Cost vs Value report and Zillow analysis via Opendoor).",
+    "3-tab asphalt shingles last 20 years and architectural asphalt shingles 30 years, while metal lasts 40-80 and slate 60-150 years (InterNACHI chart)."
+  ],
+  "sources": [
+    "Josten Roofing (NJ per-square-foot install ranges)",
+    "InterNACHI life-expectancy chart (material lifespans)",
+    "NRCA (life-variance up to plus/minus 40%, ventilation up to 25% life extension, EPDM seam-failure guidance)",
+    "Remodeling / Zonda 2023 Cost vs Value report (resale recoup percentages)",
+    "Zillow analysis via Opendoor (60-68% national roof recoup)",
+    "HomeAdvisor (NJ $10,000-$25,000 replacement benchmark)",
+    "Modernize (NJ replacement benchmark)",
+    "HomeGuide (labor ~60% of asphalt project; cedar maintenance $0.15-$0.60/sq ft)",
+    "NHI (wood/cedar cost and life)",
+    "National Slate Association (indefinite tile replacement)",
+    "Cedar Shake & Shingle Bureau (1.5-inch air space for drying)",
+    "EPA (reflective metal reduces peak cooling demand 11-27%)",
+    "DOE (reflective roof over 50 degrees F cooler at peak)",
+    "Angi and HomeAdvisor regional data (coastal NJ +15-20%)",
+    "N.J.A.C. 5:23-2.7 and NJ DCA 2018 alert (residential re-roof treated as ordinary maintenance)",
+    "N.J.A.C. 5:23-2.7(c) (commercial >25% roof-area permit trigger)",
+    "NJ roofing guides (slate $10-$30/sq ft)"
+  ],
+  "njContext": [
+    "NJ roofing costs run ~10-40% above national averages on higher labor, stricter code, and older housing stock needing extra decking work (industry consensus).",
+    "NJ per-square-foot ranges: asphalt $5.50-$11.00, metal $9.00-$16.00+, slate $10-$30 (Josten Roofing and NJ roofing guides).",
+    "A full NJ roof replacement falls within the $10,000-$25,000 benchmark (HomeAdvisor and Modernize).",
+    "Coastal NJ communities add 15-20% over inland on salt-air exposure (Angi and HomeAdvisor regional data).",
+    "A re-roof of asphalt, metal, or slate on a detached 1- or 2-family dwelling is treated as ordinary maintenance with no permit, inspection, or notice (N.J.A.C. 5:23-2.7 and the NJ DCA 2018 alert).",
+    "Commercial roof work exceeding 25% of roof area in 12 months triggers a NJ UCC permit (N.J.A.C. 5:23-2.7(c)).",
+    "For Essex County houses: 3-tab asphalt suits short-hold/budget-led owners at $5.50-$9.50/sq ft; standing seam metal and natural slate suit long-hold (40+ year) owners on a 40-80- or 60-150-year life (Josten Roofing and the InterNACHI chart).",
+    "Commercial low-slope: EPDM at $7.00-$10.00/sq ft (15-25 yr; seam separation is dominant failure mode per NRCA); TPO at $8.00-$12.00/sq ft (7-20 yr; heat-welded seams, reflective white membrane)."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate -- never as a state-licensed roofer (NJ issues no roofing license) and never with manufacturer-certification tiers (no GAF Master Elite, CertainTeed SELECT ShingleMaster, or 'we are certified' claims). Frame warranties honestly as two parts: the manufacturer material warranty plus NQR's written contractor workmanship warranty -- not a cert-tier 'best warranty available' boast. Present cost-per-year strictly as an illustrative install-divided-by-lifespan method using sourced figures, never as an NQR-measured or guaranteed number. NQR provides a roof-material recommendation grounded in the named sources (Josten Roofing install ranges, InterNACHI lifespans, NRCA variance, Remodeling/Zonda resale data) and a free written estimate tailored to the homeowner's hold period and budget.",
+  "defabToKill": [
+    "BUYER'S GUIDE -- invented per-square install prices not in gold: '3-tab asphalt shingles ($250-$350), architectural asphalt shingles ($350-$500), corrugated metal ($350-$600), wood shingle ($500-$700), standing seam metal ($800-$1,400), cedar shake ($600-$900), synthetic slate ($600-$1,000), clay/concrete tile ($800-$1,600), and natural slate ($1,500-$3,000)' -- gold uses per-square-FOOT ranges (Josten Roofing), not these per-square dollar figures; dies as invented (not in gold).",
+    "BUYER'S GUIDE -- invented whole-home totals: '3-tab... roughly $6,000-$9,000 for an average Essex County home' and 'natural slate, can reach $70,000+' -- gold's only whole-home figure is the $10,000-$25,000 NJ asphalt replacement benchmark (HomeAdvisor/Modernize); dies as invented.",
+    "BUYER'S GUIDE -- invented lifespans not matching gold: '3-tab asphalt (15-20 years)', 'corrugated metal (25-40 years)', 'wood shingle (30-40 years)', 'cedar shake (30-40 years)', 'standing seam metal (50-70 years)', 'synthetic slate (40-60 years)', 'clay/concrete tile (50-75 years)', 'natural slate (75-150 years)' -- gold (InterNACHI) gives 3-tab 20 yr, architectural 30 yr, metal 40-80, slate 60-150, wood/cedar 25; these altered ranges die as invented.",
+    "BUYER'S GUIDE -- invented cost-per-year-per-square math: 'architectural asphalt ($13-$25), standing seam metal ($13-$20), natural slate ($10-$20), 3-tab asphalt ($15-$23), and corrugated metal ($10-$20)' -- gold defines cost-per-year only as an illustrative install-range-over-lifespan method, never these computed per-square dollar figures; dies as invented cost-per-year math.",
+    "BUYER'S GUIDE -- invented absolute best-value claims by hold period ('staying 5-10 years: architectural asphalt... best value', 'staying 15-30 years: standing seam metal... best balance', 'forever homes: natural slate or standing seam metal... generational value', 'avoid the cheapest options... 3-tab asphalt, budget corrugated') -- gold frames hold-period fit but never the prescriptive 'avoid'/'best value' verdicts; soften to sourced cost-per-year framing.",
+    "EXPERT-PICKS -- fabricated field experience / volume: 'Homeowners often ask us', 'Here is what our Essex County experience reveals', 'We install 3-tab asphalt shingles when clients insist', 'we always disclose our reservations', 'We see them failing at 12-15 years' -- fabricated NQR anecdote/observation; dies (no 'we see'/'our crews'/project-count claims).",
+    "EXPERT-PICKS -- invented contradicting lifespan stat: '3-tab shingles consistently underperform... failing at 12-15 years when manufacturers claim 20-25' -- not in gold (gold: InterNACHI 20-yr 3-tab life, NRCA plus/minus 40% variance); dies as invented.",
+    "EXPERT-PICKS -- invented 50-year re-roof-count math: 'Over 50 years, you would need 3-4 replacements with 3-tab versus 2 with architectural' -- not in gold; dies as invented.",
+    "EXPERT-PICKS -- manufacturer self-recommendation + spec claims not in gold: 'we consistently recommend GAF Timberline HDZ architectural shingles... $350-$500 per square installed, carry a 130 mph wind rating, include the best asphalt shingle warranty available, and reliably last 25+ years' -- product-name endorsement, invented price/wind/warranty/life figures, and cert-tier-style 'best warranty available' boast; all die (no GAF self-claim, no invented specs).",
+    "EXPERT-PICKS -- invented metal spec/price: '26-gauge standing seam metal at $800-$1,200 per square delivers 50+ year lifespan with essentially zero maintenance... upfront cost is 2-3x architectural asphalt' -- 26-gauge, per-square price, 50+ yr, and 2-3x multiplier not in gold (gold: $9.00-$16.00+/sq ft, 40-80 yr); dies as invented.",
+    "EXPERT-PICKS -- fabricated personal-observation anecdotes: 'The most durable roof we have personally observed... a Welsh slate installation on a Montclair home dated to 1897 and still in original service, 129 years and counting', 'Standing seam copper roofs from the early 1900s in Glen Ridge are similarly still performing' -- unverifiable NQR field anecdotes presented as 'verifiable fact'; die.",
+    "EXPERT-PICKS -- invented cost-per-year case numbers: 'A $60,000 slate roof lasting 125 years costs $480 per year. A $10,000 asphalt roof lasting 20 years costs $500 per year' -- $60,000/$480 and the $500/yr asphalt figure not in gold; dies as invented cost-per-year math.",
+    "EXPERT-PICKS -- conclusion overreach: 'Every Essex County homeowner should understand this distinction' modality/prescription plus implied authority -- reframe as sourced, non-prescriptive cost-per-year framing."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Cheapest vs Most Durable Roofing?",
+    "directAnswerThesis": "3-tab asphalt installs cheapest at $5.50-$9.50/sq ft (Josten Roofing); slate (60-150 yr) and metal (40-80 yr) last longest (InterNACHI). The deciding factor is hold period via install-over-lifespan cost-per-year.",
+    "sectionAngles": [
+      "How does upfront install cost per square foot rank across NJ roofing materials? (3-tab $5.50-$9.50, architectural $6.50-$11.00, metal $9.00-$16.00+, slate $10-$30 -- Josten Roofing / NJ guides)",
+      "Which roofing material lasts longest in New Jersey, and how does that change true cost per year? (InterNACHI lifespans plus the illustrative install-over-lifespan method)",
+      "Which material fits your Essex County hold period and budget? (short-hold/budget vs 40+ year hold, with NJ +10-40% cost context and the N.J.A.C. 5:23-2.7 ordinary-maintenance re-roof rule)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Cheapest vs Most Durable Roofing?",
+    "directAnswerThesis": "The named evidence favors matching material to hold period: architectural asphalt ($6.50-$11.00/sq ft, ~61% resale recoup) for near-term sales, metal or slate (40-150 yr) for long holds -- per Josten Roofing, InterNACHI, and Remodeling/Zonda.",
+    "sectionAngles": [
+      "What do the install-cost and lifespan sources actually favor by ownership timeline? (Josten Roofing ranges plus InterNACHI lifespans, framed as cost-per-year, no field anecdote)",
+      "Which installation-quality and ventilation factors decide how long a roof actually lasts? (NRCA plus/minus 40% life variance, attic ventilation extending life up to 25%, concealed vs exposed fasteners)",
+      "What resale and lifetime-cost evidence should guide the choice in Essex County? (Remodeling/Zonda ~61% asphalt vs ~49% metal recoup, 60-68% national recoup, cedar's $0.15-$0.60/sq ft maintenance burden)"
+    ]
+  }
+}

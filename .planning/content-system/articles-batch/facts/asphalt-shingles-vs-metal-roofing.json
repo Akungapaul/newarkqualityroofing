@@ -1,0 +1,104 @@
+{
+  "comparisonId": "asphalt-shingles-vs-metal-roofing",
+  "type": "material",
+  "itemA": "Asphalt shingles",
+  "itemB": "Metal roofing",
+  "verdict": {
+    "winner": "Metal roofing wins on lifespan; asphalt shingles win on upfront NJ cost.",
+    "reasoning": "Choose metal roofing over asphalt shingles when the roof stays 40+ years. Metal's 40-80-year life (InterNACHI) spreads its higher $9.00-$16.00 NJ per-square-foot cost across 2-4 asphalt lifecycles, lowering cost per year of service.",
+    "alternate": "Asphalt shingles win when upfront budget or resale timing leads. Asphalt installs at $5.50-$11.00 per NJ square foot (Josten Roofing) and recoups ~61% of job cost at resale versus metal's ~49%, per the Remodeling/Zonda 2023 Cost vs Value report."
+  },
+  "keyFacts": [
+    "Metal roofing lasts 40-80 years versus asphalt shingles' 20-30 years, per the InterNACHI life-expectancy chart.",
+    "Asphalt 3-tab shingles last about 20 years and architectural (laminated) asphalt about 30 years, per the InterNACHI life-expectancy chart.",
+    "Copper metal roofing exceeds 70 years of service life, per the InterNACHI life-expectancy chart.",
+    "Asphalt shingles install at $5.50-$11.00 per NJ square foot versus metal roofing at $9.00-$16.00+ per NJ square foot, per Josten Roofing.",
+    "Within asphalt, 3-tab installs at $5.50-$9.50 and architectural at $6.50-$11.00 per NJ square foot, per Josten Roofing.",
+    "Labor accounts for roughly 60% of an asphalt roofing project cost, per HomeGuide.",
+    "A full NJ asphalt-shingle roof replacement falls within $10,000-$25,000, while a metal roof replacement falls in the upper half of that range or higher.",
+    "Asphalt repair runs $150-$500 for a shingle and $400-$1,000 for a valley; metal repair runs $150-$1,000 for a fastener issue and up to $3,000 for a corrosion leak.",
+    "Asphalt shingles hold snow until it melts, while metal roofing sheds snow and therefore needs snow guards over entryways.",
+    "An asphalt roof replacement recoups ~61% of job cost at resale versus ~49% for a metal roof, per the Remodeling/Zonda 2023 Cost vs Value report.",
+    "A new asphalt roof adds roughly $15,247 to resale value on a typical home and lets sellers ask 1%-3% more, per Opendoor and Zillow 2025 analysis.",
+    "A reflective roof stays over 50 degrees F cooler than a conventional roof on a sunny afternoon, per the U.S. Department of Energy.",
+    "Reflective roofing is rated by solar reflectance and thermal emittance (not R-value), per the Cool Roof Rating Council.",
+    "A cool/reflective roof cuts peak cooling demand 11-27% in air-conditioned homes, per the EPA.",
+    "Newark sits in heating-dominated Climate Zone 4A-5, so reflective-roof cooling savings carry a winter heating offset, per the DOE.",
+    "Asphalt shingles reach reflective performance through reflective-granule product lines, a lower-cost path to the same reflectance-and-emittance levers, per the EPA and CRRC.",
+    "Newark averages 31.5 inches of annual snowfall, with roughly 78% falling December-February, per NOAA 1991-2020 normals.",
+    "Northern NJ roofs face roughly 35-45 freeze-thaw cycles each winter, stressing both asphalt and metal systems.",
+    "Northern NJ has a design wind speed of roughly 110-115 mph under ASCE 7-16, per ASCE wind maps; metal panels resist that uplift while shed snow still requires snow guards, per NRCA guidance.",
+    "Asphalt shingles depend on an ice-and-water barrier at the eaves to block ice-dam backup and lose protective granules under hail, degrading faster under UV than metal, per NRCA and ARMA guidance.",
+    "Metal roofing resists hail better than asphalt: hail dents thin panels without breaching weatherproofing, while asphalt loses granules that accelerate UV degradation, per NRCA and ARMA guidance; impact-rated shingles narrow the gap.",
+    "Metal roofing installed over solid decking and underlayment is no louder than asphalt shingles in rain; the 'tin roof' noise comes from agricultural panels on open framing without a deck beneath, per the gold source context.",
+    "Metal roofing installs over one existing asphalt-shingle layer in many NJ cases, though deck condition governs whether the overlay is sound."
+  ],
+  "sources": [
+    "InterNACHI Standard Estimated Life Expectancy Chart",
+    "Josten Roofing (NJ installed cost figures)",
+    "HomeGuide (asphalt labor share)",
+    "Remodeling/Zonda 2023 Cost vs Value report (resale recoup)",
+    "Opendoor and Zillow 2025 analysis (resale value add)",
+    "U.S. Department of Energy (DOE) (reflective roof cooling, Climate Zone)",
+    "Cool Roof Rating Council (CRRC) (solar reflectance / thermal emittance rating)",
+    "EPA (cool-roof peak cooling demand reduction)",
+    "NOAA 1991-2020 climate normals (Newark snowfall)",
+    "ASCE 7-16 wind maps (northern NJ design wind speed)",
+    "NRCA (installation, weather, and snow-guard guidance)",
+    "ARMA (asphalt shingle hail/UV guidance)",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code re-roof / permit rules)",
+    "NJ DCA 2018 alert (ordinary-maintenance re-roof clarification)",
+    "GAF published warranty (Golden Pledge system warranty terms)",
+    "Englert, ATAS, McElroy Metal published warranties (metal panel/finish warranties)"
+  ],
+  "njContext": [
+    "The NJ Uniform Construction Code treats a full re-roof of asphalt shingles or metal roofing as ordinary maintenance on a detached 1- or 2-family dwelling, requiring no permit, inspection, or notice, per N.J.A.C. 5:23-2.7 and the NJ DCA 2018 alert.",
+    "A NJ UCC permit is required once roof work turns structural (replacing rafters, trusses, or ridge beams) or exceeds 25% of roof area within 12 months on commercial, condo, or attached buildings, per N.J.A.C. 5:23-2.7(b) and 5:23-2.7(c).",
+    "A NJ full asphalt-shingle roof replacement falls within $10,000-$25,000; a metal roof replacement falls in the upper half of that range or higher.",
+    "Newark averages 31.5 inches of annual snowfall (~78% December-February) per NOAA 1991-2020 normals, and northern NJ roofs see roughly 35-45 freeze-thaw cycles per winter.",
+    "Metal roofing's snow shedding adds snow guards over Newark entryways, while asphalt shingles rely on an ice-and-water barrier at the eaves against ice-dam backup, per NOAA normals and NRCA guidance.",
+    "Architectural asphalt offers the widest color and profile range for color-and-budget-driven Essex County homes, while metal suits long-hold owners with its 40-80-year life, per the InterNACHI chart.",
+    "Metal roofing on a commercial building triggers a NJ UCC permit once roof work exceeds 25% of roof area in 12 months, since the ordinary-maintenance exemption covers only detached 1- and 2-family dwellings, per N.J.A.C. 5:23-2.7(c).",
+    "Asphalt shingles install faster on commercial steep-slope sections (shorter tenant disruption); metal's panel-and-trim fabrication extends the install window in exchange for decades of lower-maintenance service, per NRCA installation guidance."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (registration under the NJ Consumer Fraud Act, N.J.S.A. 56:8-136 — NOT a roofing license, which NJ does not issue), insured, offering a free written estimate. NQR installs both asphalt shingles and metal roofing and recommends the material that fits the specific Essex County home, budget, and ownership horizon. Frame warranties honestly as two separate parts: the manufacturer's limited material/system warranty (set and registered by the maker, e.g. GAF for asphalt or Englert/ATAS/McElroy Metal for metal) and NQR's own written workmanship warranty — never present manufacturer certification tiers (GAF Master Elite, CertainTeed SELECT ShingleMaster, etc.) as NQR credentials. No solar/ITC content applies to this comparison.",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'urban heat island effect in Newark and East Orange can shorten asphalt lifespan by 3-5 years compared to suburban towns like Millburn or Cedar Grove' — invented stat, not in gold; dies.",
+    "BUYERS-GUIDE: 'Architectural asphalt shingles rated for 130+ mph winds meet NJ building code' — invented figure; gold cites ~110-115 mph ASCE 7-16 design wind for northern NJ, not a 130 mph code threshold; dies.",
+    "BUYERS-GUIDE: 'Asphalt shingles cost $350-$500 per square installed... Metal roofing runs $700-$1,200 per square' — invented per-square cost framing not in gold (gold uses per-sq-ft: asphalt $5.50-$11.00, metal $9.00-$16.00); dies.",
+    "BUYERS-GUIDE: 'upfront difference on a typical 2,000 sq ft NJ home is $7,000-$14,000' — invented calculation not in gold; dies.",
+    "BUYERS-GUIDE: 'metal roofing lasts 40-70 years' — wrong range; gold says 40-80 years (InterNACHI); dies/corrected.",
+    "BUYERS-GUIDE: 'cost-per-year, metal often wins: $15-$25/yr versus $15-$20/yr for asphalt' — invented per-year math not in gold; dies.",
+    "BUYERS-GUIDE: 'energy savings matter (metal reflects solar heat, reducing AC costs 10-25%)' — invented AC-savings stat; gold's EPA figure is 11-27% peak cooling DEMAND reduction for reflective roofs (not a 10-25% AC-cost claim), and carries a Newark winter heating offset; dies/replace with gold framing.",
+    "BUYERS-GUIDE: 'Get quotes from at least three NJ-licensed contractors' — 'NJ-licensed' is false; NJ has no roofing license -> registered NJ Home Improvement Contractor (N.J.S.A. 56:8-136); dies.",
+    "EXPERT-PICKS: 'After installing thousands of roofs across Essex County, our crews have strong opinions' — fabricated NQR field-experience/volume anecdote; dies.",
+    "EXPERT-PICKS: 'Here is what NJ contractors see in the field that most comparison guides miss' — fabricated field-experience framing; dies.",
+    "EXPERT-PICKS section heading 'What We See on Tear-Offs' plus 'When we tear off old asphalt shingle roofs in Newark...' — fabricated first-person tear-off anecdote; dies.",
+    "EXPERT-PICKS: 'Homes without [ventilation] show warped, moisture-damaged decking needing replacement at $2,000-$5,000' — invented deck-replacement figure not in gold; dies.",
+    "EXPERT-PICKS: 'We also see a pattern with ice dams... in Montclair and Glen Ridge develop ice dams at predictable spots' — fabricated 'we see' field anecdote; dies (ice-dam fact can be reframed to NRCA/ARMA + ice-and-water barrier from gold).",
+    "EXPERT-PICKS: 'A poorly installed asphalt roof can still last 15 years. A poorly installed metal roof can fail within 5' — invented figures not in gold; dies.",
+    "EXPERT-PICKS: 'verify your contractor has specific metal roofing certifications beyond the basic NJ contractor license' — 'NJ contractor license' is false (no NJ roofing license); plus cert-verification framing; dies.",
+    "EXPERT-PICKS: 'checking for manufacturer certifications from companies like Drexel Metals or Sheffield Metals... For asphalt, GAF Master Elite or CertainTeed SELECT ShingleMaster certification' — manufacturer-certification-tier self/verify framing; replace with honest 2-part warranty framing; dies.",
+    "EXPERT-PICKS: 'In Essex County dense neighborhoods, budget an extra $1-$2/sq ft for sound-dampening underlayment' — invented cost figure not in gold; dies (noise fact can be reframed to gold FAQ: metal over solid decking+underlayment is no louder than asphalt).",
+    "EXPERT-PICKS: 'Standing seam is the premium choice for Essex County homes' — unsupported opinion/recommendation not grounded in named source; dies or reframe to standards-based.",
+    "EXPERT-PICKS / BUYERS-GUIDE general: any 'our crews'/'we install'/'we recommend'/'we see' first-person volume or anecdote framing throughout; dies."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Asphalt Shingles vs Metal Roofing?",
+    "directAnswerThesis": "Metal roofing is better for the long hold, lasting 40-80 years versus asphalt's 20-30 (InterNACHI); asphalt is better for upfront budget and near-term resale, installing cheaper and recouping ~61% versus metal's ~49%.",
+    "sectionAngles": [
+      "Which costs less: upfront price or cost per year of service?",
+      "Which roof fits NJ climate and Uniform Construction Code rules better?",
+      "How do you decide between asphalt and metal for an Essex County home?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Asphalt Shingles vs Metal Roofing?",
+    "directAnswerThesis": "The standards favor metal for longevity (40-80 years, InterNACHI) and asphalt for budget and resale; match material to ownership horizon, verify a registered NJ Home Improvement Contractor, and weigh manufacturer plus written workmanship warranties.",
+    "sectionAngles": [
+      "What do the longevity, cost, and resale standards (InterNACHI, Josten Roofing, Zonda 2023) actually favor for each material?",
+      "Which installation-quality factors decide longevity, per NRCA and ARMA guidance and manufacturer warranty terms?",
+      "What homeowner mistakes do the standards flag — metal noise, snow shedding, and overlay/deck condition under N.J.A.C. 5:23-2.7?"
+    ]
+  }
+}

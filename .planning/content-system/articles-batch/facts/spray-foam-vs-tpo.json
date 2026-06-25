@@ -1,0 +1,93 @@
+{
+  "comparisonId": "spray-foam-vs-tpo",
+  "type": "material",
+  "itemA": "Spray Polyurethane Foam (SPF)",
+  "itemB": "TPO",
+  "verdict": {
+    "winner": "Spray foam wins on built-in insulation; TPO wins on lower maintenance and year-round install.",
+    "reasoning": "Choose spray polyurethane foam over TPO when the deck needs added thermal performance in minimal height — SPF's R-6.0–6.5 per inch (ICC-ES/SPFA) builds insulation into the membrane, where TPO carries none and depends on separate polyiso boards.",
+    "alternate": "Choose TPO over spray polyurethane foam when maintenance burden leads — TPO takes only periodic seam inspection, while SPF takes recoating every 10–20 years to stay UV-protected, per the SPFA."
+  },
+  "keyFacts": [
+    "Spray polyurethane foam adds R-6.0–6.5 per inch of aged insulation, while TPO carries no built-in R-value (per ICC-ES reports and the SPFA).",
+    "Spray polyurethane foam installs at $4–$8 per square foot in NJ; TPO runs $8–$12 per square foot over separate polyiso (per commercial cost guides and Josten Roofing, NJ).",
+    "SPF carries the lower entry cost because one spray pass lays membrane, insulation, and air barrier together, removing the separate polyiso layer (per commercial cost guides and the SPFA).",
+    "TPO costs more per square foot because the system stacks separate polyiso insulation boards beneath the welded membrane, adding material layers and labor (per commercial cost guides).",
+    "Spray polyurethane foam is a roof covering of liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating; it forms the membrane, insulation, and air barrier in one field-sprayed pass.",
+    "TPO is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed as a reflective, water-shedding surface that carries no built-in R-value and rests over separate insulation boards.",
+    "Two inches of SPF foam adds roughly R-12–R-13, measured by the ASTM C1289 LTTR method (per ICC-ES).",
+    "NJ's 2021 IECC ceiling insulation target is R-60, which TPO reaches through separate polyiso layers while SPF integrates the air barrier and insulation in the covering (per the 2021 IECC).",
+    "White TPO holds a solar reflectance of 0.70–0.85 and a thermal emittance of 0.80–0.90, measured per ASTM C1549 and listed by the CRRC.",
+    "A reflective (white TPO) roof cuts peak cooling demand 11–27% in air-conditioned buildings (per the EPA).",
+    "A reflective roof stays over 50°F cooler than a conventional roof (per the DOE).",
+    "Spray polyurethane foam lasts 30+ years when its coating is maintained; TPO is rated 7–20 years (per the SPFA and the InterNACHI life-expectancy chart), with TPO commonly cited at 15–25 years in practice.",
+    "Spray polyurethane foam needs recoating every 10–20 years — acrylic coatings on a 10–15-year cycle, silicone on a 15–20-year cycle — to keep the UV-sensitive foam protected (per the SPFA).",
+    "TPO requires only periodic seam inspection for maintenance (per NRCA guidance and the SPFA).",
+    "SPF failure modes are blistering from trapped moisture or poor prep, adhesion loss, and coating erosion under ponding (per the SPFA and NRCA).",
+    "TPO fails most often at the welded seam, then through chemical attack from rooftop equipment and thermal-shock cracking as plasticizers migrate (per NRCA technical guidance).",
+    "SPF is a seamless monolithic spray application; TPO is installed with heat-welded seams (per the SPFA and NRCA).",
+    "The NRCA requires positive drainage beneath a spray-foam roof to prevent coating erosion and blistering; TPO drains to outlets (per NRCA guidance).",
+    "SPF is a weather-sensitive field-spray application with a narrower NJ installation window, while heat-welded TPO installs year-round including in cold weather (per the SPFA and NRCA)."
+  ],
+  "sources": [
+    "Josten Roofing (NJ)",
+    "SPFA (Spray Polyurethane Foam Alliance)",
+    "ICC-ES (evaluation reports)",
+    "NRCA (National Roofing Contractors Association)",
+    "InterNACHI life-expectancy chart",
+    "CRRC (Cool Roof Rating Council)",
+    "ASTM C1549 (solar reflectance measurement)",
+    "ASTM C1289 (LTTR insulation method)",
+    "EPA",
+    "DOE",
+    "2021 IECC",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code, including 5:23-2.7(b) and 5:23-2.7(c))",
+    "Commercial roofing cost guides"
+  ],
+  "njContext": [
+    "Spray polyurethane foam installs at $4–$8 per square foot in NJ; TPO runs $8–$12 per square foot over separate polyiso (per commercial cost guides and Josten Roofing, NJ).",
+    "The NJ Uniform Construction Code classifies a spray-foam or TPO re-roof as ordinary maintenance only on a detached 1- or 2-family dwelling (per N.J.A.C. 5:23-2.7).",
+    "Most commercial flat roofs require a NJ permit when roof work exceeds 25% of roof area in 12 months, since the ordinary-maintenance exemption covers only detached 1- and 2-family dwellings (per N.J.A.C. 5:23-2.7(c)).",
+    "Structural work — replacing rafters, decking, or beams — always triggers NJ UCC review (per N.J.A.C. 5:23-2.7(b) and 5:23-2.7(c)).",
+    "SPF's weather-sensitive field spray narrows its NJ installation window relative to year-round heat-welded TPO, a scheduling difference across a north-NJ winter's roughly 35–45 freeze-thaw cycles (regional estimate).",
+    "For an Essex County flat-roof home, SPF suits height-restricted decks (delivers R-6.0–6.5 per inch in minimal thickness where polyiso stacks raise the deck past door thresholds), while TPO suits standard residential flat sections at lower upkeep (per ICC-ES, the SPFA, and NRCA guidance).",
+    "For a commercial flat roof, SPF fits insulation-driven decks where NRCA-required positive drainage exists, while TPO fits reflectance-driven new low-slope decks where the white membrane's 0.70–0.85 solar reflectance cuts peak cooling demand 11–27% and year-round welding shortens the tenant-disruption window (per ASTM C1549, the EPA, and NRCA guidance)."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate for Essex County flat-roof projects. NQR assesses the building — deck condition, height/threshold constraints, drainage, insulation needs, and rooftop traffic/equipment — to determine whether SPF or TPO delivers better value, and coordinates the NJ UCC permit path (ordinary-maintenance exemption vs. the 25%-of-roof-area commercial trigger under N.J.A.C. 5:23-2.7). Frame warranty honestly as two parts: the manufacturer's material warranty on the membrane/coating plus NQR's written workmanship warranty on the install — never as manufacturer certification tiers. NJ has no roofing contractor license; describe NQR as registered, not 'licensed.'",
+  "defabToKill": [
+    "buyers-guide — 'SPF provides the highest R-value per inch of any commercial insulation (R-6.5 per inch)': 'highest of any commercial insulation' superlative is not in the gold (gold states R-6.0–6.5 per inch per ICC-ES/SPFA, no superlative). Dies; restate the gold range with source, drop the superlative.",
+    "buyers-guide — 'requires recoating every 10-15 years. Each recoating costs $2-$4 per square foot': the $2–$4/sq ft recoat cost is invented — not in the gold (gold gives no recoat dollar figure; recoat cycle is 10–20 years per SPFA, not 10–15). Dies as invented figure + wrong cycle.",
+    "buyers-guide — 'SPF roofs are vulnerable to bird damage, hail, and foot traffic ... foam surface is softer than TPO': bird/hail/foot-traffic vulnerability claims are not substantiated in the gold (gold failure modes are blistering, adhesion loss, coating erosion). Dies unless reframed to gold-listed failure modes.",
+    "buyers-guide — 'SPF self-flashes ... complex geometry with many penetrations': the self-flashing penetration claim is not in the gold. Dies; gold supports 'seamless monolithic' only.",
+    "buyers-guide — 'SPF runs $5-$9 per square foot installed. TPO with insulation runs $6-$11 per square foot': invented cost ranges — contradict the gold's verified $4–$8 (SPF) and $8–$12 (TPO) per Josten Roofing/commercial cost guides. Dies; replace with gold figures + source.",
+    "buyers-guide — 'when you factor in the energy savings from SPF superior insulation, the lifetime cost may favor SPF': speculative lifetime-cost/energy-savings math not in the gold, plus 'superior' superlative + 'may' modality. Dies (de-fab + modality).",
+    "buyers-guide — 'walk-ability ... walk pads around equipment to prevent foam compression damage': foam-compression / walk-pad claims are not in the gold. Dies as unsubstantiated.",
+    "expert-picks — 'Having installed both spray foam and TPO on Essex County commercial buildings, our crews understand the real-world trade-offs': fabricated NQR field-experience / crew anecdote. Dies; replace with standards-based framing.",
+    "expert-picks — 'In Essex County, we can spray foam from late spring through early fall, roughly May through October': invented NQR-specific install window not in the gold (gold says only that SPF is weather-sensitive with a narrower window than year-round TPO). Dies; restate the gold's directional fact, no fabricated month range.",
+    "expert-picks — 'Wind is SPF's other enemy ... overspray issues that affect neighboring properties ... We schedule SPF applications only on calm days': fabricated NQR scheduling anecdote + wind/overspray claim not in the gold. Dies.",
+    "expert-picks — 'Our SPF installations from 15+ years ago are performing well ... Buildings that skipped scheduled recoating show foam degradation ... sometimes severe enough to require partial re-spraying': fabricated NQR project-history / observation. Dies; reframe to SPFA recoat cycle + UV-sensitivity facts.",
+    "expert-picks — 'Our TPO installations from the same era need less ongoing attention. Annual inspections and occasional minor repairs': fabricated NQR project history + 'annual inspection' cadence not in the gold (gold says 'periodic seam inspection'). Dies.",
+    "expert-picks — 'We recommend SPF ... / We recommend TPO ... TPO is our default commercial recommendation for Essex County': first-person 'we recommend / our default' framing presented as field judgment. Dies; reframe as what the standards/specs favor, then NQR's honest registered-NJ-HIC assessment.",
+    "expert-picks — 'SPF over existing modified bitumen or BUR avoids tear-off costs and landfill waste while dramatically improving insulation': the go-over-existing / tear-off-avoidance / landfill claim and 'dramatically' qualifier are not in the gold. Dies as unsubstantiated.",
+    "BOTH — no 'licensed contractor' / 'NJ-licensed' phrasing appears in either dirty article, but ctaText/positioning must use 'registered New Jersey Home Improvement Contractor' (N.J.S.A. 56:8-136), never 'licensed' — NJ has no roofing license.",
+    "CURRENCY — neither article cites the 30% federal solar ITC / §25D / §25C, ENERGY STAR roof program, R-49 code, or NJ historic tax credit; none present, so none to kill here. Cooling-demand reflectance is correctly the EPA 11–27% figure (gold), not an invented 'AC savings %.'"
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Spray Foam vs TPO?",
+    "directAnswerThesis": "Neither wins outright: spray foam wins when the deck needs built-in R-6.0–6.5-per-inch insulation in minimal height; TPO wins on lower maintenance and year-round install. Insulation need versus upkeep is the deciding factor.",
+    "sectionAngles": [
+      "How do spray foam and TPO compare on installed cost in NJ?",
+      "Which roof fits NJ climate and code — insulation, reflectance, and the UCC permit trigger?",
+      "Which should you choose: the SPF-vs-TPO decision checklist by insulation need, height limits, and maintenance tolerance?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Spray Foam vs TPO?",
+    "directAnswerThesis": "The standards point to SPF where built-in insulation in minimal height drives the choice (ICC-ES/SPFA) and TPO where low maintenance and year-round install lead (NRCA/SPFA); the deck's insulation need and upkeep tolerance decide.",
+    "sectionAngles": [
+      "What do the standards (ICC-ES, SPFA, NRCA, CRRC) actually favor for SPF versus TPO?",
+      "Which installation-quality factors decide longevity — SPF's recoat cycle and positive drainage versus TPO's welded-seam integrity?",
+      "What common Essex County mistakes shorten a flat roof's life — lapsed SPF recoating, ponding, and unaddressed TPO seam wear?"
+    ]
+  }
+}

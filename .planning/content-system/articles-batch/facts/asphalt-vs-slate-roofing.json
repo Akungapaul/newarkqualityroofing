@@ -1,0 +1,99 @@
+{
+  "comparisonId": "asphalt-vs-slate-roofing",
+  "type": "material",
+  "itemA": "Asphalt shingles",
+  "itemB": "Natural slate",
+  "verdict": {
+    "winner": "Asphalt shingles win on cost; natural slate wins on multi-generational lifespan",
+    "reasoning": "Asphalt shingles beat natural slate when the ownership horizon is under 15 years or the budget caps near the $10,000 to $11,000 national asphalt-replacement benchmark, since asphalt installs at $5.50 to $11.00 per square foot.",
+    "alternate": "Natural slate beats asphalt shingles when the home already carries slate or sits in a designated local historic district, where Standard 6 of the Secretary of the Interior's Standards directs an in-kind match rather than an asphalt substitute."
+  },
+  "keyFacts": [
+    "Natural slate lasts 60 to 150 years versus 20 to 30 years for asphalt shingles, per the InterNACHI Standard Estimated Life Expectancy Chart.",
+    "The National Slate Association rates ASTM S-1 grade slate at a 75-year minimum service life.",
+    "Asphalt life splits by type: 3-tab lasts about 20 years and architectural about 30 years, per the InterNACHI chart.",
+    "The NRCA notes actual asphalt shingle life varies up to 40% with climate, installation, and maintenance.",
+    "Asphalt is a light covering that loads any properly sheathed roof with no structural upgrade, while natural slate is a heavy quarried-stone covering whose structural load is reviewed before installation.",
+    "Natural slate requires non-ferrous solid copper or stainless-steel fasteners, because plain or galvanized steel rusts out long before the slate, per NPS Preservation Brief 29.",
+    "Natural slate outlasts its own fasteners and flashing, so failures trace to corroded fasteners or degraded valley flashing rather than the stone itself, per NPS Preservation Brief 29.",
+    "Asphalt shingles fail through wind-driven granule loss, edge and tab curling, and thermal-shock cracking along the cutouts, per NRCA and InterNACHI guidance.",
+    "On lower-grade stone, slate weathers to surface sugaring rather than structural cracking, per NRCA and the National Slate Association.",
+    "Natural slate reaches full replacement when 20% or more of its slates are broken, missing, or sliding, per NPS Preservation Brief 29.",
+    "Asphalt shingles reach full replacement when damage exceeds 25 to 30% of the roof area, per contractor consensus, with the 50% rule favoring replacement once one repair approaches half the replacement cost.",
+    "A single broken slate replaces for $50 to $300, per HomeGuide; slate repair averages near $1,400 within a $500 to $2,100 band.",
+    "Asphalt shingle repair runs $360 to $1,550 for minor patch or flashing work, per Angi.",
+    "A New Jersey roof leak repair runs $400 to $1,000, per HomeAdvisor, with NJ pricing about 10 to 15% above the national average.",
+    "Architectural asphalt shingles replicate slate's layered, dimensional profile, last about 30 years per the InterNACHI chart, and install at $6.50 to $11.00 per square foot in NJ per Josten Roofing, against natural slate's $10 to $30.",
+    "Slate is never walked on or coated to seal moisture; the stone is sounded, flipped, and reset rather than patched, per NPS Preservation Brief 29.",
+    "Natural slate is the in-kind material on a contributing structure in a designated local historic district, where Standard 6 of the Secretary of the Interior's Standards directs that a deteriorated slate roof be repaired or matched in kind rather than swapped for asphalt."
+  ],
+  "sources": [
+    "InterNACHI Standard Estimated Life Expectancy Chart",
+    "National Slate Association",
+    "ASTM S-1 slate grade",
+    "NRCA (National Roofing Contractors Association)",
+    "NPS Preservation Brief 29 (Repair, Replacement, and Maintenance of Historic Slate Roofs)",
+    "Secretary of the Interior's Standards (Standard 6)",
+    "Josten Roofing (NJ install figures)",
+    "Angi",
+    "HomeAdvisor",
+    "HomeGuide",
+    "IRC R905.1.2",
+    "NJ Uniform Construction Code (N.J.A.C. 5:23)",
+    "N.J.S.A. 40:55D-107 (Certificate of Appropriateness / Historic Preservation Commission)",
+    "NPS (National Park Service)",
+    "NJ DEP Historic Preservation Office",
+    "NJEDA / NJ Historic Property Reinvestment Program"
+  ],
+  "njContext": [
+    "Asphalt shingles install across northern New Jersey at $5.50 to $9.50 per square foot for 3-tab and $6.50 to $11.00 for architectural, per Josten Roofing's NJ figures.",
+    "Natural slate installs at $10 to $30 per square foot, roughly $1,500 per square, per NJ roofing guides, and is the highest-priced covering on the historic homes of Montclair, Glen Ridge, and Newark's landmark districts.",
+    "Asphalt shingles depend on an ice-and-water shield at the eaves, required at eaves with an ice-dam history and extending at least 24 inches inside the exterior wall line, per IRC R905.1.2 as enforced under the NJ Uniform Construction Code (N.J.A.C. 5:23).",
+    "In NJ freeze-thaw climate, natural slate failures trace to corroded fasteners and degraded valley flashing rather than the stone, while asphalt shingles crack and curl after years of freeze-thaw, per NRCA and InterNACHI guidance.",
+    "Natural slate on a landmark commercial property in Newark's James Street Commons or Lincoln Park district triggers a Certificate of Appropriateness from the Historic Preservation Commission, per N.J.S.A. 40:55D-107, before a roofing-material change.",
+    "A partial asphalt swap on a contributing structure in a designated local historic district can require a Certificate of Appropriateness; below 20% slate failure, NPS Preservation Brief 29 favors selective slate repair over wholesale change.",
+    "The federal 20% Historic Rehabilitation Tax Credit and the NJ Historic Property Reinvestment Program apply only to income-producing properties; owner-occupied homes do not qualify, per the NPS and the NJ DEP Historic Preservation Office.",
+    "Flat commercial roofs use single-ply membrane systems rather than either steep-slope material, matching the low-slope geometry."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate, that installs both asphalt and natural slate across Essex County. NQR reviews the home's structural load before specifying slate (a heavy quarried-stone covering) and matches in-kind material on contributing structures in designated local historic districts per Standard 6, coordinating any required Certificate of Appropriateness. Frame warranty honestly as two parts: a manufacturer material warranty plus NQR's own written workmanship warranty, never as manufacturer certification tiers. Never claim a roofing license (NJ issues none for roofing) and never claim manufacturer-certification status not held by the business.",
+  "defabToKill": [
+    "BUYER'S GUIDE - invented cost figures not in gold: 'Asphalt costs $350-$500 per square installed. Slate runs $1,500-$3,000 per square, a 4-6x premium. On a 2,000 sq ft roof, roughly $8,000-$12,000 for asphalt versus $35,000-$70,000 for slate.' Gold gives only per-sq-ft NJ ranges ($5.50-$11.00 asphalt; $10-$30 / ~$1,500 per square slate) — these per-square and whole-roof totals are invented. DIES.",
+    "BUYER'S GUIDE - invented cost-per-year math not in gold: 'asphalt at 20-30 years costs $13-$25/yr per square; slate at 75-150 years costs $10-$20/yr.' Fabricated per-year amortization. DIES.",
+    "BUYER'S GUIDE - invented slate lifespan band: '75-150 years' (gold/InterNACHI says 60-150; NSA says 75-year minimum). The combined '75-150' framing is not in gold. DIES / correct to gold figures.",
+    "BUYER'S GUIDE - invented weight figures not in gold: 'Slate weighs 800-1,500 lbs per square versus 200-350 for asphalt.' Gold states only 'light vs heavy / load reviewed before install' — no pound figures. DIES.",
+    "BUYER'S GUIDE - invented structural-reinforcement cost not in gold: 'reinforcement can add $5,000-$15,000.' Invented figure. DIES.",
+    "BUYER'S GUIDE - invented claim 'Most Essex County homes built after 1960 were not framed for slate weight' and 'Older homes in Glen Ridge and Montclair often already have slate-capable framing' — unsourced sweeping structural generalization not in gold. DIES.",
+    "BUYER'S GUIDE - invented permit timeline not in gold: 'Budget 4-6 weeks for approval in most Essex County municipalities.' Fabricated. DIES.",
+    "BUYER'S GUIDE - invented synthetic-slate cost claim not in gold: 'synthetic slate products that mimic natural slate appearance at 40-60% of the cost and a fraction of the weight. Quality has improved significantly in recent years.' Off-topic and unsourced. DIES.",
+    "BUYER'S GUIDE - opinion/marketing framing 'Slate is the legacy investment for generational wealth in Essex County real estate.' Non-factual editorializing. DIES.",
+    "EXPERT-PICKS - fabricated field experience / crew anecdote: 'Working with both asphalt and slate daily gives our crews a perspective most homeowners never get.' DIES (R: no fabricated field experience).",
+    "EXPERT-PICKS - fabricated crew anecdote: 'We replace asphalt roofs in Essex County that are only 15-18 years old' — invented field observation with invented 15-18 year figure not in gold. DIES.",
+    "EXPERT-PICKS - fabricated anecdote: 'Slate roofs from the 1940s on the same street are often still perfect' — invented observation. DIES.",
+    "EXPERT-PICKS - fabricated storm-call anecdote: 'After every major storm in Essex County, our emergency calls are overwhelmingly for asphalt shingle damage. We rarely get slate emergency calls...' DIES.",
+    "EXPERT-PICKS - invented repair figures not in gold: 'Asphalt repairs are cheap: $150-$400 for most patch jobs. Slate repairs cost $200-$600 per slate.' Gold gives asphalt $360-$1,550 (Angi) and slate $50-$300 per slate (HomeGuide) — these are different invented bands. DIES.",
+    "EXPERT-PICKS - invented cumulative-repair math not in gold: 'Over 30 years, asphalt cumulative repair costs reach $2,000-$4,000 while slate stays under $1,500.' Fabricated. DIES.",
+    "EXPERT-PICKS - invented permanence claim 'a replaced slate lasts another century' — unsourced absolute. DIES.",
+    "EXPERT-PICKS - fabricated crew-homeowner anecdote: 'When our crew members buy their own homes in Essex County, the ones who can afford it choose slate.' DIES.",
+    "EXPERT-PICKS - manufacturer brand/product self-spec name-drop: 'specifying highest-quality shingles like GAF Timberline HDZ or CertainTeed Landmark Pro.' Reads as certification/spec self-claim; not in gold. DIES (replace with neutral 'architectural / dimensional asphalt shingles').",
+    "EXPERT-PICKS - unsupported universal claim 'Contractors universally respect slate as the superior material.' Opinion presented as fact. DIES.",
+    "BOTH - 'cost-per-year tells a different story' and similar invented amortization framing must not migrate into keyFacts; only gold per-sq-ft and lifespan figures survive."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Asphalt vs Slate Roofing?",
+    "directAnswerThesis": "Asphalt shingles win on upfront cost ($5.50-$11.00/sq ft, 20-30 year life); natural slate wins on lifespan (60-150 years per InterNACHI). The deciding factor is ownership horizon and whether the home is in a historic district.",
+    "sectionAngles": [
+      "What does each roof actually cost to install and repair in New Jersey?",
+      "How do asphalt and slate handle NJ freeze-thaw climate, structural load, and Uniform Construction Code requirements?",
+      "How should an Essex County homeowner decide between asphalt and slate (time horizon, budget, historic-district status)?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Asphalt vs Slate Roofing?",
+    "directAnswerThesis": "The standards favor in-kind slate on historic homes (Standard 6) and slate for multi-generational life (60-150 years, InterNACHI); for budget or short-horizon homes the standards-backed recommendation is quality architectural asphalt with proper detailing.",
+    "sectionAngles": [
+      "What do the recognized standards (InterNACHI, NRCA, NPS Preservation Brief 29, Secretary of the Interior's Standards) actually favor for each material?",
+      "Which installation and detailing factors decide longevity — non-ferrous fasteners and valley flashing on slate, eave ice-and-water shield per IRC R905.1.2 on asphalt?",
+      "What common homeowner mistakes does the evidence flag — swapping in asphalt on a historic slate roof, or skipping the structural-load review before specifying slate?"
+    ]
+  }
+}

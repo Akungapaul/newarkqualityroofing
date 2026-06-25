@@ -1,0 +1,35 @@
+{
+  "articleId": "most-energy-efficient-roofing-materials-buyers-guide",
+  "directAnswer": "**The most energy-efficient roofing** is rated by solar reflectance and thermal emittance, not R-value: spray polyurethane foam leads total NJ performance with an aged R-6.0 to R-6.5 per inch, per SPFA, while white TPO/PVC membranes lead low-slope cooling at ~0.70–0.85 reflectance, per the CRRC.",
+  "intro": "Two separate levers decide a roof's energy performance in New Jersey — surface reflectance and conductive insulation — and which one matters more depends on roof slope and Newark's heating-dominated climate.",
+  "sections": [
+    {
+      "heading": "Which Lever Cuts More Energy in Newark's Heating-Dominated Climate Zone 4A-5?",
+      "body": [
+        "**Insulation cuts more total annual energy in Newark** because the city sits in a heating-dominated mixed climate, Climate Zone 4A–5, where R-value governs winter heat loss, per the DOE and EPA. A reflective roof reduces peak summer cooling but carries an offsetting winter heating penalty in this zone.",
+        "**Spray polyurethane foam (SPF)** is the only covering here that adds conductive insulation, an aged R-6.0 to R-6.5 per inch, per ICC-ES/ASTM C1289 LTTR listings and SPFA, applied as a seamless layer that also forms a continuous air barrier; the foam layer lasts 30-plus years when its protective coating stays maintained, per SPFA. That added R-value addresses the larger winter share of Newark's annual energy use.",
+        "**Reflective coverings** — white TPO/PVC membrane, reflective metal, and cool-roof asphalt shingles — add no conductive R-value; their energy effect comes only from solar reflectance and thermal emittance that lower roof-surface temperature, per the DOE, CRRC, and RCMA. A reflective roof stays over 50°F cooler than a conventional roof on a sunny afternoon, per the DOE and the LBNL Heat Island Group, but each reflective covering relies on separate insulation for winter performance."
+      ]
+    },
+    {
+      "heading": "How Does Each Material Rate, and Which Rating System Applies Now?",
+      "body": [
+        "**The CRRC-1 program** (Cool Roof Rating Council) is the active third-party rating system for roof reflectance and emittance, per the CRRC. The EPA ended ENERGY STAR roof program recognition on June 1, 2022, per the EPA, CRRC, and SPRI, and the CRRC-1 directory now lists initial and 3-year-aged solar reflectance and thermal emittance.",
+        "**White single-ply membrane** (TPO and PVC) holds the highest rated reflectance band of these coverings — ~0.70–0.85 solar reflectance and ~0.80–0.90 thermal emittance measured by ASTM C1549 and listed by the CRRC. **White PVC membrane** holds the same ~0.70–0.85 band plus chemical and grease resistance, suiting flat roofs near kitchen or grease exhaust, per the CRRC and Duro-Last.",
+        "**Reflective metal roofing and cool-roof asphalt shingles** carry high solar reflectance and thermal emittance the CRRC rates, though no metal-specific reflectance percentage is sourced, and cool-roof shingles raise surface reflectance through reflective granules as the lower-cost steep-slope path. **Spray polyurethane foam (SPF)** is rated on a different scale entirely — an insulation lever, measured by ICC-ES and ASTM C1289 LTTR R-value rather than CRRC reflectance, per SPFA and the CRRC."
+      ]
+    },
+    {
+      "heading": "What Does NJ Code Require Before Reflectance Adds Value, and How Do You Decide by Slope?",
+      "body": [
+        "**The 2021 IECC** sets ceiling insulation at R-60 for NJ's Climate Zones 4 and 5 under Table R402.1.3, with an R-49 full-ceiling exception at raised-heel eaves, per the ICC and NJ DCA. New Jersey adopted that code with residential enforcement from April 2023, and this conductive minimum applies regardless of the covering's reflectance.",
+        "**Roof slope** sets the practical choice: on low-slope or flat commercial roofs, SPF adds the only conductive R-value where existing insulation runs thin, while white TPO/PVC's ~0.70–0.85 reflectance lowers surface temperature and cuts peak summer cooling demand 11–27% in air-conditioned residential buildings, per the EPA, CRRC, and SPFA. **Balanced attic ventilation** supports either path — IRC R806.2 sets the minimum net free ventilating area at 1/150 of the vented attic, split roughly 50% intake at the soffits and 50% exhaust at the ridge, per the IRC, ARMA, and Air Vent Inc.",
+        "**Cool-roof asphalt shingles** suit most Essex County houses on a [roof replacement](/roof-replacement) — their reflective granules raise surface reflectance at standard steep-slope shingle pricing and carry CRRC ratings, per the CRRC. Once ceiling insulation meets the 2021 IECC R-60 (R-49 raised-heel exception), reflectance adds only incremental summer benefit, so the decision orders insulation first, then a CRRC-rated reflective covering matched to slope, per the ICC and CRRC."
+      ]
+    }
+  ],
+  "conclusion": "Spray polyurethane foam ranks first for total New Jersey energy performance as the one covering that adds R-value, while white TPO/PVC membranes and cool-roof asphalt shingles lead reflectance on their respective slopes, per SPFA and the CRRC. In Newark's heating-dominated Climate Zone 4A–5, the 2021 IECC R-60 ceiling insulation governs the larger annual share, so the energy choice starts with insulation and matches a CRRC-rated reflective surface to roof slope.",
+  "ctaHeading": "Match Your Roof to Newark's Climate",
+  "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor under N.J.S.A. 56:8-136, insured, and serving Essex County. We install both reflectance-lever coverings (white TPO/PVC, cool-roof asphalt shingles, reflective metal) and insulation-lever systems (spray foam, above-deck and attic insulation). Reach out for a free written estimate matched to your roof slope and Climate Zone 4A-5.",
+  "metaDescription": "Most energy-efficient NJ roofing: spray foam adds R-6.0-6.5/inch insulation; white TPO/PVC reflects 0.70-0.85 per CRRC. Climate Zone 4A-5, R-60 code compared."
+}

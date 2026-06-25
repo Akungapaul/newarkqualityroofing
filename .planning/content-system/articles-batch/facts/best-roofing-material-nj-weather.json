@@ -1,0 +1,101 @@
+{
+  "comparisonId": "best-roofing-material-nj-weather",
+  "type": "ranking",
+  "itemA": null,
+  "itemB": null,
+  "verdict": {
+    "winner": "Standing seam metal leads on lifespan and freeze-thaw resistance, architectural asphalt shingles lead on value, and natural slate ranks highest for historic homes, per the InterNACHI chart and Josten Roofing.",
+    "reasoning": "Standing seam metal ranks first for durability — its 40-80-year life and snow-shedding panels resist New Jersey's ~35-45 freeze-thaw cycles and ~110-115 mph design wind (ASCE 7-16), spreading its $9.00-$16.00 NJ per-square-foot cost across decades, per InterNACHI and Josten Roofing.",
+    "alternate": "Architectural asphalt shingles rank first on value at $6.50-$11.00 per NJ square foot (Josten Roofing) with a 30-year life; TPO leads for flat roofs through heat-welded seams, and natural slate leads for historic homes at a 60-150-year life, per the InterNACHI chart."
+  },
+  "keyFacts": [
+    "Standing seam metal is a concealed-fastener steel or aluminum panel system that sheds snow and lasts 40-80 years, per the InterNACHI life-expectancy chart.",
+    "Architectural asphalt shingles are a laminated fiberglass-mat covering that lasts 30 years and install at $6.50-$11.00 per square foot in NJ, per Josten Roofing and InterNACHI.",
+    "Natural slate is a quarried-stone covering with near-zero porosity that resists freeze-thaw across a 60-150-year life, at $10-$30 per square foot in NJ, per InterNACHI.",
+    "Standing seam metal installs at $9.00-$16.00 per square foot in NJ, per Josten Roofing.",
+    "Cedar shake lasts 20-40 years and cedar shingle 30-50 years (CSSB / Cedar Shake & Shingle Bureau); InterNACHI lists a 25-year general wood life.",
+    "Clay and concrete tile itself lasts 100+ years, but the underlayment limits the system's service life, per InterNACHI and the Tile Roofing Industry Alliance.",
+    "TPO membrane carries a 7-20-year InterNACHI life (15-25 in practice), with heat-welded seams and a reflective white surface, per InterNACHI.",
+    "EPDM rubber lasts 15-25 years, stays flexible in cold, and is puncture-resistant, per the InterNACHI chart.",
+    "Standing seam metal and natural slate both carry near-zero water absorption, so the roughly 35-45 freeze-thaw cycles each north-NJ winter (regional climate estimates) cannot crack them, per the InterNACHI chart.",
+    "Standing seam metal's 40-80-year life outlasts asphalt by decades; freeze-thaw stresses fasteners and long-run thermal expansion rather than splitting the covering, per InterNACHI and NRCA expansion guidance.",
+    "Natural slate failures trace to corroded fasteners or degraded valley flashing rather than the stone, across a 60-150-year life, per InterNACHI and the National Slate Association.",
+    "Architectural asphalt shingles lose protective granules over time across their 30-year life; lower-grade clay and concrete tile risk freeze-thaw spalling, per InterNACHI and the Tile Roofing Industry Alliance.",
+    "Standing seam metal and architectural asphalt shingles both exceed the ~110-115 mph design wind speed mapped for northern NJ under ASCE 7-16, per ASCE wind maps.",
+    "Standing seam metal sheds the ~31.5-inch average annual snowfall (NOAA 1991-2020 normals, ~78% falling December-February) off interlocking panels, though shed snow needs snow guards over Newark entryways, per NOAA normals.",
+    "Architectural asphalt shingles hold snow until melt and rely on an ice-and-water barrier at the eaves, required to extend at least 24 inches inside the exterior wall line under IRC R905.1.2, to block ice-dam backup, per the IRC as enforced through N.J.A.C. 5:23.",
+    "A reflective roof stays over 50 degrees F cooler than a conventional roof on a sunny afternoon, per the U.S. Department of Energy.",
+    "A reflective metal finish lowers roof surface temperature through high solar reflectance and thermal emittance (not added R-value), cutting peak cooling demand 11-27% in air-conditioned buildings, per the EPA and the Cool Roof Rating Council; Newark's heating-dominated Climate Zone 4A carries a winter heating offset, per the DOE.",
+    "TPO reflects solar energy off its white surface and meets cool-roof reflectance-and-emittance levels measured per ASTM C1549 and listed by the CRRC, per the CRRC and DOE.",
+    "3-tab asphalt shingles last 20 years and trail on uplift resistance, per the InterNACHI chart.",
+    "Longest-lasting NJ roofing materials rank: natural slate 60-150 years, then clay or concrete tile 100+ years, then standing seam metal 40-80 years, then architectural asphalt 30 years and 3-tab 20 years, per the InterNACHI chart."
+  ],
+  "sources": [
+    "InterNACHI (Standard Estimated Life Expectancy Chart for Homes)",
+    "Josten Roofing (NJ installed cost ranges)",
+    "NRCA (thermal expansion guidance)",
+    "National Slate Association",
+    "Cedar Shake & Shingle Bureau (CSSB)",
+    "Tile Roofing Industry Alliance",
+    "ASCE 7-16 / ASCE wind maps (~110-115 mph design wind, northern NJ)",
+    "NOAA 1991-2020 climate normals (~31.5-inch average annual snowfall)",
+    "U.S. Department of Energy (reflective roof temperature; Climate Zone 4A)",
+    "EPA (cool-roof peak cooling-demand reduction)",
+    "Cool Roof Rating Council (CRRC)",
+    "ASTM C1549 (solar reflectance measurement)",
+    "IRC R905.1.2 (ice-and-water barrier at eaves)",
+    "N.J.A.C. 5:23 / N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)",
+    "HomeAdvisor NJ ($10,000-$25,000 full replacement range)"
+  ],
+  "njContext": [
+    "The NJ Uniform Construction Code treats a full re-roof of any material on a detached 1- or 2-family Newark home as ordinary maintenance — no permit — per N.J.A.C. 5:23-2.7.",
+    "IRC R905.1.2 (enforced through N.J.A.C. 5:23) requires the ice-and-water barrier to extend at least 24 inches inside the exterior wall line, protecting Newark eaves against ice-dam backup driven by the ~31.5-inch average snowfall and ~35-45 freeze-thaw cycles.",
+    "Northern NJ's ~110-115 mph design wind speed under ASCE 7-16 sets the uplift that standing seam metal and architectural asphalt exceed, per ASCE wind maps.",
+    "Standing seam metal snow-shedding requires snow guards over Newark entryways given the ~31.5-inch average annual snowfall, per NOAA normals.",
+    "Architectural asphalt shingles install at $6.50-$11.00 per square foot in NJ (Josten Roofing); standing seam metal $9.00-$16.00; natural slate $10-$30 per square foot.",
+    "A full NJ roof replacement runs $10,000-$25,000, per HomeAdvisor NJ.",
+    "Architectural asphalt shingles fit color-and-budget-driven Essex County homes; standing seam metal suits long-hold owners; natural slate at a 60-150-year life fits pre-1920 / 1930s-1940s Essex County homes.",
+    "For NJ commercial flat roofs, TPO ($8.00-$12.00 per NJ square foot, Josten Roofing) fits most buildings and EPDM is the cold-flexible budget alternative; standing seam metal fits sloped, long-hold commercial structures.",
+    "Commercial roof work exceeding 25% of roof area within 12 months triggers a permit under N.J.A.C. 5:23-2.7.",
+    "Newark sits in heating-dominated Climate Zone 4A, so a reflective roof's summer cooling benefit carries a winter heating offset, per the DOE."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate across Essex County. NQR helps homeowners weigh material durability against installed cost for NJ snow, wind, heat, and freeze-thaw — recommending architectural asphalt for value, standing seam metal for long-hold durability, slate for historic homes, and TPO/EPDM for commercial flat roofs, all grounded in the InterNACHI chart, Josten Roofing NJ costs, ASCE 7-16 wind loads, IRC/N.J.A.C. 5:23 code, and NOAA climate normals. Warranty framing is honestly two-part — the manufacturer's material warranty plus NQR's contractor written workmanship warranty — never marketed as a manufacturer certification tier (no GAF Master Elite / CertainTeed SELECT ShingleMaster claims).",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'GAF Timberline HDZ or CertainTeed Landmark Pro architectural shingles. Both carry 130 mph wind ratings' — manufacturer product-name promotion plus an invented '130 mph' wind rating not in the gold (gold cites ~110-115 mph ASCE 7-16 design wind, not product UL ratings). Dies as fabricated product spec.",
+    "BUYERS-GUIDE: '24-gauge steel with Kynar coating provides 50+ year service life' — invented '50+ year' figure (gold says metal lasts 40-80 years per InterNACHI) and unverified product spec. Dies as invented figure.",
+    "BUYERS-GUIDE: 'natural slate is unmatched for longevity in NJ climate, with proven 100+ year installations across Essex County' — '100+ year' conflates slate with the gold's 60-150-year slate life; also an unverifiable local-install claim. Dies as invented figure.",
+    "BUYERS-GUIDE: 'temperature swings from -5F to 100F' — invented temperature-extreme range not present in the gold. Dies as invented figure.",
+    "BUYERS-GUIDE: 'freeze-thaw cycles from November through March' — the gold quantifies ~35-45 freeze-thaw cycles (regional climate estimates), not a Nov-Mar window assertion. Dies as unsourced specificity.",
+    "BUYERS-GUIDE: 'nor'easters delivering 40-60 mph winds' — invented wind-speed figure not in the gold (gold cites the ~110-115 mph ASCE 7-16 design wind). Dies as invented figure.",
+    "BUYERS-GUIDE: 'summer humidity averaging 65-80%' — invented humidity statistic not in the gold. Dies as invented figure.",
+    "BUYERS-GUIDE: 'Elevated towns like West Orange and Verona get 15-20% more snow than lowland Newark' — invented microclimate snowfall differential not in the gold (gold cites only the ~31.5-inch NOAA average). Dies as invented figure.",
+    "BUYERS-GUIDE: 'Coastal humidity from Newark Bay accelerates corrosion on metal fasteners' and 'Tree-heavy neighborhoods in Maplewood and South Orange create moss-friendly shade conditions' — invented microclimate claims with no source. Die as fabrication.",
+    "EXPERT-PICKS: 'After decades of roofing in Essex County, we know exactly how different materials perform' — fabricated NQR field-experience claim. Dies; replace with standards/named-source grounding.",
+    "EXPERT-PICKS: 'what our field experience reveals' and 'our emergency response data reveals clear material performance tiers' — fabricated proprietary NQR field/storm data. Dies as fabricated field experience.",
+    "EXPERT-PICKS: 'The February 2024 ice storm produced an instructive pattern across Essex County: asphalt roofs experienced widespread ice dam damage...' — fabricated specific storm-event anecdote and outcome data. Dies as invented anecdote.",
+    "EXPERT-PICKS: 'We track how materials age across our Essex County service area' and 'Asphalt shingles show visible aging at 12-15 years' / 'budget shingles may only reach 15' / 'The best asphalts last 25 years in NJ' — fabricated NQR aging-tracking data plus '12-15', '15', and '25-year' figures that contradict the gold's 30-year architectural-asphalt life. Die as invented figures + fabricated field data.",
+    "EXPERT-PICKS: 'Standing seam metal shows virtually no visible aging at 20+ years when properly coated' — fabricated observational claim. Dies as fabricated field experience.",
+    "EXPERT-PICKS: 'Slate roofs in Essex County from the 1930s and 1940s still look and perform like new' — unverifiable local anecdote presented as proprietary observation. Dies (slate longevity should cite the gold's 60-150-year InterNACHI figure instead).",
+    "EXPERT-PICKS: 'Our Recommendations by Budget — Under $15,000... GAF Timberline HDZ asphalt shingles... $15,000-$30,000: standing seam metal... 50+ year lifespan... Over $30,000: natural slate' — invented per-budget price tiers ($15,000 / $15,000-$30,000 / $30,000) and '50+ year' metal figure not in the gold (gold: $10,000-$25,000 full replacement, metal 40-80 years), plus GAF product promotion. Die as invented figures + manufacturer self-promotion.",
+    "EXPERT-PICKS: 'natural slate for qualifying structures. The ultimate NJ weather-proof roofing material with 100+ year proven performance in our specific climate' — '100+ year' conflicts with the gold's 60-150-year slate life and 'in our specific climate' is a fabricated proprietary claim. Dies as invented figure.",
+    "EXPERT-PICKS: 'invest in proper attic ventilation. It is the single most impactful factor in how any material performs in Essex County' — unsourced superlative claim asserted as NQR field finding. Dies as unsubstantiated opinion."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Best Roofing Material for NJ Weather?",
+    "directAnswerThesis": "Architectural asphalt shingles win on value (30-year life, $6.50-$11/sq ft NJ); standing seam metal wins for long-hold durability (40-80 years); slate wins for historic homes. The deciding factor is how long you will own the home, per InterNACHI and Josten Roofing.",
+    "sectionAngles": [
+      "How do installed cost and lifespan trade off across NJ roofing materials?",
+      "Which materials best fit NJ climate and code — freeze-thaw, ~110-115 mph wind, ~31.5-inch snowfall, and the IRC R905.1.2 ice-and-water barrier?",
+      "What decision checklist matches a roofing material to an Essex County home's budget, ownership horizon, and roof slope?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Best Roofing Material for NJ Weather?",
+    "directAnswerThesis": "The evidence favors standing seam metal and natural slate for durability (near-zero water absorption, 40-80 and 60-150 years per InterNACHI) and architectural asphalt for value; a registered NJ Home Improvement Contractor matches the material to your home and budget.",
+    "sectionAngles": [
+      "What do the InterNACHI life-expectancy chart and ASCE 7-16 wind loads actually favor for NJ weather?",
+      "Which installation-quality factors — fastener corrosion resistance, the IRC R905.1.2 eave ice-and-water barrier, and snow guards over entryways — decide a material's real NJ longevity?",
+      "What common homeowner mistakes (matching material to ownership horizon, slope, and code) does a registered NJ contractor's free written estimate help avoid?"
+    ]
+  }
+}

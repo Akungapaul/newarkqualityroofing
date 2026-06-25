@@ -1,0 +1,87 @@
+{
+  "comparisonId": "patching-vs-full-roof-repair",
+  "type": "service",
+  "itemA": "Roof patching",
+  "itemB": "Comprehensive roof repair",
+  "verdict": {
+    "winner": "Comprehensive repair wins on lasting results; patching wins on cost when damage is genuinely isolated.",
+    "reasoning": "Choose comprehensive roof repair over patching when a leak recurs or its source is unclear: the inspection to diagnosis to verification sequence (Integrity Home Exteriors) reaches the flashing details behind roughly 90-95% of leaks (industry estimate attributed to the NRCA), so re-doing a failed patch costs more than one correct repair.",
+    "alternate": "Choose roof patching over comprehensive repair when damage is a single contained event (a limb that cracked a few shingles or a removed satellite-dish nail hole on an otherwise sound roof), sealing the breach at $150-$500 (HomeAdvisor), 5-10x less than a full replacement, per Home Depot and Kelly Roofing."
+  },
+  "keyFacts": [
+    "Roof patching seals a single isolated breach for $150-$500, while comprehensive roof repair runs $360-$1,550 (Angi).",
+    "Asphalt roof repair averages $1,174 (HomeAdvisor / Angi).",
+    "A NJ full roof replacement runs $10,000-$25,000, per HomeAdvisor and Modernize.",
+    "Localized repair runs 5-10x less than a full replacement, per Home Depot and Kelly Roofing.",
+    "Roofing sealant and caulk typically fail in 5-10 years, per roofing trade guidance (WeatherShield, Enterprise Roofing).",
+    "A vent-stack pipe boot installed with exposed nails fails in 2-5 years versus a 10-15-year life when set correctly, per roofing-contractor guidance.",
+    "Roughly 90-95% of roof leaks trace to flashing transitions and only ~5-10% to field shingles, an industry estimate attributed to the NRCA.",
+    "Comprehensive repair opens with the inspection to diagnosis to documentation to repair to verification sequence (Integrity Home Exteriors).",
+    "Comprehensive repair uses infrared moisture imaging under ASTM C1153 to locate wet insulation that no surface inspection reveals; a non-destructive scan flags warm anomalies after sunset, with suspected wet areas confirmed by core cut, probe, or calibrated moisture meter, per ASTM C1153 and Fluke.",
+    "The NRCA recommends roof inspections twice yearly (spring and fall) plus after major weather events.",
+    "Ponding water remaining more than 48 hours after rain (NRCA) signals a systemic drainage defect that comprehensive repair diagnoses.",
+    "A patch lasts as long as the surrounding roof when the damage is genuinely isolated and the patch integrates matching shingles, correct step flashing, and lapped underlayment; sealant-only patches are temporary because roofing caulk typically fails in 5-10 years (WeatherShield, Enterprise Roofing).",
+    "Comprehensive roof repair includes a full inspection, root-cause diagnosis, flashing and valley evaluation, infrared moisture detection under ASTM C1153, and repair of all identified defects with a written report.",
+    "A roof under 15 years repairs cost-effectively; a roof over 20 with recurring leaks often favors replacement over either approach."
+  ],
+  "sources": [
+    "Angi",
+    "HomeAdvisor",
+    "Modernize",
+    "Home Depot",
+    "Kelly Roofing",
+    "Integrity Home Exteriors",
+    "WeatherShield",
+    "Enterprise Roofing",
+    "NRCA (National Roofing Contractors Association)",
+    "ASTM C1153 (infrared moisture survey standard)",
+    "Fluke",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)",
+    "N.J.A.C. 5:23-2.7(b) and (c)",
+    "NOAA NJ climate summary"
+  ],
+  "njContext": [
+    "Roof patching in Essex County runs $150-$500 for simple work; comprehensive repair runs $360-$1,550 (Angi).",
+    "A NJ full replacement runs $10,000-$25,000 (HomeAdvisor, Modernize).",
+    "The NJ Uniform Construction Code treats a patch and a full re-roof of a detached 1- or 2-family dwelling alike as ordinary maintenance: no permit, inspection, or notice, per N.J.A.C. 5:23-2.7.",
+    "The NJ Uniform Construction Code requires a permit once roof work on a commercial, condo, or attached building exceeds 25% of roof area in a 12-month period, or once the job turns structural (replacing rafters, trusses, or decking), per N.J.A.C. 5:23-2.7(b) and (c).",
+    "Active leaks after a nor'easter are most common October-April, per NOAA's NJ climate summary; an emergency patch stops water entry while comprehensive repair scheduled in the fall dry season corrects every defect before the 35-45 freeze-thaw cycles of a north-NJ winter stress each weak point.",
+    "On a commercial low-slope section, ponding water remaining more than 48 hours after rain (NRCA) signals a systemic drainage defect; roof work exceeding 25% of area triggers a NJ UCC permit per N.J.A.C. 5:23-2.7(c)."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136 registration, NOT a roofing license, which NJ does not issue), insured, offering a free written inspection and estimate. NQR's diagnostic value is the inspection to diagnosis to documentation to repair to verification sequence that locates the flashing details behind ~90-95% of leaks (NRCA estimate) a patch cannot see, plus infrared moisture detection under ASTM C1153. Frame the patch-vs-repair recommendation honestly: a free inspection determines whether damage is genuinely isolated (patch) or systemic/recurring (comprehensive repair); NQR provides both quotes so the homeowner decides. Never claim manufacturer-certification tiers; warranty framing is two-part and honest (manufacturer material warranty plus NQR's written workmanship warranty), never a cert-tier badge.",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'In Essex County, full repair typically costs $1,500-$5,000 depending on scope.' INVENTED FIGURE - gold says comprehensive repair is $360-$1,550 (Angi), not $1,500-$5,000. Dies; replace with gold figure.",
+    "BUYERS-GUIDE: 'A $500 patch on a section that needs $3,000 of repair will fail within a year.' INVENTED $3,000 repair figure and invented 'within a year' timeline - not in gold. Dies.",
+    "BUYERS-GUIDE: 'Patching costs $150-$500 for minor work in Essex County.' This $150-$500 patch figure IS in gold (HomeAdvisor) - KEEP, but must carry its named source.",
+    "EXPERT-PICKS: 'Our repair crews respond to hundreds of Essex County roof issues annually.' FABRICATED field-experience / volume claim. Dies.",
+    "EXPERT-PICKS: 'The patch vs full repair decision is one we make daily, and our experience reveals patterns...' FABRICATED daily-decision anecdote. Dies.",
+    "EXPERT-PICKS: 'The most common mistake we see is serial patching... we fix the immediate problem, and within 6-12 months they call again.' FABRICATED 'we see' anecdote plus invented 6-12 month recurrence timeline not in gold. Dies; reframe as evidence-based (flashing carries 90-95% of leaks per NRCA, so a patch over an unresolved cause reopens).",
+    "EXPERT-PICKS: 'We now flag this pattern proactively... we provide two quotes.' FABRICATED 'we' first-person practice anecdote. Dies; the honest two-quote framing can survive only as NQR positioning, not as a claimed track record.",
+    "EXPERT-PICKS: 'Our Essex County patches include: removing all damaged material...' FABRICATED 'our patches' first-person workmanship claim. Dies; reframe as what a correct patch requires per trade practice.",
+    "EXPERT-PICKS: 'Quick patches that skip these steps are cheaper ($100-$200 versus our $300-$500).' INVENTED $100-$200 and $300-$500 figures - gold patch range is $150-$500 (HomeAdvisor), there is no '$100-$200 vs our $300-$500' split. Dies.",
+    "EXPERT-PICKS: 'We see emergency calls from homeowners whose bargain patches have let water in, causing deck damage that turns a $500 repair into a $3,000 project.' FABRICATED 'we see' anecdote plus invented $500-to-$3,000 escalation figure not in gold. Dies.",
+    "EXPERT-PICKS: 'quality adhesion and sealing work best above 40 degrees.' INVENTED 40-degree threshold not present in gold. Dies; gold instead frames NJ timing as fall dry season before freeze-thaw (NOAA).",
+    "EXPERT-PICKS: 'Full repairs... are best scheduled in dry weather between April and November.' INVENTED April-November window not in gold. Dies; replace with gold's fall dry season before freeze-thaw framing.",
+    "EXPERT-PICKS: 'Emergency winter repairs cost 30-50% more due to hazardous conditions and limited crew availability.' INVENTED 30-50% premium - this patching-vs-full-repair gold contains NO after-hours premium figure (that 25%-50% premium belongs to the separate preventive-maintenance-vs-emergency-repair comparison, not this one). Dies as out-of-scope invention.",
+    "BOTH: repeated unattributed 'Essex County' cost claims with no named source - any surviving figure must carry its gold source (Angi / HomeAdvisor / NRCA / ASTM C1153 / Integrity Home Exteriors).",
+    "CURRENCY NOTE: neither dirty article invokes the federal solar ITC, Sec.25D/25C, ENERGY STAR roof program, R-49/R-60 code, or NJ historic/S3545 credits, so no repealed-incentive lines need killing here; remain vigilant not to introduce any during rewrite."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Patching vs Full Roof Repair?",
+    "directAnswerThesis": "Patching wins when damage is one contained event on a sound roof ($150-$500); comprehensive repair wins when a leak recurs or its source is unclear, because it finds the flashing behind ~90-95% of leaks.",
+    "sectionAngles": [
+      "When does roof patching cost less, and when does it cost more in the long run? (Patch $150-$500 vs comprehensive repair $360-$1,550 vs replacement $10,000-$25,000; the re-do cost of a failed patch.)",
+      "What does NJ code and weather mean for choosing patch vs repair? (N.J.A.C. 5:23-2.7 ordinary-maintenance treatment for 1-2 family; 25%/structural permit trigger; nor'easter season and freeze-thaw timing per NOAA.)",
+      "How do you decide which your Essex County roof needs? (Decision checklist: isolated single event under 15 years = patch; recurring leaks, multiple stains, or roof over 15-20 years = comprehensive repair, confirmed by a free inspection.)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Patching vs Full Roof Repair?",
+    "directAnswerThesis": "The evidence favors comprehensive repair when leaks recur: roughly 90-95% of leaks originate at flashing (NRCA estimate), so a patch over the open shingle field misses the cause; patch only genuinely isolated single-event damage.",
+    "sectionAngles": [
+      "What do the standards and trade data actually favor between a patch and a comprehensive repair? (Flashing drives ~90-95% of leaks per NRCA; sealant-only patches fail in 5-10 years per WeatherShield/Enterprise Roofing; ASTM C1153 infrared survey finds hidden wet insulation.)",
+      "What makes a patch hold versus reopen, and what does a correct repair require? (Integrate matching shingles, correct step flashing, lapped underlayment into sound material; the inspection-diagnosis-documentation-verification sequence per Integrity Home Exteriors.)",
+      "What mistakes lead Essex County homeowners to pay twice, and how does NJ timing factor in? (Sealing a symptom over an unresolved cause; missing the 48-hour ponding signal on low-slope roofs per NRCA; scheduling comprehensive repair in the fall dry season before north-NJ freeze-thaw per NOAA.)"
+    ]
+  }
+}

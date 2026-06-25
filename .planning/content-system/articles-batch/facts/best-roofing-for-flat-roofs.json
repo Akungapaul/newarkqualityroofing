@@ -1,0 +1,94 @@
+{
+  "comparisonId": "best-roofing-for-flat-roofs",
+  "type": "ranking",
+  "itemA": "Heat-welded TPO / PVC (thermoplastic single-ply)",
+  "itemB": "EPDM (cold-flexible synthetic rubber)",
+  "verdict": {
+    "winner": "Heat-welded TPO and PVC lead NJ flat-roof selection on seam strength and reflectance; EPDM ranks next on cold-flexibility at a lower NJ install cost.",
+    "reasoning": "TPO and PVC lead because their heat-welded seams fuse into a bond stronger than the membrane itself (NRCA technical library), and their white surfaces reflect 0.70-0.85 of solar energy (CRRC, ASTM C1549) - the lever that cuts peak cooling demand 11-27% in air-conditioned buildings (EPA).",
+    "alternate": "EPDM ranks next where install budget leads - EPDM installs at $7.00-$10.00 per NJ square foot (Josten Roofing), lasts 15-25 years (InterNACHI chart), and stays flexible through freeze-thaw, while modified bitumen suits foot-traffic roofs at a 20-year InterNACHI life."
+  },
+  "keyFacts": [
+    "TPO has heat-welded seams, a CRRC-listed solar reflectance of 0.70-0.85, and a 7-20 year life (InterNACHI life-expectancy chart); commonly cited 15-25 years in practice (Progressive Materials).",
+    "PVC has heat-welded seams, resists grease and chemicals, and lasts 20-30 years (Single Ply Roofing Industry / SPRI).",
+    "EPDM is cold-flexible synthetic rubber, installs at $7.00-$10.00 per NJ square foot (Josten Roofing), and lasts 15-25 years (InterNACHI chart).",
+    "Modified bitumen is a multi-ply asphalt system, durable under foot traffic, lasting 20 years (InterNACHI chart); its named failure modes are blistering and alligator cracking (InterNACHI / NRCA).",
+    "Built-up roofing is multi-layer gravel-surfaced, lasting 30 years (InterNACHI chart) - the longest InterNACHI flat-roof life - stacking multiple plies for layered redundancy.",
+    "Spray polyurethane foam is seamless, rated R-6.0-6.5 per inch (ICC-ES), and lasts 30+ years when coated and recoated every 10-20 years (SPFA).",
+    "Heat-welded TPO and PVC seams fuse into a bond stronger than the membrane itself (NRCA technical library).",
+    "Welded-seam failure is the named TPO failure mode only when the weld is incomplete (NRCA technical library).",
+    "EPDM joins with adhesive and tape, and seam separation is the dominant EPDM failure mode (NRCA technical library); modified bitumen torch/adhesive seams sit between welded and taped seams on reliability.",
+    "TPO and PVC white surfaces reflect 0.70-0.85 of solar energy and re-radiate 0.80-0.90 (CRRC, ASTM C1549).",
+    "Reflective roofs are rated by solar reflectance and thermal emittance, not R-value (CRRC, DOE); a reflective membrane stays over 50F cooler than a dark roof on a sunny afternoon (DOE).",
+    "Reflective cool roofs cut peak cooling demand 11-27% in air-conditioned buildings (EPA).",
+    "EPDM ships in a black carbon-stabilized form that absorbs solar heat rather than reflecting it, trading the reflectance lever for cold-flexibility (CRRC, SPFA).",
+    "TPO and PVC tolerate ponding water longest because their thermoplastic composition resists standing-water degradation; EPDM ranks next, and spray polyurethane foam erodes under chronic ponding (NRCA technical library, SPFA).",
+    "The NRCA minimum design slope for a flat roof is 1/4 inch per foot (~2%); ponding accelerates membrane deterioration on every flat system (NRCA, ARMA).",
+    "PVC holds 20-30 years until plasticizer loss embrittles the membrane (Single Ply Roofing Industry).",
+    "EPDM holds 15-25 years until seam separation or shrinkage opens the perimeter (InterNACHI chart).",
+    "TPO residential install runs $8.00-$12.00 per NJ square foot (Josten Roofing), versus EPDM at $7.00-$10.00 per NJ square foot (Josten Roofing).",
+    "Asphalt shingles shed water by slope and do not waterproof a flat roof; flat roofs need a membrane engineered for low-slope drainage (NRCA, ARMA)."
+  ],
+  "sources": [
+    "NRCA technical library (National Roofing Contractors Association)",
+    "CRRC (Cool Roof Rating Council)",
+    "ASTM C1549 (solar reflectance test)",
+    "EPA (peak cooling demand reduction 11-27%)",
+    "InterNACHI life-expectancy chart",
+    "Single Ply Roofing Industry (SPRI)",
+    "Josten Roofing (NJ install cost ranges)",
+    "Progressive Materials (TPO 15-25 yr in-practice life)",
+    "SPFA (Spray Polyurethane Foam Alliance)",
+    "ICC-ES (SPF R-value per inch)",
+    "DOE (U.S. Department of Energy - cool-roof temperature delta, IECC climate zone)",
+    "ARMA (Asphalt Roofing Manufacturers Association)",
+    "2021 IRC R908 (recover over deteriorated deck)",
+    "N.J.A.C. 5:23 / N.J.A.C. 5:23-6.4 (NJ Uniform Construction Code adoption of 2021 IRC)",
+    "2021 IECC (cool-roof prescriptive)",
+    "NOAA 1991-2020 climate normals (Newark snowfall)"
+  ],
+  "njContext": [
+    "Positive drainage governs every NJ flat roof - the NRCA minimum design slope of 1/4 inch per foot (~2%), built through tapered insulation or structural slope, removes ponding that accelerates membrane deterioration (NRCA, ARMA).",
+    "NJ adopts the 2021 IRC via N.J.A.C. 5:23, which bars a recover over a water-soaked or deteriorated deck and requires removal of an unsound base before a new membrane (IRC R908, N.J.A.C. 5:23-6.4).",
+    "Newark sits in IECC Climate Zone 4A-5 with ~31.5 inches of average annual snowfall (NOAA 1991-2020 normals) and roughly 35-45 freeze-thaw cycles each winter loading the membrane.",
+    "NJ sets no cool-roof prescriptive mandate for low-slope residential roofs (DOE, 2021 IECC).",
+    "For Essex County houses, EPDM and TPO suit flat sections (porches, additions, garages): EPDM at the lower $7.00-$10.00 per NJ square foot (Josten Roofing), TPO adding a reflective white surface at $8.00-$12.00 per NJ square foot (Josten Roofing).",
+    "A TPO membrane with correct slope, flashing, and drainage ends the chronic leaks that follow asphalt shingles laid on a low-slope deck the shingles cannot drain (Josten Roofing, NRCA).",
+    "For commercial buildings, TPO spreads CRRC-rated reflectance across a large surface (EPA 11-27% peak-cooling reduction), PVC resists restaurant/manufacturing grease and chemicals across its 20-30 year life (SPRI), and modified bitumen absorbs heavy rooftop foot traffic at a 20-year InterNACHI life."
+  ],
+  "positioning": "Newark Quality Roofing is positioned as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate, serving Essex County and Newark, NJ. NQR installs and services low-slope membrane systems (TPO, PVC, EPDM, modified bitumen, built-up, SPF) selected by seam reliability, solar reflectance, ponding resistance, service life, and NJ install cost - grounded in NRCA design standards, CRRC/ASTM C1549 reflectance ratings, InterNACHI life expectancies, and the NJ UCC (N.J.A.C. 5:23 / IRC R908) re-roof rules. Warranty framing is honest and two-part: manufacturer material warranty plus NQR's written workmanship warranty - never manufacturer certification tiers or 'we are certified' claims.",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'NJ average annual rainfall of 46 inches' - invented figure not in gold (gold cites snowfall ~31.5 in NOAA, not a 46-in rainfall stat). DIES.",
+    "BUYERS-GUIDE: 'Ponding water (standing more than 48 hours after rain)' - the 48-hour threshold is invented; gold defines ponding via NRCA min slope 1/4 in/ft, not a 48-hr clock. DIES (replace with NRCA slope framing).",
+    "BUYERS-GUIDE: 'NJ energy code requires minimum R-30 for commercial roof assemblies' - invented code figure not in gold; gold cites no R-30 commercial roof requirement and the memory note warns R-49/R-60 currency. DIES.",
+    "BUYERS-GUIDE: 'EPDM leads the existing installed base with decades of proven performance' framed as fact - unsourced market-share claim not in gold. DIES (gold positions EPDM as lower-cost / cold-flexible, sourced to Josten + InterNACHI).",
+    "BUYERS-GUIDE: 'Built-up roofing (BUR) ... has largely been replaced by modified bitumen for new installations' - unsourced market claim not in gold (gold lists BUR as 30-yr longest-life InterNACHI option). DIES.",
+    "EXPERT-PICKS: 'Flat roofs are our specialty in Essex County ... we install and maintain flat roofing systems daily. Here is what we recommend based on that hands-on experience.' - fabricated field-experience / volume anecdote. DIES.",
+    "EXPERT-PICKS: 'we typically recommend', 'TPO is our default', 'We see DIY additions and contractor-built porches', 'We specify fully adhered systems' - fabricated 'we see / our crews' contractor anecdotes. DIE (rephrase as what standards/specs favor).",
+    "EXPERT-PICKS: 'Our team has installed and maintains hundreds of flat roofs across Essex County' (ctaText) - fabricated project-count claim. DIES.",
+    "EXPERT-PICKS: 'Adding slope during re-roofing with tapered insulation costs $1-$3/sq ft' - invented cost figure not in gold. DIES.",
+    "EXPERT-PICKS: 'The $0.50-$1/sq ft premium' for fully adhered vs mechanically attached - invented cost figure not in gold. DIES.",
+    "EXPERT-PICKS: 'sealant renewal at penetrations every 5-7 years' and 'get 5-10 years of additional service life ... compared to unmaintained flat roofs' - invented maintenance-interval and lifespan-gain figures not in gold. DIE.",
+    "EXPERT-PICKS: 'The $300-$500 annual maintenance investment prevents $5,000-$15,000 in premature replacement costs' - invented cost-per-year math not in gold. DIES.",
+    "EXPERT-PICKS: 'semi-annual drain clearing, annual seam and flashing inspection' presented as a proprietary NQR program with invented cadence - reframe as positive-drainage maintenance grounded in NRCA, drop the fabricated program framing.",
+    "NOTE: neither dirty article contains a 'licensed contractor' / 'NJ-licensed' phrase, manufacturer-certification self-claim (GAF Master Elite, CertainTeed SELECT, Tesla-certified), or solar ITC / 30% tax credit / ENERGY STAR / S3545 currency error - no instances of those categories to kill in these two articles."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Best Roofing for Flat Roofs?",
+    "directAnswerThesis": "Heat-welded TPO and PVC win NJ flat roofs on seam strength and 0.70-0.85 reflectance; EPDM wins on lower $7-$10/sq ft cost and cold-flexibility. The deciding factor is drainage, not membrane brand.",
+    "sectionAngles": [
+      "Which flat roof membrane costs less and which lasts longest in NJ? (EPDM $7-$10/sq ft and 15-25 yr vs TPO $8-$12/sq ft and 7-20 yr vs BUR 30 yr / PVC 20-30 yr - all sourced to Josten Roofing, InterNACHI, SPRI)",
+      "How do NJ climate and code decide a flat roof? (positive drainage at NRCA 1/4 in/ft slope, IRC R908 / N.J.A.C. 5:23 recover rules, Climate Zone 4A-5 freeze-thaw and ~31.5 in snowfall)",
+      "Which flat roof system should you choose for your use case? (reflectance for air-conditioned buildings, grease resistance for restaurants, cold-flexibility/budget for residential additions - the decision checklist tied to seam type, reflectance, ponding, life, and cost)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Best Roofing for Flat Roofs?",
+    "directAnswerThesis": "The standards favor heat-welded TPO or PVC for air-conditioned and grease-exposed buildings and EPDM for lower-cost cold-flexible sections - but NRCA positive drainage and welded/adhered seam detailing decide longevity more than membrane choice.",
+    "sectionAngles": [
+      "What do roofing standards actually favor for a flat roof? (NRCA welded-seam reliability, CRRC/ASTM C1549 reflectance for cooling, InterNACHI service lives - the evidence-based pick by building use, no anecdote)",
+      "Which installation-quality factors decide flat-roof longevity? (positive drainage at NRCA 1/4 in/ft min slope, complete heat welds, flashing at penetrations, IRC R908 sound-deck rule - details over membrane brand)",
+      "What common flat-roof mistakes shorten membrane life in NJ? (dead-flat surfaces that pond, asphalt shingles laid on low slope, recovering over a deteriorated deck barred by N.J.A.C. 5:23-6.4 - each grounded in NRCA/ARMA and NJ code)"
+    ]
+  }
+}

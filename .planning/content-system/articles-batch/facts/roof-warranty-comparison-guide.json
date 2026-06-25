@@ -1,0 +1,96 @@
+{
+  "comparisonId": "roof-warranty-comparison-guide",
+  "type": "ranking",
+  "itemA": null,
+  "itemB": null,
+  "verdict": {
+    "winner": "A non-prorated manufacturer system warranty installed by a credentialed contractor gives the strongest residential protection; a commercial No-Dollar-Limit guarantee leads for low-slope buildings.",
+    "reasoning": "A manufacturer system warranty leads because it covers both material defects and the certified install and is set and registered by the manufacturer, not the contractor, so material coverage survives the installer closing — a 50-year non-prorated material / 25-year workmanship term in the GAF Golden Pledge example, per GAF.",
+    "alternate": "A commercial No-Dollar-Limit (NDL) guarantee leads for low-slope roofs because it covers the whole installed system edge-to-edge with no dollar cap on covered leak repairs, unlike a base material-only warranty that prorates and caps payout at the original installed cost, per GAF and Johns Manville."
+  },
+  "keyFacts": [
+    "A roof warranty is a written guarantee covering factory material defects from the manufacturer, installation quality from the contractor, or both under a certified system warranty — differing in coverage, backer, and term (per NRCA and GAF).",
+    "A manufacturer system warranty covers both factory material defects and the certified install; the GAF Golden Pledge example runs a 50-year non-prorated material term plus 25-year workmanship plus tear-off and disposal (per GAF).",
+    "A manufacturer material-only warranty covers defective materials only, prorated after a 10–15-year non-prorated window, and covers no labor or workmanship (per NRCA).",
+    "A contractor workmanship warranty covers installation defects only, commonly 1–10 years, with no industry-mandated minimum, and ends if the contractor closes (per NRCA and Owens Corning).",
+    "A commercial No-Dollar-Limit (NDL) guarantee covers the whole installed system edge-to-edge — material plus labor with no dollar cap on covered repairs — commonly running 5 to 30 years (per GAF and Johns Manville).",
+    "A commercial system warranty (non-NDL) covers 100% material plus labor plus workmanship but caps the payout at the original installed cost (per GAF and Johns Manville).",
+    "A transferable warranty transfers once to the first buyer within a manufacturer window; CertainTeed's SureStart PLUS is fully transferable if the home sells within 15 years (per the SureStart PLUS brochure and NRCIA).",
+    "A manufacturer material-only warranty's limited-lifetime asphalt material terms commonly hold a 10–15-year non-prorated window, after which the payout prorates by age and excludes labor (per NRCA, Cobex, and Indy Roof & Restoration).",
+    "A manufacturer system warranty survives the installing contractor closing because the manufacturer sets and administers it, while a contractor workmanship warranty is only as durable as that contractor's continued operation (per NRCA).",
+    "A contractor workmanship warranty covers installation defects such as improperly welded seams, poorly sealed flashing, and fastener problems, and a contractor that ceases operations cannot fulfill it (per NRCA and Owens Corning).",
+    "Inadequate attic ventilation is the most-cited cause of voided shingle warranties, alongside unauthorized alterations and deferred maintenance, because manufacturers attribute premature curling, cracking, and blistering to ventilation rather than a defect (per GAF).",
+    "The IRC R806.2 baseline sets minimum net free ventilating area at 1/150 of the vented space; the 1/300 reduction's cold-zone condition generally does not apply in Newark (per the International Residential Code and InterNACHI).",
+    "Unauthorized alterations and deferred maintenance void coverage under owner-responsibility terms; GAF's Diamond Pledge NDL excludes leaks caused by failure to follow the Scheduled Maintenance Checklists, and improper solar or satellite flashing voids coverage for that damage (per GAF).",
+    "A commercial NDL guarantee is issued by the manufacturer only after an authorized install and manufacturer inspection, requires at least 14 days' advance written notice before the job, and stays valid through ongoing inspections, maintenance, recordkeeping, and written leak notice within 30 days (per Johns Manville and GAF).",
+    "An NDL guarantee covers the whole installed system edge-to-edge — membrane, base flashing, insulation, expansion-joint covers, and metal flashings — across single-ply terms commonly running 5 to 30 years (per GAF's Diamond Pledge guarantee and Johns Manville's Peak Advantage range).",
+    "A 'lifetime' or '50-year' warranty describes the manufacturer's repair-or-replace obligation under its terms, not a promise the roof lasts that long; coverage is non-prorated only for a stated window, commonly 10–15 years on limited-lifetime asphalt material terms, then prorates by age (per NRCA).",
+    "Manufacturer warranties cover material and workmanship defects, not storm damage, which falls under a homeowner insurance policy (per the Magnuson-Moss Warranty Act, 15 U.S.C. §2301).",
+    "Each manufacturer warranty is titled a 'limited' warranty, a federal Magnuson-Moss Warranty Act labeling term signaling the coverage is conditioned by prorated terms, owner-maintenance obligations, and exclusions rather than unconditional (per the Magnuson-Moss Warranty Act, 15 U.S.C. §2301)."
+  ],
+  "sources": [
+    "NRCA (National Roofing Contractors Association) — Roofing Manual",
+    "GAF (Golden Pledge, Diamond Pledge NDL, Scheduled Maintenance Checklists)",
+    "Johns Manville (Peak Advantage range, NDL guarantee)",
+    "Owens Corning",
+    "CertainTeed (SureStart PLUS brochure)",
+    "NRCIA (National Roof Certification and Inspection Association)",
+    "InterNACHI",
+    "IIBEC",
+    "Roof-Crafters",
+    "Gunner Roofing",
+    "Cobex",
+    "Indy Roof & Restoration",
+    "International Residential Code (IRC R806.2)",
+    "Magnuson-Moss Warranty Act (15 U.S.C. §2301)",
+    "N.J.A.C. 13:45A-16.2(a)12 (NJ Consumer Fraud Act home-improvement regulation)",
+    "N.J.S.A. 56:8-136 (NJ Contractors' Registration Act)",
+    "NJ Division of Consumer Affairs / Office of Consumer Protection"
+  ],
+  "njContext": [
+    "NJ home-improvement law requires a contractor's warranty terms to appear in the signed written contract for any job over $500, under N.J.A.C. 13:45A-16.2(a)12, whose enumerated elements include any guarantee or warranty the contractor provides.",
+    "NJ home-improvement law requires every roofing business to register annually with the NJ Division of Consumer Affairs under the Contractors' Registration Act, N.J.S.A. 56:8-136, with no dollar threshold — a registration, not a license — and routes warranty disputes through its Office of Consumer Protection.",
+    "A manufacturer system warranty suits an Essex County house held long-term, pairing factory material coverage with certified-install workmanship under a registered term such as the 50-year non-prorated material / 25-year workmanship GAF Golden Pledge example (per Roof-Crafters and Gunner Roofing).",
+    "A manufacturer system warranty transfers once to the first buyer within a manufacturer-set window — CertainTeed's SureStart PLUS is fully transferable if the home sells within 15 years, while standard manufacturer terms reduce or limit coverage for a later owner (per the SureStart PLUS brochure and NRCIA).",
+    "For a low-slope commercial building in NJ, a commercial NDL guarantee covers the whole system edge-to-edge with no dollar cap, ranking above a non-NDL commercial system warranty that caps payout at the original installed cost; it covers single-ply TPO, EPDM, and PVC and bituminous systems across terms commonly running 5 to 30 years (per Johns Manville's Peak Advantage range and GAF).",
+    "Manufacturer warranties in NJ are each titled a 'limited' warranty under the federal Magnuson-Moss Warranty Act (15 U.S.C. §2301), signaling coverage conditioned by prorated terms, owner-maintenance obligations, and exclusions."
+  ],
+  "positioning": "Newark Quality Roofing is a roofing contractor — a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136, a registration NOT a license — NJ issues no roofing license), insured, offering a free written estimate. Frame warranty protection honestly as two parts: a manufacturer material/system warranty (set and registered by the manufacturer, so it survives any contractor closing) plus a contractor written workmanship warranty that NQR provides for its own install quality — never present manufacturer certification tiers (e.g. 'Master Elite' / 'SELECT ShingleMaster') as a sales claim. NQR puts its warranty terms in the signed written contract as NJ law requires for jobs over $500 (N.J.A.C. 13:45A-16.2(a)12). On commercial/low-slope work, the manufacturer issues the NDL guarantee only after an authorized install and manufacturer inspection — NQR handles the qualifying installation and required documentation, not the manufacturer's coverage itself.",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'A \"lifetime\" warranty from GAF provides full coverage for the first 10 years, then pro-rated coverage based on the original cost. After 20 years, the pro-rated value is minimal. The actual coverage after the initial period may be only 10-20% of replacement cost.' — DIES: the gold gives the non-prorated window as 10–15 years (per NRCA), not a flat '10 years', and the '10-20% of replacement cost' figure is invented (not in gold).",
+    "BUYERS-GUIDE: 'The upgrade to enhanced warranty typically costs $500-$1,500 per project in Essex County.' — DIES: invented dollar figure, not in gold.",
+    "BUYERS-GUIDE: 'In Essex County, workmanship warranties range from 1-25 years depending on the contractor.' — DIES: invented range; gold says contractor workmanship is commonly 1–10 years with no industry-mandated minimum (per NRCA and Owens Corning), not 1–25.",
+    "BUYERS-GUIDE: 'It is arguably more important than the manufacturer warranty because installation errors cause more failures than material defects.' — DIES: opinion/modality ('arguably') and an unsourced claim not present in the gold.",
+    "BUYERS-GUIDE: 'Prioritize workmanship warranty from a reputable Essex County contractor.' / 'upgrade to enhanced system warranty when available' — DIES: prescriptive opinion framing not grounded in gold; rewrite as the gold's evidence-based ranking (system warranty highest for homes, per GAF/NRCA).",
+    "BUYERS-GUIDE: 'Manufacturer material warranty... ranges from 20 years to lifetime depending on the product.' — DIES: the '20 years to lifetime' span is not the gold's figure; gold frames material-only as prorated after a 10–15-year non-prorated window (per NRCA).",
+    "BUYERS-GUIDE CTA: 'Newark Quality Roofing is GAF Master Elite certified, providing the strongest manufacturer and workmanship warranties available in Essex County.' — DIES: manufacturer-certification self-claim (GAF Master Elite) and 'strongest... available' superlative; replace with registered-NJ-HIC + insured + free written estimate + honest 2-part warranty framing.",
+    "EXPERT-PICKS: 'As contractors who process warranty claims and honor our own workmanship guarantees, we understand how warranties actually work in practice versus how they are marketed.' — DIES: fabricated field-experience anecdote ('process warranty claims') / first-person 'we' framing; replace with standards/named-source grounding.",
+    "EXPERT-PICKS: 'A 20-year-old roof with a lifetime warranty might generate a material credit of $500-$1,500 on a $15,000 replacement.' — DIES: invented figures ($500-$1,500 credit, $15,000 replacement) and the '60-70% of total project cost' labor figure beside it — none in gold.",
+    "EXPERT-PICKS: 'lifetime material warranties... exclude the labor cost of replacement (which is 60-70% of total project cost)' — DIES: '60-70% of total project cost' is an invented stat, not in gold.",
+    "EXPERT-PICKS: 'We provide a 10-year written workmanship warranty on all Essex County installations... with no pro-rating and no deductible. If our work causes a problem within 10 years, we fix it at our cost, period.' — DIES: specific NQR '10-year, no-deductible' workmanship-warranty claim not substantiated by gold; reframe to NQR's honest 'contractor written workmanship warranty in the signed written contract' without an invented term length.",
+    "EXPERT-PICKS: 'We have been in business long enough for homeowners to trust that we will honor this commitment, and we carry insurance that backs our warranty obligation.' — DIES: fabricated tenure/field-experience anecdote ('been in business long enough', 'process warranty claims'); 'insured' is OK but drop the self-congratulatory framing.",
+    "EXPERT-PICKS: 'A legitimate contractor backs their work with at least 5 years of workmanship coverage.' — DIES: invented '5-year minimum' standard; gold states there is NO industry-mandated minimum (per NRCA).",
+    "EXPERT-PICKS: 'Be wary of Essex County contractors who emphasize the manufacturer lifetime warranty while offering only a 1-2 year workmanship warranty. This suggests low confidence...' — DIES: unsourced opinion/inference ('suggests low confidence') not grounded in gold.",
+    "EXPERT-PICKS CTA: 'Our installations come with 10-year workmanship warranties and the strongest manufacturer coverage available.' — DIES: invented '10-year' term + 'strongest... available' superlative; replace with registered-NJ-HIC honest framing.",
+    "NOTE: No active 30% federal solar ITC / §25D / §25C, no ENERGY STAR roof program, no R-49 code, and no NJ historic/S3545 credit claims appear in either dirty article — none to strike on the currency axis here.",
+    "NOTE: Neither dirty article uses 'licensed contractor' / 'NJ-licensed' — but ensure the rewrite affirmatively frames NQR as a REGISTERED NJ Home Improvement Contractor (N.J.S.A. 56:8-136), since the topic is contractor-warranty trust where the licensed-vs-registered distinction matters."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Roof Warranty Comparison Guide?",
+    "directAnswerThesis": "A non-prorated manufacturer system warranty protects a long-held home best; a material-only warranty prorates after 10–15 years and excludes labor, while a contractor workmanship warranty (commonly 1–10 years) covers only the install (per NRCA, GAF).",
+    "sectionAngles": [
+      "What does each of the four warranty structures actually cover — manufacturer system, manufacturer material-only, contractor workmanship, and commercial NDL?",
+      "How does non-prorated coverage differ from prorated coverage, and why does the 10–15-year non-prorated window decide a warranty's real value?",
+      "Which warranty fits an Essex County home held long-term, and what must NJ law put in the written contract for a job over $500?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Roof Warranty Comparison Guide?",
+    "directAnswerThesis": "The standards favor a non-prorated manufacturer system warranty plus a contractor written workmanship warranty in the signed contract; NRCA and GAF show the manufacturer-set term survives the installer closing, while workmanship covers install defects.",
+    "sectionAngles": [
+      "What do the standards actually favor — why NRCA and GAF rank a manufacturer system warranty above a material-only warranty whose payout prorates after 10–15 years?",
+      "What voids a roofing warranty, and how do attic-ventilation (IRC R806.2, 1/150) and owner-maintenance terms decide whether coverage survives a claim (per GAF, InterNACHI)?",
+      "What should a NJ owner verify before signing — written warranty terms in the contract (N.J.A.C. 13:45A-16.2(a)12), a registered NJ Home Improvement Contractor (N.J.S.A. 56:8-136), and that material coverage is manufacturer-administered, not installer-dependent?"
+    ]
+  }
+}

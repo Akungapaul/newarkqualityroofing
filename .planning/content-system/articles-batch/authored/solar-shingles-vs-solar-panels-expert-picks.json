@@ -1,0 +1,37 @@
+{
+  "articleId": "solar-shingles-vs-solar-panels-expert-picks",
+  "directAnswer": "**The evidence favors solar panels on a sound existing roof and solar shingles only when a full reroof is already due**, per SolarReviews, the DOE, and NRCA guidance; a registered New Jersey Home Improvement Contractor coordinates flashing, ASCE 7 load, and re-roof timing, not the solar design.",
+  "intro": "The recommendation rests on what the named roofing standards and solar aggregators document about attachment, ratings, and roof condition, not on any single installer's field opinion.",
+  "sections": [
+    {
+      "heading": "What Do the Roofing Standards Favor on Attachment and Waterproofing?",
+      "body": [
+        "**Solar panels** attach through flashed lag-bolt rail feet whose upper flange tucks under the upslope shingle course so water sheds onto intact shingles, per NRCA guidance and the DOE.",
+        "**Solar panels** keep the existing roof covering in place, so the waterproofing detail that matters is the rail-foot flashing: the flange routes runoff onto the shingle course below it, the same lapping principle the DOE and NRCA apply to any roof penetration. The panels shade the covering but do not extend its service life as established fact; any quantified roof-life extension is marketing, not a verified figure, per NRCA guidance. That flashing detail, not the solar wiring, is the roofing work the standards weigh most.",
+        "**Solar shingles** nail in as the roof covering itself, so the roof field and the generator become one building-integrated photovoltaic assembly, per the DOE and IEA-PVPS, and the manufacturer power warranty governs leaks under the array. CertainTeed Solstice and similar BIPV lines cannot install over an existing roof, per CertainTeed and the DOE, which ties the integrated path directly to a [roof replacement](/roof-replacement) rather than an add-on.",
+        "**The warranty** on either path reads as two parts rather than a single certification tier: a manufacturer limited material and power warranty set by the maker — roughly 25 years at ~84.8–85% of rated output for BIPV shingles and ~25 years at ~85–88% by year 25–30 for panels, per the manufacturers and NREL — plus the contractor's written workmanship warranty on the roofing work. The roofing standards favor the path whose attachment detail and covering condition the workmanship warranty can stand behind."
+      ]
+    },
+    {
+      "heading": "Which Installation-Quality and Code Factors Decide Long-Term Performance?",
+      "body": [
+        "**The published ratings and the electrical code** decide long-term performance: BIPV solar shingles list UL 790 Class A fire, UL 2218 Class 4 hail, and ASTM D3161 wind on the manufacturers' datasheets, per those datasheets.",
+        "**The BIPV ratings** trace to named datasheets: GAF Energy Timberline Solar lists Class A fire, Class 4 hail, and 130-mph wind on a pitch of 2:12 or steeper, and SunTegra lists 130-mph wind with UL 2218 Class 4, figures set by GAF Energy and SunTegra rather than independently verified by any contractor. Both ratings clear northern NJ's ~110–115 mph design wind under ASCE 7-16, the load standard the NJ Uniform Construction Code adopts, so the published numbers, not an installer's claim, carry the weather case.",
+        "**NEC 690.12 rapid shutdown** governs the solar panel array: conductors fall to ≤30 volts outside and ≤80 volts inside the array boundary within 30 seconds, and the module-plus-mounting-plus-roof assembly carries the UL 790 fire class, per the NEC and UL. On a flat commercial roof, ASCE 7 governs uplift and ballast, so panels mount on ballasted non-penetrating racking weighted over a protection pad or on mechanically attached flashed anchors, per NRCA and SPRI. Solar shingles rarely fit that flat-roof case, since BIPV is a sloped roof-covering replacement, per the DOE and SolarTech Online."
+      ]
+    },
+    {
+      "heading": "What Is the Most Common Homeowner Mistake, and How Does Re-Roof Timing Avoid It?",
+      "body": [
+        "**The most common mistake** is racking solar panels onto a roof that outlasts neither the ~25–30-year panels nor the array, forcing a costly mid-life remove-and-reinstall; an industry rule of thumb re-roofs first, the panel-life figure per NREL.",
+        "**Solar panels** degrade a median ~0.5% per year to ~85–88% of rated output by year 25–30, per NREL, so a covering with less remaining life than the array sets up a conflict: the roof reaches the end of its service life under a working solar system. The re-roof-first rule of thumb resolves it by replacing the covering while the deck is exposed, before any rail foot is set; the timing is an industry rule of thumb with no named standard, not a verified figure.",
+        "**Solar shingles** sidestep the timing conflict on a roof already due for replacement, since the BIPV covering and the generator install in one project, per the DOE. On a roof with remaining service life, that integration payoff disappears and the higher per-watt cost stands — panels install at ~$2.50–$4.00 per watt versus shingles' ~$3.50–$8.00, per EnergySage and SolarReviews — so the standards-grounded read favors panels on the sound roof and shingles only at the reroof.",
+        "**The output-per-area read** reinforces the same conclusion for the limited south-facing roof area common on densely built Essex County lots: high-efficiency panels run 20–22% efficient and need ~250 square feet for a 6-kW system, while BIPV shingles cluster at 14–18% and need ~360 square feet, per SolarReviews and GreenLancer. Flush-mounted shingles also run hotter, trimming output ~0.3–0.5% per °C above 25°C, per WattBuild and NREL's thermal coefficient, so the named figures point the output case toward panels on the sound roof while leaving the integrated reroof to shingles."
+      ]
+    }
+  ],
+  "conclusion": "The named roofing standards and solar aggregators point one way: solar panels on a sound existing roof for output per dollar, solar shingles only when a full reroof is already scheduled and integration decides it. The roofing work that supports either path is the flashing detail, the ASCE 7 load on the assembly, and the re-roof-before-solar timing, all coordinated with the solar installer.",
+  "ctaHeading": "Coordinate the Roofing Side of Your Solar Project",
+  "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. NQR handles the roofing side — flashed mount attachments, ASCE 7 load, and re-roof timing — coordinated with your solar installer. Reach out for a free written estimate or a [roof replacement](/roof-replacement) assessment.",
+  "metaDescription": "What NJ roofers recommend for solar shingles vs solar panels: panels on a sound roof, shingles at a reroof, per SolarReviews, the DOE, NRCA, NEC, and ASCE 7."
+}

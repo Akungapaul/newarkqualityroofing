@@ -1,0 +1,106 @@
+{
+  "comparisonId": "slate-vs-tile-roofing",
+  "type": "material",
+  "itemA": "Natural slate",
+  "itemB": "Clay or concrete tile",
+  "verdict": {
+    "winner": "Natural slate wins for longevity and historic-district compatibility.",
+    "reasoning": "Natural slate beats clay or concrete tile when the home carries a historic slate roof or a 100-year design horizon: natural slate lasts 60-150 years per InterNACHI against 40-75 years for concrete tile, and it matches the Colonial and Victorian roofs that dominate Glen Ridge and Montclair.",
+    "alternate": "Clay or concrete tile wins when the architecture calls for a terra-cotta profile or the budget favors concrete: clay tile reaches 75 to 100-plus years per the Tile Roofing Industry Alliance, and tile installs at $10-$20+ per square foot per NHI Contractors against slate's $10-$30 per square foot per NJ roofing guides."
+  },
+  "keyFacts": [
+    "Natural slate lasts 60-150 years and clay tile lasts 100-plus years, the two longest service lives among roofing materials, per the InterNACHI Standard Estimated Life Expectancy Chart.",
+    "Concrete tile lasts 40-75 years per the Tile Roofing Industry Alliance, shorter than slate or clay tile.",
+    "The National Slate Association rates ASTM S-1 slate at a 75-year minimum, with many roofs over 100 years and some past 200 years.",
+    "Natural slate rarely fails as a stone unit; the limiter is corroded fasteners or degraded valley and chimney flashing, per National Park Service Preservation Brief 29.",
+    "The National Park Service Preservation Brief 29 sets a 20% damage threshold above which full slate replacement costs less than piece-by-piece repair.",
+    "Clay tile frequently outlasts its fasteners and sheathing, so the underlayment (not the tile) is the true repair-vs-replace trigger, per the Tile Roofing Industry Alliance.",
+    "Concrete tile adds freeze-thaw spalling, where the cast surface flakes after repeated freezing.",
+    "Natural slate and clay or concrete tile are both heavy roof coverings, so roof-framing capacity (a rafter and decking assessment) is the deciding attribute before either install; concrete tile is the heaviest of the tile types and most likely to require a framing review.",
+    "Natural slate and clay tile both require non-ferrous fasteners (solid copper or stainless steel) because plain or galvanized steel rusts out long before the slate or tile, per NPS Preservation Briefs 29 and 30.",
+    "Slate nails are not driven tight; the slate hangs on the shank, and a broken slate is pulled with a ripper and re-secured with a copper strip or hook, per Preservation Brief 29.",
+    "Flashing failure is a frequent cause of slate and tile roof deterioration, per Preservation Brief 4.",
+    "Clay tile is fastened with copper nails or hangers, with copper or lead valleys and flashing set before the tile is laid, per Preservation Brief 30; replacing the original copper with iron nails is a documented failure mode because the iron corrodes and lets tiles slip.",
+    "Installed cost in NJ runs $10-$30 per square foot for slate and $10-$20+ per square foot for tile (slate range per NJ roofing guides, tile per NHI Contractors).",
+    "Natural slate repair runs $10-$20 per square foot and tile repair $5-$25 per square foot, per HomeGuide and Angi.",
+    "A single broken slate or tile costs $50-$300 to replace for either material, and is replaced individually (not patched), per Preservation Briefs 29 and 30.",
+    "Flashing or fastener work runs $400-$3,000.",
+    "Slate restoration of a larger area runs $2,500-$10,000.",
+    "Clay tile repair averages $1,000-$1,500.",
+    "Concrete tile repair at $9-$18 per square foot sits below clay tile at $12-$25 per square foot, per Modernize and HomeGuide.",
+    "A broken tile must be replaced with a matching shape, color, and glaze (a profile-match problem), not patched, per Preservation Brief 30.",
+    "Natural slate resists freeze-thaw through low water absorption, while concrete tile spalls after repeated freezing.",
+    "Newark averages about 31.5 inches of annual snowfall per NOAA 1991-2020 normals.",
+    "Northern-NJ ground snow load is near 25 psf under ASCE 7-16, which both heavy roofs are framed to carry."
+  ],
+  "sources": [
+    "InterNACHI Standard Estimated Life Expectancy Chart",
+    "Tile Roofing Industry Alliance",
+    "National Slate Association",
+    "ASTM S-1 (slate grade)",
+    "National Park Service Preservation Brief 29",
+    "National Park Service Preservation Brief 30",
+    "National Park Service Preservation Brief 4",
+    "National Park Service (Register listing / Secretary of the Interior's Standards)",
+    "HomeGuide",
+    "Angi",
+    "Modernize",
+    "NHI Contractors",
+    "NJ roofing guides",
+    "NOAA 1991-2020 climate normals",
+    "ASCE 7-16",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code)",
+    "N.J.A.C. 5:23-6.4 (Rehabilitation Subcode)",
+    "N.J.S.A. 40:55D-107 (Historic Preservation Commission)"
+  ],
+  "njContext": [
+    "Slate and tile reroofs on a detached one- or two-family Newark home are ordinary maintenance needing no construction permit, per N.J.A.C. 5:23-2.7 of the NJ Uniform Construction Code.",
+    "Slate roofs in a designated local historic district (Glen Ridge, Montclair, or Newark's James Street Commons and Lincoln Park) require a Certificate of Appropriateness from the Historic Preservation Commission before a material change, per N.J.S.A. 40:55D-107.",
+    "Register listing alone places no restriction on a private owner, per the National Park Service.",
+    "When a construction permit is triggered, the Rehabilitation Subcode requires full tear-off of any slate, clay, or cement tile rather than a recover, per N.J.A.C. 5:23-6.4.",
+    "Historic review applies the Secretary of the Interior's Standard 6, which directs that a deteriorated historic feature be replaced in kind (matching design, color, texture, and where possible materials); a slate-to-tile switch on a character-defining roof faces that in-kind test.",
+    "Natural slate suits the Colonial and Victorian housing stock across Glen Ridge, Montclair, and Newark, where original stone roofs sit within local historic districts and are a character-defining feature buyers recognize.",
+    "A single slate installation (60-150-year service life per InterNACHI) protects an Essex County home across generations rather than the two or three asphalt roofs covering the same span.",
+    "On a commercial building, both slate (60-150 years) and clay or concrete tile (clay 75-100+ years, concrete 40-75 years) deliver a service life that outlasts conventional commercial coverings, letting a long-hold owner replace the roof once; both loads require a framing review before installation.",
+    "Newark averages about 31.5 inches of annual snowfall per NOAA 1991-2020 normals, against a northern-NJ ground snow load near 25 psf under ASCE 7-16 that both heavy roofs are framed to carry."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (registration under N.J.S.A. 56:8-136, NOT a roofing license, which NJ does not issue), insured, offering a free written estimate. NQR installs and repairs slate and clay or concrete tile across Essex County, including the structural review of rafters and decking that precedes either heavy covering and the non-ferrous copper/stainless fastener and flashing work the materials require. For historic-district homes (Glen Ridge, Montclair, Newark's James Street Commons and Lincoln Park), NQR coordinates the work with the Certificate-of-Appropriateness process under N.J.S.A. 40:55D-107. Warranty framing is the honest two-part model: the manufacturer's material warranty plus NQR's own written workmanship warranty, never manufacturer certification tiers. No solar dimension applies to this comparison.",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'Slate weighs 800-1,500 lbs per square, clay tile 600-1,100 lbs ... asphalt at 200-350 lbs' — invented weight figures not in gold (gold states both are heavy/exceed an asphalt-shingle load but cites no per-square pounds); dies.",
+    "BUYERS-GUIDE: 'Most Essex County homes built before 1970 need structural evaluation' — invented before-1970 generalization not in gold; dies.",
+    "BUYERS-GUIDE: 'a structural engineer assessment ($500-$1,000 in Essex County)' — invented cost figure not in gold (gold prescribes a rafter/decking assessment but gives no engineer cost); dies.",
+    "BUYERS-GUIDE: 'Clay and concrete tile often ships from southern states or overseas, adding $50-$150 per square in freight' — invented freight figure and sourcing claim not in gold; dies.",
+    "BUYERS-GUIDE: 'local salvage yards stockpile reclaimed slate' / 'Finding matching tile ... weeks of waiting for a special manufacturer order' — invented NJ sourcing/availability anecdote not in gold; dies.",
+    "BUYERS-GUIDE: 'Slate lasts 75-150 years' — figure conflicts with gold's InterNACHI 60-150 years; replace with gold figure 60-150 years (NSA 75-year-minimum is the separate ASTM S-1 stat). Dirty 75-150 dies.",
+    "BUYERS-GUIDE: 'verify your contractor has at least 10 completed slate or tile projects you can visit ... not materials for general contractors learning on the job' — fabricated project-count/credential heuristic not in gold; dies.",
+    "EXPERT-PICKS: 'Our experience installing and repairing slate and tile across Essex County has taught us lessons that only come from hands-on work' — fabricated NQR field-experience claim; dies (replace with standards-grounded framing).",
+    "EXPERT-PICKS: 'We see slate roofs from the 1920s in Glen Ridge still performing flawlessly' — fabricated first-person field anecdote; dies.",
+    "EXPERT-PICKS: 'We recommend only frost-rated tiles for Essex County installations' — fabricated 'we recommend' anecdote; reframe to the gold/standards point that concrete tile spalls in freeze-thaw. Dies as written.",
+    "EXPERT-PICKS: 'galvanized steel flashings on tile roofs may need replacement every 20-25 years due to humidity from Newark Bay proximity' — invented 20-25-year flashing-life figure and Newark Bay humidity claim not in gold (gold says galvanized/iron rusts out before the tile, per Briefs 29/30, with no interval); dies.",
+    "EXPERT-PICKS: 'We stock common sizes and colors for quick repairs' — fabricated NQR inventory claim; dies.",
+    "EXPERT-PICKS: 'single slate replacement runs $75-$150 in Essex County, while single tile replacement can cost $200-$400' — invented per-unit figures contradicting gold's $50-$300 per slate or tile (HomeGuide/Angi); dies, use gold $50-$300.",
+    "EXPERT-PICKS: 'We see well-meaning homeowners and HVAC technicians crack tiles by walking in wrong spots' — fabricated first-person anecdote; reframe to the gold point that slate is not walked on (Brief 29). Dies as written.",
+    "EXPERT-PICKS: 'We use synthetic underlayment rated for 50+ years, not the 15-year felt paper some contractors substitute to save $500. That shortcut can cause a $50,000 roof to fail in 20 years' — invented 50+-year underlayment, 15-year felt, $500-shortcut, $50,000-roof, and 20-year-failure figures not in gold; dies.",
+    "EXPERT-PICKS: ctaText 'Our crews have decades of premium roofing experience' — fabricated crew-tenure/volume claim; dies (replace with registered-NJ-HIC, insured, free written estimate).",
+    "EXPERT-PICKS conclusion: 'From a contractor perspective, slate is the superior choice for most Essex County applications' — keep the slate-wins verdict but reground it in gold (InterNACHI longevity + historic-district fit), strip the first-person framing.",
+    "BOTH: No 'licensed contractor'/'NJ-licensed' phrasing appears verbatim, but any rewrite must use 'registered New Jersey Home Improvement Contractor' (N.J.S.A. 56:8-136) and never imply a NJ roofing license. No manufacturer-certification self-claims (GAF/CertainTeed/Tesla) appear and none may be introduced. No solar ITC / ENERGY STAR / R-value currency errors present in these blocks."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Slate vs Tile Roofing?",
+    "directAnswerThesis": "Natural slate is better for longevity and historic-district homes, lasting 60-150 years per InterNACHI; clay or concrete tile is better for a terra-cotta profile or a lower-cost concrete budget. Framing capacity is the deciding factor.",
+    "sectionAngles": [
+      "How long does each roof last, and what does it cost to install and repair in NJ?",
+      "Can an Essex County home's frame carry slate or tile, and how do NJ snow and freeze-thaw loads affect the choice?",
+      "Which roof fits the home's architecture and any historic-district rules, and how do you make the final decision?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Slate vs Tile Roofing?",
+    "directAnswerThesis": "Preservation standards and the InterNACHI chart favor natural slate for longevity (60-150 years) and historic-district fit; the choice hinges on framing capacity, non-ferrous fasteners, and matched flashing, with NQR as a registered NJ Home Improvement Contractor.",
+    "sectionAngles": [
+      "What do the InterNACHI life-expectancy chart and Tile Roofing Industry Alliance data actually favor for longevity, and where does concrete tile's freeze-thaw spalling change the answer?",
+      "Which installation-quality factors decide longevity — framing assessment, non-ferrous copper/stainless fasteners, and matched flashing — per NPS Preservation Briefs 29 and 30?",
+      "What do homeowners get wrong about slate and tile — walking on the roof, profile-matching broken tile, and matching original fastener metal on repairs — per Preservation Briefs 29 and 30?"
+    ]
+  }
+}

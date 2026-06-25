@@ -1,0 +1,85 @@
+{
+  "comparisonId": "cedar-shake-vs-wood-shingle",
+  "type": "material",
+  "itemA": "Cedar shake",
+  "itemB": "Wood shingle",
+  "verdict": {
+    "winner": "Cedar shakes win on texture and thickness; wood shingles win on a longer rated life and a flatter, formal face.",
+    "reasoning": "Choose cedar shakes over wood shingles when a textured, hand-split plane suits the architecture: shakes are the thicker, hand-split or taper-sawn unit against shingles' thinner sawn profile and last 20-40 years, per the Cedar Shake & Shingle Bureau.",
+    "alternate": "Choose wood shingles over cedar shakes when a uniform, formal roofline suits the house: machine-sawn shingles lay flat and last 30-50 years, the longer of the two cedar ranges, per the Cedar Shake & Shingle Bureau."
+  },
+  "keyFacts": [
+    "Cedar shake is a thick western red cedar roofing unit, hand-split or taper-sawn from the log into an irregular, textured face, set over an air-spaced deck so each course dries from underneath after rainfall (gold definitionA).",
+    "Wood shingle is a thin western red cedar roofing unit machine-sawn to uniform thickness so it lays flat and smooth; same species as cedar shake, differing by its sawn rather than split face (gold definitionB).",
+    "Cedar shakes last 20-40 years per the Cedar Shake & Shingle Bureau; wood shingles last 30-50 years per the Cedar Shake & Shingle Bureau (gold comparisonRows + introParagraphs).",
+    "Cedar shakes divide into hand-split-and-resawn and taper-sawn grades; the top grades use all-heartwood, edge-grain stock, graded against the standards the Cedar Shake & Shingle Bureau publishes (gold introParagraphs + FAQ).",
+    "The InterNACHI life-expectancy chart lists a single 25-year 'Wood' row covering both shakes and shingles (gold comparisonRows + detailedAnalysis).",
+    "Cedar shakes degrade through moisture-driven cupping, edge splitting, and rot beneath cupped shakes; wood shingles lose service life fastest on north-facing, shaded slopes where moss and algae accumulate (gold comparisonRows + detailedAnalysis).",
+    "Cedar shakes need at least 1.5 inches of air space beneath the units for drying, per the Cedar Shake & Shingle Bureau and NPS Preservation Brief 19 (gold detailedAnalysis).",
+    "Untreated cedar shakes and wood shingles are nonclassified and unrated for fire, not Class C, per the NAHB and the Cedar Shake & Shingle Bureau; fire class is set by UL 790 and ASTM E108 testing (gold comparisonRows + detailedAnalysis).",
+    "Cedar shakes reach Class B or Class C only as pressure-impregnated fire-retardant products under the Cedar Shake & Shingle Bureau's Certi-Guard program, per the NAHB (gold detailedAnalysis).",
+    "Wood shingles reach Class A only as an assembly (Class B fire-retardant shingles over a fire-retardant cap sheet) since no single shingle or shake is Class A, per the Cedar Shake & Shingle Bureau Certi-Guard program and the InterNACHI chart (gold detailedAnalysis).",
+    "Red cedar takes hot-dipped zinc-coated, aluminum, or stainless-steel nails, not copper, because a chemical reaction between cedar and copper shortens the roof's life, per NPS Preservation Brief 19 (gold comparisonRows + njSpecific).",
+    "Cedar-roof maintenance is periodic fungicide and algaecide treatment at $0.15-$0.60 per square foot every few years, per HomeGuide, plus prompt replacement of cupped or split units (gold detailedAnalysis + FAQ).",
+    "Wood-roof repair runs $400-$1,800, averaging $750, per Angi; small repairs run $100-$400 and larger repairs above $1,000, per HomeGuide (gold comparisonRows + detailedAnalysis).",
+    "NJ premium-material install for cedar shakes or wood shingles runs $10-$20+ per square foot (gold comparisonRows).",
+    "A flex test settles a cedar unit's condition: a unit that cracks under light bending shows advanced degradation regardless of surface, per the InterNACHI chart (gold detailedAnalysis).",
+    "Untreated western red cedar weathers to a silver-gray as UV degrades the surface; a UV-inhibiting preservative reapplied with the fungicide-algaecide cycle slows the graying, per HomeGuide (gold FAQ).",
+    "Historic shingles were handsplit or sawn, and a replacement on a contributing historic structure matches the original size, shape, texture, and exposure rather than an aged appearance, per NPS Preservation Brief 19 (gold detailedAnalysis + residentialSection)."
+  ],
+  "sources": [
+    "Cedar Shake & Shingle Bureau (CSSB), including its Certi-Guard fire-retardant program",
+    "InterNACHI life-expectancy chart (single 25-year 'Wood' row)",
+    "NPS Preservation Brief 19 (National Park Service, wood-roof preservation)",
+    "NAHB (National Association of Home Builders)",
+    "UL 790 and ASTM E108 (fire-class testing standards)",
+    "HomeGuide (maintenance and repair cost ranges)",
+    "Angi (wood-roof repair cost average)",
+    "N.J.A.C. 5:23-2.7 / 5:23-2.7(c) (NJ Uniform Construction Code ordinary-maintenance exemption)",
+    "N.J.S.A. 40:55D-107 (NJ Municipal Land Use Law, historic preservation commissions)",
+    "National Park Service (National/NJ Register listing scope)"
+  ],
+  "njContext": [
+    "The NJ Uniform Construction Code treats a full red-cedar re-roof (shakes or shingles) as ordinary maintenance on a detached 1- or 2-family dwelling, with no permit, inspection, or notice, per N.J.A.C. 5:23-2.7.",
+    "Cedar shakes or wood shingles in a local historic district need a Certificate of Appropriateness from the municipal Historic Preservation Commission before a reroof; Glen Ridge's ordinance covers over 90% of the borough and Montclair codifies its review at section 347-136, per the National Park Service and N.J.S.A. 40:55D-107.",
+    "National or NJ Register listing alone places no restriction on a private reroof, per the National Park Service.",
+    "NJ premium-material install for either product runs $10-$20+ per square foot, with wood-roof repairs $400-$1,800 (avg $750, Angi) and maintenance $0.15-$0.60 per square foot every few years (HomeGuide).",
+    "On a commercial building, cedar work crosses out of ordinary maintenance once it exceeds 25% of roof area in 12 months, since the NJ UCC exemption covers only detached 1- and 2-family dwellings, per N.J.A.C. 5:23-2.7(c).",
+    "In Essex County, cedar shakes suit textured, handcrafted facades (Craftsman bungalows, rustic colonials) and wood shingles suit formal, uniform rooflines (formal colonials, Cape Cods), per the CSSB and NPS Preservation Brief 19.",
+    "Both products share moss and algae accumulation on north-facing, shaded Essex County slopes, per the InterNACHI chart and NPS Preservation Brief 19."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate; NJ issues no roofing license, so never claim to be a 'licensed contractor.' NQR installs both cedar shake and wood shingle (western red cedar) roofs to CSSB and NPS Preservation Brief 19 standards: air-spaced deck with 1.5 inches of drying space, hot-dipped zinc, aluminum, or stainless fasteners (never copper), and the correct grade for the slope orientation. Where a local historic district applies, NQR coordinates the Certificate of Appropriateness process. Warranty framing is the honest two-part structure: a manufacturer/material warranty on the cedar product plus NQR's own written workmanship warranty, never marketed through certification tiers. No manufacturer-certification self-claims (no Master Elite / SELECT ShingleMaster / Tesla-certified language) and no fabricated install-volume or field-anecdote claims.",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'Cedar shakes are hand-split or machine-split ... with varied thickness (3/4 to 1-1/4 inches). Wood shingles ... consistent 3/8 to 1/2 inch thickness.' DIES: invented dimensional specs not in gold (gold gives 'thicker (tapered, irregular)' vs 'thinner (uniform, sawn)' with no numeric thickness).",
+    "BUYERS-GUIDE: 'shakes' greater thickness provides better insulation value and wind resistance ... shakes are less likely to lift than thinner shingles.' DIES: invented wind/insulation performance claim not in gold and not source-attributed.",
+    "BUYERS-GUIDE: 'shakes' rough texture traps more moisture and debris, encouraging moss growth' framed as shake-specific. DIES: gold attributes moss/algae to north-facing shaded slopes for BOTH products (InterNACHI / NPS Brief 19), not to shake texture; this is unsupported reframing.",
+    "BUYERS-GUIDE: 'Wood shingles shed water more efficiently ... can extend life ... dry faster after rain ... shingles may outlast shakes' on north-facing roofs. DIES: gold's longer shingle life (30-50 vs 20-40 yr) is a CSSB rated range, not a water-shedding mechanism; the smooth-surface-drying causal claim is invented and unsourced.",
+    "BUYERS-GUIDE: 'Budget $300-$600 per year for professional cleaning and treatment.' DIES: invented annual-dollar figure not in gold; gold gives $0.15-$0.60 per sq ft every few years (HomeGuide), not a flat annual range.",
+    "BUYERS-GUIDE: 'Both carry similar fire ratings unless pressure-treated.' DIES: imprecise/misleading; gold states untreated cedar is nonclassified/unrated (NOT a rating at all, not Class C), per NAHB/CSSB.",
+    "EXPERT-PICKS: 'As contractors who install both cedar shake and wood shingle roofing, we see how ... over time.' DIES: fabricated field-experience framing ('we see', NQR install-experience voice).",
+    "EXPERT-PICKS: 'In Essex County, we see more installation defects on shake roofs than shingle roofs.' DIES: fabricated field-observation / unverifiable defect-rate anecdote ('we see').",
+    "EXPERT-PICKS: 'In our experience across Essex County, well-maintained wood shingles often outlast cedar shakes by 5-10 years ... We see 35-40 year shingle roofs ... comparable shake roofs show more wear at 30-35 years.' DIES: fabricated field-experience PLUS invented '5-10 years' delta and specific 35-40/30-35-year figures not in gold (gold ranges are CSSB 30-50 shingle vs 20-40 shake).",
+    "EXPERT-PICKS: 'shakes' thicker profile provides more sacrificial wood before structural integrity is compromised.' DIES: invented durability mechanism not in gold and unsourced.",
+    "EXPERT-PICKS: 'We have been impressed by recent synthetic shake and shingle products that capture 90% of the visual appeal with zero wood-maintenance requirements.' DIES: fabricated NQR opinion/endorsement plus invented '90%' stat and off-topic product steer not in gold.",
+    "EXPERT-PICKS: 'Our team evaluates your roof conditions and recommends the right wood roofing product' / 'Our practical recommendations.' DIES (soften): NQR-recommendation voice acceptable only in CTA, but the body's 'our recommendations' must be reframed to evidence/standards-based guidance, not NQR field judgment.",
+    "BOTH metaDescriptions reference generic 'expert advice' / 'professional insights' without source grounding. Replace with gold-grounded CSSB lifespan facts; the gold itself uses no 'licensed' language and there is no solar/ITC/ENERGY-STAR/HTC content to currency-correct in this comparison."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Cedar Shake vs Wood Shingle?",
+    "directAnswerThesis": "Neither is universally better: cedar shakes (20-40 yr, CSSB) win on a thick, hand-split textured plane; wood shingles (30-50 yr, CSSB) win on a longer rated life and a flat, formal face. Architecture and slope orientation decide.",
+    "sectionAngles": [
+      "How do cedar shakes and wood shingles differ in cut, thickness, and face? (split-vs-sawn western red cedar, CSSB grades)",
+      "Which cedar roof lasts longer and costs more to maintain in NJ? (CSSB 20-40 vs 30-50 yr; $10-$20+/sq ft install; $0.15-$0.60/sq ft fungicide-algaecide; $400-$1,800 repair, Angi)",
+      "Which cedar roof fits your Essex County home and NJ code? (architecture match, N.J.A.C. 5:23-2.7 ordinary-maintenance exemption, historic-district Certificate of Appropriateness)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Cedar Shake vs Wood Shingle?",
+    "directAnswerThesis": "The standards favor matching the product to the slope and architecture: shingles' longer CSSB rated life (30-50 yr) suits formal, sun-exposed roofs; shakes' thickness suits textured facades. Correct installation to CSSB and NPS Brief 19 decides longevity.",
+    "sectionAngles": [
+      "What do the CSSB and NPS Preservation Brief 19 actually favor? (rated lifespans, all-heartwood edge-grain top grades, matching original size/shape/texture/exposure on historic work)",
+      "Which installation factors decide a cedar roof's real lifespan in NJ? (1.5-inch air-space drying deck, hot-dipped zinc/aluminum/stainless fasteners not copper, fire-retardant Certi-Guard where fire-zone code applies)",
+      "What common homeowner mistakes shorten a cedar roof in Essex County? (copper fasteners, skipping the fungicide-algaecide cycle, ignoring north-facing moss/algae, assuming untreated cedar carries a fire rating)"
+    ]
+  }
+}

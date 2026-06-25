@@ -1,0 +1,105 @@
+{
+  "comparisonId": "most-energy-efficient-roofing-materials",
+  "type": "ranking",
+  "itemA": "Spray polyurethane foam (SPF) — insulation lever",
+  "itemB": "White TPO/PVC single-ply membrane — reflectance lever",
+  "verdict": {
+    "winner": "Spray polyurethane foam (SPF) leads on total NJ energy performance via added R-value; white TPO/PVC membranes lead on low-slope reflectance, per SPFA and the CRRC.",
+    "reasoning": "Spray polyurethane foam (SPF) ranks first because it is the only covering here that adds conductive insulation — an aged R-6.0 to R-6.5 per inch, per ICC-ES/ASTM C1289 LTTR and SPFA — addressing Newark's heating-dominated Climate Zone 4A–5, where R-value governs winter heat loss, per the DOE.",
+    "alternate": "White single-ply membrane (TPO/PVC) leads for low-slope cooling — its ~0.70–0.85 solar reflectance (ASTM C1549, CRRC) cuts peak summer cooling demand 11–27% in air-conditioned residential buildings, per the EPA, while cool-roof asphalt shingles carry CRRC-rated reflective granules as the lower-cost steep-slope path."
+  },
+  "keyFacts": [
+    "Spray polyurethane foam (SPF) carries an aged R-6.0 to R-6.5 per inch and is the only covering compared that adds conductive insulation, per ICC-ES/ASTM C1289 LTTR listings and SPFA.",
+    "White single-ply membrane (TPO and PVC) holds ~0.70–0.85 solar reflectance and ~0.80–0.90 thermal emittance, measured by ASTM C1549 and listed by the CRRC.",
+    "White PVC membrane holds the same ~0.70–0.85 reflectance band as white TPO plus chemical and grease resistance, suiting flat roofs near kitchen/grease exhaust, per the CRRC and Duro-Last.",
+    "Reflective metal roofing carries high solar reflectance and thermal emittance the CRRC rates, but no metal-specific reflectance percentage is sourced.",
+    "Cool-roof asphalt shingles use reflective granules to raise surface reflectance as a lower-cost steep-slope reflectance upgrade, and are CRRC-rated.",
+    "A green (vegetated) roof adds a planted layer rated only for a 5–40-year service life per the InterNACHI chart, with no sourced energy percentage.",
+    "Natural slate is a dense stone covering with no sourced cool-roof reflectance figure; it is a durable steep-slope covering, not a reflectance lever.",
+    "The SPF foam layer lasts 30+ years when its protective coating is maintained, per SPFA.",
+    "Reflective coatings and membranes add no conductive R-value; their energy effect comes only from solar reflectance and thermal emittance, per the DOE, CRRC, and RCMA.",
+    "White single-ply membrane (TPO/PVC) reduces peak summer cooling demand 11–27% in air-conditioned residential buildings, per the EPA.",
+    "A reflective roof stays over 50°F cooler than a conventional roof on a sunny afternoon, per the DOE and the LBNL Heat Island Group.",
+    "A clean white roof reflecting 80% of sunlight stays about 55°F (31°C) cooler than a gray roof reflecting 20%, per the DOE and the LBNL Heat Island Group.",
+    "Solar reflectance is the fraction of sunlight reflected and thermal emittance is how efficiently a surface re-radiates absorbed heat, each on a 0–1 scale, per the EPA.",
+    "The CRRC-1 program (Cool Roof Rating Council) is the active third-party rating system for roof reflectance and emittance, listing initial and 3-year-aged solar reflectance and thermal emittance in a public Rated Products Directory; it reports performance only, not an approval, per the CRRC.",
+    "The EPA ended ENERGY STAR roof program recognition on June 1, 2022, per the EPA, CRRC, and SPRI.",
+    "SPF is rated as an insulation lever (aged R-6.0–R-6.5/inch per ICC-ES and ASTM C1289 LTTR), while reflective coverings are rated on CRRC reflectance-and-emittance metrics, per SPFA and the CRRC.",
+    "NJ's Successor Solar Incentive (SuSI) program pays a per-MWh SREC-II set by the NJ Board of Public Utilities over a 15-year term, per the NJBPU.",
+    "Solar-generating roofs draw NJ's sales-and-use-tax exemption on solar equipment (N.J.S.A. 54:32B-8.33) and a property-tax exemption on the added assessed value (N.J.S.A. 54:4-3.113a/b), each claimed on the homeowner's own filing, per the NJ Division of Taxation.",
+    "The federal residential §25D solar credit was 30% for systems completed through 2025 and was repealed for systems completed after December 31, 2025, per the IRS.",
+    "The federal §25C insulation credit was repealed after December 31, 2025, so no current federal homeowner credit applies to a cool or insulated roof, per the IRS.",
+    "Federal §179D is a commercial whole-building deduction (envelope, HVAC, lighting), not a standalone roof credit, and was repealed for construction beginning after June 30, 2026, per the IRS."
+  ],
+  "sources": [
+    "SPFA (Spray Polyurethane Foam Alliance)",
+    "ICC-ES / ASTM C1289 LTTR listings",
+    "ASTM C1549",
+    "CRRC (Cool Roof Rating Council) / CRRC-1 program",
+    "DOE (U.S. Department of Energy)",
+    "EPA (U.S. Environmental Protection Agency)",
+    "LBNL Heat Island Group (Lawrence Berkeley National Laboratory)",
+    "RCMA (Roof Coatings Manufacturers Association)",
+    "SPRI",
+    "Duro-Last",
+    "InterNACHI life-expectancy chart",
+    "ICC / 2021 IECC Table R402.1.3",
+    "IRC R806.2",
+    "ARMA (Asphalt Roofing Manufacturers Association)",
+    "Air Vent Inc.",
+    "NJ DCA",
+    "NJBPU (NJ Board of Public Utilities) — Successor Solar Incentive (SuSI) / SREC-II",
+    "NJ Division of Taxation — N.J.S.A. 54:32B-8.33; N.J.S.A. 54:4-3.113a/b",
+    "IRS — §25D, §25C, §179D"
+  ],
+  "njContext": [
+    "Newark sits in Climate Zone 4A–5, a heating-dominated mixed climate, so total annual energy performance favors insulation levers — a reflective roof reduces peak summer cooling but carries a winter heating penalty, per the DOE and EPA.",
+    "The 2021 IECC (NJ-adopted, residential enforcement April 2023) sets ceiling insulation at R-60 for NJ's Climate Zones 4 and 5 under Table R402.1.3, with an R-49 full-ceiling exception at raised-heel eaves, per the ICC and NJ DCA; this conductive minimum applies regardless of the covering's reflectance.",
+    "Balanced attic ventilation supports any roof's energy performance — IRC R806.2 sets the minimum net free ventilating area at 1/150 of the vented attic (the 1/300 reduction's cold-zone vapor-retarder leg does not apply in Newark's Zone 4–5), split roughly 50% intake at the soffits and 50% exhaust at the ridge, per the IRC, ARMA, and Air Vent Inc.",
+    "For most Essex County houses on a roof replacement, cool-roof asphalt shingles raise surface reflectance at standard steep-slope shingle pricing and carry CRRC reflectance-and-emittance ratings; once ceiling insulation meets the 2021 IECC R-60 (R-49 raised-heel exception), reflectance adds only incremental summer benefit, per the CRRC and ICC.",
+    "Reflective metal roofing suits Essex County steep-slope homes seeking a rated reflective finish; green (vegetated) roofs fit limited flat residential sections, rated by InterNACHI only for a 5–40-year service life with no sourced energy percentage.",
+    "On low-slope commercial roofs, SPF adds the only conductive R-value (aged R-6.0–R-6.5/inch per SPFA) where a flat roof carries thin existing insulation, while white TPO/PVC's ~0.70–0.85 reflectance lowers roof-surface temperature, per the CRRC and EPA.",
+    "White PVC membrane suits commercial buildings near grease or chemical exhaust, holding the same ~0.70–0.85 reflectance band as white TPO plus chemical and grease resistance, per the CRRC and Duro-Last."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate — NJ issues no roofing 'license,' so never claim a license. NQR installs both reflectance-lever coverings (white TPO/PVC, cool-roof asphalt shingles, reflective metal) and insulation-lever systems (SPF, above-deck/attic insulation) and can match the covering to Newark's heating-dominated Climate Zone 4A–5. For any solar-generating roof, NQR handles the roofing side only — mount flashing, ASCE 7 load, re-roof-before-solar sequencing, and NEC-fire/setback coordination — not the solar system design, sizing, or incentive filing (the homeowner's tax professional confirms §25D/§25C/SuSI eligibility). Frame warranty honestly as two parts: the manufacturer's material warranty plus NQR's written workmanship warranty; never invoke manufacturer certification tiers (no Master Elite / SELECT ShingleMaster framing) and never claim measured energy-savings percentages for NQR's own projects.",
+  "defabToKill": [
+    "BUYERS-GUIDE intro: 'With NJ electricity rates among the highest in the nation, choosing the right roof can save hundreds to thousands of dollars annually.' — invented savings claim not in gold; dies (no sourced dollar-savings figure).",
+    "BUYERS-GUIDE 'How Roofing Affects Energy Costs': 'Your roof accounts for up to 40% of your building energy gain in summer' — invented 40% stat, not in gold; dies.",
+    "BUYERS-GUIDE: 'Energy Star-rated roofing products must have a solar reflectance of 0.25+ (initial) and 0.15+ (after 3 years of weathering).' — currency error: ENERGY STAR roof program ended June 1, 2022 (EPA/CRRC/SPRI); the active system is CRRC-1 (ASTM C1549). Dies as dead-program framing.",
+    "BUYERS-GUIDE 'Energy Efficiency Rankings': 'white TPO/PVC membrane (reflects 80-90%)' — gold gives ~0.70–0.85 solar reflectance, not 80–90%; invented reflectance figure, dies (use gold band).",
+    "BUYERS-GUIDE: 'cool-colored metal roofing with IR-reflective pigments (reflects 40-70%)' — invented metal reflectance %; gold explicitly states no metal-specific % is sourced. Dies.",
+    "BUYERS-GUIDE: 'light-colored asphalt shingles with reflective granules (reflects 25-40%)' and 'standard dark asphalt shingles (reflects 5-15%)' — invented per-material reflectance ranges not in gold. Die.",
+    "BUYERS-GUIDE 'Energy Efficiency Rankings': 'Polyiso board insulation under any membrane provides R-5.7 per inch.' — invented R-value figure not in gold (gold only sources SPF aged R-6.0–6.5/inch). Dies.",
+    "BUYERS-GUIDE 'Selecting for Essex County': 'white TPO membrane over R-30+ polyiso insulation... reduces annual energy costs by 20-35% compared to dark, uninsulated flat roofs.' — invented 20–35% annual-cost figure and R-30 spec not in gold. Dies.",
+    "BUYERS-GUIDE: 'Light-colored asphalt shingles with Energy Star certification are the budget-friendly efficient option.' — ENERGY STAR roof certification is dead (June 1, 2022); replace with CRRC-rated cool-roof shingles. Dies.",
+    "EXPERT-PICKS intro: 'We measure the energy impact of our roofing installations through client feedback and utility data. Here is what we have learned about which materials actually deliver energy savings in Essex County conditions.' — fabricated NQR field-measurement/experience claim. Dies.",
+    "EXPERT-PICKS 'Measured Results from Our Projects': entire section — 'Our most dramatic energy efficiency improvement was a Newark warehouse that switched from dark BUR to white TPO with R-30 insulation. Summer cooling costs dropped 42% the first year. The total energy savings exceeded $8,000 annually on a 25,000 sq ft building, paying back the insulation upgrade in under 2 years.' — fabricated NQR project, 42% figure, $8,000/yr, 25,000 sq ft, <2yr payback; all invented, not in gold. Dies entirely.",
+    "EXPERT-PICKS: 'Essex County homeowners who switch from dark asphalt to light metal or cool-colored shingles typically report 10-20% cooling cost reductions.' — invented 10–20% NQR-client savings figure not in gold. Dies.",
+    "EXPERT-PICKS 'The Insulation Factor': 'In our experience, improving insulation during re-roofing delivers better ROI...' — fabricated NQR field-experience framing ('In our experience'). Dies.",
+    "EXPERT-PICKS: 'We recommend minimum R-49 attic insulation for Essex County homes, above NJ code minimum of R-30.' — currency error: NJ 2021 IECC minimum is R-60 (R-49 raised-heel exception), NOT R-30; the 'above code' framing is backwards. Dies; replace with gold R-60/R-49 fact.",
+    "EXPERT-PICKS: 'The incremental cost is $1,000-$2,000 for most homes, but the annual energy savings of $200-$500 provide a 2-4 year payback.' — invented cost/savings/payback figures not in gold. Die.",
+    "EXPERT-PICKS 'NJ Incentives and Programs': 'NJ Clean Energy Program provides rebates for insulation upgrades.' — not in gold's incentive set (gold sources SuSI/SREC-II + N.J.S.A. tax exemptions). Unsupported program claim, dies unless re-sourced; not in gold.",
+    "EXPERT-PICKS: 'The federal tax credit for energy-efficient building envelope improvements may apply to qualifying roofing materials.' — currency error: §25C envelope credit repealed after Dec 31, 2025 (IRS). Dies; replace with gold's repealed-credit fact.",
+    "EXPERT-PICKS: 'Combining incentives with energy savings can reduce the effective cost of energy-efficient roofing by 15-30%.' — invented 15–30% effective-cost-reduction figure not in gold. Dies.",
+    "EXPERT-PICKS conclusion: 'Energy efficient roofing delivers real, measurable savings for Essex County properties.' — repeats the fabricated 'measurable savings' framing; soften to standards-based, not NQR-measured.",
+    "EXPERT-PICKS ctaText / heading: 'We specify and install the most energy-efficient roofing systems available.' — superlative self-claim; reframe to honest registered-NJ-HIC service language."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Most Energy Efficient Roofing Materials?",
+    "directAnswerThesis": "Spray polyurethane foam wins total NJ energy performance — it is the only covering adding insulation (aged R-6.0–6.5/inch, SPFA); white TPO/PVC wins low-slope cooling at ~0.70–0.85 reflectance (CRRC).",
+    "sectionAngles": [
+      "Reflectance vs insulation: which lever cuts more energy in Newark's heating-dominated Climate Zone 4A–5?",
+      "How does each material rate — and which rating system applies now that ENERGY STAR roof recognition ended (CRRC-1, ASTM C1549)?",
+      "What does NJ code require (2021 IECC R-60 ceiling, R-49 raised-heel exception) before reflectance adds value, and how do you decide by roof slope?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Most Energy Efficient Roofing Materials?",
+    "directAnswerThesis": "Match the lever to the climate: standards favor SPF for added R-value (R-6.0–6.5/inch, SPFA) on low-slope and white TPO/PVC reflectance (~0.70–0.85, CRRC) for summer cooling; insulation governs Newark's winter share.",
+    "sectionAngles": [
+      "What do the standards actually favor — CRRC reflectance-and-emittance ratings for cooling vs ICC-ES/ASTM R-value for total annual performance in Climate Zone 4A–5?",
+      "Why does NJ code make insulation the deciding factor — once ceiling insulation meets 2021 IECC R-60 (R-49 raised-heel), how much does surface reflectance add (DOE/EPA)?",
+      "What are the common homeowner mistakes — chasing reflectance without insulation, relying on dead ENERGY STAR labels, or assuming a federal cool-roof credit still applies (§25D/§25C repealed after Dec 31, 2025, IRS)?"
+    ]
+  }
+}

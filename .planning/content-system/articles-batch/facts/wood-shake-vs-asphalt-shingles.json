@@ -1,0 +1,91 @@
+{
+  "comparisonId": "wood-shake-vs-asphalt-shingles",
+  "type": "material",
+  "itemA": "Cedar wood shake",
+  "itemB": "Asphalt shingles",
+  "verdict": {
+    "winner": "Asphalt shingles win for most NJ homeowners on cost, maintenance, and fire class.",
+    "reasoning": "Choose asphalt shingles over cedar wood shake when budget and low maintenance lead: NJ asphalt installs at $6.50-$11.00 per sq ft versus $10-$20+ for cedar, asphalt carries a standard Class A fire rating, and asphalt needs no preservative recoating in NJ's humid, freeze-thaw climate.",
+    "alternate": "Cedar wood shake wins for owners of historic-character homes who commit to its upkeep: periodic cleaning plus fungicide/algaecide treatment at $0.15-$0.60 per sq ft every few years, the at-least-1.5-inch ventilation space the CSSB specifies, and prompt replacement of split or cupped shakes."
+  },
+  "keyFacts": [
+    "NJ installed cost for architectural asphalt shingles runs $6.50-$11.00 per sq ft and 3-tab $5.50-$9.50, while cedar wood shake runs $10-$20+ per sq ft (Josten Roofing and NHI Contractors NJ figures).",
+    "A full NJ roof replacement falls inside a $10,000-$25,000 band for asphalt; cedar wood shake lands at the upper end of, or above, that range because hand-laid split shakes raise material and labor cost (HomeAdvisor and Modernize).",
+    "Cedar wood shake repair averages $400-$1,800 (Angi), versus $400-$1,000 for an NJ asphalt leak repair.",
+    "Cedar wood shake needs a fungicide/algaecide treatment every few years at $0.15-$0.60 per sq ft, plus periodic cleaning and prompt replacement of split or cupped shakes; algae-guard asphalt needs only periodic inspection (HomeGuide).",
+    "Cedar wood shake requires an air space of at least 1.5 inches beneath the shakes for drying, and north-facing shaded slopes degrade fastest (CSSB and NRCA).",
+    "Asphalt shingles age through granule loss, tab curling, and thermal-shock cracking, while cedar fails through moss and algae growth, cupping and warping, edge splitting, and rot beneath cupped shakes (CSSB and NRCA).",
+    "Asphalt shingles carry a standard Class A fire rating, the top class under UL 790 / ASTM E108, while untreated cedar wood shake is nonclassified and unrated, not Class C (NAHB and CSSB).",
+    "Cedar wood shake reaches a fire class only with pressure-impregnated fire-retardant treatment, which the CSSB Certi-Guard program rates Class B or Class C; a Class A wood roof exists only as a rated assembly (FR shakes over a fire-retardant cap sheet), not as any single shake.",
+    "Impact-rated asphalt shingles rated 'Excellent' or 'Good' on IBHS Impact-Resistant ratings withstand hail up to 2 inches under the 2025 FORTIFIED standard, with Class 4 the top UL 2218 impact class.",
+    "Cedar shake is rated 20-40 years and cedar shingle 30-50 years (CSSB), versus 20-30 years for asphalt (InterNACHI and NAHB), but cedar reaches its rated ceiling only when its maintenance schedule is met.",
+    "Asphalt shingles deliver 20 years for 3-tab and 30 years for architectural per the InterNACHI life-expectancy chart; NRCA designs asphalt for about 20 years of service with actual life varying up to plus-or-minus 40% by climate, install, and maintenance.",
+    "An unmaintained cedar roof in NJ's humid, freeze-thaw climate degrades well below its rated life, erasing the lifespan edge over a low-maintenance asphalt roof (CSSB, InterNACHI, NAHB).",
+    "Synthetic-shake products from DaVinci and CertainTeed reproduce split-cedar texture at zero recoating maintenance, costing more than asphalt but less than real cedar wood shake.",
+    "Architectural asphalt lines from GAF and CertainTeed mimic split-cedar texture without cedar's recoating cycle."
+  ],
+  "sources": [
+    "Josten Roofing (NJ installed-cost figures)",
+    "NHI Contractors (NJ installed-cost figures)",
+    "HomeAdvisor (NJ replacement cost band)",
+    "Modernize (NJ replacement cost band)",
+    "Angi (cedar repair cost)",
+    "HomeGuide (cedar treatment cost/frequency)",
+    "Cedar Shake & Shingle Bureau (CSSB) (lifespan, ventilation spec, fire treatment / Certi-Guard program)",
+    "NRCA (asphalt service-life design, cedar failure modes)",
+    "InterNACHI Estimated Life Expectancy Chart (asphalt lifespan)",
+    "NAHB (asphalt lifespan, untreated-cedar fire class)",
+    "UL 790 / ASTM E108 (fire-rating test standard)",
+    "UL 2218 (impact-rating class, Class 4 top)",
+    "IBHS Impact-Resistant ratings (hail-impact grading)",
+    "FORTIFIED 2025 standard (hail-resistance)",
+    "NOAA climate normals (~31.5 in. annual snowfall, freeze-thaw, nor'easter winds)",
+    "N.J.A.C. 5:23-2.7 (re-roof as ordinary maintenance on detached 1-2 family homes)",
+    "N.J.A.C. 5:23-6.4 (Rehabilitation Subcode wood-shake tear-off)"
+  ],
+  "njContext": [
+    "NJ installed cost: architectural asphalt $6.50-$11.00/sq ft, 3-tab $5.50-$9.50/sq ft, cedar wood shake $10-$20+/sq ft (Josten Roofing, NHI Contractors).",
+    "Full NJ roof replacement $10,000-$25,000 for asphalt; cedar at the upper end of or above that range (HomeAdvisor, Modernize).",
+    "NJ repair: cedar $400-$1,800 (Angi); asphalt leak repair $400-$1,000.",
+    "An NJ re-roof on a detached 1- or 2-family home is ordinary maintenance with no permit (N.J.A.C. 5:23-2.7); the Rehabilitation Subcode wood-shake tear-off (N.J.A.C. 5:23-6.4) requires complete removal of any existing wood-shake covering with no recover-over, but only once a permit is triggered by commercial, multi-family, or structural work.",
+    "NJ insurance friction: carriers weigh untreated cedar's nonclassified/unrated fire class (NAHB, CSSB); fire-retardant treatment addresses that scrutiny, while asphalt's standard Class A avoids it.",
+    "NJ four-season load: about 31.5 in. annual snowfall, repeated freeze-thaw cycles, and nor'easter winds (NOAA); cedar needs the CSSB ventilation detail (at least 1.5 in. air space) to survive NJ humidity, and north-facing shaded slopes degrade fastest.",
+    "Essex County context: cedar weathers to silver-gray and matches historic districts like Montclair and Glen Ridge; on steep-slope commercial roofs cedar's fire class, maintenance demand, and insurance friction rule it out for most properties, where asphalt pairs with single-ply membrane low-slope systems."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate, that installs both cedar wood shake and asphalt shingles (plus synthetic-shake and architectural alternatives) across Essex County. NQR's recommendation is grounded in the named standards and NJ cost/code/climate facts above, not in cert tiers. Frame warranty honestly as two parts: the shingle/shake manufacturer's material warranty plus NQR's own written workmanship warranty; never claim manufacturer certification tiers (no GAF Master Elite, no CertainTeed SELECT ShingleMaster). Never use 'licensed' for the roofing work itself (NJ issues no roofing license) and never insert NQR project counts, crew anecdotes, or invented field-experience claims.",
+  "defabToKill": [
+    "BUYER'S GUIDE: 'Budget $300-$600 annually for professional maintenance.' Invented figure not in gold (gold gives cedar treatment as $0.15-$0.60/sq ft every few years, not a flat annual dollar range). Dies.",
+    "BUYER'S GUIDE: 'Untreated wood shake carries a Class C fire rating, the lowest.' Factual error contradicting gold, which explicitly states untreated cedar is nonclassified and unrated, NOT Class C, per NAHB and CSSB. Dies / must be corrected.",
+    "BUYER'S GUIDE: 'Pressure-treated shake achieves Class B or A at 20-30% higher cost.' The '20-30% higher cost' figure is invented (not in gold), and the 'Class A' single-shake claim contradicts gold (Class A wood exists only as a rated assembly; treated shake rates Class B or C). Dies.",
+    "BUYER'S GUIDE: 'you can afford $600-$900 per square' (cedar) and 'budget-friendly pricing at $350-$500 per square' (asphalt). Invented per-square figures not in gold (gold uses $/sq ft and full-replacement bands). Dies.",
+    "BUYER'S GUIDE: 'Wood shake requires annual maintenance' / 'In Essex County's humid climate, moss growth is aggressive on north-facing slopes.' The 'annual' cadence overstates gold's 'every few years' treatment cadence. Reframe to gold cadence; aggressive-moss claim must trace to CSSB/NRCA, not asserted bare.",
+    "EXPERT-PICKS: 'Our crews work with both wood shake and asphalt throughout Essex County.' Fabricated crew/field-experience framing. Dies.",
+    "EXPERT-PICKS: 'The reality of living with each material season after season in NJ weather shapes our recommendations beyond what product brochures capture.' Fabricated experiential authority. Dies.",
+    "EXPERT-PICKS: 'We see shake roofs in shaded areas of South Orange and Maplewood develop moss within 2-3 years.' Fabricated 'we see' field anecdote plus invented '2-3 years' moss-onset figure not in gold. Dies.",
+    "EXPERT-PICKS: 'face premature replacement at 15-20 years instead of the expected 30-40.' Invented '15-20 years' figure not in gold (gold: cedar rated 20-40 yr, degrades below rated life if unmaintained, no specific premature-failure number). Dies.",
+    "EXPERT-PICKS: 'wood shake on sun-exposed roofs in open neighborhoods like Livingston and Caldwell ages gracefully and can last the full expected lifespan.' Fabricated location-specific observation; reframe generically to CSSB ventilation/orientation facts.",
+    "EXPERT-PICKS: 'The biggest mistake we see is inadequate spacing.' / 'Crews unfamiliar with wood shake install them too tightly.' Fabricated 'we see' field anecdote. Reframe to the CSSB at-least-1.5-inch air-space spec instead.",
+    "EXPERT-PICKS: 'We use cedar breather mat beneath all shake installations... This detail can add 10 years to lifespan in NJ's humid climate. Budget contractors often skip this $1-$2/sq ft addition.' Fabricated 'we use' self-claim plus invented 'add 10 years' lifespan figure and '$1-$2/sq ft' cost figure not in gold. Dies.",
+    "EXPERT-PICKS: 'A quality asphalt roof in Essex County costs roughly $12,000-$18,000 total over its 25-year life... A wood shake roof costs $25,000-$40,000 over the same period.' Invented total-cost-of-ownership figures and 25-year horizon math not in gold (gold gives install $/sq ft, repair, and treatment figures only). Dies.",
+    "EXPERT-PICKS: 'GAF Timberline HDZ in weathered wood or hickory tones comes surprisingly close to wood shake aesthetics at 40% of total cost.' Invented '40% of total cost' figure not in gold; the specific 'Timberline HDZ' product claim is unsubstantiated. Reframe to gold's generic GAF/CertainTeed cedar-look line without the invented percentage.",
+    "EXPERT-PICKS / BUYER'S GUIDE: 'Our crews,' 'we recommend,' 'we use,' 'the biggest mistake we see,' 'candid assessment' first-person field-authority framing throughout. All unsubstantiated NQR experience claims die; recommendations must be attributed to named standards/sources."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Wood Shake vs Asphalt Shingles?",
+    "directAnswerThesis": "Asphalt shingles are better for most Essex County homes on cost, low maintenance, and standard Class A fire rating; cedar wood shake is better only for historic character when the owner commits to its upkeep.",
+    "sectionAngles": [
+      "Which costs less to install and own in New Jersey, wood shake or asphalt shingles?",
+      "Which roof fits NJ's humid, freeze-thaw climate and fire-rating expectations?",
+      "When does cedar wood shake make sense over asphalt for an Essex County home?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Wood Shake vs Asphalt Shingles?",
+    "directAnswerThesis": "The standards and NJ cost data favor architectural asphalt for most homes; recommend cedar wood shake only where historic character is the goal and the owner accepts CSSB-spec ventilation plus the every-few-years fungicide/algaecide treatment.",
+    "sectionAngles": [
+      "What do the fire and lifespan standards (UL 790/ASTM E108, CSSB, InterNACHI, NRCA) actually favor between the two materials?",
+      "Which installation details decide cedar longevity in NJ, per the CSSB ventilation and treatment specifications?",
+      "What homeowner mistakes erase cedar's lifespan edge, and when is a synthetic-shake or architectural alternative the better call?"
+    ]
+  }
+}

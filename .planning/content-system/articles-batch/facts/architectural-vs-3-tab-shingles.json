@@ -1,0 +1,87 @@
+{
+  "comparisonId": "architectural-vs-3-tab-shingles",
+  "type": "material",
+  "itemA": "Architectural shingles",
+  "itemB": "3-tab shingles",
+  "verdict": {
+    "winner": "Architectural shingles win on durability and wind class; 3-tab shingles win on upfront NJ cost.",
+    "reasoning": "Architectural shingles over 3-tab shingles when the roof faces northern-NJ design wind — the 110-130 mph architectural wind warranty meets or exceeds the ~110-115 mph ASCE 7-16 design wind speed mapped for Essex County, while entry 3-tab's ~60 mph warranty falls short.",
+    "alternate": "3-tab shingles win when upfront budget leads the decision — 3-tab installs at $5.50-$9.50 per NJ square foot versus architectural's $6.50-$11.00 (Josten Roofing), the lowest-cost asphalt path for rentals, budget jobs, and code-minimum re-roofs."
+  },
+  "keyFacts": [
+    "Architectural shingles last 30 years versus 20 years for 3-tab shingles (InterNACHI life-expectancy chart).",
+    "Architectural shingles install at $6.50-$11.00 per NJ square foot versus $5.50-$9.50 for 3-tab shingles (Josten Roofing 2026 NJ cost guide).",
+    "Architectural shingles commonly carry a 110-130 mph wind warranty versus roughly 60 mph (up to ~70 mph on entry products) for standard 3-tab shingles (manufacturer warranty language).",
+    "Architectural shingles are laminated, two-layer asphalt shingles built from a fiberglass mat saturated in asphalt and surfaced with mineral granules, bonding a second layer onto the base to create dimensional shadow lines (parent gold definition).",
+    "3-tab shingles are single-layer, flat-cut asphalt shingles built from a fiberglass mat saturated in asphalt and surfaced with mineral granules, with three cut tabs along each strip laying a flat uniform pattern (parent gold definition).",
+    "Architectural shingles weigh roughly 250-400+ lb per square versus 230-250 lb per square for 3-tab shingles (InterNACHI inspection guide).",
+    "Architectural shingles carry warranty ranges of 30-50 years versus 20-30 years for 3-tab shingles (InterNACHI asphalt-shingle inspection guide).",
+    "Architectural-grade Class 4 impact-resistant products pass a 2.0-inch steel ball dropped from 20 feet under UL 2218, the highest of four impact classes, with no crack through the shingle back after two strikes; standard 3-tab is typically unrated or low-class (UL 2218 standard).",
+    "Architectural shingles clear the IBC/IRC wind classification under ASTM D7158, whose Class F equivalent on the older ASTM D3161 fan test passes at 110 mph (NRCA Professional Roofing standards explainer).",
+    "Architectural failure modes are granule loss, zipper cracking along cutout lines, and cupping; 3-tab failure modes are tab curling, granule loss, and wind-uplift seal failure (parent gold).",
+    "Architectural single self-sealing-strip 3-tab loses protective granules under hail, exposing the asphalt mat and accelerating UV degradation (NRCA general guidance).",
+    "Laminated architectural shingles held roughly 57-58% of the asphalt-shingle market in 2024 (Mordor Intelligence).",
+    "Major asphalt-shingle makers including GAF, CertainTeed, and Owens Corning still produce 3-tab shingles, but as a declining minority of installs (parent gold FAQ).",
+    "InterNACHI notes that hail and high wind shorten asphalt-shingle life on either grade (InterNACHI life-expectancy chart).",
+    "Many homeowners insurers offer a premium credit for UL 2218 Class 4 roofs, set carrier by carrier (parent gold)."
+  ],
+  "sources": [
+    "InterNACHI life-expectancy chart",
+    "InterNACHI asphalt-shingle inspection guide",
+    "Josten Roofing 2026 NJ cost guide",
+    "NRCA (National Roofing Contractors Association) Professional Roofing standards explainer / general guidance",
+    "ASTM D7158",
+    "ASTM D3161",
+    "UL 2218 (impact-resistance standard)",
+    "ASCE 7-16 (design wind speed, referenced by the NJ UCC)",
+    "N.J.A.C. 5:23-2.7 / 5:23-2.7(b) / 5:23-2.7(c) (NJ Uniform Construction Code)",
+    "IBC/IRC (International Building Code / International Residential Code)",
+    "Mordor Intelligence (asphalt-shingle market share)",
+    "Manufacturer warranty language (GAF, CertainTeed, Owens Corning)"
+  ],
+  "njContext": [
+    "The NJ Uniform Construction Code treats a re-roof in architectural or 3-tab shingles as ordinary maintenance on a detached 1- or 2-family dwelling — no permit, inspection, or notice, regardless of shingle grade (N.J.A.C. 5:23-2.7).",
+    "The NJ UCC requires a permit once roof work turns structural (replacing rafters, trusses, or ridge beams) or exceeds 25% of roof area within 12 months on commercial, condo, or attached buildings (N.J.A.C. 5:23-2.7(b) and 5:23-2.7(c)), independent of shingle grade.",
+    "Essex County's mapped ASCE 7-16 design wind speed is ~110-115 mph; architectural's 110-130 mph warranty meets or exceeds it, while standard 3-tab at ~60 mph falls below it (ASCE 7-16 referenced by the NJ UCC, manufacturer warranty language).",
+    "Architectural shingles install at $6.50-$11.00 per NJ square foot and 3-tab at $5.50-$9.50 per NJ square foot (Josten Roofing 2026 NJ cost guide) — a per-square-foot gap, not a fixed dollar premium.",
+    "On a commercial steep-slope building, architectural or 3-tab roof work triggers a NJ UCC permit once it exceeds 25% of roof area in 12 months, since the ordinary-maintenance exemption covers only detached 1- and 2-family dwellings (N.J.A.C. 5:23-2.7(c)).",
+    "Architectural shingles suit most owner-occupied Essex County houses (30-year life, 110-130 mph wind warranty); 3-tab suits budget-driven projects, rentals, and code-minimum re-roofs at the lower $5.50-$9.50 per NJ square-foot cost (InterNACHI and Josten Roofing)."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136 — NJ has no roofing license), insured, offering a free written estimate across Essex County. Frame the architectural-vs-3-tab recommendation on the verified evidence (InterNACHI lifespan, ASCE 7-16 Essex County design wind, UL 2218 impact class, Josten Roofing NJ cost) — not on field anecdote or storm-call counts. Warranty framing is honest and two-part: the manufacturer's material warranty plus NQR's written workmanship warranty; never cite or imply manufacturer certification tiers (no GAF Master Elite, no CertainTeed SELECT ShingleMaster). NQR installs both grades and matches the shingle to the building's use, budget, and northern-NJ wind exposure.",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'can contribute $2,000-$5,000 in perceived home value versus 3-tab on comparable homes' — invented dollar figure, not in gold; dies (fabricated resale stat attributed to 'real estate professionals in Essex County').",
+    "BUYERS-GUIDE: 'Real estate professionals in Essex County consistently report...' — fabricated unnamed-source anecdote; dies.",
+    "BUYERS-GUIDE: lifespan '25-30 years for architectural versus 15-20 years for 3-tab' — contradicts gold (InterNACHI: 30 vs 20); dies as invented/altered figure.",
+    "BUYERS-GUIDE: 'nor'easters regularly produce 50-70 mph gusts' — invented gust figure not in gold (gold cites ASCE 7-16 ~110-115 mph design wind, not gust observations); dies.",
+    "BUYERS-GUIDE: cost '$350-$500 per square installed versus $250-$350 for 3-tab... premium of $100-$150 per square (roughly $2,000-$3,000 total on an average home)' — invented per-square and per-job dollar math, not in gold (gold uses per-sq-ft $6.50-$11.00 vs $5.50-$9.50, Josten Roofing); dies.",
+    "BUYERS-GUIDE: 'cost-per-year comparison... architectural at $14-$17/yr per square versus 3-tab at $15-$23/yr per square' — invented cost-per-year math, not in gold; dies.",
+    "BUYERS-GUIDE: 'There is virtually no scenario where 3-tab shingles are the better value' — overstated absolute that contradicts gold's verdict.alternateScenario (3-tab wins on upfront budget for rentals/budget/code-minimum); dies.",
+    "BUYERS-GUIDE ctaText: 'installs premium architectural shingles with full manufacturer warranties' — 'full manufacturer warranties' implies cert-tier coverage; reframe to honest two-part (manufacturer material + NQR written workmanship).",
+    "EXPERT-PICKS intro: 'We install both... our strong professional recommendation' framed as field opinion — reframe to evidence/standards-based recommendation.",
+    "EXPERT-PICKS: 'Our emergency repair records show that 3-tab shingle blow-offs outnumber architectural shingle failures by roughly 5:1' — fabricated NQR field-data stat; dies.",
+    "EXPERT-PICKS: 'After one notable 2023 nor'easter, we responded to 47 emergency calls... 38 involved 3-tab... only 9 architectural' — fabricated project-count anecdote; dies.",
+    "EXPERT-PICKS: 'We maintain 3-tab in our product lineup for two situations...' and 'we provide a written disclosure... have the client sign' — fabricated internal-process anecdote; dies (reframe as honest when-each-grade-fits guidance grounded in cost/wind facts).",
+    "EXPERT-PICKS: 'Our standard specification for Essex County homes is GAF Timberline HDZ or CertainTeed Landmark Pro' — self-claimed spec/brand-standard; dies (no specific-brand standard claims).",
+    "EXPERT-PICKS: 'lifetime limited warranties, 130 mph wind ratings, and Class A fire ratings... most-installed products by a wide margin' — unverified product/volume claims not in gold; dies (130 mph is within gold's 110-130 range but the brand-product attribution and 'most-installed' volume die).",
+    "EXPERT-PICKS: 'We pair these shingles with GAF or CertainTeed complete system components... to qualify for the maximum manufacturer warranty. Using a single manufacturer system eliminates warranty coverage gaps' — manufacturer-system / max-warranty-tier framing (implicit cert-tier program); dies (reframe to honest two-part warranty).",
+    "EXPERT-PICKS ctaText: 'highest-rated architectural shingles with manufacturer-backed warranties' — reframe to honest two-part warranty; keep registered-NJ-HIC + free written estimate."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Architectural vs 3-Tab Shingles?",
+    "directAnswerThesis": "Architectural shingles are better for most Essex County homes — 30-year life and a 110-130 mph wind warranty that meets the ASCE 7-16 design wind; 3-tab wins only when lowest upfront NJ cost decides.",
+    "sectionAngles": [
+      "How do architectural and 3-tab shingles compare on NJ installed cost versus long-term value?",
+      "Which asphalt shingle fits Essex County's wind, hail, and NJ code requirements?",
+      "When does each shingle grade make sense — and what is the deciding factor?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Architectural vs 3-Tab Shingles?",
+    "directAnswerThesis": "The standards favor architectural for permanent Essex County homes — its 110-130 mph wind warranty meets the ASCE 7-16 design wind and UL 2218 Class 4 options resist hail; 3-tab fits rentals and code-minimum budget jobs.",
+    "sectionAngles": [
+      "What do the wind (ASCE 7-16), impact (UL 2218), and lifespan (InterNACHI) standards actually favor between architectural and 3-tab?",
+      "Which installation-quality and warranty factors decide how long either shingle grade lasts in NJ?",
+      "When is 3-tab the right call, and what mistakes lead Essex County homeowners to under-spec their roof?"
+    ]
+  }
+}

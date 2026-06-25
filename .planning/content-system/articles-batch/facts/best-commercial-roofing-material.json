@@ -1,0 +1,95 @@
+{
+  "comparisonId": "best-commercial-roofing-material",
+  "type": "ranking",
+  "itemA": "TPO membrane",
+  "itemB": "EPDM membrane",
+  "verdict": {
+    "winner": "TPO and EPDM lead NJ single-ply commercial roofing — TPO on welded-seam strength and reflectance, EPDM on lowest install cost; PVC, metal, and SPF lead narrower scenarios.",
+    "reasoning": "TPO leads air-conditioned NJ commercial buildings — its heat-welded seams bond stronger than the membrane and its ~0.70-0.85 reflectance cuts peak summer cooling demand 11-27% in air-conditioned buildings, per the CRRC and EPA, at an $8-$12 NJ per-square-foot install, per Josten Roofing.",
+    "alternate": "EPDM leads budget-driven warehouses at $7-$10 NJ per square foot with a 15-25-year life, PVC leads grease-exposed restaurant roofs at 20-30 years, and standing seam metal leads long-hold sloped properties with a 40-80-year life, per Josten Roofing, Single Ply Roofing Industry, and the InterNACHI chart."
+  },
+  "keyFacts": [
+    "TPO is a white thermoplastic single-ply membrane that heat-welds its seams and reflects sunlight, per Single Ply Roofing Industry and Josten Roofing.",
+    "EPDM is a black synthetic-rubber membrane that installs at the lowest single-ply cost on NJ commercial buildings, per Single Ply Roofing Industry and Josten Roofing.",
+    "TPO carries ~0.70-0.85 solar reflectance and ~0.80-0.90 thermal emittance, measured per ASTM C1549 and listed by the CRRC.",
+    "TPO installs at $8-$12 per NJ square foot, per Josten Roofing.",
+    "TPO's heat-welded seams bond stronger than the membrane field, but TPO fails first at welded-seam defects and hardens through thermal-shock cracking as plasticizers migrate, per the NRCA technical library.",
+    "EPDM lasts 15-25 years, the shortest single-ply life in this set, with seam separation as its dominant failure mode and membrane shrinkage pulling away from perimeters and penetrations, per the InterNACHI chart and NRCA-attributed industry guidance.",
+    "EPDM installs at $7-$10 per NJ square foot, the lowest single-ply entry cost, per Josten Roofing; its black surface absorbs heat and carbon-black UV stabilizer lets black EPDM outlast white EPDM, per industry guidance.",
+    "PVC adds grease and chemical resistance and lasts 20-30 years on thicker membranes, per Single Ply Roofing Industry and GAF EverGuard warranty terms, installing at $6-$12 nationally and clustering $8-$12 per square foot, per commercial cost guides cited by M&M Roofing and WeatherStar.",
+    "PVC carries the same ~0.70-0.85 reflectance white surface as TPO, per the CRRC and Duro-Last, but loses plasticizer over time, embrittling into cracking and pinholes and shattering in extreme cold when unreinforced, per the NRCA technical library.",
+    "Modified bitumen is a multi-ply, foot-traffic-durable system that lasts 20 years but blisters and alligator-cracks from UV oxidation, per the InterNACHI chart and NRCA technical library.",
+    "Built-up roofing (BUR) reaches 30 years through multi-layer redundancy, per the InterNACHI chart.",
+    "Standing seam metal lasts 40-80 years (copper exceeding 70), installs at $9-$16+ per NJ square foot, and eliminates one membrane-replacement cycle that single-ply systems force on a long-hold property, per the InterNACHI chart and Josten Roofing.",
+    "Spray polyurethane foam (SPF) installs at $4-$8 per square foot as a seamless monolithic layer adding R-6.0-6.5 per inch of aged R-value, per commercial cost guides, ICC-ES reports, and the SPFA, but is UV-sensitive and requires a maintained protective coating.",
+    "A white TPO or PVC cool roof reduces peak cooling demand 11-27% in air-conditioned buildings, per the CRRC and EPA.",
+    "A reflective roof stays over 50 degrees F cooler than a conventional roof on a sunny afternoon, per the U.S. Department of Energy.",
+    "A reflective roof surface adds no R-value because reflectance governs solar gain while R-value governs conductive heat flow, per the CRRC.",
+    "The NRCA sets a minimum design slope of 1/4 inch per foot (~2%) for low-slope commercial roofs because ponding accelerates membrane deterioration, per the NRCA and ARMA.",
+    "TPO and PVC resist ponding best through heat-welded seams that bond stronger than the sheet, while EPDM separates at adhesive seams and modified bitumen blisters under standing water, per the NRCA technical library."
+  ],
+  "sources": [
+    "Council for Roofing Reflectance (CRRC)",
+    "EPA",
+    "U.S. Department of Energy (DOE)",
+    "Josten Roofing",
+    "Single Ply Roofing Industry (SPRI)",
+    "InterNACHI life-expectancy chart",
+    "NRCA technical library",
+    "ARMA",
+    "SPFA (Spray Polyurethane Foam Alliance)",
+    "ASTM C1549",
+    "ICC-ES reports",
+    "GAF EverGuard warranty terms",
+    "Duro-Last",
+    "M&M Roofing (commercial cost guide)",
+    "WeatherStar (commercial cost guide)",
+    "N.J.A.C. 5:23-2.7(c)",
+    "NJ Uniform Construction Code / NJ DCA",
+    "2021 IECC"
+  ],
+  "njContext": [
+    "TPO installs at $8-$12 per NJ square foot and EPDM at $7-$10 per NJ square foot, the lowest single-ply entry cost, per Josten Roofing.",
+    "Standing seam metal installs at $9-$16+ per NJ square foot and SPF at $4-$8 per square foot, per Josten Roofing and commercial cost guides.",
+    "The NJ Uniform Construction Code requires a commercial roofing permit once repair exceeds 25% of the total roof area within any 12-month period, per N.J.A.C. 5:23-2.7(c); the no-permit ordinary-maintenance exemption covers only detached 1- and 2-family dwellings.",
+    "The NJ Uniform Construction Code adopts the 2021 IECC, where white TPO and PVC membranes reach cool-roof reflectance through solar reflectance and thermal emittance rather than added insulation, per the NJ DCA and CRRC.",
+    "Newark sits in heating-dominated IECC Climate Zone 4A-5, which carries a winter heating offset, so the net annual benefit of a reflective roof depends on insulation and climate, per the DOE; standing water compounds Newark's winter freeze-thaw stress.",
+    "On Essex County mixed-use buildings, white TPO covers the flat commercial section at $8-$12 per NJ square foot with heat-welded seams (pairing with architectural asphalt shingles on any residential steep-slope section above), while PVC suits a roof over a restaurant or food-service tenant, resisting grease across a 20-30-year life, per Josten Roofing, the CRRC, and Single Ply Roofing Industry."
+  ],
+  "positioning": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, offering a free written estimate for Essex County commercial buildings. NQR matches the membrane or metal system to the building's use, slope, and budget rather than pushing one product, and provides an honest two-part warranty framing: the manufacturer covers the membrane material and NQR provides a written contractor workmanship warranty. NQR never markets manufacturer certification tiers (no Master Elite / SELECT ShingleMaster framing) and never claims a NJ roofing license, because NJ issues no roofing license. NJ has no active solar tax credit to cite; if solar comes up, NQR handles only the roofing side (mount flashing, ASCE 7 load, re-roof-before-solar sequencing, NEC fire-setback coordination), not the solar electrical design.",
+  "defabToKill": [
+    "BUYERS-GUIDE: 'TPO ... competitive pricing at $5.50-$9/sq ft, and 20-30 year lifespan' — invented cost; gold says TPO is $8-$12/NJ sq ft per Josten Roofing. Dies (wrong figure, no source).",
+    "BUYERS-GUIDE: 'PVC is the premium single-ply choice at $7-$12/sq ft' — invented range; gold says PVC clusters $8-$12/sq ft per M&M Roofing/WeatherStar. Dies (unsourced figure).",
+    "BUYERS-GUIDE: 'Modified bitumen remains strong for high-traffic roofs at $5-$8/sq ft' — invented; gold gives modified bitumen no $/sq ft figure, only 20-year life. Dies (invented cost).",
+    "BUYERS-GUIDE: 'EPDM at $4.50-$7.50/sq ft is the budget leader with 30+ year proven track record' — invented cost (gold: $7-$10/NJ sq ft) AND wrong lifespan (gold: 15-25 years per InterNACHI). Dies (two invented figures).",
+    "BUYERS-GUIDE: 'Standing seam metal ... at $8-$14/sq ft with 50+ year potential' — invented cost (gold: $9-$16+/NJ sq ft) and lifespan reframed ungrounded (gold: 40-80 years per InterNACHI). Dies (invented range).",
+    "BUYERS-GUIDE: 'TPO energy savings of 15-30% on cooling costs can offset its premium over EPDM within 3-5 years' — invented %/payback math; gold says 11-27% peak cooling demand reduction per CRRC/EPA, no payback claim. Dies (invented figure, fabricated payback).",
+    "BUYERS-GUIDE: 'Manufacturer warranties range from 10-30 years depending on system and installer certification level. Ensure your Essex County contractor holds the certification level required ... A 20-year warranty from a Master-certified installer is worth more than a 30-year warranty from a basic-certified installer.' — manufacturer-certification-tier framing (Master-certified) NQR must not claim. Dies (cert-tier self-claim; replaced with honest two-part warranty framing).",
+    "EXPERT-PICKS intro: 'Our commercial division has installed every major flat roofing system on Essex County buildings. Here is our honest assessment ... based on real-world performance data.' — fabricated field-experience/volume. Dies.",
+    "EXPERT-PICKS: 'Tracking warranty claims and service calls across our Essex County commercial portfolio ... TPO installations from the past 15 years average less than 1 service call per year. PVC performs similarly ... EPDM averages 1.5-2 service calls per year ...' — fabricated NQR performance data and service-call statistics. Dies (invented stats + fabricated portfolio).",
+    "EXPERT-PICKS: 'Buildings that switched from EPDM to TPO report 15-25% cooling cost reductions in Essex County. One Newark office building we re-roofed with TPO in 2018 documented $4,200 in annual cooling savings, paying back the material premium in under 3 years.' — fabricated NQR project anecdote, invented $4,200 savings, invented payback. Dies (fabricated anecdote + invented figures).",
+    "EXPERT-PICKS: 'Adding insulation during re-roofing costs $1-$3/sq ft ... We specify minimum R-30 for all commercial re-roofing projects.' — invented insulation cost ($1-$3/sq ft) and an NQR spec claim not in gold. Dies (invented figure + fabricated spec claim).",
+    "EXPERT-PICKS: 'Standard commercial building: 60-mil TPO with polyiso insulation to R-30 minimum ... Budget-sensitive projects: 60-mil EPDM with fully adhered seam reinforcement.' — fabricated NQR default-spec recommendations (mil thickness, R-30) not grounded in gold. Dies (fabricated spec detail presented as proprietary).",
+    "EXPERT-PICKS: 'We do not compromise on membrane thickness. 45-mil products save $0.50-$1/sq ft but lose years of service life. For a 10,000 sq ft roof, that is $5,000-$10,000 in savings versus $20,000-$30,000 in reduced lifespan.' — invented cost-per-year math ($0.50-$1/sq ft, $5,000-$10,000, $20,000-$30,000) and fabricated 45-mil vs 60-mil claim. Dies (invented figures + fabricated math).",
+    "EXPERT-PICKS conclusion: 'Our commercial roofing recommendations are data-driven, based on performance tracking across hundreds of Essex County installations.' — fabricated project-count ('hundreds of installations') and performance-tracking claim. Dies.",
+    "EXPERT-PICKS ctaText: 'Our recommendations are backed by performance data from hundreds of local installations.' — fabricated volume claim in CTA. Dies (replace with registered-NJ-HIC honest framing)."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Best Commercial Roofing Material?",
+    "directAnswerThesis": "No single material wins outright: TPO leads air-conditioned buildings on welded-seam strength and ~0.70-0.85 reflectance, EPDM leads budget warehouses on lowest install cost, PVC leads grease-exposed roofs, and metal leads long-hold sloped properties.",
+    "sectionAngles": [
+      "Which commercial roofing material costs less to install in NJ versus over its service life? (EPDM $7-$10 vs TPO $8-$12 vs SPF $4-$8 vs metal $9-$16+ per NJ sq ft, weighed against 15-25 vs 40-80 year lifespans per Josten Roofing and the InterNACHI chart)",
+      "Which material fits NJ climate, code, and the building's slope and use? (2021 IECC cool-roof reflectance, NRCA 1/4-inch-per-foot drainage minimum, N.J.A.C. 5:23-2.7(c) 25% permit threshold, Newark Climate Zone 4A-5 heating offset)",
+      "How do you match the material to your building type and priority? (TPO for cooling-driven offices/retail, EPDM for budget warehouses, PVC for restaurants/food service, metal for long-hold sloped properties, per the CRRC, Josten Roofing, and SPRI)"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Best Commercial Roofing Material?",
+    "directAnswerThesis": "The standards and cost data favor white TPO for air-conditioned NJ buildings (heat-welded seams, ~0.70-0.85 reflectance per CRRC/EPA), with EPDM for budget warehouses, PVC for grease exposure, and metal for long-hold sloped roofs.",
+    "sectionAngles": [
+      "What do the standards and specs actually favor for each building use? (CRRC reflectance and EPA cool-roof data for TPO/PVC, InterNACHI lifespans for metal, SPRI/NRCA seam guidance — grounded in named sources, not field anecdotes)",
+      "Which installation and design factors decide commercial roof longevity? (NRCA 1/4-inch-per-foot drainage minimum, heat-welded vs adhesive seams, SPF protective coating, 2021 IECC reflectance vs R-value distinction per CRRC)",
+      "What are the most common commercial specification mistakes NJ owners make? (choosing on install cost alone, ignoring slope/ponding per NRCA, confusing reflectance with R-value per CRRC, overlooking the N.J.A.C. 5:23-2.7(c) permit threshold)"
+    ]
+  }
+}

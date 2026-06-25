@@ -1,0 +1,85 @@
+{
+  "comparisonId": "built-up-roofing-vs-modified-bitumen",
+  "type": "material",
+  "itemA": "Built-Up Roofing (BUR)",
+  "itemB": "Modified Bitumen",
+  "verdict": {
+    "winner": "Built-up roofing wins on service life; modified bitumen wins on kettle-free installation over occupied space.",
+    "reasoning": "Built-up roofing (BUR) beats modified bitumen when service life leads: BUR's 30-year life (InterNACHI) outlasts modified bitumen's 20 by half a decade, and its 3-5-ply construction holds waterproofing if one ply fails.",
+    "alternate": "Modified bitumen beats built-up roofing (BUR) when an occupied building rules out a hot-asphalt kettle: modified bitumen installs by cold adhesive or self-adhered roll with no open kettle, and its SBS or APP polymers keep the sheet flexible through Newark's 35-45 winter freeze-thaw cycles, per regional climate estimates."
+  },
+  "keyFacts": [
+    "Built-up roofing (BUR) lasts 30 years versus modified bitumen's 20 years, per the InterNACHI life-expectancy chart.",
+    "Built-up roofing is a low-slope membrane that alternates layers of reinforcing felt and hot-mopped asphalt on the roof deck, then surfaces the plies with gravel ballast; its redundant multi-ply assembly keeps waterproofing intact even if one ply fails.",
+    "Modified bitumen is a low-slope membrane that layers a polymer-modified asphalt cap sheet over reinforcing base plies, installed by torch, cold adhesive, or self-adhered roll.",
+    "The modified-bitumen polymer modifier is either styrene-butadiene-styrene (SBS) or atactic polypropylene (APP), which adds flexibility to the sheet.",
+    "Built-up roofing layers 3-5 alternating asphalt-and-felt plies for redundancy; modified bitumen uses 2-3 polymer-reinforced sheets.",
+    "Built-up roofing's aging modes are surface erosion and ply ridging; modified bitumen's named failure modes are blistering, alligator cracking from UV oxidation, and flashing separation.",
+    "Built-up roofing installs with a hot-asphalt kettle (mopping molten asphalt between felt plies); modified bitumen installs by torch, cold adhesive, or self-adhered roll without a kettle.",
+    "Built-up roofing uses straight asphalt with no polymer modifier, so its plies stiffen in extreme cold and rely on the 3-5-ply count rather than sheet flexibility for crack resistance.",
+    "Modified bitumen SBS grades add rubber-like elongation and APP grades add a plastic-flow surface, engineered to move with the membrane across freeze-thaw cycles.",
+    "NJ flat-roof repair runs $2.50-$10.00 per square foot, or $300-$1,100 for a typical repair, per HomeGuide; both BUR and modified bitumen carry the same range.",
+    "A minor flat-roof leak runs $150-$500 per Angi.",
+    "An extensive modified-bitumen leak reaching structural decking runs $1,200-$3,000, per Angi.",
+    "Replacement leads over repair on either membrane once membrane damage exceeds 25-30% of the roof area, per HomeGuide and Modernize.",
+    "Built-up roofing repairs recoat eroded plies and reseal the surface, holding within the $300-$1,100 flat-roof range until the 25-30% damage threshold; modified bitumen repairs patch a torn sheet with matching SBS or APP material and re-seal separated flashing.",
+    "A sound modified-bitumen base sheet accepts a full-membrane spray-coat that restores the surface short of tear-off; BUR restores by recoating over a sound surface.",
+    "Built-up roofing's gravel surface and multi-ply redundancy suit large unoccupied commercial decks (e.g. a warehouse); modified bitumen's kettle-free install limits occupant disruption on occupied buildings.",
+    "Built-up roofing remains a 30-year multi-ply system still used on NJ commercial and industrial flat roofs, per the InterNACHI chart.",
+    "Modified bitumen can be installed over a sound existing BUR base as a recover in many NJ cases, allowed by the NJ Rehabilitation Subcode only until two roof-covering layers already exist or the BUR is water-soaked, per N.J.A.C. 5:23-6.4."
+  ],
+  "sources": [
+    "InterNACHI life-expectancy chart (lifespan: BUR 30 years, modified bitumen 20 years)",
+    "HomeGuide (NJ flat-roof repair $2.50-$10.00/sq ft, $300-$1,100 typical; 25-30% damage replace threshold)",
+    "Angi (minor leak $150-$500; extensive leak to structural decking $1,200-$3,000)",
+    "Modernize (25-30% membrane-damage replacement threshold)",
+    "N.J.A.C. 5:23-2.7 (NJ Uniform Construction Code ordinary-maintenance / re-roof permit rules)",
+    "N.J.A.C. 5:23-6.4 (NJ Rehabilitation Subcode recover/full-removal rules)",
+    "NOAA 1991-2020 climate normals (Newark January low 25.5F)",
+    "Regional climate estimates (35-45 north-NJ winter freeze-thaw cycles)"
+  ],
+  "njContext": [
+    "The NJ Uniform Construction Code treats a re-roof of BUR or modified bitumen on a detached 1- or 2-family dwelling as ordinary maintenance with no permit, per N.J.A.C. 5:23-2.7.",
+    "The NJ UCC requires a permit once a commercial flat-roof repair exceeds 25% of roof area within 12 months, per N.J.A.C. 5:23-2.7.",
+    "The NJ Rehabilitation Subcode requires full removal of either membrane (not a recover) once two roof-covering layers already exist or the existing membrane is water-soaked, per N.J.A.C. 5:23-6.4.",
+    "Newark's January-low 25.5F temperatures swing across freezing, per NOAA 1991-2020 normals.",
+    "A north-NJ winter delivers 35-45 freeze-thaw cycles, per regional climate estimates; modified bitumen's SBS/APP polymers keep the sheet flexible across them while straight-asphalt BUR plies stiffen.",
+    "Modified bitumen suits an Essex County home's flat sections (porch, dormer, or addition deck) because it installs by cold adhesive or self-adhered roll without a kettle on a residential lot; BUR's hot-asphalt kettle and gravel ballast fit larger commercial decks.",
+    "On an Essex County occupied office, retail, or medical building, modified bitumen cold-adhesive and self-adhered methods install with no kettle fumes or open flame, where BUR's hot-asphalt process releases fumes over the occupied space.",
+    "BUR on a commercial building triggers a NJ UCC permit once roof work exceeds 25% of roof area in 12 months; the ordinary-maintenance exemption covers only detached 1- and 2-family dwellings, per N.J.A.C. 5:23-2.7."
+  ],
+  "positioning": "Position Newark Quality Roofing as a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136 registration, not a license, since NJ issues no roofing license), insured, offering a free written estimate, that installs both BUR and modified-bitumen low-slope systems across Essex County. NQR scopes the work to the NJ UCC: re-roof of either membrane on a detached 1- or 2-family dwelling is ordinary maintenance with no permit (N.J.A.C. 5:23-2.7), while a commercial flat-roof repair exceeding 25% of roof area in 12 months needs a permit, and a recover is barred once two layers exist or the membrane is water-soaked (N.J.A.C. 5:23-6.4). Warranty framing is honest and two-part: the manufacturer's material warranty plus NQR's own written workmanship warranty; never cite manufacturer certification tiers as a credential. Recommendations track the named sources (InterNACHI lifespan, HomeGuide/Angi cost), not unverifiable in-house field-experience claims.",
+  "defabToKill": [
+    "BUYERS-GUIDE intro: 'For Essex County building owners, the choice ... comes down to durability expectations, budget, and installation logistics.' — soft, but the surrounding cost figures are the real problem (see below).",
+    "BUYERS-GUIDE 'Budget comparison: BUR costs $6-$10 per square foot in Essex County. Modified bitumen runs $5-$8 per square foot.' — INVENTED installed-cost figures; not in the gold (gold gives only HomeGuide flat-roof REPAIR cost $2.50-$10.00/sq ft and $300-$1,100). Replace with the gold's sourced repair-cost figures; do not assert per-sq-ft installed prices.",
+    "BUYERS-GUIDE 'BUR has been the commercial roofing standard for over a century and remains the most time-tested flat roofing system available.' — 'over a century' / 'most time-tested ... available' is unsourced superlative puffery; not in gold. Cut or reduce to the sourced InterNACHI 30-year lifespan fact.",
+    "BUYERS-GUIDE 'BUR's gravel surface provides excellent UV protection and adds ballast against wind uplift, important during NJ nor'easters.' — UV-protection and wind-uplift-ballast claims and the nor'easter framing are not substantiated in the gold; gold lists gravel ballast as the surface only. Drop the unsourced performance claims.",
+    "EXPERT-PICKS intro: 'Our commercial crews have installed both built-up roofing and modified bitumen on Essex County buildings for decades. Here is what years of field experience reveal ...' — FABRICATED field experience / volume claim ('our crews', 'for decades', 'years of field experience'). Kill; replace with what named standards/sources (InterNACHI, HomeGuide, NJ UCC) actually show.",
+    "EXPERT-PICKS 'In Essex County's dense commercial areas, neighboring businesses and residents often complain about BUR installation fumes.' — fabricated anecdotal observation. Keep only the sourced fact that BUR's hot-asphalt kettle releases fumes over the building (gold), not a complaint anecdote.",
+    "EXPERT-PICKS 'We observe that BUR roofs develop leaks more gradually, with water migrating between plies ...' — 'We observe' fabricated field anecdote; the inter-ply water-migration claim is not in the gold. Kill the 'we observe' framing and the unsourced migration claim.",
+    "EXPERT-PICKS 'For new construction, we recommend modified bitumen over BUR for most Essex County commercial projects.' and 'We still install BUR when clients specifically request it ...' — 'we recommend' / 'we still install' first-person recommendation grounded in fabricated experience. Reframe as what the evidence supports (service life vs kettle-free install tradeoff per the gold verdict).",
+    "EXPERT-PICKS 'Modified bitumen also integrates better with modern insulation systems and recovery board products.' — unsourced performance claim not in gold; drop.",
+    "EXPERT-PICKS 'BUR's multi-ply construction remains unmatched for foot traffic durability.' / 'maximum puncture resistance' (also buyers-guide 'highly puncture-resistant membrane ideal for ... foot traffic') — 'unmatched' / 'maximum' puncture-resistance and foot-traffic superlatives are unsourced; gold does not make a puncture-resistance claim. Cut the superlatives.",
+    "EXPERT-PICKS CTA 'Let our experienced commercial roofing team ... Free assessments across Essex County.' and BUYERS-GUIDE CTA 'Get expert guidance ...' — soft 'experienced team' framing; reframe CTA to registered-NJ-HIC + free written estimate. No license/cert claim present to kill here, but the rewrite must NOT add one.",
+    "NOTE: No active solar ITC / 25D / 25C, ENERGY STAR roof program, R-49/R-60, 30% tax credit, NJ historic credit / S3545, or §47 HTC language appears in either dirty article (this is a flat-roof material comparison) — none to kill, and the rewrite must not introduce any.",
+    "NOTE: No 'licensed' / 'NJ-licensed' wording and no manufacturer-certification self-claims (GAF Master Elite, CertainTeed SELECT, Drexel/Sheffield, Tesla) appear in either dirty article — none to kill, and the rewrite must not introduce any."
+  ],
+  "buyersGuide": {
+    "h1": "Which Is Better: Built-Up Roofing vs Modified Bitumen?",
+    "directAnswerThesis": "Built-up roofing is better for service life, lasting 30 years versus modified bitumen's 20 (InterNACHI); modified bitumen is better over occupied buildings, installing kettle-free and flexing through NJ freeze-thaw.",
+    "sectionAngles": [
+      "Which flat roof lasts longer, and how does that weigh against repair cost in NJ?",
+      "Which membrane fits NJ climate and code on a given building (occupied vs unoccupied, residential flat section vs commercial deck)?",
+      "What is the decision checklist: when does BUR win on service life, and when does modified bitumen win on kettle-free install and cold flexibility?"
+    ]
+  },
+  "expertPicks": {
+    "h1": "What Do NJ Roofers Recommend for Built-Up Roofing vs Modified Bitumen?",
+    "directAnswerThesis": "The evidence favors built-up roofing for maximum service life (30 years per InterNACHI) and modified bitumen for occupied buildings, since it installs without a hot-asphalt kettle and its SBS/APP polymers flex through NJ freeze-thaw.",
+    "sectionAngles": [
+      "What do the named standards and lifespan data actually favor between BUR's 30-year multi-ply membrane and modified bitumen's kettle-free, polymer-flexible sheet?",
+      "Which installation-method and climate factors decide longevity in NJ (hot-asphalt kettle vs cold-adhesive/self-adhered, straight asphalt vs SBS/APP flex through 35-45 freeze-thaw cycles)?",
+      "What NJ-code factors should guide the recommendation (re-roof as ordinary maintenance on 1-2 family dwellings, the 25% commercial permit threshold, and the recover-vs-full-removal rule per N.J.A.C. 5:23-2.7 and 5:23-6.4)?"
+    ]
+  }
+}
