@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
+import { parseRichText } from '@/lib/rich-text';
 
 interface ArticleCtaProps {
   heading: string;
@@ -27,7 +28,7 @@ export function ArticleCta({
       </h2>
 
       <p className="mt-3 font-body text-base leading-relaxed text-text-secondary">
-        {text}
+        {parseRichText(text)}
       </p>
 
       <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center">
