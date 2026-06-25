@@ -12,22 +12,26 @@ import { dirname, join } from 'node:path';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO = join(HERE, '..', '..', '..');
 const AUTHORED = join(HERE, '_authored.json');
-const OUT = join(REPO, 'src', 'data', 'article-content', 'repair-maintenance.ts');
+const OUT = join(REPO, 'src', 'data', 'article-content', 'replacement-sub-pages.ts');
 
-// Fixed identity (current repair-maintenance.ts) — agents never touch these.
-// 10 parent repair/maintenance services x 3 articles = 30.
+// Fixed identity (current replacement-sub-pages.ts) — agents never touch these.
+// 14 parent replacement-scenario/material services x 3 articles = 42.
 const svc = (parentId) => ({ parentId, parentType: 'service' });
 const SERVICES = [
-  'roof-repair',
-  'roof-replacement',
-  'emergency-roof-repair',
-  'roof-inspection',
-  'roof-maintenance-programs',
-  'roof-leak-repair',
-  'storm-damage-roof-repair',
-  'hail-damage-roof-repair',
-  'wind-damage-roof-repair',
-  'roof-cleaning-moss-removal',
+  'full-roof-tear-off',
+  'roof-overlay-installation',
+  're-roofing',
+  'insurance-roof-replacement',
+  'storm-damage-roof-replacement',
+  'aging-roof-replacement',
+  'roof-replacement-after-leak',
+  'fire-damage-roof-replacement',
+  'asphalt-shingle-roof-replacement',
+  'metal-roof-replacement',
+  'slate-roof-replacement',
+  'tile-roof-replacement',
+  'flat-roof-replacement',
+  'cedar-shake-roof-replacement',
 ];
 const IDENTITY = {};
 for (const id of SERVICES) {
@@ -64,16 +68,16 @@ const objects = ORDER.map((id) => {
 
 const header = `import type { ArticleContent } from './schema';
 
-// ─── Repair & Maintenance Article Content ────────────────────────────────────
-// 10 services x 3 articles = 30 articles (parentType: 'service').
-// roof-repair, roof-replacement, emergency-roof-repair, roof-inspection,
-// roof-maintenance-programs, roof-leak-repair, storm-damage-roof-repair,
-// hail-damage-roof-repair, wind-damage-roof-repair, roof-cleaning-moss-removal.
-// signs / cost-guide / decision.
+// ─── Replacement Sub-Pages Article Content ───────────────────────────────────
+// 14 services x 3 articles = 42 articles (parentType: 'service').
+// full-roof-tear-off, roof-overlay-installation, re-roofing, insurance-roof-replacement,
+// storm-damage-roof-replacement, aging-roof-replacement, roof-replacement-after-leak,
+// fire-damage-roof-replacement, asphalt-shingle-/metal-/slate-/tile-/flat-/cedar-shake-roof-replacement.
+// signs / cost-guide / decision (decision H1 = "What Should You Know About {Service} Roofing?").
 // Rewritten answer-first + de-fabbed (semantic-content ruleset v1.7), grounded in the
-// committed parent gold service-content/repair-maintenance.ts.
+// committed parent gold service-content/replacement-sub-pages.ts.
 
-export const repairMaintenanceArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
+export const replacementSubPagesArticles: ArticleContent[] = ${JSON.stringify(objects, null, 2)};
 `;
 
 writeFileSync(OUT, header, 'utf8');

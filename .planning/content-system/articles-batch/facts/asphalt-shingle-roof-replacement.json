@@ -1,0 +1,203 @@
+{
+  "serviceId": "asphalt-shingle-roof-replacement",
+  "serviceTitle": "Asphalt Shingle Roof Replacement",
+  "definition": "Asphalt shingle roof replacement strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering. The work strips the roof to the sheathing, repairs the deck, installs an ice barrier and synthetic underlayment, and installs new shingles, ending an aged asphalt roof rather than fixing a single failed detail.",
+  "hasRealWholeProjectTotal": true,
+  "costRanges": [
+    {
+      "item": "Standard 3-tab asphalt shingle, installed",
+      "range": "$5.50–$9.50 per square foot",
+      "source": "Josten Roofing NJ pricing (per gold)"
+    },
+    {
+      "item": "Architectural asphalt shingle, installed",
+      "range": "$6.50–$11.00 per square foot",
+      "source": "Josten Roofing NJ pricing (per gold)"
+    },
+    {
+      "item": "Whole-home asphalt shingle roof replacement, typical NJ home",
+      "range": "$10,000–$25,000",
+      "source": "HomeAdvisor and Modernize NJ cost data (per gold)"
+    },
+    {
+      "item": "2025 national-average asphalt roof replacement (framing comparator)",
+      "range": "near $10,000–$11,000",
+      "source": "industry cost data (per gold)"
+    },
+    {
+      "item": "Labor share of an asphalt-install total",
+      "range": "roughly 60–70% of total; NJ ranges sit 10–40% above national figures",
+      "source": "HomeGuide and Integrity Home Exteriors (per gold)"
+    }
+  ],
+  "signs": [
+    "An asphalt roof at or past its material lifespan signals replacement, because a 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, and the actual life varies up to 40% with climate and maintenance, per the InterNACHI life-expectancy chart and the NRCA.",
+    "Granule loss with sandy grit in gutters and bald asphalt mat indicates shingles nearing end of life, because granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, and 50% loss cuts remaining life by up to 70%, per GAF.",
+    "Damage across more than 25–30% of the roof area crosses the contractor-consensus 25% rule, the threshold above which full replacement costs less than continued spot repair, per roofing industry guidance.",
+    "Curling, cupping, and zipper cracking along the shingle cutouts indicate advanced asphalt degradation from thermal cycling and aging, per GAF and InterNACHI inspection guidance.",
+    "Three or more repairs in 2 years signals systemic asphalt failure rather than an isolated defect, the contractor-consensus 3-repairs rule that favors replacement, per roofing industry guidance.",
+    "A spongy or sagging roof deck under the asphalt indicates moisture-rotted sheathing, a structural condition that points toward tear-off and deck replacement rather than a surface patch, per GAF inspection guidance.",
+    "Daylight through the roof deck seen from inside the attic indicates holes in the decking and shingles, a sign that points toward replacement rather than a patch, per This Old House.",
+    "An asphalt roof past 20 years, or 15 on the coast, favors replacement, because a localized repair can cost 5 to 10 times less than replacement only while the asphalt roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data."
+  ],
+  "selectionCriteria": [
+    "Confirm the contractor holds New Jersey Home Improvement Contractor registration under N.J.S.A. 56:8-136, with the 13VH registration number on the contract and advertising per N.J.S.A. 56:8-144 — a registration, not a license, since New Jersey issues no roofing license.",
+    "Verify $500,000-per-occurrence commercial general liability coverage required by N.J.S.A. 56:8-142, confirmed by a certificate of insurance from the carrier.",
+    "Require a written contract for any home-improvement work over $500 under N.J.A.C. 13:45A-16.2, with a start and completion date and the total price.",
+    "Require an itemized written estimate that names the scope, labor, materials, and timeline and presents the shingle options with the wind rating of each, per Integrity Home Exteriors documentation guidance.",
+    "Confirm a documented deck-and-ventilation assessment before quoting, because a tear-off exposes deck rot and undersized ventilation a surface inspection misses; the NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor.",
+    "Ask the contractor to explain the two-part warranty honestly: a manufacturer material warranty covering factory defects, preserved when shingles are installed to manufacturer specification, plus the contractor's own written workmanship warranty on the labor, per Owens Corning warranty guidance.",
+    "For a storm- or insurance-driven replacement, require a roofing contractor that documents the damage with photographs and meets the insurer's adjuster on site, while the homeowner or a licensed public adjuster files and negotiates the claim — in New Jersey only a licensed public adjuster or attorney may negotiate or settle a claim for the insured, per N.J.S.A. 17:22B, and no contractor may waive the deductible, promise a free roof, or guarantee claim approval."
+  ],
+  "technicalFacts": [
+    {
+      "fact": "A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, with the actual service life varying up to 40% with climate, install, and maintenance.",
+      "source": "InterNACHI life-expectancy chart (lifespans); NRCA (up-to-40% variance)"
+    },
+    {
+      "fact": "Asphalt shingles cover roughly 73% of US residential roofs per 2024 roofing-market data, the most common roof covering installed.",
+      "source": "2024 roofing-market data (per gold)"
+    },
+    {
+      "fact": "ASTM D3161 sets the asphalt wind classes — Class A near 60 mph and Class F near 110 mph — while many architectural lines warranty up to 130 mph with 6-nail installation.",
+      "source": "ARMA and manufacturer wind-class guidance"
+    },
+    {
+      "fact": "A 3-tab shingle is a flat single-layer shingle rating near 60 mph (ASTM D3161 Class A); an architectural shingle is a thicker laminated shingle warrantying up to 130 mph with 6-nail installation.",
+      "source": "InterNACHI life-expectancy chart; ARMA and manufacturer guidance"
+    },
+    {
+      "fact": "A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance and requires no construction permit, inspection, or notice; a structural change to rafters or trusses, or a commercial roof, does trigger a permit.",
+      "source": "N.J.A.C. 5:23-2.7 (ordinary maintenance); N.J.A.C. 5:23-2.7 commercial/structural permit (NJ Uniform Construction Code)"
+    },
+    {
+      "fact": "Complete removal of the existing covering is required when the roof is water-soaked or already carries 2 or more layers (no third layer), so a tear-off rather than an overlay is required in those cases.",
+      "source": "N.J.A.C. 5:23-6.4 (NJ Rehabilitation Subcode); IRC R908.3.1.1"
+    },
+    {
+      "fact": "The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, and Newark crosses the 32°F freezing point repeatedly through winter, driving freeze-thaw stress on the shingle seals.",
+      "source": "International Residential Code (IRC R905.1.2)"
+    },
+    {
+      "fact": "Installing to manufacturer specification preserves the material warranty covering factory defects, separate from the written workmanship warranty backing the labor.",
+      "source": "Owens Corning warranty guidance"
+    },
+    {
+      "fact": "Proper attic ventilation, sized at 1 square foot of net-free vent area per 150 square feet of attic floor, reduces the heat and moisture stress that shortens roof life, so an assessment corrects undersized ventilation as part of the replacement.",
+      "source": "NRCA and ARMA (1:150 net-free vent ratio); NRCA (ventilation reduces heat/moisture stress)"
+    },
+    {
+      "fact": "Asphalt shingle roof coverings carry a UL 790 and ASTM E108 fire class — Class A, B, or C — where Class A is the highest fire resistance, assigned through spread-of-flame, intermittent-flame, and burning-brand tests; the IRC R902 fire-classification section requires roof assemblies to carry a class.",
+      "source": "UL 790; ASTM E108; International Residential Code (IRC R902)"
+    },
+    {
+      "fact": "A new asphalt roof recoups roughly 60 to 68% of project cost at resale.",
+      "source": "Zillow resale analysis (per gold)"
+    },
+    {
+      "fact": "An overlay (roof-over) does not equal a tear-off: it hides deck rot a tear-off would catch, traps heat that industry estimates cut new-shingle life by roughly 20–30%, telegraphs the old shingle profile, and adds thousands of pounds of dead load — and a future re-roof then has to remove both layers.",
+      "source": "ARMA (recover vs replacement); Angi (~20–30% lifespan haircut); Owens Corning / GAF TAB-R-145 (smooth-substrate requirement)"
+    }
+  ],
+  "sources": [
+    "InterNACHI life-expectancy chart",
+    "NRCA",
+    "ARMA",
+    "ASTM D3161",
+    "GAF (inspection guidance)",
+    "This Old House",
+    "Home Depot and Kelly Roofing cost data",
+    "Josten Roofing NJ pricing",
+    "HomeAdvisor and Modernize NJ cost data",
+    "HomeGuide",
+    "Integrity Home Exteriors",
+    "Zillow resale analysis",
+    "International Residential Code (IRC R905.1.2, R902)",
+    "N.J.A.C. 5:23-2.7 (ordinary maintenance)",
+    "N.J.A.C. 5:23-6.4 (NJ Rehabilitation Subcode)",
+    "IRC R908.3.1.1",
+    "UL 790; ASTM E108",
+    "Owens Corning warranty guidance",
+    "Angi",
+    "N.J.S.A. 56:8-136 (HIC registration)",
+    "N.J.S.A. 56:8-144 (13VH number)",
+    "N.J.S.A. 56:8-142 ($500k CGL)",
+    "N.J.A.C. 13:45A-16.2 (written contract >$500)",
+    "N.J.S.A. 17:22B (Public Adjusters' Licensing Act)",
+    "Insurance Information Institute (Triple-I)"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "asphalt-shingle-roof-replacement-signs",
+      "issue": "\"Asphalt shingles cover roughly 80% of Essex County homes\" — invented local percentage; no source.",
+      "fix": "Use the gold figure: asphalt shingles cover roughly 73% of US residential roofs per 2024 roofing-market data — the most common roof covering. Do not assert an Essex County percentage."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-signs",
+      "issue": "\"annual temperature swing from single digits in January to upper 90s in July creates 60+ freeze-thaw cycles per winter\" — invented unsourced climate numbers.",
+      "fix": "Drop the invented degree and cycle counts. The only sourced climate fact: Newark crosses the 32°F freezing point repeatedly through winter, driving freeze-thaw stress on the shingle seals (gold/IRC framing). No NOAA snowfall figure is available, so state no specific climate number."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-signs",
+      "issue": "\"South-facing slopes in open areas like Livingston and Fairfield age 20-30% faster than shaded north-facing slopes in Maplewood and South Orange\" — invented 20-30% differential aging stat, unsourced.",
+      "fix": "Drop the invented 20-30% slope-aging stat. Use the sourced variance instead: actual asphalt service life varies up to 40% with climate, install, and maintenance, per the NRCA."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-signs",
+      "issue": "\"Architectural (dimensional) shingles installed after 2010 in Essex County should deliver 25-30 years\" — wrong lifespan; the gold sets architectural at 30 years.",
+      "fix": "An architectural asphalt roof lasts 30 years and a 3-tab asphalt roof lasts 20 years, per the InterNACHI life-expectancy chart; actual life varies up to 40% per the NRCA."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-cost-guide",
+      "issue": "\"Three-tab shingles run $7,000-$10,000 installed\" / \"Architectural shingles ... run $9,000-$14,000 installed\" / \"Premium designer shingles from GAF, CertainTeed, and Owens Corning run $13,000-$20,000 installed\" — invented flat whole-roof tier totals with no source.",
+      "fix": "Use the gold-sourced figures: standard 3-tab installs at $5.50–$9.50 per sq ft and architectural at $6.50–$11.00 per sq ft per Josten Roofing NJ pricing, with a typical NJ home costing $10,000–$25,000 per HomeAdvisor and Modernize NJ cost data. Brands may be named only as data/guidance sources, never as NQR-installed premium tiers with invented totals."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-cost-guide",
+      "issue": "\"Three-tab ... the shortest lifespan at 18-22 years in our climate\" / \"25-30 year performance in Essex County\" — invented lifespan ranges contradicting the gold's 20-year / 30-year figures.",
+      "fix": "A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years per the InterNACHI life-expectancy chart, with actual life varying up to 40% per the NRCA."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-cost-guide",
+      "issue": "\"all require installation by certified contractors following specific methods\" and \"GAF's Golden Pledge and CertainTeed's SureStart Plus ... Both require certified installer status ... The warranty upgrade cost of $200-$500\" — implies NQR certification status, names brand warranty programs as NQR offerings, and invents a $200-$500 upgrade fee.",
+      "fix": "Explain warranty honestly in two parts: a manufacturer material warranty covers factory defects and is preserved when shingles are installed to manufacturer specification (per Owens Corning warranty guidance), plus the contractor's own written workmanship warranty on the labor. Do not name Golden Pledge / SureStart Plus, do not claim certified-installer status, and drop the invented $200-$500 figure."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-cost-guide",
+      "issue": "\"Ice-and-water shield along eaves (NJ code requirement)\" — frames ice-and-water as a bare NJ code requirement without the correct IRC citation.",
+      "fix": "Cite the actual provision: the IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-decision",
+      "issue": "\"Light-colored or 'cool roof' shingles can reduce attic temperatures by 20-30 degrees\" — invented unsourced temperature-reduction number.",
+      "fix": "Drop the invented 20-30 degree figure. Keep only the sourced ventilation point: proper attic ventilation (1 sq ft net-free vent per 150 sq ft attic floor, per NRCA and ARMA) reduces the heat and moisture stress that shortens roof life, per the NRCA."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-decision",
+      "issue": "\"Installing new shingles over an under-ventilated attic voids most manufacturer warranties\" — overstated/unsourced warranty-void claim.",
+      "fix": "State the sourced warranty position: installing to manufacturer specification preserves the material warranty covering factory defects, separate from the written workmanship warranty on the labor, per Owens Corning warranty guidance. Do not assert ventilation alone 'voids most warranties' as a flat fact."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-decision",
+      "issue": "\"nor'easter winds commonly exceed 50 mph\" — invented unsourced local wind figure.",
+      "fix": "Use the sourced wind framing: ASTM D3161 sets the asphalt wind classes (Class A near 60 mph, Class F near 110 mph) and NOAA classifies a thunderstorm as severe at wind gusts of 58 mph or higher, per ARMA and NOAA guidance. Drop the unsourced 50 mph nor'easter figure."
+    },
+    {
+      "articleId": "asphalt-shingle-roof-replacement-decision",
+      "issue": "\"Both GAF and CertainTeed require online registration to activate full warranty terms\" and CTA \"Our GAF-certified crews install shingles to manufacturer specifications\" — claims NQR GAF certification and presents brand warranty registration as fact.",
+      "fix": "Remove the 'GAF-certified crews' self-claim. NQR is a registered New Jersey Home Improvement Contractor; it installs shingles to manufacturer specification, which preserves the material warranty (Owens Corning warranty guidance), and issues its own written workmanship warranty. Reference warranty registration generically, not as a named brand requirement."
+    }
+  ],
+  "parentDebtToAvoid": [
+    "The gold approachContent and processSteps line 'Newark Quality Roofing installs GAF, Owens Corning, and CertainTeed asphalt shingle systems' / 'naming GAF, Owens Corning, and CertainTeed lines' — do NOT reproduce a brand-roster line as an NQR partnership; brands may appear ONLY as external data/guidance sources (e.g., 'per GAF inspection guidance', 'per Owens Corning warranty guidance').",
+    "The gold credentialsHighlight chip 'NJ HIC Licensed' — write 'registered NJ HIC' / 'registered New Jersey Home Improvement Contractor'; New Jersey issues no roofing license.",
+    "Any 'licensed' / 'fully licensed NJ contractor' framing — reframe to 'registered New Jersey Home Improvement Contractor' (N.J.S.A. 56:8-136), a registration not a license.",
+    "Do not invent volume ('hundreds of roofs/replacements') — NQR is a registered NJ HIC serving Essex County with no stated counts.",
+    "Do not present GAF/CertainTeed/Owens Corning warranty programs (Golden Pledge, SureStart Plus, Master Elite, etc.) or claim certified-installer status of any kind."
+  ],
+  "articleAngles": {
+    "signs": "Lead with the definitive answer that an asphalt roof signals replacement when it reaches its material lifespan (20 years 3-tab / 30 years architectural per InterNACHI), shows granule loss past ~30% of the surface (per GAF), damages cross 25–30% of the roof area, or takes three-plus repairs in two years — distinguishing repairable wear from replacement-level systemic failure, each sign tied to its named source.",
+    "costGuide": "There IS a real whole-job total: open with the gold figure that asphalt shingle roof replacement runs $5.50–$9.50 per sq ft for 3-tab and $6.50–$11.00 per sq ft for architectural (Josten Roofing NJ pricing), with a typical NJ home at $10,000–$25,000 (HomeAdvisor and Modernize NJ). Frame per-sf and whole-home together; note labor is ~60–70% of the total and NJ runs 10–40% above national figures.",
+    "decision": "The single most important thing to understand: asphalt replacement is a full tear-off to the deck, not an overlay — and New Jersey code (N.J.A.C. 5:23-6.4) requires complete removal when the deck is water-soaked or two layers already exist, so the defining decision is choosing a true tear-off-and-rebuild (which exposes and repairs deck rot, installs the IRC R905.1.2 ice barrier, and lets you preserve the manufacturer material warranty by installing to spec) over a cheaper overlay that hides deck damage and shortens new-shingle life ~20–30%."
+  }
+}

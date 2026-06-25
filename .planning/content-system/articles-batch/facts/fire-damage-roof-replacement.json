@@ -1,0 +1,219 @@
+{
+  "serviceId": "fire-damage-roof-replacement",
+  "serviceTitle": "Fire Damage Roof Replacement",
+  "definition": "Fire damage roof replacement removes a charred roof covering and deck, replaces heat-weakened framing identified by a post-fire structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises, because a roof is a whole assembly of covering, underlayment, decking, and framing, per the U.S. Forest Products Laboratory. It applies after fire, heat, smoke, and firefighting water damage span more than the visible surface.",
+  "hasRealWholeProjectTotal": false,
+  "costRanges": [
+    {
+      "item": "NJ roof replacement, typical home (covering only, before structural framing/decking replacement)",
+      "range": "$10,000-$25,000",
+      "source": "HomeAdvisor and Modernize NJ cost data (per gold)"
+    },
+    {
+      "item": "Architectural asphalt shingle, material per square foot",
+      "range": "$6.50-$11.00 per sq ft",
+      "source": "Josten Roofing NJ pricing (per gold)"
+    },
+    {
+      "item": "Metal roofing, per square foot",
+      "range": "$9.00-$16.00 per sq ft",
+      "source": "Josten Roofing NJ pricing (per gold)"
+    },
+    {
+      "item": "Slate roofing, per square foot",
+      "range": "$10-$30 per sq ft",
+      "source": "NJ roofing guides (per gold)"
+    },
+    {
+      "item": "NJ cost premium over national figures (higher labor + stricter code)",
+      "range": "10-40% above national",
+      "source": "Josten Roofing and Integrity Home Exteriors (per gold)"
+    },
+    {
+      "item": "Labor share of an asphalt install",
+      "range": "roughly 60-70% of cost",
+      "source": "Josten Roofing and Integrity Home Exteriors (per gold)"
+    },
+    {
+      "item": "Fire/lightning average insurance claim (all-property, not roof-only)",
+      "range": "$88,170 (2019-2023, ISO/Verisk)",
+      "source": "Insurance Information Institute (Triple-I) (per fact pack rule 7, supersedes $77,340)"
+    }
+  ],
+  "signs": [
+    "**A charred or burned-through roof covering, decking, or framing** indicates the char layer carries essentially zero residual structural capacity and requires removal rather than a patch, per the U.S. Forest Products Laboratory and the American Wood Council.",
+    "**Heat-weakened rafters or trusses showing cross-section loss or deflection** indicate the heat-affected zone retains only roughly 85-90% of original strength, a condition a structural engineer evaluates before rebuild, per the U.S. Forest Products Laboratory.",
+    "**A spongy, delaminated, or sagging roof deck after firefighting** indicates firefighting water saturated and weakened the plywood or OSB sheathing, a collapse warning that signals replacement, per the U.S. Forest Products Laboratory.",
+    "**Corroded or loosened metal truss plates, fasteners, and connectors** indicate heat and char reduced truss-plate tooth embedment and steel strength, because structural-steel strength loss begins near 300 degrees Celsius, per the U.S. Forest Products Laboratory and the Steel Construction Institute.",
+    "**Melted neoprene washers or open leak paths on a metal roof** indicate heat melted the washers and created water entry through the panel, a sign of an affected assembly, per the U.S. Forest Products Laboratory.",
+    "**Smoke and soot residue with elevated corrosion on metal components** indicates acidic soot keeps damaging metals and electrical insulation, though smoke staining alone does not structurally weaken wood, per ANSI/IICRC S700 and the U.S. Forest Products Laboratory.",
+    "**Fire damage across more than 25-30% of the roof area** crosses the contractor-consensus repair-vs-replace threshold, above which full replacement costs less than continued spot repair, per roofing industry guidance.",
+    "**Firefighting-water saturation of decking, insulation, and framing** signals replacement because extinguishing water causes further structural degradation and accelerates corrosion of metal components, per the U.S. Forest Products Laboratory and ANSI/IICRC S700."
+  ],
+  "selectionCriteria": [
+    "Verify the contractor holds a New Jersey Home Improvement Contractor registration under N.J.S.A. 56:8-136, with its 13VH registration number shown on the contract and advertising per N.J.S.A. 56:8-144 (a registration, not a roofing license; New Jersey issues no roofing license).",
+    "Confirm at least $500,000 per occurrence of commercial general liability coverage required of NJ HICs under N.J.S.A. 56:8-142, verified by a current certificate of insurance.",
+    "Require a written contract for any home-improvement work over $500, with total price and scope, per N.J.A.C. 13:45A-16.2.",
+    "Require an itemized written estimate that separates the structural framing/decking scope from the roof covering, since a fire rebuild adds framing and decking work on top of the covering.",
+    "Confirm the contractor documents the fire, heat, smoke, and firefighting-water damage with timestamped photographs and a detailed written scope for the insurance adjuster, and meets the adjuster on site.",
+    "Insurance hard line (N.J.S.A. 17:22B): the contractor documents the damage and performs the approved roofing; only a licensed public adjuster or an attorney negotiates or settles the claim, and the homeowner files and negotiates it. Reject any offer to waive, cover, or rebate the deductible, any 'free roof' or 'guaranteed approval' promise, and any percentage-of-claim or assignment-of-benefits pricing.",
+    "Confirm the rebuild follows a post-fire structural assessment, often by a licensed structural engineer, because a roofer cannot perform the structural sign-off, per the U.S. Forest Products Laboratory and EDT Engineers.",
+    "Ask for local Essex County references and confirmation the rebuild meets current code, not the pre-fire standard."
+  ],
+  "technicalFacts": [
+    {
+      "fact": "A roof is a structural assembly of covering, underlayment, decking, and framing, so fire, heat, smoke, and firefighting-water damage span the whole assembly rather than the surface alone.",
+      "source": "U.S. Forest Products Laboratory; EDT Engineers"
+    },
+    {
+      "fact": "The char layer carries essentially zero residual structural capacity and is removed; the heat-affected zone beneath retains only roughly 85-90% of original strength.",
+      "source": "U.S. Forest Products Laboratory; American Wood Council"
+    },
+    {
+      "fact": "The American Wood Council uses a nominal char rate of 1.5 inches of wood per hour for structural fire design.",
+      "source": "American Wood Council National Design Specification / Fire Design Specification"
+    },
+    {
+      "fact": "A roof covering qualifies as Class A, B, or C under the UL 790 and ASTM E108 fire-test methods through a spread-of-flame test, an intermittent-flame test, and a burning-brand test, with Class A the most fire-resistant.",
+      "source": "UL 790; ASTM E108"
+    },
+    {
+      "fact": "Untreated cedar shakes and shingles are non-classified on their own, fire-retardant-treated cedar reaches Class B or C, and a Class A wood-shake roof is achieved only as a tested assembly of treated shakes over a listed fire barrier.",
+      "source": "Cedar Shake & Shingle Bureau; InterNACHI"
+    },
+    {
+      "fact": "Structural-steel strength loss begins near 300 degrees Celsius, reducing truss-plate tooth embedment and connector strength even when plates look intact.",
+      "source": "Steel Construction Institute; U.S. Forest Products Laboratory"
+    },
+    {
+      "fact": "A fire-damaged roof requires a full tear-off rather than a recover, because a water-soaked, charred, or deteriorated deck is not an adequate base; removal of the existing covering is required when the deck is water-soaked or deteriorated.",
+      "source": "N.J.A.C. 5:23-6.4; IRC recover-not-allowed conditions at R908.3.1.1"
+    },
+    {
+      "fact": "On a detached one- and two-family dwelling a complete tear-off and replacement of the roof covering is ordinary maintenance under N.J.A.C. 5:23-2.7 and needs no construction permit, but replacing charred rafters or trusses is a structural change that triggers a permit.",
+      "source": "N.J.A.C. 5:23-2.7; NJ Uniform Construction Code"
+    },
+    {
+      "fact": "On a commercial building, fire-damage roof replacement requires a permit because the ordinary-maintenance exemption covers only repair of up to 25% of the total roof area in a 12-month period.",
+      "source": "N.J.A.C. 5:23-2.7; NJ Uniform Construction Code"
+    },
+    {
+      "fact": "Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, and the deductible stays the homeowner's responsibility under the policy.",
+      "source": "Insurance Information Institute (Triple-I)"
+    },
+    {
+      "fact": "Smoke and soot staining alone does not structurally weaken wood, though acidic soot keeps corroding metal connectors and electrical components and is removed from members kept in service; the structural concern is the char layer, the heat-affected zone, and corrosion of metal connectors.",
+      "source": "U.S. Forest Products Laboratory; ANSI/IICRC S700"
+    },
+    {
+      "fact": "A fire-damaged roof should get a formal post-fire structural assessment, often by a licensed structural engineer, before reconstruction; the roofer rebuilds to that assessment and current code rather than performing the structural sign-off.",
+      "source": "U.S. Forest Products Laboratory; EDT Engineers"
+    }
+  ],
+  "sources": [
+    "U.S. Forest Products Laboratory",
+    "American Wood Council",
+    "UL 790",
+    "ASTM E108",
+    "Cedar Shake & Shingle Bureau",
+    "InterNACHI",
+    "Steel Construction Institute",
+    "EDT Engineers",
+    "ANSI/IICRC S700",
+    "Insurance Information Institute (Triple-I)",
+    "HomeAdvisor",
+    "Modernize NJ cost data",
+    "Josten Roofing NJ pricing",
+    "Integrity Home Exteriors",
+    "NJ roofing guides",
+    "N.J.A.C. 5:23-6.4",
+    "N.J.A.C. 5:23-2.7",
+    "IRC R908.3.1.1",
+    "N.J.S.A. 17:22B (New Jersey Public Adjusters' Licensing Act)",
+    "N.J.S.A. 56:8-136 (NJ HIC registration)",
+    "N.J.S.A. 56:8-144 (13VH number disclosure)",
+    "N.J.S.A. 56:8-142 ($500,000/occurrence CGL)",
+    "N.J.A.C. 13:45A-16.2 (written contract over $500)",
+    "roofing industry guidance (25-30% repair-vs-replace threshold)"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "fire-damage-roof-replacement-signs",
+      "issue": "\"Asphalt shingles exposed to temperatures above 250 degrees lose their waterproofing capability even without visible charring.\" — invented, unsourced specific temperature threshold for shingle waterproofing failure.",
+      "fix": "Drop the 250-degree shingle figure. The sourced heat threshold is structural-steel strength loss beginning near 300 degrees Celsius (Steel Construction Institute / U.S. Forest Products Laboratory), and heat-weakening of wood framing leaving the heat-affected zone at roughly 85-90% of original strength (U.S. Forest Products Laboratory). Frame radiant-heat exposure as compromising the assembly per FPL without an invented covering temperature."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-signs",
+      "issue": "\"NJ building code requires a structural engineer's assessment before any fire-damaged roof can be rebuilt... This assessment is a non-negotiable prerequisite in every Essex County municipality.\" — overstated as a flat code mandate \"in every municipality\"; the fact pack frames the post-fire structural assessment as standard practice (often by a licensed structural engineer), not a universal statutory requirement.",
+      "fix": "State that a fire-damaged roof receives a formal post-fire structural assessment, often by a licensed structural engineer, before reconstruction because the char layer carries essentially zero residual structural capacity and the roofer cannot perform the structural sign-off, per the U.S. Forest Products Laboratory and EDT Engineers. Replacing charred rafters or trusses is a structural change that triggers a NJ permit under N.J.A.C. 5:23-2.7."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-signs",
+      "issue": "\"Heat exposure weakens wood framing at temperatures below the ignition point\" stated without a source; and general claims of smoke degrading underlayment/insulation \"throughout the attic space\" without attribution.",
+      "fix": "Attribute heat-weakening to the heat-affected zone retaining only roughly 85-90% of original strength (U.S. Forest Products Laboratory), and frame smoke/soot honestly: acidic soot corrodes metal connectors and electrical components, but smoke staining alone does not structurally weaken wood, per ANSI/IICRC S700 and the U.S. Forest Products Laboratory."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-cost-guide",
+      "issue": "\"Structural repair or replacement of fire-damaged framing averages $3,000-$15,000... Complete rafter replacement runs $150-$300 per linear foot... sister repairs... cost $75-$150 per rafter.\" — invented per-unit and total framing figures with no source.",
+      "fix": "Delete all invented framing dollar figures. Per the gold pricing, structural framing and decking replacement adds cost on a fire-damaged roof because charred rafters, trusses, and sheathing are replaced to a structural assessment rather than roofed over (U.S. Forest Products Laboratory), but no sourced per-linear-foot or framing-total figure exists. State only that it adds cost on top of the covering."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-cost-guide",
+      "issue": "\"$8,500-$15,000 for shingles on a typical Essex County home. Add $1,500-$3,000 for code-required upgrades...\" — invented flat covering total and unsourced code-upgrade adder.",
+      "fix": "Use the gold-sourced figures only: a NJ roof replacement costs $10,000-$25,000 for a typical home (HomeAdvisor and Modernize NJ), with material driving the per-square-foot cost (architectural asphalt $6.50-$11.00/sq ft, metal $9.00-$16.00/sq ft per Josten Roofing NJ pricing; slate $10-$30 per NJ roofing guides). NJ ranges sit 10-40% above national figures (Josten Roofing and Integrity Home Exteriors). No sourced separate code-upgrade adder."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-cost-guide",
+      "issue": "\"Smoke remediation in the attic space, including insulation removal, ozone treatment, and new insulation installation, adds $2,000-$5,000. NJ requires licensed abatement if the fire involved materials that produce hazardous residues.\" — invented remediation cost and an unsourced NJ \"licensed abatement\" legal claim outside NQR's scope.",
+      "fix": "Delete the smoke-remediation dollar figure and the abatement legal claim. NQR's scope is roofing: it removes the char to sound wood, replaces firefighting-water-saturated decking, and rebuilds. Acidic soot must be removed from members kept in service but smoke staining alone does not structurally weaken wood (ANSI/IICRC S700; U.S. Forest Products Laboratory). Do not assert NJ abatement licensing requirements."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-cost-guide",
+      "issue": "\"Fire is a covered peril under virtually all NJ homeowners policies, making fire damage replacement one of the most straightforward insurance claims.\" plus \"Your policy's dwelling coverage pays for structural repair and roof replacement up to your coverage limit\" and \"Ordinance-or-law coverage is critical... Without this endorsement, code upgrade costs come out of pocket.\" — interprets the homeowner's policy/coverage, which N.J.S.A. 17:22B prohibits a contractor from doing; also frames coverage as guaranteed.",
+      "fix": "Keep only the compliant frame: homeowners insurance covers fire damage roof replacement when fire, a covered peril, causes the loss, but coverage and approval are the insurer's decision and the deductible stays the homeowner's responsibility (Insurance Information Institute). NQR documents the damage and meets the adjuster on site; it does not interpret the policy. Drop ordinance-or-law endorsement advice (policy interpretation outside the roofer role)."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-cost-guide",
+      "issue": "\"comprehensive insurance coverage typically handles the majority of costs\" (conclusion) and CTA \"Coordinated with your insurance for maximum coverage.\" — implies guaranteed coverage outcome and 'maximize the claim,' a public-adjusting red flag under N.J.S.A. 17:22B.",
+      "fix": "Replace with compliant language: NQR documents the fire, heat, and water damage and meets the adjuster on site; the homeowner or a licensed public adjuster files and negotiates the claim; NQR cannot guarantee a coverage outcome or 'maximize' the settlement (N.J.S.A. 17:22B)."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-cost-guide",
+      "issue": "\"The Essex County fire marshal must sign off on the repair plan before work begins.\" — unsourced procedural claim presented as a flat requirement.",
+      "fix": "Drop the fire-marshal sign-off claim as stated. The sourced gate is the post-fire structural assessment (often a licensed structural engineer) plus a NJ construction permit when replacing charred framing (N.J.A.C. 5:23-2.7), per U.S. Forest Products Laboratory and EDT Engineers."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-decision",
+      "issue": "\"NJ law requires insurers to begin claim investigation within 30 days of notification.\" — wrong figure; N.J.A.C. 11:2-17.7 requires insurers to commence investigation within 10 working days for non-auto-physical-damage claims.",
+      "fix": "Either drop the timeline or cite it correctly: under N.J.A.C. 11:2-17.7 an insurer must commence claim investigation within 10 working days. Frame as the insurer's duty (context), not as something NQR drives."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-decision",
+      "issue": "\"most major carriers dispatch adjusters within 1-2 weeks\" and the entire \"Phase 1/2/3 (weeks 1-3 / 3-6 / 6-10)\" timeline plus \"restoration timelines in Essex County average 6-12 weeks... extend to 4-6 months\" — invented, unsourced timelines.",
+      "fix": "Delete the invented week-by-week timeline and the 6-12 week / 4-6 month averages. No named source supports a fire-restoration timeline. Describe the sequence qualitatively: post-fire structural assessment, damage documentation for the claim, charred covering and deck tear-off, framing and decking replacement to assessment, Class A fire-rated cover installation, and verification/cleanup/warranty (from the gold processSteps), without invented durations."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-decision",
+      "issue": "\"From emergency boarding to final inspection, we manage the entire fire damage roof restoration\" (CTA) and \"we manage the entire fire damage roof restoration for Essex County homeowners\" — overstates NQR as a full-restoration general contractor managing structural/abatement/insurance, beyond the registered NJ HIC roofing role and into claim management.",
+      "fix": "Reframe to the roofing-contractor role: NQR tears off the charred covering and decking, rebuilds the framing and decking to a licensed structural engineer's post-fire assessment, and installs a Class A fire-rated roof. The homeowner or a licensed public adjuster files and negotiates the claim (N.J.S.A. 17:22B)."
+    },
+    {
+      "articleId": "fire-damage-roof-replacement-decision",
+      "issue": "\"debris removal (which may require NJ-licensed hazardous waste handling for certain materials)\" — unsourced legal/hazmat claim outside the roofing scope.",
+      "fix": "Drop the hazardous-waste licensing claim. Keep the roofing scope: tear-off of charred covering and saturated decking to sound wood, replaced to the structural assessment, per the gold and U.S. Forest Products Laboratory."
+    }
+  ],
+  "parentDebtToAvoid": [
+    "Do NOT reproduce the gold credentialsHighlight chip 'NJ HIC Licensed' — write 'registered NJ HIC' / 'registered New Jersey Home Improvement Contractor' (NJ issues no roofing license; registration is not a license).",
+    "Do NOT call any subcontracted licensed structural engineer or licensed public adjuster a credential of NQR; 'licensed structural engineer' and 'licensed public adjuster' are accurate cites for those third parties, but NQR itself is a registered NJ HIC, not 'licensed.'",
+    "Do NOT name shingle/membrane brand systems (GAF/CertainTeed/Owens Corning shingle lines; Firestone/Carlisle/JM membranes) as NQR certifications or partnerships; warranty = manufacturer material warranty (factory defects, preserved when installed to spec, per Owens Corning warranty guidance) plus NQR's written workmanship warranty on labor. Brands may appear only as external data/guidance sources.",
+    "Do NOT imply NQR handles, files, manages, negotiates, settles, or 'maximizes' the insurance claim, waives/covers the deductible, or guarantees approval (N.J.S.A. 17:22B / N.J.S.A. 56:8 / 17:33A).",
+    "Do NOT invent claim counts ('hundreds of fire roofs replaced'); NQR is a registered NJ HIC serving Essex County with no counts.",
+    "Do NOT carry the older $77,340 fire/lightning claim figure; the current Triple-I figure is $88,170, and it is an all-property peril-level average, not a roof-only payout."
+  ],
+  "articleAngles": {
+    "signs": "The defining sign of a roof that needs fire damage replacement is structural, not cosmetic: a charred or burned-through covering, deck, or framing means the char layer carries essentially zero residual structural capacity (U.S. Forest Products Laboratory / American Wood Council), and fire damage across more than 25-30% of the roof crosses the repair-vs-replace threshold. The damage spans the whole assembly because heat weakens framing (heat-affected zone at ~85-90% strength) and firefighting water saturates decking, so a structural engineer evaluates before rebuild.",
+    "costGuide": "No single whole-job total: per the gold there is no sourced flat fire-rebuild total. A NJ roof replacement runs $10,000-$25,000 for the covering on a typical home (HomeAdvisor / Modernize NJ), driven by material per square foot (architectural asphalt $6.50-$11.00/sq ft, metal $9.00-$16.00/sq ft per Josten Roofing NJ; slate $10-$30 per NJ roofing guides), with NJ 10-40% above national figures; fire adds structural framing and decking replacement on top, sized by the structural assessment, and the insurance side is a covered-peril loss minus the homeowner's deductible (Insurance Information Institute).",
+    "decision": "The single most important thing to understand is that a fire-damaged roof is a structural-assembly problem requiring a full tear-off and a code-compliant rebuild, not a patch or recover: the char layer has essentially zero residual capacity and is removed, a water-soaked or charred deck is not an adequate base so N.J.A.C. 5:23-6.4 and IRC R908.3.1.1 require complete removal, and the rebuild meets current code from a post-fire structural assessment (often a licensed structural engineer) — with the homeowner or a licensed public adjuster, not the roofer, negotiating the insurance claim under N.J.S.A. 17:22B."
+  }
+}

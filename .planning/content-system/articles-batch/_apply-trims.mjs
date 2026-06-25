@@ -13,8 +13,13 @@ const data = JSON.parse(readFileSync(F, 'utf8'));
 const byId = new Map(data.articles.map((a) => [a.articleId, a]));
 
 const TRIMS = [
-  // repair-maintenance batch: 1 lead offender (44w first sentence) — split at a clause boundary, all facts preserved.
-  ['emergency-roof-repair-decision', 's2b0', "**An established local presence** matters because emergency roofing attracts door-to-door, post-storm operators. A contractor with a verifiable physical address and checkable Essex County references stays accountable after the tarp comes off — unlike an out-of-state crew that leaves before warranty obligations come due."],
+  // replacement-sub-pages batch: 3 lead offenders — split at a clause boundary / shorten the directAnswer bold span. Every fact + source preserved.
+  // 1) full-roof-tear-off-signs s2b0 (45w 1st sentence) — split after the InterNACHI cite.
+  ['full-roof-tear-off-signs', 's2b0', "**A roof past its material lifespan with widespread granule loss** favors a full tear-off, because 3-tab asphalt lasts about 20 years and architectural asphalt about 30 years, per the InterNACHI life-expectancy chart. Beyond that age, a recover delivers a shortened service life over an aged base."],
+  // 2) full-roof-tear-off-decision directAnswer (41w bold span) — shorten the bold span, move the statute to an unbolded tail.
+  ['full-roof-tear-off-decision', 'directAnswer', "**A full roof tear off becomes the only code-compliant path once a roof carries two covering layers or the deck is water-soaked**, the New Jersey two-layer limit that N.J.A.C. 5:23-6.4 sets, removing the overlay option."],
+  // 3) roof-overlay-installation-cost-guide s2b0 (56w 1st sentence) — split after the Angi cite.
+  ['roof-overlay-installation-cost-guide', 's2b0', "**An overlay's lower upfront price trades against a roughly 20-30% shorter shingle life**, because trapped heat runs the new shingles hotter than designed, a national industry estimate per Angi. A 30-year architectural shingle delivers closer to 20-24 years over an overlay, against the InterNACHI 3-tab life of 20 years and architectural life of 30 years."],
 ];
 
 let applied = 0;

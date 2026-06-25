@@ -1,24 +1,29 @@
-// Articles Batch — full-page screenshots + render checks for the 30 repair-maintenance articles.
+// Articles Batch — full-page screenshots + render checks for the 42 replacement-sub-pages articles.
 // Articles render their full content (directAnswer/ArticleBody) at root /<slug>.
 // Run: NODE_PATH=/opt/homebrew/lib/node_modules PORT=3240 node .planning/content-system/articles-batch/shots.js
 const { chromium } = require('playwright');
 const PORT = process.env.PORT || 3240;
 const SERVICES = [
-  'roof-repair',
-  'roof-replacement',
-  'emergency-roof-repair',
-  'roof-inspection',
-  'roof-maintenance-programs',
-  'roof-leak-repair',
-  'storm-damage-roof-repair',
-  'hail-damage-roof-repair',
-  'wind-damage-roof-repair',
-  'roof-cleaning-moss-removal',
+  'full-roof-tear-off',
+  'roof-overlay-installation',
+  're-roofing',
+  'insurance-roof-replacement',
+  'storm-damage-roof-replacement',
+  'aging-roof-replacement',
+  'roof-replacement-after-leak',
+  'fire-damage-roof-replacement',
+  'asphalt-shingle-roof-replacement',
+  'metal-roof-replacement',
+  'slate-roof-replacement',
+  'tile-roof-replacement',
+  'flat-roof-replacement',
+  'cedar-shake-roof-replacement',
 ];
+// Replacement slugs: signs-you-need-{id}-nj / {id}-cost-breakdown-nj / {id}-complete-guide-nj.
 const SLUGS = SERVICES.flatMap((id) => [
   `signs-you-need-${id}-nj`,
-  `how-much-does-${id}-cost-in-nj`,
-  `choosing-the-right-${id}-contractor-nj`,
+  `${id}-cost-breakdown-nj`,
+  `${id}-complete-guide-nj`,
 ]);
 const DEFAB = /GAF[-\s]?certified|same-?day|24\s*\/\s*7|24-7|0\s*%\s*financing|top-?rated|master[-\s]elite|certainteed select|HAAG|500\+|golden pledge|hundreds of (projects|repairs|homes|replacements)/i;
 (async () => {

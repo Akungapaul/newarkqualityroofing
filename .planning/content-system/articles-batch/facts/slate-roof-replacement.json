@@ -1,0 +1,175 @@
+{
+  "serviceId": "slate-roof-replacement",
+  "serviceTitle": "Slate Roof Replacement",
+  "definition": "Slate roof replacement strips a failing slate roof to the deck, repairs the sheathing, and reinstalls natural or synthetic slate on corrosion-resistant copper or stainless fasteners. It renews a heavy, long-lived covering that demands a load-rated structure, and it is always a full tear-off because a slate roof cannot be recovered over, per N.J.A.C. 5:23-6.4. The work typically renews the underlayment and fastening system the slate hangs on, since corroded fasteners and degraded flashing, not the slate itself, end a slate roof's service life.",
+  "hasRealWholeProjectTotal": false,
+  "costRanges": [
+    {
+      "item": "Slate roof installation in New Jersey",
+      "range": "$10–$30 per square foot, roughly $1,500 per roofing square",
+      "source": "Named NJ roofing guides (per gold)"
+    },
+    {
+      "item": "Slate tear-off and removal labor (the labor a recover cannot avoid)",
+      "range": "$2–$5 per square foot",
+      "source": "HomeGuide and N.J.A.C. 5:23-6.4 (per gold)"
+    },
+    {
+      "item": "NJ pricing premium over national figures",
+      "range": "NJ ranges sit 10–40% above national figures",
+      "source": "HomeGuide and Integrity Home Exteriors (per gold)"
+    },
+    {
+      "item": "Natural slate vs synthetic composite slate",
+      "range": "Natural slate costs more than synthetic composite slate, because natural slate lasts 60 to 150 years against 10 to 35 years for synthetic (premium composite 40 to 50 years)",
+      "source": "InterNACHI life-expectancy chart; CertainTeed product literature (per gold)"
+    },
+    {
+      "item": "Copper, lead-coated copper, and terne-coated stainless steel flashing",
+      "range": "Adds cost over standard flashing, because the flashing matches the slate's long service life",
+      "source": "NPS Preservation Brief 29 (per gold)"
+    }
+  ],
+  "signs": [
+    "Broken, cracked, missing, or sliding slate across 20% or more of a roof slope is the threshold where full replacement costs less than individual repairs, per NPS Preservation Brief 29, because below 20% selective slate repair is preferred.",
+    "Corroded fasteners that let slate tiles slide out of position end a slate roof's service life, because plain steel and galvanized nails rust out long before the slate itself deteriorates, per NPS Preservation Brief 29, so a slate roof on ferrous nails fails at the fastening rather than the stone.",
+    "Degraded valley, chimney, and wall flashing admits water at the slate transitions, the common slate-roof leak source, because flashing failure is a major cause of historic roof deterioration, per NPS Preservation Brief 4.",
+    "Powdery surface weathering, or sugaring, on lower-grade slate indicates the slate breaking down at the surface, a sign that points toward replacement rather than tile-by-tile repair on a roof of failing slate, per NPS Preservation Brief 29 condition guidance.",
+    "A spongy or sagging roof deck under the slate indicates moisture-rotted sheathing from years of trapped water, a structural condition that points toward full replacement rather than a surface patch, per GAF inspection guidance.",
+    "Synthetic slate tiles warped, cracked, or color-faded across 20 to 25% of the roof signal replacement, because composite slate does not allow the indefinite tile-by-tile replacement natural slate does once the polymer degrades, per CertainTeed product literature lifespan limits.",
+    "A slate roof past 100 years with widespread fastener and flashing failure reaches the practical end of service even though the slate stays sound, because the underlayment and copper or stainless fasteners wear out before the stone, per the National Slate Association."
+  ],
+  "selectionCriteria": [
+    "Confirm the contractor is a registered New Jersey Home Improvement Contractor under N.J.S.A. 56:8-136, with the 13VH registration number shown on the contract and advertising per N.J.S.A. 56:8-144 — a registration, not a license, because New Jersey issues no roofing license.",
+    "Verify the contractor carries at least $500,000 per occurrence in commercial general liability coverage per N.J.S.A. 56:8-142, confirmed by a certificate of insurance.",
+    "Require a written contract for any job over $500 with the full scope, labor, materials, and timeline, per N.J.A.C. 13:45A-16.2, and an itemized written estimate before work begins.",
+    "Require a documented slate assessment that photographs and records the slate pattern, coursing, color, and dimensions and rates the roof against the 20% replacement threshold before quoting, per NPS Preservation Briefs 4 and 29.",
+    "Confirm the contractor reinstalls slate on non-ferrous copper or stainless slater's nails with copper, lead-coated copper, or terne-coated stainless steel flashing, never coating or sealing the slate, per NPS Preservation Brief 29.",
+    "Confirm the contractor coordinates a Certificate of Appropriateness from the municipal Historic Preservation Commission where the home is a designated local landmark or in a local historic district, per N.J.S.A. 40:55D-107, and files a construction permit where a commercial or structural job triggers one.",
+    "Ask for local Essex County references and a written workmanship warranty on the labor, separate from any manufacturer material warranty."
+  ],
+  "technicalFacts": [
+    {
+      "fact": "A slate roof cannot be roofed over and a slate replacement is always a full tear-off and reinstall, because slate is listed among the coverings that require complete removal of the existing covering before new roofing.",
+      "source": "N.J.A.C. 5:23-6.4 (NJ Rehabilitation Subcode); ICC IRC R908.3.1.1"
+    },
+    {
+      "fact": "Natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years; properly installed slate lasts 60 to 125 years or longer.",
+      "source": "InterNACHI life-expectancy chart and the National Slate Association; NPS Preservation Brief 29"
+    },
+    {
+      "fact": "Synthetic composite slate lasts 10 to 35 years, with premium composite slate designed for 40 to 50 years.",
+      "source": "InterNACHI life-expectancy chart; CertainTeed product literature"
+    },
+    {
+      "fact": "A natural slate roof requires non-ferrous fasteners — solid copper or stainless slater's nails — set so the slate hangs on the shank rather than driven tight, because plain steel and galvanized nails rust out long before the slate; a broken slate is replaced with a ripper and a copper strip or metal hook rather than mastic.",
+      "source": "NPS Preservation Brief 29"
+    },
+    {
+      "fact": "Slate flashing matches the slate's service life in a durable metal — copper, lead-coated copper, or terne-coated stainless steel — and slate is never coated, sealed, or painted, because sealing slate to keep out moisture historically worsens the problem.",
+      "source": "NPS Preservation Brief 29"
+    },
+    {
+      "fact": "Crews avoid walking on the slate because walking on slate breaks the brittle tiles.",
+      "source": "NPS Preservation Brief 29"
+    },
+    {
+      "fact": "A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling is ordinary maintenance requiring no construction permit, inspection, or notice; a structural change to rafters or trusses still triggers a permit, and a commercial or institutional slate replacement requires a permit because the ordinary-maintenance exemption covers only up to 25% of the total roof area in a 12-month period.",
+      "source": "N.J.A.C. 5:23-2.7; NJ Uniform Construction Code"
+    },
+    {
+      "fact": "A slate roof on a designated local landmark or in a designated local historic district requires a Certificate of Appropriateness from the municipal Historic Preservation Commission before exterior work, separate from a construction permit; National Register listing alone places no restriction on a private owner.",
+      "source": "N.J.S.A. 40:55D-107; National Park Service"
+    },
+    {
+      "fact": "In northern climates the copper strip slate-repair method does not withstand freeze-thaw because snow and ice fold the tab, so metal hooks are used; Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F.",
+      "source": "NPS Preservation Brief 29; NOAA 1991–2020 normals at Newark Liberty (EWR)"
+    }
+  ],
+  "sources": [
+    "NPS Preservation Brief 29",
+    "NPS Preservation Brief 4",
+    "National Slate Association",
+    "InterNACHI life-expectancy chart",
+    "CertainTeed product literature",
+    "GAF inspection guidance",
+    "N.J.A.C. 5:23-6.4 (NJ Rehabilitation Subcode)",
+    "ICC IRC R908.3.1.1",
+    "N.J.A.C. 5:23-2.7",
+    "NJ Uniform Construction Code",
+    "N.J.S.A. 40:55D-107",
+    "National Park Service",
+    "NOAA 1991–2020 normals at Newark Liberty (EWR)",
+    "HomeGuide",
+    "Integrity Home Exteriors",
+    "Named NJ roofing guides",
+    "N.J.S.A. 56:8-136",
+    "N.J.S.A. 56:8-144",
+    "N.J.S.A. 56:8-142",
+    "N.J.A.C. 13:45A-16.2"
+  ],
+  "defabToKill": [
+    {
+      "articleId": "slate-roof-replacement-cost-guide",
+      "issue": "\"Natural slate re-roofing on a typical Essex County home runs $25,000-$50,000\" — invented flat whole-roof total with no source; the gold carries NO whole-job dollar total for slate replacement.",
+      "fix": "State the gold-sourced figure only: slate installation in New Jersey costs $10–$30 per square foot, roughly $1,500 per roofing square, per named NJ roofing guides, with NJ ranges 10–40% above national figures per HomeGuide and Integrity Home Exteriors. There is no whole-job total — cost is per square foot."
+    },
+    {
+      "articleId": "slate-roof-replacement-cost-guide",
+      "issue": "\"Vermont unfading slates cost $500-$800 per square (100 sq ft) for material alone. Pennsylvania slates run $300-$500 per square\" and \"Experienced slaters charge $400-$700 per square for installation\" — invented per-square material and labor figures with no source in the gold or fact pack.",
+      "fix": "Drop the quarry-specific material and labor breakdowns. Use the gold-sourced $10–$30/sf installed (~$1,500/square) and $2–$5/sf tear-off labor (HomeGuide), and the qualitative driver that natural slate costs more than synthetic because it lasts 60–150 years vs 10–35, per the InterNACHI chart."
+    },
+    {
+      "articleId": "slate-roof-replacement-cost-guide",
+      "issue": "\"DaVinci, CertainTeed Symphony, and Brava composite slates ... at $18,000-$30,000 installed on a typical Essex County home. These products weigh 60-70% less than natural slate\" — named brand roster, invented installed total, and an unsourced 60-70% weight figure.",
+      "fix": "Generically describe synthetic composite slate (no brand roster beyond CertainTeed as a literature source) lasting 10–35 years, premium composite 40–50 years per CertainTeed product literature; price it relative to natural slate ($10–$30/sf installed, gold), not a fabricated installed total or weight percentage."
+    },
+    {
+      "articleId": "slate-roof-replacement-cost-guide",
+      "issue": "\"Vermont unfading slates in good condition sell for $300-$500 per square through architectural salvage dealers. This can offset replacement costs by $3,000-$8,000\" — entirely invented salvage-value figures with no source.",
+      "fix": "Delete the salvage-dollar claims. If salvage is mentioned at all, frame only that sound slates replace indefinitely while the deck and fasteners stay sound (National Slate Association) — no dollar offsets, which the gold does not substantiate."
+    },
+    {
+      "articleId": "slate-roof-replacement-signs",
+      "issue": "\"Vermont unfading green and black slates ... can last 150-200 years. Pennsylvania Bangor slates ... have a 60-100 year range\" — quarry-specific lifespan figures (150-200 / 60-100) not supported by the gold's sourced 60–150 year (premium 100+) natural-slate range.",
+      "fix": "Use the gold-sourced lifespans: natural slate lasts 60 to 150 years, premium slate commonly 100-plus, per the InterNACHI chart and the National Slate Association; properly installed slate 60 to 125 years or longer per NPS Brief 29. Drop the per-quarry 150-200/60-100 numbers."
+    },
+    {
+      "articleId": "slate-roof-replacement-signs",
+      "issue": "\"The 'knuckle test' provides a rough field assessment: tap a slate with your knuckle. A clear, ringing tone indicates sound material. A dull thud suggests internal delamination.\" — unsourced DIY heuristic presented as an assessment method.",
+      "fix": "Replace with the sourced condition signs: powdery surface weathering (sugaring) on lower-grade slate indicates surface breakdown pointing to replacement, and a documented assessment rates the roof against the 20% replacement threshold per NPS Brief 29, recording slate pattern, coursing, color, and dimensions per NPS Brief 4."
+    },
+    {
+      "articleId": "slate-roof-replacement-signs",
+      "issue": "\"When more than 20% of visible slates show these symptoms, the roof has entered end-of-life\" frames the 20% threshold loosely without attribution.",
+      "fix": "Attribute the threshold: broken, cracked, missing, or sliding slate across 20% or more of a slope is where full replacement costs less than individual repairs, per NPS Preservation Brief 29; below 20%, selective repair is preferred."
+    },
+    {
+      "articleId": "slate-roof-replacement-decision",
+      "issue": "\"Lead times for quarry-cut slate can extend to 8-16 weeks during peak season\" and \"A typical Essex County slate replacement takes 2-4 weeks of active installation\" and \"HPC review typically takes 2-4 weeks\" — invented timelines with no source.",
+      "fix": "Drop all unsourced week-count timelines. Frame the process around sourced facts: documentation and the 20% threshold (NPS Briefs 4 and 29), a full tear-off because slate cannot be recovered (N.J.A.C. 5:23-6.4), and HPC coordination where the property is a designated landmark or in a historic district (N.J.S.A. 40:55D-107)."
+    },
+    {
+      "articleId": "slate-roof-replacement-decision",
+      "issue": "\"Slate installation requires copper or stainless steel nails (never galvanized, which corrode in contact with slate chemistry)\" — the corrosion mechanism is misstated; galvanized/plain steel nails rust out long before the slate, they are not corroded \"by slate chemistry.\"",
+      "fix": "State per NPS Preservation Brief 29: natural slate reinstalls on solid copper or stainless slater's nails set so the slate hangs on the shank rather than driven tight, because plain steel and galvanized nails rust out long before the slate deteriorates; a broken slate is replaced with a ripper and a copper strip or metal hook rather than mastic."
+    },
+    {
+      "articleId": "slate-roof-replacement-decision",
+      "issue": "\"Flashing on slate roofs uses copper or lead-coated copper, which provides the 100+ year service life\" understates the gold's flashing options and gives an unattributed life figure.",
+      "fix": "Per NPS Preservation Brief 29, flashing matches the slate in a durable metal — copper, lead-coated copper, or terne-coated stainless steel — because degraded flashing, not the slate, is the common leak source; in northern climates use metal hooks rather than the copper-strip method, which snow and ice fold."
+    }
+  ],
+  "parentDebtToAvoid": [
+    "The committed gold's credentialsHighlight chip reads \"NJ HIC Licensed\" — do NOT reproduce; use \"registered NJ HIC\" / \"registered New Jersey Home Improvement Contractor.\" New Jersey issues no roofing license.",
+    "Do not present CertainTeed (or GAF) as an NQR certification or partnership; cite them only as external product/inspection-guidance data sources (CertainTeed composite-slate lifespan literature; GAF inspection guidance on spongy decking).",
+    "Do not introduce a slate-product brand roster (DaVinci, Symphony, Brava, or membrane/shingle system brands) as NQR offerings; the gold names only \"natural quarried slate\" and \"synthetic composite slate.\"",
+    "Do not invent NQR volume (\"hundreds of slate roofs replaced\") — NQR is a registered NJ HIC serving Essex County with no counts.",
+    "Do not assert a whole-job dollar total; the gold substantiates only per-square-foot pricing ($10–$30/sf, ~$1,500/square) and per-sf tear-off labor ($2–$5/sf)."
+  ],
+  "articleAngles": {
+    "signs": "The defining sign for slate is the 20% rule: when broken, cracked, missing, or sliding slate reaches 20% or more of a slope — or when corroded fasteners and degraded flashing have failed roof-wide — full replacement costs less than tile-by-tile repair, per NPS Preservation Brief 29; below that, selective repair is preferred because individual slates replace indefinitely while the deck and fasteners stay sound.",
+    "costGuide": "There is no whole-job slate total — cost is per square foot. Slate installation in New Jersey runs $10–$30 per square foot, roughly $1,500 per roofing square, per named NJ roofing guides, plus $2–$5/sf tear-off labor (HomeGuide) that a recover cannot avoid because slate is always a full tear-off (N.J.A.C. 5:23-6.4); NJ ranges sit 10–40% above national figures, and copper-class flashing and natural-vs-synthetic slate drive the spread.",
+    "decision": "The single most important thing to understand about slate replacement is that it is always a full tear-off — a slate roof cannot be roofed over under N.J.A.C. 5:23-6.4 — and that a slate roof usually fails at its non-ferrous fasteners, underlayment, and flashing, not the stone, so replacement renews the system the slate hangs on (copper or stainless slater's nails and matching metal flashing, never coated or sealed) while preserving a 60-to-150-year covering, with a Historic Preservation Commission Certificate of Appropriateness required first on designated landmarks (N.J.S.A. 40:55D-107)."
+  }
+}

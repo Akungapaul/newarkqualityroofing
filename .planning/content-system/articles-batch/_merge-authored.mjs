@@ -1,4 +1,4 @@
-// Merge the 30 per-article authored JSON files (authored/<id>.json) into _authored.json
+// Merge the 42 per-article authored JSON files (authored/<id>.json) into _authored.json
 // ({articles:[...]}), validating shape + reporting meta>160 / missing / malformed.
 // Run: node .planning/content-system/articles-batch/_merge-authored.mjs
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
@@ -9,17 +9,22 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const ADIR = join(HERE, 'authored');
 const OUT = join(HERE, '_authored.json');
 
+// Replacement Sub-Pages: 14 services x 3 articles = 42.
 const SERVICES = [
-  'roof-repair',
-  'roof-replacement',
-  'emergency-roof-repair',
-  'roof-inspection',
-  'roof-maintenance-programs',
-  'roof-leak-repair',
-  'storm-damage-roof-repair',
-  'hail-damage-roof-repair',
-  'wind-damage-roof-repair',
-  'roof-cleaning-moss-removal',
+  'full-roof-tear-off',
+  'roof-overlay-installation',
+  're-roofing',
+  'insurance-roof-replacement',
+  'storm-damage-roof-replacement',
+  'aging-roof-replacement',
+  'roof-replacement-after-leak',
+  'fire-damage-roof-replacement',
+  'asphalt-shingle-roof-replacement',
+  'metal-roof-replacement',
+  'slate-roof-replacement',
+  'tile-roof-replacement',
+  'flat-roof-replacement',
+  'cedar-shake-roof-replacement',
 ];
 const ORDER = SERVICES.flatMap((s) => [`${s}-signs`, `${s}-cost-guide`, `${s}-decision`]);
 
@@ -50,4 +55,4 @@ writeFileSync(OUT, JSON.stringify({ articles }, null, 2));
 console.log(`wrote ${articles.length}/${ORDER.length} -> ${OUT}`);
 for (const a of articles) console.log(`  - ${a.articleId} (${a.sections ? a.sections.length : '?'} sec, meta ${a.metaDescription ? a.metaDescription.length : '?'}c)`);
 if (problems.length) { console.log(`\nPROBLEMS (${problems.length}):`); for (const p of problems) console.log(`  ✗ ${p}`); process.exit(1); }
-console.log('\nAll 30 present and well-formed.');
+console.log('\nAll 42 present and well-formed.');
