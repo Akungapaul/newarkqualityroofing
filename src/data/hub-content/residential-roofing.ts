@@ -39,35 +39,35 @@ export const residentialRoofingHubContent: HubContent = {
         "links": [
           {
             "text": "Asphalt Shingle Roofing",
-            "href": "/asphalt-shingle-roofing"
+            "href": "/asphalt-shingle-roofing-in-newark-nj"
           },
           {
             "text": "Metal Roof Installation & Repair",
-            "href": "/metal-roof-installation-repair"
+            "href": "/metal-roof-installation-repair-in-newark-nj"
           },
           {
             "text": "Slate Roof Installation & Repair",
-            "href": "/slate-roof-installation-repair"
+            "href": "/slate-roof-installation-repair-in-newark-nj"
           },
           {
             "text": "Tile Roof Installation & Repair",
-            "href": "/tile-roof-installation-repair"
+            "href": "/tile-roof-installation-repair-in-newark-nj"
           },
           {
             "text": "Cedar Shake Roofing",
-            "href": "/cedar-shake-roofing"
+            "href": "/cedar-shake-roofing-in-newark-nj"
           },
           {
             "text": "Wood Shake Roofing",
-            "href": "/wood-shake-roofing"
+            "href": "/wood-shake-roofing-in-newark-nj"
           },
           {
             "text": "EPDM Rubber Roofing",
-            "href": "/rubber-roofing-epdm"
+            "href": "/rubber-roofing-epdm-in-newark-nj"
           },
           {
             "text": "Residential Roof Installation",
-            "href": "/residential-roof-installation"
+            "href": "/residential-roof-installation-in-newark-nj"
           }
         ]
       },
@@ -76,27 +76,27 @@ export const residentialRoofingHubContent: HubContent = {
         "links": [
           {
             "text": "Roof Repair",
-            "href": "/roof-repair"
+            "href": "/roof-repair-in-newark-nj"
           },
           {
             "text": "Roof Replacement",
-            "href": "/roof-replacement"
+            "href": "/roof-replacement-in-newark-nj"
           },
           {
             "text": "Roof Leak Repair",
-            "href": "/roof-leak-repair"
+            "href": "/roof-leak-repair-in-newark-nj"
           },
           {
             "text": "Roof Inspection",
-            "href": "/roof-inspection"
+            "href": "/roof-inspection-in-newark-nj"
           },
           {
             "text": "Storm Damage Roof Repair",
-            "href": "/storm-damage-roof-repair"
+            "href": "/storm-damage-roof-repair-in-newark-nj"
           },
           {
             "text": "Emergency Roof Repair",
-            "href": "/emergency-roof-repair"
+            "href": "/emergency-roof-repair-in-newark-nj"
           }
         ]
       }

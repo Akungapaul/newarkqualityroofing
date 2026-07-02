@@ -29,7 +29,7 @@ import {
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
-import { generateComboSlug } from '@/lib/slug-utils';
+import { generateComboSlug, generateServicePageSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getServiceHeroImage } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
@@ -72,7 +72,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
         buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${comboSlug}`, content.metaDescription),
         buildBreadcrumbSchema([
           { name: 'Home', url: SEO_CONFIG.BASE_URL },
-          { name: service.name, url: `${SEO_CONFIG.BASE_URL}/${service.slug}` },
+          { name: service.name, url: `${SEO_CONFIG.BASE_URL}/${generateServicePageSlug(service.slug)}` },
           { name: `${service.name} in ${city.name}` },
         ]),
         buildFaqSchema(

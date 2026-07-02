@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 import type { NavServiceGroup, NavCityItem, NavComparisonGroup } from '@/data/nav-data';
 
 // ─── Props ──────────────────────────────────────────────────────────────────
@@ -199,7 +200,7 @@ export function MobileMenu({ isOpen, onClose, serviceGroups, cityItems, comparis
                     {group.services.map((service) => (
                       <li key={service.slug}>
                         <Link
-                          href={`/${service.slug}`}
+                          href={`/${generateServicePageSlug(service.slug)}`}
                           onClick={onClose}
                           className="block rounded px-3 py-1.5 font-body text-sm text-parchment/80 transition-colors duration-150 hover:bg-forest-light/20 hover:text-parchment focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-copper"
                         >

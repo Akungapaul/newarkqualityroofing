@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 import { PRICING } from '@/data/content-constants';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { AnimateIn } from '@/components/animations/AnimateIn';
@@ -44,11 +45,11 @@ export function HomePricingTable() {
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment/70">
             Transparent pricing with <em>no-obligation</em> quotes. Roof replacement in Newark, NJ starts with a clear estimate. Every roofing quote includes
             materials, labor, and cleanup. Get a{' '}
-            <Link href="/roof-replacement" className="text-copper-light underline hover:text-copper">replacement quote</Link>,{' '}
-            <Link href="/roof-repair" className="text-copper-light underline hover:text-copper">repairs estimate</Link>, or{' '}
-            <Link href="/emergency-roof-repair" className="text-copper-light underline hover:text-copper">emergency help</Link>,{' '}
-            <Link href="/roof-inspection" className="text-copper-light underline hover:text-copper">inspections</Link>, or{' '}
-            <Link href="/roof-maintenance-programs" className="text-copper-light underline hover:text-copper">maintenance plans</Link>{' '}
+            <Link href="/roof-replacement-in-newark-nj" className="text-copper-light underline hover:text-copper">replacement quote</Link>,{' '}
+            <Link href="/roof-repair-in-newark-nj" className="text-copper-light underline hover:text-copper">repairs estimate</Link>, or{' '}
+            <Link href="/emergency-roof-repair-in-newark-nj" className="text-copper-light underline hover:text-copper">emergency help</Link>,{' '}
+            <Link href="/roof-inspection-in-newark-nj" className="text-copper-light underline hover:text-copper">inspections</Link>, or{' '}
+            <Link href="/roof-maintenance-programs-in-newark-nj" className="text-copper-light underline hover:text-copper">maintenance plans</Link>{' '}
             today.
           </p>
         </div>
@@ -83,7 +84,7 @@ export function HomePricingTable() {
                     }
                   >
                     <td className="px-5 py-4 font-heading text-base font-semibold text-parchment">
-                      <Link href={`/${row.slug}`} className="underline decoration-parchment/30 hover:decoration-copper-light hover:text-copper-light transition-colors">
+                      <Link href={`/${generateServicePageSlug(row.slug)}`} className="underline decoration-parchment/30 hover:decoration-copper-light hover:text-copper-light transition-colors">
                         {row.label}
                       </Link>
                     </td>
@@ -124,7 +125,7 @@ export function HomePricingTable() {
               A typical residential roof replacement in New Jersey costs between
               $8,500 and $25,000, depending on size, pitch, material
               choice, and whether a full tear-off is required. See the full{' '}
-              <Link href="/roof-replacement-cost" className="text-copper-light underline hover:text-copper">roof replacement cost</Link>{' '}
+              <Link href="/roof-replacement-cost-in-newark-nj" className="text-copper-light underline hover:text-copper">roof replacement cost</Link>{' '}
               breakdown, or request a free roofing estimate to get an exact figure for your home.
             </p>
           </div>
@@ -143,8 +144,8 @@ export function HomePricingTable() {
         <div className="mt-10 text-center">
           <p className="font-body text-base text-parchment/70">
             Roofing prices vary by project. Call for your personalized free roof repair or replacement estimate.{' '}
-            <Link href="/asphalt-shingle-roofing" className="text-copper-light underline hover:text-copper">Shingle options</Link>{' '}and{' '}
-            <Link href="/flat-roof-installation-repair" className="text-copper-light underline hover:text-copper">flat roof systems</Link>{' '}available.
+            <Link href="/asphalt-shingle-roofing-in-newark-nj" className="text-copper-light underline hover:text-copper">Shingle options</Link>{' '}and{' '}
+            <Link href="/flat-roof-installation-repair-in-newark-nj" className="text-copper-light underline hover:text-copper">flat roof systems</Link>{' '}available.
           </p>
           <div className="mt-4">
             <PhoneNumber

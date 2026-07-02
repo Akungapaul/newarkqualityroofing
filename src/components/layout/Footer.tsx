@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { comparisons } from '@/data/comparisons';
-import { generateCityPageSlug, generateComboSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateComboSlug, generateServicePageSlug } from '@/lib/slug-utils';
 import { isKeep } from '@/data/url-classification';
 import { siteConfig } from '@/config/site-config';
 
@@ -299,7 +299,7 @@ export function Footer() {
               {residentialServiceLinks.map((service) => (
                 <li key={service.slug}>
                   <Link
-                    href={`/${service.slug}`}
+                    href={`/${generateServicePageSlug(service.slug)}`}
                     className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
                   >
                     {service.name}
@@ -321,7 +321,7 @@ export function Footer() {
               {commercialServiceLinks.map((service) => (
                 <li key={service.slug}>
                   <Link
-                    href={`/${service.slug}`}
+                    href={`/${generateServicePageSlug(service.slug)}`}
                     className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
                   >
                     {service.name}

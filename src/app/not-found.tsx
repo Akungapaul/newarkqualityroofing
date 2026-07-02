@@ -9,12 +9,12 @@ const navLinks = [
 ];
 
 const popularServices = [
-  { href: '/roof-repair', label: 'Roof Repair' },
-  { href: '/roof-replacement', label: 'Roof Replacement' },
-  { href: '/roof-inspection', label: 'Roof Inspection' },
-  { href: '/emergency-roof-repair', label: 'Emergency Roof Repair' },
-  { href: '/asphalt-shingle-roofing', label: 'Asphalt Shingle Roofing' },
-  { href: '/gutter-installation-repair', label: 'Gutter Installation & Repair' },
+  { href: '/roof-repair-in-newark-nj', label: 'Roof Repair' },
+  { href: '/roof-replacement-in-newark-nj', label: 'Roof Replacement' },
+  { href: '/roof-inspection-in-newark-nj', label: 'Roof Inspection' },
+  { href: '/emergency-roof-repair-in-newark-nj', label: 'Emergency Roof Repair' },
+  { href: '/asphalt-shingle-roofing-in-newark-nj', label: 'Asphalt Shingle Roofing' },
+  { href: '/gutter-installation-repair-in-newark-nj', label: 'Gutter Installation & Repair' },
 ];
 
 export default function NotFound() {

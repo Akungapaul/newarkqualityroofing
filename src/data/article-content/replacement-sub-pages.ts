@@ -44,7 +44,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "The signs you need a full roof tear off are part code mandate and part observable deck failure: two or more layers, a water-soaked or deteriorated deck, or a wood-shake, slate, or tile covering under N.J.A.C. 5:23-6.4, alongside daylight, soft or sagging wood, and delaminated plywood or swollen OSB that an overlay cannot fix.",
     "ctaHeading": "Confirm Whether Your Roof Needs a Tear-Off",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We count your existing covering layers and check the deck against the N.J.A.C. 5:23-6.4 removal conditions before any quote — explore [roof replacement](/roof-replacement) to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We count your existing covering layers and check the deck against the N.J.A.C. 5:23-6.4 removal conditions before any quote — explore [roof replacement](/roof-replacement-in-newark-nj) to start.",
     "metaDescription": "Signs you need a full roof tear off: two or more layers, a water-soaked deck, or wood/slate/tile covering per N.J.A.C. 5:23-6.4, plus deck-failure signs."
   },
   {
@@ -79,7 +79,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "A full roof tear off in New Jersey ties back to one whole-job range — $10,000 to $25,000 for a typical home, per HomeAdvisor and Modernize — with the removal labor, dumpster disposal, and deck-repair allowance each adding a national-sourced figure on top of that baseline.",
     "ctaHeading": "Get a Free Written Tear-Off Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a free written estimate that itemizes the tear-off labor, disposal, and a deck-repair allowance, and discusses payment and financing options before any work begins — start with a [roof replacement](/roof-replacement) assessment.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a free written estimate that itemizes the tear-off labor, disposal, and a deck-repair allowance, and discusses payment and financing options before any work begins — start with a [roof replacement](/roof-replacement-in-newark-nj) assessment.",
     "metaDescription": "A full roof tear off in NJ runs $10,000-$25,000 for a typical home (HomeAdvisor/Modernize), with removal labor at $1-$5 per sq ft per HomeGuide."
   },
   {
@@ -124,7 +124,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "The decision turns on the two-layer code limit: once a roof reaches two coverings or a deck is water-soaked, N.J.A.C. 5:23-6.4 makes a tear-off the only compliant path, and stripping to the deck becomes the only way to inspect and repair the sheathing an overlay would bury.",
     "ctaHeading": "Plan Your Full Roof Tear Off",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We count the existing layers, check the deck against the N.J.A.C. 5:23-6.4 removal conditions, and provide a free written estimate before any [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We count the existing layers, check the deck against the N.J.A.C. 5:23-6.4 removal conditions, and provide a free written estimate before any [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "New Jersey's two-layer code limit decides a full roof tear off: N.J.A.C. 5:23-6.4 ends the overlay option and exposes the deck for inspection and repair."
   },
   {
@@ -162,7 +162,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "An overlay fits a roof that shows one sound asphalt layer over a smooth, dry, sound deck and fails the test where the deck is deteriorated, where two layers already exist, or where the covering is wood shake, slate, tile, or cement; a documented eligibility inspection settles which case applies before any recover is quoted.",
     "ctaHeading": "Confirm Whether Your Roof Qualifies for an Overlay",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the deck, layer count, and covering against the N.J.A.C. 5:23-6.4 limits and provide a free written estimate weighing an overlay against a full [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the deck, layer count, and covering against the N.J.A.C. 5:23-6.4 limits and provide a free written estimate weighing an overlay against a full [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "An overlay fits one sound asphalt layer over a smooth, dry deck; a deteriorated deck, two layers, or shake, slate, or tile bar a recover under NJ code."
   },
   {
@@ -198,7 +198,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "An overlay has no published whole-job New Jersey price; it is quoted per square foot at $6.50-$11.00 for architectural and $5.50-$9.50 for 3-tab installed per Josten Roofing NJ pricing, runs roughly 20-25% less than a tear-off per HomeGuide and Angi, and trades that saving against a shorter shingle life and a hidden deck.",
     "ctaHeading": "Get a Written Overlay Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that measures the roof, prices the overlay per square foot, and states the trade-offs against a full [roof replacement](/roof-replacement) before any work begins.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that measures the roof, prices the overlay per square foot, and states the trade-offs against a full [roof replacement](/roof-replacement-in-newark-nj) before any work begins.",
     "metaDescription": "A NJ roof overlay has no flat total; it runs about 20-25% less than a tear-off and $6.50-$11/sq ft installed for architectural asphalt, per Josten and Angi."
   },
   {
@@ -242,7 +242,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "A roof overlay is a legitimate choice on a qualifying roof — one sound asphalt layer over a smooth, dry, sound deck — but it is not the equal of a tear-off, and understanding the hidden deck, the shortened shingle life, the telegraphed profile, and the added dead load is what makes the 20–25% saving a sound decision rather than a costly shortcut.",
     "ctaHeading": "Get an Honest Overlay Eligibility Inspection",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the roof against the N.J.A.C. 5:23-6.4 eligibility limits, state the overlay-vs-tear-off trade-offs in writing, and provide a free written estimate so you can weigh an overlay against a full [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the roof against the N.J.A.C. 5:23-6.4 eligibility limits, state the overlay-vs-tear-off trade-offs in writing, and provide a free written estimate so you can weigh an overlay against a full [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "A roof overlay is legal only on one sound asphalt layer over a smooth, dry deck and is not equal to a tear-off. What NJ homeowners weigh before choosing it."
   },
   {
@@ -279,7 +279,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "These signs read together rather than in isolation: a roof at or past its lifespan, damage past the 25% area or 50% cost rule, three repairs in two years, granule loss, a spongy deck, or attic daylight each marks a covering at end of service where re-roofing returns more than another repair.",
     "ctaHeading": "Confirm Whether Your Roof Needs Re-Roofing",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We test your roof against the age, area, cost, and repeat-repair rules and provide a free written estimate before any [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We test your roof against the age, area, cost, and repeat-repair rules and provide a free written estimate before any [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Signs you need re-roofing: a roof past its lifespan, damage over 25% of the area, a repair near 50% of replacement, three repairs in two years, or a bare mat."
   },
   {
@@ -317,7 +317,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Re-roofing a typical New Jersey home falls in the $10,000 to $25,000 range per HomeAdvisor and Modernize NJ, but the honest number for any one roof comes from the material rate, the tear-off and labor lines, the code-required ice barrier, and the deck condition, each itemized in a written estimate.",
     "ctaHeading": "Get a Written Re-Roofing Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes tear-off, deck repair, the ice barrier, underlayment, the cover, disposal, and any permit, or compare it against a full [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes tear-off, deck repair, the ice barrier, underlayment, the cover, disposal, and any permit, or compare it against a full [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Re-roofing a typical NJ home costs $10,000-$25,000 per HomeAdvisor: see per-square-foot material rates, tear-off, labor, and the 10-40% NJ premium."
   },
   {
@@ -362,7 +362,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Re-roofing comes down to one framing decision: a code-permitted recover that trades upfront savings for hidden deck risk and a shortened shingle life, or a full tear-off that exposes the deck and renews the assembly — verified against registration, insurance, and an itemized written contract.",
     "ctaHeading": "Plan Your Re-Roofing Decision",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a deck assessment that tests tear-off against recover under NJ code and a clear, written [roof replacement](/roof-replacement) estimate.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a deck assessment that tests tear-off against recover under NJ code and a clear, written [roof replacement](/roof-replacement-in-newark-nj) estimate.",
     "metaDescription": "Re-roofing covers both tear-off and recover (overlay), but NJ code limits a recover. A guide to the code limits, trade-offs, permits, and what to verify."
   },
   {
@@ -397,7 +397,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Storm, hail, tree-impact, water, and fire damage from a sudden covered peril each mark a claim, while normal wear and age do not, so documenting the storm-specific damage against its named source is what separates a covered loss from an excluded one.",
     "ctaHeading": "Document Your Storm-Damaged Roof",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the roof, photograph the covered damage, write a detailed scope, and meet the adjuster on site for your [insurance roof replacement](/insurance-roof-replacement), while you or a licensed public adjuster file and negotiate the claim.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the roof, photograph the covered damage, write a detailed scope, and meet the adjuster on site for your [insurance roof replacement](/insurance-roof-replacement-in-newark-nj), while you or a licensed public adjuster file and negotiate the claim.",
     "metaDescription": "Signs you need insurance roof replacement: wind-stripped shingles, hail bruising, tree penetration, storm-traced water, or fire damage from a covered peril."
   },
   {
@@ -435,7 +435,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "The honest answer is a $10,000–$25,000 New Jersey replacement loss per HomeAdvisor and Modernize, but the homeowner's actual out-of-pocket depends on the deductible owed under the policy, whether the settlement is ACV or RCV, the recoverable depreciation released after completion, and any supplements or percentage wind deductible — each a policy term, not a fixed dollar figure.",
     "ctaHeading": "Get a Free Written Roof Replacement Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the damage, write a detailed scope, and meet the adjuster on site, while you or a licensed public adjuster file and negotiate the claim. Request a free written estimate for your [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the damage, write a detailed scope, and meet the adjuster on site, while you or a licensed public adjuster file and negotiate the claim. Request a free written estimate for your [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Insurance roof replacement in NJ runs $10,000–$25,000 per HomeAdvisor/Modernize, minus the deductible. How ACV vs RCV, depreciation, supplements change it."
   },
   {
@@ -480,7 +480,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Insurance roof replacement rewards a homeowner who treats it as a covered-peril claim path: the contractor documents the damage and meets the adjuster, the homeowner or a licensed public adjuster negotiates, the deductible is paid not waived, and a registered, insured roofer with a written scope keeps the work inside New Jersey law.",
     "ctaHeading": "Document Your Storm Damage the Right Way",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We photograph the damage, write a detailed scope, and meet your adjuster on site while you or a licensed public adjuster handle the claim. Ask us about an insurance [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We photograph the damage, write a detailed scope, and meet your adjuster on site while you or a licensed public adjuster handle the claim. Ask us about an insurance [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Insurance roof replacement in NJ is a covered-peril claim path: the roofer documents damage and meets the adjuster; the deductible is never waived."
   },
   {
@@ -515,7 +515,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Read together, widespread wind-stripped shingles, scattered hail bruising with granule loss, debris penetration, and damage past the 25 to 30 percent area threshold are the signs a storm-damaged roof has moved beyond a localized repair into replacement territory.",
     "ctaHeading": "Get a Storm-Damage Roof Assessment in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document wind and hail damage with timestamped photographs and a written scope, then meet the adjuster on site; the homeowner or a licensed public adjuster files and negotiates the claim. Explore [storm damage roof replacement](/storm-damage-roof-replacement) to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document wind and hail damage with timestamped photographs and a written scope, then meet the adjuster on site; the homeowner or a licensed public adjuster files and negotiates the claim. Explore [storm damage roof replacement](/storm-damage-roof-replacement-in-newark-nj) to start.",
     "metaDescription": "Signs you need storm damage roof replacement: wind-stripped shingles (ASTM D3161), hail bruising and granule loss, debris hits, and over 25-30% roof damage."
   },
   {
@@ -552,7 +552,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "A storm-damaged roof in New Jersey costs $10,000 to $25,000 to replace, per HomeAdvisor and Modernize NJ cost data, with material setting the per-square-foot price and a covered wind, hail, or tree loss offsetting most of the bill minus the deductible the homeowner owes under the policy.",
     "ctaHeading": "Get a Free Written Storm-Damage Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the storm damage with timestamped photographs, write an itemized scope, and provide a free written estimate for your [roof replacement](/roof-replacement) — the deductible remains your responsibility under the policy, never waived or paid by us.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the storm damage with timestamped photographs, write an itemized scope, and provide a free written estimate for your [roof replacement](/roof-replacement-in-newark-nj) — the deductible remains your responsibility under the policy, never waived or paid by us.",
     "metaDescription": "Storm damage roof replacement in NJ runs $10,000-$25,000 per HomeAdvisor and Modernize NJ, with a covered wind or hail claim offsetting the cost."
   },
   {
@@ -590,7 +590,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Storm damage roof replacement comes down to a covered peril, a damage extent past the 25 to 30% threshold, and a clear understanding that the homeowner or a licensed public adjuster — never the roofing contractor — files and negotiates the claim, with the deductible the homeowner's responsibility under the policy.",
     "ctaHeading": "Get Your Storm Damage Documented",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document wind and hail damage with timestamped photographs and a written scope, meet the adjuster on site, and complete the approved [roof replacement](/roof-replacement) to code.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document wind and hail damage with timestamped photographs and a written scope, meet the adjuster on site, and complete the approved [roof replacement](/roof-replacement-in-newark-nj) to code.",
     "metaDescription": "Storm damage roof replacement turns on a covered peril and the 25-30% damage threshold. How NJ coverage, the adjuster line, and the deductible work."
   },
   {
@@ -626,7 +626,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "When age past the material lifespan combines with granule loss, field-wide curling, repeat repairs, and a spongy deck, the roof is failing from cumulative weathering, and a full tear-off to the deck answers the condition more durably than another patch.",
     "ctaHeading": "Get an Aging Roof Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a written assessment that rates your roof against the InterNACHI life-expectancy chart and the contractor-consensus age and repair rules before any [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a written assessment that rates your roof against the InterNACHI life-expectancy chart and the contractor-consensus age and repair rules before any [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Signs you need aging roof replacement: a roof past its lifespan, 30%+ granule loss, widespread curling, 3+ repairs in 2 years, and a spongy deck."
   },
   {
@@ -663,7 +663,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Aging roof replacement on a typical New Jersey home runs $10,000 to $25,000, per HomeAdvisor and Modernize NJ cost data, set by material class — NJ architectural asphalt at $6.50 to $11.00 per square foot and metal at $9.00 to $16.00, per Josten Roofing NJ pricing — with labor at roughly 60 to 70% of an asphalt total and the deck condition revealed only at tear-off, so a written estimate is the only way to fix the real number for a specific roof.",
     "ctaHeading": "Get a Written Aging Roof Replacement Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes material, labor, tear-off, and deck repair so you can see the real cost of your [roof replacement](/roof-replacement) line by line.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes material, labor, tear-off, and deck repair so you can see the real cost of your [roof replacement](/roof-replacement-in-newark-nj) line by line.",
     "metaDescription": "Aging roof replacement in NJ runs $10,000-$25,000 per HomeAdvisor and Modernize data. See per-square-foot asphalt, metal, and slate pricing and cost drivers."
   },
   {
@@ -704,7 +704,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Aging roof replacement turns on lifespan and code: a roof past its InterNACHI material life is stripped to the deck under N.J.A.C. 5:23-6.4, re-roofed without a permit on a detached one- and two-family home, and backed by both a manufacturer material warranty and a written workmanship warranty.",
     "ctaHeading": "Plan Your Aging Roof Replacement",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We rate an aging roof against the InterNACHI life-expectancy chart and provide a free written estimate that names each material option and its lifespan before any [roof replacement](/roof-replacement) work begins.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We rate an aging roof against the InterNACHI life-expectancy chart and provide a free written estimate that names each material option and its lifespan before any [roof replacement](/roof-replacement-in-newark-nj) work begins.",
     "metaDescription": "Aging roof replacement is a lifespan-and-code decision: a full tear-off to the deck under N.J.A.C. 5:23-6.4, no permit on a 1-2 family home, two warranties."
   },
   {
@@ -741,7 +741,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Read together, these signs separate a single failed detail a repair can fix from a systemic failure a replacement resolves: a leak that recurs across repairs, spans the roof, nears half the replacement cost, or has rotted the deck calls for a tear-off to bare deck, not another patch.",
     "ctaHeading": "Have a Recurring Leak Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace a recurring leak to its source detail and assess the deck against the 3-repairs, 25%, and 50% thresholds before any quote. Explore [roof replacement](/roof-replacement) options.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace a recurring leak to its source detail and assess the deck against the 3-repairs, 25%, and 50% thresholds before any quote. Explore [roof replacement](/roof-replacement-in-newark-nj) options.",
     "metaDescription": "Signs a leak calls for roof replacement: 3+ repairs in 2 years, damage over 25-30% of the roof, a repair near 50% of cost, or a moisture-rotted deck."
   },
   {
@@ -785,7 +785,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Roof replacement after a leak runs $10,000 to $25,000 for a typical New Jersey home, set by square footage, cover material, and the rotted decking re-decking adds at $2 to $5 per square foot once the cover comes off; a free written estimate sizes the figure to the deck actually exposed.",
     "ctaHeading": "Get a Written Estimate for a Leak Replacement",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that traces the recurring leak and itemizes the tear-off, re-decking, and cover before any [roof replacement](/roof-replacement) begins.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that traces the recurring leak and itemizes the tear-off, re-decking, and cover before any [roof replacement](/roof-replacement-in-newark-nj) begins.",
     "metaDescription": "Roof replacement after a leak runs $10,000-$25,000 for a typical NJ home, plus $2-$5 per sq ft re-decking where a chronic leak rotted the deck."
   },
   {
@@ -830,7 +830,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "The single thing a leaked-roof replacement decision rests on is whether the deck has rotted: once a chronic leak crosses the repair-vs-replace thresholds and saturates the sheathing, code bars a recover, and a full tear-off to bare deck with rotted sheathing replaced is the only durable, code-compliant fix.",
     "ctaHeading": "Assess a Recurring Leak Before It Rots the Deck",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace a recurring leak to its source, assess the deck against the repair-vs-replace thresholds, and provide a written estimate for [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace a recurring leak to its source, assess the deck against the repair-vs-replace thresholds, and provide a written estimate for [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "A roof leaked long enough to rot the deck cannot be recovered: how the 3-repairs, 25%, and 50% thresholds and NJ code decide repair vs replacement."
   },
   {
@@ -873,7 +873,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "The signs that a roof needs fire damage replacement are structural, not cosmetic: char that carries zero residual capacity, heat-weakened framing at roughly 85-90% strength, firefighting-water-saturated decking, corroded connectors, and damage past the 25-30% area threshold all point to a full tear-off and a code-compliant rebuild on a post-fire structural assessment.",
     "ctaHeading": "Get a Fire-Damaged Roof Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the fire, heat, and water damage, meet the adjuster on site, and rebuild a Class A fire-rated [roof replacement](/roof-replacement) to a structural engineer's assessment.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the fire, heat, and water damage, meet the adjuster on site, and rebuild a Class A fire-rated [roof replacement](/roof-replacement-in-newark-nj) to a structural engineer's assessment.",
     "metaDescription": "Signs you need fire damage roof replacement: charred covering or framing, heat-weakened rafters, soaked decking, corroded connectors, and 25-30% area damage."
   },
   {
@@ -909,7 +909,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "A fire rebuild has no single sourced total: the covering follows New Jersey roof-replacement pricing of $10,000-$25,000 per HomeAdvisor and Modernize NJ, the structural framing and decking scope is sized by a post-fire assessment, and the insurance side is a covered-peril loss minus the homeowner's deductible per the Insurance Information Institute. A written estimate that separates the structural scope from the covering gives the only accurate figure for a specific home.",
     "ctaHeading": "Get a Written Fire-Rebuild Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that separates the structural framing and decking scope from the [roof replacement](/roof-replacement) covering, so you can compare the fire rebuild line by line.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that separates the structural framing and decking scope from the [roof replacement](/roof-replacement-in-newark-nj) covering, so you can compare the fire rebuild line by line.",
     "metaDescription": "Fire damage roof replacement has no single NJ total. NJ roof replacement runs $10,000-$25,000 for the covering; fire adds framing and decking work."
   },
   {
@@ -954,7 +954,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Understanding a fire-damaged roof as a structural-assembly problem clarifies the whole decision: the assembly requires a full tear-off, the rebuild extends as far as a post-fire structural assessment and current code direct, the new cover carries a verified fire rating and a two-part warranty, and the homeowner or a licensed public adjuster negotiates the claim while a registered, insured roofer documents the damage and rebuilds.",
     "ctaHeading": "Plan a Code-Compliant Fire Roof Rebuild",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the fire, heat, and water damage, meet the adjuster on site, and rebuild a Class A fire-rated roof to the structural assessment as part of a full [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the fire, heat, and water damage, meet the adjuster on site, and rebuild a Class A fire-rated roof to the structural assessment as part of a full [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "A fire-damaged roof is a structural problem needing a full tear-off, a code-compliant rebuild from a structural assessment, and a Class A fire-rated cover."
   },
   {
@@ -990,7 +990,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Read together, these signs separate a roof that a targeted repair can extend from one that has aged out across its field, lost the granules protecting its mat, or rotted its deck — the conditions that point to a full tear-off and asphalt shingle replacement.",
     "ctaHeading": "Get Your Asphalt Roof Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written assessment of your shingles, deck, and ventilation against the InterNACHI life-expectancy chart before any [roof replacement](/roof-replacement) decision.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written assessment of your shingles, deck, and ventilation against the InterNACHI life-expectancy chart before any [roof replacement](/roof-replacement-in-newark-nj) decision.",
     "metaDescription": "Signs you need asphalt shingle roof replacement: 20-yr 3-tab / 30-yr architectural age, 30%+ granule loss, 25%+ damage, or three repairs in two years."
   },
   {
@@ -1028,7 +1028,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Asphalt shingle roof replacement in New Jersey is best priced from the actual roof: the $5.50–$9.50 (3-tab) and $6.50–$11.00 (architectural) per-square-foot rates and the $10,000–$25,000 whole-home band set the honest range, while deck condition, ventilation, and roof complexity move the final number within it.",
     "ctaHeading": "Get a Free Written Asphalt Roof Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a free written estimate that itemizes scope, labor, materials, and timeline for your [roof replacement](/roof-replacement), with the deck and ventilation assessed before the price.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a free written estimate that itemizes scope, labor, materials, and timeline for your [roof replacement](/roof-replacement-in-newark-nj), with the deck and ventilation assessed before the price.",
     "metaDescription": "Asphalt shingle roof replacement in NJ runs $5.50–$11.00 per sq ft and $10,000–$25,000 for a typical home, per Josten, HomeAdvisor, and Modernize NJ data."
   },
   {
@@ -1073,7 +1073,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "The asphalt replacement decision comes down to committing to a true tear-off-and-rebuild — one that strips to the deck, repairs the sheathing, installs the code ice barrier, corrects ventilation, and preserves the material warranty by installing to specification — over a cheaper overlay that hides deck damage and shortens the new roof's life.",
     "ctaHeading": "Plan Your Asphalt Roof Replacement",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a documented deck-and-ventilation assessment and a written, itemized estimate for your [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a documented deck-and-ventilation assessment and a written, itemized estimate for your [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Asphalt roof replacement is a full tear-off to the deck, not an overlay. NJ code, the rebuild sequence, warranties, and what to confirm before hiring."
   },
   {
@@ -1110,7 +1110,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Taken together, an asphalt roof past its 20-to-30-year life, fastener and washer-seal failure on an existing metal roof, oil-canning on long runs, a rotted deck, and damage past the 25–30% threshold each point a roof past repair and toward a 40-to-80-year metal covering that ends the repeat-replacement cycle.",
     "ctaHeading": "Get Your Roof Assessed for Metal Replacement",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess the deck, slope, and asphalt lifespan against the InterNACHI life-expectancy chart and provide a free written estimate before any [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess the deck, slope, and asphalt lifespan against the InterNACHI life-expectancy chart and provide a free written estimate before any [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Signs you need metal roof replacement: asphalt past its 20-30-year life, metal fastener and seal failure, oil-canning, a rotted deck, or 25-30%+ damage."
   },
   {
@@ -1148,7 +1148,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Metal roof replacement prices per square foot at $9.00 to $16.00 or more in New Jersey against $6.50 to $11.00 for architectural asphalt, per Josten Roofing and NJ guide pricing, with the system, tear-off, and roof complexity setting the final figure on the measured roof — the higher upfront price buying a 40-to-80-year covering, per the InterNACHI life-expectancy chart.",
     "ctaHeading": "Get a Written Metal Roof Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes scope, labor, materials, and timeline for your metal [roof replacement](/roof-replacement) on the measured roof.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes scope, labor, materials, and timeline for your metal [roof replacement](/roof-replacement-in-newark-nj) on the measured roof.",
     "metaDescription": "Metal roof replacement runs $9.00-$16.00 per square foot in NJ vs $6.50-$11.00 for architectural asphalt, per Josten Roofing; tear-off adds to that."
   },
   {
@@ -1192,7 +1192,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Choosing metal is less about the panel color than about three conditions: matching the system to slope and the Essex County climate, a code-compliant tear-off that exposes and repairs the deck, and a manufacturer-spec install that preserves the material warranty and the contractor's workmanship warranty together. Those decisions are what turn a higher upfront price into a 40-to-80-year covering, per the InterNACHI life-expectancy chart.",
     "ctaHeading": "Plan Your Metal Roof Replacement",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess the deck, slope, and code triggers, then provide a free written estimate that names the metal system and lifespan. Explore our [roof replacement](/roof-replacement) options to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess the deck, slope, and code triggers, then provide a free written estimate that names the metal system and lifespan. Explore our [roof replacement](/roof-replacement-in-newark-nj) options to start.",
     "metaDescription": "Metal roof replacement buys a 40-to-80-year covering, but it pays off only with the right system, a code-compliant tear-off, and a manufacturer-spec install."
   },
   {
@@ -1229,7 +1229,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "A slate roof signals replacement when broken, cracked, missing, or sliding slate reaches 20% or more of a slope, when corroded fasteners and degraded flashing have failed across the roof, or when a spongy deck shows rotted sheathing — and below that, selective repair preserves a 60-to-150-year covering, per NPS Preservation Brief 29 and the National Slate Association.",
     "ctaHeading": "Get Your Slate Roof Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document your slate against the 20% replacement threshold and reinstall on copper or stainless fasteners — explore [slate roof replacement](/slate-roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document your slate against the 20% replacement threshold and reinstall on copper or stainless fasteners — explore [slate roof replacement](/slate-roof-replacement-in-newark-nj).",
     "metaDescription": "Signs you need slate roof replacement: 20%+ broken or sliding slate, corroded fasteners, degraded flashing, sugaring, or a spongy deck, per NPS Brief 29."
   },
   {
@@ -1267,7 +1267,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Slate roof replacement carries no single whole-job total: it runs $10 to $30 per square foot installed, roughly $1,500 per roofing square, plus $2 to $5 per square foot tear-off labor, with NJ ranges 10 to 40% above national figures, and natural-versus-synthetic slate and copper-class flashing setting where a given roof lands. A measured, written estimate is the only way to turn those per-square-foot figures into an accurate price.",
     "ctaHeading": "Get a Written Slate Roof Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that measures your slate roof and itemizes the per-square-foot installed, tear-off, and flashing scope, or explore your [roof replacement](/roof-replacement) options.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that measures your slate roof and itemizes the per-square-foot installed, tear-off, and flashing scope, or explore your [roof replacement](/roof-replacement-in-newark-nj) options.",
     "metaDescription": "Slate roof replacement in NJ has no flat total: $10-$30/sq ft installed (~$1,500/square) plus $2-$5/sq ft tear-off, with NJ 10-40% above national."
   },
   {
@@ -1304,7 +1304,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "The defining reality of slate replacement is that it renews a system, not a single material: a full tear-off that the code requires, a copper or stainless fastening and flashing system rebuilt to outlast the next century, and historic review where the building is a designated landmark — all in service of a 60-to-150-year covering whose stone usually outlives everything holding it up.",
     "ctaHeading": "Plan a Slate Roof Replacement in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the slate against the 20% threshold, reinstall on copper or stainless fasteners, and provide a free written estimate for your [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the slate against the 20% threshold, reinstall on copper or stainless fasteners, and provide a free written estimate for your [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Slate replacement is always a full tear-off under NJ code, and a slate roof fails at its fasteners and flashing, not the stone. What homeowners should know."
   },
   {
@@ -1341,7 +1341,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Across all of these signs the pattern is the same: the underlayment beneath the tile wears out decades before the tile, so leaks, slipped tile, failed flashing, a rotted deck, or a 50-plus-year roof on its original underlayment together point toward renewing the waterproofing system while salvaging or matching the long-lived tile.",
     "ctaHeading": "Have Your Tile Roof Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a documented assessment of the underlayment, flashing, and deck beneath your tile before planning a [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a documented assessment of the underlayment, flashing, and deck beneath your tile before planning a [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Signs you need tile roof replacement: leaks under intact tile, slipped tile, broken or spalling tile, failed flashing, a sagging deck, and attic daylight."
   },
   {
@@ -1378,7 +1378,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "A tile roof replacement in New Jersey runs $10,000 to $25,000 for a typical project, per HomeAdvisor and Modernize NJ cost data, or $10 to $20-plus per square foot for premium tile, per NHI Contractors, with the mandatory tear-off, tile class, and any structural reinforcement to carry the load setting where a specific roof falls in that range.",
     "ctaHeading": "Get a Free Written Tile Roof Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, providing a free written estimate that sets the scope, labor, materials, and timeline for your [tile roof replacement](/tile-roof-replacement) before any work begins.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, providing a free written estimate that sets the scope, labor, materials, and timeline for your [tile roof replacement](/tile-roof-replacement-in-newark-nj) before any work begins.",
     "metaDescription": "Tile roof replacement in NJ runs $10,000-$25,000, or $10-$20+ per square foot for premium tile. See the per-square-foot figures and cost drivers."
   },
   {
@@ -1416,7 +1416,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "The defining decision on a tile roof is that the underlayment, not the tile, sets the service life, so replacement renews the underlayment and flashing under a mandatory full tear-off on a structure verified to carry the tile load, with the contractor's registration, insurance, and written warranty confirmed first.",
     "ctaHeading": "Plan Your Tile Roof Replacement",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a documented structural and underlayment assessment and a clear, written plan for your tile [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a documented structural and underlayment assessment and a clear, written plan for your tile [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "On a tile roof the underlayment fails before the tile, so replacement renews it under a mandatory NJ tear-off on a structure verified for the tile load."
   },
   {
@@ -1494,7 +1494,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "A flat roof replacement in New Jersey reads as a per-square-foot membrane rate of $7 to $12 inside a typical $10,000 to $25,000 job, per Josten Roofing NJ pricing and HomeAdvisor and Modernize NJ cost data, with the membrane system, the slope correction, and the deck condition moving the final number that an itemized written estimate makes plain.",
     "ctaHeading": "Get a Written Flat Roof Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, providing a free written estimate that itemizes the membrane, slope correction, and deck work for your [flat roof replacement](/flat-roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, providing a free written estimate that itemizes the membrane, slope correction, and deck work for your [flat roof replacement](/flat-roof-replacement-in-newark-nj).",
     "metaDescription": "Flat roof replacement in NJ runs $7-$10/sq ft for EPDM and $8-$12 for TPO within a typical $10,000-$25,000 job, per Josten and HomeAdvisor data."
   },
   {
@@ -1530,7 +1530,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "A flat roof replacement succeeds when the new system corrects the slope to drain, matches the membrane and its lifespan to the building, and follows the NJ tear-off and warranty rules, so drainage and the right membrane, not the brand name, decide the outcome.",
     "ctaHeading": "Plan Your Flat Roof Replacement",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a documented deck, drainage, and membrane assessment and a free written estimate for your flat [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a documented deck, drainage, and membrane assessment and a free written estimate for your flat [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "A flat roof lives or dies by drainage and the membrane match: how slope correction, membrane lifespan, and NJ tear-off code decide a replacement."
   },
   {
@@ -1567,7 +1567,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "When a cedar roof passes its service life, cups and splits across more than 25 to 30% of the field, fails the flex test, or rots the deck beneath it, the signs together point past spot repair to a full tear-off and replacement.",
     "ctaHeading": "Have Your Cedar Roof Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a written assessment of your cedar roof and a clear plan for [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a written assessment of your cedar roof and a clear plan for [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Cedar roof replacement signs: past 20-40 year service life, widespread cupping, splitting over 25-30% of the field, failed flex test, or a rotted deck."
   },
   {
@@ -1603,7 +1603,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Cedar shake roof replacement is priced per square foot — $10 to $20-plus installed, per NHI Contractors NJ pricing — adjusted for cedar type, fire treatment, deck repair, and NJ's 10-to-40% labor premium, so a roof-specific written estimate is the only accurate total.",
     "ctaHeading": "Get a Written Cedar Roof Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that measures your cedar [roof replacement](/roof-replacement) and sets scope, labor, materials, and timeline in writing.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that measures your cedar [roof replacement](/roof-replacement-in-newark-nj) and sets scope, labor, materials, and timeline in writing.",
     "metaDescription": "Cedar shake roof replacement in NJ runs $10 to $20-plus per square foot installed, per NHI Contractors NJ pricing. What drives the cost and the NJ premium."
   },
   {
@@ -1646,7 +1646,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Before choosing cedar, a homeowner weighs three things the code and the material set: the cedar gets stripped to the deck under N.J.A.C. 5:23-6.4, untreated cedar carries no fire rating while fire-retardant cedar reaches only Class B or C as a product per the Cedar Shake & Shingle Bureau Certi-Guard program, and the ventilated nailing base governs how long the new wood lasts.",
     "ctaHeading": "Plan Your Cedar Roof Replacement",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a written estimate that sets the cedar type, fire class, tear-off scope, and ventilated base for your [roof replacement](/roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a written estimate that sets the cedar type, fire class, tear-off scope, and ventilated base for your [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Cedar shake roof replacement decision guide: NJ requires a full tear-off to the deck, untreated cedar carries no fire rating, and ventilation sets its life."
   }
 ];

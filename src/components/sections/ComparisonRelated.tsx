@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 import type { Comparison } from '@/lib/types';
 import { services } from '@/data/services';
 
@@ -93,7 +94,7 @@ export function ComparisonRelated({ comparison }: ComparisonRelatedProps) {
           {relatedServices.map((service) => (
             <Link
               key={service.slug}
-              href={`/${service.slug}`}
+              href={`/${generateServicePageSlug(service.slug)}`}
               className="group rounded-lg border border-border bg-white p-6 transition-all hover:border-copper hover:shadow-md focus-visible:ring-2 focus-visible:ring-copper focus-visible:outline-none"
             >
               <h3 className="font-heading text-lg font-bold text-forest transition-colors group-hover:text-copper">

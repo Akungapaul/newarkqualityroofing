@@ -41,35 +41,35 @@ export const commercialRoofingHubContent: HubContent = {
         "links": [
           {
             "text": "TPO Roofing Installation",
-            "href": "/tpo-roofing-installation"
+            "href": "/tpo-roofing-installation-in-newark-nj"
           },
           {
             "text": "EPDM Commercial Roofing",
-            "href": "/epdm-commercial-roofing"
+            "href": "/epdm-commercial-roofing-in-newark-nj"
           },
           {
             "text": "PVC Roofing",
-            "href": "/pvc-roofing"
+            "href": "/pvc-roofing-in-newark-nj"
           },
           {
             "text": "Modified Bitumen Roofing",
-            "href": "/modified-bitumen-roofing"
+            "href": "/modified-bitumen-roofing-in-newark-nj"
           },
           {
             "text": "Built-Up Roofing",
-            "href": "/built-up-roofing"
+            "href": "/built-up-roofing-in-newark-nj"
           },
           {
             "text": "Commercial Metal Roofing",
-            "href": "/commercial-metal-roofing"
+            "href": "/commercial-metal-roofing-in-newark-nj"
           },
           {
             "text": "Spray Foam Roofing",
-            "href": "/spray-foam-roofing"
+            "href": "/spray-foam-roofing-in-newark-nj"
           },
           {
             "text": "Green Roof Installation",
-            "href": "/green-roof-installation"
+            "href": "/green-roof-installation-in-newark-nj"
           }
         ]
       },
@@ -78,23 +78,23 @@ export const commercialRoofingHubContent: HubContent = {
         "links": [
           {
             "text": "Commercial Roof Installation",
-            "href": "/commercial-roof-installation"
+            "href": "/commercial-roof-installation-in-newark-nj"
           },
           {
             "text": "Commercial Roof Repair",
-            "href": "/commercial-roof-repair"
+            "href": "/commercial-roof-repair-in-newark-nj"
           },
           {
             "text": "Commercial Roof Replacement",
-            "href": "/commercial-roof-replacement"
+            "href": "/commercial-roof-replacement-in-newark-nj"
           },
           {
             "text": "Roof Thermal Imaging Inspections",
-            "href": "/roof-thermal-imaging-inspections"
+            "href": "/roof-thermal-imaging-inspections-in-newark-nj"
           },
           {
             "text": "Infrared Roof Leak Detection",
-            "href": "/infrared-roof-leak-detection"
+            "href": "/infrared-roof-leak-detection-in-newark-nj"
           }
         ]
       }

@@ -95,12 +95,12 @@ export function HomeWhyChooseUs() {
             roofing services with <em>transparency, expertise, and local accountability</em>.
             Whatever your roof repair or replacement needs,{' '}
             <Link href="/about" className="text-copper underline hover:text-copper-dark">learn about our story</Link>,{' '}
-            <Link href="/roof-inspection" className="text-copper underline hover:text-copper-dark">schedule a visit</Link>, or{' '}
-            <Link href="/storm-damage-roof-repair" className="text-copper underline hover:text-copper-dark">get storm damage help</Link>.
+            <Link href="/roof-inspection-in-newark-nj" className="text-copper underline hover:text-copper-dark">schedule a visit</Link>, or{' '}
+            <Link href="/storm-damage-roof-repair-in-newark-nj" className="text-copper underline hover:text-copper-dark">get storm damage help</Link>.
             You can also explore our{' '}
-            <Link href="/roof-maintenance-programs" className="text-copper underline hover:text-copper-dark">maintenance programs</Link>,{' '}
-            <Link href="/gutter-installation-repair" className="text-copper underline hover:text-copper-dark">gutter services</Link>, and{' '}
-            <Link href="/skylight-installation-repair" className="text-copper underline hover:text-copper-dark">skylight installations</Link>.
+            <Link href="/roof-maintenance-programs-in-newark-nj" className="text-copper underline hover:text-copper-dark">maintenance programs</Link>,{' '}
+            <Link href="/gutter-installation-repair-in-newark-nj" className="text-copper underline hover:text-copper-dark">gutter services</Link>, and{' '}
+            <Link href="/skylight-installation-repair-in-newark-nj" className="text-copper underline hover:text-copper-dark">skylight installations</Link>.
           </p>
         </div>
 

@@ -4,7 +4,7 @@ import { cities } from '@/data/cities';
 import { corePages } from '@/data/core-pages';
 import { comparisons } from '@/data/comparisons';
 import { combos } from '@/data/combos';
-import { generateCityPageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
 
 // ─── Category labels for service grouping ───────────────────────────────────
 
@@ -132,7 +132,7 @@ export default function SitemapPage() {
                       {serviceGroups.get(cat)!.map((service) => (
                         <li key={service.id}>
                           <a
-                            href={`/${service.slug}`}
+                            href={`/${generateServicePageSlug(service.slug)}`}
                             className="font-body text-sm text-copper underline-offset-2 hover:underline"
                           >
                             {service.name}

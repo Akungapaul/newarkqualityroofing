@@ -3,6 +3,7 @@ import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
 import { parseRichText } from '@/lib/rich-text';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 import { getServiceHeroImage, getCityHeroImage } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import type { Service, City } from '@/lib/types';
@@ -94,7 +95,7 @@ export function ComboHero({ service, city, serviceGroups, directAnswer }: ComboH
         <Breadcrumbs
           items={[
             { label: 'Home', href: '/' },
-            { label: service.name, href: `/${service.slug}` },
+            { label: service.name, href: `/${generateServicePageSlug(service.slug)}` },
             { label: `${service.name} in ${city.name}` },
           ]}
         />

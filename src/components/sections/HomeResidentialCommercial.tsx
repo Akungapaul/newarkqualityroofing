@@ -86,7 +86,7 @@ export function HomeResidentialCommercial() {
             </div>
             <div className="mt-8">
               <Link
-                href="/residential-roof-installation"
+                href="/residential-roof-installation-in-newark-nj"
                 className="inline-flex items-center gap-2 rounded-md bg-copper px-6 py-3 font-heading text-base font-semibold text-text-on-copper transition-colors hover:bg-copper-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2"
               >
                 Residential Services
@@ -152,7 +152,7 @@ export function HomeResidentialCommercial() {
             </div>
             <div className="mt-8">
               <Link
-                href="/commercial-roof-installation"
+                href="/commercial-roof-installation-in-newark-nj"
                 className="inline-flex items-center gap-2 rounded-md bg-copper px-6 py-3 font-heading text-base font-semibold text-text-on-copper transition-colors hover:bg-copper-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2"
               >
                 Commercial Services

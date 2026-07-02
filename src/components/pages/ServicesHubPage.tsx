@@ -2,6 +2,7 @@ import { services } from '@/data/services';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import Link from 'next/link';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 
 // ─── Category labels and order ──────────────────────────────────────────────
 
@@ -112,7 +113,7 @@ function ServiceSection({
                 {grouped.get(cat)!.map((service) => (
                   <Link
                     key={service.id}
-                    href={`/${service.slug}`}
+                    href={`/${generateServicePageSlug(service.slug)}`}
                     className={`group flex flex-col justify-between rounded-lg border p-4 transition-shadow hover:shadow-md ${
                       isCommercial
                         ? 'border-parchment/20 bg-forest/60 hover:border-copper'

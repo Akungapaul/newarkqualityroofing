@@ -88,8 +88,8 @@ export function HeroSection() {
             </p>
             <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 font-body text-sm text-parchment/70">
               <Link href="/roofing-services" className="underline text-copper-light hover:text-copper">All Services</Link>
-              <Link href="/roof-replacement" className="underline text-copper-light hover:text-copper">Replacements</Link>
-              <Link href="/commercial-roof-installation" className="underline text-copper-light hover:text-copper">Commercial</Link>
+              <Link href="/roof-replacement-in-newark-nj" className="underline text-copper-light hover:text-copper">Replacements</Link>
+              <Link href="/commercial-roof-installation-in-newark-nj" className="underline text-copper-light hover:text-copper">Commercial</Link>
               <Link href="/contact" className="underline text-copper-light hover:text-copper">Contact Us</Link>
             </div>
           </AnimateIn>

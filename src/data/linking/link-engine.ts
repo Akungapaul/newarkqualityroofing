@@ -2,7 +2,7 @@ import { cities } from '@/data/cities';
 import { services } from '@/data/services';
 import { comparisons } from '@/data/comparisons';
 import { articles, type Article } from '@/data/articles';
-import { generateComboSlug, generateCityPageSlug } from '@/lib/slug-utils';
+import { generateComboSlug, generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
 import { isKeep } from '@/data/url-classification';
 import type { Service, City } from '@/lib/types';
 
@@ -192,7 +192,7 @@ export function getParentPageLinks(service: Service, city: City): ParentPageLink
   return {
     servicePage: {
       name: service.name,
-      slug: `/${service.slug}`,
+      slug: `/${generateServicePageSlug(service.slug)}`,
     },
     cityPage: {
       name: `Roofing in ${city.name}`,
@@ -213,7 +213,7 @@ function resolveMoneyPageSlug(article: Article): string {
   switch (article.parentType) {
     case 'service': {
       const service = serviceById.get(article.parentId);
-      return service ? `/${service.slug}` : '/';
+      return service ? `/${generateServicePageSlug(service.slug)}` : '/';
     }
     case 'comparison': {
       const comparison = comparisonById.get(article.parentId);

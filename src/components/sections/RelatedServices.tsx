@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 import { getServiceAnchorText } from '@/data/linking/anchor-text';
 
 interface RelatedService {
@@ -31,7 +32,7 @@ export function RelatedServices({ heading, services }: RelatedServicesProps) {
           {services.map((service, index) => (
             <Link
               key={service.slug}
-              href={`/${service.slug}`}
+              href={`/${generateServicePageSlug(service.slug)}`}
               className="group rounded-lg border border-border bg-white p-6 transition-all hover:border-copper hover:shadow-md focus-visible:ring-2 focus-visible:ring-copper focus-visible:outline-none"
             >
               <span className="block font-heading text-lg font-bold text-forest transition-colors group-hover:text-copper">

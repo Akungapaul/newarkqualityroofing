@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import Link from 'next/link';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 import Image from 'next/image';
 import type { NavServiceGroup, NavCityItem, NavComparisonGroup } from '@/data/nav-data';
 import { MobileMenu } from './MobileMenu';
@@ -127,7 +128,7 @@ function ServicesMegaMenu({
               {group.services.map((service) => (
                 <li key={service.slug}>
                   <Link
-                    href={`/${service.slug}`}
+                    href={`/${generateServicePageSlug(service.slug)}`}
                     onClick={onClose}
                     className="block rounded px-2 py-1 font-body text-sm text-text-primary transition-colors duration-150 hover:bg-forest/5 hover:text-forest focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
                     role="menuitem"

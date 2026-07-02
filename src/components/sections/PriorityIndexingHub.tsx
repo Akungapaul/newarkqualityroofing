@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { cities } from '@/data/cities';
 import { services } from '@/data/services';
 import { PRIORITY_CITY_IDS, PRIORITY_SERVICE_IDS, PRIORITY_COMBO_PAIRS } from '@/data/seo-priority';
-import { generateCityPageSlug, generateComboSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateComboSlug, generateServicePageSlug } from '@/lib/slug-utils';
 
 const gscPriorityLinks = [
   { href: '/roof-repair-newark-nj', label: 'Roof repair in Newark', note: 'Fast fixes for leaks, missing shingles, and storm damage.' },
@@ -66,7 +66,7 @@ export function PriorityIndexingHub() {
             <ul className="mt-4 space-y-2">
               {priorityServices.map((service) => (
                 <li key={service.id}>
-                  <Link href={`/${service.slug}`} className="font-body text-sm text-copper underline-offset-2 hover:underline">
+                  <Link href={`/${generateServicePageSlug(service.slug)}`} className="font-body text-sm text-copper underline-offset-2 hover:underline">
                     {service.name}
                   </Link>
                 </li>

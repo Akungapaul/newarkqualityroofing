@@ -45,7 +45,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Interior stains near a chimney, skylight, or roof-to-wall junction, visibly rusted or lifted metal, cracked sealant at the laps, a continuous one-piece strip, and damp valley or penetration decking each point to flashing that has failed and is letting water into the roof. Catching these signs early limits the repair to the transition itself before water reaches the deck and framing.",
     "ctaHeading": "Get a Flashing Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect chimneys, skylights, valleys, and roof-to-wall junctions, identify the failed detail, and explain what the repair involves. Request a free written estimate for [Roof Flashing Installation Repair](/roof-flashing-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect chimneys, skylights, valleys, and roof-to-wall junctions, identify the failed detail, and explain what the repair involves. Request a free written estimate for [Roof Flashing Installation Repair](/roof-flashing-installation-repair-in-newark-nj).",
     "metaDescription": "Signs you need roof flashing repair: stains near chimneys and skylights, rusted or lifted metal, cracked sealant, and damp valley or penetration decking."
   },
   {
@@ -82,7 +82,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "A flashing reseal or small section repair runs $200 to $500 per Modernize, while chimney rebuilds, valley rebuilds, and full re-roof flashing replacements cost more with no fixed total, and New Jersey figures sit 10 to 40 percent above national averages per Integrity Home Exteriors. A free written estimate prices the exact detail on the roof.",
     "ctaHeading": "Get a Written Flashing Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the failing flashing detail and itemize the labor and materials so you see exactly what drives the price. Request a free written estimate for [Roof Flashing Installation Repair](/roof-flashing-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the failing flashing detail and itemize the labor and materials so you see exactly what drives the price. Request a free written estimate for [Roof Flashing Installation Repair](/roof-flashing-installation-repair-in-newark-nj).",
     "metaDescription": "Roof flashing repair in NJ: a reseal or small section runs $200-$500 (Modernize); chimney and valley rebuilds cost more. Free written estimate."
   },
   {
@@ -120,7 +120,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Flashing seals the transitions where most roof leaks begin, governed by IRC R905.2.8.5, R903.2.1, R905.1.2, and ASTM D1970, so a homeowner who recognizes woven step flashing, a kickout, and a two-part chimney system can judge whether a repair or a full re-roof is the sounder choice.",
     "ctaHeading": "Get a Flashing Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect step, counter, valley, kickout, and chimney flashing against IRC R905.2.8.5 and R903.2.1, then recommend a localized repair or a full re-flash. Request a free written estimate for [Roof Flashing Installation Repair](/roof-flashing-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect step, counter, valley, kickout, and chimney flashing against IRC R905.2.8.5 and R903.2.1, then recommend a localized repair or a full re-flash. Request a free written estimate for [Roof Flashing Installation Repair](/roof-flashing-installation-repair-in-newark-nj).",
     "metaDescription": "What to know about roof flashing in NJ: the 8 types, IRC R905.2.8.5 drip edge, R903.2.1 kickout, ASTM D1970, and when to repair versus replace."
   },
   {
@@ -156,7 +156,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Stains near the chimney, rusted or lifted step flashing, counter flashing loose from the mortar joint, cracked base caulk, a tell-tale continuous strip, or upslope ice backup each mark a specific failed transition, and an inspection identifies which one leaks before any repair.",
     "ctaHeading": "Get a Chimney Flashing Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We trace the failed transition before resealing and rebuild both metal layers rather than caulking over the symptom. Request a free written estimate for [Chimney Flashing Repair](/chimney-flashing-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We trace the failed transition before resealing and rebuild both metal layers rather than caulking over the symptom. Request a free written estimate for [Chimney Flashing Repair](/chimney-flashing-repair-in-newark-nj).",
     "metaDescription": "Signs you need chimney flashing repair: ceiling stains near the chimney, rusted step flashing, loose counter flashing, cracked base caulk, upslope ice backup."
   },
   {
@@ -194,7 +194,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Chimney flashing repair runs $300 to $1,800 (most $400 to $1,600), a spot reseal $150 to $300 per HomeGuide and Angi, and a reseal or small section $200 to $500 per Modernize; the reglet cut, cricket, and membrane that make the repair permanent decide where within that bracket one chimney lands.",
     "ctaHeading": "Get a Written Chimney Flashing Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We diagnose the failed transition, then itemize the reglet cut, cricket, and membrane against the named per-repair ranges. Request a free written estimate for [Chimney Flashing Repair](/chimney-flashing-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We diagnose the failed transition, then itemize the reglet cut, cricket, and membrane against the named per-repair ranges. Request a free written estimate for [Chimney Flashing Repair](/chimney-flashing-repair-in-newark-nj).",
     "metaDescription": "Chimney flashing repair costs $300-$1,800 (most $400-$1,600), spot reseal $150-$300 per HomeGuide and Angi. NJ pricing factors and a free written estimate."
   },
   {
@@ -239,7 +239,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Chimney flashing repair is a metal-rebuild discipline, not a caulking job: the NRCA two-part system, the IRC cricket rule, and the repair-versus-replace thresholds give a homeowner the questions that separate a lasting fix from a temporary patch.",
     "ctaHeading": "Get a Chimney Flashing Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace the failed transition, rebuild both metal layers, and add a cricket where the chimney width calls for one. Request a free written estimate for [Chimney Flashing Repair](/chimney-flashing-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace the failed transition, rebuild both metal layers, and add a cricket where the chimney width calls for one. Request a free written estimate for [Chimney Flashing Repair](/chimney-flashing-repair-in-newark-nj).",
     "metaDescription": "Chimney flashing repair rebuilds the NRCA two-part metal system: woven step flashing plus counter flashing in a reglet. What to know before you hire in NJ."
   },
   {
@@ -280,7 +280,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Overflow, sagging, soft fascia, foundation pooling, joint leaks, and standing trough water each point to a defined gutter failure, and reading them against the system's age and material shows whether a targeted repair or a full replacement is the sound move.",
     "ctaHeading": "Get a Gutter Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect overflow, sagging, seam leaks, and fascia damage, then explain whether a repair or replacement fits. Request a free written estimate for [Gutter Installation Repair](/gutter-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect overflow, sagging, seam leaks, and fascia damage, then explain whether a repair or replacement fits. Request a free written estimate for [Gutter Installation Repair](/gutter-installation-repair-in-newark-nj).",
     "metaDescription": "Signs you need gutter repair or replacement: overflow during rain, sagging from the fascia, soft fascia and soffit, foundation pooling, and seam leaks."
   },
   {
@@ -317,7 +317,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Gutter pricing in New Jersey scales with linear footage, material, and the specific repair rather than a single flat total, so a measured, written estimate is the accurate way to plan the cost.",
     "ctaHeading": "Get a Free Written Gutter Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We measure your runs, identify any fascia or hanger condition behind the problem, and price the work in writing. Request a free written estimate for [Gutter Installation Repair](/gutter-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We measure your runs, identify any fascia or hanger condition behind the problem, and price the work in writing. Request a free written estimate for [Gutter Installation Repair](/gutter-installation-repair-in-newark-nj).",
     "metaDescription": "Gutter installation runs $12-$25 per linear foot and repair $100-$450 (avg ~$275) per HomeGuide. NJ pricing by material, profile, and repair type explained."
   },
   {
@@ -361,7 +361,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "A gutter system earns its place by keeping water off the fascia and soffit and away from the foundation, so verifying the profile, seam construction, slope, hangers, and discharge before installation, and reading material against the InterNACHI service life when weighing repair against replacement, keeps an Essex County home dry through the seasons.",
     "ctaHeading": "Plan Your Gutter Project in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess your fascia, soffit, slope, and downspout routing, then size the system to your roof. Request a free written estimate for [Gutter Installation & Repair](/gutter-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess your fascia, soffit, slope, and downspout routing, then size the system to your roof. Request a free written estimate for [Gutter Installation & Repair](/gutter-installation-repair-in-newark-nj).",
     "metaDescription": "How a gutter system protects fascia, soffit, and foundation, when to repair vs replace, sizing, slope, and cleaning cadence for NJ homes, with named sources."
   },
   {
@@ -397,7 +397,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Clogging within days of a cleaning, cleaning needed more than twice a year, debris-weighted sagging, and fascia or soffit stains are the grounded signs an open gutter cannot keep its trough clear. Ice at the eave is not among them, since an ice dam traces to attic heat loss rather than the gutter.",
     "ctaHeading": "Get a Gutter Guard Assessment in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We inspect your gutters, correct any sagging or leaking run first, and match the guard type to your debris load. Request a free written estimate for [Gutter Guard Installation](/gutter-guard-installation).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We inspect your gutters, correct any sagging or leaking run first, and match the guard type to your debris load. Request a free written estimate for [Gutter Guard Installation](/gutter-guard-installation-in-newark-nj).",
     "metaDescription": "Signs you need gutter guards: clogs within days of cleaning, cleaning more than twice a year, debris-weighted sagging, and fascia or soffit stains."
   },
   {
@@ -435,7 +435,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Installed gutter guards in New Jersey run roughly $22 to $26 per linear foot, about $4,300 to $5,200 for a 200-foot run per This Old House, with screen at $1 to $4 and micro-mesh at about $9 per linear foot per Angi, and a free written estimate prices your specific run, guard type, and gutter condition.",
     "ctaHeading": "Get a Free Written Gutter Guard Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We measure your roofline, match the guard type to your debris load, and correct any failing gutter before fitting the guard. Request a free written estimate for [Gutter Guard Installation](/gutter-guard-installation).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We measure your roofline, match the guard type to your debris load, and correct any failing gutter before fitting the guard. Request a free written estimate for [Gutter Guard Installation](/gutter-guard-installation-in-newark-nj).",
     "metaDescription": "Installed gutter guards in NJ run roughly $22-$26 per foot, about $4,300-$5,200 for 200 feet (This Old House); screen $1-$4/ft, micro-mesh ~$9/ft (Angi)."
   },
   {
@@ -472,7 +472,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "A gutter guard earns its place by matching the debris load, fitting over a gutter that has been corrected first, and easing the cleaning cadence rather than ending it. Read every warranty against the durability of the type, and treat ice-dam control as a separate job rooted in the attic.",
     "ctaHeading": "Get Gutter Guards Installed in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey, and Essex County. We reseat sagging runs and reseal open joints before fitting the guard your debris load calls for. Request a free written estimate for [Gutter Guard Installation](/gutter-guard-installation).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey, and Essex County. We reseat sagging runs and reseal open joints before fitting the guard your debris load calls for. Request a free written estimate for [Gutter Guard Installation](/gutter-guard-installation-in-newark-nj).",
     "metaDescription": "What to know about gutter guard installation in NJ: the 5 guard types, how much cleaning a guard really saves, and what to verify before you install."
   },
   {
@@ -515,7 +515,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Reading these signs in order, rain-driven staining at the frame points to failed flashing, fog between the panes points to a failed glass seal, and cold-weather moisture that clears points to condensation, lets a homeowner match the right repair to the actual failure.",
     "ctaHeading": "Get a Skylight Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We diagnose the source of a skylight leak and match the flashing kit to the mounting type and roof covering. Request a free written estimate for [Skylight Installation & Repair](/skylight-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We diagnose the source of a skylight leak and match the flashing kit to the mounting type and roof covering. Request a free written estimate for [Skylight Installation & Repair](/skylight-installation-repair-in-newark-nj).",
     "metaDescription": "Signs you need skylight repair: rain-driven staining at the frame (failed flashing), fog between the panes (failed seal), and cold-weather condensation."
   },
   {
@@ -552,7 +552,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Skylight pricing in New Jersey splits into installation at $1,600 to $4,200, replacement at $800 to $2,400 per HomeGuide, and leak repair at $225 to $800 per Angi and Modernize, with the final figure set by the unit, the mounting, and the depth of the work.",
     "ctaHeading": "Get a Written Skylight Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We diagnose the leak or the failed unit, match the flashing kit to your mounting type and roof covering, and price the work in writing. Request a free written estimate for [Skylight Installation Repair](/skylight-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We diagnose the leak or the failed unit, match the flashing kit to your mounting type and roof covering, and price the work in writing. Request a free written estimate for [Skylight Installation Repair](/skylight-installation-repair-in-newark-nj).",
     "metaDescription": "Skylight cost in NJ: new install $1,600-$4,200, replacement $800-$2,400 (HomeGuide), leak repair $225-$800 (Angi, Modernize). Free written estimate."
   },
   {
@@ -597,7 +597,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "A skylight lasts 10 to 20 years, leaks at the flashing rather than the glass, and stays watertight only through an engineered kit matched to its mounting type and roof covering. Verifying that match, and the warranty that depends on it, is the homeowner's surest protection.",
     "ctaHeading": "Plan a Watertight Skylight Project in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We match the flashing kit to the unit, mounting type, and roof covering so the manufacturer warranty stays intact. Request a free written estimate for [Skylight Installation Repair](/skylight-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We match the flashing kit to the unit, mounting type, and roof covering so the manufacturer warranty stays intact. Request a free written estimate for [Skylight Installation Repair](/skylight-installation-repair-in-newark-nj).",
     "metaDescription": "A skylight lasts 10-20 years and leaks at the flashing, not the glass. Learn mounting types, the IRC R308.6.8 curb rule, condensation, and what to verify."
   },
   {
@@ -635,7 +635,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Read together, peeling paint, soft and discolored wood, surface cracks, and sagging or gapping gutters all trace back to water reaching the fascia, and catching them early keeps the rot from spreading into the rafter-tail ends behind the board.",
     "ctaHeading": "Get Your Fascia and Gutter Line Inspected in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. If your gutters are sagging or the eave paint is peeling, we trace the water source and assess the board before it spreads. Request a free written estimate for [Fascia Installation Repair](/fascia-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. If your gutters are sagging or the eave paint is peeling, we trace the water source and assess the board before it spreads. Request a free written estimate for [Fascia Installation Repair](/fascia-installation-repair-in-newark-nj).",
     "metaDescription": "Signs you need fascia repair: peeling paint, soft discolored wood, cracks, and sagging gutters at the eave, per Ledegar Roofing, InterNACHI, and HB Elements."
   },
   {
@@ -673,7 +673,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Fascia pricing comes down to board length, the four-material upkeep-versus-durability trade-off, the gutter remount, and any hidden rafter-tail rot, so the only accurate number is a written estimate that measures the eave rather than a flat per-foot rate.",
     "ctaHeading": "Get a Written Fascia Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We measure the failing board, identify any hidden rafter-tail rot, and price the material and gutter remount in plain language. Request a free written estimate for [Fascia Installation Repair](/fascia-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We measure the failing board, identify any hidden rafter-tail rot, and price the material and gutter remount in plain language. Request a free written estimate for [Fascia Installation Repair](/fascia-installation-repair-in-newark-nj).",
     "metaDescription": "Fascia repair in NJ has no fixed price: cost depends on board length, material, gutter remount, and hidden rafter-tail rot. Get a free written estimate."
   },
   {
@@ -717,7 +717,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Fascia work succeeds when it corrects the water path that caused the rot, replaces the board in a material matched to the home, and remounts the gutters to sound wood with the drip edge draining clear of the eave.",
     "ctaHeading": "Get a Fascia Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace the water source, replace the board in the material that fits your home, and remount the gutters to sound wood. Request a free written estimate for [Fascia Installation Repair](/fascia-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace the water source, replace the board in the material that fits your home, and remount the gutters to sound wood. Request a free written estimate for [Fascia Installation Repair](/fascia-installation-repair-in-newark-nj).",
     "metaDescription": "Fascia closes the rafter-tail ends and carries the gutters; it fails from water. What a sound repair, the 4 materials, and the drip edge involve in NJ."
   },
   {
@@ -753,7 +753,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Read the signs together: visible rotted or vent-blocked soffit at the eave and attic-side condensation, frost, or mold on the sheathing both trace back to a blocked intake on a system that runs about half its airflow through the soffit. A close inspection of the eave and the attic confirms whether the soffit, the fascia, or the deck behind them needs work.",
     "ctaHeading": "Get a Soffit and Eave Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the eave and the attic together to trace soffit rot, blocked intake, and any fascia or deck damage behind the panel. Request a free written estimate for [Soffit Installation Repair](/soffit-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the eave and the attic together to trace soffit rot, blocked intake, and any fascia or deck damage behind the panel. Request a free written estimate for [Soffit Installation Repair](/soffit-installation-repair-in-newark-nj).",
     "metaDescription": "Signs you need soffit repair: rotted board, clogged or painted vents, pest gaps, and attic condensation, frost, or mold from a blocked soffit intake."
   },
   {
@@ -791,7 +791,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Soffit installation and repair carries no flat New Jersey total; soffit length, material class, hidden rafter-tail and fascia rot, baffle work, and gutter tie-in set the figure, which a free written estimate establishes after the eave is inspected.",
     "ctaHeading": "Get a Free Written Soffit Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the eave, check for rafter-tail and fascia rot behind the panel, and price the material and ventilation work line by line. Request a free written estimate for [Soffit Installation Repair](/soffit-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the eave, check for rafter-tail and fascia rot behind the panel, and price the material and ventilation work line by line. Request a free written estimate for [Soffit Installation Repair](/soffit-installation-repair-in-newark-nj).",
     "metaDescription": "Soffit installation and repair in NJ has no fixed total; soffit length, material, hidden rot, baffles, and fascia tie-in set the price. Free written estimate."
   },
   {
@@ -829,7 +829,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "The soffit feeds the intake side of a balanced attic, sized to the IRC R806.2 1/150 ratio in Newark and Essex County, so a clear, intact, properly sized soffit protects the deck and trim above it. A free written estimate sets the cost by soffit length, material, and any hidden rafter-tail rot.",
     "ctaHeading": "Get a Soffit and Eave Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the soffit, fascia, and attic intake together, then size the vented area to the IRC 1/150 ratio for Newark homes. Request a free written estimate for [Soffit Installation Repair](/soffit-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the soffit, fascia, and attic intake together, then size the vented area to the IRC 1/150 ratio for Newark homes. Request a free written estimate for [Soffit Installation Repair](/soffit-installation-repair-in-newark-nj).",
     "metaDescription": "What to know about soffit installation and repair: the soffit feeds the primary attic intake, sized to the IRC R806.2 1/150 ratio in Newark and Essex County."
   },
   {
@@ -867,7 +867,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "A hot or damp attic, eave ice dams, mismatched exhaust vents, and blocked soffit intake each signal a ventilation system that is undersized, unbalanced, or wrongly combined, and an inspection identifies which correction restores the eave-to-ridge airflow.",
     "ctaHeading": "Get a Roof Ventilation Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We inspect attic intake and exhaust, confirm net free area sizing, and correct short-circuited or blocked venting. Request a free written estimate for [Roof Vent Installation Repair](/roof-vent-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We inspect attic intake and exhaust, confirm net free area sizing, and correct short-circuited or blocked venting. Request a free written estimate for [Roof Vent Installation Repair](/roof-vent-installation-repair-in-newark-nj).",
     "metaDescription": "Signs you need roof vent repair: a hot or damp attic, eave ice dams, two exhaust vents over one attic, and blocked soffit intake (IRC R806.2; NRCA)."
   },
   {
@@ -903,7 +903,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Roof vent installation and repair is priced by system scope, not a flat fee: attic floor area sets the required net free area under IRC R806.2, ridge and soffit prices follow linear footage, and intake repair, removing a redundant exhaust, or a commercial permit each add to the written estimate.",
     "ctaHeading": "Get a Free Written Estimate for Roof Vent Work in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect your attic, size the net free area to IRC R806.2, and document a single balanced exhaust type before quoting. Request a free written estimate for [Roof Vent Installation Repair](/roof-vent-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect your attic, size the net free area to IRC R806.2, and document a single balanced exhaust type before quoting. Request a free written estimate for [Roof Vent Installation Repair](/roof-vent-installation-repair-in-newark-nj).",
     "metaDescription": "Roof vent installation and repair in NJ is priced by system scope, not a flat fee. Cost drivers: net free area, ridge and soffit footage, permits."
   },
   {
@@ -948,7 +948,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "A roof vent system that draws air from soffit to ridge, runs a single balanced exhaust type, and meets the 1/150 net-free-area minimum under IRC R806.2 moves heat and moisture out the way the code and the manufacturers intend.",
     "ctaHeading": "Get a Roof Ventilation Assessment in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We inspect intake and exhaust, check net free area against IRC R806.2, and correct short-circuited or undersized systems. Request a free written estimate for [Roof Vent Installation Repair](/roof-vent-installation-repair).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We inspect intake and exhaust, check net free area against IRC R806.2, and correct short-circuited or undersized systems. Request a free written estimate for [Roof Vent Installation Repair](/roof-vent-installation-repair-in-newark-nj).",
     "metaDescription": "How NJ roof ventilation works: balanced soffit intake and ridge exhaust, one exhaust type per attic, and the IRC R806.2 1/150 net-free-area minimum."
   },
   {
@@ -983,7 +983,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "The signs of a roof that needs waterproofing share one pattern: water reaching the deck at the eaves, valleys, penetrations, or low-slope sections where the layer beneath the covering was left water-resistant rather than sealed. Catching these symptoms before the deck rots keeps the repair to the membrane rather than the structure.",
     "ctaHeading": "Schedule a Roof Waterproofing Assessment in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We inspect the eaves, valleys, penetrations, and low-slope sections, then apply IBHS-approved sealing methods to keep water at the deck. Request a free written estimate for [Roof Waterproofing](/roof-waterproofing).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark, New Jersey and Essex County. We inspect the eaves, valleys, penetrations, and low-slope sections, then apply IBHS-approved sealing methods to keep water at the deck. Request a free written estimate for [Roof Waterproofing](/roof-waterproofing-in-newark-nj).",
     "metaDescription": "Signs you need roof waterproofing: eave stains after a thaw, damp valley decking, felt-only underlayment, and ponding over 48 hours on a low-slope roof."
   },
   {
@@ -1021,7 +1021,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Roof waterproofing is priced by roof size, sealing method, and the membrane zones a roof needs, so a free written estimate after an inspection is the only accurate number; per IBHS, the work it covers cuts water entry into the home by as much as 95 percent.",
     "ctaHeading": "Get a Free Written Roof Waterproofing Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the deck, eaves, valleys, and low-slope sections, then quote the sealing methods your roof needs and bond membrane to manufacturer-approved details to keep a system warranty intact. Request a free written estimate for [Roof Waterproofing](/roof-waterproofing).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the deck, eaves, valleys, and low-slope sections, then quote the sealing methods your roof needs and bond membrane to manufacturer-approved details to keep a system warranty intact. Request a free written estimate for [Roof Waterproofing](/roof-waterproofing-in-newark-nj).",
     "metaDescription": "Roof waterproofing has no fixed NJ price; cost tracks roof size and sealing method. See the factors and IBHS data, then get a free written estimate."
   },
   {
@@ -1066,7 +1066,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Roof waterproofing seals the deck, eaves, valleys, penetrations, and low-slope details so water past the covering stops at the deck, and the IBHS 95-percent and 750-gallon figures show why it matters in a climate that produces ice dams. Done during a tear-off and verified against IBHS methods and IRC R905.1.2, it gives a New Jersey roof a second line of defense the covering alone cannot provide.",
     "ctaHeading": "Seal Your Roof Deck Right in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We apply the IBHS-approved deck-sealing methods and bond membrane to manufacturer-approved details to keep a system warranty intact. Request a free written estimate for [Roof Waterproofing](/roof-waterproofing).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We apply the IBHS-approved deck-sealing methods and bond membrane to manufacturer-approved details to keep a system warranty intact. Request a free written estimate for [Roof Waterproofing](/roof-waterproofing-in-newark-nj).",
     "metaDescription": "Roof waterproofing seals the deck, eaves, valleys, and low-slope details. How it works, why NJ roofs need it (IBHS 95%), when to do it, what to verify."
   },
   {
@@ -1103,7 +1103,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Daylight, soft wood, sag, delamination, and underside staining all trace back to one mechanism: trapped moisture decaying sheathing until it no longer grips a roofing nail. A written assessment of the deck's extent decides whether the answer is a targeted repair or a full re-deck.",
     "ctaHeading": "Get Your Roof Deck Inspected in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We probe the sheathing for soft wood, sag, and underside staining and document what we find before any covering goes back on. Request a free written estimate for [Roof Deck Repair & Replacement](/roof-deck-repair-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We probe the sheathing for soft wood, sag, and underside staining and document what we find before any covering goes back on. Request a free written estimate for [Roof Deck Repair & Replacement](/roof-deck-repair-replacement-in-newark-nj).",
     "metaDescription": "Signs you need roof deck repair: daylight from the attic, soft or spongy wood, sag between rafters, delaminated plywood, swollen OSB, underside stains."
   },
   {
@@ -1139,7 +1139,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "Roof deck work is priced from the square-foot and per-sheet ranges above plus the New Jersey premium, with no fixed whole-project total, because the cost tracks how much sheathing is unsound and the panel thickness the rafter spacing demands.",
     "ctaHeading": "Get a Written Roof Deck Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the sheathing, confirm the deck still grips a roofing nail, and quote panels by APA span rating. Request a free written estimate for [Roof Deck Repair & Replacement](/roof-deck-repair-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the sheathing, confirm the deck still grips a roofing nail, and quote panels by APA span rating. Request a free written estimate for [Roof Deck Repair & Replacement](/roof-deck-repair-replacement-in-newark-nj).",
     "metaDescription": "Roof deck re-decking in NJ runs about $2-$6 per square foot (HomeGuide, Angi), plus $50-$120 per 4x8 sheet for hidden rot. Get a free written estimate."
   },
   {
@@ -1177,7 +1177,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     ],
     "conclusion": "A roof deck repair or replacement comes down to extent: localized panels for limited decay, a full re-deck once damage crosses the 25 to 30 percent threshold or the deck drops below APA-rated thickness, with every panel confirmed to grip a nail before the new covering goes on.",
     "ctaHeading": "Get a Deck Inspection in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We confirm whether your deck still grips a fastener and specify any panels by APA span rating, then give you the numbers in writing. Request a free written estimate for [Roof Deck Repair & Replacement](/roof-deck-repair-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We confirm whether your deck still grips a fastener and specify any panels by APA span rating, then give you the numbers in writing. Request a free written estimate for [Roof Deck Repair & Replacement](/roof-deck-repair-replacement-in-newark-nj).",
     "metaDescription": "How roof deck repair and replacement works in NJ: fastener hold, the 25-30% re-deck threshold, APA panel thickness, plywood vs OSB, and the permit split."
   }
 ];

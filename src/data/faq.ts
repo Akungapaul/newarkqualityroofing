@@ -11,28 +11,28 @@ export const faqItems: FaqItem[] = [
     answer:
       'A typical residential replacement in the Newark area ranges from $8,500 to $25,000 depending on size, materials, and complexity. We provide free, no-obligation estimates so you know exactly what to expect.',
     linkText: 'See full replacement pricing',
-    linkHref: '/roof-replacement-cost',
+    linkHref: '/roof-replacement-cost-in-newark-nj',
   },
   {
     question: 'Do you help with insurance claims for storm damage?',
     answer:
       'Yes. We work directly with your insurance company throughout the claims process — documenting damage, providing detailed estimates in approved formats, and meeting with your adjuster on-site.',
     linkText: 'Learn about storm damage help',
-    linkHref: '/storm-damage-roof-repair',
+    linkHref: '/storm-damage-roof-repair-in-newark-nj',
   },
   {
     question: 'How long does a roof replacement take?',
     answer:
       'Most residential roof replacements are completed in 1 to 3 days depending on size and weather. Larger commercial roofing projects may take longer. We provide a clear timeline before starting.',
     linkText: 'Explore replacement options',
-    linkHref: '/roof-replacement',
+    linkHref: '/roof-replacement-in-newark-nj',
   },
   {
     question: 'Do you offer emergency roof repair services?',
     answer:
       'Yes — we offer emergency roof repair throughout Essex County. Storm damage, sudden leaks, or fallen trees — our crew responds quickly to secure your property.',
     linkText: 'Emergency help details',
-    linkHref: '/emergency-roof-repair',
+    linkHref: '/emergency-roof-repair-in-newark-nj',
   },
   {
     question: 'What warranty do you offer on roofing work?',
@@ -46,14 +46,14 @@ export const faqItems: FaqItem[] = [
     answer:
       'Signs you may need a roof replacement include curling, cracking, or missing shingles, visible sagging, persistent leaks, and a roof over 20 years old. Our free roofing inspection gives you an honest assessment.',
     linkText: 'Schedule a free inspection',
-    linkHref: '/roof-inspection',
+    linkHref: '/roof-inspection-in-newark-nj',
   },
   {
     question: 'What is the difference between residential and commercial roofing?',
     answer:
       'Commercial roofing structures are typically flat or low-slope using TPO, EPDM, or modified bitumen, while residential roofs are steeper and use asphalt shingles, slate, or metal. Our roofing team handles both.',
     linkText: 'Compare residential and commercial',
-    linkHref: '/commercial-roof-installation',
+    linkHref: '/commercial-roof-installation-in-newark-nj',
   },
   {
     question: 'Is the estimate really free?',
@@ -67,20 +67,20 @@ export const faqItems: FaqItem[] = [
     answer:
       'If more than 25% of the roof is damaged, most building codes and insurance policies require a full roof replacement rather than a partial repair. Our roofing team can inspect and explain which option applies.',
     linkText: 'Learn about the 25% rule',
-    linkHref: '/roof-replacement',
+    linkHref: '/roof-replacement-in-newark-nj',
   },
   {
     question: 'Is it cheaper to repair or replace a roof?',
     answer:
       'Roof repair costs $350 to $1,500, while full roof replacement ranges from $8,500 to $25,000. If the roof is over 20 years old or has widespread damage, replacement is often more cost-effective long-term. We provide a free roofing inspection and honest recommendation.',
     linkText: 'Compare costs',
-    linkHref: '/roof-replacement-cost',
+    linkHref: '/roof-replacement-cost-in-newark-nj',
   },
   {
     question: 'What time of year is the cheapest to replace a roof?',
     answer:
       'Late fall and winter are typically the most affordable times for a roof replacement in Newark. Demand for roofing services drops in colder months, meaning shorter wait times and potential savings. Our roofing crews work year-round.',
     linkText: 'Get a seasonal quote',
-    linkHref: '/roof-replacement',
+    linkHref: '/roof-replacement-in-newark-nj',
   },
 ];

@@ -44,7 +44,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "A low-slope roof past its 7-to-20-year service life, with separating welded seams, damage above 25 to 30%, ponding over 48 hours, or a new code-compliant assembly to build, signals a TPO roofing installation.",
     "ctaHeading": "Get a TPO Roofing Assessment in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that inspects your seams, slope, and membrane age before recommending repair or a new [TPO roofing installation](/tpo-roofing-installation).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that inspects your seams, slope, and membrane age before recommending repair or a new [TPO roofing installation](/tpo-roofing-installation-in-newark-nj).",
     "metaDescription": "Signs you need TPO roofing: a membrane past its 7-20-year life, separating welded seams, damage over 25-30%, ponding past 48 hours, or new construction."
   },
   {
@@ -82,7 +82,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "TPO installs at $8 to $12 per square foot in New Jersey, with the assembly beneath the membrane, the tear-off-versus-recover decision, and the NJ labor and code premium setting where a specific roof lands in the range.",
     "ctaHeading": "Get a Free Written TPO Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that prices the membrane, insulation, drainage, and tear-off or recover scope for your roof. Explore [TPO roofing installation](/tpo-roofing-installation) to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that prices the membrane, insulation, drainage, and tear-off or recover scope for your roof. Explore [TPO roofing installation](/tpo-roofing-installation-in-newark-nj) to start.",
     "metaDescription": "TPO roofing installation costs $8 to $12 per square foot in NJ, against EPDM at $7-$10 and PVC at $6-$12, with NJ ranges 10 to 40% above national."
   },
   {
@@ -106,21 +106,21 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "body": [
           "**TPO's main drawbacks** are a 7-to-20-year service life that trails EPDM and PVC, a dependence on weld quality because it fails at the welded seam, and no grease or chemical resistance. TPO lasts 7 to 20 years per the InterNACHI life-expectancy chart, with 15 to 25 years cited in field practice per Progressive Materials.",
           "**The shorter life** is the clearest limitation: TPO's 7-to-20-year range trails EPDM at 15 to 25 years and PVC at 20 to 30 years per the InterNACHI chart and the Single Ply Roofing Industry. **Weld quality** governs where in that range a roof lands, because TPO fails most often at the welded seams per single-ply membrane field-failure guidance, so a poorly welded seam shortens realized life regardless of the membrane rating.",
-          "**Chemical exposure** marks the other limitation, because TPO carries no grease or chemical resistance, the property that distinguishes PVC. A roof fielding kitchen grease, animal-fat exhaust, or solvent exhaust degrades a TPO membrane where PVC holds up, so that exposure pushes the specification toward [PVC](/pvc-roofing) rather than TPO."
+          "**Chemical exposure** marks the other limitation, because TPO carries no grease or chemical resistance, the property that distinguishes PVC. A roof fielding kitchen grease, animal-fat exhaust, or solvent exhaust degrades a TPO membrane where PVC holds up, so that exposure pushes the specification toward [PVC](/pvc-roofing-in-newark-nj) rather than TPO."
         ]
       },
       {
         "heading": "Is TPO the Right Choice for Your Building?",
         "body": [
           "**TPO fits a cost-sensitive cooled low-slope roof without grease or chemical exposure**, where a reflective white membrane and a lower install cost outweigh the shorter service life. A roof carrying grease or chemical exhaust, or one prioritizing the longest membrane life, points to a different system.",
-          "**A cost-sensitive cooled roof** is TPO's strongest fit: a warehouse, retail center, office, or residential flat-roof section over a cooled space gains from the white reflective surface and the $8-to-$12-per-square-foot cost, against PVC at the $6-to-$12 upper end. A restaurant, food-processing, or lab roof fielding grease or chemical exhaust favors [PVC](/pvc-roofing) instead, and a roof prioritizing a 15-to-25-year membrane that stays elastic through Essex County freeze-thaw weighs EPDM, whose 15-to-25-year life and ballasted install the Single Ply Roofing Industry and InterNACHI document.",
+          "**A cost-sensitive cooled roof** is TPO's strongest fit: a warehouse, retail center, office, or residential flat-roof section over a cooled space gains from the white reflective surface and the $8-to-$12-per-square-foot cost, against PVC at the $6-to-$12 upper end. A restaurant, food-processing, or lab roof fielding grease or chemical exhaust favors [PVC](/pvc-roofing-in-newark-nj) instead, and a roof prioritizing a 15-to-25-year membrane that stays elastic through Essex County freeze-thaw weighs EPDM, whose 15-to-25-year life and ballasted install the Single Ply Roofing Industry and InterNACHI document.",
           "**Verifying the contractor** closes the decision: confirm the roofer holds active New Jersey Home Improvement Contractor registration under N.J.S.A. 56:8-136 and carries the $500,000 per-occurrence general-liability insurance N.J.S.A. 56:8-142 requires, and request a free written estimate that prices the membrane, insulation, tapered drainage, and any permit a commercial job triggers under N.J.A.C. 5:23-2.7."
         ]
       }
     ],
     "conclusion": "TPO suits a cost-sensitive cooled low-slope roof where welded seams and a reflective white surface earn their place, while a grease-exposed or long-horizon roof reads better served by PVC, EPDM, or a longer-life system.",
     "ctaHeading": "Compare TPO Against Your Building's Roof",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that weighs TPO against EPDM, PVC, and the other systems for your low-slope roof. Explore [TPO roofing installation](/tpo-roofing-installation) to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that weighs TPO against EPDM, PVC, and the other systems for your low-slope roof. Explore [TPO roofing installation](/tpo-roofing-installation-in-newark-nj) to start.",
     "metaDescription": "TPO roofing pros: heat-welded seams, a reflective white cool-roof surface, lower cost. Cons: a 7-to-20-year life and no chemical resistance. When TPO fits."
   },
   {
@@ -152,7 +152,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "body": [
           "**Damage across more than 25 to 30% of the roof area crosses the flat-roof replacement threshold, and recurring same-spot leaks signal systemic failure that favors replacement regardless of area.** The thresholds trace to Parish, Modernize, and HomeGuide flat-roof guidance and HomeAdvisor.",
           "**Membrane damage** across more than 25 to 30% of the roof area crosses the flat-roof replacement threshold, the point above which full membrane replacement costs less than continued spot repair, per Parish, Modernize, and HomeGuide flat-roof guidance. Below that share an owner repairs the affected area; above it, a new system is the lower-cost path.",
-          "**Recurring leaks** at the same location signal a systemic failure rather than an isolated puncture, the condition that favors replacement regardless of damaged area, per HomeAdvisor flat-roof guidance. A leak that returns to the same spot after repair points to a failure the patch cannot reach, so area and recurrence together decide whether an [EPDM commercial roof](/epdm-commercial-roofing) is repaired or replaced."
+          "**Recurring leaks** at the same location signal a systemic failure rather than an isolated puncture, the condition that favors replacement regardless of damaged area, per HomeAdvisor flat-roof guidance. A leak that returns to the same spot after repair points to a failure the patch cannot reach, so area and recurrence together decide whether an [EPDM commercial roof](/epdm-commercial-roofing-in-newark-nj) is repaired or replaced."
         ]
       }
     ],
@@ -196,7 +196,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "EPDM commercial roofing in New Jersey runs $7.00 to $10.00 per square foot installed, with the attachment method, insulation, and tear-off-versus-recover scope setting where a given roof lands, and NJ labor and code adding 10 to 40% over national figures.",
     "ctaHeading": "Get a Written EPDM Roofing Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes attachment method, insulation, drainage, and permit scope for your [EPDM commercial roof](/epdm-commercial-roofing).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes attachment method, insulation, drainage, and permit scope for your [EPDM commercial roof](/epdm-commercial-roofing-in-newark-nj).",
     "metaDescription": "EPDM commercial roofing costs $7.00 to $10.00 per square foot installed in New Jersey, with flat-roof repair at $2.50 to $10.00 per square foot."
   },
   {
@@ -227,7 +227,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "heading": "Is EPDM the Right Choice for Your Building?",
         "body": [
           "**EPDM fits a cost-sensitive durable low-slope roof on a cooled warehouse, office, or industrial building where reflectance is secondary**, while a high cooling load favors a white reflective membrane instead. The choice turns on attachment method, cooling load, and chemical exposure.",
-          "**A cooled warehouse, office, or industrial building** suits EPDM where the priority is a long-lasting membrane at a controlled cost, and the ballasted or adhered system matches the deck and wind exposure. A roof carrying a high air-conditioning load favors a white [TPO](/tpo-roofing-installation) or [PVC](/pvc-roofing) cool roof that reflects solar radiation EPDM absorbs, and a roof exposed to grease or chemical exhaust calls for PVC, which resists what degrades rubber.",
+          "**A cooled warehouse, office, or industrial building** suits EPDM where the priority is a long-lasting membrane at a controlled cost, and the ballasted or adhered system matches the deck and wind exposure. A roof carrying a high air-conditioning load favors a white [TPO](/tpo-roofing-installation-in-newark-nj) or [PVC](/pvc-roofing-in-newark-nj) cool roof that reflects solar radiation EPDM absorbs, and a roof exposed to grease or chemical exhaust calls for PVC, which resists what degrades rubber.",
           "**Verifying the contractor** closes the decision: confirm active New Jersey Home Improvement Contractor registration and liability insurance before signing, and obtain a written estimate that prices the attachment method, insulation, and drainage. A commercial EPDM roof requires a construction permit, and repairing more than 25% of the total roof area in a 12-month period triggers one under N.J.A.C. 5:23-2.7, while the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof carrying 2 or more layers, per N.J.A.C. 5:23-6.4."
         ]
       }
@@ -266,13 +266,13 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "body": [
           "**Membrane damage across more than 25 to 30% of the roof area** crosses the flat-roof replacement threshold, the point at which a full system returns more value than continued patching, per Parish and Modernize flat-roof guidance. The flat-roof threshold runs stricter than a sloped roof.",
           "**The flat-roof threshold** runs stricter because a single low-slope breach admits water across the deck rather than shedding it down a pitch, per Parish, Modernize, and HomeGuide flat-roof guidance. A repair that approaches 30% of replacement cost likewise favors a new membrane over patching the same roof a second time.",
-          "**Replacement** at this point also resets the assembly under NJ code: on a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a construction permit under N.J.A.C. 5:23-2.7, and the NJ Rehabilitation Subcode requires complete removal when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. A [modified bitumen roof](/modified-bitumen-roofing) installed over a sound, single-layer covering can recover without that full tear-off."
+          "**Replacement** at this point also resets the assembly under NJ code: on a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a construction permit under N.J.A.C. 5:23-2.7, and the NJ Rehabilitation Subcode requires complete removal when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. A [modified bitumen roof](/modified-bitumen-roofing-in-newark-nj) installed over a sound, single-layer covering can recover without that full tear-off."
         ]
       }
     ],
     "conclusion": "A modified bitumen roof at or past 20 years showing alligator cracking, interply blistering, flashing separation, ponding over 48 hours, or damage across more than 25 to 30% of the area has reached the point where a new membrane returns more value than continued repair.",
     "ctaHeading": "Get a Modified Bitumen Roof Assessment in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that checks the cap, the ply bond, the flashing details, and the drainage slope before a [modified bitumen](/modified-bitumen-roofing) recommendation.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that checks the cap, the ply bond, the flashing details, and the drainage slope before a [modified bitumen](/modified-bitumen-roofing-in-newark-nj) recommendation.",
     "metaDescription": "Signs you need modified bitumen roofing: alligator cracking, interply blistering, flashing separation, ponding over 48 hours, or a roof past 20 years."
   },
   {
@@ -310,7 +310,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "Modified bitumen roofing prices at about $7 to $12 per square foot installed in New Jersey, with ply count, application method, tear-off rules, and a 10-to-40% NJ premium setting where a project lands in that range.",
     "ctaHeading": "Get a Written Modified Bitumen Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that sets ply count, application method, drainage, and any tear-off against your building. Explore [modified bitumen roofing](/modified-bitumen-roofing) to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that sets ply count, application method, drainage, and any tear-off against your building. Explore [modified bitumen roofing](/modified-bitumen-roofing-in-newark-nj) to start.",
     "metaDescription": "Modified bitumen roofing costs about $7 to $12 per square foot installed in NJ, with repair $2.50 to $10 per square foot. What drives the price in Essex County."
   },
   {
@@ -341,14 +341,14 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "heading": "Is Modified Bitumen the Right Choice for Your Building?",
         "body": [
           "**Modified bitumen** fits a low-slope roof carrying heavy rooftop equipment and service traffic where multi-ply redundancy matters more than maximum service life; a roof prioritizing the longest life favors built-up roofing or metal, per ARMA and the InterNACHI life-expectancy chart.",
-          "**A roof with heavy rooftop equipment** suits the multi-ply assembly because it absorbs the HVAC service traffic and tool drops that puncture a single-ply membrane, and a granulated cap supplies the walkable surface, per ARMA modified-bitumen guidance. A roof prioritizing the longest membrane life instead favors [built-up roofing](/built-up-roofing) at 30 years or [commercial metal roofing](/commercial-metal-roofing) at 40 to 80 years, which outlast modified bitumen's 20-year endpoint, per the InterNACHI life-expectancy chart.",
+          "**A roof with heavy rooftop equipment** suits the multi-ply assembly because it absorbs the HVAC service traffic and tool drops that puncture a single-ply membrane, and a granulated cap supplies the walkable surface, per ARMA modified-bitumen guidance. A roof prioritizing the longest membrane life instead favors [built-up roofing](/built-up-roofing-in-newark-nj) at 30 years or [commercial metal roofing](/commercial-metal-roofing-in-newark-nj) at 40 to 80 years, which outlast modified bitumen's 20-year endpoint, per the InterNACHI life-expectancy chart.",
           "**The right contractor** verifies the assembly against NJ code: a commercial repair exceeding 25% of total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, and the NJ Rehabilitation Subcode requires complete removal when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. Confirm New Jersey Home Improvement Contractor registration, liability insurance, and a free written estimate before the first ply."
         ]
       }
     ],
     "conclusion": "Modified bitumen suits a low-slope roof with heavy rooftop service traffic where multi-ply redundancy and a granulated UV-protected cap outweigh its 20-year life and the open-flame management torch application requires.",
     "ctaHeading": "Weigh Modified Bitumen Against Your Essex County Roof",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that matches the polymer modifier and the flame-free or torch application method to your building, occupancy, and NJ code. Compare [modified bitumen roofing](/modified-bitumen-roofing) against the alternatives line by line.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that matches the polymer modifier and the flame-free or torch application method to your building, occupancy, and NJ code. Compare [modified bitumen roofing](/modified-bitumen-roofing-in-newark-nj) against the alternatives line by line.",
     "metaDescription": "Modified bitumen's pros are multi-ply traffic redundancy and a granulated UV cap; its cons are a 20-year life and torch-flame risk. A balanced NJ guide."
   },
   {
@@ -386,7 +386,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "A built-up roof reaching its 30-year life shows alligatoring, blisters, recurring flashing leaks, or ponding, and damage past 25 to 30 percent of the membrane crosses from resurfacing to replacement, per the InterNACHI life-expectancy chart and NRCA.",
     "ctaHeading": "Have Your Built-Up Roof Assessed in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that assesses the BUR membrane, surfacing, flashing, and drainage, or explore [built-up roofing](/built-up-roofing) to plan the work.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that assesses the BUR membrane, surfacing, flashing, and drainage, or explore [built-up roofing](/built-up-roofing-in-newark-nj) to plan the work.",
     "metaDescription": "Signs you need built-up roofing: alligatoring, blisters, ponding past 48 hours, recurring flashing leaks, or damage above 25 to 30 percent on a 30-year roof."
   },
   {
@@ -424,7 +424,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "Built-up roofing prices at about $7 to $12 per square foot installed in New Jersey, set by ply count and surfacing and lifted 10 to 40 percent above national figures by regional labor and NJ code.",
     "ctaHeading": "Get a Written Built-Up Roofing Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that sizes the ply count, surfacing, and scope to your roof, or compare options across [built-up roofing](/built-up-roofing).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that sizes the ply count, surfacing, and scope to your roof, or compare options across [built-up roofing](/built-up-roofing-in-newark-nj).",
     "metaDescription": "Built-up roofing costs about $7 to $12 per square foot installed in NJ, with flat-roof repair at $2.50 to $10 per square foot. What drives the price."
   },
   {
@@ -455,14 +455,14 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "heading": "Is Built-Up Roofing the Right Choice for Your Building?",
         "body": [
           "**Built-up roofing fits a high-traffic commercial low-slope roof prioritizing longevity and multi-ply redundancy**, where a 30-year life and a gravel-armored surface justify a heavier, slower install, per the InterNACHI life-expectancy chart and NRCA guidance.",
-          "**A faster, lighter install** favors a single-ply system instead, so a roof prioritizing speed and weight over redundancy suits [TPO](/tpo-roofing-installation) or [EPDM](/epdm-commercial-roofing) at 7-20 and 15-25 years, or [modified bitumen](/modified-bitumen-roofing) at 20 years, per the InterNACHI life-expectancy chart. A low-slope roof needs at least one-quarter inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per NRCA and ARMA, a condition any replacement system corrects.",
+          "**A faster, lighter install** favors a single-ply system instead, so a roof prioritizing speed and weight over redundancy suits [TPO](/tpo-roofing-installation-in-newark-nj) or [EPDM](/epdm-commercial-roofing-in-newark-nj) at 7-20 and 15-25 years, or [modified bitumen](/modified-bitumen-roofing-in-newark-nj) at 20 years, per the InterNACHI life-expectancy chart. A low-slope roof needs at least one-quarter inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per NRCA and ARMA, a condition any replacement system corrects.",
           "**A registered roofing contractor** verifies the decision against NJ code before tear-off, since a commercial built-up roof repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, and full removal to the deck applies when the existing roof is water-soaked or already carries 2 or more layers under N.J.A.C. 5:23-6.4. Verify HIC registration and insurance, and request a free written estimate, before signing."
         ]
       }
     ],
     "conclusion": "Built-up roofing earns its place on a high-traffic commercial low-slope roof through a 30-year life and gravel-shielded multi-ply redundancy, balanced against a heavier, slower hot-bitumen install and surfacing that obscures inspection.",
     "ctaHeading": "Plan a Built-Up Roof in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that assesses your BUR membrane, surfacing, flashing, and drainage. Explore our [built-up roofing](/built-up-roofing) services to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that assesses your BUR membrane, surfacing, flashing, and drainage. Explore our [built-up roofing](/built-up-roofing-in-newark-nj) services to start.",
     "metaDescription": "Built-up roofing pros and cons: a 30-year multi-ply life and gravel UV protection versus a heavy, labor-intensive hot-bitumen install, per InterNACHI and NRCA."
   },
   {
@@ -500,7 +500,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "A commercial metal roof at or past its 40-to-80-year life, corroding across more than 20 to 25% of its panels, losing more than 25% of its standing-seam connections, leaking at backed-out fasteners or the same spot repeatedly, or holding ponding water past 48 hours has crossed from repair to replacement.",
     "ctaHeading": "Have Your Essex County Metal Roof Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that assesses panel corrosion, seam-connection damage, and fastener condition before any [commercial metal roofing](/commercial-metal-roofing) work.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that assesses panel corrosion, seam-connection damage, and fastener condition before any [commercial metal roofing](/commercial-metal-roofing-in-newark-nj) work.",
     "metaDescription": "Signs you need commercial metal roofing in NJ: a roof past its 40-80-year life, 20-25% panel corrosion, 25% seam damage, fastener failure, or 48-hour ponding."
   },
   {
@@ -523,7 +523,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "heading": "What Drives the Installed Price?",
         "body": [
           "**The panel system drives the installed price**: standing-seam metal costs more than exposed-fastener because the concealed-clip system and continuous eave-to-ridge panels add material and labor, per metal-roofing industry consensus, and the repair scope sets a separate, smaller figure.",
-          "**The panel system** divides the cost on attachment method. Standing-seam metal conceals the fasteners beneath the raised seam and runs continuous panels, the configuration that lasts 40 to 70 years per This Old House and the Metal Construction Association, while exposed-fastener metal drives screws through the panel surface at lower installed cost and lasts about 30 to 50 years, per metal-roofing industry consensus. Panel runs exceeding 100 feet require engineered expansion provisions for thermal movement, per the Metal Construction Association and NRCA, which add to a [commercial metal roofing](/commercial-metal-roofing) install.",
+          "**The panel system** divides the cost on attachment method. Standing-seam metal conceals the fasteners beneath the raised seam and runs continuous panels, the configuration that lasts 40 to 70 years per This Old House and the Metal Construction Association, while exposed-fastener metal drives screws through the panel surface at lower installed cost and lasts about 30 to 50 years, per metal-roofing industry consensus. Panel runs exceeding 100 feet require engineered expansion provisions for thermal movement, per the Metal Construction Association and NRCA, which add to a [commercial metal roofing](/commercial-metal-roofing-in-newark-nj) install.",
           "**The repair scope** prices below a full install. A minor metal leak costs $200 to $1,000 and severe corrosion up to $3,000, a seam re-weld runs $250 to $1,100, and a fastener fix $150 to $1,000, per Modernize and Angi cost data. An elastomeric or silicone life-extension coating costs $1,500 to $7,000, and repainting sections runs $1.20 to $2.70 per square foot, per CPS Construction cost data, extending a sound metal roof short of replacement."
         ]
       },
@@ -538,7 +538,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "Commercial metal roofing installs at $9.00 to $16.00 per square foot in New Jersey, prices above the membrane alternatives, and returns the longest service life of any commercial roof system across a multi-decade ownership horizon.",
     "ctaHeading": "Get a Written Estimate for Your Commercial Metal Roof",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes the panel system, repair scope, and permit handling for your commercial metal roof. Explore [commercial metal roofing](/commercial-metal-roofing) to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes the panel system, repair scope, and permit handling for your commercial metal roof. Explore [commercial metal roofing](/commercial-metal-roofing-in-newark-nj) to start.",
     "metaDescription": "Commercial metal roofing costs $9.00-$16.00 per square foot installed in NJ, with panel repair $5-$10 and copper up to $30. NJ runs 10-40% above national."
   },
   {
@@ -576,7 +576,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "Commercial metal roofing rewards a long ownership horizon with a 40-to-80-year service life and concealed-fastener durability, while its higher cost and thermal-movement engineering steer a shorter-hold or lower-budget low-slope roof toward a single-ply membrane.",
     "ctaHeading": "Weigh Metal Against a Membrane for Your Essex County Roof",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that compares a metal panel system against a membrane for your building, with the panel profile, gauge, and clip engineering named for the wind and thermal loads. Explore our [commercial metal roofing](/commercial-metal-roofing) scope to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that compares a metal panel system against a membrane for your building, with the panel profile, gauge, and clip engineering named for the wind and thermal loads. Explore our [commercial metal roofing](/commercial-metal-roofing-in-newark-nj) scope to start.",
     "metaDescription": "Commercial metal roofing lasts 40-80 years with concealed-fastener seams, but costs $9-$16/sf and needs thermal-movement engineering on long panel runs."
   },
   {
@@ -608,13 +608,13 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "body": [
           "**A high cooling load on a large low-slope footprint, or ponding water held more than 48 hours after rain, applies to a PVC decision.** A white PVC cool roof reflects roughly 70 to 85% of solar radiation per ASTM C1549, and ponding past 48 hours counts as a defect, per Duro-Last, the Cool Roof Rating Council, the NRCA, and ARMA.",
           "**A high cooling load** on a large low-slope commercial roof favors a white PVC membrane, which functions as a cool roof reflecting roughly 70 to 85% of solar radiation with thermal emittance near 80 to 90% measured per ASTM C1549, per Duro-Last and the Cool Roof Rating Council. That reflectance lowers the roof surface temperature and the cooling load a dark membrane would carry, so a building with a heavy summer air-conditioning demand is a candidate for the reflective surface.",
-          "**Ponding water** held on a low-slope roof more than 48 hours after rain counts as a defect that breaks down membrane seams, and a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. When ponding signals the existing roof never reached positive drainage, a PVC replacement rebuilds the slope with tapered insulation, and a commercial roof requiring more than 25% of its area repaired in a 12-month period favors a full [PVC](/pvc-roofing) replacement under N.J.A.C. 5:23-2.7."
+          "**Ponding water** held on a low-slope roof more than 48 hours after rain counts as a defect that breaks down membrane seams, and a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. When ponding signals the existing roof never reached positive drainage, a PVC replacement rebuilds the slope with tapered insulation, and a commercial roof requiring more than 25% of its area repaired in a 12-month period favors a full [PVC](/pvc-roofing-in-newark-nj) replacement under N.J.A.C. 5:23-2.7."
         ]
       }
     ],
     "conclusion": "Grease or chemical exhaust, an embrittled and split EPDM or TPO membrane, a high cooling load, or ponding past 48 hours each marks a low-slope roof where a chemically resistant, hot-air-welded white PVC membrane fits the exposure.",
     "ctaHeading": "Assess Whether Your Roof Needs PVC",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that confirms whether grease, chemical exhaust, or a failing membrane calls for [PVC](/pvc-roofing) on your low-slope roof.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that confirms whether grease, chemical exhaust, or a failing membrane calls for [PVC](/pvc-roofing-in-newark-nj) on your low-slope roof.",
     "metaDescription": "Signs you need PVC roofing: grease or chemical exhaust, a split EPDM or TPO membrane, a high cooling load, or ponding past 48 hours on a low-slope roof."
   },
   {
@@ -652,7 +652,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "Commercial PVC roofing runs $6 to $12 per square foot installed in New Jersey, clustering near $8 to $12, with membrane thickness, attachment method, drainage work, and the 10-to-40% NJ labor-and-code premium setting where a roof lands in that range.",
     "ctaHeading": "Get a Written PVC Roofing Estimate in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that prices your [PVC roofing](/pvc-roofing) by the square foot, with membrane thickness, attachment method, and drainage work itemized.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that prices your [PVC roofing](/pvc-roofing-in-newark-nj) by the square foot, with membrane thickness, attachment method, and drainage work itemized.",
     "metaDescription": "Commercial PVC roofing costs $6 to $12 per square foot installed in NJ, near $8 to $12, with NJ 10 to 40% above national. What drives the price."
   },
   {
@@ -684,13 +684,13 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "body": [
           "**PVC fits a commercial low-slope roof carrying grease, oil, or chemical exhaust — a restaurant, food-processing plant, laboratory, or automotive shop — or a high cooling load.** A roof without chemical exposure favors lower-cost TPO or EPDM, per the NRCA technical library and Duro-Last. The exhaust the roof carries decides the match.",
           "**Grease, oil, or chemical exhaust** contacting the membrane is the condition that calls for PVC, because PVC resists the substances that soften and degrade EPDM and TPO, per the NRCA technical library, and a high cooling load on a large footprint favors PVC's white cool-roof reflectance measured per ASTM C1549, per Duro-Last and the Cool Roof Rating Council. A low-slope roof needs at least 1/4 inch per foot of slope to drain, per the NRCA and ARMA, regardless of membrane.",
-          "**A roof without chemical exposure** does not draw on PVC's chemical resistance, so a cost-sensitive cooled roof favors lower-cost [TPO](/tpo-roofing-installation) or [EPDM](/epdm-commercial-roofing). Before any membrane goes down, verify a contractor's New Jersey Home Improvement Contractor registration and insurance, and obtain a free written estimate that sets the membrane, attachment method, and thickness against the building exposure."
+          "**A roof without chemical exposure** does not draw on PVC's chemical resistance, so a cost-sensitive cooled roof favors lower-cost [TPO](/tpo-roofing-installation-in-newark-nj) or [EPDM](/epdm-commercial-roofing-in-newark-nj). Before any membrane goes down, verify a contractor's New Jersey Home Improvement Contractor registration and insurance, and obtain a free written estimate that sets the membrane, attachment method, and thickness against the building exposure."
         ]
       }
     ],
     "conclusion": "PVC resists grease and chemicals no other single-ply matches and welds into a permanently repairable 20-to-30-year cool roof, at a cost over TPO that pays off only where rooftop exhaust would degrade a less resistant membrane.",
     "ctaHeading": "Get a Written Estimate for a PVC Roof in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that matches a [PVC roof](/pvc-roofing) to the grease, chemical exhaust, and cooling load on your commercial low-slope building.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that matches a [PVC roof](/pvc-roofing-in-newark-nj) to the grease, chemical exhaust, and cooling load on your commercial low-slope building.",
     "metaDescription": "PVC roofing pros and cons: grease and chemical resistance, re-weldable seams, a 20-to-30-year cool roof, against a higher cost than TPO and plasticizer aging."
   },
   {
@@ -728,7 +728,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "A municipal stormwater fee-credit program, a membrane at its service life, a high top-floor cooling load, a LEED or WELL target, or an unused amenity-ready roof each signals a building suited to green roof installation over a flood-tested waterproofing membrane.",
     "ctaHeading": "Evaluate Your Roof for a Green Roof Build",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that prices the [green roof installation](/green-roof-installation) scope and confirms structural feasibility for your building.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that prices the [green roof installation](/green-roof-installation-in-newark-nj) scope and confirms structural feasibility for your building.",
     "metaDescription": "Signs you need a green roof: a stormwater fee-credit program, a membrane at its service life, a high cooling load, a LEED or WELL target, or an amenity roof."
   },
   {
@@ -766,7 +766,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "A New Jersey green roof prices the waterproofing membrane substrate at $6 to $12 per square foot, then adds the structural assessment, growing-media depth, plant palette, and a commercial permit, with stormwater fee credits and LEED or WELL credits available where a local program offers them.",
     "ctaHeading": "Price the Roofing Scope of Your Green Roof",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that prices the green-roof-rated waterproofing membrane against the structural assessment, media depth, and permit. Explore our [green roof installation](/green-roof-installation) scope to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that prices the green-roof-rated waterproofing membrane against the structural assessment, media depth, and permit. Explore our [green roof installation](/green-roof-installation-in-newark-nj) scope to start.",
     "metaDescription": "A NJ green roof's waterproofing membrane substrate runs $6 to $12 per square foot; structural load, media depth, and permits shape the total."
   },
   {
@@ -804,7 +804,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "A green roof trades stormwater retention, a lower cooling load, and a UV-shielded membrane against a saturated structural load and a buried membrane, so it fits a structurally-capable roof with a stormwater or sustainability driver.",
     "ctaHeading": "Plan a Green Roof for Your Essex County Building",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We coordinate the structural assessment, install and flood-test the waterproofing membrane, and provide a free written estimate for the roofing scope. Explore [green roof installation](/green-roof-installation) to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We coordinate the structural assessment, install and flood-test the waterproofing membrane, and provide a free written estimate for the roofing scope. Explore [green roof installation](/green-roof-installation-in-newark-nj) to start.",
     "metaDescription": "A green roof retains stormwater, cuts cooling load, and shields the membrane, but adds structural load and a buried membrane. Pros, cons, and fit in NJ."
   },
   {
@@ -842,7 +842,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     ],
     "conclusion": "A low-slope roof with thin insulation, persistent ponding, a penetration-heavy surface, repeated seam leaks, fewer than 2 existing layers, or a worn coating exposing foam points toward a spray foam roofing recover or recoat.",
     "ctaHeading": "Get a Spray Foam Roof Assessment in Essex County",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that core-samples your existing roof and tests substrate moisture before any [spray foam roofing](/spray-foam-roofing) recover.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that core-samples your existing roof and tests substrate moisture before any [spray foam roofing](/spray-foam-roofing-in-newark-nj) recover.",
     "metaDescription": "Signs you need spray foam roofing: thin insulation, ponding past 48 hours, many penetrations, repeated seam leaks, under 2 layers, or an eroded coating."
   },
   {
@@ -874,7 +874,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "body": [
           "**New Jersey ranges sit roughly 10 to 40% above national figures**, because higher regional labor and stricter NJ code raise the installed cost, per NJ regional pricing consensus and commercial roofing cost guides.",
           "**New Jersey** pricing reflects the labor market and the code regime: a commercial install or a recover exceeding 25% of the total roof area in a 12-month period requires a construction permit under N.J.A.C. 5:23-2.7, and the NJ Rehabilitation Subcode governs when removal replaces a recover under N.J.A.C. 5:23-6.4. The Newark winter crosses 32°F repeatedly, with an average January low near 25.5°F per NOAA 1991-2020 normals at Newark Liberty, so foam applies within the manufacturer-specified temperature and humidity window.",
-          "**The recover path** lowers long-run cost where a roof qualifies, because foam adds insulation no single-ply membrane provides and avoids the tear-off and disposal of a sound existing assembly. The aged R-6.0-to-R-6.5-per-inch insulation cuts rooftop heat transfer over the building life, the seamless monolithic layer removes the seam-failure point common to single-ply systems per the SPFA, and a maintained recoat cycle extends the foam past 30 years. A [spray foam roofing](/spray-foam-roofing) assessment confirms whether a roof carries fewer than 2 layers and tests substrate moisture before a recover quote."
+          "**The recover path** lowers long-run cost where a roof qualifies, because foam adds insulation no single-ply membrane provides and avoids the tear-off and disposal of a sound existing assembly. The aged R-6.0-to-R-6.5-per-inch insulation cuts rooftop heat transfer over the building life, the seamless monolithic layer removes the seam-failure point common to single-ply systems per the SPFA, and a maintained recoat cycle extends the foam past 30 years. A [spray foam roofing](/spray-foam-roofing-in-newark-nj) assessment confirms whether a roof carries fewer than 2 layers and tests substrate moisture before a recover quote."
         ]
       }
     ],
@@ -912,7 +912,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
         "body": [
           "**Spray foam fits** an under-insulated low-slope roof broken by many penetrations or plagued by recurring seam failures, where a recover over a sound roof beats a tear-off. A roof prioritizing a no-maintenance surface favors a single-ply membrane or metal instead, per the SPFA and InterNACHI.",
           "**The fit** rewards a building with minimal insulation, numerous curbs and rooftop equipment, or repeated single-ply seam failures, because foam adds the aged R-6.0-to-6.5-per-inch resistance and sprays continuous around obstructions the SPFA names as the geometry foam suits. A white reflective coating over the foam adds a cool-roof surface, the reflectance measured per ASTM C1549 and listed by the Cool Roof Rating Council (CRRC), which lowers rooftop heat gain on a high cooling load.",
-          "**The alternative** favors an owner unwilling to maintain a recoat cycle: a roof that suits a set-and-forget surface points to a [single-ply membrane](/flat-roof-systems) or [metal](/commercial-metal-roofing) rather than foam. Before any work, verify the contractor's New Jersey Home Improvement Contractor registration and insurance, and request a free written estimate, because a commercial recover or replacement over 25% of the roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7."
+          "**The alternative** favors an owner unwilling to maintain a recoat cycle: a roof that suits a set-and-forget surface points to a [single-ply membrane](/flat-roof-systems) or [metal](/commercial-metal-roofing-in-newark-nj) rather than foam. Before any work, verify the contractor's New Jersey Home Improvement Contractor registration and insurance, and request a free written estimate, because a commercial recover or replacement over 25% of the roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7."
         ]
       }
     ],

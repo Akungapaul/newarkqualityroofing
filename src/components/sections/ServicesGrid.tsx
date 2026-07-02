@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 import { services } from '@/data/services';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { StaggerGrid, StaggerItem } from '@/components/animations/StaggerGrid';
@@ -54,7 +55,7 @@ function ServiceCard({
 
   return (
     <Link
-      href={`/${slug}`}
+      href={`/${generateServicePageSlug(slug)}`}
       className={`group relative block overflow-hidden rounded-lg bg-gradient-to-br ${gradient} p-6 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-xl`}
     >
       {/* Decorative diagonal accent */}

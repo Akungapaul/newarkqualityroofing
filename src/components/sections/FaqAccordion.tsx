@@ -38,7 +38,7 @@ export function FaqAccordion({ items }: FaqAccordionProps) {
         <p className="mx-auto mt-4 max-w-xl text-center font-body text-lg text-text-secondary">
           Answers to common questions about our process, costs,
           and what to expect. See our{' '}
-          <Link href="/roof-replacement" className="text-copper underline hover:text-copper-dark">replacement guide</Link>{' '}
+          <Link href="/roof-replacement-in-newark-nj" className="text-copper underline hover:text-copper-dark">replacement guide</Link>{' '}
           for detailed pricing.
         </p>
 

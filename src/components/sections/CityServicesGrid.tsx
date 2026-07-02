@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 import { StaggerGrid, StaggerItem } from '@/components/animations/StaggerGrid';
 import { HEADING_CONFIG } from '@/data/heading-config';
 
@@ -160,7 +161,7 @@ export function CityServicesGrid({ cityName, coreHeading }: CityServicesGridProp
         {CATEGORIES.map((cat) => (
           <StaggerItem key={cat.id}>
             <Link
-              href={`/${cat.leadSlug}`}
+              href={`/${generateServicePageSlug(cat.leadSlug)}`}
               aria-label={`Explore ${cat.label} roofing in ${cityName}`}
               className="group flex h-full flex-col rounded-lg border border-border bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-copper/40 hover:shadow-md"
             >

@@ -22,18 +22,18 @@ export function HomeRepairServices() {
         </h2>
         <p className="mt-6 max-w-3xl font-body text-lg leading-relaxed text-text-secondary">
           Whether you need a quick fix for a leaking roof or a{' '}
-          <Link href="/roof-replacement" className="text-copper underline hover:text-copper-dark">complete replacement</Link>{' '}
+          <Link href="/roof-replacement-in-newark-nj" className="text-copper underline hover:text-copper-dark">complete replacement</Link>{' '}
           in Newark, NJ, our roofing contractors deliver lasting
           results. Every roof repair project starts with a{' '}
-          <Link href="/roof-inspection" className="text-copper underline hover:text-copper-dark">thorough inspection</Link>{' '}
+          <Link href="/roof-inspection-in-newark-nj" className="text-copper underline hover:text-copper-dark">thorough inspection</Link>{' '}
           so you know exactly what your home needs — no guesswork, no surprises.
           We also handle{' '}
-          <Link href="/roof-leak-repair" className="text-copper underline hover:text-copper-dark">leak repairs</Link>,{' '}
-          <Link href="/storm-damage-roof-repair" className="text-copper underline hover:text-copper-dark">storm damage</Link>,{' '}
-          <Link href="/asphalt-shingle-roofing" className="text-copper underline hover:text-copper-dark">shingle roofing</Link>,{' '}
-          <Link href="/metal-roof-installation-repair" className="text-copper underline hover:text-copper-dark">metal roofs</Link>,{' '}
-          <Link href="/roof-maintenance-programs" className="text-copper underline hover:text-copper-dark">maintenance plans</Link>, and{' '}
-          <Link href="/roof-waterproofing" className="text-copper underline hover:text-copper-dark">waterproofing</Link>{' '}
+          <Link href="/roof-leak-repair-in-newark-nj" className="text-copper underline hover:text-copper-dark">leak repairs</Link>,{' '}
+          <Link href="/storm-damage-roof-repair-in-newark-nj" className="text-copper underline hover:text-copper-dark">storm damage</Link>,{' '}
+          <Link href="/asphalt-shingle-roofing-in-newark-nj" className="text-copper underline hover:text-copper-dark">shingle roofing</Link>,{' '}
+          <Link href="/metal-roof-installation-repair-in-newark-nj" className="text-copper underline hover:text-copper-dark">metal roofs</Link>,{' '}
+          <Link href="/roof-maintenance-programs-in-newark-nj" className="text-copper underline hover:text-copper-dark">maintenance plans</Link>, and{' '}
+          <Link href="/roof-waterproofing-in-newark-nj" className="text-copper underline hover:text-copper-dark">waterproofing</Link>{' '}
           across Essex County.
           Newark Quality Roofing provides reliable roofing services using premium
           materials from GAF, CertainTeed, and Owens Corning.
@@ -116,7 +116,7 @@ export function HomeRepairServices() {
                 Storm damage and sudden leaks do not wait for business hours —
                 and neither do we.{' '}
                 Our{' '}
-                <Link href="/emergency-roof-repair" className="text-copper underline hover:text-copper-dark">emergency crews</Link>{' '}
+                <Link href="/emergency-roof-repair-in-newark-nj" className="text-copper underline hover:text-copper-dark">emergency crews</Link>{' '}
                 are available around the clock to secure
                 your home and prevent further roof damage.{' '}
                 If you need urgent roofing help anywhere in Newark or Essex
@@ -150,7 +150,7 @@ export function HomeRepairServices() {
 
         <div className="mt-8 text-center">
           <Link
-            href="/roof-repair"
+            href="/roof-repair-in-newark-nj"
             className="inline-flex items-center gap-2 font-heading text-lg font-semibold text-copper transition-colors hover:text-copper-dark"
           >
             Learn more

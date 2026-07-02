@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 import type { NearbyLink, GroupedRelatedServices, ParentPageLinks } from '@/data/linking/link-engine';
 import { getCityAnchorText, getServiceAnchorText } from '@/data/linking/anchor-text';
 
@@ -65,7 +66,7 @@ export function ComboRelatedLinks({
                   {group.services.map((svc, svcIndex) => (
                     <li key={svc.slug}>
                       <Link
-                        href={`/${svc.slug}`}
+                        href={`/${generateServicePageSlug(svc.slug)}`}
                         className="font-body text-sm text-forest underline decoration-copper/30 underline-offset-2 transition-colors hover:text-copper"
                       >
                         {getServiceAnchorText(svc.name, svcIndex)}
