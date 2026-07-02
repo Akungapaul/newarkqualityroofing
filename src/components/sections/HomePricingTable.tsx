@@ -123,8 +123,9 @@ export function HomePricingTable() {
             <p className="mt-2 font-body text-base leading-relaxed text-parchment/70">
               A typical residential roof replacement in New Jersey costs between
               $8,500 and $25,000, depending on size, pitch, material
-              choice, and whether a full tear-off is required. Request a free
-              roofing estimate to get an exact figure for your home.
+              choice, and whether a full tear-off is required. See the full{' '}
+              <Link href="/roof-replacement-cost" className="text-copper-light underline hover:text-copper">roof replacement cost</Link>{' '}
+              breakdown, or request a free roofing estimate to get an exact figure for your home.
             </p>
           </div>
           <div>

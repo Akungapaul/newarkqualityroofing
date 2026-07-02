@@ -313,7 +313,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         question: 'How much does roof replacement cost in Essex County, NJ?',
         answer:
-          '**Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, with the national 2025 average near $10,000–$11,000**, per HomeAdvisor and Modernize NJ cost data and industry replacement benchmarks. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Newark Quality Roofing provides a free written estimate.',
+          '**Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, with the national 2025 average near $10,000–$11,000**, per HomeAdvisor and Modernize NJ cost data and industry replacement benchmarks. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Newark Quality Roofing provides a free written estimate detailing the full [roof replacement cost](/roof-replacement-cost).',
       },
       {
         question: 'Does homeowners insurance cover roof replacement?',
