@@ -144,6 +144,19 @@ export const HEADING_CONFIG = {
     'free-roofing-estimate': 'How Can You Request a Free Roofing Estimate?',
     'our-roofing-process': 'How Does Our Roofing Process Work?',
   },
+
+  // Per-service H1 overrides (search-intent fix). Most hubs use the templated
+  // service.h1 "Who Provides {name} in Newark?"; these serviceIds instead get an
+  // intent-matched, question-form H1 (cost / decision / how-to / diagnostic pages).
+  // Each is verified against the service H2 tree so H1 !== any H2 (audit-headings).
+  serviceH1Overrides: {
+    'roof-replacement-cost': 'How Much Does Roof Replacement Cost in Newark, NJ?',
+    'insurance-roof-replacement': 'How Do You Get an Insurance-Covered Roof Replacement in Newark?',
+    'roof-ice-dam-prevention': 'How Do You Prevent Roof Ice Dams in Newark?',
+    'roof-maintenance-programs': 'What Roof Maintenance Programs Should You Consider in Newark?',
+    'roof-thermal-imaging-inspections': 'How Does Thermal Imaging Find Roof Problems in Newark?',
+    'infrared-roof-leak-detection': 'How Does Infrared Roof Leak Detection Find Leaks?',
+  } as Record<string, string>,
 } as const;
 
 export type HeadingConfig = typeof HEADING_CONFIG;

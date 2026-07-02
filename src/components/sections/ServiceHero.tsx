@@ -95,7 +95,7 @@ export function ServiceHero({ service, serviceGroups, benefits, directAnswer }: 
               id="service-hero-heading"
               className="text-balance font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
             >
-              {HEADING_CONFIG.service.h1(service.name)}
+              {HEADING_CONFIG.serviceH1Overrides[service.id] ?? HEADING_CONFIG.service.h1(service.name)}
             </h1>
 
             {directAnswer && (
