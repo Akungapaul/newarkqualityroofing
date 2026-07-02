@@ -35,6 +35,7 @@ import {
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { ServiceAreasGrid } from '@/components/sections/ServiceAreasGrid';
 import { getContentPoolImages } from '@/data/image-manifest';
@@ -189,8 +190,8 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         buildOrganizationSchema(),
         buildRoofingContractorSchema(),
         buildWebSiteSchema(),
-        buildServiceSchema({ name: service.name, slug: service.slug, shortDescription: service.shortDescription }),
-        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${service.slug}`, service.metaTitle),
+        buildServiceSchema({ name: service.name, slug: generateServicePageSlug(service.slug), shortDescription: service.shortDescription }),
+        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${generateServicePageSlug(service.slug)}`, service.metaTitle),
         buildBreadcrumbSchema([
           { name: 'Home', url: SEO_CONFIG.BASE_URL },
           { name: 'Services', url: `${SEO_CONFIG.BASE_URL}/services` },

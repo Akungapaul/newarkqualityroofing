@@ -5,7 +5,7 @@ import { combos } from './combos';
 import { comparisons } from './comparisons';
 import { articles } from './articles';
 import { corePages } from './core-pages';
-import { generateCityPageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
 
 // ─── Registry Builder ────────────────────────────────────────────────────────
 
@@ -23,10 +23,12 @@ function buildRegistry(): Map<string, SlugEntry> {
     registry.set(entry.slug, entry);
   }
 
-  // Services (63)
+  // Services (65) -- registered under "{service}-in-newark-nj" (local-intent URL,
+  // distinct from the combo "{service}-{city}-nj" pattern). service.slug stays the
+  // internal id used for combo generation + form values; only the PAGE url changes.
   for (const service of services) {
     register({
-      slug: service.slug,
+      slug: generateServicePageSlug(service.slug),
       type: 'service',
       serviceId: service.id,
     });

@@ -6,7 +6,7 @@ import { combos } from '@/data/combos';
 import { comparisons } from '@/data/comparisons';
 import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
-import { generateCityPageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
 import { getComboChangeFrequency, getComboSitemapPriority, isPriorityCity, isPriorityService } from '@/data/seo-priority';
 import { isKeep } from '@/data/url-classification';
 
@@ -77,7 +77,7 @@ export default async function sitemap({
 
     case 'services':
       return services.map((service) => ({
-        url: `${BASE_URL}/${service.slug}`,
+        url: `${BASE_URL}/${generateServicePageSlug(service.slug)}`,
         lastModified: NOW,
         changeFrequency: isPriorityService(service) ? 'weekly' as const : 'monthly' as const,
         priority: isPriorityService(service) ? 0.95 : 0.75,

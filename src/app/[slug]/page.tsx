@@ -10,7 +10,7 @@ import { corePages } from '@/data/core-pages';
 import { getCityContent } from '@/data/city-content';
 import { getComboContent } from '@/data/combo-content';
 import { getComparisonContent } from '@/data/comparison-content';
-import { generateCityPageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
 import { isNoindex, isRedirect } from '@/data/url-classification';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { getOGImage } from '@/data/image-manifest';
@@ -89,11 +89,12 @@ export async function generateMetadata({
       if (!service) return {};
       const serviceOg = getOGImage('service', service.id);
       const serviceDesc = buildServiceDescription(service);
+      const servicePageSlug = generateServicePageSlug(service.slug);
       return {
         title: service.metaTitle,
         description: serviceDesc,
-        alternates: { canonical: `/${service.slug}` },
-        openGraph: buildOG(service.metaTitle, serviceDesc, service.slug, 'website', serviceOg?.path ?? undefined),
+        alternates: { canonical: `/${servicePageSlug}` },
+        openGraph: buildOG(service.metaTitle, serviceDesc, servicePageSlug, 'website', serviceOg?.path ?? undefined),
       };
     }
     case 'city': {

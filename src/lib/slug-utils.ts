@@ -20,6 +20,18 @@ export function generateComboSlug(serviceSlug: string, citySlug: string): string
 }
 
 /**
+ * Generate a service HUB page slug: {service-slug}-in-newark-nj
+ * Mirrors generateCityPageSlug so service pages read as local-intent URLs and stay
+ * structurally distinct from the combo pattern "{service}-{city}-nj" (no "-in-").
+ * The bare service.slug remains the internal identifier (combo generation + form
+ * values); ONLY the service PAGE url carries this suffix.
+ * Example: "roof-repair" => "roof-repair-in-newark-nj"
+ */
+export function generateServicePageSlug(serviceSlug: string): string {
+  return `${serviceSlug}-in-newark-nj`;
+}
+
+/**
  * Generate a city landing page slug: roof-repair-and-installation-in-{city-slug}-nj
  * Re-targeted onto the two money keywords (repair + installation). Still avoids
  * collision with service page slugs and the combo "{service}-{city}-nj" pattern.
