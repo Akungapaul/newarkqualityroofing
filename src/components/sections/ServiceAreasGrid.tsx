@@ -35,6 +35,17 @@ interface ServiceAreasGridProps {
 }
 
 export function ServiceAreasGrid({ heading, service }: ServiceAreasGridProps) {
+  // Hide the section when the service has no indexable (keep) combo in any city —
+  // otherwise a fully-pruned (noindexed) service hub renders empty region columns
+  // beneath an "all 21 communities" intro.
+  const hasKeepCity = REGIONS.some((region) =>
+    region.cityIds.some((cityId) => {
+      const city = cityById.get(cityId);
+      return city != null && isKeep(generateComboSlug(service.slug, city.slug));
+    }),
+  );
+  if (!hasKeepCity) return null;
+
   return (
     <section
       className="bg-parchment py-12 lg:py-16"

@@ -130,6 +130,8 @@ export function getRelatedServiceLinks(
   for (const service of services) {
     if (service.id === currentService.id) continue;
     if (service.category !== currentService.category) continue;
+    // Only surface indexable combos — skip noindexed/redirected ones (mirrors getNearbyCityLinks).
+    if (!isKeep(generateComboSlug(service.slug, city.slug))) continue;
 
     const existing = grouped.get(service.category) ?? [];
     if (existing.length >= MAX_SAME_CATEGORY) continue;
@@ -152,6 +154,7 @@ export function getRelatedServiceLinks(
     const catServices: RelatedServiceLink[] = [];
     for (const service of services) {
       if (service.category !== relCat) continue;
+      if (!isKeep(generateComboSlug(service.slug, city.slug))) continue;
       if (catServices.length >= MAX_RELATED_PER_CATEGORY) break;
 
       catServices.push({
