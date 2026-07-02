@@ -26,7 +26,7 @@ import { combos } from '@/data/combos';
 import { comparisons } from '@/data/comparisons';
 import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
-import { generateCityPageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
 import { isKeep, isNoindex, isRedirect } from '@/data/url-classification';
 
 const { BASE_URL } = SEO_CONFIG;
@@ -83,7 +83,8 @@ async function main() {
     if (!EXCLUDED_CORE_PAGES.has(c.id)) mustInclude.add(u(c.slug));
   }
   // Services / cities / comparisons / articles
-  for (const s of services) mustInclude.add(u(s.slug));
+  // Service hubs live at the "{service}-in-newark-nj" slug (migrated from the bare slug).
+  for (const s of services) mustInclude.add(u(generateServicePageSlug(s.slug)));
   for (const c of cities) mustInclude.add(u(generateCityPageSlug(c.slug)));
   for (const c of comparisons) mustInclude.add(u(c.slug));
   for (const a of articles) mustInclude.add(u(a.slug));
