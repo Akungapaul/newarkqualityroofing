@@ -4,53 +4,63 @@ import { cities } from '@/data/cities';
 import { generateComboSlug } from '@/lib/slug-utils';
 import { isKeep } from '@/data/url-classification';
 
+// Demand-ranked from the NJ keyword-cluster analysis (DataForSEO NJ-geotargeted +
+// GSC actuals). Cluster demand = the full New Jersey keyword-cluster volume per money
+// page; "deep-cluster Tier A/B" = clusterDemand ≥ 1,000/mo. Source of truth:
+// .planning/seo/demand/money-page-demand.json.
 export const PRIORITY_SERVICE_IDS = [
-  'roof-repair',
-  'roof-leak-repair',
-  'emergency-roof-repair',
-  'roof-replacement',
-  'flat-roof-installation-repair',
-  'commercial-roof-repair',
-  'commercial-roof-installation',
-  'gutter-installation-repair',
-  'gutter-guard-installation',
-  'modified-bitumen-roofing',
-  'built-up-roofing',
-  'green-roof-installation',
-  'tpo-roofing-installation',
-  'epdm-commercial-roofing',
+  // Tier A — cluster demand ≥ 3,000/mo
+  'roof-repair', //                     18,270
+  'metal-roof-installation-repair', //   5,800
+  'gutter-installation-repair', //       4,780
+  'tile-roof-installation-repair', //    3,470
+  // Tier B — cluster demand 1,000–2,999/mo
+  'flat-roof-installation-repair', //    2,730
+  'roof-replacement', //                 2,420
+  'roof-replacement-cost', //            2,050
+  'roof-flashing-installation-repair', // 2,010
+  'slate-roof-installation-repair', //   1,950
+  'roof-inspection', //                  1,660
+  'roof-leak-repair', //                 1,390
+  'roof-cleaning-moss-removal', //       1,300
+  'rubber-roofing-epdm', //              1,300
+  'asphalt-shingle-roofing', //          1,060 (narrow head; asphalt demand under-credited)
+  // High-value overrides — low search volume but strong GSC traction + high lead value
+  'emergency-roof-repair', //            cluster 640, GSC 135 imps (urgent intent)
+  'commercial-roof-installation', //     cluster 50, GSC 118 imps (commercial high-ticket)
 ] as const;
 
+// Blended local demand (NJ search volume + GSC impressions), top 10 Essex County cities.
 export const PRIORITY_CITY_IDS = [
-  'newark',
-  'east-orange',
-  'bloomfield',
-  'montclair',
-  'belleville',
-  'irvington',
-  'south-orange',
-  'west-orange',
-  'maplewood',
-  'livingston',
+  'montclair', //   613
+  'newark', //      551
+  'belleville', //  293
+  'east-orange', // 125
+  'caldwell', //     87
+  'orange', //       76
+  'livingston', //   62
+  'millburn', //     59
+  'nutley', //       49
+  'maplewood', //    49
 ] as const;
 
-// Hand-curated priority intent, keyed serviceId:cityId. This is the WISH list;
-// the exported PRIORITY_COMBO_PAIRS below is reconciled against the 1197 KEEP set
-// (D-08) so no CONSOLIDATE/301 (or any future NOINDEX) combo can ever be priority-boosted.
-// Newark combos are consolidated (301) into the service pages (Option 3), so the
-// priority combos target the next-tier Essex County cities (all KEEP-INDEX).
+// Flagship service × top-demand city pairs. Newark combos are consolidated (301) into
+// the service pages, so priority combos target the strongest NON-Newark Essex County
+// cities (Montclair / Belleville / East Orange — all KEEP-INDEX). The exported
+// PRIORITY_COMBO_PAIRS below is reconciled against the KEEP set (isKeep gate, D-08) so
+// no CONSOLIDATE/301 (or any future NOINDEX) combo can ever be priority-boosted.
 const RAW_PRIORITY_COMBO_PAIRS = [
-  'roof-repair:east-orange',
+  'roof-repair:montclair',
   'roof-leak-repair:montclair',
-  'emergency-roof-repair:irvington',
-  'roof-replacement:bloomfield',
+  'roof-replacement:belleville',
+  'emergency-roof-repair:belleville',
+  'metal-roof-installation-repair:montclair',
   'flat-roof-installation-repair:east-orange',
-  'commercial-roof-repair:bloomfield',
-  'commercial-roof-installation:montclair',
-  'gutter-guard-installation:belleville',
-  'green-roof-installation:montclair',
-  'modified-bitumen-roofing:east-orange',
-  'storm-damage-roof-repair:irvington',
+  'gutter-installation-repair:montclair',
+  'roof-inspection:montclair',
+  'commercial-roof-installation:belleville',
+  'roof-flashing-installation-repair:east-orange',
+  'tile-roof-installation-repair:montclair',
 ] as const;
 
 /**
@@ -65,10 +75,9 @@ function comboSlugForPair(pair: string): string | undefined {
   return generateComboSlug(service.slug, city.slug);
 }
 
-// D-08: PRIORITY_COMBO_PAIRS ⊆ the KEEP set. Each raw pair is mapped to its combo
-// slug and DROPPED unless isKeep(slug). After the 942-doorway re-index all 11 raw
-// pairs are KEEP (the 4 formerly-NOINDEX pairs — gutter-guard@belleville,
-// green-roof@newark, modified-bitumen@newark, built-up@newark — now pass the gate).
+// D-08: PRIORITY_COMBO_PAIRS ⊆ the KEEP set. Each raw pair is mapped to its combo slug
+// and DROPPED unless isKeep(slug), so a redirected/noindex combo can never be
+// priority-boosted. All 11 pairs above are verified KEEP as of the demand re-sync.
 export const PRIORITY_COMBO_PAIRS = new Set<string>(
   RAW_PRIORITY_COMBO_PAIRS.filter((pair) => {
     const slug = comboSlugForPair(pair);
