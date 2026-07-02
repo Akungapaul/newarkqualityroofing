@@ -51,7 +51,7 @@ const ORIGIN = 'https://newarkqualityroofing.com';
 const WWW_ORIGIN = 'https://www.newarkqualityroofing.com';
 
 // ─── Locked expectations (D-03) ─────────────────────────────────────────────
-const EXPECT = { keep: 1140, noindex: 0, comboRedirect: 225, legacyRedirect: 0 } as const;
+const EXPECT = { keep: 738, noindex: 402, comboRedirect: 225, legacyRedirect: 0 } as const;
 
 // ─── Quote-aware CSV line parser (RFC-4180; RESEARCH Pitfall 3) ──────────────
 // A left-to-right scan that respects double-quoted fields. The quoted `Reason`

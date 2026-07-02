@@ -87,7 +87,7 @@ async function main() {
   for (const c of cities) mustInclude.add(u(generateCityPageSlug(c.slug)));
   for (const c of comparisons) mustInclude.add(u(c.slug));
   for (const a of articles) mustInclude.add(u(a.slug));
-  // 1140 KEEP combos
+  // 738 KEEP combos
   const keepCombos = combos.filter((c) => isKeep(c.slug));
   for (const c of keepCombos) mustInclude.add(u(c.slug));
   // KB IA: hub + 6 cluster hubs + glossary
@@ -99,7 +99,7 @@ async function main() {
 
   // ── Expected EXCLUDED ─────────────────────────────────────────────────────────
   const mustExclude = new Set<string>();
-  // 225 redirected combos (0 noindex combos remain after the 942-doorway re-index)
+  // 225 redirected + 402 noindexed combos excluded from the sitemap
   for (const c of combos) {
     if (isNoindex(c.slug) || isRedirect(c.slug)) mustExclude.add(u(c.slug));
   }
@@ -111,9 +111,9 @@ async function main() {
     ...KB_CLUSTERS.map((cl) => u(`roofing-knowledge-base/${cl}`)),
   ]);
 
-  // Sanity: keep count must be exactly 1140 (1197 − 57 Newark combos consolidated into service pages).
-  if (keepCombos.length !== 1140) {
-    errors.push(`Keep combo count: expected 1140, got ${keepCombos.length}`);
+  // Sanity: keep count must be exactly 738 (1140 indexable combos − 402 zero-demand phantoms noindexed).
+  if (keepCombos.length !== 738) {
+    errors.push(`Keep combo count: expected 738, got ${keepCombos.length}`);
   }
 
   // ── Assert INCLUDED present ────────────────────────────────────────────────────
@@ -151,8 +151,8 @@ async function main() {
     process.exit(1);
   }
 
-  console.log('Sitemap membership valid: 1140 keep + core/KB/glossary + 6 FLAT hubs included;');
-  console.log('225 redirected + 44 nested KB articles excluded. PASS');
+  console.log('Sitemap membership valid: 738 keep + core/KB/glossary + 6 FLAT hubs included;');
+  console.log('225 redirected + 402 noindexed + 44 nested KB articles excluded. PASS');
   process.exit(0);
 }
 
