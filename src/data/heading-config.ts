@@ -150,6 +150,7 @@ export const HEADING_CONFIG = {
   // intent-matched, question-form H1 (cost / decision / how-to / diagnostic pages).
   // Each is verified against the service H2 tree so H1 !== any H2 (audit-headings).
   serviceH1Overrides: {
+    'roof-repair': 'Who Provides Roof Repair in Newark, NJ?',
     'roof-replacement-cost': 'How Much Does Roof Replacement Cost in Newark, NJ?',
     'insurance-roof-replacement': 'How Do You Get an Insurance-Covered Roof Replacement in Newark?',
     'roof-ice-dam-prevention': 'How Do You Prevent Roof Ice Dams in Newark?',

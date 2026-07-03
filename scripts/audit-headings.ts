@@ -230,7 +230,7 @@ function buildSampleSet(): RenderedSample[] {
     { label: 'home', file: 'index.html', coreH2: H.home.coreH2, kind: 'full' },
     {
       label: 'service (roof-repair)',
-      file: 'roof-repair.html',
+      file: 'roof-repair-in-newark-nj.html',
       coreH2: serviceHasDefinition('roof-repair')
         ? H.service.definitionH2(repairName)
         : H.service.coreH2(repairName),

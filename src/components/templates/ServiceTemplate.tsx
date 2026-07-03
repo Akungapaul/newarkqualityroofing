@@ -41,6 +41,8 @@ import { ServiceAreasGrid } from '@/components/sections/ServiceAreasGrid';
 import { getContentPoolImages } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import { EntityDefinition } from '@/components/sections/EntityDefinition';
+import { ServiceRichSections } from '@/components/sections/ServiceRichSections';
+import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
 
@@ -169,7 +171,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
   // Derive hero benefits from short description
   const benefits = [
     `Professional ${service.name.toLowerCase()} services`,
-    'Licensed and insured Essex County contractor',
+    'Registered and insured Essex County contractor',
     'Free estimates with no obligation',
   ];
 
@@ -237,77 +239,113 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
               />
             </AnimateIn>
           )}
-          {/* ── §4.2 CORE band: first content H2 = "What [Service] Do We Provide?" ── */}
-          <AnimateIn><ServiceOverview heading={coreH2} paragraphs={content.overview} subServices={content.subServices} image={overviewImg ? { src: overviewImg.path, alt: `${service.name} consultation - ${overviewImg.alt}` } : undefined} /></AnimateIn>
-
-          {/* Outer: How Do You Know If You Need [Service]? */}
-          <AnimateIn><ServiceSigns heading={signsH2} signs={content.signs} /></AnimateIn>
-
-          <ServiceInlineCta serviceName={service.name} />
-
-          {/* Outer: How Do Our Roofing Contractors Perform [Service]? */}
-          <AnimateIn>
-            <ServiceApproach
-              heading={approachH2}
-              content={content.approachContent}
-              image={approachImg ? { src: approachImg.path, alt: `${service.name} materials and approach - ${approachImg.alt}` } : undefined}
-              subheadings={content.approachSubheadings}
-              imagePosition="above"
-            />
-          </AnimateIn>
-
-          {isCommercialFirst ? (
+          {content.sections ? (
             <>
-              <AnimateIn>
-                <ServiceAudience
-                  variant="commercial"
-                  heading={`What Commercial ${service.name} Do We Provide?`}
-                  content={content.commercial.content}
-                  ctaLabel={content.commercial.ctaLabel}
-                />
-              </AnimateIn>
-              <AnimateIn>
-                <ServiceAudience
-                  variant="residential"
-                  heading={`What Residential ${service.name} Do We Provide?`}
-                  content={content.residential.content}
-                  ctaLabel={content.residential.ctaLabel}
-                />
-              </AnimateIn>
+              {/* ── Rich brief-driven band (roof-repair): ordered question-form
+                  prose sections replace the generic overview/signs/approach/
+                  audience band. Gated on content.sections — other services keep
+                  the standard band below. ── */}
+              <AnimateIn><ServiceRichSections sections={content.sections} /></AnimateIn>
+
+              {content.neighborhoods && content.neighborhoods.length > 0 && (
+                <AnimateIn>
+                  <CityNeighborhoods
+                    neighborhoods={content.neighborhoods}
+                    cityName="Newark"
+                    heading={content.neighborhoodsHeading}
+                  />
+                </AnimateIn>
+              )}
+
+              {content.problemsWeExpect && (
+                <AnimateIn>
+                  <ServiceSigns
+                    heading={content.problemsWeExpect.heading}
+                    signs={content.problemsWeExpect.items}
+                  />
+                </AnimateIn>
+              )}
+
+              <ServiceInlineCta serviceName={service.name} />
             </>
           ) : (
             <>
+              {/* ── §4.2 CORE band: first content H2 = "What [Service] Do We Provide?" ── */}
+              <AnimateIn><ServiceOverview heading={coreH2} paragraphs={content.overview} subServices={content.subServices} image={overviewImg ? { src: overviewImg.path, alt: `${service.name} consultation - ${overviewImg.alt}` } : undefined} /></AnimateIn>
+
+              {/* Outer: How Do You Know If You Need [Service]? */}
+              <AnimateIn><ServiceSigns heading={signsH2} signs={content.signs} /></AnimateIn>
+
+              <ServiceInlineCta serviceName={service.name} />
+
+              {/* Outer: How Do Our Roofing Contractors Perform [Service]? */}
               <AnimateIn>
-                <ServiceAudience
-                  variant="residential"
-                  heading={`What Residential ${service.name} Do We Provide?`}
-                  content={content.residential.content}
-                  ctaLabel={content.residential.ctaLabel}
+                <ServiceApproach
+                  heading={approachH2}
+                  content={content.approachContent}
+                  image={approachImg ? { src: approachImg.path, alt: `${service.name} materials and approach - ${approachImg.alt}` } : undefined}
+                  subheadings={content.approachSubheadings}
+                  imagePosition="above"
                 />
               </AnimateIn>
-              <AnimateIn>
-                <ServiceAudience
-                  variant="commercial"
-                  heading={`What Commercial ${service.name} Do We Provide?`}
-                  content={content.commercial.content}
-                  ctaLabel={content.commercial.ctaLabel}
-                />
-              </AnimateIn>
+
+              {isCommercialFirst ? (
+                <>
+                  <AnimateIn>
+                    <ServiceAudience
+                      variant="commercial"
+                      heading={`What Commercial ${service.name} Do We Provide?`}
+                      content={content.commercial.content}
+                      ctaLabel={content.commercial.ctaLabel}
+                    />
+                  </AnimateIn>
+                  <AnimateIn>
+                    <ServiceAudience
+                      variant="residential"
+                      heading={`What Residential ${service.name} Do We Provide?`}
+                      content={content.residential.content}
+                      ctaLabel={content.residential.ctaLabel}
+                    />
+                  </AnimateIn>
+                </>
+              ) : (
+                <>
+                  <AnimateIn>
+                    <ServiceAudience
+                      variant="residential"
+                      heading={`What Residential ${service.name} Do We Provide?`}
+                      content={content.residential.content}
+                      ctaLabel={content.residential.ctaLabel}
+                    />
+                  </AnimateIn>
+                  <AnimateIn>
+                    <ServiceAudience
+                      variant="commercial"
+                      heading={`What Commercial ${service.name} Do We Provide?`}
+                      content={content.commercial.content}
+                      ctaLabel={content.commercial.ctaLabel}
+                    />
+                  </AnimateIn>
+                </>
+              )}
             </>
           )}
 
-          <AnimateIn><ServiceProcess heading={`What Are the Steps in Our ${service.name} Process?`} steps={content.processSteps} image={processImg ? { src: processImg.path, alt: `${service.name} crew at work - ${processImg.alt}` } : undefined} /></AnimateIn>
+          <AnimateIn><ServiceProcess heading={content.processHeading ?? `What Are the Steps in Our ${service.name} Process?`} steps={content.processSteps} image={processImg ? { src: processImg.path, alt: `${service.name} crew at work - ${processImg.alt}` } : undefined} /></AnimateIn>
 
           {/* Outer: How Much Does [Service] Cost? */}
           {content.pricing && (
-            <AnimateIn><ServicePricing heading={costH2} pricing={content.pricing} serviceName={service.name} /></AnimateIn>
+            <AnimateIn><ServicePricing heading={content.pricingHeading ?? costH2} pricing={content.pricing} serviceName={service.name} /></AnimateIn>
           )}
 
           {/* Outer: Why Choose Our Roofing Company for [Service]? */}
+          {/* The rich layout honors the authored whyChooseUs.heading (a question);
+              standard services keep the config question — many of their authored
+              headings are declarative and would fail the heading audit. */}
           {content.whyChooseUs && (
             <AnimateIn>
               <ServiceWhyChooseUs
-                heading={whyChooseH2}
+                heading={content.sections ? content.whyChooseUs.heading : whyChooseH2}
                 reasons={content.whyChooseUs.reasons}
               />
             </AnimateIn>

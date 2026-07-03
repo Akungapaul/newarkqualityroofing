@@ -180,6 +180,29 @@ export const ServiceContentSchema = z.object({
     })),
   }).optional(),
   credentialsHighlight: z.array(z.string()).optional(),
+  // ─── Rich "brief-driven" layout (optional, per-page opt-in) ────────────────
+  // When `sections` is present the ServiceTemplate renders these ordered,
+  // question-form prose H2 sections IN PLACE OF the generic overview/signs/
+  // approach/audience band (roof-repair uses this to carry a Surfer brief).
+  // The ~64 other services omit every field below and render exactly as before.
+  sections: z.array(z.object({
+    heading: z.string(),         // question-form H2
+    body: z.array(z.string()).min(1), // rich-text paragraphs (parseRichText)
+  })).optional(),
+  // "Local property context" chip grid (rendered via CityNeighborhoods).
+  neighborhoods: z.array(z.object({
+    name: z.string(),
+    description: z.string().optional(),
+  })).optional(),
+  neighborhoodsHeading: z.string().optional(), // question-form H2 for the chips
+  // "Roof problems we expect" bullet list (rendered via ServiceSigns).
+  problemsWeExpect: z.object({
+    heading: z.string(),         // question-form H2
+    items: z.array(z.string()).min(1),
+  }).optional(),
+  // Per-page heading overrides so process/cost read as the brief's headings.
+  processHeading: z.string().optional(),
+  pricingHeading: z.string().optional(),
 });
 
 // ─── City Content ──────────────────────────────────────────────────────────
