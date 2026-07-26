@@ -49,23 +49,16 @@ interface V {
 }
 
 /**
- * Dead links that already existed when this gate was introduced, each kept
- * visible rather than silently tolerated. Fixing one REMOVES its entry — a
- * stale entry is itself a gate violation (assertion 2).
+ * Escape hatch for a dead link that is known and deliberately deferred, so it
+ * stays visible rather than silently tolerated. Fixing one REMOVES its entry —
+ * a stale entry is itself a gate violation (assertion 2), so this cannot rot.
+ *
+ * CURRENTLY EMPTY, and that is the target state. It was seeded with the 8 links
+ * that predated this gate (4 in homepage body copy via LocationsGrid, 4 in
+ * article content); all 8 were repaired and de-listed. Add an entry only to
+ * defer a fix consciously, with the source location and the reason.
  */
-const KNOWN_DEAD = new Map<string, string>([
-  // Legacy city hrefs, hardcoded and missing the -nj suffix, so none of the 21
-  // static 301s in next.config.ts catch them. Four render in homepage body copy.
-  ['/roofing-in-newark', 'LocationsGrid.tsx:31 — needs generateCityPageSlug()'],
-  ['/roofing-in-essex-county', 'LocationsGrid.tsx:34 — should point at /service-areas'],
-  ['/roofing-in-montclair', 'LocationsGrid.tsx:38 — needs generateCityPageSlug()'],
-  ['/roofing-in-bloomfield', 'LocationsGrid.tsx:39 — needs generateCityPageSlug()'],
-  // Dead in-body links inside article content.
-  ['/flat-roof', 'article-content/comparisons.ts:895,1750,1756'],
-  ['/flat-roof-installation', 'article-content/comparisons.ts:939'],
-  ['/services/flat-roof-replacement', 'article-content/replacement-sub-pages.ts:1454'],
-  ['/roofing-comparisons/pvc-vs-tpo-roofing', 'article-content/comparisons.ts:512'],
-]);
+const KNOWN_DEAD = new Map<string, string>([]);
 
 /** Recursively collect every .html file under dir, as paths relative to dir. */
 function walkHtml(dir: string, base = dir): string[] {

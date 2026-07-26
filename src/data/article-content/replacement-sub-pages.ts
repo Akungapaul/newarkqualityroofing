@@ -1451,7 +1451,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     ],
     "conclusion": "Ponding past 48 hours, damage over 25 to 30% of the area, recurring leaks at one spot, an at-or-past-lifespan membrane, open seams or alligator cracking, and a soft deck each mark the point where a flat roof fails as a system and a full membrane replacement ends the leaks a patch cannot.",
     "ctaHeading": "Get Your Flat Roof Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written assessment of your deck, drainage, and membrane to weigh a repair against a [flat roof replacement](/services/flat-roof-replacement).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written assessment of your deck, drainage, and membrane to weigh a repair against a [flat roof replacement](/flat-roof-replacement-in-newark-nj).",
     "metaDescription": "Signs a flat roof needs replacement: ponding past 48 hours, damage over 25 to 30%, recurring leaks, an at-or-past-lifespan membrane, or a soft deck."
   },
   {

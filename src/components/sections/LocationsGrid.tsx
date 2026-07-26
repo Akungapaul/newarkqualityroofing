@@ -28,15 +28,15 @@ export function LocationsGrid() {
             </h2>
             <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment/70">
               From our{' '}
-              <Link href="/roofing-in-newark" className="text-copper-light underline hover:text-copper">Newark</Link>{' '}
+              <Link href={`/${generateCityPageSlug('newark')}`} className="text-copper-light underline hover:text-copper">Newark</Link>{' '}
               headquarters, we provide expert roofing services
               to <em>every community</em> across{' '}
-              <Link href="/roofing-in-essex-county" className="text-copper-light underline hover:text-copper">Essex County</Link>.{' '}
+              <Link href="/service-areas" className="text-copper-light underline hover:text-copper">Essex County</Link>.{' '}
               Browse all{' '}
-              <Link href="/services" className="text-copper-light underline hover:text-copper">services</Link>{' '}
+              <Link href="/roofing-services" className="text-copper-light underline hover:text-copper">services</Link>{' '}
               we offer, including roofing in{' '}
-              <Link href="/roofing-in-montclair" className="text-copper-light underline hover:text-copper">Montclair</Link>{' '}and{' '}
-              <Link href="/roofing-in-bloomfield" className="text-copper-light underline hover:text-copper">Bloomfield</Link>.
+              <Link href={`/${generateCityPageSlug('montclair')}`} className="text-copper-light underline hover:text-copper">Montclair</Link>{' '}and{' '}
+              <Link href={`/${generateCityPageSlug('bloomfield')}`} className="text-copper-light underline hover:text-copper">Bloomfield</Link>.
             </p>
           </div>
 
