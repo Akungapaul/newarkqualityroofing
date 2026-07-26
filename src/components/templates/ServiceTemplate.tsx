@@ -196,7 +196,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${generateServicePageSlug(service.slug)}`, service.metaTitle),
         buildBreadcrumbSchema([
           { name: 'Home', url: SEO_CONFIG.BASE_URL },
-          { name: 'Services', url: `${SEO_CONFIG.BASE_URL}/services` },
+          { name: 'Services', url: `${SEO_CONFIG.BASE_URL}/roofing-services` },
           { name: service.name },
         ]),
         buildFaqSchema(

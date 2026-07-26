@@ -61,8 +61,11 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
       <JsonLd data={buildJsonLdGraph(
         buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${comparison.slug}`, comparison.metaTitle),
         buildBreadcrumbSchema([
+          // No intermediate "Comparisons" crumb: there is no comparisons index
+          // page to point it at, and a ListItem without `item` is only valid in
+          // the final position — Google returned Rich Results FAIL ("Missing
+          // field item") on all 30 comparison pages because of it.
           { name: 'Home', url: SEO_CONFIG.BASE_URL },
-          { name: 'Comparisons' },
           { name: comparison.metaTitle },
         ]),
         buildFaqSchema([

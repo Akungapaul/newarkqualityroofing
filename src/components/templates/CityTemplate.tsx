@@ -89,7 +89,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
         buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${generateCityPageSlug(city.slug)}`, content.metaTitle),
         buildBreadcrumbSchema([
           { name: 'Home', url: SEO_CONFIG.BASE_URL },
-          { name: 'Locations', url: `${SEO_CONFIG.BASE_URL}/locations` },
+          { name: 'Locations', url: `${SEO_CONFIG.BASE_URL}/service-areas` },
           { name: city.name },
         ]),
         buildFaqSchema(
