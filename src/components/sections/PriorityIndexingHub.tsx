@@ -4,13 +4,17 @@ import { services } from '@/data/services';
 import { PRIORITY_CITY_IDS, PRIORITY_SERVICE_IDS, PRIORITY_COMBO_PAIRS } from '@/data/seo-priority';
 import { generateCityPageSlug, generateComboSlug, generateServicePageSlug } from '@/lib/slug-utils';
 
+// Newark combos are consolidated (301) into their service pages, so these link
+// straight at the service hub. Store the BASE service slug and let
+// generateServicePageSlug() build the URL — hardcoding the full href is what
+// left these pointing at redirect sources after the service-hub migration.
 const gscPriorityLinks = [
-  { href: '/roof-repair-newark-nj', label: 'Roof repair in Newark', note: 'Fast fixes for leaks, missing shingles, and storm damage.' },
-  { href: '/emergency-roof-repair-newark-nj', label: 'Emergency roof repair in Newark', note: 'Urgent help for active leaks and storm damage.' },
-  { href: '/roof-replacement-newark-nj', label: 'Roof replacement in Newark', note: 'Full roof replacement for aging or failing roofs.' },
-  { href: '/roof-leak-repair-newark-nj', label: 'Roof leak repair in Newark', note: 'Pinpoint and seal roof leaks at the source.' },
-  { href: '/flat-roof-installation-repair-newark-nj', label: 'Flat roof installation in Newark', note: 'TPO, EPDM, and modified-bitumen flat-roof systems.' },
-  { href: '/commercial-roof-installation-newark-nj', label: 'Commercial roof installation in Newark', note: 'Roof installation for commercial and industrial buildings.' },
+  { slug: 'roof-repair', label: 'Roof repair in Newark', note: 'Fast fixes for leaks, missing shingles, and storm damage.' },
+  { slug: 'emergency-roof-repair', label: 'Emergency roof repair in Newark', note: 'Urgent help for active leaks and storm damage.' },
+  { slug: 'roof-replacement', label: 'Roof replacement in Newark', note: 'Full roof replacement for aging or failing roofs.' },
+  { slug: 'roof-leak-repair', label: 'Roof leak repair in Newark', note: 'Pinpoint and seal roof leaks at the source.' },
+  { slug: 'flat-roof-installation-repair', label: 'Flat roof installation in Newark', note: 'TPO, EPDM, and modified-bitumen flat-roof systems.' },
+  { slug: 'commercial-roof-installation', label: 'Commercial roof installation in Newark', note: 'Roof installation for commercial and industrial buildings.' },
 ] as const;
 
 export function PriorityIndexingHub() {
@@ -45,8 +49,8 @@ export function PriorityIndexingHub() {
           <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {gscPriorityLinks.map((link) => (
               <Link
-                key={link.href}
-                href={link.href}
+                key={link.slug}
+                href={`/${generateServicePageSlug(link.slug)}`}
                 className="rounded-lg border border-border bg-white p-4 transition-colors hover:border-copper"
               >
                 <span className="block font-body text-sm font-semibold text-copper underline-offset-2 hover:underline">
