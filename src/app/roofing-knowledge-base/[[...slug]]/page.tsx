@@ -1,117 +1,101 @@
-import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import { SEO_CONFIG } from '@/lib/seo-config';
+import { KB_CLUSTERS, getKbCluster } from '@/data/kb-clusters';
+import { articles, type Article } from '@/data/articles';
+import { services } from '@/data/services';
+import { comparisons } from '@/data/comparisons';
+import { generateServicePageSlug } from '@/lib/slug-utils';
 
-// ─── KB Topical-Map Enumeration (D-10 / D-14) ────────────────────────────────
+// ─── Roofing Knowledge Base ──────────────────────────────────────────────────
 //
-// The Knowledge Base is the ONLY nested-URL area on the site
-// (/roofing-knowledge-base/{cluster}/{slug}). These paths are owned by THIS
-// route's own enumeration and are deliberately NOT in the flat slug-registry
-// (so validate-flat-urls.ts never sees a '/'-containing slug). Authored content
-// lands in Phase 13 — Phase 11 makes every path RESOLVE as a noindexed scaffold.
-
-/** The 6 article clusters (D-14 taxonomy). */
-const CLUSTERS = [
-  { slug: 'roof-problems', title: 'Roof Problems' },
-  { slug: 'roof-components', title: 'Roof Components' },
-  { slug: 'roofing-materials', title: 'Roofing Materials' },
-  { slug: 'roofing-process', title: 'Roofing Process' },
-  { slug: 'roofing-costs', title: 'Roofing Costs' },
-  { slug: 'local-roofing-knowledge', title: 'Local Roofing Knowledge' },
-] as const;
-
-const CLUSTER_TITLES = new Map<string, string>(CLUSTERS.map((c) => [c.slug, c.title]));
-
-/**
- * The 44 NEW nested KB articles (BRIEF §16): 8 + 11 + 9 + 8 + 8 across 5 clusters.
- * `local-roofing-knowledge` has 0 NEW authored articles in Phase 11/13 — its
- * cluster hub still resolves as a scaffold. The `title` is a human-readable
- * scaffold heading; Phase 13 replaces these with authored content.
- */
-const KB_ARTICLES: ReadonlyArray<{ cluster: string; slug: string; title: string }> = [
-  // roof-problems (8)
-  { cluster: 'roof-problems', slug: 'what-causes-roof-leaks', title: 'What Causes Roof Leaks?' },
-  { cluster: 'roof-problems', slug: 'signs-of-hail-damage-roof', title: 'Signs of Hail Damage on a Roof' },
-  { cluster: 'roof-problems', slug: 'why-are-shingles-missing', title: 'Why Are Shingles Missing?' },
-  { cluster: 'roof-problems', slug: 'roof-leak-around-chimney', title: 'Roof Leak Around the Chimney' },
-  { cluster: 'roof-problems', slug: 'roof-leak-around-skylight', title: 'Roof Leak Around a Skylight' },
-  { cluster: 'roof-problems', slug: 'ponding-water-flat-roof', title: 'Ponding Water on a Flat Roof' },
-  { cluster: 'roof-problems', slug: 'what-does-granule-loss-mean', title: 'What Does Granule Loss Mean?' },
-  { cluster: 'roof-problems', slug: 'when-is-a-sagging-roof-serious', title: 'When Is a Sagging Roof Serious?' },
-  // roof-components (11)
-  { cluster: 'roof-components', slug: 'what-is-roof-flashing', title: 'What Is Roof Flashing?' },
-  { cluster: 'roof-components', slug: 'what-is-step-flashing', title: 'What Is Step Flashing?' },
-  { cluster: 'roof-components', slug: 'what-is-chimney-flashing', title: 'What Is Chimney Flashing?' },
-  { cluster: 'roof-components', slug: 'what-is-roof-underlayment', title: 'What Is Roof Underlayment?' },
-  { cluster: 'roof-components', slug: 'what-is-ice-and-water-shield', title: 'What Is Ice and Water Shield?' },
-  { cluster: 'roof-components', slug: 'what-is-roof-decking', title: 'What Is Roof Decking?' },
-  { cluster: 'roof-components', slug: 'what-is-drip-edge', title: 'What Is Drip Edge?' },
-  { cluster: 'roof-components', slug: 'what-is-a-pipe-boot', title: 'What Is a Pipe Boot?' },
-  { cluster: 'roof-components', slug: 'what-is-a-roof-valley', title: 'What Is a Roof Valley?' },
-  { cluster: 'roof-components', slug: 'what-is-a-ridge-vent', title: 'What Is a Ridge Vent?' },
-  { cluster: 'roof-components', slug: 'what-are-soffit-vents', title: 'What Are Soffit Vents?' },
-  // roofing-materials (9)
-  { cluster: 'roofing-materials', slug: 'what-are-asphalt-shingles', title: 'What Are Asphalt Shingles?' },
-  { cluster: 'roofing-materials', slug: 'what-are-architectural-shingles', title: 'What Are Architectural Shingles?' },
-  { cluster: 'roofing-materials', slug: 'is-metal-roofing-worth-it', title: 'Is Metal Roofing Worth It?' },
-  { cluster: 'roofing-materials', slug: 'what-is-tpo-roofing', title: 'What Is TPO Roofing?' },
-  { cluster: 'roofing-materials', slug: 'what-is-epdm-roofing', title: 'What Is EPDM Roofing?' },
-  { cluster: 'roofing-materials', slug: 'what-is-pvc-roofing', title: 'What Is PVC Roofing?' },
-  { cluster: 'roofing-materials', slug: 'what-is-modified-bitumen-roofing', title: 'What Is Modified Bitumen Roofing?' },
-  { cluster: 'roofing-materials', slug: 'what-are-roof-coatings', title: 'What Are Roof Coatings?' },
-  { cluster: 'roofing-materials', slug: 'best-roofing-material-for-new-jersey-weather', title: 'Best Roofing Material for New Jersey Weather' },
-  // roofing-process (8)
-  { cluster: 'roofing-process', slug: 'what-happens-during-roof-inspection', title: 'What Happens During a Roof Inspection?' },
-  { cluster: 'roofing-process', slug: 'what-is-included-in-roofing-estimate', title: 'What Is Included in a Roofing Estimate?' },
-  { cluster: 'roofing-process', slug: 'what-happens-during-roof-replacement', title: 'What Happens During Roof Replacement?' },
-  { cluster: 'roofing-process', slug: 'what-is-a-roof-tear-off', title: 'What Is a Roof Tear-Off?' },
-  { cluster: 'roofing-process', slug: 'how-do-roofers-inspect-decking', title: 'How Do Roofers Inspect Decking?' },
-  { cluster: 'roofing-process', slug: 'how-do-roofing-contractors-repair-leaks', title: 'How Do Roofing Contractors Repair Leaks?' },
-  { cluster: 'roofing-process', slug: 'how-does-emergency-roof-tarping-work', title: 'How Does Emergency Roof Tarping Work?' },
-  { cluster: 'roofing-process', slug: 'what-happens-during-final-roof-walkthrough', title: 'What Happens During the Final Roof Walkthrough?' },
-  // roofing-costs (8)
-  { cluster: 'roofing-costs', slug: 'how-much-does-roof-repair-cost', title: 'How Much Does Roof Repair Cost?' },
-  { cluster: 'roofing-costs', slug: 'how-much-does-roof-replacement-cost', title: 'How Much Does Roof Replacement Cost?' },
-  { cluster: 'roofing-costs', slug: 'what-affects-new-roof-cost', title: 'What Affects New Roof Cost?' },
-  { cluster: 'roofing-costs', slug: 'how-does-roof-size-affect-cost', title: 'How Does Roof Size Affect Cost?' },
-  { cluster: 'roofing-costs', slug: 'how-does-roof-pitch-affect-cost', title: 'How Does Roof Pitch Affect Cost?' },
-  { cluster: 'roofing-costs', slug: 'how-do-roofing-materials-affect-price', title: 'How Do Roofing Materials Affect Price?' },
-  { cluster: 'roofing-costs', slug: 'how-much-does-emergency-roof-repair-cost', title: 'How Much Does Emergency Roof Repair Cost?' },
-  { cluster: 'roofing-costs', slug: 'how-much-does-commercial-roof-repair-cost', title: 'How Much Does Commercial Roof Repair Cost?' },
-];
-
-const ARTICLE_LOOKUP = new Map<string, { cluster: string; slug: string; title: string }>(
-  KB_ARTICLES.map((a) => [`${a.cluster}/${a.slug}`, a])
-);
-
-const ARTICLES_BY_CLUSTER = new Map<string, ReadonlyArray<{ cluster: string; slug: string; title: string }>>(
-  CLUSTERS.map((c) => [c.slug, KB_ARTICLES.filter((a) => a.cluster === c.slug)])
-);
+// An INDEXABLE two-tier index of the 252 real articles:
+//   /roofing-knowledge-base                 -> the 6 clusters
+//   /roofing-knowledge-base/{cluster}       -> that cluster's articles, grouped
+//                                              by the money page they belong to
+//
+// The articles themselves live at flat root slugs (/{article.slug}, rendered by
+// src/app/[slug]/page.tsx) and are the canonical, indexable, sitemapped URLs.
+// This route only INDEXES them — it never duplicates their content.
+//
+// History: this was a Phase-11 scaffold — 51 noindexed pages, of which 44 were
+// nested "articles" whose slugs matched none of the 252 real ones. Those are
+// removed. Grouping uses Article.cluster, a zod-validated enum already assigned
+// to all 252 articles.
 
 const KB_BASE = '/roofing-knowledge-base';
 
-// ─── SSG: enumerate hub + 6 cluster hubs + 44 nested articles = 51 paths ──────
+// ─── Grouping ────────────────────────────────────────────────────────────────
+
+const ARTICLES_BY_CLUSTER = new Map<string, Article[]>(
+  KB_CLUSTERS.map((c) => [c.slug, articles.filter((a) => a.cluster === c.slug)]),
+);
+
+const SERVICE_BY_ID = new Map(services.map((s) => [s.id, s]));
+const COMPARISON_BY_ID = new Map(comparisons.map((c) => [c.id, c]));
+
+/** A cluster's articles, grouped under the money page each one supports. */
+interface ParentGroup {
+  label: string;
+  /** Undefined for the `core` parent, which has no single money page. */
+  href?: string;
+  articles: Article[];
+}
+
+function groupByParent(clusterArticles: Article[]): ParentGroup[] {
+  const groups = new Map<string, ParentGroup>();
+
+  for (const article of clusterArticles) {
+    let group = groups.get(article.parentId);
+    if (!group) {
+      group = { ...resolveParent(article), articles: [] };
+      groups.set(article.parentId, group);
+    }
+    group.articles.push(article);
+  }
+
+  for (const group of groups.values()) {
+    group.articles.sort((a, b) => a.position - b.position);
+  }
+
+  return [...groups.values()].sort((a, b) => a.label.localeCompare(b.label));
+}
+
+function resolveParent(article: Article): { label: string; href?: string } {
+  if (article.parentType === 'service') {
+    const service = SERVICE_BY_ID.get(article.parentId);
+    return service
+      ? { label: service.name, href: `/${generateServicePageSlug(service.slug)}` }
+      : { label: article.parentId };
+  }
+  if (article.parentType === 'comparison') {
+    const comparison = COMPARISON_BY_ID.get(article.parentId);
+    return comparison ? { label: comparison.name, href: `/${comparison.slug}` } : { label: article.parentId };
+  }
+  // parentType 'core' — the three homepage-parented general guides.
+  return { label: 'General Roofing Guidance' };
+}
+
+// ─── SSG: hub + 6 cluster hubs = 7 paths ─────────────────────────────────────
 
 export async function generateStaticParams() {
   return [
     // KB hub index — bare /roofing-knowledge-base (optional segment empty).
     { slug: [] as string[] },
     // 6 cluster hubs — /roofing-knowledge-base/{cluster}
-    ...CLUSTERS.map((c) => ({ slug: [c.slug] })),
-    // 44 nested articles — /roofing-knowledge-base/{cluster}/{slug}
-    ...KB_ARTICLES.map((a) => ({ slug: [a.cluster, a.slug] })),
+    ...KB_CLUSTERS.map((c) => ({ slug: [c.slug] })),
   ];
 }
 
-// Anything not enumerated above 404s (no dynamic fallback).
+// Anything not enumerated above 404s (no dynamic fallback). This is what
+// retires the 44 removed scaffold article paths.
 export const dynamicParams = false;
 
 // ─── Metadata ────────────────────────────────────────────────────────────────
 //
-// Every branch is a Phase-11 scaffold: full metadata + self-canonical +
-// robots:{index:false,follow:true} (content lands Phase 13). The canonical is
-// always the page's OWN nested path.
+// Indexable and self-canonical at every level. The canonical is always the
+// page's own path; the articles it links canonical to their own flat slugs.
 
 function buildOG(title: string, description: string, path: string) {
   return {
@@ -126,7 +110,7 @@ function buildOG(title: string, description: string, path: string) {
   };
 }
 
-const SCAFFOLD_ROBOTS = { index: false, follow: true } as const;
+const INDEXABLE = { index: true, follow: true } as const;
 
 export async function generateMetadata({
   params,
@@ -140,54 +124,37 @@ export async function generateMetadata({
   if (segments.length === 0) {
     const title = 'Roofing Knowledge Base | Newark Quality Roofing';
     const description =
-      'A roofing knowledge base covering roof problems, components, materials, process, costs, and local Newark roofing conditions.';
+      'Roofing guides for Newark and Essex County property owners, covering roof problems, components, materials, process, and costs.';
     return {
       title,
       description,
       alternates: { canonical: KB_BASE },
-      robots: SCAFFOLD_ROBOTS,
+      robots: INDEXABLE,
       openGraph: buildOG(title, description, KB_BASE),
     };
   }
 
   // Cluster hub
   if (segments.length === 1) {
-    const clusterTitle = CLUSTER_TITLES.get(segments[0]);
-    if (!clusterTitle) return {};
+    const cluster = getKbCluster(segments[0]);
+    if (!cluster) return {};
     const path = `${KB_BASE}/${segments[0]}`;
-    const title = `${clusterTitle} | Roofing Knowledge Base`;
-    const description = `${clusterTitle} explained — part of the Newark Quality Roofing knowledge base for homeowners and property owners.`;
+    const title = `${cluster.title} | Roofing Knowledge Base`;
     return {
       title,
-      description,
+      description: cluster.description.slice(0, 158),
       alternates: { canonical: path },
-      robots: SCAFFOLD_ROBOTS,
-      openGraph: buildOG(title, description, path),
-    };
-  }
-
-  // Nested article
-  if (segments.length === 2) {
-    const article = ARTICLE_LOOKUP.get(`${segments[0]}/${segments[1]}`);
-    if (!article) return {};
-    const path = `${KB_BASE}/${segments[0]}/${segments[1]}`;
-    const title = `${article.title} | Roofing Knowledge Base`;
-    const description = `${article.title} — a roofing knowledge base article from Newark Quality Roofing.`;
-    return {
-      title,
-      description,
-      alternates: { canonical: path },
-      robots: SCAFFOLD_ROBOTS,
-      openGraph: buildOG(title, description, path),
+      robots: INDEXABLE,
+      openGraph: buildOG(title, cluster.description, path),
     };
   }
 
   return {};
 }
 
-// ─── Scaffold UI ──────────────────────────────────────────────────────────────
+// ─── UI ──────────────────────────────────────────────────────────────────────
 
-function ScaffoldShell({
+function KbShell({
   eyebrow,
   heading,
   children,
@@ -196,9 +163,11 @@ function ScaffoldShell({
   heading: string;
   children?: React.ReactNode;
 }) {
+  // A plain <div>, not <main> — app/layout.tsx already provides the <main>
+  // landmark, and nesting a second one breaks landmark navigation.
   return (
     <div className="min-h-screen bg-parchment px-6 py-16">
-      <main className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-3xl">
         <nav aria-label="Breadcrumb" className="font-body text-sm text-text-secondary">
           <Link href={KB_BASE} className="text-copper hover:text-copper-dark">
             Roofing Knowledge Base
@@ -209,7 +178,7 @@ function ScaffoldShell({
         </span>
         <h1 className="mt-4 font-heading text-4xl font-bold text-forest sm:text-5xl">{heading}</h1>
         {children}
-      </main>
+      </div>
     </div>
   );
 }
@@ -222,80 +191,99 @@ export default async function KnowledgeBasePage({
   const { slug } = await params;
   const segments = slug ?? [];
 
-  // KB hub index — links to the 6 cluster hubs.
+  // ── KB hub index — the 6 clusters ──
   if (segments.length === 0) {
     return (
-      <ScaffoldShell
+      <KbShell
         eyebrow="Knowledge Base"
-        heading="What Should Homeowners and Property Owners Know About Roofing?"
+        heading="What Should Newark Property Owners Know About Roofing?"
       >
-        <p className="mt-6 font-body text-lg text-text-secondary">
-          Explore roofing topics by category. Each section covers the questions Newark and
-          Essex County property owners ask most.
+        <p className="mt-6 font-body text-lg leading-relaxed text-text-secondary">
+          This knowledge base answers {articles.length} roofing questions for Newark and Essex
+          County property owners, organized into {KB_CLUSTERS.length} sections. Each section
+          covers a distinct part of a roof&apos;s life: the problems that appear, the components
+          that fail, the materials available, the work itself, and what it costs in New Jersey.
         </p>
-        <ul className="mt-8 grid gap-4 sm:grid-cols-2">
-          {CLUSTERS.map((c) => (
-            <li key={c.slug}>
-              <Link
-                href={`${KB_BASE}/${c.slug}`}
-                className="block rounded-sm border border-border bg-white p-4 font-heading text-lg font-semibold text-forest transition-colors hover:border-copper hover:text-copper-dark"
-              >
-                {c.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </ScaffoldShell>
-    );
-  }
 
-  // Cluster hub — links to its nested articles (if any).
-  if (segments.length === 1) {
-    const clusterTitle = CLUSTER_TITLES.get(segments[0]);
-    if (!clusterTitle) notFound();
-    const clusterArticles = ARTICLES_BY_CLUSTER.get(segments[0]) ?? [];
-    return (
-      <ScaffoldShell eyebrow="Knowledge Base" heading={clusterTitle}>
-        <p className="mt-6 font-body text-lg text-text-secondary">
-          {clusterTitle} topics from the Newark Quality Roofing knowledge base.
-        </p>
-        {clusterArticles.length > 0 && (
-          <ul className="mt-8 space-y-3">
-            {clusterArticles.map((a) => (
-              <li key={a.slug}>
+        <ul className="mt-10 grid gap-5 sm:grid-cols-2">
+          {KB_CLUSTERS.map((cluster) => {
+            const count = ARTICLES_BY_CLUSTER.get(cluster.slug)?.length ?? 0;
+            return (
+              <li key={cluster.slug}>
                 <Link
-                  href={`${KB_BASE}/${a.cluster}/${a.slug}`}
-                  className="font-heading text-lg font-semibold text-copper hover:text-copper-dark"
+                  href={`${KB_BASE}/${cluster.slug}`}
+                  className="group block h-full rounded-lg border border-border bg-white p-5 transition-colors hover:border-copper"
                 >
-                  {a.title}
+                  <span className="block font-heading text-lg font-semibold text-forest group-hover:text-copper">
+                    {cluster.title}
+                  </span>
+                  <span className="mt-1 block font-body text-xs uppercase tracking-wider text-text-secondary">
+                    {count} {count === 1 ? 'guide' : 'guides'}
+                  </span>
+                  <span className="mt-2 block font-body text-sm leading-relaxed text-text-secondary">
+                    {cluster.description}
+                  </span>
                 </Link>
               </li>
-            ))}
-          </ul>
-        )}
-      </ScaffoldShell>
+            );
+          })}
+        </ul>
+      </KbShell>
     );
   }
 
-  // Nested article.
-  if (segments.length === 2) {
-    const article = ARTICLE_LOOKUP.get(`${segments[0]}/${segments[1]}`);
-    if (!article) notFound();
-    const clusterTitle = CLUSTER_TITLES.get(article.cluster) ?? article.cluster;
+  // ── Cluster hub — its articles, grouped by the money page they support ──
+  if (segments.length === 1) {
+    const cluster = getKbCluster(segments[0]);
+    if (!cluster) notFound();
+
+    const clusterArticles = ARTICLES_BY_CLUSTER.get(cluster.slug) ?? [];
+    const groups = groupByParent(clusterArticles);
+
     return (
-      <ScaffoldShell eyebrow={clusterTitle} heading={article.title}>
-        <p className="mt-6 font-body text-lg text-text-secondary">
-          This roofing knowledge base article is part of the {clusterTitle} section.
+      <KbShell eyebrow="Knowledge Base" heading={cluster.title}>
+        <p className="mt-6 font-body text-lg leading-relaxed text-text-secondary">
+          {cluster.description}
         </p>
-        <div className="mt-8">
-          <Link
-            href={`${KB_BASE}/${article.cluster}`}
-            className="font-heading text-base font-semibold text-copper hover:text-copper-dark"
-          >
-            &larr; Back to {clusterTitle}
+        <p className="mt-3 font-body text-sm text-text-secondary">
+          {clusterArticles.length} {clusterArticles.length === 1 ? 'guide' : 'guides'} across{' '}
+          {groups.length} {groups.length === 1 ? 'topic' : 'topics'}.
+        </p>
+
+        <div className="mt-10 space-y-8">
+          {groups.map((group) => (
+            <section key={group.label} className="border-t border-border pt-5">
+              <p className="font-body text-sm font-semibold uppercase tracking-wider text-text-secondary">
+                {group.href ? (
+                  <Link href={group.href} className="text-forest hover:text-copper">
+                    {group.label}
+                  </Link>
+                ) : (
+                  group.label
+                )}
+              </p>
+              <ul className="mt-3 space-y-2">
+                {group.articles.map((article) => (
+                  <li key={article.id}>
+                    <Link
+                      href={`/${article.slug}`}
+                      className="font-body text-base text-forest underline decoration-copper/30 underline-offset-2 transition-colors hover:text-copper"
+                    >
+                      {article.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+
+        <div className="mt-12 border-t border-border pt-6">
+          <Link href={KB_BASE} className="font-heading text-base font-semibold text-copper hover:text-copper-dark">
+            &larr; All knowledge base sections
           </Link>
         </div>
-      </ScaffoldShell>
+      </KbShell>
     );
   }
 

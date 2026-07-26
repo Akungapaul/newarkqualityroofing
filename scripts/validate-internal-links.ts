@@ -34,6 +34,7 @@ import { parse } from 'node-html-parser';
 import generatedRedirects from '@/generated/redirects.generated.mjs';
 import { getAllSlugs } from '@/data/slug-registry';
 import { isRedirect } from '@/data/url-classification';
+import { KB_CLUSTER_SLUGS } from '@/data/kb-clusters';
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PRERENDER_DIR = join(REPO_ROOT, '.next', 'server', 'app');
@@ -223,8 +224,12 @@ function main() {
   }
 
   // Cross-check: the registry-derived route set should equal what was built.
+  // The KB paths are deliberately absent from the registry (slug-registry.ts:90
+  // keeps '/'-containing slugs out of it), so add them back from the shared
+  // taxonomy rather than hardcoding a count that goes stale when the KB changes.
   const registryRoutes = getAllSlugs().filter((s) => !isRedirect(s)).length;
-  const expected = registryRoutes + 1 + 51 + 2; // + homepage + nested KB + _not-found/_global-error
+  const kbRoutes = 1 + KB_CLUSTER_SLUGS.length; // KB hub + one page per cluster
+  const expected = registryRoutes + 1 + kbRoutes + 2; // + homepage + KB + _not-found/_global-error
   if (expected !== builtRoutes.size) {
     advisory.push({
       tier: 'ADVISORY',

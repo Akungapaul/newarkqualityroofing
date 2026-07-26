@@ -9,26 +9,23 @@ import { corePages } from '@/data/core-pages';
 import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
 import { getComboChangeFrequency, getComboSitemapPriority, isPriorityCity, isPriorityService } from '@/data/seo-priority';
 import { isKeep } from '@/data/url-classification';
+import { KB_CLUSTER_SLUGS } from '@/data/kb-clusters';
 
 // ─── Sitemap IDs ────────────────────────────────────────────────────────────
 
 const SITEMAP_IDS = ['core', 'services', 'cities', 'combos', 'comparisons', 'articles', 'knowledge-base', 'hubs'] as const;
 
 /**
- * The 6 KB cluster hub slugs (D-14 taxonomy). The KB index, these cluster hubs,
- * and the glossary belong in the sitemap (they are the permanent topical-map IA;
- * content lands Phase 13/14). The 6 FLAT hubs are now content-bearing and
- * indexable — they are emitted via the 'hubs' segment below. The 44 nested KB
- * articles remain deliberately NOT emitted here (D-06).
+ * The KB index and its 6 cluster hubs are now content-bearing and INDEXABLE:
+ * they index the 252 real articles, grouped by cluster then by money page. The
+ * glossary is still noindex (tracked separately). The 6 FLAT hubs are emitted
+ * via the 'hubs' segment below. The 44 nested KB scaffold articles no longer
+ * exist — that route level was removed when the KB was wired to real articles.
+ *
+ * Cluster slugs come from the shared taxonomy (@/data/kb-clusters) so this
+ * cannot drift from the KB route — they were previously two hand-maintained
+ * copies of the same list.
  */
-const KB_CLUSTER_SLUGS = [
-  'roof-problems',
-  'roof-components',
-  'roofing-materials',
-  'roofing-process',
-  'roofing-costs',
-  'local-roofing-knowledge',
-] as const;
 
 /**
  * The 6 FLAT topical/utility hubs — answer-first, indexable top-of-funnel pages
