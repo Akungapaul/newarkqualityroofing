@@ -86,7 +86,8 @@ function staticPass(errors: string[]): void {
   const configStrings: Array<[string, string]> = [
     ['home.h1', H.home.h1],
     ['home.coreH2', H.home.coreH2],
-    ...H.home.coreH3s.map((s, i) => [`home.coreH3[${i}]`, s] as [string, string]),
+    // NOTE: the homepage Core services render as declarative, linked cards
+    // (styled text, not <h3>), so there are no per-service question headings.
     ...H.home.outerH2s.map((s, i) => [`home.outerH2[${i}]`, s] as [string, string]),
     ['service.h1', H.service.h1(sampleService)],
     ['service.coreH2', H.service.coreH2(sampleService)],

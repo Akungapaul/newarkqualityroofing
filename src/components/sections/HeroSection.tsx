@@ -76,12 +76,12 @@ export function HeroSection() {
               {HEADING_CONFIG.home.h1}
             </h1>
             <p className="mt-4 font-heading text-lg font-semibold text-copper sm:text-xl">
-              Licensed &amp; Insured · Free Roofing Estimates
+              Registered &amp; Insured · Free Roofing Estimates
             </p>
           </AnimateIn>
           <AnimateIn delay={0.6}>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
-              Newark Quality Roofing is the licensed, insured contractor Newark
+              Newark Quality Roofing is the registered, insured contractor Newark
               and Essex County property owners call for roof replacement,
               repairs, commercial installation, and gutters — backed by free,
               no-obligation estimates.

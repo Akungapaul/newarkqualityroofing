@@ -44,18 +44,35 @@ export interface LegacySiteConfig {
   trustStats: TrustStat[];
 }
 
-// Truthful, non-fabricated trust stats only. The fabricated legacy entries
-// (Star Rating 5.0, Roofs Completed 500+, Years Experience 15+) are DROPPED per
-// D-01 — they are not canonical/verifiable. These remaining badges are
-// non-numeric truthful claims, so numericValue is null (TrustBar skips CountUp).
+// Truthful, non-fabricated trust stats only. The old fabricated star-rating and
+// project-count entries stay DROPPED per D-01. "25+ Years Experience" and
+// "GAF-Certified" are now asserted — the owner substantiated them (2026-07) — and
+// the credential is "Registered" (NJ registers HICs, it does not license them).
+// All are non-numeric truthful claims, so numericValue is null (no CountUp).
 const truthfulTrustStats: TrustStat[] = [
   {
-    label: 'Licensed & Insured',
+    label: 'Registered & Insured',
     value: 'Yes',
     numericValue: null,
     suffix: '',
     prefix: '',
     icon: 'shield',
+  },
+  {
+    label: '25+ Years Experience',
+    value: 'Yes',
+    numericValue: null,
+    suffix: '',
+    prefix: '',
+    icon: 'clock',
+  },
+  {
+    label: 'GAF-Certified',
+    value: 'Yes',
+    numericValue: null,
+    suffix: '',
+    prefix: '',
+    icon: 'certificate',
   },
   {
     label: 'Free Roof Inspections',

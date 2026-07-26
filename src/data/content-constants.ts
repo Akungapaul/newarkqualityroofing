@@ -109,19 +109,21 @@ export const TOP_BRANDS = 'GAF, CertainTeed, Owens Corning, and Firestone';
 
 // ─── Credentials ────────────────────────────────────────────────────────────
 
-// NOTE: D-01 — unverified marketing claims (years in business, manufacturer
-// certifications, BBB grade, star ratings, aggregate rating, financing) are
-// WITHHELD. Only D-01-cleared trust claims remain. Do not re-add a [VERIFY]
-// credential as a hard claim.
+// NOTE: D-01 — unverified marketing claims are WITHHELD by default. The owner
+// has since SUBSTANTIATED (2026-07) a specific set as true, so these are now
+// asserted: 25+ years in business, GAF-certified installers, a 25-point
+// inspection, 1–4 hr emergency response, and financing. Everything else still
+// withheld (BBB grade, star ratings, aggregate rating, project counts). NJ
+// registers Home Improvement Contractors — use "registered", never "licensed".
 export const CREDENTIALS = {
-  license: 'NJ Home Improvement Contractor (HIC) licensed',
+  license: 'Registered NJ Home Improvement Contractor (HIC)',
   insurance: 'Insured',
   inspections: 'Free roof inspections',
   ownership: 'Local Essex County roofers',
 } as const;
 
 export const CREDENTIALS_SHORT = [
-  'NJ HIC Licensed',
+  'Registered NJ HIC',
   'Insured',
   'Free Roof Inspections',
   'Local Essex County Roofers',
@@ -183,24 +185,24 @@ export const URGENCY = {
 
 export const WHY_CHOOSE_US_REASONS = [
   {
-    title: 'Licensed & Insured Professionals',
-    description: "You shouldn't have to wonder if your roofer is legit. We're NJ Home Improvement Contractor (HIC) licensed and fully insured — your job is handled to New Jersey roofing code.",
+    title: 'Registered & Insured Professionals',
+    description: "You shouldn't have to wonder if your roofer is legit. We're a registered New Jersey Home Improvement Contractor and fully insured — every job handled to New Jersey roofing code.",
   },
   {
-    title: 'Deep Essex County Experience',
-    description: "Your Newark colonial has different needs than a Belleville cape cod. We know Essex County's neighborhoods, building codes, and weather patterns firsthand.",
+    title: 'Over 25 Years of Newark Experience',
+    description: "Your Newark colonial has different needs than a Belleville cape cod. With 25+ years across Essex County's neighborhoods, we know the building codes, weather patterns, and architectural styles firsthand.",
   },
   {
-    title: 'Transparent, Honest Pricing',
-    description: "Scared of hidden fees? We give you a detailed written estimate before touching your roof. Every line item explained — no surprises, no pressure.",
+    title: 'Transparent Pricing & Flexible Financing',
+    description: "Scared of hidden fees? We give you a detailed written estimate before touching your roof — every line item explained, no surprises — plus flexible financing on qualifying projects.",
   },
   {
-    title: 'Premium Materials, Manufacturer Warranties',
-    description: 'Your roof is only as good as what\u2019s on it. We install GAF, CertainTeed, and Owens Corning products with manufacturer warranties up to 50 years.',
+    title: 'GAF-Certified Installers, Manufacturer Warranties',
+    description: 'Your roof is only as good as what\u2019s on it. As GAF-certified installers, we install GAF, CertainTeed, and Owens Corning products with manufacturer warranties up to 50 years.',
   },
   {
-    title: 'Free Estimates & Emergency Roof Repair',
-    description: "A leaking roof can't wait. We provide free estimates and respond quickly to roofing emergencies across Essex County — call us and we're on it.",
+    title: 'Free Estimates & 1–4 Hour Emergency Response',
+    description: "A leaking roof can't wait. We provide free estimates and target a 1–4 hour emergency response across Essex County, with tarping deployed within hours of storm damage.",
   },
   {
     title: 'Family-Owned, Community-Committed',

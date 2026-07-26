@@ -26,16 +26,10 @@ export const HEADING_CONFIG = {
   home: {
     h1: 'Who Should You Call for Roofing Services in Newark?',
     coreH2: 'What Roofing Services Do We Provide in Newark and Essex County?',
-    // §4.1 Core H3s (under the Core H2)
-    coreH3s: [
-      'How Do We Repair Roof Leaks and Roof Damage?',
-      'How Do We Replace Aging or Storm-Damaged Roofs?',
-      'How Do We Inspect Roofs for Damage?',
-      'How Do We Handle Emergency Roof Repairs?',
-      'How Do We Repair Storm-Damaged Roofs?',
-      'How Do We Help Commercial Roofing Customers?',
-      'How Do We Install and Compare Roofing Materials?',
-    ],
+    // NOTE: the Core services are rendered by ServicesGrid as declarative,
+    // linked service cards (styled text, NOT <h3> headings), so no per-service
+    // heading strings live here — only the Core H2 above and the Outer H2s below
+    // are question-form headings on the homepage.
     // §4.1 Outer H2s (after the Core section, in tree order)
     outerH2s: [
       'Why Should Homeowners and Businesses Choose Our Roofing Company?',

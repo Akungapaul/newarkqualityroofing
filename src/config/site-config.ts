@@ -159,10 +159,11 @@ export const siteConfig: SiteConfig = {
   foundingYear: '', // [CANONICAL VALUE REQUIRED] — never render 0
   projectCount: '', // [CANONICAL VALUE REQUIRED] — never render fake 500+
 
-  // Truthful, non-fabricated signals only. Licensing/insurance claims that
-  // require a specific number/policy stay OMITTED until canonical (see above).
+  // Truthful, non-fabricated signals only. NJ registers Home Improvement
+  // Contractors (it does not license them) → "Registered", matching the TrustBar.
+  // Numeric licensing/insurance claims stay OMITTED until canonical (see above).
   trustBadges: [
-    'Licensed & Insured',
+    'Registered & Insured',
     'Free Roof Inspections',
     'Local Essex County Roofers',
   ],

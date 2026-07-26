@@ -89,7 +89,7 @@ export function HomeRepairServices() {
                   <span className="font-semibold text-forest">
                     Expert Work —
                   </span>{' '}
-                  Licensed crew, on time, to code, within budget.
+                  Registered, insured crew, on time, to code, within budget.
                 </span>
               </li>
               <li className="flex items-start gap-3">

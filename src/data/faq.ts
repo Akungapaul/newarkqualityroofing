@@ -83,4 +83,25 @@ export const faqItems: FaqItem[] = [
     linkText: 'Get a seasonal quote',
     linkHref: '/roof-replacement-in-newark-nj',
   },
+  {
+    question: 'Do you handle permits for Newark roof installation?',
+    answer:
+      'Yes. We prepare and submit all documentation to Newark’s Building Division — construction permit forms, contractor registration, technical drawings, material specifications, and structural load calculations when needed. Permit fees for a residential roof replacement generally range from $140 to $840, and approval typically takes about two weeks for straightforward projects. We handle the whole process to avoid rejections and delays.',
+    linkText: 'See our roofing process',
+    linkHref: '/our-roofing-process',
+  },
+  {
+    question: 'How long does roof installation take in Newark?',
+    answer:
+      'A typical residential asphalt-shingle roof installs in 1 to 3 days. Metal roofs take 2 to 5 days, and slate or tile projects can take 1 to 3 weeks on-site. Commercial flat-roof systems on larger buildings complete in 2 to 4 weeks. The full project — inspection, permit approval, material procurement, and closeout — typically spans 2 to 6 weeks, and Newark’s rain and snow can extend timelines seasonally.',
+    linkText: 'Explore installation options',
+    linkHref: '/roof-replacement-in-newark-nj',
+  },
+  {
+    question: 'What roofing materials work best for Newark’s weather?',
+    answer:
+      'For steep-slope residential roofs, architectural asphalt shingles offer the best balance of cost, durability, and weather resistance. Metal roofs excel at snow shedding and wind resistance. For flat commercial roofs, TPO and EPDM are the common choices — TPO’s UV reflectivity adds energy efficiency. For historic homes, natural slate delivers unmatched longevity. Every material we recommend is rated for Newark’s wind, snow, moisture, and thermal-cycling conditions.',
+    linkText: 'Compare roofing materials',
+    linkHref: '/roofing-materials',
+  },
 ];

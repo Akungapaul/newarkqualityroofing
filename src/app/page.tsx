@@ -6,6 +6,8 @@ import { TrustBar } from '@/components/sections/TrustBar';
 import { HomeRepairServices } from '@/components/sections/HomeRepairServices';
 import { ServicesGrid } from '@/components/sections/ServicesGrid';
 import { HomeResidentialCommercial } from '@/components/sections/HomeResidentialCommercial';
+import { HomeInstallation } from '@/components/sections/HomeInstallation';
+import { Testimonials } from '@/components/sections/Testimonials';
 import { HomeWhyChooseUs } from '@/components/sections/HomeWhyChooseUs';
 import { HomePricingTable } from '@/components/sections/HomePricingTable';
 import { LocationsGrid } from '@/components/sections/LocationsGrid';
@@ -43,14 +45,14 @@ const homepageOgImage = homepageOg?.path
 export const metadata: Metadata = {
   title: 'Roofing Contractor in Newark, NJ | Newark Quality Roofing',
   description:
-    'Newark Quality Roofing: licensed, insured roofing in Newark & Essex County, NJ. Roof repair, replacement & installation. Free estimates.',
+    'Newark Quality Roofing: registered, insured roofing in Newark & Essex County, NJ. 25+ years of roof repair, replacement & installation. Free estimates.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Roofing Contractor in Newark, NJ | Newark Quality Roofing',
     description:
-      'Newark Quality Roofing: licensed, insured roofing in Newark & Essex County, NJ. Roof repair, replacement & installation. Free estimates.',
+      'Newark Quality Roofing: registered, insured roofing in Newark & Essex County, NJ. 25+ years of roof repair, replacement & installation. Free estimates.',
     url: '/',
     siteName: 'Newark Quality Roofing',
     type: 'website',
@@ -100,6 +102,9 @@ export default function Home() {
       {/* Core supporting: residential & commercial split */}
       <HomeResidentialCommercial />
 
+      {/* Installation depth (augment): question-headed roof-installation block */}
+      <HomeInstallation />
+
       {/* ── §4.1 OUTER band (after Core) ──────────────────────────────────── */}
       {/* Outer H2[0]: Why Should Homeowners and Businesses Choose Our Roofing Company? */}
       <HomeWhyChooseUs />
@@ -135,7 +140,7 @@ export default function Home() {
               },
               {
                 q: 'What Happens During Installation, Repair, or Replacement?',
-                a: 'Our licensed crew completes the work on time, to code, and within budget, protecting your property throughout the project.',
+                a: 'Our registered, insured crew completes the work on time, to code, and within budget, protecting your property throughout the project.',
               },
               {
                 q: 'What Happens During Final Cleanup and Walkthrough?',
@@ -184,6 +189,9 @@ export default function Home() {
       {/* ── Supporting / internal-linking sections (after the §4.1 tree) ──── */}
       {/* Before/after gallery: project showcase with drag sliders */}
       <BeforeAfterGallery />
+
+      {/* Social proof: real customer testimonials */}
+      <Testimonials />
 
       {/* Popular services by city — combo page links for internal linking */}
       <FeaturedCombos />
@@ -303,7 +311,7 @@ export default function Home() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl font-body text-lg text-white/80">
             Get a no-obligation quote from our <em>experienced</em> roofing contractors. We serve
-            all of Essex County with licensed, insured professionals.{' '}
+            all of Essex County with registered, insured professionals.{' '}
             <Link href="/roofing-services" className="text-white underline hover:text-parchment">View all services</Link>.
           </p>
           <div className="mt-6 flex justify-center">
