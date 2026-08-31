@@ -82,7 +82,7 @@ const FAQ_ICON = (
 interface HubScaffoldProps {
   hubId: string;
   eyebrow: string;
-  heading: string; // the question-form H1 from HEADING_CONFIG.hub
+  heading: string; // the statement-form H1 from HEADING_CONFIG.hub
   content: HubContent;
 }
 

@@ -61,9 +61,12 @@ export function HomepageGuides({ articles }: HomepageGuidesProps) {
               {/* Decorative top bar */}
               <div className="mb-4 h-1 w-12 rounded-full bg-copper transition-all group-hover:w-20" />
 
-              <h3 className="font-heading text-lg font-semibold text-forest group-hover:text-copper transition-colors">
+              {/* Styled text, NOT a heading — article titles are statement H1s on
+                  their own pages; on the homepage they are card labels, matching
+                  the ServicesGrid declarative-card pattern (question-H3 audit). */}
+              <p className="font-heading text-lg font-semibold text-forest group-hover:text-copper transition-colors">
                 {article.title}
-              </h3>
+              </p>
 
               <p className="mt-3 flex-1 font-body text-sm leading-relaxed text-text-secondary line-clamp-3">
                 {article.metaDescription}

@@ -2,6 +2,7 @@ import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
 import { parseRichText } from '@/lib/rich-text';
+import { HEADING_CONFIG } from '@/data/heading-config';
 import type { Comparison } from '@/lib/types';
 import type { NavServiceGroup } from '@/data/nav-data';
 
@@ -84,7 +85,7 @@ export function ComparisonHero({ comparison, serviceGroups, directAnswer }: Comp
               id="comparison-hero-heading"
               className="mt-4 text-balance font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
             >
-              {comparison.name}
+              {HEADING_CONFIG.comparison.h1(comparison.name)}
             </h1>
 
             {directAnswer && (

@@ -1,30 +1,33 @@
 /**
- * Central Question-Form Heading Config (Phase 12 — single source of truth).
+ * Central Heading Config (single source of truth).
  *
- * The verbatim §4.1–4.4 (IMPLEMENTATION-BRIEF) + §17 (IMPLEMENTATION-PLAN)
- * question-form H-tag strings. BOTH the templates render these AND the static
- * audit pass (`scripts/audit-headings.ts`) asserts against them, so the page
- * H-tags and the audit can never drift (D-08, D-09, Pattern 1).
+ * H1 policy (2026-08 owner decision): every page H1 is a keyword-led STATEMENT
+ * in the uniform "[Service] [City], NJ" pattern (e.g. "Roof Repair Newark, NJ");
+ * statewide pages use an "in NJ" suffix instead. H2–H4 keep the verbatim
+ * §4.1–4.4 (IMPLEMENTATION-BRIEF) + §17 (IMPLEMENTATION-PLAN) question-form
+ * Q→A structure. BOTH the templates render these AND the static audit pass
+ * (`scripts/audit-headings.ts`) asserts against them, so the page H-tags and
+ * the audit can never drift (D-08, D-09, Pattern 1).
  *
  * Conventions:
  *   - Constant strings (homepage) are plain string literals.
  *   - Entity-token strings are functions `(s: string) => ...` (service) /
  *     `(c: string) => ...` (city) / `(s: string, c: string) => ...` (combo)
  *     that interpolate [Service] / [City] from `services.ts` / `cities.ts`.
- *   - `h1` = the single question-form page H1.
+ *   - `h1` = the single statement-form page H1 (must NOT end in "?").
  *   - `coreH2` = the §17 first-Core-H2 string (the first major H2 after the hero).
  *   - `outerH2s` / the per-type H2 arrays hold the full ordered §4.x tree H2s.
  *   - city adds `permitsH2` + `materialsH2` accessors (D-11 new sections).
  *
- * Strings are byte-for-byte from the brief — NEVER paraphrase, NEVER use
- * placeholder / "v1" wording. Every interpolated value ends with "?". No page
- * type's H1 equals any of its own H2 strings.
+ * H2 strings are byte-for-byte from the brief — NEVER paraphrase, NEVER use
+ * placeholder / "v1" wording. Every H2 ends with "?". No page type's H1 equals
+ * any of its own H2 strings.
  */
 
 export const HEADING_CONFIG = {
   // ─── §4.1 Homepage (constant strings) ──────────────────────────────────────
   home: {
-    h1: 'Who Should You Call for Roofing Services in Newark?',
+    h1: 'Roofing Contractor Newark, NJ',
     coreH2: 'What Roofing Services Do We Provide in Newark and Essex County?',
     // NOTE: the Core services are rendered by ServicesGrid as declarative,
     // linked service cards (styled text, NOT <h3> headings), so no per-service
@@ -43,7 +46,7 @@ export const HEADING_CONFIG = {
 
   // ─── §4.2 Service Page ([Service] interpolated) ────────────────────────────
   service: {
-    h1: (s: string) => `Who Provides ${s} in Newark?`,
+    h1: (s: string) => `${s} Newark, NJ`,
     coreH2: (s: string) => `What ${s} Do We Provide?`,
     // Entity-grounding: the definitional first H2 ("What Is {Service}?"), rendered
     // ABOVE the existing tree by the EntityDefinition section when content.definition
@@ -67,9 +70,10 @@ export const HEADING_CONFIG = {
 
   // ─── §4.3 Location / City Page ([City] interpolated) ───────────────────────
   city: {
-    // Declarative, keyword-led H1 (exception to the question-form rule, scoped to
-    // the city page type — see scripts/audit-headings.ts CITY_DECLARATIVE_H1).
-    h1: (c: string) => `Roof Repair and Installation in ${c}, NJ`,
+    // Statement H1 in the uniform "[Service] [City], NJ" pattern (no "in").
+    // NOTE: the URL slug (roof-repair-and-installation-in-{city}-nj) and the 21
+    // city metaTitles keep the "in" — only the visible H1 drops it.
+    h1: (c: string) => `Roof Repair and Installation ${c}, NJ`,
     coreH2: (c: string) => `What Roofing Services Are Available in ${c}?`,
     // Entity-grounding: the locational first H2 ("Where Is {City}, NJ?"), rendered
     // ABOVE the services grid by the EntityDefinition section when content.whereIs
@@ -96,7 +100,7 @@ export const HEADING_CONFIG = {
 
   // ─── §4.4 Service + Location (Combo) Page ([Service], [City]) ───────────────
   combo: {
-    h1: (s: string, c: string) => `Who Provides ${s} in ${c}?`,
+    h1: (s: string, c: string) => `${s} ${c}, NJ`,
     coreH2: (s: string, c: string) => `What ${s} Is Available in ${c}?`,
     // Entity-grounding: the definitional first H2 ("What Is {Service}?"), city-agnostic
     // (the canonical service definition is propagated to every combo). Rendered ABOVE
@@ -117,40 +121,48 @@ export const HEADING_CONFIG = {
     ],
   },
 
+  // ─── Comparison Page H1 ([name] interpolated from comparisons.ts) ───────────
+  // Statement H1 with the statewide qualifier: append " in NJ" unless the
+  // comparison name already carries NJ (e.g. "Best Roofing Material for NJ
+  // Weather"). `comparison.name` itself stays clean for breadcrumbs, card
+  // anchors, and metaTitles — only the rendered H1 gains the suffix.
+  comparison: {
+    h1: (name: string) => (/\bNJ\b/.test(name) ? name : `${name} in NJ`),
+  },
+
   // ─── In-scope Core / Hub page H1s (D-10; Open Question Q3 resolution) ───────
-  // The spec gives no verbatim H1 for these hubs, so each is assigned a natural
-  // question-form H1. The audit enforces only "H1 is a question". Keyed by the
-  // page's flat slug for direct lookup by the rendered-pass sample set.
+  // The spec gives no verbatim H1 for these hubs, so each is assigned a
+  // keyword-led statement H1. Keyed by the page's flat slug for direct lookup
+  // by the rendered-pass sample set.
   core: {
-    'roofing-services': 'What Roofing Services Do We Provide?',
-    'service-areas': 'Where Do We Provide Roofing Services?',
-    contact: 'How Can You Contact Our Roofing Team?',
-    about: 'Who Are We as a Newark Roofing Company?',
+    'roofing-services': 'Roofing Services Newark, NJ',
+    'service-areas': 'Roofing Service Areas Essex County, NJ',
+    contact: 'Contact Newark Quality Roofing',
+    about: 'About Newark Quality Roofing',
   },
 
   // The 6 noindex hub scaffolds (Phase 11). Per Open Question Q2 only the H1 is
   // enforced here (DOM-safety subset); full tree content is Phase 13.
   hub: {
-    'residential-roofing': 'What Residential Roofing Services Do We Provide?',
-    'commercial-roofing': 'What Commercial Roofing Services Do We Provide?',
-    'flat-roof-systems': 'What Flat Roof Systems Do We Install and Repair?',
-    'roofing-materials': 'What Roofing Materials Should You Consider?',
-    'free-roofing-estimate': 'How Can You Request a Free Roofing Estimate?',
-    'our-roofing-process': 'How Does Our Roofing Process Work?',
+    'residential-roofing': 'Residential Roofing Newark, NJ',
+    'commercial-roofing': 'Commercial Roofing Newark, NJ',
+    'flat-roof-systems': 'Flat Roof Systems Newark, NJ',
+    'roofing-materials': 'Roofing Materials Newark, NJ',
+    'free-roofing-estimate': 'Free Roofing Estimate Newark, NJ',
+    'our-roofing-process': 'Our Roofing Process',
   },
 
-  // Per-service H1 overrides (search-intent fix). Most hubs use the templated
-  // service.h1 "Who Provides {name} in Newark?"; these serviceIds instead get an
-  // intent-matched, question-form H1 (cost / decision / how-to / diagnostic pages).
-  // Each is verified against the service H2 tree so H1 !== any H2 (audit-headings).
+  // Per-service H1 overrides (grammar fix). The templated service.h1
+  // "{name} Newark, NJ" reads broken for the six "X Installation Repair"
+  // service names (no conjunction), so those get "X Installation and Repair
+  // Newark, NJ" instead. service.name and metaTitles are unchanged.
   serviceH1Overrides: {
-    'roof-repair': 'Who Provides Roof Repair in Newark, NJ?',
-    'roof-replacement-cost': 'How Much Does Roof Replacement Cost in Newark, NJ?',
-    'insurance-roof-replacement': 'How Do You Get an Insurance-Covered Roof Replacement in Newark?',
-    'roof-ice-dam-prevention': 'How Do You Prevent Roof Ice Dams in Newark?',
-    'roof-maintenance-programs': 'What Roof Maintenance Programs Should You Consider in Newark?',
-    'roof-thermal-imaging-inspections': 'How Does Thermal Imaging Find Roof Problems in Newark?',
-    'infrared-roof-leak-detection': 'How Does Infrared Roof Leak Detection Find Leaks?',
+    'roof-flashing-installation-repair': 'Roof Flashing Installation and Repair Newark, NJ',
+    'gutter-installation-repair': 'Gutter Installation and Repair Newark, NJ',
+    'skylight-installation-repair': 'Skylight Installation and Repair Newark, NJ',
+    'fascia-installation-repair': 'Fascia Installation and Repair Newark, NJ',
+    'soffit-installation-repair': 'Soffit Installation and Repair Newark, NJ',
+    'roof-vent-installation-repair': 'Roof Vent Installation and Repair Newark, NJ',
   } as Record<string, string>,
 } as const;
 

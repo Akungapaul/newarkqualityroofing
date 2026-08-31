@@ -38,7 +38,7 @@ export default function RoofingGlossaryPage() {
           Glossary
         </span>
         <h1 className="mt-4 font-heading text-4xl font-bold text-forest sm:text-5xl">
-          What Roofing Terms Should Homeowners Know?
+          Roofing Glossary for NJ Homeowners
         </h1>
         <p className="mt-6 font-body text-lg text-text-secondary">
           A plain-English guide to the roofing terms you will see on estimates, inspection

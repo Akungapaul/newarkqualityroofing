@@ -1,26 +1,32 @@
 /**
- * Question-Form Heading Policy Audit (AUD-01 — build-failing gate).
+ * Heading Policy Audit (AUD-01 — build-failing gate).
  *
- * Hybrid two-pass audit (D-08 / D-09). Fully REPLACES the old advisory
- * location-keyword audit (the OLD policy is the OPPOSITE of this one and is
- * discarded). Model: scripts/audit-redirects.ts (errors[]/process.exit) +
- * scripts/audit-sitemap.ts (registry enumeration + errors.slice(0,40) cap).
+ * POLICY (2026-08 owner decision): every page H1 is a keyword-led STATEMENT
+ * (uniform "[Service] [City], NJ" pattern / "in NJ" statewide suffix — must NOT
+ * end in "?"); every H2/H3/H4 keeps the §17 question form (Q→A structure).
  *
- *   STATIC PASS  (always runs): asserts the §17 policy at config/data level —
- *     every HEADING_CONFIG string (interpolated with real service/city names)
- *     ends in "?"; exactly one H1 per page type; the page-type H1 never equals
- *     any of its H2 strings; every article title ends in "?" and titles are
- *     unique via Set(titles).size === articles.length (NEVER hardcodes a count).
+ * Hybrid two-pass audit (D-08 / D-09). Model: scripts/audit-redirects.ts
+ * (errors[]/process.exit) + scripts/audit-sitemap.ts (registry enumeration +
+ * errors.slice(0,40) cap).
+ *
+ *   STATIC PASS  (always runs): asserts the policy at config/data level —
+ *     every HEADING_CONFIG H1 string (interpolated with real service/city/
+ *     comparison names, incl. serviceH1Overrides, comparison H1s, and KB
+ *     cluster titles) is a statement; every HEADING_CONFIG H2 string ends in
+ *     "?"; the page-type H1 never equals any of its H2 strings; every article
+ *     title is a statement and titles are unique via Set(titles).size ===
+ *     articles.length (NEVER hardcodes a count).
  *
  *   RENDERED PASS (runs only if .next/server/app/*.html exists; otherwise prints
  *     a "run `next build` first" notice and skips DOM checks without failing):
  *     parses one prerendered file per template with node-html-parser and asserts
- *     the §17 DOM rules — exactly one <h1> ending "?" with ZERO element children
+ *     the DOM rules — exactly one statement <h1> with ZERO element children
  *     (no <br>/<span> split); every <h2>/<h3>/<h4> ends "?"; no H-tag inside
  *     nav/footer/button/label (incl. role="navigation"/role="contentinfo"); no
  *     skipped levels (monotonic h1→h2→h3→h4 in document order); the first <h2>
  *     after the hero === the §17 Core string (Core-before-Outer, HTAG-07/08).
- *     The 6 noindex hub scaffolds enforce only the DOM-safety subset (Q2).
+ *     Samples with kind 'h1-only' (glossary, KB, article, comparison — templates
+ *     outside the §4.x heading trees) enforce only the H1 rules.
  *
  * Any violation -> process.exit(1); else process.exit(0).
  *
@@ -36,8 +42,10 @@ import { parse, type HTMLElement } from 'node-html-parser';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { combos } from '@/data/combos';
+import { comparisons } from '@/data/comparisons';
 import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
+import { KB_CLUSTERS } from '@/data/kb-clusters';
 import { isKeep, isNoindex } from '@/data/url-classification';
 import { getSlugsByType } from '@/data/slug-registry';
 import { HEADING_CONFIG } from '@/data/heading-config';
@@ -82,35 +90,47 @@ function staticPass(errors: string[]): void {
   const sampleService = services[0]?.name ?? 'Roof Repair';
   const sampleCity = cities[0]?.name ?? 'Newark';
 
-  // ── 1. Every config heading (interpolated) ends in "?" ───────────────────────
-  const configStrings: Array<[string, string]> = [
+  // ── 1a. Every H1 (interpolated) is a STATEMENT — must NOT end in "?" ─────────
+  //     Covers the config H1s, the per-service overrides, all 30 comparison H1s,
+  //     and the 6 KB cluster titles (rendered as the cluster-page H1s).
+  const h1Strings: Array<[string, string]> = [
     ['home.h1', H.home.h1],
+    ['service.h1', H.service.h1(sampleService)],
+    ['city.h1', H.city.h1(sampleCity)],
+    ['combo.h1', H.combo.h1(sampleService, sampleCity)],
+    ...Object.entries(H.core).map(([k, v]) => [`core.${k}.h1`, v] as [string, string]),
+    ...Object.entries(H.hub).map(([k, v]) => [`hub.${k}.h1`, v] as [string, string]),
+    ...Object.entries(H.serviceH1Overrides).map(
+      ([k, v]) => [`serviceH1Overrides.${k}`, v] as [string, string],
+    ),
+    ...comparisons.map((c) => [`comparison(${c.id}).h1`, H.comparison.h1(c.name)] as [string, string]),
+    ...KB_CLUSTERS.map((k) => [`kbCluster(${k.slug}).title`, k.title] as [string, string]),
+  ];
+  for (const [name, str] of h1Strings) {
+    if (isQuestion(str)) {
+      errors.push(`STATIC H1 is a question — H1s must be statements (${name}): "${str}"`);
+    }
+  }
+
+  // ── 1b. Every config H2 (interpolated) ends in "?" ───────────────────────────
+  const h2Strings: Array<[string, string]> = [
     ['home.coreH2', H.home.coreH2],
     // NOTE: the homepage Core services render as declarative, linked cards
     // (styled text, not <h3>), so there are no per-service question headings.
     ...H.home.outerH2s.map((s, i) => [`home.outerH2[${i}]`, s] as [string, string]),
-    ['service.h1', H.service.h1(sampleService)],
     ['service.coreH2', H.service.coreH2(sampleService)],
     ['service.definitionH2', H.service.definitionH2(sampleService)],
     ...H.service.h2s(sampleService).map((s, i) => [`service.h2[${i}]`, s] as [string, string]),
-    ['city.h1', H.city.h1(sampleCity)],
     ['city.coreH2', H.city.coreH2(sampleCity)],
     ['city.whereIsH2', H.city.whereIsH2(sampleCity)],
     ['city.permitsH2', H.city.permitsH2(sampleCity)],
     ['city.materialsH2', H.city.materialsH2(sampleCity)],
     ...H.city.h2s(sampleCity).map((s, i) => [`city.h2[${i}]`, s] as [string, string]),
-    ['combo.h1', H.combo.h1(sampleService, sampleCity)],
     ['combo.coreH2', H.combo.coreH2(sampleService, sampleCity)],
     ['combo.definitionH2', H.combo.definitionH2(sampleService)],
     ...H.combo.h2s(sampleService, sampleCity).map((s, i) => [`combo.h2[${i}]`, s] as [string, string]),
-    ...Object.entries(H.core).map(([k, v]) => [`core.${k}.h1`, v] as [string, string]),
-    ...Object.entries(H.hub).map(([k, v]) => [`hub.${k}.h1`, v] as [string, string]),
   ];
-  // The city H1 is the one intentional declarative H1 ("Roof Repair and Installation
-  // in {City}, NJ") — a scoped, keyword-led exception to the question-form rule.
-  const CITY_DECLARATIVE_H1 = new Set(['city.h1']);
-  for (const [name, str] of configStrings) {
-    if (CITY_DECLARATIVE_H1.has(name)) continue;
+  for (const [name, str] of h2Strings) {
     if (!isQuestion(str)) errors.push(`STATIC config heading not a question (${name}): "${str}"`);
   }
 
@@ -125,13 +145,13 @@ function staticPass(errors: string[]): void {
     if (h2s.includes(h1)) errors.push(`STATIC ${type}: H1 is repeated as an H2 → "${h1}"`);
   }
 
-  // ── 3. Article titles: every title ends "?" + uniqueness via Set === length ──
+  // ── 3. Article titles: statements (title IS the article H1) + uniqueness ─────
   //     NEVER hardcode 253 (actual count is 252). Assert against articles.length.
   const titles = articles.map((a) => a.title);
   console.log(`Static pass: auditing ${articles.length} article titles (count NOT hardcoded).`);
   for (const a of articles) {
-    if (!isQuestion(a.title)) {
-      errors.push(`STATIC article ${a.id}: title not a question → "${a.title}"`);
+    if (isQuestion(a.title)) {
+      errors.push(`STATIC article ${a.id}: title is a question — H1s must be statements → "${a.title}"`);
     }
   }
   const uniqueTitles = new Set(titles);
@@ -161,14 +181,16 @@ function staticPass(errors: string[]): void {
 //  RENDERED PASS
 // ════════════════════════════════════════════════════════════════════════════
 
-type SampleKind = 'full' | 'scaffold';
+// 'full' = full DOM rules (statement H1 + question H2-H4 + Core-before-Outer).
+// 'h1-only' = only the H1 rules — for templates outside the §4.x heading trees
+// (glossary, KB index/cluster, article, comparison pages).
+type SampleKind = 'full' | 'h1-only';
 
 interface RenderedSample {
   label: string;
   file: string; // relative to .next/server/app
   coreH2?: string; // expected first <h2> after hero (full templates only)
   kind: SampleKind;
-  declarativeH1?: boolean; // city template: H1 is declarative, exempt from the question-form rule
 }
 
 const H = HEADING_CONFIG;
@@ -227,6 +249,36 @@ function buildSampleSet(): RenderedSample[] {
   const keepComboService = services.find((s) => s.slug === 'asphalt-shingle-roofing')?.name ?? 'Asphalt Shingle Roofing';
   const keepComboCity = cities.find((c) => c.slug === 'belleville')?.name ?? 'Belleville';
 
+  // Combo samples exist only while their slug is classified keep/noindex —
+  // under the consolidation every combo is a redirect and never prerendered,
+  // so a redirect-classified sample would be a guaranteed false "missing" error.
+  const comboSamples: RenderedSample[] = [];
+  if (isKeep('roof-repair-belleville-nj') || isNoindex('roof-repair-belleville-nj')) {
+    comboSamples.push({
+      // Newark combos are 301-redirected into the service pages (Option 3), so they
+      // are no longer prerendered — use a keep combo from another city.
+      label: 'keep combo (roof-repair/belleville)',
+      file: 'roof-repair-belleville-nj.html',
+      coreH2: comboHasDefinition('roof-repair', 'belleville')
+        ? H.combo.definitionH2(repairName)
+        : H.combo.coreH2(repairName, keepComboCity),
+      kind: 'full',
+    });
+  }
+  if (
+    isKeep('asphalt-shingle-roofing-belleville-nj') ||
+    isNoindex('asphalt-shingle-roofing-belleville-nj')
+  ) {
+    comboSamples.push({
+      label: 'noindex combo (asphalt-shingle-roofing/belleville)',
+      file: 'asphalt-shingle-roofing-belleville-nj.html',
+      coreH2: comboHasDefinition('asphalt-shingle-roofing', 'belleville')
+        ? H.combo.definitionH2(keepComboService)
+        : H.combo.coreH2(keepComboService, keepComboCity),
+      kind: 'full',
+    });
+  }
+
   return [
     { label: 'home', file: 'index.html', coreH2: H.home.coreH2, kind: 'full' },
     {
@@ -242,26 +294,15 @@ function buildSampleSet(): RenderedSample[] {
       file: 'roof-repair-and-installation-in-newark-nj.html',
       coreH2: cityHasWhereIs('newark') ? H.city.whereIsH2(newarkName) : H.city.coreH2(newarkName),
       kind: 'full',
-      declarativeH1: true, // "Roof Repair and Installation in Newark, NJ" — not a question
     },
-    {
-      // Newark combos are 301-redirected into the service pages (Option 3), so they
-      // are no longer prerendered — use a keep combo from another city.
-      label: 'keep combo (roof-repair/belleville)',
-      file: 'roof-repair-belleville-nj.html',
-      coreH2: comboHasDefinition('roof-repair', 'belleville')
-        ? H.combo.definitionH2(repairName)
-        : H.combo.coreH2(repairName, keepComboCity),
-      kind: 'full',
-    },
-    {
-      label: 'noindex combo (asphalt-shingle-roofing/belleville)',
-      file: 'asphalt-shingle-roofing-belleville-nj.html',
-      coreH2: comboHasDefinition('asphalt-shingle-roofing', 'belleville')
-        ? H.combo.definitionH2(keepComboService)
-        : H.combo.coreH2(keepComboService, keepComboCity),
-      kind: 'full',
-    },
+    ...comboSamples,
+    // H1-only samples — templates outside the §4.x heading trees; only the
+    // statement-H1 rules apply (their body headings are page-specific).
+    { label: 'comparison (asphalt-shingles-vs-metal-roofing)', file: 'asphalt-shingles-vs-metal-roofing.html', kind: 'h1-only' },
+    { label: 'article (signs-you-need-roof-repair-nj)', file: 'signs-you-need-roof-repair-nj.html', kind: 'h1-only' },
+    { label: 'glossary', file: 'roofing-glossary.html', kind: 'h1-only' },
+    { label: 'kb index', file: 'roofing-knowledge-base.html', kind: 'h1-only' },
+    { label: 'kb cluster (roof-problems)', file: 'roofing-knowledge-base/roof-problems.html', kind: 'h1-only' },
     // Content-bearing core/hub pages — full DOM rules, Core H2 not asserted
     // (their first H2 is page-specific, not in the §4.x trees).
     { label: 'core (roofing-services)', file: 'roofing-services.html', kind: 'full' },
@@ -291,15 +332,21 @@ function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
   }
   const h1 = h1s[0];
   if (h1) {
-    // ── H1 is a question ──────────────────────────────────────────────────────
-    if (!sample.declarativeH1 && !isQuestion(h1.text)) errors.push(`${tag} H1 not a question → "${h1.text.trim()}"`);
+    // ── H1 is a statement (must NOT end in "?") ───────────────────────────────
+    if (isQuestion(h1.text)) {
+      errors.push(`${tag} H1 is a question — H1s must be statements → "${h1.text.trim()}"`);
+    }
     // ── H1 has zero element children (no <br>/<span> split) ───────────────────
     if (hasElementChildren(h1)) {
       errors.push(`${tag} H1 has element children (<br>/<span> split): "${h1.text.trim()}"`);
     }
   }
 
-  // ── all h1..h4 outside nav/footer/button/label; questions; level order ──────
+  // h1-only samples stop here — their body headings are page-specific and sit
+  // outside the §4.x question-form trees.
+  if (sample.kind === 'h1-only') return;
+
+  // ── all h1..h4 outside nav/footer/button/label; H2-H4 questions; level order ─
   const headings = root.querySelectorAll('h1,h2,h3,h4');
   let prevLevel = 0;
   for (const h of headings) {
@@ -308,7 +355,8 @@ function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
       errors.push(`${tag} forbidden <${h.tagName.toLowerCase()}> inside nav/footer/button/label: "${text}"`);
       continue; // do not let a nav heading drive level-order
     }
-    if (!isQuestion(text) && !(sample.declarativeH1 && h.tagName === 'H1')) {
+    // H1 statement form is asserted above; the question rule applies to H2-H4.
+    if (h.tagName !== 'H1' && !isQuestion(text)) {
       errors.push(`${tag} <${h.tagName.toLowerCase()}> not a question → "${text}"`);
     }
     const level = Number(h.tagName[1]);
@@ -360,7 +408,7 @@ function renderedPass(errors: string[]): boolean {
 
 function main(): void {
   console.log('='.repeat(72));
-  console.log('  HEADING POLICY VALIDATION (question-form §17 — build-failing)');
+  console.log('  HEADING POLICY VALIDATION (statement H1 / question H2-H4 — build-failing)');
   console.log('='.repeat(72));
   console.log();
 
@@ -384,8 +432,8 @@ function main(): void {
     process.exit(1);
   }
 
-  console.log('Heading policy valid: question-form H1/H2/H3/H4, Core-before-Outer,');
-  console.log('no nav/footer H-tags, no skipped levels, article titles unique questions. PASS');
+  console.log('Heading policy valid: statement H1s, question-form H2/H3/H4, Core-before-Outer,');
+  console.log('no nav/footer H-tags, no skipped levels, article titles unique statements. PASS');
   process.exit(0);
 }
 

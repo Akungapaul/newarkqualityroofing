@@ -38,7 +38,9 @@ export function buildComboTitle(service: Service, city: City): string {
 /** City page title — re-targeted onto the two money keywords (repair + installation). */
 export function buildCityTitle(city: City): string {
   // "Roof Repair and Installation in {City}, NJ" — longest NJ municipality name
-  // keeps this <=60 chars (North Caldwell => 50). Matches the city H1 verbatim.
+  // keeps this <=60 chars (North Caldwell => 50). NOTE: the visible city H1
+  // drops the "in" ("Roof Repair and Installation {City}, NJ" — uniform H1
+  // pattern, see heading-config.ts); the metaTitle deliberately keeps it.
   return `Roof Repair and Installation in ${city.name}, NJ`;
 }
 

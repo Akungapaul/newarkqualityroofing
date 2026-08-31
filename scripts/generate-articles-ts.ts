@@ -81,6 +81,26 @@ function truncDesc(s: string, max: number = 150): string {
   return s.slice(0, max - 3).trim() + '...';
 }
 
+// Title-scoped display name (H1s only — metaTitles/metaDescriptions keep the
+// original shortName so they stay byte-identical). Restores the missing
+// conjunction in the six "X Installation Repair" service names.
+function titleName(name: string): string {
+  return name
+    .replace(/ and /g, ' & ')
+    .replace(/ Services/g, '')
+    .replace(/ Installation Repair$/, ' Installation & Repair');
+}
+
+// Per-article H1 overrides for titles the templates render awkwardly.
+// Applied by id after assembly, before validation.
+const TITLE_OVERRIDES: Record<string, string> = {
+  // Template would keep the broken plural "Programs Contractor".
+  'roof-maintenance-programs-decision': 'How to Choose a Roof Maintenance Program Contractor in NJ',
+  // "Roof Warranty Comparison Guide" is not a chooseable thing.
+  'roof-warranty-comparison-guide-buyers-guide': 'How to Compare Roof Warranties in NJ',
+  'roof-warranty-comparison-guide-expert-picks': 'Roof Warranties: What NJ Roofers Recommend',
+};
+
 // Slug helpers - build long-tail slugs that won't collide with short service slugs
 function makeSlug(parts: string[]): string {
   return parts
@@ -118,7 +138,7 @@ function serviceSignsArticle(s: typeof articleServices[0]): RawArticle {
     slug = makeSlug(['signs-you-need', s.slug, 'nj']);
   }
 
-  const title = `What Are the Signs You Need ${shortName}?`; // on-page H1 (no length cap); question form (D-12)
+  const title = `Signs You Need ${titleName(name)} in NJ`; // on-page H1 (no length cap); statement form (2026-08 H1 policy)
   const metaTitle = truncTitle(`Signs You Need ${shortName} | NJ Guide`);
   const metaDescription = truncDesc(`How to tell if you need ${name.toLowerCase()} in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.`);
 
@@ -146,7 +166,7 @@ function serviceCostArticle(s: typeof articleServices[0]): RawArticle {
     slug = makeSlug(['how-much-does', s.slug, 'cost-in-nj']);
   }
 
-  const title = `How Much Does ${shortName} Cost in NJ?`;
+  const title = `${titleName(name)} Cost in NJ`;
   const metaTitle = truncTitle(`${shortName} Cost in NJ | Pricing Guide`);
   const metaDescription = truncDesc(`${name} cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.`);
 
@@ -166,39 +186,44 @@ function serviceCostArticle(s: typeof articleServices[0]): RawArticle {
 function serviceDecisionArticle(s: typeof articleServices[0]): RawArticle {
   const name = s.name;
   const shortName = name.replace(/ and /g, ' & ').replace(/ Services/g, '');
+  const tn = titleName(name);
 
   let slug: string;
   let title: string;
   // metaTitleBase keeps the original concise declarative SERP wording so the
-  // ≤60-char metaTitle stays decoupled from the question-form on-page H1 (D-12).
+  // ≤60-char metaTitle stays decoupled from the on-page H1 (D-12).
   let metaTitleBase: string;
   if (s.category === 'repair-maintenance') {
     slug = makeSlug(['choosing-the-right', s.slug, 'contractor-nj']);
-    title = `How Do You Choose a ${shortName} Contractor?`;
+    title = `How to Choose ${/^[aeiou]/i.test(tn) ? 'an' : 'a'} ${tn} Contractor in NJ`;
     metaTitleBase = `Choosing the Right ${shortName} Contractor in NJ`;
-  } else if (s.category === 'residential-roof-types' || s.category === 'commercial-roof-types') {
+  } else if (s.category === 'residential-roof-types') {
     slug = makeSlug([s.slug, 'pros-and-cons-nj-homeowners']);
-    title = `What Are the Pros and Cons of ${shortName}?`;
+    title = `Pros and Cons of ${tn} for NJ Homes`;
+    metaTitleBase = `${shortName}: Pros and Cons for NJ Properties`;
+  } else if (s.category === 'commercial-roof-types') {
+    slug = makeSlug([s.slug, 'pros-and-cons-nj-homeowners']);
+    title = `Pros and Cons of ${tn} for NJ Buildings`;
     metaTitleBase = `${shortName}: Pros and Cons for NJ Properties`;
   } else if (s.category === 'components-specialty') {
     slug = makeSlug([s.slug, 'complete-homeowner-guide-nj']);
-    title = `What Should You Know About ${shortName}?`;
+    title = `What to Know About ${tn} in NJ`;
     metaTitleBase = `${shortName}: Complete NJ Homeowner Guide`;
   } else if (s.category === 'energy-solar') {
     slug = makeSlug([s.slug, 'nj-incentives-and-savings']);
-    title = `What NJ Incentives and Savings Apply to ${shortName}?`;
+    title = `NJ Incentives and Savings for ${tn}`;
     metaTitleBase = `${shortName}: NJ Incentives and Savings`;
   } else if (s.category === 'commercial-services') {
     slug = makeSlug([s.slug, 'what-business-owners-should-know']);
-    title = `What Should NJ Business Owners Know About ${shortName}?`;
+    title = `What NJ Business Owners Should Know About ${tn}`;
     metaTitleBase = `${shortName}: What NJ Business Owners Should Know`;
   } else if (s.category === 'design-consultation') {
     slug = makeSlug([s.slug, 'what-to-expect-nj']);
-    title = `What Should You Expect From ${shortName}?`;
+    title = `What to Expect From ${tn} in NJ`;
     metaTitleBase = `${shortName}: What to Expect in NJ`;
   } else {
     slug = makeSlug([s.slug, 'complete-guide-nj']);
-    title = `What Should You Know About ${shortName} Roofing?`;
+    title = `What to Know About ${tn} in NJ`;
     metaTitleBase = `Complete Guide to ${shortName} in NJ`;
   }
 
@@ -225,7 +250,12 @@ function serviceDecisionArticle(s: typeof articleServices[0]): RawArticle {
 function compBuyerGuide(c: typeof comparisons[0]): RawArticle {
   const slug = makeSlug(['how-to-choose', c.slug, 'nj']);
   const shortName = c.name.length > 35 ? c.name.slice(0, 35).trim() : c.name;
-  const title = `Which Is Better: ${c.name}?`;
+  // "X vs Y" names become "How to Choose Between X and Y in NJ"; decision-helper
+  // names (no " vs ") become "How to Choose the {name}". Neither collapses to the
+  // bare comparison name, which is the comparison PAGE's H1.
+  const title = c.name.includes(' vs ')
+    ? `How to Choose Between ${c.name.replace(' vs ', ' and ')} in NJ`
+    : `How to Choose the ${c.name}${/\bNJ\b/.test(c.name) ? '' : ' in NJ'}`;
   const metaTitle = truncTitle(`How to Choose: ${shortName} | NJ`);
   const metaDescription = truncDesc(`A NJ homeowner guide to choosing between ${c.name.toLowerCase()}. Key factors, local considerations, and expert advice.`);
 
@@ -246,7 +276,9 @@ function compBuyerGuide(c: typeof comparisons[0]): RawArticle {
 function compExpertPicks(c: typeof comparisons[0]): RawArticle {
   const slug = makeSlug(['what-nj-roofers-recommend', c.slug]);
   const shortName = c.name.length > 30 ? c.name.slice(0, 30).trim() : c.name;
-  const title = `What Do NJ Roofers Recommend for ${c.name}?`;
+  // Suffix form keeps this distinct from both the comparison page H1 (bare
+  // name + " in NJ") and the buyer-guide article ("How to Choose …").
+  const title = `${c.name}: What NJ Roofers Recommend`;
   const metaTitle = truncTitle(`NJ Roofer Picks: ${shortName}`);
   const metaDescription = truncDesc(`What New Jersey roofing contractors actually recommend for ${c.name.toLowerCase()}. Professional insights from Essex County.`);
 
@@ -269,7 +301,7 @@ function compExpertPicks(c: typeof comparisons[0]): RawArticle {
 const coreArticles: RawArticle[] = [
   {
     id: 'homepage-nj-roofing-guide',
-    title: 'What Should NJ Homeowners Know About Roofing?',
+    title: 'Complete NJ Roofing Guide for Homeowners',
     slug: 'complete-nj-roofing-guide-homeowners',
     parentId: 'homepage',
     parentType: 'core',
@@ -280,7 +312,7 @@ const coreArticles: RawArticle[] = [
   },
   {
     id: 'homepage-finding-roofer-essex-county',
-    title: 'How Do You Find a Reliable Roofer in Essex County?',
+    title: 'How to Find a Reliable Roofer in Essex County, NJ',
     slug: 'finding-reliable-roofer-essex-county-nj',
     parentId: 'homepage',
     parentType: 'core',
@@ -291,7 +323,7 @@ const coreArticles: RawArticle[] = [
   },
   {
     id: 'homepage-nj-roofing-licensing-insurance',
-    title: 'What Are NJ Roofing Licensing and Insurance Requirements?',
+    title: 'NJ Roofing Licensing and Insurance Requirements',
     slug: 'nj-roofing-licensing-insurance-guide',
     parentId: 'homepage',
     parentType: 'core',
@@ -322,10 +354,17 @@ for (const c of comparisons) {
 // Core articles (3)
 allArticles.push(...coreArticles);
 
+// Per-id H1 overrides (grammar/readability fixes the templates can't express)
+for (const a of allArticles) {
+  const override = TITLE_OVERRIDES[a.id];
+  if (override) a.title = override;
+}
+
 // ─── Validate uniqueness ────────────────────────────────────────────────────
 
 const slugSet = new Set<string>();
 const idSet = new Set<string>();
+const titleSet = new Set<string>();
 const errors: string[] = [];
 
 for (const a of allArticles) {
@@ -338,6 +377,15 @@ for (const a of allArticles) {
     errors.push(`Duplicate id: ${a.id}`);
   }
   idSet.add(a.id);
+
+  if (titleSet.has(a.title)) {
+    errors.push(`Duplicate title: ${a.title}`);
+  }
+  titleSet.add(a.title);
+
+  if (/\?\s*$/.test(a.title)) {
+    errors.push(`Question-form title (H1s must be statements): ${a.id} => "${a.title}"`);
+  }
 
   if (a.metaTitle.length > 60) {
     errors.push(`metaTitle too long (${a.metaTitle.length}): ${a.id} => "${a.metaTitle}"`);
