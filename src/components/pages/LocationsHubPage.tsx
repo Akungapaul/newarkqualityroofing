@@ -82,7 +82,7 @@ export default function LocationsHubPage() {
         {/* Bottom CTA */}
         <section className="mt-16 rounded-lg border border-copper/30 bg-copper/5 px-6 py-10 text-center">
           <h2 className="font-heading text-2xl font-bold text-forest">
-            We Serve Every Community in Essex County
+            We Serve Every Community in Essex County, NJ
           </h2>
           <p className="mx-auto mt-3 max-w-lg font-body text-text-secondary">
             From Newark to Montclair, Livingston to Belleville, our team

@@ -43,7 +43,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A low-slope roof past its 7-to-20-year service life, with separating welded seams, damage above 25 to 30%, ponding over 48 hours, or a new code-compliant assembly to build, signals a TPO roofing installation.",
-    "ctaHeading": "Get a TPO Roofing Assessment in Essex County",
+    "ctaHeading": "Get a TPO Roofing Assessment in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that inspects your seams, slope, and membrane age before recommending repair or a new [TPO roofing installation](/tpo-roofing-installation-in-newark-nj).",
     "metaDescription": "Signs you need TPO roofing: a membrane past its 7-20-year life, separating welded seams, damage over 25-30%, ponding past 48 hours, or new construction."
   },
@@ -81,7 +81,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "TPO installs at $8 to $12 per square foot in New Jersey, with the assembly beneath the membrane, the tear-off-versus-recover decision, and the NJ labor and code premium setting where a specific roof lands in the range.",
-    "ctaHeading": "Get a Free Written TPO Estimate in Essex County",
+    "ctaHeading": "Get a Free Written TPO Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that prices the membrane, insulation, drainage, and tear-off or recover scope for your roof. Explore [TPO roofing installation](/tpo-roofing-installation-in-newark-nj) to start.",
     "metaDescription": "TPO roofing installation costs $8 to $12 per square foot in NJ, against EPDM at $7-$10 and PVC at $6-$12, with NJ ranges 10 to 40% above national."
   },
@@ -157,7 +157,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "An EPDM commercial roof signals replacement through open splice seams, shrinkage at the perimeters, ponding beyond 48 hours, damage over 25 to 30% of the area, recurring same-spot leaks, or a membrane reaching 15 to 25 years.",
-    "ctaHeading": "Have Your EPDM Roof Assessed in Essex County",
+    "ctaHeading": "Have Your EPDM Roof Assessed in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that reads the seams, drainage, and membrane age before deciding between an EPDM repair and a full replacement.",
     "metaDescription": "EPDM roof failure signs: open splice seams, membrane shrinkage, ponding past 48 hours, damage over 25-30%, recurring leaks, or 15-25 years of service."
   },
@@ -195,7 +195,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "EPDM commercial roofing in New Jersey runs $7.00 to $10.00 per square foot installed, with the attachment method, insulation, and tear-off-versus-recover scope setting where a given roof lands, and NJ labor and code adding 10 to 40% over national figures.",
-    "ctaHeading": "Get a Written EPDM Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Written EPDM Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes attachment method, insulation, drainage, and permit scope for your [EPDM commercial roof](/epdm-commercial-roofing-in-newark-nj).",
     "metaDescription": "EPDM commercial roofing costs $7.00 to $10.00 per square foot installed in New Jersey, with flat-roof repair at $2.50 to $10.00 per square foot."
   },
@@ -271,7 +271,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A modified bitumen roof at or past 20 years showing alligator cracking, interply blistering, flashing separation, ponding over 48 hours, or damage across more than 25 to 30% of the area has reached the point where a new membrane returns more value than continued repair.",
-    "ctaHeading": "Get a Modified Bitumen Roof Assessment in Essex County",
+    "ctaHeading": "Get a Modified Bitumen Roof Assessment in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that checks the cap, the ply bond, the flashing details, and the drainage slope before a [modified bitumen](/modified-bitumen-roofing-in-newark-nj) recommendation.",
     "metaDescription": "Signs you need modified bitumen roofing: alligator cracking, interply blistering, flashing separation, ponding over 48 hours, or a roof past 20 years."
   },
@@ -309,7 +309,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Modified bitumen roofing prices at about $7 to $12 per square foot installed in New Jersey, with ply count, application method, tear-off rules, and a 10-to-40% NJ premium setting where a project lands in that range.",
-    "ctaHeading": "Get a Written Modified Bitumen Estimate in Essex County",
+    "ctaHeading": "Get a Written Modified Bitumen Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that sets ply count, application method, drainage, and any tear-off against your building. Explore [modified bitumen roofing](/modified-bitumen-roofing-in-newark-nj) to start.",
     "metaDescription": "Modified bitumen roofing costs about $7 to $12 per square foot installed in NJ, with repair $2.50 to $10 per square foot. What drives the price in Essex County."
   },
@@ -347,7 +347,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Modified bitumen suits a low-slope roof with heavy rooftop service traffic where multi-ply redundancy and a granulated UV-protected cap outweigh its 20-year life and the open-flame management torch application requires.",
-    "ctaHeading": "Weigh Modified Bitumen Against Your Essex County Roof",
+    "ctaHeading": "Weigh Modified Bitumen Against Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that matches the polymer modifier and the flame-free or torch application method to your building, occupancy, and NJ code. Compare [modified bitumen roofing](/modified-bitumen-roofing-in-newark-nj) against the alternatives line by line.",
     "metaDescription": "Modified bitumen's pros are multi-ply traffic redundancy and a granulated UV cap; its cons are a 20-year life and torch-flame risk. A balanced NJ guide."
   },
@@ -385,7 +385,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A built-up roof reaching its 30-year life shows alligatoring, blisters, recurring flashing leaks, or ponding, and damage past 25 to 30 percent of the membrane crosses from resurfacing to replacement, per the InterNACHI life-expectancy chart and NRCA.",
-    "ctaHeading": "Have Your Built-Up Roof Assessed in Essex County",
+    "ctaHeading": "Have Your Built-Up Roof Assessed in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that assesses the BUR membrane, surfacing, flashing, and drainage, or explore [built-up roofing](/built-up-roofing-in-newark-nj) to plan the work.",
     "metaDescription": "Signs you need built-up roofing: alligatoring, blisters, ponding past 48 hours, recurring flashing leaks, or damage above 25 to 30 percent on a 30-year roof."
   },
@@ -423,7 +423,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Built-up roofing prices at about $7 to $12 per square foot installed in New Jersey, set by ply count and surfacing and lifted 10 to 40 percent above national figures by regional labor and NJ code.",
-    "ctaHeading": "Get a Written Built-Up Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Written Built-Up Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that sizes the ply count, surfacing, and scope to your roof, or compare options across [built-up roofing](/built-up-roofing-in-newark-nj).",
     "metaDescription": "Built-up roofing costs about $7 to $12 per square foot installed in NJ, with flat-roof repair at $2.50 to $10 per square foot. What drives the price."
   },
@@ -461,7 +461,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Built-up roofing earns its place on a high-traffic commercial low-slope roof through a 30-year life and gravel-shielded multi-ply redundancy, balanced against a heavier, slower hot-bitumen install and surfacing that obscures inspection.",
-    "ctaHeading": "Plan a Built-Up Roof in Essex County",
+    "ctaHeading": "Plan a Built-Up Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that assesses your BUR membrane, surfacing, flashing, and drainage. Explore our [built-up roofing](/built-up-roofing-in-newark-nj) services to start.",
     "metaDescription": "Built-up roofing pros and cons: a 30-year multi-ply life and gravel UV protection versus a heavy, labor-intensive hot-bitumen install, per InterNACHI and NRCA."
   },
@@ -499,7 +499,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A commercial metal roof at or past its 40-to-80-year life, corroding across more than 20 to 25% of its panels, losing more than 25% of its standing-seam connections, leaking at backed-out fasteners or the same spot repeatedly, or holding ponding water past 48 hours has crossed from repair to replacement.",
-    "ctaHeading": "Have Your Essex County Metal Roof Assessed",
+    "ctaHeading": "Have Your Essex County, NJ Metal Roof Assessed",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that assesses panel corrosion, seam-connection damage, and fastener condition before any [commercial metal roofing](/commercial-metal-roofing-in-newark-nj) work.",
     "metaDescription": "Signs you need commercial metal roofing in NJ: a roof past its 40-80-year life, 20-25% panel corrosion, 25% seam damage, fastener failure, or 48-hour ponding."
   },
@@ -575,7 +575,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Commercial metal roofing rewards a long ownership horizon with a 40-to-80-year service life and concealed-fastener durability, while its higher cost and thermal-movement engineering steer a shorter-hold or lower-budget low-slope roof toward a single-ply membrane.",
-    "ctaHeading": "Weigh Metal Against a Membrane for Your Essex County Roof",
+    "ctaHeading": "Weigh Metal Against a Membrane for Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that compares a metal panel system against a membrane for your building, with the panel profile, gauge, and clip engineering named for the wind and thermal loads. Explore our [commercial metal roofing](/commercial-metal-roofing-in-newark-nj) scope to start.",
     "metaDescription": "Commercial metal roofing lasts 40-80 years with concealed-fastener seams, but costs $9-$16/sf and needs thermal-movement engineering on long panel runs."
   },
@@ -651,7 +651,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Commercial PVC roofing runs $6 to $12 per square foot installed in New Jersey, clustering near $8 to $12, with membrane thickness, attachment method, drainage work, and the 10-to-40% NJ labor-and-code premium setting where a roof lands in that range.",
-    "ctaHeading": "Get a Written PVC Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Written PVC Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that prices your [PVC roofing](/pvc-roofing-in-newark-nj) by the square foot, with membrane thickness, attachment method, and drainage work itemized.",
     "metaDescription": "Commercial PVC roofing costs $6 to $12 per square foot installed in NJ, near $8 to $12, with NJ 10 to 40% above national. What drives the price."
   },
@@ -689,7 +689,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "PVC resists grease and chemicals no other single-ply matches and welds into a permanently repairable 20-to-30-year cool roof, at a cost over TPO that pays off only where rooftop exhaust would degrade a less resistant membrane.",
-    "ctaHeading": "Get a Written Estimate for a PVC Roof in Essex County",
+    "ctaHeading": "Get a Written Estimate for a PVC Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that matches a [PVC roof](/pvc-roofing-in-newark-nj) to the grease, chemical exhaust, and cooling load on your commercial low-slope building.",
     "metaDescription": "PVC roofing pros and cons: grease and chemical resistance, re-weldable seams, a 20-to-30-year cool roof, against a higher cost than TPO and plasticizer aging."
   },
@@ -803,7 +803,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A green roof trades stormwater retention, a lower cooling load, and a UV-shielded membrane against a saturated structural load and a buried membrane, so it fits a structurally-capable roof with a stormwater or sustainability driver.",
-    "ctaHeading": "Plan a Green Roof for Your Essex County Building",
+    "ctaHeading": "Plan a Green Roof for Your Essex County, NJ Building",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We coordinate the structural assessment, install and flood-test the waterproofing membrane, and provide a free written estimate for the roofing scope. Explore [green roof installation](/green-roof-installation-in-newark-nj) to start.",
     "metaDescription": "A green roof retains stormwater, cuts cooling load, and shields the membrane, but adds structural load and a buried membrane. Pros, cons, and fit in NJ."
   },
@@ -841,7 +841,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A low-slope roof with thin insulation, persistent ponding, a penetration-heavy surface, repeated seam leaks, fewer than 2 existing layers, or a worn coating exposing foam points toward a spray foam roofing recover or recoat.",
-    "ctaHeading": "Get a Spray Foam Roof Assessment in Essex County",
+    "ctaHeading": "Get a Spray Foam Roof Assessment in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that core-samples your existing roof and tests substrate moisture before any [spray foam roofing](/spray-foam-roofing-in-newark-nj) recover.",
     "metaDescription": "Signs you need spray foam roofing: thin insulation, ponding past 48 hours, many penetrations, repeated seam leaks, under 2 layers, or an eroded coating."
   },
@@ -879,7 +879,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Spray foam roofing prices at $4 to $8 per square foot installed in New Jersey, with foam thickness and the recoat cycle driving the cost, a recover avoiding tear-off, and NJ ranges running 10 to 40% above national figures.",
-    "ctaHeading": "Get a Written Spray Foam Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Written Spray Foam Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We core-sample and moisture-test an existing low-slope roof, then provide a free written estimate that prices the foam, coating, and recoat cycle line by line.",
     "metaDescription": "Spray foam roofing costs $4-$8 per square foot installed in NJ. A guide to the per-square-foot rate, what drives the price, and why NJ runs above national."
   },
@@ -917,7 +917,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Spray foam roofing trades a recurring coating-recoat obligation for a seamless, insulated recover that fits an under-insulated, penetration-heavy low-slope roof better than a single-ply or metal system does.",
-    "ctaHeading": "Weigh Spray Foam Against Your Building in Essex County",
+    "ctaHeading": "Weigh Spray Foam Against Your Building in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that core-samples your existing low-slope roof, tests substrate moisture, and lays out whether a foam recover or a [single-ply membrane](/flat-roof-systems) suits the building.",
     "metaDescription": "Spray foam roofing: seamless, R-6.0-6.5/in insulated recover with no seams, against a UV-sensitive foam that needs a coating recoated every 10-20 years."
   }

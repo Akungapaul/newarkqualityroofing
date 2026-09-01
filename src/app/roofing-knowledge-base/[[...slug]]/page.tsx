@@ -196,7 +196,7 @@ export default async function KnowledgeBasePage({
     return (
       <KbShell
         eyebrow="Knowledge Base"
-        heading="Roofing Knowledge Base for Newark and Essex County"
+        heading="Roofing Knowledge Base for Newark and Essex County, NJ"
       >
         <p className="mt-6 font-body text-lg leading-relaxed text-text-secondary">
           This roofing knowledge base answers {articles.length} roofing questions for Newark

@@ -33,7 +33,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "The Ownership Horizon Decides Between Asphalt and Metal in Essex County",
+        "heading": "The Ownership Horizon Decides Between Asphalt and Metal in Essex County, NJ",
         "body": [
           "**The ownership horizon** decides the material: metal roofing suits long-hold owners who keep the roof 40-plus years, while asphalt shingles suit color-and-budget-driven Essex County homes and near-term resale, per the InterNACHI chart and the Zonda 2023 resale data.",
           "**Asphalt shingles** offer the widest color and profile range and recoup more at resale, adding roughly $15,247 to resale value on a typical home and letting sellers ask 1%-3% more, per Opendoor and Zillow 2025 analysis, against a ~61% cost recoup per the Remodeling/Zonda 2023 Cost vs Value report. Architectural asphalt suits color-and-budget-driven Essex County homes and installs faster, with a shorter install window than metal, per NRCA installation guidance. **Metal roofing** recoups a smaller ~49% share because its higher job cost outpaces the resale premium, so its return favors the long hold rather than a near-term sale; its panel-and-trim fabrication extends the install window in exchange for decades of lower-maintenance service, per NRCA guidance.",
@@ -42,7 +42,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Metal roofing returns the most value on a 40-plus-year hold, spreading its higher NJ install cost across 2-4 asphalt lifecycles, per the InterNACHI chart; asphalt shingles return the most on a tighter budget or near-term sale, installing cheaper and recouping ~61% versus metal's ~49%, per Zonda 2023. The ownership horizon, not the sticker price, settles the choice.",
-    "ctaHeading": "Compare Asphalt and Metal for Your Essex County Roof",
+    "ctaHeading": "Compare Asphalt and Metal for Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, installing both asphalt shingles and metal roofing. Reach out for a free written estimate that prices each material against your home, budget, and ownership horizon, including a [roof replacement](/roof-replacement-in-newark-nj) plan.",
     "metaDescription": "Asphalt shingles vs metal roofing in NJ: metal lasts 40-80 years, asphalt 20-30 and installs cheaper. Compare cost per year, climate fit, and resale."
   },
@@ -82,7 +82,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The named records point the recommendation toward metal for the long hold and asphalt for budget and near-term resale, with installation quality and a two-part warranty deciding whether either reaches its rated life. Matching the material to the ownership horizon, and to the snow, wind, and deck realities the standards flag, settles the choice for an Essex County home.",
-    "ctaHeading": "Get a Material Recommendation for Your Essex County Roof",
+    "ctaHeading": "Get a Material Recommendation for Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured, and installs both asphalt shingles and metal roofing. Reach out for a free written estimate and a recommendation matched to your budget, ownership horizon, and [roof replacement](/roof-replacement-in-newark-nj) plan.",
     "metaDescription": "What NJ roofers recommend for asphalt shingles vs metal: standards favor metal for 40-80-year life, asphalt for budget and resale. Install quality decides."
   },
@@ -121,7 +121,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Natural slate edges clay or concrete tile on a 60-150-year longevity horizon and on matching the historic Colonial and Victorian roofs of Essex County, while tile answers a terra-cotta profile or a lower concrete budget. Either way, framing capacity is the gate that decides whether the heavier covering goes on at all.",
-    "ctaHeading": "Get a Free Written Slate or Tile Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Slate or Tile Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, installing and repairing slate and clay or concrete tile with the structural review and non-ferrous flashing the materials require. Reach out for a free written estimate or start with a [roof replacement](/roof-replacement-in-newark-nj) assessment.",
     "metaDescription": "Slate vs tile roofing: slate lasts 60-150 years, clay tile 100+, concrete 40-75. Compare NJ cost, framing load, freeze-thaw, and historic-district rules."
   },
@@ -160,7 +160,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The InterNACHI life-expectancy chart and the Tile Roofing Industry Alliance data favor natural slate for longevity and historic-district fit, with clay tile close behind and concrete tile shorter under freeze-thaw. Framing capacity, non-ferrous copper or stainless fasteners, and flashing matched to the original metal decide whether either roof reaches its rated life.",
-    "ctaHeading": "Plan a Slate or Tile Roof in Essex County",
+    "ctaHeading": "Plan a Slate or Tile Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate covering the rafter and decking assessment, the copper or stainless fasteners, and the flashing your slate or tile roof requires.",
     "metaDescription": "What NJ roofers recommend for slate vs tile: standards favor slate's 60-150-year life; framing, copper fasteners, and matched flashing decide it."
   },
@@ -181,7 +181,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "TPO Fits a Cooling-Load Newark Roof, EPDM Fits the Rest Under NJ Low-Slope Code",
+        "heading": "TPO Fits a Cooling-Load Newark, NJ Roof, EPDM Fits the Rest Under NJ Low-Slope Code",
         "body": [
           "**TPO** fits a cooling-load Newark roof and **EPDM** fits the rest, while both install to the same NRCA drainage rule. A white TPO surface carries a CRRC-listed solar reflectance near 0.70-0.85 measured by ASTM C1549 and cuts peak cooling demand 11-27% in air-conditioned buildings, per the EPA.",
           "**TPO** reflectance stays over 50 degrees F cooler than a conventional roof, per the DOE, but Newark sits in IRC Climate Zone 4A-5, a heating-dominated mixed climate, so a reflective TPO roof carries a winter heating penalty that offsets part of the summer gain, per the DOE. The 11-27% EPA figure is a peak-demand reduction, not a guaranteed annual bill cut.",
@@ -198,7 +198,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "TPO wins where a summer cooling load makes its CRRC-listed reflectance and heat-welded seams pay back the higher NJ cost; EPDM wins on ponding, chemical, equipment-heavy, or budget roofs at $7.00-$10.00 versus TPO's $8.00-$12.00 per square foot, per Josten Roofing. The building governs the choice, and both depend on NRCA positive drainage of 1/4 inch per foot.",
-    "ctaHeading": "Match the Right Membrane to Your Essex County Flat Roof",
+    "ctaHeading": "Match the Right Membrane to Your Essex County, NJ Flat Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, installing both TPO and EPDM single-ply membranes with tapered insulation for positive drainage. Reach out for a free written estimate on your [flat roof](/roof-replacement-in-newark-nj).",
     "metaDescription": "TPO vs EPDM for NJ flat roofs: TPO reflects summer heat on cooling-load roofs, EPDM resists ponding and costs less. Cost, lifespan, and seams compared."
   },
@@ -236,7 +236,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The published standards do not crown one membrane: NRCA seam guidance and EPA reflectance data favor TPO on confirmed cooling-load roofs, while InterNACHI longevity and EPDM's inert-rubber durability favor ponding, chemical, and budget roofs. Across both, positive drainage and installation quality decide the real service life.",
-    "ctaHeading": "Match the Right Membrane to Your Essex County Roof",
+    "ctaHeading": "Match the Right Membrane to Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, that installs both TPO and EPDM single-ply membranes with a manufacturer material warranty plus its own written workmanship warranty. Reach out for a free written [commercial roofing](/commercial-roofing) estimate.",
     "metaDescription": "What NJ roofers recommend for TPO vs EPDM: standards favor TPO on cooling-load roofs, EPDM on ponding, chemical, and budget flat roofs."
   },
@@ -249,7 +249,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice turns on three questions in sequence: whether the existing framing carries tile's dead load, what each material costs across its service life, and how New Jersey code and winters treat the two.",
     "sections": [
       {
-        "heading": "Roof Weight Decides: Metal Recovers Most Essex County Decks, Tile Demands Framing Checks",
+        "heading": "Roof Weight Decides: Metal Recovers Most Essex County, NJ Decks, Tile Demands Framing Checks",
         "body": [
           "**Roof weight** decides the install path because metal panels recover most Essex County decks as a lightweight covering, while tile adds substantial dead load that demands confirmed framing capacity before installation, per Tile Roofing Industry Alliance guidance.",
           "**Metal roofing** panels — standing-seam sheets and metal shingles — fasten to the existing sheathing as a lightweight covering, so older Newark homes avoid rafter and truss upgrades, per the Metal Construction Association. Clay and concrete tile, by contrast, load the rafters, ridge beams, and trusses, the load-bearing members the NJ Uniform Construction Code treats as structural work.",
@@ -275,7 +275,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Metal roofing wins for most Essex County re-roofs because lightweight panels recover the deck without framing upgrades and stay inside the permit exemption. Tile wins only where the framing already carries tile dead load and a Mediterranean profile defines the home, since clay reaches 75 to 100-plus years per the Tile Roofing Industry Alliance. The deciding factor is confirmed structural capacity, not the covering's headline lifespan.",
-    "ctaHeading": "Compare Metal and Tile for Your Essex County Roof",
+    "ctaHeading": "Compare Metal and Tile for Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that inspects your deck, confirms structural capacity, and documents the permit path before recommending metal or tile.",
     "metaDescription": "Metal vs tile roofing in NJ: metal recovers a deck light; tile lasts longer but needs confirmed structural capacity. Weight, cost, lifespan and code compared."
   },
@@ -313,7 +313,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The named standards converge on metal for most Essex County re-roofs because it recovers a deck light and repairs panel by panel, and they reserve tile for homes where confirmed framing capacity and a Mediterranean profile both hold. The deciding evidence is structural load, the membrane-driven service interval, and New Jersey freeze-thaw exposure.",
-    "ctaHeading": "Get a Standards-Grounded Recommendation in Essex County",
+    "ctaHeading": "Get a Standards-Grounded Recommendation in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We inspect the existing deck and confirm structural capacity before recommending metal or tile, and back the work with a manufacturer material warranty plus our written workmanship warranty. Reach out for a free written [estimate](/roof-replacement-in-newark-nj).",
     "metaDescription": "What NJ roofers recommend for metal vs tile roofing: standards favor lightweight metal recovery; tile only where framing capacity and profile justify it."
   },
@@ -342,7 +342,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Ownership Horizon, Budget, and Historic District Decide Slate vs Asphalt in Essex County",
+        "heading": "Ownership Horizon, Budget, and Historic District Decide Slate vs Asphalt in Essex County, NJ",
         "body": [
           "**The deciding factors** are the ownership horizon, the budget, and whether the home sits in a designated historic district, because one slate installation spans the period across which asphalt is replaced three to four times, per the InterNACHI chart. The lifespans set the frame: asphalt lasts 20 to 30 years and natural slate 60 to 150, with the National Slate Association rating ASTM S-1 slate at a 75-year minimum.",
           "**The ownership horizon and budget** favor asphalt shingles when the plan runs under 15 years or the budget caps near the $10,000 to $11,000 national asphalt-replacement benchmark, since asphalt installs at $5.50 to $11.00 per square foot. Within asphalt, 3-tab lasts about 20 years and architectural about 30 years per the InterNACHI chart, and the NRCA notes actual asphalt life varies up to 40% with climate, installation, and maintenance. Architectural asphalt replicates slate's layered, dimensional profile, installs at $6.50 to $11.00 per square foot, and offers the slate look at one-third to one-half natural slate's $10 to $30 per-square-foot cost.",
@@ -351,7 +351,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Asphalt shingles fit a budget-conscious or near-term-sale home, installing at one-third to one-half slate's per-square-foot cost, while natural slate fits a historic or slate-clad home as a multi-generational roof lasting 60 to 150 years per the InterNACHI chart. The ownership horizon, the budget, and any historic-district obligation under Standard 6 settle the choice.",
-    "ctaHeading": "Compare Asphalt and Slate for Your Essex County Home",
+    "ctaHeading": "Compare Asphalt and Slate for Your Essex County, NJ Home",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, installing both asphalt and natural slate. Reach out for a free written estimate that reviews your structural load, historic-district status, and a clear material recommendation.",
     "metaDescription": "Asphalt vs slate roofing in NJ: asphalt costs $5.50-$11/sq ft and lasts 20-30 years; slate lasts 60-150 years. Ownership horizon and historic district decide."
   },
@@ -390,7 +390,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The standards back natural slate for historic homes and multi-generational service and quality architectural asphalt for budget or short-horizon homes, with the deciding detail being non-ferrous fasteners and flashing on slate and an eave ice-and-water shield on asphalt. The flagged mistakes are an asphalt swap on a historic slate roof and a skipped structural-load review before slate.",
-    "ctaHeading": "Match the Right Roof to Your Essex County Home",
+    "ctaHeading": "Match the Right Roof to Your Essex County, NJ Home",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured, installing both architectural asphalt and natural slate across Essex County. We review the structural load before specifying slate and coordinate any required Certificate of Appropriateness in a historic district. Request a free written estimate for your [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "What NJ roofers recommend for asphalt vs slate: standards favor in-kind slate on historic homes and 60-150 year life, architectural asphalt for budget homes."
   },
@@ -420,7 +420,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Cedar Suits an Essex County Home Only for Historic Character and Accepted Upkeep",
+        "heading": "Cedar Suits an Essex County, NJ Home Only for Historic Character and Accepted Upkeep",
         "body": [
           "**Cedar wood shake** makes sense over asphalt for an Essex County home only when historic character is the goal and the owner accepts the upkeep: periodic cleaning, the every-few-years fungicide/algaecide treatment, and the CSSB ventilation detail.",
           "**The upkeep commitment** is the gating question, not the install budget alone. Cedar carries no fire class until pressure-impregnated fire-retardant treatment brings it to Class B or C under the CSSB Certi-Guard program, and NJ carriers weigh that untreated fire class where asphalt's standard Class A draws no such scrutiny, per NAHB and the CSSB. An owner who skips the treatment and ventilation detail inherits both the degradation modes and the insurance friction.",
@@ -430,7 +430,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Asphalt shingles answer most Essex County roofs on cost, low maintenance, and a standard Class A fire rating, while cedar wood shake answers historic character for owners who commit to its upkeep. The deciding factor is the maintenance schedule: meet cedar's cleaning, treatment, and ventilation detail and it lasts; skip it and asphalt is the stronger value.",
-    "ctaHeading": "Compare Wood Shake and Asphalt in Essex County",
+    "ctaHeading": "Compare Wood Shake and Asphalt in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, and installs both cedar wood shake and asphalt shingles plus synthetic-shake and architectural alternatives across Essex County. Reach out for a free written estimate on your [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Wood shake vs asphalt shingles in NJ: asphalt wins on cost, low maintenance, and Class A fire rating; cedar fits historic character with upkeep."
   },
@@ -468,7 +468,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The fire standards (UL 790 / ASTM E108) favor asphalt's Class A over untreated cedar's nonclassified rating, the lifespan figures (CSSB, InterNACHI, NRCA) favor cedar only when its maintenance schedule is met, and the NJ cost data favors asphalt. Cedar earns the call where historic character justifies the CSSB ventilation detail and the every-few-years treatment; otherwise asphalt or a synthetic-shake alternative serves Essex County homes better.",
-    "ctaHeading": "Get a Sourced Recommendation for Your Essex County Roof",
+    "ctaHeading": "Get a Sourced Recommendation for Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured, and installs both cedar wood shake and asphalt shingles plus synthetic-shake and architectural alternatives across Essex County. Request a free written estimate and a recommendation grounded in the standards, with a two-part warranty covering the manufacturer material warranty plus our own written workmanship warranty. See options on the [roof replacement](/roof-replacement-in-newark-nj) page.",
     "metaDescription": "What NJ roofers recommend for wood shake vs asphalt shingles: UL 790, CSSB, InterNACHI, and NRCA favor architectural asphalt; cedar fits historic upkeep."
   },
@@ -481,7 +481,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Because both single-ply membranes install at the same price and weld the same way, the deciding factor is the rooftop exposure and the service life each one buys.",
     "sections": [
       {
-        "heading": "PVC and TPO Tie on Install Price in Essex County, So Service Life Decides Value",
+        "heading": "PVC and TPO Tie on Install Price in Essex County, NJ, So Service Life Decides Value",
         "body": [
           "**PVC membrane and TPO membrane** both install at roughly $8-$12 per square foot in Essex County, per Josten Roofing, so the install price ties and the service life decides the value. There is no PVC install premium on the same flat roof.",
           "**Install cost** runs near $8-$12 per square foot for either thermoplastic on an Essex County flat roof, per Josten Roofing, because both seal at the seam by hot-air heat-welding and carry the same white reflective surface. The seam method does not separate them on price, so a comparison that prices PVC well above TPO misreads the New Jersey market.",
@@ -508,7 +508,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "PVC and TPO tie on install price near $8-$12 per square foot and match on white reflectance, so the choice comes down to two facts: the rooftop chemical exposure and the service life. A roof with grease or solvent exhaust calls for PVC and its 20-30-year span, while a clean office, retail, or warehouse roof takes TPO at the same price and its 7-20-year span.",
-    "ctaHeading": "Match the Right Membrane to Your Essex County Flat Roof",
+    "ctaHeading": "Match the Right Membrane to Your Essex County, NJ Flat Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, installing both PVC and TPO single-ply membranes. Reach out for a free written estimate that matches the membrane to your building's rooftop exposure, with a manufacturer material warranty and a separate written workmanship warranty. See the full [PVC vs TPO comparison](/pvc-vs-tpo-roofing).",
     "metaDescription": "PVC vs TPO roofing: both install at $8-$12/sq ft, but PVC resists grease and lasts 20-30 years while TPO suits clean roofs at 7-20 years."
   },
@@ -549,7 +549,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The standards split by exposure: PVC for grease- or chemical-exposed roofs at a 20-30-year service life per the Single Ply Roofing Industry, TPO for clean office, retail, and warehouse roofs at a comparable installed price. Heat-welded seam integrity and a separate written workmanship warranty decide how long either membrane lasts.",
-    "ctaHeading": "Match the Membrane to Your Essex County Roof",
+    "ctaHeading": "Match the Membrane to Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We install both PVC and TPO single-ply membranes and match the system to your roof's actual exposure. Request a free written estimate for your [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "What NJ roofers recommend for PVC vs TPO: PVC for grease- or chemical-exposed roofs (20-30 yr), TPO for clean office, retail, and warehouse roofs."
   },
@@ -578,7 +578,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Standing Seam for Essex County Homes, Corrugated for Garages and Barns",
+        "heading": "Standing Seam for Essex County, NJ Homes, Corrugated for Garages and Barns",
         "body": [
           "**Standing seam** suits the Essex County home and the client-facing commercial roof, where its concealed-clip field delivers the leak-resistant, low-maintenance metal roof a residence needs across a 40-70-year service life per This Old House. Corrugated fits a detached garage, barn, or warehouse rather than the primary dwelling.",
           "**Corrugated metal** roofs more square footage per dollar at the lower end of the NJ $9-$16+ range Josten Roofing reports, so it fits an Essex County warehouse or agricultural structure that accepts a periodic re-fastening cycle as gaskets degrade. Standing seam requires minimal recurring maintenance because it carries no exposed fasteners, while corrugated needs periodic re-fastening as its gaskets degrade.",
@@ -587,7 +587,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Standing seam earns its upper-end place in the NJ $9-$16+ metal range with a 40-70-year leak-resistant service life per This Old House, fitting homes and client-facing commercial roofs, while corrugated stays the economical track for budget-governed warehouse and agricultural structures that accept a periodic re-fastening cycle. The building, not the sticker price, settles the choice.",
-    "ctaHeading": "Match the Right Metal Roof to Your Essex County Property",
+    "ctaHeading": "Match the Right Metal Roof to Your Essex County, NJ Property",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, installing both standing seam and corrugated metal. Reach out for a free written estimate that matches the metal profile to your building and documents the manufacturer material warranty plus a written workmanship warranty.",
     "metaDescription": "Standing seam vs corrugated metal: standing seam lasts 40-70 years leak-free per This Old House; corrugated wins only on lower NJ install cost."
   },
@@ -628,7 +628,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Standing seam carries the standards-backed edge for homes and long-service roofs through concealed fasteners that leak less per NRCA-attributed guidance and a 40-70-year life per This Old House, while corrugated metal earns its place on budget-governed warehouse and agricultural roofs at the lower end of the Josten Roofing cost range. Matching the fastener profile to the building, and maintaining corrugated's gaskets, decides how long either roof lasts.",
-    "ctaHeading": "Match the Right Metal Roof to Your Essex County Property",
+    "ctaHeading": "Match the Right Metal Roof to Your Essex County, NJ Property",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, and installs both standing seam and corrugated metal. Reach out for a free written estimate that matches the profile to your building and documents the honest two-part warranty: the manufacturer's material warranty plus our written workmanship warranty.",
     "metaDescription": "NJ roofers favor standing seam over corrugated metal: concealed fasteners leak less (NRCA) and last 40-70 years (This Old House) versus 30-50."
   },
@@ -641,7 +641,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The deciding factor is how the roof gets used and where the budget leads, so the choice turns on install and repair cost, Newark's climate fit, and the traffic the deck carries.",
     "sections": [
       {
-        "heading": "TPO and Modified Bitumen Installed Costs on an Essex County Flat Roof",
+        "heading": "TPO and Modified Bitumen Installed Costs on an Essex County, NJ Flat Roof",
         "body": [
           "**TPO** installs at $8.00–$12.00 per NJ square foot, per Josten Roofing, while **modified bitumen** falls inside the broader flat-roof bracket of $2.50–$10.00 per square foot, per HomeGuide, so no per-foot head-to-head winner holds without a sourced standalone modified-bitumen figure. Modified bitumen is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet, styrene-butadiene-styrene or atactic polypropylene, over 2–3 reinforced base plies, while TPO is a single-ply thermoplastic-polyolefin membrane heat-welded at the seams.",
           "**TPO** at $8.00–$12.00 per NJ square foot sits in the same low-slope band as EPDM at $7.00–$10.00 and PVC at $6–$12, per Josten Roofing, because NJ flat-roof pricing runs roughly 10–40% above national averages on higher labor and stricter code, per Josten Roofing. The membranes also install by different methods: modified bitumen goes down torch-applied or by cold-adhesive, where the cold-adhesive method uses no open flame and costs slightly more than torch-applied, while TPO joins by hot-air heat-welded seams with no flame, per NRCA.",
@@ -649,7 +649,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "TPO's Reflective White Surface Fits a Cooling-Driven Newark Roof",
+        "heading": "TPO's Reflective White Surface Fits a Cooling-Driven Newark, NJ Roof",
         "body": [
           "**TPO** fits a cooling-driven roof through reflectance: its white surface carries roughly 0.70–0.85 initial solar reflectance and roughly 0.80–0.90 thermal emittance per ASTM C1549, CRRC-listed, while modified bitumen's dark granule cap absorbs solar load, per CRRC.",
           "**TPO reflectance** reduces peak summer cooling demand 11–27% in air-conditioned buildings, per the EPA, and keeps the roof surface over 50 degrees F below a conventional roof on a sunny afternoon, per the DOE, though Newark's heating-dominated IRC Climate Zone 4A–5 carries a winter heating offset that narrows the net annual benefit, per the DOE and EPA. Roof reflective performance is rated by reflectance and emittance, not R-value, per CRRC, and NJ adopted the 2021 IECC for ceiling insulation (R-60, Zones 4–5) but sets no cool-roof reflectance mandate for low-slope residential, per the DOE, EPA, and NJ DCA energy subcode.",
@@ -667,7 +667,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Modified bitumen earns the equipment-heavy, high-traffic flat roof on its 20-year InterNACHI rating and multi-ply puncture redundancy, while white TPO earns the cooling-driven, low-traffic roof on CRRC reflectance and the lower NJ install cost. The deciding factor is how the roof gets used, weighed against Newark's heating-offset climate and the NJ code path for the building type.",
-    "ctaHeading": "Spec Your Essex County Flat Roof",
+    "ctaHeading": "Spec Your Essex County, NJ Flat Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured, installing both modified bitumen and TPO on Essex County low-slope and flat roofs. Reach out for a free written estimate that documents the membrane, the cost, and the NJ code path for your building.",
     "metaDescription": "Modified bitumen vs TPO for NJ flat roofs: modified bitumen rates 20 years and resists foot traffic; white TPO reflects heat and installs at $8-12/sq ft."
   },
@@ -705,7 +705,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "No single membrane wins outright: NRCA traffic and puncture data favor modified bitumen on equipment-heavy roofs, CRRC reflectance and EPA cooling data favor white TPO on low-traffic roofs, and seam quality plus positive drainage decide service life on either system in Newark's Climate Zone 4A-5.",
-    "ctaHeading": "Get a Standards-Grounded Flat-Roof Recommendation in Essex County",
+    "ctaHeading": "Get a Standards-Grounded Flat-Roof Recommendation in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, that installs both modified bitumen and TPO on low-slope and flat roofs. Reach out for a free written estimate that matches the membrane to your roof's traffic, drainage, and cooling profile, backed by a manufacturer material warranty plus our own written workmanship warranty. See our [roof replacement](/roof-replacement-in-newark-nj) options.",
     "metaDescription": "What NJ roofers recommend for modified bitumen vs TPO: NRCA favors multi-ply bitumen for foot traffic; CRRC favors white TPO for cooling-load reflectance."
   },
@@ -743,7 +743,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "EPDM rubber roofing leads on charted lifespan and welder-free seam repair, while TPO leads on reflective cool-roof cooling-load reduction; both meet the NJ UCC ordinary-maintenance standard identically on a detached 1- or 2-family flat roof. The decision rests on whether longevity and easy repair or summer cooling load governs the specific Essex County roof.",
-    "ctaHeading": "Compare EPDM and TPO for Your Essex County Flat Roof",
+    "ctaHeading": "Compare EPDM and TPO for Your Essex County, NJ Flat Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor under N.J.S.A. 56:8-136, insured and serving Essex County. Reach out for a free written estimate on either an EPDM or TPO flat-roof system, matched to your building's lifespan, repair, and cooling priorities.",
     "metaDescription": "EPDM rubber roofing vs TPO for NJ flat roofs: EPDM lasts 15-25 years, TPO 7-20 with a reflective white surface. NJ cost, code, and cooling compared."
   },
@@ -781,7 +781,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The standards-grounded recommendation reads EPDM rubber roofing ahead on charted lifespan and welder-free repair and TPO ahead on reflective cooling load, with the deciding factor set by the building rather than a default. Matching the membrane to the flat roof's longevity, repair, and cooling priorities, and scoping the NJ UCC permit threshold honestly, decides the better single-ply system.",
-    "ctaHeading": "Match the Right Membrane to Your Essex County Flat Roof",
+    "ctaHeading": "Match the Right Membrane to Your Essex County, NJ Flat Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured, installing and repairing both EPDM and TPO single-ply membranes across Essex County. Reach out for a free written estimate that matches the membrane to your flat roof's longevity, repair, and cooling priorities, backed by a two-part warranty — the manufacturer's material warranty plus our written workmanship warranty. Compare options on our [roof replacement](/roof-replacement-in-newark-nj) page.",
     "metaDescription": "What NJ roofers recommend for rubber roofing vs TPO: EPDM leads on 15-25 year lifespan and welder-free repair; TPO on ~0.70-0.85 reflectance for cooling."
   },
@@ -821,7 +821,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The decision comes down to fit, not a single winner: cedar shakes for a thick, textured 20-40-year plane on a handcrafted facade, wood shingles for a flat, formal 30-50-year roofline, both per the Cedar Shake & Shingle Bureau. Maintenance, install cost, and the NJ code path are the same for either.",
-    "ctaHeading": "Plan Your Cedar Roof in Essex County",
+    "ctaHeading": "Plan Your Cedar Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, installing both cedar shake and wood shingle roofs to Cedar Shake & Shingle Bureau and NPS Preservation Brief 19 standards. Reach out for a free written estimate and a [roof replacement](/roof-replacement-in-newark-nj) plan, including any historic-district Certificate of Appropriateness.",
     "metaDescription": "Cedar shake vs wood shingle for NJ homes: shakes split and 20-40 yr, shingles sawn and 30-50 yr per the CSSB. NJ cost, maintenance, and code compared."
   },
@@ -850,7 +850,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "The Homeowner Mistakes That Shorten a Cedar Roof in Essex County",
+        "heading": "The Homeowner Mistakes That Shorten a Cedar Roof in Essex County, NJ",
         "body": [
           "**The common mistakes** that shorten a cedar roof are copper fasteners, skipping the fungicide-algaecide cycle, ignoring north-facing moss and algae, and assuming untreated cedar carries a fire rating. Each runs against the CSSB and NPS Preservation Brief 19 guidance that sets the roof's rated life.",
           "**Skipping the fungicide-algaecide cycle** forfeits the maintenance that holds the rated life: periodic treatment at $0.15-$0.60 per square foot every few years, per HomeGuide, plus prompt replacement of cupped or split units. On north-facing, shaded Essex County slopes, both products accumulate moss and algae as prolonged moisture drives biological growth, per the InterNACHI chart and NPS Preservation Brief 19, so the shaded plane is where deferred maintenance costs the most service life. A UV-inhibiting preservative reapplied with that cycle also slows the silver-gray weathering as UV degrades the untreated surface, per HomeGuide.",
@@ -897,7 +897,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Built-up roofing wins on service life with a 30-year multi-ply membrane, while modified bitumen wins over occupied buildings with a kettle-free install and polymer flexibility through NJ freeze-thaw. Both carry the same NJ repair range and the same 25-to-30-percent replacement threshold, so the building's occupancy and the owner's service-life target decide the membrane.",
-    "ctaHeading": "Compare Flat-Roof Options in Essex County",
+    "ctaHeading": "Compare Flat-Roof Options in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, installing both built-up roofing and modified-bitumen low-slope systems. Reach out for a free written estimate that scopes the work to NJ code and pairs the manufacturer's material warranty with our written workmanship warranty.",
     "metaDescription": "BUR vs modified bitumen for NJ flat roofs: BUR lasts 30 years, modified bitumen 20 and installs kettle-free. When each wins on cost, code, and cold flex."
   },
@@ -974,7 +974,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Spray foam wins where a height-restricted deck needs built-in R-6.0–6.5-per-inch insulation in minimal thickness, and TPO wins where lower maintenance and year-round install lead, per the SPFA, ICC-ES, and NRCA. Insulation need against upkeep tolerance — read against the installed-cost gap and the NJ UCC permit trigger — settles the SPF-versus-TPO decision.",
-    "ctaHeading": "Compare SPF and TPO for Your Essex County Flat Roof",
+    "ctaHeading": "Compare SPF and TPO for Your Essex County, NJ Flat Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that weighs deck condition, height limits, drainage, and insulation need to determine whether spray foam or [TPO](/roof-replacement-in-newark-nj) delivers better value.",
     "metaDescription": "Spray foam vs TPO for NJ flat roofs: SPF adds R-6.0–6.5/inch at $4–$8/sq ft; TPO runs $8–$12 over polyiso at lower upkeep. Cost, NJ code, and a checklist."
   },
@@ -1003,7 +1003,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Common Essex County Mistakes: Lapsed Recoating, Ponding, and TPO Seam Wear",
+        "heading": "Common Essex County, NJ Mistakes: Lapsed Recoating, Ponding, and TPO Seam Wear",
         "body": [
           "**The common mistakes** the standards flag on an Essex County flat roof are lapsed SPF recoating, ponding water, and unaddressed TPO seam wear — each leaves a UV-sensitive surface or a failing weld exposed, per the SPFA and NRCA.",
           "**Lapsed SPF recoating** undoes the system, because the SPFA's 10–20-year recoat cycle exists to keep the UV-sensitive foam protected; once the coating thins, the foam degrades, and **ponding water** compounds it by eroding the coating where the NRCA-required positive drainage is missing, per the SPFA and NRCA. The drainage requirement is not optional maintenance — NRCA guidance ties it directly to the blistering and coating erosion that shorten an SPF roof's life.",
@@ -1050,7 +1050,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A green roof wins where structural capacity and a stormwater mandate justify the premium, retaining ~50-60% of rainfall and earning NJ runoff-quantity credit, while traditional membrane roofing wins on a far lighter assembly and a $5-$10 per square foot cost. Structural load, verified by a NJ professional engineer under IBC 1607.12.3, is the gate the whole decision passes through.",
-    "ctaHeading": "Plan Your Low-Slope Roof in Essex County",
+    "ctaHeading": "Plan Your Low-Slope Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We handle the waterproofing membrane, root barrier, drainage, and leak-detection layer and coordinate the NJ professional-engineer load sign-off. Reach out for a free written estimate on a [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Green roof vs traditional roofing in NJ: a green roof earns stormwater credit but costs $10-$35/sq ft; membrane wins on cost and weight, $5-$10/sq ft."
   },
@@ -1079,7 +1079,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Essex County Mistakes: Underestimated Load, Retention Myths, Overlooked Rules",
+        "heading": "Essex County, NJ Mistakes: Underestimated Load, Retention Myths, Overlooked Rules",
         "body": [
           "**The common mistakes** are underestimating saturated dead load, assuming retention near 100%, and overlooking the fire-break and deed-notice rules a green roof triggers. GSA measured 20.06 lb/sq ft for a 3-inch extensive system and 42.23 lb/sq ft for a 6-inch semi-intensive system under ASTM E2397.",
           "**Saturated dead load** is the figure owners most often miss: an intensive green roof's 80-150 lb/sq ft often rules out a retrofit, while an existing Essex County deck carries a re-cover membrane without reinforcement, per the NJ Stormwater BMP Manual and Delaware DNREC planning ranges. **Retention near 100%** is the second error, since an extensive sedum roof retains ~50-60% of annual rainfall and an intensive roof ~65-85%, not all of it, per EPA and Penn State research. A green roof cuts peak runoff up to 65% and delays off-site flow up to about 3 hours rather than eliminating it, per the GSA study, so owners who plan around full retention over-size the credit the roof actually earns.",
@@ -1088,7 +1088,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The standards reward a green roof where a stormwater mandate, a sign-off-verified deck, and a documented leak-detection plan all line up; on a cost-driven Essex County building, NJ engineering data, ASTM E2397 dead loads, and InterNACHI life figures point to a traditional EPDM, TPO, modified bitumen, or BUR membrane.",
-    "ctaHeading": "Weigh Your Roof Options in Essex County",
+    "ctaHeading": "Weigh Your Roof Options in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We handle the waterproofing membrane, root barrier, drainage, and leak-detection layer, and coordinate the required NJ professional-engineer load sign-off. Reach out for a free written estimate and a two-part warranty: the manufacturer's material warranty plus our written workmanship warranty on the [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "NJ roofers favor a green roof only where structural capacity and a stormwater mandate justify its cost; otherwise traditional membrane roofing wins on cost."
   },
@@ -1196,7 +1196,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "The Repair-or-Replace Checklist for an Essex County Home",
+        "heading": "The Repair-or-Replace Checklist for an Essex County, NJ Home",
         "body": [
           "**The repair-or-replace checklist** weighs roof age, damage extent, and deck condition against two NJ-specific factors: the Uniform Construction Code permit thresholds and how insurance treats roof age, per N.J.A.C. 5:23-2.7 and NAIC depreciation practice.",
           "**The NJ Uniform Construction Code** treats repair or total replacement of the roof covering on a detached 1- or 2-family dwelling as ordinary maintenance — no permit, inspection, or notice — per N.J.A.C. 5:23-2.7 and the NJ DCA's 2018 alert, while structural work or work exceeding 25% of roof area in 12 months on commercial or attached buildings requires a permit, per N.J.A.C. 5:23-2.7(b) and 5:23-2.7(c). The code caps a roof at two layers, so a two-layer roof forces a full tear-off, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1.",
@@ -1206,7 +1206,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Roof repair stays the economical call on a sound deck under 15 years old with damage under 25-30% of the area, and roof replacement takes over past 20 years, beyond 25-30% damage, or once one repair tops 50% of replacement cost. A written inspection of roof age, damage extent, and deck condition, read against NJ permit and insurance rules, settles the question on an Essex County home.",
-    "ctaHeading": "Get a Free Repair-or-Replace Inspection in Essex County",
+    "ctaHeading": "Get a Free Repair-or-Replace Inspection in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate and a documented inspection of your roof age, damage extent, and deck condition that recommends [roof repair](/roof-repair-in-newark-nj) or replacement on the evidence.",
     "metaDescription": "Roof repair vs replacement in NJ: repair $360-$1,550, replacement $10,000-$25,000. Age, 25-30% damage, and the 50% rule decide, plus NJ permit and insurance."
   },
@@ -1244,7 +1244,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The standards point one way: repair a sound roof under 15 years with localized damage, and replace once the roof passes 20 years, damage crosses 25-30% of the area, or one repair tops 50% of replacement cost. A written inspection of deck, underlayment, and damage extent against the InterNACHI lifespan and the WeatherShield rules converts the question into a defensible scope, and the NJ insurance rules keep claim negotiation with a licensed public adjuster or attorney.",
-    "ctaHeading": "Get a Written Repair-or-Replace Inspection in Essex County",
+    "ctaHeading": "Get a Written Repair-or-Replace Inspection in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written inspection and estimate that photographs the damage, assesses roof age, damage extent, and deck condition, and recommends repair or [roof replacement](/roof-replacement-in-newark-nj) against the contractor-consensus rules.",
     "metaDescription": "What NJ roofers recommend for roof repair vs replacement: repair under 15 years with localized damage, replace past 20 years or over 25-30% damage."
   },
@@ -1283,7 +1283,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Roof coating renews a sound, dry, drained flat roof for $1,500–$7,000 per CPS Construction and recoats at the end of its cycle, while roof replacement at $7.00–$12.00 per NJ sq ft per Josten Roofing rebuilds a roof with active leaks, wet insulation, or more than 25–30% membrane damage per Parish and Modernize. An infrared moisture survey under ASTM C1153 settles which path a given flat roof takes.",
-    "ctaHeading": "Get a Free Flat-Roof Evaluation in Essex County",
+    "ctaHeading": "Get a Free Flat-Roof Evaluation in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate and a [flat-roof evaluation](/roof-replacement-in-newark-nj) that tests the four coating-eligibility conditions before recommending coating or replacement.",
     "metaDescription": "Roof coating vs replacement for NJ flat roofs: coating renews a sound, dry, drained membrane for $1,500–$7,000; replacement rebuilds a damaged roof."
   },
@@ -1345,7 +1345,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "An Essex County Overlay Requires One Layer and a Sound Deck Under NJ Code",
+        "heading": "An Essex County, NJ Overlay Requires One Layer and a Sound Deck Under NJ Code",
         "body": [
           "**An Essex County home** qualifies for an overlay only where the deck is sound and one shingle layer exists, because N.J.A.C. 5:23-6.4 caps a roof at two layers and bars any recover over a deteriorated deck.",
           "**The NJ Rehabilitation Subcode** also bars an overlay over wood shake, slate, clay, cement, or asbestos-cement tile, so those coverings route straight to a tear-off, per N.J.A.C. 5:23-6.4. The NJ Uniform Construction Code treats a full re-roof of a detached 1- or 2-family dwelling, overlay or tear-off, as ordinary maintenance with no construction permit, per N.J.A.C. 5:23-2.7. That permit exemption is a common point of confusion: it does not authorize a non-compliant recover over a deteriorated deck or a third layer, because the two-layer cap and sound-deck rule of N.J.A.C. 5:23-6.4 still bind whether or not a permit is pulled.",
@@ -1404,7 +1404,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The evidence aligns across the trade and the code: ARMA bars overlays over unsound decks, IRC R905.1.2 ties ice-and-water protection to a bare deck, and manufacturers condition full warranty on installation to printed instructions. A tear-off resets the roof to a single sound layer, repairs the deck, and reaches full rated life, while an overlay's national cost saving holds only where one sound layer and a sound deck exist.",
-    "ctaHeading": "Get a Code-Grounded Re-Roof Assessment in Essex County",
+    "ctaHeading": "Get a Code-Grounded Re-Roof Assessment in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that inspects your deck and existing layer to determine whether an overlay is code-compliant or a [roof replacement](/roof-replacement-in-newark-nj) tear-off is the sounder path.",
     "metaDescription": "What NJ roofers favor for roof overlay vs tear-off: ARMA, IRC R908, and manufacturer warranty rules point to a tear-off over an unsound deck."
   },
@@ -1444,7 +1444,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Patching wins on cost when damage is a single contained event on a sound roof at $150-$500 (HomeAdvisor), and comprehensive repair wins on lasting results when a leak recurs or its source is unclear, since flashing carries roughly 90-95% of leaks (NRCA estimate) a patch cannot see. A free written inspection of the surrounding area, not the visible drip point, makes the determination.",
-    "ctaHeading": "Find Out Whether Your Essex County Roof Needs a Patch or a Repair",
+    "ctaHeading": "Find Out Whether Your Essex County, NJ Roof Needs a Patch or a Repair",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, and serving Essex County. Schedule a free written inspection and estimate, and we provide both the patch and the comprehensive [roof repair](/roof-repair-in-newark-nj) quote so you decide.",
     "metaDescription": "Patching vs full roof repair: a patch runs $150-$500 for isolated damage; comprehensive repair $360-$1,550 finds the root cause. NJ cost, code, timing."
   },
@@ -1482,7 +1482,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Across the standards and trade data, comprehensive roof repair earns the recommendation when a leak recurs or its source is unclear, because flashing drives roughly 90-95% of leaks (NRCA estimate) and a patch over the shingle field misses the cause. Roof patching earns it only for genuinely isolated single-event damage on a sound roof, integrated with matching shingles, correct step flashing, and lapped underlayment.",
-    "ctaHeading": "Find Out Which Repair Your Essex County Roof Needs",
+    "ctaHeading": "Find Out Which Repair Your Essex County, NJ Roof Needs",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. A free written inspection determines whether your damage is genuinely isolated or systemic, and we provide both quotes so you decide. Schedule a free written estimate for [roof repair](/roof-repair-in-newark-nj).",
     "metaDescription": "What NJ roofers recommend for patching vs full roof repair: flashing drives 90-95% of leaks (NRCA), so comprehensive repair finds the cause a patch misses."
   },
@@ -1520,7 +1520,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Preventive maintenance wins on cost control and timing when an owner controls the schedule, catching a flashing or sealant defect for a few hundred dollars before it reaches the deck, per the NRCA. Emergency repair is the unavoidable fallback once a leak is active, carrying the 25%-50% after-hours premium plus $100-$300 labor, per Integrity Home Exteriors and HomeAdvisor. The deciding factor is whether the roof has failed yet.",
-    "ctaHeading": "Schedule a Roof Inspection in Essex County",
+    "ctaHeading": "Schedule a Roof Inspection in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, handling both scheduled maintenance and emergency stabilization. Reach out for a free written estimate and a documented inspection on the NRCA spring-and-fall cadence that pre-empts the after-hours premium, or [roof repair](/roof-repair-in-newark-nj) when a leak is already active.",
     "metaDescription": "Preventive roof maintenance vs emergency repair in NJ: inspection averages $249, emergencies cost 25-50% more. NRCA cadence, NJ code, and timing compared."
   },
@@ -1560,7 +1560,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The published evidence points one direction: the NRCA two-a-year-plus-post-storm cadence whole-system checks a roof, the Roofing Contractor 2009 research records 21 maintained years against 13 reactive ones, and the lapses that skip the fall visit or let maintenance slide convert a few-hundred-dollar scheduled fix into a premium-priced emergency.",
-    "ctaHeading": "Schedule Roof Maintenance in Essex County",
+    "ctaHeading": "Schedule Roof Maintenance in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, handling both the NRCA scheduled-inspection cadence and emergency stabilization. Reach out for a free written estimate or a documented inspection that supports your manufacturer warranty.",
     "metaDescription": "NJ roofers favor preventive maintenance: the NRCA prescribes 2 inspections a year plus post-storm, and research found maintained roofs lasted 21 vs 13 years."
   },
@@ -1589,7 +1589,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Ownership Horizon Decides the Right Material for an Essex County Home",
+        "heading": "Ownership Horizon Decides the Right Material for an Essex County, NJ Home",
         "body": [
           "**Ownership horizon** decides first, because it sets how far each material's cost spreads across its lifespan. Architectural asphalt fits color-and-budget-driven Essex County homes at a 30-year life, standing seam metal suits long-hold owners across 40-80 years, and natural slate at 60-150 years fits pre-1920 and 1930s-1940s historic homes, per Josten Roofing and the InterNACHI chart.",
           "**Roof slope** narrows the field next, because membranes serve flat roofs that shingles cannot — for NJ commercial flat roofs, TPO fits most buildings at $8.00-$12.00 per NJ square foot with heat-welded seams and a reflective white surface, and EPDM is the cold-flexible budget alternative at a 15-25-year life, per Josten Roofing and InterNACHI. A reflective metal or TPO finish stays over 50 degrees F cooler than a conventional roof on a sunny afternoon, per the U.S. Department of Energy.",
@@ -1598,7 +1598,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "No one material wins every Essex County roof: architectural asphalt earns its place on value, standing seam metal on long-hold durability and freeze-thaw resistance, natural slate on historic longevity, and TPO or EPDM on flat-roof fit. The horizon you plan to own the home, the roof's slope, and the NJ code path point to the material whose lifespan justifies its installed cost.",
-    "ctaHeading": "Match Your Roof to NJ Weather in Essex County",
+    "ctaHeading": "Match Your Roof to NJ Weather in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured and serving Essex County. Reach out for a free written estimate that weighs material durability against installed cost for your home's slope, ownership horizon, and NJ code path.",
     "metaDescription": "No single roofing material is best for NJ weather: metal lasts 40-80 years, asphalt 30, slate 60-150. Freeze-thaw, wind, snow, and NJ cost compared."
   },
@@ -1636,7 +1636,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The InterNACHI chart, ASCE 7-16 wind loads, NRCA expansion guidance, and IRC R905.1.2 converge on the same answer: standing seam metal and natural slate lead on durability, architectural asphalt leads on value, and TPO or EPDM lead on flat roofs. The deciding variables are ownership horizon, slope, and the N.J.A.C. 5:23 code path, which a written estimate documents before any material is ordered.",
-    "ctaHeading": "Match Your Roof to NJ Weather in Essex County",
+    "ctaHeading": "Match Your Roof to NJ Weather in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that weighs each material's InterNACHI lifespan against its installed cost, your ownership horizon, and your roof slope, backed by a two-part warranty pairing the manufacturer's material coverage with our written workmanship warranty.",
     "metaDescription": "What NJ roofers recommend for weather: standing seam metal and slate for durability, architectural asphalt for value, per the InterNACHI chart and ASCE 7-16."
   },
@@ -1676,7 +1676,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "No commercial roofing material is best for every building: TPO leads cooling-driven offices and retail, EPDM leads budget warehouses on lowest install cost, PVC leads grease-exposed restaurant roofs, and standing seam metal leads long-hold sloped properties. The deciding factor is which the building prioritizes — install cost, lifespan, ponding resistance, or summer cooling demand — weighed against NJ's 2021 IECC reflectance rules and the N.J.A.C. 5:23-2.7(c) permit threshold.",
-    "ctaHeading": "Match the Right Commercial Roof to Your Essex County Building",
+    "ctaHeading": "Match the Right Commercial Roof to Your Essex County, NJ Building",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured and serving Essex County. Reach out for a free written estimate that matches the membrane or metal system to your building's slope, use, and budget, backed by an honest two-part warranty: the manufacturer covers the membrane material and we provide a written workmanship warranty on the [commercial roofing](/commercial-roofing) installation.",
     "metaDescription": "Best commercial roofing material for NJ: TPO, EPDM, PVC, metal, and SPF compared by install cost, lifespan, NJ climate and code fit, and building use."
   },
@@ -1714,7 +1714,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The published standards point to white TPO for air-conditioned NJ buildings, EPDM for budget warehouses, PVC for grease-exposed roofs, and standing seam metal for long-hold sloped properties, each matched to use, slope, and budget. Slope to the NRCA 1/4-inch-per-foot minimum, heat-welded seams, and adequate insulation decide longevity more than the membrane brand.",
-    "ctaHeading": "Match Your Essex County Commercial Roof to the Standards",
+    "ctaHeading": "Match Your Essex County, NJ Commercial Roof to the Standards",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured, serving Essex County commercial buildings with a free written estimate. NQR matches the membrane or metal system to your building's use, slope, and budget and provides an honest two-part warranty: the manufacturer covers the membrane material and NQR provides a written workmanship warranty on the [commercial roofing](/commercial-roofing) installation.",
     "metaDescription": "What NJ roofers recommend for commercial roofing: white TPO for cooling, EPDM for budget, PVC for grease, metal for long-hold, per CRRC, EPA, and NRCA."
   },
@@ -1752,7 +1752,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Heat-welded TPO and PVC lead on seam strength and reflectance, EPDM leads on lower NJ install cost and cold-flexibility, and built-up roofing leads on InterNACHI service life, but positive drainage at the NRCA 1/4-inch-per-foot slope protects whichever membrane the building use and budget select. The deciding factor on a flat roof is drainage and seam detailing, not membrane brand.",
-    "ctaHeading": "Plan Your Flat Roof in Essex County",
+    "ctaHeading": "Plan Your Flat Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Newark and Essex County. Reach out for a free written estimate that matches a TPO, PVC, EPDM, modified bitumen, or built-up membrane to your building use, slope, and drainage, with a [flat roof](/flat-roof-installation-repair-in-newark-nj) specification you keep.",
     "metaDescription": "Best NJ flat roofing ranked: heat-welded TPO and PVC lead on seams and reflectance; EPDM leads on lower install cost and cold-flexibility. Drainage decides."
   },
@@ -1790,7 +1790,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The standards favor heat-welded TPO or PVC for cooled and grease-exposed buildings and EPDM for lower-cost cold-flexible sections, yet positive drainage at the NRCA 1/4-inch-per-foot slope, complete seams, and a sound deck under IRC R908 decide longevity more than the membrane brand. The mistakes that shorten flat-roof life in NJ all trace to slope, seam, or deck, not to the wrong material.",
-    "ctaHeading": "Get a Flat-Roof Recommendation for Your Essex County Building",
+    "ctaHeading": "Get a Flat-Roof Recommendation for Your Essex County, NJ Building",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, NJ. Reach out for a free written estimate that selects your flat-roof membrane by seam reliability, reflectance, ponding resistance, service life, and NJ install cost, backed by a manufacturer material warranty and our written workmanship warranty. See our [roof replacement](/roof-replacement-in-newark-nj) options.",
     "metaDescription": "What NJ roofers recommend for flat roofs: standards favor heat-welded TPO or PVC and EPDM, but drainage and seam detailing decide longevity."
   },
@@ -1829,7 +1829,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Natural slate and clay tile rank highest for NJ historic homes on in-kind authenticity and century-plus durability per the InterNACHI chart, with cedar shingle and copper matching specific period styles and synthetic slate the budget alternate where a commission allows it. The deciding factor is the home's era and whether the roof is character-defining, cleared against any local Certificate of Appropriateness under N.J.S.A. 40:55D-107.",
-    "ctaHeading": "Match Your Historic Roof in Essex County",
+    "ctaHeading": "Match Your Historic Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate on a period-appropriate slate, clay tile, cedar, or copper roof matched in kind and coordinated with your local Historic Preservation Commission for a [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Best roofing for NJ historic homes: slate, clay tile, cedar, and copper ranked by lifespan, cost, and in-kind matching under Standard 6 and local COA review."
   },
@@ -1867,7 +1867,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The named preservation standards point to one answer: match the historic roof in kind — slate, clay tile, cedar shingle, or copper to the home's era — with the non-corroding fastener each NPS Brief specifies, after clearing any local Certificate-of-Appropriateness review. The material and fastener follow the documented historic fabric, not a sales pitch.",
-    "ctaHeading": "Match Your Historic Essex County Roof in Kind",
+    "ctaHeading": "Match Your Historic Essex County, NJ Roof in Kind",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We install period-appropriate slate, clay tile, cedar shingle, and copper matched in kind to the Secretary of the Interior's Standards and coordinate with your local Historic Preservation Commission. Reach out for a free written estimate on [historic roof restoration](/historic-roof-restoration-in-newark-nj).",
     "metaDescription": "NJ roofers recommend in-kind historic roofing per the NPS Preservation Briefs: slate, clay tile, cedar shingle, or copper, matched to the home's era."
   },
@@ -1896,7 +1896,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "3-Tab Suits Short-Hold Essex County Budgets; Metal and Slate Suit Long Holds",
+        "heading": "3-Tab Suits Short-Hold Essex County, NJ Budgets; Metal and Slate Suit Long Holds",
         "body": [
           "**3-tab asphalt shingles** suit a short-hold, budget-led Essex County house at $5.50–$9.50 per square foot, while standing seam metal and natural slate suit long-hold owners on a 40–80- or 60–150-year life, per Josten Roofing and the InterNACHI chart.",
           "**3-tab asphalt shingles** fit a tight budget or a sale within the roof's 20-year life at the lowest entry cost, with architectural asphalt at $6.50–$11.00 per square foot extending life to 30 years for a modest step up and recouping roughly 61 percent of job cost at resale versus metal's roughly 49 percent, per Josten Roofing, the InterNACHI chart, and the Remodeling/Zonda 2023 Cost vs Value report. National roof replacement recoups 60 to 68 percent of cost at sale, per the Remodeling/Zonda report and Zillow analysis via Opendoor, which favors asphalt when a near-term sale leads the decision.",
@@ -1956,7 +1956,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Two separate levers decide a roof's energy performance in New Jersey — surface reflectance and conductive insulation — and which one matters more depends on roof slope and Newark's heating-dominated climate.",
     "sections": [
       {
-        "heading": "Insulation Cuts More Energy Than Reflectance in Newark's Climate Zone 4A-5",
+        "heading": "Insulation Cuts More Energy Than Reflectance in Newark, NJ's Climate Zone 4A-5",
         "body": [
           "**Insulation cuts more total annual energy in Newark** because the city sits in a heating-dominated mixed climate, Climate Zone 4A–5, where R-value governs winter heat loss, per the DOE and EPA. A reflective roof reduces peak summer cooling but carries an offsetting winter heating penalty in this zone.",
           "**Spray polyurethane foam (SPF)** is the only covering here that adds conductive insulation, an aged R-6.0 to R-6.5 per inch, per ICC-ES/ASTM C1289 LTTR listings and SPFA, applied as a seamless layer that also forms a continuous air barrier; the foam layer lasts 30-plus years when its protective coating stays maintained, per SPFA. That added R-value addresses the larger winter share of Newark's annual energy use.",
@@ -1981,7 +1981,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Spray polyurethane foam ranks first for total New Jersey energy performance as the one covering that adds R-value, while white TPO/PVC membranes and cool-roof asphalt shingles lead reflectance on their respective slopes, per SPFA and the CRRC. In Newark's heating-dominated Climate Zone 4A–5, the 2021 IECC R-60 ceiling insulation governs the larger annual share, so the energy choice starts with insulation and matches a CRRC-rated reflective surface to roof slope.",
-    "ctaHeading": "Match Your Roof to Newark's Climate",
+    "ctaHeading": "Match Your Roof to Newark, NJ's Climate",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor under N.J.S.A. 56:8-136, insured, and serving Essex County. We install both reflectance-lever coverings (white TPO/PVC, cool-roof asphalt shingles, reflective metal) and insulation-lever systems (spray foam, above-deck and attic insulation). Reach out for a free written estimate matched to your roof slope and Climate Zone 4A-5.",
     "metaDescription": "Most energy-efficient NJ roofing: spray foam adds R-6.0-6.5/inch insulation; white TPO/PVC reflects 0.70-0.85 per CRRC. Climate Zone 4A-5, R-60 code compared."
   },
@@ -2019,7 +2019,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The standards favor SPF for added R-value on low-slope roofs and white TPO/PVC for summer reflectance, but in Newark's heating-dominated Climate Zone 4A–5 the 2021 IECC R-60 ceiling insulation governs the larger annual share. The homeowner mistakes the standards flag — reflectance without insulation, dead ENERGY STAR labels, and a repealed federal cool-roof credit — each trace to the DOE, EPA, and IRS rather than any field claim.",
-    "ctaHeading": "Match the Covering to Newark's Climate",
+    "ctaHeading": "Match the Covering to Newark, NJ's Climate",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured and serving Essex County. We install reflectance-lever coverings and insulation-lever systems and match the choice to your roof slope and Climate Zone 4A–5. Reach out for a free written estimate on a [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "What NJ roofers recommend for energy-efficient roofing: SPF adds R-6.0-6.5/inch, white TPO/PVC reflects 0.70-0.85 (CRRC), and IECC R-60 insulation rules NJ."
   },
@@ -2040,7 +2040,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Architectural Shingles Meet Essex County's ASCE 7-16 Wind; 3-Tab Falls Short",
+        "heading": "Architectural Shingles Meet Essex County, NJ's ASCE 7-16 Wind; 3-Tab Falls Short",
         "body": [
           "**Architectural shingles** fit Essex County's wind exposure better than **3-tab shingles**, with a 110-130 mph wind warranty that meets the ~110-115 mph ASCE 7-16 design wind mapped for the county. Standard 3-tab warrants only about 60 mph, per ASCE 7-16 and manufacturer warranty language.",
           "**Architectural shingles** clear the IBC/IRC wind classification under ASTM D7158, whose Class F equivalent on the older ASTM D3161 fan test passes at 110 mph, per the NRCA's Professional Roofing standards explainer, so the 110-130 mph warranty leaves uplift margin against a northern-NJ nor'easter, while 3-tab's single self-sealing strip at ~60 mph leaves little. The added weight of architectural shingles, roughly 250-400+ lb per square versus 230-250 lb for 3-tab, per the InterNACHI inspection guide, also anchors the laminated shingle against uplift.",
@@ -2049,7 +2049,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Architectural for Owner-Occupied Homes, 3-Tab for Budget Projects in Essex County",
+        "heading": "Architectural for Owner-Occupied Homes, 3-Tab for Budget Projects in Essex County, NJ",
         "body": [
           "**Architectural shingles** make sense for owner-occupied Essex County houses, and **3-tab shingles** make sense for budget-driven projects — the deciding factor is whether long-term durability and northern-NJ wind class outrank lowest upfront price, per InterNACHI and Josten Roofing.",
           "**Architectural shingles** suit a permanent home because the 30-year life, the 110-130 mph wind warranty, and the UL 2218 Class 4 options match the building's wind and hail exposure, per the InterNACHI chart and manufacturer warranty language; laminated architectural shingles held roughly 57-58% of the asphalt-shingle market in 2024, per Mordor Intelligence. Many homeowners insurers offer a premium credit for a UL 2218 Class 4 roof, set carrier by carrier.",
@@ -2058,7 +2058,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Architectural shingles answer most Essex County roofs with a 30-year life, a 110-130 mph wind warranty that meets the ASCE 7-16 design wind, and UL 2218 Class 4 hail options, per InterNACHI, NRCA, and manufacturer warranty language. 3-tab remains the lowest-cost asphalt path at $5.50-$9.50 per NJ square foot for rentals and budget re-roofs, per Josten Roofing. The deciding factor is whether the building's use rewards durability or upfront price.",
-    "ctaHeading": "Match the Right Shingle Grade to Your Essex County Roof",
+    "ctaHeading": "Match the Right Shingle Grade to Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor (N.J.S.A. 56:8-136), insured, and serving Essex County. Reach out for a free written estimate that prices both grades against your roof's use, budget, and northern-NJ wind exposure, backed by a manufacturer material warranty plus our written workmanship warranty on [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Architectural vs 3-tab shingles for NJ homes: architectural lasts 30 years and warrants 110-130 mph wind; 3-tab installs cheaper. Cost and wind compared."
   },
@@ -2096,7 +2096,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The wind, impact, and lifespan standards converge on architectural shingles for permanent Essex County homes, while 3-tab remains the right lowest-cost call for rentals, budget jobs, and code-minimum re-roofs. The deciding factor is matching the shingle grade to the building's use, budget, and the ~110-115 mph ASCE 7-16 design wind mapped for the county.",
-    "ctaHeading": "Match Your Shingle to Your Essex County Roof",
+    "ctaHeading": "Match Your Shingle to Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that matches architectural or 3-tab shingles to your building's use, budget, and wind exposure, backed by a manufacturer material warranty and our written workmanship warranty.",
     "metaDescription": "What NJ roofers recommend for architectural vs 3-tab shingles: the ASCE 7-16 wind, UL 2218 impact, and InterNACHI lifespan standards favor architectural."
   },
@@ -2134,7 +2134,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The deciding line is whether the work leaves the ground: eave-height gutter, downspout, and visible-crack tasks stay reasonable DIY, while any on-roof, flashing, or edge work belongs to a registered professional who carries fall-protection gear, root-cause diagnosis, $500,000 liability coverage (N.J.S.A. 56:8-142), and a written workmanship warranty.",
-    "ctaHeading": "Get a Free Written Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured with commercial general liability coverage, serving Essex County with OSHA-compliant crews, root-cause diagnosis, and a written workmanship warranty. Reach out for a free written estimate on your [roof repair](/roof-repair-in-newark-nj).",
     "metaDescription": "DIY vs professional roof repair in NJ: when eave-height tasks stay DIY, when on-roof work needs a registered HIC, plus cost, OSHA safety, and liability."
   },
@@ -2172,7 +2172,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The standards point one direction: the technique failures DIY repeats live at flashing transitions, the diagnostic sequence that makes a repair last skips on a surface patch, and OSHA plus NJ law reserve on-roof and commercial work for a registered, insured contractor. DIY stays sound only at ground-level eave height.",
-    "ctaHeading": "Get a Professional Roof Repair Estimate in Essex County",
+    "ctaHeading": "Get a Professional Roof Repair Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, with OSHA-compliant crews and fall-protection gear for on-roof work. Reach out for a free written [roof repair](/roof-repair-in-newark-nj) estimate backed by a written workmanship warranty.",
     "metaDescription": "What NJ roofers recommend for DIY vs professional roof repair: standards reserve on-roof, flashing, and edge work for a registered, insured contractor."
   },
@@ -2210,7 +2210,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Architectural asphalt shingles rank first for most Essex County Colonial Revival homes on cost, while natural slate ranks first for a character-defining or historic-district Colonial as the in-kind material under Standard 6. The deciding factor is the home's era and historic status, which sets both the substyle match and the NJ code path before material selection.",
-    "ctaHeading": "Plan Your Essex County Colonial Re-Roof",
+    "ctaHeading": "Plan Your Essex County, NJ Colonial Re-Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that matches the covering to your Colonial substyle, details the dormer, valley, and chimney-cricket flashing, and confirms the local code path. See our [roof replacement](/roof-replacement-in-newark-nj) options.",
     "metaDescription": "Best roofing for Essex County Colonial homes: architectural asphalt by cost, natural slate for historic Colonials. NJ cost, substyle matching, and code path."
   },
@@ -2250,7 +2250,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The named standards point to the same recommendation: match the covering to the Colonial era per NPS Preservation Brief 4, detail the dormer, valley, and chimney-cricket flashing in a durable metal, and pair fasteners to the material — non-ferrous for slate per Brief 29, non-copper for cedar per Brief 19. Flashing and fastener discipline, not the brand of shingle, carries a Colonial roof to its sourced lifespan.",
-    "ctaHeading": "Re-Roof Your Essex County Colonial",
+    "ctaHeading": "Re-Roof Your Essex County, NJ Colonial",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that matches the covering to your Colonial's era and details the flashing and fasteners per the preservation standards, backed by a manufacturer material warranty and our written workmanship warranty.",
     "metaDescription": "What NJ roofers recommend for Essex County Colonial roofing: in-kind slate or cedar per NPS Brief 4, with flashing and matched fasteners deciding lifespan."
   },
@@ -2280,7 +2280,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "A Manufacturer System Warranty Fits a Long-Term Essex County Home",
+        "heading": "A Manufacturer System Warranty Fits a Long-Term Essex County, NJ Home",
         "body": [
           "**A manufacturer system warranty** suits an Essex County house held long-term, pairing factory material coverage with certified-install workmanship under a registered term such as the 50-year non-prorated material / 25-year workmanship GAF Golden Pledge example, per Roof-Crafters and Gunner Roofing. **A contractor workmanship warranty** suits the same house only as a second layer alongside that manufacturer term, since it covers install defects for commonly 1–10 years and ends if the contractor stops operating, per NRCA and Owens Corning.",
           "**A manufacturer system warranty** also survives the installing contractor closing, because the manufacturer sets and administers it while a contractor workmanship warranty lasts only as long as that contractor keeps operating, per NRCA. **A transferable manufacturer warranty** moves once to the first buyer within a manufacturer-set window — CertainTeed's SureStart PLUS is fully transferable if the home sells within 15 years, while standard terms reduce or limit coverage for a later owner, per the SureStart PLUS brochure and NRCIA.",
@@ -2289,7 +2289,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Ranked by coverage, a non-prorated manufacturer system warranty gives a long-held home the strongest protection and a commercial NDL guarantee leads for low-slope buildings, while a material-only warranty prorates after 10–15 years and a contractor workmanship warranty covers only the install. The deciding factor is whether coverage survives both proration and the contractor's continued operation, with NJ law requiring the warranty terms in the written contract.",
-    "ctaHeading": "Compare Your Roof Warranty Options in Essex County",
+    "ctaHeading": "Compare Your Roof Warranty Options in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that names the manufacturer material warranty and our written workmanship warranty in the signed contract, per NJ law, before any [roof replacement](/roof-replacement-in-newark-nj) begins.",
     "metaDescription": "NJ roof warranty types compared: manufacturer system, material-only, contractor workmanship, commercial NDL. What each covers, proration, NJ contract law."
   },

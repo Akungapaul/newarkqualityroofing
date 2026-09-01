@@ -34,7 +34,7 @@ export function PriorityIndexingHub() {
         <div className="max-w-3xl">
           <p className="font-body text-sm font-bold uppercase tracking-[0.18em] text-copper-dark">Popular roofing pages</p>
           <h2 id="priority-indexing-heading" className="mt-3 font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Newark Roofing Pages to Explore First
+            Newark, NJ Roofing Pages to Explore First
           </h2>
           <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
             These quick links point you straight to the roofing services, cities, and service-area pages Newark and Essex County property owners search for most.
@@ -42,7 +42,7 @@ export function PriorityIndexingHub() {
         </div>
 
         <div className="mt-8 rounded-xl border border-copper/30 bg-copper/5 p-6">
-          <h3 className="font-heading text-xl font-semibold text-forest">Most-Requested Newark Roofing Services</h3>
+          <h3 className="font-heading text-xl font-semibold text-forest">Most-Requested Newark, NJ Roofing Services</h3>
           <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
             These links take you to the Newark roofing services homeowners and businesses ask about most often.
           </p>
@@ -79,7 +79,7 @@ export function PriorityIndexingHub() {
           </div>
 
           <div className="rounded-xl border border-border bg-parchment-light p-6">
-            <h3 className="font-heading text-xl font-semibold text-forest">Essex County Cities We Serve</h3>
+            <h3 className="font-heading text-xl font-semibold text-forest">Essex County, NJ Cities We Serve</h3>
             <ul className="mt-4 space-y-2">
               {priorityCities.map((city) => (
                 <li key={city.id}>

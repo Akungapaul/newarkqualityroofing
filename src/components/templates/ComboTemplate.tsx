@@ -123,7 +123,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           <AnimateIn>
             <ComboChallenges
               paragraphs={content.challenges}
-              heading={`Common ${service.name} Problems in ${city.name}`}
+              heading={`Common ${service.name} Problems in ${city.name}, NJ`}
             />
           </AnimateIn>
 
@@ -151,7 +151,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           <AnimateIn>
             <ComboProcess
               steps={content.process}
-              heading={`Our Process for ${service.name} in ${city.name}`}
+              heading={`Our Process for ${service.name} in ${city.name}, NJ`}
             />
           </AnimateIn>
 

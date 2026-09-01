@@ -68,7 +68,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Asphalt Shingles Suit Most Essex County Houses; Metal Suits Long-Hold Owners`,
+      heading: `Asphalt Shingles Suit Most Essex County, NJ Houses; Metal Suits Long-Hold Owners`,
       content: [
         `**Architectural asphalt shingles** suit most Essex County houses and **standing seam metal** suits long-hold owners — asphalt installs at $6.50–$11.00 per NJ square foot for a 30-year life, while metal lasts 40–80 years, per Josten Roofing and InterNACHI.`,
         `**Architectural asphalt shingles** carry the widest color and profile range at the lowest NJ entry cost of $6.50–$11.00 per square foot (Josten Roofing) with a 30-year InterNACHI life, fitting color-and-budget-driven Essex County homes within the $10,000–$25,000 NJ replacement range, per Josten Roofing and HomeAdvisor NJ.`,
@@ -166,7 +166,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `TPO and PVC Suit Mixed-Use Buildings in Essex County`,
+      heading: `TPO and PVC Suit Mixed-Use Buildings in Essex County, NJ`,
       content: [
         `**TPO** and **PVC** suit the flat sections of Essex County mixed-use buildings: white **TPO** reflects summer sun at ~0.70–0.85 reflectance, while **PVC** resists grease above a ground-floor kitchen, per the CRRC and Single Ply Roofing Industry.`,
         `**TPO** covers the flat commercial section at $8–$12 per NJ square foot with heat-welded seams, per Josten Roofing, pairing with architectural asphalt shingles on any residential steep-slope section above.`,
@@ -260,7 +260,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `EPDM and TPO Suit Essex County Flat Roof Sections`,
+      heading: `EPDM and TPO Suit Essex County, NJ Flat Roof Sections`,
       content: [
         `**EPDM** and **TPO** suit Essex County flat sections — porches, additions, and garages — because EPDM installs at the lower $7.00–$10.00 per NJ square foot per Josten Roofing while TPO adds a reflective white surface, per Josten Roofing and CRRC.`,
         `**EPDM** carries the lower NJ residential install cost at $7.00–$10.00 per square foot and stays flexible through freeze-thaw, per Josten Roofing and the InterNACHI chart, which fits the smaller flat-to-steep transitions on Essex County homes.`,
@@ -348,7 +348,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Natural Slate and Cedar Shingle Suit a Designated Essex County Historic House`,
+      heading: `Natural Slate and Cedar Shingle Suit a Designated Essex County, NJ Historic House`,
       content: [
         `**Natural slate** and **cedar shingle** suit a designated Essex County historic house, matched in kind under Standard 6 — slate on a pre-1920 Montclair or Newark home, cedar on a Craftsman — per the NPS Preservation Briefs.`,
         `**Natural slate** in a designated LOCAL district faces Certificate-of-Appropriateness review against adopted design guidelines and the Secretary of the Interior's Standards — Glen Ridge regulates a district covering over 90% of the Borough under Borough Code Ch. 15.32, Montclair under Code §347-136, and Newark's Landmarks and Historic Preservation Commission auto-designated Register-listed districts as of May 30, 2007.`,
@@ -438,7 +438,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Architectural Asphalt Recoups the Most at Essex County Resale`,
+        heading: `Architectural Asphalt Recoups the Most at Essex County, NJ Resale`,
         content: [
           `**Architectural asphalt shingles** recoup ~61% of job cost at resale and **standing seam metal** ~49%, per the Remodeling/Zonda 2023 Cost vs Value report.`,
           `**Architectural asphalt shingles** recoup ~61% of job cost, with national roof replacement recouping 60–68% of cost at sale, per the Remodeling/Zonda 2023 Cost vs Value report and Zillow analysis via Opendoor, because a new roof removes a buyer objection at a moderate install cost.`,
@@ -455,7 +455,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `3-Tab Suits Short-Hold Essex County Budgets; Metal and Slate Suit Long Holds`,
+      heading: `3-Tab Suits Short-Hold Essex County, NJ Budgets; Metal and Slate Suit Long Holds`,
       content: [
         `**3-tab asphalt shingles** suit a short-hold, budget-led Essex County house at $5.50–$9.50 per square foot, while **standing seam metal** and **natural slate** suit long-hold owners on a 40–80- or 60–150-year life, per Josten Roofing and the InterNACHI chart.`,
         `**3-tab asphalt shingles** fit a tight budget or a sale within the roof's 20-year life at the lowest $5.50–$9.50-per-square-foot entry, with **architectural asphalt shingles** at $6.50–$11.00 extending the life to 30 years for a modest step up, per Josten Roofing and the InterNACHI chart.`,
@@ -543,7 +543,7 @@ export const decisionHelpers: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `Newark's Heating-Dominated Climate Favors Insulation Over Reflectance`,
+      heading: `Newark, NJ's Heating-Dominated Climate Favors Insulation Over Reflectance`,
       content: [
         `**Newark's Climate Zone 4A–5** is a heating-dominated mixed climate, so total annual energy performance favors insulation levers — a reflective roof reduces peak summer cooling but carries a winter heating penalty, per the DOE and EPA.`,
         `**The 2021 IECC** (NJ-adopted, residential enforcement April 2023) sets ceiling insulation at R-60 for NJ's Climate Zones 4 and 5 under Table R402.1.3, with an R-49 full-ceiling exception at raised-heel eaves, per the ICC and NJ DCA; this conductive minimum applies regardless of the covering's reflectance.`,
@@ -551,7 +551,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Cool-Roof Asphalt Shingles Suit Most Essex County Houses`,
+      heading: `Cool-Roof Asphalt Shingles Suit Most Essex County, NJ Houses`,
       content: [
         `**Cool-roof asphalt shingles** suit most Essex County houses on a roof replacement — their reflective granules raise surface reflectance at standard steep-slope shingle pricing and carry CRRC reflectance-and-emittance ratings, per the CRRC.`,
         `**Cool-roof asphalt shingles** apply through reflective-granule lines that reach the same reflectance levers as metal at lower cost, but attic insulation governs the larger winter share — once ceiling insulation meets the 2021 IECC R-60 (R-49 raised-heel exception) for Climate Zones 4 and 5, reflectance adds incremental summer benefit, per the ICC and CRRC.`,
@@ -582,10 +582,10 @@ export const decisionHelpers: ComparisonContent[] = [
     comparisonId: 'best-roofing-for-essex-county-colonial-homes',
     directAnswer: `**Architectural asphalt shingles rank as the best roofing for Essex County Colonial homes in most cases** at $6.50–$11.00 per NJ square foot (Josten Roofing); **natural slate** ranks first for a historic Colonial as the in-kind material under the Secretary of the Interior's Standard 6.`,
     definitionQuestion: `What Is the Best Roofing for Essex County Colonial Homes?`,
-    definitionHeading: `The Best Roofing for an Essex County Colonial, Defined`,
+    definitionHeading: `The Best Roofing for an Essex County, NJ Colonial, Defined`,
     definition:
       `**The best roofing for an Essex County Colonial home** is the covering matched to the home's symmetrical roofline and architectural era — architectural asphalt shingles, natural slate, standing seam metal, cedar shingle, synthetic slate, or copper. The comparison weighs install cost, period-correct substyle match, NJ weather durability, and historic-district code against each material.`,
-    introHeading: `Architectural Asphalt Ranks First for Essex County Colonials, Slate for Historic Homes`,
+    introHeading: `Architectural Asphalt Ranks First for Essex County, NJ Colonials, Slate for Historic Homes`,
     introParagraphs: [
       `**Architectural asphalt shingles** are the laminated covering ranked first for most Essex County Colonials, and **natural slate** is the original Colonial-era material for a character-defining or historic-district home, per Josten Roofing and the Secretary of the Interior's Standards.`,
       `**Architectural asphalt shingles** last 30 years at $6.50–$11.00 per NJ square foot, **natural slate** lasts 60–150 years (premium 100+), **standing seam metal** lasts 40–80 years, and **cedar shingle** lasts 30–50 years — a 4-material field ranked by the InterNACHI chart, the National Slate Association, and the Cedar Shake & Shingle Bureau.`,
@@ -640,7 +640,7 @@ export const decisionHelpers: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `NJ Code Requirements for a Colonial Re-Roof in Essex County`,
+      heading: `NJ Code Requirements for a Colonial Re-Roof in Essex County, NJ`,
       content: [
         `**The local historic-district ordinance** and **the Rehabilitation Subcode** govern an Essex County Colonial re-roof, while the NJ Uniform Construction Code exempts an ordinary-maintenance reroof on a detached one- or two-family dwelling, per N.J.S.A. 40:55D-107, N.J.A.C. 5:23-6.4, and N.J.A.C. 5:23-2.7.`,
         `**The local historic-district ordinance** is the binding gate for a designated-landmark or historic-district Colonial, where a Certificate of Appropriateness from the municipal Historic Preservation Commission reviews the roofing material before work begins, per N.J.S.A. 40:55D-107; Register listing alone places no restriction on a private reroof, per the National Park Service.`,
@@ -742,7 +742,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `A Manufacturer System Warranty Suits an Essex County House Held Long-Term`,
+      heading: `A Manufacturer System Warranty Suits an Essex County, NJ House Held Long-Term`,
       content: [
         `A **manufacturer system warranty** suits an Essex County house held long-term, pairing factory material coverage with certified-install workmanship under a registered term such as the 50-year non-prorated material / 25-year workmanship GAF Golden Pledge example, per Roof-Crafters and Gunner Roofing.`,
         `A **manufacturer system warranty** transfers once to the first buyer within a manufacturer-set window — CertainTeed's SureStart PLUS is fully transferable if the home sells within 15 years, while standard manufacturer terms reduce or limit coverage for a later owner, per the SureStart PLUS brochure and NRCIA.`,

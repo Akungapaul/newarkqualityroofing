@@ -28,18 +28,18 @@ export const HEADING_CONFIG = {
   // ─── §4.1 Homepage (constant strings) ──────────────────────────────────────
   home: {
     h1: 'Roofing Contractor Newark, NJ',
-    coreH2: 'Roofing Services We Provide in Newark and Essex County',
+    coreH2: 'Roofing Services We Provide in Newark and Essex County, NJ',
     // NOTE: the Core services are rendered by ServicesGrid as declarative,
     // linked service cards (styled text, NOT <h3> headings), so no per-service
     // heading strings live here — only the Core H2 above and the Outer H2s below
     // are headings on the homepage.
     // §4.1 Outer H2s (after the Core section, in tree order)
     outerH2s: [
-      'Why Newark Homeowners and Businesses Choose Our Roofing Company',
+      'Why Newark, NJ Homeowners and Businesses Choose Our Roofing Company',
       'Our Roofing Process, Step by Step',
       'Where We Provide Roofing Services in Essex County, NJ',
       'Roofing Service Costs in Newark, NJ',
-      'Roofing FAQs from Newark Customers',
+      'Roofing FAQs from Newark, NJ Customers',
       'Request a Free Roofing Estimate in Newark, NJ',
     ],
   },
@@ -81,17 +81,17 @@ export const HEADING_CONFIG = {
     whereIsH2: (c: string) => `Where ${c}, NJ Is Located`,
     // D-11 new shared sections:
     permitsH2: (c: string) => `Roofing Permits in ${c}, NJ`,
-    materialsH2: (c: string) => `Roofing Materials Suited to ${c} Properties`,
+    materialsH2: (c: string) => `Roofing Materials Suited to ${c}, NJ Properties`,
     // §4.3 tree H2s (Core first, then Outer in tree order).
     h2s: (c: string) => [
       `Roofing Services Available in ${c}, NJ`,
       `Common Roofing Problems in ${c}, NJ`,
-      `${c} Neighborhoods We Serve`,
-      `Roofing Materials Suited to ${c} Properties`,
+      `${c}, NJ Neighborhoods We Serve`,
+      `Roofing Materials Suited to ${c}, NJ Properties`,
       `Roofing Permits in ${c}, NJ`,
-      `Roofing Projects We Handle in ${c}`,
-      `Roofing FAQs from ${c} Property Owners`,
-      `Roofing Services in Towns Near ${c}`,
+      `Roofing Projects We Handle in ${c}, NJ`,
+      `Roofing FAQs from ${c}, NJ Property Owners`,
+      `Roofing Services in Towns Near ${c}, NJ`,
       `Request a Free Roofing Estimate in ${c}, NJ`,
     ],
   },
@@ -108,13 +108,13 @@ export const HEADING_CONFIG = {
     // §4.4 tree H2s (Core first, then Outer in tree order).
     h2s: (s: string, c: string) => [
       `${s} Available in ${c}, NJ`,
-      `Common ${s} Problems in ${c}`,
+      `Common ${s} Problems in ${c}, NJ`,
       `Our Roof Inspection Before ${s}`,
       `${s} Costs in ${c}, NJ`,
-      `Our Process for ${s} in ${c}`,
-      `Why Choose Newark Quality Roofing for ${s} in ${c}`,
-      `Other Roofing Services Available in ${c}`,
-      `${s} in Towns Near ${c}`,
+      `Our Process for ${s} in ${c}, NJ`,
+      `Why Choose Newark Quality Roofing for ${s} in ${c}, NJ`,
+      `Other Roofing Services Available in ${c}, NJ`,
+      `${s} in Towns Near ${c}, NJ`,
       `Roofing Guides That Explain ${s}`,
       `Schedule ${s} in ${c}, NJ`,
     ],

@@ -18,7 +18,7 @@ export function HomeRepairServices() {
           id="repair-services-heading"
           className="font-heading text-3xl font-bold text-forest sm:text-4xl"
         >
-          How We Repair and Replace Roofs in Newark
+          How We Repair and Replace Roofs in Newark, NJ
         </h2>
         <p className="mt-6 max-w-3xl font-body text-lg leading-relaxed text-text-secondary">
           Whether you need a quick fix for a leaking roof or a{' '}

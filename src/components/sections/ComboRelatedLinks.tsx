@@ -53,7 +53,7 @@ export function ComboRelatedLinks({
       {relatedServices.length > 0 && (
         <div>
           <h3 className="font-heading text-lg font-bold text-forest">
-            Other Roofing Services Available in {cityName}
+            Other Roofing Services Available in {cityName}, NJ
           </h3>
           <div className="mt-4 space-y-4">
             {relatedServices.map((group) => (

@@ -277,7 +277,7 @@ export default function Home() {
             id="embeds-heading"
             className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
           >
-            Our Roofing Service Area: Newark and Essex County
+            Our Roofing Service Area: Newark and Essex County, NJ
           </h2>
         </div>
         <div className="mx-auto mt-8 max-w-3xl px-6 lg:px-8">

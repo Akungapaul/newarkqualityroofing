@@ -11,7 +11,7 @@ export const materialComparisons: ComparisonContent[] = [
       '**Asphalt shingles** are layered roof coverings built from a fiberglass mat saturated in asphalt and surfaced with mineral granules. They are the most common residential roofing material installed across the United States.',
     definitionB:
       '**Metal roofing** is a roof covering formed from steel, aluminum, copper, or zinc, installed as standing-seam panels or interlocking shingles. It sheds water as a continuous, non-porous surface.',
-    introHeading: `Asphalt Shingles Cover Most Essex County Homes; Metal Roofing Lasts Longer`,
+    introHeading: `Asphalt Shingles Cover Most Essex County, NJ Homes; Metal Roofing Lasts Longer`,
     introParagraphs: [
       `**Asphalt shingles** are the fiberglass-mat, granule-surfaced roof covering most Essex County homes wear, and **metal roofing** is the steel or aluminum panel system that lasts longer for a higher install price.`,
       `**Asphalt shingles** divide into 3-tab and architectural (laminated) grades, lasting 20 and 30 years respectively, per the InterNACHI life-expectancy chart; granule loss, tab curling, and thermal-shock cracking define their failure modes. **Metal roofing** splits into concealed-fastener standing seam and exposed-fastener metal shingle, lasting 40–80 years general (copper 70+) per InterNACHI, with fastener loosening and cut-edge corrosion as the contrasting failure modes.`,
@@ -43,7 +43,7 @@ export const materialComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Metal Roofing Sheds Newark Snow and Rain Better Than Asphalt Shingles`,
+        heading: `Metal Roofing Sheds Newark, NJ Snow and Rain Better Than Asphalt Shingles`,
         content: [
           `**Metal roofing** sheds Newark's snow and rain better and **asphalt shingles** hold snow — Newark averages 31.5 inches of annual snowfall (~78% falling December–February) per NOAA 1991–2020 normals, with roughly 35–45 freeze-thaw cycles stressing both systems each north-NJ winter.`,
           `**Metal roofing** sheds snow off interlocking panels and resists the ~110–115 mph design wind speed mapped for northern NJ under ASCE 7-16, though shed snow requires snow guards over entryways, per ASCE wind maps and NRCA guidance.`,
@@ -109,7 +109,7 @@ export const materialComparisons: ComparisonContent[] = [
       `**Slate** is a natural roof covering of quarried stone split into thin, overlapping shingles and fastened with non-ferrous copper or stainless-steel nails. It is among the longest-lived roof coverings.`,
     definitionB:
       `**Tile** is a roof covering of fired-clay or cast-concrete mineral units laid as an interlocking profile over a waterproof underlayment. The underlayment carries the water resistance while the tile sheds rainfall.`,
-    introHeading: 'Slate or Tile for an Essex County Home: Weight Makes Framing the Deciding Attribute',
+    introHeading: 'Slate or Tile for an Essex County, NJ Home: Weight Makes Framing the Deciding Attribute',
     introParagraphs: [
       `**Natural slate** is a quarried-stone roof covering split into thin shingles, and **clay or concrete tile** is a fired or cast mineral unit — both weigh enough to make roof framing the deciding attribute.`,
       `**Natural slate** suits the Colonial and Victorian housing stock across Glen Ridge, Montclair, and Newark, where original stone roofs sit within local historic districts. Natural slate lasts 60–150 years per the InterNACHI Standard Estimated Life Expectancy Chart; clay tile reaches 75 to 100-plus years and concrete tile 40–75 years per the Tile Roofing Industry Alliance. **Clay or concrete tile** carries the terra-cotta profile that natural slate cannot reproduce, and concrete tile holds the lower price point of the two — clay tile repair runs $5–$25 per square foot and slate repair $10–$20 per square foot per HomeGuide and Angi.`,
@@ -172,7 +172,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: 'Slate Fits Historic Essex County Homes; Tile Delivers the Terra-Cotta Profile',
+      heading: 'Slate Fits Historic Essex County, NJ Homes; Tile Delivers the Terra-Cotta Profile',
       content: [
         `**Natural slate** fits the Colonial and Victorian homes of Glen Ridge and Montclair, where an original stone roof is a character-defining feature buyers recognize, while **clay or concrete tile** fits the terra-cotta profile that natural slate lacks.`,
         `**Natural slate** carries a 60–150-year service life per InterNACHI, so a single installation protects a home across generations rather than the two or three asphalt roofs covering the same span.`,
@@ -205,7 +205,7 @@ export const materialComparisons: ComparisonContent[] = [
       `**TPO** is a single-ply thermoplastic-polyolefin roofing membrane installed on low-slope and flat roofs, heat-welded at the seams into a continuous waterproof surface. Its white surface reflects solar radiation as a cool roof.`,
     definitionB:
       `**EPDM** is a single-ply ethylene propylene diene monomer roofing membrane — a synthetic rubber sheet — that waterproofs flat and low-slope roofs, bonded to the deck and sealed at the laps. Its black carbon-filled surface absorbs heat and resists UV.`,
-    introHeading: `TPO and EPDM: The Two Single-Ply Membranes We Install in Essex County`,
+    introHeading: `TPO and EPDM: The Two Single-Ply Membranes We Install in Essex County, NJ`,
     introParagraphs: [
       `**TPO** and **EPDM** are the two single-ply membranes Newark Quality Roofing installs on low-slope Essex County roofs: **TPO** is a white reflective thermoplastic sheet, and **EPDM** is a black synthetic-rubber sheet, per the NRCA.`,
       `**TPO** carries a CRRC-listed white reflective surface that lowers roof-surface temperature, while **EPDM** carries a carbon-black surface that absorbs heat and resists UV. Each membrane waterproofs a Newark, East Orange, or Bloomfield flat roof; the deciding attribute is whether summer cooling load, ponding, or budget governs the building.`,
@@ -258,7 +258,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `EPDM Suits Most Newark Residential Flat Roof Sections`,
+      heading: `EPDM Suits Most Newark, NJ Residential Flat Roof Sections`,
       content: [
         `**EPDM** fits most residential flat sections — rear additions, sun porches, and attached garages — because **EPDM** installs fast by clean-prime-patch methods and costs $7.00–$10.00 per square foot in NJ per Josten Roofing, below TPO's $8.00–$12.00.`,
         `**EPDM** in black blends with traditional Essex County rooflines, while a white **TPO** section reflects heat off a low-slope addition that takes direct summer sun. **TPO** suits a residential flat roof carrying a cooling load beneath it; **EPDM** suits a shaded or low-cooling section where reflectance adds no measurable benefit.`,
@@ -289,7 +289,7 @@ export const materialComparisons: ComparisonContent[] = [
       `**Metal** roofing is a roof covering formed from steel, aluminum, copper, or zinc, fitted as concealed- or exposed-fastener panels or interlocking metal shingles over the roof deck. It sheds water as a continuous, non-absorptive surface.`,
     definitionB:
       `**Tile** roofing is a roof covering of clay or concrete units laid over a waterproof underlayment. The underlayment carries the water resistance while the tile sheds rainfall and shields the membrane.`,
-    introHeading: `Metal or Tile for an Essex County Home: Weight and Longevity Set the Choice`,
+    introHeading: `Metal or Tile for an Essex County, NJ Home: Weight and Longevity Set the Choice`,
     introParagraphs: [
       `**Metal roofing** is a lightweight panel or metal-shingle covering that recovers most Essex County decks. **Tile roofing** is a clay or concrete covering that outlasts metal yet adds substantial dead load.`,
       `**Metal roofing** lasts 40 to 80 years, per the InterNACHI chart, and carries concealed fasteners on standing-seam panels that reduce leak points, per the Metal Construction Association and Metal Roofing Alliance. **Tile roofing** under the Tile Roofing Industry Alliance reaches 75 to 100-plus years for clay, while the underlayment beneath the tile fails first and sets the real service interval.`,
@@ -350,7 +350,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Metal Fits the Widest Range of Essex County Homes`,
+      heading: `Metal Fits the Widest Range of Essex County, NJ Homes`,
       content: [
         `**Metal roofing** fits the widest range of Essex County houses, from Newark row houses to Livingston colonials, because lightweight standing-seam and metal-shingle panels recover an existing deck. **Tile roofing** fits homes designed around a Mediterranean profile.`,
         `**Tile roofing** completes a stucco-walled, arched-window, terracotta-accented home that a metal line contradicts, so the covering matches the architectural intent rather than overriding it. **Metal roofing** in stone-coated metal-shingle profiles reproduces a tile silhouette at a fraction of the dead load, per Metal Construction Association product guidance.`,
@@ -381,7 +381,7 @@ export const materialComparisons: ComparisonContent[] = [
       `**Asphalt** is a roof covering of overlapping fiberglass-mat shingles surfaced with mineral granules, laid over underlayment, flashing, and drip edge into a water-shedding system. It comes in flat 3-tab and dimensional architectural profiles.`,
     definitionB:
       `**Slate** is a roof covering of quarried natural-stone tiles set on non-ferrous copper or stainless-steel fasteners over a sound deck. Natural slate is among the longest-lived roof coverings.`,
-    introHeading: 'Asphalt Installs Cheaper; Slate Lasts a Lifetime on an Essex County Home',
+    introHeading: 'Asphalt Installs Cheaper; Slate Lasts a Lifetime on an Essex County, NJ Home',
     introParagraphs: [
       `**Asphalt shingles** are the budget asphalt-mat covering that lasts 20 to 30 years per the InterNACHI chart, while **natural slate** is the quarried-stone covering that lasts 60 to 150 years; asphalt installs cheaper, slate lasts a homeowner's lifetime.`,
       `**Asphalt shingles** install across northern New Jersey at $5.50 to $9.50 per square foot for 3-tab and $6.50 to $11.00 for architectural, per Josten Roofing's NJ figures, defining the entry tier for an Essex County reroof.`,
@@ -533,7 +533,7 @@ export const materialComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Cedar Shake Can Outlast Asphalt on an Essex County Home — With Upkeep`,
+        heading: `Cedar Shake Can Outlast Asphalt on an Essex County, NJ Home — With Upkeep`,
         content: [
           `**Cedar wood shake** can outlast **asphalt shingles** with upkeep — CSSB rates cedar shake 20–40 years and cedar shingle 30–50 years, versus 20–30 years for asphalt per InterNACHI and NAHB — but only when the maintenance schedule is met.`,
           `**Asphalt shingles** deliver 20 years for 3-tab and 30 years for architectural per the InterNACHI life-expectancy chart, and NRCA designs asphalt for ~20 years of service with actual life varying up to ±40% by climate, install, and maintenance.`,
@@ -583,7 +583,7 @@ export const materialComparisons: ComparisonContent[] = [
       `**PVC** is a single-ply polyvinyl-chloride thermoplastic roofing membrane, hot-air-welded at the seams. The white membrane resists grease, oils, and chemical exhaust and reflects solar radiation as a cool roof.`,
     definitionB:
       `**TPO** is a single-ply thermoplastic-polyolefin roofing membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface.`,
-    introHeading: `PVC Resists Rooftop Chemicals; TPO Costs Less on an Essex County Flat Roof`,
+    introHeading: `PVC Resists Rooftop Chemicals; TPO Costs Less on an Essex County, NJ Flat Roof`,
     introParagraphs: [
       `**PVC membrane** is a chemical-resistant single-ply thermoplastic that resists rooftop grease and fats, while a **TPO membrane** is a lower-cost single-ply thermoplastic that matches PVC on reflectance but degrades under chronic chemical contact, per Duro-Last.`,
       `**PVC membrane** carries a 20-30-year typical service life, per the Single Ply Roofing Industry, and installs at roughly $8-$12 per square foot in Essex County. PVC seals by heat-welding the same way TPO does, so the chemical exposure on the roof, not the seam method, drives the choice.`,
@@ -631,7 +631,7 @@ export const materialComparisons: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `PVC and TPO Cost About the Same in Essex County; Chemical Exposure Decides`,
+      heading: `PVC and TPO Cost About the Same in Essex County, NJ; Chemical Exposure Decides`,
       content: [
         `**PVC membrane** and **TPO membrane** both install near $8-$12 per square foot on Essex County flat roofs, per Josten Roofing, so the rooftop chemical exposure decides the membrane, not New Jersey code.`,
         `**PVC membrane** earns its place on Newark commercial corridors crowded with restaurants and food-processing buildings, where exhaust grease degrades a TPO surface. PVC carries a 20-30-year service life in that exposure, per the Single Ply Roofing Industry.`,
@@ -672,7 +672,7 @@ export const materialComparisons: ComparisonContent[] = [
       `**Standing seam** is a concealed-fastener metal roof covering formed from steel, aluminum, copper, or zinc panels whose raised, interlocking vertical seams lock together over hidden clips fastened to the deck. The clips carry no roof-penetrating fasteners in the panel field.`,
     definitionB:
       `**Corrugated metal** is an exposed-fastener metal roof covering formed from rolled steel or aluminum sheets pressed into repeating wavy ridges and grooves, screwed through the panel face into the deck. Gasketed screws seal each penetration against water.`,
-    introHeading: `Concealed vs Exposed Fasteners: The Split That Decides an Essex County Metal Roof`,
+    introHeading: `Concealed vs Exposed Fasteners: The Split That Decides an Essex County, NJ Metal Roof`,
     introParagraphs: [
       `**Standing seam** is a concealed-fastener metal roof whose panels interlock over hidden clips, and **corrugated metal** is an exposed-fastener metal roof screwed through the panel face — the concealed-versus-exposed fastener split decides leak risk, lifespan, and cost.`,
       `**Standing seam** carries no roof-penetrating fasteners, so the panel field has fewer leak points, and per This Old House standing seam lasts 40–70 years against the 30–50 years industry sources assign exposed-fastener metal.`,
@@ -703,7 +703,7 @@ export const materialComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Newark Freeze-Thaw Hardens and Cracks Exposed-Fastener Gaskets`,
+        heading: `Newark, NJ Freeze-Thaw Hardens and Cracks Exposed-Fastener Gaskets`,
         content: [
           `**Corrugated metal** gaskets harden and crack under Newark's freeze-thaw cycling, driven by the NOAA 1991–2020 normals at Newark Liberty (~31.5 in. annual snowfall, January average low near 25.5°F), while **standing seam** carries no exposed seal in the panel field.`,
           `**Corrugated metal** answers gasket aging only through re-fastening — the exposed-fastener antonym to standing seam's set-and-forget field — re-seating or replacing degraded screws and washers on a recurring cycle, so the exposed-fastener seal fails decades before the steel.`,
@@ -711,7 +711,7 @@ export const materialComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Standing Seam Panels Float on Clips to Absorb Newark's Thermal Movement`,
+        heading: `Standing Seam Panels Float on Clips to Absorb Newark, NJ's Thermal Movement`,
         content: [
           `**Standing seam** lets its panels float on the concealed clips, absorbing the expansion metal undergoes between Newark's ~25.5°F January average low and summer highs near 87°F per NOAA normals, while **corrugated metal** fixes each panel with a rigid screw.`,
           `**Standing seam** holds that floating connection as its defining mechanical trait, the contrast to a fixed screw — the clip slides while the panel grows, so no single point accumulates stress, and long runs add expansion provisions, per the NRCA.`,
@@ -728,7 +728,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Standing Seam Suits the Essex County Home; Corrugated Fits the Garage or Barn`,
+      heading: `Standing Seam Suits the Essex County, NJ Home; Corrugated Fits the Garage or Barn`,
       content: [
         `**Standing seam** suits the Essex County home because its concealed-clip field delivers the leak-resistant, low-maintenance metal roof a residence needs across a 40–70-year service life per This Old House, while **corrugated metal** fits a detached garage or barn.`,
         `**Standing seam** keeps a detached one- or two-family re-roof inside the NJ UCC ordinary-maintenance exemption (N.J.A.C. 5:23-2.7), so a Montclair or West Orange homeowner re-roofs the covering without a construction permit.`,
@@ -736,7 +736,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Corrugated Metal Wins Large-Area Commercial Cost in Essex County`,
+      heading: `Corrugated Metal Wins Large-Area Commercial Cost in Essex County, NJ`,
       content: [
         `**Corrugated metal** wins large-area commercial cost, installing at the lower end of the NJ $9–$16+ per-square-foot metal range Josten Roofing reports, so an Essex County warehouse roofs more square footage per dollar than **standing seam** delivers.`,
         `**Corrugated metal** carries the exposed-fastener trade-off against its cost edge: a low-slope or steep commercial deck takes periodic re-fastening as gaskets degrade, the recurring antonym to standing seam's minimal upkeep.`,
@@ -865,7 +865,7 @@ export const materialComparisons: ComparisonContent[] = [
       `**Rubber (EPDM)** is a single-ply ethylene-propylene-diene-monomer membrane that waterproofs a flat or low-slope roof, bonded to the deck or insulation and joined at the seams with adhesive or seam tape. Its black surface absorbs solar heat.`,
     definitionB:
       `**TPO** is a single-ply thermoplastic-polyolefin membrane, hot-air-welded at the seams, installed on commercial and residential low-slope and flat roofs. Its reflective white surface rejects solar radiation as a cool roof.`,
-    introHeading: `EPDM Rubber Roofing and TPO: Two Single-Ply Membranes for Essex County Flat Roofs`,
+    introHeading: `EPDM Rubber Roofing and TPO: Two Single-Ply Membranes for Essex County, NJ Flat Roofs`,
     introParagraphs: [
       `**EPDM rubber roofing** is the ethylene-propylene-diene-monomer single-ply membrane sealed with adhesive or tape seams that covers most Essex County flat roofs, and **TPO** is the thermoplastic-polyolefin single-ply membrane joined by hot-air-welded seams with a reflective white surface.`,
       `**EPDM rubber roofing** fails primarily at seam separation, with puncture, membrane shrinkage pulling away from penetrations, and ponding-water stretching as the secondary failure modes, per NRCA-attributed trade data. **TPO** fails primarily at welded-seam breakdown, with chemical attack from rooftop equipment and thermal-shock cracking as plasticizers migrate and the membrane hardens, per NRCA technical guidance.`,
@@ -903,7 +903,7 @@ export const materialComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `TPO Stays Cooler Than Black EPDM on an Essex County Roof`,
+        heading: `TPO Stays Cooler Than Black EPDM on an Essex County, NJ Roof`,
         content: [
           `**TPO** stays cooler than black **EPDM rubber roofing** — TPO's white membrane carries ~0.70–0.85 solar reflectance per ASTM C1549 (CRRC-listed), and a reflective roof stays over 50°F cooler than a conventional roof, per the U.S. Department of Energy.`,
           `**TPO** reflectance lowers the roof-surface temperature through solar reflectance and thermal emittance rated by the Cool Roof Rating Council (not R-value), cutting peak cooling demand 11–27% in air-conditioned buildings, per the EPA, with the caveat that Newark's heating-dominated Climate Zone 4A–5 carries a winter heating offset, per the DOE.`,
@@ -1018,7 +1018,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Cedar Shakes Suit Textured Facades, Wood Shingles Formal Essex County Rooflines`,
+      heading: `Cedar Shakes Suit Textured Facades, Wood Shingles Formal Essex County, NJ Rooflines`,
       content: [
         `**Cedar shakes** suit textured, handcrafted facades and **wood shingles** suit formal, uniform rooflines — shakes carry the rough, split face and shingles the flat, machine-sawn face, per the Cedar Shake & Shingle Bureau and NPS Preservation Brief 19.`,
         `**Cedar shakes** read as handcrafted on Craftsman bungalows and rustic colonials, their hand-split-and-resawn and taper-sawn grades casting deep shadow lines across the roof plane, per the Cedar Shake & Shingle Bureau.`,
@@ -1115,7 +1115,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Modified Bitumen Suits Essex County Homes' Low-Slope Sections`,
+      heading: `Modified Bitumen Suits Essex County, NJ Homes' Low-Slope Sections`,
       content: [
         `**Modified bitumen** suits an Essex County home's flat sections and **built-up roofing (BUR)** suits larger commercial decks — modified bitumen installs by cold adhesive or self-adhered roll without a kettle on a residential lot.`,
         `**Modified bitumen** finishes a porch, dormer, or addition deck with a mineral-granule cap sheet, and a re-roof of that section on a detached 1- or 2-family dwelling is ordinary maintenance with no NJ permit, per N.J.A.C. 5:23-2.7.`,
@@ -1204,7 +1204,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Spray Foam Suits Height-Restricted Flat Roofs, TPO Standard Essex County Homes`,
+      heading: `Spray Foam Suits Height-Restricted Flat Roofs, TPO Standard Essex County, NJ Homes`,
       content: [
         `**Spray polyurethane foam** suits height-restricted residential flat roofs and **TPO** suits standard ones — SPF delivers R-6.0–6.5 per inch in minimal thickness where polyiso stacks raise the deck past door thresholds, per ICC-ES and the SPFA.`,
         `**Spray polyurethane foam** adds insulation in the thinnest profile, so a low-slope porch or addition gains thermal performance without the height buildup that separate polyiso boards force at a parapet or threshold, per the SPFA.`,
@@ -1237,7 +1237,7 @@ export const materialComparisons: ComparisonContent[] = [
       `**Green Roof** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation that retains rainfall. It divides into extensive (lightweight sedum) and intensive (garden-depth) types.`,
     definitionB:
       `**Traditional Roofing** is an exposed low-slope membrane system — EPDM, TPO, modified bitumen, or built-up roofing — installed over the deck as a non-vegetated covering that sheds rainfall to roof drains. The membrane sits open to sun and weather.`,
-    introHeading: `Green Roof and Traditional Membrane Roofing Defined for Essex County Buildings`,
+    introHeading: `Green Roof and Traditional Membrane Roofing Defined for Essex County, NJ Buildings`,
     introParagraphs: [
       `A **green roof** is the vegetated assembly — growing medium, plants, drainage, and a membrane beneath — that retains rainfall, while **traditional membrane roofing** is the exposed low-slope system (EPDM, TPO, modified bitumen, BUR) that sheds rain to drains.`,
       `A **green roof** divides into extensive (growing medium 6 inches or less, lightweight sedum) and intensive (6 inches or greater, garden-depth and heavy), per the NJ Stormwater BMP Manual Ch 9.4; a hidden membrane leak that is hard to locate is its defining failure mode. **Traditional membrane roofing** splits into EPDM, TPO, modified bitumen, and BUR — four low-slope types whose failure modes are seam separation (EPDM), welded-seam failure (TPO), and blistering or alligator cracking (modified bitumen), per the InterNACHI chart and NRCA guidance.`,
@@ -1261,7 +1261,7 @@ export const materialComparisons: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `A Green Roof Manages Stormwater Better in Newark`,
+        heading: `A Green Roof Manages Stormwater Better in Newark, NJ`,
         content: [
           `A **green roof** manages stormwater far better than **traditional membrane roofing** — an extensive sedum roof retains ~50–60% of annual rainfall and cuts peak flow up to 65%, per Penn State research and the GSA study.`,
           `A **green roof** delays runoff off-site by up to about 3 hours and earns NJ stormwater runoff-quantity credit through a reduced Curve Number tied to the growing medium, capped at a 20% maximum roof slope and 85% minimum vegetation density, per the NJ Stormwater BMP Manual Ch 9.4 and the GSA study — though that manual allows neither groundwater-recharge nor runoff-quality credit for a green roof.`,
@@ -1302,7 +1302,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Traditional Membrane Roofing Suits Most Essex County Houses`,
+      heading: `Traditional Membrane Roofing Suits Most Essex County, NJ Houses`,
       content: [
         `A **green roof** suits small accent applications and **traditional membrane roofing** suits most Essex County houses — a full residential green roof is rare given cost and structural load, per GSA dead-load measurements and HomeAdvisor cost ranges.`,
         `A **green roof** at the residential scale uses extensive sedum, which tolerates drought, cold, and shallow medium, installed at roughly $10–$25 per square foot with $0.75–$2 per square foot of annual maintenance, per HomeAdvisor — every install still requiring the NJ-licensed engineer load check, per the NJ Stormwater BMP Manual.`,
@@ -1336,7 +1336,7 @@ export const materialComparisons: ComparisonContent[] = [
       `**Solar shingles** are building-integrated photovoltaic shingles that replace the roof covering and generate electricity while serving as the roof itself, nailed into the roof field rather than racked on top. They double as both roof covering and solar generator.`,
     definitionB:
       `**Solar panels** are rack-mounted, building-applied photovoltaic modules of crystalline silicon attached above an existing roof on flashed rail feet. They generate electricity only, leaving the roof covering in place beneath the array.`,
-    introHeading: `Solar Shingles (BIPV) and Solar Panels (BAPV) Defined for Essex County Homes`,
+    introHeading: `Solar Shingles (BIPV) and Solar Panels (BAPV) Defined for Essex County, NJ Homes`,
     introParagraphs: [
       `**Solar shingles** are building-integrated photovoltaics (BIPV) that replace the roof covering with solar-generating material, and **solar panels** are building-applied photovoltaics (BAPV) — rack-mounted modules added to an existing roof, generating power only — per the DOE and IEA-PVPS.`,
       `**Solar shingles** ship as named BIPV products — GAF Energy Timberline Solar ES 2 (57 W per energy shingle, ~16.7 W per square foot), Tesla Solar Roof (72 W per active glass tile), CertainTeed Solstice (70 W, 19.85% module efficiency), and SunTegra (105–114 W) — installed into the roof field, per the manufacturers' datasheets. **Solar panels** are crystalline-silicon modules of roughly 350–470 watts (≈400 W common) racked above the deck, degrading a median ~0.5% per year to ~85–88% of rated output by year 25–30, per NREL.`,
@@ -1400,7 +1400,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Solar Shingles for Integration, Solar Panels for Output in Essex County`,
+      heading: `Solar Shingles for Integration, Solar Panels for Output in Essex County, NJ`,
       content: [
         `**Solar shingles** suit integration-driven Essex County houses and **solar panels** suit output-driven ones — shingles replace the roof covering for a flush look during a reroof, while panels deliver more watts per dollar, per the DOE and SolarReviews.`,
         `**Solar shingles** pair with a full reroof, so a house due for roof replacement folds the covering cost into the solar project, while CertainTeed Solstice and similar BIPV lines cannot install over an existing roof, per CertainTeed and the DOE.`,
@@ -1433,7 +1433,7 @@ export const materialComparisons: ComparisonContent[] = [
       `**Architectural shingles** are laminated, two-layer asphalt shingles built from a fiberglass mat saturated in asphalt and surfaced with mineral granules, bonding a second layer onto the base. The added layer creates dimensional shadow lines across the roof surface.`,
     definitionB:
       `**3-Tab shingles** are single-layer, flat-cut asphalt shingles built from a fiberglass mat saturated in asphalt and surfaced with mineral granules, with three cut tabs along each strip. They lay a flat, uniform pattern on a sloped roof.`,
-    introHeading: `Architectural and 3-Tab Shingles Defined for Essex County Roofs`,
+    introHeading: `Architectural and 3-Tab Shingles Defined for Essex County, NJ Roofs`,
     introParagraphs: [
       `**Architectural shingles** are the laminated, two-layer asphalt shingle that adds dimensional shadow lines and longer service life, and **3-tab shingles** are the single-layer, flat-cut asphalt shingle that installs at the lower NJ square-foot cost.`,
       `**Architectural shingles** laminate a second asphalt layer onto the base mat, weigh roughly 250–400+ lb per square, and last 30 years, per the InterNACHI life-expectancy chart and its inspection guide; granule loss, zipper cracking along cutout lines, and cupping define their failure modes. **3-tab shingles** carry one flat layer with three cut tabs, weigh roughly 230–250 lb per square, and last 20 years per InterNACHI, with tab curling, granule loss, and wind-uplift seal failure as the contrasting failure modes.`,
@@ -1497,7 +1497,7 @@ export const materialComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Architectural Shingles Suit Most Essex County Houses`,
+      heading: `Architectural Shingles Suit Most Essex County, NJ Houses`,
       content: [
         `**Architectural shingles** suit most owner-occupied Essex County houses and **3-tab shingles** suit budget-driven projects — architectural lasts 30 years with a 110–130 mph wind warranty, while 3-tab installs cheaper at $5.50–$9.50 per NJ square foot, per InterNACHI and Josten Roofing.`,
         `**Architectural shingles** make up the majority of new asphalt-shingle installs — laminated shingles held roughly 57–58% of the asphalt-shingle market in 2024, per Mordor Intelligence — and their dimensional profile adds shadow-line depth a flat roof lacks.`,

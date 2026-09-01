@@ -15,7 +15,7 @@ export function CityProjectSpotlights({
   return (
     <div>
       <h2 id="projects-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
-        Roofing Projects We Handle in {cityName}
+        Roofing Projects We Handle in {cityName}, NJ
       </h2>
 
       {/* Before/After Gallery */}

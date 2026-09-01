@@ -41,7 +41,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A covering with less life than the 25-to-30-plus-year module span, a mount flashed on top of rather than under the upslope course, an unconfirmed roof-structure load, and a missing NEC 690.12 rapid shutdown or IRC R324.6 firefighter access each signal roofing work to settle before the array goes on.",
-    "ctaHeading": "Prepare Your Roof for Solar in Essex County",
+    "ctaHeading": "Prepare Your Roof for Solar in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate on the roofing side of solar — re-roof-before-solar assessment, watertight mount flashing to the covering manufacturer instructions, and ASCE 7 load verification coordinated with your solar installer.",
     "metaDescription": "Signs you need solar panel roofing prep: a worn covering under a 25-30+ year array, a mount flashed over the course, an unconfirmed load, no rapid shutdown."
   },
@@ -79,7 +79,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A solar panel project carries two separate numbers in New Jersey — the PV array at about $2.50 to $4.00 per watt installed from the solar installer, and the roofing scope of mount flashing, structural verification, and any re-roof before solar that Newark Quality Roofing prices in a free written estimate — with the federal §25D residential credit repealed for 2026 systems and the NJ SuSI, net-metering, ST-4, and CRES programs remaining.",
-    "ctaHeading": "Get a Free Written Roofing Estimate for Solar in Essex County",
+    "ctaHeading": "Get a Free Written Roofing Estimate for Solar in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We handle the roofing side of solar — watertight mount flashing, structural verification to ASCE 7, and any re-roof before solar — and coordinate with your solar installer. Reach out for a free written estimate that prices the roofing scope for your roof.",
     "metaDescription": "Solar panels run $2.50-$4.00 per watt installed in NJ; the roofing scope of mount flashing, structural check, and re-roof before solar is priced separately."
   },
@@ -117,7 +117,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A 2026 solar array in New Jersey draws its incentive value from the Successor Solar Incentive SREC-II over 15 years, net metering at full retail under N.J.S.A. 48:3-87, and the Form ST-4 and Form CRES exemptions, while the federal §25D 30% residential credit is repealed for systems completed after December 31, 2025, and a commercial system follows §48E instead.",
-    "ctaHeading": "Prepare Your Roof for Solar in Essex County",
+    "ctaHeading": "Prepare Your Roof for Solar in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, handling the roofing side of solar — watertight mount flashing, roof-structure load verification, and re-roof-before-solar. Reach out for a free written estimate, and a tax professional for the current incentive treatment.",
     "metaDescription": "NJ solar incentives in 2026: Successor Solar Incentive (SREC-II, 15-yr, NJBPU), net metering, ST-4 and CRES exemptions; federal 25D credit repealed after 2025."
   },
@@ -155,7 +155,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A roof at or near reroof age, a preference for a uniform surface over visible panels, a 2:12-or-steeper pitch, roughly 44% more roof area than a panel array, and a budget accepting a higher per-watt cost for the integrated look each signal a building-integrated solar shingle rather than a rack-mounted panel array.",
-    "ctaHeading": "Install a Solar Shingle Roof in Essex County",
+    "ctaHeading": "Install a Solar Shingle Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. As the roofing contractor, we install the building-integrated solar shingle as the roof covering on a reroof to manufacturer specification. Reach out for a free written estimate.",
     "metaDescription": "Signs a solar shingle fits: a roof at reroof age, a uniform-surface preference, 2:12+ pitch, ~44% more roof area than panels, and a higher per-watt budget."
   },
@@ -193,7 +193,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A solar shingle installation in New Jersey runs about $3.50 to $8.00 per watt installed — roughly 1.5 to 2 times the per-watt cost of rack-mounted panels — because the shingle replaces the roof covering and pairs with a full reroof, with state programs such as the SREC-II incentive, net metering, and the ST-4 and CRES exemptions lowering the cost after the federal section 25D credit ended for 2026 systems.",
-    "ctaHeading": "Get a Free Written Solar Shingle Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Solar Shingle Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. As the roofing contractor installing the solar shingle as your roof covering during a reroof, we provide a free written estimate that scopes the tear-off, deck repair, product, and roof area before any work begins.",
     "metaDescription": "Solar shingles cost about $3.50-$8.00 per watt installed in NJ — roughly 1.5-2x panels — because they replace the roof covering and pair with a full reroof."
   },
@@ -231,7 +231,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A solar shingle qualifies for the same New Jersey incentives as a rack-mounted panel — the 15-year SREC-II incentive, net metering, and the ST-4 and CRES exemptions — while the federal §25D residential credit is repealed for 2026 and a business-owned system instead follows the §48E commercial credit, so a homeowner plans around the NJ programs and confirms the rest with a tax professional.",
-    "ctaHeading": "Install a Solar Shingle Roof in Essex County",
+    "ctaHeading": "Install a Solar Shingle Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We install the building-integrated solar shingle as your roof covering and refer incentive questions to a tax professional and the NJ Clean Energy Program. Reach out for a free written estimate.",
     "metaDescription": "NJ solar shingle incentives mirror panels: SREC-II over 15 years, net metering, ST-4 and CRES exemptions; the federal 25D residential credit ends after 2025."
   },
@@ -269,7 +269,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A dark roof over 150°F, a top-floor space that overheats, ceiling insulation below the 2021 IECC R-60 minimum, rising peak cooling demand, and blocked or unbalanced attic ventilation each signal a roof that benefits from a reflective surface and code-minimum insulation, installed together when the deck is accessible during a replacement.",
-    "ctaHeading": "Address an Energy-Inefficient Roof in Essex County",
+    "ctaHeading": "Address an Energy-Inefficient Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that measures your roof against surface reflectance and ceiling R-value and scopes the reflective surface, above-deck insulation, and balanced ventilation for the Essex County climate.",
     "metaDescription": "Signs your roof wastes energy: a dark roof over 150°F, a hot top floor, ceiling insulation below R-60, high peak cooling demand, and blocked attic venting."
   },
@@ -307,7 +307,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Energy efficient roofing in New Jersey is priced as separate line items — a white reflective TPO or PVC membrane or reflective coating, above-deck and ceiling insulation to the 2021 IECC R-60 ceiling target, and attic ventilation — because reflectance and R-value govern two distinct heat paths, and with the §25C and §25D credits repealed for 2026 the savings come from the roof's energy performance rather than a federal credit.",
-    "ctaHeading": "Get a Free Energy Efficient Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Free Energy Efficient Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that prices the reflective membrane or coating, the insulation to the R-60 ceiling target, and the attic ventilation as separate scopes for your roof.",
     "metaDescription": "Energy efficient roofing cost in NJ varies by roof size, reflective product, R-60 insulation, and ventilation, each priced in a free written estimate."
   },
@@ -336,7 +336,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Newark's Heating-Dominated Climate Offsets Part of the Cooling Gain",
+        "heading": "Newark, NJ's Heating-Dominated Climate Offsets Part of the Cooling Gain",
         "body": [
           "**Newark sits in heating-dominated Climate Zone 4A-to-5, so a reflective surface carries a winter heating penalty that offsets part of the summer cooling gain, and the net annual benefit depends on the climate and the insulation.** The DOE and EPA frame the reflective roof against the heating-dominated mixed climate.",
           "**The winter heating penalty** arises because a high-reflectance surface that rejects solar heat in summer also rejects some useful solar warming in winter, and Newark falls in IRC and IECC Climate Zone 4A-to-5, a heating-dominated mixed climate, per the DOE and the EPA. The peak summer cooling reduction is real, but the net annual benefit nets the summer cooling gain against the winter heating cost rather than counting the cooling figure alone.",
@@ -345,7 +345,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "With the federal §25C and §25D credits repealed for 2026, an energy-efficient roof earns its keep through the measured cool-roof reduction in peak cooling demand, the New Jersey solar incentives that apply only when the roof carries solar, and a Zone 4A-to-5 design that balances the reflective surface against the winter heating penalty with code-level insulation.",
-    "ctaHeading": "Plan an Energy-Efficient Roof in Essex County",
+    "ctaHeading": "Plan an Energy-Efficient Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that specifies a CRRC-listed reflective membrane or coating and the ceiling insulation balanced for the Essex County climate, and refers any tax or incentive question to a tax professional.",
     "metaDescription": "Federal 25C and 25D credits are repealed for 2026, so energy-efficient roofing savings come from an EPA 11-27% peak-cooling cut, less a Newark heating penalty."
   },
@@ -383,7 +383,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Ponding past 48 hours, leaking seams and flashings, a sound deck under a deteriorated surface, a failing acrylic coating, and an eroded spray-foam topcoat each signal a low-slope roof a silicone coating restores in place rather than tears off.",
-    "ctaHeading": "Have Your Flat Roof Assessed for Silicone Coating in Essex County",
+    "ctaHeading": "Have Your Flat Roof Assessed for Silicone Coating in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate and a roof inspection that confirms whether your deck and insulation are sound enough for a silicone coating or call for replacement.",
     "metaDescription": "Signs you need silicone roof coating: ponding past 48 hours, leaking seams and flashings, a sound deck under a worn surface, a failing acrylic, eroded foam."
   },
@@ -421,7 +421,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Silicone roof coating in New Jersey is priced from the roof rather than a flat per-square-foot rate, with roof size setting the silicone volume near 1.5 gallons per 100 square feet for 22 dry mils, surface prep and an epoxy primer adding cost on an aged asphalt roof, and the renewable warranty term scaling from 10 to 15 years at 20 to 22 mils up to 15 to 20 years at 30 mils, all at a fraction of tear-off and replacement cost.",
-    "ctaHeading": "Get a Written Silicone Coating Estimate in Essex County",
+    "ctaHeading": "Get a Written Silicone Coating Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate after a roof inspection that scopes the roof size, the surface prep, and the dry-film thickness before pricing your silicone coating.",
     "metaDescription": "Silicone roof coating cost in NJ is set by roof size, dry-film thickness, and surface prep, priced from a roof inspection at a fraction of tear-off cost."
   },
@@ -459,7 +459,7 @@ export const energySolarArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A silicone roof coating carries no tax credit or rebate of its own, so its real economics are deferred replacement at a fraction of tear-off cost under a renewable warranty, plus a reflective cool-roof reduction in peak cooling demand that runs smaller in Newark's heating-dominated climate.",
-    "ctaHeading": "Restore Your Flat Roof in Essex County",
+    "ctaHeading": "Restore Your Flat Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that scopes the surface prep, the dry-film thickness, and the reflective silicone restoration for your low-slope roof, and refer any tax or incentive question to your tax professional.",
     "metaDescription": "No tax credit or rebate fits a roof coating; silicone savings come from deferred replacement at a fraction of tear-off plus an 11-27% peak cooling cut (EPA)."
   }

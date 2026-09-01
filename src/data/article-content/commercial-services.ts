@@ -42,7 +42,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A membrane at or past its 7-to-30-year material life, damage across more than 25 to 30% of the roof area, ponding water standing over 48 hours, wet insulation across most of the roof, and new construction needing a code-compliant low-slope system each point to a full installation rather than another patch, per InterNACHI, the NRCA, Parish-Modernize-HomeGuide, and the NJ Uniform Construction Code.",
-    "ctaHeading": "Assess Your Commercial Roof in Essex County",
+    "ctaHeading": "Assess Your Commercial Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate on a [commercial roof installation](/commercial-roof-installation-in-newark-nj) — membrane condition assessment, tapered-drainage engineering, and a system matched to your building and energy target, installed to manufacturer specification.",
     "metaDescription": "Signs you need commercial roof installation: a membrane past its service life, damage over 25-30%, ponding over 48 hours, wet insulation, or new construction."
   },
@@ -80,7 +80,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Commercial roof installation in New Jersey runs about $7 to $12 per square foot for EPDM and TPO, $6 to $12 for PVC, and $4 to $8 for spray polyurethane foam, with NJ ranges 10 to 40% above national; the insulation, tapered drainage, tear-off triggers under N.J.A.C. 5:23-6.4, and membrane class move the installed figure, while a reflective membrane per ASTM C1549 and added R-value lower operating cost over the roof's life.",
-    "ctaHeading": "Get a Free Written Commercial Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Commercial Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We install TPO, EPDM, PVC, modified-bitumen, built-up, and spray-foam systems to manufacturer specification to keep the system warranty intact. Reach out for a free written estimate that prices the membrane, the tapered-drainage assembly, and the NJ code triggers for your building.",
     "metaDescription": "Commercial roof installation in NJ runs $7-$12/sq ft for EPDM and TPO, $6-$12 for PVC, $4-$8 for spray foam installed, about 10-40% above national figures."
   },
@@ -118,7 +118,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A commercial roof installation in New Jersey turns on three decisions — matching one of seven systems (TPO 7 to 20, EPDM 15 to 25, modified bitumen 20, built-up 30, PVC 20 to 30, spray foam 30-plus, metal 40 to 80 years) to the building and energy target, filing the permit N.J.A.C. 5:23-2.7 requires and meeting the N.J.A.C. 5:23-6.4 removal triggers, and hiring a registered NJ Home Improvement Contractor that installs to manufacturer specification.",
-    "ctaHeading": "Plan Your Commercial Roof Installation in Essex County",
+    "ctaHeading": "Plan Your Commercial Roof Installation in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We engineer and install TPO, EPDM, PVC, modified bitumen, built-up, spray foam, and metal systems to manufacturer specification, file the N.J.A.C. 5:23-2.7 permit, and document the warranty split. Reach out for a free written estimate.",
     "metaDescription": "What NJ business owners should know about commercial roof installation: matching the system, the N.J.A.C. 5:23-2.7 permit, and a registered HIC contractor."
   },
@@ -156,7 +156,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Interior water stains after rain, open or separated seams, blistering, ridging, or delamination, deteriorated flashing at curbs and penetrations, and ponding water standing more than 48 hours each signal a repairable commercial membrane failure, provided the damage holds under the 25-to-30-percent replacement threshold, per the NRCA, ARMA, and Parish, Modernize, and HomeGuide.",
-    "ctaHeading": "Trace a Commercial Roof Leak in Essex County",
+    "ctaHeading": "Trace a Commercial Roof Leak in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate on a commercial roof repair — leak-source diagnosis on EPDM, TPO, PVC, modified-bitumen, and built-up membranes, sealed to manufacturer specification to keep the system warranty intact.",
     "metaDescription": "Signs you need commercial roof repair: interior water stains after rain, open seams, blistering, deteriorated flashing, and ponding over 48 hours, per the NRCA."
   },
@@ -194,7 +194,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Commercial flat-roof repair in New Jersey runs $2.50 to $10.00 per square foot, or $300 to $1,100 for a typical repair, with a seam re-weld at $200 to $400 and a section replacement at $500 to $1,000, while a minor leak runs $150 to $500 and an extensive structural leak $1,200 to $3,000; repair gives way to replacement when damage passes 25 to 30 percent of the area, a repair nears 30 percent of replacement cost, or leaks recur at the same spot.",
-    "ctaHeading": "Get a Free Written Commercial Roof Repair Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Commercial Roof Repair Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace a low-slope leak to the failed seam, puncture, or flashing detail and reseal it with manufacturer-approved bonding that keeps the system warranty intact. Reach out for a free written [commercial roof repair](/commercial-roof-repair-in-newark-nj) estimate.",
     "metaDescription": "Commercial roof repair in NJ runs $2.50-$10 per sq ft, or $300-$1,100 typical; a seam re-weld is $200-$400 and a section replacement $500-$1,000."
   },
@@ -232,7 +232,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A NJ business owner approaches commercial roof repair by treating the leak as a failed seam, puncture, or flashing detail traced distant from the interior evidence, by insisting on a manufacturer-approved repair that keeps the system warranty intact, and by recognizing that a repair above 25% of roof area in a 12-month period — or a water-soaked or 2-plus-layer roof — crosses into permitted work or full replacement under N.J.A.C. 5:23-2.7 and 5:23-6.4.",
-    "ctaHeading": "Get a Free Written Commercial Roof Repair Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Commercial Roof Repair Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace a commercial leak to the failed seam, puncture, or flashing detail, repair it to manufacturer specification to keep the system warranty intact, and document the work and any NJ permit path. Reach out for a free written estimate on [commercial roof repair](/commercial-roof-repair-in-newark-nj).",
     "metaDescription": "A NJ commercial roof leak traces to a failed seam or flashing; a manufacturer-approved repair keeps the warranty intact, and a repair over 25% needs a permit."
   },
@@ -270,7 +270,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A commercial roof reaches full replacement when the membrane sits at or past its material lifespan, damage crosses more than 25 to 30 percent of the area, core samples or an ASTM C1153 survey show saturated insulation across a majority of the roof, leaks recur at the same spot, or seam, flashing, blister, and moisture failures appear together — the point a repair scope ends and a new insulation-and-membrane system replaces the assembly to the deck.",
-    "ctaHeading": "See Whether Your Commercial Roof Needs Replacement in Essex County",
+    "ctaHeading": "See Whether Your Commercial Roof Needs Replacement in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess the membrane age, the damaged area, and the wet insulation with an ASTM C1153 moisture survey before scoping a [commercial roof replacement](/commercial-roof-replacement-in-newark-nj), and install the new system to manufacturer specification. Reach out for a free written estimate.",
     "metaDescription": "Signs of commercial roof replacement: a membrane past its lifespan, damage over 25-30% of area, saturated insulation, recurring leaks, or multiple failures."
   },
@@ -308,7 +308,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Commercial roof replacement in New Jersey runs about $7 to $12 per square foot installed for single-ply membrane — EPDM $7 to $10, TPO $8 to $12, PVC $6 to $12, and spray polyurethane foam $4 to $8 — with NJ ranges 10 to 40% above national, and the tear-off scope, deck repair, and tapered insulation built to ¼ inch per foot moving the installed number within that band.",
-    "ctaHeading": "Get a Free Written Re-Roof Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Re-Roof Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We replace EPDM, TPO, PVC, modified-bitumen, built-up, and metal commercial roofs to manufacturer specification, building tapered insulation to ¼ inch per foot of slope. Reach out for a [free written estimate](/commercial-roof-replacement-in-newark-nj) that prices the membrane, the tear-off, and the insulation for your roof.",
     "metaDescription": "Commercial roof replacement costs $7-$12 per square foot installed in NJ for single-ply: EPDM $7-$10, TPO $8-$12, PVC $6-$12, SPF $4-$8, 10-40% above national."
   },
@@ -346,7 +346,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A NJ business owner reaches the replacement decision at the 25-30% damage, recurring-leak, or saturated-insulation line, scopes the wet insulation with an ASTM C1153 infrared survey verified by core cut before tear-off, files the permit N.J.A.C. 5:23-2.7 requires, matches the membrane to the building and the Essex County winter, and hires a registered, insured contractor whose written proposal names the system, the service life, and the manufacturer material versus written workmanship warranty split.",
-    "ctaHeading": "Plan a Commercial Roof Replacement in Essex County",
+    "ctaHeading": "Plan a Commercial Roof Replacement in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We scope the wet insulation with an ASTM C1153 infrared survey, file the N.J.A.C. 5:23-2.7 permit, and install the new membrane to manufacturer specification. Reach out for a [free written estimate](/commercial-roof-replacement-in-newark-nj) on your commercial replacement.",
     "metaDescription": "NJ commercial roof replacement: repair-vs-replace at the 25-30% line, an ASTM C1153 survey before tear-off, a N.J.A.C. 5:23-2.7 permit, and the system choice."
   },
@@ -384,7 +384,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Intermittent leaks a visual inspection cannot place, an intact membrane that still admits water, a planned repair or replacement, an energy penalty with no visible defect, and recent storm, HVAC, or rooftop traffic each call for a roof thermal imaging inspection, because under ASTM C1153 an infrared scan locates the wet insulation a surface walk conceals and verifies every anomaly by core cut.",
-    "ctaHeading": "Schedule a Roof Thermal Imaging Inspection in Essex County",
+    "ctaHeading": "Schedule a Roof Thermal Imaging Inspection in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate on a [roof thermal imaging inspection](/roof-thermal-imaging-inspections-in-newark-nj) — an ASTM C1153 infrared survey that scans after sunset, verifies every anomaly by core cut, and maps the wet insulation behind a leak before a repair or replacement scope sets.",
     "metaDescription": "Signs you need roof thermal imaging: intermittent leaks a walk can't locate, an intact membrane that leaks, a planned re-roof, an energy penalty, or storm work."
   },
@@ -422,7 +422,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A roof thermal imaging inspection prices by what the roof requires — its size, slope, access, the season's temperature contrast, and the core-cut verification ASTM C1153 mandates at every anomaly — rather than a single posted rate, because the standard pairs the infrared scan with physical confirmation of each warm anomaly before it records as wet insulation.",
-    "ctaHeading": "Get a Written Thermal Imaging Estimate in Essex County",
+    "ctaHeading": "Get a Written Thermal Imaging Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We scan low-slope roofs under ASTM C1153, verify each anomaly by core cut, and map the wet insulation. Request a [free written thermal imaging estimate](/roof-thermal-imaging-inspections-in-newark-nj).",
     "metaDescription": "Roof thermal imaging inspection cost in NJ prices by roof size, slope, access, and ASTM C1153 core-cut verification — no flat rate. Free written estimate."
   },
@@ -460,7 +460,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "For a NJ business owner, a roof thermal imaging inspection earns its place by mapping concealed wet insulation under an intact membrane through ASTM C1153 infrared imaging — locating moisture rather than the displaced leak entry, scanning after sunset under set optimal conditions, and verifying every anomaly by core cut before it records. Read against a physical inspection and run by a registered, insured contractor, the verified moisture map sizes a repair-versus-replacement scope before any tear-off begins.",
-    "ctaHeading": "Schedule a Roof Thermal Imaging Inspection in Essex County",
+    "ctaHeading": "Schedule a Roof Thermal Imaging Inspection in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We scan commercial and residential low-slope roofs to ASTM C1153, verify every anomaly by core cut, and map the wet insulation that sizes a repair or replacement scope. Reach out for a free written estimate.",
     "metaDescription": "A NJ roof thermal imaging inspection applies ASTM C1153 to find wet insulation, not the leak entry, scans after sunset, and verifies each anomaly by core cut."
   },
@@ -498,7 +498,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Repairs that fail at the wrong spot, water surfacing distant from any defect, an intact membrane leaking below, a repair-versus-replace decision against the 25-to-30-percent threshold, an insurance claim needing documentation, and a large roof on a maintenance budget each point to an ASTM C1153 infrared roof leak detection scan that maps the subsurface wet insulation and verifies each anomaly by core cut.",
-    "ctaHeading": "Map a Persistent Leak in Essex County",
+    "ctaHeading": "Map a Persistent Leak in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate on infrared roof leak detection — an ASTM C1153 after-sunset scan that maps the subsurface wet insulation, verified by core cut, probe, or calibrated moisture meter, on your commercial or flat residential roof.",
     "metaDescription": "Signs you need infrared roof leak detection: repairs failing at the wrong spot, water far from any defect, an intact membrane leaking, or a claim needing proof."
   },
@@ -536,7 +536,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Infrared roof leak detection in New Jersey prices by roof size and accessibility, the roof system and its thermal contrast, the core-cut verification ASTM C1153 requires at each anomaly, and the mapped report a claim or maintenance program needs — drivers that replace a flat per-roof rate, while the verified moisture map directs a targeted repair against a blind tear-out.",
-    "ctaHeading": "Get a Free Written Estimate for an Infrared Roof Scan in Essex County",
+    "ctaHeading": "Get a Free Written Estimate for an Infrared Roof Scan in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We scan low-slope and flat roofs to ASTM C1153, verify every anomaly by core cut, and deliver a mapped wet-insulation report. Reach out for a free written estimate priced to your roof size, system, and verification scope.",
     "metaDescription": "Infrared roof leak detection cost in NJ has no flat rate; it prices by roof size, system, and ASTM C1153 core-cut verification, plus a free written estimate."
   },
@@ -574,7 +574,7 @@ export const commercialServicesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "For a NJ business owner, infrared roof leak detection applies ASTM C1153 to map the wet insulation behind a leak rather than the entry point, verifies each thermal anomaly by core cut after an after-sunset scan, and traces the moisture back toward the flashing detail that admits roughly 90–95% of roof leaks — a documented, non-destructive method that directs a targeted repair instead of exploratory tear-out.",
-    "ctaHeading": "Schedule Infrared Roof Leak Detection in Essex County",
+    "ctaHeading": "Schedule Infrared Roof Leak Detection in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We scan commercial and residential low-slope roofs to ASTM C1153, verify each anomaly by core cut, and deliver a documented wet-insulation map. Reach out for a free written estimate on [infrared roof leak detection](/infrared-roof-leak-detection-in-newark-nj).",
     "metaDescription": "Infrared roof leak detection maps wet insulation, not the entry point, applies ASTM C1153, verifies by core cut, and traces leaks to flashing details in NJ."
   }

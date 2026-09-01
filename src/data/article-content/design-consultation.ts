@@ -40,7 +40,7 @@ export const designConsultationArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A new build or addition without a specification, a complex valley-dormer-hip geometry, a material-selection decision across the InterNACHI families, and a structural change under N.J.A.C. 5:23-2.7 each signal a roof that benefits from a written specification rather than an off-the-shelf install.",
-    "ctaHeading": "Plan Your Custom Roof in Essex County",
+    "ctaHeading": "Plan Your Custom Roof in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate and a roofing specification that documents your roof geometry, material choice, flashing detail, and code path.",
     "metaDescription": "Signs you need custom roof design and consultation in NJ: a new build, complex valley-dormer-hip geometry, a material choice, or a structural permit."
   },
@@ -78,7 +78,7 @@ export const designConsultationArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A custom roof design and consultation in New Jersey is normally a free written estimate, so the budget a homeowner plans around is the install cost — set by the material at $6.50 to $11.00 per square foot for architectural asphalt up to $10 to $30 for slate, by roof complexity, and by deck condition, with the written specification resolving flashing details in advance to avoid the leaks that flashing causes in 90 to 95 percent of cases.",
-    "ctaHeading": "Get a Free Written Custom Roof Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Custom Roof Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate and roofing specification that documents the material, flashing, ventilation, and install cost for your custom roof.",
     "metaDescription": "A custom roof design and consultation in NJ is usually a free estimate; the cost lands in the install — architectural asphalt $6.50-$11.00/sq ft, slate $10-$30."
   },
@@ -116,7 +116,7 @@ export const designConsultationArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A custom roof design and consultation runs from a survey of the existing roof, deck, attic ventilation, and geometry, through a material evaluation against measured lifespans, to a written roofing specification with wind and snow loads set to ASCE 7, giving a homeowner a documented plan an installation or a competitive bid works from.",
-    "ctaHeading": "Get a Written Roofing Specification in Essex County",
+    "ctaHeading": "Get a Written Roofing Specification in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate and a roofing specification that documents the material, ventilation, flashing, and the wind and snow loads to ASCE 7.",
     "metaDescription": "A custom roof design and consultation moves from roof and attic assessment through material evaluation by InterNACHI lifespan to a written ASCE 7 specification."
   },
@@ -154,7 +154,7 @@ export const designConsultationArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A historic roof signals restoration through corroded fasteners and flashing beneath long-lived slate, tile, or copper, through local historic-district review under N.J.S.A. 40:55D-107, and through water intrusion staining character-defining interior fabric, each calling for in-kind repair under the Secretary of the Interior's Standards rather than wholesale replacement.",
-    "ctaHeading": "Have a Historic Roof Assessed in Essex County",
+    "ctaHeading": "Have a Historic Roof Assessed in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate and an assessment of your slate, tile, wood, or metal roof, with in-kind repair matched to the original material. Explore our [historic roof restoration](/historic-roof-restoration-in-newark-nj) work to start.",
     "metaDescription": "Signs you need historic roof restoration: sliding slates with rust staining, open metal seams, slipping clay tiles, and interior water stains."
   },
@@ -230,7 +230,7 @@ export const designConsultationArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Historic roof restoration follows a disciplined sequence — document the roof, coordinate the Certificate of Appropriateness, source and match material in kind, then repair section by section under the Secretary of the Interior's Standards — that keeps the original slate, tile, wood, or metal and its character-defining detail on the building.",
-    "ctaHeading": "Plan a Historic Roof Restoration in Essex County",
+    "ctaHeading": "Plan a Historic Roof Restoration in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the existing roof, coordinate the Certificate of Appropriateness with the municipal Historic Preservation Commission, and repair slate, tile, wood, and metal in kind. Reach out for a free written estimate.",
     "metaDescription": "Historic roof restoration: documentation, Certificate of Appropriateness, in-kind material matching, and section-by-section repair in kind."
   },
@@ -243,7 +243,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "intro": "Each of these signs traces back to the same root cause — heated air leaking into the attic and warming the roof from beneath.",
     "sections": [
       {
-        "heading": "The 3 Conditions That Form an Ice Dam in Essex County",
+        "heading": "The 3 Conditions That Form an Ice Dam in Essex County, NJ",
         "body": [
           "**An ice dam forms from 3 conditions: snow on the roof, an upper roof surface above 32°F that melts the snowpack from beneath, and an eave below 32°F that refreezes the meltwater into a dam at the edge.** The trapped water then backs up under the shingles, per University of Minnesota Extension.",
           "**Attic heat escape** is the root cause, driven by air leakage rather than gutters, per University of Minnesota Extension and building-science consensus. Heated air leaking through ceiling bypasses warms the roof deck and pushes the upper roof above 32°F, while the eave overhangs unheated space and stays below freezing, so the meltwater running down refreezes into a ridge at the cold edge.",
@@ -306,7 +306,7 @@ export const designConsultationArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Ice dam prevention is priced from the attic and roof condition, not a flat package: the air-sealing scope, the insulation added to the R-60 code-minimum ceiling level, the ventilation correction to the 1/150 net free area, and the eave ice-barrier length each set the cost, and a one-time root-cause fix replaces the recurring expense of emergency removal.",
-    "ctaHeading": "Get a Written Ice Dam Prevention Estimate in Essex County",
+    "ctaHeading": "Get a Written Ice Dam Prevention Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate after an attic and roof inspection that scopes the air-sealing, insulation, ventilation, and eave ice-barrier work before pricing.",
     "metaDescription": "Ice dam prevention cost in NJ depends on attic air-sealing, insulation to R-60, ventilation, and eave ice-barrier length, priced from an attic inspection."
   },
@@ -344,7 +344,7 @@ export const designConsultationArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Effective ice dam prevention follows the evidence: diagnose where attic heat reaches the deck, air-seal the bypasses, insulate to the code-minimum level, balance soffit-and-ridge ventilation, and install the eave ice barrier from the eave to at least 24 inches inside the exterior wall line — with spray foam, heat cables, and an extended membrane reserved for the cases that warrant them.",
-    "ctaHeading": "Plan a Root-Cause Ice Dam Fix in Essex County",
+    "ctaHeading": "Plan a Root-Cause Ice Dam Fix in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate after an attic-and-roof inspection that traces the heat path and scopes the air-sealing, insulation, ventilation, and eave ice barrier in sequence.",
     "metaDescription": "Ice dam prevention is diagnostic-first: find the attic heat path, then air-seal, insulate to code, balance ventilation, and install the eave ice barrier."
   }

@@ -197,7 +197,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "An overlay has no published whole-job New Jersey price; it is quoted per square foot at $6.50-$11.00 for architectural and $5.50-$9.50 for 3-tab installed per Josten Roofing NJ pricing, runs roughly 20-25% less than a tear-off per HomeGuide and Angi, and trades that saving against a shorter shingle life and a hidden deck.",
-    "ctaHeading": "Get a Written Overlay Estimate in Essex County",
+    "ctaHeading": "Get a Written Overlay Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that measures the roof, prices the overlay per square foot, and states the trade-offs against a full [roof replacement](/roof-replacement-in-newark-nj) before any work begins.",
     "metaDescription": "A NJ roof overlay has no flat total; it runs about 20-25% less than a tear-off and $6.50-$11/sq ft installed for architectural asphalt, per Josten and Angi."
   },
@@ -514,7 +514,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Read together, widespread wind-stripped shingles, scattered hail bruising with granule loss, debris penetration, and damage past the 25 to 30 percent area threshold are the signs a storm-damaged roof has moved beyond a localized repair into replacement territory.",
-    "ctaHeading": "Get a Storm-Damage Roof Assessment in Essex County",
+    "ctaHeading": "Get a Storm-Damage Roof Assessment in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document wind and hail damage with timestamped photographs and a written scope, then meet the adjuster on site; the homeowner or a licensed public adjuster files and negotiates the claim. Explore [storm damage roof replacement](/storm-damage-roof-replacement-in-newark-nj) to start.",
     "metaDescription": "Signs you need storm damage roof replacement: wind-stripped shingles (ASTM D3161), hail bruising and granule loss, debris hits, and over 25-30% roof damage."
   },
@@ -908,7 +908,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A fire rebuild has no single sourced total: the covering follows New Jersey roof-replacement pricing of $10,000-$25,000 per HomeAdvisor and Modernize NJ, the structural framing and decking scope is sized by a post-fire assessment, and the insurance side is a covered-peril loss minus the homeowner's deductible per the Insurance Information Institute. A written estimate that separates the structural scope from the covering gives the only accurate figure for a specific home.",
-    "ctaHeading": "Get a Written Fire-Rebuild Estimate in Essex County",
+    "ctaHeading": "Get a Written Fire-Rebuild Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that separates the structural framing and decking scope from the [roof replacement](/roof-replacement-in-newark-nj) covering, so you can compare the fire rebuild line by line.",
     "metaDescription": "Fire damage roof replacement has no single NJ total. NJ roof replacement runs $10,000-$25,000 for the covering; fire adds framing and decking work."
   },
@@ -1303,7 +1303,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The defining reality of slate replacement is that it renews a system, not a single material: a full tear-off that the code requires, a copper or stainless fastening and flashing system rebuilt to outlast the next century, and historic review where the building is a designated landmark — all in service of a 60-to-150-year covering whose stone usually outlives everything holding it up.",
-    "ctaHeading": "Plan a Slate Roof Replacement in Essex County",
+    "ctaHeading": "Plan a Slate Roof Replacement in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document the slate against the 20% threshold, reinstall on copper or stainless fasteners, and provide a free written estimate for your [roof replacement](/roof-replacement-in-newark-nj).",
     "metaDescription": "Slate replacement is always a full tear-off under NJ code, and a slate roof fails at its fasteners and flashing, not the stone. What homeowners should know."
   },

@@ -140,7 +140,7 @@ export default function AboutPage() {
       <section className="bg-parchment px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Our Story as a Newark Roofing Company
+            Our Story as a Newark, NJ Roofing Company
           </h2>
           <div className="mt-8 space-y-5 font-body text-lg leading-relaxed text-text-secondary">
             <p>
@@ -264,7 +264,7 @@ export default function AboutPage() {
       <section className="bg-parchment px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Our Involvement in the Newark Community
+            Our Involvement in the Newark, NJ Community
           </h2>
           <div className="mt-6 space-y-4 font-body text-lg leading-relaxed text-text-secondary">
             <p>

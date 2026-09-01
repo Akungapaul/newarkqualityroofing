@@ -63,6 +63,47 @@ const PRERENDER_DIR = join(REPO_ROOT, '.next', 'server', 'app');
 
 const isQuestion = (text: string): boolean => text.trim().endsWith('?');
 
+// ── City+State rule (2026-09 owner decision) ─────────────────────────────────
+// Every heading that names a city or county pairs it with the state:
+// "in Newark, NJ", "Essex County, NJ" — never a bare "in Newark". The brand
+// ("Newark Quality Roofing") is exempt, and a conjunction chain may carry one
+// trailing ", NJ" for the whole chain ("Newark and Essex County, NJ").
+const PLACE_NAMES: string[] = ['Essex County', ...cities.map((c) => c.name)].sort(
+  (a, b) => b.length - a.length,
+);
+const BRAND_NAME = 'Newark Quality Roofing';
+const STATE_AFTER = /^(,? NJ\b|, New Jersey\b)/;
+const PLACE_CHAIN = /^(?:'s)?\s*(?:and|or|&|,)\s+(?:each\s+|the\s+)?(.*)$/i;
+
+/** Returns the bare (state-less) place references in a heading, if any.
+ *  A heading that carries the state ANYWHERE ("… Essex County Colonial Homes
+ *  in NJ") is compliant — the rule is city+state present together, not
+ *  strict adjacency. */
+function barePlaces(heading: string): string[] {
+  let masked = heading.split(BRAND_NAME).join('#'.repeat(BRAND_NAME.length));
+  if (/\b(NJ|New Jersey)\b/.test(masked)) return [];
+  const out: string[] = [];
+  for (const p of PLACE_NAMES) {
+    let start = 0;
+    for (;;) {
+      const i = masked.indexOf(p, start);
+      if (i === -1) break;
+      const after = masked.slice(i + p.length);
+      let ok = STATE_AFTER.test(after);
+      const m = after.match(PLACE_CHAIN);
+      if (!ok && m) {
+        for (const q of PLACE_NAMES) {
+          if (m[1].startsWith(q) && STATE_AFTER.test(m[1].slice(q.length))) ok = true;
+        }
+      }
+      if (!ok) out.push(p);
+      masked = masked.slice(0, i) + '#'.repeat(p.length) + masked.slice(i + p.length);
+      start = i + p.length;
+    }
+  }
+  return out;
+}
+
 /** Element-node children (nodeType 1) — used for the split-H1 rule. */
 function hasElementChildren(el: HTMLElement): boolean {
   return el.childNodes.some((n) => n.nodeType === 1);
@@ -136,6 +177,14 @@ function staticPass(errors: string[]): void {
   // statement-form; only FAQ item questions stay interrogative).
   for (const [name, str] of h2Strings) {
     if (isQuestion(str)) errors.push(`STATIC config heading is a question — headings must be statements (${name}): "${str}"`);
+  }
+
+  // ── 1c. City+State: no config heading names a city/county without the state ──
+  for (const [name, str] of [...h1Strings, ...h2Strings]) {
+    const bare = barePlaces(str);
+    if (bare.length) {
+      errors.push(`STATIC heading names ${bare.join(', ')} without ", NJ" (${name}): "${str}"`);
+    }
   }
 
   // ── 2. Exactly one H1 per page type + H1 never equals any of its own H2s ─────
@@ -368,6 +417,13 @@ function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
     // H1 statement form is asserted above (skip double-reporting it here).
     if (h.tagName !== 'H1' && !isHubFaqItem && isQuestion(text)) {
       errors.push(`${tag} <${h.tagName.toLowerCase()}> is a question — headings must be statements → "${text}"`);
+    }
+    // City+State rule — FAQ item questions are conversational and exempt.
+    if (!isHubFaqItem) {
+      const bare = barePlaces(text);
+      if (bare.length) {
+        errors.push(`${tag} <${h.tagName.toLowerCase()}> names ${bare.join(', ')} without ", NJ" → "${text}"`);
+      }
     }
     const level = Number(h.tagName[1]);
     if (prevLevel && level > prevLevel + 1) {

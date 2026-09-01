@@ -39,7 +39,7 @@ export function HomeResidentialCommercial() {
           id="res-comm-heading"
           className="mb-12 text-center font-heading text-3xl font-bold text-forest sm:text-4xl"
         >
-          Roofing for Homes and Businesses in Essex County
+          Roofing for Homes and Businesses in Essex County, NJ
         </h2>
 
         {/* 50/50 grid */}

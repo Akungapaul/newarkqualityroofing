@@ -191,7 +191,7 @@ export default function ServicesHubPage() {
       <main className="mx-auto max-w-6xl space-y-12 px-6 pb-20">
         {/* Residential Section */}
         <ServiceSection
-          title="Residential Roofing Services We Provide in Essex County"
+          title="Residential Roofing Services We Provide in Essex County, NJ"
           description="Expert roofing solutions for homeowners across Essex County. Quality materials, skilled craftsmanship, and warranties you can trust."
           grouped={residentialGrouped}
           variant="residential"
@@ -201,7 +201,7 @@ export default function ServicesHubPage() {
 
         {/* Commercial Section */}
         <ServiceSection
-          title="Commercial Roofing Services We Provide in Essex County"
+          title="Commercial Roofing Services We Provide in Essex County, NJ"
           description="Industrial-grade roofing systems for businesses, warehouses, and commercial properties throughout Newark and Essex County."
           grouped={commercialGrouped}
           variant="commercial"

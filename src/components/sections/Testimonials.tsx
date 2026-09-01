@@ -19,7 +19,7 @@ export function Testimonials() {
           id="testimonials-heading"
           className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl"
         >
-          What Newark Customers Say About Our Roofing
+          What Newark, NJ Customers Say About Our Roofing
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-center font-body text-lg text-text-secondary">
           Results across Newark’s neighborhoods — from emergency storm response to

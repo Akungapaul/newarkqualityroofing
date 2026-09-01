@@ -76,7 +76,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Repair Suits a Young Essex County House; Replacement Suits an Aging One`,
+      heading: `Repair Suits a Young Essex County, NJ House; Replacement Suits an Aging One`,
       content: [
         `**Roof repair** suits a young house with isolated damage and **roof replacement** suits an aging house near its 20–30-year asphalt life — the "50% rule" decides the middle: a repair over 50% of replacement cost leans to replace, per WeatherShield.`,
         `**Roof replacement** turns into a near-term resale lever: a new asphalt roof recoups ~61% of job cost (Remodeling/Zonda 2023), 60–68% nationally (Zillow via Opendoor), and adds ~$15,247 to resale value while letting sellers ask 1%–3% more, per Opendoor and Zillow analysis.`,
@@ -141,7 +141,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Coating Costs Less Than Replacement on a Qualifying Essex County Flat Roof`,
+        heading: `Coating Costs Less Than Replacement on a Qualifying Essex County, NJ Flat Roof`,
         content: [
           `**Roof coating** costs less than **roof replacement** on a qualifying roof — silicone life-extension runs $1,500–$7,000 with repaint sections at $1.20–$2.70 per sq ft per CPS Construction, against NJ replacement of $7.00–$12.00 per sq ft per Josten Roofing.`,
           `**Roof coating** avoids tear-off cost and renews rather than rebuilds: a maintained coated roof is recoated at the end of its ~10–15-year acrylic or ~15–20-year silicone cycle, not replaced, and a recoated roof is recoated again, per RCMA and the SPFA.`,
@@ -362,7 +362,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Patching for One Breach, Comprehensive Repair for Recurring Leaks in Essex County`,
+      heading: `Patching for One Breach, Comprehensive Repair for Recurring Leaks in Essex County, NJ`,
       content: [
         `**Roof patching** suits an Essex County house with a single contained breach, while **comprehensive roof repair** suits a house with a recurring leak, multiple interior stains, or an aging roof — a free inspection determines which the roof needs.`,
         `**Roof patching** at $150–$500 (HomeAdvisor) resolves an isolated impact cost-effectively, but a patch that masks a deteriorated flashing detail or underlayment reopens, since flashing carries roughly 90–95% of roof leaks (industry estimate attributed to the NRCA).`,
@@ -450,7 +450,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Preventive Maintenance Suits the Essex County House You Plan to Hold`,
+      heading: `Preventive Maintenance Suits the Essex County, NJ House You Plan to Hold`,
       content: [
         `**Preventive maintenance** suits a house an owner plans to hold and **emergency repair** is the fallback for a roof already leaking — the NRCA twice-yearly cadence catches defects before they reach the interior, per the National Roofing Contractors Association.`,
         `**Preventive maintenance** on a house pairs the two NRCA inspections with twice-yearly gutter cleaning, spring and fall (3–4 times with pine trees nearby), per GAF and Angi, keeping eaves clear of the debris that drives ice-dam backup over a Newark winter.`,

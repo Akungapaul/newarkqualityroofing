@@ -16,7 +16,7 @@ export const residentialRoofingHubContent: HubContent = {
       ]
     },
     {
-      "heading": "Roofing Materials Suited to Essex County Homes",
+      "heading": "Roofing Materials Suited to Essex County, NJ Homes",
       "body": [
         "**6 roofing materials suit Essex County, New Jersey homes: asphalt shingle, metal, natural slate, clay and concrete tile, cedar shake, and EPDM membrane** — each with a distinct service-life range attributed to InterNACHI and industry guides.",
         "**Architectural asphalt shingle** lasts roughly 25–30 years and covers most Essex County, New Jersey homes, while **metal roofing** lasts about 40–70 years and resists wind uplift. **Natural slate** lasts 75–150+ years and suits the historic homes of Montclair and the Caldwells, and **clay and concrete tile** lasts 50–100 years, per InterNACHI and industry service-life ranges.",
@@ -90,7 +90,7 @@ export const residentialRoofingHubContent: HubContent = {
       }
     ]
   },
-  "faqHeading": "Residential Roofing FAQs for Essex County Homeowners",
+  "faqHeading": "Residential Roofing FAQs for Essex County, NJ Homeowners",
   "faqs": [
     {
       "question": "What residential roofing services does Newark Quality Roofing provide?",

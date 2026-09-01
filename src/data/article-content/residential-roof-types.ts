@@ -44,7 +44,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A roof at or past its material life, damage across more than a quarter of its area, a spongy or sagging deck, a change of material class, or new construction each points to a full residential roof installation, because a complete deck-to-ridge system corrects the deck, ventilation, and code details a surface repair leaves untouched.",
-    "ctaHeading": "Get a Free Written Roof Installation Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Roof Installation Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that assesses the deck, the attic ventilation, and the material lifespan before any installation scope is set.",
     "metaDescription": "Signs you need a full roof installation: a roof past its material life, damage over 25–30% of the area, a sagging deck, a material change, or new construction."
   },
@@ -82,7 +82,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A residential roof installation in New Jersey runs about $10,000 to $25,000 or more, set by the material class at $6.50 to $30 per square foot, the tear-off and deck work state code requires, the roof's complexity, and a labor share near 60 to 70 percent of the total, with the state figure landing 10 to 40 percent above national averages.",
-    "ctaHeading": "Get a Written Roof Installation Estimate in Essex County",
+    "ctaHeading": "Get a Written Roof Installation Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes material, tear-off, deck repair, and labor so you can see exactly what your roof installation costs.",
     "metaDescription": "Residential roof installation in NJ runs about $10,000-$25,000+, or $6.50-$30 per square foot by material, with NJ pricing 10-40% above national figures."
   },
@@ -120,7 +120,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A full residential roof installation buys a complete, warranty-backed deck-to-ridge system and a roughly 60 to 68% resale recoup at a $10,000 to $25,000-plus cost, making it the right call for new construction, a roof past its material life, damage beyond the 25% rule, a rotted deck, or a material-class change, while a single in-life failure points toward a narrower repair.",
-    "ctaHeading": "Get a Free Written Estimate for Your Essex County Roof",
+    "ctaHeading": "Get a Free Written Estimate for Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that sets the scope, materials, lifespan, and timeline so you can weigh a full installation against a targeted repair.",
     "metaDescription": "A full residential roof installation rebuilds the deck-to-ridge system and recoups 60-68% at resale for $10,000-$25,000+. When it fits an Essex County home."
   },
@@ -158,7 +158,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Asphalt shingle warning signs read across three groups: a roof at or past its 20-year 3-tab or 30-year architectural life, surface deterioration such as granule loss over 30%, curling, wind-stripped shingles, or spreading ceiling stains, and damage across more than 25–30% of the area or a roof carrying 2 or more layers that forces complete removal under N.J.A.C. 5:23-6.4. Together they separate a roof that takes a targeted repair from one that has earned a full re-roof.",
-    "ctaHeading": "Get Your Asphalt Roof Assessed in Essex County",
+    "ctaHeading": "Get Your Asphalt Roof Assessed in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that assesses your shingle lifespan, granule loss, flashing, and deck condition before any work begins. Explore our [asphalt shingle roofing](/asphalt-shingle-roofing-in-newark-nj) service to start.",
     "metaDescription": "Asphalt roof warning signs: age past 20–30 years, granule loss over 30%, curling or wind-stripped shingles, and damage across more than 25–30% of the roof."
   },
@@ -196,7 +196,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Asphalt shingle roofing runs $5.50 to $9.50 per square foot for 3-tab and $6.50 to $11.00 for architectural shingles in New Jersey, with shingle tier, tear-off scope, and labor setting the figure inside those ranges and the state premium tracing to higher labor and stricter code.",
-    "ctaHeading": "Get a Free Written Asphalt Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Asphalt Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes the shingle tier, tear-off scope, deck repair, and flashing work so you can compare it against these per-square-foot ranges line by line.",
     "metaDescription": "Asphalt shingle roofing costs $5.50-$9.50/sq ft for 3-tab and $6.50-$11 for architectural in NJ, about 10-40% above national, per Josten Roofing and HomeGuide."
   },
@@ -225,7 +225,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Asphalt Shingles Fit an Essex County Home",
+        "heading": "When Asphalt Shingles Fit an Essex County, NJ Home",
         "body": [
           "**Asphalt shingle roofing** fits a standard pitched Essex County roof when cost, fast availability, and a 20-to-30-year service life match the plan, and it carries no construction permit on a detached one- and two-family home under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.",
           "**Architectural shingles** suit an owner who wants the 30-year life and the 130-mph 6-nail rating over the 20-year 3-tab option, per the InterNACHI life-expectancy chart and ARMA, while long-term ownership seeking a far longer covering favors [metal](/metal-roof-installation-repair-in-newark-nj) at 40 to 80 years or [slate](/slate-roof-installation-repair-in-newark-nj) at 60 to 150 years.",
@@ -234,7 +234,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Asphalt shingle roofing earns its place on most Essex County homes through the lowest cost per year, the widest availability at roughly 73% of US roofs, and an architectural wind rating up to 130 mph, traded against a 20-to-30-year life that slate, metal, and tile outlast; matching the shingle tier and a balanced vent ratio to the home, then verifying contractor registration and insurance, settles the decision.",
-    "ctaHeading": "Weigh Your Asphalt Roofing Options in Essex County",
+    "ctaHeading": "Weigh Your Asphalt Roofing Options in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that compares 3-tab and architectural shingles with ice barrier, flashing, and ventilation itemized line by line.",
     "metaDescription": "Asphalt shingle roofing pros and cons: lowest cost per year and up to a 130 mph architectural rating, against a shorter 20-to-30-year life than slate or metal."
   },
@@ -272,7 +272,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Most slate problems trace to corroded fasteners and degraded copper flashing, not the stone itself, so sliding tiles, cracked or missing tiles, rusted flashing, and interior leaks with the field intact point to a targeted repair rather than a full re-slate, which the deck condition and widespread fastener corrosion confirm.",
-    "ctaHeading": "Get Your Slate Roof Assessed in Essex County",
+    "ctaHeading": "Get Your Slate Roof Assessed in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that separates a sound slate field from the corroded fasteners and failed flashing behind a leak.",
     "metaDescription": "Signs you need slate roof repair: sliding tiles from corroded nails, cracked or missing slate, rusted valley and chimney flashing, leaks with tiles intact."
   },
@@ -310,7 +310,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Slate work prices by the detail that failed: a repair at $500 to $2,100, broken tile at $50 to $300 each, flashing or fastener work at $400 to $3,000, restoration at $2,500 to $10,000-plus, and a new install at roughly $10 to $30 per square foot, all sitting 10 to 40 percent above national figures across New Jersey.",
-    "ctaHeading": "Get a Written Slate Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Written Slate Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that sizes the slate repair or installation scope before any work begins.",
     "metaDescription": "Slate roof repair in NJ runs $500-$2,100 (about $1,400 typical), broken tile $50-$300 each, flashing or fastener $400-$3,000, install $10-$30 per square foot."
   },
@@ -339,7 +339,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Slate Suits Historic Essex County Homes With Load-Ready Framing",
+        "heading": "Slate Suits Historic Essex County, NJ Homes With Load-Ready Framing",
         "body": [
           "**Slate fits a historic home or new build with framing that carries the load and an owner wanting a century covering**, per the InterNACHI life-expectancy chart and National Slate Association guidance. The stone suits the older Essex County housing stock, where a slate roof matches the original material and lasts 60 to 150 years on a deck engineered for the weight.",
           "**Slate repair, rather than replacement, fits while the slate field stays sound** and the failure traces to fasteners or flashing, per NRCA guidance. A targeted repair reseals the failed detail and resets broken tiles, so replacement applies only when more than 30 to 40% of fasteners corrode beyond repair or the deck rots. A homeowner wanting a lighter, lower-cost covering instead favors [asphalt shingle roofing](/asphalt-shingle-roofing-in-newark-nj) at a 20-to-30-year life.",
@@ -348,7 +348,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Slate trades a high upfront cost and a structural-deck requirement for a 60-to-150-year natural-stone life and indefinite tile-by-tile repairability, so it fits an Essex County home whose framing carries the load and an owner planning to keep a century covering, where targeted repair preserves a sound slate field while the deck and nailers stay sound.",
-    "ctaHeading": "Weigh Slate for Your Essex County Home",
+    "ctaHeading": "Weigh Slate for Your Essex County, NJ Home",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that assesses the slate field, the fasteners and flashing, and the deck condition before any work begins.",
     "metaDescription": "Slate roofing pros and cons: a 60-to-150-year natural-stone life and tile-by-tile repair versus high cost and weight that needs a structural deck check."
   },
@@ -386,7 +386,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Wood shake roofing signals replacement when shakes cup, split, or warp across more than 25 to 30% of the roof, when a shake cracks under the InterNACHI flex test, when moss or rot marks trapped moisture on shaded slopes, or when daylight shows through the deck, while localized damage on a sound deck still answers to a targeted repair.",
-    "ctaHeading": "Get a Wood Shake Roof Assessment in Essex County",
+    "ctaHeading": "Get a Wood Shake Roof Assessment in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for an inspection of your cedar roof and a free written estimate covering repair or replacement of the ventilated shake assembly.",
     "metaDescription": "Signs you need wood shake roofing: shakes cupped or split past 25-30%, a failed flex test, moss, shaded-slope rot, or daylight through the deck."
   },
@@ -424,7 +424,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Wood shake roofing in New Jersey installs at about $10 to $20-plus per square foot, with repairs at $400 to $1,800 and recurring maintenance at $0.15 to $0.60 per square foot; material grade, the ventilated assembly, fire-retardant treatment, mandatory tear-off, and 10-to-40% higher NJ labor and code set where a given roof lands.",
-    "ctaHeading": "Get a Written Wood Shake Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Written Wood Shake Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that documents the cedar condition and itemizes scope, labor, and materials so you can see exactly what your wood shake project costs.",
     "metaDescription": "Wood shake roofing in NJ runs about $10-$20+/sf installed, $400-$1,800 for repairs, plus cedar maintenance. What drives the price and why NJ sits higher."
   },
@@ -453,7 +453,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Wood Shake Fits an Essex County Home",
+        "heading": "When Wood Shake Fits an Essex County, NJ Home",
         "body": [
           "**Wood shake fits an Essex County home** whose architectural character specifies cedar, built on a ventilated assembly with at least 1.5 inches of air space, and owned by someone committed to recurring moisture-management maintenance. The Cedar Shake & Shingle Bureau ties that maintenance to the upper end of the 20-to-40-year range.",
           "**A cedar roof** rewards an owner who values the natural look and accepts the maintenance cadence; the shakes reach their longer service life only when the drying space stays clear and the fungicide or algaecide treatment continues every few years. A homeowner wanting lower maintenance and a longer service life with less attention favors [asphalt shingle](/asphalt-shingle-roofing-in-newark-nj) at 20 to 30 years or [metal](/metal-roof-installation-repair-in-newark-nj) at 40 to 80 years instead.",
@@ -462,7 +462,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Wood shake gives an Essex County home western red cedar's natural decay resistance and a 20-to-40-year life with a distinct look, in exchange for a ventilated 1.5-inch air space and recurring fungicide or algaecide maintenance that keeps moisture-driven decay at bay; the choice fits a cedar-character home and an owner committed to that upkeep, while a homeowner wanting less maintenance and longer life leans toward asphalt or metal.",
-    "ctaHeading": "Weigh Wood Shake for Your Essex County Roof",
+    "ctaHeading": "Weigh Wood Shake for Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that documents the cedar grade, the ventilated drying space, and the flashing scope, with [wood shake roofing](/wood-shake-roofing-in-newark-nj) detailed before any work begins.",
     "metaDescription": "Wood shake roofing pros and cons: western red cedar's natural decay resistance and 20-40 year life versus recurring moisture-management maintenance in NJ."
   },
@@ -500,7 +500,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A metal roof signals work at the fasteners and seams that hold its water layer, at the coating where corrosion and oil-canning start, and at the 20-to-25% corrosion threshold that separates a targeted reseal from a full replacement on a 40-to-80-year cover.",
-    "ctaHeading": "Have Your Metal Roof Assessed in Essex County",
+    "ctaHeading": "Have Your Metal Roof Assessed in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that identifies the installed panel system and assesses the seams, fasteners, and corrosion before any [metal roof](/metal-roof-installation-repair-in-newark-nj) work.",
     "metaDescription": "Signs you need metal roof repair: backed-out fasteners, failed washer seals, separated seams, cut-edge corrosion, oil-canning, or corrosion past 20-25%."
   },
@@ -538,7 +538,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Metal roofing prices on three named ranges in New Jersey: $9 to $16 per square foot to install, $5 to $10 per square foot for panel or section repair, and $150 to $3,000 for an individual seam, fastener, or corrosion fix, all running 10 to 40% above national figures on labor and code.",
-    "ctaHeading": "Get a Written Metal Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Written Metal Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that names the panel substrate, repair scope, and per-square-foot pricing for your metal roof.",
     "metaDescription": "Metal roofing costs $9-$16/sf to install in NJ and $5-$10/sf to repair, with leak and seam fixes $150-$3,000 per Josten, HomeGuide, Modernize, and Angi."
   },
@@ -567,7 +567,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Metal Roofing Fits Multi-Decade Essex County Ownership",
+        "heading": "Metal Roofing Fits Multi-Decade Essex County, NJ Ownership",
         "body": [
           "**Metal roofing fits a multi-decade ownership wanting a 40-to-80-year cover**, with a concealed-fastener standing-seam system for the lowest leak risk and aluminum where nor'easter salt air reaches inland, per the InterNACHI life-expectancy chart and Metal Construction Association guidance.",
           "**A lower upfront cost** favors [asphalt shingle](/asphalt-shingle-roofing-in-newark-nj) at 20 years for 3-tab and 30 years for architectural over metal's $9-to-$16-per-square-foot install, per the InterNACHI chart and Josten Roofing NJ pricing. A flat or low-slope section of the same home takes a [flat-roof membrane](/flat-roof-installation-repair-in-newark-nj) rather than panels, since metal sheds water by slope. A re-roof of the covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit.",
@@ -576,7 +576,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Metal roofing pairs a 40-to-80-year life and a leak-resistant concealed-fastener standing-seam system against a higher upfront cost and thermal-movement demands, a trade that favors the long-term owner of an Essex County home over the homeowner seeking the lowest install price.",
-    "ctaHeading": "Weigh Metal Roofing for Your Essex County Home",
+    "ctaHeading": "Weigh Metal Roofing for Your Essex County, NJ Home",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that names the panel system, gauge, and color and weighs metal against asphalt or a flat-roof membrane for your home.",
     "metaDescription": "Metal roofing pros and cons for NJ homes: a 40-to-80-year life and leak-resistant standing seams against a higher cost than asphalt and thermal movement."
   },
@@ -614,7 +614,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A flat roof announces failure at its seams, its shrinking perimeter, and the ceiling below long before the deck gives way, and ponding past 48 hours or a membrane at the end of its 15-to-25-year EPDM, 7-to-20-year TPO, or 20-year modified-bitumen life marks the point where a patch gives way to a full membrane replacement.",
-    "ctaHeading": "Have a Flat Roof Checked in Essex County",
+    "ctaHeading": "Have a Flat Roof Checked in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that measures the slope, locates the ponding, and checks the membrane seams before any work begins.",
     "metaDescription": "Flat-roof warning signs: lifting seams, blistering, EPDM shrinkage, ponding past 48 hours, spreading ceiling stains, or a membrane past its EPDM/TPO life."
   },
@@ -652,7 +652,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Flat-roof work in New Jersey prices by scope: $2.50 to $10.00 per square foot for a repair (about $300 to $1,100 typical), $7 to $10 per square foot to install EPDM, and $8 to $12 for TPO, with drainage correction, tear-off, and NJ's 10-to-40-percent premium over national figures setting the final number.",
-    "ctaHeading": "Get a Free Written Flat-Roof Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Flat-Roof Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that measures the slope, locates the ponding, and prices the seam repair or membrane replacement line by line.",
     "metaDescription": "Flat-roof repair in NJ runs $2.50–$10/sq ft (about $300–$1,100), EPDM installs at $7–$10 and TPO at $8–$12 per sq ft, plus 10–40% above national rates."
   },
@@ -690,7 +690,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A flat roof membrane earns its place on the low-slope sections of an Essex County home by matching EPDM, TPO, or modified bitumen to the building, while its shorter life, seam-first failures, and ponding risk define where steep-slope coverings serve better.",
-    "ctaHeading": "Plan a Flat Roof That Fits Your Essex County Section",
+    "ctaHeading": "Plan a Flat Roof That Fits Your Essex County, NJ Section",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that names the membrane system, its lifespan, and the drainage correction your flat roof needs. Explore our [flat roof installation and repair](/flat-roof-installation-repair-in-newark-nj) service to start.",
     "metaDescription": "Flat roof pros and cons: EPDM, TPO, and modified-bitumen membranes plus reflective white TPO, weighed against shorter life, seam failures, and ponding risk."
   },
@@ -728,7 +728,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Interior stains under an older tile roof point to failed underlayment, the real lifespan limiter, while cracked or displaced tiles, sliding tiles, and broken ridge or hip mortar mark surface repairs, and a tile roof's weight calls for a structural assessment before installation.",
-    "ctaHeading": "Have a Tile Roof Inspected in Essex County",
+    "ctaHeading": "Have a Tile Roof Inspected in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that diagnoses whether a tile, a fastener, or the underlayment beneath has failed.",
     "metaDescription": "Signs you need tile roof work: interior stains over failed underlayment, cracked or sliding tiles, broken ridge mortar, and concrete spalling in NJ winters."
   },
@@ -766,7 +766,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Tile roof repair in New Jersey runs $5 to $25 per square foot, about $500 to $2,500 in total, with clay tile installing higher than concrete and the failed layer deciding the scope; an underlayment replacement beneath sound tiles preserves the original tile and costs less than a full tile replacement, and New Jersey labor and code carry the price 10 to 40 percent above national figures.",
-    "ctaHeading": "Get a Written Tile Roof Estimate in Essex County",
+    "ctaHeading": "Get a Written Tile Roof Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that confirms the structural load, diagnoses the failed layer, and itemizes the tile, flashing, and underlayment work line by line. Explore our [tile roof installation and repair](/tile-roof-installation-repair-in-newark-nj) service to start.",
     "metaDescription": "Tile roof repair in NJ runs $5 to $25 per square foot, about $500 to $2,500 total: clay vs concrete pricing, the failed layer, and the NJ labor premium."
   },
@@ -795,7 +795,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Tile Fits an Essex County Home Whose Framing Carries the Load",
+        "heading": "Tile Fits an Essex County, NJ Home Whose Framing Carries the Load",
         "body": [
           "**Tile fits an Essex County home whose framing carries the load** and an owner wanting a 100-year-plus clay cover or a 40-to-75-year concrete cover, per the InterNACHI life-expectancy chart and the Tile Roofing Industry Alliance. The covering sits over the underlayment that holds the waterproofing, and a structural assessment confirms the framing before installation.",
           "**Tile** suits framing engineered for the weight, while framing that cannot carry the tile load favors a lighter [asphalt shingle](/asphalt-shingle-roofing-in-newark-nj) covering at 20 to 30 years or a [metal](/metal-roof-installation-repair-in-newark-nj) covering at 40 to 80 years, per the InterNACHI life-expectancy chart. On a tile roof that stays structurally sound, an underlayment replacement beneath the original tiles preserves the existing tile and costs less than a full tile replacement, per the Tile Roofing Industry Alliance.",
@@ -804,7 +804,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Tile rewards an Essex County home built to carry it with a century-plus clay life and tile-by-tile repairs, provided the owner accepts the weight constraint and the underlayment replacement that a tile roof needs decades before the tile itself wears out.",
-    "ctaHeading": "Find Out Whether Tile Fits Your Essex County Home",
+    "ctaHeading": "Find Out Whether Tile Fits Your Essex County, NJ Home",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a structural assessment of your framing and a free written estimate that diagnoses whether a tile, a fastener, or the underlayment has failed.",
     "metaDescription": "Tile roof pros and cons for NJ homes: clay lasts 100+ years and repairs tile-by-tile, but the weight loads framing and the underlayment fails first."
   },
@@ -842,7 +842,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A cedar roof signals replacement when it reaches its 20-to-40-year life, when shakes cup, curl, split, or crack under the flex test, when moss and lichen pry the edges, or when deck decay spreads beyond 15% of the area, and moisture management is the thread running through every one of those signs.",
-    "ctaHeading": "Have Your Cedar Shake Roof Assessed in Essex County",
+    "ctaHeading": "Have Your Cedar Shake Roof Assessed in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that assesses your cedar field, the deck beneath it, and whether targeted repair or full replacement fits your roof.",
     "metaDescription": "Cedar shake roof warning signs in NJ: a roof past its 20-40 year life, cupped or split shakes, the flex test, moss and lichen, and deck decay over 15%."
   },
@@ -880,7 +880,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Cedar shake roofing in New Jersey runs $10 to $20 or more per square foot installed, $400 to $1,800 for repairs, and $0.15 to $0.60 per square foot for recurring preservative and cleaning maintenance, with the cedar grade, the fire rating, the ventilated assembly, and the required tear-off setting the final figure 10 to 40% above national cost.",
-    "ctaHeading": "Get a Free Written Cedar Shake Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Free Written Cedar Shake Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes the cedar grade, the ventilated assembly, the tear-off, and the maintenance cadence for your home.",
     "metaDescription": "Cedar shake roofing in NJ costs $10 to $20+ per square foot installed, $400 to $1,800 to repair, plus $0.15-$0.60 per sf upkeep. NJ cost drivers covered."
   },
@@ -909,7 +909,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Cedar Shake Fits an Essex County Home",
+        "heading": "When Cedar Shake Fits an Essex County, NJ Home",
         "body": [
           "**Cedar shake fits an Essex County home** whose character calls for cedar's natural look over a ventilated deck with at least 1.5 inches of underside air space, per Cedar Shake and Shingle Bureau guidance. The home's owner stays committed to the recurring preservative and cleaning cadence, and the ventilation path determines whether the cedar reaches its full 20-to-40-year life.",
           "**The ventilated assembly** is the deciding factor, because a cedar field that cannot dry between rain events decays well before its rated life, especially on north-facing and shaded slopes. A shallow slope too low for shakes calls for a different covering, such as a [rubber EPDM membrane](/rubber-roofing-epdm-in-newark-nj), since cedar sheds water at the surface and depends on slope to clear it.",
@@ -918,7 +918,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Cedar shake trades recurring moisture-management maintenance for western red cedar's natural decay resistance and a 20-to-40-year life with a silver-gray patina, a fit for an Essex County home with a ventilated deck and an owner committed to the upkeep that the Cedar Shake and Shingle Bureau and NRCA describe.",
-    "ctaHeading": "Weigh Cedar Shake for Your Essex County Roof",
+    "ctaHeading": "Weigh Cedar Shake for Your Essex County, NJ Roof",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that sets the cedar grade, the ventilated deck assembly, and the maintenance cadence for your home.",
     "metaDescription": "Cedar shake pros and cons: western red cedar resists decay and lasts 20-40 years, but moisture management means recurring preservative and cleaning upkeep."
   },
@@ -956,7 +956,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "The earliest EPDM warning signs show up at the seams and the perimeter flashing rather than across the rubber field, so a separating lap, a puncture, shrinkage at the edges, or ponding past 48 hours each calls for a targeted repair, while a membrane at or past its 15-to-25-year life with recurring failures points toward replacement.",
-    "ctaHeading": "Have Your Essex County Flat Roof Inspected",
+    "ctaHeading": "Have Your Essex County, NJ Flat Roof Inspected",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that traces an EPDM leak to its source seam, puncture, or flashing detail before any repair.",
     "metaDescription": "EPDM warning signs: seam separation, punctures, membrane shrinkage at perimeters, ponding past 48 hours, or a roof past its 15-25-year life. NJ homeowner guide."
   },
@@ -994,7 +994,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "EPDM rubber roofing in New Jersey installs at $7 to $10 per square foot and repairs at $2.50 to $10 per square foot, about $300 to $1,100 for a typical repair, with a small patch at $300 to $500, a seam re-weld at $200 to $400, and a section replacement at $500 to $1,000; the work type, drainage condition, code-driven tear-off, and a regional rate roughly 10 to 40 percent above national figures set where a given roof lands.",
-    "ctaHeading": "Get a Written EPDM Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Written EPDM Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that documents the EPDM seam, puncture, or flashing scope and prices the patch, re-weld, or section work line by line.",
     "metaDescription": "EPDM rubber roofing costs $7-$10/sf to install in NJ and $2.50-$10/sf to repair, about $300-$1,100 typical, with a small patch $300-$500. What drives the price."
   },
@@ -1023,7 +1023,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "EPDM Fits Flat and Low-Slope Sections of an Essex County Home",
+        "heading": "EPDM Fits Flat and Low-Slope Sections of an Essex County, NJ Home",
         "body": [
           "**EPDM** fits a flat or low-slope roof section too shallow for shingles, such as a rear extension, garage, porch, or row-home roof, where the membrane and drainage do the waterproofing work that slope cannot, per the InterNACHI life-expectancy chart.",
           "**A sun-exposed section** wanting reflectance, or a homeowner comparing the broader membrane options, favors the [flat-roof systems](/flat-roof-installation-repair-in-newark-nj) service, which weighs EPDM against TPO at 7 to 20 years and modified bitumen at 20 years, per the InterNACHI life-expectancy chart. EPDM remains the choice where freeze-thaw flexibility and accessible seam repairs matter most over a 15-to-25-year service life.",
@@ -1032,7 +1032,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "EPDM rubber roofing trades a 15-to-25-year life and accessible, localized repairs against splice seams and perimeter flashing that fail before the membrane field, making it a sound choice for a flat or low-slope section too shallow for shingles when drainage and seam detailing are kept current.",
-    "ctaHeading": "Get a Written EPDM Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Written EPDM Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that traces an EPDM leak to the seam, puncture, or flashing detail and sets the repair scope in writing.",
     "metaDescription": "EPDM rubber roofing pros and cons: a 15-25-year flexible membrane with accessible repairs, but splice seams and ponding fail first. Fit for NJ low-slope roofs."
   }

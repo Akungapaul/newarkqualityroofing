@@ -35,7 +35,7 @@ export function FeaturedCombos() {
           id="featured-combos-heading"
           className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
         >
-          Popular Roofing Services in Each Essex County City
+          Popular Roofing Services in Each Essex County, NJ City
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
           Find expert roofing services in your Essex County neighborhood. Select your city and service below.

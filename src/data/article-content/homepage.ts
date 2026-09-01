@@ -77,7 +77,7 @@ export const homepageArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "A reliable Essex County roofer verifies cleanly: an active \"13VH\" HIC registration in the NJ Division of Consumer Affairs database, a Certificate of Insurance from the carrier showing at least $500,000 general liability, and a detailed written estimate. Run all three checks before any deposit, compare equivalent specifications across at least three bids, and treat upfront-payment demands or door-to-door pressure as reasons to walk away.",
-    "ctaHeading": "Get a Detailed Written Roofing Estimate in Essex County",
+    "ctaHeading": "Get a Detailed Written Roofing Estimate in Essex County, NJ",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a written estimate that itemizes scope, materials, ventilation, flashing, warranty, and permit handling so you can compare it line by line. Explore our [roofing services](/roofing-services) to start.",
     "metaDescription": "Find a reliable Essex County roofer: verify the 13VH HIC registration at NJ Consumer Affairs, confirm $500,000 liability insurance, compare written estimates."
   },
