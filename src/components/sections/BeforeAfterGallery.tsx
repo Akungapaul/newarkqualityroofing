@@ -254,7 +254,7 @@ export function BeforeAfterGallery() {
               id="gallery-heading"
               className="font-heading text-3xl font-bold text-forest sm:text-4xl"
             >
-              What Do Our Recent Roofing Projects Look Like?
+              Our Recent Roofing Projects in Newark
             </h2>
             <p className="mt-3 font-body text-base text-text-secondary">
               Drag the slider to see before and after

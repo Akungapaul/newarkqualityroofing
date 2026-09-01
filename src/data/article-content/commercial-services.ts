@@ -17,7 +17,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "Each sign points to a roof a full system installation corrects more economically than continued spot repair on a low-slope commercial assembly.",
     "sections": [
       {
-        "heading": "When Has a Commercial Membrane Reached the End of Its Life?",
+        "heading": "A Commercial Membrane Past Its Service Life Signals a New System",
         "body": [
           "**A commercial membrane at or past its material service life signals a new system installation.** TPO lasts 7 to 20 years, EPDM 15 to 25 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart.",
           "**Membrane service life** sets the first replacement threshold, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF and standing-seam metal at 40 to 80 years per the InterNACHI chart. A roof that reaches the top of its range fails faster than spot repair restores it, because the deterioration runs across the whole field rather than at one detail.",
@@ -25,7 +25,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Roof-Condition Signs Point to a New System?",
+        "heading": "Damage Over 25 to 30% of the Roof Crosses the Replacement Threshold",
         "body": [
           "**Membrane damage across more than 25 to 30% of the total roof area crosses the flat-roof replacement threshold, the point above which a full system installation costs less than continued patching**, per Parish, Modernize, and HomeGuide flat-roof guidance.",
           "**Ponding water that stands more than 48 hours after rain** counts as a defect on a low-slope roof, because a flat roof needs at least one-quarter inch per foot of slope to drain, per the NRCA and ARMA. A new installation builds that slope with tapered polyisocyanurate insulation, the assembly an aging deck without positive drainage cannot gain through a surface patch.",
@@ -33,7 +33,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does New Construction or a Reflectance Goal Drive Installation?",
+        "heading": "New Construction Requires an Engineered System and an N.J.A.C. 5:23-2.7 Permit",
         "body": [
           "**A new commercial building or addition needs a single-ply or built-up system engineered for drainage and wind uplift, and the installation requires a construction permit under N.J.A.C. 5:23-2.7**, per the NJ Uniform Construction Code.",
           "**New construction** drives the installation through code rather than failure: the ordinary-maintenance exemption that waives a permit on a detached one- and two-family home does not extend to a commercial building, per the NJ Uniform Construction Code, so a commercial install or addition carries a permit. The assembly engineers tapered insulation to at least one-quarter inch per foot of drainage slope before the membrane goes down, per the NRCA and ARMA.",
@@ -55,7 +55,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "Those per-square-foot ranges set the baseline, and the assembly under the membrane — insulation, tapered drainage, tear-off, and code triggers — moves the installed price within and beyond them.",
     "sections": [
       {
-        "heading": "What Does Each Commercial System Cost per Square Foot?",
+        "heading": "Commercial Systems Run $4 to $12 per Square Foot Installed",
         "body": [
           "**Each commercial roof system carries its own installed cost.** EPDM and TPO single-ply run $7 to $12 per square foot, PVC $6 to $12, and spray polyurethane foam $4 to $8, per Josten Roofing NJ pricing and the Single Ply Roofing Industry.",
           "**EPDM and TPO single-ply** anchor the middle of the range at $7 to $12 per square foot in New Jersey, per Josten Roofing NJ. TPO heat-welds a reflective thermoplastic membrane that lasts 7 to 20 years and EPDM applies a rubber membrane that lasts 15 to 25 years, both per the InterNACHI life-expectancy chart, so the per-square-foot figure tracks the membrane class and its service life.",
@@ -63,7 +63,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Drives the Installed Price?",
+        "heading": "Insulation, Tear-Off vs. Recover, and Membrane Class Drive the Price",
         "body": [
           "**The installed price moves with the insulation and tapered drainage, the tear-off versus recover decision, and the membrane class plus its system warranty**, because the assembly under the membrane carries cost the per-square-foot rate alone does not show.",
           "**Insulation and tapered drainage** add cost, because the assembly builds at least ¼ inch per foot of drainage slope with polyisocyanurate board and tapered crickets, per the NRCA and ARMA, and ponding water that stands more than 48 hours counts as a defect. Spray foam adds R-6.0 to R-6.5 per inch of aged insulation measured per ASTM C1289 LTTR, so the thermal target factors into the assembly cost.",
@@ -71,7 +71,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Is NJ Higher, and What Lowers Cost over Time?",
+        "heading": "NJ Runs 10 to 40% Above National, and Reflectivity Lowers Cost Over Time",
         "body": [
           "**New Jersey installed ranges sit 10 to 40% above national figures on higher labor and stricter code, while a reflective membrane and added insulation lower operating cost over the roof's life**, per regional roofing cost data and ASTM C1549.",
           "**New Jersey pricing** sits 10 to 40% above national figures, because labor accounts for a large share of a membrane install and NJ code is stricter, per regional roofing cost data. A commercial roof installation also requires a construction permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code, because the ordinary-maintenance exemption that waives a permit on a detached one- and two-family home does not extend to a commercial building.",
@@ -93,7 +93,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "Three decisions frame a commercial install — which system fits the building, which NJ code and permits apply, and which registered contractor performs the work.",
     "sections": [
       {
-        "heading": "How Do You Choose the Right Commercial System?",
+        "heading": "Matching One of Seven Commercial Roof Systems to the Building",
         "body": [
           "**The right commercial system matches one of seven membrane or panel classes to the building, the occupancy, and the energy target.** TPO, EPDM, PVC, modified bitumen, built-up roofing, spray polyurethane foam, and standing-seam metal each carry a distinct service life and performance profile.",
           "**Service life** separates the seven systems: TPO lasts 7 to 20 years, EPDM 15 to 25 years, modified bitumen 20 years, and built-up roofing 30 years per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF, spray polyurethane foam past 30 years when the coating stays maintained per the Spray Polyurethane Foam Alliance, and standing-seam metal at 40 to 80 years, copper past 70, per the InterNACHI chart.",
@@ -101,7 +101,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What NJ Code and Permits Apply?",
+        "heading": "N.J.A.C. 5:23-2.7 Requires a Construction Permit for Commercial Roof Installation",
         "body": [
           "**A commercial roof installation requires a construction permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.** The ordinary-maintenance exemption that waives a permit on a detached one- and two-family home does not extend to a commercial building.",
           "**The NJ Rehabilitation Subcode** sets when the existing roof comes off completely rather than receiving a recover-over: N.J.A.C. 5:23-6.4 requires complete removal of the existing covering when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers. A water-soaked or twice-layered deck reaches the full-removal trigger, so the assessment confirms the existing assembly before the installation scope sets.",
@@ -109,7 +109,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Choose a Commercial Roofing Contractor in NJ?",
+        "heading": "How to Choose a Commercial Roofing Contractor in NJ: Verify HIC Registration",
         "body": [
           "**A NJ business owner verifies Home Improvement Contractor registration with the NJ Division of Consumer Affairs, confirms liability insurance, and reads the written proposal for the system, the service life, and the warranty split.** New Jersey registers roofing contractors rather than licensing them.",
           "**HIC registration** is the credential the Contractors' Registration Act requires under N.J.S.A. 56:8-136 — a registration, not a roofing license, because New Jersey issues no roofing license. The Act sets a general-liability minimum of $500,000 per occurrence under N.J.S.A. 56:8-142, so confirming current registration and that coverage with the NJ Division of Consumer Affairs precedes signing.",
@@ -131,7 +131,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "Each sign points to a localized breach on a low-slope membrane that stays under the 25-to-30-percent replacement threshold, the range where sealing the failed detail still restores the weather barrier.",
     "sections": [
       {
-        "heading": "What Interior and Seam Signs Signal a Leak?",
+        "heading": "Water Stains and Open Seams Signal an Active Membrane Leak",
         "body": [
           "**Interior water stains, drips, or standing water after rain signal an active membrane breach, and open or separated seams mark the most common entry on a low-slope roof.** Water travels along insulation joints and deck flutes before reaching the interior, so the entry sits distant from the visible evidence, per NRCA technical guidance.",
           "**Interior water evidence** rarely sits beneath the actual breach, because water on a low-slope commercial roof migrates along insulation-board joints, metal-deck flutes, and structural members before it finds a penetration into the occupied space, per NRCA technical guidance. A stain on a ceiling tile, a drip after rainfall or snowmelt, or standing water on an interior floor marks where the water exits the assembly, not where it entered the membrane.",
@@ -139,7 +139,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Surface and Flashing Signs Appear?",
+        "heading": "Blistering Signals Trapped Moisture; Failed Flashing Opens the Weather Barrier",
         "body": [
           "**Blistering, ridging, or delamination indicates moisture trapped beneath the membrane, and deteriorated flashing opens the weather barrier at the transitions.** Blistering on modified-bitumen and built-up roofs traces to trapped moisture and UV oxidation, per NRCA technical guidance.",
           "**Blistering, ridging, and delamination** appear on modified-bitumen and built-up roofs where moisture sits trapped between the plies, and UV oxidation drives the alligator cracking that lifts the surface, per NRCA technical guidance. Modified bitumen lasts 20 years and built-up roofing 30 years per the InterNACHI life-expectancy chart, and a blistered or ridged area marks a localized loss of bond that a repair re-adheres before water reaches the deck.",
@@ -147,7 +147,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Is It Still a Repair, Not a Replacement?",
+        "heading": "Damage Under 25 to 30 Percent of the Roof Area Stays a Repair",
         "body": [
           "**It stays a repair when membrane damage holds under 25 to 30 percent of the roof area and ponding stays localized.** Damage above that threshold crosses the flat-roof replacement line where full membrane replacement costs less than continued spot repair, per Parish, Modernize, and HomeGuide.",
           "**Ponding water** standing on the roof more than 48 hours counts as a defect, because a flat roof needs at least one-quarter inch per foot of slope to drain, per the NRCA and ARMA. The standing water breaks down membrane seams and adhesives over time, and a repair clears the drainage and reseals the failed detail while the surrounding system stays serviceable.",
@@ -169,7 +169,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "New Jersey ranges sit 10 to 40 percent above national figures because of higher labor and stricter NJ code.",
     "sections": [
       {
-        "heading": "What Does a Typical Commercial Repair Cost?",
+        "heading": "Typical Commercial Roof Repair Runs $2.50 to $10.00 per Square Foot",
         "body": [
           "**A typical commercial flat-roof repair** runs $2.50 to $10.00 per square foot, or $300 to $1,100 for the whole job, per HomeGuide, Modernize, and WeatherShield cost data. A membrane seam re-weld runs $200 to $400, and a section replacement runs $500 to $1,000.",
           "**The seam re-weld and section replacement** mark the two most common scopes on a low-slope membrane, because a commercial roof fails most often at the seams — EPDM at the splice seam, TPO at the welded seam, per NRCA technical guidance. A re-weld reseals the open lap at $200 to $400, while a deteriorated area cut out and rebuilt as a section replacement runs $500 to $1,000.",
@@ -177,7 +177,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Drives Repair Cost Up or Down?",
+        "heading": "Leak Severity and Membrane Type Drive Repair Cost",
         "body": [
           "**Repair cost** moves with the severity of the leak and the membrane on the roof: a minor flat-roof leak runs $150 to $500, while an extensive leak with structural involvement runs $1,200 to $3,000, per Angi cost data. The affected area and the membrane type set where a repair lands in that span.",
           "**The severity of the leak** drives the largest cost swing, because a minor isolated breach reseals quickly at $150 to $500, while an extensive leak that has reached the deck or structure adds tear-out, drying, and rebuilding at $1,200 to $3,000, per Angi. Water on a low-slope roof travels along insulation joints and deck flutes before showing inside, per NRCA technical guidance, so the visible drip understates the wet footprint a probe or core sample reveals.",
@@ -185,7 +185,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does Repair Stop Making Financial Sense?",
+        "heading": "Repair Stops Making Financial Sense Past 25 to 30 Percent Membrane Damage",
         "body": [
           "**Repair stops making financial sense** when membrane damage exceeds 25 to 30 percent of the roof area, a repair approaches 30 percent of replacement cost, or leaks recur at the same spot. The 25-to-30 percent threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance and HomeAdvisor.",
           "**Damage above 25 to 30 percent** of the roof area crosses the flat-roof replacement threshold, the point above which a full membrane system costs less than continued spot repair, per Parish, Modernize, and HomeGuide. A repair that approaches 30 percent of replacement cost reaches the same line, because the patch money no longer extends the roof far enough to justify the spend.",
@@ -207,7 +207,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "Each of these three points decides how a low-slope commercial leak is diagnosed, sealed, and permitted before any crew sets foot on the roof.",
     "sections": [
       {
-        "heading": "How Is a Commercial Leak Actually Found?",
+        "heading": "How a Commercial Leak Is Found: Seam Probing, Core Sampling, and Infrared Scanning",
         "body": [
           "**A commercial leak is found with visual membrane inspection, seam probing, core sampling, and infrared moisture scanning, because the entry point sits distant from the interior evidence on a low-slope roof.** Water travels along insulation-board joints and metal-deck flutes before reaching the occupied space, per NRCA technical guidance, so the visible drip rarely marks the breach.",
           "**The leak source** on a low-slope membrane separates from the interior stain, which is why a core sample checks for wet insulation at the suspect area rather than directly beneath the drip. An infrared scan locates subsurface wet insulation rather than the breach itself, and ASTM C1153 requires every suspected wet area be verified by core cut, probe, or calibrated moisture meter, per ASTM and the NRCA.",
@@ -215,7 +215,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does a Repair Protect the System Warranty?",
+        "heading": "Manufacturer-Approved Materials Protect the System Warranty",
         "body": [
           "**A repair protects the system warranty by matching membrane-specific manufacturer-approved materials and techniques to the roof, because incompatible adhesives, patches, and sealants degrade the surrounding membrane.** EPDM splice seams join with primer, splice tape, and lap adhesive, TPO and PVC seams weld with hot air, and modified-bitumen patches bond to the base sheet, per NRCA technical guidance.",
           "**The manufacturer specification** governs each membrane repair method, so a repair performed to that specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance. An incompatible adhesive or an off-spec patch voids that coverage and ages the membrane around the repair, which is why the membrane type is diagnosed before any sealing begins.",
@@ -223,7 +223,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does a Repair Trigger an NJ Permit?",
+        "heading": "Repairs Over 25% of Roof Area in 12 Months Trigger an NJ Permit",
         "body": [
           "**A repair triggers an NJ permit when it exceeds 25% of the total roof area in a 12-month period, because the ordinary-maintenance exemption covers only repairs up to that threshold on a commercial building, per N.J.A.C. 5:23-2.7.** The detached one- and two-family exemption does not extend to commercial property, per the NJ Uniform Construction Code.",
           "**The NJ Rehabilitation Subcode** sets a second trigger: complete removal of the existing covering when the roof is water-soaked or already carries 2 or more layers, per N.J.A.C. 5:23-6.4, so a saturated or over-layered commercial roof crosses from repair into a full tear-off rather than another patch. Membrane damage above 25 to 30% of the roof area likewise crosses the flat-roof replacement threshold, the point where full replacement costs less than continued spot repair, per Parish, Modernize, and HomeGuide flat-roof guidance.",
@@ -245,7 +245,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "Each sign separates an end-of-life commercial roof from one a spot repair still restores, and most reach replacement through membrane age and storm loss rather than new construction.",
     "sections": [
       {
-        "heading": "When Has the Membrane Reached End-of-Life?",
+        "heading": "A Membrane at the End of Its Lifespan Signals Replacement",
         "body": [
           "**A commercial membrane at or past its material lifespan signals replacement, because spot repair no longer outpaces the failures aging the whole assembly.** EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart.",
           "**Material lifespan** differs sharply by membrane, so the calendar age of the system frames the first replacement signal: PVC reaches 20 to 30 years, per Single Ply Roofing Industry guidance, while a TPO roof can fail at the welded seam well before 20 years and an EPDM roof at the splice seam, per NRCA technical guidance. A roof at the end of that span fails faster than a patch restores it.",
@@ -253,7 +253,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Subsurface and Recurring Signs Confirm Replacement?",
+        "heading": "Saturated Insulation Across Most of the Roof Confirms Replacement",
         "body": [
           "**Saturated insulation across a majority of the roof confirms replacement, because the assembly has lost both its waterproofing and its thermal performance.** Core samples or an ASTM C1153 infrared moisture survey map the wet insulation under an intact membrane, per ASTM and the NRCA.",
           "**Saturated insulation** reads through an ASTM C1153 infrared survey because wet insulation retains heat longer than dry insulation and shows as a warm anomaly after sunset, and the standard requires a core cut to verify each anomaly before a finding records as wet, per ASTM C1153. Wet insulation across a majority of the roof points to a full tear-off rather than a selective patch.",
@@ -261,7 +261,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Do Multiple Failures End the Repair Scope?",
+        "heading": "Multiple Concurrent Failures Mark Systemic End-of-Life",
         "body": [
           "**Multiple concurrent failure modes end the repair scope, because they indicate systemic end-of-life rather than isolated, repairable defects.** Seam separation, flashing failure, blistering, and saturated insulation appearing together mark a membrane past its service life, per the InterNACHI life-expectancy chart and NRCA guidance.",
           "**Concurrent failures** compound across the assembly, so a roof showing separated seams, deteriorated flashing, blistering, and wet insulation at once carries more than a single defect a repair corrects. The combination ends the repair scope and points to a new insulation-and-membrane system installed to the deck.",
@@ -283,7 +283,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "New Jersey re-roof ranges sit 10 to 40% above national figures, and the membrane class, the tear-off scope, and the added insulation move the installed number within that band.",
     "sections": [
       {
-        "heading": "What Does a Commercial Re-Roof Cost per Square Foot?",
+        "heading": "Commercial Re-Roofing Runs About $7 to $12 per Square Foot Installed",
         "body": [
           "**A commercial re-roof runs about $7 to $12 per square foot installed for single-ply membrane.** EPDM runs $7 to $10, TPO $8 to $12, PVC $6 to $12, and spray polyurethane foam $4 to $8, per Josten Roofing NJ pricing and commercial cost guides.",
           "**Single-ply membrane** sets the core of the range, because EPDM, TPO, and PVC carry distinct material costs and service lives: EPDM lasts 15 to 25 years, TPO 7 to 20 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance. The membrane class drives the per-square-foot number more than any other single line on the estimate.",
@@ -291,7 +291,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Adds to the Installed Price?",
+        "heading": "Tear-Off, Deck Repair, and Tapered Insulation Add to the Installed Price",
         "body": [
           "**Tear-off scope, deck repair, and tapered insulation add to the installed price beyond the membrane line.** A water-soaked roof or one already carrying 2 or more layers requires complete removal under N.J.A.C. 5:23-6.4, which costs more than a like-for-like swap.",
           "**Tear-off and deck repair** raise the number when the NJ Rehabilitation Subcode forces complete removal of the existing covering — on a water-soaked roof, a slate, clay, or cement-tile roof, or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4 — and the crew replaces deteriorated decking the old covering hid. A commercial replacement also carries a construction permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code.",
@@ -299,7 +299,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Is NJ Higher, and Is Insulation Worth Adding?",
+        "heading": "NJ Re-Roof Costs Run 10 to 40% Above National, and Tear-Off Is the Time to Insulate",
         "body": [
           "**New Jersey re-roof ranges sit 10 to 40% above national figures, and adding insulation during the tear-off captures the lowest added labor.** Higher NJ labor rates and stricter NJ code lift the per-square-foot number above national averages, per Josten Roofing NJ.",
           "**New Jersey pricing** carries the 10 to 40% premium because the state pairs higher labor cost with the N.J.A.C. 5:23-2.7 permit and the N.J.A.C. 5:23-6.4 complete-removal triggers a national average does not reflect, per Josten Roofing NJ and the NJ Uniform Construction Code. A re-roof that meets those code requirements prices above a recover-over that the Rehabilitation Subcode no longer permits on a water-soaked or 2-layer roof.",
@@ -321,7 +321,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "From the repair-or-replace line through the permitted scope to the system and contractor choice, the decision turns on a handful of thresholds, codes, and credentials a NJ owner can verify.",
     "sections": [
       {
-        "heading": "Repair or Replace — Where Is the Line?",
+        "heading": "The Repair-to-Replacement Line: Damage Above 25 to 30% of the Roof Area",
         "body": [
           "**A commercial roof crosses from repair to replacement at membrane damage above 25 to 30% of the roof area, a repair approaching roughly 30% of replacement cost, recurring same-spot leaks, or saturated insulation across a majority of the roof.** Source Parish, Modernize, and HomeGuide.",
           "**The 25 to 30% damage threshold** is the flat-roof line above which full membrane replacement costs less than continued spot patching, per Parish, Modernize, and HomeGuide flat-roof guidance. Below that line a repair holds; above it, or when leaks recur at the same location, the failure reads as systemic rather than isolated, per HomeAdvisor flat-roof guidance, regardless of the damaged area.",
@@ -329,7 +329,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Is the Replacement Scoped and Permitted?",
+        "heading": "Scoping With an ASTM C1153 Survey and Permitting Under N.J.A.C. 5:23-2.7",
         "body": [
           "**A commercial replacement scopes the wet insulation with an ASTM C1153 infrared moisture survey before tear-off and carries a construction permit under N.J.A.C. 5:23-2.7.** Source ASTM, the NRCA, and the NJ Uniform Construction Code.",
           "**The ASTM C1153 infrared survey** maps the wet insulation under an intact membrane, because wet insulation retains heat longer than dry insulation and reads as a warm anomaly after sunset, per ASTM and the NRCA. ASTM C1153 requires a core cut to verify each anomaly, because the survey locates wet insulation, not the leak entry point, per ASTM and Fluke, so the verified moisture map sizes the tear-off before work begins.",
@@ -337,7 +337,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Choose the System and Contractor?",
+        "heading": "Matching the Membrane to the Building and Verifying HIC Registration",
         "body": [
           "**A NJ owner matches the membrane — EPDM, TPO, PVC, modified bitumen, built-up roofing, or standing-seam metal — to the building, the drainage, and the Essex County winter, then verifies HIC registration, insurance, and the warranty split.** Source InterNACHI, NOAA, and Owens Corning.",
           "**The membrane class** sets the service life: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance. White PVC and TPO carry high solar reflectance measured per ASTM C1549, the cool-roof property that lowers rooftop heat gain, while Newark crosses the 32°F freezing point repeatedly with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR), so freeze-thaw movement stresses the seams and flashing the system selection accounts for.",
@@ -359,7 +359,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "Each sign points to concealed moisture an infrared scan reads as a warm anomaly, because under ASTM C1153 an infrared camera locates wet insulation rather than the leak entry point itself.",
     "sections": [
       {
-        "heading": "What Leak Signs Call for a Thermal Scan?",
+        "heading": "Intermittent Leaks a Visual Inspection Cannot Find Call for a Thermal Scan",
         "body": [
           "**Intermittent leaks a visual inspection cannot locate** mark a moisture footprint sitting displaced from the breach, because an infrared survey locates wet insulation rather than the leak entry point itself, per Fluke and IIBEC.",
           "**The displaced wet footprint** explains why a visual inspection misses the source: water travels through the roof assembly along insulation joints and deck flutes, so the moisture-contaminated area separates from the breach that admits it, per Fluke and IIBEC. A thermal scan reads that footprint as a warm anomaly under ASTM C1153, then traces it back toward the entry detail.",
@@ -367,7 +367,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does a Planned Project or Energy Cost Trigger a Scan?",
+        "heading": "A Planned Repair or Replacement Calls for a Wet-Insulation Survey",
         "body": [
           "**A planned repair or replacement on a low-slope commercial roof** calls for a wet-insulation survey, because the moisture footprint sizes a selective repair against a full membrane replacement, per ASTM C1153 and IIBEC.",
           "**The moisture footprint** sets the scope a repair-versus-replace decision works against: a wet-insulation map delineates the affected area across a large low-slope roof faster than a point-by-point moisture-meter survey, per IIBEC and the NRCA, and the mapped extent separates a targeted patch of the wet area from a tear-off. A [roof thermal imaging inspection](/roof-thermal-imaging-inspections-in-newark-nj) maps that footprint before the scope sets.",
@@ -375,7 +375,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Events Warrant a Documented Survey?",
+        "heading": "Storm Activity, HVAC Work, and Rooftop Traffic Warrant an Infrared Scan",
         "body": [
           "**Recent storm activity, HVAC work, or rooftop traffic over a membrane** warrants an infrared scan to find concealed moisture introduced beneath the surface, verified at a core cut per ASTM C1153, per ASTM C1153 and Fluke.",
           "**Rooftop disturbance** opens paths a surface walk overlooks: a fastener loosened by foot traffic, a flashing displaced during equipment service, or wind-driven water after a storm seeds wet insulation an intact membrane then conceals, per Fluke and IIBEC. A scan run after sunset, when wet insulation cools more slowly than dry insulation, reads that moisture as a warm anomaly under ASTM C1153.",
@@ -397,7 +397,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "The cost reflects how much roof the technician scans and how much verification the standard adds to each warm anomaly the infrared imager records.",
     "sections": [
       {
-        "heading": "Why Is There No Flat Price for a Thermal Imaging Inspection?",
+        "heading": "No Flat Price: Thermal Imaging Cost Scales With Roof Size and Verification",
         "body": [
           "**A roof thermal imaging inspection carries no flat per-roof price because cost scales with roof size and the verification ASTM C1153 requires at every anomaly.** An infrared survey covers a large low-slope roof faster than a point-by-point moisture-meter survey, per IIBEC and the NRCA, so a larger roof adds scan time rather than a fixed fee.",
           "**ASTM C1153 — the standard practice for locating wet insulation in roofing systems using infrared imaging — requires every suspected wet area be verified by core cut, probe, or calibrated moisture meter**, per ASTM and Fluke. An infrared camera detects temperature patterns rather than water directly, so each warm anomaly the scan flags adds a physical verification step that the count of anomalies, not a flat rate, determines.",
@@ -405,7 +405,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Drives the Inspection Cost Up or Down?",
+        "heading": "Roof Access, Slope, and Season Drive the Inspection Cost",
         "body": [
           "**Roof access, slope, and the season drive a thermal imaging inspection cost, because each one sets the survey method and the temperature contrast the scan needs.** ASTM C1153 calls for a dry surface clear of standing water, snow, and debris, per ASTM C1153 via IIBEC and the NRCA, so a roof requiring access setup or surface clearing adds labor.",
           "**Slope and access set the survey method, because a flat low-slope roof scans differently from a roof needing fall protection or specialized access.** A flat roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA, and ponding water remaining more than 48 hours counts as a defect — conditions that affect how the technician sets up and reads the scan.",
@@ -413,7 +413,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does the Inspection Fee Actually Cover?",
+        "heading": "The Inspection Fee Covers the Scan, Verification, and a Wet-Insulation Map",
         "body": [
           "**A thermal imaging inspection fee covers a calibrated infrared scan, verification of each anomaly, and a wet-insulation map that sizes a repair or replacement scope.** A modern infrared imager resolves a temperature difference of roughly 0.2°F and reads wet-area anomalies ranging from roughly 0.5°F to 30°F, per IIBEC and Fluke.",
           "**The scan runs after sunset under the ASTM C1153 optimal conditions — no appreciable precipitation in roughly the prior 48 hours, wind under about 15 mph, and a clear day followed by a clear night** — per ASTM C1153 via IIBEC and Fluke, when the dry roof releases heat fast and the wet area holds its sharpest warm contrast. Each flagged anomaly verifies at a core cut, probe, or calibrated moisture meter before a finding records as wet insulation.",
@@ -435,7 +435,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "For a NJ business owner, the value of a thermal scan rests on three points: what infrared physically detects, why timing and conditions govern it, and how to read the report and choose the inspector.",
     "sections": [
       {
-        "heading": "What Does ASTM C1153 Actually Detect?",
+        "heading": "ASTM C1153 Detects Wet Insulation, Not the Leak Entry Point",
         "body": [
           "**A roof thermal imaging inspection under ASTM C1153 detects wet insulation through warm thermal anomalies, not the leak entry point**, because an infrared camera reads temperature patterns rather than water directly, per ASTM C1153, Fluke, and IIBEC.",
           "**Wet insulation** holds a higher heat capacity and cools more slowly than dry insulation, so after sunset the dry roof releases heat fast while a moisture-contaminated area stays warmer and reads as a warm anomaly on the scan, per Fluke and IIBEC. A modern infrared imager resolves a temperature difference of roughly 0.2°F and reads wet-area anomalies ranging from roughly 0.5°F to 30°F, per IIBEC and Fluke.",
@@ -443,7 +443,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why After Sunset, and Under What Conditions?",
+        "heading": "After-Sunset Scans Produce the Sharpest Wet-Insulation Contrast",
         "body": [
           "**A thermal imaging inspection scans after sunset under the ASTM C1153 optimal conditions, the window that produces the sharpest wet-insulation contrast.** The dry roof releases its solar-loaded heat fast while the wet area holds it, per ASTM C1153 via IIBEC, the NRCA, and Fluke.",
           "**The ASTM C1153 optimal conditions** call for no appreciable precipitation in roughly the prior 48 hours, a dry surface clear of standing water, snow, and debris, wind under about 15 mph, an adequate temperature differential of roughly 18°F, and a clear sunny day followed by a clear night, per ASTM C1153 via IIBEC and Fluke. A surface holding standing water or debris masks the thermal signal, so the technician confirms a dry roof before the scan.",
@@ -451,7 +451,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Read the Report and Choose an Inspector?",
+        "heading": "A Thermal Report Verifies Every Anomaly by Core Cut, Probe, or Moisture Meter",
         "body": [
           "**A thermal imaging report verifies every anomaly by core cut, probe, or calibrated moisture meter, complements rather than replaces a physical inspection, and comes from a registered, insured NJ contractor.** ASTM C1153 requires verification of each anomaly, per ASTM C1153 and Fluke.",
           "**The verified report** records only confirmed wet insulation, because a thermal anomaly alone is not diagnostic — a structural member, rooftop equipment, or an interior heat source produces a non-moisture pattern, per Fluke, IIBEC, and the NRCA. ASTM D7954 nuclear moisture surveys and capacitance moisture meters confirm a finding where thermal contrast is low or a single core cut leaves the extent uncertain, per ASTM. The mapped wet footprint then sizes a selective repair against a full membrane replacement, per IIBEC and the NRCA.",
@@ -473,7 +473,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "Each sign traces to a single condition an infrared scan reads non-destructively: subsurface wet insulation that separates from the leak entry point on a low-slope roof.",
     "sections": [
       {
-        "heading": "What Failed-Repair Signs Point to an IR Scan?",
+        "heading": "Failed Repairs and Distant Leaks Point to an IR Scan",
         "body": [
           "**Interior leaks persisting after repeated repairs at the wrong location, or water appearing distant from any visible roof defect, signal moisture traveling through the assembly that an infrared roof leak detection scan maps.** The wet area separates from the breach, per Fluke and IIBEC infrared application guidance.",
           "**Failed repairs** at the wrong spot recur because the patch lands where the water surfaces inside rather than where it enters the roof, and water travels through insulation joints and deck flutes before it shows as an interior stain. Infrared imaging detects temperature, not water, so it reads the warm anomaly of the heat-retaining wet insulation that traces back toward the breach, per Fluke and IIBEC.",
@@ -481,7 +481,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does an Intact-but-Leaking Roof Need It?",
+        "heading": "An Intact-but-Leaking Roof Signals Subsurface Wet Insulation",
         "body": [
           "**A low-slope membrane intact from the surface yet leaking below signals subsurface wet insulation an ASTM C1153 scan reads without opening the assembly.** This non-destructive survey suits an intact membrane, per the NRCA and IIBEC.",
           "**An intact-but-leaking roof** hides the moisture under a membrane that looks sound from above, so a visual inspection finds no obvious defect while water still reaches the interior. ASTM C1153 is the standard practice for locating wet insulation in roofing systems using infrared imaging, per ASTM and the NRCA, and it surveys the whole roof surface for the wet footprint a surface inspection cannot see.",
@@ -489,7 +489,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Claim and Budget Signs Apply?",
+        "heading": "Insurance Claims Call for a Core-Cut-Verified ASTM C1153 Survey",
         "body": [
           "**An insurance claim needing objective moisture documentation calls for an ASTM C1153 survey verified by core cut, because a thermal anomaly alone is not diagnostic.** ASTM C1153 requires physical verification of each suspected wet area, per ASTM and Fluke.",
           "**An insurance claim** rests on a documented condition rather than a single thermal image, so ASTM C1153 requires every suspected wet area be verified by core cut, probe, or calibrated moisture meter that confirms the presence, depth, and extent of the moisture, per ASTM and Fluke. Early mapping also caps secondary damage, because the EPA states wet materials dried within 24 to 48 hours of a leak in most cases grow no mold.",
@@ -511,7 +511,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "The cost tracks the drivers a thermal moisture survey carries — area scanned, system contrast, the verification ASTM C1153 mandates, and the documentation a claim or maintenance program needs.",
     "sections": [
       {
-        "heading": "What Sets the Infrared Scan Price?",
+        "heading": "Roof Size and Accessibility Set the Infrared Scan Price",
         "body": [
           "**Infrared roof leak detection price is set first by roof size and accessibility, because a single broad-area thermal scan surveys a large commercial roof faster than a point-by-point moisture-meter survey, per IIBEC and the NRCA.** Area scanned drives scan duration, the largest cost variable.",
           "**Roof size** scales the survey directly, because a broad-area infrared pass covers a low-slope roof in one sweep while a point-by-point moisture-meter survey samples the deck grid square by grid square, per IIBEC and the NRCA. A large warehouse or distribution roof reads in a fraction of the time a moisture-meter grid takes, so the per-square-foot scan cost falls as the surveyed area grows.",
@@ -519,7 +519,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Adds to the Inspection Cost?",
+        "heading": "Core-Cut and Moisture-Meter Verification Adds to the Cost",
         "body": [
           "**Core-cut and moisture-meter verification adds to the inspection cost, because ASTM C1153 requires every suspected wet area be confirmed by core cut, probe, or calibrated moisture meter before it records as wet, per ASTM and Fluke.** A thermal anomaly alone is an indication, not a diagnosis.",
           "**Verification** is mandatory under ASTM C1153, because a calibrated imager resolves temperature differences near 0.2°F and a wet-area anomaly ranges from roughly 0.5°F to 30°F, a pattern that confirms moisture only once a core cut, probe, or calibrated moisture meter records its presence, depth, and extent, per ASTM and Fluke. Each verified point adds physical work to the scan.",
@@ -527,7 +527,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Is the Value Against a Blind Tear-Out?",
+        "heading": "A Verified Moisture Map Beats a Blind Tear-Out",
         "body": [
           "**Infrared roof leak detection delivers value against a blind tear-out, because a verified moisture map directs a targeted repair toward the wet insulation rather than exploratory removal of sound membrane, per ASTM C1153 and IIBEC.** The mapped extent sizes the scope before any tear-off.",
           "**The moisture map** measures the wet-insulation boundary against the flat-roof replacement threshold of more than 25 to 30% membrane damage, per Parish, Modernize, and HomeGuide flat-roof guidance, so the report shows whether a [commercial roof repair](/commercial-roof-repair-in-newark-nj) addresses the area or a full replacement makes financial sense. The verified boundary turns a guess into a measured repair scope.",
@@ -549,7 +549,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "intro": "For a NJ business owner, that distinction between the wet footprint and the actual breach shapes how the scan is read, how it is verified, and who performs it.",
     "sections": [
       {
-        "heading": "What Does Infrared Leak Detection Find — and Not Find?",
+        "heading": "Infrared Detection Maps Wet Insulation, Not the Leak Entry Point",
         "body": [
           "**Infrared leak detection maps the subsurface wet insulation a failed roof admits, not the leak entry point itself, because water travels through the assembly and the wet area separates from the breach**, per Fluke and IIBEC infrared application guidance.",
           "**Wet insulation** reads as a warm anomaly on a calibrated thermal image because moisture-contaminated insulation carries a higher heat capacity and cools more slowly than dry insulation, so after sunset it stays warmer; an infrared camera detects temperature, not water, per Fluke and IIBEC. The scan delineates that moisture boundary against the flat-roof replacement threshold of more than 25 to 30% membrane damage, per Parish, Modernize, and HomeGuide flat-roof guidance.",
@@ -557,7 +557,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Is the Scan Run and Verified?",
+        "heading": "The Scan Runs After Sunset and Physically Verifies Every Thermal Anomaly",
         "body": [
           "**An ASTM C1153 scan runs after sunset on a dry surface, under the optimal conditions ASTM sets, and verifies every thermal anomaly by core cut, probe, or calibrated moisture meter** before a finding records as wet, per ASTM and Fluke.",
           "**ASTM C1153** sets the optimal thermal window: no appreciable precipitation in roughly the prior 48 hours, a dry surface free of standing water, snow, and debris, wind under roughly 15 mph, and an adequate temperature differential near 18°F (10°C), with a clear day followed by a clear night and the scan run after sunset, applied through IIBEC, the NRCA, and Fluke. A modern infrared imager resolves temperature differences near 0.2°F, and wet-area contrast ranges from roughly 0.5°F to 30°F.",
@@ -565,7 +565,7 @@ export const commercialServicesArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does It Differ from a Thermal Imaging Inspection, and Who Performs It?",
+        "heading": "Leak Detection Targets Wet Insulation; a Thermal Imaging Inspection Surveys the Roof",
         "body": [
           "**Infrared leak detection targets the wet insulation behind an active or suspected leak, while a thermal imaging inspection surveys the whole roof for moisture, insulation, and condition — both apply ASTM C1153**, per ASTM and the NRCA.",
           "**Leak detection** narrows on the breach behind interior water evidence and adds the core-cut verification ASTM C1153 requires at each anomaly, while a [roof thermal imaging inspection](/roof-thermal-imaging-inspections-in-newark-nj) covers the entire low-slope roof to gauge overall condition; a single broad-area scan surveys a large commercial roof faster than a point-by-point moisture-meter survey and runs non-destructively, per IIBEC and the NRCA. Early mapping also caps secondary cost, because the EPA states wet materials dried within 24 to 48 hours of a leak in most cases grow no mold.",

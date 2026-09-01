@@ -10,7 +10,7 @@ export function CityFaqs({ faqs, cityName }: CityFaqsProps) {
   return (
     <div>
       <h2 id="faqs-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
-        What Questions Do {cityName} Property Owners Ask About Roofing?
+        Roofing FAQs from {cityName} Property Owners
       </h2>
       <div className="mt-6 divide-y divide-border">
         {faqs.map((faq, index) => (

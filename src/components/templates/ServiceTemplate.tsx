@@ -294,7 +294,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
                   <AnimateIn>
                     <ServiceAudience
                       variant="commercial"
-                      heading={`What Commercial ${service.name} Do We Provide?`}
+                      heading={`Commercial ${service.name} We Provide`}
                       content={content.commercial.content}
                       ctaLabel={content.commercial.ctaLabel}
                     />
@@ -302,7 +302,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
                   <AnimateIn>
                     <ServiceAudience
                       variant="residential"
-                      heading={`What Residential ${service.name} Do We Provide?`}
+                      heading={`Residential ${service.name} We Provide`}
                       content={content.residential.content}
                       ctaLabel={content.residential.ctaLabel}
                     />
@@ -313,7 +313,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
                   <AnimateIn>
                     <ServiceAudience
                       variant="residential"
-                      heading={`What Residential ${service.name} Do We Provide?`}
+                      heading={`Residential ${service.name} We Provide`}
                       content={content.residential.content}
                       ctaLabel={content.residential.ctaLabel}
                     />
@@ -321,7 +321,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
                   <AnimateIn>
                     <ServiceAudience
                       variant="commercial"
-                      heading={`What Commercial ${service.name} Do We Provide?`}
+                      heading={`Commercial ${service.name} We Provide`}
                       content={content.commercial.content}
                       ctaLabel={content.commercial.ctaLabel}
                     />
@@ -331,7 +331,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
             </>
           )}
 
-          <AnimateIn><ServiceProcess heading={content.processHeading ?? `What Are the Steps in Our ${service.name} Process?`} steps={content.processSteps} image={processImg ? { src: processImg.path, alt: `${service.name} crew at work - ${processImg.alt}` } : undefined} /></AnimateIn>
+          <AnimateIn><ServiceProcess heading={content.processHeading ?? `Our ${service.name} Process, Step by Step`} steps={content.processSteps} image={processImg ? { src: processImg.path, alt: `${service.name} crew at work - ${processImg.alt}` } : undefined} /></AnimateIn>
 
           {/* Outer: How Much Does [Service] Cost? */}
           {content.pricing && (
@@ -352,7 +352,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           )}
 
           {/* Outer: What Questions Do Customers Ask About [Service]? */}
-          <AnimateIn><ServiceFaq heading={`What Questions Do Customers Ask About ${service.name}?`} faqs={content.faqs} /></AnimateIn>
+          <AnimateIn><ServiceFaq heading={`${service.name} FAQs`} faqs={content.faqs} /></AnimateIn>
 
           {/* Outer: What Knowledge Base Articles Explain This Service? (reverse-silo link) */}
           {(() => {
@@ -361,7 +361,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           })()}
 
           {/* Related Comparisons -- contextual comparison links */}
-          <AnimateIn><ServiceRelatedComparisons heading="How Do Your Roofing Options Compare?" comparisons={getRelatedComparisons(service.id)} /></AnimateIn>
+          <AnimateIn><ServiceRelatedComparisons heading="Compare Your Roofing Options" comparisons={getRelatedComparisons(service.id)} /></AnimateIn>
         </article>
 
         {/* Sticky sidebar */}
@@ -374,7 +374,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         </StickyFormSidebar>
       </div>
 
-      <ServiceAreasGrid heading={`Where Can You Get ${service.name} in Essex County?`} service={service} />
+      <ServiceAreasGrid heading={`${service.name} Across Essex County, NJ`} service={service} />
 
       <RelatedServices heading={relatedH2} services={relatedServices} />
 

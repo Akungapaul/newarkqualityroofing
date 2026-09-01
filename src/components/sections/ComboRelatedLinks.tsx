@@ -21,14 +21,14 @@ export function ComboRelatedLinks({
         id="combo-related-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        What Related Roofing Services and Locations Should You Consider?
+        Related Roofing Services and Locations
       </h2>
 
       {/* 1. Nearby Cities -- card grid */}
       {nearbyCities.length > 0 && (
         <div>
           <h3 className="font-heading text-lg font-bold text-forest">
-            Where Else Do We Provide Roofing Services Nearby?
+            Roofing Services in Nearby Towns
           </h3>
           <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
             {nearbyCities.map((link, index) => (
@@ -53,7 +53,7 @@ export function ComboRelatedLinks({
       {relatedServices.length > 0 && (
         <div>
           <h3 className="font-heading text-lg font-bold text-forest">
-            What Other Roofing Services Are Available in {cityName}?
+            Other Roofing Services Available in {cityName}
           </h3>
           <div className="mt-4 space-y-4">
             {relatedServices.map((group) => (
@@ -82,7 +82,7 @@ export function ComboRelatedLinks({
       {/* 3. Parent Pages */}
       <div>
         <h3 className="font-heading text-lg font-bold text-forest">
-          Where Can You Explore the Full Service and Location?
+          Explore the Full Service and Location Pages
         </h3>
         <ul className="mt-3 space-y-2">
           <li>

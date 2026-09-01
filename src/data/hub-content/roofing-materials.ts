@@ -4,10 +4,11 @@ export const roofingMaterialsHubContent: HubContent = {
   "hubId": "roofing-materials",
   "directAnswer": "**The right roofing material depends on slope, budget, home style, and lifespan; Newark Quality Roofing installs asphalt, metal, slate, tile, cedar, and membrane systems across Essex County, New Jersey.** Steep-slope homes take shingle, metal, slate, tile, or cedar; low-slope roofs take single-ply, modified bitumen, BUR, or spray foam.",
   "definition": "**The main roofing materials are asphalt shingle, metal, natural slate, clay or concrete tile, and cedar shake for steep slopes, plus membrane systems for low slopes** — each carrying a distinct lifespan, weight, and cost.",
-  "definitionHeading": "What Are the Main Roofing Materials?",
+  "definitionQuestion": "What Are the Main Roofing Materials?",
+  "definitionHeading": "The Main Roofing Materials, Defined",
   "sections": [
     {
-      "heading": "What Roofing Materials Does Newark Quality Roofing Install?",
+      "heading": "Roofing Materials Newark Quality Roofing Installs",
       "body": [
         "**Newark Quality Roofing installs six roofing materials across Newark and Essex County, New Jersey: asphalt shingle, metal, natural slate, clay or concrete tile, and cedar shake on steep slopes, plus membrane systems on low slopes.** Newark Quality Roofing is a roofing contractor and registered New Jersey Home Improvement Contractor.",
         "**Asphalt shingle, metal, slate, tile, and cedar shake** cover steep-slope roofs pitched above 3:12 — the architectural-shingle, standing-seam metal, and natural-slate roofs common across Newark, Montclair, and the Caldwells. Asphalt shingle holds the largest share of New Jersey residential roofs; slate and tile carry the heaviest dead load and define many of Essex County's historic homes.",
@@ -16,7 +17,7 @@ export const roofingMaterialsHubContent: HubContent = {
       ]
     },
     {
-      "heading": "How Do Asphalt, Metal, Slate, Tile, and Cedar Compare?",
+      "heading": "How Asphalt, Metal, Slate, Tile, and Cedar Compare",
       "body": [
         "**Asphalt, metal, slate, tile, and cedar differ most in service life: architectural asphalt lasts roughly 25–30 years, metal 40–70 years, natural slate 75–150-plus years, clay or concrete tile 50–100 years, and cedar shake 25–30 years**, per InterNACHI.",
         "**Asphalt shingle and cedar shake** share the shortest service life at roughly 25–30 years, but differ in cost and weight: architectural asphalt is the lowest-cost steep-slope material and the lightest mainstream option, while cedar shake costs more, weighs more, and demands more upkeep against rot in New Jersey's humidity.",
@@ -25,7 +26,7 @@ export const roofingMaterialsHubContent: HubContent = {
       ]
     },
     {
-      "heading": "Which Roofing Materials Suit New Jersey's Climate?",
+      "heading": "Roofing Materials Suited to New Jersey's Climate",
       "body": [
         "**New Jersey's freeze-thaw cycles, snow load, wind, and humidity favor materials that resist water intrusion: metal and slate shed snow and last decades, while CRRC-rated reflective membranes cut heat gain on low-slope roofs.**",
         "**Freeze-thaw cycles and snow load** drive water behind shingles and stress the deck across Essex County, New Jersey winters; metal sheds snow with a smooth standing-seam surface, and slate's 75–150-plus-year life resists the repeated freeze-thaw that shortens shorter-lived materials.",
@@ -35,7 +36,7 @@ export const roofingMaterialsHubContent: HubContent = {
     }
   ],
   "childLinks": {
-    "heading": "Which Roofing Materials and Comparisons Can You Explore?",
+    "heading": "Explore Roofing Materials and Comparisons",
     "groups": [
       {
         "label": "Roofing Materials We Install",
@@ -105,7 +106,7 @@ export const roofingMaterialsHubContent: HubContent = {
       }
     ]
   },
-  "faqHeading": "What Questions Do Homeowners Ask About Roofing Materials?",
+  "faqHeading": "Roofing Materials FAQs for NJ Homeowners",
   "faqs": [
     {
       "question": "Which roofing material lasts the longest?",

@@ -55,7 +55,7 @@ export function HomePricingTable() {
         </div>
 
         <h3 className="mt-12 font-heading text-2xl font-semibold text-copper-light">
-          How Much Does Roof Replacement Cost in New Jersey?
+          Roof Replacement Costs in New Jersey
         </h3>
 
         <div className="mt-6 overflow-hidden rounded-lg border border-parchment/15 shadow-lg">
@@ -115,7 +115,7 @@ export function HomePricingTable() {
         {/* PAA answers */}
         <div className="mt-10 space-y-6">
           <h4 className="font-heading text-xl font-semibold text-copper-light">
-            What Do Customers Ask About Roofing Prices?
+            Common Roofing Price Questions
           </h4>
           <div>
             <p className="font-heading text-lg font-semibold text-parchment">

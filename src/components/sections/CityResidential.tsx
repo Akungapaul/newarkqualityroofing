@@ -34,7 +34,7 @@ export function CityResidential({ content }: CityResidentialProps) {
   return (
     <div className="rounded-lg border-l-4 border-forest bg-forest/5 p-6 lg:p-8">
       <SectionHeading id="residential-heading" icon={RESIDENTIAL_ICON}>
-        What Residential Roofing Services Do We Provide?
+        Residential Roofing Services We Provide
       </SectionHeading>
       <div className="mt-5">
         <ProseLead paragraphs={content} media={media} />

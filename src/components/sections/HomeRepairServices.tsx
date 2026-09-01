@@ -18,7 +18,7 @@ export function HomeRepairServices() {
           id="repair-services-heading"
           className="font-heading text-3xl font-bold text-forest sm:text-4xl"
         >
-          How Do We Repair and Replace Roofs in Newark?
+          How We Repair and Replace Roofs in Newark
         </h2>
         <p className="mt-6 max-w-3xl font-body text-lg leading-relaxed text-text-secondary">
           Whether you need a quick fix for a leaking roof or a{' '}
@@ -43,7 +43,7 @@ export function HomeRepairServices() {
           {/* Left column: process + emergency */}
           <div>
             <h3 className="font-heading text-2xl font-semibold text-forest">
-              What Are the Steps in Our Roofing Process?
+              The Steps in Our Roofing Process
             </h3>
             <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
               From the moment you call, we follow a <em>proven process</em>
@@ -110,7 +110,7 @@ export function HomeRepairServices() {
 
             <div className="mt-10">
               <h3 className="font-heading text-2xl font-semibold text-forest">
-                How Do We Handle Emergency Roof Repairs?
+                How We Handle Emergency Roof Repairs
               </h3>
               <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
                 Storm damage and sudden leaks do not wait for business hours —

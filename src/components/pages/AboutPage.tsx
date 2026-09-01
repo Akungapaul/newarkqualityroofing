@@ -140,7 +140,7 @@ export default function AboutPage() {
       <section className="bg-parchment px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="font-heading text-3xl font-bold text-forest sm:text-4xl">
-            What Is Our Story as a Newark Roofing Company?
+            Our Story as a Newark Roofing Company
           </h2>
           <div className="mt-8 space-y-5 font-body text-lg leading-relaxed text-text-secondary">
             <p>
@@ -171,7 +171,7 @@ export default function AboutPage() {
       <section className="bg-parchment-light px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl">
-            What Values Guide Our Roofing Work?
+            The Values That Guide Our Roofing Work
           </h2>
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
             {values.map((value) => (
@@ -196,7 +196,7 @@ export default function AboutPage() {
       <section className="bg-parchment px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="font-heading text-3xl font-bold text-forest sm:text-4xl">
-            What Credentials and Certifications Do We Hold?
+            Credentials and Certifications We Hold
           </h2>
           <p className="mt-4 font-body text-lg text-text-secondary">
             Our certifications reflect our commitment to excellence, safety, and
@@ -219,7 +219,7 @@ export default function AboutPage() {
       <section className="bg-parchment-light px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Who Is on Our Roofing Team?
+            Our Roofing Team
           </h2>
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             {team.map((member) => {
@@ -264,7 +264,7 @@ export default function AboutPage() {
       <section className="bg-parchment px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="font-heading text-3xl font-bold text-forest sm:text-4xl">
-            How Are We Involved in the Community?
+            Our Involvement in the Newark Community
           </h2>
           <div className="mt-6 space-y-4 font-body text-lg leading-relaxed text-text-secondary">
             <p>
@@ -286,7 +286,7 @@ export default function AboutPage() {
       <section className="bg-forest px-6 py-16 text-center text-text-on-dark">
         <div className="mx-auto max-w-5xl">
           <h2 className="font-heading text-3xl font-bold sm:text-4xl">
-            Ready to Work With a Team You Can Trust?
+            Work With a Team You Can Trust
           </h2>
           <p className="mx-auto mt-4 max-w-xl font-body text-lg text-parchment-dark/90">
             Get a free, no-obligation roofing estimate from Newark&rsquo;s most trusted

@@ -34,7 +34,7 @@ export function CityCommercial({ content }: CityCommercialProps) {
   return (
     <div className="rounded-lg border-l-4 border-copper bg-copper/5 p-6 lg:p-8">
       <SectionHeading id="commercial-heading" icon={COMMERCIAL_ICON}>
-        What Commercial Roofing Services Do We Provide?
+        Commercial Roofing Services We Provide
       </SectionHeading>
       <div className="mt-5">
         <ProseLead paragraphs={content} media={media} />

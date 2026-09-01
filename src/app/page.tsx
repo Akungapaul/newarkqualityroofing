@@ -127,23 +127,23 @@ export default function Home() {
           <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                q: 'What Happens During the Free Roof Inspection?',
+                q: 'The Free Roof Inspection',
                 a: 'We document your roof with photos and a written report so you know exactly what your home needs — at no cost and with no obligation.',
               },
               {
-                q: 'What Is Included in the Roofing Estimate?',
+                q: 'Your Written Roofing Estimate',
                 a: 'Your written estimate covers materials, labor, and cleanup, with transparent pricing and manufacturer-backed material options.',
               },
               {
-                q: 'How Do We Schedule Your Roofing Work?',
+                q: 'Scheduling Your Roofing Work',
                 a: 'Once you approve the estimate, we set a start date that works for you and confirm the crew, materials, and timeline in advance.',
               },
               {
-                q: 'What Happens During Installation, Repair, or Replacement?',
+                q: 'Installation, Repair, or Replacement Day',
                 a: 'Our registered, insured crew completes the work on time, to code, and within budget, protecting your property throughout the project.',
               },
               {
-                q: 'What Happens During Final Cleanup and Walkthrough?',
+                q: 'Final Cleanup and Walkthrough',
                 a: 'We clear all debris, perform a magnetic nail sweep, and walk the finished roof with you before we leave the job site.',
               },
             ].map((step, i) => (
@@ -209,7 +209,7 @@ export default function Home() {
             id="kb-link-heading"
             className="font-heading text-3xl font-bold sm:text-4xl"
           >
-            Where Can You Learn More in Our Roofing Knowledge Base?
+            Learn More in Our Roofing Knowledge Base
           </h2>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment/80">
             Explore expert roofing guides, cost breakdowns, and material comparisons written for
@@ -239,7 +239,7 @@ export default function Home() {
             id="browse-services-heading"
             className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
           >
-            What Other Roofing Services Can You Browse?
+            More Roofing Services to Browse
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
             Explore our full range of roofing services for Newark and Essex County homeowners and businesses.
@@ -277,12 +277,12 @@ export default function Home() {
             id="embeds-heading"
             className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
           >
-            Where Do We Provide Roofing in Newark and Essex County?
+            Our Roofing Service Area: Newark and Essex County
           </h2>
         </div>
         <div className="mx-auto mt-8 max-w-3xl px-6 lg:px-8">
           <h3 className="mb-4 font-heading text-xl font-semibold text-forest">
-            Where Do We Work in Newark, NJ?
+            Our Work Area in Newark, NJ
           </h3>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48421.58762696192!2d-74.19967!3d40.73566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2547cb4c18891%3A0x6ec8c91e844010e!2sNewark%2C%20NJ!5e0!3m2!1sen!2sus!4v1700000000000"

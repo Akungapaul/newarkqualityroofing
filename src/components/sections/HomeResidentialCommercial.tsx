@@ -39,7 +39,7 @@ export function HomeResidentialCommercial() {
           id="res-comm-heading"
           className="mb-12 text-center font-heading text-3xl font-bold text-forest sm:text-4xl"
         >
-          What Roofing Do We Provide for Homes and Businesses in Essex County?
+          Roofing for Homes and Businesses in Essex County
         </h2>
 
         {/* 50/50 grid */}
@@ -57,7 +57,7 @@ export function HomeResidentialCommercial() {
               />
             </div>
             <h3 className="mt-6 font-heading text-2xl font-bold text-forest">
-              What Residential Roofing Do We Provide?
+              Residential Roofing We Provide
             </h3>
             <ul className="mt-4 space-y-2.5">
               {residentialBullets.map((item) => (
@@ -125,7 +125,7 @@ export function HomeResidentialCommercial() {
               />
             </div>
             <h3 className="mt-6 font-heading text-2xl font-bold text-forest">
-              What Commercial Roofing Do We Provide?
+              Commercial Roofing We Provide
             </h3>
             <ul className="mt-4 space-y-2.5">
               {commercialBullets.map((item) => (

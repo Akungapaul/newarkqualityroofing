@@ -191,7 +191,7 @@ export default function ServicesHubPage() {
       <main className="mx-auto max-w-6xl space-y-12 px-6 pb-20">
         {/* Residential Section */}
         <ServiceSection
-          title="What Residential Roofing Services Do We Provide?"
+          title="Residential Roofing Services We Provide in Essex County"
           description="Expert roofing solutions for homeowners across Essex County. Quality materials, skilled craftsmanship, and warranties you can trust."
           grouped={residentialGrouped}
           variant="residential"
@@ -201,7 +201,7 @@ export default function ServicesHubPage() {
 
         {/* Commercial Section */}
         <ServiceSection
-          title="What Commercial Roofing Services Do We Provide?"
+          title="Commercial Roofing Services We Provide in Essex County"
           description="Industrial-grade roofing systems for businesses, warehouses, and commercial properties throughout Newark and Essex County."
           grouped={commercialGrouped}
           variant="commercial"
@@ -212,7 +212,7 @@ export default function ServicesHubPage() {
         {/* Bottom CTA */}
         <section className="rounded-lg border border-copper/30 bg-copper/5 px-6 py-10 text-center">
           <h2 className="font-heading text-2xl font-bold text-forest">
-            Not sure what you need?
+            Help Choosing the Right Roofing Service
           </h2>
           <p className="mx-auto mt-3 max-w-lg font-body text-text-secondary">
             Our roofing experts will assess your property and recommend the best

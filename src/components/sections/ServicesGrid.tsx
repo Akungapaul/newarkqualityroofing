@@ -153,7 +153,7 @@ export function ServicesGrid() {
 
           {/* Residential group */}
           <h3 className="mt-14 text-center font-heading text-2xl font-bold text-forest sm:text-3xl">
-            What Residential Roofing Services Do We Provide?
+            Residential Roofing Services We Provide
           </h3>
           <StaggerGrid className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {RESIDENTIAL_SERVICES.map((s) => (
@@ -166,7 +166,7 @@ export function ServicesGrid() {
 
           {/* Commercial group */}
           <h3 className="mt-16 text-center font-heading text-2xl font-bold text-forest sm:text-3xl">
-            What Commercial Roofing Services Do We Provide?
+            Commercial Roofing Services We Provide
           </h3>
           <StaggerGrid className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {COMMERCIAL_SERVICES.map((s) => (

@@ -1,9 +1,11 @@
 /**
  * Heading Policy Audit (AUD-01 — build-failing gate).
  *
- * POLICY (2026-08 owner decision): every page H1 is a keyword-led STATEMENT
- * (uniform "[Service] [City], NJ" pattern / "in NJ" statewide suffix — must NOT
- * end in "?"); every H2/H3/H4 keeps the §17 question form (Q→A structure).
+ * POLICY v3 (2026-09 owner decision): EVERY heading H1-H4 is a keyword-led
+ * STATEMENT that answers its topic and carries Who/What/Where (the 3 Ws).
+ * H1s use the "[Service] [City], NJ" pattern. The only interrogatives left are
+ * FAQ ITEM questions (accordion summaries site-wide, plus the hub pages' FAQ
+ * <h3>s inside section[aria-labelledby="hub-faq-heading"], which are exempt).
  *
  * Hybrid two-pass audit (D-08 / D-09). Model: scripts/audit-redirects.ts
  * (errors[]/process.exit) + scripts/audit-sitemap.ts (registry enumeration +
@@ -130,8 +132,10 @@ function staticPass(errors: string[]): void {
     ['combo.definitionH2', H.combo.definitionH2(sampleService)],
     ...H.combo.h2s(sampleService, sampleCity).map((s, i) => [`combo.h2[${i}]`, s] as [string, string]),
   ];
+  // 2026-09 heading policy v3: H2s are STATEMENTS too (the whole H1-H4 tree is
+  // statement-form; only FAQ item questions stay interrogative).
   for (const [name, str] of h2Strings) {
-    if (!isQuestion(str)) errors.push(`STATIC config heading not a question (${name}): "${str}"`);
+    if (isQuestion(str)) errors.push(`STATIC config heading is a question — headings must be statements (${name}): "${str}"`);
   }
 
   // ── 2. Exactly one H1 per page type + H1 never equals any of its own H2s ─────
@@ -346,7 +350,11 @@ function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
   // outside the §4.x question-form trees.
   if (sample.kind === 'h1-only') return;
 
-  // ── all h1..h4 outside nav/footer/button/label; H2-H4 questions; level order ─
+  // ── all h1..h4 outside nav/footer/button/label; ALL statements; level order ─
+  // 2026-09 heading policy v3: every heading (H1-H4) is a statement. The one
+  // exception: the 6 hub pages render their FAQ ITEM questions as <h3> inside
+  // <section aria-labelledby="hub-faq-heading"> — real questions, kept for the
+  // FAQ rich-result pairing, exempt from the form check only.
   const headings = root.querySelectorAll('h1,h2,h3,h4');
   let prevLevel = 0;
   for (const h of headings) {
@@ -355,9 +363,11 @@ function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
       errors.push(`${tag} forbidden <${h.tagName.toLowerCase()}> inside nav/footer/button/label: "${text}"`);
       continue; // do not let a nav heading drive level-order
     }
-    // H1 statement form is asserted above; the question rule applies to H2-H4.
-    if (h.tagName !== 'H1' && !isQuestion(text)) {
-      errors.push(`${tag} <${h.tagName.toLowerCase()}> not a question → "${text}"`);
+    const isHubFaqItem =
+      h.tagName === 'H3' && h.closest('section[aria-labelledby="hub-faq-heading"]') !== null;
+    // H1 statement form is asserted above (skip double-reporting it here).
+    if (h.tagName !== 'H1' && !isHubFaqItem && isQuestion(text)) {
+      errors.push(`${tag} <${h.tagName.toLowerCase()}> is a question — headings must be statements → "${text}"`);
     }
     const level = Number(h.tagName[1]);
     if (prevLevel && level > prevLevel + 1) {
@@ -408,7 +418,7 @@ function renderedPass(errors: string[]): boolean {
 
 function main(): void {
   console.log('='.repeat(72));
-  console.log('  HEADING POLICY VALIDATION (statement H1 / question H2-H4 — build-failing)');
+  console.log('  HEADING POLICY VALIDATION (statement H1-H4; FAQ items stay questions)');
   console.log('='.repeat(72));
   console.log();
 
@@ -432,7 +442,7 @@ function main(): void {
     process.exit(1);
   }
 
-  console.log('Heading policy valid: statement H1s, question-form H2/H3/H4, Core-before-Outer,');
+  console.log('Heading policy valid: statement H1-H4 (hub FAQ items exempt), Core-before-Outer,');
   console.log('no nav/footer H-tags, no skipped levels, article titles unique statements. PASS');
   process.exit(0);
 }

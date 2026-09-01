@@ -9,10 +9,11 @@ export const decisionHelpers: ComparisonContent[] = [
   {
     comparisonId: 'best-roofing-material-nj-weather',
     directAnswer: `**Standing seam metal** and **architectural asphalt shingles rank as the best roofing material for NJ weather**, with metal lasting 40–80 years and architectural asphalt 30 years per the InterNACHI chart, and asphalt installing cheaper per Josten Roofing.`,
-    definitionHeading: `What Is the Best Roofing Material for NJ Weather?`,
+    definitionQuestion: `What Is the Best Roofing Material for NJ Weather?`,
+    definitionHeading: `The Best Roofing Material for NJ Weather, Defined`,
     definition:
       `**The best roofing material for New Jersey weather** is the roof covering whose composition and form best withstand the state's snowfall, rainfall, high design wind, summer heat, and repeated winter freeze-thaw cycling. The comparison weighs each material's durability against those conditions alongside its installed cost.`,
-    introHeading: `What Is the Best Roofing Material for New Jersey Weather?`,
+    introHeading: `Metal, Architectural Shingles, and Slate Lead for New Jersey Weather`,
     introParagraphs: [
       `**Standing seam metal**, **architectural asphalt shingles**, and **natural slate** lead the ranking of roofing materials for New Jersey weather, which subjects every covering to snowfall, a high design wind speed, and repeated winter freeze-thaw cycling across Essex County.`,
       `**Standing seam metal** is the concealed-fastener steel or aluminum panel system that sheds snow and lasts 40–80 years per the InterNACHI chart; **architectural asphalt shingles** are the laminated fiberglass-mat covering that lasts 30 years at a lower NJ install cost of $6.50–$11.00 per square foot, per Josten Roofing; **natural slate** is the quarried-stone covering whose near-zero porosity resists freeze-thaw across a 60–150-year life, per InterNACHI.`,
@@ -33,7 +34,7 @@ export const decisionHelpers: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `Which Materials Resist NJ Freeze-Thaw Best?`,
+        heading: `Standing Seam Metal and Natural Slate Resist NJ Freeze-Thaw Best`,
         content: [
           `**Standing seam metal** and **natural slate** resist New Jersey freeze-thaw best — both carry near-zero water absorption, so the roughly 35–45 freeze-thaw cycles each north-NJ winter (regional climate estimates) cannot crack them, per the InterNACHI chart.`,
           `**Standing seam metal** absorbs no water at its panel surface, so freeze-thaw cycling loosens fasteners and stresses long-run thermal expansion rather than splitting the covering, and its 40–80-year life outlasts asphalt by decades, per InterNACHI and NRCA expansion guidance.`,
@@ -42,7 +43,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Materials Withstand NJ Wind and Snow?`,
+        heading: `Metal and Architectural Shingles Withstand NJ Wind and Snow Best`,
         content: [
           `**Standing seam metal** and **architectural asphalt shingles** withstand New Jersey wind and snow best — both exceed the ~110–115 mph design wind speed under ASCE 7-16, and metal sheds the ~31.5-inch average snowfall, per NOAA normals.`,
           `**Standing seam metal** sheds snow off interlocking panels, so the ~31.5-inch average annual snowfall (NOAA, ~78% falling December–February) slides clear, though shed snow needs snow guards over Newark entryways, per NOAA normals.`,
@@ -50,7 +51,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Materials Stay Coolest in NJ Summers?`,
+        heading: `Reflective Metal and White TPO Stay Coolest in NJ Summers`,
         content: [
           `**Standing seam metal** with a reflective finish and white **TPO** membrane stay coolest in New Jersey summers — a reflective roof stays over 50°F cooler than a conventional roof on a sunny afternoon, per the U.S. Department of Energy.`,
           `**Standing seam metal** with a reflective finish lowers roof surface temperature through high solar reflectance and thermal emittance, not added R-value, cutting peak cooling demand 11–27% in air-conditioned buildings, per the EPA and the Cool Roof Rating Council, with Newark's heating-dominated Climate Zone 4A carrying a winter heating offset, per the DOE.`,
@@ -59,7 +60,7 @@ export const decisionHelpers: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ Climate and Code Require of a Roof?`,
+      heading: `NJ Climate and Code Requirements for a Roof`,
       content: [
         `**The NJ Uniform Construction Code** treats a full re-roof of any material on a detached 1- or 2-family Newark home as ordinary maintenance — no permit — per N.J.A.C. 5:23-2.7, while IRC R905.1.2 requires an ice-and-water barrier at the eaves.`,
         `**The NJ Uniform Construction Code** requires the ice-and-water barrier to extend ≥24 inches inside the exterior wall line under IRC R905.1.2, as enforced through N.J.A.C. 5:23, protecting Newark eaves against the ice-dam backup that the ~31.5-inch average snowfall and ~35–45 freeze-thaw cycles drive, per NOAA normals and regional climate estimates.`,
@@ -67,7 +68,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Roofing Material Suits an Essex County House?`,
+      heading: `Asphalt Shingles Suit Most Essex County Houses; Metal Suits Long-Hold Owners`,
       content: [
         `**Architectural asphalt shingles** suit most Essex County houses and **standing seam metal** suits long-hold owners — asphalt installs at $6.50–$11.00 per NJ square foot for a 30-year life, while metal lasts 40–80 years, per Josten Roofing and InterNACHI.`,
         `**Architectural asphalt shingles** carry the widest color and profile range at the lowest NJ entry cost of $6.50–$11.00 per square foot (Josten Roofing) with a 30-year InterNACHI life, fitting color-and-budget-driven Essex County homes within the $10,000–$25,000 NJ replacement range, per Josten Roofing and HomeAdvisor NJ.`,
@@ -75,7 +76,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Roofing Material Fits a NJ Commercial Building?`,
+      heading: `TPO Fits Flat NJ Commercial Roofs; Standing Seam Metal Fits Sloped`,
       content: [
         `**TPO** fits most NJ commercial flat roofs and **standing seam metal** fits sloped commercial structures — TPO's heat-welded seams and reflective surface suit flat roofs, while metal's 40–80-year life suits long-hold sloped properties, per the InterNACHI chart.`,
         `**TPO** membrane heat-welds its seams into a continuous waterproof plane and reflects solar energy off its white surface, fitting Essex County office and retail flat roofs at a 7–20-year InterNACHI life ($8.00–$12.00 per NJ square foot, Josten Roofing), with **EPDM** the flexible-in-cold budget alternative at a 15–25-year life.`,
@@ -96,10 +97,11 @@ export const decisionHelpers: ComparisonContent[] = [
   {
     comparisonId: 'best-commercial-roofing-material',
     directAnswer: `**TPO** and **EPDM rank as the best commercial roofing materials for NJ low-slope buildings** — white **TPO** heat-welds its seams and reflects sun at ~0.70–0.85 solar reflectance, while **EPDM** runs the lowest single-ply install cost, per the CRRC and Josten Roofing.`,
-    definitionHeading: `What Is the Best Commercial Roofing Material?`,
+    definitionQuestion: `What Is the Best Commercial Roofing Material?`,
+    definitionHeading: `The Best Commercial Roofing Material, Defined`,
     definition:
       `**The best commercial roofing material** is the low-slope membrane or metal system best matched to a commercial building's use, slope, and budget — typically a single-ply membrane, multi-ply bituminous system, standing-seam metal, or spray foam. The comparison weighs each option by install cost, lifespan, ponding resistance, and summer cooling demand.`,
-    introHeading: `Which Commercial Roofing Material Ranks Best for NJ Buildings?`,
+    introHeading: `TPO Reflects Sunlight and EPDM Installs at the Lowest Single-Ply Cost in NJ`,
     introParagraphs: [
       `**TPO** is the white thermoplastic single-ply membrane that heat-welds its seams and reflects sunlight, and **EPDM** is the black synthetic-rubber membrane that installs at the lowest single-ply cost on NJ commercial buildings, per Single Ply Roofing Industry and Josten Roofing.`,
       `**TPO** carries ~0.70–0.85 solar reflectance with welded seams stronger than the sheet but fails first at welded-seam defects, per the CRRC and NRCA; **EPDM** lasts 15–25 years, per the InterNACHI chart, and resists cold cracking but separates at adhesive seams, per industry guidance; **PVC** adds grease and chemical resistance at 20–30 years, per Single Ply Roofing Industry; **modified bitumen** and **built-up roofing** add multi-ply redundancy at 20 and 30 years, per InterNACHI; **standing seam metal** lasts 40–80 years and **spray polyurethane foam** adds R-6.0–6.5 per inch, per the InterNACHI chart and SPFA.`,
@@ -120,7 +122,7 @@ export const decisionHelpers: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `Which Commercial Membrane Costs Less to Install in NJ?`,
+        heading: `EPDM Installs at the Lowest Single-Ply Cost in NJ`,
         content: [
           `**EPDM** carries the lowest NJ single-ply install cost at $7–$10 per square foot, **TPO** runs $8–$12, and **spray polyurethane foam** runs $4–$8, per Josten Roofing and commercial cost guides cited by M&M Roofing and WeatherStar.`,
           `**EPDM** installs at $7–$10 per NJ square foot, per Josten Roofing, the lowest single-ply entry cost, while its black surface absorbs heat and carbon-black UV stabilizer lets black EPDM outlast white EPDM, per industry guidance.`,
@@ -129,7 +131,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Commercial Roof Lasts Longest in NJ?`,
+        heading: `Standing Seam Metal Lasts Longest Among NJ Commercial Roofs`,
         content: [
           `**Standing seam metal** lasts longest at 40–80 years, **PVC** lasts 20–30 years, **built-up roofing** 30, and **EPDM** 15–25, per the InterNACHI chart and Single Ply Roofing Industry.`,
           `**Standing seam metal** lasts 40–80 years (copper exceeding 70), per the InterNACHI chart, eliminating one membrane-replacement cycle that single-ply systems force on a long-hold NJ property.`,
@@ -138,7 +140,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Commercial Roof Handles Ponding and Failure Modes Best?`,
+        heading: `TPO and PVC Handle Ponding and Failure Modes Best`,
         content: [
           `**TPO** and **PVC** resist ponding through heat-welded seams that bond stronger than the sheet, while **EPDM** separates at adhesive seams and **modified bitumen** blisters, per the NRCA technical library.`,
           `**TPO** fails first at welded-seam defects and hardens through thermal-shock cracking as plasticizers migrate, per NRCA technical guidance, though the heat-welded seam itself bonds stronger than the membrane field.`,
@@ -147,7 +149,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Commercial Roof Cuts Summer Cooling Demand Most?`,
+        heading: `TPO and PVC Cut Summer Cooling Demand Most`,
         content: [
           `**TPO** and **PVC** cut summer cooling demand most — white membranes carry ~0.70–0.85 solar reflectance, and a cool roof reduces peak cooling demand 11–27% in air-conditioned buildings, per the CRRC and EPA.`,
           `**TPO** reflects sunlight at ~0.70–0.85 solar reflectance and ~0.80–0.90 thermal emittance, measured per ASTM C1549 and listed by the CRRC, lowering the roof surface temperature; a reflective roof stays over 50°F cooler than a conventional roof on a sunny afternoon, per the U.S. Department of Energy.`,
@@ -156,7 +158,7 @@ export const decisionHelpers: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ Code Require for Commercial Roofing?`,
+      heading: `NJ Code Requirements for Commercial Roofing`,
       content: [
         `**The NJ Uniform Construction Code** governs the commercial permit threshold and **the NRCA** sets the drainage minimum — a permit applies once repair exceeds 25% of roof area in 12 months, per N.J.A.C. 5:23-2.7(c).`,
         `**The NJ Uniform Construction Code** adopts the 2021 IECC, where white **TPO** and **PVC** membranes reach cool-roof reflectance through solar reflectance and thermal emittance rather than added insulation, per the NJ DCA and CRRC, because reflectance governs solar gain and R-value governs conductive flow.`,
@@ -164,7 +166,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Commercial Membrane Suits a Mixed-Use Building?`,
+      heading: `TPO and PVC Suit Mixed-Use Buildings in Essex County`,
       content: [
         `**TPO** and **PVC** suit the flat sections of Essex County mixed-use buildings: white **TPO** reflects summer sun at ~0.70–0.85 reflectance, while **PVC** resists grease above a ground-floor kitchen, per the CRRC and Single Ply Roofing Industry.`,
         `**TPO** covers the flat commercial section at $8–$12 per NJ square foot with heat-welded seams, per Josten Roofing, pairing with architectural asphalt shingles on any residential steep-slope section above.`,
@@ -172,7 +174,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Commercial Roof Fits the Building's Priority?`,
+      heading: `The Right Commercial Roof by Building Priority: TPO, EPDM, or Metal`,
       content: [
         `**TPO** fits cooling-driven offices, **EPDM** fits budget-driven warehouses, and **standing seam metal** fits long-hold sloped properties — each priority points to a different system, per the CRRC, Josten Roofing, and the InterNACHI chart.`,
         `**TPO** fits an air-conditioned office or retail building, cutting peak cooling demand 11–27% through its ~0.70–0.85 reflectance, per the EPA and CRRC, at an $8–$12 NJ per-square-foot install, per Josten Roofing.`,
@@ -193,10 +195,11 @@ export const decisionHelpers: ComparisonContent[] = [
   {
     comparisonId: 'best-roofing-for-flat-roofs',
     directAnswer: `**Heat-welded TPO** and **PVC rank as the best roofing for flat roofs in NJ**: their welded seams bond stronger than the membrane and reflect 0.70–0.85 of solar energy, per the NRCA and CRRC, while **EPDM** leads on lower NJ install cost.`,
-    definitionHeading: `What Is the Best Roofing for Flat Roofs?`,
+    definitionQuestion: `What Is the Best Roofing for Flat Roofs?`,
+    definitionHeading: `The Best Roofing for Flat Roofs, Defined`,
     definition:
       `**The best roofing for a flat roof** is a continuous, watertight membrane or liquid-applied coating that seals the low-slope deck as one surface, since a flat roof sheds water too slowly to rely on slope alone. The comparison weighs single-ply, multi-ply, and sprayed systems by seam reliability, solar reflectance, ponding-water resistance, service life, and install cost.`,
-    introHeading: `What Is the Best Roofing Material for a Flat Roof in NJ?`,
+    introHeading: `TPO Leads NJ Flat-Roof Membrane Selection`,
     introParagraphs: [
       `**TPO** is the thermoplastic single-ply membrane whose heat-welded seams and white reflective surface lead NJ flat-roof selection, **PVC** is the chemical-resistant thermoplastic sharing that welded seam, and **EPDM** is the synthetic-rubber membrane that stays flexible in cold.`,
       `**TPO** carries an InterNACHI life expectancy of 7–20 years (commonly cited 15–25 in practice, per Progressive Materials) and a CRRC-listed solar reflectance near 0.70–0.85. **PVC** runs 20–30 years per the Single Ply Roofing Industry and resists grease and chemicals. **EPDM** lasts 15–25 years per the InterNACHI chart, installs at $7.00–$10.00 per NJ square foot per Josten Roofing, and stays pliable through northern-NJ freeze-thaw, while modified bitumen lasts 20 years and built-up roofing 30 years per InterNACHI.`,
@@ -216,7 +219,7 @@ export const decisionHelpers: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `Which Flat Roof Membrane Handles Ponding Water Best?`,
+        heading: `TPO and PVC Handle Ponding Water Best on Flat Roofs`,
         content: [
           `**TPO** and **PVC** tolerate ponding water longest because their thermoplastic composition resists standing-water degradation, while **EPDM** ranks next and spray polyurethane foam erodes under chronic ponding, per the NRCA technical library and SPFA.`,
           `**TPO** and **PVC** hold a thermoplastic chemistry that does not break down in standing water, so the NRCA min design slope of ¼ inch per foot (~2%) protects the membrane rather than rescuing it — ponding accelerates membrane deterioration on every flat system, per NRCA and ARMA.`,
@@ -224,7 +227,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Flat Roof Seam Is the Most Reliable?`,
+        heading: `Heat-Welded TPO and PVC Seams Are the Most Reliable`,
         content: [
           `**TPO** and **PVC** carry the most reliable flat-roof seam — the heat-welded bond fuses stronger than the membrane itself — while **EPDM** adhesive and tape seams rank as the weakest seam technology in this group, per the NRCA technical library.`,
           `**TPO** and **PVC** weld with hot air into a continuous thermoplastic seam, and welded-seam failure is the named TPO failure mode only when the weld is incomplete, per the NRCA technical library.`,
@@ -232,7 +235,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Flat Roof Membrane Stays Coolest in Summer?`,
+        heading: `White TPO and PVC Membranes Stay Coolest in Summer`,
         content: [
           `**TPO** and **PVC** stay coolest because their white surfaces reflect 0.70–0.85 of solar energy and re-radiate 0.80–0.90 (CRRC, ASTM C1549), cutting peak cooling demand 11–27% in air-conditioned buildings, per the EPA.`,
           `**TPO** and **PVC** are rated by solar reflectance and thermal emittance, not R-value, per CRRC and the DOE, so a reflective membrane stays over 50°F cooler than a dark roof on a sunny afternoon, per the DOE — though Newark's heating-dominated IECC Climate Zone 4A–5 carries a winter heating offset, per the DOE.`,
@@ -240,7 +243,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Flat Roof Lasts Longest in NJ?`,
+        heading: `Built-Up Roofing Lasts Longest Among NJ Flat Roofs`,
         content: [
           `**Built-up roofing** carries the longest InterNACHI flat-roof life at 30 years, **PVC** runs 20–30 years per the Single Ply Roofing Industry, and **EPDM** lasts 15–25 years per the InterNACHI chart.`,
           `**Built-up roofing** stacks multiple plies for layered redundancy across its 30-year InterNACHI life, while modified bitumen lasts 20 years and shows blistering and alligator cracking as its named failure modes, per the InterNACHI chart and NRCA.`,
@@ -249,7 +252,7 @@ export const decisionHelpers: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ Code Require on a Flat Roof?`,
+      heading: `Positive Drainage Governs Every NJ Flat Roof`,
       content: [
         `**Positive drainage** governs every NJ flat roof — the NRCA min design slope of ¼ inch per foot (~2%), built through tapered insulation or structural slope, removes ponding that accelerates membrane deterioration, per NRCA and ARMA.`,
         `**Positive drainage** pairs with the 2021 IRC that NJ adopts via N.J.A.C. 5:23, which bars a recover over a water-soaked or deteriorated deck and requires removal of an unsound base before a new membrane, per IRC R908 and N.J.A.C. 5:23-6.4.`,
@@ -257,7 +260,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Flat Roof Suits an Essex County House?`,
+      heading: `EPDM and TPO Suit Essex County Flat Roof Sections`,
       content: [
         `**EPDM** and **TPO** suit Essex County flat sections — porches, additions, and garages — because EPDM installs at the lower $7.00–$10.00 per NJ square foot per Josten Roofing while TPO adds a reflective white surface, per Josten Roofing and CRRC.`,
         `**EPDM** carries the lower NJ residential install cost at $7.00–$10.00 per square foot and stays flexible through freeze-thaw, per Josten Roofing and the InterNACHI chart, which fits the smaller flat-to-steep transitions on Essex County homes.`,
@@ -265,7 +268,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Flat Roof Fits a Commercial Building?`,
+      heading: `TPO and PVC Fit Air-Conditioned Commercial Buildings`,
       content: [
         `**TPO** and **PVC** fit air-conditioned commercial buildings — TPO carries the cool-roof reflectance the EPA credits with cutting peak cooling demand 11–27%, and PVC's grease resistance suits restaurants, per the EPA, CRRC, and the Single Ply Roofing Industry.`,
         `**TPO** spreads its CRRC-rated reflectance across a large commercial surface, the same cool-roof reflectance lever the EPA credits with an 11–27% peak-cooling-demand reduction in air-conditioned buildings, per CRRC and the EPA.`,
@@ -286,10 +289,11 @@ export const decisionHelpers: ComparisonContent[] = [
   {
     comparisonId: 'best-roofing-for-historic-homes-nj',
     directAnswer: `**Natural slate** and **clay tile rank as the best roofing for historic homes in NJ** — slate lasts 60–150 years and clay tile 100+ per the InterNACHI chart, and both satisfy Standard 6's in-kind matching per the NPS.`,
-    definitionHeading: `What Is the Best Roofing for Historic Homes in New Jersey?`,
+    definitionQuestion: `What Is the Best Roofing for Historic Homes in New Jersey?`,
+    definitionHeading: `The Best Roofing for a Historic NJ Home Is a Period-Appropriate Covering`,
     definition:
       `**The best roofing for historic homes in New Jersey** is a period-appropriate covering — natural slate, clay tile, cedar shingle, or historic metal — matched in kind to the home's architectural era and to any local preservation district's review. The comparison weighs each material's authenticity, durability, and fit with the Secretary of the Interior's Standards.`,
-    introHeading: `What Is the Best Roofing for a Historic Home in New Jersey?`,
+    introHeading: `Slate, Clay Tile, Cedar, and Copper Rank Highest for NJ Historic Homes`,
     introParagraphs: [
       `**Natural slate**, **clay tile**, **cedar shingle**, and **copper** rank highest for an NJ historic home because Standard 6 of the Secretary of the Interior's Standards directs repair or in-kind replacement of a historic roof, per the National Park Service.`,
       `**Natural slate** is the quarried-stone tile lasting 60–150 years (premium 100+ per the National Slate Association) suited to Victorian, Colonial Revival, and Gilded Age homes, **clay tile** is the fired terra-cotta tile lasting 100+ years suited to Spanish and Mission styles, **cedar shingle** is the wood shingle (shake 20–40 / shingle 30–50 years per the Cedar Shake & Shingle Bureau) for Craftsman-era homes, and **copper** is the standing-seam or flat-seam metal with a service life in excess of 100 years on a properly designed roof per the Copper Development Association.`,
@@ -309,7 +313,7 @@ export const decisionHelpers: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `Which Materials Match the Secretary of the Interior's Standards?`,
+        heading: `Slate, Clay Tile, Cedar, and Copper Match the Secretary of the Interior's Standards`,
         content: [
           `**Natural slate**, **clay tile**, **cedar shingle**, and **copper** match the Secretary of the Interior's Standards under Standard 6, which directs that a distinctive historic roof be replaced in kind — matched in design, color, and texture — per the NPS.`,
           `**Natural slate** is repaired rather than replaced whenever possible per NPS Preservation Brief 29, with non-ferrous solid-copper or stainless-steel fasteners required because plain or galvanized steel rusts out before the slate, and the roof replaced only when 20% or more of the slates are broken, missing, or sliding, per Brief 29.`,
@@ -318,7 +322,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Historic Roof Matches Each Period Style?`,
+        heading: `Slate for Victorian, Clay Tile for Spanish Revival, Cedar for Craftsman`,
         content: [
           `**Natural slate**, **clay tile**, **cedar shingle**, and **copper** each match distinct NJ period styles — slate on Victorian, clay tile on Spanish Revival, cedar on Craftsman, copper on Federal and Greek Revival — per NPS Preservation Brief 4.`,
           `**Natural slate** covers Victorian and Colonial Revival homes in scalloped, diamond, or multicolored patterns whose coursing and color variation are recorded before work begins, since Brief 4 directs that historic fabric be photographed, measured, and recorded for future reference.`,
@@ -327,7 +331,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `When Does Synthetic Slate or Asphalt Substitute for a Historic Roof?`,
+        heading: `Synthetic Slate and Asphalt Substitute Only on Non-Character-Defining Roofs`,
         content: [
           `**Synthetic slate** and **architectural asphalt** substitute only on non-character-defining roofs — primarily flat or non-visible sections, or non-contributing structures — per NPS Preservation Brief 4, since asphalt is not a like-for-like swap for a visible historic roof.`,
           `**Synthetic slate** carries a 10–35-year life as simulated slate per the InterNACHI chart, with composite lines designed to 40–50 years per CertainTeed, and supplies the slate profile at lighter weight where a Historic Preservation Commission accepts it — though some Commissions require natural stone, per the NPS Standards.`,
@@ -336,7 +340,7 @@ export const decisionHelpers: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Triggers Historic Review on an NJ Reroof?`,
+      heading: `A Certificate of Appropriateness Governs Reroofs in Local NJ Historic Districts`,
       content: [
         `**A Certificate of Appropriateness**, not **National Register or NJ Register listing**, is the binding gate on a private NJ reroof — required for a designated landmark or a property in a LOCAL historic district, per N.J.S.A. 40:55D-107.`,
         `**A Certificate of Appropriateness** does not replace a building permit — a reroof in a local district commonly needs both, and the NJ Uniform Construction Code treats a full re-roof of a detached 1- or 2-family dwelling as ordinary maintenance with no construction permit per N.J.A.C. 5:23-2.7.`,
@@ -344,7 +348,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Roof Suits a Designated Essex County Historic House?`,
+      heading: `Natural Slate and Cedar Shingle Suit a Designated Essex County Historic House`,
       content: [
         `**Natural slate** and **cedar shingle** suit a designated Essex County historic house, matched in kind under Standard 6 — slate on a pre-1920 Montclair or Newark home, cedar on a Craftsman — per the NPS Preservation Briefs.`,
         `**Natural slate** in a designated LOCAL district faces Certificate-of-Appropriateness review against adopted design guidelines and the Secretary of the Interior's Standards — Glen Ridge regulates a district covering over 90% of the Borough under Borough Code Ch. 15.32, Montclair under Code §347-136, and Newark's Landmarks and Historic Preservation Commission auto-designated Register-listed districts as of May 30, 2007.`,
@@ -352,7 +356,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Roof Fits a Historic Commercial Building?`,
+      heading: `Clay Tile and Copper Fit a Historic Commercial Building`,
       content: [
         `**Clay tile** and **copper** fit a historic commercial building — clay tile lasts 100+ years per the InterNACHI chart, copper exceeds 100 years properly installed per the Copper Development Association — both matched in kind under Standard 6.`,
         `**Clay tile** on an income-producing certified historic structure pairs with the federal 20% Historic Rehabilitation Tax Credit (IRC §47), which applies only to depreciable income-producing buildings — per the NPS and NJ HPO, owner-occupied residences do not qualify — claimed ratably over 5 years, with eligibility set by a tax professional, the NPS, and NJEDA.`,
@@ -373,10 +377,11 @@ export const decisionHelpers: ComparisonContent[] = [
   {
     comparisonId: 'cheapest-vs-most-durable-roofing',
     directAnswer: `**In the cheapest vs most durable roofing matchup, 3-tab asphalt shingles** install cheapest at $5.50–$9.50 per NJ square foot, while **natural slate** and **standing seam metal** lead on durability — slate lasts 60–150 years and metal 40–80, per Josten Roofing and the InterNACHI chart.`,
-    definitionHeading: `What Is the Cheapest vs Most Durable Roofing Trade-Off?`,
+    definitionQuestion: `What Is the Cheapest vs Most Durable Roofing Trade-Off?`,
+    definitionHeading: `The Cheapest vs Most Durable Trade-Off: Upfront Cost Against Service Life`,
     definition:
       `**The cheapest versus most durable roofing trade-off** weighs a covering with the lowest upfront install cost against one with the longest service life — the decision that splits cheapest to install from cheapest to own. It resolves by dividing a sourced install range across a sourced lifespan to compare cost per year of service.`,
-    introHeading: `Which Roofing Material Is Cheapest to Install and Which Lasts Longest in NJ?`,
+    introHeading: `3-Tab Asphalt Is Cheapest to Install in NJ; Natural Slate Lasts Longest`,
     introParagraphs: [
       `**3-tab asphalt shingles** carry the lowest NJ install cost at $5.50–$9.50 per square foot, **natural slate** is the quarried-stone covering that lasts longest, and **standing seam metal** is the concealed-fastener panel between them on cost and life, per Josten Roofing.`,
       `**3-tab asphalt shingles** last 20 years and **architectural asphalt shingles** last 30, per the InterNACHI chart, whereas **natural slate** lasts 60–150 years and **standing seam metal** 40–80 (copper 70+) — the spread that splits "cheapest to install" from "cheapest to own" once a sourced install range is divided across a sourced lifespan, per the InterNACHI chart and Josten Roofing.`,
@@ -397,7 +402,7 @@ export const decisionHelpers: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `How Does Install Cost Per Square Foot Rank Across NJ Roofing Materials?`,
+        heading: `NJ Install Costs Rank From 3-Tab Asphalt Lowest to Natural Slate Highest`,
         content: [
           `**3-tab asphalt shingles** rank cheapest to install at $5.50–$9.50 per NJ square foot, **architectural asphalt shingles** next at $6.50–$11.00, and **natural slate** the most at $10–$30, per Josten Roofing and NJ roofing guides.`,
           `**3-tab asphalt shingles** hold the lowest NJ entry cost at $5.50–$9.50 per square foot, per Josten Roofing, with labor at roughly 60% of an asphalt project, per HomeGuide, and a full NJ asphalt replacement falling within the $10,000–$25,000 benchmark, per HomeAdvisor and Modernize.`,
@@ -406,7 +411,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Roofing Material Lasts Longest in New Jersey?`,
+        heading: `Natural Slate Lasts Longest in New Jersey at 60–150 Years`,
         content: [
           `**Natural slate** lasts longest at 60–150 years and **standing seam metal** next at 40–80 (copper 70+), while **3-tab asphalt shingles** last 20 years, per the InterNACHI chart.`,
           `**Natural slate** lasts 60–150 years and individual tiles replace indefinitely while the deck and fasteners stay sound, per the InterNACHI chart and the National Slate Association, making the covering itself rarely the lifespan limiter.`,
@@ -415,7 +420,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `How Do You Calculate True Cost Per Year for a Roof?`,
+        heading: `A Roof's True Cost Per Year Divides Install Cost by Lifespan`,
         content: [
           `**Cost per year** divides a sourced install range by a sourced lifespan, an illustrative method rather than a measured figure, spreading the NJ $10,000–$25,000 benchmark across a 20-year asphalt life or a 60-year slate life, per the InterNACHI chart.`,
           `**Cost per year** for **3-tab asphalt shingles** spreads the NJ $10,000–$25,000 replacement benchmark across a 20-year InterNACHI life, an illustrative division that resets each re-roof cycle, per HomeAdvisor, Modernize, and the InterNACHI chart.`,
@@ -424,7 +429,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Roofing Materials Add Maintenance or Energy Costs Over Their Life?`,
+        heading: `Cedar Adds Maintenance Costs; Reflective Metal Cuts Cooling Demand`,
         content: [
           `**Wood / cedar** carries cyclic maintenance at $0.15–$0.60 per square foot, **standing seam metal** with a reflective finish reduces peak cooling demand 11–27%, and **3-tab asphalt shingles** carry no maintenance cycle, per HomeGuide, the EPA, and the InterNACHI chart.`,
           `**Wood / cedar** needs fungicide or algaecide every few years at $0.15–$0.60 per square foot and a 1.5-inch air space beneath the shakes for drying, per HomeGuide and the Cedar Shake & Shingle Bureau, adding cost no asphalt or metal roof carries.`,
@@ -433,7 +438,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Roofing Material Recoups the Most at Resale in Essex County?`,
+        heading: `Architectural Asphalt Recoups the Most at Essex County Resale`,
         content: [
           `**Architectural asphalt shingles** recoup ~61% of job cost at resale and **standing seam metal** ~49%, per the Remodeling/Zonda 2023 Cost vs Value report.`,
           `**Architectural asphalt shingles** recoup ~61% of job cost, with national roof replacement recouping 60–68% of cost at sale, per the Remodeling/Zonda 2023 Cost vs Value report and Zillow analysis via Opendoor, because a new roof removes a buyer objection at a moderate install cost.`,
@@ -442,7 +447,7 @@ export const decisionHelpers: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Drives NJ Roofing Costs Above the National Average?`,
+      heading: `Labor, Code, and Housing Stock Push NJ Roofing Costs Above the National Average`,
       content: [
         `**NJ roofing costs** run ~10–40% above national averages on higher labor, stricter code, and older housing stock needing extra decking work, per industry consensus, placing a full NJ replacement within the $10,000–$25,000 benchmark, per HomeAdvisor and Modernize.`,
         `**NJ roofing costs** put asphalt at $5.50–$11.00, metal at $9.00–$16.00+, and slate at $10–$30 per square foot, per Josten Roofing and NJ roofing guides, with coastal NJ communities adding 15–20% over inland on salt-air exposure, per Angi and HomeAdvisor regional data.`,
@@ -450,7 +455,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Roofing Material Suits an Essex County House by Budget and Hold?`,
+      heading: `3-Tab Suits Short-Hold Essex County Budgets; Metal and Slate Suit Long Holds`,
       content: [
         `**3-tab asphalt shingles** suit a short-hold, budget-led Essex County house at $5.50–$9.50 per square foot, while **standing seam metal** and **natural slate** suit long-hold owners on a 40–80- or 60–150-year life, per Josten Roofing and the InterNACHI chart.`,
         `**3-tab asphalt shingles** fit a tight budget or a sale within the roof's 20-year life at the lowest $5.50–$9.50-per-square-foot entry, with **architectural asphalt shingles** at $6.50–$11.00 extending the life to 30 years for a modest step up, per Josten Roofing and the InterNACHI chart.`,
@@ -458,7 +463,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Roofing Material Fits a Commercial Building by Lifecycle Cost?`,
+      heading: `EPDM and TPO Fit Low-Slope Commercial Buildings on Lifecycle Cost`,
       content: [
         `**EPDM** and **TPO** fit low-slope commercial buildings — EPDM installs at $7.00–$10.00 per NJ square foot over a 15–25-year life and TPO at $8.00–$12.00 over a 7–20-year life, per Josten Roofing and the InterNACHI chart.`,
         `**EPDM** installs at $7.00–$10.00 per NJ square foot lasting 15–25 years, per Josten Roofing and the InterNACHI chart, with seam separation as its dominant failure mode on a flat roof where a small breach risks wide water intrusion, per NRCA guidance.`,
@@ -480,10 +485,11 @@ export const decisionHelpers: ComparisonContent[] = [
   {
     comparisonId: 'most-energy-efficient-roofing-materials',
     directAnswer: `**Spray polyurethane foam (SPF) leads NJ\'s most energy efficient roofing materials on total energy performance** — its aged R-6.0 to R-6.5 per inch (ICC-ES/ASTM C1289 LTTR, SPFA) adds insulation, while **white TPO/PVC membranes** lead reflectance at ~0.70–0.85 solar reflectance, per the CRRC.`,
-    definitionHeading: `What Are the Most Energy Efficient Roofing Materials?`,
+    definitionQuestion: `What Are the Most Energy Efficient Roofing Materials?`,
+    definitionHeading: `The Most Energy Efficient Roofing Materials Cut Annual Heating and Cooling Use`,
     definition:
       `**The most energy-efficient roofing materials** are roof coverings that cut a building's annual heating and cooling energy use through a high-reflectance surface, conductive insulation, or both. This comparison weighs each covering on solar reflectance, thermal emittance, and added insulation value.`,
-    introHeading: `What Roofing Materials Are Most Energy-Efficient for New Jersey?`,
+    introHeading: `Spray Foam and White Single-Ply Membrane Lead NJ Roof Energy Efficiency`,
     introParagraphs: [
       `**Spray polyurethane foam (SPF)** is the seamless closed-cell foam roof that adds insulation in place, and **white single-ply membrane** (TPO and PVC) is the reflective low-slope covering that lowers roof-surface temperature, per the DOE and CRRC.`,
       `**Spray polyurethane foam (SPF)** carries an aged R-6.0 to R-6.5 per inch, per ICC-ES/ASTM C1289 LTTR listings and SPFA, the only roof covering here that adds conductive insulation. **White single-ply membrane** (TPO/PVC) holds ~0.70–0.85 solar reflectance and ~0.80–0.90 thermal emittance measured by ASTM C1549 and listed by the CRRC, while **reflective metal roofing** and **cool-roof asphalt shingles** carry high reflectance and emittance the CRRC rates, and **green (vegetated) roofs** add a planted layer rated only for service life, 5–40 years per the InterNACHI chart.`,
@@ -504,7 +510,7 @@ export const decisionHelpers: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `Which Roofing Material Insulates Best in NJ Winters?`,
+        heading: `Spray Polyurethane Foam Insulates Best in NJ Winters`,
         content: [
           `**Spray polyurethane foam (SPF)** insulates best as the only covering here that adds conductive R-value — an aged R-6.0 to R-6.5 per inch, per ICC-ES/ASTM C1289 LTTR and SPFA — reducing winter heat loss, per the DOE.`,
           `**Spray polyurethane foam (SPF)** applies as a seamless monolithic layer that both insulates and forms a continuous air barrier, with the foam layer lasting 30+ years when its protective coating is maintained, per SPFA; reflective coatings and membranes add no conductive R-value, per the DOE, CRRC, and RCMA.`,
@@ -512,7 +518,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Roof Stays Coolest in NJ Summers?`,
+        heading: `White Single-Ply Membrane Stays Coolest in NJ Summers`,
         content: [
           `**White single-ply membrane** (TPO/PVC) stays coolest on low-slope roofs — its ~0.70–0.85 solar reflectance and ~0.80–0.90 thermal emittance (ASTM C1549, CRRC) reduce peak summer cooling demand 11–27% in air-conditioned residential buildings, per the EPA.`,
           `**White single-ply membrane** holds the highest rated reflectance band of the steep-and-low-slope options here; a reflective roof stays over 50°F cooler than a conventional roof on a sunny afternoon, and a clean white roof reflecting 80% of sunlight stays about 55°F (31°C) cooler than a gray roof reflecting 20%, per the DOE and the LBNL Heat Island Group.`,
@@ -520,7 +526,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Energy Rating System Applies to NJ Roofs?`,
+        heading: `The CRRC-1 Program Is the Active Roof Energy Rating System`,
         content: [
           `**The CRRC-1 program** (Cool Roof Rating Council) is the active third-party rating system for roof reflectance and emittance — the ENERGY STAR roof program ended recognition June 1, 2022, per the EPA, CRRC, and SPRI.`,
           `**The CRRC-1 program** lists each product's solar reflectance and thermal emittance, both initial and 3-year aged, in a public Rated Products Directory and reports performance only, not an approval, per the CRRC; solar reflectance is the fraction of sunlight reflected and thermal emittance is how efficiently a surface re-radiates absorbed heat, each on a 0–1 scale, per the EPA.`,
@@ -528,7 +534,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Roofing Energy Incentives Apply in NJ?`,
+        heading: `Solar-Generating Roofs Carry NJ's Active Incentive Under the SuSI Program`,
         content: [
           `**Solar-generating roofs** carry the active NJ incentives — the Successor Solar Incentive (SuSI) program pays a per-MWh SREC-II set by the NJ Board of Public Utilities over a 15-year term, per the NJBPU.`,
           `**Solar-generating roofs** also draw NJ's sales-and-use-tax exemption on solar equipment (N.J.S.A. 54:32B-8.33) and a property-tax exemption on the added assessed value (N.J.S.A. 54:4-3.113a/b), each claimed on the homeowner's own filing, per the NJ Division of Taxation; the federal residential §25D solar credit was 30% for systems completed through 2025 and was repealed for systems completed after December 31, 2025, so a tax professional confirms current eligibility, per the IRS.`,
@@ -537,7 +543,7 @@ export const decisionHelpers: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ's Climate and Energy Code Mean for Roof Energy Choice?`,
+      heading: `Newark's Heating-Dominated Climate Favors Insulation Over Reflectance`,
       content: [
         `**Newark's Climate Zone 4A–5** is a heating-dominated mixed climate, so total annual energy performance favors insulation levers — a reflective roof reduces peak summer cooling but carries a winter heating penalty, per the DOE and EPA.`,
         `**The 2021 IECC** (NJ-adopted, residential enforcement April 2023) sets ceiling insulation at R-60 for NJ's Climate Zones 4 and 5 under Table R402.1.3, with an R-49 full-ceiling exception at raised-heel eaves, per the ICC and NJ DCA; this conductive minimum applies regardless of the covering's reflectance.`,
@@ -545,7 +551,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Energy-Efficient Roof Suits an Essex County House?`,
+      heading: `Cool-Roof Asphalt Shingles Suit Most Essex County Houses`,
       content: [
         `**Cool-roof asphalt shingles** suit most Essex County houses on a roof replacement — their reflective granules raise surface reflectance at standard steep-slope shingle pricing and carry CRRC reflectance-and-emittance ratings, per the CRRC.`,
         `**Cool-roof asphalt shingles** apply through reflective-granule lines that reach the same reflectance levers as metal at lower cost, but attic insulation governs the larger winter share — once ceiling insulation meets the 2021 IECC R-60 (R-49 raised-heel exception) for Climate Zones 4 and 5, reflectance adds incremental summer benefit, per the ICC and CRRC.`,
@@ -553,7 +559,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Energy-Efficient Roof Fits a Commercial Building?`,
+      heading: `SPF and White Single-Ply Membrane Fit Low-Slope Commercial Roofs`,
       content: [
         `**Spray polyurethane foam (SPF)** and **white single-ply membrane** (TPO/PVC) fit low-slope commercial roofs — SPF adds an aged R-6.0 to R-6.5 per inch (SPFA), and white TPO/PVC's ~0.70–0.85 reflectance lowers roof-surface temperature, per the CRRC and EPA.`,
         `**Spray polyurethane foam (SPF)** delivers the only added conductive R-value among low-slope options, useful where a flat roof carries thin existing insulation, with its foam layer lasting 30+ years when the protective coating is maintained, per SPFA; reflective coatings over it add reflectance, not insulation, per the DOE and RCMA.`,
@@ -575,10 +581,11 @@ export const decisionHelpers: ComparisonContent[] = [
   {
     comparisonId: 'best-roofing-for-essex-county-colonial-homes',
     directAnswer: `**Architectural asphalt shingles rank as the best roofing for Essex County Colonial homes in most cases** at $6.50–$11.00 per NJ square foot (Josten Roofing); **natural slate** ranks first for a historic Colonial as the in-kind material under the Secretary of the Interior's Standard 6.`,
-    definitionHeading: `What Is the Best Roofing for Essex County Colonial Homes?`,
+    definitionQuestion: `What Is the Best Roofing for Essex County Colonial Homes?`,
+    definitionHeading: `The Best Roofing for an Essex County Colonial, Defined`,
     definition:
       `**The best roofing for an Essex County Colonial home** is the covering matched to the home's symmetrical roofline and architectural era — architectural asphalt shingles, natural slate, standing seam metal, cedar shingle, synthetic slate, or copper. The comparison weighs install cost, period-correct substyle match, NJ weather durability, and historic-district code against each material.`,
-    introHeading: `What Is the Best Roofing Material for an Essex County Colonial Home?`,
+    introHeading: `Architectural Asphalt Ranks First for Essex County Colonials, Slate for Historic Homes`,
     introParagraphs: [
       `**Architectural asphalt shingles** are the laminated covering ranked first for most Essex County Colonials, and **natural slate** is the original Colonial-era material for a character-defining or historic-district home, per Josten Roofing and the Secretary of the Interior's Standards.`,
       `**Architectural asphalt shingles** last 30 years at $6.50–$11.00 per NJ square foot, **natural slate** lasts 60–150 years (premium 100+), **standing seam metal** lasts 40–80 years, and **cedar shingle** lasts 30–50 years — a 4-material field ranked by the InterNACHI chart, the National Slate Association, and the Cedar Shake & Shingle Bureau.`,
@@ -598,7 +605,7 @@ export const decisionHelpers: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `Which Roofing Material Matches Each Colonial Substyle?`,
+        heading: `Slate and Cedar for Early Colonials, Metal for Federal, Asphalt for Colonial Revival`,
         content: [
           `**Natural slate** and **cedar shingle** match the earliest Colonial substyles, **standing seam metal** matches Federal and Georgian traditions, and **architectural asphalt shingles** match the Colonial Revival wave — each pairing follows the period material named in NPS Preservation Brief 4.`,
           `**Natural slate** and **cedar shingle** roof Georgian and early Colonial homes that historically wore wood shingle or slate, the character-defining materials NPS Preservation Brief 4 directs a visible historic roof to match in kind rather than swap for asphalt, per the National Park Service.`,
@@ -607,7 +614,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Material Costs Less Per Year of Service on a Colonial?`,
+        heading: `Asphalt Costs Least Upfront, Slate Least Per Year of Service`,
         content: [
           `**Architectural asphalt shingles** cost the least upfront and **natural slate** the least per year — asphalt installs at $6.50–$11.00 per NJ square foot lasting 30 years, slate at $10–$30 lasting 60–150, per Josten Roofing and the InterNACHI chart.`,
           `**Architectural asphalt shingles** carry the lowest entry cost in the field, installing at $6.50–$11.00 per NJ square foot within the $10,000–$25,000 NJ full-replacement benchmark, per Josten Roofing and the HomeAdvisor and Modernize NJ ranges.`,
@@ -615,7 +622,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Material Withstands NJ Weather on a Colonial Roof?`,
+        heading: `Slate and Standing Seam Metal Withstand NJ Weather Longest on a Colonial Roof`,
         content: [
           `**Natural slate** and **standing seam metal** resist Newark's winter longest — slate at 60–150 years, metal 40–80 — against 31.5 inches of average annual snowfall (NOAA 1991–2020 normals) and an estimated 35–45 freeze-thaw cycles, per the InterNACHI chart.`,
           `**Natural slate** resists freeze-thaw and UV over a 60–150-year life, but slate hangs on non-ferrous nails — solid copper or stainless steel, never plain or galvanized steel, which rust out before the slate — and is repaired rather than walked on, per NPS Preservation Brief 29.`,
@@ -623,7 +630,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Fastener and Flashing Detail Does Each Colonial Material Require?`,
+        heading: `The Fastener and Flashing Details Each Colonial Material Requires`,
         content: [
           `**Natural slate**, **cedar shingle**, and **copper** each take a material-specific fastener — slate copper or stainless, cedar non-copper, copper detailing throughout — because Brief 4 directs fasteners and flashing be compatible with the roofing material, per the National Park Service.`,
           `**Natural slate** requires non-ferrous fasteners, solid copper or stainless steel, since plain and galvanized steel rust out long before the slate, and its flashing is a durable metal of comparable life — copper or terne-coated stainless steel, per NPS Preservation Brief 29.`,
@@ -633,7 +640,7 @@ export const decisionHelpers: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ Code Require for a Colonial Re-Roof in Essex County?`,
+      heading: `NJ Code Requirements for a Colonial Re-Roof in Essex County`,
       content: [
         `**The local historic-district ordinance** and **the Rehabilitation Subcode** govern an Essex County Colonial re-roof, while the NJ Uniform Construction Code exempts an ordinary-maintenance reroof on a detached one- or two-family dwelling, per N.J.S.A. 40:55D-107, N.J.A.C. 5:23-6.4, and N.J.A.C. 5:23-2.7.`,
         `**The local historic-district ordinance** is the binding gate for a designated-landmark or historic-district Colonial, where a Certificate of Appropriateness from the municipal Historic Preservation Commission reviews the roofing material before work begins, per N.J.S.A. 40:55D-107; Register listing alone places no restriction on a private reroof, per the National Park Service.`,
@@ -641,7 +648,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Roofing Material Suits an Essex County Colonial House?`,
+      heading: `Asphalt Shingles for Colonial Revival Houses, Natural Slate for Historic Colonials`,
       content: [
         `**Architectural asphalt shingles** suit most Colonial Revival houses and **natural slate** suits a historic Colonial — asphalt carries muted charcoal, weathered-wood, and slate-gray tones, while slate matches the original material in kind, per the National Park Service.`,
         `**Architectural asphalt shingles** in charcoal, weathered-wood, or slate-gray tones carry the symmetrical Colonial roofline at $6.50–$11.00 per NJ square foot, the field's lowest entry cost, with dormers and chimney crickets adding skilled flashing work regardless of material, per Josten Roofing and NPS Preservation Brief 4.`,
@@ -649,7 +656,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Roofing Material Suits a Colonial-Style Commercial Building?`,
+      heading: `Asphalt and Standing Seam Metal Suit Colonial-Style Commercial Buildings`,
       content: [
         `**Architectural asphalt shingles** and **standing seam metal** suit Essex County's Colonial-style commercial buildings, where asphalt holds the lower install cost and metal's 40–80-year life eliminates a replacement cycle, per Josten Roofing and the InterNACHI chart.`,
         `**Architectural asphalt shingles** on a Colonial-style commercial roof trigger a NJ UCC permit once roof work exceeds 25% of roof area within a 12-month period, since the ordinary-maintenance exemption covers only detached one- and two-family dwellings, per N.J.A.C. 5:23-2.7(c).`,
@@ -670,10 +677,11 @@ export const decisionHelpers: ComparisonContent[] = [
   {
     comparisonId: 'roof-warranty-comparison-guide',
     directAnswer: `In this **roof warranty comparison guide, a non-prorated manufacturer system warranty** ranks highest for homes and a commercial **No-Dollar-Limit (NDL) guarantee** ranks highest for low-slope buildings — both cover material and workmanship, unlike a **contractor workmanship warranty** alone, per NRCA and GAF.`,
-    definitionHeading: `What Is a Roof Warranty?`,
+    definitionQuestion: `What Is a Roof Warranty?`,
+    definitionHeading: `A Roof Warranty, Defined: Material, Workmanship, or Both`,
     definition:
       `**A roof warranty** is a written guarantee covering factory material defects from the manufacturer, installation quality from the contractor, or both under a certified system warranty — differing in coverage, backer, and term. This guide ranks the four warranty structures by the scope of their coverage.`,
-    introHeading: `Which Roofing Warranty Gives an Essex County Owner the Strongest Protection?`,
+    introHeading: `Manufacturer System, Workmanship, and NDL Warranties: The Coverage Each Provides`,
     introParagraphs: [
       `A **manufacturer system warranty** covers both factory material defects and the certified install, a **contractor workmanship warranty** covers only installation quality, and a commercial **No-Dollar-Limit (NDL) guarantee** removes the dollar cap on covered low-slope leak repairs, per NRCA and GAF.`,
       `The four warranty structures rank by what each one covers: a **manufacturer system warranty** runs a 50-year non-prorated material / 25-year workmanship term registered by the manufacturer such as GAF Golden Pledge, a **manufacturer material-only warranty** covers defective shingles prorated after a 10–15-year non-prorated window, a **contractor workmanship warranty** covers install defects for commonly 1–10 years with no industry-mandated minimum, and a commercial **No-Dollar-Limit (NDL) guarantee** covers the whole installed system edge-to-edge, per NRCA, GAF, and Johns Manville.`,
@@ -693,7 +701,7 @@ export const decisionHelpers: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `How Does Pro-Rated Coverage Differ From Non-Prorated Coverage?`,
+        heading: `System Warranties Hold a Non-Prorated Window, Material-Only Terms Prorate`,
         content: [
           `A **manufacturer system warranty** carries a non-prorated window before coverage prorates, while a **manufacturer material-only warranty** prorates the payout as the roof ages — limited-lifetime asphalt material terms commonly hold a 10–15-year non-prorated window, per NRCA.`,
           `A **manufacturer system warranty** keeps full-replacement value through its stated non-prorated period — the GAF Golden Pledge example runs 50-year material that is non-prorated, plus 25-year workmanship and tear-off and disposal, per Roof-Crafters and Gunner Roofing.`,
@@ -701,7 +709,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Why Does a Manufacturer Warranty Outlast a Contractor Workmanship Warranty?`,
+        heading: `A Manufacturer Warranty Survives the Installing Contractor Closing`,
         content: [
           `A **manufacturer system warranty** survives the installing contractor closing because the manufacturer sets and administers it, while a **contractor workmanship warranty** is only as durable as that contractor's continued operation, per NRCA.`,
           `A **manufacturer system warranty** covers material defects and the certified install under terms the manufacturer issues and registers, not Newark Quality Roofing, so the material obligation stands decades later, per the NRCA Roofing Manual and corroborating InterNACHI and IIBEC guidance.`,
@@ -709,7 +717,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `What Voids a Roofing Warranty?`,
+        heading: `Inadequate Attic Ventilation Is the Most-Cited Shingle Warranty Void`,
         content: [
           `Inadequate **attic ventilation** is the most-cited cause of voided shingle warranties, alongside unauthorized alterations and deferred maintenance, because manufacturers attribute premature curling, cracking, and blistering to ventilation rather than a defect, per GAF.`,
           `Inadequate **attic ventilation** voids coverage when intake vents are painted over or blocked by insulation, and the IRC R806.2 baseline sets minimum net free ventilating area at 1/150 of the vented space (the 1/300 reduction's cold-zone condition generally does not apply in Newark), per the International Residential Code and InterNACHI.`,
@@ -717,7 +725,7 @@ export const decisionHelpers: ComparisonContent[] = [
         ],
       },
       {
-        heading: `How Does a Commercial No-Dollar-Limit Warranty Work?`,
+        heading: `An NDL Guarantee Covers Labor and Material With No Monetary Cap`,
         content: [
           `A commercial **No-Dollar-Limit (NDL) guarantee** covers both labor and material to repair covered leaks with no monetary cap, ranking above a base material-only warranty that prorates and caps payout at the original installed cost, per GAF and Johns Manville.`,
           `A commercial **No-Dollar-Limit (NDL) guarantee** covers the whole installed system edge-to-edge — membrane, base flashing, insulation, expansion-joint covers, and metal flashings — across single-ply terms commonly running 5 to 30 years, per GAF's Diamond Pledge guarantee and Johns Manville's Peak Advantage range.`,
@@ -726,7 +734,7 @@ export const decisionHelpers: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ Law Require a Contractor to Disclose About a Warranty?`,
+      heading: `NJ Law Requires Warranty Terms in the Written Contract Over $500`,
       content: [
         `**NJ home-improvement law** requires a contractor's warranty terms to appear in the signed written contract for any job over $500, under N.J.A.C. 13:45A-16.2(a)12, whose enumerated elements include any guarantee or warranty the contractor provides.`,
         `**NJ home-improvement law** also requires every roofing business to register annually with the NJ Division of Consumer Affairs under the Contractors' Registration Act, N.J.S.A. 56:8-136, with no dollar threshold — a registration, not a license — and routes warranty disputes through its Office of Consumer Protection, per the NJ Division of Consumer Affairs.`,
@@ -734,7 +742,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Warranty Suits an Essex County House?`,
+      heading: `A Manufacturer System Warranty Suits an Essex County House Held Long-Term`,
       content: [
         `A **manufacturer system warranty** suits an Essex County house held long-term, pairing factory material coverage with certified-install workmanship under a registered term such as the 50-year non-prorated material / 25-year workmanship GAF Golden Pledge example, per Roof-Crafters and Gunner Roofing.`,
         `A **manufacturer system warranty** transfers once to the first buyer within a manufacturer-set window — CertainTeed's SureStart PLUS is fully transferable if the home sells within 15 years, while standard manufacturer terms reduce or limit coverage for a later owner, per the SureStart PLUS brochure and NRCIA.`,
@@ -742,7 +750,7 @@ export const decisionHelpers: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Warranty Fits a Commercial Building?`,
+      heading: `An NDL Guarantee Fits a Low-Slope Commercial Building`,
       content: [
         `A commercial **No-Dollar-Limit (NDL) guarantee** fits a low-slope commercial building, covering the whole system edge-to-edge with no dollar cap, ranking above a **commercial system warranty (non-NDL)** that caps payout at the original installed cost, per GAF and Johns Manville.`,
         `A commercial **No-Dollar-Limit (NDL) guarantee** covers single-ply TPO, EPDM, and PVC and bituminous systems across terms commonly running 5 to 30 years, issued only through a manufacturer-designated contractor after a final manufacturer inspection, per Johns Manville's Peak Advantage range and GAF.`,

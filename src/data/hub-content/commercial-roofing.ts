@@ -4,10 +4,11 @@ export const commercialRoofingHubContent: HubContent = {
   "hubId": "commercial-roofing",
   "directAnswer": "**Newark Quality Roofing provides commercial roofing installation, repair, replacement, and inspection for offices, warehouses, retail, and industrial buildings across Newark and Essex County, New Jersey.** As a registered New Jersey Home Improvement Contractor, the company services low-slope membrane, metal, and built-up roofs under the Uniform Construction Code.",
   "definition": "**Commercial roofing** is the predominantly low-slope membrane and metal roof systems that protect offices, warehouses, retail, and industrial buildings. Per NRCA, these low-slope assemblies need positive drainage because standing water accelerates membrane aging.",
-  "definitionHeading": "What Is Commercial Roofing?",
+  "definitionQuestion": "What Is Commercial Roofing?",
+  "definitionHeading": "Commercial Roofing, Defined",
   "sections": [
     {
-      "heading": "What Commercial Roofing Services Does Newark Quality Roofing Provide?",
+      "heading": "Commercial Roofing Services Newark Quality Roofing Provides",
       "body": [
         "**Newark Quality Roofing** provides commercial roof installation, repair, replacement, thermal-imaging inspection, and infrared leak detection across Newark and Essex County, New Jersey. The company is a registered New Jersey Home Improvement Contractor that carries liability insurance.",
         "**Commercial roof installation** and replacement cover new construction and tear-off-to-deck reroofs on flat and low-slope buildings. Under the Uniform Construction Code, commercial and multi-family reroofs follow N.J.A.C. 5:23 and require a construction permit, unlike the ordinary-maintenance carve-out for detached one- and two-family homes.",
@@ -16,7 +17,7 @@ export const commercialRoofingHubContent: HubContent = {
       ]
     },
     {
-      "heading": "Which Commercial Roof Systems Do We Install?",
+      "heading": "Commercial Roof Systems We Install",
       "body": [
         "**Newark Quality Roofing** installs TPO, EPDM, PVC, modified bitumen, built-up roofing, commercial metal, spray polyurethane foam, and vegetated green roofs on Essex County, New Jersey buildings. Single-ply membranes carry an InterNACHI-cited service life of roughly 20 to 30 years.",
         "**TPO, EPDM, and PVC** are the three single-ply membranes: TPO presents a heat-weldable reflective sheet, EPDM is a flexible black rubber proven on low-slope roofs, and PVC welds chemical- and grease-resistant seams suited to restaurants. The CRRC rates reflective membranes for solar reflectance and thermal emittance.",
@@ -25,7 +26,7 @@ export const commercialRoofingHubContent: HubContent = {
       ]
     },
     {
-      "heading": "How Do Commercial Roof Inspections and Leak Surveys Work?",
+      "heading": "How Commercial Roof Inspections and Leak Surveys Work",
       "body": [
         "**Commercial roof inspections** combine a visual walkover with a non-destructive infrared moisture survey conducted under ASTM C1153 to locate trapped water inside the assembly. The survey finds wet insulation, not the leak entry point, so it guides where to open the roof.",
         "**Infrared and thermal moisture surveys** read temperature differences after sundown, when saturated insulation retains heat longer than dry areas and shows as warm signatures. This maps the wet footprint across the deck so Newark Quality Roofing scopes targeted repair instead of a full tear-off.",
@@ -34,7 +35,7 @@ export const commercialRoofingHubContent: HubContent = {
     }
   ],
   "childLinks": {
-    "heading": "What Commercial Roofing Services Can You Explore?",
+    "heading": "Explore Our Commercial Roofing Services",
     "groups": [
       {
         "label": "Commercial Roof Systems",
@@ -139,7 +140,7 @@ export const commercialRoofingHubContent: HubContent = {
             "href": "/best-commercial-roofing-material"
           },
           {
-            "text": "What NJ Business Owners Should Know About Commercial Roof Installation",
+            "text": "Commercial Roof Installation Guide for NJ Business Owners",
             "href": "/commercial-roof-installation-what-business-owners-should-know"
           },
           {
@@ -154,7 +155,7 @@ export const commercialRoofingHubContent: HubContent = {
       }
     ]
   },
-  "faqHeading": "What Questions Do Property Managers Ask About Commercial Roofing?",
+  "faqHeading": "Commercial Roofing FAQs for Property Managers",
   "faqs": [
     {
       "question": "Does a commercial reroof in New Jersey require a permit?",

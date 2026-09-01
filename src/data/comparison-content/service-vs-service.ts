@@ -12,7 +12,7 @@ export const serviceComparisons: ComparisonContent[] = [
       `**Roof Repair** restores a roof's weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.`,
     definitionB:
       `**Roof Replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.`,
-    introHeading: `Roof Repair Or Replacement — Which Does an Essex County Roof Need?`,
+    introHeading: `Roof Repair Extends a Sound Roof; Roof Replacement Resets a Worn One`,
     introParagraphs: [
       `**Roof repair** is the targeted fix of damage to shingles, flashing, or a valley that extends a sound roof's life, and **roof replacement** is the full tear-off and reinstall that resets a worn system to a new service life.`,
       `**Roof repair** addresses localized failure modes — granule loss, tab curling, thermal-shock cracking, and flashing leaks — at $360–$1,550 for minor work, per Angi, while a NJ leak repair runs $400–$1,000, per HomeAdvisor. **Roof replacement** answers system-wide end-of-life — a roof past 20 years (15 on the coast), damage over 25–30% of the roof area, or three-plus repairs in two years — per the WeatherShield and contractor-consensus decision rules.`,
@@ -35,7 +35,7 @@ export const serviceComparisons: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `Which Costs Less, Roof Repair Or Replacement?`,
+        heading: `Repair Costs Less Upfront; Replacement Costs Less Per Remaining Year`,
         content: [
           `**Roof repair** costs less upfront and **roof replacement** costs less per remaining year on a worn roof — minor repair runs $360–$1,550 (Angi) against an Essex County replacement at $10,000–$25,000, per HomeAdvisor and Modernize.`,
           `**Roof repair** carries the lower entry cost: an asphalt repair averages ~$1,174 and typically runs $366–$1,984, per HomeAdvisor, with localized repair costing 5–10x less than full replacement, per Home Depot and Kelly Roofing; emergency after-hours work adds 25–50%, per Integrity Home Exteriors.`,
@@ -43,7 +43,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `When Does Damage Extent Favor Roof Replacement?`,
+        heading: `Damage Over 25–30% of the Roof Area Favors Replacement`,
         content: [
           `**Roof replacement** favors damage over 25–30% of the roof area and **roof repair** favors damage under that — the "25% rule" (area, per RapidRestore) and "30% rule" (repair cost, per Josten Roofing) are contractor rules of thumb, not code.`,
           `**Roof replacement** also turns cost-effective under the widely cited "50% rule" — one repair exceeding 50% of replacement cost leans to replace — and the "30% rule," where repair approaching 30% of replacement cost leans the same way — the 50% rule per WeatherShield and Home Depot, the 30% rule per Kellow Construction and Modernize.`,
@@ -51,7 +51,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `How Does Roof Age Change The Repair-Or-Replace Call?`,
+        heading: `Roofs Under 15 Years Favor Repair; Roofs Past 20 Years Favor Replacement`,
         content: [
           `**Roof age** sets the call: a roof under 15 years favors **roof repair** and a roof past 20 years (15 on the coast) favors **roof replacement**, with 3-plus repairs in 2 years tipping to replace, per the WeatherShield rules.`,
           `**Roof repair** dominates under 10 years, when an asphalt roof holds most of its 20–30-year design life (NAHB) and targeted fixes recover full value, with actual lifespan varying up to ±40% by climate, install, and maintenance, per the NRCA.`,
@@ -59,7 +59,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `How Does Insurance Factor Into Roof Replacement?`,
+        heading: `Replacement Resets the Roof Age Insurers Depreciate: ACV vs RCV`,
         content: [
           `**Roof replacement** resets the roof age an insurer depreciates, and **roof insurance** pays on an ACV or RCV basis — ACV is replacement cost minus depreciation, RCV the like-kind cost without that deduction, per NAIC and the Insurance Information Institute.`,
           `**Roof insurance** under an RCV policy commonly pays in two stages: a first actual-cash-value payment minus the deductible, then the held recoverable depreciation after the work is completed and invoiced, per the Insurance Information Institute; the deductible is the homeowner's responsibility, subtracted once.`,
@@ -68,7 +68,7 @@ export const serviceComparisons: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ Code Require For Repair Versus Replacement?`,
+      heading: `NJ Code Treats Home Roof Repair and Replacement as Ordinary Maintenance`,
       content: [
         `**The NJ Uniform Construction Code** treats repair or total replacement of the roof covering on a detached 1- or 2-family dwelling as ordinary maintenance — no permit, inspection, or notice — per N.J.A.C. 5:23-2.7 and the NJ DCA's 2018 alert.`,
         `**The NJ Uniform Construction Code** requires a permit once roof work turns structural — replacing rafters, trusses, or ridge beams — or exceeds 25% of roof area within 12 months on commercial, condo, or attached buildings, per N.J.A.C. 5:23-2.7(b) and 5:23-2.7(c).`,
@@ -76,7 +76,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Suits an Essex County House — Repair Or Replacement?`,
+      heading: `Repair Suits a Young Essex County House; Replacement Suits an Aging One`,
       content: [
         `**Roof repair** suits a young house with isolated damage and **roof replacement** suits an aging house near its 20–30-year asphalt life — the "50% rule" decides the middle: a repair over 50% of replacement cost leans to replace, per WeatherShield.`,
         `**Roof replacement** turns into a near-term resale lever: a new asphalt roof recoups ~61% of job cost (Remodeling/Zonda 2023), 60–68% nationally (Zillow via Opendoor), and adds ~$15,247 to resale value while letting sellers ask 1%–3% more, per Opendoor and Zillow analysis.`,
@@ -84,7 +84,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Fits a Commercial Building — Repair Or Replacement?`,
+      heading: `Replacement Fits a Long-Hold Commercial Building; Repair Fits Isolated Damage`,
       content: [
         `**Roof replacement** fits a long-hold commercial building near end of life and **roof repair** fits isolated damage on a sound membrane — proactive replacement avoids the recurring repair cost and tenant disruption that accumulate on an aging commercial roof.`,
         `**Roof replacement** on a commercial building triggers a NJ UCC permit once roof work exceeds 25% of roof area in 12 months, since the ordinary-maintenance exemption covers only detached 1- and 2-family dwellings, per N.J.A.C. 5:23-2.7(c).`,
@@ -110,7 +110,7 @@ export const serviceComparisons: ComparisonContent[] = [
       `**Roof coating** is a liquid-applied silicone or acrylic membrane rolled over a still-watertight flat or low-slope roof to renew its weatherproof surface in place, without removing the existing membrane. It seals seams, splits, and flashings under one monolithic surface and reflects sunlight.`,
     definitionB:
       `**Roof replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a failed roof rather than renewing the old one in place.`,
-    introHeading: `Roof Coating Or Roof Replacement — Which Saves an Essex County Flat Roof?`,
+    introHeading: `Roof Coating Renews a Watertight Flat Roof; Replacement Restarts a Failed One`,
     introParagraphs: [
       `**Roof coating** is the liquid-applied silicone or acrylic membrane rolled over a still-watertight flat roof to renew its weatherproof surface, and **roof replacement** is the full tear-off and new-membrane install that restarts a failed roof's service life.`,
       `**Roof coating** divides into silicone (ASTM D6694) and acrylic (ASTM D6083): silicone resists ponding water without re-emulsifying while water-based acrylic softens under continuous immersion, per RCMA and Western Colloid. **Roof replacement** removes the existing EPDM, modified-bitumen, TPO, or BUR membrane down to deck — EPDM fails at seam separation and membrane shrinkage, modified bitumen at blistering and alligator cracking, per trade failure data.`,
@@ -133,7 +133,7 @@ export const serviceComparisons: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `When Does a Flat Roof Qualify For Coating Instead Of Replacement?`,
+        heading: `The Four Conditions a Flat Roof Must Meet to Qualify for Coating`,
         content: [
           `**Roof coating** qualifies on four conditions, **roof replacement** covers the rest — no active leaks, dry insulation confirmed by infrared scan or core cut, an intact membrane, and positive drainage; failing any condition requires replacement, per RCMA.`,
           `**Roof coating** depends on a clean, dry, repaired surface first: seams, splits, and flashing details are repaired and reinforced before field coating, and even ponding-resistant silicone requires a fully dry substrate, per RCMA, Gaco, and Henry surface-prep guidance.`,
@@ -141,7 +141,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Costs Less On an Essex County Flat Roof?`,
+        heading: `Coating Costs Less Than Replacement on a Qualifying Essex County Flat Roof`,
         content: [
           `**Roof coating** costs less than **roof replacement** on a qualifying roof — silicone life-extension runs $1,500–$7,000 with repaint sections at $1.20–$2.70 per sq ft per CPS Construction, against NJ replacement of $7.00–$12.00 per sq ft per Josten Roofing.`,
           `**Roof coating** avoids tear-off cost and renews rather than rebuilds: a maintained coated roof is recoated at the end of its ~10–15-year acrylic or ~15–20-year silicone cycle, not replaced, and a recoated roof is recoated again, per RCMA and the SPFA.`,
@@ -149,7 +149,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `How Much Does a Reflective Coating Cut Cooling Demand In NJ?`,
+        heading: `A Reflective Coating Cuts Peak Cooling Demand 11–27%, Per the EPA`,
         content: [
           `**Roof coating** cuts peak cooling demand through surface reflectance, **roof replacement** through membrane choice — a cool-roof surface reduces peak cooling demand 11–27% in air-conditioned buildings per the EPA, with no added R-value, per the CRRC and RCMA.`,
           `**Roof coating** lowers the roof surface temperature by reflecting sunlight: a reflective roof stays over 50°F cooler than a conventional roof on a sunny afternoon per the DOE, with white silicone and acrylic coatings rating ~0.80–0.88 initial solar reflectance and ~0.85–0.92 thermal emittance per the CRRC — reflectance and emittance, never insulation, drive the effect.`,
@@ -157,7 +157,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Approach Handles NJ Ponding Water Better?`,
+        heading: `Silicone Coating Resists Ponding; Replacement Corrects the Drainage`,
         content: [
           `**Roof coating** with silicone handles ponding, **roof replacement** corrects the drainage that causes it — 100% silicone resists standing water without softening per RCMA, while water-based acrylic re-emulsifies under continuous immersion, per RCMA and Western Colloid.`,
           `**Roof coating** carries a ponding limit by chemistry: silicone (ASTM D6694) stays stable in standing water and most acrylic (ASTM D6083) warranties exclude ponded areas, so silicone covers Essex County flat roofs with poor drainage, per RCMA and Western Colloid.`,
@@ -166,7 +166,7 @@ export const serviceComparisons: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `How Does NJ Code Treat Coating Versus Replacement?`,
+      heading: `NJ Code Requires Tear-Off Once a Roof Is Water-Soaked or Two Layers Deep`,
       content: [
         `**Roof coating** renews a sound membrane without a tear-off, while **roof replacement** by tear-off resets the layer count — N.J.A.C. 5:23-6.4 requires full removal once a covering is water-soaked, deteriorated, or two layers deep.`,
         `**Roof replacement** triggers a NJ permit on a commercial or attached building once roof work exceeds 25% of roof area in 12 months, and the Rehabilitation Subcode requires full removal when the existing covering is water-soaked, deteriorated, or already two layers deep, per N.J.A.C. 5:23-2.7(c) and 5:23-6.4.`,
@@ -174,7 +174,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Suits a Residential Flat Roof Section?`,
+      heading: `Coating Suits a Watertight Residential Flat Section; Replacement Suits a Leaking One`,
       content: [
         `**Roof coating** suits an aging-but-watertight residential flat section, **roof replacement** suits a leaking one — coating renews an EPDM, modified-bitumen, or metal porch, addition, or garage roof for $1,500–$7,000 per CPS Construction, while a leaking section requires replacement.`,
         `**Roof coating** applies to residential EPDM, modified-bitumen, and metal flat sections, not to steep-slope asphalt shingles, which take repair or replacement instead, per CPS Construction and InterNACHI material guidance.`,
@@ -182,7 +182,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Fits a Commercial Building?`,
+      heading: `Coating Fits an Occupied Commercial Building; Replacement Fits a Failed Membrane`,
       content: [
         `**Roof coating** fits an occupied commercial building with a sound membrane, **roof replacement** fits a failed one — coating installs without tear-off and avoids tenant relocation, while replacement rebuilds a 25–30%-damaged roof, per RCMA and Modernize.`,
         `**Roof coating** is typically classified as maintenance rather than a capital improvement, though RCMA defers the tax outcome to the owner's tax professional, and a free commercial roof evaluation tests the four eligibility conditions before any recommendation, per RCMA guidance.`,
@@ -208,7 +208,7 @@ export const serviceComparisons: ComparisonContent[] = [
       `**Roof Overlay** is a re-roofing method that installs a new layer of asphalt shingles directly over one existing sound shingle layer, without stripping the old covering down to the deck. It is limited to a roof carrying no more than one existing layer.`,
     definitionB:
       `**Tear Off** is the re-roofing method that removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike an overlay that leaves the old covering in place.`,
-    introHeading: `Roof Overlay Or Tear-Off — Which Re-Roof Fits an Essex County Home?`,
+    introHeading: `A Roof Overlay Adds a Second Layer; a Tear-Off Strips to the Deck`,
     introParagraphs: [
       `**A roof overlay** installs a second shingle layer over the existing covering with no removal, and **a tear-off** strips the covering to the deck before a new system goes on — the overlay hides the deck the tear-off exposes.`,
       `**A roof overlay** carries three failure modes — trapped heat that cuts shingle life ~20–30%, a telegraphed old profile, and concealed deck rot — and ARMA prohibits it over sagging framing, rot, gaps wider than 1/4 inch, or distorted shingles. **A tear-off** carries the reverse trade — higher labor and disposal in exchange for a deck inspection, a deck-applied ice-and-water barrier, and the full manufacturer system warranty, per ARMA and IRC Section R908.`,
@@ -231,7 +231,7 @@ export const serviceComparisons: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `Which Re-Roof Costs Less, And When Does The Saving Reverse?`,
+        heading: `An Overlay Costs Less Upfront; a Tear-Off Costs Less Across a Cycle`,
         content: [
           `**An overlay** costs less upfront and **a tear-off** costs less across a cycle — an overlay runs ~20–25%, roughly $2,000–$5,000, below a tear-off nationally by skipping tear-off labor and disposal, per HomeGuide and Angi.`,
           `**An overlay** removes two line items: the $1–$3 per square foot to strip asphalt shingles and the $220–$699-per-week dumpster, per HomeGuide, on a NJ asphalt install of $5.50–$11.00 per square foot, per Josten Roofing.`,
@@ -239,7 +239,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `What Does An Overlay Hide That A Tear-Off Reveals?`,
+        heading: `An Overlay Conceals the Deck a Tear-Off Exposes`,
         content: [
           `**An overlay** conceals the deck and **a tear-off** exposes it — a recover leaves the underlying layers hard to inspect, so rot goes unresolved, while a replacement allows deck inspection and repair, per ARMA.`,
           `**An overlay** is prohibited over an unsound base: IRC Section R908 bars recovering over a water-soaked or deteriorated deck, and ARMA rules out a recover where the deck reveals rotted or warped wood, gaps wider than 1/4 inch, or sagging across ridge and truss lines, per IRC R908 and ARMA.`,
@@ -247,7 +247,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `How Much Weight Does An Overlay Add To The Structure?`,
+        heading: `A Second Shingle Layer Adds Thousands of Pounds of Dead Load`,
         content: [
           `**An overlay** adds a second layer's dead load and **a tear-off** adds none — a single asphalt-shingle layer runs roughly 2–4.5 pounds per square foot, so a second layer adds thousands of pounds, per the Dumpsters.com and Sourgum calculators.`,
           `**An overlay** loads the low-to-high range by shingle grade: 3-tab runs ~2.3–2.5 pounds per square foot and architectural ~4.0–4.3, roughly 50% heavier per square, per the Dumpsters.com and Sourgum converted weights — figures from disposal weights, not a manufacturer structural specification.`,
@@ -255,7 +255,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Why Can't An Overlay Include An Ice-And-Water Barrier?`,
+        heading: `An Overlay Cannot Include the Ice-and-Water Barrier IRC R905.1.2 Specifies`,
         content: [
           `**An overlay** cannot include an ice-and-water barrier and **a tear-off** can — IRC Section R905.1.2 specifies the self-adhered membrane against the bare deck, which an overlay laid over existing shingles cannot reach, per IRC R905.1.2.`,
           `**An overlay** leaves Newark's eaves without that deck-level defense against ice-dam backup, a gap that matters where Newark averages ~31.5 inches of snowfall with ~78% falling December–February and roughly 35–45 freeze-thaw cycles per winter, per NOAA 1991–2020 normals.`,
@@ -264,7 +264,7 @@ export const serviceComparisons: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ Code Allow For Overlay Versus Tear-Off?`,
+      heading: `N.J.A.C. 5:23-6.4 Caps a Roof at Two Layers in NJ`,
       content: [
         `**The NJ Rehabilitation Subcode** governs the overlay limit and **the NJ Uniform Construction Code** governs the permit — N.J.A.C. 5:23-6.4 caps a roof at two layers and bars any recover over a deteriorated deck, per N.J.A.C. 5:23-6.4.`,
         `**The NJ Uniform Construction Code** treats a full re-roof of a detached 1- or 2-family dwelling — overlay or tear-off — as ordinary maintenance with no construction permit, yet that exemption does not authorize a non-compliant recover over a deteriorated deck or a third layer, per N.J.A.C. 5:23-2.7 and N.J.A.C. 5:23-6.4.`,
@@ -272,7 +272,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Re-Roof Suits an Essex County House?`,
+      heading: `An Overlay Suits a Budget-Led House; a Tear-Off Suits a Long-Hold Owner`,
       content: [
         `**An overlay** suits a budget-led, single-layer house and **a tear-off** suits a long-hold owner — an overlay saves ~20–25% nationally but cuts the new shingles' life ~20–30%, while a tear-off resets to full rated life, per HomeGuide and Angi.`,
         `**An overlay** stays code-compliant on an Essex County house only where the deck is sound and one layer exists, since N.J.A.C. 5:23-6.4 bars a recover over a deteriorated deck, wood shake, slate, clay, cement, or a second layer, per N.J.A.C. 5:23-6.4.`,
@@ -280,7 +280,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Re-Roof Fits a Commercial Building?`,
+      heading: `A Tear-Off Fits Commercial Due Diligence; an Overlay Fits a Short-Hold Section`,
       content: [
         `**A tear-off** fits a commercial building under due diligence and **an overlay** fits a short-hold, single-layer section — a documented tear-off provides clean deck-condition records for sales and lender review, while an overlay conceals the deck, per ARMA.`,
         `**A tear-off** on a commercial building resets the IRC R908.3.1.1 two-layer count and enables the full manufacturer system warranty, whereas an overlay that reaches the two-layer ceiling forces a future double tear-off and draws coverage limits from some insurers on the two-layer roof, per ICC IRC R908.3.1.1 and Angi.`,
@@ -306,7 +306,7 @@ export const serviceComparisons: ComparisonContent[] = [
       `**Patching** seals one isolated damaged area on an otherwise sound roof — a few cracked shingles, a small flashing breach, or a nail hole — by repairing that single spot without touching the surrounding roof field. It addresses the visible breach rather than tracing a leak to its underlying cause.`,
     definitionB:
       `**Full roof repair** traces a leak to its root cause and corrects every related defect — failed flashing, deteriorated underlayment, and worn seals — across the roof in a single visit rather than sealing one isolated spot. It opens with a diagnostic inspection that locates the defects a patch cannot see.`,
-    introHeading: `Roof Patching Or Comprehensive Repair — Which Fixes an Essex County Roof?`,
+    introHeading: `Roof Patching Seals One Area, Comprehensive Repair Corrects the Root Cause`,
     introParagraphs: [
       `**Roof patching** seals one damaged area — a few cracked shingles or a flashing breach — while **comprehensive roof repair** traces a leak to its root cause and corrects every related defect.`,
       `**Roof patching** addresses the symptom: a patch over an unaddressed step-flashing failure, a shingle patch over deteriorated underlayment, or sealant over structural movement reopens because the underlying defect continues, since sealant alone fails in 5–10 years, per roofing trade guidance (WeatherShield, Enterprise Roofing). **Comprehensive roof repair** addresses the cause through the industry-typical inspection → diagnosis → documentation → repair → verification sequence (Integrity Home Exteriors), reaching the flashing details behind roughly 90–95% of roof leaks — an industry estimate attributed to the NRCA — rather than the open shingle field behind only ~5–10%.`,
@@ -328,7 +328,7 @@ export const serviceComparisons: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `When Does Patching Fail?`,
+        heading: `Patching Fails When It Seals a Symptom Over an Unresolved Cause`,
         content: [
           `**Roof patching** fails when it seals a symptom over an unresolved cause — a patch over a step-flashing failure or deteriorated underlayment reopens, since flashing details drive roughly 90–95% of roof leaks (an industry estimate attributed to the NRCA).`,
           `**Roof patching** with sealant alone carries a short clock: roofing sealant and caulk typically fail in 5–10 years, per roofing trade guidance (WeatherShield, Enterprise Roofing), and a vent-stack pipe boot installed with exposed nails fails in 2–5 years versus a 10–15-year life when set correctly, per roofing-contractor guidance.`,
@@ -336,7 +336,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `When Does Patching Work?`,
+        heading: `Patching Works on Contained Single-Point Damage`,
         content: [
           `**Roof patching** works on genuine single-point damage from a specific event — a tree limb that cracked three shingles or one storm impact — when the cause is clear, the damage is contained, and the surrounding roof is sound.`,
           `**Roof patching** holds as long as the surrounding roof when the patch integrates matching shingles, correct step flashing, and properly lapped underlayment into sound adjacent material, because the breach is isolated rather than a stage of system-wide aging.`,
@@ -344,7 +344,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `What Does Comprehensive Repair Add?`,
+        heading: `Comprehensive Repair Adds Diagnosis and Consolidates Fixes Into One Visit`,
         content: [
           `**Comprehensive roof repair** adds a diagnostic inspection that finds the defects a patch cannot see, then consolidates every related issue into one visit at $360–$1,550 (Angi) — far below the $10,000–$25,000 of a NJ full replacement, per HomeAdvisor and Modernize.`,
           `**Comprehensive roof repair** opens with the inspection → diagnosis → documentation step (Integrity Home Exteriors): the contractor traces an interior stain back to a failed flashing detail rather than the visible drip point, then delivers a written scope and photographs of the damage.`,
@@ -354,7 +354,7 @@ export const serviceComparisons: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ Code And Weather Mean For Patching vs Repair?`,
+      heading: `A Patch and a Re-Roof on a Detached 1- or 2-Family Home Are Both Ordinary Maintenance`,
       content: [
         `**The NJ Uniform Construction Code** treats a patch and a full re-roof of a detached 1- or 2-family dwelling alike as ordinary maintenance — no permit, inspection, or notice, per N.J.A.C. 5:23-2.7 — so the choice turns on the defect.`,
         `**The NJ Uniform Construction Code** requires a permit once roof work on a commercial, condo, or attached building exceeds 25% of roof area in a 12-month period, or once the job turns structural — replacing rafters, trusses, or decking — per N.J.A.C. 5:23-2.7(b) and (c).`,
@@ -362,7 +362,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Suits an Essex County House?`,
+      heading: `Patching for One Breach, Comprehensive Repair for Recurring Leaks in Essex County`,
       content: [
         `**Roof patching** suits an Essex County house with a single contained breach, while **comprehensive roof repair** suits a house with a recurring leak, multiple interior stains, or an aging roof — a free inspection determines which the roof needs.`,
         `**Roof patching** at $150–$500 (HomeAdvisor) resolves an isolated impact cost-effectively, but a patch that masks a deteriorated flashing detail or underlayment reopens, since flashing carries roughly 90–95% of roof leaks (industry estimate attributed to the NRCA).`,
@@ -370,7 +370,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Fits a Commercial Building?`,
+      heading: `Comprehensive Repair Fits a Commercial Building Better Than Reactive Patching`,
       content: [
         `**Comprehensive roof repair** fits a commercial building better than reactive **roof patching** — a systematic inspection-and-repair program addresses related defects per visit, where the NRCA recommends roof inspections twice yearly (spring and fall) plus after major weather events.`,
         `**Comprehensive roof repair** on a commercial building consolidates repeat truck rolls, crew mobilization, and minimum charges into one visit, lowering cost per defect against the separate patch calls that reactive maintenance generates, since localized work already runs 5–10× less than full replacement, per Home Depot and Kelly Roofing.`,
@@ -395,7 +395,7 @@ export const serviceComparisons: ComparisonContent[] = [
       `**Preventive Maintenance** is a scheduled cadence of roof inspection, gutter clearing, sealant and flashing checks, and documentation that catches small defects before they leak. It tracks a roof toward its full service life rather than reacting after water enters.`,
     definitionB:
       `**Emergency Repair** is the urgent response to a roof failure already underway — an active leak, a wind-lifted shingle, an ice-dam backup, or a storm breach — that stabilizes the damage before water entry compounds. Its timing is dictated by the failure event, not chosen.`,
-    introHeading: `Preventive Maintenance Or Emergency Repair — Which Roof Strategy Fits an Essex County Home?`,
+    introHeading: `Preventive Maintenance Is Chosen, Emergency Repair Is Forced`,
     introParagraphs: [
       `**Preventive maintenance** is the scheduled inspect-and-fix cadence that catches small defects before they leak, and **emergency repair** is the after-hours response to an active leak or storm breach — the difference is timing: one is chosen, the other is forced.`,
       `**Preventive maintenance** follows the NRCA cadence of two inspections a year — spring and fall — plus one after any major weather event, covering flashing, sealant, gutter cleaning, and ventilation, per the National Roofing Contractors Association. **Emergency repair** answers the failure already underway — a wind-lifted shingle, an ice-dam backup, or a nor'easter breach — and carries the 25%–50% after-hours premium plus $100–$300 emergency labor, per Integrity Home Exteriors and HomeAdvisor.`,
@@ -417,7 +417,7 @@ export const serviceComparisons: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `Which Roof Strategy Costs Less?`,
+        heading: `Preventive Maintenance Costs Less Per Visit Than Emergency Repair`,
         content: [
           `**Preventive maintenance** costs less per visit than **emergency repair** — a roof inspection averages $249 ($75–$400 as of 2026, per Angi, with many roofers inspecting free), while emergency/after-hours repairs cost 25%–50% more than standard, per Integrity Home Exteriors.`,
           `**Preventive maintenance** spends on small early fixes: shingle patching runs $150–$500 and a valley repair $400–$1,000 at scheduled rates, per Reliable Roofing Restoration and industry aggregate data, with base labor at $45–$75 an hour, per HomeAdvisor.`,
@@ -425,7 +425,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Strategy Handles NJ Weather Better?`,
+        heading: `Preventive Maintenance Prepares for NJ Weather, Emergency Repair Reacts to It`,
         content: [
           `**Preventive maintenance** prepares a roof for NJ weather and **emergency repair** reacts to it — Newark averages 31.5 inches of annual snowfall per NOAA 1991–2020 normals, with roughly 35–45 freeze-thaw cycles each winter per regional climate estimates.`,
           `**Preventive maintenance** times its fall visit before freeze-thaw cycling begins, clearing gutters twice a year (spring and fall, per GAF and Angi) and verifying flashing and sealant integrity before winter stress, per the National Roofing Contractors Association cadence.`,
@@ -433,7 +433,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `Which Strategy Extends Roof Life?`,
+        heading: `Preventive Maintenance Extends Roof Service Life`,
         content: [
           `**Preventive maintenance** extends service life relative to **emergency repair** — a roof inspected regularly and repaired on time outlasts a neglected one, because minor maintenance defers the major cost of premature replacement, per the National Roofing Contractors Association inspection standard.`,
           `**Preventive maintenance** rests on the one solid NRCA standard: two inspections a year, spring and fall, plus one after any major weather event, the cadence that surfaces granule loss, lifted flashing, and failing sealant while repairs stay minor, per the National Roofing Contractors Association.`,
@@ -442,7 +442,7 @@ export const serviceComparisons: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ Code Require For Maintenance And Emergency Repair?`,
+      heading: `Maintenance and Most Emergency Repairs on a Detached 1- or 2-Family Home Need No Permit`,
       content: [
         `**The NJ Uniform Construction Code** treats both routine **preventive maintenance** and most **emergency repair** as ordinary maintenance on a detached 1- or 2-family dwelling — no permit, inspection, or notice — per N.J.A.C. 5:23-2.7.`,
         `**The NJ Uniform Construction Code** requires a permit once repair turns structural — replacing rafters, trusses, or decking, or exceeding 25% of roof area within 12 months on commercial or attached buildings — per N.J.A.C. 5:23-2.7, which an emergency storm breach reaching the deck can trigger.`,
@@ -450,7 +450,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Strategy Suits an Essex County House?`,
+      heading: `Preventive Maintenance Suits the Essex County House You Plan to Hold`,
       content: [
         `**Preventive maintenance** suits a house an owner plans to hold and **emergency repair** is the fallback for a roof already leaking — the NRCA twice-yearly cadence catches defects before they reach the interior, per the National Roofing Contractors Association.`,
         `**Preventive maintenance** on a house pairs the two NRCA inspections with twice-yearly gutter cleaning, spring and fall (3–4 times with pine trees nearby), per GAF and Angi, keeping eaves clear of the debris that drives ice-dam backup over a Newark winter.`,
@@ -458,7 +458,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Strategy Fits a Commercial Building?`,
+      heading: `Proactively Maintained Commercial Roofs Last About 21 Years, Reactive Ones 13`,
       content: [
         `**Preventive maintenance** fits a commercial building's longer hold and **emergency repair** disrupts its tenants — trade research on commercial low-slope roofs found proactively maintained roofs lasted about 21 years versus 13 for reactively managed ones, per Roofing Contractor magazine (2009).`,
         `**Preventive maintenance** documentation also supports a commercial warranty: manufacturers that require reasonable maintenance accept dated inspection records as proof, and the NRCA twice-yearly cadence supplies that record, per the National Roofing Contractors Association.`,
@@ -483,7 +483,7 @@ export const serviceComparisons: ComparisonContent[] = [
       `**DIY Repair** is roof repair a homeowner performs without a crew, using home-center materials to patch visible damage from a ladder. It covers ground-level tasks like clearing gutters or sealing a surface crack.`,
     definitionB:
       `**Professional Repair** is roof repair performed by a registered New Jersey Home Improvement Contractor who carries fall-protection gear and liability insurance. It traces a leak to its root cause and backs the fix with a workmanship warranty.`,
-    introHeading: `DIY Or Professional Roof Repair — Which Fits an Essex County Home?`,
+    introHeading: `Professional Roof Repair Adds Safety Gear, Diagnosis, and a Warranty Over DIY`,
     introParagraphs: [
       `**DIY roof repair** is the homeowner-performed fix using home-center materials and no crew, and **professional roof repair** is the contractor-performed fix at $360–$1,550 per Angi that adds fall-protection gear, root-cause diagnosis, and a workmanship warranty.`,
       `**DIY roof repair** fails most often through height exposure and technique gaps — exposed fasteners, improper step-flashing overlap, and incompatible sealant that open new leak paths. **Professional roof repair** runs a diagnostic sequence — inspection, diagnosis, root-cause tracing, and post-work verification (per Integrity Home Exteriors process standards) — that DIY surface patching skips.`,
@@ -505,7 +505,7 @@ export const serviceComparisons: ComparisonContent[] = [
     },
     detailedAnalysis: [
       {
-        heading: `How Dangerous Is DIY Roof Work?`,
+        heading: `DIY Roof Work Carries the Danger Professional Crews Manage`,
         content: [
           `**DIY roof repair** carries the danger and **professional roof repair** manages it — an emergency-room analysis (D'Souza, Smith & Trifiletti, American Journal of Preventive Medicine) found roughly 97.3% of U.S. ladder injuries occur in non-occupational settings like homes.`,
           `**DIY roof repair** puts an unprotected homeowner at the deadliest height: even among trained, harnessed construction workers, the U.S. Bureau of Labor Statistics recorded 421 fatal falls in construction in 2023, and 64.4% of fatal construction falls came from 6 to 30 feet — the height of a two-story Essex County roof.`,
@@ -513,7 +513,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `What Goes Wrong With DIY Repairs?`,
+        heading: `DIY Repairs Create New Leak Paths, Professionals Trace the Source`,
         content: [
           `**DIY roof repair** creates new leak paths and **professional roof repair** traces the source — surface patching misses the root cause, while the contractor sequence runs inspection, diagnosis, root-cause tracing, and verification (per Integrity Home Exteriors process standards).`,
           `**DIY roof repair** repeats three technique failures the trades guard against: exposed fasteners, improper step-flashing overlap at sidewalls, and incompatible sealant substituted for the correct flashing detail, each opening a path water follows behind the repair.`,
@@ -521,7 +521,7 @@ export const serviceComparisons: ComparisonContent[] = [
         ],
       },
       {
-        heading: `How Does DIY Affect NJ Insurance And Liability?`,
+        heading: `Professional Repair Carries Insured Liability, DIY Leaves the Homeowner Exposed`,
         content: [
           `**Professional roof repair** carries insured liability and **DIY roof repair** leaves the homeowner exposed — a registered NJ Home Improvement Contractor files general liability coverage of at least $500,000 per occurrence (per N.J.S.A. 56:8-142), which the homeowner does not hold.`,
           `**DIY roof repair** shifts the financial risk to the homeowner: a failed self-repair that admits interior water damage gives the insurer grounds tied to the homeowner's own work, with no contractor policy or workmanship warranty standing behind the fix.`,
@@ -530,7 +530,7 @@ export const serviceComparisons: ComparisonContent[] = [
       },
     ],
     njSpecific: {
-      heading: `What Does NJ Law Require For Roof-Repair Work?`,
+      heading: `NJ Law Requires HIC Registration for Any Business Doing Roof Repair`,
       content: [
         `**The NJ Contractors' Registration Act** requires any business performing roof repair to register annually with the Division of Consumer Affairs as a Home Improvement Contractor (N.J.S.A. 56:8-136), with no dollar threshold; it is a registration, not a license.`,
         `**The Consumer Fraud Act home-improvement regulation** separately requires a signed written contract for any home-improvement work priced over $500 (N.J.A.C. 13:45A-16.2), specifying the contractor's legal name and address, the work and materials, the total price, and the start and completion dates.`,
@@ -538,7 +538,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     residentialSection: {
-      heading: `Which Roof-Repair Tasks Suit an Essex County Homeowner?`,
+      heading: `DIY Suits Ground-Level Tasks, Professional Repair Suits On-Roof Work`,
       content: [
         `**DIY roof repair** suits ground-level tasks and **professional roof repair** suits on-roof work — clearing gutters, reattaching a downspout, or sealing a visible crack from a stable ladder stays inside the homeowner's home-center material budget and off the slope.`,
         `**Professional roof repair** takes over anything that puts the homeowner on the roof: replacing shingles, integrating step flashing, working near the edge or on a steep slope, or chasing a leak that the attic inspection cannot pinpoint, where the $360–$1,550 Angi repair cost buys diagnosis and verification.`,
@@ -546,7 +546,7 @@ export const serviceComparisons: ComparisonContent[] = [
       ],
     },
     commercialSection: {
-      heading: `Which Roof-Repair Approach Fits a Commercial Building?`,
+      heading: `Professional Roof Repair Fits a Commercial Building, DIY Does Not`,
       content: [
         `**Professional roof repair** fits a commercial building and **DIY roof repair** does not — commercial roof repair is a home-improvement activity requiring HIC registration (N.J.S.A. 56:8-137), and a fall on a commercial site exposes the owner to uninsured liability.`,
         `**Professional roof repair** on a commercial property pairs the registered contractor's $500,000-per-occurrence general liability coverage (N.J.S.A. 56:8-142) with OSHA fall protection over the crew, transferring the height and damage risk off the building owner.`,

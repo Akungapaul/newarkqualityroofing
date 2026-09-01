@@ -4,10 +4,11 @@ export const residentialRoofingHubContent: HubContent = {
   "hubId": "residential-roofing",
   "directAnswer": "**Newark Quality Roofing provides residential roofing repair, replacement, installation, and inspection across Newark and Essex County, New Jersey, as a registered New Jersey Home Improvement Contractor**, covering asphalt shingle, metal, slate, tile, and cedar systems for single- and multi-family homes.",
   "definition": "**Residential roofing is the roof systems that protect single- and multi-family homes** — steep-slope asphalt shingle, metal, slate, tile, and cedar, plus low-slope membrane on porches and additions — matched to each home's pitch and architectural style.",
-  "definitionHeading": "What Is Residential Roofing?",
+  "definitionQuestion": "What Is Residential Roofing?",
+  "definitionHeading": "Residential Roofing, Defined",
   "sections": [
     {
-      "heading": "What Residential Roofing Services Does Newark Quality Roofing Provide?",
+      "heading": "Residential Roofing Services Newark Quality Roofing Provides",
       "body": [
         "**Newark Quality Roofing provides 6 residential roofing services across Essex County, New Jersey: roof repair, roof replacement, new roof installation, roof inspection, leak repair, and storm-damage repair** for single- and multi-family homes.",
         "**Roof repair** restores a roof's weatherproof barrier by fixing localized failures — missing shingles, corroded flashing, and cracked pipe-boot seals — while **roof replacement** strips the roof to the deck and rebuilds the full system when damage exceeds repair. The NRCA recommends a professional roof inspection twice a year and after major storms to catch failures before they spread.",
@@ -15,7 +16,7 @@ export const residentialRoofingHubContent: HubContent = {
       ]
     },
     {
-      "heading": "Which Roofing Materials Suit Essex County Homes?",
+      "heading": "Roofing Materials Suited to Essex County Homes",
       "body": [
         "**6 roofing materials suit Essex County, New Jersey homes: asphalt shingle, metal, natural slate, clay and concrete tile, cedar shake, and EPDM membrane** — each with a distinct service-life range attributed to InterNACHI and industry guides.",
         "**Architectural asphalt shingle** lasts roughly 25–30 years and covers most Essex County, New Jersey homes, while **metal roofing** lasts about 40–70 years and resists wind uplift. **Natural slate** lasts 75–150+ years and suits the historic homes of Montclair and the Caldwells, and **clay and concrete tile** lasts 50–100 years, per InterNACHI and industry service-life ranges.",
@@ -23,7 +24,7 @@ export const residentialRoofingHubContent: HubContent = {
       ]
     },
     {
-      "heading": "What Do New Jersey Permits Require for a Home Reroof?",
+      "heading": "New Jersey Permit Requirements for a Home Reroof",
       "body": [
         "**A detached one- or two-family reroof in New Jersey is ordinary maintenance under N.J.A.C. 5:23-2.7 and needs no construction permit** — commercial and multi-family reroofs instead follow the Uniform Construction Code.",
         "**The Rehab Subcode** at N.J.A.C. 5:23-6.4 limits roof recover, barring a new layer over two existing layers or over wet or deteriorated decking, and New Jersey adds wood shake to that bar — a rule that mirrors IRC R908. A roof that already carries two layers, or shows a soft deck, requires a full tear-off rather than a recover.",
@@ -32,7 +33,7 @@ export const residentialRoofingHubContent: HubContent = {
     }
   ],
   "childLinks": {
-    "heading": "What Residential Roofing Services Can You Explore?",
+    "heading": "Explore Our Residential Roofing Services",
     "groups": [
       {
         "label": "Residential Roof Types",
@@ -89,7 +90,7 @@ export const residentialRoofingHubContent: HubContent = {
       }
     ]
   },
-  "faqHeading": "What Questions Do Homeowners Ask About Residential Roofing?",
+  "faqHeading": "Residential Roofing FAQs for Essex County Homeowners",
   "faqs": [
     {
       "question": "What residential roofing services does Newark Quality Roofing provide?",

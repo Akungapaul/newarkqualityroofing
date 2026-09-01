@@ -14,7 +14,7 @@ export const homepageArticles: ArticleContent[] = [
     "intro": "Each of those three factors shapes how a New Jersey roof is chosen, installed, and maintained over its service life.",
     "sections": [
       {
-        "heading": "How Does New Jersey's Climate Affect a Roof?",
+        "heading": "New Jersey's Freeze-Thaw Cycles and Snow Shorten Roof Lifespan",
         "body": [
           "**New Jersey's four-season climate** stresses a roof through repeated freeze-thaw cycles, roughly 31.5 inches of annual snowfall, and warm, humid summers, all of which shorten the lifespan of shingles, flashing, and sealant. NOAA's 1991-2020 climate normals record about 31.5 inches of average annual snowfall at Newark Liberty, and the daily swings around freezing in winter drive the repeated freeze-thaw cycles that pry at roof assemblies.",
           "**Freeze-thaw cycles** do their damage where water collects and refreezes, so flashing joints, sealant lines, and the edges around chimneys and valleys fail first. Water expands as it freezes, working open small gaps with each cycle; the NRCA attributes roughly 90 to 95 percent of roof leaks to flashing details rather than the field of the shingles. An industry estimate places the New Jersey region around 35 to 45 freeze-thaw cycles per year, though that figure is an approximation rather than a measured constant.",
@@ -22,7 +22,7 @@ export const homepageArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Roofing Materials Suit New Jersey Homes?",
+        "heading": "Architectural Asphalt Shingles Lead on New Jersey Homes",
         "body": [
           "**Architectural asphalt shingles** lead on New Jersey homes, while slate, metal, cedar, and tile suit specific budgets and styles, and TPO, EPDM, or PVC membranes cover flat commercial roofs. The ARMA notes that architectural asphalt shingles dominate the residential market because they balance cost, weather resistance, and a service life of roughly 25 to 30 years.",
           "**Architectural asphalt shingles** carry a layered, dimensional profile that resists wind better than older three-tab styles, and major manufacturers such as GAF, CertainTeed, and Owens Corning produce the lines most often installed on New Jersey homes. A typical architectural shingle roof lasts about 25 to 30 years, which sets the baseline that other materials are measured against on a cost-per-year basis, where a [roof replacement](/roof-replacement-in-newark-nj) decision often comes down to dividing the installed price by that expected service life.",
@@ -30,7 +30,7 @@ export const homepageArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What NJ Rules and Timing Govern a Roofing Project?",
+        "heading": "NJ Rules: HIC Registration, Permit Exemptions, and April-November Timing",
         "body": [
           "**New Jersey rules** require every roofing business to register as a Home Improvement Contractor, exempt detached one-to-two-family re-roofs from permits as ordinary maintenance, and concentrate most projects between April and November. The NJ Division of Consumer Affairs administers the Home Improvement Contractor registration under N.J.S.A. 56:8-136, which carries no dollar threshold to register; the state sets a statutory minimum of $500,000 per occurrence in commercial general liability insurance under N.J.S.A. 56:8-142, the 13VH registration number appears on every contract and advertisement under N.J.S.A. 56:8-144, and a separate rule, N.J.A.C. 13:45A-16.2, requires a written contract once a job exceeds $500.",
           "**Permits** separate residential maintenance from larger commercial work in New Jersey. N.J.A.C. 5:23-2.7 classifies a re-roof or tear-off on a detached one-to-two-family dwelling as ordinary maintenance that proceeds without a construction permit, while commercial and multi-family roofs require a permit once work touches more than 25 percent of the roof area within a twelve-month period. Homeowners can confirm a contractor's standing or report a problem to the NJ Division of Consumer Affairs under the Consumer Fraud Act, and can review available [roofing services](/roofing-services) before signing a contract.",
@@ -52,7 +52,7 @@ export const homepageArticles: ArticleContent[] = [
     "intro": "These three checks separate accountable New Jersey contractors from storm-chasers who disappear after a job goes wrong.",
     "sections": [
       {
-        "heading": "How Do You Verify a Roofer's NJ Registration and Insurance?",
+        "heading": "How to Verify a Roofer's 13VH Registration and Insurance in NJ",
         "body": [
           "**Verify registration** by searching the contractor's \"13VH\" Home Improvement Contractor number on the NJ Division of Consumer Affairs (NJ DCA) database, then requesting a Certificate of Insurance sent directly from the insurer showing at least $500,000 commercial general liability coverage.",
           "**Registration** under N.J.S.A. 56:8-136 applies to every home-improvement business in New Jersey, and N.J.S.A. 56:8-144 requires the \"13VH\" number on contracts and advertising. **Insurance** verification, meanwhile, protects you if a worker is injured or your property is damaged — N.J.S.A. 56:8-142 sets the statutory minimum general liability at $500,000 per occurrence, so request the Certificate of Insurance from the carrier directly rather than accepting a contractor copy that can be expired or altered. If a roofer names a manufacturer credential, confirm it independently with that manufacturer, such as GAF, CertainTeed, or Owens Corning.",
@@ -60,7 +60,7 @@ export const homepageArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Are the Warning Signs of a Roofing Scam?",
+        "heading": "Roofing Scam Signs: Storm-Chasing, Upfront Payment Demands, No Written Contract",
         "body": [
           "**The clearest warning signs of a roofing scam** are unsolicited door-to-door storm-chasing, demands for full payment upfront, refusal to put the job in a written contract, high-pressure deadlines, no verifiable local address, and lowball bids that undercut every other estimate.",
           "**Storm-chasing** solicitation follows hail and wind events, when out-of-state crews canvass neighborhoods offering immediate inspections, collect deposits, and leave before warranty obligations come due. **Full payment upfront** is the most common scam structure, because once the money clears, accountability disappears — reputable contractors invoice against milestones such as a deposit, a progress payment, and a balance on completion. N.J.A.C. 13:45A-16.2 requires a written contract for home-improvement work exceeding $500, so a verbal-only deal already breaks state rules.",
@@ -68,7 +68,7 @@ export const homepageArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Should You Compare Roofing Estimates?",
+        "heading": "Compare at Least Three Itemized Written Roofing Bids",
         "body": [
           "**Compare roofing estimates by collecting at least three written bids** that itemize scope, shingle or membrane material, underlayment, ventilation, flashing details, warranty terms, and permit handling — then compare equivalent specifications rather than headline price alone.",
           "**Scope and material** drive most of the price difference, so read past the total. A bid detailing tear-off versus layover, the specific shingle or membrane product, underlayment type, and flashing work describes a different job than a one-line \"replace roof\" quote at a lower number. Flashing details cause roughly 90 to 95% of roof leaks per an NRCA industry estimate, so an estimate naming flashing work is doing the homework. **Ventilation and warranty** terms also matter — confirm each estimate specifies intake and exhaust ventilation and states both the manufacturer material warranty and the contractor workmanship warranty in writing, because manufacturers can deny claims when ventilation falls short of their specification.",
@@ -90,7 +90,7 @@ export const homepageArticles: ArticleContent[] = [
     "intro": "That single registration, paired with mandatory insurance and a clear understanding of warranty types, forms the baseline every New Jersey homeowner verifies before signing a roofing contract.",
     "sections": [
       {
-        "heading": "What Does the NJ Contractors' Registration Act Require?",
+        "heading": "The NJ Contractors' Registration Act Requires a 13VH Registration, Not a License",
         "body": [
           "The **NJ Contractors' Registration Act (N.J.S.A. 56:8-136)** requires every home-improvement business, including roofers, to register with the NJ Division of Consumer Affairs, display a \"13VH\" registration number, and follow consumer-protection rules. This is a registration, not a roofing license.",
           "The **registration** distinguishes itself from a license: New Jersey issues no roofing license, so a contractor proving competency through a state exam does not exist for this trade. Instead, registration confirms a business filed its information, carries required insurance, and accepted oversight by the NJ Division of Consumer Affairs. N.J.S.A. 56:8-144 requires the \"13VH\" registration number on contracts and advertisements, and a missing or invalid number signals an unregistered operator.",
@@ -98,7 +98,7 @@ export const homepageArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Insurance Must a NJ Roofing Contractor Carry?",
+        "heading": "NJ Roofers Carry $500,000 Liability Insurance Plus Workers' Compensation",
         "body": [
           "A **NJ roofing contractor** carries commercial general liability insurance with a minimum of $500,000 per occurrence under N.J.S.A. 56:8-142, plus workers' compensation coverage for crew injuries. Both protect the homeowner from cost transfer after an accident.",
           "The **commercial general liability** policy covers property damage and bodily injury arising from the contractor's work — a dropped bundle through a skylight, water intrusion from an open tear-off, or injury to a passerby. The $500,000 per-occurrence floor set by N.J.S.A. 56:8-142 is the statutory minimum, and many contractors carry higher limits for larger commercial projects. A homeowner verifies this coverage by requesting a Certificate of Insurance issued directly by the insurer, not a copy supplied by the contractor.",
@@ -106,7 +106,7 @@ export const homepageArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do Manufacturer and Workmanship Warranties Differ?",
+        "heading": "Manufacturer Warranties Cover Materials; Workmanship Warranties Cover the Install",
         "body": [
           "**Manufacturer warranties** cover defects in the roofing material itself and are often pro-rated over time, while **workmanship warranties** cover the quality of the installation and come from the contractor. The two address different failure points and rarely overlap.",
           "A **manufacturer warranty** from a shingle or membrane maker — GAF, CertainTeed, or Owens Corning, for example — promises the product performs as specified and replaces material that fails from a manufacturing defect. Coverage is frequently pro-rated, meaning the dollar value declines as the roof ages, and it excludes problems caused by improper installation. Reading the exclusions reveals what the material warranty does and does not address.",

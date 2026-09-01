@@ -5,7 +5,7 @@ export const freeRoofingEstimateHubContent: HubContent = {
   "directAnswer": "**Request a free roofing estimate from Newark Quality Roofing by phone or the online form, and a registered New Jersey Home Improvement Contractor inspects your roof on-site, then provides a written, no-obligation estimate.** Newark Quality Roofing serves Newark and the 21 municipalities of Essex County, New Jersey.",
   "sections": [
     {
-      "heading": "What Happens During a Free Roofing Estimate?",
+      "heading": "How a Free Roofing Estimate Works",
       "body": [
         "**A free roofing estimate** from Newark Quality Roofing begins with an on-site visit where a registered New Jersey Home Improvement Contractor inspects the roof, takes measurements, documents conditions with photos, and prepares a written scope of work.",
         "**The on-site inspection** examines slope, the roof covering, flashings, and visible decking or interior signs of moisture, covering both the exterior surface and the accessible interior. The NRCA recommends professional roof inspection twice a year and after major storms.",
@@ -14,7 +14,7 @@ export const freeRoofingEstimateHubContent: HubContent = {
       ]
     },
     {
-      "heading": "What Information Helps Us Prepare Your Estimate?",
+      "heading": "Information That Helps Us Prepare Your Estimate",
       "body": [
         "**Useful information** includes the property address in Newark or Essex County, a description of the roofing concern, details about roof access, and any prior inspection reports or photos you already have.",
         "**The property address** locates the roof within Newark Quality Roofing's service area, which spans Newark and the 21 municipalities of Essex County, New Jersey, including East Orange, Irvington, Bloomfield, Montclair, West Orange, Livingston, Millburn, and the Caldwells.",
@@ -23,7 +23,7 @@ export const freeRoofingEstimateHubContent: HubContent = {
       ]
     },
     {
-      "heading": "What Does the Written Estimate Include?",
+      "heading": "What the Written Estimate Includes",
       "body": [
         "**The written estimate** itemizes the scope of work, the roofing materials proposed, and a project timeline; it is free and carries no obligation to proceed.",
         "**The scope of work** describes each task the roof requires, from tear-off or repair to flashing and drainage details. Under N.J.A.C. 5:23-2.7, a re-roof on a detached one- or two-family home is ordinary maintenance needing no construction permit, while commercial and multi-family reroofs follow the Uniform Construction Code, and the estimate reflects which path applies.",
@@ -32,7 +32,7 @@ export const freeRoofingEstimateHubContent: HubContent = {
       ]
     }
   ],
-  "faqHeading": "What Questions Do Customers Ask About Roofing Estimates?",
+  "faqHeading": "Roofing Estimate FAQs",
   "faqs": [
     {
       "question": "How Do You Request a Free Roofing Estimate?",

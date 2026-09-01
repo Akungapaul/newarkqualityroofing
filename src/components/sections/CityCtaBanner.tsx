@@ -22,7 +22,7 @@ export function CityCtaBanner({ cityName }: CityCtaBannerProps) {
 
       <div className="relative mx-auto max-w-4xl px-6 py-16 text-center lg:py-20">
         <h2 className="font-heading text-3xl font-bold text-parchment sm:text-4xl">
-          How Can You Request a Free Roofing Estimate in {cityName}?
+          Request a Free Roofing Estimate in {cityName}, NJ
         </h2>
         <p className="mt-4 font-body text-lg leading-relaxed text-parchment/80">
           Request your free, no-obligation roofing estimate online or by phone.

@@ -232,7 +232,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
             <AnimateIn>
               <section id="why-choose" aria-labelledby="why-choose-heading">
                 <h2 id="why-choose-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
-                  Why Should You Choose Our Roofing Company in {city.name}?
+                  Why Choose Newark Quality Roofing in {city.name}
                 </h2>
                 <div className="mt-6 grid gap-6 sm:grid-cols-2">
                   {content.whyChoose.reasons.map((reason) => (

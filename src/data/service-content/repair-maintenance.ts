@@ -18,35 +18,35 @@ export const repairMaintenanceContent: ServiceContent[] = [
     //    "licensed" reworded to "registered" per NJ HIC fact + factual-integrity rule. ──
     sections: [
       {
-        heading: 'Why Trust Our Newark Roofing Contractor for Roof Repair?',
+        heading: 'Why Newark Trusts Our Roofing Contractor for Roof Repair',
         body: [
           '**Newark Quality Roofing is the roofing contractor Newark property owners trust for roof repair**, in a city where row houses, flat roofs, and commercial blocks share tight rooflines — with prices starting from $350–$1,500 and free estimates available today.',
           'Newark\'s roofing landscape tells the story of a city built in layers — Victorian-era brownstones in Forest Hill pressed shoulder-to-shoulder against their neighbors, mid-century multi-family walk-ups lining the avenues of Roseville, and flat-roofed commercial blocks anchoring the Ironbound district. Roof repair here is never a simple patch job. The density of construction, the age of materials, and the shared structural elements between adjacent buildings mean that every repair demands an understanding of how water, wind, and time interact with Newark\'s particular building stock. Among Newark roofing companies, Newark Quality Roofing delivers the roof repair Newark residents and business owners trust.',
         ],
       },
       {
-        heading: 'What Roofing Services Does Newark Quality Roofing Provide?',
+        heading: 'Roofing Services Newark Quality Roofing Provides',
         body: [
           '**Newark Quality Roofing offers a comprehensive range of roofing services to meet the diverse needs of Newark homeowners and businesses.** From minor repairs and routine maintenance to full roof replacements and emergency storm damage restoration, our registered and insured team ensures quality workmanship and timely project completion.',
           'Our services include roof inspections, leak diagnosis, flashing repairs, shingle replacement, metal roof repairs, flat roof membrane maintenance, gutter installation, and ventilation improvements. We are committed to protecting your property with durable solutions tailored to Newark\'s unique climate and architectural challenges.',
         ],
       },
       {
-        heading: 'What New Roof Options Are Available for Newark Homes and Businesses?',
+        heading: 'New Roof Options for Newark Homes and Businesses',
         body: [
           '**When repairs are no longer sufficient, a new roof installation provides lasting protection and improved energy efficiency.** Newark Quality Roofing offers a variety of new roof solutions tailored to the diverse architectural styles and roofing materials found across Newark.',
           'Whether you need asphalt shingles for residential properties or single-ply membranes for commercial flat roofs, our team ensures high-quality workmanship and adherence to the latest industry standards.',
         ],
       },
       {
-        heading: 'How Do Roof Inspections Diagnose Leaking Roofs in Newark?',
+        heading: 'How Roof Inspections Diagnose Leaking Roofs in Newark',
         body: [
           '**Brownstone rows throughout the North Ward and Forest Hill present a recurring challenge: party walls.** These shared masonry dividers between row houses create seams where flashing deteriorates, mortar joints crack, and water finds paths that no single homeowner can address alone.',
           'A leaking roof on one unit frequently reveals damage migrating from — or toward — the adjoining property. Our crews understand the diplomacy and technical coordination required when repair work spans property lines, and we carry the liability coverage that Newark\'s multi-party repair situations demand.',
         ],
       },
       {
-        heading: 'How Do You Address Storm Damage and Hail Damage in Newark?',
+        heading: 'Addressing Storm Damage and Hail Damage in Newark',
         body: [
           '**Newark\'s climate and urban environment expose roofs to frequent storm damage, including wind, heavy rain, hail, and thermal stress.** The Ironbound neighborhood, with its mix of Portuguese bakeries, Brazilian restaurants, and light industrial buildings, presents flat-roof repair challenges distinct from the pitched residential roofs found in Vailsburg or Weequahic.',
           'Commercial membrane roofs in the Ironbound accumulate standing water behind parapets, develop blistering under Newark\'s urban heat island effect, and suffer punctures from rooftop HVAC equipment that serves the dense commercial district below. Repairing these roofs requires material knowledge that goes beyond residential shingle work and includes the use of advanced roofing products and underlayment to provide lasting protection.',
@@ -54,14 +54,14 @@ export const repairMaintenanceContent: ServiceContent[] = [
         ],
       },
       {
-        heading: 'How Do You Get a Free Estimate for Your Roof Repair or Replacement?',
+        heading: 'Get a Free Estimate for Roof Repair or Replacement',
         body: [
           '**We offer a free estimate for all roof repair and new roof projects in Newark.** Our detailed assessments include photo-documented diagnosis and a transparent written proposal so you can make informed decisions about your roofing needs. Contact us today to schedule your free estimate and receive expert guidance tailored to your property.',
           'From the steep slate roofs of Forest Hill\'s historic estates to the modified bitumen surfaces atop Downtown\'s mixed-use buildings along Broad Street, Newark demands roof repair technicians who can move fluently between eras and materials. Our team brings that versatility — we carry both traditional copper soldering equipment and modern single-ply welding gear on every service call, because in Newark, you never know which century\'s roofing system you\'ll encounter until you\'re standing on it. We also specialize in metal roof repairs and installations, including ridge vents installation to improve attic ventilation and prevent mold growth.',
         ],
       },
       {
-        heading: 'What Local Challenges Affect Newark Roofs?',
+        heading: 'Local Challenges That Affect Newark Roofs',
         body: [
           '**The number one roof repair challenge in Newark is water infiltration through shared party walls.** With thousands of attached brownstones and row houses across the North Ward, Forest Hill, and Roseville, the typical repair isn\'t isolated to one roof plane. Water travels laterally through deteriorated mortar joints, bypasses flashing that was installed decades before modern building codes, and, when wind and heavy rain hit attached Newark buildings, leaks can spread farther before emerging inside a living space two or three units away from the actual point of failure. Diagnosing these migrating leaks requires systematic moisture testing along the entire row, not just the unit reporting damage, and dealing with minor vulnerabilities early can reduce long-term costs.',
           'Newark\'s position within the urban heat island corridor between the Passaic River and Newark Bay amplifies thermal cycling on roofing materials. Summer roof surface temperatures regularly exceed 160 degrees Fahrenheit on dark asphalt shingles in the Central Ward, while winter freeze-thaw cycles crack aging flashing and split deteriorated caulk joints; local repairs also need to account for snow load requirements and proper ventilation in Newark\'s climate. This thermal whiplash accelerates the aging of repair materials — a patch that might last seven years in a suburban setting may fail in three or four on a sun-baked Newark rooftop with no shade canopy. Once infiltration starts, prompt repair is crucial to keep the structure protected and prevent severe home damage including mold development.',
@@ -70,7 +70,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         ],
       },
     ],
-    neighborhoodsHeading: 'What Is the Local Property Context Across Newark?',
+    neighborhoodsHeading: 'The Local Property Context Across Newark',
     neighborhoods: [
       {
         name: 'Ironbound',
@@ -99,7 +99,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       },
     ],
     problemsWeExpect: {
-      heading: 'What Roof Damage and Problems Do We Expect on Newark Roofs?',
+      heading: 'Roof Damage and Problems We Expect on Newark Roofs',
       items: [
         'We regularly address party-wall flashing leaks, low-slope drainage issues, and parapet and coping failures, and we recommend a roof inspection twice a year to identify potential roof issues early before they spread — something many homeowners overlook.',
         'Tight access from narrow lots',
@@ -187,7 +187,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ],
       ctaLabel: 'Get Commercial Quote',
     },
-    processHeading: 'What Are the Steps in Our Roof Repair Process?',
+    processHeading: 'Our Roof Repair Process, Step by Step',
     processSteps: [
       {
         title: 'Access Assessment and Permitting',
@@ -252,7 +252,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'Free Estimates',
     ],
     pricingHeading:
-      'How Much Do Roof Repair, Roof Replacement, and Roof Installation Cost in Newark?',
+      'Roof Repair, Replacement, and Installation Costs in Newark',
     pricing: {
       range: '$350–$1,500 for most repairs',
       factors: [
@@ -265,7 +265,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         'We offer financing options to make new roof installations and major repairs more affordable.',
     },
     whyChooseUs: {
-      heading: 'Why Choose Our Roofing Company for Roof Repair in Newark?',
+      heading: 'Why Choose Newark Quality Roofing for Roof Repair in Newark',
       reasons: [
         {
           title: 'Specialized Newark Roof Repair Experience',

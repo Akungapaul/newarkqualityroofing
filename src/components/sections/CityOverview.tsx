@@ -42,7 +42,7 @@ export function CityOverview({
     <div className="space-y-8">
       <div>
         <SectionHeading id="overview-heading" icon={OVERVIEW_ICON}>
-          What Roofing Problems Are Common in {cityName}?
+          Common Roofing Problems in {cityName}, NJ
         </SectionHeading>
         <div className="mt-5">
           <ProseLead paragraphs={paragraphs} media={media} />

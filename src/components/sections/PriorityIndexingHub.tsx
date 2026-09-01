@@ -34,7 +34,7 @@ export function PriorityIndexingHub() {
         <div className="max-w-3xl">
           <p className="font-body text-sm font-bold uppercase tracking-[0.18em] text-copper-dark">Popular roofing pages</p>
           <h2 id="priority-indexing-heading" className="mt-3 font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Which Newark Roofing Pages Should You Explore First?
+            Newark Roofing Pages to Explore First
           </h2>
           <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
             These quick links point you straight to the roofing services, cities, and service-area pages Newark and Essex County property owners search for most.
@@ -42,7 +42,7 @@ export function PriorityIndexingHub() {
         </div>
 
         <div className="mt-8 rounded-xl border border-copper/30 bg-copper/5 p-6">
-          <h3 className="font-heading text-xl font-semibold text-forest">Which Newark Roofing Services Are Most Requested?</h3>
+          <h3 className="font-heading text-xl font-semibold text-forest">Most-Requested Newark Roofing Services</h3>
           <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
             These links take you to the Newark roofing services homeowners and businesses ask about most often.
           </p>
@@ -66,7 +66,7 @@ export function PriorityIndexingHub() {
 
         <div className="mt-10 grid gap-6 lg:grid-cols-3">
           <div className="rounded-xl border border-border bg-parchment-light p-6">
-            <h3 className="font-heading text-xl font-semibold text-forest">What Are Our Core Roofing Services?</h3>
+            <h3 className="font-heading text-xl font-semibold text-forest">Our Core Roofing Services</h3>
             <ul className="mt-4 space-y-2">
               {priorityServices.map((service) => (
                 <li key={service.id}>
@@ -79,7 +79,7 @@ export function PriorityIndexingHub() {
           </div>
 
           <div className="rounded-xl border border-border bg-parchment-light p-6">
-            <h3 className="font-heading text-xl font-semibold text-forest">Which Essex County Cities Do We Serve First?</h3>
+            <h3 className="font-heading text-xl font-semibold text-forest">Essex County Cities We Serve</h3>
             <ul className="mt-4 space-y-2">
               {priorityCities.map((city) => (
                 <li key={city.id}>
@@ -92,7 +92,7 @@ export function PriorityIndexingHub() {
           </div>
 
           <div className="rounded-xl border border-border bg-parchment-light p-6">
-            <h3 className="font-heading text-xl font-semibold text-forest">Which Roofing Service and City Combinations Are Popular?</h3>
+            <h3 className="font-heading text-xl font-semibold text-forest">Popular Roofing Service and City Combinations</h3>
             <ul className="mt-4 space-y-2">
               {comboLinks.map((combo) => (
                 <li key={combo.slug}>

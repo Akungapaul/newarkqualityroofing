@@ -19,14 +19,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each sign marks a specific failure point that a targeted repair addresses before the damage spreads to the deck and structure.",
     "sections": [
       {
-        "heading": "What Interior Signs Point to a Roof Leak?",
+        "heading": "Ceiling and Wall Stains After Rainfall Signal an Active Roof Leak",
         "body": [
           "**Brown or yellow ceiling and wall stains** that spread or darken after rainfall indicate an active roof leak or trapped attic moisture, per GAF and This Old House inspection guidance. The stain marks where water has already traveled inside, not where the roof failed.",
           "**Daylight visible through the roof deck** from inside the attic indicates holes in the decking and shingles, a sign that points toward replacement rather than a patch, per This Old House. Water enters at one detail and travels before showing as an interior stain, so a thorough diagnosis traces the moisture path from ridge to eave to the root-cause detail, per Integrity Home Exteriors repair-process guidance. Damp insulation, musty odors, or discoloration in the attic confirm the path even when the roof surface looks intact from the ground."
         ]
       },
       {
-        "heading": "Which Exterior Signs Indicate Shingle or Flashing Failure?",
+        "heading": "Missing, Cracked, or Torn Shingles Expose the Roof Deck",
         "body": [
           "**Missing, cracked, or torn shingles** expose the underlayment and the roof deck to wind-driven rain, per GAF inspection guidance. Wind blow-off and impact strip the protective layer, leaving the assembly beneath open to water.",
           "**Granule loss with sandy grit in gutters** indicates shingles nearing end of life; granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF. Below that threshold, the wear stays localized and a targeted repair restores the water layer.",
@@ -34,7 +34,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does a Sign Point to Replacement Instead of Repair?",
+        "heading": "A Sagging Roofline Signals Structural Decay Beyond a Surface Patch",
         "body": [
           "**A sagging ceiling or roofline** indicates sheathing decay from prolonged moisture and ranks as a structural priority, per GAF. Sagging signals that water has reached and weakened the wood beneath the covering, beyond what a surface patch resolves.",
           "**The repair-versus-replace threshold** turns on how much area the damage covers: repair favors an asphalt roof under 10–15 years old when damage stays localized and covers under 25–30% of the roof area, while damage exceeding 25–30% of the area, or one repair approaching 50% of replacement cost, favors replacement. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds. Attic daylight and a sagging roofline are the two signs that most often push a roof past the repair threshold."
@@ -55,7 +55,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Because each repair targets a specific failure point, the price depends on the detail being fixed, its accessibility, and the local code, so an accurate figure comes from an on-site written estimate rather than a single published number.",
     "sections": [
       {
-        "heading": "What Do Common Roof Repairs Cost in New Jersey?",
+        "heading": "Common Roof Repairs in New Jersey Run $200 to $1,000 by Component",
         "body": [
           "**Common roof repairs price by the component being fixed**, with a flashing reseal or small flashing section running $200 to $500, per Modernize cost data, and a roof-leak repair running $400 to $1,000, per HomeAdvisor and Modernize. A valley repair, which removes and reinstalls the surrounding shingles, runs $400 to $1,000 or more, per HomeAdvisor.",
           "**Flashing repairs** sit at the lower end because they reseal or replace the metal at chimneys, walls, skylights, and valleys rather than the shingle field. Flashing is the detail an estimated 90 to 95 percent of leaks trace back to — an industry estimate attributed to the NRCA — so resealing the failed transition often resolves a leak for $200 to $500, per Modernize. The wider the failed section and the harder the access, the closer the figure moves toward the top of that band.",
@@ -63,7 +63,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Do New Jersey Repair Prices Run Above the National Average?",
+        "heading": "New Jersey Repair Prices Run 10 to 40 Percent Above the National Average",
         "body": [
           "**New Jersey repair prices sit roughly 10 to 40 percent above national figures**, per Integrity Home Exteriors, because labor makes up about 60 percent of a repair total and the state code is stricter than the national baseline. A roof-leak repair, for instance, lands about 10 to 15 percent above the national average.",
           "**Labor** drives most of that premium, since it accounts for roughly 60 percent of a repair total and New Jersey's labor rates exceed the national mean, per Integrity Home Exteriors. The stricter state code adds the rest, raising the standard of materials and detailing a compliant repair requires. These two factors compound, which is why the same component repair costs more in Essex County than the headline national figure suggests.",
@@ -71,7 +71,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does a Repair Stop Making Financial Sense?",
+        "heading": "The 25 Percent and 50 Percent Rules: When a Repair Stops Making Sense",
         "body": [
           "**A repair stops making financial sense once damage exceeds 25 to 30 percent of the roof area or one repair approaches 50 percent of the replacement cost** — the contractor-consensus \"25 percent\" and \"50 percent\" rules. Repair favors an asphalt roof under 10 to 15 years old with localized damage.",
           "**The 25 percent rule** keeps a repair worthwhile while the failure stays contained, since sealing a flashing detail or replacing a torn section restores the weatherproof barrier without touching a sound roof. Once damage spreads past roughly 25 to 30 percent of the area, repeated patches compete with the cost of a full system, and daylight visible through the deck from the attic points toward replacement rather than a patch, per This Old House.",
@@ -93,7 +93,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of these checks is verifiable through state records, a Certificate of Insurance, or the paperwork itself, which is what separates an accountable contractor from a storm-chasing crew.",
     "sections": [
       {
-        "heading": "How Do You Verify a Roof Repair Contractor's Registration and Insurance?",
+        "heading": "How to Verify a Roof Repair Contractor's NJ Registration and Insurance",
         "body": [
           "**Registration and insurance** are the two checks that carry legal weight: a contractor holds active New Jersey Home Improvement Contractor registration, and the contractor carries commercial general liability coverage of at least $500,000 per occurrence. Both are verifiable, not matters of trust.",
           "**HIC registration** is required of every home-improvement business in New Jersey under N.J.S.A. 56:8-136, and the 13VH registration number appears on the contract and in advertising under N.J.S.A. 56:8-144. This is a registration administered by the Division of Consumer Affairs, not a roofing license — New Jersey issues no roofing license — so the accurate question is whether the registration is active and the 13VH number checks out.",
@@ -101,7 +101,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Paperwork Does a Legitimate Roof Repair Contractor Provide?",
+        "heading": "The Written Contract and Itemized Estimate a Legitimate Contractor Provides",
         "body": [
           "**A written contract and an itemized estimate** are the paperwork a legitimate roof repair contractor provides before work begins. N.J.A.C. 13:45A-16.2 requires a written contract for any home-improvement work over $500, with the total price and the start and completion dates.",
           "**An itemized written estimate** separates materials from labor and specifies the scope of work before any work starts, which lets a homeowner compare equivalent bids rather than a single headline number. An estimate that names the failed detail — flashing, shingles, underlayment, or a pipe boot — describes a defined repair, and flashing details account for an industry estimate attributed to the NRCA of roughly 90 to 95 percent of roof leaks, so naming that work signals the contractor traced the source.",
@@ -109,7 +109,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Do Local References and Essex County Presence Matter?",
+        "heading": "Local References and Essex County Presence Keep a Contractor Accountable",
         "body": [
           "**Local references and an established Essex County presence** matter because they signal a contractor who stays accountable after the work, rather than an out-of-area crew that moves on once a storm season ends.",
           "**Storm-chasing crews** canvass neighborhoods after wind and hail events, collect deposits, and leave before warranty obligations come due. Wind and hail are the largest homeowners-insurance claim type, affecting about 2.8 percent of insured homes per year, roughly one in 36, per the Insurance Information Institute, so a surge of unfamiliar solicitors after a storm is predictable. A contractor with local references and a verifiable Essex County address is reachable for the workmanship warranty that backs the labor.",
@@ -131,7 +131,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of those signs points past an isolated patch toward rebuilding the whole weatherproof assembly, and each ties to a measurable threshold rather than a guess.",
     "sections": [
       {
-        "heading": "How Does a Roof's Age Signal Replacement?",
+        "heading": "A Roof at or Past Its Material Lifespan Signals Replacement",
         "body": [
           "**A roof at or past its material lifespan** is the clearest sign of replacement, because 3-tab asphalt lasts 20 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart and the NRCA. Actual life varies up to 40 percent by climate, install, and maintenance.",
           "**An asphalt roof past 20 years, or 15 on the coast,** favors replacement over continued repair on cost alone. A localized repair can cost 5 to 10 times less than replacement, but only while the roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data; past that window, the surrounding shingles are too brittle for a patch to hold.",
@@ -139,7 +139,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does Damage Cross the Threshold to Replace?",
+        "heading": "Damage Across 25 to 30 Percent of the Roof Crosses the Replacement Threshold",
         "body": [
           "**Damage across more than 25 to 30 percent of the roof area** crosses the contractor-consensus 25 percent rule, the threshold above which a full replacement costs less than continued spot repair, per roofing industry guidance.",
           "**Three or more repairs in two years** signals systemic failure rather than an isolated defect, the contractor-consensus 3-repairs rule that favors replacement, per roofing industry guidance. Repeated leaks at different locations indicate the cover has reached end of life across the field, not at one detail.",
@@ -147,7 +147,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Physical Signs Point to End of Life?",
+        "heading": "Granule Loss and a Bald Shingle Mat Signal End of Life",
         "body": [
           "**Granule loss** indicates asphalt shingles nearing end of life, showing up as sandy grit in the gutters and a bald, exposed mat; granule loss exceeding 30 percent of the surface is the common rule-of-thumb for beyond repair, per GAF.",
           "**A spongy or sagging roof deck** indicates moisture-rotted sheathing or framing, a structural condition that points toward replacement rather than a surface patch, per GAF inspection guidance. The softness underfoot means water has already passed the cover and reached the wood.",
@@ -169,7 +169,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "That whole-job range narrows once material choice and per-square-foot pricing enter the estimate, since asphalt, metal, and slate occupy very different price bands.",
     "sections": [
       {
-        "heading": "What Drives the Whole-Job Cost in New Jersey?",
+        "heading": "A New Jersey Roof Replacement Runs $10,000 to $25,000 for a Typical Home",
         "body": [
           "**The whole-job cost** of a New Jersey replacement runs roughly $10,000 to $25,000 for a typical home, against a national 2025 average near $10,000 to $11,000, per HomeAdvisor and Modernize NJ cost data. New Jersey figures sit higher because of local labor and code.",
           "**The New Jersey premium** sits 10 to 40 percent above national figures, per HomeGuide and Integrity Home Exteriors cost data. Labor accounts for roughly 60 to 70 percent of an asphalt installation, and New Jersey building code is stricter than the national baseline, which lifts both the labor share and the materials a compliant install requires. Replacement also dominates the work being done, accounting for 79.2 percent of US roofing installations in 2025, per Mordor Intelligence.",
@@ -177,7 +177,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does Cost Vary by Roofing Material?",
+        "heading": "Roofing Material Is the Largest Single Cost Variable in New Jersey",
         "body": [
           "**Roofing material** is the largest single cost variable, and New Jersey per-square-foot pricing runs $6.50 to $11.00 for architectural asphalt, $9.00 to $16.00 for metal, and $10 to $30 for slate, per Josten Roofing NJ pricing. The material chosen moves the whole-job total more than any other line.",
           "**Material lifespan** explains those price gaps on a cost-per-year basis: 3-tab asphalt lasts 20 years and architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, the National Slate Association, and the NRCA. A slate or metal roof carries a higher upfront price but spreads it across a far longer service life. Asphalt covers roughly 73 percent of US residential roofs, per 2024 roofing-market data, which keeps it the most commonly quoted material.",
@@ -185,7 +185,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Does a New Roof Pay Back at Resale?",
+        "heading": "A New Asphalt Roof Recoups 60 to 68 Percent of Its Cost at Resale",
         "body": [
           "**A new asphalt roof** recoups roughly 60 to 68 percent of its project cost at resale, and 8 of the top 10 highest-return remodels are exterior replacement projects, per the Zonda Cost vs Value report. The roof carries weight with buyers because it protects everything beneath it.",
           "**Insurance** offsets cost when a covered peril causes the damage, since homeowners policies cover replacement for wind, hail, a falling tree, or fire while excluding normal wear, age, or deferred maintenance, per the Insurance Information Institute. Wind and hail rank as the largest claim type at 2.8 percent of insured homes per year, roughly 1 in 36, with an average claim near $14,747, per the Insurance Information Institute (2019 to 2023 data). Damage from a sudden storm follows a different cost path than an age-driven replacement, and qualifies for [storm damage roof repair](/storm-damage-roof-repair-in-newark-nj) review.",
@@ -207,7 +207,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of those checks is verifiable against a New Jersey statute or a document the contractor can produce, which is what separates an accountable bid from a sales pitch.",
     "sections": [
       {
-        "heading": "What Credentials Should You Verify First?",
+        "heading": "Verify Active NJ Home Improvement Contractor Registration First",
         "body": [
           "**Active New Jersey Home Improvement Contractor registration** is the first credential to confirm, because N.J.S.A. 56:8-136 requires every home-improvement contractor to register with the Division of Consumer Affairs. This is a registration, not a license — New Jersey issues no roofing license.",
           "**The 13VH registration number** identifies a registered contractor, and N.J.S.A. 56:8-144 requires it on the contract and in advertising. A bid that omits the number, or a contractor claiming a \"state roofing license,\" misstates how New Jersey oversight works; the accurate question is whether the registration is active and the number is real.",
@@ -215,7 +215,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Documents Define an Accountable Bid?",
+        "heading": "A Written Contract and Itemized Estimate Define an Accountable Bid",
         "body": [
           "**A written contract and an itemized estimate** define an accountable bid, because N.J.A.C. 13:45A-16.2 requires a signed written contract for any home improvement over $500, stating the total price and a description of the work before any work begins.",
           "**An itemized written estimate** sets the scope, labor, materials, and timeline so two bids compare line by line: the shingle brand and product line, the layers removed, the ice-and-water-shield extent, the ventilation plan, the flashing scope, and cleanup. A tear-off triggers full deck removal under N.J.A.C. 5:23-6.4 when the roof is water-soaked, is wood, slate, or tile, or already carries two or more layers, so the estimate captures deck repair as a line the assessment identifies, per the NJ Uniform Construction Code.",
@@ -223,7 +223,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do Warranties and Assessment Separate Contractors?",
+        "heading": "Two Warranties Separate Contractors: Material and Workmanship",
         "body": [
           "**A roof carries two separate warranties**, and an accountable contractor explains both: the manufacturer material warranty covering factory defects, and the contractor's written workmanship warranty covering the labor. Installing the cover to manufacturer specification preserves the material warranty, per Owens Corning warranty guidance.",
           "**The workmanship warranty** is the contractor's own promise on the installation, in writing, separate from the manufacturer's coverage of the product itself. A contractor who claims a manufacturer certification offers no substitute for these two written documents, so confirm the estimate states both in plain language rather than naming a certification program.",
@@ -246,7 +246,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of these signs marks a roof that has already failed, where every hour of water exposure raises the secondary-damage cost.",
     "sections": [
       {
-        "heading": "Why Is Active Water Entry the First Sign to Act On?",
+        "heading": "Active Water Entry Is the First Emergency Sign to Act On",
         "body": [
           "**Water entering through a ceiling, wall, or light fixture during or after rainfall** signals an active roof breach and ranks as the immediate stabilization priority. Per the EPA, wet materials dried within 24 to 48 hours of a leak in most cases grow no mold, so each hour of exposure raises the secondary-damage cost.",
           "**The stabilization sequence** addresses this by tarping or patching the breach first to stop water entry, then scheduling the permanent repair. An emergency tarp protects a building for roughly 30 days, the design span fiber-reinforced emergency sheeting is rated for, per FEMA and the U.S. Army Corps of Engineers Operation Blue Roof program — enough to bridge the gap until a documented permanent repair.",
@@ -254,7 +254,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Storm Signs Indicate an Exposed Roof Deck?",
+        "heading": "Wind-Stripped Shingles Leave the Roof Deck Exposed to the Next Rainfall",
         "body": [
           "**Shingles or membrane stripped from a roof section after high wind** expose the underlayment and roof deck to the next rainfall. Per NOAA, a thunderstorm is classed as severe at wind gusts of 58 mph or higher — the threshold that strips shingles and tears membrane seams.",
           "**Material wind ratings** explain why this happens in New Jersey storms: 3-tab shingles carry roughly a 60 mph rating while architectural shingles rate up to 130 mph, per ARMA and manufacturer guidance. Nor'easters bring sustained winds up to 60 mph, and New Jersey averages at least one coastal storm per year, most common October through April, per the NJ Office of the Governor and the NOAA New Jersey State Climate Summary.",
@@ -262,7 +262,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Interior and Low-Slope Signs Point to an Emergency?",
+        "heading": "Daylight or a Sagging Roofline From the Attic Signals Structural Compromise",
         "body": [
           "**Daylight or a sagging roofline visible from inside the attic** indicates deck or framing compromise, a structural priority that points toward replacement rather than a patch, per GAF inspection guidance. Temporary protection covers a roof with no more than 50% of the framing damaged; above that threshold the roof carries a structural rebuild rather than a tarp-and-repair scope, per FEMA and the U.S. Army Corps of Engineers Operation Blue Roof program.",
           "**Icicles and thick ice ridges at the eaves** with interior stains near the top-floor exterior walls indicate an ice dam backing meltwater under the shingles. This winter pattern is driven by attic heat escape rather than by gutters or ventilation as the root cause, per University of Minnesota Extension.",
@@ -284,7 +284,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "There is no fixed whole-job emergency price; the cost reflects the failure being stabilized, the area affected, accessibility, and whether the call falls after hours.",
     "sections": [
       {
-        "heading": "What Does Emergency Roof Repair Cost in NJ?",
+        "heading": "Emergency Roof Repair in NJ Costs $200 to $1,000 Plus a 25 to 50 Percent Premium",
         "body": [
           "**Most emergency roof repairs cost $200–$1,000+, plus a 25–50% emergency or after-hours premium**, per Integrity Home Exteriors and HomeAdvisor cost data. The premium reflects the off-schedule dispatch and stabilization work that stops water entry before the permanent repair.",
           "**A standard New Jersey roof-leak repair costs $400–$1,000 before the emergency premium**, roughly 10–15% above the national average, per HomeAdvisor. A flashing reseal or small flashing section runs $200–$500 before the premium, per Modernize flashing cost data, because flashing details are a common entry point for storm-driven leaks.",
@@ -292,14 +292,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Do NJ Emergency Repair Prices Run Above National Figures?",
+        "heading": "NJ Emergency Repair Prices Sit 10 to 40 Percent Above National Figures",
         "body": [
           "**New Jersey emergency repair prices sit 10–40% above national figures**, because labor accounts for roughly 60% of a repair total and New Jersey code is stricter, per Integrity Home Exteriors. The emergency or after-hours premium of 25–50% layers on top of that base, per Integrity Home Exteriors.",
           "**Repair scope on a detached one- and two-family home carries no permit cost**, because repairing or replacing the roof covering counts as ordinary maintenance under N.J.A.C. 5:23-2.7, the NJ Uniform Construction Code, with no construction permit, inspection, or notice to the construction official required. On a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, so an emergency scope separates the stabilization patch from the permitted permanent repair."
         ]
       },
       {
-        "heading": "Why Does Acting Fast Lower the Total Cost?",
+        "heading": "Acting Fast Caps the Secondary-Damage Cost",
         "body": [
           "**Acting fast caps the secondary-damage cost**, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, so every hour of water exposure raises the cost. Stabilization is sequenced ahead of the permanent repair for that reason.",
           "**The damage that drives an emergency is also the most expensive claim type**, because wind and hail rank as the largest homeowners-insurance claim at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, while water damage and freezing average $15,400, per the Insurance Information Institute (Triple-I, 2019–2023). An emergency tarp protects the building for roughly 30 days, the design span fiber-reinforced sheeting is rated for, per the FEMA and U.S. Army Corps of Engineers Operation Blue Roof program, bridging until the permanent repair, and temporary protection covers a roof with no more than 50% of the framing damaged."
@@ -320,7 +320,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of those checks is verifiable before any work begins, which matters most under the time pressure of an active leak.",
     "sections": [
       {
-        "heading": "How Do You Verify a Contractor's NJ Credentials?",
+        "heading": "New Jersey Requires Contractor Registration, Not a Roofing License",
         "body": [
           "**Verify the credential** by confirming active New Jersey Home Improvement Contractor registration, since New Jersey issues no roofing license — the requirement under N.J.S.A. 56:8-136 is a consumer-protection registration, not a competency exam.",
           "**The 13VH registration number** appears on the contract and in advertising under N.J.S.A. 56:8-144, so a missing or invalid number signals an unregistered operator. Registration under N.J.S.A. 56:8-136 carries no dollar threshold, and the NJ Division of Consumer Affairs maintains the database where a homeowner confirms the number is active before scheduling work.",
@@ -328,7 +328,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Should the Contract and Estimate Spell Out?",
+        "heading": "N.J.A.C. 13:45A-16.2 Requires a Signed Written Contract Over $500",
         "body": [
           "**A written contract** is required for any home-improvement work over $500 under N.J.A.C. 13:45A-16.2, signed by both parties with the start and completion dates, the total price, and the contractor's 13VH registration number.",
           "**An itemized written estimate** separates the emergency stabilization scope — the tarp or temporary patch that stops water entry — from the permanent repair scope, rather than a single verbal number quoted under pressure. The reason to insist on a written estimate is grounded in physics: an emergency tarp protects a building for roughly 30 days, the design span fiber-reinforced emergency sheeting is rated for per FEMA and the U.S. Army Corps of Engineers Operation Blue Roof program, which buys time to price the permanent repair without rushing it.",
@@ -336,7 +336,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Do Local Presence and a Documented Assessment Matter?",
+        "heading": "An Established Local Presence Keeps an Emergency Contractor Accountable",
         "body": [
           "**An established local presence** matters because emergency roofing attracts door-to-door, post-storm operators. A contractor with a verifiable physical address and checkable Essex County references stays accountable after the tarp comes off — unlike an out-of-state crew that leaves before warranty obligations come due.",
           "**A documented assessment** inspects the roof and attic to identify the active entry point and confirm whether the framing still carries the covering, with timestamped photographs recorded for the insurance adjuster. That framing check has a threshold: temporary protection covers a roof with no more than 50% of the framing damaged, and above that a roof requires a structural rebuild rather than a tarp-and-repair scope, per FEMA and the Operation Blue Roof program.",
@@ -358,7 +358,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "These triggers fall into two groups: time- and event-based prompts on one side, and visible damage on the other, each grounded in a recognized industry standard.",
     "sections": [
       {
-        "heading": "When Does Roof Age or a Storm Trigger an Inspection?",
+        "heading": "A Roof Past 10 Years and Uninspected for 2 Years Is Past Due for a Check",
         "body": [
           "**A roof past 10 years without an inspection in the prior 2 years** marks the point for a professional check, because most asphalt roofs serve roughly 20 years, per the NRCA. The NRCA recommends an inspection at least twice per year, spring and fall, so a roof that has gone two years unexamined is past due.",
           "**A major weather event** triggers a roof inspection even when no damage shows from the ground, because severe wind and hail loosen fasteners and bruise shingles in ways visible only on the surface. NOAA sets the severe-weather thresholds at 58 mph wind and ¾ inch hail, and the NRCA recommends an added inspection after any major storm. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year — about 1 in 36 — per the Insurance Information Institute, so a documented post-storm inspection with timestamped photographs records damage that is invisible from the ground.",
@@ -366,7 +366,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Visible Signs Point to a Failing Roof?",
+        "heading": "Granule Loss Collecting in Gutters Signals a Failing Roof",
         "body": [
           "**Granule loss with sandy grit collecting in gutters** signals shingles nearing the end of their service life. Granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, and 50% loss cuts remaining life by up to 70%, per GAF, so grit in the gutters is a measurable prompt for an inspection rather than a cosmetic detail.",
           "**Brown or yellow ceiling and wall stains that spread after rainfall** indicate an active roof leak or trapped attic moisture. Per GAF and This Old House inspection guidance, this is the condition a pre-leak moisture inspection detects before the stain appears, using moisture meters on the deck and framing and infrared imaging to find a failing detail early. The roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing and only 5 to 10% in the open shingle field — an estimate attributed to the NRCA — so the inspection starts at the flashing details rather than the field.",
@@ -374,7 +374,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Do Home Sales and Coverage Rules Call for an Inspection?",
+        "heading": "Home Sales Call for an Independent Roof Inspection",
         "body": [
           "**A home purchase or sale** calls for an independent roof inspection that reports roof-covering condition and active-leak indications before the roof becomes a transaction negotiation point. Per the InterNACHI roof inspection standard of practice, the inspector describes the roof-covering type and reports observed indications of active leaks, giving both parties a documented condition record rather than a guess.",
           "**An insurance or manufacturer-warranty requirement** prompts a documented roof inspection, because many commercial policies and manufacturer warranties condition coverage on annual professional inspections, per the Insurance Information Institute. A written condition report — each component rated by urgency, photographs keyed to a roof diagram, the covering type recorded — is the documentation those programs accept."
@@ -395,7 +395,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Roof size, slope, accessibility, and the chosen inspection method set where a given job lands within that band, so an itemized written estimate is the only reliable price for a specific roof.",
     "sections": [
       {
-        "heading": "What Does a Roof Inspection Cost by Method?",
+        "heading": "Roof Inspection Cost Tracks the Method: $75 Visual to $600 Infrared",
         "body": [
           "**Inspection price tracks the method used.** A visual inspection runs $75–$200, with a national average of $248 and a typical range of $125–$377; a drone survey of a steep or large roof runs $150–$400; and an infrared moisture scan runs $400–$600, per HomeAdvisor.",
           "**The visual inspection** is the baseline method and the lowest-cost option, in which an inspector walks or accesses the roof to rate the covering, flashing, drainage, ventilation, sealants, and deck by condition, per HomeAdvisor inspection-cost data. The figure rises with roof size, steeper slope, and difficult access, because each adds time and safety setup to the survey.",
@@ -403,7 +403,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Sets Where a Roof Inspection Lands in the Range?",
+        "heading": "Size, Slope, Accessibility, and Method Set the Inspection Price",
         "body": [
           "**Four factors set the price within the band.** Roof size, slope, accessibility, and the inspection method together place a job within the $75–$600 range, per HomeAdvisor — so the same roof carries a different figure depending on how it is surveyed and how hard it is to reach.",
           "**Roof complexity** raises the figure most. A steep slope, multiple levels, and limited access add time and safety setup, which is why a drone survey at $150–$400 often replaces a walked visual inspection on steep or large roofs, per HomeAdvisor. A commercial low-slope roof, where membrane seams are the failure point an inspection targets, also takes longer to assess than a simple residential slope.",
@@ -411,7 +411,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Is a Roof Inspection Worth the Cost?",
+        "heading": "An Inspection Earns Its Cost by Catching Small Failures Early",
         "body": [
           "**An inspection earns its cost by catching a failing detail while the repair stays minor.** Proper maintenance on a twice-per-year inspection cadence extends asphalt-shingle service life by roughly 25–30%, per the ARMA, and the NRCA recommends an inspection at least twice per year plus one after any major storm.",
           "**Early moisture detection** is where the value concentrates. Sealing the roof deck cuts water intrusion into the home by up to 95% versus an unsealed deck, per the Insurance Institute for Business & Home Safety, so a pre-leak moisture scan that finds a failing detail keeps the resulting repair small instead of waiting for a ceiling stain. Roughly 90–95% of roof leaks originate at flashing rather than the open shingle field — an industry estimate attributed to the NRCA — so a thorough inspection starts at the flashing details.",
@@ -433,7 +433,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of those checks is verifiable against New Jersey statute or a document the contractor can produce, so a homeowner separates an accountable inspector from a sales pitch.",
     "sections": [
       {
-        "heading": "What Registration and Insurance Must a NJ Roof Inspector Hold?",
+        "heading": "A NJ Roof Inspector Must Hold Active HIC Registration",
         "body": [
           "**An active New Jersey Home Improvement Contractor (HIC) registration** is the first verifiable credential, because New Jersey requires every home-improvement business to register with the Division of Consumer Affairs under N.J.S.A. 56:8-136. This is a registration, not a license — New Jersey issues no roofing license.",
           "**The 13VH registration number** confirms the registration is real and current. N.J.S.A. 56:8-144 requires that number to appear on the contract and in advertising, so a homeowner verifies it against the NJ Division of Consumer Affairs database before signing. A missing or expired number signals an unregistered operator.",
@@ -441,14 +441,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Should Appear in the Contract and Estimate?",
+        "heading": "NJ Requires a Written, Signed Contract for Work Over $500",
         "body": [
           "**A written, signed contract** is required for any home-improvement work priced over $500 under N.J.A.C. 13:45A-16.2, and it states the work scope, the total price, and the contractor's 13VH registration number. A verbal-only deal above that figure already breaks New Jersey rules.",
           "**A detailed, itemized written estimate** of any recommended work, rather than a verbal figure, lets a homeowner compare scope and price across bids. The same N.J.A.C. 13:45A-16.2 itemization standard supports putting recommended repairs in writing, so the estimate names the work line by line instead of summarizing it as a single number."
         ]
       },
       {
-        "heading": "How Do You Judge the Assessment Itself?",
+        "heading": "A Thorough Assessment Delivers a Documented Condition Report",
         "body": [
           "**A thorough, documented assessment** produces a written condition report that rates each component by urgency, photographs keyed to a roof diagram, the roof-covering type recorded, and active-leak indications reported, consistent with the InterNACHI roof inspection standard of practice. That documentation is what an insurance carrier or manufacturer-warranty program accepts, per the Insurance Information Institute.",
           "**A thorough inspection starts at the flashing details**, because the roofing industry estimates that roughly 90 to 95 percent of roof leaks originate at flashing and only 5 to 10 percent at the open shingle field, an industry estimate attributed to the NRCA. The InterNACHI standard of practice directs an inspector to describe the roof-covering type and report observed indications of active roof leaks.",
@@ -470,14 +470,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each sign points to deterioration that a recurring schedule of inspection, drainage clearing, and sealant maintenance catches early, before it surfaces as a leak.",
     "sections": [
       {
-        "heading": "What Missed-Inspection Signs Point to a Maintenance Program?",
+        "heading": "A Roof Over 5 Years Without Maintenance Has Missed the NRCA Cadence",
         "body": [
           "**A roof more than 5 years old with no professional maintenance visit** has missed the inspection cadence the NRCA recommends — twice per year, spring and fall, plus an inspection after any severe weather event. The NRCA building-owner guidance sets that twice-yearly, post-storm cadence, and a roof outside it accumulates the small defects a maintenance program is built to catch.",
           "**The recurring schedule itself** pairs each spring and fall visit with the seasonal work a northern New Jersey roof requires. A spring visit clears winter debris and verifies drainage before heavy rainfall, and a fall visit checks sealant integrity before freeze-thaw cycling — the repeated crossing of the 32 degrees Fahrenheit freezing point that stresses sealant and flashing through winter, grounded in NRCA and ARMA seasonal-inspection guidance."
         ]
       },
       {
-        "heading": "Which Drainage and Growth Signs Indicate a Roof Needs Maintenance?",
+        "heading": "Standing Water Past 48 Hours Marks a Drainage Defect",
         "body": [
           "**Water remaining on a low-slope roof more than 48 hours after rainfall** counts as a defect, because a flat roof needs at least 1/4 inch per foot of slope to drain, per NRCA and ARMA. Standing water that holds past that 48-hour mark accelerates membrane deterioration, which is why a maintenance program clears roof drains and scuppers on the spring-and-fall cadence.",
           "**Gutters that overflow in moderate rain** indicate blocked drainage, the condition that gutter clearing twice per year — spring and fall — prevents, per ARMA low-slope drainage guidance. Overflow signals debris obstructing the path water travels off the roof, the same obstruction that lets water pond past the 48-hour defect threshold.",
@@ -485,14 +485,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do Warranty Terms and Roof Penetrations Signal a Maintenance Need?",
+        "heading": "Manufacturer Warranties Lapse Without Documented Maintenance",
         "body": [
           "**A manufacturer warranty requiring documented maintenance** lapses without records, because GAF, Carlisle, and Owens Corning condition coverage on periodic inspection, clear drains, and prompt repair, per manufacturer warranty terms. A maintenance program builds the documented record those terms require at claim, where chronic ponding or neglect counts as a maintenance failure rather than a product defect.",
           "**Roof-mounted HVAC, satellite, or vent penetrations on a commercial roof** create the maintenance-traffic wear and seal failures that flashing maintenance addresses, per ARMA and NRCA membrane guidance. Roof sealant typically fails in 5 to 10 years and flashing is the most common leak source, so a program reseals the laps at chimneys, walls, skylights, and penetrations before the seal opens, per ARMA and GAF technical guidance."
         ]
       },
       {
-        "heading": "Why Does Maintenance Extend How Long a Roof Lasts?",
+        "heading": "Proactive Maintenance Extends Roof Life From 13 to 21 Years",
         "body": [
           "**Proactive maintenance extends a roof's service life measurably**, and the figures come from named industry data rather than estimates. The Firestone/ProLogis 15-year dataset reported by Roofing Contractor magazine found proactively maintained commercial roofs lasting 21 years on average against 13 years for roofs maintained reactively — a roughly 8-year, 62 percent extension.",
           "**The same dataset** tracked life-cycle cost alongside life span, recording proactively maintained roofs at $0.14 per square foot per year against $0.25 for reactively maintained roofs, per Roofing Contractor magazine. On the residential side, ARMA finds proper maintenance extends asphalt shingle lifespan by roughly 25 to 30 percent, and the NRCA finds balanced attic ventilation extends roof life by up to 25 percent."
@@ -513,14 +513,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "The clearest dollar comparison comes not from a plan price but from the life-cycle data that shows what maintenance saves over a roof's service life.",
     "sections": [
       {
-        "heading": "Why Is There No Flat Price for a Roof Maintenance Program?",
+        "heading": "Maintenance Is Priced Per Square Foot Per Year, Not a Flat Fee",
         "body": [
           "**A maintenance program is priced per square foot per year, not as a single flat total**, because the work scales with roof size, roof type, and drainage layout rather than fitting a fixed package. A 1,200-square-foot shingle roof and a 20,000-square-foot membrane roof carry different inspection time, drainage clearing, and sealant work, so a written estimate reflects the specific building.",
           "**The base plan and any extras are itemized separately** in a detailed written estimate, which names the visit cadence, the components inspected, and what the base plan covers versus what is billed as an additional repair. That itemization lets a building owner see exactly what recurring maintenance includes before agreeing to a schedule, rather than reading a single bundled number."
         ]
       },
       {
-        "heading": "What Does Maintenance Cost Over a Roof's Life?",
+        "heading": "Proactive Maintenance Costs $0.14 vs $0.25 Per Square Foot Per Year",
         "body": [
           "**Proactively maintained commercial roofs cost $0.14 per square foot per year against $0.25 for reactively maintained roofs** — a difference of $0.11 per square foot per year, per the Firestone/ProLogis 15-year dataset reported by Roofing Contractor magazine. That same dataset measures life-cycle cost rather than a one-time price, which is why maintenance is compared per square foot over years.",
           "**The life-extension figure carries the larger value**, with proactively maintained roofs lasting 21 years on average versus 13 years for reactively maintained roofs — a roughly 8-year, 62 percent extension, per the Firestone/ProLogis dataset reported by Roofing Contractor magazine. Spreading a roof's installed cost across more years of service lowers its effective annual cost.",
@@ -528,7 +528,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Affects What You Pay?",
+        "heading": "Roof Size, Roof Type, and Drainage Layout Set What You Pay",
         "body": [
           "**Roof size, roof type, and drainage layout drive the per-square-foot figure**, since each changes how much inspection, clearing, and sealant work a roof requires per visit. Low-slope membrane roofs carry different service lives — EPDM 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, per the InterNACHI life-expectancy chart — and different drainage and penetration counts than a sloped shingle roof.",
           "**Visit cadence sets the recurring scope** at twice per year, spring and fall, plus an inspection after any severe weather event, per the National Roofing Contractors Association. The fall visit checks sealant and flashing before winter, because northern New Jersey freeze-thaw cycling stresses those details, and roof sealant typically fails in 5 to 10 years, per ARMA and GAF technical guidance.",
@@ -550,7 +550,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of those checks rests on a New Jersey statute or on the documentation a multi-year program depends on, so a homeowner can confirm every one before signing.",
     "sections": [
       {
-        "heading": "How Do You Verify a Contractor's NJ Registration and Insurance?",
+        "heading": "Active NJ HIC Registration Is the First Contractor Check",
         "body": [
           "**Active New Jersey Home Improvement Contractor registration** is the first check, because the NJ Division of Consumer Affairs requires it of every roofing contractor under N.J.S.A. 56:8-136. This is a registration, not a license — New Jersey issues no roofing license.",
           "**The 13VH registration number** confirms that registration is genuine and current. N.J.S.A. 56:8-144 requires the contractor to display the 13VH number on the contract and on all advertising, so a homeowner verifies the number is present and active before any program begins.",
@@ -558,7 +558,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Documentation Should the Contract and Estimate Include?",
+        "heading": "A Written Contract With a Three-Day Rescission Right Is Required Over $500",
         "body": [
           "**A written contract** is required for any home-improvement work over $500 under N.J.A.C. 13:45A-16.2, and a maintenance program almost always crosses that threshold. The contract states the total price, the start and finish dates, and the three-day right of rescission that New Jersey home-improvement contracts carry under the same rule.",
           "**An itemized written estimate** separates an accountable program from a vague verbal promise, because it names the visit cadence, the components inspected, and what the base plan includes versus what is billed as an extra. A quality program follows the inspection cadence the NRCA recommends — twice per year, spring and fall, plus an inspection after any severe weather event — and clears drainage, maintains sealant and flashing, and treats moss and algae with a 50:50 chlorine-bleach-and-water wash at low pressure, per ARMA cleaning guidance.",
@@ -566,7 +566,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Do Local References and an Established Presence Matter?",
+        "heading": "Local References and an Established Essex County Presence Matter",
         "body": [
           "**Local references and an established Essex County presence** matter because a maintenance program runs for years, and a contractor likely to remain in business carries the program through to the life extension it promises. The Firestone/ProLogis 15-year dataset reported by Roofing Contractor magazine found proactive maintenance extending commercial roof life to 21 years against 13 years under reactive maintenance, a roughly 8-year, 62% extension that only a sustained relationship delivers.",
           "**A consistent, documented program** is what turns that life extension into reality rather than a one-time visit. ARMA finds proper maintenance extends asphalt shingle lifespan by roughly 25 to 30%, and the NRCA finds balanced attic ventilation extends roof life by up to 25%, results that depend on the same contractor returning each spring and fall and recording each visit in a written condition report."
@@ -587,7 +587,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of these signs points to water reaching the interior or to a failed roof detail, and the entry point usually sits feet away from where the water shows.",
     "sections": [
       {
-        "heading": "What Interior Signs Point to a Roof Leak?",
+        "heading": "Ceiling Stains That Spread After Rain Signal an Active Leak",
         "body": [
           "**Brown or yellow ceiling and wall stains** that spread or darken after rainfall are the classic first sign of an active roof leak or trapped attic moisture, per GAF and This Old House inspection guidance. Active dripping from a ceiling, a light fixture, or a vent during rain confirms water has reached the interior finish.",
           "**The entry point sits feet away from the visible drip**, because water enters at one roof detail and travels along rafters and sheathing before it shows as an interior stain, per Integrity Home Exteriors repair-process guidance. That travel distance is why locating the source means tracing the moisture path rather than assuming the leak sits directly above the stain.",
@@ -595,7 +595,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Does Failed Flashing Cause Most Leaks?",
+        "heading": "Failed Flashing Causes Roughly 90–95% of Roof Leaks",
         "body": [
           "**Rusted, lifted, or bent flashing** at chimneys, walls, skylights, and valleys is the most common leak source, because flashing seals the roof transitions that roughly 90–95% of leaks trace back to — an industry estimate attributed to the NRCA. The sheet metal corrodes and the sealant laps lift, opening a path for water.",
           "**A flashing sealant lap fails in roughly 5–10 years**, per roofing trade guidance, which is why a flashing detail that sealed cleanly when the roof was new starts admitting water well before the shingles themselves wear out. A flashing leak often traces to a deteriorated lap rather than a missing component.",
@@ -603,7 +603,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Tell a Leak From Attic Condensation?",
+        "heading": "Stains Without Recent Rain Point to Attic Condensation, Not a Leak",
         "body": [
           "**Ceiling stains that appear without recent rain** indicate attic condensation rather than a roof leak, because warm interior air condenses on a cold roof deck under inadequate ventilation, per NRCA and ARMA. The fix addresses airflow, not a roof penetration.",
           "**Balanced ventilation** is the measure that separates the two: NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, balanced about 50% intake and 50% exhaust, per NRCA and ARMA. An attic short of that ratio traps moisture that mimics a leak on the ceiling below.",
@@ -625,7 +625,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Leak repair has no single whole-job total because the price tracks the source detail, the severity, and the roof type, so the figures sit in per-source ranges rather than one fixed number.",
     "sections": [
       {
-        "heading": "What Does a Roof Leak Repair Cost in New Jersey?",
+        "heading": "A Typical New Jersey Roof Leak Repair Runs $400 to $1,000",
         "body": [
           "**A typical New Jersey roof-leak repair runs $400 to $1,000, about 10 to 15 percent above the national average**, with a flashing reseal at $200 to $500, per HomeAdvisor and Modernize cost data. The price tracks the source detail rather than a flat fee, because a leak diagnosis isolates one failed component before sealing it.",
           "**A minor leak repair costs $150 to $400**, per Modernize and industry cost data, and covers a single localized source caught early. A valley leak repair runs $400 to $1,000 or more, per HomeAdvisor, because the work removes and reinstalls the surrounding shingles to rebuild the transition where water concentrates rather than resealing a single joint.",
@@ -633,7 +633,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Is There No Single Whole-Job Total for Leak Repair?",
+        "heading": "Leak Repair Cost Varies by Source, Severity, and Roof Type",
         "body": [
           "**Leak repair carries no fixed whole-job total because the cost varies by source, severity, and roof type**, so most leak repairs land in a $150 to $1,000-plus range rather than one number, per HomeAdvisor, Modernize, and Angi cost data. A flashing reseal, a pipe-boot replacement, a valley rebuild, and a membrane seam repair each price on their own scope.",
           "**The diagnosis itself drives the cost**, because roughly 90 to 95 percent of roof leaks originate at flashing details and only 5 to 10 percent at the open shingle field, an industry estimate attributed to the NRCA. Water enters at one detail and travels along rafters and sheathing before showing as an interior stain, so the entry point sits feet away from the visible drip, per Integrity Home Exteriors repair-process guidance; pricing a repair before tracing the source guesses at the scope.",
@@ -641,7 +641,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does Delaying a Leak Repair Cost?",
+        "heading": "Delay Turns a Single-Detail Repair Into Framing and Interior Work",
         "body": [
           "**Delay raises the cost because prolonged intrusion saturates insulation, grows mold, and rots the roof deck**, turning a single-detail repair into framing and interior work, per GAF inspection guidance. A leak that stops at the cover stays a repair; one that reaches the structure crosses into replacement territory.",
           "**Water damage ranks among the most expensive household claims.** Water damage and freezing affect roughly 1.5 percent of insured homes per year, about 1 in 67, with an average claim near $15,400, per the Insurance Information Institute (Triple-I, 2019 through 2023). That figure measures the damage water causes once it spreads, not a leak repair, which underscores why a $150 to $400 minor repair caught early costs less than the interior restoration a delayed leak triggers, per Modernize cost data.",
@@ -663,7 +663,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of those checks is verifiable before any work begins, and together they separate an accountable contractor from a guesser who proposes ripping off roof sections without diagnosing the source.",
     "sections": [
       {
-        "heading": "How Do You Verify a NJ Roof Leak Repair Contractor's Registration and Insurance?",
+        "heading": "Verify Active NJ HIC Registration Under N.J.S.A. 56:8-136 and Insurance First",
         "body": [
           "**Active NJ Home Improvement Contractor registration and verified insurance** are the two checks that come first. New Jersey requires every home-improvement contractor to register with the Division of Consumer Affairs under N.J.S.A. 56:8-136 — a registration, not a license, because the state issues no roofing license.",
           "**The 13VH registration number** confirms that registration. A registered NJ HIC discloses the 13VH number on the contract and in advertising under N.J.S.A. 56:8-144, so ask for it and confirm the registration is current; a missing or invalid number signals an unregistered operator.",
@@ -671,7 +671,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Should the Contract and Written Estimate Document?",
+        "heading": "N.J.A.C. 13:45A-16.2 Requires a Written Contract for Work Over $500",
         "body": [
           "**A written contract and an itemized written estimate** turn a verbal promise into an accountable agreement. N.J.A.C. 13:45A-16.2 requires a written contract for any home-improvement work over $500, with start and finish dates, the total price, and the scope of work.",
           "**The written estimate** documents the source detail before any work begins. Per Integrity Home Exteriors documentation guidance, an itemized estimate identifies the failed detail — ideally with photographs — and sets labor, materials, and timeline, so you compare equivalent scopes rather than a one-line price.",
@@ -679,7 +679,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Does a Documented Leak Assessment Matter?",
+        "heading": "A Documented Leak Assessment Traces the Moisture Path to the Root Cause",
         "body": [
           "**A thorough documented leak assessment** traces the moisture path to the root-cause detail rather than the interior drip, because water enters at one roof detail and travels along rafters and sheathing before it shows as a stain. Per Integrity Home Exteriors, the entry point typically sits feet away from the visible drip.",
           "**The diagnosis starts at the flashing details**, where an industry estimate attributed to the NRCA traces roughly 90 to 95 percent of roof leaks, leaving only 5 to 10 percent in the open shingle field. A systematic interior and attic inspection, an exterior diagnosis, and controlled water testing reproduce a wind-driven or intermittent leak that a dry inspection misses, per Integrity Home Exteriors diagnostic guidance.",
@@ -702,14 +702,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each sign points to a storm-opened detail that lets water past the covering, and the pattern of damage separates a storm claim from ordinary wear.",
     "sections": [
       {
-        "heading": "What Wind-Damage Signs Show on the Roof?",
+        "heading": "Missing Shingles at Edges, Rakes, and Corners Signal Wind Damage",
         "body": [
           "**Missing or wind-lifted shingles after high winds** expose the underlayment and the roof deck, and uplift concentrates at roof edges, rakes, and corners where wind damage starts, per IBHS wind research. That edge-first pattern is the clearest field signature of wind damage.",
           "**The age of the roof** explains why edges fail first: the share of partially unsealed field shingles rises from under 1% on roofs 0–6 years old to over 79% on roofs 14–20 years old, per the IBHS in-situ shingle study. Once a tab unseals, wind works underneath it and lifts the course, so the high-suction zones at corners and rakes peel before the protected field does, consistent with ASCE 7 component-and-cladding wind coefficients that place the strongest uplift at those perimeter zones."
         ]
       },
       {
-        "heading": "How Do You Recognize Hail Damage?",
+        "heading": "Circular Bruises and Granule Loss in a Random Pattern Indicate Hail",
         "body": [
           "**Circular bruises and granule loss on the shingle surface** indicate hail impact, because functional hail damage begins at roughly 1.0 inch on aged 3-tab shingles and 1.25 inches on most asphalt products, per an American Meteorological Society hail-threshold study. Hail leaves a random pattern, distinct from the directional marks of wind-borne debris.",
           "**Dents on metal gutters, downspouts, and vent caps** mark hail strikes on the softer metal accessories, the field benchmark for hail being roughly 8 functional impacts per 100 square feet, per IBHS insurer-protocol guidance. These metal dents often read more clearly than the shingle bruises and help confirm the storm hit the roof.",
@@ -717,14 +717,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does a Storm Open a Leak Path?",
+        "heading": "New Ceiling Stains That Grow After Rain Confirm a Storm-Opened Leak",
         "body": [
           "**New ceiling or wall stains appearing after a storm** that spread or darken after rainfall indicate an active leak through a storm-opened detail, per GAF and This Old House inspection guidance. A stain that grows with each rain confirms water is still entering, not a dried historic mark.",
           "**Rusted, lifted, or bent flashing displaced from chimneys, walls, skylights, and valleys** ranks as the most common leak source, because flashing seals the transitions that roughly 90–95% of leaks trace back to, an industry estimate attributed to the NRCA. Storm-displaced flashing is a priority repair, since the metal at those transitions does the sealing the shingle field cannot."
         ]
       },
       {
-        "heading": "How Should You Inspect for Storm Damage Safely?",
+        "heading": "Inspect Storm Damage From the Ground and Attic, Not the Roof Surface",
         "body": [
           "**A sound storm assessment proceeds from the ground and the attic, not the roof surface**, because storm-weakened materials and wet surfaces are fall hazards, per OSHA fall-protection guidance. Binoculars from the ground and an attic check for daylight or wet decking catch most signs without a ladder.",
           "**Separating storm-caused damage from pre-existing wear** governs whether a claim is covered, per Insurance Information Institute claims guidance. Hail leaves random-pattern circular bruises, wind damage concentrates at edges, rakes, and corners, and debris leaves directional punctures, while uniform deterioration across the whole roof reads as wear rather than a storm. New Jersey averages roughly 25–30 thunderstorms a year that produce summer hail and at least one coastal storm annually, with nor'easters striking most often October through April, per NOAA."
@@ -745,7 +745,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Storm-damage roof repair is scoped per affected component, so the cost tracks the type and extent of the damage rather than the size of the whole roof.",
     "sections": [
       {
-        "heading": "What Does Storm Damage Roof Repair Cost in New Jersey?",
+        "heading": "Most NJ Storm Damage Roof Repairs Run $400 to $2,000",
         "body": [
           "**Most storm-damage roof repairs run roughly $400 to $2,000**, per HomeAdvisor and Angi cost data, while a flashing reseal or a small flashing section costs $200 to $500, per Modernize. There is no single whole-roof total, because the work is priced per repair.",
           "**Hail-damage repair** runs $3,000 to $12,000 by hail size and the affected roof area, per Angi storm-damage cost data. Damage above 25 to 30% of the roof area shifts the scope from a targeted repair to full replacement under the contractor-consensus 25% rule, and a second 50% rule favors replacement when one repair approaches half of replacement cost.",
@@ -753,14 +753,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Is Storm Damage Priced per Repair Rather Than as One Total?",
+        "heading": "Storm Damage Is Priced per Failed Component, Not as One Total",
         "body": [
           "**Storm-damage cost depends on the type, pattern, and extent of the damage**, so a contractor prices the failed components rather than the whole roof. Wind concentrates uplift at roof edges, rakes, and corners where damage starts, hail leaves random-pattern circular bruises, and debris leaves directional punctures, per IBHS wind and hail research.",
           "**The repair-versus-replacement line** turns on how much of the roof a storm opened. Localized damage of a few shingles or a single puncture takes a targeted repair, while widespread damage above 25 to 30% of the roof area takes full replacement under the contractor-consensus 25% rule. Wind and hail rank as the largest homeowners-insurance claim type at 40.7% of homeowners claims, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023)."
         ]
       },
       {
-        "heading": "How Does an Insurance Claim Affect Storm Damage Repair Cost?",
+        "heading": "An Accepted Insurance Claim Leaves the Homeowner the Deductible",
         "body": [
           "**An insurance claim shifts most of the repair cost to the policy** once the carrier accepts the storm as the cause, leaving the homeowner the deductible, which varies by policy. Separating storm-caused damage from pre-existing wear governs that coverage, per Insurance Information Institute claims guidance.",
           "**Thorough independent documentation** is what an insurer weighs alongside the adjuster's evaluation — timestamped photographs, measurements, and a written assessment that ties the damage pattern to a specific storm. This is the documentation a roofing contractor provides to the adjuster, and it resolves storm-versus-wear disputes through evidence rather than opinion, per Insurance Information Institute claims guidance.",
@@ -782,7 +782,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of those checks is verifiable before any deposit, and together they separate an accountable New Jersey contractor from an out-of-state storm chaser.",
     "sections": [
       {
-        "heading": "What New Jersey Credentials Should a Storm-Damage Contractor Hold?",
+        "heading": "Active NJ HIC Registration and the 13VH Number Come First",
         "body": [
           "**Active New Jersey Home Improvement Contractor registration** is the first credential to verify, required of every contractor doing home-improvement work in the state under N.J.S.A. 56:8-136. New Jersey issues no roofing license, so this is a registration rather than a license. The 13VH registration number appears on every contract and advertisement under N.J.S.A. 56:8-144, which gives a homeowner a number to confirm.",
           "**Commercial general liability insurance of at least $500,000 per occurrence** is required of a registered New Jersey Home Improvement Contractor under N.J.S.A. 56:8-142. Verify it with a Certificate of Insurance obtained directly from the carrier, not a copy supplied by the contractor that can be expired or altered. The certificate lists the policy number, coverage limit, and effective dates, so confirming the dates remain current closes the most common gap between claimed and actual coverage.",
@@ -790,7 +790,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Should the Estimate and Storm Assessment Be Documented?",
+        "heading": "An Itemized Written Estimate Documents the Scope for the Insurance Adjuster",
         "body": [
           "**A detailed, itemized written estimate** sets the scope, labor, materials, and timeline — the same documentation a roofing contractor provides to the insurance adjuster. A line-item estimate naming the failed component and the repair describes a different job than a one-line quote, and it gives the adjuster a basis to evaluate.",
           "**A thorough documented storm assessment** uses timestamped photographs, measurements, and a written scope that separates storm-caused damage from pre-existing wear, the distinction that governs insurance coverage, per Insurance Information Institute claims guidance. Hail leaves random-pattern circular bruises with granule loss, wind damage concentrates at roof edges, rakes, and corners where uplift peaks, and debris impact leaves directional damage, per IBHS wind and hail research, while uniform deterioration reads as wear.",
@@ -798,7 +798,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Does an Established Local Presence Matter After a Storm?",
+        "heading": "Established Local Presence Separates Accountable Contractors From Storm Chasers",
         "body": [
           "**Established local presence and verifiable local references** distinguish an accountable contractor from an out-of-state storm chaser. A physical location in or near Essex County and a track record in the New Jersey market keep a contractor reachable when a warranty issue arises, the opposite of a crew that leaves the state once a storm passes.",
           "**Honest insurance-claim conduct** is the final screen. A contractor provides documentation and meets the adjuster on-site, but does not ask a homeowner to sign an Assignment of Benefits that transfers the claim rights, does not promise to waive the deductible, which is insurance fraud in New Jersey, and does not inflate the damage claim. Wind and hail rank as the largest homeowners-insurance claim type at 40.7% of homeowners claims, per the Insurance Information Institute, so these tactics surface most after a storm."
@@ -819,7 +819,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "These impacts are corroborated by collateral dents on gutters, air-conditioning units, and vehicles, and by neighboring roofs filing claims after the same storm.",
     "sections": [
       {
-        "heading": "What Functional Signs Confirm Hail Damage to a Roof?",
+        "heading": "A Circular Bruise or Soft Spot Confirms Functional Hail Damage",
         "body": [
           "**The defining functional sign of hail damage is a circular bruise or soft spot felt when a shingle is pressed**, which indicates mat fracture beneath intact granules, per IBHS hail-assessment guidance. A bruise shortens the shingle's service life even where the surface still looks whole.",
           "**Random-pattern granule loss exposing the black asphalt mat** indicates hail scuffed away the protective granule layer, which the American Meteorological Society identifies as the onset of lost service life on impacted shingles. The random scatter distinguishes hail loss from the linear granule wear of normal aging.",
@@ -827,20 +827,20 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do Collateral Dents Corroborate Hail Damage?",
+        "heading": "Dented Gutters, Vent Caps, and Flashing Corroborate Hail Damage",
         "body": [
           "**Dented metal gutters, downspouts, vent caps, and flashing** indicate hailstones large enough to damage the roof field, because metal denting corroborates the hail size that struck the shingles, per IBHS hail-assessment guidance. These soft-metal surfaces show damage that the shingle field can hide from the ground.",
           "**Dents on air-conditioning condenser fins, vehicles, and outdoor equipment** indicate hail of damaging size and serve as a corroborating indicator for a roof inspection, per IBHS guidance. **Neighboring roofs filing hail claims after the same storm** indicate a hail swath crossed the area, because hail damage from one storm concentrates within a defined path, per IBHS hail research."
         ]
       },
       {
-        "heading": "What Hail Size Causes Roof Damage in New Jersey?",
+        "heading": "Hail Roof Damage Begins Around 1.0 Inch on Aged 3-Tab Shingles",
         "body": [
           "**Roof damage begins above the severe-hail warning threshold of 0.75 inch diameter** set by the National Oceanic and Atmospheric Administration, starting around 1.0 inch on aged 3-tab shingles and 1.25 inch on most common shingles. The American Meteorological Society notes 2.0-inch hail damages all tested roofing. The Insurance Institute for Business and Home Safety adds that hail damage tracks kinetic energy — hail size combined with wind speed — so a 0.75-inch stone in high wind outdamages a 1.0-inch stone in calm air."
         ]
       },
       {
-        "heading": "When Should a Roof Be Inspected for Hail Damage?",
+        "heading": "A Hail Inspection Follows Any Major Storm Plus the NRCA's Twice-Yearly Cadence",
         "body": [
           "**A roof is inspected after any major storm, including a hailstorm**, in addition to the twice-per-year spring and fall inspections the NRCA recommends. Prompt inspection documents the impacts before later weather alters the evidence, which supports attributing the damage to a specific storm for an insurance claim, per the NRCA inspection cadence and the Insurance Information Institute claim-documentation rationale.",
           "**The test-square method is the standard hail-inspection procedure** adjusters and engineers use, per IBHS hail-assessment guidance: a 10-by-10-foot square — one roofing square of 100 square feet — is marked on each slope, and every impact within it is counted and classified as functional or cosmetic. Close-up photographs with measurement references and a roof diagram complete the documentation that supports a claim."
@@ -861,7 +861,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Cost depends on impact density and whether the damage is functional or cosmetic, so the honest answer is a sourced range plus a free written estimate, not a flat figure.",
     "sections": [
       {
-        "heading": "What Does Hail Damage Roof Repair Cost by Tier in NJ?",
+        "heading": "Hail Repair Costs Price in Tiers, From $500 to $3,500",
         "body": [
           "**Hail repairs price in tiers, not as one whole-job number.** Minor repair of replaced shingles and sealant runs $500–$1,500, per HomeAdvisor and Angi 2025–2026 cost data. Moderate repair of damaged flashing or multiple roof sections runs $1,500–$3,500, per This Old House and Angi cost data.",
           "**Severe hail damage that punctures the underlayment is not a like-for-like repair.** The $4,000–$12,000 band, per HomeAdvisor and Angi cost data, covers partial reroofing priced per square rather than spot repair, because once impacts concentrate across a slope the work crosses into replacement. Replacing a few hail-damaged shingles starts at about $150, and one roofing square of 100 square feet costs $500–$1,500, per HomeAdvisor cost data.",
@@ -869,7 +869,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does Insurance Affect What You Pay for Hail Damage?",
+        "heading": "Most Policies Cover Functional Hail Damage but May Exclude Cosmetic Marks",
         "body": [
           "**Most hail repairs are insurance-covered, which reshapes what a homeowner pays.** Most homeowners policies cover functional hail damage that exposes the asphalt mat, while some exclude cosmetic-only surface marking, per IBHS hail-assessment guidance and the Insurance Information Institute.",
           "**Wind and hail are the largest homeowners-insurance claim type, useful as context rather than a repair quote.** They affect 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). That average reflects whole claims including replacements, so it is not a price for a single repair.",
@@ -877,7 +877,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Does Upgrading to Impact-Resistant Shingles Change the Cost?",
+        "heading": "UL 2218 Class 4 Shingles Cost More but Can Lower the Insurance Premium",
         "body": [
           "**Upgrading to UL 2218 Class 4 impact-resistant shingles raises material cost but can lower the insurance premium.** Class 4 shingles add about 10–20% to standard shingle cost and qualify for homeowners-insurance premium discounts of roughly 10–35%, per RoofVista and Texas Department of Insurance data.",
           "**Class 4 is the most resistant of the four UL 2218 impact classes.** IBHS and the Federal Alliance for Safe Homes recommend Class 3 or 4 shingles in hail-exposed areas, per UL 2218, IBHS, and FLASH guidance. New Jersey records roughly 25–30 thunderstorms per year and sits outside the high-frequency hail region of the Plains, per NOAA climate data, so an Essex County hail event concentrates damage on aged asphalt shingles that have lost impact resilience, where the upgrade matters most when the covering is being replaced anyway."
@@ -898,7 +898,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of these checks is independently verifiable, which is what separates an accountable local contractor from a storm-chaser who appears after a hail swath and leaves before warranty issues surface.",
     "sections": [
       {
-        "heading": "Which Credentials Do You Verify First?",
+        "heading": "NJ HIC Registration and a Certificate of Insurance Come First",
         "body": [
           "**Active New Jersey Home Improvement Contractor registration and a carrier-issued Certificate of Insurance** are the two credentials to verify before anything else. New Jersey requires every home-improvement contractor to register under N.J.S.A. 56:8-136, and this is a registration, not a license, because the state issues no roofing license.",
           "**The 13VH registration number** confirms the registration is real and current. N.J.S.A. 56:8-144 requires that 13VH number to appear on the contract and in advertising, so a missing or invalid number signals an unregistered operator. The registration carries no dollar threshold to obtain, while a separate rule, N.J.A.C. 13:45A-16.2, requires a written contract once a job exceeds $500.",
@@ -906,7 +906,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Documentation Separates a Thorough Hail Assessment?",
+        "heading": "Test Squares, Photos, and a Roof Diagram Define a Thorough Hail Assessment",
         "body": [
           "**A thorough hail assessment is the documentation rigor insurers and independent engineers recognize**, not a certification claim. It uses a test-square method, per-square impact counts, close-up photographs with measurement references, and a roof diagram, per IBHS hail-assessment guidance and the Insurance Information Institute.",
           "**The test-square method** marks a 10-by-10-foot square, one roofing square of 100 square feet, on each roof slope, then counts and classifies every impact within it. The Insurance Institute for Business and Home Safety identifies this as the standard hail-inspection procedure adjusters and engineers use, classifying each impact as functional damage that exposes the asphalt mat or cosmetic damage that only marks the surface.",
@@ -915,7 +915,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Does Local Presence Matter After a Hailstorm?",
+        "heading": "Local Essex County References Guard Against Out-of-Area Storm Chasers",
         "body": [
           "**Local references and an established Essex County presence guard against out-of-area storm-chasers** who canvass a neighborhood after a hail swath, collect deposits, and leave before warranty obligations come due. Hail damage from one storm concentrates within a defined path, per IBHS hail research, which is exactly when those crews appear.",
           "**A registered contractor's role on the claim is to document, not to adjust.** A registered New Jersey Home Improvement Contractor records the test-square findings and meets the insurance adjuster on-site to walk the documentation, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, with an average claim of $14,747, per the Insurance Information Institute. A registered contractor is not a public adjuster, does not promise to handle the claim, and does not waive a deductible.",
@@ -937,21 +937,21 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of these symptoms traces to where wind separates from the roof and generates its highest suction, so the perimeter tells you the most about wind damage.",
     "sections": [
       {
-        "heading": "Why Do Wind-Damage Signs Show Up First at the Corners, Rakes, and Edges?",
+        "heading": "Wind Suction Hits Corners, Rakes, and Edges 2 to 3 Times Harder",
         "body": [
           "**Wind-damage signs concentrate at the corners, rakes, and edges** because wind separating from the roof generates suction there roughly 2 to 3 times the pressure on the open field, so those high-suction zones fail first. Component-and-cladding pressure coefficients run well above the field zone, per ASCE 7 and general wind-engineering principles.",
           "**Lifted, creased, or torn shingle tabs** along the perimeter are the earliest visible sign, and ridge and hip cap shingles peeled or missing from the highest roof lines point to the same uplift at the ridge and rake corners. The ridge and rake corners carry the highest wind suction on the roof, per ASCE 7 and general wind-engineering principles, which is why a wind-damage inspection reads those edges before the field."
         ]
       },
       {
-        "heading": "What Does a Broken Shingle Seal Look Like?",
+        "heading": "A Broken Shingle Seal Lifts by Hand Yet Looks Intact From the Ground",
         "body": [
           "**A wind-lifted shingle that resettled with a broken seal** shows no granule scuffing yet lifts by hand, and that is the most overlooked wind-damage sign because the tab looks intact from the ground. The seal strength between shingle courses is the single most important factor in a shingle's resistance to high wind, per IBHS wind-uplift research, so once the seal breaks the tab no longer resists the next gust.",
           "**Field unsealing on a roof 14 to 20 years old** raises blow-off risk across the whole roof, not just the perimeter. The share of partially unsealed shingles rises from under 1% at 0 to 6 years to over 79% at 14 to 20 years, per the IBHS field-aging study, so an aged roof loses tabs at lower wind speeds than its original product rating. A documented assessment tests seals by hand across the field rather than judging the roof by appearance alone."
         ]
       },
       {
-        "heading": "Which Wind-Damage Signs Point to a Leak?",
+        "heading": "Lifted or Bent Flashing Is the Wind-Damage Sign Most Likely to Leak",
         "body": [
           "**Rusted, lifted, or bent flashing** at edges, dormers, and chimneys is the wind-damage sign most likely to leak, because flashing seals the roof transitions that most leaks trace back to. Roughly 90 to 95% of roof leaks trace to flashing and roof transitions, an industry estimate commonly attributed to the NRCA, so displaced flashing after a windstorm warrants a close look.",
           "**Low-slope membrane bubbling, ballooning, or pulling from the deck** signals wind negative pressure loosening the attachment, where EPDM tends to fail at the seams and TPO at the welded seams, per the InterNACHI life-expectancy chart and trade failure-mode guidance. Asphalt grit, torn tabs, or debris in the yard after a 58 mph gust indicates severe-storm wind loading, the National Weather Service severe-thunderstorm threshold, per NOAA — a prompt to inspect even when the roof looks unchanged from the ground."
@@ -972,7 +972,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Wind separates the covering in different ways — lifted shingles, displaced flashing, loosened membrane — and each repair carries its own range rather than one combined figure.",
     "sections": [
       {
-        "heading": "What Does Each Wind Repair Cost in NJ?",
+        "heading": "NJ Wind Repairs Are Priced Per Repair, From $150 to $500 Each",
         "body": [
           "**Each wind repair carries its own range**, because wind damage is priced per repair rather than as one whole-job total. Replacing a few blown-off or creased shingles runs $150–$500, per Reliable Roofing Restoration and Modernize cost data, and resealing lifted flashing or a small flashing section runs $200–$500, per Modernize flashing cost data.",
           "**Low-slope membrane repair** prices separately from shingle work, because wind negative pressure loosens an EPDM or TPO membrane at its seams. A low-slope membrane seam re-weld runs $200–$400 and a section replacement $500–$1,000, per Modernize and WeatherShield cost data. Across these repair types, most wind repairs span $150–$2,000+, a range built from per-repair figures rather than a single combined job price.",
@@ -980,14 +980,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Do New Jersey Wind Repairs Cost More Than National Figures?",
+        "heading": "New Jersey Wind Repairs Run 10–40% Above National Figures",
         "body": [
           "**New Jersey wind repairs sit 10–40% above national figures**, because labor accounts for roughly 60% of a repair total and New Jersey code runs stricter, per Integrity Home Exteriors. That modifier applies to the per-repair ranges above rather than adding a separate line item.",
           "**An emergency or after-hours repair** adds 25–50% to the standard rate, per Integrity Home Exteriors, because stabilizing an exposed roof outside business hours carries a premium. That surcharge layers onto the same per-repair figures and applies only when water entry forces immediate work rather than a scheduled visit."
         ]
       },
       {
-        "heading": "Does Insurance Cover Wind Damage in New Jersey?",
+        "heading": "NJ Homeowners Policies Cover Wind as a Named Peril",
         "body": [
           "**A standard New Jersey homeowners policy covers wind as a named peril**, with the all-perils deductible applying to a wind claim, per the New Jersey Department of Banking and Insurance. Some policies add a separate named-storm or hurricane deductible set as a percentage of the dwelling limit, generally up to 5%.",
           "**The policy declarations page** states which deductible applies, so the out-of-pocket figure varies by policy rather than by a fixed county norm. As a benchmark, wind and hail rank as the largest homeowners-insurance claim type at about 2.8% of insured homes per year, with an average claim of $14,747, per the Insurance Information Institute, 2019–2023. A documented assessment with timestamped photographs records the wind-affected zones for the adjuster."
@@ -1008,7 +1008,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of those checks comes from New Jersey statute, so a homeowner can confirm every one before signing rather than relying on a contractor's word.",
     "sections": [
       {
-        "heading": "What New Jersey Credentials Should a Wind Damage Contractor Hold?",
+        "heading": "NJ HIC Registration and $500,000 Liability Coverage Are the Required Credentials",
         "body": [
           "**Active New Jersey Home Improvement Contractor registration and at least $500,000 commercial general liability coverage** are the two non-negotiable credentials. New Jersey requires every home-improvement and roofing contractor to register under N.J.S.A. 56:8-136; the state issues no roofing license, so this is a registration, not a license.",
           "**The 13VH registration number** appears on the written contract and on advertising under N.J.S.A. 56:8-144, and a homeowner can confirm it is active in the NJ Division of Consumer Affairs Home Improvement Contractor registry. A number that is missing, expired, or absent from the registry signals an unregistered operator.",
@@ -1016,7 +1016,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Confirm the Contract and the Assessment?",
+        "heading": "A Written Contract Over $500 and an Itemized Estimate Protect the Homeowner",
         "body": [
           "**A written contract over $500 and an itemized written estimate** are the paperwork that protects the homeowner. N.J.A.C. 13:45A-16.2 requires a signed written contract for any home-improvement work exceeding $500, stating the total price and the start and end dates.",
           "**The itemized written estimate** states scope, labor, materials, and timeline as part of that contract, so a homeowner compares equivalent specifications rather than a one-line total. An estimate that names the specific repair — shingle replacement, flashing reseal, or membrane refastening — describes a different job than a vague \"repair roof\" quote at a lower number.",
@@ -1024,7 +1024,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Do Local Presence and Honest Material Ratings Matter?",
+        "heading": "Local Presence and Honest Material Ratings Separate Contractors From Storm Chasers",
         "body": [
           "**An established Essex County presence and accurate material ratings** separate an accountable contractor from a storm chaser. A contractor who serves the area year-round, with local references, is reachable when a workmanship question arises, unlike an out-of-area crew that appears only after a regional wind event.",
           "**Honest wind ratings** matter because no New Jersey code mandates a 110 mph minimum shingle rating; 3-tab asphalt shingles carry a wind rating near 60 mph, and architectural shingles reach a 130 mph warranted rating with 6-nail installation, per ARMA, with wind ratings classified under ASTM D3161 and D7158. A straightforward contractor frames a higher-rated product as better wind performance, not as meeting an invented code floor.",
@@ -1046,7 +1046,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of these signs marks a growth that holds moisture against the roof and accelerates wear until it is cleared with a low-pressure chemical wash.",
     "sections": [
       {
-        "heading": "What Biological Growth Signals a Roof Needs Cleaning?",
+        "heading": "Moss, Gloeocapsa magma Algae, and Lichen Signal a Roof Needs Cleaning",
         "body": [
           "**Three growths signal a roof needs cleaning: moss, Gloeocapsa magma algae, and lichen.** Thick green moss gathers along shingle edges, in valleys, and on north-facing slopes, where it lifts and curls the shingle leading edges and raises the risk of wind blow-off, per ARMA.",
           "**Dark black or green streaking across the roof surface** indicates Gloeocapsa magma, the most prevalent roof-discoloration algae, per ARMA and Atlas Roofing. The algae feeds on the limestone filler in asphalt shingles, which produces the dark streaks that spread down the slope over time.",
@@ -1054,14 +1054,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Conditions Let Moss and Algae Establish?",
+        "heading": "Shade, Trapped Moisture, and Organic Debris Let Moss and Algae Establish",
         "body": [
           "**Shade, trapped moisture, and organic debris are the conditions that let moss and algae establish.** Shaded north-facing slopes hold moisture and grow moss faster than sun-exposed slopes, per CSSB and NRCA guidance, so they show growth first and are cleaned first.",
           "**Leaf litter and organic debris in valleys and at roof-to-wall transitions** create the moisture-holding, nutrient-rich conditions where moss colonies establish, per ARMA algae-and-moss guidance. Clearing that debris removes the food and standing moisture that the growth depends on."
         ]
       },
       {
-        "heading": "When Does Roof Growth Threaten the Roof Structure?",
+        "heading": "Granule Loss and Water Under the Shingles Mark When Growth Threatens the Structure",
         "body": [
           "**Growth threatens the structure when granules wash away and when severe moss drives water under the shingles.** Sandy grit in gutters under the streaked areas signals accelerated granule loss, and loss exceeding roughly 30% of the surface is the common rule-of-thumb for a roof beyond repair, per GAF and InterNACHI.",
           "**Severe moss build-up across the field** causes lateral water movement that reaches the roof deck and leads to moisture damage or leaks, per ARMA. Clearing the growth on schedule keeps water shedding down the slope rather than tracking sideways into the deck.",
@@ -1083,7 +1083,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "There is no single whole-roof total for a cleaning; the price tracks roof size, growth severity, and the add-ons a homeowner selects.",
     "sections": [
       {
-        "heading": "What Does Roof Cleaning and Moss Removal Cost in NJ?",
+        "heading": "Roof Cleaning and Moss Removal Costs $300 to $1,050, Averaging $675",
         "body": [
           "**Roof cleaning costs $300 to $1,050, an average of $675 for a 1,500-square-foot home, at $0.20 to $0.70 per square foot**, per This Old House. Moss removal is included in most basic cleanings at that same per-square-foot rate, so a moss job and a streak job on the same roof generally price the same way, per This Old House.",
           "**A moss-prevention treatment after the cleaning adds $150 to $250**, per This Old House. The treatment slows regrowth on an existing roof, which matters because proper maintenance extends asphalt-shingle service life by roughly 25 to 30%, per ARMA, so the prevention cost offsets earlier wear.",
@@ -1091,7 +1091,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Does the Price Vary Across a Roof?",
+        "heading": "Roof Size, Growth Severity, and Slope Exposure Move the Price",
         "body": [
           "**Roof size, growth severity, and slope exposure move the cost within the $300 to $1,050 range**, per This Old House. North-facing and shaded slopes hold moisture and grow moss faster, per CSSB and NRCA guidance, so a roof with heavy moss along those slopes that requires hand removal before the wash sits at the higher end of the range.",
           "**The cleaning method also separates a sound price from a damaging one.** Pressure-washing an asphalt shingle roof costs less in the moment but causes granule loss and premature failure of the roof system, per ARMA, so the cheaper pass shortens the roof's life. A low-pressure chemical wash — the ARMA 50:50 laundry-strength chlorine-bleach-and-water mix, a 15-to-20-minute dwell, and a low-pressure rinse — kills the growth at the root by chemical action and protects the granules, per ARMA.",
@@ -1099,7 +1099,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Get an Accurate Roof Cleaning Quote?",
+        "heading": "An Accurate Quote Comes From a Written, Itemized Estimate After an On-Site Visit",
         "body": [
           "**An accurate quote comes from a written, itemized estimate** after an on-site assessment, not a phone number given sight-unseen. The estimate names the cleaning method, identifies the growth as moss, Gloeocapsa magma algae, or lichen, and rates the roof-covering condition, so the price reflects the actual roof rather than a square-footage guess.",
           "**A commercial low-slope cleaning prices on the membrane and drainage, not on shingle square footage.** EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, and biological growth that holds moisture against the membrane accelerates that deterioration, so the estimate accounts for clearing drains during the rinse rather than ponding cleaning solution on the membrane."
@@ -1120,7 +1120,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "intro": "Each of those checks is verifiable on paper, which separates an accountable New Jersey contractor from a sight-unseen phone quote.",
     "sections": [
       {
-        "heading": "What Credentials and Insurance Should You Verify First?",
+        "heading": "Verify NJ HIC Registration and General Liability Insurance First",
         "body": [
           "**Active NJ Home Improvement Contractor registration and commercial general liability insurance** are the two credentials to verify before any work, because New Jersey regulates home improvement through a consumer-protection registration rather than a roofing license.",
           "**HIC registration** under N.J.S.A. 56:8-136 applies to every home-improvement business in New Jersey, and the 13VH-prefixed registration number appears on the contract and in advertising under N.J.S.A. 56:8-144. This is a registration, not a license — New Jersey issues no roofing license — so a contractor claiming a state roofing license misstates how the system works. Confirm the 13VH number reads as current before signing.",
@@ -1128,7 +1128,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Should the Written Contract and Estimate Include?",
+        "heading": "A Written Contract Is Required for NJ Work Over $500 Under N.J.A.C. 13:45A-16.2",
         "body": [
           "**A written contract and an itemized written estimate** document the scope before the wash begins, and New Jersey requires a signed written contract for any home-improvement work over $500 under N.J.A.C. 13:45A-16.2.",
           "**The written contract** carries both parties' signatures, start and end dates, and the total price under N.J.A.C. 13:45A-16.2, which gives the homeowner a record of what was agreed. **The itemized estimate** names the cleaning method, the chemistry, and the areas treated rather than a single sight-unseen phone number. A contractor who quotes a roof-cleaning price without inspecting the roof has not identified the growth or rated the covering condition.",
@@ -1136,7 +1136,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does a Documented Assessment Protect the Roof?",
+        "heading": "A Documented Pre-Cleaning Assessment Screens Out Roofs Beyond Cleaning",
         "body": [
           "**A thorough documented pre-cleaning assessment** identifies the growth and rates the roof-covering condition before any quote, because a roof past its serviceable life is beyond cleaning rather than a cleaning candidate.",
           "**The assessment identifies the growth** as moss, Gloeocapsa magma algae, or lichen and rates the covering, because granule loss exceeding roughly 30% of the surface is the common rule-of-thumb for a roof being beyond repair, per GAF and InterNACHI. A contractor who documents that condition first, with local references and an established Essex County presence the homeowner can verify, has done the homework a sight-unseen quote skips.",

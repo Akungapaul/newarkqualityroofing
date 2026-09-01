@@ -16,7 +16,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "Each sign traces to the roofing side of a solar array — the covering, the flashing, the structure, and the code that the array sits on rather than the panels themselves.",
     "sections": [
       {
-        "heading": "When Should a Roof Be Re-Roofed Before Solar?",
+        "heading": "A Roof With Less Life Than the Array Calls for a Re-Roof Before Solar",
         "body": [
           "**A roof covering with less remaining service life than the array signals a re-roof before solar.** Crystalline-silicon modules operate roughly 25 to 30-plus years and a covering replaced under a finished array forces a costly removal and reinstallation of the panels, per NREL and the DOE.",
           "**Module life** sets the timeline a re-roof decision works against, because crystalline-silicon modules carry roughly 25-year performance warranties and degrade at a median near 0.5 percent per year to roughly 85 to 88 percent of rated output after 25 to 30 years, per NREL and the DOE. A covering with fewer years left than that span outlives its usefulness under the array, so replacing it first avoids the panel removal and reinstall a mid-array re-roof demands.",
@@ -24,7 +24,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Roofing Conditions Signal a Leak or Warranty Risk?",
+        "heading": "A Mount Flashed Over the Shingle Course Marks a Leak Path",
         "body": [
           "**A mount flashed on top of the shingle course rather than tucked under the upslope course marks a leak path.** The flashing flange sheds water onto intact shingles only when the flange sits under the upslope course, per the NRCA Rooftop PV Guidelines and IronRidge.",
           "**Mount flashing** stays watertight when each attachment uses an integrated flashed foot whose upper flange tucks under the upslope shingle course, so water sheds onto intact shingles below, per the NRCA Rooftop PV Guidelines and IronRidge. A flashing sitting on top of the course leaves the fastener penetration exposed to runoff, the condition that produces a leak at the array foot years after the panels go on.",
@@ -32,7 +32,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Structural and Code Signs Apply?",
+        "heading": "Unconfirmed Load Capacity and Missing Rapid Shutdown Signal Code Risk",
         "body": [
           "**A roof structure of unconfirmed load capacity and a rooftop array missing rapid shutdown or firefighter access signal code and structural risk.** Uplift and ballast follow ASCE 7, NEC 690.12 requires rapid shutdown, and IRC R324.6 sets firefighter pathways.",
           "**Roof-structure load** is confirmed before install, because the array adds dead load and the uplift and required ballast follow ASCE 7, with corner and perimeter zones carrying more ballast than the field, per ASCE 7. A structure of unconfirmed capacity halts a ballasted or rail-mounted install until the assessment verifies the roof carries the added load, and the rooftop array itself carries an AHJ building and electrical permit while the underlying re-roof on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7.",
@@ -54,7 +54,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "The PV system is the solar installer's number, and the roofing side is the separate scope Newark Quality Roofing prices for the roof underneath it.",
     "sections": [
       {
-        "heading": "What Does the PV Array Itself Cost?",
+        "heading": "The PV Array Runs $2.50 to $4.00 Per Watt Installed in NJ",
         "body": [
           "**The PV array** runs about $2.50 to $4.00 per watt installed in New Jersey, the solar installer's scope rather than the roofer's, per EnergySage, SolarReviews, and WattBuild. That per-watt figure covers the modules, the inverter, the racking, and the electrical work the solar installer carries.",
           "**The per-watt price** moves with system size, because a larger array spreads the fixed soft costs of permitting, design, and the inverter across more watts, so a bigger system reaches better per-watt pricing than a small one, per EnergySage and SolarReviews. The total still tracks the number of watts installed times that per-watt rate, not a flat package price.",
@@ -62,7 +62,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Drives the Roofing Cost?",
+        "heading": "Roof Age, Mount Type, and Code Coordination Drive the Roofing Cost",
         "body": [
           "**The roofing cost** is driven by roof age and condition, the mount type, the structural verification, and the code coordination, each priced by a free written estimate. A roof covering with less remaining service life than the array forces a re-roof before solar, which adds the covering cost, per NREL and the DOE.",
           "**Roof age and mount type** set the largest share: a re-roof before solar adds the new covering, and the attachment differs between a pitched-roof flashed-foot mount fastened with a lag bolt into the rafter and a low-slope mount that is ballasted on a protection pad or mechanically attached and flashed, per the NRCA and SPRI. The flashing labor differs between those two methods, so the roof type and mount method drive the scope.",
@@ -70,7 +70,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Do Federal and NJ Incentives Lower the Cost?",
+        "heading": "The Federal §25D Credit Ends for Systems Completed After 2025",
         "body": [
           "**The federal §25D residential clean energy credit** was 30 percent for systems completed through 2025 and is repealed for systems completed after December 31, 2025, per the IRS. No federal residential solar credit applies to a 2026 system, so a homeowner consults a tax professional for current incentives.",
           "**The New Jersey incentives** remain in place: the Successor Solar Incentive program pays a fixed per-megawatt-hour SREC-II incentive over a 15-year term, administered by the NJ Board of Public Utilities, and net metering credits exported power at the full retail rate up to annual usage, per N.J.S.A. 48:3-87. These two programs offset owner cost over the life of the system rather than at install.",
@@ -92,7 +92,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "These state programs carry the incentive value for a 2026 residential solar array, because the federal residential credit no longer applies.",
     "sections": [
       {
-        "heading": "What NJ State Incentives Apply?",
+        "heading": "NJ Incentives: The Successor Solar Incentive, Net Metering, and Tax Exemptions",
         "body": [
           "**The New Jersey state incentives are the Successor Solar Incentive, net metering, and the sales-tax and property-tax exemptions.** The Successor Solar Incentive pays a fixed per-megawatt-hour SREC-II incentive over a 15-year term, administered by the NJ Board of Public Utilities, the program that replaced the closed TREC and SREC programs.",
           "**Net metering** credits exported solar power at the full retail rate up to annual usage under N.J.S.A. 48:3-87, so a meter running backward during peak production offsets grid power drawn at night across the billing year, per the NJ Board of Public Utilities. The Successor Solar Incentive then pays the SREC-II per megawatt-hour generated, a separate revenue stream the NJBPU sets at a fixed rate for the 15-year term rather than a market price.",
@@ -100,7 +100,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Federal Credit Applies in 2026?",
+        "heading": "No Federal Residential Solar Credit Applies to a 2026 System",
         "body": [
           "**No federal residential solar credit applies to a system completed in 2026, because the §25D residential clean energy credit is repealed for systems completed after December 31, 2025, per the IRS.** The credit was 30% for systems completed through 2025 under the prior law and ends under the One Big Beautiful Bill.",
           "**The §25D residential clean energy credit** covered 30% of a residential solar system cost for systems completed through December 31, 2025, and the One Big Beautiful Bill repeals it for any system completed after that date, per the IRS. A 2026 homeowner therefore plans around the New Jersey programs rather than a federal credit, and the residential overview confirms the same repeal date for the 30% credit.",
@@ -108,7 +108,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do Commercial Solar Incentives Differ?",
+        "heading": "Commercial Solar Follows the Federal §48E Credit, Not the Repealed §25D",
         "body": [
           "**Commercial solar incentives follow the federal §48E Clean Electricity Investment Credit rather than the repealed residential §25D credit.** A business-owned or third-party-owned system reaches the §48E credit, with solar facilities terminating after December 31, 2027 unless construction begins within 12 months of the One Big Beautiful Bill enactment, per the IRS.",
           "**The §48E Clean Electricity Investment Credit** remains for business-owned and third-party-owned solar after the residential §25D credit ends, and the One Big Beautiful Bill sets the solar-facility termination after December 31, 2027 unless construction begins within 12 months of enactment, per the IRS. A commercial owner pairs the §48E credit with the same New Jersey programs a homeowner uses.",
@@ -130,7 +130,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "Each sign points to a building-integrated photovoltaic roof that replaces the covering itself rather than mounting hardware on a finished roof.",
     "sections": [
       {
-        "heading": "When Does a Solar Shingle Fit the Roof?",
+        "heading": "A Solar Shingle Fits a Reroof-Age Roof With a 2:12 or Steeper Pitch",
         "body": [
           "**A solar shingle** fits a roof at or near reroof age with a pitch of 2:12 or steeper. A building-integrated photovoltaic shingle replaces the roof covering and pairs with a new roof or full reroof rather than mounting on a finished roof, per the DOE Office of Energy Efficiency and Renewable Energy.",
           "**A roof at or near reroof age** matches a solar shingle, because the photovoltaic material is the roof surface itself, distinct from rack-mounted panels added on top of a finished roof. CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, so a sound roof with years of service left is a poor candidate, per CertainTeed and the DOE Office of Energy Efficiency and Renewable Energy.",
@@ -138,7 +138,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Who Should Choose Shingles Over Panels?",
+        "heading": "Shingles Over Panels Prioritize Integrated Appearance Over Per-Watt Cost",
         "body": [
           "**A homeowner choosing shingles over panels** prioritizes the integrated appearance of a uniform roof surface over the lower per-watt cost of rack-mounted panels. A solar shingle is an integration and appearance choice rather than an efficiency or per-watt-value choice, per SolarReviews and EnergySage.",
           "**The integrated appearance** drives the decision for a homeowner who reads visible rack-mounted panels as a drawback, because building-integrated solar shingles serve as the roof covering itself while building-applied panels mount on top, per IEA-PVPS. A solar shingle reads as one continuous roof surface, the look a uniform-roofline home favors.",
@@ -146,7 +146,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Roof and Product Requirements Apply?",
+        "heading": "Roughly 44% More Roof Area Plus UL 2218, UL 790, and ASTM D3161 Ratings",
         "body": [
           "**The product requirements** are roughly 44% more roof area than a panel array and a system that meets UL 2218 Class 4 hail, UL 790 Class A fire, and ASTM D3161 wind. A 6-kilowatt solar-shingle system needs about 360 square feet against about 250 square feet for panels, per SolarReviews from the GAF Energy datasheet.",
           "**Available roof area** sets the first requirement, because a solar shingle generates less per square foot than a rack-mounted panel — about 16.7 watts per square foot for GAF Energy Timberline Solar and about 16.1 for CertainTeed Solstice — so a 6-kilowatt array spreads across roughly 44% more roof, per GAF Energy, CertainTeed, and SolarReviews. A roof short of that contiguous area limits the system size.",
@@ -168,7 +168,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "That per-watt premium, the roof area the system covers, and the reroof it rides on together set what a New Jersey solar-shingle project actually costs.",
     "sections": [
       {
-        "heading": "What Drives Solar Shingle Cost?",
+        "heading": "Per-Watt Price, Roof Area, Product, and Reroof Drive Solar Shingle Cost",
         "body": [
           "**Solar shingle cost** is driven by the per-watt price of about $3.50 to $8.00 installed, the roof area the array covers, the product and its wattage, and the reroof the shingle pairs with. Each lever prices into the total separately, per EnergySage, SolarReviews, and WattBuild.",
           "**The per-watt price** of about $3.50 to $8.00 installed scales with system size, so a larger array carries a larger total even at the same per-watt rate, per EnergySage, SolarReviews, and WattBuild. **Roof area** drives cost alongside it, because a 6-kilowatt solar-shingle system needs about 360 square feet of shingles against about 250 square feet of panels — roughly 44 percent more area — per SolarReviews from the GAF Energy datasheet.",
@@ -176,7 +176,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does It Compare to Panels?",
+        "heading": "Solar Shingles Cost 1.5 to 2 Times the Per-Watt Price of Panels",
         "body": [
           "**A solar shingle** costs roughly 1.5 to 2 times the per-watt price of a rack-mounted panel and converts less sunlight per square foot. Module efficiency clusters at 14 to 18 percent against more than 20 percent for a panel, per SolarReviews, EnergySage, and NREL.",
           "**Module efficiency** of 14 to 18 percent against more than 20 percent for a panel means a solar-shingle array covers more roof to reach the same kilowatts, which is why a 6-kilowatt system needs about 360 square feet of shingles versus about 250 for panels, per SolarReviews, EnergySage, and NREL. The shingle delivers less wattage per square foot — GAF Energy Timberline Solar produces about 16.7 watts per square foot and CertainTeed Solstice about 16.1 — so the same output spreads across more area.",
@@ -184,7 +184,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Do Incentives Lower the Cost?",
+        "heading": "NJ State Programs Lower 2026 Cost; No Federal Residential Credit Applies",
         "body": [
           "**Federal and New Jersey incentives** lower a solar-shingle cost through state programs in 2026, but no federal residential solar credit applies. The section 25D residential clean energy credit was 30 percent for systems completed through 2025 and is repealed for systems completed after December 31, 2025, per the IRS.",
           "**The federal residential credit** under section 25D no longer offsets a 2026 solar-shingle system, because the One Big Beautiful Bill repealed it for any system completed after December 31, 2025, per the IRS, so a homeowner consults a tax professional for current treatment. **A business-owned or third-party-owned commercial system** instead follows the section 48E Clean Electricity Investment Credit, where solar facilities terminate after December 31, 2027 unless construction begins within 12 months of the One Big Beautiful Bill enactment, per the IRS.",
@@ -206,7 +206,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "The federal §25D residential credit is repealed for 2026, so a 2026 homeowner plans around the New Jersey programs and consults a tax professional for current rates.",
     "sections": [
       {
-        "heading": "What NJ Incentives Apply to a Solar Shingle?",
+        "heading": "NJ Applies SREC-II, Net Metering, and Tax Exemptions to a Solar Shingle",
         "body": [
           "**The Successor Solar Incentive program** pays a fixed per-megawatt-hour SREC-II incentive over a 15-year term, paired with net metering, a sales-tax exemption, and a property-tax exemption. New Jersey applies all four to a building-integrated solar shingle on the same terms as a rack-mounted panel, per the NJ Board of Public Utilities.",
           "**The Successor Solar Incentive program**, administered by the NJ Board of Public Utilities, pays a fixed per-megawatt-hour SREC-II incentive over a 15-year term, the successor to the prior, now-closed Transition program. The incentive turns on the energy a system generates, not on the photovoltaic technology, so a solar shingle that meters its production earns the SREC-II incentive on the same basis as a panel array, per the NJ Board of Public Utilities.",
@@ -214,7 +214,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Federal Credit Applies in 2026?",
+        "heading": "No Federal Residential Solar Credit Applies to a 2026 Solar Shingle",
         "body": [
           "**No federal residential solar tax credit applies to a solar shingle completed in 2026.** The §25D residential clean energy credit, the 30% credit available for systems completed through 2025, is repealed for any system completed after December 31, 2025 under the One Big Beautiful Bill, per the IRS.",
           "**The §25D residential clean energy credit** carried a 30% rate through 2025 and reached a building-integrated solar shingle the same way it reached a rack-mounted panel, because the credit covered residential solar property without distinguishing the mounting form. The One Big Beautiful Bill repeals that credit for systems completed after December 31, 2025, per the IRS, so a 2026 solar-shingle project has no federal residential credit to net against its cost.",
@@ -222,7 +222,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do Commercial Solar Shingle Incentives Differ?",
+        "heading": "A Business-Owned Solar Shingle Follows the Federal §48E Credit, Not §25D",
         "body": [
           "**A business-owned or third-party-owned solar shingle follows the federal §48E Clean Electricity Investment Credit** rather than the repealed residential §25D credit. The same New Jersey programs apply — SREC-II, net metering, and the ST-4 and CRES exemptions — per the IRS and the NJ Board of Public Utilities.",
           "**The §48E Clean Electricity Investment Credit** remains for business-owned and third-party-owned solar, with solar facilities terminating after December 31, 2027 unless construction begins within 12 months of the One Big Beautiful Bill enactment, per the IRS. A commercial or multi-family building that owns or leases a building-integrated solar shingle reaches §48E where a residential homeowner no longer reaches §25D, a divergence that turns on whether the system earns income.",
@@ -244,7 +244,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "Each sign traces to a roof rejecting little solar heat or an assembly that lets that heat flow into the conditioned space below.",
     "sections": [
       {
-        "heading": "What Surface and Comfort Signs Point to a Hot Roof?",
+        "heading": "A Dark Roof Surface Over 150°F Is the Clearest Hot-Roof Sign",
         "body": [
           "**A dark roof surface reaching over 150°F on a sunny afternoon** is the clearest surface sign of a hot roof, because a reflective roof stays over 50°F cooler than a conventional roof, per the DOE. The dark surface absorbs the solar heat a reflective roof rejects.",
           "**A top-floor or top-story space that overheats under summer sun** signals that roof heat is transferring into the conditioned space, the load a high-reflectance surface reduces by lowering roof surface temperature, per the EPA and the DOE. A weathered dark low-slope membrane that has lost its reflectance shows the same pattern, because the surface no longer rejects solar heat the way a fresh reflective surface does.",
@@ -252,7 +252,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Insulation and Ventilation Signs Apply?",
+        "heading": "Ceiling Insulation Below the IECC R-60 Minimum Marks an Under-Insulated Roof",
         "body": [
           "**Ceiling insulation below the code-minimum depth** marks an under-insulated assembly, because the 2021 IECC Table R402.1.3 sets ceiling R-60 for Climate Zones 4 and 5, with R-49 allowed only as the raised-heel full-ceiling exception. Newark sits in that zone range, so R-60 is the ceiling minimum the assembly is measured against.",
           "**Ceiling R-value** governs conductive heat flow through the assembly, the lever separate from the surface reflectance that rejects solar heat, per the DOE. A coating changes the surface radiative properties and adds no R-value, so a thin or compressed ceiling layer leaves the conductive heat path open even under a reflective surface, and the insulation carries the conductive savings rather than the coating.",
@@ -260,7 +260,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Is the Best Time to Address Energy Efficiency?",
+        "heading": "Rising Peak Cooling Demand Points to a Heat-Absorbing Roof",
         "body": [
           "**Rising peak cooling demand in an air-conditioned building** points to a heat-absorbing roof, because a cool roof reduces peak cooling demand by 11 to 27% in air-conditioned residential buildings, per the EPA. That figure is a peak-demand reduction rather than an annual bill, and it identifies the roof as the source of the climbing summer load.",
           "**Peak cooling demand** rising over successive summers signals that the surface rejects less solar heat than it once did, so the moment the cooling load points to the roof is the moment to weigh a reflective surface against the conductive insulation, per the EPA and the DOE. Newark sits in a heating-dominated Climate Zone 4 to 5, so a reflective surface carries a winter heating penalty that offsets part of the summer gain, and the net annual benefit depends on the climate and the insulation.",
@@ -282,7 +282,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "Because a reflective surface and an insulation layer are two distinct levers rather than one product, the budget a building owner plans around is the sum of separate line items set by a free written estimate.",
     "sections": [
       {
-        "heading": "What Components Drive the Cost?",
+        "heading": "Membrane, Coating, Insulation, and Ventilation Each Drive the Cost",
         "body": [
           "**A white reflective TPO or PVC membrane, a reflective elastomeric coating, above-deck and ceiling insulation, and attic ventilation** each drive energy efficient roofing cost as a separate line item. A white TPO or PVC membrane prices by roof area and membrane thickness, carrying roughly 0.70-to-0.85 initial solar reflectance and 0.80-to-0.90 thermal emittance measured per ASTM C1549, CRRC-listed.",
           "**A reflective elastomeric coating** prices by roof area and dry-film thickness and adds no R-value, because the coating lowers surface temperature through reflectance rather than insulation, per the RCMA and the DOE. The coating restores a low-slope roof in place, so its cost tracks the area covered and the prep the surface needs, not a thermal resistance the coating never contributes.",
@@ -290,7 +290,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Do Reflectance and R-Value Price Separately?",
+        "heading": "Reflectance and R-Value Price Separately as Two Different Heat Paths",
         "body": [
           "**Reflectance and R-value price separately because they govern two different heat paths**: solar reflectance controls the solar heat gained at the roof surface, while R-value controls the conductive heat flow through the assembly beneath it, per the DOE. A coating buys reflectance and insulation buys R-value, so the two are never one line item.",
           "**Solar reflectance and thermal emittance** are surface radiative properties that combine into the Solar Reflectance Index per ASTM E1980, with reflectance measured per ASTM C1549 and emittance per ASTM C1371, per ASTM and the CRRC. A reflective membrane or coating changes only these surface properties and adds no conductive resistance, so the reflective surface alone leaves the heat that conducts through the deck unaddressed.",
@@ -298,7 +298,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Do Incentives Offset the Cost?",
+        "heading": "No Federal Credit Offsets Energy Efficient Roofing in 2026",
         "body": [
           "**No federal credit offsets energy efficient roofing in 2026**, because the §25C Energy Efficient Home Improvement Credit and the §25D residential solar credit are both repealed for property and systems placed in service after December 31, 2025, per the IRS. The §25D solar credit was 30 percent for systems completed through 2025 and no longer applies to a 2026 residential system.",
           "**New Jersey solar incentives** apply when the roof includes solar rather than to a reflective surface alone: the Successor Solar Incentive program administered by the NJ Board of Public Utilities, net metering under N.J.S.A. 48:3-87, and the sales-tax and property-tax exemptions claimed via NJ Form ST-4 and NJ Form CRES. These programs attach to electricity generation, so a reflective membrane or insulation without solar falls outside the solar incentive path.",
@@ -320,7 +320,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "Because the federal credits no longer apply, the case for an energy-efficient roof rests on the measured cooling reduction, the New Jersey solar incentives that attach only when the roof carries solar, and the heating-dominated Essex County climate.",
     "sections": [
       {
-        "heading": "What Federal and NJ Programs Apply in 2026?",
+        "heading": "Federal §25C and §25D Credits Are Repealed for 2026 Projects",
         "body": [
           "**The federal §25C and §25D credits are repealed for property and systems placed in service after December 31, 2025, while NJ solar incentives apply only when the roof includes solar and §179D remains a commercial whole-building deduction.** The IRS reports both residential credits ended under the One Big Beautiful Bill.",
           "**The federal §25C Energy Efficient Home Improvement Credit** and the **§25D residential clean energy credit** no longer offset an energy-efficient roof in 2026, because both are repealed for property and systems placed in service after December 31, 2025, per the IRS. A homeowner consults a tax professional rather than counting on a federal credit, since a reflective membrane, a coating, or added insulation carries no standalone federal incentive this year. On the commercial side, §179D remains a whole-building energy-efficiency deduction measured against ASHRAE 90.1 rather than a standalone roof credit, per the IRS.",
@@ -328,7 +328,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Are the Real Energy Savings?",
+        "heading": "A Cool Roof Cuts Peak Cooling Demand 11 to 27%, Per the EPA",
         "body": [
           "**A cool roof reduces peak cooling demand by 11 to 27% in air-conditioned residential buildings, per the EPA — a peak-demand figure, not an annual bill — and a reflective coating adds no R-value, so insulation carries the conductive savings.** The DOE reports a reflective roof stays over 50°F cooler than a conventional roof.",
           "**The cool-roof savings** are a reduction in peak cooling demand of 11 to 27% in air-conditioned residential buildings, per the EPA, which describes the demand the roof rejects at the hottest part of the day rather than a yearly utility total. The EPA names solar reflectance the most important characteristic of a cool roof, and a reflective roof stays over 50°F cooler than a conventional roof on a sunny afternoon, per the DOE; a clean white roof reflecting 80% of sunlight stays roughly 55°F, or 31°C, cooler than a gray roof reflecting 20%, per the LBNL Heat Island Group.",
@@ -336,7 +336,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does the NJ Climate Affect the Net Benefit?",
+        "heading": "Newark's Heating-Dominated Climate Offsets Part of the Cooling Gain",
         "body": [
           "**Newark sits in heating-dominated Climate Zone 4A-to-5, so a reflective surface carries a winter heating penalty that offsets part of the summer cooling gain, and the net annual benefit depends on the climate and the insulation.** The DOE and EPA frame the reflective roof against the heating-dominated mixed climate.",
           "**The winter heating penalty** arises because a high-reflectance surface that rejects solar heat in summer also rejects some useful solar warming in winter, and Newark falls in IRC and IECC Climate Zone 4A-to-5, a heating-dominated mixed climate, per the DOE and the EPA. The peak summer cooling reduction is real, but the net annual benefit nets the summer cooling gain against the winter heating cost rather than counting the cooling figure alone.",
@@ -358,7 +358,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "Each sign points to a low-slope roof whose surface has deteriorated over a structure still worth restoring rather than tearing off.",
     "sections": [
       {
-        "heading": "When Is a Flat Roof a Coating Candidate?",
+        "heading": "A Sound Deck Under a Worn Membrane Makes a Flat Roof a Coating Candidate",
         "body": [
           "**A flat roof is a coating candidate** when the deck and insulation stay sound under a deteriorated membrane surface, because recoating extends service life at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA. Silicone restoration suits surface deterioration over a sound structure, not a failed one.",
           "**A sound deck and dry insulation** under a worn surface make restoration the economical path, because the coating seals the existing membrane in place rather than replacing it. Recoating restores the roof at a fraction of tear-off and replacement cost and keeps the old roof out of landfill, and a maintained silicone roof is recoated at the 15 to 20 year interval rather than torn off, per the RCMA.",
@@ -366,7 +366,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Surface Signs Favor Silicone?",
+        "heading": "Ponding, Failing Seams, and Chalked Acrylic Favor Silicone",
         "body": [
           "**The surface signs that favor silicone** are ponding more than 48 hours after rain, aging seams, splits, and lifted flashings leaking across the field, and a prior acrylic coating that has softened or chalked in ponded areas. A 100% silicone coating resists permanent and standing water without softening, per the RCMA.",
           "**Standing water that ponds more than 48 hours** after rain marks a roof for silicone, because a 100% silicone coating resists permanent and standing water without softening, while a flat roof needs at least a quarter inch per foot of slope to drain, per the RCMA and the NRCA. Aging seams, splits, and lifted flashings leaking across the field seal under one monolithic silicone membrane rather than chasing each repair, per the RCMA.",
@@ -374,7 +374,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Roof Types Suit Silicone?",
+        "heading": "Modified Bitumen, Built-Up Roofing, EPDM, Metal, and Spray Foam Suit Silicone",
         "body": [
           "**Modified bitumen, built-up roofing, EPDM, metal, and spray polyurethane foam suit a silicone coating.** A spray-foam roof with an eroded topcoat takes a recoat on a 15 to 20 year silicone cycle, because foam is UV-sensitive and stays serviceable only while the protective coating is maintained, per the SPFA and the NRCA.",
           "**A spray polyurethane foam roof** with an eroded topcoat needs recoating, because foam is UV-sensitive and stays serviceable only while the protective coating holds, on a silicone recoat cycle near 15 to 20 years, per the SPFA and the NRCA. Modified bitumen, built-up roofing, EPDM, and metal low-slope roofs take a silicone coating over a clean dry surface once the seams, splits, and flashings are repaired and reinforced, per the RCMA.",
@@ -396,7 +396,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "Because each of those three drivers varies by the condition of the existing roof, an inspection sets the price ahead of any flat per-square-foot number.",
     "sections": [
       {
-        "heading": "What Drives Silicone Coating Cost?",
+        "heading": "Roof Size, Dry-Film Thickness, and Surface Prep Drive the Cost",
         "body": [
           "**Roof size, dry-film thickness, and surface prep** drive silicone coating cost. Roof size sets the silicone volume, near 1.5 gallons per 100 square feet for roughly 22 dry mils, per Gaco and Henry, so square footage and the specified thickness together fix the material quantity.",
           "**Roof size** sets the base material, and silicone is high-solids near 90% with low shrinkage, so one application reaches the specified dry-film thickness rather than the multiple coats a lower-solids acrylic needs, per Gaco, Henry, and Mule-Hide. The volume figure of about 1.5 gallons per 100 square feet for roughly 22 dry mils traces to the Gaco and Henry datasheets, so a larger roof and a thicker specified film each raise the silicone quantity.",
@@ -404,7 +404,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does Coating Compare to Replacement?",
+        "heading": "Recoating Costs a Fraction of Tear-Off and Replacement",
         "body": [
           "**Recoating restores a low-slope roof at a fraction of tear-off and replacement cost and keeps the old roof out of landfill**, per the RCMA. A sound deck under a deteriorated membrane surface makes restoration the economical path rather than a full tear-off.",
           "**Recoating** fits a roof where only the membrane surface has deteriorated while the deck and insulation stay sound, because the silicone seals every seam, split, and flashing under one monolithic membrane in place rather than chasing individual repairs, per the RCMA. A wet or deteriorated insulation layer or a damaged deck falls outside that path and calls for replacement instead, so the assessment confirms the deck and insulation before pricing a coating.",
@@ -412,7 +412,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does Warranty Term Affect Cost?",
+        "heading": "The Warranty Term Scales With Dry-Film Thickness",
         "body": [
           "**The renewable warranty term scales with dry-film thickness, near 10 to 15 years at 20 to 22 mils and 15 to 20 years at 30 mils**, per the RCMA, Henry, Mule-Hide, and Gaco. A thicker film raises both the silicone material and the warranty length together.",
           "**Dry-film thickness** is the lever that sets the warranty: the manufacturer ties the renewable 10, 15, or 20 year term to the verified film, so specifying a thicker coat lengthens the term and adds silicone volume at the same time, per the RCMA, Henry, Mule-Hide, and Gaco. The 22 dry mils a roughly 1.5-gallon-per-100-square-feet application reaches sits in the 10 to 15 year band, while a 30 mil specification reaches the 15 to 20 year band.",
@@ -434,7 +434,7 @@ export const energySolarArticles: ArticleContent[] = [
     "intro": "A silicone roof coating sits outside both the solar incentive track and the insulation incentive track, which is why its value shows up as restoration economics rather than a tax line.",
     "sections": [
       {
-        "heading": "Do Tax Credits or Rebates Apply to a Roof Coating?",
+        "heading": "No Tax Credit or Rebate Applies to a Roof Coating",
         "body": [
           "**A roof coating qualifies for no federal or New Jersey tax credit or rebate, because it generates no electricity and adds no R-value.** The solar paths — the federal §25D residential credit, the NJ Successor Solar Incentive, and SREC-II — reward generated electricity, and a coating produces none, per the IRS and the NJ Board of Public Utilities.",
           "**The solar incentive track** applies to a system that produces power. The federal §25D residential clean energy credit was 30 percent for systems completed through 2025 and is repealed for systems completed after December 31, 2025, per the IRS, and the NJBPU's Successor Solar Incentive pays a fixed per-megawatt-hour SREC-II incentive over a 15-year term to a generating system — neither path reaches a coating that generates nothing, per the IRS and the NJ Board of Public Utilities.",
@@ -442,7 +442,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Where Do the Savings Come From?",
+        "heading": "Savings Come From Deferred Replacement and Peak Cooling Reduction",
         "body": [
           "**The savings come from deferred replacement and a reflective cool-roof reduction in peak cooling demand.** Recoating restores a low-slope roof at a fraction of tear-off and replacement cost, keeps the old roof out of landfill, and renews under a 10-, 15-, or 20-year warranty that defers full replacement, per the RCMA.",
           "**Deferred replacement** is the larger lever: a maintained silicone roof is recoated at the 15-to-20-year interval rather than torn off, and a recoated roof recoats again, so restoration extends service life at a fraction of replacement cost while avoiding the landfill load of a tear-off, per the RCMA. The renewable warranty term scales with dry-film thickness — roughly 10 to 15 years at 20 to 22 mils and 15 to 20 years at 30 mils — so each recoat cycle pushes the next full replacement further out.",
@@ -450,7 +450,7 @@ export const energySolarArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Standard and Rating Govern the Cool-Roof Claim?",
+        "heading": "ASTM D6694 and the CRRC Rating Govern the Cool-Roof Claim",
         "body": [
           "**ASTM D6694 governs liquid-applied silicone coating, and the CRRC lists its cool-roof reflectance and emittance under ASTM C1549.** A silicone coating qualifying under ASTM D6694 carries a principal polymer that is more than 95 percent silicone, per ASTM and the RCMA.",
           "**The CRRC rating** replaced the retired ENERGY STAR roof label: the ENERGY STAR roof products program ended, with new certifications stopping June 1, 2021 and recognition ending June 1, 2022, so a current cool-roof claim references the CRRC-1 rating rather than an ENERGY STAR roof label, per the EPA and the CRRC. The CRRC-1 Rated Products Directory lists initial and 3-year aged solar reflectance measured per ASTM C1549 and thermal emittance measured per ASTM C1371, reporting product performance rather than declaring a product cool.",

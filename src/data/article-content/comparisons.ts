@@ -17,7 +17,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The deciding factor is the ownership horizon: how many years the roof stays on the home determines which material returns the most value per dollar spent.",
     "sections": [
       {
-        "heading": "Which Costs Less: Upfront Price or Cost Per Year of Service?",
+        "heading": "Asphalt Costs Less Upfront; Metal Costs Less Per Year of Service",
         "body": [
           "**Asphalt shingles** cost less upfront and **metal roofing** costs less per year of service: asphalt installs at $5.50-$11.00 per NJ square foot lasting 20-30 years, while metal installs at $9.00-$16.00 lasting 40-80, per Josten Roofing and the InterNACHI life-expectancy chart.",
           "**Asphalt shingles** carry the lower entry cost, with 3-tab at $5.50-$9.50 and architectural (laminated) at $6.50-$11.00 per NJ square foot, per Josten Roofing, and labor accounts for roughly 60% of an asphalt project, per HomeGuide. A full NJ asphalt-shingle replacement falls within $10,000-$25,000, while a metal replacement lands in the upper half of that range or higher.",
@@ -25,7 +25,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Roof Fits NJ Climate and Uniform Construction Code Rules Better?",
+        "heading": "Metal Sheds Snow and Resists Uplift Under NJ Climate and Code",
         "body": [
           "**Metal roofing** sheds Newark snow and resists uplift, while **asphalt shingles** hold snow until melt: Newark averages 31.5 inches of annual snowfall per NOAA 1991-2020 normals, and northern NJ carries a ~110-115 mph design wind speed under ASCE 7-16.",
           "**Metal roofing** sheds snow off interlocking panels and resists that mapped uplift, though shed snow adds snow guards over Newark entryways, per ASCE wind maps and NRCA guidance. **Asphalt shingles** depend on an ice-and-water barrier at the eaves to block ice-dam backup, lose protective granules under hail, and degrade faster under UV exposure than metal, per NRCA and ARMA guidance; impact-rated shingles narrow the hail gap. Northern NJ roofs also face roughly 35-45 freeze-thaw cycles each winter that stress both systems.",
@@ -33,7 +33,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Decide Between Asphalt and Metal for an Essex County Home?",
+        "heading": "The Ownership Horizon Decides Between Asphalt and Metal in Essex County",
         "body": [
           "**The ownership horizon** decides the material: metal roofing suits long-hold owners who keep the roof 40-plus years, while asphalt shingles suit color-and-budget-driven Essex County homes and near-term resale, per the InterNACHI chart and the Zonda 2023 resale data.",
           "**Asphalt shingles** offer the widest color and profile range and recoup more at resale, adding roughly $15,247 to resale value on a typical home and letting sellers ask 1%-3% more, per Opendoor and Zillow 2025 analysis, against a ~61% cost recoup per the Remodeling/Zonda 2023 Cost vs Value report. Architectural asphalt suits color-and-budget-driven Essex County homes and installs faster, with a shorter install window than metal, per NRCA installation guidance. **Metal roofing** recoups a smaller ~49% share because its higher job cost outpaces the resale premium, so its return favors the long hold rather than a near-term sale; its panel-and-trim fabrication extends the install window in exchange for decades of lower-maintenance service, per NRCA guidance.",
@@ -55,7 +55,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation follows the named longevity, cost, and resale records rather than any single material claim, then turns on how the roof gets installed.",
     "sections": [
       {
-        "heading": "What Do the Longevity, Cost, and Resale Standards Actually Favor for Each Material?",
+        "heading": "Metal Holds the Longevity Edge; Asphalt Holds Cost and Resale",
         "body": [
           "**Metal roofing** holds the longevity edge and **asphalt shingles** hold the cost and resale edge: metal lasts 40-80 years versus asphalt's 20-30 (InterNACHI), while asphalt installs cheaper and recoups ~61% versus metal's ~49% (Zonda 2023).",
           "**Metal roofing** earns the longevity recommendation from the InterNACHI life-expectancy chart, which records 40-80 years of service for general metal and over 70 years for copper, against 20 years for 3-tab asphalt and 30 years for architectural (laminated) asphalt. That longer life spreads metal's $9.00-$16.00 NJ per-square-foot install cost (Josten Roofing) across two to four asphalt lifecycles, lowering cost per year of service across the ownership window. A NJ full asphalt-shingle replacement falls within $10,000-$25,000, while a metal replacement falls in the upper half of that range or higher.",
@@ -64,7 +64,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation-Quality Factors Decide Longevity, Per NRCA and ARMA Guidance?",
+        "heading": "Installation Quality Decides Longevity, Per NRCA and ARMA Guidance",
         "body": [
           "**Installation quality** decides whether either material reaches its rated life, because NRCA and ARMA guidance ties roof performance to flashing, fastening, and the eave barrier rather than the covering alone. The contrasting failure modes follow from how each system is detailed at install.",
           "**Asphalt shingles** depend on an ice-and-water barrier at the eaves to block ice-dam backup and on proper nailing to resist uplift, per NRCA and ARMA guidance, since their failure modes are granule loss, tab curling, and thermal-shock cracking that UV exposure accelerates faster than on metal. The InterNACHI 20-30-year range assumes that detailing; a missing eave barrier or under-driven fasteners shortens the life the chart records.",
@@ -73,7 +73,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Homeowner Mistakes Do the Standards Flag — Metal Noise, Snow Shedding, and Deck Condition?",
+        "heading": "Three Homeowner Mistakes: Metal Noise, Snow Shedding, and Deck Condition",
         "body": [
           "**The standards** flag three recurring homeowner mistakes: assuming metal is loud, ignoring snow shedding, and overlaying metal on a failing deck. Each one traces to a named source rather than a field anecdote.",
           "**Metal noise** is the first flagged assumption, and the system's construction corrects it: metal roofing installed over solid decking and underlayment is no louder than asphalt shingles in rain, because the wood deck and underlayment absorb sound. The 'tin roof' noise comes from agricultural panels mounted on open framing without a deck beneath them, not from a residential metal roof over sheathing.",
@@ -95,7 +95,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice turns on three questions a homeowner answers in order: lifetime cost, whether the frame carries the load, and which roof matches the architecture and any historic rules.",
     "sections": [
       {
-        "heading": "How Long Does Each Roof Last, and What Does It Cost to Install and Repair in NJ?",
+        "heading": "Slate Lasts 60-150 Years and Clay Tile 100-Plus Years",
         "body": [
           "**Natural slate** lasts 60-150 years and **clay tile** 100-plus years, the two longest service lives among roofing materials, while concrete tile runs 40-75 years, per the InterNACHI chart and the Tile Roofing Industry Alliance.",
           "**Natural slate** installs at $10-$30 per square foot per NJ roofing guides, against $10-$20-plus per square foot for tile per NHI Contractors, so the upfront gap narrows once concrete tile sits at the low end. The lifetime math favors the longer-lived roof: a single 60-150-year slate installation covers a span that two or three asphalt roofs cannot, and clay tile reaches the same generational horizon per the Tile Roofing Industry Alliance. The National Slate Association rates ASTM S-1 slate at a 75-year minimum, with many roofs over 100 years and some past 200 years, so the price per year of service stays low across the asset's life.",
@@ -104,7 +104,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Can an Essex County Home's Frame Carry Slate or Tile, and How Do NJ Snow and Freeze-Thaw Loads Affect the Choice?",
+        "heading": "Framing Capacity Decides Whether a Home Can Carry Slate or Tile",
         "body": [
           "**Framing capacity** is the deciding attribute before either install, because natural slate and clay or concrete tile are both heavy roof coverings whose load exceeds an asphalt-shingle frame, so a rafter and decking assessment precedes the work.",
           "**Concrete tile** is the heaviest of the tile types and the one most likely to require a framing review, per the structural sequence the materials share. The assessment confirms the rafters and decking carry the covering before any tile or slate reaches the roof, the same review NQR runs as part of a [roof replacement](/roof-replacement-in-newark-nj) on either heavy material. Both coverings also call for non-ferrous copper or stainless-steel fasteners, because plain or galvanized steel rusts out long before the slate or tile, per NPS Preservation Briefs 29 and 30.",
@@ -112,7 +112,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Roof Fits the Home's Architecture and Historic Rules, and How Do You Make the Final Decision?",
+        "heading": "Slate Suits Colonial and Victorian Homes; Tile Carries the Terra-Cotta Profile",
         "body": [
           "**Natural slate** matches the Colonial and Victorian housing stock across Glen Ridge, Montclair, and Newark, where original stone roofs are a character-defining feature, while clay or concrete tile carries the terra-cotta profile that slate cannot reproduce.",
           "**Historic-district rules** add a binding step: a slate or tile reroof in a designated local district such as Glen Ridge, Montclair, or Newark's James Street Commons and Lincoln Park requires a Certificate of Appropriateness from the Historic Preservation Commission before a material change, per N.J.S.A. 40:55D-107, and review applies the Secretary of the Interior's Standard 6, which directs that a deteriorated feature be replaced in kind. A slate-to-tile switch on a character-defining roof faces that in-kind test. Register listing alone places no restriction on a private owner, per the National Park Service, and an ordinary reroof on a detached one- or two-family home outside a district counts as maintenance with no construction permit, per N.J.A.C. 5:23-2.7.",
@@ -121,7 +121,7 @@ export const comparisonArticles: ArticleContent[] = [
       }
     ],
     "conclusion": "Natural slate edges clay or concrete tile on a 60-150-year longevity horizon and on matching the historic Colonial and Victorian roofs of Essex County, while tile answers a terra-cotta profile or a lower concrete budget. Either way, framing capacity is the gate that decides whether the heavier covering goes on at all.",
-    "ctaHeading": "Weighing Slate or Tile for Your Essex County Home?",
+    "ctaHeading": "Get a Free Written Slate or Tile Estimate in Essex County",
     "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, installing and repairing slate and clay or concrete tile with the structural review and non-ferrous flashing the materials require. Reach out for a free written estimate or start with a [roof replacement](/roof-replacement-in-newark-nj) assessment.",
     "metaDescription": "Slate vs tile roofing: slate lasts 60-150 years, clay tile 100+, concrete 40-75. Compare NJ cost, framing load, freeze-thaw, and historic-district rules."
   },
@@ -134,7 +134,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "What the evidence favors and what an installation gets right are two different questions, so the recommendation rests on the named standards rather than on any single contractor's preference.",
     "sections": [
       {
-        "heading": "What Do the Longevity Standards Actually Favor?",
+        "heading": "Longevity Standards Favor Slate at 60-150 Years and Clay Tile at 100-Plus",
         "body": [
           "**Natural slate and clay tile** carry the two longest service lives among roofing materials, 60-150 years for slate and 100-plus years for clay, per the InterNACHI Standard Estimated Life Expectancy Chart. That measured longevity is what the chart favors when a home holds a 100-year design horizon.",
           "**Natural slate** rarely fails as a stone unit; the limiter is corroded fasteners or degraded valley and chimney flashing, per National Park Service Preservation Brief 29, and the National Slate Association rates ASTM S-1 slate at a 75-year minimum, with many roofs over 100 years and some past 200. **Clay tile** frequently outlasts its fasteners and sheathing, so the Tile Roofing Industry Alliance treats the underlayment, not the tile, as the true repair-versus-replace trigger.",
@@ -142,7 +142,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation Factors Decide a Slate or Tile Roof's Life?",
+        "heading": "Framing, Non-Ferrous Fasteners, and Matched Flashing Decide a Roof's Life",
         "body": [
           "**Framing capacity, non-ferrous fasteners, and matched flashing** decide whether a slate or tile roof reaches its rated life, per NPS Preservation Briefs 29 and 30. Both coverings are heavy enough that a rafter and decking assessment precedes installation.",
           "**Framing capacity** comes first because natural slate and clay or concrete tile both exceed an asphalt-shingle load, with concrete tile the heaviest of the tile types and the one most likely to require a framing review; northern-NJ ground snow load near 25 psf under ASCE 7-16 is the load both roofs are framed to carry against Newark's roughly 31.5 inches of annual snowfall per NOAA 1991-2020 normals. **Non-ferrous fasteners** rank next, since natural slate and clay tile both require solid copper or stainless steel because plain or galvanized steel rusts out long before the slate or tile, per Preservation Briefs 29 and 30.",
@@ -150,7 +150,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Do Homeowners Get Wrong About Slate and Tile?",
+        "heading": "What Homeowners Get Wrong: Walking the Roof, Patching, and Iron Fasteners",
         "body": [
           "**The common mistakes** are walking on the roof, patching a broken slate or tile instead of replacing it, and substituting iron fasteners for the original copper, each flagged by NPS Preservation Briefs 29 and 30. Slate is not walked on, which protects the surrounding stone during a repair.",
           "**Patching a broken unit** misreads how these roofs are serviced: a single broken slate or tile costs $50-$300 to replace and is replaced individually rather than patched, per Preservation Briefs 29 and 30. A broken tile is replaced with a matching shape, color, and glaze, a profile-match problem rather than a sealant fix, per Preservation Brief 30, and slate repair stays economical below the 20-percent damage threshold that Brief 29 sets above which full replacement costs less than piece repair.",
@@ -173,7 +173,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The deciding factor is the building itself: whether a summer cooling load, standing water, rooftop chemicals, or a tighter budget governs which single-ply membrane fits a low-slope Essex County roof.",
     "sections": [
       {
-        "heading": "How Do TPO and EPDM Compare on Installed Cost and Service Life?",
+        "heading": "EPDM Installs Cheaper and Lasts Longer Than TPO on a NJ Flat Roof",
         "body": [
           "**EPDM** installs cheaper and lasts longer than **TPO** on a NJ flat roof: EPDM runs $7.00-$10.00 per square foot in NJ versus TPO's $8.00-$12.00, per Josten Roofing, and EPDM lasts 15-25 years against TPO's 7-20 on the InterNACHI life-expectancy chart.",
           "**EPDM** carries the cost edge because it installs fast by clean-prime-patch methods, and its service life reaches 25-30 years in a cited study beyond the 15-25 years on the InterNACHI chart. **TPO** lasts 7-20 years on that same chart, commonly cited at 15-25 years in practice, so the cost gap and the lifespan gap both favor EPDM on the raw numbers, per Josten Roofing and InterNACHI.",
@@ -181,7 +181,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Membrane Fits Newark's Climate and NJ Low-Slope Code?",
+        "heading": "TPO Fits a Cooling-Load Newark Roof, EPDM Fits the Rest Under NJ Low-Slope Code",
         "body": [
           "**TPO** fits a cooling-load Newark roof and **EPDM** fits the rest, while both install to the same NRCA drainage rule. A white TPO surface carries a CRRC-listed solar reflectance near 0.70-0.85 measured by ASTM C1549 and cuts peak cooling demand 11-27% in air-conditioned buildings, per the EPA.",
           "**TPO** reflectance stays over 50 degrees F cooler than a conventional roof, per the DOE, but Newark sits in IRC Climate Zone 4A-5, a heating-dominated mixed climate, so a reflective TPO roof carries a winter heating penalty that offsets part of the summer gain, per the DOE. The 11-27% EPA figure is a peak-demand reduction, not a guaranteed annual bill cut.",
@@ -189,7 +189,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Is the Decision Checklist: Cooling Load Versus Ponding, Chemicals, and Budget?",
+        "heading": "The Decision Checklist: Cooling Load Points to TPO, Ponding and Budget to EPDM",
         "body": [
           "**A summer cooling load** points to TPO, while **ponding, rooftop chemicals, heavy equipment, or a tight budget** point to EPDM. TPO suits an air-conditioned commercial roof where reflectance cuts peak cooling demand 11-27% per the EPA, and EPDM suits the standing-water, chemical, equipment-heavy, or budget roof.",
           "**EPDM**, as an inert flexible rubber, resists rooftop chemical exposure and flexes around heavy rooftop equipment better than TPO, which needs walk pads and equipment supports to protect the membrane. On most Newark and Essex County residential flat sections, the rear additions, sun porches, and attached garages, EPDM fits because it installs fast and costs less, and black EPDM blends with traditional rooflines, per the figures from Josten Roofing.",
@@ -211,7 +211,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Rather than a single winner, the published roofing standards and life-expectancy data point each membrane at the building condition it answers best.",
     "sections": [
       {
-        "heading": "What Do the Seam Specifications Actually Favor Over Time?",
+        "heading": "Seam Specifications: Heat-Welded TPO Fuses While Taped EPDM Bond Lines Age",
         "body": [
           "**TPO seams** are heat-welded into a fused thermoplastic bond, while **EPDM seams** are taped or adhered, per the NRCA, and the seam method drives the dominant failure mode of each membrane. A heat-welded TPO lap fuses the two sheets into one continuous surface; a taped or adhered EPDM lap relies on an adhesive bond line that ages.",
           "**TPO welds** remove the adhesive bond line a taped seam depends on, so a sound weld is the strongest part of the assembly, but a defective weld opens the same leak path, which is why welded-seam failure is TPO's dominant failure mode. The standards therefore favor TPO only when the welding is executed correctly, because the seam method that adds reliability also concentrates the risk in the quality of the weld.",
@@ -219,7 +219,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation-Quality Factors Decide Longevity in NJ?",
+        "heading": "Positive Drainage Decides Longevity in NJ Before the Seam Method Matters",
         "body": [
           "**Positive drainage** decides longevity on both membranes before the seam method matters, because the NRCA sets a minimum design slope of 1/4 inch per foot (about 2%) so ponding water cannot stress the seams. A flat roof that ponds shortens both a TPO and an EPDM membrane regardless of which the building owner selects, because standing water accelerates membrane deterioration on either sheet.",
           "**The reflectance value** that justifies a TPO roof holds only when it is confirmed by measurement: white TPO carries a CRRC-listed solar reflectance near 0.70-0.85 measured by ASTM C1549, and a reflective roof stays over 50 degrees F cooler than a conventional one per the DOE. That measured value, not the color alone, is what cuts peak cooling demand 11-27% in air-conditioned buildings per the EPA.",
@@ -227,7 +227,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Building-Owner Mistakes Shorten Flat-Roof Life?",
+        "heading": "Ignoring Drainage Is the Building-Owner Mistake That Shortens Flat-Roof Life",
         "body": [
           "**Ignoring drainage** is the mistake the standards flag first, because a roof left to pond fails at the seams on either membrane no matter how well the sheet is welded or adhered, per the NRCA 1/4-inch-per-foot rule. Drainage is the condition the published guidance treats as decisive, not the choice between TPO and EPDM.",
           "**Choosing on color alone** is the second mistake, because a white TPO surface earns its place through measured reflectance against a real summer cooling load per the EPA and DOE, not because white outranks black. On a warehouse, storage, or low-HVAC building where reflectance adds no measurable benefit, EPDM's inert-rubber chemical and equipment resistance answers the roof better than reflectance does.",
@@ -249,7 +249,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice turns on three questions in sequence: whether the existing framing carries tile's dead load, what each material costs across its service life, and how New Jersey code and winters treat the two.",
     "sections": [
       {
-        "heading": "How Does Roof Weight Decide Between Metal and Tile on an Essex County Home?",
+        "heading": "Roof Weight Decides: Metal Recovers Most Essex County Decks, Tile Demands Framing Checks",
         "body": [
           "**Roof weight** decides the install path because metal panels recover most Essex County decks as a lightweight covering, while tile adds substantial dead load that demands confirmed framing capacity before installation, per Tile Roofing Industry Alliance guidance.",
           "**Metal roofing** panels — standing-seam sheets and metal shingles — fasten to the existing sheathing as a lightweight covering, so older Newark homes avoid rafter and truss upgrades, per the Metal Construction Association. Clay and concrete tile, by contrast, load the rafters, ridge beams, and trusses, the load-bearing members the NJ Uniform Construction Code treats as structural work.",
@@ -257,7 +257,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Material Costs Less and Lasts Longer in New Jersey?",
+        "heading": "Metal and Tile Overlap Heavily on Upfront Cost in New Jersey",
         "body": [
           "**Metal roofing** installs at roughly $9 to $16-plus per square foot in New Jersey and tile at $10 to $20-plus, per regional NJ install pricing. A full replacement of either material lands in the $10,000 to $25,000 band, per HomeAdvisor and Modernize, so the two materials overlap heavily on upfront cost rather than separating cleanly.",
           "**Tile roofing** outlasts metal at the covering — clay reaches 75 to 100-plus years and concrete 40 to 75, per the Tile Roofing Industry Alliance, against metal's 40 to 80 years, with copper past 70, per the InterNACHI life-expectancy chart. One limiter the tile itself hides offsets that headline number: the underlayment beneath the tile fails decades before the clay or concrete, so the real service interval tracks the membrane, not the 100-year tile, per the Tile Roofing Industry Alliance. A buyer who reads the lifespan column alone overstates how long a tile roof runs untouched.",
@@ -265,7 +265,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Is the Metal-vs-Tile Decision Checklist for an Essex County Roof?",
+        "heading": "The Metal-vs-Tile Checklist: Structure, Profile, Repairs, and Freeze-Thaw Exposure",
         "body": [
           "**The decision checklist** runs through four factors in order: confirmed structural capacity, architectural profile, repair and profile-match difficulty, and freeze-thaw exposure. Confirmed structural capacity gates everything, because tile over framing built for a lighter covering overloads the structure, per Tile Roofing Industry Alliance guidance.",
           "**Architectural profile** decides where tile earns its weight: clay or concrete completes a Mediterranean or Spanish home, while metal fits the widest range of Essex County houses, from Newark row houses to Livingston colonials, per the Metal Construction Association. Stone-coated metal shingles reproduce a tile silhouette at a fraction of the dead load, per Metal Construction Association product guidance, so a tile look does not always require a tile roof.",
@@ -288,7 +288,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation tracks what the named roofing standards actually reward — lightweight recovery, concealed fasteners, and a service interval set by the membrane rather than the covering.",
     "sections": [
       {
-        "heading": "What Do the Standards Actually Favor for a New Jersey Roof?",
+        "heading": "The Metal Construction Association Favors Metal for Most New Jersey Re-Roofs",
         "body": [
           "**The Metal Construction Association** favors metal roofing for most New Jersey re-roofs because standing-seam sheets and metal shingles fasten to existing sheathing as a lightweight covering, so older Newark homes recover a deck without rafter and truss upgrades.",
           "**The Tile Roofing Industry Alliance** reserves its case for tile to homes where the framing already carries the load, because tile roofing adds substantial dead load that demands confirmed framing capacity before installation. Clay tile reaches 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against metal's 40 to 80 years (copper past 70) per the InterNACHI life-expectancy chart. The longevity edge favors tile at the covering, yet the standard caveats it: tile that lacks a structural deck overloads the rafters the same units rely on.",
@@ -296,7 +296,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation and Structural Factors Decide Longevity?",
+        "heading": "Concealed Standing-Seam Fasteners Decide Metal Roof Longevity",
         "body": [
           "**Concealed standing-seam fasteners** decide metal's longevity, because they reduce the exposed leak points where panels meet, per the Metal Construction Association and Metal Roofing Alliance. The same standard ties the metal underlayment to the panel run, replaced together at end of life.",
           "**Tile roofing's underlayment** sets the real service interval, because the waterproofing layer beneath the tile fails decades before the clay or concrete unit does, per the Tile Roofing Industry Alliance, so a 100-year tile field tracks the membrane rather than the tile. Confirmed framing capacity is the gating factor before any tile installation, per Tile Roofing Industry Alliance guidance, since the units load rafters, ridge beams, and trusses as the load-bearing members the NJ Uniform Construction Code treats as structural work.",
@@ -304,7 +304,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Are the Common Homeowner Mistakes in Choosing Metal Versus Tile?",
+        "heading": "Specifying Tile Without Confirming Structural Capacity Is the First NJ Mistake",
         "body": [
           "**Specifying tile without confirming structural capacity** is the first mistake the standards flag, because tile roofing demands confirmed framing capacity before installation, per Tile Roofing Industry Alliance guidance, and the same load triggers a structural permit under N.J.A.C. 5:23-2.7(b).",
           "**Ignoring profile-match difficulty** is the second: tile repairs match the broken unit's exact profile and color, and profile matching grows harder as a tile roof ages and the original tile line discontinues, per Tile Roofing Industry Alliance guidance, while metal repairs replace a panel section or re-seat a loosened fastener. A discontinued tile line turns a routine cracked-unit repair into a field-matching problem, which the lighter, panel-based metal system sidesteps entirely.",
@@ -326,7 +326,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice turns on how long you plan to own the home, the budget the project caps at, and whether a designated historic district governs the material.",
     "sections": [
       {
-        "heading": "What Does Each Roof Actually Cost to Install and Repair in New Jersey?",
+        "heading": "Asphalt Installs at $5.50-$11.00 and Slate at $10-$30 Per Square Foot in NJ",
         "body": [
           "**Asphalt shingles** install across northern New Jersey at $5.50 to $11.00 per square foot, while **natural slate** runs $10 to $30 per square foot, roughly $1,500 per square, per Josten Roofing's NJ figures and NJ roofing guides.",
           "**Asphalt shingles** split by profile within that range: 3-tab installs at $5.50 to $9.50 per square foot and architectural at $6.50 to $11.00, per Josten Roofing, defining the entry tier for an Essex County reroof that lands near the $10,000 to $11,000 national asphalt-replacement benchmark on a typical home. Repairs stay modest, because minor patch or flashing work runs $360 to $1,550 per Angi, and a New Jersey roof leak repair runs $400 to $1,000 per HomeAdvisor, since NJ pricing sits about 10 to 15% above the national average.",
@@ -334,7 +334,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do Asphalt and Slate Handle NJ Freeze-Thaw, Structural Load, and the Uniform Construction Code?",
+        "heading": "NJ Freeze-Thaw Cracks Asphalt While Slate Outlasts Its Fasteners and Flashing",
         "body": [
           "**Natural slate** outlasts its own fasteners and flashing, so New Jersey freeze-thaw failures trace to corroded fasteners and degraded valley flashing rather than the stone, while **asphalt shingles** crack and curl after years of freeze-thaw, per NRCA and InterNACHI guidance.",
           "**Natural slate** weathers to surface sugaring on lower-grade stone rather than structural cracking, per NRCA and the National Slate Association, so a sound slate field stays intact while its components age. It is a heavy quarried-stone covering whose structural load is reviewed before installation, and it carries a non-ferrous fastener rule: solid copper or stainless-steel nails, because plain or galvanized steel rusts out long before the slate, per NPS Preservation Brief 29. **Asphalt shingles** are a light covering that loads any properly sheathed roof with no structural upgrade, then fail through wind-driven granule loss, edge and tab curling, and thermal-shock cracking along the cutouts, per NRCA and InterNACHI guidance.",
@@ -342,7 +342,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does an Essex County Homeowner Decide Between Asphalt and Slate?",
+        "heading": "Ownership Horizon, Budget, and Historic District Decide Slate vs Asphalt in Essex County",
         "body": [
           "**The deciding factors** are the ownership horizon, the budget, and whether the home sits in a designated historic district, because one slate installation spans the period across which asphalt is replaced three to four times, per the InterNACHI chart. The lifespans set the frame: asphalt lasts 20 to 30 years and natural slate 60 to 150, with the National Slate Association rating ASTM S-1 slate at a 75-year minimum.",
           "**The ownership horizon and budget** favor asphalt shingles when the plan runs under 15 years or the budget caps near the $10,000 to $11,000 national asphalt-replacement benchmark, since asphalt installs at $5.50 to $11.00 per square foot. Within asphalt, 3-tab lasts about 20 years and architectural about 30 years per the InterNACHI chart, and the NRCA notes actual asphalt life varies up to 40% with climate, installation, and maintenance. Architectural asphalt replicates slate's layered, dimensional profile, installs at $6.50 to $11.00 per square foot, and offers the slate look at one-third to one-half natural slate's $10 to $30 per-square-foot cost.",
@@ -364,7 +364,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation turns less on opinion than on what the recognized life-expectancy, preservation, and installation standards already prescribe for each material and each home.",
     "sections": [
       {
-        "heading": "What Do the Recognized Roofing Standards Actually Favor for Each Material?",
+        "heading": "The Recognized Standards Split the Recommendation by Lifespan and Setting",
         "body": [
           "**The recognized standards** split the recommendation by lifespan and setting. The InterNACHI Standard Estimated Life Expectancy Chart rates natural slate at 60 to 150 years against 20 to 30 years for asphalt, and Standard 6 of the Secretary of the Interior's Standards directs an in-kind slate match on a historic roof rather than an asphalt substitute.",
           "**The InterNACHI chart** favors natural slate wherever multi-generational service is the goal, and the National Slate Association rates ASTM S-1 grade slate at a 75-year minimum service life, so one slate installation spans the period across which asphalt is replaced three to four times. The chart splits asphalt by type, rating 3-tab at about 20 years and architectural at about 30, while the NRCA notes actual asphalt life varies up to 40 percent with climate, installation, and maintenance.",
@@ -372,7 +372,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation and Detailing Factors Decide Longevity?",
+        "heading": "Longevity Details: Non-Ferrous Fasteners for Slate, an Ice-and-Water Shield for Asphalt",
         "body": [
           "**The detailing that decides longevity** differs by material. Natural slate depends on non-ferrous fasteners and sound valley flashing, while asphalt depends on an eave ice-and-water shield, because NPS Preservation Brief 29 and IRC R905.1.2 fix each material's failure point at the detail rather than the field.",
           "**Non-ferrous fasteners and valley flashing** decide a slate roof's life, because NPS Preservation Brief 29 specifies solid copper or stainless-steel fasteners and notes that plain or galvanized steel rusts out long before the slate. Natural slate outlasts its own fasteners and flashing, so failures trace to corroded fasteners or degraded valley flashing rather than the stone, and the slate is sounded, flipped, and reset rather than walked on or coated to seal moisture, per Brief 29.",
@@ -381,7 +381,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Common Homeowner Mistakes Does the Evidence Flag?",
+        "heading": "The Flagged Mistakes: Asphalt on a Historic Slate Roof and a Skipped Load Review",
         "body": [
           "**The mistakes the evidence flags** are swapping asphalt onto a historic slate roof and skipping the structural-load review before specifying slate. Standard 6 of the Secretary of the Interior's Standards and the heavy quarried-stone nature of slate make each a documented misstep.",
           "**Swapping asphalt onto a historic slate roof** is the first flagged mistake: a partial asphalt swap is not an in-kind match under Standard 6, and on a contributing structure in a designated local historic district it can require a Certificate of Appropriateness from the Historic Preservation Commission under N.J.S.A. 40:55D-107. NPS Preservation Brief 29 sets the full-replacement trigger at 20 percent or more of the slates broken, missing, or sliding, favoring selective slate repair below that threshold rather than wholesale change.",
@@ -403,7 +403,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice turns on three measurable axes — installed and lifetime cost, fit to NJ's humid freeze-thaw climate and fire-rating expectations, and the owner's appetite for upkeep.",
     "sections": [
       {
-        "heading": "Which Costs Less to Install and Own in New Jersey, Wood Shake or Asphalt Shingles?",
+        "heading": "Asphalt Shingles Cost Less Than Cedar Wood Shake to Install in New Jersey",
         "body": [
           "**Asphalt shingles** cost less to install than **cedar wood shake** in New Jersey: architectural asphalt installs at $6.50–$11.00 per sq ft and 3-tab at $5.50–$9.50, while cedar runs $10–$20+ per sq ft, per Josten Roofing.",
           "**Asphalt shingles** keep a full NJ roof replacement inside the $10,000–$25,000 band that HomeAdvisor and Modernize cite for the state, because the fiberglass-mat product carries lower material and labor cost than split cedar. A cedar [roof replacement](/roof-replacement-in-newark-nj) lands at the upper end of, or above, that range, since hand-laid split shakes raise both the material price and the labor hours.",
@@ -411,7 +411,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Roof Fits NJ's Humid, Freeze-Thaw Climate and Fire-Rating Expectations?",
+        "heading": "Asphalt Carries a Class A Fire Rating While Untreated Cedar Is Unrated",
         "body": [
           "**Asphalt shingles** fit NJ's fire-rating expectations more readily than **cedar wood shake**: asphalt carries a standard Class A rating, the top class under UL 790 / ASTM E108, while untreated cedar is nonclassified and unrated, per NAHB and the CSSB.",
           "**Cedar wood shake** reaches a fire class only with pressure-impregnated fire-retardant treatment, which the CSSB Certi-Guard program rates Class B or Class C; a Class A wood roof exists only as a rated assembly of FR shakes over a fire-retardant cap sheet, not as any single shake. NJ carriers weigh the untreated-cedar fire class, while asphalt's standard Class A avoids that scrutiny, per NAHB and the CSSB.",
@@ -420,7 +420,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does Cedar Wood Shake Make Sense Over Asphalt for an Essex County Home?",
+        "heading": "Cedar Suits an Essex County Home Only for Historic Character and Accepted Upkeep",
         "body": [
           "**Cedar wood shake** makes sense over asphalt for an Essex County home only when historic character is the goal and the owner accepts the upkeep: periodic cleaning, the every-few-years fungicide/algaecide treatment, and the CSSB ventilation detail.",
           "**The upkeep commitment** is the gating question, not the install budget alone. Cedar carries no fire class until pressure-impregnated fire-retardant treatment brings it to Class B or C under the CSSB Certi-Guard program, and NJ carriers weigh that untreated fire class where asphalt's standard Class A draws no such scrutiny, per NAHB and the CSSB. An owner who skips the treatment and ventilation detail inherits both the degradation modes and the insurance friction.",
@@ -443,7 +443,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The named standards, not field opinion, settle the recommendation, and they point to asphalt by default and cedar only when historic character justifies its maintenance schedule.",
     "sections": [
       {
-        "heading": "What Do the Fire and Lifespan Standards Actually Favor Between the Two Materials?",
+        "heading": "The Fire Standards Favor Asphalt: Class A Versus Nonclassified Untreated Cedar",
         "body": [
           "**The fire standards** favor asphalt: asphalt shingles carry a standard Class A fire rating, the top class under UL 790 / ASTM E108, while untreated cedar wood shake is nonclassified and unrated, per NAHB and the CSSB. Cedar reaches a fire class only with pressure-impregnated fire-retardant treatment.",
           "**The fire-class path** for cedar runs through the CSSB Certi-Guard program, which rates pressure-impregnated fire-retardant shake Class B or Class C; a Class A wood roof exists only as a rated assembly of FR shakes over a fire-retardant cap sheet, not as any single shake. In New Jersey, carriers weigh untreated cedar's nonclassified, unrated fire class per NAHB and the CSSB, while asphalt's standard Class A avoids that scrutiny.",
@@ -451,7 +451,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation Details Decide Cedar Longevity in NJ, per the CSSB Ventilation and Treatment Specifications?",
+        "heading": "Cedar Longevity in NJ Hinges on the CSSB 1.5-Inch Ventilation Air Space",
         "body": [
           "**Cedar longevity** in NJ hinges on the CSSB ventilation detail. Cedar wood shake requires an air space of at least 1.5 inches beneath the shakes so each course dries from the underside after rainfall, and north-facing shaded slopes degrade fastest, per the CSSB and NRCA. The drying detail, not the shake profile, governs survival in NJ humidity, which is why an installed air-spaced assembly separates a cedar roof that reaches its rated life from one that rots beneath cupped shakes.",
           "**The treatment schedule** decides the rest, because cedar wood shake needs a fungicide/algaecide treatment every few years at $0.15-$0.60 per sq ft, plus periodic cleaning and prompt replacement of split or cupped shakes, per HomeGuide. Algae-guard asphalt, by contrast, needs only periodic inspection, which is why the InterNACHI and NRCA durability figures hold with far less owner effort. The repair side tracks the same gap: cedar repair averages $400-$1,800 per Angi, against $400-$1,000 for an NJ asphalt leak repair, so cedar carries a higher recurring cost across both treatment and repair over the life of the roof.",
@@ -459,7 +459,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Homeowner Mistakes Erase Cedar's Lifespan Edge, and When Is a Synthetic or Architectural Alternative the Better Call?",
+        "heading": "Skipping the CSSB Maintenance Schedule Erases Cedar's Lifespan Edge in NJ",
         "body": [
           "**The homeowner mistake** that erases cedar's lifespan edge is skipping the CSSB maintenance schedule. An unmaintained cedar roof in NJ's humid, freeze-thaw climate degrades well below its rated life, erasing the durability edge over a low-maintenance asphalt roof, per the CSSB, InterNACHI, and NAHB. Cedar's 40-year ceiling is conditional on sustained cleaning and treatment, not automatic, and an owner who treats cedar as a set-and-forget roof inherits the moss, cupping, and rot that the standards attribute to neglected ventilation and lapsed treatment.",
           "**The synthetic-shake alternative** answers owners who want the look without the upkeep: synthetic-shake products from DaVinci and CertainTeed reproduce split-cedar texture at zero recoating maintenance, costing more than asphalt but less than real cedar wood shake. Architectural asphalt lines from GAF and CertainTeed also mimic split-cedar texture without cedar's recoating cycle.",
@@ -481,7 +481,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Because both single-ply membranes install at the same price and weld the same way, the deciding factor is the rooftop exposure and the service life each one buys.",
     "sections": [
       {
-        "heading": "Does PVC or TPO Cost More, and Is the Price Difference Real?",
+        "heading": "PVC and TPO Tie on Install Price in Essex County, So Service Life Decides Value",
         "body": [
           "**PVC membrane and TPO membrane** both install at roughly $8-$12 per square foot in Essex County, per Josten Roofing, so the install price ties and the service life decides the value. There is no PVC install premium on the same flat roof.",
           "**Install cost** runs near $8-$12 per square foot for either thermoplastic on an Essex County flat roof, per Josten Roofing, because both seal at the seam by hot-air heat-welding and carry the same white reflective surface. The seam method does not separate them on price, so a comparison that prices PVC well above TPO misreads the New Jersey market.",
@@ -490,7 +490,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Membrane Fits an Essex County Roof's Exposure and the Newark Climate?",
+        "heading": "Rooftop Exposure Decides: PVC for Grease and Chemicals, TPO for a Clean Roof",
         "body": [
           "**PVC membrane** fits a roof with rooftop grease or chemical exhaust and **TPO membrane** fits a clean roof, while both carry the same white reflectance per ASTM C1549. The rooftop exposure, not the climate, decides the membrane.",
           "**PVC membrane** earns its place on Newark commercial corridors crowded with restaurants and food-processing buildings, where exhaust grease softens and degrades a TPO surface, per Duro-Last; PVC resists those fats and oils across its 20-30-year service life, per the Single Ply Roofing Industry. **TPO membrane** fits the warehouses, offices, schools, and retail buildings along Essex County's highway corridors that carry no rooftop grease or solvent exposure, matching PVC on heat-welded seams and reflectance at the same installed price near $8-$12 per square foot, per Josten Roofing.",
@@ -498,7 +498,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Decide Between PVC and TPO for Your Building?",
+        "heading": "PVC Where the Roof Carries Grease or Solvents, TPO Where Budget Leads on a Clean Roof",
         "body": [
           "**PVC membrane** is the answer where the roof carries grease, fats, oils, or solvent exhaust, and **TPO membrane** is the answer on a clean roof with a budget priority, per the verdict grounded in Duro-Last. The checklist runs in that order.",
           "**Rooftop chemical or grease exposure** is the first question: a restaurant, food-processing plant, automotive-service roof, or a rooftop deck with an outdoor kitchen points to PVC membrane, because TPO degrades under chronic exhaust grease, per Duro-Last, and PVC holds chemical stability through a 20-30-year service life, per the Single Ply Roofing Industry. **No chemical exposure plus a budget priority** points to TPO membrane on an office, retail, school, or warehouse roof, where it delivers the same heat-welded seams and ~0.70-0.85 reflectance at the same $8-$12 per square foot, per Josten Roofing.",
@@ -521,7 +521,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation follows the building's actual rooftop exposure, because the published service-life and chemical-resistance standards split cleanly between the two membranes rather than crowning one outright.",
     "sections": [
       {
-        "heading": "What Do the Service-Life and Material Standards Actually Favor for Each Roof Type?",
+        "heading": "Service-Life Standards Favor PVC on Chemical-Exposed Roofs, TPO on Clean Roofs",
         "body": [
           "**The service-life and material standards favor PVC membrane on chemical-exposed roofs and TPO membrane on clean roofs.** The Single Ply Roofing Industry records a 20-30-year typical service life for PVC, while the InterNACHI Estimated Life Expectancy Chart lists 7-20 years for TPO.",
           "**PVC membrane** earns the standards-backed recommendation on any roof carrying grease, animal fats, oils, or solvent exhaust, because Duro-Last documents that PVC resists the chemical contact that softens and degrades a TPO surface. That chemical stability is what extends PVC across its full 20-30-year span on a restaurant or food-processing roof, per the Single Ply Roofing Industry.",
@@ -530,7 +530,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation-Quality Factors Decide How Long a Single-Ply Membrane Lasts?",
+        "heading": "Heat-Welded Seam Integrity Decides How Long a Single-Ply Membrane Lasts",
         "body": [
           "**Heat-welded seam integrity is the dominant factor that decides how long a single-ply membrane lasts.** Both PVC and TPO fail most often at the welded seam, per the NRCA and single-ply manufacturer guidance, so the quality of the field-welded seam, not the polymer choice, controls early failure.",
           "**The welded seam** carries the membrane's water-tightness, and a TPO surface fails through welded-seam failure first, then chemical attack and thermal-shock cracking as plasticizers migrate and the sheet hardens, per single-ply manufacturer guidance. A PVC surface ages mainly through plasticizer loss leading to embrittlement, surface cracking, and pinholes, plus welded-seam failure, per the NRCA, where reinforced PVC resists the cold-weather shattering that affects unreinforced sheets.",
@@ -539,7 +539,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Are the Most Common Building-Owner Mistakes When Choosing PVC vs TPO?",
+        "heading": "Common Mistakes: Overpaying for PVC or Specifying TPO Near Kitchen Grease",
         "body": [
           "**The most common building-owner mistake is paying the PVC premium on a roof with no chemical exposure, or specifying TPO where kitchen-exhaust grease degrades it.** Duro-Last documents that chronic grease contact breaks down a TPO surface, so a restaurant or food-plant roof spec'd in TPO ages early.",
           "**Paying the PVC premium** on a clean office, retail, or warehouse roof spends extra for chemical resistance the building never uses, because both membranes install near $8-$12 per square foot, per Josten Roofing, and TPO matches PVC on heat-welded seams and reflectance there. **Specifying TPO** on a grease-exposed roof is the inverse mistake, because the kitchen-exhaust fats that PVC resists degrade the TPO surface, per Duro-Last.",
@@ -562,7 +562,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice turns on whether leak-free service across a metal roof's decades-long life outweighs the lower first cost corrugated delivers, so the deciding factor is the building.",
     "sections": [
       {
-        "heading": "Does the Higher Cost of Standing Seam Pay Off Over a Metal Roof's Lifetime?",
+        "heading": "Standing Seam's Higher Cost Repays With a Longer Leak-Free Service Life",
         "body": [
           "**Standing seam** sits at the upper end of New Jersey's $9-$16+ per-square-foot installed metal range while corrugated sits at the lower end, per Josten Roofing, and standing seam repays that premium with a longer leak-free service life. The cost gap reflects clip-set precision against faster screw-down panels.",
           "**Standing seam** lasts 40-70 years per This Old House, against the 30-50 years industry sources assign exposed-fastener corrugated metal, so the upper-end price buys roughly two decades of additional service. Corrugated runs shorter because its exposed-fastener gaskets reach end-of-life decades before the steel itself, leaving the panel sound but the seal spent.",
@@ -570,7 +570,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Metal Roof Fits New Jersey Climate and Code?",
+        "heading": "Standing Seam Has No Exposed Panel-Field Seal; Corrugated Gaskets Crack in Freeze-Thaw",
         "body": [
           "**Standing seam** carries no exposed seal in the panel field, so Newark freeze-thaw cycling acts on the seam and flashing, while corrugated gaskets harden and crack under the NOAA 1991-2020 Newark Liberty climate normals.",
           "**Corrugated metal** gaskets fail decades before the steel under that freeze-thaw cycling, and metal panels expand across roughly the 25.5-to-87-degree-F range NOAA records for Newark, a movement standing seam clips absorb by letting panels float while corrugated's fixed screws enlarge their own holes over the decades, per NRCA guidance on expansion provisions for long runs.",
@@ -578,7 +578,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do I Decide Between Standing Seam and Corrugated for My Property Type?",
+        "heading": "Standing Seam for Essex County Homes, Corrugated for Garages and Barns",
         "body": [
           "**Standing seam** suits the Essex County home and the client-facing commercial roof, where its concealed-clip field delivers the leak-resistant, low-maintenance metal roof a residence needs across a 40-70-year service life per This Old House. Corrugated fits a detached garage, barn, or warehouse rather than the primary dwelling.",
           "**Corrugated metal** roofs more square footage per dollar at the lower end of the NJ $9-$16+ range Josten Roofing reports, so it fits an Essex County warehouse or agricultural structure that accepts a periodic re-fastening cycle as gaskets degrade. Standing seam requires minimal recurring maintenance because it carries no exposed fasteners, while corrugated needs periodic re-fastening as its gaskets degrade.",
@@ -600,7 +600,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation rests on what published standards and lifespan data document about concealed versus exposed fasteners, not on any single installer's opinion.",
     "sections": [
       {
-        "heading": "What Do Roofing Standards Favor Between Concealed and Exposed Fasteners?",
+        "heading": "Roofing Standards Favor Concealed Fasteners for Leak Resistance",
         "body": [
           "**Roofing standards favor concealed fasteners** for leak resistance: per NRCA-attributed guidance, concealed-fastener roofs produce fewer leaks than exposed-fastener roofs, the split that separates standing seam from corrugated metal.",
           "**Standing seam** is a concealed-fastener metal roof covering whose panels interlock over hidden clips with no roof-penetrating fasteners in the panel field, so water entry is confined to the seam and flashing details only. **Corrugated metal** is an exposed-fastener covering screwed through the panel face, staking its watertightness on hundreds of gasketed screw holes that each form a potential leak point.",
@@ -609,7 +609,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation and Climate Factors Decide How Long Each Metal Roof Lasts in NJ?",
+        "heading": "Gasket Degradation and Thermal Movement Decide Metal-Roof Longevity in NJ",
         "body": [
           "**Gasket degradation and thermal movement** decide metal-roof longevity in New Jersey: Newark freeze-thaw cycling hardens and cracks corrugated's exposed gaskets per the NOAA 1991-2020 normals, while standing seam carries no exposed seal in the panel field.",
           "**Newark freeze-thaw cycling** runs against the NOAA 1991-2020 normals at Newark Liberty (~31.5 in. annual snowfall, January average low near 25.5 degrees F), and that cycling hardens and cracks corrugated's exposed-fastener gaskets so the seal fails decades before the steel, per the NOAA normals. **Standing seam** sidesteps the problem because its concealed clips carry no exposed seal where freeze-thaw can reach it.",
@@ -618,7 +618,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does Corrugated Still Make Sense, and What Mistakes Shorten a Metal Roof's Life?",
+        "heading": "Corrugated Still Fits Budget-Governed Warehouse and Agricultural Roofs",
         "body": [
           "**Corrugated metal makes sense on budget-governed warehouse and agricultural roofs:** it installs faster as screw-down panels at the lower end of the NJ $9-$16+ per-square-foot metal range Josten Roofing reports, where the exposed-fastener re-fastening cycle is acceptable.",
           "**Budget-governed structures** roof more square footage per dollar with corrugated at the lower end of that Josten Roofing range, so an Essex County warehouse, detached garage, or barn fits the exposed-fastener profile, while standing seam at the upper end suits the residential or client-facing roof that stays leak-free across a 40-70-year service life per This Old House. **A corrugated or standing seam re-roof** on a commercial or multi-family building triggers the NJ UCC permit threshold once it exceeds 25% of the roof area in 12 months per N.J.A.C. 5:23-2.7, while a detached one- or two-family re-roof stays ordinary maintenance with no permit.",
@@ -641,7 +641,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The deciding factor is how the roof gets used and where the budget leads, so the choice turns on install and repair cost, Newark's climate fit, and the traffic the deck carries.",
     "sections": [
       {
-        "heading": "What Does Each Membrane Cost to Install and Repair on an Essex County Flat Roof?",
+        "heading": "TPO and Modified Bitumen Installed Costs on an Essex County Flat Roof",
         "body": [
           "**TPO** installs at $8.00–$12.00 per NJ square foot, per Josten Roofing, while **modified bitumen** falls inside the broader flat-roof bracket of $2.50–$10.00 per square foot, per HomeGuide, so no per-foot head-to-head winner holds without a sourced standalone modified-bitumen figure. Modified bitumen is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet, styrene-butadiene-styrene or atactic polypropylene, over 2–3 reinforced base plies, while TPO is a single-ply thermoplastic-polyolefin membrane heat-welded at the seams.",
           "**TPO** at $8.00–$12.00 per NJ square foot sits in the same low-slope band as EPDM at $7.00–$10.00 and PVC at $6–$12, per Josten Roofing, because NJ flat-roof pricing runs roughly 10–40% above national averages on higher labor and stricter code, per Josten Roofing. The membranes also install by different methods: modified bitumen goes down torch-applied or by cold-adhesive, where the cold-adhesive method uses no open flame and costs slightly more than torch-applied, while TPO joins by hot-air heat-welded seams with no flame, per NRCA.",
@@ -649,7 +649,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Membrane Fits Newark's Climate and NJ Flat-Roof Code?",
+        "heading": "TPO's Reflective White Surface Fits a Cooling-Driven Newark Roof",
         "body": [
           "**TPO** fits a cooling-driven roof through reflectance: its white surface carries roughly 0.70–0.85 initial solar reflectance and roughly 0.80–0.90 thermal emittance per ASTM C1549, CRRC-listed, while modified bitumen's dark granule cap absorbs solar load, per CRRC.",
           "**TPO reflectance** reduces peak summer cooling demand 11–27% in air-conditioned buildings, per the EPA, and keeps the roof surface over 50 degrees F below a conventional roof on a sunny afternoon, per the DOE, though Newark's heating-dominated IRC Climate Zone 4A–5 carries a winter heating offset that narrows the net annual benefit, per the DOE and EPA. Roof reflective performance is rated by reflectance and emittance, not R-value, per CRRC, and NJ adopted the 2021 IECC for ceiling insulation (R-60, Zones 4–5) but sets no cool-roof reflectance mandate for low-slope residential, per the DOE, EPA, and NJ DCA energy subcode.",
@@ -658,7 +658,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Decide Between Them — What Is the Deciding Factor?",
+        "heading": "Foot Traffic and Rooftop Equipment Favor Modified Bitumen",
         "body": [
           "**Foot traffic and rooftop equipment** favor modified bitumen: its 2–3 reinforced plies form a thick membrane that resists dropped tools and equipment placement, while single-ply TPO benefits from walk pads in high-traffic lanes, per NRCA. On the InterNACHI life-expectancy chart, modified bitumen rates 20 years against TPO's 7–20 years, with TPO commonly cited at 15–25 years in practice, per Progressive Materials.",
           "**Puncture risk** also points to modified bitumen, because its multi-ply construction provides redundancy so a surface gouge meets additional plies before reaching the deck, whereas a puncture breaches single-layer TPO outright, per NRCA technical guidance. A roof carrying frequent HVAC service, rooftop equipment, or an accessible deck section absorbs the foot traffic that punctures single-ply membranes, so the redundant assembly answers that demand directly.",
@@ -680,7 +680,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation tracks the roof's profile, because the named standards split cleanly between reflectance-driven flat roofs and traffic-driven flat roofs rather than crowning one membrane.",
     "sections": [
       {
-        "heading": "What Do the Roofing Standards Actually Favor for Each Roof Profile?",
+        "heading": "NRCA Guidance Favors Modified Bitumen on High-Traffic Roofs",
         "body": [
           "**NRCA foot-traffic guidance** favors modified bitumen on roofs carrying frequent foot traffic or rooftop equipment, because its 2-3 reinforced plies resist dropped tools and equipment placement that single-ply TPO absorbs, per NRCA.",
           "**Modified bitumen multi-ply construction** provides built-in redundancy under NRCA technical guidance, so a surface gouge meets additional plies below before reaching the deck, whereas a puncture breaches single-layer TPO outright. That redundancy is why NRCA flags single-ply TPO for walk pads in high-traffic lanes while modified bitumen carries the equipment-service traffic of a working flat roof. On the InterNACHI life-expectancy chart, modified bitumen rates 20 years against TPO's 7-20 years, with TPO commonly cited at 15-25 years in practice, per Progressive Materials.",
@@ -688,7 +688,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation and Seam Factors Decide Long-Term Performance?",
+        "heading": "The Seam Method Decides Long-Term Membrane Performance",
         "body": [
           "**The seam method** decides long-term performance, because TPO joins by hot-air heat-welded seams whose welded-seam failure is its dominant mode, while modified bitumen installs torch-applied or cold-adhesive, per NRCA. The two membranes fail in contrasting ways, so the install detail that matters differs between them.",
           "**TPO seam welding** sets the membrane's service life, since NRCA attributes TPO's primary failure to welded-seam failure plus thermal-shock cracking as plasticizers migrate and the membrane hardens. A correctly welded continuous seam is the factor that holds a TPO roof to its 15-25-year in-practice range, per Progressive Materials, because the welded joint, not the membrane field, is where TPO comes apart. TPO seam re-welds run $200-$400 with patches $300-$500, per Modernize, so seam repair on a single-ply roof stays narrow and localized.",
@@ -696,7 +696,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Flat-Roof Mistakes Shorten Membrane Life in NJ?",
+        "heading": "Ponding Water Shortens Membrane Life on Either Flat-Roof System",
         "body": [
           "**Ponding water** shortens membrane life on either system, because neither modified bitumen nor TPO tolerates chronic ponding, NJ building code requires positive drainage, and tapered insulation under either membrane directs water to drains, per NRCA. Modified bitumen's multi-ply construction carries slightly more ponding tolerance than single-ply TPO, per NRCA, but neither membrane is specified to sit in standing water indefinitely, so a drainage plan precedes the membrane choice on a Newark flat roof.",
           "**Skipping walk pads** on single-ply TPO is the traffic mistake the standards flag, since TPO benefits from walk pads in high-traffic lanes while modified bitumen's multi-ply construction carries slightly more ponding tolerance and built-in puncture redundancy, per NRCA. Matching the membrane to the foot-traffic profile before installation is the factor the named guidance ranks above any seam detail, because a single-ply roof asked to absorb equipment traffic it was not specified for fails early at the puncture point.",
@@ -718,7 +718,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice between the two single-ply membranes on an Essex County flat roof turns on three measurable factors: install and repair cost, NJ climate and code fit, and the lifespan-versus-cooling trade-off.",
     "sections": [
       {
-        "heading": "What Does Each Membrane Cost to Install and Repair on an NJ Flat Roof?",
+        "heading": "EPDM Rubber Roofing Installs Cheaper Than TPO on an NJ Flat Roof",
         "body": [
           "**EPDM rubber roofing** installs cheaper than **TPO** in NJ, at $7.00-$10.00 per square foot versus $8.00-$12.00, per Josten Roofing. The narrow installed-cost gap then narrows further at the repair stage, where the two single-ply membranes diverge on method rather than headline price.",
           "**EPDM rubber roofing** repairs without a welder: a crew cleans, primes, and applies a cover patch, holding a small NJ flat-roof patch in the $300-$500 band per HomeGuide and Modernize, and a residential minor-leak repair in the $150-$500 band per Angi. The adhesive-or-tape seam reseals with primer and a cover patch rather than specialized equipment, which keeps the recurring repair cost low across the membrane's charted 15-25-year life, per InterNACHI.",
@@ -726,7 +726,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Membrane Fits Essex County's Climate and NJ Uniform Construction Code Re-Roof Rules?",
+        "heading": "NJ Code Treats an EPDM or TPO Re-Roof on a Detached 1- or 2-Family Home as Maintenance",
         "body": [
           "**The NJ Uniform Construction Code** treats a full re-roof in EPDM rubber roofing or TPO as ordinary maintenance on a detached 1- or 2-family dwelling — no permit, inspection, or notice, per N.J.A.C. 5:23-2.7 and the NJ DCA's 2018 alert. Both membranes meet that standard identically on a typical Essex County home's flat section, and TPO reaches NJ cool-roof relevance through the NJ Clean Energy Program's reflective-roof framing while EPDM meets the same acceptance without a reflective surface, per the NJ Clean Energy Program.",
           "**The NJ Uniform Construction Code** then diverges on larger and commercial work: it requires a permit once flat-roof work on a commercial, condo, or attached building exceeds 25% of roof area within a 12-month period, or turns structural by cutting load-bearing support, per N.J.A.C. 5:23-2.7(b) and 5:23-2.7(c). That trigger applies to either membrane equally.",
@@ -734,7 +734,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Membrane Do You Choose — Lifespan, Seam Repairability, or Cooling Load?",
+        "heading": "EPDM Rubber Roofing Wins on Charted Lifespan and Field-Repairable Seams",
         "body": [
           "**EPDM rubber roofing** is the choice when charted longevity and field-repairable seams lead. It lasts 15-25 years on the InterNACHI chart versus TPO's 7-20 (commonly cited 15-25 in field practice, per Progressive Materials), and its adhesive-and-tape seams patch without a hot-air welder, per InterNACHI and NRCA guidance. The primary EPDM failure mode is seam separation, with puncture, membrane shrinkage pulling the sheet from penetrations, and ponding-water stretching as the secondary modes, per NRCA-attributed trade data.",
           "**TPO** is the choice when summer cooling load leads: its reflective white surface lowers roof-surface temperature through solar reflectance and thermal emittance — rated by the Cool Roof Rating Council, not by R-value — while black EPDM absorbs that heat, per the CRRC and the DOE. An elastomeric white coating can raise an EPDM roof's reflectance, but it reapplies on a cycle, and white EPDM still uses adhesive seams, per Firestone-attributed industry guidance. TPO's primary failure mode is welded-seam breakdown, with chemical attack from rooftop grease and equipment and thermal-shock cracking as plasticizers migrate out and the sheet hardens, per NRCA technical guidance.",
@@ -756,7 +756,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The standards-grounded recommendation reads off the life-expectancy data, the reflectance ratings, and the seam-repair method rather than a default membrane preference.",
     "sections": [
       {
-        "heading": "What Do the Standards and Life-Expectancy Data Actually Favor?",
+        "heading": "Life-Expectancy Data Favors EPDM, Reflectance Ratings Favor TPO",
         "body": [
           "**The InterNACHI life-expectancy chart** favors EPDM rubber roofing for charted longevity at 15-25 years versus TPO's 7-20, while ASTM C1549 reflectance ratings favor TPO's ~0.70-0.85 white surface for cooling load, per InterNACHI and the CRRC.",
           "**EPDM rubber roofing** carries the longer charted life on the InterNACHI chart at 15-25 years, with TPO commonly cited at 15-25 years in field practice though the chart records 7-20, per InterNACHI and Progressive Materials. EPDM also installs cheaper in NJ at $7.00-$10.00 per square foot versus TPO's $8.00-$12.00, per Josten Roofing, so the longevity-and-cost data points toward EPDM where durability leads. EPDM ships black because carbon black acts as its UV stabilizer, and black EPDM outlasts white EPDM; a white EPDM line exists but still uses adhesive seams, per Firestone-attributed industry guidance.",
@@ -764,7 +764,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation and Seam-Method Factors Decide Each Membrane's Longevity?",
+        "heading": "Seam Method Decides Each Membrane's Repairability and Failure Mode",
         "body": [
           "**The seam method** decides each membrane's repairability and dominant failure. EPDM rubber roofing joins panels with adhesive or seam tape, so its primary failure is seam separation, while TPO hot-air-welds its seams, so its primary failure is welded-seam breakdown, per NRCA-attributed trade data.",
           "**EPDM rubber roofing** patches without a welder — a clean, prime, and cover-patch repair that holds NJ small-patch flat-roof repairs in the $300-$500 band, per Josten Roofing and Modernize, with a small residential minor-leak repair sitting in the $150-$500 band, per Angi. Its secondary failure modes are puncture, membrane shrinkage that pulls the sheet from penetrations and perimeters, and ponding-water stretching, per NRCA-attributed trade data, so installation that seals penetrations and avoids ponding extends its charted life. An existing EPDM commercial field also simplifies a like-for-like re-cover, since adhesive-and-tape seams add to the existing membrane without the welder a full TPO conversion requires, per NRCA installation guidance.",
@@ -772,7 +772,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Flat-Roof Decisions Do NJ Building Owners Get Wrong?",
+        "heading": "Common NJ Mistakes: Overrated TPO Cooling, Missed Permit Triggers, Skipped Seam Checks",
         "body": [
           "**The common flat-roof mistakes** are overestimating TPO's cooling benefit in a heating-dominated climate, missing the NJ UCC 25%-in-12-months permit trigger, and skipping seam inspection, the failure point both membranes share, per the DOE, N.J.A.C. 5:23-2.7, and NRCA-attributed trade data.",
           "**Overestimating TPO's cooling benefit** ignores that Newark sits in heating-dominated Climate Zone 4A-5, so TPO's summer cooling reduction carries a winter heating offset, per the DOE. Cool-roof performance is rated by solar reflectance and thermal emittance by the Cool Roof Rating Council, not by R-value, so the EPA's 11-27% figure measures peak cooling demand in air-conditioned buildings rather than a year-round energy cut. On Essex County homes, EPDM's black sheet suits low-visibility flat sections — porches, additions, and garage roofs — inconspicuously, while TPO's white reflective sheet suits sun-exposed sections, so the surface choice tracks exposure rather than a blanket cooling claim, per the DOE.",
@@ -794,7 +794,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Both are western red cedar, so the choice turns on three things: how each cuts and wears, what each costs to keep, and which one your Essex County roofline and NJ code path call for.",
     "sections": [
       {
-        "heading": "How Do Cedar Shakes and Wood Shingles Differ in Cut, Thickness, and Face?",
+        "heading": "Cedar Shakes Are Thick and Hand-Split, Wood Shingles Thin and Sawn Uniform",
         "body": [
           "**Cedar shake** is a thick western red cedar unit hand-split or taper-sawn into an irregular, textured face, while a **wood shingle** is the thinner same-species unit machine-sawn to a uniform thickness, per the Cedar Shake & Shingle Bureau.",
           "**Cedar shake** reads as a rough plane with deep shadow lines and sells as hand-split-and-resawn or taper-sawn product, with the top grades cut from all-heartwood, edge-grain stock and graded against the standards the Cedar Shake & Shingle Bureau publishes. Each course sets over an air-spaced deck so the underside dries after rainfall, which is why a cedar roof reads as a series of shadowed, textured rows rather than a flat surface. The split-versus-sawn face is the defining difference between the two, not the species, since both are western red cedar prized for natural decay resistance.",
@@ -802,7 +802,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Cedar Roof Lasts Longer and Costs More to Maintain in NJ?",
+        "heading": "Wood Shingles Carry the Longer Rated Life at 30-50 Years in NJ",
         "body": [
           "**Wood shingles** carry the longer rated life at 30-50 years and **cedar shakes** the shorter at 20-40 years, per the Cedar Shake & Shingle Bureau, against the InterNACHI life-expectancy chart's single 25-year 'Wood' row covering both.",
           "**Cedar shakes** at 20-40 years degrade through moisture-driven cupping, edge splitting, and rot beneath cupped shakes, and the units need at least 1.5 inches of air space beneath them for drying, per the Cedar Shake & Shingle Bureau and NPS Preservation Brief 19. **Wood shingles** at 30-50 years lose service life fastest on north-facing, shaded slopes where moss and algae accumulate as prolonged moisture drives biological growth, per the Cedar Shake & Shingle Bureau. Both products share that moss and algae accumulation on shaded slopes, not just one, per the InterNACHI chart and NPS Preservation Brief 19.",
@@ -811,7 +811,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Cedar Roof Fits Your Essex County Home and NJ Code?",
+        "heading": "Cedar Shakes Suit Rustic Facades, Wood Shingles Suit Formal Colonials",
         "body": [
           "**Cedar shakes** suit textured, handcrafted facades such as Craftsman bungalows and rustic colonials, while **wood shingles** suit the formal, uniform rooflines of formal colonials and Cape Cods, per the Cedar Shake & Shingle Bureau and NPS Preservation Brief 19.",
           "**Cedar shakes** read as handcrafted, their hand-split-and-resawn and taper-sawn grades casting deep shadow lines across the plane, while **wood shingles** lay flat for an orderly roofline. One more fastener rule applies to both: red cedar takes hot-dipped zinc-coated, aluminum, or stainless-steel nails, not copper, because a chemical reaction between cedar and copper shortens the roof's life, per NPS Preservation Brief 19.",
@@ -834,7 +834,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Between two western red cedar products, the published lifespans, the install standards, and the local code path settle the recommendation rather than any single material being the better choice.",
     "sections": [
       {
-        "heading": "What Do the CSSB and NPS Preservation Brief 19 Actually Favor?",
+        "heading": "The CSSB Rates Wood Shingles 30-50 Years, Cedar Shakes 20-40",
         "body": [
           "**The Cedar Shake & Shingle Bureau** assigns wood shingles a 30-50 year rated life against cedar shakes' 20-40 years, so the evidence favors the sawn shingle for a longer rated range and the hand-split shake for a thicker, textured plane.",
           "**The Cedar Shake & Shingle Bureau** also grades the cedar itself: the top grades use all-heartwood, edge-grain stock, and cedar shakes divide into hand-split-and-resawn and taper-sawn grades. The InterNACHI life-expectancy chart, by contrast, lists a single 25-year 'Wood' row covering both shakes and shingles, so the CSSB grade distinction is what separates a top-grade cedar roof from the chart's flat average. Both products are the same western red cedar, prized for its natural decay resistance, and the split-versus-sawn face is the defining difference the bureau records.",
@@ -842,7 +842,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation Factors Decide a Cedar Roof's Real Lifespan in NJ?",
+        "heading": "Installation to CSSB and NPS Preservation Brief 19 Decides a Cedar Roof's Lifespan",
         "body": [
           "**Installation to the Cedar Shake & Shingle Bureau and NPS Preservation Brief 19** decides whether a cedar roof reaches its rated life: the deck carries at least 1.5 inches of air space for drying, and the fasteners stay corrosion-resistant.",
           "**The air-spaced deck** lets each course dry from underneath after rainfall, the detail that holds back the moisture-driven cupping, edge splitting, and rot beneath cupped shakes that mark a shake roof's failure modes, per the Cedar Shake & Shingle Bureau and NPS Preservation Brief 19. **The fasteners** are hot-dipped zinc-coated, aluminum, or stainless steel, never copper, because a chemical reaction between cedar and copper shortens the roof's life, per NPS Preservation Brief 19 — the opposite of the copper that slate and clay tile take, so the fastener choice tracks the covering rather than the building.",
@@ -850,7 +850,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Common Homeowner Mistakes Shorten a Cedar Roof in Essex County?",
+        "heading": "The Homeowner Mistakes That Shorten a Cedar Roof in Essex County",
         "body": [
           "**The common mistakes** that shorten a cedar roof are copper fasteners, skipping the fungicide-algaecide cycle, ignoring north-facing moss and algae, and assuming untreated cedar carries a fire rating. Each runs against the CSSB and NPS Preservation Brief 19 guidance that sets the roof's rated life.",
           "**Skipping the fungicide-algaecide cycle** forfeits the maintenance that holds the rated life: periodic treatment at $0.15-$0.60 per square foot every few years, per HomeGuide, plus prompt replacement of cupped or split units. On north-facing, shaded Essex County slopes, both products accumulate moss and algae as prolonged moisture drives biological growth, per the InterNACHI chart and NPS Preservation Brief 19, so the shaded plane is where deferred maintenance costs the most service life. A UV-inhibiting preservative reapplied with that cycle also slows the silver-gray weathering as UV degrades the untreated surface, per HomeGuide.",
@@ -872,7 +872,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The decision turns on three questions a building owner weighs in order: which membrane lasts longer against repair cost, which fits the building and NJ code, and where each one wins.",
     "sections": [
       {
-        "heading": "Which Flat Roof Lasts Longer, and How Does That Weigh Against Repair Cost?",
+        "heading": "BUR Lasts 30 Years to Modified Bitumen's 20 at the Same Repair Cost",
         "body": [
           "**Built-up roofing (BUR)** lasts 30 years versus modified bitumen's 20, per the InterNACHI life-expectancy chart, so BUR leads on service life by a decade while both membranes carry the same flat-roof repair cost.",
           "**Built-up roofing (BUR)** reaches 30 years through 3-5 alternating plies of hot-mopped asphalt and reinforcing felt, a redundant assembly that holds waterproofing even if one ply fails, with surface erosion and ply ridging as its aging modes. **Modified bitumen** reaches 20 years on 2-3 polymer-reinforced sheets, where its SBS or APP polymers resist the UV oxidation that drives blistering, alligator cracking, and flashing separation.",
@@ -880,7 +880,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Membrane Fits the Building and NJ Code?",
+        "heading": "Modified Bitumen Fits Occupied Buildings, BUR Fits Unoccupied Commercial Decks",
         "body": [
           "**Modified bitumen** fits occupied buildings and residential flat sections, while **built-up roofing (BUR)** fits larger unoccupied commercial decks, because modified bitumen installs by cold adhesive or self-adhered roll without a hot-asphalt kettle.",
           "**Modified bitumen** cold-adhesive and self-adhered methods place the sheet with no open kettle, so on an Essex County occupied office, retail, or medical building they install without the asphalt fumes BUR's hot-mopping releases over the space. **Modified bitumen** also suits an Essex County home's porch, dormer, or addition deck on a residential lot, where **built-up roofing (BUR)** brings a hot-asphalt kettle and gravel ballast better matched to large low-slope decks.",
@@ -888,7 +888,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does BUR Win, and When Does Modified Bitumen Win?",
+        "heading": "BUR Wins on Service Life, Modified Bitumen Wins for Occupied Buildings",
         "body": [
           "**Built-up roofing (BUR)** wins when service life leads, and **modified bitumen** wins when an occupied building rules out a hot-asphalt kettle or when cold flexibility matters, per the InterNACHI chart and regional climate estimates.",
           "**Built-up roofing (BUR)** is the choice on a large unoccupied commercial deck such as a warehouse, where its 30-year multi-ply gravel membrane and ply redundancy outweigh kettle fumes that no occupant breathes. **Modified bitumen** is the choice over an occupied building or a residential flat section, where the kettle-free install limits disruption and its SBS or APP polymers keep the sheet flexible across the 35 to 45 freeze-thaw cycles a north-NJ winter delivers, per regional climate estimates, while straight-asphalt BUR plies stiffen in extreme cold.",
@@ -910,7 +910,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation tracks named lifespan, cost, and code sources rather than any single rule, because service life and kettle-free installation point to different membranes on different buildings.",
     "sections": [
       {
-        "heading": "What Do the Named Standards and Lifespan Data Favor?",
+        "heading": "The InterNACHI Chart Favors BUR: 30 Years to Modified Bitumen's 20",
         "body": [
           "**The InterNACHI life-expectancy chart** favors built-up roofing for raw service life, recording BUR at 30 years against modified bitumen's 20, a ten-year edge that anchors any standards-grounded recommendation between the two low-slope membranes. Built-up roofing remains a 30-year multi-ply system still used on NJ commercial and industrial flat roofs, per that same chart.",
           "**Built-up roofing** reaches that 30-year figure through 3-5 alternating plies of hot-mopped asphalt and reinforcing felt surfaced with gravel ballast, an assembly whose redundancy keeps waterproofing intact even if one ply fails, per the InterNACHI chart. Surface erosion and ply ridging define its aging path rather than sudden breach, and a BUR repair recoats eroded plies and reseals the surface, holding within the $300-$1,100 NJ flat-roof range, per HomeGuide, until the membrane damage reaches the 25-30% threshold.",
@@ -918,7 +918,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation and Climate Factors Decide Longevity in NJ?",
+        "heading": "Installation Method Decides: BUR Needs a Hot Kettle, Modified Bitumen Does Not",
         "body": [
           "**Installation method** decides which membrane fits a given Essex County building. Built-up roofing requires a hot-asphalt kettle that mops molten asphalt between felt plies, while modified bitumen installs by torch, cold adhesive, or self-adhered roll with no kettle at all.",
           "**The hot-asphalt kettle** that fuses BUR's multi-ply redundancy releases asphalt fumes over the building, so over an occupied office, retail, or medical building the modified-bitumen cold-adhesive and self-adhered methods install with no kettle fumes or open flame. On a large unoccupied warehouse deck, BUR's gravel-surfaced multi-ply system stays the 30-year choice, per the InterNACHI chart, where the kettle process is tolerable away from occupants.",
@@ -926,7 +926,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What NJ-Code Factors Should Guide the Recommendation?",
+        "heading": "NJ Code Makes a Re-Roof on a Detached 1- or 2-Family Home Ordinary Maintenance",
         "body": [
           "**NJ code** scopes the recommendation before any membrane is chosen. The NJ Uniform Construction Code treats a re-roof of either built-up roofing or modified bitumen on a detached 1- or 2-family dwelling as ordinary maintenance with no permit, per N.J.A.C. 5:23-2.7.",
           "**The 25% commercial permit threshold** governs flat-roof work on a commercial building, where the NJ Uniform Construction Code requires a permit once a repair exceeds 25% of roof area within 12 months, per N.J.A.C. 5:23-2.7. The ordinary-maintenance exemption covers only detached 1- and 2-family dwellings, so a commercial built-up roofing or modified-bitumen re-roof crosses that permit line regardless of which membrane the building owner selects.",
@@ -948,7 +948,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Insulation need versus maintenance tolerance is the fork in the decision, and the installed cost, the NJ climate-and-code fit, and a short checklist resolve which way the deck points.",
     "sections": [
       {
-        "heading": "How Do Spray Foam and TPO Compare on Installed Cost in NJ?",
+        "heading": "Spray Foam Installs Cheaper Than TPO in NJ: $4-$8 vs $8-$12 Per Square Foot",
         "body": [
           "**Spray polyurethane foam** installs cheaper than **TPO** in NJ — SPF runs $4–$8 per square foot and TPO $8–$12, per commercial cost guides and Josten Roofing (NJ). The gap traces to how each system stacks its layers.",
           "**Spray polyurethane foam** carries the lower entry cost because one spray pass lays membrane, insulation, and air barrier together in a single field-sprayed, seamless monolithic application, removing the separate polyiso layer, per commercial cost guides and the SPFA. **TPO** runs higher per square foot because the single-ply thermoplastic-polyolefin membrane is heat-welded at the seams and rests over separate polyiso insulation boards, stacking material layers and labor beneath the covering, per commercial cost guides and NRCA guidance.",
@@ -957,7 +957,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Roof Fits NJ Climate and Code — Insulation, Reflectance, and the UCC Permit Trigger?",
+        "heading": "SPF Insulates and TPO Reflects: Matching Each Roof to NJ Climate and Code",
         "body": [
           "**Spray polyurethane foam** insulates and **TPO** reflects — SPF adds R-6.0–6.5 per inch of aged insulation per ICC-ES reports and the SPFA, while white TPO carries a solar reflectance of 0.70–0.85 per ASTM C1549 and the CRRC, not R-value. Each suits a different NJ deck.",
           "**Spray polyurethane foam** builds R-6.0–6.5 per inch into the covering measured by the ASTM C1289 LTTR method, so two inches adds roughly R-12–R-13, integrating the air barrier and insulation that NJ's 2021 IECC ceiling target of R-60 otherwise reaches through separate polyiso layers, per ICC-ES and the 2021 IECC. **White TPO** carries reflectance instead, cutting peak cooling demand 11–27% in air-conditioned buildings per the EPA and staying over 50°F cooler than a conventional roof per the DOE — a daytime cooling edge that northern New Jersey's heating-dominated winters partly offset.",
@@ -965,7 +965,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Should You Choose — the SPF-vs-TPO Decision Checklist by Insulation, Height, and Maintenance?",
+        "heading": "The SPF-vs-TPO Decision Checklist: Insulation, Deck Height, and Maintenance",
         "body": [
           "**Insulation need, deck height, and maintenance tolerance** form the three-part checklist that resolves the choice between spray polyurethane foam and TPO, per ICC-ES, the SPFA, and NRCA guidance.",
           "**Insulation and deck height** point to spray polyurethane foam where polyiso stacks would raise the roof past door thresholds or a parapet, because SPF delivers R-6.0–6.5 per inch in minimal thickness on a low-slope porch or addition without the height buildup separate boards force, per ICC-ES and the SPFA. **Maintenance tolerance** points to TPO where periodic seam inspection beats committing to SPF's 10–20-year recoat cycle, per the SPFA and NRCA, and the NRCA requires positive drainage beneath any spray-foam roof to prevent the coating erosion and blistering that ponding invites.",
@@ -987,7 +987,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Each recommendation traces to a published standard rather than a field opinion, so the decision rests on what ICC-ES, the SPFA, NRCA, and the CRRC actually measure.",
     "sections": [
       {
-        "heading": "What Do the Standards Favor for Spray Foam Versus TPO?",
+        "heading": "The Standards Favor SPF for Insulation and TPO for Reflectance",
         "body": [
           "**The standards favor spray polyurethane foam** for built-in insulation and **TPO** for reflectance and year-round install. ICC-ES reports and the SPFA credit SPF with R-6.0–6.5 per inch of aged insulation, while TPO carries no built-in R-value and rests over separate polyiso boards, per NRCA guidance.",
           "**Spray polyurethane foam** earns its standing where thermal performance in minimal height drives the deck: ICC-ES reports the foam at R-6.0–6.5 per inch measured by the ASTM C1289 LTTR method, so two inches adds roughly R-12–R-13, integrating the air barrier and insulation that NJ's 2021 IECC ceiling target of R-60 otherwise reaches through stacked polyiso layers, per ICC-ES and the 2021 IECC. The SPFA documents the single field-sprayed pass that lays membrane, insulation, and air barrier together, which is why SPF installs at $4–$8 per square foot against TPO's $8–$12 over separate polyiso, per commercial cost guides and Josten Roofing in NJ.",
@@ -995,7 +995,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation-Quality Factors Decide Longevity?",
+        "heading": "Installation Quality Decides Longevity: SPF Recoats and TPO Seam Welds",
         "body": [
           "**Installation-quality factors** decide longevity: SPF's recoat cycle and positive drainage govern its 30-plus-year life, while TPO's welded-seam integrity governs its 7–20-year rating, per the SPFA and the InterNACHI life-expectancy chart.",
           "**Spray polyurethane foam** lasts 30-plus years only while its coating holds, because the foam is UV-sensitive and erodes under ponding, so the SPFA sets a recoating cycle of 10–20 years — acrylic on a 10–15-year cadence and silicone on a 15–20-year cadence. The NRCA requires positive drainage beneath the foam to prevent the coating erosion and blistering that the SPFA and NRCA flag as SPF's primary failure modes, alongside adhesion loss from trapped moisture or poor surface prep.",
@@ -1003,7 +1003,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Common Essex County Mistakes Shorten a Flat Roof's Life?",
+        "heading": "Common Essex County Mistakes: Lapsed Recoating, Ponding, and TPO Seam Wear",
         "body": [
           "**The common mistakes** the standards flag on an Essex County flat roof are lapsed SPF recoating, ponding water, and unaddressed TPO seam wear — each leaves a UV-sensitive surface or a failing weld exposed, per the SPFA and NRCA.",
           "**Lapsed SPF recoating** undoes the system, because the SPFA's 10–20-year recoat cycle exists to keep the UV-sensitive foam protected; once the coating thins, the foam degrades, and **ponding water** compounds it by eroding the coating where the NRCA-required positive drainage is missing, per the SPFA and NRCA. The drainage requirement is not optional maintenance — NRCA guidance ties it directly to the blistering and coating erosion that shorten an SPF roof's life.",
@@ -1025,7 +1025,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice turns on whether your deck can carry a vegetated assembly and whether a stormwater mandate justifies its premium over a far lighter, cheaper membrane.",
     "sections": [
       {
-        "heading": "What Does Each Roof Cost in NJ, and Where Does Long-Term Value Land?",
+        "heading": "A Green Roof Costs More Upfront Than a Traditional Membrane in NJ",
         "body": [
           "**A green roof** costs far more upfront than **traditional membrane roofing** in NJ: an extensive sedum roof installs at $10-$25 per square foot and an intensive roof at $20-$35, against $5-$10 for an EPDM or TPO membrane, per HomeAdvisor.",
           "**A green roof's** premium runs about $10.30-$12.50 per square foot above a conventional black roof on an institutional building, per GSA measurements, before annual maintenance of $0.75-$2 per square foot extensive or $1.50-$4 intensive, per HomeAdvisor. The two types split at the growing-medium depth: an extensive roof carries 6 inches or less of lightweight sedum, an intensive roof 6 inches or greater of garden-depth medium, per the NJ Stormwater BMP Manual Ch 9.4. **Traditional membrane roofing** carries periodic inspection only, with no growing-medium upkeep, which keeps its lifetime maintenance load low, and it splits into four exposed low-slope types — EPDM, TPO, modified bitumen, and BUR.",
@@ -1033,7 +1033,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Roof Fits Essex County's Climate and NJ Code?",
+        "heading": "Green Roofs Earn NJ Stormwater Credit but Trigger Code Review",
         "body": [
           "**A green roof** fits an Essex County building with a stormwater obligation, earning NJ runoff-quantity credit a bare membrane never earns, but it triggers NJ code review that traditional membrane roofing avoids, per the NJ Stormwater BMP Manual Ch 9.4.",
           "**The NJ Stormwater BMP Manual** Ch 9.4 lists a green roof as an accepted Green Infrastructure BMP earning runoff-quantity credit only — not groundwater-recharge or runoff-quality credit — through a reduced Curve Number tied to growing-medium depth, capped at a 20% maximum roof slope and 85% minimum vegetation density under NJDEP's N.J.A.C. 7:8 stormwater rules amended effective March 2, 2021. **Newark's** dense, combined-sewer layout is the GSA-described case where a green roof relieves combined-sewer overflow most, retaining ~50-60% of annual rainfall and cutting peak runoff up to 65% per Penn State research and the GSA study, while traditional membrane roofing routes 100% to roof drains and the combined sewer.",
@@ -1041,7 +1041,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Decide Between a Green Roof and Traditional Roofing for Your Building?",
+        "heading": "Structural Load Decides First Between a Green Roof and a Membrane Re-Cover",
         "body": [
           "**Structural load** decides first: an intensive green roof's 80-150 lb/sq ft saturated dead load often rules out a retrofit, while an existing deck carries a re-cover membrane without reinforcement, per the NJ Stormwater BMP Manual. A 3-inch extensive system adds far less — GSA measured 20.06 lb/sq ft under ASTM E2397 — but still requires the engineer load check.",
           "**A stormwater mandate** is the second decision point: where runoff quantity drives the project or LEED documentation matters, a green roof earns the NJ runoff-quantity credit and supports a sustainability case, per the NJ Stormwater BMP Manual Ch 9.4. **Cooling priorities** point both ways — a green-roof surface runs up to 56F cooler through evapotranspiration per the EPA, while a reflective white TPO or PVC membrane at 0.70-0.85 initial solar reflectance runs over 50F cooler by reflectance per the Cool Roof Rating Council and DOE, cutting peak cooling demand 11-27% per the EPA, offset by a winter heating penalty in Newark's heating-dominated climate per the DOE.",
@@ -1063,7 +1063,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation turns less on which roof is better in the abstract and more on what the named standards reward, what the install quality protects, and which mistakes the code flags.",
     "sections": [
       {
-        "heading": "What Do the Standards and NJ Code Actually Favor for Each Roof?",
+        "heading": "Standards Favor a Green Roof Only With a Stormwater Mandate and Verified Capacity",
         "body": [
           "**The standards favor a green roof** only where a stormwater mandate and verified structural capacity exist; otherwise they favor traditional membrane roofing. The NJ Stormwater BMP Manual Ch 9.4 lists a green roof as an accepted Green Infrastructure BMP earning runoff-quantity credit, a credit a bare membrane never earns.",
           "**The NJ Stormwater BMP Manual Ch 9.4** grants a green roof runoff-quantity credit through a reduced Curve Number tied to growing-medium depth, capped at a 20% maximum roof slope and 85% minimum vegetation density, but allows neither groundwater-recharge nor runoff-quality credit. NJDEP's N.J.A.C. 7:8 rules, amended effective March 2, 2021, govern that credit and require a recorded deed notice plus a maintenance plan with a leak-detection method, per NJDEP. The credit matters most in dense, combined-sewer Newark, the GSA-described case where a green roof relieves combined-sewer overflow most, given a minimum 3-inch medium on sufficient area.",
@@ -1071,7 +1071,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation-Quality Factors Decide Green-Roof Longevity?",
+        "heading": "Green-Roof Longevity Depends on the Membrane Beneath, Not the Vegetation",
         "body": [
           "**Green-roof longevity** depends on the waterproofing membrane it shields and the leak-detection layer beneath the medium, not the vegetation on top. GSA's model uses 40 years for a shielded membrane versus 17 years for an exposed black roof, per the GSA green-roof study.",
           "**The waterproofing membrane** under the medium gains life because the growing medium blocks the UV radiation and daily thermal cycling that wear exposed membranes out, yet the InterNACHI life-expectancy chart lists vegetated roofs at 5-40 years, the low end reflecting poor installs. By comparison, exposed membranes run EPDM 15-25 years, TPO 7-20, modified bitumen 20, and BUR 30, per the InterNACHI chart and NRCA guidance, so a poorly built vegetated assembly forfeits the GSA protection advantage and lands no better than an exposed membrane.",
@@ -1079,7 +1079,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Mistakes Lead Essex County Owners to the Wrong Choice?",
+        "heading": "Essex County Mistakes: Underestimated Load, Retention Myths, Overlooked Rules",
         "body": [
           "**The common mistakes** are underestimating saturated dead load, assuming retention near 100%, and overlooking the fire-break and deed-notice rules a green roof triggers. GSA measured 20.06 lb/sq ft for a 3-inch extensive system and 42.23 lb/sq ft for a 6-inch semi-intensive system under ASTM E2397.",
           "**Saturated dead load** is the figure owners most often miss: an intensive green roof's 80-150 lb/sq ft often rules out a retrofit, while an existing Essex County deck carries a re-cover membrane without reinforcement, per the NJ Stormwater BMP Manual and Delaware DNREC planning ranges. **Retention near 100%** is the second error, since an extensive sedum roof retains ~50-60% of annual rainfall and an intensive roof ~65-85%, not all of it, per EPA and Penn State research. A green roof cuts peak runoff up to 65% and delays off-site flow up to about 3 hours rather than eliminating it, per the GSA study, so owners who plan around full retention over-size the credit the roof actually earns.",
@@ -1101,7 +1101,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice turns on three measurable factors a homeowner weighs in order: output per dollar, the NJ incentives and code that apply in 2026, and whether the roof is sound or due for replacement.",
     "sections": [
       {
-        "heading": "Which Rooftop Solar Costs Less and Produces More Per Dollar in NJ?",
+        "heading": "Solar Panels Cost Less and Produce More Per Dollar Than Solar Shingles in NJ",
         "body": [
           "**Solar panels** cost less and produce more per dollar than **solar shingles**. Panels run 20-22% efficient at ~$2.50-$4.00 per watt, while BIPV shingles cluster at 14-18% at ~$3.50-$8.00 per watt, per SolarReviews and EnergySage.",
           "**Solar panels** carry the lower entry cost because rack-mounted crystalline-silicon modules of roughly 350-470 watts add power above an existing roof without replacing the covering, so they install at $7-$10 per square foot against the solar shingle's $21-$25, per SolarTech Online and NREL. The higher panel efficiency also extracts more output from less area, so a 6-kW system covers ~250 square feet of panels versus ~360 square feet of shingles, per SolarReviews. Across the BIPV range of 13-23%, the high-efficiency panel still leads the typical solar-shingle module on watts per square foot.",
@@ -1109,7 +1109,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do NJ Incentives and Code Shape the Decision in 2026?",
+        "heading": "NJ Incentives Credit Solar Shingles and Solar Panels Identically",
         "body": [
           "**NJ incentives** credit solar shingles and solar panels identically, so incentives do not break the tie. The NJ SuSI program pays a fixed per-MWh SREC-II over a 15-year term set at registration by the NJ Board of Public Utilities, and both systems are eligible, per NJBPU.",
           "**NJ net metering** applies the same way to either system — N.J.S.A. 48:3-87 requires full retail (1:1) credit for exports up to the customer's annual usage, with net annual surplus settled at the wholesale avoided-cost rate, per the statute and NJBPU. Because eligibility and crediting match across both technologies, the incentive picture favors neither, and the decision returns to output per dollar and roof condition. A homeowner reads the current SuSI rate from the NJ Clean Energy Program at registration, since the per-MWh figure is set then for the full 15-year term.",
@@ -1117,7 +1117,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does Roof Condition Decide Between Integration and Add-On?",
+        "heading": "Roof Condition Decides Between Integrated Shingles and Add-On Panels",
         "body": [
           "**Roof condition** decides between integration and an add-on. Solar shingles pair with a new roof or full reroof and cannot go over an existing roof, while solar panels add to a roof with remaining service life, per CertainTeed and the DOE.",
           "**Solar shingles** suit a house already due for roof replacement, because building-integrated photovoltaics replace the roof covering in one project, folding the covering cost into the solar work — CertainTeed Solstice and similar BIPV lines install on new-roof and reroof work only, not over an existing roof, per CertainTeed and the DOE. That makes integration sensible when a reroof is happening anyway and the flush, roof-integrated look carries weight on a visible Essex County roofline.",
@@ -1139,7 +1139,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation rests on what the named roofing standards and solar aggregators document about attachment, ratings, and roof condition, not on any single installer's field opinion.",
     "sections": [
       {
-        "heading": "What Do the Roofing Standards Favor on Attachment and Waterproofing?",
+        "heading": "How Solar Panels Attach: Flashed Rail Feet That Shed Water Onto Intact Shingles",
         "body": [
           "**Solar panels** attach through flashed lag-bolt rail feet whose upper flange tucks under the upslope shingle course so water sheds onto intact shingles, per NRCA guidance and the DOE.",
           "**Solar panels** keep the existing roof covering in place, so the waterproofing detail that matters is the rail-foot flashing: the flange routes runoff onto the shingle course below it, the same lapping principle the DOE and NRCA apply to any roof penetration. The panels shade the covering but do not extend its service life as established fact; any quantified roof-life extension is marketing, not a verified figure, per NRCA guidance. That flashing detail, not the solar wiring, is the roofing work the standards weigh most.",
@@ -1148,7 +1148,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation-Quality and Code Factors Decide Long-Term Performance?",
+        "heading": "Published Ratings and the Electrical Code Decide Long-Term Performance",
         "body": [
           "**The published ratings and the electrical code** decide long-term performance: BIPV solar shingles list UL 790 Class A fire, UL 2218 Class 4 hail, and ASTM D3161 wind on the manufacturers' datasheets, per those datasheets.",
           "**The BIPV ratings** trace to named datasheets: GAF Energy Timberline Solar lists Class A fire, Class 4 hail, and 130-mph wind on a pitch of 2:12 or steeper, and SunTegra lists 130-mph wind with UL 2218 Class 4, figures set by GAF Energy and SunTegra rather than independently verified by any contractor. Both ratings clear northern NJ's ~110–115 mph design wind under ASCE 7-16, the load standard the NJ Uniform Construction Code adopts, so the published numbers, not an installer's claim, carry the weather case.",
@@ -1156,7 +1156,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Is the Most Common Homeowner Mistake, and How Does Re-Roof Timing Avoid It?",
+        "heading": "The Most Common Mistake: Panels on a Worn Roof — Re-Roof First",
         "body": [
           "**The most common mistake** is racking solar panels onto a roof that outlasts neither the ~25–30-year panels nor the array, forcing a costly mid-life remove-and-reinstall; an industry rule of thumb re-roofs first, the panel-life figure per NREL.",
           "**Solar panels** degrade a median ~0.5% per year to ~85–88% of rated output by year 25–30, per NREL, so a covering with less remaining life than the array sets up a conflict: the roof reaches the end of its service life under a working solar system. The re-roof-first rule of thumb resolves it by replacing the covering while the deck is exposed, before any rail foot is set; the timing is an industry rule of thumb with no named standard, not a verified figure.",
@@ -1179,7 +1179,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The right call turns on three measurable factors — roof age, damage extent, and deck condition — set against the cost difference between a localized fix and a full reinstall.",
     "sections": [
       {
-        "heading": "Which Costs Less, Roof Repair or Replacement?",
+        "heading": "Repair Costs Less Upfront; Replacement Costs Less Per Year on a Worn Roof",
         "body": [
           "**Roof repair** costs less upfront and **roof replacement** costs less per remaining year on a worn roof — minor repair runs $360-$1,550, per Angi, against an Essex County replacement at $10,000-$25,000, per HomeAdvisor and Modernize.",
           "**Roof repair** carries the lower entry cost: an asphalt repair averages about $1,174 and typically runs $366-$1,984, per HomeAdvisor, while a NJ leak repair runs $400-$1,000, per HomeAdvisor. A localized repair costs 5-10x less than full replacement, per Home Depot and Kelly Roofing, though emergency after-hours work adds 25-50%, per Integrity Home Exteriors. That entry-cost gap holds whenever the damage stays isolated and the deck remains sound, the conditions under which a targeted fix restores the weatherproof barrier without touching the rest of the system.",
@@ -1188,7 +1188,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do Roof Age and Damage Extent Decide the Call in NJ?",
+        "heading": "A Roof Under 15 Years With Damage Under 25-30% Favors Repair Over Replacement",
         "body": [
           "**Roof age and damage extent** set the call: a roof under 15 years with damage under 25-30% of the area favors repair, while damage over 25-30% or age past 20 years favors replacement, per the WeatherShield decision rules.",
           "**Damage extent** triggers the contractor rules of thumb — the \"25% rule\" replaces when damage exceeds 25% of roof area, per RapidRestore, and the \"30% rule\" leans to replace when repair cost approaches 30% of replacement cost, per Josten Roofing, Kellow Construction, and Modernize. The widely cited \"50% rule\" replaces when one repair exceeds 50% of replacement cost, per WeatherShield and Home Depot. Architectural asphalt loses repair economy faster, around 15-20% of area, because color and weathering match grows harder, per HomeGuide and Modernize.",
@@ -1196,7 +1196,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does the Repair-or-Replace Checklist Look Like for an Essex County Home?",
+        "heading": "The Repair-or-Replace Checklist for an Essex County Home",
         "body": [
           "**The repair-or-replace checklist** weighs roof age, damage extent, and deck condition against two NJ-specific factors: the Uniform Construction Code permit thresholds and how insurance treats roof age, per N.J.A.C. 5:23-2.7 and NAIC depreciation practice.",
           "**The NJ Uniform Construction Code** treats repair or total replacement of the roof covering on a detached 1- or 2-family dwelling as ordinary maintenance — no permit, inspection, or notice — per N.J.A.C. 5:23-2.7 and the NJ DCA's 2018 alert, while structural work or work exceeding 25% of roof area in 12 months on commercial or attached buildings requires a permit, per N.J.A.C. 5:23-2.7(b) and 5:23-2.7(c). The code caps a roof at two layers, so a two-layer roof forces a full tear-off, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1.",
@@ -1219,7 +1219,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation turns on three evidence sets: the published lifespan and decision rules, the inspection findings that test them, and the mistakes the data flags.",
     "sections": [
       {
-        "heading": "What Do the Standards and Decision Rules Actually Favor?",
+        "heading": "The Decision Rules: Repair Under 15 Years, Replace Past 20",
         "body": [
           "**The decision rules** favor roof repair on a roof under 15 years old with damage under 25-30% of the roof area and a sound deck, and roof replacement past 20 years or beyond that damage threshold, per WeatherShield. The 50% rule replaces once one repair tops 50% of replacement cost.",
           "**The InterNACHI life-expectancy chart** sets the baseline the age rule reads against: an asphalt shingle roof carries a 20-30-year service life, and the NAHB finds an asphalt roof holds most of that design life under 10 years of age, so targeted repair recovers full value early while a past-20-year roof buys diminishing time. The NRCA notes actual lifespan varies up to plus-or-minus 40% by climate, install quality, and maintenance, which is why age alone never decides the call.",
@@ -1227,7 +1227,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Inspection Findings Determine Whether Repair Holds or Replacement Is Required?",
+        "heading": "The Inspection Findings That Decide Repair or Replacement",
         "body": [
           "**A written inspection** of deck condition, underlayment integrity, and damage extent determines whether roof repair holds or roof replacement is required. A localized repair leaves the deck unexposed, while a tear-off exposes and repairs the full deck, per ARMA reroofing guidance.",
           "**Deck condition** is the finding that overrides the area math: where sheathing carries rot or water damage, a surface repair seals the symptom but not the failed substrate, and ARMA reroofing guidance treats the full-deck exposure of a tear-off as the resolution. **Underlayment integrity** sits beneath the covering as the second water barrier, so an inspection that finds the underlayment intact supports a targeted repair, while widespread underlayment failure points to a system-wide reinstall.",
@@ -1235,7 +1235,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Homeowner Mistakes Does the Evidence Flag?",
+        "heading": "The Homeowner Mistake: Stacking Repairs on a Past-20-Year Roof",
         "body": [
           "**The common mistake the evidence flags** is stacking cumulative repairs on a past-20-year roof, since three-plus repairs in two years signals end of life under the WeatherShield rules. A localized repair costs 5-10x less than replacement, per Home Depot and Kelly Roofing, so each repair feels rational.",
           "**The Essex County pattern** sharpens that mistake: the county's median home was built in 1981, so many original roofs now near their 20-30-year asphalt end of life, and older homes report roof leakage at 5.5% versus 3.5% for newer homes, about twice the rate, per US Census housing-survey data. A roof at that age that has needed three-plus repairs in two years meets the WeatherShield replacement threshold rather than a fourth repair.",
@@ -1257,7 +1257,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice turns on three measurable questions: the cost on an Essex County flat roof, the NJ climate-and-code fit, and the four-condition eligibility checklist that qualifies a roof for coating.",
     "sections": [
       {
-        "heading": "Which Costs Less on an Essex County Flat Roof?",
+        "heading": "Roof Coating Costs Less Than Replacement on a Qualifying Flat Roof",
         "body": [
           "**Roof coating** costs less than **roof replacement** on a qualifying flat roof: silicone coating renews a watertight membrane for $1,500–$7,000 per CPS Construction, against NJ replacement at $7.00–$12.00 per sq ft per Josten Roofing.",
           "**Repaint sections** run $1.20–$2.70 per sq ft per CPS Construction, so a coating spreads a small, predictable cost across a sound roof. **Roof replacement** lands a typical NJ flat-roof job inside the $10,000–$25,000 benchmark per Josten Roofing and HomeAdvisor, because tear-off, disposal, and a new EPDM or TPO membrane restart the full assembly. EPDM in NJ runs $7.00–$10.00 per sq ft and TPO $8.00–$12.00 per sq ft per Josten Roofing, so a leaking 500-sq-ft residential section costs roughly $3,500–$5,000 to rebuild.",
@@ -1265,7 +1265,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Fits NJ Climate and Code?",
+        "heading": "NJ Code Treats Coating and Replacement Differently Under N.J.A.C. 5:23-6.4",
         "body": [
           "**NJ code** treats coating and replacement differently: N.J.A.C. 5:23-6.4 (the Rehabilitation Subcode) requires full removal once a roof covering is water-soaked, deteriorated, or already two layers deep, while coating renews a sound membrane without a tear-off and resets nothing.",
           "**Roof replacement** by tear-off resets the layer count and, on a commercial or attached building, triggers a NJ construction permit once roof work exceeds 25% of roof area in any 12-month period, per N.J.A.C. 5:23-2.7(c) and 5:23-6.4. **Roof coating** renews the existing membrane in place, so it adds no layer to the count and avoids the tenant relocation a tear-off forces on an occupied building per RCMA and Modernize, which is why an aging-but-watertight roof on a tenanted building leans toward a coat.",
@@ -1273,7 +1273,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Qualifies a Roof for Coating Versus Replacement?",
+        "heading": "The Four RCMA Conditions That Qualify a Roof for Coating",
         "body": [
           "**Roof coating** qualifies on four conditions, **roof replacement** covers the rest: no active leaks, dry insulation confirmed by infrared scan or core cut, an intact membrane, and positive drainage; a roof failing any condition takes replacement per RCMA.",
           "**Dry insulation** is the decisive test, verified by an infrared moisture survey that locates wet insulation as warm anomalies after sunset under ASTM C1153, confirmed by core cut per InterNACHI. Coating over saturated insulation seals the moisture in and decays the deck, and a flat roof with more than 25–30% membrane damage requires replacement per Parish and Modernize rather than a coat.",
@@ -1296,7 +1296,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation tracks named industry standards rather than installer opinion, so the verdict turns on what RCMA, ASTM, and InterNACHI guidance actually favor for a specific flat roof.",
     "sections": [
       {
-        "heading": "What Do the Roofing Standards Actually Favor?",
+        "heading": "Standards Favor Coating Only on a Sound, Dry, Drained Membrane",
         "body": [
           "**Roof coating** is favored by RCMA and SPFA guidance only on a sound, dry, drained membrane, and the ASTM D6694 silicone versus ASTM D6083 acrylic split steers ponding-prone Essex County flat roofs toward silicone. Silicone resists standing water without re-emulsifying, while water-based acrylic softens under continuous immersion, per RCMA and Western Colloid.",
           "**Silicone coating** is favored on Newark flat roofs with poor drainage because most acrylic warranties exclude ponded areas, per RCMA and Western Colloid. White silicone and acrylic coatings rate roughly 0.80 to 0.88 initial solar reflectance and 0.85 to 0.92 thermal emittance, per the CRRC, and a reflective surface reduces peak cooling demand 11 to 27 percent in air-conditioned buildings with no added R-value, per the EPA.",
@@ -1305,7 +1305,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Factors Decide How Long a Coating Lasts?",
+        "heading": "Dry-Film Thickness Decides How Long a Coating Lasts",
         "body": [
           "**Dry-film thickness** drives coating longevity in the RCMA warranty bands: about 20 to 22 mils carries a 10 to 15 year warranty and 30 mils carries a 15 to 20 year warranty before recoating. Acrylic adds roughly 10 to 15 years of service life and silicone roughly 15 to 20 years, per RCMA and SPFA.",
           "**A fully dry substrate** decides whether the coating holds, because even ponding-resistant silicone requires a dry surface, per RCMA, Gaco, and Henry surface-prep guidance. An infrared moisture survey locates wet insulation as warm anomalies after sunset, verified by core cut under ASTM C1153, and coating over saturated insulation seals moisture in and decays the deck, per InterNACHI.",
@@ -1314,7 +1314,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Are the Common Homeowner Mistakes the Standards Flag?",
+        "heading": "Coating Over Wet Insulation: The Mistake the Standards Flag First",
         "body": [
           "**Coating over wet insulation** is the mistake the standards flag first, because an ASTM C1153 infrared scan catches the wet insulation that a visual look misses, and coating over it seals moisture in and decays the deck, per InterNACHI. The four RCMA conditions exist to catch this: no active leaks, dry insulation confirmed by infrared scan or core cut, an intact membrane, and positive drainage, failing any of which points to replacement.",
           "**Coating the wrong roof type** is the second flagged mistake: coating applies to residential EPDM, modified-bitumen, and metal flat sections, not to steep-slope asphalt shingles, which take repair or [roof replacement](/roof-replacement-in-newark-nj) instead, per CPS Construction and InterNACHI. EPDM lasts 15 to 25 years and modified bitumen about 20 years, per InterNACHI, so a flat section near the end of that range is a candidate for evaluation rather than an automatic coat.",
@@ -1337,7 +1337,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The deciding factors are the budget today, the deck condition hidden under the old covering, and how long the home stays in the owner's hands.",
     "sections": [
       {
-        "heading": "Which Re-Roof Costs Less, and When Does the Saving Reverse?",
+        "heading": "An Overlay Costs Less Upfront; a Tear-Off Costs Less Over the Full Cycle",
         "body": [
           "**An overlay** costs less upfront and **a tear-off** costs less across a full cycle, because an overlay runs about 20–25%, roughly $2,000–$5,000, below a tear-off nationally by skipping tear-off labor and disposal, per HomeGuide and Angi.",
           "**An overlay** removes two line items a tear-off carries: the $1–$3 per square foot to strip the old asphalt shingles and the $220–$699-per-week disposal dumpster, per HomeGuide, on a NJ asphalt install of $5.50–$11.00 per square foot, per Josten Roofing. A full replacement pays that same $5.50–$11.00 per square foot install rate plus the $1–$3 stripping cost, so the overlay's saving is the labor and disposal it skips, not a cheaper roofing material. These figures are national aggregator and NJ per-square-foot ranges, not a Newark or Essex County quote.",
@@ -1345,7 +1345,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Does an Essex County Home Qualify for an Overlay Under NJ Code?",
+        "heading": "An Essex County Overlay Requires One Layer and a Sound Deck Under NJ Code",
         "body": [
           "**An Essex County home** qualifies for an overlay only where the deck is sound and one shingle layer exists, because N.J.A.C. 5:23-6.4 caps a roof at two layers and bars any recover over a deteriorated deck.",
           "**The NJ Rehabilitation Subcode** also bars an overlay over wood shake, slate, clay, cement, or asbestos-cement tile, so those coverings route straight to a tear-off, per N.J.A.C. 5:23-6.4. The NJ Uniform Construction Code treats a full re-roof of a detached 1- or 2-family dwelling, overlay or tear-off, as ordinary maintenance with no construction permit, per N.J.A.C. 5:23-2.7. That permit exemption is a common point of confusion: it does not authorize a non-compliant recover over a deteriorated deck or a third layer, because the two-layer cap and sound-deck rule of N.J.A.C. 5:23-6.4 still bind whether or not a permit is pulled.",
@@ -1353,7 +1353,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does a Homeowner Give Up With an Overlay?",
+        "heading": "An Overlay Gives Up Shingle Lifespan, Deck Repair, and Warranty Coverage",
         "body": [
           "**An overlay** gives up shingle lifespan, deck repair, an ice-and-water barrier, and full manufacturer warranty coverage, because trapped heat cuts the new shingles' service life by roughly 20–30% while a tear-off delivers the full rated life, per Angi.",
           "**The concealed deck** is the second loss: an overlay leaves the deck hidden so rot goes unresolved, while a tear-off allows full deck inspection and repair, per ARMA. An overlay also cannot include an ice-and-water barrier, because IRC Section R905.1.2 specifies the self-adhered membrane against the bare deck, which shingles laid over shingles cannot reach — a tear-off instead applies an ASTM D1970 self-adhering membrane to the bare deck at the eaves and valleys, the ice-dam protection an overlay structurally cannot add, per IRC R905.1.2 and ASTM International.",
@@ -1376,7 +1376,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The case for a tear-off rests not on opinion but on what the codes, the manufacturer instructions, and the trade associations actually require of a sound re-roof.",
     "sections": [
       {
-        "heading": "What Do the Standards and Codes Actually Favor for a Re-Roof?",
+        "heading": "Standards Favor a Tear-Off Wherever the Deck Is Unsound",
         "body": [
           "**Published standards favor a tear-off** wherever the deck is unsound, because ARMA rules out a recover over rotted or warped wood, gaps wider than 1/4 inch, or sagging framing, and IRC Section R908 bars recovering over a deteriorated deck.",
           "**ARMA** treats deck soundness as the gating condition for any overlay, so a recover stays permissible only where the existing layer rests on solid sheathing, per ARMA. An overlay leaves that deck concealed, which means rot goes unresolved beneath the new layer, whereas a tear-off exposes the sheathing for inspection and repair, per ARMA. That distinction is why the trade association frames the recover as the narrower, conditional method rather than the default.",
@@ -1385,7 +1385,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation Factors Decide How Long the New Shingles Last?",
+        "heading": "The Installation Factors That Decide How Long New Shingles Last",
         "body": [
           "**The installation factors that decide shingle longevity** are a deck-applied ice-and-water barrier, full deck inspection and rot repair, and avoiding the trapped-heat penalty an overlay carries.",
           "**A deck-applied ice-and-water barrier** is the factor an overlay structurally cannot deliver, because IRC Section R905.1.2 specifies the self-adhered membrane against the bare deck, which shingles laid over shingles cannot reach, per IRC R905.1.2. A tear-off applies the ASTM D1970 self-adhering polymer-modified bitumen membrane directly to the deck at the eaves and valleys, where it self-seals around fasteners and extends at least 24 inches inside the exterior wall line, per ASTM International and IRC R905.1.2. That deck-level defense matters in Newark, which averages about 31.5 inches of snowfall a year with roughly 78% falling December through February, per NOAA 1991-2020 normals.",
@@ -1394,7 +1394,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Do Homeowners Most Often Get Wrong About Overlays?",
+        "heading": "The Overlay Mistakes: Assumed Permission, Added Dead Load, Reduced Warranty",
         "body": [
           "**The most common overlay mistakes** are assuming an overlay is always permitted, overlooking the dead load it adds, and missing that it can reduce the manufacturer warranty.",
           "**Assuming an overlay is always permitted** runs into the N.J.A.C. 5:23-6.4 two-layer cap and its barred coverings, because an overlay stays code-compliant only where one sound layer exists and the deck is not deteriorated, and the subcode bars a recover over wood shake, slate, clay, cement, or asbestos-cement tile, per N.J.A.C. 5:23-6.4. An overlay that reaches the two-layer ceiling under IRC R908.3.1.1 forces both layers off at a future re-roof, at higher cost.",
@@ -1417,7 +1417,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The deciding factor is whether the damage is a genuinely isolated single event or a symptom of a cause a patch cannot see.",
     "sections": [
       {
-        "heading": "When Does Roof Patching Cost Less, and When Does It Cost More in the Long Run?",
+        "heading": "Roof Patching Costs Less Up Front Than Comprehensive Repair",
         "body": [
           "**Roof patching** costs less up front, sealing a single isolated breach for $150-$500, while **comprehensive roof repair** runs $360-$1,550 (Angi) and asphalt roof repair averages $1,174 (HomeAdvisor / Angi). Localized work runs 5-10x less than a full replacement, per Home Depot and Kelly Roofing.",
           "**A failed patch** reverses that saving, because re-doing it adds the labor and material of a second visit on top of the first. Roughly 90-95% of roof leaks trace to flashing transitions and only about 5-10% to field shingles, an industry estimate attributed to the NRCA, so a patch sealing the open shingle field over a flashing failure reopens, and sealant-only patches carry a short clock: roofing sealant and caulk typically fail in 5-10 years, per roofing trade guidance from WeatherShield and Enterprise Roofing.",
@@ -1426,7 +1426,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Do NJ Code and Weather Mean for Choosing Patch vs Repair?",
+        "heading": "N.J.A.C. 5:23-2.7 Treats a Patch and Full Repair Alike: No Permit on a House",
         "body": [
           "**The NJ Uniform Construction Code** treats a patch and a full re-roof of a detached 1- or 2-family dwelling alike as ordinary maintenance, with no permit, inspection, or notice, per N.J.A.C. 5:23-2.7, so on a house the choice turns on the defect rather than the paperwork.",
           "**A permit threshold** changes the calculus on commercial, condo, or attached buildings: roof work that exceeds 25% of roof area in a 12-month period, or that turns structural by replacing rafters, trusses, or decking, requires a NJ UCC permit, per N.J.A.C. 5:23-2.7(b) and (c). A targeted patch stays inside the exemption where a broad re-roof crosses it.",
@@ -1434,7 +1434,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Decide Which Your Essex County Roof Needs?",
+        "heading": "One Contained Leak Points to a Patch; Recurring Leaks Point to Full Repair",
         "body": [
           "**A single contained event under 15 years** points to a patch, while recurring leaks, multiple interior stains, or a roof past 15-20 years point to comprehensive repair. A roof under 15 years repairs cost-effectively, while a roof over 20 with recurring leaks often favors replacement over either approach.",
           "**A patch holds** as long as the surrounding roof when the damage is genuinely isolated and the patch integrates matching shingles, correct step flashing, and lapped underlayment into sound material; a sealant-only patch is temporary because roofing caulk typically fails in 5-10 years, per WeatherShield and Enterprise Roofing. A limb that cracked a few shingles or a removed satellite-dish nail hole on an otherwise sound roof is the contained case.",
@@ -1457,7 +1457,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation turns on what the standards and trade data show about where leaks start, what holds a patch, and the mistakes that lead Essex County homeowners to pay for the same repair twice.",
     "sections": [
       {
-        "heading": "What Do the Standards and Trade Data Favor Between a Patch and a Comprehensive Repair?",
+        "heading": "Trade Data Favors Comprehensive Repair When the Leak Source Is Unclear",
         "body": [
           "**Roof patching and comprehensive roof repair** divide on where a leak starts: roughly 90-95% of roof leaks trace to flashing transitions, an industry estimate attributed to the NRCA. The trade data favors a comprehensive repair whenever the source is unclear, because a patch on the open shingle field reaches only the 5-10% of leaks that field shingles cause.",
           "**Roof patching** with sealant alone carries a short clock that the trade guidance flags directly: roofing sealant and caulk typically fail in 5-10 years, per roofing trade guidance (WeatherShield, Enterprise Roofing), and a vent-stack pipe boot installed with exposed nails fails in 2-5 years versus a 10-15-year life when set correctly, per roofing-contractor guidance. A sealant-only patch over a flashing detail reopens once that clock runs out, while the underlying transition still drives the leak.",
@@ -1465,7 +1465,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Makes a Patch Hold Versus Reopen, and What Does a Correct Repair Require?",
+        "heading": "A Patch Holds on Isolated Damage and Reopens Over an Unresolved Cause",
         "body": [
           "**A roof patch** holds as long as the surrounding roof when the damage is genuinely isolated and the patch integrates matching shingles, correct step flashing, and lapped underlayment into sound adjacent material, per roofing trade guidance. A patch that seals a symptom over an unresolved cause reopens instead, since flashing carries roughly 90-95% of roof leaks (industry estimate attributed to the NRCA).",
           "**A correct patch** integrates three elements into sound material rather than smearing sealant across a breach: matching shingles set into the existing course, step flashing repaired at the transition, and underlayment lapped so water sheds over the seam. The standards favor this integration because a sealant-only fix fails in 5-10 years per WeatherShield and Enterprise Roofing, while an integrated patch ages with the field around it.",
@@ -1473,7 +1473,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Mistakes Lead Essex County Homeowners to Pay Twice, and How Does NJ Timing Factor In?",
+        "heading": "Sealing a Symptom Over an Unresolved Cause Means Paying Twice",
         "body": [
           "**The mistake the trade data flags most** is sealing a symptom over an unresolved cause, because a patch on the open shingle field misses the flashing transition that carries roughly 90-95% of roof leaks (industry estimate attributed to the NRCA). The same leak reopens, and the homeowner pays the labor and material of a second visit on top of the first.",
           "**A second flagged mistake** on a commercial low-slope section is missing the 48-hour ponding signal, because ponding water remaining more than 48 hours after rain (NRCA) signals a systemic drainage defect that a spot patch cannot resolve and comprehensive repair diagnoses. On that same low-slope work, roof repair exceeding 25% of roof area in a 12-month period triggers a NJ Uniform Construction Code permit, per N.J.A.C. 5:23-2.7(c).",
@@ -1495,7 +1495,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The deciding factor is whether the roof has already failed: a sound roof gets the scheduled cadence, and a roof actively leaking gets the forced emergency response.",
     "sections": [
       {
-        "heading": "How Does the Per-Visit Cost of Preventive Maintenance Compare to Emergency Repair?",
+        "heading": "Preventive Maintenance Costs Less Per Visit Than Emergency Repair",
         "body": [
           "**Preventive maintenance** costs less per visit than **emergency repair** — a roof inspection averages $249, typically $75-$400 as of 2026 with many roofers inspecting free, per Angi. Emergency and after-hours work runs 25%-50% above standard pricing, per Integrity Home Exteriors.",
           "**Preventive maintenance** spends on small, scheduled fixes. Shingle patching runs $150-$500 and a valley repair $400-$1,000 at scheduled rates, per Reliable Roofing Restoration and industry aggregate data, over a $45-$75 hourly base, per HomeAdvisor. A flashing or sealant defect caught early stays a few-hundred-dollar fix before water reaches the deck, per the National Roofing Contractors Association — a roof inspected on the spring-and-fall cadence rarely surprises a budget, because each visit prices a discrete, known task at the standard rate.",
@@ -1503,7 +1503,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does Each Strategy Fit NJ Climate and Code?",
+        "heading": "Preventive Maintenance Prepares for NJ Weather; Emergency Repair Reacts to It",
         "body": [
           "**Preventive maintenance** prepares an Essex County roof for NJ weather while **emergency repair** reacts to it. Newark averages 31.5 inches of annual snowfall per NOAA 1991-2020 normals, with roughly 35-45 freeze-thaw cycles each winter per regional climate estimates, and the fall visit is timed before this cycling begins.",
           "**Preventive maintenance** clears gutters twice a year, spring and fall (3-4 times with pine trees nearby, per GAF and Angi), and verifies flashing and sealant before the October-through-April nor'easter window, per the NJ State Climate Summary. Clear eaves keep out the debris that drives ice-dam backup over a Newark winter, and the spring visit follows the freeze-thaw stress to catch cracked sealant before the next storm season.",
@@ -1511,7 +1511,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does a Preventive-Maintenance Decision Checklist Look Like?",
+        "heading": "The Preventive-Maintenance Checklist Follows the NRCA Two-Visit Cadence",
         "body": [
           "**A preventive-maintenance decision** follows the NRCA cadence of two inspections a year — spring and fall — plus one after any major weather event, per the National Roofing Contractors Association. The schedule surfaces granule loss, lifted flashing, and failing sealant while repairs stay minor.",
           "**The fall inspection** precedes Newark's freeze-thaw cycling and the nor'easter window, and the spring inspection follows winter stress, per the National Roofing Contractors Association cadence and the NJ State Climate Summary. Twice-yearly gutter cleaning pairs with each visit, spring and fall, 3-4 times a year with pine trees nearby, per GAF and Angi, to keep eaves clear before winter. The post-storm check after any major weather event closes the cadence, catching a wind-lifted shingle or a storm-loosened flashing before the next rain enters.",
@@ -1533,7 +1533,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation rests on a published inspection cadence and longevity research, not field opinion — three threads explain why the standards point one direction.",
     "sections": [
       {
-        "heading": "What Inspection Cadence Do the Standards Actually Prescribe?",
+        "heading": "NRCA Prescribes Two Inspections a Year Plus One After Major Weather",
         "body": [
           "**The NRCA inspection cadence** prescribes two roof inspections a year — spring and fall — plus one after any major weather event, per the National Roofing Contractors Association. That published schedule is the baseline preventive maintenance follows, and emergency repair has no schedule because its timing is dictated by the failure event.",
           "**The two-a-year cadence** brackets the seasons that stress a New Jersey roof: the spring visit follows winter freeze-thaw cycling and the fall visit precedes it, while each inspection checks the whole roof system — flashing, sealant, gutters, and ventilation — rather than a single point, per the National Roofing Contractors Association. Emergency repair, by contrast, addresses only the active failure and inspects nothing else, leaving the rest of the roof unexamined.",
@@ -1542,7 +1542,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does the Evidence Say About Maintenance and Roof Longevity?",
+        "heading": "Maintained Roofs Lasted About 21 Years Versus 13 for Reactive Ones",
         "body": [
           "**The longevity evidence** favors maintenance: trade research on commercial low-slope roofs found proactively maintained roofs lasted about 21 years versus 13 for reactively managed ones, per Roofing Contractor magazine (2009). The research measures the gap a maintenance cadence opens over an emergency-only strategy, not a field claim.",
           "**The 21-versus-13-year finding** traces to the same logic an inspection cadence rests on — minor maintenance defers the major cost of premature replacement, because a flashing or sealant defect caught early for a few hundred dollars never becomes the structural deck rot or interior water damage that shortens a roof's life, per the National Roofing Contractors Association. Emergency repair engages only after a failure has already admitted water, so it offers no comparable life extension.",
@@ -1551,7 +1551,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Homeowner Mistakes Drive Avoidable Emergencies and Risk?",
+        "heading": "The Mistakes That Drive Emergencies: Skipped Fall Visits and Lapsed Maintenance",
         "body": [
           "**The common homeowner mistakes** the standards flag are skipping the fall pre-winter visit, walking the roof untrained, and letting maintenance lapse into the 25% to 50% emergency premium, per Integrity Home Exteriors. Each one converts a scheduled, lower-cost fix into a forced, higher-cost emergency.",
           "**Skipping the fall visit** leaves flashing and sealant unverified before Newark's roughly 35 to 45 freeze-thaw cycles each winter — a regional climate estimate against Newark's 31.5 inches of annual snowfall per NOAA 1991-2020 normals — and twice-yearly gutter cleaning, spring and fall (3 to 4 times with pine trees nearby, per GAF and Angi), is part of the same lapsed cadence that drives ice-dam backup over a Newark winter.",
@@ -1573,7 +1573,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The deciding factor is how long you hold the home, which sets how far each material's installed cost spreads across its lifespan against NJ snow, wind, heat, and freeze-thaw.",
     "sections": [
       {
-        "heading": "How Do Installed Cost and Lifespan Trade Off Across NJ Roofing Materials?",
+        "heading": "Asphalt Shingles Cost Least to Install; Metal and Slate Trade Cost for Longer Life",
         "body": [
           "**Architectural asphalt shingles** carry the lowest NJ install cost at $6.50-$11.00 per square foot for a 30-year life, while standing seam metal runs $9.00-$16.00 and natural slate $10-$30, per Josten Roofing and the InterNACHI chart. The premium materials trade a higher first cost for decades more service.",
           "**Standing seam metal** spreads its $9.00-$16.00 NJ per-square-foot cost across a 40-80-year life, so a long-hold owner eliminates a replacement cycle that an asphalt roof requires twice over the same span, per Josten Roofing and InterNACHI. The metal premium recovers over decades of ownership rather than at the sale.",
@@ -1581,7 +1581,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Materials Best Fit NJ Climate and Code?",
+        "heading": "Standing Seam Metal and Natural Slate Best Fit NJ's Freeze-Thaw Climate",
         "body": [
           "**Standing seam metal and natural slate** fit New Jersey's repeated winter freeze-thaw best, because both carry near-zero water absorption that internal freezing cannot crack, per the InterNACHI chart. Metal sheds snow off interlocking panels while slate resists the same cycling across its long life.",
           "**Standing seam metal and architectural asphalt shingles** both exceed the ~110-115 mph design wind speed mapped for northern NJ under ASCE 7-16, per the ASCE wind maps, and metal sheds the ~31.5-inch average annual snowfall, per NOAA 1991-2020 normals. That shed snow adds snow guards over Newark entryways, while asphalt holds snow until melt.",
@@ -1589,7 +1589,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Decision Checklist Matches a Material to an Essex County Home?",
+        "heading": "Ownership Horizon Decides the Right Material for an Essex County Home",
         "body": [
           "**Ownership horizon** decides first, because it sets how far each material's cost spreads across its lifespan. Architectural asphalt fits color-and-budget-driven Essex County homes at a 30-year life, standing seam metal suits long-hold owners across 40-80 years, and natural slate at 60-150 years fits pre-1920 and 1930s-1940s historic homes, per Josten Roofing and the InterNACHI chart.",
           "**Roof slope** narrows the field next, because membranes serve flat roofs that shingles cannot — for NJ commercial flat roofs, TPO fits most buildings at $8.00-$12.00 per NJ square foot with heat-welded seams and a reflective white surface, and EPDM is the cold-flexible budget alternative at a 15-25-year life, per Josten Roofing and InterNACHI. A reflective metal or TPO finish stays over 50 degrees F cooler than a conventional roof on a sunny afternoon, per the U.S. Department of Energy.",
@@ -1611,7 +1611,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "No single covering wins outright for New Jersey weather, so the recommendation rests on what the InterNACHI chart, ASCE 7-16 wind loads, and the IRC eave code actually reward.",
     "sections": [
       {
-        "heading": "What Do the InterNACHI Chart and ASCE 7-16 Wind Loads Favor for NJ Weather?",
+        "heading": "Metal and Slate Lead on Durability; Metal and Architectural Asphalt Clear NJ Wind",
         "body": [
           "**The InterNACHI life-expectancy chart** favors standing seam metal and natural slate on durability, ranking metal at 40-80 years and slate at 60-150 years. ASCE 7-16 wind maps set the ~110-115 mph design wind speed that both metal and architectural asphalt exceed in northern NJ.",
           "**Standing seam metal** carries near-zero water absorption at its panel surface, so the roughly 35-45 freeze-thaw cycles each north-NJ winter (regional climate estimates) loosen fasteners and stress long-run thermal expansion rather than splitting the covering, per InterNACHI and NRCA expansion guidance. Its interlocking panels also shed the ~31.5-inch average annual snowfall recorded in NOAA 1991-2020 normals rather than holding it to melt.",
@@ -1619,7 +1619,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation-Quality Factors Decide a Material's Real NJ Longevity?",
+        "heading": "Installation-Quality Factors Decide a Material's Real NJ Longevity",
         "body": [
           "**Installation-quality factors** decide a roof's real NJ longevity more than the covering alone. Fastener corrosion resistance, the IRC R905.1.2 eave ice-and-water barrier, and snow guards over entryways each appear in the standards as the controls that protect the system through northern NJ's freeze-thaw winters.",
           "**The IRC R905.1.2 eave ice-and-water barrier** extends at least 24 inches inside the exterior wall line, enforced through N.J.A.C. 5:23, to block the ice-dam backup that the ~31.5-inch average snowfall and the ~35-45 freeze-thaw cycles drive at Newark eaves, where architectural asphalt holds snow until melt and relies on that barrier. **Fastener corrosion resistance** matters because the National Slate Association and InterNACHI trace slate-system failures to corroded fasteners and degraded valley flashing rather than the slate itself, so the fasteners and the flashing govern the 60-150-year life far more than the stone covering does.",
@@ -1627,7 +1627,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Common Homeowner Mistakes Does a Registered NJ Contractor's Estimate Help Avoid?",
+        "heading": "Common Homeowner Mistakes a Registered NJ Contractor's Estimate Helps Avoid",
         "body": [
           "**The common homeowner mistakes** the standards flag are matching the material to the wrong ownership horizon, ignoring roof slope, and overlooking the N.J.A.C. 5:23 code path, which a registered NJ contractor's free written estimate resolves.",
           "**Ownership horizon** drives the value pick: architectural asphalt at a 30-year InterNACHI life and a $6.50-$11.00 NJ per-square-foot cost (Josten Roofing) fits color-and-budget-driven Essex County homes, while standing seam metal at $9.00-$16.00 per square foot spreads its 40-80-year life across decades for long-hold owners, and natural slate at a 60-150-year life fits pre-1920 historic homes, per InterNACHI and Josten Roofing. A full NJ [roof replacement](/roof-replacement-in-newark-nj) runs $10,000-$25,000, per HomeAdvisor NJ.",
@@ -1649,7 +1649,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The right answer turns on which factor the building prioritizes, so the choice resolves through install cost weighed against lifespan, NJ climate and code fit, and the building's slope and use.",
     "sections": [
       {
-        "heading": "Which Commercial Roofing Material Costs Less to Install in NJ Versus Over Its Service Life?",
+        "heading": "Spray Foam Installs Cheapest in NJ, but Install Cost Is Not Lifetime Cost",
         "body": [
           "**Spray polyurethane foam carries the lowest NJ install cost at $4-$8 per square foot, EPDM at $7-$10, TPO at $8-$12, and standing seam metal at $9-$16+ per NJ square foot**, per Josten Roofing. The lowest install figure does not mean the lowest lifetime cost.",
           "**EPDM** installs at $7-$10 per NJ square foot, the lowest single-ply entry cost, per Josten Roofing, but lasts only 15-25 years, the shortest single-ply life in this set, per the InterNACHI chart. **TPO** installs at $8-$12 per NJ square foot, per Josten Roofing, and **PVC** clusters $8-$12 per square foot, per commercial cost guides cited by M&M Roofing and WeatherStar, with PVC lasting 20-30 years per Single Ply Roofing Industry.",
@@ -1658,7 +1658,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Material Fits NJ Climate, Code, and the Building's Slope and Use?",
+        "heading": "White TPO and PVC Meet NJ Cool-Roof Code; NRCA and N.J.A.C. 5:23 Set the Rules",
         "body": [
           "**White TPO and PVC fit NJ's 2021 IECC cool-roof reflectance, the NRCA sets a 1/4-inch-per-foot drainage minimum, and N.J.A.C. 5:23-2.7(c) sets a 25% permit threshold** on commercial roofs. A white membrane reduces peak cooling demand 11-27% in air-conditioned buildings, per the CRRC and EPA.",
           "**White TPO and PVC** carry ~0.70-0.85 solar reflectance and ~0.80-0.90 thermal emittance, measured per ASTM C1549 and listed by the CRRC, reaching the NJ Uniform Construction Code's adopted 2021 IECC cool-roof level through reflectance rather than added insulation, per the NJ DCA and CRRC. **Newark** sits in heating-dominated IECC Climate Zone 4A-5, which carries a winter heating offset, so the net annual benefit of a reflective roof depends on insulation and climate, per the DOE, and the reflective surface adds no R-value because reflectance governs solar gain while R-value governs conductive heat flow, per the CRRC.",
@@ -1666,7 +1666,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do You Match the Material to Your Building Type and Priority?",
+        "heading": "TPO for Offices, EPDM for Warehouses, PVC for Restaurants, Metal for Long Holds",
         "body": [
           "**TPO fits cooling-driven offices and retail, EPDM fits budget warehouses, PVC fits restaurants and food service, and standing seam metal fits long-hold sloped properties**, per the CRRC, Josten Roofing, and Single Ply Roofing Industry. Each priority points to a different system.",
           "**TPO** fits an air-conditioned office or retail building, cutting peak cooling demand 11-27% through its ~0.70-0.85 reflectance, per the EPA and CRRC, at an $8-$12 NJ per-square-foot install, per Josten Roofing. **EPDM** fits a warehouse on a lower install budget at $7-$10 per NJ square foot with a 15-25-year life, per Josten Roofing and the InterNACHI chart, while its black surface absorbs heat and carbon-black UV stabilizer lets black EPDM outlast white EPDM, per industry guidance.",
@@ -1689,7 +1689,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Each recommendation traces to a published standard or cost figure rather than a contractor's preference, so the right system follows the building's use, slope, and budget.",
     "sections": [
       {
-        "heading": "What Do the Standards and Specs Actually Favor for Each Building Use?",
+        "heading": "The Standards Favor White TPO for Air-Conditioned NJ Buildings",
         "body": [
           "**White TPO** earns the standards' favor for air-conditioned NJ buildings: it carries ~0.70-0.85 solar reflectance measured per ASTM C1549 and listed by the CRRC. A cool roof cuts peak cooling demand 11-27% in air-conditioned buildings, per the CRRC and EPA.",
           "**TPO and PVC** share that white reflective surface, per the CRRC and Duro-Last, so the data favor either for a cooling-driven office or retail roof; PVC earns the standards' favor where grease and chemical exposure appears, lasting 20-30 years on thicker membranes, per Single Ply Roofing Industry and GAF EverGuard warranty terms, and PVC installs at $6-$12 nationally, clustering $8-$12 per NJ square foot, per commercial cost guides cited by M&M Roofing and WeatherStar. A reflective roof stays over 50 degrees F cooler than a conventional roof on a sunny afternoon, per the U.S. Department of Energy.",
@@ -1697,7 +1697,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation and Design Factors Decide Commercial Roof Longevity?",
+        "heading": "Slope and Drainage Decide Commercial Roof Longevity First",
         "body": [
           "**Slope and drainage** decide commercial roof longevity first: the NRCA sets a minimum design slope of 1/4 inch per foot (~2%) for low-slope commercial roofs because ponding accelerates membrane deterioration, per the NRCA and ARMA.",
           "**Seam construction** decides single-ply longevity next, because the seam is where membranes fail. TPO and PVC resist ponding through heat-welded seams that bond stronger than the sheet, while EPDM separates at adhesive seams and modified bitumen blisters under standing water, per the NRCA technical library; TPO still fails first at welded-seam defects and hardens through thermal-shock cracking as plasticizers migrate. PVC loses plasticizer over time as well, embrittling into cracking and pinholes and shattering in extreme cold when unreinforced, per the NRCA technical library — the trade-off for its grease and chemical resistance. EPDM's dominant failure mode is seam separation paired with membrane shrinkage that pulls away from perimeters and penetrations, per the InterNACHI chart and NRCA-attributed guidance.",
@@ -1705,7 +1705,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Are the Most Common Commercial Specification Mistakes NJ Owners Make?",
+        "heading": "Choosing on Install Cost Alone Is the Most Common NJ Specification Mistake",
         "body": [
           "**Choosing on install cost alone** is the most common specification mistake the standards flag, because the lowest entry cost carries the shortest life. EPDM installs at $7-$10 per NJ square foot but lasts 15-25 years, the shortest single-ply life, per Josten Roofing and the InterNACHI chart, while standing seam metal runs $9-$16+ per NJ square foot and lasts 40-80 years, lowering cost per year of service across a long hold.",
           "**Ignoring slope and ponding** is the second mistake, since a roof below the NRCA 1/4-inch-per-foot minimum traps standing water that accelerates membrane deterioration, per the NRCA and ARMA. **Confusing reflectance with R-value** is the third, because a white TPO or PVC membrane cuts solar gain but adds no insulation, per the CRRC, so a building needs both reflectance and adequate insulation in Newark's Climate Zone 4A-5.",
@@ -1727,7 +1727,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Each membrane wins a different flat-roof scenario, so the choice turns on building use, install budget, and the positive drainage that protects every low-slope system.",
     "sections": [
       {
-        "heading": "Which Flat Roof Membrane Costs Less and Which Lasts Longest in NJ?",
+        "heading": "EPDM Costs Least to Install; Built-Up Roofing Lasts Longest in NJ",
         "body": [
           "**EPDM** carries the lower install cost at $7.00-$10.00 per NJ square foot, per Josten Roofing, while **built-up roofing** lasts longest at 30 years, per the InterNACHI life-expectancy chart that sets every flat-roof service life.",
           "**EPDM** installs at $7.00-$10.00 per NJ square foot per Josten Roofing and lasts 15-25 years until seam separation or shrinkage opens the perimeter, per the InterNACHI chart. **TPO** installs at $8.00-$12.00 per NJ square foot per Josten Roofing and carries a 7-20 year InterNACHI life, commonly cited at 15-25 years in practice, per Progressive Materials. The lower-cost membrane and the reflective membrane sit close on install price, so service life and use case break the tie.",
@@ -1735,7 +1735,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Do NJ Climate and Code Decide a Flat Roof?",
+        "heading": "Positive Drainage Decides a NJ Flat Roof More Than Membrane Choice",
         "body": [
           "**Positive drainage** decides a NJ flat roof more than membrane choice, since the NRCA minimum design slope of 1/4 inch per foot, roughly 2 percent, removes the ponding that degrades every flat system, per the NRCA and ARMA.",
           "**Positive drainage** pairs with the 2021 IRC that NJ adopts via N.J.A.C. 5:23, which bars a recover over a water-soaked or deteriorated deck and requires removal of an unsound base before a new membrane goes down, per IRC R908 and N.J.A.C. 5:23-6.4. The code blocks the recover shortcut that traps moisture under a fresh membrane.",
@@ -1743,7 +1743,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Flat Roof System Suits Your Use Case?",
+        "heading": "TPO or PVC for Cooling, PVC for Restaurants, EPDM for Budget Additions",
         "body": [
           "**The right flat roof** tracks your building use: TPO or PVC reflectance for air-conditioned buildings, PVC grease resistance for restaurants, and EPDM cold-flexibility on a lower budget for residential additions, per CRRC, the SPRI, and Josten Roofing.",
           "**TPO and PVC** reflect 0.70-0.85 of solar energy and re-radiate 0.80-0.90, per CRRC and ASTM C1549 — the lever that cuts peak cooling demand 11-27 percent in air-conditioned buildings, per the EPA — and their heat-welded seams fuse into a bond stronger than the membrane itself, per the NRCA technical library. **PVC** adds grease and chemical resistance across its 20-30 year life, per the Single Ply Roofing Industry, which suits restaurant and manufacturing exhaust, while TPO and PVC tolerate ponding water longest because their thermoplastic composition resists standing-water degradation.",
@@ -1765,7 +1765,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The evidence points past the membrane label to the seam, the slope, and the deck, so the recommendation tracks the building's use and the install detailing rather than a brand.",
     "sections": [
       {
-        "heading": "What Do Roofing Standards Actually Favor for a Flat Roof?",
+        "heading": "Roofing Standards Match the Membrane to the Building's Use, Not One Best Material",
         "body": [
           "**Roofing standards** favor heat-welded TPO and PVC for air-conditioned and grease-exposed buildings and EPDM for lower-cost cold-flexible sections, matching the membrane to the building's use rather than to a single best material, per the NRCA technical library.",
           "**Heat-welded TPO and PVC** lead because their seams fuse into a bond stronger than the membrane itself, per the NRCA technical library, and their white surfaces reflect 0.70-0.85 of solar energy and re-radiate 0.80-0.90, per the CRRC and ASTM C1549. That reflectance is the lever the EPA credits with cutting peak cooling demand 11-27% in air-conditioned buildings, which favors TPO and PVC on cooled commercial roofs. PVC's resistance to grease and chemicals across a 20-30 year life favors restaurant and manufacturing exhaust exposure, per the Single Ply Roofing Industry, where TPO and PVC also share the welded seam that resists ponding longest of the single-ply group, per the NRCA.",
@@ -1773,7 +1773,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation-Quality Factors Decide Flat-Roof Longevity?",
+        "heading": "Installation Quality Decides Flat-Roof Longevity More Than Membrane Brand",
         "body": [
           "**Installation-quality factors** decide flat-roof longevity more than membrane brand: positive drainage at the NRCA minimum design slope, a complete seam, flashing at every penetration, and a sound deck, per the NRCA technical library and ARMA.",
           "**Positive drainage** governs every flat system, because the NRCA minimum design slope of 1/4 inch per foot (~2%), built through tapered insulation or structural slope, removes the ponding that accelerates membrane deterioration on every flat roof, per the NRCA and ARMA. **A complete seam** carries the next share of longevity, since welded-seam failure is the named TPO failure mode only when the weld is incomplete, while seam separation is the dominant EPDM failure mode and modified bitumen torch or adhesive seams sit between welded and taped seams on reliability, per the NRCA technical library.",
@@ -1781,7 +1781,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Common Flat-Roof Mistakes Shorten Membrane Life in NJ?",
+        "heading": "Ponding, Low-Slope Shingles, and Deteriorated Decks Shorten NJ Membrane Life",
         "body": [
           "**The common flat-roof mistakes** that shorten membrane life in NJ are a dead-flat surface that ponds, asphalt shingles laid on low slope, and recovering over a deteriorated deck, each flagged by the NRCA, ARMA, and the NJ code.",
           "**A dead-flat surface that ponds** is the first mistake the standards flag, because ponding accelerates membrane deterioration on every flat system and the NRCA minimum design slope of 1/4 inch per foot removes the standing water, per the NRCA and ARMA. **Asphalt shingles laid on low slope** are the second, since asphalt shingles shed water by slope and do not waterproof a flat roof, so a low-slope deck the shingles cannot drain produces the chronic leaks a membrane engineered for low-slope drainage ends, per the NRCA and Josten Roofing.",
@@ -1803,7 +1803,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The deciding factor is not price alone but in-kind authenticity — the right material for a historic home matches the era's original roof, and the figures below show which option wins for each home and budget.",
     "sections": [
       {
-        "heading": "Which Historic Roofing Material Matches Each NJ Home's Period Style and the Secretary of the Interior's Standards?",
+        "heading": "Slate, Clay Tile, Cedar, and Copper Each Match a NJ Period Style Under Standard 6",
         "body": [
           "**Natural slate, clay tile, cedar shingle, and copper** each match a distinct NJ period style under Standard 6, which directs that a distinctive historic roof be replaced in kind per the National Park Service. The deciding factor is the home's architectural era.",
           "**Natural slate** suits Victorian, Colonial Revival, and Gilded Age homes, **clay tile** suits Spanish Revival and Mission-style homes, **cedar shingle** suits Craftsman, bungalow, and early Colonial homes, and **copper** suits Federal, Greek Revival, and farmhouse styles, per NPS Preservation Brief 4. Brief 4 also names the historic metals — tin plate, terne plate, copper, lead, and zinc — and directs that the historic fabric, including roof coursing and color variation, be photographed, measured, and recorded before work begins for future reference. **Natural slate** is repaired rather than replaced whenever possible per NPS Preservation Brief 29, with the roof replaced only when 20% or more of the slates are broken, missing, or sliding.",
@@ -1811,7 +1811,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Much Does Each Historic Roofing Material Cost and How Long Does It Last in New Jersey?",
+        "heading": "Historic Roofing Lifespans: Slate 60-150 Years, Clay Tile 100+, Copper 70+",
         "body": [
           "**Lifespan decides the long-term value:** natural slate lasts 60-150 years (premium 100+ per the National Slate Association), clay tile 100+, and copper 70+ per the InterNACHI life-expectancy chart, with copper over 100 years properly installed per the Copper Development Association.",
           "**Cedar** lasts 20-40 years as shake and 30-50 years as shingle per the Cedar Shake & Shingle Bureau, while **architectural asphalt** lasts 25-35 years per GAF and installs at $6.50-$11.00 per square foot in NJ per Josten Roofing — the lower-cost path on a non-contributing or non-visible roof where Brief 4 permits a substitute material that still matches the historic roof's scale, texture, and coloration as closely as possible. **Synthetic slate** spans 10-35 years as simulated slate per the InterNACHI chart, with composite lines designed to 40-50 years per CertainTeed, supplying the slate profile at lighter weight.",
@@ -1819,7 +1819,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does a NJ Homeowner Have to Clear Before Reroofing a Historic Home — Certificate of Appropriateness, Building Permit, or Neither?",
+        "heading": "A Certificate of Appropriateness Is the Binding Gate on a NJ Historic Reroof",
         "body": [
           "**A Certificate of Appropriateness** — not National Register or NJ Register listing — is the binding gate on a private NJ reroof, required for a designated landmark or a property in a LOCAL historic district per N.J.S.A. 40:55D-107. Listing alone places no restriction on a private owner using private funds, per both the NPS and the NJ DEP Historic Preservation Office.",
           "**A Certificate of Appropriateness** does not replace a building permit; a reroof in a local district commonly clears both. The NJ Uniform Construction Code treats a full re-roof of a detached 1- or 2-family dwelling as ordinary maintenance with no construction permit per N.J.A.C. 5:23-2.7, so a designated home in a regulated district faces the COA review even when the covering swap itself triggers no permit.",
@@ -1842,7 +1842,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Each recommendation traces to a named preservation standard rather than a contractor opinion, so the right material follows the home's period style and the fasteners that keep that roof on for a century.",
     "sections": [
       {
-        "heading": "Which Materials Do the Secretary of the Interior's Standards and NPS Preservation Briefs Actually Direct?",
+        "heading": "The Secretary of the Interior's Standards Direct In-Kind Historic Roof Replacement",
         "body": [
           "**The Secretary of the Interior's Standards** direct under Standard 6 that a distinctive historic roof be replaced in kind — matched in design, color, and texture — per the National Park Service, favoring slate, clay tile, cedar shingle, and copper.",
           "**Natural slate** is the in-kind original roof on Victorian, Colonial Revival, and Gilded Age homes and lasts 60-150 years per the InterNACHI life-expectancy chart, with premium slate 100-plus years per the National Slate Association; **clay tile** matches it at 100-plus years per the InterNACHI chart, often 75-plus and many 100-plus per the TRI Alliance, on Spanish Revival and Mission-style roofs per NPS Preservation Brief 4.",
@@ -1850,7 +1850,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Fasteners and Installation Details Decide a Historic Roof's Lifespan?",
+        "heading": "Fasteners Decide a Historic Roof's Lifespan as Much as the Covering",
         "body": [
           "**Fasteners** decide a historic roof's lifespan as much as the covering does, because each NPS Preservation Brief pairs a material with a specific non-corroding nail — the wrong metal corrodes and triggers failure before the slate or shingle wears out.",
           "**Natural slate** takes non-ferrous solid-copper or stainless-steel fasteners per NPS Preservation Brief 29, because plain or galvanized steel rusts out before the slate; Brief 29 also directs that slate be repaired rather than replaced whenever possible, with full replacement reserved for when 20 percent or more of the slates are broken, missing, or sliding. **Clay tile** is fastened with copper nails or hangers per NPS Preservation Brief 30, since original copper nails replaced with iron nails corrode and trigger failure.",
@@ -1858,7 +1858,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does a NJ Historic-Home Owner Need to Verify Before Work, and Who Determines Tax-Credit Eligibility?",
+        "heading": "Verify the Certificate of Appropriateness Before Work on a NJ Historic Home",
         "body": [
           "**A Certificate of Appropriateness** is the binding gate a NJ historic-home owner verifies before reroofing — required for a designated landmark or a property in a LOCAL historic district per N.J.S.A. 40:55D-107. National Register or NJ Register listing places no restriction on a private owner using private funds, per the National Park Service and the NJ DEP Historic Preservation Office.",
           "**A Certificate of Appropriateness** does not replace a building permit; a reroof in a local district commonly clears both, though the NJ Uniform Construction Code treats a full re-roof of a detached 1- or 2-family dwelling as ordinary maintenance with no construction permit per N.J.A.C. 5:23-2.7. In Essex County, Glen Ridge regulates a district covering over 90 percent of the Borough under Borough Code Ch. 15.32, Montclair under Code §347-136, and Newark's Landmarks and Historic Preservation Commission auto-designated Register-listed districts as of May 30, 2007.",
@@ -1880,7 +1880,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The lowest install price and the longest service life rarely belong to the same material, so the right pick turns on how many years an owner keeps the roof.",
     "sections": [
       {
-        "heading": "How Does Upfront Install Cost Per Square Foot Rank Across NJ Roofing Materials?",
+        "heading": "3-Tab Asphalt Installs Cheapest in NJ; Natural Slate Costs the Most",
         "body": [
           "**3-tab asphalt shingles** rank cheapest to install at $5.50–$9.50 per NJ square foot, architectural asphalt next at $6.50–$11.00, standing seam metal at $9.00–$16.00+, and natural slate the most at $10–$30, per Josten Roofing and NJ roofing guides.",
           "**3-tab asphalt shingles** hold the lowest entry cost at $5.50–$9.50 per NJ square foot, per Josten Roofing, with labor at roughly 60 percent of an asphalt project, per HomeGuide, and a full NJ asphalt replacement falling within the $10,000–$25,000 benchmark, per HomeAdvisor and Modernize. Architectural asphalt shingles sit one tier up at $6.50–$11.00 per square foot, the mid-budget step between 3-tab asphalt and metal.",
@@ -1888,7 +1888,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Roofing Material Lasts Longest in New Jersey, and How Does That Change True Cost Per Year?",
+        "heading": "Natural Slate Lasts Longest in New Jersey at 60-150 Years",
         "body": [
           "**Natural slate** lasts longest at 60–150 years and standing seam metal next at 40–80 (copper 70+), while 3-tab asphalt lasts 20 years and architectural asphalt 30, per the InterNACHI chart.",
           "**Natural slate** lasts 60–150 years, and individual tiles replace indefinitely while the deck and fasteners stay sound, per the InterNACHI chart and the National Slate Association, making the covering itself rarely the lifespan limiter. Standing seam metal lasts 40–80 years on concealed fasteners that leak less than exposed-fastener systems, per the InterNACHI chart, though actual asphalt and metal life varies up to plus or minus 40 percent with climate, install, and maintenance, per NRCA.",
@@ -1896,7 +1896,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Material Fits Your Essex County Hold Period and Budget?",
+        "heading": "3-Tab Suits Short-Hold Essex County Budgets; Metal and Slate Suit Long Holds",
         "body": [
           "**3-tab asphalt shingles** suit a short-hold, budget-led Essex County house at $5.50–$9.50 per square foot, while standing seam metal and natural slate suit long-hold owners on a 40–80- or 60–150-year life, per Josten Roofing and the InterNACHI chart.",
           "**3-tab asphalt shingles** fit a tight budget or a sale within the roof's 20-year life at the lowest entry cost, with architectural asphalt at $6.50–$11.00 per square foot extending life to 30 years for a modest step up and recouping roughly 61 percent of job cost at resale versus metal's roughly 49 percent, per Josten Roofing, the InterNACHI chart, and the Remodeling/Zonda 2023 Cost vs Value report. National roof replacement recoups 60 to 68 percent of cost at sale, per the Remodeling/Zonda report and Zillow analysis via Opendoor, which favors asphalt when a near-term sale leads the decision.",
@@ -1918,7 +1918,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation rests not on the cheapest sticker price but on dividing a sourced install range across a sourced lifespan, so the ownership timeline decides which covering the sources point toward.",
     "sections": [
       {
-        "heading": "What Do the Install-Cost and Lifespan Sources Favor by Ownership Timeline?",
+        "heading": "3-Tab for Short Holds, Architectural Mid-Term, Metal or Slate for Long Holds",
         "body": [
           "**The install-cost and lifespan sources** favor 3-tab asphalt for the shortest holds, architectural asphalt for mid-term ownership, and metal or natural slate for long holds, per Josten Roofing's ranges and the InterNACHI lifespans. The sources point to different coverings once cost is spread across years of service.",
           "**3-tab asphalt shingles** install cheapest at $5.50–$9.50 per NJ square foot over a 20-year life, per Josten Roofing and the InterNACHI chart, so the lowest entry price favors an owner planning a sale or a tight budget within that 20-year window. **Architectural asphalt shingles** install at $6.50–$11.00 per square foot over a 30-year life, per the same sources, extending the asphalt life by a decade for a modest step up in cost.",
@@ -1926,7 +1926,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation-Quality and Ventilation Factors Decide How Long a Roof Actually Lasts?",
+        "heading": "Installation Quality, Ventilation, and Fasteners Decide Roof Lifespan",
         "body": [
           "**Installation quality, attic ventilation, and fastener type** decide how long a roof lasts within its rated range. The NRCA records that actual asphalt and metal roof life varies up to plus or minus 40% with climate, install, and maintenance.",
           "**Attic ventilation** reduces the heat-driven volatile loss and thermal cycling that age a covering from beneath, so a sourced lifespan assumes the deck breathes rather than bakes. **Fastener type** separates the durable steep-slope metals from the rest: standing seam metal uses concealed fasteners that leak less than exposed-fastener systems, per the InterNACHI chart, removing the exposed screws that loosen and weep over a roof's life.",
@@ -1934,7 +1934,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Resale and Lifetime-Cost Evidence Guides the Choice in Essex County?",
+        "heading": "Resale Evidence Favors Asphalt for Near-Term Sales, Metal or Slate for Long Holds",
         "body": [
           "**The resale and lifetime-cost evidence** guides asphalt toward near-term sales and metal or slate toward long holds, because architectural asphalt recoups about 61% of job cost at resale versus standing seam metal's about 49%, per the Remodeling/Zonda 2023 report.",
           "**National roof replacement** recoups 60–68% of cost at sale, per the Remodeling/Zonda 2023 Cost vs Value report and Zillow analysis via Opendoor, so a moderate-cost architectural asphalt roof returns the most when an Essex County sale leads the decision. **Standing seam metal** recoups about 49% because its higher install outpaces the resale premium, shifting metal's return toward the 40–80-year ownership life rather than near-term resale, per the Remodeling/Zonda report and the InterNACHI chart.",
@@ -1956,7 +1956,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Two separate levers decide a roof's energy performance in New Jersey — surface reflectance and conductive insulation — and which one matters more depends on roof slope and Newark's heating-dominated climate.",
     "sections": [
       {
-        "heading": "Which Lever Cuts More Energy in Newark's Heating-Dominated Climate Zone 4A-5?",
+        "heading": "Insulation Cuts More Energy Than Reflectance in Newark's Climate Zone 4A-5",
         "body": [
           "**Insulation cuts more total annual energy in Newark** because the city sits in a heating-dominated mixed climate, Climate Zone 4A–5, where R-value governs winter heat loss, per the DOE and EPA. A reflective roof reduces peak summer cooling but carries an offsetting winter heating penalty in this zone.",
           "**Spray polyurethane foam (SPF)** is the only covering here that adds conductive insulation, an aged R-6.0 to R-6.5 per inch, per ICC-ES/ASTM C1289 LTTR listings and SPFA, applied as a seamless layer that also forms a continuous air barrier; the foam layer lasts 30-plus years when its protective coating stays maintained, per SPFA. That added R-value addresses the larger winter share of Newark's annual energy use.",
@@ -1964,7 +1964,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does Each Material Rate, and Which Rating System Applies Now?",
+        "heading": "The CRRC-1 Program Now Rates Roof Reflectance After ENERGY STAR's 2022 Exit",
         "body": [
           "**The CRRC-1 program** (Cool Roof Rating Council) is the active third-party rating system for roof reflectance and emittance, per the CRRC. The EPA ended ENERGY STAR roof program recognition on June 1, 2022, per the EPA, CRRC, and SPRI, and the CRRC-1 directory now lists initial and 3-year-aged solar reflectance and thermal emittance.",
           "**White single-ply membrane** (TPO and PVC) holds the highest rated reflectance band of these coverings — ~0.70–0.85 solar reflectance and ~0.80–0.90 thermal emittance measured by ASTM C1549 and listed by the CRRC. **White PVC membrane** holds the same ~0.70–0.85 band plus chemical and grease resistance, suiting flat roofs near kitchen or grease exhaust, per the CRRC and Duro-Last.",
@@ -1972,7 +1972,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does NJ Code Require Before Reflectance Adds Value, and How Do You Decide by Slope?",
+        "heading": "NJ Code Requires R-60 Ceiling Insulation Under the 2021 IECC",
         "body": [
           "**The 2021 IECC** sets ceiling insulation at R-60 for NJ's Climate Zones 4 and 5 under Table R402.1.3, with an R-49 full-ceiling exception at raised-heel eaves, per the ICC and NJ DCA. New Jersey adopted that code with residential enforcement from April 2023, and this conductive minimum applies regardless of the covering's reflectance.",
           "**Roof slope** sets the practical choice: on low-slope or flat commercial roofs, SPF adds the only conductive R-value where existing insulation runs thin, while white TPO/PVC's ~0.70–0.85 reflectance lowers surface temperature and cuts peak summer cooling demand 11–27% in air-conditioned residential buildings, per the EPA, CRRC, and SPFA. **Balanced attic ventilation** supports either path — IRC R806.2 sets the minimum net free ventilating area at 1/150 of the vented attic, split roughly 50% intake at the soffits and 50% exhaust at the ridge, per the IRC, ARMA, and Air Vent Inc.",
@@ -1994,7 +1994,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Each recommendation traces to a named standard rather than field anecdote, because the rating systems separate an insulation lever from a reflectance lever and Newark's climate decides which one matters more.",
     "sections": [
       {
-        "heading": "What Do the Standards Actually Favor for Energy Performance?",
+        "heading": "The Standards Split: CRRC-1 Rates Reflectance, ASTM C1289 LTTR Rates R-Value",
         "body": [
           "**The standards split into two ratings: the CRRC-1 program rates reflectance and emittance for summer cooling, while ICC-ES and ASTM C1289 LTTR rate R-value for total annual performance.** Each covering carries one rating, not both, per SPFA and the CRRC.",
           "**The CRRC-1 program** (Cool Roof Rating Council) is the active third-party system listing each product's solar reflectance and thermal emittance, both initial and 3-year aged, in a public Rated Products Directory; it reports performance only, not an approval, per the CRRC. The ENERGY STAR roof program ended recognition on June 1, 2022, per the EPA, CRRC, and SPRI, so the CRRC-1 listing is the reflectance figure that applies now. White single-ply membrane (TPO/PVC) holds ~0.70–0.85 solar reflectance and ~0.80–0.90 thermal emittance measured by ASTM C1549 and listed by the CRRC.",
@@ -2002,7 +2002,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Does NJ Code Make Insulation the Deciding Factor?",
+        "heading": "NJ Code Makes R-60 Ceiling Insulation the Deciding Factor",
         "body": [
           "**NJ code makes ceiling insulation the deciding factor: the 2021 IECC sets R-60 ceiling insulation for Climate Zones 4 and 5, with an R-49 full-ceiling exception at raised-heel eaves.** Table R402.1.3 sets this, per the ICC and NJ DCA.",
           "**The 2021 IECC** (NJ-adopted, residential enforcement April 2023) governs the conductive layer, and once ceiling insulation meets R-60 (or the R-49 raised-heel exception), surface reflectance adds only incremental summer benefit, per the ICC and CRRC. Newark sits in Climate Zone 4A–5, a heating-dominated mixed climate, so a reflective roof reduces peak summer cooling but carries a winter heating penalty, and total annual energy performance favors the insulation lever, per the DOE and EPA. For most Essex County houses on a roof replacement, cool-roof asphalt shingles raise surface reflectance at standard steep-slope shingle pricing and carry CRRC reflectance-and-emittance ratings, while a green (vegetated) roof on a limited flat section is rated by InterNACHI only for a 5–40-year service life, with no sourced energy percentage, per the CRRC and InterNACHI.",
@@ -2010,7 +2010,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Are the Common Homeowner Mistakes the Standards Flag?",
+        "heading": "The Three Homeowner Mistakes the Standards Flag",
         "body": [
           "**The standards flag three recurring mistakes: chasing reflectance without insulation, relying on dead ENERGY STAR roof labels, and assuming a federal cool-roof credit still applies after the 2025 repeal.** The DOE, EPA, and IRS each frame one of these.",
           "**Chasing reflectance without insulation** misreads the Newark climate, because the DOE and EPA place the larger annual share on the heating side of Climate Zone 4A–5, where R-value governs winter heat loss; a reflective covering over thin insulation cuts summer peak but leaves the winter penalty in place. **Relying on dead ENERGY STAR roof labels** points to a program the EPA ended on June 1, 2022, per the EPA, CRRC, and SPRI — the CRRC-1 reflectance-and-emittance listing is the figure that applies now.",
@@ -2032,7 +2032,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The right grade comes down to three numbers a homeowner weighs in order: NJ installed cost, northern-NJ wind and hail exposure, and the budget priority that breaks the tie.",
     "sections": [
       {
-        "heading": "How Do Architectural and 3-Tab Shingles Compare on NJ Installed Cost Versus Long-Term Value?",
+        "heading": "3-Tab Installs Cheaper in NJ at $5.50-$9.50 vs $6.50-$11.00 Per Square Foot",
         "body": [
           "**3-tab shingles** carry the lower NJ installed cost at $5.50-$9.50 per square foot versus $6.50-$11.00 for **architectural shingles**, per Josten Roofing's 2026 NJ cost guide — a per-square-foot gap, not a fixed premium.",
           "**3-tab shingles** install at $5.50-$9.50 per NJ square foot because a single flat layer uses less asphalt and goes on faster, per Josten Roofing, which makes 3-tab the lowest-cost asphalt path for rentals, budget jobs, and code-minimum re-roofs. The single-layer construction carries a shorter 20-30 year warranty range, per the InterNACHI asphalt-shingle inspection guide, matched to its 20-year measured service life.",
@@ -2040,7 +2040,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Asphalt Shingle Fits Essex County's Wind, Hail, and NJ Code Requirements?",
+        "heading": "Architectural Shingles Meet Essex County's ASCE 7-16 Wind; 3-Tab Falls Short",
         "body": [
           "**Architectural shingles** fit Essex County's wind exposure better than **3-tab shingles**, with a 110-130 mph wind warranty that meets the ~110-115 mph ASCE 7-16 design wind mapped for the county. Standard 3-tab warrants only about 60 mph, per ASCE 7-16 and manufacturer warranty language.",
           "**Architectural shingles** clear the IBC/IRC wind classification under ASTM D7158, whose Class F equivalent on the older ASTM D3161 fan test passes at 110 mph, per the NRCA's Professional Roofing standards explainer, so the 110-130 mph warranty leaves uplift margin against a northern-NJ nor'easter, while 3-tab's single self-sealing strip at ~60 mph leaves little. The added weight of architectural shingles, roughly 250-400+ lb per square versus 230-250 lb for 3-tab, per the InterNACHI inspection guide, also anchors the laminated shingle against uplift.",
@@ -2049,7 +2049,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does Each Shingle Grade Make Sense, and What Is the Deciding Factor?",
+        "heading": "Architectural for Owner-Occupied Homes, 3-Tab for Budget Projects in Essex County",
         "body": [
           "**Architectural shingles** make sense for owner-occupied Essex County houses, and **3-tab shingles** make sense for budget-driven projects — the deciding factor is whether long-term durability and northern-NJ wind class outrank lowest upfront price, per InterNACHI and Josten Roofing.",
           "**Architectural shingles** suit a permanent home because the 30-year life, the 110-130 mph wind warranty, and the UL 2218 Class 4 options match the building's wind and hail exposure, per the InterNACHI chart and manufacturer warranty language; laminated architectural shingles held roughly 57-58% of the asphalt-shingle market in 2024, per Mordor Intelligence. Many homeowners insurers offer a premium credit for a UL 2218 Class 4 roof, set carrier by carrier.",
@@ -2071,7 +2071,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation tracks three independent standards — wind class, impact rating, and measured lifespan — rather than any single contractor's preference.",
     "sections": [
       {
-        "heading": "What Do the Wind, Impact, and Lifespan Standards Actually Favor?",
+        "heading": "Wind, Impact, and Lifespan Standards Favor Architectural Shingles",
         "body": [
           "**The wind, impact, and lifespan standards** favor architectural shingles for a permanent Essex County roof, because the ASCE 7-16 design wind, the UL 2218 impact class, and the InterNACHI life-expectancy chart all rank the laminated grade above standard 3-tab.",
           "**The wind standard** is the clearest split. Architectural shingles commonly carry a 110-130 mph wind warranty and clear the IBC/IRC wind classification under ASTM D7158, whose Class F equivalent on the older ASTM D3161 fan test passes at 110 mph, per the NRCA Professional Roofing standards explainer. That 110-130 mph range meets or exceeds the ~110-115 mph ASCE 7-16 design wind speed mapped for Essex County, while standard 3-tab warrants only about 60 mph, up to ~70 mph on entry products, per manufacturer warranty language — below the design wind the NJ UCC references.",
@@ -2079,7 +2079,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Installation and Warranty Factors Decide How Long Either Grade Lasts?",
+        "heading": "Installation Quality and the Two-Part Warranty Decide Shingle Lifespan",
         "body": [
           "**Installation quality and an honest two-part warranty** decide how long either shingle grade lasts, since InterNACHI notes that hail and high wind shorten asphalt-shingle life on either grade regardless of the rating printed on the wrapper.",
           "**Installation quality** governs the failure modes the standards describe. Architectural shingles fail through granule loss, zipper cracking along the cutout lines, and cupping, while 3-tab shingles fail through tab curling, granule loss, and wind-uplift seal failure, per the parent comparison's standards summary — and a single self-sealing strip on a 3-tab shingle that loses protective granules under hail exposes the asphalt mat and accelerates UV degradation, per NRCA general guidance. The added laminated layer also raises architectural weight to roughly 250-400+ lb per square against 230-250 lb for 3-tab, per the InterNACHI inspection guide, which anchors the shingle against uplift.",
@@ -2087,7 +2087,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Is 3-Tab the Right Call, and What Mistake Leads Homeowners to Under-Spec?",
+        "heading": "3-Tab Is the Right Call for Rentals, Budget Jobs, and Code-Minimum Re-Roofs",
         "body": [
           "**3-tab shingles** are the right call when lowest upfront NJ cost decides — rentals, budget jobs, and code-minimum re-roofs — because 3-tab installs at $5.50-$9.50 per NJ square foot against architectural's $6.50-$11.00, per the Josten Roofing 2026 NJ cost guide.",
           "**3-tab shingles** earn their place as the lowest-cost asphalt path because a single flat layer uses less asphalt and installs faster, per Josten Roofing, which fits a rental, a budget-driven project, or a code-minimum re-roof where the building's expected hold is short. Major makers including GAF, CertainTeed, and Owens Corning still produce 3-tab shingles, though as a declining minority of installs — laminated architectural shingles held roughly 57-58% of the asphalt-shingle market in 2024, per Mordor Intelligence. The NJ Uniform Construction Code treats a re-roof in either grade as ordinary maintenance on a detached 1- or 2-family dwelling, with no permit regardless of grade, per N.J.A.C. 5:23-2.7, so the choice between them turns on durability and cost rather than the permit path.",
@@ -2109,7 +2109,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The choice turns on a single line — anything that puts the homeowner on the roof slope crosses from a reasonable DIY task into work a registered professional handles.",
     "sections": [
       {
-        "heading": "When Is DIY Roof Repair Safe Versus When Does a Professional Take Over?",
+        "heading": "DIY Stays Safe at Eave Height; a Professional Takes Over Off the Ground",
         "body": [
           "**DIY roof repair** stays safe at eave height and a professional takes over once the work leaves the ground, because most ladder injuries strike homes, not job sites — roughly 97.3% of U.S. ladder injuries occur in non-occupational settings (per D'Souza, Smith & Trifiletti, American Journal of Preventive Medicine).",
           "**Eave-height ground tasks** — clearing gutters, reattaching a downspout, or sealing a visible crack from a stable ladder — keep the homeowner off the roof slope and cost only home-center materials. These tasks never put a person at the height the data ties to fatal falls, so they remain reasonable DIY for a handy homeowner who works from a stable footing and stops at the edge of the roof.",
@@ -2117,7 +2117,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does Professional Roof Repair Cost in NJ, and What Does That Price Buy?",
+        "heading": "Professional Roof Repair in NJ: $360 to $1,550 in Labor Plus Materials",
         "body": [
           "**Professional roof repair** runs $360 to $1,550 in labor plus materials (per Angi), against home-center materials only for a DIY patch, and that price buys a diagnostic sequence DIY surface patching skips, not just the physical fix.",
           "**Professional roofing labor** runs $45 to $75 per hour (per Angi and HomeAdvisor), and the cost covers a root-cause sequence — inspection, diagnosis, root-cause tracing, and post-work verification (per Integrity Home Exteriors process standards). A contractor follows a leak stain from inside the attic back to the failed flashing rather than the visible drip point, then verifies the repair after completion.",
@@ -2125,7 +2125,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does NJ Law Require for Roof-Repair Work, and How Does It Affect Liability?",
+        "heading": "NJ Law Requires Home Improvement Contractor Registration for Roof Repair",
         "body": [
           "**NJ law** requires any business performing roof repair to register annually with the Division of Consumer Affairs as a Home Improvement Contractor (N.J.S.A. 56:8-136), with no dollar threshold — it is a registration, not a license. The Consumer Fraud Act home-improvement regulation separately requires a signed written contract for any home-improvement work priced over $500 (N.J.A.C. 13:45A-16.2), specifying the contractor's legal name and address, the work and materials, the total price, and the start and completion dates, with the 13VH registration number on that contract (per N.J.S.A. 56:8-144) verifiable through the Division of Consumer Affairs before work begins.",
           "**A homeowner** doing roof work on their own home is exempt from the HIC registration requirement (N.J.S.A. 56:8-140), though local building permits and the NJ Uniform Construction Code (N.J.A.C. 5:23) still apply. A failed DIY repair that causes interior water damage gives a NJ insurer grounds to dispute the claim as tied to the homeowner's own work, while a registered contractor carries commercial general liability of at least $500,000 per occurrence (per N.J.S.A. 56:8-142), coverage the homeowner does not hold.",
@@ -2147,7 +2147,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation tracks three points the standards make plainly: the technique failures DIY repeats, the diagnostic sequence DIY skips, and the on-roof work NJ law and OSHA reserve for a professional.",
     "sections": [
       {
-        "heading": "What Recurring DIY Technique Failures Do Industry Standards Flag?",
+        "heading": "The Three DIY Technique Failures Industry Standards Flag",
         "body": [
           "**DIY roof repair** repeats three technique failures the trades guard against, per Integrity Home Exteriors process standards: exposed fasteners, improper step-flashing overlap at sidewalls, and incompatible sealant substituted for the correct flashing detail.",
           "**Exposed fasteners and improper step-flashing overlap** undermine the repair at the transitions where roofs leak, not in the open field of shingle. A surface patch that nails through the covering or laps step flashing the wrong way at a sidewall leaves the original water path intact while hiding the symptom, which is why the contractor sequence treats flashing detail, not the visible drip point, as the repair. Each of the three failures the standards name opens a path water follows behind the patch, so the leak returns at the same transition the homeowner thought sealed.",
@@ -2155,7 +2155,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Does the Contractor Diagnostic Sequence Decide Repair Longevity?",
+        "heading": "The Contractor Diagnostic Sequence Decides Repair Longevity",
         "body": [
           "**The contractor diagnostic sequence** decides repair longevity because it traces the leak to its source rather than sealing the symptom — inspection, diagnosis, root-cause tracing, and post-work verification, per Integrity Home Exteriors process standards, the steps DIY surface patching skips.",
           "**Root-cause tracing** separates a lasting repair from a temporary one. A leak stain on a ceiling rarely sits below the actual breach; water enters at failed flashing and travels along the deck before it drips, so the diagnostic step follows the stain back through the attic to the entry point rather than patching where the drip appears. DIY surface patching, by contrast, treats the visible mark as the source and leaves the breach untouched.",
@@ -2163,7 +2163,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Roof-Repair Tasks Does NJ Law and OSHA Reserve for a Professional?",
+        "heading": "NJ Law and OSHA Reserve On-Roof, Flashing, and Edge Work for Professionals",
         "body": [
           "**NJ law and OSHA** reserve on-roof, flashing, and edge work for a registered professional while leaving ground-level eave-height tasks safely DIY. Federal OSHA requires a crew's employer to supply a harness, lanyard, and anchor for work six feet or higher (29 CFR 1926.501 and 1926.502), gear the homeowner does not own. On-roof work puts a homeowner at the deadliest height: the U.S. Bureau of Labor Statistics recorded 421 fatal falls in construction in 2023 even among trained, harnessed workers, and 64.4% of fatal construction falls came from 6 to 30 feet — the height of a two-story Essex County roof. An emergency-room analysis (D'Souza, Smith & Trifiletti, American Journal of Preventive Medicine) found roughly 97.3% of U.S. ladder injuries occur in non-occupational settings like homes, and a homeowner on their own roof falls outside OSHA jurisdiction entirely — NJ has no private-sector state OSHA plan, and PEOSH covers public employees only.",
           "**Commercial repair, recurring inspection, and the insurance backstop** stay with a registered professional as well — commercial roof repair is a home-improvement activity requiring HIC registration (N.J.S.A. 56:8-137), and a commercial flat or low-slope roof stays on the NRCA inspection cadence of twice yearly, spring and fall, plus after major weather, per the National Roofing Contractors Association. The same registration carries coverage the homeowner lacks: a registered HIC files commercial general liability of at least $500,000 per occurrence, per N.J.S.A. 56:8-142, with a 13VH registration number on the contract, per N.J.S.A. 56:8-144, verifiable through the NJ Division of Consumer Affairs before work begins.",
@@ -2185,7 +2185,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The deciding factor is whether the home is a cost-driven Colonial Revival house or a character-defining historic Colonial, which sets the material, the substyle match, and the NJ code path before any covering is ordered.",
     "sections": [
       {
-        "heading": "Which Colonial Material Costs Less Per Year of Service?",
+        "heading": "Asphalt Costs Least Upfront; Natural Slate Costs Least Per Year of Service",
         "body": [
           "**Architectural asphalt shingles** cost the least upfront and **natural slate** the least per year: asphalt installs at $6.50–$11.00 per NJ square foot over 30 years, slate at $10–$30 over 60–150 years, per Josten Roofing and the InterNACHI chart.",
           "**Architectural asphalt shingles** carry the lowest entry cost in the field, installing at $6.50–$11.00 per NJ square foot within the $10,000–$25,000 NJ full-replacement benchmark, per Josten Roofing and the HomeAdvisor and Modernize NJ ranges. That benchmark covers a complete Colonial [roof replacement](/roof-replacement-in-newark-nj), and asphalt sits at the bottom of it as the lowest-cost field option.",
@@ -2193,7 +2193,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Material Matches Each Colonial Substyle?",
+        "heading": "Slate, Cedar, Metal, and Asphalt Each Match a Colonial Substyle",
         "body": [
           "**Natural slate** and **cedar shingle** match the earliest Colonial substyles, **standing seam metal** matches Federal and Georgian traditions, and **architectural asphalt shingles** match the Colonial Revival wave, each pairing following the period material named in NPS Preservation Brief 4.",
           "**Natural slate** and **cedar shingle** roof Georgian and early Colonial homes that historically wore slate or wood shingle, the character-defining materials Brief 4 directs a visible historic roof to match in kind rather than swap for asphalt, per the National Park Service. **Standing seam metal** suits Federal and Georgian facades, where Brief 4 names metal traditional Colonial roof materials as tin plate, terne plate, copper, and zinc, with standing seam, batten seam, and flat seam as the standard sheet-metal systems, per NPS Preservation Brief 4 and the Copper Development Association.",
@@ -2201,7 +2201,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Does NJ Code Require Before Re-Roofing an Essex County Colonial?",
+        "heading": "The Historic-District Ordinance and Rehabilitation Subcode Govern a Colonial Re-Roof",
         "body": [
           "**The local historic-district ordinance** and **the Rehabilitation Subcode** govern an Essex County Colonial re-roof, while the NJ Uniform Construction Code exempts an ordinary-maintenance reroof on a detached one- or two-family dwelling, per N.J.S.A. 40:55D-107, N.J.A.C. 5:23-6.4, and N.J.A.C. 5:23-2.7.",
           "**The local historic-district ordinance** is the binding gate for a designated-landmark or historic-district Colonial, where a Certificate of Appropriateness from the municipal Historic Preservation Commission reviews the roofing material before work begins, per N.J.S.A. 40:55D-107. National Register listing alone places no restriction on a private reroof, per the National Park Service.",
@@ -2223,7 +2223,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "What the named standards favor turns less on the brand of shingle than on the era the home was built and the metal worked into its dormers, valleys, and chimney crickets.",
     "sections": [
       {
-        "heading": "Which Material Do the Preservation Standards Actually Favor by Substyle?",
+        "heading": "Preservation Standards Favor the Period Material for Each Colonial Substyle",
         "body": [
           "**The preservation standards** favor the period material per substyle: slate and cedar for the earliest Colonials, standing seam metal for Federal and Georgian traditions, and architectural asphalt for Colonial Revival, per NPS Preservation Brief 4.",
           "**Natural slate and cedar shingle** are the character-defining materials a visible historic Colonial wore originally, and Standard 6 of the Secretary of the Interior's Standards directs replacement in kind — matching design, color, texture, and materials — rather than a swap for asphalt, per the National Park Service. Natural slate lasts 60-150 years (premium 100+) and cedar shingle 30-50 years, per the InterNACHI chart and the Cedar Shake & Shingle Bureau.",
@@ -2232,7 +2232,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Does Flashing Detail Decide Colonial Roof Longevity More Than Material?",
+        "heading": "Flashing Detail Decides Colonial Roof Longevity More Than Material",
         "body": [
           "**Flashing detail** decides Colonial roof longevity more than the shingle because NPS Preservation Brief 4 names flashing failure at dormers, valleys, and chimney crickets as a major cause of deterioration regardless of roofing material.",
           "**Dormers, valleys, and chimney crickets** are the transitions where a Colonial roofline turns, and each one is a seam the standards flag as the weak point before the field of the roof ever fails, per NPS Preservation Brief 4. The detailing there — step flashing, counter-flashing, and shingle weaving at the cheek walls — carries the work regardless of whether the covering is slate, metal, or asphalt, and it concentrates the load from Newark's 31.5 inches of average annual snowfall, per the NOAA 1991-2020 normals, at exactly the points a Colonial roof channels water.",
@@ -2240,7 +2240,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Fastener Mistakes Shorten a Colonial Roof's Life?",
+        "heading": "Wrong Fastener Metal Pairings Shorten a Colonial Roof's Life",
         "body": [
           "**Fastener mistakes** shorten a Colonial roof when the metal pairs wrong: slate hung on plain or galvanized steel rusts out before the slate, and cedar fastened with copper reacts chemically, per NPS Preservation Brief 29 and Brief 19.",
           "**Natural slate** requires non-ferrous fasteners — solid copper or stainless steel, never plain or galvanized steel, which rust out long before the slate itself deteriorates — and its flashing is a durable metal of comparable life such as copper or terne-coated stainless steel, per NPS Preservation Brief 29 (Jeffrey S. Levine).",
@@ -2263,7 +2263,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "Picking the right warranty starts with knowing what each of the four structures actually covers, how proration erodes a payout over time, and what New Jersey law puts in the contract.",
     "sections": [
       {
-        "heading": "What Does Each of the Four Warranty Structures Actually Cover?",
+        "heading": "The Four Warranty Structures Differ in Coverage, Backer, and Term",
         "body": [
           "**A roof warranty** is a written guarantee covering factory material defects from the manufacturer, installation quality from the contractor, or both under a certified system warranty — the four structures differ in coverage, backer, and term, per NRCA and GAF.",
           "**A manufacturer system warranty** covers both factory material defects and the certified install, running a 50-year non-prorated material term plus 25-year workmanship plus tear-off and disposal in the GAF Golden Pledge example, per GAF. **A manufacturer material-only warranty** sits below it, covering defective materials alone — prorated after a 10–15-year non-prorated window, with no labor or workmanship, per NRCA.",
@@ -2272,7 +2272,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does Non-Prorated Coverage Differ From Prorated Coverage?",
+        "heading": "Non-Prorated Coverage Pays Full Value While Prorated Shrinks With Roof Age",
         "body": [
           "**Non-prorated coverage** returns full-replacement value within a stated window, while **prorated coverage** reduces the payout by the roof's age — the 10–15-year non-prorated window decides a warranty's real value because coverage shrinks once it closes, per NRCA.",
           "**A manufacturer system warranty** keeps full-replacement value through its stated non-prorated period — the GAF Golden Pledge example runs 50-year material that is non-prorated, plus 25-year workmanship and tear-off and disposal, per Roof-Crafters and Gunner Roofing. **A manufacturer material-only warranty** instead reimburses defective shingles prorated by age once the 10–15-year non-prorated window closes, so a later-year failure returns only part of material cost and excludes labor, per NRCA, Cobex, and Indy Roof & Restoration.",
@@ -2280,7 +2280,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Warranty Fits an Essex County Home, and What Must the Contract Show?",
+        "heading": "A Manufacturer System Warranty Fits a Long-Term Essex County Home",
         "body": [
           "**A manufacturer system warranty** suits an Essex County house held long-term, pairing factory material coverage with certified-install workmanship under a registered term such as the 50-year non-prorated material / 25-year workmanship GAF Golden Pledge example, per Roof-Crafters and Gunner Roofing. **A contractor workmanship warranty** suits the same house only as a second layer alongside that manufacturer term, since it covers install defects for commonly 1–10 years and ends if the contractor stops operating, per NRCA and Owens Corning.",
           "**A manufacturer system warranty** also survives the installing contractor closing, because the manufacturer sets and administers it while a contractor workmanship warranty lasts only as long as that contractor keeps operating, per NRCA. **A transferable manufacturer warranty** moves once to the first buyer within a manufacturer-set window — CertainTeed's SureStart PLUS is fully transferable if the home sells within 15 years, while standard terms reduce or limit coverage for a later owner, per the SureStart PLUS brochure and NRCIA.",
@@ -2302,7 +2302,7 @@ export const comparisonArticles: ArticleContent[] = [
     "intro": "The recommendation rests on what the published roofing standards actually rank highest, what voids that coverage, and what NJ law requires a contractor to put in writing before a homeowner signs.",
     "sections": [
       {
-        "heading": "What Do the Roofing Standards Actually Favor?",
+        "heading": "NRCA and GAF Guidance Favors the Manufacturer System Warranty",
         "body": [
           "**A manufacturer system warranty** ranks above a material-only warranty in NRCA and GAF guidance because it covers both factory material defects and the certified install, and the manufacturer administers it, so material coverage survives the installer closing, per NRCA.",
           "**A manufacturer system warranty** keeps full-replacement value through a stated non-prorated window: the GAF Golden Pledge example runs a 50-year non-prorated material term plus 25-year workmanship plus tear-off and disposal, registered by the manufacturer, per GAF. Because the manufacturer issues and registers the term, the material obligation stands decades later even after the installing contractor stops operating, per the NRCA Roofing Manual and corroborating InterNACHI and IIBEC guidance.",
@@ -2310,7 +2310,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Voids a Roofing Warranty?",
+        "heading": "Inadequate Attic Ventilation Is the Top Cause of Voided Warranties",
         "body": [
           "**Inadequate attic ventilation** is the most-cited cause of voided shingle warranties, alongside unauthorized alterations and deferred maintenance, because manufacturers attribute premature curling, cracking, and blistering to ventilation rather than a defect, per GAF.",
           "**Inadequate attic ventilation** voids coverage when intake vents are painted over or blocked by insulation, and the IRC R806.2 baseline sets minimum net free ventilating area at 1/150 of the vented space, with the 1/300 reduction's cold-zone condition generally not applying in Newark, per the International Residential Code and InterNACHI. The standards flag ventilation first because it is the condition manufacturers cite to deny a claim that a homeowner reads as a material defect.",
@@ -2318,7 +2318,7 @@ export const comparisonArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Should a NJ Owner Verify Before Signing?",
+        "heading": "Verify the Written Warranty Terms in the Contract Before Signing",
         "body": [
           "**The written warranty terms in the contract** are the first thing a NJ owner verifies, because NJ home-improvement law requires a contractor's warranty terms to appear in the signed written contract for any job over $500, under N.J.A.C. 13:45A-16.2(a)12. The regulation's enumerated contract elements include any guarantee or warranty the contractor provides.",
           "**A registered New Jersey Home Improvement Contractor** is the second check, because NJ home-improvement law requires every roofing business to register annually with the NJ Division of Consumer Affairs under the Contractors' Registration Act, N.J.S.A. 56:8-136, with no dollar threshold — a registration, not a license, since NJ issues no roofing license — and routes warranty disputes through its Office of Consumer Protection.",

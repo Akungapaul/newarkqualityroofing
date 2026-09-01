@@ -91,7 +91,7 @@ export default function HubScaffold({ hubId, eyebrow, heading, content }: HubSca
   // Prepend the definitional Q&A to the FAQPage JSON-LD on category hubs (gated).
   const faqsForSchema =
     content.definition && content.definitionHeading
-      ? [{ question: content.definitionHeading, answer: content.definition }, ...content.faqs]
+      ? [{ question: content.definitionQuestion ?? content.definitionHeading, answer: content.definition }, ...content.faqs]
       : content.faqs;
 
   return (

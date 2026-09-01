@@ -25,20 +25,20 @@ export interface InstallPersona {
 }
 
 export const homeInstallation = {
-  h2: 'How Do We Install New Roofs in Newark?',
+  h2: 'How We Install New Roofs in Newark',
   intro: [
     '**Newark Quality Roofing installs new residential and commercial roofs across Newark, New Jersey** — with full permit coordination through Newark’s Office of Uniform Construction Code, transparent pricing with no surprise fees, and materials selected for Newark’s humid continental climate.',
     'Getting a new roof in Newark shouldn’t mean weeks of delays, unexpected charges after tear-off, or a contractor who doesn’t understand the building you own. We deliver professional roof installation across Newark’s diverse neighborhoods — from Victorian slate restorations in Forest Hill to commercial flat-roof replacement on Ironbound warehouses — with transparent pricing and full permit coordination. No surprise fees, no guesswork, no contractors disappearing mid-project.',
   ],
   different: {
-    h3: 'What Makes Roof Installation in Newark Different?',
+    h3: 'Roof Installation in Newark: What Makes It Different',
     body: [
       '**Newark’s urban environment creates roofing challenges you won’t find in suburban New Jersey.** Tall buildings downtown and in the Ironbound create wind tunnels that accelerate uplift forces on shingles and membranes. Row houses share party walls that complicate flashing details. Historic homes in Forest Hill require materials and techniques most contractors have never worked with. And every winter, nor’easters and freeze-thaw cycles punish roofs that weren’t installed with Newark’s humid continental climate in mind.',
       'We engineer solutions for these conditions: ice-and-water-shield underlayment to prevent winter ice dams where meltwater refreezes near the eaves, wind-rated materials for urban corridors, and flat-roof drainage systems that eliminate standing water. Over 25 years serving Newark homes and commercial properties, we’ve installed every architectural style — from historic slate and copper-flashing restoration to modern TPO and EPDM membrane systems on retail and multi-family buildings.',
     ],
   },
   process: {
-    h3: 'What Are the Steps in Our Roof Installation Process?',
+    h3: 'The Steps in Our Roof Installation Process',
     steps: [
       {
         title: 'Free 25-Point Newark Property Inspection',
@@ -58,7 +58,7 @@ export const homeInstallation = {
     ] as InstallStep[],
   },
   materials: {
-    h3: 'What Roofing Materials Do We Install for Newark’s Climate?',
+    h3: 'Roofing Materials We Install for Newark’s Climate',
     intro:
       'We select every component for Newark’s wind, snow, moisture, and thermal-cycling conditions. The figures below are **typical Newark-area market ranges** — your exact price comes from a free on-site estimate.',
     items: [
@@ -92,7 +92,7 @@ export const homeInstallation = {
       'At the project level, a typical Newark residential asphalt-shingle replacement runs about $12,000–$18,000, metal roofs $18,000–$40,000, and full slate restorations $30,000–$70,000+ depending on scope and material sourcing.',
   },
   personas: {
-    h3: 'Who Do We Install Roofs For in Newark?',
+    h3: 'Who We Install Roofs For in Newark',
     items: [
       {
         name: 'Homeowners with aging roofs',

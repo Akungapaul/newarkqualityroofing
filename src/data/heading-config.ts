@@ -3,9 +3,9 @@
  *
  * H1 policy (2026-08 owner decision): every page H1 is a keyword-led STATEMENT
  * in the uniform "[Service] [City], NJ" pattern (e.g. "Roof Repair Newark, NJ");
- * statewide pages use an "in NJ" suffix instead. H2–H4 keep the verbatim
- * §4.1–4.4 (IMPLEMENTATION-BRIEF) + §17 (IMPLEMENTATION-PLAN) question-form
- * Q→A structure. BOTH the templates render these AND the static audit pass
+ * statewide pages use an "in NJ" suffix instead. Since the 2026-09 policy v3,
+ * H2–H4 are ALSO keyword-led statements that answer their topic (only FAQ item
+ * questions stay interrogative). BOTH the templates render these AND the static audit pass
  * (`scripts/audit-headings.ts`) asserts against them, so the page H-tags and
  * the audit can never drift (D-08, D-09, Pattern 1).
  *
@@ -19,52 +19,51 @@
  *   - `outerH2s` / the per-type H2 arrays hold the full ordered §4.x tree H2s.
  *   - city adds `permitsH2` + `materialsH2` accessors (D-11 new sections).
  *
- * H2 strings are byte-for-byte from the brief — NEVER paraphrase, NEVER use
- * placeholder / "v1" wording. Every H2 ends with "?". No page type's H1 equals
- * any of its own H2 strings.
+ * Several city/combo section components hand-duplicate these H2 strings as
+ * JSX literals — keep them byte-identical when editing. No page type's H1
+ * equals any of its own H2 strings.
  */
 
 export const HEADING_CONFIG = {
   // ─── §4.1 Homepage (constant strings) ──────────────────────────────────────
   home: {
     h1: 'Roofing Contractor Newark, NJ',
-    coreH2: 'What Roofing Services Do We Provide in Newark and Essex County?',
+    coreH2: 'Roofing Services We Provide in Newark and Essex County',
     // NOTE: the Core services are rendered by ServicesGrid as declarative,
     // linked service cards (styled text, NOT <h3> headings), so no per-service
     // heading strings live here — only the Core H2 above and the Outer H2s below
-    // are question-form headings on the homepage.
+    // are headings on the homepage.
     // §4.1 Outer H2s (after the Core section, in tree order)
     outerH2s: [
-      'Why Should Homeowners and Businesses Choose Our Roofing Company?',
-      'How Does Our Roofing Process Work?',
-      'Where Do We Provide Roofing Services?',
-      'How Much Do Roofing Services Cost?',
-      'What Roofing Questions Do Customers Ask Most Often?',
-      'How Can You Request a Free Roofing Estimate?',
+      'Why Newark Homeowners and Businesses Choose Our Roofing Company',
+      'Our Roofing Process, Step by Step',
+      'Where We Provide Roofing Services in Essex County, NJ',
+      'Roofing Service Costs in Newark, NJ',
+      'Roofing FAQs from Newark Customers',
+      'Request a Free Roofing Estimate in Newark, NJ',
     ],
   },
 
   // ─── §4.2 Service Page ([Service] interpolated) ────────────────────────────
   service: {
     h1: (s: string) => `${s} Newark, NJ`,
-    coreH2: (s: string) => `What ${s} Do We Provide?`,
-    // Entity-grounding: the definitional first H2 ("What Is {Service}?"), rendered
-    // ABOVE the existing tree by the EntityDefinition section when content.definition
-    // is present. Additive — does NOT shift the h2s[] indices the template binds.
-    definitionH2: (s: string) => `What Is ${s}?`,
-    // §4.2 9-H2 tree (Core H2 first, then Outer H2s in order). §12 relabel
-    // applied to "Related Roofing Services" → "What Related Roofing Services
-    // Should You Consider?".
+    coreH2: (s: string) => `${s} We Provide in Newark, NJ`,
+    // Entity-grounding: the definitional first H2, rendered ABOVE the existing
+    // tree by the EntityDefinition section when content.definition is present.
+    // Additive — does NOT shift the h2s[] indices the template binds. The
+    // FAQPage JSON-LD keeps its own question-form literal ("What Is {s}?").
+    definitionH2: (s: string) => `${s}, Defined`,
+    // §4.2 9-H2 tree (Core H2 first, then Outer H2s in order).
     h2s: (s: string) => [
-      `What ${s} Do We Provide?`,
-      `How Do You Know If You Need ${s}?`,
-      `How Do Our Roofing Contractors Perform ${s}?`,
-      `How Much Does ${s} Cost?`,
-      'Should You Repair or Replace Your Roof?',
-      `Why Choose Our Roofing Company for ${s}?`,
-      'What Related Roofing Services Should You Consider?',
-      'What Knowledge Base Articles Explain This Service?',
-      `How Can You Schedule ${s}?`,
+      `${s} We Provide in Newark, NJ`,
+      `Signs You Need ${s}`,
+      `How Our Roofing Contractors Perform ${s}`,
+      `${s} Costs in Newark, NJ`,
+      'Repair vs Replacement: How to Decide',
+      `Why Choose Newark Quality Roofing for ${s}`,
+      'Related Roofing Services to Consider',
+      'Roofing Guides That Explain This Service',
+      `Schedule ${s} in Newark, NJ`,
     ],
   },
 
@@ -74,50 +73,50 @@ export const HEADING_CONFIG = {
     // NOTE: the URL slug (roof-repair-and-installation-in-{city}-nj) and the 21
     // city metaTitles keep the "in" — only the visible H1 drops it.
     h1: (c: string) => `Roof Repair and Installation ${c}, NJ`,
-    coreH2: (c: string) => `What Roofing Services Are Available in ${c}?`,
-    // Entity-grounding: the locational first H2 ("Where Is {City}, NJ?"), rendered
-    // ABOVE the services grid by the EntityDefinition section when content.whereIs
-    // is present. Additive — coreH2/h2s unchanged (coreH2 stays the services-grid H2).
-    whereIsH2: (c: string) => `Where Is ${c}, NJ?`,
+    coreH2: (c: string) => `Roofing Services Available in ${c}, NJ`,
+    // Entity-grounding: the locational first H2, rendered ABOVE the services
+    // grid by the EntityDefinition section when content.whereIs is present.
+    // Additive — coreH2/h2s unchanged (coreH2 stays the services-grid H2).
+    // The FAQPage JSON-LD keeps its question literal ("Where Is {c}, NJ?").
+    whereIsH2: (c: string) => `Where ${c}, NJ Is Located`,
     // D-11 new shared sections:
-    permitsH2: (c: string) => `What Should You Know About Roofing Permits in ${c}?`,
-    materialsH2: (c: string) => `What Roofing Materials Work Best for ${c} Properties?`,
-    // §4.3 tree H2s (Core first, then Outer in tree order). §12 relabel applied
-    // to "Nearby Service Areas" → "Where Else Do We Provide Roofing Services
-    // Near [City]?".
+    permitsH2: (c: string) => `Roofing Permits in ${c}, NJ`,
+    materialsH2: (c: string) => `Roofing Materials Suited to ${c} Properties`,
+    // §4.3 tree H2s (Core first, then Outer in tree order).
     h2s: (c: string) => [
-      `What Roofing Services Are Available in ${c}?`,
-      `What Roofing Problems Are Common in ${c}?`,
-      `Which Neighborhoods Do We Serve in ${c}?`,
-      `What Roofing Materials Work Best for ${c} Properties?`,
-      `What Should You Know About Roofing Permits in ${c}?`,
-      `What Roofing Projects Do We Handle in ${c}?`,
-      `What Questions Do ${c} Property Owners Ask About Roofing?`,
-      `Where Else Do We Provide Roofing Services Near ${c}?`,
-      `How Can You Request a Free Roofing Estimate in ${c}?`,
+      `Roofing Services Available in ${c}, NJ`,
+      `Common Roofing Problems in ${c}, NJ`,
+      `${c} Neighborhoods We Serve`,
+      `Roofing Materials Suited to ${c} Properties`,
+      `Roofing Permits in ${c}, NJ`,
+      `Roofing Projects We Handle in ${c}`,
+      `Roofing FAQs from ${c} Property Owners`,
+      `Roofing Services in Towns Near ${c}`,
+      `Request a Free Roofing Estimate in ${c}, NJ`,
     ],
   },
 
   // ─── §4.4 Service + Location (Combo) Page ([Service], [City]) ───────────────
   combo: {
     h1: (s: string, c: string) => `${s} ${c}, NJ`,
-    coreH2: (s: string, c: string) => `What ${s} Is Available in ${c}?`,
-    // Entity-grounding: the definitional first H2 ("What Is {Service}?"), city-agnostic
-    // (the canonical service definition is propagated to every combo). Rendered ABOVE
-    // the overview by EntityDefinition when content.definition is present. Additive.
-    definitionH2: (s: string) => `What Is ${s}?`,
+    coreH2: (s: string, c: string) => `${s} Available in ${c}, NJ`,
+    // Entity-grounding: the definitional first H2, city-agnostic (the canonical
+    // service definition is propagated to every combo). Rendered ABOVE the
+    // overview by EntityDefinition when content.definition is present. Additive.
+    // The FAQPage JSON-LD keeps its question literal ("What Is {s}?").
+    definitionH2: (s: string) => `${s}, Defined`,
     // §4.4 tree H2s (Core first, then Outer in tree order).
     h2s: (s: string, c: string) => [
-      `What ${s} Is Available in ${c}?`,
-      `What ${s} Problems Are Common in ${c}?`,
-      `How Do We Inspect the Roof Before ${s}?`,
-      `How Much Does ${s} Cost in ${c}?`,
-      `What Is Our Process for ${s} in ${c}?`,
-      `Why Choose Our Roofing Company for ${s} in ${c}?`,
-      `What Other Roofing Services Are Available in ${c}?`,
-      `Where Else Do We Provide ${s} Near ${c}?`,
-      `What Knowledge Base Articles Explain ${s}?`,
-      `How Can You Schedule ${s} in ${c}?`,
+      `${s} Available in ${c}, NJ`,
+      `Common ${s} Problems in ${c}`,
+      `Our Roof Inspection Before ${s}`,
+      `${s} Costs in ${c}, NJ`,
+      `Our Process for ${s} in ${c}`,
+      `Why Choose Newark Quality Roofing for ${s} in ${c}`,
+      `Other Roofing Services Available in ${c}`,
+      `${s} in Towns Near ${c}`,
+      `Roofing Guides That Explain ${s}`,
+      `Schedule ${s} in ${c}, NJ`,
     ],
   },
 

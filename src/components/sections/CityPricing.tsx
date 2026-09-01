@@ -20,7 +20,7 @@ export function CityPricing({ pricing, cityName }: CityPricingProps) {
         id="city-pricing-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        How Much Does Roofing Cost in {cityName}?
+        Roofing Costs in {cityName}, NJ
       </h2>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2">

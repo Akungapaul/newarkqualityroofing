@@ -24,6 +24,9 @@ export const HubContentSchema = z.object({
   // Roofing?"). Category hubs only — gated at the call site; utility hubs omit both.
   definition: z.string().optional(),
   definitionHeading: z.string().optional(),
+  // Question form of the definition heading, used ONLY for the FAQPage JSON-LD
+  // Question.name (the visible H2 is a statement since the 2026-09 heading policy).
+  definitionQuestion: z.string().optional(),
   // Entity-grounded prose body. Every `heading` is QUESTION-FORM (the rendered-heading
   // audit requires every <h2> to be a question). `body[0]` = the ≤40-word answer-first lead.
   sections: z.array(z.object({

@@ -5,7 +5,7 @@ export const ourRoofingProcessHubContent: HubContent = {
   "directAnswer": "**Newark Quality Roofing's roofing process moves from a free inspection and written estimate through material selection and scheduling to professional installation, then a final inspection with full cleanup.** Newark Quality Roofing is a roofing contractor and registered New Jersey Home Improvement Contractor serving Newark and Essex County, New Jersey.",
   "sections": [
     {
-      "heading": "How Does a Roofing Project Begin?",
+      "heading": "How a Roofing Project Begins",
       "body": [
         "A roofing project begins with a **free roof inspection** and a **detailed written estimate**, carrying no obligation. Newark Quality Roofing, a roofing contractor serving Newark, New Jersey, evaluates the roof, then documents scope and pricing before any work is authorized.",
         "The **free roof inspection** examines the deck, flashing, drainage, and existing covering. Per the NRCA, professional roof inspection twice a year and after major storms locates wear before it reaches the structure, which Newark Quality Roofing records during this first visit.",
@@ -13,7 +13,7 @@ export const ourRoofingProcessHubContent: HubContent = {
       ]
     },
     {
-      "heading": "How Do We Plan Materials and Scheduling?",
+      "heading": "How We Plan Materials and Scheduling",
       "body": [
         "Planning covers **material selection**, **scheduling around weather**, and **permitting where the UCC applies**. Newark Quality Roofing matches the roof system to the structure, sets a weather-aware install date, and confirms permit requirements under New Jersey code.",
         "**Material selection** matches the system to the building and its slope. Per InterNACHI service-life ranges, architectural asphalt lasts about 25 to 30 years, metal about 40 to 70 years, and natural slate 75 to 150 or more years, framing each option.",
@@ -22,7 +22,7 @@ export const ourRoofingProcessHubContent: HubContent = {
       ]
     },
     {
-      "heading": "How Do We Install and Inspect the Finished Roof?",
+      "heading": "How We Install and Inspect the Finished Roof",
       "body": [
         "Installation runs to **manufacturer specification**, followed by **site cleanup with a magnetic nail sweep**, a **final walkthrough**, and **warranty documentation**. Newark Quality Roofing installs the system to spec, clears the site, reviews the work, and hands over the warranty paperwork.",
         "Installation to **manufacturer specification** governs fastening patterns, underlayment, and flashing. The Rehab Subcode at N.J.A.C. 5:23-6.4 limits roof recover over two existing layers or wet decking, mirroring IRC R908, so Newark Quality Roofing confirms the deck before installing the new system.",
@@ -31,7 +31,7 @@ export const ourRoofingProcessHubContent: HubContent = {
       ]
     }
   ],
-  "faqHeading": "What Questions Do Customers Ask About Our Roofing Process?",
+  "faqHeading": "Roofing Process FAQs",
   "faqs": [
     {
       "question": "Is the roof inspection and estimate free?",

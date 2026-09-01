@@ -23,6 +23,9 @@ export const ComparisonContentSchema = z.object({
   // section and appended to the FAQ JSON-LD when both are present.
   definition: z.string().optional(),
   definitionHeading: z.string().optional(),
+  // Question form of the definition heading, used ONLY for the FAQPage JSON-LD
+  // Question.name (the visible H2 is a statement since the 2026-09 heading policy).
+  definitionQuestion: z.string().optional(),
   introHeading: z.string(),
   introParagraphs: z.array(z.string()).min(1).max(3),
   comparisonRows: z.array(z.object({

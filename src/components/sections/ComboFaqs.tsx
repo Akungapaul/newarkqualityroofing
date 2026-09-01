@@ -11,7 +11,7 @@ export function ComboFaqs({ faqs }: ComboFaqsProps) {
         id="combo-faqs-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        What Questions Do Customers Ask About This Roofing Service?
+        FAQs About This Roofing Service
       </h2>
       <div className="mt-6 divide-y divide-border">
         {faqs.map((faq, index) => (

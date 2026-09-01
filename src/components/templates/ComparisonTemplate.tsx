@@ -76,7 +76,7 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
             ? [{ question: `What Is ${comparison.itemB}?`, answer: content.definitionB }]
             : []),
           ...(content.definition && content.definitionHeading
-            ? [{ question: content.definitionHeading, answer: content.definition }]
+            ? [{ question: content.definitionQuestion ?? content.definitionHeading, answer: content.definition }]
             : []),
           ...content.faqs,
         ]),
@@ -99,7 +99,7 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
             <AnimateIn>
               <EntityDefinition
                 headingId="entity-definition-a-heading"
-                heading={`What Is ${comparison.itemA}?`}
+                heading={`${comparison.itemA}, Defined`}
                 definition={content.definitionA}
               />
             </AnimateIn>
@@ -108,7 +108,7 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
             <AnimateIn>
               <EntityDefinition
                 headingId="entity-definition-b-heading"
-                heading={`What Is ${comparison.itemB}?`}
+                heading={`${comparison.itemB}, Defined`}
                 definition={content.definitionB}
               />
             </AnimateIn>

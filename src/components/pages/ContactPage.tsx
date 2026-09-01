@@ -79,7 +79,7 @@ export default function ContactPage() {
           {/* Right -- Contact Info */}
           <div className="lg:col-span-2">
             <div className="rounded-lg bg-forest p-6 text-text-on-dark">
-              <h2 className="mb-6 font-heading text-2xl font-bold">How Can You Reach Our Roofing Team?</h2>
+              <h2 className="mb-6 font-heading text-2xl font-bold">Reach Our Roofing Team in Newark, NJ</h2>
 
               {/* Phone */}
               <div className="mb-5">

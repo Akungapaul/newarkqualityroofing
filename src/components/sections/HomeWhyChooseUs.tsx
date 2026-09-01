@@ -105,7 +105,7 @@ export function HomeWhyChooseUs() {
         </div>
 
         <h3 className="mt-12 text-center font-heading text-2xl font-semibold text-forest">
-          Are We Registered and Insured Professionals?
+          Registered and Insured Professionals
         </h3>
 
         <div className="mt-8 grid gap-5 sm:grid-cols-2">

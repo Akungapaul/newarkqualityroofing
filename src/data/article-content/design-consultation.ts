@@ -15,7 +15,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "intro": "Each sign points to a roof where an off-the-shelf replacement leaves the geometry, the material match, or the code path undecided.",
     "sections": [
       {
-        "heading": "When Do Standard Roofing Solutions Fall Short?",
+        "heading": "Standard Roofing Falls Short on Complex, Multi-Material Roofs",
         "body": [
           "**Standard roofing solutions** fall short on a complex roof geometry of multiple valleys, dormers, and hips and on a multi-material roof. These roofs need a unified written roofing specification that defines flashing at every transition rather than a section-by-section install.",
           "**Complex roof geometry** with multiple intersecting planes, turrets, dormers, valleys, and hips raises both material and labor over a simple gable roof and drives the per-square-foot cost across every material class, per industry cost guidance. A written specification fixes the flashing and drainage detail at each valley and hip in advance, reducing the field improvisation that drives future leaks, because the NRCA attributes roughly 90 to 95 percent of roof leaks to flashing details rather than the field of the roofing material.",
@@ -23,7 +23,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Which Projects Call for a Roof Design Consultation?",
+        "heading": "New Builds, Additions, and Material Decisions Call for a Design Consultation",
         "body": [
           "**A new build, an addition, and a material-selection decision across material families** call for a roof design consultation. A new-construction roof sets the wind-load and snow-load design to ASCE 7, the load standard the NJ Uniform Construction Code adopts, before material ordering.",
           "**A new build or an addition** ties the roof into the building structurally and aesthetically, so the design sets the wind-load and snow-load to ASCE 7 first, then matches the new roof plane to the existing structure. An addition connects to an existing roof at a structural junction and a visible seam at once, and a consultation resolves both the load path and the streetscape match before the framing is set.",
@@ -31,7 +31,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What NJ Code and Local Approvals Apply?",
+        "heading": "Structural Changes Trigger NJ Permits; Historic Districts Require Approval",
         "body": [
           "**A structural change to rafters, trusses, ridge beams, or roof pitch** triggers a construction permit under N.J.A.C. 5:23-2.7, while a designated landmark or a property in a local historic district requires a Certificate of Appropriateness under N.J.S.A. 40:55D-107.",
           "**A structural change** falls outside the ordinary-maintenance exemption, because a re-roof of the covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a change to rafters, trusses, ridge beams, or roof pitch does. On a commercial building, a roof replacement crosses the permit threshold once the work exceeds 25 percent of the total roof area in a 12-month period, per the NJ Uniform Construction Code.",
@@ -53,7 +53,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "intro": "Because the design work feeds the installation rather than billing separately, the real number a homeowner plans around is the per-square-foot install cost set by material, roof complexity, and deck condition.",
     "sections": [
       {
-        "heading": "Is There a Separate Design Consultation Fee?",
+        "heading": "Design Consultation Is Often Folded Into a Free Written Estimate",
         "body": [
           "**Many New Jersey roofing contractors fold design and consultation into a free written estimate** rather than charging a standalone design fee, so the cost lands in the install, where roof complexity, the material, and the deck condition set the price. The estimate documents the recommended material, the flashing, the ventilation, and the wind-load and snow-load design before any standalone fee enters the picture.",
           "**A free written estimate** covers the assessment and the material recommendation, and the contractor carries that work into the installation price rather than billing it as a separate line. The deliverable is a written roofing specification naming the material, the underlayment, the flashing, and the ventilation, per the documentation sequence in Integrity Home Exteriors guidance, and that specification is the same document a [roof replacement](/roof-replacement-in-newark-nj) installation or a competitive bid works from.",
@@ -61,7 +61,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Drives the Cost of a Custom Roof?",
+        "heading": "Material Selection Sets the Largest Share of Custom Roof Cost",
         "body": [
           "**Material selection sets the largest share of a custom roof's cost.** NJ architectural asphalt runs $6.50 to $11.00 per square foot, metal $9.00 to $16.00, and slate $10 to $30, per Josten Roofing and NJ roofing guides, and each material carries a different measured lifespan. The InterNACHI life-expectancy chart records 3-tab asphalt at 20 years, architectural asphalt at 30 years, metal at 40 to 80 years, slate at 60 to 150 years, copper at 70-plus years, wood at 25 years, and clay or concrete tile at 100-plus years, so the per-square-foot price tracks the durability the material buys.",
           "**Roof complexity** raises both material and labor over a simple gable roof, because multiple valleys, dormers, and hips add cut waste, flashing detail, and slower installation across every material class, per industry cost guidance. **Deck condition** adds further cost where the sheathing has rot or water damage that the crew replaces before the new covering goes down, and a structural change to rafters, trusses, ridge beams, or roof pitch triggers a construction permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance re-roof exemption, per the NJ Uniform Construction Code.",
@@ -69,7 +69,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Does Design Planning Prevent Costly Errors?",
+        "heading": "A Written Specification Prevents Costly Flashing Errors",
         "body": [
           "**A written roofing specification defines the flashing and transition details in advance**, reducing the field improvisation that drives future leaks. The NRCA attributes roughly 90 to 95 percent of roof leaks to flashing details rather than the field of the covering. Settling those details on paper before installation means the chimney, valley, and wall-transition flashing follows a plan rather than an on-the-roof judgment call.",
           "**Flashing details** fail most often where two roof planes or a roof and a wall meet, so a specification that names the metal, the lap, and the transition method at each junction removes the guesswork that produces leaks years later. Correcting a flashing leak after the fact means opening finished work, and a design pass that resolves the detail in advance avoids the rework and the interior water damage that follow an improvised joint.",
@@ -91,7 +91,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "intro": "Each stage feeds the next, turning a survey of the existing roof into a documented plan an installation or a competitive bid works from.",
     "sections": [
       {
-        "heading": "What Happens During the Roof Assessment?",
+        "heading": "The Roof Assessment Surveys the Deck, Ventilation, and Geometry",
         "body": [
           "**The roof assessment** surveys the existing roof, the deck, the attic ventilation, and the roof geometry. It sizes ventilation against the minimum net free ventilating area of 1 square foot per 150 square feet of attic floor and identifies the code triggers that govern the work. That 1/150 ratio traces to IRC R806.2 and ARMA, the baseline a design pass measures the existing attic against.",
           "**Attic ventilation** carries weight in the assessment because the NRCA notes that balanced attic ventilation reduces the heat and moisture stress that shortens roof life, and balanced ventilation is often a condition of a shingle warranty. A balanced system pairs roughly 50 percent intake at the soffit with 50 percent exhaust at the ridge, so an attic short of the 1/150 net free ventilating area, or with blocked soffit intake, flags a correction the design accounts for before a material recommendation.",
@@ -99,7 +99,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Are Materials Evaluated and Selected?",
+        "heading": "Material Evaluation Compares 7 Families by Measured Lifespan",
         "body": [
           "**Material evaluation** compares 7 roofing material families by measured lifespan, then weighs structural load, the Essex County climate, and color and streetscape harmony before a recommendation. The lifespans trace to the InterNACHI life-expectancy chart: 3-tab asphalt at 20 years, architectural asphalt at 30 years, metal at 40 to 80 years, natural slate at 60 to 150 years, copper at 70-plus years, wood at 25 years, and clay or concrete tile at 100-plus years.",
           "**Structural load** narrows the field early, because natural slate and clay or concrete tile add considerable weight over asphalt or metal, so the building structure governs whether either material is appropriate without reinforcement. A roof carrying a 60-to-150-year slate or a 100-plus-year tile demands framing rated for that load, which is why the evaluation weighs the structure alongside the lifespan rather than after it.",
@@ -107,7 +107,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Is the Final Deliverable?",
+        "heading": "The Final Deliverable Is a Written Roofing Specification",
         "body": [
           "**The final deliverable** is a written roofing specification documenting the material, the underlayment, the flashing, the ventilation, the wind and snow loads, and the ice-barrier scope, the deliverable an installation or a competitive bid works from. The specification sets the wind-load and snow-load design to ASCE 7, the load standard the NJ Uniform Construction Code adopts, before any material reaches the roof.",
           "**The written roofing specification** names the ice-barrier scope per the IRC R905.1.2 ice-barrier provision, which calls for a self-adhering eave membrane in ice-dam regions, alongside the underlayment and flashing details. Defining flashing and transition details in advance reduces the field improvisation that drives future leaks, because the NRCA attributes roughly 90 to 95 percent of roof leaks to flashing details rather than the field of the roof.",
@@ -129,7 +129,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "intro": "Each of these signs traces a failure in the fasteners, flashing, or sheathing rather than in the slate, tile, or copper itself, which is what makes in-kind restoration possible.",
     "sections": [
       {
-        "heading": "How Do Historic Roofs Show Their Age?",
+        "heading": "Historic Roofs Fail at the Fasteners and Flashing First",
         "body": [
           "**Historic roofs show their age** through slates sliding with rust staining at the nail line, copper and terne seams that open or lift, and clay tiles slipping out of course. These signs signal that the fasteners and flashing have failed before the long-lived roofing material, per NPS Preservation Briefs 4, 29, and 30. The failure point is the attachment, not the slate or tile, which is why restoration is the appropriate response.",
           "**Slate** delaminates and slides when plain or galvanized steel fasteners corrode out from under it, the most common slate-roof failure mode, because plain and galvanized nails rust out long before the slate, per NPS Preservation Brief 29. Rust staining at the nail line is the visible evidence of that corrosion, and non-ferrous copper or stainless steel nails outlast plain steel. Natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association.",
@@ -137,7 +137,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "When Does a Historic District Require Approval?",
+        "heading": "Local Historic Districts Require a Certificate of Appropriateness",
         "body": [
           "**A designated landmark or a contributing property in a local historic district requires a Certificate of Appropriateness before exterior roof work, per N.J.S.A. 40:55D-107**, issued by the municipal Historic Preservation Commission and separate from the construction permit. Listing in the National or New Jersey Register alone places no restriction on a private owner using private funds, per the National Park Service and the NJ DEP Historic Preservation Office.",
           "**A Certificate of Appropriateness** is the binding gate for a private reroof in a local district, not the Register listing, because the local ordinance and its Certificate of Appropriateness govern exterior changes, per N.J.S.A. 40:55D-107. A Certificate of Appropriateness from the Historic Preservation Commission is a separate approval from a construction permit under the NJ Uniform Construction Code, and a reroof in a local district commonly requires both. A notice from the municipal Historic Preservation Commission regarding exterior roof work indicates the property sits in a designated local historic district or is a designated landmark.",
@@ -145,7 +145,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Interior and Exterior Signs Signal Trouble?",
+        "heading": "Displaced Slates Outside, Attic Moisture and Ceiling Stains Inside",
         "body": [
           "**Exterior signs are displaced slates, corroded flashing, moss, and sagging or distortion; interior signs are attic moisture, ceiling stains, daylight through the deck, and water intrusion staining ornamental plaster or decorative woodwork.** That last sign marks active failure threatening character-defining historic fabric, per the Secretary of the Interior's Standards, Standard 2.",
           "**Exterior signs** read from the ground and the roof surface: slates displaced out of position, flashing corroded at valleys and walls, moss that holds damaging moisture against the roofing, and sagging or distortion in the roof plane. Overlapping, multiplying asphalt patches on a building that originally carried slate or tile also signal trouble, because Standard 6 directs that deteriorated historic features be repaired rather than replaced and any replacement match the old in material, per the Secretary of the Interior's Standards.",
@@ -167,7 +167,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "intro": "Each cost driver traces back to matching the old roof in kind under federal preservation standards rather than swapping in a cheaper modern covering.",
     "sections": [
       {
-        "heading": "What Drives Historic Restoration Costs?",
+        "heading": "Premium Materials and In-Kind Craftsmanship Drive the Cost",
         "body": [
           "**Premium materials and specialized in-kind craftsmanship** drive historic restoration cost, with individual slate replacement at $50 to $300 each, slate flashing and fastener work at $400 to $3,000, and clay tile repair at $500 to $2,500, per HomeGuide. Restoring natural slate, copper, terne, and clay tile in kind costs more than a standard asphalt re-roof because the materials are dearer and the labor is hand-fit, not nailed off in courses.",
           "**Premium materials** carry the cost because historic restoration matches the old roof in design, color, texture, and, where possible, material, per the Secretary of the Interior's Standards, Standard 6. Natural slate, clay and terra-cotta tile, wood and cedar shingle, and historic metal such as terne and copper each demand sourcing that matches the original quarry, alloy, or profile, and an individual tile replaces at $50 to $300 once a matching profile, color, and glaze is found.",
@@ -175,7 +175,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Can Homeowners Get a Historic Tax Credit or Grant?",
+        "heading": "The Federal 20% Tax Credit Excludes Owner-Occupied Homes",
         "body": [
           "**The federal 20% Historic Rehabilitation Tax Credit, IRC §47, applies to income-producing certified historic structures only, and owner-occupied residences do not qualify, per the National Park Service and the IRS.** The §47 credit remains in effect in 2026 and is not repealed, so an income-producing certified rehabilitation can still claim it.",
           "**The federal credit** turns on whether the building earns income, not on its age or its register listing. An owner-occupied house receives no federal 20% credit because IRC §47 reaches only income-producing certified historic structures, per the NPS and the IRS, and a [historic roof restoration](/historic-roof-restoration-in-newark-nj) on a private residence falls outside that program.",
@@ -183,7 +183,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Can Owners Phase a Large Restoration?",
+        "heading": "Phase the Restoration: Water-Critical Areas Come First",
         "body": [
           "**A large historic roof restores in sections over multiple years, prioritizing water-critical areas first — the valleys, the flashing at walls, and the areas over occupied spaces — within the $2,500 to $10,000 or more slate-restoration range.** Phasing fixes the leak paths before the cosmetic field.",
           "**Phasing in sections** suits a historic roof because restoration preserves sound original material and replaces only the failed elements in kind, per the Secretary of the Interior's Standards, Standard 6. Sounded, salvageable slates and tiles are reused rather than discarded, so each phase repairs what has failed instead of replacing a whole roof at once.",
@@ -205,7 +205,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "intro": "Each of those three phases keeps the original roof and its character-defining detail intact while bringing failed elements back to weathertight condition.",
     "sections": [
       {
-        "heading": "How Does Documentation and HPC Approval Work?",
+        "heading": "Documentation and HPC Approval: Recording the Roof Before Work Begins",
         "body": [
           "**Documentation** opens a historic restoration by photographing, measuring, and recording the existing roof — its patterning, coursing, color variation, and material dimensions — so the work matches the original, per NPS Preservation Brief 4. Recording the existing roof before any removal captures the historic detailing that the finished restoration reproduces, and physical samples taken from unweathered areas set the reference for matching replacement material.",
           "**Historic Preservation Commission approval** runs separately from the construction permit, because a designated landmark or a contributing property in a local historic district requires a Certificate of Appropriateness under N.J.S.A. 40:55D-107 before exterior roof work begins. The Certificate of Appropriateness is issued by the municipal Historic Preservation Commission, while a construction permit is issued under the NJ Uniform Construction Code, and a reroof in a local district commonly requires both. A National or New Jersey Register listing alone places no restriction on a private owner using private funds, per the National Park Service and the NJ DEP Historic Preservation Office, so the binding gate is the local ordinance and its Certificate of Appropriateness.",
@@ -213,7 +213,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "How Is Period-Accurate Material Sourced?",
+        "heading": "Period-Accurate Material Is Matched by Quarry, Alloy, and Species",
         "body": [
           "**Period-accurate material** is matched to the original by quarry for slate, by alloy for metal, and by species for wood shingle, then sourced from suppliers and salvage yards that stock reclaimed slate and copper. Matching the source matters because natural slate carries color, thickness, and texture tied to its quarry, and the finished restoration reproduces that appearance, per the Secretary of the Interior's Standards, Standard 6, and the National Slate Association.",
           "**Compatible substitutes** enter only where the original material is unavailable, and the Historic Preservation Commission decides what it accepts, allowing synthetic slate on some non-contributing structures while individually designated landmarks typically require natural material. The commission weighs the substitute against the historic appearance, so a substitute that reads identically from the street can clear review on a less-sensitive building while a landmark holds to the original material.",
@@ -221,7 +221,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Happens During the Restoration?",
+        "heading": "The Restoration Proceeds in Sections, Reusing Sound Original Material",
         "body": [
           "**The restoration** proceeds in sections, with salvageable original material sounded and sorted for reinstallation and new material integrated with the existing surface rather than tearing off the whole roof. Working in sections lets the crew reuse sound slates and tiles and replace only failed elements in kind, per NPS Preservation Brief 29 and the Secretary of the Interior's Standards, Standard 6, keeping as much original fabric on the building as possible.",
           "**Flashing** is fabricated in period-appropriate metals — copper or lead-coated copper — formed to match the original profiles, because flashing carries a life comparable to the slate it serves, per NPS Preservation Brief 29. Matching the historic flashing profile keeps the restored detail consistent with the building's character, and the completed work is documented so the record matches the pre-restoration survey. A [historic roof restoration](/historic-roof-restoration-in-newark-nj) reproduces these details rather than substituting a modern profile.",
@@ -243,7 +243,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "intro": "Each of these signs traces back to the same root cause — heated air leaking into the attic and warming the roof from beneath.",
     "sections": [
       {
-        "heading": "How Do Ice Dams Form in Essex County?",
+        "heading": "The 3 Conditions That Form an Ice Dam in Essex County",
         "body": [
           "**An ice dam forms from 3 conditions: snow on the roof, an upper roof surface above 32°F that melts the snowpack from beneath, and an eave below 32°F that refreezes the meltwater into a dam at the edge.** The trapped water then backs up under the shingles, per University of Minnesota Extension.",
           "**Attic heat escape** is the root cause, driven by air leakage rather than gutters, per University of Minnesota Extension and building-science consensus. Heated air leaking through ceiling bypasses warms the roof deck and pushes the upper roof above 32°F, while the eave overhangs unheated space and stays below freezing, so the meltwater running down refreezes into a ridge at the cold edge.",
@@ -251,7 +251,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Are the Visible and Interior Warning Signs?",
+        "heading": "Visible and Interior Warning Signs: Icicles, Ice Ridges, and Ceiling Stains",
         "body": [
           "**The visible signs are large icicles, an ice ridge above the gutter line, ice in the soffit vents, and uneven snow-melt.** The interior signs are brown or yellow ceiling and wall stains near top-floor exterior walls, peeling paint, bubbling drywall, and attic frost. This winter intrusion pattern is distinct from a summer flashing leak, per GAF inspection guidance.",
           "**Large icicles** and an ice ridge built up above the gutter line indicate meltwater refreezing at a cold roof edge, the surface symptom of attic heat melting the snowpack above, per University of Minnesota Extension. Ice forming in the soffit vents and uneven snow-melt — a bare upper roof while the eave stays snow-covered — confirm heat escaping through the ceiling and warming the deck.",
@@ -259,7 +259,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Why Do Ice Dams Keep Coming Back?",
+        "heading": "Ice Dams Return Until Air Sealing, Insulation, and Ventilation Are Corrected",
         "body": [
           "**Ice dams keep coming back because a previous damage history is the strongest predictor, and the conditions persist until the root causes — air sealing, insulation, and ventilation — are corrected.** Emergency steam removal treats the symptom, while root-cause prevention eliminates recurrence, per the U.S. Department of Energy.",
           "**A previous damage history** signals an attic that still leaks heat, so the same upper-roof melting and eave refreezing return with the next snowfall. The U.S. Department of Energy directs air-sealing, insulating, and ventilating together, because adding insulation without air-sealing leaves the heat bypasses open and the dam forms again.",
@@ -281,7 +281,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "intro": "Each of those four scope items varies by the attic's existing condition, which is why an inspection sets the price ahead of any number.",
     "sections": [
       {
-        "heading": "What Determines the Cost of Ice Dam Prevention?",
+        "heading": "Four Scope Items Set the Cost of Ice Dam Prevention",
         "body": [
           "**The cost of ice dam prevention** is set by four scope items: the attic air-sealing scope, the insulation added to the code-minimum ceiling level, the ventilation correction, and the eave ice-barrier length. The U.S. Department of Energy frames air-sealing, insulating, and ventilating as the root-cause sequence, and the International Residential Code adds the eave ice barrier, so the attic's existing condition rather than a flat package drives the price.",
           "**Air-sealing scope** is the first cost driver, because the number and size of ceiling bypasses leaking heated air into the attic determine the labor, and air leakage drives attic heat escape more than insulation alone, per University of Minnesota Extension and U.S. Department of Energy ice-dam guidance. **Insulation** adds cost where the existing layer runs thin or compressed: the 2021 IECC Table R402.1.3 sets an R-60 ceiling in Climate Zones 4 and 5, with R-49 allowed only at the full-ceiling raised-heel-eave exception, so the gap between the existing depth and that code-minimum level sizes the work.",
@@ -289,7 +289,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Is Prevention Cheaper Than Repeated Removal?",
+        "heading": "Prevention Corrects the Cause Once; Removal Repeats Every Winter",
         "body": [
           "**Root-cause prevention** corrects the attic heat escape once, while repeated removal treats the symptom every winter and the interior damage recurs until the cause is corrected. The U.S. Department of Energy and University of Minnesota Extension trace ice dams to attic heat escape driven by air leakage, so air-sealing, insulating, and balancing ventilation address the condition that emergency removal leaves in place.",
           "**Repeated removal** clears the ice from the eave but the three formation conditions return with the next snowfall: snow on the roof, an upper roof above 32°F melting the snowpack, and an eave below 32°F refreezing the meltwater into a dam, per University of Minnesota Extension. Newark crosses the 32°F freezing point repeatedly through winter, with an average January low near 25.5°F and average annual snowfall near 31.5 inches, per NOAA 1991-2020 normals at Newark Liberty, so the conditions recur across the season.",
@@ -297,7 +297,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "Do Energy Incentives Apply to Ice Dam Work?",
+        "heading": "Energy Incentives Can Overlap With Ice Dam Air-Sealing and Insulation Work",
         "body": [
           "**Energy incentives** can overlap with ice dam work, because the air-sealing and insulation steps double as energy-efficiency upgrades, so a homeowner can check current New Jersey clean-energy program eligibility for those measures. A tax professional confirms what applies, because eligibility and program terms change year to year.",
           "**Air-sealing and insulation** are the overlap point: both reduce attic heat escape and conductive heat loss, the same outcomes energy-efficiency programs target, per the U.S. Department of Energy. The ventilation correction and the eave ice barrier are roofing-specific and fall outside most efficiency incentives, so a homeowner separates the air-sealing and insulation scope from the roofing scope when checking current New Jersey clean-energy program eligibility.",
@@ -319,7 +319,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "intro": "That diagnose-then-correct order matters because adding insulation or a barrier without first finding the heat bypasses leaves the root cause in place.",
     "sections": [
       {
-        "heading": "How Is the Diagnosis Performed?",
+        "heading": "The Diagnosis Locates Where Attic Heat Reaches the Roof Deck",
         "body": [
           "**The diagnosis identifies where attic heat reaches the roof deck**, because the root cause of an ice dam is attic heat escape driven by air leakage, not gutters, per University of Minnesota Extension. A blower-door test paired with a smoke pencil, or infrared imaging, reveals where heated air leaks from the living space into the attic.",
           "**Air leakage** concentrates at predictable points, so the inspection targets them first: recessed light cans, plumbing vent stacks, the gaps around a chimney chase, and attic access panels are the common ceiling bypasses that carry warm air up to the deck. Sealing these bypasses removes the heat source that warms the upper roof above 32 degrees and melts the snowpack from beneath, per University of Minnesota Extension.",
@@ -327,7 +327,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Is the Correct Installation Sequence?",
+        "heading": "The Correct Sequence: Air-Seal, Insulate, Ventilate, Then Eave Ice Barrier",
         "body": [
           "**The correct sequence is air-seal first, then insulate, then balance ventilation, and finally install the eave ice barrier**, because the U.S. Department of Energy directs air-sealing, insulating, and ventilating together and insulation laid over open bypasses leaves the heat path intact.",
           "**Air-sealing** comes before insulation so the membrane and loose-fill do not bury the leak points that the diagnosis identified. **Insulation** to the code-minimum attic level then slows conductive heat loss, and **balanced ventilation** flushes residual heat off the deck, sized to the minimum net free ventilating area of 1 square foot per 150 square feet of vented attic, per IRC R806.2; Newark sits in IRC Climate Zone 4 to 5, so the design targets the 1/150 ratio rather than the 1/300 exception.",
@@ -335,7 +335,7 @@ export const designConsultationArticles: ArticleContent[] = [
         ]
       },
       {
-        "heading": "What Helps in Severe Cases?",
+        "heading": "Severe Cases Call for Spray Foam, Heat Cables, and an Extended Eave Membrane",
         "body": [
           "**In severe cases, spray foam, heat cables, and an extended eave membrane each play a defined role.** Spray foam at the deck underside corrects the heat path where conventional insulation has no room, per University of Minnesota Extension and U.S. Department of Energy guidance.",
           "**Spray foam** suits cathedral ceilings and knee-wall attics where limited cavity space prevents conventional insulation depth, because closed-cell foam applied to the underside of the roof deck acts as both insulation and an air barrier in one layer. This addresses the root-cause heat loss in assemblies that cannot be air-sealed and vented the standard way.",

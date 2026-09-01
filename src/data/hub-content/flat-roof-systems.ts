@@ -4,10 +4,11 @@ export const flatRoofSystemsHubContent: HubContent = {
   "hubId": "flat-roof-systems",
   "directAnswer": "**Newark Quality Roofing installs and repairs TPO, EPDM, PVC, modified bitumen, built-up, and spray-foam flat roof systems across Newark and Essex County, New Jersey**, as a registered New Jersey Home Improvement Contractor serving commercial, multi-family, and residential low-slope roofs.",
   "definition": "A **flat roof system** is a low-slope roof assembly, pitched at 3:12 or less, waterproofed by a continuous membrane — single-ply, modified bitumen, built-up, or spray foam — rather than overlapping shingles that shed water by pitch.",
-  "definitionHeading": "What Is a Flat Roof System?",
+  "definitionQuestion": "What Is a Flat Roof System?",
+  "definitionHeading": "Flat Roof Systems, Defined",
   "sections": [
     {
-      "heading": "What Flat Roof Systems Does Newark Quality Roofing Install and Repair?",
+      "heading": "Flat Roof Systems Newark Quality Roofing Installs and Repairs",
       "body": [
         "**Newark Quality Roofing** installs and repairs six flat roof systems across Newark and Essex County, New Jersey: TPO, EPDM, and PVC single-ply membranes, modified bitumen, built-up roofing (BUR), and spray polyurethane foam (SPF), all engineered for low-slope drainage.",
         "**TPO, EPDM, and PVC single-ply membranes** waterproof a low-slope roof with one factory-made sheet. TPO and PVC are thermoplastics joined with heat-welded seams; EPDM is a rubber sheet seamed with adhesive tape. Single-ply membranes last roughly 20 to 30 years per InterNACHI life-expectancy ranges.",
@@ -16,7 +17,7 @@ export const flatRoofSystemsHubContent: HubContent = {
       ]
     },
     {
-      "heading": "How Do Single-Ply, Bitumen, and Spray-Foam Systems Differ?",
+      "heading": "How Single-Ply, Bitumen, and Spray-Foam Systems Differ",
       "body": [
         "**Single-ply, bitumen, and spray-foam systems differ in how they form the watertight layer**: single-ply welds or seams one sheet, bitumen builds multiple asphalt plies, and spray foam expands into one seamless surface, each detailed for the low-slope roof beneath it.",
         "**Single-ply membranes** — TPO, PVC, and EPDM — cover the deck in one layer. TPO and PVC fuse with heat-welded seams that form one continuous water layer, while EPDM seams with tape; the welded seam is the most-watched detail on a thermoplastic roof. A reflective white membrane carries cool-roof solar reflectance rated by the CRRC.",
@@ -25,7 +26,7 @@ export const flatRoofSystemsHubContent: HubContent = {
       ]
     },
     {
-      "heading": "Why Do Flat Roofs Depend on Drainage and Detailing?",
+      "heading": "Why Flat Roofs Depend on Drainage and Detailing",
       "body": [
         "**Flat roofs depend on drainage and detailing because a low-slope membrane sheds water by slope and sealed transitions, not by pitch.** Per the NRCA, low-slope roofs need positive drainage; ponding water accelerates membrane aging and concentrates stress at every seam and penetration.",
         "**Positive drainage** keeps water moving off the membrane toward drains and scuppers. Newark Quality Roofing builds tapered insulation and crickets that direct water off the field, because per the NRCA a low-slope roof that holds standing water ages its membrane faster and ponding marks a drainage defect on a flat roof.",
@@ -35,7 +36,7 @@ export const flatRoofSystemsHubContent: HubContent = {
     }
   ],
   "childLinks": {
-    "heading": "Which Flat Roof Services and Guides Can You Explore?",
+    "heading": "Explore Our Flat Roof Services and Guides",
     "groups": [
       {
         "label": "Flat & Low-Slope Systems",
@@ -113,7 +114,7 @@ export const flatRoofSystemsHubContent: HubContent = {
       }
     ]
   },
-  "faqHeading": "What Questions Do Building Owners Ask About Flat Roofs?",
+  "faqHeading": "Flat Roof FAQs for Building Owners",
   "faqs": [
     {
       "question": "What flat roof systems does Newark Quality Roofing install?",
