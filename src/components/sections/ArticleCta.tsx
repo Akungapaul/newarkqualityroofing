@@ -7,6 +7,9 @@ interface ArticleCtaProps {
   text: string;
   moneyPageName: string;
   moneyPageSlug: string;
+  /** The article's audience pillar hub — rendered as the "Explore …" line so
+   *  every article links its pillar (/residential-roofing or /commercial-roofing). */
+  pillarHub?: { name: string; slug: string };
 }
 
 export function ArticleCta({
@@ -14,6 +17,7 @@ export function ArticleCta({
   text,
   moneyPageName,
   moneyPageSlug,
+  pillarHub,
 }: ArticleCtaProps) {
   return (
     <aside
@@ -55,6 +59,19 @@ export function ArticleCta({
 
         <PhoneNumber size="md" />
       </div>
+
+      {pillarHub && (
+        <p className="mt-5 font-body text-sm text-text-secondary">
+          Explore all of our{' '}
+          <Link
+            href={pillarHub.slug}
+            className="font-medium text-copper underline underline-offset-2 transition-colors hover:text-copper-dark"
+          >
+            {pillarHub.name}
+          </Link>
+          .
+        </p>
+      )}
     </aside>
   );
 }

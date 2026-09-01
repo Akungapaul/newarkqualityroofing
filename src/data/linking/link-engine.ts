@@ -278,6 +278,35 @@ export function getArticleLinks(articleId: string): ArticleLinks {
   };
 }
 
+// ─── Pillar hub for an article ───────────────────────────────────────────────
+// Every article funnels to one audience pillar. Commercial service categories
+// and the commercial comparison set → /commercial-roofing; everything else →
+// /residential-roofing. Rendered by ArticleCta as the "Explore …" line — this
+// template link is what guarantees all 252 articles feed their pillar hub
+// (in-body hub links exist only where the prose names the hub naturally).
+const COMMERCIAL_CATEGORIES = new Set(['commercial-services', 'commercial-roof-types']);
+const COMMERCIAL_COMPARISONS = new Set([
+  'tpo-vs-epdm-roofing', 'pvc-vs-tpo-roofing', 'modified-bitumen-vs-tpo',
+  'built-up-roofing-vs-modified-bitumen', 'spray-foam-vs-tpo', 'rubber-roofing-vs-tpo',
+  'best-commercial-roofing-material', 'roof-coating-vs-replacement',
+  'green-roof-vs-traditional-roofing', 'standing-seam-vs-corrugated-metal',
+]);
+
+export function getArticlePillarHub(articleId: string): { name: string; slug: string } {
+  const article = articleById.get(articleId);
+  if (!article) throw new Error(`Article not found: ${articleId}`);
+  let commercial = false;
+  if (article.parentType === 'service') {
+    const service = serviceById.get(article.parentId);
+    commercial = service ? COMMERCIAL_CATEGORIES.has(service.category) : false;
+  } else if (article.parentType === 'comparison') {
+    commercial = COMMERCIAL_COMPARISONS.has(article.parentId);
+  }
+  return commercial
+    ? { name: 'commercial roofing services in Newark, NJ', slug: '/commercial-roofing' }
+    : { name: 'residential roofing services in Newark, NJ', slug: '/residential-roofing' };
+}
+
 /**
  * Get the first (position-1) article for a given parent page.
  * Used by ServiceTemplate/ComparisonTemplate to render "Learn More" section.

@@ -38,7 +38,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "An Aged Roof With Granule Loss Favors Full Removal Over a Recover",
         "body": [
           "**A roof past its material lifespan with widespread granule loss** favors a full tear-off, because 3-tab asphalt lasts about 20 years and architectural asphalt about 30 years, per the InterNACHI life-expectancy chart. Beyond that age, a recover delivers a shortened service life over an aged base.",
-          "**A second covering layer** adds roughly 2 to 4.5 pounds per square foot of dead load across the deck and rafters, per shingle-weight conversion data from Dumpsters.com and Angi, so a roof at the two-layer maximum carries the full weight a tear-off removes. Stripping to the deck is the only way to inspect and repair the sheathing an overlay would bury, per the Asphalt Roofing Manufacturers Association and InterNACHI."
+          "**A second covering layer** adds roughly 2 to 4.5 pounds per square foot of dead load across the deck and rafters, per shingle-weight conversion data from Dumpsters.com and Angi, so a roof at the two-layer maximum carries the full weight a tear-off removes. [Stripping to the deck](/full-roof-tear-off-in-newark-nj) is the only way to inspect and repair the sheathing an overlay would bury, per the Asphalt Roofing Manufacturers Association and InterNACHI."
         ]
       }
     ],
@@ -72,7 +72,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "A Tear-Off Beats a Cheaper Overlay on Deck Access and Service Life",
         "body": [
-          "**An overlay leaves the old covering in place and skips the removal labor, but it buries the deck and shortens the new roof's service life, so the lower upfront price trades against a code limit and a maintenance cost.** A recover hides the rot a tear-off repairs, leaving the underlying layers difficult to inspect so water damage goes uncaught, per the Asphalt Roofing Manufacturers Association and InterNACHI.",
+          "**An overlay leaves the old covering in place and skips the removal labor, but it buries the deck and shortens the new roof's service life, so the lower upfront price trades against a code limit and a maintenance cost.** A recover hides the rot [a tear-off](/full-roof-tear-off-in-newark-nj) repairs, leaving the underlying layers difficult to inspect so water damage goes uncaught, per the Asphalt Roofing Manufacturers Association and InterNACHI.",
           "**The overlay savings disappear once a roof reaches the 2-layer maximum or the deck is water-soaked, because N.J.A.C. 5:23-6.4 then removes the overlay option entirely and makes a full tear-off the only code-compliant path.** A second layer also adds roughly 2 to 4.5 pounds per square foot of dead load across the deck and rafters, per shingle-weight conversion data from Dumpsters.com and Angi, and 3-tab asphalt lasts about 20 years against architectural asphalt's 30 years, per the InterNACHI life-expectancy chart, so a recover delivers a shortened service life over an aged base."
         ]
       }
@@ -101,7 +101,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "Stripping to the Deck Exposes Sheathing a Recover Buries",
         "body": [
-          "**A tear-off exposes the sheathing for inspection and repair that a recover buries.** A full tear-off lets a roofer inspect the roof deck, repair any damage, and improve deck attachment to the structure, while a recover leaves the underlying layers difficult to inspect so rot and water damage go uncaught, per the Asphalt Roofing Manufacturers Association and InterNACHI.",
+          "**A tear-off exposes the sheathing for inspection and repair that a recover buries.** [A full tear-off](/full-roof-tear-off-in-newark-nj) lets a roofer inspect the roof deck, repair any damage, and improve deck attachment to the structure, while a recover leaves the underlying layers difficult to inspect so rot and water damage go uncaught, per the Asphalt Roofing Manufacturers Association and InterNACHI.",
           "**The deck-failure signs an overlay cannot fix are observable at tear-off.** InterNACHI names daylight visible through the deck, soft or spongy wood underfoot, sagging between rafters, and delaminated plywood or swollen OSB edges as failing-deck conditions; roofing nails penetrate at least ¾ inch into the deck to grip, so sheathing that cannot hold a nail is replaced, per ARMA nail-application guidance.",
           "**Saturated OSB is re-decked rather than dried, the repair only a tear-off reaches.** OSB once water-soaked swells at the edges and delaminates irreversibly rather than drying out, per InterNACHI, and deck repair adds cost when tear-off exposes that rotted sheathing because re-decking runs $2 to $5 per square foot, per HomeGuide and Angi national cost data — the bill a recover defers rather than resolves."
         ]
@@ -133,7 +133,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentType": "service",
     "position": 1,
     "directAnswer": "**The signs you need roof overlay installation are a single sound asphalt-shingle layer over a smooth, dry, sound deck, with no wood-shake, slate, tile, or two-layer covering** that bars a recover, per GAF Technical Bulletin TAB-R-145 and N.J.A.C. 5:23-6.4.",
-    "intro": "Roof overlay eligibility is a pass-or-fail test against those conditions, not a judgment call, because the code and the manufacturer instructions set fixed limits on where a recover qualifies.",
+    "intro": "[Roof overlay eligibility](/roof-overlay-installation-in-newark-nj) is a pass-or-fail test against those conditions, not a judgment call, because the code and the manufacturer instructions set fixed limits on where a recover qualifies.",
     "sections": [
       {
         "heading": "One Sound Asphalt Layer Over a Dry, Smooth Deck Qualifies for an Overlay",
@@ -171,7 +171,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentType": "service",
     "position": 2,
     "directAnswer": "**A roof overlay installation carries no single whole-job NJ total; its cost runs roughly 20-25% less than a full tear-off, commonly $2,000-$5,000 cheaper for a typical home, because it skips the tear-off labor and disposal**, a national figure per HomeGuide and Angi.",
-    "intro": "Per-square-foot pricing, not a flat package number, is how an overlay is actually quoted in New Jersey.",
+    "intro": "Per-square-foot pricing, not a flat package number, is how [an overlay](/roof-overlay-installation-in-newark-nj) is actually quoted in New Jersey.",
     "sections": [
       {
         "heading": "A Roof Overlay Runs 20-25% Less Than a Full Tear-Off",
@@ -207,7 +207,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentType": "service",
     "position": 3,
     "directAnswer": "**The thing to understand about roof overlay installation is that it is not equal to a full tear-off — it is legal only on one sound asphalt layer over a smooth, dry, sound deck, and it carries real trade-offs.** N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1 cap a roof at two total layers.",
-    "intro": "An overlay saves roughly 20–25% upfront only because it skips the tear-off labor and disposal, and that saving comes with consequences a homeowner weighs before choosing it.",
+    "intro": "[An overlay](/roof-overlay-installation-in-newark-nj) saves roughly 20–25% upfront only because it skips the tear-off labor and disposal, and that saving comes with consequences a homeowner weighs before choosing it.",
     "sections": [
       {
         "heading": "A Roof Overlay Is Legal in New Jersey Only Over One Sound Shingle Layer",
@@ -263,7 +263,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "The 25% Rule: Damage Past a Quarter of the Roof Tips to Re-Roofing",
         "body": [
-          "**Damage across more than 25% to 30% of the roof area** crosses the contractor-consensus 25% rule, the threshold above which a full re-roof costs less than continued spot repair, per RapidRestore and MyQuoteIQ guidance. Once failure spreads past roughly a quarter of the surface, replacing the whole covering returns more than chasing damage section by section.",
+          "**Damage across more than 25% to 30% of the roof area** crosses the contractor-consensus 25% rule, the threshold above which [a full re-roof](/re-roofing-in-newark-nj) costs less than continued spot repair, per RapidRestore and MyQuoteIQ guidance. Once failure spreads past roughly a quarter of the surface, replacing the whole covering returns more than chasing damage section by section.",
           "**A repair quote approaching 50% of replacement cost** crosses the contractor-consensus 50% rule, the point at which re-roofing returns more value than a repair, per WeatherShield and Home Depot guidance. When one fix costs nearly half of a new roof, the new roof delivers a fresh service life that the repair cannot.",
           "**Three or more repairs in two years** crosses the contractor-consensus 3-repairs rule, the signal of a systemic failure rather than an isolated defect, per WeatherShield guidance. Recurring leaks across multiple visits point to an aged covering at end of life, not a single fixable flaw."
         ]
@@ -303,7 +303,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "body": [
           "**New Jersey ranges** sit 10 to 40 percent above national figures, per HomeGuide and Integrity Home Exteriors, because of higher regional labor rates and stricter New Jersey code requirements rather than any roofing license. New Jersey issues no roofing license; contractors register as New Jersey Home Improvement Contractors under N.J.S.A. 56:8-136, with the 13VH registration number on the contract and any advertisement per N.J.S.A. 56:8-144.",
           "**Code-required line items** lift the New Jersey figure in ways a national estimate omits: an ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line, per IRC R905.1.2, and Newark's winter climate, which crosses 32 degrees Fahrenheit repeatedly with an average January low near 25.5 degrees Fahrenheit, per NOAA 1991-2020 normals at Newark Liberty, drives the freeze-thaw stress that makes that ice-and-water shield a real cost, not an upsell.",
-          "**A complete re-roof** of the covering on a detached one- or two-family home is ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, which keeps a permit fee off most residential estimates. A commercial re-roof or a structural change to rafters or trusses does require a permit, so the building type, not the dollar amount, determines whether a permit line appears."
+          "**A complete re-roof** of the covering on a detached one- or two-family home is ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, which keeps a permit fee off most residential estimates. [A commercial re-roof](/re-roofing-in-newark-nj) or a structural change to rafters or trusses does require a permit, so the building type, not the dollar amount, determines whether a permit line appears."
         ]
       },
       {
@@ -326,7 +326,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentType": "service",
     "position": 3,
     "directAnswer": "**Re-roofing is the umbrella term covering both a full tear-off replacement and a recover (overlay) over one sound layer**, and the choice between them is constrained by code, not just budget, per ARMA and the IRC R908 reroofing section.",
-    "intro": "Understanding that one decision — tear-off versus recover, and when code allows each — shapes every other re-roofing choice a New Jersey homeowner makes.",
+    "intro": "Understanding that one decision — tear-off versus recover, and when code allows each — shapes every other [re-roofing choice](/re-roofing-in-newark-nj) a New Jersey homeowner makes.",
     "sections": [
       {
         "heading": "Code, Not Budget, Sets the Limit on a Roof Recover",
@@ -411,7 +411,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "Insurance Roof Replacement in NJ Runs $10,000 to $25,000",
         "body": [
-          "**A roof replacement in New Jersey runs $10,000–$25,000 for a typical home**, against a 2025 national average near $10,000–$11,000, and on a covered claim that figure is the covered loss the insurer settles before the deductible. The New Jersey range traces to HomeAdvisor and Modernize cost data, and the 2025 national benchmark to industry replacement benchmarks.",
+          "**A [roof replacement in New Jersey](/insurance-roof-replacement-in-newark-nj) runs $10,000–$25,000 for a typical home**, against a 2025 national average near $10,000–$11,000, and on a covered claim that figure is the covered loss the insurer settles before the deductible. The New Jersey range traces to HomeAdvisor and Modernize cost data, and the 2025 national benchmark to industry replacement benchmarks.",
           "**The covered loss is what the insurer settles, not the homeowner's full out-of-pocket cost**, because the deductible is subtracted once from that loss and stays the homeowner's responsibility under the policy. The deductible is never waived or rebated, per the Insurance Information Institute (Triple-I) and NAIC. For any individual roof, Newark Quality Roofing provides a free written estimate that records roof type, squares and area, underlayment, flashing, drip edge, vents, and labor — the scope-of-loss contents that restore a roof to pre-loss condition, per United Policyholders.",
           "**Published average-claim figures cover all property damage, not the roof alone**, so they over- or understate a roof-only loss and serve only as context. Wind and hail average near $14,747 per claim, water damage and freezing near $15,400, and fire and lightning near $88,170, all all-property figures per the Insurance Information Institute (Triple-I, 2019–2023)."
         ]
@@ -474,7 +474,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "Verify the 13VH Registration, Insurance, and Written Contract",
         "body": [
           "**Verify a registered New Jersey Home Improvement Contractor**, with the 13VH registration number on the contract and advertising per N.J.S.A. 56:8-144. Confirm at least $500,000 per-occurrence commercial general liability insurance per N.J.S.A. 56:8-142, and a written contract for work over $500 per N.J.A.C. 13:45A-16.2.",
-          "**Require an itemized written scope and timestamped photographs.** A complete scope records roof type, squares and area, underlayment, flashing, drip edge, vents, removal and installation labor, and related interior damage — the scope-of-loss contents that restore a roof to pre-loss condition, per United Policyholders. Reject any contractor that offers to handle, file, negotiate, or guarantee the claim, or that advertises a deductible waiver or \"free roof,\" because New Jersey reserves claim negotiation for a licensed public adjuster or attorney under N.J.S.A. 17:22B, per NJ DOBI."
+          "**Require an itemized written scope and timestamped photographs.** A complete scope records roof type, squares and area, underlayment, flashing, drip edge, vents, removal and installation labor, and related interior damage — the scope-of-loss contents that [restore a roof to pre-loss condition](/insurance-roof-replacement-in-newark-nj), per United Policyholders. Reject any contractor that offers to handle, file, negotiate, or guarantee the claim, or that advertises a deductible waiver or \"free roof,\" because New Jersey reserves claim negotiation for a licensed public adjuster or attorney under N.J.S.A. 17:22B, per NJ DOBI."
         ]
       }
     ],
@@ -530,7 +530,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "Storm Damage Roof Replacement in NJ Runs $10,000 to $25,000",
         "body": [
           "**A New Jersey roof replacement runs $10,000 to $25,000 for a typical home**, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000 to $11,000 per industry replacement benchmarks. The range is wide because roof size, pitch, layer count, and material set the final figure.",
-          "**Material drives the per-square-foot cost** on a storm replacement. NJ architectural asphalt shingle runs $6.50 to $11.00 per square foot and metal $9.00 to $16.00, per Josten Roofing NJ pricing, and slate $10 to $30 per square foot, per NJ roofing guides. A larger or steeper roof, and a higher-grade cover, push the whole-job total toward the upper end of the $10,000 to $25,000 range.",
+          "**Material drives the per-square-foot cost** on a [storm replacement](/storm-damage-roof-replacement-in-newark-nj). NJ architectural asphalt shingle runs $6.50 to $11.00 per square foot and metal $9.00 to $16.00, per Josten Roofing NJ pricing, and slate $10 to $30 per square foot, per NJ roofing guides. A larger or steeper roof, and a higher-grade cover, push the whole-job total toward the upper end of the $10,000 to $25,000 range.",
           "**Tear-off and deck repair add cost** when the existing roof carries two or more layers or the sheathing is deteriorated, because N.J.A.C. 5:23-6.4 requires complete removal of a multi-layer or water-soaked roof. A storm replacement strips the roof to the deck for sheathing inspection, and rotted plywood or OSB found at tear-off raises the line-item count beyond the initial estimate."
         ]
       },
@@ -561,7 +561,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentType": "service",
     "position": 3,
     "directAnswer": "**Storm damage roof replacement turns on two limits: the damage traces to a covered storm peril, and its extent crosses the replace-versus-repair threshold.** Insurance covers wind, hail, or a falling tree, never normal wear, age, or deferred maintenance, per the Insurance Information Institute.",
-    "intro": "Those two limits — the peril and the extent — decide whether a storm-damaged roof gets replaced, and who pays for it.",
+    "intro": "Those two limits — the peril and the extent — decide whether a [storm-damaged roof](/storm-damage-roof-replacement-in-newark-nj) gets replaced, and who pays for it.",
     "sections": [
       {
         "heading": "Damage Extent Decides Repair Versus Full Replacement",
@@ -613,7 +613,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "body": [
           "**Granule loss with sandy grit in the gutters and bald asphalt mat** indicates shingles nearing end of life, because granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF. The same GAF guidance finds 50% granule loss cuts remaining life by up to 70%, and the granules shield the asphalt from ultraviolet light, so a bald mat hardens and cracks faster once they wash away.",
           "**Widespread curling, cupping, and buckling shingles** indicate advanced asphalt degradation from age, ultraviolet exposure, and thermal cycling, per GAF and InterNACHI inspection guidance. The distinction that points toward replacement rather than repair is field-wide failure: the asphalt has hardened across the full roof rather than on a single slope, so spot repairs no longer match the condition of the surrounding surface.",
-          "**Brittle, cracked flashing and failed sealant laps** across an aging roof admit water at the transitions, because sealant typically fails in 5 to 10 years and Essex County freeze-thaw cycling stresses the laps each winter, per trade flashing guidance. On a roof already past its lifespan, the flashing and the field reach end of service together rather than as isolated defects."
+          "**Brittle, cracked flashing and failed sealant laps** across [an aging roof](/aging-roof-replacement-in-newark-nj) admit water at the transitions, because sealant typically fails in 5 to 10 years and Essex County freeze-thaw cycling stresses the laps each winter, per trade flashing guidance. On a roof already past its lifespan, the flashing and the field reach end of service together rather than as isolated defects."
         ]
       },
       {
@@ -648,7 +648,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "Tear-Off and Deck Repair Add Cost on Multi-Layer or Rotted Roofs",
         "body": [
-          "**Tear-off and deck repair add cost when the aging roof carries 2 or more existing layers or the sheathing rotted under the old covering**, because N.J.A.C. 5:23-6.4 requires complete removal, with no recover-over, of a multi-layer or water-soaked roof. Full removal exposes the deck so rotted plywood or OSB can be replaced before the new cover goes on.",
+          "**Tear-off and deck repair add cost when [the aging roof](/aging-roof-replacement-in-newark-nj) carries 2 or more existing layers or the sheathing rotted under the old covering**, because N.J.A.C. 5:23-6.4 requires complete removal, with no recover-over, of a multi-layer or water-soaked roof. Full removal exposes the deck so rotted plywood or OSB can be replaced before the new cover goes on.",
           "**An ice barrier is installed at the eaves as part of the code-correct assembly**, from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision. Proper attic ventilation also figures into the work, because ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA, addressing the conditions that aged the prior roof.",
           "**Deck condition stays unknown until the old roof is stripped**, so a written estimate sets the base scope and itemizes sheathing replacement separately rather than folding an assumed dollar add-on into the headline price. A written estimate that names the scope and material options before any work begins follows Integrity Home Exteriors documentation guidance."
         ]
@@ -678,7 +678,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "Aging Roof Replacement Is a Lifespan Decision, Not a Damage Event",
         "body": [
           "**An aging roof reaches the end of service after a material-specific lifespan, so it fails across the whole field rather than at one detail.** 3-tab asphalt lasts 20 years, architectural asphalt 30 years, wood and cedar 25 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, while actual asphalt life varies up to 40% with climate, install, and maintenance, per the NRCA.",
-          "**The replace signal is cumulative weathering, read against contractor-consensus rules rather than a single storm.** Replacement is favored when a roof passes its material lifespan, carries 3 or more repairs in 2 years, or shows granule loss past roughly 30% of the surface, per GAF, with widespread curling and a spongy deck confirming the field has hardened. A localized repair stays economical only while an asphalt roof holds under 10 to 15 years, per industry repair-vs-replace guidance, and older homes report roof leakage at 5.5% against 3.5% for newer homes, per US Census housing-survey data."
+          "**The replace signal is cumulative weathering, read against contractor-consensus rules rather than a single storm.** Replacement is favored when [a roof passes its material lifespan](/aging-roof-replacement-in-newark-nj), carries 3 or more repairs in 2 years, or shows granule loss past roughly 30% of the surface, per GAF, with widespread curling and a spongy deck confirming the field has hardened. A localized repair stays economical only while an asphalt roof holds under 10 to 15 years, per industry repair-vs-replace guidance, and older homes report roof leakage at 5.5% against 3.5% for newer homes, per US Census housing-survey data."
         ]
       },
       {
@@ -728,7 +728,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "body": [
           "**Soft, spongy, or crumbling sheathing, delaminated plywood, or swollen OSB edges** indicate a moisture-rotted deck from a prolonged leak, because saturated sheathing loses the ability to grip a roofing nail, per InterNACHI. Trapped moisture decays the deck until a new covering has nothing solid to fasten to.",
           "**Daylight visible through the roof deck from inside the attic** indicates holes in the decking and shingles, a direct breach that points toward replacement rather than a patch, per InterNACHI and This Old House inspection guidance. Roofing nails penetrate at least three-quarters of an inch into solid deck, per ARMA, so deteriorated plywood or OSB is replaced rather than roofed over.",
-          "**A new covering cannot be installed over a water-soaked or deteriorated deck**, per IRC Section R908, so a roof leaked long enough to rot the sheathing requires a full tear-off to bare deck. The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering, per N.J.A.C. 5:23-6.4, and a recover hides deck rot that a tear-off repairs."
+          "**A new covering cannot be installed over a water-soaked or deteriorated deck**, per IRC Section R908, so a roof leaked long enough to rot the sheathing requires [a full tear-off to bare deck](/roof-replacement-after-leak-in-newark-nj). The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering, per N.J.A.C. 5:23-6.4, and a recover hides deck rot that a tear-off repairs."
         ]
       },
       {
@@ -763,7 +763,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "A Leaked Roof Adds Re-Decking Cost a Routine Replacement Avoids",
         "body": [
-          "**A leaked roof adds re-decking cost that a routine replacement avoids**, because a prolonged leak rots the sheathing and re-decking runs $2 to $5 per square foot of sheathing replaced, per HomeGuide. The cost appears only where moisture has deteriorated the deck, so the added figure tracks the area of rot exposed once the cover comes off.",
+          "**[A leaked roof](/roof-replacement-after-leak-in-newark-nj) adds re-decking cost that a routine replacement avoids**, because a prolonged leak rots the sheathing and re-decking runs $2 to $5 per square foot of sheathing replaced, per HomeGuide. The cost appears only where moisture has deteriorated the deck, so the added figure tracks the area of rot exposed once the cover comes off.",
           "**Code requires the rotted deck to be removed rather than covered**, because IRC Section R908 prohibits installing a new covering over a water-soaked or deteriorated deck and N.J.A.C. 5:23-6.4 requires complete removal of a water-soaked covering. Trapped moisture decays sheathing until it loses the ability to grip a roofing nail, and roofing nails penetrate at least three-quarters of an inch into solid deck, per InterNACHI and ARMA, so deteriorated plywood or OSB is replaced rather than roofed over.",
           "**The full extent of the cost shows only at tear-off**, because the rot a chronic leak leaves behind hides under the cover until the roof is stripped to bare deck. A written estimate documents the leak damage and sets the scope, labor, materials, and timeline before any work begins, so the re-decking line reflects the deck actually exposed rather than a flat figure quoted in advance."
         ]
@@ -794,7 +794,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentType": "service",
     "position": 3,
     "directAnswer": "**Roof replacement after leak damage turns on one fact: a roof leaked long enough to rot the deck cannot be recovered or patched back to health**, because IRC Section R908 and N.J.A.C. 5:23-6.4 prohibit a new covering over a water-soaked deck, so the defining decision is repair-versus-replace judged against the 3-repairs, 25%, and 50% thresholds.",
-    "intro": "Once a chronic leak crosses those thresholds, a full tear-off to bare deck resets the underlayment-and-cover system rather than patching the detail that admits water.",
+    "intro": "Once a chronic leak crosses those thresholds, [a full tear-off to bare deck](/roof-replacement-after-leak-in-newark-nj) resets the underlayment-and-cover system rather than patching the detail that admits water.",
     "sections": [
       {
         "heading": "Three Contractor Thresholds Decide Between Repair and Replacement",
@@ -845,7 +845,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "A Charred Covering, Deck, or Framing Is the Defining Structural Sign",
         "body": [
           "**A charred or burned-through covering, deck, or framing** is the defining structural sign, because the char layer carries essentially zero residual structural capacity and requires removal rather than a patch, per the U.S. Forest Products Laboratory and the American Wood Council. The American Wood Council uses a nominal char rate of 1.5 inches of wood per hour for structural fire design, so the depth of charring measures how much sound material a tear-off removes.",
-          "**Heat-weakened rafters or trusses showing cross-section loss or deflection** indicate the heat-affected zone beneath the char retains only roughly 85-90% of original strength, a condition a structural engineer evaluates before rebuild, per the U.S. Forest Products Laboratory. Radiant heat compromises the framing even where flame never touched it, which is why a fire-damaged roof receives a formal post-fire structural assessment, often by a licensed structural engineer, before reconstruction.",
+          "**Heat-weakened rafters or trusses showing cross-section loss or deflection** indicate the heat-affected zone beneath the char retains only roughly 85-90% of original strength, a condition a structural engineer evaluates before rebuild, per the U.S. Forest Products Laboratory. Radiant heat compromises the framing even where flame never touched it, which is why [a fire-damaged roof](/fire-damage-roof-replacement-in-newark-nj) receives a formal post-fire structural assessment, often by a licensed structural engineer, before reconstruction.",
           "**Corroded or loosened metal truss plates, fasteners, and connectors** indicate heat and char reduced truss-plate tooth embedment and steel strength, because structural-steel strength loss begins near 300 degrees Celsius, per the U.S. Forest Products Laboratory and the Steel Construction Institute. Connectors that look intact still lose holding power at those temperatures, so a metal connector survives visual inspection while carrying reduced capacity."
         ]
       },
@@ -887,7 +887,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "No Single Whole-Job Total Covers a Fire Rebuild",
         "body": [
-          "**No single whole-job total covers a fire rebuild**, because the framing and decking work fire adds is sized by a post-fire structural assessment rather than a fixed line item, per the U.S. Forest Products Laboratory. A fire-damaged roof replaces a charred covering and deck and rebuilds heat-weakened framing, so the scope spans the whole assembly, not just the surface.",
+          "**No single whole-job total covers a fire rebuild**, because the framing and decking work fire adds is sized by a post-fire structural assessment rather than a fixed line item, per the U.S. Forest Products Laboratory. [A fire-damaged roof](/fire-damage-roof-replacement-in-newark-nj) replaces a charred covering and deck and rebuilds heat-weakened framing, so the scope spans the whole assembly, not just the surface.",
           "**The covering itself sets the baseline cost**, with a New Jersey roof replacement running $10,000-$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data. The char layer carries essentially zero residual structural capacity and is removed to sound wood, and firefighting water saturates decking that gets replaced, so a fire rebuild is a full tear-off rather than a recover, per the U.S. Forest Products Laboratory.",
           "**Structural framing and decking replacement adds cost on top of the covering**, sized by the post-fire structural assessment because charred rafters, trusses, and sheathing are replaced rather than roofed over. No sourced per-linear-foot or framing-total figure exists for this work, which is why a written estimate that separates the structural scope from the covering scope gives the only accurate number for a specific home."
         ]
@@ -930,7 +930,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "A Post-Fire Structural Assessment Decides How Far the Rebuild Extends",
         "body": [
-          "**A post-fire structural assessment, often by a licensed structural engineer, decides how far the rebuild extends into the framing and decking.** A fire-damaged roof receives that assessment before reconstruction because the roofer rebuilds to the assessment and current code rather than performing the structural sign-off, per the U.S. Forest Products Laboratory and EDT Engineers.",
+          "**A post-fire structural assessment, often by a licensed structural engineer, decides how far the rebuild extends into the framing and decking.** [A fire-damaged roof](/fire-damage-roof-replacement-in-newark-nj) receives that assessment before reconstruction because the roofer rebuilds to the assessment and current code rather than performing the structural sign-off, per the U.S. Forest Products Laboratory and EDT Engineers.",
           "**The damage spans the whole assembly**, so the assessment looks past the surface to four layers: the charred covering, the saturated and delaminated decking, the heat-weakened rafters and trusses, and the corroded metal connectors. Firefighting water saturates plywood or OSB sheathing and accelerates corrosion of metal components, per the U.S. Forest Products Laboratory and ANSI/IICRC S700, and structural-steel strength loss begins near 300 degrees Celsius, reducing truss-plate tooth embedment even when plates look intact, per the Steel Construction Institute.",
           "**A New Jersey permit follows the structural scope.** On a detached one- and two-family dwelling, a complete tear-off and replacement of the roof covering counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and needs no construction permit, but replacing charred rafters or trusses is a structural change that triggers a permit, per the NJ Uniform Construction Code. On a commercial building, the replacement requires a permit because the ordinary-maintenance exemption covers only repair of up to 25% of the total roof area in a 12-month period."
         ]
@@ -969,13 +969,13 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "An Asphalt Roof at 20–30 Years of Age Signals Replacement",
         "body": [
           "**An asphalt roof at or past its material lifespan** signals replacement, because a 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart. The NRCA notes the actual service life varies up to 40% with climate, install, and maintenance, so a roof can reach the end of its useful life earlier than the rated figure.",
-          "**An asphalt roof past 20 years, or 15 on the coast, favors replacement** over continued spot repair on economic grounds. A localized repair can cost 5 to 10 times less than replacement only while the asphalt roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data, so age tips the math toward a full tear-off once the covering crosses that window. Asphalt shingles cover roughly 73% of US residential roofs per 2024 roofing-market data, the most common roof covering, and the same age-driven decision applies across nearly all of them."
+          "**An asphalt roof past 20 years, or 15 on the coast, favors replacement** over continued spot repair on economic grounds. A localized repair can cost 5 to 10 times less than replacement only while the asphalt roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data, so age tips the math toward a full tear-off once the covering crosses that window. Asphalt shingles cover roughly 73% of [US residential roofs](/residential-roofing) per 2024 roofing-market data, the most common roof covering, and the same age-driven decision applies across nearly all of them."
         ]
       },
       {
         "heading": "Granule Loss and a Bald Asphalt Mat Point Toward Replacement Over Repair",
         "body": [
-          "**Granule loss with sandy grit in gutters and a bald asphalt mat** indicates shingles nearing end of life. Granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, and 50% loss cuts remaining life by up to 70%, per GAF. The mineral granules shield the asphalt mat from ultraviolet light, so once they wash into the gutters the mat degrades quickly.",
+          "**Granule loss with sandy grit in gutters and a bald asphalt mat** indicates [shingles nearing end of life](/asphalt-shingle-roof-replacement-in-newark-nj). Granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, and 50% loss cuts remaining life by up to 70%, per GAF. The mineral granules shield the asphalt mat from ultraviolet light, so once they wash into the gutters the mat degrades quickly.",
           "**Curling, cupping, and zipper cracking along the shingle cutouts** indicate advanced asphalt degradation from thermal cycling and aging, per GAF and InterNACHI inspection guidance. Newark crosses the 32°F freezing point repeatedly through winter, driving freeze-thaw stress on the shingle seals, per the International Residential Code ice-barrier framing, and that repeated expansion and contraction pries the aging mat open along its weakest lines."
         ]
       },
@@ -1004,7 +1004,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "An Asphalt Shingle Roof Replacement in New Jersey Costs $10,000–$25,000",
         "body": [
-          "**A typical New Jersey asphalt shingle roof replacement costs $10,000–$25,000**, with standard 3-tab shingles installing at $5.50–$9.50 per square foot and architectural shingles at $6.50–$11.00 per square foot, per Josten Roofing NJ pricing and HomeAdvisor and Modernize NJ cost data.",
+          "**A typical New Jersey [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement-in-newark-nj) costs $10,000–$25,000**, with standard 3-tab shingles installing at $5.50–$9.50 per square foot and architectural shingles at $6.50–$11.00 per square foot, per Josten Roofing NJ pricing and HomeAdvisor and Modernize NJ cost data.",
           "**The shingle type sets the per-square-foot rate.** A 3-tab asphalt shingle installs at $5.50–$9.50 per square foot, and an architectural (laminated) shingle at $6.50–$11.00 per square foot, per Josten Roofing NJ pricing. A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, so the architectural premium buys roughly a decade of added service life.",
           "**The whole-home total scales with roof size, slope, and complexity.** A typical New Jersey home falls in the $10,000–$25,000 range, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000, per industry cost data. Valleys, dormers, and hips raise both material and labor over a simple gable roof, per industry cost guidance, which is why a written measurement of the actual roof replaces any flat estimate."
         ]
@@ -1058,7 +1058,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "Two Warranties on a Replacement: Manufacturer Material and Contractor Workmanship",
         "body": [
-          "**An asphalt replacement carries two separate warranties: a manufacturer material warranty and a contractor workmanship warranty.** The manufacturer material warranty covers factory defects and is preserved when shingles are installed to manufacturer specification, separate from the contractor's own written workmanship warranty on the labor, per Owens Corning warranty guidance.",
+          "**[An asphalt replacement](/asphalt-shingle-roof-replacement-in-newark-nj) carries two separate warranties: a manufacturer material warranty and a contractor workmanship warranty.** The manufacturer material warranty covers factory defects and is preserved when shingles are installed to manufacturer specification, separate from the contractor's own written workmanship warranty on the labor, per Owens Corning warranty guidance.",
           "**The permit rule turns on the building type, not the cost.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance and requires no construction permit, inspection, or notice, while a structural change to rafters or trusses, or a commercial roof, does trigger a permit, per N.J.A.C. 5:23-2.7."
         ]
       },
@@ -1087,7 +1087,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "An Aging Asphalt Roof at 20–30 Years Signals a Metal Upgrade",
         "body": [
-          "**An asphalt roof at or past its material lifespan** signals an upgrade to metal, because 3-tab asphalt lasts 20 years and architectural asphalt 30 years against 40 to 80 years for metal, per the InterNACHI life-expectancy chart. A metal roof replacement at that point ends the repeat-replacement cycle that an aging asphalt field forces every two or three decades.",
+          "**An asphalt roof at or past its material lifespan** signals an upgrade to metal, because 3-tab asphalt lasts 20 years and architectural asphalt 30 years against 40 to 80 years for metal, per the InterNACHI life-expectancy chart. [A metal roof replacement](/metal-roof-replacement-in-newark-nj) at that point ends the repeat-replacement cycle that an aging asphalt field forces every two or three decades.",
           "**Granule loss with sandy grit in gutters and a bald asphalt mat** indicates an asphalt roof nearing end of life, because granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF. The granules shield the asphalt mat from ultraviolet light, so once they wash into the gutters and the mat shows bald, the field is the point at which a metal upgrade returns a longer service life.",
           "**Repeated asphalt repairs on a roof a property owner means to keep** favor metal, because a metal roof at 40 to 80 years, with copper at 70-plus, often outlasts the building owner's tenure, per the InterNACHI life-expectancy chart, against a 20-to-30-year asphalt roof. A metal covering at that life replaces two or three future asphalt rounds rather than the single asphalt replacement that returns the roof to the same repeat cycle."
         ]
@@ -1124,7 +1124,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "Metal Roof Replacement in NJ Prices at $9.00–$16.00 Per Square Foot",
         "body": [
-          "**Metal roof replacement prices by the square foot, not as a flat per-home total.** A metal roof costs $9.00 to $16.00 or more per square foot, roughly $1,130 per square, against $6.50 to $11.00 per square foot for architectural asphalt, per Josten Roofing and NJ guide pricing.",
+          "**[Metal roof replacement](/metal-roof-replacement-in-newark-nj) prices by the square foot, not as a flat per-home total.** A metal roof costs $9.00 to $16.00 or more per square foot, roughly $1,130 per square, against $6.50 to $11.00 per square foot for architectural asphalt, per Josten Roofing and NJ guide pricing.",
           "**New Jersey figures sit above the national baseline.** NJ ranges run 10 to 40% above national figures, from higher labor and stricter NJ code, across NJ roofing-cost estimates. The square-foot rate, not a single project total, is the sourced figure a homeowner compares between metal and asphalt.",
           "**Newark Quality Roofing provides a free written estimate** that sets scope, labor, materials, and timeline against the measured roof, because no sourced whole-job dollar total exists for a metal replacement — only the per-square-foot pricing and the conditions that move it."
         ]
@@ -1162,7 +1162,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "A Metal Roof's 40-to-80-Year Lifespan Defines the Decision",
         "body": [
-          "**A metal roof's service life** is the defining reason to choose it, because it lasts 40 to 80 years against 20 years for 3-tab asphalt and 30 years for architectural asphalt, per the InterNACHI life-expectancy chart. That 2-to-4-times-longer life, with copper at 70-plus years, means a metal roof often outlasts the building owner's tenure and ends two or three future asphalt replacements.",
+          "**A metal roof's service life** is the defining reason to choose it, because it lasts 40 to 80 years against 20 years for 3-tab asphalt and 30 years for architectural asphalt, per the InterNACHI life-expectancy chart. That 2-to-4-times-longer life, with copper at 70-plus years, means a [metal roof](/metal-roof-replacement-in-newark-nj) often outlasts the building owner's tenure and ends two or three future asphalt replacements.",
           "**The system class** sets where that life lands within the range. Standing-seam metal lasts 40 to 70 years and conceals the fasteners under raised seams, while exposed-fastener metal panel and metal shingle carry the fasteners in the weather plane and last 40 to 80 years, per This Old House and the InterNACHI life-expectancy chart. Standing-seam costs more than exposed-fastener panel and shingle because its panels run continuous ridge-to-eave and hide the fasteners, per This Old House.",
           "**The cost trade-off** weighs that lifespan against the higher upfront price. Metal runs $9.00 to $16.00 or more per square foot, roughly $1,130 per square, against $6.50 to $11.00 per square foot for architectural asphalt, per Josten Roofing and NJ guide pricing, with NJ ranges sitting 10 to 40% above national figures from higher labor and stricter code, per NJ roofing-cost estimates. A reflective metal roof also stays more than 50°F cooler than a conventional roof on a sunny summer afternoon and cuts peak summer cooling demand, while carrying a winter heating offset in the Essex County heating climate, per the U.S. Department of Energy."
         ]
@@ -1244,7 +1244,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "Slate Roof Replacement in NJ Is Priced at $10 to $30 Per Square Foot",
         "body": [
           "**Slate roof replacement is priced per square foot, not as one whole-job number**, because the cost scales with the roof's measured area, slope, and slate grade. Slate installation in New Jersey runs $10 to $30 per square foot, roughly $1,500 per roofing square, per named NJ roofing guides, so the total follows the square footage rather than a fixed quote.",
-          "**Tear-off labor adds a per-square-foot line that a recover cannot remove**, at $2 to $5 per square foot, per HomeGuide. Slate is always a full tear-off because a slate roof cannot be roofed over, per N.J.A.C. 5:23-6.4, so the stripping labor is part of every slate replacement and not an avoidable extra.",
+          "**Tear-off labor adds a per-square-foot line that a recover cannot remove**, at $2 to $5 per square foot, per HomeGuide. Slate is always a full tear-off because a slate roof cannot be roofed over, per N.J.A.C. 5:23-6.4, so the stripping labor is part of every [slate replacement](/slate-roof-replacement-in-newark-nj) and not an avoidable extra.",
           "**New Jersey pricing sits above national figures**, with NJ ranges 10 to 40% higher than national figures, per HomeGuide and Integrity Home Exteriors, on higher labor cost and stricter NJ code. That modifier applies on top of the per-square-foot installed and tear-off figures rather than as a separate charge."
         ]
       },
@@ -1297,7 +1297,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "Verify NJ Registration, Insurance, and a Written Contract Before Hiring",
         "body": [
           "**Confirm New Jersey registration, insurance, a written contract, and a documented slate assessment before any slate job.** The contractor is a registered New Jersey Home Improvement Contractor under N.J.S.A. 56:8-136 with the 13VH number on the contract and advertising per N.J.S.A. 56:8-144 — a registration, not a license, because New Jersey issues no roofing license — and carries at least $500,000 per occurrence in commercial general liability per N.J.S.A. 56:8-142, confirmed by a certificate of insurance.",
-          "**A written contract and a documented assessment protect a slate replacement specifically.** Any job over $500 requires a written contract with the full scope, labor, materials, and timeline, per N.J.A.C. 13:45A-16.2, and an itemized written estimate before work begins. A documented assessment photographs and records the slate pattern, coursing, color, and dimensions and rates the roof against the 20% replacement threshold before quoting, per NPS Preservation Briefs 4 and 29, since full replacement costs less than individual repairs only once broken, cracked, missing, or sliding slate reaches 20% of a slope.",
+          "**A written contract and a documented assessment protect a [slate replacement](/slate-roof-replacement-in-newark-nj) specifically.** Any job over $500 requires a written contract with the full scope, labor, materials, and timeline, per N.J.A.C. 13:45A-16.2, and an itemized written estimate before work begins. A documented assessment photographs and records the slate pattern, coursing, color, and dimensions and rates the roof against the 20% replacement threshold before quoting, per NPS Preservation Briefs 4 and 29, since full replacement costs less than individual repairs only once broken, cracked, missing, or sliding slate reaches 20% of a slope.",
           "**A designated landmark or historic-district home requires a Certificate of Appropriateness before exterior work.** A slate roof on a designated local landmark or in a designated local historic district requires a Certificate of Appropriateness from the municipal Historic Preservation Commission before exterior work, separate from a construction permit, per N.J.S.A. 40:55D-107; per the National Park Service, National Register listing alone places no restriction on a private owner. Warranty terms separate cleanly: a manufacturer material warranty on the slate product and a contractor's written workmanship warranty on the labor."
         ]
       }
@@ -1326,7 +1326,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "Tile Breakage Past 20-25% for Clay or 15-20% for Concrete Signals Replacement",
         "body": [
-          "**Broken or cracked tile across more than 20 to 25% of clay or 15 to 20% of concrete** crosses the contractor-consensus replacement threshold, per industry repair-vs-replace guidance, because tile cannot be patched and takes a matching-profile replacement. Below that share the roof takes individual matching-profile tiles; above it the field warrants a full tile-and-underlayment replacement.",
+          "**Broken or cracked tile across more than 20 to 25% of clay or 15 to 20% of concrete** crosses the contractor-consensus replacement threshold, per industry repair-vs-replace guidance, because tile cannot be patched and takes a matching-profile replacement. Below that share the roof takes individual matching-profile tiles; above it the field warrants a [full tile-and-underlayment replacement](/tile-roof-replacement-in-newark-nj).",
           "**Spalling and surface flaking on concrete tile** indicates freeze-thaw damage from Essex County winters, because Newark crosses the 32 degree Fahrenheit freezing point repeatedly with an average January low near 25.5 degrees Fahrenheit, per NOAA 1991-2020 normals at Newark Liberty (EWR). Each freeze cycle works at moisture inside the concrete, flaking the surface and progressively aging tile that holds up better in milder climates."
         ]
       },
@@ -1365,7 +1365,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "body": [
           "**The mandatory full tear-off and any structural reinforcement to carry the tile dead load are the two cost drivers specific to tile**, on top of the tile class itself. A tile roof cannot be roofed-over, so N.J.A.C. 5:23-6.4 requires complete removal of the existing tile covering to the deck before new roofing, per the NJ Rehabilitation Subcode.",
           "**Tear-off cost rises on a tile roof** because the complete removal to the bare sheathing required by N.J.A.C. 5:23-6.4 replaces the cheaper roof-over option available on some other coverings. Tile is heavy, and the deck and framing carry the tile dead load, per the Tile Roofing Industry Alliance, so the assessment verifies the structure before new tile is set.",
-          "**Structural reinforcement adds cost only when the framing requires upgrading to carry the tile dead load**, a structural change to rafters or trusses that triggers a construction permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. A complete re-roof of the tile covering on a detached one- and two-family home counts as ordinary maintenance and requires no construction permit, per N.J.A.C. 5:23-2.7, so the permit cost applies on a commercial roof or a framing change, not on a like-for-like residential re-roof."
+          "**Structural reinforcement adds cost only when the framing requires upgrading to carry the tile dead load**, a structural change to rafters or trusses that triggers a construction permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. A complete re-roof of the tile covering on a detached one- and two-family home counts as ordinary maintenance and requires no construction permit, per N.J.A.C. 5:23-2.7, so the permit cost applies on a commercial roof or a framing change, not on a like-for-like [residential re-roof](/residential-roofing)."
         ]
       },
       {
@@ -1401,7 +1401,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "NJ Code Requires a Full Tear-Off for Tile Roof Replacement",
         "body": [
           "**A tile roof cannot be roofed-over and takes a full tear-off to the deck**, because N.J.A.C. 5:23-6.4 of the NJ Rehabilitation Subcode requires complete removal of an existing clay, cement, or slate tile covering before new roofing. That mandatory tear-off, not a fabricated lead time, sets the scope of the project.",
-          "**The tile dead load means the deck and framing carry the weight**, so a documented structural and underlayment assessment verifies the structure before new tile is set, per the Tile Roofing Industry Alliance condition guidance. A tile roof is heavy; a structural change to rafters or trusses to carry the tile load triggers a construction permit under N.J.A.C. 5:23-2.7.",
+          "**The tile dead load means the deck and framing carry the weight**, so a documented structural and underlayment assessment verifies the structure before new tile is set, per the Tile Roofing Industry Alliance condition guidance. A [tile roof](/tile-roof-replacement-in-newark-nj) is heavy; a structural change to rafters or trusses to carry the tile load triggers a construction permit under N.J.A.C. 5:23-2.7.",
           "**Permits track the work and the building**, because N.J.A.C. 5:23-2.7 classifies a complete tear-off and replacement of the tile covering on a detached one- and two-family dwelling as ordinary maintenance that requires no construction permit, while a structural change to carry the tile load, or a commercial building, requires a permit. The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code, plus a tile-rated underlayment across the deck."
         ]
       },
@@ -1466,7 +1466,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "EPDM Runs $7 to $10 and TPO $8 to $12 Per Square Foot Installed in NJ",
         "body": [
           "**EPDM rubber membrane runs $7.00 to $10.00 per square foot installed and TPO $8.00 to $12.00 per square foot installed in New Jersey**, per Josten Roofing NJ pricing. Those per-square-foot rates set the membrane portion of the job before deck and slope work.",
-          "**A typical New Jersey roof replacement lands at $10,000 to $25,000 as the whole-job figure**, per HomeAdvisor and Modernize NJ cost data. The per-square-foot membrane rate multiplied by the roof area, plus deck and slope work, produces a number inside that range for most flat and low-slope roofs across Essex County."
+          "**A typical [New Jersey roof replacement](/residential-roofing) lands at $10,000 to $25,000 as the whole-job figure**, per HomeAdvisor and Modernize NJ cost data. The per-square-foot membrane rate multiplied by the roof area, plus deck and slope work, produces a number inside that range for most flat and low-slope roofs across Essex County."
         ]
       },
       {
@@ -1508,7 +1508,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "Drainage Is the Defining Decision in a Flat Roof Replacement",
         "body": [
-          "**Drainage is the defining replacement decision on a flat roof.** A flat or low-slope roof needs at least 1/4 inch per foot of slope to drain, and ponding water held more than 48 hours counts as a defect that breaks down membrane seams, per the NRCA and ARMA. A new system that does not correct the slope repeats the failure that ended the old one.",
+          "**Drainage is the defining [replacement decision on a flat roof](/flat-roof-replacement-in-newark-nj).** A flat or low-slope roof needs at least 1/4 inch per foot of slope to drain, and ponding water held more than 48 hours counts as a defect that breaks down membrane seams, per the NRCA and ARMA. A new system that does not correct the slope repeats the failure that ended the old one.",
           "**Tapered insulation corrects the slope** during the tear-off, restoring the at-least 1/4 inch per foot a flat roof requires for drainage so the new membrane sheds water rather than ponds, per the NRCA and ARMA. Slope correction adds cost where the deck ponds, but it removes the standing-water load that degrades seams ahead of the membrane's rated lifespan."
         ]
       },
@@ -1539,7 +1539,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentType": "service",
     "position": 1,
     "directAnswer": "**Cedar shake roof replacement is signaled when the roof passes its 20-to-40-year shake or 30-to-50-year shingle service life, when cupping spreads across the field, when splitting crosses 25 to 30% of the roof, or when the deck rots**, per the Cedar Shake & Shingle Bureau and InterNACHI.",
-    "intro": "Each of these signs marks moisture-driven failure that has moved past spot repair toward a full cedar tear-off and replacement.",
+    "intro": "Each of these signs marks moisture-driven failure that has moved past spot repair toward a [full cedar tear-off and replacement](/cedar-shake-roof-replacement-in-newark-nj).",
     "sections": [
       {
         "heading": "Cedar Shake Lasts 20 to 40 Years, Cedar Shingle 30 to 50",
@@ -1589,7 +1589,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
         "heading": "Cedar Type and Fire Treatment Drive the Cost of a Cedar Roof",
         "body": [
           "**Cedar type and fire treatment** move the per-square-foot figure first, because hand-split cedar shake costs more than sawn cedar shingle. Shake is the thicker textured wood roof, and fire-retardant-treated cedar adds the pressure-impregnation cost over untreated cedar, per Cedar Shake & Shingle Bureau material guidance.",
-          "**Tear-off and deck repair** add cost, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and requires full removal of the cedar covering plus replacement of any deteriorated plywood or OSB, per the NJ Rehabilitation Subcode. A full tear-off exposes the deck for inspection, so the decking found rotted beneath the old cedar adds to the scope.",
+          "**Tear-off and deck repair** add cost, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and requires [full removal of the cedar covering](/cedar-shake-roof-replacement-in-newark-nj) plus replacement of any deteriorated plywood or OSB, per the NJ Rehabilitation Subcode. A full tear-off exposes the deck for inspection, so the decking found rotted beneath the old cedar adds to the scope.",
           "**A ventilated nailing base** adds material and labor over a flat-deck install, because the base holds at least 1.5 inches of drying air space beneath the shakes, the ventilation that extends cedar service life, per Cedar Shake & Shingle Bureau install guidance. That base is part of why a cedar install carries more labor than a simpler covering."
         ]
       },
@@ -1617,7 +1617,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
       {
         "heading": "N.J.A.C. 5:23-6.4 Requires a Full Tear-Off for Cedar Roof Replacement",
         "body": [
-          "**A new cedar roof cannot go over an old cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck**, so a cedar replacement requires a full tear-off to the bare sheathing. The NJ Rehabilitation Subcode expressly lists wood shake among the coverings that cannot be recovered, unlike the model IRC R908.3.1.1, per the NJ Uniform Construction Code.",
+          "**A new cedar roof cannot go over an old cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck**, so a [cedar replacement](/cedar-shake-roof-replacement-in-newark-nj) requires a full tear-off to the bare sheathing. The NJ Rehabilitation Subcode expressly lists wood shake among the coverings that cannot be recovered, unlike the model IRC R908.3.1.1, per the NJ Uniform Construction Code.",
           "**The tear-off exposes the deck for inspection and repair**, which is the practical reason the code rule matters to a homeowner. Years of trapped moisture beneath the old cedar rot the plywood or OSB sheathing, and a full strip lets the contractor replace deteriorated decking before the new cedar goes down, per N.J.A.C. 5:23-6.4. Tear-off and deck repair add cost to a cedar replacement as a result.",
           "**Permitting follows the building type under N.J.A.C. 5:23-2.7.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code. A commercial cedar roof or a structural change to rafters or trusses still triggers a permit, because the commercial ordinary-maintenance exemption covers only repair of up to 25% of total roof area in a 12-month period."
         ]

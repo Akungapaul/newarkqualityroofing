@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Article } from '@/data/articles';
 import type { ArticleContent } from '@/data/article-content/schema';
-import { getArticleLinks } from '@/data/linking/link-engine';
+import { getArticleLinks, getArticlePillarHub } from '@/data/linking/link-engine';
 import { ArticleHero } from '@/components/sections/ArticleHero';
 import { ArticleBody } from '@/components/sections/ArticleBody';
 import { ArticleCta } from '@/components/sections/ArticleCta';
@@ -185,6 +185,7 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
             text={content.ctaText}
             moneyPageName={links.moneyPage.name}
             moneyPageSlug={links.moneyPage.slug}
+            pillarHub={getArticlePillarHub(article.id)}
           />
         </AnimateIn>
 
