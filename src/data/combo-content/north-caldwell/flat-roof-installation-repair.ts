@@ -4,7 +4,7 @@ export const northCaldwellFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'north-caldwell',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing flat roof installation repair across North Caldwell, New Jersey, and Essex County, sealing EPDM, TPO, and modified-bitumen membranes on estate accessory structures, municipal roofs, and low-slope additions** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing flat roof installation and repair across North Caldwell, New Jersey, and Essex County, sealing EPDM, TPO, and modified-bitumen membranes on estate accessory structures, municipal roofs, and low-slope additions** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Flat roof installation and repair** seals a flat or low-slope roof with a continuous waterproof membrane — EPDM rubber, TPO thermoplastic, or modified bitumen — and corrects the slope and drainage the roof depends on. The work ranges from a single seam patch to a full membrane replacement.',
   overview: [

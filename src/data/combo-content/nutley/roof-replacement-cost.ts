@@ -4,7 +4,7 @@ export const nutleyRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'nutley',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor pricing roof replacements across Nutley, New Jersey, and Essex County, from tree-shaded single-family Colonials and Capes to Franklin Avenue and ON3 commercial flat roofs** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor estimating roof replacement cost across Nutley, New Jersey, and Essex County, from tree-shaded single-family Colonials and Capes to Franklin Avenue and ON3 commercial flat roofs** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.',
   overview: [

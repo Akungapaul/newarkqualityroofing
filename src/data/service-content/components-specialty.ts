@@ -7,7 +7,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'roof-flashing-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor installing and repairing roof flashing across Newark, New Jersey, and Essex County**, sealing the chimneys, walls, valleys, skylights, and penetrations where most roof leaks originate as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof flashing installation and repair across Newark, New Jersey, and Essex County**, sealing the chimneys, walls, valleys, skylights, and penetrations where most roof leaks originate as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Roof flashing** is the sheet metal that seals the transitions and penetrations of a roof — chimneys, walls, valleys, skylights, and vent stacks. Flashing sheds water at every joint a continuous shingle field cannot cover, the detail where most roof leaks originate.`,
     overview: [
@@ -181,7 +181,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
 {
     serviceId: 'chimney-flashing-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor repairing chimney flashing across Newark, New Jersey, and Essex County**, rebuilding the two-part base-and-counter flashing system that seals the chimney as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing chimney flashing repair across Newark, New Jersey, and Essex County**, rebuilding the two-part base-and-counter flashing system that seals the chimney as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof's largest penetration.`,
     overview: [
@@ -360,7 +360,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'gutter-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor installing and repairing gutters across Newark, New Jersey, and Essex County**, fitting aluminum, copper, and steel gutters and matched downspouts, resealing leaks and clogged runs as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across Newark, New Jersey, and Essex County**, fitting aluminum, copper, and steel gutters and matched downspouts, resealing leaks and clogged runs as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.`,
     overview: [
@@ -535,7 +535,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'gutter-guard-installation',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor installing gutter guards across Newark, New Jersey, and Essex County**, fitting micro-mesh, screen, reverse-curve, foam, and brush guards over the gutters to reduce debris clogging as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing gutter guard installation across Newark, New Jersey, and Essex County**, fitting micro-mesh, screen, reverse-curve, foam, and brush guards over the gutters to reduce debris clogging as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**A gutter guard** is a cover fitted over or inside a gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while letting water pass into the gutter. A gutter guard reduces clogging and overflow rather than eliminating gutter cleaning.`,
     overview: [
@@ -704,7 +704,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'skylight-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor installing and repairing skylights across Newark, New Jersey, and Essex County**, sealing leaks at failed flashing, replacing fogged units, and curb-mounting skylights on low-slope roofs as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing skylight installation and repair across Newark, New Jersey, and Essex County**, sealing leaks at failed flashing, replacing fogged units, and curb-mounting skylights on low-slope roofs as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.`,
     overview: [
@@ -886,7 +886,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'fascia-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor installing and repairing fascia across Newark, New Jersey, and Essex County**, replacing the rotted board that closes the rafter-tail ends and mounts the gutter system as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing fascia installation and repair across Newark, New Jersey, and Essex County**, replacing the rotted board that closes the rafter-tail ends and mounts the gutter system as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.`,
     overview: [
@@ -1235,7 +1235,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'roof-vent-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor installing and repairing roof vents across Newark, New Jersey, and Essex County**, building a balanced intake-and-exhaust system from soffit, ridge, turbine, gable, and powered vents as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof vent installation and repair across Newark, New Jersey, and Essex County**, building a balanced intake-and-exhaust system from soffit, ridge, turbine, gable, and powered vents as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.`,
     overview: [
@@ -1417,7 +1417,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'roof-waterproofing',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor that waterproofs roofs across Newark, New Jersey, and Essex County**, sealing the roof deck, eaves, valleys, and flashing so water sheds before reaching the attic as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof waterproofing across Newark, New Jersey, and Essex County**, sealing the roof deck, eaves, valleys, and flashing so water sheds before reaching the attic as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Roof waterproofing** seals the layer beneath the roof covering — the deck, the eaves, the valleys, and the flashing details — so wind-driven rain that gets past the shingles or membrane stops at the deck rather than entering the home.`,
     overview: [
@@ -1591,7 +1591,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'roof-deck-repair-replacement',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor repairing and replacing roof decks across Newark, New Jersey, and Essex County**, removing rotted sheathing so the deck grips fasteners and holds the covering as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof deck repair and replacement across Newark, New Jersey, and Essex County**, removing rotted sheathing so the deck grips fasteners and holds the covering as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.`,
     overview: [

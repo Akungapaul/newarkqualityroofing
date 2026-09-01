@@ -4,7 +4,7 @@ export const livingstonCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'livingston',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing cedar shake and cedar shingle roofs across Livingston, New Jersey, and Essex County, on the township\'s split-levels, raised ranches, and colonials and its larger period homes**, stripping aging cedar to the deck and laying new cedar over a ventilated base as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing cedar shake roof replacement and cedar shingle roof replacement across Livingston, New Jersey, and Essex County, on the township\'s split-levels, raised ranches, and colonials and its larger period homes**, stripping aging cedar to the deck and laying new cedar over a ventilated base as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [

@@ -186,7 +186,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
 {
   serviceId: 'roof-overlay-installation',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing roof overlays across Newark, New Jersey, and Essex County**, applying a second layer of asphalt shingles over one existing sound asphalt layer as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof overlay installation across Newark, New Jersey, and Essex County**, applying a second layer of asphalt shingles over one existing sound asphalt layer as a registered New Jersey Home Improvement Contractor.',
   definition:
     `**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.`,
   overview: [
@@ -735,7 +735,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'storm-damage-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing storm-damaged roofs across Newark, New Jersey, and Essex County**, documenting wind and hail damage with photographs and a scope, then installing a new roof as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing storm damage roof replacement across Newark, New Jersey, and Essex County**, documenting wind and hail damage with photographs and a scope, then installing a new roof as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Storm damage roof replacement** removes and rebuilds a roof structurally compromised by wind, hail, or a severe storm, restoring the full weatherproof system. It follows documentation of the storm damage pattern across the covering, flashing, and deck.`,
     overview: [
@@ -939,7 +939,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'aging-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing aging roofs across Newark, New Jersey, and Essex County**, stripping a roof at the end of its lifespan and installing a new roof as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing aging roof replacement across Newark, New Jersey, and Essex County**, stripping a roof at the end of its lifespan and installing a new roof as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.`,
     overview: [
@@ -1124,7 +1124,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'roof-replacement-after-leak',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing a roof after a chronic leak across Newark, New Jersey, and Essex County**, stripping the failed roof to the deck and replacing rotted sheathing as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof replacement after leaks become chronic across Newark, New Jersey, and Essex County**, stripping the failed roof to the deck and replacing rotted sheathing as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Roof replacement after a leak** strips a roof whose chronic or widespread leaking has saturated the underlayment and deck, replaces rotted sheathing, and installs a new roof system. It addresses moisture damage that a surface repair cannot reverse.`,
     overview: [
@@ -1299,7 +1299,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'fire-damage-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing fire-damaged roofs across Newark, New Jersey, and Essex County**, tearing off the charred covering and deck and rebuilding a Class A fire-rated roof as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across Newark, New Jersey, and Essex County**, tearing off the charred covering and deck and rebuilding a Class A fire-rated roof as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.`,
     overview: [
@@ -1493,7 +1493,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'roof-replacement-cost',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing residential and commercial roofs across Newark, New Jersey, and Essex County**, with a replacement costing $10,000-$25,000 for a typical home as a registered New Jersey Home Improvement Contractor, per HomeAdvisor data.',
+      '**Newark Quality Roofing is a roofing contractor quoting roof replacement cost for residential and commercial roofs across Newark, New Jersey, and Essex County**, with a replacement costing $10,000-$25,000 for a typical home as a registered New Jersey Home Improvement Contractor, per HomeAdvisor data.',
     definition:
       `**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.`,
     overview: [
@@ -1866,7 +1866,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'metal-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing roofs with new metal across Newark, New Jersey, and Essex County**, stripping the old roof to the deck and installing standing-seam or panel systems as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing metal roof replacement across Newark, New Jersey, and Essex County**, stripping the old roof to the deck and installing standing-seam or panel systems as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Metal roof replacement** removes a worn roof covering down to the deck and installs a new metal system in standing-seam panels, metal panels, or metal shingles. It rebuilds the entire weatherproof surface in steel, aluminum, copper, or zinc.`,
     overview: [
@@ -2056,7 +2056,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'slate-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing slate roofs across Newark, New Jersey, and Essex County**, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing slate roof replacement across Newark, New Jersey, and Essex County**, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Slate roof replacement** strips a failing slate roof to the deck, repairs the sheathing, and reinstalls natural or synthetic slate on corrosion-resistant copper or stainless fasteners. It renews a heavy, long-lived covering that demands a load-rated structure.`,
     overview: [
@@ -2240,7 +2240,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'tile-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing tile roofs across Newark, New Jersey, and Essex County**, stripping the clay or concrete tile and underlayment to the deck and installing new tile as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing tile roof replacement across Newark, New Jersey, and Essex County**, stripping the clay or concrete tile and underlayment to the deck and installing new tile as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.`,
     overview: [
@@ -2425,7 +2425,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
 {
   serviceId: 'flat-roof-replacement',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing flat and low-slope roofs across Newark, New Jersey, and Essex County**, stripping the failed membrane and installing a single-ply or modified-bitumen roof as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing flat roof replacement on low-slope buildings across Newark, New Jersey, and Essex County**, stripping the failed membrane and installing a single-ply or modified-bitumen roof as a registered New Jersey Home Improvement Contractor.',
   definition:
     `**Flat roof replacement** strips a failed membrane from a flat or low-slope roof to the deck, repairs the substrate, and installs a new single-ply or modified-bitumen system. It rebuilds a water-shedding surface engineered for minimal slope.`,
   overview: [
@@ -2609,7 +2609,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'cedar-shake-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing cedar shake roofs across Newark, New Jersey, and Essex County**, stripping aging cedar to the deck and installing new cedar over a ventilated base as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing cedar shake roof replacement across Newark, New Jersey, and Essex County**, stripping aging cedar to the deck and installing new cedar over a ventilated base as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.`,
     overview: [

@@ -4,7 +4,7 @@ export const orangeSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor that installs and repairs natural slate roofs across Orange, New Jersey, and Essex County**, setting new slate, replacing broken tiles, resecuring corroded fasteners, and rebuilding copper flashing on older detached and historic-district homes as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing natural slate roof installation and repair across Orange, New Jersey, and Essex County**, setting new slate, replacing broken tiles, resecuring corroded fasteners, and rebuilding copper flashing on older detached and historic-district homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Slate roof installation and repair** sets quarried natural-stone tiles on copper or stainless-steel fasteners as a roof covering, and restores an existing slate roof by replacing broken tiles, resecuring corroded fasteners, and renewing failed flashing. Natural slate is among the longest-lived roof coverings.',
   overview: [

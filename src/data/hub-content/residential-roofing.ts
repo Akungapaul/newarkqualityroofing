@@ -2,7 +2,7 @@ import type { HubContent } from './schema';
 
 export const residentialRoofingHubContent: HubContent = {
   "hubId": "residential-roofing",
-  "directAnswer": "**Newark Quality Roofing repairs, replaces, installs, and inspects residential roofs across Newark and Essex County, New Jersey, as a registered New Jersey Home Improvement Contractor**, covering asphalt shingle, metal, slate, tile, and cedar systems for single- and multi-family homes.",
+  "directAnswer": "**Newark Quality Roofing provides residential roofing repair, replacement, installation, and inspection across Newark and Essex County, New Jersey, as a registered New Jersey Home Improvement Contractor**, covering asphalt shingle, metal, slate, tile, and cedar systems for single- and multi-family homes.",
   "definition": "**Residential roofing is the roof systems that protect single- and multi-family homes** — steep-slope asphalt shingle, metal, slate, tile, and cedar, plus low-slope membrane on porches and additions — matched to each home's pitch and architectural style.",
   "definitionHeading": "What Is Residential Roofing?",
   "sections": [

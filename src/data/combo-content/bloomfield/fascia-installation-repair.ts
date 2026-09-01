@@ -4,7 +4,7 @@ export const bloomfieldFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'bloomfield',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing fascia installation repair across Bloomfield, New Jersey, and Essex County, replacing the rotted edge board and remounting the gutters on pre-war Colonials, two-family homes, and garden apartments** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing fascia installation and repair across Bloomfield, New Jersey, and Essex County, replacing the rotted edge board and remounting the gutters on pre-war Colonials, two-family homes, and garden apartments** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.',
   overview: [

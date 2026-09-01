@@ -4,7 +4,7 @@ export const veronaSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'verona',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing skylight installation repair across Verona, New Jersey, and Essex County, sealing flashing leaks, replacing fogged units, and curb-mounting skylights on the township\'s split-levels and Bloomfield Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing skylight installation and repair across Verona, New Jersey, and Essex County, sealing flashing leaks, replacing fogged units, and curb-mounting skylights on the township\'s split-levels and Bloomfield Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [

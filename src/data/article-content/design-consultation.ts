@@ -125,7 +125,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "parentId": "historic-roof-restoration",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs are slates sliding with rust staining at the nail line, open or lifted metal seams, clay tiles slipping with corroded fasteners, and water intrusion staining historic interior fabric**, each pointing to failed elements beneath long-lived materials, per NPS Preservation Briefs 4, 29, and 30.",
+    "directAnswer": "**The signs you need historic roof restoration are slates sliding with rust staining at the nail line, open or lifted metal seams, clay tiles slipping with corroded fasteners, and water intrusion staining historic interior fabric**, each pointing to failed elements beneath long-lived materials, per NPS Preservation Briefs 4, 29, and 30.",
     "intro": "Each of these signs traces a failure in the fasteners, flashing, or sheathing rather than in the slate, tile, or copper itself, which is what makes in-kind restoration possible.",
     "sections": [
       {
@@ -163,7 +163,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "parentId": "historic-roof-restoration",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Historic slate restoration commonly runs $2,500 to $10,000 or more, with individual slate replacement $50 to $300 each and slate flashing or fastener work $400 to $3,000, per HomeGuide.** Premium materials and specialized in-kind labor drive the cost.",
+    "directAnswer": "**Historic roof restoration cost for slate commonly runs $2,500 to $10,000 or more, with individual slate replacement $50 to $300 each and slate flashing or fastener work $400 to $3,000, per HomeGuide.** Premium materials and specialized in-kind labor drive the cost.",
     "intro": "Each cost driver traces back to matching the old roof in kind under federal preservation standards rather than swapping in a cheaper modern covering.",
     "sections": [
       {
@@ -239,7 +239,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "parentId": "roof-ice-dam-prevention",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs you need ice dam prevention are large eave icicles, a thick ice ridge at the roof edge, uneven snow-melt with a bare upper roof above a snow-covered eave, and interior ceiling or wall stains near top-floor exterior walls** — all pointing to attic heat escape, per University of Minnesota Extension.",
+    "directAnswer": "**The signs you need roof ice dam prevention are large eave icicles, a thick ice ridge at the roof edge, uneven snow-melt with a bare upper roof above a snow-covered eave, and interior ceiling or wall stains** near top-floor exterior walls — all pointing to attic heat escape, per University of Minnesota Extension.",
     "intro": "Each of these signs traces back to the same root cause — heated air leaking into the attic and warming the roof from beneath.",
     "sections": [
       {
@@ -277,7 +277,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "parentId": "roof-ice-dam-prevention",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Ice dam prevention cost depends on the attic air-sealing scope, the insulation added to the code-minimum level, the ventilation correction, and the eave ice-barrier length, so a contractor prices it from an attic-and-roof inspection rather than a flat package.** The U.S. Department of Energy frames air-sealing, insulating, and ventilating as the root-cause sequence.",
+    "directAnswer": "**Roof ice dam prevention cost depends on the attic air-sealing scope, the insulation added to the code-minimum level, the ventilation correction, and the eave ice-barrier length, so a contractor prices it from an attic-and-roof inspection rather than a flat package.** The U.S. Department of Energy frames air-sealing, insulating, and ventilating as the root-cause sequence.",
     "intro": "Each of those four scope items varies by the attic's existing condition, which is why an inspection sets the price ahead of any number.",
     "sections": [
       {
@@ -315,7 +315,7 @@ export const designConsultationArticles: ArticleContent[] = [
     "parentId": "roof-ice-dam-prevention",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Effective ice dam prevention is diagnostic-first: the contractor traces where attic heat reaches the roof deck, then corrects it in sequence — air-seal the bypasses, add insulation to the code-minimum level, balance soffit-and-ridge ventilation, and install the eave ice barrier**, per University of Minnesota Extension, the U.S. Department of Energy, and IRC R905.1.2.",
+    "directAnswer": "**Effective roof ice dam prevention is diagnostic-first: the contractor traces where attic heat reaches the roof deck, then corrects it in sequence — air-seal the bypasses, add insulation to the code-minimum level, balance soffit-and-ridge ventilation**, and install the eave ice barrier, per University of Minnesota Extension, the U.S. Department of Energy, and IRC R905.1.2.",
     "intro": "That diagnose-then-correct order matters because adding insulation or a barrier without first finding the heat bypasses leaves the root cause in place.",
     "sections": [
       {

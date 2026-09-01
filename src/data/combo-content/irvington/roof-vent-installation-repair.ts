@@ -4,7 +4,7 @@ export const irvingtonRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'irvington',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof vent installation repair across Irvington, New Jersey, and Essex County, building a balanced soffit-intake and ridge-exhaust system on dense two- and three-family homes and Springfield Avenue flat-roof storefronts** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof vent installation and repair across Irvington, New Jersey, and Essex County, building a balanced soffit-intake and ridge-exhaust system on dense two- and three-family homes and Springfield Avenue flat-roof storefronts** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [

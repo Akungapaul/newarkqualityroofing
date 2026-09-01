@@ -4,7 +4,7 @@ export const nutleySkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'nutley',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing skylight installation repair across Nutley, New Jersey, and Essex County, sealing leaks at failed flashing, replacing fogged units, and curb-mounting skylights on Franklin Avenue and ON3 low-slope commercial roofs** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing skylight installation and repair across Nutley, New Jersey, and Essex County, sealing leaks at failed flashing, replacing fogged units, and curb-mounting skylights on Franklin Avenue and ON3 low-slope commercial roofs** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.',
   overview: [

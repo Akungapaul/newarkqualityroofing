@@ -4,7 +4,7 @@ export const irvingtonSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'irvington',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing soffit installation repair across Irvington, New Jersey, and Essex County, replacing rotted eave board, clearing blocked intake vents, and installing baffles on dense two- and three-family rentals and older detached homes** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing soffit installation and repair across Irvington, New Jersey, and Essex County, replacing rotted eave board, clearing blocked intake vents, and installing baffles on dense two- and three-family rentals and older detached homes** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**The soffit** is the eave underside that closes the rafter-tail bays and houses the intake vents of a balanced attic-ventilation system. Soffit installation and repair replaces the rotted panel, clears blocked intake, and installs baffles that hold the soffit-to-ridge air channel open.',
   overview: [

@@ -8,7 +8,7 @@ export const decisionHelpers: ComparisonContent[] = [
   // 1. Best Roofing Material for NJ Weather
   {
     comparisonId: 'best-roofing-material-nj-weather',
-    directAnswer: `**Standing seam metal** and **architectural asphalt shingles** rank highest for New Jersey weather, with metal lasting 40–80 years and architectural asphalt 30 years per the InterNACHI chart, and asphalt installing cheaper per Josten Roofing.`,
+    directAnswer: `**Standing seam metal** and **architectural asphalt shingles rank as the best roofing material for NJ weather**, with metal lasting 40–80 years and architectural asphalt 30 years per the InterNACHI chart, and asphalt installing cheaper per Josten Roofing.`,
     definitionHeading: `What Is the Best Roofing Material for NJ Weather?`,
     definition:
       `**The best roofing material for New Jersey weather** is the roof covering whose composition and form best withstand the state's snowfall, rainfall, high design wind, summer heat, and repeated winter freeze-thaw cycling. The comparison weighs each material's durability against those conditions alongside its installed cost.`,
@@ -95,7 +95,7 @@ export const decisionHelpers: ComparisonContent[] = [
   // 2. Best Commercial Roofing Material
   {
     comparisonId: 'best-commercial-roofing-material',
-    directAnswer: `**TPO** and **EPDM** lead NJ commercial low-slope roofing — white **TPO** heat-welds its seams and reflects sun at ~0.70–0.85 solar reflectance, while **EPDM** runs the lowest single-ply install cost, per the CRRC and Josten Roofing.`,
+    directAnswer: `**TPO** and **EPDM rank as the best commercial roofing materials for NJ low-slope buildings** — white **TPO** heat-welds its seams and reflects sun at ~0.70–0.85 solar reflectance, while **EPDM** runs the lowest single-ply install cost, per the CRRC and Josten Roofing.`,
     definitionHeading: `What Is the Best Commercial Roofing Material?`,
     definition:
       `**The best commercial roofing material** is the low-slope membrane or metal system best matched to a commercial building's use, slope, and budget — typically a single-ply membrane, multi-ply bituminous system, standing-seam metal, or spray foam. The comparison weighs each option by install cost, lifespan, ponding resistance, and summer cooling demand.`,
@@ -192,7 +192,7 @@ export const decisionHelpers: ComparisonContent[] = [
   // 3. Best Roofing for Flat Roofs
   {
     comparisonId: 'best-roofing-for-flat-roofs',
-    directAnswer: `**Heat-welded TPO** and **PVC** rank highest for NJ flat roofs: their welded seams bond stronger than the membrane and reflect 0.70–0.85 of solar energy, per the NRCA and CRRC, while **EPDM** leads on lower NJ install cost.`,
+    directAnswer: `**Heat-welded TPO** and **PVC rank as the best roofing for flat roofs in NJ**: their welded seams bond stronger than the membrane and reflect 0.70–0.85 of solar energy, per the NRCA and CRRC, while **EPDM** leads on lower NJ install cost.`,
     definitionHeading: `What Is the Best Roofing for Flat Roofs?`,
     definition:
       `**The best roofing for a flat roof** is a continuous, watertight membrane or liquid-applied coating that seals the low-slope deck as one surface, since a flat roof sheds water too slowly to rely on slope alone. The comparison weighs single-ply, multi-ply, and sprayed systems by seam reliability, solar reflectance, ponding-water resistance, service life, and install cost.`,
@@ -285,7 +285,7 @@ export const decisionHelpers: ComparisonContent[] = [
   // 4. Best Roofing for Historic Homes NJ
   {
     comparisonId: 'best-roofing-for-historic-homes-nj',
-    directAnswer: `**Natural slate** and **clay tile** rank highest for NJ historic homes — slate lasts 60–150 years and clay tile 100+ per the InterNACHI chart, and both satisfy Standard 6's in-kind matching per the NPS.`,
+    directAnswer: `**Natural slate** and **clay tile rank as the best roofing for historic homes in NJ** — slate lasts 60–150 years and clay tile 100+ per the InterNACHI chart, and both satisfy Standard 6's in-kind matching per the NPS.`,
     definitionHeading: `What Is the Best Roofing for Historic Homes in New Jersey?`,
     definition:
       `**The best roofing for historic homes in New Jersey** is a period-appropriate covering — natural slate, clay tile, cedar shingle, or historic metal — matched in kind to the home's architectural era and to any local preservation district's review. The comparison weighs each material's authenticity, durability, and fit with the Secretary of the Interior's Standards.`,
@@ -372,7 +372,7 @@ export const decisionHelpers: ComparisonContent[] = [
   // 5. Cheapest vs Most Durable Roofing
   {
     comparisonId: 'cheapest-vs-most-durable-roofing',
-    directAnswer: `**3-tab asphalt shingles** install cheapest at $5.50–$9.50 per NJ square foot, while **natural slate** and **standing seam metal** lead on durability — slate lasts 60–150 years and metal 40–80, per Josten Roofing and the InterNACHI chart.`,
+    directAnswer: `**In the cheapest vs most durable roofing matchup, 3-tab asphalt shingles** install cheapest at $5.50–$9.50 per NJ square foot, while **natural slate** and **standing seam metal** lead on durability — slate lasts 60–150 years and metal 40–80, per Josten Roofing and the InterNACHI chart.`,
     definitionHeading: `What Is the Cheapest vs Most Durable Roofing Trade-Off?`,
     definition:
       `**The cheapest versus most durable roofing trade-off** weighs a covering with the lowest upfront install cost against one with the longest service life — the decision that splits cheapest to install from cheapest to own. It resolves by dividing a sourced install range across a sourced lifespan to compare cost per year of service.`,
@@ -479,7 +479,7 @@ export const decisionHelpers: ComparisonContent[] = [
   // 6. Most Energy Efficient Roofing Materials
   {
     comparisonId: 'most-energy-efficient-roofing-materials',
-    directAnswer: `**Spray polyurethane foam (SPF)** leads NJ total energy performance — its aged R-6.0 to R-6.5 per inch (ICC-ES/ASTM C1289 LTTR, SPFA) adds insulation, while **white TPO/PVC membranes** lead reflectance at ~0.70–0.85 solar reflectance, per the CRRC.`,
+    directAnswer: `**Spray polyurethane foam (SPF) leads NJ\'s most energy efficient roofing materials on total energy performance** — its aged R-6.0 to R-6.5 per inch (ICC-ES/ASTM C1289 LTTR, SPFA) adds insulation, while **white TPO/PVC membranes** lead reflectance at ~0.70–0.85 solar reflectance, per the CRRC.`,
     definitionHeading: `What Are the Most Energy Efficient Roofing Materials?`,
     definition:
       `**The most energy-efficient roofing materials** are roof coverings that cut a building's annual heating and cooling energy use through a high-reflectance surface, conductive insulation, or both. This comparison weighs each covering on solar reflectance, thermal emittance, and added insulation value.`,
@@ -574,7 +574,7 @@ export const decisionHelpers: ComparisonContent[] = [
   // 7. Best Roofing for Essex County Colonial Homes
   {
     comparisonId: 'best-roofing-for-essex-county-colonial-homes',
-    directAnswer: `**Architectural asphalt shingles** rank first for most Essex County Colonials at $6.50–$11.00 per NJ square foot (Josten Roofing); **natural slate** ranks first for a historic Colonial as the in-kind material under the Secretary of the Interior's Standard 6.`,
+    directAnswer: `**Architectural asphalt shingles rank as the best roofing for Essex County Colonial homes in most cases** at $6.50–$11.00 per NJ square foot (Josten Roofing); **natural slate** ranks first for a historic Colonial as the in-kind material under the Secretary of the Interior's Standard 6.`,
     definitionHeading: `What Is the Best Roofing for Essex County Colonial Homes?`,
     definition:
       `**The best roofing for an Essex County Colonial home** is the covering matched to the home's symmetrical roofline and architectural era — architectural asphalt shingles, natural slate, standing seam metal, cedar shingle, synthetic slate, or copper. The comparison weighs install cost, period-correct substyle match, NJ weather durability, and historic-district code against each material.`,
@@ -669,7 +669,7 @@ export const decisionHelpers: ComparisonContent[] = [
   // 8. Roof Warranty Comparison Guide
   {
     comparisonId: 'roof-warranty-comparison-guide',
-    directAnswer: `A **non-prorated manufacturer system warranty** ranks highest for homes and a commercial **No-Dollar-Limit (NDL) guarantee** ranks highest for low-slope buildings — both cover material and workmanship, unlike a **contractor workmanship warranty** alone, per NRCA and GAF.`,
+    directAnswer: `In this **roof warranty comparison guide, a non-prorated manufacturer system warranty** ranks highest for homes and a commercial **No-Dollar-Limit (NDL) guarantee** ranks highest for low-slope buildings — both cover material and workmanship, unlike a **contractor workmanship warranty** alone, per NRCA and GAF.`,
     definitionHeading: `What Is a Roof Warranty?`,
     definition:
       `**A roof warranty** is a written guarantee covering factory material defects from the manufacturer, installation quality from the contractor, or both under a certified system warranty — differing in coverage, backer, and term. This guide ranks the four warranty structures by the scope of their coverage.`,

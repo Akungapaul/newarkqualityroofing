@@ -391,7 +391,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "parentId": "roof-inspection",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**A roof inspection is priced per method, not as one whole-job total: a visual inspection runs $75–$200, a drone survey $150–$400, and an infrared moisture scan $400–$600 — most inspections fall within $75–$600, per HomeAdvisor.**",
+    "directAnswer": "**A roof inspection is priced per method, not as one whole-job cost: a visual inspection runs $75–$200, a drone survey $150–$400, and an infrared moisture scan $400–$600 — most inspections fall within $75–$600, per HomeAdvisor.**",
     "intro": "Roof size, slope, accessibility, and the chosen inspection method set where a given job lands within that band, so an itemized written estimate is the only reliable price for a specific roof.",
     "sections": [
       {
@@ -1079,7 +1079,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     "parentId": "roof-cleaning-moss-removal",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Roof cleaning and moss removal runs $300 to $1,050 — an average of $675 for a 1,500-square-foot home — at $0.20 to $0.70 per square foot, with moss removal included in most basic cleanings**, per This Old House.",
+    "directAnswer": "**Roof cleaning and moss removal cost runs $300 to $1,050 — an average of $675 for a 1,500-square-foot home — at $0.20 to $0.70 per square foot, with moss removal included in most basic cleanings**, per This Old House.",
     "intro": "There is no single whole-roof total for a cleaning; the price tracks roof size, growth severity, and the add-ons a homeowner selects.",
     "sections": [
       {

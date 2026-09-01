@@ -4,7 +4,7 @@ export const irvingtonGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'irvington',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing gutter installation repair across Irvington, New Jersey, and Essex County, fitting seamless gutters and matched downspouts and resealing leaks and clogged runs** on dense two- and three-family rentals, older detached homes, and Springfield Avenue storefronts as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across Irvington, New Jersey, and Essex County, fitting seamless gutters and matched downspouts and resealing leaks and clogged runs** on dense two- and three-family rentals, older detached homes, and Springfield Avenue storefronts as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

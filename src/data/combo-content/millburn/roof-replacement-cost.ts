@@ -4,7 +4,7 @@ export const millburnRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'millburn',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor pricing roof replacement across Millburn, New Jersey, and Essex County, estimating natural slate, copper, tile, cedar, and asphalt tear-offs on Short Hills estates and downtown-village commercial decks** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor itemizing roof replacement cost across Millburn, New Jersey, and Essex County, estimating natural slate, copper, tile, cedar, and asphalt tear-offs on Short Hills estates and downtown-village commercial decks** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.',
   overview: [

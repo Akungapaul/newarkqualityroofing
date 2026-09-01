@@ -4,7 +4,7 @@ export const veronaSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'verona',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing slate roof installation repair across Verona, New Jersey, and Essex County, restoring corroded fasteners, degraded copper flashing, and impact-broken tiles on the township\'s pre-war Colonials and Dutch Colonials** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing slate roof installation and repair across Verona, New Jersey, and Essex County, restoring corroded fasteners, degraded copper flashing, and impact-broken tiles on the township\'s pre-war Colonials and Dutch Colonials** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Slate roof installation and repair** sets quarried natural-stone tiles on copper or stainless-steel fasteners as a roof covering, and restores an existing slate roof by replacing broken tiles, resecuring corroded fasteners, and renewing failed flashing. Natural slate is among the longest-lived roof coverings.',
   overview: [

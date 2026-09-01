@@ -4,7 +4,7 @@ export const fairfieldMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'fairfield',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing metal roof installation repair across Fairfield, New Jersey, and Essex County, fitting standing-seam and copper on the township\'s larger homes and metal panels on its Route 46 and I-80 commercial buildings** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing metal roof installation and repair across Fairfield, New Jersey, and Essex County, fitting standing-seam and copper on the township\'s larger homes and metal panels on its Route 46 and I-80 commercial buildings** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Metal roof installation and repair** fits a concealed-fastener or exposed-fastener metal covering to the roof deck, and restores an existing metal roof by resealing separated seams, backed-out fasteners, and corroded panel sections. The covering uses steel, aluminum, copper, or zinc panels or shingles.',
   overview: [

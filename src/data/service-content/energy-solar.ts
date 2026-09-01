@@ -7,7 +7,7 @@ export const energySolarContent: ServiceContent[] = [
   {
     serviceId: 'solar-panel-roofing-installation',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor handling the roofing side of solar panel installation across Newark, New Jersey, and Essex County**, flashing each mount watertight and coordinating with the solar installer as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing solar panel roofing installation across Newark, New Jersey, and Essex County**, handling the roofing side of each project, flashing each mount watertight and coordinating with the solar installer as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Solar panel roofing installation** is the roofing work that supports a rack-mounted photovoltaic array — flashing each mount foot watertight, verifying the roof structure carries the added load, and matching the attachment detail to the roof-covering warranty. It prepares and seals the roof so the panels mount without creating a leak path.`,
     overview: [
@@ -193,7 +193,7 @@ export const energySolarContent: ServiceContent[] = [
   {
     serviceId: 'solar-shingle-installation',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor that installs solar shingles across Newark, New Jersey, and Essex County**, replacing the roof covering with photovoltaic shingles that serve as the roof itself as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing solar shingle installation across Newark, New Jersey, and Essex County**, replacing the roof covering with photovoltaic shingles that serve as the roof itself as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.`,
     overview: [

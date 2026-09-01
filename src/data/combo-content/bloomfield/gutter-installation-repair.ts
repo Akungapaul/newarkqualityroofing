@@ -4,7 +4,7 @@ export const bloomfieldGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'bloomfield',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing gutter installation repair across Bloomfield, New Jersey, and Essex County, fitting seamless aluminum gutters, resealing leaks, sags, and clogged runs on pre-war Colonials, two-family homes, and garden apartments** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across Bloomfield, New Jersey, and Essex County, fitting seamless aluminum gutters, resealing leaks, sags, and clogged runs on pre-war Colonials, two-family homes, and garden apartments** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

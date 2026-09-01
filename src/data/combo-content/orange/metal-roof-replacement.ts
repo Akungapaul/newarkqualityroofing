@@ -4,7 +4,7 @@ export const orangeMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing roofs with new metal across Orange, New Jersey, and Essex County**, installing standing-seam, metal-panel, or metal-shingle systems on two-/three-family homes, Seven Oaks detached houses, and Valley Arts loft buildings as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing metal roof replacement across Orange, New Jersey, and Essex County**, installing standing-seam, metal-panel, or metal-shingle systems on two-/three-family homes, Seven Oaks detached houses, and Valley Arts loft buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Metal roof replacement** removes a worn roof covering down to the deck and installs a new metal system in standing-seam panels, metal panels, or metal shingles. It rebuilds the entire weatherproof surface in steel, aluminum, copper, or zinc.',
   overview: [

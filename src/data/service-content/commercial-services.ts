@@ -6,7 +6,7 @@ export const commercialServicesContent: ServiceContent[] = [
 {
     serviceId: 'commercial-roof-installation',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor installing commercial roofs across Newark, New Jersey, and Essex County**, engineering and applying TPO, EPDM, PVC, modified-bitumen, built-up, and metal systems as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing commercial roof installation across Newark, New Jersey, and Essex County**, engineering and applying TPO, EPDM, PVC, modified-bitumen, built-up, and metal systems as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Commercial roof installation** engineers and builds a new low-slope or steep-slope roof on a commercial building, sizing the insulation, slope, and attachment, then applying a membrane or metal panel system. It constructs the full weatherproof assembly on a new or stripped deck rather than patching an existing roof.`,
     overview: [
@@ -386,7 +386,7 @@ export const commercialServicesContent: ServiceContent[] = [
 {
     serviceId: 'commercial-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing commercial roofs across Newark, New Jersey, and Essex County**, stripping the low-slope membrane to the deck and installing a new insulation-and-membrane system as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing commercial roof replacement across Newark, New Jersey, and Essex County**, stripping the low-slope membrane to the deck and installing a new insulation-and-membrane system as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.`,
     overview: [

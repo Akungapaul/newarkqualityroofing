@@ -4,7 +4,7 @@ export const orangeGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing and repairing gutters across Orange, New Jersey, and Essex County**, fitting seamless aluminum, copper, and steel gutters and matched downspouts and resealing leaks, sagging runs, and clogged systems as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across Orange, New Jersey, and Essex County**, fitting seamless aluminum, copper, and steel gutters and matched downspouts and resealing leaks, sagging runs, and clogged systems as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

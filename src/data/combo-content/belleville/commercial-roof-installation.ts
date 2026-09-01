@@ -4,7 +4,7 @@ export const bellevilleCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'belleville',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing commercial roofs across Belleville, New Jersey, and Essex County, engineering TPO, EPDM, PVC, modified-bitumen, and built-up systems on Washington Avenue storefronts and Route 21 riverfront buildings** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof installation across Belleville, New Jersey, and Essex County, engineering TPO, EPDM, PVC, modified-bitumen, and built-up systems on Washington Avenue storefronts and Route 21 riverfront buildings** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial roof installation** engineers and builds a new low-slope or steep-slope roof on a commercial building, sizing the insulation, slope, and attachment, then applying a membrane or metal panel system. It constructs the full weatherproof assembly on a new or stripped deck rather than patching an existing roof.',
   overview: [

@@ -4,7 +4,7 @@ export const orangeFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing flat and low-slope roofs across Orange, New Jersey, and Essex County**, stripping the failed membrane to the deck, repairing the substrate, then installing a new single-ply or modified-bitumen system as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing flat roof replacement for flat and low-slope roofs across Orange, New Jersey, and Essex County**, stripping the failed membrane to the deck, repairing the substrate, then installing a new single-ply or modified-bitumen system as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Flat roof replacement** strips a failed membrane from a flat or low-slope roof to the deck, repairs the substrate, and installs a new single-ply or modified-bitumen system. It rebuilds a water-shedding surface engineered for minimal slope.',
   overview: [

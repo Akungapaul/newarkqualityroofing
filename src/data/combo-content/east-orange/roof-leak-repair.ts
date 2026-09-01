@@ -4,7 +4,7 @@ export const eastOrangeRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor that locates and repairs roof leaks across East Orange, New Jersey, and Essex County**, tracing the moisture path to the root-cause flashing, shingle, pipe-boot, or membrane detail on multi-family walk-ups and older single-family homes as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof leak repair across East Orange, New Jersey, and Essex County**, tracing the moisture path to the root-cause flashing, shingle, pipe-boot, or membrane detail on multi-family walk-ups and older single-family homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof leak repair** traces a roof leak to its source detail — flashing, shingle, pipe boot, valley, or skylight — and reseals or replaces the failed component to stop water entry. It diagnoses the entry point, which sits feet away from the interior drip, before sealing.',
   overview: [

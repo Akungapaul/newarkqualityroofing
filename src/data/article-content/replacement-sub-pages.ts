@@ -52,7 +52,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "full-roof-tear-off",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**A New Jersey roof replacement with a full tear-off included runs $10,000 to $25,000 for a typical home, per HomeAdvisor and Modernize cost data**, with the tear-off labor itself at $1 to $5 per square foot by material weight, per HomeGuide.",
+    "directAnswer": "**A New Jersey roof replacement with a full roof tear off included runs $10,000 to $25,000 for a typical home, per HomeAdvisor and Modernize cost data**, with the tear-off labor itself at $1 to $5 per square foot by material weight, per HomeGuide.",
     "intro": "That whole-job range breaks down into removal labor, debris disposal, and a deck-repair allowance, each carrying its own national-sourced figure.",
     "sections": [
       {
@@ -132,7 +132,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "roof-overlay-installation",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs you need a roof overlay are a single sound asphalt-shingle layer over a smooth, dry, sound deck, with no wood-shake, slate, tile, or two-layer covering** that bars a recover, per GAF Technical Bulletin TAB-R-145 and N.J.A.C. 5:23-6.4.",
+    "directAnswer": "**The signs you need roof overlay installation are a single sound asphalt-shingle layer over a smooth, dry, sound deck, with no wood-shake, slate, tile, or two-layer covering** that bars a recover, per GAF Technical Bulletin TAB-R-145 and N.J.A.C. 5:23-6.4.",
     "intro": "Roof overlay eligibility is a pass-or-fail test against those conditions, not a judgment call, because the code and the manufacturer instructions set fixed limits on where a recover qualifies.",
     "sections": [
       {
@@ -170,7 +170,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "roof-overlay-installation",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**A roof overlay carries no single whole-job NJ total; it runs roughly 20-25% less than a full tear-off, commonly $2,000-$5,000 cheaper for a typical home, because it skips the tear-off labor and disposal**, a national figure per HomeGuide and Angi.",
+    "directAnswer": "**A roof overlay installation carries no single whole-job NJ total; its cost runs roughly 20-25% less than a full tear-off, commonly $2,000-$5,000 cheaper for a typical home, because it skips the tear-off labor and disposal**, a national figure per HomeGuide and Angi.",
     "intro": "Per-square-foot pricing, not a flat package number, is how an overlay is actually quoted in New Jersey.",
     "sections": [
       {
@@ -206,7 +206,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "roof-overlay-installation",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**The thing to understand about a roof overlay is that it is not equal to a full tear-off — it is legal only on one sound asphalt layer over a smooth, dry, sound deck, and it carries real trade-offs.** N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1 cap a roof at two total layers.",
+    "directAnswer": "**The thing to understand about roof overlay installation is that it is not equal to a full tear-off — it is legal only on one sound asphalt layer over a smooth, dry, sound deck, and it carries real trade-offs.** N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1 cap a roof at two total layers.",
     "intro": "An overlay saves roughly 20–25% upfront only because it skips the tear-off labor and disposal, and that saving comes with consequences a homeowner weighs before choosing it.",
     "sections": [
       {
@@ -405,7 +405,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "insurance-roof-replacement",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**A roof replacement in New Jersey costs $10,000–$25,000 for a typical home per HomeAdvisor and Modernize NJ cost data, and on a covered claim the insurer pays that covered loss minus the deductible the homeowner owes** under the policy.",
+    "directAnswer": "**An insurance roof replacement in New Jersey costs $10,000–$25,000 for a typical home per HomeAdvisor and Modernize NJ cost data, and on a covered claim the insurer pays that covered loss minus the deductible the homeowner owes** under the policy.",
     "intro": "What a homeowner actually pays out of pocket turns less on that headline range than on the claim economics — the deductible, depreciation, and how the settlement is structured.",
     "sections": [
       {
@@ -712,7 +712,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "roof-replacement-after-leak",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**A leak calls for roof replacement when it recurs across 3 or more repairs in 2 years, spans more than 25-30% of the roof, returns near 50% of replacement cost, or has rotted the deck** rather than failing at one isolated detail.",
+    "directAnswer": "**Roof replacement after leaks is called for when a leak recurs across 3 or more repairs in 2 years, spans more than 25-30% of the roof, returns near 50% of replacement cost, or has rotted the deck** rather than failing at one isolated detail.",
     "intro": "Each of those signs marks a systemic failure that another spot repair cannot reverse, drawn from contractor-consensus repair-vs-replace thresholds and InterNACHI inspection guidance.",
     "sections": [
       {
@@ -749,7 +749,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "roof-replacement-after-leak",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Roof replacement after a leak runs $10,000 to $25,000 for a typical New Jersey home**, with NJ architectural asphalt at $6.50 to $11.00 per square foot, per HomeAdvisor, Modernize, and Josten Roofing NJ cost data.",
+    "directAnswer": "**Roof replacement after leaks runs $10,000 to $25,000 for a typical New Jersey home**, with NJ architectural asphalt at $6.50 to $11.00 per square foot, per HomeAdvisor, Modernize, and Josten Roofing NJ cost data.",
     "intro": "A chronic leak rots the deck, so the figure includes stripping the cover to bare sheathing and replacing the deteriorated plywood or OSB underneath.",
     "sections": [
       {
@@ -793,7 +793,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "roof-replacement-after-leak",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A roof leaked long enough to rot the deck cannot be recovered or patched back to health**, because IRC Section R908 and N.J.A.C. 5:23-6.4 prohibit a new covering over a water-soaked deck, so the defining decision is repair-versus-replace judged against the 3-repairs, 25%, and 50% thresholds.",
+    "directAnswer": "**Roof replacement after leak damage turns on one fact: a roof leaked long enough to rot the deck cannot be recovered or patched back to health**, because IRC Section R908 and N.J.A.C. 5:23-6.4 prohibit a new covering over a water-soaked deck, so the defining decision is repair-versus-replace judged against the 3-repairs, 25%, and 50% thresholds.",
     "intro": "Once a chronic leak crosses those thresholds, a full tear-off to bare deck resets the underlayment-and-cover system rather than patching the detail that admits water.",
     "sections": [
       {
@@ -881,7 +881,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "fire-damage-roof-replacement",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Fire damage roof replacement has no single whole-job total: a New Jersey roof replacement runs $10,000-$25,000 for the covering on a typical home, per HomeAdvisor and Modernize NJ, with fire adding structural framing and decking work on top.** That added framing and decking scope is sized by a post-fire structural assessment.",
+    "directAnswer": "**Fire damage roof replacement cost has no single whole-job total: a New Jersey roof replacement runs $10,000-$25,000 for the covering on a typical home, per HomeAdvisor and Modernize NJ, with fire adding structural framing and decking work on top.** That added framing and decking scope is sized by a post-fire structural assessment.",
     "intro": "Material drives the per-square-foot cost of the new covering, and the fire-specific structural work is priced from the assessment rather than a fixed line item.",
     "sections": [
       {
@@ -917,7 +917,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "fire-damage-roof-replacement",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A fire-damaged roof is a structural-assembly problem requiring a full tear-off and code-compliant rebuild, not a patch or recover.** The char layer carries essentially zero residual structural capacity and is removed, and a water-soaked or charred deck is not an adequate base, per the U.S. Forest Products Laboratory.",
+    "directAnswer": "**A fire-damaged roof is a structural-assembly problem, and fire damage roof replacement means a full tear-off and code-compliant rebuild, not a patch or recover.** The char layer carries essentially zero residual structural capacity and is removed, and a water-soaked or charred deck is not an adequate base, per the U.S. Forest Products Laboratory.",
     "intro": "That structural reality drives every decision that follows: the tear-off scope, the code-compliant rebuild from a post-fire assessment, the fire rating of the new cover, and who negotiates the insurance claim.",
     "sections": [
       {
@@ -962,7 +962,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "asphalt-shingle-roof-replacement",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**An asphalt roof signals replacement when it reaches its material lifespan, loses more than 30% of its granules, sustains damage across over 25% of the roof, or takes three-plus repairs in two years.** A 3-tab asphalt roof lasts 20 years and an architectural roof 30 years, per the InterNACHI life-expectancy chart.",
+    "directAnswer": "**Asphalt shingle roof replacement is signaled when the roof reaches its material lifespan, loses more than 30% of its granules, sustains damage across over 25% of the roof, or takes three-plus repairs in two years.** A 3-tab asphalt roof lasts 20 years and an architectural roof 30 years, per the InterNACHI life-expectancy chart.",
     "intro": "Each of these signs distinguishes repairable wear from replacement-level systemic failure, and each ties to a named industry or code source rather than a contractor's guess.",
     "sections": [
       {
@@ -1118,7 +1118,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "metal-roof-replacement",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**A metal roof costs $9.00 to $16.00 or more per square foot in New Jersey, roughly $1,130 per square, against $6.50 to $11.00 per square foot for architectural asphalt**, per Josten Roofing and NJ guide pricing — there is no single whole-job total.",
+    "directAnswer": "**A metal roof replacement costs $9.00 to $16.00 or more per square foot in New Jersey, roughly $1,130 per square, against $6.50 to $11.00 per square foot for architectural asphalt**, per Josten Roofing and NJ guide pricing — there is no single whole-job total.",
     "intro": "Metal roof replacement prices per square foot rather than as one flat number, because slope, system, tear-off, and roof complexity each move the figure.",
     "sections": [
       {
@@ -1200,7 +1200,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "slate-roof-replacement",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**Slate roofs signal replacement when broken, cracked, missing, or sliding slate reaches 20% or more of a slope, or when corroded fasteners and degraded flashing have failed across the roof**, per NPS Preservation Brief 29.",
+    "directAnswer": "**Slate roof replacement is signaled when broken, cracked, missing, or sliding slate reaches 20% or more of a slope, or when corroded fasteners and degraded flashing have failed across the roof**, per NPS Preservation Brief 29.",
     "intro": "Below that 20% threshold, selective slate repair is preferred, because individual slates replace indefinitely while the deck and fasteners stay sound.",
     "sections": [
       {
@@ -1237,7 +1237,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "slate-roof-replacement",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Slate roof replacement in New Jersey has no single whole-job total — it is priced per square foot, at $10 to $30 installed, roughly $1,500 per roofing square**, per named NJ roofing guides, plus $2 to $5 per square foot tear-off labor, per HomeGuide.",
+    "directAnswer": "**Slate roof replacement cost in New Jersey has no single whole-job total — it is priced per square foot, at $10 to $30 installed, roughly $1,500 per roofing square**, per named NJ roofing guides, plus $2 to $5 per square foot tear-off labor, per HomeGuide.",
     "intro": "Because every roof differs in size, pitch, slate grade, and flashing scope, an honest slate price comes from a per-square-foot measure and a free written estimate, not a flat figure.",
     "sections": [
       {
@@ -1386,7 +1386,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "tile-roof-replacement",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**On a tile roof the underlayment fails decades before the tile, so replacement usually means renewing the underlayment and flashing while salvaging or matching the long-lived tile**, and because tile cannot be roofed-over, N.J.A.C. 5:23-6.4 mandates a full tear-off to the deck.",
+    "directAnswer": "**On a tile roof the underlayment fails decades before the tile, so tile roof replacement usually means renewing the underlayment and flashing while salvaging or matching the long-lived tile**, and because tile cannot be roofed-over, N.J.A.C. 5:23-6.4 mandates a full tear-off to the deck.",
     "intro": "That underlayment-driven replacement under a mandatory tear-off on a load-rated structure is the defining decision factor, not the tile itself.",
     "sections": [
       {
@@ -1424,7 +1424,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "flat-roof-replacement",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**A flat roof needs replacement when ponding water holds more than 48 hours, membrane damage passes 25 to 30% of the area, leaks recur at one spot, or the membrane reaches its lifespan**, per the NRCA, ARMA, and the InterNACHI life-expectancy chart.",
+    "directAnswer": "**Flat roof replacement is due when ponding water holds more than 48 hours, membrane damage passes 25 to 30% of the area, leaks recur at one spot, or the membrane reaches its lifespan**, per the NRCA, ARMA, and the InterNACHI life-expectancy chart.",
     "intro": "Each of those conditions points past another patch toward a full membrane replacement, because a flat roof fails as a system rather than at a single seam.",
     "sections": [
       {
@@ -1502,7 +1502,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "flat-roof-replacement",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A flat roof lives or dies by drainage and the membrane match, not the brand.** A flat roof needs at least 1/4 inch per foot of slope to drain, and ponding water held more than 48 hours counts as a defect, per the NRCA and ARMA.",
+    "directAnswer": "**A flat roof replacement lives or dies by drainage and the membrane match, not the brand.** A flat roof needs at least 1/4 inch per foot of slope to drain, and ponding water held more than 48 hours counts as a defect, per the NRCA and ARMA.",
     "intro": "Whether a replacement corrects the slope and matches the right membrane and lifespan to the building decides far more than which product name goes on the deck.",
     "sections": [
       {
@@ -1538,7 +1538,7 @@ export const replacementSubPagesArticles: ArticleContent[] = [
     "parentId": "cedar-shake-roof-replacement",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**A cedar roof signals replacement when it passes its 20-to-40-year shake or 30-to-50-year shingle service life, when cupping spreads across the field, when splitting crosses 25 to 30% of the roof, or when the deck rots**, per the Cedar Shake & Shingle Bureau and InterNACHI.",
+    "directAnswer": "**Cedar shake roof replacement is signaled when the roof passes its 20-to-40-year shake or 30-to-50-year shingle service life, when cupping spreads across the field, when splitting crosses 25 to 30% of the roof, or when the deck rots**, per the Cedar Shake & Shingle Bureau and InterNACHI.",
     "intro": "Each of these signs marks moisture-driven failure that has moved past spot repair toward a full cedar tear-off and replacement.",
     "sections": [
       {

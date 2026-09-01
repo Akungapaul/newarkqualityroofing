@@ -4,7 +4,7 @@ export const newarkTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing tile roofs across Newark, New Jersey, and Essex County**, stripping the clay or concrete tile and failed underlayment to the deck and installing a new underlayment-and-tile system over a load-rated structure as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing tile roof replacement across Newark, New Jersey, and Essex County**, stripping the clay or concrete tile and failed underlayment to the deck and installing a new underlayment-and-tile system over a load-rated structure as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.',
   overview: [

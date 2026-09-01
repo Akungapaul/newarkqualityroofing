@@ -4,7 +4,7 @@ export const nutleyGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'nutley',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing gutter installation repair across Nutley, New Jersey, and Essex County, sizing and fitting seamless aluminum gutters and matched downspouts on the township\'s older single-family homes and Franklin Avenue commercial buildings** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across Nutley, New Jersey, and Essex County, sizing and fitting seamless aluminum gutters and matched downspouts on the township\'s older single-family homes and Franklin Avenue commercial buildings** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

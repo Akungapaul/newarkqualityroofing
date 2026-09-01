@@ -4,7 +4,7 @@ export const orangeRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing a roof after a chronic leak across Orange, New Jersey, and Essex County**, stripping the failed roof to the deck, replacing rotted sheathing, and installing a new underlayment-and-cover system as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof replacement after leaks become chronic across Orange, New Jersey, and Essex County**, stripping the failed roof to the deck, replacing rotted sheathing, and installing a new underlayment-and-cover system as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement after a leak** strips a roof whose chronic or widespread leaking has saturated the underlayment and deck, replaces rotted sheathing, and installs a new roof system. It addresses moisture damage that a surface repair cannot reverse.',
   overview: [

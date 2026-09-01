@@ -13,8 +13,9 @@ export default function LocationsHubPage() {
           {HEADING_CONFIG.core['service-areas']}
         </h1>
         <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
-          Proudly serving all 21 communities in Essex County. Licensed, insured,
-          and committed to quality roofing for every neighborhood we call home.
+          Our roofing service areas cover all 21 communities in Essex County.
+          Registered, insured, and committed to quality roofing for every
+          neighborhood we call home.
         </p>
       </header>
 

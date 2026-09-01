@@ -4,7 +4,7 @@ export const livingstonTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'livingston',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing tile roof installation repair across Livingston, New Jersey, and Essex County, setting clay and concrete tile on the township\'s larger and newer luxury homes and replacing broken tiles and failed underlayment** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing tile roof installation and repair across Livingston, New Jersey, and Essex County, setting clay and concrete tile on the township\'s larger and newer luxury homes and replacing broken tiles and failed underlayment** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Tile roof installation and repair** sets a clay or concrete tile covering over a waterproof underlayment, and restores an existing tile roof by replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.',
   overview: [

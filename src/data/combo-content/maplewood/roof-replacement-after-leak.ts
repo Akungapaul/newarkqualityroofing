@@ -4,7 +4,7 @@ export const maplewoodRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'maplewood',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof replacement after a leak across Maplewood, New Jersey, and Essex County, stripping a chronically leaking roof to the deck and replacing rotted sheathing on the township\'s architect-designed early-20th-century homes** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof replacement after leak damage across Maplewood, New Jersey, and Essex County, stripping a chronically leaking roof to the deck and replacing rotted sheathing on the township\'s architect-designed early-20th-century homes** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement after a leak** strips a roof whose chronic or widespread leaking has saturated the underlayment and deck, replaces rotted sheathing, and installs a new roof system. It addresses moisture damage that a surface repair cannot reverse.',
   overview: [

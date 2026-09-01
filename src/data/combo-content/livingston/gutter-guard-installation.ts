@@ -4,7 +4,7 @@ export const livingstonGutterGuardInstallation: ComboContent = {
   serviceId: 'gutter-guard-installation',
   cityId: 'livingston',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing gutter guards across Livingston, New Jersey, and Essex County, fitting micro-mesh, screen, reverse-curve, foam, and brush guards over the gutters of its tree-shaded post-war homes** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter guard installation across Livingston, New Jersey, and Essex County, fitting micro-mesh, screen, reverse-curve, foam, and brush guards over the gutters of its tree-shaded post-war homes** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**A gutter guard** is a cover fitted over or inside a gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while letting water pass into the gutter. A gutter guard reduces clogging and overflow rather than eliminating gutter cleaning.',
   overview: [

@@ -4,7 +4,7 @@ export const northCaldwellRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'north-caldwell',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof vent installation repair across North Caldwell, New Jersey, and Essex County, building a balanced soffit-intake-and-ridge-exhaust system on the borough\'s custom colonials, contemporaries, and Tudors near the Hilltop Reservation** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof vent installation and repair across North Caldwell, New Jersey, and Essex County, building a balanced soffit-intake-and-ridge-exhaust system on the borough\'s custom colonials, contemporaries, and Tudors near the Hilltop Reservation** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [

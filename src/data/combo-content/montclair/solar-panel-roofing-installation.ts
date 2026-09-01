@@ -4,7 +4,7 @@ export const montclairSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'montclair',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor handling the roofing side of solar panel installation across Montclair, New Jersey, and Essex County, flashing each mount watertight and verifying the roof structure on the township\'s architecturally diverse pre-war homes** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor handling the roofing side of solar panel roofing installation across Montclair, New Jersey, and Essex County, flashing each mount watertight and verifying the roof structure on the township\'s architecturally diverse pre-war homes** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Solar panel roofing installation** is the roofing work that supports a rack-mounted photovoltaic array — flashing each mount foot watertight, verifying the roof structure carries the added load, and matching the attachment detail to the roof-covering warranty. It prepares and seals the roof so the panels mount without creating a leak path.',
   overview: [

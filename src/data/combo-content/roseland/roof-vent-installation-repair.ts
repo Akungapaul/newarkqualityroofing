@@ -4,7 +4,7 @@ export const roselandRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'roseland',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof vent installation repair across Roseland, New Jersey, and Essex County, building a balanced ridge-and-soffit airflow system on the borough\'s postwar single-family homes and office-park low-slope roofs** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof vent installation and repair across Roseland, New Jersey, and Essex County, building a balanced ridge-and-soffit airflow system on the borough\'s postwar single-family homes and office-park low-slope roofs** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [

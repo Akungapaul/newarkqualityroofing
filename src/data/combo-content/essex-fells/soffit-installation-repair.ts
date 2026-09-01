@@ -4,7 +4,7 @@ export const essexFellsSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'essex-fells',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing soffit installation repair across Essex Fells, New Jersey, and Essex County, restoring the soffit intake vents that the borough\'s mature-canopy moisture and gutter overflow rot at the eave** on the custom single-family homes, as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing soffit installation and repair across Essex Fells, New Jersey, and Essex County, restoring the soffit intake vents that the borough\'s mature-canopy moisture and gutter overflow rot at the eave** on the custom single-family homes, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**The soffit** is the eave underside that closes the rafter-tail bays and houses the intake vents of a balanced attic-ventilation system. Soffit installation and repair replaces the rotted panel, clears blocked intake, and installs baffles that hold the soffit-to-ridge air channel open.',
   overview: [

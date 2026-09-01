@@ -53,7 +53,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "residential-roof-installation",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**A residential roof installation runs about $10,000 to $25,000 or more for a typical New Jersey home, with architectural asphalt at $6.50 to $11 per square foot, metal at $9 to $16, and slate at $10 to $30** (HomeAdvisor, Modernize, Josten Roofing NJ).",
+    "directAnswer": "**A residential roof installation costs about $10,000 to $25,000 or more for a typical New Jersey home, with architectural asphalt at $6.50 to $11 per square foot, metal at $9 to $16, and slate at $10 to $30** (HomeAdvisor, Modernize, Josten Roofing NJ).",
     "intro": "New Jersey figures sit roughly 10 to 40 percent above national averages because labor runs higher and state code is stricter.",
     "sections": [
       {
@@ -91,7 +91,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "residential-roof-installation",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A full residential roof installation's chief advantage is a complete deck-to-ridge system that corrects deck rot and recoups roughly 60 to 68% at resale; its chief drawback is a $10,000 to $25,000-plus cost** (InterNACHI, Zillow, HomeAdvisor).",
+    "directAnswer": "**A full residential roof installation's pros and cons weigh a complete deck-to-ridge system that corrects deck rot and recoups roughly 60 to 68% at resale against a $10,000 to $25,000-plus cost** (InterNACHI, Zillow, HomeAdvisor).",
     "intro": "Weighing that complete-system value against its upfront cost shows when a full installation fits a home and when a narrower repair serves better.",
     "sections": [
       {
@@ -129,7 +129,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "asphalt-shingle-roofing",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs you need a new asphalt shingle roof are a roof at or past its 20-to-30-year life, granule loss over 30%, curling or buckling shingles, cracked or wind-stripped shingles, and damage across more than 25–30%**, per the InterNACHI life-expectancy chart, GAF, and NRCA guidance.",
+    "directAnswer": "**The signs you need new asphalt shingle roofing are a roof at or past its 20-to-30-year life, granule loss over 30%, curling or buckling shingles, cracked or wind-stripped shingles, and damage across more than 25–30%**, per the InterNACHI life-expectancy chart, GAF, and NRCA guidance.",
     "intro": "These warning signs fall into three groups: a covering at the end of its rated life, surface and material deterioration you can see from the ground, and area or layer thresholds that cross from repair into a full re-roof.",
     "sections": [
       {
@@ -167,7 +167,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "asphalt-shingle-roofing",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Asphalt shingle roofing installs at $5.50 to $9.50 per square foot for 3-tab and $6.50 to $11.00 for architectural shingles in New Jersey, sitting 10 to 40 percent above the national $3.50 to $11.00 per square foot** (Josten Roofing NJ / HomeGuide).",
+    "directAnswer": "**Asphalt shingle roofing costs $5.50 to $9.50 per square foot installed for 3-tab and $6.50 to $11.00 for architectural shingles in New Jersey, sitting 10 to 40 percent above the national $3.50 to $11.00 per square foot** (Josten Roofing NJ / HomeGuide).",
     "intro": "Material tier, tear-off scope, and New Jersey's higher labor and code standards move a quote within those per-square-foot ranges.",
     "sections": [
       {
@@ -205,7 +205,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "asphalt-shingle-roofing",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Asphalt shingle roofing's advantages are the lowest cost per year of service, the widest availability at roughly 73% of US roofs, and an architectural wind rating up to 130 mph; its main drawback is a shorter 20-to-30-year life** than slate, metal, or tile, per the InterNACHI life-expectancy chart and ARMA.",
+    "directAnswer": "**Asphalt shingle roofing's pros and cons weigh the lowest cost per year of service, the widest availability at roughly 73% of US roofs, and an architectural wind rating up to 130 mph against a shorter 20-to-30-year life** than slate, metal, or tile, per the InterNACHI life-expectancy chart and ARMA.",
     "intro": "Weighing those advantages against that shorter lifespan helps an Essex County homeowner decide whether asphalt fits the building and the length of ownership.",
     "sections": [
       {
@@ -243,7 +243,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "slate-roof-installation-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs you need slate work are tiles sliding out of position from corroded nails, cracked or missing tiles, rusted or split flashing at valleys and chimneys, interior leaks with tiles intact, or sugaring on low-grade slate** (National Slate Association / InterNACHI / NRCA).",
+    "directAnswer": "**The signs you need slate roof installation and repair are tiles sliding out of position from corroded nails, cracked or missing tiles, rusted or split flashing at valleys and chimneys, interior leaks with tiles intact, or sugaring on low-grade slate** (National Slate Association / InterNACHI / NRCA).",
     "intro": "Each sign traces to the fastening and flashing system rather than the stone, which lasts 60 to 150 years.",
     "sections": [
       {
@@ -281,7 +281,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "slate-roof-installation-repair",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Slate roof repair runs $500 to $2,100 in New Jersey, with broken-tile replacement at $50 to $300 per tile, flashing or fastener work at $400 to $3,000, and installation roughly $10 to $30 per square foot** (HomeGuide / Angi / Josten Roofing NJ).",
+    "directAnswer": "**Slate roof installation and repair cost runs $500 to $2,100 for repairs in New Jersey, with broken-tile replacement at $50 to $300 per tile, flashing or fastener work at $400 to $3,000**, and installation roughly $10 to $30 per square foot (HomeGuide / Angi / Josten Roofing NJ).",
     "intro": "Those ranges separate a targeted slate repair, which addresses the fasteners and flashing that fail first, from a full installation priced by the square foot.",
     "sections": [
       {
@@ -319,7 +319,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "slate-roof-installation-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Slate's advantages are a 60-to-150-year natural-stone life and indefinite tile-by-tile repairability; its drawbacks are a high upfront cost and a weight that requires a structural deck check**, per the InterNACHI life-expectancy chart and the National Slate Association.",
+    "directAnswer": "**The pros and cons of slate roof installation and repair: advantages are a 60-to-150-year natural-stone life and indefinite tile-by-tile repairability; drawbacks are a high upfront cost and a weight that requires a structural deck check**, per the InterNACHI life-expectancy chart and the National Slate Association.",
     "intro": "Weighing those advantages against the cost and weight tells an Essex County homeowner whether natural slate fits the home and the framing.",
     "sections": [
       {
@@ -395,7 +395,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "wood-shake-roofing",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Wood shake (cedar) roofing installs at about $10 to $20-plus per square foot in New Jersey, with repairs at $400 to $1,800 and recurring fungicide or algaecide maintenance at $0.15 to $0.60 per square foot** (NHI Contractors NJ / Angi / HomeGuide).",
+    "directAnswer": "**Wood shake roofing cost in New Jersey runs about $10 to $20-plus per square foot installed for cedar, with repairs at $400 to $1,800 and recurring fungicide or algaecide maintenance at $0.15 to $0.60 per square foot** (NHI Contractors NJ / Angi / HomeGuide).",
     "intro": "Material grade, the ventilated cedar assembly, and New Jersey labor and code together set where a given roof lands inside those ranges.",
     "sections": [
       {
@@ -433,7 +433,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "wood-shake-roofing",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Wood shake's advantages are western red cedar's natural decay resistance and a 20-to-40-year shake life with a distinct natural look; its drawback is the recurring moisture-management maintenance, because trapped moisture, not insects, drives most cedar failure** (Cedar Shake & Shingle Bureau / NRCA).",
+    "directAnswer": "**Wood shake roofing pros and cons: the advantages are western red cedar's natural decay resistance and a 20-to-40-year shake life with a distinct natural look; its drawback is recurring moisture-management maintenance, because trapped moisture, not insects, drives most cedar failure** (Cedar Shake & Shingle Bureau / NRCA).",
     "intro": "That trade-off — a natural cedar covering set against an ongoing commitment to keep moisture moving — is what decides whether wood shake fits a given Essex County home.",
     "sections": [
       {
@@ -471,7 +471,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "metal-roof-installation-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs you need metal roof installation or repair are backed-out fasteners or failed washer seals, separated or lifted standing seams, cut-edge corrosion and rust streaking, oil-canning or buckling, and panel corrosion past 20 to 25% of the area** (InterNACHI, Metal Construction Association, This Old House).",
+    "directAnswer": "**The signs you need metal roof installation and repair are backed-out fasteners or failed washer seals, separated or lifted standing seams, cut-edge corrosion and rust streaking, oil-canning or buckling, and panel corrosion past 20 to 25% of the area** (InterNACHI, Metal Construction Association, This Old House).",
     "intro": "These signs split into three groups: the fasteners and seams that hold the water layer, the corrosion that breaks the coating, and the area threshold that crosses from repair to replacement.",
     "sections": [
       {
@@ -509,7 +509,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "metal-roof-installation-repair",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Metal roofing installs at $9 to $16 per square foot in New Jersey**, with panel or section repair at $5 to $10 per square foot and individual repairs from $150 to $3,000, per Josten Roofing NJ, HomeGuide, Modernize, and Angi cost data.",
+    "directAnswer": "**Metal roof installation and repair costs start with installation at $9 to $16 per square foot in New Jersey**, with panel or section repair at $5 to $10 per square foot and individual repairs from $150 to $3,000, per Josten Roofing NJ, HomeGuide, Modernize, and Angi cost data.",
     "intro": "Substrate class, repair severity, and whether the deck takes a tear-off set where a metal roof job lands inside those ranges.",
     "sections": [
       {
@@ -547,7 +547,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "metal-roof-installation-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Metal roofing's advantages are a 40-to-80-year life (copper 70-plus), two to four times asphalt, and concealed-fastener standing seams with no surface penetrations; its drawbacks are a higher cost than asphalt and thermal-movement management** (InterNACHI, This Old House, Metal Construction Association).",
+    "directAnswer": "**The pros and cons of metal roof installation and repair are a 40-to-80-year life (copper 70-plus), two to four times asphalt, and concealed-fastener standing seams with no surface penetrations, against a higher cost than asphalt and thermal-movement management** (InterNACHI, This Old House, Metal Construction Association).",
     "intro": "Weighing that long service life against the upfront cost and the demands of thermal cycling tells an Essex County homeowner whether metal fits the building and the budget.",
     "sections": [
       {
@@ -585,7 +585,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "flat-roof-installation-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs a flat roof needs work are lifting or separating seams, blistering or ridging, EPDM shrinkage pulling from perimeters, ponding held past 48 hours, spreading ceiling stains, or a membrane past its life** (InterNACHI / NRCA / ARMA).",
+    "directAnswer": "**The signs you need flat roof installation & repair are lifting or separating seams, blistering or ridging, EPDM shrinkage pulling from perimeters, ponding held past 48 hours, spreading ceiling stains, or a membrane past its life** (InterNACHI / NRCA / ARMA).",
     "intro": "Each of these signals appears on the membrane, the perimeter, or the deck below before water reaches the interior, so reading them early separates a localized repair from a full replacement.",
     "sections": [
       {
@@ -623,7 +623,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "flat-roof-installation-repair",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Flat-roof repair runs $2.50 to $10.00 per square foot in New Jersey, or about $300 to $1,100 for a typical repair, while EPDM membrane installs at $7 to $10 and TPO at $8 to $12 per square foot**, per HomeGuide and Josten Roofing NJ.",
+    "directAnswer": "**Flat roof installation & repair cost in NJ runs $2.50 to $10.00 per square foot, or about $300 to $1,100 for a typical repair, with EPDM installing at $7 to $10 and TPO at $8 to $12 per square foot**, per HomeGuide and Josten Roofing NJ.",
     "intro": "Those ranges hold for the EPDM, TPO, and modified-bitumen membranes a low-slope roof carries, with the final number set by the scope of the work, the slope correction, and New Jersey labor and code.",
     "sections": [
       {
@@ -661,7 +661,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "flat-roof-installation-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A flat roof's advantages are three proven membranes — EPDM, TPO, and modified bitumen — and a reflective white TPO option that cuts cooling load; its drawback is a shorter life with seams that fail first and ponding risk**, per InterNACHI, the NRCA, and ARMA.",
+    "directAnswer": "**The pros and cons of flat roof installation & repair are three proven membranes — EPDM, TPO, and modified bitumen — plus a reflective white TPO option cutting cooling load**, against a shorter life with seams that fail first and ponding risk, per InterNACHI, the NRCA, and ARMA.",
     "intro": "Weighing those advantages against the membrane's failure points helps an Essex County homeowner decide whether a flat-roof system fits the section it covers.",
     "sections": [
       {
@@ -699,7 +699,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "tile-roof-installation-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs you need tile roof work are interior stains beneath a tile roof 30 years or older, cracked, chipped, or displaced tiles, tiles sliding out of alignment, cracked ridge or hip mortar, and concrete-tile spalling or efflorescence**, per the Tile Roofing Industry Alliance and the InterNACHI life-expectancy chart.",
+    "directAnswer": "**Signs you need tile roof installation & repair are interior stains beneath a tile roof 30 years or older, cracked, chipped, or displaced tiles, tiles sliding out of alignment, cracked ridge or hip mortar, and concrete-tile spalling or efflorescence**, per the Tile Roofing Industry Alliance and the InterNACHI life-expectancy chart.",
     "intro": "These signs separate a localized tile, fastener, or flashing repair from the underlayment failure that drives most genuine tile-roof leaks.",
     "sections": [
       {
@@ -737,7 +737,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "tile-roof-installation-repair",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Tile roof repair runs $5 to $25 per square foot in New Jersey, about $500 to $2,500 in total**, with concrete tile at $9 to $18 and clay at $12 to $25 per square foot and individual tiles $50 to $300 each, per HomeGuide and Modernize cost data.",
+    "directAnswer": "**Tile roof installation & repair costs in New Jersey run $5 to $25 per square foot for repair, about $500 to $2,500 in total**, with concrete tile at $9 to $18 and clay at $12 to $25 per square foot and individual tiles $50 to $300 each, per HomeGuide and Modernize cost data.",
     "intro": "What a tile job actually costs depends on whether the failure is the tile, the fastening, or the underlayment beneath, and on New Jersey's labor and code premium over national figures.",
     "sections": [
       {
@@ -775,7 +775,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "tile-roof-installation-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Tile's advantages are a 100-year-plus clay life and localized tile-by-tile repairability; its drawbacks are weight that loads the framing and an underlayment that fails decades before the tile** (InterNACHI / Tile Roofing Industry Alliance).",
+    "directAnswer": "**The pros and cons of tile roof installation & repair: the advantages are a 100-year-plus clay life and localized tile-by-tile repairability; the drawbacks are weight that loads the framing and an underlayment that fails decades before the tile** (InterNACHI / Tile Roofing Industry Alliance).",
     "intro": "Weighing those advantages against the weight and underlayment trade-offs tells an Essex County homeowner whether tile fits the home and the framing beneath it.",
     "sections": [
       {
@@ -851,7 +851,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "cedar-shake-roofing",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Cedar shake roofing installs at $10 to $20 or more per square foot in New Jersey, with repairs at $400 to $1,800 and recurring preservative and cleaning maintenance at $0.15 to $0.60 per square foot every few years** (NHI Contractors NJ / Angi / HomeGuide).",
+    "directAnswer": "**Cedar shake roofing costs $10 to $20 or more per square foot installed in New Jersey, with repairs at $400 to $1,800 and recurring preservative and cleaning maintenance at $0.15 to $0.60 per square foot every few years** (NHI Contractors NJ / Angi / HomeGuide).",
     "intro": "Those three figures cover the new installation, individual shake repairs, and the moisture-management upkeep that sets a cedar roof's service life.",
     "sections": [
       {
@@ -889,7 +889,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "cedar-shake-roofing",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Cedar shake's advantages are western red cedar's natural decay resistance and a 20-to-40-year life with a natural patina; its drawback is the recurring preservative and cleaning maintenance that moisture management demands** (Cedar Shake and Shingle Bureau / NRCA).",
+    "directAnswer": "**The pros and cons of cedar shake roofing: the advantages are western red cedar's natural decay resistance and a 20-to-40-year life with a natural patina; its drawback is the recurring preservative and cleaning maintenance that moisture management demands** (Cedar Shake and Shingle Bureau / NRCA).",
     "intro": "Each side of that trade-off comes down to how moisture is managed beneath hand-split western red cedar over a ventilated deck.",
     "sections": [
       {
@@ -965,7 +965,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "rubber-roofing-epdm",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**EPDM rubber roofing installs at $7 to $10 per square foot in New Jersey, with most repairs running $2.50 to $10 per square foot, about $300 to $1,100, and a small patch at $300 to $500** (Josten Roofing NJ, HomeGuide, Modernize).",
+    "directAnswer": "**Rubber roofing EPDM cost in New Jersey is $7 to $10 per square foot installed, with most repairs running $2.50 to $10 per square foot, about $300 to $1,100, and a small patch at $300 to $500** (Josten Roofing NJ, HomeGuide, Modernize).",
     "intro": "Those figures cover the rubber single-ply membrane itself, while the work type, the drainage condition, and New Jersey labor and code set where a given roof lands in the range.",
     "sections": [
       {
@@ -1003,7 +1003,7 @@ export const residentialRoofTypesArticles: ArticleContent[] = [
     "parentId": "rubber-roofing-epdm",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**EPDM rubber roofing's advantages are a 15-to-25-year single-ply membrane that stays flexible through Essex County freeze-thaw and localized, accessible repairs; its drawback is splice seams that fail before the membrane field does** (InterNACHI / HomeGuide / NOAA).",
+    "directAnswer": "**The pros and cons of rubber roofing EPDM: its advantages are a 15-to-25-year single-ply membrane that stays flexible through Essex County freeze-thaw and localized, accessible repairs; its drawback is splice seams that fail before the membrane field does** (InterNACHI / HomeGuide / NOAA).",
     "intro": "Weighing those trade-offs against a roof section's slope, exposure, and budget determines whether EPDM fits a New Jersey home.",
     "sections": [
       {

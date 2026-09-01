@@ -4,7 +4,7 @@ export const essexFellsGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'essex-fells',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing gutter installation repair across Essex Fells, New Jersey, and Essex County, sizing and forming seamless aluminum and copper gutters and matched downspouts on the borough\'s tree-canopied custom single-family homes** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across Essex Fells, New Jersey, and Essex County, sizing and forming seamless aluminum and copper gutters and matched downspouts on the borough\'s tree-canopied custom single-family homes** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

@@ -4,7 +4,7 @@ export const bloomfieldRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'bloomfield',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor pricing roof replacement across Bloomfield, New Jersey, and Essex County, from pre-war Colonials and two-family homes near Bloomfield Center to Broad Street and Garden State Parkway-corridor flat roofs** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor estimating roof replacement cost across Bloomfield, New Jersey, and Essex County, from pre-war Colonials and two-family homes near Bloomfield Center to Broad Street and Garden State Parkway-corridor flat roofs** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.',
   overview: [

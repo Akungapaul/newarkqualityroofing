@@ -4,7 +4,7 @@ export const glenRidgeRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'glen-ridge',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing and repairing roof vents across Glen Ridge, New Jersey, and Essex County, building a balanced soffit-intake and ridge-exhaust system on the borough\'s pre-WWII Victorian, Tudor, and Colonial Revival homes** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof vent installation and repair across Glen Ridge, New Jersey, and Essex County, building a balanced soffit-intake and ridge-exhaust system on the borough\'s pre-WWII Victorian, Tudor, and Colonial Revival homes** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [

@@ -4,7 +4,7 @@ export const bloomfieldSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'bloomfield',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing slate roof installation repair across Bloomfield, New Jersey, and Essex County, replacing broken tiles, corroded fasteners, and failed flashing on the pre-war Colonials and period homes near Bloomfield Center** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing slate roof installation and repair across Bloomfield, New Jersey, and Essex County, replacing broken tiles, corroded fasteners, and failed flashing on the pre-war Colonials and period homes near Bloomfield Center** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Slate roof installation and repair** sets quarried natural-stone tiles on copper or stainless-steel fasteners as a roof covering, and restores an existing slate roof by replacing broken tiles, resecuring corroded fasteners, and renewing failed flashing. Natural slate is among the longest-lived roof coverings.',
   overview: [

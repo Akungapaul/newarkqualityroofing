@@ -4,7 +4,7 @@ export const nutleyMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'nutley',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing roofs with standing-seam, panel, and metal-shingle systems across Nutley, New Jersey, and Essex County, on the township\'s older single-family homes, Franklin Avenue storefronts, and ON3 commercial roofs** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing metal roof replacement with standing-seam, panel, and metal-shingle systems across Nutley, New Jersey, and Essex County, on the township\'s older single-family homes, Franklin Avenue storefronts, and ON3 commercial roofs** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Metal roof replacement** removes a worn roof covering down to the deck and installs a new metal system in standing-seam panels, metal panels, or metal shingles. It rebuilds the entire weatherproof surface in steel, aluminum, copper, or zinc.',
   overview: [

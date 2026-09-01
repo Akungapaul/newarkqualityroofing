@@ -4,7 +4,7 @@ export const westOrangeFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'west-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing fascia installation repair across West Orange, New Jersey, and Essex County, replacing the rotted board that closes the rafter-tail ends and mounts the gutter on capes, Colonials, Tudors, and estate eaves** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing fascia installation and repair across West Orange, New Jersey, and Essex County, replacing the rotted board that closes the rafter-tail ends and mounts the gutter on capes, Colonials, Tudors, and estate eaves** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.',
   overview: [

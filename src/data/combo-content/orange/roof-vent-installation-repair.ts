@@ -4,7 +4,7 @@ export const orangeRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing and repairing roof vents across Orange, New Jersey, and Essex County**, building a balanced soffit-intake and ridge-exhaust system on the city\'s two- and three-family homes, Valley Arts lofts, and older Seven Oaks houses as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof vent installation and repair across Orange, New Jersey, and Essex County**, building a balanced soffit-intake and ridge-exhaust system on the city\'s two- and three-family homes, Valley Arts lofts, and older Seven Oaks houses as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [

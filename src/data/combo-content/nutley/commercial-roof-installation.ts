@@ -4,7 +4,7 @@ export const nutleyCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'nutley',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing commercial roofs across Nutley, New Jersey, and Essex County, engineering TPO, EPDM, PVC, modified-bitumen, and built-up systems on Franklin Avenue storefronts and the ON3 institutional campus** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof installation across Nutley, New Jersey, and Essex County, engineering TPO, EPDM, PVC, modified-bitumen, and built-up systems on Franklin Avenue storefronts and the ON3 institutional campus** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial roof installation** engineers and builds a new low-slope or steep-slope roof on a commercial building, sizing the insulation, slope, and attachment, then applying a membrane or metal panel system. It constructs the full weatherproof assembly on a new or stripped deck rather than patching an existing roof.',
   overview: [

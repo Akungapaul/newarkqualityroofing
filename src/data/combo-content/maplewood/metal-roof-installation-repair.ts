@@ -4,7 +4,7 @@ export const maplewoodMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'maplewood',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing metal roof installation repair across Maplewood, New Jersey, and Essex County, fitting standing-seam panels and resealing seams, fasteners, and corroded sections** on architect-designed Tudor and Colonial Revival homes and Maplewood Village storefronts as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing metal roof installation and repair across Maplewood, New Jersey, and Essex County, fitting standing-seam panels and resealing seams, fasteners, and corroded sections** on architect-designed Tudor and Colonial Revival homes and Maplewood Village storefronts as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Metal roof installation and repair** fits a concealed-fastener or exposed-fastener metal covering to the roof deck, and restores an existing metal roof by resealing separated seams, backed-out fasteners, and corroded panel sections. The covering uses steel, aluminum, copper, or zinc panels or shingles.',
   overview: [

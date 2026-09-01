@@ -199,8 +199,8 @@ export default async function KnowledgeBasePage({
         heading="Roofing Knowledge Base for Newark and Essex County"
       >
         <p className="mt-6 font-body text-lg leading-relaxed text-text-secondary">
-          This knowledge base answers {articles.length} roofing questions for Newark and Essex
-          County property owners, organized into {KB_CLUSTERS.length} sections. Each section
+          This roofing knowledge base answers {articles.length} roofing questions for Newark
+          and Essex County property owners, organized into {KB_CLUSTERS.length} sections. Each section
           covers a distinct part of a roof&apos;s life: the problems that appear, the components
           that fail, the materials available, the work itself, and what it costs in New Jersey.
         </p>

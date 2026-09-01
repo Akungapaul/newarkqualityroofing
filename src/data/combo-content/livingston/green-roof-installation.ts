@@ -4,7 +4,7 @@ export const livingstonGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'livingston',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing green roofs across Livingston, New Jersey, and Essex County, building waterproofing membrane, root barrier, drainage, and growing media on the Route 10 and Eisenhower Parkway low-slope decks** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing green roof installation across Livingston, New Jersey, and Essex County, building waterproofing membrane, root barrier, drainage, and growing media on the Route 10 and Eisenhower Parkway low-slope decks** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.',
   overview: [

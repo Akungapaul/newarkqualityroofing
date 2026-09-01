@@ -4,7 +4,7 @@ export const orangeStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing storm-damaged roofs across Orange, New Jersey, and Essex County**, documenting wind, hail, and nor\'easter damage with photographs and a detailed scope, then installing a new roof to manufacturer specification as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing storm damage roof replacement across Orange, New Jersey, and Essex County**, documenting wind, hail, and nor\'easter damage with photographs and a detailed scope, then installing a new roof to manufacturer specification as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Storm damage roof replacement** removes and rebuilds a roof structurally compromised by wind, hail, or a severe storm, restoring the full weatherproof system. It follows documentation of the storm damage pattern across the covering, flashing, and deck.',
   overview: [

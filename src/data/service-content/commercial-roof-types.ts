@@ -6,7 +6,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'tpo-roofing-installation',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor installing TPO roofing across Newark, New Jersey, and Essex County**, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to commercial and residential low-slope roofs as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing TPO roofing installation across Newark, New Jersey, and Essex County**, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to commercial and residential low-slope roofs as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**TPO roofing** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface. The welded seams fuse the sheets into one continuous water layer.`,
     overview: [
@@ -1111,7 +1111,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'green-roof-installation',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor installing green roof systems across Newark, New Jersey, and Essex County**, building waterproofing membrane, root barrier, drainage, and growing media that carry a planted roof as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing green roof installation across Newark, New Jersey, and Essex County**, building waterproofing membrane, root barrier, drainage, and growing media that carry a planted roof as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.`,
     overview: [

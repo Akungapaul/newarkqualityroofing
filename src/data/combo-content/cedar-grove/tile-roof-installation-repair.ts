@@ -4,7 +4,7 @@ export const cedarGroveTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'cedar-grove',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing tile roof installation repair across Cedar Grove, New Jersey, and Essex County, setting and restoring clay and concrete tile on the township\'s postwar single-family homes and Pompton Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing tile roof installation and repair across Cedar Grove, New Jersey, and Essex County, setting and restoring clay and concrete tile on the township\'s postwar single-family homes and Pompton Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Tile roof installation and repair** sets a clay or concrete tile covering over a waterproof underlayment, and restores an existing tile roof by replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.',
   overview: [

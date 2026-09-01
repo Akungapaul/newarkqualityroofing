@@ -10,7 +10,7 @@ export const homepageArticles: ArticleContent[] = [
     "parentId": "homepage",
     "parentType": "core",
     "position": 1,
-    "directAnswer": "**New Jersey homeowners benefit from understanding three things about roofing: the demanding four-season climate, matching the right material to the building and budget, and the state rules that govern the work.** The NJ Division of Consumer Affairs registers every home-improvement contractor, and N.J.A.C. 5:23-2.7 treats a detached one-to-two-family re-roof as ordinary maintenance that needs no permit.",
+    "directAnswer": "**This NJ roofing guide covers three things New Jersey homeowners benefit from understanding: the demanding four-season climate, matching the right material to the building and budget, and the state rules that govern the work.** The NJ Division of Consumer Affairs registers every home-improvement contractor, and N.J.A.C. 5:23-2.7 treats a detached one-to-two-family re-roof as ordinary maintenance that needs no permit.",
     "intro": "Each of those three factors shapes how a New Jersey roof is chosen, installed, and maintained over its service life.",
     "sections": [
       {
@@ -86,7 +86,7 @@ export const homepageArticles: ArticleContent[] = [
     "parentId": "homepage",
     "parentType": "core",
     "position": 3,
-    "directAnswer": "**New Jersey requires every roofing contractor to register as a Home Improvement Contractor with the NJ Division of Consumer Affairs under N.J.S.A. 56:8-136** — a consumer-protection registration, not a roofing license, since the state issues no roofing license.",
+    "directAnswer": "**New Jersey\'s roofing licensing and insurance rules begin with registration: the state requires every roofing contractor to register as a Home Improvement Contractor with the NJ Division of Consumer Affairs under N.J.S.A. 56:8-136** — a consumer-protection registration, not a roofing license, since the state issues no roofing license.",
     "intro": "That single registration, paired with mandatory insurance and a clear understanding of warranty types, forms the baseline every New Jersey homeowner verifies before signing a roofing contract.",
     "sections": [
       {

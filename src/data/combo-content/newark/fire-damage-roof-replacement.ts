@@ -4,7 +4,7 @@ export const newarkFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing fire-damaged roofs across Newark, New Jersey, and Essex County**, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing fire damage roof replacement across Newark, New Jersey, and Essex County**, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.',
   overview: [

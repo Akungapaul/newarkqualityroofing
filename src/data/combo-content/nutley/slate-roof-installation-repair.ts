@@ -4,7 +4,7 @@ export const nutleySlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'nutley',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing slate roof installation repair across Nutley, New Jersey, and Essex County, replacing broken tiles, corroded fasteners, and failed flashing** on the township\'s older single-family Colonials and Tudors as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing slate roof installation and repair across Nutley, New Jersey, and Essex County, replacing broken tiles, corroded fasteners, and failed flashing** on the township\'s older single-family Colonials and Tudors as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Slate roof installation and repair** sets quarried natural-stone tiles on copper or stainless-steel fasteners as a roof covering, and restores an existing slate roof by replacing broken tiles, resecuring corroded fasteners, and renewing failed flashing. Natural slate is among the longest-lived roof coverings.',
   overview: [

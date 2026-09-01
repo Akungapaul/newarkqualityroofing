@@ -4,7 +4,7 @@ export const irvingtonFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'irvington',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing flat roof installation repair across Irvington, New Jersey, and Essex County, sealing EPDM, TPO, and modified-bitumen membranes** on Springfield Avenue and Chancellor Avenue storefronts, Route 78 light-industrial buildings, and 2-3-family rear additions as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing flat roof installation and repair across Irvington, New Jersey, and Essex County, sealing EPDM, TPO, and modified-bitumen membranes** on Springfield Avenue and Chancellor Avenue storefronts, Route 78 light-industrial buildings, and 2-3-family rear additions as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Flat roof installation and repair** seals a flat or low-slope roof with a continuous waterproof membrane — EPDM rubber, TPO thermoplastic, or modified bitumen — and corrects the slope and drainage the roof depends on. The work ranges from a single seam patch to a full membrane replacement.',
   overview: [

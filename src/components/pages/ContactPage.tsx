@@ -60,7 +60,7 @@ export default function ContactPage() {
             {HEADING_CONFIG.core.contact}
           </h1>
           <p className="mx-auto mt-3 max-w-xl font-body text-lg text-parchment-dark/90">
-            Get your free roofing estimate today
+            Contact Newark Quality Roofing for your free roofing estimate today
           </p>
         </div>
       </section>

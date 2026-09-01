@@ -4,7 +4,7 @@ export const caldwellRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'caldwell',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof deck repair replacement across Caldwell, New Jersey, and Essex County, removing rotted sheathing exposed at tear-off** on the borough\'s older Victorian-era and Colonial Revival homes, Capes, and Bloomfield Avenue storefronts as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof deck repair and replacement across Caldwell, New Jersey, and Essex County, removing rotted sheathing exposed at tear-off** on the borough\'s older Victorian-era and Colonial Revival homes, Capes, and Bloomfield Avenue storefronts as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [

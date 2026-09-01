@@ -4,7 +4,7 @@ export const westOrangeSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'west-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing soffit installation repair across West Orange, New Jersey, and Essex County**, replacing rotted eave board, clearing intake vents, and installing baffles to restore attic airflow on the township\'s ridge-side stock as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing soffit installation and repair across West Orange, New Jersey, and Essex County**, replacing rotted eave board, clearing intake vents, and installing baffles to restore attic airflow on the township\'s ridge-side stock as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**The soffit** is the eave underside that closes the rafter-tail bays and houses the intake vents of a balanced attic-ventilation system. Soffit installation and repair replaces the rotted panel, clears blocked intake, and installs baffles that hold the soffit-to-ridge air channel open.',
   overview: [

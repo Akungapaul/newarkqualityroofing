@@ -4,7 +4,7 @@ export const glenRidgeTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'glen-ridge',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing tile roof installation repair across Glen Ridge, New Jersey, and Essex County, setting and restoring clay and concrete tile on the borough’s pre-WWII high-style homes and the Bloomfield Avenue station edge** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing tile roof installation and repair across Glen Ridge, New Jersey, and Essex County, setting and restoring clay and concrete tile on the borough’s pre-WWII high-style homes and the Bloomfield Avenue station edge** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Tile roof installation and repair** sets a clay or concrete tile covering over a waterproof underlayment, and restores an existing tile roof by replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.',
   overview: [

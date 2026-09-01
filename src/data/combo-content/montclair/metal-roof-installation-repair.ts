@@ -4,7 +4,7 @@ export const montclairMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'montclair',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing metal roof installation repair across Montclair, New Jersey, and Essex County, fitting standing-seam, copper, and aluminum panels on the township\'s Victorian, Tudor, and Colonial Revival homes and Bloomfield Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing metal roof installation and repair across Montclair, New Jersey, and Essex County, fitting standing-seam, copper, and aluminum panels on the township\'s Victorian, Tudor, and Colonial Revival homes and Bloomfield Avenue storefronts** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Metal roof installation and repair** fits a concealed-fastener or exposed-fastener metal covering to the roof deck, and restores an existing metal roof by resealing separated seams, backed-out fasteners, and corroded panel sections. The covering uses steel, aluminum, copper, or zinc panels or shingles.',
   overview: [

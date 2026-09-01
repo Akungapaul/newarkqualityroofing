@@ -4,7 +4,7 @@ export const eastOrangeAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing aging roofs across East Orange, New Jersey, and Essex County**, stripping a roof past its material lifespan to the deck and installing a new underlayment-and-cover system on pre-war apartments, walk-ups, and older homes as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing aging roof replacement across East Orange, New Jersey, and Essex County**, stripping a roof past its material lifespan to the deck and installing a new underlayment-and-cover system on pre-war apartments, walk-ups, and older homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.',
   overview: [

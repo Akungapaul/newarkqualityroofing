@@ -4,7 +4,7 @@ export const newarkCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing cedar shake roofs across Newark, New Jersey, and Essex County**, stripping aging wood to the deck and installing new cedar on a ventilated nailing base as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing cedar shake roof replacement across Newark, New Jersey, and Essex County**, stripping aging wood to the deck and installing new cedar on a ventilated nailing base as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
   overview: [

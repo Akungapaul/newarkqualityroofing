@@ -6,7 +6,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
   {
     serviceId: 'residential-roof-installation',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor that installs residential roofs across Newark, New Jersey, and Essex County**, building the complete deck-to-ridge system on new construction and full replacements to manufacturer specification as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing residential roof installation across Newark, New Jersey, and Essex County**, building the complete deck-to-ridge system on new construction and full replacements to manufacturer specification as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Residential roof installation** builds a complete roof system on a house from the deck up — ice barrier, underlayment, flashing, the finish covering, and ventilation. It applies to new construction and full replacements, replacing the entire weatherproof assembly rather than patching a failed detail.`,
     overview: [
@@ -387,7 +387,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'slate-roof-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor that installs and repairs natural slate roofs across Newark, New Jersey, and Essex County**, replacing broken tiles, corroded fasteners, and failed flashing as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing natural slate roof installation and repair across Newark, New Jersey, and Essex County**, replacing broken tiles, corroded fasteners, and failed flashing as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Slate roof installation and repair** sets quarried natural-stone tiles on copper or stainless-steel fasteners as a roof covering, and restores an existing slate roof by replacing broken tiles, resecuring corroded fasteners, and renewing failed flashing. Natural slate is among the longest-lived roof coverings.`,
     overview: [
@@ -737,7 +737,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'metal-roof-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor that installs and repairs metal roofs across Newark, New Jersey, and Essex County**, fitting standing-seam panels and resealing seams, fasteners, and corroded sections as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing metal roof installation and repair across Newark, New Jersey, and Essex County**, fitting standing-seam panels and resealing seams, fasteners, and corroded sections as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Metal roof installation and repair** fits a concealed-fastener or exposed-fastener metal covering to the roof deck, and restores an existing metal roof by resealing separated seams, backed-out fasteners, and corroded panel sections. The covering uses steel, aluminum, copper, or zinc panels or shingles.`,
     overview: [
@@ -922,7 +922,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'flat-roof-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor that installs and repairs flat and low-slope roofs across Newark, New Jersey, and Essex County**, servicing EPDM, TPO, and modified-bitumen membranes with manufacturer-approved bonding as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing flat roof installation and repair for low-slope roofs across Newark, New Jersey, and Essex County**, servicing EPDM, TPO, and modified-bitumen membranes with manufacturer-approved bonding as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Flat roof installation and repair** seals a flat or low-slope roof with a continuous waterproof membrane — EPDM rubber, TPO thermoplastic, or modified bitumen — and corrects the slope and drainage the roof depends on. The work ranges from a single seam patch to a full membrane replacement.`,
     overview: [
@@ -1107,7 +1107,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'tile-roof-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor that installs and repairs clay and concrete tile roofs across Newark, New Jersey, and Essex County**, replacing broken tiles, failed underlayment, and flashing details as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing clay and concrete tile roof installation and repair across Newark, New Jersey, and Essex County**, replacing broken tiles, failed underlayment, and flashing details as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Tile roof installation and repair** sets a clay or concrete tile covering over a waterproof underlayment, and restores an existing tile roof by replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.`,
     overview: [

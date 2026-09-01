@@ -12,7 +12,7 @@ export const energySolarArticles: ArticleContent[] = [
     "parentId": "solar-panel-roofing-installation",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs are a roof covering with less remaining life than the 25-to-30-plus-year module life, a mount flashed on top of rather than under the upslope shingle course, an unconfirmed roof-structure load, and missing rapid shutdown**, per the NRCA, NREL, and NEC 690.12.",
+    "directAnswer": "**The signs you need solar panel roofing installation are a roof covering with less remaining life than the 25-to-30-plus-year module life, a mount flashed over rather than under the upslope shingle course, an unconfirmed roof-structure load, and missing rapid shutdown**, per the NRCA, NREL, and NEC 690.12.",
     "intro": "Each sign traces to the roofing side of a solar array — the covering, the flashing, the structure, and the code that the array sits on rather than the panels themselves.",
     "sections": [
       {
@@ -50,7 +50,7 @@ export const energySolarArticles: ArticleContent[] = [
     "parentId": "solar-panel-roofing-installation",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Rack-mounted solar panels run about $2.50 to $4.00 per watt installed in NJ, while the roofing scope that supports the array — mount flashing, structural verification, and any re-roof before solar — is priced separately by a free written estimate**, per EnergySage, SolarReviews, and WattBuild.",
+    "directAnswer": "**In NJ, solar panel roofing installation cost runs about $2.50 to $4.00 per watt installed for rack-mounted panels**, while the supporting roofing scope — mount flashing, structural verification, and any re-roof before solar — is priced separately by a free written estimate, per EnergySage, SolarReviews, and WattBuild.",
     "intro": "The PV system is the solar installer's number, and the roofing side is the separate scope Newark Quality Roofing prices for the roof underneath it.",
     "sections": [
       {
@@ -88,7 +88,7 @@ export const energySolarArticles: ArticleContent[] = [
     "parentId": "solar-panel-roofing-installation",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**New Jersey applies the Successor Solar Incentive (SREC-II, 15-year term, NJBPU), net metering at full retail, and the sales-tax (Form ST-4) and property-tax (Form CRES) exemptions.** The federal §25D 30% residential credit is repealed for systems completed after December 31, 2025, per the IRS.",
+    "directAnswer": "**For solar panel roofing installation, New Jersey applies the Successor Solar Incentive (SREC-II, 15-year term, NJBPU), net metering at full retail, and the sales-tax (Form ST-4) and property-tax (Form CRES) exemptions.** The federal §25D 30% residential credit is repealed for systems completed after December 31, 2025, per the IRS.",
     "intro": "These state programs carry the incentive value for a 2026 residential solar array, because the federal residential credit no longer applies.",
     "sections": [
       {
@@ -126,7 +126,7 @@ export const energySolarArticles: ArticleContent[] = [
     "parentId": "solar-shingle-installation",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs a solar shingle fits are a roof at or near reroof age, a preference for a uniform surface over visible panels, a pitch of 2:12 or steeper, and a budget accepting a higher per-watt cost for integrated appearance.** GAF Energy and SolarReviews frame these.",
+    "directAnswer": "**The signs solar shingle installation fits are a roof at or near reroof age, a preference for a uniform surface over visible panels, a pitch of 2:12 or steeper, and a budget accepting a higher per-watt cost for integrated appearance.** GAF Energy and SolarReviews frame these.",
     "intro": "Each sign points to a building-integrated photovoltaic roof that replaces the covering itself rather than mounting hardware on a finished roof.",
     "sections": [
       {
@@ -164,7 +164,7 @@ export const energySolarArticles: ArticleContent[] = [
     "parentId": "solar-shingle-installation",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Solar shingles run about $3.50 to $8.00 per watt installed — roughly 1.5 to 2 times the $2.50 to $4.00 per watt of rack-mounted panels — because a solar shingle replaces the roof covering and pairs with a full reroof.** Source EnergySage, SolarReviews, and WattBuild.",
+    "directAnswer": "**Solar shingle installation cost runs about $3.50 to $8.00 per watt installed — roughly 1.5 to 2 times the $2.50 to $4.00 per watt of rack-mounted panels** — because a solar shingle replaces the roof covering and pairs with a full reroof. Source EnergySage, SolarReviews, and WattBuild.",
     "intro": "That per-watt premium, the roof area the system covers, and the reroof it rides on together set what a New Jersey solar-shingle project actually costs.",
     "sections": [
       {
@@ -202,7 +202,7 @@ export const energySolarArticles: ArticleContent[] = [
     "parentId": "solar-shingle-installation",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**The same New Jersey incentives that apply to rack-mounted panels apply to a solar shingle — the Successor Solar Incentive (SREC-II, 15-year term), net metering, and the Form ST-4 and Form CRES exemptions.** The NJ Board of Public Utilities draws no panel-versus-BIPV line.",
+    "directAnswer": "**The same New Jersey incentives that apply to rack-mounted panels apply to solar shingle installation — the Successor Solar Incentive (SREC-II, 15-year term), net metering, and the Form ST-4 and Form CRES exemptions.** The NJ Board of Public Utilities draws no panel-versus-BIPV line.",
     "intro": "The federal §25D residential credit is repealed for 2026, so a 2026 homeowner plans around the New Jersey programs and consults a tax professional for current rates.",
     "sections": [
       {
@@ -278,7 +278,7 @@ export const energySolarArticles: ArticleContent[] = [
     "parentId": "energy-efficient-roofing-solutions",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Energy efficient roofing cost in NJ varies by roof size, the reflective product, the insulation scope to a ceiling R-60 target, and the ventilation work, because each measure prices separately.** A white TPO or PVC membrane, a reflective coating, and insulation each price on their own.",
+    "directAnswer": "**Energy efficient roofing solutions cost in NJ varies by roof size, the reflective product, the insulation scope to a ceiling R-60 target, and the ventilation work, because each measure prices separately.** A white TPO or PVC membrane, a reflective coating, and insulation each price on their own.",
     "intro": "Because a reflective surface and an insulation layer are two distinct levers rather than one product, the budget a building owner plans around is the sum of separate line items set by a free written estimate.",
     "sections": [
       {
@@ -316,7 +316,7 @@ export const energySolarArticles: ArticleContent[] = [
     "parentId": "energy-efficient-roofing-solutions",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**The federal §25C and §25D credits are repealed for 2026, so the savings come from the energy performance itself: a cool roof cuts peak cooling demand 11 to 27% in air-conditioned residential buildings, per the EPA**, offset by a Newark winter heating penalty.",
+    "directAnswer": "**The federal §25C and §25D credits are repealed for 2026, so the savings from energy efficient roofing solutions come from the performance itself: a cool roof cuts peak cooling demand 11 to 27% in air-conditioned residential buildings, per the EPA**, offset by a Newark winter heating penalty.",
     "intro": "Because the federal credits no longer apply, the case for an energy-efficient roof rests on the measured cooling reduction, the New Jersey solar incentives that attach only when the roof carries solar, and the heating-dominated Essex County climate.",
     "sections": [
       {
@@ -430,7 +430,7 @@ export const energySolarArticles: ArticleContent[] = [
     "parentId": "silicone-roof-coating",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**No federal or New Jersey tax credit or rebate fits a roof coating — it generates no electricity and adds no R-value — so the savings come from deferred replacement plus a reflective cool-roof reduction in peak cooling demand.** Source RCMA, EPA, and DOE.",
+    "directAnswer": "**No federal or New Jersey tax credit or rebate fits a silicone roof coating — it generates no electricity and adds no R-value — so the savings come from deferred replacement plus a reflective cool-roof reduction in peak cooling demand.** Source RCMA, EPA, and DOE.",
     "intro": "A silicone roof coating sits outside both the solar incentive track and the insulation incentive track, which is why its value shows up as restoration economics rather than a tax line.",
     "sections": [
       {

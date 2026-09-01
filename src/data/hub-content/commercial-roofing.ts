@@ -2,7 +2,7 @@ import type { HubContent } from './schema';
 
 export const commercialRoofingHubContent: HubContent = {
   "hubId": "commercial-roofing",
-  "directAnswer": "**Newark Quality Roofing installs, repairs, replaces, and inspects commercial roof systems for offices, warehouses, retail, and industrial buildings across Newark and Essex County, New Jersey.** As a registered New Jersey Home Improvement Contractor, the company services low-slope membrane, metal, and built-up roofs under the Uniform Construction Code.",
+  "directAnswer": "**Newark Quality Roofing provides commercial roofing installation, repair, replacement, and inspection for offices, warehouses, retail, and industrial buildings across Newark and Essex County, New Jersey.** As a registered New Jersey Home Improvement Contractor, the company services low-slope membrane, metal, and built-up roofs under the Uniform Construction Code.",
   "definition": "**Commercial roofing** is the predominantly low-slope membrane and metal roof systems that protect offices, warehouses, retail, and industrial buildings. Per NRCA, these low-slope assemblies need positive drainage because standing water accelerates membrane aging.",
   "definitionHeading": "What Is Commercial Roofing?",
   "sections": [

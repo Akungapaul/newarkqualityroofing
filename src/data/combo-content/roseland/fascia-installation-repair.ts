@@ -4,7 +4,7 @@ export const roselandFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'roseland',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing fascia installation repair across Roseland, New Jersey, and Essex County, replacing the rotted edge board and remounting the gutter line on the borough\'s postwar single-family homes and office-park buildings** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing fascia installation and repair across Roseland, New Jersey, and Essex County, replacing the rotted edge board and remounting the gutter line on the borough\'s postwar single-family homes and office-park buildings** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.',
   overview: [

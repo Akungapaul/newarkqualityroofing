@@ -4,7 +4,7 @@ export const maplewoodSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'maplewood',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing slate roof installation repair across Maplewood, New Jersey, and Essex County, restoring the natural-slate detailing on the township\'s architect-designed early-20th-century Tudor, Colonial Revival, and Italian Revival homes** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing slate roof installation and repair across Maplewood, New Jersey, and Essex County, restoring the natural-slate detailing on the township\'s architect-designed early-20th-century Tudor, Colonial Revival, and Italian Revival homes** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Slate roof installation and repair** sets quarried natural-stone tiles on copper or stainless-steel fasteners as a roof covering, and restores an existing slate roof by replacing broken tiles, resecuring corroded fasteners, and renewing failed flashing. Natural slate is among the longest-lived roof coverings.',
   overview: [

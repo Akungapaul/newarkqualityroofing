@@ -4,7 +4,7 @@ export const eastOrangeRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing roofs across East Orange, New Jersey, and Essex County**, stripping the roof to the deck, repairing the sheathing, and installing a new underlayment-and-cover system on pre-war apartments, walk-ups, and single-family homes as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof replacement across East Orange, New Jersey, and Essex County**, stripping the roof to the deck, repairing the sheathing, and installing a new underlayment-and-cover system on pre-war apartments, walk-ups, and single-family homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.',
   overview: [

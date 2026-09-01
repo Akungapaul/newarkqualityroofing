@@ -13,7 +13,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "asphalt-shingles-vs-metal-roofing",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**Metal roofing is better for the long hold, lasting 40-80 years versus asphalt's 20-30, per the InterNACHI chart; asphalt is better for upfront budget and near-term resale, installing cheaper and recouping ~61% versus metal's ~49%, per Zonda 2023.**",
+    "directAnswer": "**Metal roofing is better for the long hold, lasting 40-80 years versus asphalt shingles' 20-30, per the InterNACHI chart; asphalt is better for upfront budget and near-term resale, installing cheaper and recouping ~61% versus metal's ~49%, per Zonda 2023.**",
     "intro": "The deciding factor is the ownership horizon: how many years the roof stays on the home determines which material returns the most value per dollar spent.",
     "sections": [
       {
@@ -91,7 +91,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "slate-vs-tile-roofing",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**Natural slate is better for longevity and historic-district homes, lasting 60-150 years per the InterNACHI chart, while clay or concrete tile is better for a terra-cotta profile or a lower-cost concrete budget.** Framing capacity is the deciding factor.",
+    "directAnswer": "**Natural slate is better for longevity and historic-district homes, lasting 60-150 years per the InterNACHI chart, while clay or concrete tile roofing is better for a terra-cotta profile or a lower-cost concrete budget.** Framing capacity is the deciding factor.",
     "intro": "The choice turns on three questions a homeowner answers in order: lifetime cost, whether the frame carries the load, and which roof matches the architecture and any historic rules.",
     "sections": [
       {
@@ -169,7 +169,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "tpo-vs-epdm-roofing",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**TPO wins on a Newark flat roof carrying summer cooling load, for its CRRC-listed reflectance and heat-welded seams; EPDM wins on ponding, chemical-exposure, or budget roofs at $7-$10 versus TPO's $8-$12 per square foot, per Josten Roofing.**",
+    "directAnswer": "**TPO wins on a Newark flat roof carrying summer cooling load, for its CRRC-listed reflectance and heat-welded seams; EPDM roofing wins on ponding, chemical-exposure, or budget roofs at $7-$10 versus TPO's $8-$12 per square foot, per Josten Roofing.**",
     "intro": "The deciding factor is the building itself: whether a summer cooling load, standing water, rooftop chemicals, or a tighter budget governs which single-ply membrane fits a low-slope Essex County roof.",
     "sections": [
       {
@@ -207,7 +207,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "tpo-vs-epdm-roofing",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The standards-grounded recommendation matches the membrane to the building:** the NRCA and EPA evidence favors TPO's heat-welded seams and CRRC-listed reflectance on cooling-load roofs, while EPDM's inert-rubber durability and lower NJ cost favor ponding, chemical, or budget roofs.",
+    "directAnswer": "**The standards-grounded recommendation for TPO versus EPDM roofing matches the membrane to the building:** the NRCA and EPA evidence favors TPO's heat-welded seams and CRRC-listed reflectance on cooling-load roofs, while EPDM's inert-rubber durability and lower NJ cost favor ponding, chemical, or budget roofs.",
     "intro": "Rather than a single winner, the published roofing standards and life-expectancy data point each membrane at the building condition it answers best.",
     "sections": [
       {
@@ -322,7 +322,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "asphalt-vs-slate-roofing",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**Asphalt shingles win on upfront cost at $5.50 to $11.00 per square foot and a 20-to-30-year life, while natural slate wins on lifespan at 60 to 150 years per the InterNACHI chart.** Ownership horizon and historic-district status decide it.",
+    "directAnswer": "**Asphalt shingles win on upfront cost at $5.50 to $11.00 per square foot and a 20-to-30-year life, while natural slate roofing wins on lifespan at 60 to 150 years per the InterNACHI chart.** Ownership horizon and historic-district status decide it.",
     "intro": "The choice turns on how long you plan to own the home, the budget the project caps at, and whether a designated historic district governs the material.",
     "sections": [
       {
@@ -360,7 +360,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "asphalt-vs-slate-roofing",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The standards favor in-kind natural slate on historic homes under Standard 6 and for multi-generational life at 60 to 150 years per the InterNACHI chart; for budget homes they back quality architectural asphalt.**",
+    "directAnswer": "**The standards favor in-kind natural slate roofing on historic homes under Standard 6 and for multi-generational life at 60 to 150 years per the InterNACHI chart; for budget homes they back quality architectural asphalt.**",
     "intro": "The recommendation turns less on opinion than on what the recognized life-expectancy, preservation, and installation standards already prescribe for each material and each home.",
     "sections": [
       {
@@ -439,7 +439,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "wood-shake-vs-asphalt-shingles",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The fire and lifespan standards and NJ cost data favor architectural asphalt for most Essex County homes; cedar wood shake fits only historic character with committed upkeep.** UL 790, the CSSB, InterNACHI, and NRCA ground that recommendation.",
+    "directAnswer": "**The fire and lifespan standards and NJ cost data favor architectural asphalt shingles for most Essex County homes; cedar wood shake fits only historic character with committed upkeep.** UL 790, the CSSB, InterNACHI, and NRCA ground that recommendation.",
     "intro": "The named standards, not field opinion, settle the recommendation, and they point to asphalt by default and cedar only when historic character justifies its maintenance schedule.",
     "sections": [
       {
@@ -477,7 +477,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "pvc-vs-tpo-roofing",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**PVC wins on any roof with grease, oil, or chemical exhaust and lasts 20-30 years versus TPO's 7-20; TPO is the better value for clean office, retail, and warehouse roofs at the same $8-$12 per square foot.** Service life decides, per the Single Ply Roofing Industry and InterNACHI.",
+    "directAnswer": "**PVC wins on any roof with grease, oil, or chemical exhaust and lasts 20-30 years versus TPO's 7-20; TPO roofing is the better value for clean office, retail, and warehouse roofs at the same $8-$12 per square foot.** Service life decides, per the Single Ply Roofing Industry and InterNACHI.",
     "intro": "Because both single-ply membranes install at the same price and weld the same way, the deciding factor is the rooftop exposure and the service life each one buys.",
     "sections": [
       {
@@ -517,7 +517,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "pvc-vs-tpo-roofing",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**Industry standards favor PVC membrane on grease- or chemical-exposed roofs**, where it resists fats and oils that degrade TPO, per Duro-Last, and lasts 20-30 years per the Single Ply Roofing Industry; TPO suits clean office, retail, and warehouse roofs.",
+    "directAnswer": "**Industry standards favor PVC membrane over TPO roofing on grease- or chemical-exposed roofs**, where it resists fats and oils that degrade TPO, per Duro-Last, and lasts 20-30 years per the Single Ply Roofing Industry; TPO suits clean office, retail, and warehouse roofs.",
     "intro": "The recommendation follows the building's actual rooftop exposure, because the published service-life and chemical-resistance standards split cleanly between the two membranes rather than crowning one outright.",
     "sections": [
       {
@@ -558,7 +558,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "standing-seam-vs-corrugated-metal",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**Standing seam is better for homes and long-service roofs because concealed clips remove the exposed-fastener gaskets that drive corrugated leaks across a 40-70-year life, per This Old House; corrugated wins only on lower installed cost.**",
+    "directAnswer": "**Standing seam is better for homes and long-service roofs because concealed clips remove the exposed-fastener gaskets that drive corrugated metal leaks across a 40-70-year life, per This Old House; corrugated wins only on lower installed cost.**",
     "intro": "The choice turns on whether leak-free service across a metal roof's decades-long life outweighs the lower first cost corrugated delivers, so the deciding factor is the building.",
     "sections": [
       {
@@ -944,7 +944,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "spray-foam-vs-tpo",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**Neither spray polyurethane foam nor TPO wins outright: SPF wins when the deck needs built-in R-6.0–6.5-per-inch insulation in minimal height, and TPO wins on lower maintenance and year-round install.** Insulation need versus upkeep decides, per the SPFA and NRCA.",
+    "directAnswer": "**Neither spray foam — spray polyurethane foam — nor TPO wins outright: SPF wins when the deck needs built-in R-6.0–6.5-per-inch insulation in minimal height, and TPO wins on lower maintenance and year-round install.** Insulation need versus upkeep decides, per the SPFA and NRCA.",
     "intro": "Insulation need versus maintenance tolerance is the fork in the decision, and the installed cost, the NJ climate-and-code fit, and a short checklist resolve which way the deck points.",
     "sections": [
       {
@@ -983,7 +983,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "spray-foam-vs-tpo",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The standards point to spray polyurethane foam where built-in insulation in minimal height drives the choice, per ICC-ES and the SPFA, and to TPO where low maintenance and year-round install lead, per NRCA and SPFA guidance.** The deck's insulation need and upkeep tolerance decide.",
+    "directAnswer": "**The standards point to spray foam — spray polyurethane foam — where built-in insulation in minimal height drives the choice, per ICC-ES and the SPFA, and to TPO where low maintenance and year-round install lead, per NRCA and SPFA guidance.** The deck's insulation need and upkeep tolerance decide.",
     "intro": "Each recommendation traces to a published standard rather than a field opinion, so the decision rests on what ICC-ES, the SPFA, NRCA, and the CRRC actually measure.",
     "sections": [
       {
@@ -1021,7 +1021,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "green-roof-vs-traditional-roofing",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**A green roof wins when stormwater quantity drives the project, retaining ~50-60% of rainfall for NJ BMP credit, while traditional membrane roofing wins on cost ($5-$10/sq ft) and weight — structural load is the deciding factor**, per the NJ Stormwater BMP Manual and HomeAdvisor.",
+    "directAnswer": "**A green roof wins when stormwater quantity drives the project, retaining ~50-60% of rainfall for NJ BMP credit, while traditional roofing (membrane) wins on cost ($5-$10/sq ft) and weight — structural load is the deciding factor**, per the NJ Stormwater BMP Manual and HomeAdvisor.",
     "intro": "The choice turns on whether your deck can carry a vegetated assembly and whether a stormwater mandate justifies its premium over a far lighter, cheaper membrane.",
     "sections": [
       {
@@ -1059,7 +1059,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "green-roof-vs-traditional-roofing",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The standards favor a green roof only where structural capacity and a stormwater mandate justify its $10-$35 per square foot cost; otherwise NJ engineering data and InterNACHI life figures point to traditional membrane roofing**, per the NJ Stormwater BMP Manual Ch 9.4.",
+    "directAnswer": "**The standards favor a green roof only where structural capacity and a stormwater mandate justify its $10-$35 per square foot cost; otherwise NJ engineering data and InterNACHI life figures point to traditional roofing (membrane)**, per the NJ Stormwater BMP Manual Ch 9.4.",
     "intro": "The recommendation turns less on which roof is better in the abstract and more on what the named standards reward, what the install quality protects, and which mistakes the code flags.",
     "sections": [
       {
@@ -1333,7 +1333,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "roof-overlay-vs-tear-off",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**A tear-off is better for most NJ homes, resetting shingles to full rated life and repairing the deck, while an overlay wins only on cost, running ~20–25% / $2,000–$5,000 less nationally where a sound deck and single layer exist.** This verdict follows HomeGuide, Angi, and ARMA.",
+    "directAnswer": "**A tear-off is better for most NJ homes, resetting shingles to full rated life and repairing the deck, while a roof overlay wins only on cost, running ~20–25% / $2,000–$5,000 less nationally where a sound deck and single layer exist.** This verdict follows HomeGuide, Angi, and ARMA.",
     "intro": "The deciding factors are the budget today, the deck condition hidden under the old covering, and how long the home stays in the owner's hands.",
     "sections": [
       {
@@ -1372,7 +1372,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "roof-overlay-vs-tear-off",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**Published standards favor a tear-off for most NJ roofs.** ARMA bars overlays over unsound decks, IRC Section R905.1.2 ties ice-and-water protection to a bare deck, and shingle manufacturers condition the full warranty on installation to printed instructions.",
+    "directAnswer": "**Published standards favor a tear-off over a roof overlay for most NJ roofs.** ARMA bars overlays over unsound decks, IRC Section R905.1.2 ties ice-and-water protection to a bare deck, and shingle manufacturers condition the full warranty on installation to printed instructions.",
     "intro": "The case for a tear-off rests not on opinion but on what the codes, the manufacturer instructions, and the trade associations actually require of a sound re-roof.",
     "sections": [
       {
@@ -1413,7 +1413,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "patching-vs-full-roof-repair",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**Roof patching** wins when damage is one contained event on a sound roof, sealing the breach at $150-$500 (HomeAdvisor); **comprehensive roof repair** wins when a leak recurs or its source is unclear, because it finds the flashing behind roughly 90-95% of leaks, per an industry estimate attributed to the NRCA.",
+    "directAnswer": "**Roof patching** wins when damage is one contained event on a sound roof, sealing the breach at $150-$500 (HomeAdvisor); **full roof repair** wins when a leak recurs or its source is unclear, because it finds the flashing behind roughly 90-95% of leaks, per an industry estimate attributed to the NRCA.",
     "intro": "The deciding factor is whether the damage is a genuinely isolated single event or a symptom of a cause a patch cannot see.",
     "sections": [
       {
@@ -1453,7 +1453,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "patching-vs-full-roof-repair",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The evidence favors comprehensive roof repair when leaks recur, because roughly 90-95% of roof leaks originate at flashing transitions, an industry estimate attributed to the NRCA.** A patch over the open shingle field misses that cause; patch only genuinely isolated single-event damage.",
+    "directAnswer": "**The evidence favors full roof repair over patching when leaks recur, because roughly 90-95% of roof leaks originate at flashing transitions, an industry estimate attributed to the NRCA.** A patch over the open shingle field misses that cause; patch only genuinely isolated single-event damage.",
     "intro": "The recommendation turns on what the standards and trade data show about where leaks start, what holds a patch, and the mistakes that lead Essex County homeowners to pay for the same repair twice.",
     "sections": [
       {
@@ -1569,7 +1569,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "best-roofing-material-nj-weather",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**No single roofing material is universally best for New Jersey weather.** Architectural asphalt shingles lead on value (30-year life, $6.50-$11.00 per NJ square foot), standing seam metal on durability (40-80 years), and natural slate on historic homes (60-150 years), per the InterNACHI chart and Josten Roofing.",
+    "directAnswer": "**There is no single universal best roofing material for NJ weather.** Architectural asphalt shingles lead on value (30-year life, $6.50-$11.00 per NJ square foot), standing seam metal on durability (40-80 years), and natural slate on historic homes (60-150 years), per the InterNACHI chart and Josten Roofing.",
     "intro": "The deciding factor is how long you hold the home, which sets how far each material's installed cost spreads across its lifespan against NJ snow, wind, heat, and freeze-thaw.",
     "sections": [
       {
@@ -1607,7 +1607,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "best-roofing-material-nj-weather",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The evidence favors standing seam metal and natural slate for durability and architectural asphalt shingles for value.** Metal lasts 40-80 years and slate 60-150 years on near-zero water absorption, per the InterNACHI chart; a registered NJ contractor matches the material to the home.",
+    "directAnswer": "**The evidence on the best roofing material for NJ weather favors standing seam metal and natural slate for durability and architectural asphalt shingles for value.** Metal lasts 40-80 years and slate 60-150 years on near-zero water absorption, per the InterNACHI chart; a registered NJ contractor matches the material to the home.",
     "intro": "No single covering wins outright for New Jersey weather, so the recommendation rests on what the InterNACHI chart, ASCE 7-16 wind loads, and the IRC eave code actually reward.",
     "sections": [
       {
@@ -1645,7 +1645,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "best-commercial-roofing-material",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**No single commercial roofing material wins outright: TPO leads air-conditioned buildings on welded-seam strength and ~0.70-0.85 reflectance, EPDM leads budget warehouses on lowest install cost, PVC leads grease-exposed roofs, and metal leads long-hold sloped properties.** The CRRC, Josten Roofing, and the InterNACHI chart frame these picks.",
+    "directAnswer": "**The best commercial roofing material varies by building — no material wins outright: TPO leads air-conditioned buildings on welded-seam strength and ~0.70-0.85 reflectance, EPDM leads budget warehouses on lowest install cost**, PVC leads grease-exposed roofs, and metal leads long-hold sloped properties. The CRRC, Josten Roofing, and the InterNACHI chart frame these picks.",
     "intro": "The right answer turns on which factor the building prioritizes, so the choice resolves through install cost weighed against lifespan, NJ climate and code fit, and the building's slope and use.",
     "sections": [
       {
@@ -1685,7 +1685,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "best-commercial-roofing-material",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The standards favor white TPO for air-conditioned NJ buildings — heat-welded seams and ~0.70-0.85 reflectance per the CRRC and EPA — with EPDM for budget warehouses, PVC for grease exposure, and metal for long-hold sloped roofs.** No single material wins outright.",
+    "directAnswer": "**The standards name white TPO the best commercial roofing material for air-conditioned NJ buildings — heat-welded seams and ~0.70-0.85 reflectance per the CRRC and EPA** — with EPDM for budget warehouses, PVC for grease exposure, and metal for long-hold sloped roofs. No single material wins outright.",
     "intro": "Each recommendation traces to a published standard or cost figure rather than a contractor's preference, so the right system follows the building's use, slope, and budget.",
     "sections": [
       {
@@ -1723,7 +1723,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "best-roofing-for-flat-roofs",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**Heat-welded TPO and PVC win NJ flat roofs on seam strength and a 0.70-0.85 solar reflectance, while EPDM wins on a lower $7-$10 per NJ square foot install cost and cold-flexibility; the deciding factor is drainage, not membrane brand.** The NRCA, CRRC, and Josten Roofing frame this ranking.",
+    "directAnswer": "**Heat-welded TPO and PVC are the best roofing for flat roofs in NJ on seam strength and a 0.70-0.85 solar reflectance, while EPDM wins on a lower $7-$10 per NJ square foot install cost and cold-flexibility**; the deciding factor is drainage, not membrane brand. The NRCA, CRRC, and Josten Roofing frame this ranking.",
     "intro": "Each membrane wins a different flat-roof scenario, so the choice turns on building use, install budget, and the positive drainage that protects every low-slope system.",
     "sections": [
       {
@@ -1761,7 +1761,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "best-roofing-for-flat-roofs",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**Roofing standards favor heat-welded TPO or PVC for air-conditioned and grease-exposed buildings and EPDM for lower-cost cold-flexible sections, but NRCA positive drainage and welded or adhered seam detailing decide longevity more than membrane choice**, per the NRCA technical library.",
+    "directAnswer": "**Standards favor heat-welded TPO or PVC as the best roofing for flat roofs on air-conditioned and grease-exposed buildings and EPDM for lower-cost cold-flexible sections, but NRCA positive drainage and welded or adhered seam detailing decide longevity more than membrane choice**, per the NRCA technical library.",
     "intro": "The evidence points past the membrane label to the seam, the slope, and the deck, so the recommendation tracks the building's use and the install detailing rather than a brand.",
     "sections": [
       {
@@ -1799,7 +1799,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "best-roofing-for-historic-homes-nj",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**Natural slate and clay tile win for NJ historic homes** — slate lasts 60-150 years and clay tile 100+ per the InterNACHI chart, both matched in kind under Standard 6 of the Secretary of the Interior's Standards per the National Park Service; synthetic slate is the budget alternate where a local commission allows it.",
+    "directAnswer": "**Natural slate and clay tile are the best roofing for historic homes NJ-wide** — slate lasts 60-150 years and clay tile 100+ per the InterNACHI chart, both matched in kind under Standard 6 of the Secretary of the Interior's Standards per the National Park Service; synthetic slate is the budget alternate where a local commission allows it.",
     "intro": "The deciding factor is not price alone but in-kind authenticity — the right material for a historic home matches the era's original roof, and the figures below show which option wins for each home and budget.",
     "sections": [
       {
@@ -1838,7 +1838,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "best-roofing-for-historic-homes-nj",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The Secretary of the Interior's Standards and NPS Preservation Briefs favor in-kind replacement — natural slate (Brief 29), clay tile (Brief 30), cedar shingle (Brief 19), and copper (Brief 4) — matched to a historic home's era.**",
+    "directAnswer": "**The Secretary of the Interior's Standards and NPS Preservation Briefs name in-kind replacement the best roofing for historic homes NJ-wide — natural slate (Brief 29), clay tile (Brief 30), cedar shingle (Brief 19), and copper (Brief 4)** — matched to a historic home's era.",
     "intro": "Each recommendation traces to a named preservation standard rather than a contractor opinion, so the right material follows the home's period style and the fasteners that keep that roof on for a century.",
     "sections": [
       {
@@ -1876,7 +1876,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "cheapest-vs-most-durable-roofing",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**3-tab asphalt installs cheapest at $5.50–$9.50 per NJ square foot, while natural slate (60–150 years) and standing seam metal (40–80) last longest; the deciding factor is hold period, measured as install cost divided by lifespan.** Josten Roofing and the InterNACHI chart frame the trade-off.",
+    "directAnswer": "**3-tab asphalt installs cheapest at $5.50–$9.50 per NJ square foot, while the most durable roofing — natural slate (60–150 years) and standing seam metal (40–80) — lasts longest**; the deciding factor is hold period, measured as install cost divided by lifespan. Josten Roofing and the InterNACHI chart frame the trade-off.",
     "intro": "The lowest install price and the longest service life rarely belong to the same material, so the right pick turns on how many years an owner keeps the roof.",
     "sections": [
       {
@@ -1914,7 +1914,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "cheapest-vs-most-durable-roofing",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The named evidence favors matching the roofing material to the hold period** — architectural asphalt at $6.50–$11.00 per NJ square foot for near-term sales, metal or natural slate at a 40–150-year life for long holds, per Josten Roofing, the InterNACHI chart, and the Remodeling/Zonda 2023 report.",
+    "directAnswer": "**The named evidence favors matching the cheapest or most durable roofing to the hold period** — architectural asphalt at $6.50–$11.00 per NJ square foot for near-term sales, metal or natural slate at a 40–150-year life for long holds, per Josten Roofing, the InterNACHI chart, and the Remodeling/Zonda 2023 report.",
     "intro": "The recommendation rests not on the cheapest sticker price but on dividing a sourced install range across a sourced lifespan, so the ownership timeline decides which covering the sources point toward.",
     "sections": [
       {
@@ -1952,7 +1952,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "most-energy-efficient-roofing-materials",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**The most energy-efficient roofing** is rated by solar reflectance and thermal emittance, not R-value: spray polyurethane foam leads total NJ performance with an aged R-6.0 to R-6.5 per inch, per SPFA, while white TPO/PVC membranes lead low-slope cooling at ~0.70–0.85 reflectance, per the CRRC.",
+    "directAnswer": "**The most energy efficient roofing materials** are rated by solar reflectance and thermal emittance, not R-value: spray polyurethane foam leads total NJ performance with an aged R-6.0 to R-6.5 per inch, per SPFA, while white TPO/PVC membranes lead low-slope cooling at ~0.70–0.85 reflectance, per the CRRC.",
     "intro": "Two separate levers decide a roof's energy performance in New Jersey — surface reflectance and conductive insulation — and which one matters more depends on roof slope and Newark's heating-dominated climate.",
     "sections": [
       {
@@ -1990,7 +1990,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "most-energy-efficient-roofing-materials",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**NJ roofers match the energy lever to the climate: the standards favor spray polyurethane foam for added R-value on low-slope roofs and white TPO/PVC for summer reflectance, with insulation governing Newark's heating-dominated winter share.** SPFA, the CRRC, and the DOE frame this split.",
+    "directAnswer": "**NJ roofers match the most energy efficient roofing materials to the climate: the standards favor spray polyurethane foam for added R-value on low-slope roofs and white TPO/PVC for summer reflectance, with insulation governing Newark's heating-dominated winter share.** SPFA, the CRRC, and the DOE frame this split.",
     "intro": "Each recommendation traces to a named standard rather than field anecdote, because the rating systems separate an insulation lever from a reflectance lever and Newark's climate decides which one matters more.",
     "sections": [
       {
@@ -2028,7 +2028,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "architectural-vs-3-tab-shingles",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**Architectural shingles** are the better choice for most Essex County homes — a 30-year life and a 110-130 mph wind warranty that meets the ASCE 7-16 design wind, per InterNACHI; 3-tab wins only when lowest upfront NJ cost decides.",
+    "directAnswer": "**Architectural shingles are the better choice over 3-tab shingles** for most Essex County homes — a 30-year life and a 110-130 mph wind warranty that meets the ASCE 7-16 design wind, per InterNACHI; 3-tab wins only when lowest upfront NJ cost decides.",
     "intro": "The right grade comes down to three numbers a homeowner weighs in order: NJ installed cost, northern-NJ wind and hail exposure, and the budget priority that breaks the tie.",
     "sections": [
       {
@@ -2067,7 +2067,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "architectural-vs-3-tab-shingles",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The standards favor architectural shingles for permanent Essex County homes** — the 110-130 mph wind warranty meets the ASCE 7-16 design wind and UL 2218 Class 4 options resist hail; 3-tab fits rentals and code-minimum budget jobs, per InterNACHI and manufacturer warranty data.",
+    "directAnswer": "**The standards favor architectural shingles over 3-tab shingles for permanent Essex County homes** — the 110-130 mph wind warranty meets the ASCE 7-16 design wind and UL 2218 Class 4 options resist hail; 3-tab fits rentals and code-minimum budget jobs, per InterNACHI and manufacturer warranty data.",
     "intro": "The recommendation tracks three independent standards — wind class, impact rating, and measured lifespan — rather than any single contractor's preference.",
     "sections": [
       {
@@ -2143,7 +2143,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "diy-vs-professional-roof-repair",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**NJ roofers recommend a registered, insured Home Improvement Contractor for any on-roof, flashing, or edge repair, reserving DIY for ground-level eave-height maintenance the homeowner reaches safely from a ladder.** N.J.S.A. 56:8-136 and OSHA frame this split.",
+    "directAnswer": "**NJ roofers recommend professional roof repair by a registered, insured Home Improvement Contractor for any on-roof, flashing, or edge work, reserving DIY for ground-level eave-height maintenance the homeowner reaches safely from a ladder.** N.J.S.A. 56:8-136 and OSHA frame this split.",
     "intro": "The recommendation tracks three points the standards make plainly: the technique failures DIY repeats, the diagnostic sequence DIY skips, and the on-roof work NJ law and OSHA reserve for a professional.",
     "sections": [
       {
@@ -2181,7 +2181,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "best-roofing-for-essex-county-colonial-homes",
     "parentType": "comparison",
     "position": 1,
-    "directAnswer": "**Architectural asphalt shingles** rank first for most Essex County Colonials at $6.50–$11.00 per NJ square foot; **natural slate** ranks first on a historic Colonial as the in-kind material Standard 6 of the Secretary's Standards directs, per Josten Roofing and NPS.",
+    "directAnswer": "**Architectural asphalt shingles are the best roofing for Essex County Colonial homes** in most cases at $6.50–$11.00 per NJ square foot; **natural slate** ranks first on a historic Colonial as the in-kind material Standard 6 of the Secretary's Standards directs, per Josten Roofing and NPS.",
     "intro": "The deciding factor is whether the home is a cost-driven Colonial Revival house or a character-defining historic Colonial, which sets the material, the substyle match, and the NJ code path before any covering is ordered.",
     "sections": [
       {
@@ -2219,7 +2219,7 @@ export const comparisonArticles: ArticleContent[] = [
     "parentId": "best-roofing-for-essex-county-colonial-homes",
     "parentType": "comparison",
     "position": 2,
-    "directAnswer": "**The preservation standards recommend matching the covering to the Colonial era — in-kind slate or cedar for a historic Colonial, architectural asphalt for Colonial Revival — with flashing detail, not shingle choice, deciding longevity, per NPS Preservation Brief 4.**",
+    "directAnswer": "**The preservation standards recommend matching the best roofing for Essex County Colonial homes to the Colonial era — in-kind slate or cedar for a historic Colonial, architectural asphalt for Colonial Revival — with flashing detail, not shingle choice, deciding longevity**, per NPS Preservation Brief 4.",
     "intro": "What the named standards favor turns less on the brand of shingle than on the era the home was built and the metal worked into its dormers, valleys, and chimney crickets.",
     "sections": [
       {

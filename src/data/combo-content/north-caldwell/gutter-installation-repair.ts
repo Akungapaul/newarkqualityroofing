@@ -4,7 +4,7 @@ export const northCaldwellGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'north-caldwell',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing gutter installation repair across North Caldwell, New Jersey, and Essex County, fitting seamless aluminum and copper gutters and matched downspouts on the borough\'s custom colonials, contemporaries, and Tudors** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across North Caldwell, New Jersey, and Essex County, fitting seamless aluminum and copper gutters and matched downspouts on the borough\'s custom colonials, contemporaries, and Tudors** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

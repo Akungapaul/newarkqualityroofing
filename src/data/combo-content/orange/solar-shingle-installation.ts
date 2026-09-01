@@ -4,7 +4,7 @@ export const orangeSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor that installs solar shingles across Orange, New Jersey, and Essex County**, replacing the roof covering with building-integrated solar shingles that generate power while serving as the roof itself, as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing solar shingle installation across Orange, New Jersey, and Essex County**, replacing the roof covering with building-integrated solar shingles that generate power while serving as the roof itself, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.',
   overview: [

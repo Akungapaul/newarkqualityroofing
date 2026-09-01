@@ -4,7 +4,7 @@ export const bellevilleGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'belleville',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing gutter installation repair across Belleville, New Jersey, and Essex County**, fitting seamless aluminum, copper, and steel gutters and matched downspouts on Soho one- and two-family homes and Washington Avenue storefronts, as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across Belleville, New Jersey, and Essex County**, fitting seamless aluminum, copper, and steel gutters and matched downspouts on Soho one- and two-family homes and Washington Avenue storefronts, as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

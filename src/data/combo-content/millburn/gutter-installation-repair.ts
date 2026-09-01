@@ -4,7 +4,7 @@ export const millburnGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'millburn',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing gutter installation repair across Millburn, New Jersey, and Essex County, fitting copper, aluminum, and steel gutters and matched downspouts on Short Hills estates and downtown Millburn village buildings** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across Millburn, New Jersey, and Essex County, fitting copper, aluminum, and steel gutters and matched downspouts on Short Hills estates and downtown Millburn village buildings** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

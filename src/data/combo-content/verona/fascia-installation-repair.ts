@@ -4,7 +4,7 @@ export const veronaFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'verona',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing fascia installation repair across Verona, New Jersey, and Essex County, replacing the rotted board that closes the rafter-tail ends and mounts the gutter system on Verona\'s split-levels and pre-war Colonials** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing fascia installation and repair across Verona, New Jersey, and Essex County, replacing the rotted board that closes the rafter-tail ends and mounts the gutter system on Verona\'s split-levels and pre-war Colonials** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.',
   overview: [

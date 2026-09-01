@@ -130,8 +130,8 @@ export default function AboutPage() {
             {HEADING_CONFIG.core.about}
           </h1>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment-dark/90">
-            Serving Essex County with trusted, high-quality roofing for over 15 years.
-            Family-owned. Community-driven. Built on integrity.
+            Newark Quality Roofing has served Essex County with trusted, high-quality
+            roofing for over 15 years. Family-owned. Community-driven. Built on integrity.
           </p>
         </div>
       </section>

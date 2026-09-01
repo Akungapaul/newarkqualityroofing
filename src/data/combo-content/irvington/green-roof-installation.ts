@@ -4,7 +4,7 @@ export const irvingtonGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'irvington',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing green roof systems across Irvington, New Jersey, and Essex County, building waterproofing membrane, root barrier, drainage, and growing media on Springfield Avenue low-slope commercial roofs and Route 78 light-industrial buildings** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing green roof installation across Irvington, New Jersey, and Essex County, building waterproofing membrane, root barrier, drainage, and growing media on Springfield Avenue low-slope commercial roofs and Route 78 light-industrial buildings** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.',
   overview: [

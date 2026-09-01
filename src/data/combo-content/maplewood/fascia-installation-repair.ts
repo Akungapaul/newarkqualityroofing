@@ -4,7 +4,7 @@ export const maplewoodFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'maplewood',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing fascia installation repair across Maplewood, New Jersey, and Essex County, replacing the rotted edge board that mounts the gutters on the township\'s architect-designed early-20th-century homes** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing fascia installation and repair across Maplewood, New Jersey, and Essex County, replacing the rotted edge board that mounts the gutters on the township\'s architect-designed early-20th-century homes** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.',
   overview: [

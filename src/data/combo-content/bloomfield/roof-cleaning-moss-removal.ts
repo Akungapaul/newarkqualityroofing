@@ -4,7 +4,7 @@ export const bloomfieldRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'bloomfield',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof cleaning moss removal across Bloomfield, New Jersey, and Essex County, removing moss, Gloeocapsa magma algae, and lichen with a low-pressure chemical wash on tree-shaded pre-war Colonials and two-family roofs** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof cleaning and moss removal across Bloomfield, New Jersey, and Essex County, removing moss, Gloeocapsa magma algae, and lichen with a low-pressure chemical wash on tree-shaded pre-war Colonials and two-family roofs** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof cleaning and moss removal** clears biological growth — moss, Gloeocapsa magma algae, and lichen — from a roof with a low-pressure chemical wash that kills the growth at the root. It relies on chemical action rather than pressure washing, which strips the protective granules.',
   overview: [

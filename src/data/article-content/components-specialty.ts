@@ -16,7 +16,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "roof-flashing-installation-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The strongest signs you need roof flashing installation or repair are brown or yellow ceiling and wall stains near a chimney, skylight, or roof-to-wall junction, plus rusted, lifted, or bent metal and cracked sealant at the laps.** Roofing industry estimates attribute roughly 90 to 95 percent of roof leaks to flashing details, an estimate associated with the NRCA.",
+    "directAnswer": "**The strongest signs you need roof flashing installation and repair are brown or yellow ceiling and wall stains near a chimney, skylight, or roof-to-wall junction, plus rusted, lifted, or bent metal and cracked sealant at the laps.** Roofing industry estimates attribute roughly 90 to 95 percent of roof leaks to flashing details, an estimate associated with the NRCA.",
     "intro": "Each of these symptoms points to a transition or penetration where the sheet metal has failed and water is entering the roof assembly.",
     "sections": [
       {
@@ -53,7 +53,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "roof-flashing-installation-repair",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**A flashing reseal or small flashing section repair costs $200 to $500 in NJ, per Modernize; larger chimney or valley rebuilds cost more, with no fixed total and a free written estimate.**",
+    "directAnswer": "**Roof flashing installation and repair costs run $200 to $500 in NJ for a reseal or small flashing section repair, per Modernize; larger chimney or valley rebuilds cost more, with no fixed total and a free written estimate.**",
     "intro": "The figure depends on the flashing detail involved, the surrounding shingle work, and New Jersey labor and code conditions, which is why a written estimate prices the specific job rather than a generic total.",
     "sections": [
       {
@@ -90,7 +90,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "roof-flashing-installation-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Roof flashing is the corrosion-resistant sheet metal that seals a roof's transitions and penetrations, the chimneys, walls, valleys, skylights, and vent stacks where a continuous shingle field cannot shed water on its own.** The roofing industry estimates roughly 90 to 95 percent of roof leaks originate at flashing details, an estimate attributed to the NRCA.",
+    "directAnswer": "**Roof flashing installation and repair covers the corrosion-resistant sheet metal that seals a roof's transitions and penetrations, the chimneys, walls, valleys, skylights, and vent stacks where a continuous shingle field cannot shed water on its own.** The roofing industry estimates roughly 90 to 95 percent of roof leaks originate at flashing details, an estimate attributed to the NRCA.",
     "intro": "Knowing the flashing types, the codes that govern them, and how to verify a correct installation helps a homeowner judge both a repair and a full re-roof.",
     "sections": [
       {
@@ -128,7 +128,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "chimney-flashing-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**Chimney flashing needs repair when you see brown or yellow ceiling stains on the upper floor near the chimney, rusted or lifted step flashing, counter flashing pulled from the mortar joint, cracked caulk at the base, or upslope ice backup.** The chimney is the roof's largest penetration, and the roofing industry estimates roughly 90 to 95 percent of roof leaks originate at flashing details, an estimate attributed to the NRCA.",
+    "directAnswer": "**Chimney flashing repair is signaled by brown or yellow ceiling stains on the upper floor near the chimney, rusted or lifted step flashing, counter flashing pulled from the mortar joint, cracked caulk at the base, or upslope ice backup.** The chimney is the roof's largest penetration, and the roofing industry estimates roughly 90 to 95 percent of roof leaks originate at flashing details, an estimate attributed to the NRCA.",
     "intro": "Each symptom points to a different failed transition, and tracing which one leaks guides the repair.",
     "sections": [
       {
@@ -164,7 +164,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "chimney-flashing-repair",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Chimney flashing repair runs $300 to $1,800, with most repairs $400 to $1,600 and a spot reseal of a single transition $150 to $300, per HomeGuide and Angi.** A flashing reseal or small flashing section runs $200 to $500, per Modernize.",
+    "directAnswer": "**Chimney flashing repair costs $300 to $1,800, with most repairs $400 to $1,600 and a spot reseal of a single transition $150 to $300, per HomeGuide and Angi.** A flashing reseal or small flashing section runs $200 to $500, per Modernize.",
     "intro": "These named-source ranges set the bracket, and the work that a specific chimney needs decides where within it the price lands.",
     "sections": [
       {
@@ -247,7 +247,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "gutter-installation-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The strongest signs you need gutter installation or repair are water overflowing the edge during rain, gutters sagging or pulling from the fascia, peeling paint or soft fascia and soffit, and water pooling against the foundation.** Joint leaks, rust streaks, and standing trough water round out the list, per Angi and Englert.",
+    "directAnswer": "**The strongest signs you need gutter installation and repair are water overflowing the edge during rain, gutters sagging or pulling from the fascia, peeling paint or soft fascia and soffit, and water pooling against the foundation.** Joint leaks, rust streaks, and standing trough water round out the list, per Angi and Englert.",
     "intro": "Each symptom traces to a specific failure in the gutter run, and the pattern points to whether a repair or a full replacement fits the situation.",
     "sections": [
       {
@@ -288,7 +288,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "gutter-installation-repair",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Gutter installation runs roughly $12 to $25 per linear foot installed, and a gutter repair runs $100 to $450 (averaging near $275), per HomeGuide.** No fixed whole-project total applies, because cost scales with linear footage, material, and profile; Newark Quality Roofing provides a free written estimate.",
+    "directAnswer": "**Gutter installation and repair costs run roughly $12 to $25 per linear foot installed for new gutters, and $100 to $450 (averaging near $275) for a repair, per HomeGuide.** No fixed whole-project total applies, because cost scales with linear footage, material, and profile; Newark Quality Roofing provides a free written estimate.",
     "intro": "Both numbers break down further by material and by the type of repair, so the figures below frame what drives a New Jersey gutter quote.",
     "sections": [
       {
@@ -325,7 +325,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "gutter-installation-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A gutter system channels roof runoff away from the fascia, soffit, and foundation, carrying it to downspouts that discharge it clear of the building so water does not saturate the boards or pool against the wall.** Angi attributes fascia rot, soffit damage, and basement seepage to a clogged or overflowing system.",
+    "directAnswer": "**Gutter installation and repair concerns the system that channels roof runoff away from the fascia, soffit, and foundation to downspouts discharging it clear of the building so water does not saturate the boards or pool against the wall.** Angi attributes fascia rot, soffit damage, and basement seepage to a clogged or overflowing system.",
     "intro": "Understanding how the system protects the structure, when a repair gives way to replacement, and what to verify before installation helps a homeowner direct the work.",
     "sections": [
       {
@@ -369,7 +369,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "gutter-guard-installation",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The strongest signs you need gutter guards are gutters that clog and overflow within days of a cleaning, cleaning needed more than twice a year, debris-weighted sections sagging from the fascia, and fascia or soffit staining below the line.** Each of these points to a debris load an open gutter cannot keep clear, per Angi.",
+    "directAnswer": "**The strongest signs you need gutter guard installation are gutters that clog and overflow within days of a cleaning, cleaning needed more than twice a year, debris-weighted sections sagging from the fascia, and fascia or soffit staining below the line.** Each of these points to a debris load an open gutter cannot keep clear, per Angi.",
     "intro": "Each of these symptoms traces back to debris a guard is designed to keep out of the trough.",
     "sections": [
       {
@@ -405,7 +405,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "gutter-guard-installation",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Installed gutter guards in New Jersey run roughly $22 to $26 per linear foot, about $4,300 to $5,200 for a 200-foot run, with the figure varying by guard type and the gutter condition beneath it.** Those installed quotes come from This Old House national brand pricing.",
+    "directAnswer": "**Gutter guard installation cost in New Jersey runs roughly $22 to $26 per linear foot installed, about $4,300 to $5,200 for a 200-foot run, with the figure varying by guard type and the gutter condition beneath it.** Those installed quotes come from This Old House national brand pricing.",
     "intro": "The total moves with the type of guard, the length of the gutter run, and whether the existing gutter needs correcting first, so the figures below break down by source.",
     "sections": [
       {
@@ -443,7 +443,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "gutter-guard-installation",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A gutter guard is a cover fitted over or inside the gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while passing water, reducing rather than eliminating gutter cleaning.** This Old House and Consumer Reports both frame a guard as a tool for easier cleaning, not its elimination.",
+    "directAnswer": "**A gutter guard is a cover fitted over or inside the gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while passing water, so gutter guard installation reduces rather than eliminates gutter cleaning.** This Old House and Consumer Reports both frame a guard as a tool for easier cleaning, not its elimination.",
     "intro": "Choosing a guard well comes down to matching the type to the debris load and correcting the gutter underneath first.",
     "sections": [
       {
@@ -480,7 +480,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "skylight-installation-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The strongest signs you need skylight repair are water staining or dripping at the frame during rain, fog or trapped moisture between the glass panes, and cold-weather-only moisture that clears as indoor humidity drops.** Failed or improperly installed flashing is the leading cause of a skylight leak, not the glass, per roofing trade consensus.",
+    "directAnswer": "**The strongest signs you need skylight installation and repair are water staining or dripping at the frame during rain, fog or trapped moisture between the glass panes, and cold-weather-only moisture that clears as indoor humidity drops.** Failed or improperly installed flashing is the leading cause of a skylight leak, not the glass, per roofing trade consensus.",
     "intro": "Each symptom points to a different failure, and reading them correctly separates a true flashing leak from condensation that no flashing work fixes.",
     "sections": [
       {
@@ -523,7 +523,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "skylight-installation-repair",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Skylight work in New Jersey carries no single fixed total: a new skylight installed runs $1,600 to $4,200 and a replacement $800 to $2,400 per HomeGuide, while leak repair runs $225 to $800 per Angi and Modernize.** A free written estimate prices the specific unit and roof.",
+    "directAnswer": "**Skylight installation and repair cost in New Jersey carries no single fixed total: a new skylight installed runs $1,600 to $4,200 and a replacement $800 to $2,400 per HomeGuide, while leak repair runs $225 to $800 per Angi and Modernize.** A free written estimate prices the specific unit and roof.",
     "intro": "The price depends on whether the job is a new installation, a like-for-like replacement, or a targeted leak repair, so each band sits in its own range below.",
     "sections": [
       {
@@ -560,7 +560,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "skylight-installation-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A skylight lasts 10 to 20 years per the InterNACHI life-expectancy chart, its leaks come from failed flashing rather than the glass, and a watertight unit depends on a flashing kit matched to the mounting type and roof covering.** VELUX America credits lasting waterproofing to that matched kit, not to caulk that breaks down.",
+    "directAnswer": "**Skylight installation and repair turn on three facts: a skylight lasts 10 to 20 years per the InterNACHI life-expectancy chart, its leaks come from failed flashing rather than the glass**, and a watertight unit depends on a flashing kit matched to the mounting type and roof covering. VELUX America credits lasting waterproofing to that matched kit, not to caulk that breaks down.",
     "intro": "Understanding the service life, the real source of leaks, and the flashing system behind a skylight tells a homeowner what to expect and what to verify.",
     "sections": [
       {
@@ -605,7 +605,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "fascia-installation-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs you need fascia work are water-rot symptoms read at the eave: peeling or blistering paint, soft or spongy discolored board, surface cracks and flaking, and gutters sagging or pulling away from the roofline.** Peeling or blistering paint is the first surface sign as moisture wicks through the board, per Ledegar Roofing.",
+    "directAnswer": "**The signs you need fascia installation & repair are water-rot symptoms read at the eave: peeling or blistering paint, soft or spongy discolored board, surface cracks and flaking, and gutters sagging or pulling away from the roofline.** Peeling or blistering paint is the first surface sign as moisture wicks through the board, per Ledegar Roofing.",
     "intro": "Each of those symptoms points to the same failure path, water reaching the fascia board, and reading them in order tells you how far the rot has progressed.",
     "sections": [
       {
@@ -681,7 +681,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "fascia-installation-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Fascia is the board along the lower roof edge that closes the rafter-tail ends and carries the gutters; it fails from water, so repair traces the moisture source first, replaces the board, then remounts the gutters.** InterNACHI and Ledegar Roofing describe fascia as the trim that finishes the eave and anchors the gutters.",
+    "directAnswer": "**Fascia is the board along the lower roof edge that closes the rafter-tail ends and carries the gutters; it fails from water, so fascia installation & repair traces the moisture source first, replaces the board, then remounts the gutters.** InterNACHI and Ledegar Roofing describe fascia as the trim that finishes the eave and anchors the gutters.",
     "intro": "Understanding what fascia does, why it fails, and how a sound repair works tells a New Jersey homeowner what to verify before the job starts.",
     "sections": [
       {
@@ -725,7 +725,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "soffit-installation-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs you need soffit installation repair are visible board failure, soft, spongy, or discolored soffit with peeling paint, painted-over or clogged vents, and pest gaps, alongside attic-side condensation, frost, or mold on the sheathing.** The soffit houses the primary intake of a balanced attic system, so a blocked intake stalls airflow and traps heat and moisture (U.S. DOE Building America Solution Center; InterNACHI).",
+    "directAnswer": "**The signs you need soffit installation and repair are visible board failure, soft, spongy, or discolored soffit with peeling paint, painted-over or clogged vents, and pest gaps, alongside attic-side condensation, frost, or mold on the sheathing.** The soffit houses the primary intake of a balanced attic system, so a blocked intake stalls airflow and traps heat and moisture (U.S. DOE Building America Solution Center; InterNACHI).",
     "intro": "The strongest signs split into two groups: what shows at the eave and what shows inside the attic, and both trace back to the soffit's role as the intake of the ventilation system.",
     "sections": [
       {
@@ -761,7 +761,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "soffit-installation-repair",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Soffit installation and repair carries no fixed New Jersey total; the work is priced by a free written estimate set by soffit length, material class, rafter-tail rot behind the panel, baffle work, and any fascia and gutter tie-in.** Newark Quality Roofing sets that price after measuring the eave.",
+    "directAnswer": "**Soffit installation and repair cost has no fixed New Jersey total; the work is priced by a free written estimate set by soffit length, material class, rafter-tail rot behind the panel, baffle work, and any fascia and gutter tie-in.** Newark Quality Roofing sets that price after measuring the eave.",
     "intro": "Each of those factors moves the figure, so a measured estimate replaces any flat per-foot quote.",
     "sections": [
       {
@@ -799,7 +799,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "soffit-installation-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**The soffit is the eave underside that closes the rafter-tail bays and houses the primary intake vents of a balanced attic-ventilation system.** A balanced system runs roughly 50 percent intake at the soffit and 50 percent exhaust at the ridge, per ARMA and Air Vent Inc.",
+    "directAnswer": "**Soffit installation & repair addresses the soffit — the eave underside that closes the rafter-tail bays and houses the primary intake vents of a balanced attic-ventilation system.** A balanced system runs roughly 50 percent intake at the soffit and 50 percent exhaust at the ridge, per ARMA and Air Vent Inc.",
     "intro": "Knowing how the soffit feeds attic airflow clarifies when to repair the board, which material fits, and what to verify on a New Jersey home.",
     "sections": [
       {
@@ -837,7 +837,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "roof-vent-installation-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The strongest signs you need roof vent installation or repair are a hot attic with a high upstairs cooling load, winter frost or mold on the rafters, eave ice dams, two exhaust-vent types over one attic, and blocked soffit intake.** Trapped attic moisture and condensation are the conditions proper ventilation reduces, per the NRCA.",
+    "directAnswer": "**The strongest signs you need roof vent installation and repair are a hot attic with a high upstairs cooling load, winter frost or mold on the rafters, eave ice dams, two exhaust-vent types over one attic, and blocked soffit intake.** Trapped attic moisture and condensation are the conditions proper ventilation reduces, per the NRCA.",
     "intro": "Each symptom points to undersized, blocked, or wrongly combined venting that a balanced repair corrects.",
     "sections": [
       {
@@ -911,7 +911,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "roof-vent-installation-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A roof vent system builds the attic airflow path that carries heat and moisture out, pairing low soffit intake with high exhaust and sized to code.** ARMA and Air Vent Inc. set that balance at roughly 50 percent intake and 50 percent exhaust.",
+    "directAnswer": "**Roof vent installation and repair build and maintain the attic airflow path that carries heat and moisture out, pairing low soffit intake with high exhaust and sized to code.** ARMA and Air Vent Inc. set that balance at roughly 50 percent intake and 50 percent exhaust.",
     "intro": "Understanding the airflow path, the one-exhaust-type rule, the code sizing, and what to verify covers the decisions behind any vent installation or repair.",
     "sections": [
       {
@@ -1074,7 +1074,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "roof-deck-repair-replacement",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The strongest signs you need roof deck repair or replacement are daylight through the sheathing from the attic, soft or spongy wood, sag between rafters, delaminated plywood or swollen OSB edges, and underside stains or mold.** InterNACHI and GAF inspection guidance treat each of these as evidence of decayed sheathing.",
+    "directAnswer": "**The strongest signs you need roof deck repair and replacement are daylight through the sheathing from the attic, soft or spongy wood, sag between rafters, delaminated plywood or swollen OSB edges, and underside stains or mold.** InterNACHI and GAF inspection guidance treat each of these as evidence of decayed sheathing.",
     "intro": "Each of these signs points to sheathing that has lost integrity, and the underlying mechanism explains why a surface patch rarely fixes it.",
     "sections": [
       {
@@ -1111,7 +1111,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "roof-deck-repair-replacement",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Roof deck re-decking in New Jersey runs about $2 to $5 per square foot per HomeGuide or $2 to $6 per square foot per Angi; no single whole-project total applies, so the work is priced from a free written estimate.** A hidden-rot re-deck added during a re-roof costs roughly $50 to $120 per 4-by-8 sheet per Refined Home Services / HomeHero contractor cost data.",
+    "directAnswer": "**Roof deck repair and replacement cost in New Jersey runs $2 to $5 per square foot per HomeGuide or $2 to $6 per square foot per Angi; no whole-project total applies, so pricing comes from a free written estimate.** A hidden-rot re-deck added during a re-roof costs roughly $50 to $120 per 4-by-8 sheet per Refined Home Services / HomeHero contractor cost data.",
     "intro": "The total depends on how much sheathing is unsound, the panel material, and the rafter spacing, which is why deck work is quoted after an inspection rather than as a flat figure.",
     "sections": [
       {
@@ -1147,7 +1147,7 @@ export const componentsSpecialtyArticles: ArticleContent[] = [
     "parentId": "roof-deck-repair-replacement",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**The roof deck is the plywood or OSB sheathing that anchors every roofing nail, spans the rafters, and carries the underlayment and covering; repair handles localized decay while a re-deck addresses widespread damage.** ARMA specifies that roofing nails penetrate at least 3/4 inch into the deck, so sheathing that no longer grips a fastener gets replaced.",
+    "directAnswer": "**Roof deck repair and replacement concerns the plywood or OSB sheathing that anchors every roofing nail, spans the rafters, and carries the underlayment and covering; repair handles localized decay while a re-deck addresses widespread damage.** ARMA specifies that roofing nails penetrate at least 3/4 inch into the deck, so sheathing that no longer grips a fastener gets replaced.",
     "intro": "Knowing how the deck works, what drives its failure, and when repair gives way to full replacement helps a homeowner read an estimate with confidence.",
     "sections": [
       {

@@ -4,7 +4,7 @@ export const newarkRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing roof overlays across Newark, New Jersey, and Essex County**, applying a second layer of asphalt shingles over one existing sound asphalt layer without a tear-off as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof overlay installation across Newark, New Jersey, and Essex County**, applying a second layer of asphalt shingles over one existing sound asphalt layer without a tear-off as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.',
   overview: [

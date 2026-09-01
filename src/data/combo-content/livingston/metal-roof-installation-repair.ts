@@ -4,7 +4,7 @@ export const livingstonMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'livingston',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing metal roof installation repair across Livingston, New Jersey, and Essex County, fitting standing-seam panels and resealing seams, fasteners, and corroded sections** on the township\'s post-war split-levels, raised ranches, and colonials and its Route 10 and Eisenhower Parkway commercial roofs as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing metal roof installation and repair across Livingston, New Jersey, and Essex County, fitting standing-seam panels and resealing seams, fasteners, and corroded sections** on the township\'s post-war split-levels, raised ranches, and colonials and its Route 10 and Eisenhower Parkway commercial roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Metal roof installation and repair** fits a concealed-fastener or exposed-fastener metal covering to the roof deck, and restores an existing metal roof by resealing separated seams, backed-out fasteners, and corroded panel sections. The covering uses steel, aluminum, copper, or zinc panels or shingles.',
   overview: [

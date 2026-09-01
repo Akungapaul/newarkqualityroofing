@@ -41,9 +41,9 @@ export default function RoofingGlossaryPage() {
           Roofing Glossary for NJ Homeowners
         </h1>
         <p className="mt-6 font-body text-lg text-text-secondary">
-          A plain-English guide to the roofing terms you will see on estimates, inspection
-          reports, and warranties — grouped by roof components, materials, process, warranty,
-          and cost.
+          This roofing glossary is a plain-English guide to the roofing terms you will see
+          on estimates, inspection reports, and warranties — grouped by roof components,
+          materials, process, warranty, and cost.
         </p>
         <div className="mt-10">
           <Link

@@ -4,7 +4,7 @@ export const southOrangeRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'south-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof deck repair replacement across South Orange, New Jersey, and Essex County, re-decking rotted sheathing exposed at tear-off** on the Village\'s large pre-war Victorians, Colonials, and Tudors as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof deck repair and replacement across South Orange, New Jersey, and Essex County, re-decking rotted sheathing exposed at tear-off** on the Village\'s large pre-war Victorians, Colonials, and Tudors as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [

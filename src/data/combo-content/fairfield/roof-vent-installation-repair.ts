@@ -4,7 +4,7 @@ export const fairfieldRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'fairfield',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof vent installation repair across Fairfield, New Jersey, and Essex County**, building balanced soffit-intake and ridge-exhaust systems on the township\'s colonials and Route 46 and I-80 commercial roofs as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof vent installation and repair across Fairfield, New Jersey, and Essex County**, building balanced soffit-intake and ridge-exhaust systems on the township\'s colonials and Route 46 and I-80 commercial roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [

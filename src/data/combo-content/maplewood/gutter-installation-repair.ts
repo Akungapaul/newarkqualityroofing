@@ -4,7 +4,7 @@ export const maplewoodGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'maplewood',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing and repairing gutters across Maplewood, New Jersey, and Essex County, fitting aluminum, copper, and steel gutters and matched downspouts on architect-designed period homes and Village storefronts** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across Maplewood, New Jersey, and Essex County, fitting aluminum, copper, and steel gutters and matched downspouts on architect-designed period homes and Village storefronts** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

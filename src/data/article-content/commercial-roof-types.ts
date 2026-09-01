@@ -90,7 +90,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "tpo-roofing-installation",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**TPO roofing's advantages are heat-welded seams that fuse into one water layer, a white cool-roof surface reflecting roughly 70 to 85%, and a lower installed cost; its drawback is a shorter 7-to-20-year life that fails at the seam** (InterNACHI; ASTM C1549; CRRC).",
+    "directAnswer": "**TPO roofing installation pros and cons: heat-welded seams that fuse into one water layer, a white cool-roof surface reflecting roughly 70 to 85%, and a lower installed cost; its drawback is a shorter 7-to-20-year life that fails at the seam** (InterNACHI; ASTM C1549; CRRC).",
     "intro": "Those trade-offs decide whether TPO fits a given low-slope commercial or residential roof better than EPDM, PVC, or another membrane.",
     "sections": [
       {
@@ -166,7 +166,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "epdm-commercial-roofing",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**EPDM commercial roofing runs $7.00 to $10.00 per square foot installed in New Jersey, with flat-roof repair at $2.50 to $10.00 per square foot; NJ ranges sit 10 to 40% above national figures** (Josten Roofing NJ, HomeGuide).",
+    "directAnswer": "**EPDM commercial roofing costs $7.00 to $10.00 per square foot installed in New Jersey, with flat-roof repair at $2.50 to $10.00 per square foot; NJ ranges sit 10 to 40% above national figures** (Josten Roofing NJ, HomeGuide).",
     "intro": "Three factors set where a given EPDM roof lands inside that range: the per-square-foot rate, what drives the installed price, and why New Jersey costs more than the national figure.",
     "sections": [
       {
@@ -204,7 +204,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "epdm-commercial-roofing",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**EPDM's advantages are a flexible 15-to-25-year rubber membrane that stays elastic through Essex County freeze-thaw and a low ballasted install cost; its drawbacks are a black surface carrying no reflectance and splice seams that fail before welded ones** (InterNACHI / NRCA).",
+    "directAnswer": "**The pros and cons of EPDM commercial roofing are a flexible 15-to-25-year rubber membrane elastic through Essex County freeze-thaw and a low ballasted install cost, versus a black surface carrying no reflectance and splice seams that fail before welded ones** (InterNACHI / NRCA).",
     "intro": "Weighing those strengths against the limitations frames where EPDM fits a New Jersey commercial low-slope roof and where another membrane serves better.",
     "sections": [
       {
@@ -280,7 +280,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "modified-bitumen-roofing",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Modified bitumen roofing installs at about $7 to $12 per square foot in New Jersey**, the comparable low-slope membrane benchmark, with flat-roof repair at $2.50 to $10.00 per square foot or $300 to $1,100 typical, per Josten Roofing NJ and HomeGuide.",
+    "directAnswer": "**Modified bitumen roofing costs about $7 to $12 per square foot installed in New Jersey**, the comparable low-slope membrane benchmark, with flat-roof repair at $2.50 to $10.00 per square foot or $300 to $1,100 typical, per Josten Roofing NJ and HomeGuide.",
     "intro": "That installed range shifts with ply count, application method, and the tear-off rules NJ code applies to a layered roof.",
     "sections": [
       {
@@ -318,7 +318,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "modified-bitumen-roofing",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Modified bitumen roofing's advantages are a multi-ply assembly that absorbs rooftop service traffic and a granulated cap with built-in UV protection; its drawbacks are a 20-year life shorter than built-up roofing and the open-flame risk of torch application**, per the InterNACHI life-expectancy chart and ARMA.",
+    "directAnswer": "**Modified bitumen roofing's pros and cons weigh a multi-ply assembly that absorbs rooftop service traffic and a granulated cap with built-in UV protection against a 20-year life shorter than built-up roofing and the open-flame risk of torch application**, per the InterNACHI life-expectancy chart and ARMA.",
     "intro": "Weighing those advantages against the drawbacks shows where a multi-ply asphalt membrane fits an Essex County low-slope roof and where another system serves better.",
     "sections": [
       {
@@ -432,7 +432,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "built-up-roofing",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Built-up roofing's advantages are the longest membrane life at 30 years and a gravel-surfaced multi-ply redundancy that shields against UV and impact; its drawbacks are a heavy, labor-intensive hot-bitumen install and surfacing that obscures inspection** (InterNACHI, NRCA).",
+    "directAnswer": "**Built-up roofing's pros and cons: its advantages are the longest membrane life at 30 years and a gravel-surfaced multi-ply redundancy that shields against UV and impact; its drawbacks are a heavy, labor-intensive hot-bitumen install and surfacing that obscures inspection** (InterNACHI, NRCA).",
     "intro": "That trade-off between decades of redundant protection and a slower, heavier install decides which commercial low-slope roofs suit a built-up system.",
     "sections": [
       {
@@ -508,7 +508,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "commercial-metal-roofing",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Commercial metal roofing runs $9.00 to $16.00 per square foot installed in New Jersey, with panel repair at $5 to $10 per square foot and copper up to $30; NJ ranges sit 10 to 40% above national figures** (Josten Roofing NJ, HomeGuide, Modernize).",
+    "directAnswer": "**Commercial metal roofing costs $9.00 to $16.00 per square foot installed in New Jersey, with panel repair at $5 to $10 per square foot and copper up to $30; NJ ranges sit 10 to 40% above national figures** (Josten Roofing NJ, HomeGuide, Modernize).",
     "intro": "The panel system, the repair scope, and New Jersey labor and code costs each move that figure within the range.",
     "sections": [
       {
@@ -546,7 +546,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "commercial-metal-roofing",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Commercial metal's advantages are the longest service life of any system (40-80 years, copper 70-plus) and concealed-fastener standing seams with no surface penetrations; its drawbacks are the highest installed cost and the thermal-movement management long panel runs require** (InterNACHI / This Old House / Metal Construction Association).",
+    "directAnswer": "**Commercial metal roofing's pros and cons: the longest service life of any system (40-80 years, copper 70-plus) and concealed-fastener standing seams with no surface penetrations, against the highest installed cost and the thermal-movement management long panel runs require** (InterNACHI / This Old House / Metal Construction Association).",
     "intro": "Weighing those advantages against the cost and engineering demands shows which commercial buildings metal roofing suits and which favor a membrane.",
     "sections": [
       {
@@ -660,7 +660,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "pvc-roofing",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**PVC roofing's advantages are grease and chemical resistance no other single-ply matches, hot-air-welded seams that re-fuse, a 20-to-30-year life, and a white cool-roof surface; its drawbacks are a higher cost than TPO and plasticizer-loss embrittlement**, per the NRCA, the Single Ply Roofing Industry, and Duro-Last.",
+    "directAnswer": "**PVC roofing's pros and cons: its advantages are grease and chemical resistance no other single-ply matches, hot-air-welded seams that re-fuse, a 20-to-30-year life, and a white cool-roof surface; its drawbacks are a higher cost than TPO and plasticizer-loss embrittlement**, per the NRCA, the Single Ply Roofing Industry, and Duro-Last.",
     "intro": "Weighing those advantages against the cost and aging trade-offs determines whether a PVC single-ply membrane fits a given commercial low-slope roof.",
     "sections": [
       {
@@ -736,7 +736,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "green-roof-installation",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**A green roof's waterproofing membrane substrate installs at $6 to $12 per square foot in New Jersey, the roofing scope priced separately from the structural assessment, growing-media depth, and plant palette that drive the rest of the planted-system cost** (commercial cost guides; Josten Roofing NJ).",
+    "directAnswer": "**Green roof installation prices the waterproofing membrane substrate at $6 to $12 per square foot in New Jersey, the roofing scope priced separately from the structural assessment, growing-media depth, and plant palette that drive the rest of the planted-system cost** (commercial cost guides; Josten Roofing NJ).",
     "intro": "That per-square-foot membrane figure prices the roofing layer a registered New Jersey roofing contractor builds, while the saturated load, media depth, and incentives shape the total project budget.",
     "sections": [
       {
@@ -774,7 +774,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "green-roof-installation",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A green roof's advantages are stormwater retention, a cooling-load reduction from added thermal mass, and a membrane shielded from UV; its drawbacks are the saturated structural load and a membrane made inaccessible for repair beneath the planted layers**, per SPRI and InterNACHI.",
+    "directAnswer": "**The pros and cons of green roof installation are stormwater retention, a cooling-load reduction from added thermal mass, and a membrane shielded from UV, against the saturated structural load and a membrane made inaccessible for repair beneath the planted layers**, per SPRI and InterNACHI.",
     "intro": "Weighing those benefits against the structural and access trade-offs decides whether a planted assembly fits a given Essex County building.",
     "sections": [
       {
@@ -888,7 +888,7 @@ export const commercialRoofTypesArticles: ArticleContent[] = [
     "parentId": "spray-foam-roofing",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**Spray foam roofing's advantages are a seamless surface with no seams to fail and built-in R-6.0-to-6.5-per-inch insulation that recovers over an existing roof; its drawback is a UV-sensitive foam requiring a coating recoated every 10 to 20 years** (SPFA / ICC-ES).",
+    "directAnswer": "**Spray foam roofing's pros and cons weigh a seamless surface with no seams to fail and built-in R-6.0-to-6.5-per-inch insulation that recovers over an existing roof against a UV-sensitive foam requiring a coating recoated every 10 to 20 years** (SPFA / ICC-ES).",
     "intro": "Weighing those advantages against the maintenance burden shows where a sprayed polyurethane foam roof fits and where another system serves a building better.",
     "sections": [
       {

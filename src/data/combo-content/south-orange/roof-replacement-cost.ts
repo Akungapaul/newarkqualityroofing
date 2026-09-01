@@ -4,7 +4,7 @@ export const southOrangeRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'south-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor pricing roof replacement across South Orange, New Jersey, and Essex County**, costing $10,000–$25,000 for a typical home, on the Village\'s large pre-war Victorians, Colonials, and Tudors as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor pricing roof replacement cost across South Orange, New Jersey, and Essex County**, costing $10,000–$25,000 for a typical home, on the Village\'s large pre-war Victorians, Colonials, and Tudors as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.',
   overview: [

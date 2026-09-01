@@ -169,9 +169,9 @@ export default function ServicesHubPage() {
           {HEADING_CONFIG.core['roofing-services']}
         </h1>
         <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
-          Comprehensive residential and commercial roofing services across Essex
-          County, NJ. From emergency repairs to complete roof installations, we
-          have you covered.
+          Comprehensive residential and commercial roofing services in Newark, NJ
+          and across Essex County. From emergency repairs to complete roof
+          installations, we have you covered.
         </p>
       </header>
 

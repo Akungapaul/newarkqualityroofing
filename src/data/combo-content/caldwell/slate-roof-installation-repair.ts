@@ -4,7 +4,7 @@ export const caldwellSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'caldwell',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing slate roof installation repair across Caldwell, New Jersey, and Essex County, restoring natural slate and copper detailing on the borough\'s older Victorian-era and high-style homes near the Bloomfield Avenue downtown** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing slate roof installation and repair across Caldwell, New Jersey, and Essex County, restoring natural slate and copper detailing on the borough\'s older Victorian-era and high-style homes near the Bloomfield Avenue downtown** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Slate roof installation and repair** sets quarried natural-stone tiles on copper or stainless-steel fasteners as a roof covering, and restores an existing slate roof by replacing broken tiles, resecuring corroded fasteners, and renewing failed flashing. Natural slate is among the longest-lived roof coverings.',
   overview: [

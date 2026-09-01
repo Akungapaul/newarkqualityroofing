@@ -4,7 +4,7 @@ export const irvingtonCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'irvington',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing commercial roofs across Irvington, New Jersey, and Essex County, stripping the low-slope membrane to the deck and installing a new insulation-and-membrane system on Springfield Avenue storefronts and Route 78 light-industrial buildings** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof replacement across Irvington, New Jersey, and Essex County, stripping the low-slope membrane to the deck and installing a new insulation-and-membrane system on Springfield Avenue storefronts and Route 78 light-industrial buildings** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [

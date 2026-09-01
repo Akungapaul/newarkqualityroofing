@@ -4,7 +4,7 @@ export const newarkTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor that installs and repairs clay and concrete tile roofs across Newark, New Jersey, and Essex County**, replacing broken tiles, restoring failed underlayment, and resealing ridge, hip, and flashing details as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing tile roof installation and repair on clay and concrete tile roofs across Newark, New Jersey, and Essex County**, replacing broken tiles, restoring failed underlayment, and resealing ridge, hip, and flashing details as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Tile roof installation and repair** sets a clay or concrete tile covering over a waterproof underlayment, and restores an existing tile roof by replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.',
   overview: [

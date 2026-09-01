@@ -24,37 +24,37 @@ export const KB_CLUSTERS: readonly KbCluster[] = [
     slug: 'roof-problems',
     title: 'Roof Problems in NJ',
     description:
-      'Leaks, storm and hail damage, missing shingles, granule loss, ponding water, and structural warning signs — what each symptom indicates and when it needs attention.',
+      'Roof problems in New Jersey include leaks, storm and hail damage, missing shingles, granule loss, ponding water, and structural warning signs — what each symptom indicates and when it needs attention.',
   },
   {
     slug: 'roof-components',
     title: 'Roof Components in NJ',
     description:
-      'Flashing, underlayment, decking, drip edge, valleys, vents, and pipe boots — what each part of a roof assembly does and how it fails.',
+      'Roof components — flashing, underlayment, decking, drip edge, valleys, vents, and pipe boots — with what each part of a roof assembly does and how it fails.',
   },
   {
     slug: 'roofing-materials',
     title: 'Roofing Materials in NJ',
     description:
-      'Asphalt shingles, metal, slate, tile, cedar, and the single-ply membranes used on flat roofs — plus direct comparisons between them.',
+      'Roofing materials for New Jersey homes — asphalt shingles, metal, slate, tile, cedar, and the single-ply membranes used on flat roofs — plus direct comparisons between them.',
   },
   {
     slug: 'roofing-process',
     title: 'Roofing Process in NJ',
     description:
-      'What happens during an inspection, estimate, tear-off, installation, and final walkthrough, and how New Jersey code applies at each stage.',
+      'The roofing process from inspection, estimate, tear-off, and installation to the final walkthrough, and how New Jersey code applies at each stage.',
   },
   {
     slug: 'roofing-costs',
     title: 'Roofing Costs in NJ',
     description:
-      'What roof repair and replacement cost in New Jersey, and how roof size, pitch, material, and access change the price.',
+      'Roofing costs in New Jersey — what roof repair and replacement cost, and how roof size, pitch, material, and access change the price.',
   },
   {
     slug: 'local-roofing-knowledge',
     title: 'Local Roofing Knowledge in NJ',
     description:
-      'Newark and Essex County specifics — regional weather loads, New Jersey contractor registration and insurance requirements, and how to vet a roofer.',
+      'Local roofing knowledge for Newark and Essex County — regional weather loads, New Jersey contractor registration and insurance requirements, and how to vet a roofer.',
   },
 ] as const;
 

@@ -4,7 +4,7 @@ export const newarkRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'newark',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing and repairing roof vents across Newark, New Jersey, and Essex County**, building a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof vent installation and repair across Newark, New Jersey, and Essex County**, building a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [

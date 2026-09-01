@@ -4,7 +4,7 @@ export const montclairGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'montclair',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing gutter installation repair across Montclair, New Jersey, and Essex County, fitting aluminum, copper, and steel gutters and resealing leaking, sagging, and clogged runs on Victorian, Tudor, and storefront rooflines** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing gutter installation and repair across Montclair, New Jersey, and Essex County, fitting aluminum, copper, and steel gutters and resealing leaking, sagging, and clogged runs on Victorian, Tudor, and storefront rooflines** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.',
   overview: [

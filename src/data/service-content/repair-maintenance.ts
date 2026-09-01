@@ -317,7 +317,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor replacing residential and commercial roofs across Newark, New Jersey, and Essex County**, stripping the roof to the deck and installing a new underlayment-and-cover system as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof replacement for residential and commercial buildings across Newark, New Jersey, and Essex County**, stripping the roof to the deck and installing a new underlayment-and-cover system as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Roof replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.`,
     overview: [
@@ -1025,7 +1025,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'roof-leak-repair',
     directAnswer:
-      '**Newark Quality Roofing is a roofing contractor that locates and repairs roof leaks across Newark, New Jersey, and Essex County**, tracing the leak to the source flashing, shingle, pipe-boot, or valley detail as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof leak repair across Newark, New Jersey, and Essex County**, tracing the leak to the source flashing, shingle, pipe-boot, or valley detail as a registered New Jersey Home Improvement Contractor.',
     definition:
       `**Roof leak repair** traces a roof leak to its source detail — flashing, shingle, pipe boot, valley, or skylight — and reseals or replaces the failed component to stop water entry. It diagnoses the entry point, which sits feet away from the interior drip, before sealing.`,
     overview: [

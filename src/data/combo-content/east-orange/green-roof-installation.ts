@@ -4,7 +4,7 @@ export const eastOrangeGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing green roofs across East Orange, New Jersey, and Essex County**, building the green-roof-rated waterproofing membrane, root barrier, drainage layer, and engineered growing media that carry a planted roof as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing green roof installation across East Orange, New Jersey, and Essex County**, building the green-roof-rated waterproofing membrane, root barrier, drainage layer, and engineered growing media that carry a planted roof as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.',
   overview: [

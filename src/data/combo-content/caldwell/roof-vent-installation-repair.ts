@@ -4,7 +4,7 @@ export const caldwellRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'caldwell',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof vent installation repair across Caldwell, New Jersey, and Essex County, balancing soffit intake with ridge, box, turbine, powered, and gable exhaust** on the borough\'s older Victorian-era homes, Capes, and Bloomfield Avenue storefronts as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof vent installation and repair across Caldwell, New Jersey, and Essex County, balancing soffit intake with ridge, box, turbine, powered, and gable exhaust** on the borough\'s older Victorian-era homes, Capes, and Bloomfield Avenue storefronts as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [

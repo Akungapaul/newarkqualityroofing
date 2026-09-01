@@ -4,7 +4,7 @@ export const westOrangeRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'west-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof flashing installation repair across West Orange, New Jersey, and Essex County, sealing the chimneys, walls, valleys, skylights, and dormers where most leaks originate** on the township\'s hillside Tudors, Llewellyn Park estates, and Main Street storefronts as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof flashing installation and repair across West Orange, New Jersey, and Essex County, sealing the chimneys, walls, valleys, skylights, and dormers where most leaks originate** on the township\'s hillside Tudors, Llewellyn Park estates, and Main Street storefronts as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof flashing** is the sheet metal that seals the transitions and penetrations of a roof — chimneys, walls, valleys, skylights, and vent stacks. Flashing sheds water at every joint a continuous shingle field cannot cover, the detail where most roof leaks originate.',
   overview: [

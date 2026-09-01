@@ -4,7 +4,7 @@ export const eastOrangeFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'east-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor that installs and repairs flat and low-slope roofs across East Orange, New Jersey, and Essex County**, servicing EPDM, TPO, and modified-bitumen membranes on pre-war apartment walk-ups, two- and three-family buildings, and Central Avenue mixed-use blocks as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing flat roof installation and repair for flat and low-slope roofs across East Orange, New Jersey, and Essex County**, servicing EPDM, TPO, and modified-bitumen membranes on pre-war apartment walk-ups, two- and three-family buildings, and Central Avenue mixed-use blocks as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Flat roof installation and repair** seals a flat or low-slope roof with a continuous waterproof membrane — EPDM rubber, TPO thermoplastic, or modified bitumen — and corrects the slope and drainage the roof depends on. The work ranges from a single seam patch to a full membrane replacement.',
   overview: [

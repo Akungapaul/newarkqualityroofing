@@ -203,7 +203,7 @@ export const serviceComparisons: ComparisonContent[] = [
   // 3. Roof Overlay vs Tear Off
   {
     comparisonId: 'roof-overlay-vs-tear-off',
-    directAnswer: `**A tear-off** outlasts **an overlay** — an overlay traps heat that cuts the new shingles' service life ~20–30% (per Angi), so tear-off wins on lifespan while overlay wins on a ~20–25% / $2,000–$5,000 lower national cost (per HomeGuide and Angi).`,
+    directAnswer: `**A tear-off** outlasts **a roof overlay** — an overlay traps heat that cuts the new shingles' service life ~20–30% (per Angi), so tear-off wins on lifespan while overlay wins on a ~20–25% / $2,000–$5,000 lower national cost (per HomeGuide and Angi).`,
     definitionA:
       `**Roof Overlay** is a re-roofing method that installs a new layer of asphalt shingles directly over one existing sound shingle layer, without stripping the old covering down to the deck. It is limited to a roof carrying no more than one existing layer.`,
     definitionB:
@@ -301,7 +301,7 @@ export const serviceComparisons: ComparisonContent[] = [
   // 4. Patching vs Full Roof Repair
   {
     comparisonId: 'patching-vs-full-roof-repair',
-    directAnswer: `**Roof patching** seals a single isolated breach from $150–$500, while **comprehensive roof repair** runs $360–$1,550 (Angi) and adds a diagnostic inspection that finds the root cause — so patching wins on cost only when damage is truly contained.`,
+    directAnswer: `**Roof patching** seals a single isolated breach from $150–$500, while **full roof repair** runs $360–$1,550 (Angi) and adds a diagnostic inspection that finds the root cause — so patching wins on cost only when damage is truly contained.`,
     definitionA:
       `**Patching** seals one isolated damaged area on an otherwise sound roof — a few cracked shingles, a small flashing breach, or a nail hole — by repairing that single spot without touching the surrounding roof field. It addresses the visible breach rather than tracing a leak to its underlying cause.`,
     definitionB:

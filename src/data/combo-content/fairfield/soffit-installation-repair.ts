@@ -4,7 +4,7 @@ export const fairfieldSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'fairfield',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing soffit installation repair across Fairfield, New Jersey, and Essex County, replacing rotted board, clearing blocked intake vents, and installing baffles to restore attic airflow** on the township\'s colonials, split-levels, and raised ranches as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing soffit installation and repair across Fairfield, New Jersey, and Essex County, replacing rotted board, clearing blocked intake vents, and installing baffles to restore attic airflow** on the township\'s colonials, split-levels, and raised ranches as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**The soffit** is the eave underside that closes the rafter-tail bays and houses the intake vents of a balanced attic-ventilation system. Soffit installation and repair replaces the rotted panel, clears blocked intake, and installs baffles that hold the soffit-to-ridge air channel open.',
   overview: [

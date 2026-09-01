@@ -13,7 +13,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "parentId": "commercial-roof-installation",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs are a membrane at or past its service life, damage across more than 25 to 30% of the roof area, ponding water standing over 48 hours, wet insulation across most of the roof, or new construction** needing a code-compliant low-slope system, per InterNACHI, NRCA, and Parish-Modernize-HomeGuide.",
+    "directAnswer": "**Commercial roof installation signs: a membrane at or past its service life, damage across more than 25 to 30% of the roof area, ponding water standing over 48 hours, wet insulation across most of the roof, or new construction** needing a code-compliant low-slope system, per InterNACHI, NRCA, and Parish-Modernize-HomeGuide.",
     "intro": "Each sign points to a roof a full system installation corrects more economically than continued spot repair on a low-slope commercial assembly.",
     "sections": [
       {
@@ -51,7 +51,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "parentId": "commercial-roof-installation",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Commercial roof installation in New Jersey runs about $7 to $12 per square foot for EPDM and TPO single-ply, $6 to $12 for PVC, and $4 to $8 for spray polyurethane foam, installed**, with NJ ranges sitting 10 to 40% above national figures, per Josten Roofing NJ and the Single Ply Roofing Industry.",
+    "directAnswer": "**Commercial roof installation cost in New Jersey runs about $7 to $12 per square foot for EPDM and TPO single-ply, $6 to $12 for PVC, and $4 to $8 for spray polyurethane foam, installed**, with NJ ranges sitting 10 to 40% above national figures, per Josten Roofing NJ and the Single Ply Roofing Industry.",
     "intro": "Those per-square-foot ranges set the baseline, and the assembly under the membrane — insulation, tapered drainage, tear-off, and code triggers — moves the installed price within and beyond them.",
     "sections": [
       {
@@ -89,7 +89,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "parentId": "commercial-roof-installation",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A NJ business owner matches the system — TPO, EPDM, PVC, modified bitumen, built-up, spray foam, or metal — to the building, occupancy, and energy target, files a permit under N.J.A.C. 5:23-2.7, and installs to manufacturer specification.** Source NJ UCC, InterNACHI, Owens Corning.",
+    "directAnswer": "**A NJ business owner planning commercial roof installation matches the system — TPO, EPDM, PVC, modified bitumen, built-up, spray foam, or metal — to the building, occupancy, and energy target**, files a permit under N.J.A.C. 5:23-2.7, and installs to manufacturer specification. Source NJ UCC, InterNACHI, Owens Corning.",
     "intro": "Three decisions frame a commercial install — which system fits the building, which NJ code and permits apply, and which registered contractor performs the work.",
     "sections": [
       {
@@ -127,7 +127,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "parentId": "commercial-roof-repair",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs of a repairable commercial membrane failure are interior water stains after rain, open or separated seams, blistering, ridging, or delamination, deteriorated flashing at curbs and penetrations, and ponding water standing more than 48 hours**, per the NRCA and ARMA.",
+    "directAnswer": "**The signs calling for commercial roof repair — a repairable membrane failure — are interior water stains after rain, open or separated seams, blistering, ridging, or delamination, deteriorated flashing at curbs and penetrations**, and ponding water standing more than 48 hours, per the NRCA and ARMA.",
     "intro": "Each sign points to a localized breach on a low-slope membrane that stays under the 25-to-30-percent replacement threshold, the range where sealing the failed detail still restores the weather barrier.",
     "sections": [
       {
@@ -165,7 +165,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "parentId": "commercial-roof-repair",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Commercial flat-roof repair in New Jersey runs about $2.50 to $10.00 per square foot, or $300 to $1,100 for a typical repair**, with a seam re-weld at $200 to $400 and a section replacement at $500 to $1,000, per HomeGuide, Modernize, and WeatherShield.",
+    "directAnswer": "**Commercial roof repair cost in New Jersey runs about $2.50 to $10.00 per square foot on a flat roof, or $300 to $1,100 for a typical repair**, with a seam re-weld at $200 to $400 and a section replacement at $500 to $1,000, per HomeGuide, Modernize, and WeatherShield.",
     "intro": "New Jersey ranges sit 10 to 40 percent above national figures because of higher labor and stricter NJ code.",
     "sections": [
       {
@@ -203,7 +203,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "parentId": "commercial-roof-repair",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A NJ business owner knows a leak traces to a failed seam, puncture, or flashing detail, that a manufacturer-approved repair keeps the system warranty intact, and that a repair over 25% of roof area in 12 months requires a permit** under N.J.A.C. 5:23-2.7, per the NRCA, Owens Corning, and the NJ UCC.",
+    "directAnswer": "**A NJ business owner knows commercial roof repair traces leaks to a failed seam, puncture, or flashing detail, that a manufacturer-approved repair keeps system warranty intact, and that repair over 25% of roof area in 12 months requires a permit** under N.J.A.C. 5:23-2.7, per the NRCA, Owens Corning, and the NJ UCC.",
     "intro": "Each of these three points decides how a low-slope commercial leak is diagnosed, sealed, and permitted before any crew sets foot on the roof.",
     "sections": [
       {
@@ -241,7 +241,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "parentId": "commercial-roof-replacement",
     "parentType": "service",
     "position": 1,
-    "directAnswer": "**The signs are a membrane at or past its material lifespan, damage across more than 25 to 30 percent of the roof area, saturated insulation across a majority of the roof, recurring same-spot leaks, or multiple concurrent failure modes**, per InterNACHI, ASTM C1153, and HomeAdvisor.",
+    "directAnswer": "**Commercial roof replacement is due with a membrane at or past its material lifespan, damage across more than 25 to 30 percent of roof area, saturated insulation across most of the roof, recurring same-spot leaks, or multiple concurrent failure modes**, per InterNACHI, ASTM C1153, and HomeAdvisor.",
     "intro": "Each sign separates an end-of-life commercial roof from one a spot repair still restores, and most reach replacement through membrane age and storm loss rather than new construction.",
     "sections": [
       {
@@ -279,7 +279,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "parentId": "commercial-roof-replacement",
     "parentType": "service",
     "position": 2,
-    "directAnswer": "**Commercial roof replacement in New Jersey runs about $7.00 to $12.00 per square foot installed for single-ply membrane** — EPDM at $7 to $10, TPO at $8 to $12, PVC at $6 to $12, and spray polyurethane foam at $4 to $8 — per Josten Roofing NJ.",
+    "directAnswer": "**Commercial roof replacement cost in New Jersey runs about $7.00 to $12.00 per square foot installed for single-ply membrane** — EPDM at $7 to $10, TPO at $8 to $12, PVC at $6 to $12, and spray polyurethane foam at $4 to $8 — per Josten Roofing NJ.",
     "intro": "New Jersey re-roof ranges sit 10 to 40% above national figures, and the membrane class, the tear-off scope, and the added insulation move the installed number within that band.",
     "sections": [
       {
@@ -317,7 +317,7 @@ export const commercialServicesArticles: ArticleContent[] = [
     "parentId": "commercial-roof-replacement",
     "parentType": "service",
     "position": 3,
-    "directAnswer": "**A NJ business owner decides repair-versus-replace at the 25-30% damage, recurring-leak, or saturated-insulation line, scopes the wet insulation with an ASTM C1153 infrared survey before tear-off, and obtains a permit under N.J.A.C. 5:23-2.7.** Source Parish-Modernize-HomeGuide, ASTM C1153, and the NJ UCC.",
+    "directAnswer": "**A NJ business owner decides commercial roof replacement versus repair at the 25-30% damage, recurring-leak, or saturated-insulation line, scopes the wet insulation with an ASTM C1153 infrared survey before tear-off, and obtains a permit under N.J.A.C. 5:23-2.7.** Source Parish-Modernize-HomeGuide, ASTM C1153, and the NJ UCC.",
     "intro": "From the repair-or-replace line through the permitted scope to the system and contractor choice, the decision turns on a handful of thresholds, codes, and credentials a NJ owner can verify.",
     "sections": [
       {

@@ -4,7 +4,7 @@ export const orangeCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing commercial roofs across Orange, New Jersey, and Essex County**, applying TPO, EPDM, PVC, modified-bitumen, built-up, spray-foam, and metal systems on Valley Arts loft and Main Street flat-roof buildings as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof installation across Orange, New Jersey, and Essex County**, applying TPO, EPDM, PVC, modified-bitumen, built-up, spray-foam, and metal systems on Valley Arts loft and Main Street flat-roof buildings as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial roof installation** engineers and builds a new low-slope or steep-slope roof on a commercial building, sizing the insulation, slope, and attachment, then applying a membrane or metal panel system. It constructs the full weatherproof assembly on a new or stripped deck rather than patching an existing roof.',
   overview: [

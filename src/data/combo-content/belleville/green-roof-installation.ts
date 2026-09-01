@@ -4,7 +4,7 @@ export const bellevilleGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'belleville',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor installing green roof systems across Belleville, New Jersey, and Essex County**, building waterproofing membrane, root barrier, drainage, and growing media on low-slope two-family, garden-apartment, and Washington Avenue commercial roofs as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing green roof installation across Belleville, New Jersey, and Essex County**, building waterproofing membrane, root barrier, drainage, and growing media on low-slope two-family, garden-apartment, and Washington Avenue commercial roofs as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.',
   overview: [

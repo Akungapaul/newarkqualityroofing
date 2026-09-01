@@ -81,10 +81,10 @@ export function HeroSection() {
           </AnimateIn>
           <AnimateIn delay={0.6}>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
-              Newark Quality Roofing is the registered, insured contractor Newark
-              and Essex County property owners call for roof replacement,
-              repairs, commercial installation, and gutters — backed by free,
-              no-obligation estimates.
+              Newark Quality Roofing is the registered, insured roofing
+              contractor in Newark, NJ that Essex County property owners call
+              for roof replacement, repairs, commercial installation, and
+              gutters — backed by free, no-obligation estimates.
             </p>
             <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 font-body text-sm text-parchment/70">
               <Link href="/roofing-services" className="underline text-copper-light hover:text-copper">All Services</Link>

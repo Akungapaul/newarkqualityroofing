@@ -4,7 +4,7 @@ export const nutleyFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'nutley',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing flat roof installation repair across Nutley, New Jersey, and Essex County, servicing EPDM, TPO, and modified-bitumen membranes on the township\'s two-family, small multi-family, and Franklin Avenue and ON3 commercial low-slope roofs** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing flat roof installation and repair across Nutley, New Jersey, and Essex County, servicing EPDM, TPO, and modified-bitumen membranes on the township\'s two-family, small multi-family, and Franklin Avenue and ON3 commercial low-slope roofs** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Flat roof installation and repair** seals a flat or low-slope roof with a continuous waterproof membrane — EPDM rubber, TPO thermoplastic, or modified bitumen — and corrects the slope and drainage the roof depends on. The work ranges from a single seam patch to a full membrane replacement.',
   overview: [

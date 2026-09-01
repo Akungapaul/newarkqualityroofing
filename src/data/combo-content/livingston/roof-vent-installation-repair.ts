@@ -4,7 +4,7 @@ export const livingstonRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'livingston',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof vent installation repair across Livingston, New Jersey, and Essex County, building a balanced soffit-intake and ridge-exhaust system on the township\'s split-levels and colonials and its Route 10 commercial roofs** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof vent installation and repair across Livingston, New Jersey, and Essex County, building a balanced soffit-intake and ridge-exhaust system on the township\'s split-levels and colonials and its Route 10 commercial roofs** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.',
   overview: [

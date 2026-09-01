@@ -4,7 +4,7 @@ export const millburnRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'millburn',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof deck repair replacement across Millburn, New Jersey, and Essex County, re-decking rotted sheathing under the slate, copper, tile, and cedar roofs of Short Hills and the township\'s high-style homes** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing roof deck repair and replacement across Millburn, New Jersey, and Essex County, re-decking rotted sheathing under the slate, copper, tile, and cedar roofs of Short Hills and the township\'s high-style homes** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.',
   overview: [

@@ -4,7 +4,7 @@ export const southOrangeCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'south-orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing commercial roofs across South Orange, New Jersey, and Essex County, stripping a failed low-slope membrane to the deck on Seton Hall campus buildings, SOPAC-area storefronts, and Village-center mixed-use** as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing commercial roof replacement across South Orange, New Jersey, and Essex County, stripping a failed low-slope membrane to the deck on Seton Hall campus buildings, SOPAC-area storefronts, and Village-center mixed-use** as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.',
   overview: [

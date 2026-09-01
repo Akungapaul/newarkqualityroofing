@@ -4,7 +4,7 @@ export const orangeRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'orange',
   directAnswer:
-    '**Newark Quality Roofing is a roofing contractor replacing residential and commercial roofs across Orange, New Jersey, and Essex County**, estimating tear-off, decking, material, and NJ labor on two-/three-family, converted-loft, and detached homes as a registered New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor pricing roof replacement cost for residential and commercial roofs across Orange, New Jersey, and Essex County**, estimating tear-off, decking, material, and NJ labor on two-/three-family, converted-loft, and detached homes as a registered New Jersey Home Improvement Contractor.',
   definition:
     '**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.',
   overview: [
