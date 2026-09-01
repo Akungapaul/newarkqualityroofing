@@ -89,12 +89,66 @@ export const commercialRoofingHubContent: HubContent = {
             "href": "/commercial-roof-replacement-in-newark-nj"
           },
           {
+            "text": "Flat Roof Installation & Repair",
+            "href": "/flat-roof-installation-repair-in-newark-nj"
+          },
+          {
+            "text": "Roof Maintenance Programs",
+            "href": "/roof-maintenance-programs-in-newark-nj"
+          }
+        ]
+      },
+      {
+        "label": "Diagnostics & Coatings",
+        "links": [
+          {
             "text": "Roof Thermal Imaging Inspections",
             "href": "/roof-thermal-imaging-inspections-in-newark-nj"
           },
           {
             "text": "Infrared Roof Leak Detection",
             "href": "/infrared-roof-leak-detection-in-newark-nj"
+          },
+          {
+            "text": "Silicone Roof Coating",
+            "href": "/silicone-roof-coating-in-newark-nj"
+          },
+          {
+            "text": "Roof Waterproofing",
+            "href": "/roof-waterproofing-in-newark-nj"
+          }
+        ]
+      },
+      {
+        "label": "Guides & More",
+        "links": [
+          {
+            "text": "Residential Roofing Services",
+            "href": "/residential-roofing"
+          },
+          {
+            "text": "Flat Roof Systems Guide",
+            "href": "/flat-roof-systems"
+          },
+          {
+            "text": "TPO vs EPDM Roofing",
+            "href": "/tpo-vs-epdm-roofing"
+          },
+          {
+            "text": "Best Commercial Roofing Material",
+            "href": "/best-commercial-roofing-material"
+          },
+          {
+            "text": "What NJ Business Owners Should Know About Commercial Roof Installation",
+            "href": "/commercial-roof-installation-what-business-owners-should-know"
+          },
+          {
+            "text": "Commercial Roof Repair Cost in NJ",
+            "href": "/how-much-does-commercial-roof-repair-cost-in-nj"
+          },
+          {
+            "text": "Our Service Areas",
+            "href": "/service-areas"
           }
         ]
       }

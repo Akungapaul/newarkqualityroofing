@@ -91,16 +91,19 @@ export function MobileMenu({ isOpen, onClose, serviceGroups, cityItems, comparis
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, handleKeyDown]);
 
-  if (!isOpen) return null;
-
+  // Always render (hidden via visibility) so the menu's nav links ship in the
+  // server HTML for crawlers; `invisible` keeps them out of the tab order and
+  // the accessibility tree while closed. Previously `return null` meant the
+  // links existed only after tapping the hamburger.
   return (
     <div
       className={`fixed inset-0 z-50 transition-all duration-400 md:hidden ${
-        isOpen ? 'pointer-events-auto' : 'pointer-events-none'
+        isOpen ? 'pointer-events-auto visible' : 'pointer-events-none invisible'
       }`}
       aria-modal={isOpen}
       role="dialog"
       aria-label="Navigation menu"
+      aria-hidden={!isOpen}
     >
       {/* Backdrop */}
       <div

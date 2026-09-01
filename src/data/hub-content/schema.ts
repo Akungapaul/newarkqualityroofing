@@ -38,7 +38,7 @@ export const HubContentSchema = z.object({
     groups: z.array(z.object({
       label: z.string(),
       links: z.array(z.object({ text: z.string(), href: z.string() })).min(1),
-    })).min(1).max(3),
+    })).min(1).max(4),
   }).optional(),
   // Question-form FAQ section heading + the FAQ entries (also emitted as FAQPage JSON-LD).
   faqHeading: z.string(),

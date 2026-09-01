@@ -72,7 +72,7 @@ export function CityHero({ city, content, serviceGroups }: CityHeroProps) {
         <Breadcrumbs
           items={[
             { label: 'Home', href: '/' },
-            { label: 'Locations', href: '/locations' },
+            { label: 'Locations', href: '/service-areas' },
             { label: city.name },
           ]}
         />

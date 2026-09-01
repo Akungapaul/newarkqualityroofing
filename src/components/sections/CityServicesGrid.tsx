@@ -1,7 +1,9 @@
 import Link from 'next/link';
-import { generateServicePageSlug } from '@/lib/slug-utils';
+import { generateServicePageSlug, generateComboSlug } from '@/lib/slug-utils';
 import { StaggerGrid, StaggerItem } from '@/components/animations/StaggerGrid';
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { services } from '@/data/services';
+import { isKeep } from '@/data/url-classification';
 
 // ─── Category bento config ──────────────────────────────────────────────────
 // One tile per service category. Each tile links to that category's canonical,
@@ -133,14 +135,14 @@ const CATEGORIES: Category[] = [
 
 interface CityServicesGridProps {
   cityName: string;
-  /** Retained for template compatibility; combo links are no longer rendered. */
+  /** Enables the per-city combo link list (keep-classified combos only). */
   citySlug?: string;
   /** §4.3 Core H2. Defaults to HEADING_CONFIG.city.coreH2; the template may pass it
    *  explicitly to keep heading-config the single source of truth for the page. */
   coreHeading?: string;
 }
 
-export function CityServicesGrid({ cityName, coreHeading }: CityServicesGridProps) {
+export function CityServicesGrid({ cityName, citySlug, coreHeading }: CityServicesGridProps) {
   const heading = coreHeading ?? HEADING_CONFIG.city.coreH2(cityName);
 
   return (
@@ -197,6 +199,37 @@ export function CityServicesGrid({ cityName, coreHeading }: CityServicesGridProp
           </StaggerItem>
         ))}
       </StaggerGrid>
+
+      {/* Per-city combo links — every keep-classified {service} page for this
+          city. This is the crawl path that puts each combo at click depth 2
+          (home → city → combo) instead of leaning on the /sitemap page; the
+          list is city-specific, so it is editorial signal, not boilerplate.
+          The label is a plain <p>, not a heading (childLinks pattern). */}
+      {citySlug && (() => {
+        const cityCombos = services
+          .map((s) => ({ name: s.name, slug: generateComboSlug(s.slug, citySlug) }))
+          .filter((c) => isKeep(c.slug));
+        if (cityCombos.length === 0) return null;
+        return (
+          <div className="mt-10">
+            <p className="font-heading text-base font-semibold uppercase tracking-wider text-copper-dark">
+              Roofing services in {cityName}
+            </p>
+            <ul className="mt-4 grid gap-x-6 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
+              {cityCombos.map((c) => (
+                <li key={c.slug}>
+                  <Link
+                    href={`/${c.slug}`}
+                    className="font-body text-sm text-text-secondary underline decoration-copper/40 underline-offset-2 transition-colors hover:text-copper-dark hover:decoration-copper"
+                  >
+                    {c.name} in {cityName}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })()}
     </div>
   );
 }

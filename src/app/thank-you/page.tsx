@@ -100,7 +100,7 @@ export default function ThankYouPage() {
             While you wait, explore our services
           </p>
           <Link
-            href="/services"
+            href="/roofing-services"
             className="mt-2 inline-block font-heading text-base font-semibold text-copper transition-colors duration-200 hover:text-copper-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2"
           >
             View All Services &rarr;

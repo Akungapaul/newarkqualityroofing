@@ -17,7 +17,9 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   alternates: { canonical: CANONICAL },
-  robots: { index: false, follow: true },
+  // Indexable since 2026-09: previously noindexed AND orphaned while sitemapped
+  // (mixed signals). Now linked from the KB index, HTML sitemap, and footer.
+  robots: { index: true, follow: true },
   openGraph: {
     title: TITLE,
     description: DESCRIPTION,

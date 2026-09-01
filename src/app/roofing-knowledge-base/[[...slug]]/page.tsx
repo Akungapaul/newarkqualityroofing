@@ -228,6 +228,14 @@ export default async function KnowledgeBasePage({
             );
           })}
         </ul>
+
+        <p className="mt-8 font-body text-base text-text-secondary">
+          Unsure what a roofing term means? The{' '}
+          <Link href="/roofing-glossary" className="text-copper underline underline-offset-2 hover:text-copper-dark">
+            roofing glossary for NJ homeowners
+          </Link>{' '}
+          defines the terms used across these guides.
+        </p>
       </KbShell>
     );
   }

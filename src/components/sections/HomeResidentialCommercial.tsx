@@ -3,18 +3,20 @@ import Link from 'next/link';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getHomepageImage } from '@/data/image-manifest';
 
-const residentialBullets = [
-  'Asphalt shingle, slate, metal, and tile roof installations',
-  'Storm damage repair and emergency leak response',
-  'Roof inspections, maintenance programs, and gutter work',
-  'Insurance claim coordination for covered replacements',
+// Each bullet links to its service page so the residential/commercial fork
+// passes real link equity down to the services it names (not just the hubs).
+const residentialBullets: Array<{ text: string; href: string }> = [
+  { text: 'Asphalt shingle, slate, metal, and tile roof installations', href: '/asphalt-shingle-roofing-in-newark-nj' },
+  { text: 'Storm damage repair and emergency leak response', href: '/emergency-roof-repair-in-newark-nj' },
+  { text: 'Roof inspections, maintenance programs, and gutter work', href: '/roof-inspection-in-newark-nj' },
+  { text: 'Insurance claim coordination for covered replacements', href: '/insurance-roof-replacement-in-newark-nj' },
 ];
 
-const commercialBullets = [
-  'TPO, EPDM, PVC, and modified bitumen flat roof systems',
-  'Commercial roof repair with minimal business disruption',
-  'Thermal imaging inspections and leak detection',
-  'Energy-efficient roofing and silicone coating solutions',
+const commercialBullets: Array<{ text: string; href: string }> = [
+  { text: 'TPO, EPDM, PVC, and modified bitumen flat roof systems', href: '/tpo-roofing-installation-in-newark-nj' },
+  { text: 'Commercial roof repair with minimal business disruption', href: '/commercial-roof-repair-in-newark-nj' },
+  { text: 'Thermal imaging inspections and leak detection', href: '/roof-thermal-imaging-inspections-in-newark-nj' },
+  { text: 'Energy-efficient roofing and silicone coating solutions', href: '/silicone-roof-coating-in-newark-nj' },
 ];
 
 export function HomeResidentialCommercial() {
@@ -59,7 +61,7 @@ export function HomeResidentialCommercial() {
             </h3>
             <ul className="mt-4 space-y-2.5">
               {residentialBullets.map((item) => (
-                <li key={item} className="flex items-start gap-3 font-body text-base text-text-secondary">
+                <li key={item.href} className="flex items-start gap-3 font-body text-base text-text-secondary">
                   <svg
                     className="mt-1 h-4 w-4 shrink-0 text-copper"
                     fill="currentColor"
@@ -72,7 +74,9 @@ export function HomeResidentialCommercial() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span>{item}</span>
+                  <Link href={item.href} className="transition-colors hover:text-copper-dark hover:underline">
+                    {item.text}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -86,10 +90,10 @@ export function HomeResidentialCommercial() {
             </div>
             <div className="mt-8">
               <Link
-                href="/residential-roof-installation-in-newark-nj"
+                href="/residential-roofing"
                 className="inline-flex items-center gap-2 rounded-md bg-copper px-6 py-3 font-heading text-base font-semibold text-text-on-copper transition-colors hover:bg-copper-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2"
               >
-                Residential Services
+                Explore Residential Roofing
                 <svg
                   className="h-4 w-4"
                   fill="none"
@@ -125,7 +129,7 @@ export function HomeResidentialCommercial() {
             </h3>
             <ul className="mt-4 space-y-2.5">
               {commercialBullets.map((item) => (
-                <li key={item} className="flex items-start gap-3 font-body text-base text-text-secondary">
+                <li key={item.href} className="flex items-start gap-3 font-body text-base text-text-secondary">
                   <svg
                     className="mt-1 h-4 w-4 shrink-0 text-copper"
                     fill="currentColor"
@@ -138,7 +142,9 @@ export function HomeResidentialCommercial() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span>{item}</span>
+                  <Link href={item.href} className="transition-colors hover:text-copper-dark hover:underline">
+                    {item.text}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -152,10 +158,10 @@ export function HomeResidentialCommercial() {
             </div>
             <div className="mt-8">
               <Link
-                href="/commercial-roof-installation-in-newark-nj"
+                href="/commercial-roofing"
                 className="inline-flex items-center gap-2 rounded-md bg-copper px-6 py-3 font-heading text-base font-semibold text-text-on-copper transition-colors hover:bg-copper-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2"
               >
-                Commercial Services
+                Explore Commercial Roofing
                 <svg
                   className="h-4 w-4"
                   fill="none"

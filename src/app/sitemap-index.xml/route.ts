@@ -4,7 +4,9 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 
 // Must stay in sync with SITEMAP_IDS in src/app/sitemap.ts. 'knowledge-base'
 // added so the KB hub + 6 cluster hubs + glossary sitemap is discoverable (D-06).
-const SITEMAP_IDS = ['core', 'services', 'cities', 'combos', 'comparisons', 'articles', 'knowledge-base'] as const;
+// 'hubs' added 2026-09: the segment always generated but was never referenced
+// here, leaving the 6 flat hubs out of every submitted sitemap.
+const SITEMAP_IDS = ['core', 'services', 'cities', 'combos', 'comparisons', 'articles', 'knowledge-base', 'hubs'] as const;
 
 export async function GET() {
   const { BASE_URL } = SEO_CONFIG;

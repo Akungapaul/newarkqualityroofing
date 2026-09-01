@@ -3,8 +3,8 @@ import { PhoneNumber } from '@/components/ui/PhoneNumber';
 
 const navLinks = [
   { href: '/', label: 'Homepage' },
-  { href: '/services', label: 'All Services' },
-  { href: '/locations', label: 'Service Areas' },
+  { href: '/roofing-services', label: 'All Services' },
+  { href: '/service-areas', label: 'Service Areas' },
   { href: '/contact', label: 'Contact Us' },
 ];
 

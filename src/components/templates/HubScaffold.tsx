@@ -13,6 +13,7 @@ import {
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
 import { EntityDefinition } from '@/components/sections/EntityDefinition';
 import { ProseLead, SectionHeading } from '@/components/sections/ProseLead';
 import { parseRichText } from '@/lib/rich-text';
@@ -112,7 +113,13 @@ export default function HubScaffold({ hubId, eyebrow, heading, content }: HubSca
       {/* Hero — H1 + answer-first directAnswer + CTAs */}
       <section className="bg-parchment px-6 pt-16 pb-10">
         <div className="mx-auto max-w-3xl">
-          <span className="inline-block rounded-sm bg-copper px-3 py-1 font-body text-xs font-semibold uppercase tracking-wider text-text-on-copper">
+          <Breadcrumbs
+            items={[
+              { label: 'Home', href: '/' },
+              { label: eyebrow },
+            ]}
+          />
+          <span className="mt-4 inline-block rounded-sm bg-copper px-3 py-1 font-body text-xs font-semibold uppercase tracking-wider text-text-on-copper">
             {eyebrow}
           </span>
           <h1 className="mt-4 font-heading text-4xl font-bold text-forest sm:text-5xl">{heading}</h1>

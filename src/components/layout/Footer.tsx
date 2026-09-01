@@ -395,6 +395,12 @@ export function Footer() {
               Resources
             </Link>
             <Link
+              href="/roofing-glossary"
+              className="font-body text-xs text-parchment/50 transition-colors duration-150 hover:text-parchment/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+            >
+              Glossary
+            </Link>
+            <Link
               href="/sitemap.xml"
               className="font-body text-xs text-parchment/50 transition-colors duration-150 hover:text-parchment/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
             >

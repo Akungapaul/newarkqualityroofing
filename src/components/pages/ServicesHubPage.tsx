@@ -66,11 +66,15 @@ function ServiceSection({
   description,
   grouped,
   variant,
+  hubHref,
+  hubLabel,
 }: {
   title: string;
   description: string;
   grouped: Map<string, typeof services>;
   variant: 'residential' | 'commercial';
+  hubHref: string;
+  hubLabel: string;
 }) {
   const isCommercial = variant === 'commercial';
 
@@ -96,6 +100,15 @@ function ServiceSection({
       >
         {description}
       </p>
+      <Link
+        href={hubHref}
+        className={`mt-3 inline-flex items-center gap-1.5 font-body text-sm font-semibold underline transition-colors ${
+          isCommercial ? 'text-copper hover:text-copper-light' : 'text-copper-dark hover:text-copper'
+        }`}
+      >
+        {hubLabel}
+        <ArrowIcon />
+      </Link>
 
       <div className="mt-10 space-y-10">
         {categoryOrder
@@ -182,6 +195,8 @@ export default function ServicesHubPage() {
           description="Expert roofing solutions for homeowners across Essex County. Quality materials, skilled craftsmanship, and warranties you can trust."
           grouped={residentialGrouped}
           variant="residential"
+          hubHref="/residential-roofing"
+          hubLabel="Visit the Residential Roofing hub"
         />
 
         {/* Commercial Section */}
@@ -190,6 +205,8 @@ export default function ServicesHubPage() {
           description="Industrial-grade roofing systems for businesses, warehouses, and commercial properties throughout Newark and Essex County."
           grouped={commercialGrouped}
           variant="commercial"
+          hubHref="/commercial-roofing"
+          hubLabel="Visit the Commercial Roofing hub"
         />
 
         {/* Bottom CTA */}

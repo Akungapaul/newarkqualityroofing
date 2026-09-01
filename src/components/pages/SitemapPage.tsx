@@ -4,6 +4,8 @@ import { cities } from '@/data/cities';
 import { corePages } from '@/data/core-pages';
 import { comparisons } from '@/data/comparisons';
 import { combos } from '@/data/combos';
+import { KB_CLUSTERS } from '@/data/kb-clusters';
+import { isKeep } from '@/data/url-classification';
 import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
 
 // ─── Category labels for service grouping ───────────────────────────────────
@@ -45,6 +47,10 @@ function groupServicesByCategory() {
 function groupCombosByCity() {
   const grouped = new Map<string, typeof combos>();
   for (const combo of combos) {
+    // Only keep-classified combos: linking 301 sources wastes crawl and linking
+    // noindexed pages sends mixed signals — this page exists for discovery of
+    // the indexable set.
+    if (!isKeep(combo.slug)) continue;
     const existing = grouped.get(combo.cityId) ?? [];
     existing.push(combo);
     grouped.set(combo.cityId, existing);
@@ -211,7 +217,7 @@ export default function SitemapPage() {
             <h2 className="mb-4 border-b border-border pb-2 font-heading text-2xl font-bold text-forest">
               Service + City Pages
               <span className="ml-2 font-body text-base font-normal text-text-secondary">
-                ({combos.length})
+                ({[...comboGroups.values()].reduce((n, list) => n + list.length, 0)})
               </span>
             </h2>
             <div className="space-y-2">
@@ -242,6 +248,39 @@ export default function SitemapPage() {
                 );
               })}
             </div>
+          </section>
+
+          {/* Knowledge Base — the article layer is discovered via the 6 cluster
+              hubs (each links its articles), so the sitemap lists the hubs. */}
+          <section className="mb-10">
+            <h2 className="mb-4 border-b border-border pb-2 font-heading text-2xl font-bold text-forest">
+              Roofing Knowledge Base
+              <span className="ml-2 font-body text-base font-normal text-text-secondary">
+                ({KB_CLUSTERS.length + 2})
+              </span>
+            </h2>
+            <ul className="grid gap-1 sm:grid-cols-2">
+              <li>
+                <a href="/roofing-knowledge-base" className="font-body text-sm text-copper underline-offset-2 hover:underline">
+                  Roofing Knowledge Base
+                </a>
+              </li>
+              {KB_CLUSTERS.map((cluster) => (
+                <li key={cluster.slug}>
+                  <a
+                    href={`/roofing-knowledge-base/${cluster.slug}`}
+                    className="font-body text-sm text-copper underline-offset-2 hover:underline"
+                  >
+                    {cluster.title}
+                  </a>
+                </li>
+              ))}
+              <li>
+                <a href="/roofing-glossary" className="font-body text-sm text-copper underline-offset-2 hover:underline">
+                  Roofing Glossary
+                </a>
+              </li>
+            </ul>
           </section>
         </nav>
       </main>

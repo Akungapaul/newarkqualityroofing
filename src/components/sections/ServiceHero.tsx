@@ -77,7 +77,7 @@ export function ServiceHero({ service, serviceGroups, benefits, directAnswer }: 
         <Breadcrumbs
           items={[
             { label: 'Home', href: '/' },
-            { label: 'Services', href: '/services' },
+            { label: 'Services', href: '/roofing-services' },
             { label: service.name },
           ]}
         />

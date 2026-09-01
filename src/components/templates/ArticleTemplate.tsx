@@ -153,7 +153,9 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
         buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${article.slug}`, article.metaTitle),
         buildBreadcrumbSchema([
           { name: 'Home', url: SEO_CONFIG.BASE_URL },
-          { name: links.moneyPage.name, url: `${SEO_CONFIG.BASE_URL}/${links.moneyPage.slug}` },
+          // moneyPage.slug already carries its leading slash — prepending another
+          // emitted "https://…//slug" in the BreadcrumbList item URLs.
+          { name: links.moneyPage.name, url: `${SEO_CONFIG.BASE_URL}${links.moneyPage.slug}` },
           { name: article.metaTitle },
         ]),
       )} />

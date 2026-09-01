@@ -1,18 +1,42 @@
 /**
- * Click Depth Validator (BFS from Homepage)
+ * Click-Depth Validator (BFS over the REAL rendered link graph — build-failing gate).
  *
- * Builds an adjacency graph from the DATA LAYER (not HTML parsing),
- * then runs BFS from homepage to verify no page is more than 3 clicks away.
+ * Rewrite of the old data-layer model, which pretended the header linked all 65
+ * services / 21 cities / 30 comparisons at depth 1 (measured reality before the
+ * server-rendered-nav fix: 3 header links). This version models NOTHING: it
+ * parses every prerendered page in .next/server/app/**, extracts the actual
+ * <a href> edges between built pages (header/footer links count — they are real
+ * links), and BFS-walks from the homepage. If a link is not in the HTML, it is
+ * not in the graph.
  *
- * Link sources modeled:
- * 1. Header nav: all services via mega-menu, all cities, comparison groups
- * 2. Footer: all cities, service category representatives, comparison guides
- * 3. Template internal links: service, city, combo, comparison, article pages
- * 4. Homepage: services grid, locations grid, comparison grid, article guides, browse services
- * 5. Hub/core pages: services hub, locations hub, sitemap
+ * REQUIRED page set = exactly what src/app/sitemap.ts emits: homepage + core
+ * pages (minus the noindex thank-you/privacy-policy) + 65 service hubs
+ * (generateServicePageSlug) + 21 city pages (generateCityPageSlug) + keep-
+ * classified combos (isKeep) + comparisons + articles + KB (index, 6 clusters,
+ * glossary) + the 6 flat hubs (slug-registry type 'hub' — same list as the
+ * sitemap's FLAT_HUB_SLUGS).
  *
- * Run with: npx tsx scripts/validate-click-depth.ts
+ * GATES (any violation -> process.exit(1); model: scripts/audit-headings.ts):
+ *   1. exists      — every required page has a prerendered HTML file.
+ *   2. reachable   — every required page is reachable from home via real links.
+ *   3. depth ≤ 3   — every required page is at most 3 clicks from home.
+ *   4. not orphan  — every required page has ≥1 inbound link from a DIFFERENT page.
+ *
+ * Href normalisation follows scripts/validate-internal-links.ts (strip
+ * fragment/query, ignore external/tel/mailto/_next, decode). Only hrefs that
+ * resolve to a built page become edges — redirect sources, app-route assets and
+ * public/ files are validate-internal-links' concern, not nodes here.
+ *
+ * Run with: tsx scripts/validate-click-depth.ts          (npm run audit:depth)
+ *           tsx scripts/validate-click-depth.ts --json   (adds a machine-readable
+ *           {depths, orphans, unreachable} JSON object on stdout; the human
+ *           report then goes to stderr so stdout stays pure JSON)
  */
+
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join, relative, sep } from 'node:path';
+import { parse } from 'node-html-parser';
 
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
@@ -20,392 +44,254 @@ import { combos } from '@/data/combos';
 import { comparisons } from '@/data/comparisons';
 import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
-import { generateComboSlug, generateCityPageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
+import { isKeep } from '@/data/url-classification';
+import { KB_CLUSTER_SLUGS } from '@/data/kb-clusters';
+import { getSlugsByType } from '@/data/slug-registry';
 
-// ─── Types ──────────────────────────────────────────────────────────────────
+const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+const PRERENDER_DIR = join(REPO_ROOT, '.next', 'server', 'app');
 
-type AdjGraph = Map<string, Set<string>>;
+const HOME = '/';
+const MAX_DEPTH = 3;
+const JSON_MODE = process.argv.includes('--json');
 
-// ─── Helpers ────────────────────────────────────────────────────────────────
+// In --json mode the human report moves to stderr so stdout is pure JSON.
+const report = JSON_MODE ? console.error : console.log;
 
-const graph: AdjGraph = new Map();
+// ─── HTML discovery (convention: validate-internal-links.ts) ─────────────────
 
-/** All known page slugs for validation */
-const allPages = new Set<string>();
+/**
+ * Recursively collect every .html file under dir, as paths relative to dir.
+ * Skips the framework's non-page shells (_not-found, _global-error).
+ */
+function walkHtml(dir: string, base = dir): string[] {
+  const out: string[] = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name.startsWith('_')) continue; // _not-found / _global-error
+    const abs = join(dir, entry.name);
+    if (entry.isDirectory()) out.push(...walkHtml(abs, base));
+    else if (entry.name.endsWith('.html')) out.push(relative(base, abs));
+  }
+  return out;
+}
 
-function ensurePage(slug: string) {
-  allPages.add(slug);
-  if (!graph.has(slug)) {
-    graph.set(slug, new Set());
+/** ".next/server/app" relative html path -> served route path. */
+function fileToRoute(file: string): string {
+  const p = file.replace(/\.html$/, '').split(sep).join('/');
+  return p === 'index' ? HOME : `/${p}`;
+}
+
+/** Normalise an href to a comparable pathname, or null if it is not ours to check. */
+function toPathname(href: string): string | null {
+  if (!href) return null;
+  if (href.startsWith('//')) return null; // protocol-relative -> external
+  if (/^[a-z][a-z0-9+.-]*:/i.test(href)) return null; // https:, tel:, mailto:
+  if (href.startsWith('#')) return null; // in-page fragment
+  if (!href.startsWith('/')) return null; // relative; none emitted, but be safe
+  let path = href.split('#')[0].split('?')[0];
+  if (path.startsWith('/_next/')) return null; // build artifacts, not routes
+  if (path.length > 1 && path.endsWith('/')) path = path.slice(0, -1); // trailing slash
+  if (path === '') return null;
+  try {
+    return decodeURIComponent(path);
+  } catch {
+    return path;
   }
 }
 
-function addEdge(from: string, to: string) {
-  if (!graph.has(from)) graph.set(from, new Set());
-  graph.get(from)!.add(to);
+// ─── Required page set (derived exactly as src/app/sitemap.ts derives it) ────
+
+/** Pages the sitemap deliberately omits (noindex core pages). */
+const EXCLUDED_CORE_PAGES = new Set(['thank-you', 'privacy-policy']);
+
+function buildRequiredSet(): Map<string, string> {
+  const required = new Map<string, string>(); // route -> segment label
+  const add = (slug: string, segment: string) => {
+    required.set(slug === '' ? HOME : `/${slug}`, segment);
+  };
+
+  add('', 'core'); // homepage
+  for (const page of corePages) {
+    if (!EXCLUDED_CORE_PAGES.has(page.id)) add(page.slug, 'core');
+  }
+  for (const service of services) add(generateServicePageSlug(service.slug), 'service');
+  for (const city of cities) add(generateCityPageSlug(city.slug), 'city');
+  for (const combo of combos) {
+    if (isKeep(combo.slug)) add(combo.slug, 'combo');
+  }
+  for (const comparison of comparisons) add(comparison.slug, 'comparison');
+  for (const article of articles) add(article.slug, 'article');
+  add('roofing-knowledge-base', 'kb');
+  for (const cluster of KB_CLUSTER_SLUGS) add(`roofing-knowledge-base/${cluster}`, 'kb');
+  add('roofing-glossary', 'kb');
+  // The 6 flat hubs — slug-registry type 'hub' is the same list as the
+  // sitemap's FLAT_HUB_SLUGS (both enumerate the flat single-segment hubs).
+  for (const hub of getSlugsByType('hub')) add(hub.slug, 'hub');
+
+  return required;
 }
 
-// ─── Build lookup maps ──────────────────────────────────────────────────────
+// ─── Main ────────────────────────────────────────────────────────────────────
 
-const serviceById = new Map(services.map((s) => [s.id, s]));
-const cityById = new Map(cities.map((c) => [c.id, c]));
+function main(): void {
+  report('='.repeat(72));
+  report('  CLICK-DEPTH VALIDATION (BFS over rendered HTML links — build-failing)');
+  report('='.repeat(72));
+  report('');
 
-// ─── Register all pages ─────────────────────────────────────────────────────
-
-// Homepage
-const HOMEPAGE = '';
-ensurePage(HOMEPAGE);
-
-// Core pages
-for (const cp of corePages) {
-  ensurePage(cp.slug);
-}
-
-// Service pages
-for (const s of services) {
-  ensurePage(s.slug);
-}
-
-// City pages
-for (const c of cities) {
-  ensurePage(generateCityPageSlug(c.slug));
-}
-
-// Combo pages
-for (const combo of combos) {
-  ensurePage(combo.slug);
-}
-
-// Comparison pages
-for (const comp of comparisons) {
-  ensurePage(comp.slug);
-}
-
-// Article pages
-for (const article of articles) {
-  ensurePage(article.slug);
-}
-
-// ─── Link Source 1: Header nav (every page links to these targets) ──────────
-// The header is on every page, so we model this as: homepage links to them (depth 1),
-// and all pages at depth 1+ link to them. For BFS correctness, we just need the
-// homepage to link to all header targets (they're at most depth 1 from homepage).
-
-// Header: all services (via mega-menu dropdown)
-for (const s of services) {
-  addEdge(HOMEPAGE, s.slug);
-}
-
-// Header: all cities (dropdown)
-for (const c of cities) {
-  addEdge(HOMEPAGE, generateCityPageSlug(c.slug));
-}
-
-// Header: comparison groups (accessible via menu)
-for (const comp of comparisons) {
-  addEdge(HOMEPAGE, comp.slug);
-}
-
-// Header: core pages (about, contact, services, locations, sitemap)
-for (const cp of corePages) {
-  addEdge(HOMEPAGE, cp.slug);
-}
-
-// ─── Link Source 2: Footer links ────────────────────────────────────────────
-// Footer is sitewide -- same logic as header. The important navigation targets
-// are already covered by header links above. Footer adds:
-// - All 21 city pages (already linked from header)
-// - Service category representatives (subset, already linked)
-// - Comparison guides (subset, already linked)
-// - Privacy policy, sitemap.xml (already core pages)
-// No additional edges needed since header already links all services/cities/comparisons.
-
-// ─── Link Source 3: Homepage-specific outbound links ────────────────────────
-
-// Homepage -> ServicesGrid: one representative service per category (already covered by header)
-// Homepage -> LocationsGrid: all 21 cities (already covered)
-// Homepage -> Browse Services section: ~20 curated service links (subset, already covered)
-// Homepage -> HomeComparisonGrid: featured comparisons (already covered)
-// Homepage -> HomepageGuides: core articles
-const homepageArticles = articles.filter(
-  (a) => a.parentType === 'core' && a.parentId === 'homepage'
-);
-for (const article of homepageArticles) {
-  addEdge(HOMEPAGE, article.slug);
-}
-
-// ─── Link Source 4: Service page outbound links ─────────────────────────────
-// Each service page links to:
-// - Related services in same category (up to 4)
-// - Learn More article link (first article for this service)
-// - Related comparisons
-for (const service of services) {
-  const sameCategory = services.filter(
-    (s) => s.category === service.category && s.id !== service.id
-  );
-  // Related services
-  for (const rel of sameCategory.slice(0, 4)) {
-    addEdge(service.slug, rel.slug);
+  if (!existsSync(PRERENDER_DIR)) {
+    report('NOTICE: No prerendered HTML found in .next/server/app — cannot measure the link graph.');
+    report('        Run `next build` first (or `npm run build`).');
+    process.exit(1);
   }
 
-  // Learn More article (position 1 article for this service)
-  const serviceArticles = articles.filter(
-    (a) => a.parentType === 'service' && a.parentId === service.id
-  );
-  if (serviceArticles.length > 0) {
-    addEdge(service.slug, serviceArticles[0].slug);
-  }
+  // ── Crawl: parse every built page, extract page-to-page edges ──────────────
+  const files = walkHtml(PRERENDER_DIR);
+  const builtRoutes = new Set(files.map(fileToRoute));
 
-  // Related comparisons (via comparison-links mapping)
-  // We model the general pattern: services link to comparisons in their domain
-  // Since serviceComparisonMap is internal to comparison-links.ts, we approximate
-  // by linking each service to comparisons that reference related terms
-  // For BFS correctness, comparisons are already at depth 1 from header.
-}
+  const outLinks = new Map<string, Set<string>>(); // page -> pages it links to
+  const inbound = new Map<string, Set<string>>(); // page -> DISTINCT other pages linking to it
+  let hrefCount = 0;
+  let edgeCount = 0;
 
-// ─── Link Source 5: City page outbound links ────────────────────────────────
-// Each city page links to:
-// - All 63 combo pages for that city (CityServicesGrid)
-// - Adjacent city pages (CityNearbyCities)
-for (const city of cities) {
-  const citySlug = generateCityPageSlug(city.slug);
-
-  // CityServicesGrid: links to all combo pages for this city
-  for (const service of services) {
-    addEdge(citySlug, generateComboSlug(service.slug, city.slug));
-  }
-
-  // CityNearbyCities: links to adjacent city pages
-  for (const adjId of city.adjacentCityIds) {
-    const adjCity = cityById.get(adjId);
-    if (adjCity) {
-      addEdge(citySlug, generateCityPageSlug(adjCity.slug));
+  for (const file of files) {
+    const sourceRoute = fileToRoute(file);
+    const targets = new Set<string>();
+    const root = parse(readFileSync(join(PRERENDER_DIR, file), 'utf8'));
+    for (const a of root.querySelectorAll('a')) {
+      const path = toPathname(a.getAttribute('href') ?? '');
+      if (path === null) continue;
+      hrefCount++;
+      // Only links that land on a BUILT page are graph edges. Everything else
+      // (redirect sources, assets, dead links) is validate-internal-links' beat.
+      if (builtRoutes.has(path)) targets.add(path);
     }
-  }
-}
-
-// ─── Link Source 6: Combo page outbound links ───────────────────────────────
-// Each combo page links to:
-// - Parent service page
-// - Parent city page
-// - Nearby city combo pages (same service, adjacent cities)
-// - Related service combo pages (same city, other services in category, up to 5 per category)
-for (const combo of combos) {
-  const service = serviceById.get(combo.serviceId);
-  const city = cityById.get(combo.cityId);
-  if (!service || !city) continue;
-
-  // Parent pages
-  addEdge(combo.slug, service.slug);
-  addEdge(combo.slug, generateCityPageSlug(city.slug));
-
-  // Nearby city combos
-  for (const adjId of city.adjacentCityIds) {
-    const adjCity = cityById.get(adjId);
-    if (adjCity) {
-      addEdge(combo.slug, generateComboSlug(service.slug, adjCity.slug));
+    outLinks.set(sourceRoute, targets);
+    edgeCount += targets.size;
+    for (const target of targets) {
+      if (target === sourceRoute) continue; // self-link never rescues an orphan
+      const set = inbound.get(target) ?? new Set<string>();
+      set.add(sourceRoute);
+      inbound.set(target, set);
     }
   }
 
-  // Related services in same city (up to 5 per category)
-  const categoryCount = new Map<string, number>();
-  for (const otherService of services) {
-    if (otherService.id === service.id) continue;
-    const count = categoryCount.get(otherService.category) ?? 0;
-    if (count >= 5) continue;
-    addEdge(combo.slug, generateComboSlug(otherService.slug, city.slug));
-    categoryCount.set(otherService.category, count + 1);
-  }
-}
-
-// ─── Link Source 7: Comparison page outbound links ──────────────────────────
-// Comparison pages link to:
-// - Related comparisons (same category, limited set)
-// - Learn More article (first article for this comparison)
-for (const comp of comparisons) {
-  // Related comparisons (same category)
-  const sameCategory = comparisons.filter(
-    (c) => c.category === comp.category && c.id !== comp.id
-  );
-  for (const rel of sameCategory) {
-    addEdge(comp.slug, rel.slug);
-  }
-
-  // Learn More article
-  const compArticles = articles.filter(
-    (a) => a.parentType === 'comparison' && a.parentId === comp.id
-  );
-  if (compArticles.length > 0) {
-    addEdge(comp.slug, compArticles[0].slug);
-  }
-}
-
-// ─── Link Source 8: Article page outbound links ─────────────────────────────
-// Article pages link to:
-// - Money page (parent service/comparison/homepage)
-// - Next article in chain
-// - Previous article in chain
-const articlesByParent = new Map<string, typeof articles>();
-for (const article of articles) {
-  const key = `${article.parentType}:${article.parentId}`;
-  if (!articlesByParent.has(key)) articlesByParent.set(key, []);
-  articlesByParent.get(key)!.push(article);
-}
-// Sort by position
-for (const group of articlesByParent.values()) {
-  group.sort((a, b) => a.position - b.position);
-}
-
-for (const article of articles) {
-  // Money page link
-  switch (article.parentType) {
-    case 'service': {
-      const service = serviceById.get(article.parentId);
-      if (service) addEdge(article.slug, service.slug);
-      break;
-    }
-    case 'comparison': {
-      const comp = comparisons.find((c) => c.id === article.parentId);
-      if (comp) addEdge(article.slug, comp.slug);
-      break;
-    }
-    case 'core':
-      addEdge(article.slug, HOMEPAGE);
-      break;
-  }
-
-  // Next/prev article links
-  const key = `${article.parentType}:${article.parentId}`;
-  const siblings = articlesByParent.get(key) ?? [];
-  const idx = siblings.findIndex((a) => a.id === article.id);
-  if (idx < siblings.length - 1) {
-    addEdge(article.slug, siblings[idx + 1].slug);
-  }
-  if (idx > 0) {
-    addEdge(article.slug, siblings[idx - 1].slug);
-  }
-}
-
-// ─── Link Source 9: Hub/core pages ──────────────────────────────────────────
-// Services hub: links to all 63 service pages
-const servicesHub = 'services';
-for (const s of services) {
-  addEdge(servicesHub, s.slug);
-}
-
-// Locations hub: links to all 21 city pages
-const locationsHub = 'locations';
-for (const c of cities) {
-  addEdge(locationsHub, generateCityPageSlug(c.slug));
-}
-
-// Sitemap: links to everything
-const sitemapSlug = 'sitemap';
-for (const page of allPages) {
-  if (page !== sitemapSlug) {
-    addEdge(sitemapSlug, page);
-  }
-}
-
-// ─── BFS ────────────────────────────────────────────────────────────────────
-
-function bfs(startSlug: string): Map<string, number> {
-  const depth = new Map<string, number>();
-  const queue: string[] = [startSlug];
-  depth.set(startSlug, 0);
-
-  while (queue.length > 0) {
-    const current = queue.shift()!;
-    const currentDepth = depth.get(current)!;
-    const neighbors = graph.get(current);
-    if (!neighbors) continue;
-
-    for (const neighbor of neighbors) {
-      if (!depth.has(neighbor)) {
-        depth.set(neighbor, currentDepth + 1);
-        queue.push(neighbor);
+  // ── BFS from the homepage over the real edges ──────────────────────────────
+  const depths = new Map<string, number>();
+  if (builtRoutes.has(HOME)) {
+    depths.set(HOME, 0);
+    const queue: string[] = [HOME];
+    while (queue.length > 0) {
+      const current = queue.shift()!;
+      const d = depths.get(current)!;
+      for (const next of outLinks.get(current) ?? []) {
+        if (!depths.has(next)) {
+          depths.set(next, d + 1);
+          queue.push(next);
+        }
       }
     }
   }
 
-  return depth;
-}
-
-// ─── Main ───────────────────────────────────────────────────────────────────
-
-function main() {
-  console.log('='.repeat(72));
-  console.log('  CLICK DEPTH VALIDATION (BFS from Homepage)');
-  console.log('='.repeat(72));
-  console.log();
-
-  const depths = bfs(HOMEPAGE);
-
-  // Check for unreachable pages
+  // ── Gates over the required (sitemap-emitted) set ──────────────────────────
+  const required = buildRequiredSet();
+  const errors: string[] = [];
+  const missing: string[] = [];
   const unreachable: string[] = [];
-  for (const page of allPages) {
-    if (!depths.has(page)) {
-      unreachable.push(page);
+  const tooDeep: Array<{ route: string; depth: number }> = [];
+  const orphans: string[] = [];
+
+  for (const [route, segment] of required) {
+    if (!builtRoutes.has(route)) {
+      missing.push(route);
+      errors.push(`MISSING [${segment}] ${route} — required by the sitemap but not in the build`);
+      continue; // a missing page is trivially unreachable/orphaned; report once
+    }
+    const depth = depths.get(route);
+    if (depth === undefined) {
+      unreachable.push(route);
+      errors.push(`UNREACHABLE [${segment}] ${route} — no link path from the homepage`);
+    } else if (depth > MAX_DEPTH) {
+      tooDeep.push({ route, depth });
+      errors.push(`DEPTH [${segment}] ${route} — ${depth} clicks from home (max ${MAX_DEPTH})`);
+    }
+    if (route !== HOME && (inbound.get(route)?.size ?? 0) === 0) {
+      orphans.push(route);
+      errors.push(`ORPHAN [${segment}] ${route} — zero inbound links from other pages`);
     }
   }
 
-  // Compute depth distribution
-  const depthBuckets = new Map<number, string[]>();
+  // ── Report (always printed) ────────────────────────────────────────────────
+  const buckets = new Map<number, number>();
   let maxDepth = 0;
-
-  for (const [page, d] of depths) {
+  for (const d of depths.values()) {
+    buckets.set(d, (buckets.get(d) ?? 0) + 1);
     maxDepth = Math.max(maxDepth, d);
-    if (!depthBuckets.has(d)) depthBuckets.set(d, []);
-    depthBuckets.get(d)!.push(page);
+  }
+  const over3 = [...depths.values()].filter((d) => d > MAX_DEPTH).length;
+  const crawledUnreachable = builtRoutes.size - depths.size;
+
+  report(`HTML pages crawled : ${files.length}`);
+  report(`Required (sitemap) : ${required.size}`);
+  report(`Internal hrefs     : ${hrefCount} (${edgeCount} unique page-to-page edges)`);
+  report('');
+  report('Depth distribution (all crawled pages):');
+  report('-'.repeat(50));
+  report(`  Depth 0 (home): ${buckets.get(0) ?? 0}`);
+  report(`  Depth 1       : ${buckets.get(1) ?? 0}`);
+  report(`  Depth 2       : ${buckets.get(2) ?? 0}`);
+  report(`  Depth 3       : ${buckets.get(3) ?? 0}`);
+  report(`  Depth >3      : ${over3}${over3 > 0 ? ` (max ${maxDepth})` : ''}`);
+  report(`  Unreachable   : ${crawledUnreachable}`);
+  report('-'.repeat(50));
+  report('');
+
+  const deepest = [...required.keys()]
+    .filter((route) => depths.has(route))
+    .map((route) => ({ route, depth: depths.get(route)! }))
+    .sort((a, b) => b.depth - a.depth)
+    .slice(0, 20);
+  report('20 deepest required pages:');
+  for (const { route, depth } of deepest) report(`  [depth ${depth}] ${route}`);
+  report('');
+
+  const requiredUnreachableAll = [...missing, ...unreachable]; // missing pages are unreachable too
+  report(`Orphans (required, ${orphans.length} total, showing ≤20):`);
+  for (const route of orphans.slice(0, 20)) report(`  ${route}`);
+  if (orphans.length === 0) report('  (none)');
+  report('');
+  report(`Unreachable (required, ${requiredUnreachableAll.length} total incl. ${missing.length} missing, showing ≤20):`);
+  for (const route of requiredUnreachableAll.slice(0, 20)) report(`  ${route}`);
+  if (requiredUnreachableAll.length === 0) report('  (none)');
+  report('');
+
+  report(`${errors.length} violation(s) found.`);
+  report('');
+  if (errors.length > 0) {
+    report('-'.repeat(72));
+    report('  VIOLATIONS:');
+    report('-'.repeat(72));
+    for (const e of errors.slice(0, 40)) report(`  - ${e}`);
+    if (errors.length > 40) report(`  ...and ${errors.length - 40} more`);
+    report('');
   }
 
-  // Summary
-  console.log(`Total registered pages: ${allPages.size}`);
-  console.log(`Reachable from homepage: ${depths.size}`);
-  console.log(`Unreachable: ${unreachable.length}`);
-  console.log(`Max depth: ${maxDepth}`);
-  console.log();
-
-  // Depth distribution
-  console.log('Depth distribution:');
-  console.log('-'.repeat(50));
-  for (let d = 0; d <= maxDepth; d++) {
-    const pages = depthBuckets.get(d) ?? [];
-    console.log(`  Depth ${d}: ${pages.length} pages`);
-  }
-  console.log('-'.repeat(50));
-  console.log();
-
-  // Check violations (depth > 3)
-  const violations: Array<{ slug: string; depth: number }> = [];
-  for (const [slug, d] of depths) {
-    if (d > 3) {
-      violations.push({ slug, depth: d });
-    }
+  if (JSON_MODE) {
+    console.log(
+      JSON.stringify({
+        depths: Object.fromEntries([...depths.entries()].sort((a, b) => a[1] - b[1])),
+        orphans,
+        unreachable: requiredUnreachableAll,
+      }),
+    );
   }
 
-  // Add unreachable as violations too
-  for (const slug of unreachable) {
-    violations.push({ slug, depth: Infinity });
-  }
-
-  if (violations.length > 0) {
-    console.log('-'.repeat(72));
-    console.log(`  VIOLATIONS (pages beyond 3 clicks): ${violations.length}`);
-    console.log('-'.repeat(72));
-    const sorted = violations.sort((a, b) => a.depth - b.depth);
-    for (const v of sorted.slice(0, 50)) {
-      const depthStr = v.depth === Infinity ? 'UNREACHABLE' : `depth ${v.depth}`;
-      console.log(`  [${depthStr}] /${v.slug}`);
-    }
-    if (sorted.length > 50) {
-      console.log(`  ... and ${sorted.length - 50} more`);
-    }
-    console.log();
+  if (errors.length > 0) {
+    report(`CLICK-DEPTH VALIDATION FAILED — ${errors.length} violation(s).`);
     process.exit(1);
   }
-
-  console.log('All pages within 3 clicks from homepage. PASS');
+  report(`All ${required.size} required pages exist, are reachable within ${MAX_DEPTH} clicks, and have inbound links. PASS`);
   process.exit(0);
 }
 
