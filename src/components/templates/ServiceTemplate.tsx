@@ -207,7 +207,12 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         buildOrganizationSchema(),
         buildRoofingContractorSchema(),
         buildWebSiteSchema(),
-        buildServiceSchema({ name: service.name, slug: generateServicePageSlug(service.slug), shortDescription: service.shortDescription }),
+        buildServiceSchema(
+          { name: service.name, slug: generateServicePageSlug(service.slug), shortDescription: service.shortDescription },
+          // OfferCatalog only where the sub-services are actually rendered — the
+          // rich branch shows them, the standard branch does so via ServiceOverview.
+          { subServices: content.subServices },
+        ),
         buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${generateServicePageSlug(service.slug)}`, service.metaTitle),
         buildBreadcrumbSchema([
           { name: 'Home', url: SEO_CONFIG.BASE_URL },
@@ -260,7 +265,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
                   prose sections replace the generic overview/signs/approach/
                   audience band. Gated on content.sections — other services keep
                   the standard band below. ── */}
-              <AnimateIn><ServiceRichSections sections={content.sections} contentUpdated={content.contentUpdated} /></AnimateIn>
+              <AnimateIn><ServiceRichSections sections={content.sections} contentUpdated={content.contentUpdated} subServices={content.subServices} /></AnimateIn>
 
               {neighborhoodsBlock}
 

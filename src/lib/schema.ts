@@ -6,6 +6,18 @@
 import { siteConfig } from '@/data/site-config';
 import { siteConfig as canonicalConfig } from '@/config/site-config';
 import { SEO_CONFIG } from '@/lib/seo-config';
+import { cities } from '@/data/cities';
+
+/** Newark neighborhoods named in city-content/urban-core.ts (ward already embedded). */
+const NEWARK_NEIGHBORHOODS = [
+  'The Ironbound (East Ward)',
+  'Forest Hill (North Ward)',
+  'Vailsburg (West Ward)',
+  'Roseville (West Ward)',
+  'Weequahic and the South Ward',
+  'University Heights and Downtown (Central Ward)',
+  'James Street Commons and Lincoln Park',
+] as const;
 
 const BASE_URL = SEO_CONFIG.BASE_URL;
 
@@ -82,6 +94,58 @@ function buildAggregateRating(): Record<string, unknown> | null {
 
 // ─── Public builder functions ────────────────────────────────────────────────
 
+// ─── Area served ─────────────────────────────────────────────────────────────
+
+/**
+ * Service area as structured places: Essex County, its 21 municipalities, every
+ * ZIP the city data declares, and the Newark neighborhoods from urban-core.
+ *
+ * Neighborhoods come from urban-core ONLY — the roof-repair page's own chips
+ * overlap, since urban-core names already embed the ward.
+ */
+export function buildAreaServedList(): Array<Record<string, unknown>> {
+  const out: Array<Record<string, unknown>> = [
+    { '@type': 'AdministrativeArea', name: 'Essex County, NJ' },
+  ];
+  for (const city of cities) {
+    out.push({ '@type': 'City', name: `${city.name}, NJ` });
+    for (const zip of city.zipCodes) {
+      out.push({ '@type': 'PostalCodeSpecification', postalCode: zip, addressCountry: 'US' });
+    }
+  }
+  for (const n of NEWARK_NEIGHBORHOODS) out.push({ '@type': 'Place', name: `${n}, Newark, NJ` });
+  return out;
+}
+
+/**
+ * Credentials the business actually holds. No `identifier` — site-config's
+ * license.number is deliberately empty until the canonical NJ HIC number is
+ * supplied, and a placeholder would be a fabricated credential number.
+ * Entry 2 is "GAF-Certified Installers", what content-constants substantiates;
+ * "GAF Certified Roofing Contractor" would assert company-level membership.
+ */
+export function buildCredentialSchemas(): Array<Record<string, unknown>> {
+  return [
+    {
+      '@type': 'EducationalOccupationalCredential',
+      name: 'New Jersey Home Improvement Contractor Registration',
+      credentialCategory: 'Registration',
+      recognizedBy: {
+        '@type': 'GovernmentOrganization',
+        name: 'New Jersey Division of Consumer Affairs',
+        url: 'https://www.njconsumeraffairs.gov/hic',
+      },
+      validIn: { '@type': 'State', name: 'New Jersey' },
+    },
+    {
+      '@type': 'EducationalOccupationalCredential',
+      name: 'GAF-Certified Installers',
+      credentialCategory: 'Certification',
+      recognizedBy: { '@type': 'Organization', name: 'GAF' },
+    },
+  ];
+}
+
 export function buildOrganizationSchema(): Record<string, unknown> {
   return {
     '@type': 'Organization',
@@ -108,6 +172,8 @@ export function buildRoofingContractorSchema(): Record<string, unknown> {
     // D-01: aggregateRating key omitted entirely while rating is disabled.
     ...(aggregateRating ? { aggregateRating } : {}),
     openingHoursSpecification: buildOpeningHours(),
+    areaServed: buildAreaServedList(),
+    hasCredential: buildCredentialSchemas(),
   };
 }
 
@@ -160,11 +226,47 @@ export function buildLocalBusinessSchema(city: {
   };
 }
 
-export function buildServiceSchema(service: {
-  name: string;
-  slug: string;
-  shortDescription: string;
-}): Record<string, unknown> {
+/**
+ * Offer catalog from a service's core sub-services.
+ *
+ * No `position` — that is a ListItem property, not an Offer one, and Google
+ * drops it. No `price`: only a whole-job range is substantiated, and pricing an
+ * individual repair would invent a figure. Descriptions run through
+ * stripMarkdown so authored bold does not leak into structured data.
+ */
+export function buildServiceOfferCatalog(
+  serviceName: string,
+  subServices: Array<{ name: string; description: string }>,
+): Record<string, unknown> {
+  return {
+    '@type': 'OfferCatalog',
+    name: `${serviceName} services`,
+    itemListElement: subServices.map((sub) => ({
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'Service',
+        name: sub.name,
+        description: stripMarkdown(sub.description),
+      },
+    })),
+  };
+}
+
+export function buildServiceSchema(
+  service: {
+    name: string;
+    slug: string;
+    shortDescription: string;
+  },
+  // Optional and defaulted off. buildServiceSchema is also called from
+  // ComboTemplate.tsx, so an unconditional change here would rewrite the Service
+  // node on every combo page.
+  opts?: { subServices?: Array<{ name: string; description: string }> },
+): Record<string, unknown> {
+  const catalog =
+    opts?.subServices && opts.subServices.length > 0
+      ? buildServiceOfferCatalog(service.name, opts.subServices)
+      : null;
   return {
     '@type': 'Service',
     '@id': `${BASE_URL}/${service.slug}/#service`,
@@ -175,6 +277,7 @@ export function buildServiceSchema(service: {
       '@type': 'AdministrativeArea',
       name: 'Essex County, NJ',
     },
+    ...(catalog ? { hasOfferCatalog: catalog } : {}),
   };
 }
 

@@ -24,6 +24,13 @@ interface ServiceRichSectionsProps {
   sections: NonNullable<ServiceContent['sections']>;
   /** Authored ISO date (YYYY-MM-DD) for the visible "Content updated" stamp. */
   contentUpdated?: string;
+  /**
+   * Core sub-services. The rich branch replaces ServiceOverview, which is the
+   * only other renderer of this field — so without this they are invisible on
+   * this page, and an OfferCatalog built from them would mark up content the
+   * reader never sees.
+   */
+  subServices?: NonNullable<ServiceContent['subServices']>;
 }
 
 /**
@@ -33,7 +40,7 @@ interface ServiceRichSectionsProps {
  * render the generic overview/signs/approach band instead. Mirrors the
  * SectionHeading + ProseLead treatment used by EntityDefinition and HubScaffold.
  */
-export function ServiceRichSections({ sections, contentUpdated }: ServiceRichSectionsProps) {
+export function ServiceRichSections({ sections, contentUpdated, subServices }: ServiceRichSectionsProps) {
   return (
     <>
       {sections.map((section, index) => {
@@ -122,6 +129,24 @@ export function ServiceRichSections({ sections, contentUpdated }: ServiceRichSec
           </section>
         );
       })}
+
+      {subServices && subServices.length > 0 && (
+        <section aria-labelledby="core-repairs-heading">
+          <SectionHeading id="core-repairs-heading" icon={SECTION_ICON}>
+            Core Roof Repairs Newark Quality Roofing Performs
+          </SectionHeading>
+          <dl className="mt-5 max-w-[68ch] space-y-4">
+            {subServices.map((sub) => (
+              <div key={sub.name}>
+                <dt className="font-body font-semibold text-forest">{sub.name}</dt>
+                <dd className="mt-1 font-body text-base leading-relaxed text-text-secondary">
+                  {parseRichText(sub.description)}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )}
 
       {contentUpdated && (
         <div>
