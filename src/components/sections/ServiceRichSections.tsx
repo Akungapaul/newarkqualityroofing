@@ -43,6 +43,21 @@ export function ServiceRichSections({ sections }: ServiceRichSectionsProps) {
             <div className="mt-5">
               <ProseLead paragraphs={section.body} />
             </div>
+
+            {section.subsections && section.subsections.length > 0 && (
+              <div className="mt-8 space-y-8">
+                {section.subsections.map((sub, subIndex) => (
+                  <div key={`${headingId}-sub-${subIndex}`}>
+                    <h3 className="font-heading text-xl font-bold text-forest sm:text-2xl">
+                      {sub.heading}
+                    </h3>
+                    <div className="mt-4">
+                      <ProseLead paragraphs={sub.body} />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </section>
         );
       })}

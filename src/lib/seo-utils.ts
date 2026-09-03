@@ -66,7 +66,29 @@ export function buildComboDescription(service: Service, city: City): string {
 
 // ─── Service Descriptions ───────────────────────────────────────────────────
 
+/**
+ * Per-service meta-description overrides — narrow, opt-in, one entry per page.
+ *
+ * The generic tiers below serve all 65 services and stay the default. A service
+ * lands here only when its own page has been individually optimised and the
+ * template output is measurably worse for it (e.g. the generic Tier 1 ends
+ * "Serving Essex County" right after "Local Essex County roofers", spending
+ * ~20 chars restating itself).
+ *
+ * Keep every entry <= 160 chars (audit-meta.ts) and factually true of NQR:
+ * "registered" NJ Home Improvement Contractor, never "licensed".
+ */
+const SERVICE_DESCRIPTION_OVERRIDES: Record<string, string> = {
+  // 2026-09-03, Cora Phase 1: template output was 109 chars against a 148 goal
+  // and repeated Essex County twice. 152 chars / 22 words / 2 "roof repair".
+  'roof-repair':
+    'Roof repair in Newark, NJ from $350–$1,500. Roof leak repair, flashing, shingle and flat-roof repairs from a registered Essex County roofing contractor.',
+};
+
 export function buildServiceDescription(service: Service): string {
+  const override = SERVICE_DESCRIPTION_OVERRIDES[service.id];
+  if (override) return override;
+
   const pricing = PRICING[service.id as keyof typeof PRICING];
   const svc = service.name.toLowerCase();
 

@@ -186,8 +186,16 @@ export const ServiceContentSchema = z.object({
   // approach/audience band (roof-repair uses this to carry a Surfer brief).
   // The ~64 other services omit every field below and render exactly as before.
   sections: z.array(z.object({
-    heading: z.string(),         // question-form H2
+    heading: z.string(),         // statement-form H2
     body: z.array(z.string()).min(1), // rich-text paragraphs (parseRichText)
+    // Optional H3 layer beneath the section's H2. Statement-form, same as every
+    // other heading (heading policy v3) — the rendered audit rejects any H1-H4
+    // ending in "?" and requires ", NJ" wherever a place is named. Levels stay
+    // monotonic because these render only inside their parent H2's <section>.
+    subsections: z.array(z.object({
+      heading: z.string(),       // statement-form H3
+      body: z.array(z.string()).min(1),
+    })).optional(),
   })).optional(),
   // "Local property context" chip grid (rendered via CityNeighborhoods).
   neighborhoods: z.array(z.object({
