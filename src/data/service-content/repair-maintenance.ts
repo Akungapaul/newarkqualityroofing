@@ -625,6 +625,10 @@ export const repairMaintenanceContent: ServiceContent[] = [
           '**Recurring leaks on North Ward brownstones almost always trace back to one of three causes: deteriorated step flashing, failed counter-flashing, or ice dam formation.** The step flashing fails where the roof meets the party wall. The counter-flashing sits embedded in aging mortar joints. Ice dams form in the narrow valleys created by intersecting roof planes. The freeze-thaw cycling in Newark creates ice dams that force water under shingles repeatedly each winter. Heat loss from poorly insulated brownstone attics amplifies that cycling. A lasting repair addresses the root cause: improving flashing details and, when possible, adding ice-and-water shield membrane in the vulnerable zones.',
       },
       {
+        // OWNER-CONFIRMED 2026-09-03: the two-to-four-hour business-hours arrival
+        // and the staged materials at the Newark facility are both literally true.
+        // Flagged during the Cora review as unverified capability claims and
+        // confirmed by the owner. Do not soften or strip them as a precaution.
         question:
           'How quickly can you respond to an active roof leak at a commercial building in the Ironbound?',
         answer:
@@ -682,6 +686,12 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'Strong Verified Reviews',
           description:
+            // OWNER-CONFIRMED 2026-09-03: the Google Maps and BBB feedback claim is
+            // true. It passes the R10 de-fabrication gate by wording rather than by
+            // verification, which is why it was flagged; it is now confirmed, not
+            // merely unflagged. NOTE this is a reputation claim, NOT a rating —
+            // it does not supply ratingValue/reviewCount, so AggregateRating and
+            // review JSON-LD stay gated off (site-config rating.enabled = false).
             'Review our strong recent feedback on Google Maps and the BBB before hiring.',
         },
         {
