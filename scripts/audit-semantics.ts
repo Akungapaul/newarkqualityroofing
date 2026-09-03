@@ -110,6 +110,38 @@ const DEFAB: Array<[string, RegExp]> = [
   ['N+ count claim', /\b\d+\+\s*(?:projects?|roofs?|homes?|homeowners?|jobs?|customers?|clients?|installs?|installations?|reviews?|five[-\s]star)\b/i],
   ['fake NAP', /123\s+main\s+st|\(973\)\s*555-0123/i],
 ];
+
+/**
+ * R10 exemptions — narrowly scoped, owner-confirmed TRUE claims.
+ *
+ * R10 is the DE-FABRICATION rule: it exists to catch invented marketing claims.
+ * A claim the owner has confirmed is literally true is a false positive, not a
+ * content defect. Exempt it HERE rather than removing the pattern from DEFAB —
+ * removing the pattern would disable the check for every future page.
+ *
+ * Rewording to evade the regex is explicitly NOT the remedy: "round-the-clock"
+ * and "within one business day" assert the same thing while reading as a weaker
+ * commitment than the business actually offers.
+ *
+ * Each entry records WHAT is exempt, WHERE, and WHEN it was confirmed.
+ */
+const DEFAB_EXEMPT: Array<{ scope: RegExp; path: RegExp; labels: string[]; confirmed: string }> = [
+  {
+    // Owner-confirmed 2026-09-03: NQR does run same-day estimates and 24/7
+    // emergency response. Same claims appear in Footer.tsx, ContactPage.tsx and
+    // seo-utils.ts, which this audit does not scan — they are consistent.
+    scope: /^service:roof-repair$/,
+    path: /^whyChooseUs\.reasons\[5\]\./,
+    labels: ['24/7', 'same-day'],
+    confirmed: '2026-09-03',
+  },
+];
+
+function isDefabExempt(scope: string, path: string, label: string): boolean {
+  return DEFAB_EXEMPT.some(
+    (e) => e.labels.includes(label) && e.scope.test(scope) && e.path.test(path)
+  );
+}
 const SENTIMENT = /\b(best|amazing|trusted|leading|premier|top[-\s]rated|unbeatable|world[-\s]class|stunning|incredible|exceptional|renowned|cutting[-\s]edge|game[-\s]changing|top\s+roofers)\b/gi;
 const CASUAL = /\b(basically|a ton of|at the end of the day|when it comes to|kind of|pretty much|you guys)\b|\b(?:like|as if) a\b|\bimagine\b/gi;
 // High-signal entity pronouns only. "this/that/these/those/there" are excluded —
@@ -143,6 +175,7 @@ function auditObject(scope: string, obj: unknown): void {
     if (VERIFY.test(value)) push(gate, { tier: 'GATE', rule: 'R10 [VERIFY] leak', scope, path, detail: excerpt(value, value.match(VERIFY)![0]) });
     if (OUTBOUND.test(value)) push(gate, { tier: 'GATE', rule: 'R9 outbound link', scope, path, detail: excerpt(value, value.match(OUTBOUND)![0]) });
     for (const [label, re] of DEFAB) {
+      if (isDefabExempt(scope, path, label)) continue;
       const m = value.match(re);
       if (m) push(gate, { tier: 'GATE', rule: `R10 de-fab "${label}"`, scope, path, detail: excerpt(value, m[0]) });
     }

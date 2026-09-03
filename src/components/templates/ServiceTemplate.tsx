@@ -186,6 +186,21 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
   const kbH2 = serviceH2s[7];         // What Knowledge Base Articles Explain This Service?
   const scheduleH2 = serviceH2s[8];   // How Can You Schedule [Service]?
 
+  // Neighborhood grid — extracted so BOTH the rich-sections branch and the
+  // standard band can render it. Previously nested inside the content.sections
+  // true-branch, which meant adding `neighborhoods` to any other service
+  // silently rendered nothing. Renders once either way (no duplicate DOM id).
+  const neighborhoodsBlock =
+    content.neighborhoods && content.neighborhoods.length > 0 ? (
+      <AnimateIn>
+        <CityNeighborhoods
+          neighborhoods={content.neighborhoods}
+          cityName="Newark"
+          heading={content.neighborhoodsHeading}
+        />
+      </AnimateIn>
+    ) : null;
+
   return (
     <>
       <JsonLd data={buildJsonLdGraph(
@@ -247,15 +262,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
                   the standard band below. ── */}
               <AnimateIn><ServiceRichSections sections={content.sections} /></AnimateIn>
 
-              {content.neighborhoods && content.neighborhoods.length > 0 && (
-                <AnimateIn>
-                  <CityNeighborhoods
-                    neighborhoods={content.neighborhoods}
-                    cityName="Newark"
-                    heading={content.neighborhoodsHeading}
-                  />
-                </AnimateIn>
-              )}
+              {neighborhoodsBlock}
 
               {content.problemsWeExpect && (
                 <AnimateIn>
@@ -272,6 +279,8 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
             <>
               {/* ── §4.2 CORE band: first content H2 = "What [Service] Do We Provide?" ── */}
               <AnimateIn><ServiceOverview heading={coreH2} paragraphs={content.overview} subServices={content.subServices} image={overviewImg ? { src: overviewImg.path, alt: `${service.name} consultation - ${overviewImg.alt}` } : undefined} /></AnimateIn>
+
+              {neighborhoodsBlock}
 
               {/* Outer: How Do You Know If You Need [Service]? */}
               <AnimateIn><ServiceSigns heading={signsH2} signs={content.signs} /></AnimateIn>

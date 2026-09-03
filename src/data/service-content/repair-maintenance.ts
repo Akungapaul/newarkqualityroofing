@@ -25,17 +25,10 @@ export const repairMaintenanceContent: ServiceContent[] = [
         ],
       },
       {
-        heading: 'Roofing Services Newark Quality Roofing Provides',
+        heading: 'Roof Repair Services Newark Quality Roofing Provides in Newark, NJ',
         body: [
-          '**Newark Quality Roofing offers a comprehensive range of roofing services to meet the diverse needs of Newark homeowners and businesses.** From minor repairs and routine maintenance to full roof replacements and emergency storm damage restoration, our registered and insured team ensures quality workmanship and timely project completion.',
-          'Our services include roof inspections, leak diagnosis, flashing repairs, shingle replacement, metal roof repairs, flat roof membrane maintenance, gutter installation, and ventilation improvements. We are committed to protecting your property with durable solutions tailored to Newark\'s unique climate and architectural challenges.',
-        ],
-      },
-      {
-        heading: 'New Roof Options for Newark, NJ Homes and Businesses',
-        body: [
-          '**When repairs are no longer sufficient, a new roof installation provides lasting protection and improved energy efficiency.** Newark Quality Roofing offers a variety of new roof solutions tailored to the diverse architectural styles and roofing materials found across Newark.',
-          'Whether you need asphalt shingles for residential properties or single-ply membranes for commercial flat roofs, our team ensures high-quality workmanship and adherence to the latest industry standards.',
+          '**Newark Quality Roofing repairs roofs across Newark, New Jersey**, covering roof inspections, leak diagnosis, flashing repair, shingle repair, metal roof repair, and flat-roof membrane repair, as a registered and insured New Jersey Home Improvement Contractor.',
+          'Each repair matches the failed component to Newark, New Jersey building stock and climate — party-wall flashing on attached brownstones, low-slope membrane on Ironbound commercial blocks, and asphalt shingle fields on pitched Vailsburg roofs. Newark Quality Roofing diagnoses the source of water entry before sealing any component, so the repair addresses the cause rather than the visible stain.',
         ],
       },
       {
@@ -50,21 +43,21 @@ export const repairMaintenanceContent: ServiceContent[] = [
         body: [
           '**Newark\'s climate and urban environment expose roofs to frequent storm damage, including wind, heavy rain, hail, and thermal stress.** The Ironbound neighborhood, with its mix of Portuguese bakeries, Brazilian restaurants, and light industrial buildings, presents flat-roof repair challenges distinct from the pitched residential roofs found in Vailsburg or Weequahic.',
           'Commercial membrane roofs in the Ironbound accumulate standing water behind parapets, develop blistering under Newark\'s urban heat island effect, and suffer punctures from rooftop HVAC equipment that serves the dense commercial district below. Repairing these roofs requires material knowledge that goes beyond residential shingle work and includes the use of advanced roofing products and underlayment to provide lasting protection.',
-          'Emergency roofing services are crucial after severe storms and hail damage to prevent further deterioration and costly repairs. Our insured team is prepared to assist with insurance claims and ensure prompt completion of repairs to restore your roof\'s integrity.',
+          'Newark Quality Roofing documents storm and hail damage with timestamped photographs and a written scope of work for insurance adjusters, then completes the permanent repair on the schedule set in the written estimate.',
         ],
       },
       {
-        heading: 'Get a Free Estimate for Roof Repair or Replacement',
+        heading: 'Get a Free Roof Repair Estimate in Newark, NJ',
         body: [
-          '**We offer a free estimate for all roof repair and new roof projects in Newark.** Our detailed assessments include photo-documented diagnosis and a transparent written proposal so you can make informed decisions about your roofing needs. Contact us today to schedule your free estimate and receive expert guidance tailored to your property.',
-          'From the steep slate roofs of Forest Hill\'s historic estates to the modified bitumen surfaces atop Downtown\'s mixed-use buildings along Broad Street, Newark demands roof repair technicians who can move fluently between eras and materials. Our team brings that versatility — we carry both traditional copper soldering equipment and modern single-ply welding gear on every service call, because in Newark, you never know which century\'s roofing system you\'ll encounter until you\'re standing on it. We also specialize in metal roof repairs and installations, including ridge vents installation to improve attic ventilation and prevent mold growth.',
+          '**Newark Quality Roofing provides a free estimate for every roof repair in Newark, New Jersey.** Each assessment includes a photo-documented diagnosis of the failed component and a transparent written proposal, so a property owner sees the scope and the price before any repair begins.',
+          'From the steep slate roofs of Forest Hill\'s historic estates to the modified bitumen surfaces atop Downtown\'s mixed-use buildings along Broad Street, Newark demands roof repair technicians who can move fluently between eras and materials. Our team brings that versatility — we carry both traditional copper soldering equipment and modern single-ply welding gear on every service call, because a Newark roofline can present any century\'s roofing system. Newark Quality Roofing also repairs metal roofs, resealing seams, fasteners, and panel laps.',
         ],
       },
       {
         heading: 'Local Challenges That Affect Newark, NJ Roofs',
         body: [
           '**The number one roof repair challenge in Newark is water infiltration through shared party walls.** With thousands of attached brownstones and row houses across the North Ward, Forest Hill, and Roseville, the typical repair isn\'t isolated to one roof plane. Water travels laterally through deteriorated mortar joints, bypasses flashing that was installed decades before modern building codes, and, when wind and heavy rain hit attached Newark buildings, leaks can spread farther before emerging inside a living space two or three units away from the actual point of failure. Diagnosing these migrating leaks requires systematic moisture testing along the entire row, not just the unit reporting damage, and dealing with minor vulnerabilities early can reduce long-term costs.',
-          'Newark\'s position within the urban heat island corridor between the Passaic River and Newark Bay amplifies thermal cycling on roofing materials. Summer roof surface temperatures regularly exceed 160 degrees Fahrenheit on dark asphalt shingles in the Central Ward, while winter freeze-thaw cycles crack aging flashing and split deteriorated caulk joints; local repairs also need to account for snow load requirements and proper ventilation in Newark\'s climate. This thermal whiplash accelerates the aging of repair materials — a patch that might last seven years in a suburban setting may fail in three or four on a sun-baked Newark rooftop with no shade canopy. Once infiltration starts, prompt repair is crucial to keep the structure protected and prevent severe home damage including mold development.',
+          'Newark\'s position within the urban heat island corridor between the Passaic River and Newark Bay amplifies thermal cycling on roofing materials. Summer roof surface temperatures regularly exceed 160 degrees Fahrenheit on dark asphalt shingles in the Central Ward, while winter freeze-thaw cycles crack aging flashing and split deteriorated caulk joints; local repairs also account for snow load requirements and proper ventilation in Newark\'s climate. This thermal whiplash accelerates the aging of repair materials — a patch that might last seven years in a suburban setting may fail in three or four on a sun-baked Newark rooftop with no shade canopy. Once infiltration starts, prompt repair is crucial to keep the structure protected and prevent severe home damage including mold development.',
           'Access complications define many Newark roof repairs. Multi-story brownstones on narrow lots in the North Ward leave no room for standard ladder placement. Fire escapes obstruct sections of roof edge. Parapet walls on commercial buildings downtown create confined working spaces. In the Ironbound, buildings frequently abut sidewalks with no setback, requiring traffic coordination with the city for aerial lift placement. On flat roofs, standing water from poor drainage commonly degrades membranes over time. Every repair job in Newark starts with an access plan before a single shingle gets touched, and solving those constraints quickly helps avoid costly repairs from delayed work.',
           'Common local roof work involves brownstones and row houses, flat-roof commercial blocks, and mixed-use downtown buildings. Don\'t wait for minor damage to become a major expense — early action saves thousands.',
         ],
@@ -107,11 +100,10 @@ export const repairMaintenanceContent: ServiceContent[] = [
         'Poor attic ventilation can trap heat and moisture, contributing to premature aging of roof decks on older homes',
         'Periodic attic checks can reveal early-stage leaks or poor ventilation',
         'Wind-driven rain off Newark Bay',
-        'Emergency roof repair is crucial after severe storms and hail damage',
         'Rooftop HVAC punctures',
         'Photo-documented diagnosis',
         'Temporary water-control plan',
-        'Material-matched repair including tear off and replacement of damaged underlayment and existing shingles when necessary, especially when multiple layers are involved',
+        'Material-matched repair of damaged underlayment and shingles at the failed section',
         'Post-repair inspection notes',
         'Ongoing maintenance planning',
         'Signs of damage may be subtle and left unchanged if not properly assessed during inspections',
@@ -202,7 +194,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         title: 'Documentation and Insurance Support',
         description:
-          'After completing repairs, we document everything with timestamped photographs keyed to a roof diagram. This documentation serves Newark homeowners during insurance claims, satisfies property management companies overseeing multi-family buildings, and provides a baseline for future inspections. For party-wall repairs involving multiple properties, we provide separate documentation packages to each owner — a necessity in Newark\'s row-house landscape where shared responsibility demands shared information. We also offer 24-hour emergency roof repair service in Newark, and customers can contact our team by phone when urgent damage appears for complete support across our roofing services.',
+          'After completing repairs, we document everything with timestamped photographs keyed to a roof diagram. This documentation serves Newark homeowners during insurance claims, satisfies property management companies overseeing multi-family buildings, and provides a baseline for future inspections. For party-wall repairs involving multiple properties, we provide separate documentation packages to each owner — a necessity in Newark\'s row-house landscape where shared responsibility demands shared information.',
       },
       {
         title: 'Verification and Written Warranty',
@@ -251,18 +243,14 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'Full Insurance Coverage',
       'Free Estimates',
     ],
-    pricingHeading:
-      'Roof Repair, Replacement, and Installation Costs in Newark, NJ',
     pricing: {
       range: '$350–$1,500 for most repairs',
       factors: [
-        'Most roof repair projects in Newark range from $350–$1,500, depending on scope and materials — costs can vary depending on roof age, access, materials, and whether a small repair will do or a roof replacement makes more sense once roofs start to deteriorate after 15–20 years, a significant investment homeowners should budget and plan how to pay for.',
-        'For homes, asphalt shingles are a common choice, while on many flat roofs single-ply membranes are lightweight, efficient, and popular for easier roofing installation after old materials are torn away.',
-        'A full commercial flat roof replacement can run about $250,000 to $1,120,000, especially since Newark\'s commercial roofs average 17,117 square feet.',
-        'Cool-roof options can reduce energy bills, and green roofs can improve insulation and stormwater management where the building is a fit.',
+        'Most roof repair projects in Newark, NJ range from $350–$1,500, depending on scope and materials — the cost moves with roof age, access, and the failed component.',
+        'For homes, an asphalt shingle repair matches the existing shingle line, while on many flat roofs a single-ply repair reseals the seam or patches the puncture in the existing EPDM, TPO, or modified-bitumen system.',
       ],
       financingNote:
-        'We offer financing options to make new roof installations and major repairs more affordable.',
+        'Newark Quality Roofing provides a free written estimate and discusses payment and financing options for larger roof repairs at the estimate.',
     },
     whyChooseUs: {
       heading: 'Why Choose Newark Quality Roofing for Roof Repair in Newark, NJ',
@@ -273,7 +261,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             'As a local roofing company, our dedicated roofers specialize in the repair challenges common to Newark homes and businesses, and we\'ve helped 500+ Essex County property owners protect their biggest investment.',
         },
         {
-          title: 'Registered, Insured, and GAF-Certified',
+          title: 'Registered and Insured, With GAF Certification',
           description:
             'Registered in New Jersey and carrying general liability plus workers\' compensation insurance, with GAF certification backed by ongoing factory training that can support premium manufacturer warranties.',
         },
@@ -296,11 +284,6 @@ export const repairMaintenanceContent: ServiceContent[] = [
           title: 'Same-Day Estimates and 24/7 Emergency Response',
           description:
             'Local Newark crew providing same-day estimates and 24/7 emergency response, and we take pride in being your first call for urgent leaks — contact our expert team when you need us most.',
-        },
-        {
-          title: 'Related Exterior Work',
-          description:
-            'We also handle related exterior work such as gutters, siding, and windows where needed.',
         },
         {
           title: 'Customer Satisfaction and Safety',
@@ -463,7 +446,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
           '**A Newark Quality Roofing crew installs a new roof through Essex County winters, hand-sealing asphalt shingles in cold weather, because Newark crosses the 32°F freezing point repeatedly with an average January low near 25.5°F.** The January low traces to NOAA 1991–2020 normals at Newark Liberty (EWR), and freeze-thaw cycling stresses sealants and fasteners on an unbonded shingle.',
       },
     ],
-  
+
+    pricingHeading:
+      'Roof Replacement and New Roof Installation Costs in Newark, NJ',
     pricing: {
       range: '$10,000–$25,000+ for most replacements',
       factors: [
@@ -473,9 +458,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
         'Labor accounts for roughly 60–70% of an asphalt-install total, and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide and Integrity Home Exteriors.',
         'Roof complexity adds cost, because valleys, dormers, and hips increase both material and labor over a simple gable roof, per industry cost guidance.',
       ],
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and discusses payment and financing options at the estimate.',
     },
     whyChooseUs: {
-      heading: 'Why Choose Our Roofing Company for Roof Replacement?',
+      heading: 'Why Choose Newark Quality Roofing for Roof Replacement in Newark, NJ',
       reasons: [
         {
           title: 'NJ Home Improvement Contractor',
@@ -500,7 +487,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ],
     },
     credentialsHighlight: [
-      'NJ HIC Licensed',
+      'NJ HIC Registered',
       'Insured',
       'Free Roof Inspections',
       'Local Essex County Roofers',
