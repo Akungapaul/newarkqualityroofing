@@ -15,40 +15,64 @@ import { linkPolicy, relFor } from '@/lib/outbound-links';
  */
 export function parseRichText(text: string): React.ReactNode {
   // Combined pattern: links, bold, italic (order matters — bold before italic)
-  const pattern = /(\[([^\]]+)\]\(([^)]+)\))|\*\*(.+?)\*\*|\*(.+?)\*/g;
+  // ORDER MATTERS, and so does group numbering — the dispatch below indexes these
+  // positionally. Any change here must renumber every match[n] in lockstep.
+  //   1,2  [[TERM|expansion]]  → <abbr title>   (MUST precede the link branch:
+  //                              "[[" would otherwise partially match a link)
+  //   3,4,5 [text](/url)       → <a>            (3 = whole, 4 = label, 5 = href)
+  //   6    {{text}}            → <b>            (offset without added importance)
+  //   7    **text**            → <strong>       (bold before italic, or `**`
+  //   8    *text*              → <em>            would be eaten as two italics)
+  const pattern = /\[\[([^\]|]+)\|([^\]]+)\]\]|(\[([^\]]+)\]\(([^)]+)\))|\{\{(.+?)\}\}|\*\*(.+?)\*\*|\*(.+?)\*/g;
 
   const parts: React.ReactNode[] = [];
   let lastIndex = 0;
   let match: RegExpExecArray | null;
   let key = 0;
+  // Track marker matches explicitly. Inferring "no markers" from the shape of
+  // `parts` breaks when a marker legitimately yields a lone string — a rejected
+  // external link pushes its plain label, which would otherwise fall through the
+  // guard below and render the RAW markdown to the reader.
+  let matched = false;
 
   while ((match = pattern.exec(text)) !== null) {
+    matched = true;
     // Push preceding plain text
     if (match.index > lastIndex) {
       parts.push(text.slice(lastIndex, match.index));
     }
 
     if (match[1]) {
+      // Abbreviation: [[TERM|expansion]]
+      parts.push(
+        <abbr key={key++} title={match[2]} className="underline decoration-dotted decoration-from-font underline-offset-4">
+          {match[1]}
+        </abbr>
+      );
+    } else if (match[3]) {
       // Link: [text](/url) — dispatch on the shared outbound policy.
       // Internal hrefs render exactly as they always have (byte-identical
       // output). Allowlisted https citations gain a rel. Anything else renders
       // as plain label text rather than becoming an unvetted outbound link.
-      const policy = linkPolicy(match[3]);
+      const policy = linkPolicy(match[5]);
       if (policy === 'reject') {
-        parts.push(match[2]);
+        parts.push(match[4]);
       } else {
         parts.push(
-          <a key={key++} href={match[3]} rel={relFor(policy)} className="text-copper underline decoration-copper/40 underline-offset-2 transition-colors hover:text-copper-dark hover:decoration-copper">
-            {match[2]}
+          <a key={key++} href={match[5]} rel={relFor(policy)} className="text-copper underline decoration-copper/40 underline-offset-2 transition-colors hover:text-copper-dark hover:decoration-copper">
+            {match[4]}
           </a>
         );
       }
-    } else if (match[4]) {
+    } else if (match[6]) {
+      // Offset term: {{text}} → <b> (stylistic offset, not added importance)
+      parts.push(<b key={key++} className="font-semibold text-forest">{match[6]}</b>);
+    } else if (match[7]) {
       // Bold: **text**
-      parts.push(<strong key={key++} className="text-forest">{match[4]}</strong>);
-    } else if (match[5]) {
+      parts.push(<strong key={key++} className="text-forest">{match[7]}</strong>);
+    } else if (match[8]) {
       // Italic: *text*
-      parts.push(<em key={key++}>{match[5]}</em>);
+      parts.push(<em key={key++}>{match[8]}</em>);
     }
 
     lastIndex = match.index + match[0].length;
@@ -59,9 +83,11 @@ export function parseRichText(text: string): React.ReactNode {
     parts.push(text.slice(lastIndex));
   }
 
-  // If no markers found, return original string
-  if (parts.length === 0) return text;
-  if (parts.length === 1 && typeof parts[0] === 'string') return text;
+  // No markers at all — hand back the original string untouched.
+  if (!matched) return text;
+  // A single plain-string result is legitimate (e.g. a rejected link reduced to
+  // its label); return it as-is rather than the unparsed source text.
+  if (parts.length === 1 && typeof parts[0] === 'string') return parts[0];
 
   return <>{parts}</>;
 }

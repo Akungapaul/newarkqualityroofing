@@ -14,7 +14,8 @@
  *     - Rule 10 [VERIFY]/[UNVERIFIED] leaks in any content/meta string.
  *     - Rule 10 de-fabrication literals (24/7, same-day, GAF Certified, Master Elite,
  *               0% financing, top-rated, 500+, fake NAP) in content AND metaTitle/metaDescription.
- *     - `**` markdown-bold leaks in prerendered HTML (parser failed → literal asterisks).
+ *     - rich-text marker leaks in prerendered HTML (parser failed): `**` tested
+ *               against markup, `[[`/`{{` against tag-stripped text.
  *
  *   ADVISORY (report only, never fails the build):
  *     - Rule 14 sentiment/hype words.       - Rule 12 casual language / analogies.
@@ -269,7 +270,16 @@ function renderedAsteriskPass(): { ran: boolean; files: string[] } {
   for (const f of htmls) {
     let html = readFileSync(join(PRERENDER_DIR, f), 'utf8');
     html = html.replace(/<script[\s\S]*?<\/script>/gi, '').replace(/<style[\s\S]*?<\/style>/gi, '');
-    if (html.includes('**')) leaks.push(f);
+    // `**` is safe to test against markup: it never appears in valid HTML.
+    if (html.includes('**')) { leaks.push(f); continue; }
+    // The other rich-text markers DO collide with markup and RSC payload, so
+    // they are only meaningful once tags are stripped as well:
+    //   `[[` appears in every file via self.__next_f.push([[ … ]])
+    //   `__` appears in every file via __next_f / CSS-module hashes
+    // Measured on a full build: raw `[[` matched 1527/1527 files, tag-stripped
+    // matched 0/1527. Strip scripts (above) THEN tags before testing.
+    const text = html.replace(/<[^>]+>/g, ' ');
+    if (text.includes('[[') || text.includes('{{')) leaks.push(f);
   }
   return { ran: true, files: leaks };
 }
