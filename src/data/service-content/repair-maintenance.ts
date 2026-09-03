@@ -26,6 +26,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
     sections: [
       {
         heading: 'Why Newark, NJ Trusts Our Roofing Contractor for Roof Repair',
+        image: {
+          src: '/images/homepage/residential-split.webp',
+          alt: 'Roofer fastening a replacement asphalt shingle beside exposed underlayment and roof deck',
+          caption: 'Shingle repair over exposed underlayment.',
+        },
         body: [
           '**Newark Quality Roofing is the roofing contractor Newark property owners trust for roof repair**, in a city where row houses, flat roofs, and commercial blocks share tight rooflines — with prices starting from $350–$1,500 and free estimates available today.',
           'Newark\'s roofing landscape tells the story of a city built in layers — Victorian-era brownstones in Forest Hill pressed shoulder-to-shoulder against their neighbors, mid-century multi-family walk-ups lining the avenues of Roseville, and flat-roofed commercial blocks anchoring the Ironbound district. Roof repair here is never a simple patch job. The density of construction, the age of materials, and the shared structural elements between adjacent buildings mean that every repair demands an understanding of how water, wind, and time interact with Newark\'s particular building stock. Among Newark roofing companies, Newark Quality Roofing delivers the roof repair Newark residents and business owners trust.',
@@ -123,6 +128,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
       },
       {
         heading: 'Roof Repair Services Newark Quality Roofing Provides in Newark, NJ',
+        image: {
+          src: '/images/gallery/gallery-after-leak-damage.webp',
+          alt: 'New copper step flashing sealed along a brick chimney on an asphalt shingle roof',
+          caption: 'Chimney flashing repair with new copper.',
+        },
         body: [
           '**Newark Quality Roofing provides roof repair services across Newark, New Jersey**, covering roof inspections, leak diagnosis, flashing repair, shingle repair, metal roof repair, and flat-roof membrane repair, as a registered and insured New Jersey Home Improvement Contractor.',
           'Each repair matches the failed component to Newark, New Jersey building stock and climate — party-wall flashing on attached brownstones, low-slope membrane on Ironbound commercial blocks, and asphalt shingle fields on pitched Vailsburg roofs. Newark Quality Roofing diagnoses the source of water entry before sealing any component, so the repair addresses the {{cause}}, not the visible stain.',
@@ -197,6 +207,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
       },
       {
         heading: 'How Roof Inspections Diagnose Leaking Roofs in Newark, NJ',
+        image: {
+          src: '/images/gallery/gallery-before-leak-damage.webp',
+          alt: 'Active roof leak at a chimney transition with water staining on the surrounding shingles',
+          caption: 'Leak at a chimney transition before repair.',
+        },
         body: [
           '**Brownstone rows throughout the North Ward and Forest Hill present a recurring challenge: party walls.** These shared masonry dividers between row houses create seams where flashing deteriorates, mortar joints crack, and water finds paths that no single homeowner can address alone.',
           'Inspection guidance from [InterNACHI](https://www.nachi.org/roof-inspection.htm) treats the roof covering, flashings, and penetrations as separate inspection items, which is why a repair scope names the failed component rather than the roof as a whole. A leaking roof on one unit frequently reveals damage migrating from — or toward — the adjoining property. Our crews understand the diplomacy and technical coordination required when repair work spans property lines, and we carry the liability coverage that Newark\'s multi-party repair situations demand.',
@@ -248,6 +263,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
       },
       {
         heading: 'Addressing Storm Damage and Hail Damage in Newark, NJ',
+        image: {
+          src: '/images/gallery/gallery-before-storm-damage.webp',
+          alt: 'Storm-torn asphalt shingles with underlayment exposed across a residential roof slope',
+          caption: 'Wind-torn shingles with underlayment exposed.',
+        },
         body: [
           '**Newark\'s climate and urban environment expose roofs to frequent storm damage, including wind, heavy rain, hail, and thermal stress.** The Ironbound neighborhood, with its mix of Portuguese bakeries, Brazilian restaurants, and light industrial buildings, presents flat-roof repair challenges distinct from the pitched residential roofs found in Vailsburg or Weequahic.',
           'On an intact membrane, infrared imaging locates wet insulation below the surface under [ASTM C1153](https://www.astm.org/c1153-10r15.html), the standard practice for that survey. Commercial membrane roofs in the Ironbound accumulate standing water behind parapets, develop blistering under Newark\'s urban heat island effect, and suffer punctures from rooftop [[HVAC|heating, ventilation, and air conditioning]] equipment that serves the dense commercial district below. Repairing these roofs requires material knowledge that goes beyond residential shingle work and includes the use of advanced roofing products and underlayment to provide lasting protection.',
@@ -300,6 +320,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
       },
       {
         heading: 'Get a Free Roof Repair Estimate in Newark, NJ',
+        image: {
+          src: '/images/homepage/repair-services.webp',
+          alt: 'Roof repair in progress with old shingles removed and new courses being set',
+          caption: 'Repair in progress, old courses removed.',
+        },
         costTable: {
           caption: 'Where four common Newark, NJ roof repairs fall inside the $350-$1,500 range. Position only — the written estimate carries the price for a specific roof.',
           columns: ['Repair', 'Position in range', 'What sets it there'],
@@ -385,6 +410,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
       },
       {
         heading: 'Local Challenges That Affect Newark, NJ Roofs',
+        image: {
+          src: '/images/gallery/gallery-before-commercial-ponding.webp',
+          alt: 'Ponding water standing on a low-slope commercial membrane roof near a drain',
+          caption: 'Ponding water on a low-slope membrane roof.',
+        },
         body: [
           '**The number one roof repair challenge in Newark is water infiltration through shared party walls.** With thousands of attached brownstones and row houses across the North Ward, Forest Hill, and Roseville, the typical repair isn\'t isolated to one roof plane. Water travels laterally through deteriorated mortar joints, bypasses flashing that was installed decades before modern building codes, and, when wind and heavy rain hit attached Newark buildings, leaks can spread farther before emerging inside a living space two or three units away from the actual point of failure. Diagnosing these migrating leaks requires systematic moisture testing along the entire row, not just the unit reporting damage, and dealing with minor vulnerabilities early can reduce long-term costs.',
           'Newark\'s position within the urban heat island corridor between the Passaic River and Newark Bay amplifies thermal cycling on roofing materials. Summer roof surface temperatures regularly exceed 160 degrees Fahrenheit on dark asphalt shingles in the Central Ward, while winter freeze-thaw cycles crack aging flashing and split deteriorated caulk joints; local repairs also account for snow load requirements and proper ventilation in Newark\'s climate. This thermal whiplash accelerates the aging of repair materials — a patch that might last seven years in a suburban setting may fail in three or four on a sun-baked Newark rooftop with no shade canopy. Once infiltration starts, drying the water-damaged materials within 24 to 48 hours prevents mold growth, per the [EPA](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home).',

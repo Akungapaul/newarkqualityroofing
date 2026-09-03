@@ -1,4 +1,5 @@
 import { ProseLead, SectionHeading } from './ProseLead';
+import Image from 'next/image';
 import { parseRichText } from '@/lib/rich-text';
 import type { ServiceContent } from '@/lib/types';
 
@@ -51,7 +52,28 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
               {section.heading}
             </SectionHeading>
             <div className="mt-5">
-              <ProseLead paragraphs={section.body} />
+              <ProseLead
+                paragraphs={section.body}
+                media={
+                  section.image ? (
+                    <figure className="photo-treatment overflow-hidden rounded-lg">
+                      <div className="relative aspect-[16/9] w-full">
+                        <Image
+                          src={section.image.src}
+                          alt={section.image.alt}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 60vw"
+                          loading="lazy"
+                        />
+                      </div>
+                      <figcaption className="mt-2 font-body text-xs text-text-secondary">
+                        {section.image.caption}
+                      </figcaption>
+                    </figure>
+                  ) : undefined
+                }
+              />
             </div>
 
             {section.costTable && (

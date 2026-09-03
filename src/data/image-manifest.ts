@@ -1865,7 +1865,7 @@ export const imageManifest: ImageEntry[] = [
     prompt: "Happy homeowner shaking hands with contractor in front of completed roof",
   },
   {
-    id: "why-warranty",
+    id: "section-why-warranty",
     filename: "section-why-choose-warranty.webp",
     path: "/images/sections/service/section-why-choose-warranty.webp",
     alt: "Roofing warranty document with manufacturer guarantee",
@@ -2602,4 +2602,27 @@ export function getTeamMemberImage(memberId: string): ImageEntry | undefined {
   return imageManifest.find(
     (e) => e.category === 'team' && e.id === memberId
   );
+}
+
+// ─── Integrity guards ────────────────────────────────────────────────────────
+
+/**
+ * Duplicate ids are a silent-wrong-file bug: every lookup here is a `.find()`,
+ * which returns the FIRST match. `why-warranty` was declared twice (homepage and
+ * section variants) until 2026-09-03, so any lookup got the homepage file.
+ * Fail loudly at module load instead.
+ */
+{
+  const seen = new Set<string>();
+  for (const img of imageManifest) {
+    if (seen.has(img.id)) {
+      throw new Error(`image-manifest: duplicate id "${img.id}" — ids must be unique (lookups use .find()).`);
+    }
+    seen.add(img.id);
+  }
+}
+
+/** Look up a manifest entry by id, or undefined. */
+export function getImageById(id: string) {
+  return imageManifest.find((img) => img.id === id);
 }
