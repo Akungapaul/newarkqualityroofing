@@ -44,6 +44,29 @@ export const repairMaintenanceContent: ServiceContent[] = [
               '**Flat roof repair** on Newark\'s commercial blocks reseals low-slope membrane — EPDM, TPO, and modified bitumen — at seams, parapet transitions, and rooftop HVAC penetrations, where standing water and thermal movement concentrate the failure.',
               'Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and ¼ inch per foot is the minimum drainage slope, per NRCA and [ARMA](https://www.asphaltroofing.org/resources/). Membrane age measured against rated service life frames the repair decision: [[EPDM|ethylene propylene diene monomer]] runs 15–25 years, [[TPO|thermoplastic polyolefin]] 7–20 years, and modified bitumen 20 years, per the [InterNACHI life-expectancy chart](https://www.nachi.org/life-expectancy.htm). Repairing more than 25% of a commercial roof area within a 12-month period requires a permit under [[N.J.A.C.|New Jersey Administrative Code]] 5:23-2.7, per the [NJ Uniform Construction Code](https://www.nj.gov/dca/codes/), which places the line between a repair and a permitted job at the measured area.',
             ],
+              points: [
+                {
+                  heading: 'Field Seams Open Along the Membrane Lap Line',
+                  body: [
+                    '**Field seams** join one membrane sheet to the next along an overlapped lap, and that lap, not the sheet itself, carries the failure once the weld or adhesive bond loses continuity.',
+                    'Thermal movement works the laps in tension and compression across a low-slope field, and the bond releases along a short run rather than across the whole seam. Water entering that run travels laterally between the membrane and the substrate, so the interior stain appears at a distance from the open lap. Probing the seam edge locates the separation, so the repair scope starts at the lap rather than at the stain.',
+                  ],
+                },
+                {
+                  heading: 'Parapet Transitions Split Where the Membrane Turns Vertical',
+                  body: [
+                    '**Parapet transitions** carry the membrane from the horizontal deck up the inside face of the wall, and the sheet takes concentrated stress at that bend, where deck and wall move independently.',
+                    'A split at that bend admits water behind the membrane rather than onto it, into the wall assembly and the deck edge, while the surface above reads as intact. The termination at the top of that vertical run holds the sheet against the wall, and a released fastener line there drops the whole run out of tension. Repair rebuilds the transition as one assembly, from the deck angle through the termination above it.',
+                  ],
+                },
+                {
+                  heading: 'Drains and Scuppers Fail Where Metal Meets Membrane',
+                  body: [
+                    '**Roof drains and scuppers** discharge water through metal set into the membrane, and the sealed joint between that metal and the surrounding sheet is where the assembly opens.',
+                    'A drain clamps the membrane between its flange and a clamping ring at a low point of the field, so runoff from the area it serves converges on that one joint. A scupper carries the same exposure through the parapet, where the sleeve passes through the wall and its seal sits inside the wall assembly. Debris collecting at a strainer or a scupper mouth backs water up over both details and holds it there instead of moving it off the roof.',
+                  ],
+                },
+              ],
           },
           {
             heading: 'Multi-Family Walk-Up Roof Repairs in Newark, NJ',
@@ -58,6 +81,29 @@ export const repairMaintenanceContent: ServiceContent[] = [
               '**Flashing repair at party walls and parapets** rebuilds a two-part assembly — step flashing at the roof-to-wall transition, and counter-flashing set into the mortar joint above it.',
               'A parapet carries that same pair plus the coping that caps the wall top. The two pieces follow different planes — step flashing follows the roof, counter-flashing follows the wall — so a repair treating them as one piece leaves the moving joint between them unsealed. The mortar holds the counter-flashing, and a joint that has deteriorated releases it and passes water behind metal that still reads as sound from the street. Resetting that counter-flashing into sound mortar restores the seal; a bead of sealant run across a released lap leaves the joint open.',
             ],
+              points: [
+                {
+                  heading: 'Step Flashing Fails Piece by Piece Along the Run',
+                  body: [
+                    '**Step flashing** consists of individual L-shaped metal pieces, one per shingle course, each bent over the roof plane and up the wall face so shingles and metal interleave as the roof rises.',
+                    'Failure reads piece by piece rather than across the whole run — one bent or displaced leg, a corroded base where debris held moisture against the metal, or a continuous length substituted for the individual pieces. Water passes at that single opening and travels down the wall face beneath sound metal on either side. Replacing the affected pieces means lifting the shingle courses they lap, so the run gets rebuilt in course order.',
+                  ],
+                },
+                {
+                  heading: 'Mortar Joint Condition Sets the Counter-Flashing Repair',
+                  body: [
+                    '**The mortar joint** receiving counter-flashing is the masonry component of the assembly, a raked or cut groove in the wall into which the metal turns and is anchored.',
+                    'Freeze-thaw cycling erodes that joint from the outside in, and the mortar in older masonry is softer than the surrounding brick, so the joint degrades first. A joint gone sandy or hollow holds neither the metal nor the sealant at its lip, which is why the counter-flashing returns to sound mortar rather than to the deteriorated joint that released it. Metal reset into crumbling mortar loosens again as erosion continues.',
+                  ],
+                },
+                {
+                  heading: 'Coping Joints Admit Water From the Wall Top',
+                  body: [
+                    '**Coping** is the cap covering the top of a parapet or party wall, a run of stone, precast, or sheet metal sections whose butt joints and fastener penetrations sit directly over the wall core.',
+                    'Failure shows at those joints and at their fasteners — an open butt joint, a loose or shifted cap, or a cap pitched toward the wall instead of shedding clear. Water entering there runs inside the wall core, below the counter-flashing and beyond what a repair made on the roof surface reaches. A coping run that has opened gets reset and its joints closed before the flashing beneath it is repaired.',
+                  ],
+                },
+              ],
           },
           {
             heading: 'Local Roof Repair Contractors Separate Repair From Replacement in Newark, NJ',
@@ -109,6 +155,29 @@ export const repairMaintenanceContent: ServiceContent[] = [
               '**Pipe-boot repair** swaps the entire collar rather than patching it, because rubber that has hardened enough to split around the pipe carries the same failure across its whole surface.',
               'Ultraviolet exposure on an unshaded slope drives that hardening, and the split opens at the fasteners holding the boot down, per GAF and This Old House inspection guidance. A replacement collar tucks under the shingle course above the penetration and laps over the course below, so the field sheds water across the new rubber instead of into the fastener line. Setting the boot back into that course line means lifting and rebedding the shingles around it, which puts the surrounding field inside the repair scope rather than the collar alone.',
             ],
+              points: [
+                {
+                  heading: 'Plumbing Vent Stacks Terminate Open Above the Deck',
+                  body: [
+                    '**A plumbing vent stack** is the drain-waste-vent pipe that carries sewer gas above the roof and equalizes pressure in the drain line, passing through the deck as a vertical open-ended pipe.',
+                    'Because the pipe stands open at the top, the penetration depends entirely on the collar at the deck for its weather seal. Vent stacks run in cast iron, copper, and plastic at outside diameters that vary by material and era, so a replacement collar is sized to the pipe on the roof. A stack set near a valley carries more water across its collar than one set near the ridge.',
+                  ],
+                },
+                {
+                  heading: 'Exhaust Flues Take Metal Flashing and Storm Collars',
+                  body: [
+                    '**An exhaust flue** vents combustion gas from a furnace, boiler, or water heater through the roof, and its heat rules out the rubber collar used at a plumbing stack.',
+                    'A flue penetration is sealed instead with a metal base flashing and a storm collar clamped around the pipe above it, a two-piece assembly that lets the flue move without breaking the seal. Code-required clearance between a flue and combustible framing leaves the deck opening wider than the pipe, and the base flashing spans that gap. Corrosion at the base flange and a storm collar loosened by that movement are recurring findings on an aging flue.',
+                  ],
+                },
+                {
+                  heading: 'Lead and Rubber Collars Age on Different Schedules',
+                  body: [
+                    '**A pipe-penetration collar** seals in one of two ways — soft metal formed over the pipe, or a rubber or thermoplastic gasket held in a metal flange — and the two age on different schedules.',
+                    'Lead is formed over the pipe and folded down inside it, so the seal is made by the metal itself rather than by a gasket. A rubber or thermoplastic gasket seals by compression against the pipe wall, so the seal holds only as long as the material keeps its grip. The two therefore fail by different paths — a split in the soft metal, a hardened gasket releasing the pipe — and the condition of a collar reads from its material.',
+                  ],
+                },
+              ],
           },
           {
             heading: 'Storm Damage Repair Covers Every Detail the Storm Opened',
@@ -260,6 +329,29 @@ export const repairMaintenanceContent: ServiceContent[] = [
               '**The written scope of work** specifies the repair at each failed detail, the price attached to each, and the dates the temporary and permanent stages run, rather than a single figure for the roof.',
               'Where water is actively entering, the temporary water-control step and the permanent repair appear as separate dated items, so the sequence is settled before a crew arrives. The specification states the action at each detail — counter-flashing reset into sound mortar, a boot collar replaced under the course above, a membrane seam rewelded — rather than a general instruction to repair the roof. A property owner reads the same order of work the crew follows on the roof.',
             ],
+              points: [
+                {
+                  heading: 'Priced Items Correspond to the Photographed Details',
+                  body: [
+                    '**Each detail photographed during the diagnosis appears as its own priced item on the estimate**, so the proposal carries one entry for each component the diagnosis identified as failed.',
+                    'That correspondence lets an image and a figure be read side by side, so it stays clear which component each price pays for. A valley, a pipe boot, and a run of step flashing photographed on the same visit therefore reach the proposal as separate entries rather than one grouped allowance.',
+                  ],
+                },
+                {
+                  heading: 'The Written Figure Precedes Any Scheduled Work',
+                  body: [
+                    '**A property owner reads the scope and the price in writing before a repair crew is scheduled**, because the diagnosis and the document that carries it both complete during the free estimate visit.',
+                    'An agreement reached on a spoken number leaves the components covered by it unsettled, and the difference surfaces once the work starts. A written figure attached to named components leaves nothing about the price to recollection. The scope, the price, and the components they cover therefore reach the owner as one document.',
+                  ],
+                },
+                {
+                  heading: 'Concealed Deck Condition Stays Unread Until Removal',
+                  body: [
+                    '**The condition of the roof deck under a failed course** stays unread at the estimate, because sheathing sits beneath the covering and comes into view only when those courses are removed.',
+                    'An estimate therefore rests on what the diagnosis reached — the covering, the flashings, and the penetrations — with the sheathing beneath them read only where a section is opened. Naming that boundary at the estimate keeps the priced scope tied to components a diagnosis confirmed, and separates them from a deck condition the removal itself reveals.',
+                  ],
+                },
+              ],
           },
           {
             heading: 'Shingle Repair and Flashing Repair Match Existing Roof Materials',
