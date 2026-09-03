@@ -31,7 +31,8 @@
     "images:status": "tsx scripts/images/status.ts",
     "images:audit": "tsx scripts/images/audit.ts",
     "images:og": "tsx scripts/images/og-generate.ts",
-    "images:preview": "tsx scripts/images/preview.ts"
+    "images:preview": "tsx scripts/images/preview.ts",
+    "audit:readability": "tsx scripts/audit-readability.ts"
   },
   "dependencies": {
     "motion": "^12.35.2",
