@@ -70,7 +70,7 @@ const QUIET = ARGV.includes('--quiet');
 const SKIP_KEYS = new Set([
   'slug', 'serviceId', 'cityId', 'comboId', 'id', 'category', 'categoryId', 'parentId',
   'cluster', 'clusterId', 'clusterSlug', 'icon', 'iconName', 'href', 'url', 'image',
-  'imageUrl', 'imageAlt', 'imagePosition', 'ogImage', 'type', 'kind', 'ctaLabel',
+  'imageUrl', 'imageAlt', 'imagePosition', 'ogImage', 'type', 'kind', 'ctaLabel', 'metaKeywords',
   'ctaText', 'cta', 'ariaLabel', 'layout', 'variant', 'color', 'theme', 'name', 'cityName',
 ]);
 const META_KEYS = new Set(['metaTitle', 'metaDescription', 'title', 'seoTitle', 'ogTitle', 'ogDescription']);

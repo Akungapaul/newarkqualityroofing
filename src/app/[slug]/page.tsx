@@ -93,6 +93,10 @@ export async function generateMetadata({
       return {
         title: service.metaTitle,
         description: serviceDesc,
+        // Emitted only for services that declare it (currently roof-repair).
+        // Google has ignored the keywords tag since 2009 — this is here because
+        // the client's on-page tool scores it, not for ranking value.
+        keywords: service.metaKeywords,
         alternates: { canonical: `/${servicePageSlug}` },
         openGraph: buildOG(service.metaTitle, serviceDesc, servicePageSlug, 'website', serviceOg?.path ?? undefined),
       };
@@ -129,16 +133,23 @@ export async function generateMetadata({
       }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
-      // D-04 indexation gate: 738 combos are KEEP-INDEX (robots undefined = indexable);
-      // the 402 zero-demand phantom combos are NOINDEX, so isNoindex() applies
+      // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
+      // phantom combos are NOINDEX, so isNoindex() applies
       // robots:{index:false,follow:true} (live 200, excluded from sitemap + links).
+      //
+      // The KEEP arm must be an EXPLICIT object, not `undefined`. Next.js treats
+      // an explicitly-returned `undefined` as an override, so `: undefined` wiped
+      // the root layout's robots directive and KEEP combos rendered no robots meta
+      // at all — verified in the prerender before this fix. Mirrors layout.tsx.
       // Canonical is ALWAYS the combo's OWN slug
       // (self-canonical) — never point a combo at a parent or unrelated page.
       return {
         title: combo.metaTitle,
         description: comboDescription,
         alternates: { canonical: `/${combo.slug}` },
-        robots: isNoindex(combo.slug) ? { index: false, follow: true } : undefined,
+        robots: isNoindex(combo.slug)
+          ? { index: false, follow: true }
+          : { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large', 'max-video-preview': -1 },
         openGraph: buildOG(combo.metaTitle, comboDescription, combo.slug, 'website', comboOg?.path ?? undefined),
       };
     }

@@ -103,7 +103,7 @@ const SERVICE_DESCRIPTION_OVERRIDES: Record<string, string> = {
   // 2026-09-03, Cora Phase 1: template output was 109 chars against a 148 goal
   // and repeated Essex County twice. 152 chars / 22 words / 2 "roof repair".
   'roof-repair':
-    'Roof repair in Newark, NJ from $350–$1,500. Roof leak repair, flashing, shingle and flat-roof repairs from a registered Essex County roofing contractor.',
+    'Roof repair in Newark, NJ from $350-$1,500. Roof leak repair, flashing repair, shingle repair and flat roof repair from a registered Essex County contractor.',
 };
 
 export function buildServiceDescription(service: Service): string {

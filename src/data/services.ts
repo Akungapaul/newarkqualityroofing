@@ -18,7 +18,8 @@ const rawServices: Service[] = [
     isCommercial: true,
     shortDescription: 'Roofing repair and maintenance for leaks, missing shingles, and structural damage across Essex County.',
     metaTitle: 'Roof Repair in Newark, NJ | Leak & Flashing Repairs | NQR',
-    metaDescription: 'Roof repair in Newark, NJ from $350–$1,500. Roof leak repair, flashing, shingle and flat-roof repairs from a registered Essex County roofing contractor.',
+    metaDescription: 'Roof repair in Newark, NJ from $350-$1,500. Roof leak repair, flashing repair, shingle repair and flat roof repair from a registered Essex County contractor.',
+    metaKeywords: ['roof repair', 'roof repair Newark NJ', 'roof leak repair', 'flat roof repair'],
   },
   {
     id: 'roof-replacement',

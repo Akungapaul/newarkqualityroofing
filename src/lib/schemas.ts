@@ -26,6 +26,11 @@ export const ServiceSchema = z.object({
   shortDescription: z.string(),
   metaTitle: z.string().max(80),
   metaDescription: z.string().max(160),
+  // Optional per-service keywords meta tag. Google has stated since 2009 that
+  // it ignores this tag; it is emitted because the client's on-page tool scores
+  // it, not because it carries ranking weight. Zod strips unknown keys, so the
+  // field has to exist here before services.ts can set it.
+  metaKeywords: z.array(z.string()).max(8).optional(),
 });
 
 // ─── City ────────────────────────────────────────────────────────────────────
@@ -180,6 +185,9 @@ export const ServiceContentSchema = z.object({
     })),
   }).optional(),
   credentialsHighlight: z.array(z.string()).optional(),
+  // Optional hero benefit bullets. Omitted by the other 64 services, which keep
+  // the three template defaults verbatim.
+  heroBenefits: z.array(z.string()).min(3).max(5).optional(),
   // ─── Rich "brief-driven" layout (optional, per-page opt-in) ────────────────
   // When `sections` is present the ServiceTemplate renders these ordered,
   // question-form prose H2 sections IN PLACE OF the generic overview/signs/

@@ -8,8 +8,14 @@ export const repairMaintenanceContent: ServiceContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════════
   {
     serviceId: 'roof-repair',
+    heroBenefits: [
+      'Roof leak repair traced to the failed flashing detail',
+      'Shingle repair, flat roof repair, and metal roof repair',
+      'Registered and insured Essex County roofing contractor',
+      'Free written estimate before any repair begins',
+    ],
     directAnswer:
-      '**Newark Quality Roofing delivers expert roof repair across Newark, New Jersey**, fixing party-wall leaks, storm and hail damage, flashing failures, and flat-roof membranes — with repairs from $350–$1,500 and free estimates, as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing delivers expert roof repair across Newark, New Jersey**, fixing party-wall leaks, storm and hail damage, flashing failures, and flat-roof membranes through roof leak repair, flat roof repair, and shingle repair — with repairs from $350–$1,500 and free estimates, as a registered New Jersey Home Improvement Contractor.',
     definition:
       '**Roof repair** restores a roof\'s weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.',
     // ── Surfer brief-driven prose band (question-form H2s). Renders IN PLACE OF
@@ -71,7 +77,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         heading: 'Roof Repair Services Newark Quality Roofing Provides in Newark, NJ',
         body: [
-          '**Newark Quality Roofing repairs roofs across Newark, New Jersey**, covering roof inspections, leak diagnosis, flashing repair, shingle repair, metal roof repair, and flat-roof membrane repair, as a registered and insured New Jersey Home Improvement Contractor.',
+          '**Newark Quality Roofing provides roof repair services across Newark, New Jersey**, covering roof inspections, leak diagnosis, flashing repair, shingle repair, metal roof repair, and flat-roof membrane repair, as a registered and insured New Jersey Home Improvement Contractor.',
           'Each repair matches the failed component to Newark, New Jersey building stock and climate — party-wall flashing on attached brownstones, low-slope membrane on Ironbound commercial blocks, and asphalt shingle fields on pitched Vailsburg roofs. Newark Quality Roofing diagnoses the source of water entry before sealing any component, so the repair addresses the cause rather than the visible stain.',
         ],
         subsections: [

@@ -41,6 +41,16 @@ export const metadata: Metadata = {
     ],
   },
   manifest: '/site.webmanifest',
+  // Let Google use the full meta description as the snippet rather than its own
+  // ~155-char truncation, and permit large image previews. Route segments that
+  // set their own `robots` (noindexed combos, thank-you, privacy) still win.
+  robots: {
+    index: true,
+    follow: true,
+    'max-snippet': -1,
+    'max-image-preview': 'large',
+    'max-video-preview': -1,
+  },
   openGraph: {
     title: 'Newark Quality Roofing | Expert Roofing Services in Essex County, NJ',
     description: 'Professional roofing contractor serving Essex County and Northern New Jersey. Expert roof repair, replacement, and installation with free estimates.',

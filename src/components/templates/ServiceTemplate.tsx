@@ -169,7 +169,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
   const processImg = crewImgs[0];
 
   // Derive hero benefits from short description
-  const benefits = [
+  const benefits = content.heroBenefits ?? [
     `Professional ${service.name.toLowerCase()} services`,
     'Registered and insured Essex County contractor',
     'Free estimates with no obligation',
