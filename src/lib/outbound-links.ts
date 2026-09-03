@@ -32,19 +32,24 @@ export type LinkPolicy = 'internal' | 'follow' | 'nofollow' | 'reject';
  */
 export const CITATION_HOSTS: Readonly<Record<string, 'follow' | 'nofollow'>> = {
   // ── Standards, codes, government ──────────────────────────────────────────
+  // Domains verified by resolution 2026-09-03. Two corrections worth recording:
+  //   • ARMA is asphaltroofing.org. `arma.org` resolves to ARMA *International*,
+  //     a records-and-information-management association — a different body
+  //     entirely. Citing a roofing standard there would be plainly wrong.
+  //   • InterNACHI serves from nachi.org; internachi.org does not resolve.
   'nrca.net': 'follow',              // National Roofing Contractors Association
-  'arma.org': 'follow',              // Asphalt Roofing Manufacturers Association
+  'asphaltroofing.org': 'follow',    // Asphalt Roofing Manufacturers Association
   'astm.org': 'follow',
   'osha.gov': 'follow',
   'epa.gov': 'follow',
   'noaa.gov': 'follow',
   'weather.gov': 'follow',
-  'nj.gov': 'follow',                // NJ Division of Consumer Affairs, NJ UCC
+  'nj.gov': 'follow',                // NJ Uniform Construction Code / N.J.A.C.
+  'njconsumeraffairs.gov': 'follow', // NJ Division of Consumer Affairs (HIC registry)
   'state.nj.us': 'follow',
-  'newarknj.gov': 'follow',          // Newark departments
+  'newarknj.gov': 'follow',          // City of Newark — note: requires the www host
   'iibec.org': 'follow',
   'nachi.org': 'follow',             // InterNACHI
-  'internachi.org': 'follow',
   'iii.org': 'follow',               // Insurance Information Institute
 
   // ── Commercial publishers and manufacturers ───────────────────────────────

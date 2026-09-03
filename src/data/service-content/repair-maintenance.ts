@@ -35,7 +35,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Flat Roof Repair on Commercial Blocks in Newark, NJ',
             body: [
               '**Flat roof repair** on Newark\'s commercial blocks reseals low-slope membrane — EPDM, TPO, and modified bitumen — at seams, parapet transitions, and rooftop HVAC penetrations, where standing water and thermal movement concentrate the failure.',
-              'Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and ¼ inch per foot is the minimum drainage slope, per NRCA and ARMA. Membrane age measured against rated service life frames the repair decision: EPDM runs 15–25 years, TPO 7–20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart. Repairing more than 25% of a commercial roof area within a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code, which places the line between a repair and a permitted job at the measured area.',
+              'Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and ¼ inch per foot is the minimum drainage slope, per NRCA and [ARMA](https://www.asphaltroofing.org/resources/). Membrane age measured against rated service life frames the repair decision: EPDM runs 15–25 years, TPO 7–20 years, and modified bitumen 20 years, per the [InterNACHI life-expectancy chart](https://www.nachi.org/life-expectancy.htm). Repairing more than 25% of a commercial roof area within a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the [NJ Uniform Construction Code](https://www.nj.gov/dca/codes/), which places the line between a repair and a permitted job at the measured area.',
             ],
           },
           {
@@ -56,13 +56,13 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Local Roof Repair Contractors Separate Repair From Replacement in Newark, NJ',
             body: [
               '**Local roof repair contractors** working across Newark scope a repair against the condition of the surrounding roof, naming the three findings that place a roof past patching rather than writing a repair the surface cannot hold.',
-              'Granule loss exceeding 30% of the shingle surface is the common rule of thumb for a roof beyond repair, per GAF, and sandy grit in the gutters is how that loss reads at ground level. Daylight through the roof deck, seen from inside the attic, indicates holes in the decking and points toward replacement rather than a patch, per This Old House. A sagging ceiling or roofline indicates sheathing decay from prolonged moisture and ranks as a structural priority, per GAF. Newark Quality Roofing names any of the three in writing.',
+              'Granule loss exceeding 30% of the shingle surface is the common rule of thumb for a roof beyond repair, per GAF, and sandy grit in the gutters is how that loss reads at ground level. Daylight through the roof deck, seen from inside the attic, indicates holes in the decking and points toward replacement rather than a patch, per [This Old House](https://www.thisoldhouse.com/roofing). A sagging ceiling or roofline indicates sheathing decay from prolonged moisture and ranks as a structural priority, per GAF. Newark Quality Roofing names any of the three in writing.',
             ],
           },
           {
             heading: 'Registered and Insured Roof Repair in Newark, NJ',
             body: [
-              '**Newark Quality Roofing holds New Jersey Home Improvement Contractor registration**, the credential the NJ Division of Consumer Affairs requires of every roofing contractor working in the state.',
+              '**Newark Quality Roofing holds New Jersey Home Improvement Contractor registration**, the credential the [NJ Division of Consumer Affairs](https://www.njconsumeraffairs.gov/hic) requires of every roofing contractor working in the state.',
               'That registration is a state credential, separate from the municipal permits a repair scope sometimes carries. General liability and workers\' compensation are the two policies held alongside it. Both carry weight on an attached roofline, where a single repair reaches across a shared wall onto a building a second owner holds title to, and where a crew works several stories above a narrow lot. Registration and coverage stay verifiable before a repair begins.',
             ],
           },
@@ -92,7 +92,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
           {
             heading: 'Flashing Repair Replaces the Metal at Chimneys, Skylights, and Valleys',
             body: [
-              '**Flashing repair** replaces the sheet metal at a chimney, skylight, wall, or valley once the metal has corroded and the sealant laps have lifted, per GAF technical guidance.',
+              '**Flashing repair** replaces the sheet metal at a chimney, skylight, wall, or valley once the metal has corroded and the sealant laps have lifted, per [GAF](https://www.gaf.com/en-us/roofing-materials) technical guidance.',
               'Sealant spread over corroded metal reopens at the same lap within a season, because the failure sits in the substrate rather than in the joint compound. Step flashing at a wall, counter-flashing set into mortar, and valley metal each carry water differently, so the repair specifies the piece by type instead of running one product across every transition. A skylight curb takes a different bend from a wall step, so Newark Quality Roofing fabricates each replacement piece to the profile of the detail it seals.',
             ],
           },
@@ -136,7 +136,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
           {
             heading: 'Flashing Inspection Comes Before the Open Shingle Field',
             body: [
-              '**Flashing details get inspected before the open shingle field**, because roughly 90–95% of roof leaks originate at those transitions and only 5–10% in the field itself, an industry estimate attributed to the NRCA.',
+              '**Flashing details get inspected before the open shingle field**, because roughly 90–95% of roof leaks originate at those transitions and only 5–10% in the field itself, an industry estimate attributed to the [NRCA](https://www.nrca.net/technical).',
               'That split sets the order of the inspection. Corroded metal, lifted sealant laps, and counter-flashing loosened in aging mortar are the recurring findings at chimneys, walls, skylights, and valleys. On a low-slope roof the same order puts parapet transitions and equipment curbs ahead of the open membrane. Field leaks form the secondary case — wind-torn or missing shingles exposing the underlayment and the roof deck — and the two get separated before any repair specification is written.',
             ],
           },
@@ -182,7 +182,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Storm Damage Roof Repair After Wind and Hail',
             body: [
               '**Storm damage roof repair** restores the water layer after wind and hail strip shingles, lift flashing, and drive rain into the underlayment and the roof deck, per GAF inspection guidance.',
-              'Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute. Wind-driven rain off Newark Bay pushes water beneath shingle tabs that impact has already cracked, and hail bruises the asphalt mat in patterns that read as ordinary wear from the ground. Granule loss exceeding 30% of the surface is the common rule-of-thumb for a roof beyond repair, per GAF, so a storm assessment weighs how much of the surface the loss covers before a repair scope gets written.',
+              'Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the [Insurance Information Institute](https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance). Wind-driven rain off Newark Bay pushes water beneath shingle tabs that impact has already cracked, and hail bruises the asphalt mat in patterns that read as ordinary wear from the ground. Granule loss exceeding 30% of the surface is the common rule-of-thumb for a roof beyond repair, per GAF, so a storm assessment weighs how much of the surface the loss covers before a repair scope gets written.',
             ],
           },
           {
@@ -448,7 +448,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         title: 'Access Assessment and Permitting',
         description:
-          'Roof repair in Newark begins with a thorough professional assessment for unexpected roof damage, starting with access. Our crew chief evaluates the building from street level, noting fire escape locations, adjacent building proximity, overhead utility lines, and available staging areas. For brownstones in the North Ward, this often means coordinating with neighboring property owners for ladder and scaffold placement. We submit sidewalk obstruction permits to the Newark Department of Engineering when aerial lifts are needed on zero-setback commercial buildings in the Ironbound or along Broad Street.',
+          'Roof repair in Newark begins with a thorough professional assessment for unexpected roof damage, starting with access. Our crew chief evaluates the building from street level, noting fire escape locations, adjacent building proximity, overhead utility lines, and available staging areas. For brownstones in the North Ward, this often means coordinating with neighboring property owners for ladder and scaffold placement. We submit sidewalk obstruction permits to the [Newark Department of Engineering](https://www.newarknj.gov/departments/engineering) when aerial lifts are needed on zero-setback commercial buildings in the Ironbound or along Broad Street.',
       },
       {
         title: 'Full Water-Path Diagnosis and Repair Specification',
