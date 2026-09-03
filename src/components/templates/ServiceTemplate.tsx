@@ -260,7 +260,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
                   prose sections replace the generic overview/signs/approach/
                   audience band. Gated on content.sections — other services keep
                   the standard band below. ── */}
-              <AnimateIn><ServiceRichSections sections={content.sections} /></AnimateIn>
+              <AnimateIn><ServiceRichSections sections={content.sections} contentUpdated={content.contentUpdated} /></AnimateIn>
 
               {neighborhoodsBlock}
 

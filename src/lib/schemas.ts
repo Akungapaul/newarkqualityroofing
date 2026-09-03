@@ -188,14 +188,31 @@ export const ServiceContentSchema = z.object({
   // Optional hero benefit bullets. Omitted by the other 64 services, which keep
   // the three template defaults verbatim.
   heroBenefits: z.array(z.string()).min(3).max(5).optional(),
+  // Authored ISO date for the visible <time dateTime>. Deliberately NOT derived
+  // from git: Vercel's shallow clone can yield an empty value, which would ship
+  // <time dateTime="">. Label it "Content updated", never "reviewed".
+  contentUpdated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
   // ─── Rich "brief-driven" layout (optional, per-page opt-in) ────────────────
   // When `sections` is present the ServiceTemplate renders these ordered,
   // question-form prose H2 sections IN PLACE OF the generic overview/signs/
   // approach/audience band (roof-repair uses this to carry a Surfer brief).
   // The ~64 other services omit every field below and render exactly as before.
   sections: z.array(z.object({
-    heading: z.string(),         // statement-form H2
+    heading: z.string(),         // statement-form H2 (policy v3: statements, not questions)
     body: z.array(z.string()).min(1), // rich-text paragraphs (parseRichText)
+    // Optional figure rendered between a section's lead and its body.
+    image: z.object({
+      src: z.string(),
+      alt: z.string(),
+      caption: z.string(),
+    }).optional(),
+    // Optional data table. Rendered with caption/thead/tbody and scoped headers.
+    costTable: z.object({
+      caption: z.string(),
+      columns: z.array(z.string()).min(2).max(4),
+      rows: z.array(z.array(z.string())).min(2).max(8),
+      footnote: z.string().optional(),
+    }).optional(),
     // Optional H3 layer beneath the section's H2. Statement-form, same as every
     // other heading (heading policy v3) — the rendered audit rejects any H1-H4
     // ending in "?" and requires ", NJ" wherever a place is named. Levels stay
@@ -203,6 +220,12 @@ export const ServiceContentSchema = z.object({
     subsections: z.array(z.object({
       heading: z.string(),       // statement-form H3
       body: z.array(z.string()).min(1),
+      // Optional H4 layer. Same heading policy; renders inside its parent H3 so
+      // document order stays monotonic h2 -> h3 -> h4.
+      points: z.array(z.object({
+        heading: z.string(),     // statement-form H4
+        body: z.array(z.string()).min(1),
+      })).optional(),
     })).optional(),
   })).optional(),
   // "Local property context" chip grid (rendered via CityNeighborhoods).

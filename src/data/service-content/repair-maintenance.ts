@@ -8,6 +8,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════════
   {
     serviceId: 'roof-repair',
+    contentUpdated: '2026-09-03',
     heroBenefits: [
       'Roof leak repair traced to the failed flashing detail',
       'Shingle repair, flat roof repair, and metal roof repair',
@@ -41,7 +42,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Flat Roof Repair on Commercial Blocks in Newark, NJ',
             body: [
               '**Flat roof repair** on Newark\'s commercial blocks reseals low-slope membrane — EPDM, TPO, and modified bitumen — at seams, parapet transitions, and rooftop HVAC penetrations, where standing water and thermal movement concentrate the failure.',
-              'Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and ¼ inch per foot is the minimum drainage slope, per NRCA and [ARMA](https://www.asphaltroofing.org/resources/). Membrane age measured against rated service life frames the repair decision: EPDM runs 15–25 years, TPO 7–20 years, and modified bitumen 20 years, per the [InterNACHI life-expectancy chart](https://www.nachi.org/life-expectancy.htm). Repairing more than 25% of a commercial roof area within a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the [NJ Uniform Construction Code](https://www.nj.gov/dca/codes/), which places the line between a repair and a permitted job at the measured area.',
+              'Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and ¼ inch per foot is the minimum drainage slope, per NRCA and [ARMA](https://www.asphaltroofing.org/resources/). Membrane age measured against rated service life frames the repair decision: [[EPDM|ethylene propylene diene monomer]] runs 15–25 years, [[TPO|thermoplastic polyolefin]] 7–20 years, and modified bitumen 20 years, per the [InterNACHI life-expectancy chart](https://www.nachi.org/life-expectancy.htm). Repairing more than 25% of a commercial roof area within a 12-month period requires a permit under [[N.J.A.C.|New Jersey Administrative Code]] 5:23-2.7, per the [NJ Uniform Construction Code](https://www.nj.gov/dca/codes/), which places the line between a repair and a permitted job at the measured area.',
             ],
           },
           {
@@ -78,7 +79,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         heading: 'Roof Repair Services Newark Quality Roofing Provides in Newark, NJ',
         body: [
           '**Newark Quality Roofing provides roof repair services across Newark, New Jersey**, covering roof inspections, leak diagnosis, flashing repair, shingle repair, metal roof repair, and flat-roof membrane repair, as a registered and insured New Jersey Home Improvement Contractor.',
-          'Each repair matches the failed component to Newark, New Jersey building stock and climate — party-wall flashing on attached brownstones, low-slope membrane on Ironbound commercial blocks, and asphalt shingle fields on pitched Vailsburg roofs. Newark Quality Roofing diagnoses the source of water entry before sealing any component, so the repair addresses the cause rather than the visible stain.',
+          'Each repair matches the failed component to Newark, New Jersey building stock and climate — party-wall flashing on attached brownstones, low-slope membrane on Ironbound commercial blocks, and asphalt shingle fields on pitched Vailsburg roofs. Newark Quality Roofing diagnoses the source of water entry before sealing any component, so the repair addresses the {{cause}}, not the visible stain.',
         ],
         subsections: [
           {
@@ -180,7 +181,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         heading: 'Addressing Storm Damage and Hail Damage in Newark, NJ',
         body: [
           '**Newark\'s climate and urban environment expose roofs to frequent storm damage, including wind, heavy rain, hail, and thermal stress.** The Ironbound neighborhood, with its mix of Portuguese bakeries, Brazilian restaurants, and light industrial buildings, presents flat-roof repair challenges distinct from the pitched residential roofs found in Vailsburg or Weequahic.',
-          'On an intact membrane, infrared imaging locates wet insulation below the surface under [ASTM C1153](https://www.astm.org/c1153-10r15.html), the standard practice for that survey. Commercial membrane roofs in the Ironbound accumulate standing water behind parapets, develop blistering under Newark\'s urban heat island effect, and suffer punctures from rooftop HVAC equipment that serves the dense commercial district below. Repairing these roofs requires material knowledge that goes beyond residential shingle work and includes the use of advanced roofing products and underlayment to provide lasting protection.',
+          'On an intact membrane, infrared imaging locates wet insulation below the surface under [ASTM C1153](https://www.astm.org/c1153-10r15.html), the standard practice for that survey. Commercial membrane roofs in the Ironbound accumulate standing water behind parapets, develop blistering under Newark\'s urban heat island effect, and suffer punctures from rooftop [[HVAC|heating, ventilation, and air conditioning]] equipment that serves the dense commercial district below. Repairing these roofs requires material knowledge that goes beyond residential shingle work and includes the use of advanced roofing products and underlayment to provide lasting protection.',
           'Newark Quality Roofing documents storm and hail damage with timestamped photographs and a written scope of work for insurance adjusters, then completes the permanent repair on the schedule set in the written estimate.',
         ],
         subsections: [
@@ -230,6 +231,17 @@ export const repairMaintenanceContent: ServiceContent[] = [
       },
       {
         heading: 'Get a Free Roof Repair Estimate in Newark, NJ',
+        costTable: {
+          caption: 'Where four common Newark, NJ roof repairs fall inside the $350-$1,500 range. Position only — the written estimate carries the price for a specific roof.',
+          columns: ['Repair', 'Position in range', 'What sets it there'],
+          rows: [
+            ['Pipe-boot collar replacement', 'Lower', 'One penetration, one rubber collar, no surrounding shingle removal.'],
+            ['Step flashing at a roof-to-wall transition', 'Lower to middle', 'Sheet metal reset into sound mortar along a single run.'],
+            ['Underlayment beneath failed shingle courses', 'Middle', 'Courses come off and go back on to reach the layer underneath.'],
+            ['Valley rebuild', 'Upper', 'Removes and reinstalls the shingles on both planes meeting the valley.'],
+          ],
+          footnote: 'Access, roof age, and the number of failed details move any row within the range.',
+        },
         body: [
           '**Newark Quality Roofing provides a free estimate for every roof repair in Newark, New Jersey.** Each assessment includes a photo-documented diagnosis of the failed component and a transparent written proposal, so a property owner sees the scope and the price before any repair begins.',
           'From the steep slate roofs of Forest Hill\'s historic estates to the modified bitumen surfaces atop Downtown\'s mixed-use buildings along Broad Street, Newark demands roof repair technicians who can move fluently between eras and materials. Our team brings that versatility — we carry both traditional copper soldering equipment and modern single-ply welding gear on every service call, because a Newark roofline can present any century\'s roofing system. Newark Quality Roofing also repairs metal roofs, resealing seams, fasteners, and panel laps.',
@@ -299,7 +311,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Thermal Cycling Shortens Roof Repair Life in Newark, NJ',
             body: [
               '**Thermal cycling** in the urban heat island corridor between the Passaic River and Newark Bay drives dark asphalt shingle surfaces past 160 degrees Fahrenheit in the Central Ward each summer, aging repair materials faster than on shaded suburban roofs.',
-              'A patch that lasts roughly seven years in a suburban setting shortens to three or four years on a sun-baked Newark rooftop with no shade canopy. The daily expansion and contraction behind that gap works fasteners loose and opens sealant laps, and winter freeze-thaw cycles reverse the same movement across the cold months — Newark crosses the freezing point repeatedly through winter, with an average January low near 25.5°F, per [NOAA 1991–2020 climate normals](https://www.ncei.noaa.gov/access/us-climate-normals/) at Newark Liberty. Aging caulk joints split and metal laps lift under that movement, and those are the details a repair on an unshaded roof plane addresses first.',
+              'A patch that lasts roughly seven years in a suburban setting shortens to *three or four* on a Newark rooftop on a sun-baked Newark rooftop with no shade canopy. The daily expansion and contraction behind that gap works fasteners loose and opens sealant laps, and winter freeze-thaw cycles reverse the same movement across the cold months — Newark crosses the freezing point repeatedly through winter, with an average January low near 25.5°F, per [NOAA 1991–2020 climate normals](https://www.ncei.noaa.gov/access/us-climate-normals/) at Newark Liberty. Aging caulk joints split and metal laps lift under that movement, and those are the details a repair on an unshaded roof plane addresses first.',
             ],
           },
           {
@@ -500,7 +512,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         question:
           'What roof repair materials hold up best in Newark\'s urban heat island climate?',
         answer:
-          '**For pitched residential roofs in Newark, we recommend architectural shingles rated for high thermal cycling — specifically products with SBS-modified asphalt that maintains flexibility through temperature extremes.** For flat commercial roofs, TPO and PVC membranes with high reflectivity ratings reduce surface temperature and resist the UV degradation that accelerates in Newark\'s heat island, and these single-ply systems are dominant locally for reliable waterproofing and energy efficiency. We avoid standard 3-tab shingles on sun-exposed Newark roofs because their rigid composition cracks faster under the thermal stress that our urban environment produces.',
+          '**For pitched residential roofs in Newark, we recommend architectural shingles rated for high thermal cycling — specifically products with SBS-modified asphalt that maintains flexibility through temperature extremes.** For flat commercial roofs, TPO and [[PVC|polyvinyl chloride]] membranes with high reflectivity ratings reduce surface temperature and resist the [[UV|ultraviolet]] degradation that accelerates in Newark\'s heat island, and these single-ply systems are dominant locally for reliable waterproofing and energy efficiency. We avoid standard 3-tab shingles on sun-exposed Newark roofs because their rigid composition cracks faster under the thermal stress that our urban environment produces.',
       },
       {
         question: 'How much does roof repair cost in Newark, NJ?',

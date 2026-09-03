@@ -1,4 +1,5 @@
 import { ProseLead, SectionHeading } from './ProseLead';
+import { parseRichText } from '@/lib/rich-text';
 import type { ServiceContent } from '@/lib/types';
 
 // Generic section glyph (list/lines) — aria-hidden sibling of the <h2>, so the
@@ -19,8 +20,10 @@ const SECTION_ICON = (
 );
 
 interface ServiceRichSectionsProps {
-  /** Ordered, question-form prose H2 sections (from ServiceContent.sections). */
+  /** Ordered, statement-form prose H2 sections (from ServiceContent.sections). */
   sections: NonNullable<ServiceContent['sections']>;
+  /** Authored ISO date (YYYY-MM-DD) for the visible "Content updated" stamp. */
+  contentUpdated?: string;
 }
 
 /**
@@ -30,7 +33,7 @@ interface ServiceRichSectionsProps {
  * render the generic overview/signs/approach band instead. Mirrors the
  * SectionHeading + ProseLead treatment used by EntityDefinition and HubScaffold.
  */
-export function ServiceRichSections({ sections }: ServiceRichSectionsProps) {
+export function ServiceRichSections({ sections, contentUpdated }: ServiceRichSectionsProps) {
   return (
     <>
       {sections.map((section, index) => {
@@ -44,6 +47,49 @@ export function ServiceRichSections({ sections }: ServiceRichSectionsProps) {
               <ProseLead paragraphs={section.body} />
             </div>
 
+            {section.costTable && (
+              <figure className="mt-8 overflow-x-auto">
+                <table className="w-full border-collapse text-left text-sm">
+                  <caption className="mb-3 text-left font-body text-sm text-text-secondary">
+                    {section.costTable.caption}
+                  </caption>
+                  <thead>
+                    <tr className="border-b border-forest/20">
+                      {section.costTable.columns.map((col) => (
+                        <th key={col} scope="col" className="py-2 pr-4 font-heading font-semibold text-forest">
+                          {col}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {section.costTable.rows.map((row, r) => (
+                      <tr key={r} className="border-b border-forest/10 align-top">
+                        {row.map((cell, c) => (
+                          c === 0 ? (
+                            <th key={c} scope="row" className="py-2 pr-4 font-body font-medium text-forest">
+                              {parseRichText(cell)}
+                            </th>
+                          ) : (
+                            <td key={c} className="py-2 pr-4 font-body text-text-secondary">
+                              {parseRichText(cell)}
+                            </td>
+                          )
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                {section.costTable.footnote && (
+                  <figcaption className="mt-3">
+                    <small className="font-body text-xs text-text-secondary">
+                      {parseRichText(section.costTable.footnote)}
+                    </small>
+                  </figcaption>
+                )}
+              </figure>
+            )}
+
             {section.subsections && section.subsections.length > 0 && (
               <div className="mt-8 space-y-8">
                 {section.subsections.map((sub, subIndex) => (
@@ -54,6 +100,21 @@ export function ServiceRichSections({ sections }: ServiceRichSectionsProps) {
                     <div className="mt-4">
                       <ProseLead paragraphs={sub.body} />
                     </div>
+
+                    {sub.points && sub.points.length > 0 && (
+                      <div className="mt-6 space-y-6 border-l border-forest/15 pl-5">
+                        {sub.points.map((pt, pIndex) => (
+                          <div key={`${headingId}-sub-${subIndex}-pt-${pIndex}`}>
+                            <h4 className="font-heading text-lg font-semibold text-forest">
+                              {pt.heading}
+                            </h4>
+                            <div className="mt-3">
+                              <ProseLead paragraphs={pt.body} />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
@@ -61,6 +122,23 @@ export function ServiceRichSections({ sections }: ServiceRichSectionsProps) {
           </section>
         );
       })}
+
+      {contentUpdated && (
+        <div>
+          <hr className="border-t border-forest/10" />
+          <p className="mt-4 font-body text-sm text-text-secondary">
+            <small>
+              Content updated{' '}
+              <time dateTime={contentUpdated}>
+                {new Date(`${contentUpdated}T00:00:00Z`).toLocaleDateString('en-US', {
+                  year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+                })}
+              </time>
+              . Prices shown are ranges, not quotes.<sup>1</sup>
+            </small>
+          </p>
+        </div>
+      )}
     </>
   );
 }
