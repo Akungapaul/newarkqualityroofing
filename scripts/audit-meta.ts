@@ -11,6 +11,7 @@ import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
 import { getCityContent } from '@/data/city-content';
 import { getAllHubContent } from '@/data/hub-content';
+import { buildServiceDescription } from '@/lib/seo-utils';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -93,9 +94,25 @@ function main() {
   let totalPages = 0;
 
   // Services
+  //
+  // Audit the description that actually SHIPS. `service.metaDescription` is the
+  // raw data field, but `[slug]/page.tsx` renders `buildServiceDescription()` —
+  // which consults SERVICE_DESCRIPTION_OVERRIDES first. Auditing the raw field
+  // meant this script was validating a string 64 of 65 service pages never emit.
+  const descDrift: string[] = [];
   for (const service of services) {
     totalPages++;
-    allIssues.push(...checkMeta('service', service.id, service.metaTitle, service.metaDescription));
+    const shipped = buildServiceDescription(service);
+    allIssues.push(...checkMeta('service', service.id, service.metaTitle, shipped));
+    if (service.metaDescription && service.metaDescription !== shipped) {
+      descDrift.push(service.id);
+    }
+  }
+  if (descDrift.length) {
+    console.log(`NOTE: ${descDrift.length} service(s) whose data metaDescription differs from the`);
+    console.log('shipped description. Expected for template-driven pages; check any page with a');
+    console.log('hand-written override that is meant to match:');
+    console.log(`  ${descDrift.slice(0, 8).join(', ')}${descDrift.length > 8 ? ` … +${descDrift.length - 8}` : ''}\n`);
   }
 
   // Cities

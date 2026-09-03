@@ -971,7 +971,7 @@ export const imageManifest: ImageEntry[] = [
     id: "service-roof-repair",
     filename: "service-roof-repair.webp",
     path: "/images/heroes/service-roof-repair.webp",
-    alt: "Roof repair services in Essex County NJ by licensed roofing contractor",
+    alt: "Roof repair services in Essex County NJ by registered roofing contractor",
     width: 1920,
     height: 1080,
     category: "service-hero",

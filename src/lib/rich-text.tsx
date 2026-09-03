@@ -1,4 +1,5 @@
 import React from 'react';
+import { linkPolicy, relFor } from '@/lib/outbound-links';
 
 /**
  * Parses simple rich text markers into React nodes:
@@ -7,6 +8,10 @@ import React from 'react';
  *   [text](/url) → <a>
  *
  * No dangerouslySetInnerHTML — uses regex split + React elements.
+ *
+ * External hrefs are classified by `@/lib/outbound-links`: allowlisted HTTPS
+ * citations render with an appropriate `rel`, everything else degrades to plain
+ * text. Internal links are untouched.
  */
 export function parseRichText(text: string): React.ReactNode {
   // Combined pattern: links, bold, italic (order matters — bold before italic)
@@ -24,12 +29,20 @@ export function parseRichText(text: string): React.ReactNode {
     }
 
     if (match[1]) {
-      // Link: [text](/url)
-      parts.push(
-        <a key={key++} href={match[3]} className="text-copper underline decoration-copper/40 underline-offset-2 transition-colors hover:text-copper-dark hover:decoration-copper">
-          {match[2]}
-        </a>
-      );
+      // Link: [text](/url) — dispatch on the shared outbound policy.
+      // Internal hrefs render exactly as they always have (byte-identical
+      // output). Allowlisted https citations gain a rel. Anything else renders
+      // as plain label text rather than becoming an unvetted outbound link.
+      const policy = linkPolicy(match[3]);
+      if (policy === 'reject') {
+        parts.push(match[2]);
+      } else {
+        parts.push(
+          <a key={key++} href={match[3]} rel={relFor(policy)} className="text-copper underline decoration-copper/40 underline-offset-2 transition-colors hover:text-copper-dark hover:decoration-copper">
+            {match[2]}
+          </a>
+        );
+      }
     } else if (match[4]) {
       // Bold: **text**
       parts.push(<strong key={key++} className="text-forest">{match[4]}</strong>);

@@ -9,6 +9,8 @@
  *     - Rule 6  modality: will/should/need to/needs to/have to/has to/must/ought to/shall
  *               in BODY prose only (FAQ `question:` and `*heading*` fields excluded).
  *     - Rule 9  outbound links: https?:// or markdown ](http…) or <a href> in any content.
+ *               EXCEPT scoped allowlisted HTTPS citations — see OUTBOUND_EXEMPT.
+ *               Exempted links are echoed as advisory, never silently dropped.
  *     - Rule 10 [VERIFY]/[UNVERIFIED] leaks in any content/meta string.
  *     - Rule 10 de-fabrication literals (24/7, same-day, GAF Certified, Master Elite,
  *               0% financing, top-rated, 500+, fake NAP) in content AND metaTitle/metaDescription.
@@ -43,6 +45,7 @@ import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { parse, type HTMLElement } from 'node-html-parser';
+import { linkPolicy } from '@/lib/outbound-links';
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PRERENDER_DIR = join(REPO_ROOT, '.next', 'server', 'app');
@@ -96,6 +99,40 @@ function collectStrings(node: unknown, path: string, out: Str[]): void {
 
 const MODALITY = /\b(will|shall|should|need to|needs to|have to|has to|must|ought to)\b/gi;
 const OUTBOUND = /https?:\/\/|\]\(\s*https?:|<a\s+href=/i;
+/** Markdown link with an absolute destination: captures the href in group 1. */
+const MD_LINK = /\]\(\s*(https?:\/\/[^)\s]+)\s*\)/gi;
+
+/**
+ * R9 exemptions — scoped, allowlisted outbound citations.
+ *
+ * R9 bans outbound links. The owner ruled 2026-09-03 that the Cora on-page
+ * report takes precedence, and Cora requires external citations. Rather than
+ * delete the pattern (which would disable R9 on all 1,545 pages), each exemption
+ * is narrowed on FOUR axes at once: page scope, field path, scheme, and host.
+ *
+ * The host allowlist is shared with the renderer via `@/lib/outbound-links`, so
+ * the gate and what actually ships cannot drift.
+ *
+ * NOTE on the path regex: `collectStrings` emits array indices immediately after
+ * the key (`sections[3].body[1]`), so the trailing class must be `[.\[]` — a
+ * bare `\.` would match only `whyChooseUs` and silently let the rest through.
+ */
+const OUTBOUND_EXEMPT: Array<{ scope: RegExp; path: RegExp; confirmed: string }> = [
+  {
+    scope: /^service:roof-repair$/,
+    path: /^(sections|processSteps|faqs|whyChooseUs)[.[]/,
+    confirmed: '2026-09-03',
+  },
+];
+
+/** Links exempted this run — echoed as advisory so they stay visible. */
+const exemptedOutbound: string[] = [];
+
+function isOutboundExempt(scope: string, path: string, href: string): boolean {
+  if (!/^https:\/\//i.test(href)) return false;          // http:// never exempt
+  if (linkPolicy(href) === 'reject') return false;        // host must be allowlisted
+  return OUTBOUND_EXEMPT.some((e) => e.scope.test(scope) && e.path.test(path));
+}
 const VERIFY = /\[(?:VERIFY|UNVERIFIED)\]/i;
 const DEFAB: Array<[string, RegExp]> = [
   ['24/7', /\b24\s*\/\s*7\b|\b24-7\b/i],
@@ -173,7 +210,19 @@ function auditObject(scope: string, obj: unknown): void {
 
     // ── checks that run on ALL non-skip strings (incl. meta/question/heading) ──
     if (VERIFY.test(value)) push(gate, { tier: 'GATE', rule: 'R10 [VERIFY] leak', scope, path, detail: excerpt(value, value.match(VERIFY)![0]) });
-    if (OUTBOUND.test(value)) push(gate, { tier: 'GATE', rule: 'R9 outbound link', scope, path, detail: excerpt(value, value.match(OUTBOUND)![0]) });
+    // ── R9 outbound links, with a scoped allowlist ───────────────────────────
+    // Exempt markdown links to allowlisted HTTPS citation hosts in permitted
+    // field paths. Each exempted link is REMOVED from a working copy and the
+    // remainder is still gated, so one allowlisted citation beside one rogue
+    // URL still fails. `<a href=` and any `http://` are never exempted.
+    let residue = value;
+    for (const m of value.matchAll(MD_LINK)) {
+      if (isOutboundExempt(scope, path, m[1])) {
+        exemptedOutbound.push(`${scope} ${path} → ${m[1]}`);
+        residue = residue.replace(m[0], '');
+      }
+    }
+    if (OUTBOUND.test(residue)) push(gate, { tier: 'GATE', rule: 'R9 outbound link', scope, path, detail: excerpt(residue, residue.match(OUTBOUND)![0]) });
     for (const [label, re] of DEFAB) {
       if (isDefabExempt(scope, path, label)) continue;
       const m = value.match(re);
@@ -422,6 +471,13 @@ async function main(): Promise<void> {
     console.log('-'.repeat(72));
     console.log(`  ADVISORY (not build-failing): ${advisory.length}`);
     console.log('-'.repeat(72));
+    // R9 exemptions — echoed every run so an allowlisted outbound link is never
+    // invisible. A silent exemption is how a scoped carve-out becomes a blanket one.
+    if (exemptedOutbound.length) {
+      console.log(`  R9 OUTBOUND EXEMPTIONS APPLIED: ${exemptedOutbound.length}`);
+      for (const line of exemptedOutbound) console.log(`    • ${line}`);
+      console.log('-'.repeat(72));
+    }
     // group advisory by rule family for a readable summary
     const byRule = new Map<string, number>();
     for (const v of advisory) {

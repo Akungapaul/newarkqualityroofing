@@ -20,6 +20,27 @@ function cap(text: string, max = 160): string {
   return lastSpace > 80 ? trimmed.slice(0, lastSpace) + '…' : trimmed.slice(0, max - 1) + '…';
 }
 
+/**
+ * Normalise typographic punctuation to ASCII for META DESCRIPTIONS ONLY.
+ *
+ * Third-party SERP parsers truncate at the first non-ASCII byte. The roof-repair
+ * description carries an en dash at character 35 (`$350–$1,500`), and an on-page
+ * tool read the description as 109 characters instead of its actual 152 for
+ * exactly that reason.
+ *
+ * Applied at the description builders, deliberately NOT at the shared pricing
+ * constants — those same range strings render as visible body copy (the homepage
+ * pricing table among them), where the typographic dash is correct.
+ */
+function asciiPunct(text: string): string {
+  return text
+    .replace(/[‒–—―]/g, '-')  // figure/en/em/horizontal dash
+    .replace(/[‘’‚‛]/g, "'")  // single quotes
+    .replace(/[“”„‟]/g, '"')  // double quotes
+    .replace(/…/g, '...')                     // ellipsis
+    .replace(/ /g, ' ');                      // non-breaking space
+}
+
 
 // ─── Title Builders ─────────────────────────────────────────────────────────
 
@@ -53,15 +74,15 @@ export function buildComboDescription(service: Service, city: City): string {
   // Tier 1: pricing + differentiators + city
   if (pricing) {
     const t1 = `${service.name} in ${city.name}, NJ from ${pricing.range}. ${DIFFERENTIATORS}. Free estimates for ${city.name} homeowners.`;
-    if (t1.length <= 160) return t1;
+    if (t1.length <= 160) return asciiPunct(t1);
   }
 
   // Tier 2: no pricing, shorter differentiators
   const t2 = `Professional ${svc} in ${city.name}, NJ. ${DIFFERENTIATORS}. Call for a free quote.`;
-  if (t2.length <= 160) return t2;
+  if (t2.length <= 160) return asciiPunct(t2);
 
   // Tier 3: minimal
-  return cap(`${service.name} in ${city.name}, NJ. Licensed Essex County roofers. Free estimates.`);
+  return asciiPunct(cap(`${service.name} in ${city.name}, NJ. Licensed Essex County roofers. Free estimates.`));
 }
 
 // ─── Service Descriptions ───────────────────────────────────────────────────
@@ -87,7 +108,7 @@ const SERVICE_DESCRIPTION_OVERRIDES: Record<string, string> = {
 
 export function buildServiceDescription(service: Service): string {
   const override = SERVICE_DESCRIPTION_OVERRIDES[service.id];
-  if (override) return override;
+  if (override) return asciiPunct(override);
 
   const pricing = PRICING[service.id as keyof typeof PRICING];
   const svc = service.name.toLowerCase();
@@ -95,15 +116,15 @@ export function buildServiceDescription(service: Service): string {
   // Tier 1: pricing + service-specific + differentiators
   if (pricing) {
     const t1 = `${service.name} in Newark, NJ from ${pricing.range}. ${DIFFERENTIATORS}. Serving Essex County.`;
-    if (t1.length <= 160) return t1;
+    if (t1.length <= 160) return asciiPunct(t1);
   }
 
   // Tier 2: no pricing prefix
   const t2 = `Professional ${svc} in Newark & Essex County, NJ. ${DIFFERENTIATORS}. Free estimates available.`;
-  if (t2.length <= 160) return t2;
+  if (t2.length <= 160) return asciiPunct(t2);
 
   // Tier 3: minimal
-  return cap(`${service.name} in Newark, NJ. Licensed roofers serving Essex County. Free estimates.`);
+  return asciiPunct(cap(`${service.name} in Newark, NJ. Licensed roofers serving Essex County. Free estimates.`));
 }
 
 // ─── City Descriptions ──────────────────────────────────────────────────────
@@ -117,12 +138,12 @@ export function buildCityDescription(cityContent: CityContent, city: City): stri
 
   // Tier 1: neighborhoods + differentiators
   const t1 = `Roofers in ${city.name}, NJ serving ${neighborhoodNames} & more. ${DIFFERENTIATORS}.`;
-  if (t1.length <= 160) return t1;
+  if (t1.length <= 160) return asciiPunct(t1);
 
   // Tier 2: no neighborhoods
   const t2 = `Roofing contractor in ${city.name}, NJ. ${DIFFERENTIATORS} for repair, replacement & installation.`;
-  if (t2.length <= 160) return t2;
+  if (t2.length <= 160) return asciiPunct(t2);
 
   // Tier 3: minimal
-  return cap(`Roofing services in ${city.name}, NJ. Licensed & insured Essex County roofers. Free estimates.`);
+  return asciiPunct(cap(`Roofing services in ${city.name}, NJ. Licensed & insured Essex County roofers. Free estimates.`));
 }

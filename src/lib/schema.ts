@@ -9,9 +9,19 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 
 const BASE_URL = SEO_CONFIG.BASE_URL;
 
-/** Strip markdown bold/italic markers for clean JSON-LD text */
+/**
+ * Strip markdown markers for clean JSON-LD text.
+ *
+ * Links go FIRST: `[label](/url)` → `label`. Without this the raw syntax leaks
+ * into `acceptedAnswer.text` on every FAQPage emitter, because the bold/italic
+ * passes leave brackets and parens untouched. Structured-data text is meant to
+ * match the visible answer, and `[our process](/our-roofing-process)` does not.
+ */
 function stripMarkdown(text: string): string {
-  return text.replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
+  return text
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/\*\*(.+?)\*\*/g, '$1')
+    .replace(/\*(.+?)\*/g, '$1');
 }
 
 // ─── Internal helper ─────────────────────────────────────────────────────────
