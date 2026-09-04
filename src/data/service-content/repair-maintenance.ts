@@ -147,6 +147,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
           },
           {
             heading: 'Shingle Repair Reaches the Underlayment Beneath the Failed Courses',
+            image: {
+              src: '/images/gallery/gallery-before-residential-shingles.webp',
+              alt: 'Roofer stripping torn shingles and underlayment down to the bare wood roof deck with a pry bar',
+              caption: 'Failed courses stripped to the deck.',
+            },
             body: [
               '**Missing and cracked shingle repair** replaces the failed courses and the underlayment they exposed. That work restores the water layer over the roof deck, per GAF and This Old House inspection guidance.',
               'Wind blow-off and impact damage strip individual tabs and crack the asphalt mat. The layers beneath then take every rainfall that follows. A shingle course laps the course below it and covers that course\'s fastener line. Replacing a tab therefore means lifting the courses above, rather than sliding a piece into the gap. Water that reached the opening soaks the underlayment. A repair confined to the visible tabs closes new shingles over a wet layer. Newark Quality Roofing opens the failed section and replaces the damaged underlayment and shingles there. Newark Quality Roofing then rebuilds the courses to manufacturer specification.',
@@ -209,8 +214,8 @@ export const repairMaintenanceContent: ServiceContent[] = [
         heading: 'How Roof Inspections Diagnose Leaking Roofs in Newark, NJ',
         image: {
           src: '/images/gallery/gallery-before-leak-damage.webp',
-          alt: 'Active roof leak at a chimney transition with water staining on the surrounding shingles',
-          caption: 'Leak at a chimney transition before repair.',
+          alt: 'Roofer lifting moss-covered shingle courses with a pry bar beside a brick chimney with corroded flashing',
+          caption: 'Corroded chimney flashing exposed before repair.',
         },
         body: [
           '**Brownstone rows throughout the North Ward and Forest Hill present a recurring challenge: party walls.** These shared masonry dividers between row houses create seams. At those seams flashing deteriorates and mortar joints crack. Water finds paths that no single homeowner can address alone.',
@@ -264,9 +269,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         heading: 'Addressing Storm Damage and Hail Damage in Newark, NJ',
         image: {
-          src: '/images/gallery/gallery-before-storm-damage.webp',
-          alt: 'Storm-torn asphalt shingles with underlayment exposed across a residential roof slope',
-          caption: 'Wind-torn shingles with underlayment exposed.',
+          src: '/images/homepage/emergency-banner.webp',
+          alt: 'Newark Quality Roofing crew fastening an emergency tarp over storm-damaged shingles under a dark sky',
+          caption: 'Emergency tarp set over storm-damaged shingles.',
         },
         body: [
           '**Newark\'s climate and urban environment expose roofs to frequent storm damage, including wind, heavy rain, hail, and thermal stress.** The Ironbound neighborhood mixes Portuguese bakeries, Brazilian restaurants, and light industrial buildings. Its flat-roof repair challenges are distinct from the pitched residential roofs found in Vailsburg or Weequahic.',
@@ -276,6 +281,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
         subsections: [
           {
             heading: 'Storm Damage Roof Repair After Wind and Hail',
+            image: {
+              src: '/images/sections/combo/section-challenges-noreaster.webp',
+              alt: 'Storm winds bending a tree beside a house with a gutter torn loose from the roof eave',
+              caption: 'Wind damage during a coastal storm.',
+            },
             body: [
               '**Storm damage roof repair** restores the water layer after wind and hail damage, per GAF inspection guidance. That damage strips shingles, lifts flashing, and drives rain into the underlayment and the roof deck.',
               'Wind and hail rank as the largest homeowners-insurance claim type, per the [Insurance Information Institute](https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance). That damage reaches 2.8% of insured homes per year, or 1 in 36. Wind-driven rain off Newark Bay pushes water beneath shingle tabs that impact has already cracked. Hail bruises the asphalt mat in patterns that read as ordinary wear from the ground. Granule loss exceeding 30% of the surface is the common rule-of-thumb for a roof beyond repair, per GAF. A storm assessment therefore weighs how much of the surface the loss covers before a repair scope gets written.',
@@ -290,6 +300,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
           },
           {
             heading: 'Flat Roof Repair Corrects the Low Spot, Not Only the Seam',
+            image: {
+              src: '/images/gallery/gallery-after-commercial-membrane.webp',
+              alt: 'Roofer heat-welding a single-ply membrane seam with a hot-air gun and roller on a flat roof',
+              caption: 'Membrane seam welded on a low-slope roof.',
+            },
             body: [
               '**Flat roof repair** at a ponding area reseals the failed seam and corrects the low spot that held the water. Water trapped behind a parapet degrades EPDM and modified-bitumen membrane over time.',
               'Water still standing after a storm clears outlines the area that fails to drain. That outline, not the seam alone, sets the boundary of the repair. A parapet closes the perimeter of the roof. Runoff that misses the drainage path stays on the membrane and keeps the seam wet long after the weather passes. Newark Quality Roofing writes the repair specification to cover both halves of that failure. Repairing the seam alone leaves the depression intact, and a seam resealed under water that continues to stand returns to the same condition by the next storm.',
@@ -387,6 +402,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
           },
           {
             heading: 'Metal Roof Repair Estimates Price Seams and Fasteners Separately',
+            image: {
+              src: '/images/gallery/gallery-before-commercial-metal.webp',
+              alt: 'Roofer prying up a rusted metal roof panel along a ridge with a pry bar',
+              caption: 'Corroded metal panel lifted at the ridge.',
+            },
             body: [
               '**A metal roof repair estimate** prices the seams, the fastener lines, and the panel laps as separate details. Those components admit water while the panel field around them stays sound.',
               'On an exposed-fastener panel the gasketed fastener and the panel lap deteriorate ahead of the panel field itself. The estimator therefore reads the fastener lines and the laps first. Panel work gets specified only where the metal has failed. The written scope names each of those details before the repair is scheduled. Naming them separates a reseal at an existing lap from replacement of failed metal. That distinction keeps the priced work on the components that failed rather than across the whole panel run.',
@@ -438,6 +458,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
           },
           {
             heading: 'Attic Heat Loss Turns Snowmelt Into Ice Dams',
+            image: {
+              src: '/images/sections/combo/section-challenges-ice.webp',
+              alt: 'Ice dam holding meltwater behind a snow-covered roof eave above a rotting fascia board',
+              caption: 'Ice dam ponding meltwater at the eave.',
+            },
             body: [
               '**Ice dams** form when heat escaping a poorly insulated attic melts roof snow that refreezes farther down the slope. The dam then drives water back under the shingles through a Newark, New Jersey winter.',
               'Attic ventilation governs how much of that melt occurs. Trapped heat and moisture under the roof deck keep the surface warm enough to release water in freezing weather. Newark Quality Roofing accounts for attic ventilation in a winter repair scope. A resealed joint above an unventilated attic meets the same melt cycle the following season. A periodic attic check surfaces the early-stage leak and the ventilation deficit that the roof surface alone does not show.',

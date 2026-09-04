@@ -131,7 +131,30 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
                       {sub.heading}
                     </h3>
                     <div className="mt-4">
-                      <ProseLead paragraphs={sub.body} />
+                      <ProseLead
+                        paragraphs={sub.body}
+                        media={
+                          sub.image ? (
+                            <figure className="photo-treatment overflow-hidden rounded-lg">
+                              <div className="relative aspect-[16/9] w-full">
+                                <Image
+                                  src={sub.image.src}
+                                  alt={sub.image.alt}
+                                  fill
+                                  className="object-cover"
+                                  sizes="(max-width: 768px) 100vw, 55vw"
+                                  loading="lazy"
+                                />
+                              </div>
+                              {sub.image.caption && (
+                                <figcaption className="mt-2 font-body text-xs text-text-secondary">
+                                  {sub.image.caption}
+                                </figcaption>
+                              )}
+                            </figure>
+                          ) : undefined
+                        }
+                      />
                     </div>
 
                     {sub.points && sub.points.length > 0 && (

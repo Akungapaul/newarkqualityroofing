@@ -224,6 +224,14 @@ export const ServiceContentSchema = z.object({
     subsections: z.array(z.object({
       heading: z.string(),       // statement-form H3
       body: z.array(z.string()).min(1),
+      // Optional subsection image, same shape as the section-level one. Renders
+      // through ProseLead's existing `media` slot, cropped to 16:9 so an 800x800
+      // source cannot become a ~600px block between two short paragraphs.
+      image: z.object({
+        src: z.string(),
+        alt: z.string(),
+        caption: z.string().optional(),
+      }).optional(),
       // Optional H4 layer. Same heading policy; renders inside its parent H3 so
       // document order stays monotonic h2 -> h3 -> h4.
       points: z.array(z.object({
