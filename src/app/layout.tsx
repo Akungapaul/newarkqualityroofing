@@ -31,6 +31,11 @@ export const metadata: Metadata = {
   title: "Newark Quality Roofing | Expert Roofing Services in Essex County, NJ",
   description:
     "Professional roofing contractor serving Essex County and Northern New Jersey. Expert roof repair, replacement, and installation with free estimates and licensed, insured service.",
+  // Business name only, never a person — there is no named author on record and
+  // inventing a byline to look more "E-E-A-T" is the fabrication the rules forbid.
+  // No `url`: Next emits <link rel="author"> only when one is set, and Cora's
+  // CP443 "Number of Rel Author Links" is ours 0 / goal 0. Inherited by all routes.
+  authors: [{ name: 'Newark Quality Roofing' }],
   icons: {
     icon: [
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },

@@ -49,10 +49,16 @@ export const CITATION_HOSTS: Readonly<Record<string, 'follow' | 'nofollow'>> = {
   'state.nj.us': 'follow',
   'newarknj.gov': 'follow',          // City of Newark — note: requires the www host
   'iibec.org': 'follow',
-  'nachi.org': 'follow',             // InterNACHI
-  'iii.org': 'follow',               // Insurance Information Institute
 
-  // ── Commercial publishers and manufacturers ───────────────────────────────
+  // ── Commercial publishers, trade bodies and manufacturers ─────────────────
+  // Cited because the claim is sound; nofollowed because this site does not
+  // vouch for them commercially.
+  'nachi.org': 'nofollow',           // InterNACHI — a paid-membership certification
+                                     // and training business, not a standards body:
+                                     // it publishes no consensus standard and the
+                                     // NJ UCC does not reference it.
+  'iii.org': 'nofollow',             // Insurance Information Institute — the insurance
+                                     // industry's own member-funded data arm.
   'gaf.com': 'nofollow',
   'thisoldhouse.com': 'nofollow',
   'homeadvisor.com': 'nofollow',
