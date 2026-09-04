@@ -22,7 +22,21 @@ const rawServices: Service[] = [
     // once — the length comes from real service coverage, not repetition.
     metaTitle: 'Roof Repair Newark, NJ | Leak, Flashing & Shingle Repairs | 2026 Costs | Registered Roofers',
     metaDescription: 'Roof repair services in Newark, NJ from $350-$1,500. Leak, flashing, shingle repairs, flat roof repairs and roof inspections. Registered Essex County roofers.',
-    metaKeywords: ['roof repair', 'roof repair Newark NJ', 'roof leak repair', 'flat roof repair'],
+    // Cora 2026-09-04 Phase X, CP438 "Number of comma delimited meta keywords":
+    // 4 -> 9. Every term is verified present in this page's visible text (counts
+    // measured in the built HTML: 146 / 1 / 11 / 8 / 14 / 13 / 5 / 5 / 15).
+    // Google has ignored this tag since 2009 — see the note on the schema field.
+    metaKeywords: [
+      'roof repair',
+      'roof repair Newark NJ',
+      'roof leak repair',
+      'flat roof repair',
+      'flashing repair',
+      'shingle repair',
+      'emergency roof repair',
+      'storm damage roof repair',
+      'roof inspection',
+    ],
   },
   {
     id: 'roof-replacement',

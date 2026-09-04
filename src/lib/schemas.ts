@@ -34,7 +34,7 @@ export const ServiceSchema = z.object({
   // it ignores this tag; it is emitted because the client's on-page tool scores
   // it, not because it carries ranking weight. Zod strips unknown keys, so the
   // field has to exist here before services.ts can set it.
-  metaKeywords: z.array(z.string()).max(8).optional(),
+  metaKeywords: z.array(z.string()).max(9).optional(),
 });
 
 // ─── City ────────────────────────────────────────────────────────────────────
