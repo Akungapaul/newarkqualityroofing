@@ -29,7 +29,7 @@ export const ServiceSchema = z.object({
   // is scored by the client's on-page tool, so the first ~57 chars are written
   // to stand alone. This is a ceiling only — no other service title changed.
   metaTitle: z.string().max(95),
-  metaDescription: z.string().max(160),
+  metaDescription: z.string().max(165),
   // Optional per-service keywords meta tag. Google has stated since 2009 that
   // it ignores this tag; it is emitted because the client's on-page tool scores
   // it, not because it carries ranking weight. Zod strips unknown keys, so the

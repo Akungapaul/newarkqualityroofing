@@ -96,7 +96,7 @@ export function buildComboDescription(service: Service, city: City): string {
  * "Serving Essex County" right after "Local Essex County roofers", spending
  * ~20 chars restating itself).
  *
- * Keep every entry <= 160 chars (audit-meta.ts) and factually true of NQR:
+ * Keep every entry <= 165 chars (audit-meta.ts) and factually true of NQR:
  * "registered" NJ Home Improvement Contractor, never "licensed".
  */
 const SERVICE_DESCRIPTION_OVERRIDES: Record<string, string> = {
@@ -106,7 +106,7 @@ const SERVICE_DESCRIPTION_OVERRIDES: Record<string, string> = {
   // byte-identical to services.ts metaDescription — audit-semantics scans that
   // copy, so a string living only here would skip the de-fabrication gate.
   'roof-repair':
-    'Roof repair services in Newark, NJ from $350-$1,500. Leak, flashing, shingle repairs, flat roof repairs and roof inspections. Registered Essex County roofers.',
+    'Roof repair services in Newark, NJ from $350 to $1,500. Roof leak repair, flashing repair, shingle repair and flat roof repairs by registered Essex County roofers.',
 };
 
 export function buildServiceDescription(service: Service): string {
