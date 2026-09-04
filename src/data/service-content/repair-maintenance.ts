@@ -77,7 +77,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Multi-Family Walk-Up Roof Repairs in Newark, NJ',
             body: [
               '**Multi-family walk-up roof repairs** cover one roof plane sitting over several dwelling units. The repair scope answers to the whole building rather than to the apartment reporting a ceiling stain.',
-              'One failed detail on a walk-up sends water through framing shared by several apartments. The unit that reports a stain marks where water leaves the structure rather than where it entered. Under the ordinary-maintenance provision of N.J.A.C. 5:23-2.7, a detached one- and two-family roof-covering repair carries no construction permit, inspection, or notice to the construction official. That provision is written for detached dwellings. A multi-family walk-up sits outside it. Newark Quality Roofing therefore settles the permit question before the repair reaches the schedule.',
+              'One failed detail on a walk-up sends water through framing shared by several apartments. The unit that reports a stain marks where water leaves the structure rather than where it entered. Under the ordinary-maintenance provision of [N.J.A.C. 5:23-2.7](https://www.nj.gov/dca/codes/codreg/pdf_regs/njac_5_23_2.pdf), a detached one- and two-family roof-covering repair carries no construction permit, inspection, or notice to the construction official. That provision is written for detached dwellings. A multi-family walk-up sits outside it. Newark Quality Roofing therefore settles the permit question before the repair reaches the schedule.',
             ],
           },
           {
@@ -227,7 +227,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
           {
             heading: 'Flashing Inspection Comes Before the Open Shingle Field',
             body: [
-              '**Flashing details get inspected before the open shingle field.** Roughly 90–95% of roof leaks originate at those transitions, and only 5–10% in the field itself. That industry estimate is attributed to the [NRCA](https://www.nrca.net/technical).',
+              '**Flashing details get inspected before the open shingle field.** Roughly 90–95% of roof leaks originate at those transitions, and only 5–10% in the field itself. That industry estimate is attributed to the [NRCA](https://www.nrca.net/roofing-guidelines).',
               'That split sets the order of the inspection. Corroded metal, lifted sealant laps, and counter-flashing loosened in aging mortar are the recurring findings. They appear at chimneys, walls, skylights, and valleys. On a low-slope roof the same order puts parapet transitions and equipment curbs ahead of the open membrane. Field leaks form the secondary case — wind-torn or missing shingles exposing the underlayment and the roof deck. Repairing a transition and sealing an open field call for different specifications, so the two get separated before the specification is written.',
             ],
           },
@@ -588,7 +588,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         title: 'Access Assessment and Permitting',
         description:
-          'Roof repair in Newark begins with a thorough professional assessment for unexpected roof damage, starting with access. Our crew chief evaluates the building from street level. That review notes fire escape locations, adjacent building proximity, overhead utility lines, and available staging areas. For brownstones in the North Ward, this often means coordinating with neighboring property owners for ladder and scaffold placement. We submit sidewalk obstruction permits to the [Newark Department of Engineering](https://www.newarknj.gov/departments/engineering). Those permits apply when aerial lifts are needed on zero-setback commercial buildings in the Ironbound or along Broad Street.',
+          'Roof repair in Newark begins with a thorough professional assessment for unexpected roof damage, starting with access. Our crew chief evaluates the building from street level. That review notes fire escape locations, adjacent building proximity, overhead utility lines, and available staging areas. For brownstones in the North Ward, this often means coordinating with neighboring property owners for ladder and scaffold placement. We submit sidewalk obstruction permits to the [Newark Department of Engineering](https://www.newarknj.gov/171/Engineering). Those permits apply when aerial lifts are needed on zero-setback commercial buildings in the Ironbound or along Broad Street.',
       },
       {
         title: 'Full Water-Path Diagnosis and Repair Specification',
@@ -616,7 +616,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         question: 'Do I need a permit from Newark for a roof repair?',
         answer:
-          '**Minor roof repairs typically do not require a Newark building permit.** That category covers replacing damaged shingles, resealing flashing, and patching a small membrane area. However, other repairs do require permits from the Newark Department of Buildings and Code Enforcement. Those repairs involve structural modifications, replacement of more than 25% of the roof surface, or changes to drainage patterns. We handle all permit applications when required. Our repair work meets current Newark building code standards, including wind uplift requirements updated after recent storm seasons.',
+          '**Minor roof repairs typically do not require a Newark building permit.** That category covers replacing damaged shingles, resealing flashing, and patching a small membrane area. However, other repairs do require permits from Newark\'s [Building Division, Office of Uniform Construction Code](https://www.newarknj.gov/543/Building-Division---Office-of-Uniform-Co), with inspections handled by the [Division of Enforcement and Inspections](https://www.newarknj.gov/544/Division-of-Enforcement-Inspections---Co). Those repairs involve structural modifications, replacement of more than 25% of the roof surface, or changes to drainage patterns. We handle all permit applications when required. Our repair work meets current Newark building code standards, including wind uplift requirements updated after recent storm seasons.',
       },
       {
         question:
