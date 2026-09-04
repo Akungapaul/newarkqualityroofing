@@ -107,8 +107,14 @@ export const siteConfig: SiteConfig = {
   legalName: 'Newark Quality Roofing',
 
   // Env-driven so production phone is canonical and never the fabricated default.
-  phone: process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '',
-  formattedPhone: process.env.NEXT_PUBLIC_PHONE_TEL ?? '',
+  // .trim() is load-bearing: NEXT_PUBLIC_PHONE_TEL was saved in the Vercel
+  // dashboard with a trailing newline, which reached 4 JSON-LD telephone values,
+  // 11 tel: hrefs and 21 visible renderings. Browsers strip it when parsing a
+  // URL so the links still dial, but a telephone value carrying a control
+  // character is malformed for structured-data consumers. '' .trim() is still
+  // '', so every existing truthiness gate on these fields keeps working.
+  phone: (process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '').trim(),
+  formattedPhone: (process.env.NEXT_PUBLIC_PHONE_TEL ?? '').trim(),
 
   email: 'info@newarkqualityroofing.com',
 

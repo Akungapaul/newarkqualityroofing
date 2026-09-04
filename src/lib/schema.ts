@@ -80,7 +80,10 @@ function buildOpeningHours(): Record<string, unknown>[] {
 
 function buildAggregateRating(): Record<string, unknown> | null {
   const { rating } = canonicalConfig;
-  if (!rating.enabled) {
+  // Fail closed. Requiring the values as well as the flag means a future partial
+  // flip (enabled = true before the real numbers land) omits the node entirely
+  // rather than emitting an empty ratingValue/reviewCount.
+  if (!rating.enabled || !rating.value || !rating.count) {
     return null;
   }
   return {
@@ -154,6 +157,16 @@ export function buildOrganizationSchema(): Record<string, unknown> {
     url: BASE_URL,
     telephone: siteConfig.phone.tel,
     email: siteConfig.email,
+    // Restates the telephone and email already emitted above and already visible
+    // on the page. No new claim; contactType is a schema.org enumeration label,
+    // not an assertion about the business. availableLanguage is deliberately
+    // omitted — no language capability is substantiated anywhere on the site.
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer service',
+      telephone: siteConfig.phone.tel,
+      email: siteConfig.email,
+    },
     address: buildPostalAddress(),
   };
 }
@@ -161,7 +174,13 @@ export function buildOrganizationSchema(): Record<string, unknown> {
 export function buildRoofingContractorSchema(): Record<string, unknown> {
   const aggregateRating = buildAggregateRating();
   return {
-    '@type': 'RoofingContractor',
+    // Both types are true: schema.org places RoofingContractor under
+    // HomeAndConstructionBusiness under LocalBusiness, and Google resolves that
+    // inheritance already. The array is here because Cora does a literal
+    // lowercase token match on the page source and scores "localbusiness" 0
+    // without it. Most-specific type stays first. Applied to BOTH writers —
+    // they share the #roofingcontractor @id, so their shapes must not diverge.
+    '@type': ['RoofingContractor', 'LocalBusiness'],
     '@id': `${BASE_URL}/#roofingcontractor`,
     name: siteConfig.companyName,
     url: BASE_URL,
@@ -204,7 +223,13 @@ export function buildLocalBusinessSchema(city: {
 }): Record<string, unknown> {
   const aggregateRating = buildAggregateRating();
   return {
-    '@type': 'RoofingContractor',
+    // Both types are true: schema.org places RoofingContractor under
+    // HomeAndConstructionBusiness under LocalBusiness, and Google resolves that
+    // inheritance already. The array is here because Cora does a literal
+    // lowercase token match on the page source and scores "localbusiness" 0
+    // without it. Most-specific type stays first. Applied to BOTH writers —
+    // they share the #roofingcontractor @id, so their shapes must not diverge.
+    '@type': ['RoofingContractor', 'LocalBusiness'],
     '@id': `${BASE_URL}/#roofingcontractor`,
     name: siteConfig.companyName,
     url: BASE_URL,
