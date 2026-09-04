@@ -1,3 +1,4 @@
+import { AnimateIn } from '@/components/animations/AnimateIn';
 import { ProseLead, SectionHeading } from './ProseLead';
 import Image from 'next/image';
 import { parseRichText } from '@/lib/rich-text';
@@ -47,7 +48,10 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
       {sections.map((section, index) => {
         const headingId = `service-section-${index}-heading`;
         return (
-          <section key={headingId} aria-labelledby={headingId}>
+          // Each section reveals on its own: one wrapper around the whole band
+          // grows unboundedly with authored content and cannot animate in.
+          <AnimateIn key={headingId}>
+          <section aria-labelledby={headingId}>
             <SectionHeading id={headingId} icon={SECTION_ICON}>
               {section.heading}
             </SectionHeading>
@@ -149,10 +153,12 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
               </div>
             )}
           </section>
+          </AnimateIn>
         );
       })}
 
       {subServices && subServices.length > 0 && (
+        <AnimateIn>
         <section aria-labelledby="core-repairs-heading">
           <SectionHeading id="core-repairs-heading" icon={SECTION_ICON}>
             Core Roof Repairs Newark Quality Roofing Performs
@@ -168,6 +174,7 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
             ))}
           </dl>
         </section>
+        </AnimateIn>
       )}
 
       {contentUpdated && (

@@ -265,7 +265,10 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
                   prose sections replace the generic overview/signs/approach/
                   audience band. Gated on content.sections — other services keep
                   the standard band below. ── */}
-              <AnimateIn><ServiceRichSections sections={content.sections} contentUpdated={content.contentUpdated} subServices={content.subServices} /></AnimateIn>
+              {/* No outer AnimateIn: ServiceRichSections reveals each section
+                  itself. Wrapping the whole band made one ~27,000px element
+                  whose whileInView threshold could never be met. */}
+              <ServiceRichSections sections={content.sections} contentUpdated={content.contentUpdated} subServices={content.subServices} />
 
               {neighborhoodsBlock}
 

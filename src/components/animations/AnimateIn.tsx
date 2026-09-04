@@ -23,7 +23,13 @@ export function AnimateIn({
       className={className}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
+      // `amount: 'some'` (threshold 0), never a fraction. A fractional amount is
+      // unreachable once the wrapped element grows past viewportHeight / amount
+      // (at 0.2 that is 5x the viewport), because that share of it can never be
+      // on screen at once — whileInView then never fires and the content stays
+      // stuck at `initial` opacity 0. That silently blanked the entire
+      // roof-repair rich band (26,850px) in production.
+      viewport={{ once: true, amount: 'some' }}
       transition={{ duration: 0.6, ease: 'easeOut', delay }}
     >
       {children}

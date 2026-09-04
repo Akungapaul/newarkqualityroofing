@@ -120,6 +120,22 @@ const nextConfig: NextConfig = {
       { source: '/services', destination: '/roofing-services', permanent: true },
       { source: '/locations', destination: '/service-areas', permanent: true },
       { source: '/resources', destination: '/roofing-knowledge-base', permanent: true },
+      // ── Reverted "-1" slug migration (2026-07-26, branch slug-migration-append-1) ──
+      // Commit 0d1d4bb set URL_SLUG_SUFFIX='-1', which suffixed every public slug
+      // AND the sitemap. It shipped, was reverted the same day, but no reverse
+      // redirect was added — so 1,530 URLs Google crawled 07-26..07-30 have been
+      // hard 404s ever since (dynamicParams=false in src/app/[slug]/page.tsx).
+      // Collision-safe: 0 of the 1,127 live sitemapped URLs end in "-1".
+      // The KB rules must precede the flat one: the KB migration suffixed BOTH
+      // path segments (/roofing-knowledge-base-1/roof-problems-1).
+      {
+        source: '/roofing-knowledge-base-1/:cluster([^/]+)-1',
+        destination: '/roofing-knowledge-base/:cluster',
+        permanent: true,
+      },
+      // Single-segment only ([^/]+), so this can never match /_next/* or any
+      // other nested path.
+      { source: '/:slug([^/]+)-1', destination: '/:slug', permanent: true },
       // ── Generated combo redirects (D-05): 225 combo + 0 legacy = 225 ─────────
       ...generatedRedirects,
     ];
