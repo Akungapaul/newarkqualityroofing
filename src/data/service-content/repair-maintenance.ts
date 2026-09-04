@@ -153,7 +153,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             ],
           },
           {
-            heading: 'Flashing Repair Replaces the Metal at Chimneys, Skylights, and Valleys',
+            heading: 'Flashing Repair Replaces the Metal at a Chimney, Skylight, or Valley',
             body: [
               '**Flashing repair** replaces the sheet metal at a chimney, skylight, wall, or valley. The replacement follows once the metal has corroded and the sealant laps have lifted, per [GAF](https://www.gaf.com/en-us/roofing-materials) technical guidance.',
               'Sealant spread over corroded metal reopens at the same lap within a season. The failure sits in the substrate rather than in the joint compound. Step flashing at a wall, counter-flashing set into mortar, and valley metal each carry water differently. The repair therefore specifies the piece by type, instead of running one product across every transition. A skylight curb takes a different bend from a wall step. Newark Quality Roofing fabricates each replacement piece to the profile of the detail it seals.',
@@ -284,7 +284,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
           {
             heading: 'Wind Uplift Opens Flashing Laps and Loosens Fastener Lines',
             body: [
-              '**Storm flashing repair** rebuilds the sheet metal and sealed laps at chimneys, walls, parapets, and valleys. Wind uplift lifts the metal at those details and works the fastener line loose during a storm.',
+              '**Storm flashing repair** rebuilds the sheet metal and sealed laps at a chimney, wall, parapet, or valley. Wind uplift lifts the metal at those details and works the fastener line loose during a storm.',
               'A storm sorts the metal into two conditions. The repair answers the condition rather than the size of the storm. Corroded stock and creased laps come off and get replaced. Metal still sound gets re-secured. Its counter-flashing gets reset into sound mortar, restoring the seal that deteriorated joints released. Sealant alone closes neither case. A lap that no longer sits flat carries water past the caulk and back into the transitions where roof leaks concentrate.',
             ],
           },
@@ -382,7 +382,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Shingle Repair and Flashing Repair Match Existing Roof Materials',
             body: [
               '**The estimate records the materials already on the roof** — shingle line, flashing color and product line, membrane chemistry. The repair specification follows the system installed rather than a generic material category.',
-              'Identifying what is in place therefore precedes the specification. That means the shingle line at the failed section and the color and product line of the existing metal. On a low-slope roof it also means whether the membrane is EPDM, TPO, or modified bitumen. The estimate names each as a specific product rather than a category. The replacement material is therefore settled at the estimate rather than on the roof. The matched section then reads as part of the surrounding roof plane in both material and appearance.',
+              'Identifying what is in place therefore precedes the specification. That means the shingle line at the failed section and the color and product line of the existing metal. On a low-slope roof it also means whether the membrane is EPDM, TPO, or modified bitumen. The estimate names each as a specific product rather than a category. Newark Quality Roofing installs GAF® Timberline HDZ®, Owens Corning®, and CertainTeed shingle lines, so a matched repair starts from the line already on the roof. The replacement material is therefore settled at the estimate rather than on the roof. The matched section then reads as part of the surrounding roof plane in both material and appearance.',
             ],
           },
           {
@@ -402,7 +402,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
           {
             heading: 'Roof Repair Warranty Terms Cover Workmanship and Materials',
             body: [
-              '**A roof repair estimate states warranty terms for both workmanship and materials.** The two coverages answer different failure modes on the same repair.',
+              '**A roof repair estimate states warranty terms for both workmanship and materials.** The two coverages answer different failure modes on the same repair. Each warranty is named in the written scope before work is scheduled.',
               'Material warranty follows the manufacturer of the shingle, membrane, or flashing stock installed. It covers a factory defect in that product. Workmanship coverage answers the installation instead — the flashing lap, the boot collar, the welded seam. Newark Quality Roofing issues it in writing on the labor, per Owens Corning warranty guidance. On a low-slope roof already under a manufacturer system warranty, the estimate also names the bonding method alongside the material. A manufacturer-specification bond rather than adhesive alone keeps that existing coverage in force.',
             ],
           },
@@ -503,7 +503,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         'Older masonry transitions',
         'Poor attic ventilation can trap heat and moisture, contributing to premature aging of roof decks on older homes',
         'Periodic attic checks can reveal early-stage leaks or poor ventilation',
-        'Wind-driven rain off Newark Bay',
+        'Wind-driven heavy rain off Newark Bay',
         'Rooftop HVAC punctures',
         'Photo-documented diagnosis',
         'Temporary water-control plan',
@@ -638,12 +638,20 @@ export const repairMaintenanceContent: ServiceContent[] = [
         question:
           'What roof repair materials hold up best in Newark\'s urban heat island climate?',
         answer:
-          '**For pitched residential roofs in Newark, we recommend architectural shingles rated for high thermal cycling.** SBS-modified asphalt in those products maintains flexibility through temperature extremes. For flat commercial roofs, TPO and [[PVC|polyvinyl chloride]] membranes with high reflectivity ratings reduce surface temperature. They also resist the [[UV|ultraviolet]] degradation that accelerates in Newark\'s heat island. These single-ply systems are dominant locally for reliable waterproofing and energy efficiency. We avoid standard 3-tab shingles on sun-exposed Newark roofs. Their rigid composition cracks faster under the thermal stress that our urban environment produces.',
+          '**For pitched residential roofs in Newark, we recommend architectural shingles rated for high thermal cycling.** Newark Quality Roofing installs GAF® Timberline HDZ®, Owens Corning®, and CertainTeed products in that class. SBS-modified asphalt in those products maintains flexibility through temperature extremes. For flat commercial roofs, TPO and [[PVC|polyvinyl chloride]] membranes with high reflectivity ratings reduce surface temperature. They also resist the [[UV|ultraviolet]] degradation that accelerates in Newark\'s heat island. These single-ply systems are dominant locally for reliable waterproofing and energy efficiency. We avoid standard 3-tab shingles on sun-exposed Newark roofs. Their rigid composition cracks faster under the thermal stress that our urban environment produces.',
       },
       {
         question: 'How much does roof repair cost in Newark, NJ?',
         answer:
           '**Most roof repair projects in Newark range from $350–$1,500.** Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      },
+      {
+        // OWNER-GROUNDED: the twice-a-year cadence is the page's own standing
+        // recommendation (see problemsWeExpect body, "a roof inspection twice
+        // a year"). No new capability or frequency claim is introduced here.
+        question: 'How often should a Newark roof be inspected?',
+        answer:
+          '**A Newark roof warrants inspection twice a year, once after winter and once before it.** Newark Quality Roofing recommends that schedule because freeze-thaw cycling and summer heat load work the same flashing details in opposite directions. The spring pass reads what winter movement opened at laps, mortar joints, and fastener lines. The fall pass confirms drainage and attic ventilation before snow load arrives. An inspection after any severe storm sits outside that schedule.',
       },
     ],
     credentialsHighlight: [
