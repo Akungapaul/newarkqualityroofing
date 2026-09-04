@@ -27,7 +27,10 @@ interface MetaIssue {
 
 // ─── Audit Logic ────────────────────────────────────────────────────────────
 
-const TITLE_MAX = 60;
+// 95 matches the ServiceSchema ceiling (src/lib/schemas.ts). Google truncates
+// the visible SERP title at ~60 chars; longer titles are a deliberate Cora
+// CP480 concession on roof-repair, not drift, so they should not read as issues.
+const TITLE_MAX = 95;
 const DESC_MAX = 160;
 
 function checkMeta(

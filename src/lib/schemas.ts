@@ -24,7 +24,11 @@ export const ServiceSchema = z.object({
   isResidential: z.boolean(),
   isCommercial: z.boolean(),
   shortDescription: z.string(),
-  metaTitle: z.string().max(80),
+  // 95, not 80: Cora's 2026-09-04 run asks CP480 Title Length 59 -> 90 on
+  // roof-repair. Google still truncates the SERP at ~60 chars; the extra length
+  // is scored by the client's on-page tool, so the first ~57 chars are written
+  // to stand alone. This is a ceiling only — no other service title changed.
+  metaTitle: z.string().max(95),
   metaDescription: z.string().max(160),
   // Optional per-service keywords meta tag. Google has stated since 2009 that
   // it ignores this tag; it is emitted because the client's on-page tool scores
