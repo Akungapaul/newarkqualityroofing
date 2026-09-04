@@ -21,7 +21,7 @@ const rawServices: Service[] = [
     // ("roof repair", "repairs", "roofers") + the CP095 year. Each stem is used
     // once — the length comes from real service coverage, not repetition.
     metaTitle: 'Roof Repair Newark, NJ | Leak, Flashing & Shingle Repairs | 2026 Costs | Registered Roofers',
-    metaDescription: 'Roof repair in Newark, NJ from $350-$1,500. Roof leak repair, flashing repair, shingle repair and flat roof repair from a registered Essex County contractor.',
+    metaDescription: 'Roof repair services in Newark, NJ from $350-$1,500. Leak, flashing, shingle repairs, flat roof repairs and roof inspections. Registered Essex County roofers.',
     metaKeywords: ['roof repair', 'roof repair Newark NJ', 'roof leak repair', 'flat roof repair'],
   },
   {

@@ -100,10 +100,13 @@ export function buildComboDescription(service: Service, city: City): string {
  * "registered" NJ Home Improvement Contractor, never "licensed".
  */
 const SERVICE_DESCRIPTION_OVERRIDES: Record<string, string> = {
-  // 2026-09-03, Cora Phase 1: template output was 109 chars against a 148 goal
-  // and repeated Essex County twice. 152 chars / 22 words / 2 "roof repair".
+  // 2026-09-04, Cora Phase 6: 158 chars / 5 keyword variations (was 1). Google
+  // is currently REWRITING this page's snippet (CP085 = 1), so this is written
+  // for coverage if Google later adopts it, not as a rank lever. Must stay
+  // byte-identical to services.ts metaDescription — audit-semantics scans that
+  // copy, so a string living only here would skip the de-fabrication gate.
   'roof-repair':
-    'Roof repair in Newark, NJ from $350-$1,500. Roof leak repair, flashing repair, shingle repair and flat roof repair from a registered Essex County contractor.',
+    'Roof repair services in Newark, NJ from $350-$1,500. Leak, flashing, shingle repairs, flat roof repairs and roof inspections. Registered Essex County roofers.',
 };
 
 export function buildServiceDescription(service: Service): string {
