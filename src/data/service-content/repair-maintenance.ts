@@ -40,7 +40,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Roof Repair on Attached Brownstones in Newark, NJ',
             body: [
               '**Roof repair on attached brownstones** treats the shared masonry party wall as a roof component. The slopes of two separately owned buildings terminate against that wall. The flashing set into it belongs to both.',
-              'A party wall is one masonry divider carrying the ends of two roof planes. The seam along its top belongs to two buildings at once. The flashing worked into those walls across the North Ward, Forest Hill, and Roseville went in decades before modern building codes. The mortar holding it has weathered ever since. The roof covering above that seam varies from one address to the next. The wall detail beneath it stays constant. The flashing rather than the shingle field therefore sets the repair scope on an attached row.',
+              'A party wall is one masonry divider carrying the ends of two roof planes. The seam along its top belongs to two buildings at once. The flashing worked into those walls across the North Ward, Forest Hill, and Roseville went in decades before modern building codes. The mortar holding it has weathered ever since. The roof covering above that seam varies from one address to the next. The wall detail beneath it stays constant. The flashing rather than the shingle field therefore sets the repair scope on an attached row. Repairing the party-wall seam reaches both roof planes it serves.',
             ],
           },
           {
@@ -135,7 +135,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         },
         body: [
           '**Newark Quality Roofing provides roof repair services across Newark, New Jersey**, as a registered and insured New Jersey Home Improvement Contractor. Those services cover roof inspections, leak diagnosis, flashing repair, shingle repair, metal roof repair, and flat-roof membrane repair.',
-          'Each repair matches the failed component to Newark, New Jersey building stock and climate. That means party-wall flashing on attached brownstones, low-slope membrane on Ironbound commercial blocks, and asphalt shingle fields on pitched Vailsburg roofs. Newark Quality Roofing diagnoses the source of water entry before sealing any component. The repair then addresses the {{cause}}, not the visible stain.',
+          'Each of those roof repair services matches the failed component to Newark, New Jersey building stock and climate. That means party-wall flashing on attached brownstones, low-slope membrane on Ironbound commercial blocks, and asphalt shingle fields on pitched Vailsburg roofs. Newark Quality Roofing diagnoses the source of water entry before sealing any component. The repair then addresses the {{cause}}, not the visible stain.',
         ],
         subsections: [
           {
@@ -163,7 +163,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Roof Repair Replaces Cracked Pipe Boots at Vent Stacks',
             body: [
               '**Pipe-boot repair** swaps the entire collar rather than patching it. Rubber that has hardened enough to split around the pipe carries the same failure across its whole surface.',
-              'Ultraviolet exposure on an unshaded slope drives that hardening. The split opens at the fasteners holding the boot down, per GAF and This Old House inspection guidance. A replacement collar tucks under the shingle course above the penetration and laps over the course below. The field then sheds water across the new rubber instead of into the fastener line. Setting the boot back into that course line means lifting and rebedding the shingles around it. That puts the surrounding field inside the repair scope, rather than the collar alone.',
+              'Ultraviolet exposure on an unshaded slope drives that hardening. The split opens at the fasteners holding the boot down, per GAF and This Old House inspection guidance. A replacement collar tucks under the shingle course above the penetration and laps over the course below. The field then sheds water across the new rubber instead of into the fastener line. Setting the boot back into that course line means lifting and rebedding the shingles around it. Repairing that penetration therefore reaches the shingle course above it, not the collar alone.',
             ],
               points: [
                 {
@@ -228,7 +228,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Flashing Inspection Comes Before the Open Shingle Field',
             body: [
               '**Flashing details get inspected before the open shingle field.** Roughly 90–95% of roof leaks originate at those transitions, and only 5–10% in the field itself. That industry estimate is attributed to the [NRCA](https://www.nrca.net/technical).',
-              'That split sets the order of the inspection. Corroded metal, lifted sealant laps, and counter-flashing loosened in aging mortar are the recurring findings. They appear at chimneys, walls, skylights, and valleys. On a low-slope roof the same order puts parapet transitions and equipment curbs ahead of the open membrane. Field leaks form the secondary case — wind-torn or missing shingles exposing the underlayment and the roof deck. The two get separated before any repair specification is written.',
+              'That split sets the order of the inspection. Corroded metal, lifted sealant laps, and counter-flashing loosened in aging mortar are the recurring findings. They appear at chimneys, walls, skylights, and valleys. On a low-slope roof the same order puts parapet transitions and equipment curbs ahead of the open membrane. Field leaks form the secondary case — wind-torn or missing shingles exposing the underlayment and the roof deck. Repairing a transition and sealing an open field call for different specifications, so the two get separated before the specification is written.',
             ],
           },
           {
@@ -292,7 +292,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Flat Roof Repair Corrects the Low Spot, Not Only the Seam',
             body: [
               '**Flat roof repair** at a ponding area reseals the failed seam and corrects the low spot that held the water. Water trapped behind a parapet degrades EPDM and modified-bitumen membrane over time.',
-              'Water still standing after a storm clears outlines the area that fails to drain. That outline, not the seam alone, sets the boundary of the repair. A parapet closes the perimeter of the roof. Runoff that misses the drainage path stays on the membrane and keeps the seam wet long after the weather passes. Newark Quality Roofing writes the repair specification to cover both halves of that failure. A seam resealed under a depression that continues to hold water returns to the same condition by the next storm.',
+              'Water still standing after a storm clears outlines the area that fails to drain. That outline, not the seam alone, sets the boundary of the repair. A parapet closes the perimeter of the roof. Runoff that misses the drainage path stays on the membrane and keeps the seam wet long after the weather passes. Newark Quality Roofing writes the repair specification to cover both halves of that failure. Repairing the seam alone leaves the depression intact, and a seam resealed under water that continues to stand returns to the same condition by the next storm.',
             ],
           },
           {
@@ -593,12 +593,12 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         title: 'Full Water-Path Diagnosis and Repair Specification',
         description:
-          'Once on the roof, our diagnostic approach accounts for Newark\'s attached-building reality. We don\'t just inspect the reported leak area — we trace the full water path from ridge to gutter. That trace checks every party wall flashing joint, valley intersection, and penetration point. Common roof repairs include fixing leaks around flashing and replacing wind-damaged or missing shingles. Emergency repairs help prevent further damage to the home before permanent work is complete. For flat commercial roofs, we perform standing-water mapping and membrane adhesion testing. Flat roofing systems need regular maintenance to restore long-term performance. Our repair specification identifies every contributing failure point, not just the most visible symptom. The specification also includes checking seals around vents, chimneys, and skylights, plus clogged or damaged gutters. Those gutters can force water back up under roof shingles. In Newark\'s interconnected building stock, a partial repair is often no repair at all. Our scope also includes cleanup of repair-related debris.',
+          'Once on the roof, our diagnostic approach accounts for Newark\'s attached-building reality. We don\'t just inspect the reported leak area — we trace the full water path from ridge to gutter. That trace checks every party wall flashing joint, valley intersection, and penetration point. Common roof repairs fix roof leaks around flashing and replace wind-damaged or missing shingles. Emergency repairs help prevent further damage to the home before permanent work is complete. For flat commercial roofs, we perform standing-water mapping and membrane adhesion testing. Flat roofing systems need regular maintenance to restore long-term performance. Our repair specification identifies every contributing failure point, not just the most visible symptom. The specification also includes checking seals around vents, chimneys, and skylights, plus clogged or damaged gutters. Those gutters can force water back up under roof shingles. In Newark\'s interconnected building stock, a partial repair is often no repair at all. Our scope also includes cleanup of repair-related debris.',
       },
       {
         title: 'Documentation and Insurance Support',
         description:
-          'After completing repairs, we document everything with timestamped photographs keyed to a roof diagram. This documentation serves Newark homeowners during insurance claims and satisfies property management companies overseeing multi-family buildings. The documentation also provides a baseline for future inspections. For party-wall repairs involving multiple properties, we provide separate documentation packages to each owner. That step is a necessity in Newark\'s row-house landscape, where shared responsibility demands shared information.',
+          'After completing roof repairs, we document everything with timestamped photographs keyed to a roof diagram. This documentation serves Newark homeowners during insurance claims and satisfies property management companies overseeing multi-family buildings. The documentation also provides a baseline for future inspections. For party-wall repairs involving multiple properties, we provide separate documentation packages to each owner. That step is a necessity in Newark\'s row-house landscape, where shared responsibility demands shared information.',
       },
       {
         title: 'Verification and Written Warranty',
@@ -616,7 +616,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         question: 'Do I need a permit from Newark for a roof repair?',
         answer:
-          '**Minor repairs typically do not require a Newark building permit.** That category covers replacing damaged shingles, resealing flashing, and patching a small membrane area. However, other repairs do require permits from the Newark Department of Buildings and Code Enforcement. Those repairs involve structural modifications, replacement of more than 25% of the roof surface, or changes to drainage patterns. We handle all permit applications when required. Our repair work meets current Newark building code standards, including wind uplift requirements updated after recent storm seasons.',
+          '**Minor roof repairs typically do not require a Newark building permit.** That category covers replacing damaged shingles, resealing flashing, and patching a small membrane area. However, other repairs do require permits from the Newark Department of Buildings and Code Enforcement. Those repairs involve structural modifications, replacement of more than 25% of the roof surface, or changes to drainage patterns. We handle all permit applications when required. Our repair work meets current Newark building code standards, including wind uplift requirements updated after recent storm seasons.',
       },
       {
         question:
@@ -654,7 +654,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
     pricing: {
       range: '$350–$1,500 for most repairs',
       factors: [
-        'Most roof repair projects in Newark, NJ range from $350–$1,500, depending on scope and materials. The cost moves with roof age, access, and the failed component.',
+        'Most roof repair projects in Newark, NJ range from $350–$1,500, depending on scope and materials. The cost of individual roof repairs moves with roof age, access, and the failed component.',
         'For homes, an asphalt shingle repair matches the existing shingle line. On many flat roofs, a single-ply repair reseals the seam or patches the puncture. That repair happens in the existing EPDM, TPO, or modified-bitumen system.',
       ],
       financingNote:
