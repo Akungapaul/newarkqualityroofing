@@ -38,6 +38,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
         subsections: [
           {
             heading: 'Roof Repair on Attached Brownstones in Newark, NJ',
+            image: {
+              src: '/images/sections/city/section-city-residential-neighborhood.webp',
+              alt: 'Attached brick row houses sharing masonry party walls beneath a continuous line of sloped roofs',
+              caption: 'Attached rows sharing a party wall.',
+            },
             body: [
               '**Roof repair on attached brownstones** treats the shared masonry party wall as a roof component. The slopes of two separately owned buildings terminate against that wall. The flashing set into it belongs to both.',
               'A party wall is one masonry divider carrying the ends of two roof planes. The seam along its top belongs to two buildings at once. The flashing worked into those walls across the North Ward, Forest Hill, and Roseville went in decades before modern building codes. The mortar holding it has weathered ever since. The //roof covering// above that seam varies from one address to the next. The wall detail beneath it stays constant. The flashing rather than the shingle field therefore sets the repair scope on an attached row. {{Repairing the party-wall seam}} reaches both roof planes it serves.',
@@ -82,6 +87,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
           },
           {
             heading: 'Flashing Repair at Party Walls and Parapets',
+            image: {
+              src: '/images/heroes/service-roof-flashing-installation-repair.webp',
+              alt: 'Roofer setting new base flashing against a parapet wall above a low-slope membrane roof',
+              caption: 'Base flashing reset at a parapet.',
+            },
             body: [
               '**Flashing repair at party walls and parapets** rebuilds a two-part assembly. Step flashing covers the roof-to-wall transition, and //counter-flashing// is set into the mortar joint above it.',
               'A parapet carries that same pair plus the coping that caps the wall top. The two pieces follow different planes — //step flashing// follows the roof, counter-flashing follows the wall. A repair treating them as one piece leaves the moving joint between them unsealed. The mortar holds the counter-flashing. A joint that has deteriorated releases that metal. Water then passes behind flashing that still reads as sound from the street. Resetting that counter-flashing into sound mortar restores the seal. A bead of sealant run across a released lap leaves the joint open.',
@@ -140,6 +150,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
         subsections: [
           {
             heading: 'Roof Leak Repair Seals Active Leaks on a Sound Roof Deck',
+            image: {
+              src: '/images/heroes/service-roof-leak-repair.webp',
+              alt: 'Roofer sealing an active leak at a roof penetration with the surrounding courses lifted clear',
+              caption: 'Active leak sealed at its source.',
+            },
             body: [
               '**Roof leak repair** seals the detail admitting water on a roof whose remaining surface still sheds water. The same visit settles whether the roof has passed the point where a repair holds.',
               'Interior water damage shows as brown or yellow ceiling and wall stains that spread or darken after rainfall, marking an active leak. That reading follows GAF and This Old House inspection guidance. Two findings point past repair instead. Daylight visible through the roof deck from inside the attic indicates holes in the decking, per This Old House. A sagging ceiling or roofline indicates sheathing decay from prolonged moisture, per GAF. Granule loss exceeding 30% of the shingle surface is the common rule-of-thumb for a field beyond repair, per GAF. Newark Quality Roofing names which case applies before quoting.',
@@ -159,6 +174,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
           },
           {
             heading: 'Flashing Repair Replaces the Metal at a Chimney, Skylight, or Valley',
+            image: {
+              src: '/images/heroes/service-chimney-flashing-repair.webp',
+              alt: 'New step and counter-flashing worked into the mortar joints where a brick chimney meets the roof',
+              caption: 'Chimney step and counter-flashing renewed.',
+            },
             body: [
               '**Flashing repair** replaces the sheet metal at a chimney, skylight, wall, or valley. Repairing that metal follows once it has corroded and the sealant laps have lifted, per [GAF](https://www.gaf.com/en-us/roofing-materials) technical guidance.',
               'Sealant spread over corroded metal reopens at the same lap within a season. The failure sits in the substrate rather than in the joint compound. Step flashing at a wall, counter-flashing set into mortar, and valley metal each carry water differently. The repair therefore specifies the piece by type, instead of running one product across every transition. A skylight curb takes a different bend from a wall step. Newark Quality Roofing fabricates each replacement piece to the profile of the detail it seals.',
@@ -208,6 +228,50 @@ export const repairMaintenanceContent: ServiceContent[] = [
               'A single pipe-boot collar or one length of step flashing sits at the lower end. The work touches one detail, and the surrounding field stays undisturbed. A valley rebuild sits at the upper end. Replacing valley metal removes and reinstalls the shingle courses on both adjoining planes. Between them sits the repair that reaches the underlayment beneath failed courses. Rebuilding the field above the wet layer carries most of the labor.',
             ],
           },
+          {
+            // Cora 2026-09-05 Phase 1 closes three "variations making whole"
+            // rows at once here — whole H1-H6 (+3), whole H4 (+1) and whole
+            // H4-H6 (+1) — because each of the three H4 headings below is
+            // EXACTLY a Cora variation ("roof vent repair", "roof patch
+            // repair", "roof waterproofing"). Two are services Newark Quality
+            // Roofing sells under their own slugs (roof-vent-installation-repair,
+            // roof-waterproofing) and the third is a repair method it performs,
+            // so nothing here is invented to move a metric. This H3 also
+            // carries the "roofer" variation Phase 1 asks for at H3 level.
+            heading: 'Roof Repair Types Our Newark, NJ Roofers Perform',
+            image: {
+              src: '/images/heroes/service-roof-vent-installation-repair.webp',
+              alt: 'Roofer resealing a metal vent flange where it laps the shingle courses on a residential roof',
+              caption: 'Vent flange resealed into the surrounding courses.',
+            },
+            body: [
+              '**Three roof repair types recur across Newark, NJ addresses: roof vent repair, roof patch repair, and roof waterproofing.** Each answers a different failure — a penetration that leaks, a field area that has lost its surface, and a detail that admits water under pressure.',
+              'Repair type follows the failure mode rather than the roof covering. A vent housing corroded at its collar admits water at one penetration. A field that has shed its //granules// or split across a short run has lost surface rather than structure. A parapet base takes water under head pressure rather than by gravity. Sorting the failure before the material is what separates a repair that holds from one repeated the following season. The wear and tear behind all three reads the same from the ground — {{water stains}} on a ceiling — and differently from the roof.',
+            ],
+            points: [
+              {
+                heading: 'Roof Vent Repair',
+                body: [
+                  '**Roof vent repair replaces the failed housing, collar, or flashing at an attic exhaust penetration.** The vent and the metal worked into the courses around it are separate components, and either fails on its own.',
+                  'Chimneys and vents concentrate the penetrations on a Newark roof plane. Ridge vents, box vents, and turbine housings each terminate through the roof deck, and the shingle courses lap the flange that seals them. Corrosion at that flange, a cracked housing, and fasteners backed out under high winds each open the same path for water intrusion. The repair reads the flange before the vent, because damaged flashing accounts for the larger share of the leaks traced to a penetration.',
+                ],
+              },
+              {
+                heading: 'Roof Patch Repair',
+                body: [
+                  '**Roof patch repair restores a bounded area of roof surface without disturbing the courses beyond it.** The patch covers the run that failed, laps into sound material on every side, and matches the existing roof covering.',
+                  'A patch answers surface loss rather than structural loss. Asphalt shingles that have shed granules, begun curling at the tab edges, or split across a short run have thinned the wear layer above the underlayment. On a low-slope membrane the equivalent is a puncture or a short open lap. A patch holds where the deck beneath it is dry and sound; where a probe finds soft sheathing, the deterioration has passed the point a patch answers, and the scope changes to a tear-off of the affected area.',
+                ],
+              },
+              {
+                heading: 'Roof Waterproofing',
+                body: [
+                  '**Roof waterproofing seals the details where water stands or arrives under pressure rather than draining away.** It covers parapet bases, scupper throats, drain bowls, and the transitions a sloped-roof detail leaves exposed.',
+                  'Drainage governs where waterproofing is needed. Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and the minimum drainage slope is ¼ inch per foot, per NRCA. Standing water at a parapet base or a blocked scupper loads that detail continuously rather than during a storm. Waterproofing the assembly there — base flashing, termination bar, and the membrane turn-up behind it — answers a condition that a field patch does not reach. Warping at a coping joint above the same detail admits the water that later shows two floors down.',
+                ],
+              },
+            ],
+          },
         ],
       },
       {
@@ -224,6 +288,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
         subsections: [
           {
             heading: 'Roof Leak Repair Diagnosis From Ridge to Eave',
+            image: {
+              src: '/images/sections/combo/section-process-inspection.webp',
+              alt: 'Roofer tracing a moisture path down a roof slope from the ridge toward the eave during an inspection',
+              caption: 'Tracing the moisture path to its entry.',
+            },
             body: [
               '**Roof leak repair diagnosis** starts above the visible drip and follows the direction water runs. Ridge and hip lines come first, then valleys, penetrations and step flashing, and last the eave and gutter line.',
               'Moisture travels laterally along rafters, underlayment laps, and the roof deck before it surfaces. A ceiling stain therefore marks where water left the assembly rather than where it entered. Sealing the surface directly above that stain closes an intact section and leaves the opening running. Reading the roof downhill instead puts each detail in front of the crew in the order the water crossed it. The failed component gets named — flashing, shingles, underlayment, or //pipe boot// — before anything is sealed.',
@@ -245,6 +314,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
           },
           {
             heading: 'Roof Inspection Covers Every Penetration, Not Only the Reported One',
+            image: {
+              src: '/images/heroes/service-roof-inspection.webp',
+              alt: 'Roofer inspecting vent stacks and flashing details across a roof plane during a written inspection',
+              caption: 'Every penetration inspected, not only one.',
+            },
             body: [
               '**A roof inspection counts every penetration and transition**, rather than the single detail sitting above the reported stain. The count covers vent stacks, skylight curbs, chimney flashing, valleys, and rooftop equipment curbs.',
               'A scope built from that one detail leaves any second opening on the same plane running. The roof then leaks again in the next storm. Valleys and skylight curbs carry runoff from two roof planes at once. A break there sits in concentrated flow rather than in a field that sheds evenly. Each detail named at diagnosis carries onto the list a crew lead verifies watertight at the close of the repair. The count taken here also sets the standard the finished work is measured against.',
@@ -293,6 +367,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
           },
           {
             heading: 'Wind Uplift Opens Flashing Laps and Loosens Fastener Lines',
+            image: {
+              src: '/images/gallery/gallery-before-storm-damage.webp',
+              alt: 'Shingle courses lifted and torn along a fastener line after high winds crossed the roof plane',
+              caption: 'Courses lifted along a fastener line.',
+            },
             body: [
               '**Storm flashing repair** rebuilds the sheet metal and sealed laps at a chimney, wall, parapet, or valley. Wind uplift lifts the metal at those details and works the fastener line loose during a storm.',
               'A storm sorts the metal into two conditions. Repairing the roof answers the condition rather than the size of the storm. Corroded stock and creased laps come off and get replaced. Metal still sound gets re-secured. Its counter-flashing gets reset into sound mortar, restoring the seal that deteriorated joints released. Sealant alone closes neither case. A lap that no longer sits flat carries water past the caulk and back into the transitions where roof leaks concentrate.',
@@ -365,6 +444,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
           },
           {
             heading: 'Every Roof Repair Estimate Carries a Written Scope of Work',
+            image: {
+              src: '/images/content/content-consultation-contract.webp',
+              alt: 'Written roof repair scope of work on a clipboard with the priced line items visible',
+              caption: 'The written scope, priced line by line.',
+            },
             body: [
               '**The written scope of work** specifies three things rather than a single figure for the roof. It names the repair at each failed detail, the price attached to each, and the dates the temporary and permanent stages run.',
               'Where water is actively entering, the temporary water-control step and the permanent repair appear as separate dated items. The sequence is therefore settled before a crew arrives. The specification states the action at each detail rather than a general instruction to repair the roof. Examples include counter-flashing reset into sound mortar, a boot collar replaced under the course above, and a membrane seam rewelded. A property owner reads the same order of work the crew follows on the roof.',
@@ -461,7 +545,11 @@ export const repairMaintenanceContent: ServiceContent[] = [
         ],
       },
       {
-        heading: 'Local Challenges That Affect Newark, NJ Roofs',
+        // Cora 2026-09-05 Phase 1: variation "roofer" in an H2 (0 -> 1).
+        // sections[0] cannot carry it — audit-headings pins the first content
+        // H2 to exactly "Roof Repair, Defined" — so it lands here. Statement
+        // form and the City+State "NJ" are both preserved. 2 variations.
+        heading: 'Local Challenges Newark, NJ Roofers Meet on Every Roof',
         image: {
           src: '/images/gallery/gallery-before-commercial-ponding.webp',
           alt: 'Ponding water standing on a low-slope commercial membrane roof near a drain',

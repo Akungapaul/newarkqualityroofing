@@ -156,11 +156,15 @@ export const HEADING_CONFIG = {
   // service names (no conjunction), so those get "X Installation and Repair
   // Newark, NJ" instead. service.name and metaTitles are unchanged.
   serviceH1Overrides: {
-    // Cora 2026-09-04 Phase 1 asks for a 2nd H1 variation (1 -> 2). "Flashing
+    // Cora 2026-09-04 Phase 1 asked for a 2nd H1 variation (1 -> 2). "Flashing
     // Repairs" adds it while keeping the page on repair intent — c7cdcf1 showed
     // narrowing this hub off replacement intent measurably helped, so the 2nd
     // variation must not re-broaden it. Still a statement, still carries NJ.
-    'roof-repair': 'Roof Repair and Flashing Repairs Newark, NJ',
+    // Cora 2026-09-05 Phase 1 adds the variation "roofer" in H1 (0 -> 1):
+    // "by Newark, NJ Roofers". "Roof Repair" stays leading (CP151 is met and
+    // must remain so), the heading stays a statement, and the NJ that
+    // audit-headings' City+State rule requires is still present. 4 variations.
+    'roof-repair': 'Roof Repair and Flashing Repairs by Newark, NJ Roofers',
     'roof-flashing-installation-repair': 'Roof Flashing Installation and Repair Newark, NJ',
     'gutter-installation-repair': 'Gutter Installation and Repair Newark, NJ',
     'skylight-installation-repair': 'Skylight Installation and Repair Newark, NJ',

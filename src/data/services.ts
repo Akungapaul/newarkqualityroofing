@@ -17,10 +17,16 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Roofing repair and maintenance for leaks, missing shingles, and structural damage across Essex County.',
-    // Cora 2026-09-04 Phase 1: 91 chars / 13 words / 3 variations
-    // ("roof repair", "repairs", "roofers") + the CP095 year. Each stem is used
-    // once — the length comes from real service coverage, not repetition.
-    metaTitle: 'Best Roof Repair Newark, NJ | Leak, Flashing & Shingle Repairs | Free 2026 Roofer Estimates',
+    // Cora 2026-09-05 Phase 1 asks for the variation "roof repairs" in the
+    // title (0 -> 1). "Shingle Repairs" -> "Shingle Roof Repairs" supplies it:
+    // under Cora's greedy longest-match counter that phrase scores BOTH
+    // "roof repairs" and "shingle", so variations go 4 -> 5. "Estimates" ->
+    // "Quotes" pays for the 2 extra characters and keeps the title at 93,
+    // inside the ServiceSchema.metaTitle cap of 95. "Best", the "Newark, NJ"
+    // comma, "Free" and the CP095 year all survive unchanged.
+    // 93 chars / 5 variations: best roof repair, roof repairs, flashing,
+    // shingle, roofer.
+    metaTitle: 'Best Roof Repair Newark, NJ | Leak, Flashing & Shingle Roof Repairs | Free 2026 Roofer Quotes',
     metaDescription: 'Roof repair services in Newark, NJ from $350 to $1,500. Roof leak repair, flashing repair, shingle repair and flat roof repairs by registered Essex County roofers.',
     // Cora 2026-09-04 Phase X, CP438 "Number of comma delimited meta keywords":
     // 4 -> 9. Every term is verified present in this page's visible text (counts
