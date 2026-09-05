@@ -798,6 +798,80 @@ export const repairMaintenanceContent: ServiceContent[] = [
         answer:
           '**A Newark roof warrants inspection twice a year, once after winter and once before it.** Newark Quality Roofing recommends that schedule because freeze-thaw cycling and summer heat load work the same flashing details in opposite directions. The spring pass reads what winter movement opened at laps, mortar joints, and fastener lines. The fall pass confirms drainage and attic ventilation before snow load arrives. An inspection after any severe storm sits outside that schedule.',
       },
+      // ── Cora 2026-09-05 Phases 2 & 4 (LSI) ────────────────────────────────
+      // Cora's own LSI sheet is EMPTY this run — all 11 LSI factors read 0.000
+      // for all 90 pages, page-1 winners included — so "+562 LSI words / +264
+      // unique" has no term list behind it and those two rows cannot move.
+      // The vocabulary below is rebuilt instead from three sources: the
+      // DataForSEO Newark-localised SERP term matrix (1,147 terms, 13 ranking
+      // pages), Cora's own 65-document corpus, and fresh DataForSEO
+      // related_keywords / keyword_suggestions pulls. Every term added is
+      // genuine roofing vocabulary the corpus shows we lacked; the ~95% of the
+      // gap that is sales boilerplate, competitor skip-links and function words
+      // is deliberately NOT written. These land in the FAQ accordion because it
+      // is collapsed by default — coverage grows, the reader's scroll does not.
+      // Nothing below asserts a capability, price, credential or statistic that
+      // is not already true and stated elsewhere on this page.
+      {
+        question: 'How does roof repair pricing work per square in Newark, NJ?',
+        answer:
+          '**Roof repair pricing follows the scope of the failed detail, not the roof area.** A roofing square measures 100 square feet, and that unit prices a replacement rather than a repair. Repairs across Newark, NJ run $350 to $1,500. A small roof leak repair cost sits at the low end of that band, where one pipe boot or a single length of step flashing comes out. A metal roof repair cost follows the seam length and the fastener count the scope reaches, which is why a metal estimate itemizes those two separately.',
+      },
+      {
+        question: 'What does the inspection behind a free roof repair estimate cover?',
+        answer:
+          '**A roof repair estimate in Newark, NJ is free, and the inspection producing it carries no separate charge.** That free inspection stops at no single detail. The roofer inspecting the roof reads every penetration, the flashing at each chimney and vent, the laps across the open field, and the drainage path to the gutter line. Soft spots underfoot mark where the deck below has taken water. The written evaluation names each failure point found, and each one reaches the estimate as its own priced item.',
+      },
+      {
+        question: 'What happens first on an urgent roof repair after a storm?',
+        answer:
+          '**Emergency tarping comes first on an urgent roof repair: water entry stops before any permanent scope is written.** Storms open a roof faster than a crew rebuilds it. A fastened tarp spans the opened area and laps over sound courses on the uphill side, so runoff passes over it rather than under. The permanent repair follows once the deck is dry enough to bond, and the tarping stays in place until it is.',
+      },
+      {
+        question: 'Does homeowners insurance cover roof repair in New Jersey?',
+        answer:
+          '**A New Jersey homeowners policy covers sudden storm damages and excludes gradual wear.** An insurance company reads every roof claim against that line. Photographed evidence of a datable event supports the event side — creased tabs along one fastener line, hail bruising at a measured density, a limb strike. Insurance companies decline the same roof where the record shows only age. The written repair record naming each failure point is what an adjuster reads, which is the reason it exists.',
+      },
+      {
+        question: 'What causes the dark streaks that appear on shingle roofs?',
+        answer:
+          '**Dark streaks on shingle roofs are algae, not dirt and not mildew.** Gloeocapsa magma colonizes the limestone filler in asphalt shingle roofs and spreads downslope with the runoff. The staining is cosmetic on its own. What matters for repair is what grows alongside it: moss holds moisture against the courses and lifts their edges, opening the path a repair then closes. Tile roofs and standing-seam metal stain differently and shed the growth faster.',
+      },
+      {
+        question: 'How does attic insulation change ice dam formation on a Newark roof?',
+        answer:
+          '**Attic insulation governs ice dams by controlling how much heat reaches the roof deck from below.** A warm deck melts the snow lying on it. That meltwater refreezes at the cold eave, and the ice buildup behind the dam holds standing water against the courses. Insulation and intake-to-exhaust ventilation work as one system. Repairing eave flashing without addressing the heat loss above it returns the same leak the following winter.',
+      },
+      {
+        question: 'At what point does roof repair stop being the answer and a new roof start?',
+        answer:
+          '**Repair stops being the answer once the roof deck beneath the covering is compromised.** Shingles uniformly worn across every plane, wood rot where a probe meets the sheathing, and repeated failures at unrelated details each point past repair. Rot is structural; the covering above it is not. A new roof answers a deck that no longer holds a fastener. Concealed deck condition stays unread until the courses come off, which is why an estimate names that contingency in writing.',
+      },
+      {
+        question: 'Which roof repairs extend the life of an existing roof?',
+        answer:
+          '**Flashing renewal, roof sealing at terminations, and drainage correction extend the life of a roof that is otherwise sound.** Each addresses the detail that fails before the open field does. A covering reaches the top of its rated range only where the details around it hold — [[EPDM|ethylene propylene diene monomer]] runs 15–25 years and modified bitumen 20, per the [InterNACHI life-expectancy chart](https://www.nachi.org/life-expectancy.htm). Sealant is not permanent. A UV-resistant termination is built to withstand sun load longer than a bare lap, and roof longevity follows from maintaining those points rather than from the covering alone. Lifetime coverage on a shingle product answers the material, not the installation beneath it.',
+      },
+      {
+        question: 'Do you repair soffit, fascia, and trim as part of a roof repair?',
+        answer:
+          '**Newark Quality Roofing repairs soffit and fascia as part of a roof repair once water has reached them.** The fascia carries the gutter, and the soffit carries the intake ventilation the roof above depends on. Water running behind a failed drip edge soaks that trim first and shows there before it shows inside. Replacing the roof detail above wet trim leaves the decay in place beneath a finished repair.',
+      },
+      {
+        question: 'How do you tell a leaky roof from condensation on the ceilings below?',
+        answer:
+          '**A leaky roof stains after rain; condensation stains without it.** A roof leak follows weather and reappears at the same ceilings, because water runs the same path each time. Condensation spreads evenly across a cold surface, concentrates near the ridge, and rises with indoor humidity through winter. Frost buildup on the underside of the sheathing settles the question — that is moist indoor air meeting a cold deck, and no flashing repair closes it.',
+      },
+      {
+        question: 'What is involved in repairing the flashing around chimneys?',
+        answer:
+          '**Repairing flashing around chimneys replaces two layers: the step flashing woven into the courses and the counter-flashing set into the mortar.** They are separate components with separate failure modes. Step pieces corrode from beneath, where they lap the shingle above. Counter-flashing loosens as the mortar joint holding its lip erodes. Installing new step metal under original counter-flashing leaves half the assembly at its old age. The scope therefore reads both layers before a crew sets out to install either.',
+      },
+      {
+        question: 'Which Newark neighborhoods do your roofing contractors work in?',
+        answer:
+          '**Newark Quality Roofing works across every Newark neighborhood, and the roof stock changes between them.** Roofing contractors reading the Ironbound meet flat membrane, warehouses, and rooftop HVAC penetrations. Forest Hill and the North Ward are attached brownstones, where party-wall flashing sets the scope. Downtown is modified bitumen behind parapet walls with zero-setback access. Vailsburg is pitched residential, where shingle repair and attic ventilation dominate. The neighborhoods differ enough that diagnosis starts with the address.',
+      },
     ],
     credentialsHighlight: [
       'Registered NJ Contractor',

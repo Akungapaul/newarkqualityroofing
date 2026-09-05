@@ -174,7 +174,10 @@ export const ServiceContentSchema = z.object({
   faqs: z.array(z.object({
     question: z.string(),
     answer: z.string(),
-  })).min(4).max(10),
+    // Cora 2026-09-05 Phases 2/4 raise the ceiling 10 -> 20. The FAQ accordion
+    // is where added vocabulary belongs on this page: items are collapsed by
+    // default, so coverage grows without inflating what the reader has to scroll.
+  })).min(4).max(20),
   // Conversion-optimized fields (optional for backward compatibility)
   pricing: z.object({
     range: z.string(),
