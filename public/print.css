@@ -1,0 +1,45 @@
+/* Print styles — loaded with media="print" so it never blocks first render.
+   Real purpose: a homeowner printing a roof repair cost table or estimate page
+   should get the content, not the navigation, the sticky CTA, or the form. */
+@media print {
+  header, footer, nav, aside,
+  form, button,
+  [data-print-hide] {
+    display: none !important;
+  }
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  main {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+  table, figure, blockquote {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  table {
+    width: 100% !important;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #999;
+    padding: 4pt 6pt;
+    text-align: left;
+  }
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    word-break: break-all;
+  }
+}

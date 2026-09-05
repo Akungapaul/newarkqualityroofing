@@ -1,0 +1,25 @@
+/* Loaded with media="(prefers-contrast: more)" — applies only for readers who
+   have asked their OS for higher contrast, so it never blocks first render.
+   Strengthens borders and removes the low-contrast photo/grain treatment. */
+@media (prefers-contrast: more) {
+  :root {
+    --color-text-secondary: #2b2b2b;
+  }
+  a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  :focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 2px;
+  }
+  input, select, textarea, button {
+    border-width: 2px !important;
+  }
+  .photo-treatment {
+    filter: none !important;
+  }
+  body::after {
+    display: none !important;
+  }
+}

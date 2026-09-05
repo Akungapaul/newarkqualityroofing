@@ -45,6 +45,26 @@ export function LeadForm({
 
   const isHero = variant === 'hero';
 
+  // Server render only — `hydrated` is false until requestAnimationFrame fires,
+  // so the full <optgroup> tree below is client-only and the SSR HTML carried a
+  // single <option>. Cora 2026-09-05 Phase 11 asks for 2 more option tags whose
+  // whole text is a keyword variation (CP457 3 -> 5, CP456 6 -> 7), so the
+  // server branch now also offers the two services that follow the default in
+  // its own category, wrapping at the end. These are real services with real
+  // slugs, which matters because submitLead forwards `serviceNeeded` verbatim as
+  // a GoHighLevel tag. Hydration still replaces all of them with the full list.
+  const ssrServices = (() => {
+    if (!defaultService) return [];
+    const group = serviceGroups.find((g) =>
+      g.services.some((s) => s.slug === defaultService)
+    );
+    if (!group) return [];
+    const start = group.services.findIndex((s) => s.slug === defaultService);
+    return [0, 1, 2]
+      .map((offset) => group.services[(start + offset) % group.services.length])
+      .filter((s, i, all) => s && all.findIndex((o) => o.slug === s.slug) === i);
+  })();
+
   const wrapperClasses = isHero
     ? 'rounded-lg bg-forest-dark/90 p-6 text-text-on-dark backdrop-blur-sm md:p-8'
     : 'rounded-lg border border-border bg-parchment-light p-6 text-text-primary';
@@ -135,6 +155,12 @@ export function LeadForm({
                     </option>
                   ))}
                 </optgroup>
+              ))
+            ) : ssrServices.length > 0 ? (
+              ssrServices.map((service) => (
+                <option key={service.slug} value={service.slug}>
+                  {service.name}
+                </option>
               ))
             ) : (
               defaultService && (

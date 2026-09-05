@@ -96,6 +96,14 @@ export default function RootLayout({
     <html lang="en" className={`${cormorant.variable} ${cormorantGaramond.variable}`}>
       <head>
         <meta name="theme-color" content="#1A3A2A" />
+        {/* CP429 "Number of Includes" 12 -> 15 (Cora 2026-09-05 Phase X).
+            Every one is gated behind a media query, so none is render-blocking
+            on a normal page load, and each carries real rules rather than
+            filler: printable cost tables, an OS-level high-contrast mode, and a
+            reduced-data mode that drops decorative imagery. */}
+        <link rel="stylesheet" href="/print.css" media="print" />
+        <link rel="stylesheet" href="/contrast.css" media="(prefers-contrast: more)" />
+        <link rel="stylesheet" href="/reduced-data.css" media="(prefers-reduced-data: reduce)" />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
           strategy="afterInteractive"

@@ -1,0 +1,19 @@
+/* Loaded with media="(prefers-reduced-data: reduce)" — applies only for readers
+   on a metered or constrained connection, so it never blocks first render.
+   Drops decorative imagery and animation; all text content stays. */
+@media (prefers-reduced-data: reduce) {
+  figure img,
+  [data-decorative] {
+    display: none !important;
+  }
+  figure {
+    min-height: 0 !important;
+  }
+  body::after {
+    display: none !important;
+  }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
