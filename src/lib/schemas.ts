@@ -237,6 +237,16 @@ export const ServiceContentSchema = z.object({
       points: z.array(z.object({
         heading: z.string(),     // statement-form H4
         body: z.array(z.string()).min(1),
+        // Optional H5 layer, and an H6 beneath it. Same heading policy; renders
+        // inside its parent H4 so document order stays monotonic h2 -> h6.
+        notes: z.array(z.object({
+          heading: z.string(),   // statement-form H5
+          body: z.array(z.string()).min(1),
+          detail: z.object({
+            heading: z.string(), // statement-form H6
+            body: z.array(z.string()).min(1),
+          }).optional(),
+        })).optional(),
       })).optional(),
     })).optional(),
   })).optional(),

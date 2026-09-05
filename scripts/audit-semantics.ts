@@ -279,7 +279,15 @@ function renderedAsteriskPass(): { ran: boolean; files: string[] } {
     // Measured on a full build: raw `[[` matched 1527/1527 files, tag-stripped
     // matched 0/1527. Strip scripts (above) THEN tags before testing.
     const text = html.replace(/<[^>]+>/g, ' ');
-    if (text.includes('[[') || text.includes('{{')) leaks.push(f);
+    // //term// and __term__ join [[ and {{ here. Markers only render through
+    // parseRichText; a marker placed in a raw field (heroBenefits, alt, caption,
+    // heading) reaches the reader as literal syntax. That shipped once.
+    if (
+      text.includes('[[') ||
+      text.includes('{{') ||
+      /\/\/[a-z][a-z -]{2,30}\/\//.test(text) ||
+      /__[A-Za-z][A-Za-z ]{2,30}__/.test(text)
+    ) leaks.push(f);
   }
   return { ran: true, files: leaks };
 }

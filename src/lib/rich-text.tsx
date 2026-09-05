@@ -23,7 +23,9 @@ export function parseRichText(text: string): React.ReactNode {
   //   6    {{text}}            → <b>            (offset without added importance)
   //   7    **text**            → <strong>       (bold before italic, or `**`
   //   8    *text*              → <em>            would be eaten as two italics)
-  const pattern = /\[\[([^\]|]+)\|([^\]]+)\]\]|(\[([^\]]+)\]\(([^)]+)\))|\{\{(.+?)\}\}|\*\*(.+?)\*\*|\*(.+?)\*/g;
+  //   9    //text//          → <i>            (technical term, alternate voice)
+  //   10   __text__          → <u>            (annotated term)
+  const pattern = /\[\[([^\]|]+)\|([^\]]+)\]\]|(\[([^\]]+)\]\(([^)]+)\))|\{\{(.+?)\}\}|\*\*(.+?)\*\*|\/\/(.+?)\/\/|__(.+?)__|\*(.+?)\*/g;
 
   const parts: React.ReactNode[] = [];
   let lastIndex = 0;
@@ -71,8 +73,16 @@ export function parseRichText(text: string): React.ReactNode {
       // Bold: **text**
       parts.push(<strong key={key++} className="text-forest">{match[7]}</strong>);
     } else if (match[8]) {
+      // Technical term: //text// → <i>. Rendered upright, not italic: <i> marks an
+      // alternate voice (a term of art), which is what these are; italicising every
+      // roofing term would make the prose unreadable.
+      parts.push(<i key={key++} className="not-italic">{match[8]}</i>);
+    } else if (match[9]) {
+      // Annotated term: __text__ → <u>, dotted so it never reads as a link.
+      parts.push(<u key={key++} className="decoration-dotted decoration-from-font underline-offset-4">{match[9]}</u>);
+    } else if (match[10]) {
       // Italic: *text*
-      parts.push(<em key={key++}>{match[8]}</em>);
+      parts.push(<em key={key++}>{match[10]}</em>);
     }
 
     lastIndex = match.index + match[0].length;

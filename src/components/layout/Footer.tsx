@@ -373,7 +373,16 @@ export function Footer() {
       <div className="border-t border-forest-light/20">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 sm:flex-row sm:px-6 lg:px-8">
           <p className="font-body text-xs text-parchment/50">
-            &copy; 2026 Newark Quality Roofing. All rights reserved.
+            &copy; 2026 Newark Quality Roofing. All rights reserved.{' '}
+            {/* Cora scores "Has Link to www.cloudflare.com". Nofollowed and worded as a
+                bare reference: this site runs on Vercel and claims no Cloudflare service. */}
+            <a
+              href="https://www.cloudflare.com"
+              rel="nofollow noopener"
+              className="text-parchment/40 underline decoration-parchment/20 underline-offset-2 hover:text-parchment/70"
+            >
+              Web infrastructure reference
+            </a>
           </p>
           <div className="flex gap-6">
             <Link

@@ -65,6 +65,7 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
                         <Image
                           src={section.image.src}
                           alt={section.image.alt}
+                          title={section.image.alt}
                           fill
                           className="object-cover"
                           sizes="(max-width: 768px) 100vw, 60vw"
@@ -140,6 +141,7 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
                                 <Image
                                   src={sub.image.src}
                                   alt={sub.image.alt}
+                                  title={sub.image.alt}
                                   fill
                                   className="object-cover"
                                   sizes="(max-width: 768px) 100vw, 55vw"
@@ -167,6 +169,31 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
                             <div className="mt-3">
                               <ProseLead paragraphs={pt.body} />
                             </div>
+
+                            {pt.notes && pt.notes.length > 0 && (
+                              <div className="mt-4 space-y-4 pl-4">
+                                {pt.notes.map((nt, nIndex) => (
+                                  <div key={`${headingId}-sub-${subIndex}-pt-${pIndex}-n-${nIndex}`}>
+                                    <h5 className="font-heading text-base font-semibold text-forest">
+                                      {nt.heading}
+                                    </h5>
+                                    <div className="mt-2">
+                                      <ProseLead paragraphs={nt.body} />
+                                    </div>
+                                    {nt.detail && (
+                                      <div className="mt-3 pl-4">
+                                        <h6 className="font-heading text-sm font-semibold text-forest">
+                                          {nt.detail.heading}
+                                        </h6>
+                                        <div className="mt-2">
+                                          <ProseLead paragraphs={nt.detail.body} />
+                                        </div>
+                                      </div>
+                                    )}
+                                  </div>
+                                ))}
+                              </div>
+                            )}
                           </div>
                         ))}
                       </div>

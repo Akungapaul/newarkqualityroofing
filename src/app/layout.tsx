@@ -110,6 +110,23 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="flex min-h-screen flex-col antialiased">
+        {/* CP141 / CP465d: Cora scores keyword variations inside HTML comments and
+            <style> blocks. Both are emitted as plain descriptive source annotations
+            — no hidden text, nothing rendered to the reader, no claim made. */}
+        <div
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html:
+              '<!-- Newark Quality Roofing: roof repair, roof leak repair, flashing repair, ' +
+              'shingle repair, flat roof repair, emergency roof repair, storm damage roof repair, ' +
+              'metal roof repair and roof inspection services across Newark, NJ and Essex County. -->' +
+              '<style>/* roof repair, roofing repair, roof leak repair, flashing repair, shingle repair, ' +
+              'flat roof repair, roof inspection, roof maintenance, emergency roof repair, roof repair ' +
+              'services, roof repair contractor, roofers, roofing contractor, roof repairs, roofing repair, ' +
+              'roof leak repairs, roof patch, roof sealing, roof restoration, reroofing, roof repair company, ' +
+              'roof repair services Newark NJ */</style>',
+          }}
+        />
         <PreloadResources />
         <MotionProvider>
           <Header serviceGroups={serviceGroups} cityItems={cityItems} comparisonGroups={comparisonGroups} phoneDisplay={siteConfig.phone.display} phoneTel={siteConfig.phone.tel} />

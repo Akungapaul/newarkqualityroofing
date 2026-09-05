@@ -1,0 +1,25 @@
+============================================================
+Claude session watchdog  —  started 2026-06-04 12:39:42
+  transcript : /Users/akungapaul/.claude/projects/-Users-akungapaul-Projects-Newarkqualityroofing/78c8fbdf-d6a0-4bd0-ac66-e2560ee55e20.jsonl
+  pid        : 94493
+  interval   : 300s    duration: 10800s    checks: 36
+  stall after: 3 cold checks (~15 min)
+  log file   : /Users/akungapaul/Projects/Newarkqualityroofing/scripts/logs/session-watch-20260604-123942.log
+============================================================
+[2026-06-04 12:44:42] #1/36  OK   state=S+ socks=5 -> running
+[2026-06-04 12:49:44] #2/36  OK   state=S+ socks=4 -> +6files running
+[2026-06-04 12:54:45] #3/36  OK   state=S+ socks=3 -> +1lines
+[2026-06-04 12:59:50] #4/36  OK   state=S+ socks=2 -> running
+[2026-06-04 13:04:52] #5/36  COLD state=R+ socks=2 lines=480 (no growth/files/run)  cold=1/3
+[2026-06-04 13:09:56] #6/36  COLD state=S+ socks=2 lines=480 (no growth/files/run)  cold=2/3
+[2026-06-04 13:15:00] #7/36  OK   state=R+ socks=2 -> running
+[2026-06-04 13:20:02] #8/36  COLD state=S+ socks=2 lines=480 (no growth/files/run)  cold=1/3
+[2026-06-04 13:25:05] #9/36  OK   state=S+ socks=2 -> running
+[2026-06-04 13:30:07] #10/36  OK   state=S+ socks=2 -> running
+[2026-06-04 13:35:09] #11/36  OK   state=S+ socks=2 -> running
+[2026-06-04 13:40:12] #12/36  OK   state=S+ socks=2 -> running
+[2026-06-04 13:45:13] #13/36  OK   state=S+ socks=2 -> running
+[2026-06-04 13:50:15] #14/36  COLD state=S+ socks=2 lines=480 (no growth/files/run)  cold=1/3
+[2026-06-04 13:55:18] #15/36  OK   state=S+ socks=4 -> running
+[2026-06-04 14:00:21] #16/36  COLD state=S+ socks=2 lines=480 (no growth/files/run)  cold=1/3
+[2026-06-04 14:05:24] #17/36  OK   state=S+ socks=2 -> running

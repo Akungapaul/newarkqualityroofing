@@ -16,7 +16,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'Free written estimate before any repair begins',
     ],
     directAnswer:
-      '**Newark Quality Roofing delivers expert roof repair across Newark, New Jersey**, fixing party-wall leaks, storm and hail damage, flashing failures, and flat-roof membranes through roof leak repair, flat roof repair, and shingle repair — with repairs from $350–$1,500 and free estimates, as a registered New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing delivers expert roof repair across Newark, New Jersey**, fixing party-wall leaks, storm and hail damage, flashing failures, and flat-roof membranes through //roof leak repair//, flat roof repair, and shingle repair — with repairs from $350–$1,500 and free estimates, as a registered New Jersey Home Improvement Contractor.',
     definition:
       '**Roof repair** restores a roof\'s weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.',
     // ── Surfer brief-driven prose band (question-form H2s). Renders IN PLACE OF
@@ -33,20 +33,20 @@ export const repairMaintenanceContent: ServiceContent[] = [
         },
         body: [
           '**Newark Quality Roofing is the roofing contractor Newark property owners trust for roof repair.** In this city, row houses, flat roofs, and commercial blocks share tight rooflines. Prices start from $350–$1,500, and free estimates are available today.',
-          'Newark\'s roofing landscape tells the story of a city built in layers. Victorian-era brownstones in Forest Hill press shoulder-to-shoulder against their neighbors. Mid-century multi-family walk-ups line the avenues of Roseville. Flat-roofed commercial blocks and warehouses anchor the Ironbound district. {{Roof repair}} here is never a simple patch job. The density of construction, the age of materials, and the shared structural elements between adjacent buildings all bear on the outcome. Every repair therefore demands an understanding of how water, wind, and time interact with Newark\'s particular building stock. Among Newark roofing companies, Newark Quality Roofing delivers the roof repair Newark residents and business owners trust.',
+          'Newark\'s roofing landscape tells the story of a city built in layers. Victorian-era brownstones in Forest Hill press shoulder-to-shoulder against their neighbors. Mid-century multi-family walk-ups line the avenues of Roseville. Flat-roofed commercial blocks and warehouses anchor the Ironbound district. {{Roof repair}} here is never a simple patch job. The density of construction, the age of materials, and the shared structural elements between adjacent buildings all bear on the outcome. Every repair therefore demands an understanding of how water, wind, and time interact with Newark\'s particular building stock. Among Newark roofing companies, Newark Quality Roofing delivers //the roof repair// Newark residents and business owners trust.',
         ],
         subsections: [
           {
             heading: 'Roof Repair on Attached Brownstones in Newark, NJ',
             body: [
               '**Roof repair on attached brownstones** treats the shared masonry party wall as a roof component. The slopes of two separately owned buildings terminate against that wall. The flashing set into it belongs to both.',
-              'A party wall is one masonry divider carrying the ends of two roof planes. The seam along its top belongs to two buildings at once. The flashing worked into those walls across the North Ward, Forest Hill, and Roseville went in decades before modern building codes. The mortar holding it has weathered ever since. The roof covering above that seam varies from one address to the next. The wall detail beneath it stays constant. The flashing rather than the shingle field therefore sets the repair scope on an attached row. {{Repairing the party-wall seam}} reaches both roof planes it serves.',
+              'A party wall is one masonry divider carrying the ends of two roof planes. The seam along its top belongs to two buildings at once. The flashing worked into those walls across the North Ward, Forest Hill, and Roseville went in decades before modern building codes. The mortar holding it has weathered ever since. The //roof covering// above that seam varies from one address to the next. The wall detail beneath it stays constant. The flashing rather than the shingle field therefore sets the repair scope on an attached row. {{Repairing the party-wall seam}} reaches both roof planes it serves.',
             ],
           },
           {
             heading: 'Flat Roof Repair on Commercial Blocks in Newark, NJ',
             body: [
-              '**Flat roof repair** on Newark\'s commercial blocks reseals low-slope membrane — EPDM, TPO, and modified bitumen. The work covers seams, parapet transitions, and rooftop HVAC penetrations, where standing water and thermal movement concentrate the failure.',
+              '**Flat roof repair** on Newark\'s commercial blocks reseals low-slope membrane — EPDM, TPO, and //modified bitumen//. The work covers seams, parapet transitions, and rooftop HVAC penetrations, where standing water and thermal movement concentrate the failure.',
               'Ponding water remaining on a low-slope roof more than 48 hours counts as a defect. The minimum drainage slope is ¼ inch per foot, per NRCA and [ARMA](https://www.asphaltroofing.org/resources/). Membrane age measured against rated service life frames the repair decision. [[EPDM|ethylene propylene diene monomer]] runs 15–25 years, [[TPO|thermoplastic polyolefin]] 7–20 years, and modified bitumen 20 years, per the [InterNACHI life-expectancy chart](https://www.nachi.org/life-expectancy.htm). Repairing more than 25% of a commercial roof area within a 12-month period requires a permit under [[N.J.A.C.|New Jersey Administrative Code]] 5:23-2.7, per the [NJ Uniform Construction Code](https://www.nj.gov/dca/codes/). That code places the line between a repair and a permitted job at the measured area.',
             ],
               points: [
@@ -54,14 +54,14 @@ export const repairMaintenanceContent: ServiceContent[] = [
                   heading: 'Roof Repairs at Open Field Seams Start at the Lap, Not the Stain',
                   body: [
                     '**Field seams** join one membrane sheet to the next along an overlapped lap. That lap, not the sheet itself, carries the failure once the weld or adhesive bond loses continuity.',
-                    'Thermal movement works the laps in tension and compression across a low-slope field. The bond releases along a short run rather than across the whole seam. Water entering that run travels laterally between the membrane and the substrate. The interior stain therefore appears at a distance from the open lap. Probing the seam edge locates the separation. The repair scope then starts at the lap rather than at the stain.',
+                    'Thermal movement works the laps in tension and compression across a low-slope field. The bond releases along a short run rather than across the whole seam. Water entering that run travels laterally between the membrane and the substrate. The interior stain therefore appears at a distance from the open lap. Probing the seam edge locates the separation. Repairing the run therefore starts at the lap rather than at the stain.',
                   ],
                 },
                 {
                   heading: 'Parapet Transition Repairs Rebuild the Split as One Assembly',
                   body: [
                     '**Parapet transitions** carry the membrane from the horizontal deck up the inside face of the wall. The sheet takes concentrated stress at that bend, where deck and wall move independently.',
-                    'A split at that bend admits water behind the membrane rather than onto it. That water reaches the wall assembly and the deck edge, while the surface above reads as intact. The termination at the top of that vertical run holds the sheet against the wall. A released fastener line there drops the whole run out of tension. Repair rebuilds the transition as one assembly, from the deck angle through the termination above it.',
+                    'A split at that bend admits water behind the membrane rather than onto it. That water reaches the wall assembly and the deck edge, while the surface above reads as intact. The termination at the top of that vertical run holds the sheet against the wall. A released //fastener line// there drops the whole run out of tension. Repair rebuilds the transition as one assembly, from the deck angle through the termination above it.',
                   ],
                 },
                 {
@@ -83,14 +83,14 @@ export const repairMaintenanceContent: ServiceContent[] = [
           {
             heading: 'Flashing Repair at Party Walls and Parapets',
             body: [
-              '**Flashing repair at party walls and parapets** rebuilds a two-part assembly. Step flashing covers the roof-to-wall transition, and counter-flashing is set into the mortar joint above it.',
-              'A parapet carries that same pair plus the coping that caps the wall top. The two pieces follow different planes — step flashing follows the roof, counter-flashing follows the wall. A repair treating them as one piece leaves the moving joint between them unsealed. The mortar holds the counter-flashing. A joint that has deteriorated releases that metal. Water then passes behind flashing that still reads as sound from the street. Resetting that counter-flashing into sound mortar restores the seal. A bead of sealant run across a released lap leaves the joint open.',
+              '**Flashing repair at party walls and parapets** rebuilds a two-part assembly. Step flashing covers the roof-to-wall transition, and //counter-flashing// is set into the mortar joint above it.',
+              'A parapet carries that same pair plus the coping that caps the wall top. The two pieces follow different planes — //step flashing// follows the roof, counter-flashing follows the wall. A repair treating them as one piece leaves the moving joint between them unsealed. The mortar holds the counter-flashing. A joint that has deteriorated releases that metal. Water then passes behind flashing that still reads as sound from the street. Resetting that counter-flashing into sound mortar restores the seal. A bead of sealant run across a released lap leaves the joint open.',
             ],
               points: [
                 {
                   heading: 'Step Flashing Repairs Replace the Failed Pieces in Course Order',
                   body: [
-                    '**Step flashing** consists of individual L-shaped metal pieces, one per shingle course. Each piece bends over the roof plane and up the wall face. Shingles and metal interleave as the roof rises.',
+                    '**Step flashing** consists of individual L-shaped metal pieces, one per shingle course. Each piece bends over the //roof plane// and up the wall face. Shingles and metal interleave as the roof rises.',
                     'Failure reads piece by piece rather than across the whole run. It shows as one bent or displaced leg, a corroded base where debris held moisture against the metal, or a continuous length substituted for the individual pieces. Water passes at that single opening. It travels down the wall face beneath sound metal on either side. Replacing the affected pieces means lifting the shingle courses they lap. The run gets rebuilt in course order.',
                   ],
                 },
@@ -114,7 +114,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Local Roof Repair Contractors Separate Repair From Replacement in Newark, NJ',
             body: [
               '**Local roof repair contractors** working across Newark scope a repair against the condition of the surrounding roof. They name the three findings that place a roof past patching, rather than writing a repair the surface cannot hold.',
-              'Granule loss exceeding 30% of the shingle surface is the common rule of thumb for a roof beyond repair, per GAF. Sandy grit in the gutters is how that loss reads at ground level. Daylight through the roof deck, seen from inside the attic, indicates holes in the decking, per [This Old House](https://www.thisoldhouse.com/roofing). That finding points toward replacement rather than a patch. A sagging ceiling or roofline indicates sheathing decay from prolonged moisture, per GAF. It ranks as a structural priority. Newark Quality Roofing names any of the three in writing.',
+              '__Granule loss__ exceeding 30% of the shingle surface is the common rule of thumb for a roof beyond repair, per GAF. Sandy grit in the gutters is how that loss reads at ground level. Daylight through the //roof deck//, seen from inside the attic, indicates holes in the decking, per [This Old House](https://www.thisoldhouse.com/roofing). That finding points toward replacement rather than a patch. A sagging ceiling or roofline indicates sheathing decay from prolonged moisture, per GAF. It ranks as a structural priority. Newark Quality Roofing names any of the three in writing.',
             ],
           },
           {
@@ -134,7 +134,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
           caption: 'Chimney flashing repair with new copper.',
         },
         body: [
-          '**Newark Quality Roofing provides roof repair services across Newark, New Jersey**, as a registered and insured New Jersey Home Improvement Contractor. Those services cover roof inspections, leak diagnosis, flashing repair, shingle repair, metal roof repair, and flat-roof membrane repair.',
+          '**Newark Quality Roofing provides roof repair services across Newark, New Jersey**, as a registered and insured New Jersey Home Improvement Contractor. Those services cover roof inspections, leak diagnosis, flashing repair, //shingle repair//, metal roof repair, and flat-roof membrane repair.',
           'Each of those {{roof repair services}} matches the failed component to Newark, New Jersey building stock and climate. That means party-wall flashing on attached brownstones, low-slope membrane on Ironbound commercial blocks, and asphalt shingle fields on pitched Vailsburg roofs. Newark Quality Roofing diagnoses the source of water entry before sealing any component. The repair then addresses the {{cause}}, not the visible stain.',
         ],
         subsections: [
@@ -154,13 +154,13 @@ export const repairMaintenanceContent: ServiceContent[] = [
             },
             body: [
               '**Missing and cracked shingle repair** replaces the failed courses and the underlayment they exposed. That work restores the water layer over the roof deck, per GAF and This Old House inspection guidance.',
-              'Wind blow-off and impact damage strip individual tabs and crack the asphalt mat. The layers beneath then take every rainfall that follows. A shingle course laps the course below it and covers that course\'s fastener line. Replacing a tab therefore means lifting the courses above, rather than sliding a piece into the gap. Water that reached the opening soaks the underlayment. A repair confined to the visible tabs closes new shingles over a wet layer. Newark Quality Roofing opens the failed section and replaces the damaged underlayment and shingles there. Newark Quality Roofing then rebuilds the courses to manufacturer specification.',
+              'Wind blow-off and impact damage strip individual tabs and crack the asphalt mat. The layers beneath then take every rainfall that follows. A //shingle course// laps the course below it and covers that course\'s fastener line. Replacing a tab therefore means lifting the courses above, rather than sliding a piece into the gap. Water that reached the opening soaks the underlayment. Repairing only the visible tabs closes new shingles over a wet layer. Newark Quality Roofing opens the failed section and replaces the damaged underlayment and shingles there. Newark Quality Roofing then rebuilds the courses to manufacturer specification.',
             ],
           },
           {
             heading: 'Flashing Repair Replaces the Metal at a Chimney, Skylight, or Valley',
             body: [
-              '**Flashing repair** replaces the sheet metal at a chimney, skylight, wall, or valley. The replacement follows once the metal has corroded and the sealant laps have lifted, per [GAF](https://www.gaf.com/en-us/roofing-materials) technical guidance.',
+              '**Flashing repair** replaces the sheet metal at a chimney, skylight, wall, or valley. Repairing that metal follows once it has corroded and the sealant laps have lifted, per [GAF](https://www.gaf.com/en-us/roofing-materials) technical guidance.',
               'Sealant spread over corroded metal reopens at the same lap within a season. The failure sits in the substrate rather than in the joint compound. Step flashing at a wall, counter-flashing set into mortar, and valley metal each carry water differently. The repair therefore specifies the piece by type, instead of running one product across every transition. A skylight curb takes a different bend from a wall step. Newark Quality Roofing fabricates each replacement piece to the profile of the detail it seals.',
             ],
           },
@@ -182,7 +182,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
                   heading: 'Exhaust Flue Repairs Take Metal Flashing and a Storm Collar',
                   body: [
                     '**An exhaust flue** vents combustion gas from a furnace, boiler, or water heater through the roof. Its heat rules out the rubber collar used at a plumbing stack.',
-                    'A flue penetration is sealed instead with a metal base flashing and a storm collar clamped around the pipe above it. That two-piece assembly lets the flue move without breaking the seal. Code-required clearance between a flue and combustible framing leaves the deck opening wider than the pipe. The base flashing spans that gap. Corrosion at the base flange is a recurring finding on an aging flue, as is a storm collar loosened by that movement.',
+                    'A flue penetration is sealed instead with a metal base flashing and a //storm collar// clamped around the pipe above it. That two-piece assembly lets the flue move without breaking the seal. Code-required clearance between a flue and combustible framing leaves the deck opening wider than the pipe. The base flashing spans that gap. Corrosion at the base flange is a recurring finding on an aging flue, as is a storm collar loosened by that movement.',
                   ],
                 },
                 {
@@ -226,7 +226,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Roof Leak Repair Diagnosis From Ridge to Eave',
             body: [
               '**Roof leak repair diagnosis** starts above the visible drip and follows the direction water runs. Ridge and hip lines come first, then valleys, penetrations and step flashing, and last the eave and gutter line.',
-              'Moisture travels laterally along rafters, underlayment laps, and the roof deck before it surfaces. A ceiling stain therefore marks where water left the assembly rather than where it entered. Sealing the surface directly above that stain closes an intact section and leaves the opening running. Reading the roof downhill instead puts each detail in front of the crew in the order the water crossed it. The failed component gets named — flashing, shingles, underlayment, or pipe boot — before anything is sealed.',
+              'Moisture travels laterally along rafters, underlayment laps, and the roof deck before it surfaces. A ceiling stain therefore marks where water left the assembly rather than where it entered. Sealing the surface directly above that stain closes an intact section and leaves the opening running. Reading the roof downhill instead puts each detail in front of the crew in the order the water crossed it. The failed component gets named — flashing, shingles, underlayment, or //pipe boot// — before anything is sealed.',
             ],
           },
           {
@@ -254,7 +254,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'The Written Repair Record Names Every Failure Point Found',
             body: [
               '**The written repair record** names every contributing failure point found during the inspection. Timestamped photographs keyed to a roof diagram support each one. The fault is identifiable by location rather than described in general terms.',
-              'Partial documentation produces partial repairs. The record therefore names each failed component instead of the single most visible symptom. The same photograph set serves an insurance adjuster reviewing a storm or hail claim. It serves property managers overseeing multi-family buildings as well. The set also establishes the baseline the next inspection reads against. On a repair spanning two attached properties, each owner receives a separate documentation package covering the shared roof plane.',
+              'Partial documentation produces partial repairs. The record therefore names each failed component instead of the single most visible symptom. The same photograph set serves an insurance adjuster reviewing a storm or hail claim. It serves property managers overseeing multi-family buildings as well. The set also establishes the baseline the next inspection reads against. On a repair spanning two attached properties, each owner receives a separate documentation package covering the shared //roof plane//.',
             ],
           },
           {
@@ -295,7 +295,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Wind Uplift Opens Flashing Laps and Loosens Fastener Lines',
             body: [
               '**Storm flashing repair** rebuilds the sheet metal and sealed laps at a chimney, wall, parapet, or valley. Wind uplift lifts the metal at those details and works the fastener line loose during a storm.',
-              'A storm sorts the metal into two conditions. The repair answers the condition rather than the size of the storm. Corroded stock and creased laps come off and get replaced. Metal still sound gets re-secured. Its counter-flashing gets reset into sound mortar, restoring the seal that deteriorated joints released. Sealant alone closes neither case. A lap that no longer sits flat carries water past the caulk and back into the transitions where roof leaks concentrate.',
+              'A storm sorts the metal into two conditions. Repairing the roof answers the condition rather than the size of the storm. Corroded stock and creased laps come off and get replaced. Metal still sound gets re-secured. Its counter-flashing gets reset into sound mortar, restoring the seal that deteriorated joints released. Sealant alone closes neither case. A lap that no longer sits flat carries water past the caulk and back into the transitions where roof leaks concentrate.',
             ],
           },
           {
@@ -409,7 +409,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             },
             body: [
               '**A metal roof repair estimate** prices the seams, the fastener lines, and the panel laps as separate details. Those components admit water while the panel field around them stays sound.',
-              'On an exposed-fastener panel the gasketed fastener and the panel lap deteriorate ahead of the panel field itself. The estimator therefore reads the fastener lines and the laps first. Panel work gets specified only where the metal has failed. The written scope names each of those details before the repair is scheduled. Naming them separates a reseal at an existing lap from replacement of failed metal. That distinction keeps the priced work on the components that failed rather than across the whole panel run.',
+              'On an exposed-fastener panel the gasketed fastener and the //panel lap// deteriorate ahead of the panel field itself. The estimator therefore reads the fastener lines and the laps first. Panel work gets specified only where the metal has failed. The written scope names each of those details before the repair is scheduled. Naming them separates a reseal at an existing lap from replacement of failed metal. That distinction keeps the priced work on the components that failed rather than across the whole panel run.',
             ],
           },
           {
@@ -431,6 +431,22 @@ export const repairMaintenanceContent: ServiceContent[] = [
                 body: [
                   '**Material warranty** covers a factory defect in the shingle, membrane, or flashing stock installed on the repair. It follows the manufacturer of that product rather than the contractor who set it.',
                   'The product line named in the written scope therefore fixes which manufacturer warranty applies. A matched repair starts from the shingle line, flashing product line, or membrane chemistry already on the roof, so the replacement stock carries its own manufacturer coverage. On a low-slope roof already under a manufacturer system warranty, the estimate names the bonding method alongside the material.',
+                ],
+                notes: [
+                  {
+                    heading: 'The Written Scope Names the Shingle Line Before Roof Repair Materials Are Ordered',
+                    body: [
+                      '**The shingle line** is recorded at the estimate rather than on the roof. Naming it there is what lets the replacement stock match the surrounding plane in both material and appearance.',
+                      'Newark Quality Roofing installs GAF® Timberline HDZ®, Owens Corning®, and CertainTeed lines, so the matched line is read off the existing roof before any material is ordered.',
+                    ],
+                    detail: {
+                      heading: 'Membrane Chemistry Sets the Low-Slope Roof Repair Warranty Path',
+                      body: [
+                        '**Membrane chemistry** decides which manufacturer stands behind a low-slope repair. EPDM, TPO, and modified bitumen each carry their own coverage.',
+                        'The estimate therefore names the membrane as a specific product rather than a category, and names the bonding method alongside it where a system warranty is already in force.',
+                      ],
+                    },
+                  },
                 ],
               },
               {
@@ -539,7 +555,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
     problemsWeExpect: {
       heading: 'Roof Damage and Problems We Expect on Newark, NJ Roofs',
       items: [
-        'We regularly address party-wall flashing leaks, low-slope drainage issues, and parapet and coping failures. We also recommend a roof inspection twice a year. That schedule identifies potential roof issues early, before they spread — something many homeowners overlook.',
+        'We regularly address party-wall flashing leaks, low-slope drainage issues, and parapet and coping failures. We also recommend a //roof inspection// twice a year. That schedule identifies potential roof issues early, before they spread — something many homeowners overlook.',
         'Tight access from narrow lots',
         'Older masonry transitions',
         'Poor attic ventilation can trap heat and moisture, contributing to premature aging of roof decks on older homes',
@@ -634,7 +650,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         title: 'Full Water-Path Diagnosis and Repair Specification',
         description:
-          'Once on the roof, our diagnostic approach accounts for Newark\'s attached-building reality. We don\'t just inspect the reported leak area — we trace the full water path from ridge to gutter. That trace checks every party wall flashing joint, valley intersection, and penetration point. Common roof repairs fix roof leaks around flashing and replace wind-damaged or missing shingles. Emergency repairs help prevent further damage to the home before permanent work is complete. For flat commercial roofs, we perform standing-water mapping and membrane adhesion testing. Flat roofing systems need regular maintenance to restore long-term performance. Our repair specification identifies every contributing failure point, not just the most visible symptom. The specification also includes checking seals around vents, chimneys, and skylights, plus clogged or damaged gutters. Those gutters can force water back up under roof shingles. In Newark\'s interconnected building stock, a partial repair is often no repair at all. Our scope also includes cleanup of repair-related debris.',
+          'Once on the roof, our diagnostic approach accounts for Newark\'s attached-building reality. We don\'t just inspect the reported leak area — we trace the full water path from ridge to gutter. That trace checks every party wall flashing joint, valley intersection, and penetration point. Common //roof repairs// fix roof leaks around flashing and replace wind-damaged or missing shingles. Emergency repairs help prevent further damage to the home before permanent work is complete. For flat commercial roofs, we perform standing-water mapping and membrane adhesion testing. Flat roofing systems need regular maintenance to restore long-term performance. Our repair specification identifies every contributing failure point, not just the most visible symptom. The specification also includes checking seals around vents, chimneys, and skylights, plus clogged or damaged gutters. Those gutters can force water back up under roof shingles. In Newark\'s interconnected building stock, a partial repair is often no repair at all. Our scope also includes cleanup of repair-related debris.',
       },
       {
         title: 'Documentation and Insurance Support',
@@ -663,7 +679,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         question:
           'Why does my North Ward brownstone keep developing leaks in the same spot every winter?',
         answer:
-          '**Recurring leaks on North Ward brownstones almost always trace back to one of three causes: deteriorated step flashing, failed counter-flashing, or ice dam formation.** The step flashing fails where the roof meets the party wall. The counter-flashing sits embedded in aging mortar joints. Ice dams form in the narrow valleys created by intersecting roof planes. The freeze-thaw cycling in Newark creates ice dams that force water under shingles repeatedly each winter. Heat loss from poorly insulated brownstone attics amplifies that cycling. A lasting repair addresses the root cause: improving flashing details and, when possible, adding ice-and-water shield membrane in the vulnerable zones.',
+          '**Recurring leaks on North Ward brownstones almost always trace back to one of three causes: deteriorated step flashing, failed counter-flashing, or ice dam formation.** The step flashing fails where the roof meets the party wall. The counter-flashing sits embedded in aging mortar joints. Ice dams form in the narrow valleys created by intersecting roof planes. The freeze-thaw cycling in Newark creates ice dams that force water under shingles repeatedly each winter. Heat loss from poorly insulated brownstone attics amplifies that cycling. Repairing the cause rather than the symptom is what lasts: improving flashing details and, when possible, adding ice-and-water shield membrane in the vulnerable zones.',
       },
       {
         // OWNER-CONFIRMED 2026-09-03: the two-to-four-hour business-hours arrival
@@ -715,7 +731,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'Specialized Newark Roof Repair Experience',
           description:
-            'As a local roofing company, our dedicated roofers specialize in the repair challenges common to Newark homes and businesses. We\'ve helped 500+ Essex County property owners protect their biggest investment.',
+            'As a local roofing company, our dedicated //roofers// specialize in the repair challenges common to Newark homes and businesses. We\'ve helped 500+ Essex County property owners protect their biggest investment.',
         },
         {
           title: 'Registered and Insured, With GAF Certification',

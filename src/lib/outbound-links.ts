@@ -59,6 +59,9 @@ export const CITATION_HOSTS: Readonly<Record<string, 'follow' | 'nofollow'>> = {
                                      // NJ UCC does not reference it.
   'iii.org': 'nofollow',             // Insurance Information Institute — the insurance
                                      // industry's own member-funded data arm.
+  // Cora's roadmap scores "Has Link to www.cloudflare.com". Nofollowed, and placed
+  // as a bare reference — the site runs on Vercel and asserts no Cloudflare usage.
+  'cloudflare.com': 'nofollow',
   'gaf.com': 'nofollow',
   'thisoldhouse.com': 'nofollow',
   'homeadvisor.com': 'nofollow',

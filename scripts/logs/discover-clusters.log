@@ -1,0 +1,67 @@
+[1/65] roof-repair (seed "roof repair") → 120 kw, top 14800, cost $0.075
+[2/65] roof-replacement (seed "roof replacement") → 120 kw, top 14800, cost $0.150
+[3/65] emergency-roof-repair (seed "emergency roof repair") → 53 kw, top 590, cost $0.225
+[4/65] roof-inspection (seed "roof inspection") → 120 kw, top 880, cost $0.300
+[5/65] roof-maintenance-programs (seed "roof maintenance") → 120 kw, top 1000, cost $0.375
+[6/65] roof-leak-repair (seed "roof leak repair") → 120 kw, top 1300, cost $0.450
+[7/65] storm-damage-roof-repair (seed "storm damage roof repair") → 65 kw, top 50, cost $0.525
+[8/65] hail-damage-roof-repair (seed "hail damage roof repair") → 27 kw, top 50, cost $0.600
+[9/65] wind-damage-roof-repair (seed "wind damage roof repair") → 1 kw, top 10, cost $0.675
+[10/65] roof-cleaning-moss-removal (seed "roof cleaning") → 120 kw, top 1900, cost $0.750
+[11/65] residential-roof-installation (seed "residential roof installation") → 7 kw, top 40, cost $0.825
+[12/65] asphalt-shingle-roofing (seed "asphalt shingle roofing") → 120 kw, top 1600, cost $0.900
+[13/65] slate-roof-installation-repair (seed "slate roof") → 120 kw, top 720, cost $0.975
+[14/65] wood-shake-roofing (seed "wood shake roofing") → 120 kw, top 320, cost $1.050
+[15/65] metal-roof-installation-repair (seed "metal roof") → 120 kw, top 1900, cost $1.125
+[16/65] flat-roof-installation-repair (seed "flat roof") → 120 kw, top 720, cost $1.200
+[17/65] tile-roof-installation-repair (seed "tile roof") → 120 kw, top 1600, cost $1.275
+[18/65] cedar-shake-roofing (seed "cedar shake roofing") → 120 kw, top 320, cost $1.350
+[19/65] rubber-roofing-epdm (seed "epdm roofing") → 120 kw, top 590, cost $1.425
+[20/65] tpo-roofing-installation (seed "tpo roofing") → 120 kw, top 480, cost $1.500
+[21/65] epdm-commercial-roofing (seed "epdm commercial roofing") → 6 kw, top 10, cost $1.575
+[22/65] modified-bitumen-roofing (seed "modified bitumen roofing") → 120 kw, top 90, cost $1.650
+[23/65] built-up-roofing (seed "built-up roofing") → 62 kw, top 50, cost $1.725
+[24/65] commercial-metal-roofing (seed "commercial metal roofing") → 25 kw, top 170, cost $1.800
+[25/65] pvc-roofing (seed "pvc roofing") → 120 kw, top 260, cost $1.875
+[26/65] green-roof-installation (seed "green roof installation") → 10 kw, top 140, cost $1.950
+[27/65] spray-foam-roofing (seed "spray foam roofing") → 120 kw, top 50, cost $2.025
+[28/65] roof-flashing-installation-repair (seed "roof flashing") → 120 kw, top 590, cost $2.100
+[29/65] chimney-flashing-repair (seed "chimney flashing repair") → 88 kw, top 170, cost $2.175
+[30/65] gutter-installation-repair (seed "gutter installation") → 120 kw, top 1300, cost $2.250
+[31/65] gutter-guard-installation (seed "gutter guard installation") → 120 kw, top 1900, cost $2.325
+[32/65] skylight-installation-repair (seed "skylight installation") → 120 kw, top 210, cost $2.400
+[33/65] fascia-installation-repair (seed "fascia repair") → 120 kw, top 50, cost $2.475
+[34/65] soffit-installation-repair (seed "soffit repair") → 120 kw, top 110, cost $2.550
+[35/65] roof-vent-installation-repair (seed "roof vent installation") → 120 kw, top 720, cost $2.625
+[36/65] roof-waterproofing (seed "roof waterproofing") → 120 kw, top 90, cost $2.700
+[37/65] roof-deck-repair-replacement (seed "roof deck repair and replacement") → 1 kw, top 10, cost $2.775
+[38/65] solar-panel-roofing-installation (seed "solar roof installation") → 120 kw, top 720, cost $2.850
+[39/65] solar-shingle-installation (seed "solar shingle installation") → 23 kw, top 140, cost $2.925
+[40/65] energy-efficient-roofing-solutions (seed "energy efficient roofing") → 36 kw, top 30, cost $3.000
+[41/65] silicone-roof-coating (seed "silicone roof coating") → 120 kw, top 170, cost $3.075
+[42/65] silicone-elastomeric-roof-coating (seed "silicone roof coating") → 120 kw, top 170, cost $3.150
+[43/65] commercial-roof-installation (seed "commercial roof installation") → 28 kw, top 590, cost $3.225
+[44/65] commercial-roof-repair (seed "commercial roof repair") → 96 kw, top 590, cost $3.300
+[45/65] commercial-roof-replacement (seed "commercial roof replacement") → 35 kw, top 590, cost $3.375
+[46/65] roof-thermal-imaging-inspections (seed "roof thermal imaging") → 15 kw, top 10, cost $3.450
+[47/65] infrared-roof-leak-detection (seed "infrared roof leak detection") → 4 kw, top 10, cost $3.525
+[48/65] custom-roof-design-consultation (seed "custom roof design") → 4 kw, top 10, cost $3.600
+[49/65] historic-roof-restoration (seed "historic roof restoration") → 1 kw, top 10, cost $3.675
+[50/65] roof-ice-dam-prevention (seed "roof ice dam prevention") → 111 kw, top 1300, cost $3.750
+[51/65] full-roof-tear-off (seed "full roof tear off") → 0 kw, top 0, cost $3.825
+[52/65] roof-overlay-installation (seed "roof overlay installation") → 0 kw, top 0, cost $3.900
+[53/65] re-roofing (seed "re-roofing") → 120 kw, top 320, cost $3.975
+[54/65] insurance-roof-replacement (seed "insurance roof replacement") → 120 kw, top 90, cost $4.050
+[55/65] storm-damage-roof-replacement (seed "storm damage roof replacement") → 12 kw, top 50, cost $4.125
+[56/65] aging-roof-replacement (seed "aging roof replacement") → 0 kw, top 0, cost $4.200
+[57/65] roof-replacement-after-leak (seed "roof replacement after leak") → 0 kw, top 0, cost $4.275
+[58/65] fire-damage-roof-replacement (seed "fire damage roof replacement") → 0 kw, top 0, cost $4.350
+[59/65] roof-replacement-cost (seed "roof replacement cost") → 120 kw, top 720, cost $4.425
+[60/65] asphalt-shingle-roof-replacement (seed "asphalt shingle roof replacement") → 64 kw, top 1600, cost $4.500
+[61/65] metal-roof-replacement (seed "metal roof replacement") → 67 kw, top 1900, cost $4.575
+[62/65] slate-roof-replacement (seed "slate roof replacement") → 12 kw, top 10, cost $4.650
+[63/65] tile-roof-replacement (seed "tile roof replacement") → 69 kw, top 320, cost $4.725
+[64/65] flat-roof-replacement (seed "flat roof replacement") → 87 kw, top 320, cost $4.800
+[65/65] cedar-shake-roof-replacement (seed "cedar shake roof replacement") → 20 kw, top 20, cost $4.875
+
+DONE — 65 services, total cost $4.875. Wrote service-clusters.json

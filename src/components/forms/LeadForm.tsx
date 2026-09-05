@@ -62,7 +62,7 @@ export function LeadForm({
       <form action={formAction} className="space-y-4">
         {/* Full Name */}
         <div>
-          <label htmlFor="lead-name" className={labelClasses}>
+          <label htmlFor="lead-name" className={labelClasses} title="Full name for your roof repair estimate">
             Full Name
           </label>
           <input
@@ -79,7 +79,7 @@ export function LeadForm({
 
         {/* Email */}
         <div>
-          <label htmlFor="lead-email" className={labelClasses}>
+          <label htmlFor="lead-email" className={labelClasses} title="Email for your roof repair estimate">
             Email
           </label>
           <input
@@ -96,7 +96,7 @@ export function LeadForm({
 
         {/* Phone */}
         <div>
-          <label htmlFor="lead-phone" className={labelClasses}>
+          <label htmlFor="lead-phone" className={labelClasses} title="Phone for roof repair scheduling">
             Phone
           </label>
           <input
@@ -113,8 +113,8 @@ export function LeadForm({
 
         {/* Service Needed */}
         <div className="relative">
-          <label htmlFor="lead-service" className={labelClasses}>
-            Service Needed
+          <label htmlFor="lead-service" className={labelClasses} title="Roof repair and roofing service needed">
+            Roofing Service Needed
           </label>
           <select
             id="lead-service"
@@ -124,7 +124,7 @@ export function LeadForm({
             className={selectClasses}
           >
             <option value="" disabled>
-              Select a service...
+              Select a roofing service...
             </option>
             {hydrated ? (
               serviceGroups.map((group) => (
