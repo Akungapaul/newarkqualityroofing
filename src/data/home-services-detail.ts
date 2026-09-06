@@ -24,14 +24,14 @@ export interface HomeServiceDetail {
 }
 
 export const homeServicesDetailH2 =
-  'What Our Roofing Contractors Handle Across Newark and Essex County, NJ';
+  'What a Roofing Contractor Handles Across Newark and Essex County, NJ';
 
 export const homeServicesDetailIntro =
   '**Newark Quality Roofing works as a full-service roofing contractor on steep-slope and low-slope buildings alike.** The sections below set out what each service covers, the materials it uses, and the failure it answers.';
 
 export const homeServicesDetail: HomeServiceDetail[] = [
   {
-    h3: 'Roofing Contractors Diagnose the Failure Before Quoting Roof Repair',
+    h3: 'A Roofing Contractor Diagnoses the Failure Before Quoting Roof Repair',
     img: { src: '/images/sections/combo/section-process-inspection.webp', alt: 'Roofing contractor tracing a moisture path down a roof slope during a repair diagnosis' },
     body: [
       '**A roof repair quote follows a diagnosis, not a glance at the stain.** Water enters at one detail and travels before it shows inside, so the entry point and the ceiling mark are rarely in the same place.',
@@ -43,7 +43,7 @@ export const homeServicesDetail: HomeServiceDetail[] = [
     },
   },
   {
-    h3: 'Roofing Contractors Match Roof Replacement Materials to the Building',
+    h3: 'A Roofing Contractor Matches Roof Replacement Materials to the Building',
     img: { src: '/images/heroes/service-full-roof-tear-off.webp', alt: 'Full roof tear-off exposing the sheathing before a roof replacement' },
     body: [
       '**Roof replacement starts from the structure, not the catalogue.** Deck condition, framing capacity, and roof pitch decide which coverings the building can carry before any product is chosen.',
@@ -55,7 +55,7 @@ export const homeServicesDetail: HomeServiceDetail[] = [
     },
   },
   {
-    h3: 'Roofing Contractors Set Asphalt Shingle Roofs in Staggered Courses',
+    h3: 'A Roofing Contractor Sets Asphalt Shingle Roofs in Staggered Courses',
     img: { src: '/images/content/content-materials-shingles.webp', alt: 'Architectural asphalt shingles stacked and ready for installation' },
     body: [
       '**Asphalt shingle roofing is the covering most Newark, NJ homes carry.** Each course laps the one below it and covers that course\'s fastener line, which is what makes the assembly shed water rather than hold it.',
@@ -187,7 +187,7 @@ export const homeServicesDetail: HomeServiceDetail[] = [
     },
   },
   {
-    h3: 'Roofing Contractors Serving West Caldwell, NJ and Essex County',
+    h3: 'A Roofing Contractor Serving West Caldwell, NJ and Essex County',
     img: { src: '/images/sections/city/section-city-overview-west-caldwell.webp', alt: 'Residential street in West Caldwell, NJ with pitched asphalt shingle roofs' },
     body: [
       '**Newark Quality Roofing works across Essex County, NJ, not only the city of Newark.** {{West Caldwell}}, the Caldwells, Montclair, Bloomfield, Livingston, Maplewood, and the rest of the county are served on the same terms.',

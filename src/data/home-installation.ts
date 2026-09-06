@@ -28,13 +28,13 @@ export const homeInstallation = {
   h2: 'How We Install New Roofs in Newark, NJ',
   intro: [
     '**Newark Quality Roofing installs new residential and commercial roofs across Newark, New Jersey** — with full permit coordination through Newark’s Office of Uniform Construction Code, transparent pricing with no surprise fees, and materials selected for Newark’s humid continental climate.',
-    'Getting a new roof in Newark shouldn’t mean weeks of delays, unexpected charges after tear-off, or a contractor who doesn’t understand the building you own. We deliver professional roof installation across Newark’s diverse neighborhoods — from Victorian slate restorations in Forest Hill to commercial flat-roof replacement on Ironbound warehouses — with transparent pricing and full permit coordination. No surprise fees, no guesswork, no contractors disappearing mid-project.',
+    'Getting a new roof in Newark shouldn’t mean weeks of delays, unexpected charges after tear-off, or a contractor who doesn’t understand the building you own. We deliver professional {{roof installation}} across Newark’s diverse neighborhoods — from Victorian slate restorations in Forest Hill to commercial flat-roof replacement on Ironbound warehouses — with transparent pricing and full permit coordination. No surprise fees, no guesswork, no {{contractors}} disappearing mid-project.',
   ],
   different: {
     h3: 'Roof Installation in Newark, NJ: What Makes It Different',
     body: [
-      '**Newark’s urban environment creates roofing challenges you won’t find in suburban New Jersey.** Tall buildings downtown and in the Ironbound create wind tunnels that accelerate uplift forces on shingles and membranes. Row houses share party walls that complicate flashing details. Historic homes in Forest Hill require materials and techniques most contractors have never worked with. And every winter, nor’easters and freeze-thaw cycles punish roofs that weren’t installed with Newark’s humid continental climate in mind.',
-      'We engineer solutions for these conditions: ice-and-water-shield underlayment to prevent winter ice dams where meltwater refreezes near the eaves, wind-rated materials for urban corridors, and flat-roof drainage systems that eliminate standing water. Over 25 years serving Newark homes and commercial properties, we’ve installed every architectural style — from historic slate and copper-flashing restoration to modern TPO and EPDM membrane systems on retail and multi-family buildings.',
+      '**Newark’s urban environment creates roofing challenges you won’t find in suburban New Jersey.** Tall buildings downtown and in the Ironbound create wind tunnels that accelerate uplift forces on {{shingles}} and membranes. Row houses share party walls that complicate flashing details. Historic homes in Forest Hill require materials and techniques most {{contractors}} have never worked with. And every winter, nor’easters and freeze-thaw cycles punish roofs that weren’t installed with Newark’s humid continental climate in mind.',
+      'We engineer solutions for these conditions: ice-and-water-shield underlayment to prevent winter ice dams where meltwater refreezes near the eaves, wind-rated materials for urban corridors, and {{flat-roof}} drainage systems that eliminate standing water. Over 25 years serving Newark homes and commercial properties, we’ve installed every architectural style — from historic slate and copper-flashing restoration to modern TPO and EPDM membrane systems on retail and multi-family buildings.',
     ],
   },
   process: {
@@ -43,17 +43,17 @@ export const homeInstallation = {
       {
         title: 'Free 25-Point Newark Property Inspection',
         description:
-          'Every installation starts with a free, comprehensive 25-point assessment designed for Newark’s challenges. We evaluate structural rafters and sheathing, check for rot and moisture damage, assess attic ventilation, examine existing flashing around penetrations and chimneys, and inspect flat-roof drainage. We also identify neighborhood-specific issues — wind-exposure patterns, historic-preservation requirements, and load-bearing capacity for heavier materials like slate. The no-obligation assessment takes 60–90 minutes with a preliminary estimate on-site.',
+          'Every installation starts with a free, comprehensive 25-point assessment designed for Newark’s challenges. We evaluate structural {{rafters}} and sheathing, check for rot and moisture damage, assess attic ventilation, examine existing flashing around penetrations and chimneys, and inspect flat-roof drainage. We also identify neighborhood-specific issues — wind-exposure patterns, historic-preservation requirements, and load-bearing capacity for heavier materials like slate. The no-obligation assessment takes 60–90 minutes with a preliminary estimate on-site.',
       },
       {
         title: 'Custom Installation Plan and Material Selection',
         description:
-          'Based on your inspection results, property type, and budget, we build a tailored roofing-system recommendation with a detailed timeline, permit coordination through Newark’s Building Division, and complete insurance documentation if you’re filing a claim. We also offer flexible financing to help manage roof-replacement cost without compromising on quality materials.',
+          'Based on your inspection results, property type, and budget, we build a tailored {{roofing}}-system recommendation with a detailed timeline, permit coordination through Newark’s Building Division, and complete insurance documentation if you’re filing a claim. We also offer flexible financing to help manage {{roof-replacement}} cost without compromising on quality materials.',
       },
       {
         title: 'Professional Installation with Layered Warranty',
         description:
-          'As GAF-certified installers, our crews handle everything from tear-off and deck inspection to final membrane or shingle installation, with daily cleanup and landscaping protection. Every component carries manufacturer warranty protection — asphalt architectural systems up to 50 years, metal and premium membranes 20–30 years — and we add our own workmanship warranty on top. A final inspection confirms code compliance, proper flashing, ventilation, and manufacturer-spec adherence.',
+          'As GAF-certified installers, our crews handle everything from tear-off and deck inspection to final membrane or {{shingle}} installation, with daily cleanup and landscaping protection. Every component carries manufacturer warranty protection — asphalt architectural systems up to 50 years, metal and premium membranes 20–30 years — and we add our own workmanship warranty on top. A final inspection confirms code compliance, proper flashing, ventilation, and manufacturer-spec adherence.',
       },
     ] as InstallStep[],
   },

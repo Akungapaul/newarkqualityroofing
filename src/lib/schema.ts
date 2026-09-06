@@ -357,6 +357,69 @@ export function buildArticleSchema(article: {
   };
 }
 
+/**
+ * Homepage-only OfferCatalog of the services this contractor actually sells.
+ *
+ * Deliberately a SEPARATE @id (`#roofing-services`) rather than a `hasOfferCatalog`
+ * key on the shared `#roofingcontractor` node: that node is written by BOTH
+ * buildRoofingContractorSchema() and buildLocalBusinessSchema() and their shapes
+ * must not diverge (see the note on those two). This node is added to the homepage
+ * graph only, so no other page's structured data changes.
+ *
+ * Every name below is a real service with its own page in src/data/services.ts.
+ * Descriptions state what the service is — no claim about this business beyond
+ * what src/config/site-config.ts substantiates.
+ */
+const HOMEPAGE_SERVICE_CATALOG: ReadonlyArray<{ name: string; type: string; description: string }> = [
+  { name: 'Roof Repair', type: 'Roof repair contracting', description: 'A roofing contractor traces the entry point before pricing a roof repair, because water enters at one detail and travels before it shows inside.' },
+  { name: 'Roof Replacement', type: 'Roof replacement contracting', description: 'Deck condition, framing capacity and the layer count already present decide between a complete tear off and a recover under New Jersey code.' },
+  { name: 'Emergency Roof Repair', type: 'Emergency response contracting', description: 'A roofing contractor stabilises an opened roof within a 1 to 4 hour response window across Newark and Essex County, NJ.' },
+  { name: 'Roof Inspection', type: 'Roof inspection contracting', description: 'A 25-point inspection reads the flashing, the laps, the penetrations and the drainage path, and establishes whether a roof holds another season.' },
+  { name: 'Roof Leak Repair', type: 'Roof leak repair contracting', description: 'The ceiling stain and the entry point are rarely in the same place, so a roofing contractor reads the detail above before opening the field.' },
+  { name: 'Storm Damage Roof Repair', type: 'Storm restoration contracting', description: 'Wind creasing and hail bruising are datable, which is what separates event damage from accumulated wear when contractors document a claim.' },
+  { name: 'Roof Maintenance Programs', type: 'Roof maintenance contracting', description: 'Twice-yearly maintenance is the cadence that lets a covering reach the top of its rated service life in a freeze-thaw climate.' },
+  { name: 'Residential Roof Installation', type: 'Residential contracting', description: 'A roofing contractor sets each course to lap the fastener line of the course below it, which is what makes the assembly shed water.' },
+  { name: 'Asphalt Shingle Roofing', type: 'Asphalt shingle contracting', description: 'Architectural asphalt shingles are the covering most Newark, NJ homes carry, installed by GAF-certified installers in staggered courses.' },
+  { name: 'Metal Roof Installation and Repair', type: 'Metal roof contracting', description: 'Standing seam panels join above the water line so the fastener sits under the seam rather than through the panel face.' },
+  { name: 'Slate Roof Installation and Repair', type: 'Slate restoration contracting', description: 'Slate repair replaces individual pieces and the copper flashing worked around them, matching existing size, colour and exposure.' },
+  { name: 'Flat Roof Installation and Repair', type: 'Flat roof contracting', description: 'A roofing contractor reads the laps, the parapet transitions and the rooftop penetrations, which fail long before the sheet itself wears out.' },
+  { name: 'TPO Roofing Installation', type: 'Single ply contracting', description: 'TPO is a single ply membrane heat-welded at the seams and specified for its reflectivity on low-slope commercial decks.' },
+  { name: 'EPDM Commercial Roofing', type: 'Commercial contracting', description: 'An EPDM rubber roof is one synthetic sheet ballasted, adhered or mechanically fastened, and its failures concentrate at seams and curbs.' },
+  { name: 'Commercial Roof Repair', type: 'Commercial building contracting', description: 'Commercial contractors work around occupancy, so the sequence protects operations below while the membrane above is opened.' },
+  { name: 'Commercial Roof Replacement', type: 'Commercial contracting', description: 'A roofing contractor phases a commercial replacement so each opened section is dried in before the crew leaves the deck.' },
+  { name: 'Roof Flashing Installation Repair', type: 'Flashing contracting', description: 'Flashing fails before the covering does, which is why a roofing contractor reads it first at every wall, curb and penetration.' },
+  { name: 'Chimney Flashing Repair', type: 'Chimney flashing contracting', description: 'Step and counter flashing carry water away where masonry meets the slope; the joint is rebuilt rather than sealed over.' },
+  { name: 'Gutter Installation Repair', type: 'Gutter contracting', description: 'A gutter that has pulled from the fascia or lost its pitch sends runoff down the wall instead of away from the foundation.' },
+  { name: 'Skylight Installation Repair', type: 'Skylight contracting', description: 'A skylight curb is flashed into the surrounding courses, and the curb detail is where a roofing contractor expects the leak.' },
+  { name: 'Roof Deck Repair and Replacement', type: 'Roof deck contracting', description: 'The deck carries the fasteners, so soft or delaminated panels are replaced before any covering is set over them.' },
+  { name: 'Roof Waterproofing', type: 'Waterproofing contracting', description: 'Waterproofing at parapet bases and termination bars answers standing water that a low-slope covering drains too slowly to shed.' },
+  { name: 'Energy Efficient Roofing Solutions', type: 'Energy efficient contracting', description: 'Reflective surfaces cut absorbed heat; the EPA documents cool roofs as a heat-island measure for dense blocks like Newark, NJ.' },
+  { name: 'Solar Panel Roofing Installation', type: 'Solar array contracting', description: 'An array is mounted through or onto the covering, so the roof beneath it needs service life left before the panels go on.' },
+  { name: 'Historic Roof Restoration', type: 'Historic restoration contracting', description: 'Forest Hill and the North Ward hold Victorian-era slate, where roofing contractors match materials that predate modern building codes.' },
+  { name: 'Roof Ice Dam Prevention', type: 'Ice dam contracting', description: 'A warm deck melts lying snow, the meltwater refreezes at the cold eave, and the dam holds standing water against the courses.' },
+];
+
+export function buildHomepageServiceCatalogSchema(): Record<string, unknown> {
+  return {
+    '@type': 'OfferCatalog',
+    '@id': `${BASE_URL}/#roofing-services`,
+    name: 'Roofing Contractor Services in Newark and Essex County, NJ',
+    provider: { '@id': `${BASE_URL}/#roofingcontractor` },
+    areaServed: buildAreaServedList(),
+    itemListElement: HOMEPAGE_SERVICE_CATALOG.map((s, i) => ({
+      '@type': 'Offer',
+      position: i + 1,
+      itemOffered: {
+        '@type': 'Service',
+        name: s.name,
+        serviceType: s.type,
+        description: s.description,
+        provider: { '@id': `${BASE_URL}/#roofingcontractor` },
+      },
+    })),
+  };
+}
+
 export function buildJsonLdGraph(
   ...schemas: Record<string, unknown>[]
 ): Record<string, unknown> {

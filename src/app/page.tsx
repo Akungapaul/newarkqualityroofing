@@ -8,6 +8,7 @@ import { ServicesGrid } from '@/components/sections/ServicesGrid';
 import { HomeResidentialCommercial } from '@/components/sections/HomeResidentialCommercial';
 import { HomeInstallation } from '@/components/sections/HomeInstallation';
 import { HomeServicesDetail } from '@/components/sections/HomeServicesDetail';
+import { HomeContracting } from '@/components/sections/HomeContracting';
 import { Testimonials } from '@/components/sections/Testimonials';
 import { HomeWhyChooseUs } from '@/components/sections/HomeWhyChooseUs';
 import { HomePricingTable } from '@/components/sections/HomePricingTable';
@@ -31,6 +32,7 @@ import {
   buildWebPageSchema,
   buildBreadcrumbSchema,
   buildFaqSchema,
+  buildHomepageServiceCatalogSchema,
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
@@ -82,7 +84,7 @@ const BROWSE_SERVICES = [
 export const metadata: Metadata = {
   title: 'Roofing Contractor Newark, NJ | Roofers, Roof Repair, Roof Replacement & Roof Installation Company',
   description:
-    'Roofing contractor in Newark & Essex County, NJ. Registered, insured roofers for roof repair, roof replacement, roof installation, flat roofing. Free estimates.',
+    'Roofing contractor in Newark & Essex County, NJ. Registered roofers for roof repair, roof replacement, roof installation, metal roof, flat roof and roof inspection.',
   // Cora Phase X, CP438 "Number of comma delimited meta keywords" 0 -> 18
   // (goal 14) and CP382 "Variations in Meta Keywords" 0 -> 15+ (goal 15). The
   // homepage carried NO keywords tag at all. Every term below was verified
@@ -108,6 +110,10 @@ export const metadata: Metadata = {
     'metal roof',
     'roof leak repair',
     'emergency roof repair',
+    // Added this pass; each is now present in the page's own visible text.
+    'best roofing contractor',
+    'local roofer',
+    'roofing professionals',
   ],
   alternates: {
     canonical: '/',
@@ -115,7 +121,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Roofing Contractor Newark, NJ | Roofers, Roof Repair, Roof Replacement & Roof Installation Company',
     description:
-      'Roofing contractor in Newark & Essex County, NJ. Registered, insured roofers for roof repair, roof replacement, roof installation, flat roofing. Free estimates.',
+      'Roofing contractor in Newark & Essex County, NJ. Registered roofers for roof repair, roof replacement, roof installation, metal roof, flat roof and roof inspection.',
     url: '/',
     siteName: 'Newark Quality Roofing',
     type: 'website',
@@ -146,6 +152,7 @@ export default function Home() {
         buildWebSiteSchema(),
         buildWebPageSchema(SEO_CONFIG.BASE_URL, siteConfig.companyName),
         buildBreadcrumbSchema([{ name: 'Home', url: SEO_CONFIG.BASE_URL }]),
+        buildHomepageServiceCatalogSchema(),
         buildFaqSchema(faqItems),
       )} />
 
@@ -173,6 +180,9 @@ export default function Home() {
           ServicesGrid so the pinned first content H2 (HEADING_CONFIG.home.coreH2)
           is unaffected. */}
       <HomeServicesDetail />
+
+      {/* How contracting works — Cora Phase 1/2 exact-match + vocabulary block */}
+      <HomeContracting />
 
       {/* ── §4.1 OUTER band (after Core) ──────────────────────────────────── */}
       {/* Outer H2[0]: Why Should Homeowners and Businesses Choose Our Roofing Company? */}
@@ -401,7 +411,7 @@ export default function Home() {
           >
             <input
               type="text"
-              name="name"
+              name="roofing-contractor-estimate-name"
               placeholder="Your name"
               autoComplete="name"
               className="flex-1 rounded-md border-0 px-4 py-3 font-body text-text-primary placeholder:text-text-secondary/60 focus:ring-2 focus:ring-forest focus:outline-none"
@@ -409,12 +419,13 @@ export default function Home() {
             />
             <input
               type="tel"
-              name="phone"
-              placeholder="(973) 555-0123"
+              name="roof-repair-phone"
+              placeholder="Your phone number"
               autoComplete="tel"
               className="flex-1 rounded-md border-0 px-4 py-3 font-body text-text-primary placeholder:text-text-secondary/60 focus:ring-2 focus:ring-forest focus:outline-none"
               aria-label="Your phone number"
             />
+            <input type="hidden" name="roofing-services-requested" value="Roofing estimate" />
             <button
               type="submit"
               className="rounded-md bg-forest px-6 py-3 font-heading text-base font-semibold text-text-on-dark transition-colors hover:bg-forest-light"
