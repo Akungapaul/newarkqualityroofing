@@ -7,6 +7,7 @@ import { HomeRepairServices } from '@/components/sections/HomeRepairServices';
 import { ServicesGrid } from '@/components/sections/ServicesGrid';
 import { HomeResidentialCommercial } from '@/components/sections/HomeResidentialCommercial';
 import { HomeInstallation } from '@/components/sections/HomeInstallation';
+import { HomeServicesDetail } from '@/components/sections/HomeServicesDetail';
 import { Testimonials } from '@/components/sections/Testimonials';
 import { HomeWhyChooseUs } from '@/components/sections/HomeWhyChooseUs';
 import { HomePricingTable } from '@/components/sections/HomePricingTable';
@@ -166,6 +167,12 @@ export default function Home() {
 
       {/* Installation depth (augment): question-headed roof-installation block */}
       <HomeInstallation />
+
+      {/* Cora "Roofing Contractor" Phase 1: +14 H3, +13 H4, +15 H3 variations,
+          +10 exact matches in H3, +34 variations in <b> tags. Placed AFTER the
+          ServicesGrid so the pinned first content H2 (HEADING_CONFIG.home.coreH2)
+          is unaffected. */}
+      <HomeServicesDetail />
 
       {/* ── §4.1 OUTER band (after Core) ──────────────────────────────────── */}
       {/* Outer H2[0]: Why Should Homeowners and Businesses Choose Our Roofing Company? */}
