@@ -157,6 +157,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             },
             body: [
               '**Roof leak repair** seals the detail admitting water on a roof whose remaining surface still sheds water. The same visit settles whether the roof has passed the point where a repair holds.',
+              'Leaking roof repair separates into two schedules. Emergency roof leak repair stops active entry first, usually with a fastened tarp over the opened area. The permanent scope follows once the deck is dry enough to bond. A leak repair contractor reads the entry point rather than the stain, because the two are rarely in the same place — roof leak repair Newark owners call for most often traces to a flashing detail uphill of the ceiling mark. Aluminum and copper flashing corrode on different schedules, and the metal already in place sets which one the repair matches.',
               'Interior water damage shows as brown or yellow ceiling and wall stains that spread or darken after rainfall, marking an active leak. That reading follows GAF and This Old House inspection guidance. Two findings point past repair instead. Daylight visible through the roof deck from inside the attic indicates holes in the decking, per This Old House. A sagging ceiling or roofline indicates sheathing decay from prolonged moisture, per GAF. Granule loss exceeding 30% of the shingle surface is the common rule-of-thumb for a field beyond repair, per GAF. Newark Quality Roofing names which case applies before quoting.',
             ],
           },
@@ -218,7 +219,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Storm Damage Repair Covers Every Detail the Storm Opened',
             body: [
               '**Storm-damage roof repair** restores every component one storm damaged, rather than the single opening that produced the interior stain. Those components are shingle courses, flashing, roof penetrations, and low-slope membrane.',
-              'One event rarely stops at one detail. The same storm that strips courses on one plane lifts flashing at the adjoining wall. It opens a vent-stack collar two planes away. Each of those failures admits water on its own schedule. A storm scope therefore combines repair types under one specification. Courses get replaced on one plane, flashing rebuilt at a wall, and a membrane patch set on the low-slope section. A mixed roofline carries both pitched shingle planes and a low-slope rear section. One storm there leaves work of both kinds on the same building.',
+              'Weather damage repair rarely stops at one detail. The same storm that strips courses on one plane lifts flashing at the adjoining wall. It opens a vent-stack collar two planes away. Each of those failures admits water on its own schedule. A storm scope therefore combines repair types under one specification. Courses get replaced on one plane, flashing rebuilt at a wall, and a membrane patch set on the low-slope section. A mixed roofline carries both pitched shingle planes and a low-slope rear section. One storm there leaves work of both kinds on the same building. Structural damage to the deck or the framing beneath it is read separately from the covering, because it changes the scope from roof repair and restoration to reconstruction.',
             ],
           },
           {
@@ -268,6 +269,56 @@ export const repairMaintenanceContent: ServiceContent[] = [
                 body: [
                   '**Roof waterproofing seals the details where water stands or arrives under pressure rather than draining away.** It covers parapet bases, scupper throats, drain bowls, and the transitions a sloped-roof detail leaves exposed.',
                   'Drainage governs where waterproofing is needed. Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and the minimum drainage slope is ¼ inch per foot, per NRCA. Standing water at a parapet base or a blocked scupper loads that detail continuously rather than during a storm. Waterproofing the assembly there — base flashing, termination bar, and the membrane turn-up behind it — answers a condition that a field patch does not reach. Warping at a coping joint above the same detail admits the water that later shows two floors down.',
+                ],
+              },
+            ],
+          },
+          {
+            // Cora 2026-09-05 Phases 2/4, second pass — sourced from the LSA
+            // tabs of the run's own HTML export (`lsa1Table`..`lsa4Table`,
+            // 5,624 phrases), NOT from the empty LSI Keywords sheet. Cora's
+            // per-word counts there are unusable (its LSI compile aborts at
+            // "compiling LSI 1 / 90" with 0 correlations), but the phrase
+            // inventory itself is real corpus vocabulary. These four H4s carry
+            // Cora's exact phrasing for shingle failure modes, all of which are
+            // genuine defects this business repairs.
+            heading: 'Shingle Roof Repair by Failure Type in Newark, NJ',
+            image: {
+              src: '/images/gallery/gallery-after-residential-shingles.webp',
+              alt: 'Newly set asphalt shingle courses replacing a failed section beside weathered original shingles',
+              caption: 'Failed courses replaced, sound field left intact.',
+            },
+            body: [
+              '**Asphalt shingle roof repair starts by naming the failure mode: blistering, cracking, curling, or granule loss.** Each has a different cause, and each sets a different repair boundary across the roof plane.',
+              'Failure mode governs how far a repair reaches. A defect confined to one slope is answered by replacing the affected courses. The same defect appearing on every elevation points to age rather than to a local cause, and no amount of //missing shingles roof repair// resolves a field that has reached the end of its service life. Slate roof repair, cedar shake roof repair, and flat roofing repair each read their own failure modes; on asphalt the four below account for most of what a Newark roof shows.',
+            ],
+            points: [
+              {
+                heading: 'Shingle Roof Blistering Repair',
+                body: [
+                  '**Shingle roof blistering is a raised bubble in the asphalt layer, formed where trapped moisture or gas expands under heat.** The blister opens under weathering, and the granules covering it are lost with it.',
+                  'Blistering repair replaces the affected shingles rather than sealing the surface over them. Once a blister opens, the mat below is exposed to UV directly, and that spot weathers faster than the field around it. Blistering concentrated on the sun-exposed elevation reflects heat load; blistering across every slope points to inadequate attic ventilation driving moisture into the deck from beneath.',
+                ],
+              },
+              {
+                heading: 'Shingle Roof Cracking Repair',
+                body: [
+                  '**Shingle roof cracking is a split through the mat, opened by the expansion and contraction of thermal cycling.** A crack runs the full depth of the shingle, so water reaches the underlayment at once.',
+                  'Cracking repair replaces the cracked courses and reads the underlayment beneath them before new material goes down. Cracks running parallel along a course line indicate movement in the deck below rather than shingle age. Where the underlayment has taken water at the crack, the repair extends to it; where it is dry, the scope stops at the shingle.',
+                ],
+              },
+              {
+                heading: 'Shingle Roof Curling Repair',
+                body: [
+                  '**Shingle roof curling lifts the tab edges away from the course below, either cupping upward or clawing down at the corners.** A lifted edge gives wind a purchase it does not otherwise have.',
+                  'Curling repair replaces the lifted courses, because a curled shingle does not return to plane once the mat has deformed. Curling that follows the sun on one elevation is heat and age. Curling across a whole roof, especially with a hot attic beneath it, is a ventilation problem that repeats after any repair that leaves the airflow unchanged.',
+                ],
+              },
+              {
+                heading: 'Granule Loss Repair',
+                body: [
+                  '**Granule loss strips the mineral surface that shields the asphalt beneath it from ultraviolet light.** Bare asphalt hardens and cracks faster than the protected field around it.',
+                  'Granule loss repair replaces the bared courses. Sandy grit collecting in the gutters is how the loss reads from the ground before it is visible on the slope. Loss concentrated below a valley or a downspout outlet is mechanical, driven by concentrated runoff, and valley moisture at that point is worth reading at the same time. Loss spread evenly across every plane is age, and it prices as a replacement rather than a repair.',
                 ],
               },
             ],
@@ -500,7 +551,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'Free Roof Repair Estimates Across Essex County, NJ',
             body: [
               '**A free written estimate covers every roof repair Newark Quality Roofing quotes across Essex County**, on residential and commercial property alike. No obligation attaches to the visit.',
-              'The visit, the diagnosis behind it, and the written document carry no charge. An owner is free to hold the estimate, compare it against another quote, or decline the work. Payment and financing options for larger repairs are discussed at that same visit. Cost is settled before any crew is scheduled. A single failed pipe boot and a full storm scope both run through the same free written estimate.',
+              'The visit, the diagnosis behind it, and the written document carry no charge. An owner is free to hold the estimate, compare it against another quote, or decline the work. Payment and financing options for larger repairs are discussed at that same visit. Cost is settled before any crew is scheduled. A single failed pipe boot and a full storm scope both run through the same free written estimate. The coverage areas that estimate reaches are the Essex County towns listed on this page, and the local service areas beyond them are quoted on the same terms.',
             ],
           },
           {
@@ -643,7 +694,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
     problemsWeExpect: {
       heading: 'Roof Damage and Problems We Expect on Newark, NJ Roofs',
       items: [
-        'We regularly address party-wall flashing leaks, low-slope drainage issues, and parapet and coping failures. We also recommend a //roof inspection// twice a year. That schedule identifies potential roof issues early, before they spread — something many homeowners overlook.',
+        'We regularly address party-wall flashing leaks, low-slope drainage issues, and parapet and coping failures. We also recommend a //roof inspection// twice a year. That schedule identifies potential roof problems early, before they spread — something many homeowners overlook. The same pass establishes whether a roof needs repairs now or holds another season.',
         'Tight access from narrow lots',
         'Older masonry transitions',
         'Poor attic ventilation can trap heat and moisture, contributing to premature aging of roof decks on older homes',
