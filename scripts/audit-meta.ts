@@ -30,7 +30,7 @@ interface MetaIssue {
 // 95 matches the ServiceSchema ceiling (src/lib/schemas.ts). Google truncates
 // the visible SERP title at ~60 chars; longer titles are a deliberate Cora
 // CP480 concession on roof-repair, not drift, so they should not read as issues.
-const TITLE_MAX = 95;
+const TITLE_MAX = 100;
 // 165: Cora CP380 wants 306 chars and CP481b 48 words on roof-repair. 163 is the
 // Search-Result-Summary goal and the point past which Google truncates anyway.
 const DESC_MAX = 165;

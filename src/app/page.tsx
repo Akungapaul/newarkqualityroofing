@@ -42,17 +42,79 @@ const homepageOgImage = homepageOg?.path
   ? { url: homepageOg.path, width: 1200, height: 630 }
   : { url: SEO_CONFIG.OG_IMAGE.url, width: SEO_CONFIG.OG_IMAGE.width, height: SEO_CONFIG.OG_IMAGE.height };
 
+// Cora 2026-09-01 "roofing contractor" Phase 9: CP426 Number of Images 30 -> 51.
+// These 21 links were text-only chips; each now carries the service page's own
+// hero image, which is better navigation AND the honest way to move the image
+// count. Every path is verified present in public/images/. All carry alt text —
+// the companion row CP428 ("add 39 images WITHOUT alt text") stays declined as
+// a WCAG 1.1.1 Level A violation.
+const BROWSE_SERVICES = [
+  { href: '/roof-repair-in-newark-nj', label: 'Repairs', img: '/images/heroes/service-roof-repair.webp', alt: 'Roofer carrying out roof repair on a Newark, NJ home' },
+  { href: '/roof-replacement-in-newark-nj', label: 'Replacements', img: '/images/heroes/service-roof-replacement.webp', alt: 'Roof replacement underway with new shingle courses being set' },
+  { href: '/roof-inspection-in-newark-nj', label: 'Inspections', img: '/images/heroes/service-roof-inspection.webp', alt: 'Roofing contractor inspecting flashing details during a roof inspection' },
+  { href: '/emergency-roof-repair-in-newark-nj', label: 'Emergency', img: '/images/heroes/service-emergency-roof-repair.webp', alt: 'Emergency roof repair crew securing an opened roof section' },
+  { href: '/roof-leak-repair-in-newark-nj', label: 'Leak Fixes', img: '/images/heroes/service-roof-leak-repair.webp', alt: 'Roof leak repair at the failed penetration on a residential roof' },
+  { href: '/storm-damage-roof-repair-in-newark-nj', label: 'Storm Damage', img: '/images/heroes/service-storm-damage-roof-repair.webp', alt: 'Storm damage roof repair after wind lifted the shingle courses' },
+  { href: '/asphalt-shingle-roofing-in-newark-nj', label: 'Shingles', img: '/images/heroes/service-asphalt-shingle-roofing.webp', alt: 'Asphalt shingle roofing installed in staggered courses' },
+  { href: '/metal-roof-installation-repair-in-newark-nj', label: 'Metal', img: '/images/heroes/service-metal-roof-installation-repair.webp', alt: 'Standing seam metal roof panels fastened along the ridge' },
+  { href: '/slate-roof-installation-repair-in-newark-nj', label: 'Slate', img: '/images/heroes/service-slate-roof-installation-repair.webp', alt: 'Slate roof tiles laid in overlapping courses on a steep slope' },
+  { href: '/flat-roof-installation-repair-in-newark-nj', label: 'Flat Roofs', img: '/images/heroes/service-flat-roof-installation-repair.webp', alt: 'Flat roof membrane laid across a low-slope commercial deck' },
+  { href: '/tpo-roofing-installation-in-newark-nj', label: 'TPO', img: '/images/heroes/service-tpo-roofing-installation.webp', alt: 'TPO single-ply membrane seam heat-welded on a flat roof' },
+  { href: '/gutter-installation-repair-in-newark-nj', label: 'Gutters', img: '/images/heroes/service-gutter-installation-repair.webp', alt: 'Seamless gutter fastened to the fascia along a roof eave' },
+  { href: '/skylight-installation-repair-in-newark-nj', label: 'Skylights', img: '/images/heroes/service-skylight-installation-repair.webp', alt: 'Skylight curb flashed into the surrounding shingle courses' },
+  { href: '/roof-waterproofing-in-newark-nj', label: 'Waterproofing', img: '/images/heroes/service-roof-waterproofing.webp', alt: 'Roof waterproofing applied at a parapet base and termination bar' },
+  { href: '/roof-maintenance-programs-in-newark-nj', label: 'Maintenance', img: '/images/heroes/service-roof-maintenance-programs.webp', alt: 'Roof maintenance visit clearing debris from a low-slope drain' },
+  { href: '/commercial-roofing', label: 'Commercial', img: '/images/sections/service/section-commercial-building.webp', alt: 'Commercial roofing on a flat-roofed Newark, NJ building' },
+  { href: '/residential-roofing', label: 'Residential', img: '/images/sections/service/section-residential-home.webp', alt: 'Residential roofing on a pitched Essex County, NJ home' },
+  { href: '/energy-efficient-roofing-solutions-in-newark-nj', label: 'Energy Saving', img: '/images/heroes/service-energy-efficient-roofing-solutions.webp', alt: 'Reflective energy-efficient roofing surface on a low-slope roof' },
+  { href: '/solar-panel-roofing-installation-in-newark-nj', label: 'Solar', img: '/images/heroes/service-solar-panel-roofing-installation.webp', alt: 'Solar panels mounted on an asphalt shingle roof plane' },
+  { href: '/chimney-flashing-repair-in-newark-nj', label: 'Chimney', img: '/images/heroes/service-chimney-flashing-repair.webp', alt: 'Chimney flashing repaired where the brick meets the roof slope' },
+  { href: '/roof-vent-installation-repair-in-newark-nj', label: 'Ventilation', img: '/images/heroes/service-roof-vent-installation-repair.webp', alt: 'Roof vent flange sealed into the surrounding shingle courses' },
+] as const;
+
+// Cora 2026-09-01 "roofing contractor" Phase 1, re-derived against the LIVE
+// homepage (the report predates 29 commits). CP480 Title Length 57 -> 98 (goal
+// 98, MET), CP481a Title Word Count 8 -> 14 (goal 13, MET), title variations
+// 2 -> 5. Meta description variations 3 -> 6 (goal 8) at 160 chars — the
+// roadmap's CP380 ask for 306 chars is DECLINED, it is double what Google
+// renders. Both literals are duplicated into openGraph below; edit in pairs.
 export const metadata: Metadata = {
-  title: 'Roofing Contractor in Newark, NJ | Newark Quality Roofing',
+  title: 'Roofing Contractor Newark, NJ | Roofers, Roof Repair, Roof Replacement & Roof Installation Company',
   description:
-    'Newark Quality Roofing: registered, insured roofing in Newark & Essex County, NJ. 25+ years of roof repair, replacement & installation. Free estimates.',
+    'Roofing contractor in Newark & Essex County, NJ. Registered, insured roofers for roof repair, roof replacement, roof installation, flat roofing. Free estimates.',
+  // Cora Phase X, CP438 "Number of comma delimited meta keywords" 0 -> 18
+  // (goal 14) and CP382 "Variations in Meta Keywords" 0 -> 15+ (goal 15). The
+  // homepage carried NO keywords tag at all. Every term below was verified
+  // present in this page's own visible text before being listed (occurrence
+  // counts measured on the live build: 6/3/2/1/65/63/36/19/14/7/20/16/6/3/4/8/5/18).
+  // Google has ignored this tag since 2009; it is here for Cora's factor only.
+  keywords: [
+    'roofing contractor',
+    'roofing contractors',
+    'roofers',
+    'roofing company',
+    'roof repair',
+    'roof replacement',
+    'roof installation',
+    'roofing services',
+    'commercial roofing',
+    'residential roofing',
+    'flat roof',
+    'roof inspection',
+    'gutter installation',
+    'skylight installation',
+    'asphalt shingle roofing',
+    'metal roof',
+    'roof leak repair',
+    'emergency roof repair',
+  ],
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Roofing Contractor in Newark, NJ | Newark Quality Roofing',
+    title: 'Roofing Contractor Newark, NJ | Roofers, Roof Repair, Roof Replacement & Roof Installation Company',
     description:
-      'Newark Quality Roofing: registered, insured roofing in Newark & Essex County, NJ. 25+ years of roof repair, replacement & installation. Free estimates.',
+      'Roofing contractor in Newark & Essex County, NJ. Registered, insured roofers for roof repair, roof replacement, roof installation, flat roofing. Free estimates.',
     url: '/',
     siteName: 'Newark Quality Roofing',
     type: 'website',
@@ -244,28 +306,28 @@ export default function Home() {
           <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
             Explore our full range of roofing services for Newark and Essex County homeowners and businesses.
           </p>
-          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-            <Link href="/roof-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Repairs</Link>
-            <Link href="/roof-replacement-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Replacements</Link>
-            <Link href="/roof-inspection-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Inspections</Link>
-            <Link href="/emergency-roof-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Emergency</Link>
-            <Link href="/roof-leak-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Leak Fixes</Link>
-            <Link href="/storm-damage-roof-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Storm Damage</Link>
-            <Link href="/asphalt-shingle-roofing-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Shingles</Link>
-            <Link href="/metal-roof-installation-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Metal</Link>
-            <Link href="/slate-roof-installation-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Slate</Link>
-            <Link href="/flat-roof-installation-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Flat Roofs</Link>
-            <Link href="/tpo-roofing-installation-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">TPO</Link>
-            <Link href="/gutter-installation-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Gutters</Link>
-            <Link href="/skylight-installation-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Skylights</Link>
-            <Link href="/roof-waterproofing-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Waterproofing</Link>
-            <Link href="/roof-maintenance-programs-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Maintenance</Link>
-            <Link href="/commercial-roofing" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Commercial</Link>
-            <Link href="/residential-roofing" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Residential</Link>
-            <Link href="/energy-efficient-roofing-solutions-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Energy Saving</Link>
-            <Link href="/solar-panel-roofing-installation-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Solar</Link>
-            <Link href="/chimney-flashing-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Chimney</Link>
-            <Link href="/roof-vent-installation-repair-in-newark-nj" className="rounded-md border border-border bg-white px-4 py-2.5 text-center font-body text-sm text-forest transition-colors hover:border-copper hover:text-copper">Ventilation</Link>
+          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+            {BROWSE_SERVICES.map((s) => (
+              <Link
+                key={s.href}
+                href={s.href}
+                className="group overflow-hidden rounded-md border border-border bg-white transition-colors hover:border-copper"
+              >
+                <span className="relative block aspect-[4/3] w-full overflow-hidden">
+                  <Image
+                    src={s.img}
+                    alt={s.alt}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
+                    loading="lazy"
+                  />
+                </span>
+                <span className="block px-3 py-2.5 text-center font-body text-sm text-forest transition-colors group-hover:text-copper">
+                  {s.label}
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

@@ -27,7 +27,10 @@
 export const HEADING_CONFIG = {
   // ─── §4.1 Homepage (constant strings) ──────────────────────────────────────
   home: {
-    h1: 'Roofing Contractor Newark, NJ',
+    // Cora Phase 1: CP152 Variations in H1 Tags 1 -> 3 (goal 3, MET).
+    // "Roofing Contractor" stays leading so CP151 Leading Variations stays met;
+    // still a statement, still carries NJ, still zero element children.
+    h1: 'Roofing Contractor Newark, NJ \u2014 Roofers and Roofing Company',
     coreH2: 'Roofing Services We Provide in Newark and Essex County, NJ',
     // NOTE: the Core services are rendered by ServicesGrid as declarative,
     // linked service cards (styled text, NOT <h3> headings), so no per-service
