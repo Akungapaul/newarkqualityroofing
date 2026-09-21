@@ -756,7 +756,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         'Poor attic ventilation can trap heat and moisture, contributing to premature aging of roof decks on older homes',
         "Periodic attic checks can reveal early-stage leaks, water stains, or poor ventilation",
         "wind driven rain off Newark Bay",
-        "Forest Hill historic properties may require review under Newark’s historic preservation rules for visible exterior roof work",
+        "Forest Hill historic properties may require review under Newark’s historic preservation rules for visible exterior work",
         'Rooftop HVAC punctures',
         'Photo-documented diagnosis',
         'Temporary water-control plan',
