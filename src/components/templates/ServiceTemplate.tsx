@@ -41,6 +41,7 @@ import { ServiceAreasGrid } from '@/components/sections/ServiceAreasGrid';
 import { getContentPoolImages } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import { EntityDefinition } from '@/components/sections/EntityDefinition';
+import { RoofRepairGuide } from '@/components/sections/RoofRepairGuide';
 import { ServiceRichSections } from '@/components/sections/ServiceRichSections';
 import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
 
@@ -150,10 +151,21 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
   // Determine commercial-first ordering
   const isCommercialFirst = COMMERCIAL_FIRST_IDS.has(service.id);
 
-  // Get related services (same category, exclude current, max 4)
-  const relatedServices = services
-    .filter((s) => s.category === service.category && s.id !== service.id)
-    .slice(0, 4)
+  // Get related services (same category, exclude current, max 4).
+  // roof-repair uses an explicit set of the eight Newark services a repair
+  // visitor most often needs next (2026-09-16: replaces the collapsed
+  // 622-link resource directory that used to sit on that page).
+  const roofRepairRelatedIds = [
+    'roof-leak-repair', 'emergency-roof-repair', 'storm-damage-roof-repair', 'flat-roof-installation-repair',
+    'roof-replacement', 'roof-inspection', 'gutter-installation-repair', 'commercial-roof-repair',
+  ];
+  const relatedServices = (service.id === 'roof-repair'
+    ? roofRepairRelatedIds
+        .map((id) => services.find((s) => s.id === id))
+        .filter((s): s is NonNullable<typeof s> => Boolean(s))
+    : services
+        .filter((s) => s.category === service.category && s.id !== service.id)
+        .slice(0, 4))
     .map((s) => ({
       name: s.name,
       slug: s.slug,
@@ -254,7 +266,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
             <AnimateIn>
               <EntityDefinition
                 headingId="service-definition-heading"
-                heading={HEADING_CONFIG.service.definitionH2(service.name)}
+                heading={HEADING_CONFIG.serviceDefinitionH2Overrides[service.id] ?? HEADING_CONFIG.service.definitionH2(service.name)}
                 definition={content.definition}
               />
             </AnimateIn>
@@ -269,6 +281,8 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
                   itself. Wrapping the whole band made one ~27,000px element
                   whose whileInView threshold could never be met. */}
               <ServiceRichSections sections={content.sections} contentUpdated={content.contentUpdated} subServices={content.subServices} />
+
+              {service.id === 'roof-repair' && <RoofRepairGuide />}
 
               {neighborhoodsBlock}
 

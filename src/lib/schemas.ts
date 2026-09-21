@@ -24,17 +24,24 @@ export const ServiceSchema = z.object({
   isResidential: z.boolean(),
   isCommercial: z.boolean(),
   shortDescription: z.string(),
-  // 95, not 80: Cora's 2026-09-04 run asks CP480 Title Length 59 -> 90 on
-  // roof-repair. Google still truncates the SERP at ~60 chars; the extra length
-  // is scored by the client's on-page tool, so the first ~57 chars are written
-  // to stand alone. This is a ceiling only — no other service title changed.
-  metaTitle: z.string().max(95),
-  metaDescription: z.string().max(165),
+  // Owner-requested September 9 Cora targets are scoped to roof-repair below.
+  metaTitle: z.string(),
+  metaDescription: z.string(),
   // Optional per-service keywords meta tag. Google has stated since 2009 that
   // it ignores this tag; it is emitted because the client's on-page tool scores
   // it, not because it carries ranking weight. Zod strips unknown keys, so the
   // field has to exist here before services.ts can set it.
   metaKeywords: z.array(z.string()).max(9).optional(),
+}).superRefine((service, context) => {
+  // roof-repair: sized to the owner's Surfer draft meta (2026-09-21), shipped verbatim.
+  const limits = service.id === 'roof-repair'
+    ? { metaTitle: 144, metaDescription: 195 }
+    : { metaTitle: 95, metaDescription: 165 };
+  for (const field of ['metaTitle', 'metaDescription'] as const) {
+    if (service[field].length > limits[field]) {
+      context.addIssue({ code: z.ZodIssueCode.custom, path: [field], message: `${field} must contain at most ${limits[field]} characters` });
+    }
+  }
 });
 
 // ─── City ────────────────────────────────────────────────────────────────────
@@ -206,7 +213,7 @@ export const ServiceContentSchema = z.object({
   // The ~64 other services omit every field below and render exactly as before.
   sections: z.array(z.object({
     heading: z.string(),         // statement-form H2 (policy v3: statements, not questions)
-    body: z.array(z.string()).min(1), // rich-text paragraphs (parseRichText)
+    body: z.array(z.string()), // rich-text paragraphs (parseRichText); empty = H2 leads straight into its H3s
     // Optional figure rendered between a section's lead and its body.
     image: z.object({
       src: z.string(),

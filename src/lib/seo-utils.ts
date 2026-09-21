@@ -96,17 +96,13 @@ export function buildComboDescription(service: Service, city: City): string {
  * "Serving Essex County" right after "Local Essex County roofers", spending
  * ~20 chars restating itself).
  *
- * Keep every entry <= 165 chars (audit-meta.ts) and factually true of NQR:
- * "registered" NJ Home Improvement Contractor, never "licensed".
+ * Keep overrides factually true of NQR. 2026-09-16: roof-repair shortened to
+ * 147 chars (Google truncates ~155) keeping the price line and phone number.
  */
 const SERVICE_DESCRIPTION_OVERRIDES: Record<string, string> = {
-  // 2026-09-04, Cora Phase 6: 158 chars / 5 keyword variations (was 1). Google
-  // is currently REWRITING this page's snippet (CP085 = 1), so this is written
-  // for coverage if Google later adopts it, not as a rank lever. Must stay
-  // byte-identical to services.ts metaDescription — audit-semantics scans that
-  // copy, so a string living only here would skip the de-fabrication gate.
+  // Keep aligned with the authored service description and Open Graph copy.
   'roof-repair':
-    'Roof repair services in Newark, NJ from $350 to $1,500. Roof leak repair, flashing repair, shingle repair and flat roof repairs by registered Essex County roofers.',
+    'Roof repair in Newark, NJ for leaks, shingles, flashing and flat roofs. Most repairs run $350-$1,500. Free written estimates. Call (973) 649-9535. Essex County Roofing Contractor For Newark Roofs',
 };
 
 export function buildServiceDescription(service: Service): string {
