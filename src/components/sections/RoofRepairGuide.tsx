@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Fragment } from 'react';
 import { roofRepairGuide } from '@/data/roof-repair-guide';
 import { JsonLd } from '@/components/seo/JsonLd';
+import { ChevronIcon } from './ProseLead';
 import { SEO_CONFIG } from '@/lib/seo-config';
 
 const pageUrl = `${SEO_CONFIG.BASE_URL}/roof-repair-in-newark-nj`;
@@ -73,8 +74,13 @@ export function RoofRepairGuide() {
         <h2 id="roof-repair-guide-heading" className="font-heading text-3xl font-bold text-forest">Roof Repair Planning and Reference Guide</h2>
         <p className="font-body text-lg text-text-secondary">Use these repair notes to prepare questions, compare a written scope and understand the work being proposed. Images illustrate roofing tasks and materials; they are not records of a particular customer project.</p>
         {groups.map((group, groupIndex) => (
-          <section key={group} aria-labelledby={`roof-repair-group-${groupIndex}`}>
-            <h3 id={`roof-repair-group-${groupIndex}`} className="font-heading text-2xl font-bold text-forest">{group}</h3>
+          // Folded by default — expanded, the guide alone ran ~20,000px, a
+          // quarter of the page. The cards stay in the HTML either way.
+          <details className="group border-t border-forest/10 pt-6" key={group} aria-labelledby={`roof-repair-group-${groupIndex}`}>
+            <summary className="flex cursor-pointer items-center justify-between gap-3 text-copper [&::-webkit-details-marker]:hidden">
+              <h3 id={`roof-repair-group-${groupIndex}`} className="scroll-mt-24 font-heading text-2xl font-bold text-forest transition-colors group-hover:text-copper">{group}</h3>
+              <ChevronIcon className="h-5 w-5" />
+            </summary>
             <div className="mt-5 space-y-8">
               {roofRepairGuide.filter((entry) => entry.group === group).map((entry) => (
                 <aside key={entry.term} id={`roof-repair-${slug(entry.term)}`} aria-label={`${entry.group}: ${entry.term}`} className="roof-repair-note rounded-lg border border-forest/15 p-5 sm:p-6">
@@ -89,7 +95,7 @@ export function RoofRepairGuide() {
                 </aside>
               ))}
             </div>
-          </section>
+          </details>
         ))}
       </section>
       <section id="roofing-repair-questions" aria-labelledby="roofing-repair-questions-heading" className="mt-12">

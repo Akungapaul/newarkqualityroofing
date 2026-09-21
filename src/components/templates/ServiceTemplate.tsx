@@ -44,6 +44,7 @@ import { EntityDefinition } from '@/components/sections/EntityDefinition';
 import { RoofRepairGuide } from '@/components/sections/RoofRepairGuide';
 import { ServiceRichSections } from '@/components/sections/ServiceRichSections';
 import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
+import { ArticleJumpNav } from '@/components/sections/ArticleJumpNav';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
 
@@ -274,6 +275,18 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           )}
           {content.sections ? (
             <>
+              {/* Jump menu — the rich band runs ~80 screens; these anchors are
+                  the only way to reach the cost or estimate sections quickly. */}
+              <AnimateIn>
+                <ArticleJumpNav
+                  headings={content.sections.map((s) => s.heading)}
+                  extraLinks={[
+                    ...(content.pricing ? [{ label: content.pricingHeading ?? costH2, href: '#service-pricing-heading' }] : []),
+                    { label: `${service.name} FAQs`, href: '#service-faq-heading' },
+                  ]}
+                />
+              </AnimateIn>
+
               {/* ── Rich brief-driven band (roof-repair): ordered question-form
                   prose sections replace the generic overview/signs/approach/
                   audience band. Gated on content.sections — other services keep
@@ -281,7 +294,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
               {/* No outer AnimateIn: ServiceRichSections reveals each section
                   itself. Wrapping the whole band made one ~27,000px element
                   whose whileInView threshold could never be met. */}
-              <ServiceRichSections sections={content.sections} contentUpdated={content.contentUpdated} subServices={content.subServices} />
+              <ServiceRichSections sections={content.sections} contentUpdated={content.contentUpdated} subServices={content.subServices} ctaServiceName={service.name} />
 
               {service.id === 'roof-repair' && <RoofRepairGuide />}
 

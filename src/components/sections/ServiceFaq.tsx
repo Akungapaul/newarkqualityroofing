@@ -10,7 +10,7 @@ export function ServiceFaq({ heading, faqs }: ServiceFaqProps) {
     <section aria-labelledby="service-faq-heading">
       <h2
         id="service-faq-heading"
-        className="font-heading text-2xl font-bold text-forest sm:text-3xl"
+        className="scroll-mt-24 font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
         {heading}
       </h2>

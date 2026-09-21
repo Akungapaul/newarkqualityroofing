@@ -20,7 +20,7 @@ export function ServicePricing({ heading, pricing, serviceName }: ServicePricing
     <section aria-labelledby="service-pricing-heading">
       <h2
         id="service-pricing-heading"
-        className="font-heading text-2xl font-bold text-forest sm:text-3xl"
+        className="scroll-mt-24 font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
         {heading}
       </h2>

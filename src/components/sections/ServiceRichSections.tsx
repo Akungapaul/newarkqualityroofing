@@ -1,5 +1,6 @@
 import { AnimateIn } from '@/components/animations/AnimateIn';
-import { ProseLead, SectionHeading } from './ProseLead';
+import { ChevronIcon, ProseLead, SectionHeading } from './ProseLead';
+import { ServiceInlineCta } from './ServiceInlineCta';
 import Image from 'next/image';
 import { parseRichText } from '@/lib/rich-text';
 import type { ServiceContent } from '@/lib/types';
@@ -33,6 +34,11 @@ interface ServiceRichSectionsProps {
    * reader never sees.
    */
   subServices?: NonNullable<ServiceContent['subServices']>;
+  /**
+   * Service name for the inline CTA repeated after each section. Without it the
+   * page carries a single conversion point at ~93% scroll depth.
+   */
+  ctaServiceName?: string;
 }
 
 /**
@@ -42,7 +48,7 @@ interface ServiceRichSectionsProps {
  * render the generic overview/signs/approach band instead. Mirrors the
  * SectionHeading + ProseLead treatment used by EntityDefinition and HubScaffold.
  */
-export function ServiceRichSections({ sections, contentUpdated, subServices }: ServiceRichSectionsProps) {
+export function ServiceRichSections({ sections, contentUpdated, subServices, ctaServiceName }: ServiceRichSectionsProps) {
   return (
     <>
       {sections.map((section, index) => {
@@ -58,6 +64,7 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
             <div className="mt-5">
               <ProseLead
                 paragraphs={section.body}
+                collapsible
                 media={
                   section.image ? (
                     <figure className="photo-treatment overflow-hidden rounded-lg">
@@ -134,6 +141,7 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
                     <div className="mt-4">
                       <ProseLead
                         paragraphs={sub.body}
+                        collapsible
                         media={
                           sub.image ? (
                             <figure className="photo-treatment overflow-hidden rounded-lg">
@@ -162,10 +170,16 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
                     {sub.points && sub.points.length > 0 && (
                       <div className="mt-6 space-y-6 border-l border-forest/15 pl-5">
                         {sub.points.map((pt, pIndex) => (
-                          <div key={`${headingId}-sub-${subIndex}-pt-${pIndex}`}>
-                            <h4 className="font-heading text-lg font-semibold text-forest">
-                              {pt.heading}
-                            </h4>
+                          // Folded by default: the H4 layer is where the page
+                          // starts reading like a paper. Its own heading is the
+                          // summary, so no label copy is added.
+                          <details className="group" key={`${headingId}-sub-${subIndex}-pt-${pIndex}`}>
+                            <summary className="flex cursor-pointer items-start justify-between gap-3 text-copper [&::-webkit-details-marker]:hidden">
+                              <h4 className="font-heading text-lg font-semibold text-forest transition-colors group-hover:text-copper">
+                                {pt.heading}
+                              </h4>
+                              <ChevronIcon className="mt-1" />
+                            </summary>
                             <div className="mt-3">
                               <ProseLead paragraphs={pt.body} />
                             </div>
@@ -194,7 +208,7 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
                                 ))}
                               </div>
                             )}
-                          </div>
+                          </details>
                         ))}
                       </div>
                     )}
@@ -203,6 +217,12 @@ export function ServiceRichSections({ sections, contentUpdated, subServices }: S
               </div>
             )}
           </section>
+          {/* A conversion point at the end of every section, not only the last. */}
+          {ctaServiceName && index < sections.length - 1 && (
+            <div className="mt-12">
+              <ServiceInlineCta serviceName={ctaServiceName} />
+            </div>
+          )}
           </AnimateIn>
         );
       })}
