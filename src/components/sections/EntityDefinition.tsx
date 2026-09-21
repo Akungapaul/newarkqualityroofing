@@ -28,6 +28,8 @@ interface EntityDefinitionProps {
   heading: string;
   /** The ≤40-word answer-first definition (central entity pre-bolded via **markdown**). */
   definition: string;
+  /** Optional follow-up paragraphs rendered as the section's body, under the lead. */
+  extraParagraphs?: string[];
 }
 
 /**
@@ -37,14 +39,14 @@ interface EntityDefinitionProps {
  * source `definition`/`whereIs`/`definitionA`/`definitionB` field is present (gate
  * at the call site so un-backfilled pages render exactly as before).
  */
-export function EntityDefinition({ headingId, sectionId, heading, definition }: EntityDefinitionProps) {
+export function EntityDefinition({ headingId, sectionId, heading, definition, extraParagraphs }: EntityDefinitionProps) {
   return (
     <section id={sectionId} aria-labelledby={headingId}>
       <SectionHeading id={headingId} icon={DEFINITION_ICON}>
         {heading}
       </SectionHeading>
       <div className="mt-5">
-        <ProseLead paragraphs={[definition]} />
+        <ProseLead paragraphs={[definition, ...(extraParagraphs ?? [])]} />
       </div>
     </section>
   );

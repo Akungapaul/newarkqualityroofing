@@ -268,6 +268,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
                 headingId="service-definition-heading"
                 heading={HEADING_CONFIG.serviceDefinitionH2Overrides[service.id] ?? HEADING_CONFIG.service.definitionH2(service.name)}
                 definition={content.definition}
+                extraParagraphs={content.definitionExtra}
               />
             </AnimateIn>
           )}

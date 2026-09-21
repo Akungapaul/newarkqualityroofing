@@ -152,6 +152,10 @@ export const ServiceContentSchema = z.object({
   // services omit it and still validate; rendered by the EntityDefinition section
   // and appended to the FAQ JSON-LD when present. Mirrors directAnswer.
   definition: z.string().optional(),
+  // Follow-up paragraphs rendered under `definition` in the same section. Kept
+  // OUT of the FAQ JSON-LD so the "What Is {service}?" answer stays one
+  // paragraph. roof-repair carries these from the owner's Surfer draft.
+  definitionExtra: z.array(z.string()).optional(),
   overview: z.array(z.string()).min(2).max(5),
   // Structured Core sub-services (the 6 core repairs for roof-repair). Optional
   // for backward compatibility; services lacking it render exactly as before.
