@@ -1,0 +1,67 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Image generation staging (not committed)
+/staging/
+/scripts/reports/
+
+# git worktrees
+.worktrees/
+
+# Claude Code settings
+.claude/
+
+# GHL scripts with API tokens
+scripts/ghl-setup.js
+scripts/ghl-tags-and-values.js
+
+# Local research and archive artifacts
+*.zip
+.planning/seo/cora-2026-09-11/
+content-work/
+docs/
+_bmad/
+_bmad-output/
+design-previews/
+zi2iYUbv
+zii3kVo0
