@@ -46,7 +46,9 @@ export function EntityDefinition({ headingId, sectionId, heading, definition, ex
         {heading}
       </SectionHeading>
       <div className="mt-5">
-        <ProseLead paragraphs={[definition, ...(extraParagraphs ?? [])]} />
+        {/* Follow-ups fold behind "Read more" like every other section; the
+            definition itself always stays visible. */}
+        <ProseLead paragraphs={[definition, ...(extraParagraphs ?? [])]} collapsible />
       </div>
     </section>
   );
