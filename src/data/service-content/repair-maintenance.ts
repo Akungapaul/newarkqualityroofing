@@ -238,7 +238,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
           {
             heading: 'What Affects Roof Repair Costs in Newark, NJ?',
             body: [
-              "**Most roof repair projects in Newark, NJ run $350 to $1,500**; Where a repair lands inside that spread follows two things; the first is how many components the roof repair scope replaces; the second is how much surrounding roof comes off to reach them, and early inspections can help catch trouble before it turns into more expensive repairs later.",
+              "**Most roof repair projects in Newark, NJ run $350 to $1,500**; wind driven rain can penetrate beneath lifted shingles and flashing laps even when the opening is not obvious from inside. Where a repair lands inside that spread follows two things; the first is how many components the roof repair scope replaces; the second is how much surrounding roof comes off to reach them, and early inspections can help catch trouble before it turns into costly repairs later.",
               "A single pipe-boot collar or one length of step flashing sits at the lower end; the roof repair work touches one detail, and the surrounding field stays undisturbed; a valley rebuild sits at the upper end; replacing valley metal removes and reinstalls the shingle courses on both adjoining planes; Between them sits the repair that reaches the underlayment beneath failed courses; Rebuilding the field above the wet layer carries most of the labor.",
             ],
           },
@@ -634,7 +634,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
           {
             heading: "Emergency Roofing Services",
             body: [
-              "Emergency roofing services in Newark are available 24/7 to provide expert roof repair for urgent leaks and storm damage. Trusted contractors inspect roofs thoroughly and explain damage details clearly. Be cautious of contractors demanding large cash deposits or using high-pressure sales tactics. Always request detailed written estimates from multiple local contractors familiar with Newark’s municipal codes and climate challenges. Emergency tarping is used to stop active water entry, preventing further damage before permanent repairs. Newark Quality Roofing offers free estimates for emergency repairs and storm damage restoration.",
+              "Emergency roofing services in Newark are available 24/7 to provide expert roof repair for urgent leaks and storm damage in a timely manner. Trusted contractors inspect roofs thoroughly and explain damage details clearly. Newark typically sees 30-50 freeze-thaw cycles each winter, which accelerates flashing and masonry deterioration. Be cautious of contractors demanding large cash deposits or using high-pressure sales tactics. Always request detailed written estimates from multiple local contractors familiar with Newark’s municipal codes and climate challenges. Emergency tarping is used to stop active water entry, preventing further damage before permanent repairs. Newark Quality Roofing offers free estimates for emergency repairs and storm damage restoration.",
             ],
           },
           {
@@ -754,8 +754,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
         'Tight access from narrow lots',
         'Older masonry transitions',
         'Poor attic ventilation can trap heat and moisture, contributing to premature aging of roof decks on older homes',
-        'Periodic attic checks can reveal early-stage leaks or poor ventilation',
-        'Wind-driven heavy rain off Newark Bay',
+        "Periodic attic checks can reveal early-stage leaks, water stains, or poor ventilation",
+        "wind driven rain off Newark Bay",
+        "Forest Hill historic properties may require review under Newark’s historic preservation rules for visible exterior roof work",
         'Rooftop HVAC punctures',
         'Photo-documented diagnosis',
         'Temporary water-control plan',
@@ -989,7 +990,10 @@ export const repairMaintenanceContent: ServiceContent[] = [
       range: '$350–$1,500 for most repairs',
       factors: [
         "Most roof repair projects in Newark, NJ range from $350–$1,500, depending on scope and materials; the cost of individual roof repairs moves with roof age, access, and the failed component.",
-        "For homes, an asphalt shingle repair matches the existing shingle line; On many flat roofs, a single-ply repair reseals the seam or patches the puncture; that repair happens in the existing EPDM, TPO, or modified-bitumen system.",
+        "For homes, an asphalt shingle repair matches the existing roof covering and shingle line; On many flat roofs, a single-ply repair reseals the seam or patches the puncture; that repair happens in the existing EPDM, TPO, or modified-bitumen system.",
+        "Repairs often address issues on the roof surface caused by freeze thaw cycling, which can accelerate wear and lead to expensive repairs if left unchecked.",
+        "Structural damage discovered during repairs may require a tear off of damaged sections to ensure structural integrity.",
+        "Proper flashing and gutter repairs are essential to prevent water entry points that can cause further damage.",
       ],
       financingNote:
         "Newark Quality Roofing provides a free written estimate and discusses payment and financing options for larger roof repairs at the roof repair estimate.",
@@ -1000,7 +1004,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'Specialized Newark Roof Repair Experience',
           description:
-            "As a local roofing company, our dedicated //roofers// specialize in {{expert roof repair}} for the challenges common to Newark homes and businesses; we’ve helped 500+ Essex County property owners protect their biggest investment.",
+            "As a local roofing company, our dedicated //roofers// and siding contractors specialize in {{expert roof repair}} for the challenges common to Newark homes and businesses; we’ve helped 500+ Essex County property owners protect their biggest investment.",
         },
         {
           title: 'Registered and Insured, With GAF Certification',
