@@ -414,12 +414,21 @@ function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
     }
     const isHubFaqItem =
       h.tagName === 'H3' && h.closest('section[aria-labelledby="hub-faq-heading"]') !== null;
+    // Owner-approved Cora review (2026-09-11): the roof-repair prose band
+    // may use question H2/H3s. All other pages and structural checks retain
+    // the existing policy; H1 must still be a statement.
+    const isRepairQuestion =
+      sample.file === 'roof-repair-in-newark-nj.html' &&
+      (h.tagName === 'H2' || h.tagName === 'H3') &&
+      (h.closest('section[aria-labelledby^="service-section-"]') !== null ||
+        h.closest('section#roofing-repair-questions') !== null ||
+        h.closest('section#roof-repair-visit') !== null);
     // H1 statement form is asserted above (skip double-reporting it here).
-    if (h.tagName !== 'H1' && !isHubFaqItem && isQuestion(text)) {
+    if (h.tagName !== 'H1' && !isHubFaqItem && !isRepairQuestion && isQuestion(text)) {
       errors.push(`${tag} <${h.tagName.toLowerCase()}> is a question — headings must be statements → "${text}"`);
     }
     // City+State rule — FAQ item questions are conversational and exempt.
-    if (!isHubFaqItem) {
+    if (!isHubFaqItem && !isRepairQuestion) {
       const bare = barePlaces(text);
       if (bare.length) {
         errors.push(`${tag} <${h.tagName.toLowerCase()}> names ${bare.join(', ')} without ", NJ" → "${text}"`);
@@ -474,7 +483,7 @@ function renderedPass(errors: string[]): boolean {
 
 function main(): void {
   console.log('='.repeat(72));
-  console.log('  HEADING POLICY VALIDATION (statement H1-H4; FAQ items stay questions)');
+  console.log('  HEADING POLICY VALIDATION (statement H1-H4; FAQ and approved repair questions)');
   console.log('='.repeat(72));
   console.log();
 
@@ -498,7 +507,7 @@ function main(): void {
     process.exit(1);
   }
 
-  console.log('Heading policy valid: statement H1-H4 (hub FAQ items exempt), Core-before-Outer,');
+  console.log('Heading policy valid: statement H1-H4 (hub FAQ and repair prose exceptions), Core-before-Outer,');
   console.log('no nav/footer H-tags, no skipped levels, article titles unique statements. PASS');
   process.exit(0);
 }

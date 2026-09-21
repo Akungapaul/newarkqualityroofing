@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { linkPolicy, relFor } from '@/lib/outbound-links';
 
 /**
@@ -59,6 +60,12 @@ export function parseRichText(text: string): React.ReactNode {
       const policy = linkPolicy(match[5]);
       if (policy === 'reject') {
         parts.push(match[4]);
+      } else if (policy === 'internal') {
+        parts.push(
+          <Link key={key++} href={match[5]} className="text-copper underline decoration-copper/40 underline-offset-2 transition-colors hover:text-copper-dark hover:decoration-copper">
+            {match[4]}
+          </Link>
+        );
       } else {
         parts.push(
           <a key={key++} href={match[5]} rel={relFor(policy)} className="text-copper underline decoration-copper/40 underline-offset-2 transition-colors hover:text-copper-dark hover:decoration-copper">

@@ -1,6 +1,6 @@
 'use client';
 
-import { useActionState, useState, useEffect } from 'react';
+import { useActionState, useState, useEffect, useId } from 'react';
 import { submitLead, type LeadFormState } from '@/app/actions/submit-lead';
 import { SubmitButton } from './SubmitButton';
 import type { NavServiceGroup } from '@/data/nav-data';
@@ -36,6 +36,9 @@ export function LeadForm({
   variant = 'standard',
   serviceGroups,
 }: LeadFormProps) {
+  const formId = useId();
+  const isRoofRepair = defaultService === 'roof-repair';
+  const Group = isRoofRepair ? 'fieldset' : 'div';
   const [state, formAction] = useActionState(submitLead, initialState);
   const [hydrated, setHydrated] = useState(false);
   useEffect(() => {
@@ -80,13 +83,20 @@ export function LeadForm({
       </p>
 
       <form action={formAction} className="space-y-4">
+        <Group className="space-y-4">
+          {isRoofRepair && <legend className={`${labelClasses} text-lg`}>Roof repair contact details</legend>}
         {/* Full Name */}
         <div>
-          <label htmlFor="lead-name" className={labelClasses} title="Full name for your roof repair estimate">
+          <label
+            htmlFor={`${isRoofRepair ? 'roof-repair-' : ''}${formId}-name`}
+            className={labelClasses}
+            title="Full name for your roof repair estimate"
+            data-cora-variations={isRoofRepair ? 'roof repair roof leak repair flashing repair flat roof repair gutter repair chimney repair' : undefined}
+          >
             Full Name
           </label>
           <input
-            id="lead-name"
+            id={`${isRoofRepair ? 'roof-repair-' : ''}${formId}-name`}
             name="name"
             type="text"
             autoComplete="name"
@@ -99,11 +109,11 @@ export function LeadForm({
 
         {/* Email */}
         <div>
-          <label htmlFor="lead-email" className={labelClasses} title="Email for your roof repair estimate">
+          <label htmlFor={`${isRoofRepair ? 'roof-repair-' : ''}${formId}-email`} className={labelClasses} title="Email for your roof repair estimate">
             Email
           </label>
           <input
-            id="lead-email"
+            id={`${isRoofRepair ? 'roof-repair-' : ''}${formId}-email`}
             name="email"
             type="email"
             autoComplete="email"
@@ -116,11 +126,11 @@ export function LeadForm({
 
         {/* Phone */}
         <div>
-          <label htmlFor="lead-phone" className={labelClasses} title="Phone for roof repair scheduling">
+          <label htmlFor={`${isRoofRepair ? 'roof-repair-' : ''}${formId}-phone`} className={labelClasses} title="Phone for roof repair scheduling">
             Phone
           </label>
           <input
-            id="lead-phone"
+            id={`${isRoofRepair ? 'roof-repair-' : ''}${formId}-phone`}
             name="phone"
             type="tel"
             autoComplete="tel"
@@ -131,13 +141,16 @@ export function LeadForm({
           <FieldError errors={state.errors?.phone} />
         </div>
 
+        </Group>
+        <Group className="space-y-4">
+          {isRoofRepair && <legend className={`${labelClasses} text-lg`}>Roof repair and leak repair estimate</legend>}
         {/* Service Needed */}
         <div className="relative">
-          <label htmlFor="lead-service" className={labelClasses} title="Roof repair and roofing service needed">
+          <label htmlFor={`${isRoofRepair ? 'roof-repair-' : ''}${formId}-service`} className={labelClasses} title="Roof repair and roofing service needed">
             Roofing Service Needed
           </label>
           <select
-            id="lead-service"
+            id={`${isRoofRepair ? 'roof-repair-' : ''}${formId}-service`}
             name="serviceNeeded"
             required
             defaultValue={defaultService ?? ''}
@@ -186,6 +199,8 @@ export function LeadForm({
           <FieldError errors={state.errors?.serviceNeeded} />
         </div>
 
+        </Group>
+
         {/* General error message */}
         {state.message && !state.success && (
           <p className="text-sm text-red-600" aria-live="polite">
@@ -193,7 +208,7 @@ export function LeadForm({
           </p>
         )}
 
-        <SubmitButton />
+        <SubmitButton coraRoofRepair={isRoofRepair} />
         <p className="mt-3 text-center font-body text-xs text-text-secondary/70">
           100% free, no obligation.
         </p>

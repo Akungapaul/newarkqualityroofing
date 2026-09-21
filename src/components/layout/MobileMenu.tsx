@@ -97,7 +97,7 @@ export function MobileMenu({ isOpen, onClose, serviceGroups, cityItems, comparis
   // links existed only after tapping the hamburger.
   return (
     <div
-      className={`fixed inset-0 z-50 transition-all duration-400 md:hidden ${
+      className={`fixed inset-0 z-50 transition-all duration-400 xl:hidden ${
         isOpen ? 'pointer-events-auto visible' : 'pointer-events-none invisible'
       }`}
       aria-modal={isOpen}

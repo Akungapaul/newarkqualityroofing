@@ -273,13 +273,13 @@ export function Header({ serviceGroups, cityItems, comparisonGroups, phoneDispla
               width={320}
               height={41}
               priority
-              className={`transition-all duration-300 ${scrolled ? 'h-8 w-auto' : 'h-10 w-auto'}`}
+              className={`h-auto w-[min(55vw,20rem)] transition-all duration-300 ${scrolled ? 'sm:h-8 sm:w-auto' : 'sm:h-10 sm:w-auto'}`}
             />
           </Link>
 
           {/* Desktop navigation */}
           <nav
-            className="hidden items-center gap-1 md:flex"
+            className="hidden items-center gap-1 xl:flex"
             aria-label="Main navigation"
           >
             <DropdownTrigger
@@ -325,14 +325,14 @@ export function Header({ serviceGroups, cityItems, comparisonGroups, phoneDispla
           </nav>
 
           {/* Right side: phone + CTA + hamburger */}
-          <div className="flex items-center gap-3">
+          <div className="flex shrink-0 items-center gap-3">
             {/* Phone number (desktop only) — rendered only when a phone number
                 is configured; an empty `tel:` link is a dead NAP signal. */}
             {phoneTel && phoneDisplay && (
               <a
                 href={`tel:${phoneTel}`}
                 aria-label={`Call us at ${phoneDisplay}`}
-                className="hidden items-center gap-1.5 text-parchment/80 transition-colors duration-200 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2 focus-visible:ring-offset-forest lg:flex"
+                className="hidden items-center gap-1.5 text-parchment/80 transition-colors duration-200 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2 focus-visible:ring-offset-forest 2xl:flex"
               >
                 <svg
                   className="h-4 w-4 shrink-0"
@@ -356,7 +356,7 @@ export function Header({ serviceGroups, cityItems, comparisonGroups, phoneDispla
             {/* CTA button */}
             <Link
               href="#lead-form"
-              className="rounded-md bg-copper px-4 py-2 font-heading text-sm font-bold tracking-wide text-text-on-copper shadow-md transition-all duration-200 hover:bg-copper-dark hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper-light focus-visible:ring-offset-2 focus-visible:ring-offset-forest sm:px-5 sm:text-base"
+              className="hidden rounded-md bg-copper px-4 py-2 font-heading text-sm font-bold tracking-wide text-text-on-copper shadow-md transition-all duration-200 hover:bg-copper-dark hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper-light focus-visible:ring-offset-2 focus-visible:ring-offset-forest sm:inline-flex sm:px-5 sm:text-base"
             >
               Get Free Estimate
             </Link>
@@ -364,7 +364,7 @@ export function Header({ serviceGroups, cityItems, comparisonGroups, phoneDispla
             {/* Mobile hamburger */}
             <button
               onClick={() => setMobileMenuOpen(true)}
-              className="flex h-10 w-10 items-center justify-center rounded-md text-parchment transition-colors duration-200 hover:bg-forest-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2 focus-visible:ring-offset-forest md:hidden"
+              className="flex h-10 w-10 items-center justify-center rounded-md text-parchment transition-colors duration-200 hover:bg-forest-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2 focus-visible:ring-offset-forest xl:hidden"
               aria-label="Open navigation menu"
             >
               <svg

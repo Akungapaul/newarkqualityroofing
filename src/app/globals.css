@@ -114,3 +114,41 @@ body::after {
     transform: none;
   }
 }
+
+/* ── Roof repair guide (/roof-repair-in-newark-nj): 35 single-rule stylesheet includes
+   consolidated here on 2026-09-16. All selectors are scoped to that page's guide section. ── */
+#roof-repair-repair-planning { scroll-margin-top: 7rem; }
+#roof-repair-written-scope { scroll-margin-top: 7rem; }
+#roof-repair-contractor-checks { scroll-margin-top: 7rem; }
+#roof-repair-leak-diagnosis { scroll-margin-top: 7rem; }
+#roof-repair-safe-observations { scroll-margin-top: 7rem; }
+#roof-repair-inspection-record { scroll-margin-top: 7rem; }
+#roof-repair-material-matching { scroll-margin-top: 7rem; }
+#roof-repair-deck-and-underlayment { scroll-margin-top: 7rem; }
+#roof-repair-wind-damage { scroll-margin-top: 7rem; }
+#roof-repair-chimney-flashing { scroll-margin-top: 7rem; }
+#roof-repair-roof-ventilation { scroll-margin-top: 7rem; }
+#roof-repair-exterior-transitions { scroll-margin-top: 7rem; }
+#roof-repair-membrane-compatibility { scroll-margin-top: 7rem; }
+#roof-repair-building-access { scroll-margin-top: 7rem; }
+#roof-repair-drainage-observations { scroll-margin-top: 7rem; }
+#roof-repair-seasonal-upkeep { scroll-margin-top: 7rem; }
+#roof-repair-spring-review { scroll-margin-top: 7rem; }
+#roof-repair-winter-conditions { scroll-margin-top: 7rem; }
+#roof-repair-comparing-estimates { scroll-margin-top: 7rem; }
+#roof-repair-completion-record { scroll-margin-top: 7rem; }
+#roof-repair-group-0 { padding-bottom: .5rem; border-bottom: 1px solid rgb(27 67 50 / .15); }
+#roof-repair-group-1 { padding-bottom: .5rem; border-bottom: 1px solid rgb(27 67 50 / .15); }
+#roof-repair-group-2 { padding-bottom: .5rem; border-bottom: 1px solid rgb(27 67 50 / .15); }
+#roof-repair-group-3 { padding-bottom: .5rem; border-bottom: 1px solid rgb(27 67 50 / .15); }
+#roof-repair-group-4 { padding-bottom: .5rem; border-bottom: 1px solid rgb(27 67 50 / .15); }
+#roof-repair-group-5 { padding-bottom: .5rem; border-bottom: 1px solid rgb(27 67 50 / .15); }
+#roof-repair-group-6 { padding-bottom: .5rem; border-bottom: 1px solid rgb(27 67 50 / .15); }
+#roof-repair-step-0-0::marker { color: var(--color-copper); font-weight: 600; }
+#roof-repair-step-0-1::marker { color: var(--color-copper); font-weight: 600; }
+#roof-repair-step-1-0::marker { color: var(--color-copper); font-weight: 600; }
+#roof-repair-step-1-1::marker { color: var(--color-copper); font-weight: 600; }
+#roof-repair-step-2-0::marker { color: var(--color-copper); font-weight: 600; }
+#roof-repair-step-2-1::marker { color: var(--color-copper); font-weight: 600; }
+#roof-repair-guide .roof-repair-term { letter-spacing: .01em; }
+#roof-repair-guide .roof-repair-caption { line-height: 1.5; }

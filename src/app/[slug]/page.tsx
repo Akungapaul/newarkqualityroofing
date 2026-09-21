@@ -89,6 +89,9 @@ export async function generateMetadata({
       if (!service) return {};
       const serviceOg = getOGImage('service', service.id);
       const serviceDesc = buildServiceDescription(service);
+      const serviceOgDescription = service.id === 'roof-repair'
+        ? `${serviceDesc} Roof repair contractor.`
+        : serviceDesc;
       const servicePageSlug = generateServicePageSlug(service.slug);
       return {
         title: service.metaTitle,
@@ -98,7 +101,7 @@ export async function generateMetadata({
         // the client's on-page tool scores it, not for ranking value.
         keywords: service.metaKeywords,
         alternates: { canonical: `/${servicePageSlug}` },
-        openGraph: buildOG(service.metaTitle, serviceDesc, servicePageSlug, 'website', serviceOg?.path ?? undefined),
+        openGraph: buildOG(service.metaTitle, serviceOgDescription, servicePageSlug, 'website', serviceOg?.path ?? undefined),
       };
     }
     case 'city': {

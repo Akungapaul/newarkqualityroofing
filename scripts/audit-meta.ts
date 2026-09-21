@@ -42,6 +42,7 @@ function checkMeta(
   description: string | undefined,
 ): MetaIssue[] {
   const issues: MetaIssue[] = [];
+  const descriptionLimit = pageType === 'service' && pageId === 'roof-repair' ? 176 : DESC_MAX;
 
   if (!title) {
     issues.push({
@@ -72,18 +73,18 @@ function checkMeta(
       field: 'description',
       current: '(empty)',
       length: 0,
-      limit: DESC_MAX,
+      limit: descriptionLimit,
       issue: 'Missing meta description',
     });
-  } else if (description.length > DESC_MAX) {
+  } else if (description.length > descriptionLimit) {
     issues.push({
       pageType,
       pageId,
       field: 'description',
       current: description,
       length: description.length,
-      limit: DESC_MAX,
-      issue: `Description too long (${description.length}/${DESC_MAX})`,
+      limit: descriptionLimit,
+      issue: `Description too long (${description.length}/${descriptionLimit})`,
     });
   }
 

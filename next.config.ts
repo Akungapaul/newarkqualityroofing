@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
   trailingSlash: false,
   async redirects() {
     return [
+      // ── Canonical host (2026-09-16): the Vercel production alias served the site as a
+      //    second, indexable copy. Send it to the custom domain. ──
+      { source: "/:path*", has: [{ type: "host", value: "newarkqualityroofing.vercel.app" }], destination: "https://newarkqualityroofing.com/:path*", permanent: true },
       // ── City slug migration: roofing-in-{city}-nj -> roof-repair-and-installation-in-{city}-nj (21) ──
       { source: "/roofing-in-newark-nj", destination: "/roof-repair-and-installation-in-newark-nj", permanent: true },
       { source: "/roofing-in-east-orange-nj", destination: "/roof-repair-and-installation-in-east-orange-nj", permanent: true },
