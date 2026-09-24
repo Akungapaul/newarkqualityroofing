@@ -45,6 +45,9 @@ import { RoofRepairGuide } from '@/components/sections/RoofRepairGuide';
 import { ServiceRichSections } from '@/components/sections/ServiceRichSections';
 import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
 import { ArticleJumpNav } from '@/components/sections/ArticleJumpNav';
+import { SurferVerbatimArticle, SurferHeroLead } from '@/components/sections/SurferVerbatimArticle';
+import { getSurferPage, surferFaqs, surferLead } from '@/lib/surfer-verbatim';
+import { parseRichText } from '@/lib/rich-text';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
 
@@ -182,6 +185,10 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
   const processImg = crewImgs[0];
 
   // Derive hero benefits from short description
+  // Owner-approved Surfer draft synced verbatim onto this URL (replaces the body copy).
+  const surfer = getSurferPage(generateServicePageSlug(service.slug));
+  const surferHero = surfer ? surferLead(surfer, content.directAnswer) : undefined;
+
   const benefits = content.heroBenefits ?? [
     `Professional ${service.name.toLowerCase()} services`,
     'Registered and insured Essex County contractor',
@@ -233,7 +240,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           { name: service.name },
         ]),
         buildFaqSchema(
-          content.definition
+          surfer ? surferFaqs(surfer) : content.definition
             ? [{ question: `What Is ${service.name}?`, answer: content.definition }, ...content.faqs]
             : content.faqs,
         ),
@@ -246,6 +253,14 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         serviceGroups={serviceGroups}
         benefits={benefits}
         directAnswer={content.directAnswer}
+        h1={surfer?.h1}
+        lead={surfer && surferHero ? (
+          <SurferHeroLead
+            runs={surferHero.runs}
+            fallback={surferHero.fallback}
+            templateLead={content.directAnswer ? parseRichText(content.directAnswer) : undefined}
+          />
+        ) : undefined}
       />
 
       {/* Trust bar: text-only stats with SVG icons */}
@@ -261,6 +276,10 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
+          {surfer ? (
+            <SurferVerbatimArticle page={surfer} ctaServiceName={service.name} />
+          ) : (
+          <>
           {/* Entity-grounding: definitional "What Is {Service}?" — the new first content H2.
               Gated on content.definition so un-backfilled services render as before. */}
           {content.definition && (
@@ -398,6 +417,8 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
           {/* Outer: What Questions Do Customers Ask About [Service]? */}
           <AnimateIn><ServiceFaq heading={`${service.name} FAQs`} faqs={content.faqs} /></AnimateIn>
+          </>
+          )}
 
           {/* Outer: What Knowledge Base Articles Explain This Service? (reverse-silo link) */}
           {(() => {

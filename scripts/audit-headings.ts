@@ -55,6 +55,10 @@ import { getServiceContent } from '@/data/service-content';
 import { getCityContent } from '@/data/city-content';
 import { getComboContent } from '@/data/combo-content';
 import { getHubContent } from '@/data/hub-content';
+import { SURFER_PAGES } from '@/data/surfer-verbatim/generated-index';
+
+/** Prerendered file names of the Surfer-synced pages ('/' → index.html). */
+const SURFER_FILES = new Set(Object.keys(SURFER_PAGES).map((slug) => (slug === '/' ? 'index.html' : `${slug.slice(1)}.html`)));
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PRERENDER_DIR = join(REPO_ROOT, '.next', 'server', 'app');
@@ -423,12 +427,20 @@ function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
       (h.closest('section[aria-labelledby^="service-section-"]') !== null ||
         h.closest('section#roofing-repair-questions') !== null ||
         h.closest('section#roof-repair-visit') !== null);
+    // Owner decision (2026-09-24): Surfer drafts are synced verbatim onto 250
+    // pages (src/data/surfer-verbatim); their H2-H4 wording is the owner's and
+    // is not edited to pass a check. Form and city checks skip the synced
+    // article band only; level order and the H1 checks still apply.
+    const isSurferVerbatim =
+      SURFER_FILES.has(sample.file) &&
+      h.tagName !== 'H1' &&
+      h.closest('section[aria-labelledby^="service-section-"]') !== null;
     // H1 statement form is asserted above (skip double-reporting it here).
-    if (h.tagName !== 'H1' && !isHubFaqItem && !isRepairQuestion && isQuestion(text)) {
+    if (h.tagName !== 'H1' && !isHubFaqItem && !isRepairQuestion && !isSurferVerbatim && isQuestion(text)) {
       errors.push(`${tag} <${h.tagName.toLowerCase()}> is a question — headings must be statements → "${text}"`);
     }
     // City+State rule — FAQ item questions are conversational and exempt.
-    if (!isHubFaqItem && !isRepairQuestion) {
+    if (!isHubFaqItem && !isRepairQuestion && !isSurferVerbatim) {
       const bare = barePlaces(text);
       if (bare.length) {
         errors.push(`${tag} <${h.tagName.toLowerCase()}> names ${bare.join(', ')} without ", NJ" → "${text}"`);

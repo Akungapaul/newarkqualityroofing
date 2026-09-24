@@ -27,10 +27,9 @@
 export const HEADING_CONFIG = {
   // ─── §4.1 Homepage (constant strings) ──────────────────────────────────────
   home: {
-    // Cora Phase 1: CP152 Variations in H1 Tags 1 -> 3 (goal 3, MET).
-    // "Roofing Contractor" stays leading so CP151 Leading Variations stays met;
-    // still a statement, still carries NJ, still zero element children.
-    h1: 'Roofing Contractor Newark, NJ \u2014 Roofers and Roofing Company',
+    // Owner rule (2026-09-24): H1 = title tag = "[Service] [City], NJ", with the
+    // keyword ("roofing contractors newark nj") in slug/title/H1/first sentence.
+    h1: 'Roofing Contractors Newark, NJ',
     coreH2: 'Roofing Services We Provide in Newark and Essex County, NJ',
     // NOTE: the Core services are rendered by ServicesGrid as declarative,
     // linked service cards (styled text, NOT <h3> headings), so no per-service

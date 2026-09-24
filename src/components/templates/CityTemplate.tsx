@@ -36,6 +36,9 @@ import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getGalleryPairs } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import { EntityDefinition } from '@/components/sections/EntityDefinition';
+import { SurferVerbatimArticle, SurferHeroLead } from '@/components/sections/SurferVerbatimArticle';
+import { getSurferPage, surferFaqs, surferLead } from '@/lib/surfer-verbatim';
+import { parseRichText } from '@/lib/rich-text';
 
 // ─── Template Component ─────────────────────────────────────────────────────
 
@@ -53,6 +56,10 @@ export default function CityTemplate({ city }: CityTemplateProps) {
 
   // Load city content (all 21 cities have content -- throws if missing)
   const content = getCityContent(city.id);
+
+  // Owner-approved Surfer draft synced verbatim onto this URL (replaces the body copy).
+  const surfer = getSurferPage(generateCityPageSlug(city.slug));
+  const surferHero = surfer ? surferLead(surfer, content.directAnswer) : undefined;
 
   // Table of contents — ordered to MATCH the on-page render order below. Scroll-spy
   // highlights the in-view section, so the list order must equal the vertical order
@@ -93,7 +100,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
           { name: city.name },
         ]),
         buildFaqSchema(
-          content.whereIs
+          surfer ? surferFaqs(surfer) : content.whereIs
             ? [{ question: `Where Is ${city.name}, NJ?`, answer: content.whereIs }, ...content.faqs]
             : content.faqs,
         ),
@@ -101,7 +108,18 @@ export default function CityTemplate({ city }: CityTemplateProps) {
 
       <FloatingCtaButton />
 
-      <CityHero city={city} content={content} serviceGroups={serviceGroups} />
+      <CityHero
+        city={city}
+        content={content}
+        serviceGroups={serviceGroups}
+        lead={surfer && surferHero ? (
+          <SurferHeroLead
+            runs={surferHero.runs}
+            fallback={surferHero.fallback}
+            templateLead={content.directAnswer ? parseRichText(content.directAnswer) : undefined}
+          />
+        ) : undefined}
+      />
 
       {/* Trust bar: text-only stats with SVG icons */}
       <TrustBar variant="compact" />
@@ -119,7 +137,8 @@ export default function CityTemplate({ city }: CityTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
         <div className="lg:grid lg:grid-cols-4 lg:gap-10">
           {/* Sidebar: Table of Contents */}
-          <aside className="hidden lg:block lg:col-span-1">
+          {/* The synced draft brings its own jump nav, so the section ToC is hidden. */}
+          <aside className={surfer ? 'hidden' : 'hidden lg:block lg:col-span-1'}>
             <CityTableOfContents sections={tocSections} />
           </aside>
 
@@ -127,7 +146,11 @@ export default function CityTemplate({ city }: CityTemplateProps) {
               The FIRST content H2 after the hero is the entity-definition section when
               content.whereIs is present, otherwise the §4.3 Core string
               (HEADING_CONFIG.city.coreH2), rendered by CityServicesGrid. */}
-          <article className="space-y-16 lg:col-span-3">
+          <article className={`space-y-16 ${surfer ? 'lg:col-span-4' : 'lg:col-span-3'}`}>
+            {surfer ? (
+              <SurferVerbatimArticle page={surfer} ctaServiceName="Roofing" />
+            ) : (
+            <>
             {/* Entity-grounding: locational "Where Is {City}, NJ?" — the new first content H2.
                 Gated on content.whereIs so un-backfilled cities render as before. */}
             {content.whereIs && (
@@ -251,6 +274,9 @@ export default function CityTemplate({ city }: CityTemplateProps) {
                 </div>
               </section>
             </AnimateIn>
+
+            </>
+            )}
 
             {/* §4.3 "Where Can You Find Us Near [City]?" */}
             <AnimateIn>

@@ -11,10 +11,12 @@ import type { NavServiceGroup } from '@/data/nav-data';
 interface CityHeroProps {
   city: City;
   content: CityContent;
+  /** Verbatim-synced hero lead (src/data/surfer-verbatim). */
+  lead?: React.ReactNode;
   serviceGroups: NavServiceGroup[];
 }
 
-export function CityHero({ city, content, serviceGroups }: CityHeroProps) {
+export function CityHero({ city, content, serviceGroups, lead }: CityHeroProps) {
   const heroImg = getCityHeroImage(city.id);
   const heroSrc = heroImg?.path ?? '/images/essex-county-experience.jpg';
   const heroAlt = heroImg?.alt ?? `Roofing services in ${city.name}, NJ`;
@@ -87,9 +89,9 @@ export function CityHero({ city, content, serviceGroups }: CityHeroProps) {
               {HEADING_CONFIG.city.h1(city.name)}
             </h1>
 
-            {content.directAnswer && (
+            {(lead || content.directAnswer) && (
               <p className="mt-6 font-body text-lg leading-relaxed text-parchment/90 sm:text-xl [&_strong]:font-semibold [&_strong]:text-copper-light">
-                {parseRichText(content.directAnswer)}
+                {lead ?? parseRichText(content.directAnswer!)}
               </p>
             )}
 

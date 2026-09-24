@@ -34,6 +34,9 @@ import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getServiceHeroImage } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import { EntityDefinition } from '@/components/sections/EntityDefinition';
+import { SurferVerbatimArticle, SurferHeroLead } from '@/components/sections/SurferVerbatimArticle';
+import { getSurferPage, surferFaqs, surferLead } from '@/lib/surfer-verbatim';
+import { parseRichText } from '@/lib/rich-text';
 
 // ─── Template Component ─────────────────────────────────────────────────────
 
@@ -64,19 +67,22 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
   const parentLinks = getParentPageLinks(service, city);
 
   const comboSlug = generateComboSlug(service.slug, city.slug);
+  // Owner-approved Surfer draft synced verbatim onto this URL (replaces the body copy).
+  const surfer = getSurferPage(comboSlug);
+  const surferHero = surfer ? surferLead(surfer, content.directAnswer) : undefined;
 
   return (
     <>
       <JsonLd data={buildJsonLdGraph(
         buildServiceSchema({ name: service.name, slug: comboSlug, shortDescription: service.shortDescription }),
-        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${comboSlug}`, content.metaDescription),
+        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${comboSlug}`, surfer?.metaDescription ?? content.metaDescription),
         buildBreadcrumbSchema([
           { name: 'Home', url: SEO_CONFIG.BASE_URL },
           { name: service.name, url: `${SEO_CONFIG.BASE_URL}/${generateServicePageSlug(service.slug)}` },
           { name: `${service.name} in ${city.name}` },
         ]),
         buildFaqSchema(
-          content.definition
+          surfer ? surferFaqs(surfer) : content.definition
             ? [{ question: `What Is ${service.name}?`, answer: content.definition }, ...content.faqs]
             : content.faqs,
         ),
@@ -89,6 +95,14 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
         city={city}
         serviceGroups={serviceGroups}
         directAnswer={content.directAnswer}
+        h1={surfer?.h1}
+        lead={surfer && surferHero ? (
+          <SurferHeroLead
+            runs={surferHero.runs}
+            fallback={surferHero.fallback}
+            templateLead={content.directAnswer ? parseRichText(content.directAnswer) : undefined}
+          />
+        ) : undefined}
       />
 
       {/* Mid-content CTA -- between challenges and process (natural break point) */}
@@ -99,6 +113,10 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
             The FIRST content H2 after the hero MUST be the §4.4 Core string
             (HEADING_CONFIG.combo.coreH2), rendered by ComboOverview. */}
         <article className="space-y-12 pb-16 lg:col-span-2">
+          {surfer ? (
+            <SurferVerbatimArticle page={surfer} ctaServiceName={service.name} />
+          ) : (
+          <>
           {/* Entity-grounding: definitional "What Is {Service}?" — the new first content H2
               (city-agnostic). Gated on content.definition so un-backfilled combos render as before. */}
           {content.definition && (
@@ -171,6 +189,9 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
             <AnimateIn><ComboWhyChooseUs reasons={content.whyChooseUs} serviceName={service.name} cityName={city.name} /></AnimateIn>
           )}
 
+          </>
+          )}
+
           {/* §4.4 "What Other Roofing Services..." + "Where Else Do We Provide..." */}
           <AnimateIn>
             <ComboRelatedLinks
@@ -182,7 +203,8 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           </AnimateIn>
 
           {/* §4.4 "What Questions Do Customers Ask About This Roofing Service?" */}
-          <AnimateIn><ComboFaqs faqs={content.faqs} /></AnimateIn>
+          {/* The synced draft carries its own FAQ section. */}
+          {!surfer && <AnimateIn><ComboFaqs faqs={content.faqs} /></AnimateIn>}
 
         </article>
 

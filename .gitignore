@@ -54,3 +54,4 @@ next-env.d.ts
 # GHL scripts with API tokens
 scripts/ghl-setup.js
 scripts/ghl-tags-and-values.js
+.cache/

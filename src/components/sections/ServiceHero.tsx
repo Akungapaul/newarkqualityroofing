@@ -17,9 +17,12 @@ interface ServiceHeroProps {
    * **markdown**). Optional — services without it render exactly as before.
    */
   directAnswer?: string;
+  /** Verbatim-synced page overrides (src/data/surfer-verbatim): the H1 (= title tag) and hero lead. */
+  h1?: string;
+  lead?: React.ReactNode;
 }
 
-export function ServiceHero({ service, serviceGroups, benefits, directAnswer }: ServiceHeroProps) {
+export function ServiceHero({ service, serviceGroups, benefits, directAnswer, h1, lead }: ServiceHeroProps) {
   const heroImg = getServiceHeroImage(service.id);
   const heroSrc = heroImg?.path ?? '/images/newark-roofing-at-work.jpg';
   const heroAlt = heroImg?.alt ?? `${service.name} services in Newark and Essex County NJ`;
@@ -95,12 +98,12 @@ export function ServiceHero({ service, serviceGroups, benefits, directAnswer }: 
               id="service-hero-heading"
               className="text-balance font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
             >
-              {HEADING_CONFIG.serviceH1Overrides[service.id] ?? HEADING_CONFIG.service.h1(service.name)}
+              {h1 ?? HEADING_CONFIG.serviceH1Overrides[service.id] ?? HEADING_CONFIG.service.h1(service.name)}
             </h1>
 
-            {directAnswer && (
+            {(lead || directAnswer) && (
               <p className="mt-5 font-body text-base leading-relaxed text-parchment/90 sm:text-lg [&_strong]:font-semibold [&_strong]:text-copper-light">
-                {parseRichText(directAnswer)}
+                {lead ?? parseRichText(directAnswer!)}
               </p>
             )}
 

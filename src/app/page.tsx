@@ -38,6 +38,11 @@ import {
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { getHomepageImage, getOGImage } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { SurferVerbatimArticle } from '@/components/sections/SurferVerbatimArticle';
+import { getSurferPage, surferFaqs } from '@/lib/surfer-verbatim';
+
+// Owner-approved Surfer draft synced verbatim onto the homepage (replaces the body copy).
+const surfer = getSurferPage('/');
 
 // Per-page OG image for homepage (falls back to shared default when manifest is empty)
 const homepageOg = getOGImage('homepage', 'homepage');
@@ -82,9 +87,9 @@ const BROWSE_SERVICES = [
 // roadmap's CP380 ask for 306 chars is DECLINED, it is double what Google
 // renders. Both literals are duplicated into openGraph below; edit in pairs.
 export const metadata: Metadata = {
-  title: 'Roofing Contractor Newark, NJ | Roofers, Roof Repair, Roof Replacement & Roof Installation Company',
+  title: HEADING_CONFIG.home.h1,
   description:
-    'Roofing contractor in Newark & Essex County, NJ. Registered roofers for roof repair, roof replacement, roof installation, metal roof, flat roof and roof inspection.',
+    "Roofing contractors in Newark, NJ for repairs and replacements. Most repairs run $350–$1,500; full replacements $8,500–$25,000+. Free estimates.",
   // Cora Phase X, CP438 "Number of comma delimited meta keywords" 0 -> 18
   // (goal 14) and CP382 "Variations in Meta Keywords" 0 -> 15+ (goal 15). The
   // homepage carried NO keywords tag at all. Every term below was verified
@@ -119,9 +124,9 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Roofing Contractor Newark, NJ | Roofers, Roof Repair, Roof Replacement & Roof Installation Company',
+    title: HEADING_CONFIG.home.h1,
     description:
-      'Roofing contractor in Newark & Essex County, NJ. Registered roofers for roof repair, roof replacement, roof installation, metal roof, flat roof and roof inspection.',
+      "Roofing contractors in Newark, NJ for repairs and replacements. Most repairs run $350–$1,500; full replacements $8,500–$25,000+. Free estimates.",
     url: '/',
     siteName: 'Newark Quality Roofing',
     type: 'website',
@@ -153,7 +158,7 @@ export default function Home() {
         buildWebPageSchema(SEO_CONFIG.BASE_URL, siteConfig.companyName),
         buildBreadcrumbSchema([{ name: 'Home', url: SEO_CONFIG.BASE_URL }]),
         buildHomepageServiceCatalogSchema(),
-        buildFaqSchema(faqItems),
+        buildFaqSchema(surfer ? surferFaqs(surfer) : faqItems),
       )} />
 
       {/* Hero with lead form above the fold */}
@@ -162,6 +167,14 @@ export default function Home() {
       {/* Trust bar: credentials + stats */}
       <TrustBar />
 
+      {surfer ? (
+        <section className="bg-white py-16 lg:py-24">
+          <div className="mx-auto max-w-4xl px-6 lg:px-8">
+            <SurferVerbatimArticle page={surfer} ctaServiceName="Roofing" />
+          </div>
+        </section>
+      ) : (
+      <>
       {/* ── §4.1 CORE band (first content H2 = Core string) ───────────────── */}
       {/* Core: "What Roofing Services Do We Provide…?" H2 + 7 service H3s */}
       <ServicesGrid />
@@ -264,6 +277,8 @@ export default function Home() {
 
       {/* Outer H2[4]: What Roofing Questions Do Customers Ask Most Often? */}
       <FaqAccordion items={faqItems} />
+      </>
+      )}
 
       {/* ── Supporting / internal-linking sections (after the §4.1 tree) ──── */}
       {/* Before/after gallery: project showcase with drag sliders */}

@@ -29,9 +29,12 @@ interface ComboHeroProps {
   /** Answer-first hero answer (≤40 words, pre-bolded via **markdown**). Optional —
    *  combos without it render exactly as before. */
   directAnswer?: string;
+  /** Verbatim-synced page overrides (src/data/surfer-verbatim): the H1 (= title tag) and hero lead. */
+  h1?: string;
+  lead?: React.ReactNode;
 }
 
-export function ComboHero({ service, city, serviceGroups, directAnswer }: ComboHeroProps) {
+export function ComboHero({ service, city, serviceGroups, directAnswer, h1, lead }: ComboHeroProps) {
   const categoryLabel = categoryLabels[service.category] ?? service.category;
 
   // Try service hero first, then city hero, then fallback
@@ -40,7 +43,7 @@ export function ComboHero({ service, city, serviceGroups, directAnswer }: ComboH
   const heroImg = serviceImg ?? cityImg;
   const heroSrc = heroImg?.path ?? '/images/newark-roofing-at-work.jpg';
   const heroAlt = heroImg?.alt ?? `${service.name} in ${city.name}, NJ`;
-  const h1Text = HEADING_CONFIG.combo.h1(service.name, city.name);
+  const h1Text = h1 ?? HEADING_CONFIG.combo.h1(service.name, city.name);
 
   return (
     <section
@@ -115,9 +118,9 @@ export function ComboHero({ service, city, serviceGroups, directAnswer }: ComboH
               {h1Text}
             </h1>
 
-            {directAnswer && (
+            {(lead || directAnswer) && (
               <p className="mt-5 font-body text-base leading-relaxed text-parchment/90 sm:text-lg [&_strong]:font-semibold [&_strong]:text-copper-light">
-                {parseRichText(directAnswer)}
+                {lead ?? parseRichText(directAnswer!)}
               </p>
             )}
 
