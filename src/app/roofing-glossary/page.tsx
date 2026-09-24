@@ -9,7 +9,7 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 // the 25 DefinedTerm entries + DefinedTermSet schema land in Phase 14.
 
 const CANONICAL = '/roofing-glossary';
-const TITLE = 'Roofing Glossary | Newark Quality Roofing';
+const TITLE = 'Roofing Glossary for NJ Homeowners'; // = the H1
 const DESCRIPTION =
   'A plain-English roofing glossary defining the roofing terms Newark and Essex County homeowners encounter on estimates and inspections.';
 

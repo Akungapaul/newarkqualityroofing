@@ -14,7 +14,9 @@ import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils'
 import { isNoindex, isRedirect } from '@/data/url-classification';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { getOGImage } from '@/data/image-manifest';
-import { buildServiceDescription, buildCityDescription, buildCityTitle } from '@/lib/seo-utils';
+import { buildServiceDescription, buildCityDescription } from '@/lib/seo-utils';
+import { HEADING_CONFIG } from '@/data/heading-config';
+import { getSurferPage } from '@/lib/surfer-verbatim';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -48,6 +50,12 @@ export async function generateStaticParams() {
 export const dynamicParams = false;
 
 // ─── Metadata ────────────────────────────────────────────────────────────────
+
+// Owner rule (2026-09-24): every page's <title> is its H1, character for
+// character. Each case below takes its title from the same source the page's
+// hero renders as the H1. The one exception is /roof-repair-in-newark-nj,
+// which the owner asked to leave exactly as it is.
+const TITLE_H1_EXCLUDE = new Set(['roof-repair']);
 
 /** Pages that should have robots noindex */
 const NOINDEX_PAGES = new Set(['thank-you', 'privacy-policy']);
@@ -93,15 +101,20 @@ export async function generateMetadata({
         ? `${serviceDesc} Roof repair contractor.`
         : serviceDesc;
       const servicePageSlug = generateServicePageSlug(service.slug);
+      const serviceSurfer = getSurferPage(servicePageSlug);
+      const serviceTitle = TITLE_H1_EXCLUDE.has(service.id)
+        ? service.metaTitle
+        : serviceSurfer?.h1 ?? HEADING_CONFIG.serviceH1Overrides[service.id] ?? HEADING_CONFIG.service.h1(service.name);
+      const serviceDescription = serviceSurfer?.metaDescription ?? serviceDesc;
       return {
-        title: service.metaTitle,
-        description: serviceDesc,
+        title: { absolute: serviceTitle },
+        description: serviceDescription,
         // Emitted only for services that declare it (currently roof-repair).
         // Google has ignored the keywords tag since 2009 — this is here because
         // the client's on-page tool scores it, not for ranking value.
         keywords: service.metaKeywords,
         alternates: { canonical: `/${servicePageSlug}` },
-        openGraph: buildOG(service.metaTitle, serviceOgDescription, servicePageSlug, 'website', serviceOg?.path ?? undefined),
+        openGraph: buildOG(serviceTitle, serviceSurfer?.metaDescription ?? serviceOgDescription, servicePageSlug, 'website', serviceOg?.path ?? undefined),
       };
     }
     case 'city': {
@@ -110,10 +123,11 @@ export async function generateMetadata({
       const cityContent = getCityContent(city.id);
       const citySlug = generateCityPageSlug(city.slug);
       const cityOg = getOGImage('city', city.id);
-      const cityDesc = buildCityDescription(cityContent, city);
-      const cityTitle = buildCityTitle(city);
+      const citySurfer = getSurferPage(citySlug);
+      const cityDesc = citySurfer?.metaDescription ?? buildCityDescription(cityContent, city);
+      const cityTitle = HEADING_CONFIG.city.h1(city.name);
       return {
-        title: cityTitle,
+        title: { absolute: cityTitle },
         description: cityDesc,
         alternates: { canonical: `/${citySlug}` },
         openGraph: buildOG(cityTitle, cityDesc, citySlug, 'website', cityOg?.path ?? undefined),
@@ -134,6 +148,12 @@ export async function generateMetadata({
       } catch {
         // No hand-written content for this combo -- use auto-generated description
       }
+      const comboService = services.find((s) => s.id === combo.serviceId);
+      const comboCity = cities.find((c) => c.id === combo.cityId);
+      const comboSurfer = getSurferPage(combo.slug);
+      if (comboSurfer?.metaDescription) comboDescription = comboSurfer.metaDescription;
+      const comboTitle = comboSurfer?.h1
+        ?? (comboService && comboCity ? HEADING_CONFIG.combo.h1(comboService.name, comboCity.name) : combo.metaTitle);
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -147,13 +167,13 @@ export async function generateMetadata({
       // Canonical is ALWAYS the combo's OWN slug
       // (self-canonical) — never point a combo at a parent or unrelated page.
       return {
-        title: combo.metaTitle,
+        title: { absolute: comboTitle },
         description: comboDescription,
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
           : { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large', 'max-video-preview': -1 },
-        openGraph: buildOG(combo.metaTitle, comboDescription, combo.slug, 'website', comboOg?.path ?? undefined),
+        openGraph: buildOG(comboTitle, comboDescription, combo.slug, 'website', comboOg?.path ?? undefined),
       };
     }
     case 'comparison': {
@@ -169,21 +189,22 @@ export async function generateMetadata({
       } catch {
         // No content yet -- use base metaDescription
       }
+      const comparisonTitle = HEADING_CONFIG.comparison.h1(comparison.name);
       return {
-        title: comparison.metaTitle,
+        title: { absolute: comparisonTitle },
         description,
         alternates: { canonical: `/${comparison.slug}` },
-        openGraph: buildOG(comparison.metaTitle, description, comparison.slug),
+        openGraph: buildOG(comparisonTitle, description, comparison.slug),
       };
     }
     case 'article': {
       const article = articles.find((a) => a.id === pageData.articleId);
       if (!article) return {};
       return {
-        title: article.metaTitle,
+        title: { absolute: article.title },
         description: article.metaDescription,
         alternates: { canonical: `/${article.slug}` },
-        openGraph: buildOG(article.metaTitle, article.metaDescription, article.slug, 'article'),
+        openGraph: buildOG(article.title, article.metaDescription, article.slug, 'article'),
       };
     }
     case 'core': {

@@ -55,6 +55,6 @@ export const freeRoofingEstimateHubContent: HubContent = {
       "answer": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor under N.J.S.A. 56:8-136 and carries liability insurance. New Jersey registers home improvement contractors rather than issuing a standalone roofing license."
     }
   ],
-  "metaTitle": "Request a Free Roofing Estimate | Newark, NJ",
+  "metaTitle": "Free Roofing Estimate Newark, NJ",
   "metaDescription": "Request a free, no-obligation roofing estimate in Newark and Essex County, NJ. A registered NJ Home Improvement Contractor inspects your roof on-site."
 };

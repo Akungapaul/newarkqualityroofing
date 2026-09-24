@@ -129,6 +129,6 @@ export const roofingMaterialsHubContent: HubContent = {
       "answer": "Reflective cool roofs cut summer heat gain on low-slope roofs, rated by the Cool Roof Rating Council for solar reflectance and thermal emittance. A reflective coating adds reflectance, not R-value, so Newark Quality Roofing pairs it with proper insulation on Essex County, New Jersey decks."
     }
   ],
-  "metaTitle": "Roofing Materials in Essex County, NJ | NQR",
+  "metaTitle": "Roofing Materials Newark, NJ",
   "metaDescription": "Compare asphalt, metal, slate, tile, cedar, and membrane roofing materials by lifespan, weight, and cost. Newark Quality Roofing serves Essex County, NJ."
 };

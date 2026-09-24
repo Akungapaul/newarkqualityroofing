@@ -137,6 +137,6 @@ export const flatRoofSystemsHubContent: HubContent = {
       "answer": "Sometimes. The Rehab Subcode (N.J.A.C. 5:23-6.4) prohibits a roof recover over two existing layers, or over wet or deteriorated decking, and New Jersey adds wood shake; it mirrors IRC R908. A core sample confirms moisture and layer count first."
     }
   ],
-  "metaTitle": "Flat Roof Systems | Newark Quality Roofing, NJ",
+  "metaTitle": "Flat Roof Systems Newark, NJ",
   "metaDescription": "Newark Quality Roofing installs and repairs TPO, EPDM, PVC, modified bitumen, built-up, and spray-foam flat roof systems across Newark and Essex County, NJ."
 };

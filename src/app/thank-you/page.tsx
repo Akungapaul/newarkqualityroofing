@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 
 export const metadata: Metadata = {
-  title: 'Thank You | Newark Quality Roofing',
+  title: 'Thank You for Reaching Out!',
   description: 'Thank you for contacting Newark Quality Roofing.',
   robots: { index: false, follow: false },
 };

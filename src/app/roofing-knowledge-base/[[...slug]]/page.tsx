@@ -122,7 +122,7 @@ export async function generateMetadata({
 
   // KB hub index
   if (segments.length === 0) {
-    const title = 'Roofing Knowledge Base | Newark Quality Roofing';
+    const title = 'Roofing Knowledge Base for Newark and Essex County, NJ'; // = the H1
     const description =
       'Roofing guides for Newark and Essex County property owners, covering roof problems, components, materials, process, and costs.';
     return {
@@ -139,7 +139,7 @@ export async function generateMetadata({
     const cluster = getKbCluster(segments[0]);
     if (!cluster) return {};
     const path = `${KB_BASE}/${segments[0]}`;
-    const title = `${cluster.title} | Roofing Knowledge Base`;
+    const title = cluster.title; // = the H1
     return {
       title,
       description: cluster.description.slice(0, 158),

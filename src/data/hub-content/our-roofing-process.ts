@@ -54,6 +54,6 @@ export const ourRoofingProcessHubContent: HubContent = {
       "answer": "After installation, Newark Quality Roofing runs a magnetic nail sweep, completes a final walkthrough, and provides written warranty documentation. The walkthrough reviews the completed roof against the contracted scope with the property owner."
     }
   ],
-  "metaTitle": "Our Roofing Process | Newark Quality Roofing",
+  "metaTitle": "Our Roofing Process",
   "metaDescription": "How Newark Quality Roofing works: free inspection, written estimate, material selection, installation to spec, and a final walkthrough in Essex County, NJ."
 };

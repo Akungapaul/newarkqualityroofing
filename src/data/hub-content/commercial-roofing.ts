@@ -178,6 +178,6 @@ export const commercialRoofingHubContent: HubContent = {
       "answer": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor under N.J.S.A. 56:8-136 and carries liability insurance. New Jersey issues no standalone roofing license; HIC registration is the governing credential for contractor work statewide."
     }
   ],
-  "metaTitle": "Commercial Roofing in Newark & Essex County, NJ",
+  "metaTitle": "Commercial Roofing Newark, NJ",
   "metaDescription": "Newark Quality Roofing installs, repairs, replaces, and inspects TPO, EPDM, PVC, metal, and built-up commercial roof systems across Essex County, New Jersey."
 };

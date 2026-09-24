@@ -113,6 +113,6 @@ export const residentialRoofingHubContent: HubContent = {
       "answer": "The New Jersey Rehab Subcode bars a roof recover over two existing layers or over wet or deteriorated decking, and adds wood shake to that bar, mirroring IRC R908. A roof past those limits requires a full tear-off."
     }
   ],
-  "metaTitle": "Residential Roofing Services | Newark & Essex County",
+  "metaTitle": "Residential Roofing Newark, NJ",
   "metaDescription": "Newark Quality Roofing repairs, replaces, installs & inspects residential roofs in Newark & Essex County, NJ as a registered NJ Home Improvement Contractor."
 };
