@@ -52,6 +52,8 @@ const firstSentence = (s: string) => strip(s).split(/(?<=[.!?])\s/)[0] || strip(
 /** Normalize for containment: lowercase, & → and, punctuation → space. */
 const norm = (s: string) =>
   ` ${s
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .replace(/&/g, ' and ')
     .replace(/[^a-z0-9]+/g, ' ')
@@ -100,6 +102,7 @@ interface Miss {
 }
 
 const misses: Miss[] = [];
+const warnings: string[] = [];
 let checked = 0;
 
 function check(type: string, id: string, lead: string | undefined, reqs: Req[], keyword: string): void {
@@ -140,7 +143,23 @@ async function dataPass(): Promise<void> {
 
   if (TYPES.includes('articles')) {
     const { getArticleContent } = await import('@/data/article-content');
+    const { getSurferPage, runsText } = await import('@/lib/surfer-verbatim');
     for (const a of articles) {
+      // Surfer guide articles: body is the owner's draft, shipped verbatim. The
+      // slug carries the keyword by construction; the opening is reported only.
+      const surfer = getSurferPage(`/${a.slug}`);
+      if (surfer) {
+        const firstBlock = surfer.sections[0]?.blocks?.find((b) => b.t === 'p');
+        const lead = surfer.lead.length
+          ? surfer.lead.map(runsText).join(' ')
+          : firstBlock && 'runs' in firstBlock ? runsText(firstBlock.runs) : '';
+        const fs = firstSentence(lead);
+        checked++;
+        if (!meets(fs, [[surfer.leadPhrase]])) {
+          warnings.push(`article ${a.id}: verbatim opening lacks "${surfer.leadPhrase}" → "${fs.slice(0, 100)}"`);
+        }
+        continue;
+      }
       const reqs = articleReqs(a.title);
       check('article', a.id, getArticleContent(a.id).directAnswer, reqs, reqs.map((r) => r[0]).join(' + '));
     }
@@ -296,7 +315,8 @@ async function main(): Promise<void> {
   console.log('='.repeat(72));
   console.log();
   console.log(`Checked ${checked} leads. Rendered pass: ${ranRendered ? 'ran' : 'skipped'}.`);
-  console.log(`${misses.length} miss(es).`);
+  console.log(`${misses.length} miss(es), ${warnings.length} warning(s) (verbatim guide articles, not gated).`);
+  warnings.forEach((w) => console.log(`  ⚠ ${w}`));
 
   if (misses.length > 0) {
     const byType = new Map<string, Miss[]>();

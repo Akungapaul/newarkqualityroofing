@@ -25,7 +25,7 @@ export function surferFaqs(page: SurferPage): { question: string; answer: string
 // ─── Keyword-in-first-sentence (owner rule: slug, title, H1, first sentence) ──
 // Same normalization as scripts/audit-keyword-leads.ts.
 const norm = (s: string) =>
-  ` ${s.toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim()} `;
+  ` ${s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim()} `;
 const stem = (w: string) => w.replace(/([^s])s$/, '$1');
 const hasPhrase = (sentence: string, phrase: string) => {
   const words = norm(phrase).trim().split(' ');
@@ -37,7 +37,7 @@ export const firstSentence = (s: string) =>
 
 export const leadHasKeyword = (page: SurferPage, leadText: string) => {
   const fs = firstSentence(leadText);
-  return hasPhrase(fs, page.leadPhrase) && hasPhrase(fs, page.city);
+  return hasPhrase(fs, page.leadPhrase) && (!page.city || hasPhrase(fs, page.city));
 };
 
 /**

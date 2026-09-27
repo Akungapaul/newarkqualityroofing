@@ -207,8 +207,10 @@ function staticPass(errors: string[]): void {
   const titles = articles.map((a) => a.title);
   console.log(`Static pass: auditing ${articles.length} article titles (count NOT hardcoded).`);
   for (const a of articles) {
+    // Surfer guide articles ship the owner's own H1 verbatim — reported, not gated.
     if (isQuestion(a.title)) {
-      errors.push(`STATIC article ${a.id}: title is a question — H1s must be statements → "${a.title}"`);
+      if (SURFER_PAGES[`/${a.slug}`]?.type === 'article') console.log(`  ⚠ verbatim article ${a.id}: question-form H1 → "${a.title}"`);
+      else errors.push(`STATIC article ${a.id}: title is a question — H1s must be statements → "${a.title}"`);
     }
   }
   const uniqueTitles = new Set(titles);

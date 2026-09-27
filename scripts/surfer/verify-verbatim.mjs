@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import { parse } from 'node-html-parser'
 const man = JSON.parse(fs.readFileSync('scripts/surfer/manifest.json','utf8'))
-const W = (s) => s.replace(/ /g,' ').split(/\s+/).filter(Boolean)
+const W = (s) => s.replace(/ /g,' ').replace(/\*\*/g,'').split(/\s+/).filter(Boolean)
 // Inline runs join with no separator (they are one text flow); blocks join with a space.
 const runs = (r) => r.map((x) => (x.t === 'text' ? x.v : runs(x.c))).join('')
 const blockText = (b) => b.runs ? runs(b.runs) : b.items ? b.items.map((it) => it.map(runs).join(' ')).join(' ') : b.rows ? b.rows.map((row) => row.map(runs).join(' ')).join(' ') : ''

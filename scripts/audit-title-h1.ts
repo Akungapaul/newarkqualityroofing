@@ -34,7 +34,7 @@ function htmlFiles(dir: string): string[] {
 
 const clean = (s: string) => s.replace(/\s+/g, ' ').trim();
 const norm = (s: string) =>
-  ` ${s.toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim()} `;
+  ` ${s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim()} `;
 const stem = (w: string) => w.replace(/([^s])s$/, '$1');
 const hasPhrase = (text: string, phrase: string) => {
   const words = norm(phrase).trim().split(' ');
@@ -45,6 +45,7 @@ const firstSentence = (s: string) => clean(s).split(/(?<=[.!?])\s/)[0] ?? '';
 
 const mismatches: string[] = [];
 const keywordMisses: string[] = [];
+const keywordWarnings: string[] = [];
 let checked = 0;
 
 for (const file of htmlFiles(APP)) {
@@ -74,15 +75,21 @@ for (const file of htmlFiles(APP)) {
       ['h1', h1],
       ['first sentence', fs],
     ];
+    const hasCity = (text: string) => !surfer.city || hasPhrase(text, surfer.city);
     for (const [where, text] of checks) {
       if (where === 'slug' && route === '/') continue; // root URL has no slug
       // Slugs drop "and"/"in"; match the slug on tokens, the rest on the phrase.
       const ok =
         where === 'slug'
           ? norm(surfer.leadPhrase).trim().split(' ').filter((w) => w !== 'and').every((w) => norm(text).includes(` ${w} `)) &&
-            norm(text).includes(` ${norm(surfer.city).trim()} `)
-          : hasPhrase(text, surfer.leadPhrase) && hasPhrase(text, surfer.city);
-      if (!ok) keywordMisses.push(`${route} — keyword "${surfer.leadPhrase} + ${surfer.city}" missing from ${where}: "${text.slice(0, 140)}"`);
+            (!surfer.city || norm(text).includes(` ${norm(surfer.city).trim()} `))
+          : hasPhrase(text, surfer.leadPhrase) && hasCity(text);
+      if (ok) continue;
+      const miss = `${route} — keyword "${surfer.leadPhrase}${surfer.city ? ' + ' + surfer.city : ''}" missing from ${where}: "${text.slice(0, 140)}"`;
+      // Guide articles ship the owner's H1 and opening verbatim, so title/H1/first-sentence
+      // placement is reported, not gated; the slug stays a hard check.
+      if (surfer.type === 'article' && where !== 'slug') keywordWarnings.push(miss);
+      else keywordMisses.push(miss);
     }
   }
 }
@@ -90,6 +97,7 @@ for (const file of htmlFiles(APP)) {
 console.log(`Title = H1: ${checked} pages checked, ${mismatches.length} mismatches`);
 mismatches.slice(0, 60).forEach((m) => console.log(`  ✗ ${m}`));
 if (mismatches.length > 60) console.log(`  … ${mismatches.length - 60} more`);
-console.log(`Keyword placement (Surfer-synced pages): ${Object.keys(SURFER_PAGES).length} pages, ${keywordMisses.length} misses`);
+console.log(`Keyword placement (Surfer-synced pages): ${Object.keys(SURFER_PAGES).length} pages, ${keywordMisses.length} misses, ${keywordWarnings.length} warnings (verbatim guide articles)`);
 keywordMisses.slice(0, 60).forEach((m) => console.log(`  ✗ ${m}`));
+keywordWarnings.slice(0, 60).forEach((m) => console.log(`  ⚠ ${m}`));
 process.exit(mismatches.length || keywordMisses.length ? 1 : 0);

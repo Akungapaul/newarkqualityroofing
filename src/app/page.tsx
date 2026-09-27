@@ -144,10 +144,13 @@ export default function Home() {
   const consultationSrc = consultationImg?.path ?? '/images/free-roofing-consultation.jpg';
   const consultationAlt = consultationImg?.alt ?? 'free roofing consultation Newark NJ';
 
-  // Homepage articles: core articles linked to homepage, sorted by position
+  // Homepage articles: core articles linked to homepage, sorted by position.
+  // Capped at 6 cards (owner, 2026-09-27); the rest stay reachable from the
+  // knowledge-base cluster page and sibling prev/next links.
   const homepageArticles = articles
     .filter((a) => a.parentType === 'core' && a.parentId === 'homepage')
-    .sort((a, b) => a.position - b.position);
+    .sort((a, b) => a.position - b.position)
+    .slice(0, 6);
 
   return (
     <>

@@ -81,6 +81,36 @@
     "city": "west orange"
   },
   {
+    "editorId": 16747730,
+    "keyword": "average cost to tear off and replace roof",
+    "score": 88,
+    "type": "article",
+    "slug": "/average-cost-to-tear-off-and-replace-roof",
+    "parentType": "service",
+    "parentId": "roof-replacement-cost",
+    "cluster": "roofing-costs"
+  },
+  {
+    "editorId": 16747706,
+    "keyword": "best roofers",
+    "score": 97,
+    "type": "article",
+    "slug": "/best-roofers",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
+    "editorId": 16747700,
+    "keyword": "best roofing company",
+    "score": 93,
+    "type": "article",
+    "slug": "/best-roofing-company",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
     "editorId": 16748628,
     "keyword": "built up roofing belleville nj",
     "score": 91,
@@ -160,6 +190,16 @@
     "type": "combo",
     "svc": "cedar shake roofing",
     "city": "west orange"
+  },
+  {
+    "editorId": 16747727,
+    "keyword": "changing roof",
+    "score": 91,
+    "type": "article",
+    "slug": "/changing-roof",
+    "parentType": "service",
+    "parentId": "roof-replacement",
+    "cluster": "roofing-process"
   },
   {
     "editorId": 16748373,
@@ -250,6 +290,16 @@
     "type": "combo",
     "svc": "commercial metal roofing",
     "city": "west orange"
+  },
+  {
+    "editorId": 16747680,
+    "keyword": "commercial roof contractor",
+    "score": 98,
+    "type": "article",
+    "slug": "/commercial-roof-contractor",
+    "parentType": "service",
+    "parentId": "commercial-roof-installation",
+    "cluster": "roofing-process"
   },
   {
     "editorId": 16748400,
@@ -360,6 +410,16 @@
     "city": "west orange"
   },
   {
+    "editorId": 16747716,
+    "keyword": "commercial roof repairs",
+    "score": 89,
+    "type": "article",
+    "slug": "/commercial-roof-repairs",
+    "parentType": "service",
+    "parentId": "commercial-roof-repair",
+    "cluster": "roof-problems"
+  },
+  {
     "editorId": 16748630,
     "keyword": "commercial roof replacement belleville nj",
     "score": 96,
@@ -430,6 +490,86 @@
     "type": "combo",
     "svc": "commercial roof replacement",
     "city": "west orange"
+  },
+  {
+    "editorId": 16747715,
+    "keyword": "commercial roofing",
+    "score": 96,
+    "type": "article",
+    "slug": "/commercial-roofing-guide",
+    "parentType": "service",
+    "parentId": "commercial-roof-installation",
+    "cluster": "roofing-process"
+  },
+  {
+    "editorId": 16747726,
+    "keyword": "commercial roofing installer",
+    "score": 98,
+    "type": "article",
+    "slug": "/commercial-roofing-installer",
+    "parentType": "service",
+    "parentId": "commercial-roof-installation",
+    "cluster": "roofing-process"
+  },
+  {
+    "editorId": 16747722,
+    "keyword": "commercial roofing nj",
+    "score": 87,
+    "type": "article",
+    "slug": "/commercial-roofing-nj",
+    "parentType": "service",
+    "parentId": "commercial-roof-installation",
+    "cluster": "roofing-process"
+  },
+  {
+    "editorId": 16747720,
+    "keyword": "commercial roofing service",
+    "score": 98,
+    "type": "article",
+    "slug": "/commercial-roofing-service",
+    "parentType": "service",
+    "parentId": "commercial-roof-installation",
+    "cluster": "roofing-process"
+  },
+  {
+    "editorId": 16747718,
+    "keyword": "commercial roofing solutions",
+    "score": 95,
+    "type": "article",
+    "slug": "/commercial-roofing-solutions",
+    "parentType": "service",
+    "parentId": "commercial-roof-installation",
+    "cluster": "roofing-process"
+  },
+  {
+    "editorId": 16747683,
+    "keyword": "compañías de roofing cerca de mi",
+    "score": 78,
+    "type": "article",
+    "slug": "/companias-de-roofing-cerca-de-mi",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
+    "editorId": 16747629,
+    "keyword": "cost of roof repair",
+    "score": 95,
+    "type": "article",
+    "slug": "/cost-of-roof-repair",
+    "parentType": "service",
+    "parentId": "roof-repair",
+    "cluster": "roofing-costs"
+  },
+  {
+    "editorId": 16747681,
+    "keyword": "cost replace garage roof",
+    "score": 90,
+    "type": "article",
+    "slug": "/cost-replace-garage-roof",
+    "parentType": "service",
+    "parentId": "roof-replacement-cost",
+    "cluster": "roofing-costs"
   },
   {
     "editorId": 16748357,
@@ -558,6 +698,16 @@
     "city": "west orange"
   },
   {
+    "editorId": 16747721,
+    "keyword": "estimator roof",
+    "score": 92,
+    "type": "article",
+    "slug": "/estimator-roof",
+    "parentType": "service",
+    "parentId": "roof-replacement-cost",
+    "cluster": "roofing-costs"
+  },
+  {
     "editorId": 16748472,
     "keyword": "fascia installation and repair bloomfield nj",
     "score": 92,
@@ -637,6 +787,26 @@
     "type": "combo",
     "svc": "flat roof installation and repair",
     "city": "west orange"
+  },
+  {
+    "editorId": 16747627,
+    "keyword": "flat roof roofer",
+    "score": 90,
+    "type": "article",
+    "slug": "/flat-roof-roofer",
+    "parentType": "service",
+    "parentId": "flat-roof-installation-repair",
+    "cluster": "roofing-materials"
+  },
+  {
+    "editorId": 16747703,
+    "keyword": "general roofing",
+    "score": 83,
+    "type": "article",
+    "slug": "/general-roofing",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
   },
   {
     "editorId": 16748391,
@@ -873,6 +1043,36 @@
     "city": "west orange"
   },
   {
+    "editorId": 16747713,
+    "keyword": "how much cost to change roof",
+    "score": 86,
+    "type": "article",
+    "slug": "/how-much-cost-to-change-roof",
+    "parentType": "service",
+    "parentId": "roof-replacement-cost",
+    "cluster": "roofing-costs"
+  },
+  {
+    "editorId": 16747685,
+    "keyword": "how to choose a roofing contractor",
+    "score": 95,
+    "type": "article",
+    "slug": "/how-to-choose-a-roofing-contractor",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
+    "editorId": 16747731,
+    "keyword": "inexpensive roof repair",
+    "score": 96,
+    "type": "article",
+    "slug": "/inexpensive-roof-repair",
+    "parentType": "service",
+    "parentId": "roof-repair",
+    "cluster": "roofing-costs"
+  },
+  {
     "editorId": 16748326,
     "keyword": "infrared roof leak detection bloomfield nj",
     "score": 97,
@@ -1044,6 +1244,16 @@
     "city": "west orange"
   },
   {
+    "editorId": 16747709,
+    "keyword": "new roof installation",
+    "score": 95,
+    "type": "article",
+    "slug": "/new-roof-installation",
+    "parentType": "service",
+    "parentId": "residential-roof-installation",
+    "cluster": "roofing-process"
+  },
+  {
     "editorId": 16748331,
     "keyword": "pvc roofing bloomfield nj",
     "score": 93,
@@ -1098,6 +1308,46 @@
     "city": "west orange"
   },
   {
+    "editorId": 16747632,
+    "keyword": "repair of roof",
+    "score": 94,
+    "type": "article",
+    "slug": "/repair-of-roof",
+    "parentType": "service",
+    "parentId": "roof-repair",
+    "cluster": "roof-problems"
+  },
+  {
+    "editorId": 16747724,
+    "keyword": "replace roof",
+    "score": 88,
+    "type": "article",
+    "slug": "/replace-roof",
+    "parentType": "service",
+    "parentId": "roof-replacement",
+    "cluster": "roofing-process"
+  },
+  {
+    "editorId": 16747682,
+    "keyword": "reputable roofing contractors",
+    "score": 90,
+    "type": "article",
+    "slug": "/reputable-roofing-contractors",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
+    "editorId": 16747614,
+    "keyword": "residential roof companies",
+    "score": 95,
+    "type": "article",
+    "slug": "/residential-roof-companies",
+    "parentType": "service",
+    "parentId": "residential-roof-installation",
+    "cluster": "roofing-process"
+  },
+  {
     "editorId": 16740723,
     "keyword": "residential roof installation newark nj",
     "score": 91,
@@ -1105,6 +1355,16 @@
     "type": "service",
     "svc": "residential roof installation",
     "city": "newark"
+  },
+  {
+    "editorId": 16747630,
+    "keyword": "restoration roofing",
+    "score": 92,
+    "type": "article",
+    "slug": "/restoration-roofing",
+    "parentType": "service",
+    "parentId": "silicone-roof-coating",
+    "cluster": "roofing-materials"
   },
   {
     "editorId": 16748192,
@@ -1170,6 +1430,16 @@
     "city": "west orange"
   },
   {
+    "editorId": 16747611,
+    "keyword": "roof contractors",
+    "score": 93,
+    "type": "article",
+    "slug": "/roof-contractors",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
     "editorId": 16743232,
     "keyword": "roof deck repair and replacement newark nj",
     "score": 97,
@@ -1177,6 +1447,16 @@
     "type": "service",
     "svc": "roof deck repair and replacement",
     "city": "newark"
+  },
+  {
+    "editorId": 16747729,
+    "keyword": "roof experts",
+    "score": 96,
+    "type": "article",
+    "slug": "/roof-experts",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
   },
   {
     "editorId": 16748629,
@@ -1395,6 +1675,26 @@
     "city": "west orange"
   },
   {
+    "editorId": 16747719,
+    "keyword": "roof price",
+    "score": 97,
+    "type": "article",
+    "slug": "/roof-price",
+    "parentType": "service",
+    "parentId": "roof-replacement-cost",
+    "cluster": "roofing-costs"
+  },
+  {
+    "editorId": 16747617,
+    "keyword": "roof professionals",
+    "score": 95,
+    "type": "article",
+    "slug": "/roof-professionals",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
     "editorId": 16748191,
     "keyword": "roofing contractors belleville nj",
     "score": 90,
@@ -1476,6 +1776,16 @@
     "city": "bloomfield"
   },
   {
+    "editorId": 16747702,
+    "keyword": "roof repair company",
+    "score": 98,
+    "type": "article",
+    "slug": "/roof-repair-company",
+    "parentType": "service",
+    "parentId": "roof-repair",
+    "cluster": "roof-problems"
+  },
+  {
     "editorId": 16747182,
     "keyword": "roof repair east orange nj",
     "score": 91,
@@ -1503,6 +1813,16 @@
     "city": "orange"
   },
   {
+    "editorId": 16747631,
+    "keyword": "roof repair price",
+    "score": 96,
+    "type": "article",
+    "slug": "/roof-repair-price",
+    "parentType": "service",
+    "parentId": "roof-repair",
+    "cluster": "roofing-costs"
+  },
+  {
     "editorId": 16747732,
     "keyword": "roof repair west orange nj",
     "score": 98,
@@ -1510,6 +1830,26 @@
     "type": "combo",
     "svc": "roof repair",
     "city": "west orange"
+  },
+  {
+    "editorId": 16747723,
+    "keyword": "roof repairs company",
+    "score": 91,
+    "type": "article",
+    "slug": "/roof-repairs-company",
+    "parentType": "service",
+    "parentId": "roof-repair",
+    "cluster": "roof-problems"
+  },
+  {
+    "editorId": 16747679,
+    "keyword": "roof replace cost",
+    "score": 85,
+    "type": "article",
+    "slug": "/roof-replace-cost",
+    "parentType": "service",
+    "parentId": "roof-replacement-cost",
+    "cluster": "roofing-costs"
   },
   {
     "editorId": 16748328,
@@ -1566,6 +1906,16 @@
     "city": "orange"
   },
   {
+    "editorId": 16747699,
+    "keyword": "roof replacement services",
+    "score": 87,
+    "type": "article",
+    "slug": "/roof-replacement-services",
+    "parentType": "service",
+    "parentId": "roof-replacement",
+    "cluster": "roofing-process"
+  },
+  {
     "editorId": 16747808,
     "keyword": "roof replacement west orange nj",
     "score": 98,
@@ -1573,6 +1923,16 @@
     "type": "combo",
     "svc": "roof replacement",
     "city": "west orange"
+  },
+  {
+    "editorId": 16747620,
+    "keyword": "roof storm damage",
+    "score": 95,
+    "type": "article",
+    "slug": "/roof-storm-damage",
+    "parentType": "service",
+    "parentId": "storm-damage-roof-repair",
+    "cluster": "roof-problems"
   },
   {
     "editorId": 16748269,
@@ -1690,6 +2050,116 @@
     "type": "combo",
     "svc": "roof waterproofing",
     "city": "west orange"
+  },
+  {
+    "editorId": 16746977,
+    "keyword": "roofer contractors",
+    "score": 88,
+    "type": "article",
+    "slug": "/roofer-contractors",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
+    "editorId": 16747615,
+    "keyword": "roofers repairs",
+    "score": 95,
+    "type": "article",
+    "slug": "/roofers-repairs",
+    "parentType": "service",
+    "parentId": "roof-repair",
+    "cluster": "roof-problems"
+  },
+  {
+    "editorId": 16746973,
+    "keyword": "roofing company close to me",
+    "score": 93,
+    "type": "article",
+    "slug": "/roofing-company-close-to-me",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
+    "editorId": 16747608,
+    "keyword": "roofing contractors",
+    "score": 95,
+    "type": "article",
+    "slug": "/roofing-contractors",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
+    "editorId": 16747684,
+    "keyword": "roofing contractors in my area",
+    "score": 95,
+    "type": "article",
+    "slug": "/roofing-contractors-in-my-area",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
+    "editorId": 16747714,
+    "keyword": "roofing fixing",
+    "score": 97,
+    "type": "article",
+    "slug": "/roofing-fixing",
+    "parentType": "service",
+    "parentId": "roof-repair",
+    "cluster": "roof-problems"
+  },
+  {
+    "editorId": 16747705,
+    "keyword": "roofing llc",
+    "score": 96,
+    "type": "article",
+    "slug": "/roofing-llc",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
+  },
+  {
+    "editorId": 16747633,
+    "keyword": "roofing maintenance",
+    "score": 94,
+    "type": "article",
+    "slug": "/roofing-maintenance",
+    "parentType": "service",
+    "parentId": "roof-maintenance-programs",
+    "cluster": "roofing-process"
+  },
+  {
+    "editorId": 16747618,
+    "keyword": "roofing-repair-near-me",
+    "score": 94,
+    "type": "article",
+    "slug": "/roofing-repair-near-me",
+    "parentType": "service",
+    "parentId": "roof-repair",
+    "cluster": "roof-problems"
+  },
+  {
+    "editorId": 16747616,
+    "keyword": "roofing repairman",
+    "score": 91,
+    "type": "article",
+    "slug": "/roofing-repairman",
+    "parentType": "service",
+    "parentId": "roof-repair",
+    "cluster": "roof-problems"
+  },
+  {
+    "editorId": 16747626,
+    "keyword": "roofs company",
+    "score": 87,
+    "type": "article",
+    "slug": "/roofs-company",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
   },
   {
     "editorId": 16748282,
@@ -2131,6 +2601,16 @@
     "type": "combo",
     "svc": "tile roof installation and repair",
     "city": "west orange"
+  },
+  {
+    "editorId": 16747686,
+    "keyword": "top roofing",
+    "score": 95,
+    "type": "article",
+    "slug": "/top-roofing",
+    "parentType": "core",
+    "parentId": "homepage",
+    "cluster": "local-roofing-knowledge"
   },
   {
     "editorId": 16748334,

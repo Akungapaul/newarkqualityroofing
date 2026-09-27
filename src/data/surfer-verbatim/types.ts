@@ -28,10 +28,10 @@ export interface SurferPage {
   slug: string;
   editorId: number;
   keyword: string;
-  type: 'home' | 'service' | 'city' | 'combo';
-  /** Title tag and H1 (identical). Format "[Service] [City], NJ". */
+  type: 'home' | 'service' | 'city' | 'combo' | 'article';
+  /** Title tag and H1 (identical). "[Service] [City], NJ" for local pages; the draft's own H1 for articles. */
   h1: string;
-  /** Keyword phrase + city the first sentence must contain. */
+  /** Keyword phrase + city the first sentence must contain. `city` is '' on articles. */
   leadPhrase: string;
   city: string;
   /** Added above the lead only when its first sentence lacks the keyword. */

@@ -4,6 +4,12 @@
  */
 import { services } from '../src/data/services';
 import { comparisons } from '../src/data/comparisons';
+import { SURFER_PAGES } from '../src/data/surfer-verbatim/generated-index';
+import surferArticles from './surfer/articles.json';
+
+const SMALL_WORDS = new Set(['a', 'an', 'and', 'in', 'of', 'for', 'to', 'de', 'the']);
+const titleCaseKeyword = (kw: string) =>
+  kw.replace(/-/g, ' ').split(' ').map((w, i) => (i && SMALL_WORDS.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
 
 type Cluster =
   | 'roof-problems'
@@ -360,6 +366,40 @@ for (const a of allArticles) {
   if (override) a.title = override;
 }
 
+// ─── Surfer guide articles (48) ─────────────────────────────────────────────
+// City-less Surfer drafts published verbatim at /{slug}. Parent + cluster come
+// from scripts/surfer/articles.json; title (= the draft's own H1) and meta
+// description from the synced page. Positions continue after the templated
+// articles of the same parent, in articles.json order.
+const surferIds = new Set<string>();
+{
+  const nextPos = new Map<string, number>();
+  for (const a of allArticles) {
+    const k = `${a.parentType}:${a.parentId}`;
+    nextPos.set(k, Math.max(nextPos.get(k) ?? 0, a.position));
+  }
+  for (const row of surferArticles) {
+    const page = SURFER_PAGES[row.slug];
+    if (!page || page.type !== 'article') throw new Error(`no synced Surfer page for ${row.slug}`);
+    const k = `${row.parentType}:${row.parentId}`;
+    const position = (nextPos.get(k) ?? 0) + 1;
+    nextPos.set(k, position);
+    const id = row.slug.slice(1);
+    surferIds.add(id);
+    allArticles.push({
+      id,
+      title: page.h1,
+      slug: id,
+      parentId: row.parentId,
+      parentType: row.parentType as RawArticle['parentType'],
+      position,
+      metaTitle: page.h1.length <= 60 ? page.h1 : titleCaseKeyword(page.keyword),
+      metaDescription: page.metaDescription ?? '',
+      cluster: row.cluster as Cluster,
+    });
+  }
+}
+
 // ─── Validate uniqueness ────────────────────────────────────────────────────
 
 const slugSet = new Set<string>();
@@ -383,7 +423,8 @@ for (const a of allArticles) {
   }
   titleSet.add(a.title);
 
-  if (/\?\s*$/.test(a.title)) {
+  // Surfer guide titles are the owner's own H1s and ship verbatim.
+  if (/\?\s*$/.test(a.title) && !surferIds.has(a.id)) {
     errors.push(`Question-form title (H1s must be statements): ${a.id} => "${a.title}"`);
   }
 
@@ -417,7 +458,7 @@ lines.push(`  title: z.string(),`);
 lines.push(`  slug: z.string().regex(/^[a-z0-9-]+$/),`);
 lines.push(`  parentId: z.string(),`);
 lines.push(`  parentType: z.enum(['service', 'comparison', 'core']),`);
-lines.push(`  position: z.number().min(1).max(3),`);
+lines.push(`  position: z.number().min(1).max(25),`);
 lines.push(`  metaTitle: z.string().max(60),`);
 lines.push(`  metaDescription: z.string().max(160),`);
 lines.push(`  cluster: z.enum([`);
@@ -432,10 +473,11 @@ lines.push(`});`);
 lines.push(``);
 lines.push(`export type Article = z.infer<typeof ArticleSchema>;`);
 lines.push(``);
-lines.push(`// ─── Raw Article Data (252 articles) ─────────────────────────────────────────`);
+lines.push(`// ─── Raw Article Data (${allArticles.length} articles) ─────────────────────────────────────────`);
 lines.push(`// 63 services x 3 articles = 189 service articles`);
 lines.push(`// 30 comparisons x 2 articles = 60 comparison articles`);
 lines.push(`// 1 homepage x 3 articles = 3 core articles`);
+lines.push(`// ${surferIds.size} Surfer guide articles (scripts/surfer/articles.json; body = src/data/surfer-verbatim)`);
 lines.push(`// Excluded services: silicone-elastomeric-roof-coating, roof-replacement-cost`);
 lines.push(``);
 lines.push(`const rawArticles: Article[] = [`);

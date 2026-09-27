@@ -11,11 +11,16 @@ import {
   buildArticleSchema,
   buildWebPageSchema,
   buildBreadcrumbSchema,
+  buildFaqSchema,
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getServiceHeroImage, getContentPoolImages } from '@/data/image-manifest';
+import { services } from '@/data/services';
+import { blockText, getSurferPage, runsText, surferFaqs } from '@/lib/surfer-verbatim';
+import { SurferHeroLead, SurferVerbatimArticle } from '@/components/sections/SurferVerbatimArticle';
+import type { SurferPage } from '@/data/surfer-verbatim/types';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -50,6 +55,89 @@ function countWords(content: ArticleContent): number {
   }
   words += content.conclusion.split(/\s+/).length;
   return words;
+}
+
+// ─── Surfer guide articles (verbatim drafts, src/data/surfer-verbatim) ──────
+
+function surferWordCount(page: SurferPage): number {
+  const text = [
+    ...page.lead.map(runsText),
+    ...page.sections.flatMap((s) => [
+      s.heading,
+      ...(s.blocks ?? []).map(blockText),
+      ...(s.faqs ?? []).flatMap((f) => [f.q, ...f.a.map(blockText)]),
+    ]),
+  ].join(' ');
+  return text.split(/\s+/).filter(Boolean).length;
+}
+
+function SurferArticle({
+  article,
+  page,
+  heroImage,
+}: {
+  article: Article;
+  page: SurferPage;
+  heroImage?: { src: string; alt: string };
+}) {
+  const links = getArticleLinks(article.id);
+  const faqs = surferFaqs(page);
+  const parentService = article.parentType === 'service'
+    ? services.find((s) => s.id === article.parentId)
+    : undefined;
+
+  return (
+    <>
+      <JsonLd data={buildJsonLdGraph(
+        buildArticleSchema({ title: article.title, slug: article.slug, description: article.metaDescription }),
+        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${article.slug}`, article.title),
+        buildBreadcrumbSchema([
+          { name: 'Home', url: SEO_CONFIG.BASE_URL },
+          ...(article.parentType === 'core'
+            ? []
+            : [{ name: links.moneyPage.name, url: `${SEO_CONFIG.BASE_URL}${links.moneyPage.slug}` }]),
+          { name: article.title },
+        ]),
+        ...(faqs.length ? [buildFaqSchema(faqs)] : []),
+      )} />
+
+      <ArticleHero
+        article={article}
+        moneyPageName={links.moneyPage.name}
+        moneyPageSlug={links.moneyPage.slug}
+        wordCount={surferWordCount(page)}
+        heroImage={heroImage}
+      />
+
+      <article className="mx-auto max-w-3xl px-6 py-12 lg:px-8">
+        {page.lead.length > 0 && (
+          <p className="mb-12 border-l-2 border-copper pl-4 font-body text-lg font-medium leading-relaxed text-forest sm:text-xl [&_strong]:font-bold [&_strong]:text-copper">
+            <SurferHeroLead runs={page.lead} />
+          </p>
+        )}
+
+        <SurferVerbatimArticle page={page} ctaServiceName={parentService?.name ?? 'Roofing'} />
+
+        <AnimateIn>
+          <ArticleCta
+            heading="Talk to Newark Quality Roofing"
+            text="Get a free roof inspection and a written estimate from Newark Quality Roofing."
+            moneyPageName={links.moneyPage.name}
+            moneyPageSlug={links.moneyPage.slug}
+            pillarHub={getArticlePillarHub(article.id)}
+          />
+        </AnimateIn>
+
+        <AnimateIn>
+          <ArticleNav
+            nextArticle={links.nextArticle}
+            prevArticle={links.prevArticle}
+            moneyPage={links.moneyPage}
+          />
+        </AnimateIn>
+      </article>
+    </>
+  );
 }
 
 // ─── Placeholder fallback ───────────────────────────────────────────────────
@@ -131,6 +219,12 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
   const sectionImage = sectionEntry
     ? { src: sectionEntry.path, alt: sectionEntry.alt }
     : undefined;
+
+  // Surfer guide articles carry their body in src/data/surfer-verbatim, not article-content.
+  const surfer = getSurferPage(`/${article.slug}`);
+  if (surfer) {
+    return <SurferArticle article={article} page={surfer} heroImage={heroImage} />;
+  }
 
   // Graceful fallback when content doesn't exist yet
   if (!content) {

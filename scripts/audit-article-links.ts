@@ -21,6 +21,8 @@ import { services } from '@/data/services';
 import { comparisons } from '@/data/comparisons';
 import { getAllArticleContent } from '@/data/article-content';
 import { generateServicePageSlug } from '@/lib/slug-utils';
+import { SURFER_PAGES } from '@/data/surfer-verbatim/generated-index';
+import { getArticlePillarHub } from '@/data/linking/link-engine';
 
 const svc = new Map(services.map((s) => [s.id, s]));
 const cmp = new Map(comparisons.map((c) => [c.id, c]));
@@ -69,7 +71,34 @@ for (const c of getAllArticleContent()) {
   if (/\]\(\//.test(cc.directAnswer ?? '')) errors.push(`${cc.articleId}: link inside directAnswer (lead must stay clean)`);
 }
 
-console.log(`Article-link audit: ${checked} articles checked, ${errors.length} violation(s).`);
+// Surfer guide articles (verbatim drafts): links are exact runs, not markdown.
+// The converter adds at most 5 money-page links; here we require the parent
+// money page (or, for homepage guides, any service page) to be linked in-body.
+let surferChecked = 0;
+for (const a of articles) {
+  const page = SURFER_PAGES[`/${a.slug}`];
+  if (page?.type !== 'article') continue;
+  surferChecked++;
+  const hrefs = new Set<string>();
+  const walk = (x: unknown): void => {
+    if (Array.isArray(x)) x.forEach(walk);
+    else if (x && typeof x === 'object') {
+      const r = x as { t?: string; href?: string };
+      if (r.t === 'a' && r.href?.startsWith('/')) hrefs.add(r.href.split('#')[0]);
+      Object.values(x).forEach(walk);
+    }
+  };
+  walk(page.sections);
+  // Parent money page, or the pillar hub that lists it (the converter links the
+  // parent first when its phrase occurs in the copy; verbatim text is never edited).
+  const required = [...requiredTargets(a.id), getArticlePillarHub(a.id).slug];
+  const ok = a.parentType === 'core'
+    ? [...hrefs].some((h) => h.endsWith('-in-newark-nj') || h === '/roofing-services' || h === '/residential-roofing')
+    : required.some((t) => hrefs.has(t));
+  if (!ok) errors.push(`${a.id} (surfer): no in-body link to ${a.parentType === 'core' ? 'a service page' : required.join(' / ')}`);
+}
+
+console.log(`Article-link audit: ${checked} articles checked (+${surferChecked} Surfer guide articles), ${errors.length} violation(s).`);
 for (const e of errors.slice(0, 40)) console.log(`  - ${e}`);
 if (errors.length > 40) console.log(`  ...and ${errors.length - 40} more`);
 process.exit(errors.length > 0 ? 1 : 0);

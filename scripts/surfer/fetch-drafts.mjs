@@ -12,6 +12,9 @@ const SITE = 'https://newarkqualityroofing.com'
 const CITIES = ['east orange', 'west orange', 'orange', 'montclair', 'bloomfield', 'belleville', 'nutley', 'irvington', 'newark']
 // Owner: never touch these pages.
 const EXCLUDE_EDITORS = new Set([16360920 /* roof repair newark nj */, 16743306 /* "spray form" typo */])
+// City-less (national) editors published as guide articles at /{slug}. Hand-mapped:
+// each row carries the article's parent money page + knowledge-base cluster.
+const ARTICLES = new Map(JSON.parse(fs.readFileSync('scripts/surfer/articles.json', 'utf8')).map((a) => [a.editorId, a]))
 
 const get = async (p) => {
   const r = await fetch(BASE + p, { headers: { 'API-KEY': KEY } })
@@ -67,6 +70,13 @@ const skipped = []
 for (const e of editors) {
   if (e.state !== 'completed') { skipped.push([e.id, e.main_keyword, e.state]); continue }
   if (EXCLUDE_EDITORS.has(e.id)) { skipped.push([e.id, e.main_keyword, 'excluded']); continue }
+  const art = ARTICLES.get(e.id)
+  if (art) {
+    // Not live yet (this run creates the page), so no live-URL assertion.
+    const { editorId, ...rest } = art
+    manifest.push({ editorId, keyword: e.main_keyword.replace(/\s+/g, ' ').trim(), score: e.content_score?.total, type: 'article', ...rest })
+    continue
+  }
   const m = mapKeyword(e.main_keyword)
   if (!m) { skipped.push([e.id, e.main_keyword, 'national/no-city']); continue }
   if (!live.has(m.slug)) throw new Error(`no live page for "${e.main_keyword}" -> ${m.slug}`)
@@ -86,5 +96,7 @@ for (const m of manifest) {
 manifest.sort((a, b) => a.slug.localeCompare(b.slug))
 fs.writeFileSync('scripts/surfer/manifest.json', JSON.stringify(manifest, null, 2) + '\n')
 console.log(`editors ${editors.length} | mapped ${manifest.length} | skipped ${skipped.length}`)
-for (const t of ['home', 'service', 'city', 'combo']) console.log(t, manifest.filter((m) => m.type === t).length)
+for (const t of ['home', 'service', 'city', 'combo', 'article']) console.log(t, manifest.filter((m) => m.type === t).length)
+const missingArticles = [...ARTICLES.keys()].filter((id) => !manifest.some((m) => m.editorId === id))
+if (missingArticles.length) throw new Error('articles.json editors not completed/found: ' + missingArticles.join(', '))
 console.log('skipped (non-national):', skipped.filter((s) => s[2] !== 'national/no-city'))

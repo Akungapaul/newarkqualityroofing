@@ -14,10 +14,14 @@ import { parse } from 'node-html-parser'
 
 const SITE = 'https://newarkqualityroofing.com'
 const OUT = 'src/data/surfer-verbatim/pages'
-const REPORT = '.planning/seo/surfer-verbatim-sync-2026-09-24.md'
+const REPORT = '.planning/seo/surfer-verbatim-sync-2026-09-27.md'
+const METAS_FILE = 'scripts/surfer/meta-descriptions.json'
 const manifest = JSON.parse(fs.readFileSync('scripts/surfer/manifest.json', 'utf8'))
 // Owner-requested new meta description per page (written from each page's own copy).
-const METAS = JSON.parse(fs.readFileSync('scripts/surfer/meta-descriptions.json', 'utf8'))
+// Article pages (type 'article') get one derived from the draft's own opening on
+// first sync; an entry already in the file is never overwritten, so edits stick.
+const METAS = JSON.parse(fs.readFileSync(METAS_FILE, 'utf8'))
+const MAX_ADDED_LINKS = 5
 
 // Editors whose draft does not match its page (reported, not synced).
 const HOLD = {
@@ -66,7 +70,10 @@ function inline(node, ctx) {
   const out = []
   for (const n of node.childNodes) {
     if (n.nodeType === 3) {
-      const v = n.text.replace(/ /g, ' ')
+      let v = n.text.replace(/ /g, ' ')
+      // Guide drafts carry stray "**" where the Surfer editor half-parsed
+      // markdown bold. Not prose — removed and logged.
+      if (ctx.article && v.includes('**')) { ctx.log.dropped.push(`markdown artifact "**" in: "${v.trim().slice(0, 60)}"`); v = v.replace(/\*\*/g, '') }
       if (v) out.push({ t: 'text', v })
       continue
     }
@@ -179,7 +186,9 @@ function faqsFrom(nodes, ctx) {
 // ─── Keyword / H1 / first-sentence ──────────────────────────────────────────
 const titleCase = (s) => s.split(' ').map((w, i) => ACRONYMS[w] || (i && SMALL.has(w) ? w : w[0].toUpperCase() + w.slice(1))).join(' ')
 
-function keywordFor(m) {
+// Article pages take the draft's own <h1> verbatim (no city, no fabricated lead).
+function keywordFor(m, draftH1) {
+  if (m.type === 'article') return { phrase: m.keyword.replace(/-/g, ' '), city: '', h1: draftH1 }
   const city = CITY_NAMES[m.city]
   if (m.type === 'home') return { phrase: 'roofing contractors', city, h1: 'Roofing Contractors Newark, NJ' }
   if (m.type === 'city') return { phrase: 'roof repair and installation', city, h1: `Roof Repair and Installation ${city}, NJ` }
@@ -189,9 +198,126 @@ function keywordFor(m) {
 // The first-sentence check runs at render time (src/lib/surfer-verbatim.ts), where
 // the template's existing hero lead is available for pages whose draft has none.
 function leadSentence(m, kw) {
+  if (m.type === 'article') return ''
   const phrase = kw.phrase.split(' ').map((w) => ACRONYMS[w] || w).join(' ')
   if (m.type === 'home') return `Newark Quality Roofing is a team of roofing contractors in ${kw.city}, NJ.`
   return `Newark Quality Roofing provides ${phrase} in ${kw.city}, NJ.`
+}
+
+// ─── Article meta description: the draft's own opening, cut at a sentence ───
+// Prefers the bold "The direct answer:" line when the draft has one.
+function deriveMeta(lead, sections) {
+  const paras = [...lead, ...sections.flatMap((s) => (s.blocks ?? []).filter((b) => b.t === 'p'))]
+  const texts = paras.map((b) => plain(b.runs).replace(/\s+/g, ' ').trim()).filter(Boolean)
+  const direct = texts.find((t) => /^the direct answer:/i.test(t))
+  const src = (direct ? direct.replace(/^the direct answer:\s*/i, '') : texts[0]) ?? ''
+  const sentences = src.match(/[^.!?]+[.!?]+(?=\s|$)/g) ?? [src]
+  let out = ''
+  for (const s of sentences) {
+    const next = (out + ' ' + s).trim()
+    if (next.length > 158) break
+    out = next
+  }
+  if (!out) out = src.slice(0, 155).replace(/\s+\S*$/, '') + '…'
+  return out.charAt(0).toUpperCase() + out.slice(1)
+}
+
+// ─── Article in-body links: wrap the first occurrence of a money-page phrase ──
+// Text is never changed — a text run is split into [before, <a>match</a>, after].
+// Headings, tables, FAQ questions, the hero lead, and existing links are skipped.
+const svc = (id) => `/${id}-in-newark-nj`
+const LINK_TARGETS = [
+  ['roof replacement cost', svc('roof-replacement-cost')],
+  ['emergency roof repair', svc('emergency-roof-repair')],
+  ['commercial roof repair', svc('commercial-roof-repair')],
+  ['commercial roof replacement', svc('commercial-roof-replacement')],
+  ['commercial roof installation', svc('commercial-roof-installation')],
+  ['storm damage', svc('storm-damage-roof-repair')],
+  ['hail damage', svc('hail-damage-roof-repair')],
+  ['wind damage', svc('wind-damage-roof-repair')],
+  ['roof leak', svc('roof-leak-repair')],
+  ['roof inspection', svc('roof-inspection')],
+  ['roof maintenance', svc('roof-maintenance-programs')],
+  ['roof replacement', svc('roof-replacement')],
+  ['roof repair', svc('roof-repair')],
+  ['new roof installation', svc('residential-roof-installation')],
+  ['residential roof installation', svc('residential-roof-installation')],
+  ['flat roof', svc('flat-roof-installation-repair')],
+  ['metal roofing', svc('metal-roof-installation-repair')],
+  ['metal roof', svc('metal-roof-installation-repair')],
+  ['asphalt shingle', svc('asphalt-shingle-roofing')],
+  ['slate roof', svc('slate-roof-installation-repair')],
+  ['tile roof', svc('tile-roof-installation-repair')],
+  ['modified bitumen', svc('modified-bitumen-roofing')],
+  ['built-up roofing', svc('built-up-roofing')],
+  ['spray foam', svc('spray-foam-roofing')],
+  ['green roof', svc('green-roof-installation')],
+  ['chimney flashing', svc('chimney-flashing-repair')],
+  ['insurance claim', svc('insurance-roof-replacement')],
+  ['tear-off', svc('full-roof-tear-off')],
+  ['roof coating', svc('silicone-roof-coating')],
+  ['ice dam', svc('roof-ice-dam-prevention')],
+  ['free inspection', '/free-roofing-estimate'],
+  ['free estimate', '/free-roofing-estimate'],
+  ['solar panel', svc('solar-panel-roofing-installation')],
+  ['waterproofing', svc('roof-waterproofing')],
+  ['flashing', svc('roof-flashing-installation-repair')],
+  ['skylight', svc('skylight-installation-repair')],
+  ['gutter', svc('gutter-installation-repair')],
+  ['TPO', svc('tpo-roofing-installation')],
+  ['EPDM', svc('epdm-commercial-roofing')],
+  ['PVC', svc('pvc-roofing')],
+  // Pillar hubs last: ArticleCta already links the article's pillar, so the
+  // capped in-body slots go to service money pages first.
+  ['commercial roofing', '/commercial-roofing'],
+  ['residential roofing', '/residential-roofing'],
+]
+const phraseRe = (p) => new RegExp(`(?<![a-z0-9])${p.replace(/([.*+?^${}()|[\]\\])/g, '\\$1').replace(/[-\s]+/g, '[-\\s]')}(?:e?s)?(?![a-z0-9])`, 'i')
+
+function hrefsIn(x, acc = new Set()) {
+  if (Array.isArray(x)) x.forEach((y) => hrefsIn(y, acc))
+  else if (x && typeof x === 'object') { if (x.t === 'a') acc.add(x.href.split('#')[0]); Object.values(x).forEach((v) => hrefsIn(v, acc)) }
+  return acc
+}
+
+/** Link the first match of `re` inside `runs` (skips <a> subtrees). Returns the anchor text or null. */
+function linkFirst(runs, re, href) {
+  for (let i = 0; i < runs.length; i++) {
+    const r = runs[i]
+    if (r.t === 'a') continue
+    if (r.t !== 'text') { const hit = linkFirst(r.c, re, href); if (hit) return hit; continue }
+    const m = re.exec(r.v)
+    if (!m) continue
+    const [before, after] = [r.v.slice(0, m.index), r.v.slice(m.index + m[0].length)]
+    const rep = [{ t: 'a', href, c: [{ t: 'text', v: m[0] }] }]
+    if (before) rep.unshift({ t: 'text', v: before })
+    if (after) rep.push({ t: 'text', v: after })
+    runs.splice(i, 1, ...rep)
+    return m[0]
+  }
+  return null
+}
+
+function autoLink(sections, parentSlug, hubSlug, live, log) {
+  const bodies = []
+  for (const s of sections) for (const b of s.blocks ?? []) {
+    if (b.t === 'p') bodies.push(b.runs)
+    else if (b.t === 'ul' || b.t === 'ol') for (const item of b.items) bodies.push(...item)
+  }
+  const present = hrefsIn(sections)
+  // Parent money page first, then the article's pillar hub, then the rest in table order.
+  const rank = (t) => (t[1] === parentSlug ? 0 : t[1] === hubSlug ? 1 : 2)
+  const targets = [...LINK_TARGETS].sort((a, b) => rank(a) - rank(b))
+  let added = 0
+  for (const [phrase, href] of targets) {
+    if (added >= MAX_ADDED_LINKS) break
+    if (present.has(href) || !isLive(href, live)) continue
+    const re = phraseRe(phrase)
+    for (const runs of bodies) {
+      const text = linkFirst(runs, re, href)
+      if (text) { present.add(href); added++; log.linked.push(`"${text}" → ${href}`); break }
+    }
+  }
 }
 
 // ─── Claims to flag once (verbatim rule: report, never edit) ────────────────
@@ -199,6 +325,8 @@ const CLAIMS = [/licensed/i, /GAF[- ]certified/i, /\b\d+\+? years/i, /24\/7/i, /
 
 // ─── Main ───────────────────────────────────────────────────────────────────
 const live = await liveUrls()
+// Article pages go live with this sync, so links between them are valid.
+for (const m of manifest) if (m.type === 'article') live.add(m.slug)
 {
   const hrefs = new Set()
   for (const m of manifest) {
@@ -217,19 +345,21 @@ const written = []
 for (const m of manifest) {
   if (HOLD[m.editorId]) { report.push({ m, held: HOLD[m.editorId] }); continue }
   const root = parse(fs.readFileSync(`.cache/surfer/${m.editorId}.html`, 'utf8'))
-  const log = { dropped: [], unlinked: [], claims: [] }
-  const ctx = { live, log }
+  const log = { dropped: [], unlinked: [], claims: [], linked: [] }
+  const ctx = { live, log, article: m.type === 'article' }
 
   // Split top-level nodes into [pre-H2] + H2 sections.
   const groups = [{ heading: null, nodes: [] }]
+  let draftH1 = ''
   for (const n of root.childNodes) {
     const tag = (n.rawTagName || '').toLowerCase()
-    if (tag === 'h1') continue
+    if (tag === 'h1') { draftH1 = n.text.replace(/ /g, ' ').replace(/\s+/g, ' ').trim(); continue }
     if (tag === 'h2') groups.push({ heading: n.text.replace(/ /g, ' ').trim(), nodes: [] })
     else groups[groups.length - 1].nodes.push(n)
   }
 
-  const kw = keywordFor(m)
+  if (m.type === 'article' && !draftH1) throw new Error(`article ${m.slug}: draft has no <h1>`)
+  const kw = keywordFor(m, draftH1)
   const sections = []
   for (const g of groups.slice(1)) {
     if (DROP_H2.some((re) => re.test(g.heading))) { log.dropped.push(`section: "${g.heading}"`); continue }
@@ -252,6 +382,13 @@ for (const m of manifest) {
   for (const re of CLAIMS) {
     const hits = plainAll({ lead, sections }).match(new RegExp(`[^.]*${re.source}[^.]*\\.?`, 'gi'))
     if (hits) log.claims.push(...hits.slice(0, 3).map((h) => h.trim().slice(0, 160)))
+  }
+
+  if (m.type === 'article') {
+    // Mirrors getArticlePillarHub(): commercial-* service parents → commercial pillar.
+    const hub = /^commercial-/.test(m.parentId) ? '/commercial-roofing' : '/residential-roofing'
+    autoLink(sections, m.parentType === 'service' ? svc(m.parentId) : '/', hub, live, log)
+    if (!METAS[m.slug]) METAS[m.slug] = deriveMeta(lead, sections)
   }
 
   const page = {
@@ -291,9 +428,9 @@ fs.writeFileSync('src/data/surfer-verbatim/generated-index.ts', idx.join('\n'))
 
 // Report.
 const md = [
-  '# Surfer verbatim sync — 2026-09-24', '',
-  `Synced ${written.length} pages; held ${report.filter((r) => r.held).length}. Source: Surfer workspace 1356663.`,
-  'Verbatim contract: prose is unedited. Listed below per page: template-duplicated blocks dropped, anchors unlinked (target not a live URL), and claims flagged for owner review (shipped as written).', '',
+  '# Surfer verbatim sync — 2026-09-27', '',
+  `Synced ${written.length} pages (${written.filter((m) => m.type === 'article').length} guide articles); held ${report.filter((r) => r.held).length}. Source: Surfer workspace 1356663.`,
+  'Verbatim contract: prose is unedited. Listed below per page: template-duplicated blocks dropped, anchors unlinked (target not a live URL), money-page links added on guide articles (first occurrence of a phrase already in the text, max 5), derived meta descriptions, and claims flagged for owner review (shipped as written).', '',
   '## Held (not synced)', '',
   ...report.filter((r) => r.held).map((r) => `- \`${r.m.slug}\` (editor ${r.m.editorId}, "${r.m.keyword}"): ${r.held}`), '',
   '## Pages', '',
@@ -302,8 +439,14 @@ for (const r of report.filter((x) => !x.held)) {
   md.push(`### \`${r.m.slug}\``, '', `- Editor ${r.m.editorId} · "${r.m.keyword}" · H1/title: **${r.kw.h1}** · ${r.sectionCount} sections`)
   if (r.log.dropped.length) md.push(`- Dropped (template renders these): ${r.log.dropped.map((d) => `\n  - ${d}`).join('')}`)
   if (r.log.unlinked.length) md.push(`- Unlinked (not a live URL): ${r.log.unlinked.map((d) => `\n  - ${d}`).join('')}`)
+  if (r.m.type === 'article') {
+    md.push(`- Parent: \`${r.m.parentType}:${r.m.parentId}\` · cluster \`${r.m.cluster}\``)
+    md.push(`- Meta description: "${METAS[r.m.slug]}"`)
+    md.push(r.log.linked.length ? `- Links added: ${r.log.linked.map((d) => `\n  - ${d}`).join('')}` : '- Links added: none')
+  }
   if (r.log.claims.length) md.push(`- Claims flagged: ${[...new Set(r.log.claims)].map((d) => `\n  - "${d}"`).join('')}`)
   md.push('')
 }
 fs.writeFileSync(REPORT, md.join('\n'))
+fs.writeFileSync(METAS_FILE, JSON.stringify(METAS, null, 2) + '\n')
 console.log(`wrote ${written.length} pages, held ${report.filter((r) => r.held).length}; report → ${REPORT}`)
