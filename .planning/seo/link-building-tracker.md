@@ -10,6 +10,8 @@
 - **NAP consistency is non-negotiable:** exact same **Newark Quality Roofing · [address] · (973) 649-9535** on every listing. Inconsistency cancels the benefit.
 - **Local + relevant > volume.** One Essex County chamber or .edu link beats dozens of generic directories. Avoid paid link farms.
 - **Pace it:** ~15–20 new domains/month looks natural.
+- **Anchor text — never "licensed."** NQR is a *registered* NJ home-improvement contractor, not a licensed one (the site says "registered" everywhere). Ahrefs 2026-09-27 shows 27 referring domains on `Licensed and insured roofer Newark` and 23 on `licensed roofing contractor NJ` from the SEO Neo campaign — remove "licensed" from its anchor list; use "registered and insured roofer Newark" / "insured roofing contractor NJ".
+- **Disavow file for the link-seller scraper domains** (649 "buy backlinks / PBN / DA checker" directories that auto-list any domain — not SEO Neo): `.planning/seo/disavow-2026-09-27.txt`. Upload manually in GSC → Disavow links.
 
 ## Progress
 | Metric | Count |
