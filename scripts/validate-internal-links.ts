@@ -103,9 +103,12 @@ function buildRedirectMap(): Map<string, string> {
   // next.config.ts mixes single and double quotes across its four redirect
   // groups (audit-redirects.ts:110 handles the same hazard), so match both.
   // The `/:path*` wildcard is the host-level www rule — excluded deliberately.
+  // Scope to the redirects() block: rewrites() uses the same source/destination
+  // shape but is not a 301 (/sitemap.xml -> /sitemap-index.xml).
   const config = readFileSync(join(REPO_ROOT, 'next.config.ts'), 'utf8');
+  const redirectsBlock = config.slice(config.indexOf('async redirects()'), config.indexOf('async rewrites()'));
   const pair = /source:\s*['"](\/[^'"]*)['"]\s*,\s*destination:\s*['"]([^'"]*)['"]/g;
-  for (const [, src, dest] of config.matchAll(pair)) {
+  for (const [, src, dest] of redirectsBlock.matchAll(pair)) {
     if (src.includes(':')) continue; // parameterised (host/wildcard) rule
     map.set(src, dest);
   }
@@ -135,6 +138,17 @@ function main() {
       for (const route of Array.isArray(value) ? value : [value]) {
         if (route && !route.includes('[')) appRoutes.add(route);
       }
+    }
+  }
+
+  // Literal rewrites resolve to their destination route (/sitemap.xml -> /sitemap-index.xml).
+  const rewritesManifest = join(REPO_ROOT, '.next', 'routes-manifest.json');
+  if (existsSync(rewritesManifest)) {
+    const { rewrites } = JSON.parse(readFileSync(rewritesManifest, 'utf8')) as {
+      rewrites?: { beforeFiles?: { source: string; destination: string }[]; afterFiles?: { source: string; destination: string }[] };
+    };
+    for (const r of [...(rewrites?.beforeFiles ?? []), ...(rewrites?.afterFiles ?? [])]) {
+      if (!r.source.includes(':') && appRoutes.has(r.destination)) appRoutes.add(r.source);
     }
   }
 

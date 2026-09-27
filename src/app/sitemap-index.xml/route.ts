@@ -1,18 +1,17 @@
 import { SEO_CONFIG } from '@/lib/seo-config';
+import { generateSitemaps } from '@/app/sitemap';
 
 // ─── Sitemap Index Route Handler ────────────────────────────────────────────
 
-// Must stay in sync with SITEMAP_IDS in src/app/sitemap.ts. 'knowledge-base'
-// added so the KB hub + 6 cluster hubs + glossary sitemap is discoverable (D-06).
-// 'hubs' added 2026-09: the segment always generated but was never referenced
-// here, leaving the 6 flat hubs out of every submitted sitemap.
-const SITEMAP_IDS = ['core', 'services', 'cities', 'combos', 'comparisons', 'articles', 'knowledge-base', 'hubs'] as const;
+// Served at /sitemap.xml via the rewrite in next.config.ts. Segment ids come
+// from the same generateSitemaps() that emits the segments, so the index can
+// never drift from them (a hand-copied list once dropped 'hubs' for months).
 
 export async function GET() {
   const { BASE_URL } = SEO_CONFIG;
 
-  const sitemapEntries = SITEMAP_IDS.map(
-    (id) => `  <sitemap>\n    <loc>${BASE_URL}/sitemap/${id}.xml</loc>\n  </sitemap>`
+  const sitemapEntries = (await generateSitemaps()).map(
+    ({ id }) => `  <sitemap>\n    <loc>${BASE_URL}/sitemap/${id}.xml</loc>\n  </sitemap>`
   ).join('\n');
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

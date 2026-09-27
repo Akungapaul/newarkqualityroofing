@@ -75,7 +75,9 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
     <>
       <JsonLd data={buildJsonLdGraph(
         buildServiceSchema({ name: service.name, slug: comboSlug, shortDescription: service.shortDescription }),
-        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${comboSlug}`, surfer?.metaDescription ?? content.metaDescription),
+        // WebPage.name = the page title (same expression as generateMetadata in [slug]/page.tsx),
+        // not the meta description — every other template passes its title here.
+        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${comboSlug}`, surfer?.h1 ?? HEADING_CONFIG.combo.h1(service.name, city.name)),
         buildBreadcrumbSchema([
           { name: 'Home', url: SEO_CONFIG.BASE_URL },
           { name: service.name, url: `${SEO_CONFIG.BASE_URL}/${generateServicePageSlug(service.slug)}` },

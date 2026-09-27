@@ -113,7 +113,9 @@ export function buildAreaServedList(): Array<Record<string, unknown>> {
   for (const city of cities) {
     out.push({ '@type': 'City', name: `${city.name}, NJ` });
     for (const zip of city.zipCodes) {
-      out.push({ '@type': 'PostalCodeSpecification', postalCode: zip, addressCountry: 'US' });
+      // GeoShape is the schema.org type that carries postalCode; "PostalCodeSpecification"
+      // does not exist and failed validation on all 74 pages (Ahrefs, 2026-09-27).
+      out.push({ '@type': 'GeoShape', postalCode: zip, addressCountry: 'US' });
     }
   }
   for (const n of NEWARK_NEIGHBORHOODS) out.push({ '@type': 'Place', name: `${n}, Newark, NJ` });

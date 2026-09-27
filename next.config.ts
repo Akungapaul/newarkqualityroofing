@@ -143,6 +143,13 @@ const nextConfig: NextConfig = {
       ...generatedRedirects,
     ];
   },
+  async rewrites() {
+    return [
+      // robots.txt advertises /sitemap.xml. A hand-written public/sitemap.xml used to
+      // shadow the dynamic index and silently dropped the 'hubs' segment (2026-09-27).
+      { source: '/sitemap.xml', destination: '/sitemap-index.xml' },
+    ];
+  },
 };
 
 export default nextConfig;
