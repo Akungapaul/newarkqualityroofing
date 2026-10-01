@@ -22,3 +22,16 @@ Property `https://newarkqualityroofing.com/`. Sitemaps resubmitted 2026-09-27 19
 - Click "REQUEST INDEXING" by coordinate (right end of the status card), not by ref — ref clicks silently no-op.
 - Each request = "Testing if live URL can be indexed" ~20 s, then the toast. Quota error dialog: "Quota Exceeded — you've exceeded your daily quota".
 - The UI's inspection card can be stale (showed "not on Google" for /roofing-contractors while the API said indexed); trust `gsc_inspect_url`.
+
+## Update 2026-10-01 — remaining batch requested; all 48 now indexed or in the priority crawl queue
+
+API re-check before requesting: `/commercial-roofing-solutions` (crawl 2026-09-28 10:57Z) and `/roofers-repairs` (crawl 2026-09-28 12:40Z) indexed on their own → **30/48 indexed**.
+
+Request Indexing submitted (10, 0 quota errors, loop ran clean):
+/estimator-roof · /commercial-roofing-installer · /roofing-repairman · /roofing-fixing · /roofer-contractors · /roofs-company · /top-roofing · /general-roofing · /roofing-llc · /restoration-roofing
+
+Three of these (`/roofing-repairman`, `/roofer-contractors`, previously `/roofing-maintenance`) showed "URL is unknown to Google — no referring sitemaps detected" in the UI although both sitemaps list them; the API had them as "Discovered". Requesting overrides that either way.
+
+Nothing left to request. Next check: re-run `gsc_inspect_url` on the 18 manually-requested URLs ~2026-10-08; anything still "Crawled – currently not indexed" after a crawl is a quality signal, not a submission problem.
+
+Stable UI loop (no wasted quota this run): type URL → Return → wait 15 s → click REQUEST INDEXING at (1187,285) → wait 20 s → Escape → ref-click combobox → coordinate-click (500,25) → confirm history dropdown → next URL.
