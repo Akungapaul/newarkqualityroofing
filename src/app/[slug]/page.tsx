@@ -17,6 +17,7 @@ import { getOGImage } from '@/data/image-manifest';
 import { buildServiceDescription, buildCityDescription } from '@/lib/seo-utils';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import { getSurferPage } from '@/lib/surfer-verbatim';
+import { comboSlugPhrase } from '@/lib/slug-phrase';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -148,12 +149,12 @@ export async function generateMetadata({
       } catch {
         // No hand-written content for this combo -- use auto-generated description
       }
-      const comboService = services.find((s) => s.id === combo.serviceId);
-      const comboCity = cities.find((c) => c.id === combo.cityId);
       const comboSurfer = getSurferPage(combo.slug);
       if (comboSurfer?.metaDescription) comboDescription = comboSurfer.metaDescription;
-      const comboTitle = comboSurfer?.h1
-        ?? (comboService && comboCity ? HEADING_CONFIG.combo.h1(comboService.name, comboCity.name) : combo.metaTitle);
+      // Owner rule (2026-10-04): combo title = H1 = the slug-derived
+      // "[Keyword] [City], NJ" phrase (src/lib/slug-phrase.ts), character for
+      // character — no Surfer H1 or service.name "and"-insertion variants.
+      const comboTitle = comboSlugPhrase(combo.slug);
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand

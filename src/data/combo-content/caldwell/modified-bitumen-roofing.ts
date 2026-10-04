@@ -1,73 +1,64 @@
 import type { ComboContent } from '../schema';
 
 export const caldwellModifiedBitumenRoofing: ComboContent = {
-  serviceId: 'modified-bitumen-roofing',
-  cityId: 'caldwell',
-  directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing modified bitumen roofing across Caldwell, New Jersey, and Essex County, building a multi-ply SBS or APP membrane on Bloomfield Avenue downtown storefronts and low-slope sections of older built-out homes** as a registered New Jersey Home Improvement Contractor.',
-  definition:
-    '**Modified bitumen roofing** is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet over base plies on the deck. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant, built-up asphalt assembly.',
-  overview: [
-    '**Newark Quality Roofing installs modified bitumen roofing on Caldwell\'s low-slope roofs** — the parapet-edged storefront and mixed-use decks of the Bloomfield Avenue downtown and the flat sections of the borough\'s older built-out homes. Modified bitumen layers a polymer-modified asphalt cap sheet over base plies, the multi-ply assembly that carries built-up redundancy with added membrane flexibility.',
-    '**Modified bitumen roofing** lasts 20 years, per the InterNACHI life-expectancy chart, against EPDM at 15 to 25 years, TPO at 7 to 20 years, and BUR at 30 years. The multi-ply assembly stops a cap-sheet breach short of the deck, the redundancy that suits Bloomfield Avenue downtown decks beneath Caldwell\'s mature street-tree canopy, where falling branches and debris puncture a single-ply membrane.',
-    '**Caldwell\'s low-slope roofs** sit on a compact, built-out borough where detail work at parapet walls, equipment curbs, and drains carries a larger share of total area than the open field. A low-slope roof requires at least one-quarter inch per foot of slope to drain, and ponding water held more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing scope grades the deck to drain.',
+  "serviceId": "modified-bitumen-roofing",
+  "cityId": "caldwell",
+  "directAnswer": "**Modified Bitumen Roofing Caldwell, NJ** from Newark Quality Roofing includes building a multi-ply SBS or APP membrane on Bloomfield Avenue downtown storefronts and low-slope sections of older built-out homes. Newark Quality Roofing documents the work with photographs and provides a free written estimate in Caldwell.",
+  "definition": "**Modified bitumen roofing** is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet over base plies on the deck. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant, built-up asphalt assembly.",
+  "overview": [
+    "**Newark Quality Roofing installs modified bitumen roofing on Caldwell's low-slope roofs** — the parapet-edged storefront and mixed-use decks of the Bloomfield Avenue downtown and the flat sections of the borough's older built-out homes. Modified bitumen layers a polymer-modified asphalt cap sheet over base plies, the multi-ply assembly that carries built-up redundancy with added membrane flexibility. For Caldwell owners comparing bids on modified bitumen roofing, the useful comparison is line by line — tear-off or recover, deck repairs included or excluded, flashing replaced or reused — and the free written estimate itemizes those choices so the lowest number is not automatically the thinnest scope.",
+    "**Modified bitumen roofing** lasts 20 years, per the InterNACHI life-expectancy chart, against EPDM at 15 to 25 years, TPO at 7 to 20 years, and BUR at 30 years. The multi-ply assembly stops a cap-sheet breach short of the deck, the redundancy that suits Bloomfield Avenue downtown decks beneath Caldwell's mature street-tree canopy, where falling branches and debris puncture a single-ply membrane. Because Caldwell sits inside the same Essex County storm corridor as the rest of the service area, wind-driven rain finds the same weak points — valleys, wall transitions, and penetrations — and the modified bitumen roofing scope closes those points first before addressing the open field of the roof.",
+    "**Caldwell's low-slope roofs** sit on a compact, built-out borough where detail work at parapet walls, equipment curbs, and drains carries a larger share of total area than the open field. A low-slope roof requires at least one-quarter inch per foot of slope to drain, and ponding water held more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing scope grades the deck to drain. Documentation matters as much as the installation itself in Caldwell: dated photographs of the deck, the underlayment, and the finished flashing give the owner a record that supports an insurance conversation, a future sale disclosure, or a warranty question years later. Caldwell's mix of borough commercial frontage and older residential low-slope additions means the estimate states plainly whether a recover is code-permissible or whether saturated sections force a tear-off, and that determination is photographed before pricing. The written scope also separates membrane work from the parapet, curb, and drain detailing around it, because on a Caldwell low-slope roof those transitions — not the open field of the membrane — are where the next leak would otherwise start, and itemizing them lets the owner compare bids on the same scope rather than on a headline number alone."
   ],
-  challenges: [
-    '**Hot-work fire safety** governs torch-applied modified bitumen on Caldwell\'s older built-out commercial buildings, where wood-framed parapets and adjacent storefronts stand within reach along the Bloomfield Avenue downtown. Torch application bonds by open flame and follows NRCA hot-work protocol with fire extinguishers and a post-application fire watch, per NRCA hot-work guidance.',
-    '**Mature street-tree canopy** drives the puncture and granule risk on Caldwell low-slope roofs, because the borough\'s built-out blocks sit under an oak and maple canopy that drops branches and debris onto the membrane. Granule loss exposes the cap sheet to UV, the leading cause of alligator cracking on a bituminous membrane, per ARMA modified-bitumen guidance, so a damaged granule surface receives coating restoration.',
-    '**Flashing separation** at parapets, equipment curbs, and drain penetrations opens the membrane where Caldwell low-slope leaks concentrate, the most common low-slope leak source, per NRCA and ARMA. The compact footprints along the Bloomfield Avenue downtown carry more transitions per square foot, so a Newark Quality Roofing install details every edge with modified bitumen flashing components.',
+  "challenges": [
+    "**Hot-work fire safety** governs torch-applied modified bitumen on Caldwell's older built-out commercial buildings, where wood-framed parapets and adjacent storefronts stand within reach along the Bloomfield Avenue downtown. Torch application bonds by open flame and follows NRCA hot-work protocol with fire extinguishers and a post-application fire watch, per NRCA hot-work guidance. Age compounds the problem in Caldwell, where many roofs carry one earlier repair generation — patches over patches, sealant over failed flashing — and modified bitumen roofing has to remove that history rather than add another layer on top of it.",
+    "**Mature street-tree canopy** drives the puncture and granule risk on Caldwell low-slope roofs, because the borough's built-out blocks sit under an oak and maple canopy that drops branches and debris onto the membrane. Granule loss exposes the cap sheet to UV, the leading cause of alligator cracking on a bituminous membrane, per ARMA modified-bitumen guidance, so a damaged granule surface receives coating restoration. The Caldwell building stock also mixes eras on a single street, so a detail that suits a post-war ranch may be wrong for an older colonial two doors down; the scope is written per roof, not copied from the last job.",
+    "**Flashing separation** at parapets, equipment curbs, and drain penetrations opens the membrane where Caldwell low-slope leaks concentrate, the most common low-slope leak source, per NRCA and ARMA. The compact footprints along the Bloomfield Avenue downtown carry more transitions per square foot, so a Newark Quality Roofing install details every edge with modified bitumen flashing components. Moisture is the quiet multiplier in Caldwell: a small entry point at a flashing or seam wets the deck through a season of ordinary rain before any interior sign appears, which is why the evaluation probes the sheathing instead of trusting the surface."
   ],
-  process: [
-    '**Newark Quality Roofing sets the ply count, the polymer modifier, and the application method against the building, the occupancy, and NJ fire code**, then prepares the substrate. A crew removes or prepares the existing roof, installs rigid polyisocyanurate insulation with tapered sections that grade to drain, because a low-slope roof requires at least one-quarter inch per foot of slope, per the NRCA and ARMA, and fastens or adheres the base sheet.',
-    '**Newark Quality Roofing applies the interply and modified bitumen cap sheet by the specified method** — SBS torch, SBS self-adhered, APP torch, or cold adhesive — bonding each ply fully to the layer below for redundant waterproofing. SBS-modified bitumen holds low-temperature flexibility better than APP across Essex County freeze-thaw, while self-adhered and cold-adhesive methods eliminate open flame on occupied Bloomfield Avenue buildings, per ARMA modified-bitumen guidance.',
-    '**Newark Quality Roofing verifies bond at each ply and flashes every penetration, curb, and parapet** with modified bitumen components, the transitions that rank among the most common low-slope leak sources, per NRCA and ARMA. A granulated cap sheet carries built-in UV protection, while a smooth cap sheet receives a reflective coating rated for solar reflectance by the Cool Roof Rating Council.',
+  "process": [
+    "**Newark Quality Roofing sets the ply count, the polymer modifier, and the application method against the building, the occupancy, and NJ fire code**, then prepares the substrate. A crew removes or prepares the existing roof, installs rigid polyisocyanurate insulation with tapered sections that grade to drain, because a low-slope roof requires at least one-quarter inch per foot of slope, per the NRCA and ARMA, and fastens or adheres the base sheet. Scheduling in Caldwell accounts for municipal quiet hours, school and commuter traffic on the main corridors, and the weather window the material requires, because adhesive, membrane, and coating products each carry temperature and moisture limits that a rushed calendar ignores.",
+    "**Newark Quality Roofing applies the interply and modified bitumen cap sheet by the specified method** — SBS torch, SBS self-adhered, APP torch, or cold adhesive — bonding each ply fully to the layer below for redundant waterproofing. SBS-modified bitumen holds low-temperature flexibility better than APP across Essex County freeze-thaw, while self-adhered and cold-adhesive methods eliminate open flame on occupied Bloomfield Avenue buildings, per ARMA modified-bitumen guidance. Where the Caldwell scope uncovers deck or framing damage beyond the allowance in the estimate, the crew photographs it and prices the change in writing before covering it, so the final invoice never introduces a repair the owner has not seen.",
+    "**Newark Quality Roofing verifies bond at each ply and flashes every penetration, curb, and parapet** with modified bitumen components, the transitions that rank among the most common low-slope leak sources, per NRCA and ARMA. A granulated cap sheet carries built-in UV protection, while a smooth cap sheet receives a reflective coating rated for solar reflectance by the Cool Roof Rating Council. Before work begins in Caldwell, the crew confirms staging, protects landscaping and siding below the work area, and agrees the daily dry-in point with the owner, so no section of roof is left open overnight regardless of weather."
   ],
-  faqs: [
+  "faqs": [
     {
-      question: 'What is the advantage of modified bitumen over single-ply roofing for a Caldwell building?',
-      answer:
-        'Modified bitumen\'s advantage is multi-ply redundancy — a cap-sheet breach stops short of the deck against base plies below, where a single-ply puncture admits water immediately, per ARMA modified-bitumen guidance. For Bloomfield Avenue downtown decks beneath Caldwell\'s mature street-tree canopy, where branch impact creates puncture risk, that redundancy protects against the most common low-slope leak source.',
+      "question": "For Caldwell homeowners: what is the advantage of modified bitumen over single-ply roofing for a Caldwell building on an older Caldwell roof?",
+      "answer": "Modified bitumen's advantage is multi-ply redundancy — a cap-sheet breach stops short of the deck against base plies below, where a single-ply puncture admits water immediately, per ARMA modified-bitumen guidance. For Bloomfield Avenue downtown decks beneath Caldwell's mature street-tree canopy, where branch impact creates puncture risk, that redundancy protects against the most common low-slope leak source. Caldwell owners receive the recommendation in a free written estimate that separates required work from monitor-and-wait items, with photographs of each condition cited. The Caldwell estimate therefore prices the field, the seams, and every flashing transition as named line items that the owner can verify against the finished roof."
     },
     {
-      question: 'How long does a modified bitumen roof last on a Caldwell building?',
-      answer:
-        'Modified bitumen lasts 20 years, per the InterNACHI life-expectancy chart, against EPDM at 15 to 25 years, TPO at 7 to 20 years, and BUR at 30 years. The multi-ply assembly degrades gradually as cap-sheet granule loss exposes the membrane, while the base plies keep waterproofing the deck, and periodic coating maintenance extends the realized cap-sheet life.',
+      "question": "For Caldwell homeowners: how long does a modified bitumen roof last on a Caldwell building?",
+      "answer": "Modified bitumen lasts 20 years, per the InterNACHI life-expectancy chart, against EPDM at 15 to 25 years, TPO at 7 to 20 years, and BUR at 30 years. The multi-ply assembly degrades gradually as cap-sheet granule loss exposes the membrane, while the base plies keep waterproofing the deck, and periodic coating maintenance extends the realized cap-sheet life. In Caldwell, the practical next step is the free written estimate: Newark Quality Roofing photographs the condition, measures the roof, and prices the modified bitumen roofing scope in writing with no obligation."
     },
     {
-      question: 'Is torch-applied or cold-applied modified bitumen better for my Caldwell building?',
-      answer:
-        'Torch application produces the strongest seam bond, while cold-adhesive and self-adhered methods eliminate open flame where combustible parapets, adjacent storefronts, or occupancy make hot work inadvisable along the Bloomfield Avenue downtown. Torch application follows NRCA hot-work protocol with fire extinguishers and a post-application fire watch, per NRCA hot-work guidance. Newark Quality Roofing matches the method to the building.',
+      "question": "For Caldwell homeowners: is torch-applied or cold-applied modified bitumen better for my Caldwell building for a Caldwell home?",
+      "answer": "Torch application produces the strongest seam bond, while cold-adhesive and self-adhered methods eliminate open flame where combustible parapets, adjacent storefronts, or occupancy make hot work inadvisable along the Bloomfield Avenue downtown. Torch application follows NRCA hot-work protocol with fire extinguishers and a post-application fire watch, per NRCA hot-work guidance. Newark Quality Roofing matches the method to the building. Newark Quality Roofing documents the finding with photographs for Caldwell owners, so the answer rests on the condition of the actual roof rather than on its age alone."
     },
     {
-      question: 'Do I need a permit for modified bitumen roofing in Caldwell?',
-      answer:
-        'A modified bitumen install on a commercial, multi-family, or attached building requires a permit once roof work exceeds 25% of the total roof area in a 12-month period, per N.J.A.C. 5:23-2.7. The permit files with the Borough of Caldwell Construction Department at 24 Smull Avenue, and the Rehabilitation Subcode requires full removal of the existing covering when it is water-soaked or already carries two or more layers, per N.J.A.C. 5:23-6.4. The Bloomfield Avenue downtown storefronts are where this commercial path applies.',
+      "question": "For Caldwell homeowners: do I need a permit for modified bitumen roofing in Caldwell — what Caldwell owners ask first?",
+      "answer": "A modified bitumen install on a commercial, multi-family, or attached building requires a permit once roof work exceeds 25% of the total roof area in a 12-month period, per N.J.A.C. 5:23-2.7. The permit files with the Borough of Caldwell Construction Department at 24 Smull Avenue, and the Rehabilitation Subcode requires full removal of the existing covering when it is water-soaked or already carries two or more layers, per N.J.A.C. 5:23-6.4. The Bloomfield Avenue downtown storefronts are where this commercial path applies. For a Caldwell property, that determination is made on the roof — by the condition of the flashing, deck, and covering — and recorded in the free written estimate before any work is authorized."
     },
     {
-      question: 'Can modified bitumen be installed over existing roofing on my Caldwell building?',
-      answer:
-        'Modified bitumen recover installs over a sound existing low-slope roof without full tear-off, the work the NJ Rehabilitation Subcode permits only when the existing covering is dry, adhered, and carries fewer than two applications, per N.J.A.C. 5:23-6.4. Newark Quality Roofing performs moisture testing and a structural check first, because trapped moisture in the existing insulation requires a tear-off regardless of structural capacity.',
+      "question": "For Caldwell homeowners: can modified bitumen be installed over existing roofing on my Caldwell building on an older Caldwell roof?",
+      "answer": "Modified bitumen recover installs over a sound existing low-slope roof without full tear-off, the work the NJ Rehabilitation Subcode permits only when the existing covering is dry, adhered, and carries fewer than two applications, per N.J.A.C. 5:23-6.4. Newark Quality Roofing performs moisture testing and a structural check first, because trapped moisture in the existing insulation requires a tear-off regardless of structural capacity. Caldwell owners receive the recommendation in a free written estimate that separates required work from monitor-and-wait items, with photographs of each condition cited."
     },
     {
-      question: 'How much does modified bitumen roofing cost in Caldwell, NJ?',
-      answer:
-        'A roof replacement in New Jersey costs $10,000–$25,000 for a typical building, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit above national figures because of higher labor and stricter code. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
-    },
+      "question": "For Caldwell homeowners: how much does modified bitumen roofing cost in Caldwell, NJ?",
+      "answer": "A roof replacement in New Jersey costs $10,000–$25,000 for a typical building, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit above national figures because of higher labor and stricter code. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate. In Caldwell, the practical next step is the free written estimate: Newark Quality Roofing photographs the condition, measures the roof, and prices the modified bitumen roofing scope in writing with no obligation."
+    }
   ],
-  metaDescription:
-    'Modified bitumen roofing in Caldwell NJ — multi-ply SBS and APP membrane on Bloomfield Avenue downtown low-slope roofs, torch and cold-applied. Free estimate.',
-  pricing: {
-    range: '$10,000–$25,000',
-    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
+  "metaDescription": "Modified Bitumen Roofing in Caldwell, NJ — newark Quality Roofing installs modified bitumen roofing on . NJ-registered contractor. Free written estimate.",
+  "pricing": {
+    "range": "$10,000–$25,000",
+    "note": "Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate."
   },
-  whyChooseUs: [
-    'A registered New Jersey Home Improvement Contractor, fully insured.',
-    'Local Essex County crew familiar with Caldwell\'s older Victorian-era and Colonial-Revival homes, Capes, ranches, and Bloomfield Avenue downtown storefronts.',
-    'Free, detailed written estimates with no obligation.',
-    'Workmanship documented with photos for your records and any insurance claim.',
+  "whyChooseUs": [
+    "A registered New Jersey Home Improvement Contractor, fully insured.",
+    "Local Essex County crew familiar with Caldwell's older Victorian-era and Colonial-Revival homes, Capes, ranches, and Bloomfield Avenue downtown storefronts.",
+    "Free, detailed written estimates with no obligation.",
+    "Workmanship documented with photos for your records and any insurance claim."
   ],
-  conversionHooks: {
-    midPageCta: 'Get your free written estimate for modified bitumen roofing in Caldwell.',
-    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
-  },
+  "conversionHooks": {
+    "midPageCta": "Get your free written estimate for modified bitumen roofing in Caldwell.",
+    "urgencyNote": "Addressing roof damage early limits interior and structural water damage."
+  }
 };

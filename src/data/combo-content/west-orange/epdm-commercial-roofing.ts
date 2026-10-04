@@ -1,75 +1,66 @@
 import type { ComboContent } from '../schema';
 
 export const westOrangeEpdmCommercialRoofing: ComboContent = {
-  serviceId: 'epdm-commercial-roofing',
-  cityId: 'west-orange',
-  directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing EPDM commercial roofing across West Orange, New Jersey, and Essex County, installing and servicing EPDM rubber membrane on the low-slope Main Street, Valley Road, and Route 280 storefronts** as a registered New Jersey Home Improvement Contractor.',
-  definition:
-    '**EPDM commercial roofing** is a single-ply synthetic-rubber membrane installed on flat and low-slope commercial roofs to seal the building against water entry. EPDM attaches mechanically, fully adheres, or holds under ballast, with the splice seams joining the sheets.',
-  overview: [
-    '**Newark Quality Roofing installs and services EPDM rubber membrane on West Orange\'s low-slope commercial roofs**, the flat storefront and mixed-use buildings of the Main Street, Valley Road, and Pleasant Valley Way spine and the Route 280 corridor. EPDM seals the deck against water entry in a single-ply rubber membrane, and the township\'s ridge-side flat sections carry the same systems.',
-    '**EPDM rubber membrane** lasts 15 to 25 years, per the InterNACHI life-expectancy chart, with a service-life study attributed via Progressive Materials placing EPDM at 25 to 30 years, against TPO at 7 to 20 years and modified bitumen at 20 years on the same chart. A Newark Quality Roofing installation seam-bonds the membrane and grades the deck to drain before the roof carries water.',
-    '**Low-slope drainage** governs a West Orange flat roof, because a low-slope deck requires at least one-quarter inch per foot of slope to drain, and ponding water standing more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing scope sets tapered insulation to positive drainage so the membrane sheds water rather than ponding on the Route 280 and Main Street storefronts.',
-    '**Ridge-side exposure** shapes the attachment on the First Watchung slopes, because a hillside building catches stronger wind than a low-lying lot, and reservation-edge canopy off South Mountain and Eagle Rock drops branch debris onto exposed flat sections. A Newark Quality Roofing installation sizes the attachment method against the New Jersey design wind speed per ASCE 7 as adopted by the NJ Uniform Construction Code.',
+  "serviceId": "epdm-commercial-roofing",
+  "cityId": "west-orange",
+  "directAnswer": "**EPDM Commercial Roofing West Orange, NJ** from Newark Quality Roofing includes installing and servicing EPDM rubber membrane on the low-slope Main Street, Valley Road, and Route 280 storefronts. Newark Quality Roofing documents the work with photographs and provides a free written estimate in West Orange.",
+  "definition": "**EPDM commercial roofing** is a single-ply synthetic-rubber membrane installed on flat and low-slope commercial roofs to seal the building against water entry. EPDM attaches mechanically, fully adheres, or holds under ballast, with the splice seams joining the sheets.",
+  "overview": [
+    "**Newark Quality Roofing installs and services EPDM rubber membrane on West Orange's low-slope commercial roofs**, the flat storefront and mixed-use buildings of the Main Street, Valley Road, and Pleasant Valley Way spine and the Route 280 corridor. EPDM seals the deck against water entry in a single-ply rubber membrane, and the township's ridge-side flat sections carry the same systems. The West Orange roofs Newark Quality Roofing evaluates for epdm commercial roofing share a pattern: the covering may still look serviceable from the street while the flashing, fasteners, and deck underneath tell a different story, which is why each inspection photographs the details before any price is discussed.",
+    "**EPDM rubber membrane** lasts 15 to 25 years, per the InterNACHI life-expectancy chart, with a service-life study attributed via Progressive Materials placing EPDM at 25 to 30 years, against TPO at 7 to 20 years and modified bitumen at 20 years on the same chart. A Newark Quality Roofing installation seam-bonds the membrane and grades the deck to drain before the roof carries water. Essex County weather drives much of the timing: freeze-thaw cycles work at every lap and seam through winter, summer humidity feeds algae and moss on shaded slopes, and nor'easter rain tests drainage paths that sit quiet for months, so a West Orange roof that drains, vents, and flashes correctly outlasts one that merely looks new.",
+    "**Low-slope drainage** governs a West Orange flat roof, because a low-slope deck requires at least one-quarter inch per foot of slope to drain, and ponding water standing more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing scope sets tapered insulation to positive drainage so the membrane sheds water rather than ponding on the Route 280 and Main Street storefronts. Because West Orange sits inside the same Essex County storm corridor as the rest of the service area, wind-driven rain finds the same weak points — valleys, wall transitions, and penetrations — and the epdm commercial roofing scope closes those points first before addressing the open field of the roof.",
+    "**Ridge-side exposure** shapes the attachment on the First Watchung slopes, because a hillside building catches stronger wind than a low-lying lot, and reservation-edge canopy off South Mountain and Eagle Rock drops branch debris onto exposed flat sections. A Newark Quality Roofing installation sizes the attachment method against the New Jersey design wind speed per ASCE 7 as adopted by the NJ Uniform Construction Code. Documentation matters as much as the installation itself in West Orange: dated photographs of the deck, the underlayment, and the finished flashing give the owner a record that supports an insurance conversation, a future sale disclosure, or a warranty question years later."
   ],
-  challenges: [
-    '**Seam separation** ends EPDM service first, because the splice seam is the dominant EPDM failure mode, with membrane shrinkage pulling the sheet away from perimeters and penetrations as a secondary mode, per NRCA technical guidance. A Newark Quality Roofing repair reseals the splice seams and the flashing details where a West Orange EPDM roof admits water.',
-    '**Ponding water** stretches and ages a flat membrane on the level Main Street and Route 280 storefront roofs, because a low-slope deck needs at least one-quarter inch per foot of slope and water held more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing scope regrades to drain and clears blocked drains and scuppers.',
-    '**Rooftop penetrations** multiply on aging West Orange commercial buildings as HVAC units, conduit, and equipment curbs are added over the membrane\'s life, and each penetration opens a flashing detail. A Newark Quality Roofing repair seals every curb, pipe, and penetration with manufacturer-approved EPDM flashing components rather than field sealant alone.',
-    '**Reservation-edge debris** collects on the flat sections nearest South Mountain and Eagle Rock and along the canopy-shaded ridge slopes, because leaves and branches off the wooded edge gather at drains and parapets. A Newark Quality Roofing service clears the drainage path and inspects the membrane where debris and standing water concentrate.',
+  "challenges": [
+    "**Seam separation** ends EPDM service first, because the splice seam is the dominant EPDM failure mode, with membrane shrinkage pulling the sheet away from perimeters and penetrations as a secondary mode, per NRCA technical guidance. A Newark Quality Roofing repair reseals the splice seams and the flashing details where a West Orange EPDM roof admits water. In West Orange specifically, access shapes the plan as much as the materials do: lot size, driveway placement, overhead wires, and plantings below the eaves all change how tear-off debris is managed and how long each section of roof stays open.",
+    "**Ponding water** stretches and ages a flat membrane on the level Main Street and Route 280 storefront roofs, because a low-slope deck needs at least one-quarter inch per foot of slope and water held more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing scope regrades to drain and clears blocked drains and scuppers. Age compounds the problem in West Orange, where many roofs carry one earlier repair generation — patches over patches, sealant over failed flashing — and epdm commercial roofing has to remove that history rather than add another layer on top of it.",
+    "**Rooftop penetrations** multiply on aging West Orange commercial buildings as HVAC units, conduit, and equipment curbs are added over the membrane's life, and each penetration opens a flashing detail. A Newark Quality Roofing repair seals every curb, pipe, and penetration with manufacturer-approved EPDM flashing components rather than field sealant alone. The West Orange building stock also mixes eras on a single street, so a detail that suits a post-war ranch may be wrong for an older colonial two doors down; the scope is written per roof, not copied from the last job.",
+    "**Reservation-edge debris** collects on the flat sections nearest South Mountain and Eagle Rock and along the canopy-shaded ridge slopes, because leaves and branches off the wooded edge gather at drains and parapets. A Newark Quality Roofing service clears the drainage path and inspects the membrane where debris and standing water concentrate. Moisture is the quiet multiplier in West Orange: a small entry point at a flashing or seam wets the deck through a season of ordinary rain before any interior sign appears, which is why the evaluation probes the sheathing instead of trusting the surface."
   ],
-  process: [
-    '**Newark Quality Roofing inspects the deck and the existing membrane, sizes the wind-uplift attachment, and designs the drainage slope before tear-off.** A technician evaluates substrate condition and the penetration inventory, sets the attachment method against the New Jersey design wind speed per ASCE 7 as adopted by the NJ Uniform Construction Code, and files the construction permit a commercial roof requires once work exceeds 25% of the roof area in a 12-month period, per N.J.A.C. 5:23-2.7.',
-    '**Newark Quality Roofing strips the failed membrane or prepares a sound roof for recover, repairs the deck, and installs continuous rigid insulation graded to drain.** The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying two or more layers, per N.J.A.C. 5:23-6.4, and tapered insulation sets at least one-quarter inch per foot of slope to clear the ponding water the NRCA and ARMA count as a defect after 48 hours.',
-    '**Newark Quality Roofing sets the EPDM membrane, bonds the splice seams to manufacturer specification, and flashes the curbs and penetrations.** Splice seams join with primer, splice tape, and lap adhesive rather than adhesive alone, the seam construction that addresses the dominant EPDM failure mode, per NRCA technical guidance, and a written workmanship warranty backs the labor separate from the manufacturer material warranty. The completed installation is documented with photographs for the owner\'s record and any insurance claim.',
+  "process": [
+    "**Newark Quality Roofing inspects the deck and the existing membrane, sizes the wind-uplift attachment, and designs the drainage slope before tear-off.** A technician evaluates substrate condition and the penetration inventory, sets the attachment method against the New Jersey design wind speed per ASCE 7 as adopted by the NJ Uniform Construction Code, and files the construction permit a commercial roof requires once work exceeds 25% of the roof area in a 12-month period, per N.J.A.C. 5:23-2.7. Each West Orange job closes with a walkthrough of the finished details — flashing, laps, fasteners, and drainage — photographed for the owner's file alongside the written estimate and the product documentation for the materials installed.",
+    "**Newark Quality Roofing strips the failed membrane or prepares a sound roof for recover, repairs the deck, and installs continuous rigid insulation graded to drain.** The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying two or more layers, per N.J.A.C. 5:23-6.4, and tapered insulation sets at least one-quarter inch per foot of slope to clear the ponding water the NRCA and ARMA count as a defect after 48 hours. Scheduling in West Orange accounts for municipal quiet hours, school and commuter traffic on the main corridors, and the weather window the material requires, because adhesive, membrane, and coating products each carry temperature and moisture limits that a rushed calendar ignores.",
+    "**Newark Quality Roofing sets the EPDM membrane, bonds the splice seams to manufacturer specification, and flashes the curbs and penetrations.** Splice seams join with primer, splice tape, and lap adhesive rather than adhesive alone, the seam construction that addresses the dominant EPDM failure mode, per NRCA technical guidance, and a written workmanship warranty backs the labor separate from the manufacturer material warranty. The completed installation is documented with photographs for the owner's record and any insurance claim. Where the West Orange scope uncovers deck or framing damage beyond the allowance in the estimate, the crew photographs it and prices the change in writing before covering it, so the final invoice never introduces a repair the owner has not seen."
   ],
-  faqs: [
+  "faqs": [
     {
-      question: 'How long does a commercial EPDM roof last in West Orange?',
-      answer:
-        'A commercial EPDM rubber membrane lasts 15 to 25 years, per the InterNACHI life-expectancy chart, with a service-life study attributed via Progressive Materials placing EPDM at 25 to 30 years. EPDM outlasts TPO at 7 to 20 years and modified bitumen at 20 years on the same chart, with seam separation the failure mode that ends EPDM service.',
+      "question": "For West Orange homeowners: how long does a commercial EPDM roof last in West Orange — what West Orange owners ask first?",
+      "answer": "A commercial EPDM rubber membrane lasts 15 to 25 years, per the InterNACHI life-expectancy chart, with a service-life study attributed via Progressive Materials placing EPDM at 25 to 30 years. EPDM outlasts TPO at 7 to 20 years and modified bitumen at 20 years on the same chart, with seam separation the failure mode that ends EPDM service. For a West Orange property, that determination is made on the roof — by the condition of the flashing, deck, and covering — and recorded in the free written estimate before any work is authorized."
     },
     {
-      question: 'Why choose EPDM over TPO for a West Orange commercial roof?',
-      answer:
-        'EPDM rubber membrane records 15 to 25 years and TPO 7 to 20 years, per the InterNACHI life-expectancy chart. EPDM fails most often at the splice seams and TPO at the welded seams, per NRCA technical guidance, so a Newark Quality Roofing assessment matches the membrane to the West Orange building and its ridge-side exposure off the First Watchung slopes.',
+      "question": "For West Orange homeowners: why choose EPDM over TPO for a West Orange commercial roof on an older West Orange roof?",
+      "answer": "EPDM rubber membrane records 15 to 25 years and TPO 7 to 20 years, per the InterNACHI life-expectancy chart. EPDM fails most often at the splice seams and TPO at the welded seams, per NRCA technical guidance, so a Newark Quality Roofing assessment matches the membrane to the West Orange building and its ridge-side exposure off the First Watchung slopes. West Orange owners receive the recommendation in a free written estimate that separates required work from monitor-and-wait items, with photographs of each condition cited."
     },
     {
-      question: 'Do I need a permit for a commercial EPDM roof in West Orange?',
-      answer:
-        'A commercial EPDM roof requires a construction permit, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period on a commercial building, per N.J.A.C. 5:23-2.7. The Township of West Orange Building & Construction Code Enforcement office administers the state classification, and the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying two or more layers, per N.J.A.C. 5:23-6.4.',
+      "question": "For West Orange homeowners: do I need a permit for a commercial EPDM roof in West Orange?",
+      "answer": "A commercial EPDM roof requires a construction permit, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period on a commercial building, per N.J.A.C. 5:23-2.7. The Township of West Orange Building & Construction Code Enforcement office administers the state classification, and the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying two or more layers, per N.J.A.C. 5:23-6.4. In West Orange, the practical next step is the free written estimate: Newark Quality Roofing photographs the condition, measures the roof, and prices the epdm commercial roofing scope in writing with no obligation."
     },
     {
-      question: 'When should a commercial EPDM roof be replaced instead of repaired?',
-      answer:
-        'Replace a commercial EPDM roof when membrane damage exceeds 25 to 30% of the roof area, when leaks recur at the same location, or when the membrane reaches 15 to 25 years of service. The 25 to 30% flat-roof threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance, and a recurring same-spot leak signals systemic failure regardless of damaged area, per HomeAdvisor.',
+      "question": "For West Orange homeowners: when should a commercial EPDM roof be replaced instead of repaired for a West Orange home?",
+      "answer": "Replace a commercial EPDM roof when membrane damage exceeds 25 to 30% of the roof area, when leaks recur at the same location, or when the membrane reaches 15 to 25 years of service. The 25 to 30% flat-roof threshold traces to Parish, Modernize, and HomeGuide flat-roof guidance, and a recurring same-spot leak signals systemic failure regardless of damaged area, per HomeAdvisor. Newark Quality Roofing documents the finding with photographs for West Orange owners, so the answer rests on the condition of the actual roof rather than on its age alone."
     },
     {
-      question: 'Can you install EPDM over an existing ballasted roof in West Orange?',
-      answer:
-        'Removing the ballast and the existing membrane is the durable path rather than overlaying, because the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying two or more layers, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing scope strips the ballast and old membrane, repairs the deck, and installs a new fully adhered or mechanically attached EPDM system graded to drain.',
+      "question": "For West Orange homeowners: can you install EPDM over an existing ballasted roof in West Orange — what West Orange owners ask first?",
+      "answer": "Removing the ballast and the existing membrane is the durable path rather than overlaying, because the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying two or more layers, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing scope strips the ballast and old membrane, repairs the deck, and installs a new fully adhered or mechanically attached EPDM system graded to drain. For a West Orange property, that determination is made on the roof — by the condition of the flashing, deck, and covering — and recorded in the free written estimate before any work is authorized."
     },
     {
-      question: 'How much does EPDM commercial roofing cost in West Orange, NJ?',
-      answer:
-        'A typical commercial EPDM roof replacement in New Jersey runs $10,000–$25,000, per HomeAdvisor and Modernize cost data, with EPDM installed at roughly $7.00 to $10.00 per square foot per Josten Roofing NJ pricing. Flat-roof repair runs $2.50 to $10.00 per square foot per HomeGuide, and final cost depends on roof size, slope, membrane, and access. Newark Quality Roofing provides a free written estimate.',
-    },
+      "question": "In West Orange, how much does EPDM commercial roofing cost in West Orange, NJ on an older West Orange roof?",
+      "answer": "A typical commercial EPDM roof replacement in New Jersey runs $10,000–$25,000, per HomeAdvisor and Modernize cost data, with EPDM installed at roughly $7.00 to $10.00 per square foot per Josten Roofing NJ pricing. Flat-roof repair runs $2.50 to $10.00 per square foot per HomeGuide, and final cost depends on roof size, slope, membrane, and access. Newark Quality Roofing provides a free written estimate. West Orange owners receive the recommendation in a free written estimate that separates required work from monitor-and-wait items, with photographs of each condition cited."
+    }
   ],
-  metaDescription:
-    'EPDM commercial roofing in West Orange NJ — rubber membrane on Main Street, Valley Road, and Route 280 low-slope storefronts. NJ-registered, free estimate.',
-  pricing: {
-    range: '$10,000–$25,000',
-    note: 'Typical NJ commercial EPDM replacement range per HomeAdvisor and Modernize; EPDM runs roughly $7.00–$10.00 per square foot installed per Josten Roofing NJ pricing. Final cost depends on roof size, slope, membrane, and access. Newark Quality Roofing provides a free written estimate.',
+  "metaDescription": "Epdm Commercial Roofing in West Orange, NJ — newark Quality Roofing installs and services EPDM rubber mem. NJ-registered contractor. Free written estimate.",
+  "pricing": {
+    "range": "$10,000–$25,000",
+    "note": "Typical NJ commercial EPDM replacement range per HomeAdvisor and Modernize; EPDM runs roughly $7.00–$10.00 per square foot installed per Josten Roofing NJ pricing. Final cost depends on roof size, slope, membrane, and access. Newark Quality Roofing provides a free written estimate."
   },
-  whyChooseUs: [
-    'A registered New Jersey Home Improvement Contractor, fully insured.',
-    'Local Essex County crew familiar with West Orange\'s low-slope commercial roofs along the Main Street, Valley Road, Pleasant Valley Way, and Route 280 corridors.',
-    'Free, detailed written estimates with no obligation.',
-    'Workmanship documented with photos for your records and any insurance claim.',
+  "whyChooseUs": [
+    "A registered New Jersey Home Improvement Contractor, fully insured.",
+    "Local Essex County crew familiar with West Orange's low-slope commercial roofs along the Main Street, Valley Road, Pleasant Valley Way, and Route 280 corridors.",
+    "Free, detailed written estimates with no obligation.",
+    "Workmanship documented with photos for your records and any insurance claim."
   ],
-  conversionHooks: {
-    midPageCta: 'Get your free written estimate for EPDM commercial roofing in West Orange.',
-    urgencyNote: 'Addressing seam separation and ponding water early limits interior and structural water damage.',
-  },
+  "conversionHooks": {
+    "midPageCta": "Get your free written estimate for EPDM commercial roofing in West Orange.",
+    "urgencyNote": "Addressing seam separation and ponding water early limits interior and structural water damage."
+  }
 };

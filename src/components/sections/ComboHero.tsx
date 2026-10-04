@@ -3,9 +3,9 @@ import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
 import { parseRichText } from '@/lib/rich-text';
-import { generateServicePageSlug } from '@/lib/slug-utils';
+import { generateServicePageSlug, generateComboSlug } from '@/lib/slug-utils';
 import { getServiceHeroImage, getCityHeroImage } from '@/data/image-manifest';
-import { HEADING_CONFIG } from '@/data/heading-config';
+import { comboSlugPhrase } from '@/lib/slug-phrase';
 import type { Service, City } from '@/lib/types';
 import type { NavServiceGroup } from '@/data/nav-data';
 
@@ -43,7 +43,9 @@ export function ComboHero({ service, city, serviceGroups, directAnswer, h1, lead
   const heroImg = serviceImg ?? cityImg;
   const heroSrc = heroImg?.path ?? '/images/newark-roofing-at-work.jpg';
   const heroAlt = heroImg?.alt ?? `${service.name} in ${city.name}, NJ`;
-  const h1Text = h1 ?? HEADING_CONFIG.combo.h1(service.name, city.name);
+  // Owner rule (2026-10-04): the combo H1 is the slug-derived
+  // "[Keyword] [City], NJ" phrase — same value as the title tag.
+  const h1Text = h1 ?? comboSlugPhrase(generateComboSlug(service.slug, city.slug));
 
   return (
     <section

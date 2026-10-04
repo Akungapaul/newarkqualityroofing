@@ -1,74 +1,65 @@
 import type { ComboContent } from '../schema';
 
 export const irvingtonCedarShakeRoofReplacement: ComboContent = {
-  serviceId: 'cedar-shake-roof-replacement',
-  cityId: 'irvington',
-  directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing cedar shake roof replacement across Irvington, New Jersey, and Essex County, stripping aging cedar to the deck and laying new cedar over a ventilated base on older homes and 2-3-family rentals** as a registered New Jersey Home Improvement Contractor.',
-  definition:
-    '**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.',
-  overview: [
-    '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs** on Irvington\'s dense early-20th-century detached and 2-3-family stock and on cedar-clad character buildings. Cedar shake roof replacement strips an aging cedar roof to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar, the work that restores a wood roof past its service life rather than patching individual split shakes.',
-    '**Cedar shake and cedar shingle** carry different service lives, because cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing a single "Wood" row at 25 years, and maintenance sets where in the range a cedar roof lands. Moisture cycling drives most premature cedar failure on Irvington\'s aging stock, the cupping, splitting, and rot that ends a cedar roof, per Cedar Shake & Shingle Bureau and NRCA maintenance guidance.',
-    '**Cedar roofs** on Irvington\'s majority-renter, rental- and multi-family-heavy housing reach owners and landlords as a cost-conscious decision between renewing the wood covering and switching material at tear-off. A Newark Quality Roofing replacement presents the cedar options — hand-split shake, sawn shingle, and fire-retardant-treated cedar — and documents the completed work with photographs for an owner record and any insurance claim.',
+  "serviceId": "cedar-shake-roof-replacement",
+  "cityId": "irvington",
+  "directAnswer": "**Cedar Shake Roof Replacement Irvington, NJ** from Newark Quality Roofing includes stripping aging cedar to the deck and laying new cedar over a ventilated base on older homes and 2-3-family rentals. Newark Quality Roofing documents the work with photographs and provides a free written estimate in Irvington.",
+  "definition": "**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.",
+  "overview": [
+    "**Newark Quality Roofing replaces cedar shake and cedar shingle roofs** on Irvington's dense early-20th-century detached and 2-3-family stock and on cedar-clad character buildings. Cedar shake roof replacement strips an aging cedar roof to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar, the work that restores a wood roof past its service life rather than patching individual split shakes. The Irvington roofs Newark Quality Roofing evaluates for cedar shake roof replacement share a pattern: the covering may still look serviceable from the street while the flashing, fasteners, and deck underneath tell a different story, which is why each inspection photographs the details before any price is discussed.",
+    "**Cedar shake and cedar shingle** carry different service lives, because cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing a single \"Wood\" row at 25 years, and maintenance sets where in the range a cedar roof lands. Moisture cycling drives most premature cedar failure on Irvington's aging stock, the cupping, splitting, and rot that ends a cedar roof, per Cedar Shake & Shingle Bureau and NRCA maintenance guidance. Essex County weather drives much of the timing: freeze-thaw cycles work at every lap and seam through winter, summer humidity feeds algae and moss on shaded slopes, and nor'easter rain tests drainage paths that sit quiet for months, so a Irvington roof that drains, vents, and flashes correctly outlasts one that merely looks new.",
+    "**Cedar roofs** on Irvington's majority-renter, rental- and multi-family-heavy housing reach owners and landlords as a cost-conscious decision between renewing the wood covering and switching material at tear-off. A Newark Quality Roofing replacement presents the cedar options — hand-split shake, sawn shingle, and fire-retardant-treated cedar — and documents the completed work with photographs for an owner record and any insurance claim. Because Irvington sits inside the same Essex County storm corridor as the rest of the service area, wind-driven rain finds the same weak points — valleys, wall transitions, and penetrations — and the cedar shake roof replacement scope closes those points first before addressing the open field of the roof."
   ],
-  challenges: [
-    '**Tear-off is the only code-compliant path for a cedar roof**, because N.J.A.C. 5:23-6.4 prohibits roofing over a wood-shake covering and over a water-soaked or deteriorated deck, per the NJ Rehabilitation Subcode. A Newark Quality Roofing replacement strips the cedar to the bare sheathing rather than recovering it.',
-    '**Aging plank decking surfaces at tear-off** on Irvington\'s dense early-20th-century detached and 2-3-family homes, where decades of trapped moisture beneath the wood rot the sheathing. A Newark Quality Roofing crew inspects every section and replaces deteriorated plywood, OSB, or board decking before the new cedar goes down.',
-    '**Fire class is a material decision on Irvington\'s tightly built lots**, because untreated cedar is nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau Certi-Guard program and InterNACHI. A Newark Quality Roofing replacement explains the wood fire ratings before tear-off.',
-    '**Tenant-occupied access and limited staging room** define the work on Irvington\'s rental- and multi-family-heavy stock, because a cedar replacement on an occupied 2-3-family coordinates entry under New Jersey landlord-tenant notice on small, built-out lots. A Newark Quality Roofing job sets a staging and access plan and documents the work for the owner.',
+  "challenges": [
+    "**Tear-off is the only code-compliant path for a cedar roof**, because N.J.A.C. 5:23-6.4 prohibits roofing over a wood-shake covering and over a water-soaked or deteriorated deck, per the NJ Rehabilitation Subcode. A Newark Quality Roofing replacement strips the cedar to the bare sheathing rather than recovering it. In Irvington specifically, access shapes the plan as much as the materials do: lot size, driveway placement, overhead wires, and plantings below the eaves all change how tear-off debris is managed and how long each section of roof stays open.",
+    "**Aging plank decking surfaces at tear-off** on Irvington's dense early-20th-century detached and 2-3-family homes, where decades of trapped moisture beneath the wood rot the sheathing. A Newark Quality Roofing crew inspects every section and replaces deteriorated plywood, OSB, or board decking before the new cedar goes down. Age compounds the problem in Irvington, where many roofs carry one earlier repair generation — patches over patches, sealant over failed flashing — and cedar shake roof replacement has to remove that history rather than add another layer on top of it.",
+    "**Fire class is a material decision on Irvington's tightly built lots**, because untreated cedar is nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau Certi-Guard program and InterNACHI. A Newark Quality Roofing replacement explains the wood fire ratings before tear-off. The Irvington building stock also mixes eras on a single street, so a detail that suits a post-war ranch may be wrong for an older colonial two doors down; the scope is written per roof, not copied from the last job.",
+    "**Tenant-occupied access and limited staging room** define the work on Irvington's rental- and multi-family-heavy stock, because a cedar replacement on an occupied 2-3-family coordinates entry under New Jersey landlord-tenant notice on small, built-out lots. A Newark Quality Roofing job sets a staging and access plan and documents the work for the owner. Moisture is the quiet multiplier in Irvington: a small entry point at a flashing or seam wets the deck through a season of ordinary rain before any interior sign appears, which is why the evaluation probes the sheathing instead of trusting the surface."
   ],
-  process: [
-    '**Newark Quality Roofing rates the cedar roof against its 20-to-40-year shake and 30-to-50-year shingle service life and runs the InterNACHI flex test before quoting a replacement.** Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, and a shake that cracks under light bending fails the InterNACHI flex test and signals advanced degradation regardless of surface appearance, per the InterNACHI flex-test guidance.',
-    '**Newark Quality Roofing selects new cedar by type and fire class and explains the wood fire ratings before tear-off.** Untreated cedar shakes and shingles are nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau Certi-Guard program and InterNACHI, a fire decision that weighs on Irvington\'s densely built lots.',
-    '**Newark Quality Roofing strips the cedar to the deck, repairs the sheathing, installs a ventilated nailing base, and lays the new cedar.** A full tear-off exposes the deck for replacement of plywood, OSB, or board decking rotted under the old cedar, the work N.J.A.C. 5:23-6.4 requires because the Rehabilitation Subcode prohibits roofing over wood shake. A cedar roof needs at least 1.5 inches of drying air space beneath the shakes, the ventilation that slows moisture-driven cupping and rot, per Cedar Shake & Shingle Bureau install guidance.',
+  "process": [
+    "**Newark Quality Roofing rates the cedar roof against its 20-to-40-year shake and 30-to-50-year shingle service life and runs the InterNACHI flex test before quoting a replacement.** Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, and a shake that cracks under light bending fails the InterNACHI flex test and signals advanced degradation regardless of surface appearance, per the InterNACHI flex-test guidance. Each Irvington job closes with a walkthrough of the finished details — flashing, laps, fasteners, and drainage — photographed for the owner's file alongside the written estimate and the product documentation for the materials installed.",
+    "**Newark Quality Roofing selects new cedar by type and fire class and explains the wood fire ratings before tear-off.** Untreated cedar shakes and shingles are nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau Certi-Guard program and InterNACHI, a fire decision that weighs on Irvington's densely built lots. Scheduling in Irvington accounts for municipal quiet hours, school and commuter traffic on the main corridors, and the weather window the material requires, because adhesive, membrane, and coating products each carry temperature and moisture limits that a rushed calendar ignores.",
+    "**Newark Quality Roofing strips the cedar to the deck, repairs the sheathing, installs a ventilated nailing base, and lays the new cedar.** A full tear-off exposes the deck for replacement of plywood, OSB, or board decking rotted under the old cedar, the work N.J.A.C. 5:23-6.4 requires because the Rehabilitation Subcode prohibits roofing over wood shake. A cedar roof needs at least 1.5 inches of drying air space beneath the shakes, the ventilation that slows moisture-driven cupping and rot, per Cedar Shake & Shingle Bureau install guidance. Where the Irvington scope uncovers deck or framing damage beyond the allowance in the estimate, the crew photographs it and prices the change in writing before covering it, so the final invoice never introduces a repair the owner has not seen."
   ],
-  faqs: [
+  "faqs": [
     {
-      question: 'Should you repair or replace your cedar roof in Irvington?',
-      answer:
-        'Replace a cedar roof when cupping, splitting, and rot cover more than 25 to 30% of the field, when a shake cracks under light bending, or when the deck rotted beneath the wood. Repair a cedar roof when the damage stays localized and the field flexes sound, because the 25-to-30% area threshold and the flex test are contractor-consensus and InterNACHI signs of advanced degradation.',
+      "question": "For Irvington homeowners: should you repair or replace your cedar roof in Irvington — what Irvington owners ask first?",
+      "answer": "Replace a cedar roof when cupping, splitting, and rot cover more than 25 to 30% of the field, when a shake cracks under light bending, or when the deck rotted beneath the wood. Repair a cedar roof when the damage stays localized and the field flexes sound, because the 25-to-30% area threshold and the flex test are contractor-consensus and InterNACHI signs of advanced degradation. For a Irvington property, that determination is made on the roof — by the condition of the flashing, deck, and covering — and recorded in the free written estimate before any work is authorized."
     },
     {
-      question: 'Can a new cedar roof go over an old cedar roof in Irvington?',
-      answer:
-        'A new cedar roof cannot go over an old cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck. A cedar replacement requires a full tear-off to the deck, per the NJ Rehabilitation Subcode, and the removal exposes Irvington\'s aging plank decking for repair before new cedar goes down.',
+      "question": "For Irvington homeowners: can a new cedar roof go over an old cedar roof in Irvington on an older Irvington roof?",
+      "answer": "A new cedar roof cannot go over an old cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck. A cedar replacement requires a full tear-off to the deck, per the NJ Rehabilitation Subcode, and the removal exposes Irvington's aging plank decking for repair before new cedar goes down. Irvington owners receive the recommendation in a free written estimate that separates required work from monitor-and-wait items, with photographs of each condition cited."
     },
     {
-      question: 'Do you need a permit to replace a cedar roof in Irvington, NJ?',
-      answer:
-        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Irvington\'s construction-code office, and Irvington\'s rental- and multi-family-heavy stock puts much of its housing on the permit-required path.',
+      "question": "For Irvington homeowners: do you need a permit to replace a cedar roof in Irvington, NJ?",
+      "answer": "A complete tear-off and replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit filed with the Township of Irvington's construction-code office, and Irvington's rental- and multi-family-heavy stock puts much of its housing on the permit-required path. In Irvington, the practical next step is the free written estimate: Newark Quality Roofing photographs the condition, measures the roof, and prices the cedar shake roof replacement scope in writing with no obligation."
     },
     {
-      question: 'Does a cedar roof replacement in Irvington need a historic-district approval?',
-      answer:
-        'Irvington has no local historic-district ordinance, so a cedar roof replacement faces no Certificate-of-Appropriateness step. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private property owner, per the National Park Service, so a cedar reroof proceeds without a historic-approval gate.',
+      "question": "For Irvington homeowners: does a cedar roof replacement in Irvington need a historic-district approval for a Irvington home?",
+      "answer": "Irvington has no local historic-district ordinance, so a cedar roof replacement faces no Certificate-of-Appropriateness step. Irvington carries no National Register listings either, and a Register listing alone places no restriction on a private property owner, per the National Park Service, so a cedar reroof proceeds without a historic-approval gate. Newark Quality Roofing documents the finding with photographs for Irvington owners, so the answer rests on the condition of the actual roof rather than on its age alone."
     },
     {
-      question: 'What fire rating does a cedar shake roof carry?',
-      answer:
-        'Untreated cedar is nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly. The product classes trace to the Cedar Shake & Shingle Bureau Certi-Guard program, and on Irvington\'s tightly built lots the fire-class choice weighs on adjacent-property exposure.',
+      "question": "For Irvington homeowners: what fire rating does a cedar shake roof carry — what Irvington owners ask first?",
+      "answer": "Untreated cedar is nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly. The product classes trace to the Cedar Shake & Shingle Bureau Certi-Guard program, and on Irvington's tightly built lots the fire-class choice weighs on adjacent-property exposure. For a Irvington property, that determination is made on the roof — by the condition of the flashing, deck, and covering — and recorded in the free written estimate before any work is authorized."
     },
     {
-      question: 'How much does cedar shake roof replacement cost in Irvington, NJ?',
-      answer:
-        'A roof replacement in New Jersey costs $10,000 to $25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, and premium cedar sits above asphalt and below slate among NJ roofing materials. Final cost depends on roof size, pitch, material, deck repair, and access. Newark Quality Roofing provides a free written estimate.',
-    },
+      "question": "For Irvington homeowners: how much does cedar shake roof replacement cost in Irvington, NJ on an older Irvington roof?",
+      "answer": "A roof replacement in New Jersey costs $10,000 to $25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, and premium cedar sits above asphalt and below slate among NJ roofing materials. Final cost depends on roof size, pitch, material, deck repair, and access. Newark Quality Roofing provides a free written estimate. Irvington owners receive the recommendation in a free written estimate that separates required work from monitor-and-wait items, with photographs of each condition cited."
+    }
   ],
-  metaDescription:
-    'Cedar shake roof replacement in Irvington NJ — tear-off to deck, ventilated base, fire-class options on older and 2-3-family homes. NJ-registered, free quote.',
-  pricing: {
-    range: '$10,000–$25,000',
-    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
+  "metaDescription": "Cedar Shake Roof Replacement in Irvington, NJ — newark Quality Roofing replaces cedar shake and cedar shingl. NJ-registered contractor. Free written estimate.",
+  "pricing": {
+    "range": "$10,000–$25,000",
+    "note": "Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate."
   },
-  whyChooseUs: [
-    'A registered New Jersey Home Improvement Contractor, fully insured.',
-    'Local Essex County crew familiar with Irvington\'s dense two-/three-family, rental, and older early-20th-century building stock.',
-    'Free, detailed written estimates with no obligation.',
-    'Workmanship documented with photos for your records and any insurance claim.',
+  "whyChooseUs": [
+    "A registered New Jersey Home Improvement Contractor, fully insured.",
+    "Local Essex County crew familiar with Irvington's dense two-/three-family, rental, and older early-20th-century building stock.",
+    "Free, detailed written estimates with no obligation.",
+    "Workmanship documented with photos for your records and any insurance claim."
   ],
-  conversionHooks: {
-    midPageCta: 'Get your free written estimate for cedar shake roof replacement in Irvington.',
-    urgencyNote: 'Replacing an end-of-life cedar roof early limits deck rot and interior water damage.',
-  },
+  "conversionHooks": {
+    "midPageCta": "Get your free written estimate for cedar shake roof replacement in Irvington.",
+    "urgencyNote": "Replacing an end-of-life cedar roof early limits deck rot and interior water damage."
+  }
 };
