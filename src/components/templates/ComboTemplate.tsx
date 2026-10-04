@@ -36,6 +36,7 @@ import { HEADING_CONFIG } from '@/data/heading-config';
 import { EntityDefinition } from '@/components/sections/EntityDefinition';
 import { SurferVerbatimArticle, SurferHeroLead } from '@/components/sections/SurferVerbatimArticle';
 import { getSurferPage, surferFaqs, surferLead } from '@/lib/surfer-verbatim';
+import { comboSlugPhrase } from '@/lib/slug-phrase';
 import { parseRichText } from '@/lib/rich-text';
 
 // ─── Template Component ─────────────────────────────────────────────────────
@@ -67,6 +68,10 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
   const parentLinks = getParentPageLinks(service, city);
 
   const comboSlug = generateComboSlug(service.slug, city.slug);
+  // Owner rule (2026-10-04): H1 = title tag = WebPage schema name = the
+  // slug-derived "[Keyword] [City], NJ" phrase. Same helper as
+  // generateMetadata in src/app/[slug]/page.tsx so the three never drift.
+  const comboTitle = comboSlugPhrase(comboSlug);
   // Owner-approved Surfer draft synced verbatim onto this URL (replaces the body copy).
   const surfer = getSurferPage(comboSlug);
   const surferHero = surfer ? surferLead(surfer, content.directAnswer) : undefined;
@@ -77,7 +82,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
         buildServiceSchema({ name: service.name, slug: comboSlug, shortDescription: service.shortDescription }),
         // WebPage.name = the page title (same expression as generateMetadata in [slug]/page.tsx),
         // not the meta description — every other template passes its title here.
-        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${comboSlug}`, surfer?.h1 ?? HEADING_CONFIG.combo.h1(service.name, city.name)),
+        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${comboSlug}`, comboTitle),
         buildBreadcrumbSchema([
           { name: 'Home', url: SEO_CONFIG.BASE_URL },
           { name: service.name, url: `${SEO_CONFIG.BASE_URL}/${generateServicePageSlug(service.slug)}` },
@@ -97,7 +102,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
         city={city}
         serviceGroups={serviceGroups}
         directAnswer={content.directAnswer}
-        h1={surfer?.h1}
+        h1={comboTitle}
         lead={surfer && surferHero ? (
           <SurferHeroLead
             runs={surferHero.runs}
@@ -274,6 +279,7 @@ function ComboPlaceholder({
         service={service}
         city={city}
         serviceGroups={serviceGroups}
+        h1={comboSlugPhrase(generateComboSlug(service.slug, city.slug))}
       />
 
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">

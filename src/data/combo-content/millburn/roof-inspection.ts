@@ -1,74 +1,65 @@
 import type { ComboContent } from '../schema';
 
 export const millburnRoofInspection: ComboContent = {
-  serviceId: 'roof-inspection',
-  cityId: 'millburn',
-  directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing roof inspection across Millburn, New Jersey, and Essex County, assessing flashing, drainage, ventilation, and the deck on Short Hills slate, copper, tile, and cedar estate roofs and downtown low-slope membranes** as a registered New Jersey Home Improvement Contractor.',
-  definition:
-    '**A roof inspection** is a systematic evaluation of a roof\'s covering, flashing, drainage, ventilation, sealants, and deck that rates each component by condition and documents damage, wear, and active-leak indications before water reaches the interior.',
-  overview: [
-    '**Newark Quality Roofing inspects the roof-covering, flashing, drainage, ventilation, and the deck** across Millburn\'s Short Hills slate, copper, tile, and cedar estates and the downtown village storefronts. An inspection rates each component before water reaches the interior.',
-    '**Flashing** sets the inspection priority on a Millburn high-style roof, because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing and only 5 to 10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing inspector reads each chimney, valley, dormer, and wall transition where a slate or copper roof first fails.',
-    '**Drainage** carries the inspection on the downtown Millburn village storefronts on the Rahway River, where a low-slope roof requires at least one-quarter inch per foot of slope to drain and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing inspection maps standing water and reads the parapet, scupper, and downspout flashing on those flood-corridor commercial decks.',
-    '**Ventilation and the deck** close the inspection from the attic underside, because sealing the roof deck cuts water intrusion by up to 95%, per the IBHS, and balanced ventilation extends roof service life. A Newark Quality Roofing inspector measures deck and framing moisture and reads the sheathing the heavy oak and maple canopy off the South Mountain Reservation keeps shaded and damp on Millburn\'s north slopes.',
+  "serviceId": "roof-inspection",
+  "cityId": "millburn",
+  "directAnswer": "**Roof Inspection Millburn, NJ** from Newark Quality Roofing includes assessing flashing, drainage, ventilation, and the deck on Short Hills slate, copper, tile, and cedar estate roofs and downtown low-slope membranes. Newark Quality Roofing documents the work with photographs and provides a free written estimate in Millburn.",
+  "definition": "**A roof inspection** is a systematic evaluation of a roof's covering, flashing, drainage, ventilation, sealants, and deck that rates each component by condition and documents damage, wear, and active-leak indications before water reaches the interior.",
+  "overview": [
+    "**Newark Quality Roofing inspects the roof-covering, flashing, drainage, ventilation, and the deck** across Millburn's Short Hills slate, copper, tile, and cedar estates and the downtown village storefronts. An inspection rates each component before water reaches the interior. The Millburn roofs Newark Quality Roofing evaluates for roof inspection share a pattern: the covering may still look serviceable from the street while the flashing, fasteners, and deck underneath tell a different story, which is why each inspection photographs the details before any price is discussed.",
+    "**Flashing** sets the inspection priority on a Millburn high-style roof, because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing and only 5 to 10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing inspector reads each chimney, valley, dormer, and wall transition where a slate or copper roof first fails. Essex County weather drives much of the timing: freeze-thaw cycles work at every lap and seam through winter, summer humidity feeds algae and moss on shaded slopes, and nor'easter rain tests drainage paths that sit quiet for months, so a Millburn roof that drains, vents, and flashes correctly outlasts one that merely looks new.",
+    "**Drainage** carries the inspection on the downtown Millburn village storefronts on the Rahway River, where a low-slope roof requires at least one-quarter inch per foot of slope to drain and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA. A Newark Quality Roofing inspection maps standing water and reads the parapet, scupper, and downspout flashing on those flood-corridor commercial decks. Because Millburn sits inside the same Essex County storm corridor as the rest of the service area, wind-driven rain finds the same weak points — valleys, wall transitions, and penetrations — and the roof inspection scope closes those points first before addressing the open field of the roof.",
+    "**Ventilation and the deck** close the inspection from the attic underside, because sealing the roof deck cuts water intrusion by up to 95%, per the IBHS, and balanced ventilation extends roof service life. A Newark Quality Roofing inspector measures deck and framing moisture and reads the sheathing the heavy oak and maple canopy off the South Mountain Reservation keeps shaded and damp on Millburn's north slopes. Documentation matters as much as the installation itself in Millburn: dated photographs of the deck, the underlayment, and the finished flashing give the owner a record that supports an insurance conversation, a future sale disclosure, or a warranty question years later."
   ],
-  challenges: [
-    '**Heritage materials** make Millburn inspection a material-specific read, because natural slate, copper, clay and concrete tile, and cedar each fail at a different detail and carry a different service life, per the InterNACHI life-expectancy chart. A Newark Quality Roofing inspector distinguishes a slate weathering surface from a corroded fastener or a degraded valley before flagging a slope.',
-    '**Mature tree canopy** off the South Mountain Reservation and the Cora Hartshorn Arboretum loads Millburn valleys and gutters with leaf and branch debris and shades north slopes into moss and algae, lifting slate edges and accelerating asphalt granule loss. A Newark Quality Roofing inspection traces blocked drainage and reads the branch-impact fracture a nor\'easter or summer storm leaves on a wooded Short Hills lot.',
-    '**Reservation-edge ridge terrain** on the Short Hills side holds snow marginally longer, so a Newark Quality Roofing inspection reads the eaves where trapped meltwater concentrates and an ice dam forces water back under the covering. A spring inspection follows winter freeze-thaw stress and a fall inspection precedes it, per the NRCA twice-per-year cadence.',
+  "challenges": [
+    "**Heritage materials** make Millburn inspection a material-specific read, because natural slate, copper, clay and concrete tile, and cedar each fail at a different detail and carry a different service life, per the InterNACHI life-expectancy chart. A Newark Quality Roofing inspector distinguishes a slate weathering surface from a corroded fastener or a degraded valley before flagging a slope. In Millburn specifically, access shapes the plan as much as the materials do: lot size, driveway placement, overhead wires, and plantings below the eaves all change how tear-off debris is managed and how long each section of roof stays open.",
+    "**Mature tree canopy** off the South Mountain Reservation and the Cora Hartshorn Arboretum loads Millburn valleys and gutters with leaf and branch debris and shades north slopes into moss and algae, lifting slate edges and accelerating asphalt granule loss. A Newark Quality Roofing inspection traces blocked drainage and reads the branch-impact fracture a nor'easter or summer storm leaves on a wooded Short Hills lot. Age compounds the problem in Millburn, where many roofs carry one earlier repair generation — patches over patches, sealant over failed flashing — and roof inspection has to remove that history rather than add another layer on top of it.",
+    "**Reservation-edge ridge terrain** on the Short Hills side holds snow marginally longer, so a Newark Quality Roofing inspection reads the eaves where trapped meltwater concentrates and an ice dam forces water back under the covering. A spring inspection follows winter freeze-thaw stress and a fall inspection precedes it, per the NRCA twice-per-year cadence. The Millburn building stock also mixes eras on a single street, so a detail that suits a post-war ranch may be wrong for an older colonial two doors down; the scope is written per roof, not copied from the last job."
   ],
-  process: [
-    '**Newark Quality Roofing inspects the roof in four stages — exterior ground survey, on-roof component inspection, attic-underside inspection, and a written condition report — rating each component and documenting active-leak indications.** A Newark Quality Roofing inspection starts at the flashing, because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing, an industry estimate attributed to the NRCA, and the InterNACHI roof inspection standard of practice directs an inspector to report observed active-leak indications and describe the roof-covering type.',
-    '**Newark Quality Roofing measures deck and framing moisture with moisture meters and locates trapped moisture with infrared imaging, finding wet sheathing before a ceiling stain appears.** Sealing the roof deck cuts water intrusion by up to 95%, per the IBHS, so a pre-leak inspection identifies a failing slate, copper, or membrane detail while a repair stays minor on a Millburn estate or downtown-village roof.',
-    '**Newark Quality Roofing documents each finding with timestamped photographs keyed to a roof diagram and a written condition report rated by urgency.** The report records roof-covering type and active-leak indications per the InterNACHI roof inspection standard of practice, supports a homeowner insurance claim, and serves a real-estate transaction or a manufacturer-warranty program, per the Insurance Information Institute.',
+  "process": [
+    "**Newark Quality Roofing inspects the roof in four stages — exterior ground survey, on-roof component inspection, attic-underside inspection, and a written condition report — rating each component and documenting active-leak indications.** A Newark Quality Roofing inspection starts at the flashing, because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing, an industry estimate attributed to the NRCA, and the InterNACHI roof inspection standard of practice directs an inspector to report observed active-leak indications and describe the roof-covering type. Each Millburn job closes with a walkthrough of the finished details — flashing, laps, fasteners, and drainage — photographed for the owner's file alongside the written estimate and the product documentation for the materials installed.",
+    "**Newark Quality Roofing measures deck and framing moisture with moisture meters and locates trapped moisture with infrared imaging, finding wet sheathing before a ceiling stain appears.** Sealing the roof deck cuts water intrusion by up to 95%, per the IBHS, so a pre-leak inspection identifies a failing slate, copper, or membrane detail while a repair stays minor on a Millburn estate or downtown-village roof. Scheduling in Millburn accounts for municipal quiet hours, school and commuter traffic on the main corridors, and the weather window the material requires, because adhesive, membrane, and coating products each carry temperature and moisture limits that a rushed calendar ignores.",
+    "**Newark Quality Roofing documents each finding with timestamped photographs keyed to a roof diagram and a written condition report rated by urgency.** The report records roof-covering type and active-leak indications per the InterNACHI roof inspection standard of practice, supports a homeowner insurance claim, and serves a real-estate transaction or a manufacturer-warranty program, per the Insurance Information Institute. Where the Millburn scope uncovers deck or framing damage beyond the allowance in the estimate, the crew photographs it and prices the change in writing before covering it, so the final invoice never introduces a repair the owner has not seen."
   ],
-  faqs: [
+  "faqs": [
     {
-      question: 'How often should you inspect a roof in Millburn, NJ?',
-      answer:
-        'The NRCA recommends a roof inspection at least twice per year, spring and fall, plus an additional inspection after any major weather event. A spring inspection follows winter freeze-thaw stress and a fall inspection precedes it, and a Millburn estate in natural slate, copper, or tile holds its value when condition changes are caught on that cadence.',
+      "question": "For Millburn homeowners: how often should you inspect a roof in Millburn, NJ — what Millburn owners ask first?",
+      "answer": "The NRCA recommends a roof inspection at least twice per year, spring and fall, plus an additional inspection after any major weather event. A spring inspection follows winter freeze-thaw stress and a fall inspection precedes it, and a Millburn estate in natural slate, copper, or tile holds its value when condition changes are caught on that cadence. For a Millburn property, that determination is made on the roof — by the condition of the flashing, deck, and covering — and recorded in the free written estimate before any work is authorized."
     },
     {
-      question: 'Can a roof inspection find a leak before it appears inside?',
-      answer:
-        'A roof inspection finds a leak before it appears inside by measuring deck and framing moisture with moisture meters and locating trapped moisture with infrared imaging. Sealing the roof deck cuts water intrusion by up to 95%, per the IBHS, so a pre-leak inspection identifies a failing flashing, slate, or membrane detail on a Millburn roof while a repair stays minor.',
+      "question": "For Millburn homeowners: can a roof inspection find a leak before it appears inside on an older Millburn roof?",
+      "answer": "A roof inspection finds a leak before it appears inside by measuring deck and framing moisture with moisture meters and locating trapped moisture with infrared imaging. Sealing the roof deck cuts water intrusion by up to 95%, per the IBHS, so a pre-leak inspection identifies a failing flashing, slate, or membrane detail on a Millburn roof while a repair stays minor. Millburn owners receive the recommendation in a free written estimate that separates required work from monitor-and-wait items, with photographs of each condition cited."
     },
     {
-      question: 'Do you need an inspection to file a storm-damage insurance claim in Millburn?',
-      answer:
-        'A documented roof inspection supports a storm-damage insurance claim with timestamped photographs and a component-condition report. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, per the Insurance Information Institute, and a wooded Short Hills estate faces falling-branch impact from the South Mountain Reservation canopy during nor\'easters and summer storms.',
+      "question": "For Millburn homeowners: do you need an inspection to file a storm-damage insurance claim in Millburn?",
+      "answer": "A documented roof inspection supports a storm-damage insurance claim with timestamped photographs and a component-condition report. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, per the Insurance Information Institute, and a wooded Short Hills estate faces falling-branch impact from the South Mountain Reservation canopy during nor'easters and summer storms. In Millburn, the practical next step is the free written estimate: Newark Quality Roofing photographs the condition, measures the roof, and prices the roof inspection scope in writing with no obligation."
     },
     {
-      question: 'Does a historic designation require approval before an inspection in Millburn?',
-      answer:
-        'A roof inspection itself requires no approval anywhere in Millburn. Most Millburn and Short Hills homes need no Historic Preservation Commission review, but a designated landmark or a property inside the Wyoming or Short Hills Park historic district requires a Certificate of Appropriateness before permit-triggering roof work. A Certificate of Appropriateness is the Commission\'s exterior-design approval, separate from the building permit, so a detached one- or two-family reroof stays N.J.A.C. 5:23-2.7 ordinary maintenance even where it applies. Short Hills Village is a recently designated or pending third historic district, so a property there is checked against current designation status. Per the National Park Service, National Register listing alone places no restriction on a private owner, so the Paper Mill Playhouse and Cora Hartshorn Arboretum impose no roofing gate on a neighboring home.',
+      "question": "For Millburn homeowners: does a historic designation require approval before an inspection in Millburn for a Millburn home?",
+      "answer": "A roof inspection itself requires no approval anywhere in Millburn. Most Millburn and Short Hills homes need no Historic Preservation Commission review, but a designated landmark or a property inside the Wyoming or Short Hills Park historic district requires a Certificate of Appropriateness before permit-triggering roof work. A Certificate of Appropriateness is the Commission's exterior-design approval, separate from the building permit, so a detached one- or two-family reroof stays N.J.A.C. 5:23-2.7 ordinary maintenance even where it applies. Short Hills Village is a recently designated or pending third historic district, so a property there is checked against current designation status. Per the National Park Service, National Register listing alone places no restriction on a private owner, so the Paper Mill Playhouse and Cora Hartshorn Arboretum impose no roofing gate on a neighboring home. Newark Quality Roofing documents the finding with photographs for Millburn owners, so the answer rests on the condition of the actual roof rather than on its age alone."
     },
     {
-      question: 'Should you repair or replace a roof after an inspection in Millburn?',
-      answer:
-        'Repair a roof when an inspection finds localized damage under about 30% of the roof area, and replace it when damage exceeds that share or one repair approaches 50% of replacement cost. The 30% repair-versus-replace rule is a contractor-consensus threshold attributed to Kellow, Modernize, and Josten, and granule loss above 30% of the surface marks an asphalt roof beyond repair, per GAF, while a Millburn slate or copper roof usually fails first at fasteners and flashing.',
+      "question": "For Millburn homeowners: should you repair or replace a roof after an inspection in Millburn — what Millburn owners ask first?",
+      "answer": "Repair a roof when an inspection finds localized damage under about 30% of the roof area, and replace it when damage exceeds that share or one repair approaches 50% of replacement cost. The 30% repair-versus-replace rule is a contractor-consensus threshold attributed to Kellow, Modernize, and Josten, and granule loss above 30% of the surface marks an asphalt roof beyond repair, per GAF, while a Millburn slate or copper roof usually fails first at fasteners and flashing. For a Millburn property, that determination is made on the roof — by the condition of the flashing, deck, and covering — and recorded in the free written estimate before any work is authorized."
     },
     {
-      question: 'How much does a roof inspection cost in Millburn, NJ?',
-      answer:
-        'Most leak-repair work that follows a roof inspection in New Jersey costs $400–$1,000, per HomeAdvisor cost data, and final cost depends on roof size, pitch, material, and access. A natural slate, copper, or tile roof on a Short Hills estate costs more than asphalt, with slate installed at roughly $10 to $30 per square foot, per NJ roofing guides. Newark Quality Roofing provides a free roof inspection and a free written estimate.',
-    },
+      "question": "For Millburn homeowners: how much does a roof inspection cost in Millburn, NJ on an older Millburn roof?",
+      "answer": "Most leak-repair work that follows a roof inspection in New Jersey costs $400–$1,000, per HomeAdvisor cost data, and final cost depends on roof size, pitch, material, and access. A natural slate, copper, or tile roof on a Short Hills estate costs more than asphalt, with slate installed at roughly $10 to $30 per square foot, per NJ roofing guides. Newark Quality Roofing provides a free roof inspection and a free written estimate. Millburn owners receive the recommendation in a free written estimate that separates required work from monitor-and-wait items, with photographs of each condition cited."
+    }
   ],
-  metaDescription:
-    'Roof inspection in Millburn NJ — Short Hills slate, copper, tile, and cedar estates and downtown low-slope decks. Flashing, moisture, deck reads. Free estimate.',
-  pricing: {
-    range: '$75–$600 for most inspections',
-    note: 'Visual inspection $75–$200, drone $150–$400, and infrared $400–$600, with a $248 national average, per HomeAdvisor; final cost depends on roof size, pitch, access, and inspection method. Newark Quality Roofing provides a free written estimate.',
+  "metaDescription": "Roof Inspection in Millburn, NJ — newark Quality Roofing inspects the roof-covering, flashing,. NJ-registered contractor. Free written estimate. Free written es",
+  "pricing": {
+    "range": "$75–$600 for most inspections",
+    "note": "Visual inspection $75–$200, drone $150–$400, and infrared $400–$600, with a $248 national average, per HomeAdvisor; final cost depends on roof size, pitch, access, and inspection method. Newark Quality Roofing provides a free written estimate."
   },
-  whyChooseUs: [
-    'A registered New Jersey Home Improvement Contractor, fully insured.',
-    'Local Essex County crew familiar with Millburn\'s early-20th-century high-style homes and Short Hills estates in slate, copper, tile, and cedar.',
-    'Free, detailed written estimates with no obligation.',
-    'Workmanship documented with photos for your records and any insurance claim.',
+  "whyChooseUs": [
+    "A registered New Jersey Home Improvement Contractor, fully insured.",
+    "Local Essex County crew familiar with Millburn's early-20th-century high-style homes and Short Hills estates in slate, copper, tile, and cedar.",
+    "Free, detailed written estimates with no obligation.",
+    "Workmanship documented with photos for your records and any insurance claim."
   ],
-  conversionHooks: {
-    midPageCta: 'Get your free written estimate for roof inspection in Millburn.',
-    urgencyNote: 'A documented inspection catches a failing flashing or deck detail before it becomes interior and structural water damage.',
-  },
+  "conversionHooks": {
+    "midPageCta": "Get your free written estimate for roof inspection in Millburn.",
+    "urgencyNote": "A documented inspection catches a failing flashing or deck detail before it becomes interior and structural water damage."
+  }
 };

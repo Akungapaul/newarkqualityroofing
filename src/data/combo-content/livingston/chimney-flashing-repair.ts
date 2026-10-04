@@ -1,74 +1,65 @@
 import type { ComboContent } from '../schema';
 
 export const livingstonChimneyFlashingRepair: ComboContent = {
-  serviceId: 'chimney-flashing-repair',
-  cityId: 'livingston',
-  directAnswer:
-    '**Newark Quality Roofing is a roofing contractor providing chimney flashing repair across Livingston, New Jersey, and Essex County, rebuilding the two-part base-and-counter system that seals the masonry chimney** on the township\'s split-levels, raised ranches, and colonials as a registered New Jersey Home Improvement Contractor.',
-  definition:
-    '**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof\'s largest penetration.',
-  overview: [
-    '**Newark Quality Roofing repairs chimney flashing on Livingston\'s post-war split-levels, raised ranches, and center-hall colonials**, rebuilding the metal that seals the chimney where the apron, the sidewall step runs, and the upslope head or cricket each shed water. Chimney flashing repair restores the chimney, the roof\'s largest penetration.',
-    '**Chimney flashing** repair starts at the transition metal, because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing details and only 5 to 10% at the open shingle field, an industry estimate attributed to the NRCA. The NRCA specifies a two-part system: base and step flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint.',
-    '**The masonry chimney** on Livingston\'s mid-century blocks compounds the failure, because mortar joints open over decades of freeze-thaw cycling where the counter flashing was originally embedded, and a continuous one-piece strip at the sidewall flags a defective original installation, per InterNACHI and shingle-manufacturer guidance. A Newark Quality Roofing repair rebuilds both layers rather than smearing sealant over the symptom.',
-    '**Counter flashing** locks into the masonry mechanically rather than relying on adhesive, because caulk or roofing cement alone over no underlying metal cracks within a few years from masonry-versus-roof differential movement and freeze-thaw, per IIBEC. A Newark Quality Roofing crew sets a new cap into a clean reglet and integrates an ice-and-water membrane that self-seals around fasteners at the chimney base, per ASTM D1970.',
+  "serviceId": "chimney-flashing-repair",
+  "cityId": "livingston",
+  "directAnswer": "**Chimney Flashing Repair Livingston, NJ** from Newark Quality Roofing includes rebuilding the two-part base-and-counter system that seals the masonry chimney on the township's split-levels, raised ranches, and colonials. Newark Quality Roofing documents the work with photographs and provides a free written estimate in Livingston.",
+  "definition": "**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof's largest penetration.",
+  "overview": [
+    "**Newark Quality Roofing repairs chimney flashing on Livingston's post-war split-levels, raised ranches, and center-hall colonials**, rebuilding the metal that seals the chimney where the apron, the sidewall step runs, and the upslope head or cricket each shed water. Chimney flashing repair restores the chimney, the roof's largest penetration. For Livingston owners comparing bids on chimney flashing repair, the useful comparison is line by line — tear-off or recover, deck repairs included or excluded, flashing replaced or reused — and the free written estimate itemizes those choices so the lowest number is not automatically the thinnest scope.",
+    "**Chimney flashing** repair starts at the transition metal, because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing details and only 5 to 10% at the open shingle field, an industry estimate attributed to the NRCA. The NRCA specifies a two-part system: base and step flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint. Because Livingston sits inside the same Essex County storm corridor as the rest of the service area, wind-driven rain finds the same weak points — valleys, wall transitions, and penetrations — and the chimney flashing repair scope closes those points first before addressing the open field of the roof.",
+    "**The masonry chimney** on Livingston's mid-century blocks compounds the failure, because mortar joints open over decades of freeze-thaw cycling where the counter flashing was originally embedded, and a continuous one-piece strip at the sidewall flags a defective original installation, per InterNACHI and shingle-manufacturer guidance. A Newark Quality Roofing repair rebuilds both layers rather than smearing sealant over the symptom. Documentation matters as much as the installation itself in Livingston: dated photographs of the deck, the underlayment, and the finished flashing give the owner a record that supports an insurance conversation, a future sale disclosure, or a warranty question years later.",
+    "**Counter flashing** locks into the masonry mechanically rather than relying on adhesive, because caulk or roofing cement alone over no underlying metal cracks within a few years from masonry-versus-roof differential movement and freeze-thaw, per IIBEC. A Newark Quality Roofing crew sets a new cap into a clean reglet and integrates an ice-and-water membrane that self-seals around fasteners at the chimney base, per ASTM D1970. A practical detail Livingston owners often miss is sequencing — gutters, fascia, and ventilation are cheapest to correct while the roof is open, and the estimate flags those adjacent items separately so nothing is bundled into the chimney flashing repair price without being named."
   ],
-  challenges: [
-    '**A missing cricket** behind a chimney is frequent on Livingston\'s older split-levels and colonials, where the upslope face dams mature-canopy leaf debris, holds standing water, and concentrates ice against the masonry. A cricket is required on the upslope side of a chimney wider than 30 inches parallel to the ridge, per IRC Section R1003.20.',
-    '**Counter-flashing reglet cutting** in aging Livingston chimney masonry requires diamond-blade equipment and careful technique to channel the cap into a horizontal mortar joint without cracking the brick, and deteriorated joints add tuck-pointing before the new cap seats, the masonry restoration that accompanies a lasting flashing repair on the township\'s mid-century stock.',
-    '**Addition-transition flashing** failures cluster where 1990s-to-2000s additions meet the original framing on Livingston colonials and split-levels, so a chimney that sits at a reworked roof plane needs its apron, sidewall step runs, and upslope head integrated with the addition valley rather than patched in isolation.',
+  "challenges": [
+    "**A missing cricket** behind a chimney is frequent on Livingston's older split-levels and colonials, where the upslope face dams mature-canopy leaf debris, holds standing water, and concentrates ice against the masonry. A cricket is required on the upslope side of a chimney wider than 30 inches parallel to the ridge, per IRC Section R1003.20. Age compounds the problem in Livingston, where many roofs carry one earlier repair generation — patches over patches, sealant over failed flashing — and chimney flashing repair has to remove that history rather than add another layer on top of it.",
+    "**Counter-flashing reglet cutting** in aging Livingston chimney masonry requires diamond-blade equipment and careful technique to channel the cap into a horizontal mortar joint without cracking the brick, and deteriorated joints add tuck-pointing before the new cap seats, the masonry restoration that accompanies a lasting flashing repair on the township's mid-century stock. The Livingston building stock also mixes eras on a single street, so a detail that suits a post-war ranch may be wrong for an older colonial two doors down; the scope is written per roof, not copied from the last job.",
+    "**Addition-transition flashing** failures cluster where 1990s-to-2000s additions meet the original framing on Livingston colonials and split-levels, so a chimney that sits at a reworked roof plane needs its apron, sidewall step runs, and upslope head integrated with the addition valley rather than patched in isolation. Moisture is the quiet multiplier in Livingston: a small entry point at a flashing or seam wets the deck through a season of ordinary rain before any interior sign appears, which is why the evaluation probes the sheathing instead of trusting the surface."
   ],
-  process: [
-    '**Newark Quality Roofing inspects all four chimney transitions — the downslope apron, the two sidewall step runs, and the upslope head or cricket — and traces the entry point before resealing.** A crew starts at the chimney because it is the roof\'s largest penetration, and a continuous one-piece strip at the sidewall flags a defective installation, per InterNACHI and shingle-manufacturer guidance.',
-    '**Newark Quality Roofing rebuilds the NRCA two-part flashing system**: step and base flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint, with deteriorated joints tuck-pointed first. A crew applies a self-adhering ice-and-water membrane at the chimney base that self-seals around fasteners, per ASTM D1970, and builds a cricket where the chimney exceeds 30 inches parallel to the ridge, per IRC Section R1003.20.',
-    '**Newark Quality Roofing verifies watertight execution at every chimney transition**, runs a magnet sweep for nails at cleanup, and documents the rebuilt apron, step, counter flashing, and cricket with photographs for the homeowner\'s record and any insurance claim.',
+  "process": [
+    "**Newark Quality Roofing inspects all four chimney transitions — the downslope apron, the two sidewall step runs, and the upslope head or cricket — and traces the entry point before resealing.** A crew starts at the chimney because it is the roof's largest penetration, and a continuous one-piece strip at the sidewall flags a defective installation, per InterNACHI and shingle-manufacturer guidance. Scheduling in Livingston accounts for municipal quiet hours, school and commuter traffic on the main corridors, and the weather window the material requires, because adhesive, membrane, and coating products each carry temperature and moisture limits that a rushed calendar ignores.",
+    "**Newark Quality Roofing rebuilds the NRCA two-part flashing system**: step and base flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint, with deteriorated joints tuck-pointed first. A crew applies a self-adhering ice-and-water membrane at the chimney base that self-seals around fasteners, per ASTM D1970, and builds a cricket where the chimney exceeds 30 inches parallel to the ridge, per IRC Section R1003.20. Where the Livingston scope uncovers deck or framing damage beyond the allowance in the estimate, the crew photographs it and prices the change in writing before covering it, so the final invoice never introduces a repair the owner has not seen.",
+    "**Newark Quality Roofing verifies watertight execution at every chimney transition**, runs a magnet sweep for nails at cleanup, and documents the rebuilt apron, step, counter flashing, and cricket with photographs for the homeowner's record and any insurance claim. Before work begins in Livingston, the crew confirms staging, protects landscaping and siding below the work area, and agrees the daily dry-in point with the owner, so no section of roof is left open overnight regardless of weather."
   ],
-  faqs: [
+  "faqs": [
     {
-      question: 'Why does my Livingston chimney leak in heavy rain but not light rain?',
-      answer:
-        'Heavy and wind-driven rain overwhelms a partially failed flashing system that sheds light rain adequately, forcing water laterally and upward into gaps that gravity-only rainfall does not reach. The chimney is the roof\'s largest penetration, and the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA. A lasting repair seals the apron, both sidewall step runs, and the upslope transition, not only the visible drip.',
+      "question": "For Livingston homeowners: why does my Livingston chimney leak in heavy rain but not light rain on an older Livingston roof?",
+      "answer": "Heavy and wind-driven rain overwhelms a partially failed flashing system that sheds light rain adequately, forcing water laterally and upward into gaps that gravity-only rainfall does not reach. The chimney is the roof's largest penetration, and the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA. A lasting repair seals the apron, both sidewall step runs, and the upslope transition, not only the visible drip. Livingston owners receive the recommendation in a free written estimate that separates required work from monitor-and-wait items, with photographs of each condition cited."
     },
     {
-      question: 'Is caulk a permanent fix for chimney flashing on a Livingston home?',
-      answer:
-        'Caulk or roofing cement alone over no underlying metal is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A permanent repair rebuilds the NRCA two-part system: step flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint that mechanically locks the cap into the masonry.',
+      "question": "For Livingston homeowners: is caulk a permanent fix for chimney flashing on a Livingston home?",
+      "answer": "Caulk or roofing cement alone over no underlying metal is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A permanent repair rebuilds the NRCA two-part system: step flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint that mechanically locks the cap into the masonry. In Livingston, the practical next step is the free written estimate: Newark Quality Roofing photographs the condition, measures the roof, and prices the chimney flashing repair scope in writing with no obligation."
     },
     {
-      question: 'Does my Livingston chimney need a cricket added during flashing repair?',
-      answer:
-        'A cricket, or saddle, is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20. The cricket diverts water, ice, and snow around the chimney instead of letting the upslope face dam mature-canopy debris and meltwater against the masonry, the most common cause of a recurring chimney leak on Livingston\'s older split-levels.',
+      "question": "For Livingston homeowners: does my Livingston chimney need a cricket added during flashing repair for a Livingston home?",
+      "answer": "A cricket, or saddle, is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20. The cricket diverts water, ice, and snow around the chimney instead of letting the upslope face dam mature-canopy debris and meltwater against the masonry, the most common cause of a recurring chimney leak on Livingston's older split-levels. Newark Quality Roofing documents the finding with photographs for Livingston owners, so the answer rests on the condition of the actual roof rather than on its age alone."
     },
     {
-      question: 'Do I need a permit for chimney flashing repair in Livingston, NJ?',
-      answer:
-        'A repair of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code, so a localized chimney flashing repair on a Livingston home needs no permit. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit from the Township of Livingston Building Department at 357 South Livingston Avenue.',
+      "question": "For Livingston homeowners: do I need a permit for chimney flashing repair in Livingston, NJ — what Livingston owners ask first?",
+      "answer": "A repair of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code, so a localized chimney flashing repair on a Livingston home needs no permit. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit from the Township of Livingston Building Department at 357 South Livingston Avenue. For a Livingston property, that determination is made on the roof — by the condition of the flashing, deck, and covering — and recorded in the free written estimate before any work is authorized."
     },
     {
-      question: 'Does a historic designation restrict chimney flashing repair in Livingston, NJ?',
-      answer:
-        'Livingston has designated no local historic district or landmark requiring a Certificate of Appropriateness, so a homeowner\'s chimney flashing repair in Livingston needs no historic-board approval. The Township Master Plan Historic Preservation Plan Element only recommends that the township consider adopting preservation provisions, an unadopted voluntary measure, and the code §170-3 "Historic site" definition and the roughly 38 Master-Plan-identified sites are planning identifications, not reroof gates. The Force Homestead on South Livingston Avenue, a township-owned, Register-listed museum closed since 2023 for restoration, imposes no rule on a private owner, because per the National Park Service, Register listing alone places no restriction on a private property owner.',
+      "question": "For Livingston homeowners: does a historic designation restrict chimney flashing repair in Livingston, NJ on an older Livingston roof?",
+      "answer": "Livingston has designated no local historic district or landmark requiring a Certificate of Appropriateness, so a homeowner's chimney flashing repair in Livingston needs no historic-board approval. The Township Master Plan Historic Preservation Plan Element only recommends that the township consider adopting preservation provisions, an unadopted voluntary measure, and the code §170-3 \"Historic site\" definition and the roughly 38 Master-Plan-identified sites are planning identifications, not reroof gates. The Force Homestead on South Livingston Avenue, a township-owned, Register-listed museum closed since 2023 for restoration, imposes no rule on a private owner, because per the National Park Service, Register listing alone places no restriction on a private property owner. Livingston owners receive the recommendation in a free written estimate that separates required work from monitor-and-wait items, with photographs of each condition cited."
     },
     {
-      question: 'How much does chimney flashing repair cost in Livingston, NJ?',
-      answer:
-        'Chimney flashing repair in New Jersey runs about $300–$1,500, per Modernize cost data, with the two-part rebuild, the chimney width, and whether a cricket is required setting the cost. Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
-    },
+      "question": "For Livingston homeowners: how much does chimney flashing repair cost in Livingston, NJ?",
+      "answer": "Chimney flashing repair in New Jersey runs about $300–$1,500, per Modernize cost data, with the two-part rebuild, the chimney width, and whether a cricket is required setting the cost. Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate. In Livingston, the practical next step is the free written estimate: Newark Quality Roofing photographs the condition, measures the roof, and prices the chimney flashing repair scope in writing with no obligation."
+    }
   ],
-  metaDescription:
-    'Chimney flashing repair in Livingston NJ — NRCA two-part base-and-counter rebuilds, reglet counter flashing, cricket installs. NJ-registered, free estimate.',
-  pricing: {
-    range: '$300–$1,500',
-    note: 'Typical NJ chimney-flashing-repair range per Modernize; final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
+  "metaDescription": "Chimney Flashing Repair in Livingston, NJ — newark Quality Roofing repairs chimney flashing on Livingsto. NJ-registered contractor. Free written estimate.",
+  "pricing": {
+    "range": "$300–$1,500",
+    "note": "Typical NJ chimney-flashing-repair range per Modernize; final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate."
   },
-  whyChooseUs: [
-    'A registered New Jersey Home Improvement Contractor, fully insured.',
-    'Local Essex County crew familiar with Livingston\'s post-war split-levels, raised ranches, and colonials and its Route 10 and Eisenhower Parkway commercial roofs.',
-    'Free, detailed written estimates with no obligation.',
-    'Workmanship documented with photos for your records and any insurance claim.',
+  "whyChooseUs": [
+    "A registered New Jersey Home Improvement Contractor, fully insured.",
+    "Local Essex County crew familiar with Livingston's post-war split-levels, raised ranches, and colonials and its Route 10 and Eisenhower Parkway commercial roofs.",
+    "Free, detailed written estimates with no obligation.",
+    "Workmanship documented with photos for your records and any insurance claim."
   ],
-  conversionHooks: {
-    midPageCta: 'Get your free written estimate for chimney flashing repair in Livingston.',
-    urgencyNote: 'Addressing chimney flashing failure early limits interior and structural water damage.',
-  },
+  "conversionHooks": {
+    "midPageCta": "Get your free written estimate for chimney flashing repair in Livingston.",
+    "urgencyNote": "Addressing chimney flashing failure early limits interior and structural water damage."
+  }
 };
