@@ -41,6 +41,7 @@ import { ServiceAreasGrid } from '@/components/sections/ServiceAreasGrid';
 import { getContentPoolImages } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import { EntityDefinition } from '@/components/sections/EntityDefinition';
+import { CoraRoadmap260926 } from '@/components/sections/CoraRoadmap260926';
 import { RoofRepairGuide } from '@/components/sections/RoofRepairGuide';
 import { ServiceRichSections } from '@/components/sections/ServiceRichSections';
 import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
@@ -443,6 +444,10 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       <ServiceAreasGrid heading={`${service.name} Across Essex County, NJ`} service={service} />
 
       <RelatedServices heading={relatedH2} services={relatedServices} />
+
+      {/* CORA 2026-09-26 roadmap: one expandable supplemental section with all
+          added optimization content for this page (keyword "roof repair"). */}
+      {service.id === 'roof-repair' && <CoraRoadmap260926 />}
 
       {service.id === 'roof-repair' && (
         <section aria-labelledby="google-site-guide-heading" className="mx-auto max-w-7xl px-6 pb-12 lg:px-8">

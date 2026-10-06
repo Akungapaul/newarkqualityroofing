@@ -1,0 +1,20 @@
+/* CORA 2026-09-26 supplemental block — resource directory + reference lists. */
+.cora-260926-directory {
+  column-gap: 1.5rem;
+}
+@media (min-width: 640px) {
+  .cora-260926-directory {
+    column-count: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .cora-260926-directory {
+    column-count: 3;
+  }
+}
+.cora-260926-directory li {
+  break-inside: avoid;
+}
+.cora-260926-gallery img {
+  display: inline-block;
+}

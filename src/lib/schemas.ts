@@ -33,9 +33,11 @@ export const ServiceSchema = z.object({
   // field has to exist here before services.ts can set it.
   metaKeywords: z.array(z.string()).max(9).optional(),
 }).superRefine((service, context) => {
-  // roof-repair: sized to the owner's Surfer draft meta (2026-09-21), shipped verbatim.
+  // roof-repair: sized to the 2026-09-26 CORA roadmap targets (lines 11/15/16:
+  // title 173 chars, description 226 chars); previously sized to the owner's
+  // September 21 Surfer draft meta (144/195), shipped verbatim.
   const limits = service.id === 'roof-repair'
-    ? { metaTitle: 144, metaDescription: 195 }
+    ? { metaTitle: 173, metaDescription: 226 }
     : { metaTitle: 95, metaDescription: 165 };
   for (const field of ['metaTitle', 'metaDescription'] as const) {
     if (service[field].length > limits[field]) {

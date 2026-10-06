@@ -1,0 +1,10 @@
+/* CORA 2026-09-26 supplemental block — heading rhythm inside the block. */
+.cora-260926-block h2 {
+  margin-top: 0.5rem;
+}
+.cora-260926-block h3 {
+  margin-top: 2rem;
+}
+.cora-260926-block h3:first-of-type {
+  margin-top: 1.5rem;
+}

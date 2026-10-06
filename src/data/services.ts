@@ -17,8 +17,13 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Roofing repair and maintenance for leaks, missing shingles, and structural damage across Essex County.',
-    metaTitle: 'Roof Repair in Newark, NJ | Best Roofing Contractor for Roof Repair, Leak Repair, Flat Roof Repair, Roof Crack Repair, and Roof Flashing Repair.',
-    metaDescription: 'Roof repair in Newark, NJ for leaks, shingles, flashing and flat roofs. Most repairs run $350-$1,500. Free written estimates. Call (973) 649-9535. Essex County Roofing Contractor For Newark Roofs',
+    // CORA 2026-09-26 lines 11/15: +29 chars and one more 'roof repair services'
+    // variation in the search-result link text (title 144 -> 173 chars).
+    metaTitle: 'Roof Repair in Newark, NJ | Best Roofing Contractor for Roof Repair, Leak Repair, Flat Roof Repair, Roof Crack Repair, and Roof Flashing Repair. | Roof Repair Services in NJ',
+    // CORA 2026-09-26 lines 3/4/16: one more 'roof', the 'roof repair services'
+    // phrase, and +10 chars of summary length (195 -> 226). Keep identical to
+    // SERVICE_DESCRIPTION_OVERRIDES['roof-repair'] in src/lib/seo-utils.ts.
+    metaDescription: 'Roof repair in Newark, NJ for leaks, shingles, flashing and flat roofs. Most repairs run $350-$1,500. Free written estimates. Call (973) 649-9535. Essex County Roof Repair Services Contractor For Newark Roofs and roof systems.',
     // Cora 2026-09-04 Phase X, CP438 "Number of comma delimited meta keywords":
     // 4 -> 9. Every term is verified present in this page's visible text (counts
     // measured in the built HTML: 146 / 1 / 11 / 8 / 14 / 13 / 5 / 5 / 15).
