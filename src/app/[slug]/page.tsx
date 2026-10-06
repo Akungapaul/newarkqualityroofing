@@ -107,6 +107,7 @@ export async function generateMetadata({
         ? service.metaTitle
         : serviceSurfer?.h1 ?? HEADING_CONFIG.serviceH1Overrides[service.id] ?? HEADING_CONFIG.service.h1(service.name);
       const serviceDescription = serviceSurfer?.metaDescription ?? serviceDesc;
+      const isRoofRepair = service.id === 'roof-repair';
       return {
         title: { absolute: serviceTitle },
         description: serviceDescription,
@@ -115,7 +116,25 @@ export async function generateMetadata({
         // the client's on-page tool scores it, not for ranking value.
         keywords: service.metaKeywords,
         alternates: { canonical: `/${servicePageSlug}` },
-        openGraph: buildOG(serviceTitle, serviceSurfer?.metaDescription ?? serviceOgDescription, servicePageSlug, 'website', serviceOg?.path ?? undefined),
+        // CORA 2026-09-26 line 43: OpenGraph type "article" for this page only.
+        openGraph: buildOG(serviceTitle, serviceSurfer?.metaDescription ?? serviceOgDescription, servicePageSlug, isRoofRepair ? 'article' : 'website', serviceOg?.path ?? undefined),
+        ...(isRoofRepair
+          ? {
+              // CORA 2026-09-26 lines 32 (variations in Twitter meta content),
+              // 55 (Google site verification meta — same property token as
+              // public/google12bec62df3c068a7.html), 62 (meta generator tag).
+              // Scoped to /roof-repair-in-newark-nj only.
+              twitter: {
+                card: 'summary_large_image' as const,
+                title: serviceTitle,
+                description:
+                  'Roof repair services in Newark, NJ: roof repair, roof leak repair, flat roof repair, flashing repair, and emergency roof repair with free written estimates from Newark Quality Roofing.',
+                images: [serviceOg?.path ?? SEO_CONFIG.OG_IMAGE.url],
+              },
+              verification: { google: '12bec62df3c068a7' },
+              generator: 'Next.js',
+            }
+          : {}),
       };
     }
     case 'city': {
