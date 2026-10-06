@@ -444,6 +444,25 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
       <RelatedServices heading={relatedH2} services={relatedServices} />
 
+      {service.id === 'roof-repair' && (
+        <section aria-labelledby="google-site-guide-heading" className="mx-auto max-w-7xl px-6 pb-12 lg:px-8">
+          <h2 id="google-site-guide-heading" className="text-2xl font-semibold text-forest">
+            Roof Repair in Newark: Costs, Options and What to Check First
+          </h2>
+          <p className="mt-3 max-w-3xl text-slate-700">
+            Read our companion guide to{' '}
+            <a
+              href="https://sites.google.com/view/roof-repair-newark-nj"
+              rel="noopener"
+              className="text-copper underline decoration-copper/40 underline-offset-2 transition-colors hover:text-copper-dark hover:decoration-copper"
+            >
+              roof repair in Newark, NJ
+            </a>{' '}
+            for typical repair costs, leak and flashing options, and how to tell whether a roof needs repair or replacement.
+          </p>
+        </section>
+      )}
+
       <ServiceCtaBanner
         heading={scheduleH2}
         serviceGroups={serviceGroups}
