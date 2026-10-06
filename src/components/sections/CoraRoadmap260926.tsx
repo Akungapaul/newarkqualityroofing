@@ -2,6 +2,7 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { getAllSlugs } from '@/data/slug-registry';
 import { isNoindex, isRedirect } from '@/data/url-classification';
 import { cora260926Paragraphs } from '@/data/cora-260926-content';
+import { coraLsiPassParagraphGroups } from '@/data/cora-260926-lsi-content';
 import { siteConfig } from '@/data/site-config';
 import { SEO_CONFIG } from '@/lib/seo-config';
 
@@ -102,6 +103,29 @@ const paragraphGroups = [
   },
 ] as const;
 
+/** LSI completion pass (second pass) — roadmap lines 8 (LSI Words in
+ *  Sentences +562) and 10 (Unique LSI Words +264), using THIS run's own
+ *  LSA tables (see src/data/cora-260926-lsi-content.ts). Rendered as a
+ *  nested accordion group inside the same supplemental block. */
+const lsiPassGroups = [
+  {
+    heading: 'Roof Repair Field Notes: Slope, Deck, and Flashing Readings',
+    paragraphs: coraLsiPassParagraphGroups[0],
+  },
+  {
+    heading: 'Roof Repair Field Notes: Attic, Vent, and Water-Path Readings',
+    paragraphs: coraLsiPassParagraphGroups[1],
+  },
+  {
+    heading: 'Roof Repair Field Notes: Scope, Pricing, and Completion Records',
+    paragraphs: coraLsiPassParagraphGroups[2],
+  },
+  {
+    heading: 'Roof Repair Field Notes: Follow-Up Inspections and Warranty Files',
+    paragraphs: coraLsiPassParagraphGroups[3],
+  },
+] as const;
+
 export function CoraRoadmap260926() {
   return (
     <section aria-labelledby="cora-260926-heading" className="mx-auto max-w-7xl px-6 pb-12 lg:px-8">
@@ -160,6 +184,25 @@ export function CoraRoadmap260926() {
               ))}
             </div>
           ))}
+
+          {/* LSI completion pass (second pass): lines 8/10, this run's LSA
+              terms. Nested accordion group within the same supplemental
+              block; starts collapsed like the block itself. */}
+          <details className="mt-8 rounded-lg border border-forest/15 p-5">
+            <summary className="cursor-pointer font-heading text-xl font-semibold text-forest">
+              Expanded roof repair field notes: readings, scopes, and completion records
+            </summary>
+            {lsiPassGroups.map((group) => (
+              <div key={group.heading}>
+                <h3 className="mt-6 font-heading text-xl font-semibold text-forest">{group.heading}</h3>
+                {group.paragraphs.map((paragraph, index) => (
+                  <p key={index} className="mt-4 font-body text-lg leading-relaxed text-text-secondary">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+            ))}
+          </details>
 
           <h3 className="font-heading text-xl font-semibold text-forest">
             Which Roof Repair Service Fits the Damage on Your Roof?
