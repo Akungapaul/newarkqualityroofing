@@ -1,0 +1,45 @@
+# Newark Quality Roofing
+
+> Newark Quality Roofing is a roofing contractor serving Newark, NJ and surrounding Essex County communities. The company provides roof repair, roof replacement, emergency roof repair, roof leak repair, roof inspection, storm damage repair, and related residential and commercial roofing services. Per the homepage, most repairs run $350-$1,500, full replacements run $8,500-$25,000+, and free estimates are offered. Phone: (973) 649-9535.
+
+## Core pages
+
+- [Newark Quality Roofing — Home](https://newarkqualityroofing.com/): Roofing contractors in Newark, NJ for repairs and replacements, with repair and replacement price ranges and free estimates.
+- [About](https://newarkqualityroofing.com/about): Company background for Newark Quality Roofing.
+- [Contact](https://newarkqualityroofing.com/contact): Contact page; phone (973) 649-9535.
+- [Roofing Services](https://newarkqualityroofing.com/roofing-services): Index of all roofing services offered.
+- [Service Areas](https://newarkqualityroofing.com/service-areas): Cities and communities served around Newark, NJ.
+- [Free Roofing Estimate](https://newarkqualityroofing.com/free-roofing-estimate): How to request a free roofing estimate.
+- [Our Roofing Process](https://newarkqualityroofing.com/our-roofing-process): How a roofing project works from inspection to completion.
+
+## Primary services in Newark, NJ
+
+- [Roof Repair in Newark, NJ](https://newarkqualityroofing.com/roof-repair-in-newark-nj): Roof repair for leaks, damaged shingles, flashing, and storm damage in Newark, NJ.
+- [Roof Replacement in Newark, NJ](https://newarkqualityroofing.com/roof-replacement-in-newark-nj): Full roof replacement in Newark, NJ.
+- [Emergency Roof Repair in Newark, NJ](https://newarkqualityroofing.com/emergency-roof-repair-in-newark-nj): Emergency roof repair and tarping in Newark, NJ.
+- [Roof Leak Repair in Newark, NJ](https://newarkqualityroofing.com/roof-leak-repair-in-newark-nj): Roof leak detection and repair in Newark, NJ.
+- [Roof Inspection in Newark, NJ](https://newarkqualityroofing.com/roof-inspection-in-newark-nj): Roof inspections in Newark, NJ.
+- [Storm Damage Roof Repair in Newark, NJ](https://newarkqualityroofing.com/storm-damage-roof-repair-in-newark-nj): Storm, hail, and wind damage roof repair in Newark, NJ.
+- [Roof Maintenance Programs in Newark, NJ](https://newarkqualityroofing.com/roof-maintenance-programs-in-newark-nj): Preventive roof maintenance programs in Newark, NJ.
+- [Commercial Roof Repair in Newark, NJ](https://newarkqualityroofing.com/commercial-roof-repair-in-newark-nj): Commercial roof repair in Newark, NJ.
+- [Flat Roof Installation & Repair in Newark, NJ](https://newarkqualityroofing.com/flat-roof-installation-repair-in-newark-nj): Flat roof installation and repair in Newark, NJ.
+- [Gutter Installation & Repair in Newark, NJ](https://newarkqualityroofing.com/gutter-installation-repair-in-newark-nj): Gutter installation and repair in Newark, NJ.
+
+The full set of 65 Newark service pages (materials, coatings, flashing, skylights, solar, inspections, and more) is indexed at https://newarkqualityroofing.com/roofing-services and in the services sitemap below.
+
+## Service area
+
+Newark Quality Roofing serves Newark and nearby Essex County cities, each with its own service pages: East Orange, Orange, West Orange, Montclair, Bloomfield, Belleville, Nutley, Irvington, Maplewood, South Orange, Livingston, Millburn, Cedar Grove, Verona, Glen Ridge, Caldwell, Essex Fells, Fairfield, North Caldwell, and Roseland, NJ. City index: https://newarkqualityroofing.com/service-areas
+
+## Guides and comparisons
+
+- [Roofing Knowledge Base](https://newarkqualityroofing.com/roofing-knowledge-base): Roof problems, components, materials, process, and costs explained.
+- [Roofing Costs](https://newarkqualityroofing.com/roofing-knowledge-base/roofing-costs): What roofing work costs and what drives the price.
+- [Roof Repair vs Replacement](https://newarkqualityroofing.com/roof-repair-vs-replacement): How to decide between repairing and replacing a roof.
+- [Best Roofing for Flat Roofs](https://newarkqualityroofing.com/best-roofing-for-flat-roofs): Flat roof material options compared.
+- [Roofing Glossary](https://newarkqualityroofing.com/roofing-glossary): Roofing terms defined.
+
+## For AI engines and crawlers
+
+- [Sitemap index](https://newarkqualityroofing.com/sitemap.xml): Full index of all pages, including 824 service-by-city pages and 300 articles.
+- Canonical brand name: Newark Quality Roofing. Website: https://newarkqualityroofing.com. Primary market: Newark, NJ. Phone: (973) 649-9535.
