@@ -1,0 +1,7 @@
+/* CORA 2026-10-12 Montclair supplemental block — details/summary behavior.
+   The block is a native <details> element: it starts collapsed and is never
+   display:none, so the content is in the served HTML for every visitor. */
+.cora-261012-montclair-details > summary::-webkit-details-marker { display: none; }
+.cora-261012-montclair-details > summary { list-style: none; }
+.cora-261012-montclair-lsi > summary::-webkit-details-marker { display: none; }
+.cora-261012-montclair-lsi > summary { list-style: none; }

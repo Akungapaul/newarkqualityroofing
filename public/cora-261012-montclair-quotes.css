@@ -1,0 +1,4 @@
+/* CORA 2026-10-12 Montclair supplemental block — blockquote styling for the
+   crew field-record quotes inside the expandable block only. */
+.cora-261012-montclair-details blockquote p { font-style: italic; }
+.cora-261012-montclair-details blockquote { border-left: 3px solid #ccc; padding-left: 1rem; }

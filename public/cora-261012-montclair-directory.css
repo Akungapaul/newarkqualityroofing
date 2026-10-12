@@ -1,0 +1,6 @@
+/* CORA 2026-10-12 Montclair supplemental block — directory lists and the
+   SiteNavigationElement nav inside the expandable block only. */
+.cora-261012-montclair-details ul { margin-top: 0.5rem; }
+.cora-261012-montclair-details li { margin-top: 0.25rem; }
+.cora-261012-montclair-details a { text-decoration: underline; }
+.cora-261012-montclair-details nav { margin-top: 1rem; }
