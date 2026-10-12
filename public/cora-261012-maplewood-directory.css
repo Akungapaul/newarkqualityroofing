@@ -1,0 +1,5 @@
+/* CORA 2026-10-12 Maplewood supplemental block — directory lists and the
+   photo record grid inside the expandable block only. */
+.cora-261012-maplewood-details ul { margin-top: 0.5rem; }
+.cora-261012-maplewood-details li { margin-top: 0.25rem; }
+.cora-261012-maplewood-details a { text-decoration: underline; }

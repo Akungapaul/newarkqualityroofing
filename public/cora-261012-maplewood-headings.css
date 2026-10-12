@@ -1,0 +1,7 @@
+/* CORA 2026-10-12 Maplewood supplemental block — heading rhythm inside the
+   expandable block only. Scoped to the block class so no other page or
+   section heading is affected. */
+.cora-261012-maplewood-details h2 { margin-top: 1.5rem; }
+.cora-261012-maplewood-details h3 { margin-top: 1.25rem; }
+.cora-261012-maplewood-details h4 { margin-top: 1rem; }
+.cora-261012-maplewood-details p { margin-top: 0.5rem; }

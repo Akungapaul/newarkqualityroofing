@@ -21,6 +21,7 @@ import { StickyFormSidebar } from '@/components/sections/StickyFormSidebar';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { JsonLd } from '@/components/seo/JsonLd';
+import { CoraRoadmap261012Maplewood } from '@/components/sections/CoraRoadmap261012Maplewood';
 import {
   buildServiceSchema,
   buildWebPageSchema,
@@ -248,6 +249,10 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           </div>
         </StickyFormSidebar>
       </div>
+
+      {/* CORA 2026-10-12 supplemental block — rendered ONLY for the
+          roof-repair x maplewood combo; every other combo is unchanged. */}
+      {service.id === 'roof-repair' && city.id === 'maplewood' && <CoraRoadmap261012Maplewood />}
 
       <ComboCtaBanner
         service={service}
