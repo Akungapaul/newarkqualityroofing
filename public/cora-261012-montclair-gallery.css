@@ -1,0 +1,3 @@
+/* CORA 2026-10-12 Montclair supplemental block — photo record grid inside
+   the expandable block only. */
+.cora-261012-montclair-details img { max-width: 100%; height: auto; margin-top: 0.5rem; }

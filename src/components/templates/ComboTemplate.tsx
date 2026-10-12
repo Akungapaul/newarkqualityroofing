@@ -22,6 +22,7 @@ import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { CoraRoadmap261012Maplewood } from '@/components/sections/CoraRoadmap261012Maplewood';
+import { CoraRoadmap261012Montclair } from '@/components/sections/CoraRoadmap261012Montclair';
 import {
   buildServiceSchema,
   buildWebPageSchema,
@@ -253,6 +254,10 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
       {/* CORA 2026-10-12 supplemental block — rendered ONLY for the
           roof-repair x maplewood combo; every other combo is unchanged. */}
       {service.id === 'roof-repair' && city.id === 'maplewood' && <CoraRoadmap261012Maplewood />}
+
+      {/* CORA 2026-10-12 supplemental block — rendered ONLY for the
+          roof-repair x montclair combo; every other combo is unchanged. */}
+      {service.id === 'roof-repair' && city.id === 'montclair' && <CoraRoadmap261012Montclair />}
 
       <ComboCtaBanner
         service={service}
