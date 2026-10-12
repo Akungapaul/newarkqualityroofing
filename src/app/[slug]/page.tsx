@@ -18,6 +18,11 @@ import { buildServiceDescription, buildCityDescription } from '@/lib/seo-utils';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import { getSurferPage } from '@/lib/surfer-verbatim';
 import { comboSlugPhrase } from '@/lib/slug-phrase';
+import {
+  coraMaplewoodTitle,
+  coraMaplewoodMetaDescription,
+  coraMaplewoodMetaKeywords,
+} from '@/data/cora-261012-maplewood-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -173,7 +178,18 @@ export async function generateMetadata({
       // Owner rule (2026-10-04): combo title = H1 = the slug-derived
       // "[Keyword] [City], NJ" phrase (src/lib/slug-phrase.ts), character for
       // character — no Surfer H1 or service.name "and"-insertion variants.
-      const comboTitle = comboSlugPhrase(combo.slug);
+      let comboTitle = comboSlugPhrase(combo.slug);
+      // CORA 2026-10-12 (Maplewood only): title-tag / meta-description /
+      // meta-keywords edits from the roof_repair_maplewood roadmap. Direct
+      // title/meta edits are the prescribed treatment for those lines; the
+      // H1 rendered by ComboTemplate still uses the slug phrase untouched,
+      // and the slug itself does not change. Scoped to this one slug —
+      // every other combo's metadata is computed exactly as before.
+      const isCoraMaplewood = combo.slug === 'roof-repair-maplewood-nj';
+      if (isCoraMaplewood) {
+        comboTitle = coraMaplewoodTitle;
+        comboDescription = coraMaplewoodMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -189,6 +205,7 @@ export async function generateMetadata({
       return {
         title: { absolute: comboTitle },
         description: comboDescription,
+        ...(isCoraMaplewood ? { keywords: coraMaplewoodMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }

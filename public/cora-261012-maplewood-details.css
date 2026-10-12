@@ -1,0 +1,8 @@
+/* CORA 2026-10-12 Maplewood supplemental block — details/summary behavior.
+   The block is a native <details> element: it starts collapsed and is never
+   display:none, so the content is in the served HTML for every visitor. */
+.cora-261012-maplewood-details > summary::-webkit-details-marker { display: none; }
+.cora-261012-maplewood-details > summary { list-style: none; }
+.cora-261012-maplewood-lsi > summary::-webkit-details-marker { display: none; }
+.cora-261012-maplewood-lsi > summary { list-style: none; }
+.cora-261012-maplewood-details img { max-width: 100%; height: auto; }
