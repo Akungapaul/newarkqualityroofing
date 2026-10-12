@@ -28,6 +28,11 @@ import {
   coraMontclairMetaDescription,
   coraMontclairMetaKeywords,
 } from '@/data/cora-261012-montclair-content';
+import {
+  coraEastOrangeTitle,
+  coraEastOrangeMetaDescription,
+  coraEastOrangeMetaKeywords,
+} from '@/data/cora-261012-east-orange-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -203,6 +208,14 @@ export async function generateMetadata({
         comboTitle = coraMontclairTitle;
         comboDescription = coraMontclairMetaDescription;
       }
+      // CORA 2026-10-12 (East Orange only): same treatment from the
+      // roof_repair_east_orange roadmap — title/meta/keywords for this
+      // slug only; H1 and slug untouched, every other combo unchanged.
+      const isCoraEastOrange = combo.slug === 'roof-repair-east-orange-nj';
+      if (isCoraEastOrange) {
+        comboTitle = coraEastOrangeTitle;
+        comboDescription = coraEastOrangeMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -220,6 +233,7 @@ export async function generateMetadata({
         description: comboDescription,
         ...(isCoraMaplewood ? { keywords: coraMaplewoodMetaKeywords } : {}),
         ...(isCoraMontclair ? { keywords: coraMontclairMetaKeywords } : {}),
+        ...(isCoraEastOrange ? { keywords: coraEastOrangeMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }

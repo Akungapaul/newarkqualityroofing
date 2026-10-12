@@ -23,6 +23,7 @@ import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { CoraRoadmap261012Maplewood } from '@/components/sections/CoraRoadmap261012Maplewood';
 import { CoraRoadmap261012Montclair } from '@/components/sections/CoraRoadmap261012Montclair';
+import { CoraRoadmap261012EastOrange } from '@/components/sections/CoraRoadmap261012EastOrange';
 import {
   buildServiceSchema,
   buildWebPageSchema,
@@ -258,6 +259,10 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
       {/* CORA 2026-10-12 supplemental block — rendered ONLY for the
           roof-repair x montclair combo; every other combo is unchanged. */}
       {service.id === 'roof-repair' && city.id === 'montclair' && <CoraRoadmap261012Montclair />}
+
+      {/* CORA 2026-10-12 supplemental block — rendered ONLY for the
+          roof-repair x east-orange combo; every other combo is unchanged. */}
+      {service.id === 'roof-repair' && city.id === 'east-orange' && <CoraRoadmap261012EastOrange />}
 
       <ComboCtaBanner
         service={service}
