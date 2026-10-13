@@ -44,7 +44,25 @@
 // 102  Number of CSS Includes (+35 stylesheets below)
 // 109-113 Consequence lines (clean text KB, term frequency, HTML tag
 //      count, TF/IDF) carried by the total added mass
+//
+// 2026-10-13 PHRASE pass additions (keyword "roof repair east
+// orange nj"; clean list in cora-phrase-measurement-east-orange-
+// 2026-10-13.md as ruled in cora-artifact-verification-east-orange-
+// 2026-10-13.md; content in cora-261013-east-orange-content.ts):
+//   - Phase 11 Style Tags +24: second <style> element below, same
+//     mechanism as the 2026-10-12 style block.
+//   - Phase 12 schema lines (GeoCoordinates JSON-LD + microdata,
+//     logo JSON-LD + microdata, RoofingContractor type order,
+//     Has JSON-LD): served-HTML check and additions documented in
+//     cora-phrase-implementation-east-orange-2026-10-13.md.
+//   - Phase 1 'roofing' in H2 +1 / 'roofing' in H3 +1: the photo-
+//     record lead-in headings before the gallery.
+//   - Figure wrapping (Paul-approved residual of the +77 figure
+//     artifact ask): the first 32 gallery images are wrapped in
+//     <figure> with genuine descriptive <figcaption> text; no new
+//     images, ALT text unchanged.
 
+import { Fragment } from 'react';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
 import { combos } from '@/data/combos';
@@ -70,7 +88,27 @@ import {
   coraEastOrangeWholeTagH4,
 } from '@/data/cora-261012-east-orange-content';
 
+import {
+  coraEastOrangeFigureCaptions,
+  coraEastOrangePhotoRecordH2,
+  coraEastOrangePhotoRecordH3,
+  coraEastOrangePhotoRecordIntro,
+  coraEastOrangePhraseStylePhrases,
+} from '@/data/cora-261013-east-orange-content';
+
 const pageUrl = 'https://newarkqualityroofing.com/roof-repair-east-orange-nj';
+
+// 2026-10-13 phrase pass, Phase 12 schema lines: the site's canonical
+// logo asset (the same /logo.svg the Header and Footer render) as an
+// absolute URL, and the Newark, NJ coordinates the site itself
+// publishes — the homepage Google Maps embed (src/app/page.tsx) is
+// centered at 40.73566, -74.19967 for "Newark, NJ". The canonical
+// config's geo fields are empty (owner-supplied values pending,
+// D-01); nothing here invents a business-premises coordinate — the
+// pair below is the site's own published Newark pair, flagged in the
+// change list for Paul to replace with canonical values.
+const businessLogoUrl = 'https://newarkqualityroofing.com/logo.svg';
+const businessGeo = { latitude: 40.73566, longitude: -74.19967 };
 
 const serviceName = (id: string) => services.find((s) => s.id === id)?.name ?? id;
 const cityName = (id: string) => cities.find((c) => c.id === id)?.name ?? id;
@@ -193,11 +231,23 @@ const eastOrangeSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': ['LocalBusiness', 'RoofingContractor'],
+      // 2026-10-13 phrase pass: type order flipped to the canonical
+      // most-specific-first order src/lib/schema.ts uses
+      // (RoofingContractor before LocalBusiness), and the node gains
+      // logo + geo (GeoCoordinates) — see businessLogoUrl /
+      // businessGeo above and the change list for the served-HTML
+      // check behind these Phase 12 lines.
+      '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
       url: pageUrl,
       email: siteConfig.email,
+      logo: businessLogoUrl,
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: businessGeo.latitude,
+        longitude: businessGeo.longitude,
+      },
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Newark',
@@ -284,6 +334,10 @@ export function CoraRoadmap261012EastOrange() {
       <style>
         {`:root { ${coraEastOrangeStyleVariations.map((term) => `--cora-261012-${term}: 1;`).join(' ')} }
         /* CORA 2026-10-12 (East Orange) style-tag variations: ${coraEastOrangeStyleCommentPhrases.join(', ')} */`}
+      </style>
+      <style>
+        {`:root { ${coraEastOrangePhraseStylePhrases.map((phrase) => `--cora-261013-${phrase.replace(/ /g, '-')}: 1;`).join(' ')} }
+        /* CORA 2026-10-13 (East Orange) phrase style-tag variations: ${coraEastOrangePhraseStylePhrases.join(', ')} */`}
       </style>
       <div
         aria-hidden="true"
@@ -407,6 +461,15 @@ export function CoraRoadmap261012EastOrange() {
         ))}
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
+          {/* 2026-10-13 phrase pass, Phase 12 microdata pair: Schema
+              logo + Schema geocoordinates for this same business
+              node (values: the canonical logo asset and the site's
+              published Newark, NJ pair — see businessGeo note). */}
+          <link itemProp="logo" href={businessLogoUrl} />
+          <span itemProp="geo" itemScope itemType="https://schema.org/GeoCoordinates">
+            <meta itemProp="latitude" content={String(businessGeo.latitude)} />
+            <meta itemProp="longitude" content={String(businessGeo.longitude)} />
+          </span>
           <p className={vClass(7)}>
             <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
             <u>roof repair in East Orange, NJ</u> and across Essex County from{' '}
@@ -473,6 +536,10 @@ export function CoraRoadmap261012EastOrange() {
           </ul>
         </nav>
 
+        <h2 className={vClass(18)}>{coraEastOrangePhotoRecordH2}</h2>
+        <h3 className={vClass(19)}>{coraEastOrangePhotoRecordH3}</h3>
+        <p className={vClass(20)}>{coraEastOrangePhotoRecordIntro}</p>
+
         <h2 className={vClass(12)}>Roof Repairs in East Orange: Photo Record of Shingle, Flat, Slate, and Metal Roofing Work</h2>
         <p className={vClass(13)}>
           Seventy-six photographs from the working life of this service — East Orange rooftops, the
@@ -480,19 +547,34 @@ export function CoraRoadmap261012EastOrange() {
         </p>
         <h3 className={vClass(14)}>East Orange Roof Repair Photo Record: Crews, Inspections, and Repair Details</h3>
         <div>
-          {galleryFirstHalf.map((image, imageIndex) => (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              key={image.src}
-              src={image.src}
-              alt={image.alt}
-              itemProp="image"
-              className={vClass(15 + imageIndex)}
-              loading="lazy"
-              width="800"
-              height="600"
-            />
-          ))}
+          {galleryFirstHalf.map((image, imageIndex) => {
+            // 2026-10-13 phrase pass: the first 32 gallery images are
+            // wrapped in <figure> with a genuine descriptive
+            // <figcaption> (coraEastOrangeFigureCaptions, same order);
+            // the remaining images render exactly as before. No new
+            // images; ALT text unchanged.
+            const caption = coraEastOrangeFigureCaptions[imageIndex];
+            const img = (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={image.src}
+                alt={image.alt}
+                itemProp="image"
+                className={vClass(15 + imageIndex)}
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+            );
+            return caption ? (
+              <figure key={image.src} className="cora-261013-photo-figure mb-4">
+                {img}
+                <figcaption className="mt-1 text-sm text-slate-600">{caption}</figcaption>
+              </figure>
+            ) : (
+              <Fragment key={image.src}>{img}</Fragment>
+            );
+          })}
         </div>
         <h3 className={vClass(53)}>East Orange Roofing Photo Record: Materials, Storm Response, and Finished Repairs</h3>
         <div>
