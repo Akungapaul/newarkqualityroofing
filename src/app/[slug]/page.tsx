@@ -43,6 +43,11 @@ import {
   coraRoselandMetaDescription,
   coraRoselandMetaKeywords,
 } from '@/data/cora-261012-roseland-content';
+import {
+  coraIrvingtonTitle,
+  coraIrvingtonMetaDescription,
+  coraIrvingtonMetaKeywords,
+} from '@/data/cora-261012-irvington-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -242,6 +247,14 @@ export async function generateMetadata({
         comboTitle = coraRoselandTitle;
         comboDescription = coraRoselandMetaDescription;
       }
+      // CORA 2026-10-12 (Irvington only): same treatment from the
+      // roof_repair_irvington roadmap — title/meta/keywords for this slug
+      // only; H1 and slug untouched, every other combo unchanged.
+      const isCoraIrvington = combo.slug === 'roof-repair-irvington-nj';
+      if (isCoraIrvington) {
+        comboTitle = coraIrvingtonTitle;
+        comboDescription = coraIrvingtonMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -262,6 +275,7 @@ export async function generateMetadata({
         ...(isCoraEastOrange ? { keywords: coraEastOrangeMetaKeywords } : {}),
         ...(isCoraLivingston ? { keywords: coraLivingstonMetaKeywords } : {}),
         ...(isCoraRoseland ? { keywords: coraRoselandMetaKeywords } : {}),
+        ...(isCoraIrvington ? { keywords: coraIrvingtonMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
