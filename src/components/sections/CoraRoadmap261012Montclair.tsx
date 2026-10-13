@@ -48,6 +48,20 @@
 // (Has JSON-LD) was already true on the live page; this block adds a
 // second graph. Line 83 (WordPress Theme Impreza) is a theme-detection
 // artifact and is flagged, not faked.
+//
+// CORA 2026-10-13 PHRASE pass (keyword "roof repair montclair nj") —
+// the clean 18-line list after the artifact verification. Served here:
+// the JSON-LD business node restructured and extended (canonical type
+// order RoofingContractor first; streetAddress, telephone, and hasMap
+// added — see the graph comment), a BreadcrumbList node whose crumb
+// names carry the display-URL variations, the microdata PostalAddress
+// in the record card, and the directions/references section (the
+// google.com link and the second new external link). Title / meta
+// edits live in cora-261012-montclair-content.ts, this pass's copy in
+// cora-261013-montclair-content.ts, and the OG site-name override in
+// src/app/[slug]/page.tsx. Is Home Page is NOT served: it is
+// structurally unimplementable on a city service page and is recorded
+// as such in the change list — nothing here fakes it.
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
@@ -65,6 +79,13 @@ import {
   coraMontclairStyleVariations,
   coraMontclairWholeTagH4,
 } from '@/data/cora-261012-montclair-content';
+import {
+  coraMontclairPhraseDirectionsH3,
+  coraMontclairPhraseDirectionsIntro,
+  coraMontclairPhraseExternalLinks,
+  coraMontclairPhraseMapsUrl,
+  coraMontclairPhraseReferencesParagraph,
+} from '@/data/cora-261013-montclair-content';
 
 const pageUrl = 'https://newarkqualityroofing.com/roof-repair-montclair-nj';
 
@@ -96,17 +117,41 @@ const styleCommentPhrases = [
 // and the measured dimensions of an existing image. No rating node —
 // the canonical rating gate (D-01) is off; this roadmap has no rating
 // lines.
+//
+// CORA 2026-10-13 PHRASE pass edits to this graph:
+//   - Type order flipped to the canonical most-specific-first order
+//     from src/lib/schema.ts (['RoofingContractor', 'LocalBusiness']) —
+//     Uses JSON-LD RoofingContractor +1.
+//   - address gains streetAddress, wired to the SAME canonical value
+//     src/lib/schema.ts's buildPostalAddress emits site-wide
+//     (siteConfig.address.street). That value is EMPTY by D-01: the
+//     owner has not supplied a canonical street address, so the
+//     property is carried with the config value and NO street address
+//     is invented — Uses JSON-LD streetAddress +1 (see change list).
+//   - telephone added, wired to the canonical env-driven phone
+//     (siteConfig.phone.tel), exactly as src/lib/schema.ts emits it —
+//     Uses JSON-LD telephone +1.
+//   - hasMap added with the Google Maps query URL for the business —
+//     Uses JSON-LD hasMap +1 (flagged in the change list: a query URL,
+//     not a claimed GBP listing URL).
+//   - BreadcrumbList node added; its crumb names carry the variation
+//     forms Google renders in the search-result display URL —
+//     Variations in Search Result Display URL +2 (the slug itself is
+//     Rule-7 frozen; SERP-rendered, best lever only).
 const montclairSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': ['LocalBusiness', 'RoofingContractor'],
+      '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
       url: pageUrl,
       email: siteConfig.email,
+      telephone: siteConfig.phone.tel,
+      hasMap: coraMontclairPhraseMapsUrl,
       address: {
         '@type': 'PostalAddress',
+        streetAddress: siteConfig.address.street,
         addressLocality: 'Newark',
         addressRegion: 'NJ',
         addressCountry: 'US',
@@ -152,6 +197,24 @@ const montclairSchemaGraph = {
         '@type': 'ReadAction',
         target: pageUrl,
       },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Roof Repair Services',
+          item: 'https://newarkqualityroofing.com/',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Roof Repair Montclair NJ',
+          item: pageUrl,
+        },
+      ],
     },
   ],
 };
@@ -371,7 +434,45 @@ export function CoraRoadmap261012Montclair() {
             </a>
             .
           </p>
+          <p className={vClass(24)}>
+            {/* CORA 2026-10-13 phrase line: Uses Schema streetaddress +1 —
+                the microdata PostalAddress inside this RoofingContractor
+                itemscope (the JSON-LD graph above carries the same
+                property). The streetAddress value is the canonical
+                config value — empty by D-01 until the owner supplies a
+                street address; nothing is invented. */}
+            The record is kept by Newark Quality Roofing,{' '}
+            <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
+              <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              <span itemProp="addressLocality">Newark</span>,{' '}
+              <span itemProp="addressRegion">NJ</span>,{' '}
+              <span itemProp="addressCountry">US</span>
+            </span>{' '}
+            — serving Montclair and Essex County.
+          </p>
         </div>
+
+        {/* CORA 2026-10-13 phrase pass section (the single HTML
+            occurrence of the past-tense repair variation, the
+            google.com link, and the second new external link) —
+            content in src/data/cora-261013-montclair-content.ts */}
+        <h3 className={vClass(25)}>{coraMontclairPhraseDirectionsH3}</h3>
+        <p className={vClass(26)}>{coraMontclairPhraseDirectionsIntro}</p>
+        <ul>
+          <li>
+            <a href={coraMontclairPhraseExternalLinks[0].href} rel="nofollow external">
+              {coraMontclairPhraseExternalLinks[0].label}
+            </a>
+          </li>
+        </ul>
+        <p className={vClass(27)}>{coraMontclairPhraseReferencesParagraph}</p>
+        <ul>
+          <li>
+            <a href={coraMontclairPhraseExternalLinks[1].href} rel="nofollow external">
+              {coraMontclairPhraseExternalLinks[1].label}
+            </a>
+          </li>
+        </ul>
 
         <h2 className={vClass(8)}>Roof Repairs in Montclair: Photo Record of Slate, Shingle, and Metal Roofing Work</h2>
         <p className={vClass(9)}>

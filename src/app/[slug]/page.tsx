@@ -28,6 +28,7 @@ import {
   coraMontclairMetaDescription,
   coraMontclairMetaKeywords,
 } from '@/data/cora-261012-montclair-content';
+import { coraMontclairPhraseOgSiteName } from '@/data/cora-261013-montclair-content';
 import {
   coraEastOrangeTitle,
   coraEastOrangeMetaDescription,
@@ -97,13 +98,14 @@ function buildOG(
   description: string,
   slug: string,
   type: 'website' | 'article' = 'website',
-  ogImagePath?: string
+  ogImagePath?: string,
+  siteNameOverride?: string
 ) {
   return {
     title,
     description,
     url: `/${slug}`,
-    siteName: SEO_CONFIG.SITE_NAME,
+    siteName: siteNameOverride ?? SEO_CONFIG.SITE_NAME,
     type,
     images: [
       ogImagePath
@@ -280,7 +282,11 @@ export async function generateMetadata({
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
           : { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large', 'max-video-preview': -1 },
-        openGraph: buildOG(comboTitle, comboDescription, combo.slug, 'website', comboOg?.path ?? undefined),
+        // CORA 2026-10-13 PHRASE pass (Montclair only): OG site name
+        // carries one added variation occurrence ('roof repair') —
+        // Variations in OpenGraph Site Name +1 (adjusted). Every other
+        // page keeps SEO_CONFIG.SITE_NAME via buildOG's default.
+        openGraph: buildOG(comboTitle, comboDescription, combo.slug, 'website', comboOg?.path ?? undefined, isCoraMontclair ? coraMontclairPhraseOgSiteName : undefined),
       };
     }
     case 'comparison': {
