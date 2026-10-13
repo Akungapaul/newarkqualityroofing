@@ -21,14 +21,23 @@
 //   42 Search Result Summary Length — add 2 chars (+52 actual)
 //   64 Number of Meta Keywords — add 8 (eight entries below)
 
+// CORA 2026-10-13 PHRASE pass revision (roof_repair_maplewood_nj_goog_261013,
+// keyword "roof repair maplewood nj"): title 117 -> 147 chars (Search Result
+// Link Text lines: variations +2, length +30 — Rule 7 opening "Roof Repair
+// Maplewood, NJ" preserved); meta 210 -> 265 chars (Search Result Summary /
+// Meta Description lines: variations +6 including 'siding' +1, length +55);
+// meta keywords 8 -> 9 entries (Number of Meta Keywords +1: "siding repair
+// maplewood nj" added). Line sheet:
+// ~/workspace/goals/newarkqualityroofing-com-seo-analysis/files/cora-phrase-measurement-maplewood-2026-10-13.md
+
 export const coraMaplewoodTitle =
-  'Roof Repair Maplewood, NJ — Best Roof Repair Services in Maplewood NJ for Roofing, Gutter Repair, Slate & Leak Repair';
+  'Roof Repair Maplewood, NJ — Best Roof Repair Services in Maplewood NJ for Roofing, Gutter Repair, Slate, Shingle and Leak Repair — Roof Care Guides';
 
 export const coraMaplewoodMetaDescription =
-  'Roof repair in Maplewood NJ: roof repair services for leak repair, flashing repair, gutter repair, and shingle repair across Maplewood — the roof repair Maplewood NJ homeowners call for a free written estimate.';
+  'Roof repair in Maplewood NJ: roof repair services for leak repair, flashing repair, gutter repair, and shingle repair across Maplewood — the roof repair Maplewood NJ homeowners call for a free written estimate. Siding repairs and roof leak repair in a single visit.';
 
 export const coraMaplewoodMetaKeywords =
-  'roof repair maplewood nj, roof repair services maplewood nj, emergency roof repair maplewood nj, roof leak repair maplewood nj, gutter repair maplewood nj, shingle repair maplewood nj, roofing repair maplewood nj, roof repair cost maplewood nj';
+  'roof repair maplewood nj, roof repair services maplewood nj, emergency roof repair maplewood nj, roof leak repair maplewood nj, gutter repair maplewood nj, shingle repair maplewood nj, roofing repair maplewood nj, roof repair cost maplewood nj, siding repair maplewood nj';
 
 export interface CoraMaplewoodQuestionGroup {
   heading: string;
