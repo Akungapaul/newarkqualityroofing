@@ -13,8 +13,11 @@
 // roofing' in Title +1, was 0), line 23 (Entities in Title +5),
 // line 24 (Leading Variations in Title +1), Phase 6 line 60 (Search
 // Result Link Text Length +23 chars: 27 -> 138).
+// 2026-10-13 phrase pass, Phase 1 line 7 (Variation 'roofer' in Title
+// Tag +1, was 0): the appended clause "— Your East Orange Roofer"
+// carries the token exactly once; the Rule 7 opening is unchanged.
 export const coraEastOrangeTitle =
-  "Roof Repair East Orange, NJ — Best East Orange Roofing Repair Services in East Orange NJ for Roof Leak Repair, Gutters, Slate & Flat Roofs";
+  "Roof Repair East Orange, NJ — Best East Orange Roofing Repair Services in East Orange NJ for Roof Leak Repair, Gutters, Slate & Flat Roofs — Your East Orange Roofer";
 
 // Phase 1 line 4 (Entities in Meta Description +10), line 9 ('roof
 // repair' in Meta Description +1), line 13 (Variations in Meta
