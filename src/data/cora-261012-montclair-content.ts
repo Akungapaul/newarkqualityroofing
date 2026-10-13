@@ -21,12 +21,34 @@
 //  56  Variations in OpenGraph Description — add 2 (the OG description is
 //      built from this same meta description in [slug]/page.tsx)
 //  76  Number of Meta Keywords — add 2 (eight entries below)
+//
+// CORA 2026-10-13 PHRASE pass (roof_repair_montclair_nj_goog_261013,
+// keyword "roof repair montclair nj") — direct edits in this file:
+//   Title 124 -> 161 chars (+37 exactly): Search Result Link Text Length
+//     +37 (SERP-rendered; best lever), Variations in Search Result Link
+//     Text +2, 'roofing' in Title Tag +1 (1 -> 2), 'roofer' in Title Tag
+//     +1 (0 -> 1) — the appended clause "Your Local Roofer and Roofing
+//     Team" carries exactly those: roofing +1, roofer +1, variations +2.
+//     Rule 7 structure preserved: the title still opens with the slug
+//     phrase "Roof Repair Montclair, NJ"; H1 / first sentence / slug
+//     untouched.
+//   Meta 268 -> 366 chars (+98 exactly, the artifact-adjusted ask):
+//     Search Result Summary Length +98 (SERP-rendered; the meta is the
+//     lever), 'roofing' in Meta Description +1 (adjusted from Cora's +2;
+//     1 -> 2), Variations in Search Result Summary +2 — the inserted
+//     sentence "Montclair roofing inspections are documented slope by
+//     slope, and each roof fixed is photographed." carries roofing +1
+//     and the variations 'roofing' + 'roof fixed' (+2).
+//   Remaining phrase lines live in cora-261013-montclair-content.ts,
+//   CoraRoadmap261012Montclair.tsx, and the OG site-name override in
+//   src/app/[slug]/page.tsx. Change list:
+//   cora-phrase-implementation-montclair-2026-10-13.md.
 
 export const coraMontclairTitle =
-  'Roof Repair Montclair, NJ — Best Roof Repair Services in Montclair NJ for Roof Leak Repair, Slate, Shingle & Roofing Repairs';
+  'Roof Repair Montclair, NJ — Best Roof Repair Services in Montclair NJ for Roof Leak Repair, Slate, Shingle & Roofing Repairs — Your Local Roofer and Roofing Team';
 
 export const coraMontclairMetaDescription =
-  'Roof repair in Montclair NJ for leaking roofs, slipped slate, and aging shingles — Montclair roof repair services covering roof leak repair, flashing, gutters, and roof repairs across Montclair and Essex County. Call Newark Quality Roofing for a free written estimate.';
+  'Roof repair in Montclair NJ for leaking roofs, slipped slate, and aging shingles — Montclair roof repair services covering roof leak repair, flashing, gutters, and roof repairs across Montclair and Essex County. Montclair roofing inspections are documented slope by slope, and each roof fixed is photographed. Call Newark Quality Roofing for a free written estimate.';
 
 export const coraMontclairMetaKeywords =
   'roof repair montclair nj, roof repair services montclair nj, roof leak repair montclair nj, emergency roof repair montclair nj, slate roof repair montclair nj, shingle repair montclair nj, roof repairs montclair nj, roofing repair montclair nj';
