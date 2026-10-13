@@ -32,6 +32,18 @@
 //   gate (src/config/site-config.ts, D-01) is off because no verified
 //   rating exists — flagged blocked-on-verified-rating in the change list.
 //   66 Number of CSS Includes (+3 stylesheets below)
+//
+// CORA 2026-10-13 PHRASE pass (keyword "roof repair maplewood nj") — the
+// clean 17-line list from cora-phrase-measurement-maplewood-2026-10-13.md
+// after the artifact verification. Served here: Entities in H2 +3 and
+// 'siding' in H2 +1 (one new H2), 'siding' in H3 +1 (one new H3), Clean
+// Keyword Density +4 points (90 exact-phrase service-log sentences),
+// TikTok link +1 and DoFollow External Link share +20 points (3 dofollow
+// links), JSON-LD RoofingContractor +1 / addressCountry +1 (the @graph
+// above), Schema addresscountry +1 (microdata PostalAddress in the h-card
+// record). Title/meta/keywords lines are served in
+// src/data/cora-261012-maplewood-content.ts via src/app/[slug]/page.tsx.
+// Content for this pass: src/data/cora-261013-maplewood-content.ts.
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
@@ -44,34 +56,89 @@ import {
   coraMaplewoodStyleVariations,
   coraMaplewoodLsiParagraphGroups,
 } from '@/data/cora-261012-maplewood-content';
+import {
+  coraMaplewoodPhraseDofollowLinks,
+  coraMaplewoodPhraseLogH3,
+  coraMaplewoodPhraseLogIntro,
+  coraMaplewoodPhraseLogParagraphs,
+  coraMaplewoodPhraseReferencesH3,
+  coraMaplewoodPhraseReferencesParagraph,
+  coraMaplewoodPhraseSidingH2,
+  coraMaplewoodPhraseSidingH3,
+  coraMaplewoodPhraseSidingIntro,
+  coraMaplewoodPhraseSidingParagraph,
+  coraMaplewoodPhraseSocialH3,
+  coraMaplewoodPhraseSocialParagraph,
+} from '@/data/cora-261013-maplewood-content';
 
 const pageUrl = 'https://newarkqualityroofing.com/roof-repair-maplewood-nj';
 
 // JSON-LD LocalBusiness for line 57. No aggregateRating node: the canonical
 // rating gate is disabled (no verified rating on record), so the key is
 // omitted entirely, exactly as src/lib/schema.ts handles it site-wide.
+//
+// CORA 2026-10-13 PHRASE pass: restructured to the @graph shape the
+// Montclair pass used, with the canonical type order from src/lib/schema.ts
+// (most-specific type first — Cora does a literal token match on the page
+// source). New nodes/fields, all real site facts only:
+//   - PostalAddress with addressCountry 'US' (phrase lines: Uses JSON-LD
+//     RoofingContractor +1, Uses JSON-LD addressCountry +1)
+//   - areaServed GeoShape for Maplewood's ZIP 07040 with addressCountry
+//   - BreadcrumbList whose crumb names carry the variation forms Google
+//     renders in the search-result display URL (phrase line: Variations in
+//     Search Result Display URL +2 — the slug itself is Rule-7 frozen)
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': ['LocalBusiness', 'RoofingContractor'],
-  name: 'Newark Quality Roofing',
-  url: pageUrl,
-  email: siteConfig.email,
-  areaServed: [
-    { '@type': 'City', name: 'Maplewood, NJ' },
-    { '@type': 'AdministrativeArea', name: 'Essex County, NJ' },
-  ],
-  openingHoursSpecification: [
+  '@graph': [
     {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-      opens: '07:00',
-      closes: '18:00',
+      '@type': ['RoofingContractor', 'LocalBusiness'],
+      '@id': `${pageUrl}#localbusiness`,
+      name: 'Newark Quality Roofing',
+      url: pageUrl,
+      email: siteConfig.email,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Newark',
+        addressRegion: 'NJ',
+        addressCountry: 'US',
+      },
+      areaServed: [
+        { '@type': 'City', name: 'Maplewood, NJ' },
+        { '@type': 'AdministrativeArea', name: 'Essex County, NJ' },
+        { '@type': 'GeoShape', postalCode: '07040', addressCountry: 'US' },
+      ],
+      openingHoursSpecification: [
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          opens: '07:00',
+          closes: '18:00',
+        },
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: 'Saturday',
+          opens: '08:00',
+          closes: '14:00',
+        },
+      ],
     },
     {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: 'Saturday',
-      opens: '08:00',
-      closes: '14:00',
+      '@type': 'BreadcrumbList',
+      '@id': `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Roof Repair Services',
+          item: 'https://newarkqualityroofing.com/',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Roof Repair Maplewood NJ',
+          item: pageUrl,
+        },
+      ],
     },
   ],
 };
@@ -271,7 +338,51 @@ export function CoraRoadmap261012Maplewood() {
             <a href={`mailto:${siteConfig.email}?subject=Maplewood%20roof%20warranty`}>the Maplewood roof warranty</a>, or write to the office at{' '}
             <a className="u-email" itemProp="email" href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.
           </p>
+          <p>
+            {/* CORA 2026-10-13 phrase line: Uses Schema addresscountry +1 —
+                the microdata PostalAddress inside this RoofingContractor
+                itemscope (the JSON-LD graph above carries the same field). */}
+            The record is kept by Newark Quality Roofing,{' '}
+            <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
+              <span itemProp="addressLocality">Newark</span>,{' '}
+              <span itemProp="addressRegion">NJ</span>,{' '}
+              <span itemProp="addressCountry">US</span>
+            </span>{' '}
+            — serving Maplewood and Essex County.
+          </p>
         </div>
+
+        {/* CORA 2026-10-13 phrase pass section (lines 3, 4, 5, 6, 12, 13) —
+            content in src/data/cora-261013-maplewood-content.ts */}
+        <h2>{coraMaplewoodPhraseSidingH2}</h2>
+        {coraMaplewoodPhraseSidingIntro.map((paragraph) => (
+          <p key={paragraph.slice(0, 48)}>{paragraph}</p>
+        ))}
+
+        <h3>{coraMaplewoodPhraseSidingH3}</h3>
+        <p>{coraMaplewoodPhraseSidingParagraph}</p>
+
+        <h3>{coraMaplewoodPhraseLogH3}</h3>
+        <p>{coraMaplewoodPhraseLogIntro}</p>
+        {coraMaplewoodPhraseLogParagraphs.map((paragraph, i) => (
+          <p key={i}>{paragraph.join(' ')}</p>
+        ))}
+
+        <h3>{coraMaplewoodPhraseSocialH3}</h3>
+        <p>
+          {coraMaplewoodPhraseSocialParagraph}{' '}
+          <a href={coraMaplewoodPhraseDofollowLinks[0].href}>{coraMaplewoodPhraseDofollowLinks[0].label}</a>
+        </p>
+
+        <h3>{coraMaplewoodPhraseReferencesH3}</h3>
+        <p>{coraMaplewoodPhraseReferencesParagraph}</p>
+        <ul>
+          {coraMaplewoodPhraseDofollowLinks.slice(1).map((item) => (
+            <li key={item.href}>
+              <a href={item.href}>{item.label}</a>
+            </li>
+          ))}
+        </ul>
 
         <details className="cora-261012-maplewood-lsi">
           <summary className="cursor-pointer py-3 font-semibold text-brand-navy">
