@@ -52,6 +52,16 @@
 // 121  Number of CSS Includes (+68 stylesheets below)
 // 116-123 Consequence lines (clean text KB, term frequency, TF/IDF)
 //      carried by the total added mass
+//
+// 2026-10-13 PHRASE pass (keyword "roof repair livingston nj"; the
+// clean 5-line list + the approved Entity References residue, after
+// the artifact verification ruled 24 of the 47 roadmap lines
+// artifacts at adjusted 0): a genuine question in a real H2 tag
+// (Number of Questions In H2 Tags +1 — the Oct 12 questions sit in
+// FAQ <summary> elements, which that factor does not count), the
+// BreadcrumbList node and the WebPage node's isPartOf / mainEntity
+// @id references in the graph above. Title / meta edits live in
+// cora-261012-livingston-content.ts.
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
@@ -314,6 +324,15 @@ const socialReferences = [
 // does), and the measured dimensions of an existing image. No rating
 // node — this roadmap has no rating lines, and the canonical rating
 // gate (D-01) stays off regardless.
+//
+// 2026-10-13 PHRASE pass additions: the WebPage node gains two genuine
+// @id references — isPartOf the site's WebSite node (the @id
+// src/lib/schema.ts defines) and mainEntity the business node above
+// (Number Of JSON-LD Entity References +2, at the artifact-adjusted
+// value; +24 as asked was the Proven template's graph size) — and a
+// BreadcrumbList node whose crumb names carry the display-URL
+// variations (Variations in Search Result Display URL +2; SERP-rendered,
+// the slug itself is Rule-7 frozen).
 const livingstonSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -366,11 +385,31 @@ const livingstonSchemaGraph = {
       '@id': pageUrl,
       url: pageUrl,
       name: 'Roof Repair Livingston, NJ',
+      isPartOf: { '@id': 'https://newarkqualityroofing.com/#website' },
+      mainEntity: { '@id': `${pageUrl}#localbusiness` },
       keywords: coraLivingstonStyleCommentPhrases.join(', '),
       potentialAction: {
         '@type': 'ReadAction',
         target: pageUrl,
       },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Roof Repair Services',
+          item: 'https://newarkqualityroofing.com/',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Roof Repair Livingston NJ',
+          item: pageUrl,
+        },
+      ],
     },
     {
       '@type': 'ItemList',
@@ -505,6 +544,24 @@ export function CoraRoadmap261012Livingston() {
         ))}
         <h6 className={vClass(41)}>Livingston NJ roof repair file note — detail index entries are working records; the contractor’s signed scope governs each job.</h6>
         <h6 className={vClass(42)}>Roof repair Livingston NJ record note — photographs, warranty papers, and inspection sign-offs are filed under the homeowner’s name in Essex County, NJ.</h6>
+
+        <h2 className={vClass(95)}>What Does Roof Repair Cost in Livingston, NJ?</h2>
+        <p className={vClass(96)}>
+          Livingston homeowners ask this first, and the honest answer is that the price follows the
+          detail that failed. A wind-lifted shingle course or a cracked pipe boot is a small, fixed
+          repair; a chimney that needs its flashing rebuilt, or a valley that has been leaking into
+          the deck, is priced by the materials and the deck work the photographs show once the
+          courses are lifted. Slate, cedar, and copper work is priced differently from asphalt
+          shingle work, and a two-story colonial off Mount Pleasant Avenue takes more ladder time
+          than a ranch off Northfield Avenue.
+        </p>
+        <p className={vClass(97)}>
+          What never changes is how the number is produced: the contractor inspects, photographs
+          the failure, and writes a scope that names the materials and the warranty before any work
+          is approved. The cost guides linked in the records below price the common Livingston
+          repairs the same way, so a homeowner can set the written estimate beside the published
+          record and compare them line by line.
+        </p>
 
         <h2 className={vClass(43)}>Roof Repair Records, References, and Contractor Checks for Livingston Homeowners</h2>
         <h3 className={vClass(44)}>Verifying a Roof Repair Contractor in Livingston, NJ: Township Records, BBB, Consumer Affairs, GAF, and NRCA</h3>
