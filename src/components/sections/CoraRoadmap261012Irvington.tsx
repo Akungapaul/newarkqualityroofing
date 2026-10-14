@@ -53,6 +53,25 @@
 // 84  Number of CSS Includes (+7 stylesheets below)
 // 85/88 Consequence lines (clean text KB — outlier ask, flagged;
 //      term frequency) carried by the total added mass
+//
+// 2026-10-13 PHRASE PASS (keyword "roof repair irvington nj";
+// content in cora-261013-irvington-content.ts; change list
+// cora-phrase-implementation-irvington-2026-10-13.md): of the
+// 29-line phrase roadmap exactly ONE line survived artifact
+// verification (cora-artifact-verification-irvington-2026-10-13.md):
+//   - Phase 11 Variations in Style Tags +24 — the goal is the
+//     Shared Page-1 Average, corroborated in-set by R4 (16) and
+//     R6 (12): second <style> element below, same mechanism as the
+//     2026-10-12 style block. Standing caveat: Cora tracked 0
+//     style-tag matches for this page despite the 2026-10-12 block
+//     being served — the rerun is the arbiter.
+// Everything else in the phrase roadmap is accounted for in the
+// change list (rating cluster BLOCKED pending a verified rating,
+// credential cluster / 'ri' / Meta Keywords artifacts, Has JSON-LD
+// detection discrepancy, Is Home Page not implementable, CSS
+// Includes skipped per Paul's standing decision, agreed skip set,
+// H1 variations flagged-open, social pending verified URLs, LSI
+// constant).
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
@@ -82,6 +101,7 @@ import {
   coraIrvingtonStyleVariations,
   coraIrvingtonWholeTagH4s,
 } from '@/data/cora-261012-irvington-content';
+import { coraIrvingtonPhraseStylePhrases } from '@/data/cora-261013-irvington-content';
 
 const pageUrl = 'https://newarkqualityroofing.com/roof-repair-irvington-nj';
 
@@ -410,6 +430,10 @@ export function CoraRoadmap261012Irvington() {
       <style>
         {`:root { ${coraIrvingtonStyleVariations.map((term) => `--cora-261012-${term}: 1;`).join(' ')} }
         /* CORA 2026-10-12 (Irvington) style-tag variations: ${coraIrvingtonStyleCommentPhrases.join(', ')} */`}
+      </style>
+      <style>
+        {`:root { ${coraIrvingtonPhraseStylePhrases.map((phrase) => `--cora-261013-${phrase.replace(/ /g, '-')}: 1;`).join(' ')} }
+        /* CORA 2026-10-13 (Irvington) phrase style-tag variations: ${coraIrvingtonPhraseStylePhrases.join(', ')} */`}
       </style>
       <div
         aria-hidden="true"
