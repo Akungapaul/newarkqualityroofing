@@ -98,6 +98,11 @@ import {
   coraWestOrangeMetaKeywords,
   coraWestOrangeTitle,
 } from '@/data/cora-261014-west-orange-content';
+import {
+  coraMillburnMetaDescription,
+  coraMillburnMetaKeywords,
+  coraMillburnTitle,
+} from '@/data/cora-261014-millburn-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -433,6 +438,19 @@ export async function generateMetadata({
         comboTitle = coraWestOrangeTitle;
         comboDescription = coraWestOrangeMetaDescription;
       }
+      // CORA 2026-10-14 phrase pass (Millburn only — this city's
+      // FIRST Cora pass): title/meta/keywords edits from the
+      // roof_repair_millburn_nj phrase roadmap. Direct title/meta
+      // edits are the prescribed treatment for those lines; the H1
+      // rendered by ComboTemplate still uses the slug phrase
+      // untouched, and the slug itself does not change. Scoped to
+      // this one slug — every other combo's metadata is computed
+      // exactly as before.
+      const isCoraMillburn = combo.slug === 'roof-repair-millburn-nj';
+      if (isCoraMillburn) {
+        comboTitle = coraMillburnTitle;
+        comboDescription = coraMillburnMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -531,6 +549,14 @@ export async function generateMetadata({
         // the Shared Average of 3; the verification's ruling and
         // the field distribution are recorded in the change list).
         ...(isCoraWestOrange ? { keywords: coraWestOrangeMetaKeywords } : {}),
+        // CORA 2026-10-14 phrase pass (Millburn only): the served
+        // page had NO meta keywords tag (Cora's tracked "1" is a
+        // field-wide phantom — 90 of 100 results track exactly 1);
+        // this creates it with the 4-keyword set from the
+        // roof_repair_millburn_nj phrase roadmap (the goal 3.2 is
+        // the Page-1 Average; 4 is the smallest real list in this
+        // field and the Roadmap ask's whole target).
+        ...(isCoraMillburn ? { keywords: coraMillburnMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
