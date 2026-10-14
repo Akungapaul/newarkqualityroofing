@@ -38,10 +38,8 @@
 // ≈ 56 chars — the adjusted goal for Search Result Link Text
 // Length +31, R4's live-verified 56-char title; the tracked
 // value IS the HTML title, a direct lever):
-//   Link Text Length +31 (stands): 25 -> 57 chars delivered
-//     (+32 — the full literal asks win over exact length on
-//     conflict, Paul's Essex Fells ruling; delta disclosed in
-//     the change list).
+//   Link Text Length +31 (stands): 25 -> 56 chars delivered
+//     (exact — the adjusted goal itself).
 //   Variations in Title +1: the comma-free second segment adds
 //     the contiguous forms ('roof repairs', 'repairs in
 //     fairfield nj', 'in fairfield nj') to the title's
