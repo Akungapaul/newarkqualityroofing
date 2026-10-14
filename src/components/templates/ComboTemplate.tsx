@@ -38,6 +38,7 @@ import { CoraRoadmap261013Orange } from '@/components/sections/CoraRoadmap261013
 import { CoraRoadmap261013Fairfield } from '@/components/sections/CoraRoadmap261013Fairfield';
 import { CoraRoadmap261014WestOrange } from '@/components/sections/CoraRoadmap261014WestOrange';
 import { CoraRoadmap261014Millburn } from '@/components/sections/CoraRoadmap261014Millburn';
+import { CoraRoadmap261014SouthOrange } from '@/components/sections/CoraRoadmap261014SouthOrange';
 import {
   buildServiceSchema,
   buildWebPageSchema,
@@ -340,6 +341,11 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           roof-repair x millburn combo (this city's first Cora pass);
           every other combo is unchanged. */}
       {service.id === 'roof-repair' && city.id === 'millburn' && <CoraRoadmap261014Millburn />}
+
+      {/* CORA 2026-10-14 phrase supplemental block — rendered ONLY for the
+          roof-repair x south-orange combo (this city's first Cora pass);
+          every other combo is unchanged. */}
+      {service.id === 'roof-repair' && city.id === 'south-orange' && <CoraRoadmap261014SouthOrange />}
 
       <ComboCtaBanner
         service={service}
