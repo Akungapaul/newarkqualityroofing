@@ -50,6 +50,29 @@
 //      list plus the business card, all the site's real address)
 // 79/86/90/92 Consequence lines (clean text KB, term frequency,
 //      HTML tags, TF/IDF) carried by the total added mass
+//
+// 2026-10-13 PHRASE PASS (keyword "roof repair roseland nj"; content
+// in cora-261013-roseland-content.ts; change list
+// cora-phrase-implementation-roseland-2026-10-13.md): the CLEAN
+// 9-line list from cora-phrase-measurement-roseland-2026-10-13.md as
+// ruled in cora-artifact-verification-roseland-2026-10-13.md, plus
+// the Paul-approved HTML Comment Tags gray-zone residue (+2):
+//   - Phase 1 question lines (+6 / +6 / +1): six genuine homeowner
+//     questions as REAL <h3> elements in the Q&A section below (the
+//     Oct 12 questions live in FAQ <summary> elements, which these
+//     factors do not count — the page served zero question headings).
+//     The section's H2 and the coordinated question wording also
+//     carry 'roseland nj' in H2 +1, 'roofing' in H2 +1, 'roseland nj'
+//     in H3 +1, 'roofing' in H3 +1 (exactly one new occurrence each).
+//   - Phase 7: Has Link to www.google.com (+1) — the Google Maps
+//     directions link in the references section, same treatment as
+//     the Montclair phrase pass.
+//   - Phase 11 Style Tags +24 (adjusted down from the +67 ask, whose
+//     headline was one goal-setter's builder CSS; the surviving level
+//     is the Shared Page-1 Average): second <style> element below,
+//     same mechanism as the 2026-10-12 style block.
+//   - HTML Comment Tags +2 (adjusted from +3): the two section-
+//     boundary comments wrapping the Q&A section.
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
@@ -77,6 +100,12 @@ import {
   coraRoselandStyleVariations,
   coraRoselandWholeTagH4,
 } from '@/data/cora-261012-roseland-content';
+import {
+  coraRoselandPhraseStylePhrases,
+  coraRoselandQuestionSectionHeading,
+  coraRoselandQuestionSectionIntro,
+  coraRoselandQuestions,
+} from '@/data/cora-261013-roseland-content';
 
 const pageUrl = 'https://newarkqualityroofing.com/roof-repair-roseland-nj';
 
@@ -430,6 +459,10 @@ export function CoraRoadmap261012Roseland() {
         {`:root { ${coraRoselandStyleVariations.map((term) => `--cora-261012-${term}: 1;`).join(' ')} }
         /* CORA 2026-10-12 (Roseland) style-tag variations: ${coraRoselandStyleCommentPhrases.join(', ')} */`}
       </style>
+      <style>
+        {`:root { ${coraRoselandPhraseStylePhrases.map((phrase) => `--cora-261013-${phrase.replace(/ /g, '-')}: 1;`).join(' ')} }
+        /* CORA 2026-10-13 (Roseland) phrase style-tag variations: ${coraRoselandPhraseStylePhrases.join(', ')} */`}
+      </style>
       <div
         aria-hidden="true"
         dangerouslySetInnerHTML={{
@@ -530,6 +563,17 @@ export function CoraRoadmap261012Roseland() {
             </li>
           ))}
         </ul>
+        <p className={vClass(48)}>
+          Finding the office: Newark Quality Roofing is based in Newark and works Roseland on
+          scheduled routes across Essex County —{' '}
+          <a
+            href="https://www.google.com/maps?q=Newark+Quality+Roofing,+Newark,+NJ"
+            rel="nofollow external"
+          >
+            get directions to Newark Quality Roofing on Google Maps at www.google.com
+          </a>
+          .
+        </p>
 
         <h3 className={vClass(46)}>Newark Quality Roofing on Social and Professional Networks for Roseland Roof Repair</h3>
         <p className={vClass(47)}>
@@ -654,6 +698,27 @@ export function CoraRoadmap261012Roseland() {
             ))}
           </ul>
         </nav>
+
+        <div
+          aria-hidden="true"
+          dangerouslySetInnerHTML={{
+            __html: `<!-- Roseland homeowner questions: section begins -->`,
+          }}
+        />
+        <h2 className={vClass(160)}>{coraRoselandQuestionSectionHeading}</h2>
+        <p className={vClass(161)}>{coraRoselandQuestionSectionIntro}</p>
+        {coraRoselandQuestions.map((item, questionIndex) => (
+          <div key={item.question}>
+            <h3 className={vClass(162 + questionIndex)}>{item.question}</h3>
+            <p className={vClass(170 + questionIndex)}>{item.answer}</p>
+          </div>
+        ))}
+        <div
+          aria-hidden="true"
+          dangerouslySetInnerHTML={{
+            __html: `<!-- Roseland homeowner questions: section ends -->`,
+          }}
+        />
 
         <h2 className={vClass(14)}>Roof Repairs in Roseland: Photo Record of Shingle, Flat, Slate, and Metal Roofing Work</h2>
         <p className={vClass(15)}>
