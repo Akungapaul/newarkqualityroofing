@@ -73,6 +73,11 @@ import {
   coraCaldwellMetaDescription,
   coraCaldwellMetaKeywords,
 } from '@/data/cora-261013-caldwell-content';
+import {
+  coraBellevilleTitle,
+  coraBellevilleMetaDescription,
+  coraBellevilleMetaKeywords,
+} from '@/data/cora-261013-belleville-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -343,6 +348,19 @@ export async function generateMetadata({
         comboTitle = coraCaldwellTitle;
         comboDescription = coraCaldwellMetaDescription;
       }
+      // CORA 2026-10-13 phrase pass (Belleville only — this city's
+      // FIRST Cora pass): title/meta/keywords edits from the
+      // roof_repair_belleville_nj phrase roadmap. Direct title/meta
+      // edits are the prescribed treatment for those lines; the H1
+      // rendered by ComboTemplate still uses the slug phrase
+      // untouched, and the slug itself does not change. Scoped to
+      // this one slug — every other combo's metadata is computed
+      // exactly as before.
+      const isCoraBelleville = combo.slug === 'roof-repair-belleville-nj';
+      if (isCoraBelleville) {
+        comboTitle = coraBellevilleTitle;
+        comboDescription = coraBellevilleMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -389,6 +407,13 @@ export async function generateMetadata({
         // from the roof_repair_caldwell_nj phrase roadmap (the
         // goal is R1's real, live-verified 9-keyword list).
         ...(isCoraCaldwell ? { keywords: coraCaldwellMetaKeywords } : {}),
+        // CORA 2026-10-13 phrase pass (Belleville only): the served
+        // page had NO meta keywords tag (Cora's tracked "1" was a
+        // phantom read); this creates it with the 9-keyword set
+        // from the roof_repair_belleville_nj phrase roadmap (the
+        // headline goal is R9's lone 19-keyword list, adjusted to
+        // R1's field-supported 9).
+        ...(isCoraBelleville ? { keywords: coraBellevilleMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
