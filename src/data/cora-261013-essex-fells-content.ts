@@ -14,12 +14,16 @@
 // files/cora-phrase-implementation-essex-fells-2026-10-13.md.
 //
 // What this pass does (19 lines):
-//  - Title tag rewritten to exactly 49 characters (Search Result Link
-//    Text Length +22; the tracked value IS the live title). The rewrite
-//    also carries the title entity/variation adds (Entities in Title
-//    Tag +6 ask: 9 of 10 entity occurrences delivered, the validated
-//    maximum at 49 characters with readable typography; Variations in
-//    Title Tag +1, which also rides the SERP link-text line).
+//  - Title tag rewritten (Search Result Link Text Length +22; the
+//    tracked value IS the live title). The rewrite also carries the
+//    title entity/variation adds: Entities in Title Tag +6 delivered
+//    in full (4 -> 10 entity occurrences under the validated counting)
+//    and Variations in Title Tag +1. Paul's call 2026-10-14: the first
+//    construction reached only 9 of 10 entities at exactly 49 chars;
+//    the final title runs 53 chars ("..., NJ" location sign-off
+//    appended) to deliver the full +6 cleanly, so the length line
+//    delivers +26 rather than the exact +22 — disclosed in the
+//    change list.
 //  - A meta keywords tag is CREATED (the page served none; Cora's
 //    tracked "1" was a phantom read) with 10 verbatim keyword forms
 //    from this run's own keyword set (Number of Meta Keywords +9).
@@ -64,7 +68,7 @@
 // is a Cora detection discrepancy, not a page defect).
 
 export const coraEssexFellsTitle =
-  'Roof Repair Essex Fells, NJ — Tile Roof, Ice Dams';
+  'Roof Repair Essex Fells, NJ — Tile Roof, Ice Dams, NJ';
 
 // Meta keywords: the page served NO meta keywords tag before this pass
 // (Cora tracked a phantom 1). All 10 forms are verbatim from this
