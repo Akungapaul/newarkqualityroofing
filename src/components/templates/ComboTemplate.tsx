@@ -32,6 +32,7 @@ import { CoraRoadmap261013EssexFells } from '@/components/sections/CoraRoadmap26
 import { CoraRoadmap261013Verona } from '@/components/sections/CoraRoadmap261013Verona';
 import { CoraRoadmap261013Bloomfield } from '@/components/sections/CoraRoadmap261013Bloomfield';
 import { CoraRoadmap261013Caldwell } from '@/components/sections/CoraRoadmap261013Caldwell';
+import { AeoCaldwellLead, AeoCaldwellSupplement } from '@/components/sections/AeoSupplementCaldwell';
 import { CoraRoadmap261013Belleville } from '@/components/sections/CoraRoadmap261013Belleville';
 import { CoraRoadmap261013NorthCaldwell } from '@/components/sections/CoraRoadmap261013NorthCaldwell';
 import { CoraRoadmap261013Orange } from '@/components/sections/CoraRoadmap261013Orange';
@@ -143,6 +144,10 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
             <SurferVerbatimArticle page={surfer} ctaServiceName={service.name} />
           ) : (
           <>
+          {/* AEO 2026-10-14 direct-answer lead — rendered ONLY for the
+              roof-repair x caldwell combo, as the first body content;
+              every other combo is unchanged. */}
+          {service.id === 'roof-repair' && city.id === 'caldwell' && <AeoCaldwellLead />}
           {/* Entity-grounding: definitional "What Is {Service}?" — the new first content H2
               (city-agnostic). Gated on content.definition so un-backfilled combos render as before. */}
           {content.definition && (
@@ -307,6 +312,10 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           roof-repair x bloomfield combo (this city's first Cora pass);
           every other combo is unchanged. */}
       {service.id === 'roof-repair' && city.id === 'bloomfield' && <CoraRoadmap261013Bloomfield />}
+
+      {/* AEO 2026-10-14 supplemental block — rendered ONLY for the
+          roof-repair x caldwell combo; every other combo is unchanged. */}
+      {service.id === 'roof-repair' && city.id === 'caldwell' && <AeoCaldwellSupplement />}
 
       {/* CORA 2026-10-13 phrase supplemental block — rendered ONLY for the
           roof-repair x caldwell combo (this city's first Cora pass);
