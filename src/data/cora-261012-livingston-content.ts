@@ -17,16 +17,30 @@
 // Title +1, was 0), Phase 6 line 63 (Search Result Link Text Length
 // +27 chars: 26 -> 165) and line 68 (Variations in Search Result Link
 // Text +2).
+//
+// 2026-10-13 PHRASE pass (keyword "roof repair livingston nj"):
+// Search Result Link Text Length +34 (165 -> 199; the appended clause
+// " — Your Roofer and Roofing Experts" is exactly +34 chars) and
+// Variations in Search Result Link Text +2 (the clause carries
+// 'roofer' +1 and 'roofing' +1). SERP-rendered caveat: Cora tracks the
+// displayed link text at 26 chars, not the HTML title — the title is
+// the only page-side lever and the rerun is the arbiter.
 export const coraLivingstonTitle =
-  "Roof Repair Livingston, NJ — Best Livingston NJ Roofing Services: Roofing Repair, Roof Replacement, Roof Leak Repair, Gutters, Slate & Flat Roof Repair in Livingston";
+  "Roof Repair Livingston, NJ — Best Livingston NJ Roofing Services: Roofing Repair, Roof Replacement, Roof Leak Repair, Gutters, Slate & Flat Roof Repair in Livingston — Your Roofer and Roofing Experts";
 
 // Phase 1 line 13 (Variations in Meta Description +9), line 15
 // ('roofing' in Meta Description +5, was 0), Phase 6 line 66 (Search
 // Result Summary Length +15 chars: 154 -> 289), line 67 (Variations in
 // Search Result Summary +3), Phase 11 line 99 (Variations in OpenGraph
 // Description +9 — buildOG reuses this description for the slug).
+//
+// 2026-10-13 PHRASE pass: Variations in Search Result Summary +2 —
+// "and roofers" adds the 'roofer' wordform +1 and "written roofing
+// warranties" adds 'roofing' +1 (289 -> 309 chars as a byproduct; the
+// phrase run's Summary Length +2 was ruled a mild artifact at adjusted
+// 0, so length was NOT a target of this rewrite — variations only).
 export const coraLivingstonMetaDescription =
-  "Roof repair in Livingston, NJ from Newark Quality Roofing — Livingston roofing repair services for leaks, flashing, and shingles: roofing contractors for emergency roofing, roof replacement, gutter repair, and flat roofing across Essex County, with free inspections and written warranties.";
+  "Roof repair in Livingston, NJ from Newark Quality Roofing — Livingston roofing repair services for leaks, flashing, and shingles: roofing contractors and roofers for emergency roofing, roof replacement, gutter repair, and flat roofing across Essex County, with free inspections and written roofing warranties.";
 
 // Phase X line 120 (Number of Meta Keywords +8), this slug only.
 export const coraLivingstonMetaKeywords =
