@@ -54,6 +54,10 @@ import {
   coraNutleyMetaDescription,
   coraNutleyMetaKeywords,
 } from '@/data/cora-261013-nutley-content';
+import {
+  coraEssexFellsTitle,
+  coraEssexFellsMetaKeywords,
+} from '@/data/cora-261013-essex-fells-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -274,6 +278,18 @@ export async function generateMetadata({
         comboTitle = coraNutleyTitle;
         comboDescription = coraNutleyMetaDescription;
       }
+      // CORA 2026-10-13 phrase pass (Essex Fells only — this city's
+      // FIRST Cora pass): the title is rewritten to exactly 49
+      // characters (Search Result Link Text Length +22; the roadmap's
+      // title entity/variation lines ride the same edit). This roadmap
+      // carries NO meta-description line among its approved set, so the
+      // description is NOT overridden here. The H1 rendered by
+      // ComboTemplate still uses the slug phrase untouched, and the
+      // slug itself does not change. Scoped to this one slug only.
+      const isCoraEssexFells = combo.slug === 'roof-repair-essex-fells-nj';
+      if (isCoraEssexFells) {
+        comboTitle = coraEssexFellsTitle;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -299,6 +315,11 @@ export async function generateMetadata({
         // had NO meta keywords tag; this creates it with the 9-keyword
         // set from the roof_repair_nutley_nj phrase roadmap.
         ...(isCoraNutley ? { keywords: coraNutleyMetaKeywords } : {}),
+        // CORA 2026-10-13 phrase pass (Essex Fells only): the served
+        // page had NO meta keywords tag (Cora's tracked "1" was a
+        // phantom read); this creates it with the 10-keyword set from
+        // the roof_repair_essex_fells_nj phrase roadmap.
+        ...(isCoraEssexFells ? { keywords: coraEssexFellsMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
