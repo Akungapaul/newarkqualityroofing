@@ -204,6 +204,68 @@ export function CoraRoadmap260926() {
             ))}
           </details>
 
+          {/* CORA 2026-10-14 phrase roadmap (keyword "roof repair newark
+              nj") — six standalone heading lines delivered inside this
+              existing supplemental block; no new block created. Each
+              heading carries its phrase as its full text because Cora's
+              variation counting is narrower than substring presence in
+              longer headings; the rerun arbitrates. The seventh clean
+              line (Clean Keyword Density +1, adjusted from +2) is
+              dependent on these six and has no delivery of its own. */}
+          <h2 className="mt-8 font-heading text-2xl font-semibold text-forest">
+            Roof Repair in Newark
+          </h2>
+          <p className="mt-4 font-body text-lg leading-relaxed text-text-secondary">
+            Start with what the roof is doing now: where water shows up inside, which slopes,
+            valleys, and flashings sit above that spot, and how long the damage has been active.
+            That first record decides whether the honest fix is a single repair or a wider scope,
+            and it stays with the address after the work is done.
+          </p>
+
+          <h3 className="mt-6 font-heading text-xl font-semibold text-forest">Services</h3>
+          <p className="mt-4 font-body text-lg leading-relaxed text-text-secondary">
+            The work is grouped by what actually failed: shingle and deck repairs, leak tracing,
+            flashing rebuilds, flat roof patching, and ventilation corrections. Each service is
+            scoped and priced in writing before any material is ordered.
+          </p>
+
+          <h3 className="mt-6 font-heading text-xl font-semibold text-forest">
+            Roof Repair Services
+          </h3>
+          <p className="mt-4 font-body text-lg leading-relaxed text-text-secondary">
+            Some visits combine several of those services in one scope: a leak traced to a valley
+            may also need flashing rebuilt and damaged decking replaced. Combining them while the
+            roof is open costs less than returning for each one separately, and the written scope
+            lists them line by line either way.
+          </p>
+
+          <h3 className="mt-6 font-heading text-xl font-semibold text-forest">
+            Roof Repair in Newark
+          </h3>
+          <p className="mt-4 font-body text-lg leading-relaxed text-text-secondary">
+            Newark roofs range from steep shingle slopes on two-family homes to low-slope roofs
+            over brick rowhouses and small commercial buildings. The repair that fits depends on
+            that construction, so the inspection records roof type, age, and prior repair layers
+            before any scope is proposed.
+          </p>
+
+          <h2 className="mt-8 font-heading text-2xl font-semibold text-forest">
+            Roof Repair Services
+          </h2>
+          <p className="mt-4 font-body text-lg leading-relaxed text-text-secondary">
+            Every completed scope closes with the same record: what was found, what was replaced,
+            which materials went in, and what to watch at the next inspection. Homeowners keep
+            that record with the property file, so a future buyer or insurer can see exactly what
+            was done and when.
+          </p>
+
+          <h2 className="mt-8 font-heading text-2xl font-semibold text-forest">Services</h2>
+          <p className="mt-4 font-body text-lg leading-relaxed text-text-secondary">
+            If you are not sure which service your roof needs, start with an inspection. The
+            visit ends with a written scope naming the service, the materials, and the price, so
+            the decision can be made from the record rather than from a verbal estimate.
+          </p>
+
           <h3 className="font-heading text-xl font-semibold text-forest">
             Which Roof Repair Service Fits the Damage on Your Roof?
           </h3>
