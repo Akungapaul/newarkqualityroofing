@@ -108,6 +108,11 @@ import {
   coraSouthOrangeMetaKeywords,
   coraSouthOrangeTitle,
 } from '@/data/cora-261014-south-orange-content';
+import {
+  coraGlenRidgeMetaDescription,
+  coraGlenRidgeMetaKeywords,
+  coraGlenRidgeTitle,
+} from '@/data/cora-261014-glen-ridge-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -469,6 +474,19 @@ export async function generateMetadata({
         comboTitle = coraSouthOrangeTitle;
         comboDescription = coraSouthOrangeMetaDescription;
       }
+      // CORA 2026-10-14 phrase pass (Glen Ridge only — this
+      // city's FIRST Cora pass): title/meta/keywords edits from
+      // the roof_repair_glen_ridge_nj phrase roadmap. Direct
+      // title/meta edits are the prescribed treatment for those
+      // lines; the H1 rendered by ComboTemplate still uses the
+      // slug phrase untouched, and the slug itself does not
+      // change. Scoped to this one slug — every other combo's
+      // metadata is computed exactly as before.
+      const isCoraGlenRidge = combo.slug === 'roof-repair-glen-ridge-nj';
+      if (isCoraGlenRidge) {
+        comboTitle = coraGlenRidgeTitle;
+        comboDescription = coraGlenRidgeMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -583,6 +601,15 @@ export async function generateMetadata({
         // tag — the batch's first real setter count, taken at
         // face value per the verification).
         ...(isCoraSouthOrange ? { keywords: coraSouthOrangeMetaKeywords } : {}),
+        // CORA 2026-10-14 phrase pass (Glen Ridge only): the
+        // served page had NO meta keywords tag (Cora's tracked
+        // "1" is the batch-wide phantom — every setter tracks
+        // the identical phantom 1 and none serves a tag); this
+        // creates it with the 3-keyword set from the
+        // roof_repair_glen_ridge_nj phrase roadmap (Cora's own
+        // roadmapped goal of 3, the Shared Average, taken at
+        // face value per the verification's stated basis).
+        ...(isCoraGlenRidge ? { keywords: coraGlenRidgeMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
