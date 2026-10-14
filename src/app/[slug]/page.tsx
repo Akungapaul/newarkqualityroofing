@@ -83,6 +83,11 @@ import {
   coraNorthCaldwellMetaDescription,
   coraNorthCaldwellMetaKeywords,
 } from '@/data/cora-261013-north-caldwell-content';
+import {
+  coraOrangeTitle,
+  coraOrangeMetaDescription,
+  coraOrangeMetaKeywords,
+} from '@/data/cora-261013-orange-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -379,6 +384,19 @@ export async function generateMetadata({
         comboTitle = coraNorthCaldwellTitle;
         comboDescription = coraNorthCaldwellMetaDescription;
       }
+      // CORA 2026-10-13 phrase pass (Orange only — this city's
+      // FIRST Cora pass): title/meta/keywords edits from the
+      // roof_repair_orange_nj phrase roadmap. Direct title/meta
+      // edits are the prescribed treatment for those lines; the
+      // H1 rendered by ComboTemplate still uses the slug phrase
+      // untouched, and the slug itself does not change. Scoped
+      // to this one slug — every other combo's metadata is
+      // computed exactly as before.
+      const isCoraOrange = combo.slug === 'roof-repair-orange-nj';
+      if (isCoraOrange) {
+        comboTitle = coraOrangeTitle;
+        comboDescription = coraOrangeMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -447,6 +465,20 @@ export async function generateMetadata({
         // og:description (card/title/images still inherit from
         // the layout).
         ...(isCoraNorthCaldwell ? { twitter: { description: coraNorthCaldwellMetaDescription } } : {}),
+        // CORA 2026-10-13 phrase pass (Orange only): the served
+        // page had NO meta keywords tag (Cora's tracked "1" was a
+        // phantom read); this creates it with the 9-keyword set
+        // from the roof_repair_orange_nj phrase roadmap (the goal
+        // is R4's real, live-verified 9-keyword list).
+        ...(isCoraOrange ? { keywords: coraOrangeMetaKeywords } : {}),
+        // CORA 2026-10-13 phrase pass (Orange only): Variations
+        // in Meta Twitter Description +3 (adjusted) — the served
+        // twitter:description otherwise falls back to the root
+        // layout's static string; for this slug only it carries
+        // the same rewritten meta string as the description and
+        // og:description (card/title/images still inherit from
+        // the layout).
+        ...(isCoraOrange ? { twitter: { description: coraOrangeMetaDescription } } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
