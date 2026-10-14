@@ -243,7 +243,7 @@ export const coraNutleySections: CoraNutleySection[] = [
 // (adjusted from +14) rides on the same act — all 18 new images
 // carry ALT, so the ALT count rises 11 -> 29 as well (+18 delivered
 // against the +9 ask). Srcs are the site's existing service-photo
-// pool (the same /public/images/heroes set the other city passes
+// pool (the same /images/heroes set the other city passes
 // use); ALT text stays — it is invisible and it is what Cora counts,
 // per the standing house rule on photo captions.
 export const coraNutleyPhotoHeading =
@@ -253,24 +253,24 @@ export const coraNutleyPhotoIntro =
   'Eighteen photographs from the working life of this service — Nutley rooftops, the repair details this page describes, and the process each homeowner is buying:';
 
 export const coraNutleyGalleryImages: { src: string; alt: string }[] = [
-  { src: '/public/images/heroes/service-asphalt-shingle-roofing.webp', alt: 'Roof repair Nutley NJ — asphalt shingle field with woven repairs on a Nutley colonial' },
-  { src: '/public/images/heroes/service-asphalt-shingle-roof-replacement.webp', alt: 'Roof leak repair Nutley NJ — shingle course repair above a ceiling stain' },
-  { src: '/public/images/heroes/service-chimney-flashing-repair.webp', alt: 'Roof repair in Nutley NJ — chimney counter-flashing detail in copper and step flashing' },
-  { src: '/public/images/heroes/service-slate-roof-installation-repair.webp', alt: 'Slate roof repair Nutley NJ — replacement slate matched to the original roof' },
-  { src: '/public/images/heroes/service-flat-roof-installation-repair.webp', alt: 'Flat roof repair Nutley NJ — membrane seam resealed on a low-slope two-family roof' },
-  { src: '/public/images/heroes/service-metal-roof-installation-repair.webp', alt: 'Metal roofing repair Nutley NJ — standing seam detail on a porch roof' },
-  { src: '/public/images/heroes/service-gutter-installation-repair.webp', alt: 'Gutter repair Nutley NJ — gutter run re-pitched to stop eave roof leaks' },
-  { src: '/public/images/heroes/service-gutter-guard-installation.webp', alt: 'Roof repair Nutley — aluminum gutter guard fitted under the first shingle course' },
-  { src: '/public/images/heroes/service-emergency-roof-repair.webp', alt: 'Emergency roof repair Nutley NJ — crew securing a storm opening before the permanent repair' },
-  { src: '/public/images/heroes/service-hail-damage-roof-repair.webp', alt: 'Storm damage roof repair Nutley NJ — hail marks documented for the insurance file' },
-  { src: '/public/images/heroes/service-roof-inspection.webp', alt: 'Roof inspection Nutley NJ — inspector reading the deck and flashing before the estimate' },
-  { src: '/public/images/heroes/service-infrared-roof-leak-detection.webp', alt: 'Roof leak repair Nutley — infrared scan tracing a leak path through the attic deck' },
-  { src: '/public/images/heroes/service-cedar-shake-roofing.webp', alt: 'Nutley NJ roofing repair — cedar shake section above a dormer' },
-  { src: '/public/images/heroes/service-epdm-commercial-roofing.webp', alt: 'Flat roof repair in Nutley NJ — EPDM membrane seam on a Franklin Avenue building' },
-  { src: '/public/images/heroes/service-fascia-installation-repair.webp', alt: 'Affordable roof repair Nutley NJ — fascia, soffit, and drip edge rebuilt at the eave' },
-  { src: '/public/images/heroes/service-historic-roof-restoration.webp', alt: 'Roof repair Nutley NJ — historic roof section with slate and copper details' },
-  { src: '/public/images/heroes/service-roof-vent-installation-repair.webp', alt: 'Roofing repair Nutley — ridge ventilation detail above the attic' },
-  { src: '/public/images/heroes/service-skylight-installation-repair.webp', alt: 'Roof repair contractor Nutley NJ — skylight flashing renewed on a shingle roof' },
+  { src: '/images/heroes/service-asphalt-shingle-roofing.webp', alt: 'Roof repair Nutley NJ — asphalt shingle field with woven repairs on a Nutley colonial' },
+  { src: '/images/heroes/service-asphalt-shingle-roof-replacement.webp', alt: 'Roof leak repair Nutley NJ — shingle course repair above a ceiling stain' },
+  { src: '/images/heroes/service-chimney-flashing-repair.webp', alt: 'Roof repair in Nutley NJ — chimney counter-flashing detail in copper and step flashing' },
+  { src: '/images/heroes/service-slate-roof-installation-repair.webp', alt: 'Slate roof repair Nutley NJ — replacement slate matched to the original roof' },
+  { src: '/images/heroes/service-flat-roof-installation-repair.webp', alt: 'Flat roof repair Nutley NJ — membrane seam resealed on a low-slope two-family roof' },
+  { src: '/images/heroes/service-metal-roof-installation-repair.webp', alt: 'Metal roofing repair Nutley NJ — standing seam detail on a porch roof' },
+  { src: '/images/heroes/service-gutter-installation-repair.webp', alt: 'Gutter repair Nutley NJ — gutter run re-pitched to stop eave roof leaks' },
+  { src: '/images/heroes/service-gutter-guard-installation.webp', alt: 'Roof repair Nutley — aluminum gutter guard fitted under the first shingle course' },
+  { src: '/images/heroes/service-emergency-roof-repair.webp', alt: 'Emergency roof repair Nutley NJ — crew securing a storm opening before the permanent repair' },
+  { src: '/images/heroes/service-hail-damage-roof-repair.webp', alt: 'Storm damage roof repair Nutley NJ — hail marks documented for the insurance file' },
+  { src: '/images/heroes/service-roof-inspection.webp', alt: 'Roof inspection Nutley NJ — inspector reading the deck and flashing before the estimate' },
+  { src: '/images/heroes/service-infrared-roof-leak-detection.webp', alt: 'Roof leak repair Nutley — infrared scan tracing a leak path through the attic deck' },
+  { src: '/images/heroes/service-cedar-shake-roofing.webp', alt: 'Nutley NJ roofing repair — cedar shake section above a dormer' },
+  { src: '/images/heroes/service-epdm-commercial-roofing.webp', alt: 'Flat roof repair in Nutley NJ — EPDM membrane seam on a Franklin Avenue building' },
+  { src: '/images/heroes/service-fascia-installation-repair.webp', alt: 'Affordable roof repair Nutley NJ — fascia, soffit, and drip edge rebuilt at the eave' },
+  { src: '/images/heroes/service-historic-roof-restoration.webp', alt: 'Roof repair Nutley NJ — historic roof section with slate and copper details' },
+  { src: '/images/heroes/service-roof-vent-installation-repair.webp', alt: 'Roofing repair Nutley — ridge ventilation detail above the attic' },
+  { src: '/images/heroes/service-skylight-installation-repair.webp', alt: 'Roof repair contractor Nutley NJ — skylight flashing renewed on a shingle roof' },
 ];
 
 // ─── Outbound links (clean lines 15/16) ────────────────────────────

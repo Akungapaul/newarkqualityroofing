@@ -670,7 +670,7 @@ export function CoraRoadmap261012Irvington() {
           <meta itemProp="contentUrl" content="https://newarkqualityroofing.com/images/heroes/city-irvington.webp" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/public/images/heroes/city-irvington.webp"
+            src="/images/heroes/city-irvington.webp"
             alt="Roof repair Irvington NJ — rooftops and rooflines above the neighborhood streets"
             itemProp="image"
             className={vClass(17)}

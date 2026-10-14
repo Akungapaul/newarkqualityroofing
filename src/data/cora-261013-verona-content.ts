@@ -205,7 +205,7 @@ export const coraVeronaSections: CoraVeronaSection[] = [
 // on the same act — all 21 new images carry ALT, so the ALT count
 // rises 11 -> 32 as well (+21 delivered against the +9 ask). Srcs
 // are the site's existing service-photo pool (the same
-// /public/images/heroes set the other city passes use); ALT text
+// /images/heroes set the other city passes use); ALT text
 // stays — it is invisible and it is what Cora counts, per the
 // standing house rule on photo captions.
 export const coraVeronaPhotoHeading =
@@ -215,27 +215,27 @@ export const coraVeronaPhotoIntro =
   'Twenty-one photographs from the working life of this service — Verona rooftops, the repair details this page describes, and the process each homeowner is buying:';
 
 export const coraVeronaGalleryImages: { src: string; alt: string }[] = [
-  { src: '/public/images/heroes/service-roof-repair.webp', alt: 'Roof repair Verona NJ — crew repairing a shingle field on a Verona colonial' },
-  { src: '/public/images/heroes/service-roof-leak-repair.webp', alt: 'Roof leak repair Verona NJ — leak traced through the attic deck to a failed flashing joint' },
-  { src: '/public/images/heroes/service-roof-flashing-installation-repair.webp', alt: 'Roof repair in Verona NJ — step flashing installed in the right order at a roof-to-wall joint' },
-  { src: '/public/images/heroes/service-asphalt-shingle-roofing.webp', alt: 'Roof repair Verona — asphalt shingle courses blended into a weathered field' },
-  { src: '/public/images/heroes/service-slate-roof-installation-repair.webp', alt: 'Slate roof repair Verona NJ — replacement slate matched to the original roof near Verona Park' },
-  { src: '/public/images/heroes/service-flat-roof-installation-repair.webp', alt: 'Flat roof repair Verona NJ — membrane seam resealed on a low-slope Bloomfield Avenue roof' },
-  { src: '/public/images/heroes/service-metal-roof-installation-repair.webp', alt: 'Metal roofing repair Verona NJ — standing seam detail on a porch roof' },
-  { src: '/public/images/heroes/service-gutter-installation-repair.webp', alt: 'Gutter repair Verona NJ — gutter run re-pitched to stop eave roof leaks' },
-  { src: '/public/images/heroes/service-gutter-guard-installation.webp', alt: 'Roof repair Verona — aluminum gutter guard fitted under the first shingle course' },
-  { src: '/public/images/heroes/service-emergency-roof-repair.webp', alt: 'Emergency roof repair Verona NJ — crew securing a storm opening before the permanent repair' },
-  { src: '/public/images/heroes/service-storm-damage-roof-repair.webp', alt: 'Storm damage roof repair Verona NJ — wind-lifted shingles documented on a Hilltop roof' },
-  { src: '/public/images/heroes/service-hail-damage-roof-repair.webp', alt: 'Roof repair Verona NJ — hail marks documented for the insurance file' },
-  { src: '/public/images/heroes/service-roof-inspection.webp', alt: 'Roof inspection Verona NJ — inspector reading the deck and flashing before the estimate' },
-  { src: '/public/images/heroes/service-infrared-roof-leak-detection.webp', alt: 'Roof leak repair Verona — infrared scan tracing a leak path through the attic deck' },
-  { src: '/public/images/heroes/service-tile-roof-installation-repair.webp', alt: 'Tile roof repair Verona NJ — tile section renewed over new underlayment and flashing' },
-  { src: '/public/images/heroes/service-fascia-installation-repair.webp', alt: 'Affordable roof repair Verona NJ — fascia, soffit, and drip edge rebuilt at the eave' },
-  { src: '/public/images/heroes/service-soffit-installation-repair.webp', alt: 'Roof repair Verona NJ — soffit and ventilation rebuilt along the eave' },
-  { src: '/public/images/heroes/service-roof-vent-installation-repair.webp', alt: 'Roofing repair Verona — ridge ventilation detail above the attic' },
-  { src: '/public/images/heroes/service-skylight-installation-repair.webp', alt: 'Roof repair contractor Verona NJ — skylight flashing renewed on a shingle roof' },
-  { src: '/public/images/heroes/service-cedar-shake-roofing.webp', alt: 'Verona NJ roofing repair — cedar shake section above a dormer' },
-  { src: '/public/images/heroes/service-roof-ice-dam-prevention.webp', alt: 'Roof repair Verona NJ — ice dam prevention along a shaded north slope' },
+  { src: '/images/heroes/service-roof-repair.webp', alt: 'Roof repair Verona NJ — crew repairing a shingle field on a Verona colonial' },
+  { src: '/images/heroes/service-roof-leak-repair.webp', alt: 'Roof leak repair Verona NJ — leak traced through the attic deck to a failed flashing joint' },
+  { src: '/images/heroes/service-roof-flashing-installation-repair.webp', alt: 'Roof repair in Verona NJ — step flashing installed in the right order at a roof-to-wall joint' },
+  { src: '/images/heroes/service-asphalt-shingle-roofing.webp', alt: 'Roof repair Verona — asphalt shingle courses blended into a weathered field' },
+  { src: '/images/heroes/service-slate-roof-installation-repair.webp', alt: 'Slate roof repair Verona NJ — replacement slate matched to the original roof near Verona Park' },
+  { src: '/images/heroes/service-flat-roof-installation-repair.webp', alt: 'Flat roof repair Verona NJ — membrane seam resealed on a low-slope Bloomfield Avenue roof' },
+  { src: '/images/heroes/service-metal-roof-installation-repair.webp', alt: 'Metal roofing repair Verona NJ — standing seam detail on a porch roof' },
+  { src: '/images/heroes/service-gutter-installation-repair.webp', alt: 'Gutter repair Verona NJ — gutter run re-pitched to stop eave roof leaks' },
+  { src: '/images/heroes/service-gutter-guard-installation.webp', alt: 'Roof repair Verona — aluminum gutter guard fitted under the first shingle course' },
+  { src: '/images/heroes/service-emergency-roof-repair.webp', alt: 'Emergency roof repair Verona NJ — crew securing a storm opening before the permanent repair' },
+  { src: '/images/heroes/service-storm-damage-roof-repair.webp', alt: 'Storm damage roof repair Verona NJ — wind-lifted shingles documented on a Hilltop roof' },
+  { src: '/images/heroes/service-hail-damage-roof-repair.webp', alt: 'Roof repair Verona NJ — hail marks documented for the insurance file' },
+  { src: '/images/heroes/service-roof-inspection.webp', alt: 'Roof inspection Verona NJ — inspector reading the deck and flashing before the estimate' },
+  { src: '/images/heroes/service-infrared-roof-leak-detection.webp', alt: 'Roof leak repair Verona — infrared scan tracing a leak path through the attic deck' },
+  { src: '/images/heroes/service-tile-roof-installation-repair.webp', alt: 'Tile roof repair Verona NJ — tile section renewed over new underlayment and flashing' },
+  { src: '/images/heroes/service-fascia-installation-repair.webp', alt: 'Affordable roof repair Verona NJ — fascia, soffit, and drip edge rebuilt at the eave' },
+  { src: '/images/heroes/service-soffit-installation-repair.webp', alt: 'Roof repair Verona NJ — soffit and ventilation rebuilt along the eave' },
+  { src: '/images/heroes/service-roof-vent-installation-repair.webp', alt: 'Roofing repair Verona — ridge ventilation detail above the attic' },
+  { src: '/images/heroes/service-skylight-installation-repair.webp', alt: 'Roof repair contractor Verona NJ — skylight flashing renewed on a shingle roof' },
+  { src: '/images/heroes/service-cedar-shake-roofing.webp', alt: 'Verona NJ roofing repair — cedar shake section above a dormer' },
+  { src: '/images/heroes/service-roof-ice-dam-prevention.webp', alt: 'Roof repair Verona NJ — ice dam prevention along a shaded north slope' },
 ];
 
 // ─── Outbound links (clean lines 21–24) ────────────────────────────
