@@ -78,6 +78,11 @@ import {
   coraBellevilleMetaDescription,
   coraBellevilleMetaKeywords,
 } from '@/data/cora-261013-belleville-content';
+import {
+  coraNorthCaldwellTitle,
+  coraNorthCaldwellMetaDescription,
+  coraNorthCaldwellMetaKeywords,
+} from '@/data/cora-261013-north-caldwell-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -361,6 +366,19 @@ export async function generateMetadata({
         comboTitle = coraBellevilleTitle;
         comboDescription = coraBellevilleMetaDescription;
       }
+      // CORA 2026-10-13 phrase pass (North Caldwell only — this
+      // city's FIRST Cora pass): title/meta/keywords edits from
+      // the roof_repair_north_caldwell_nj phrase roadmap. Direct
+      // title/meta edits are the prescribed treatment for those
+      // lines; the H1 rendered by ComboTemplate still uses the
+      // slug phrase untouched, and the slug itself does not
+      // change. Scoped to this one slug — every other combo's
+      // metadata is computed exactly as before.
+      const isCoraNorthCaldwell = combo.slug === 'roof-repair-north-caldwell-nj';
+      if (isCoraNorthCaldwell) {
+        comboTitle = coraNorthCaldwellTitle;
+        comboDescription = coraNorthCaldwellMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -414,6 +432,21 @@ export async function generateMetadata({
         // headline goal is R9's lone 19-keyword list, adjusted to
         // R1's field-supported 9).
         ...(isCoraBelleville ? { keywords: coraBellevilleMetaKeywords } : {}),
+        // CORA 2026-10-13 phrase pass (North Caldwell only): the
+        // served page had NO meta keywords tag (Cora's tracked
+        // "1" was a phantom read); this creates it with the
+        // 6-keyword set from the roof_repair_north_caldwell_nj
+        // phrase roadmap (the goal is R3's real, head-captured
+        // 6-keyword list).
+        ...(isCoraNorthCaldwell ? { keywords: coraNorthCaldwellMetaKeywords } : {}),
+        // CORA 2026-10-13 phrase pass (North Caldwell only):
+        // Variations in Meta Twitter Description +1 — the served
+        // twitter:description otherwise falls back to the root
+        // layout's static string; for this slug only it carries
+        // the same rewritten meta string as the description and
+        // og:description (card/title/images still inherit from
+        // the layout).
+        ...(isCoraNorthCaldwell ? { twitter: { description: coraNorthCaldwellMetaDescription } } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
