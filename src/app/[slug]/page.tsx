@@ -63,6 +63,11 @@ import {
   coraVeronaMetaDescription,
   coraVeronaMetaKeywords,
 } from '@/data/cora-261013-verona-content';
+import {
+  coraBloomfieldTitle,
+  coraBloomfieldMetaDescription,
+  coraBloomfieldMetaKeywords,
+} from '@/data/cora-261013-bloomfield-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -307,6 +312,19 @@ export async function generateMetadata({
         comboTitle = coraVeronaTitle;
         comboDescription = coraVeronaMetaDescription;
       }
+      // CORA 2026-10-13 phrase pass (Bloomfield only — this city's
+      // FIRST Cora pass): title/meta/keywords edits from the
+      // roof_repair_bloomfield_nj phrase roadmap. Direct title/meta
+      // edits are the prescribed treatment for those lines; the H1
+      // rendered by ComboTemplate still uses the slug phrase
+      // untouched, and the slug itself does not change. Scoped to
+      // this one slug — every other combo's metadata is computed
+      // exactly as before.
+      const isCoraBloomfield = combo.slug === 'roof-repair-bloomfield-nj';
+      if (isCoraBloomfield) {
+        comboTitle = coraBloomfieldTitle;
+        comboDescription = coraBloomfieldMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -342,6 +360,11 @@ export async function generateMetadata({
         // read); this creates it with the 8-keyword set from the
         // roof_repair_verona_nj phrase roadmap.
         ...(isCoraVerona ? { keywords: coraVeronaMetaKeywords } : {}),
+        // CORA 2026-10-13 phrase pass (Bloomfield only): the served
+        // page had NO meta keywords tag (Cora's tracked "1" was a
+        // phantom read); this creates it with the 9-keyword set from
+        // the roof_repair_bloomfield_nj phrase roadmap.
+        ...(isCoraBloomfield ? { keywords: coraBloomfieldMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
