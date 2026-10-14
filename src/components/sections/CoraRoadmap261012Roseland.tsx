@@ -730,7 +730,7 @@ export function CoraRoadmap261012Roseland() {
           <meta itemProp="contentUrl" content="https://newarkqualityroofing.com/images/heroes/city-roseland.webp" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/public/images/heroes/city-roseland.webp"
+            src="/images/heroes/city-roseland.webp"
             alt="Roof repair Roseland NJ — rooftops and rooflines above the neighborhood streets"
             itemProp="image"
             className={vClass(17)}

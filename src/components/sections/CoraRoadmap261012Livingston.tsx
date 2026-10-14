@@ -701,7 +701,7 @@ export function CoraRoadmap261012Livingston() {
           <meta itemProp="contentUrl" content="https://newarkqualityroofing.com/images/heroes/city-livingston.webp" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/public/images/heroes/city-livingston.webp"
+            src="/images/heroes/city-livingston.webp"
             alt="Roof repair Livingston NJ — rooftops and rooflines above the neighborhood streets"
             itemProp="image"
             className={vClass(17)}
