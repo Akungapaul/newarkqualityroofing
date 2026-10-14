@@ -103,6 +103,11 @@ import {
   coraMillburnMetaKeywords,
   coraMillburnTitle,
 } from '@/data/cora-261014-millburn-content';
+import {
+  coraSouthOrangeMetaDescription,
+  coraSouthOrangeMetaKeywords,
+  coraSouthOrangeTitle,
+} from '@/data/cora-261014-south-orange-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -451,6 +456,19 @@ export async function generateMetadata({
         comboTitle = coraMillburnTitle;
         comboDescription = coraMillburnMetaDescription;
       }
+      // CORA 2026-10-14 phrase pass (South Orange only — this
+      // city's FIRST Cora pass): title/meta/keywords edits from
+      // the roof_repair_south_orange_nj phrase roadmap. Direct
+      // title/meta edits are the prescribed treatment for those
+      // lines; the H1 rendered by ComboTemplate still uses the
+      // slug phrase untouched, and the slug itself does not
+      // change. Scoped to this one slug — every other combo's
+      // metadata is computed exactly as before.
+      const isCoraSouthOrange = combo.slug === 'roof-repair-south-orange-nj';
+      if (isCoraSouthOrange) {
+        comboTitle = coraSouthOrangeTitle;
+        comboDescription = coraSouthOrangeMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -557,6 +575,14 @@ export async function generateMetadata({
         // the Page-1 Average; 4 is the smallest real list in this
         // field and the Roadmap ask's whole target).
         ...(isCoraMillburn ? { keywords: coraMillburnMetaKeywords } : {}),
+        // CORA 2026-10-14 phrase pass (South Orange only): the
+        // served page had NO meta keywords tag (Cora's tracked
+        // "1" is the field-wide phantom); this creates it with
+        // the 9-keyword set from the roof_repair_south_orange_nj
+        // phrase roadmap (the goal 9 is R1's REAL nine-keyword
+        // tag — the batch's first real setter count, taken at
+        // face value per the verification).
+        ...(isCoraSouthOrange ? { keywords: coraSouthOrangeMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
