@@ -68,6 +68,11 @@ import {
   coraBloomfieldMetaDescription,
   coraBloomfieldMetaKeywords,
 } from '@/data/cora-261013-bloomfield-content';
+import {
+  coraCaldwellTitle,
+  coraCaldwellMetaDescription,
+  coraCaldwellMetaKeywords,
+} from '@/data/cora-261013-caldwell-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -325,6 +330,19 @@ export async function generateMetadata({
         comboTitle = coraBloomfieldTitle;
         comboDescription = coraBloomfieldMetaDescription;
       }
+      // CORA 2026-10-13 phrase pass (Caldwell only — this city's
+      // FIRST Cora pass): title/meta/keywords edits from the
+      // roof_repair_caldwell_nj phrase roadmap. Direct title/meta
+      // edits are the prescribed treatment for those lines; the
+      // H1 rendered by ComboTemplate still uses the slug phrase
+      // untouched, and the slug itself does not change. Scoped to
+      // this one slug — every other combo's metadata is computed
+      // exactly as before.
+      const isCoraCaldwell = combo.slug === 'roof-repair-caldwell-nj';
+      if (isCoraCaldwell) {
+        comboTitle = coraCaldwellTitle;
+        comboDescription = coraCaldwellMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -365,6 +383,12 @@ export async function generateMetadata({
         // phantom read); this creates it with the 9-keyword set from
         // the roof_repair_bloomfield_nj phrase roadmap.
         ...(isCoraBloomfield ? { keywords: coraBloomfieldMetaKeywords } : {}),
+        // CORA 2026-10-13 phrase pass (Caldwell only): the served
+        // page had NO meta keywords tag (Cora's tracked "1" was a
+        // phantom read); this creates it with the 9-keyword set
+        // from the roof_repair_caldwell_nj phrase roadmap (the
+        // goal is R1's real, live-verified 9-keyword list).
+        ...(isCoraCaldwell ? { keywords: coraCaldwellMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
