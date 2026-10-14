@@ -27,6 +27,7 @@ import { CoraRoadmap261012EastOrange } from '@/components/sections/CoraRoadmap26
 import { CoraRoadmap261012Livingston } from '@/components/sections/CoraRoadmap261012Livingston';
 import { CoraRoadmap261012Roseland } from '@/components/sections/CoraRoadmap261012Roseland';
 import { CoraRoadmap261012Irvington } from '@/components/sections/CoraRoadmap261012Irvington';
+import { CoraRoadmap261013Nutley } from '@/components/sections/CoraRoadmap261013Nutley';
 import {
   buildServiceSchema,
   buildWebPageSchema,
@@ -278,6 +279,11 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
       {/* CORA 2026-10-12 supplemental block — rendered ONLY for the
           roof-repair x irvington combo; every other combo is unchanged. */}
       {service.id === 'roof-repair' && city.id === 'irvington' && <CoraRoadmap261012Irvington />}
+
+      {/* CORA 2026-10-13 phrase supplemental block — rendered ONLY for the
+          roof-repair x nutley combo (this city's first Cora pass);
+          every other combo is unchanged. */}
+      {service.id === 'roof-repair' && city.id === 'nutley' && <CoraRoadmap261013Nutley />}
 
       <ComboCtaBanner
         service={service}

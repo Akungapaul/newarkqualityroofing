@@ -49,6 +49,11 @@ import {
   coraIrvingtonMetaDescription,
   coraIrvingtonMetaKeywords,
 } from '@/data/cora-261012-irvington-content';
+import {
+  coraNutleyTitle,
+  coraNutleyMetaDescription,
+  coraNutleyMetaKeywords,
+} from '@/data/cora-261013-nutley-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -257,6 +262,18 @@ export async function generateMetadata({
         comboTitle = coraIrvingtonTitle;
         comboDescription = coraIrvingtonMetaDescription;
       }
+      // CORA 2026-10-13 phrase pass (Nutley only — this city's FIRST
+      // Cora pass): title/meta/keywords edits from the
+      // roof_repair_nutley_nj phrase roadmap. Direct title/meta edits
+      // are the prescribed treatment for those lines; the H1 rendered
+      // by ComboTemplate still uses the slug phrase untouched, and
+      // the slug itself does not change. Scoped to this one slug —
+      // every other combo's metadata is computed exactly as before.
+      const isCoraNutley = combo.slug === 'roof-repair-nutley-nj';
+      if (isCoraNutley) {
+        comboTitle = coraNutleyTitle;
+        comboDescription = coraNutleyMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -278,6 +295,10 @@ export async function generateMetadata({
         ...(isCoraLivingston ? { keywords: coraLivingstonMetaKeywords } : {}),
         ...(isCoraRoseland ? { keywords: coraRoselandMetaKeywords } : {}),
         ...(isCoraIrvington ? { keywords: coraIrvingtonMetaKeywords } : {}),
+        // CORA 2026-10-13 phrase pass (Nutley only): the served page
+        // had NO meta keywords tag; this creates it with the 9-keyword
+        // set from the roof_repair_nutley_nj phrase roadmap.
+        ...(isCoraNutley ? { keywords: coraNutleyMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
