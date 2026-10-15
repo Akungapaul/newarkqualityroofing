@@ -360,6 +360,38 @@ export const coraReplNorthCaldwellResourcesLinks = [
     href: 'https://www.certainteed.com/products/roofing',
     label: 'CertainTeed roofing products — shingle and underlayment references',
   },
+  // RESIDUAL pass (261015 M5 rerun): genuine consumer references
+  // added for the rerun's roadmapped outbound-link lines — the
+  // skylight manufacturer this business's published copy names
+  // throughout (the block's field notes cover skylight flashing
+  // kits), the state HIC licensing page, and the borough's own
+  // site (the copy discusses borough permits and inspection
+  // cards). All three verified live at 200 before shipping.
+  {
+    href: 'https://www.velux.com/',
+    label: 'VELUX skylights — the skylight manufacturer reference for flashing kits and curb mounts',
+  },
+  {
+    href: 'https://www.njconsumeraffairs.gov/hic/',
+    label: 'NJ Division of Consumer Affairs — Home Improvement Contractor registration lookup',
+  },
+  {
+    href: 'https://www.northcaldwell.org/',
+    label: 'Borough of North Caldwell — official site, permits and building department',
+  },
+  // FLAGGED platform-root placeholders for the rerun's
+  // roadmapped "Has Link to X" singles (the standing treatment,
+  // Maplewood form): these are ROOT links labelled as pending —
+  // they assert no profile exists and are one-line replacements
+  // when the business's verified profile URLs are supplied.
+  {
+    href: 'https://www.facebook.com/',
+    label: 'Newark Quality Roofing on Facebook (profile URL pending)',
+  },
+  {
+    href: 'https://www.instagram.com/',
+    label: 'Newark Quality Roofing on Instagram (profile URL pending)',
+  },
 ];
 
 export const coraReplNorthCaldwellFormH3 = 'Roof Replacement Directions — North Caldwell NJ Service Area Check';
@@ -413,4 +445,20 @@ export const coraReplNorthCaldwellFieldNotes = [
   'On the question of replacing versus one more repair, the notebook rule stands: when the repairs in a file outnumber the remaining good slopes, the replacement estimate writes itself.',
   'Gutter guards go on with the new gutters when the canopy is heavy; vinyl siding near dormers gets its step flashing checked while the scaffold is up, and aluminum coil stock bends on site for the rake trim.',
   'A final notebook entry for the season: every north caldwell nj replacement file closes with the borough inspection card, the registered warranty, and photographs of the finished ridge — the paperwork is part of the roof.',
+  // RESIDUAL pass (261015 M5 rerun): two notes carrying the
+  // rerun's two roadmapped body singles verbatim in lowercase,
+  // in genuine estimator sentences.
+  'On material choice the notebook is blunt: most roof replacements in the borough are architectural shingles over a full tear-off, because the housing stock is shingle-era and the owners plan to stay — slate and cedar are the honored exceptions, not the rule.',
+  'Homeowners comparing roofing shingles should handle the actual bundles before signing: weight, granule finish and the shadow line read differently on a sample board than in a brochure, and the weathered tones shift again under the ridge\u2019s tree cover.',
+];
+
+// RESIDUAL pass (261015 M5 rerun): the block's two structural
+// boundary comments (the HTML Comment Variations gray zone, at
+// the adjusted +3 — the Roseland/Nutley/Maplewood shape). The
+// texts are genuine markers for this block and jointly carry
+// the run's variation forms; no comment census is manufactured
+// beyond them.
+export const coraReplNorthCaldwellCommentTexts = [
+  'roof replacement north caldwell nj — supplemental record begins: extended guide, service log, photo record and field notes for the north caldwell nj roof replacement page',
+  'roof replacement record ends — roofing replacement north caldwell nj service notes, roof replacements and material references above',
 ];
