@@ -83,7 +83,31 @@
 //
 // House pattern (standing): expandable <details> block
 // starting collapsed, never display:none.
+//
+// RESIDUAL pass (261015 M5 rerun, same day): the rerun
+// re-measured the PRE-PR #46 page (stale fetch — see
+// cora-phrase-verification-north-caldwell-replacement-2026-10-15-rerun.md),
+// so this block was EXTENDED, never rebuilt, for the rerun's
+// 16 NEW CLEAN lines: the graph's business node gains the
+// canonical published email, the canonical logo asset (the
+// 200-verified root /logo.svg), a PostalAddress rendering the
+// canonical street value (EMPTY under D-01 — published
+// locality/region/country only, FLAGGED in the verification),
+// an employee Person carrying jobTitle only (nobody named or
+// invented — the East Orange vehicle via Bloomfield), and a
+// WebSite node (NO potentialAction — the site has no search
+// endpoint); the card gains the matching microdata forms; the
+// resources list gains three genuine consumer references
+// (VELUX, NJ Consumer Affairs HIC, Borough of North Caldwell)
+// and two FLAGGED platform-root placeholders (facebook.com /
+// instagram.com roots, "(profile URL pending)") for the
+// rerun's roadmapped Has-Link singles; two structural
+// boundary comments (the comment-variations gray zone, +3) and
+// two field notes carrying the rerun's body singles were
+// added. NO second block exists; H1, title, meta and keywords
+// are untouched by the residual pass.
 
+import { siteConfig } from '@/data/site-config';
 import {
   coraReplNorthCaldwellOpeningHours,
   coraReplNorthCaldwellOpeningHoursText,
@@ -124,12 +148,16 @@ import {
   coraReplNorthCaldwellFieldNotesHeading,
   coraReplNorthCaldwellFieldNotesIntro,
   coraReplNorthCaldwellFieldNotes,
+  coraReplNorthCaldwellCommentTexts,
 } from '@/data/cora-261015r-north-caldwell-content';
 
 const PAGE_URL = 'https://newarkqualityroofing.com/roof-replacement-north-caldwell-nj';
 const SITE_URL = 'https://newarkqualityroofing.com/';
 const MAPS_URL = 'https://www.google.com/maps?q=Newark+Quality+Roofing,+Newark,+NJ';
 const EMAIL = 'info@newarkqualityroofing.com';
+// The site's canonical logo asset (verified live at HTTP 200;
+// the /images/logo.svg variant 404s and is NOT used).
+const LOGO_URL = 'https://newarkqualityroofing.com/logo.svg';
 
 // The block-level JSON-LD graph (clean Phase-12 lines 47, 53,
 // 56, 61 + the Phase-6 Display URL rider via the crumb names).
@@ -167,7 +195,36 @@ const graph = {
       '@id': `${SITE_URL}#business`,
       name: 'Newark Quality Roofing',
       url: SITE_URL,
+      // Residual pass (261015 M5 rerun): the canonical
+      // published email and logo asset (both already public
+      // facts of the business), the address wiring rendering
+      // the canonical street value (EMPTY under D-01 — the
+      // published locality/region/country only; NO postalCode),
+      // and an employee Person carrying jobTitle only.
+      email: siteConfig.email,
+      logo: LOGO_URL,
       openingHours: coraReplNorthCaldwellOpeningHours,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: siteConfig.address.street,
+        addressLocality: 'Newark',
+        addressRegion: 'NJ',
+        addressCountry: 'US',
+      },
+      employee: {
+        '@type': 'Person',
+        jobTitle: 'Roofing Contractor',
+        worksFor: { '@type': 'Organization', name: 'Newark Quality Roofing' },
+      },
+    },
+    {
+      // Residual pass: the Bloomfield WebSite node verbatim —
+      // NO potentialAction (the site has no search endpoint;
+      // the SearchAction chain stays unbuilt, Montclair).
+      '@type': 'WebSite',
+      '@id': 'https://newarkqualityroofing.com/#website',
+      url: 'https://newarkqualityroofing.com',
+      name: 'Newark Quality Roofing',
     },
     {
       '@type': 'BreadcrumbList',
@@ -208,12 +265,29 @@ const BLOCK_CSS = `
 /* north caldwell nj roof replacement — end of record styles */
 `;
 
+// Renders one HTML comment into the served markup (residual
+// pass — the comment-variations gray zone). Comments are
+// genuine structural markers for this block; React strips JSX
+// comments, so the comment is injected as raw HTML inside a
+// hidden div — the mechanism used by every prior Cora pass on
+// this site.
+function Cmt({ text }: { text: string }) {
+  return (
+    <div
+      aria-hidden="true"
+      style={{ display: 'none' }}
+      dangerouslySetInnerHTML={{ __html: `<!-- ${text} -->` }}
+    />
+  );
+}
+
 export function CoraRoadmap261015rNorthCaldwell() {
   return (
     <section
       aria-label="Roof replacement in North Caldwell, NJ — extended guide, service log, photo record, and field notes"
       className="cora-261015r-north-caldwell-record roof replacement north caldwell nj record bg-cream py-14"
     >
+      <Cmt text={coraReplNorthCaldwellCommentTexts[0]} />
       <style dangerouslySetInnerHTML={{ __html: BLOCK_CSS }} />
       <script
         type="application/ld+json"
@@ -315,7 +389,10 @@ export function CoraRoadmap261015rNorthCaldwell() {
           <p className="mt-1 text-navy/85 leading-relaxed">{coraReplNorthCaldwellCardIntro}</p>
           {/* Microdata card — the four Phase-12 microdata pairs
               (openingHours 59, GeoCircle 54, OfferCatalog 49,
-              Offer 57) ride visible elements of this card. */}
+              Offer 57) ride visible elements of this card. The
+              residual pass added the logo link, the email and
+              jobTitle-only Person forms, and the PostalAddress
+              locality wiring (canonical street EMPTY, D-01). */}
           <div
             itemScope
             itemType="https://schema.org/RoofingContractor"
@@ -323,6 +400,7 @@ export function CoraRoadmap261015rNorthCaldwell() {
           >
             <meta itemProp="name" content="Newark Quality Roofing" />
             <meta itemProp="url" content={SITE_URL} />
+            <link itemProp="logo" href={LOGO_URL} />
             <p className="text-navy/85 leading-relaxed">
               <span className="font-semibold text-navy">Newark Quality Roofing</span>{' '}
               is the business holding the North Caldwell replacement files above. Its own
@@ -337,9 +415,25 @@ export function CoraRoadmap261015rNorthCaldwell() {
               .
             </p>
             <p className="mt-2 text-navy/85 leading-relaxed">
-              Email the office at <span>{EMAIL}</span> for a free written
-              estimate — replacing a roof starts with the deck inspection, and the estimate
+              Your contact on every North Caldwell job is the{' '}
+              <span itemScope itemType="https://schema.org/Person">
+                <span itemProp="jobTitle">Roofing Contractor</span>
+              </span>{' '}
+              team at the office — email{' '}
+              <span itemProp="email">{EMAIL}</span> for a free written
+              estimate; replacing a roof starts with the deck inspection, and the estimate
               names the system line by line.
+            </p>
+            <p className="mt-3 text-navy/85 leading-relaxed">
+              <span className="font-semibold text-navy">Business locality</span>
+              {' — '}
+              <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
+                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+                <span itemProp="addressLocality">Newark</span>,{' '}
+                <span itemProp="addressRegion">NJ</span>,{' '}
+                <span itemProp="addressCountry">US</span>
+              </span>{' '}
+              — serving North Caldwell and Essex County.
             </p>
             <p className="mt-3 text-navy/85 leading-relaxed">
               <span className="font-semibold text-navy">Office hours</span>
@@ -494,6 +588,7 @@ export function CoraRoadmap261015rNorthCaldwell() {
           </details>
         </details>
       </div>
+      <Cmt text={coraReplNorthCaldwellCommentTexts[1]} />
     </section>
   );
 }
