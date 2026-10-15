@@ -204,6 +204,11 @@ import {
   coraReplOrangeMetaKeywords,
   coraReplOrangeTitle,
 } from '@/data/cora-261015r-orange-content';
+import {
+  coraReplWestOrangeMetaDescription,
+  coraReplWestOrangeMetaKeywords,
+  coraReplWestOrangeTitle,
+} from '@/data/cora-261015r-west-orange-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -866,6 +871,21 @@ export async function generateMetadata({
         comboTitle = coraReplOrangeTitle;
         comboDescription = coraReplOrangeMetaDescription;
       }
+      // CORA 2026-10-15 replacement pass (first for this page):
+      // the West Orange REPLACEMENT page serves its SEO title
+      // (>= 5 variation occurrences, >= 5 entity occurrences,
+      // 'roofing company' once, ~180 chars — past the Link Text
+      // Length rider's goal of 55; full literal asks win, delta
+      // disclosed) and meta description (>= 6 variation
+      // occurrences, 'roofing company' once, >= 162 chars) from
+      // the 261015r West Orange pass. Distinct from the
+      // roof-REPAIR isCoraWestOrange treatment (PR #29). See
+      // src/data/cora-261015r-west-orange-content.ts.
+      const isCoraReplWestOrange = combo.slug === 'roof-replacement-west-orange-nj';
+      if (isCoraReplWestOrange) {
+        comboTitle = coraReplWestOrangeTitle;
+        comboDescription = coraReplWestOrangeMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -1124,6 +1144,14 @@ export async function generateMetadata({
         // Fairfield/Roseland ruling), built from this run's
         // verbatim variation forms.
         ...(isCoraReplOrange ? { keywords: coraReplOrangeMetaKeywords } : {}),
+        // CORA 2026-10-15 replacement pass (West Orange only):
+        // the served page had NO meta keywords tag (Cora's
+        // tracked "1" was the phantom read); this creates it
+        // with the 9-keyword set — the goal 9 is R4's REAL
+        // served tag, live-verified on 2026-10-15 — built from
+        // this page's own terms and this run's verbatim
+        // variation forms.
+        ...(isCoraReplWestOrange ? { keywords: coraReplWestOrangeMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
