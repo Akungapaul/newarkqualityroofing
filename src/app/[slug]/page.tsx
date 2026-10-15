@@ -118,6 +118,11 @@ import {
   coraReplSouthOrangeMetaKeywords,
   coraReplSouthOrangeTitle,
 } from '@/data/cora-261014r-south-orange-content';
+import {
+  coraReplNewarkMetaDescription,
+  coraReplNewarkMetaKeywords,
+  coraReplNewarkTitle,
+} from '@/data/cora-261014r-newark-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -209,16 +214,29 @@ export async function generateMetadata({
         : serviceSurfer?.h1 ?? HEADING_CONFIG.serviceH1Overrides[service.id] ?? HEADING_CONFIG.service.h1(service.name);
       const serviceDescription = serviceSurfer?.metaDescription ?? serviceDesc;
       const isRoofRepair = service.id === 'roof-repair';
+      // CORA 2026-10-14 REPLACEMENT phrase pass (roof-replacement service
+      // only — this page's FIRST Cora pass): title/meta/keywords edits from
+      // the roof_replacement_newark_nj phrase roadmap. Direct title/meta
+      // edits are the prescribed treatment for those lines; the H1 rendered
+      // by ServiceTemplate still uses the slug phrase untouched, and the
+      // slug itself does not change. Scoped to this one service — every
+      // other service page's metadata is computed exactly as before.
+      const isCoraReplNewark = service.id === 'roof-replacement';
+      const finalServiceTitle = isCoraReplNewark ? coraReplNewarkTitle : serviceTitle;
+      const finalServiceDescription = isCoraReplNewark ? coraReplNewarkMetaDescription : serviceDescription;
       return {
-        title: { absolute: serviceTitle },
-        description: serviceDescription,
+        title: { absolute: finalServiceTitle },
+        description: finalServiceDescription,
         // Emitted only for services that declare it (currently roof-repair).
         // Google has ignored the keywords tag since 2009 — this is here because
         // the client's on-page tool scores it, not for ranking value.
-        keywords: service.metaKeywords,
+        // CORA 2026-10-14 (Newark replacement only): the served page had NO
+        // meta keywords tag; this creates it with the 9-keyword set from the
+        // roof_replacement_newark_nj phrase roadmap.
+        keywords: isCoraReplNewark ? coraReplNewarkMetaKeywords : service.metaKeywords,
         alternates: { canonical: `/${servicePageSlug}` },
         // CORA 2026-09-26 line 43: OpenGraph type "article" for this page only.
-        openGraph: buildOG(serviceTitle, serviceSurfer?.metaDescription ?? serviceOgDescription, servicePageSlug, isRoofRepair ? 'article' : 'website', serviceOg?.path ?? undefined),
+        openGraph: buildOG(finalServiceTitle, serviceSurfer?.metaDescription ?? serviceOgDescription, servicePageSlug, isRoofRepair ? 'article' : 'website', serviceOg?.path ?? undefined),
         ...(isRoofRepair
           ? {
               // CORA 2026-09-26 lines 32 (variations in Twitter meta content),
