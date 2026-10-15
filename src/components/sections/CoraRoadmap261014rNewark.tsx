@@ -94,6 +94,44 @@
 // the LSI pair, the 2 meta-counters, and the 2
 // not-implementable lines (Dirs in Path — the slug is
 // frozen; JavaScript Includes — a platform asset count).
+//
+// ─── RESIDUAL PASS 261015 (2026-10-15) ───────────────────────────
+// The 261015 rerun (M5) re-measured the PRE-PR #36 page
+// (its tracked column is stale throughout — see the
+// residual measurement). Verified line by line against
+// the LIVE page, 89 of its 146 lines were already
+// delivered by the build above; the residual clean list
+// is SEVEN lines (verification:
+// cora-phrase-verification-newark-replacement-2026-10-15.md),
+// all served by EXTENDING this block — no second block:
+//   - Geo pair (Phase 12, NEW): the Service node in the
+//     graph below gains a GeoCircle areaServed whose
+//     geoMidpoint is a GeoCoordinates node (JSON-LD form),
+//     and the service card gains the itemscope GeoCircle
+//     form — both carrying ONLY the flagged map-embed
+//     stand-in coordinates (see the data file). NO street
+//     address / postalCode is asserted (D-01).
+//   - FAQ JLD family (Phase 12, NEW): a FAQPage node in
+//     the same graph, built from this block's own FAQ data
+//     (the 8 question H3s + 24 entries = 32 Question /
+//     Answer pairs, Answer.text serving the text form).
+//     The page's genuine FAQ is the content; the site
+//     graph's own FAQPage node is an empty shell. The
+//     microdata FAQ forms are NOT stamped (verification
+//     §7 — the standing restraint).
+//   - Twitter / OG descriptions (Phase 8 / 11, NEW): not
+//     in this component — served by the [slug] page.tsx
+//     override extension (the page's own meta description
+//     now also serves as its twitter:description and
+//     og:description).
+// NOT built in the residual pass: no headings program and
+// no meta-description edit (the §6 residues are noted,
+// not listed), no image program (delivered at its
+// corroborated price), no microdata RoofingContractor
+// (its JLD pair is a detection discrepancy — the site
+// graph's business node is already typed RoofingContractor),
+// no rating (none roadmapped), no social links (BLOCKED
+// on Paul's verified profile URLs), no placeholders.
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
@@ -103,12 +141,14 @@ import {
   coraReplNewarkBlockSummary,
   coraReplNewarkCommentTexts,
   coraReplNewarkCopyrightLine,
+  coraReplNewarkCoverageLine,
   coraReplNewarkFaqEntries,
   coraReplNewarkFieldNotes,
   coraReplNewarkFieldNotesH2,
   coraReplNewarkFieldNotesHeading,
   coraReplNewarkFieldNotesIntro,
   coraReplNewarkGalleryImages,
+  coraReplNewarkGeo,
   coraReplNewarkGuideH2,
   coraReplNewarkGuideIntro,
   coraReplNewarkPhotoH3,
@@ -130,13 +170,25 @@ const pageUrl = 'https://newarkqualityroofing.com/roof-replacement-in-newark-nj'
 // scaffolding follows the prior passes and is not a
 // roadmapped-line claim; the BreadcrumbList crumb names
 // are the Display URL Variations rider lever. NO
-// areaServed is added: Cora's own count factor already
-// tracks 320 areas-served entries on this page (the
-// binary factor's 0 is a detection discrepancy, ruled in
-// the verification), and the microdata areaserved form is
-// doorway-carried and artifact-ruled. NO business-type
-// node is built: the RoofingContractor pairs are
-// Overview-only or sibling-carried in this run.
+// city-entry areaServed is added: Cora's own count factor
+// already tracks 320 areas-served entries on this page
+// (the binary factor's 0 is a detection discrepancy,
+// ruled in the verification), and the microdata
+// areaserved form is doorway-carried and artifact-ruled.
+// NO business-type node is built: the RoofingContractor
+// pairs are Overview-only or sibling-carried in this run.
+// RESIDUAL PASS 261015 amendments: (a) the Service node
+// gains the geo pair's GeoCircle areaServed (its
+// geoMidpoint is the GeoCoordinates node the pair asks
+// for — the FLAGGED map-embed stand-in, no address
+// asserted); the city-entry ruling above is unchanged.
+// (b) A FAQPage node is added, built from this block's
+// own FAQ data (32 Question/Answer pairs). (c) The
+// business-type note is superseded by evidence: the site
+// graph's business node IS typed RoofingContractor (an
+// array-valued @type Cora's parser misses) — the 261015
+// JLD RoofingContractor line is a detection discrepancy,
+// not a build.
 const replNewarkSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -148,6 +200,36 @@ const replNewarkSchemaGraph = {
       url: pageUrl,
       mainEntityOfPage: { '@id': pageUrl },
       availableLanguage: 'English',
+      // RESIDUAL 261015 — the geo pair, JLD form.
+      areaServed: {
+        '@type': 'GeoCircle',
+        geoMidpoint: {
+          '@type': 'GeoCoordinates',
+          latitude: coraReplNewarkGeo.latitude,
+          longitude: coraReplNewarkGeo.longitude,
+        },
+        geoRadius: coraReplNewarkGeo.radius,
+      },
+    },
+    {
+      // RESIDUAL 261015 — the FAQ JLD family (Question /
+      // Answer / text): this page's genuine FAQ, marked
+      // up. The site graph's own FAQPage node is an empty
+      // shell (mainEntity: []).
+      '@type': 'FAQPage',
+      '@id': `${pageUrl}#faq`,
+      mainEntity: [
+        ...coraReplNewarkQuestions.map((q) => ({
+          '@type': 'Question',
+          name: q.h3,
+          acceptedAnswer: { '@type': 'Answer', text: q.p },
+        })),
+        ...coraReplNewarkFaqEntries.map((entry) => ({
+          '@type': 'Question',
+          name: entry.q,
+          acceptedAnswer: { '@type': 'Answer', text: entry.a },
+        })),
+      ],
     },
     {
       '@type': 'WebPage',
@@ -287,7 +369,30 @@ export function CoraRoadmap261014rNewark() {
             is provided in{' '}
             <span itemProp="availableLanguage">English</span>, and this page is the
             office&rsquo;s home record for the service — the city is where the
-            business is based, not one stop on a route.
+            business is based, not one stop on a route.{' '}
+            {/* RESIDUAL 261015 — the geo pair, microdata form:
+                an itemscope GeoCircle areaServed whose
+                geoMidpoint is an itemscope GeoCoordinates,
+                inside this Service item. Coordinates are the
+                flagged map-embed stand-in (see the data
+                file); the visible sentence is the value's
+                genuine context. */}
+            <span
+              itemProp="areaServed"
+              itemScope
+              itemType="https://schema.org/GeoCircle"
+            >
+              {coraReplNewarkCoverageLine}
+              <meta itemProp="geoRadius" content={coraReplNewarkGeo.radius} />
+              <span
+                itemProp="geoMidpoint"
+                itemScope
+                itemType="https://schema.org/GeoCoordinates"
+              >
+                <meta itemProp="latitude" content={String(coraReplNewarkGeo.latitude)} />
+                <meta itemProp="longitude" content={String(coraReplNewarkGeo.longitude)} />
+              </span>
+            </span>
           </p>
           <p className={pClass}>{coraReplNewarkCopyrightLine}</p>
         </div>

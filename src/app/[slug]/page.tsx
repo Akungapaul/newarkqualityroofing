@@ -302,7 +302,11 @@ export async function generateMetadata({
         keywords: isCoraReplNewark ? coraReplNewarkMetaKeywords : service.metaKeywords,
         alternates: { canonical: `/${servicePageSlug}` },
         // CORA 2026-09-26 line 43: OpenGraph type "article" for this page only.
-        openGraph: buildOG(finalServiceTitle, serviceSurfer?.metaDescription ?? serviceOgDescription, servicePageSlug, isRoofRepair ? 'article' : 'website', serviceOg?.path ?? undefined),
+        // RESIDUAL 261015 (Newark replacement only): og:description := the
+        // page's own meta description — it previously fell through to the
+        // pre-pass template text (134 chars). Variations in OpenGraph
+        // Description, adjusted +2 (verification §8).
+        openGraph: buildOG(finalServiceTitle, isCoraReplNewark ? coraReplNewarkMetaDescription : (serviceSurfer?.metaDescription ?? serviceOgDescription), servicePageSlug, isRoofRepair ? 'article' : 'website', serviceOg?.path ?? undefined),
         ...(isRoofRepair
           ? {
               // CORA 2026-09-26 lines 32 (variations in Twitter meta content),
@@ -318,6 +322,15 @@ export async function generateMetadata({
               },
               verification: { google: '12bec62df3c068a7' },
               generator: 'Next.js',
+            }
+          : {}),
+        ...(isCoraReplNewark
+          ? {
+              // RESIDUAL 261015 (Newark replacement only): twitter:description
+              // otherwise falls back to the root boilerplate — serve the page's
+              // own meta description. Variations in Meta Twitter Description
+              // +3 (verification §8).
+              twitter: { description: coraReplNewarkMetaDescription },
             }
           : {}),
       };
