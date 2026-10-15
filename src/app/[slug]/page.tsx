@@ -209,6 +209,11 @@ import {
   coraReplWestOrangeMetaKeywords,
   coraReplWestOrangeTitle,
 } from '@/data/cora-261015r-west-orange-content';
+import {
+  coraReplVeronaMetaDescription,
+  coraReplVeronaMetaKeywords,
+  coraReplVeronaTitle,
+} from '@/data/cora-261015r-verona-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -886,6 +891,19 @@ export async function generateMetadata({
         comboTitle = coraReplWestOrangeTitle;
         comboDescription = coraReplWestOrangeMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT pass (Verona only; distinct
+      // from the roof-REPAIR Verona treatment, PR #21): the
+      // Verona REPLACEMENT page serves its SEO title (the two
+      // roadmapped title singles verbatim, ~10 distinct
+      // variation forms, 7 entity occurrences) and meta
+      // description (~10 distinct forms, standalone 'Verona'
+      // three times) from the 261015r Verona pass. See
+      // src/data/cora-261015r-verona-content.ts.
+      const isCoraReplVerona = combo.slug === 'roof-replacement-verona-nj';
+      if (isCoraReplVerona) {
+        comboTitle = coraReplVeronaTitle;
+        comboDescription = coraReplVeronaMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -1152,7 +1170,26 @@ export async function generateMetadata({
         // this page's own terms and this run's verbatim
         // variation forms.
         ...(isCoraReplWestOrange ? { keywords: coraReplWestOrangeMetaKeywords } : {}),
-        alternates: { canonical: `/${combo.slug}` },
+        // CORA 2026-10-15 REPLACEMENT pass (Verona only): the
+        // served page had NO meta keywords tag (Cora's tracked
+        // "1" was the phantom read); this creates it with the
+        // 3-keyword set — the goal 3 is the Page-1 Average,
+        // taken at face value because a genuine setter (R5)
+        // serves a real tag on this SERP.
+        ...(isCoraReplVerona ? { keywords: coraReplVeronaMetaKeywords } : {}),
+        alternates: {
+          canonical: `/${combo.slug}`,
+          // CORA 2026-10-15 REPLACEMENT pass (Verona only):
+          // Has HREF Lang +1 — sole setter-set carrier is the
+          // genuine R4; the honest vehicle is a self-referencing
+          // en-US alternate (this page IS the US-English
+          // version of itself; no other language version is
+          // asserted). The batch's first hreflang build,
+          // flagged in the verification file.
+          ...(isCoraReplVerona
+            ? { languages: { 'en-US': '/roof-replacement-verona-nj' } }
+            : {}),
+        },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
           : { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large', 'max-video-preview': -1 },
