@@ -108,7 +108,7 @@ import {
 const PAGE_URL = 'https://newarkqualityroofing.com/roof-replacement-bloomfield-nj';
 const SITE_URL = 'https://newarkqualityroofing.com/';
 const MAPS_URL = 'https://www.google.com/maps?q=Newark+Quality+Roofing,+Newark,+NJ';
-const LOGO_URL = 'https://newarkqualityroofing.com/images/logo.svg';
+const LOGO_URL = 'https://newarkqualityroofing.com/logo.svg';
 const HERO_URL = 'https://newarkqualityroofing.com/images/heroes/city-bloomfield.webp';
 
 // The block-level JSON-LD graph (clean Phase-12 lines 93–95,
