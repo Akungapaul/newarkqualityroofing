@@ -194,6 +194,11 @@ import {
   coraReplMaplewoodMetaKeywords,
   coraReplMaplewoodTitle,
 } from '@/data/cora-261015r-maplewood-content';
+import {
+  coraReplFairfieldMetaDescription,
+  coraReplFairfieldMetaKeywords,
+  coraReplFairfieldTitle,
+} from '@/data/cora-261015r-fairfield-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -818,6 +823,26 @@ export async function generateMetadata({
         comboTitle = coraReplMaplewoodTitle;
         comboDescription = coraReplMaplewoodMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT phrase pass (Fairfield only,
+      // this page's FIRST pass against the replacement keyword —
+      // distinct from its 2026-10-14 repair pass): title
+      // (55 chars; Rule-7 opening + 'Roofing Fairfield NJ'
+      // segment, >= 3 variation occurrences, inside the genuine
+      // setters' live band 52–59; the roadmapped Search Result
+      // Link Text Length line is a SERP-rendered quantity and
+      // takes no page target) and meta description (carries
+      // >= 4 variation occurrences + the verbatim phrase
+      // 'roofing fairfield nj'; the roadmapped Summary Length
+      // line is likewise SERP-rendered and takes no length
+      // target) come from the 261015r Fairfield pass; see
+      // src/data/cora-261015r-fairfield-content.ts. Same scoping
+      // as Maplewood above. (Distinct from the repair pass's
+      // isCoraFairfield on the sibling repair slug.)
+      const isCoraReplFairfield = combo.slug === 'roof-replacement-fairfield-nj';
+      if (isCoraReplFairfield) {
+        comboTitle = coraReplFairfieldTitle;
+        comboDescription = coraReplFairfieldMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -1056,6 +1081,16 @@ export async function generateMetadata({
         // taken at face value), built from this run's verbatim
         // variation forms.
         ...(isCoraReplMaplewood ? { keywords: coraReplMaplewoodMetaKeywords } : {}),
+        // CORA 2026-10-15 REPLACEMENT pass (Fairfield only):
+        // the served page had NO meta keywords tag (Cora's
+        // tracked "1" was the field-wide phantom — every
+        // goal-setter tracks exactly 1 and none serves a tag
+        // live); this creates it with the 3-keyword set from the
+        // roof_replacement_fairfield_nj roadmap (the goal 3 is
+        // the Shared Average, taken at face value per this
+        // city's own repair-pass ruling), built from this run's
+        // verbatim variation forms.
+        ...(isCoraReplFairfield ? { keywords: coraReplFairfieldMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
