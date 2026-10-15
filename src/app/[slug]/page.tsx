@@ -158,6 +158,12 @@ import {
   coraReplNutleyMetaKeywords,
   coraReplNutleyTitle,
 } from '@/data/cora-261015r-nutley-content';
+import {
+  coraReplMontclairMetaDescription,
+  coraReplMontclairMetaKeywords,
+  coraReplMontclairOgSiteName,
+  coraReplMontclairTitle,
+} from '@/data/cora-261015r-montclair-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -655,6 +661,20 @@ export async function generateMetadata({
         comboTitle = coraReplNutleyTitle;
         comboDescription = coraReplNutleyMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT pass (Montclair only — this
+      // page's FIRST Cora pass against the replacement keyword):
+      // title (143 chars, 19 words; "Best" sentiment + "Free
+      // Estimates" sales phrase; +52 over the Title Length floor
+      // of 91 = R1 genuine — full literal asks win, delta
+      // disclosed) and meta description (~190 chars, past the
+      // 159-char goal = R2 genuine) come from the 261015r
+      // Montclair pass; see src/data/cora-261015r-montclair-content.ts.
+      // Same scoping as Nutley above.
+      const isCoraReplMontclair = combo.slug === 'roof-replacement-montclair-nj';
+      if (isCoraReplMontclair) {
+        comboTitle = coraReplMontclairTitle;
+        comboDescription = coraReplMontclairMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -833,6 +853,15 @@ export async function generateMetadata({
         // carry the factor, R1 and R4 — live-verified real tags),
         // built from this run's verbatim variation forms.
         ...(isCoraReplNutley ? { keywords: coraReplNutleyMetaKeywords } : {}),
+        // CORA 2026-10-15 REPLACEMENT pass (Montclair only): the
+        // served page had NO meta keywords tag (Cora's tracked "1"
+        // is the field-wide phantom) and no setter serves a real
+        // tag either (R1/R2/R3 live-verified); this creates it with
+        // the 3-keyword set from the roof_replacement_montclair_nj
+        // phrase roadmap (the goal 3 taken at face value — the
+        // Fairfield ruling), built from this run's verbatim
+        // variation forms.
+        ...(isCoraReplMontclair ? { keywords: coraReplMontclairMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
@@ -841,7 +870,11 @@ export async function generateMetadata({
         // carries one added variation occurrence ('roof repair') —
         // Variations in OpenGraph Site Name +1 (adjusted). Every other
         // page keeps SEO_CONFIG.SITE_NAME via buildOG's default.
-        openGraph: buildOG(comboTitle, comboDescription, combo.slug, 'website', comboOg?.path ?? undefined, isCoraMontclair ? coraMontclairPhraseOgSiteName : undefined),
+        // CORA 2026-10-15 REPLACEMENT pass (Montclair replacement
+        // slug only): OG site name carries the replacement forms —
+        // Variations in OpenGraph Site Name at its adjusted +2 (the
+        // same slug-scoped vehicle as the repair pass).
+        openGraph: buildOG(comboTitle, comboDescription, combo.slug, 'website', comboOg?.path ?? undefined, isCoraMontclair ? coraMontclairPhraseOgSiteName : isCoraReplMontclair ? coraReplMontclairOgSiteName : undefined),
       };
     }
     case 'comparison': {
