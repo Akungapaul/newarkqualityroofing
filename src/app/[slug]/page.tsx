@@ -143,6 +143,11 @@ import {
   coraReplNewarkMetaKeywords,
   coraReplNewarkTitle,
 } from '@/data/cora-261014r-newark-content';
+import {
+  coraReplCaldwellMetaDescription,
+  coraReplCaldwellMetaKeywords,
+  coraReplCaldwellTitle,
+} from '@/data/cora-261014r-caldwell-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -604,6 +609,23 @@ export async function generateMetadata({
         comboTitle = coraReplGlenRidgeTitle;
         comboDescription = coraReplGlenRidgeMetaDescription;
       }
+      // CORA 2026-10-14 REPLACEMENT pass (Caldwell only — this
+      // page's FIRST Cora pass against the replacement keyword):
+      // title (76 chars; 'roofing caldwell nj' +1, 'roofing' +2,
+      // Domain Phrase +1 via the business's own brand segment,
+      // Title Variations +2, Entities in Title +2; +11 over the
+      // Link Text Length floor of 65 — full literal asks win,
+      // delta disclosed) and meta description (150 chars, inside
+      // the genuine served-meta band of 117–160; 'repairs' +1, 'nj roofing' +1,
+      // Summary Variations at the adjusted +4) come from the
+      // 261014r Caldwell pass; see
+      // src/data/cora-261014r-caldwell-content.ts. Same
+      // scoping as Glen Ridge above.
+      const isCoraReplCaldwell = combo.slug === 'roof-replacement-caldwell-nj';
+      if (isCoraReplCaldwell) {
+        comboTitle = coraReplCaldwellTitle;
+        comboDescription = coraReplCaldwellMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -765,6 +787,14 @@ export async function generateMetadata({
         // at face value per the verification), built from this
         // run's verbatim variation forms.
         ...(isCoraReplGlenRidge ? { keywords: coraReplGlenRidgeMetaKeywords } : {}),
+        // CORA 2026-10-14 REPLACEMENT pass (Caldwell only): the
+        // served page had NO meta keywords tag (Cora's tracked "1"
+        // is the field-wide phantom); this creates it with the
+        // 10-keyword set from the roof_replacement_caldwell_nj
+        // phrase roadmap (priced off R4's REAL ten-keyword tag,
+        // not R5's 22-keyword generic list), built from this
+        // run's verbatim variation forms.
+        ...(isCoraReplCaldwell ? { keywords: coraReplCaldwellMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
