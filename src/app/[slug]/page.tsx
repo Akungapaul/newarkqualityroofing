@@ -124,6 +124,11 @@ import {
   coraReplLivingstonTitle,
 } from '@/data/cora-261014r-livingston-content';
 import {
+  coraReplEastOrangeMetaDescription,
+  coraReplEastOrangeMetaKeywords,
+  coraReplEastOrangeTitle,
+} from '@/data/cora-261014r-east-orange-content';
+import {
   coraReplNewarkMetaDescription,
   coraReplNewarkMetaKeywords,
   coraReplNewarkTitle,
@@ -541,6 +546,21 @@ export async function generateMetadata({
         comboTitle = coraReplLivingstonTitle;
         comboDescription = coraReplLivingstonMetaDescription;
       }
+      // CORA 2026-10-14 REPLACEMENT pass (East Orange only): title
+      // (one rewrite serves Title Variations +2 adj, Entities in
+      // Title +2 adj, Title Has Free, and the Link Text Length
+      // floor — 76 chars where the goal is 60, overshoot
+      // disclosed) and meta description (170 chars; Meta
+      // Variations +4, Summary Length at the adjusted +7 to the
+      // genuine coordination point R7's 163, Summary Variations
+      // +3) come from the 261014r East Orange pass; see
+      // src/data/cora-261014r-east-orange-content.ts. Same
+      // scoping as Livingston above.
+      const isCoraReplEastOrange = combo.slug === 'roof-replacement-east-orange-nj';
+      if (isCoraReplEastOrange) {
+        comboTitle = coraReplEastOrangeTitle;
+        comboDescription = coraReplEastOrangeMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -679,6 +699,13 @@ export async function generateMetadata({
         // phrase roadmap (the goal 9 is R2's REAL nine-keyword tag —
         // taken at face value per the verification).
         ...(isCoraReplLivingston ? { keywords: coraReplLivingstonMetaKeywords } : {}),
+        // CORA 2026-10-14 REPLACEMENT pass (East Orange only): the
+        // served page had NO meta keywords tag (Cora's tracked "1"
+        // is the field-wide phantom); this creates it with the
+        // 9-keyword set from the roof_replacement_east_orange_nj
+        // phrase roadmap (the goal 9 is R4's REAL nine-keyword tag —
+        // taken at face value per the verification).
+        ...(isCoraReplEastOrange ? { keywords: coraReplEastOrangeMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
