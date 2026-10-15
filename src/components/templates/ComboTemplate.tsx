@@ -50,6 +50,7 @@ import { CoraRoadmap261014rCaldwell } from '@/components/sections/CoraRoadmap261
 import { CoraRoadmap261014rCedarGrove } from '@/components/sections/CoraRoadmap261014rCedarGrove';
 import { CoraRoadmap261015rNutley } from '@/components/sections/CoraRoadmap261015rNutley';
 import { CoraRoadmap261015rMontclair } from '@/components/sections/CoraRoadmap261015rMontclair';
+import { CoraRoadmap261015rNorthCaldwell } from '@/components/sections/CoraRoadmap261015rNorthCaldwell';
 import {
   buildServiceSchema,
   buildWebPageSchema,
@@ -421,6 +422,12 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           pass against the replacement keyword); every other combo is
           unchanged. */}
       {service.id === 'roof-replacement' && city.id === 'montclair' && <CoraRoadmap261015rMontclair />}
+
+      {/* CORA 2026-10-15 REPLACEMENT supplemental block — rendered ONLY for
+          the roof-replacement x north-caldwell combo (this page's first Cora
+          pass against the replacement keyword); every other combo is
+          unchanged. */}
+      {service.id === 'roof-replacement' && city.id === 'north-caldwell' && <CoraRoadmap261015rNorthCaldwell />}
 
       <ComboCtaBanner
         service={service}

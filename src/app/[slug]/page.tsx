@@ -164,6 +164,11 @@ import {
   coraReplMontclairOgSiteName,
   coraReplMontclairTitle,
 } from '@/data/cora-261015r-montclair-content';
+import {
+  coraReplNorthCaldwellMetaDescription,
+  coraReplNorthCaldwellMetaKeywords,
+  coraReplNorthCaldwellTitle,
+} from '@/data/cora-261015r-north-caldwell-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -675,6 +680,22 @@ export async function generateMetadata({
         comboTitle = coraReplMontclairTitle;
         comboDescription = coraReplMontclairMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT pass (North Caldwell only —
+      // this page's FIRST Cora pass against the replacement
+      // keyword): title (125 chars; 'roofing replacement north
+      // caldwell nj' + GAF / slate / Timberline entity segments;
+      // ~+71 over the Link Text Length floor of 54 — full literal
+      // asks win, delta disclosed) and meta description (168
+      // chars, inside the genuine served band) come from the
+      // 261015r North Caldwell pass; see
+      // src/data/cora-261015r-north-caldwell-content.ts. Same
+      // scoping as Montclair above. (Distinct from the repair
+      // pass's isCoraNorthCaldwell on the sibling repair slug.)
+      const isCoraReplNorthCaldwell = combo.slug === 'roof-replacement-north-caldwell-nj';
+      if (isCoraReplNorthCaldwell) {
+        comboTitle = coraReplNorthCaldwellTitle;
+        comboDescription = coraReplNorthCaldwellMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -862,6 +883,15 @@ export async function generateMetadata({
         // Fairfield ruling), built from this run's verbatim
         // variation forms.
         ...(isCoraReplMontclair ? { keywords: coraReplMontclairMetaKeywords } : {}),
+        // CORA 2026-10-15 REPLACEMENT pass (North Caldwell only):
+        // the served page had NO meta keywords tag (Cora's tracked
+        // "1" is the field-wide phantom); this creates it with the
+        // 10-keyword set from the roof_replacement_north_caldwell_nj
+        // phrase roadmap (the goal 10 is R4's real, live-verified
+        // 10-keyword tag, with R3's real 6 behind it — taken at
+        // face value), built from this run's verbatim variation
+        // forms.
+        ...(isCoraReplNorthCaldwell ? { keywords: coraReplNorthCaldwellMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
