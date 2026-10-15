@@ -199,6 +199,11 @@ import {
   coraReplFairfieldMetaKeywords,
   coraReplFairfieldTitle,
 } from '@/data/cora-261015r-fairfield-content';
+import {
+  coraReplOrangeMetaDescription,
+  coraReplOrangeMetaKeywords,
+  coraReplOrangeTitle,
+} from '@/data/cora-261015r-orange-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -843,6 +848,24 @@ export async function generateMetadata({
         comboTitle = coraReplFairfieldTitle;
         comboDescription = coraReplFairfieldMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT pass (Orange only — this
+      // page's FIRST Cora pass against the replacement keyword;
+      // distinct from its 2026-10-14 repair pass on the sibling
+      // repair slug, and from the 261014 East/South/West Orange
+      // passes): title (123 chars; Rule-7 form, >= 6 variation
+      // occurrences, 'orange' twice, past the Link Text Length
+      // rider goal of 60 — full literal asks win, delta
+      // disclosed) and meta description (>= 6 variation
+      // occurrences; the 'replacements'/'roofer' forms carried
+      // incidentally) come from the 261015r Orange pass; the OG
+      // description rides the same text via buildOG (the OG
+      // Description clean line). See
+      // src/data/cora-261015r-orange-content.ts.
+      const isCoraReplOrange = combo.slug === 'roof-replacement-orange-nj';
+      if (isCoraReplOrange) {
+        comboTitle = coraReplOrangeTitle;
+        comboDescription = coraReplOrangeMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -1091,6 +1114,16 @@ export async function generateMetadata({
         // city's own repair-pass ruling), built from this run's
         // verbatim variation forms.
         ...(isCoraReplFairfield ? { keywords: coraReplFairfieldMetaKeywords } : {}),
+        // CORA 2026-10-15 REPLACEMENT pass (Orange only): the
+        // served page had NO meta keywords tag (Cora's tracked
+        // "1" was the field-wide phantom — every goal-setter
+        // tracks exactly 1 and none serves a tag live); this
+        // creates it with the 3-keyword set from the
+        // roof_replacement_orange_nj roadmap (the goal 3 is the
+        // Shared Average, taken at face value per the
+        // Fairfield/Roseland ruling), built from this run's
+        // verbatim variation forms.
+        ...(isCoraReplOrange ? { keywords: coraReplOrangeMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
