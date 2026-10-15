@@ -189,6 +189,11 @@ import {
   coraReplEssexFellsMetaKeywords,
   coraReplEssexFellsTitle,
 } from '@/data/cora-261015r-essex-fells-content';
+import {
+  coraReplMaplewoodMetaDescription,
+  coraReplMaplewoodMetaKeywords,
+  coraReplMaplewoodTitle,
+} from '@/data/cora-261015r-maplewood-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -794,6 +799,25 @@ export async function generateMetadata({
         comboTitle = coraReplEssexFellsTitle;
         comboDescription = coraReplEssexFellsMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT phrase pass (Maplewood only,
+      // this page's FIRST pass against the replacement keyword):
+      // title (164 chars; Rule-7 opening + 'new jersey' segment +
+      // GAF / Timberline / Owens Corning / Tudor / Colonial
+      // Revival / slate entity segment; +100 over the Link Text
+      // Length floor of 64 — full literal asks win, delta
+      // disclosed) and meta description (216 chars, past the
+      // Summary Length ADJUSTED goal of 186 = R7 Magnolia's
+      // genuine meta; the headline 316 is R6's SERP-rendered
+      // snippet and is not chased) come from the 261015r
+      // Maplewood pass; see
+      // src/data/cora-261015r-maplewood-content.ts. Same scoping
+      // as Essex Fells above. (Distinct from the repair passes'
+      // isCoraMaplewood on the sibling repair slug.)
+      const isCoraReplMaplewood = combo.slug === 'roof-replacement-maplewood-nj';
+      if (isCoraReplMaplewood) {
+        comboTitle = coraReplMaplewoodTitle;
+        comboDescription = coraReplMaplewoodMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -1023,6 +1047,15 @@ export async function generateMetadata({
         // face value), built from this run's verbatim variation
         // forms.
         ...(isCoraReplEssexFells ? { keywords: coraReplEssexFellsMetaKeywords } : {}),
+        // CORA 2026-10-15 REPLACEMENT pass (Maplewood only):
+        // the served page had NO meta keywords tag (Cora's
+        // tracked "1" was a phantom read); this creates it with
+        // the 10-keyword set from the
+        // roof_replacement_maplewood_nj roadmap (the goal 10 is
+        // R4 Cephalo's real, live-verified 10-keyword tag —
+        // taken at face value), built from this run's verbatim
+        // variation forms.
+        ...(isCoraReplMaplewood ? { keywords: coraReplMaplewoodMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
