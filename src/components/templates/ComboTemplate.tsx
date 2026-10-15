@@ -43,6 +43,7 @@ import { CoraRoadmap261014SouthOrange } from '@/components/sections/CoraRoadmap2
 import { CoraRoadmap261014GlenRidge } from '@/components/sections/CoraRoadmap261014GlenRidge';
 import { CoraRoadmap261014rSouthOrange } from '@/components/sections/CoraRoadmap261014rSouthOrange';
 import { CoraRoadmap261014rLivingston } from '@/components/sections/CoraRoadmap261014rLivingston';
+import { CoraRoadmap261014rMillburn } from '@/components/sections/CoraRoadmap261014rMillburn';
 import { CoraRoadmap261014rEastOrange } from '@/components/sections/CoraRoadmap261014rEastOrange';
 import {
   buildServiceSchema,
@@ -374,6 +375,13 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           the roof-replacement x livingston combo (this page's first Cora
           pass); every other combo is unchanged. */}
       {service.id === 'roof-replacement' && city.id === 'livingston' && <CoraRoadmap261014rLivingston />}
+
+      {/* CORA 2026-10-14 REPLACEMENT supplemental block — rendered ONLY for
+          the roof-replacement x millburn combo (this page's first Cora
+          pass; the run was set up with the one-L keyword "milburn" —
+          Paul's decision 2026-10-15: proceed, copy in correct spelling);
+          every other combo is unchanged. */}
+      {service.id === 'roof-replacement' && city.id === 'millburn' && <CoraRoadmap261014rMillburn />}
 
       {/* CORA 2026-10-14 REPLACEMENT supplemental block — rendered ONLY for
           the roof-replacement x east-orange combo (this page's first Cora

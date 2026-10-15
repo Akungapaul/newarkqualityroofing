@@ -124,6 +124,11 @@ import {
   coraReplLivingstonTitle,
 } from '@/data/cora-261014r-livingston-content';
 import {
+  coraReplMillburnMetaDescription,
+  coraReplMillburnMetaKeywords,
+  coraReplMillburnTitle,
+} from '@/data/cora-261014r-millburn-content';
+import {
   coraReplEastOrangeMetaDescription,
   coraReplEastOrangeMetaKeywords,
   coraReplEastOrangeTitle,
@@ -546,6 +551,23 @@ export async function generateMetadata({
         comboTitle = coraReplLivingstonTitle;
         comboDescription = coraReplLivingstonMetaDescription;
       }
+      // CORA 2026-10-14 REPLACEMENT pass (Millburn only — this
+      // page's FIRST Cora pass): title/meta/keywords edits from the
+      // roof_replacement_milburn_nj phrase roadmap. NOTE the run
+      // itself was set up with the one-L keyword "roof replacement
+      // milburn nj" against this correctly-spelled page — Paul's
+      // decision 2026-10-15: proceed with the report, ALL copy in
+      // correct spelling (see src/data/cora-261014r-millburn-content.ts).
+      // Direct title/meta edits are the prescribed treatment for
+      // those lines; the H1 rendered by ComboTemplate still uses
+      // the slug phrase untouched, and the slug itself does not
+      // change. Scoped to this one slug — every other combo's
+      // metadata is computed exactly as before.
+      const isCoraReplMillburn = combo.slug === 'roof-replacement-millburn-nj';
+      if (isCoraReplMillburn) {
+        comboTitle = coraReplMillburnTitle;
+        comboDescription = coraReplMillburnMetaDescription;
+      }
       // CORA 2026-10-14 REPLACEMENT pass (East Orange only): title
       // (one rewrite serves Title Variations +2 adj, Entities in
       // Title +2 adj, Title Has Free, and the Link Text Length
@@ -699,6 +721,14 @@ export async function generateMetadata({
         // phrase roadmap (the goal 9 is R2's REAL nine-keyword tag —
         // taken at face value per the verification).
         ...(isCoraReplLivingston ? { keywords: coraReplLivingstonMetaKeywords } : {}),
+        // CORA 2026-10-14 REPLACEMENT pass (Millburn only): the
+        // served page had NO meta keywords tag (Cora's tracked "1"
+        // is the field-wide phantom); this creates it with the
+        // 5-keyword set from the roof_replacement_milburn_nj
+        // phrase roadmap (the goal 5 is R5 Arcline's REAL
+        // five-keyword tag — taken at face value per the
+        // verification), every keyword in correct spelling.
+        ...(isCoraReplMillburn ? { keywords: coraReplMillburnMetaKeywords } : {}),
         // CORA 2026-10-14 REPLACEMENT pass (East Orange only): the
         // served page had NO meta keywords tag (Cora's tracked "1"
         // is the field-wide phantom); this creates it with the
