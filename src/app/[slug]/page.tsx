@@ -179,6 +179,11 @@ import {
   coraReplBloomfieldMetaKeywords,
   coraReplBloomfieldTitle,
 } from '@/data/cora-261015r-bloomfield-content';
+import {
+  coraReplRoselandMetaDescription,
+  coraReplRoselandMetaKeywords,
+  coraReplRoselandTitle,
+} from '@/data/cora-261015r-roseland-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -737,6 +742,23 @@ export async function generateMetadata({
         comboTitle = coraReplBloomfieldTitle;
         comboDescription = coraReplBloomfieldMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT phrase pass (Roseland only,
+      // this page's FIRST pass against the replacement keyword):
+      // title (135 chars; Rule-7 opening + 'roof repair
+      // roseland nj' segment + GAF / Timberline / slate /
+      // copper entity segment; +86 over the Link Text Length
+      // floor of 49 — full literal asks win, delta disclosed)
+      // and meta description (201 chars, past the Summary
+      // Length goal of 164.6 = Page 1 Average, R6 genuine at
+      // 163) come from the 261015r Roseland pass; see
+      // src/data/cora-261015r-roseland-content.ts. Same scoping
+      // as Bloomfield above. (Distinct from the repair passes'
+      // isCoraRoseland on the sibling repair slug.)
+      const isCoraReplRoseland = combo.slug === 'roof-replacement-roseland-nj';
+      if (isCoraReplRoseland) {
+        comboTitle = coraReplRoselandTitle;
+        comboDescription = coraReplRoselandMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -950,6 +972,13 @@ export async function generateMetadata({
         // tag — taken at face value), built from this run's
         // verbatim variation forms.
         ...(isCoraReplBloomfield ? { keywords: coraReplBloomfieldMetaKeywords } : {}),
+        // CORA 2026-10-15 REPLACEMENT pass (Roseland only): the
+        // served page had NO meta keywords tag (Cora's tracked
+        // "1" was a phantom read); this creates it with the
+        // 3-keyword set from the roof_replacement_roseland_nj
+        // roadmap (the goal is the Shared Average — taken at
+        // face value per the Fairfield ruling).
+        ...(isCoraReplRoseland ? { keywords: coraReplRoselandMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
