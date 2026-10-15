@@ -131,14 +131,33 @@ const nextConfig: NextConfig = {
       // Collision-safe: 0 of the 1,127 live sitemapped URLs end in "-1".
       // The KB rules must precede the flat one: the KB migration suffixed BOTH
       // path segments (/roofing-knowledge-base-1/roof-problems-1).
+      // ── Generalized 2026-10-15 (GSC 404 cleanup, Paul approved) ─────────────
+      // GSC still showed non-"-1" numeric suffixes as hard 404s (e.g.
+      // /silicone-elastomeric-roof-coating-54, /roofing-in-caldwell-nj-133), so
+      // both rules below now strip ANY trailing "-<digits>", not just "-1".
+      // Collision scan 2026-10-15 (the site's own sitemap generator, all 1,261
+      // URLs): 0 live URLs end in "-<digits>", 0 match the double-nj pattern —
+      // these rules can never hijack a live page.
       {
-        source: '/roofing-knowledge-base-1/:cluster([^/]+)-1',
+        source: '/roofing-knowledge-base-:kbsuffix(\\d+)/:cluster([^/]+)-:suffix(\\d+)',
         destination: '/roofing-knowledge-base/:cluster',
+        permanent: true,
+      },
+      // ── "-in-newark-nj" mangle (2026-10-15) ────────────────────────────────
+      // Combo slugs for other cities had "-in-newark-nj" glued on (e.g.
+      // /roof-repair-maplewood-nj-in-newark-nj, a hard 404; the clean combo
+      // /roof-repair-maplewood-nj is live). The slug must ALREADY end in "-nj"
+      // before the mangle, so legitimate "-in-newark-nj" canonicals (service
+      // hubs like /roof-repair-in-newark-nj) can never match: their pre-mangle
+      // part does not end in "-nj".
+      {
+        source: '/:slug(.+-nj)-in-newark-nj',
+        destination: '/:slug',
         permanent: true,
       },
       // Single-segment only ([^/]+), so this can never match /_next/* or any
       // other nested path.
-      { source: '/:slug([^/]+)-1', destination: '/:slug', permanent: true },
+      { source: '/:slug([^/]+)-:suffix(\\d+)', destination: '/:slug', permanent: true },
       // ── Generated combo redirects (D-05): 225 combo + 0 legacy = 225 ─────────
       ...generatedRedirects,
     ];
