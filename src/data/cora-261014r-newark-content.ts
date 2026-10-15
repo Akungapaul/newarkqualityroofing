@@ -453,3 +453,39 @@ export const coraReplNewarkFieldNotes: string[] = [
   'The pitched roof and the flat roof are replaced their own ways. A pitched roof sheds water by geometry — shingle courses, flashing, and ventilation doing the work together — while a flat roof holds its water until the drainage takes it, so EPDM and TPO membranes are priced off the pond map and the coping, not the square footage alone. Metal roofing systems invert the problem again: standing seam panels outlast almost everything under them, and their replacement is panel work — lengths formed to the roof, concealed clips, new boots at every penetration, and a skylight kit replaced rather than re-flashed where the original has aged out.',
   'Permits, paperwork, and the close. A building permit is filed where the New Jersey Uniform Construction Code requires one — commercial, multi-family, structural, and large-area work — and the permit record closes in the same file as the photographs. Newark sits in Essex County, and its replacement files carry the city\u2019s whole range: Ironbound rowhouses, Forest Hill slate, downtown membranes, and the porch roofs and additions tied into all of them. The last note in every file is the same three questions a homeowner asks any roofing company: is the roofer registered, is the insurance current, and does the estimate name its materials — answered in writing, in the file, before the first section of the old roof ever comes off.',
 ];
+
+// ─── RESIDUAL PASS 261015 (2026-10-15) — the geo pair ─────────────
+// The 261015 residual report (M5 setter set) roadmaps the
+// geo pair for the first time on this page — Uses JSON-LD
+// GeoCoordinates + Uses Schema geocoordinates, carried by
+// R1 (Recinos doorway) + R3 (HomeGenius, genuine). Our
+// page serves no GeoCoordinates and no geo property
+// (live-verified). Work order: the RESIDUAL clean list in
+// cora-phrase-verification-newark-replacement-2026-10-15.md
+// §7. The vehicle is the batch's own flagged stand-in, in
+// the exact shapes the 261015r North Caldwell pass shipped:
+// a GeoCircle areaServed on the block's Service node (JLD
+// form) + the itemscope GeoCircle in the service card
+// (microdata form).
+// FLAGGED geo stand-in: the circle is centered on the
+// site's published map-embed coordinates — the Google Maps
+// embed for "Newark, NJ" in src/app/page.tsx, centered at
+// 40.73566 / -74.19967 — with the same 20-mile radius the
+// North Caldwell pass used for the Essex County service
+// circle. The coordinates assert the published map center
+// of the business's home city, NOT a street address: the
+// canonical street address is empty under D-01, and no
+// PostalAddress, postalCode, or streetAddress is asserted
+// anywhere in this pass.
+export const coraReplNewarkGeo = {
+  latitude: 40.73566,
+  longitude: -74.19967,
+  radius: '20 mi',
+};
+
+// The visible coverage sentence inside the card's
+// GeoCircle microdata — genuine copy in the North Caldwell
+// shape, written for the home city.
+export const coraReplNewarkCoverageLine =
+  'Coverage \u2014 the Essex County service circle centered on the Newark office, a 20-mile radius; Newark sits at its center, and the record on this page is the home-city file.';
+
