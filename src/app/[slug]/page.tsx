@@ -119,6 +119,11 @@ import {
   coraReplSouthOrangeTitle,
 } from '@/data/cora-261014r-south-orange-content';
 import {
+  coraReplLivingstonMetaDescription,
+  coraReplLivingstonMetaKeywords,
+  coraReplLivingstonTitle,
+} from '@/data/cora-261014r-livingston-content';
+import {
   coraReplNewarkMetaDescription,
   coraReplNewarkMetaKeywords,
   coraReplNewarkTitle,
@@ -523,6 +528,19 @@ export async function generateMetadata({
         comboTitle = coraReplSouthOrangeTitle;
         comboDescription = coraReplSouthOrangeMetaDescription;
       }
+      // CORA 2026-10-14 REPLACEMENT pass (Livingston only — this
+      // page's FIRST Cora pass): title/meta/keywords edits from the
+      // roof_replacement_livingston_nj phrase roadmap. Direct
+      // title/meta edits are the prescribed treatment for those
+      // lines; the H1 rendered by ComboTemplate still uses the slug
+      // phrase untouched, and the slug itself does not change.
+      // Scoped to this one slug — every other combo's metadata is
+      // computed exactly as before.
+      const isCoraReplLivingston = combo.slug === 'roof-replacement-livingston-nj';
+      if (isCoraReplLivingston) {
+        comboTitle = coraReplLivingstonTitle;
+        comboDescription = coraReplLivingstonMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -654,6 +672,13 @@ export async function generateMetadata({
         // taken at face value per the verification, as in this
         // morning's repair pass on the same setter).
         ...(isCoraReplSouthOrange ? { keywords: coraReplSouthOrangeMetaKeywords } : {}),
+        // CORA 2026-10-14 REPLACEMENT pass (Livingston only): the
+        // served page had NO meta keywords tag (Cora's tracked "1"
+        // is the field-wide phantom); this creates it with the
+        // 9-keyword set from the roof_replacement_livingston_nj
+        // phrase roadmap (the goal 9 is R2's REAL nine-keyword tag —
+        // taken at face value per the verification).
+        ...(isCoraReplLivingston ? { keywords: coraReplLivingstonMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
