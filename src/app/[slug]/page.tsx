@@ -174,6 +174,11 @@ import {
   coraReplIrvingtonMetaKeywords,
   coraReplIrvingtonTitle,
 } from '@/data/cora-261015r-irvington-content';
+import {
+  coraReplBloomfieldMetaDescription,
+  coraReplBloomfieldMetaKeywords,
+  coraReplBloomfieldTitle,
+} from '@/data/cora-261015r-bloomfield-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -715,6 +720,23 @@ export async function generateMetadata({
         comboTitle = coraReplIrvingtonTitle;
         comboDescription = coraReplIrvingtonMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT phrase pass (Bloomfield only,
+      // this page's FIRST pass against the replacement keyword):
+      // title (154 chars; Rule-7 opening + 'roof repair
+      // bloomfield nj' segment from R5's genuine title single +
+      // GAF / Timberline / slate / copper / Owens Corning entity
+      // segment; ~+92 over the Link Text Length floor of 62 —
+      // full literal asks win, delta disclosed) and meta
+      // description (210 chars, past the Summary Length goal of
+      // 163 = R5 genuine) come from the 261015r Bloomfield pass;
+      // see src/data/cora-261015r-bloomfield-content.ts. Same
+      // scoping as Irvington above. (Distinct from the repair
+      // pass's isCoraBloomfield on the sibling repair slug.)
+      const isCoraReplBloomfield = combo.slug === 'roof-replacement-bloomfield-nj';
+      if (isCoraReplBloomfield) {
+        comboTitle = coraReplBloomfieldTitle;
+        comboDescription = coraReplBloomfieldMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -919,6 +941,15 @@ export async function generateMetadata({
         // live-verified 9-keyword tag — taken at face value),
         // built from this run's verbatim variation forms.
         ...(isCoraReplIrvington ? { keywords: coraReplIrvingtonMetaKeywords } : {}),
+        // CORA 2026-10-15 REPLACEMENT pass (Bloomfield only):
+        // the served page had NO meta keywords tag (Cora's
+        // tracked "1" is the field-wide phantom); this creates
+        // it with the 9-keyword set from the
+        // roof_replacement_bloomfield_nj phrase roadmap (the
+        // goal 9 is R5 Rande's real, live-verified 9-keyword
+        // tag — taken at face value), built from this run's
+        // verbatim variation forms.
+        ...(isCoraReplBloomfield ? { keywords: coraReplBloomfieldMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
