@@ -42,6 +42,7 @@ import { getContentPoolImages } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import { EntityDefinition } from '@/components/sections/EntityDefinition';
 import { CoraRoadmap260926 } from '@/components/sections/CoraRoadmap260926';
+import { CoraRoadmap261014rNewark } from '@/components/sections/CoraRoadmap261014rNewark';
 import { RoofRepairGuide } from '@/components/sections/RoofRepairGuide';
 import { ServiceRichSections } from '@/components/sections/ServiceRichSections';
 import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
@@ -448,6 +449,12 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       {/* CORA 2026-09-26 roadmap: one expandable supplemental section with all
           added optimization content for this page (keyword "roof repair"). */}
       {service.id === 'roof-repair' && <CoraRoadmap260926 />}
+
+      {/* CORA 2026-10-14 REPLACEMENT phrase roadmap (261014r): one expandable
+          supplemental section with all added optimization content for
+          /roof-replacement-in-newark-nj (keyword "roof replacement
+          newark nj") — this page's FIRST Cora pass. */}
+      {service.id === 'roof-replacement' && <CoraRoadmap261014rNewark />}
 
       {service.id === 'roof-repair' && (
         <section aria-labelledby="google-site-guide-heading" className="mx-auto max-w-7xl px-6 pb-12 lg:px-8">
