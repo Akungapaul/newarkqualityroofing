@@ -148,6 +148,11 @@ import {
   coraReplCaldwellMetaKeywords,
   coraReplCaldwellTitle,
 } from '@/data/cora-261014r-caldwell-content';
+import {
+  coraReplCedarGroveMetaDescription,
+  coraReplCedarGroveMetaKeywords,
+  coraReplCedarGroveTitle,
+} from '@/data/cora-261014r-cedar-grove-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -626,6 +631,11 @@ export async function generateMetadata({
         comboTitle = coraReplCaldwellTitle;
         comboDescription = coraReplCaldwellMetaDescription;
       }
+      const isCoraReplCedarGrove = combo.slug === 'roof-replacement-cedar-grove-nj';
+      if (isCoraReplCedarGrove) {
+        comboTitle = coraReplCedarGroveTitle;
+        comboDescription = coraReplCedarGroveMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -795,6 +805,7 @@ export async function generateMetadata({
         // not R5's 22-keyword generic list), built from this
         // run's verbatim variation forms.
         ...(isCoraReplCaldwell ? { keywords: coraReplCaldwellMetaKeywords } : {}),
+      ...(isCoraReplCedarGrove ? { keywords: coraReplCedarGroveMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
