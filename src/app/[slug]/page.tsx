@@ -153,6 +153,11 @@ import {
   coraReplCedarGroveMetaKeywords,
   coraReplCedarGroveTitle,
 } from '@/data/cora-261014r-cedar-grove-content';
+import {
+  coraReplNutleyMetaDescription,
+  coraReplNutleyMetaKeywords,
+  coraReplNutleyTitle,
+} from '@/data/cora-261015r-nutley-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -636,6 +641,20 @@ export async function generateMetadata({
         comboTitle = coraReplCedarGroveTitle;
         comboDescription = coraReplCedarGroveMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT pass (Nutley only — this
+      // page's FIRST Cora pass against the replacement keyword):
+      // title (109 chars; 'roofing replacement nutley nj' + GAF /
+      // slate / Timberline entity segments; ~+50 over the Link
+      // Text Length floor of 59 — full literal asks win, delta
+      // disclosed) and meta description (185 chars, past the
+      // Summary Length goal of 163) come from the 261015r Nutley
+      // pass; see src/data/cora-261015r-nutley-content.ts. Same
+      // scoping as Cedar Grove above.
+      const isCoraReplNutley = combo.slug === 'roof-replacement-nutley-nj';
+      if (isCoraReplNutley) {
+        comboTitle = coraReplNutleyTitle;
+        comboDescription = coraReplNutleyMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -806,6 +825,14 @@ export async function generateMetadata({
         // run's verbatim variation forms.
         ...(isCoraReplCaldwell ? { keywords: coraReplCaldwellMetaKeywords } : {}),
       ...(isCoraReplCedarGrove ? { keywords: coraReplCedarGroveMetaKeywords } : {}),
+        // CORA 2026-10-15 REPLACEMENT pass (Nutley only): the
+        // served page had NO meta keywords tag (Cora's tracked "1"
+        // is the field-wide phantom); this creates it with the
+        // 9-keyword set from the roof_replacement_nutley_nj phrase
+        // roadmap (the goal 9 is served by BOTH goal-setters that
+        // carry the factor, R1 and R4 — live-verified real tags),
+        // built from this run's verbatim variation forms.
+        ...(isCoraReplNutley ? { keywords: coraReplNutleyMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
