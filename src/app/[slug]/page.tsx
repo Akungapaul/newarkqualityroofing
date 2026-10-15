@@ -184,6 +184,11 @@ import {
   coraReplRoselandMetaKeywords,
   coraReplRoselandTitle,
 } from '@/data/cora-261015r-roseland-content';
+import {
+  coraReplEssexFellsMetaDescription,
+  coraReplEssexFellsMetaKeywords,
+  coraReplEssexFellsTitle,
+} from '@/data/cora-261015r-essex-fells-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -759,6 +764,23 @@ export async function generateMetadata({
         comboTitle = coraReplRoselandTitle;
         comboDescription = coraReplRoselandMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT phrase pass (Essex Fells only,
+      // this page's FIRST pass against the replacement keyword):
+      // title (144 chars; Rule-7 opening + 'new roof' /
+      // 'essex fells nj' segment + GAF / Timberline / slate /
+      // cedar shake / copper entity segment; +81 over the Link
+      // Text Length floor of 63 = R4 genuine — full literal asks
+      // win, delta disclosed) and meta description (238 chars,
+      // past the Summary Length goal of 227 = R4 genuine) come
+      // from the 261015r Essex Fells pass; see
+      // src/data/cora-261015r-essex-fells-content.ts. Same
+      // scoping as Roseland above. (Distinct from the repair
+      // pass's isCoraEssexFells on the sibling repair slug.)
+      const isCoraReplEssexFells = combo.slug === 'roof-replacement-essex-fells-nj';
+      if (isCoraReplEssexFells) {
+        comboTitle = coraReplEssexFellsTitle;
+        comboDescription = coraReplEssexFellsMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -979,6 +1001,15 @@ export async function generateMetadata({
         // roadmap (the goal is the Shared Average — taken at
         // face value per the Fairfield ruling).
         ...(isCoraReplRoseland ? { keywords: coraReplRoselandMetaKeywords } : {}),
+        // CORA 2026-10-15 REPLACEMENT pass (Essex Fells only):
+        // the served page had NO meta keywords tag (Cora's
+        // tracked "1" was a phantom read); this creates it with
+        // the 10-keyword set from the
+        // roof_replacement_essex_fells_nj roadmap (the goal 10
+        // is R1's real, live-verified 10-keyword tag — taken at
+        // face value), built from this run's verbatim variation
+        // forms.
+        ...(isCoraReplEssexFells ? { keywords: coraReplEssexFellsMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
