@@ -169,6 +169,11 @@ import {
   coraReplNorthCaldwellMetaKeywords,
   coraReplNorthCaldwellTitle,
 } from '@/data/cora-261015r-north-caldwell-content';
+import {
+  coraReplIrvingtonMetaDescription,
+  coraReplIrvingtonMetaKeywords,
+  coraReplIrvingtonTitle,
+} from '@/data/cora-261015r-irvington-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -696,6 +701,20 @@ export async function generateMetadata({
         comboTitle = coraReplNorthCaldwellTitle;
         comboDescription = coraReplNorthCaldwellMetaDescription;
       }
+      // CORA 2026-10-15 REPLACEMENT phrase pass (Irvington only,
+      // this page's FIRST pass against the replacement keyword):
+      // title (159 chars; Rule-7 opening + 'roofing contractor' /
+      // GAF / EPDM segments; ~+101 over the Link Text Length floor
+      // of 58 — full literal asks win, delta disclosed) and meta
+      // description (172 chars) come from the 261015r Irvington
+      // pass; see src/data/cora-261015r-irvington-content.ts. Same
+      // scoping as North Caldwell above. (Distinct from the repair
+      // passes' isCoraIrvington on the sibling repair slug.)
+      const isCoraReplIrvington = combo.slug === 'roof-replacement-irvington-nj';
+      if (isCoraReplIrvington) {
+        comboTitle = coraReplIrvingtonTitle;
+        comboDescription = coraReplIrvingtonMetaDescription;
+      }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
       // D-04 indexation gate: 738 combos are KEEP-INDEX; the 402 zero-demand
@@ -892,6 +911,14 @@ export async function generateMetadata({
         // face value), built from this run's verbatim variation
         // forms.
         ...(isCoraReplNorthCaldwell ? { keywords: coraReplNorthCaldwellMetaKeywords } : {}),
+        // CORA 2026-10-15 REPLACEMENT pass (Irvington only): the
+        // served page had NO meta keywords tag (Cora's tracked
+        // "1" is the field-wide phantom); this creates it with the
+        // 9-keyword set from the roof_replacement_irvington_nj
+        // phrase roadmap (the goal 9 is R6 Rande's real,
+        // live-verified 9-keyword tag — taken at face value),
+        // built from this run's verbatim variation forms.
+        ...(isCoraReplIrvington ? { keywords: coraReplIrvingtonMetaKeywords } : {}),
         alternates: { canonical: `/${combo.slug}` },
         robots: isNoindex(combo.slug)
           ? { index: false, follow: true }
