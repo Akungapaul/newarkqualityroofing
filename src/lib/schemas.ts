@@ -208,10 +208,6 @@ export const ServiceContentSchema = z.object({
   // Optional hero benefit bullets. Omitted by the other 64 services, which keep
   // the three template defaults verbatim.
   heroBenefits: z.array(z.string()).min(3).max(5).optional(),
-  // Authored ISO date for the visible <time dateTime>. Deliberately NOT derived
-  // from git: Vercel's shallow clone can yield an empty value, which would ship
-  // <time dateTime="">. Label it "Content updated", never "reviewed".
-  contentUpdated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
   // ─── Rich "brief-driven" layout (optional, per-page opt-in) ────────────────
   // When `sections` is present the ServiceTemplate renders these ordered,
   // question-form prose H2 sections IN PLACE OF the generic overview/signs/

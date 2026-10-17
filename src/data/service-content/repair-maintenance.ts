@@ -8,7 +8,6 @@ export const repairMaintenanceContent: ServiceContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════════
   {
     serviceId: 'roof-repair',
-    contentUpdated: '2026-09-21',
     heroBenefits: [
       'Roof leak repair traced to the failed flashing detail',
       'Shingle repair, flat roof repair, and metal roof repair',
