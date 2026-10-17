@@ -315,7 +315,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
               {/* No outer AnimateIn: ServiceRichSections reveals each section
                   itself. Wrapping the whole band made one ~27,000px element
                   whose whileInView threshold could never be met. */}
-              <ServiceRichSections sections={content.sections} contentUpdated={content.contentUpdated} subServices={content.subServices} ctaServiceName={service.name} />
+              <ServiceRichSections sections={content.sections} subServices={content.subServices} ctaServiceName={service.name} />
 
               {service.id === 'roof-repair' && <RoofRepairGuide />}
 

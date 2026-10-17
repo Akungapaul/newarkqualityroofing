@@ -25,8 +25,6 @@ const SECTION_ICON = (
 interface ServiceRichSectionsProps {
   /** Ordered, statement-form prose H2 sections (from ServiceContent.sections). */
   sections: NonNullable<ServiceContent['sections']>;
-  /** Authored ISO date (YYYY-MM-DD) for the visible "Content updated" stamp. */
-  contentUpdated?: string;
   /**
    * Core sub-services. The rich branch replaces ServiceOverview, which is the
    * only other renderer of this field — so without this they are invisible on
@@ -48,7 +46,7 @@ interface ServiceRichSectionsProps {
  * render the generic overview/signs/approach band instead. Mirrors the
  * SectionHeading + ProseLead treatment used by EntityDefinition and HubScaffold.
  */
-export function ServiceRichSections({ sections, contentUpdated, subServices, ctaServiceName }: ServiceRichSectionsProps) {
+export function ServiceRichSections({ sections, subServices, ctaServiceName }: ServiceRichSectionsProps) {
   return (
     <>
       {sections.map((section, index) => {
@@ -247,22 +245,14 @@ export function ServiceRichSections({ sections, contentUpdated, subServices, cta
         </AnimateIn>
       )}
 
-      {contentUpdated && (
-        <div>
-          <hr className="border-t border-forest/10" />
-          <p className="mt-4 font-body text-sm text-text-secondary">
-            <small>
-              Content updated{' '}
-              <time dateTime={contentUpdated}>
-                {new Date(`${contentUpdated}T00:00:00Z`).toLocaleDateString('en-US', {
-                  year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
-                })}
-              </time>
-              . Prices shown are ranges, not quotes.<sup>1</sup>
-            </small>
-          </p>
-        </div>
-      )}
+      <div>
+        <hr className="border-t border-forest/10" />
+        <p className="mt-4 font-body text-sm text-text-secondary">
+          <small>
+            Prices shown are ranges, not quotes.<sup>1</sup>
+          </small>
+        </p>
+      </div>
     </>
   );
 }
