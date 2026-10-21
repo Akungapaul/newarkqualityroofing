@@ -6,6 +6,7 @@ import LocationsHubPage from '@/components/pages/LocationsHubPage';
 import SitemapPage from '@/components/pages/SitemapPage';
 import PrivacyPolicyPage from '@/components/pages/PrivacyPolicyPage';
 import TermsOfServicePage from '@/components/pages/TermsOfServicePage';
+import AccessibilityPage from '@/components/pages/AccessibilityPage';
 import ResourcesPage from '@/components/pages/ResourcesPage';
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
@@ -19,7 +20,7 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 
 // ─── Schema strategy by page ID ─────────────────────────────────────────────
 
-const NOINDEX_PAGES = new Set(['thank-you', 'privacy-policy', 'terms-of-service']);
+const NOINDEX_PAGES = new Set(['thank-you', 'privacy-policy', 'terms-of-service', 'accessibility']);
 
 function buildCorePageSchema(corePage: CorePage): Record<string, unknown> | null {
   if (NOINDEX_PAGES.has(corePage.id)) return null;
@@ -70,6 +71,8 @@ export default function CoreTemplate({ corePage }: CoreTemplateProps) {
         return <PrivacyPolicyPage />;
       case 'terms-of-service':
         return <TermsOfServicePage />;
+      case 'accessibility':
+        return <AccessibilityPage />;
       case 'resources':
         return <ResourcesPage />;
       default:

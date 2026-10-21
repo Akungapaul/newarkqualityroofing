@@ -67,6 +67,13 @@ const rawCorePages: CorePage[] = [
     metaTitle: 'Terms of Service',
     metaDescription: 'Terms of service for Newark Quality Roofing. Service agreements, warranties, and policies for roofing projects in Essex County NJ.',
   },
+  {
+    id: 'accessibility',
+    name: 'Accessibility Statement',
+    slug: 'accessibility',
+    metaTitle: 'Accessibility Statement',
+    metaDescription: 'Accessibility statement for Newark Quality Roofing. Our commitment to WCAG 2.1 AA, the measures we take, and how to contact us for assistance.',
+  },
   // D-07 hub migration: the former /resources core page is RETIRED. /resources now
   // 301s to /roofing-knowledge-base (the KB catch-all hub built in Plan 05 — NOT a
   // renamed core page). The entry is removed so /resources no longer serves a core

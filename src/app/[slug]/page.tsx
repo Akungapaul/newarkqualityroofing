@@ -273,7 +273,7 @@ export const dynamicParams = false;
 const TITLE_H1_EXCLUDE = new Set(['roof-repair']);
 
 /** Pages that should have robots noindex */
-const NOINDEX_PAGES = new Set(['thank-you', 'privacy-policy']);
+const NOINDEX_PAGES = new Set(['thank-you', 'privacy-policy', 'accessibility']);
 
 /** Build OG metadata for a page (uses per-page OG image when available, otherwise shared default) */
 function buildOG(
