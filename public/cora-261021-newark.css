@@ -1,0 +1,15 @@
+/* CORA 261021 supplemental block styles for /roof-replacement-in-newark-nj.
+   Real rules for the repair-records block: directory grid, resource list,
+   video frame and field-notes index. */
+.cora-261021-details summary::-webkit-details-marker { color: #b45309; }
+.cora-261021-details > summary { list-style: revert; }
+.cora-261021-details iframe { border: 0; }
+.cora-261021-details .c261021-l { padding: 1rem 1.25rem; }
+.cora-261021-lsi > summary { list-style: revert; }
+.cora-261021-lsi p { margin-bottom: 0.75rem; }
+.roof-repair-newark-nj-link a { word-break: break-all; }
+.roof-repair-newark-nj-card a { text-decoration: underline; }
+.cora-261021 section, .cora-261021 details { scroll-margin-top: 6rem; }
+@media (max-width: 640px) {
+  .cora-261021-details iframe { min-height: 200px; }
+}
