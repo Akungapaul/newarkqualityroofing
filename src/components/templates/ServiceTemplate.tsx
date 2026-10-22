@@ -43,6 +43,7 @@ import { HEADING_CONFIG } from '@/data/heading-config';
 import { EntityDefinition } from '@/components/sections/EntityDefinition';
 import { CoraRoadmap260926 } from '@/components/sections/CoraRoadmap260926';
 import { CoraRoadmap261014rNewark } from '@/components/sections/CoraRoadmap261014rNewark';
+import { CoraRoadmap261021Newark } from '@/components/sections/CoraRoadmap261021Newark';
 import { RoofRepairGuide } from '@/components/sections/RoofRepairGuide';
 import { ServiceRichSections } from '@/components/sections/ServiceRichSections';
 import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
@@ -455,6 +456,14 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           /roof-replacement-in-newark-nj (keyword "roof replacement
           newark nj") — this page's FIRST Cora pass. */}
       {service.id === 'roof-replacement' && <CoraRoadmap261014rNewark />}
+
+      {/* CORA 261021 rerun roadmap (M2): the Formula / hard-rule pass for
+          /roof-replacement-in-newark-nj — a second expandable supplemental
+          block carrying the repair-records programme, the lsa1-lsa4 field
+          notes, the page directory, the VideoObject embed and the microdata
+          RoofingContractor card. Title/meta overrides for this service now
+          resolve to src/data/cora-261021-newark-content.ts. */}
+      {service.id === 'roof-replacement' && <CoraRoadmap261021Newark />}
 
       {service.id === 'roof-repair' && (
         <section aria-labelledby="google-site-guide-heading" className="mx-auto max-w-7xl px-6 pb-12 lg:px-8">

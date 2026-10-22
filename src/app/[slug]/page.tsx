@@ -142,7 +142,7 @@ import {
   coraReplNewarkMetaDescription,
   coraReplNewarkMetaKeywords,
   coraReplNewarkTitle,
-} from '@/data/cora-261014r-newark-content';
+} from '@/data/cora-261021-newark-content';
 import {
   coraReplCaldwellMetaDescription,
   coraReplCaldwellMetaKeywords,
