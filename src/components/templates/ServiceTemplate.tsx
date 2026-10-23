@@ -41,10 +41,10 @@ import { ServiceAreasGrid } from '@/components/sections/ServiceAreasGrid';
 import { getContentPoolImages } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import { EntityDefinition } from '@/components/sections/EntityDefinition';
-import { CoraRoadmap260926 } from '@/components/sections/CoraRoadmap260926';
 import { CoraRoadmap261014rNewark } from '@/components/sections/CoraRoadmap261014rNewark';
 import { CoraRoadmap261021Newark } from '@/components/sections/CoraRoadmap261021Newark';
 import { RoofRepairGuide } from '@/components/sections/RoofRepairGuide';
+import { LeanRoofRepairNewark } from '@/components/sections/LeanRoofRepairNewark';
 import { ServiceRichSections } from '@/components/sections/ServiceRichSections';
 import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
 import { ArticleJumpNav } from '@/components/sections/ArticleJumpNav';
@@ -279,6 +279,12 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
+          {/* LEAN TEST 2026-10-23 (one page only): /roof-repair-newark-nj
+              renders the tight LeanRoofRepairNewark body instead of the
+              stacked rich band below. Every other service is unchanged. */}
+          {service.id === 'roof-repair' ? (
+            <LeanRoofRepairNewark />
+          ) : (<>
           {surfer ? (
             <SurferVerbatimArticle page={surfer} ctaServiceName={service.name} />
           ) : (
@@ -431,6 +437,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
           {/* Related Comparisons -- contextual comparison links */}
           <AnimateIn><ServiceRelatedComparisons heading="Compare Your Roofing Options" comparisons={getRelatedComparisons(service.id)} /></AnimateIn>
+          </>)}
         </article>
 
         {/* Sticky sidebar */}
@@ -443,13 +450,21 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         </StickyFormSidebar>
       </div>
 
-      <ServiceAreasGrid heading={`${service.name} Across Essex County, NJ`} service={service} />
+      {/* LEAN TEST 2026-10-23: the areas grid and related band are part of
+          the mass cut on /roof-repair-newark-nj; the lean body carries the
+          service-area line and the related-service links instead. */}
+      {service.id !== 'roof-repair' && (
+        <ServiceAreasGrid heading={`${service.name} Across Essex County, NJ`} service={service} />
+      )}
 
-      <RelatedServices heading={relatedH2} services={relatedServices} />
+      {service.id !== 'roof-repair' && (
+        <RelatedServices heading={relatedH2} services={relatedServices} />
+      )}
 
-      {/* CORA 2026-09-26 roadmap: one expandable supplemental section with all
-          added optimization content for this page (keyword "roof repair"). */}
-      {service.id === 'roof-repair' && <CoraRoadmap260926 />}
+      {/* CORA 2026-09-26 roadmap block: NOT rendered on /roof-repair-newark-nj
+          during the lean test (its JSON-LD Service node and microdata h-card
+          are re-emitted by LeanRoofRepairNewark). The component and its data
+          files remain in the repo; the test PR's inverse merge restores it. */}
 
       {/* CORA 2026-10-14 REPLACEMENT phrase roadmap (261014r): one expandable
           supplemental section with all added optimization content for
@@ -465,24 +480,8 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           resolve to src/data/cora-261021-newark-content.ts. */}
       {service.id === 'roof-replacement' && <CoraRoadmap261021Newark />}
 
-      {service.id === 'roof-repair' && (
-        <section aria-labelledby="google-site-guide-heading" className="mx-auto max-w-7xl px-6 pb-12 lg:px-8">
-          <h2 id="google-site-guide-heading" className="text-2xl font-semibold text-forest">
-            Roof Repair in Newark: Costs, Options and What to Check First
-          </h2>
-          <p className="mt-3 max-w-3xl text-slate-700">
-            Read our companion guide to{' '}
-            <a
-              href="https://sites.google.com/view/roof-repair-newark-nj"
-              rel="noopener"
-              className="text-copper underline decoration-copper/40 underline-offset-2 transition-colors hover:text-copper-dark hover:decoration-copper"
-            >
-              roof repair in Newark, NJ
-            </a>{' '}
-            for typical repair costs, leak and flashing options, and how to tell whether a roof needs repair or replacement.
-          </p>
-        </section>
-      )}
+      {/* The Google Sites companion-guide section that used to render here
+          for roof-repair is part of the lean-test cut (see baseline doc). */}
 
       <ServiceCtaBanner
         heading={scheduleH2}
