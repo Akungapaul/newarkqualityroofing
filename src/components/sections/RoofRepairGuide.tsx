@@ -30,7 +30,10 @@ function RepairText({ text }: { text: string }) {
   );
 }
 
-export function RoofRepairGuide() {
+/** Schema-only export (lean-test 2026-10-23): the guide's JSON-LD graph
+ *  (ImageGallery, DefinedTermSet, HowTo) without its visible sections, so
+ *  the lean roof-repair page keeps every factual schema type it had. */
+function buildRoofRepairGuideSchema() {
   const images = roofRepairGuide.map((entry, index) => ({
     '@type': 'ImageObject',
     '@id': `${pageUrl}#roof-repair-image-${index + 1}`,
@@ -38,7 +41,7 @@ export function RoofRepairGuide() {
     caption: entry.alt,
     description: `Illustrative roofing image for ${entry.term.toLowerCase()}.`,
   }));
-  const schema = {
+  return {
     '@context': 'https://schema.org',
     '@graph': [
       { '@type': 'ImageGallery', '@id': `${pageUrl}#roof-repair-guide`,
@@ -65,6 +68,15 @@ export function RoofRepairGuide() {
       },
     ],
   };
+}
+
+export function RoofRepairGuideSchema() {
+  return <JsonLd data={buildRoofRepairGuideSchema()} />;
+}
+
+export function RoofRepairGuide() {
+  const schema = buildRoofRepairGuideSchema();
+
 
   return (
     <>
