@@ -1,0 +1,12 @@
+/* CORA 261022 pass-2 supplemental styles for /roof-replacement-in-newark-nj.
+   Real rules for the scope-notes section added in the 261022 pass:
+   repair scope headings, the filed scope-phrase list and its markers. */
+.c261022-wrap { margin-top: 1rem; }
+.c261022-wrap h2, .c261022-wrap h3 { text-wrap: balance; }
+.c261022-li-list { list-style: disc; padding-left: 1.5rem; }
+.c261022-li-list li { margin-bottom: 0.25rem; }
+.c261022-li-list li::marker { color: #b45309; }
+.c261022-li-intro { margin-bottom: 0.5rem; }
+@media (max-width: 640px) {
+  .c261022-li-list { padding-left: 1.25rem; }
+}

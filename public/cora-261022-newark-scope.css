@@ -1,0 +1,9 @@
+/* CORA 261022 pass-2 scope-index styles for /roof-replacement-in-newark-nj.
+   Real rules for the collapsed exact-phrase scope index: summary
+   affordance, paragraph rhythm and the top rule that separates the
+   index from the field-notes section above it. */
+.c261022-scope { border-top: 1px solid #e2e8f0; margin-top: 1.5rem; }
+.c261022-scope > summary { cursor: pointer; padding-block: 0.5rem; list-style: revert; }
+.c261022-scope > summary::-webkit-details-marker { color: #b45309; }
+.c261022-scope p { margin-bottom: 0.75rem; line-height: 1.65; max-width: 70ch; }
+.c261022-scope p:last-child { margin-bottom: 0.25rem; }

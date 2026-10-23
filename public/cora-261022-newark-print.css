@@ -1,0 +1,10 @@
+/* CORA 261022 pass-2 print styles for /roof-replacement-in-newark-nj.
+   Print rules for the supplemental records block: collapsed sections
+   print in full, link targets stay readable, and the scope index
+   keeps its paragraph rhythm on paper. */
+@media print {
+  .cora-261021-details, .c261022-scope { break-inside: auto; }
+  .c261022-li-list li { break-inside: avoid; }
+  .c261022-scope p { max-width: none; }
+  .c261022-wrap a { text-decoration: underline; }
+}

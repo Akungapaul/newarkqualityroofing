@@ -50,12 +50,40 @@
 // longitude pair (D-01: the address is deliberately
 // unlisted; siteConfig geo is empty). Skips per the agreed
 // set: URL has Year and the five Phase X tech factors.
+//
+// PASS 2 — CORA 261022 rerun (M3), added 2026-10-22 under the
+// amended method (counting source declared per family; local
+// counts validate the build only, Paul's rerun arbitrates):
+//   Phase 1: 'roof repair' in H2 +1 and in H3 +1 (the scope-
+//     notes section below); meta 'roofing contractor' +1 is
+//     in the data file's meta export.
+//   Phase 2: Clean Keyword Density (Top 200) +2 points —
+//     132 exact-phrase scope sentences in the collapsed
+//     scope-index details (docs cleaning model; locally
+//     counted only).
+//   Phase 11: whole-LI variation forms +6; variations in
+//     style tags +3 (four forms in the first pass-2 style
+//     element's comment).
+//   Phase 12: JSON-LD RoofingContractor +1 (name + URL only,
+//     D-01) in the JsonLd graph above.
+//   Phase X: CSS includes +37 — forty scoped style elements
+//     plus three real stylesheets in public/ (local count
+//     26 -> 69; Cora's include count differs, verify on
+//     rerun). Has Google Verify: BLOCKED on Paul's supply
+//     of the GSC HTML-tag verification token (the trio CLI
+//     exposes no Site Verification call) — no token invented.
+//   Carried, not built: the four Phase 6 SERP lines (31, 32,
+//     36, 38) — counting source is the Google SERP rendering,
+//     no page carrier; the LSI pair (27, 29) — measurement-
+//     artifact exceptions (export constants, verified).
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
   cora261021DirectoryUrls,
   cora261021LsiSentencesA,
   cora261021LsiSentencesB,
+  cora261022DensitySentences,
+  cora261022WholeLiForms,
 } from '@/data/cora-261021-newark-content';
 
 const videoObjectNode = {
@@ -68,6 +96,65 @@ const videoObjectNode = {
   contentUrl: 'https://www.youtube.com/watch?v=xXNYOtDE37w',
   embedUrl: 'https://www.youtube.com/embed/xXNYOtDE37w',
 };
+
+// CORA 261022 pass 2 (2026-10-22): JSON-LD RoofingContractor node
+// (rerun line 23, Add 1). Name + URL only — D-01: no address, no geo,
+// no rating, no phone (the business address is deliberately unlisted).
+// The pass-1 Microdata RoofingContractor card below stays as built.
+const roofingContractorNode = {
+  '@type': 'RoofingContractor',
+  name: 'Newark Quality Roofing',
+  url: 'https://newarkqualityroofing.com/',
+};
+
+// CORA 261022 pass 2: forty scoped <style> elements carrying real rules
+// for the pass-2 classes below (CSS Includes, old line 64 / rerun
+// line 32, Add 37 against the pass-1 local count of 26), rendered
+// alongside three real pass-2 stylesheet files in public/. The first
+// element's comment also carries the style-tag variation forms
+// (rerun line 20, Add 3): four distinct variation forms as filed.
+const cora261022Styles: string[] = [
+  '/* Filed scope phrases for this page: roof replacement newark nj · roof repair newark nj · newark nj roof replacement · roof replacement newark. */ .c261022-wrap{margin-top:1rem}',
+  '.c261022-h2{letter-spacing:.005em}',
+  '.c261022-h3{letter-spacing:.005em}',
+  '.c261022-p{max-width:65ch}',
+  '.c261022-li-intro{margin-bottom:.5rem}',
+  '.c261022-li-list{list-style:disc}',
+  '.c261022-li-list{padding-left:1.5rem}',
+  '.c261022-li-list li{margin-bottom:.25rem}',
+  '.c261022-li-list li::marker{color:#b45309}',
+  '.c261022-scope{margin-top:1.5rem}',
+  '.c261022-scope>summary{cursor:pointer}',
+  '.c261022-scope>summary{padding-block:.5rem}',
+  '.c261022-scope p{margin-bottom:.75rem}',
+  '.c261022-scope p{line-height:1.65}',
+  '.c261022-wrap p{text-wrap:pretty}',
+  '.c261022-h2{scroll-margin-top:6rem}',
+  '.c261022-h3{scroll-margin-top:6rem}',
+  '.c261022-li-list{column-gap:2rem}',
+  '.c261022-li-list li{break-inside:avoid}',
+  '.c261022-scope{border-top:1px solid #e2e8f0}',
+  '.c261022-scope>summary{font-weight:600}',
+  '.c261022-scope>summary{list-style:revert}',
+  '.c261022-p{overflow-wrap:break-word}',
+  '.c261022-p{hyphens:none}',
+  '.c261022-li-list{word-spacing:.01em}',
+  '.c261022-h2{font-kerning:normal}',
+  '.c261022-h3{font-kerning:normal}',
+  '.c261022-scope p{font-variant-numeric:tabular-nums}',
+  '.c261022-wrap{accent-color:#b45309}',
+  '.c261022-li-intro{font-style:normal}',
+  '.c261022-li-list li{text-decoration-color:#b45309}',
+  '.c261022-scope{scroll-margin-top:6rem}',
+  '.c261022-wrap section{scroll-margin-top:6rem}',
+  '.c261022-h2{margin-block-end:.75rem}',
+  '.c261022-h3{margin-block-end:.5rem}',
+  '.c261022-p{margin-block-end:1rem}',
+  '.c261022-li-list{margin-block-end:1rem}',
+  '.c261022-scope p{max-width:70ch}',
+  '.c261022-li-intro{max-width:65ch}',
+  '.c261022-wrap{line-height:1.6}',
+];
 
 const h2Class = 'mt-8 mb-3 font-heading text-2xl font-semibold text-brand-navy';
 const h3Class = 'mt-6 mb-2 font-heading text-xl font-semibold text-brand-navy';
@@ -109,8 +196,11 @@ export function CoraRoadmap261021Newark() {
       aria-label="Newark Roof Replacement Repair Records, Materials and Field Notes"
       className="bg-white cora-261021 roof-replacement-newark-nj"
     >
-      <JsonLd data={{ '@context': 'https://schema.org', '@graph': [videoObjectNode] }} />
+      <JsonLd data={{ '@context': 'https://schema.org', '@graph': [videoObjectNode, roofingContractorNode] }} />
       <link rel="stylesheet" href="/cora-261021-newark.css" />
+      <link rel="stylesheet" href="/cora-261022-newark.css" />
+      <link rel="stylesheet" href="/cora-261022-newark-scope.css" />
+      <link rel="stylesheet" media="print" href="/cora-261022-newark-print.css" />
       <style>{`.c261021-a{letter-spacing:.01em}`}</style>
       <style>{`.c261021-b{word-spacing:.02em}`}</style>
       <style>{`.c261021-c{text-wrap:pretty}`}</style>
@@ -131,6 +221,9 @@ export function CoraRoadmap261021Newark() {
       <style>{`.c261021-r{break-inside:avoid}`}</style>
       <style>{`.c261021-s{scroll-margin-top:6rem}`}</style>
       <style>{`.c261021-t{accent-color:#b45309}`}</style>
+      {cora261022Styles.map((css) => (
+        <style key={css.slice(0, 40)}>{css}</style>
+      ))}
       <details className="cora-261021-details roof-repair-newark-nj mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-8">
         <summary className="cursor-pointer py-3 text-lg font-semibold text-brand-navy">
           Roof Replacement in Newark NJ: Repair Records, Materials and Field Notes (October 2026 Update)
@@ -351,6 +444,36 @@ export function CoraRoadmap261021Newark() {
           </p>
         ))}
 
+        <div className="c261022-wrap">
+          <h2 className={`${h2Class} c261022-h2`} id="roof-repair-scope-notes-newark">
+            Roof Repair Scope Notes Inside a Newark Replacement Job
+          </h2>
+          <p className={`${pClass} c261022-p`}>
+            Before a replacement is priced, the crew reads the roof repair scope notes on the
+            file: which slopes were patched, which flashing lines were sealed, and which repairs
+            bought time. Those notes decide whether the tear-off is straightforward or whether
+            deck work has to be priced into the replacement from the start.
+          </p>
+
+          <h3 className={`${h3Class} c261022-h3`} id="roof-repair-history-newark">
+            Roof Repair History the Crew Reads Before the Tear-Off
+          </h3>
+          <p className={`${pClass} c261022-p`}>
+            The repair history on a Newark house is read slope by slope. A slope with one sound
+            repair is a different job from a slope patched four times, and the history tells the
+            estimator which one he is looking at before the first shingle is lifted.
+          </p>
+
+          <p className="c261022-li-intro font-body text-base leading-relaxed text-slate-700">
+            The replacement file also carries these scope phrases, as filed:
+          </p>
+          <ul className="c261022-li-list mb-4 font-body text-base leading-relaxed text-slate-700">
+            {cora261022WholeLiForms.map((f) => (
+              <li key={f}>{f}</li>
+            ))}
+          </ul>
+        </div>
+
         <details className="cora-261021-lsi roof-replacement-newark-nj-notes mt-6">
           <summary className="cursor-pointer py-2 text-base font-semibold text-brand-navy">
             Field Notes Index: Replacement and Repair Terms From the Newark Job Files
@@ -362,6 +485,17 @@ export function CoraRoadmap261021Newark() {
           ))}
           {cora261021LsiSentencesB.map((s) => (
             <p key={'b' + s.slice(0, 48)} className={pClass}>
+              {s}
+            </p>
+          ))}
+        </details>
+
+        <details className="c261022-scope cora-261022-scope-index">
+          <summary className="cursor-pointer py-2 text-base font-semibold text-brand-navy">
+            Scope Index: Exact Phrases From the Newark Replacement Files
+          </summary>
+          {cora261022DensitySentences.map((s) => (
+            <p key={s.slice(0, 48)} className={pClass}>
               {s}
             </p>
           ))}
