@@ -208,7 +208,7 @@ import {
   coraReplWestOrangeMetaDescription,
   coraReplWestOrangeMetaKeywords,
   coraReplWestOrangeTitle,
-} from '@/data/cora-261015r-west-orange-content';
+} from '@/data/cora-261022-west-orange-content';
 import {
   coraReplVeronaMetaDescription,
   coraReplVeronaMetaKeywords,
