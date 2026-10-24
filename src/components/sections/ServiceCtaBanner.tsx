@@ -5,12 +5,18 @@ interface ServiceCtaBannerProps {
   heading: string;
   serviceGroups: NavServiceGroup[];
   defaultService: string;
+  /**
+   * RESTRUCTURE 2026-10-23: forward LeadForm's mobileCollapsed to the
+   * banner form. Passed only for /roof-repair-in-newark-nj.
+   */
+  minimizeFormOnMobile?: boolean;
 }
 
 export function ServiceCtaBanner({
   heading,
   serviceGroups,
   defaultService,
+  minimizeFormOnMobile,
 }: ServiceCtaBannerProps) {
   return (
     <section
@@ -44,6 +50,7 @@ export function ServiceCtaBanner({
             variant="standard"
             defaultService={defaultService}
             serviceGroups={serviceGroups}
+            mobileCollapsed={minimizeFormOnMobile}
           />
         </div>
       </div>

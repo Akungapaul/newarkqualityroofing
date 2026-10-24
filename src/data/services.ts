@@ -23,7 +23,7 @@ const rawServices: Service[] = [
     // CORA 2026-09-26 lines 3/4/16: one more 'roof', the 'roof repair services'
     // phrase, and +10 chars of summary length (195 -> 226). Keep identical to
     // SERVICE_DESCRIPTION_OVERRIDES['roof-repair'] in src/lib/seo-utils.ts.
-    metaDescription: 'Roof repair in Newark, NJ for leaks, shingles, flashing and flat roofs. Most repairs run $350-$1,500. Free written estimates. Call (973) 649-9535.',
+    metaDescription: 'Roof repair in Newark, NJ for leaks, shingles, flashing and flat roofs. Most repairs run $350-$1,500. Free written estimates. Every repair verified in writing. Call (973) 649-9535.',
     // Cora 2026-09-04 Phase X, CP438 "Number of comma delimited meta keywords":
     // 4 -> 9. Every term is verified present in this page's visible text (counts
     // measured in the built HTML: 146 / 1 / 11 / 8 / 14 / 13 / 5 / 5 / 15).

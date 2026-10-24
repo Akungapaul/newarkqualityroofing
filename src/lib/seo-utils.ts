@@ -103,7 +103,7 @@ const SERVICE_DESCRIPTION_OVERRIDES: Record<string, string> = {
   // Keep aligned with the authored service description and Open Graph copy.
   // CORA 2026-09-26 lines 3/4/16 — see metaDescription note in services.ts.
   'roof-repair':
-    'Roof repair in Newark, NJ for leaks, shingles, flashing and flat roofs. Most repairs run $350-$1,500. Free written estimates. Call (973) 649-9535.',
+    'Roof repair in Newark, NJ for leaks, shingles, flashing and flat roofs. Most repairs run $350-$1,500. Free written estimates. Every repair verified in writing. Call (973) 649-9535.',
 };
 
 export function buildServiceDescription(service: Service): string {

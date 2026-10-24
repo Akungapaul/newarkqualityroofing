@@ -11,6 +11,13 @@ interface LeadFormProps {
   className?: string;
   variant?: 'hero' | 'standard';
   serviceGroups: NavServiceGroup[];
+  /**
+   * RESTRUCTURE 2026-10-23 (Paul's direction, /roof-repair-in-newark-nj
+   * only): on mobile widths the form card starts collapsed behind a tap
+   * target; on desktop (lg+) it always renders in full. Callers pass this
+   * for the one page only, so every other page's form markup is unchanged.
+   */
+  mobileCollapsed?: boolean;
 }
 
 const initialState: LeadFormState = {};
@@ -35,11 +42,13 @@ export function LeadForm({
   className,
   variant = 'standard',
   serviceGroups,
+  mobileCollapsed = false,
 }: LeadFormProps) {
   const formId = useId();
   const isRoofRepair = defaultService === 'roof-repair';
   const Group = isRoofRepair ? 'fieldset' : 'div';
   const [state, formAction] = useActionState(submitLead, initialState);
+  const [mobileOpen, setMobileOpen] = useState(false);
   const [hydrated, setHydrated] = useState(false);
   useEffect(() => {
     const id = requestAnimationFrame(() => setHydrated(true));
@@ -76,8 +85,41 @@ export function LeadForm({
     ? 'block text-sm font-semibold text-parchment mb-1.5'
     : 'block text-sm font-semibold text-text-primary mb-1.5';
 
+  // Mobile-collapsed mode (one page only, see the prop doc): the card is
+  // hidden below lg until the visitor taps the expander; at lg the card
+  // always shows and the expander never renders visibly. When the prop is
+  // off, rootClasses is byte-identical to the pre-restructure classes.
+  const rootClasses = mobileCollapsed
+    ? `${wrapperClasses} ${mobileOpen ? '' : 'hidden'} lg:block ${className ?? ''}`
+    : `${wrapperClasses} ${className ?? ''}`;
+
   return (
-    <div className={`${wrapperClasses} ${className ?? ''}`}>
+    <>
+      {mobileCollapsed && (
+        <button
+          type="button"
+          className="nqr-form-toggle mb-4 flex w-full items-center justify-center gap-2 rounded-md bg-copper px-5 py-3.5 font-heading text-base font-bold text-text-on-copper transition-colors hover:bg-copper-dark lg:hidden"
+          aria-expanded={mobileOpen}
+          onClick={() => setMobileOpen((open) => !open)}
+        >
+          {mobileOpen ? 'Hide the Estimate Form' : 'Get Your Free Roofing Estimate'}
+          <svg
+            className="nqr-form-toggle-chevron h-5 w-5"
+            fill="none"
+            viewBox="0 0 20 20"
+            aria-hidden="true"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="m5 7.5 5 5 5-5"
+            />
+          </svg>
+        </button>
+      )}
+      <div className={rootClasses}>
       <p className="mb-6 font-heading text-2xl font-bold">
         Get Your Free Roofing Estimate
       </p>
@@ -213,6 +255,7 @@ export function LeadForm({
           100% free, no obligation.
         </p>
       </form>
-    </div>
+      </div>
+    </>
   );
 }

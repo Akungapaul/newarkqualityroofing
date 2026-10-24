@@ -45,6 +45,7 @@ import { CoraRoadmap261014rNewark } from '@/components/sections/CoraRoadmap26101
 import { CoraRoadmap261021Newark } from '@/components/sections/CoraRoadmap261021Newark';
 import { RoofRepairGuide } from '@/components/sections/RoofRepairGuide';
 import { LeanRoofRepairNewark } from '@/components/sections/LeanRoofRepairNewark';
+import { NEWARK_REPAIR_FAQS } from '@/data/roof-repair-newark-restructure';
 import { ServiceRichSections } from '@/components/sections/ServiceRichSections';
 import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
 import { ArticleJumpNav } from '@/components/sections/ArticleJumpNav';
@@ -243,9 +244,22 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           { name: service.name },
         ]),
         buildFaqSchema(
-          surfer ? surferFaqs(surfer) : content.definition
-            ? [{ question: `What Is ${service.name}?`, answer: content.definition }, ...content.faqs]
-            : content.faqs,
+          service.id === 'roof-repair'
+            ? [
+                ...(surfer ? surferFaqs(surfer) : content.definition
+                  ? [{ question: `What Is ${service.name}?`, answer: content.definition }, ...content.faqs]
+                  : content.faqs),
+                // RESTRUCTURE 2026-10-23 (Cora run 261014): the six
+                // blueprint FAQ questions are APPENDED to this page's
+                // FAQPage schema, extending the set already here (the
+                // definition question + the authored FAQs), never replacing
+                // it. The same six render visibly as accordions in
+                // LeanRoofRepairNewark. Scoped to this one service.
+                ...NEWARK_REPAIR_FAQS,
+              ]
+            : surfer ? surferFaqs(surfer) : content.definition
+              ? [{ question: `What Is ${service.name}?`, answer: content.definition }, ...content.faqs]
+              : content.faqs,
         ),
       )} />
 
@@ -257,6 +271,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         benefits={benefits}
         directAnswer={content.directAnswer}
         h1={surfer?.h1}
+        minimizeFormOnMobile={service.id === 'roof-repair'}
         lead={surfer && surferHero ? (
           <SurferHeroLead
             runs={surferHero.runs}
@@ -446,6 +461,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
             variant="standard"
             defaultService={service.slug}
             serviceGroups={serviceGroups}
+            mobileCollapsed={service.id === 'roof-repair'}
           />
         </StickyFormSidebar>
       </div>
@@ -487,6 +503,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         heading={scheduleH2}
         serviceGroups={serviceGroups}
         defaultService={service.slug}
+        minimizeFormOnMobile={service.id === 'roof-repair'}
       />
     </>
   );
