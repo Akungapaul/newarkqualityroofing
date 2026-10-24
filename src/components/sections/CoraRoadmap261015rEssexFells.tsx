@@ -77,6 +77,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraReplEssexFellsBlockIntro,
   coraReplEssexFellsBlockSummary,
@@ -133,10 +135,26 @@ const MAPS_URL = 'https://www.google.com/maps?q=Newark+Quality+Roofing,+Newark,+
 const graph = {
   '@context': 'https://schema.org',
   '@graph': [
+    buildRoofingContractorNodeSchema(),
     {
       '@type': ['RoofingContractor', 'LocalBusiness', 'Organization'],
       '@id': `${PAGE_URL}#localbusiness`,
       name: 'Newark Quality Roofing',
+      // Group 2 credited-form package (2026-10-24): legalName
+      // from the canonical config; scalar availableLanguage
+      // 'English' (the Form Library form) on the node and its
+      // ContactPoint. The dedicated plain-string node above
+      // carries the RoofingContractor type in the credited
+      // form (Cora's parser does not read the array @type).
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       url: PAGE_URL,
       openingHoursSpecification: [
         {
@@ -282,9 +300,10 @@ export function CoraRoadmap261015rEssexFells() {
               none is roadmapped either). */}
           <div
             itemScope
-            itemType="https://schema.org/RoofingContractor https://schema.org/LocalBusiness https://schema.org/Organization"
+            itemType="https://schema.org/RoofingContractor"
             className="mt-3 border border-navy/15 rounded-lg bg-white/70 px-5 py-4"
           >
+            <meta itemProp="legalName" content={canonicalConfig.legalName} />
             <p className="text-navy/85 leading-relaxed">
               <span className="font-semibold text-navy" itemProp="name">Newark Quality Roofing</span>{' '}
               is the business holding the Essex Fells replacement files above. Its own
