@@ -59,6 +59,7 @@ import { CoraRoadmap261015rNorthCaldwell } from '@/components/sections/CoraRoadm
 import { CoraRoadmap261015rIrvington } from '@/components/sections/CoraRoadmap261015rIrvington';
 import { CoraRoadmap261023Irvington } from '@/components/sections/CoraRoadmap261023Irvington';
 import { CoraRoadmap261015rBloomfield } from '@/components/sections/CoraRoadmap261015rBloomfield';
+import { CoraRoadmap261023Bloomfield } from '@/components/sections/CoraRoadmap261023Bloomfield';
 import { CoraRoadmap261015rRoseland } from '@/components/sections/CoraRoadmap261015rRoseland';
 import { CoraRoadmap261015rEssexFells } from '@/components/sections/CoraRoadmap261015rEssexFells';
 import { CoraRoadmap261015rMaplewood } from '@/components/sections/CoraRoadmap261015rMaplewood';
@@ -483,6 +484,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           pass against the replacement keyword); every other combo is
           unchanged. */}
       {service.id === 'roof-replacement' && city.id === 'bloomfield' && <CoraRoadmap261015rBloomfield />}
+      {service.id === 'roof-replacement' && city.id === 'bloomfield' && <CoraRoadmap261023Bloomfield />}
 
       {/* CORA 2026-10-15 REPLACEMENT supplemental block — rendered ONLY for
           the roof-replacement x roseland combo (this page's first Cora
