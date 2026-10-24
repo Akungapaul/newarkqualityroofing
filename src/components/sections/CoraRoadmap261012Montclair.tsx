@@ -65,6 +65,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraMontclairBlockquotes,
   coraMontclairCommentVariationsA,
@@ -138,6 +140,21 @@ const styleCommentPhrases = [
 //     forms Google renders in the search-result display URL —
 //     Variations in Search Result Display URL +2 (the slug itself is
 //     Rule-7 frozen; SERP-rendered, best lever only).
+// Group 2 credited-form fix (2026-10-24, master ledger fix queue):
+// the dedicated plain-string RoofingContractor node from
+// src/lib/schema.ts joins this graph (Cora's parser reads
+// array-valued @type as 0 — Form Library; the array-typed node stays
+// for its LocalBusiness literal-match family); legalName from the
+// canonical config; scalar availableLanguage 'English' (never an
+// array) on the business node and its new ContactPoint — the
+// ContactPoint carries contactType 'customer service', the form the
+// West Orange 261023 rerun CREDITED; the streetAddress key is
+// omitted while the canonical street is empty (the forbidden
+// empty-string form; buildPostalAddress omit-when-empty pattern);
+// and a makesOffer Offer for the page's real service (no price —
+// none is published) serves the 261013 rerun's Offer lines, which no
+// pass ever worked. The h-card gains the legalName, ContactPoint and
+// Offer microdata twins and drops its empty streetAddress meta.
 const montclairSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -145,13 +162,33 @@ const montclairSchemaGraph = {
       '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
       url: pageUrl,
       email: siteConfig.email,
       telephone: siteConfig.phone.tel,
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
+      makesOffer: {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Roof Repair in Montclair, NJ',
+          serviceType: 'Roof repair',
+          areaServed: { '@type': 'City', name: 'Montclair, NJ' },
+        },
+      },
       hasMap: coraMontclairPhraseMapsUrl,
       address: {
         '@type': 'PostalAddress',
-        streetAddress: siteConfig.address.street,
+        ...(siteConfig.address.street
+          ? { streetAddress: siteConfig.address.street }
+          : {}),
         addressLocality: 'Newark',
         addressRegion: 'NJ',
         addressCountry: 'US',
@@ -188,6 +225,7 @@ const montclairSchemaGraph = {
         },
       ],
     },
+    buildRoofingContractorNodeSchema(),
     {
       '@type': 'WebPage',
       '@id': pageUrl,
@@ -417,7 +455,20 @@ export function CoraRoadmap261012Montclair() {
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
           <p className={vClass(7)}>
-            <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
+            <span className="p-name" itemProp="name">Newark Quality Roofing</span>
+            <meta itemProp="legalName" content={canonicalConfig.legalName} />
+            <span itemProp="contactPoint" itemScope itemType="https://schema.org/ContactPoint">
+              <meta itemProp="telephone" content={siteConfig.phone.tel} />
+              <meta itemProp="contactType" content="customer service" />
+              <meta itemProp="areaServed" content="US" />
+              <meta itemProp="availableLanguage" content="English" />
+            </span>
+            <span itemProp="makesOffer" itemScope itemType="https://schema.org/Offer">
+              <span itemProp="itemOffered" itemScope itemType="https://schema.org/Service">
+                <meta itemProp="name" content="Roof Repair in Montclair, NJ" />
+                <meta itemProp="serviceType" content="Roof repair" />
+              </span>
+            </span> provides{' '}
             <u>roof repair in Montclair, NJ</u> and across Essex County from{' '}
             <a className="u-url" href={pageUrl}>the Montclair roof repair page</a>. Your contact on every
             Montclair job is the{' '}
@@ -438,12 +489,15 @@ export function CoraRoadmap261012Montclair() {
             {/* CORA 2026-10-13 phrase line: Uses Schema streetaddress +1 —
                 the microdata PostalAddress inside this RoofingContractor
                 itemscope (the JSON-LD graph above carries the same
-                property). The streetAddress value is the canonical
-                config value — empty by D-01 until the owner supplies a
-                street address; nothing is invented. */}
+                property). Group 2 (2026-10-24): the streetAddress meta
+                is omitted while the canonical value is empty — the
+                empty-string emission is the forbidden form under D-01;
+                nothing is invented. */}
             The record is kept by Newark Quality Roofing,{' '}
             <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-              <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              {siteConfig.address.street ? (
+                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              ) : null}
               <span itemProp="addressLocality">Newark</span>,{' '}
               <span itemProp="addressRegion">NJ</span>,{' '}
               <span itemProp="addressCountry">US</span>
