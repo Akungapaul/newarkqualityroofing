@@ -149,7 +149,11 @@ const graph = {
       mainEntityOfPage: { '@id': PAGE_URL },
       address: {
         '@type': 'PostalAddress',
-        streetAddress: siteConfig.address.street,
+        // D-01 / Group 1 remediation 2026-10-24: omit streetAddress while
+        // the canonical street is empty — never emit the empty string.
+        ...(siteConfig.address.street
+          ? { streetAddress: siteConfig.address.street }
+          : {}),
         addressLocality: 'Newark',
         addressRegion: 'NJ',
         addressCountry: 'US',
@@ -352,7 +356,7 @@ export function CoraRoadmap261015rBloomfield() {
               OfferCatalog/Offer scopes. */}
           <div
             itemScope
-            itemType="https://schema.org/RoofingContractor https://schema.org/LocalBusiness https://schema.org/Organization"
+            itemType="https://schema.org/RoofingContractor"
             className="service-record-card mt-3 border border-navy/15 rounded-lg bg-white/70 px-5 py-4"
           >
             <meta itemProp="name" content="Newark Quality Roofing" />
@@ -391,7 +395,9 @@ export function CoraRoadmap261015rBloomfield() {
               <span className="font-semibold text-navy">Business locality</span>
               {' — '}
               <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+                {siteConfig.address.street && (
+                  <meta itemProp="streetAddress" content={siteConfig.address.street} />
+                )}
                 <span itemProp="addressLocality">Newark</span>,{' '}
                 <span itemProp="addressRegion">NJ</span>,{' '}
                 <span itemProp="addressCountry">US</span>

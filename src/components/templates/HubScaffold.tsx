@@ -6,6 +6,7 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import {
   buildOrganizationSchema,
   buildRoofingContractorSchema,
+  buildRoofingContractorNodeSchema,
   buildWebSiteSchema,
   buildWebPageSchema,
   buildBreadcrumbSchema,
@@ -99,6 +100,7 @@ export default function HubScaffold({ hubId, eyebrow, heading, content }: HubSca
       <JsonLd data={buildJsonLdGraph(
         buildOrganizationSchema(),
         buildRoofingContractorSchema(),
+        buildRoofingContractorNodeSchema(),
         buildWebSiteSchema(),
         buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${hubId}`, content.metaTitle),
         buildBreadcrumbSchema([

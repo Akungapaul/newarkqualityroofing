@@ -129,7 +129,11 @@ export function CoraRoadmap261015rWestOrange() {
         priceRange: '$$',
         address: {
           '@type': 'PostalAddress',
-          streetAddress: siteConfig.address.street,
+          // D-01 / Group 1 remediation 2026-10-24: omit streetAddress while
+          // the canonical street is empty — never emit the empty string.
+          ...(siteConfig.address.street
+            ? { streetAddress: siteConfig.address.street }
+            : {}),
           addressLocality: 'Newark',
           addressRegion: 'NJ',
           addressCountry: 'US',
@@ -309,7 +313,9 @@ export function CoraRoadmap261015rWestOrange() {
           itemType="https://schema.org/RoofingContractor"
           className="mt-4 rounded-xl border border-slate-200 p-5"
         >
-          <meta itemProp="streetAddress" content={siteConfig.address.street} />
+          {siteConfig.address.street && (
+            <meta itemProp="streetAddress" content={siteConfig.address.street} />
+          )}
           <p className="font-semibold text-slate-900">
             <span itemProp="name">Newark Quality Roofing</span>
           </p>
@@ -320,7 +326,9 @@ export function CoraRoadmap261015rWestOrange() {
               itemScope
               itemType="https://schema.org/PostalAddress"
             >
-              <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              {siteConfig.address.street && (
+                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              )}
               <span itemProp="addressLocality">Newark</span>,{' '}
               <span itemProp="addressRegion">NJ</span>,{' '}
               <span itemProp="addressCountry">US</span>

@@ -163,7 +163,11 @@ const graph = {
       mainEntityOfPage: { '@id': PAGE_URL },
       address: {
         '@type': 'PostalAddress',
-        streetAddress: siteConfig.address.street,
+        // D-01 / Group 1 remediation 2026-10-24: omit streetAddress while
+        // the canonical street is empty — never emit the empty string.
+        ...(siteConfig.address.street
+          ? { streetAddress: siteConfig.address.street }
+          : {}),
         addressLocality: 'Newark',
         addressRegion: 'NJ',
         addressCountry: 'US',
@@ -390,7 +394,7 @@ export function CoraRoadmap261015rOrange() {
           <div
             className="service-record-card mt-3 border border-navy/15 rounded-lg bg-white/70 px-5 py-4"
             itemScope
-            itemType="https://schema.org/RoofingContractor https://schema.org/LocalBusiness https://schema.org/Organization"
+            itemType="https://schema.org/RoofingContractor"
           >
             <meta itemProp="name" content="Newark Quality Roofing" />
             <meta itemProp="url" content={SITE_URL} />
@@ -424,7 +428,9 @@ export function CoraRoadmap261015rOrange() {
             <p className="mt-2 text-navy/85 leading-relaxed">
               <span className="font-semibold text-navy">Office of record:</span>{' '}
               <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+                {siteConfig.address.street && (
+                  <meta itemProp="streetAddress" content={siteConfig.address.street} />
+                )}
                 <span itemProp="addressLocality">Newark</span>,{' '}
                 <span itemProp="addressRegion">NJ</span>,{' '}
                 <span itemProp="addressCountry">US</span>

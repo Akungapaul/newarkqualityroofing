@@ -46,7 +46,11 @@ const contactPointNode = {
   '@type': 'ContactPoint',
   telephone: '+1-973-649-9535',
   contactType: 'customer service',
-  availableLanguage: ['English'],
+  // availableLanguage REMOVED 2026-10-24 (Group 1 remediation, ledger
+  // Bucket 1 item P1): this node carried the ARRAY form ['English'], the
+  // form the 261023 rerun read as 0 while crediting the scalar contactType
+  // on this same node. The credited scalar string and the Language-object
+  // forms live on the 261023 block's nodes; the microdata twin below stays.
   url: 'https://newarkqualityroofing.com/contact',
 };
 
