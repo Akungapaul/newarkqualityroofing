@@ -158,8 +158,9 @@ export const HEADING_CONFIG = {
   // service names (no conjunction), so those get "X Installation and Repair
   // Newark, NJ" instead. service.name and metaTitles are unchanged.
   serviceH1Overrides: {
-    // Surfer draft 2026-09-21 (Content Editor 16360920), verbatim.
-    'roof-repair': 'Roof Repair Newark NJ by Local Roofing Contractors and Roofing Specialists for Newark Homes.',
+    // Paul-directed 2026-10-24: clean exact-phrase H1 (lifts the frozen-H1
+    // rule for this page by Paul's own word; POP governs this page).
+    'roof-repair': 'Roof Repair Newark NJ',
     'roof-flashing-installation-repair': 'Roof Flashing Installation and Repair Newark, NJ',
     'gutter-installation-repair': 'Gutter Installation and Repair Newark, NJ',
     'skylight-installation-repair': 'Skylight Installation and Repair Newark, NJ',
