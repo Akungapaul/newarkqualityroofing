@@ -49,6 +49,7 @@ import { CoraRoadmap261014rMillburn } from '@/components/sections/CoraRoadmap261
 import { CoraRoadmap261014rEastOrange } from '@/components/sections/CoraRoadmap261014rEastOrange';
 import { CoraRoadmap261023EastOrange } from '@/components/sections/CoraRoadmap261023EastOrange';
 import { CoraRoadmap261014rGlenRidge } from '@/components/sections/CoraRoadmap261014rGlenRidge';
+import { CoraRoadmap261023GlenRidge } from '@/components/sections/CoraRoadmap261023GlenRidge';
 import { CoraRoadmap261014rCaldwell } from '@/components/sections/CoraRoadmap261014rCaldwell';
 import { CoraRoadmap261014rCedarGrove } from '@/components/sections/CoraRoadmap261014rCedarGrove';
 import { CoraRoadmap261015rNutley } from '@/components/sections/CoraRoadmap261015rNutley';
@@ -424,6 +425,11 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           the roof-replacement x glen-ridge combo (this page's first Cora
           pass); every other combo is unchanged. */}
       {service.id === 'roof-replacement' && city.id === 'glen-ridge' && <CoraRoadmap261014rGlenRidge />}
+
+      {/* CORA 261023 rerun block — rendered ONLY for the
+          roof-replacement x glen-ridge combo, alongside the
+          261014r block above; every other combo is unchanged. */}
+      {service.id === 'roof-replacement' && city.id === 'glen-ridge' && <CoraRoadmap261023GlenRidge />}
 
       {/* CORA 2026-10-14 REPLACEMENT supplemental block — rendered ONLY for
           the roof-replacement x caldwell combo (this page's first Cora

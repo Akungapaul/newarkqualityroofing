@@ -136,10 +136,12 @@ import {
   coraReplEastOrangeTitle261023 as coraReplEastOrangeTitle,
 } from '@/data/cora-261023-east-orange-content';
 import {
-  coraReplGlenRidgeMetaDescription,
   coraReplGlenRidgeMetaKeywords,
-  coraReplGlenRidgeTitle,
 } from '@/data/cora-261014r-glen-ridge-content';
+import {
+  coraReplGlenRidgeMetaDescription261023 as coraReplGlenRidgeMetaDescription,
+  coraReplGlenRidgeTitle261023 as coraReplGlenRidgeTitle,
+} from '@/data/cora-261023-glen-ridge-content';
 import {
   coraReplNewarkMetaDescription,
   coraReplNewarkMetaKeywords,
