@@ -77,6 +77,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraReplRoselandBlockIntro,
   coraReplRoselandBlockSummary,
@@ -123,10 +125,26 @@ const MAPS_URL = 'https://www.google.com/maps?q=Newark+Quality+Roofing,+Newark,+
 const graph = {
   '@context': 'https://schema.org',
   '@graph': [
+    buildRoofingContractorNodeSchema(),
     {
       '@type': ['RoofingContractor', 'LocalBusiness', 'Organization'],
       '@id': `${PAGE_URL}#localbusiness`,
       name: 'Newark Quality Roofing',
+      // Group 2 credited-form package (2026-10-24): legalName
+      // from the canonical config; scalar availableLanguage
+      // 'English' (the Form Library form) on the node and its
+      // ContactPoint. The dedicated plain-string node above
+      // carries the RoofingContractor type in the credited
+      // form (Cora's parser does not read the array @type).
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       url: PAGE_URL,
       mainEntityOfPage: { '@id': PAGE_URL },
     },
@@ -250,11 +268,12 @@ export function CoraRoadmap261015rRoseland() {
               number. */}
           <div
             itemScope
-            itemType="https://schema.org/RoofingContractor https://schema.org/LocalBusiness https://schema.org/Organization"
+            itemType="https://schema.org/RoofingContractor"
             className="mt-3 border border-navy/15 rounded-lg bg-white/70 px-5 py-4"
           >
+            <meta itemProp="legalName" content={canonicalConfig.legalName} />
             <p className="text-navy/85 leading-relaxed">
-              <span className="font-semibold text-navy">Newark Quality Roofing</span>{' '}
+              <span className="font-semibold text-navy" itemProp="name">Newark Quality Roofing</span>{' '}
               is the business holding the Roseland replacement files above. Its own
               record for this page lives at{' '}
               <a className="underline" href={PAGE_URL}>
@@ -278,7 +297,9 @@ export function CoraRoadmap261015rRoseland() {
               <span className="font-semibold text-navy">Business locality</span>
               {' — '}
               <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+                {siteConfig.address.street ? (
+                  <meta itemProp="streetAddress" content={siteConfig.address.street} />
+                ) : null}
                 <span itemProp="addressLocality">Newark</span>,{' '}
                 <span itemProp="addressRegion">NJ</span>,{' '}
                 <span itemProp="addressCountry">US</span>
