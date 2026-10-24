@@ -114,10 +114,10 @@ import {
   coraGlenRidgeTitle,
 } from '@/data/cora-261014-glen-ridge-content';
 import {
-  coraReplSouthOrangeMetaDescription,
-  coraReplSouthOrangeMetaKeywords,
-  coraReplSouthOrangeTitle,
-} from '@/data/cora-261014r-south-orange-content';
+  coraReplSouthOrangeMetaDescription261023 as coraReplSouthOrangeMetaDescription,
+  coraReplSouthOrangeTitle261023 as coraReplSouthOrangeTitle,
+} from '@/data/cora-261023-south-orange-content';
+import { coraReplSouthOrangeMetaKeywords } from '@/data/cora-261014r-south-orange-content';
 import {
   coraReplLivingstonMetaDescription,
   coraReplLivingstonMetaKeywords,
