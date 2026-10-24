@@ -81,6 +81,9 @@
 // are rendered.
 
 import { JsonLd } from '@/components/seo/JsonLd';
+import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraCaldwellBlockIntro,
   coraCaldwellBlockSummary,
@@ -119,11 +122,61 @@ const pageUrl = 'https://newarkqualityroofing.com/roof-repair-caldwell-nj';
 const caldwellSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
+    buildRoofingContractorNodeSchema(),
+    {
+      // Group 2 (2026-10-24): the 261013 roadmap's hours +
+      // Person family (OpeningHoursSpecification / opens /
+      // closes / Person) — a business node carrying ONLY the
+      // hours the site itself publishes (canonical config:
+      // Mon-Fri 07:00-18:00, Sat 08:00-14:00) and an employee
+      // Person with jobTitle only, plus the credited-form
+      // package (legalName, scalar availableLanguage,
+      // ContactPoint). The pass's no-business-node discipline
+      // predates the master-ledger remediation; the roadmap
+      // DOES roadmap these lines.
+      '@type': ['RoofingContractor', 'LocalBusiness'],
+      '@id': `${pageUrl}#localbusiness`,
+      name: 'Newark Quality Roofing',
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
+      url: pageUrl,
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
+      openingHoursSpecification: [
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          opens: '07:00',
+          closes: '18:00',
+        },
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: 'Saturday',
+          opens: '08:00',
+          closes: '14:00',
+        },
+      ],
+      employee: {
+        '@type': 'Person',
+        jobTitle: 'Roofing Contractor',
+        worksFor: { '@type': 'Organization', name: 'Newark Quality Roofing' },
+      },
+    },
     {
       '@type': 'WebPage',
       '@id': pageUrl,
       url: pageUrl,
       name: 'Roof Repair Caldwell, NJ',
+      // Group 2 (2026-10-24): the roadmap's Microdata
+      // thumbnailUrl line's JSON-LD carrier — the page's
+      // genuine schema image, the same asset the image
+      // property serves.
+      thumbnailUrl: coraCaldwellSchemaImageUrl,
       image: {
         '@type': 'ImageObject',
         contentUrl: coraCaldwellSchemaImageUrl,
@@ -171,6 +224,28 @@ export function CoraRoadmap261013Caldwell() {
       itemType="https://schema.org/WebPage"
     >
       <meta itemProp="image" content={coraCaldwellSchemaImageUrl} />
+      <meta itemProp="thumbnailUrl" content={coraCaldwellSchemaImageUrl} />
+      <div itemScope itemType="https://schema.org/RoofingContractor">
+        <meta itemProp="name" content="Newark Quality Roofing" />
+        <meta itemProp="legalName" content={canonicalConfig.legalName} />
+        <span itemProp="openingHoursSpecification" itemScope itemType="https://schema.org/OpeningHoursSpecification">
+          <meta itemProp="dayOfWeek" content="Monday" />
+          <meta itemProp="dayOfWeek" content="Tuesday" />
+          <meta itemProp="dayOfWeek" content="Wednesday" />
+          <meta itemProp="dayOfWeek" content="Thursday" />
+          <meta itemProp="dayOfWeek" content="Friday" />
+          <meta itemProp="opens" content="07:00" />
+          <meta itemProp="closes" content="18:00" />
+        </span>
+        <span itemProp="openingHoursSpecification" itemScope itemType="https://schema.org/OpeningHoursSpecification">
+          <meta itemProp="dayOfWeek" content="Saturday" />
+          <meta itemProp="opens" content="08:00" />
+          <meta itemProp="closes" content="14:00" />
+        </span>
+        <span itemProp="employee" itemScope itemType="https://schema.org/Person">
+          <meta itemProp="jobTitle" content="Roofing Contractor" />
+        </span>
+      </div>
       <style>
         {`:root { ${coraCaldwellStylePhrases.map((phrase) => `--cora-261013-cw-${phrase.replace(/ /g, '-')}: 1;`).join(' ')} }
         /* CORA 2026-10-13 (Caldwell) phrase style-tag variations: ${coraCaldwellStylePhrases.join(', ')} */`}
