@@ -31,7 +31,7 @@ import { dirname, join } from 'node:path';
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PRERENDER_DIR = join(REPO_ROOT, '.next', 'server', 'app');
 
-const DEFAULT_SLUGS = ['roof-repair-in-newark-nj', 'roof-replacement-in-newark-nj'];
+const DEFAULT_SLUGS = ['roof-repair-newark-nj', 'roof-replacement-newark-nj'];
 
 /** Vowel-group syllable estimate — the standard approximation these formulas assume. */
 function syllables(word: string): number {

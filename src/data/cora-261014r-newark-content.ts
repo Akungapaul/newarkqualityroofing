@@ -1,5 +1,5 @@
 // CORA 2026-10-14 phrase-setup roadmap content for
-// /roof-replacement-in-newark-nj (keyword "roof replacement
+// /roof-replacement-newark-nj (keyword "roof replacement
 // newark nj"). This is the replacement page's FIRST Cora
 // pass — the page is the flagship Newark service page (a
 // rich Oct-4 service page, rendered by ServiceTemplate)

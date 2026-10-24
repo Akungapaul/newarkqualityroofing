@@ -1,5 +1,5 @@
 // CORA 2026-09-26 roadmap (roof_repair_goog_260926) supplemental content for
-// /roof-repair-in-newark-nj, keyword "roof repair".
+// /roof-repair-newark-nj, keyword "roof repair".
 //
 // Lines served here (roadmap numbering from
 // ~/workspace/vps-reports/cora-roadmap-260926-line-by-line.md):

@@ -6,7 +6,7 @@ import { combos } from '@/data/combos';
 import { comparisons } from '@/data/comparisons';
 import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
-import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateServicePageSlug, RETIRED_NEWARK_HUB_SERVICES } from '@/lib/slug-utils';
 import { getComboChangeFrequency, getComboSitemapPriority, isPriorityCity, isPriorityService } from '@/data/seo-priority';
 import { isKeep } from '@/data/url-classification';
 import { KB_CLUSTER_SLUGS } from '@/data/kb-clusters';
@@ -73,12 +73,17 @@ export default async function sitemap({
       ];
 
     case 'services':
-      return services.map((service) => ({
-        url: `${BASE_URL}/${generateServicePageSlug(service.slug)}`,
-        lastModified: NOW,
-        changeFrequency: isPriorityService(service) ? 'weekly' as const : 'monthly' as const,
-        priority: isPriorityService(service) ? 0.95 : 0.75,
-      }));
+      // Rule 7 flip (2026-10-24): the 9 RETIRED_NEWARK_HUB_SERVICES have no
+      // service page — their surviving Newark combo emits this same URL in
+      // the 'combos' segment, so they are excluded here to avoid a duplicate.
+      return services
+        .filter((service) => !RETIRED_NEWARK_HUB_SERVICES.has(service.slug))
+        .map((service) => ({
+          url: `${BASE_URL}/${generateServicePageSlug(service.slug)}`,
+          lastModified: NOW,
+          changeFrequency: isPriorityService(service) ? 'weekly' as const : 'monthly' as const,
+          priority: isPriorityService(service) ? 0.95 : 0.75,
+        }));
 
     case 'cities':
       return cities.map((city) => ({

@@ -5,7 +5,7 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { ChevronIcon } from './ProseLead';
 import { SEO_CONFIG } from '@/lib/seo-config';
 
-const pageUrl = `${SEO_CONFIG.BASE_URL}/roof-repair-in-newark-nj`;
+const pageUrl = `${SEO_CONFIG.BASE_URL}/roof-repair-newark-nj`;
 const groups = [...new Set(roofRepairGuide.map((entry) => entry.group))];
 const slug = (text: string) => text.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 const preparation = [

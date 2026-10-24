@@ -43,39 +43,39 @@ export const flatRoofSystemsHubContent: HubContent = {
         "links": [
           {
             "text": "TPO Roofing Installation",
-            "href": "/tpo-roofing-installation-in-newark-nj"
+            "href": "/tpo-roofing-installation-newark-nj"
           },
           {
             "text": "EPDM Commercial Roofing",
-            "href": "/epdm-commercial-roofing-in-newark-nj"
+            "href": "/epdm-commercial-roofing-newark-nj"
           },
           {
             "text": "PVC Roofing",
-            "href": "/pvc-roofing-in-newark-nj"
+            "href": "/pvc-roofing-newark-nj"
           },
           {
             "text": "Modified Bitumen Roofing",
-            "href": "/modified-bitumen-roofing-in-newark-nj"
+            "href": "/modified-bitumen-roofing-newark-nj"
           },
           {
             "text": "Built-Up Roofing",
-            "href": "/built-up-roofing-in-newark-nj"
+            "href": "/built-up-roofing-newark-nj"
           },
           {
             "text": "Spray Foam Roofing",
-            "href": "/spray-foam-roofing-in-newark-nj"
+            "href": "/spray-foam-roofing-newark-nj"
           },
           {
             "text": "EPDM Rubber Roofing",
-            "href": "/rubber-roofing-epdm-in-newark-nj"
+            "href": "/rubber-roofing-epdm-newark-nj"
           },
           {
             "text": "Flat Roof Installation & Repair",
-            "href": "/flat-roof-installation-repair-in-newark-nj"
+            "href": "/flat-roof-installation-repair-newark-nj"
           },
           {
             "text": "Flat Roof Replacement",
-            "href": "/flat-roof-replacement-in-newark-nj"
+            "href": "/flat-roof-replacement-newark-nj"
           }
         ]
       },

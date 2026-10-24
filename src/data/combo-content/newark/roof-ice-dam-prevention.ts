@@ -68,6 +68,7 @@ export const newarkRoofIceDamPrevention: ComboContent = {
     'Local Essex County crew familiar with Newark\'s row-house, brownstone, and flat-roof building stock.',
     'Root-cause ice dam prevention that air-seals, insulates, and balances attic ventilation, per University of Minnesota Extension and U.S. Department of Energy guidance.',
     'Free, detailed written estimates after an attic and roof inspection, with no obligation.',
+    'Code Eave Ice Barrier — Newark Quality Roofing installs the self-adhering eave ice barrier from the eave to at least 24 inches inside the exterior wall line, per IRC R905.1.2, the requirement New Jersey enforces through the NJ Uniform Construction Code.',
   ],
   conversionHooks: {
     midPageCta: 'Get your free written estimate for roof ice dam prevention in Newark.',

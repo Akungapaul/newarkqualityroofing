@@ -2,7 +2,7 @@
 import type { SurferPage } from './types'
 import p0 from './pages/home.json'
 import p2 from './pages/asphalt-shingle-roofing-bloomfield-nj.json'
-import p4 from './pages/asphalt-shingle-roofing-in-newark-nj.json'
+import p4 from './pages/asphalt-shingle-roofing-newark-nj.json'
 import p5 from './pages/asphalt-shingle-roofing-montclair-nj.json'
 import p7 from './pages/asphalt-shingle-roofing-orange-nj.json'
 import p9 from './pages/average-cost-to-tear-off-and-replace-roof.json'
@@ -11,31 +11,31 @@ import p11 from './pages/best-roofing-company.json'
 import p12 from './pages/built-up-roofing-belleville-nj.json'
 import p13 from './pages/built-up-roofing-bloomfield-nj.json'
 import p14 from './pages/built-up-roofing-east-orange-nj.json'
-import p15 from './pages/built-up-roofing-in-newark-nj.json'
+import p15 from './pages/built-up-roofing-newark-nj.json'
 import p17 from './pages/built-up-roofing-orange-nj.json'
 import p18 from './pages/built-up-roofing-west-orange-nj.json'
-import p19 from './pages/cedar-shake-roofing-in-newark-nj.json'
+import p19 from './pages/cedar-shake-roofing-newark-nj.json'
 import p21 from './pages/changing-roof.json'
-import p23 from './pages/chimney-flashing-repair-in-newark-nj.json'
+import p23 from './pages/chimney-flashing-repair-newark-nj.json'
 import p24 from './pages/chimney-flashing-repair-montclair-nj.json'
 import p25 from './pages/commercial-metal-roofing-bloomfield-nj.json'
 import p26 from './pages/commercial-metal-roofing-east-orange-nj.json'
-import p27 from './pages/commercial-metal-roofing-in-newark-nj.json'
+import p27 from './pages/commercial-metal-roofing-newark-nj.json'
 import p28 from './pages/commercial-metal-roofing-montclair-nj.json'
 import p29 from './pages/commercial-metal-roofing-nutley-nj.json'
 import p30 from './pages/commercial-metal-roofing-orange-nj.json'
 import p32 from './pages/commercial-roof-contractor.json'
-import p35 from './pages/commercial-roof-installation-in-newark-nj.json'
+import p35 from './pages/commercial-roof-installation-newark-nj.json'
 import p37 from './pages/commercial-roof-installation-orange-nj.json'
 import p39 from './pages/commercial-roof-repair-bloomfield-nj.json'
 import p40 from './pages/commercial-roof-repair-east-orange-nj.json'
-import p41 from './pages/commercial-roof-repair-in-newark-nj.json'
+import p41 from './pages/commercial-roof-repair-newark-nj.json'
 import p42 from './pages/commercial-roof-repair-montclair-nj.json'
 import p45 from './pages/commercial-roof-repairs.json'
 import p46 from './pages/commercial-roof-replacement-belleville-nj.json'
 import p47 from './pages/commercial-roof-replacement-bloomfield-nj.json'
 import p48 from './pages/commercial-roof-replacement-east-orange-nj.json'
-import p49 from './pages/commercial-roof-replacement-in-newark-nj.json'
+import p49 from './pages/commercial-roof-replacement-newark-nj.json'
 import p50 from './pages/commercial-roof-replacement-irvington-nj.json'
 import p51 from './pages/commercial-roof-replacement-montclair-nj.json'
 import p52 from './pages/commercial-roof-replacement-orange-nj.json'
@@ -50,18 +50,18 @@ import p61 from './pages/cost-replace-garage-roof.json'
 import p62 from './pages/emergency-roof-repair-belleville-nj.json'
 import p63 from './pages/emergency-roof-repair-bloomfield-nj.json'
 import p64 from './pages/emergency-roof-repair-east-orange-nj.json'
-import p65 from './pages/emergency-roof-repair-in-newark-nj.json'
+import p65 from './pages/emergency-roof-repair-newark-nj.json'
 import p66 from './pages/emergency-roof-repair-montclair-nj.json'
 import p68 from './pages/emergency-roof-repair-west-orange-nj.json'
-import p69 from './pages/energy-efficient-roofing-solutions-in-newark-nj.json'
+import p69 from './pages/energy-efficient-roofing-solutions-newark-nj.json'
 import p70 from './pages/epdm-commercial-roofing-bloomfield-nj.json'
-import p72 from './pages/epdm-commercial-roofing-in-newark-nj.json'
+import p72 from './pages/epdm-commercial-roofing-newark-nj.json'
 import p73 from './pages/epdm-commercial-roofing-montclair-nj.json'
 import p74 from './pages/epdm-commercial-roofing-orange-nj.json'
 import p76 from './pages/estimator-roof.json'
-import p78 from './pages/fascia-installation-repair-in-newark-nj.json'
+import p78 from './pages/fascia-installation-repair-newark-nj.json'
 import p80 from './pages/flat-roof-installation-repair-bloomfield-nj.json'
-import p82 from './pages/flat-roof-installation-repair-in-newark-nj.json'
+import p82 from './pages/flat-roof-installation-repair-newark-nj.json'
 import p83 from './pages/flat-roof-installation-repair-montclair-nj.json'
 import p84 from './pages/flat-roof-installation-repair-orange-nj.json'
 import p85 from './pages/flat-roof-installation-repair-west-orange-nj.json'
@@ -69,16 +69,16 @@ import p86 from './pages/flat-roof-roofer.json'
 import p87 from './pages/general-roofing.json'
 import p88 from './pages/green-roof-installation-bloomfield-nj.json'
 import p89 from './pages/green-roof-installation-east-orange-nj.json'
-import p90 from './pages/green-roof-installation-in-newark-nj.json'
+import p90 from './pages/green-roof-installation-newark-nj.json'
 import p91 from './pages/green-roof-installation-montclair-nj.json'
 import p92 from './pages/green-roof-installation-orange-nj.json'
 import p93 from './pages/green-roof-installation-west-orange-nj.json'
 import p94 from './pages/gutter-guard-installation-bloomfield-nj.json'
-import p96 from './pages/gutter-guard-installation-in-newark-nj.json'
+import p96 from './pages/gutter-guard-installation-newark-nj.json'
 import p97 from './pages/gutter-guard-installation-montclair-nj.json'
 import p100 from './pages/gutter-installation-repair-bloomfield-nj.json'
 import p101 from './pages/gutter-installation-repair-east-orange-nj.json'
-import p102 from './pages/gutter-installation-repair-in-newark-nj.json'
+import p102 from './pages/gutter-installation-repair-newark-nj.json'
 import p103 from './pages/gutter-installation-repair-montclair-nj.json'
 import p104 from './pages/gutter-installation-repair-nutley-nj.json'
 import p105 from './pages/gutter-installation-repair-orange-nj.json'
@@ -92,23 +92,23 @@ import p114 from './pages/how-to-choose-a-roofing-contractor.json'
 import p115 from './pages/inexpensive-roof-repair.json'
 import p116 from './pages/infrared-roof-leak-detection-bloomfield-nj.json'
 import p117 from './pages/infrared-roof-leak-detection-east-orange-nj.json'
-import p118 from './pages/infrared-roof-leak-detection-in-newark-nj.json'
+import p118 from './pages/infrared-roof-leak-detection-newark-nj.json'
 import p119 from './pages/infrared-roof-leak-detection-montclair-nj.json'
 import p120 from './pages/infrared-roof-leak-detection-orange-nj.json'
 import p121 from './pages/infrared-roof-leak-detection-west-orange-nj.json'
 import p122 from './pages/metal-roof-installation-repair-belleville-nj.json'
 import p124 from './pages/metal-roof-installation-repair-east-orange-nj.json'
-import p125 from './pages/metal-roof-installation-repair-in-newark-nj.json'
+import p125 from './pages/metal-roof-installation-repair-newark-nj.json'
 import p126 from './pages/metal-roof-installation-repair-montclair-nj.json'
 import p127 from './pages/metal-roof-installation-repair-orange-nj.json'
 import p128 from './pages/metal-roof-installation-repair-west-orange-nj.json'
 import p130 from './pages/modified-bitumen-roofing-east-orange-nj.json'
-import p131 from './pages/modified-bitumen-roofing-in-newark-nj.json'
+import p131 from './pages/modified-bitumen-roofing-newark-nj.json'
 import p132 from './pages/modified-bitumen-roofing-montclair-nj.json'
 import p133 from './pages/modified-bitumen-roofing-orange-nj.json'
 import p135 from './pages/new-roof-installation.json'
 import p137 from './pages/pvc-roofing-east-orange-nj.json'
-import p138 from './pages/pvc-roofing-in-newark-nj.json'
+import p138 from './pages/pvc-roofing-newark-nj.json'
 import p139 from './pages/pvc-roofing-montclair-nj.json'
 import p140 from './pages/pvc-roofing-orange-nj.json'
 import p141 from './pages/pvc-roofing-west-orange-nj.json'
@@ -116,41 +116,41 @@ import p142 from './pages/repair-of-roof.json'
 import p143 from './pages/replace-roof.json'
 import p144 from './pages/reputable-roofing-contractors.json'
 import p145 from './pages/residential-roof-companies.json'
-import p146 from './pages/residential-roof-installation-in-newark-nj.json'
+import p146 from './pages/residential-roof-installation-newark-nj.json'
 import p147 from './pages/restoration-roofing.json'
 import p148 from './pages/roof-cleaning-moss-removal-belleville-nj.json'
-import p151 from './pages/roof-cleaning-moss-removal-in-newark-nj.json'
+import p151 from './pages/roof-cleaning-moss-removal-newark-nj.json'
 import p152 from './pages/roof-cleaning-moss-removal-montclair-nj.json'
 import p154 from './pages/roof-cleaning-moss-removal-west-orange-nj.json'
 import p155 from './pages/roof-contractors.json'
-import p156 from './pages/roof-deck-repair-replacement-in-newark-nj.json'
+import p156 from './pages/roof-deck-repair-replacement-newark-nj.json'
 import p157 from './pages/roof-experts.json'
 import p159 from './pages/roof-flashing-installation-repair-bloomfield-nj.json'
 import p160 from './pages/roof-flashing-installation-repair-east-orange-nj.json'
-import p161 from './pages/roof-flashing-installation-repair-in-newark-nj.json'
+import p161 from './pages/roof-flashing-installation-repair-newark-nj.json'
 import p162 from './pages/roof-flashing-installation-repair-irvington-nj.json'
 import p164 from './pages/roof-flashing-installation-repair-orange-nj.json'
 import p166 from './pages/roof-inspection-belleville-nj.json'
 import p167 from './pages/roof-inspection-bloomfield-nj.json'
 import p168 from './pages/roof-inspection-east-orange-nj.json'
-import p169 from './pages/roof-inspection-in-newark-nj.json'
+import p169 from './pages/roof-inspection-newark-nj.json'
 import p170 from './pages/roof-inspection-irvington-nj.json'
 import p171 from './pages/roof-inspection-montclair-nj.json'
 import p174 from './pages/roof-inspection-west-orange-nj.json'
 import p175 from './pages/roof-leak-repair-belleville-nj.json'
 import p177 from './pages/roof-leak-repair-east-orange-nj.json'
-import p178 from './pages/roof-leak-repair-in-newark-nj.json'
+import p178 from './pages/roof-leak-repair-newark-nj.json'
 import p179 from './pages/roof-leak-repair-montclair-nj.json'
 import p180 from './pages/roof-leak-repair-orange-nj.json'
 import p182 from './pages/roof-price.json'
 import p183 from './pages/roof-professionals.json'
-import p184 from './pages/roof-repair-and-installation-in-belleville-nj.json'
-import p185 from './pages/roof-repair-and-installation-in-bloomfield-nj.json'
-import p186 from './pages/roof-repair-and-installation-in-east-orange-nj.json'
-import p187 from './pages/roof-repair-and-installation-in-montclair-nj.json'
-import p188 from './pages/roof-repair-and-installation-in-nutley-nj.json'
-import p189 from './pages/roof-repair-and-installation-in-orange-nj.json'
-import p190 from './pages/roof-repair-and-installation-in-west-orange-nj.json'
+import p184 from './pages/roof-repair-and-installation-belleville-nj.json'
+import p185 from './pages/roof-repair-and-installation-bloomfield-nj.json'
+import p186 from './pages/roof-repair-and-installation-east-orange-nj.json'
+import p187 from './pages/roof-repair-and-installation-montclair-nj.json'
+import p188 from './pages/roof-repair-and-installation-nutley-nj.json'
+import p189 from './pages/roof-repair-and-installation-orange-nj.json'
+import p190 from './pages/roof-repair-and-installation-west-orange-nj.json'
 import p191 from './pages/roof-repair-belleville-nj.json'
 import p192 from './pages/roof-repair-bloomfield-nj.json'
 import p193 from './pages/roof-repair-company.json'
@@ -164,19 +164,19 @@ import p200 from './pages/roof-replace-cost.json'
 import p201 from './pages/roof-replacement-belleville-nj.json'
 import p202 from './pages/roof-replacement-bloomfield-nj.json'
 import p203 from './pages/roof-replacement-east-orange-nj.json'
-import p204 from './pages/roof-replacement-in-newark-nj.json'
+import p204 from './pages/roof-replacement-newark-nj.json'
 import p205 from './pages/roof-replacement-montclair-nj.json'
 import p207 from './pages/roof-replacement-services.json'
 import p208 from './pages/roof-replacement-west-orange-nj.json'
 import p209 from './pages/roof-storm-damage.json'
 import p211 from './pages/roof-thermal-imaging-inspections-east-orange-nj.json'
-import p212 from './pages/roof-thermal-imaging-inspections-in-newark-nj.json'
+import p212 from './pages/roof-thermal-imaging-inspections-newark-nj.json'
 import p213 from './pages/roof-thermal-imaging-inspections-montclair-nj.json'
 import p215 from './pages/roof-thermal-imaging-inspections-orange-nj.json'
-import p217 from './pages/roof-vent-installation-repair-in-newark-nj.json'
+import p217 from './pages/roof-vent-installation-repair-newark-nj.json'
 import p218 from './pages/roof-vent-installation-repair-montclair-nj.json'
 import p219 from './pages/roof-vent-installation-repair-nutley-nj.json'
-import p220 from './pages/roof-waterproofing-in-newark-nj.json'
+import p220 from './pages/roof-waterproofing-newark-nj.json'
 import p223 from './pages/roofer-contractors.json'
 import p224 from './pages/roofers-repairs.json'
 import p225 from './pages/roofing-company-close-to-me.json'
@@ -189,55 +189,55 @@ import p231 from './pages/roofing-repair-near-me.json'
 import p232 from './pages/roofing-repairman.json'
 import p233 from './pages/roofs-company.json'
 import p235 from './pages/rubber-roofing-epdm-east-orange-nj.json'
-import p236 from './pages/rubber-roofing-epdm-in-newark-nj.json'
+import p236 from './pages/rubber-roofing-epdm-newark-nj.json'
 import p238 from './pages/rubber-roofing-epdm-nutley-nj.json'
 import p239 from './pages/rubber-roofing-epdm-orange-nj.json'
 import p240 from './pages/rubber-roofing-epdm-west-orange-nj.json'
-import p242 from './pages/silicone-elastomeric-roof-coating-in-newark-nj.json'
-import p245 from './pages/silicone-roof-coating-in-newark-nj.json'
+import p242 from './pages/silicone-elastomeric-roof-coating-newark-nj.json'
+import p245 from './pages/silicone-roof-coating-newark-nj.json'
 import p246 from './pages/silicone-roof-coating-montclair-nj.json'
-import p247 from './pages/skylight-installation-repair-in-newark-nj.json'
+import p247 from './pages/skylight-installation-repair-newark-nj.json'
 import p250 from './pages/slate-roof-installation-repair-bloomfield-nj.json'
 import p251 from './pages/slate-roof-installation-repair-east-orange-nj.json'
-import p252 from './pages/slate-roof-installation-repair-in-newark-nj.json'
+import p252 from './pages/slate-roof-installation-repair-newark-nj.json'
 import p254 from './pages/slate-roof-installation-repair-orange-nj.json'
-import p256 from './pages/soffit-installation-repair-in-newark-nj.json'
-import p258 from './pages/solar-panel-roofing-installation-in-newark-nj.json'
-import p260 from './pages/solar-shingle-installation-in-newark-nj.json'
+import p256 from './pages/soffit-installation-repair-newark-nj.json'
+import p258 from './pages/solar-panel-roofing-installation-newark-nj.json'
+import p260 from './pages/solar-shingle-installation-newark-nj.json'
 import p262 from './pages/spray-foam-roofing-bloomfield-nj.json'
 import p263 from './pages/spray-foam-roofing-east-orange-nj.json'
-import p264 from './pages/spray-foam-roofing-in-newark-nj.json'
+import p264 from './pages/spray-foam-roofing-newark-nj.json'
 import p266 from './pages/spray-foam-roofing-orange-nj.json'
 import p268 from './pages/storm-damage-roof-repair-belleville-nj.json'
 import p269 from './pages/storm-damage-roof-repair-bloomfield-nj.json'
 import p270 from './pages/storm-damage-roof-repair-east-orange-nj.json'
-import p271 from './pages/storm-damage-roof-repair-in-newark-nj.json'
+import p271 from './pages/storm-damage-roof-repair-newark-nj.json'
 import p272 from './pages/storm-damage-roof-repair-montclair-nj.json'
 import p274 from './pages/storm-damage-roof-repair-west-orange-nj.json'
 import p276 from './pages/tile-roof-installation-repair-bloomfield-nj.json'
 import p277 from './pages/tile-roof-installation-repair-east-orange-nj.json'
-import p278 from './pages/tile-roof-installation-repair-in-newark-nj.json'
+import p278 from './pages/tile-roof-installation-repair-newark-nj.json'
 import p279 from './pages/tile-roof-installation-repair-irvington-nj.json'
 import p281 from './pages/tile-roof-installation-repair-orange-nj.json'
 import p282 from './pages/tile-roof-installation-repair-west-orange-nj.json'
 import p283 from './pages/top-roofing.json'
 import p285 from './pages/tpo-roofing-installation-east-orange-nj.json'
-import p286 from './pages/tpo-roofing-installation-in-newark-nj.json'
+import p286 from './pages/tpo-roofing-installation-newark-nj.json'
 import p288 from './pages/tpo-roofing-installation-orange-nj.json'
 import p289 from './pages/tpo-roofing-installation-west-orange-nj.json'
 import p290 from './pages/wind-damage-roof-repair-belleville-nj.json'
 import p291 from './pages/wind-damage-roof-repair-bloomfield-nj.json'
 import p292 from './pages/wind-damage-roof-repair-east-orange-nj.json'
-import p293 from './pages/wind-damage-roof-repair-in-newark-nj.json'
+import p293 from './pages/wind-damage-roof-repair-newark-nj.json'
 import p294 from './pages/wind-damage-roof-repair-montclair-nj.json'
 import p295 from './pages/wind-damage-roof-repair-orange-nj.json'
 import p296 from './pages/wind-damage-roof-repair-west-orange-nj.json'
-import p297 from './pages/wood-shake-roofing-in-newark-nj.json'
+import p297 from './pages/wood-shake-roofing-newark-nj.json'
 
 export const SURFER_PAGES: Record<string, SurferPage> = {
   "/": p0 as SurferPage,
   "/asphalt-shingle-roofing-bloomfield-nj": p2 as SurferPage,
-  "/asphalt-shingle-roofing-in-newark-nj": p4 as SurferPage,
+  "/asphalt-shingle-roofing-newark-nj": p4 as SurferPage,
   "/asphalt-shingle-roofing-montclair-nj": p5 as SurferPage,
   "/asphalt-shingle-roofing-orange-nj": p7 as SurferPage,
   "/average-cost-to-tear-off-and-replace-roof": p9 as SurferPage,
@@ -246,31 +246,31 @@ export const SURFER_PAGES: Record<string, SurferPage> = {
   "/built-up-roofing-belleville-nj": p12 as SurferPage,
   "/built-up-roofing-bloomfield-nj": p13 as SurferPage,
   "/built-up-roofing-east-orange-nj": p14 as SurferPage,
-  "/built-up-roofing-in-newark-nj": p15 as SurferPage,
+  "/built-up-roofing-newark-nj": p15 as SurferPage,
   "/built-up-roofing-orange-nj": p17 as SurferPage,
   "/built-up-roofing-west-orange-nj": p18 as SurferPage,
-  "/cedar-shake-roofing-in-newark-nj": p19 as SurferPage,
+  "/cedar-shake-roofing-newark-nj": p19 as SurferPage,
   "/changing-roof": p21 as SurferPage,
-  "/chimney-flashing-repair-in-newark-nj": p23 as SurferPage,
+  "/chimney-flashing-repair-newark-nj": p23 as SurferPage,
   "/chimney-flashing-repair-montclair-nj": p24 as SurferPage,
   "/commercial-metal-roofing-bloomfield-nj": p25 as SurferPage,
   "/commercial-metal-roofing-east-orange-nj": p26 as SurferPage,
-  "/commercial-metal-roofing-in-newark-nj": p27 as SurferPage,
+  "/commercial-metal-roofing-newark-nj": p27 as SurferPage,
   "/commercial-metal-roofing-montclair-nj": p28 as SurferPage,
   "/commercial-metal-roofing-nutley-nj": p29 as SurferPage,
   "/commercial-metal-roofing-orange-nj": p30 as SurferPage,
   "/commercial-roof-contractor": p32 as SurferPage,
-  "/commercial-roof-installation-in-newark-nj": p35 as SurferPage,
+  "/commercial-roof-installation-newark-nj": p35 as SurferPage,
   "/commercial-roof-installation-orange-nj": p37 as SurferPage,
   "/commercial-roof-repair-bloomfield-nj": p39 as SurferPage,
   "/commercial-roof-repair-east-orange-nj": p40 as SurferPage,
-  "/commercial-roof-repair-in-newark-nj": p41 as SurferPage,
+  "/commercial-roof-repair-newark-nj": p41 as SurferPage,
   "/commercial-roof-repair-montclair-nj": p42 as SurferPage,
   "/commercial-roof-repairs": p45 as SurferPage,
   "/commercial-roof-replacement-belleville-nj": p46 as SurferPage,
   "/commercial-roof-replacement-bloomfield-nj": p47 as SurferPage,
   "/commercial-roof-replacement-east-orange-nj": p48 as SurferPage,
-  "/commercial-roof-replacement-in-newark-nj": p49 as SurferPage,
+  "/commercial-roof-replacement-newark-nj": p49 as SurferPage,
   "/commercial-roof-replacement-irvington-nj": p50 as SurferPage,
   "/commercial-roof-replacement-montclair-nj": p51 as SurferPage,
   "/commercial-roof-replacement-orange-nj": p52 as SurferPage,
@@ -285,18 +285,18 @@ export const SURFER_PAGES: Record<string, SurferPage> = {
   "/emergency-roof-repair-belleville-nj": p62 as SurferPage,
   "/emergency-roof-repair-bloomfield-nj": p63 as SurferPage,
   "/emergency-roof-repair-east-orange-nj": p64 as SurferPage,
-  "/emergency-roof-repair-in-newark-nj": p65 as SurferPage,
+  "/emergency-roof-repair-newark-nj": p65 as SurferPage,
   "/emergency-roof-repair-montclair-nj": p66 as SurferPage,
   "/emergency-roof-repair-west-orange-nj": p68 as SurferPage,
-  "/energy-efficient-roofing-solutions-in-newark-nj": p69 as SurferPage,
+  "/energy-efficient-roofing-solutions-newark-nj": p69 as SurferPage,
   "/epdm-commercial-roofing-bloomfield-nj": p70 as SurferPage,
-  "/epdm-commercial-roofing-in-newark-nj": p72 as SurferPage,
+  "/epdm-commercial-roofing-newark-nj": p72 as SurferPage,
   "/epdm-commercial-roofing-montclair-nj": p73 as SurferPage,
   "/epdm-commercial-roofing-orange-nj": p74 as SurferPage,
   "/estimator-roof": p76 as SurferPage,
-  "/fascia-installation-repair-in-newark-nj": p78 as SurferPage,
+  "/fascia-installation-repair-newark-nj": p78 as SurferPage,
   "/flat-roof-installation-repair-bloomfield-nj": p80 as SurferPage,
-  "/flat-roof-installation-repair-in-newark-nj": p82 as SurferPage,
+  "/flat-roof-installation-repair-newark-nj": p82 as SurferPage,
   "/flat-roof-installation-repair-montclair-nj": p83 as SurferPage,
   "/flat-roof-installation-repair-orange-nj": p84 as SurferPage,
   "/flat-roof-installation-repair-west-orange-nj": p85 as SurferPage,
@@ -304,16 +304,16 @@ export const SURFER_PAGES: Record<string, SurferPage> = {
   "/general-roofing": p87 as SurferPage,
   "/green-roof-installation-bloomfield-nj": p88 as SurferPage,
   "/green-roof-installation-east-orange-nj": p89 as SurferPage,
-  "/green-roof-installation-in-newark-nj": p90 as SurferPage,
+  "/green-roof-installation-newark-nj": p90 as SurferPage,
   "/green-roof-installation-montclair-nj": p91 as SurferPage,
   "/green-roof-installation-orange-nj": p92 as SurferPage,
   "/green-roof-installation-west-orange-nj": p93 as SurferPage,
   "/gutter-guard-installation-bloomfield-nj": p94 as SurferPage,
-  "/gutter-guard-installation-in-newark-nj": p96 as SurferPage,
+  "/gutter-guard-installation-newark-nj": p96 as SurferPage,
   "/gutter-guard-installation-montclair-nj": p97 as SurferPage,
   "/gutter-installation-repair-bloomfield-nj": p100 as SurferPage,
   "/gutter-installation-repair-east-orange-nj": p101 as SurferPage,
-  "/gutter-installation-repair-in-newark-nj": p102 as SurferPage,
+  "/gutter-installation-repair-newark-nj": p102 as SurferPage,
   "/gutter-installation-repair-montclair-nj": p103 as SurferPage,
   "/gutter-installation-repair-nutley-nj": p104 as SurferPage,
   "/gutter-installation-repair-orange-nj": p105 as SurferPage,
@@ -327,23 +327,23 @@ export const SURFER_PAGES: Record<string, SurferPage> = {
   "/inexpensive-roof-repair": p115 as SurferPage,
   "/infrared-roof-leak-detection-bloomfield-nj": p116 as SurferPage,
   "/infrared-roof-leak-detection-east-orange-nj": p117 as SurferPage,
-  "/infrared-roof-leak-detection-in-newark-nj": p118 as SurferPage,
+  "/infrared-roof-leak-detection-newark-nj": p118 as SurferPage,
   "/infrared-roof-leak-detection-montclair-nj": p119 as SurferPage,
   "/infrared-roof-leak-detection-orange-nj": p120 as SurferPage,
   "/infrared-roof-leak-detection-west-orange-nj": p121 as SurferPage,
   "/metal-roof-installation-repair-belleville-nj": p122 as SurferPage,
   "/metal-roof-installation-repair-east-orange-nj": p124 as SurferPage,
-  "/metal-roof-installation-repair-in-newark-nj": p125 as SurferPage,
+  "/metal-roof-installation-repair-newark-nj": p125 as SurferPage,
   "/metal-roof-installation-repair-montclair-nj": p126 as SurferPage,
   "/metal-roof-installation-repair-orange-nj": p127 as SurferPage,
   "/metal-roof-installation-repair-west-orange-nj": p128 as SurferPage,
   "/modified-bitumen-roofing-east-orange-nj": p130 as SurferPage,
-  "/modified-bitumen-roofing-in-newark-nj": p131 as SurferPage,
+  "/modified-bitumen-roofing-newark-nj": p131 as SurferPage,
   "/modified-bitumen-roofing-montclair-nj": p132 as SurferPage,
   "/modified-bitumen-roofing-orange-nj": p133 as SurferPage,
   "/new-roof-installation": p135 as SurferPage,
   "/pvc-roofing-east-orange-nj": p137 as SurferPage,
-  "/pvc-roofing-in-newark-nj": p138 as SurferPage,
+  "/pvc-roofing-newark-nj": p138 as SurferPage,
   "/pvc-roofing-montclair-nj": p139 as SurferPage,
   "/pvc-roofing-orange-nj": p140 as SurferPage,
   "/pvc-roofing-west-orange-nj": p141 as SurferPage,
@@ -351,41 +351,41 @@ export const SURFER_PAGES: Record<string, SurferPage> = {
   "/replace-roof": p143 as SurferPage,
   "/reputable-roofing-contractors": p144 as SurferPage,
   "/residential-roof-companies": p145 as SurferPage,
-  "/residential-roof-installation-in-newark-nj": p146 as SurferPage,
+  "/residential-roof-installation-newark-nj": p146 as SurferPage,
   "/restoration-roofing": p147 as SurferPage,
   "/roof-cleaning-moss-removal-belleville-nj": p148 as SurferPage,
-  "/roof-cleaning-moss-removal-in-newark-nj": p151 as SurferPage,
+  "/roof-cleaning-moss-removal-newark-nj": p151 as SurferPage,
   "/roof-cleaning-moss-removal-montclair-nj": p152 as SurferPage,
   "/roof-cleaning-moss-removal-west-orange-nj": p154 as SurferPage,
   "/roof-contractors": p155 as SurferPage,
-  "/roof-deck-repair-replacement-in-newark-nj": p156 as SurferPage,
+  "/roof-deck-repair-replacement-newark-nj": p156 as SurferPage,
   "/roof-experts": p157 as SurferPage,
   "/roof-flashing-installation-repair-bloomfield-nj": p159 as SurferPage,
   "/roof-flashing-installation-repair-east-orange-nj": p160 as SurferPage,
-  "/roof-flashing-installation-repair-in-newark-nj": p161 as SurferPage,
+  "/roof-flashing-installation-repair-newark-nj": p161 as SurferPage,
   "/roof-flashing-installation-repair-irvington-nj": p162 as SurferPage,
   "/roof-flashing-installation-repair-orange-nj": p164 as SurferPage,
   "/roof-inspection-belleville-nj": p166 as SurferPage,
   "/roof-inspection-bloomfield-nj": p167 as SurferPage,
   "/roof-inspection-east-orange-nj": p168 as SurferPage,
-  "/roof-inspection-in-newark-nj": p169 as SurferPage,
+  "/roof-inspection-newark-nj": p169 as SurferPage,
   "/roof-inspection-irvington-nj": p170 as SurferPage,
   "/roof-inspection-montclair-nj": p171 as SurferPage,
   "/roof-inspection-west-orange-nj": p174 as SurferPage,
   "/roof-leak-repair-belleville-nj": p175 as SurferPage,
   "/roof-leak-repair-east-orange-nj": p177 as SurferPage,
-  "/roof-leak-repair-in-newark-nj": p178 as SurferPage,
+  "/roof-leak-repair-newark-nj": p178 as SurferPage,
   "/roof-leak-repair-montclair-nj": p179 as SurferPage,
   "/roof-leak-repair-orange-nj": p180 as SurferPage,
   "/roof-price": p182 as SurferPage,
   "/roof-professionals": p183 as SurferPage,
-  "/roof-repair-and-installation-in-belleville-nj": p184 as SurferPage,
-  "/roof-repair-and-installation-in-bloomfield-nj": p185 as SurferPage,
-  "/roof-repair-and-installation-in-east-orange-nj": p186 as SurferPage,
-  "/roof-repair-and-installation-in-montclair-nj": p187 as SurferPage,
-  "/roof-repair-and-installation-in-nutley-nj": p188 as SurferPage,
-  "/roof-repair-and-installation-in-orange-nj": p189 as SurferPage,
-  "/roof-repair-and-installation-in-west-orange-nj": p190 as SurferPage,
+  "/roof-repair-and-installation-belleville-nj": p184 as SurferPage,
+  "/roof-repair-and-installation-bloomfield-nj": p185 as SurferPage,
+  "/roof-repair-and-installation-east-orange-nj": p186 as SurferPage,
+  "/roof-repair-and-installation-montclair-nj": p187 as SurferPage,
+  "/roof-repair-and-installation-nutley-nj": p188 as SurferPage,
+  "/roof-repair-and-installation-orange-nj": p189 as SurferPage,
+  "/roof-repair-and-installation-west-orange-nj": p190 as SurferPage,
   "/roof-repair-belleville-nj": p191 as SurferPage,
   "/roof-repair-bloomfield-nj": p192 as SurferPage,
   "/roof-repair-company": p193 as SurferPage,
@@ -399,19 +399,19 @@ export const SURFER_PAGES: Record<string, SurferPage> = {
   "/roof-replacement-belleville-nj": p201 as SurferPage,
   "/roof-replacement-bloomfield-nj": p202 as SurferPage,
   "/roof-replacement-east-orange-nj": p203 as SurferPage,
-  "/roof-replacement-in-newark-nj": p204 as SurferPage,
+  "/roof-replacement-newark-nj": p204 as SurferPage,
   "/roof-replacement-montclair-nj": p205 as SurferPage,
   "/roof-replacement-services": p207 as SurferPage,
   "/roof-replacement-west-orange-nj": p208 as SurferPage,
   "/roof-storm-damage": p209 as SurferPage,
   "/roof-thermal-imaging-inspections-east-orange-nj": p211 as SurferPage,
-  "/roof-thermal-imaging-inspections-in-newark-nj": p212 as SurferPage,
+  "/roof-thermal-imaging-inspections-newark-nj": p212 as SurferPage,
   "/roof-thermal-imaging-inspections-montclair-nj": p213 as SurferPage,
   "/roof-thermal-imaging-inspections-orange-nj": p215 as SurferPage,
-  "/roof-vent-installation-repair-in-newark-nj": p217 as SurferPage,
+  "/roof-vent-installation-repair-newark-nj": p217 as SurferPage,
   "/roof-vent-installation-repair-montclair-nj": p218 as SurferPage,
   "/roof-vent-installation-repair-nutley-nj": p219 as SurferPage,
-  "/roof-waterproofing-in-newark-nj": p220 as SurferPage,
+  "/roof-waterproofing-newark-nj": p220 as SurferPage,
   "/roofer-contractors": p223 as SurferPage,
   "/roofers-repairs": p224 as SurferPage,
   "/roofing-company-close-to-me": p225 as SurferPage,
@@ -424,48 +424,48 @@ export const SURFER_PAGES: Record<string, SurferPage> = {
   "/roofing-repairman": p232 as SurferPage,
   "/roofs-company": p233 as SurferPage,
   "/rubber-roofing-epdm-east-orange-nj": p235 as SurferPage,
-  "/rubber-roofing-epdm-in-newark-nj": p236 as SurferPage,
+  "/rubber-roofing-epdm-newark-nj": p236 as SurferPage,
   "/rubber-roofing-epdm-nutley-nj": p238 as SurferPage,
   "/rubber-roofing-epdm-orange-nj": p239 as SurferPage,
   "/rubber-roofing-epdm-west-orange-nj": p240 as SurferPage,
-  "/silicone-elastomeric-roof-coating-in-newark-nj": p242 as SurferPage,
-  "/silicone-roof-coating-in-newark-nj": p245 as SurferPage,
+  "/silicone-elastomeric-roof-coating-newark-nj": p242 as SurferPage,
+  "/silicone-roof-coating-newark-nj": p245 as SurferPage,
   "/silicone-roof-coating-montclair-nj": p246 as SurferPage,
-  "/skylight-installation-repair-in-newark-nj": p247 as SurferPage,
+  "/skylight-installation-repair-newark-nj": p247 as SurferPage,
   "/slate-roof-installation-repair-bloomfield-nj": p250 as SurferPage,
   "/slate-roof-installation-repair-east-orange-nj": p251 as SurferPage,
-  "/slate-roof-installation-repair-in-newark-nj": p252 as SurferPage,
+  "/slate-roof-installation-repair-newark-nj": p252 as SurferPage,
   "/slate-roof-installation-repair-orange-nj": p254 as SurferPage,
-  "/soffit-installation-repair-in-newark-nj": p256 as SurferPage,
-  "/solar-panel-roofing-installation-in-newark-nj": p258 as SurferPage,
-  "/solar-shingle-installation-in-newark-nj": p260 as SurferPage,
+  "/soffit-installation-repair-newark-nj": p256 as SurferPage,
+  "/solar-panel-roofing-installation-newark-nj": p258 as SurferPage,
+  "/solar-shingle-installation-newark-nj": p260 as SurferPage,
   "/spray-foam-roofing-bloomfield-nj": p262 as SurferPage,
   "/spray-foam-roofing-east-orange-nj": p263 as SurferPage,
-  "/spray-foam-roofing-in-newark-nj": p264 as SurferPage,
+  "/spray-foam-roofing-newark-nj": p264 as SurferPage,
   "/spray-foam-roofing-orange-nj": p266 as SurferPage,
   "/storm-damage-roof-repair-belleville-nj": p268 as SurferPage,
   "/storm-damage-roof-repair-bloomfield-nj": p269 as SurferPage,
   "/storm-damage-roof-repair-east-orange-nj": p270 as SurferPage,
-  "/storm-damage-roof-repair-in-newark-nj": p271 as SurferPage,
+  "/storm-damage-roof-repair-newark-nj": p271 as SurferPage,
   "/storm-damage-roof-repair-montclair-nj": p272 as SurferPage,
   "/storm-damage-roof-repair-west-orange-nj": p274 as SurferPage,
   "/tile-roof-installation-repair-bloomfield-nj": p276 as SurferPage,
   "/tile-roof-installation-repair-east-orange-nj": p277 as SurferPage,
-  "/tile-roof-installation-repair-in-newark-nj": p278 as SurferPage,
+  "/tile-roof-installation-repair-newark-nj": p278 as SurferPage,
   "/tile-roof-installation-repair-irvington-nj": p279 as SurferPage,
   "/tile-roof-installation-repair-orange-nj": p281 as SurferPage,
   "/tile-roof-installation-repair-west-orange-nj": p282 as SurferPage,
   "/top-roofing": p283 as SurferPage,
   "/tpo-roofing-installation-east-orange-nj": p285 as SurferPage,
-  "/tpo-roofing-installation-in-newark-nj": p286 as SurferPage,
+  "/tpo-roofing-installation-newark-nj": p286 as SurferPage,
   "/tpo-roofing-installation-orange-nj": p288 as SurferPage,
   "/tpo-roofing-installation-west-orange-nj": p289 as SurferPage,
   "/wind-damage-roof-repair-belleville-nj": p290 as SurferPage,
   "/wind-damage-roof-repair-bloomfield-nj": p291 as SurferPage,
   "/wind-damage-roof-repair-east-orange-nj": p292 as SurferPage,
-  "/wind-damage-roof-repair-in-newark-nj": p293 as SurferPage,
+  "/wind-damage-roof-repair-newark-nj": p293 as SurferPage,
   "/wind-damage-roof-repair-montclair-nj": p294 as SurferPage,
   "/wind-damage-roof-repair-orange-nj": p295 as SurferPage,
   "/wind-damage-roof-repair-west-orange-nj": p296 as SurferPage,
-  "/wood-shake-roofing-in-newark-nj": p297 as SurferPage,
+  "/wood-shake-roofing-newark-nj": p297 as SurferPage,
 }

@@ -268,7 +268,7 @@ export const dynamicParams = false;
 
 // Owner rule (2026-09-24): every page's <title> is its H1, character for
 // character. Each case below takes its title from the same source the page's
-// hero renders as the H1. The one exception is /roof-repair-in-newark-nj,
+// hero renders as the H1. The one exception is /roof-repair-newark-nj,
 // which the owner asked to leave exactly as it is.
 const TITLE_H1_EXCLUDE = new Set(['roof-repair']);
 
@@ -335,7 +335,7 @@ export async function generateMetadata({
       // Meta Keywords 9 -> 14. Applied as this scoped override
       // because the services schema caps metaKeywords at 9; the
       // roof-repair service's only hub page is
-      // /roof-repair-in-newark-nj, so no other page changes.
+      // /roof-repair-newark-nj, so no other page changes.
       const isCora261024NewarkRepair = service.id === 'roof-repair';
       const finalServiceTitle = isCoraReplNewark ? coraReplNewarkTitle : serviceTitle;
       const finalServiceDescription = isCoraReplNewark ? coraReplNewarkMetaDescription : serviceDescription;
@@ -361,7 +361,7 @@ export async function generateMetadata({
               // CORA 2026-09-26 lines 32 (variations in Twitter meta content),
               // 55 (Google site verification meta — same property token as
               // public/google12bec62df3c068a7.html), 62 (meta generator tag).
-              // Scoped to /roof-repair-in-newark-nj only.
+              // Scoped to /roof-repair-newark-nj only.
               twitter: {
                 card: 'summary_large_image' as const,
                 title: serviceTitle,

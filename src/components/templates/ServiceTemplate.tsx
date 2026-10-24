@@ -486,12 +486,12 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
       {/* CORA 2026-10-14 REPLACEMENT phrase roadmap (261014r): one expandable
           supplemental section with all added optimization content for
-          /roof-replacement-in-newark-nj (keyword "roof replacement
+          /roof-replacement-newark-nj (keyword "roof replacement
           newark nj") — this page's FIRST Cora pass. */}
       {service.id === 'roof-replacement' && <CoraRoadmap261014rNewark />}
 
       {/* CORA 261021 rerun roadmap (M2): the Formula / hard-rule pass for
-          /roof-replacement-in-newark-nj — a second expandable supplemental
+          /roof-replacement-newark-nj — a second expandable supplemental
           block carrying the repair-records programme, the lsa1-lsa4 field
           notes, the page directory, the VideoObject embed and the microdata
           RoofingContractor card. Title/meta overrides for this service now

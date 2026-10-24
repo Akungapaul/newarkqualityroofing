@@ -195,7 +195,7 @@ const graph = {
           '@type': 'ListItem',
           position: 1,
           name: 'Roof Replacement',
-          item: 'https://newarkqualityroofing.com/roof-replacement-in-newark-nj',
+          item: 'https://newarkqualityroofing.com/roof-replacement-newark-nj',
         },
         {
           '@type': 'ListItem',

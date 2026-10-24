@@ -1,4 +1,4 @@
-/** CORA 261021 (run M2, 2026-10-21) content for /roof-replacement-in-newark-nj,
+/** CORA 261021 (run M2, 2026-10-21) content for /roof-replacement-newark-nj,
  *  keyword "roof replacement newark nj". Companion to the 261014r pass; built under
  *  the Formula + hard rule: every implementable line to its exact goal, counted
  *  locally from the built page. Title/meta override values live here and are
@@ -67,7 +67,7 @@ export const cora261021DirectoryUrls: string[] = [
   "https://newarkqualityroofing.com/roof-replacement-cost-fairfield-nj",
   "https://newarkqualityroofing.com/roof-replacement-cost-north-caldwell-nj",
   "https://newarkqualityroofing.com/roof-replacement-cost-roseland-nj",
-  "https://newarkqualityroofing.com/roof-replacement-in-newark-nj",
+  "https://newarkqualityroofing.com/roof-replacement-newark-nj",
 ];
 
 export const cora261021LsiSentencesA: string[] = [

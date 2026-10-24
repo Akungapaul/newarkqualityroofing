@@ -43,35 +43,35 @@ export const roofingMaterialsHubContent: HubContent = {
         "links": [
           {
             "text": "Asphalt Shingle Roofing",
-            "href": "/asphalt-shingle-roofing-in-newark-nj"
+            "href": "/asphalt-shingle-roofing-newark-nj"
           },
           {
             "text": "Metal Roof Installation & Repair",
-            "href": "/metal-roof-installation-repair-in-newark-nj"
+            "href": "/metal-roof-installation-repair-newark-nj"
           },
           {
             "text": "Slate Roof Installation & Repair",
-            "href": "/slate-roof-installation-repair-in-newark-nj"
+            "href": "/slate-roof-installation-repair-newark-nj"
           },
           {
             "text": "Tile Roof Installation & Repair",
-            "href": "/tile-roof-installation-repair-in-newark-nj"
+            "href": "/tile-roof-installation-repair-newark-nj"
           },
           {
             "text": "Cedar Shake Roofing",
-            "href": "/cedar-shake-roofing-in-newark-nj"
+            "href": "/cedar-shake-roofing-newark-nj"
           },
           {
             "text": "Wood Shake Roofing",
-            "href": "/wood-shake-roofing-in-newark-nj"
+            "href": "/wood-shake-roofing-newark-nj"
           },
           {
             "text": "EPDM Rubber Roofing",
-            "href": "/rubber-roofing-epdm-in-newark-nj"
+            "href": "/rubber-roofing-epdm-newark-nj"
           },
           {
             "text": "TPO Roofing Installation",
-            "href": "/tpo-roofing-installation-in-newark-nj"
+            "href": "/tpo-roofing-installation-newark-nj"
           }
         ]
       },

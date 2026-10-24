@@ -15,7 +15,7 @@ function variationHits(elements, valueFor) {
 function metrics(html) {
   const root = parse(html);
   const links = root.querySelectorAll('a[href]');
-  const base = new URL('https://newarkqualityroofing.com/roof-repair-in-newark-nj');
+  const base = new URL('https://newarkqualityroofing.com/roof-repair-newark-nj');
   const http = links.map((node) => ({ node, url: new URL(node.getAttribute('href'), base) }))
     .filter(({ url }) => ['http:', 'https:'].includes(url.protocol));
   const internal = http.filter(({ url }) => url.hostname === base.hostname);
@@ -37,7 +37,7 @@ function metrics(html) {
   };
 }
 
-const beforeHtml = await (await fetch('https://newarkqualityroofing.com/roof-repair-in-newark-nj')).text();
+const beforeHtml = await (await fetch('https://newarkqualityroofing.com/roof-repair-newark-nj')).text();
 const afterHtml = await (await fetch('http://localhost:3103/roof-repair-in-newark-nj')).text();
 const before = metrics(beforeHtml);
 const after = metrics(afterHtml);

@@ -178,7 +178,7 @@ export function LeanRoofRepairNewark() {
               item: {
                 '@type': 'Service',
                 name: 'Shingle Repair and Replacement',
-                url: `${SEO_CONFIG.BASE_URL}/roof-repair-in-newark-nj`,
+                url: `${SEO_CONFIG.BASE_URL}/roof-repair-newark-nj`,
               },
             },
             {

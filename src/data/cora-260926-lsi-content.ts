@@ -1,5 +1,5 @@
 // CORA 2026-09-26 roadmap LSI completion pass (second pass) for
-// /roof-repair-in-newark-nj, keyword "roof repair".
+// /roof-repair-newark-nj, keyword "roof repair".
 //
 // Roadmap lines served (~/workspace/vps-reports/cora-roadmap-260926-line-by-line.md):
 //   8  LSI Words in Sentences — add 562 more

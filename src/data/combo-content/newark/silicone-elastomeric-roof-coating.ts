@@ -68,6 +68,7 @@ export const newarkSiliconeElastomericRoofCoating: ComboContent = {
     'Local Essex County crew familiar with Newark\'s row-house, brownstone, and flat-roof commercial building stock.',
     'Coating chemistry matched to each roof — silicone for ponding, acrylic for dirt-pickup and recoatability.',
     'Free, detailed written estimates with no obligation.',
+    'CRRC-Referenced Reflectance — Newark Quality Roofing references CRRC reflectance and emittance values near 0.80–0.88 and 0.85–0.92 for a white elastomeric coating, the third-party rating system that succeeded the ended ENERGY STAR roof program, per the CRRC.',
   ],
   conversionHooks: {
     midPageCta: 'Get your free written estimate for silicone elastomeric roof coating in Newark.',

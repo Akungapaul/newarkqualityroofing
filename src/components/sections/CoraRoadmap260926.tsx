@@ -6,7 +6,7 @@ import { coraLsiPassParagraphGroups } from '@/data/cora-260926-lsi-content';
 import { siteConfig } from '@/data/site-config';
 import { SEO_CONFIG } from '@/lib/seo-config';
 
-// CORA 2026-09-26 roadmap supplemental block for /roof-repair-in-newark-nj
+// CORA 2026-09-26 roadmap supplemental block for /roof-repair-newark-nj
 // (keyword "roof repair"). Everything added for the 2026-09-26 roadmap lives
 // inside this one <details> block, which starts collapsed and opens for any
 // visitor; the page's existing H1 is untouched. Line numbers refer to

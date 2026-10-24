@@ -25,7 +25,7 @@ const MAX_ADDED_LINKS = 5
 
 // Editors whose draft does not match its page (reported, not synced).
 const HOLD = {
-  16740559: 'draft was imported from /storm-damage-roof-repair-in-newark-nj — every H2 is storm-damage copy',
+  16740559: 'draft was imported from /storm-damage-roof-repair-newark-nj — every H2 is storm-damage copy',
 }
 
 // H2 sections the template already renders (links, guides, CTAs).

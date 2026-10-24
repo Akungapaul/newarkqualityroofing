@@ -68,6 +68,8 @@ export const newarkPvcRoofing: ComboContent = {
     'Local Essex County crew familiar with Newark\'s row-house, brownstone, and flat-roof building stock.',
     'Free, detailed written estimates with no obligation.',
     'Workmanship documented with photos for your records and any insurance claim.',
+    'Chemical-Exposure Membrane Specification — Newark Quality Roofing specifies PVC where grease, oil, or chemical exhaust contacts the roof, because PVC resists the substances that soften and degrade EPDM and TPO, per the NRCA technical library.',
+    'Hot-Air-Welded Seam Verification — Newark Quality Roofing probe-tests every PVC field weld for full fusion and re-fuses any seam that fails, because PVC bonds sheet to sheet through hot-air welding rather than adhesive, per the NRCA technical library.',
   ],
   conversionHooks: {
     midPageCta: 'Get your free written estimate for PVC roofing in Newark.',
