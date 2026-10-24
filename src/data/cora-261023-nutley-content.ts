@@ -16,6 +16,15 @@
 export const coraReplNutleyTitle261023 =
   'Roof Replacement Nutley NJ — Nutley Roofing Company for Roof Replacement & Roof Repair Services in Nutley, New Jersey | GAF Slate & Timberline | Newark Quality Roofing';
 
+// 261023 meta description: carries the roadmapped 'nutley
+// roofing' form contiguously ("Nutley roofing crews") while
+// preserving every form the 261015r description served (the
+// exact phrase, 'roofing replacement nutley nj', GAF
+// Timberline, slate, tile, flat roof systems, cost estimates,
+// free written estimate) at the same length class.
+export const coraReplNutleyMetaDescription261023 =
+  'Roof replacement nutley nj — Nutley roofing crews for full tear-offs: GAF Timberline, slate, tile and flat roof systems, roofing replacement nutley nj cost estimates. Free written estimate.';
+
 export const cora261023NutleySummary =
   'Roof Replacement Nutley NJ — the 261023 Field Record: Roofer\'s Register, Township Roof Notes, Photo Log and Service Catalog';
 
@@ -26,7 +35,7 @@ export const cora261023NutleyIntro =
 
 export const cora261023NutleyH2s: { h2: string; p: string }[] = [
   {
-    h2: 'A Nutley Roofer Reads the Deck Before the Covering',
+    h2: 'How a Nutley Roofing Company Reads the Deck Before the Covering',
     p: 'The first visit for a roof replacement Nutley NJ job is a reading, not a sales call. The roofer walks the slopes, lifts a course at the eave, checks the attic for daylight and staining, and reads the flashing at every chimney and valley. Nutley rewards the reading: the township\'s stock runs from nineteenth-century houses near Kingsland Manor to dense postwar streets off Centre Street, and each fails in its own pattern. The written scope for a roof replacement Nutley NJ follows the reading line by line.',
   },
   {
@@ -53,7 +62,7 @@ export const cora261023NutleyH2s: { h2: string; p: string }[] = [
 
 export const cora261023NutleyH3s: { h3: string; p: string }[] = [
   {
-    h3: 'The Roofer\'s Four Checks: Deck, Flashing, Ventilation, Drainage',
+    h3: 'The Roofing Company\'s Four Checks: Deck, Flashing, Ventilation, Drainage',
     p: 'Every roof replacement Nutley NJ reading ends in the same four checks. Deck: sound enough to hold the new covering for its full life. Flashing: renewed at chimneys, valleys and walls, not reused. Ventilation: the attic breathing at the rate the warranty requires. Drainage: gutters and downspouts moving the water the new roof will shed. A roofer who reports all four in writing has done the reading.',
   },
   {

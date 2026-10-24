@@ -154,10 +154,12 @@ import {
   coraReplCedarGroveTitle,
 } from '@/data/cora-261014r-cedar-grove-content';
 import {
-  coraReplNutleyMetaDescription,
   coraReplNutleyMetaKeywords,
 } from '@/data/cora-261015r-nutley-content';
-import { coraReplNutleyTitle261023 as coraReplNutleyTitle } from '@/data/cora-261023-nutley-content';
+import {
+  coraReplNutleyMetaDescription261023 as coraReplNutleyMetaDescription,
+  coraReplNutleyTitle261023 as coraReplNutleyTitle,
+} from '@/data/cora-261023-nutley-content';
 import {
   coraReplMontclairMetaDescription,
   coraReplMontclairMetaKeywords,
