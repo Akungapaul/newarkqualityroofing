@@ -65,6 +65,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import { combos } from '@/data/combos';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
@@ -336,10 +338,30 @@ const socialReferences = [
 const livingstonSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
+    buildRoofingContractorNodeSchema(),
     {
       '@type': ['LocalBusiness', 'RoofingContractor'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      // Group 2 credited-form package (2026-10-24) for the
+      // never-worked 261013 rerun roadmap: legalName from the
+      // canonical config; scalar availableLanguage 'English' on
+      // the node and its ContactPoint (+ contactType); the
+      // published OG description as disambiguatingDescription;
+      // priceRange '$$'; hasMap in the Maps query-URL form.
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
+      disambiguatingDescription:
+        'Professional roofing contractor serving Essex County and Northern New Jersey.',
+      priceRange: '$$',
+      hasMap: 'https://www.google.com/maps?q=Newark+Quality+Roofing,+Newark,+NJ',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       url: pageUrl,
       email: siteConfig.email,
       address: {
@@ -381,10 +403,28 @@ const livingstonSchemaGraph = {
       ],
     },
     {
+      // Group 2 (2026-10-24): the rerun's category line — a
+      // page-local Service node for the service this page
+      // documents (the template's shared Service node is not
+      // this pass's to edit).
+      '@type': 'Service',
+      '@id': `${pageUrl}#service`,
+      name: 'Roof Repair Livingston, NJ',
+      serviceType: 'Roof Repair',
+      category: 'Roof Repair',
+      provider: { '@id': `${pageUrl}#localbusiness` },
+      areaServed: { '@type': 'City', name: 'Livingston, NJ' },
+    },
+    {
       '@type': 'WebPage',
       '@id': pageUrl,
       url: pageUrl,
       name: 'Roof Repair Livingston, NJ',
+      // Group 2 (2026-10-24): the rerun's dateCreated /
+      // lastReviewed lines — created 2026-10-13 (this block's
+      // first commit); last reviewed by this remediation pass.
+      dateCreated: '2026-10-13',
+      lastReviewed: '2026-10-24',
       isPartOf: { '@id': 'https://newarkqualityroofing.com/#website' },
       mainEntity: { '@id': `${pageUrl}#localbusiness` },
       keywords: coraLivingstonStyleCommentPhrases.join(', '),
@@ -414,6 +454,7 @@ const livingstonSchemaGraph = {
     {
       '@type': 'ItemList',
       name: 'Roof Repair Services in Livingston, NJ',
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
       itemListElement: livingstonServices.map((item, i) => ({
         '@type': 'ListItem',
         position: i + 1,
@@ -425,6 +466,7 @@ const livingstonSchemaGraph = {
     {
       '@type': 'ItemList',
       name: 'Roofing Services Near Livingston, NJ',
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
       itemListElement: adjacentServices.map((item, i) => ({
         '@type': 'ListItem',
         position: i + 1,
@@ -464,6 +506,8 @@ export function CoraRoadmap261012Livingston() {
           __html: `<!-- CORA 2026-10-12 Livingston variations: ${coraLivingstonCommentVariationsA.join(', ')} -->`,
         }}
       />
+      <meta itemProp="dateCreated" content="2026-10-13" />
+      <meta itemProp="lastReviewed" content="2026-10-24" />
       <JsonLd data={livingstonSchemaGraph} />
       <details className="cora-261012-livingston-details mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-8">
         <summary className="cursor-pointer py-3 text-lg font-semibold text-brand-navy">
@@ -601,6 +645,24 @@ export function CoraRoadmap261012Livingston() {
         ))}
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
+          <meta itemProp="legalName" content={canonicalConfig.legalName} />
+          <meta
+            itemProp="disambiguatingDescription"
+            content="Professional roofing contractor serving Essex County and Northern New Jersey."
+          />
+          <meta itemProp="priceRange" content="$$" />
+          <link
+            itemProp="hasMap"
+            href="https://www.google.com/maps?q=Newark+Quality+Roofing,+Newark,+NJ"
+          />
+          <span itemProp="contactPoint" itemScope itemType="https://schema.org/ContactPoint">
+            <meta itemProp="telephone" content={siteConfig.phone.tel} />
+            <meta itemProp="contactType" content="customer service" />
+          </span>
+          <span itemScope itemType="https://schema.org/Service">
+            <meta itemProp="name" content="Roof Repair Livingston, NJ" />
+            <meta itemProp="category" content="Roof Repair" />
+          </span>
           <p className={vClass(7)}>
             <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
             <u>roof repair in Livingston, NJ</u> and across Essex County from{' '}
@@ -699,6 +761,8 @@ export function CoraRoadmap261012Livingston() {
         <h3 className={vClass(16)}>Livingston Roof Repair Photo Record: Crews, Inspections, and Repair Details</h3>
         <figure itemScope itemType="https://schema.org/ImageObject">
           <meta itemProp="contentUrl" content="https://newarkqualityroofing.com/images/heroes/city-livingston.webp" />
+          <meta itemProp="width" content="1920" />
+          <meta itemProp="height" content="1080" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/heroes/city-livingston.webp"
