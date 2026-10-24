@@ -47,6 +47,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraMaplewoodBTagVariations,
   coraMaplewoodGalleryImages,
@@ -90,10 +92,35 @@ const pageUrl = 'https://newarkqualityroofing.com/roof-repair-maplewood-nj';
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@graph': [
+    buildRoofingContractorNodeSchema(),
+    // Group 2 (2026-10-24): the 261013 rerun's LocalBusiness
+    // line — a dedicated plain-string LocalBusiness node in
+    // the shared builder's credited shape (name + URL). Cora's
+    // parser does not read the array-valued @type below,
+    // which is why the rerun re-asked for both types (the
+    // East Orange repair finding).
+    {
+      '@type': 'LocalBusiness',
+      '@id': `${pageUrl}#localbusiness-plain`,
+      name: 'Newark Quality Roofing',
+      url: pageUrl,
+    },
     {
       '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      // Group 2 credited-form package (2026-10-24):
+      // legalName from the canonical config; scalar
+      // availableLanguage 'English' + ContactPoint.
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       url: pageUrl,
       email: siteConfig.email,
       address: {
@@ -326,6 +353,7 @@ export function CoraRoadmap261012Maplewood() {
 
         <h3>Newark Quality Roofing — Maplewood Service Record</h3>
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
+          <meta itemProp="legalName" content={canonicalConfig.legalName} />
           <p>
             <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
             <u>roof repair in Maplewood, NJ</u> and across Essex County from{' '}
