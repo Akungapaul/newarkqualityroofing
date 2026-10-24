@@ -1,0 +1,5 @@
+/* Roof Repair Newark restructure: photo gallery grid. */
+.nqr-gallery-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.6rem; padding: 0 1rem 1.25rem; }
+@media (min-width: 768px) { .nqr-gallery-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1200px) { .nqr-gallery-grid { grid-template-columns: repeat(6, 1fr); } }
+.nqr-gallery-grid img { width: 100%; height: 7.5rem; object-fit: cover; border-radius: 0.5rem; display: block; background: #e8e2d2; }

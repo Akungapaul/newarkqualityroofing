@@ -1,0 +1,4 @@
+/* Roof Repair Newark restructure: service-area section link treatment (Where). */
+.nqr-where a { text-underline-offset: 3px; }
+.nqr-where a:hover { color: #7a4a15; }
+.nqr-where p { max-width: 48rem; }

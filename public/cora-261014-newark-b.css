@@ -1,0 +1,7 @@
+/* Roof Repair Newark restructure: the six repair service cards (What). */
+.nqr-service-grid { display: grid; gap: 1.25rem; }
+@media (min-width: 768px) { .nqr-service-grid { grid-template-columns: 1fr 1fr; } }
+.nqr-service-card { border: 1px solid rgba(27, 58, 44, 0.14); border-radius: 0.75rem; padding: 1.25rem 1.4rem; background: #fdfbf7; }
+.nqr-service-card h3 { margin-bottom: 0.5rem; }
+.nqr-service-card p { margin: 0; }
+.nqr-service-card a { color: #9a5b1d; text-decoration: underline; text-underline-offset: 3px; }

@@ -1,0 +1,5 @@
+/* Roof Repair Newark restructure: mobile lead-form expander (this page only). */
+.nqr-form-toggle { box-shadow: 0 2px 10px rgba(15, 34, 24, 0.25); letter-spacing: 0.01em; }
+.nqr-form-toggle:focus-visible { outline: 3px solid #bc6c25; outline-offset: 2px; }
+.nqr-form-toggle .nqr-form-toggle-chevron { transition: transform 0.2s ease; }
+.nqr-form-toggle[aria-expanded="true"] .nqr-form-toggle-chevron { transform: rotate(180deg); }

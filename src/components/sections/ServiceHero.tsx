@@ -20,9 +20,15 @@ interface ServiceHeroProps {
   /** Verbatim-synced page overrides (src/data/surfer-verbatim): the H1 (= title tag) and hero lead. */
   h1?: string;
   lead?: React.ReactNode;
+  /**
+   * RESTRUCTURE 2026-10-23: forward LeadForm's mobileCollapsed to the hero
+   * form. Passed only for /roof-repair-in-newark-nj; every other page's hero
+   * form renders exactly as before.
+   */
+  minimizeFormOnMobile?: boolean;
 }
 
-export function ServiceHero({ service, serviceGroups, benefits, directAnswer, h1, lead }: ServiceHeroProps) {
+export function ServiceHero({ service, serviceGroups, benefits, directAnswer, h1, lead, minimizeFormOnMobile }: ServiceHeroProps) {
   const heroImg = getServiceHeroImage(service.id);
   const heroSrc = heroImg?.path ?? '/images/newark-roofing-at-work.jpg';
   const heroAlt = heroImg?.alt ?? `${service.name} services in Newark and Essex County NJ`;
@@ -142,6 +148,7 @@ export function ServiceHero({ service, serviceGroups, benefits, directAnswer, h1
               variant="hero"
               defaultService={service.slug}
               serviceGroups={serviceGroups}
+              mobileCollapsed={minimizeFormOnMobile}
             />
           </div>
         </div>

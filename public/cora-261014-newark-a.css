@@ -1,0 +1,6 @@
+/* Roof Repair Newark restructure (Cora 261014): section shell + headings. */
+.nqr-rs { padding-top: 0.5rem; }
+.nqr-rs-h2 { position: relative; padding-bottom: 0.6rem; }
+.nqr-rs-h2::after { content: ""; position: absolute; left: 0; bottom: 0; width: 3.5rem; height: 3px; background: #bc6c25; border-radius: 2px; }
+.nqr-rs-lead { font-size: 1.075rem; line-height: 1.75; }
+.nqr-rs p { line-height: 1.75; }

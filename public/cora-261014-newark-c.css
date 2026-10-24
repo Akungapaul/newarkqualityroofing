@@ -1,0 +1,4 @@
+/* Roof Repair Newark restructure: the three proof blocks (Why). */
+.nqr-proof { border-left: 4px solid #bc6c25; padding-left: 1.4rem; margin-top: 2.75rem; }
+.nqr-proof p { max-width: 46rem; }
+.nqr-proof .nqr-rs-h2::after { display: none; }

@@ -1,0 +1,5 @@
+/* Roof Repair Newark restructure: body image frame + h-card block. */
+.nqr-rs-img { border-radius: 0.75rem; margin: 1.4rem 0; }
+.nqr-hcard { margin-top: 2.5rem; border-top: 1px solid rgba(27, 58, 44, 0.15); padding-top: 1.25rem; }
+.nqr-hcard .fn { font-weight: 700; color: #1b3a2c; }
+.nqr-hcard a { color: #9a5b1d; }

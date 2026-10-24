@@ -1,0 +1,6 @@
+/* Roof Repair Newark restructure: process steps (How). */
+.nqr-steps { counter-reset: nqr-step; display: grid; gap: 1.25rem; margin-top: 1.5rem; }
+@media (min-width: 768px) { .nqr-steps { grid-template-columns: 1fr 1fr; } }
+.nqr-step { counter-increment: nqr-step; border-top: 3px solid #1b3a2c; padding-top: 0.9rem; }
+.nqr-step h3::before { content: counter(nqr-step) ". "; color: #bc6c25; }
+.nqr-step p { margin-top: 0.4rem; }

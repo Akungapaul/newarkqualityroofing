@@ -1,0 +1,4 @@
+/* Roof Repair Newark restructure: costs block. */
+.nqr-costs { background: #f7f3ea; border-radius: 0.75rem; padding: 1.5rem 1.6rem; }
+.nqr-costs strong { color: #1b3a2c; }
+.nqr-costs p:last-child { margin-bottom: 0; }
