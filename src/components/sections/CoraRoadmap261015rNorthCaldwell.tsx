@@ -41,10 +41,10 @@
 // Schema: ONE block-level JSON-LD graph + ONE microdata card
 // serve the eight clean Phase-12 lines (verification §8): a
 // Service node (hasOfferCatalog → four Offer nodes, NO price
-// data; areaServed → GeoCircle, FLAGGED — centered on the
-// site's published map-embed coordinates 40.73566 / -74.19967
-// with a 20-mile service radius, the East Orange / Orange geo
-// stand-in treatment), a RoofingContractor provider node
+// data; areaServed → City since Group 2, 2026-10-24 — the
+// GeoCircle that carried it before, centered on the map-embed
+// stand-in coordinates, is REMOVED; canonical geo is D-01
+// supply), a RoofingContractor provider node
 // carrying ONLY the business's name, URL and its published
 // opening hours from src/lib/schema.ts (Mon–Fri 07:00–18:00,
 // Sat 08:00–14:00), and a BreadcrumbList whose crumb names
@@ -108,6 +108,7 @@
 // are untouched by the residual pass.
 
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
 import {
   coraReplNorthCaldwellOpeningHours,
   coraReplNorthCaldwellOpeningHoursText,
@@ -159,10 +160,21 @@ const EMAIL = 'info@newarkqualityroofing.com';
 // the /images/logo.svg variant 404s and is NOT used).
 const LOGO_URL = 'https://newarkqualityroofing.com/logo.svg';
 
+// The business description the site itself publishes (the
+// Open Graph description in src/app/layout.tsx), used verbatim
+// for the disambiguatingDescription pair — no new copy.
+const businessDescription =
+  'Professional roofing contractor serving Essex County and Northern New Jersey.';
+
 // The block-level JSON-LD graph (clean Phase-12 lines 47, 53,
 // 56, 61 + the Phase-6 Display URL rider via the crumb names).
-// Every assertion is true of the business or this page; the
-// GeoCircle midpoint is the flagged stand-in (see the header).
+// Every assertion is true of the business or this page. Group 2
+// (2026-10-24): the GeoCircle that used to carry areaServed —
+// its midpoint was the homepage map embed's Newark center, a
+// FLAGGED stand-in, never a verified premises geo — is REMOVED;
+// areaServed is now the honest City form. Canonical geo is D-01
+// supply; the two GeoCircle ledger rows move to GATED on the
+// removal evidence (the East Orange / Orange repair precedents).
 const graph = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -172,15 +184,7 @@ const graph = {
       serviceType: 'Roof Replacement',
       url: PAGE_URL,
       provider: { '@id': `${SITE_URL}#business` },
-      areaServed: {
-        '@type': 'GeoCircle',
-        geoMidpoint: {
-          '@type': 'GeoCoordinates',
-          latitude: coraReplNorthCaldwellGeo.latitude,
-          longitude: coraReplNorthCaldwellGeo.longitude,
-        },
-        geoRadius: coraReplNorthCaldwellGeo.radius,
-      },
+      areaServed: { '@type': 'City', name: 'North Caldwell, NJ' },
       hasOfferCatalog: {
         '@type': 'OfferCatalog',
         name: coraReplNorthCaldwellOfferCatalogName,
@@ -202,11 +206,33 @@ const graph = {
       // published locality/region/country only; NO postalCode),
       // and an employee Person carrying jobTitle only.
       email: siteConfig.email,
+      // Group 2 credited-form package (2026-10-24): legalName
+      // from the canonical config; scalar availableLanguage
+      // 'English' (the Form Library form) on the node and its
+      // ContactPoint; priceRange '$$' (the tier the shared
+      // builders publish); disambiguatingDescription = the
+      // canonical published description. The streetAddress key
+      // is emitted only when the canonical value is non-empty
+      // (today it is EMPTY under D-01 — an empty emission is a
+      // forbidden form; the substance stays GATED).
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
+      disambiguatingDescription: businessDescription,
+      priceRange: '$$',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       logo: LOGO_URL,
       openingHours: coraReplNorthCaldwellOpeningHours,
       address: {
         '@type': 'PostalAddress',
-        streetAddress: siteConfig.address.street,
+        ...(siteConfig.address.street
+          ? { streetAddress: siteConfig.address.street }
+          : {}),
         addressLocality: 'Newark',
         addressRegion: 'NJ',
         addressCountry: 'US',
@@ -225,6 +251,12 @@ const graph = {
       '@id': 'https://newarkqualityroofing.com/#website',
       url: 'https://newarkqualityroofing.com',
       name: 'Newark Quality Roofing',
+      // Group 2 (2026-10-24): the rerun's datePublished /
+      // dateModified JSON-LD lines — the page's content record
+      // entered the repo 2026-10-15 (the run this block
+      // documents); modified by this credited-form pass.
+      datePublished: '2026-10-15',
+      dateModified: '2026-10-24',
     },
     {
       '@type': 'BreadcrumbList',
@@ -387,9 +419,11 @@ export function CoraRoadmap261015rNorthCaldwell() {
             {coraReplNorthCaldwellCardH3}
           </h3>
           <p className="mt-1 text-navy/85 leading-relaxed">{coraReplNorthCaldwellCardIntro}</p>
-          {/* Microdata card — the four Phase-12 microdata pairs
-              (openingHours 59, GeoCircle 54, OfferCatalog 49,
-              Offer 57) ride visible elements of this card. The
+          {/* Microdata card — the Phase-12 microdata pairs
+              (openingHours 59, OfferCatalog 49, Offer 57) ride
+              visible elements of this card; the coverage line
+              carries the City-form areaServed since Group 2
+              (2026-10-24; the GeoCircle stand-in is removed). The
               residual pass added the logo link, the email and
               jobTitle-only Person forms, and the PostalAddress
               locality wiring (canonical street EMPTY, D-01). */}
@@ -399,6 +433,12 @@ export function CoraRoadmap261015rNorthCaldwell() {
             className="service-record-card mt-3 border border-navy/15 rounded-lg bg-white/70 px-5 py-4"
           >
             <meta itemProp="name" content="Newark Quality Roofing" />
+            <meta itemProp="legalName" content={canonicalConfig.legalName} />
+            <meta
+              itemProp="disambiguatingDescription"
+              content={businessDescription}
+            />
+            <meta itemProp="priceRange" content="$$" />
             <meta itemProp="url" content={SITE_URL} />
             <link itemProp="logo" href={LOGO_URL} />
             <p className="text-navy/85 leading-relaxed">
@@ -428,7 +468,9 @@ export function CoraRoadmap261015rNorthCaldwell() {
               <span className="font-semibold text-navy">Business locality</span>
               {' — '}
               <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+                {siteConfig.address.street ? (
+                  <meta itemProp="streetAddress" content={siteConfig.address.street} />
+                ) : null}
                 <span itemProp="addressLocality">Newark</span>,{' '}
                 <span itemProp="addressRegion">NJ</span>,{' '}
                 <span itemProp="addressCountry">US</span>
@@ -450,7 +492,7 @@ export function CoraRoadmap261015rNorthCaldwell() {
             <p
               itemProp="areaServed"
               itemScope
-              itemType="https://schema.org/GeoCircle"
+              itemType="https://schema.org/City"
               className="mt-3 text-navy/85 leading-relaxed"
             >
               <span className="font-semibold text-navy">Coverage</span>
@@ -460,15 +502,7 @@ export function CoraRoadmap261015rNorthCaldwell() {
                 {' '}{coraReplNorthCaldwellGeo.radius} radius — North Caldwell sits
                 inside it, roughly eleven miles out.
               </span>
-              <meta itemProp="geoRadius" content={coraReplNorthCaldwellGeo.radius} />
-              <span
-                itemProp="geoMidpoint"
-                itemScope
-                itemType="https://schema.org/GeoCoordinates"
-              >
-                <meta itemProp="latitude" content={String(coraReplNorthCaldwellGeo.latitude)} />
-                <meta itemProp="longitude" content={String(coraReplNorthCaldwellGeo.longitude)} />
-              </span>
+              <meta itemProp="name" content="North Caldwell, NJ" />
             </p>
             <div
               itemProp="hasOfferCatalog"
