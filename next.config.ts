@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
       // ── Canonical host (2026-09-16): the Vercel production alias served the site as a
       //    second, indexable copy. Send it to the custom domain. ──
       { source: "/:path*", has: [{ type: "host", value: "newarkqualityroofing.vercel.app" }], destination: "https://newarkqualityroofing.com/:path*", permanent: true },
-      // ── City slug migration: roofing-in-{city}-nj -> roof-repair-and-installation-in-{city}-nj (21) ──
+      // ── City slug migration: roofing-in-{city}-nj -> roof-repair-and-installation-{city}-nj (21; destinations repointed to the exact slugs by the 2026-10-24 Rule 7 flip) ──
       { source: "/roofing-in-newark-nj", destination: "/roof-repair-and-installation-newark-nj", permanent: true },
       { source: "/roofing-in-east-orange-nj", destination: "/roof-repair-and-installation-east-orange-nj", permanent: true },
       { source: "/roofing-in-orange-nj", destination: "/roof-repair-and-installation-orange-nj", permanent: true },
@@ -34,10 +34,10 @@ const nextConfig: NextConfig = {
       { source: "/roofing-in-fairfield-nj", destination: "/roof-repair-and-installation-fairfield-nj", permanent: true },
       { source: "/roofing-in-north-caldwell-nj", destination: "/roof-repair-and-installation-north-caldwell-nj", permanent: true },
       { source: "/roofing-in-roseland-nj", destination: "/roof-repair-and-installation-roseland-nj", permanent: true },
-      // ── Service slug migration: /{service} -> /{service}-in-newark-nj (65) ──
-      // Service hubs moved to a local-intent URL parallel to the city pages, so
-      // they read distinctly from the combo "{service}-{city}-nj" pattern. The
-      // Newark combos (URL-Classification.csv) 301 straight to these new slugs.
+      // ── Service slug migration: /{service} -> /{service}-newark-nj (65) ──
+      // Originally pointed at the "-in-" hub slugs; repointed directly at the
+      // exact slugs by the 2026-10-24 Rule 7 flip so no source chains through
+      // a retired URL.
       { source: "/aging-roof-replacement", destination: "/aging-roof-replacement-newark-nj", permanent: true },
       { source: "/asphalt-shingle-roof-replacement", destination: "/asphalt-shingle-roof-replacement-newark-nj", permanent: true },
       { source: "/asphalt-shingle-roofing", destination: "/asphalt-shingle-roofing-newark-nj", permanent: true },
