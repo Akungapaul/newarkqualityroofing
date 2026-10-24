@@ -58,6 +58,7 @@ import { CoraRoadmap261015rEssexFells } from '@/components/sections/CoraRoadmap2
 import { CoraRoadmap261015rMaplewood } from '@/components/sections/CoraRoadmap261015rMaplewood';
 import { CoraRoadmap261015rFairfield } from '@/components/sections/CoraRoadmap261015rFairfield';
 import { CoraRoadmap261015rOrange } from '@/components/sections/CoraRoadmap261015rOrange';
+import { CoraRoadmap261023Orange } from '@/components/sections/CoraRoadmap261023Orange';
 import { CoraRoadmap261015rWestOrange } from '@/components/sections/CoraRoadmap261015rWestOrange';
 import { CoraRoadmap261022WestOrange } from '@/components/sections/CoraRoadmap261022WestOrange';
 import { CoraRoadmap261023WestOrange } from '@/components/sections/CoraRoadmap261023WestOrange';
@@ -476,6 +477,11 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           pass against the replacement keyword); every other combo is
           unchanged. */}
       {service.id === 'roof-replacement' && city.id === 'orange' && <CoraRoadmap261015rOrange />}
+
+      {/* CORA 261023 rerun block — rendered ONLY for the
+          roof-replacement x orange combo, alongside the 261015r
+          block above; every other combo is unchanged. */}
+      {service.id === 'roof-replacement' && city.id === 'orange' && <CoraRoadmap261023Orange />}
 
       {/* CORA 2026-10-15 REPLACEMENT supplemental block — rendered ONLY for
           the roof-replacement x west-orange combo (this page's first Cora
