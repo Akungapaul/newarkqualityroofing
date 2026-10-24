@@ -129,10 +129,12 @@ import {
   coraReplMillburnTitle,
 } from '@/data/cora-261014r-millburn-content';
 import {
-  coraReplEastOrangeMetaDescription,
   coraReplEastOrangeMetaKeywords,
-  coraReplEastOrangeTitle,
 } from '@/data/cora-261014r-east-orange-content';
+import {
+  coraReplEastOrangeMetaDescription261023 as coraReplEastOrangeMetaDescription,
+  coraReplEastOrangeTitle261023 as coraReplEastOrangeTitle,
+} from '@/data/cora-261023-east-orange-content';
 import {
   coraReplGlenRidgeMetaDescription,
   coraReplGlenRidgeMetaKeywords,
