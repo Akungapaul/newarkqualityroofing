@@ -89,6 +89,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraMillburnBlockIntro,
   coraMillburnBlockSummary,
@@ -131,10 +133,25 @@ const pageUrl = 'https://newarkqualityroofing.com/roof-repair-millburn-nj';
 const millburnSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
+    buildRoofingContractorNodeSchema(),
     {
       '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      // Group 2 credited-form package (2026-10-24): legalName
+      // from the canonical config; the published email on the
+      // business node itself (the roadmap's email line);
+      // scalar availableLanguage 'English' + ContactPoint.
+      legalName: canonicalConfig.legalName,
+      email: siteConfig.email,
+      availableLanguage: 'English',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       url: pageUrl,
       telephone: siteConfig.phone.tel,
       mainEntityOfPage: { '@id': pageUrl },
@@ -166,6 +183,16 @@ const millburnSchemaGraph = {
       serviceType: 'Roof repair',
       provider: { '@id': `${pageUrl}#localbusiness` },
       mainEntityOfPage: { '@id': pageUrl },
+      // Group 2 (2026-10-24): the roadmap's Offer line — the
+      // one priced offer the business genuinely publishes
+      // (the Montclair credited form).
+      makesOffer: {
+        '@type': 'Offer',
+        name: 'Free roof inspection and written estimate',
+        price: '0',
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+      },
       areaServed: { '@type': 'City', name: 'Millburn, NJ' },
     },
     {
@@ -293,6 +320,14 @@ export function CoraRoadmap261014Millburn() {
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
           <meta itemProp="telephone" content={siteConfig.phone.tel} />
+          <meta itemProp="legalName" content={canonicalConfig.legalName} />
+          <meta itemProp="email" content={siteConfig.email} />
+          <span itemProp="areaServed" itemScope itemType="https://schema.org/State">
+            <meta itemProp="name" content="New Jersey" />
+          </span>
+          <span itemProp="makesOffer" itemScope itemType="https://schema.org/Offer">
+            <meta itemProp="name" content="Free roof inspection and written estimate" />
+          </span>
           <p className={pClass}>
             <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
             <u>roof repair in Millburn, NJ</u> and across Essex County from{' '}
