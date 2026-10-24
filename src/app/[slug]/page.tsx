@@ -188,6 +188,10 @@ import {
   coraReplBloomfieldTitle,
 } from '@/data/cora-261015r-bloomfield-content';
 import {
+  coraReplBloomfieldMetaDescription261023,
+  coraReplBloomfieldTitle261023,
+} from '@/data/cora-261023-bloomfield-content';
+import {
   coraReplRoselandMetaDescription,
   coraReplRoselandMetaKeywords,
   coraReplRoselandTitle,
@@ -795,8 +799,13 @@ export async function generateMetadata({
       // pass's isCoraBloomfield on the sibling repair slug.)
       const isCoraReplBloomfield = combo.slug === 'roof-replacement-bloomfield-nj';
       if (isCoraReplBloomfield) {
-        comboTitle = coraReplBloomfieldTitle;
-        comboDescription = coraReplBloomfieldMetaDescription;
+        // 261023 rerun (2026-10-24): title and description
+        // repointed to the 261023 exports (preserving the
+        // 261015r forms they already served); keywords stay
+        // on the 261015r export. See
+        // src/data/cora-261023-bloomfield-content.ts.
+        comboTitle = coraReplBloomfieldTitle261023;
+        comboDescription = coraReplBloomfieldMetaDescription261023;
       }
       // CORA 2026-10-15 REPLACEMENT phrase pass (Roseland only,
       // this page's FIRST pass against the replacement keyword):
