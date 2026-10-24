@@ -169,6 +169,18 @@ const navNode = {
   itemListElement: directoryLinks.slice(0, 21).map((l) => l.href),
 };
 
+// Group 2 (2026-10-24): the 261014 roadmap's datePublished
+// pair — this page's replacement record entered the repo
+// 2026-10-15 (the 261014r pass); the microdata twin rides
+// the standard WebPage shell on the section below.
+const webPageNode = {
+  '@type': 'WebPage',
+  '@id': PAGE_URL,
+  url: PAGE_URL,
+  name: 'Roof Replacement East Orange, NJ',
+  datePublished: '2026-10-15',
+};
+
 const CSS_FILES = Array.from({ length: 69 }, (_, i) => `/cora-261023-east-orange-${String(i + 1).padStart(2, '0')}.css`);
 
 // H3 distribution across the 7 H2 sections: 3,3,3,3,3,2,2 = 19.
@@ -203,7 +215,12 @@ export function CoraRoadmap261023EastOrange() {
     <section
       aria-label="Roof replacement in East Orange, NJ — 261023 city record, roofer's register, service directory and business record"
       className="cora-261023-east-orange-record bg-cream py-14"
+      itemScope
+      itemType="https://schema.org/WebPage"
     >
+      <meta itemProp="name" content="Roof Replacement East Orange, NJ" />
+      <meta itemProp="url" content={PAGE_URL} />
+      <meta itemProp="datePublished" content="2026-10-15" />
       {CSS_FILES.map((href) => (
         <link key={href} rel="stylesheet" href={href} />
       ))}
@@ -212,7 +229,7 @@ export function CoraRoadmap261023EastOrange() {
       <JsonLd
         data={{
           '@context': 'https://schema.org',
-          '@graph': [contractorNode, serviceNode, catalogNode, breadcrumbNode, navNode],
+          '@graph': [contractorNode, serviceNode, catalogNode, breadcrumbNode, navNode, webPageNode],
         }}
       />
       <div className="container mx-auto px-4 max-w-4xl">
