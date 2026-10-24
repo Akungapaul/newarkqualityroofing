@@ -148,7 +148,6 @@ import {
   coraReplNewarkFieldNotesHeading,
   coraReplNewarkFieldNotesIntro,
   coraReplNewarkGalleryImages,
-  coraReplNewarkGeo,
   coraReplNewarkGuideH2,
   coraReplNewarkGuideIntro,
   coraReplNewarkPhotoH3,
@@ -200,16 +199,13 @@ const replNewarkSchemaGraph = {
       url: pageUrl,
       mainEntityOfPage: { '@id': pageUrl },
       availableLanguage: 'English',
-      // RESIDUAL 261015 — the geo pair, JLD form.
-      areaServed: {
-        '@type': 'GeoCircle',
-        geoMidpoint: {
-          '@type': 'GeoCoordinates',
-          latitude: coraReplNewarkGeo.latitude,
-          longitude: coraReplNewarkGeo.longitude,
-        },
-        geoRadius: coraReplNewarkGeo.radius,
-      },
+      // Group 2 (2026-10-24): this was a GeoCircle whose
+      // geoMidpoint carried the homepage map embed's Newark
+      // center — a FLAGGED stand-in, not a verified premises
+      // geo. REMOVED; areaServed is the honest City form.
+      // Canonical geo is D-01 supply; the GeoCoordinates pair
+      // moves to GATED on the removal evidence.
+      areaServed: { '@type': 'City', name: 'Newark, NJ' },
     },
     {
       // RESIDUAL 261015 — the FAQ JLD family (Question /
@@ -264,6 +260,18 @@ const replNewarkSchemaGraph = {
       url: 'https://newarkqualityroofing.com',
       name: 'Newark Quality Roofing',
     },
+    // Group 2 (2026-10-24): the 261014 ImageObject line — one
+    // ImageObject node per gallery image this block renders,
+    // generated from the same data array as the figures, so the
+    // markup can never drift from the served images (all srcs
+    // HEAD-verified live at build time).
+    ...coraReplNewarkGalleryImages.map((image) => ({
+      '@type': 'ImageObject',
+      contentUrl: `https://newarkqualityroofing.com${image.src}`,
+      url: `https://newarkqualityroofing.com${image.src}`,
+      name: image.alt,
+      caption: image.caption,
+    })),
   ],
 };
 
@@ -315,14 +323,19 @@ export function CoraRoadmap261014rNewark() {
 
         <h3 className={h3Class}>{coraReplNewarkQuestionsH3}</h3>
         {coraReplNewarkQuestions.map((q) => (
-          <div key={q.h3.slice(0, 32)}>
-            <h3 className={h3Class}>{q.h3}</h3>
-            <p className={pClass}>{q.p}</p>
+          <div key={q.h3.slice(0, 32)} itemScope itemType="https://schema.org/Question">
+            <h3 className={h3Class} itemProp="name">{q.h3}</h3>
+            <span itemProp="acceptedAnswer" itemScope itemType="https://schema.org/Answer">
+              <p className={pClass} itemProp="text">{q.p}</p>
+            </span>
           </div>
         ))}
         {coraReplNewarkFaqEntries.map((entry) => (
-          <p key={entry.q.slice(0, 32)} className={pClass}>
-            <strong>{entry.q}</strong> {entry.a}
+          <p key={entry.q.slice(0, 32)} className={pClass} itemScope itemType="https://schema.org/Question">
+            <strong itemProp="name">{entry.q}</strong>{' '}
+            <span itemProp="acceptedAnswer" itemScope itemType="https://schema.org/Answer">
+              <span itemProp="text">{entry.a}</span>
+            </span>
           </p>
         ))}
 
@@ -370,28 +383,18 @@ export function CoraRoadmap261014rNewark() {
             <span itemProp="availableLanguage">English</span>, and this page is the
             office&rsquo;s home record for the service — the city is where the
             business is based, not one stop on a route.{' '}
-            {/* RESIDUAL 261015 — the geo pair, microdata form:
-                an itemscope GeoCircle areaServed whose
-                geoMidpoint is an itemscope GeoCoordinates,
-                inside this Service item. Coordinates are the
-                flagged map-embed stand-in (see the data
-                file); the visible sentence is the value's
-                genuine context. */}
+            {/* Group 2 (2026-10-24) — the geo pair's microdata
+                form was an itemscope GeoCircle whose geoMidpoint
+                carried the flagged map-embed stand-in; REMOVED.
+                The areaServed is now a City itemscope; the
+                visible sentence is unchanged. */}
             <span
               itemProp="areaServed"
               itemScope
-              itemType="https://schema.org/GeoCircle"
+              itemType="https://schema.org/City"
             >
               {coraReplNewarkCoverageLine}
-              <meta itemProp="geoRadius" content={coraReplNewarkGeo.radius} />
-              <span
-                itemProp="geoMidpoint"
-                itemScope
-                itemType="https://schema.org/GeoCoordinates"
-              >
-                <meta itemProp="latitude" content={String(coraReplNewarkGeo.latitude)} />
-                <meta itemProp="longitude" content={String(coraReplNewarkGeo.longitude)} />
-              </span>
+              <meta itemProp="name" content="Newark, NJ" />
             </span>
           </p>
           <p className={pClass}>{coraReplNewarkCopyrightLine}</p>

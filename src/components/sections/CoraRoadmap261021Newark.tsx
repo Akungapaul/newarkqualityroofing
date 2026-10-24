@@ -376,7 +376,12 @@ export function CoraRoadmap261021Newark() {
           id="roofing-company-newark-nj-card"
         >
           <p className="font-body text-base leading-relaxed text-slate-700">
-            <span itemProp="name">Newark Quality Roofing</span> is the roofing contractor behind
+            <span itemProp="name">Newark Quality Roofing</span>
+            <meta itemProp="legalName" content="Newark Quality Roofing" />
+            <span itemScope itemType="https://schema.org/Person">
+              <meta itemProp="jobTitle" content="Roofing Contractor" />
+            </span>{' '}
+            is the roofing contractor behind
             this page:{' '}
             <a itemProp="url" href="https://newarkqualityroofing.com/">
               newarkqualityroofing.com
