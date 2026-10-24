@@ -496,6 +496,10 @@ export function CoraRoadmap261012EastOrange() {
           <link itemProp="logo" href={businessLogoUrl} />
           <link itemProp="hasMap" href={businessMapsUrl} />
           <meta itemProp="priceRange" content="$$" />
+          <span itemScope itemType="https://schema.org/LocalBusiness">
+            <meta itemProp="name" content="Newark Quality Roofing" />
+            <meta itemProp="url" content="https://newarkqualityroofing.com" />
+          </span>
           <span itemProp="areaServed" itemScope itemType="https://schema.org/State">
             <meta itemProp="name" content="New Jersey" />
           </span>
