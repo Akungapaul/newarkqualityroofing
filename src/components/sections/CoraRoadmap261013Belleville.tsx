@@ -60,7 +60,8 @@
 //     area-served items). NO hasMap — none was roadmapped for
 //     Belleville (Overview goal 0). NO AggregateRating — this
 //     roadmap has no rating lines and the gate stays off (D-01).
-//     Street address carries the config value — EMPTY by D-01.
+//     Street address key omitted while the config value is EMPTY
+//     (D-01; Group 2 credited-form fix, 2026-10-24).
 //   - HTML Comment Variations +3 (clean 51, adjusted from +5;
 //     included under Paul's overnight rulebook — the standard
 //     gray-zone shape): the two boundary comments rendered via
@@ -84,6 +85,8 @@
 import { Fragment } from 'react';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraBellevilleBlockIntro,
   coraBellevilleBlockSummary,
@@ -123,6 +126,21 @@ const pageUrl = 'https://newarkqualityroofing.com/roof-repair-belleville-nj';
 // PostalAddress properties and the areaServed City / State types
 // (the shapes the setters' graphs carry). NO hasMap — none was
 // roadmapped for Belleville. No rating node of any kind.
+//
+// Group 2 credited-form fix (2026-10-24, master ledger fix queue):
+// Cora's parser does not read array-valued @type or array-valued
+// availableLanguage (Form Library — both forms read 0 on the West
+// Orange rerun), and the empty streetAddress string is a forbidden
+// form under D-01. This graph now ALSO carries the dedicated
+// plain-string RoofingContractor node from src/lib/schema.ts (the
+// Group 1 credited form; the array-typed node above stays — its
+// 'LocalBusiness' token serves a separate literal-match family),
+// legalName from the canonical config, scalar availableLanguage
+// 'English' on the business node and its ContactPoint, and the
+// streetAddress key is omitted while the canonical street is empty
+// (the buildPostalAddress omit-when-empty pattern). The h-card
+// carries the legalName microdata twin and drops its empty
+// streetAddress meta the same way.
 const bellevilleSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -130,6 +148,8 @@ const bellevilleSchemaGraph = {
       '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
       url: pageUrl,
       email: siteConfig.email,
       telephone: siteConfig.phone.tel,
@@ -139,11 +159,13 @@ const bellevilleSchemaGraph = {
         telephone: siteConfig.phone.tel,
         contactType: 'customer service',
         areaServed: 'US',
-        availableLanguage: ['English'],
+        availableLanguage: 'English',
       },
       address: {
         '@type': 'PostalAddress',
-        streetAddress: siteConfig.address.street,
+        ...(siteConfig.address.street
+          ? { streetAddress: siteConfig.address.street }
+          : {}),
         addressLocality: 'Newark',
         addressRegion: 'NJ',
         addressCountry: 'US',
@@ -155,6 +177,7 @@ const bellevilleSchemaGraph = {
         { '@type': 'GeoShape', postalCode: '07109', addressCountry: 'US' },
       ],
     },
+    buildRoofingContractorNodeSchema(),
     {
       '@type': 'WebPage',
       '@id': pageUrl,
@@ -302,7 +325,8 @@ export function CoraRoadmap261013Belleville() {
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
           <p className={pClass}>
-            <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
+            <span className="p-name" itemProp="name">Newark Quality Roofing</span>
+            <meta itemProp="legalName" content={canonicalConfig.legalName} /> provides{' '}
             <u>roof repair in Belleville, NJ</u> and across Essex County from{' '}
             <a className="u-url" href={pageUrl}>the Belleville roof repair page</a>.
             Write to{' '}
@@ -319,7 +343,9 @@ export function CoraRoadmap261013Belleville() {
             </span>{' '}
             — the same number printed on every written estimate — and keeps the record at{' '}
             <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-              <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              {siteConfig.address.street ? (
+                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              ) : null}
               <span itemProp="addressLocality">Newark</span>,{' '}
               <span itemProp="addressRegion">NJ</span>,{' '}
               <span itemProp="addressCountry">US</span>
