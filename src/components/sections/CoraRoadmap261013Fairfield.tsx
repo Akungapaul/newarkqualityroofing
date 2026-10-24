@@ -91,6 +91,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraFairfieldBlockIntro,
   coraFairfieldBlockSummary,
@@ -138,10 +140,38 @@ const businessLogoUrl = 'https://newarkqualityroofing.com/logo.svg';
 const fairfieldSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
+    buildRoofingContractorNodeSchema(),
     {
       '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      // Group 2 credited-form package (2026-10-24): legalName
+      // from the canonical config; scalar availableLanguage
+      // 'English' + ContactPoint; the roadmap's dayOfWeek
+      // line rides the site's published hours.
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
+      openingHoursSpecification: [
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          opens: '07:00',
+          closes: '18:00',
+        },
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: 'Saturday',
+          opens: '08:00',
+          closes: '14:00',
+        },
+      ],
       url: pageUrl,
       email: siteConfig.email,
       telephone: siteConfig.phone.tel,
@@ -287,6 +317,22 @@ export function CoraRoadmap261013Fairfield() {
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
           <link itemProp="logo" href={businessLogoUrl} />
           <meta itemProp="telephone" content={siteConfig.phone.tel} />
+          <meta itemProp="legalName" content={canonicalConfig.legalName} />
+          <meta itemProp="availableLanguage" content="English" />
+          <span itemProp="openingHoursSpecification" itemScope itemType="https://schema.org/OpeningHoursSpecification">
+            <meta itemProp="dayOfWeek" content="Monday" />
+            <meta itemProp="dayOfWeek" content="Tuesday" />
+            <meta itemProp="dayOfWeek" content="Wednesday" />
+            <meta itemProp="dayOfWeek" content="Thursday" />
+            <meta itemProp="dayOfWeek" content="Friday" />
+            <meta itemProp="opens" content="07:00" />
+            <meta itemProp="closes" content="18:00" />
+          </span>
+          <span itemProp="openingHoursSpecification" itemScope itemType="https://schema.org/OpeningHoursSpecification">
+            <meta itemProp="dayOfWeek" content="Saturday" />
+            <meta itemProp="opens" content="08:00" />
+            <meta itemProp="closes" content="14:00" />
+          </span>
           <p className={pClass}>
             <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
             <u>roof repair in Fairfield, NJ</u> and across Essex County from{' '}
