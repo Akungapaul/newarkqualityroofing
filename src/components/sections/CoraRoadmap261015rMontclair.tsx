@@ -141,6 +141,11 @@ const graph = {
       '@type': 'WebPage',
       url: PAGE_URL,
       name: 'Roof Replacement Montclair, NJ',
+      // Group 2 (2026-10-24): the roadmap's datePublished
+      // line — this page's replacement record entered the
+      // repo 2026-10-15 (the run this block documents); the
+      // microdata twin rides the new WebPage shell below.
+      datePublished: '2026-10-15',
       inLanguage: 'en-US',
       keywords: coraReplMontclairGraph.webPageKeywords,
     },
@@ -190,7 +195,12 @@ export function CoraRoadmap261015rMontclair() {
     <section
       aria-label="Roof replacement in Montclair, NJ — extended guide, service log, photo record, and field notes"
       className="cora-261015r-montclair-record roof replacement montclair nj record bg-cream py-14"
+      itemScope
+      itemType="https://schema.org/WebPage"
     >
+      <meta itemProp="name" content="Roof Replacement Montclair, NJ" />
+      <meta itemProp="url" content={PAGE_URL} />
+      <meta itemProp="datePublished" content="2026-10-15" />
       <style dangerouslySetInnerHTML={{ __html: BLOCK_CSS }} />
       <script
         type="application/ld+json"
