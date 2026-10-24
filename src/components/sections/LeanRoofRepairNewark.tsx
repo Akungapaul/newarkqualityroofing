@@ -9,6 +9,7 @@ import { siteConfig } from '@/data/site-config';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { NEWARK_REPAIR_GALLERY } from '@/data/roof-repair-newark-gallery';
 import { NEWARK_REPAIR_FAQS } from '@/data/roof-repair-newark-restructure';
+import { CoraRoadmap261024NewarkRepair } from '@/components/sections/CoraRoadmap261024NewarkRepair';
 
 // RESTRUCTURE 2026-10-23 (Paul's direction, on the lean test page): Paul
 // judged the lean page did not communicate to the customer and directed a
@@ -588,6 +589,14 @@ export function LeanRoofRepairNewark() {
           was removed here by the POP pass of 2026-10-24: POP report
           1982649 directed a reduction on this page, and the accordion was
           the largest single mass on it. */}
+
+      {/* CORA 261024 supplemental block (run 261024, measured on the
+          restructured page above): builds only the lines that do not
+          collide with the POP 1982649 targets - Entities in H3 +3,
+          'roof repair experts' +3, Blockquote +1, Style Tags +319,
+          Comment Tags +3. The colliding density lines are escalated
+          in cora-study-newark-repair-261024.md for Paul's ruling. */}
+      <CoraRoadmap261024NewarkRepair />
 
       {/* Microdata h-card kept from the removed Cora block: the business's
           real name, service area, phone and email in schema form. */}
