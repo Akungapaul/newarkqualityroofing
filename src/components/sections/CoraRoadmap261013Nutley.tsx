@@ -55,6 +55,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraNutleyBlockIntro,
   coraNutleyBlockSummary,
@@ -85,6 +87,18 @@ const pageUrl = 'https://newarkqualityroofing.com/roof-repair-nutley-nj';
 // by D-01 until the owner supplies a street address; nothing is
 // invented. This roadmap asks for no address/geo lines beyond
 // hasMap, so none are added beyond the pattern's scaffolding.
+//
+// Group 2 credited-form fix (2026-10-24, master ledger fix queue):
+// the dedicated plain-string RoofingContractor node from
+// src/lib/schema.ts joins this graph (array-valued @type reads 0 to
+// Cora's parser — Form Library; the array-typed node stays for its
+// LocalBusiness literal-match family); legalName from the canonical
+// config; scalar availableLanguage 'English' on the business node
+// and its ContactPoint (added in the credited shape — real published
+// telephone, contactType 'customer service'); the streetAddress key
+// is omitted while the canonical street is empty (the forbidden
+// empty-string form). The h-card gains the legalName twin and drops
+// its empty streetAddress meta the same way.
 const nutleySchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -92,13 +106,24 @@ const nutleySchemaGraph = {
       '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
       url: pageUrl,
       email: siteConfig.email,
       telephone: siteConfig.phone.tel,
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       hasMap: coraNutleyMapsUrl,
       address: {
         '@type': 'PostalAddress',
-        streetAddress: siteConfig.address.street,
+        ...(siteConfig.address.street
+          ? { streetAddress: siteConfig.address.street }
+          : {}),
         addressLocality: 'Newark',
         addressRegion: 'NJ',
         addressCountry: 'US',
@@ -109,6 +134,7 @@ const nutleySchemaGraph = {
         { '@type': 'GeoShape', postalCode: '07110', addressCountry: 'US' },
       ],
     },
+    buildRoofingContractorNodeSchema(),
     {
       '@type': 'WebPage',
       '@id': pageUrl,
@@ -209,7 +235,8 @@ export function CoraRoadmap261013Nutley() {
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
           <p className={pClass}>
-            <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
+            <span className="p-name" itemProp="name">Newark Quality Roofing</span>
+            <meta itemProp="legalName" content={canonicalConfig.legalName} /> provides{' '}
             <u>roof repair in Nutley, NJ</u> and across Essex County from{' '}
             <a className="u-url" href={pageUrl}>the Nutley roof repair page</a>. The office is on the
             map in the manufacturer references above
@@ -221,7 +248,9 @@ export function CoraRoadmap261013Nutley() {
           <p className={pClass}>
             The record is kept by Newark Quality Roofing,{' '}
             <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-              <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              {siteConfig.address.street ? (
+                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              ) : null}
               <span itemProp="addressLocality">Newark</span>,{' '}
               <span itemProp="addressRegion">NJ</span>,{' '}
               <span itemProp="addressCountry">US</span>
