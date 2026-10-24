@@ -19,7 +19,11 @@ const rawServices: Service[] = [
     shortDescription: 'Roofing repair and maintenance for leaks, missing shingles, and structural damage across Essex County.',
     // CORA 2026-09-26 lines 11/15: +29 chars and one more 'roof repair services'
     // variation in the search-result link text (title 144 -> 173 chars).
-    metaTitle: 'Roof Repair in Newark, NJ | Free Estimates | NQR',
+    // POP pass 2026-10-24 (report 1982649): title carries the contiguous
+    // phrase 'Roof Repair Newark NJ' (POP Must Use, was 0) while keeping the
+    // Free Estimates offer segment. Supersedes the Cora 2026-09-26 title on
+    // this page only, per Paul's direction.
+    metaTitle: 'Roof Repair Newark NJ | Free Estimates | NQR',
     // CORA 2026-09-26 lines 3/4/16: one more 'roof', the 'roof repair services'
     // phrase, and +10 chars of summary length (195 -> 226). Keep identical to
     // SERVICE_DESCRIPTION_OVERRIDES['roof-repair'] in src/lib/seo-utils.ts.

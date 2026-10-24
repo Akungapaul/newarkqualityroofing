@@ -10,12 +10,15 @@ export const repairMaintenanceContent: ServiceContent[] = [
     serviceId: 'roof-repair',
     heroBenefits: [
       'Roof leak repair traced to the failed flashing detail',
-      'Shingle repair, flat roof repair, and metal roof repair',
+      'Shingle repair and flat roof repair',
       'Registered and insured Essex County roofing contractor',
-      'Free written estimate before any repair begins',
+      'Free written scope before any repair begins',
     ],
+    // POP pass 2026-10-24 (report 1982649): trimmed to POP's main-content
+    // term ranges (drops the extra 'roof repair', 'estimate', 'replacement'
+    // occurrences); first sentence keeps the Rule 7 keyword in comma form.
     directAnswer:
-      "**Newark Quality Roofing provides roof repair in Newark, NJ**, including leak diagnosis, shingle replacement, flashing repairs, and flat-roof repairs; most repairs cost $350–$1,500; Request a free written estimate with the roof repair scope, materials, and price for your roof.",
+      "**Newark Quality Roofing provides roof repair in Newark, NJ**, including leak diagnosis, shingle and flashing work, and flat-roof repairs; most repairs run $350 to $1,500, and the price is fixed in a written scope before work begins.",
     definition:
       "**Roof repair** restores a roof’s weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof; it targets specific failure points to extend the service life of an otherwise sound roof. Newark Quality Roofing contractor provides professional installation for pitched roofs and siding contractors.Newark Quality Roofing understands the unique challenges of roof repair in Newark, NJ, where about 41% of housing units are located in multi-family buildings. These structures often share walls and roofing elements, making water leaks a concern that can affect multiple units simultaneously. Our team is experienced in coordinating repairs that minimize disruption to tenants and address the interconnected nature of multi-family roofs.",
     definitionExtra: [
