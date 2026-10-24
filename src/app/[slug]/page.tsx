@@ -203,7 +203,7 @@ import {
   coraReplOrangeMetaDescription,
   coraReplOrangeMetaKeywords,
   coraReplOrangeTitle,
-} from '@/data/cora-261015r-orange-content';
+} from '@/data/cora-261023-orange-content';
 import {
   coraReplWestOrangeMetaDescription,
   coraReplWestOrangeMetaKeywords,
@@ -1188,6 +1188,16 @@ export async function generateMetadata({
           // flagged in the verification file.
           ...(isCoraReplVerona
             ? { languages: { 'en-US': '/roof-replacement-verona-nj' } }
+            : {}),
+          // CORA 261023 rerun (Orange replacement only):
+          // Has RSS Link +1 (CP318, site-level factor) — the
+          // honest carrier is the site's real RSS feed at
+          // /feed.xml (generated from the site's own page
+          // inventory in src/app/feed.xml/route.ts), linked
+          // from this page's head. No other page's head
+          // changes.
+          ...(isCoraReplOrange
+            ? { types: { 'application/rss+xml': '/feed.xml' } }
             : {}),
         },
         robots: isNoindex(combo.slug)
