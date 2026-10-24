@@ -65,6 +65,8 @@
 import { Fragment } from 'react';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import { combos } from '@/data/combos';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
@@ -100,15 +102,15 @@ const pageUrl = 'https://newarkqualityroofing.com/roof-repair-east-orange-nj';
 
 // 2026-10-13 phrase pass, Phase 12 schema lines: the site's canonical
 // logo asset (the same /logo.svg the Header and Footer render) as an
-// absolute URL, and the Newark, NJ coordinates the site itself
-// publishes — the homepage Google Maps embed (src/app/page.tsx) is
-// centered at 40.73566, -74.19967 for "Newark, NJ". The canonical
-// config's geo fields are empty (owner-supplied values pending,
-// D-01); nothing here invents a business-premises coordinate — the
-// pair below is the site's own published Newark pair, flagged in the
-// change list for Paul to replace with canonical values.
+// absolute URL. Group 2 (2026-10-24): the map-embed coordinate pair
+// that used to sit here (businessGeo — the homepage embed's Newark
+// center, a FLAGGED stand-in, never a verified premises geo) is
+// REMOVED from this page's graph and card: canonical geo is D-01
+// supply, and the honest state until it is supplied is ABSENT. The
+// two GeoCoordinates ledger rows move to GATED (canonical geo
+// supply) on the removal evidence.
 const businessLogoUrl = 'https://newarkqualityroofing.com/logo.svg';
-const businessGeo = { latitude: 40.73566, longitude: -74.19967 };
+const businessMapsUrl = 'https://www.google.com/maps?q=Newark+Quality+Roofing,+Newark,+NJ';
 
 const serviceName = (id: string) => services.find((s) => s.id === id)?.name ?? id;
 const cityName = (id: string) => cities.find((c) => c.id === id)?.name ?? id;
@@ -234,20 +236,32 @@ const eastOrangeSchemaGraph = {
       // 2026-10-13 phrase pass: type order flipped to the canonical
       // most-specific-first order src/lib/schema.ts uses
       // (RoofingContractor before LocalBusiness), and the node gains
-      // logo + geo (GeoCoordinates) — see businessLogoUrl /
-      // businessGeo above and the change list for the served-HTML
-      // check behind these Phase 12 lines.
+      // logo — see businessLogoUrl above and the change list for the
+      // served-HTML check behind these Phase 12 lines.
+      // Group 2 (2026-10-24): the geo stand-in is removed (see the
+      // businessLogoUrl note); legalName + scalar availableLanguage +
+      // ContactPoint added in the credited shapes; priceRange '$$'
+      // (the tier the shared builders publish site-wide) and hasMap
+      // (query-URL form, batch precedent) serve the 261013 rerun rows
+      // no pass ever worked; the State node joins areaServed.
       '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
       url: pageUrl,
       email: siteConfig.email,
-      logo: businessLogoUrl,
-      geo: {
-        '@type': 'GeoCoordinates',
-        latitude: businessGeo.latitude,
-        longitude: businessGeo.longitude,
+      telephone: siteConfig.phone.tel,
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
       },
+      logo: businessLogoUrl,
+      priceRange: '$$',
+      hasMap: businessMapsUrl,
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Newark',
@@ -256,6 +270,7 @@ const eastOrangeSchemaGraph = {
       },
       areaServed: [
         { '@type': 'City', name: 'East Orange, NJ' },
+        { '@type': 'State', name: 'New Jersey' },
         { '@type': 'AdministrativeArea', name: 'Essex County, NJ' },
         { '@type': 'GeoShape', postalCode: '07017', addressCountry: 'US' },
         { '@type': 'GeoShape', postalCode: '07018', addressCountry: 'US' },
@@ -286,6 +301,17 @@ const eastOrangeSchemaGraph = {
           closes: '14:00',
         },
       ],
+    },
+    buildRoofingContractorNodeSchema(),
+    {
+      // Group 2 (2026-10-24): dedicated plain-string LocalBusiness
+      // node in the same credited shape as the shared builder's
+      // RoofingContractor node (name + URL) — Cora's parser does not
+      // read the array-valued @type on the business node above, which
+      // is why the 261013 rerun re-asked for both types.
+      '@type': 'LocalBusiness',
+      name: 'Newark Quality Roofing',
+      url: 'https://newarkqualityroofing.com',
     },
     {
       '@type': 'WebPage',
@@ -462,16 +488,20 @@ export function CoraRoadmap261012EastOrange() {
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
           {/* 2026-10-13 phrase pass, Phase 12 microdata pair: Schema
-              logo + Schema geocoordinates for this same business
-              node (values: the canonical logo asset and the site's
-              published Newark, NJ pair — see businessGeo note). */}
+              logo for this same business node (the canonical logo
+              asset). Group 2 (2026-10-24): the geocoordinates stand-in
+              span is removed (canonical geo is D-01 supply — absent
+              until supplied); legalName, priceRange, hasMap and the
+              areaServed State twins join the card. */}
           <link itemProp="logo" href={businessLogoUrl} />
-          <span itemProp="geo" itemScope itemType="https://schema.org/GeoCoordinates">
-            <meta itemProp="latitude" content={String(businessGeo.latitude)} />
-            <meta itemProp="longitude" content={String(businessGeo.longitude)} />
+          <link itemProp="hasMap" href={businessMapsUrl} />
+          <meta itemProp="priceRange" content="$$" />
+          <span itemProp="areaServed" itemScope itemType="https://schema.org/State">
+            <meta itemProp="name" content="New Jersey" />
           </span>
           <p className={vClass(7)}>
-            <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
+            <span className="p-name" itemProp="name">Newark Quality Roofing</span>
+            <meta itemProp="legalName" content={canonicalConfig.legalName} /> provides{' '}
             <u>roof repair in East Orange, NJ</u> and across Essex County from{' '}
             <a className="u-url" href={pageUrl}>the East Orange roof repair page</a>. Your contact on
             every East Orange job is the{' '}
