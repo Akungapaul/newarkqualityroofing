@@ -48,10 +48,8 @@
 //     a PostalAddress (locality/region/country ONLY — the
 //     street value stays the canonical empty D-01 value and the
 //     ZIP pair is held out under D-01), the published telephone
-//     from site config, the site's canonical logo asset, the
-//     geo pair on the site's OWN published map-embed
-//     coordinates (FLAGGED stand-in, East Orange precedent),
-//     and the opening-hours specification from the site's
+//     from site config, the site's canonical logo asset, and
+//     the opening-hours specification from the site's
 //     canonical config hours (Mon-Fri 07:00-18:00, Sat
 //     08:00-14:00 — the hours the site itself publishes); the
 //     h-card carries the microdata pairs. NO rating node of
@@ -73,6 +71,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraOrangeBlockIntro,
   coraOrangeBlockSummary,
@@ -93,17 +93,16 @@ import {
 const pageUrl = 'https://newarkqualityroofing.com/roof-repair-orange-nj';
 
 // The site's canonical logo asset (the same /logo.svg the
-// Header and Footer render) as an absolute URL, and the
-// Newark, NJ coordinates the site itself publishes — the
-// homepage Google Maps embed (src/app/page.tsx) is centered at
-// 40.73566, -74.19967 for "Newark, NJ". The canonical config's
-// geo fields are empty (owner-supplied values pending, D-01);
-// nothing here invents a business-premises coordinate — the
-// pair below is the site's own published Newark pair, flagged
-// in the change list for Paul to replace with canonical values
-// (the East Orange precedent).
+// Header and Footer render) as an absolute URL. Group 2
+// (2026-10-24): the map-embed coordinate pair that used to sit
+// here (the homepage embed's Newark center — a FLAGGED stand-in,
+// never a verified premises geo; the canonical config's geo
+// fields are empty under D-01) is REMOVED from this page's graph
+// and card. Canonical geo is D-01 supply; the honest state until
+// it is supplied is ABSENT. The two GeoCoordinates ledger rows
+// move to GATED on the removal evidence (the East Orange repair
+// precedent, PR #82).
 const businessLogoUrl = 'https://newarkqualityroofing.com/logo.svg';
-const businessGeo = { latitude: 40.73566, longitude: -74.19967 };
 
 // The opening hours the site itself publishes (canonical site
 // config + src/lib/schema.ts buildOpeningHours): Monday-Friday
@@ -143,16 +142,20 @@ const orangeSchemaGraph = {
       '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
       url: pageUrl,
       email: siteConfig.email,
       telephone: siteConfig.phone.tel,
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       logo: businessLogoUrl,
       mainEntityOfPage: { '@id': pageUrl },
-      geo: {
-        '@type': 'GeoCoordinates',
-        latitude: businessGeo.latitude,
-        longitude: businessGeo.longitude,
-      },
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Newark',
@@ -166,6 +169,7 @@ const orangeSchemaGraph = {
         { '@type': 'AdministrativeArea', name: 'Essex County, NJ' },
       ],
     },
+    buildRoofingContractorNodeSchema(),
     {
       '@type': 'WebPage',
       '@id': pageUrl,
@@ -284,7 +288,8 @@ export function CoraRoadmap261013Orange() {
           <link itemProp="logo" href={businessLogoUrl} />
           <meta itemProp="telephone" content={siteConfig.phone.tel} />
           <p className={pClass}>
-            <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
+            <span className="p-name" itemProp="name">Newark Quality Roofing</span>
+            <meta itemProp="legalName" content={canonicalConfig.legalName} /> provides{' '}
             <u>roof repair in Orange, NJ</u> and across Essex County from{' '}
             <a className="u-url" href={pageUrl}>the Orange roof repair page</a>.
             Write to{' '}
@@ -299,11 +304,7 @@ export function CoraRoadmap261013Orange() {
               <span itemProp="addressCountry">US</span>
             </span>{' '}
             — the Newark base the site publishes, at the map point the site itself uses,{' '}
-            <span itemProp="geo" itemScope itemType="https://schema.org/GeoCoordinates">
-              <meta itemProp="latitude" content={String(businessGeo.latitude)} />
-              <meta itemProp="longitude" content={String(businessGeo.longitude)} />
-              Newark, New Jersey
-            </span>{' '}
+            Newark, New Jersey
             — serving{' '}
             <span itemProp="areaServed" itemScope itemType="https://schema.org/City">
               <span itemProp="name">Orange</span>
