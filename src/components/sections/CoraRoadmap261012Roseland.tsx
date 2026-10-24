@@ -76,6 +76,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import { combos } from '@/data/combos';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
@@ -357,10 +359,25 @@ const emailContacts: { subject: string; label: string }[] = [
 const roselandSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
+    buildRoofingContractorNodeSchema(),
     {
       '@type': ['LocalBusiness', 'RoofingContractor'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      // Group 2 credited-form package (2026-10-24): legalName
+      // from the canonical config; scalar availableLanguage
+      // 'English' + ContactPoint; the roadmap's Brand line —
+      // the business's own brand, named as itself.
+      legalName: canonicalConfig.legalName,
+      brand: { '@type': 'Brand', name: 'Newark Quality Roofing' },
+      availableLanguage: 'English',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       url: pageUrl,
       email: siteConfig.email,
       address: {
@@ -406,6 +423,14 @@ const roselandSchemaGraph = {
       '@id': pageUrl,
       url: pageUrl,
       name: 'Roof Repair Roseland, NJ',
+      // Group 2 (2026-10-24): the roadmap's
+      // SpeakableSpecification pair — the page's headings
+      // are its speakable summary (the South Orange form;
+      // twin in the shell below).
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['h1', 'h2'],
+      },
       keywords: coraRoselandStyleCommentPhrases.join(', '),
       potentialAction: {
         '@type': 'ReadAction',
@@ -452,6 +477,10 @@ export function CoraRoadmap261012Roseland() {
       itemScope
       itemType="https://schema.org/WebPage"
     >
+      <span itemProp="speakable" itemScope itemType="https://schema.org/SpeakableSpecification" className="hidden" aria-hidden="true">
+        <meta itemProp="cssSelector" content="h1" />
+        <meta itemProp="cssSelector" content="h2" />
+      </span>
       {coraRoselandCssIncludes.map((href) => (
         <link key={href} rel="stylesheet" href={href} />
       ))}
@@ -597,6 +626,7 @@ export function CoraRoadmap261012Roseland() {
         ))}
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
+          <meta itemProp="legalName" content={canonicalConfig.legalName} />
           <p className={vClass(7)}>
             <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
             <u>roof repair in Roseland, NJ</u> and across Essex County from{' '}
