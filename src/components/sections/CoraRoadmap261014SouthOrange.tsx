@@ -89,6 +89,9 @@
 // fingerprint, the g.page shortlink).
 
 import { JsonLd } from '@/components/seo/JsonLd';
+import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraSouthOrangeBlockIntro,
   coraSouthOrangeBlockSummary,
@@ -132,10 +135,27 @@ const pageUrl = 'https://newarkqualityroofing.com/roof-repair-south-orange-nj';
 const southOrangeSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
+    buildRoofingContractorNodeSchema(),
     {
       '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      // Group 2 credited-form package (2026-10-24) for the
+      // never-worked roadmap rows: legalName from the canonical
+      // config; scalar availableLanguage 'English' on the node
+      // and its ContactPoint (+ contactType); the published OG
+      // description as disambiguatingDescription.
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
+      disambiguatingDescription:
+        'Professional roofing contractor serving Essex County and Northern New Jersey.',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       url: pageUrl,
       mainEntityOfPage: { '@id': pageUrl },
       areaServed: [
@@ -155,6 +175,17 @@ const southOrangeSchemaGraph = {
       '@id': pageUrl,
       url: pageUrl,
       name: 'Roof Repair South Orange, NJ',
+      // Group 2 (2026-10-24): the roadmap's thumbnailUrl line
+      // (the page's published city hero, HEAD-verified live)
+      // and its speakable specification — the page's headings
+      // are its speakable summary, marked with the standard
+      // cssSelector form.
+      thumbnailUrl:
+        'https://newarkqualityroofing.com/images/heroes/city-south-orange.webp',
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['h1', 'h2'],
+      },
       about: { '@id': `${pageUrl}#localbusiness` },
       isPartOf: { '@id': 'https://newarkqualityroofing.com/#website' },
       breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
@@ -192,6 +223,21 @@ const southOrangeSchemaGraph = {
       url: 'https://newarkqualityroofing.com',
       name: 'Newark Quality Roofing',
     },
+    {
+      // Group 2 (2026-10-24): the roadmap's ItemList line —
+      // generated from the same reference-links array this
+      // block renders below, so the list markup can never
+      // drift from the served links.
+      '@type': 'ItemList',
+      '@id': `${pageUrl}#reference-links`,
+      name: 'South Orange Roof Repair Reference Links',
+      itemListElement: coraSouthOrangeReferenceLinks.map((link, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: link.label,
+        item: link.href,
+      })),
+    },
   ],
 };
 
@@ -207,6 +253,14 @@ export function CoraRoadmap261014SouthOrange() {
       itemScope
       itemType="https://schema.org/WebPage"
     >
+      <meta
+        itemProp="thumbnailUrl"
+        content="https://newarkqualityroofing.com/images/heroes/city-south-orange.webp"
+      />
+      <span itemProp="speakable" itemScope itemType="https://schema.org/SpeakableSpecification">
+        <meta itemProp="cssSelector" content="h1" />
+        <meta itemProp="cssSelector" content="h2" />
+      </span>
       <div
         aria-hidden="true"
         dangerouslySetInnerHTML={{
@@ -290,15 +344,27 @@ export function CoraRoadmap261014SouthOrange() {
             {coraSouthOrangeGoogleLink.label}
           </a>
         </p>
-        {coraSouthOrangeReferenceLinks.map((link) => (
-          <p key={link.href} className={pClass}>
-            <a href={link.href} className="text-forest underline decoration-copper/30 underline-offset-2 transition-colors hover:text-copper">
+        <div itemScope itemType="https://schema.org/ItemList">
+          {coraSouthOrangeReferenceLinks.map((link) => (
+            <p key={link.href} className={pClass} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+              <meta itemProp="name" content={link.label} />
+              <a itemProp="item" href={link.href} className="text-forest underline decoration-copper/30 underline-offset-2 transition-colors hover:text-copper">
               {link.label}
             </a>
           </p>
-        ))}
+          ))}
+        </div>
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
+          <meta itemProp="legalName" content={canonicalConfig.legalName} />
+          <meta
+            itemProp="disambiguatingDescription"
+            content="Professional roofing contractor serving Essex County and Northern New Jersey."
+          />
+          <span itemProp="contactPoint" itemScope itemType="https://schema.org/ContactPoint">
+            <meta itemProp="telephone" content={siteConfig.phone.tel} />
+            <meta itemProp="contactType" content="customer service" />
+          </span>
           <p className={pClass}>
             <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
             <u>roof repair in South Orange, NJ</u> and across Essex County from{' '}
