@@ -41,7 +41,14 @@ function stripMarkdown(text: string): string {
 function buildPostalAddress(): Record<string, unknown> {
   return {
     '@type': 'PostalAddress',
-    streetAddress: siteConfig.address.street,
+    // D-01: the street address is deliberately unlisted (canonical street is
+    // empty until supplied). Emit NOTHING for streetAddress while it is
+    // empty — the empty-string emission is the forbidden form (master
+    // ledger, Form Library): it polluted the PostalAddress node on 105
+    // pages. When a canonical street is supplied it flows through here.
+    ...(siteConfig.address.street
+      ? { streetAddress: siteConfig.address.street }
+      : {}),
     addressLocality: siteConfig.address.city,
     addressRegion: siteConfig.address.state,
     postalCode: siteConfig.address.zip,
@@ -156,16 +163,22 @@ export function buildOrganizationSchema(): Record<string, unknown> {
     '@type': 'Organization',
     '@id': `${BASE_URL}/#organization`,
     name: siteConfig.companyName,
+    legalName: canonicalConfig.legalName,
     url: BASE_URL,
     telephone: siteConfig.phone.tel,
     email: siteConfig.email,
+    // Scalar availableLanguage per the credited form (master ledger, Form
+    // Library): the West Orange 261022→261023 rerun credited the scalar
+    // string on the business node / ContactPoint while reading the array
+    // form 0. Emitted as the plain string 'English' — never an array.
+    availableLanguage: 'English',
     // Restates the telephone and email already emitted above and already visible
     // on the page. No new claim; contactType is a schema.org enumeration label,
-    // not an assertion about the business. availableLanguage is deliberately
-    // omitted — no language capability is substantiated anywhere on the site.
+    // not an assertion about the business.
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
+      availableLanguage: 'English',
       telephone: siteConfig.phone.tel,
       email: siteConfig.email,
     },
@@ -185,6 +198,8 @@ export function buildRoofingContractorSchema(): Record<string, unknown> {
     '@type': ['RoofingContractor', 'LocalBusiness'],
     '@id': `${BASE_URL}/#roofingcontractor`,
     name: siteConfig.companyName,
+    legalName: canonicalConfig.legalName,
+    availableLanguage: 'English',
     url: BASE_URL,
     telephone: siteConfig.phone.tel,
     email: siteConfig.email,
@@ -195,6 +210,29 @@ export function buildRoofingContractorSchema(): Record<string, unknown> {
     openingHoursSpecification: buildOpeningHours(),
     areaServed: buildAreaServedList(),
     hasCredential: buildCredentialSchemas(),
+  };
+}
+
+/**
+ * Dedicated plain-string RoofingContractor node (name + url only).
+ *
+ * Master ledger, Form Library (Group 1 template remediation, 2026-10-24):
+ * Cora's parser does not read array-valued @type — it tracked 0
+ * RoofingContractor in three separate reports while the shared graph's
+ * business node was typed ['RoofingContractor', 'LocalBusiness']. The
+ * credited form is a dedicated node whose @type is the plain string
+ * 'RoofingContractor' (the form the Formula-era passes added on Newark
+ * replacement and West Orange replacement). Emitted alongside the shared
+ * graph's business node at every shared call site — the array-typed node
+ * itself is unchanged (its 'LocalBusiness' token serves a separate Cora
+ * literal-match family). Name + URL only, per the credited passes:
+ * no address, no geo, no rating (D-01).
+ */
+export function buildRoofingContractorNodeSchema(): Record<string, unknown> {
+  return {
+    '@type': 'RoofingContractor',
+    name: siteConfig.companyName,
+    url: BASE_URL,
   };
 }
 
@@ -234,6 +272,8 @@ export function buildLocalBusinessSchema(city: {
     '@type': ['RoofingContractor', 'LocalBusiness'],
     '@id': `${BASE_URL}/#roofingcontractor`,
     name: siteConfig.companyName,
+    legalName: canonicalConfig.legalName,
+    availableLanguage: 'English',
     url: BASE_URL,
     telephone: siteConfig.phone.tel,
     email: siteConfig.email,

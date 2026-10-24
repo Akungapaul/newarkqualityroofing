@@ -28,6 +28,7 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import {
   buildOrganizationSchema,
   buildRoofingContractorSchema,
+  buildRoofingContractorNodeSchema,
   buildWebSiteSchema,
   buildWebPageSchema,
   buildBreadcrumbSchema,
@@ -157,6 +158,7 @@ export default function Home() {
       <JsonLd data={buildJsonLdGraph(
         buildOrganizationSchema(),
         buildRoofingContractorSchema(),
+        buildRoofingContractorNodeSchema(),
         buildWebSiteSchema(),
         buildWebPageSchema(SEO_CONFIG.BASE_URL, siteConfig.companyName),
         buildBreadcrumbSchema([{ name: 'Home', url: SEO_CONFIG.BASE_URL }]),

@@ -25,6 +25,7 @@ import { getCityOverviewImage } from '@/data/image-manifest';
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
   buildLocalBusinessSchema,
+  buildRoofingContractorNodeSchema,
   buildWebPageSchema,
   buildBreadcrumbSchema,
   buildFaqSchema,
@@ -93,6 +94,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
     <>
       <JsonLd data={buildJsonLdGraph(
         buildLocalBusinessSchema({ name: city.name, state: city.state, zipCodes: city.zipCodes }),
+        buildRoofingContractorNodeSchema(),
         buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${generateCityPageSlug(city.slug)}`, content.metaTitle),
         buildBreadcrumbSchema([
           { name: 'Home', url: SEO_CONFIG.BASE_URL },

@@ -31,6 +31,7 @@ import {
   buildFaqSchema,
   buildOrganizationSchema,
   buildRoofingContractorSchema,
+  buildRoofingContractorNodeSchema,
   buildWebSiteSchema,
   buildJsonLdGraph,
 } from '@/lib/schema';
@@ -230,6 +231,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       <JsonLd data={buildJsonLdGraph(
         buildOrganizationSchema(),
         buildRoofingContractorSchema(),
+        buildRoofingContractorNodeSchema(),
         buildWebSiteSchema(),
         buildServiceSchema(
           { name: service.name, slug: generateServicePageSlug(service.slug), shortDescription: service.shortDescription },

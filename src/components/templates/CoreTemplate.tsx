@@ -10,6 +10,7 @@ import ResourcesPage from '@/components/pages/ResourcesPage';
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
   buildRoofingContractorSchema,
+  buildRoofingContractorNodeSchema,
   buildWebPageSchema,
   buildBreadcrumbSchema,
   buildJsonLdGraph,
@@ -34,6 +35,7 @@ function buildCorePageSchema(corePage: CorePage): Record<string, unknown> | null
   if (corePage.id === 'about' || corePage.id === 'contact') {
     return buildJsonLdGraph(
       buildRoofingContractorSchema(),
+      buildRoofingContractorNodeSchema(),
       webPage,
       breadcrumb,
     );
