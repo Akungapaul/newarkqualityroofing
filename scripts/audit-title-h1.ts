@@ -2,7 +2,7 @@
  * Title = H1 audit (owner rule, 2026-09-24) — build-failing when run.
  *
  * 1. Every prerendered page: <title> text === <h1> text, character for character.
- *    The only exception is /roof-repair-in-newark-nj (owner: leave untouched).
+ *    The only exception is /roof-repair-newark-nj (owner: leave untouched).
  * 2. Every Surfer-synced page (src/data/surfer-verbatim): the page keyword is in
  *    the slug, the title, the H1, and the page's first sentence (the first <p>
  *    after the H1).
@@ -15,7 +15,7 @@ import { parse } from 'node-html-parser';
 import { SURFER_PAGES } from '@/data/surfer-verbatim/generated-index';
 
 const APP = join(process.cwd(), '.next', 'server', 'app');
-const EXCLUDE = new Set(['/roof-repair-in-newark-nj']);
+const EXCLUDE = new Set(['/roof-repair-newark-nj']);
 // Framework/utility outputs that are not site pages.
 const SKIP = new Set(['/_not-found', '/_global-error', '/404', '/500']);
 

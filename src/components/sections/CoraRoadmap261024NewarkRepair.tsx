@@ -9,7 +9,7 @@ import {
   cora261024NewarkRepairSummary,
 } from '@/data/cora-261024-newark-repair-content';
 
-// CORA 261024 block for /roof-repair-in-newark-nj (keyword
+// CORA 261024 block for /roof-repair-newark-nj (keyword
 // "roof repair newark nj"). Study: cora-study-newark-repair-261024.md.
 // Run 261024 measured the restructured page; the POP pass 1982649
 // (PR #102) then reduced the live page at Paul's direction. This

@@ -9,7 +9,7 @@
 // implement the 16 clean verification lines PLUS the 3 competitor-
 // backed residues (Sentences +52, Variations in Sentences +48, P Tags
 // +4); the rest of the R1 sibling-set complex (28 lines, goals set by
-// our own roof-repair-and-installation-in-essex-fells-nj page) is
+// our own roof-repair-and-installation-essex-fells-nj page) is
 // DROPPED, not chased. Full accounting in
 // files/cora-phrase-implementation-essex-fells-2026-10-13.md.
 //

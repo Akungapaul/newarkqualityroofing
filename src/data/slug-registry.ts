@@ -5,7 +5,7 @@ import { combos } from './combos';
 import { comparisons } from './comparisons';
 import { articles } from './articles';
 import { corePages } from './core-pages';
-import { generateCityPageSlug, generateServicePageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateServicePageSlug, RETIRED_NEWARK_HUB_SERVICES } from '@/lib/slug-utils';
 
 // ─── Registry Builder ────────────────────────────────────────────────────────
 
@@ -23,10 +23,14 @@ function buildRegistry(): Map<string, SlugEntry> {
     registry.set(entry.slug, entry);
   }
 
-  // Services (65) -- registered under "{service}-in-newark-nj" (local-intent URL,
-  // distinct from the combo "{service}-{city}-nj" pattern). service.slug stays the
-  // internal id used for combo generation + form values; only the PAGE url changes.
+  // Services (65) -- registered under "{service}-newark-nj" (Rule 7 exact
+  // keyword slug, 2026-10-24 flip; formerly "{service}-in-newark-nj").
+  // service.slug stays the internal id used for combo generation + form
+  // values; only the PAGE url changes. EXCEPTION: the 9
+  // RETIRED_NEWARK_HUB_SERVICES register no service page — their Newark combo
+  // is the surviving canonical page at the same slug (see slug-utils.ts).
   for (const service of services) {
+    if (RETIRED_NEWARK_HUB_SERVICES.has(service.slug)) continue;
     register({
       slug: generateServicePageSlug(service.slug),
       type: 'service',
@@ -34,7 +38,7 @@ function buildRegistry(): Map<string, SlugEntry> {
     });
   }
 
-  // Cities (21) -- use "roof-repair-and-installation-in-{city}-nj" pattern to avoid collisions
+  // Cities (21) -- use "roof-repair-and-installation-{city}-nj" pattern to avoid collisions
   for (const city of cities) {
     register({
       slug: generateCityPageSlug(city.slug),
@@ -43,7 +47,9 @@ function buildRegistry(): Map<string, SlugEntry> {
     });
   }
 
-  // Combos (1,365 = 65 services x 21 cities)
+  // Combos (1,309 = 65 services x 21 cities − 56 Newark combos retired in the
+  // 2026-10-24 Rule 7 flip; the 9 surviving Newark combos belong to
+  // RETIRED_NEWARK_HUB_SERVICES)
   for (const combo of combos) {
     register({
       slug: combo.slug,

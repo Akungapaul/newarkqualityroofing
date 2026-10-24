@@ -38,42 +38,42 @@ export const residentialRoofingHubContent: HubContent = {
       {
         "label": "Residential Roof Types",
         "links": [
-          { "text": "Asphalt Shingle Roofing", "href": "/asphalt-shingle-roofing-in-newark-nj" },
-          { "text": "Metal Roof Installation & Repair", "href": "/metal-roof-installation-repair-in-newark-nj" },
-          { "text": "Slate Roof Installation & Repair", "href": "/slate-roof-installation-repair-in-newark-nj" },
-          { "text": "Tile Roof Installation & Repair", "href": "/tile-roof-installation-repair-in-newark-nj" },
-          { "text": "Cedar Shake Roofing", "href": "/cedar-shake-roofing-in-newark-nj" },
-          { "text": "Wood Shake Roofing", "href": "/wood-shake-roofing-in-newark-nj" },
-          { "text": "EPDM Rubber Roofing", "href": "/rubber-roofing-epdm-in-newark-nj" },
-          { "text": "Residential Roof Installation", "href": "/residential-roof-installation-in-newark-nj" }
+          { "text": "Asphalt Shingle Roofing", "href": "/asphalt-shingle-roofing-newark-nj" },
+          { "text": "Metal Roof Installation & Repair", "href": "/metal-roof-installation-repair-newark-nj" },
+          { "text": "Slate Roof Installation & Repair", "href": "/slate-roof-installation-repair-newark-nj" },
+          { "text": "Tile Roof Installation & Repair", "href": "/tile-roof-installation-repair-newark-nj" },
+          { "text": "Cedar Shake Roofing", "href": "/cedar-shake-roofing-newark-nj" },
+          { "text": "Wood Shake Roofing", "href": "/wood-shake-roofing-newark-nj" },
+          { "text": "EPDM Rubber Roofing", "href": "/rubber-roofing-epdm-newark-nj" },
+          { "text": "Residential Roof Installation", "href": "/residential-roof-installation-newark-nj" }
         ]
       },
       {
         "label": "Repair, Replacement & Maintenance",
         "links": [
-          { "text": "Roof Repair", "href": "/roof-repair-in-newark-nj" },
-          { "text": "Roof Replacement", "href": "/roof-replacement-in-newark-nj" },
-          { "text": "Roof Leak Repair", "href": "/roof-leak-repair-in-newark-nj" },
-          { "text": "Roof Inspection", "href": "/roof-inspection-in-newark-nj" },
-          { "text": "Storm Damage Roof Repair", "href": "/storm-damage-roof-repair-in-newark-nj" },
-          { "text": "Emergency Roof Repair", "href": "/emergency-roof-repair-in-newark-nj" },
-          { "text": "Roof Maintenance Programs", "href": "/roof-maintenance-programs-in-newark-nj" },
-          { "text": "Roof Cleaning & Moss Removal", "href": "/roof-cleaning-moss-removal-in-newark-nj" },
-          { "text": "Roof Replacement Cost", "href": "/roof-replacement-cost-in-newark-nj" }
+          { "text": "Roof Repair", "href": "/roof-repair-newark-nj" },
+          { "text": "Roof Replacement", "href": "/roof-replacement-newark-nj" },
+          { "text": "Roof Leak Repair", "href": "/roof-leak-repair-newark-nj" },
+          { "text": "Roof Inspection", "href": "/roof-inspection-newark-nj" },
+          { "text": "Storm Damage Roof Repair", "href": "/storm-damage-roof-repair-newark-nj" },
+          { "text": "Emergency Roof Repair", "href": "/emergency-roof-repair-newark-nj" },
+          { "text": "Roof Maintenance Programs", "href": "/roof-maintenance-programs-newark-nj" },
+          { "text": "Roof Cleaning & Moss Removal", "href": "/roof-cleaning-moss-removal-newark-nj" },
+          { "text": "Roof Replacement Cost", "href": "/roof-replacement-cost-newark-nj" }
         ]
       },
       {
         "label": "Components, Gutters & Energy",
         "links": [
-          { "text": "Gutter Installation & Repair", "href": "/gutter-installation-repair-in-newark-nj" },
-          { "text": "Gutter Guard Installation", "href": "/gutter-guard-installation-in-newark-nj" },
-          { "text": "Skylight Installation & Repair", "href": "/skylight-installation-repair-in-newark-nj" },
-          { "text": "Chimney Flashing Repair", "href": "/chimney-flashing-repair-in-newark-nj" },
-          { "text": "Fascia Installation & Repair", "href": "/fascia-installation-repair-in-newark-nj" },
-          { "text": "Soffit Installation & Repair", "href": "/soffit-installation-repair-in-newark-nj" },
-          { "text": "Roof Vent Installation & Repair", "href": "/roof-vent-installation-repair-in-newark-nj" },
-          { "text": "Roof Ice Dam Prevention", "href": "/roof-ice-dam-prevention-in-newark-nj" },
-          { "text": "Solar Shingle Installation", "href": "/solar-shingle-installation-in-newark-nj" }
+          { "text": "Gutter Installation & Repair", "href": "/gutter-installation-repair-newark-nj" },
+          { "text": "Gutter Guard Installation", "href": "/gutter-guard-installation-newark-nj" },
+          { "text": "Skylight Installation & Repair", "href": "/skylight-installation-repair-newark-nj" },
+          { "text": "Chimney Flashing Repair", "href": "/chimney-flashing-repair-newark-nj" },
+          { "text": "Fascia Installation & Repair", "href": "/fascia-installation-repair-newark-nj" },
+          { "text": "Soffit Installation & Repair", "href": "/soffit-installation-repair-newark-nj" },
+          { "text": "Roof Vent Installation & Repair", "href": "/roof-vent-installation-repair-newark-nj" },
+          { "text": "Roof Ice Dam Prevention", "href": "/roof-ice-dam-prevention-newark-nj" },
+          { "text": "Solar Shingle Installation", "href": "/solar-shingle-installation-newark-nj" }
         ]
       },
       {

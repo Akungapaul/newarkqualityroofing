@@ -60,6 +60,7 @@ export const newarkCommercialRoofInstallation: ComboContent = {
     'Crews experienced with Newark\'s flat-roof commercial, warehouse, and mixed-use building stock.',
     'A free written estimate with full scope detail and no obligation.',
     'Workmanship documented with photos for your records and any insurance claim.',
+    'Membrane Systems Installed and Serviced — Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville commercial membrane systems to manufacturer specification to keep a system warranty intact.',
   ],
   conversionHooks: {
     midPageCta: 'Schedule your free written estimate for commercial roof installation in Newark.',

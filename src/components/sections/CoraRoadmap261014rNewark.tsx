@@ -1,5 +1,5 @@
 // CORA 2026-10-14 phrase-setup roadmap supplemental block for
-// /roof-replacement-in-newark-nj (keyword "roof replacement
+// /roof-replacement-newark-nj (keyword "roof replacement
 // newark nj"). This is the replacement page's FIRST Cora
 // pass: the page is the flagship Newark service page
 // (rendered by ServiceTemplate), and this component creates
@@ -160,7 +160,7 @@ import {
   coraReplNewarkStateRefIntro,
 } from '@/data/cora-261014r-newark-content';
 
-const pageUrl = 'https://newarkqualityroofing.com/roof-replacement-in-newark-nj';
+const pageUrl = 'https://newarkqualityroofing.com/roof-replacement-newark-nj';
 
 // New block-level graph for this page (the 2 schema
 // lines): a Service node carrying ONLY the roadmapped

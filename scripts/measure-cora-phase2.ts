@@ -56,7 +56,7 @@ function metrics(html: string) {
 }
 
 async function main() {
-  const liveHtml = await (await fetch('https://newarkqualityroofing.com/roof-repair-in-newark-nj')).text();
+  const liveHtml = await (await fetch('https://newarkqualityroofing.com/roof-repair-newark-nj')).text();
   const builtHtml = fs.readFileSync('.next/server/app/roof-repair-in-newark-nj.html', 'utf8');
   const before = metrics(liveHtml);
   const after = metrics(builtHtml);

@@ -42,35 +42,35 @@ export const commercialRoofingHubContent: HubContent = {
         "links": [
           {
             "text": "TPO Roofing Installation",
-            "href": "/tpo-roofing-installation-in-newark-nj"
+            "href": "/tpo-roofing-installation-newark-nj"
           },
           {
             "text": "EPDM Commercial Roofing",
-            "href": "/epdm-commercial-roofing-in-newark-nj"
+            "href": "/epdm-commercial-roofing-newark-nj"
           },
           {
             "text": "PVC Roofing",
-            "href": "/pvc-roofing-in-newark-nj"
+            "href": "/pvc-roofing-newark-nj"
           },
           {
             "text": "Modified Bitumen Roofing",
-            "href": "/modified-bitumen-roofing-in-newark-nj"
+            "href": "/modified-bitumen-roofing-newark-nj"
           },
           {
             "text": "Built-Up Roofing",
-            "href": "/built-up-roofing-in-newark-nj"
+            "href": "/built-up-roofing-newark-nj"
           },
           {
             "text": "Commercial Metal Roofing",
-            "href": "/commercial-metal-roofing-in-newark-nj"
+            "href": "/commercial-metal-roofing-newark-nj"
           },
           {
             "text": "Spray Foam Roofing",
-            "href": "/spray-foam-roofing-in-newark-nj"
+            "href": "/spray-foam-roofing-newark-nj"
           },
           {
             "text": "Green Roof Installation",
-            "href": "/green-roof-installation-in-newark-nj"
+            "href": "/green-roof-installation-newark-nj"
           }
         ]
       },
@@ -79,23 +79,23 @@ export const commercialRoofingHubContent: HubContent = {
         "links": [
           {
             "text": "Commercial Roof Installation",
-            "href": "/commercial-roof-installation-in-newark-nj"
+            "href": "/commercial-roof-installation-newark-nj"
           },
           {
             "text": "Commercial Roof Repair",
-            "href": "/commercial-roof-repair-in-newark-nj"
+            "href": "/commercial-roof-repair-newark-nj"
           },
           {
             "text": "Commercial Roof Replacement",
-            "href": "/commercial-roof-replacement-in-newark-nj"
+            "href": "/commercial-roof-replacement-newark-nj"
           },
           {
             "text": "Flat Roof Installation & Repair",
-            "href": "/flat-roof-installation-repair-in-newark-nj"
+            "href": "/flat-roof-installation-repair-newark-nj"
           },
           {
             "text": "Roof Maintenance Programs",
-            "href": "/roof-maintenance-programs-in-newark-nj"
+            "href": "/roof-maintenance-programs-newark-nj"
           }
         ]
       },
@@ -104,19 +104,19 @@ export const commercialRoofingHubContent: HubContent = {
         "links": [
           {
             "text": "Roof Thermal Imaging Inspections",
-            "href": "/roof-thermal-imaging-inspections-in-newark-nj"
+            "href": "/roof-thermal-imaging-inspections-newark-nj"
           },
           {
             "text": "Infrared Roof Leak Detection",
-            "href": "/infrared-roof-leak-detection-in-newark-nj"
+            "href": "/infrared-roof-leak-detection-newark-nj"
           },
           {
             "text": "Silicone Roof Coating",
-            "href": "/silicone-roof-coating-in-newark-nj"
+            "href": "/silicone-roof-coating-newark-nj"
           },
           {
             "text": "Roof Waterproofing",
-            "href": "/roof-waterproofing-in-newark-nj"
+            "href": "/roof-waterproofing-newark-nj"
           }
         ]
       },

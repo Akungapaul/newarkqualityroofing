@@ -7,7 +7,7 @@ interface ServiceCtaBannerProps {
   defaultService: string;
   /**
    * RESTRUCTURE 2026-10-23: forward LeadForm's mobileCollapsed to the
-   * banner form. Passed only for /roof-repair-in-newark-nj.
+   * banner form. Passed only for /roof-repair-newark-nj.
    */
   minimizeFormOnMobile?: boolean;
 }

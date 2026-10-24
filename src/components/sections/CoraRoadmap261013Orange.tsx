@@ -196,7 +196,7 @@ const orangeSchemaGraph = {
           '@type': 'ListItem',
           position: 1,
           name: 'Roof Repair Services',
-          item: 'https://newarkqualityroofing.com/roof-repair-in-newark-nj',
+          item: 'https://newarkqualityroofing.com/roof-repair-newark-nj',
         },
         {
           '@type': 'ListItem',

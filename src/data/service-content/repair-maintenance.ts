@@ -189,7 +189,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             },
             body: [
               "**Chimney flashing repair seals the joint where the chimney meets the roof**; [GAF explains the role of flashing](https://www.gaf.com/en-us/blog/your-home/understanding-roof-flashing-essential-protection-for-every-home-c28b76fc-7750-49dd-9942-0d5388fd8a96) at chimneys, walls, and other roof penetrations; the inspection checks the metal, its laps, and the mortar holding the counter-flashing.",
-              "A request for chimney repair can also involve masonry, a crown, or a flue; those are separate from [chimney flashing repair](/chimney-flashing-repair-in-newark-nj); ask for the diagnosed source and included work in writing; sealing the roof joint does not repair an unrelated chimney defect.",
+              "A request for chimney repair can also involve masonry, a crown, or a flue; those are separate from [chimney flashing repair](/chimney-flashing-repair-newark-nj); ask for the diagnosed source and included work in writing; sealing the roof joint does not repair an unrelated chimney defect.",
               "Sealant spread over corroded metal reopens at the same lap within a season; the failure sits in the substrate rather than in the joint compound; Step flashing at a wall, counter-flashing set into mortar, and valley metal each carry water differently; the repair therefore specifies the piece by type, instead of running one product across every transition; a skylight curb takes a different bend from a wall step; Newark Quality Roofing fabricates each replacement piece to the profile of the detail it seals.",
             ],
           },
@@ -197,7 +197,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
             heading: 'When Is Gutter Repair Part of a Roof Leak Repair?',
             body: [
               "**Gutter repair belongs in the roof repair scope when a failed gutter joint, loose hanger, or blocked outlet prevents roof runoff from draining**; the inspection checks the gutter slope, downspout, drip edge, and fascia together; a clog may need cleaning; a leaking seam or detached gutter may need repair.",
-              "Our [gutter installation and repair](/gutter-installation-repair-in-newark-nj) service addresses the drainage components; [Roof leak repair](/roof-leak-repair-in-newark-nj) addresses the opening in the roof; the written estimate identifies which work is needed so gutter repair costs and roof repair costs are clear before work begins.",
+              "Our [gutter installation and repair](/gutter-installation-repair-newark-nj) service addresses the drainage components; [Roof leak repair](/roof-leak-repair-newark-nj) addresses the opening in the roof; the written estimate identifies which work is needed so gutter repair costs and roof repair costs are clear before work begins.",
             ],
           },
           {
@@ -1182,7 +1182,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       {
         question: 'How much does roof replacement cost in Essex County, NJ?',
         answer:
-          '**Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, with the national 2025 average near $10,000–$11,000**, per HomeAdvisor and Modernize NJ cost data and industry replacement benchmarks. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Newark Quality Roofing provides a free written estimate detailing the full [roof replacement cost](/roof-replacement-cost-in-newark-nj).',
+          '**Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, with the national 2025 average near $10,000–$11,000**, per HomeAdvisor and Modernize NJ cost data and industry replacement benchmarks. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Newark Quality Roofing provides a free written estimate detailing the full [roof replacement cost](/roof-replacement-cost-newark-nj).',
       },
       {
         question: 'Does homeowners insurance cover roof replacement?',

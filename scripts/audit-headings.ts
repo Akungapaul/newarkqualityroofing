@@ -342,7 +342,7 @@ function buildSampleSet(): RenderedSample[] {
     { label: 'home', file: 'index.html', coreH2: H.home.coreH2, kind: 'full' },
     {
       label: 'service (roof-repair)',
-      file: 'roof-repair-in-newark-nj.html',
+      file: 'roof-repair-newark-nj.html',
       coreH2: serviceHasDefinition('roof-repair')
         ? H.service.definitionH2(repairName)
         : H.service.coreH2(repairName),
@@ -350,7 +350,7 @@ function buildSampleSet(): RenderedSample[] {
     },
     {
       label: 'city (newark)',
-      file: 'roof-repair-and-installation-in-newark-nj.html',
+      file: 'roof-repair-and-installation-newark-nj.html',
       coreH2: cityHasWhereIs('newark') ? H.city.whereIsH2(newarkName) : H.city.coreH2(newarkName),
       kind: 'full',
     },
@@ -424,7 +424,7 @@ function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
     // may use question H2/H3s. All other pages and structural checks retain
     // the existing policy; H1 must still be a statement.
     const isRepairQuestion =
-      sample.file === 'roof-repair-in-newark-nj.html' &&
+      sample.file === 'roof-repair-newark-nj.html' &&
       (h.tagName === 'H2' || h.tagName === 'H3') &&
       (h.closest('section[aria-labelledby^="service-section-"]') !== null ||
         h.closest('section#roofing-repair-questions') !== null ||

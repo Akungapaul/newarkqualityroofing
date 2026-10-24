@@ -6,17 +6,17 @@ import { getHomepageImage } from '@/data/image-manifest';
 // Each bullet links to its service page so the residential/commercial fork
 // passes real link equity down to the services it names (not just the hubs).
 const residentialBullets: Array<{ text: string; href: string }> = [
-  { text: 'Asphalt shingle, slate, metal, and tile roof installations', href: '/asphalt-shingle-roofing-in-newark-nj' },
-  { text: 'Storm damage repair and emergency leak response', href: '/emergency-roof-repair-in-newark-nj' },
-  { text: 'Roof inspections, maintenance programs, and gutter work', href: '/roof-inspection-in-newark-nj' },
-  { text: 'Insurance claim coordination for covered replacements', href: '/insurance-roof-replacement-in-newark-nj' },
+  { text: 'Asphalt shingle, slate, metal, and tile roof installations', href: '/asphalt-shingle-roofing-newark-nj' },
+  { text: 'Storm damage repair and emergency leak response', href: '/emergency-roof-repair-newark-nj' },
+  { text: 'Roof inspections, maintenance programs, and gutter work', href: '/roof-inspection-newark-nj' },
+  { text: 'Insurance claim coordination for covered replacements', href: '/insurance-roof-replacement-newark-nj' },
 ];
 
 const commercialBullets: Array<{ text: string; href: string }> = [
-  { text: 'TPO, EPDM, PVC, and modified bitumen flat roof systems', href: '/tpo-roofing-installation-in-newark-nj' },
-  { text: 'Commercial roof repair with minimal business disruption', href: '/commercial-roof-repair-in-newark-nj' },
-  { text: 'Thermal imaging inspections and leak detection', href: '/roof-thermal-imaging-inspections-in-newark-nj' },
-  { text: 'Energy-efficient roofing and silicone coating solutions', href: '/silicone-roof-coating-in-newark-nj' },
+  { text: 'TPO, EPDM, PVC, and modified bitumen flat roof systems', href: '/tpo-roofing-installation-newark-nj' },
+  { text: 'Commercial roof repair with minimal business disruption', href: '/commercial-roof-repair-newark-nj' },
+  { text: 'Thermal imaging inspections and leak detection', href: '/roof-thermal-imaging-inspections-newark-nj' },
+  { text: 'Energy-efficient roofing and silicone coating solutions', href: '/silicone-roof-coating-newark-nj' },
 ];
 
 export function HomeResidentialCommercial() {

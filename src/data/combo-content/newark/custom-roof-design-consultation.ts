@@ -68,6 +68,7 @@ export const newarkCustomRoofDesignConsultation: ComboContent = {
     'Local Essex County crew familiar with Newark’s row-house, brownstone, and flat-roof building stock.',
     'A written roofing specification that names the material, the ventilation, and the wind-load and snow-load design to ASCE 7, the deliverable an installation or a competitive bid works from.',
     'Free, detailed written estimates with no obligation, documented with photos for your records.',
+    'Material Lifespan Evaluation — Newark Quality Roofing evaluates 7 material families by measured lifespan, from 20-year 3-tab asphalt to 100-plus-year clay or concrete tile, per the InterNACHI life-expectancy chart, before a recommendation.',
   ],
   conversionHooks: {
     midPageCta: 'Get your free written estimate and consultation for custom roof design in Newark.',

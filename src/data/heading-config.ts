@@ -72,8 +72,9 @@ export const HEADING_CONFIG = {
   // ─── §4.3 Location / City Page ([City] interpolated) ───────────────────────
   city: {
     // Statement H1 in the uniform "[Service] [City], NJ" pattern (no "in").
-    // NOTE: the URL slug (roof-repair-and-installation-in-{city}-nj) and the 21
-    // city metaTitles keep the "in" — only the visible H1 drops it.
+    // NOTE: since the 2026-10-24 Rule 7 slug flip the URL slug matches the H1
+    // pattern (roof-repair-and-installation-{city}-nj); the 21 city metaTitles
+    // keep the "in" — only the visible H1 drops it.
     h1: (c: string) => `Roof Repair and Installation ${c}, NJ`,
     coreH2: (c: string) => `Roofing Services Available in ${c}, NJ`,
     // Entity-grounding: the locational first H2, rendered ABOVE the services

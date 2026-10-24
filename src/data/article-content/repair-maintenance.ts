@@ -43,7 +43,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Catching these signs early — a fresh ceiling stain, a few missing shingles, grit in the gutters, or lifted flashing — keeps damage localized, where a targeted repair restores the weatherproof barrier instead of forcing a full replacement.",
     "ctaHeading": "Have Your Roof's Warning Signs Diagnosed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free inspection that traces a leak to its source detail before any [roof repair](/roof-repair-in-newark-nj) quote.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free inspection that traces a leak to its source detail before any [roof repair](/roof-repair-newark-nj) quote.",
     "metaDescription": "Signs you need roof repair: ceiling stains, missing or cracked shingles, granule loss, lifted flashing, attic daylight, and roof sag, per GAF and NRCA."
   },
   {
@@ -81,7 +81,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "There is no single whole-job price for a roof repair, because the cost follows the specific detail being fixed — a $200 to $500 flashing reseal, a $400 to $1,000 leak or valley repair, per HomeAdvisor and Modernize, adjusted 10 to 40 percent upward for New Jersey labor and code, per Integrity Home Exteriors. An on-site assessment that traces the moisture path to its root cause produces the only figure that reflects your roof.",
     "ctaHeading": "Get a Written Roof Repair Estimate in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free, itemized written estimate that separates materials and labor and names the root-cause detail before any work begins. Explore our [roof repair](/roof-repair-in-newark-nj) options to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free, itemized written estimate that separates materials and labor and names the root-cause detail before any work begins. Explore our [roof repair](/roof-repair-newark-nj) options to start.",
     "metaDescription": "NJ roof repairs run $200-$1,000-plus per repair: flashing $200-$500, leaks and valleys $400-$1,000-plus, about 10-40% above national rates. No single total."
   },
   {
@@ -119,7 +119,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Choosing a roof repair contractor comes down to verification, not marketing: confirm active HIC registration and the 13VH number, obtain a Certificate of Insurance from the carrier, require a written contract and itemized estimate, check local references, and read the documented assessment before any deposit changes hands.",
     "ctaHeading": "Get a Documented Roof Repair Assessment in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a written contract, an itemized estimate, and a documented assessment that traces the leak to its source. Reach out to schedule your [roof repair](/roof-repair-in-newark-nj) evaluation.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a written contract, an itemized estimate, and a documented assessment that traces the leak to its source. Reach out to schedule your [roof repair](/roof-repair-newark-nj) evaluation.",
     "metaDescription": "Choose a roof repair contractor in NJ: verify HIC registration (13VH), $500,000 liability insurance, a written contract, an itemized estimate, references."
   },
   {
@@ -157,7 +157,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Age past the material lifespan, damage over the 25 to 30 percent threshold, repeated repairs, heavy granule loss, a sagging deck, or daylight through the decking each move a roof from patchable to past its service life, and a documented assessment of the deck, ventilation, and cover confirms which signs apply.",
     "ctaHeading": "Get Your Roof Assessed Before the Next Failure",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess the deck, attic ventilation, and material lifespan against the InterNACHI life-expectancy chart, then lay out repair-versus-replace options in a free written estimate. Compare a targeted [roof repair](/roof-repair-in-newark-nj) against a full [roof replacement](/roof-replacement-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess the deck, attic ventilation, and material lifespan against the InterNACHI life-expectancy chart, then lay out repair-versus-replace options in a free written estimate. Compare a targeted [roof repair](/roof-repair-newark-nj) against a full [roof replacement](/roof-replacement-newark-nj).",
     "metaDescription": "Signs you need roof replacement: age past lifespan, damage over 25-30%, three repairs in two years, heavy granule loss, a sagging deck, or daylight."
   },
   {
@@ -173,7 +173,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         "body": [
           "**The whole-job cost** of a New Jersey replacement runs roughly $10,000 to $25,000 for a typical home, against a national 2025 average near $10,000 to $11,000, per HomeAdvisor and Modernize NJ cost data. New Jersey figures sit higher because of local labor and code.",
           "**The New Jersey premium** sits 10 to 40 percent above national figures, per HomeGuide and Integrity Home Exteriors cost data. Labor accounts for roughly 60 to 70 percent of an asphalt installation, and New Jersey building code is stricter than the national baseline, which lifts both the labor share and the materials a compliant install requires. Replacement also dominates the work being done, accounting for 79.2 percent of US roofing installations in 2025, per Mordor Intelligence.",
-          "**Roof size and slope** set the foundation of the estimate, because [roofing prices per square foot](/roof-replacement-cost-in-newark-nj) and a steeper, more complex roof takes more labor and material to cover. A larger footprint, multiple valleys, dormers, and a steep pitch each raise the total, which is why two homes with the same material can quote very differently. The grounded path to a firm number is a written estimate that measures the actual roof rather than an over-the-phone guess."
+          "**Roof size and slope** set the foundation of the estimate, because [roofing prices per square foot](/roof-replacement-cost-newark-nj) and a steeper, more complex roof takes more labor and material to cover. A larger footprint, multiple valleys, dormers, and a steep pitch each raise the total, which is why two homes with the same material can quote very differently. The grounded path to a firm number is a written estimate that measures the actual roof rather than an over-the-phone guess."
         ]
       },
       {
@@ -188,14 +188,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         "heading": "A New Asphalt Roof Recoups 60 to 68 Percent of Its Cost at Resale",
         "body": [
           "**A new asphalt roof** recoups roughly 60 to 68 percent of its project cost at resale, and 8 of the top 10 highest-return remodels are exterior replacement projects, per the Zonda Cost vs Value report. The roof carries weight with buyers because it protects everything beneath it.",
-          "**Insurance** offsets cost when a covered peril causes the damage, since homeowners policies cover replacement for wind, hail, a falling tree, or fire while excluding normal wear, age, or deferred maintenance, per the Insurance Information Institute. Wind and hail rank as the largest claim type at 2.8 percent of insured homes per year, roughly 1 in 36, with an average claim near $14,747, per the Insurance Information Institute (2019 to 2023 data). Damage from a sudden storm follows a different cost path than an age-driven replacement, and qualifies for [storm damage roof repair](/storm-damage-roof-repair-in-newark-nj) review.",
-          "**The repair-versus-replace math** also shapes spend: a localized repair can cost 5 to 10 times less than a [full replacement](/roof-replacement-in-newark-nj), but only while an asphalt roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data. Past that window, repeated patches stop returning value and a planned replacement carries the better economics."
+          "**Insurance** offsets cost when a covered peril causes the damage, since homeowners policies cover replacement for wind, hail, a falling tree, or fire while excluding normal wear, age, or deferred maintenance, per the Insurance Information Institute. Wind and hail rank as the largest claim type at 2.8 percent of insured homes per year, roughly 1 in 36, with an average claim near $14,747, per the Insurance Information Institute (2019 to 2023 data). Damage from a sudden storm follows a different cost path than an age-driven replacement, and qualifies for [storm damage roof repair](/storm-damage-roof-repair-newark-nj) review.",
+          "**The repair-versus-replace math** also shapes spend: a localized repair can cost 5 to 10 times less than a [full replacement](/roof-replacement-newark-nj), but only while an asphalt roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data. Past that window, repeated patches stop returning value and a planned replacement carries the better economics."
         ]
       }
     ],
     "conclusion": "A New Jersey roof replacement lands in the $10,000 to $25,000 range for a typical home, per HomeAdvisor and Modernize NJ, with material choice and deck condition setting where within that band a specific roof falls. The reliable figure comes from a written estimate that measures the roof and inspects the deck.",
     "ctaHeading": "Get a Written Roof Replacement Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that measures your roof, inspects the deck, and itemizes material, scope, and timeline. Compare [roof repair](/roof-repair-in-newark-nj) against replacement before you decide.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate that measures your roof, inspects the deck, and itemizes material, scope, and timeline. Compare [roof repair](/roof-repair-newark-nj) against replacement before you decide.",
     "metaDescription": "Roof replacement in NJ runs about $10,000 to $25,000 for a typical home per HomeAdvisor and Modernize, with material and deck condition setting the price."
   },
   {
@@ -234,7 +234,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "An accountable roof replacement contractor verifies cleanly against the record: an active 13VH Home Improvement Contractor registration, a Certificate of Insurance for at least $500,000 from the carrier, a signed written contract over $500 with an itemized estimate, local references, and a documented deck assessment — credentials that hold up where a manufacturer-certification claim does not.",
     "ctaHeading": "Get a Verified, Itemized Replacement Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a written contract, a Certificate of Insurance, and an itemized estimate that documents the deck assessment, ventilation, and flashing scope. Compare it with our [roof replacement](/roof-replacement-in-newark-nj) details before you sign.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a written contract, a Certificate of Insurance, and an itemized estimate that documents the deck assessment, ventilation, and flashing scope. Compare it with our [roof replacement](/roof-replacement-newark-nj) details before you sign.",
     "metaDescription": "Choose a roof replacement contractor by verifying NJ HIC registration, $500,000 liability insurance, a written contract over $500, and an itemized estimate."
   },
   {
@@ -266,13 +266,13 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         "body": [
           "**Daylight or a sagging roofline visible from inside the attic** indicates deck or framing compromise, a structural priority that points toward replacement rather than a patch, per GAF inspection guidance. Temporary protection covers a roof with no more than 50% of the framing damaged; above that threshold the roof carries a structural rebuild rather than a tarp-and-repair scope, per FEMA and the U.S. Army Corps of Engineers Operation Blue Roof program.",
           "**Icicles and thick ice ridges at the eaves** with interior stains near the top-floor exterior walls indicate an ice dam backing meltwater under the shingles. This winter pattern is driven by attic heat escape rather than by gutters or ventilation as the root cause, per University of Minnesota Extension.",
-          "**Ponding water held on a low-slope roof more than 48 hours after rain** counts as a defect that breaks down membrane seams; a flat roof needs at least 1/4 inch per foot of slope to drain, per the NRCA and ARMA. An [emergency membrane patch](/emergency-roof-repair-in-newark-nj) reseals the storm-opened seam where EPDM, TPO, and modified bitumen systems fail."
+          "**Ponding water held on a low-slope roof more than 48 hours after rain** counts as a defect that breaks down membrane seams; a flat roof needs at least 1/4 inch per foot of slope to drain, per the NRCA and ARMA. An [emergency membrane patch](/emergency-roof-repair-newark-nj) reseals the storm-opened seam where EPDM, TPO, and modified bitumen systems fail."
         ]
       }
     ],
     "conclusion": "Active water entry, wind-stripped covering, a debris puncture, an attic that shows daylight or sag, ice-dam backup, and standing water past 48 hours each mean water has reached the structure — the trigger for stabilizing the breach first and scheduling the permanent repair right after.",
     "ctaHeading": "Stabilize an Active Roof Failure in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. When a roof fails, we tarp or patch to stop water entry, then schedule the permanent [roof repair](/roof-repair-in-newark-nj) with a written estimate.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. When a roof fails, we tarp or patch to stop water entry, then schedule the permanent [roof repair](/roof-repair-newark-nj) with a written estimate.",
     "metaDescription": "Signs you need emergency roof repair: active leaks, wind-stripped shingles, a debris puncture, attic daylight, ice dams, or ponding water past 48 hours."
   },
   {
@@ -308,7 +308,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Emergency roof repair in New Jersey prices per-repair, not as one whole-job total: $200–$1,000+ for most repairs and $200–$500 for a flashing reseal before the 25–50% emergency premium, with NJ figures running 10–40% above national because labor is roughly 60% of the cost. A free written estimate that separates the stabilization scope from the permanent repair is the way to see the real number for your failure.",
     "ctaHeading": "Get a Free Written Emergency Repair Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that separates the stabilization scope from the permanent repair, or review our [emergency roof repair](/emergency-roof-repair-in-newark-nj) service.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that separates the stabilization scope from the permanent repair, or review our [emergency roof repair](/emergency-roof-repair-newark-nj) service.",
     "metaDescription": "Emergency roof repair in NJ costs $200–$1,000+ for most repairs plus a 25–50% premium, per Integrity Home Exteriors and HomeAdvisor — no whole-job total."
   },
   {
@@ -331,7 +331,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         "heading": "N.J.A.C. 13:45A-16.2 Requires a Signed Written Contract Over $500",
         "body": [
           "**A written contract** is required for any home-improvement work over $500 under N.J.A.C. 13:45A-16.2, signed by both parties with the start and completion dates, the total price, and the contractor's 13VH registration number.",
-          "**An itemized written estimate** separates the [emergency stabilization scope](/emergency-roof-repair-in-newark-nj) — the tarp or temporary patch that stops water entry — from the permanent repair scope, rather than a single verbal number quoted under pressure. The reason to insist on a written estimate is grounded in physics: an emergency tarp protects a building for roughly 30 days, the design span fiber-reinforced emergency sheeting is rated for per FEMA and the U.S. Army Corps of Engineers Operation Blue Roof program, which buys time to price the permanent repair without rushing it.",
+          "**An itemized written estimate** separates the [emergency stabilization scope](/emergency-roof-repair-newark-nj) — the tarp or temporary patch that stops water entry — from the permanent repair scope, rather than a single verbal number quoted under pressure. The reason to insist on a written estimate is grounded in physics: an emergency tarp protects a building for roughly 30 days, the design span fiber-reinforced emergency sheeting is rated for per FEMA and the U.S. Army Corps of Engineers Operation Blue Roof program, which buys time to price the permanent repair without rushing it.",
           "**The stabilize-first sequence** justifies splitting the scope, because wet materials dried within 24 to 48 hours of a leak in most cases grow no mold, per the EPA, so each hour of water exposure raises the secondary-damage cost. A contractor who tarps or patches the breach first and then schedules the permanent repair caps that cost; one who pressures a homeowner into a single all-in number during the leak is working against that sequence."
         ]
       },
@@ -346,7 +346,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "An emergency roof repair contractor verifies cleanly under pressure: an active 13VH registration in the NJ Division of Consumer Affairs database, a Certificate of Insurance from the carrier showing at least $500,000 per occurrence, a written contract over $500, and an itemized estimate that separates stabilization from the permanent repair. Run those checks before any deposit, and treat any manufacturer or inspector certification claim as something to confirm independently rather than a substitute for the legal baseline.",
     "ctaHeading": "Get Your Roof Stabilized and Assessed in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We stabilize the breach first, then provide an itemized written estimate that separates the tarp-and-patch scope from the permanent [roof repair](/roof-repair-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We stabilize the breach first, then provide an itemized written estimate that separates the tarp-and-patch scope from the permanent [roof repair](/roof-repair-newark-nj).",
     "metaDescription": "Choose an emergency roof repair contractor by checking active NJ HIC registration, $500,000 liability insurance, a written contract, and an itemized estimate."
   },
   {
@@ -361,7 +361,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         "heading": "A Roof Past 10 Years and Uninspected for 2 Years Is Past Due for a Check",
         "body": [
           "**A roof past 10 years without an inspection in the prior 2 years** marks the point for a professional check, because most asphalt roofs serve roughly 20 years, per the NRCA. The NRCA recommends an inspection at least twice per year, spring and fall, so a roof that has gone two years unexamined is past due.",
-          "**A major weather event** triggers a [roof inspection](/roof-inspection-in-newark-nj) even when no damage shows from the ground, because severe wind and hail loosen fasteners and bruise shingles in ways visible only on the surface. NOAA sets the severe-weather thresholds at 58 mph wind and ¾ inch hail, and the NRCA recommends an added inspection after any major storm. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year — about 1 in 36 — per the Insurance Information Institute, so a documented post-storm inspection with timestamped photographs records damage that is invisible from the ground.",
+          "**A major weather event** triggers a [roof inspection](/roof-inspection-newark-nj) even when no damage shows from the ground, because severe wind and hail loosen fasteners and bruise shingles in ways visible only on the surface. NOAA sets the severe-weather thresholds at 58 mph wind and ¾ inch hail, and the NRCA recommends an added inspection after any major storm. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year — about 1 in 36 — per the Insurance Information Institute, so a documented post-storm inspection with timestamped photographs records damage that is invisible from the ground.",
           "**A spring inspection** carries particular weight in New Jersey, where a winter of freeze-thaw cycles works open small gaps at flashing, sealant lines, and shingle edges. The NRCA spring-and-fall cadence pairs an early-season check against the prior winter's stress with a fall check before the next one, the rhythm that catches a failing detail while the repair stays minor."
         ]
       },
@@ -383,7 +383,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Whether the prompt is a roof past its second uninspected year, a 58 mph storm, granule loss in the gutters, a spreading ceiling stain, a home sale, or a coverage requirement, each sign points to the same step: a documented condition check that catches a failing detail while the repair stays small.",
     "ctaHeading": "Schedule a Documented Roof Inspection in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, and provides a free roof inspection with a written condition report. Reach out to schedule yours or to discuss [roof repair](/roof-repair-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County, and provides a free roof inspection with a written condition report. Reach out to schedule yours or to discuss [roof repair](/roof-repair-newark-nj).",
     "metaDescription": "Signs you need a roof inspection: a roof past 10 years, a 58 mph storm or ¾ inch hail (NOAA), granule loss, spreading ceiling stains, or a home sale."
   },
   {
@@ -407,7 +407,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         "body": [
           "**Four factors set the price within the band.** Roof size, slope, accessibility, and the inspection method together place a job within the $75–$600 range, per HomeAdvisor — so the same roof carries a different figure depending on how it is surveyed and how hard it is to reach.",
           "**Roof complexity** raises the figure most. A steep slope, multiple levels, and limited access add time and safety setup, which is why a drone survey at $150–$400 often replaces a walked visual inspection on steep or large roofs, per HomeAdvisor. A commercial low-slope roof, where membrane seams are the failure point an inspection targets, also takes longer to assess than a simple residential slope.",
-          "**Newark Quality Roofing provides a free roof inspection**, so the HomeAdvisor figures describe the wider market rather than a price for the assessment itself. A [documented inspection](/roof-inspection-in-newark-nj) then yields an itemized written estimate of any recommended work, which New Jersey requires for home-improvement jobs priced over $500 under N.J.A.C. 13:45A-16.2 — a written figure a homeowner can compare on scope and price rather than a verbal quote."
+          "**Newark Quality Roofing provides a free roof inspection**, so the HomeAdvisor figures describe the wider market rather than a price for the assessment itself. A [documented inspection](/roof-inspection-newark-nj) then yields an itemized written estimate of any recommended work, which New Jersey requires for home-improvement jobs priced over $500 under N.J.A.C. 13:45A-16.2 — a written figure a homeowner can compare on scope and price rather than a verbal quote."
         ]
       },
       {
@@ -421,7 +421,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "A roof inspection has no single whole-job price — it is set by method, roof size, slope, and access, landing between $75 and $600 across visual, drone, and infrared surveys per HomeAdvisor. A free inspection and an itemized written estimate turn that market range into a clear figure for one specific roof.",
     "ctaHeading": "Schedule a Free Roof Inspection in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free roof inspection and an itemized written estimate for any recommended [roof repair](/roof-repair-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free roof inspection and an itemized written estimate for any recommended [roof repair](/roof-repair-newark-nj).",
     "metaDescription": "Roof inspection cost in NJ runs $75–$600 by method per HomeAdvisor: visual $75–$200, drone $150–$400, infrared $400–$600. NQR offers a free inspection."
   },
   {
@@ -450,7 +450,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
       {
         "heading": "A Thorough Assessment Delivers a Documented Condition Report",
         "body": [
-          "**A thorough, documented assessment** produces a [written condition report](/roof-inspection-in-newark-nj) that rates each component by urgency, photographs keyed to a roof diagram, the roof-covering type recorded, and active-leak indications reported, consistent with the InterNACHI roof inspection standard of practice. That documentation is what an insurance carrier or manufacturer-warranty program accepts, per the Insurance Information Institute.",
+          "**A thorough, documented assessment** produces a [written condition report](/roof-inspection-newark-nj) that rates each component by urgency, photographs keyed to a roof diagram, the roof-covering type recorded, and active-leak indications reported, consistent with the InterNACHI roof inspection standard of practice. That documentation is what an insurance carrier or manufacturer-warranty program accepts, per the Insurance Information Institute.",
           "**A thorough inspection starts at the flashing details**, because the roofing industry estimates that roughly 90 to 95 percent of roof leaks originate at flashing and only 5 to 10 percent at the open shingle field, an industry estimate attributed to the NRCA. The InterNACHI standard of practice directs an inspector to describe the roof-covering type and report observed indications of active roof leaks.",
           "**Local references and an established Essex County presence** round out the judgment, favoring a contractor familiar with the area's freeze-thaw and storm seasons and with New Jersey permitting under N.J.A.C. 5:23. A re-roof or roof-covering repair on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, so an inspection report documents condition rather than triggering a permit."
         ]
@@ -458,7 +458,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "A roof inspection contractor proves out on documents, not badges: an active 13VH HIC registration, a Certificate of Insurance showing at least $500,000 general liability from the carrier, a written contract and itemized estimate, verifiable local references, and a written condition report consistent with the InterNACHI standard. Run those checks before any work begins.",
     "ctaHeading": "Schedule a Documented Roof Inspection in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a free roof inspection with a written condition report, a Certificate of Insurance on request, and an itemized written estimate of any recommended [roof repair](/roof-repair-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a free roof inspection with a written condition report, a Certificate of Insurance on request, and an itemized written estimate of any recommended [roof repair](/roof-repair-newark-nj).",
     "metaDescription": "How to choose a NJ roof inspection contractor: verify the 13VH HIC registration, $500,000 liability insurance, a written contract, and a documented report."
   },
   {
@@ -472,7 +472,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
       {
         "heading": "A Roof Over 5 Years Without Maintenance Has Missed the NRCA Cadence",
         "body": [
-          "**A roof more than 5 years old with no professional maintenance visit** has missed the inspection cadence the NRCA recommends — twice per year, spring and fall, plus an inspection after any severe weather event. The NRCA building-owner guidance sets that twice-yearly, post-storm cadence, and a roof outside it accumulates the small defects [a maintenance program](/roof-maintenance-programs-in-newark-nj) is built to catch.",
+          "**A roof more than 5 years old with no professional maintenance visit** has missed the inspection cadence the NRCA recommends — twice per year, spring and fall, plus an inspection after any severe weather event. The NRCA building-owner guidance sets that twice-yearly, post-storm cadence, and a roof outside it accumulates the small defects [a maintenance program](/roof-maintenance-programs-newark-nj) is built to catch.",
           "**The recurring schedule itself** pairs each spring and fall visit with the seasonal work a northern New Jersey roof requires. A spring visit clears winter debris and verifies drainage before heavy rainfall, and a fall visit checks sealant integrity before freeze-thaw cycling — the repeated crossing of the 32 degrees Fahrenheit freezing point that stresses sealant and flashing through winter, grounded in NRCA and ARMA seasonal-inspection guidance."
         ]
       },
@@ -501,7 +501,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "When a roof shows any of these signs — a missed inspection cadence, ponding past 48 hours, overflowing gutters, moss or algae on north slopes, penetration wear, or a warranty requiring records — a recurring maintenance program catches the deterioration early and keeps the roof tracking toward its full service life.",
     "ctaHeading": "Start a Documented Roof Maintenance Program",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We open every program with a documented baseline assessment and biannual visits on the NRCA cadence; ask about [roof inspection](/roof-inspection-in-newark-nj) to get started.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We open every program with a documented baseline assessment and biannual visits on the NRCA cadence; ask about [roof inspection](/roof-inspection-newark-nj) to get started.",
     "metaDescription": "Signs you need a roof maintenance program: a roof 5+ years unmaintained, ponding past 48 hours, overflowing gutters, north-slope moss, or warranty terms."
   },
   {
@@ -516,7 +516,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         "heading": "Maintenance Is Priced Per Square Foot Per Year, Not a Flat Fee",
         "body": [
           "**A maintenance program is priced per square foot per year, not as a single flat total**, because the work scales with roof size, roof type, and drainage layout rather than fitting a fixed package. A 1,200-square-foot shingle roof and a 20,000-square-foot membrane roof carry different inspection time, drainage clearing, and sealant work, so a written estimate reflects the specific building.",
-          "**The base plan and any extras are itemized separately** in a detailed written estimate, which names the visit cadence, the components inspected, and what the base plan covers versus what is billed as an additional repair. That itemization lets a building owner see exactly what [recurring maintenance](/roof-maintenance-programs-in-newark-nj) includes before agreeing to a schedule, rather than reading a single bundled number."
+          "**The base plan and any extras are itemized separately** in a detailed written estimate, which names the visit cadence, the components inspected, and what the base plan covers versus what is billed as an additional repair. That itemization lets a building owner see exactly what [recurring maintenance](/roof-maintenance-programs-newark-nj) includes before agreeing to a schedule, rather than reading a single bundled number."
         ]
       },
       {
@@ -538,7 +538,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "A roof maintenance program is priced per square foot per year through a written estimate, not as a flat annual fee, and its value shows in the life-cycle data: proactive maintenance cut cost to $0.14 versus $0.25 per square foot per year and extended commercial roof life from 13 to 21 years, per the Firestone/ProLogis dataset reported by Roofing Contractor magazine.",
     "ctaHeading": "Get a Written Maintenance Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes the visit cadence, the components inspected, and what the base plan covers, or review options for [roof repair](/roof-repair-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that itemizes the visit cadence, the components inspected, and what the base plan covers, or review options for [roof repair](/roof-repair-newark-nj).",
     "metaDescription": "A roof maintenance program has no flat annual price; cost runs per square foot per year. Proactive upkeep costs $0.14 vs $0.25/sf/yr, per Roofing Contractor."
   },
   {
@@ -568,14 +568,14 @@ export const repairMaintenanceArticles: ArticleContent[] = [
       {
         "heading": "Local References and an Established Essex County, NJ Presence Matter",
         "body": [
-          "**Local references and an established Essex County presence** matter because [a maintenance program](/roof-maintenance-programs-in-newark-nj) runs for years, and a contractor likely to remain in business carries the program through to the life extension it promises. The Firestone/ProLogis 15-year dataset reported by Roofing Contractor magazine found proactive maintenance extending commercial roof life to 21 years against 13 years under reactive maintenance, a roughly 8-year, 62% extension that only a sustained relationship delivers.",
+          "**Local references and an established Essex County presence** matter because [a maintenance program](/roof-maintenance-programs-newark-nj) runs for years, and a contractor likely to remain in business carries the program through to the life extension it promises. The Firestone/ProLogis 15-year dataset reported by Roofing Contractor magazine found proactive maintenance extending commercial roof life to 21 years against 13 years under reactive maintenance, a roughly 8-year, 62% extension that only a sustained relationship delivers.",
           "**A consistent, documented program** is what turns that life extension into reality rather than a one-time visit. ARMA finds proper maintenance extends asphalt shingle lifespan by roughly 25 to 30%, and the NRCA finds balanced attic ventilation extends roof life by up to 25%, results that depend on the same contractor returning each spring and fall and recording each visit in a written condition report."
         ]
       }
     ],
     "conclusion": "Choosing a roof maintenance programs contractor comes down to verifiable facts, not certifications: an active New Jersey HIC registration with a 13VH number on the contract and advertising, a carrier-issued Certificate of Insurance showing at least $500,000 in liability coverage, a written contract over $500 with an itemized estimate, local references, and a documented baseline assessment. Confirm each before signing, and the program rests on accountability rather than promises.",
     "ctaHeading": "Talk Through a Roof Maintenance Plan in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate and a documented baseline assessment, and review our [roof inspection](/roof-inspection-in-newark-nj) and [roof repair](/roof-repair-in-newark-nj) services.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a free written estimate and a documented baseline assessment, and review our [roof inspection](/roof-inspection-newark-nj) and [roof repair](/roof-repair-newark-nj) services.",
     "metaDescription": "Choose a roof maintenance contractor by verifiable NJ facts: HIC registration, the 13VH number, $500,000 liability insurance, and a written contract."
   },
   {
@@ -613,7 +613,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Spreading ceiling stains, active dripping, a musty attic odor, corroded flashing, a cracked pipe boot, and damp insulation each signal that water is entering or that a roof detail has failed — and because the entry point sits feet from the drip, an accurate diagnosis traces the moisture path to its source before any sealing begins.",
     "ctaHeading": "Trace Your Roof Leak to Its Source",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace a leak to the failed flashing, shingle, pipe-boot, or valley detail before sealing it. Reach out to schedule a documented [roof leak repair](/roof-leak-repair-in-newark-nj) assessment.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace a leak to the failed flashing, shingle, pipe-boot, or valley detail before sealing it. Reach out to schedule a documented [roof leak repair](/roof-leak-repair-newark-nj) assessment.",
     "metaDescription": "Signs you need roof leak repair: spreading ceiling stains, active dripping, a musty attic odor, corroded flashing, a cracked pipe boot, and damp insulation."
   },
   {
@@ -635,7 +635,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
       {
         "heading": "Leak Repair Cost Varies by Source, Severity, and Roof Type",
         "body": [
-          "**Leak repair carries no fixed whole-job total because the cost varies by source, severity, and roof type**, so most [leak repairs](/roof-leak-repair-in-newark-nj) land in a $150 to $1,000-plus range rather than one number, per HomeAdvisor, Modernize, and Angi cost data. A flashing reseal, a pipe-boot replacement, a valley rebuild, and a membrane seam repair each price on their own scope.",
+          "**Leak repair carries no fixed whole-job total because the cost varies by source, severity, and roof type**, so most [leak repairs](/roof-leak-repair-newark-nj) land in a $150 to $1,000-plus range rather than one number, per HomeAdvisor, Modernize, and Angi cost data. A flashing reseal, a pipe-boot replacement, a valley rebuild, and a membrane seam repair each price on their own scope.",
           "**The diagnosis itself drives the cost**, because roughly 90 to 95 percent of roof leaks originate at flashing details and only 5 to 10 percent at the open shingle field, an industry estimate attributed to the NRCA. Water enters at one detail and travels along rafters and sheathing before showing as an interior stain, so the entry point sits feet away from the visible drip, per Integrity Home Exteriors repair-process guidance; pricing a repair before tracing the source guesses at the scope.",
           "**New Jersey figures sit 10 to 40 percent above national ranges** because labor accounts for roughly 60 percent of a repair total and the state code is stricter, per Integrity Home Exteriors. Because the source detail and roof type set the number, Newark Quality Roofing provides a free written estimate that documents the diagnosed source rather than a phone quote against an unseen roof."
         ]
@@ -651,7 +651,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Roof leak repair carries no single whole-job total: a typical New Jersey repair runs $400 to $1,000 with minor leaks at $150 to $400 and a flashing reseal at $200 to $500, per HomeAdvisor and Modernize, while commercial membrane work prices separately per Angi. Because the diagnosed source and roof type set the figure, a documented written estimate beats any phone quote.",
     "ctaHeading": "Get a Free Written Leak-Repair Estimate in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace the leak to its source detail and document the diagnosed source, scope, and price in a free written estimate before any work begins. Explore our [roof repair](/roof-repair-in-newark-nj) options to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace the leak to its source detail and document the diagnosed source, scope, and price in a free written estimate before any work begins. Explore our [roof repair](/roof-repair-newark-nj) options to start.",
     "metaDescription": "Roof leak repair in NJ runs $400-$1,000 (HomeAdvisor/Modernize), minor leaks $150-$400, valley $400-$1,000+. No single whole-job total; cost varies by source."
   },
   {
@@ -690,7 +690,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "A sound roof leak repair contractor verifies cleanly: active NJ HIC registration with a current 13VH number, a Certificate of Insurance from the carrier showing at least $500,000 in liability coverage, a written contract over $500, an itemized written estimate, local references, and a documented assessment that traces the leak to its source before any work begins.",
     "ctaHeading": "Get a Documented Roof Leak Assessment in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace the leak to its source, document the failed detail, and provide a free written estimate. Explore our [roof leak repair](/roof-leak-repair-in-newark-nj) service to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We trace the leak to its source, document the failed detail, and provide a free written estimate. Explore our [roof leak repair](/roof-leak-repair-newark-nj) service to start.",
     "metaDescription": "Choose a NJ roof leak repair contractor by verifying HIC registration, $500,000 liability insurance, a written contract, and a documented leak assessment."
   },
   {
@@ -733,7 +733,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Read storm damage as a pattern, not a single shingle: edge-and-corner wind lift, random hail bruising with metal dents and lost granules, post-storm stains, and displaced flashing each mark a storm-opened detail that water exploits, and prompt documentation of that pattern supports both the repair and the insurance claim.",
     "ctaHeading": "Get Your Storm Damage Assessed and Documented",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document storm damage with timestamped photos and a written scope for your adjuster, then handle the [storm damage roof repair](/storm-damage-roof-repair-in-newark-nj) to specification.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document storm damage with timestamped photos and a written scope for your adjuster, then handle the [storm damage roof repair](/storm-damage-roof-repair-newark-nj) to specification.",
     "metaDescription": "Signs you need storm damage roof repair: wind-lifted shingles at edges, circular hail bruises, dented gutters, post-storm ceiling stains, displaced flashing."
   },
   {
@@ -770,7 +770,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Storm-damage roof repair carries no single whole-job total: most repairs run roughly $400 to $2,000 per HomeAdvisor and Angi, hail repair reaches $3,000 to $12,000 per Angi, and New Jersey costs sit 10 to 40% above national figures per Integrity Home Exteriors — with damage above 25 to 30% of the roof shifting to full replacement, and a free written estimate setting the real number for your roof.",
     "ctaHeading": "Get a Free Written Storm-Damage Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that documents the damage with timestamped photographs and measurements for your adjuster. Explore our [storm damage roof repair](/storm-damage-roof-repair-in-newark-nj) services.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free written estimate that documents the damage with timestamped photographs and measurements for your adjuster. Explore our [storm damage roof repair](/storm-damage-roof-repair-newark-nj) services.",
     "metaDescription": "Storm-damage roof repair in NJ runs roughly $400–$2,000 for most repairs, hail $3,000–$12,000 (Angi); priced per repair, 10–40% above national. Free estimate."
   },
   {
@@ -807,7 +807,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "A storm-damage roof repair contractor verifies cleanly: an active 13VH New Jersey Home Improvement Contractor registration, a Certificate of Insurance from the carrier showing at least $500,000 per occurrence, a written contract over $500 with the three-day cancellation right, an itemized estimate, local references, and a documented storm assessment. Run those checks before any deposit, and treat an Assignment of Benefits request or a deductible-waiver promise as a reason to walk away.",
     "ctaHeading": "Get a Documented Storm-Damage Assessment in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document storm damage with timestamped photographs and a written estimate for your adjuster. Reach out to start your [storm damage roof repair](/storm-damage-roof-repair-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document storm damage with timestamped photographs and a written estimate for your adjuster. Reach out to start your [storm damage roof repair](/storm-damage-roof-repair-newark-nj).",
     "metaDescription": "Choose a storm-damage roof repair contractor in NJ: verify 13VH HIC registration, $500,000 liability insurance, a written contract, and local references."
   },
   {
@@ -849,7 +849,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Hail damage is confirmed by close-range functional signs — bruises, exposed mat, cracked edges, and dented metal — not by a glance from the ground, and a prompt, documented inspection after a storm establishes the evidence an insurance claim depends on.",
     "ctaHeading": "Get Your Roof Inspected for Hail Damage",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess hail damage with a documented test-square method and provide a free written estimate for any needed [hail damage roof repair](/hail-damage-roof-repair-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess hail damage with a documented test-square method and provide a free written estimate for any needed [hail damage roof repair](/hail-damage-roof-repair-newark-nj).",
     "metaDescription": "Hail damage signs: bruises and soft spots, granule loss exposing the mat, cracked shingle edges, and dented metal flashing, per IBHS and the AMS."
   },
   {
@@ -886,7 +886,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Hail damage roof repair in New Jersey carries no flat whole-job price: minor and moderate repairs run $500–$3,500 per HomeAdvisor, Angi, and This Old House, the upper $4,000–$12,000 band is partial replacement priced per square, and widespread damage usually becomes an insurance-covered replacement — so a documented, written estimate is the only honest number.",
     "ctaHeading": "Get a Free Written Hail Damage Estimate in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a free written estimate, document the damage with a test-square assessment for your insurance claim, and itemize the scope so you can match it against the settlement. Explore our [hail damage roof repair](/hail-damage-roof-repair-in-newark-nj) service to start.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a free written estimate, document the damage with a test-square assessment for your insurance claim, and itemize the scope so you can match it against the settlement. Explore our [hail damage roof repair](/hail-damage-roof-repair-newark-nj) service to start.",
     "metaDescription": "Hail damage roof repair in NJ runs $500–$1,500 minor, $1,500–$3,500 moderate per HomeAdvisor/Angi; severe damage means insurance-covered replacement."
   },
   {
@@ -925,7 +925,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Choosing a hail damage roof repair contractor comes down to checks anyone can run: active 13VH HIC registration confirmed with the NJ Division of Consumer Affairs, a Certificate of Insurance for at least $500,000 per occurrence from the carrier, a written contract over $500, an itemized estimate, local references, and a documented test-square assessment. Verifiable credentials and documentation, not inspector certifications, are what stand up to an insurer's review.",
     "ctaHeading": "Get a Documented Hail Assessment in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document hail damage with a test-square assessment and provide a free written estimate for your [hail damage roof repair](/hail-damage-roof-repair-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We document hail damage with a test-square assessment and provide a free written estimate for your [hail damage roof repair](/hail-damage-roof-repair-newark-nj).",
     "metaDescription": "Choose a hail damage roof repair contractor by verifiable NJ HIC registration, carrier insurance, a written contract, and a documented test-square assessment."
   },
   {
@@ -960,7 +960,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Read the perimeter first: lifted or torn tabs and peeled ridge caps at the corners and rakes, shingles that lift by hand from a broken seal, rusted or displaced flashing, and ballooning low-slope membrane are the signs that wind separated the covering and the roof needs repair.",
     "ctaHeading": "Get Your Wind-Damaged Roof Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We test shingle seals by hand and assess the corners, rakes, and ridge before any quote — request a free written estimate for your [wind damage roof repair](/wind-damage-roof-repair-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We test shingle seals by hand and assess the corners, rakes, and ridge before any quote — request a free written estimate for your [wind damage roof repair](/wind-damage-roof-repair-newark-nj).",
     "metaDescription": "Signs you need wind damage roof repair: lifted or torn shingle tabs and peeled ridge caps at the corners and rakes, broken seals, and displaced flashing."
   },
   {
@@ -974,7 +974,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
       {
         "heading": "NJ Wind Repairs Are Priced Per Repair, From $150 to $500 Each",
         "body": [
-          "**Each wind repair carries its own range**, because [wind damage](/wind-damage-roof-repair-in-newark-nj) is priced per repair rather than as one whole-job total. Replacing a few blown-off or creased shingles runs $150–$500, per Reliable Roofing Restoration and Modernize cost data, and resealing lifted flashing or a small flashing section runs $200–$500, per Modernize flashing cost data.",
+          "**Each wind repair carries its own range**, because [wind damage](/wind-damage-roof-repair-newark-nj) is priced per repair rather than as one whole-job total. Replacing a few blown-off or creased shingles runs $150–$500, per Reliable Roofing Restoration and Modernize cost data, and resealing lifted flashing or a small flashing section runs $200–$500, per Modernize flashing cost data.",
           "**Low-slope membrane repair** prices separately from shingle work, because wind negative pressure loosens an EPDM or TPO membrane at its seams. A low-slope membrane seam re-weld runs $200–$400 and a section replacement $500–$1,000, per Modernize and WeatherShield cost data. Across these repair types, most wind repairs span $150–$2,000+, a range built from per-repair figures rather than a single combined job price.",
           "**The lack of a flat whole-job number** reflects how wind separates a roof at the corners, rakes, and edges first, where uplift reaches roughly 2–3 times the field pressure, per ASCE 7 component-and-cladding pressure coefficients and general wind-engineering principles. The repaired area depends on how far that perimeter damage extends, so a documented inspection sets the scope before any price."
         ]
@@ -996,7 +996,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Wind damage roof repair has no single sticker price — it is priced per repair, from $150–$500 for blown-off shingles to $500–$1,000 for a membrane section, with New Jersey ranges running 10–40% above national figures, so a free written estimate sets the real number for your roof.",
     "ctaHeading": "Get a Free Written Wind-Damage Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a documented wind-damage assessment and a free, itemized written estimate that sets the scope, materials, and price before any [roof repair](/roof-repair-in-newark-nj) begins.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a documented wind-damage assessment and a free, itemized written estimate that sets the scope, materials, and price before any [roof repair](/roof-repair-newark-nj) begins.",
     "metaDescription": "Wind damage roof repair in NJ is priced per repair: blown-off shingles $150–$500, flashing reseal $200–$500, membrane section $500–$1,000. Free estimate."
   },
   {
@@ -1034,7 +1034,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "A wind damage roof repair contractor worth signing verifies cleanly: an active 13VH HIC registration in the NJ Division of Consumer Affairs registry, a Certificate of Insurance from the carrier showing at least $500,000 in coverage, a written contract over $500 with an itemized estimate, local references, and a documented assessment that inspects the corners and rakes first and tests seals by hand.",
     "ctaHeading": "Get a Documented Wind Damage Repair Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a written contract, a Certificate of Insurance on request, and an itemized written estimate with timestamped photographs for your claim. Reach out to discuss your [wind damage roof repair](/wind-damage-roof-repair-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We provide a written contract, a Certificate of Insurance on request, and an itemized written estimate with timestamped photographs for your claim. Reach out to discuss your [wind damage roof repair](/wind-damage-roof-repair-newark-nj).",
     "metaDescription": "Choose a wind damage roof repair contractor by verifiable NJ credentials: active 13VH HIC registration, $500,000 liability insurance, a written estimate."
   },
   {
@@ -1071,7 +1071,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "Visible moss, dark streaking, crusty lichen, and granule grit in the gutters are the signs a roof needs cleaning, and the shaded, debris-holding slopes show them first. Clearing the growth with a low-pressure chemical wash, before granule loss passes the roughly 30% threshold per GAF and InterNACHI, protects the roof rather than replaces it.",
     "ctaHeading": "Have Your Roof Growth Assessed",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free assessment that identifies the growth and rates the roof-covering condition before any [roof cleaning and moss removal](/roof-cleaning-moss-removal-in-newark-nj).",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Request a free assessment that identifies the growth and rates the roof-covering condition before any [roof cleaning and moss removal](/roof-cleaning-moss-removal-newark-nj).",
     "metaDescription": "The signs you need roof cleaning: green moss on shingle edges, dark Gloeocapsa magma streaking, grey-green lichen, and granule grit in gutters (per ARMA)."
   },
   {
@@ -1085,7 +1085,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
       {
         "heading": "Roof Cleaning and Moss Removal Costs $300 to $1,050, Averaging $675",
         "body": [
-          "**Roof cleaning costs $300 to $1,050, an average of $675 for a 1,500-square-foot home, at $0.20 to $0.70 per square foot**, per This Old House. [Moss removal](/roof-cleaning-moss-removal-in-newark-nj) is included in most basic cleanings at that same per-square-foot rate, so a moss job and a streak job on the same roof generally price the same way, per This Old House.",
+          "**Roof cleaning costs $300 to $1,050, an average of $675 for a 1,500-square-foot home, at $0.20 to $0.70 per square foot**, per This Old House. [Moss removal](/roof-cleaning-moss-removal-newark-nj) is included in most basic cleanings at that same per-square-foot rate, so a moss job and a streak job on the same roof generally price the same way, per This Old House.",
           "**A moss-prevention treatment after the cleaning adds $150 to $250**, per This Old House. The treatment slows regrowth on an existing roof, which matters because proper maintenance extends asphalt-shingle service life by roughly 25 to 30%, per ARMA, so the prevention cost offsets earlier wear.",
           "**Zinc applied as strips or powder costs $0.05 to $0.15 per square foot**, per This Old House, but only at a roof replacement. ARMA does not recommend adding zinc or copper strips to an existing roof, because the strips require exposed nails that cause leaks over time or break the sealant bond, so this line item belongs to a re-roof, not a cleaning."
         ]
@@ -1108,7 +1108,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "A roof cleaning is a small per-job cost rather than a whole-roof project total: $300 to $1,050 for a typical home, with optional prevention adding $150 to $250, per This Old House. A written estimate that follows an on-site assessment, names the low-pressure chemical method, and rates the roof condition keeps the price honest and the granules intact.",
     "ctaHeading": "Get a Free Written Roof Cleaning Estimate",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess the roof on site, identify the growth, rate the covering condition, and provide a free written estimate for the cleaning — or for a [roof replacement](/roof-replacement-in-newark-nj) if the granule loss has gone too far.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. We assess the roof on site, identify the growth, rate the covering condition, and provide a free written estimate for the cleaning — or for a [roof replacement](/roof-replacement-newark-nj) if the granule loss has gone too far.",
     "metaDescription": "Roof cleaning and moss removal in NJ runs $300–$1,050 (avg $675 for a 1,500-sf home) at $0.20–$0.70/sq ft, per This Old House. Prevention adds $150–$250."
   },
   {
@@ -1131,7 +1131,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
         "heading": "A Written Contract Is Required for NJ Work Over $500 Under N.J.A.C. 13:45A-16.2",
         "body": [
           "**A written contract and an itemized written estimate** document the scope before the wash begins, and New Jersey requires a signed written contract for any home-improvement work over $500 under N.J.A.C. 13:45A-16.2.",
-          "**The written contract** carries both parties' signatures, start and end dates, and the total price under N.J.A.C. 13:45A-16.2, which gives the homeowner a record of what was agreed. **The itemized estimate** names the cleaning method, the chemistry, and the areas treated rather than a single sight-unseen phone number. A contractor who quotes a [roof-cleaning price](/roof-cleaning-moss-removal-in-newark-nj) without inspecting the roof has not identified the growth or rated the covering condition.",
+          "**The written contract** carries both parties' signatures, start and end dates, and the total price under N.J.A.C. 13:45A-16.2, which gives the homeowner a record of what was agreed. **The itemized estimate** names the cleaning method, the chemistry, and the areas treated rather than a single sight-unseen phone number. A contractor who quotes a [roof-cleaning price](/roof-cleaning-moss-removal-newark-nj) without inspecting the roof has not identified the growth or rated the covering condition.",
           "**The estimate also names the cleaning method.** A contractor who cleans by the ARMA low-pressure chemical method applies a 50:50 laundry-strength chlorine-bleach-and-water solution, holds it for a 15-to-20-minute dwell, and finishes with a low-pressure rinse, per ARMA. ARMA states that pressure-washing an asphalt shingle roof causes granule loss and premature failure of the roof system, so an estimate naming a low-pressure chemical wash rather than a pressure wash reflects the recognized method."
         ]
       },
@@ -1146,7 +1146,7 @@ export const repairMaintenanceArticles: ArticleContent[] = [
     ],
     "conclusion": "A roof cleaning and moss removal contractor checks out cleanly on paper: active 13VH HIC registration, a carrier-issued Certificate of Insurance for at least $500,000 per occurrence, a written contract over $500 with an itemized estimate that names the ARMA low-pressure chemical method, local references, and a documented assessment that rates the covering before quoting.",
     "ctaHeading": "Get a Documented Roof Cleaning Assessment in Essex County, NJ",
-    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a documented pre-cleaning assessment and an itemized written estimate that names the cleaning method and chemistry, or review related [roof repair](/roof-repair-in-newark-nj) options.",
+    "ctaText": "Newark Quality Roofing is a registered New Jersey Home Improvement Contractor, insured and serving Essex County. Reach out for a documented pre-cleaning assessment and an itemized written estimate that names the cleaning method and chemistry, or review related [roof repair](/roof-repair-newark-nj) options.",
     "metaDescription": "Choose a roof cleaning and moss removal contractor in NJ: verify 13VH HIC registration, $500,000 liability insurance, and a written contract."
   }
 ];

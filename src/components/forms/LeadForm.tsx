@@ -12,7 +12,7 @@ interface LeadFormProps {
   variant?: 'hero' | 'standard';
   serviceGroups: NavServiceGroup[];
   /**
-   * RESTRUCTURE 2026-10-23 (Paul's direction, /roof-repair-in-newark-nj
+   * RESTRUCTURE 2026-10-23 (Paul's direction, /roof-repair-newark-nj
    * only): on mobile widths the form card starts collapsed behind a tap
    * target; on desktop (lg+) it always renders in full. Callers pass this
    * for the one page only, so every other page's form markup is unchanged.

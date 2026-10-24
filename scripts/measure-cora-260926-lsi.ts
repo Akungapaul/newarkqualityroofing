@@ -1,5 +1,5 @@
 /** Measurements for the 2026-09-26 CORA roadmap LSI completion pass
- * (second pass) on /roof-repair-in-newark-nj, keyword "roof repair".
+ * (second pass) on /roof-repair-newark-nj, keyword "roof repair".
  *
  * Unlike scripts/measure-cora-260926.ts (which used the 2026-09-11 run's
  * 264-term inventory from src/data/cora-phase2-content.ts), this script uses
@@ -81,7 +81,7 @@ function metrics(html: string) {
 async function main() {
   let liveHtml: string;
   try {
-    liveHtml = await (await fetch('https://newarkqualityroofing.com/roof-repair-in-newark-nj')).text();
+    liveHtml = await (await fetch('https://newarkqualityroofing.com/roof-repair-newark-nj')).text();
   } catch {
     const fallback = process.env.CORA_LIVE_HTML ?? '/tmp/cora-lsi/live-now.html';
     liveHtml = fs.readFileSync(fallback, 'utf8');

@@ -1,5 +1,5 @@
 // CORA 261021 rerun roadmap supplemental block for
-// /roof-replacement-in-newark-nj (keyword "roof replacement
+// /roof-replacement-newark-nj (keyword "roof replacement
 // newark nj", run M2, 2026-10-21 16:33:50). Built under the
 // Formula (full read of the .xlsx + .html + -docs.html, every
 // line traced to goal / setter / inventory before building)

@@ -22,7 +22,7 @@ interface ServiceHeroProps {
   lead?: React.ReactNode;
   /**
    * RESTRUCTURE 2026-10-23: forward LeadForm's mobileCollapsed to the hero
-   * form. Passed only for /roof-repair-in-newark-nj; every other page's hero
+   * form. Passed only for /roof-repair-newark-nj; every other page's hero
    * form renders exactly as before.
    */
   minimizeFormOnMobile?: boolean;

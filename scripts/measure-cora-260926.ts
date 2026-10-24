@@ -1,5 +1,5 @@
 /** Transparent before/after measurements for the 2026-09-26 CORA roadmap
- * implementation on /roof-repair-in-newark-nj (keyword "roof repair").
+ * implementation on /roof-repair-newark-nj (keyword "roof repair").
  * Extends the scripts/measure-cora-phase2.ts pattern: live production HTML
  * ("before") vs the local production build ("after"). A CORA rerun by the
  * owner remains the authoritative check; this only proves the adds landed.
@@ -157,7 +157,7 @@ function metrics(html: string) {
 async function main() {
   let liveHtml: string;
   try {
-    liveHtml = await (await fetch('https://newarkqualityroofing.com/roof-repair-in-newark-nj')).text();
+    liveHtml = await (await fetch('https://newarkqualityroofing.com/roof-repair-newark-nj')).text();
   } catch {
     const fallback = process.env.CORA_LIVE_HTML ?? '/home/hatch/workspace/vps-reports/live/roof-repair-live.html';
     liveHtml = fs.readFileSync(fallback, 'utf8');

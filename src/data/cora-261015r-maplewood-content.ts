@@ -330,7 +330,7 @@ export const coraReplMaplewoodCardFields = [
 // itself lists.
 export const coraReplMaplewoodRecordLinks = [
   { href: '/roof-repair-maplewood-nj', label: 'Roof repair in Maplewood, NJ — the repair record behind these replacement files' },
-  { href: '/roof-repair-and-installation-in-maplewood-nj', label: 'Roof repair and installation in Maplewood, NJ — the combined service record' },
+  { href: '/roof-repair-and-installation-maplewood-nj', label: 'Roof repair and installation in Maplewood, NJ — the combined service record' },
   { href: '/roof-inspection-maplewood-nj', label: 'Roof inspection in Maplewood, NJ — the inspection that opens every file' },
   { href: '/storm-damage-roof-repair-maplewood-nj', label: 'Storm damage roof repair in Maplewood, NJ — the storm record' },
 ];

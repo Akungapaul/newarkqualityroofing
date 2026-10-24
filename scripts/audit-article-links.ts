@@ -5,7 +5,7 @@
  * money pages:
  *   - its parent money page (service page / comparison page; core → /roofing-services)
  *     — required IN-BODY (this audit)
- *   - the roof-replacement cost article additionally links /roof-replacement-cost-in-newark-nj
+ *   - the roof-replacement cost article additionally links /roof-replacement-cost-newark-nj
  *   - its pillar hub (/residential-roofing or /commercial-roofing) — rendered
  *     structurally by ArticleCta via getArticlePillarHub() on EVERY article, so
  *     it is NOT required in-body (in-body hub links exist only where the prose
@@ -41,7 +41,7 @@ function requiredTargets(articleId: string): string[] {
   if (a.parentType === 'service') {
     const s = svc.get(a.parentId)!;
     targets.push(`/${generateServicePageSlug(s.slug)}`);
-    if (a.parentId === 'roof-replacement' && a.id.includes('cost')) targets.push('/roof-replacement-cost-in-newark-nj');
+    if (a.parentId === 'roof-replacement' && a.id.includes('cost')) targets.push('/roof-replacement-cost-newark-nj');
   } else if (a.parentType === 'comparison') {
     const c = cmp.get(a.parentId)!;
     targets.push(`/${c.slug}`);
