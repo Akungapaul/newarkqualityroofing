@@ -176,10 +176,12 @@ import {
   coraReplNorthCaldwellTitle,
 } from '@/data/cora-261015r-north-caldwell-content';
 import {
-  coraReplIrvingtonMetaDescription,
   coraReplIrvingtonMetaKeywords,
-  coraReplIrvingtonTitle,
 } from '@/data/cora-261015r-irvington-content';
+import {
+  coraReplIrvingtonMetaDescription261023 as coraReplIrvingtonMetaDescription,
+  coraReplIrvingtonTitle261023 as coraReplIrvingtonTitle,
+} from '@/data/cora-261023-irvington-content';
 import {
   coraReplBloomfieldMetaDescription,
   coraReplBloomfieldMetaKeywords,
