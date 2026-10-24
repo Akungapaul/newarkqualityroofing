@@ -156,8 +156,8 @@ import {
 import {
   coraReplNutleyMetaDescription,
   coraReplNutleyMetaKeywords,
-  coraReplNutleyTitle,
 } from '@/data/cora-261015r-nutley-content';
+import { coraReplNutleyTitle261023 as coraReplNutleyTitle } from '@/data/cora-261023-nutley-content';
 import {
   coraReplMontclairMetaDescription,
   coraReplMontclairMetaKeywords,
