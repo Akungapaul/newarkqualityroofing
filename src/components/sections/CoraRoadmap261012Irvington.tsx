@@ -75,6 +75,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import { combos } from '@/data/combos';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
@@ -329,10 +331,26 @@ const socialReferences = [
 const irvingtonSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
+    buildRoofingContractorNodeSchema(),
     {
       '@type': ['LocalBusiness', 'RoofingContractor'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      // Group 2 credited-form package (2026-10-24): legalName
+      // from the canonical config; scalar availableLanguage
+      // 'English' + ContactPoint; the 261013 rerun's
+      // priceRange line in the tier form the shared builders
+      // publish.
+      legalName: canonicalConfig.legalName,
+      priceRange: '$$',
+      availableLanguage: 'English',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       url: pageUrl,
       email: siteConfig.email,
       address: {
@@ -570,6 +588,17 @@ export function CoraRoadmap261012Irvington() {
         ))}
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
+          <meta itemProp="legalName" content={canonicalConfig.legalName} />
+          <meta itemProp="priceRange" content="$$" />
+          <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
+            <meta itemProp="addressLocality" content="Newark" />
+            <meta itemProp="addressRegion" content="NJ" />
+            <meta itemProp="addressCountry" content="US" />
+          </span>
+          <span itemScope itemType="https://schema.org/LocalBusiness" className="hidden" aria-hidden="true">
+            <meta itemProp="name" content="Newark Quality Roofing" />
+            <meta itemProp="url" content={pageUrl} />
+          </span>
           <p className={vClass(7)}>
             <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
             <u>roof repair in Irvington, NJ</u> and across Essex County from{' '}
