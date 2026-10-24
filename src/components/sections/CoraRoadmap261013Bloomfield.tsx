@@ -80,6 +80,8 @@
 
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraBloomfieldBlockIntro,
   coraBloomfieldBlockSummary,
@@ -121,6 +123,22 @@ const pageUrl = 'https://newarkqualityroofing.com/roof-repair-bloomfield-nj';
 // WebPage.isPartOf, WebPage.breadcrumb, Service.provider,
 // Service.mainEntityOfPage / business.mainEntityOfPage) against
 // the +4 Entity References ask. No rating node of any kind.
+//
+// Group 2 credited-form fix (2026-10-24, master ledger fix queue):
+// the dedicated plain-string RoofingContractor node from
+// src/lib/schema.ts joins this graph (array-valued @type reads 0 to
+// Cora's parser — Form Library; the array-typed node stays for its
+// LocalBusiness literal-match family); legalName from the canonical
+// config (the 261013 legalName pair, never built) with its microdata
+// twin; scalar availableLanguage 'English' on the business node and
+// its ContactPoint (credited shape); the streetAddress key is
+// omitted while the canonical street is empty (the forbidden
+// empty-string form). The h-card also gains the Person/jobTitle
+// microdata carrier (the Montclair precedent) and drops its empty
+// streetAddress meta. The identifier family (propertyID / identifier
+// / PropertyValue / value) and the GovernmentOrganization pair stay
+// unbuilt — no identifier of record and no government relationship
+// exists to carry them honestly (diligence in the Group 2 report).
 const bloomfieldSchemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -128,13 +146,24 @@ const bloomfieldSchemaGraph = {
       '@type': ['RoofingContractor', 'LocalBusiness'],
       '@id': `${pageUrl}#localbusiness`,
       name: 'Newark Quality Roofing',
+      legalName: canonicalConfig.legalName,
+      availableLanguage: 'English',
       url: pageUrl,
       email: siteConfig.email,
       telephone: siteConfig.phone.tel,
       mainEntityOfPage: { '@id': pageUrl },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
       address: {
         '@type': 'PostalAddress',
-        streetAddress: siteConfig.address.street,
+        ...(siteConfig.address.street
+          ? { streetAddress: siteConfig.address.street }
+          : {}),
         addressLocality: 'Newark',
         addressRegion: 'NJ',
         addressCountry: 'US',
@@ -145,6 +174,7 @@ const bloomfieldSchemaGraph = {
         { '@type': 'GeoShape', postalCode: '07003', addressCountry: 'US' },
       ],
     },
+    buildRoofingContractorNodeSchema(),
     {
       '@type': 'WebPage',
       '@id': pageUrl,
@@ -302,7 +332,11 @@ export function CoraRoadmap261013Bloomfield() {
 
         <div className="h-card" itemScope itemType="https://schema.org/RoofingContractor">
           <p className={pClass}>
-            <span className="p-name" itemProp="name">Newark Quality Roofing</span> provides{' '}
+            <span className="p-name" itemProp="name">Newark Quality Roofing</span>
+            <meta itemProp="legalName" content={canonicalConfig.legalName} />
+            <span itemProp="employee" itemScope itemType="https://schema.org/Person">
+              <meta itemProp="jobTitle" content="Roofing Contractor" />
+            </span> provides{' '}
             <u>roof repair in Bloomfield, NJ</u> and across Essex County from{' '}
             <a className="u-url" href={pageUrl}>the Bloomfield roof repair page</a>.
             Write to{' '}
@@ -312,7 +346,9 @@ export function CoraRoadmap261013Bloomfield() {
           <p className={pClass}>
             The record is kept by Newark Quality Roofing,{' '}
             <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-              <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              {siteConfig.address.street ? (
+                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              ) : null}
               <span itemProp="addressLocality">Newark</span>,{' '}
               <span itemProp="addressRegion">NJ</span>,{' '}
               <span itemProp="addressCountry">US</span>
