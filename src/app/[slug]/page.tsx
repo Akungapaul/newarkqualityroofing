@@ -147,6 +147,7 @@ import {
   coraReplNewarkMetaKeywords,
   coraReplNewarkTitle,
 } from '@/data/cora-261021-newark-content';
+import { cora261024NewarkRepairMetaKeywords } from '@/data/cora-261024-newark-repair-content';
 import {
   coraReplCaldwellMetaDescription,
   coraReplCaldwellMetaKeywords,
@@ -330,6 +331,12 @@ export async function generateMetadata({
       // slug itself does not change. Scoped to this one service — every
       // other service page's metadata is computed exactly as before.
       const isCoraReplNewark = service.id === 'roof-replacement';
+      // CORA 261024 (roof repair Newark hub only): CP438 Number of
+      // Meta Keywords 9 -> 14. Applied as this scoped override
+      // because the services schema caps metaKeywords at 9; the
+      // roof-repair service's only hub page is
+      // /roof-repair-in-newark-nj, so no other page changes.
+      const isCora261024NewarkRepair = service.id === 'roof-repair';
       const finalServiceTitle = isCoraReplNewark ? coraReplNewarkTitle : serviceTitle;
       const finalServiceDescription = isCoraReplNewark ? coraReplNewarkMetaDescription : serviceDescription;
       return {
@@ -341,7 +348,7 @@ export async function generateMetadata({
         // CORA 2026-10-14 (Newark replacement only): the served page had NO
         // meta keywords tag; this creates it with the 9-keyword set from the
         // roof_replacement_newark_nj phrase roadmap.
-        keywords: isCoraReplNewark ? coraReplNewarkMetaKeywords : service.metaKeywords,
+        keywords: isCoraReplNewark ? coraReplNewarkMetaKeywords : isCora261024NewarkRepair ? cora261024NewarkRepairMetaKeywords : service.metaKeywords,
         alternates: { canonical: `/${servicePageSlug}` },
         // CORA 2026-09-26 line 43: OpenGraph type "article" for this page only.
         // RESIDUAL 261015 (Newark replacement only): og:description := the
