@@ -80,6 +80,9 @@
 // meta-counters, and Dirs in Path (SERP-structural).
 
 import { JsonLd } from '@/components/seo/JsonLd';
+import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraWestOrangeBlockIntro,
   coraWestOrangeBlockSummary,
@@ -137,18 +140,79 @@ const westOrangeBreadcrumb = {
   ],
 };
 
+// Group 2 credited-form package (2026-10-24): the 261014
+// roadmap DOES roadmap the ContactPoint / contactType /
+// Person pairs for this page (master ledger Group 2). The
+// business node + ContactPoint go in this graph; the
+// credited plain-string node rides alongside; the microdata
+// twins ride the standard WebPage shell below as a
+// metas-only business itemscope (the Caldwell form — this
+// block has no card). Zero visible change.
+const westOrangeBusinessGraph = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    buildRoofingContractorNodeSchema(),
+    {
+      '@type': ['RoofingContractor', 'LocalBusiness'],
+      '@id': `${pageUrl}#localbusiness`,
+      name: 'Newark Quality Roofing',
+      legalName: canonicalConfig.legalName,
+      url: pageUrl,
+      telephone: siteConfig.phone.tel,
+      email: siteConfig.email,
+      availableLanguage: 'English',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: siteConfig.phone.tel,
+        contactType: 'customer service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
+      employee: {
+        '@type': 'Person',
+        jobTitle: 'Roofing Contractor',
+      },
+      areaServed: [
+        { '@type': 'City', name: 'West Orange, NJ' },
+        { '@type': 'State', name: 'New Jersey' },
+        { '@type': 'AdministrativeArea', name: 'Essex County, NJ' },
+      ],
+    },
+    {
+      '@type': 'WebPage',
+      '@id': pageUrl,
+      url: pageUrl,
+      name: 'Roof Repair West Orange, NJ',
+      about: { '@id': `${pageUrl}#localbusiness` },
+    },
+  ],
+};
+
 const h2Class = 'mt-8 mb-3 font-heading text-2xl font-semibold text-brand-navy';
 const h3Class = 'mt-6 mb-2 font-heading text-xl font-semibold text-brand-navy';
 const pClass = 'mb-4 font-body text-base leading-relaxed text-slate-700';
 
 export function CoraRoadmap261014WestOrange() {
   return (
-    <section aria-label="West Orange Roof Repair Guide and Records" className="bg-white">
+    <section aria-label="West Orange Roof Repair Guide and Records" className="bg-white" itemScope itemType="https://schema.org/WebPage">
+      <meta itemProp="name" content="Roof Repair West Orange, NJ" />
+      <meta itemProp="url" content={pageUrl} />
+      <div itemScope itemType="https://schema.org/RoofingContractor" className="hidden" aria-hidden="true">
+        <meta itemProp="name" content="Newark Quality Roofing" />
+        <meta itemProp="legalName" content={canonicalConfig.legalName} />
+        <span itemProp="contactPoint" itemScope itemType="https://schema.org/ContactPoint">
+          <meta itemProp="contactType" content="customer service" />
+        </span>
+        <span itemProp="employee" itemScope itemType="https://schema.org/Person">
+          <meta itemProp="jobTitle" content="Roofing Contractor" />
+        </span>
+      </div>
       <style>
         {`:root { ${coraWestOrangeStylePhrases.map((phrase) => `--cora-261014-wo-${phrase.replace(/ /g, '-')}: 1;`).join(' ')} }
         /* CORA 2026-10-14 (West Orange) phrase style-tag variations: ${coraWestOrangeStylePhrases.join(', ')} */`}
       </style>
       <JsonLd data={westOrangeBreadcrumb} />
+      <JsonLd data={westOrangeBusinessGraph} />
       <details className="cora-261014-west-orange-details mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-8">
         <summary className="cursor-pointer py-3 text-lg font-semibold text-brand-navy">
           {coraWestOrangeBlockSummary}
