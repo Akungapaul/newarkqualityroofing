@@ -1,5 +1,7 @@
 import { JsonLd } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
+import { buildRoofingContractorNodeSchema } from '@/lib/schema';
 import {
   coraReplVeronaBlockIntro,
   coraReplVeronaBlockSummary,
@@ -89,10 +91,26 @@ export function CoraRoadmap261015rVerona() {
   const graph = {
     '@context': 'https://schema.org',
     '@graph': [
+      buildRoofingContractorNodeSchema(),
       {
         '@type': ['RoofingContractor', 'LocalBusiness', 'Organization'],
         '@id': `${PAGE_URL}#localbusiness`,
         name: 'Newark Quality Roofing',
+        // Group 2 credited-form package (2026-10-24): legalName
+        // from the canonical config; scalar availableLanguage
+        // 'English' (the Form Library form) on the node and its
+        // ContactPoint; the streetAddress key emitted only when
+        // the canonical value is non-empty (today EMPTY under
+        // D-01 — an empty emission is a forbidden form).
+        legalName: canonicalConfig.legalName,
+        availableLanguage: 'English',
+        contactPoint: {
+          '@type': 'ContactPoint',
+          telephone: siteConfig.phone.tel,
+          contactType: 'customer service',
+          areaServed: 'US',
+          availableLanguage: 'English',
+        },
         url: 'https://newarkqualityroofing.com',
         telephone: siteConfig.phone.tel,
         email: siteConfig.email,
@@ -101,7 +119,9 @@ export function CoraRoadmap261015rVerona() {
         priceRange: '$$',
         address: {
           '@type': 'PostalAddress',
-          streetAddress: siteConfig.address.street,
+          ...(siteConfig.address.street
+            ? { streetAddress: siteConfig.address.street }
+            : {}),
           addressLocality: 'Newark',
           addressRegion: 'NJ',
           addressCountry: 'US',
@@ -293,9 +313,12 @@ export function CoraRoadmap261015rVerona() {
           itemType="https://schema.org/RoofingContractor"
           className="mt-4 rounded-xl border border-slate-200 p-5"
         >
-          <meta itemProp="streetAddress" content={siteConfig.address.street} />
+          {siteConfig.address.street ? (
+            <meta itemProp="streetAddress" content={siteConfig.address.street} />
+          ) : null}
           <p className="font-semibold text-slate-900">
             <span itemProp="name">Newark Quality Roofing</span>
+            <meta itemProp="legalName" content={canonicalConfig.legalName} />
           </p>
           <link itemProp="logo" href="https://newarkqualityroofing.com/logo.svg" />
           <p className="mt-1 text-slate-700">
@@ -304,7 +327,9 @@ export function CoraRoadmap261015rVerona() {
               itemScope
               itemType="https://schema.org/PostalAddress"
             >
-              <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              {siteConfig.address.street ? (
+                <meta itemProp="streetAddress" content={siteConfig.address.street} />
+              ) : null}
               <span itemProp="addressLocality">Newark</span>,{' '}
               <span itemProp="addressRegion">NJ</span>,{' '}
               <span itemProp="addressCountry">US</span>
