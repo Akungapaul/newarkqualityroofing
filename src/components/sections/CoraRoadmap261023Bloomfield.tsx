@@ -319,9 +319,13 @@ export function CoraRoadmap261023Bloomfield() {
           </p>
           <div
             itemScope
-            itemType="https://schema.org/RoofingContractor https://schema.org/LocalBusiness"
+            itemType="https://schema.org/RoofingContractor"
             className="record-card mb-4"
           >
+            <span itemScope itemType="https://schema.org/LocalBusiness">
+              <meta itemProp="name" content="Newark Quality Roofing" />
+              <meta itemProp="url" content="https://newarkqualityroofing.com" />
+            </span>
             <link itemProp="logo" href={LOGO_URL} />
             <link itemProp="image" href={IMAGE_URL} />
             <p className={pClass}>
