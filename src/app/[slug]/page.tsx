@@ -205,6 +205,11 @@ import {
   coraReplOrangeTitle,
 } from '@/data/cora-261023-orange-content';
 import {
+  coraReplBellevilleMetaDescription261023,
+  coraReplBellevilleMetaKeywords261023,
+  coraReplBellevilleTitle261023,
+} from '@/data/cora-261023-belleville-content';
+import {
   coraReplWestOrangeMetaDescription,
   coraReplWestOrangeMetaKeywords,
   coraReplWestOrangeTitle,
@@ -876,6 +881,20 @@ export async function generateMetadata({
         comboTitle = coraReplOrangeTitle;
         comboDescription = coraReplOrangeMetaDescription;
       }
+      // CORA 261023 rerun pass (Belleville only — this page's
+      // FIRST Cora pass against the replacement keyword; the
+      // page previously served the default combo title):
+      // title (Rule-7 lead, title variation/entity/sentiment
+      // lines, Link Text Length rider) and meta description
+      // (variation forms, ~224 chars past the 182 length
+      // goal) come from the 261023 Belleville pass. See
+      // src/data/cora-261023-belleville-content.ts and the
+      // study in the goal workspace.
+      const isCoraReplBelleville = combo.slug === 'roof-replacement-belleville-nj';
+      if (isCoraReplBelleville) {
+        comboTitle = coraReplBellevilleTitle261023;
+        comboDescription = coraReplBellevilleMetaDescription261023;
+      }
       // CORA 2026-10-15 replacement pass (first for this page):
       // the West Orange REPLACEMENT page serves its SEO title
       // (>= 5 variation occurrences, >= 5 entity occurrences,
@@ -1162,6 +1181,11 @@ export async function generateMetadata({
         // Fairfield/Roseland ruling), built from this run's
         // verbatim variation forms.
         ...(isCoraReplOrange ? { keywords: coraReplOrangeMetaKeywords } : {}),
+        // CORA 261023 rerun (Belleville replacement only):
+        // Number of Meta Keywords +8 (tracked 1, goal 9) —
+        // the 9 verbatim variation forms from the 261023
+        // Belleville content file.
+        ...(isCoraReplBelleville ? { keywords: coraReplBellevilleMetaKeywords261023 } : {}),
         // CORA 2026-10-15 replacement pass (West Orange only):
         // the served page had NO meta keywords tag (Cora's
         // tracked "1" was the phantom read); this creates it
