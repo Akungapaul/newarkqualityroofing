@@ -174,6 +174,11 @@ const graph = {
       '@id': PAGE_URL,
       url: PAGE_URL,
       name: 'Roof Replacement Bloomfield, NJ',
+      // Group 2 (2026-10-24): the 261015 roadmap's Schema
+      // datepublished line — this page's replacement record
+      // entered the repo 2026-10-15 (the run this block
+      // documents); the microdata twin rides the WebPage shell.
+      datePublished: '2026-10-15',
       thumbnailUrl: HERO_URL,
       about: { '@id': `${PAGE_URL}#localbusiness` },
       isPartOf: { '@id': 'https://newarkqualityroofing.com/#website' },
@@ -253,6 +258,7 @@ export function CoraRoadmap261015rBloomfield() {
     >
       <meta itemProp="name" content="Roof Replacement Bloomfield, NJ" />
       <meta itemProp="url" content={PAGE_URL} />
+      <meta itemProp="datePublished" content="2026-10-15" />
       <meta itemProp="thumbnailUrl" content={HERO_URL} />
       <div
         aria-hidden="true"
