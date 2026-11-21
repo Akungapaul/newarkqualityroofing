@@ -207,7 +207,7 @@ export function MobileMenu({ isOpen, onClose, serviceGroups, cityItems, comparis
                           onClick={onClose}
                           className="block rounded px-3 py-1.5 font-body text-sm text-parchment/80 transition-colors duration-150 hover:bg-forest-light/20 hover:text-parchment focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-copper"
                         >
-                          {service.name}
+                          {service.phrase}
                         </Link>
                       </li>
                     ))}

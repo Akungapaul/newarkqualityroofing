@@ -6,6 +6,8 @@ import { comparisons } from '@/data/comparisons';
 import { generateCityPageSlug, generateComboSlug, generateServicePageSlug } from '@/lib/slug-utils';
 import { isKeep } from '@/data/url-classification';
 import { siteConfig } from '@/config/site-config';
+import { HEADING_CONFIG } from '@/data/heading-config';
+import { getServicePagePhrase } from '@/data/nav-data';
 
 // ─── Curated residential services for footer ────────────────────────────────
 
@@ -100,14 +102,16 @@ function getServiceLinksBySlugs(slugs: string[]) {
   return slugs
     .map((slug) => found.find((s) => s.slug === slug))
     .filter((s) => s !== undefined)
-    .map((s) => ({ name: s.name, slug: s.slug }));
+    .map((s) => ({ name: s.name, slug: s.slug, phrase: getServicePagePhrase(s) }));
 }
 
 // ─── Footer component (server component) ───────────────────────────────────
 
 export function Footer() {
   const cityLinks = cities.map((city) => ({
-    name: city.name,
+    // Rule 9 (2026-11-20): footer Service Areas anchors carry the city
+    // page's full Rule 7 phrase (its exact H1), mirroring the header.
+    name: HEADING_CONFIG.city.h1(city.name),
     slug: generateCityPageSlug(city.slug),
     state: city.state,
   }));
@@ -293,7 +297,7 @@ export function Footer() {
               href="/residential-roofing"
               className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
             >
-              Services (Residential)
+              Residential Roofing Newark, NJ
             </Link>
             <ul className="space-y-0.5">
               {residentialServiceLinks.map((service) => (
@@ -302,7 +306,7 @@ export function Footer() {
                     href={`/${generateServicePageSlug(service.slug)}`}
                     className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
                   >
-                    {service.name}
+                    {service.phrase}
                   </Link>
                 </li>
               ))}
@@ -315,7 +319,7 @@ export function Footer() {
               href="/commercial-roofing"
               className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
             >
-              Services (Commercial)
+              Commercial Roofing Newark, NJ
             </Link>
             <ul className="space-y-0.5">
               {commercialServiceLinks.map((service) => (
@@ -324,7 +328,7 @@ export function Footer() {
                     href={`/${generateServicePageSlug(service.slug)}`}
                     className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
                   >
-                    {service.name}
+                    {service.phrase}
                   </Link>
                 </li>
               ))}
@@ -353,9 +357,9 @@ export function Footer() {
       <div className="border-t border-forest-light/20">
         <nav aria-label="Roofing topics" className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-6 gap-y-2 px-4 pt-5 sm:px-6 lg:px-8">
           {[
-            { href: '/flat-roof-systems', label: 'Flat Roof Systems' },
-            { href: '/roofing-materials', label: 'Roofing Materials' },
-            { href: '/free-roofing-estimate', label: 'Free Roofing Estimate' },
+            { href: '/flat-roof-systems', label: 'Flat Roof Systems Newark, NJ' },
+            { href: '/roofing-materials', label: 'Roofing Materials Newark, NJ' },
+            { href: '/free-roofing-estimate', label: 'Free Roofing Estimate Newark, NJ' },
             { href: '/our-roofing-process', label: 'Our Roofing Process' },
           ].map((hub) => (
             <Link

@@ -1,13 +1,36 @@
 import { services } from './services';
 import { cities } from './cities';
 import { comparisons } from './comparisons';
-import { generateCityPageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateServicePageSlug, RETIRED_NEWARK_HUB_SERVICES } from '@/lib/slug-utils';
+import { HEADING_CONFIG } from './heading-config';
+import { getSurferPage } from '@/lib/surfer-verbatim';
+import { comboSlugPhrase } from '@/lib/slug-phrase';
 
 // ─── Plain interfaces (no Zod — safe for client components) ─────────────────
 
 export interface NavServiceItem {
   name: string;
   slug: string;
+  // Rule 9 (2026-11-20): header/footer nav anchors carry the target page's
+  // full Rule 7 phrase — the exact rendered H1 of the service hub page,
+  // resolved through the same chain ServiceHero uses.
+  phrase: string;
+}
+
+/** Exact rendered H1 of a service hub page (mirrors ServiceHero's chain). */
+export function getServicePagePhrase(service: { id: string; name: string; slug: string }): string {
+  // Retired-hub services have no service page: their /{service}-newark-nj URL
+  // is the Newark COMBO page, whose H1 is comboSlugPhrase(slug) (owner rule
+  // 2026-10-04) — verified against the built HTML in the Rule 9 audit; the
+  // service chain's name-based overrides do NOT govern those pages.
+  if (RETIRED_NEWARK_HUB_SERVICES.has(service.slug)) {
+    return comboSlugPhrase(generateServicePageSlug(service.slug));
+  }
+  return (
+    getSurferPage(generateServicePageSlug(service.slug))?.h1 ??
+    HEADING_CONFIG.serviceH1Overrides[service.id] ??
+    HEADING_CONFIG.service.h1(service.name)
+  );
 }
 
 export interface NavServiceGroup {
@@ -65,7 +88,7 @@ export function getServiceMenuGroups(): NavServiceGroup[] {
 
   for (const service of services) {
     const existing = grouped.get(service.category) ?? [];
-    existing.push({ name: service.name, slug: service.slug });
+    existing.push({ name: service.name, slug: service.slug, phrase: getServicePagePhrase(service) });
     grouped.set(service.category, existing);
   }
 
@@ -80,7 +103,9 @@ export function getServiceMenuGroups(): NavServiceGroup[] {
 
 export function getCityMenuItems(): NavCityItem[] {
   return cities.map((city) => ({
-    name: `Roofing in ${city.name}`,
+    // Rule 9 (2026-11-20): the Locations anchor is the city page's full
+    // Rule 7 phrase (its exact H1), not "Roofing in {city}".
+    name: HEADING_CONFIG.city.h1(city.name),
     slug: generateCityPageSlug(city.slug),
   }));
 }

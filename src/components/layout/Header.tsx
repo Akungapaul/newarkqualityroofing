@@ -106,10 +106,10 @@ function ServicesMegaMenu({
         </span>
         <div className="flex flex-wrap gap-2">
           {[
-            { href: '/residential-roofing', label: 'Residential Roofing' },
-            { href: '/commercial-roofing', label: 'Commercial Roofing' },
-            { href: '/flat-roof-systems', label: 'Flat Roof Systems' },
-            { href: '/roofing-materials', label: 'Roofing Materials' },
+            { href: '/residential-roofing', label: 'Residential Roofing Newark, NJ' },
+            { href: '/commercial-roofing', label: 'Commercial Roofing Newark, NJ' },
+            { href: '/flat-roof-systems', label: 'Flat Roof Systems Newark, NJ' },
+            { href: '/roofing-materials', label: 'Roofing Materials Newark, NJ' },
           ].map((hub) => (
             <Link
               key={hub.href}
@@ -138,7 +138,7 @@ function ServicesMegaMenu({
                     className="block rounded px-2 py-1 font-body text-sm text-text-primary transition-colors duration-150 hover:bg-forest/5 hover:text-forest focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
                     role="menuitem"
                   >
-                    {service.name}
+                    {service.phrase}
                   </Link>
                 </li>
               ))}
