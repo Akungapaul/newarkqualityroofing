@@ -2,7 +2,13 @@ import { siteConfig } from '@/data/site-config';
 
 export default function PrivacyPolicyPage() {
   const { companyName, phone, address, email } = siteConfig;
-  const fullAddress = `${address.street}, ${address.city}, ${address.state} ${address.zip}`;
+  // D-01: street and ZIP are unpublished (empty in config) — compose the
+  // address line from non-empty parts only, so it renders "Newark, NJ"
+  // rather than a broken ", Newark, NJ ".
+  const locality = [address.city, address.state].filter(Boolean).join(', ');
+  const fullAddress = [address.street, locality, address.zip]
+    .filter(Boolean)
+    .join(', ');
 
   return (
     <div className="min-h-screen bg-parchment">
@@ -11,7 +17,7 @@ export default function PrivacyPolicyPage() {
           Privacy Policy
         </h1>
         <p className="mt-3 font-body text-sm text-text-secondary">
-          Last updated: March 2026
+          Last updated: October 2026
         </p>
       </header>
 
@@ -115,13 +121,13 @@ export default function PrivacyPolicyPage() {
             </h2>
             <ul className="list-disc space-y-2 pl-6">
               <li>
-                Our website uses cookies to improve functionality, analyze
-                traffic, and personalize your experience.
+                Our website uses cookies to improve functionality and analyze
+                traffic.
               </li>
               <li>
-                We may use Google Analytics or similar tools to understand how
-                visitors use our website. These tools collect anonymous usage
-                data.
+                We use Google Analytics to understand how visitors use our
+                website. Google Analytics sets cookies and collects usage data
+                such as pages viewed, time spent, and referral source.
               </li>
               <li>
                 You can disable cookies through your browser settings. Disabling
@@ -220,14 +226,6 @@ export default function PrivacyPolicyPage() {
             </p>
           </section>
 
-          {/* Legal Disclaimer */}
-          <div className="rounded-lg border border-copper/30 bg-copper/5 p-5">
-            <p className="text-sm text-text-secondary">
-              <strong>Note:</strong> This privacy policy is a template and should
-              be reviewed by a legal professional to ensure compliance with all
-              applicable federal, state, and local regulations.
-            </p>
-          </div>
         </article>
       </main>
     </div>

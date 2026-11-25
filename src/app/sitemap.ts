@@ -52,7 +52,7 @@ const { BASE_URL } = SEO_CONFIG;
 const NOW = new Date().toISOString();
 
 /** Pages that should NOT appear in sitemaps (noindex pages) */
-const EXCLUDED_CORE_PAGES = new Set(['thank-you', 'privacy-policy']);
+const EXCLUDED_CORE_PAGES = new Set(['thank-you', 'privacy-policy', 'accessibility']);
 
 export default async function sitemap({
   id,
