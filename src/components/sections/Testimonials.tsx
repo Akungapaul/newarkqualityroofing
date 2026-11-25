@@ -15,12 +15,12 @@ export function Testimonials() {
   return (
     <section className="bg-white py-16 lg:py-24" aria-labelledby="testimonials-heading">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <h2
+        <h3
           id="testimonials-heading"
           className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl"
         >
           What Newark, NJ Customers Say About Our Roofing
-        </h2>
+        </h3>
         <p className="mx-auto mt-4 max-w-2xl text-center font-body text-lg text-text-secondary">
           Results across Newark’s neighborhoods — from emergency storm response to
           historic slate restoration.

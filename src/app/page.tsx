@@ -88,9 +88,12 @@ const BROWSE_SERVICES = [
 // roadmap's CP380 ask for 306 chars is DECLINED, it is double what Google
 // renders. Both literals are duplicated into openGraph below; edit in pairs.
 export const metadata: Metadata = {
-  title: HEADING_CONFIG.home.h1,
+  // Title + description set verbatim by Paul's direct order 2026-11-25. The
+  // title is decoupled from HEADING_CONFIG.home.h1 (his H1 is a different
+  // string now); openGraph below mirrors these two values, as before.
+  title: 'Best Roofers for Roof Repair Newark NJ',
   description:
-    "Roofing contractors in Newark, NJ for repairs and replacements. Most repairs run $350–$1,500; full replacements $8,500–$25,000+. Free estimates.",
+    "Best roofers for roof replacement, roof repair for flat roof, shingle roofs, roof decks, metal roofs with the best roofing materials in Newark NJ",
   // Cora Phase X, CP438 "Number of comma delimited meta keywords" 0 -> 18
   // (goal 14) and CP382 "Variations in Meta Keywords" 0 -> 15+ (goal 15). The
   // homepage carried NO keywords tag at all. Every term below was verified
@@ -125,9 +128,9 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: HEADING_CONFIG.home.h1,
+    title: 'Best Roofers for Roof Repair Newark NJ',
     description:
-      "Roofing contractors in Newark, NJ for repairs and replacements. Most repairs run $350–$1,500; full replacements $8,500–$25,000+. Free estimates.",
+      "Best roofers for roof replacement, roof repair for flat roof, shingle roofs, roof decks, metal roofs with the best roofing materials in Newark NJ",
     url: '/',
     siteName: 'Newark Quality Roofing',
     type: 'website',
@@ -304,12 +307,12 @@ export default function Home() {
       {/* Roofing Knowledge Base link section */}
       <section className="bg-forest py-14 text-text-on-dark lg:py-20" aria-labelledby="kb-link-heading">
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
-          <h2
+          <h3
             id="kb-link-heading"
             className="font-heading text-3xl font-bold sm:text-4xl"
           >
             Learn More in Our Roofing Knowledge Base
-          </h2>
+          </h3>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment/80">
             Explore expert roofing guides, cost breakdowns, and material comparisons written for
             Newark and Essex County property owners.
@@ -334,12 +337,12 @@ export default function Home() {
       {/* Browse Our Services — curated service links for anchor text */}
       <section className="bg-parchment py-12 lg:py-16" aria-labelledby="browse-services-heading">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2
+          <h3
             id="browse-services-heading"
             className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
           >
             More Roofing Services to Browse
-          </h2>
+          </h3>
           <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
             Explore our full range of roofing services for Newark and Essex County homeowners and businesses.
           </p>
@@ -372,12 +375,12 @@ export default function Home() {
       {/* Embeds: Google Maps service-area map */}
       <section className="bg-parchment py-12 lg:py-16" aria-labelledby="embeds-heading">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2
+          <h3
             id="embeds-heading"
             className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
           >
             Our Roofing Service Area: Newark and Essex County, NJ
-          </h2>
+          </h3>
         </div>
         <div className="mx-auto mt-8 max-w-3xl px-6 lg:px-8">
           <h3 className="mb-4 font-heading text-xl font-semibold text-forest">
@@ -403,12 +406,12 @@ export default function Home() {
         aria-labelledby="cta-heading"
       >
         <div className="mx-auto max-w-3xl px-6 lg:px-8">
-          <h2
+          <h3
             id="cta-heading"
             className="font-heading text-3xl font-bold text-text-on-copper sm:text-4xl"
           >
             {HEADING_CONFIG.home.outerH2s[5]}
-          </h2>
+          </h3>
           <p className="mx-auto mt-4 max-w-xl font-body text-lg text-white/80">
             Get a no-obligation quote from our <em>experienced</em> roofing contractors. We serve
             all of Essex County with registered, insured professionals.{' '}

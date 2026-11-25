@@ -20,6 +20,9 @@ export interface SurferFaq {
 
 export interface SurferSection {
   heading: string;
+  /** Render the section heading at this level instead of the default h2.
+   *  Set per page data only (homepage, Paul 2026-11-25: exactly 6 H2s). */
+  headingLevel?: 'h2' | 'h3';
   blocks?: SurferBlock[];
   faqs?: SurferFaq[];
 }

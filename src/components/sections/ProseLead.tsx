@@ -79,11 +79,15 @@ interface SectionHeadingProps {
   id: string;
   icon: React.ReactNode;
   children: React.ReactNode;
+  /** Heading level to render; defaults to h2. Data-driven demotion only
+   *  (homepage Surfer sections, Paul 2026-11-25). */
+  level?: 'h2' | 'h3';
 }
 
 /** H2 with a small copper icon chip. The icon is a sibling of the <h2> (not a
  *  child) so the heading's text stays pristine for the rendered heading audit. */
-export function SectionHeading({ id, icon, children }: SectionHeadingProps) {
+export function SectionHeading({ id, icon, children, level = 'h2' }: SectionHeadingProps) {
+  const Tag = level;
   return (
     <div className="flex items-center gap-3">
       <span
@@ -92,9 +96,9 @@ export function SectionHeading({ id, icon, children }: SectionHeadingProps) {
       >
         {icon}
       </span>
-      <h2 id={id} className="scroll-mt-24 font-heading text-2xl font-bold text-forest sm:text-3xl">
+      <Tag id={id} className="scroll-mt-24 font-heading text-2xl font-bold text-forest sm:text-3xl">
         {children}
-      </h2>
+      </Tag>
     </div>
   );
 }

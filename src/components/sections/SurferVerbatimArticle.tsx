@@ -145,7 +145,7 @@ export function SurferVerbatimArticle({ page, ctaServiceName }: SurferVerbatimAr
         return (
           <AnimateIn key={headingId}>
             <section aria-labelledby={headingId}>
-              <SectionHeading id={headingId} icon={SECTION_ICON}>{section.heading}</SectionHeading>
+              <SectionHeading id={headingId} icon={SECTION_ICON} level={section.headingLevel}>{section.heading}</SectionHeading>
               <div className="mt-5">
                 {section.faqs ? (
                   <div className="divide-y divide-forest/10 rounded-lg border border-forest/15">

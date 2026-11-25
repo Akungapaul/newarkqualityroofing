@@ -27,9 +27,11 @@
 export const HEADING_CONFIG = {
   // ─── §4.1 Homepage (constant strings) ──────────────────────────────────────
   home: {
-    // Owner rule (2026-09-24): H1 = title tag = "[Service] [City], NJ", with the
-    // keyword ("roofing contractors newark nj") in slug/title/H1/first sentence.
-    h1: 'Roofing Contractors Newark, NJ',
+    // Owner rule (2026-09-24) was H1 = title tag = "[Service] [City], NJ".
+    // SUPERSEDED for the homepage by Paul's direct order 2026-11-25: the H1 and
+    // the title tag are now two distinct strings he supplied verbatim (the
+    // title lives in src/app/page.tsx metadata, decoupled from this value).
+    h1: 'Roofing Contractor Newark NJ | Local Roofers providing comprehensive roof repair serving Newark NJ',
     coreH2: 'Roofing Services We Provide in Newark and Essex County, NJ',
     // NOTE: the Core services are rendered by ServicesGrid as declarative,
     // linked service cards (styled text, NOT <h3> headings), so no per-service
