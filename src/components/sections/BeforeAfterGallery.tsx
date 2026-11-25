@@ -250,12 +250,12 @@ export function BeforeAfterGallery() {
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center">
-            <h2
+            <h3
               id="gallery-heading"
               className="font-heading text-3xl font-bold text-forest sm:text-4xl"
             >
               Our Recent Roofing Projects in Newark, NJ
-            </h2>
+            </h3>
             <p className="mt-3 font-body text-base text-text-secondary">
               Drag the slider to see before and after
             </p>

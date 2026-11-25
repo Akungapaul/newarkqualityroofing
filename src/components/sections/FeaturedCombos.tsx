@@ -31,12 +31,12 @@ export function FeaturedCombos() {
       aria-labelledby="featured-combos-heading"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2
+        <h3
           id="featured-combos-heading"
           className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
         >
           Popular Roofing Services in Each Essex County, NJ City
-        </h2>
+        </h3>
         <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
           Find expert roofing services in your Essex County neighborhood. Select your city and service below.
         </p>

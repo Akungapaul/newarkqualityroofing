@@ -27,12 +27,12 @@ export function HomepageGuides({ articles }: HomepageGuidesProps) {
       aria-labelledby="roofing-guides-heading"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2
+        <h3
           id="roofing-guides-heading"
           className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
         >
           Roofing Guides to Help You Decide
-        </h2>
+        </h3>
         <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
           Expert resources to help you make informed roofing decisions for your Essex County property.
         </p>

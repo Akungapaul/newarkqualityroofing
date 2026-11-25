@@ -33,9 +33,9 @@ export function PriorityIndexingHub() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="max-w-3xl">
           <p className="font-body text-sm font-bold uppercase tracking-[0.18em] text-copper-dark">Popular roofing pages</p>
-          <h2 id="priority-indexing-heading" className="mt-3 font-heading text-3xl font-bold text-forest sm:text-4xl">
+          <h3 id="priority-indexing-heading" className="mt-3 font-heading text-3xl font-bold text-forest sm:text-4xl">
             Newark, NJ Roofing Pages to Explore First
-          </h2>
+          </h3>
           <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
             These quick links point you straight to the roofing services, cities, and service-area pages Newark and Essex County property owners search for most.
           </p>
