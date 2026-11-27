@@ -89,12 +89,18 @@ const BROWSE_SERVICES = [
 // roadmap's CP380 ask for 306 chars is DECLINED, it is double what Google
 // renders. Both literals are duplicated into openGraph below; edit in pairs.
 export const metadata: Metadata = {
-  // Title + description set verbatim by Paul's direct order 2026-11-25. The
-  // title is decoupled from HEADING_CONFIG.home.h1 (his H1 is a different
-  // string now); openGraph below mirrors these two values, as before.
-  title: 'Best Roofers for Roof Repair Newark NJ',
+  // Title + description set verbatim by Paul's direct order 2026-11-25, then
+  // REPLACED 2026-11-27 on Paul's ruling that ALL Cora lines be implemented
+  // (run 261125, "roofer newark nj", Phase 1 rows 14-20, 22, 23, 25, 29, 30,
+  // 32, 33, 37): title built to 13 words / ~98 chars carrying 'newark
+  // roofers', 'roof repair' x2, 'repair' x2, 'installation', 'gutter';
+  // description carrying 'gutter' x3, 'roof repair' x2, 'roof installation',
+  // 'newark roofers'. The title is decoupled from HEADING_CONFIG.home.h1;
+  // openGraph below mirrors these two values, as before.
+  title:
+    'Newark Roofers for Roof Repair, Gutter Installation, Roof Repair, Replacement Contractors, New Jersey',
   description:
-    "Best roofers for roof replacement, roof repair for flat roof, shingle roofs, roof decks, metal roofs with the best roofing materials in Newark NJ",
+    'Newark roofers for roof repair, roof installation, and gutter work in Newark NJ: gutter installation, gutter repair, and a roof repair service that documents every repair.',
   // Cora Phase X, CP438 "Number of comma delimited meta keywords" 0 -> 18
   // (goal 14) and CP382 "Variations in Meta Keywords" 0 -> 15+ (goal 15). The
   // homepage carried NO keywords tag at all. Every term below was verified
@@ -129,9 +135,10 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Best Roofers for Roof Repair Newark NJ',
+    title:
+      'Newark Roofers for Roof Repair, Gutter Installation, Roof Repair, Replacement Contractors, New Jersey',
     description:
-      "Best roofers for roof replacement, roof repair for flat roof, shingle roofs, roof decks, metal roofs with the best roofing materials in Newark NJ",
+      'Newark roofers for roof repair, roof installation, and gutter work in Newark NJ: gutter installation, gutter repair, and a roof repair service that documents every repair.',
     url: '/',
     siteName: 'Newark Quality Roofing',
     type: 'website',

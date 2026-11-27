@@ -103,6 +103,59 @@ export function CoraRoadmap261125Homepage() {
           this roofer newark nj page is kept to, and it is the standard the crews are held to
           on every job in Essex County.
         </p>
+
+        {/* Phase 1 heading lines (rows 24, 26, 31, 34, 36) — added 2026-11-27
+            on Paul's ruling that ALL lines be implemented and the text may be
+            hidden: this H1 and the five H2s below live inside the collapsed
+            block so the page's visible H1 and Paul's exact 6 visible H2s stay
+            word-for-word untouched. */}
+        <h1 className="mt-8 mb-3 font-heading text-3xl font-bold text-forest">
+          Roofing Contractors Newark NJ: Roof Repair, Roof Installation, and Gutter Services
+          from Local Roofing Contractors
+        </h1>
+        <p className={pClass}>
+          This heading index collects the heading-level notes for the homepage: how roofing
+          contractors in Newark NJ scope roof repair, roof installation, and gutter services,
+          and how local roofing contractors document the work for the homeowner.
+        </p>
+
+        <h2 className={h3Class}>
+          Roofing Contractors in Newark NJ: How Local Roofing Contractors Estimate a Job
+        </h2>
+        <p className={pClass}>
+          Roofing contractors in Newark NJ estimate from a roof-level inspection: deck
+          condition, flashing, ventilation, and the gutter line all enter the written scope
+          before any price is quoted.
+        </p>
+
+        <h2 className={h3Class}>Roof Repair in Newark NJ: What a Repair Visit Covers</h2>
+        <p className={pClass}>
+          A repair visit covers the leak trace, the attic check, the flashing and vent
+          inspection, and a written scope for the roof repair in Newark NJ homes and
+          businesses.
+        </p>
+
+        <h2 className={h3Class}>Newark Roofers: How Newark Crews Schedule Roof Work</h2>
+        <p className={pClass}>
+          Newark roofers schedule inspections first, then repairs, then full installations,
+          so every crew arrives with the materials the inspection called for.
+        </p>
+
+        <h2 className={h3Class}>
+          Gutter Installation and Gutter Repair: Protecting the Roof Edge
+        </h2>
+        <p className={pClass}>
+          Gutter installation and gutter repair protect the roof edge, the fascia, and the
+          foundation; the gutter notes above record how the crews size and pitch each run.
+        </p>
+
+        <h2 className={h3Class}>
+          Roofing Services in Newark NJ: Inspections, Repairs, and Replacements
+        </h2>
+        <p className={pClass}>
+          The roofing services in Newark NJ covered on this site run from inspections and
+          leak repairs to full replacements, each with its own page in the directory above.
+        </p>
       </details>
     </section>
   );
