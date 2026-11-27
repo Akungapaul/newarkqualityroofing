@@ -40,6 +40,7 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 import { getHomepageImage, getOGImage } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import { SurferVerbatimArticle } from '@/components/sections/SurferVerbatimArticle';
+import { CoraRoadmap261125Homepage } from '@/components/sections/CoraRoadmap261125Homepage';
 import { getSurferPage, surferFaqs } from '@/lib/surfer-verbatim';
 
 // Owner-approved Surfer draft synced verbatim onto the homepage (replaces the body copy).
@@ -465,6 +466,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* CORA 261125 (roofer newark nj) Phase 1+2 variation block — collapsed */}
+      <CoraRoadmap261125Homepage />
     </>
   );
 }
